@@ -1,0 +1,241 @@
+.communities-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.communities-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.communities-header h1 {
+  font-size: 2.5rem;
+  color: var(--color-gold);
+  margin-bottom: 1rem;
+}
+
+.communities-header p {
+  color: var(--color-text-light);
+  font-size: 1.1rem;
+}
+
+.communities-actions {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.communities-filters {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.search-box {
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: var(--color-bg-light);
+  border: 1px solid var(--color-border-light);
+  border-radius: 8px;
+  color: var(--color-text);
+}
+
+.search-box input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  color: var(--color-text);
+  font-size: 1rem;
+  outline: none;
+}
+
+.filter-select,
+.culture-input {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--color-border-light);
+  border-radius: 8px;
+  background: var(--color-bg-light);
+  color: var(--color-text);
+  font-size: 1rem;
+  min-width: 150px;
+}
+
+.culture-input {
+  min-width: 200px;
+}
+
+.communities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.community-card {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border-light);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.community-card:hover {
+  box-shadow: 0 8px 24px var(--color-shadow);
+  transform: translateY(-4px);
+}
+
+.community-cover {
+  width: 100%;
+  height: 120px;
+  overflow: hidden;
+  background: var(--color-bg-light);
+}
+
+.community-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.community-content {
+  padding: 1.5rem;
+}
+
+.community-header-card {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.community-avatar,
+.community-avatar-placeholder {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--color-bg);
+  flex-shrink: 0;
+}
+
+.community-avatar-placeholder {
+  background: var(--color-gold);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.community-info {
+  flex: 1;
+}
+
+.community-info h3 {
+  color: var(--color-text);
+  margin: 0 0 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+.community-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+}
+
+.community-description {
+  color: var(--color-text-light);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.community-stats {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.community-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tag {
+  background: var(--color-bg-light);
+  color: var(--color-gold);
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.community-actions {
+  margin-top: 1rem;
+}
+
+.community-actions .btn {
+  width: 100%;
+  justify-content: center;
+}
+
+.loading,
+.empty-state {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: var(--color-text-muted);
+}
+
+.error-message {
+  background: rgba(231, 76, 60, 0.1);
+  border: 1px solid #e74c3c;
+  color: #e74c3c;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .communities-page {
+    padding: 1rem;
+  }
+
+  .communities-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .communities-filters {
+    flex-direction: column;
+  }
+
+  .search-box,
+  .filter-select,
+  .culture-input {
+    width: 100%;
+  }
+}
+

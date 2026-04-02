@@ -1,0 +1,283 @@
+.admin-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.stat-card-admin {
+  padding: 1.5rem;
+  background: var(--color-bg-card);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  position: relative;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Amélioration du contraste pour les cartes en mode sombre */
+[data-theme="dark"] .stat-card-admin,
+.stat-card-admin:not([data-theme]) {
+  background: rgba(61, 42, 31, 0.6);
+  border-color: rgba(212, 175, 55, 0.4);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Amélioration du contraste pour les cartes en mode clair */
+[data-theme="light"] .stat-card-admin {
+  background: rgba(255, 255, 255, 0.95);
+  border-color: rgba(212, 175, 55, 0.5);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stat-card-admin.clickable {
+  cursor: pointer;
+}
+
+.stat-card-admin.clickable:hover {
+  transform: translateY(-6px);
+  border-color: var(--color-primary);
+  box-shadow: 0 16px 40px var(--color-shadow-gold);
+}
+
+.stat-card-footer {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: var(--color-gold);
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+/* Amélioration du contraste pour le footer en mode sombre */
+[data-theme="dark"] .stat-card-footer,
+.stat-card-footer:not([data-theme]) {
+  color: #d4af37;
+  border-top-color: rgba(212, 175, 55, 0.4);
+}
+
+/* Amélioration du contraste pour le footer en mode clair */
+[data-theme="light"] .stat-card-footer {
+  color: #b8941f;
+  border-top-color: rgba(212, 175, 55, 0.5);
+}
+
+.stat-card-admin:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-primary);
+  box-shadow: 0 12px 32px var(--color-shadow-gold);
+}
+
+.stat-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.stat-icon-wrapper {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Amélioration de la visibilité des icônes */
+[data-theme="dark"] .stat-icon-wrapper,
+.stat-icon-wrapper:not([data-theme]) {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme="light"] .stat-icon-wrapper {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.stat-change {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.stat-change.positive {
+  background: rgba(39, 174, 96, 0.3);
+  color: #27ae60;
+  border: 1px solid rgba(39, 174, 96, 0.4);
+}
+
+/* Amélioration du contraste pour les badges de changement */
+[data-theme="dark"] .stat-change.positive,
+.stat-change.positive:not([data-theme]) {
+  background: rgba(39, 174, 96, 0.4);
+  color: #2ecc71;
+  border-color: rgba(39, 174, 96, 0.6);
+}
+
+[data-theme="light"] .stat-change.positive {
+  background: rgba(39, 174, 96, 0.25);
+  color: #27ae60;
+  border-color: rgba(39, 174, 96, 0.5);
+}
+
+.stat-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--color-text);
+  margin: 0;
+  line-height: 1;
+}
+
+/* Amélioration du contraste pour les valeurs en mode sombre */
+[data-theme="dark"] .stat-value,
+.stat-value:not([data-theme]) {
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Amélioration du contraste pour les valeurs en mode clair */
+[data-theme="light"] .stat-value {
+  color: #1a1410;
+  font-weight: 900;
+}
+
+.stat-label {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  margin: 0;
+  font-weight: 500;
+}
+
+/* Amélioration du contraste pour les labels en mode sombre */
+[data-theme="dark"] .stat-label,
+.stat-label:not([data-theme]) {
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 600;
+}
+
+/* Amélioration du contraste pour les labels en mode clair */
+[data-theme="light"] .stat-label {
+  color: #2d1f1a;
+  font-weight: 600;
+}
+
+.stats-actions {
+  margin-top: 1rem;
+}
+
+.quick-actions-card {
+  padding: 2rem;
+  background: var(--color-bg-card);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+}
+
+.quick-actions-card h3 {
+  color: var(--color-gold);
+  font-size: 1.5rem;
+  margin: 0 0 1.5rem 0;
+  font-weight: 700;
+}
+
+/* Amélioration du contraste pour le titre des actions rapides */
+[data-theme="dark"] .quick-actions-card h3,
+.quick-actions-card h3:not([data-theme]) {
+  color: #d4af37;
+  text-shadow: 0 0 8px rgba(212, 175, 55, 0.3);
+}
+
+[data-theme="light"] .quick-actions-card h3 {
+  color: #b8941f;
+}
+
+.quick-actions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.quick-action-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 1.5rem;
+  background: var(--color-bg-hover);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  color: var(--color-text);
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+  text-align: left;
+}
+
+/* Amélioration du contraste pour les boutons d'action rapide */
+[data-theme="dark"] .quick-action-btn,
+.quick-action-btn:not([data-theme]) {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(212, 175, 55, 0.4);
+  color: rgba(255, 255, 255, 0.95);
+  font-weight: 600;
+}
+
+[data-theme="light"] .quick-action-btn {
+  background: rgba(45, 31, 26, 0.15);
+  border-color: rgba(212, 175, 55, 0.5);
+  color: #1a1410;
+  font-weight: 600;
+}
+
+.quick-action-btn:hover {
+  background: var(--color-bg-hover);
+  border-color: var(--color-primary);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px var(--color-shadow-gold);
+}
+
+.quick-action-btn svg {
+  color: var(--color-gold);
+  flex-shrink: 0;
+}
+
+/* Amélioration du contraste pour les icônes des boutons */
+[data-theme="dark"] .quick-action-btn svg,
+.quick-action-btn svg:not([data-theme]) {
+  color: #d4af37;
+}
+
+[data-theme="light"] .quick-action-btn svg {
+  color: #b8941f;
+}
+
+@media (max-width: 768px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .quick-actions-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

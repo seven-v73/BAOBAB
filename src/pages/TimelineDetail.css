@@ -1,0 +1,250 @@
+.timeline-detail-page {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-text);
+  text-decoration: none;
+  margin-bottom: 2rem;
+  transition: color 0.3s ease;
+}
+
+.back-link span {
+  display: inline-block;
+}
+
+.back-link:hover {
+  color: var(--color-primary);
+}
+
+.event-header {
+  margin-bottom: 3rem;
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, var(--color-primary) 0%, rgba(212, 175, 55, 0.8) 100%);
+  border-radius: 16px;
+  color: white;
+}
+
+.event-header-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.event-period-badge {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.event-header-content h1 {
+  font-size: 3rem;
+  margin: 1rem 0;
+  color: white;
+}
+
+.event-date-info,
+.event-location-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+.event-date-info span:first-child,
+.event-location-info span:first-child {
+  display: inline-block;
+}
+
+.event-verified-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: rgba(16, 185, 129, 0.9);
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.event-verified-badge span:first-child {
+  display: inline-block;
+}
+
+.event-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.event-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.event-description-card,
+.event-categories-card,
+.event-images-card,
+.event-sources-card,
+.event-related-card {
+  padding: 2rem;
+}
+
+.event-description-card h2,
+.event-categories-card h3,
+.event-images-card h3,
+.event-sources-card h3,
+.event-related-card h3 {
+  margin-bottom: 1.5rem;
+  color: var(--color-text);
+}
+
+.event-description-text p {
+  margin-bottom: 1rem;
+  line-height: 1.8;
+  color: var(--color-text);
+}
+
+.categories-list {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.category-badge {
+  padding: 0.5rem 1rem;
+  background: var(--color-primary);
+  color: white;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.images-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.images-gallery img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.sources-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.source-item {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--color-bg-hover);
+  border-radius: 8px;
+  border-left: 4px solid var(--color-primary);
+}
+
+.source-item span:first-child {
+  color: var(--color-primary);
+  flex-shrink: 0;
+  display: inline-block;
+}
+
+.source-item strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--color-text);
+}
+
+.source-item p {
+  margin: 0.25rem 0;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.source-item a {
+  color: var(--color-primary);
+  text-decoration: none;
+  margin-top: 0.5rem;
+  display: inline-block;
+}
+
+.source-item a:hover {
+  text-decoration: underline;
+}
+
+.related-events-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.related-event-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: var(--color-bg-hover);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 1px solid var(--color-border);
+}
+
+.related-event-link:hover {
+  transform: translateX(4px);
+  border-color: var(--color-primary);
+}
+
+.related-event-link strong {
+  display: block;
+  color: var(--color-text);
+  margin-bottom: 0.25rem;
+}
+
+.related-event-link p {
+  margin: 0;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.icon-arrow-right {
+  transform: rotate(180deg);
+}
+
+.timeline-detail-loading,
+.timeline-detail-not-found {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: var(--color-text-muted);
+}
+
+@media (max-width: 768px) {
+  .event-header-content h1 {
+    font-size: 2rem;
+  }
+
+  .images-gallery {
+    grid-template-columns: 1fr;
+  }
+}
+

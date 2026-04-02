@@ -1,0 +1,565 @@
+/* Effets visuels élégants pour remplacer les icônes */
+
+/* Effet de brillance animée */
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.shimmer-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.shimmer-effect::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  animation: shimmer 2s infinite;
+}
+
+/* Effet de pulsation douce */
+@keyframes pulse-soft {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
+
+.pulse-effect {
+  animation: pulse-soft 2s ease-in-out infinite;
+}
+
+/* Effet de vague animée */
+@keyframes wave {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.wave-effect {
+  animation: wave 2s ease-in-out infinite;
+}
+
+/* Effet de gradient animé */
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.gradient-effect {
+  background: linear-gradient(
+    -45deg,
+    var(--color-primary),
+    var(--color-gold-light),
+    var(--color-primary),
+    var(--color-gold-bright)
+  );
+  background-size: 400% 400%;
+  animation: gradient-shift 3s ease infinite;
+}
+
+/* Effet de lueur dorée */
+.glow-effect {
+  position: relative;
+}
+
+.glow-effect::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle,
+    rgba(212, 175, 55, 0.3) 0%,
+    transparent 70%
+  );
+  border-radius: 50%;
+  animation: pulse-soft 2s ease-in-out infinite;
+  pointer-events: none;
+}
+
+/* Effet de barre de progression animée */
+.progress-bar-effect {
+  position: relative;
+  overflow: hidden;
+  height: 4px;
+  background: var(--color-bg-hover);
+  border-radius: 2px;
+}
+
+.progress-bar-effect::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    var(--color-primary),
+    var(--color-gold-light),
+    var(--color-primary)
+  );
+  background-size: 200% 100%;
+  animation: gradient-shift 2s linear infinite;
+  border-radius: 2px;
+}
+
+/* Effet de cercle concentrique */
+.circle-effect {
+  position: relative;
+  display: inline-block;
+}
+
+.circle-effect::before,
+.circle-effect::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid var(--color-primary);
+  border-radius: 50%;
+  opacity: 0.6;
+}
+
+.circle-effect::before {
+  width: 100%;
+  height: 100%;
+  animation: pulse-soft 2s ease-in-out infinite;
+}
+
+.circle-effect::after {
+  width: 120%;
+  height: 120%;
+  animation: pulse-soft 2s ease-in-out infinite 0.5s;
+}
+
+/* Effet de ligne animée */
+.line-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.line-effect::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
+  animation: line-slide 2s ease-in-out infinite;
+}
+
+@keyframes line-slide {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+/* Effet de particules flottantes */
+.particles-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.particles-effect::before,
+.particles-effect::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: var(--color-primary);
+  border-radius: 50%;
+  opacity: 0.6;
+  animation: float 3s ease-in-out infinite;
+}
+
+.particles-effect::before {
+  top: 20%;
+  left: 20%;
+  animation-delay: 0s;
+}
+
+.particles-effect::after {
+  top: 60%;
+  right: 20%;
+  animation-delay: 1.5s;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) translateX(0);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(-20px) translateX(10px);
+    opacity: 0.3;
+  }
+}
+
+/* Effet de rotation douce */
+@keyframes rotate-smooth {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-effect {
+  animation: rotate-smooth 20s linear infinite;
+}
+
+/* Effet de zoom doux au survol */
+.zoom-hover {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.zoom-hover:hover {
+  transform: scale(1.05);
+}
+
+/* Effet de brillance au survol */
+.hover-shine {
+  position: relative;
+  overflow: hidden;
+}
+
+.hover-shine::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.3),
+    transparent
+  );
+  transition: left 0.5s ease;
+}
+
+.hover-shine:hover::before {
+  left: 100%;
+}
+
+/* Effet de bordure animée */
+.border-glow {
+  position: relative;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+.border-glow::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  padding: 2px;
+  background: linear-gradient(
+    45deg,
+    var(--color-primary),
+    var(--color-gold-light),
+    var(--color-primary)
+  );
+  background-size: 200% 200%;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: gradient-shift 3s ease infinite;
+  z-index: -1;
+}
+
+/* Effet de texte dégradé animé */
+.text-gradient-animated {
+  background: linear-gradient(
+    -45deg,
+    var(--color-primary),
+    var(--color-gold-light),
+    var(--color-primary),
+    var(--color-gold-bright)
+  );
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradient-shift 3s ease infinite;
+}
+
+/* Effet de flou progressif */
+.blur-fade {
+  transition: filter 0.3s ease, opacity 0.3s ease;
+}
+
+.blur-fade:hover {
+  filter: blur(2px);
+  opacity: 0.8;
+}
+
+/* Effet de lumière qui traverse */
+.light-sweep {
+  position: relative;
+  overflow: hidden;
+}
+
+.light-sweep::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  transform: skewX(-20deg);
+  animation: sweep 3s ease-in-out infinite;
+}
+
+@keyframes sweep {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 150%;
+  }
+}
+
+/* Effet de respiration */
+@keyframes breathe {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.9;
+  }
+}
+
+.breathe-effect {
+  animation: breathe 3s ease-in-out infinite;
+}
+
+/* Effet de rebond doux */
+@keyframes bounce-soft {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.bounce-effect {
+  animation: bounce-soft 2s ease-in-out infinite;
+}
+
+/* Effet de rotation 3D */
+@keyframes rotate-3d {
+  0% {
+    transform: perspective(1000px) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(1000px) rotateY(360deg);
+  }
+}
+
+.rotate-3d-effect {
+  animation: rotate-3d 10s linear infinite;
+  transform-style: preserve-3d;
+}
+
+/* Effet de vague de lumière */
+.wave-light {
+  position: relative;
+  overflow: hidden;
+}
+
+.wave-light::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(212, 175, 55, 0.2) 0%,
+    transparent 50%
+  );
+  animation: wave 3s ease-in-out infinite;
+}
+
+/* Effet de néon doux */
+.neon-effect {
+  text-shadow: 
+    0 0 5px var(--color-primary),
+    0 0 10px var(--color-primary),
+    0 0 15px var(--color-primary),
+    0 0 20px var(--color-primary);
+  animation: pulse-soft 2s ease-in-out infinite;
+}
+
+/* Effet de miroir */
+.mirror-effect {
+  position: relative;
+}
+
+.mirror-effect::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.1),
+    transparent
+  );
+  pointer-events: none;
+}
+
+/* Effet de profondeur */
+.depth-effect {
+  box-shadow: 
+    0 1px 3px rgba(0, 0, 0, 0.12),
+    0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: box-shadow 0.3s ease;
+}
+
+.depth-effect:hover {
+  box-shadow: 
+    0 10px 20px rgba(0, 0, 0, 0.19),
+    0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+/* Effet de liquide */
+.liquid-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.liquid-effect::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(
+    circle,
+    rgba(212, 175, 55, 0.1) 0%,
+    transparent 70%
+  );
+  animation: rotate-smooth 10s linear infinite;
+}
+
+/* Effet de feuille qui tombe */
+@keyframes leaf-fall {
+  0% {
+    transform: translateY(-100%) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.leaf-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.leaf-effect::before {
+  content: '🍃';
+  position: absolute;
+  top: -20px;
+  left: 10%;
+  font-size: 20px;
+  animation: leaf-fall 5s linear infinite;
+  opacity: 0.6;
+}
+
+/* Effet de constellation */
+.constellation-effect {
+  position: relative;
+}
+
+.constellation-effect::before,
+.constellation-effect::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: var(--color-primary);
+  border-radius: 50%;
+  box-shadow: 
+    10px 20px 0 var(--color-primary),
+    30px 10px 0 var(--color-primary),
+    50px 30px 0 var(--color-primary),
+    70px 15px 0 var(--color-primary);
+  opacity: 0.6;
+  animation: pulse-soft 3s ease-in-out infinite;
+}
+
+.constellation-effect::before {
+  top: 10%;
+  left: 10%;
+}
+
+.constellation-effect::after {
+  bottom: 10%;
+  right: 10%;
+  animation-delay: 1.5s;
+}
+

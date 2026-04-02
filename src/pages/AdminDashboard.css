@@ -1,0 +1,432 @@
+.admin-dashboard {
+  display: flex;
+  min-height: calc(100vh - 80px);
+  background: var(--color-bg);
+}
+
+/* Sidebar */
+.admin-sidebar {
+  width: 280px;
+  background: var(--color-bg-secondary);
+  backdrop-filter: blur(10px);
+  border-right: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 80px;
+  height: calc(100vh - 80px);
+  overflow-y: auto;
+}
+
+.admin-sidebar-header {
+  padding: 2rem 1.5rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.admin-sidebar-header h2 {
+  font-size: 1.5rem;
+  color: var(--color-gold);
+  margin: 0 0 0.5rem 0;
+  font-weight: 800;
+}
+
+/* Amélioration du contraste pour le titre */
+[data-theme="dark"] .admin-sidebar-header h2,
+.admin-sidebar-header h2:not([data-theme]) {
+  color: #d4af37;
+  text-shadow: 0 0 8px rgba(212, 175, 55, 0.4);
+}
+
+[data-theme="light"] .admin-sidebar-header h2 {
+  color: #b8941f;
+}
+
+.admin-role {
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+/* Amélioration du contraste pour le rôle */
+[data-theme="dark"] .admin-role,
+.admin-role:not([data-theme]) {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+[data-theme="light"] .admin-role {
+  color: #4d3a2f;
+}
+
+.admin-nav {
+  flex: 1;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.admin-nav-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background: transparent;
+  border: none;
+  color: var(--color-text);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: left;
+  font-family: inherit;
+  position: relative;
+  font-weight: 500;
+}
+
+/* Amélioration du contraste pour le texte en mode sombre */
+[data-theme="dark"] .admin-nav-item,
+.admin-nav-item:not([data-theme]) {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+/* Amélioration du contraste pour le texte en mode clair */
+[data-theme="light"] .admin-nav-item {
+  color: #1a1410;
+  font-weight: 600;
+}
+
+.admin-nav-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--color-primary);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.admin-nav-item:hover {
+  background: var(--color-bg-hover);
+  color: var(--color-text);
+}
+
+/* Amélioration du contraste au survol */
+[data-theme="dark"] .admin-nav-item:hover,
+.admin-nav-item:hover:not([data-theme]) {
+  color: rgba(255, 255, 255, 1);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+[data-theme="light"] .admin-nav-item:hover {
+  color: #1a1410;
+  background: rgba(45, 31, 26, 0.2);
+}
+
+.admin-nav-item:hover::before {
+  opacity: 1;
+}
+
+.admin-nav-item.active {
+  background: var(--color-bg-hover);
+  color: var(--color-gold);
+  font-weight: 700;
+}
+
+/* Amélioration du contraste pour l'élément actif */
+[data-theme="dark"] .admin-nav-item.active,
+.admin-nav-item.active:not([data-theme]) {
+  color: #d4af37;
+  background: rgba(212, 175, 55, 0.15);
+  text-shadow: 0 0 8px rgba(212, 175, 55, 0.3);
+}
+
+[data-theme="light"] .admin-nav-item.active {
+  color: #b8941f;
+  background: rgba(212, 175, 55, 0.2);
+  font-weight: 700;
+}
+
+.admin-nav-item.active::before {
+  opacity: 1;
+}
+
+.admin-nav-item svg {
+  flex-shrink: 0;
+  color: inherit;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.admin-nav-item:hover svg,
+.admin-nav-item.active svg {
+  opacity: 1;
+}
+
+/* Styles pour les icônes CSS dans les éléments de navigation */
+.admin-nav-item span[class^="icon-"] {
+  flex-shrink: 0;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  opacity: 1;
+  transition: all 0.3s ease;
+  color: inherit;
+  position: relative;
+}
+
+/* Visibilité des icônes en mode sombre - couleur explicite pour les pseudo-éléments */
+[data-theme="dark"] .admin-nav-item span[class^="icon-"],
+.admin-nav-item span[class^="icon-"]:not([data-theme]) {
+  opacity: 1;
+}
+
+[data-theme="dark"] .admin-nav-item span[class^="icon-"]::before,
+[data-theme="dark"] .admin-nav-item span[class^="icon-"]::after,
+.admin-nav-item span[class^="icon-"]:not([data-theme])::before,
+.admin-nav-item span[class^="icon-"]:not([data-theme])::after {
+  color: rgba(255, 255, 255, 0.95) !important;
+  border-color: rgba(255, 255, 255, 0.95) !important;
+  background: rgba(255, 255, 255, 0.95) !important;
+}
+
+/* Visibilité des icônes en mode clair - couleur explicite */
+[data-theme="light"] .admin-nav-item span[class^="icon-"] {
+  opacity: 1;
+}
+
+[data-theme="light"] .admin-nav-item span[class^="icon-"]::before,
+[data-theme="light"] .admin-nav-item span[class^="icon-"]::after {
+  color: #1a1410 !important;
+  border-color: #1a1410 !important;
+  background: #1a1410 !important;
+}
+
+/* Icônes au survol */
+.admin-nav-item:hover span[class^="icon-"] {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+[data-theme="dark"] .admin-nav-item:hover span[class^="icon-"]::before,
+[data-theme="dark"] .admin-nav-item:hover span[class^="icon-"]::after,
+.admin-nav-item:hover span[class^="icon-"]:not([data-theme])::before,
+.admin-nav-item:hover span[class^="icon-"]:not([data-theme])::after {
+  color: rgba(255, 255, 255, 1) !important;
+  border-color: rgba(255, 255, 255, 1) !important;
+  background: rgba(255, 255, 255, 1) !important;
+}
+
+[data-theme="light"] .admin-nav-item:hover span[class^="icon-"]::before,
+[data-theme="light"] .admin-nav-item:hover span[class^="icon-"]::after {
+  color: #1a1410 !important;
+  border-color: #1a1410 !important;
+  background: #1a1410 !important;
+}
+
+/* Icônes pour l'élément actif */
+.admin-nav-item.active span[class^="icon-"] {
+  opacity: 1;
+}
+
+[data-theme="dark"] .admin-nav-item.active span[class^="icon-"]::before,
+[data-theme="dark"] .admin-nav-item.active span[class^="icon-"]::after,
+.admin-nav-item.active span[class^="icon-"]:not([data-theme])::before,
+.admin-nav-item.active span[class^="icon-"]:not([data-theme])::after {
+  color: #d4af37 !important;
+  border-color: #d4af37 !important;
+  background: #d4af37 !important;
+  filter: drop-shadow(0 0 4px rgba(212, 175, 55, 0.5));
+}
+
+[data-theme="light"] .admin-nav-item.active span[class^="icon-"]::before,
+[data-theme="light"] .admin-nav-item.active span[class^="icon-"]::after {
+  color: #b8941f !important;
+  border-color: #b8941f !important;
+  background: #b8941f !important;
+}
+
+.admin-nav-item span:not([class^="icon-"]) {
+  flex: 1;
+  text-align: left;
+}
+
+/* Amélioration spécifique pour le texte "Vue d'ensemble" et autres labels */
+[data-theme="dark"] .admin-nav-item span,
+.admin-nav-item span:not([data-theme]) {
+  color: rgba(255, 255, 255, 0.95);
+  font-weight: 500;
+}
+
+[data-theme="light"] .admin-nav-item span {
+  color: #1a1410;
+  font-weight: 600;
+}
+
+[data-theme="dark"] .admin-nav-item.active span,
+.admin-nav-item.active span:not([data-theme]) {
+  color: #d4af37;
+  font-weight: 700;
+}
+
+[data-theme="light"] .admin-nav-item.active span {
+  color: #b8941f;
+  font-weight: 700;
+}
+
+.admin-user-info {
+  padding: 1.5rem;
+  border-top: 1px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.admin-user-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-bg);
+  font-weight: 700;
+  font-size: 1.25rem;
+  flex-shrink: 0;
+}
+
+.admin-user-details {
+  flex: 1;
+  min-width: 0;
+}
+
+.admin-user-name {
+  color: var(--color-text);
+  font-weight: 600;
+  margin: 0 0 0.25rem 0;
+  font-size: 0.95rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Amélioration du contraste pour le nom utilisateur */
+[data-theme="dark"] .admin-user-name,
+.admin-user-name:not([data-theme]) {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+[data-theme="light"] .admin-user-name {
+  color: #1a1410;
+}
+
+.admin-user-email {
+  color: var(--color-text-muted);
+  font-size: 0.8rem;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Content Area */
+.admin-content {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+.admin-content-header {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.admin-page-title {
+  font-size: clamp(2rem, 4vw, 2.5rem);
+  font-weight: 800;
+  color: var(--color-gold);
+  margin: 0 0 0.5rem 0;
+  letter-spacing: -0.01em;
+}
+
+/* Amélioration du contraste pour le titre de page */
+[data-theme="dark"] .admin-page-title,
+.admin-page-title:not([data-theme]) {
+  color: #d4af37;
+  text-shadow: 0 0 12px rgba(212, 175, 55, 0.4);
+}
+
+[data-theme="light"] .admin-page-title {
+  color: #b8941f;
+}
+
+.admin-page-subtitle {
+  color: var(--color-text-muted);
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* Amélioration du contraste pour le sous-titre */
+[data-theme="dark"] .admin-page-subtitle,
+.admin-page-subtitle:not([data-theme]) {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+[data-theme="light"] .admin-page-subtitle {
+  color: #4d3a2f;
+}
+
+.admin-content-body {
+  max-width: 1400px;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .admin-sidebar {
+    width: 240px;
+  }
+}
+
+@media (max-width: 768px) {
+  .admin-dashboard {
+    flex-direction: column;
+  }
+
+  .admin-sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    border-right: none;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .admin-nav {
+    flex-direction: row;
+    overflow-x: auto;
+    padding: 1rem;
+    gap: 0.5rem;
+  }
+
+  .admin-nav-item {
+    padding: 0.75rem 1rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .admin-nav-item span {
+    display: none;
+  }
+
+  .admin-content {
+    padding: 1.5rem 1rem;
+  }
+}
+

@@ -1,0 +1,166 @@
+.blog-page {
+  min-height: calc(100vh - 200px);
+  padding: 3rem 0;
+}
+
+.page-title {
+  font-size: 3rem;
+  color: #d4af37;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.page-subtitle {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.category-filter {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.post-card {
+  overflow: hidden;
+  padding: 0;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-8px);
+}
+
+.post-image {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.post-content {
+  padding: 1.5rem;
+}
+
+.post-category {
+  display: inline-block;
+  background: rgba(212, 175, 55, 0.2);
+  color: #d4af37;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.post-title {
+  color: #d4af37;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+.post-excerpt {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.post-meta {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+.blog-post-page {
+  min-height: calc(100vh - 200px);
+  padding: 3rem 0;
+}
+
+.post-article {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.post-hero-image {
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px 12px 0 0;
+  margin-bottom: 0;
+}
+
+.post-article-content {
+  border-radius: 0 0 12px 12px;
+  margin-top: 0;
+}
+
+.post-header {
+  margin-bottom: 1.5rem;
+}
+
+.post-header .post-title {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+
+.post-tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.tag {
+  background: rgba(212, 175, 55, 0.1);
+  color: #d4af37;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+}
+
+.post-body {
+  line-height: 1.8;
+}
+
+.post-paragraph {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.loading {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.2rem;
+  padding: 3rem;
+}
+
+@media (max-width: 768px) {
+  .posts-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .page-title {
+    font-size: 2rem;
+  }
+  
+  .post-header .post-title {
+    font-size: 1.75rem;
+  }
+}
+

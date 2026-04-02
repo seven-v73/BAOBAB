@@ -1,0 +1,364 @@
+.realistic-africa-map-container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.realistic-africa-map-wrapper {
+  position: relative;
+  width: 100%;
+  height: 900px;
+  background: linear-gradient(135deg, #f5f5dc 0%, #e8e8d8 100%);
+  border-radius: 20px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border: 3px solid rgba(212, 175, 55, 0.4);
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.realistic-africa-map {
+  width: 100%;
+  height: 100%;
+}
+
+.country-path {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  vector-effect: non-scaling-stroke;
+}
+
+.country-path:hover {
+  transform: scale(1.02);
+  stroke-width: 2.5 !important;
+  filter: drop-shadow(0 4px 8px rgba(212, 175, 55, 0.6)) !important;
+}
+
+.country-path.selected {
+  animation: selectedPulse 2s infinite;
+  stroke-width: 3.5 !important;
+  filter: drop-shadow(0 6px 12px rgba(212, 175, 55, 0.9)) !important;
+}
+
+.country-path.hovered {
+  stroke-width: 2.5 !important;
+  filter: drop-shadow(0 4px 8px rgba(255, 255, 255, 0.8)) !important;
+}
+
+@keyframes selectedPulse {
+  0%, 100% {
+    opacity: 1;
+    filter: drop-shadow(0 6px 12px rgba(212, 175, 55, 0.9));
+  }
+  50% {
+    opacity: 0.95;
+    filter: drop-shadow(0 8px 16px rgba(212, 175, 55, 1));
+  }
+}
+
+.country-label {
+  font-family: system-ui, -apple-system, sans-serif;
+  pointer-events: none;
+  user-select: none;
+}
+
+.map-legend {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 2rem;
+  border: 2px solid rgba(212, 175, 55, 0.3);
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+
+.map-legend h3 {
+  color: #3d2a1f;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.legend-subtitle {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.legend-search {
+  margin-bottom: 1.5rem;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.875rem 1rem;
+  border-radius: 10px;
+  border: 2px solid rgba(212, 175, 55, 0.3);
+  background: white;
+  color: #333;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #d4af37;
+  box-shadow: 0 0 0 4px rgba(212, 175, 55, 0.1);
+}
+
+.search-input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.legend-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.75rem;
+  max-height: 450px;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+.legend-grid::-webkit-scrollbar {
+  width: 10px;
+}
+
+.legend-grid::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
+.legend-grid::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 55, 0.5);
+  border-radius: 5px;
+}
+
+.legend-grid::-webkit-scrollbar-thumb:hover {
+  background: rgba(212, 175, 55, 0.7);
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.875rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: rgba(255, 255, 255, 0.8);
+  border: 2px solid transparent;
+}
+
+.legend-item:hover {
+  background: rgba(212, 175, 55, 0.15);
+  transform: translateX(5px);
+  border-color: rgba(212, 175, 55, 0.3);
+  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.2);
+}
+
+.legend-item.active {
+  background: rgba(212, 175, 55, 0.25);
+  border-color: #d4af37;
+  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.3);
+  font-weight: 600;
+}
+
+.legend-item.hovered {
+  background: rgba(212, 175, 55, 0.1);
+}
+
+.legend-color {
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  flex-shrink: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.legend-name {
+  color: #333;
+  font-size: 0.95rem;
+  font-weight: 500;
+  flex: 1;
+}
+
+.legend-code {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 0.75rem;
+  font-weight: 700;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+.country-info-card {
+  background: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 2.5rem;
+  border: 3px solid rgba(212, 175, 55, 0.4);
+  position: relative;
+  animation: slideUp 0.4s ease;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.close-button {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: rgba(0, 0, 0, 0.1);
+  border: none;
+  color: #333;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  line-height: 1;
+  font-weight: 300;
+}
+
+.close-button:hover {
+  background: rgba(212, 175, 55, 0.3);
+  transform: rotate(90deg);
+  color: #d4af37;
+}
+
+.country-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid rgba(212, 175, 55, 0.3);
+}
+
+.country-header h3 {
+  color: #3d2a1f;
+  font-size: 2.25rem;
+  margin: 0;
+  flex: 1;
+  font-weight: 700;
+}
+
+.country-flag {
+  width: 70px;
+  height: 50px;
+  border-radius: 8px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.country-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.detail-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 0.875rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.detail-row:last-of-type {
+  border-bottom: none;
+}
+
+.detail-label {
+  color: #d4af37;
+  font-weight: 700;
+  min-width: 130px;
+  font-size: 1rem;
+}
+
+.detail-value {
+  color: #333;
+  flex: 1;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.country-description {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid rgba(212, 175, 55, 0.3);
+}
+
+.country-description p {
+  color: #555;
+  line-height: 1.8;
+  font-size: 1.05rem;
+  font-style: italic;
+}
+
+.country-culture {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid rgba(212, 175, 55, 0.3);
+}
+
+.country-culture h4 {
+  color: #d4af37;
+  font-size: 1.35rem;
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+}
+
+.country-culture p {
+  color: #444;
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+@media (max-width: 768px) {
+  .realistic-africa-map-wrapper {
+    height: 600px;
+    padding: 1rem;
+  }
+  
+  .legend-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 0.5rem;
+    max-height: 300px;
+  }
+  
+  .country-info-card {
+    padding: 1.5rem;
+  }
+
+  .country-header h3 {
+    font-size: 1.75rem;
+  }
+
+  .detail-row {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .detail-label {
+    min-width: auto;
+  }
+}
+

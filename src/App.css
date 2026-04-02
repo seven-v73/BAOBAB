@@ -1,0 +1,85 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-attachment: fixed;
+  color: var(--color-text);
+  position: relative;
+}
+
+/* Fond pour le thème sombre */
+[data-theme="dark"] .app,
+.app:not([data-theme]) {
+  background: linear-gradient(135deg, #1a1410 0%, #2d1f1a 50%, #3d2a1f 100%);
+}
+
+/* Fond pour le thème clair */
+[data-theme="light"] .app {
+  background: linear-gradient(135deg, #faf5f0 0%, #f5e6d3 50%, #e8d4b8 100%);
+}
+
+.app::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 30%, rgba(212, 175, 55, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 80% 70%, rgba(61, 42, 31, 0.25) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.app-main {
+  flex: 1;
+  width: 100%;
+}
+
+/* Styles globaux pour les pages */
+.page-title {
+  font-size: 3rem;
+  color: var(--color-gold);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.page-subtitle {
+  text-align: center;
+  color: var(--color-text-light);
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.category-filter {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+/* Scrollbar personnalisée */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 55, 0.5);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(212, 175, 55, 0.7);
+}

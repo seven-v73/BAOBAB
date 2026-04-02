@@ -1,0 +1,81 @@
+/* Overrides pour le mode clair - Amélioration de la lisibilité */
+
+[data-theme="light"] {
+  /* Surcharger les couleurs de texte pour meilleur contraste */
+}
+
+/* Textes principaux */
+[data-theme="light"] .hero-subtitle,
+[data-theme="light"] .hero-description,
+[data-theme="light"] .section-title,
+[data-theme="light"] .section-description {
+  color: var(--color-text) !important;
+}
+
+/* Cards et conteneurs */
+[data-theme="light"] .card,
+[data-theme="light"] .product-card,
+[data-theme="light"] .blog-card {
+  background: var(--color-bg-card) !important;
+  color: var(--color-text) !important;
+  border-color: var(--color-border-light) !important;
+}
+
+[data-theme="light"] .card *,
+[data-theme="light"] .product-card *,
+[data-theme="light"] .blog-card * {
+  color: var(--color-text) !important;
+}
+
+/* Boutons secondaires en mode clair */
+[data-theme="light"] .btn-secondary {
+  background: var(--color-bg-light) !important;
+  color: var(--color-text) !important;
+  border-color: var(--color-border-light) !important;
+}
+
+/* Inputs en mode clair */
+[data-theme="light"] input,
+[data-theme="light"] textarea,
+[data-theme="light"] select {
+  background: var(--color-bg-elevated) !important;
+  color: var(--color-text) !important;
+  border-color: var(--color-border-light) !important;
+}
+
+[data-theme="light"] input::placeholder,
+[data-theme="light"] textarea::placeholder {
+  color: var(--color-text-muted) !important;
+}
+
+/* Labels en mode clair */
+[data-theme="light"] label {
+  color: var(--color-text) !important;
+}
+
+/* Textes avec opacité réduite en mode clair */
+[data-theme="light"] .text-muted,
+[data-theme="light"] .text-light {
+  color: var(--color-text-muted) !important;
+}
+
+/* Footer en mode clair */
+[data-theme="light"] footer,
+[data-theme="light"] .footer {
+  color: var(--color-text) !important;
+}
+
+[data-theme="light"] footer *,
+[data-theme="light"] .footer * {
+  color: var(--color-text-light) !important;
+}
+
+/* Navigation en mode clair */
+[data-theme="light"] nav a {
+  color: var(--color-text) !important;
+}
+
+[data-theme="light"] nav a:hover {
+  color: var(--color-gold) !important;
+}
+

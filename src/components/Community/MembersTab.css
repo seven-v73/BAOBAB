@@ -1,0 +1,261 @@
+.members-tab {
+  padding: 2rem;
+}
+
+.members-tab-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.members-tab-header h2 {
+  margin: 0;
+  color: var(--color-text);
+}
+
+.members-filters {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.filter-btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg);
+  color: var(--color-text);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.filter-btn:hover {
+  background: var(--color-bg-hover);
+}
+
+.filter-btn.active {
+  background: var(--color-primary);
+  color: white;
+  border-color: var(--color-primary);
+}
+
+.members-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.member-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: 0.75rem;
+  transition: all 0.2s;
+}
+
+.member-card:hover {
+  background: var(--color-bg-hover);
+}
+
+.member-card.banned {
+  opacity: 0.6;
+  background: var(--color-bg-secondary);
+}
+
+.member-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex: 1;
+}
+
+.member-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.member-avatar-placeholder {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.member-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.member-name-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.member-name {
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.member-role {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  padding: 0.25rem 0.5rem;
+  background: var(--color-bg);
+  border-radius: 0.25rem;
+}
+
+.member-email {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+}
+
+.member-joined {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.role-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.role-icon.owner {
+  color: #fbbf24;
+}
+
+.role-icon.admin {
+  color: #3b82f6;
+}
+
+.role-icon.moderator {
+  color: #10b981;
+}
+
+.role-icon.member {
+  color: var(--color-text-muted);
+}
+
+.member-actions {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.btn-icon {
+  padding: 0.5rem;
+  border: none;
+  background: transparent;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-icon:hover {
+  background: var(--color-bg-hover);
+  color: var(--color-text);
+}
+
+.btn-icon.ban:hover {
+  color: #ef4444;
+}
+
+.btn-icon.remove:hover {
+  color: #ef4444;
+}
+
+.btn-icon.unban:hover {
+  color: #10b981;
+}
+
+.role-menu-container {
+  position: relative;
+}
+
+.role-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 0.5rem;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.role-menu button {
+  padding: 0.75rem 1rem;
+  border: none;
+  background: transparent;
+  color: var(--color-text);
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.role-menu button:hover:not(:disabled) {
+  background: var(--color-bg-hover);
+}
+
+.role-menu button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.role-menu button.transfer-ownership {
+  color: #fbbf24;
+  border-top: 1px solid var(--color-border);
+  margin-top: 0.5rem;
+  padding-top: 0.75rem;
+}
+
+.role-menu button.transfer-ownership:hover {
+  background: rgba(251, 191, 36, 0.1);
+}
+
+@media (max-width: 768px) {
+  .members-tab {
+    padding: 1rem;
+  }
+
+  .members-tab-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .member-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .member-actions {
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
+

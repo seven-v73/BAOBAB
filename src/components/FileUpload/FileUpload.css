@@ -1,0 +1,131 @@
+.file-upload-container {
+  width: 100%;
+}
+
+.file-upload-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.9rem;
+}
+
+.file-upload-dropzone {
+  border: 2px dashed rgba(212, 175, 55, 0.3);
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.02);
+  position: relative;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+}
+
+.file-upload-dropzone:hover {
+  border-color: rgba(212, 175, 55, 0.6);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.file-upload-dropzone.dragging {
+  border-color: #d4af37;
+  background: rgba(212, 175, 55, 0.1);
+  transform: scale(1.02);
+}
+
+.file-upload-dropzone.uploading {
+  cursor: not-allowed;
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.file-upload-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  color: rgba(255, 255, 255, 0.8);
+  position: relative;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.file-upload-content svg {
+  color: #d4af37;
+  opacity: 0.8;
+}
+
+.file-upload-content p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.file-upload-hint {
+  font-size: 0.85rem !important;
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.file-upload-size {
+  font-size: 0.75rem !important;
+  color: rgba(255, 255, 255, 0.5) !important;
+  margin-top: 0.25rem !important;
+}
+
+.file-upload-preview {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.file-upload-preview img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  max-height: 200px;
+  object-fit: contain;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.preview-remove {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: #e74c3c;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.preview-remove:hover {
+  background: #c0392b;
+  transform: scale(1.1);
+}
+
+.spinning {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+

@@ -1,0 +1,105 @@
+.map-page {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.map-page-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.map-page-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--color-text);
+}
+
+.map-page-header p {
+  font-size: 1.2rem;
+  color: var(--color-text-muted);
+}
+
+.map-filters {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex: 1;
+  min-width: 200px;
+}
+
+.filter-group svg {
+  color: var(--color-primary);
+  flex-shrink: 0;
+}
+
+.filter-select {
+  flex: 1;
+  padding: 0.75rem;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-size: 1rem;
+}
+
+.map-card {
+  padding: 0;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.map-info {
+  margin-top: 2rem;
+}
+
+.map-info h3 {
+  margin-bottom: 1rem;
+  color: var(--color-text);
+}
+
+.map-info p {
+  margin-bottom: 1rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+}
+
+.map-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.map-info li {
+  padding: 0.5rem 0;
+  color: var(--color-text-muted);
+}
+
+.map-info li strong {
+  color: var(--color-text);
+}
+
+@media (max-width: 768px) {
+  .map-page {
+    padding: 1rem;
+  }
+
+  .map-page-header h1 {
+    font-size: 2rem;
+  }
+
+  .map-filters {
+    flex-direction: column;
+  }
+
+  .filter-group {
+    width: 100%;
+  }
+}
+

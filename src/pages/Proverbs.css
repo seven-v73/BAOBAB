@@ -1,0 +1,625 @@
+/* Page Proverbes Africains - Design élégant et moderne */
+
+.proverbs-page {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: calc(100vh - 200px);
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+.proverbs-loading {
+  text-align: center;
+  padding: 4rem;
+  color: var(--color-text-muted);
+  font-size: 1.1rem;
+}
+
+/* Header */
+.proverbs-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem 0;
+}
+
+.proverbs-header h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 800;
+  color: var(--color-gold);
+  margin: 0 0 1rem 0;
+  text-shadow: 0 2px 8px rgba(212, 175, 55, 0.3);
+}
+
+.proverbs-subtitle {
+  font-size: 1.125rem;
+  color: var(--color-text-muted);
+  margin: 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Proverbe aléatoire en vedette */
+.random-proverb-card {
+  margin-bottom: 3rem;
+  padding: 2.5rem;
+  background: linear-gradient(135deg, var(--color-bg-card) 0%, rgba(212, 175, 55, 0.05) 100%);
+  border: 2px solid var(--color-gold);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(212, 175, 55, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.random-proverb-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--color-gold), var(--color-gold-light), var(--color-gold));
+  animation: shimmer 3s ease-in-out infinite;
+}
+
+.random-proverb-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.random-proverb-badge {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(135deg, var(--color-gold) 0%, var(--color-gold-light) 100%);
+  color: var(--color-bg);
+  font-size: 0.875rem;
+  font-weight: 700;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.3);
+}
+
+.refresh-random-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.refresh-random-btn span {
+  display: inline-block;
+}
+
+.random-proverb-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.proverb-text-large {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin: 0;
+  padding: 1.5rem;
+  background: var(--color-bg);
+  border-left: 4px solid var(--color-gold);
+  border-radius: 12px;
+  font-style: italic;
+  line-height: 1.6;
+  position: relative;
+}
+
+.proverb-text-large::before {
+  content: '"';
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  font-size: 4rem;
+  color: var(--color-gold);
+  opacity: 0.3;
+  font-family: serif;
+}
+
+.proverb-text-large::after {
+  content: '"';
+  position: absolute;
+  bottom: -30px;
+  right: 10px;
+  font-size: 4rem;
+  color: var(--color-gold);
+  opacity: 0.3;
+  font-family: serif;
+}
+
+.proverb-translation {
+  font-size: 1.125rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+  padding: 0 1.5rem;
+  margin: 0;
+}
+
+.proverb-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 1rem 1.5rem;
+  background: var(--color-bg);
+  border-radius: 12px;
+}
+
+.proverb-country,
+.proverb-language,
+.proverb-category {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-text);
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.proverb-country span,
+.proverb-language span,
+.proverb-category span {
+  display: inline-block;
+}
+
+.country-link {
+  margin-left: 0.5rem;
+  color: var(--color-gold);
+  text-decoration: none;
+  font-size: 0.875rem;
+  transition: all 0.3s ease;
+}
+
+.country-link:hover {
+  text-decoration: underline;
+  color: var(--color-gold-light);
+}
+
+.proverb-explanation {
+  padding: 1.5rem;
+  background: var(--color-bg);
+  border-radius: 12px;
+  border-left: 4px solid var(--color-gold);
+}
+
+.proverb-explanation h4 {
+  color: var(--color-gold);
+  font-size: 1.125rem;
+  margin: 0 0 0.75rem 0;
+  font-weight: 700;
+}
+
+.proverb-explanation p {
+  color: var(--color-text);
+  font-size: 1rem;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.proverb-source {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  padding: 0 1.5rem;
+}
+
+.proverb-source span {
+  display: inline-block;
+}
+
+.proverb-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  background: var(--color-bg);
+  border-radius: 12px;
+  margin-top: 0.5rem;
+}
+
+.like-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: transparent;
+  border: 1px solid var(--color-border);
+  border-radius: 20px;
+  color: var(--color-text);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.like-btn:hover {
+  background: var(--color-bg-hover);
+  border-color: var(--color-gold);
+  color: var(--color-gold);
+  transform: scale(1.05);
+}
+
+.like-btn span {
+  display: inline-block;
+}
+
+.proverb-stats {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.proverb-stats span {
+  display: inline-block;
+}
+
+/* Filtres */
+.proverbs-filters {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.search-bar span {
+  flex-shrink: 0;
+  display: inline-block;
+}
+
+.search-bar input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: var(--color-text);
+  font-size: 1rem;
+}
+
+.search-bar input:focus {
+  outline: none;
+}
+
+.filters-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.filter-select {
+  flex: 1;
+  min-width: 200px;
+  padding: 0.75rem 1rem;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  color: var(--color-text);
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-select:hover {
+  border-color: var(--color-gold);
+}
+
+.filter-select:focus {
+  outline: none;
+  border-color: var(--color-gold);
+  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
+}
+
+.filter-select option {
+  background: var(--color-bg-secondary);
+  color: var(--color-text);
+}
+
+/* Grille de proverbes */
+.proverbs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1.5rem;
+}
+
+.proverb-card {
+  padding: 1.5rem;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.proverb-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-gold);
+  box-shadow: 0 8px 24px rgba(212, 175, 55, 0.2);
+}
+
+.proverb-card-header {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.featured-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background: linear-gradient(135deg, var(--color-gold) 0%, var(--color-gold-light) 100%);
+  color: var(--color-bg);
+  font-size: 0.75rem;
+  font-weight: 700;
+  border-radius: 12px;
+  text-transform: uppercase;
+}
+
+.verified-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.25rem 0.75rem;
+  background: rgba(39, 174, 96, 0.2);
+  color: #27ae60;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 12px;
+  border: 1px solid rgba(39, 174, 96, 0.4);
+}
+
+.verified-badge span {
+  display: inline-block;
+}
+
+.proverb-text {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin: 0;
+  font-style: italic;
+  line-height: 1.6;
+  padding: 1rem;
+  background: var(--color-bg);
+  border-left: 3px solid var(--color-gold);
+  border-radius: 8px;
+}
+
+.proverb-translation-small {
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+  margin: 0;
+  padding: 0 1rem;
+}
+
+.proverb-meta-small {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0.75rem;
+  background: var(--color-bg);
+  border-radius: 8px;
+}
+
+.proverb-country-small,
+.proverb-category-small {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-text);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.proverb-country-small span,
+.proverb-category-small span {
+  display: inline-block;
+}
+
+.country-link-small {
+  margin-left: 0.5rem;
+  color: var(--color-gold);
+  text-decoration: none;
+  font-size: 0.8rem;
+  transition: all 0.3s ease;
+}
+
+.country-link-small:hover {
+  text-decoration: underline;
+}
+
+.proverb-explanation-small {
+  padding: 1rem;
+  background: var(--color-bg);
+  border-radius: 8px;
+  border-left: 3px solid var(--color-gold);
+}
+
+.proverb-explanation-small p {
+  color: var(--color-text);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.proverb-source-small {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  padding: 0 1rem;
+}
+
+.proverb-source-small span {
+  display: inline-block;
+}
+
+.proverb-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0 1rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background: var(--color-bg-hover);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.proverb-actions-small {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  background: var(--color-bg);
+  border-radius: 8px;
+  margin-top: auto;
+}
+
+.like-btn-small {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background: transparent;
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  color: var(--color-text);
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.like-btn-small:hover {
+  background: var(--color-bg-hover);
+  border-color: var(--color-gold);
+  color: var(--color-gold);
+}
+
+.like-btn-small span {
+  display: inline-block;
+}
+
+.proverb-stats-small {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+}
+
+.proverb-stats-small span {
+  display: inline-block;
+}
+
+.empty-state {
+  grid-column: 1 / -1;
+  padding: 4rem 2rem;
+  text-align: center;
+  background: var(--color-bg-card);
+  border: 2px dashed var(--color-border);
+  border-radius: 16px;
+}
+
+.empty-state span {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+.empty-state p {
+  color: var(--color-text-muted);
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .proverbs-page {
+    padding: 1rem;
+  }
+
+  .proverbs-header {
+    margin-bottom: 2rem;
+  }
+
+  .random-proverb-card {
+    padding: 1.5rem;
+  }
+
+  .proverb-text-large {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+
+  .proverbs-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .filters-row {
+    flex-direction: column;
+  }
+
+  .filter-select {
+    width: 100%;
+  }
+}
+
+/* Amélioration du contraste pour le mode sombre */
+[data-theme="dark"] .proverb-text,
+.proverb-text:not([data-theme]) {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+[data-theme="dark"] .proverb-text-large,
+.proverb-text-large:not([data-theme]) {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+[data-theme="dark"] .proverb-explanation p,
+.proverb-explanation p:not([data-theme]) {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+[data-theme="dark"] .proverb-explanation-small p,
+.proverb-explanation-small p:not([data-theme]) {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+[data-theme="light"] .proverb-text,
+[data-theme="light"] .proverb-text-large {
+  color: #1a1410;
+}
+
+[data-theme="light"] .proverb-explanation p,
+[data-theme="light"] .proverb-explanation-small p {
+  color: #2d1f1a;
+}
+
