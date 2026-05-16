@@ -108,7 +108,7 @@ export const ShareButton = ({ url, title, description = '', className = '' }: Sh
               </button>
             </div>
             <div className="share-menu-options">
-              {navigator.share && (
+              {'share' in navigator && (
                 <button className="share-option" onClick={handleNativeShare}>
                   <span className="icon-share" />
                   <span>Partager via...</span>
@@ -145,4 +145,3 @@ export const ShareButton = ({ url, title, description = '', className = '' }: Sh
     </div>
   )
 }
-

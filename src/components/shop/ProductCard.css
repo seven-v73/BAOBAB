@@ -36,13 +36,13 @@
 }
 
 .product-origin {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--readable-text-muted, var(--color-text-muted));
   font-size: 0.875rem;
   white-space: nowrap;
 }
 
 .product-description {
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--readable-text-soft, var(--color-text));
   line-height: 1.6;
   margin-bottom: 1.5rem;
   flex: 1;
@@ -68,7 +68,6 @@
 }
 
 .price-currency {
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--readable-text-muted, var(--color-text-muted));
   font-size: 1rem;
 }
-

@@ -1,0 +1,338 @@
+/* Shared form ergonomics: calmer rhythm, stronger affordance, clear touch targets. */
+
+:root {
+  --form-radius: 10px;
+  --form-field-height: 52px;
+  --form-border: color-mix(in srgb, var(--color-border) 76%, transparent);
+  --form-surface: color-mix(in srgb, var(--color-bg-card) 88%, var(--color-bg-light));
+  --form-surface-hover: color-mix(in srgb, var(--color-bg-card) 72%, var(--color-bg-hover));
+  --form-focus: color-mix(in srgb, var(--color-primary) 28%, transparent);
+  --form-danger: #c84f43;
+}
+
+:where(
+  .input-group,
+  .form-group,
+  .auth-field,
+  .settings-option,
+  .checkbox-group,
+  .option-input-group
+) {
+  min-width: 0;
+}
+
+:where(.form-group, .input-group, .auth-field) {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+:where(.form-group) {
+  margin-bottom: 1.25rem;
+}
+
+:where(
+  label,
+  .input-label,
+  .form-group label,
+  .auth-field .input-label,
+  .form-group > .input-label
+) {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0;
+  color: var(--color-text);
+  font-size: 0.9rem;
+  font-weight: 760;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+:where(.form-help, .role-hint, .input-error-message, .password-meter small) {
+  line-height: 1.45;
+}
+
+:where(
+  input:not([type='checkbox']):not([type='radio']):not([type='range']),
+  textarea,
+  select,
+  .input,
+  .form-input,
+  .form-textarea,
+  .form-select,
+  .search-input,
+  .culture-input,
+  .filter-select
+) {
+  width: 100%;
+  min-height: var(--form-field-height);
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--form-border);
+  border-radius: var(--form-radius);
+  background:
+    linear-gradient(180deg, color-mix(in srgb, #ffffff 4%, transparent), transparent),
+    var(--form-surface);
+  color: var(--color-text);
+  font: inherit;
+  font-size: 0.98rem;
+  line-height: 1.45;
+  box-shadow: inset 0 1px 0 color-mix(in srgb, #ffffff 10%, transparent);
+  transition: border-color 0.18s ease, background 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
+}
+
+:where(textarea, .form-textarea) {
+  min-height: 132px;
+  resize: vertical;
+}
+
+:where(select, .form-select, .filter-select) {
+  appearance: none;
+  padding-right: 2.75rem;
+  background-image:
+    linear-gradient(45deg, transparent 50%, currentColor 50%),
+    linear-gradient(135deg, currentColor 50%, transparent 50%),
+    linear-gradient(180deg, color-mix(in srgb, #ffffff 4%, transparent), transparent);
+  background-position:
+    calc(100% - 1.15rem) 50%,
+    calc(100% - 0.82rem) 50%,
+    0 0;
+  background-size: 0.34rem 0.34rem, 0.34rem 0.34rem, 100% 100%;
+  background-repeat: no-repeat;
+}
+
+:where(
+  input:not([type='checkbox']):not([type='radio']):not([type='range']),
+  textarea,
+  select,
+  .input,
+  .form-input,
+  .form-textarea,
+  .form-select,
+  .search-input,
+  .culture-input,
+  .filter-select
+):hover:not(:disabled) {
+  border-color: color-mix(in srgb, var(--color-primary) 34%, var(--form-border));
+  background-color: var(--form-surface-hover);
+}
+
+:where(
+  input:not([type='checkbox']):not([type='radio']):not([type='range']),
+  textarea,
+  select,
+  .input,
+  .form-input,
+  .form-textarea,
+  .form-select,
+  .search-input,
+  .culture-input,
+  .filter-select
+):focus {
+  outline: none;
+  border-color: var(--color-primary);
+  background-color: var(--color-bg-card);
+  box-shadow: 0 0 0 4px var(--form-focus), 0 10px 24px color-mix(in srgb, #000 10%, transparent);
+}
+
+:where(
+  input:not([type='checkbox']):not([type='radio']):not([type='range']),
+  textarea,
+  select,
+  .input,
+  .form-input,
+  .form-textarea,
+  .form-select
+):disabled {
+  cursor: not-allowed;
+  opacity: 0.68;
+  background: color-mix(in srgb, var(--color-bg-light) 72%, var(--color-border));
+}
+
+:where(input, textarea)::placeholder {
+  color: color-mix(in srgb, var(--color-text-muted) 82%, transparent);
+}
+
+:where(.input-error, [aria-invalid='true']) {
+  border-color: var(--form-danger) !important;
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--form-danger) 16%, transparent);
+}
+
+:where(.input-error-message, .auth-error, .error-message) {
+  color: var(--form-danger);
+  font-weight: 720;
+}
+
+:where(.form-section, .settings-section) {
+  min-width: 0;
+  border-radius: var(--form-radius);
+}
+
+:where(.create-community-form, .post-form, .form-card, .blog-form-card, .country-form-card, .product-form-card, .user-form-card, .quiz-form-card, .settings-card) {
+  border-radius: var(--form-radius);
+  border-color: var(--form-border);
+  background:
+    linear-gradient(180deg, color-mix(in srgb, #ffffff 3%, transparent), transparent 38%),
+    var(--color-bg-card);
+}
+
+:where(.form-section h2, .form-section h3, .form-section h4, .form-card h3, .quiz-form-header h3, .settings-header h3) {
+  color: var(--color-text);
+  line-height: 1.2;
+  text-wrap: balance;
+}
+
+:where(.form-row) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+  gap: 1rem;
+  align-items: start;
+}
+
+:where(.form-actions, .settings-actions, .delete-actions, .question-form-actions, .quiz-form-footer) {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  padding-top: 0.35rem;
+}
+
+:where(.form-actions button, .settings-actions button, .delete-actions button, .question-form-actions button, .quiz-form-footer button) {
+  min-height: 44px;
+}
+
+:where(.checkbox-group label, .settings-option) {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  width: 100%;
+  padding: 0.95rem 1rem;
+  border: 1px solid var(--form-border);
+  border-radius: var(--form-radius);
+  background: var(--form-surface);
+  cursor: pointer;
+  transition: border-color 0.18s ease, background 0.18s ease, box-shadow 0.18s ease;
+}
+
+:where(.checkbox-group label:hover, .settings-option:hover) {
+  border-color: color-mix(in srgb, var(--color-primary) 36%, var(--form-border));
+  background: var(--form-surface-hover);
+}
+
+:where(input[type='checkbox'], input[type='radio']) {
+  flex: 0 0 auto;
+  width: 20px;
+  height: 20px;
+  margin: 0.1rem 0 0;
+  accent-color: var(--color-primary);
+  cursor: pointer;
+}
+
+:where(input[type='checkbox']:focus-visible, input[type='radio']:focus-visible) {
+  outline: 3px solid var(--form-focus);
+  outline-offset: 3px;
+}
+
+:where(.search-box, .search-bar, .countries-search-bar, .products-search-bar, .blog-search-bar, .search-input-wrapper) {
+  min-height: var(--form-field-height);
+  border-radius: var(--form-radius);
+  border-color: var(--form-border);
+  background: var(--form-surface);
+}
+
+:where(.search-box input, .search-bar input, .countries-search-bar input, .products-search-bar input, .blog-search-bar input) {
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+:where(.search-box input, .search-bar input, .countries-search-bar input, .products-search-bar input, .blog-search-bar input):focus {
+  box-shadow: none;
+  background: transparent;
+}
+
+.auth-page .auth-form {
+  gap: 1.1rem;
+}
+
+.auth-field input {
+  min-height: 54px;
+}
+
+.auth-visibility-toggle {
+  top: 2rem;
+  min-height: 40px;
+  border-radius: 8px;
+}
+
+.password-rules span,
+.role-permissions span {
+  border-radius: 999px;
+  line-height: 1.3;
+}
+
+.role-selector {
+  gap: 0.75rem;
+}
+
+.role-option {
+  border-radius: var(--form-radius);
+  border-color: var(--form-border);
+  background: var(--form-surface);
+}
+
+.role-option.active {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 4px var(--form-focus);
+}
+
+[data-theme='light'] {
+  --form-border: rgba(74, 55, 37, 0.2);
+  --form-surface: #fffaf2;
+  --form-surface-hover: #fff6e8;
+}
+
+[data-theme='dark'] {
+  --form-border: rgba(237, 214, 165, 0.22);
+  --form-surface: rgba(255, 250, 240, 0.055);
+  --form-surface-hover: rgba(255, 250, 240, 0.085);
+}
+
+[data-theme='dark'] :where(
+  input:not([type='checkbox']):not([type='radio']):not([type='range']),
+  textarea,
+  select,
+  .input,
+  .form-input,
+  .form-textarea,
+  .form-select,
+  .search-input,
+  .culture-input,
+  .filter-select
+) {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+@media (max-width: 720px) {
+  :root {
+    --form-field-height: 50px;
+  }
+
+  :where(.create-community-form, .post-form, .form-card, .blog-form-card, .country-form-card, .product-form-card, .user-form-card, .quiz-form-card, .settings-card) {
+    padding: 1.15rem;
+  }
+
+  :where(.form-actions, .settings-actions, .delete-actions, .question-form-actions, .quiz-form-footer) {
+    flex-direction: column-reverse;
+    align-items: stretch;
+  }
+
+  :where(.form-actions button, .settings-actions button, .delete-actions button, .question-form-actions button, .quiz-form-footer button) {
+    width: 100%;
+    justify-content: center;
+  }
+}

@@ -99,7 +99,7 @@ const storySchema = new mongoose.Schema({
   },
   author: {
     type: String,
-    default: 'BAOBAB Team',
+    default: 'MonBaobab Team',
   },
   views: {
     type: Number,

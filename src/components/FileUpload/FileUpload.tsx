@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react'
+import { useId, useState, useRef } from 'react'
 import type { DragEvent } from 'react'
 import { X, Image as ImageIcon, FileText, Loader, Video, File as FileIcon } from 'lucide-react'
 import { uploadService } from '../../services/api'
@@ -20,6 +20,7 @@ export const FileUpload = ({
   maxSize = type === 'image' ? 5 : type === 'pdf' ? 10 : type === 'video' ? 50 : 20,
   label
 }: FileUploadProps) => {
+  const reactId = useId()
   const [isDragging, setIsDragging] = useState(false)
   const [uploading, setUploading] = useState(false)
   const [preview, setPreview] = useState<string | null>(null)
@@ -27,11 +28,9 @@ export const FileUpload = ({
   const { success, error } = useNotifications()
   
   // Générer un ID unique pour l'input
-  const inputId = `file-upload-${type}-${Math.random().toString(36).substr(2, 9)}`
+  const inputId = `file-upload-${type}-${reactId.replace(/:/g, '')}`
 
   const handleFileSelect = async (file: File) => {
-    console.log('Fichier sélectionné:', file.name, 'Type:', file.type, 'Taille:', file.size)
-    
     // Vérifier la taille
     if (file.size > maxSize * 1024 * 1024) {
       error(`Le fichier est trop volumineux. Taille maximale : ${maxSize}MB`)
@@ -85,7 +84,6 @@ export const FileUpload = ({
 
     // Upload
     setUploading(true)
-    console.log(`Début de l'upload - Type: ${type}`)
     try {
       let response
       if (type === 'image') {
@@ -98,9 +96,7 @@ export const FileUpload = ({
         response = await uploadService.uploadDocument(file)
       }
       
-      console.log('Réponse complète de l\'upload:', response)
       const url = response.data.url
-      console.log(`Upload réussi - URL reçue:`, url)
       
       if (!url) {
         throw new Error('Aucune URL retournée par le serveur')
@@ -119,7 +115,6 @@ export const FileUpload = ({
         fileInputRef.current.value = ''
       }
     } catch (err: any) {
-      console.error('Erreur lors de l\'upload:', err)
       const errorMessage = err.response?.data?.error || err.message || 'Erreur lors de l\'upload'
       error(errorMessage)
       setPreview(null)
@@ -150,11 +145,8 @@ export const FileUpload = ({
 
   const handleFileInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const files = e.target.files
-    console.log('Changement de fichier détecté:', files?.length, 'fichier(s)')
     if (files && files.length > 0) {
       handleFileSelect(files[0])
-    } else {
-      console.warn('Aucun fichier sélectionné')
     }
   }
 
@@ -287,4 +279,3 @@ export const FileUpload = ({
     </div>
   )
 }
-

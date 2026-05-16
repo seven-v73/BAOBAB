@@ -150,11 +150,14 @@ export const uploadToCloudinary = async (file) => {
       resource_type: 'auto',
     })
 
-    // Supprimer le fichier local après upload
-    try {
-      fs.unlinkSync(file.path)
-    } catch (err) {
-      logger.error('Erreur lors de la suppression du fichier local', { error: err, filePath: file.path })
+    // Supprimer le fichier local uniquement si le fichier a vraiment été envoyé sur Cloudinary.
+    // Sans Cloudinary, l'URL retournée pointe vers le stockage local et le fichier doit rester disponible.
+    if (result.public_id) {
+      try {
+        fs.unlinkSync(file.path)
+      } catch (err) {
+        logger.error('Erreur lors de la suppression du fichier local', { error: err, filePath: file.path })
+      }
     }
 
     return result
@@ -164,4 +167,3 @@ export const uploadToCloudinary = async (file) => {
     return { url: `/uploads/${file.filename}` }
   }
 }
-

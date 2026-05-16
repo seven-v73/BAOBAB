@@ -1,11 +1,15 @@
 .search-results {
-  padding: 2rem;
-  max-width: 1200px;
+  padding: clamp(1.25rem, 4vw, 3rem);
+  max-width: 1320px;
   margin: 0 auto;
 }
 
 .search-results-header {
   margin-bottom: 2rem;
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border: 1px solid var(--readable-border, var(--color-border));
+  border-radius: 8px;
+  background: var(--readable-surface, var(--color-bg-card));
 }
 
 .search-results-header h1 {
@@ -16,6 +20,33 @@
 .search-query {
   color: var(--color-text-secondary);
   font-size: 1.1rem;
+}
+
+.search-type-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 1.25rem;
+}
+
+.search-type-tabs a {
+  min-height: 40px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.55rem 0.85rem;
+  border: 1px solid var(--readable-border, var(--color-border));
+  border-radius: 999px;
+  background: var(--readable-surface-soft, rgba(255, 255, 255, 0.06));
+  color: var(--readable-text, var(--color-text));
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.search-type-tabs a.active,
+.search-type-tabs a:hover {
+  background: var(--button-primary-bg);
+  color: var(--button-primary-text);
+  border-color: var(--button-primary-border);
 }
 
 .search-loading,
@@ -33,8 +64,23 @@
 
 .search-section h2 {
   font-size: 1.75rem;
-  margin-bottom: 1.5rem;
+  margin: 0;
   color: var(--color-text);
+}
+
+.search-section-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.search-section-header a {
+  color: var(--color-primary);
+  font-weight: 850;
+  text-decoration: none;
+  white-space: nowrap;
 }
 
 .search-grid {
@@ -45,6 +91,7 @@
 
 .search-item {
   padding: 1.5rem;
+  border-radius: 8px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -56,6 +103,8 @@
 .search-item h3 {
   margin: 0 0 0.5rem 0;
   color: var(--color-text);
+  line-height: 1.25;
+  overflow-wrap: anywhere;
 }
 
 .search-item p {
@@ -68,3 +117,22 @@
   color: inherit;
 }
 
+.search-item span {
+  display: inline-flex;
+  margin-bottom: 0.75rem;
+  color: var(--color-primary);
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+@media (max-width: 680px) {
+  .search-section-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .search-grid {
+    grid-template-columns: 1fr;
+  }
+}

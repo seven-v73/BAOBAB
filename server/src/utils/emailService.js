@@ -96,7 +96,7 @@ export const emailTemplates = {
       <body>
         <div class="container">
           <div class="header">
-            <h1>🌳 BAOBAB</h1>
+            <h1>🌳 MonBaobab</h1>
             <h2>Confirmation de commande</h2>
           </div>
           <div class="content">
@@ -140,7 +140,7 @@ export const emailTemplates = {
           </div>
           <div class="footer">
             <p>Merci de votre confiance !</p>
-            <p>L'équipe BAOBAB</p>
+            <p>L'équipe MonBaobab</p>
           </div>
         </div>
       </body>
@@ -164,7 +164,7 @@ export const emailTemplates = {
       <body>
         <div class="container">
           <div class="header">
-            <h1>🌳 BAOBAB</h1>
+            <h1>🌳 MonBaobab</h1>
             <h2>Votre commande est en route !</h2>
           </div>
           <div class="content">
@@ -196,12 +196,12 @@ export const emailTemplates = {
       <body>
         <div class="container">
           <div class="header">
-            <h1>🌳 BAOBAB</h1>
+            <h1>🌳 MonBaobab</h1>
             <h2>Bienvenue !</h2>
           </div>
           <div class="content">
             <p>Bonjour <strong>${user.name}</strong>,</p>
-            <p>Merci de vous être inscrit sur BAOBAB !</p>
+            <p>Merci de vous être inscrit sur MonBaobab !</p>
             <p>Découvrez les valeurs, l'histoire et les produits authentiques de l'Afrique.</p>
             <p><a href="${env.FRONTEND_URL}/shop" style="display: inline-block; padding: 10px 20px; background: #d4af37; color: #1a1a1a; text-decoration: none; border-radius: 5px; margin-top: 20px;">Découvrir la boutique</a></p>
           </div>

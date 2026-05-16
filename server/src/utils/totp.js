@@ -1,7 +1,7 @@
 import crypto from 'crypto'
 
 // Valeurs par défaut pour TOTP
-const DEFAULT_TOTP_ISSUER = 'BAOBAB'
+const DEFAULT_TOTP_ISSUER = 'MonBaobab'
 const DEFAULT_TOTP_WINDOW = 2
 
 // Charger env.js de manière conditionnelle

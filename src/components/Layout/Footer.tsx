@@ -12,7 +12,7 @@ export const Footer = () => {
     fetchSettings()
   }, [fetchSettings])
 
-  const platformName = settings?.platformName || 'BAOBAB'
+  const platformName = settings?.platformName || 'MonBaobab'
 
   // Ne pas afficher le footer sur certaines pages
   const hideFooter = ['/login', '/register'].includes(location.pathname)

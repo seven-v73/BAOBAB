@@ -120,6 +120,12 @@ export const Proverbs = () => {
   }
 
   const categories = ['Sagesse', 'Famille', 'Travail', 'Nature', 'Relations', 'Spiritualité', 'Autre']
+  const hasActiveFilters = Boolean(searchTerm || selectedCountry || selectedCategory)
+  const clearFilters = () => {
+    setSearchTerm('')
+    setSelectedCountry('')
+    setSelectedCategory('')
+  }
 
   if (loading && proverbs.length === 0) {
     return (
@@ -139,7 +145,7 @@ export const Proverbs = () => {
         <div className="proverbs-header">
           <h1>Proverbes Africains</h1>
           <p className="proverbs-subtitle">
-            Découvrez la sagesse authentique de l'Afrique à travers ses proverbes traditionnels
+            Des proverbes à lire, comparer et transmettre.
           </p>
         </div>
 
@@ -256,6 +262,31 @@ export const Proverbs = () => {
               ))}
             </select>
           </div>
+          {hasActiveFilters && (
+            <div className="active-filter-chips" aria-label="Filtres actifs">
+              {searchTerm && (
+                <button type="button" className="active-filter-chip" onClick={() => setSearchTerm('')}>
+                  <span>Recherche: {searchTerm}</span>
+                  <span aria-hidden="true">×</span>
+                </button>
+              )}
+              {selectedCountry && (
+                <button type="button" className="active-filter-chip" onClick={() => setSelectedCountry('')}>
+                  <span>{selectedCountry}</span>
+                  <span aria-hidden="true">×</span>
+                </button>
+              )}
+              {selectedCategory && (
+                <button type="button" className="active-filter-chip" onClick={() => setSelectedCategory('')}>
+                  <span>{selectedCategory}</span>
+                  <span aria-hidden="true">×</span>
+                </button>
+              )}
+              <button type="button" className="active-filter-clear" onClick={clearFilters}>
+                Tout effacer
+              </button>
+            </div>
+          )}
         </div>
 
         {/* Liste des proverbes */}
@@ -264,9 +295,9 @@ export const Proverbs = () => {
             <Card className="empty-state">
               <span className="icon-book" style={{ fontSize: '48px', width: '48px', height: '48px' }} />
               <p>Aucun proverbe trouvé.</p>
-              {searchTerm && (
-                <Button onClick={() => setSearchTerm('')} variant="outline" size="small">
-                  Effacer la recherche
+              {hasActiveFilters && (
+                <Button onClick={clearFilters} variant="outline" size="small">
+                  Effacer les filtres
                 </Button>
               )}
             </Card>
@@ -343,4 +374,3 @@ export const Proverbs = () => {
     </Layout>
   )
 }
-

@@ -87,8 +87,8 @@ export const HistoricalFigures = () => {
     <Layout>
       <div className="figures-page">
         <div className="figures-header">
-          <h1>👥 Figures Historiques Africaines</h1>
-          <p>Découvrez les personnages emblématiques qui ont marqué l'histoire de l'Afrique</p>
+          <h1>Figures historiques africaines</h1>
+          <p>Portraits, trajectoires et héritages qui ont traversé les époques</p>
         </div>
 
         <div className="figures-filters">

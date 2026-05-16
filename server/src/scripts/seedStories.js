@@ -14,7 +14,7 @@ const storiesData = [
     description: "Découvrez l'histoire épique de Soundiata Keïta, de son enfance difficile à sa victoire légendaire qui fonda l'Empire du Mali.",
     category: 'Épopée',
     difficulty: 'beginner',
-    author: 'BAOBAB Team',
+    author: 'MonBaobab Team',
     tags: ['Soundiata', 'Empire du Mali', 'Épopée', 'Légende'],
     chapters: [
       {
@@ -44,7 +44,7 @@ const storiesData = [
     description: "Suivez le voyage extraordinaire de Mansa Musa, l'empereur le plus riche de l'histoire, lors de son pèlerinage à La Mecque.",
     category: 'Histoire',
     difficulty: 'beginner',
-    author: 'BAOBAB Team',
+    author: 'MonBaobab Team',
     tags: ['Mansa Musa', 'Empire du Mali', 'Pèlerinage', 'Commerce', 'Or'],
     chapters: [
       {
@@ -74,7 +74,7 @@ const storiesData = [
     description: "Découvrez comment la Reine Nzinga Mbande défendit son royaume contre la colonisation portugaise pendant plus de 30 ans.",
     category: 'Biographie',
     difficulty: 'intermediate',
-    author: 'BAOBAB Team',
+    author: 'MonBaobab Team',
     tags: ['Reine Nzinga', 'Résistance', 'Angola', 'Colonisation', 'Femme dirigeante'],
     chapters: [
       {

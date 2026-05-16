@@ -126,10 +126,98 @@
   border: 1px solid var(--color-border);
 }
 
+.country-form-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(190px, 240px);
+  gap: 1.25rem;
+  align-items: start;
+  margin-bottom: 1rem;
+}
+
+.form-eyebrow {
+  display: inline-flex;
+  margin-bottom: 0.45rem;
+  color: var(--color-primary);
+  font-size: 0.78rem;
+  font-weight: 850;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
 .country-form-card h3 {
   color: var(--color-primary);
-  margin: 0 0 1.5rem 0;
+  margin: 0 0 0.45rem 0;
   font-size: 1.5rem;
+}
+
+.country-form-header p {
+  color: var(--color-text-muted);
+  line-height: 1.55;
+  margin: 0;
+}
+
+.completion-meter {
+  padding: 1rem;
+  border-radius: 14px;
+  border: 1px solid var(--color-border);
+  background: color-mix(in srgb, var(--color-bg-light) 84%, transparent);
+}
+
+.completion-meter strong {
+  display: block;
+  color: var(--color-text);
+  font-size: 1.75rem;
+  line-height: 1;
+}
+
+.completion-meter span {
+  display: block;
+  margin-top: 0.25rem;
+  color: var(--color-text-muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.completion-track {
+  height: 8px;
+  margin-top: 0.9rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--color-border) 64%, transparent);
+  overflow: hidden;
+}
+
+.completion-track i {
+  display: block;
+  height: 100%;
+  min-width: 8px;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-gold));
+}
+
+.completion-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 0 0 1.25rem;
+}
+
+.completion-chips span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  color: var(--color-text-muted);
+  background: var(--color-bg-light);
+  font-size: 0.82rem;
+  font-weight: 750;
+}
+
+.completion-chips span.done {
+  color: var(--color-bg);
+  border-color: transparent;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-gold));
 }
 
 .country-form {
@@ -171,6 +259,137 @@
   transform: translateY(-4px);
   border-color: var(--color-primary);
   box-shadow: 0 12px 32px var(--color-shadow-gold);
+}
+
+/* Desktop editorial workspace */
+@media (min-width: 1100px) {
+  .admin-countries {
+    gap: 1.5rem;
+  }
+
+  .admin-section-header,
+  .countries-search-bar,
+  .countries-grid-admin,
+  .country-form-card {
+    max-width: 1440px;
+    width: 100%;
+    margin-inline: auto;
+  }
+
+  .admin-section-header {
+    align-items: center;
+    padding: 0.25rem 0;
+  }
+
+  .countries-search-bar {
+    position: sticky;
+    top: 84px;
+    z-index: 8;
+    min-height: 60px;
+    padding-inline: 1.25rem;
+    border-radius: 18px;
+    backdrop-filter: blur(16px);
+  }
+
+  .countries-grid-admin {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .country-form-card {
+    display: grid;
+    grid-template-columns: minmax(230px, 280px) minmax(0, 1fr);
+    gap: 0 1.6rem;
+    padding: clamp(1.4rem, 2vw, 2.25rem);
+    border-radius: 22px;
+  }
+
+  .country-form-header {
+    grid-column: 1 / -1;
+    grid-template-columns: minmax(0, 1fr) minmax(220px, 280px);
+    padding-bottom: 1.15rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .completion-chips,
+  .form-tabs {
+    grid-column: 1;
+  }
+
+  .completion-chips {
+    align-self: start;
+    position: sticky;
+    top: 168px;
+    display: grid;
+    gap: 0.5rem;
+    margin: 1.25rem 0 0;
+    padding: 0.8rem;
+    border: 1px solid var(--color-border);
+    border-radius: 16px;
+    background: color-mix(in srgb, var(--color-bg-light) 84%, transparent);
+  }
+
+  .completion-chips span {
+    justify-content: space-between;
+    border-radius: 12px;
+  }
+
+  .completion-chips span.done::after {
+    content: 'fait';
+    margin-left: 0.75rem;
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    opacity: 0.78;
+  }
+
+  .form-tabs {
+    position: sticky;
+    top: 386px;
+    align-self: start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 0.45rem;
+    margin: 1rem 0 0;
+    padding: 0.8rem;
+    border: 1px solid var(--color-border);
+    border-radius: 16px;
+    background: color-mix(in srgb, var(--color-bg-card) 92%, transparent);
+  }
+
+  .form-tab {
+    width: 100%;
+    min-height: 44px;
+    padding: 0.75rem 0.85rem;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    text-align: left;
+    margin: 0;
+  }
+
+  .form-tab.active {
+    color: var(--color-bg);
+    border-color: transparent;
+    background: linear-gradient(135deg, var(--color-primary), var(--color-gold));
+    box-shadow: 0 12px 28px color-mix(in srgb, var(--color-primary) 18%, transparent);
+  }
+
+  .country-form {
+    grid-column: 2;
+    grid-row: span 2;
+    min-width: 0;
+    padding-left: 1.4rem;
+    border-left: 1px solid var(--color-border);
+  }
+
+  .tab-content {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1500px) {
+  .countries-grid-admin {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
 }
 
 .country-card-header-admin {
@@ -685,17 +904,58 @@
     gap: 1rem;
   }
 
+  .country-form-card {
+    padding: 1rem;
+  }
+
+  .country-form-header {
+    grid-template-columns: 1fr;
+  }
+
+  .completion-meter {
+    position: sticky;
+    top: 76px;
+    z-index: 4;
+    backdrop-filter: blur(16px);
+  }
+
   .countries-grid-admin {
     grid-template-columns: 1fr;
   }
 
   .form-tabs {
-    flex-direction: column;
+    position: sticky;
+    top: 156px;
+    z-index: 3;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 0.5rem 0;
+    margin-inline: -0.25rem;
+    background: var(--color-bg-card);
+    scrollbar-width: none;
+  }
+
+  .form-tabs::-webkit-scrollbar {
+    display: none;
   }
 
   .form-tab {
-    width: 100%;
-    text-align: left;
+    flex: 0 0 auto;
+    width: auto;
+    min-height: 44px;
+    padding: 0.7rem 0.95rem;
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 0;
+    background: var(--color-bg-light);
+  }
+
+  .form-tab.active {
+    color: var(--color-bg);
+    border-color: transparent;
+    background: linear-gradient(135deg, var(--color-primary), var(--color-gold));
   }
 
   .section-item-header {
@@ -706,4 +966,3 @@
     align-self: flex-end;
   }
 }
-

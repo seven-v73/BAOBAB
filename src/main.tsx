@@ -53,7 +53,8 @@ window.addEventListener('unhandledrejection', (event) => {
 // Gestionnaire global pour les erreurs non capturées
 window.addEventListener('error', (event) => {
   // Ignorer les erreurs liées aux extensions
-  const errorSource = event.filename || event.target?.src || ''
+  const target = event.target as EventTarget & { src?: string } | null
+  const errorSource = event.filename || target?.src || ''
   
   if (
     event.message?.includes('message channel closed') ||

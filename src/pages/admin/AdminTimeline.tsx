@@ -4,6 +4,7 @@ import { Button } from '../../components/Button/Button'
 import { Input } from '../../components/Input/Input'
 import { timelineService } from '../../services/api'
 import { useNotifications } from '../../hooks/useNotifications'
+import { useConfirmDialog } from '../../components/UX/ConfirmDialog'
 import { Plus, Edit, Trash2, Search, Calendar, MapPin, CheckCircle } from 'lucide-react'
 import './AdminTimeline.css'
 
@@ -24,6 +25,7 @@ interface TimelineEvent {
 
 export const AdminTimeline = () => {
   const { success, showError } = useNotifications()
+  const { confirm, Dialog } = useConfirmDialog()
   const [events, setEvents] = useState<TimelineEvent[]>([])
   const [loading, setLoading] = useState(true)
   const [searchTerm, setSearchTerm] = useState('')
@@ -73,7 +75,13 @@ export const AdminTimeline = () => {
   }
 
   const handleDelete = async (id: string) => {
-    if (!confirm('Êtes-vous sûr de vouloir supprimer cet événement ?')) return
+    const accepted = await confirm({
+      title: 'Supprimer cet événement ?',
+      message: 'L’événement sera retiré de la chronologie.',
+      confirmLabel: 'Supprimer',
+      tone: 'danger',
+    })
+    if (!accepted) return
 
     try {
       await timelineService.delete(id)
@@ -279,7 +287,7 @@ export const AdminTimeline = () => {
           )}
         </div>
       )}
+      {Dialog}
     </div>
   )
 }
-

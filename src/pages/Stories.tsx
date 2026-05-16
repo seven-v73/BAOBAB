@@ -74,8 +74,8 @@ export const Stories = () => {
     <Layout>
       <div className="stories-page">
         <div className="stories-header">
-          <h1>📖 Récits et Histoires</h1>
-          <p>Découvrez l'histoire de l'Afrique à travers des récits narratifs immersifs</p>
+          <h1>Récits et histoires</h1>
+          <p>Des récits pour entrer dans les lieux, les voix et les mémoires.</p>
         </div>
 
         <div className="stories-filters">
@@ -171,4 +171,3 @@ export const Stories = () => {
     </Layout>
   )
 }
-

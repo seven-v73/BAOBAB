@@ -18,7 +18,7 @@ export const ProductCard = ({ product, onAddToCart }: ProductCardProps) => {
       <div className="product-content">
         <div className="product-header">
           <h3 className="product-name">{product.name}</h3>
-          <span className="product-origin">📍 {product.origin}</span>
+          <span className="product-origin">{product.origin}</span>
         </div>
         <p className="product-description">{product.description}</p>
         <div className="product-footer">

@@ -85,6 +85,12 @@
   gap: 1rem;
 }
 
+.settings-media-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
 .btn {
   padding: 0.75rem 1.5rem;
   border: none;
@@ -198,6 +204,10 @@
     padding: 1rem;
   }
 
+  .settings-media-grid {
+    grid-template-columns: 1fr;
+  }
+
   .delete-actions {
     flex-direction: column;
   }
@@ -206,4 +216,3 @@
     width: 100%;
   }
 }
-

@@ -56,7 +56,7 @@ export const createPaymentIntent = catchAsync(async (req, res, next) => {
         userId: req.user._id.toString(),
         orderNumber: order.orderNumber,
       },
-      description: `Commande ${order.orderNumber} - BAOBAB`,
+      description: `Commande ${order.orderNumber} - MonBaobab`,
     })
 
     // Mettre à jour la commande avec le paymentIntentId

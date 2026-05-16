@@ -6,7 +6,6 @@ const userProgressSchema = new mongoose.Schema({
     ref: 'User',
     required: true,
     unique: true,
-    index: true,
   },
   completedQuizzes: [{
     type: mongoose.Schema.Types.ObjectId,
@@ -122,4 +121,3 @@ userProgressSchema.methods.addPoints = function(points) {
 const UserProgress = mongoose.model('UserProgress', userProgressSchema)
 
 export default UserProgress
-

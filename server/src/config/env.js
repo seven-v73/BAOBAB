@@ -54,7 +54,7 @@ export const env = {
   EMAIL_FROM: process.env.EMAIL_FROM || 'noreply@baobab.com',
   FRONTEND_URL: process.env.FRONTEND_URL || 'http://localhost:5173',
   // 2FA
-  TOTP_ISSUER: process.env.TOTP_ISSUER || 'BAOBAB',
+  TOTP_ISSUER: process.env.TOTP_ISSUER || 'MonBaobab',
   TOTP_WINDOW: parseInt(process.env.TOTP_WINDOW) || 2,
   // Monitoring
   LOG_LEVEL: process.env.LOG_LEVEL || (process.env.NODE_ENV === 'production' ? 'warn' : 'info'),

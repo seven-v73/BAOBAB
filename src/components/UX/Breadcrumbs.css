@@ -1,0 +1,30 @@
+.ux-breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+  margin: 0 0 1rem;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.ux-breadcrumbs a,
+.ux-breadcrumbs strong {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 740;
+}
+
+.ux-breadcrumbs a:hover {
+  color: var(--color-primary);
+}
+
+.ux-breadcrumbs span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.ux-breadcrumbs strong {
+  color: var(--color-text);
+}

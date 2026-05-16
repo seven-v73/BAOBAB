@@ -92,8 +92,8 @@ export const Collections = () => {
     <Layout>
       <div className="collections-page">
         <div className="collections-header">
-          <h1>📚 Collections Thématiques</h1>
-          <p>Explorez l'histoire de l'Afrique à travers des collections organisées par thème</p>
+          <h1>Collections thématiques</h1>
+          <p>Des dossiers organisés pour lire un sujet sans se perdre</p>
         </div>
 
         <div className="collections-filters">

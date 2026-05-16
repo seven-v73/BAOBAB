@@ -2,11 +2,16 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Layout } from '../components/Layout/Layout'
 import { communityService } from '../services/api'
+import { MediaUpload } from '../components/Community/MediaUpload'
+import { Breadcrumbs } from '../components/UX/Breadcrumbs'
+import { useNotifications } from '../hooks/useNotifications'
 import './CreateCommunity.css'
 
 export const CreateCommunity = () => {
   const navigate = useNavigate()
+  const { success, error: showError, warning } = useNotifications()
   const [loading, setLoading] = useState(false)
+  const [showAdvanced, setShowAdvanced] = useState(false)
   const [formData, setFormData] = useState({
     name: '',
     description: '',
@@ -24,7 +29,7 @@ export const CreateCommunity = () => {
     e.preventDefault()
 
     if (!formData.name.trim() || !formData.description.trim()) {
-      alert('Le nom et la description sont requis')
+      warning('Ajoutez un nom et une description avant d’envoyer la demande.')
       return
     }
 
@@ -35,7 +40,7 @@ export const CreateCommunity = () => {
         .map(tag => tag.trim())
         .filter(tag => tag.length > 0)
 
-      const response = await communityService.createCommunity({
+      await communityService.createCommunityRequest({
         name: formData.name.trim(),
         description: formData.description.trim(),
         type: formData.type,
@@ -50,9 +55,10 @@ export const CreateCommunity = () => {
         },
       })
 
-      navigate(`/communities/${response.data._id}`)
+      success('Votre demande a été envoyée à l’administration.')
+      navigate('/communities')
     } catch (err: any) {
-      alert(err.response?.data?.error || 'Erreur lors de la création de la communauté')
+      showError(err.response?.data?.error || 'Erreur lors de l’envoi de la demande')
     } finally {
       setLoading(false)
     }
@@ -61,24 +67,25 @@ export const CreateCommunity = () => {
   return (
     <Layout>
       <div className="create-community-page">
+        <Breadcrumbs items={[{ label: 'Communautés', to: '/communities' }, { label: 'Proposer un groupe' }]} />
         <div className="create-community-header">
-          <h1>Créer une communauté</h1>
-          <p>Créez votre propre communauté pour partager votre culture et vos expériences</p>
+          <h1>Proposer un groupe</h1>
+          <p>Décrivez le cercle que vous souhaitez ouvrir. L’administration vérifie la demande avant publication pour garder un espace clair, utile et respectueux.</p>
         </div>
 
         <form onSubmit={handleSubmit} className="create-community-form">
           <div className="form-section">
-            <h2>Informations de base</h2>
+            <h2>L'essentiel</h2>
             
             <div className="form-group">
-              <label htmlFor="name">Nom de la communauté *</label>
+              <label htmlFor="name">Nom du groupe *</label>
               <input
                 type="text"
                 id="name"
                 name="name"
                 value={formData.name}
                 onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                placeholder="Ex: Communauté Wolof"
+                placeholder="Ex: Cercle Wolof"
                 required
                 maxLength={100}
               />
@@ -91,35 +98,49 @@ export const CreateCommunity = () => {
                 name="description"
                 value={formData.description}
                 onChange={(e) => setFormData({ ...formData, description: e.target.value })}
-                placeholder="Décrivez votre communauté..."
+                placeholder="Expliquez le sujet, les personnes concernées et ce que ce groupe apportera..."
                 rows={4}
                 required
                 maxLength={500}
               />
             </div>
+          </div>
+
+          <button
+            type="button"
+            className={`advanced-toggle ${showAdvanced ? 'open' : ''}`}
+            onClick={() => setShowAdvanced(!showAdvanced)}
+          >
+            <span>{showAdvanced ? 'Masquer les détails' : 'Ajouter des détails optionnels'}</span>
+            <small>Images, tags, visibilité et règles du groupe</small>
+          </button>
+
+          {showAdvanced && (
+            <>
+              <div className="form-section">
+                <h2>Repères</h2>
 
             <div className="form-row">
               <div className="form-group">
-                <label htmlFor="type">Type de communauté *</label>
+                <label htmlFor="type">Visibilité souhaitée</label>
                 <select
                   id="type"
                   name="type"
                   value={formData.type}
                   onChange={(e) => setFormData({ ...formData, type: e.target.value })}
-                  required
                 >
-                  <option value="public">Publique - Accessible à tous</option>
-                  <option value="private">Privée - Sur invitation uniquement</option>
+                  <option value="public">Publique - visible et accessible à tous</option>
+                  <option value="private">Privée - sur invitation uniquement</option>
                 </select>
                 <p className="form-help">
                   {formData.type === 'public'
-                    ? 'Tout le monde peut voir et rejoindre votre communauté'
-                    : 'Seuls les membres invités peuvent accéder à votre communauté'}
+                    ? 'Tout le monde pourra voir et rejoindre ce groupe après validation.'
+                    : 'Seuls les membres invités pourront accéder à ce groupe après validation.'}
                 </p>
               </div>
 
               <div className="form-group">
-                <label htmlFor="culture">Culture (optionnel)</label>
+                <label htmlFor="culture">Culture</label>
                 <input
                   type="text"
                   id="culture"
@@ -130,42 +151,9 @@ export const CreateCommunity = () => {
                 />
               </div>
             </div>
-          </div>
 
-          <div className="form-section">
-            <h2>Images</h2>
-            
-            <div className="form-row">
-              <div className="form-group">
-                <label htmlFor="image">Avatar (URL)</label>
-                <input
-                  type="url"
-                  id="image"
-                  name="image"
-                  value={formData.image}
-                  onChange={(e) => setFormData({ ...formData, image: e.target.value })}
-                  placeholder="https://..."
-                />
-              </div>
-
-              <div className="form-group">
-                <label htmlFor="coverImage">Image de couverture (URL)</label>
-                <input
-                  type="url"
-                  id="coverImage"
-                  name="coverImage"
-                  value={formData.coverImage}
-                  onChange={(e) => setFormData({ ...formData, coverImage: e.target.value })}
-                  placeholder="https://..."
-                />
-              </div>
-            </div>
-          </div>
-
-          <div className="form-section">
-            <h2>Tags</h2>
             <div className="form-group">
-              <label htmlFor="tags">Tags (séparés par des virgules)</label>
+              <label htmlFor="tags">Tags</label>
               <input
                 type="text"
                 id="tags"
@@ -175,10 +163,36 @@ export const CreateCommunity = () => {
                 placeholder="culture, tradition, langue..."
               />
             </div>
-          </div>
+              </div>
 
-          <div className="form-section">
-            <h2>Paramètres</h2>
+              <div className="form-section">
+                <h2>Images</h2>
+            
+            <div className="form-row">
+              <div className="form-group">
+                <MediaUpload
+                  type="image"
+                  value={formData.image}
+                  label="Avatar du groupe"
+                  onChange={(url) => setFormData({ ...formData, image: url })}
+                  onRemove={() => setFormData({ ...formData, image: '' })}
+                />
+              </div>
+
+              <div className="form-group">
+                <MediaUpload
+                  type="image"
+                  value={formData.coverImage}
+                  label="Image de couverture"
+                  onChange={(url) => setFormData({ ...formData, coverImage: url })}
+                  onRemove={() => setFormData({ ...formData, coverImage: '' })}
+                />
+              </div>
+            </div>
+              </div>
+
+              <div className="form-section">
+                <h2>Fonctionnement souhaité</h2>
             
             <div className="form-group checkbox-group">
               <label>
@@ -202,7 +216,7 @@ export const CreateCommunity = () => {
                   checked={formData.requireApproval}
                   onChange={(e) => setFormData({ ...formData, requireApproval: e.target.checked })}
                 />
-                <span>Nécessiter une approbation pour les posts</span>
+                <span>Valider les publications avant affichage</span>
               </label>
             </div>
 
@@ -218,7 +232,9 @@ export const CreateCommunity = () => {
                 <span>Permettre les invitations</span>
               </label>
             </div>
-          </div>
+              </div>
+            </>
+          )}
 
           <div className="form-actions">
             <button
@@ -234,7 +250,7 @@ export const CreateCommunity = () => {
               className="btn btn-primary"
               disabled={loading || !formData.name.trim() || !formData.description.trim()}
             >
-              {loading ? 'Création...' : 'Créer la communauté'}
+              {loading ? 'Envoi...' : 'Envoyer la demande'}
             </button>
           </div>
         </form>
@@ -242,4 +258,3 @@ export const CreateCommunity = () => {
     </Layout>
   )
 }
-

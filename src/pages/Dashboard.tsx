@@ -5,10 +5,10 @@ import { Card } from '../components/Card/Card'
 import { Button } from '../components/Button/Button'
 import { Input } from '../components/Input/Input'
 import { FileUpload } from '../components/FileUpload/FileUpload'
+import { Skeleton } from '../components/UX/Skeleton'
 import { useAuthStore } from '../stores/authStore'
 import { userService, orderService, blogService, productService, authService, proverbService, countryService, bookmarkService, progressService } from '../services/api'
 import { useNotifications } from '../hooks/useNotifications'
-// Toutes les icônes sont remplacées par des effets CSS élégants
 import './Dashboard.css'
 
 interface UserProfile {
@@ -71,6 +71,8 @@ export const Dashboard = () => {
   const [myProducts, setMyProducts] = useState<any[]>([])
   const [showBlogForm, setShowBlogForm] = useState(false)
   const [showProductForm, setShowProductForm] = useState(false)
+  const [showBlogDetails, setShowBlogDetails] = useState(false)
+  const [showProductDetails, setShowProductDetails] = useState(false)
   const [blogActiveTab, setBlogActiveTab] = useState<'basic' | 'images' | 'pdfs' | 'videos' | 'documents'>('basic')
   const [productActiveTab, setProductActiveTab] = useState<'basic' | 'images' | 'pdfs' | 'videos' | 'documents'>('basic')
   
@@ -122,6 +124,7 @@ export const Dashboard = () => {
   const [countries, setCountries] = useState<any[]>([])
   const [submittingProverb, setSubmittingProverb] = useState(false)
   const [myProverbs, setMyProverbs] = useState<any[]>([])
+  const [showProverbDetails, setShowProverbDetails] = useState(false)
   
   const [blogFormData, setBlogFormData] = useState({
     title: '',
@@ -141,6 +144,8 @@ export const Dashboard = () => {
     category: 'Artisanat',
     stock: '',
   })
+
+  const formatFCFA = (amount: number) => `${Math.round(amount || 0).toLocaleString('fr-FR')} FCFA`
 
   useEffect(() => {
     if (isAuthenticated) {
@@ -589,17 +594,28 @@ export const Dashboard = () => {
     return labels[status] || status
   }
 
+  const getStatusIconClass = (status: string) => {
+    const icons: Record<string, string> = {
+      pending: 'icon-clock',
+      confirmed: 'icon-check-circle',
+      processing: 'icon-settings',
+      shipped: 'icon-truck',
+      delivered: 'icon-check-circle',
+      cancelled: 'icon-close',
+      refunded: 'icon-refresh',
+    }
+    return icons[status] || 'icon-circle'
+  }
+
   if (!isAuthenticated) {
-    return <Navigate to="/login" replace />
+    return <Navigate to="/login?redirect=/dashboard" replace />
   }
 
   if (loading) {
     return (
       <Layout>
         <div className="dashboard">
-          <div className="dashboard-loading">
-            <p>Chargement de votre tableau de bord...</p>
-          </div>
+          <Skeleton variant="dashboard" label="Chargement de votre tableau de bord" />
         </div>
       </Layout>
     )
@@ -612,34 +628,82 @@ export const Dashboard = () => {
     wishlistCount: profile?.wishlist?.length || 0,
     pendingOrders: orders.filter(o => o.status === 'pending').length,
   }
+  const displayName = profile?.name || authUser?.name || 'membre'
+  const memberSince = profile?.createdAt
+    ? new Date(profile.createdAt).toLocaleDateString('fr-FR', { month: 'long', year: 'numeric' })
+    : 'Profil récent'
+  const completedOrders = orders.filter(order => order.status === 'delivered').length
+  const savedContentCount = bookmarks.length + stats.favoritesCount + stats.wishlistCount
+  const contributionCount = myBlogs.length + myProducts.length + myProverbs.length
+  const hubActions = [
+    {
+      title: 'Continuer la découverte',
+      text: 'Reprendre par les pays, les récits et les repères sauvegardés.',
+      action: 'Explorer',
+      to: '/map',
+      meta: `${savedContentCount} élément${savedContentCount > 1 ? 's' : ''} gardé${savedContentCount > 1 ? 's' : ''}`,
+    },
+    {
+      title: 'Préserver un savoir',
+      text: 'Proposer un proverbe, un récit ou un contenu à faire valider.',
+      action: 'Contribuer',
+      onClick: () => setActiveSection('proverbs'),
+      meta: `${contributionCount} contribution${contributionCount > 1 ? 's' : ''}`,
+    },
+    {
+      title: 'Relier boutique et culture',
+      text: 'Ajouter un produit avec pays, matière, histoire et médias.',
+      action: 'Ajouter',
+      onClick: () => setActiveSection('myProducts'),
+      meta: `${myProducts.length} produit${myProducts.length > 1 ? 's' : ''}`,
+    },
+    {
+      title: 'Rejoindre les échanges',
+      text: 'Partager une question ou suivre une communauté liée à vos intérêts.',
+      action: 'Communautés',
+      to: '/communities',
+      meta: 'Transmission vivante',
+    },
+  ]
 
   return (
     <Layout>
       <div className="dashboard">
         <div className="dashboard-header">
           <div>
-            <h1>Tableau de bord</h1>
+            <p className="dashboard-eyebrow">Espace personnel</p>
+            <h1>Bonjour {displayName.split(' ')[0]}</h1>
             <p className="dashboard-welcome">
-              Bienvenue, <strong>{profile?.name || authUser?.name}</strong> ! 👋
+              Retrouvez vos commandes, vos contenus sauvegardés et vos contributions au même endroit.
             </p>
           </div>
-          {authUser?.role === 'admin' && (
-            <Link to="/admin">
-              <Button variant="outline">
-                <span className="icon-settings" />
+          <div className="dashboard-hero-panel">
+            <div className="dashboard-hero-metric">
+              <span>{stats.totalOrders}</span>
+              <small>Commandes</small>
+            </div>
+            <div className="dashboard-hero-metric">
+              <span>{savedContentCount}</span>
+              <small>Sauvegardés</small>
+            </div>
+            <div className="dashboard-hero-metric">
+              <span>{contributionCount}</span>
+              <small>Contributions</small>
+            </div>
+            {authUser?.role === 'admin' && (
+              <Link to="/admin" className="dashboard-admin-link">
                 Administration
-              </Button>
-            </Link>
-          )}
+              </Link>
+            )}
+          </div>
         </div>
 
         <div className="dashboard-global-search">
           <div className="global-search-bar">
-            <span className="icon-search" />
             <Input
               id="dashboard-search"
               name="dashboard-search"
-              placeholder="Rechercher dans le dashboard..."
+              placeholder="Rechercher une commande, un favori ou un contenu..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               className="global-search-input"
@@ -657,87 +721,89 @@ export const Dashboard = () => {
 
         <div className="dashboard-layout">
           <aside className="dashboard-sidebar">
+            <div className="dashboard-sidebar-profile">
+              <div className="sidebar-avatar" aria-hidden="true">
+                {displayName.charAt(0).toUpperCase()}
+              </div>
+              <div>
+                <strong>{displayName}</strong>
+                <span>Membre depuis {memberSince}</span>
+              </div>
+            </div>
             <nav className="dashboard-nav">
+              <span className="dashboard-nav-group">Activité</span>
               <button
                 className={`dashboard-nav-item ${activeSection === 'overview' ? 'active' : ''}`}
                 onClick={() => setActiveSection('overview')}
               >
-                <span className="icon-star" />
-                Vue d'ensemble
+                Vue d’ensemble
               </button>
               <button
                 className={`dashboard-nav-item ${activeSection === 'orders' ? 'active' : ''}`}
                 onClick={() => setActiveSection('orders')}
               >
-                <span className="icon-package" />
-                Mes commandes
+                Commandes
                 {stats.totalOrders > 0 && <span className="nav-badge">{stats.totalOrders}</span>}
               </button>
+              <span className="dashboard-nav-group">Achats</span>
               <button
                 className={`dashboard-nav-item ${activeSection === 'favorites' ? 'active' : ''}`}
                 onClick={() => setActiveSection('favorites')}
               >
-                <span className="icon-heart" />
-                Favoris
+                Produits favoris
                 {stats.favoritesCount > 0 && <span className="nav-badge">{stats.favoritesCount}</span>}
               </button>
               <button
                 className={`dashboard-nav-item ${activeSection === 'wishlist' ? 'active' : ''}`}
                 onClick={() => setActiveSection('wishlist')}
               >
-                <span className="icon-star" />
-                Wishlist
+                À garder
                 {stats.wishlistCount > 0 && <span className="nav-badge">{stats.wishlistCount}</span>}
               </button>
+              <span className="dashboard-nav-group">Mes contenus</span>
               <button
                 className={`dashboard-nav-item ${activeSection === 'myBlogs' ? 'active' : ''}`}
                 onClick={() => setActiveSection('myBlogs')}
               >
-                <span className="icon-book" />
-                Mes articles
+                Articles
                 {myBlogs.length > 0 && <span className="nav-badge">{myBlogs.length}</span>}
               </button>
               <button
                 className={`dashboard-nav-item ${activeSection === 'myProducts' ? 'active' : ''}`}
                 onClick={() => setActiveSection('myProducts')}
               >
-                <span className="icon-shopping" />
-                Mes produits
+                Produits
                 {myProducts.length > 0 && <span className="nav-badge">{myProducts.length}</span>}
-              </button>
-              <button
-                className={`dashboard-nav-item ${activeSection === 'profile' ? 'active' : ''}`}
-                onClick={() => setActiveSection('profile')}
-              >
-                <span className="icon-user" />
-                Mon profil
               </button>
               <button
                 className={`dashboard-nav-item ${activeSection === 'proverbs' ? 'active' : ''}`}
                 onClick={() => setActiveSection('proverbs')}
               >
-                <span className="icon-book" />
                 Proverbes
               </button>
               <button
                 className={`dashboard-nav-item ${activeSection === 'bookmarks' ? 'active' : ''}`}
                 onClick={() => setActiveSection('bookmarks')}
               >
-                <span className="icon-heart" />
-                Mes Favoris
+                Lectures sauvegardées
               </button>
               <button
                 className={`dashboard-nav-item ${activeSection === 'progress' ? 'active' : ''}`}
                 onClick={() => setActiveSection('progress')}
               >
-                <span className="icon-award" />
                 Progression
+              </button>
+              <span className="dashboard-nav-group">Compte</span>
+              <button
+                className={`dashboard-nav-item ${activeSection === 'profile' ? 'active' : ''}`}
+                onClick={() => setActiveSection('profile')}
+              >
+                Profil
               </button>
               <button
                 className={`dashboard-nav-item ${activeSection === 'settings' ? 'active' : ''}`}
                 onClick={() => setActiveSection('settings')}
               >
-                <span className="icon-settings" />
                 Paramètres
               </button>
             </nav>
@@ -768,42 +834,62 @@ export const Dashboard = () => {
                 )}
                 <div className="stats-grid">
                   <Card className="stat-card">
-                    <div className="stat-icon" style={{ backgroundColor: '#3498db20', color: '#3498db' }}>
-                      <span className="icon-package" />
-                    </div>
                     <div className="stat-content">
                       <h3>{stats.totalOrders}</h3>
                       <p>Commandes</p>
                     </div>
                   </Card>
                   <Card className="stat-card">
-                    <div className="stat-icon" style={{ backgroundColor: '#27ae6020', color: '#27ae60' }}>
-                      <span className="icon-star" />
-                    </div>
                     <div className="stat-content">
-                      <h3>{stats.totalSpent.toFixed(2)} €</h3>
+                      <h3>{formatFCFA(stats.totalSpent)}</h3>
                       <p>Total dépensé</p>
                     </div>
                   </Card>
                   <Card className="stat-card">
-                    <div className="stat-icon" style={{ backgroundColor: '#e74c3c20', color: '#e74c3c' }}>
-                      <span className="icon-heart" />
-                    </div>
                     <div className="stat-content">
-                      <h3>{stats.favoritesCount}</h3>
-                      <p>Favoris</p>
+                      <h3>{completedOrders}</h3>
+                      <p>Commandes livrées</p>
                     </div>
                   </Card>
                   <Card className="stat-card">
-                    <div className="stat-icon" style={{ backgroundColor: '#f39c1220', color: '#f39c12' }}>
-                      <span className="icon-star" />
-                    </div>
                     <div className="stat-content">
-                      <h3>{stats.wishlistCount}</h3>
-                      <p>Wishlist</p>
+                      <h3>{savedContentCount}</h3>
+                      <p>Éléments sauvegardés</p>
                     </div>
                   </Card>
                 </div>
+
+                <Card className="dashboard-hub-card">
+                  <div className="dashboard-hub-header">
+                    <span className="dashboard-section-kicker">Hub MonBaobab</span>
+                    <h2>Vos parcours, contenus et actions au même endroit</h2>
+                    <p>
+                      La plateforme relie maintenant découverte, contribution, communauté et boutique pour éviter les allers-retours inutiles.
+                    </p>
+                  </div>
+                  <div className="dashboard-hub-grid">
+                    {hubActions.map((item) => {
+                      const content = (
+                        <>
+                          <span>{item.meta}</span>
+                          <strong>{item.title}</strong>
+                          <p>{item.text}</p>
+                          <em>{item.action}</em>
+                        </>
+                      )
+
+                      return item.to ? (
+                        <Link to={item.to} className="dashboard-hub-action" key={item.title}>
+                          {content}
+                        </Link>
+                      ) : (
+                        <button type="button" className="dashboard-hub-action" onClick={item.onClick} key={item.title}>
+                          {content}
+                        </button>
+                      )
+                    })}
+                  </div>
+                </Card>
 
                 {orders.length > 0 && (
                   <Card className="recent-orders-card">
@@ -828,7 +914,7 @@ export const Dashboard = () => {
                             </span>
                           </div>
                           <div className="order-meta">
-                            <span className="order-total">{order.total.toFixed(2)} €</span>
+                            <span className="order-total">{formatFCFA(order.total)}</span>
                             <span
                               className="order-status"
                               style={{ color: getStatusColor(order.status) }}
@@ -890,7 +976,7 @@ export const Dashboard = () => {
                                       height: `${(monthlyData[month].count / maxCount) * 100}%`,
                                       backgroundColor: '#d4af37',
                                     }}
-                                    title={`${monthlyData[month].count} commande(s) - ${monthlyData[month].total.toFixed(2)} €`}
+                                    title={`${monthlyData[month].count} commande(s) - ${formatFCFA(monthlyData[month].total)}`}
                                   />
                                 </div>
                                 <div className="chart-label">
@@ -972,7 +1058,7 @@ export const Dashboard = () => {
                   <div className="orders-list">
                     {(() => {
                       // Filtrer les commandes
-                      let filteredOrders = orders.filter(order => {
+                      const filteredOrders = orders.filter(order => {
                         // Filtre par statut
                         if (orderFilter !== 'all' && order.status !== orderFilter) {
                           return false
@@ -1028,13 +1114,13 @@ export const Dashboard = () => {
                                 <span className="order-item-name">{item.name}</span>
                                 <span className="order-item-quantity">x{item.quantity}</span>
                               </div>
-                              <span className="order-item-price">{item.subtotal.toFixed(2)} €</span>
+                              <span className="order-item-price">{formatFCFA(item.subtotal)}</span>
                             </div>
                           ))}
                         </div>
                         <div className="order-footer">
                           <div className="order-total-section">
-                            <span>Total: <strong>{order.total.toFixed(2)} €</strong></span>
+                            <span>Total: <strong>{formatFCFA(order.total)}</strong></span>
                             {order.trackingNumber && (
                               <span className="tracking-number">
                                 <span className="icon-arrow icon-arrow-right" />
@@ -1115,11 +1201,11 @@ export const Dashboard = () => {
 
             {activeSection === 'wishlist' && (
               <div className="dashboard-wishlist">
-                <h2>Ma wishlist</h2>
+                <h2>À garder</h2>
                 {!profile?.wishlist || profile.wishlist.length === 0 ? (
                   <Card className="empty-state">
                     <span className="icon-star" style={{ fontSize: '48px', width: '48px', height: '48px' }} />
-                    <p>Aucun produit dans votre wishlist</p>
+                    <p>Aucun produit mis de côté pour le moment</p>
                     <Link to="/shop">
                       <Button>Découvrir la boutique</Button>
                     </Link>
@@ -1165,7 +1251,7 @@ export const Dashboard = () => {
             {activeSection === 'myBlogs' && (
               <div className="dashboard-my-blogs">
                 <div className="section-header">
-                  <h2>Mes articles</h2>
+                  <h2>Articles</h2>
                   <Button onClick={() => setShowBlogForm(!showBlogForm)}>
                     <span className="icon-plus" />
                     {showBlogForm ? 'Annuler' : 'Nouvel article'}
@@ -1174,7 +1260,7 @@ export const Dashboard = () => {
 
                 {showBlogForm && (
                   <Card className="blog-form-card">
-                    <h3>Créer un nouvel article</h3>
+                    <h3>Nouvel article</h3>
                     
                     {/* Onglets */}
                     <div className="form-tabs">
@@ -1238,50 +1324,64 @@ export const Dashboard = () => {
                               rows={10}
                             />
                           </div>
-                          <div className="form-group">
-                            <label htmlFor="blog-excerpt" className="input-label">Extrait (optionnel)</label>
-                            <textarea
-                              id="blog-excerpt"
-                              name="excerpt"
-                              className="form-textarea"
-                              value={blogFormData.excerpt}
-                              onChange={(e) => setBlogFormData({ ...blogFormData, excerpt: e.target.value })}
-                              placeholder="Court résumé de l'article..."
-                              rows={3}
-                            />
-                          </div>
-                          <div className="form-row">
-                            <div className="form-group">
-                              <label htmlFor="blog-category" className="input-label">Catégorie</label>
-                              <select
-                                id="blog-category"
-                                name="category"
-                                className="form-select"
-                                value={blogFormData.category}
-                                onChange={(e) => setBlogFormData({ ...blogFormData, category: e.target.value })}
-                              >
-                                <option value="Histoire">Histoire</option>
-                                <option value="Culture">Culture</option>
-                                <option value="Géographie">Géographie</option>
-                                <option value="Économie">Économie</option>
-                                <option value="Politique">Politique</option>
-                                <option value="Autre">Autre</option>
-                              </select>
-                            </div>
-                            <Input
-                              label="Image principale (URL)"
-                              type="url"
-                              value={blogFormData.image}
-                              onChange={(e) => setBlogFormData({ ...blogFormData, image: e.target.value })}
-                              placeholder="https://example.com/image.jpg"
-                            />
-                          </div>
-                          <Input
-                            label="Tags (séparés par des virgules)"
-                            value={blogFormData.tags}
-                            onChange={(e) => setBlogFormData({ ...blogFormData, tags: e.target.value })}
-                            placeholder="Afrique, Histoire, Culture"
-                          />
+
+                          <button
+                            type="button"
+                            className={`advanced-toggle dashboard-advanced-toggle ${showBlogDetails ? 'open' : ''}`}
+                            onClick={() => setShowBlogDetails(!showBlogDetails)}
+                          >
+                            <span>{showBlogDetails ? 'Masquer les détails' : 'Ajouter résumé, image, tags...'}</span>
+                            <small>Optionnel : l’article peut être complété après publication.</small>
+                          </button>
+
+                          {showBlogDetails && (
+                            <>
+                              <div className="form-group">
+                                <label htmlFor="blog-excerpt" className="input-label">Extrait</label>
+                                <textarea
+                                  id="blog-excerpt"
+                                  name="excerpt"
+                                  className="form-textarea"
+                                  value={blogFormData.excerpt}
+                                  onChange={(e) => setBlogFormData({ ...blogFormData, excerpt: e.target.value })}
+                                  placeholder="Court résumé de l'article..."
+                                  rows={3}
+                                />
+                              </div>
+                              <div className="form-row">
+                                <div className="form-group">
+                                  <label htmlFor="blog-category" className="input-label">Catégorie</label>
+                                  <select
+                                    id="blog-category"
+                                    name="category"
+                                    className="form-select"
+                                    value={blogFormData.category}
+                                    onChange={(e) => setBlogFormData({ ...blogFormData, category: e.target.value })}
+                                  >
+                                    <option value="Histoire">Histoire</option>
+                                    <option value="Culture">Culture</option>
+                                    <option value="Géographie">Géographie</option>
+                                    <option value="Économie">Économie</option>
+                                    <option value="Politique">Politique</option>
+                                    <option value="Autre">Autre</option>
+                                  </select>
+                                </div>
+                                <Input
+                                  label="Image principale (URL)"
+                                  type="url"
+                                  value={blogFormData.image}
+                                  onChange={(e) => setBlogFormData({ ...blogFormData, image: e.target.value })}
+                                  placeholder="https://example.com/image.jpg"
+                                />
+                              </div>
+                              <Input
+                                label="Tags"
+                                value={blogFormData.tags}
+                                onChange={(e) => setBlogFormData({ ...blogFormData, tags: e.target.value })}
+                                placeholder="Afrique, Histoire, Culture"
+                              />
+                            </>
+                          )}
                         </>
                       )}
 
@@ -1675,7 +1775,7 @@ export const Dashboard = () => {
             {activeSection === 'myProducts' && (
               <div className="dashboard-my-products">
                 <div className="section-header">
-                  <h2>Mes produits</h2>
+                  <h2>Produits</h2>
                   <Button onClick={() => setShowProductForm(!showProductForm)}>
                     <span className="icon-plus" />
                     {showProductForm ? 'Annuler' : 'Nouveau produit'}
@@ -1684,7 +1784,7 @@ export const Dashboard = () => {
 
                 {showProductForm && (
                   <Card className="product-form-card">
-                    <h3>Créer un nouveau produit</h3>
+                    <h3>Nouveau produit</h3>
                     
                     {/* Onglets */}
                     <div className="form-tabs">
@@ -1746,17 +1846,6 @@ export const Dashboard = () => {
                               required
                             />
                           </div>
-                          <div className="form-group">
-                            <label htmlFor="product-short-description" className="input-label">Description courte (optionnel)</label>
-                            <textarea
-                              id="product-short-description"
-                              name="shortDescription"
-                              className="form-textarea"
-                              value={productFormData.shortDescription}
-                              onChange={(e) => setProductFormData({ ...productFormData, shortDescription: e.target.value })}
-                              rows={2}
-                            />
-                          </div>
                           <div className="form-row">
                             <div className="form-group">
                               <label htmlFor="product-price" className="input-label">Prix</label>
@@ -1795,35 +1884,60 @@ export const Dashboard = () => {
                               required
                             />
                           </div>
-                          <div className="form-group">
-                            <label htmlFor="product-category" className="input-label">Catégorie</label>
-                            <select
-                              id="product-category"
-                              name="category"
-                              className="form-select"
-                              value={productFormData.category}
-                              onChange={(e) => setProductFormData({ ...productFormData, category: e.target.value })}
-                            >
-                              <option value="Artisanat">Artisanat</option>
-                              <option value="Textile">Textile</option>
-                              <option value="Bijoux">Bijoux</option>
-                              <option value="Cuisine">Cuisine</option>
-                              <option value="Musique">Musique</option>
-                              <option value="Autre">Autre</option>
-                            </select>
-                          </div>
-                          <div className="form-group">
-                            <label htmlFor="product-images" className="input-label">Images principales (URLs séparées par des virgules)</label>
-                            <textarea
-                              id="product-images"
-                              name="images"
-                              className="form-textarea"
-                              value={productFormData.images}
-                              onChange={(e) => setProductFormData({ ...productFormData, images: e.target.value })}
-                              rows={2}
-                              placeholder="https://example.com/image1.jpg, https://example.com/image2.jpg"
-                            />
-                          </div>
+
+                          <button
+                            type="button"
+                            className={`advanced-toggle dashboard-advanced-toggle ${showProductDetails ? 'open' : ''}`}
+                            onClick={() => setShowProductDetails(!showProductDetails)}
+                          >
+                            <span>{showProductDetails ? 'Masquer les détails' : 'Ajouter catégorie, résumé, images...'}</span>
+                            <small>Optionnel : utile pour mieux présenter le produit.</small>
+                          </button>
+
+                          {showProductDetails && (
+                            <>
+                              <div className="form-group">
+                                <label htmlFor="product-short-description" className="input-label">Description courte</label>
+                                <textarea
+                                  id="product-short-description"
+                                  name="shortDescription"
+                                  className="form-textarea"
+                                  value={productFormData.shortDescription}
+                                  onChange={(e) => setProductFormData({ ...productFormData, shortDescription: e.target.value })}
+                                  rows={2}
+                                />
+                              </div>
+                              <div className="form-group">
+                                <label htmlFor="product-category" className="input-label">Catégorie</label>
+                                <select
+                                  id="product-category"
+                                  name="category"
+                                  className="form-select"
+                                  value={productFormData.category}
+                                  onChange={(e) => setProductFormData({ ...productFormData, category: e.target.value })}
+                                >
+                                  <option value="Artisanat">Artisanat</option>
+                                  <option value="Textile">Textile</option>
+                                  <option value="Bijoux">Bijoux</option>
+                                  <option value="Cuisine">Cuisine</option>
+                                  <option value="Musique">Musique</option>
+                                  <option value="Autre">Autre</option>
+                                </select>
+                              </div>
+                              <div className="form-group">
+                                <label htmlFor="product-images" className="input-label">Images principales</label>
+                                <textarea
+                                  id="product-images"
+                                  name="images"
+                                  className="form-textarea"
+                                  value={productFormData.images}
+                                  onChange={(e) => setProductFormData({ ...productFormData, images: e.target.value })}
+                                  rows={2}
+                                  placeholder="https://example.com/image1.jpg, https://example.com/image2.jpg"
+                                />
+                              </div>
+                            </>
+                          )}
                         </>
                       )}
 
@@ -2363,8 +2477,8 @@ export const Dashboard = () => {
             {activeSection === 'proverbs' && (
               <div className="dashboard-proverbs">
                 <div className="section-header">
-                  <h2>Proverbes Africains</h2>
-                  <p>Partagez votre sagesse et éclairez la communauté avec des proverbes authentiques</p>
+                  <h2>Proverbes africains</h2>
+                  <p>Ajoutez un proverbe avec son pays, sa langue et son contexte.</p>
                 </div>
 
                 <Card className="proverb-form-card">
@@ -2376,8 +2490,8 @@ export const Dashboard = () => {
                     className="proverb-form"
                     onSubmit={async (e) => {
                       e.preventDefault()
-                      if (!proverbFormData.text || !proverbFormData.explanation || !proverbFormData.country) {
-                        showError('Le texte, l\'explication et le pays sont requis')
+                      if (!proverbFormData.text || !proverbFormData.country) {
+                        showError('Le proverbe et le pays sont requis')
                         return
                       }
 
@@ -2391,7 +2505,7 @@ export const Dashboard = () => {
                         await proverbService.create({
                           text: proverbFormData.text,
                           translation: proverbFormData.translation || '',
-                          explanation: proverbFormData.explanation,
+                          explanation: proverbFormData.explanation || proverbFormData.translation || 'Sens à compléter par la communauté.',
                           country: proverbFormData.country,
                           language: proverbFormData.language || '',
                           category: proverbFormData.category,
@@ -2401,7 +2515,7 @@ export const Dashboard = () => {
                           isVerified: false, // Les proverbes utilisateurs ne sont pas vérifiés par défaut
                         })
 
-                        success('Proverbe ajouté avec succès ! Il sera vérifié par un administrateur.')
+                        success('Proverbe envoyé. Il sera vérifié par un administrateur.')
                         setProverbFormData({
                           text: '',
                           translation: '',
@@ -2413,15 +2527,17 @@ export const Dashboard = () => {
                           source: '',
                           author: '',
                         })
+                        setShowProverbDetails(false)
                         fetchMyProverbs()
                       } catch (err: any) {
-                        showError(err.response?.data?.error || 'Erreur lors de l\'ajout du proverbe')
+                        showError(err.response?.data?.error || 'Erreur lors de l’ajout du proverbe')
                       } finally {
                         setSubmittingProverb(false)
                       }
                     }}
                   >
-                    <div className="form-group">
+                    <div className="quick-submit-grid">
+                      <div className="form-group">
                       <label htmlFor="proverb-text" className="input-label">
                         Proverbe <span style={{ color: '#ef4444' }}>*</span>
                       </label>
@@ -2430,38 +2546,12 @@ export const Dashboard = () => {
                         className="form-textarea"
                         value={proverbFormData.text}
                         onChange={(e) => setProverbFormData({ ...proverbFormData, text: e.target.value })}
-                        placeholder="Entrez le proverbe..."
+                        placeholder="Écrivez le proverbe"
                         rows={3}
                         required
                       />
-                    </div>
+                      </div>
 
-                    <div className="form-group">
-                      <label htmlFor="proverb-translation" className="input-label">Traduction (optionnel)</label>
-                      <Input
-                        id="proverb-translation"
-                        value={proverbFormData.translation}
-                        onChange={(e) => setProverbFormData({ ...proverbFormData, translation: e.target.value })}
-                        placeholder="Traduction en français..."
-                      />
-                    </div>
-
-                    <div className="form-group">
-                      <label htmlFor="proverb-explanation" className="input-label">
-                        Explication <span style={{ color: '#ef4444' }}>*</span>
-                      </label>
-                      <textarea
-                        id="proverb-explanation"
-                        className="form-textarea"
-                        value={proverbFormData.explanation}
-                        onChange={(e) => setProverbFormData({ ...proverbFormData, explanation: e.target.value })}
-                        placeholder="Expliquez la signification et le contexte du proverbe..."
-                        rows={4}
-                        required
-                      />
-                    </div>
-
-                    <div className="form-row">
                       <div className="form-group">
                         <label htmlFor="proverb-country" className="input-label">
                           Pays d'origine <span style={{ color: '#ef4444' }}>*</span>
@@ -2473,7 +2563,7 @@ export const Dashboard = () => {
                           onChange={(e) => setProverbFormData({ ...proverbFormData, country: e.target.value })}
                           required
                         >
-                          <option value="">Sélectionner un pays</option>
+                          <option value="">Choisir un pays</option>
                           {countries.map((country) => (
                             <option key={country._id || country.id} value={country._id}>
                               {country.nameFr || country.name}
@@ -2481,69 +2571,104 @@ export const Dashboard = () => {
                           ))}
                         </select>
                       </div>
-
-                      <div className="form-group">
-                        <label htmlFor="proverb-language" className="input-label">Langue</label>
-                        <Input
-                          id="proverb-language"
-                          value={proverbFormData.language}
-                          onChange={(e) => setProverbFormData({ ...proverbFormData, language: e.target.value })}
-                          placeholder="Ex: Wolof, Bambara..."
-                        />
-                      </div>
                     </div>
 
-                    <div className="form-row">
-                      <div className="form-group">
-                        <label htmlFor="proverb-category" className="input-label">Catégorie</label>
-                        <select
-                          id="proverb-category"
-                          className="form-select"
-                          value={proverbFormData.category}
-                          onChange={(e) => setProverbFormData({ ...proverbFormData, category: e.target.value })}
-                        >
-                          <option value="Sagesse">Sagesse</option>
-                          <option value="Famille">Famille</option>
-                          <option value="Travail">Travail</option>
-                          <option value="Nature">Nature</option>
-                          <option value="Relations">Relations</option>
-                          <option value="Spiritualité">Spiritualité</option>
-                          <option value="Autre">Autre</option>
-                        </select>
-                      </div>
+                    <button
+                      type="button"
+                      className={`advanced-toggle dashboard-advanced-toggle ${showProverbDetails ? 'open' : ''}`}
+                      onClick={() => setShowProverbDetails(!showProverbDetails)}
+                    >
+                      <span>{showProverbDetails ? 'Masquer les précisions' : 'Ajouter traduction, langue, source...'}</span>
+                      <small>Optionnel : utile si vous connaissez le contexte exact.</small>
+                    </button>
 
-                      <div className="form-group">
-                        <label htmlFor="proverb-tags" className="input-label">Tags (séparés par des virgules)</label>
-                        <Input
-                          id="proverb-tags"
-                          value={proverbFormData.tags}
-                          onChange={(e) => setProverbFormData({ ...proverbFormData, tags: e.target.value })}
-                          placeholder="Ex: sagesse, communauté, unité"
-                        />
-                      </div>
-                    </div>
+                    {showProverbDetails && (
+                      <>
+                        <div className="form-group">
+                          <label htmlFor="proverb-translation" className="input-label">Traduction</label>
+                          <Input
+                            id="proverb-translation"
+                            value={proverbFormData.translation}
+                            onChange={(e) => setProverbFormData({ ...proverbFormData, translation: e.target.value })}
+                            placeholder="Traduction en français"
+                          />
+                        </div>
 
-                    <div className="form-row">
-                      <div className="form-group">
-                        <label htmlFor="proverb-source" className="input-label">Source</label>
-                        <Input
-                          id="proverb-source"
-                          value={proverbFormData.source}
-                          onChange={(e) => setProverbFormData({ ...proverbFormData, source: e.target.value })}
-                          placeholder="Ex: Tradition orale, Livre..."
-                        />
-                      </div>
+                        <div className="form-group">
+                          <label htmlFor="proverb-explanation" className="input-label">Explication</label>
+                          <textarea
+                            id="proverb-explanation"
+                            className="form-textarea"
+                            value={proverbFormData.explanation}
+                            onChange={(e) => setProverbFormData({ ...proverbFormData, explanation: e.target.value })}
+                            placeholder="Expliquez sa signification et son contexte"
+                            rows={4}
+                          />
+                        </div>
 
-                      <div className="form-group">
-                        <label htmlFor="proverb-author" className="input-label">Auteur (si connu)</label>
-                        <Input
-                          id="proverb-author"
-                          value={proverbFormData.author}
-                          onChange={(e) => setProverbFormData({ ...proverbFormData, author: e.target.value })}
-                          placeholder="Nom de l'auteur..."
-                        />
-                      </div>
-                    </div>
+                        <div className="form-row">
+                          <div className="form-group">
+                            <label htmlFor="proverb-language" className="input-label">Langue</label>
+                            <Input
+                              id="proverb-language"
+                              value={proverbFormData.language}
+                              onChange={(e) => setProverbFormData({ ...proverbFormData, language: e.target.value })}
+                              placeholder="Ex: Wolof, Bambara"
+                            />
+                          </div>
+
+                          <div className="form-group">
+                            <label htmlFor="proverb-category" className="input-label">Catégorie</label>
+                            <select
+                              id="proverb-category"
+                              className="form-select"
+                              value={proverbFormData.category}
+                              onChange={(e) => setProverbFormData({ ...proverbFormData, category: e.target.value })}
+                            >
+                              <option value="Sagesse">Sagesse</option>
+                              <option value="Famille">Famille</option>
+                              <option value="Travail">Travail</option>
+                              <option value="Nature">Nature</option>
+                              <option value="Relations">Relations</option>
+                              <option value="Spiritualité">Spiritualité</option>
+                              <option value="Autre">Autre</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div className="form-row">
+                          <div className="form-group">
+                            <label htmlFor="proverb-tags" className="input-label">Tags</label>
+                            <Input
+                              id="proverb-tags"
+                              value={proverbFormData.tags}
+                              onChange={(e) => setProverbFormData({ ...proverbFormData, tags: e.target.value })}
+                              placeholder="Ex: sagesse, communauté, unité"
+                            />
+                          </div>
+
+                          <div className="form-group">
+                            <label htmlFor="proverb-source" className="input-label">Source</label>
+                            <Input
+                              id="proverb-source"
+                              value={proverbFormData.source}
+                              onChange={(e) => setProverbFormData({ ...proverbFormData, source: e.target.value })}
+                              placeholder="Ex: tradition orale, livre"
+                            />
+                          </div>
+                        </div>
+
+                        <div className="form-group">
+                          <label htmlFor="proverb-author" className="input-label">Auteur, conteur ou transmetteur</label>
+                          <Input
+                            id="proverb-author"
+                            value={proverbFormData.author}
+                            onChange={(e) => setProverbFormData({ ...proverbFormData, author: e.target.value })}
+                            placeholder="Nom si connu"
+                          />
+                        </div>
+                      </>
+                    )}
 
                     <Button type="submit" disabled={submittingProverb}>
                       <span className="icon-save" />
@@ -2599,7 +2724,7 @@ export const Dashboard = () => {
 
             {activeSection === 'bookmarks' && (
               <div className="dashboard-bookmarks">
-                <h2>Mes Favoris</h2>
+                <h2>Lectures sauvegardées</h2>
                 <div className="bookmarks-filters">
                   <select
                     value={bookmarkFilter}
@@ -2624,8 +2749,8 @@ export const Dashboard = () => {
                 ) : bookmarks.length === 0 ? (
                   <Card className="empty-state">
                     <span className="icon-heart" style={{ fontSize: '48px', width: '48px', height: '48px' }} />
-                    <p>Aucun favori pour le moment</p>
-                    <p className="empty-state-subtitle">Explorez le contenu et ajoutez vos favoris pour les retrouver facilement</p>
+                    <p>Aucun contenu sauvegardé pour le moment</p>
+                    <p className="empty-state-subtitle">Les articles, récits, pays et proverbes marqués apparaîtront ici.</p>
                   </Card>
                 ) : (
                   <div className="bookmarks-grid">
@@ -2677,7 +2802,7 @@ export const Dashboard = () => {
 
             {activeSection === 'progress' && (
               <div className="dashboard-progress">
-                <h2>Ma Progression</h2>
+                <h2>Progression</h2>
                 {progressLoading ? (
                   <Card>
                     <p>Chargement de la progression...</p>
@@ -2715,7 +2840,7 @@ export const Dashboard = () => {
                     </div>
 
                     <Card className="progress-achievements">
-                      <h3>Badges Obtenus</h3>
+                      <h3>Badges obtenus</h3>
                       {userProgress.badges && userProgress.badges.length > 0 ? (
                         <div className="badges-grid">
                           {userProgress.badges.map((badge: any, index: number) => (
@@ -2767,7 +2892,7 @@ export const Dashboard = () => {
                   <Card className="empty-state">
                     <span className="icon-award" style={{ fontSize: '48px', width: '48px', height: '48px' }} />
                     <p>Aucune progression enregistrée</p>
-                    <p className="empty-state-subtitle">Commencez à explorer le contenu pour gagner des points et des badges</p>
+                    <p className="empty-state-subtitle">Lisez, répondez aux quiz et sauvegardez vos repères pour suivre votre parcours.</p>
                   </Card>
                 )}
               </div>
@@ -2795,8 +2920,13 @@ export const Dashboard = () => {
                         return
                       }
                       
-                      if (passwordData.newPassword.length < 6) {
-                        setPasswordError('Le nouveau mot de passe doit contenir au moins 6 caractères')
+                      if (passwordData.newPassword.length < 12) {
+                        setPasswordError('Le nouveau mot de passe doit contenir au moins 12 caractères')
+                        return
+                      }
+
+                      if (!/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_+\-=[\]{}|;:',.<>?])/.test(passwordData.newPassword)) {
+                        setPasswordError('Ajoutez au moins une majuscule, une minuscule, un chiffre et un caractère spécial')
                         return
                       }
                       
@@ -2859,12 +2989,12 @@ export const Dashboard = () => {
                     )}
                     {passwordSuccess && (
                       <div className="success-message" style={{ color: '#10b981', marginBottom: '1rem' }}>
-                        Mot de passe changé avec succès !
+                        Mot de passe mis à jour.
                       </div>
                     )}
                     <Button type="submit" disabled={savingPassword}>
                       <span className="icon-save" />
-                      {savingPassword ? 'Changement en cours...' : 'Changer le mot de passe'}
+                      {savingPassword ? 'Mise à jour...' : 'Mettre à jour le mot de passe'}
                     </Button>
                   </form>
                 </Card>
@@ -2877,7 +3007,7 @@ export const Dashboard = () => {
                   </div>
                   <div className="settings-options">
                     <p style={{ color: 'var(--color-text-muted)' }}>
-                      Les préférences utilisateur seront disponibles prochainement.
+                      Les préférences seront regroupées ici dès qu’elles seront disponibles.
                     </p>
                   </div>
                 </Card>

@@ -4,6 +4,7 @@ import { Button } from '../../components/Button/Button'
 import { Input } from '../../components/Input/Input'
 import { userService } from '../../services/api'
 import { useNotifications } from '../../hooks/useNotifications'
+import { useConfirmDialog } from '../../components/UX/ConfirmDialog'
 import { Calendar, Shield, Search, Edit, Trash2, User, Ban, CheckCircle } from 'lucide-react'
 import './AdminUsers.css'
 
@@ -31,6 +32,7 @@ export const AdminUsers = () => {
     phone: '',
   })
   const { success, error: showError } = useNotifications()
+  const { confirm, Dialog } = useConfirmDialog()
 
   useEffect(() => {
     fetchUsers()
@@ -87,9 +89,13 @@ export const AdminUsers = () => {
   }
 
   const handleDelete = async (id: string) => {
-    if (!confirm('Êtes-vous sûr de vouloir désactiver cet utilisateur ?')) {
-      return
-    }
+    const accepted = await confirm({
+      title: 'Désactiver cet utilisateur ?',
+      message: 'Son accès sera suspendu jusqu’à réactivation.',
+      confirmLabel: 'Désactiver',
+      tone: 'danger',
+    })
+    if (!accepted) return
 
     try {
       await userService.delete(id)
@@ -308,6 +314,7 @@ export const AdminUsers = () => {
           ))
         )}
       </div>
+      {Dialog}
     </div>
   )
 }

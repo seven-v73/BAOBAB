@@ -24,10 +24,31 @@
 }
 
 .admin-sidebar-header h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
   font-size: 1.5rem;
   color: var(--color-gold);
   margin: 0 0 0.5rem 0;
   font-weight: 800;
+}
+
+.admin-sidebar-header h2 .admin-logo-mark {
+  width: 34px;
+  height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid color-mix(in srgb, var(--color-gold) 54%, transparent);
+  border-radius: 8px;
+  background:
+    linear-gradient(145deg, rgba(255, 250, 240, 0.14), transparent 42%),
+    linear-gradient(135deg, var(--color-forest), var(--color-cobalt));
+  box-shadow: 0 10px 24px rgba(15, 76, 58, 0.24), inset 0 1px 0 rgba(255, 250, 240, 0.22);
+  color: #fffaf0;
+  font-size: 0.72rem;
+  font-weight: 950;
+  letter-spacing: 0.02em;
 }
 
 /* Amélioration du contraste pour le titre */
@@ -164,6 +185,23 @@
 .admin-nav-item:hover svg,
 .admin-nav-item.active svg {
   opacity: 1;
+}
+
+.admin-nav-badge {
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  min-width: 26px;
+  min-height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  background: var(--color-primary);
+  color: #fffaf0;
+  font-size: 0.78rem;
+  font-weight: 850;
 }
 
 /* Styles pour les icônes CSS dans les éléments de navigation */
@@ -429,4 +467,3 @@
     padding: 1.5rem 1rem;
   }
 }
-

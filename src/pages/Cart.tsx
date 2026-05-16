@@ -17,7 +17,7 @@ export const Cart = () => {
           <h1>Panier</h1>
           <Card className="cart-empty">
             <h2>Votre panier est vide</h2>
-            <p>Découvrez nos produits africains authentiques</p>
+            <p>Retrouvez votre sélection et finalisez votre commande</p>
             <Link to="/shop">
               <Button>Voir la boutique</Button>
             </Link>

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { usePlatformName } from '../../hooks/usePlatformName'
 import { useNavigate, Link } from 'react-router-dom'
-import { useAuthStore } from '../../store/authStore'
+import { useAuthStore } from '../../stores/authStore'
 import { Button } from '../../components/ui/Button'
 import { Input } from '../../components/ui/Input'
 import { Card } from '../../components/ui/Card'
@@ -22,12 +22,8 @@ export const Login = () => {
     setLoading(true)
 
     try {
-      const success = await login(email, password)
-      if (success) {
-        navigate('/dashboard')
-      } else {
-        setError('Email ou mot de passe incorrect')
-      }
+      await login(email, password)
+      navigate('/dashboard')
     } catch (err) {
       setError('Une erreur est survenue')
     } finally {
@@ -76,4 +72,3 @@ export const Login = () => {
     </div>
   )
 }
-

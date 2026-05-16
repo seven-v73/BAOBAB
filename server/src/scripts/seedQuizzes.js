@@ -468,12 +468,15 @@ const seedQuizzes = async () => {
       logger.warn(`⚠️  ${errors.length} erreur(s) rencontrée(s)`)
       errors.forEach(err => logger.warn(`   - ${err.quiz}: ${err.error}`))
     }
-    process.exit(0)
+    return { created, ignored, errors }
   } catch (error) {
     logger.error('❌ Erreur lors de l\'exécution du script de seed', { message: error.message, stack: error.stack })
-    process.exit(1)
+    throw error
   }
 }
 
-seedQuizzes()
+export { seedQuizzes }
 
+if (process.argv[1] && process.argv[1].includes('seedQuizzes.js')) {
+  seedQuizzes().then(() => process.exit(0)).catch(() => process.exit(1))
+}

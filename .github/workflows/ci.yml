@@ -37,7 +37,7 @@ jobs:
       
       - name: Run linter
         working-directory: ./server
-        run: npm run lint || true
+        run: npm run lint
       
       - name: Run tests
         working-directory: ./server
@@ -63,7 +63,7 @@ jobs:
         run: npm ci
       
       - name: Run linter
-        run: npm run lint || true
+        run: npm run lint
       
       - name: Build
         run: npm run build
@@ -76,5 +76,4 @@ jobs:
       
       - name: Run security check
         working-directory: ./server
-        run: npm run check:security || true
-
+        run: npm run check:security

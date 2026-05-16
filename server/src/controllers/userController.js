@@ -2,6 +2,7 @@ import User from '../models/User.js'
 import { generateToken } from '../utils/jwt.js'
 import logger from '../utils/logger.js'
 import { catchAsync } from '../utils/errorHandler.js'
+import { validatePassword } from '../utils/passwordValidator.js'
 
 // GET /api/users - Liste tous les utilisateurs (Admin)
 export const getAllUsers = catchAsync(async (req, res) => {
@@ -54,8 +55,13 @@ export const createUser = catchAsync(async (req, res) => {
     return res.status(400).json({ error: 'Tous les champs sont requis' })
   }
 
-  if (password.length < 6) {
-    return res.status(400).json({ error: 'Le mot de passe doit contenir au moins 6 caractères' })
+  const passwordValidation = validatePassword(password)
+  if (!passwordValidation.valid) {
+    return res.status(400).json({
+      error: 'Mot de passe invalide',
+      message: passwordValidation.errors[0],
+      details: passwordValidation.errors.map((message) => ({ field: 'password', message }))
+    })
   }
 
   // Vérifier si l'utilisateur existe déjà

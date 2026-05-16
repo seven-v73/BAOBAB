@@ -45,10 +45,12 @@ export const Blog = () => {
   return (
     <Layout>
       <div className="blog">
-        <h1>Blog - Histoire Africaine</h1>
-        <p className="blog-subtitle">
-          Retracez l'histoire fascinante et riche du continent africain
-        </p>
+        <div className="blog-header">
+          <h1>Récits et mémoire</h1>
+          <p className="blog-subtitle">
+            Articles, repères et lectures pour comprendre les lieux, les époques et les héritages.
+          </p>
+        </div>
 
         {loading ? (
           <div className="blog-loading">Chargement des articles...</div>
@@ -83,7 +85,7 @@ export const Blog = () => {
                   </div>
                 )}
                 <Link to={`/blog/${post._id}`} className="blog-link">
-                  Lire la suite →
+                  Lire
                 </Link>
               </Card>
             ))}
@@ -93,4 +95,3 @@ export const Blog = () => {
     </Layout>
   )
 }
-

@@ -1,10 +1,11 @@
 .card {
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--readable-surface, var(--color-bg-card));
   backdrop-filter: blur(10px);
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--readable-border, var(--color-border));
   padding: 1.5rem;
   transition: all 0.3s ease;
+  color: var(--readable-text, var(--color-text));
 }
 
 .card:hover {
@@ -12,11 +13,3 @@
   box-shadow: 0 8px 24px rgba(212, 175, 55, 0.2);
   border-color: rgba(212, 175, 55, 0.3);
 }
-
-@media (prefers-color-scheme: light) {
-  .card {
-    background: rgba(255, 255, 255, 0.9);
-    border-color: rgba(0, 0, 0, 0.1);
-  }
-}
-

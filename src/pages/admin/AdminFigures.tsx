@@ -4,6 +4,7 @@ import { Button } from '../../components/Button/Button'
 import { Input } from '../../components/Input/Input'
 import { figureService } from '../../services/api'
 import { useNotifications } from '../../hooks/useNotifications'
+import { useConfirmDialog } from '../../components/UX/ConfirmDialog'
 import { Plus, Edit, Trash2, Search, User, Calendar, MapPin, CheckCircle } from 'lucide-react'
 import './AdminFigures.css'
 
@@ -24,6 +25,7 @@ interface HistoricalFigure {
 
 export const AdminFigures = () => {
   const { success, showError } = useNotifications()
+  const { confirm, Dialog } = useConfirmDialog()
   const [figures, setFigures] = useState<HistoricalFigure[]>([])
   const [loading, setLoading] = useState(true)
   const [searchTerm, setSearchTerm] = useState('')
@@ -74,7 +76,13 @@ export const AdminFigures = () => {
   }
 
   const handleDelete = async (id: string) => {
-    if (!confirm('Êtes-vous sûr de vouloir supprimer cette figure ?')) return
+    const accepted = await confirm({
+      title: 'Supprimer cette figure ?',
+      message: 'La fiche ne sera plus visible dans la découverte historique.',
+      confirmLabel: 'Supprimer',
+      tone: 'danger',
+    })
+    if (!accepted) return
 
     try {
       await figureService.delete(id)
@@ -285,7 +293,7 @@ export const AdminFigures = () => {
           )}
         </div>
       )}
+      {Dialog}
     </div>
   )
 }
-

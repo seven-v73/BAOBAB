@@ -41,7 +41,7 @@ export const Shop = () => {
       <div className="container">
         <h1 className="page-title">Boutique Africaine</h1>
         <p className="page-subtitle">
-          Découvrez nos produits authentiques directement du continent africain
+          Une sélection claire d’objets, de matières et de savoir-faire africains
         </p>
 
         <div className="category-filter">

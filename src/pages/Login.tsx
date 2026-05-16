@@ -1,40 +1,57 @@
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 import { usePlatformName } from '../hooks/usePlatformName'
-import { useNavigate, Link, useSearchParams } from 'react-router-dom'
+import { useNavigate, Link, Navigate, useSearchParams } from 'react-router-dom'
 import { Layout } from '../components/Layout/Layout'
 import { Card } from '../components/Card/Card'
 import { Input } from '../components/Input/Input'
 import { Button } from '../components/Button/Button'
 import { useAuthStore } from '../stores/authStore'
 import { useNotifications } from '../hooks/useNotifications'
-import { LogIn, Mail, Lock } from 'lucide-react'
 import './Auth.css'
+
+const getSafeRedirect = (value: string | null) => {
+  if (!value || !value.startsWith('/') || value.startsWith('//')) return '/dashboard'
+  if (value === '/login' || value === '/register') return '/dashboard'
+  return value
+}
 
 export const Login = () => {
   const platformName = usePlatformName()
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
+  const [showPassword, setShowPassword] = useState(false)
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
   const [searchParams] = useSearchParams()
   
-  const login = useAuthStore((state) => state.login)
+  const { isAuthenticated, login } = useAuthStore()
   const navigate = useNavigate()
   const { success, error: showError } = useNotifications()
 
-  const redirectTo = searchParams.get('redirect') || '/dashboard'
+  const redirectTo = useMemo(() => getSafeRedirect(searchParams.get('redirect')), [searchParams])
+
+  if (isAuthenticated) {
+    return <Navigate to={redirectTo} replace />
+  }
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setError('')
+    const normalizedEmail = email.trim().toLowerCase()
+
+    if (!normalizedEmail || !password) {
+      setError('Renseignez votre email et votre mot de passe.')
+      return
+    }
+
     setLoading(true)
 
     try {
-      await login(email, password)
-      success(`Connexion réussie ! Bienvenue sur ${platformName} !`)
-      navigate(redirectTo)
+      await login(normalizedEmail, password)
+      success(`Bienvenue sur ${platformName}.`)
+      navigate(redirectTo, { replace: true })
     } catch (err: any) {
-      const errorMessage = err.response?.data?.error || err.message || 'Erreur de connexion. Vérifiez vos identifiants.'
+      const errorMessage = err.message || 'Connexion impossible. Vérifiez vos identifiants.'
       setError(errorMessage)
       showError(errorMessage)
     } finally {
@@ -46,19 +63,27 @@ export const Login = () => {
     <Layout>
       <div className="auth-page">
         <Card className="auth-card-enhanced">
-          <div className="auth-header">
-            <div className="auth-icon-wrapper">
-              <LogIn size={32} />
+          <div className="auth-story-panel" aria-hidden="true">
+            <span className="auth-kicker">MonBaobab</span>
+            <h2>Votre espace culturel, vos repères, vos favoris.</h2>
+            <p>Connectez-vous pour retrouver vos contenus, vos commandes et vos communautés sans perdre le fil.</p>
+            <div className="auth-proof-list">
+              <span>Collections sauvegardées</span>
+              <span>Parcours personnel</span>
+              <span>Communautés privées</span>
             </div>
-            <h1>Connexion</h1>
+          </div>
+
+          <div className="auth-header">
+            <p className="auth-eyebrow">Accès membre</p>
+            <h1>Bon retour</h1>
             <p className="auth-subtitle">
-              Accédez à votre espace {platformName} et explorez l'Afrique
+              Entrez dans votre espace {platformName}.
             </p>
           </div>
           
           <form onSubmit={handleSubmit} className="auth-form">
-            <div className="input-group">
-              <Mail size={20} className="input-icon" />
+            <div className="auth-field">
               <Input
                 type="email"
                 label="Email"
@@ -70,10 +95,9 @@ export const Login = () => {
               />
             </div>
             
-            <div className="input-group">
-              <Lock size={20} className="input-icon" />
+            <div className="auth-field auth-password-field">
               <Input
-                type="password"
+                type={showPassword ? 'text' : 'password'}
                 label="Mot de passe"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
@@ -81,6 +105,13 @@ export const Login = () => {
                 placeholder="••••••••"
                 autoComplete="current-password"
               />
+              <button
+                type="button"
+                className="auth-visibility-toggle"
+                onClick={() => setShowPassword((value) => !value)}
+              >
+                {showPassword ? 'Masquer' : 'Afficher'}
+              </button>
             </div>
             
             {error && <div className="auth-error">{error}</div>}
@@ -91,7 +122,7 @@ export const Login = () => {
           </form>
           
           <p className="auth-link">
-            Pas encore de compte ? <Link to="/register">Inscrivez-vous</Link>
+            Nouveau sur {platformName} ? <Link to="/register">Créer un compte</Link>
           </p>
         </Card>
       </div>

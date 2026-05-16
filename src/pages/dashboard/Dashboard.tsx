@@ -1,4 +1,4 @@
-import { useAuthStore } from '../../store/authStore'
+import { useAuthStore } from '../../stores/authStore'
 import { useProductStore } from '../../store/productStore'
 import { Card } from '../../components/ui/Card'
 import { Button } from '../../components/ui/Button'
@@ -9,6 +9,7 @@ export const Dashboard = () => {
   const { user } = useAuthStore()
   const cartItemCount = useProductStore((state) => state.getCartItemCount())
   const totalPrice = useProductStore((state) => state.getTotalPrice())
+  const formatFCFA = (amount: number) => `${Math.round(amount || 0).toLocaleString('fr-FR')} FCFA`
 
   return (
     <div className="dashboard-page">
@@ -20,7 +21,7 @@ export const Dashboard = () => {
 
         <div className="dashboard-grid">
           <Card className="dashboard-card">
-            <div className="card-icon">🛒</div>
+            <div className="card-icon"><span className="icon-shopping" aria-hidden="true" /></div>
             <h3>Panier</h3>
             <p className="card-value">{cartItemCount} articles</p>
             <Link to="/shop/cart">
@@ -31,9 +32,9 @@ export const Dashboard = () => {
           </Card>
 
           <Card className="dashboard-card">
-            <div className="card-icon">💰</div>
+            <div className="card-icon"><span className="icon-package" aria-hidden="true" /></div>
             <h3>Total panier</h3>
-            <p className="card-value">{totalPrice.toFixed(2)} €</p>
+            <p className="card-value">{formatFCFA(totalPrice)}</p>
             <Link to="/shop/cart">
               <Button variant="primary" size="small">
                 Finaliser
@@ -42,7 +43,7 @@ export const Dashboard = () => {
           </Card>
 
           <Card className="dashboard-card">
-            <div className="card-icon">📚</div>
+            <div className="card-icon"><span className="icon-book" aria-hidden="true" /></div>
             <h3>Blog</h3>
             <p className="card-value">Découvrir</p>
             <Link to="/blog">
@@ -53,7 +54,7 @@ export const Dashboard = () => {
           </Card>
 
           <Card className="dashboard-card">
-            <div className="card-icon">🛍️</div>
+            <div className="card-icon"><span className="icon-shopping" aria-hidden="true" /></div>
             <h3>Boutique</h3>
             <p className="card-value">Explorer</p>
             <Link to="/shop">
@@ -85,4 +86,3 @@ export const Dashboard = () => {
     </div>
   )
 }
-

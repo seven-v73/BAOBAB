@@ -1,103 +1,238 @@
-.post-form-container {
-  margin-bottom: 2rem;
-}
-
-.post-form {
-  background: var(--color-bg-card);
-  border: 1px solid var(--color-border-light);
-  border-radius: 12px;
-  padding: 1.5rem;
-}
-
-.post-form-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1.5rem;
-}
-
-.post-form-header h3 {
-  color: var(--color-text);
-  margin: 0;
-}
-
-.close-btn {
-  background: transparent;
-  border: none;
-  color: var(--color-text-muted);
-  cursor: pointer;
-  padding: 0.5rem;
-  border-radius: 6px;
-  transition: all 0.3s ease;
-}
-
-.close-btn:hover {
-  background: var(--color-bg-light);
-  color: var(--color-text);
-}
-
-.form-group {
-  margin-bottom: 1.5rem;
-}
-
-.form-group label {
-  display: block;
-  margin-bottom: 0.5rem;
-  color: var(--color-text);
-  font-weight: 500;
-  font-size: 0.9rem;
-}
-
-.form-textarea,
-.form-input,
-.form-select {
+.post-composer {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr);
+  gap: 0.8rem;
   width: 100%;
-  padding: 0.75rem;
+  margin-bottom: 1.25rem;
+  padding: 0.9rem;
+  background: color-mix(in srgb, var(--color-bg-card) 94%, transparent);
   border: 1px solid var(--color-border-light);
-  border-radius: 8px;
-  background: var(--color-bg-light);
+  border-radius: 18px;
+  box-shadow: 0 18px 48px rgba(15, 23, 42, 0.08);
+}
+
+.post-composer-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
   color: var(--color-text);
-  font-family: inherit;
-  font-size: 1rem;
-  transition: all 0.3s ease;
+  background: var(--color-bg-light);
+  border: 1px solid var(--color-border-light);
 }
 
-.form-textarea:focus,
-.form-input:focus,
-.form-select:focus {
-  outline: none;
-  border-color: var(--color-gold);
-  background: var(--color-bg-elevated);
+.post-composer-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.form-textarea {
+.post-composer-form {
+  min-width: 0;
+}
+
+.post-composer-main {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: 0.75rem;
+  padding: 0.35rem;
+  background: var(--color-bg-light);
+  border: 1px solid var(--color-border-light);
+  border-radius: 14px;
+}
+
+.post-composer-input {
+  width: 100%;
+  min-height: 42px;
+  max-height: 140px;
+  padding: 0.65rem 0.75rem;
+  border: 0;
+  outline: 0;
   resize: vertical;
-  min-height: 120px;
+  background: transparent;
+  color: var(--color-text);
+  font: inherit;
+  line-height: 1.45;
 }
 
-.form-actions {
+.post-composer-input::placeholder {
+  color: var(--color-text-muted);
+}
+
+.post-composer-actions {
   display: flex;
-  gap: 1rem;
-  justify-content: flex-end;
-  margin-top: 2rem;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0 0.15rem 0.15rem 0;
 }
 
-.form-actions button:disabled {
-  opacity: 0.6;
+.composer-icon-btn,
+.composer-send-btn {
+  width: 38px;
+  height: 38px;
+  display: inline-grid;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.18s ease, background 0.18s ease, color 0.18s ease, opacity 0.18s ease;
+}
+
+.composer-icon-btn {
+  color: var(--color-text-muted);
+  background: transparent;
+}
+
+.composer-icon-btn:hover,
+.composer-icon-btn.active {
+  color: var(--color-text);
+  background: var(--color-bg-card);
+}
+
+.composer-send-btn {
+  color: #fff;
+  background: var(--color-primary, var(--color-gold));
+}
+
+.composer-send-btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  filter: brightness(1.04);
+}
+
+.composer-send-btn:disabled {
+  opacity: 0.45;
   cursor: not-allowed;
 }
 
-@media (max-width: 768px) {
-  .post-form {
-    padding: 1rem;
-  }
-
-  .form-actions {
-    flex-direction: column;
-  }
-
-  .form-actions button {
-    width: 100%;
-  }
+.post-composer-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.75rem;
 }
 
+.composer-chip {
+  padding: 0.42rem 0.7rem;
+  border: 1px solid var(--color-border-light);
+  border-radius: 999px;
+  color: var(--color-text-muted);
+  background: transparent;
+  cursor: pointer;
+  font-size: 0.86rem;
+  font-weight: 650;
+}
+
+.composer-chip:hover,
+.composer-chip.active {
+  color: var(--color-text);
+  background: var(--color-bg-light);
+  border-color: color-mix(in srgb, var(--color-primary, var(--color-gold)) 45%, var(--color-border-light));
+}
+
+.post-composer-tags,
+.post-composer-tools {
+  margin-top: 0.75rem;
+  padding: 0.8rem;
+  border: 1px solid var(--color-border-light);
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--color-bg-light) 78%, transparent);
+}
+
+.post-composer-tags {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--color-text-muted);
+}
+
+.post-composer-tags input {
+  flex: 1;
+  min-width: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--color-text);
+  font: inherit;
+}
+
+.composer-tool-title,
+.composer-media-label {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: var(--color-text);
+  font-weight: 700;
+}
+
+.composer-tool-title {
+  margin-bottom: 0.8rem;
+  font-size: 0.92rem;
+}
+
+.composer-media-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.composer-media-item {
+  min-width: 0;
+}
+
+.composer-media-label {
+  margin-bottom: 0.5rem;
+  font-size: 0.84rem;
+}
+
+.composer-media-item .media-upload {
+  margin-bottom: 0;
+}
+
+.composer-media-item .media-upload-header {
+  display: none;
+}
+
+.composer-media-item .media-mode-selector {
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.composer-media-item .mode-btn {
+  min-height: 38px;
+  padding: 0.55rem 0.65rem;
+  font-size: 0.8rem;
+}
+
+.composer-media-item .url-input-group {
+  flex-direction: column;
+}
+
+.composer-media-item .preview-image {
+  max-height: 150px;
+}
+
+@media (max-width: 820px) {
+  .post-composer {
+    grid-template-columns: 1fr;
+    padding: 0.75rem;
+  }
+
+  .post-composer-avatar {
+    display: none;
+  }
+
+  .post-composer-main {
+    grid-template-columns: 1fr;
+  }
+
+  .post-composer-actions {
+    justify-content: flex-end;
+  }
+
+  .composer-media-grid {
+    grid-template-columns: 1fr;
+  }
+}

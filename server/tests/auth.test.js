@@ -3,10 +3,11 @@ import express from 'express'
 import mongoose from 'mongoose'
 import { MongoMemoryServer } from 'mongodb-memory-server'
 import authRoutes from '../src/routes/auth.js'
-import '../src/models/User.js' // Charger le modèle
+import User from '../src/models/User.js'
 
 let mongoServer
 let app
+const validPassword = 'Kora!River78Sun'
 
 beforeAll(async () => {
   // Créer un serveur MongoDB en mémoire pour les tests
@@ -36,14 +37,13 @@ describe('POST /api/auth/register', () => {
       .post('/api/auth/register')
       .send({
         email: 'test@example.com',
-        password: 'SecurePassword123!',
+        password: validPassword,
         name: 'Test User'
       })
     
     expect(response.status).toBe(201)
-    expect(response.body.success).toBe(true)
-    expect(response.body.data.user).toHaveProperty('email', 'test@example.com')
-    expect(response.body.data).toHaveProperty('token')
+    expect(response.body.user).toHaveProperty('email', 'test@example.com')
+    expect(response.body).toHaveProperty('token')
   })
 
   it('devrait rejeter un email invalide', async () => {
@@ -51,7 +51,7 @@ describe('POST /api/auth/register', () => {
       .post('/api/auth/register')
       .send({
         email: 'invalid-email',
-        password: 'SecurePassword123!',
+        password: validPassword,
         name: 'Test User'
       })
     
@@ -78,7 +78,7 @@ describe('POST /api/auth/login', () => {
       .post('/api/auth/register')
       .send({
         email: 'test@example.com',
-        password: 'SecurePassword123!',
+        password: validPassword,
         name: 'Test User'
       })
   })
@@ -88,12 +88,11 @@ describe('POST /api/auth/login', () => {
       .post('/api/auth/login')
       .send({
         email: 'test@example.com',
-        password: 'SecurePassword123!'
+        password: validPassword
       })
     
     expect(response.status).toBe(200)
-    expect(response.body.success).toBe(true)
-    expect(response.body.data).toHaveProperty('token')
+    expect(response.body).toHaveProperty('token')
   })
 
   it('devrait rejeter un mot de passe incorrect', async () => {
@@ -107,4 +106,3 @@ describe('POST /api/auth/login', () => {
     expect(response.status).toBe(401)
   })
 })
-

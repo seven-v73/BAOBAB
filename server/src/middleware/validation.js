@@ -2,6 +2,25 @@ import { body, param, query, validationResult } from 'express-validator'
 import { AppError } from '../utils/errorHandler.js'
 import logger from '../utils/logger.js'
 
+const SENSITIVE_FIELDS = new Set(['password', 'currentPassword', 'newPassword', 'confirmPassword', 'token', 'refreshToken'])
+
+const maskSensitiveValue = (field, value) => {
+  if (!field) return value
+  return SENSITIVE_FIELDS.has(field) ? '[REDACTED]' : value
+}
+
+const sanitizeForLogs = (value) => {
+  if (!value || typeof value !== 'object') return value
+  if (Array.isArray(value)) return value.map(sanitizeForLogs)
+
+  return Object.fromEntries(
+    Object.entries(value).map(([key, entryValue]) => [
+      key,
+      SENSITIVE_FIELDS.has(key) ? '[REDACTED]' : sanitizeForLogs(entryValue)
+    ])
+  )
+}
+
 // Middleware pour vérifier les résultats de validation
 export const validate = (req, res, next) => {
   const errors = validationResult(req)
@@ -9,12 +28,12 @@ export const validate = (req, res, next) => {
     const errorMessages = errors.array().map(err => ({
       field: err.path || err.param,
       message: err.msg,
-      value: err.value
+      value: maskSensitiveValue(err.path || err.param, err.value)
     }))
     // Logger les erreurs de validation en détail
     logger.warn('Erreurs de validation', {
       errors: errorMessages,
-      body: req.body,
+      body: sanitizeForLogs(req.body),
       url: req.originalUrl,
       method: req.method
     })
@@ -356,6 +375,46 @@ export const validateCountry = [
     .trim()
     .isLength({ min: 1, max: 50 })
     .withMessage('La superficie est invalide'),
+  body('discoveryIntro')
+    .optional()
+    .trim()
+    .isLength({ max: 1200 })
+    .withMessage('L\'introduction découverte ne doit pas dépasser 1200 caractères'),
+  body('lastUpdated')
+    .optional()
+    .trim()
+    .isLength({ max: 40 })
+    .withMessage('La date de mise à jour est invalide'),
+  body([
+    'officialName',
+    'region',
+    'subregion',
+    'demonym',
+    'timeZone',
+    'callingCode',
+    'internetTld',
+    'drivingSide',
+    'independenceDate',
+    'governmentType',
+    'economicOverview',
+    'climate',
+    'bestTimeToVisit',
+    'safetyNote',
+    'etiquette',
+    'transport',
+    'connectivity',
+    'visaNote',
+    'healthAdvice',
+    'emergencyNumbers'
+  ])
+    .optional()
+    .trim()
+    .isLength({ max: 1000 })
+    .withMessage('Un champ de découverte pays dépasse la longueur autorisée'),
+  body(['placesToDiscover', 'experiences', 'practicalTips', 'sourceNotes'])
+    .optional()
+    .isArray()
+    .withMessage('Les contenus de découverte doivent être des tableaux'),
   validate
 ]
 
@@ -507,4 +566,3 @@ export const sanitizeInput = (req, res, next) => {
 
   next()
 }
-

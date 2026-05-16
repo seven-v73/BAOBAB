@@ -5,6 +5,7 @@ import { Input } from '../../components/Input/Input'
 import { FileUpload } from '../../components/FileUpload/FileUpload'
 import { productService } from '../../services/api'
 import { useNotifications } from '../../hooks/useNotifications'
+import { useConfirmDialog } from '../../components/UX/ConfirmDialog'
 import { Plus, Edit, Trash2, Search, Package, TrendingUp, Image as ImageIcon, FileText, Video, File as FileIcon, X, ArrowUp, ArrowDown, Link as LinkIcon } from 'lucide-react'
 import './AdminProducts.css'
 
@@ -90,6 +91,17 @@ export const AdminProducts = () => {
     isFeatured: false,
   })
   const { success, error: showError } = useNotifications()
+  const { confirm, Dialog } = useConfirmDialog()
+
+  const addPrimaryImageUrl = (url: string) => {
+    const existingImages = formData.images
+      .split(',')
+      .map((image) => image.trim())
+      .filter(Boolean)
+
+    if (!url || existingImages.includes(url)) return
+    setFormData({ ...formData, images: [...existingImages, url].join(', ') })
+  }
 
   useEffect(() => {
     fetchProducts()
@@ -201,9 +213,13 @@ export const AdminProducts = () => {
   }
 
   const handleDelete = async (id: string) => {
-    if (!confirm('Êtes-vous sûr de vouloir supprimer ce produit ?')) {
-      return
-    }
+    const accepted = await confirm({
+      title: 'Supprimer ce produit ?',
+      message: 'Le produit ne sera plus disponible dans la boutique.',
+      confirmLabel: 'Supprimer',
+      tone: 'danger',
+    })
+    if (!accepted) return
 
     try {
       await productService.delete(id)
@@ -504,18 +520,29 @@ export const AdminProducts = () => {
               </div>
             </div>
             {activeTab === 'basic' && (
-              <div className="form-group">
-                <label htmlFor="product-images" className="input-label">Images principales (URLs séparées par des virgules)</label>
-                <textarea
-                  id="product-images"
-                  name="images"
-                  className="form-textarea"
-                  value={formData.images}
-                  onChange={(e) => setFormData({ ...formData, images: e.target.value })}
-                  rows={2}
-                  placeholder="https://example.com/image1.jpg, https://example.com/image2.jpg"
-                />
-              </div>
+              <>
+                <div className="form-group">
+                  <label className="input-label">Ajouter une image principale</label>
+                  <FileUpload
+                    type="image"
+                    onUploadSuccess={addPrimaryImageUrl}
+                    accept="image/jpeg,image/jpg,image/png,image/gif,image/webp"
+                    label="Uploader une image produit"
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="product-images" className="input-label">Images principales</label>
+                  <textarea
+                    id="product-images"
+                    name="images"
+                    className="form-textarea"
+                    value={formData.images}
+                    onChange={(e) => setFormData({ ...formData, images: e.target.value })}
+                    rows={2}
+                    placeholder="Les images uploadées sont ajoutées ici. Vous pouvez aussi coller une URL."
+                  />
+                </div>
+              </>
             )}
 
             {activeTab === 'images' && (
@@ -913,7 +940,7 @@ export const AdminProducts = () => {
                     <h4>{product.name}</h4>
                     <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
                       {product.isFeatured && (
-                        <span className="featured-badge">⭐ Vedette</span>
+                        <span className="featured-badge">Vedette</span>
                       )}
                       {product.isActive === false && (
                         <span style={{ 
@@ -945,7 +972,7 @@ export const AdminProducts = () => {
                       )}
                       {product.views && (
                         <span className="stat-item">
-                          👁️ {product.views} vues
+                          {product.views} vues
                         </span>
                       )}
                     </div>
@@ -981,6 +1008,7 @@ export const AdminProducts = () => {
           })
         )}
       </div>
+      {Dialog}
     </div>
   )
 }

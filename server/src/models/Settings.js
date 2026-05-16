@@ -3,7 +3,7 @@ import mongoose from 'mongoose'
 const settingsSchema = new mongoose.Schema({
   platformName: {
     type: String,
-    default: 'BAOBAB',
+    default: 'MonBaobab',
   },
   contactEmail: {
     type: String,
@@ -59,6 +59,38 @@ const settingsSchema = new mongoose.Schema({
       default: '',
     },
   },
+  team: [{
+    name: {
+      type: String,
+      trim: true,
+      required: true,
+    },
+    role: {
+      type: String,
+      trim: true,
+      default: '',
+    },
+    nationality: {
+      type: String,
+      trim: true,
+      default: '',
+    },
+    flag: {
+      type: String,
+      trim: true,
+      default: '',
+    },
+    image: {
+      type: String,
+      trim: true,
+      default: '',
+    },
+    focus: {
+      type: String,
+      trim: true,
+      default: 'center 35%',
+    },
+  }],
 }, {
   timestamps: true,
 })
@@ -75,4 +107,3 @@ settingsSchema.statics.getSettings = async function() {
 const Settings = mongoose.model('Settings', settingsSchema)
 
 export default Settings
-

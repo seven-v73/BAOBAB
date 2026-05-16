@@ -8,7 +8,7 @@ import { useAuthStore } from '../stores/authStore'
 import { productService, userService, countryService } from '../services/api'
 import { useNotifications } from '../hooks/useNotifications'
 import { Heart, Star, ShoppingCart, SlidersHorizontal } from 'lucide-react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import './Shop.css'
 
 interface Product {
@@ -64,6 +64,7 @@ export const Shop = () => {
   const { isAuthenticated, user } = useAuthStore()
   const addItem = useCartStore((state) => state.addItem)
   const { success, error: showError } = useNotifications()
+  const navigate = useNavigate()
 
   useEffect(() => {
     fetchCategories()
@@ -148,6 +149,12 @@ export const Shop = () => {
   }
 
   const handleAddToCart = (product: Product) => {
+    if (!isAuthenticated || !user?.id) {
+      showError('Connectez-vous pour ajouter un produit au panier')
+      navigate('/login')
+      return
+    }
+
     addItem({
       id: product._id || product.id || '',
       name: product.name,
@@ -236,20 +243,29 @@ export const Shop = () => {
     return `${price.toLocaleString()} ${currency}`
   }
 
+  const activeFilters = [
+    filters.search && { key: 'search', label: `Recherche: ${filters.search}` },
+    filters.category && { key: 'category', label: filters.category },
+    filters.country && { key: 'country', label: filters.country },
+    filters.minPrice && { key: 'minPrice', label: `Min. ${formatPrice(Number(filters.minPrice))}` },
+    filters.maxPrice && { key: 'maxPrice', label: `Max. ${formatPrice(Number(filters.maxPrice))}` },
+    filters.minRating && { key: 'minRating', label: `${filters.minRating}+ étoiles` },
+  ].filter(Boolean) as Array<{ key: keyof typeof filters; label: string }>
+
   return (
     <Layout>
       <div className="shop">
         <div className="shop-header">
           <h1>Boutique Africaine</h1>
           <p className="shop-subtitle">
-            Découvrez notre sélection de produits authentiques d'Afrique
+            Objets, matières et créations choisis pour leur usage et leur histoire
           </p>
         </div>
 
         {/* Produits tendance */}
         {trendingProducts.length > 0 && (
           <section className="shop-trending">
-            <h2>🔥 Produits Tendance</h2>
+            <h2>Produits en mouvement</h2>
             <div className="trending-products-grid">
               {trendingProducts.map((product) => {
                 const productId = product._id || product.id || ''
@@ -303,6 +319,25 @@ export const Shop = () => {
             </select>
           </div>
         </div>
+
+        {activeFilters.length > 0 && (
+          <div className="active-filter-chips" aria-label="Filtres actifs">
+            {activeFilters.map((filter) => (
+              <button
+                key={filter.key}
+                type="button"
+                className="active-filter-chip"
+                onClick={() => handleFilterChange(filter.key, '')}
+              >
+                <span>{filter.label}</span>
+                <span aria-hidden="true">×</span>
+              </button>
+            ))}
+            <button type="button" className="active-filter-clear" onClick={clearFilters}>
+              Tout effacer
+            </button>
+          </div>
+        )}
 
         {/* Panneau de filtres */}
         {showFilters && (
@@ -440,7 +475,7 @@ export const Shop = () => {
                           {product.shortDescription || product.description?.substring(0, 100)}...
                         </p>
                         {product.country && (
-                          <p className="product-country">📍 {product.country}</p>
+                          <p className="product-country">{product.country}</p>
                         )}
                         <div className="product-footer">
                           <span className="product-price">
@@ -448,7 +483,7 @@ export const Shop = () => {
                           </span>
                           <Button onClick={() => handleAddToCart(product)} size="small">
                             <ShoppingCart size={16} />
-                            Panier
+                            {isAuthenticated ? 'Panier' : 'Connexion'}
                           </Button>
                         </div>
                       </div>
@@ -486,4 +521,3 @@ export const Shop = () => {
     </Layout>
   )
 }
-

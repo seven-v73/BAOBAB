@@ -145,7 +145,8 @@ api.interceptors.response.use(
         
         // Rediriger vers login seulement si on n'est pas déjà sur la page de login
         if (window.location.pathname !== '/login') {
-          window.location.href = '/login'
+          const redirect = `${window.location.pathname}${window.location.search}`
+          window.location.href = `/login?redirect=${encodeURIComponent(redirect)}`
         }
         
         return Promise.reject(refreshError)
@@ -203,6 +204,14 @@ export const communityService = {
     api.get(`/communities/${id}`),
   createCommunity: (data: { name: string; description: string; type: string; culture?: string; image?: string; coverImage?: string; tags?: string[]; settings?: any }) =>
     api.post('/communities', data),
+  createCommunityRequest: (data: { name: string; description: string; type: string; culture?: string; image?: string; coverImage?: string; tags?: string[]; settings?: any }) =>
+    api.post('/communities/requests', data),
+  getCommunityRequests: (params?: { status?: 'pending' | 'approved' | 'rejected' | 'all'; page?: number; limit?: number }) =>
+    api.get('/communities/requests', { params }),
+  approveCommunityRequest: (id: string, adminNote?: string) =>
+    api.put(`/communities/requests/${id}/approve`, { adminNote }),
+  rejectCommunityRequest: (id: string, adminNote?: string) =>
+    api.put(`/communities/requests/${id}/reject`, { adminNote }),
   updateCommunity: (id: string, data: any) =>
     api.put(`/communities/${id}`, data),
   deleteCommunity: (id: string) =>
@@ -310,106 +319,42 @@ export const uploadService = {
   uploadImage: async (file: File) => {
     const formData = new FormData()
     formData.append('image', file)
-    
-    console.log('Upload image - Fichier:', file.name, 'Taille:', file.size, 'Type:', file.type)
-    
-    try {
-      const response = await api.post('/upload/image', formData, {
-        headers: {
-          // Ne pas définir Content-Type, laisser axios le faire automatiquement pour FormData
-        },
-        onUploadProgress: (progressEvent) => {
-          if (progressEvent.total) {
-            const percentCompleted = Math.round((progressEvent.loaded * 100) / progressEvent.total)
-            console.log(`Upload image: ${percentCompleted}%`)
-          }
-        },
-      })
-      console.log('Upload image réussi:', response.data)
-      return response
-    } catch (error: any) {
-      console.error('Erreur upload image:', error)
-      console.error('Réponse erreur:', error.response?.data)
-      throw error
-    }
+
+    return api.post('/upload/image', formData, {
+      headers: {
+        // Ne pas définir Content-Type, laisser axios le faire automatiquement pour FormData
+      },
+    })
   },
   uploadPDF: async (file: File) => {
     const formData = new FormData()
     formData.append('pdf', file)
-    
-    console.log('Upload PDF - Fichier:', file.name, 'Taille:', file.size, 'Type:', file.type)
-    
-    try {
-      const response = await api.post('/upload/pdf', formData, {
-        headers: {
-          // Ne pas définir Content-Type, laisser axios le faire automatiquement pour FormData
-        },
-        onUploadProgress: (progressEvent) => {
-          if (progressEvent.total) {
-            const percentCompleted = Math.round((progressEvent.loaded * 100) / progressEvent.total)
-            console.log(`Upload PDF: ${percentCompleted}%`)
-          }
-        },
-      })
-      console.log('Upload PDF réussi:', response.data)
-      return response
-    } catch (error: any) {
-      console.error('Erreur upload PDF:', error)
-      console.error('Réponse erreur:', error.response?.data)
-      throw error
-    }
+
+    return api.post('/upload/pdf', formData, {
+      headers: {
+        // Ne pas définir Content-Type, laisser axios le faire automatiquement pour FormData
+      },
+    })
   },
   uploadVideo: async (file: File) => {
     const formData = new FormData()
     formData.append('video', file)
-    
-    console.log('Upload Vidéo - Fichier:', file.name, 'Taille:', file.size, 'Type:', file.type)
-    
-    try {
-      const response = await api.post('/upload/video', formData, {
-        headers: {
-          // Ne pas définir Content-Type, laisser axios le faire automatiquement pour FormData
-        },
-        onUploadProgress: (progressEvent) => {
-          if (progressEvent.total) {
-            const percentCompleted = Math.round((progressEvent.loaded * 100) / progressEvent.total)
-            console.log(`Upload Vidéo: ${percentCompleted}%`)
-          }
-        },
-      })
-      console.log('Upload Vidéo réussi:', response.data)
-      return response
-    } catch (error: any) {
-      console.error('Erreur upload Vidéo:', error)
-      console.error('Réponse erreur:', error.response?.data)
-      throw error
-    }
+
+    return api.post('/upload/video', formData, {
+      headers: {
+        // Ne pas définir Content-Type, laisser axios le faire automatiquement pour FormData
+      },
+    })
   },
   uploadDocument: async (file: File) => {
     const formData = new FormData()
     formData.append('document', file)
-    
-    console.log('Upload Document - Fichier:', file.name, 'Taille:', file.size, 'Type:', file.type)
-    
-    try {
-      const response = await api.post('/upload/document', formData, {
-        headers: {
-          // Ne pas définir Content-Type, laisser axios le faire automatiquement pour FormData
-        },
-        onUploadProgress: (progressEvent) => {
-          if (progressEvent.total) {
-            const percentCompleted = Math.round((progressEvent.loaded * 100) / progressEvent.total)
-            console.log(`Upload Document: ${percentCompleted}%`)
-          }
-        },
-      })
-      console.log('Upload Document réussi:', response.data)
-      return response
-    } catch (error: any) {
-      console.error('Erreur upload Document:', error)
-      console.error('Réponse erreur:', error.response?.data)
-      throw error
-    }
+
+    return api.post('/upload/document', formData, {
+      headers: {
+        // Ne pas définir Content-Type, laisser axios le faire automatiquement pour FormData
+      },
+    })
   },
 }
 
@@ -545,4 +490,3 @@ export const notificationService = {
   markAllAsRead: () => api.put('/notifications/read-all'),
   delete: (id: string) => api.delete(`/notifications/${id}`),
 }
-

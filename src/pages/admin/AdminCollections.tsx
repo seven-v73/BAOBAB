@@ -4,6 +4,7 @@ import { Button } from '../../components/Button/Button'
 import { Input } from '../../components/Input/Input'
 import { collectionService } from '../../services/api'
 import { useNotifications } from '../../hooks/useNotifications'
+import { useConfirmDialog } from '../../components/UX/ConfirmDialog'
 import { Plus, Edit, Trash2, Search, FolderOpen, Clock, Star } from 'lucide-react'
 import './AdminCollections.css'
 
@@ -20,6 +21,7 @@ interface Collection {
 
 export const AdminCollections = () => {
   const { success, showError } = useNotifications()
+  const { confirm, Dialog } = useConfirmDialog()
   const [collections, setCollections] = useState<Collection[]>([])
   const [loading, setLoading] = useState(true)
   const [searchTerm, setSearchTerm] = useState('')
@@ -69,7 +71,13 @@ export const AdminCollections = () => {
   }
 
   const handleDelete = async (id: string) => {
-    if (!confirm('Êtes-vous sûr de vouloir supprimer cette collection ?')) return
+    const accepted = await confirm({
+      title: 'Supprimer cette collection ?',
+      message: 'La collection ne sera plus visible dans les parcours.',
+      confirmLabel: 'Supprimer',
+      tone: 'danger',
+    })
+    if (!accepted) return
 
     try {
       await collectionService.delete(id)
@@ -280,7 +288,7 @@ export const AdminCollections = () => {
           )}
         </div>
       )}
+      {Dialog}
     </div>
   )
 }
-

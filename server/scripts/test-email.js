@@ -49,7 +49,7 @@ const testEmail = async () => {
     
     await sendEmail(
       env.ANOMALY_ALERT_EMAIL,
-      '[BAOBAB] Test de Configuration Email',
+      '[MonBaobab] Test de Configuration Email',
       html
     )
 

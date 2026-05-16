@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { useAuthStore } from '../store/authStore'
+import { useAuthStore } from '../stores/authStore'
 import { useProductStore } from '../store/productStore'
 import { useSettingsStore } from '../stores/settingsStore'
 import { Button } from '../components/ui/Button'
@@ -16,7 +16,7 @@ export const Header = () => {
     fetchSettings()
   }, [fetchSettings])
 
-  const platformName = settings?.platformName || 'BAOBAB'
+  const platformName = settings?.platformName || 'MonBaobab'
 
   const handleLogout = () => {
     logout()
@@ -27,8 +27,13 @@ export const Header = () => {
     <header className="header">
       <div className="header-container">
         <Link to="/" className="logo">
-          <span className="logo-icon">🌳</span>
-          <span className="logo-text">{platformName}</span>
+          <span className="logo-mark" aria-hidden="true">
+            <span>MB</span>
+          </span>
+          <span className="logo-wordmark">
+            <span className="logo-text">{platformName}</span>
+            <span className="logo-signature">Afrique connectée</span>
+          </span>
         </Link>
 
         <nav className="nav">
@@ -44,7 +49,7 @@ export const Header = () => {
           {isAuthenticated ? (
             <>
               <Link to="/shop/cart" className="cart-link">
-                🛒 Panier
+                <span className="icon-shopping" aria-hidden="true" /> Panier
                 {cartItemCount > 0 && (
                   <span className="cart-badge">{cartItemCount}</span>
                 )}
@@ -56,12 +61,12 @@ export const Header = () => {
             </>
           ) : (
             <>
-              <Link to="/auth/login">
+              <Link to="/login">
                 <Button variant="outline" size="small">
                   Connexion
                 </Button>
               </Link>
-              <Link to="/auth/register">
+              <Link to="/register">
                 <Button variant="primary" size="small">
                   Inscription
                 </Button>
@@ -73,4 +78,3 @@ export const Header = () => {
     </header>
   )
 }
-

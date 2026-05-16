@@ -105,8 +105,8 @@ export const Timeline = () => {
     <Layout>
       <div className="timeline-page">
         <div className="timeline-header">
-          <h1>📅 Chronologie Historique de l'Afrique</h1>
-          <p>Explorez l'histoire authentique de l'Afrique à travers les âges</p>
+          <h1>Chronologie africaine</h1>
+          <p>Repères, ruptures et héritages à lire dans le temps</p>
         </div>
 
         <div className="timeline-filters">

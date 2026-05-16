@@ -18,7 +18,7 @@ export const connectDB = async () => {
     
     return conn
   } catch (error) {
-    logger.error('❌ Erreur de connexion MongoDB:', error.message)
+    logger.error(`❌ Erreur de connexion MongoDB: ${error.message}`)
     throw error
   }
 }

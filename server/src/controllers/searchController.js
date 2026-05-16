@@ -4,6 +4,10 @@ import TimelineEvent from '../models/TimelineEvent.js'
 import HistoricalFigure from '../models/HistoricalFigure.js'
 import Story from '../models/Story.js'
 import Collection from '../models/Collection.js'
+import Country from '../models/Country.js'
+import Proverb from '../models/Proverb.js'
+import Community from '../models/Community.js'
+import Quiz from '../models/Quiz.js'
 import logger from '../utils/logger.js'
 import { catchAsync } from '../utils/errorHandler.js'
 
@@ -19,6 +23,10 @@ export const searchAll = catchAsync(async (req, res) => {
       figures: [],
       stories: [],
       collections: [],
+      countries: [],
+      proverbs: [],
+      communities: [],
+      quizzes: [],
     })
   }
 
@@ -32,6 +40,29 @@ export const searchAll = catchAsync(async (req, res) => {
     figures: [],
     stories: [],
     collections: [],
+    countries: [],
+    proverbs: [],
+    communities: [],
+    quizzes: [],
+  }
+
+  // Recherche dans les pays
+  if (!type || type === 'countries') {
+    results.countries = await Country.find({
+      $or: [
+        { nameFr: searchRegex },
+        { name: searchRegex },
+        { capital: searchRegex },
+        { region: searchRegex },
+        { subregion: searchRegex },
+        { languages: { $in: [searchRegex] } },
+        { culture: searchRegex },
+        { description: searchRegex },
+      ],
+    })
+      .limit(Number(limit))
+      .select('id nameFr capital population area region subregion color description')
+      .lean()
   }
 
   // Recherche dans les produits
@@ -128,6 +159,55 @@ export const searchAll = catchAsync(async (req, res) => {
       .lean()
   }
 
+  // Recherche dans les proverbes
+  if (!type || type === 'proverbs') {
+    results.proverbs = await Proverb.find({
+      $or: [
+        { text: searchRegex },
+        { translation: searchRegex },
+        { explanation: searchRegex },
+        { countryName: searchRegex },
+        { language: searchRegex },
+        { category: searchRegex },
+        { tags: { $in: [searchRegex] } },
+      ],
+    })
+      .limit(Number(limit))
+      .select('text translation explanation countryName language category likes views')
+      .lean()
+  }
+
+  // Recherche dans les communautés
+  if (!type || type === 'communities') {
+    results.communities = await Community.find({
+      isActive: true,
+      $or: [
+        { name: searchRegex },
+        { description: searchRegex },
+        { culture: searchRegex },
+        { tags: { $in: [searchRegex] } },
+      ],
+    })
+      .limit(Number(limit))
+      .select('name description type culture image coverImage memberCount postCount tags')
+      .lean()
+  }
+
+  // Recherche dans les quiz
+  if (!type || type === 'quizzes') {
+    results.quizzes = await Quiz.find({
+      isActive: true,
+      $or: [
+        { title: searchRegex },
+        { description: searchRegex },
+        { tags: { $in: [searchRegex] } },
+      ],
+    })
+      .limit(Number(limit))
+      .select('title description difficulty totalPoints attempts averageScore tags')
+      .lean()
+  }
+
   res.json(results)
 })
 
@@ -142,7 +222,7 @@ export const getSearchSuggestions = catchAsync(async (req, res) => {
   const searchQuery = q.trim()
   const searchRegex = new RegExp(searchQuery, 'i')
 
-  const [products, blogs, events, figures] = await Promise.all([
+  const [products, blogs, events, figures, countries, proverbs, communities, quizzes] = await Promise.all([
     Product.find({
       isActive: true,
       name: searchRegex,
@@ -172,6 +252,42 @@ export const getSearchSuggestions = catchAsync(async (req, res) => {
       .limit(Number(limit))
       .select('name nameNative')
       .lean(),
+    Country.find({
+      $or: [
+        { nameFr: searchRegex },
+        { capital: searchRegex },
+      ],
+    })
+      .limit(Number(limit))
+      .select('nameFr id capital')
+      .lean(),
+    Proverb.find({
+      $or: [
+        { text: searchRegex },
+        { countryName: searchRegex },
+        { tags: { $in: [searchRegex] } },
+      ],
+    })
+      .limit(Number(limit))
+      .select('text countryName')
+      .lean(),
+    Community.find({
+      isActive: true,
+      $or: [
+        { name: searchRegex },
+        { culture: searchRegex },
+      ],
+    })
+      .limit(Number(limit))
+      .select('name culture')
+      .lean(),
+    Quiz.find({
+      isActive: true,
+      title: searchRegex,
+    })
+      .limit(Number(limit))
+      .select('title')
+      .lean(),
   ])
 
   const suggestions = []
@@ -191,10 +307,24 @@ export const getSearchSuggestions = catchAsync(async (req, res) => {
       suggestions.push({ type: 'figure', text: f.nameNative, id: f._id })
     }
   })
+  countries.forEach((country) => {
+    suggestions.push({ type: 'country', text: country.nameFr, id: country.id })
+    if (country.capital) {
+      suggestions.push({ type: 'country', text: country.capital, id: country.id })
+    }
+  })
+  proverbs.forEach((proverb) => {
+    suggestions.push({ type: 'proverb', text: proverb.text, id: proverb._id })
+  })
+  communities.forEach((community) => {
+    suggestions.push({ type: 'community', text: community.name, id: community._id })
+  })
+  quizzes.forEach((quiz) => {
+    suggestions.push({ type: 'quiz', text: quiz.title, id: quiz._id })
+  })
 
   // Limiter et mélanger
   const shuffled = suggestions.sort(() => 0.5 - Math.random()).slice(0, Number(limit))
 
   res.json(shuffled)
 })
-

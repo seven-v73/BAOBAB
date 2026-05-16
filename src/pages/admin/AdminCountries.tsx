@@ -6,6 +6,7 @@ import { Input } from '../../components/Input/Input'
 import { FileUpload } from '../../components/FileUpload/FileUpload'
 import { countryService } from '../../services/api'
 import { useNotifications } from '../../hooks/useNotifications'
+import { useConfirmDialog } from '../../components/UX/ConfirmDialog'
 import { allAfricanCountries } from '../../data/allAfricanCountries'
 import { Plus, Edit, Trash2, Search, Globe, MapPin, Users, Globe2, Image as ImageIcon, FileText, X, ArrowUp, ArrowDown, Database, Link as LinkIcon, Video, File as FileIcon } from 'lucide-react'
 import './AdminCountries.css'
@@ -47,6 +48,12 @@ interface CountryDocument {
   order?: number
 }
 
+interface RecommendedPath {
+  title: string
+  description: string
+  items?: string[]
+}
+
 interface Country {
   _id?: string
   id: string
@@ -59,6 +66,41 @@ interface Country {
   currency: string
   description: string
   culture: string
+  oneSentenceSummary?: string
+  keyFacts?: string[]
+  peoples?: string[]
+  languageNotes?: string
+  historyHighlights?: string[]
+  notableFigures?: string[]
+  musicAndArts?: string[]
+  foodCulture?: string[]
+  oralTraditions?: string[]
+  knowledgeToPreserve?: string[]
+  recommendedPaths?: RecommendedPath[]
+  relatedThemes?: string[]
+  sourceQuality?: 'draft' | 'community' | 'verified' | 'official'
+  discoveryIntro?: string
+  lastUpdated?: string
+  officialName?: string
+  region?: string
+  subregion?: string
+  demonym?: string
+  timeZone?: string
+  callingCode?: string
+  internetTld?: string
+  drivingSide?: string
+  independenceDate?: string
+  governmentType?: string
+  economicOverview?: string
+  climate?: string
+  bestTimeToVisit?: string
+  safetyNote?: string
+  etiquette?: string
+  transport?: string
+  connectivity?: string
+  visaNote?: string
+  healthAdvice?: string
+  emergencyNumbers?: string
   color: string
   rites?: string[]
   customs?: string[]
@@ -66,6 +108,10 @@ interface Country {
   traditions?: string[]
   festivals?: string[]
   arts?: string[]
+  placesToDiscover?: string[]
+  experiences?: string[]
+  practicalTips?: string[]
+  sourceNotes?: string[]
   customSections?: CustomSection[]
   images?: CountryImage[]
   pdfs?: CountryPDF[]
@@ -80,7 +126,7 @@ export const AdminCountries = () => {
   const [searchTerm, setSearchTerm] = useState('')
   const [showForm, setShowForm] = useState(false)
   const [editingCountry, setEditingCountry] = useState<Country | null>(null)
-  const [activeTab, setActiveTab] = useState<'basic' | 'sections' | 'images' | 'pdfs' | 'videos' | 'documents'>('basic')
+  const [activeTab, setActiveTab] = useState<'basic' | 'discovery' | 'sections' | 'images' | 'pdfs' | 'videos' | 'documents'>('basic')
   const [customSections, setCustomSections] = useState<CustomSection[]>([])
   const [images, setImages] = useState<CountryImage[]>([])
   const [pdfs, setPdfs] = useState<CountryPDF[]>([])
@@ -97,6 +143,45 @@ export const AdminCountries = () => {
     currency: '',
     description: '',
     culture: '',
+    oneSentenceSummary: '',
+    keyFacts: '',
+    peoples: '',
+    languageNotes: '',
+    historyHighlights: '',
+    notableFigures: '',
+    musicAndArts: '',
+    foodCulture: '',
+    oralTraditions: '',
+    knowledgeToPreserve: '',
+    recommendedPaths: '',
+    relatedThemes: '',
+    sourceQuality: 'draft',
+    discoveryIntro: '',
+    lastUpdated: '2026',
+    officialName: '',
+    region: '',
+    subregion: '',
+    demonym: '',
+    timeZone: '',
+    callingCode: '',
+    internetTld: '',
+    drivingSide: '',
+    independenceDate: '',
+    governmentType: '',
+    economicOverview: '',
+    climate: '',
+    bestTimeToVisit: '',
+    safetyNote: '',
+    etiquette: '',
+    transport: '',
+    connectivity: '',
+    visaNote: '',
+    healthAdvice: '',
+    emergencyNumbers: '',
+    placesToDiscover: '',
+    experiences: '',
+    practicalTips: '',
+    sourceNotes: '',
     color: '#8E44AD',
     rites: '',
     customs: '',
@@ -107,6 +192,7 @@ export const AdminCountries = () => {
   })
   const navigate = useNavigate()
   const { success, error: showError } = useNotifications()
+  const { confirm, Dialog } = useConfirmDialog()
   const [initializing, setInitializing] = useState(false)
   const [uploadMode, setUploadMode] = useState<{ [key: string]: 'upload' | 'url' }>({})
 
@@ -148,6 +234,45 @@ export const AdminCountries = () => {
       currency: country.currency || '',
       description: country.description || '',
       culture: country.culture || '',
+      oneSentenceSummary: country.oneSentenceSummary || '',
+      keyFacts: country.keyFacts?.join('; ') || '',
+      peoples: country.peoples?.join('; ') || '',
+      languageNotes: country.languageNotes || '',
+      historyHighlights: country.historyHighlights?.join('; ') || '',
+      notableFigures: country.notableFigures?.join('; ') || '',
+      musicAndArts: country.musicAndArts?.join('; ') || '',
+      foodCulture: country.foodCulture?.join('; ') || '',
+      oralTraditions: country.oralTraditions?.join('; ') || '',
+      knowledgeToPreserve: country.knowledgeToPreserve?.join('; ') || '',
+      recommendedPaths: country.recommendedPaths?.map((path) => `${path.title} | ${path.description} | ${(path.items || []).join(', ')}`).join('\n') || '',
+      relatedThemes: country.relatedThemes?.join('; ') || '',
+      sourceQuality: country.sourceQuality || 'draft',
+      discoveryIntro: country.discoveryIntro || '',
+      lastUpdated: country.lastUpdated || '2026',
+      officialName: country.officialName || '',
+      region: country.region || '',
+      subregion: country.subregion || '',
+      demonym: country.demonym || '',
+      timeZone: country.timeZone || '',
+      callingCode: country.callingCode || '',
+      internetTld: country.internetTld || '',
+      drivingSide: country.drivingSide || '',
+      independenceDate: country.independenceDate || '',
+      governmentType: country.governmentType || '',
+      economicOverview: country.economicOverview || '',
+      climate: country.climate || '',
+      bestTimeToVisit: country.bestTimeToVisit || '',
+      safetyNote: country.safetyNote || '',
+      etiquette: country.etiquette || '',
+      transport: country.transport || '',
+      connectivity: country.connectivity || '',
+      visaNote: country.visaNote || '',
+      healthAdvice: country.healthAdvice || '',
+      emergencyNumbers: country.emergencyNumbers || '',
+      placesToDiscover: country.placesToDiscover?.join('; ') || '',
+      experiences: country.experiences?.join('; ') || '',
+      practicalTips: country.practicalTips?.join('; ') || '',
+      sourceNotes: country.sourceNotes?.join('; ') || '',
       color: country.color || '#8E44AD',
       rites: country.rites?.join('; ') || '',
       customs: country.customs?.join('; ') || '',
@@ -252,6 +377,21 @@ export const AdminCountries = () => {
         return
       }
 
+      const parseList = (value: string) => value.split(';').map((item) => item.trim()).filter(Boolean)
+      const parsedRecommendedPaths = formData.recommendedPaths
+        .split('\n')
+        .map((line) => line.trim())
+        .filter(Boolean)
+        .map((line) => {
+          const [title = '', description = '', items = ''] = line.split('|').map((part) => part.trim())
+          return {
+            title,
+            description,
+            items: items.split(',').map((item) => item.trim()).filter(Boolean),
+          }
+        })
+        .filter((path) => path.title && path.description)
+
       const countryData = {
         id: formData.id.toUpperCase(),
         name: formData.name || formData.nameFr,
@@ -263,13 +403,52 @@ export const AdminCountries = () => {
         currency: formData.currency,
         description: formData.description,
         culture: formData.culture,
+        oneSentenceSummary: formData.oneSentenceSummary,
+        keyFacts: parseList(formData.keyFacts),
+        peoples: parseList(formData.peoples),
+        languageNotes: formData.languageNotes,
+        historyHighlights: parseList(formData.historyHighlights),
+        notableFigures: parseList(formData.notableFigures),
+        musicAndArts: parseList(formData.musicAndArts),
+        foodCulture: parseList(formData.foodCulture),
+        oralTraditions: parseList(formData.oralTraditions),
+        knowledgeToPreserve: parseList(formData.knowledgeToPreserve),
+        recommendedPaths: parsedRecommendedPaths,
+        relatedThemes: parseList(formData.relatedThemes),
+        sourceQuality: formData.sourceQuality,
+        discoveryIntro: formData.discoveryIntro,
+        lastUpdated: formData.lastUpdated,
+        officialName: formData.officialName,
+        region: formData.region,
+        subregion: formData.subregion,
+        demonym: formData.demonym,
+        timeZone: formData.timeZone,
+        callingCode: formData.callingCode,
+        internetTld: formData.internetTld,
+        drivingSide: formData.drivingSide,
+        independenceDate: formData.independenceDate,
+        governmentType: formData.governmentType,
+        economicOverview: formData.economicOverview,
+        climate: formData.climate,
+        bestTimeToVisit: formData.bestTimeToVisit,
+        safetyNote: formData.safetyNote,
+        etiquette: formData.etiquette,
+        transport: formData.transport,
+        connectivity: formData.connectivity,
+        visaNote: formData.visaNote,
+        healthAdvice: formData.healthAdvice,
+        emergencyNumbers: formData.emergencyNumbers,
         color: formData.color,
-        rites: formData.rites.split(';').map(r => r.trim()).filter(Boolean),
-        customs: formData.customs.split(';').map(c => c.trim()).filter(Boolean),
-        foods: formData.foods.split(';').map(f => f.trim()).filter(Boolean),
-        traditions: formData.traditions.split(';').map(t => t.trim()).filter(Boolean),
-        festivals: formData.festivals.split(';').map(f => f.trim()).filter(Boolean),
-        arts: formData.arts.split(';').map(a => a.trim()).filter(Boolean),
+        rites: parseList(formData.rites),
+        customs: parseList(formData.customs),
+        foods: parseList(formData.foods),
+        traditions: parseList(formData.traditions),
+        festivals: parseList(formData.festivals),
+        arts: parseList(formData.arts),
+        placesToDiscover: parseList(formData.placesToDiscover),
+        experiences: parseList(formData.experiences),
+        practicalTips: parseList(formData.practicalTips),
+        sourceNotes: parseList(formData.sourceNotes),
         customSections: customSections.map((s, idx) => ({ ...s, order: idx })),
         images: images.map((img, idx) => ({ ...img, order: idx })),
         pdfs: validPDFs,
@@ -303,9 +482,13 @@ export const AdminCountries = () => {
   }
 
   const handleDelete = async (id: string) => {
-    if (!confirm('Êtes-vous sûr de vouloir supprimer ce pays ?')) {
-      return
-    }
+    const accepted = await confirm({
+      title: 'Supprimer ce pays ?',
+      message: 'La fiche pays et ses contenus associés seront retirés.',
+      confirmLabel: 'Supprimer',
+      tone: 'danger',
+    })
+    if (!accepted) return
 
     try {
       await countryService.delete(id)
@@ -329,6 +512,45 @@ export const AdminCountries = () => {
       currency: '',
       description: '',
       culture: '',
+      oneSentenceSummary: '',
+      keyFacts: '',
+      peoples: '',
+      languageNotes: '',
+      historyHighlights: '',
+      notableFigures: '',
+      musicAndArts: '',
+      foodCulture: '',
+      oralTraditions: '',
+      knowledgeToPreserve: '',
+      recommendedPaths: '',
+      relatedThemes: '',
+      sourceQuality: 'draft',
+      discoveryIntro: '',
+      lastUpdated: '2026',
+      officialName: '',
+      region: '',
+      subregion: '',
+      demonym: '',
+      timeZone: '',
+      callingCode: '',
+      internetTld: '',
+      drivingSide: '',
+      independenceDate: '',
+      governmentType: '',
+      economicOverview: '',
+      climate: '',
+      bestTimeToVisit: '',
+      safetyNote: '',
+      etiquette: '',
+      transport: '',
+      connectivity: '',
+      visaNote: '',
+      healthAdvice: '',
+      emergencyNumbers: '',
+      placesToDiscover: '',
+      experiences: '',
+      practicalTips: '',
+      sourceNotes: '',
       color: '#8E44AD',
       rites: '',
       customs: '',
@@ -492,9 +714,12 @@ export const AdminCountries = () => {
   }
 
   const handleInitializeCountries = async () => {
-    if (!confirm('Voulez-vous initialiser tous les 54 pays africains dans la base de données ?\n\nLes pays existants seront mis à jour avec les données de base.')) {
-      return
-    }
+    const accepted = await confirm({
+      title: 'Initialiser les pays africains ?',
+      message: 'Les 54 pays seront ajoutés ou mis à jour avec les données de base.',
+      confirmLabel: 'Initialiser',
+    })
+    if (!accepted) return
 
     setInitializing(true)
     try {
@@ -521,6 +746,39 @@ export const AdminCountries = () => {
     const code = codeMap[countryId] || countryId.toLowerCase()
     return `https://flagcdn.com/w80/${code}.png`
   }
+
+  const hasText = (value?: string) => Boolean(value && value.trim().length > 0)
+  const completionItems = [
+    {
+      label: 'Base',
+      done: hasText(formData.id) && hasText(formData.nameFr) && hasText(formData.capital) && hasText(formData.description),
+    },
+    {
+      label: 'Culture',
+      done: hasText(formData.culture) || hasText(formData.foods) || hasText(formData.arts) || hasText(formData.festivals),
+    },
+    {
+      label: 'Découverte',
+      done: hasText(formData.discoveryIntro) || hasText(formData.placesToDiscover) || hasText(formData.experiences),
+    },
+    {
+      label: 'Transmission',
+      done: hasText(formData.oneSentenceSummary) || hasText(formData.keyFacts) || hasText(formData.knowledgeToPreserve),
+    },
+    {
+      label: 'Pratique',
+      done: hasText(formData.climate) || hasText(formData.bestTimeToVisit) || hasText(formData.visaNote) || hasText(formData.healthAdvice),
+    },
+    {
+      label: 'Médias',
+      done: images.length + pdfs.length + videos.length + documents.length > 0,
+    },
+    {
+      label: 'Sources',
+      done: hasText(formData.sourceNotes),
+    },
+  ]
+  const completionScore = Math.round((completionItems.filter((item) => item.done).length / completionItems.length) * 100)
 
   if (loading) {
     return <div className="admin-loading">Chargement des pays...</div>
@@ -567,7 +825,28 @@ export const AdminCountries = () => {
 
       {showForm && (
         <Card className="country-form-card">
-          <h3>{editingCountry ? `Modifier ${editingCountry.nameFr}` : 'Nouveau pays'}</h3>
+          <div className="country-form-header">
+            <div>
+              <span className="form-eyebrow">Fiche éditoriale</span>
+              <h3>{editingCountry ? `Modifier ${editingCountry.nameFr}` : 'Nouveau pays'}</h3>
+              <p>Avancez section par section. Les champs MonBaobab complètent la page publique sans remplacer les données officielles.</p>
+            </div>
+            <div className="completion-meter" aria-label={`Complétion ${completionScore}%`}>
+              <strong>{completionScore}%</strong>
+              <span>complété</span>
+              <div className="completion-track">
+                <i style={{ width: `${completionScore}%` }} />
+              </div>
+            </div>
+          </div>
+
+          <div className="completion-chips" aria-label="État des sections">
+            {completionItems.map((item) => (
+              <span className={item.done ? 'done' : ''} key={item.label}>
+                {item.label}
+              </span>
+            ))}
+          </div>
           
           {/* Onglets */}
           <div className="form-tabs">
@@ -577,6 +856,13 @@ export const AdminCountries = () => {
               onClick={() => setActiveTab('basic')}
             >
               Informations de base
+            </button>
+            <button
+              type="button"
+              className={`form-tab ${activeTab === 'discovery' ? 'active' : ''}`}
+              onClick={() => setActiveTab('discovery')}
+            >
+              Découverte 2026
             </button>
             <button
               type="button"
@@ -598,6 +884,20 @@ export const AdminCountries = () => {
               onClick={() => setActiveTab('pdfs')}
             >
               PDFs ({pdfs.length})
+            </button>
+            <button
+              type="button"
+              className={`form-tab ${activeTab === 'videos' ? 'active' : ''}`}
+              onClick={() => setActiveTab('videos')}
+            >
+              Vidéos ({videos.length})
+            </button>
+            <button
+              type="button"
+              className={`form-tab ${activeTab === 'documents' ? 'active' : ''}`}
+              onClick={() => setActiveTab('documents')}
+            >
+              Documents ({documents.length})
             </button>
           </div>
 
@@ -748,6 +1048,214 @@ export const AdminCountries = () => {
                   onChange={(e) => setFormData({ ...formData, color: e.target.value })}
                 />
               </>
+            )}
+
+            {activeTab === 'discovery' && (
+              <div className="tab-content discovery-admin-content">
+                <div className="section-header-tab">
+                  <div>
+                    <h4>Fiche découverte du pays</h4>
+                    <p className="empty-message">Ajoutez ici les repères à jour, les conseils pratiques et les éléments qui donnent envie d'explorer le pays.</p>
+                  </div>
+                </div>
+
+                <div className="form-row">
+                  <Input
+                    label="Nom officiel"
+                    value={formData.officialName}
+                    onChange={(e) => setFormData({ ...formData, officialName: e.target.value })}
+                    placeholder="République du Sénégal"
+                  />
+                  <Input
+                    label="Mise à jour"
+                    value={formData.lastUpdated}
+                    onChange={(e) => setFormData({ ...formData, lastUpdated: e.target.value })}
+                    placeholder="2026"
+                  />
+                </div>
+
+                <div className="form-group">
+                  <label htmlFor="country-discovery-intro" className="input-label">Introduction immersive</label>
+                  <textarea
+                    id="country-discovery-intro"
+                    name="discoveryIntro"
+                    className="form-textarea"
+                    value={formData.discoveryIntro}
+                    onChange={(e) => setFormData({ ...formData, discoveryIntro: e.target.value })}
+                    rows={4}
+                    placeholder="Une entrée courte, sensorielle et concrète pour présenter le pays."
+                  />
+                </div>
+
+                <div className="form-group">
+                  <label htmlFor="country-one-sentence" className="input-label">Ce pays en une phrase</label>
+                  <textarea
+                    id="country-one-sentence"
+                    className="form-textarea"
+                    value={formData.oneSentenceSummary}
+                    onChange={(e) => setFormData({ ...formData, oneSentenceSummary: e.target.value })}
+                    rows={2}
+                    placeholder="Une phrase humaine, précise, qui donne le ton de la fiche."
+                  />
+                </div>
+
+                <div className="form-row">
+                  <div className="form-group">
+                    <label htmlFor="country-key-facts" className="input-label">À retenir avant d'explorer</label>
+                    <textarea id="country-key-facts" className="form-textarea" value={formData.keyFacts} onChange={(e) => setFormData({ ...formData, keyFacts: e.target.value })} rows={3} placeholder="Ville clé; Tradition forte; Langue à connaître" />
+                  </div>
+                  <div className="form-group">
+                    <label htmlFor="country-related-themes" className="input-label">Thèmes reliés</label>
+                    <textarea id="country-related-themes" className="form-textarea" value={formData.relatedThemes} onChange={(e) => setFormData({ ...formData, relatedThemes: e.target.value })} rows={3} placeholder="Textile; Oralité; Royaumes; Ports; Sahel" />
+                  </div>
+                </div>
+
+                <div className="form-row">
+                  <div className="form-group">
+                    <label htmlFor="country-peoples" className="input-label">Peuples et identités</label>
+                    <textarea id="country-peoples" className="form-textarea" value={formData.peoples} onChange={(e) => setFormData({ ...formData, peoples: e.target.value })} rows={3} placeholder="Groupes, communautés, zones culturelles; séparés par des point-virgules" />
+                  </div>
+                  <div className="form-group">
+                    <label htmlFor="country-language-notes" className="input-label">Notes sur les langues</label>
+                    <textarea id="country-language-notes" className="form-textarea" value={formData.languageNotes} onChange={(e) => setFormData({ ...formData, languageNotes: e.target.value })} rows={3} placeholder="Langues officielles, langues nationales, usages de salutation..." />
+                  </div>
+                </div>
+
+                <div className="form-row">
+                  <div className="form-group">
+                    <label htmlFor="country-history-highlights" className="input-label">Mémoire historique</label>
+                    <textarea id="country-history-highlights" className="form-textarea" value={formData.historyHighlights} onChange={(e) => setFormData({ ...formData, historyHighlights: e.target.value })} rows={3} placeholder="Royaumes; période coloniale; indépendance; dates récentes" />
+                  </div>
+                  <div className="form-group">
+                    <label htmlFor="country-notable-figures" className="input-label">Personnages à relier</label>
+                    <textarea id="country-notable-figures" className="form-textarea" value={formData.notableFigures} onChange={(e) => setFormData({ ...formData, notableFigures: e.target.value })} rows={3} placeholder="Nom - rôle; Nom - rôle" />
+                  </div>
+                </div>
+
+                <div className="form-row">
+                  <div className="form-group">
+                    <label htmlFor="country-music-arts" className="input-label">Arts, sons et gestes</label>
+                    <textarea id="country-music-arts" className="form-textarea" value={formData.musicAndArts} onChange={(e) => setFormData({ ...formData, musicAndArts: e.target.value })} rows={3} placeholder="Musique; danse; textile; instruments; architecture" />
+                  </div>
+                  <div className="form-group">
+                    <label htmlFor="country-food-culture" className="input-label">Cuisine et quotidien</label>
+                    <textarea id="country-food-culture" className="form-textarea" value={formData.foodCulture} onChange={(e) => setFormData({ ...formData, foodCulture: e.target.value })} rows={3} placeholder="Plat emblématique; boisson; marché; moment social" />
+                  </div>
+                </div>
+
+                <div className="form-row">
+                  <div className="form-group">
+                    <label htmlFor="country-oral-traditions" className="input-label">Oralité et récits</label>
+                    <textarea id="country-oral-traditions" className="form-textarea" value={formData.oralTraditions} onChange={(e) => setFormData({ ...formData, oralTraditions: e.target.value })} rows={3} placeholder="Contes; proverbes; récits familiaux; rites de parole" />
+                  </div>
+                  <div className="form-group">
+                    <label htmlFor="country-knowledge-preserve" className="input-label">Savoirs à préserver</label>
+                    <textarea id="country-knowledge-preserve" className="form-textarea" value={formData.knowledgeToPreserve} onChange={(e) => setFormData({ ...formData, knowledgeToPreserve: e.target.value })} rows={3} placeholder="Métiers; langues; gestes; archives orales; techniques artisanales" />
+                  </div>
+                </div>
+
+                <div className="form-group">
+                  <label htmlFor="country-recommended-paths" className="input-label">Parcours conseillés</label>
+                  <textarea
+                    id="country-recommended-paths"
+                    className="form-textarea"
+                    value={formData.recommendedPaths}
+                    onChange={(e) => setFormData({ ...formData, recommendedPaths: e.target.value })}
+                    rows={4}
+                    placeholder="Découverte rapide | Commencer par la capitale et les repères clés | Capitale, cuisine, carte&#10;Mémoire | Relier dates, figures et lieux | Indépendance, musée, proverbes"
+                  />
+                </div>
+
+                <div className="form-group">
+                  <label htmlFor="country-source-quality" className="input-label">Niveau éditorial</label>
+                  <select
+                    id="country-source-quality"
+                    className="form-select"
+                    value={formData.sourceQuality}
+                    onChange={(e) => setFormData({ ...formData, sourceQuality: e.target.value })}
+                  >
+                    <option value="draft">À compléter</option>
+                    <option value="community">Communauté</option>
+                    <option value="verified">Vérifié</option>
+                    <option value="official">Officiel</option>
+                  </select>
+                </div>
+
+                <div className="form-row">
+                  <Input label="Région" value={formData.region} onChange={(e) => setFormData({ ...formData, region: e.target.value })} placeholder="Afrique de l'Ouest" />
+                  <Input label="Sous-région" value={formData.subregion} onChange={(e) => setFormData({ ...formData, subregion: e.target.value })} placeholder="Sahel, Golfe de Guinée..." />
+                </div>
+                <div className="form-row">
+                  <Input label="Gentilé" value={formData.demonym} onChange={(e) => setFormData({ ...formData, demonym: e.target.value })} placeholder="Sénégalais, Sénégalaise" />
+                  <Input label="Date d'indépendance" value={formData.independenceDate} onChange={(e) => setFormData({ ...formData, independenceDate: e.target.value })} placeholder="4 avril 1960" />
+                </div>
+                <div className="form-row">
+                  <Input label="Régime / institutions" value={formData.governmentType} onChange={(e) => setFormData({ ...formData, governmentType: e.target.value })} placeholder="République..." />
+                  <Input label="Économie en bref" value={formData.economicOverview} onChange={(e) => setFormData({ ...formData, economicOverview: e.target.value })} placeholder="Services, agriculture, mines..." />
+                </div>
+                <div className="form-row">
+                  <Input label="Fuseau horaire" value={formData.timeZone} onChange={(e) => setFormData({ ...formData, timeZone: e.target.value })} placeholder="UTC+0" />
+                  <Input label="Indicatif" value={formData.callingCode} onChange={(e) => setFormData({ ...formData, callingCode: e.target.value })} placeholder="+221" />
+                </div>
+                <div className="form-row">
+                  <Input label="Domaine internet" value={formData.internetTld} onChange={(e) => setFormData({ ...formData, internetTld: e.target.value })} placeholder=".sn" />
+                  <Input label="Conduite" value={formData.drivingSide} onChange={(e) => setFormData({ ...formData, drivingSide: e.target.value })} placeholder="À droite" />
+                </div>
+
+                <div className="form-group">
+                  <label htmlFor="country-climate" className="input-label">Climat</label>
+                  <textarea id="country-climate" className="form-textarea" value={formData.climate} onChange={(e) => setFormData({ ...formData, climate: e.target.value })} rows={2} />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="country-best-time" className="input-label">Meilleure période</label>
+                  <textarea id="country-best-time" className="form-textarea" value={formData.bestTimeToVisit} onChange={(e) => setFormData({ ...formData, bestTimeToVisit: e.target.value })} rows={2} />
+                </div>
+
+                <div className="form-row">
+                  <div className="form-group">
+                    <label htmlFor="country-visa" className="input-label">Visa / entrée</label>
+                    <textarea id="country-visa" className="form-textarea" value={formData.visaNote} onChange={(e) => setFormData({ ...formData, visaNote: e.target.value })} rows={3} />
+                  </div>
+                  <div className="form-group">
+                    <label htmlFor="country-health" className="input-label">Santé</label>
+                    <textarea id="country-health" className="form-textarea" value={formData.healthAdvice} onChange={(e) => setFormData({ ...formData, healthAdvice: e.target.value })} rows={3} />
+                  </div>
+                </div>
+
+                <div className="form-row">
+                  <div className="form-group">
+                    <label htmlFor="country-etiquette" className="input-label">Codes sociaux</label>
+                    <textarea id="country-etiquette" className="form-textarea" value={formData.etiquette} onChange={(e) => setFormData({ ...formData, etiquette: e.target.value })} rows={3} />
+                  </div>
+                  <div className="form-group">
+                    <label htmlFor="country-safety" className="input-label">Note sécurité</label>
+                    <textarea id="country-safety" className="form-textarea" value={formData.safetyNote} onChange={(e) => setFormData({ ...formData, safetyNote: e.target.value })} rows={3} />
+                  </div>
+                </div>
+
+                <div className="form-row">
+                  <Input label="Transport" value={formData.transport} onChange={(e) => setFormData({ ...formData, transport: e.target.value })} placeholder="Aéroports, train, routes, taxis..." />
+                  <Input label="Connexion" value={formData.connectivity} onChange={(e) => setFormData({ ...formData, connectivity: e.target.value })} placeholder="Réseaux mobiles, internet..." />
+                </div>
+                <Input label="Numéros utiles" value={formData.emergencyNumbers} onChange={(e) => setFormData({ ...formData, emergencyNumbers: e.target.value })} placeholder="Police, pompiers, urgences..." />
+
+                <div className="form-group">
+                  <label htmlFor="country-places" className="input-label">Lieux à découvrir (séparés par des point-virgules)</label>
+                  <textarea id="country-places" className="form-textarea" value={formData.placesToDiscover} onChange={(e) => setFormData({ ...formData, placesToDiscover: e.target.value })} rows={3} />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="country-experiences" className="input-label">Expériences à vivre (séparées par des point-virgules)</label>
+                  <textarea id="country-experiences" className="form-textarea" value={formData.experiences} onChange={(e) => setFormData({ ...formData, experiences: e.target.value })} rows={3} />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="country-practical" className="input-label">Conseils pratiques (séparés par des point-virgules)</label>
+                  <textarea id="country-practical" className="form-textarea" value={formData.practicalTips} onChange={(e) => setFormData({ ...formData, practicalTips: e.target.value })} rows={3} />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="country-sources" className="input-label">Sources et notes de vérification (séparées par des point-virgules)</label>
+                  <textarea id="country-sources" className="form-textarea" value={formData.sourceNotes} onChange={(e) => setFormData({ ...formData, sourceNotes: e.target.value })} rows={3} placeholder="Ex: Données population Banque mondiale 2026; Formalités à confirmer avant voyage" />
+                </div>
+              </div>
             )}
 
             {activeTab === 'sections' && (
@@ -1297,6 +1805,7 @@ export const AdminCountries = () => {
           ))
         )}
       </div>
+      {Dialog}
     </div>
   )
 }

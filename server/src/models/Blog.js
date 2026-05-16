@@ -17,7 +17,7 @@ const blogSchema = new mongoose.Schema({
   author: {
     type: String,
     required: true,
-    default: 'BAOBAB Team',
+    default: 'MonBaobab Team',
   },
   // Sources pour vérification
   sources: [{

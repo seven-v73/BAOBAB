@@ -1,12 +1,9 @@
 import express from 'express'
 import { upload, uploadPDF, uploadVideo, uploadDocument, uploadToCloudinary } from '../middleware/upload.js'
 import { authenticate } from '../middleware/auth.js'
-import { authorize } from '../middleware/auth.js'
 import { catchAsync } from '../utils/errorHandler.js'
 import { AppError } from '../utils/errorHandler.js'
-import { processImage } from '../utils/imageProcessor.js'
 import logger from '../utils/logger.js'
-import env from '../config/env.js'
 import path from 'path'
 import { fileURLToPath } from 'url'
 
@@ -15,8 +12,28 @@ const __dirname = path.dirname(__filename)
 
 const router = express.Router()
 
-// Route pour upload d'images (Admin uniquement)
-router.post('/image', authenticate, authorize('admin'), upload.single('image'), catchAsync(async (req, res, next) => {
+const getBaseUrl = (req) => {
+  let baseUrl = process.env.API_BASE_URL || process.env.BACKEND_URL
+
+  if (!baseUrl) {
+    const host = req.get('host')
+    const protocol = req.protocol || (req.secure ? 'https' : 'http')
+    baseUrl = `${protocol}://${host}`
+  }
+
+  return baseUrl.replace(/\/$/, '')
+}
+
+const publicUploadUrl = (req, filenameOrUrl) => {
+  if (!filenameOrUrl) return ''
+  if (/^https?:\/\//i.test(filenameOrUrl)) return filenameOrUrl
+
+  const filename = filenameOrUrl.split('/').pop()
+  return `${getBaseUrl(req)}/api/upload/uploads/${filename}`
+}
+
+// Route pour upload d'images
+router.post('/image', authenticate, upload.single('image'), catchAsync(async (req, res, next) => {
   if (!req.file) {
     return next(new AppError('Aucun fichier uploadé', 400))
   }
@@ -31,7 +48,7 @@ router.post('/image', authenticate, authorize('admin'), upload.single('image'), 
     })
     
     res.json({
-      url: cloudinaryResult.url || cloudinaryResult.secure_url,
+      url: publicUploadUrl(req, cloudinaryResult.secure_url || cloudinaryResult.url),
       public_id: cloudinaryResult.public_id,
       filename: req.file.originalname,
       size: cloudinaryResult.bytes || req.file.size,
@@ -45,24 +62,13 @@ router.post('/image', authenticate, authorize('admin'), upload.single('image'), 
   }
 }))
 
-// Route pour upload de PDFs (Admin uniquement)
-router.post('/pdf', authenticate, authorize('admin'), uploadPDF.single('pdf'), catchAsync(async (req, res, next) => {
+// Route pour upload de PDFs
+router.post('/pdf', authenticate, uploadPDF.single('pdf'), catchAsync(async (req, res, next) => {
   if (!req.file) {
     return next(new AppError('Aucun fichier uploadé', 400))
   }
 
-  // Utiliser une URL de base configurée ou construire depuis la requête
-  // En production, utiliser une variable d'environnement pour l'URL de base
-  let baseUrl = process.env.API_BASE_URL || process.env.BACKEND_URL
-  
-  if (!baseUrl) {
-    // Fallback: construire depuis la requête
-    const host = req.get('host')
-    const protocol = req.protocol || (req.secure ? 'https' : 'http')
-    baseUrl = `${protocol}://${host}`
-  }
-  
-  const pdfUrl = `${baseUrl}/api/upload/uploads/${req.file.filename}`
+  const pdfUrl = publicUploadUrl(req, req.file.filename)
   
   logger.info('PDF uploadé', {
     filename: req.file.filename,
@@ -78,23 +84,13 @@ router.post('/pdf', authenticate, authorize('admin'), uploadPDF.single('pdf'), c
   })
 }))
 
-// Route pour upload de vidéos (Admin uniquement)
-router.post('/video', authenticate, authorize('admin'), uploadVideo.single('video'), catchAsync(async (req, res, next) => {
+// Route pour upload de vidéos
+router.post('/video', authenticate, uploadVideo.single('video'), catchAsync(async (req, res, next) => {
   if (!req.file) {
     return next(new AppError('Aucun fichier uploadé', 400))
   }
 
-  // Utiliser une URL de base configurée ou construire depuis la requête
-  let baseUrl = process.env.API_BASE_URL || process.env.BACKEND_URL
-  
-  if (!baseUrl) {
-    // Fallback: construire depuis la requête
-    const host = req.get('host')
-    const protocol = req.protocol || (req.secure ? 'https' : 'http')
-    baseUrl = `${protocol}://${host}`
-  }
-  
-  const videoUrl = `${baseUrl}/api/upload/uploads/${req.file.filename}`
+  const videoUrl = publicUploadUrl(req, req.file.filename)
   
   logger.info('Vidéo uploadée', {
     filename: req.file.filename,
@@ -110,23 +106,13 @@ router.post('/video', authenticate, authorize('admin'), uploadVideo.single('vide
   })
 }))
 
-// Route pour upload de documents (Admin uniquement)
-router.post('/document', authenticate, authorize('admin'), uploadDocument.single('document'), catchAsync(async (req, res, next) => {
+// Route pour upload de documents
+router.post('/document', authenticate, uploadDocument.single('document'), catchAsync(async (req, res, next) => {
   if (!req.file) {
     return next(new AppError('Aucun fichier uploadé', 400))
   }
 
-  // Utiliser une URL de base configurée ou construire depuis la requête
-  let baseUrl = process.env.API_BASE_URL || process.env.BACKEND_URL
-  
-  if (!baseUrl) {
-    // Fallback: construire depuis la requête
-    const host = req.get('host')
-    const protocol = req.protocol || (req.secure ? 'https' : 'http')
-    baseUrl = `${protocol}://${host}`
-  }
-  
-  const documentUrl = `${baseUrl}/api/upload/uploads/${req.file.filename}`
+  const documentUrl = publicUploadUrl(req, req.file.filename)
   
   logger.info('Document uploadé', {
     filename: req.file.filename,
@@ -146,4 +132,3 @@ router.post('/document', authenticate, authorize('admin'), uploadDocument.single
 router.use('/uploads', express.static(path.join(__dirname, '../../uploads')))
 
 export default router
-

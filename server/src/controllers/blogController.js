@@ -50,7 +50,7 @@ export const createBlog = catchAsync(async (req, res) => {
   const blogExcerpt = excerpt || content.substring(0, 200) + '...'
 
   // Utiliser le nom de l'utilisateur connecté comme auteur si non fourni
-  const authorName = author || (req.user?.name ? req.user.name : 'BAOBAB Team')
+  const authorName = author || (req.user?.name ? req.user.name : 'MonBaobab Team')
 
   const blog = new Blog({
     title,

@@ -7,10 +7,14 @@
   "scripts": {
     "dev": "node --watch src/index.js",
     "start": "node src/index.js",
-    "test": "NODE_ENV=test jest --coverage",
-    "test:watch": "NODE_ENV=test jest --watch",
+    "mongo:docker": "docker run --name baobab-mongo -p 27017:27017 -v baobab-mongo-data:/data/db -d mongo:7",
+    "mongo:start": "docker start baobab-mongo",
+    "lint": "find src tests scripts -name '*.js' -print0 | xargs -0 -n1 node --check",
+    "test": "NODE_ENV=test node --experimental-vm-modules ./node_modules/jest/bin/jest.js --coverage",
+    "test:watch": "NODE_ENV=test node --experimental-vm-modules ./node_modules/jest/bin/jest.js --watch",
     "test:email": "node scripts/test-email.js",
     "test:2fa": "node scripts/test-2fa.js",
+    "seed:demo": "node src/scripts/seedDemoCommerceBlog.js",
     "check:security": "node scripts/check-security.js"
   },
   "dependencies": {

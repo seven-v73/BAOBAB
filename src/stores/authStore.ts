@@ -4,6 +4,7 @@ import { authService } from '../services/api'
 
 interface User {
   id: string
+  _id?: string
   email: string
   name: string
   role?: 'user' | 'admin'
@@ -27,6 +28,15 @@ interface AuthState {
   clearError: () => void
 }
 
+const getApiErrorMessage = (error: any, fallback: string) => {
+  const data = error.response?.data
+  const detailMessages = Array.isArray(data?.details)
+    ? data.details.map((detail: any) => detail?.message).filter(Boolean)
+    : []
+
+  return detailMessages[0] || data?.message || data?.error || error.message || fallback
+}
+
 export const useAuthStore = create<AuthState>()(
   persist(
     (set, get) => ({
@@ -45,7 +55,8 @@ export const useAuthStore = create<AuthState>()(
           
           set({ 
             user: {
-              id: user.id,
+              id: user.id || user._id,
+              _id: user._id || user.id,
               email: user.email,
               name: user.name,
               role: user.role,
@@ -57,7 +68,7 @@ export const useAuthStore = create<AuthState>()(
             loading: false,
           })
         } catch (error: any) {
-          const errorMessage = error.response?.data?.error || 'Erreur de connexion'
+          const errorMessage = getApiErrorMessage(error, 'Erreur de connexion')
           set({ error: errorMessage, loading: false, isAuthenticated: false })
           throw new Error(errorMessage)
         }
@@ -71,7 +82,8 @@ export const useAuthStore = create<AuthState>()(
           
           set({ 
             user: {
-              id: user.id,
+              id: user.id || user._id,
+              _id: user._id || user.id,
               email: user.email,
               name: user.name,
               role: user.role || 'user',
@@ -82,7 +94,7 @@ export const useAuthStore = create<AuthState>()(
             loading: false,
           })
         } catch (error: any) {
-          const errorMessage = error.response?.data?.error || 'Erreur d\'inscription'
+          const errorMessage = getApiErrorMessage(error, 'Erreur d\'inscription')
           set({ error: errorMessage, loading: false, isAuthenticated: false })
           throw new Error(errorMessage)
         }
@@ -133,4 +145,3 @@ export const useAuthStore = create<AuthState>()(
     }
   )
 )
-

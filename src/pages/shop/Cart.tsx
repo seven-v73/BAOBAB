@@ -14,7 +14,7 @@ export const Cart = () => {
         <div className="container">
           <Card className="empty-cart">
             <h2>Votre panier est vide</h2>
-            <p>Découvrez nos produits africains authentiques</p>
+            <p>Retrouvez votre sélection et finalisez votre commande</p>
             <Link to="/shop">
               <Button variant="primary">Voir les produits</Button>
             </Link>
@@ -39,7 +39,7 @@ export const Cart = () => {
                 />
                 <div className="cart-item-details">
                   <h3>{item.product.name}</h3>
-                  <p className="cart-item-origin">📍 {item.product.origin}</p>
+                  <p className="cart-item-origin">{item.product.origin}</p>
                   <div className="cart-item-controls">
                     <div className="quantity-controls">
                       <Button

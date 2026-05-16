@@ -75,7 +75,7 @@ export const Header = () => {
     }
   }, [isMoreMenuOpen, isUserMenuOpen])
 
-  const platformName = settings?.platformName || 'BAOBAB'
+  const platformName = settings?.platformName || 'MonBaobab'
 
   // Navigation principale (toujours visible sur desktop)
   const mainNavItems = [
@@ -95,6 +95,19 @@ export const Header = () => {
     { to: '/map', label: 'Carte', icon: 'icon-globe' },
   ]
 
+  const mobilePrimaryNavItems = [
+    { to: '/', label: 'Découvrir', hint: 'Accueil', icon: 'icon-home' },
+    { to: '/map', label: 'Carte', hint: 'Afrique', icon: 'icon-globe' },
+    { to: '/communities', label: 'Communautés', hint: 'Échanger', icon: 'icon-users' },
+    { to: '/shop', label: 'Boutique', hint: 'Artisanat', icon: 'icon-shopping' },
+    {
+      to: isAuthenticated ? '/dashboard' : '/login',
+      label: isAuthenticated ? 'Dashboard' : 'Connexion',
+      hint: isAuthenticated ? 'Mon espace' : 'Compte',
+      icon: isAuthenticated ? 'icon-layout' : 'icon-user',
+    },
+  ]
+
   const handleLogout = () => {
     logout()
     navigate('/')
@@ -106,8 +119,13 @@ export const Header = () => {
       <div className="header-container">
         {/* Logo */}
         <Link to="/" className="header-logo">
-          <span className="logo-icon">🌳</span>
-          <span className="logo-text">{platformName}</span>
+          <span className="logo-mark" aria-hidden="true">
+            <span>MB</span>
+          </span>
+          <span className="logo-wordmark">
+            <span className="logo-text">{platformName}</span>
+            <span className="logo-signature">Afrique connectée</span>
+          </span>
         </Link>
         
         {/* Navigation principale - Desktop uniquement */}
@@ -206,6 +224,11 @@ export const Header = () => {
                     <span className="icon-users" />
                     Communautés
                   </Link>
+                  <Link to="/cart" className="user-dropdown-cart" onClick={() => setIsUserMenuOpen(false)}>
+                    <span className="icon-shopping" />
+                    <span>Panier</span>
+                    {itemCount > 0 && <strong>{itemCount}</strong>}
+                  </Link>
                   {user?.role === 'admin' && (
                     <Link to="/admin" onClick={() => setIsUserMenuOpen(false)}>
                       <span className="icon-settings" />
@@ -261,6 +284,30 @@ export const Header = () => {
       {/* Menu mobile */}
       <nav className={`header-nav-mobile ${isMenuOpen ? 'active' : ''}`}>
         <div className="mobile-nav-content">
+          <div className="mobile-menu-head">
+            <span>Menu</span>
+            <strong>{platformName}</strong>
+          </div>
+
+          <div className="mobile-nav-quick" aria-label="Raccourcis principaux">
+            {mobilePrimaryNavItems.map((item) => {
+              const isActive = location.pathname === item.to
+              return (
+                <Link
+                  key={`${item.to}-${item.label}`}
+                  to={item.to}
+                  className={`mobile-quick-link ${isActive ? 'active' : ''}`}
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  <span className={item.icon} />
+                  <strong>{item.label}</strong>
+                  <small>{item.hint}</small>
+                </Link>
+              )
+            })}
+          </div>
+
+          <div className="mobile-nav-section-label">Essentiel</div>
           {mainNavItems.map((item) => {
             const isActive = location.pathname === item.to
             return (
@@ -277,6 +324,8 @@ export const Header = () => {
           })}
           
           <div className="mobile-nav-divider" />
+
+          <div className="mobile-nav-section-label">Ressources</div>
           
           {secondaryNavItems.map((item) => {
             const isActive = location.pathname === item.to
@@ -311,6 +360,14 @@ export const Header = () => {
               >
                 <span className="icon-users" />
                 <span>Communautés</span>
+              </Link>
+              <Link
+                to="/cart"
+                className="mobile-nav-link"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                <span className="icon-shopping" />
+                <span>Panier{itemCount > 0 ? ` (${itemCount})` : ''}</span>
               </Link>
               {user?.role === 'admin' && (
                 <Link

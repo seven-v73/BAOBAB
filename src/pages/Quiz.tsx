@@ -6,6 +6,7 @@ import { Button } from '../components/Button/Button'
 import { quizService } from '../services/api'
 import { useAuthStore } from '../stores/authStore'
 import { useNotifications } from '../hooks/useNotifications'
+import { useConfirmDialog } from '../components/UX/ConfirmDialog'
 import './Quiz.css'
 
 interface Question {
@@ -49,6 +50,7 @@ export const Quiz = () => {
   const navigate = useNavigate()
   const { isAuthenticated } = useAuthStore()
   const { success, showError } = useNotifications()
+  const { confirm, Dialog } = useConfirmDialog()
   const [quiz, setQuiz] = useState<Quiz | null>(null)
   const [loading, setLoading] = useState(true)
   const [answers, setAnswers] = useState<any[]>([])
@@ -56,7 +58,7 @@ export const Quiz = () => {
   const [timeRemaining, setTimeRemaining] = useState<number | null>(null)
   const [results, setResults] = useState<QuizResult | null>(null)
   const [isSubmitted, setIsSubmitted] = useState(false)
-  const [selectedOption, setSelectedOption] = useState<number | null>(null)
+  const [selectedOption, setSelectedOption] = useState<number | boolean | null>(null)
   const [showFeedback, setShowFeedback] = useState(false)
 
   useEffect(() => {
@@ -136,9 +138,12 @@ export const Quiz = () => {
     }
 
     if (answers.some(a => a === null)) {
-      if (!confirm('Certaines questions n\'ont pas de réponse. Voulez-vous continuer ?')) {
-        return
-      }
+      const accepted = await confirm({
+        title: 'Soumettre maintenant ?',
+        message: 'Certaines questions sont encore sans réponse. Vous pouvez continuer ou revenir les compléter.',
+        confirmLabel: 'Soumettre',
+      })
+      if (!accepted) return
     }
 
     try {
@@ -437,7 +442,7 @@ export const Quiz = () => {
           </div>
         )}
       </div>
+      {Dialog}
     </Layout>
   )
 }
-

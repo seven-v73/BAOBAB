@@ -166,17 +166,21 @@
 
 .achievements-list li {
   padding: 0.75rem 0;
-  padding-left: 1.5rem;
+  padding-left: 1rem;
   position: relative;
   color: var(--color-text);
 }
 
 .achievements-list li::before {
-  content: '✓';
+  content: '';
   position: absolute;
   left: 0;
+  top: 1.35rem;
+  width: 0.35rem;
+  height: 0.35rem;
+  border-radius: 999px;
+  background: currentColor;
   color: var(--color-primary);
-  font-weight: bold;
 }
 
 .quotes-list {
@@ -238,4 +242,3 @@
     height: 300px;
   }
 }
-

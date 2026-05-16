@@ -7,7 +7,12 @@ import { MembersTab } from '../components/Community/MembersTab'
 import { SettingsTab } from '../components/Community/SettingsTab'
 import { communityService } from '../services/api'
 import { useAuthStore } from '../stores/authStore'
-import { Users, Settings, UserPlus, Mail, Lock, Globe } from 'lucide-react'
+import { useNotifications } from '../hooks/useNotifications'
+import { Breadcrumbs } from '../components/UX/Breadcrumbs'
+import { EmptyState } from '../components/UX/EmptyState'
+import { Skeleton } from '../components/UX/Skeleton'
+import { useConfirmDialog } from '../components/UX/ConfirmDialog'
+import { Users, Settings, Mail, Lock, Globe } from 'lucide-react'
 import './CommunityDetail.css'
 
 interface Community {
@@ -26,6 +31,11 @@ interface Community {
   memberCount: number
   postCount: number
   tags: string[]
+  settings?: {
+    allowMemberPosts: boolean
+    requireApproval: boolean
+    allowInvitations: boolean
+  }
   membership?: {
     role: string
     status: string
@@ -49,18 +59,20 @@ interface Post {
   tags: string[]
   category: string
   createdAt: string
+  updatedAt?: string
 }
 
 export const CommunityDetail = () => {
   const { id } = useParams<{ id: string }>()
   const navigate = useNavigate()
   const { user } = useAuthStore()
+  const { success, error: showError, info } = useNotifications()
+  const { confirm, Dialog } = useConfirmDialog()
   const [community, setCommunity] = useState<Community | null>(null)
   const [posts, setPosts] = useState<Post[]>([])
   const [loading, setLoading] = useState(true)
   const [loadingPosts, setLoadingPosts] = useState(false)
   const [error, setError] = useState<string | null>(null)
-  const [showForm, setShowForm] = useState(false)
   const [activeTab, setActiveTab] = useState<'posts' | 'members' | 'settings'>('posts')
 
   useEffect(() => {
@@ -113,19 +125,28 @@ export const CommunityDetail = () => {
     if (!id) return
     try {
       await communityService.joinCommunity(id)
+      success('Vous avez rejoint la communauté.')
       fetchCommunity()
     } catch (err: any) {
-      alert(err.response?.data?.error || 'Erreur lors de la demande d\'adhésion')
+      showError(err.response?.data?.error || 'Erreur lors de la demande d’adhésion')
     }
   }
 
   const handleLeave = async () => {
-    if (!id || !confirm('Êtes-vous sûr de vouloir quitter cette communauté ?')) return
+    if (!id) return
+    const accepted = await confirm({
+      title: 'Quitter cette communauté ?',
+      message: 'Vous pourrez la rejoindre plus tard si elle reste publique.',
+      confirmLabel: 'Quitter',
+      tone: 'danger',
+    })
+    if (!accepted) return
     try {
       await communityService.leaveCommunity(id)
+      success('Vous avez quitté la communauté.')
       navigate('/communities')
     } catch (err: any) {
-      alert(err.response?.data?.error || 'Erreur lors de la sortie')
+      showError(err.response?.data?.error || 'Erreur lors de la sortie')
     }
   }
 
@@ -137,10 +158,10 @@ export const CommunityDetail = () => {
         communityId: id,
       })
       setPosts(prev => [response.data, ...prev])
-      setShowForm(false)
+      success('Votre post est publié.')
     } catch (err: any) {
       console.error('Erreur création post:', err)
-      alert(err.response?.data?.error || 'Erreur lors de la création du post')
+      showError(err.response?.data?.error || 'Erreur lors de la création du post')
     }
   }
 
@@ -158,27 +179,34 @@ export const CommunityDetail = () => {
   }
 
   const handleDelete = async (postId: string) => {
-    if (!confirm('Êtes-vous sûr de vouloir supprimer ce post ?')) return
+    const accepted = await confirm({
+      title: 'Supprimer ce post ?',
+      message: 'Cette action retire le post de la communauté.',
+      confirmLabel: 'Supprimer',
+      tone: 'danger',
+    })
+    if (!accepted) return
     try {
       await communityService.deletePost(postId)
       setPosts(prev => prev.filter(post => post._id !== postId))
+      success('Post supprimé.')
     } catch (err: any) {
-      alert(err.response?.data?.error || 'Erreur lors de la suppression')
+      showError(err.response?.data?.error || 'Erreur lors de la suppression')
     }
   }
 
   // Le créateur a toujours accès même sans membership (au cas où)
   const isCreator = user && (community?.creator?._id === user.id || community?.creator?._id?.toString() === user.id)
-  const isMember = community?.membership?.status === 'active' || isCreator
-  const isAdmin = (community?.membership?.role && ['owner', 'admin', 'moderator'].includes(community.membership.role)) || isCreator
-  const isOwner = (community?.membership?.role === 'owner') || isCreator
+  const isMember = Boolean(community?.membership?.status === 'active' || isCreator)
+  const isAdmin = Boolean((community?.membership?.role && ['owner', 'admin', 'moderator'].includes(community.membership.role)) || isCreator)
+  const isOwner = Boolean((community?.membership?.role === 'owner') || isCreator)
   // Seuls le propriétaire et les admins peuvent accéder aux paramètres
-  const canManageSettings = (community?.membership?.role && ['owner', 'admin'].includes(community.membership.role)) || isCreator
+  const canManageSettings = Boolean((community?.membership?.role && ['owner', 'admin'].includes(community.membership.role)) || isCreator)
 
   if (loading) {
     return (
       <Layout>
-        <div className="loading">Chargement de la communauté...</div>
+        <Skeleton variant="dashboard" label="Chargement de la communauté" />
       </Layout>
     )
   }
@@ -194,6 +222,7 @@ export const CommunityDetail = () => {
   return (
     <Layout>
       <div className="community-detail-page">
+        <Breadcrumbs items={[{ label: 'Communautés', to: '/communities' }, { label: community.name }]} />
         {/* Header de la communauté */}
         <div className="community-detail-header">
           {community.coverImage && (
@@ -260,7 +289,7 @@ export const CommunityDetail = () => {
               ) : (
                 <button
                   className="btn btn-outline"
-                  onClick={() => alert('Cette communauté est privée. Une invitation est requise.')}
+                  onClick={() => info('Cette communauté est privée. Une invitation est requise pour y accéder.')}
                 >
                   <Mail size={18} />
                   Demander l'accès
@@ -310,29 +339,19 @@ export const CommunityDetail = () => {
         {activeTab === 'posts' && (
           <div className="community-posts-section">
             {isMember && (
-              <div className="community-actions">
-                <button
-                  className="btn btn-primary"
-                  onClick={() => setShowForm(!showForm)}
-                >
-                  {showForm ? 'Annuler' : '+ Nouveau Post'}
-                </button>
-              </div>
-            )}
-
-            {showForm && isMember && (
               <PostForm
                 onSubmit={handleCreatePost}
-                onCancel={() => setShowForm(false)}
+                placeholder={`Écrire dans ${community.name}...`}
               />
             )}
 
             {loadingPosts ? (
-              <div className="loading">Chargement des posts...</div>
+              <Skeleton variant="cards" count={3} label="Chargement des posts" />
             ) : posts.length === 0 ? (
-              <div className="empty-state">
-                <p>Aucun post pour le moment. Soyez le premier à partager !</p>
-              </div>
+              <EmptyState
+                title="Aucun post pour le moment"
+                description={isMember ? 'Ouvrez la conversation avec une question, une ressource ou un souvenir.' : 'Rejoignez la communauté pour participer aux échanges.'}
+              />
             ) : (
               <div className="posts-list">
                 {posts.map(post => (
@@ -360,14 +379,21 @@ export const CommunityDetail = () => {
 
         {activeTab === 'settings' && canManageSettings && community && (
           <SettingsTab
-            community={community}
+            community={{
+              ...community,
+              settings: community.settings || {
+                allowMemberPosts: true,
+                requireApproval: false,
+                allowInvitations: true,
+              },
+            }}
             isOwner={isOwner}
             canManageSettings={canManageSettings}
             onUpdate={fetchCommunity}
           />
         )}
+        {Dialog}
       </div>
     </Layout>
   )
 }
-

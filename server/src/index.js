@@ -47,12 +47,6 @@ import { nosqlInjectionProtection, validateMongoIds } from './middleware/nosqlIn
 
 const app = express()
 
-// Connexion à MongoDB
-connectDB().catch((error) => {
-  logger.error('❌ Erreur de connexion à MongoDB:', error)
-  process.exit(1)
-})
-
 // Connexion à Redis (optionnel)
 initRedis().catch((error) => {
   logger.warn('⚠️  Redis non disponible - Le cache est désactivé:', error.message)
@@ -81,7 +75,10 @@ app.use(helmet({
   crossOriginEmbedderPolicy: false, // Peut causer des problèmes avec certaines intégrations
   crossOriginResourcePolicy: { policy: "cross-origin" }
 }))
-app.use(cors())
+app.use(cors({
+  origin: env.CORS_ORIGIN || false,
+  credentials: true,
+}))
 
 // Body parser
 app.use(express.json({ limit: '10mb' }))
@@ -96,15 +93,15 @@ app.use('/api/', apiLimiter)
 // Documentation Swagger
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec, {
   customCss: '.swagger-ui .topbar { display: none }',
-  customSiteTitle: 'BAOBAB API Documentation'
+  customSiteTitle: 'MonBaobab API Documentation'
 }))
 
 // Route racine
 app.get('/', (req, res) => {
   res.json({
-    name: 'BAOBAB API',
+    name: 'MonBaobab API',
     version: '1.0.0',
-    description: 'API complète pour la plateforme BAOBAB - Découvrez et promouvez les valeurs, l\'histoire et les produits de l\'Afrique',
+    description: 'API complète pour la plateforme MonBaobab - Découvrez et promouvez les valeurs, l\'histoire et les produits de l\'Afrique',
     status: 'OK',
     timestamp: new Date().toISOString(),
     endpoints: {
@@ -134,7 +131,7 @@ app.get('/', (req, res) => {
 
 // Routes
 app.get('/api/health', (req, res) => {
-  res.json({ status: 'OK', message: 'BAOBAB API is running', timestamp: new Date().toISOString() })
+  res.json({ status: 'OK', message: 'MonBaobab API is running', timestamp: new Date().toISOString() })
 })
 
 // Routes avec rate limiting spécifique pour l'auth
@@ -175,9 +172,16 @@ app.use(notFoundHandler)
 // Gestionnaire d'erreurs global
 app.use(errorHandler)
 
-app.listen(env.PORT, () => {
-  logger.info(`🚀 Server running on http://localhost:${env.PORT}`)
-  logger.info(`📚 API Documentation: http://localhost:${env.PORT}/api-docs`)
-  logger.info(`🌍 Environment: ${env.NODE_ENV}`)
-})
+try {
+  await connectDB()
 
+  app.listen(env.PORT, () => {
+    logger.info(`🚀 Server running on http://localhost:${env.PORT}`)
+    logger.info(`📚 API Documentation: http://localhost:${env.PORT}/api-docs`)
+    logger.info(`🌍 Environment: ${env.NODE_ENV}`)
+  })
+} catch (error) {
+  logger.error(`❌ Impossible de démarrer le serveur: ${error.message}`)
+  logger.error('💡 Démarrez MongoDB localement ou configurez MONGODB_URI dans server/.env')
+  process.exit(1)
+}

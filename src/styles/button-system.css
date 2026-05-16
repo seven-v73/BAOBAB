@@ -1,0 +1,366 @@
+/*
+  Button contract.
+  Loaded after page CSS so buttons keep a consistent premium feel and remain
+  readable in both themes, including lazy-loaded pages.
+*/
+
+:root,
+[data-theme='dark'] {
+  --button-primary-bg: linear-gradient(135deg, #f0d16f 0%, #c99a2e 48%, #9f6b17 100%);
+  --button-primary-text: #161009;
+  --button-primary-border: rgba(255, 224, 128, 0.46);
+  --button-primary-shadow: 0 14px 30px rgba(201, 154, 46, 0.24);
+  --button-secondary-bg: rgba(255, 250, 240, 0.08);
+  --button-secondary-bg-hover: rgba(255, 250, 240, 0.13);
+  --button-secondary-text: rgba(255, 250, 240, 0.9);
+  --button-secondary-border: rgba(255, 250, 240, 0.2);
+  --button-ghost-bg: rgba(255, 250, 240, 0.04);
+  --button-focus: rgba(240, 209, 111, 0.34);
+  --button-danger-bg: rgba(239, 68, 68, 0.14);
+  --button-danger-text: #fecaca;
+  --button-danger-border: rgba(239, 68, 68, 0.38);
+}
+
+[data-theme='light'] {
+  --button-primary-bg: linear-gradient(135deg, #10251f 0%, #174839 52%, #0f6a51 100%);
+  --button-primary-text: #fffaf0;
+  --button-primary-border: rgba(16, 76, 58, 0.34);
+  --button-primary-shadow: 0 14px 30px rgba(15, 76, 58, 0.22);
+  --button-secondary-bg: rgba(255, 252, 245, 0.94);
+  --button-secondary-bg-hover: #ffffff;
+  --button-secondary-text: #1e211d;
+  --button-secondary-border: rgba(16, 20, 18, 0.18);
+  --button-ghost-bg: rgba(16, 76, 58, 0.07);
+  --button-focus: rgba(15, 76, 58, 0.22);
+  --button-danger-bg: rgba(190, 43, 43, 0.1);
+  --button-danger-text: #7a1b1b;
+  --button-danger-border: rgba(190, 43, 43, 0.3);
+}
+
+:where(
+  .btn,
+  .auth-link,
+  .auth-button,
+  .auth-link-button,
+  .auth-link-primary,
+  .filter-btn,
+  .tab-btn,
+  .form-tab,
+  .checkout-button,
+  .checkout-submit,
+  .clear-button,
+  .back-button,
+  .popup-button,
+  .comment-submit-btn,
+  .bookmark-btn,
+  .share-button,
+  .share-option,
+  .quick-action-btn,
+  .clear-filters-btn,
+  .blog-post-view-button,
+  .logout-btn,
+  .close-btn,
+  .image-modal-close,
+  .product-footer button,
+  .form-actions button,
+  .navigation-buttons button,
+  .country-actions button,
+  .role-menu button,
+  button[type='submit'],
+  button:not([type]):not(.menu-toggle):not(.theme-toggle):not(.country-shape),
+  button[type='button']:not(.menu-toggle):not(.theme-toggle):not(.country-shape)
+) {
+  appearance: none;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  min-height: 42px;
+  min-width: max-content;
+  max-width: 100%;
+  padding: 0.72rem 1.05rem;
+  border: 1px solid var(--button-secondary-border);
+  border-radius: 8px;
+  background: var(--button-secondary-bg);
+  color: var(--button-secondary-text) !important;
+  font: inherit;
+  font-size: 0.94rem;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: 0;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    background 0.18s ease,
+    border-color 0.18s ease,
+    color 0.18s ease,
+    opacity 0.18s ease;
+}
+
+:where(
+  .btn,
+  .auth-link,
+  .auth-button,
+  .auth-link-button,
+  .auth-link-primary,
+  .filter-btn,
+  .tab-btn,
+  .form-tab,
+  .checkout-button,
+  .checkout-submit,
+  .clear-button,
+  .back-button,
+  .popup-button,
+  .comment-submit-btn,
+  .bookmark-btn,
+  .share-button,
+  .share-option,
+  .quick-action-btn,
+  .clear-filters-btn,
+  .blog-post-view-button,
+  .logout-btn,
+  .close-btn,
+  .image-modal-close,
+  .product-footer button,
+  .form-actions button,
+  .navigation-buttons button,
+  .country-actions button,
+  .role-menu button,
+  button[type='submit'],
+  button:not([type]):not(.menu-toggle):not(.theme-toggle):not(.country-shape),
+  button[type='button']:not(.menu-toggle):not(.theme-toggle):not(.country-shape)
+) :where(span, strong, small) {
+  color: inherit !important;
+}
+
+:where(
+  .btn:hover:not(:disabled),
+  .auth-link:hover,
+  .auth-button:hover:not(:disabled),
+  .auth-link-button:hover,
+  .filter-btn:hover:not(:disabled),
+  .tab-btn:hover:not(:disabled),
+  .form-tab:hover:not(:disabled),
+  .clear-button:hover:not(:disabled),
+  .back-button:hover:not(:disabled),
+  .popup-button:hover:not(:disabled),
+  .comment-submit-btn:hover:not(:disabled),
+  .bookmark-btn:hover:not(:disabled),
+  .share-button:hover:not(:disabled),
+  .share-option:hover:not(:disabled),
+  .quick-action-btn:hover:not(:disabled),
+  .clear-filters-btn:hover:not(:disabled),
+  .blog-post-view-button:hover:not(:disabled),
+  .logout-btn:hover:not(:disabled),
+  .close-btn:hover:not(:disabled),
+  .image-modal-close:hover:not(:disabled),
+  .product-footer button:hover:not(:disabled),
+  .form-actions button:hover:not(:disabled),
+  .navigation-buttons button:hover:not(:disabled),
+  .country-actions button:hover:not(:disabled),
+  .role-menu button:hover:not(:disabled),
+  button:not([type]):not(.menu-toggle):not(.theme-toggle):not(.country-shape):hover:not(:disabled),
+  button[type='button']:not(.menu-toggle):not(.theme-toggle):not(.country-shape):hover:not(:disabled)
+) {
+  transform: translateY(-1px);
+  background: var(--button-secondary-bg-hover);
+  border-color: color-mix(in srgb, var(--color-gold) 62%, var(--button-secondary-border));
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12);
+}
+
+:where(
+  .btn:active:not(:disabled),
+  .auth-link:active,
+  .auth-button:active:not(:disabled),
+  .filter-btn:active:not(:disabled),
+  .tab-btn:active:not(:disabled),
+  .form-tab:active:not(:disabled),
+  .product-footer button:active:not(:disabled),
+  button[type='submit']:active:not(:disabled),
+  button:not([type]):not(.menu-toggle):not(.theme-toggle):not(.country-shape):active:not(:disabled),
+  button[type='button']:not(.menu-toggle):not(.theme-toggle):not(.country-shape):active:not(:disabled)
+) {
+  transform: translateY(0);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+:where(
+  .btn-primary,
+  .auth-button,
+  .auth-link-primary,
+  .checkout-button,
+  .checkout-submit,
+  .comment-submit-btn,
+  .popup-button,
+  .blog-post-view-button,
+  .product-footer button,
+  .form-actions button[type='submit'],
+  button[type='submit']
+) {
+  background: var(--button-primary-bg) !important;
+  color: var(--button-primary-text) !important;
+  border-color: var(--button-primary-border) !important;
+  box-shadow: var(--button-primary-shadow);
+}
+
+:where(
+  .btn-primary:hover:not(:disabled),
+  .auth-button:hover:not(:disabled),
+  .auth-link-primary:hover,
+  .checkout-button:hover:not(:disabled),
+  .checkout-submit:hover:not(:disabled),
+  .comment-submit-btn:hover:not(:disabled),
+  .popup-button:hover:not(:disabled),
+  .blog-post-view-button:hover:not(:disabled),
+  .product-footer button:hover:not(:disabled),
+  .form-actions button[type='submit']:hover:not(:disabled),
+  button[type='submit']:hover:not(:disabled)
+) {
+  filter: saturate(1.05) brightness(1.03);
+  box-shadow: 0 18px 38px rgba(0, 0, 0, 0.18), var(--button-primary-shadow);
+}
+
+:where(
+  .btn-secondary,
+  .btn-outline,
+  .auth-link-button,
+  .filter-btn,
+  .tab-btn,
+  .form-tab,
+  .back-button,
+  .clear-button,
+  .clear-filters-btn,
+  .share-option,
+  .quick-action-btn,
+  .logout-btn,
+  .navigation-buttons button
+) {
+  background: var(--button-secondary-bg) !important;
+  color: var(--button-secondary-text) !important;
+  border-color: var(--button-secondary-border) !important;
+}
+
+:where(
+  .btn-outline,
+  .filter-btn,
+  .tab-btn,
+  .form-tab,
+  .back-button,
+  .navigation-buttons button
+) {
+  box-shadow: none;
+}
+
+:where(
+  .filter-btn.active,
+  .tab-btn.active,
+  .form-tab.active,
+  .dashboard-nav-item.active,
+  .btn.active
+) {
+  background: var(--button-primary-bg) !important;
+  color: var(--button-primary-text) !important;
+  border-color: var(--button-primary-border) !important;
+  box-shadow: var(--button-primary-shadow);
+}
+
+:where(
+  .btn-danger,
+  .delete-btn,
+  .remove-btn,
+  .ban,
+  .clear-button,
+  .role-menu button.transfer-ownership
+) {
+  background: var(--button-danger-bg) !important;
+  color: var(--button-danger-text) !important;
+  border-color: var(--button-danger-border) !important;
+}
+
+:where(
+  .btn-icon,
+  .close-button,
+  .icon-button,
+  .media-action,
+  .quantity-btn,
+  .country-actions button,
+  .close-btn,
+  .image-modal-close,
+  .nav-more-btn,
+  .header-search-toggle,
+  .mobile-menu-close
+) {
+  width: 42px;
+  min-width: 42px;
+  height: 42px;
+  min-height: 42px;
+  padding: 0;
+  border-radius: 8px;
+}
+
+:where(.btn-small, .btn-sm) {
+  min-height: 36px;
+  padding: 0.5rem 0.8rem;
+  font-size: 0.85rem;
+}
+
+:where(.btn-medium, .btn-md) {
+  min-height: 42px;
+  padding: 0.72rem 1.05rem;
+  font-size: 0.94rem;
+}
+
+:where(.btn-large, .btn-lg, .auth-button, .checkout-button, .checkout-submit) {
+  min-height: 52px;
+  padding: 0.9rem 1.35rem;
+  font-size: 1rem;
+}
+
+:where(button, .btn, .auth-link, .filter-btn, .tab-btn, .form-tab):focus-visible {
+  outline: 3px solid var(--button-focus) !important;
+  outline-offset: 3px;
+}
+
+:where(
+  button:disabled,
+  .btn:disabled,
+  .auth-button:disabled,
+  .filter-btn:disabled,
+  .tab-btn:disabled,
+  .form-tab:disabled,
+  button:not([type]):disabled
+) {
+  opacity: 0.52;
+  cursor: not-allowed;
+  transform: none !important;
+  filter: grayscale(0.15);
+  box-shadow: none !important;
+}
+
+:where(.menu-toggle, .theme-toggle, .country-shape) {
+  box-shadow: none;
+}
+
+@media (max-width: 520px) {
+  :where(
+    .btn,
+    .auth-link,
+    .auth-button,
+    .filter-btn,
+    .tab-btn,
+    .form-tab,
+    .checkout-button,
+    .checkout-submit,
+    .product-footer button,
+    .form-actions button
+  ) {
+    min-width: 0;
+    white-space: normal;
+  }
+}

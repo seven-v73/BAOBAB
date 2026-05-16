@@ -1,0 +1,405 @@
+/* Final polish layer: depth, rhythm and calmer interaction states. */
+
+:root {
+  --polish-radius: 10px;
+  --polish-border: color-mix(in srgb, var(--color-border) 76%, transparent);
+  --polish-surface: color-mix(in srgb, var(--color-bg-card) 92%, transparent);
+  --polish-surface-strong: color-mix(in srgb, var(--color-bg-card) 98%, var(--color-bg-light));
+  --polish-shadow: 0 12px 34px color-mix(in srgb, #000 13%, transparent);
+  --polish-shadow-hover: 0 18px 46px color-mix(in srgb, #000 17%, transparent);
+}
+
+html {
+  scrollbar-gutter: stable;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-primary) 28%, transparent);
+  color: var(--color-text);
+}
+
+:where(.layout-main, .app-main) {
+  isolation: isolate;
+}
+
+:where(.layout-main) {
+  width: min(100%, 1480px);
+  margin-inline: auto;
+}
+
+:where(
+  .card,
+  .product-card,
+  .blog-card,
+  .collection-card,
+  .story-card,
+  .quiz-card,
+  .proverb-card,
+  .community-card,
+  .figure-card,
+  .timeline-card,
+  .timeline-event-card,
+  .post-card,
+  .order-card,
+  .favorite-card,
+  .wishlist-card,
+  .bookmark-card,
+  .my-blog-card,
+  .my-product-card,
+  .stat-card,
+  .profile-card,
+  .settings-card,
+  .country-card-admin,
+  .product-card-admin,
+  .user-card-admin,
+  .community-request-card,
+  .admin-post-card,
+  .collection-item-card
+) {
+  position: relative;
+  min-width: 0;
+  border-color: var(--polish-border) !important;
+  background:
+    linear-gradient(180deg, color-mix(in srgb, #ffffff 4%, transparent), transparent 42%),
+    var(--polish-surface) !important;
+  box-shadow: var(--polish-shadow) !important;
+  transform: translateZ(0);
+  transition:
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    transform 180ms ease,
+    background 180ms ease;
+}
+
+:where(
+  .card,
+  .product-card,
+  .blog-card,
+  .collection-card,
+  .story-card,
+  .quiz-card,
+  .proverb-card,
+  .community-card,
+  .figure-card,
+  .timeline-card,
+  .timeline-event-card,
+  .post-card,
+  .order-card,
+  .favorite-card,
+  .wishlist-card,
+  .bookmark-card,
+  .my-blog-card,
+  .my-product-card,
+  .stat-card,
+  .profile-card,
+  .settings-card,
+  .country-card-admin,
+  .product-card-admin,
+  .user-card-admin,
+  .community-request-card,
+  .admin-post-card,
+  .collection-item-card
+):hover {
+  border-color: color-mix(in srgb, var(--color-primary) 34%, var(--polish-border)) !important;
+  box-shadow: var(--polish-shadow-hover) !important;
+}
+
+:where(
+  .product-card,
+  .blog-card,
+  .collection-card,
+  .story-card,
+  .quiz-card,
+  .proverb-card,
+  .community-card,
+  .figure-card,
+  .timeline-card,
+  .timeline-event-card,
+  .post-card
+):hover {
+  transform: translateY(-3px);
+}
+
+:where(img) {
+  max-width: 100%;
+}
+
+:where(.product-image, .community-cover, .blog-card-image, .story-image, .collection-cover, .figure-image, .gallery-image-wrapper) {
+  background: color-mix(in srgb, var(--color-bg-light) 70%, #000 5%);
+}
+
+:where(.product-image img, .community-cover img, .blog-card-image img, .story-image img, .collection-cover img, .figure-image img, .gallery-image-wrapper img) {
+  transition: transform 240ms ease, filter 240ms ease;
+}
+
+:where(.product-card, .community-card, .blog-card, .story-card, .collection-card, .figure-card):hover :where(img) {
+  filter: saturate(1.02) contrast(1.02);
+}
+
+:where(.tag, .badge, .category-badge, .theme-tag, .blog-tag, .role-tag, .status-badge, .order-status-badge, .bookmark-type-badge, .request-status, .request-type) {
+  min-height: 28px;
+  border: 1px solid color-mix(in srgb, currentColor 18%, transparent);
+  border-radius: 999px !important;
+  font-weight: 740;
+  line-height: 1.2;
+  white-space: normal;
+}
+
+:where(.loading, .shop-loading, .blog-loading, .collections-loading, .timeline-loading, .figures-loading, .collection-detail-loading, .figure-detail-loading, .dashboard-loading, .admin-loading, .comments-loading, .search-loading, .map-loading, .media-loading) {
+  display: grid;
+  place-items: center;
+  min-height: 220px;
+  padding: 2rem;
+  border: 1px solid var(--polish-border);
+  border-radius: var(--polish-radius);
+  background:
+    linear-gradient(90deg, transparent, color-mix(in srgb, var(--color-primary) 7%, transparent), transparent),
+    var(--polish-surface);
+  color: var(--color-text-muted);
+}
+
+:where(.empty-state, .admin-empty-state, .shop-empty, .blog-empty, .collections-empty, .timeline-empty, .stories-empty, .quizzes-empty, .proverbs-empty) {
+  border: 1px dashed color-mix(in srgb, var(--color-primary) 30%, var(--polish-border));
+  border-radius: var(--polish-radius);
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--color-primary) 5%, transparent), transparent),
+    var(--polish-surface);
+  box-shadow: var(--polish-shadow);
+}
+
+:where(.empty-state p, .admin-empty-state p) {
+  max-width: 42rem;
+  margin-inline: auto;
+  color: var(--color-text-muted);
+}
+
+:where(.admin-table-container, .table-container, .orders-table-container) {
+  border: 1px solid var(--polish-border);
+  border-radius: var(--polish-radius);
+  background: var(--polish-surface);
+  box-shadow: var(--polish-shadow);
+}
+
+:where(table, .admin-table, .orders-table, .data-table) {
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+}
+
+:where(th, .admin-table th, .orders-table th, .data-table th) {
+  background: color-mix(in srgb, var(--color-bg-light) 78%, var(--color-bg-card)) !important;
+  color: var(--color-text) !important;
+  font-size: 0.78rem;
+  font-weight: 820;
+  letter-spacing: 0.015em;
+}
+
+:where(td, .admin-table td, .orders-table td, .data-table td) {
+  border-color: color-mix(in srgb, var(--color-border) 54%, transparent) !important;
+}
+
+:where(tr):hover > :where(td) {
+  background: color-mix(in srgb, var(--color-primary) 5%, transparent);
+}
+
+:where(.notification) {
+  border-radius: var(--polish-radius);
+  border: 1px solid var(--polish-border);
+  background: var(--polish-surface-strong);
+  box-shadow: 0 18px 48px color-mix(in srgb, #000 24%, transparent);
+}
+
+:where(.notification-message) {
+  line-height: 1.45;
+}
+
+:where(.modal-content, .blog-post-modal-content, .image-modal-content, .pdf-modal, .video-modal) {
+  border-radius: var(--polish-radius);
+  border: 1px solid var(--polish-border);
+  background: var(--polish-surface-strong);
+  box-shadow: 0 26px 90px color-mix(in srgb, #000 34%, transparent);
+}
+
+:where(.header, .nav-dropdown, .user-dropdown, .header-search-expanded, .mobile-menu-panel) {
+  border-color: var(--polish-border) !important;
+  box-shadow: 0 14px 44px color-mix(in srgb, #000 18%, transparent) !important;
+}
+
+[data-theme='light'] :where(
+  .page-header,
+  .blog-header,
+  .shop-header,
+  .cart-header,
+  .checkout-header,
+  .map-page-header,
+  .timeline-header,
+  .figures-header,
+  .collections-header,
+  .stories-header,
+  .quizzes-header,
+  .proverbs-header,
+  .communities-header,
+  .community-header,
+  .dashboard-header,
+  .search-header
+) :where(h1, h2),
+[data-theme='dark'] :where(
+  .page-header,
+  .blog-header,
+  .shop-header,
+  .cart-header,
+  .checkout-header,
+  .map-page-header,
+  .timeline-header,
+  .figures-header,
+  .collections-header,
+  .stories-header,
+  .quizzes-header,
+  .proverbs-header,
+  .communities-header,
+  .community-header,
+  .dashboard-header,
+  .search-header
+) :where(h1, h2) {
+  color: #fffaf0 !important;
+  -webkit-text-fill-color: #fffaf0 !important;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.34);
+}
+
+[data-theme='light'] :where(
+  .page-header,
+  .blog-header,
+  .shop-header,
+  .cart-header,
+  .checkout-header,
+  .map-page-header,
+  .timeline-header,
+  .figures-header,
+  .collections-header,
+  .stories-header,
+  .quizzes-header,
+  .proverbs-header,
+  .communities-header,
+  .community-header,
+  .dashboard-header,
+  .search-header
+) :where(p, span),
+[data-theme='dark'] :where(
+  .page-header,
+  .blog-header,
+  .shop-header,
+  .cart-header,
+  .checkout-header,
+  .map-page-header,
+  .timeline-header,
+  .figures-header,
+  .collections-header,
+  .stories-header,
+  .quizzes-header,
+  .proverbs-header,
+  .communities-header,
+  .community-header,
+  .dashboard-header,
+  .search-header
+) :where(p, span) {
+  color: rgba(255, 250, 240, 0.82) !important;
+  -webkit-text-fill-color: rgba(255, 250, 240, 0.82) !important;
+}
+
+:where(a, button, .btn, input, textarea, select, [role='button']):focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--color-primary) 36%, transparent) !important;
+  outline-offset: 3px;
+}
+
+:where(.btn, button, .nav-link, .mobile-nav-link, .form-tab, .filter-btn, .tab-btn) {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:where(.btn, button):active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+:where(.admin-dashboard, .dashboard, .create-community-page) :where(.form-actions, .quiz-form-footer) {
+  position: sticky;
+  bottom: 0.75rem;
+  z-index: 5;
+  margin-top: 1.25rem;
+  padding: 0.85rem;
+  border: 1px solid var(--polish-border);
+  border-radius: var(--polish-radius);
+  background: color-mix(in srgb, var(--color-bg-card) 94%, transparent);
+  box-shadow: 0 14px 42px color-mix(in srgb, #000 18%, transparent);
+  backdrop-filter: blur(12px);
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: color-mix(in srgb, var(--color-bg) 82%, #000 8%);
+}
+
+::-webkit-scrollbar-thumb {
+  border: 3px solid color-mix(in srgb, var(--color-bg) 82%, #000 8%);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--color-primary) 52%, var(--color-text-muted));
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: color-mix(in srgb, var(--color-primary) 68%, var(--color-text));
+}
+
+[data-theme='light'] {
+  --polish-border: rgba(74, 55, 37, 0.18);
+  --polish-surface: rgba(255, 252, 246, 0.92);
+  --polish-surface-strong: #fffaf2;
+  --polish-shadow: 0 12px 34px rgba(80, 55, 30, 0.11);
+  --polish-shadow-hover: 0 18px 46px rgba(80, 55, 30, 0.16);
+}
+
+[data-theme='dark'] {
+  --polish-border: rgba(237, 214, 165, 0.18);
+  --polish-surface: rgba(31, 25, 20, 0.78);
+  --polish-surface-strong: #201914;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  :where(
+    .card,
+    .product-card,
+    .blog-card,
+    .collection-card,
+    .story-card,
+    .quiz-card,
+    .proverb-card,
+    .community-card,
+    .figure-card,
+    .timeline-card,
+    .post-card
+  ):hover {
+    transform: none;
+  }
+
+  :where(.loading, .empty-state, .admin-empty-state) {
+    min-height: 170px;
+    padding: 1.25rem;
+  }
+}

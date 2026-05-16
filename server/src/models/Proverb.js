@@ -84,7 +84,10 @@ const proverbSchema = new mongoose.Schema({
 })
 
 // Index pour recherche full-text (sans le champ language pour éviter les conflits avec MongoDB)
-proverbSchema.index({ text: 'text', translation: 'text', explanation: 'text', tags: 'text' }, { default_language: 'none' })
+proverbSchema.index(
+  { text: 'text', translation: 'text', explanation: 'text', tags: 'text' },
+  { default_language: 'none', language_override: 'searchLanguage' }
+)
 
 // Index composés pour les requêtes fréquentes
 proverbSchema.index({ country: 1, category: 1, isFeatured: 1 })
@@ -93,4 +96,3 @@ proverbSchema.index({ countryName: 1, isVerified: 1 })
 const Proverb = mongoose.model('Proverb', proverbSchema)
 
 export default Proverb
-

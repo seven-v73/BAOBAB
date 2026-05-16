@@ -10,14 +10,17 @@ import * as timelineModule from './seedTimeline.js'
 import * as figuresModule from './seedFigures.js'
 import * as storiesModule from './seedStories.js'
 import * as collectionsModule from './seedCollections.js'
+import * as richKnowledgeModule from './seedRichKnowledge.js'
+import * as quizzesModule from './seedQuizzes.js'
+import * as proverbsModule from './seedProverbs.js'
 
 const seedAll = async () => {
   try {
     await connectDB()
-    logger.info('🌱 Début du seed complet de la plateforme BAOBAB...\n')
+    logger.info('🌱 Début du seed complet de la plateforme MonBaobab...\n')
 
     // Exécuter les seeds dans l'ordre
-    logger.info('📅 1/4 - Seed des événements historiques (Timeline)...')
+    logger.info('📅 1/7 - Seed des événements historiques (Timeline)...')
     if (timelineModule.seedTimeline) {
       await timelineModule.seedTimeline()
     } else {
@@ -26,7 +29,7 @@ const seedAll = async () => {
       await seedTimeline()
     }
     
-    logger.info('\n👤 2/4 - Seed des personnages historiques...')
+    logger.info('\n👤 2/7 - Seed des personnages historiques...')
     if (figuresModule.seedFigures) {
       await figuresModule.seedFigures()
     } else {
@@ -34,7 +37,7 @@ const seedAll = async () => {
       await seedFigures()
     }
     
-    logger.info('\n📖 3/4 - Seed des récits historiques...')
+    logger.info('\n📖 3/7 - Seed des récits historiques...')
     if (storiesModule.seedStories) {
       await storiesModule.seedStories()
     } else {
@@ -42,12 +45,27 @@ const seedAll = async () => {
       await seedStories()
     }
     
-    logger.info('\n📚 4/4 - Seed des collections thématiques...')
+    logger.info('\n📚 4/7 - Seed des collections thématiques...')
     if (collectionsModule.seedCollections) {
       await collectionsModule.seedCollections()
     } else {
       const { default: seedCollections } = await import('./seedCollections.js')
       await seedCollections()
+    }
+
+    logger.info('\n🧠 5/7 - Seed des quiz interactifs...')
+    if (quizzesModule.seedQuizzes) {
+      await quizzesModule.seedQuizzes()
+    }
+
+    logger.info('\n💬 6/7 - Seed des proverbes...')
+    if (proverbsModule.seedProverbs) {
+      await proverbsModule.seedProverbs()
+    }
+
+    logger.info('\n🌍 7/7 - Seed enrichi: motivation, savoirs, quiz et proverbes...')
+    if (richKnowledgeModule.seedRichKnowledge) {
+      await richKnowledgeModule.seedRichKnowledge()
     }
 
     logger.info('\n✨ Seed complet terminé avec succès !')
@@ -60,4 +78,3 @@ const seedAll = async () => {
 }
 
 seedAll()
-

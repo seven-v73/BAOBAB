@@ -8,6 +8,7 @@ interface Post {
   _id: string
   author: {
     _id: string
+    id?: string
     name: string
     avatar?: string
   }
@@ -21,7 +22,7 @@ interface Post {
   tags: string[]
   category: string
   createdAt: string
-  updatedAt: string
+  updatedAt?: string
 }
 
 interface PostCardProps {
@@ -169,4 +170,3 @@ export const PostCard = ({ post, currentUserId, onLike, onDelete }: PostCardProp
     </div>
   )
 }
-

@@ -5,11 +5,11 @@ const options = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'BAOBAB API',
+      title: 'MonBaobab API',
       version: '1.0.0',
-      description: 'API complète pour la plateforme BAOBAB - Découvrez et promouvez les valeurs, l\'histoire et les produits de l\'Afrique',
+      description: 'API complète pour la plateforme MonBaobab - Découvrez et promouvez les valeurs, l\'histoire et les produits de l\'Afrique',
       contact: {
-        name: 'Support BAOBAB',
+        name: 'Support MonBaobab',
         email: 'support@baobab.com'
       },
       license: {

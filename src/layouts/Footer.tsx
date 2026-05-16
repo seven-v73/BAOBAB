@@ -9,7 +9,7 @@ export const Footer = () => {
     fetchSettings()
   }, [fetchSettings])
 
-  const platformName = settings?.platformName || 'BAOBAB'
+  const platformName = settings?.platformName || 'MonBaobab'
   const currentYear = new Date().getFullYear()
 
   return (

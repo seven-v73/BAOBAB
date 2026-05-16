@@ -21,6 +21,14 @@ interface PlatformSettings {
     instagram: string
     linkedin: string
   }
+  team: Array<{
+    name: string
+    role: string
+    nationality: string
+    flag: string
+    image: string
+    focus: string
+  }>
 }
 
 interface SettingsState {
@@ -32,7 +40,7 @@ interface SettingsState {
 }
 
 const defaultSettings: PlatformSettings = {
-  platformName: 'BAOBAB',
+  platformName: 'MonBaobab',
   contactEmail: 'contact@baobab.com',
   description: 'Plateforme dédiée à la promotion de la culture africaine',
   notifications: {
@@ -51,6 +59,32 @@ const defaultSettings: PlatformSettings = {
     instagram: '',
     linkedin: '',
   },
+  team: [
+    {
+      name: 'Victoire Sawadogo',
+      role: 'IT Support',
+      nationality: 'Burkina Faso',
+      flag: 'https://flagcdn.com/w80/bf.png',
+      image: '/Equipe/Victoire%20SAWADOGO.jpeg',
+      focus: 'center 38%',
+    },
+    {
+      name: 'Blanchard Kouassi',
+      role: 'Référent Digital et Créateur de Contenu',
+      nationality: 'Côte d’Ivoire',
+      flag: 'https://flagcdn.com/w80/ci.png',
+      image: '/Equipe/Blanchard%20Kouassi.jpeg',
+      focus: 'center 35%',
+    },
+    {
+      name: 'Dieudonné Dara',
+      role: 'Développeur Fullstack et Designer',
+      nationality: 'Mali',
+      flag: 'https://flagcdn.com/w80/ml.png',
+      image: '/Equipe/Dieudonn%C3%A9%20Dara.jpeg',
+      focus: 'center 34%',
+    },
+  ],
 }
 
 export const useSettingsStore = create<SettingsState>((set, get) => ({
@@ -84,6 +118,16 @@ export const useSettingsStore = create<SettingsState>((set, get) => ({
               instagram: response.data.social?.instagram || defaultSettings.social.instagram,
               linkedin: response.data.social?.linkedin || defaultSettings.social.linkedin,
             },
+            team: Array.isArray(response.data.team) && response.data.team.length > 0
+              ? response.data.team.map((member: any) => ({
+                name: member.name || '',
+                role: member.role || '',
+                nationality: member.nationality || '',
+                flag: member.flag || '',
+                image: member.image || '',
+                focus: member.focus || 'center 35%',
+              }))
+              : defaultSettings.team,
           },
           loading: false,
         })
@@ -111,4 +155,3 @@ export const useSettingsStore = create<SettingsState>((set, get) => ({
     }
   },
 }))
-

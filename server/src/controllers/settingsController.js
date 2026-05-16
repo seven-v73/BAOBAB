@@ -17,6 +17,7 @@ export const updateSettings = catchAsync(async (req, res) => {
     notifications,
     maintenance,
     social,
+    team,
   } = req.body
 
   let settings = await Settings.findOne()
@@ -44,6 +45,18 @@ export const updateSettings = catchAsync(async (req, res) => {
     if (social.instagram !== undefined) settings.social.instagram = social.instagram
     if (social.linkedin !== undefined) settings.social.linkedin = social.linkedin
   }
+  if (Array.isArray(team)) {
+    settings.team = team
+      .filter((member) => member?.name)
+      .map((member) => ({
+        name: String(member.name || '').trim(),
+        role: String(member.role || '').trim(),
+        nationality: String(member.nationality || '').trim(),
+        flag: String(member.flag || '').trim(),
+        image: String(member.image || '').trim(),
+        focus: String(member.focus || 'center 35%').trim(),
+      }))
+  }
 
   await settings.save()
 
@@ -51,4 +64,3 @@ export const updateSettings = catchAsync(async (req, res) => {
 
   res.json(settings)
 })
-

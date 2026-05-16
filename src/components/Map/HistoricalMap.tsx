@@ -1,6 +1,7 @@
-import { useEffect, useRef, useState } from 'react'
-import { MapContainer, TileLayer, Marker, Popup, Circle, useMap } from 'react-leaflet'
-import { LatLngExpression, Icon } from 'leaflet'
+import { useEffect, useState } from 'react'
+import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet'
+import { Icon } from 'leaflet'
+import type { LatLngExpression } from 'leaflet'
 import * as L from 'leaflet'
 import { countryService, timelineService } from '../../services/api'
 import 'leaflet/dist/leaflet.css'
@@ -258,4 +259,3 @@ export const HistoricalMap = ({
     </div>
   )
 }
-

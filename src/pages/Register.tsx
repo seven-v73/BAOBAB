@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react'
-import { useNavigate, Link, useSearchParams } from 'react-router-dom'
+import { useMemo, useState, useEffect } from 'react'
+import { useNavigate, Link, Navigate, useSearchParams } from 'react-router-dom'
 import { Layout } from '../components/Layout/Layout'
 import { Card } from '../components/Card/Card'
 import { Input } from '../components/Input/Input'
@@ -8,7 +8,6 @@ import { useAuthStore } from '../stores/authStore'
 import { userService } from '../services/api'
 import { useNotifications } from '../hooks/useNotifications'
 import { usePlatformName } from '../hooks/usePlatformName'
-import { UserPlus, Shield, User, Mail, Lock, UserCircle } from 'lucide-react'
 import './Auth.css'
 
 export const Register = () => {
@@ -17,6 +16,7 @@ export const Register = () => {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [confirmPassword, setConfirmPassword] = useState('')
+  const [showPassword, setShowPassword] = useState(false)
   const [role, setRole] = useState<'user' | 'admin'>('user')
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
@@ -30,26 +30,53 @@ export const Register = () => {
   // Vérifier si c'est un admin qui crée un compte
   const isAdminCreating = isAuthenticated && currentUser?.role === 'admin'
   const isAdminMode = searchParams.get('admin') === 'true' || isAdminCreating
+  const hasMinLength = password.length >= 12
+  const hasUppercase = /[A-ZÀ-Ý]/.test(password)
+  const hasLowercase = /[a-zà-ÿ]/.test(password)
+  const hasNumber = /\d/.test(password)
+  const hasSpecialChar = /[!@#$%^&*()_+\-=[\]{}|;:',.<>?]/.test(password)
+  const passwordScore = useMemo(() => {
+    let score = 0
+    if (password.length >= 12) score += 1
+    if (/[A-ZÀ-Ý]/.test(password)) score += 1
+    if (/[a-zà-ÿ]/.test(password)) score += 1
+    if (/\d/.test(password)) score += 1
+    if (/[!@#$%^&*()_+\-=[\]{}|;:',.<>?]/.test(password)) score += 1
+    return score
+  }, [password])
+
+  const passwordLabel = ['Trop court', 'À renforcer', 'Correct', 'Solide', 'Très solide'][Math.max(0, passwordScore - 1)] || 'Trop court'
 
   useEffect(() => {
     // Si admin mode mais pas connecté, rediriger vers login
     if (searchParams.get('admin') === 'true' && !isAuthenticated) {
-      navigate('/login?redirect=/register?admin=true')
+      navigate(`/login?redirect=${encodeURIComponent('/register?admin=true')}`)
     }
   }, [isAuthenticated, searchParams, navigate])
+
+  if (isAuthenticated && !isAdminMode) {
+    return <Navigate to="/dashboard" replace />
+  }
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setError('')
+    const trimmedName = name.trim()
+    const normalizedEmail = email.trim().toLowerCase()
 
     // Validation
-    if (!name.trim() || !email.trim() || !password) {
-      setError('Tous les champs sont requis')
+    if (!trimmedName || !normalizedEmail || !password) {
+      setError('Renseignez votre nom, votre email et votre mot de passe.')
       return
     }
 
-    if (password.length < 6) {
-      setError('Le mot de passe doit contenir au moins 6 caractères')
+    if (password.length < 12) {
+      setError('Choisissez un mot de passe d’au moins 12 caractères.')
+      return
+    }
+
+    if (!hasUppercase || !hasLowercase || !hasNumber || !hasSpecialChar) {
+      setError('Ajoutez au moins une majuscule, une minuscule, un chiffre et un caractère spécial.')
       return
     }
 
@@ -64,12 +91,12 @@ export const Register = () => {
       if (isAdminMode && isAuthenticated) {
         // Admin crée un compte via l'API users
         await userService.create({
-          name: name.trim(),
-          email: email.trim(),
+          name: trimmedName,
+          email: normalizedEmail,
           password,
           role,
         })
-        success(`Compte ${role === 'admin' ? 'administrateur' : 'utilisateur'} créé avec succès !`)
+        success(`Compte ${role === 'admin' ? 'administrateur' : 'utilisateur'} créé.`)
         // Réinitialiser le formulaire
         setName('')
         setEmail('')
@@ -78,12 +105,12 @@ export const Register = () => {
         setRole('user')
       } else {
         // Inscription normale
-        await register(email, password, name)
-        success(`Inscription réussie ! Bienvenue sur ${platformName} !`)
-        navigate('/dashboard')
+        await register(normalizedEmail, password, trimmedName)
+        success(`Bienvenue sur ${platformName}.`)
+        navigate('/dashboard', { replace: true })
       }
     } catch (err: any) {
-      const errorMessage = err.response?.data?.error || err.message || 'Erreur lors de l\'inscription'
+      const errorMessage = err.message || 'Inscription impossible pour le moment.'
       setError(errorMessage)
       showError(errorMessage)
     } finally {
@@ -95,22 +122,34 @@ export const Register = () => {
     <Layout>
       <div className="auth-page">
         <Card className="auth-card-enhanced">
-          <div className="auth-header">
-            <div className="auth-icon-wrapper">
-              {isAdminMode ? <Shield size={32} /> : <UserPlus size={32} />}
+          <div className="auth-story-panel" aria-hidden="true">
+            <span className="auth-kicker">MonBaobab</span>
+            <h2>{isAdminMode ? 'Créer un accès clair, sans détour.' : 'Un compte pour garder le fil.'}</h2>
+            <p>
+              {isAdminMode
+                ? 'Choisissez le bon rôle et créez un profil prêt à utiliser.'
+                : 'Sauvegardez vos lectures, retrouvez vos pays favoris et participez aux communautés.'}
+            </p>
+            <div className="auth-proof-list">
+              <span>Favoris</span>
+              <span>Commandes</span>
+              <span>Communautés</span>
             </div>
-            <h1>{isAdminMode ? 'Créer un Compte' : 'Inscription'}</h1>
+          </div>
+
+          <div className="auth-header">
+            <p className="auth-eyebrow">{isAdminMode ? 'Administration' : 'Nouveau compte'}</p>
+            <h1>{isAdminMode ? 'Créer un compte' : 'Rejoindre MonBaobab'}</h1>
             <p className="auth-subtitle">
               {isAdminMode 
-                ? 'Créez un nouveau compte utilisateur ou administrateur'
-                : `Rejoignez la communauté ${platformName} et découvrez l'Afrique`
+                ? 'Ajoutez un utilisateur avec le bon niveau d’accès.'
+                : `Préparez votre espace personnel sur ${platformName}.`
               }
             </p>
           </div>
           
           <form onSubmit={handleSubmit} className="auth-form">
-            <div className="input-group">
-              <UserCircle size={20} className="input-icon" />
+            <div className="auth-field">
               <Input
                 type="text"
                 label="Nom complet"
@@ -122,8 +161,7 @@ export const Register = () => {
               />
             </div>
             
-            <div className="input-group">
-              <Mail size={20} className="input-icon" />
+            <div className="auth-field">
               <Input
                 type="email"
                 label="Email"
@@ -136,8 +174,7 @@ export const Register = () => {
             </div>
 
             {isAdminMode && (
-              <div className="input-group">
-                <Shield size={20} className="input-icon" />
+              <div className="auth-field">
                 <div className="form-group">
                   <label className="input-label">
                     Rôle du compte
@@ -149,12 +186,11 @@ export const Register = () => {
                       className={`role-option ${role === 'user' ? 'active' : ''}`}
                       onClick={() => setRole('user')}
                     >
-                      <User size={20} />
                       <span>Utilisateur</span>
-                      <p>Accès standard : Blog, Boutique, Panier</p>
+                      <p>Lecture, achats et participation aux espaces communautaires.</p>
                       <div className="role-permissions">
-                        <span>✓ Lecture</span>
-                        <span>✓ Achat</span>
+                        <span>Lecture</span>
+                        <span>Achat</span>
                       </div>
                     </button>
                     <button
@@ -162,46 +198,65 @@ export const Register = () => {
                       className={`role-option ${role === 'admin' ? 'active' : ''}`}
                       onClick={() => setRole('admin')}
                     >
-                      <Shield size={20} />
                       <span>Administrateur</span>
-                      <p>Accès complet : Gestion du contenu</p>
+                      <p>Gestion du contenu, des produits et des paramètres.</p>
                       <div className="role-permissions">
-                        <span>✓ Tout</span>
-                        <span>✓ CRUD</span>
+                        <span>Gestion</span>
+                        <span>Paramètres</span>
                       </div>
                     </button>
                   </div>
                   <p className="role-hint">
-                    ⚠️ Seuls les administrateurs peuvent créer des comptes avec des rôles spécifiques
+                    Seuls les administrateurs peuvent créer des comptes avec des rôles spécifiques.
                   </p>
                 </div>
               </div>
             )}
             
-            <div className="input-group">
-              <Lock size={20} className="input-icon" />
+            <div className="auth-field auth-password-field">
               <Input
-                type="password"
+                type={showPassword ? 'text' : 'password'}
                 label="Mot de passe"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 required
                 placeholder="••••••••"
-                minLength={6}
+                minLength={12}
+                maxLength={128}
                 autoComplete="new-password"
               />
+              <button
+                type="button"
+                className="auth-visibility-toggle"
+                onClick={() => setShowPassword((value) => !value)}
+              >
+                {showPassword ? 'Masquer' : 'Afficher'}
+              </button>
+              {password && (
+                <div className="password-meter" data-score={passwordScore}>
+                  <span />
+                  <small>{passwordLabel}</small>
+                </div>
+              )}
+              <div className="password-rules" aria-live="polite">
+                <span className={hasMinLength ? 'valid' : ''}>12 caractères</span>
+                <span className={hasUppercase ? 'valid' : ''}>Majuscule</span>
+                <span className={hasLowercase ? 'valid' : ''}>Minuscule</span>
+                <span className={hasNumber ? 'valid' : ''}>Chiffre</span>
+                <span className={hasSpecialChar ? 'valid' : ''}>Caractère spécial</span>
+              </div>
             </div>
 
-            <div className="input-group">
-              <Lock size={20} className="input-icon" />
+            <div className="auth-field">
               <Input
-                type="password"
+                type={showPassword ? 'text' : 'password'}
                 label="Confirmer le mot de passe"
                 value={confirmPassword}
                 onChange={(e) => setConfirmPassword(e.target.value)}
                 required
                 placeholder="••••••••"
-                minLength={6}
+                minLength={12}
+                maxLength={128}
               />
             </div>
             
@@ -217,14 +272,14 @@ export const Register = () => {
           
           {!isAdminMode && (
             <p className="auth-link">
-              Déjà un compte ? <Link to="/login">Connectez-vous</Link>
+              Déjà membre ? <Link to="/login">Se connecter</Link>
             </p>
           )}
 
           {isAdminMode && (
             <div className="auth-admin-actions">
               <Link to="/admin" className="back-to-admin">
-                ← Retour au dashboard admin
+                Retour au dashboard admin
               </Link>
             </div>
           )}

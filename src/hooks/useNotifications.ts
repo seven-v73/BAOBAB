@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react'
+import { useState, useCallback, useEffect } from 'react'
 import type { NotificationType } from '../components/Notification/Notification'
 
 interface NotificationItem {
@@ -9,9 +9,25 @@ interface NotificationItem {
 }
 
 let notificationId = 0
+let notificationStore: NotificationItem[] = []
+const subscribers = new Set<(items: NotificationItem[]) => void>()
+
+const emit = () => {
+  const snapshot = [...notificationStore]
+  subscribers.forEach((listener) => listener(snapshot))
+}
 
 export const useNotifications = () => {
-  const [notifications, setNotifications] = useState<NotificationItem[]>([])
+  const [notifications, setNotifications] = useState<NotificationItem[]>(notificationStore)
+
+  useEffect(() => {
+    subscribers.add(setNotifications)
+    setNotifications([...notificationStore])
+
+    return () => {
+      subscribers.delete(setNotifications)
+    }
+  }, [])
 
   const showNotification = useCallback((
     type: NotificationType,
@@ -19,12 +35,14 @@ export const useNotifications = () => {
     duration = 5000
   ) => {
     const id = `notification-${++notificationId}`
-    setNotifications((prev) => [...prev, { id, type, message, duration }])
+    notificationStore = [...notificationStore, { id, type, message, duration }]
+    emit()
     return id
   }, [])
 
   const removeNotification = useCallback((id: string) => {
-    setNotifications((prev) => prev.filter((n) => n.id !== id))
+    notificationStore = notificationStore.filter((notification) => notification.id !== id)
+    emit()
   }, [])
 
   const success = useCallback((message: string, duration?: number) => {
@@ -49,8 +67,8 @@ export const useNotifications = () => {
     removeNotification,
     success,
     error,
+    showError: error,
     info,
     warning,
   }
 }
-

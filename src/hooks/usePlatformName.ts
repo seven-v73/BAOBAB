@@ -14,6 +14,6 @@ export const usePlatformName = () => {
     }
   }, [settings, fetchSettings])
 
-  return settings?.platformName || 'BAOBAB'
+  return settings?.platformName || 'MonBaobab'
 }
 

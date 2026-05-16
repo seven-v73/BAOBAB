@@ -23,7 +23,11 @@ export const CountryImmersive = ({ countryId, country }: CountryImmersiveProps) 
   const [relatedProverbs, setRelatedProverbs] = useState<any[]>([])
   const [loading, setLoading] = useState(true)
   const [activeSection, setActiveSection] = useState<string | null>(null)
-  const sectionsRef = useRef<{ [key: string]: HTMLDivElement | null }>({})
+  const sectionsRef = useRef<Record<string, HTMLElement | null>>({})
+
+  const setSectionRef = (key: string) => (el: HTMLElement | null) => {
+    sectionsRef.current[key] = el
+  }
 
   useEffect(() => {
     if (countryId && country) {
@@ -118,12 +122,21 @@ export const CountryImmersive = ({ countryId, country }: CountryImmersiveProps) 
     return num.replace(/\B(?=(\d{3})+(?!\d))/g, ' ')
   }
 
+  const getStatValueClass = (value: string | number | null | undefined) => {
+    const valueLength = String(value ?? '').length
+
+    if (valueLength > 16) return 'stat-value stat-value--compact'
+    if (valueLength > 10) return 'stat-value stat-value--long'
+
+    return 'stat-value'
+  }
+
   return (
     <div className="country-immersive">
       {/* Section Statistiques Animées */}
       <section 
         className="immersive-section stats-section"
-        ref={(el) => sectionsRef.current['stats'] = el}
+        ref={setSectionRef('stats')}
         data-section="stats"
       >
         <div className="stats-grid">
@@ -131,28 +144,28 @@ export const CountryImmersive = ({ countryId, country }: CountryImmersiveProps) 
             <div className="stat-icon">
               <Users size={32} />
             </div>
-            <div className="stat-value">{formatNumber(country.population)}</div>
+            <div className={getStatValueClass(formatNumber(country.population))}>{formatNumber(country.population)}</div>
             <div className="stat-label">Habitants</div>
           </div>
           <div className="stat-card">
             <div className="stat-icon">
               <Globe size={32} />
             </div>
-            <div className="stat-value">{country.area}</div>
+            <div className={getStatValueClass(country.area)}>{country.area}</div>
             <div className="stat-label">Superficie</div>
           </div>
           <div className="stat-card">
             <div className="stat-icon">
               <Languages size={32} />
             </div>
-            <div className="stat-value">{country.languages?.length || 0}</div>
+            <div className={getStatValueClass(country.languages?.length || 0)}>{country.languages?.length || 0}</div>
             <div className="stat-label">Langues</div>
           </div>
           <div className="stat-card">
             <div className="stat-icon">
               <MapPin size={32} />
             </div>
-            <div className="stat-value">{country.capital}</div>
+            <div className={getStatValueClass(country.capital)}>{country.capital}</div>
             <div className="stat-label">Capitale</div>
           </div>
         </div>
@@ -162,7 +175,7 @@ export const CountryImmersive = ({ countryId, country }: CountryImmersiveProps) 
       {relatedFigures.length > 0 && (
         <section 
           className="immersive-section figures-section"
-          ref={(el) => sectionsRef.current['figures'] = el}
+          ref={setSectionRef('figures')}
           data-section="figures"
         >
           <div className="section-header-immersive">
@@ -207,7 +220,7 @@ export const CountryImmersive = ({ countryId, country }: CountryImmersiveProps) 
       {relatedEvents.length > 0 && (
         <section 
           className="immersive-section events-section"
-          ref={(el) => sectionsRef.current['events'] = el}
+          ref={setSectionRef('events')}
           data-section="events"
         >
           <div className="section-header-immersive">
@@ -251,7 +264,7 @@ export const CountryImmersive = ({ countryId, country }: CountryImmersiveProps) 
       {relatedStories.length > 0 && (
         <section 
           className="immersive-section stories-section"
-          ref={(el) => sectionsRef.current['stories'] = el}
+          ref={setSectionRef('stories')}
           data-section="stories"
         >
           <div className="section-header-immersive">
@@ -300,7 +313,7 @@ export const CountryImmersive = ({ countryId, country }: CountryImmersiveProps) 
       {relatedProducts.length > 0 && (
         <section 
           className="immersive-section products-section"
-          ref={(el) => sectionsRef.current['products'] = el}
+          ref={setSectionRef('products')}
           data-section="products"
         >
           <div className="section-header-immersive">
@@ -356,7 +369,7 @@ export const CountryImmersive = ({ countryId, country }: CountryImmersiveProps) 
       {relatedProverbs.length > 0 && (
         <section 
           className="immersive-section proverbs-section"
-          ref={(el) => sectionsRef.current['proverbs'] = el}
+          ref={setSectionRef('proverbs')}
           data-section="proverbs"
         >
           <div className="section-header-immersive">
@@ -390,4 +403,3 @@ export const CountryImmersive = ({ countryId, country }: CountryImmersiveProps) 
     </div>
   )
 }
-

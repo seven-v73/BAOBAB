@@ -1,81 +1,248 @@
-/* Overrides pour le mode clair - Amélioration de la lisibilité */
+/* Mode clair: lisibilité premium sans casser les zones volontairement sombres */
 
 [data-theme="light"] {
-  /* Surcharger les couleurs de texte pour meilleur contraste */
+  color: var(--color-text);
 }
 
-/* Textes principaux */
+[data-theme="light"] .app-main,
+[data-theme="light"] .container,
+[data-theme="light"] .page,
+[data-theme="light"] .shop,
+[data-theme="light"] .blog,
+[data-theme="light"] .cart,
+[data-theme="light"] .checkout,
+[data-theme="light"] .dashboard,
+[data-theme="light"] .community,
+[data-theme="light"] .communities,
+[data-theme="light"] .collections,
+[data-theme="light"] .proverbs,
+[data-theme="light"] .quizzes,
+[data-theme="light"] .stories,
+[data-theme="light"] .timeline,
+[data-theme="light"] .search-results,
+[data-theme="light"] .admin-dashboard {
+  color: var(--color-text);
+}
+
+[data-theme="light"] :where(
+  .page-title,
+  .section-title,
+  .shop h1,
+  .blog h1,
+  .cart h1,
+  .checkout h1,
+  .dashboard h1,
+  .community h1,
+  .communities h1,
+  .collections h1,
+  .proverbs h1,
+  .quizzes h1,
+  .stories h1,
+  .timeline h1,
+  .search-results h1,
+  .admin-dashboard h1
+) {
+  color: #16120f !important;
+}
+
+[data-theme="light"] :where(
+  .page-subtitle,
+  .section-description,
+  .shop-subtitle,
+  .shop-loading,
+  .blog-subtitle,
+  .blog-loading,
+  .blog-empty,
+  .blog-excerpt,
+  .blog-meta,
+  .blog-views,
+  .product-description,
+  .text-muted,
+  .text-light,
+  .muted,
+  .description,
+  .subtitle,
+  .empty-state,
+  .loading
+) {
+  color: #4f5a54 !important;
+}
+
+[data-theme="light"] :where(
+  .card,
+  .product-card,
+  .blog-card,
+  .stat-card,
+  .feature-card,
+  .collection-card,
+  .community-card,
+  .country-card,
+  .quiz-card,
+  .story-card,
+  .timeline-card,
+  .settings-card,
+  .admin-card,
+  .form-card,
+  .modal-content,
+  .dropdown-menu,
+  .profile-dropdown
+) {
+  background: rgba(255, 252, 245, 0.96) !important;
+  color: var(--color-text) !important;
+  border-color: rgba(15, 76, 58, 0.18) !important;
+  box-shadow: 0 18px 50px rgba(28, 22, 16, 0.1);
+}
+
+[data-theme="light"] :where(
+  .card,
+  .product-card,
+  .blog-card,
+  .stat-card,
+  .feature-card,
+  .collection-card,
+  .community-card,
+  .country-card,
+  .quiz-card,
+  .story-card,
+  .timeline-card,
+  .settings-card,
+  .admin-card,
+  .form-card,
+  .modal-content,
+  .dropdown-menu,
+  .profile-dropdown
+) :where(h1, h2, h3, h4, h5, h6, p, li, label, small, strong, span:not([class^="icon-"])) {
+  color: inherit;
+}
+
+[data-theme="light"] :where(
+  .product-info h3,
+  .blog-card h3,
+  .card-title,
+  .post-title,
+  .item-title
+) {
+  color: #1a1410 !important;
+}
+
+[data-theme="light"] :where(
+  input,
+  textarea,
+  select,
+  .search-input,
+  .form-input,
+  .form-select
+) {
+  background: rgba(255, 255, 255, 0.98) !important;
+  color: var(--color-text) !important;
+  border-color: rgba(18, 20, 23, 0.16) !important;
+}
+
+[data-theme="light"] :where(input, textarea)::placeholder {
+  color: #6a746e !important;
+}
+
+[data-theme="light"] :where(.btn-secondary, .filter-btn, .tab-btn) {
+  background: rgba(255, 255, 255, 0.78) !important;
+  color: #1a1410 !important;
+  border-color: rgba(15, 76, 58, 0.2) !important;
+}
+
+[data-theme="light"] :where(.btn-secondary, .filter-btn, .tab-btn):hover {
+  background: rgba(242, 207, 102, 0.18) !important;
+  color: #0f4c3a !important;
+  border-color: rgba(201, 162, 39, 0.42) !important;
+}
+
+[data-theme="light"] :where(.blog-category, .tag, .badge, .category-badge) {
+  background: rgba(201, 162, 39, 0.16) !important;
+  color: #74540b !important;
+}
+
+[data-theme="light"] :where(.blog-tag) {
+  background: rgba(35, 74, 125, 0.12) !important;
+  color: #234a7d !important;
+}
+
+[data-theme="light"] :where(.product-footer, .blog-meta, .card-footer) {
+  border-color: rgba(18, 20, 23, 0.1) !important;
+}
+
+[data-theme="light"] :where(nav a, .nav-link, .mobile-nav-link) {
+  color: var(--color-text) !important;
+}
+
+[data-theme="light"] :where(nav a, .nav-link, .mobile-nav-link):hover,
+[data-theme="light"] :where(nav a.active, .nav-link.active, .mobile-nav-link.active) {
+  color: var(--color-gold-dark) !important;
+}
+
+[data-theme="light"] :where(footer, .footer) {
+  color: var(--color-text) !important;
+}
+
+[data-theme="light"] :where(footer, .footer) :where(p, span, a, li) {
+  color: #4f5a54 !important;
+}
+
+/* Zones inversées: elles gardent leur contraste clair sur fond image/sombre. */
+[data-theme="light"] :where(
+  .hero,
+  .hero *,
+  .hero-live-panel,
+  .hero-live-panel *,
+  .image-overlay,
+  .image-overlay *,
+  .product-actions-overlay,
+  .product-actions-overlay *,
+  .media-viewer,
+  .media-viewer *,
+  .video-viewer,
+  .video-viewer *
+) {
+  color: inherit;
+}
+
+[data-theme="light"] .hero-title,
+[data-theme="light"] .hero-metrics strong {
+  color: #fffaf0 !important;
+}
+
 [data-theme="light"] .hero-subtitle,
-[data-theme="light"] .hero-description,
-[data-theme="light"] .section-title,
-[data-theme="light"] .section-description {
-  color: var(--color-text) !important;
+[data-theme="light"] .hero-panel-header,
+[data-theme="light"] .hero-metrics span {
+  color: rgba(255, 250, 240, 0.78) !important;
 }
 
-/* Cards et conteneurs */
-[data-theme="light"] .card,
-[data-theme="light"] .product-card,
-[data-theme="light"] .blog-card {
-  background: var(--color-bg-card) !important;
-  color: var(--color-text) !important;
-  border-color: var(--color-border-light) !important;
+[data-theme="light"] .hero-eyebrow,
+[data-theme="light"] .hero-search-icon {
+  color: #f5db8a !important;
 }
 
-[data-theme="light"] .card *,
-[data-theme="light"] .product-card *,
-[data-theme="light"] .blog-card * {
-  color: var(--color-text) !important;
+[data-theme="light"] .hero-search-card input {
+  background: transparent !important;
+  color: #fffaf0 !important;
+  border-color: transparent !important;
 }
 
-/* Boutons secondaires en mode clair */
-[data-theme="light"] .btn-secondary {
-  background: var(--color-bg-light) !important;
-  color: var(--color-text) !important;
-  border-color: var(--color-border-light) !important;
+[data-theme="light"] .hero-search-card input::placeholder {
+  color: rgba(255, 250, 240, 0.58) !important;
 }
 
-/* Inputs en mode clair */
-[data-theme="light"] input,
-[data-theme="light"] textarea,
-[data-theme="light"] select {
-  background: var(--color-bg-elevated) !important;
-  color: var(--color-text) !important;
-  border-color: var(--color-border-light) !important;
+[data-theme="light"] .hero-actions .btn-primary {
+  background: linear-gradient(135deg, #0f4c3a, #234a7d) !important;
+  color: #fffaf0 !important;
+  border-color: transparent !important;
 }
 
-[data-theme="light"] input::placeholder,
-[data-theme="light"] textarea::placeholder {
-  color: var(--color-text-muted) !important;
+[data-theme="light"] .hero-actions .btn-outline {
+  background: rgba(8, 11, 13, 0.26) !important;
+  color: #fffaf0 !important;
+  border-color: rgba(255, 250, 240, 0.28) !important;
 }
 
-/* Labels en mode clair */
-[data-theme="light"] label {
-  color: var(--color-text) !important;
+[data-theme="light"] .hero-actions .btn-outline:hover {
+  background: rgba(242, 207, 102, 0.16) !important;
+  color: #f5db8a !important;
+  border-color: rgba(242, 207, 102, 0.52) !important;
 }
-
-/* Textes avec opacité réduite en mode clair */
-[data-theme="light"] .text-muted,
-[data-theme="light"] .text-light {
-  color: var(--color-text-muted) !important;
-}
-
-/* Footer en mode clair */
-[data-theme="light"] footer,
-[data-theme="light"] .footer {
-  color: var(--color-text) !important;
-}
-
-[data-theme="light"] footer *,
-[data-theme="light"] .footer * {
-  color: var(--color-text-light) !important;
-}
-
-/* Navigation en mode clair */
-[data-theme="light"] nav a {
-  color: var(--color-text) !important;
-}
-
-[data-theme="light"] nav a:hover {
-  color: var(--color-gold) !important;
-}
-

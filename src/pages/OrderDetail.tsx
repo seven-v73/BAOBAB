@@ -7,6 +7,7 @@ import { Button } from '../components/Button/Button'
 import { useAuthStore } from '../stores/authStore'
 import { orderService } from '../services/api'
 import { useNotifications } from '../hooks/useNotifications'
+import { useConfirmDialog } from '../components/UX/ConfirmDialog'
 import {
   Package,
   Calendar,
@@ -71,10 +72,11 @@ export const OrderDetail = () => {
   const [loading, setLoading] = useState(true)
   const [cancelling, setCancelling] = useState(false)
   const { error: showError } = useNotifications()
+  const { confirm, Dialog } = useConfirmDialog()
 
   useEffect(() => {
     if (!isAuthenticated) {
-      navigate('/login')
+      navigate(`/login?redirect=${encodeURIComponent(`/orders/${id || ''}`)}`)
       return
     }
 
@@ -98,9 +100,13 @@ export const OrderDetail = () => {
   }
 
   const handleCancelOrder = async () => {
-    if (!confirm('Êtes-vous sûr de vouloir annuler cette commande ?')) {
-      return
-    }
+    const accepted = await confirm({
+      title: 'Annuler cette commande ?',
+      message: 'Cette action demandera l’annulation de la commande. Le support pourra confirmer selon son état.',
+      confirmLabel: 'Demander l’annulation',
+      tone: 'danger',
+    })
+    if (!accepted) return
 
     setCancelling(true)
     try {
@@ -187,7 +193,7 @@ export const OrderDetail = () => {
         </head>
         <body>
           <div class="header">
-            <h1>🌳 ${platformName}</h1>
+            <h1>${platformName}</h1>
             <h2>Facture ${order.orderNumber}</h2>
             <p>Date: ${new Date(order.createdAt).toLocaleDateString('fr-FR', {
               day: 'numeric',
@@ -573,7 +579,7 @@ export const OrderDetail = () => {
           </div>
         </div>
       </div>
+      {Dialog}
     </Layout>
   )
 }
-

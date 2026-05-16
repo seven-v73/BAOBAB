@@ -5,8 +5,10 @@ import { Card } from '../../components/Card/Card'
 import { Button } from '../../components/Button/Button'
 import { Input } from '../../components/Input/Input'
 import { FileUpload } from '../../components/FileUpload/FileUpload'
+import { MediaUpload } from '../../components/Community/MediaUpload'
 import { blogService } from '../../services/api'
 import { useNotifications } from '../../hooks/useNotifications'
+import { useConfirmDialog } from '../../components/UX/ConfirmDialog'
 import { Plus, Edit, Trash2, Eye, Search, Image as ImageIcon, FileText, Video, File as FileIcon, X, ArrowUp, ArrowDown, Link as LinkIcon } from 'lucide-react'
 import '../BlogAdmin.css'
 
@@ -75,6 +77,7 @@ export const AdminBlog = () => {
   const [documents, setDocuments] = useState<BlogDocument[]>([])
   const [uploadMode, setUploadMode] = useState<{ [key: string]: 'upload' | 'url' }>({})
   const { success, error: showError } = useNotifications()
+  const { confirm, Dialog } = useConfirmDialog()
   const [formData, setFormData] = useState({
     title: '',
     content: '',
@@ -185,9 +188,13 @@ export const AdminBlog = () => {
   }
 
   const handleDelete = async (id: string) => {
-    if (!confirm('Êtes-vous sûr de vouloir supprimer cet article ?')) {
-      return
-    }
+    const accepted = await confirm({
+      title: 'Supprimer cet article ?',
+      message: 'L’article sera retiré du blog.',
+      confirmLabel: 'Supprimer',
+      tone: 'danger',
+    })
+    if (!accepted) return
 
     try {
       await blogService.delete(id)
@@ -466,12 +473,12 @@ export const AdminBlog = () => {
 
             {activeTab === 'basic' && (
               <>
-                <Input
-                  label="Image principale (URL)"
-                  type="url"
+                <MediaUpload
+                  type="image"
                   value={formData.image}
-                  onChange={(e) => setFormData({ ...formData, image: e.target.value })}
-                  placeholder="https://example.com/image.jpg"
+                  label="Image principale"
+                  onChange={(url) => setFormData({ ...formData, image: url })}
+                  onRemove={() => setFormData({ ...formData, image: '' })}
                 />
 
                 <Input
@@ -922,7 +929,7 @@ export const AdminBlog = () => {
           ))}
         </div>
       </div>
+      {Dialog}
     </div>
   )
 }
-

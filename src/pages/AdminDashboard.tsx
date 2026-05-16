@@ -24,28 +24,41 @@ import { AdminTimeline } from './admin/AdminTimeline'
 import { AdminFigures } from './admin/AdminFigures'
 import { AdminCollections } from './admin/AdminCollections'
 import { AdminQuiz } from './admin/AdminQuiz'
+import { AdminCommunityRequests } from './admin/AdminCommunityRequests'
+import { communityService } from '../services/api'
 import './AdminDashboard.css'
 
-type AdminSection = 'overview' | 'countries' | 'blog' | 'products' | 'users' | 'settings' | 'timeline' | 'figures' | 'collections' | 'quizzes'
+type AdminSection = 'overview' | 'countries' | 'blog' | 'products' | 'users' | 'settings' | 'timeline' | 'figures' | 'collections' | 'quizzes' | 'communities'
 
 export const AdminDashboard = () => {
   const platformName = usePlatformName()
   const { isAuthenticated, user } = useAuthStore()
   const [searchParams, setSearchParams] = useSearchParams()
   const [activeSection, setActiveSection] = useState<AdminSection>('overview')
+  const [pendingCommunityRequests, setPendingCommunityRequests] = useState(0)
+
+  // Gérer la section depuis l'URL
+  useEffect(() => {
+    const section = searchParams.get('section') as AdminSection
+    if (section && ['overview', 'countries', 'blog', 'products', 'users', 'settings', 'timeline', 'figures', 'collections', 'quizzes', 'communities'].includes(section)) {
+      setActiveSection(section)
+    }
+  }, [searchParams])
+
+  useEffect(() => {
+    if (!isAuthenticated || user?.role !== 'admin') return
+
+    communityService.getCommunityRequests({ status: 'pending', limit: 1 })
+      .then((response) => {
+        setPendingCommunityRequests(response.data.pagination?.total || 0)
+      })
+      .catch(() => setPendingCommunityRequests(0))
+  }, [isAuthenticated, user?.role])
 
   // Vérification du rôle admin (double sécurité)
   if (!isAuthenticated || user?.role !== 'admin') {
     return null
   }
-
-  // Gérer la section depuis l'URL
-  useEffect(() => {
-    const section = searchParams.get('section') as AdminSection
-    if (section && ['overview', 'countries', 'blog', 'products', 'users', 'settings', 'timeline', 'figures', 'collections', 'quizzes'].includes(section)) {
-      setActiveSection(section)
-    }
-  }, [searchParams])
 
   const handleSectionChange = (section: AdminSection) => {
     setActiveSection(section)
@@ -61,6 +74,7 @@ export const AdminDashboard = () => {
     { id: 'figures' as AdminSection, label: 'Personnages', iconClass: 'icon-user' },
     { id: 'collections' as AdminSection, label: 'Collections', iconClass: 'icon-folder-open' },
     { id: 'quizzes' as AdminSection, label: 'Quiz', iconClass: 'icon-book' },
+    { id: 'communities' as AdminSection, label: 'Communautés', iconClass: 'icon-users' },
     { id: 'users' as AdminSection, label: 'Utilisateurs', iconClass: 'icon-users' },
     { id: 'settings' as AdminSection, label: 'Paramètres', iconClass: 'icon-settings' },
   ]
@@ -83,6 +97,8 @@ export const AdminDashboard = () => {
         return <AdminCollections />
       case 'quizzes':
         return <AdminQuiz />
+      case 'communities':
+        return <AdminCommunityRequests />
       case 'users':
         return <AdminUsers />
       case 'settings':
@@ -97,7 +113,10 @@ export const AdminDashboard = () => {
       <div className="admin-dashboard">
         <div className="admin-sidebar">
           <div className="admin-sidebar-header">
-            <h2>🌳 {platformName}</h2>
+            <h2>
+              <span className="admin-logo-mark" aria-hidden="true">MB</span>
+              {platformName}
+            </h2>
             <p className="admin-role">Administration</p>
           </div>
           
@@ -110,6 +129,9 @@ export const AdminDashboard = () => {
               >
                 <span className={item.iconClass} style={{ fontSize: '20px', width: '20px', height: '20px' }} />
                 <span>{item.label}</span>
+                {item.id === 'communities' && pendingCommunityRequests > 0 && (
+                  <span className="admin-nav-badge">{pendingCommunityRequests}</span>
+                )}
               </button>
             ))}
           </nav>
@@ -145,4 +167,3 @@ export const AdminDashboard = () => {
     </Layout>
   )
 }
-

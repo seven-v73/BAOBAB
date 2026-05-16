@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react'
 import { Users, Shield, UserCheck, UserX, Ban, Unlock, Crown, Settings, X, Mail } from 'lucide-react'
 import { communityService } from '../../services/api'
 import { useAuthStore } from '../../stores/authStore'
+import { useNotifications } from '../../hooks/useNotifications'
+import { useConfirmDialog } from '../UX/ConfirmDialog'
 import './MembersTab.css'
 
 interface Member {
@@ -24,12 +26,13 @@ interface MembersTabProps {
   isAdmin: boolean
 }
 
-export const MembersTab = ({ communityId, currentUserRole, isOwner, isAdmin }: MembersTabProps) => {
+export const MembersTab = ({ communityId, isOwner, isAdmin }: MembersTabProps) => {
   const { user } = useAuthStore()
+  const { success, error: showError } = useNotifications()
+  const { confirm, Dialog } = useConfirmDialog()
   const [members, setMembers] = useState<Member[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
-  const [selectedMember, setSelectedMember] = useState<Member | null>(null)
   const [showRoleMenu, setShowRoleMenu] = useState<string | null>(null)
   const [filter, setFilter] = useState<'all' | 'active' | 'banned'>('all')
 
@@ -55,48 +58,66 @@ export const MembersTab = ({ communityId, currentUserRole, isOwner, isAdmin }: M
       await communityService.updateMemberRole(communityId, memberId, newRole)
       await fetchMembers()
       setShowRoleMenu(null)
-      alert('Rôle modifié avec succès')
+      success('Rôle mis à jour.')
     } catch (err: any) {
-      alert(err.response?.data?.error || 'Erreur lors de la modification du rôle')
+      showError(err.response?.data?.error || 'Erreur lors de la modification du rôle')
     }
   }
 
   const handleTransferOwnership = async (memberId: string) => {
-    if (!confirm('Êtes-vous sûr de vouloir transférer la propriété de cette communauté ? Cette action est irréversible.')) {
+    const accepted = await confirm({
+      title: 'Transférer la propriété ?',
+      message: 'Cette action donnera la propriété de la communauté à ce membre. Elle est difficile à annuler.',
+      confirmLabel: 'Transférer',
+      tone: 'danger',
+    })
+    if (!accepted) {
       return
     }
     try {
       await communityService.updateMemberRole(communityId, memberId, 'owner')
-      alert('Propriété transférée avec succès')
+      success('Propriété transférée.')
       window.location.reload() // Recharger pour mettre à jour les permissions
     } catch (err: any) {
-      alert(err.response?.data?.error || 'Erreur lors du transfert')
+      showError(err.response?.data?.error || 'Erreur lors du transfert')
     }
   }
 
   const handleRemoveMember = async (memberId: string) => {
-    if (!confirm('Êtes-vous sûr de vouloir retirer ce membre ?')) {
+    const accepted = await confirm({
+      title: 'Retirer ce membre ?',
+      message: 'Le membre perdra l’accès à cette communauté.',
+      confirmLabel: 'Retirer',
+      tone: 'danger',
+    })
+    if (!accepted) {
       return
     }
     try {
       await communityService.removeMember(communityId, memberId)
       await fetchMembers()
-      alert('Membre retiré avec succès')
+      success('Membre retiré.')
     } catch (err: any) {
-      alert(err.response?.data?.error || 'Erreur lors du retrait')
+      showError(err.response?.data?.error || 'Erreur lors du retrait')
     }
   }
 
   const handleBanMember = async (memberId: string) => {
-    if (!confirm('Êtes-vous sûr de vouloir bloquer ce membre ?')) {
+    const accepted = await confirm({
+      title: 'Bloquer ce membre ?',
+      message: 'Le membre ne pourra plus participer à cette communauté.',
+      confirmLabel: 'Bloquer',
+      tone: 'danger',
+    })
+    if (!accepted) {
       return
     }
     try {
       await communityService.banMember(communityId, memberId)
       await fetchMembers()
-      alert('Membre bloqué avec succès')
+      success('Membre bloqué.')
     } catch (err: any) {
-      alert(err.response?.data?.error || 'Erreur lors du blocage')
+      showError(err.response?.data?.error || 'Erreur lors du blocage')
     }
   }
 
@@ -104,9 +125,9 @@ export const MembersTab = ({ communityId, currentUserRole, isOwner, isAdmin }: M
     try {
       await communityService.unbanMember(communityId, memberId)
       await fetchMembers()
-      alert('Membre débloqué avec succès')
+      success('Membre débloqué.')
     } catch (err: any) {
-      alert(err.response?.data?.error || 'Erreur lors du déblocage')
+      showError(err.response?.data?.error || 'Erreur lors du déblocage')
     }
   }
 
@@ -291,7 +312,7 @@ export const MembersTab = ({ communityId, currentUserRole, isOwner, isAdmin }: M
           </div>
         ))}
       </div>
+      {Dialog}
     </div>
   )
 }
-

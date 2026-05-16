@@ -415,13 +415,15 @@ const seedProverbs = async () => {
       })
     }
     
-    process.exit(0)
+    return { created, skipped, errors }
   } catch (error) {
     logger.error('❌ Erreur lors de l\'ajout des proverbes', { error })
-    process.exit(1)
+    throw error
   }
 }
 
-// Exécuter le script
-seedProverbs()
+export { seedProverbs }
 
+if (process.argv[1] && process.argv[1].includes('seedProverbs.js')) {
+  seedProverbs().then(() => process.exit(0)).catch(() => process.exit(1))
+}

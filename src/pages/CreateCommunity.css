@@ -43,6 +43,38 @@
   margin-bottom: 1.5rem;
 }
 
+.advanced-toggle {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.2rem;
+  margin: -0.5rem 0 1.75rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--color-border-light);
+  border-radius: 12px;
+  background: var(--color-bg-light);
+  color: var(--color-text);
+  cursor: pointer;
+  text-align: left;
+  transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+}
+
+.advanced-toggle:hover,
+.advanced-toggle.open {
+  border-color: var(--color-gold);
+  background: var(--color-bg-elevated);
+}
+
+.advanced-toggle span {
+  font-weight: 700;
+}
+
+.advanced-toggle small {
+  color: var(--color-text-muted);
+  font-size: 0.88rem;
+}
+
 .form-group {
   margin-bottom: 1.5rem;
 }
@@ -139,4 +171,3 @@
     width: 100%;
   }
 }
-

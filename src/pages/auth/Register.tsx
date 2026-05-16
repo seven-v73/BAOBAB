@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { usePlatformName } from '../../hooks/usePlatformName'
 import { useNavigate, Link } from 'react-router-dom'
-import { useAuthStore } from '../../store/authStore'
+import { useAuthStore } from '../../stores/authStore'
 import { Button } from '../../components/ui/Button'
 import { Input } from '../../components/ui/Input'
 import { Card } from '../../components/ui/Card'
@@ -35,12 +35,8 @@ export const Register = () => {
     setLoading(true)
 
     try {
-      const success = await register(name, email, password)
-      if (success) {
-        navigate('/dashboard')
-      } else {
-        setError('Une erreur est survenue lors de l\'inscription')
-      }
+      await register(email, password, name)
+      navigate('/dashboard')
     } catch (err) {
       setError('Une erreur est survenue')
     } finally {
@@ -109,4 +105,3 @@ export const Register = () => {
     </div>
   )
 }
-

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Upload, Link as LinkIcon, X, Image as ImageIcon, Video, FileText, File } from 'lucide-react'
 import { FileUpload } from '../FileUpload/FileUpload'
 import './MediaUpload.css'
@@ -14,6 +14,10 @@ interface MediaUploadProps {
 export const MediaUpload = ({ type, value, onChange, onRemove, label }: MediaUploadProps) => {
   const [mode, setMode] = useState<'upload' | 'url'>('upload')
   const [url, setUrl] = useState(value || '')
+
+  useEffect(() => {
+    setUrl(value || '')
+  }, [value])
 
   const handleUrlChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const newUrl = e.target.value
@@ -47,7 +51,7 @@ export const MediaUpload = ({ type, value, onChange, onRemove, label }: MediaUpl
       case 'image': return 'image/jpeg,image/jpg,image/png,image/gif,image/webp'
       case 'video': return 'video/mp4,video/webm,video/ogg'
       case 'pdf': return 'application/pdf'
-      case 'document': return '.doc,.docx,.xls,.xlsx,.ppt,.pptx'
+      case 'document': return '.doc,.docx,.xls,.xlsx,.ppt,.pptx,.odt,.ods,.odp'
       default: return ''
     }
   }
@@ -141,4 +145,3 @@ export const MediaUpload = ({ type, value, onChange, onRemove, label }: MediaUpl
     </div>
   )
 }
-

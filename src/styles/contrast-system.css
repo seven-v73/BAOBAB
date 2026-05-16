@@ -1,0 +1,669 @@
+/*
+  Global contrast contract.
+  This file is intentionally loaded last so legacy page CSS cannot leave
+  translucent white text on light surfaces or washed-out text on dark surfaces.
+*/
+
+:root,
+[data-theme='dark'] {
+  --readable-text: #fffaf0;
+  --readable-text-soft: rgba(255, 250, 240, 0.86);
+  --readable-text-muted: rgba(255, 250, 240, 0.74);
+  --readable-heading: #fffdf7;
+  --readable-surface: rgba(17, 25, 28, 0.88);
+  --readable-surface-solid: #121c1f;
+  --readable-surface-soft: rgba(255, 255, 255, 0.08);
+  --readable-border: rgba(255, 250, 240, 0.18);
+  --readable-placeholder: rgba(255, 250, 240, 0.56);
+}
+
+[data-theme='light'] {
+  --readable-text: #16120f;
+  --readable-text-soft: #2b2823;
+  --readable-text-muted: #3f4943;
+  --readable-heading: #100d0b;
+  --readable-surface: rgba(255, 252, 245, 0.98);
+  --readable-surface-solid: #fffdf8;
+  --readable-surface-soft: rgba(15, 76, 58, 0.07);
+  --readable-border: rgba(16, 20, 18, 0.16);
+  --readable-placeholder: #667069;
+}
+
+html,
+body,
+#root,
+.app,
+.app-main {
+  color: var(--readable-text);
+}
+
+:where(
+  main,
+  section,
+  article,
+  aside,
+  form,
+  .page,
+  .container,
+  .layout-main,
+  .dashboard,
+  .admin-dashboard,
+  .shop,
+  .blog,
+  .cart,
+  .checkout,
+  .community-page,
+  .communities-page,
+  .collections-page,
+  .timeline-page,
+  .figures-page,
+  .stories-page,
+  .proverbs-page,
+  .quizzes-page,
+  .map-page,
+  .search-results
+) {
+  color: var(--readable-text);
+}
+
+:where(h1, h2, h3, h4, h5, h6, legend) {
+  color: var(--readable-heading);
+}
+
+:where(p, li, label, dd, dt, figcaption, summary) {
+  color: var(--readable-text-soft);
+}
+
+:where(
+  small,
+  time,
+  .text-muted,
+  .text-light,
+  .muted,
+  .description,
+  .subtitle,
+  .page-subtitle,
+  .section-description,
+  .empty-state-subtitle,
+  .meta,
+  .blog-meta,
+  .blog-excerpt,
+  .product-description,
+  .product-origin,
+  .order-date,
+  .info-label,
+  .card-subtitle,
+  .form-hint,
+  .hint
+) {
+  color: var(--readable-text-muted) !important;
+}
+
+:where(
+  .card,
+  .product-card,
+  .blog-card,
+  .collection-card,
+  .story-card,
+  .quiz-card,
+  .proverb-card,
+  .community-card,
+  .figure-card,
+  .timeline-card,
+  .country-card,
+  .post-card,
+  .settings-card,
+  .profile-card,
+  .stat-card,
+  .order-card,
+  .favorite-card,
+  .wishlist-card,
+  .bookmark-card,
+  .modal-content,
+  .dropdown-menu,
+  .nav-dropdown,
+  .user-dropdown,
+  .header-search-expanded,
+  .dashboard-sidebar,
+  .dashboard-global-search,
+  .global-search-bar,
+  .orders-controls,
+  .auth-card-enhanced
+) {
+  background-color: var(--readable-surface) !important;
+  color: var(--readable-text) !important;
+  border-color: var(--readable-border) !important;
+}
+
+:where(
+  .card,
+  .product-card,
+  .blog-card,
+  .collection-card,
+  .story-card,
+  .quiz-card,
+  .proverb-card,
+  .community-card,
+  .figure-card,
+  .timeline-card,
+  .country-card,
+  .post-card,
+  .settings-card,
+  .profile-card,
+  .stat-card,
+  .order-card,
+  .favorite-card,
+  .wishlist-card,
+  .bookmark-card,
+  .modal-content,
+  .dropdown-menu,
+  .nav-dropdown,
+  .user-dropdown,
+  .dashboard-sidebar,
+  .auth-card-enhanced
+) :where(h1, h2, h3, h4, h5, h6, strong, b) {
+  color: var(--readable-heading) !important;
+}
+
+:where(
+  .card,
+  .product-card,
+  .blog-card,
+  .collection-card,
+  .story-card,
+  .quiz-card,
+  .proverb-card,
+  .community-card,
+  .figure-card,
+  .timeline-card,
+  .country-card,
+  .post-card,
+  .settings-card,
+  .profile-card,
+  .stat-card,
+  .order-card,
+  .favorite-card,
+  .wishlist-card,
+  .bookmark-card,
+  .modal-content,
+  .dropdown-menu,
+  .nav-dropdown,
+  .user-dropdown,
+  .dashboard-sidebar,
+  .auth-card-enhanced
+) :where(p, li, label, span:not([class^='icon-']):not([class*=' icon-']), small, time) {
+  color: inherit;
+}
+
+:where(input, textarea, select, .input, .form-input, .form-select, .search-input) {
+  background: var(--readable-surface-solid) !important;
+  color: var(--readable-text) !important;
+  border-color: var(--readable-border) !important;
+  caret-color: var(--color-gold);
+}
+
+:where(input, textarea)::placeholder {
+  color: var(--readable-placeholder) !important;
+  opacity: 1;
+}
+
+:where(input, textarea, select):focus {
+  border-color: var(--color-gold) !important;
+  box-shadow: 0 0 0 4px rgba(201, 162, 39, 0.18) !important;
+}
+
+:where(button, .btn, .auth-link-button, .filter-select, .sort-select, .form-tab, .tab-btn) {
+  color: var(--readable-text);
+}
+
+:where(.btn-secondary, .btn-outline, .filter-btn, .tab-btn, .form-tab, .auth-link-button) {
+  background: var(--readable-surface-soft) !important;
+  color: var(--readable-text) !important;
+  border-color: var(--readable-border) !important;
+}
+
+:where(.btn-primary, .auth-link-primary) {
+  color: #fffaf0 !important;
+}
+
+:where(a) {
+  color: var(--color-gold);
+}
+
+[data-theme='light'] :where(a) {
+  color: #6f510d;
+}
+
+[data-theme='light'] :where(a:hover) {
+  color: #0f4c3a;
+}
+
+[data-theme='light'] :where(
+  .header,
+  .footer,
+  .admin-sidebar,
+  .dashboard-sidebar
+) {
+  color: var(--readable-text);
+}
+
+[data-theme='light'] :where(.header) :where(.nav-link, .nav-more-btn, .auth-link, .user-menu-btn) {
+  color: #17130f !important;
+}
+
+[data-theme='dark'] :where(.header) :where(.nav-link, .nav-more-btn, .auth-link, .user-menu-btn) {
+  color: rgba(255, 250, 240, 0.88) !important;
+}
+
+/* Keep intentionally inverted/immersive regions readable on dark imagery. */
+:where(
+  .hero,
+  .hero *,
+  .home-hero,
+  .home-hero *,
+  .dashboard-header,
+  .dashboard-header *,
+  .auth-story-panel,
+  .auth-story-panel *,
+  .map-command-bar,
+  .map-command-bar *,
+  .country-hero,
+  .country-hero *,
+  .image-overlay,
+  .image-overlay *,
+  .product-actions-overlay,
+  .product-actions-overlay *,
+  .media-viewer,
+  .media-viewer *,
+  .video-viewer,
+  .video-viewer *
+) {
+  color: inherit;
+}
+
+:where(
+  .hero h1,
+  .home-hero h1,
+  .dashboard-header h1,
+  .auth-story-panel h2,
+  .country-hero h1
+) {
+  color: #fffaf0 !important;
+}
+
+:where(
+  .hero p,
+  .home-hero p,
+  .dashboard-header p,
+  .auth-story-panel p,
+  .country-hero p
+) {
+  color: rgba(255, 250, 240, 0.84) !important;
+}
+
+:where(
+  .hero small,
+  .home-hero small,
+  .dashboard-header small,
+  .auth-story-panel small,
+  .country-hero small
+) {
+  color: rgba(255, 250, 240, 0.74) !important;
+}
+
+/* Last-resort readable text pass for CSS chunks loaded after the app shell. */
+[data-theme='light'] body :where(
+  main,
+  section,
+  article,
+  aside,
+  form,
+  .page,
+  .container,
+  .layout-main,
+  .dashboard,
+  .admin-dashboard,
+  .shop,
+  .blog,
+  .cart,
+  .checkout,
+  .community-page,
+  .communities-page,
+  .collections-page,
+  .timeline-page,
+  .figures-page,
+  .stories-page,
+  .proverbs-page,
+  .quizzes-page,
+  .map-page,
+  .search-results
+) :where(h1, h2, h3, h4, h5, h6, p, li, label, small, time, dd, dt, figcaption, summary, span:not([class^='icon-']):not([class*=' icon-'])) {
+  color: var(--readable-text) !important;
+}
+
+[data-theme='light'] body :where(
+  .muted,
+  .text-muted,
+  .text-light,
+  .subtitle,
+  .description,
+  .page-subtitle,
+  .section-description,
+  .empty-state-subtitle,
+  .blog-meta,
+  .blog-excerpt,
+  .product-description,
+  .order-date,
+  .info-label,
+  small,
+  time
+) {
+  color: var(--readable-text-muted) !important;
+}
+
+[data-theme='dark'] body :where(
+  main,
+  section,
+  article,
+  aside,
+  form,
+  .page,
+  .container,
+  .layout-main,
+  .dashboard,
+  .admin-dashboard,
+  .shop,
+  .blog,
+  .cart,
+  .checkout,
+  .community-page,
+  .communities-page,
+  .collections-page,
+  .timeline-page,
+  .figures-page,
+  .stories-page,
+  .proverbs-page,
+  .quizzes-page,
+  .map-page,
+  .search-results
+) :where(h1, h2, h3, h4, h5, h6, p, li, label, small, time, dd, dt, figcaption, summary, span:not([class^='icon-']):not([class*=' icon-'])) {
+  color: var(--readable-text-soft) !important;
+}
+
+[data-theme='dark'] body :where(
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b,
+  .card-title,
+  .section-title,
+  .page-title
+) {
+  color: var(--readable-heading) !important;
+}
+
+[data-theme='dark'] body :where(
+  .muted,
+  .text-muted,
+  .text-light,
+  .subtitle,
+  .description,
+  .page-subtitle,
+  .section-description,
+  .empty-state-subtitle,
+  .blog-meta,
+  .blog-excerpt,
+  .product-description,
+  .order-date,
+  .info-label,
+  small,
+  time
+) {
+  color: var(--readable-text-muted) !important;
+}
+
+[data-theme='light'] body :where(
+  .hero,
+  .hero *,
+  .home-hero,
+  .home-hero *,
+  .dashboard-header,
+  .dashboard-header *,
+  .auth-story-panel,
+  .auth-story-panel *,
+  .country-hero,
+  .country-hero *,
+  .image-overlay,
+  .image-overlay *,
+  .product-actions-overlay,
+  .product-actions-overlay *
+),
+[data-theme='dark'] body :where(
+  .hero,
+  .hero *,
+  .home-hero,
+  .home-hero *,
+  .dashboard-header,
+  .dashboard-header *,
+  .auth-story-panel,
+  .auth-story-panel *,
+  .country-hero,
+  .country-hero *,
+  .image-overlay,
+  .image-overlay *,
+  .product-actions-overlay,
+  .product-actions-overlay *
+) {
+  color: inherit !important;
+}
+
+[data-theme='light'] body :where(
+  .hero h1,
+  .home-hero h1,
+  .dashboard-header h1,
+  .auth-story-panel h2,
+  .country-hero h1
+),
+[data-theme='dark'] body :where(
+  .hero h1,
+  .home-hero h1,
+  .dashboard-header h1,
+  .auth-story-panel h2,
+  .country-hero h1
+) {
+  color: #fffaf0 !important;
+}
+
+[data-theme='light'] body :where(
+  .hero p,
+  .home-hero p,
+  .dashboard-header p,
+  .auth-story-panel p,
+  .country-hero p
+),
+[data-theme='dark'] body :where(
+  .hero p,
+  .home-hero p,
+  .dashboard-header p,
+  .auth-story-panel p,
+  .country-hero p
+) {
+  color: rgba(255, 250, 240, 0.84) !important;
+}
+
+/* Preserve semantic chips after the global readability pass. */
+:where(
+  table,
+  thead,
+  tbody,
+  tr,
+  td,
+  th,
+  .admin-table,
+  .orders-table,
+  .data-table
+) {
+  color: var(--readable-text-soft);
+}
+
+:where(th, .admin-table th, .orders-table th, .data-table th) {
+  color: var(--readable-heading) !important;
+}
+
+:where(td, .admin-table td, .orders-table td, .data-table td) {
+  color: var(--readable-text-soft) !important;
+  border-color: var(--readable-border);
+}
+
+:where(
+  .badge,
+  .tag,
+  .theme-tag,
+  .blog-tag,
+  .category-badge,
+  .story-category-badge,
+  .figure-verified-badge,
+  .event-verified-badge,
+  .verified-badge,
+  .status-badge,
+  .order-status-badge,
+  .order-status-badge-large,
+  .bookmark-type-badge,
+  .nav-badge,
+  .cart-badge
+) {
+  align-items: center;
+  border: 1px solid transparent;
+  color: var(--chip-text, var(--readable-text)) !important;
+}
+
+:where(
+  .badge *,
+  .tag *,
+  .theme-tag *,
+  .blog-tag *,
+  .category-badge *,
+  .story-category-badge *,
+  .figure-verified-badge *,
+  .event-verified-badge *,
+  .verified-badge *,
+  .status-badge *,
+  .order-status-badge *,
+  .order-status-badge-large *,
+  .bookmark-type-badge *,
+  .nav-badge *,
+  .cart-badge *
+) {
+  color: inherit !important;
+}
+
+[data-theme='light'] body {
+  --chip-neutral-text: #24342c;
+  --chip-neutral-bg: rgba(31, 68, 54, 0.1);
+  --chip-neutral-border: rgba(31, 68, 54, 0.22);
+  --chip-success-text: #075335;
+  --chip-success-bg: rgba(16, 185, 129, 0.15);
+  --chip-success-border: rgba(16, 185, 129, 0.38);
+  --chip-warning-text: #6b3d00;
+  --chip-warning-bg: rgba(245, 158, 11, 0.18);
+  --chip-warning-border: rgba(245, 158, 11, 0.42);
+  --chip-danger-text: #7a1b1b;
+  --chip-danger-bg: rgba(239, 68, 68, 0.15);
+  --chip-danger-border: rgba(239, 68, 68, 0.36);
+  --chip-info-text: #16456d;
+  --chip-info-bg: rgba(14, 165, 233, 0.14);
+  --chip-info-border: rgba(14, 165, 233, 0.34);
+}
+
+[data-theme='dark'] body,
+:root:not([data-theme]) body {
+  --chip-neutral-text: rgba(255, 250, 240, 0.88);
+  --chip-neutral-bg: rgba(255, 250, 240, 0.1);
+  --chip-neutral-border: rgba(255, 250, 240, 0.2);
+  --chip-success-text: #a7f3d0;
+  --chip-success-bg: rgba(16, 185, 129, 0.16);
+  --chip-success-border: rgba(16, 185, 129, 0.38);
+  --chip-warning-text: #fde68a;
+  --chip-warning-bg: rgba(245, 158, 11, 0.16);
+  --chip-warning-border: rgba(245, 158, 11, 0.38);
+  --chip-danger-text: #fecaca;
+  --chip-danger-bg: rgba(239, 68, 68, 0.16);
+  --chip-danger-border: rgba(239, 68, 68, 0.38);
+  --chip-info-text: #bae6fd;
+  --chip-info-bg: rgba(14, 165, 233, 0.16);
+  --chip-info-border: rgba(14, 165, 233, 0.38);
+}
+
+:where(
+  .badge,
+  .tag,
+  .theme-tag,
+  .blog-tag,
+  .category-badge,
+  .story-category-badge,
+  .bookmark-type-badge
+) {
+  --chip-text: var(--chip-neutral-text);
+  background: var(--chip-neutral-bg) !important;
+  border-color: var(--chip-neutral-border) !important;
+}
+
+:where(
+  .verified-badge,
+  .figure-verified-badge,
+  .event-verified-badge,
+  .status-badge.published,
+  .status-badge.completed,
+  .status-badge.success,
+  .order-status-badge.delivered,
+  .order-status-badge-large.delivered,
+  .order-status-badge.paid,
+  .order-status-badge-large.paid
+) {
+  --chip-text: var(--chip-success-text);
+  background: var(--chip-success-bg) !important;
+  border-color: var(--chip-success-border) !important;
+}
+
+:where(
+  .status-badge.pending,
+  .status-badge.draft,
+  .order-status-badge.pending,
+  .order-status-badge-large.pending,
+  .order-status-badge.processing,
+  .order-status-badge-large.processing
+) {
+  --chip-text: var(--chip-warning-text);
+  background: var(--chip-warning-bg) !important;
+  border-color: var(--chip-warning-border) !important;
+}
+
+:where(
+  .status-badge.cancelled,
+  .status-badge.rejected,
+  .status-badge.error,
+  .order-status-badge.cancelled,
+  .order-status-badge-large.cancelled,
+  .order-status-badge.failed,
+  .order-status-badge-large.failed
+) {
+  --chip-text: var(--chip-danger-text);
+  background: var(--chip-danger-bg) !important;
+  border-color: var(--chip-danger-border) !important;
+}
+
+:where(
+  .status-badge.info,
+  .order-status-badge.shipped,
+  .order-status-badge-large.shipped,
+  .nav-badge,
+  .cart-badge
+) {
+  --chip-text: var(--chip-info-text);
+  background: var(--chip-info-bg) !important;
+  border-color: var(--chip-info-border) !important;
+}

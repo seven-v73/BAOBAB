@@ -24,6 +24,18 @@
   padding: 2rem 0;
 }
 
+.quizzes-page .quizzes-header h1 {
+  color: #fffaf0 !important;
+  -webkit-text-fill-color: #fffaf0 !important;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.38) !important;
+}
+
+.quizzes-page .quizzes-header .quizzes-subtitle,
+.quizzes-page .quizzes-header p {
+  color: rgba(255, 250, 240, 0.84) !important;
+  -webkit-text-fill-color: rgba(255, 250, 240, 0.84) !important;
+}
+
 .quizzes-header h1 {
   font-size: clamp(2rem, 5vw, 3rem);
   font-weight: 800;
@@ -354,4 +366,3 @@
     width: 100%;
   }
 }
-

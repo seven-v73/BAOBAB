@@ -1,7 +1,9 @@
-import { useState, useEffect } from 'react'
-import { Settings, Trash2, Save, AlertTriangle } from 'lucide-react'
+import { useState } from 'react'
+import { Trash2, Save, AlertTriangle } from 'lucide-react'
 import { communityService } from '../../services/api'
 import { useNavigate } from 'react-router-dom'
+import { useNotifications } from '../../hooks/useNotifications'
+import { MediaUpload } from './MediaUpload'
 import './SettingsTab.css'
 
 interface Community {
@@ -29,6 +31,7 @@ interface SettingsTabProps {
 
 export const SettingsTab = ({ community, isOwner, canManageSettings, onUpdate }: SettingsTabProps) => {
   const navigate = useNavigate()
+  const { success, error: showError, warning } = useNotifications()
   const [loading, setLoading] = useState(false)
   const [formData, setFormData] = useState({
     name: community.name,
@@ -67,10 +70,10 @@ export const SettingsTab = ({ community, isOwner, canManageSettings, onUpdate }:
         settings: formData.settings,
       })
 
-      alert('Paramètres mis à jour avec succès')
+      success('Paramètres mis à jour.')
       onUpdate()
     } catch (err: any) {
-      alert(err.response?.data?.error || 'Erreur lors de la mise à jour')
+      showError(err.response?.data?.error || 'Erreur lors de la mise à jour')
     } finally {
       setLoading(false)
     }
@@ -78,17 +81,17 @@ export const SettingsTab = ({ community, isOwner, canManageSettings, onUpdate }:
 
   const handleDelete = async () => {
     if (deleteConfirmText !== community.name) {
-      alert('Le nom de la communauté ne correspond pas')
+      warning('Le nom saisi ne correspond pas.')
       return
     }
 
     try {
       setLoading(true)
       await communityService.deleteCommunity(community._id)
-      alert('Communauté supprimée avec succès')
+      success('Communauté supprimée.')
       navigate('/communities')
     } catch (err: any) {
-      alert(err.response?.data?.error || 'Erreur lors de la suppression')
+      showError(err.response?.data?.error || 'Erreur lors de la suppression')
     } finally {
       setLoading(false)
       setShowDeleteConfirm(false)
@@ -164,23 +167,21 @@ export const SettingsTab = ({ community, isOwner, canManageSettings, onUpdate }:
             />
           </div>
 
-          <div className="form-group">
-            <label>Image de la communauté (URL)</label>
-            <input
-              type="url"
+          <div className="settings-media-grid">
+            <MediaUpload
+              type="image"
               value={formData.image}
-              onChange={(e) => setFormData({ ...formData, image: e.target.value })}
-              placeholder="https://..."
+              label="Avatar du groupe"
+              onChange={(url) => setFormData({ ...formData, image: url })}
+              onRemove={() => setFormData({ ...formData, image: '' })}
             />
-          </div>
 
-          <div className="form-group">
-            <label>Image de couverture (URL)</label>
-            <input
-              type="url"
+            <MediaUpload
+              type="image"
               value={formData.coverImage}
-              onChange={(e) => setFormData({ ...formData, coverImage: e.target.value })}
-              placeholder="https://..."
+              label="Image de couverture"
+              onChange={(url) => setFormData({ ...formData, coverImage: url })}
+              onRemove={() => setFormData({ ...formData, coverImage: '' })}
             />
           </div>
         </div>
@@ -300,4 +301,3 @@ export const SettingsTab = ({ community, isOwner, canManageSettings, onUpdate }:
     </div>
   )
 }
-

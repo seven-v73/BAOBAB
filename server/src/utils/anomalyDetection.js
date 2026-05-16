@@ -186,7 +186,7 @@ class AnomalyDetector {
 
       this.alertCooldown.set(alertKey, now)
 
-      const subject = `[BAOBAB] Alerte de Sécurité - ${anomaly.severity.toUpperCase()}`
+      const subject = `[MonBaobab] Alerte de Sécurité - ${anomaly.severity.toUpperCase()}`
       const html = `
         <h2>Alerte de Sécurité</h2>
         <p><strong>Type:</strong> ${type}</p>

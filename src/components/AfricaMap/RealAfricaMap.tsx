@@ -200,7 +200,7 @@ export const RealAfricaMap = ({ onCountrySelect }: RealAfricaMapProps) => {
 
       {/* Légende avec recherche */}
       <div className="map-legend">
-        <h3>🌍 Les 54 Pays d'Afrique</h3>
+        <h3>Les 54 pays d’Afrique</h3>
         <p className="legend-subtitle">Cliquez sur un pays sur la carte ou dans la liste pour découvrir ses richesses</p>
         
         <div className="legend-search">
@@ -249,30 +249,30 @@ export const RealAfricaMap = ({ onCountrySelect }: RealAfricaMapProps) => {
           </div>
           <div className="country-details">
             <div className="detail-row">
-              <span className="detail-label">🏛️ Capitale:</span>
+              <span className="detail-label">Capitale</span>
               <span className="detail-value">{selectedCountry.capital}</span>
             </div>
             <div className="detail-row">
-              <span className="detail-label">👥 Population:</span>
+              <span className="detail-label">Population</span>
               <span className="detail-value">{selectedCountry.population}</span>
             </div>
             <div className="detail-row">
-              <span className="detail-label">📐 Superficie:</span>
+              <span className="detail-label">Superficie</span>
               <span className="detail-value">{selectedCountry.area}</span>
             </div>
             <div className="detail-row">
-              <span className="detail-label">🗣️ Langues:</span>
+              <span className="detail-label">Langues</span>
               <span className="detail-value">{selectedCountry.languages.join(', ')}</span>
             </div>
             <div className="detail-row">
-              <span className="detail-label">💰 Monnaie:</span>
+              <span className="detail-label">Monnaie</span>
               <span className="detail-value">{selectedCountry.currency}</span>
             </div>
             <div className="country-description">
               <p>{selectedCountry.description}</p>
             </div>
             <div className="country-culture">
-              <h4>🎨 Culture & Traditions</h4>
+              <h4>Culture et traditions</h4>
               <p>{selectedCountry.culture}</p>
             </div>
           </div>

@@ -2,12 +2,55 @@ import Community from '../models/Community.js'
 import CommunityMember from '../models/CommunityMember.js'
 import CommunityInvitation from '../models/CommunityInvitation.js'
 import CommunityPost from '../models/CommunityPost.js'
+import CommunityRequest from '../models/CommunityRequest.js'
 import User from '../models/User.js'
 import { catchAsync } from '../utils/errorHandler.js'
 import logger from '../utils/logger.js'
 
+const DEFAULT_COMMUNITY_NAME = 'Baobab'
+
+const escapeRegExp = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+
+const ensureDefaultCommunity = async () => {
+  const existing = await Community.findOne({ name: DEFAULT_COMMUNITY_NAME })
+  if (existing) return existing
+
+  const admin = await User.findOne({ role: 'admin', isActive: true }).sort({ createdAt: 1 })
+  const creator = admin || await User.findOne({ isActive: true }).sort({ createdAt: 1 })
+  if (!creator) return null
+
+  const community = await Community.create({
+    name: DEFAULT_COMMUNITY_NAME,
+    description: 'Le cercle commun de MonBaobab pour partager des savoirs, poser des questions et faire vivre la mémoire africaine au quotidien.',
+    type: 'public',
+    culture: 'Afrique',
+    tags: ['monbaobab', 'transmission', 'culture', 'savoirs'],
+    creator: creator._id,
+    settings: {
+      allowMemberPosts: true,
+      requireApproval: false,
+      allowInvitations: true,
+    },
+  })
+
+  await CommunityMember.create({
+    community: community._id,
+    user: creator._id,
+    role: 'owner',
+    status: 'active',
+  })
+
+  community.memberCount = 1
+  await community.save()
+
+  logger.info(`Communauté par défaut créée: ${community.name}`)
+  return community
+}
+
 // GET /api/communities - Récupérer toutes les communautés
 export const getAllCommunities = catchAsync(async (req, res) => {
+  await ensureDefaultCommunity()
+
   const { type, culture, search, page = 1, limit = 20 } = req.query
   const skip = (page - 1) * limit
 
@@ -184,6 +227,167 @@ export const createCommunity = catchAsync(async (req, res) => {
   logger.info(`Nouvelle communauté créée: ${community.name} par ${req.user.name}`)
 
   res.status(201).json(communityObj)
+})
+
+// POST /api/communities/requests - Demander la création d'une communauté
+export const createCommunityRequest = catchAsync(async (req, res) => {
+  const { name, description, type, culture, image, coverImage, tags, settings } = req.body
+
+  if (!name || !description) {
+    return res.status(400).json({ error: 'Le nom et la description sont requis' })
+  }
+
+  const cleanName = name.trim()
+  const exactNameRegex = new RegExp(`^${escapeRegExp(cleanName)}$`, 'i')
+  const existingCommunity = await Community.findOne({ name: { $regex: exactNameRegex } })
+  if (existingCommunity) {
+    return res.status(400).json({ error: 'Une communauté avec ce nom existe déjà' })
+  }
+
+  const existingRequest = await CommunityRequest.findOne({
+    name: { $regex: exactNameRegex },
+    status: 'pending',
+  })
+
+  if (existingRequest) {
+    return res.status(400).json({ error: 'Une demande est déjà en attente pour ce nom' })
+  }
+
+  const request = await CommunityRequest.create({
+    name: cleanName,
+    description: description.trim(),
+    type: type || 'public',
+    culture: culture || '',
+    image: image || '',
+    coverImage: coverImage || '',
+    tags: tags || [],
+    requestedBy: req.user._id,
+    settings: settings || {},
+  })
+
+  await request.populate('requestedBy', 'name email avatar')
+  logger.info(`Demande de communauté créée: ${request.name} par ${req.user.name}`)
+
+  res.status(201).json({
+    message: 'Votre demande a été envoyée à l’administration',
+    request,
+  })
+})
+
+// GET /api/communities/requests - Lister les demandes pour l'administration
+export const getCommunityRequests = catchAsync(async (req, res) => {
+  const { status = 'pending', page = 1, limit = 50 } = req.query
+  const skip = (page - 1) * limit
+  const query = status === 'all' ? {} : { status }
+
+  const requests = await CommunityRequest.find(query)
+    .populate('requestedBy', 'name email avatar')
+    .populate('reviewedBy', 'name email')
+    .populate('community', 'name')
+    .sort({ createdAt: -1 })
+    .skip(skip)
+    .limit(parseInt(limit))
+    .lean()
+
+  const total = await CommunityRequest.countDocuments(query)
+
+  res.json({
+    requests,
+    pagination: {
+      page: parseInt(page),
+      limit: parseInt(limit),
+      total,
+      pages: Math.ceil(total / limit),
+    },
+  })
+})
+
+// PUT /api/communities/requests/:id/approve - Approuver une demande
+export const approveCommunityRequest = catchAsync(async (req, res) => {
+  const request = await CommunityRequest.findById(req.params.id)
+
+  if (!request) {
+    return res.status(404).json({ error: 'Demande non trouvée' })
+  }
+
+  if (request.status !== 'pending') {
+    return res.status(400).json({ error: 'Cette demande a déjà été traitée' })
+  }
+
+  const existingCommunity = await Community.findOne({ name: { $regex: new RegExp(`^${escapeRegExp(request.name)}$`, 'i') } })
+  if (existingCommunity) {
+    return res.status(400).json({ error: 'Une communauté avec ce nom existe déjà' })
+  }
+
+  const community = await Community.create({
+    name: request.name,
+    description: request.description,
+    type: request.type,
+    culture: request.culture,
+    image: request.image,
+    coverImage: request.coverImage,
+    tags: request.tags,
+    creator: request.requestedBy,
+    settings: request.settings,
+  })
+
+  await CommunityMember.create({
+    community: community._id,
+    user: request.requestedBy,
+    role: 'owner',
+    status: 'active',
+  })
+
+  community.memberCount = 1
+  await community.save()
+
+  request.status = 'approved'
+  request.reviewedBy = req.user._id
+  request.reviewedAt = new Date()
+  request.adminNote = req.body.adminNote || ''
+  request.community = community._id
+  await request.save()
+
+  await request.populate('requestedBy', 'name email avatar')
+  await request.populate('reviewedBy', 'name email')
+  await request.populate('community', 'name')
+
+  logger.info(`Demande de communauté approuvée: ${request.name} par ${req.user.name}`)
+
+  res.json({
+    message: 'Communauté créée avec succès',
+    request,
+    community,
+  })
+})
+
+// PUT /api/communities/requests/:id/reject - Refuser une demande
+export const rejectCommunityRequest = catchAsync(async (req, res) => {
+  const request = await CommunityRequest.findById(req.params.id)
+
+  if (!request) {
+    return res.status(404).json({ error: 'Demande non trouvée' })
+  }
+
+  if (request.status !== 'pending') {
+    return res.status(400).json({ error: 'Cette demande a déjà été traitée' })
+  }
+
+  request.status = 'rejected'
+  request.reviewedBy = req.user._id
+  request.reviewedAt = new Date()
+  request.adminNote = req.body.adminNote || ''
+  await request.save()
+
+  await request.populate('requestedBy', 'name email avatar')
+  await request.populate('reviewedBy', 'name email')
+
+  logger.info(`Demande de communauté refusée: ${request.name} par ${req.user.name}`)
+
+  res.json({
+    message: 'Demande refusée',
+    request,
+  })
 })
 
 // PUT /api/communities/:id - Mettre à jour une communauté
@@ -620,4 +824,3 @@ export const unbanMember = catchAsync(async (req, res) => {
 
   res.json({ message: 'Membre débloqué avec succès', membership })
 })
-

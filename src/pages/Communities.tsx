@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom'
 import { Layout } from '../components/Layout/Layout'
 import { communityService } from '../services/api'
 import { useAuthStore } from '../stores/authStore'
+import { useNotifications } from '../hooks/useNotifications'
+import { EmptyState } from '../components/UX/EmptyState'
+import { Skeleton } from '../components/UX/Skeleton'
 import { Users, Lock, Globe, Plus, Search } from 'lucide-react'
 import './Communities.css'
 
@@ -30,6 +33,7 @@ interface Community {
 
 export const Communities = () => {
   const { user } = useAuthStore()
+  const { success, error: showError, info } = useNotifications()
   const [communities, setCommunities] = useState<Community[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
@@ -38,6 +42,8 @@ export const Communities = () => {
     culture: '',
     search: '',
   })
+  const hasActiveFilters = Boolean(filters.type || filters.culture || filters.search)
+  const clearFilters = () => setFilters({ type: '', culture: '', search: '' })
 
   const fetchCommunities = async () => {
     try {
@@ -63,9 +69,10 @@ export const Communities = () => {
   const handleJoin = async (communityId: string) => {
     try {
       await communityService.joinCommunity(communityId)
+      success('Vous avez rejoint la communauté.')
       fetchCommunities()
     } catch (err: any) {
-      alert(err.response?.data?.error || 'Erreur lors de la demande d\'adhésion')
+      showError(err.response?.data?.error || 'Erreur lors de la demande d’adhésion')
     }
   }
 
@@ -73,14 +80,14 @@ export const Communities = () => {
     <Layout>
       <div className="communities-page">
         <div className="communities-header">
-          <h1>🌍 Communautés</h1>
-          <p>Rejoignez des communautés ou créez la vôtre pour partager votre culture</p>
+          <h1>Communautés</h1>
+          <p>Le cercle Baobab est ouvert à tous. Les nouveaux groupes passent par une demande pour garder un espace lisible et bien animé.</p>
         </div>
 
         <div className="communities-actions">
           <Link to="/communities/create" className="btn btn-primary">
             <Plus size={20} />
-            Créer une communauté
+            Proposer un groupe
           </Link>
         </div>
 
@@ -112,20 +119,48 @@ export const Communities = () => {
           />
         </div>
 
+        {hasActiveFilters && (
+          <div className="active-filter-chips" aria-label="Filtres actifs">
+            {filters.search && (
+              <button type="button" className="active-filter-chip" onClick={() => setFilters({ ...filters, search: '' })}>
+                <span>Recherche: {filters.search}</span>
+                <span aria-hidden="true">×</span>
+              </button>
+            )}
+            {filters.type && (
+              <button type="button" className="active-filter-chip" onClick={() => setFilters({ ...filters, type: '' })}>
+                <span>{filters.type === 'public' ? 'Publiques' : 'Privées'}</span>
+                <span aria-hidden="true">×</span>
+              </button>
+            )}
+            {filters.culture && (
+              <button type="button" className="active-filter-chip" onClick={() => setFilters({ ...filters, culture: '' })}>
+                <span>{filters.culture}</span>
+                <span aria-hidden="true">×</span>
+              </button>
+            )}
+            <button type="button" className="active-filter-clear" onClick={clearFilters}>
+              Tout effacer
+            </button>
+          </div>
+        )}
+
         {error && (
           <div className="error-message">{error}</div>
         )}
 
         {loading ? (
-          <div className="loading">Chargement des communautés...</div>
+          <Skeleton variant="cards" count={6} label="Chargement des communautés" />
         ) : communities.length === 0 ? (
-          <div className="empty-state">
-            <p>Aucune communauté trouvée. Soyez le premier à en créer une !</p>
-          </div>
+          <EmptyState
+            title="Aucune communauté ne correspond à ces filtres"
+            description="Essayez une recherche plus large ou revenez au cercle Baobab, le point de départ commun de MonBaobab."
+            action={<button className="btn btn-outline" onClick={clearFilters}>Réinitialiser les filtres</button>}
+          />
         ) : (
           <div className="communities-grid">
             {communities.map(community => (
-              <div key={community._id} className="community-card">
+              <div key={community._id} className={`community-card ${community.name.toLowerCase() === 'baobab' ? 'default-community-card' : ''}`}>
                 {community.coverImage && (
                   <div className="community-cover">
                     <img src={community.coverImage} alt={community.name} />
@@ -149,6 +184,12 @@ export const Communities = () => {
                           <Globe size={14} />
                         )}
                         <span>{community.type === 'private' ? 'Privée' : 'Publique'}</span>
+                        {community.name.toLowerCase() === 'baobab' && (
+                          <>
+                            <span>•</span>
+                            <span>Cercle officiel</span>
+                          </>
+                        )}
                         {community.culture && (
                           <>
                             <span>•</span>
@@ -193,7 +234,7 @@ export const Communities = () => {
                     ) : (
                       <button
                         className="btn btn-outline"
-                        onClick={() => alert('Cette communauté est privée. Une invitation est requise.')}
+                        onClick={() => info('Cette communauté est privée. Une invitation est requise pour y accéder.')}
                       >
                         Demander l'accès
                       </button>
@@ -208,4 +249,3 @@ export const Communities = () => {
     </Layout>
   )
 }
-

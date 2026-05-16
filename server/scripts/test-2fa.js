@@ -1,7 +1,7 @@
 import { generateSecret, generateQRCodeURL, generateTOTP, verifyTOTP } from '../src/utils/totp.js'
 
 // Configuration TOTP pour les tests (sans charger env.js qui nécessite MongoDB)
-const TOTP_ISSUER = process.env.TOTP_ISSUER || 'BAOBAB'
+const TOTP_ISSUER = process.env.TOTP_ISSUER || 'MonBaobab'
 const TOTP_WINDOW = parseInt(process.env.TOTP_WINDOW) || 2
 
 /**

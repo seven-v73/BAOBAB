@@ -1,0 +1,547 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for scripts/seedStories.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">scripts</a> seedStories.js</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>0/35</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>0/10</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>0/4</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>0/32</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line low'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a>
+<a name='L28'></a><a href='#L28'>28</a>
+<a name='L29'></a><a href='#L29'>29</a>
+<a name='L30'></a><a href='#L30'>30</a>
+<a name='L31'></a><a href='#L31'>31</a>
+<a name='L32'></a><a href='#L32'>32</a>
+<a name='L33'></a><a href='#L33'>33</a>
+<a name='L34'></a><a href='#L34'>34</a>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a>
+<a name='L42'></a><a href='#L42'>42</a>
+<a name='L43'></a><a href='#L43'>43</a>
+<a name='L44'></a><a href='#L44'>44</a>
+<a name='L45'></a><a href='#L45'>45</a>
+<a name='L46'></a><a href='#L46'>46</a>
+<a name='L47'></a><a href='#L47'>47</a>
+<a name='L48'></a><a href='#L48'>48</a>
+<a name='L49'></a><a href='#L49'>49</a>
+<a name='L50'></a><a href='#L50'>50</a>
+<a name='L51'></a><a href='#L51'>51</a>
+<a name='L52'></a><a href='#L52'>52</a>
+<a name='L53'></a><a href='#L53'>53</a>
+<a name='L54'></a><a href='#L54'>54</a>
+<a name='L55'></a><a href='#L55'>55</a>
+<a name='L56'></a><a href='#L56'>56</a>
+<a name='L57'></a><a href='#L57'>57</a>
+<a name='L58'></a><a href='#L58'>58</a>
+<a name='L59'></a><a href='#L59'>59</a>
+<a name='L60'></a><a href='#L60'>60</a>
+<a name='L61'></a><a href='#L61'>61</a>
+<a name='L62'></a><a href='#L62'>62</a>
+<a name='L63'></a><a href='#L63'>63</a>
+<a name='L64'></a><a href='#L64'>64</a>
+<a name='L65'></a><a href='#L65'>65</a>
+<a name='L66'></a><a href='#L66'>66</a>
+<a name='L67'></a><a href='#L67'>67</a>
+<a name='L68'></a><a href='#L68'>68</a>
+<a name='L69'></a><a href='#L69'>69</a>
+<a name='L70'></a><a href='#L70'>70</a>
+<a name='L71'></a><a href='#L71'>71</a>
+<a name='L72'></a><a href='#L72'>72</a>
+<a name='L73'></a><a href='#L73'>73</a>
+<a name='L74'></a><a href='#L74'>74</a>
+<a name='L75'></a><a href='#L75'>75</a>
+<a name='L76'></a><a href='#L76'>76</a>
+<a name='L77'></a><a href='#L77'>77</a>
+<a name='L78'></a><a href='#L78'>78</a>
+<a name='L79'></a><a href='#L79'>79</a>
+<a name='L80'></a><a href='#L80'>80</a>
+<a name='L81'></a><a href='#L81'>81</a>
+<a name='L82'></a><a href='#L82'>82</a>
+<a name='L83'></a><a href='#L83'>83</a>
+<a name='L84'></a><a href='#L84'>84</a>
+<a name='L85'></a><a href='#L85'>85</a>
+<a name='L86'></a><a href='#L86'>86</a>
+<a name='L87'></a><a href='#L87'>87</a>
+<a name='L88'></a><a href='#L88'>88</a>
+<a name='L89'></a><a href='#L89'>89</a>
+<a name='L90'></a><a href='#L90'>90</a>
+<a name='L91'></a><a href='#L91'>91</a>
+<a name='L92'></a><a href='#L92'>92</a>
+<a name='L93'></a><a href='#L93'>93</a>
+<a name='L94'></a><a href='#L94'>94</a>
+<a name='L95'></a><a href='#L95'>95</a>
+<a name='L96'></a><a href='#L96'>96</a>
+<a name='L97'></a><a href='#L97'>97</a>
+<a name='L98'></a><a href='#L98'>98</a>
+<a name='L99'></a><a href='#L99'>99</a>
+<a name='L100'></a><a href='#L100'>100</a>
+<a name='L101'></a><a href='#L101'>101</a>
+<a name='L102'></a><a href='#L102'>102</a>
+<a name='L103'></a><a href='#L103'>103</a>
+<a name='L104'></a><a href='#L104'>104</a>
+<a name='L105'></a><a href='#L105'>105</a>
+<a name='L106'></a><a href='#L106'>106</a>
+<a name='L107'></a><a href='#L107'>107</a>
+<a name='L108'></a><a href='#L108'>108</a>
+<a name='L109'></a><a href='#L109'>109</a>
+<a name='L110'></a><a href='#L110'>110</a>
+<a name='L111'></a><a href='#L111'>111</a>
+<a name='L112'></a><a href='#L112'>112</a>
+<a name='L113'></a><a href='#L113'>113</a>
+<a name='L114'></a><a href='#L114'>114</a>
+<a name='L115'></a><a href='#L115'>115</a>
+<a name='L116'></a><a href='#L116'>116</a>
+<a name='L117'></a><a href='#L117'>117</a>
+<a name='L118'></a><a href='#L118'>118</a>
+<a name='L119'></a><a href='#L119'>119</a>
+<a name='L120'></a><a href='#L120'>120</a>
+<a name='L121'></a><a href='#L121'>121</a>
+<a name='L122'></a><a href='#L122'>122</a>
+<a name='L123'></a><a href='#L123'>123</a>
+<a name='L124'></a><a href='#L124'>124</a>
+<a name='L125'></a><a href='#L125'>125</a>
+<a name='L126'></a><a href='#L126'>126</a>
+<a name='L127'></a><a href='#L127'>127</a>
+<a name='L128'></a><a href='#L128'>128</a>
+<a name='L129'></a><a href='#L129'>129</a>
+<a name='L130'></a><a href='#L130'>130</a>
+<a name='L131'></a><a href='#L131'>131</a>
+<a name='L132'></a><a href='#L132'>132</a>
+<a name='L133'></a><a href='#L133'>133</a>
+<a name='L134'></a><a href='#L134'>134</a>
+<a name='L135'></a><a href='#L135'>135</a>
+<a name='L136'></a><a href='#L136'>136</a>
+<a name='L137'></a><a href='#L137'>137</a>
+<a name='L138'></a><a href='#L138'>138</a>
+<a name='L139'></a><a href='#L139'>139</a>
+<a name='L140'></a><a href='#L140'>140</a>
+<a name='L141'></a><a href='#L141'>141</a>
+<a name='L142'></a><a href='#L142'>142</a>
+<a name='L143'></a><a href='#L143'>143</a>
+<a name='L144'></a><a href='#L144'>144</a>
+<a name='L145'></a><a href='#L145'>145</a>
+<a name='L146'></a><a href='#L146'>146</a>
+<a name='L147'></a><a href='#L147'>147</a>
+<a name='L148'></a><a href='#L148'>148</a>
+<a name='L149'></a><a href='#L149'>149</a>
+<a name='L150'></a><a href='#L150'>150</a>
+<a name='L151'></a><a href='#L151'>151</a>
+<a name='L152'></a><a href='#L152'>152</a>
+<a name='L153'></a><a href='#L153'>153</a>
+<a name='L154'></a><a href='#L154'>154</a>
+<a name='L155'></a><a href='#L155'>155</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import mongoose from 'mongoose'
+import dotenv from 'dotenv'
+import { connectDB } from '../config/database.js'
+import Story from '../models/Story.js'
+import Country from '../models/Country.js'
+import logger from '../utils/logger.js'
+&nbsp;
+<span class="cstat-no" title="statement not covered" >dotenv.config()</span>
+&nbsp;
+const storiesData = <span class="cstat-no" title="statement not covered" >[</span>
+  {
+    title: "L'Épopée de Soundiata",
+    subtitle: "Le Lion du Manding",
+    description: "Découvrez l'histoire épique de Soundiata Keïta, de son enfance difficile à sa victoire légendaire qui fonda l'Empire du Mali.",
+    category: 'Épopée',
+    difficulty: 'beginner',
+    author: 'MonBaobab Team',
+    tags: ['Soundiata', 'Empire du Mali', 'Épopée', 'Légende'],
+    chapters: [
+      {
+        title: "L'Enfance du Lion",
+        content: "Soundiata naquit dans le royaume du Manding, mais une malédiction le frappa dès sa naissance. Il ne pouvait ni marcher ni se tenir debout. Sa mère, Sogolon, l'éleva avec amour malgré les moqueries du royaume. Personne ne pouvait imaginer que cet enfant handicapé deviendrait un jour le plus grand roi de l'Afrique de l'Ouest.\n\nLes années passèrent, et Soundiata grandit en observant, en apprenant, en développant sa force intérieure. Un jour, alors qu'il avait sept ans, sa mère fut humiliée par la première épouse du roi. La colère de Soundiata fut si grande qu'il se leva pour la première fois, brisant les barres de fer qui soutenaient sa maison.",
+        order: 1,
+      },
+      {
+        title: "L'Exil",
+        content: "Après la mort de son père, Soundiata et sa famille furent contraints à l'exil. Ils errèrent de royaume en royaume, cherchant refuge. Pendant ces années difficiles, Soundiata apprit les arts de la guerre, la diplomatie, et forgea des alliances avec les peuples qu'il rencontrait.\n\nIl devint un guerrier redoutable et un leader charismatique. Les récits de ses exploits commencèrent à se répandre, et les peuples opprimés du Manding commencèrent à voir en lui leur libérateur.",
+        order: 2,
+      },
+      {
+        title: "La Bataille de Kirina",
+        content: "Le moment décisif arriva. Soumaoro Kanté, le roi tyran de Sosso, avait asservi tout le Manding. Soundiata rassembla une grande armée et marcha contre lui.\n\nLa bataille de Kirina fut légendaire. Les deux armées s'affrontèrent avec férocité. Soundiata, monté sur son cheval, chargea directement Soumaoro. Leurs lances se croisèrent, et dans un combat épique, Soundiata triompha.\n\nAvec cette victoire, Soundiata unifia tous les peuples mandingues et fonda l'Empire du Mali, qui deviendrait l'un des plus grands empires de l'histoire africaine.",
+        order: 3,
+      },
+    ],
+    readingTime: 15,
+    tags: ['Soundiata', 'Empire du Mali', 'Épopée', 'Légende', 'Guerre'],
+    isFeatured: true,
+    published: true,
+  },
+  {
+    title: "Le Pèlerinage de Mansa Musa",
+    subtitle: "L'Or du Mali",
+    description: "Suivez le voyage extraordinaire de Mansa Musa, l'empereur le plus riche de l'histoire, lors de son pèlerinage à La Mecque.",
+    category: 'Histoire',
+    difficulty: 'beginner',
+    author: 'MonBaobab Team',
+    tags: ['Mansa Musa', 'Empire du Mali', 'Pèlerinage', 'Commerce', 'Or'],
+    chapters: [
+      {
+        title: "La Décision",
+        content: "En 1324, Mansa Musa, dixième empereur du Mali, décida d'accomplir le hajj, le pèlerinage à La Mecque. Mais ce ne serait pas un pèlerinage ordinaire. Mansa Musa voulait montrer au monde la grandeur et la richesse de son empire.\n\nIl prépara une caravane comme jamais on n'en avait vu : 60 000 hommes, 12 000 esclaves portant des bâtons d'or, 80 chameaux chargés chacun de 300 livres d'or. La caravane s'étendait sur des kilomètres.",
+        order: 1,
+      },
+      {
+        title: "Le Voyage",
+        content: "La caravane traversa le désert du Sahara, puis l'Égypte. Partout où elle passait, Mansa Musa distribuait de l'or avec une générosité sans précédent. À chaque ville, il construisait une mosquée.\n\nEn Égypte, il distribua tant d'or que le prix de l'or chuta et provoqua une inflation qui dura des années. Les marchands égyptiens racontèrent cette histoire dans tout le monde médiéval, faisant connaître la richesse du Mali jusqu'en Europe.",
+        order: 2,
+      },
+      {
+        title: "L'Héritage",
+        content: "Le pèlerinage de Mansa Musa transforma la perception du monde sur l'Afrique. Pour la première fois, les cartes européennes montrèrent l'Empire du Mali avec un roi assis sur un trône d'or.\n\nMansa Musa investit massivement dans l'éducation à son retour, construisant des mosquées et des universités. Tombouctou devint un centre intellectuel majeur, attirant des savants de tout le monde musulman. L'héritage de Mansa Musa continue d'inspirer aujourd'hui.",
+        order: 3,
+      },
+    ],
+    readingTime: 12,
+    tags: ['Mansa Musa', 'Pèlerinage', 'Or', 'Commerce', 'Éducation'],
+    isFeatured: true,
+    published: true,
+  },
+  {
+    title: "La Résistance de la Reine Nzinga",
+    subtitle: "La Guerrière Intrépide",
+    description: "Découvrez comment la Reine Nzinga Mbande défendit son royaume contre la colonisation portugaise pendant plus de 30 ans.",
+    category: 'Biographie',
+    difficulty: 'intermediate',
+    author: 'MonBaobab Team',
+    tags: ['Reine Nzinga', 'Résistance', 'Angola', 'Colonisation', 'Femme dirigeante'],
+    chapters: [
+      {
+        title: "La Jeune Diplomate",
+        content: "Nzinga naquit en 1583 dans le royaume de Ndongo, en Angola. Dès son jeune âge, elle montra une intelligence exceptionnelle et un talent pour la diplomatie. Son frère, le roi, l'envoya négocier avec les Portugais.\n\nLors d'une célèbre rencontre, les Portugais ne lui offrirent qu'un tapis par terre pour s'asseoir, refusant de lui donner une chaise. Nzinga ordonna à une de ses servantes de s'agenouiller et s'assit sur son dos, montrant qu'elle était l'égale de n'importe quel roi.",
+        order: 1,
+      },
+      {
+        title: "La Reine Guerrière",
+        content: "Devenue reine après la mort de son frère, Nzinga refusa de se soumettre aux Portugais. Elle unifia les royaumes de Ndongo et Matamba et mena une guerre de résistance acharnée.\n\nPendant plus de 30 ans, elle combattit les Portugais avec une stratégie militaire brillante. Elle forma des alliances avec les Néerlandais, utilisa la guérilla, et défendit farouchement l'indépendance de son peuple. Même à 60 ans, elle menait encore ses troupes au combat.",
+        order: 2,
+      },
+      {
+        title: "L'Héritage",
+        content: "La Reine Nzinga est devenue un symbole de résistance et de leadership féminin. Son courage et sa détermination continuent d'inspirer les générations actuelles. Elle prouva qu'une femme pouvait être un leader exceptionnel et défendre son peuple contre les plus grandes puissances.\n\nSon histoire rappelle que l'Afrique a toujours eu des dirigeantes fortes et que la résistance à l'oppression est un droit fondamental.",
+        order: 3,
+      },
+    ],
+    readingTime: 18,
+    tags: ['Reine Nzinga', 'Résistance', 'Angola', 'Femme dirigeante', 'Guerre'],
+    isFeatured: true,
+    published: true,
+  },
+]
+&nbsp;
+const seedStories = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >as</span>ync () =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >  try {</span>
+    // Ne pas reconnecter si déjà connecté
+<span class="cstat-no" title="statement not covered" >    if (mongoose.connection.readyState === 0) {</span>
+<span class="cstat-no" title="statement not covered" >      await connectDB()</span>
+    }
+<span class="cstat-no" title="statement not covered" >    logger.info('🔄 Début de l\'ajout des récits historiques...')</span>
+&nbsp;
+    let created = <span class="cstat-no" title="statement not covered" >0</span>
+    let ignored = <span class="cstat-no" title="statement not covered" >0</span>
+    const errors = <span class="cstat-no" title="statement not covered" >[]</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    for (const storyData of storiesData) {</span>
+<span class="cstat-no" title="statement not covered" >      try {</span>
+        const existingStory = <span class="cstat-no" title="statement not covered" >await Story.findOne({ title: storyData.title })</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >        if (existingStory) {</span>
+<span class="cstat-no" title="statement not covered" >          logger.info(`⏭️  Récit déjà existant: "${storyData.title}"`)</span>
+<span class="cstat-no" title="statement not covered" >          ignored++</span>
+<span class="cstat-no" title="statement not covered" >          continue</span>
+        }
+&nbsp;
+<span class="cstat-no" title="statement not covered" >        await Story.create(storyData)</span>
+<span class="cstat-no" title="statement not covered" >        created++</span>
+<span class="cstat-no" title="statement not covered" >        logger.info(`✅ Récit créé: "${storyData.title}"`)</span>
+      } catch (error) {
+<span class="cstat-no" title="statement not covered" >        errors.push({ story: storyData.title, error: error.message })</span>
+<span class="cstat-no" title="statement not covered" >        logger.error('❌ Erreur lors de l\'ajout du récit', { story: storyData.title, error: error.message })</span>
+<span class="cstat-no" title="statement not covered" >        ignored++</span>
+      }
+    }
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    logger.info(`✨ Ajout terminé: ${created} récits créés, ${ignored} ignorés`)</span>
+<span class="cstat-no" title="statement not covered" >    if (errors.length &gt; 0) {</span>
+<span class="cstat-no" title="statement not covered" >      logger.warn(`⚠️  ${errors.length} erreur(s) rencontrée(s)`)</span>
+<span class="cstat-no" title="statement not covered" >      errors.forEach(<span class="fstat-no" title="function not covered" >er</span>r =&gt; <span class="cstat-no" title="statement not covered" >logger.warn(`   - ${err.story}: ${err.error}`))</span></span>
+    }
+<span class="cstat-no" title="statement not covered" >    return { created, ignored, errors }</span>
+  } catch (error) {
+<span class="cstat-no" title="statement not covered" >    logger.error('❌ Erreur lors de l\'exécution du script de seed', { message: error.message, stack: error.stack })</span>
+<span class="cstat-no" title="statement not covered" >    throw error</span>
+  }
+}
+&nbsp;
+// Exporter la fonction
+export { seedStories }
+&nbsp;
+// Exécuter si appelé directement (pas en import)
+<span class="cstat-no" title="statement not covered" >if (process.argv[1] &amp;&amp; process.argv[1].includes('seedStories.js')) {</span>
+<span class="cstat-no" title="statement not covered" >  seedStories().then(<span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >process.exit(0))</span>.catch(<span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >process.exit(1))</span></span>
+}
+&nbsp;
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-05-10T01:15:07.157Z
+            </div>
+        <script src="../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../sorter.js"></script>
+        <script src="../block-navigation.js"></script>
+    </body>
+</html>
+    

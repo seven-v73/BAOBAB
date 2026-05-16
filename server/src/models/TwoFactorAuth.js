@@ -41,10 +41,6 @@ const twoFactorAuthSchema = new mongoose.Schema({
   timestamps: true,
 })
 
-// Index pour recherche rapide
-twoFactorAuthSchema.index({ user: 1 })
-
 const TwoFactorAuth = mongoose.model('TwoFactorAuth', twoFactorAuthSchema)
 
 export default TwoFactorAuth
-

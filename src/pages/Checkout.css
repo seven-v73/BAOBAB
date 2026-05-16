@@ -6,10 +6,8 @@
 
 .checkout h1 {
   margin-bottom: 2rem;
-  background: linear-gradient(135deg, #d4af37 0%, #f4d03f 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--color-primary);
+  -webkit-text-fill-color: currentColor;
   font-size: 2.5rem;
   font-weight: 800;
 }
@@ -79,8 +77,8 @@
 
 .card-element-wrapper {
   padding: 1.5rem;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1.5px solid rgba(255, 255, 255, 0.1);
+  background: var(--readable-surface-soft, var(--color-bg-hover));
+  border: 1.5px solid var(--readable-border, var(--color-border));
   border-radius: 12px;
   margin-top: 1rem;
 }
@@ -101,14 +99,14 @@
 .summary-items {
   margin-bottom: 1.5rem;
   padding-bottom: 1.5rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid var(--readable-border, var(--color-border));
 }
 
 .summary-item {
   display: flex;
   justify-content: space-between;
   margin-bottom: 0.75rem;
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--readable-text-soft, var(--color-text));
 }
 
 .summary-totals {
@@ -119,7 +117,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 0.75rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: var(--readable-text-soft, var(--color-text));
 }
 
 .summary-line.discount {
@@ -167,4 +165,3 @@
     padding: 1.5rem;
   }
 }
-

@@ -1,0 +1,119 @@
+.ux-skeleton {
+  --skeleton-base: color-mix(in srgb, var(--color-bg-light) 76%, var(--color-border));
+  --skeleton-shine: color-mix(in srgb, #ffffff 18%, transparent);
+}
+
+.ux-skeleton-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+  gap: 1rem;
+}
+
+.ux-skeleton-card,
+.ux-skeleton-table,
+.ux-skeleton-dashboard {
+  border: 1px solid var(--polish-border, var(--color-border));
+  border-radius: 10px;
+  background: var(--color-bg-card);
+  box-shadow: var(--polish-shadow, 0 12px 34px rgba(0, 0, 0, 0.12));
+}
+
+.ux-skeleton-card {
+  padding: 1rem;
+}
+
+.ux-skeleton-media,
+.ux-skeleton-line,
+.ux-skeleton-row span,
+.ux-skeleton-hero,
+.ux-skeleton-stats span,
+.ux-skeleton-panel {
+  display: block;
+  overflow: hidden;
+  border-radius: 8px;
+  background:
+    linear-gradient(90deg, transparent, var(--skeleton-shine), transparent),
+    var(--skeleton-base);
+  background-size: 220% 100%;
+  animation: ux-skeleton-shimmer 1.25s ease-in-out infinite;
+}
+
+.ux-skeleton-media {
+  height: 130px;
+  margin-bottom: 1rem;
+}
+
+.ux-skeleton-line {
+  height: 12px;
+  width: 72%;
+  margin-top: 0.75rem;
+}
+
+.ux-skeleton-line.wide {
+  width: 92%;
+  height: 16px;
+}
+
+.ux-skeleton-line.short {
+  width: 42%;
+}
+
+.ux-skeleton-table {
+  display: grid;
+  gap: 0.75rem;
+  padding: 1rem;
+}
+
+.ux-skeleton-row {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 90px;
+  gap: 1rem;
+}
+
+.ux-skeleton-row span {
+  height: 18px;
+}
+
+.ux-skeleton-dashboard {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.ux-skeleton-hero {
+  height: 150px;
+}
+
+.ux-skeleton-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+}
+
+.ux-skeleton-stats span {
+  height: 92px;
+}
+
+.ux-skeleton-panel {
+  height: 240px;
+}
+
+@keyframes ux-skeleton-shimmer {
+  0% {
+    background-position: 120% 0;
+  }
+  100% {
+    background-position: -120% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ux-skeleton-media,
+  .ux-skeleton-line,
+  .ux-skeleton-row span,
+  .ux-skeleton-hero,
+  .ux-skeleton-stats span,
+  .ux-skeleton-panel {
+    animation: none;
+  }
+}

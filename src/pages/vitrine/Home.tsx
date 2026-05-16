@@ -36,22 +36,22 @@ export const Home = () => {
           <h2 className="section-title">Nos Valeurs</h2>
           <div className="values-grid">
             <Card className="value-card">
-              <div className="value-icon">🌍</div>
+              <div className="value-icon">Afrique</div>
               <h3>Authenticité</h3>
               <p>Des produits et histoires authentiques directement du continent africain</p>
             </Card>
             <Card className="value-card">
-              <div className="value-icon">🤝</div>
+              <div className="value-icon">Lien</div>
               <h3>Communauté</h3>
               <p>Unir les peuples autour de la richesse culturelle africaine</p>
             </Card>
             <Card className="value-card">
-              <div className="value-icon">✨</div>
+              <div className="value-icon">Soin</div>
               <h3>Excellence</h3>
               <p>Promouvoir l'excellence et la qualité dans tous nos produits</p>
             </Card>
             <Card className="value-card">
-              <div className="value-icon">📚</div>
+              <div className="value-icon">Mémoire</div>
               <h3>Éducation</h3>
               <p>Partager l'histoire et les connaissances du continent</p>
             </Card>
@@ -75,13 +75,13 @@ export const Home = () => {
               </Link>
             </div>
             <div className="feature-image">
-              <div className="image-placeholder">📖</div>
+              <div className="image-placeholder">Récits</div>
             </div>
           </div>
 
           <div className="features-grid reverse">
             <div className="feature-image">
-              <div className="image-placeholder">🛍️</div>
+              <div className="image-placeholder">Marché</div>
             </div>
             <div className="feature-content">
               <h2>Produits Africains Authentiques</h2>
@@ -99,4 +99,3 @@ export const Home = () => {
     </div>
   )
 }
-

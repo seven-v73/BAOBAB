@@ -1,0 +1,356 @@
+/* Administration overflow and readability guardrails */
+
+.admin-dashboard,
+.admin-dashboard * {
+  min-width: 0;
+}
+
+.admin-content,
+.admin-content-body,
+.admin-section-header,
+.admin-sidebar,
+.admin-nav,
+.admin-users,
+.admin-products,
+.admin-countries,
+.admin-collections,
+.admin-figures,
+.admin-timeline,
+.admin-quiz,
+.admin-settings {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.admin-content {
+  overflow-x: hidden;
+}
+
+.admin-content-body {
+  width: 100%;
+}
+
+.admin-page-title,
+.admin-page-subtitle,
+.admin-section-header h2,
+.admin-section-header p,
+.admin-sidebar-header h2,
+.admin-role,
+.admin-user-name,
+.admin-user-email,
+.admin-nav-item,
+.admin-nav-item span,
+.form-card h3,
+.country-form-card h3,
+.product-form-card h3,
+.user-form-card h3,
+.settings-card h3,
+.stat-card h3,
+.country-info-admin p,
+.country-info-admin strong,
+.country-description-admin,
+.product-info-admin h4,
+.product-info-admin p,
+.table-cell-with-icon,
+.admin-table th,
+.admin-table td,
+.form-tab,
+.completion-chips span,
+.section-header-tab h4,
+.empty-message {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  hyphens: auto;
+}
+
+.admin-page-title,
+.admin-section-header h2,
+.form-card h3,
+.country-form-card h3,
+.product-form-card h3,
+.user-form-card h3,
+.settings-card h3,
+.section-header-tab h4 {
+  line-height: 1.15;
+  text-wrap: balance;
+}
+
+.admin-section-header {
+  gap: 1rem;
+}
+
+.admin-section-header > div {
+  min-width: 0;
+}
+
+.admin-section-header > div:last-child {
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.admin-section-header .btn,
+.admin-section-header button,
+.section-header-tab .btn,
+.section-header-tab button,
+.media-section-header .btn,
+.media-section-header button {
+  white-space: normal;
+  min-width: 0;
+}
+
+.admin-sidebar-header h2 {
+  min-width: 0;
+}
+
+.admin-sidebar-header h2 span:not(.admin-logo-mark) {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.admin-nav-item {
+  width: 100%;
+  min-height: 46px;
+}
+
+.admin-nav-item span:not([class^="icon-"]) {
+  min-width: 0;
+  white-space: normal;
+  line-height: 1.25;
+}
+
+.admin-user-info {
+  min-width: 0;
+}
+
+.admin-user-details {
+  min-width: 0;
+}
+
+.admin-user-name,
+.admin-user-email {
+  max-width: 100%;
+}
+
+.users-grid,
+.products-grid-admin,
+.countries-grid-admin {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)) !important;
+}
+
+.user-card-admin,
+.product-card-admin,
+.country-card-admin,
+.form-card,
+.country-form-card,
+.product-form-card,
+.user-form-card,
+.settings-card,
+.stat-card {
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.country-card-header-admin,
+.product-header-admin,
+.user-header,
+.media-item-header,
+.image-item-header,
+.pdf-item-header,
+.video-item-header,
+.document-item-header,
+.section-item-header,
+.section-header-tab {
+  min-width: 0;
+  gap: 0.75rem;
+}
+
+.country-card-header-admin,
+.product-header-admin,
+.user-header {
+  align-items: flex-start;
+}
+
+.country-actions,
+.table-actions,
+.section-item-controls,
+.media-item-actions,
+.image-item-header > div,
+.pdf-item-header > div,
+.video-item-header > div,
+.document-item-header > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  justify-content: flex-end;
+}
+
+.country-actions button,
+.table-actions button,
+.section-item-controls button,
+.move-btn,
+.remove-btn {
+  flex: 0 0 auto;
+}
+
+.admin-search,
+.countries-search-bar,
+.filter-buttons,
+.users-stats,
+.product-stats,
+.completion-chips,
+.form-tabs,
+.upload-mode-selector {
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.filter-buttons,
+.users-stats,
+.product-stats,
+.completion-chips {
+  flex-wrap: wrap;
+}
+
+.form-tabs,
+.completion-chips,
+.upload-mode-selector {
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.form-tab,
+.mode-btn {
+  flex: 0 1 auto;
+  min-width: fit-content;
+  max-width: 100%;
+  white-space: normal;
+  line-height: 1.25;
+}
+
+.admin-table-container {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  border-radius: var(--human-radius, 10px);
+}
+
+.admin-table {
+  min-width: 760px;
+  table-layout: fixed;
+}
+
+.admin-table th,
+.admin-table td {
+  vertical-align: top;
+  white-space: normal;
+}
+
+.admin-table th:last-child,
+.admin-table td:last-child {
+  width: 132px;
+}
+
+.table-cell-with-icon {
+  min-width: 0;
+  align-items: flex-start;
+}
+
+.table-cell-with-icon span,
+.table-cell-with-icon div {
+  min-width: 0;
+}
+
+.country-description-admin,
+.product-description-admin {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.form-row {
+  min-width: 0;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)) !important;
+}
+
+.input-group,
+.form-group,
+.form-textarea,
+.form-select,
+input,
+textarea,
+select {
+  min-width: 0;
+  max-width: 100%;
+}
+
+@media (min-width: 1100px) {
+  .admin-content-body {
+    max-width: 100%;
+  }
+
+  .country-form-card {
+    grid-template-columns: minmax(200px, 260px) minmax(0, 1fr) !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .admin-section-header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .admin-section-header > div:last-child {
+    justify-content: flex-start;
+  }
+
+  .section-header-tab,
+  .media-section-header,
+  .country-card-header-admin,
+  .product-header-admin,
+  .user-header,
+  .image-item-header,
+  .pdf-item-header,
+  .video-item-header,
+  .document-item-header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .country-actions,
+  .table-actions,
+  .section-item-controls,
+  .media-item-actions,
+  .image-item-header > div,
+  .pdf-item-header > div,
+  .video-item-header > div,
+  .document-item-header > div {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  .admin-dashboard {
+    min-height: 100vh;
+  }
+
+  .admin-sidebar-header h2 {
+    font-size: 1.15rem;
+  }
+
+  .admin-nav-item {
+    width: auto;
+  }
+
+  .admin-nav-item span:not([class^="icon-"]) {
+    display: inline;
+  }
+
+  .admin-content {
+    padding: 1rem;
+  }
+}

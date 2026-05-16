@@ -1,5 +1,5 @@
 import { useEffect, lazy, Suspense } from 'react'
-import { Routes, Route, Navigate } from 'react-router-dom'
+import { Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import { Home } from './pages/Home'
 import { Blog } from './pages/Blog'
 import { BlogPostPage } from './pages/BlogPost'
@@ -19,6 +19,13 @@ import { NotificationContainer } from './components/Notification/NotificationCon
 import { AdminRoute } from './components/AdminRoute'
 import './App.css'
 import './styles/theme-overrides.css'
+import './styles/premium-pages.css'
+import './styles/contrast-system.css'
+import './styles/button-system.css'
+import './styles/human-design.css'
+import './styles/admin-fixes.css'
+import './styles/form-system.css'
+import './styles/premium-polish.css'
 
 // Lazy loading pour les pages moins fréquemment utilisées
 const BlogAdmin = lazy(() => import('./pages/BlogAdmin').then(module => ({ default: module.BlogAdmin })))
@@ -58,7 +65,9 @@ const LoadingFallback = () => (
 // Composant pour protéger les routes
 const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
   const { isAuthenticated } = useAuthStore()
-  return isAuthenticated ? <>{children}</> : <Navigate to="/login" replace />
+  const location = useLocation()
+  const redirect = `${location.pathname}${location.search}`
+  return isAuthenticated ? <>{children}</> : <Navigate to={`/login?redirect=${encodeURIComponent(redirect)}`} replace />
 }
 
 function App() {
@@ -230,6 +239,8 @@ function App() {
         />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/auth/login" element={<Navigate to="/login" replace />} />
+        <Route path="/auth/register" element={<Navigate to="/register" replace />} />
         <Route
           path="/dashboard"
           element={

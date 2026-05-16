@@ -7,6 +7,7 @@ import { Button } from '../components/Button/Button'
 import { Input } from '../components/Input/Input'
 import { useAuthStore } from '../stores/authStore'
 import { blogService } from '../services/api'
+import { useConfirmDialog } from '../components/UX/ConfirmDialog'
 import { Plus, Edit, Trash2, Eye } from 'lucide-react'
 import './BlogAdmin.css'
 
@@ -29,6 +30,7 @@ export const BlogAdmin = () => {
   const platformName = usePlatformName()
   const { isAuthenticated } = useAuthStore()
   const navigate = useNavigate()
+  const { confirm, Dialog } = useConfirmDialog()
   const [posts, setPosts] = useState<BlogPost[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
@@ -47,7 +49,7 @@ export const BlogAdmin = () => {
 
   useEffect(() => {
     if (!isAuthenticated) {
-      navigate('/login')
+      navigate(`/login?redirect=${encodeURIComponent('/blog/admin')}`)
       return
     }
     fetchPosts()
@@ -131,16 +133,20 @@ export const BlogAdmin = () => {
   }
 
   const handleDelete = async (id: string) => {
-    if (!confirm('Êtes-vous sûr de vouloir supprimer cet article ?')) {
-      return
-    }
+    const accepted = await confirm({
+      title: 'Supprimer cet article ?',
+      message: 'L’article sera retiré du blog.',
+      confirmLabel: 'Supprimer',
+      tone: 'danger',
+    })
+    if (!accepted) return
 
     try {
       await blogService.delete(id)
       fetchPosts()
     } catch (error) {
       console.error('Erreur lors de la suppression:', error)
-      alert('Erreur lors de la suppression de l\'article')
+      setError('Erreur lors de la suppression de l’article')
     }
   }
 
@@ -353,7 +359,7 @@ export const BlogAdmin = () => {
           )}
         </div>
       </div>
+      {Dialog}
     </Layout>
   )
 }
-

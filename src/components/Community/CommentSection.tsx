@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Heart, Send, User } from 'lucide-react'
 import { communityService } from '../../services/api'
 import { useAuthStore } from '../../stores/authStore'
+import { useNotifications } from '../../hooks/useNotifications'
 import './CommentSection.css'
 
 interface Comment {
@@ -26,6 +27,7 @@ interface CommentSectionProps {
 
 export const CommentSection = ({ postId, comments, loading, onCommentAdded }: CommentSectionProps) => {
   const { user } = useAuthStore()
+  const { error: showError } = useNotifications()
   const [newComment, setNewComment] = useState('')
   const [submitting, setSubmitting] = useState(false)
   const [localComments, setLocalComments] = useState<Comment[]>(comments)
@@ -45,7 +47,7 @@ export const CommentSection = ({ postId, comments, loading, onCommentAdded }: Co
       onCommentAdded(comment)
       setNewComment('')
     } catch (err: any) {
-      alert(err.response?.data?.error || 'Erreur lors de l\'ajout du commentaire')
+      showError(err.response?.data?.error || 'Erreur lors de l\'ajout du commentaire')
     } finally {
       setSubmitting(false)
     }
@@ -157,4 +159,3 @@ export const CommentSection = ({ postId, comments, loading, onCommentAdded }: Co
     </div>
   )
 }
-

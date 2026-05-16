@@ -4,6 +4,7 @@ import { Button } from '../../components/Button/Button'
 import { Input } from '../../components/Input/Input'
 import { quizService } from '../../services/api'
 import { useNotifications } from '../../hooks/useNotifications'
+import { useConfirmDialog } from '../../components/UX/ConfirmDialog'
 import './AdminQuiz.css'
 
 interface Question {
@@ -31,6 +32,7 @@ interface Quiz {
 
 export const AdminQuiz = () => {
   const { success, showError } = useNotifications()
+  const { confirm, Dialog } = useConfirmDialog()
   const [quizzes, setQuizzes] = useState<Quiz[]>([])
   const [loading, setLoading] = useState(true)
   const [showForm, setShowForm] = useState(false)
@@ -127,11 +129,16 @@ export const AdminQuiz = () => {
     setCurrentQuestionIndex(index)
   }
 
-  const handleDeleteQuestion = (index: number) => {
-    if (confirm('Êtes-vous sûr de vouloir supprimer cette question ?')) {
-      const updatedQuestions = questions.filter((_, i) => i !== index)
-      setQuestions(updatedQuestions.map((q, i) => ({ ...q, order: i })))
-    }
+  const handleDeleteQuestion = async (index: number) => {
+    const accepted = await confirm({
+      title: 'Supprimer cette question ?',
+      message: 'Elle sera retirée du quiz en préparation.',
+      confirmLabel: 'Supprimer',
+      tone: 'danger',
+    })
+    if (!accepted) return
+    const updatedQuestions = questions.filter((_, i) => i !== index)
+    setQuestions(updatedQuestions.map((q, i) => ({ ...q, order: i })))
   }
 
   const handleSaveQuiz = async () => {
@@ -202,14 +209,19 @@ export const AdminQuiz = () => {
   }
 
   const handleDeleteQuiz = async (id: string) => {
-    if (confirm('Êtes-vous sûr de vouloir supprimer ce quiz ?')) {
-      try {
-        await quizService.delete(id)
-        success('Quiz supprimé avec succès')
-        fetchQuizzes()
-      } catch (error: any) {
-        showError(error.response?.data?.error || 'Erreur lors de la suppression')
-      }
+    const accepted = await confirm({
+      title: 'Supprimer ce quiz ?',
+      message: 'Le quiz ne sera plus disponible pour les utilisateurs.',
+      confirmLabel: 'Supprimer',
+      tone: 'danger',
+    })
+    if (!accepted) return
+    try {
+      await quizService.delete(id)
+      success('Quiz supprimé avec succès')
+      fetchQuizzes()
+    } catch (error: any) {
+      showError(error.response?.data?.error || 'Erreur lors de la suppression')
     }
   }
 
@@ -551,7 +563,7 @@ export const AdminQuiz = () => {
           </div>
         </Card>
       )}
+      {Dialog}
     </div>
   )
 }
-
