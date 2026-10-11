@@ -28,6 +28,7 @@ interface PlatformSettings {
     flag: string
     image: string
     focus: string
+    profileUrl: string
   }>
 }
 
@@ -67,6 +68,7 @@ const defaultSettings: PlatformSettings = {
       flag: 'https://flagcdn.com/w80/bf.png',
       image: '/Equipe/Victoire%20SAWADOGO.jpeg',
       focus: 'center 38%',
+      profileUrl: '',
     },
     {
       name: 'Blanchard Kouassi',
@@ -75,6 +77,7 @@ const defaultSettings: PlatformSettings = {
       flag: 'https://flagcdn.com/w80/ci.png',
       image: '/Equipe/Blanchard%20Kouassi.jpeg',
       focus: 'center 35%',
+      profileUrl: '',
     },
     {
       name: 'Dieudonné Dara',
@@ -83,6 +86,7 @@ const defaultSettings: PlatformSettings = {
       flag: 'https://flagcdn.com/w80/ml.png',
       image: '/Equipe/Dieudonn%C3%A9%20Dara.jpeg',
       focus: 'center 34%',
+      profileUrl: '',
     },
   ],
 }
@@ -126,6 +130,7 @@ export const useSettingsStore = create<SettingsState>((set, get) => ({
                 flag: member.flag || '',
                 image: member.image || '',
                 focus: member.focus || 'center 35%',
+                profileUrl: member.profileUrl || '',
               }))
               : defaultSettings.team,
           },

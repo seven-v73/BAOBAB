@@ -78,7 +78,7 @@ export const MediaUpload = ({ type, value, onChange, onRemove, label }: MediaUpl
         )}
       </div>
 
-      {value ? (
+      {value && (
         <div className="media-preview">
           {type === 'image' ? (
             <img src={value} alt="Preview" className="preview-image" />
@@ -92,7 +92,13 @@ export const MediaUpload = ({ type, value, onChange, onRemove, label }: MediaUpl
             </div>
           )}
         </div>
-      ) : (
+      )}
+
+      {value && (
+        <p className="media-replace-hint">Choisissez un fichier ou collez une URL pour remplacer ce média.</p>
+      )}
+
+      {
         <>
           <div className="media-mode-selector">
             <button
@@ -135,13 +141,13 @@ export const MediaUpload = ({ type, value, onChange, onRemove, label }: MediaUpl
                   className="validate-url-btn"
                   onClick={() => onChange(url)}
                 >
-                  Valider
+                  {value ? 'Remplacer' : 'Valider'}
                 </button>
               )}
             </div>
           )}
         </>
-      )}
+      }
     </div>
   )
 }

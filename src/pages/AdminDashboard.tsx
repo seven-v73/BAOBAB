@@ -25,10 +25,12 @@ import { AdminFigures } from './admin/AdminFigures'
 import { AdminCollections } from './admin/AdminCollections'
 import { AdminQuiz } from './admin/AdminQuiz'
 import { AdminCommunityRequests } from './admin/AdminCommunityRequests'
+import { AdminSources } from './admin/AdminSources'
+import { AdminContributions } from './admin/AdminContributions'
 import { communityService } from '../services/api'
 import './AdminDashboard.css'
 
-type AdminSection = 'overview' | 'countries' | 'blog' | 'products' | 'users' | 'settings' | 'timeline' | 'figures' | 'collections' | 'quizzes' | 'communities'
+type AdminSection = 'overview' | 'countries' | 'blog' | 'products' | 'users' | 'settings' | 'timeline' | 'figures' | 'collections' | 'quizzes' | 'communities' | 'sources' | 'contributions'
 
 export const AdminDashboard = () => {
   const platformName = usePlatformName()
@@ -40,7 +42,7 @@ export const AdminDashboard = () => {
   // Gérer la section depuis l'URL
   useEffect(() => {
     const section = searchParams.get('section') as AdminSection
-    if (section && ['overview', 'countries', 'blog', 'products', 'users', 'settings', 'timeline', 'figures', 'collections', 'quizzes', 'communities'].includes(section)) {
+    if (section && ['overview', 'countries', 'blog', 'products', 'users', 'settings', 'timeline', 'figures', 'collections', 'quizzes', 'communities', 'sources', 'contributions'].includes(section)) {
       setActiveSection(section)
     }
   }, [searchParams])
@@ -74,6 +76,8 @@ export const AdminDashboard = () => {
     { id: 'figures' as AdminSection, label: 'Personnages', iconClass: 'icon-user' },
     { id: 'collections' as AdminSection, label: 'Collections', iconClass: 'icon-folder-open' },
     { id: 'quizzes' as AdminSection, label: 'Quiz', iconClass: 'icon-book' },
+    { id: 'sources' as AdminSection, label: 'Sources', iconClass: 'icon-file' },
+    { id: 'contributions' as AdminSection, label: 'Contributions', iconClass: 'icon-edit' },
     { id: 'communities' as AdminSection, label: 'Communautés', iconClass: 'icon-users' },
     { id: 'users' as AdminSection, label: 'Utilisateurs', iconClass: 'icon-users' },
     { id: 'settings' as AdminSection, label: 'Paramètres', iconClass: 'icon-settings' },
@@ -97,6 +101,10 @@ export const AdminDashboard = () => {
         return <AdminCollections />
       case 'quizzes':
         return <AdminQuiz />
+      case 'sources':
+        return <AdminSources />
+      case 'contributions':
+        return <AdminContributions />
       case 'communities':
         return <AdminCommunityRequests />
       case 'users':
@@ -114,8 +122,11 @@ export const AdminDashboard = () => {
         <div className="admin-sidebar">
           <div className="admin-sidebar-header">
             <h2>
-              <span className="admin-logo-mark" aria-hidden="true">MB</span>
-              {platformName}
+              <img
+                className="admin-brand-logo"
+                src="/LogoFiles/Fichier%207.svg"
+                alt={platformName}
+              />
             </h2>
             <p className="admin-role">Administration</p>
           </div>

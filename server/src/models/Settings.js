@@ -90,6 +90,11 @@ const settingsSchema = new mongoose.Schema({
       trim: true,
       default: 'center 35%',
     },
+    profileUrl: {
+      type: String,
+      trim: true,
+      default: '',
+    },
   }],
 }, {
   timestamps: true,

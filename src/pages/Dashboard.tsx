@@ -5,6 +5,7 @@ import { Card } from '../components/Card/Card'
 import { Button } from '../components/Button/Button'
 import { Input } from '../components/Input/Input'
 import { FileUpload } from '../components/FileUpload/FileUpload'
+import { MediaUpload } from '../components/Community/MediaUpload'
 import { Skeleton } from '../components/UX/Skeleton'
 import { useAuthStore } from '../stores/authStore'
 import { userService, orderService, blogService, productService, authService, proverbService, countryService, bookmarkService, progressService } from '../services/api'
@@ -108,6 +109,7 @@ export const Dashboard = () => {
   const [productVideos, setProductVideos] = useState<Array<{ url: string; title: string; description: string; type: 'youtube' | 'vimeo' | 'direct'; thumbnail: string; order: number }>>([])
   const [productDocuments, setProductDocuments] = useState<Array<{ url: string; title: string; description: string; type: string; order: number }>>([])
   const [productUploadMode, setProductUploadMode] = useState<{ [key: string]: 'upload' | 'url' }>({})
+  const [pendingProductPrimaryImage, setPendingProductPrimaryImage] = useState('')
   
   // États pour les proverbes
   const [proverbFormData, setProverbFormData] = useState({
@@ -334,6 +336,31 @@ export const Dashboard = () => {
     setProductAdditionalImages(productAdditionalImages.filter((_, i) => i !== index).map((img, idx) => ({ ...img, order: idx })))
   }
 
+  const getProductPrimaryImages = () => productFormData.images
+    .split(',')
+    .map((image) => image.trim())
+    .filter(Boolean)
+
+  const setProductPrimaryImages = (images: string[]) => {
+    setProductFormData({ ...productFormData, images: images.filter(Boolean).join(', ') })
+  }
+
+  const addProductPrimaryImage = (url: string) => {
+    const existingImages = getProductPrimaryImages()
+    if (!url || existingImages.includes(url)) return
+    setProductPrimaryImages([...existingImages, url])
+  }
+
+  const updateProductPrimaryImage = (index: number, url: string) => {
+    const updated = getProductPrimaryImages()
+    updated[index] = url
+    setProductPrimaryImages(updated)
+  }
+
+  const removeProductPrimaryImage = (index: number) => {
+    setProductPrimaryImages(getProductPrimaryImages().filter((_, imageIndex) => imageIndex !== index))
+  }
+
   const addProductPDF = () => setProductPdfs([...productPdfs, { url: '', title: '', description: '', order: productPdfs.length }])
   const updateProductPDF = (index: number, field: 'url' | 'title' | 'description', value: string) => {
     const updated = [...productPdfs]
@@ -455,6 +482,7 @@ export const Dashboard = () => {
         category: 'Artisanat',
         stock: '',
       })
+      setPendingProductPrimaryImage('')
       setProductAdditionalImages([])
       setProductPdfs([])
       setProductVideos([])
@@ -659,8 +687,8 @@ export const Dashboard = () => {
     },
     {
       title: 'Rejoindre les échanges',
-      text: 'Partager une question ou suivre une communauté liée à vos intérêts.',
-      action: 'Communautés',
+      text: 'Partager une question ou suivre un cercle lié à vos intérêts.',
+      action: 'Cercles',
       to: '/communities',
       meta: 'Transmission vivante',
     },
@@ -861,10 +889,10 @@ export const Dashboard = () => {
 
                 <Card className="dashboard-hub-card">
                   <div className="dashboard-hub-header">
-                    <span className="dashboard-section-kicker">Hub MonBaobab</span>
-                    <h2>Vos parcours, contenus et actions au même endroit</h2>
+                    <span className="dashboard-section-kicker">Atelier MonBaobab</span>
+                    <h2>Vos parcours, contenus et gestes utiles au même endroit</h2>
                     <p>
-                      La plateforme relie maintenant découverte, contribution, communauté et boutique pour éviter les allers-retours inutiles.
+                      Un espace pour reprendre une découverte, garder une trace, contribuer et rejoindre les échanges sans se disperser.
                     </p>
                   </div>
                   <div className="dashboard-hub-grid">
@@ -1366,12 +1394,12 @@ export const Dashboard = () => {
                                     <option value="Autre">Autre</option>
                                   </select>
                                 </div>
-                                <Input
-                                  label="Image principale (URL)"
-                                  type="url"
+                                <MediaUpload
+                                  type="image"
                                   value={blogFormData.image}
-                                  onChange={(e) => setBlogFormData({ ...blogFormData, image: e.target.value })}
-                                  placeholder="https://example.com/image.jpg"
+                                  label="Image principale"
+                                  onChange={(url) => setBlogFormData({ ...blogFormData, image: url })}
+                                  onRemove={() => setBlogFormData({ ...blogFormData, image: '' })}
                                 />
                               </div>
                               <Input
@@ -1402,41 +1430,13 @@ export const Dashboard = () => {
                                   <span className="icon-close" />
                                 </Button>
                               </div>
-                              <div className="media-upload-mode">
-                                <Button
-                                  type="button"
-                                  size="small"
-                                  variant={blogUploadMode[`image-${idx}`] === 'upload' ? 'primary' : 'outline'}
-                                  onClick={() => setBlogUploadMode({ ...blogUploadMode, [`image-${idx}`]: 'upload' })}
-                                >
-                                  <span className="icon-image" />
-                                  Upload depuis PC
-                                </Button>
-                                <Button
-                                  type="button"
-                                  size="small"
-                                  variant={blogUploadMode[`image-${idx}`] === 'url' || !blogUploadMode[`image-${idx}`] ? 'primary' : 'outline'}
-                                  onClick={() => setBlogUploadMode({ ...blogUploadMode, [`image-${idx}`]: 'url' })}
-                                >
-                                  <span className="icon-link" />
-                                  Lien URL
-                                </Button>
-                              </div>
-                              {blogUploadMode[`image-${idx}`] === 'upload' ? (
-                                <FileUpload
-                                  type="image"
-                                  onUploadSuccess={(url) => updateBlogImage(idx, 'url', url)}
-                                  label="Uploader une image"
-                                />
-                              ) : (
-                                <Input
-                                  label="URL de l'image"
-                                  type="url"
-                                  value={img.url}
-                                  onChange={(e) => updateBlogImage(idx, 'url', e.target.value)}
-                                  placeholder="https://example.com/image.jpg"
-                                />
-                              )}
+                              <MediaUpload
+                                type="image"
+                                value={img.url}
+                                label={`Image ${idx + 1}`}
+                                onChange={(url) => updateBlogImage(idx, 'url', url)}
+                                onRemove={() => updateBlogImage(idx, 'url', '')}
+                              />
                               <Input
                                 label="Légende (optionnel)"
                                 value={img.caption}
@@ -1609,12 +1609,12 @@ export const Dashboard = () => {
                                   <option value="vimeo">Vimeo</option>
                                 </select>
                               </div>
-                              <Input
-                                label="Miniature (URL optionnel)"
-                                type="url"
+                              <MediaUpload
+                                type="image"
                                 value={video.thumbnail}
-                                onChange={(e) => updateBlogVideo(idx, 'thumbnail', e.target.value)}
-                                placeholder="https://example.com/thumbnail.jpg"
+                                label="Miniature vidéo"
+                                onChange={(url) => updateBlogVideo(idx, 'thumbnail', url)}
+                                onRemove={() => updateBlogVideo(idx, 'thumbnail', '')}
                               />
                             </div>
                           ))}
@@ -1924,17 +1924,41 @@ export const Dashboard = () => {
                                   <option value="Autre">Autre</option>
                                 </select>
                               </div>
-                              <div className="form-group">
-                                <label htmlFor="product-images" className="input-label">Images principales</label>
-                                <textarea
-                                  id="product-images"
-                                  name="images"
-                                  className="form-textarea"
-                                  value={productFormData.images}
-                                  onChange={(e) => setProductFormData({ ...productFormData, images: e.target.value })}
-                                  rows={2}
-                                  placeholder="https://example.com/image1.jpg, https://example.com/image2.jpg"
+                              <div className="media-section">
+                                <div className="media-section-header">
+                                  <h4>Images principales</h4>
+                                </div>
+                                {getProductPrimaryImages().map((image, index) => (
+                                  <div className="media-item" key={`${image}-${index}`}>
+                                    <MediaUpload
+                                      type="image"
+                                      value={image}
+                                      label={`Image principale ${index + 1}`}
+                                      onChange={(url) => updateProductPrimaryImage(index, url)}
+                                      onRemove={() => removeProductPrimaryImage(index)}
+                                    />
+                                  </div>
+                                ))}
+                                <MediaUpload
+                                  type="image"
+                                  value={pendingProductPrimaryImage}
+                                  label="Ajouter une image principale"
+                                  onChange={setPendingProductPrimaryImage}
+                                  onRemove={() => setPendingProductPrimaryImage('')}
                                 />
+                                {pendingProductPrimaryImage && (
+                                  <Button
+                                    type="button"
+                                    size="small"
+                                    onClick={() => {
+                                      addProductPrimaryImage(pendingProductPrimaryImage)
+                                      setPendingProductPrimaryImage('')
+                                    }}
+                                  >
+                                    <span className="icon-plus" />
+                                    Ajouter cette image
+                                  </Button>
+                                )}
                               </div>
                             </>
                           )}
@@ -1958,41 +1982,13 @@ export const Dashboard = () => {
                                   <span className="icon-close" />
                                 </Button>
                               </div>
-                              <div className="media-upload-mode">
-                                <Button
-                                  type="button"
-                                  size="small"
-                                  variant={productUploadMode[`image-${idx}`] === 'upload' ? 'primary' : 'outline'}
-                                  onClick={() => setProductUploadMode({ ...productUploadMode, [`image-${idx}`]: 'upload' })}
-                                >
-                                  <span className="icon-image" />
-                                  Upload depuis PC
-                                </Button>
-                                <Button
-                                  type="button"
-                                  size="small"
-                                  variant={productUploadMode[`image-${idx}`] === 'url' || !productUploadMode[`image-${idx}`] ? 'primary' : 'outline'}
-                                  onClick={() => setProductUploadMode({ ...productUploadMode, [`image-${idx}`]: 'url' })}
-                                >
-                                  <span className="icon-link" />
-                                  Lien URL
-                                </Button>
-                              </div>
-                              {productUploadMode[`image-${idx}`] === 'upload' ? (
-                                <FileUpload
-                                  type="image"
-                                  onUploadSuccess={(url) => updateProductImage(idx, 'url', url)}
-                                  label="Uploader une image"
-                                />
-                              ) : (
-                                <Input
-                                  label="URL de l'image"
-                                  type="url"
-                                  value={img.url}
-                                  onChange={(e) => updateProductImage(idx, 'url', e.target.value)}
-                                  placeholder="https://example.com/image.jpg"
-                                />
-                              )}
+                              <MediaUpload
+                                type="image"
+                                value={img.url}
+                                label={`Image ${idx + 1}`}
+                                onChange={(url) => updateProductImage(idx, 'url', url)}
+                                onRemove={() => updateProductImage(idx, 'url', '')}
+                              />
                               <Input
                                 label="Légende (optionnel)"
                                 value={img.caption}
@@ -2165,12 +2161,12 @@ export const Dashboard = () => {
                                   <option value="vimeo">Vimeo</option>
                                 </select>
                               </div>
-                              <Input
-                                label="Miniature (URL optionnel)"
-                                type="url"
+                              <MediaUpload
+                                type="image"
                                 value={video.thumbnail}
-                                onChange={(e) => updateProductVideo(idx, 'thumbnail', e.target.value)}
-                                placeholder="https://example.com/thumbnail.jpg"
+                                label="Miniature vidéo"
+                                onChange={(url) => updateProductVideo(idx, 'thumbnail', url)}
+                                onRemove={() => updateProductVideo(idx, 'thumbnail', '')}
                               />
                             </div>
                           ))}

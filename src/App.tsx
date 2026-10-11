@@ -1,4 +1,4 @@
-import { useEffect, lazy, Suspense } from 'react'
+import { useEffect, lazy, Suspense, useRef } from 'react'
 import { Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import { Home } from './pages/Home'
 import { Blog } from './pages/Blog'
@@ -11,6 +11,8 @@ import { Community } from './pages/Community'
 import { Communities } from './pages/Communities'
 import { CreateCommunity } from './pages/CreateCommunity'
 import { CommunityDetail } from './pages/CommunityDetail'
+import { Sources } from './pages/Sources'
+import { Contribute } from './pages/Contribute'
 import { useAuthStore } from './stores/authStore'
 import { useThemeStore } from './stores/themeStore'
 import { useSettingsStore } from './stores/settingsStore'
@@ -26,6 +28,13 @@ import './styles/human-design.css'
 import './styles/admin-fixes.css'
 import './styles/form-system.css'
 import './styles/premium-polish.css'
+import './styles/production-ergonomics.css'
+import './styles/page-transitions.css'
+import './styles/page-limits.css'
+import './styles/layout-safety.css'
+import './styles/typography-human.css'
+import './styles/human-experience.css'
+import './styles/monbaobab-header.css'
 
 // Lazy loading pour les pages moins fréquemment utilisées
 const BlogAdmin = lazy(() => import('./pages/BlogAdmin').then(module => ({ default: module.BlogAdmin })))
@@ -74,7 +83,11 @@ function App() {
   const { notifications, removeNotification } = useNotifications()
   const { token, fetchMe } = useAuthStore()
   const { theme } = useThemeStore()
+  const location = useLocation()
+  const previousPathRef = useRef(location.pathname)
   const fetchSettings = useSettingsStore((state) => state.fetchSettings)
+
+  const routeKey = `${location.pathname}${location.search}`
 
   // Appliquer le thème au document
   useEffect(() => {
@@ -93,9 +106,56 @@ function App() {
     }
   }, [token, fetchMe])
 
+  useEffect(() => {
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    const pathChanged = previousPathRef.current !== location.pathname
+    const timers: number[] = []
+    previousPathRef.current = location.pathname
+
+    document.documentElement.classList.add('route-transitioning')
+    timers.push(window.setTimeout(() => {
+      document.documentElement.classList.remove('route-transitioning')
+    }, reduceMotion ? 0 : 520))
+
+    const scrollToHash = (attempt = 0) => {
+      const target = document.getElementById(decodeURIComponent(location.hash.slice(1)))
+      if (target) {
+        target.scrollIntoView({
+          behavior: reduceMotion ? 'auto' : 'smooth',
+          block: 'start',
+        })
+        return
+      }
+
+      if (attempt < 12) {
+        timers.push(window.setTimeout(() => scrollToHash(attempt + 1), 120))
+      }
+    }
+
+    timers.push(window.setTimeout(() => {
+      if (location.hash) {
+        scrollToHash()
+        return
+      }
+
+      if (pathChanged) {
+        window.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: reduceMotion ? 'auto' : 'smooth',
+        })
+      }
+    }, pathChanged ? 90 : 0))
+
+    return () => {
+      timers.forEach((timer) => window.clearTimeout(timer))
+    }
+  }, [location.pathname, location.search, location.hash])
+
   return (
     <>
-      <Routes>
+      <div className="page-transition-shell" key={routeKey}>
+      <Routes location={location}>
         <Route path="/" element={<Home />} />
         <Route 
           path="/country/:id" 
@@ -107,6 +167,8 @@ function App() {
         />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:id" element={<BlogPostPage />} />
+        <Route path="/sources" element={<Sources />} />
+        <Route path="/contribute" element={<Contribute />} />
         <Route
           path="/timeline"
           element={
@@ -197,11 +259,7 @@ function App() {
         />
         <Route
           path="/communities"
-          element={
-            <ProtectedRoute>
-              <Communities />
-            </ProtectedRoute>
-          }
+          element={<Communities />}
         />
         <Route
           path="/communities/create"
@@ -213,11 +271,7 @@ function App() {
         />
         <Route
           path="/communities/:id"
-          element={
-            <ProtectedRoute>
-              <CommunityDetail />
-            </ProtectedRoute>
-          }
+          element={<CommunityDetail />}
         />
         <Route
           path="/community"
@@ -273,6 +327,7 @@ function App() {
         />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
+      </div>
       <NotificationContainer
         notifications={notifications}
         onClose={removeNotification}

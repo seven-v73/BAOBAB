@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000/api'
+const API_URL = import.meta.env.VITE_API_URL || '/api'
 
 const api = axios.create({
   baseURL: API_URL,
@@ -391,6 +391,14 @@ export const sourceService = {
   update: (id: string, data: any) => api.put(`/sources/${id}`, data),
   delete: (id: string) => api.delete(`/sources/${id}`),
   cite: (id: string) => api.post(`/sources/${id}/cite`),
+}
+
+export const contributionService = {
+  getAll: (params?: any) => api.get('/contributions', { params }),
+  create: (data: any) => api.post('/contributions', data),
+  updateStatus: (id: string, data: { status: string; reviewNote?: string }) =>
+    api.put(`/contributions/${id}/status`, data),
+  delete: (id: string) => api.delete(`/contributions/${id}`),
 }
 
 // Historical Figure Service

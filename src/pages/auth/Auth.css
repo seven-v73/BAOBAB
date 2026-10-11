@@ -1,57 +1,362 @@
+/* ========================================
+   AUTH - Page de connexion avec motif visible
+   ======================================== */
+
 .auth-page {
-  min-height: calc(100vh - 200px);
+  min-height: calc(100vh - 140px);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
+  padding: 2rem 1.5rem;
+  
+  /* --- MOTIF EN ARRIÈRE-PLAN --- */
+  background-color: #f7f4ec; /* Couleur de base (beige clair) */
+  background-image: url('/Motifs/Fichier 59@2x.png');
+  background-size: 150px; /* Taille du motif (plus petite pour bien le voir) */
+  background-repeat: repeat;
+  background-position: center;
+  
+  /* --- EFFET DE STYLE --- */
+  /* On utilise "multiply" pour que le motif sombre se fonde dans le beige clair, 
+     et on met une opacité pour qu'il soit subtil */
+  background-blend-mode: multiply; 
+  opacity: 1; 
+}
+
+/* Petit voile pour que la carte reste lisible par-dessus le motif */
+.auth-page::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  /* Un léger voile beige autour de la carte pour faire ressortir le formulaire */
+  background: rgba(247, 244, 236, 0.65); 
+  z-index: 0;
+  pointer-events: none;
 }
 
 .auth-card {
-  max-width: 450px;
-  width: 100%;
+  position: relative;
+  z-index: 1;
+  /* La carte reste blanche/opaque pour bien contraster */
+  background: #ffffff !important; 
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.15) !important;
+}
+/* ===== CARD ===== */
+.auth-card {
+  max-width: 420px !important;
+  width: 100% !important;
+  background: var(--color-bg-card, #141414) !important;
+  border: 1px solid var(--color-border, rgba(255, 255, 255, 0.06)) !important;
+  border-radius: 24px !important;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.2) !important;
+  transition: all 0.3s ease !important;
 }
 
-.auth-card h1 {
-  text-align: center;
-  color: #d4af37;
-  margin-bottom: 0.5rem;
-  font-size: 2rem;
+[data-theme="light"] .auth-card {
+  background: #ffffff !important;
+  border-color: rgba(0, 0, 0, 0.06) !important;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.05) !important;
 }
 
-.auth-subtitle {
+/* ===== LOGO ===== */
+.auth-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.auth-logo img {
+  width: 130px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* ===== HEADER ===== */
+.auth-header {
   text-align: center;
-  color: rgba(255, 255, 255, 0.7);
   margin-bottom: 2rem;
 }
 
-.auth-form {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+.auth-header h1 {
+  color: var(--color-text, #e0e0e0);
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+  letter-spacing: -0.02em;
 }
 
-.auth-error {
-  background: rgba(231, 76, 60, 0.1);
-  border: 1px solid #e74c3c;
-  color: #e74c3c;
-  padding: 0.75rem;
-  border-radius: 8px;
-  text-align: center;
+[data-theme="light"] .auth-header h1 {
+  color: #1a1410;
 }
 
-.auth-link {
-  text-align: center;
-  margin-top: 1.5rem;
-  color: rgba(255, 255, 255, 0.7);
+.auth-subtitle {
+  color: var(--color-text-secondary, #888);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0;
 }
 
-.auth-link a {
-  color: #d4af37;
-  text-decoration: none;
+.auth-subtitle strong {
+  color: var(--color-gold, #d4af37);
   font-weight: 600;
 }
 
-.auth-link a:hover {
+/* ===== FORM ===== */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.auth-field {
+  width: 100%;
+}
+
+/* ===== OPTIONS ===== */
+.auth-options {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -0.5rem;
+}
+
+.auth-forgot-link {
+  color: var(--color-text-secondary, #888);
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.auth-forgot-link:hover {
+  color: var(--color-gold, #d4af37);
   text-decoration: underline;
 }
 
+/* ===== ERROR ===== */
+.auth-error {
+  background: rgba(231, 76, 60, 0.06);
+  border: 1px solid rgba(231, 76, 60, 0.12);
+  color: #e74c3c;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 500;
+  animation: shakeError 0.4s ease;
+}
+
+@keyframes shakeError {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-6px);
+  }
+  75% {
+    transform: translateX(6px);
+  }
+}
+
+/* ===== SUBMIT BUTTON ===== */
+.auth-submit-btn {
+  margin-top: 0.25rem;
+  font-weight: 600 !important;
+  letter-spacing: 0.02em;
+}
+
+/* ===== REGISTER LINK ===== */
+.auth-register-link {
+  text-align: center;
+  margin-top: 1.75rem;
+  color: var(--color-text-secondary, #888);
+  font-size: 0.9rem;
+}
+
+.auth-register-link a {
+  color: var(--color-gold, #d4af37);
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.auth-register-link a:hover {
+  text-decoration: underline;
+  color: var(--color-gold-light, #f4d03f);
+}
+
+/* ========================================
+   BANDE DÉCORATIVE EN HAUT
+   ======================================== */
+
+.auth-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, 
+    transparent, 
+    var(--color-gold, #d4af37), 
+    var(--color-gold-light, #f4d03f), 
+    var(--color-gold, #d4af37), 
+    transparent
+  );
+  opacity: 0.7;
+  border-radius: 24px 24px 0 0;
+}
+
+/* ========================================
+   RESPONSIVE
+   ======================================== */
+
+@media (max-width: 768px) {
+  .auth-page {
+    padding: 1.5rem 1rem;
+    min-height: calc(100vh - 100px);
+    background-size: 220px; /* Motif plus petit sur mobile pour éviter la surcharge */
+  }
+
+  .auth-card {
+    padding: 2rem 1.75rem 1.5rem !important;
+    border-radius: 20px !important;
+  }
+
+  .auth-logo img {
+    width: 110px;
+  }
+
+  .auth-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .auth-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .auth-form {
+    gap: 1rem;
+  }
+
+  .auth-forgot-link {
+    font-size: 0.8rem;
+  }
+
+  .auth-error {
+    font-size: 0.8rem;
+    padding: 0.6rem 0.8rem;
+  }
+
+  .auth-register-link {
+    font-size: 0.85rem;
+    margin-top: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .auth-page {
+    padding: 1rem 0.75rem;
+    min-height: calc(100vh - 80px);
+    background-size: 180px;
+  }
+
+  .auth-card {
+    padding: 1.5rem 1.25rem 1.25rem !important;
+    border-radius: 16px !important;
+  }
+
+  .auth-logo {
+    margin-bottom: 1rem;
+  }
+
+  .auth-logo img {
+    width: 90px;
+  }
+
+  .auth-header {
+    margin-bottom: 1.5rem;
+  }
+
+  .auth-header h1 {
+    font-size: 1.3rem;
+  }
+
+  .auth-subtitle {
+    font-size: 0.85rem;
+  }
+
+  .auth-form {
+    gap: 0.875rem;
+  }
+
+  .auth-forgot-link {
+    font-size: 0.75rem;
+  }
+
+  .auth-error {
+    font-size: 0.75rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 8px;
+  }
+
+  .auth-register-link {
+    font-size: 0.8rem;
+    margin-top: 1.25rem;
+  }
+}
+
+/* ========================================
+   ANIMATIONS
+   ======================================== */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.auth-card {
+  animation: fadeInUp 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.auth-card > * {
+  animation: fadeInUp 0.5s cubic-bezier(0.4, 0, 0.2, 1) backwards;
+}
+
+.auth-card > *:nth-child(1) {
+  animation-delay: 0.05s;
+}
+.auth-card > *:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.auth-card > *:nth-child(3) {
+  animation-delay: 0.15s;
+}
+.auth-card > *:nth-child(4) {
+  animation-delay: 0.2s;
+}
+.auth-card > *:nth-child(5) {
+  animation-delay: 0.25s;
+}
+
+/* ========================================
+   ACCESSIBILITÉ
+   ======================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .auth-card,
+  .auth-card > * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+
+  .auth-error {
+    animation: none !important;
+  }
+}

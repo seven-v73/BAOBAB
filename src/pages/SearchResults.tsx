@@ -107,6 +107,22 @@ export const SearchResults = () => {
       textOf: (item: any) => [item.difficulty, item.totalPoints ? `${item.totalPoints} points` : null].filter(Boolean).join(' · '),
     },
     {
+      key: 'sources',
+      type: 'sources',
+      title: 'Sources',
+      path: () => '/sources',
+      titleOf: (item: any) => item.title,
+      textOf: (item: any) => [item.type, item.author, item.reliability ? `fiabilité ${item.reliability}/5` : null].filter(Boolean).join(' · ') || item.description,
+    },
+    {
+      key: 'contributions',
+      type: 'contributions',
+      title: 'Contributions',
+      path: () => '/contribute',
+      titleOf: (item: any) => item.title,
+      textOf: (item: any) => [item.countryName, item.language, item.type].filter(Boolean).join(' · ') || item.content,
+    },
+    {
       key: 'blogs',
       type: 'blogs',
       title: 'Articles',

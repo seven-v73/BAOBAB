@@ -1,0 +1,227 @@
+/*
+  Page motion layer.
+  Subtle route transitions, anchor offsets and smoother in-page movement.
+*/
+
+:root {
+  --page-transition-duration: 420ms;
+  --page-transition-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --page-scroll-offset: 96px;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--page-scroll-offset);
+}
+
+body {
+  overscroll-behavior-y: contain;
+}
+
+:where([id]) {
+  scroll-margin-top: var(--page-scroll-offset);
+}
+
+.page-transition-shell {
+  min-height: 100vh;
+  animation: page-enter var(--page-transition-duration) var(--page-transition-ease) both;
+  will-change: opacity, transform, filter;
+}
+
+.route-transitioning .page-transition-shell {
+  backface-visibility: hidden;
+}
+
+@keyframes page-enter {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 12px, 0) scale(0.996);
+    filter: blur(5px);
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+    filter: blur(0);
+  }
+}
+
+:where(
+  .card,
+  .product-card,
+  .blog-card,
+  .community-card,
+  .collection-card,
+  .story-card,
+  .quiz-card,
+  .proverb-card,
+  .timeline-card,
+  .post-card,
+  .stat-card,
+  .media-item,
+  .form-card,
+  .settings-card,
+  .country-section,
+  .dashboard-section,
+  .admin-content-body > *
+) {
+  animation: content-rise 520ms var(--page-transition-ease) backwards;
+  animation-delay: min(var(--motion-index, 0) * 45ms, 180ms);
+}
+
+@keyframes content-rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+:where(
+  .product-card:nth-child(2),
+  .blog-card:nth-child(2),
+  .community-card:nth-child(2),
+  .collection-card:nth-child(2),
+  .story-card:nth-child(2),
+  .quiz-card:nth-child(2),
+  .timeline-card:nth-child(2),
+  .post-card:nth-child(2),
+  .media-item:nth-child(2)
+) {
+  --motion-index: 1;
+}
+
+:where(
+  .product-card:nth-child(3),
+  .blog-card:nth-child(3),
+  .community-card:nth-child(3),
+  .collection-card:nth-child(3),
+  .story-card:nth-child(3),
+  .quiz-card:nth-child(3),
+  .timeline-card:nth-child(3),
+  .post-card:nth-child(3),
+  .media-item:nth-child(3)
+) {
+  --motion-index: 2;
+}
+
+:where(
+  .product-card:nth-child(4),
+  .blog-card:nth-child(4),
+  .community-card:nth-child(4),
+  .collection-card:nth-child(4),
+  .story-card:nth-child(4),
+  .quiz-card:nth-child(4),
+  .timeline-card:nth-child(4),
+  .post-card:nth-child(4),
+  .media-item:nth-child(4)
+) {
+  --motion-index: 3;
+}
+
+:where(
+  .product-card:nth-child(n + 5),
+  .blog-card:nth-child(n + 5),
+  .community-card:nth-child(n + 5),
+  .collection-card:nth-child(n + 5),
+  .story-card:nth-child(n + 5),
+  .quiz-card:nth-child(n + 5),
+  .timeline-card:nth-child(n + 5),
+  .post-card:nth-child(n + 5),
+  .media-item:nth-child(n + 5)
+) {
+  --motion-index: 4;
+}
+
+:where(
+  .admin-content,
+  .dashboard-content,
+  .country-content,
+  .blog-post-content,
+  .story-content,
+  .collection-detail-content,
+  .community-content
+) {
+  scroll-behavior: smooth;
+}
+
+:where(
+  .admin-sidebar,
+  .dashboard-sidebar,
+  .mobile-menu-panel,
+  .nav-dropdown,
+  .user-dropdown,
+  .share-menu,
+  .modal-content,
+  .media-viewer-content
+) {
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+}
+
+:where(a[href^='#']) {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 640px) {
+  :root {
+    --page-scroll-offset: 78px;
+    --page-transition-duration: 320ms;
+  }
+
+  .page-transition-shell {
+    animation-name: page-enter-mobile;
+  }
+
+  @keyframes page-enter-mobile {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 8px, 0);
+    }
+
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html,
+  :where(.admin-content, .dashboard-content, .country-content, .blog-post-content, .story-content, .collection-detail-content, .community-content) {
+    scroll-behavior: auto !important;
+  }
+
+  .page-transition-shell,
+  :where(
+    .card,
+    .product-card,
+    .blog-card,
+    .community-card,
+    .collection-card,
+    .story-card,
+    .quiz-card,
+    .proverb-card,
+    .timeline-card,
+    .post-card,
+    .stat-card,
+    .media-item,
+    .form-card,
+    .settings-card,
+    .country-section,
+    .dashboard-section,
+    .admin-content-body > *
+  ) {
+    animation: none !important;
+    transform: none !important;
+    filter: none !important;
+  }
+}

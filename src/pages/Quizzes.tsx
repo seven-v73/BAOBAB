@@ -35,11 +35,21 @@ export const Quizzes = () => {
   const [quizzes, setQuizzes] = useState<Quiz[]>([])
   const [loading, setLoading] = useState(true)
   const [searchTerm, setSearchTerm] = useState('')
+  const [searchInput, setSearchInput] = useState('')
   const [selectedDifficulty, setSelectedDifficulty] = useState<string>('')
+  const hasActiveFilters = Boolean(searchTerm || selectedDifficulty)
 
   useEffect(() => {
     fetchQuizzes()
   }, [selectedDifficulty, searchTerm])
+
+  useEffect(() => {
+    const timeout = window.setTimeout(() => {
+      setSearchTerm(searchInput)
+    }, 350)
+
+    return () => window.clearTimeout(timeout)
+  }, [searchInput])
 
   const fetchQuizzes = async () => {
     try {
@@ -100,6 +110,12 @@ export const Quizzes = () => {
     return `${mins}:${secs.toString().padStart(2, '0')}`
   }
 
+  const clearFilters = () => {
+    setSearchInput('')
+    setSearchTerm('')
+    setSelectedDifficulty('')
+  }
+
   if (loading && quizzes.length === 0) {
     return (
       <Layout>
@@ -130,12 +146,14 @@ export const Quizzes = () => {
               id="quiz-search"
               name="quiz-search"
               placeholder="Rechercher un quiz..."
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
+              value={searchInput}
+              onChange={(e) => setSearchInput(e.target.value)}
             />
           </div>
           <div className="filters-row">
             <select
+              id="quiz-difficulty-filter"
+              name="quiz-difficulty-filter"
               className="filter-select"
               value={selectedDifficulty}
               onChange={(e) => setSelectedDifficulty(e.target.value)}
@@ -146,6 +164,28 @@ export const Quizzes = () => {
               <option value="advanced">Avancé</option>
             </select>
           </div>
+          {hasActiveFilters && (
+            <div className="active-filter-chips" aria-label="Filtres actifs">
+              {searchTerm && (
+                <button type="button" className="active-filter-chip" onClick={() => {
+                  setSearchInput('')
+                  setSearchTerm('')
+                }}>
+                  <span>Recherche: {searchTerm}</span>
+                  <span aria-hidden="true">×</span>
+                </button>
+              )}
+              {selectedDifficulty && (
+                <button type="button" className="active-filter-chip" onClick={() => setSelectedDifficulty('')}>
+                  <span>{getDifficultyLabel(selectedDifficulty)}</span>
+                  <span aria-hidden="true">×</span>
+                </button>
+              )}
+              <button type="button" className="active-filter-clear" onClick={clearFilters}>
+                Tout effacer
+              </button>
+            </div>
+          )}
         </div>
 
         {/* Liste des quiz */}
@@ -154,9 +194,9 @@ export const Quizzes = () => {
             <Card className="empty-state">
               <span className="icon-book" style={{ fontSize: '48px', width: '48px', height: '48px' }} />
               <p>Aucun quiz trouvé.</p>
-              {searchTerm && (
-                <Button onClick={() => setSearchTerm('')} variant="outline" size="small">
-                  Effacer la recherche
+              {hasActiveFilters && (
+                <Button onClick={clearFilters} variant="outline" size="small">
+                  Effacer les filtres
                 </Button>
               )}
             </Card>
@@ -231,4 +271,3 @@ export const Quizzes = () => {
     </Layout>
   )
 }
-

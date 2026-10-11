@@ -34,10 +34,23 @@ export const Collections = () => {
     featured: '',
     search: '',
   })
+  const [searchInput, setSearchInput] = useState('')
 
   useEffect(() => {
     fetchCollections()
   }, [filters])
+
+  useEffect(() => {
+    const timer = window.setTimeout(() => {
+      setFilters((currentFilters) => (
+        currentFilters.search === searchInput
+          ? currentFilters
+          : { ...currentFilters, search: searchInput }
+      ))
+    }, 350)
+
+    return () => window.clearTimeout(timer)
+  }, [searchInput])
 
   const fetchCollections = async () => {
     try {
@@ -101,8 +114,8 @@ export const Collections = () => {
             <span className="icon-search" />
             <Input
               placeholder="Rechercher une collection..."
-              value={filters.search}
-              onChange={(e) => setFilters({ ...filters, search: e.target.value })}
+              value={searchInput}
+              onChange={(e) => setSearchInput(e.target.value)}
             />
           </div>
           <div className="filter-group">
@@ -214,4 +227,3 @@ export const Collections = () => {
     </Layout>
   )
 }
-

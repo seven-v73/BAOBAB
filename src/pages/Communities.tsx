@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { Layout } from '../components/Layout/Layout'
 import { communityService } from '../services/api'
 import { useAuthStore } from '../stores/authStore'
@@ -33,6 +33,7 @@ interface Community {
 
 export const Communities = () => {
   const { user } = useAuthStore()
+  const navigate = useNavigate()
   const { success, error: showError, info } = useNotifications()
   const [communities, setCommunities] = useState<Community[]>([])
   const [loading, setLoading] = useState(true)
@@ -42,8 +43,14 @@ export const Communities = () => {
     culture: '',
     search: '',
   })
+  const [searchInput, setSearchInput] = useState('')
+  const [cultureInput, setCultureInput] = useState('')
   const hasActiveFilters = Boolean(filters.type || filters.culture || filters.search)
-  const clearFilters = () => setFilters({ type: '', culture: '', search: '' })
+  const clearFilters = () => {
+    setFilters({ type: '', culture: '', search: '' })
+    setSearchInput('')
+    setCultureInput('')
+  }
 
   const fetchCommunities = async () => {
     try {
@@ -66,7 +73,24 @@ export const Communities = () => {
     fetchCommunities()
   }, [filters])
 
+  useEffect(() => {
+    const timer = window.setTimeout(() => {
+      setFilters((currentFilters) => ({
+        ...currentFilters,
+        search: searchInput,
+        culture: cultureInput,
+      }))
+    }, 350)
+
+    return () => window.clearTimeout(timer)
+  }, [searchInput, cultureInput])
+
   const handleJoin = async (communityId: string) => {
+    if (!user) {
+      navigate(`/login?redirect=${encodeURIComponent(`/communities/${communityId}`)}`)
+      return
+    }
+
     try {
       await communityService.joinCommunity(communityId)
       success('Vous avez rejoint la communauté.')
@@ -80,14 +104,14 @@ export const Communities = () => {
     <Layout>
       <div className="communities-page">
         <div className="communities-header">
-          <h1>Communautés</h1>
-          <p>Le cercle Baobab est ouvert à tous. Les nouveaux groupes passent par une demande pour garder un espace lisible et bien animé.</p>
+          <h1>Cercles et communautés</h1>
+          <p>Des espaces pour poser une question, transmettre une ressource, rejoindre une culture ou faire grandir une conversation avec respect.</p>
         </div>
 
         <div className="communities-actions">
-          <Link to="/communities/create" className="btn btn-primary">
+          <Link to={user ? '/communities/create' : `/login?redirect=${encodeURIComponent('/communities/create')}`} className="btn btn-primary">
             <Plus size={20} />
-            Proposer un groupe
+            Proposer un cercle
           </Link>
         </div>
 
@@ -96,9 +120,9 @@ export const Communities = () => {
             <Search size={20} />
             <input
               type="text"
-              placeholder="Rechercher une communauté..."
-              value={filters.search}
-              onChange={(e) => setFilters({ ...filters, search: e.target.value })}
+              placeholder="Chercher un cercle, une culture, une discussion..."
+              value={searchInput}
+              onChange={(e) => setSearchInput(e.target.value)}
             />
           </div>
           <select
@@ -113,8 +137,8 @@ export const Communities = () => {
           <input
             type="text"
             placeholder="Culture (ex: Wolof, Bambara...)"
-            value={filters.culture}
-            onChange={(e) => setFilters({ ...filters, culture: e.target.value })}
+            value={cultureInput}
+            onChange={(e) => setCultureInput(e.target.value)}
             className="culture-input"
           />
         </div>
@@ -122,7 +146,10 @@ export const Communities = () => {
         {hasActiveFilters && (
           <div className="active-filter-chips" aria-label="Filtres actifs">
             {filters.search && (
-              <button type="button" className="active-filter-chip" onClick={() => setFilters({ ...filters, search: '' })}>
+              <button type="button" className="active-filter-chip" onClick={() => {
+                setSearchInput('')
+                setFilters({ ...filters, search: '' })
+              }}>
                 <span>Recherche: {filters.search}</span>
                 <span aria-hidden="true">×</span>
               </button>
@@ -134,7 +161,10 @@ export const Communities = () => {
               </button>
             )}
             {filters.culture && (
-              <button type="button" className="active-filter-chip" onClick={() => setFilters({ ...filters, culture: '' })}>
+              <button type="button" className="active-filter-chip" onClick={() => {
+                setCultureInput('')
+                setFilters({ ...filters, culture: '' })
+              }}>
                 <span>{filters.culture}</span>
                 <span aria-hidden="true">×</span>
               </button>
@@ -153,8 +183,8 @@ export const Communities = () => {
           <Skeleton variant="cards" count={6} label="Chargement des communautés" />
         ) : communities.length === 0 ? (
           <EmptyState
-            title="Aucune communauté ne correspond à ces filtres"
-            description="Essayez une recherche plus large ou revenez au cercle Baobab, le point de départ commun de MonBaobab."
+            title="Aucun cercle ne correspond à ces filtres"
+            description="Essayez une recherche plus large ou revenez au cercle Baobab, le point de départ commun."
             action={<button className="btn btn-outline" onClick={clearFilters}>Réinitialiser les filtres</button>}
           />
         ) : (
@@ -206,7 +236,7 @@ export const Communities = () => {
                       <span>{community.memberCount} membres</span>
                     </div>
                     <div className="stat">
-                      <span>{community.postCount} posts</span>
+                      <span>{community.postCount} message{community.postCount > 1 ? 's' : ''}</span>
                     </div>
                   </div>
                   {community.tags.length > 0 && (
@@ -222,21 +252,29 @@ export const Communities = () => {
                         to={`/communities/${community._id}`}
                         className="btn btn-primary"
                       >
-                        Voir la communauté
+                        Entrer dans le cercle
                       </Link>
                     ) : community.type === 'public' ? (
-                      <button
-                        className="btn btn-primary"
-                        onClick={() => handleJoin(community._id)}
-                      >
-                        Rejoindre
-                      </button>
+                      <>
+                        <Link
+                          to={`/communities/${community._id}`}
+                          className="btn btn-outline"
+                        >
+                          Voir le cercle
+                        </Link>
+                        <button
+                          className="btn btn-primary"
+                          onClick={() => handleJoin(community._id)}
+                        >
+                          Rejoindre
+                        </button>
+                      </>
                     ) : (
                       <button
                         className="btn btn-outline"
                         onClick={() => info('Cette communauté est privée. Une invitation est requise pour y accéder.')}
                       >
-                        Demander l'accès
+                        Demander l’accès
                       </button>
                     )}
                   </div>

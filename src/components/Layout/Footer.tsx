@@ -23,6 +23,12 @@ export const Footer = () => {
 
   return (
     <footer className="footer">
+      <div className="footer-inner">
+        <p className="footer-kicker">{platformName}</p>
+        <p className="footer-note">
+          Un espace pour découvrir, transmettre et relier les cultures africaines avec soin.
+        </p>
+      </div>
       <div className="footer-bottom">
         <p className="footer-copyright">
           &copy; {currentYear} {platformName}. Tous droits réservés.

@@ -10,6 +10,7 @@ export const getSources = catchAsync(async (req, res) => {
     year,
     minReliability,
     search,
+    country,
     limit = 50,
     page = 1,
     sort = 'citations',
@@ -31,6 +32,23 @@ export const getSources = catchAsync(async (req, res) => {
 
   if (minReliability) {
     query.reliability = { $gte: parseInt(minReliability) }
+  }
+
+  if (country) {
+    const countryQuery = await import('../models/Country.js')
+    const Country = countryQuery.default
+    const matchedCountry = await Country.findOne({
+      $or: [
+        { id: String(country).toUpperCase() },
+        { nameFr: new RegExp(String(country), 'i') },
+      ],
+    }).select('_id')
+
+    if (matchedCountry) {
+      query.relatedCountries = matchedCountry._id
+    } else {
+      query.relatedCountries = null
+    }
   }
 
   if (search) {
@@ -135,4 +153,3 @@ export const citeSource = catchAsync(async (req, res) => {
 
   res.json({ citations: source.citations })
 })
-

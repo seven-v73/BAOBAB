@@ -1,0 +1,316 @@
+/*
+  Page limit checks and fixes.
+  Keeps listing/detail pages stable on long content, mobile screens and slow data.
+*/
+
+:root {
+  --page-header-radius: 8px;
+  --page-section-gap: clamp(1rem, 2vw, 1.5rem);
+}
+
+:where(
+  .blog,
+  .shop,
+  .collections-page,
+  .communities-page,
+  .timeline-page,
+  .figures-page,
+  .stories-page,
+  .quizzes-page,
+  .proverbs-page,
+  .search-results,
+  .blog-post-page,
+  .collection-detail,
+  .story-detail,
+  .timeline-detail,
+  .figure-detail
+) {
+  width: min(100%, 1480px);
+  margin-inline: auto;
+  min-width: 0;
+}
+
+:where(
+  .timeline-filters,
+  .figures-filters,
+  .stories-filters,
+  .quizzes-filters,
+  .proverbs-filters
+) {
+  min-width: 0;
+}
+
+:where(.active-filter-chips) {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+:where(.active-filter-chip, .active-filter-clear) {
+  display: inline-flex;
+  min-height: 38px;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  border: 1px solid var(--readable-border, var(--color-border));
+  border-radius: 999px;
+  background: var(--readable-surface-soft, var(--color-bg-card));
+  color: var(--readable-text, var(--color-text));
+  padding: 0.45rem 0.8rem;
+  font: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: transform 180ms ease, border-color 180ms ease, background-color 180ms ease;
+}
+
+:where(.active-filter-chip:hover, .active-filter-clear:hover) {
+  transform: translateY(-1px);
+  border-color: var(--color-gold, var(--color-primary));
+}
+
+:where(.active-filter-chip span:first-child) {
+  max-width: min(58vw, 320px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+:where(.active-filter-clear) {
+  color: var(--color-gold, var(--color-primary));
+  font-weight: 700;
+}
+
+:where(
+  .blog-header,
+  .shop-header,
+  .collections-header,
+  .communities-header,
+  .timeline-header,
+  .figures-header,
+  .stories-header,
+  .quizzes-header,
+  .proverbs-header,
+  .search-header
+) {
+  border-radius: var(--page-header-radius) !important;
+  padding: clamp(1.4rem, 3vw, 2rem) !important;
+  margin-bottom: clamp(1.25rem, 3vw, 2rem) !important;
+  background:
+    linear-gradient(135deg, rgba(15, 76, 58, 0.9), rgba(35, 74, 125, 0.72)),
+    var(--color-bg-card) !important;
+  overflow: hidden;
+}
+
+:where(
+  .blog-header h1,
+  .shop-header h1,
+  .collections-header h1,
+  .communities-header h1,
+  .timeline-header h1,
+  .figures-header h1,
+  .stories-header h1,
+  .quizzes-header h1,
+  .proverbs-header h1,
+  .search-header h1
+) {
+  max-width: 900px;
+  margin-inline: auto;
+  color: #fffaf0 !important;
+  font-size: clamp(2rem, 5vw, 3.3rem) !important;
+  line-height: 1.02 !important;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+:where(
+  .blog-header p,
+  .shop-header p,
+  .collections-header p,
+  .communities-header p,
+  .timeline-header p,
+  .figures-header p,
+  .stories-header p,
+  .quizzes-header p,
+  .proverbs-header p,
+  .search-header p
+) {
+  max-width: 760px;
+  margin-inline: auto;
+  color: rgba(255, 250, 240, 0.84) !important;
+  text-align: center;
+}
+
+:where(
+  .blog-grid,
+  .shop-grid,
+  .collections-grid,
+  .communities-grid,
+  .stories-grid,
+  .quizzes-grid,
+  .timeline-grid,
+  .timeline-container,
+  .figures-grid,
+  .proverbs-grid
+) {
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 290px), 1fr)) !important;
+  gap: var(--page-section-gap) !important;
+}
+
+:where(
+  .blog-card,
+  .product-card,
+  .collection-card,
+  .community-card,
+  .story-card,
+  .quiz-card,
+  .timeline-card,
+  .timeline-event-card,
+  .figure-card,
+  .proverb-card
+) {
+  min-width: 0;
+  overflow: hidden;
+}
+
+:where(
+  .blog-card h3,
+  .product-info h3,
+  .collection-content h3,
+  .community-info h3,
+  .story-card h3,
+  .quiz-card h3,
+  .timeline-card h3,
+  .timeline-event-card h3,
+  .figure-card h3
+) {
+  overflow-wrap: anywhere;
+}
+
+:where(
+  .blog-excerpt,
+  .product-description,
+  .collection-description,
+  .community-description,
+  .story-description,
+  .quiz-description,
+  .event-description,
+  .figure-bio,
+  .proverb-explanation-small p
+) {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+:where(
+  .collection-card:hover,
+  .product-card:hover,
+  .community-card:hover,
+  .blog-card:hover
+) {
+  transform: translateY(-3px) !important;
+}
+
+.collection-card:hover .collection-cover {
+  height: 220px !important;
+}
+
+:where(
+  .collections-filters,
+  .communities-filters,
+  .shop-controls,
+  .blog-controls,
+  .timeline-filters,
+  .figures-filters,
+  .stories-filters,
+  .quizzes-filters,
+  .proverbs-filters
+) {
+  position: sticky;
+  top: 82px;
+  z-index: 20;
+  backdrop-filter: blur(14px);
+}
+
+:where(
+  .shop-controls,
+  .blog-controls,
+  .collections-filters,
+  .communities-filters,
+  .timeline-filters,
+  .figures-filters,
+  .stories-filters,
+  .quizzes-filters,
+  .proverbs-filters
+) {
+  border: 1px solid var(--readable-border, var(--color-border));
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--readable-surface, var(--color-bg-card)) 94%, transparent);
+  box-shadow: 0 10px 28px color-mix(in srgb, #000 12%, transparent);
+}
+
+:where(.collections-filters, .communities-filters) {
+  padding: 1rem;
+}
+
+:where(.collections-filters .filter-group, .communities-filters > *) {
+  min-width: min(100%, 220px);
+}
+
+:where(.blog-post) {
+  border-radius: 8px !important;
+}
+
+:where(.blog-post-content) {
+  max-width: 72ch;
+  margin-inline: auto;
+}
+
+:where(.blog-post-image) {
+  height: auto !important;
+  aspect-ratio: 16 / 8;
+}
+
+@media (max-width: 820px) {
+  :where(
+    .collections-filters,
+    .communities-filters,
+    .shop-controls,
+    .blog-controls,
+    .timeline-filters,
+    .figures-filters,
+    .stories-filters,
+    .quizzes-filters,
+    .proverbs-filters
+  ) {
+    position: static;
+  }
+}
+
+@media (max-width: 560px) {
+  :where(
+    .blog,
+    .shop,
+    .collections-page,
+    .communities-page,
+    .blog-post-page
+  ) {
+    padding-inline: 0.85rem !important;
+  }
+
+  :where(.blog-post) {
+    padding: 1.1rem !important;
+  }
+
+  :where(.blog-post-image) {
+    aspect-ratio: 4 / 3;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :where(.collections-header::before, .collection-featured-badge) {
+    animation: none !important;
+  }
+}

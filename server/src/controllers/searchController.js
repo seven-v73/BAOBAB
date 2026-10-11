@@ -8,6 +8,8 @@ import Country from '../models/Country.js'
 import Proverb from '../models/Proverb.js'
 import Community from '../models/Community.js'
 import Quiz from '../models/Quiz.js'
+import Source from '../models/Source.js'
+import Contribution from '../models/Contribution.js'
 import logger from '../utils/logger.js'
 import { catchAsync } from '../utils/errorHandler.js'
 
@@ -27,6 +29,8 @@ export const searchAll = catchAsync(async (req, res) => {
       proverbs: [],
       communities: [],
       quizzes: [],
+      sources: [],
+      contributions: [],
     })
   }
 
@@ -44,6 +48,8 @@ export const searchAll = catchAsync(async (req, res) => {
     proverbs: [],
     communities: [],
     quizzes: [],
+    sources: [],
+    contributions: [],
   }
 
   // Recherche dans les pays
@@ -208,6 +214,42 @@ export const searchAll = catchAsync(async (req, res) => {
       .lean()
   }
 
+  if (!type || type === 'sources') {
+    results.sources = await Source.find({
+      isActive: true,
+      $or: [
+        { title: searchRegex },
+        { author: searchRegex },
+        { publisher: searchRegex },
+        { description: searchRegex },
+        { abstract: searchRegex },
+        { keywords: { $in: [searchRegex] } },
+        { relatedTopics: { $in: [searchRegex] } },
+      ],
+    })
+      .populate('relatedCountries', 'nameFr id')
+      .limit(Number(limit))
+      .select('type title author publisher year url reliability description keywords relatedCountries')
+      .lean()
+  }
+
+  if (!type || type === 'contributions') {
+    results.contributions = await Contribution.find({
+      status: 'approved',
+      visibility: 'public',
+      $or: [
+        { title: searchRegex },
+        { content: searchRegex },
+        { countryName: searchRegex },
+        { language: searchRegex },
+        { tags: { $in: [searchRegex] } },
+      ],
+    })
+      .limit(Number(limit))
+      .select('type title content countryName language tags createdAt')
+      .lean()
+  }
+
   res.json(results)
 })
 
@@ -222,7 +264,7 @@ export const getSearchSuggestions = catchAsync(async (req, res) => {
   const searchQuery = q.trim()
   const searchRegex = new RegExp(searchQuery, 'i')
 
-  const [products, blogs, events, figures, countries, proverbs, communities, quizzes] = await Promise.all([
+  const [products, blogs, events, figures, countries, proverbs, communities, quizzes, sources, contributions] = await Promise.all([
     Product.find({
       isActive: true,
       name: searchRegex,
@@ -288,6 +330,21 @@ export const getSearchSuggestions = catchAsync(async (req, res) => {
       .limit(Number(limit))
       .select('title')
       .lean(),
+    Source.find({
+      isActive: true,
+      title: searchRegex,
+    })
+      .limit(Number(limit))
+      .select('title')
+      .lean(),
+    Contribution.find({
+      status: 'approved',
+      visibility: 'public',
+      title: searchRegex,
+    })
+      .limit(Number(limit))
+      .select('title')
+      .lean(),
   ])
 
   const suggestions = []
@@ -321,6 +378,12 @@ export const getSearchSuggestions = catchAsync(async (req, res) => {
   })
   quizzes.forEach((quiz) => {
     suggestions.push({ type: 'quiz', text: quiz.title, id: quiz._id })
+  })
+  sources.forEach((source) => {
+    suggestions.push({ type: 'source', text: source.title, id: source._id })
+  })
+  contributions.forEach((contribution) => {
+    suggestions.push({ type: 'contribution', text: contribution.title, id: contribution._id })
   })
 
   // Limiter et mélanger

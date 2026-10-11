@@ -42,6 +42,8 @@ export const Timeline = () => {
     category: '',
     search: '',
   })
+  const [searchInput, setSearchInput] = useState('')
+  const hasActiveFilters = Boolean(filters.period || filters.category || filters.search)
 
   useEffect(() => {
     fetchPeriods()
@@ -51,6 +53,23 @@ export const Timeline = () => {
   useEffect(() => {
     fetchEvents()
   }, [filters])
+
+  useEffect(() => {
+    const timeout = window.setTimeout(() => {
+      setFilters((currentFilters) =>
+        currentFilters.search === searchInput
+          ? currentFilters
+          : { ...currentFilters, search: searchInput }
+      )
+    }, 350)
+
+    return () => window.clearTimeout(timeout)
+  }, [searchInput])
+
+  const clearFilters = () => {
+    setSearchInput('')
+    setFilters({ period: '', category: '', search: '' })
+  }
 
   const fetchPeriods = async () => {
     try {
@@ -114,8 +133,8 @@ export const Timeline = () => {
             <span className="icon-search" />
             <Input
               placeholder="Rechercher un événement..."
-              value={filters.search}
-              onChange={(e) => setFilters({ ...filters, search: e.target.value })}
+              value={searchInput}
+              onChange={(e) => setSearchInput(e.target.value)}
             />
           </div>
           <div className="filter-group">
@@ -152,6 +171,11 @@ export const Timeline = () => {
               ))}
             </select>
           </div>
+          {hasActiveFilters && (
+            <button type="button" className="active-filter-clear" onClick={clearFilters}>
+              Effacer les filtres
+            </button>
+          )}
         </div>
 
         {loading ? (
@@ -161,6 +185,11 @@ export const Timeline = () => {
         ) : events.length === 0 ? (
           <div className="timeline-empty">
             <p>Aucun événement trouvé</p>
+            {hasActiveFilters && (
+              <Button onClick={clearFilters} variant="outline" size="small">
+                Effacer les filtres
+              </Button>
+            )}
           </div>
         ) : (
           <div className="timeline-container">
@@ -211,4 +240,3 @@ export const Timeline = () => {
     </Layout>
   )
 }
-

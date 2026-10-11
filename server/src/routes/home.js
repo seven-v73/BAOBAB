@@ -1,5 +1,6 @@
 import express from 'express'
 import { getHomeStats, getFeaturedContent, getTrendingContent, getRecentContent } from '../controllers/homeController.js'
+import { getAfricaNews } from '../controllers/africaNewsController.js'
 
 const router = express.Router()
 
@@ -15,5 +16,7 @@ router.get('/content/trending', getTrendingContent)
 // GET /api/content/recent - Contenu récent
 router.get('/content/recent', getRecentContent)
 
-export default router
+// GET /api/news/africa - Actualités publiées via les flux RSS des médias partenaires.
+router.get('/news/africa', getAfricaNews)
 
+export default router

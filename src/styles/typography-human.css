@@ -1,0 +1,155 @@
+/*
+  Human typography layer.
+  Warmer, less tech, with softer rhythm for editorial and admin surfaces.
+*/
+
+:root {
+  --font-body: 'Nunito Sans', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-ui: 'Nunito Sans', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-display: 'Source Serif 4', Georgia, 'Times New Roman', ui-serif, serif;
+  --human-line: 1.72;
+  --human-title-line: 1.08;
+}
+
+html,
+body,
+input,
+textarea,
+select,
+button {
+  font-family: var(--font-body);
+  font-feature-settings: 'kern' 1, 'liga' 1;
+}
+
+body {
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+:where(
+  h1,
+  h2,
+  .page-title,
+  .section-title,
+  .hero-title,
+  .home-hero h1,
+  .home-section h2,
+  .dashboard-header h1,
+  .dashboard-content h2,
+  .country-hero-copy h1,
+  .country-hero-info h1,
+  .auth-story-panel h2,
+  .blog-header h1,
+  .shop-header h1,
+  .collections-header h1,
+  .communities-header h1,
+  .timeline-header h1,
+  .figures-header h1,
+  .stories-header h1,
+  .quizzes-header h1,
+  .proverbs-header h1
+) {
+  font-family: var(--font-display) !important;
+  font-weight: 650 !important;
+  letter-spacing: 0 !important;
+  line-height: var(--human-title-line) !important;
+  text-wrap: balance;
+}
+
+:where(
+  h3,
+  .card h3,
+  .product-card h3,
+  .blog-card h3,
+  .collection-card h3,
+  .story-card h3,
+  .quiz-card h3,
+  .proverb-card h3,
+  .community-card h3,
+  .figure-card h3,
+  .timeline-card h3
+) {
+  font-family: var(--font-display) !important;
+  font-weight: 620 !important;
+  letter-spacing: 0 !important;
+  line-height: 1.16 !important;
+}
+
+:where(
+  p,
+  li,
+  dd,
+  dt,
+  label,
+  small,
+  .page-subtitle,
+  .section-description,
+  .home-hero-lead,
+  .country-subtitle,
+  .blog-excerpt,
+  .story-description,
+  .collection-description,
+  .product-description,
+  .community-description,
+  .quiz-description
+) {
+  line-height: var(--human-line);
+}
+
+:where(
+  .nav-link,
+  .nav-more-btn,
+  .mobile-nav-link,
+  .btn,
+  button,
+  input,
+  select,
+  textarea,
+  .form-tab,
+  .badge,
+  .tag,
+  .category-badge,
+  .dashboard-section-kicker,
+  .home-kicker,
+  .section-kicker,
+  .country-kicker,
+  .logo-signature
+) {
+  font-family: var(--font-ui) !important;
+}
+
+:where(
+  .home-kicker,
+  .section-kicker,
+  .country-kicker,
+  .dashboard-section-kicker,
+  .logo-signature,
+  .mobile-nav-section-label,
+  .media-type,
+  .badge,
+  .tag,
+  .category-badge
+) {
+  letter-spacing: 0.045em !important;
+  font-weight: 800 !important;
+}
+
+:where(.btn, button, .nav-link, .nav-more-btn, .mobile-nav-link) {
+  font-weight: 750;
+}
+
+.logo-text {
+  font-family: var(--font-display) !important;
+  font-weight: 650 !important;
+  letter-spacing: 0 !important;
+}
+
+:where(.stat-content h3, .dashboard-card .card-value, .progress-stat-card h3) {
+  font-family: var(--font-display) !important;
+  font-weight: 650 !important;
+  letter-spacing: 0 !important;
+}
+
+:where(.admin-dashboard, .dashboard, .settings-card, .form-card) {
+  font-family: var(--font-body);
+}

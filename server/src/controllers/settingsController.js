@@ -55,6 +55,7 @@ export const updateSettings = catchAsync(async (req, res) => {
         flag: String(member.flag || '').trim(),
         image: String(member.image || '').trim(),
         focus: String(member.focus || 'center 35%').trim(),
+        profileUrl: String(member.profileUrl || '').trim(),
       }))
   }
 

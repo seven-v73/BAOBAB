@@ -7,8 +7,8 @@
   padding: 0.9rem;
   background: color-mix(in srgb, var(--color-bg-card) 94%, transparent);
   border: 1px solid var(--color-border-light);
-  border-radius: 18px;
-  box-shadow: 0 18px 48px rgba(15, 23, 42, 0.08);
+  border-radius: 14px;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.08);
 }
 
 .post-composer-avatar {
@@ -41,7 +41,7 @@
   padding: 0.35rem;
   background: var(--color-bg-light);
   border: 1px solid var(--color-border-light);
-  border-radius: 14px;
+  border-radius: 12px;
 }
 
 .post-composer-input {
@@ -55,7 +55,7 @@
   background: transparent;
   color: var(--color-text);
   font: inherit;
-  line-height: 1.45;
+  line-height: 1.55;
 }
 
 .post-composer-input::placeholder {
@@ -93,8 +93,8 @@
 }
 
 .composer-send-btn {
-  color: #fff;
-  background: var(--color-primary, var(--color-gold));
+  color: var(--button-primary-text, #161009);
+  background: var(--button-primary-bg, var(--color-gold));
 }
 
 .composer-send-btn:hover:not(:disabled) {
@@ -128,7 +128,7 @@
 .composer-chip:hover,
 .composer-chip.active {
   color: var(--color-text);
-  background: var(--color-bg-light);
+  background: color-mix(in srgb, var(--color-gold) 12%, var(--color-bg-light));
   border-color: color-mix(in srgb, var(--color-primary, var(--color-gold)) 45%, var(--color-border-light));
 }
 

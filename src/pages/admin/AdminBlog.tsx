@@ -327,6 +327,17 @@ export const AdminBlog = () => {
     return <div className="loading">Chargement des articles...</div>
   }
 
+  const contentLength = formData.content.trim().length
+  const excerptLength = formData.excerpt.trim().length
+  const mediaCount = images.length + pdfs.length + videos.length + documents.length
+  const completionItems = [
+    Boolean(formData.title.trim()),
+    contentLength >= 120,
+    Boolean(formData.image.trim()),
+    Boolean(formData.category),
+  ]
+  const completionScore = completionItems.filter(Boolean).length
+
   return (
     <div className="admin-blog">
       <div className="admin-section-header">
@@ -367,7 +378,15 @@ export const AdminBlog = () => {
 
       {showForm && (
         <Card className="blog-form-card">
-          <h3>{editingPost ? 'Modifier l\'article' : 'Nouvel article'}</h3>
+          <div className="admin-form-heading">
+            <div>
+              <h3>{editingPost ? 'Modifier l\'article' : 'Nouvel article'}</h3>
+              <p>{completionScore}/4 essentiels prêts · {contentLength} caractères · {mediaCount} média{mediaCount > 1 ? 's' : ''}</p>
+            </div>
+            <span className={`content-state-pill ${formData.published ? 'published' : 'draft'}`}>
+              {formData.published ? 'Publié' : 'Brouillon'}
+            </span>
+          </div>
           
           {/* Onglets */}
           <div className="form-tabs">
@@ -429,6 +448,10 @@ export const AdminBlog = () => {
                 placeholder="Contenu de l'article..."
                 rows={10}
               />
+              <div className="field-meta">
+                <span>{contentLength < 120 ? 'Ajoutez du contexte pour un article plus complet.' : 'Longueur confortable pour la lecture.'}</span>
+                <span>{contentLength} caractères</span>
+              </div>
             </div>
 
             <div className="form-group">
@@ -442,6 +465,10 @@ export const AdminBlog = () => {
                 placeholder="Court résumé de l'article..."
                 rows={3}
               />
+              <div className="field-meta">
+                <span>Visible dans les listes et aperçus.</span>
+                <span>{excerptLength} caractères</span>
+              </div>
             </div>
 
             <div className="form-row">
@@ -528,41 +555,13 @@ export const AdminBlog = () => {
                         </Button>
                       </div>
                     </div>
-                    <div className="media-upload-mode">
-                      <Button
-                        type="button"
-                        size="small"
-                        variant={uploadMode[`image-${idx}`] === 'upload' ? 'primary' : 'outline'}
-                        onClick={() => setUploadMode({ ...uploadMode, [`image-${idx}`]: 'upload' })}
-                      >
-                        <ImageIcon size={14} />
-                        Upload depuis PC
-                      </Button>
-                      <Button
-                        type="button"
-                        size="small"
-                        variant={uploadMode[`image-${idx}`] === 'url' || !uploadMode[`image-${idx}`] ? 'primary' : 'outline'}
-                        onClick={() => setUploadMode({ ...uploadMode, [`image-${idx}`]: 'url' })}
-                      >
-                        <LinkIcon size={14} />
-                        Lien URL
-                      </Button>
-                    </div>
-                    {uploadMode[`image-${idx}`] === 'upload' ? (
-                      <FileUpload
-                        type="image"
-                        onUploadSuccess={(url) => updateImage(idx, 'url', url)}
-                        label="Uploader une image"
-                      />
-                    ) : (
-                      <Input
-                        label="URL de l'image"
-                        type="url"
-                        value={img.url}
-                        onChange={(e) => updateImage(idx, 'url', e.target.value)}
-                        placeholder="https://example.com/image.jpg"
-                      />
-                    )}
+                    <MediaUpload
+                      type="image"
+                      value={img.url}
+                      label={`Image ${idx + 1}`}
+                      onChange={(url) => updateImage(idx, 'url', url)}
+                      onRemove={() => updateImage(idx, 'url', '')}
+                    />
                     <Input
                       label="Légende (optionnel)"
                       value={img.caption}
@@ -751,12 +750,12 @@ export const AdminBlog = () => {
                         <option value="vimeo">Vimeo</option>
                       </select>
                     </div>
-                    <Input
-                      label="Miniature (URL optionnel)"
-                      type="url"
+                    <MediaUpload
+                      type="image"
                       value={video.thumbnail}
-                      onChange={(e) => updateVideo(idx, 'thumbnail', e.target.value)}
-                      placeholder="https://example.com/thumbnail.jpg"
+                      label="Miniature vidéo"
+                      onChange={(url) => updateVideo(idx, 'thumbnail', url)}
+                      onRemove={() => updateVideo(idx, 'thumbnail', '')}
                     />
                   </div>
                 ))}
@@ -863,7 +862,11 @@ export const AdminBlog = () => {
               </div>
             )}
 
-            <div className="form-actions">
+            <div className="form-actions sticky-form-actions">
+              <div className="form-save-context">
+                <strong>{editingPost ? 'Modification en cours' : 'Nouvel article'}</strong>
+                <span>{completionScore < 4 ? 'Vérifiez les champs essentiels avant publication.' : 'Prêt à enregistrer.'}</span>
+              </div>
               <Button type="submit">
                 {editingPost ? 'Mettre à jour' : 'Créer l\'article'}
               </Button>

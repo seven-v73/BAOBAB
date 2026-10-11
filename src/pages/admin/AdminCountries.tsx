@@ -4,6 +4,7 @@ import { Card } from '../../components/Card/Card'
 import { Button } from '../../components/Button/Button'
 import { Input } from '../../components/Input/Input'
 import { FileUpload } from '../../components/FileUpload/FileUpload'
+import { MediaUpload } from '../../components/Community/MediaUpload'
 import { countryService } from '../../services/api'
 import { useNotifications } from '../../hooks/useNotifications'
 import { useConfirmDialog } from '../../components/UX/ConfirmDialog'
@@ -1369,54 +1370,19 @@ export const AdminCountries = () => {
                             <X size={16} />
                           </button>
                         </div>
-                        <div className="upload-mode-selector">
-                          <button
-                            type="button"
-                            className={`mode-btn ${(uploadMode[`image-${index}`] || 'upload') === 'upload' ? 'active' : ''}`}
-                            onClick={() => setUploadMode({ ...uploadMode, [`image-${index}`]: 'upload' })}
-                          >
-                            <ImageIcon size={16} />
-                            Upload depuis votre ordinateur
-                          </button>
-                          <button
-                            type="button"
-                            className={`mode-btn ${uploadMode[`image-${index}`] === 'url' ? 'active' : ''}`}
-                            onClick={() => setUploadMode({ ...uploadMode, [`image-${index}`]: 'url' })}
-                          >
-                            <LinkIcon size={16} />
-                            Lien URL (Drive, Dropbox, etc.)
-                          </button>
-                        </div>
-                        
-                        {(uploadMode[`image-${index}`] || 'upload') === 'upload' ? (
-                          <FileUpload
-                            type="image"
-                            onUploadSuccess={(url) => updateImage(index, 'url', url)}
-                            label="Upload d'image"
-                          />
-                        ) : (
-                          <Input
-                            label="URL de l'image"
-                            value={image.url}
-                            onChange={(e) => updateImage(index, 'url', e.target.value)}
-                            placeholder="https://exemple.com/image.jpg ou lien Google Drive/Dropbox"
-                            required
-                          />
-                        )}
+                        <MediaUpload
+                          type="image"
+                          value={image.url}
+                          label={`Image ${index + 1}`}
+                          onChange={(url) => updateImage(index, 'url', url)}
+                          onRemove={() => updateImage(index, 'url', '')}
+                        />
                         <Input
                           label="Légende (optionnel)"
                           value={image.caption}
                           onChange={(e) => updateImage(index, 'caption', e.target.value)}
                           placeholder="Description de l'image"
                         />
-                        {image.url && (
-                          <div className="image-preview">
-                            <img src={image.url} alt="Aperçu" onError={(e) => {
-                              const target = e.target as HTMLImageElement
-                              target.style.display = 'none'
-                            }} />
-                          </div>
-                        )}
                       </Card>
                     ))}
                   </div>
@@ -1596,11 +1562,12 @@ export const AdminCountries = () => {
                           placeholder="https://youtube.com/watch?v=... ou https://vimeo.com/..."
                           required
                         />
-                        <Input
-                          label="URL de la miniature (optionnel)"
+                        <MediaUpload
+                          type="image"
                           value={video.thumbnail || ''}
-                          onChange={(e) => updateVideo(index, 'thumbnail', e.target.value)}
-                          placeholder="https://exemple.com/thumbnail.jpg"
+                          label="Miniature vidéo"
+                          onChange={(url) => updateVideo(index, 'thumbnail', url)}
+                          onRemove={() => updateVideo(index, 'thumbnail', '')}
                         />
                         <div className="form-group">
                           <label htmlFor={`video-description-${index}`} className="input-label">Description (optionnel)</label>

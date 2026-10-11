@@ -14,7 +14,7 @@ export const Dashboard = () => {
   return (
     <div className="dashboard-page">
       <div className="container">
-        <h1 className="page-title">Dashboard</h1>
+        <h1 className="page-title">Mon espace</h1>
         <p className="welcome-message">
           Bienvenue, <span className="user-name">{user?.name}</span> !
         </p>

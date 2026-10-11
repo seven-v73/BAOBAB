@@ -1,0 +1,176 @@
+/*
+  Layout safety net for production.
+  Prevents compressed cards, rigid grids and text overlap across public/admin pages.
+*/
+
+:where(
+  .card,
+  [class$='-card'],
+  [class*='-card '],
+  [class$='-item'],
+  [class*='-item '],
+  [class$='-action'],
+  [class*='-action ']
+) {
+  min-width: 0;
+}
+
+:where(
+  [class$='-grid'],
+  [class*='-grid '],
+  [class$='-list'],
+  [class*='-list '],
+  [class$='-row'],
+  [class*='-row '],
+  [class$='-controls'],
+  [class*='-controls '],
+  [class$='-filters'],
+  [class*='-filters ']
+) > * {
+  min-width: 0;
+}
+
+:where(
+  .card,
+  [class$='-card'],
+  [class*='-card '],
+  [class$='-action'],
+  [class*='-action '],
+  .admin-content,
+  .dashboard-content,
+  .country-detail-page
+) :where(h1, h2, h3, h4, p, strong, span, em, a, button, li, dt, dd) {
+  max-width: 100%;
+}
+
+:where(
+  .card,
+  [class$='-card'],
+  [class*='-card '],
+  [class$='-action'],
+  [class*='-action ']
+) :where(h1, h2, h3, h4, p, strong, em, li, dd) {
+  overflow-wrap: anywhere;
+}
+
+:where(.btn, button, .button, [role='button']) {
+  max-width: 100%;
+}
+
+@media (max-width: 1280px) {
+  :where(
+    .country-signal-grid,
+    .country-journey-rail,
+    .country-day-timeline,
+    .country-insight-grid,
+    .country-workshop-grid,
+    .country-start-grid,
+    .country-crosslinks,
+    .country-journey-grid,
+    .country-skeleton-grid,
+    .admin-stats-grid,
+    .admin-products-grid,
+    .products-grid-admin,
+    .admin-users-grid,
+    .users-grid,
+    .admin-quiz-grid,
+    .community-requests-grid,
+    .admin-posts-grid,
+    .admin-countries-grid,
+    .countries-grid-admin,
+    .quick-actions-grid,
+    .stats-grid,
+    .products-grid,
+    .favorites-grid,
+    .wishlist-grid,
+    .my-blogs-grid,
+    .my-products-grid,
+    .progress-stats-grid
+  ) {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)) !important;
+  }
+
+  :where(
+    .country-compass-card,
+    .country-day-board,
+    .country-feature-layout,
+    .country-story-layout,
+    .country-detail-split,
+    .country-content-layout,
+    .country-ecosystem-layout,
+    .profile-card,
+    .admin-layout-grid
+  ) {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 1100px) {
+  :where(
+    .country-form-card,
+    .product-form-card,
+    .blog-form-card,
+    .quiz-form-card,
+    .user-form-card,
+    .settings-card,
+    .admin-card
+  ) {
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  :where(
+    .table-actions,
+    .country-actions,
+    .product-actions,
+    .user-actions,
+    .admin-post-actions,
+    .request-actions,
+    .media-item-actions,
+    .section-item-controls,
+    .question-item-actions
+  ) {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 920px) {
+  :where(
+    .form-row,
+    .settings-row,
+    .orders-controls,
+    .shop-controls,
+    .blog-controls,
+    .checkout-layout,
+    .cart-layout,
+    .order-detail-layout,
+    .community-detail-layout,
+    .create-community-layout
+  ) {
+    grid-template-columns: 1fr !important;
+  }
+
+  :where(.form-row, .settings-row, .orders-controls) {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+@media (max-width: 640px) {
+  :where(
+    .stats-grid,
+    .progress-stats-grid,
+    .dashboard-hub-grid,
+    .team-grid,
+    .route-grid,
+    .editorial-grid,
+    .country-showcase,
+    .mobile-nav-quick
+  ) {
+    grid-template-columns: 1fr !important;
+  }
+
+  :where(.card, [class$='-card'], [class*='-card ']) {
+    border-radius: 8px;
+  }
+}

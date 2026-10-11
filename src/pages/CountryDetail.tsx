@@ -8,7 +8,7 @@ import { VideoViewer } from '../components/MediaViewer/VideoViewer'
 import { DocumentViewer } from '../components/MediaViewer/DocumentViewer'
 import { CountryImmersive } from '../components/Country/CountryImmersive'
 import { CountryInteractiveMap } from '../components/Country/CountryInteractiveMap'
-import { countryService, searchService } from '../services/api'
+import { countryService, searchService, sourceService } from '../services/api'
 import { getCountryById as getStaticCountryById } from '../data/allAfricanCountries'
 import { getCountryDiscoveryDefault } from '../data/countryDiscoveryDefaults'
 import './CountryDetail.css'
@@ -96,6 +96,18 @@ interface RecommendedPath {
   title: string
   description: string
   items?: string[]
+}
+
+interface CountrySource {
+  _id: string
+  type: string
+  title: string
+  author?: string
+  publisher?: string
+  year?: number
+  url?: string
+  reliability?: number
+  description?: string
 }
 
 interface Country {
@@ -274,6 +286,7 @@ export const CountryDetail = () => {
   const [loading, setLoading] = useState(true)
   const [readingMode, setReadingMode] = useState<'essential' | 'deep'>('deep')
   const [relatedContent, setRelatedContent] = useState<RelatedContentResults | null>(null)
+  const [countrySources, setCountrySources] = useState<CountrySource[]>([])
   const [relatedLoading, setRelatedLoading] = useState(false)
   const [selectedImage, setSelectedImage] = useState<string | null>(null)
   const [selectedPDF, setSelectedPDF] = useState<CountryPDF | null>(null)
@@ -299,6 +312,7 @@ export const CountryDetail = () => {
   useEffect(() => {
     if (!country?.nameFr) {
       setRelatedContent(null)
+      setCountrySources([])
       return
     }
 
@@ -327,6 +341,28 @@ export const CountryDetail = () => {
       cancelled = true
     }
   }, [country?.nameFr])
+
+  useEffect(() => {
+    if (!country?.id) return
+
+    let cancelled = false
+    sourceService.getAll({ country: country.id, limit: 6, minReliability: 3 })
+      .then((response) => {
+        if (!cancelled) {
+          setCountrySources(response.data.sources || [])
+        }
+      })
+      .catch((error) => {
+        if (!cancelled) {
+          console.error('Erreur lors du chargement des sources liées:', error)
+          setCountrySources([])
+        }
+      })
+
+    return () => {
+      cancelled = true
+    }
+  }, [country?.id])
 
   const fetchCountry = async () => {
     try {
@@ -1527,15 +1563,40 @@ export const CountryDetail = () => {
           </section>
         )}
 
-        {country.sourceNotes && country.sourceNotes.length > 0 && (
+        {(country.sourceNotes?.length || countrySources.length > 0) && (
           <section className="country-section">
             <Card className="country-sources-card">
               <span className="section-kicker">Sources et suivi</span>
-              <h2>Données à maintenir</h2>
+              <h2>Sources, vérification et données à maintenir</h2>
               <p className="country-source-quality">Niveau éditorial : {sourceQualityLabels[country.sourceQuality || 'draft']}</p>
-              <ul>
-                {country.sourceNotes.map((note, index) => <li key={index}>{note}</li>)}
-              </ul>
+              {countrySources.length > 0 && (
+                <div className="country-source-links">
+                  {countrySources.map((source) => (
+                    <article key={source._id}>
+                      <div>
+                        <strong>{source.title}</strong>
+                        <span>
+                          {[source.type, source.author || source.publisher, source.year, `fiabilité ${source.reliability || 3}/5`].filter(Boolean).join(' · ')}
+                        </span>
+                      </div>
+                      {source.url ? (
+                        <a href={source.url} target="_blank" rel="noreferrer">Consulter</a>
+                      ) : (
+                        <Link to="/sources">Bibliothèque</Link>
+                      )}
+                    </article>
+                  ))}
+                </div>
+              )}
+              {country.sourceNotes && country.sourceNotes.length > 0 && (
+                <ul>
+                  {country.sourceNotes.map((note, index) => <li key={index}>{note}</li>)}
+                </ul>
+              )}
+              <div className="country-source-actions">
+                <Link to={`/sources?country=${country.id}`}>Explorer les sources</Link>
+                <Link to="/contribute">Proposer une correction ou une mémoire</Link>
+              </div>
             </Card>
           </section>
         )}

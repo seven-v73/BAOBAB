@@ -89,7 +89,6 @@ export const CommunityDetail = () => {
       const response = await communityService.getCommunityById(id!)
       setCommunity(response.data)
     } catch (err: any) {
-      console.error('Erreur fetchCommunity:', err)
       const errorMessage = err.response?.data?.error || 'Erreur lors du chargement de la communauté'
       setError(errorMessage)
       
@@ -115,7 +114,9 @@ export const CommunityDetail = () => {
       })
       setPosts(response.data.posts || [])
     } catch (err: any) {
-      console.error('Erreur lors du chargement des posts:', err)
+      if (err.response?.status !== 403) {
+        showError(err.response?.data?.error || 'Erreur lors du chargement des messages')
+      }
     } finally {
       setLoadingPosts(false)
     }
@@ -123,6 +124,11 @@ export const CommunityDetail = () => {
 
   const handleJoin = async () => {
     if (!id) return
+    if (!user) {
+      navigate(`/login?redirect=${encodeURIComponent(`/communities/${id}`)}`)
+      return
+    }
+
     try {
       await communityService.joinCommunity(id)
       success('Vous avez rejoint la communauté.')
@@ -160,7 +166,6 @@ export const CommunityDetail = () => {
       setPosts(prev => [response.data, ...prev])
       success('Votre post est publié.')
     } catch (err: any) {
-      console.error('Erreur création post:', err)
       showError(err.response?.data?.error || 'Erreur lors de la création du post')
     }
   }
@@ -174,7 +179,9 @@ export const CommunityDetail = () => {
         )
       )
     } catch (err: any) {
-      console.error('Erreur lors du like:', err)
+      if (err.response?.status === 401) {
+        navigate(`/login?redirect=${encodeURIComponent(`/communities/${id}`)}`)
+      }
     }
   }
 
@@ -284,12 +291,12 @@ export const CommunityDetail = () => {
                   className="btn btn-primary"
                   onClick={handleJoin}
                 >
-                  Rejoindre
+                  {user ? 'Rejoindre' : 'Rejoindre pour participer'}
                 </button>
               ) : (
                 <button
                   className="btn btn-outline"
-                  onClick={() => info('Cette communauté est privée. Une invitation est requise pour y accéder.')}
+                  onClick={() => user ? info('Cette communauté est privée. Une invitation est requise pour y accéder.') : navigate(`/login?redirect=${encodeURIComponent(`/communities/${id}`)}`)}
                 >
                   <Mail size={18} />
                   Demander l'accès
@@ -313,7 +320,7 @@ export const CommunityDetail = () => {
             className={`tab ${activeTab === 'posts' ? 'active' : ''}`}
             onClick={() => setActiveTab('posts')}
           >
-            Posts ({community.postCount})
+            Messages ({community.postCount})
           </button>
           {isMember && (
             <>
@@ -341,16 +348,16 @@ export const CommunityDetail = () => {
             {isMember && (
               <PostForm
                 onSubmit={handleCreatePost}
-                placeholder={`Écrire dans ${community.name}...`}
+                placeholder={`Partager dans ${community.name}...`}
               />
             )}
 
             {loadingPosts ? (
-              <Skeleton variant="cards" count={3} label="Chargement des posts" />
+              <Skeleton variant="cards" count={3} label="Chargement des messages" />
             ) : posts.length === 0 ? (
               <EmptyState
-                title="Aucun post pour le moment"
-                description={isMember ? 'Ouvrez la conversation avec une question, une ressource ou un souvenir.' : 'Rejoignez la communauté pour participer aux échanges.'}
+                title="Aucun message pour le moment"
+                description={isMember ? 'Ouvrez la conversation avec une question, une ressource ou un souvenir.' : 'Rejoignez le cercle pour participer aux échanges.'}
               />
             ) : (
               <div className="posts-list">

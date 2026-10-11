@@ -19,7 +19,6 @@ export const Login = () => {
   const platformName = usePlatformName()
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
-  const [showPassword, setShowPassword] = useState(false)
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
   const [searchParams] = useSearchParams()
@@ -62,69 +61,94 @@ export const Login = () => {
   return (
     <Layout>
       <div className="auth-page">
-        <Card className="auth-card-enhanced">
-          <div className="auth-story-panel" aria-hidden="true">
-            <span className="auth-kicker">MonBaobab</span>
-            <h2>Votre espace culturel, vos repères, vos favoris.</h2>
-            <p>Connectez-vous pour retrouver vos contenus, vos commandes et vos communautés sans perdre le fil.</p>
-            <div className="auth-proof-list">
-              <span>Collections sauvegardées</span>
-              <span>Parcours personnel</span>
-              <span>Communautés privées</span>
+        <div className="auth-card-enhanced">
+          
+          {/* Panneau Gauche : Motif pur + Logo + Titre centré */}
+          <div className="auth-story-panel">
+            <div className="auth-logo">
+              <img src="/LogoFiles/Fichier%207.svg" alt={platformName} />
+            </div>
+            
+            <div className="auth-story-content">
+              <h2>Bienvenue sur {platformName}</h2>
+              <p>
+                Un espace où les idées prennent racine, où 
+                les savoirs se partagent et où les communautés grandissent ensemble.
+              </p>
+              <span className="auth-tagline">
+                Apprendre. Partager. Construire. Grandir.
+              </span>
+
             </div>
           </div>
 
-          <div className="auth-header">
-            <p className="auth-eyebrow">Accès membre</p>
-            <h1>Bon retour</h1>
-            <p className="auth-subtitle">
-              Entrez dans votre espace {platformName}.
+          {/* Panneau Droit (Formulaire) */}
+          <div className="auth-form-panel">
+            <div className="auth-header">
+              <p className="auth-eyebrow">Connexion</p>
+              <h1>Heureux de vous revoir</h1>
+              <p className="auth-subtitle">
+                Connectez-vous à votre espace <strong>{platformName}</strong>
+              </p>
+            </div>
+
+            <form onSubmit={handleSubmit} className="auth-form">
+              <div className="auth-field">
+                <Input
+                  type="email"
+                  label="Email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                  placeholder="votre@email.com"
+                  autoComplete="email"
+                  variant="filled"
+                  size="medium"
+                  fullWidth
+                />
+              </div>
+
+              <div className="auth-field auth-password-field">
+                <Input
+                  type="password"
+                  label="Mot de passe"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  required
+                  placeholder="••••••••"
+                  autoComplete="current-password"
+                  variant="filled"
+                  size="medium"
+                  fullWidth
+                />
+              </div>
+
+              <div className="auth-options">
+                <Link to="/forgot-password" className="auth-forgot-link">
+                  Mot de passe oublié ?
+                </Link>
+              </div>
+
+              {error && <div className="auth-error">{error}</div>}
+
+              <Button
+                type="submit"
+                variant="primary"
+                size="large"
+                fullWidth
+                loading={loading}
+                className="auth-button"
+              >
+                {loading ? 'Connexion en cours...' : 'Se connecter'}
+              </Button>
+            </form>
+
+            <p className="auth-link">
+              Pas encore de compte ? <Link to="/register">Créer un compte</Link>
             </p>
           </div>
-          
-          <form onSubmit={handleSubmit} className="auth-form">
-            <div className="auth-field">
-              <Input
-                type="email"
-                label="Email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                required
-                placeholder="votre@email.com"
-                autoComplete="email"
-              />
-            </div>
-            
-            <div className="auth-field auth-password-field">
-              <Input
-                type={showPassword ? 'text' : 'password'}
-                label="Mot de passe"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                required
-                placeholder="••••••••"
-                autoComplete="current-password"
-              />
-              <button
-                type="button"
-                className="auth-visibility-toggle"
-                onClick={() => setShowPassword((value) => !value)}
-              >
-                {showPassword ? 'Masquer' : 'Afficher'}
-              </button>
-            </div>
-            
-            {error && <div className="auth-error">{error}</div>}
-            
-            <Button type="submit" disabled={loading} className="auth-button">
-              {loading ? 'Connexion...' : 'Se connecter'}
-            </Button>
-          </form>
-          
-          <p className="auth-link">
-            Nouveau sur {platformName} ? <Link to="/register">Créer un compte</Link>
-          </p>
-        </Card>
+
+        </div>
       </div>
     </Layout>
   )

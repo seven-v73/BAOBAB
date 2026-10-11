@@ -1,13 +1,16 @@
+/* ========================================
+   AUTH - Page de connexion
+   ======================================== */
+
 .auth-page {
   min-height: calc(100vh - 156px);
   padding: clamp(2rem, 5vw, 5rem) clamp(1rem, 4vw, 3rem);
   display: flex;
   align-items: center;
   justify-content: center;
-  background:
-    linear-gradient(145deg, rgba(15, 76, 58, 0.2), transparent 34%),
-    linear-gradient(315deg, rgba(35, 74, 125, 0.18), transparent 38%),
-    var(--color-bg);
+  
+  /* Fond neutre et épuré */
+  background-color: var(--color-bg);
 }
 
 .auth-card-enhanced {
@@ -23,104 +26,133 @@
   box-shadow: 0 26px 80px rgba(8, 11, 13, 0.22);
 }
 
-.auth-card-enhanced:hover {
-  transform: none;
-}
-
+/* --- PANNEAU GAUCHE (MOTIF PUR) --- */
 .auth-story-panel {
   min-height: 100%;
   padding: clamp(2rem, 4vw, 3.75rem);
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  color: #fffaf0;
-  background:
-    linear-gradient(180deg, rgba(8, 11, 13, 0.12), rgba(8, 11, 13, 0.78)),
-    linear-gradient(135deg, #0f4c3a 0%, #234a7d 58%, #8a5a2b 100%);
+  
+  /* MOTIF NU, SANS COULEUR DE FOND */
+  background-image: url('/Motifs/Fichier 59@2x.png');
+  background-size: 220px; /* Taille du motif */
+  background-repeat: repeat;
+  background-position: center;
+  
+  /* Pour que le texte reste lisible sur le motif, on met un fond semi-transparent */
+  background-color: rgba(15, 76, 58, 0.85); /* Vert très foncé, transparent */
+  
+  /* On fond le motif avec cette couleur de fond */
+  background-blend-mode: multiply;
+
   position: relative;
   isolation: isolate;
 }
 
+/* Bordure décorative intérieure */
 .auth-story-panel::before {
   content: '';
   position: absolute;
   inset: 1.25rem;
-  border: 1px solid rgba(255, 250, 240, 0.22);
+  border: 1px solid rgba(255, 250, 240, 0.25);
   border-radius: 8px;
   z-index: -1;
+  pointer-events: none;
 }
 
-.auth-page .auth-kicker,
-.auth-page .auth-eyebrow {
+/* Logo en haut */
+.auth-logo {
+  margin-bottom: auto; /* Pousse le contenu vers le bas */
+  z-index: 1;
+}
+
+.auth-logo img {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+  filter: brightness(0) invert(1); /* Logo blanc */
+  margin-top: 2rem;
+}
+
+/* Contenu centré */
+.auth-story-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centre horizontalement */
+  justify-content: center; /* Centre verticalement */
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 4rem; /* Compense le logo pour un vrai centrage optique */
+}
+
+.auth-story-panel h2 {
+  max-width: 14ch;
+  margin: 0 0 1rem;
+  font-size: clamp(2rem, 4.4vw, 4.4rem);
+  line-height: 1;
+  font-weight: 900;
+  color: #fffaf0;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* Ombre pour ressortir sur le motif */
+}
+
+/* Nouveau style pour la phrase "Apprendre. Partager. Construire. Grandir." */
+.auth-tagline {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.5rem 1.25rem;
+  border: 1px solid rgba(255, 250, 240, 0.3);
+  border-radius: 999px;
+  
+  /* FORCER LA COULEUR BLANCHE */
+  color: #fffaf0 !important; 
+  background: rgba(8, 11, 13, 0.45);
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: rgba(8, 11, 13, 0.25); 
+  backdrop-filter: blur(4px); 
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+.auth-tagline,
+.auth-tagline * {
+  color: #fffaf0 !important;
+}
+
+
+.auth-story-panel p {
+  max-width: 32rem;
+  margin: 0;
+  color: rgba(255, 250, 240, 0.85);
+  line-height: 1.6;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4); /* Ombre pour la lisibilité */
+}
+
+/* --- PARTIE DROITE (FORMULAIRE) --- */
+.auth-form-panel {
+  position: relative;
+  padding: clamp(2rem, 4vw, 3.75rem);
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-header {
+  margin-bottom: 1.75rem;
+  text-align: left;
+}
+
+.auth-eyebrow {
+  margin: 0 0 0.7rem;
+  color: var(--color-gold);
   text-transform: uppercase;
   letter-spacing: 0.12em;
   font-size: 0.74rem;
   font-weight: 800;
 }
 
-.auth-page .auth-kicker {
-  margin-bottom: auto;
-  color: rgba(255, 250, 240, 0.74);
-}
-
-.auth-story-panel h2 {
-  max-width: 11ch;
-  margin: 4rem 0 1rem;
-  font-size: clamp(2rem, 4.4vw, 4.4rem);
-  line-height: 0.95;
-  font-weight: 900;
-  color: #fffaf0;
-}
-
-.auth-story-panel p {
-  max-width: 36rem;
-  margin: 0;
-  color: rgba(255, 250, 240, 0.82);
-  line-height: 1.7;
-}
-
-.auth-proof-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.55rem;
-  margin-top: 1.75rem;
-}
-
-.auth-proof-list span,
-.role-permissions span {
-  display: inline-flex;
-  align-items: center;
-  min-height: 30px;
-  padding: 0.35rem 0.65rem;
-  border-radius: 999px;
-  background: rgba(255, 250, 240, 0.12);
-  border: 1px solid rgba(255, 250, 240, 0.18);
-  color: rgba(255, 250, 240, 0.9);
-  font-size: 0.78rem;
-  font-weight: 750;
-}
-
-.auth-page .auth-header,
-.auth-page .auth-form,
-.auth-page .auth-link,
-.auth-page .auth-admin-actions {
-  grid-column: 2;
-  margin-left: clamp(1.5rem, 4vw, 4rem);
-  margin-right: clamp(1.5rem, 4vw, 4rem);
-}
-
-.auth-page .auth-header {
-  margin-top: clamp(2rem, 5vw, 4rem);
-  margin-bottom: 1.75rem;
-  text-align: left;
-}
-
-.auth-page .auth-eyebrow {
-  margin: 0 0 0.7rem;
-  color: var(--color-gold);
-}
-
-.auth-page .auth-card-enhanced h1 {
+.auth-card-enhanced h1 {
   margin: 0;
   color: var(--color-text);
   font-size: clamp(2rem, 4vw, 3.4rem);
@@ -129,14 +161,14 @@
   letter-spacing: 0;
 }
 
-.auth-page .auth-subtitle {
+.auth-subtitle {
   max-width: 34rem;
   margin: 1rem 0 0;
   color: var(--color-text-muted);
   line-height: 1.65;
 }
 
-.auth-page .auth-form {
+.auth-form {
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -145,17 +177,6 @@
 
 .auth-field {
   position: relative;
-}
-
-.auth-field .input-group {
-  gap: 0.45rem;
-}
-
-.auth-field .input-label,
-.form-group > .input-label {
-  color: var(--color-text);
-  font-weight: 800;
-  font-size: 0.88rem;
 }
 
 .auth-field input {
@@ -171,192 +192,34 @@
   box-shadow: 0 0 0 4px rgba(212, 175, 55, 0.14);
 }
 
-.auth-password-field input {
-  padding-right: 6.2rem;
-}
-
-.auth-visibility-toggle {
-  position: absolute;
-  right: 0.55rem;
-  top: 2.05rem;
-  min-height: 38px;
-  padding: 0 0.75rem;
-  border: 0;
-  border-radius: 7px;
-  background: transparent;
-  color: var(--color-text-muted);
-  font: inherit;
-  font-size: 0.84rem;
-  font-weight: 800;
-  cursor: pointer;
-}
-
-.auth-visibility-toggle:hover,
-.auth-visibility-toggle:focus-visible {
-  color: var(--color-text);
-  background: var(--color-bg-hover);
-  outline: none;
-}
-
-.password-meter {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 0.75rem;
-  align-items: center;
-  margin-top: 0.6rem;
-}
-
-.password-meter span {
-  height: 7px;
-  border-radius: 999px;
-  background: linear-gradient(90deg, var(--meter-color) var(--meter-size), var(--color-border-light) 0);
-}
-
-.password-meter small {
-  color: var(--color-text-muted);
-  font-size: 0.78rem;
-  font-weight: 800;
-}
-
-.password-meter[data-score='0'],
-.password-meter[data-score='1'] {
-  --meter-size: 25%;
-  --meter-color: #c85f45;
-}
-
-.password-meter[data-score='2'] {
-  --meter-size: 50%;
-  --meter-color: #c8992f;
-}
-
-.password-meter[data-score='3'] {
-  --meter-size: 75%;
-  --meter-color: #4d7a42;
-}
-
-.password-meter[data-score='4'] {
-  --meter-size: 80%;
-  --meter-color: #0f4c3a;
-}
-
-.password-meter[data-score='5'] {
-  --meter-size: 100%;
-  --meter-color: #0f4c3a;
-}
-
-.password-rules {
+.auth-options {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-  margin-top: 0.65rem;
+  justify-content: flex-end;
 }
 
-.password-rules span {
-  display: inline-flex;
-  align-items: center;
-  min-height: 26px;
-  padding: 0.28rem 0.55rem;
-  border-radius: 999px;
-  background: var(--color-bg-light);
-  border: 1px solid var(--color-border-light);
+.auth-forgot-link {
   color: var(--color-text-muted);
-  font-size: 0.74rem;
-  font-weight: 800;
+  font-size: 0.9rem;
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.2s ease;
 }
 
-.password-rules span.valid {
-  background: color-mix(in srgb, var(--color-forest) 14%, var(--color-bg-card));
-  border-color: color-mix(in srgb, var(--color-forest) 32%, transparent);
-  color: var(--color-text);
-}
-
-.role-selector {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.8rem;
-  margin-top: 0.55rem;
-}
-
-.role-option {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.65rem;
-  padding: 1rem;
-  background: var(--color-bg-light);
-  border: 1px solid var(--color-border-light);
-  border-radius: 8px;
-  cursor: pointer;
-  text-align: left;
-  font-family: inherit;
-  color: var(--color-text);
-  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
-}
-
-.role-option:hover {
-  transform: translateY(-2px);
-  border-color: var(--color-border);
-  box-shadow: var(--shadow-tight);
-}
-
-.role-option.active {
-  background: color-mix(in srgb, var(--color-gold) 12%, var(--color-bg-card));
-  border-color: var(--color-gold);
-  box-shadow: 0 12px 30px rgba(212, 175, 55, 0.14);
-}
-
-.role-option > span {
-  font-size: 1rem;
-  font-weight: 900;
-}
-
-.role-option p {
-  margin: 0;
-  color: var(--color-text-muted);
-  line-height: 1.5;
-  font-size: 0.84rem;
-}
-
-.role-permissions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.45rem;
-}
-
-.role-permissions span {
-  min-height: 26px;
-  background: var(--color-bg-card);
-  border-color: var(--color-border-light);
-  color: var(--color-text-muted);
-}
-
-.role-badge {
-  display: inline-flex;
-  margin-left: 0.6rem;
-  padding: 0.25rem 0.55rem;
-  border-radius: 999px;
-  background: color-mix(in srgb, var(--color-gold) 14%, transparent);
+.auth-forgot-link:hover {
   color: var(--color-gold);
-  font-size: 0.72rem;
-  font-weight: 850;
+  text-decoration: underline;
 }
 
-.role-hint {
-  margin: 0.75rem 0 0;
-  color: var(--color-text-muted);
-  font-size: 0.86rem;
-  line-height: 1.55;
-}
-
-.auth-page .auth-button {
+.auth-button {
   width: 100%;
   min-height: 54px;
   margin-top: 0.35rem;
   border-radius: 8px;
   font-size: 1rem;
+  font-weight: 850 !important;
 }
 
-.auth-page .auth-error {
+.auth-error {
   padding: 0.9rem 1rem;
   border-radius: 8px;
   background: color-mix(in srgb, #c85f45 14%, var(--color-bg-card));
@@ -366,30 +229,25 @@
   font-weight: 700;
 }
 
-.auth-page .auth-link {
+.auth-link {
   margin-top: 1.4rem;
-  margin-bottom: clamp(2rem, 5vw, 4rem);
   color: var(--color-text-muted);
+  text-align: center;
 }
 
-.auth-page .auth-link a,
-.auth-page .back-to-admin {
+.auth-link a {
   color: var(--color-gold);
   text-decoration: none;
   font-weight: 850;
 }
 
-.auth-page .auth-link a:hover,
-.auth-page .back-to-admin:hover {
+.auth-link a:hover {
   text-decoration: underline;
 }
 
-.auth-page .auth-admin-actions {
-  margin-top: 1.2rem;
-  margin-bottom: clamp(2rem, 5vw, 4rem);
-  padding-top: 1.2rem;
-  border-top: 1px solid var(--color-border-light);
-}
+/* ========================================
+   RESPONSIVE
+   ======================================== */
 
 @media (max-width: 860px) {
   .auth-card-enhanced {
@@ -399,17 +257,13 @@
   .auth-story-panel {
     min-height: 280px;
   }
-
-  .auth-story-panel h2 {
-    max-width: 14ch;
-    margin-top: 3rem;
+  
+  .auth-story-content {
+    padding-bottom: 0;
   }
 
-  .auth-page .auth-header,
-  .auth-page .auth-form,
-  .auth-page .auth-link,
-  .auth-page .auth-admin-actions {
-    grid-column: 1;
+  .auth-logo img {
+    margin-top: 0;
   }
 }
 
@@ -432,15 +286,235 @@
     inset: 0.75rem;
   }
 
-  .auth-page .auth-header,
-  .auth-page .auth-form,
-  .auth-page .auth-link,
-  .auth-page .auth-admin-actions {
-    margin-left: 1rem;
-    margin-right: 1rem;
+  .auth-form-panel {
+    padding: 1.5rem;
   }
+  
+  .auth-logo img {
+    width: 90px;
+  }
+}
 
+/* ========================================
+   REGISTER - Styles spécifiques à l'inscription
+   ======================================== */
+
+/* Layout pour le formulaire d'inscription (souvent plus long) */
+.auth-form-panel {
+  overflow-y: auto; /* Ajoute une barre de défilement si le formulaire est trop long */
+  max-height: 85vh;
+}
+
+/* Style du Kicker (petit texte en haut à gauche) */
+.auth-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: rgba(255, 250, 240, 0.8);
+  margin-bottom: 1rem;
+  display: block;
+}
+
+/* ===== SELECTEUR DE ROLE ===== */
+.role-selector {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.role-option {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding: 0.9rem;
+  background: #faf9f6;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+  color: #1a1410;
+  transition: all 0.2s ease;
+}
+
+.role-option:hover {
+  border-color: #d4af37;
+  background: #ffffff;
+}
+
+.role-option.active {
+  border-color: #d4af37;
+  background: rgba(212, 175, 55, 0.08);
+  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.15);
+}
+
+.role-option > span {
+  font-size: 0.95rem;
+  font-weight: 800;
+}
+
+.role-option p {
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: #666;
+}
+
+.role-permissions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.3rem;
+}
+
+.role-permissions span {
+  padding: 0.2rem 0.5rem;
+  border-radius: 999px;
+  background: #f0f0f0;
+  border: 1px solid #e0e0e0;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #1a1410;
+}
+
+.role-badge {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  background: #d4af37;
+  color: #1a1410;
+  font-size: 0.65rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.role-hint {
+  margin-top: 0.6rem;
+  font-size: 0.75rem;
+  color: #888;
+}
+
+/* ===== JAUGE DE MOT DE PASSE ===== */
+.password-meter {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.password-meter span {
+  flex: 1;
+  height: 6px;
+  border-radius: 999px;
+  background: #e0e0e0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* On utilise une variable CSS pour la largeur de la jauge */
+.password-meter span::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  width: var(--meter-size, 0%);
+  background: var(--meter-color, #d4af37);
+  transition: width 0.3s ease;
+}
+
+.password-meter small {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #1a1410;
+  white-space: nowrap;
+}
+
+/* Couleurs selon le score */
+.password-meter[data-score='0'],
+.password-meter[data-score='1'] {
+  --meter-size: 25%;
+  --meter-color: #e74c3c;
+}
+
+.password-meter[data-score='2'] {
+  --meter-size: 50%;
+  --meter-color: #f39c12;
+}
+
+.password-meter[data-score='3'] {
+  --meter-size: 75%;
+  --meter-color: #f1c40f;
+}
+
+.password-meter[data-score='4'] {
+  --meter-size: 90%;
+  --meter-color: #27ae60;
+}
+
+.password-meter[data-score='5'] {
+  --meter-size: 100%;
+  --meter-color: #0f4c3a;
+}
+
+/* ===== REGLES DE MOT DE PASSE ===== */
+.password-rules {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+}
+
+.password-rules span {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  background: #faf9f6;
+  border: 1px solid #e0e0e0;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #999;
+}
+
+.password-rules span.valid {
+  background: rgba(15, 76, 58, 0.1);
+  border-color: #0f4c3a;
+  color: #0f4c3a;
+}
+
+.password-rules span.valid::before {
+  content: '✓ ';
+  font-weight: 800;
+}
+
+/* ===== BOUTON AFFICHER / MASQUER ===== */
+.auth-visibility-toggle {
+  position: absolute;
+  right: 0.75rem;
+  top: 2.5rem; /* Ajusté selon la hauteur du label + input */
+  background: transparent;
+  border: none;
+  color: #888;
+  font-size: 0.8rem;
+  font-weight: 800;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.auth-visibility-toggle:hover {
+  color: #1a1410;
+}
+
+/* ===== RESPONSIVE REGISTER ===== */
+@media (max-width: 860px) {
   .role-selector {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* Sur mobile, les rôles s'empilent */
+  }
+  
+  .auth-form-panel {
+    max-height: none; /* On retire la limite de hauteur sur mobile */
   }
 }

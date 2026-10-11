@@ -28,7 +28,7 @@ export const Header = () => {
       <div className="header-container">
         <Link to="/" className="logo">
           <span className="logo-mark" aria-hidden="true">
-            <span>MB</span>
+            <img src="/monbaobab-mark.svg" alt="" />
           </span>
           <span className="logo-wordmark">
             <span className="logo-text">{platformName}</span>

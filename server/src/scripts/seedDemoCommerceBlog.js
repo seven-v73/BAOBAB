@@ -7,6 +7,30 @@ import logger from '../utils/logger.js'
 
 dotenv.config()
 
+const blogImageBase = '/content/blog'
+
+const articleImages = {
+  bogolan: `${blogImageBase}/bogolan-mali.webp`,
+  cities: `${blogImageBase}/ville-abidjan.webp`,
+  karite: `${blogImageBase}/karite-burkina.webp`,
+  masks: `${blogImageBase}/masque-africain.webp`,
+  griots: `${blogImageBase}/griot-kora.webp`,
+  markets: `${blogImageBase}/marche-mali.webp`,
+}
+
+const productImageBase = '/content/products'
+
+const productImages = {
+  bogolan: `${productImageBase}/bogolan-mali.webp`,
+  karite: `${productImageBase}/karite-burkina.webp`,
+  panier: `${productImageBase}/panier-africain.webp`,
+  perlesAkan: `${productImageBase}/perles-akan.webp`,
+  carnet: `${productImageBase}/carnet-transmission.webp`,
+  epices: `${productImageBase}/epices-nigeria.webp`,
+  djembe: `${productImageBase}/djembe-guinee.webp`,
+  carte: `${productImageBase}/carte-afrique-culturelle.webp`,
+}
+
 const demoBlogs = [
   {
     title: 'Bogolan : lire le Mali dans un tissu',
@@ -17,7 +41,7 @@ Chaque motif peut devenir un repère : protection, passage, famille, appartenanc
 
 Dans une fiche ou une collection, le bogolan peut être relié au Mali, aux traditions mandingues, aux ateliers de teinture, à la transmission féminine et aux routes culturelles d'Afrique de l'Ouest.`,
     author: 'Équipe MonBaobab',
-    image: 'https://images.unsplash.com/photo-1604335399105-a0c585fd81a1?auto=format&fit=crop&w=1200&q=80',
+    image: articleImages.bogolan,
     category: 'Culture',
     tags: ['Mali', 'Bogolan', 'Textile', 'Savoir-faire', 'Transmission'],
     published: true,
@@ -33,7 +57,7 @@ Leur importance ne tient pas seulement à leur taille. Ces villes fabriquent des
 
 Pour une plateforme de découverte, les villes servent de portes d'entrée. Elles permettent de relier les pays aux récits contemporains, aux produits créatifs, aux figures publiques, aux communautés et aux parcours de visite.`,
     author: 'Équipe MonBaobab',
-    image: 'https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=1200&q=80',
+    image: articleImages.cities,
     category: 'Géographie',
     tags: ['Sénégal', 'Côte d’Ivoire', 'Nigeria', 'Villes', 'Créativité'],
     published: true,
@@ -49,7 +73,7 @@ Un produit au karité ne devrait pas être présenté seulement comme un cosmét
 
 Sur MonBaobab, ce type de contenu peut connecter boutique, pays, récits, figures économiques, communautés et savoirs à préserver.`,
     author: 'Équipe MonBaobab',
-    image: 'https://images.unsplash.com/photo-1617897903246-719242758050?auto=format&fit=crop&w=1200&q=80',
+    image: articleImages.karite,
     category: 'Économie',
     tags: ['Karité', 'Burkina Faso', 'Mali', 'Femmes', 'Économie locale'],
     published: true,
@@ -65,7 +89,7 @@ Leur valeur n'est donc pas seulement visuelle. Elle est sociale, spirituelle, p�
 
 Pour MonBaobab, un masque peut être relié à un pays, une région, un peuple, une cérémonie, un récit, un proverbe et une collection dédiée aux arts vivants.`,
     author: 'Équipe MonBaobab',
-    image: 'https://images.unsplash.com/photo-1590608897129-79da98d15969?auto=format&fit=crop&w=1200&q=80',
+    image: articleImages.masks,
     category: 'Culture',
     tags: ['Masques', 'Rituels', 'Art', 'Transmission', 'Mémoire'],
     published: true,
@@ -81,7 +105,7 @@ La parole orale n'est pas moins sérieuse qu'une archive écrite. Elle obéit à
 
 MonBaobab peut aider à préserver ces savoirs en reliant proverbes, récits, langues, figures, familles, lieux et sources vérifiées.`,
     author: 'Équipe MonBaobab',
-    image: 'https://images.unsplash.com/photo-1532375810709-75b1da00537c?auto=format&fit=crop&w=1200&q=80',
+    image: articleImages.griots,
     category: 'Histoire',
     tags: ['Griots', 'Oralité', 'Proverbes', 'Récits', 'Afrique de l’Ouest'],
     published: true,
@@ -97,7 +121,7 @@ Les marchés racontent l'économie quotidienne. Ils montrent comment circulent l
 
 Dans MonBaobab, les marchés peuvent servir de pont naturel entre fiche pays, boutique, cuisine, artisanat, récits et conseils pratiques.`,
     author: 'Équipe MonBaobab',
-    image: 'https://images.unsplash.com/photo-1489493585363-d69421e0edd3?auto=format&fit=crop&w=1200&q=80',
+    image: articleImages.markets,
     category: 'Économie',
     tags: ['Marchés', 'Cuisine', 'Artisanat', 'Économie', 'Quotidien'],
     published: true,
@@ -115,10 +139,8 @@ const demoProducts = [
     comparePrice: 22000,
     prices: { FCFA: 18500, EUR: 28, USD: 30 },
     currency: 'FCFA',
-    images: ['https://images.unsplash.com/photo-1604335399105-a0c585fd81a1?auto=format&fit=crop&w=1000&q=80'],
-    additionalImages: [
-      { url: 'https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=1000&q=80', caption: 'Texture et port du textile', order: 1 },
-    ],
+    images: [productImages.bogolan],
+    additionalImages: [],
     category: 'Textile',
     tags: ['Mali', 'Bogolan', 'Textile', 'Artisanat'],
     stock: 18,
@@ -136,7 +158,7 @@ const demoProducts = [
     price: 6500,
     prices: { FCFA: 6500, EUR: 10, USD: 11 },
     currency: 'FCFA',
-    images: ['https://images.unsplash.com/photo-1617897903246-719242758050?auto=format&fit=crop&w=1000&q=80'],
+    images: [productImages.karite],
     category: 'Cuisine',
     tags: ['Karité', 'Soin', 'Burkina Faso', 'Coopératives'],
     stock: 42,
@@ -154,7 +176,7 @@ const demoProducts = [
     price: 14500,
     prices: { FCFA: 14500, EUR: 22, USD: 24 },
     currency: 'FCFA',
-    images: ['https://images.unsplash.com/photo-1597589827317-4c6d6e0a90df?auto=format&fit=crop&w=1000&q=80'],
+    images: [productImages.panier],
     category: 'Artisanat',
     tags: ['Tressage', 'Sahel', 'Maison', 'Artisanat'],
     stock: 15,
@@ -172,7 +194,7 @@ const demoProducts = [
     price: 12000,
     prices: { FCFA: 12000, EUR: 18, USD: 20 },
     currency: 'FCFA',
-    images: ['https://images.unsplash.com/photo-1531995811006-35cb42e1a022?auto=format&fit=crop&w=1000&q=80'],
+    images: [productImages.perlesAkan],
     category: 'Bijoux',
     tags: ['Akan', 'Perles', 'Côte d’Ivoire', 'Bijoux'],
     stock: 30,
@@ -190,7 +212,7 @@ const demoProducts = [
     price: 4500,
     prices: { FCFA: 4500, EUR: 7, USD: 8 },
     currency: 'FCFA',
-    images: ['https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=1000&q=80'],
+    images: [productImages.carnet],
     category: 'Autre',
     tags: ['Proverbes', 'Écriture', 'Transmission', 'Carnet'],
     stock: 55,
@@ -208,7 +230,7 @@ const demoProducts = [
     price: 9000,
     prices: { FCFA: 9000, EUR: 14, USD: 15 },
     currency: 'FCFA',
-    images: ['https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=1000&q=80'],
+    images: [productImages.epices],
     category: 'Cuisine',
     tags: ['Cuisine', 'Épices', 'Marchés', 'Afrique de l’Ouest'],
     stock: 24,
@@ -226,7 +248,7 @@ const demoProducts = [
     price: 23500,
     prices: { FCFA: 23500, EUR: 36, USD: 39 },
     currency: 'FCFA',
-    images: ['https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?auto=format&fit=crop&w=1000&q=80'],
+    images: [productImages.djembe],
     category: 'Musique',
     tags: ['Djembé', 'Musique', 'Mandé', 'Instrument'],
     stock: 10,
@@ -244,7 +266,7 @@ const demoProducts = [
     price: 11000,
     prices: { FCFA: 11000, EUR: 17, USD: 18 },
     currency: 'FCFA',
-    images: ['https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=1000&q=80'],
+    images: [productImages.carte],
     category: 'Artisanat',
     tags: ['Carte', 'Décoration', 'Afrique', 'Culture'],
     stock: 20,

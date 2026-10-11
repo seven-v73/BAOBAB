@@ -1,20 +1,18 @@
 import request from 'supertest'
 import express from 'express'
 import mongoose from 'mongoose'
-import { MongoMemoryServer } from 'mongodb-memory-server'
+import { jest } from '@jest/globals'
 import authRoutes from '../src/routes/auth.js'
 import User from '../src/models/User.js'
 
-let mongoServer
 let app
 const validPassword = 'Kora!River78Sun'
+const testMongoUri = process.env.TEST_MONGODB_URI || 'mongodb://127.0.0.1:27017/baobab_test'
+
+jest.setTimeout(30000)
 
 beforeAll(async () => {
-  // Créer un serveur MongoDB en mémoire pour les tests
-  mongoServer = await MongoMemoryServer.create()
-  const mongoUri = mongoServer.getUri()
-  
-  await mongoose.connect(mongoUri)
+  await mongoose.connect(testMongoUri)
   
   app = express()
   app.use(express.json())
@@ -22,8 +20,8 @@ beforeAll(async () => {
 })
 
 afterAll(async () => {
+  await mongoose.connection.dropDatabase()
   await mongoose.disconnect()
-  await mongoServer.stop()
 })
 
 beforeEach(async () => {
