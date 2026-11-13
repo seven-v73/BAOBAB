@@ -5,6 +5,7 @@ import { Input } from '../../components/Input/Input'
 import { Save, Bell, Shield, Globe, Plus, Trash2, Users } from 'lucide-react'
 import { useSettingsStore } from '../../stores/settingsStore'
 import { useNotifications } from '../../hooks/useNotifications'
+import { MediaUpload } from '../../components/Community/MediaUpload'
 import './AdminSettings.css'
 
 export const AdminSettings = () => {
@@ -39,6 +40,7 @@ export const AdminSettings = () => {
         flag: 'https://flagcdn.com/w80/bf.png',
         image: '/Equipe/Victoire%20SAWADOGO.jpeg',
         focus: 'center 38%',
+        profileUrl: '',
       },
       {
         name: 'Blanchard Kouassi',
@@ -47,6 +49,7 @@ export const AdminSettings = () => {
         flag: 'https://flagcdn.com/w80/ci.png',
         image: '/Equipe/Blanchard%20Kouassi.jpeg',
         focus: 'center 35%',
+        profileUrl: '',
       },
       {
         name: 'Dieudonné Dara',
@@ -55,6 +58,7 @@ export const AdminSettings = () => {
         flag: 'https://flagcdn.com/w80/ml.png',
         image: '/Equipe/Dieudonn%C3%A9%20Dara.jpeg',
         focus: 'center 34%',
+        profileUrl: '',
       },
     ],
   })
@@ -141,6 +145,10 @@ export const AdminSettings = () => {
     setLocalSettings({ ...localSettings, team: updatedTeam })
   }
 
+  const updateTeamFocus = (index: number, verticalFocus: string) => {
+    updateTeamMember(index, 'focus', `center ${verticalFocus}`)
+  }
+
   const addTeamMember = () => {
     setLocalSettings({
       ...localSettings,
@@ -153,6 +161,7 @@ export const AdminSettings = () => {
           flag: '',
           image: '',
           focus: 'center 35%',
+          profileUrl: '',
         },
       ],
     })
@@ -285,7 +294,7 @@ export const AdminSettings = () => {
                   })
                 }
               />
-              <span>Notifications de nouveaux posts</span>
+              <span>Notifications de nouveaux messages</span>
             </label>
           </div>
           <Button onClick={handleSaveNotifications} disabled={saving} style={{ marginTop: '1rem' }}>
@@ -389,19 +398,43 @@ export const AdminSettings = () => {
                       placeholder="https://flagcdn.com/w80/bf.png"
                     />
                   </div>
+                  <Input
+                    label="Lien du profil"
+                    value={member.profileUrl || ''}
+                    onChange={(event) => updateTeamMember(index, 'profileUrl', event.target.value)}
+                    placeholder="https://github.com/..., https://linkedin.com/in/... ou portfolio"
+                  />
                   <div className="form-row">
-                    <Input
-                      label="Photo"
-                      value={member.image}
-                      onChange={(event) => updateTeamMember(index, 'image', event.target.value)}
-                      placeholder="/Equipe/photo.jpeg ou URL"
-                    />
-                    <Input
-                      label="Cadrage image"
-                      value={member.focus || ''}
-                      onChange={(event) => updateTeamMember(index, 'focus', event.target.value)}
-                      placeholder="center 35%"
-                    />
+                    <div className="team-photo-control">
+                      <MediaUpload
+                        type="image"
+                        value={member.image}
+                        label="Photo"
+                        onChange={(url) => updateTeamMember(index, 'image', url)}
+                        onRemove={() => updateTeamMember(index, 'image', '')}
+                      />
+                    </div>
+                    <div className="team-focus-control">
+                      <label htmlFor={`team-focus-${index}`} className="input-label">Cadrage vertical</label>
+                      <select
+                        id={`team-focus-${index}`}
+                        className="form-select"
+                        value={(member.focus || 'center 35%').replace('center ', '')}
+                        onChange={(event) => updateTeamFocus(index, event.target.value)}
+                      >
+                        <option value="20%">Visage haut</option>
+                        <option value="30%">Haut du portrait</option>
+                        <option value="35%">Portrait naturel</option>
+                        <option value="45%">Centré</option>
+                        <option value="60%">Plus bas</option>
+                      </select>
+                      <Input
+                        label="URL photo"
+                        value={member.image}
+                        onChange={(event) => updateTeamMember(index, 'image', event.target.value)}
+                        placeholder="/Equipe/photo.jpeg ou URL"
+                      />
+                    </div>
                   </div>
                 </div>
 

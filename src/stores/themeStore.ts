@@ -12,7 +12,7 @@ interface ThemeState {
 export const useThemeStore = create<ThemeState>()(
   persist(
     (set) => ({
-      theme: 'dark', // Par défaut, mode sombre
+      theme: 'light', // Par défaut, mode clair
       toggleTheme: () => {
         set((state) => {
           const newTheme = state.theme === 'dark' ? 'light' : 'dark'
@@ -27,7 +27,8 @@ export const useThemeStore = create<ThemeState>()(
       },
     }),
     {
-      name: 'theme-storage',
+      // Nouvelle clé : les visiteurs repartent du thème clair après la refonte
+      name: 'mb-theme',
       onRehydrateStorage: () => (state) => {
         // Appliquer le thème au chargement
         if (state) {

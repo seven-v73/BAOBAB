@@ -50,10 +50,29 @@ export const HistoricalFigures = () => {
     role: '',
     search: '',
   })
+  const [searchInput, setSearchInput] = useState('')
+  const hasActiveFilters = Boolean(filters.role || filters.search)
 
   useEffect(() => {
     fetchFigures()
   }, [filters])
+
+  useEffect(() => {
+    const timeout = window.setTimeout(() => {
+      setFilters((currentFilters) =>
+        currentFilters.search === searchInput
+          ? currentFilters
+          : { ...currentFilters, search: searchInput }
+      )
+    }, 350)
+
+    return () => window.clearTimeout(timeout)
+  }, [searchInput])
+
+  const clearFilters = () => {
+    setSearchInput('')
+    setFilters({ role: '', search: '' })
+  }
 
   const fetchFigures = async () => {
     try {
@@ -96,8 +115,8 @@ export const HistoricalFigures = () => {
             <span className="icon-search" />
             <Input
               placeholder="Rechercher une figure historique..."
-              value={filters.search}
-              onChange={(e) => setFilters({ ...filters, search: e.target.value })}
+              value={searchInput}
+              onChange={(e) => setSearchInput(e.target.value)}
             />
           </div>
           <div className="filter-group">
@@ -117,6 +136,11 @@ export const HistoricalFigures = () => {
               <option value="Religieux">Religieux</option>
             </select>
           </div>
+          {hasActiveFilters && (
+            <button type="button" className="active-filter-clear" onClick={clearFilters}>
+              Effacer les filtres
+            </button>
+          )}
         </div>
 
         {loading ? (
@@ -126,6 +150,11 @@ export const HistoricalFigures = () => {
         ) : figures.length === 0 ? (
           <div className="figures-empty">
             <p>Aucune figure historique trouvée</p>
+            {hasActiveFilters && (
+              <Button onClick={clearFilters} variant="outline" size="small">
+                Effacer les filtres
+              </Button>
+            )}
           </div>
         ) : (
           <div className="figures-grid">
@@ -199,4 +228,3 @@ export const HistoricalFigures = () => {
     </Layout>
   )
 }
-

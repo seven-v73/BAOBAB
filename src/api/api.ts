@@ -4,7 +4,7 @@ import type { BlogPost } from '../store/blogStore'
 import { mockProducts } from './mock/products'
 import { mockBlogPosts } from './mock/blogPosts'
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000/api'
+const API_BASE_URL = import.meta.env.VITE_API_URL || '/api'
 
 const api = axios.create({
   baseURL: API_BASE_URL,
@@ -106,4 +106,3 @@ export const authApi = {
 }
 
 export default api
-

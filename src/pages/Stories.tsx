@@ -30,6 +30,7 @@ export const Stories = () => {
     difficulty: '',
     featured: '',
   })
+  const hasActiveFilters = Boolean(filters.category || filters.difficulty || filters.featured)
 
   useEffect(() => {
     fetchStories()
@@ -70,6 +71,10 @@ export const Stories = () => {
     }
   }
 
+  const clearFilters = () => {
+    setFilters({ category: '', difficulty: '', featured: '' })
+  }
+
   return (
     <Layout>
       <div className="stories-page">
@@ -105,6 +110,11 @@ export const Stories = () => {
             <option value="intermediate">Intermédiaire</option>
             <option value="advanced">Avancé</option>
           </select>
+          {hasActiveFilters && (
+            <button type="button" className="active-filter-clear" onClick={clearFilters}>
+              Effacer les filtres
+            </button>
+          )}
         </div>
 
         {loading ? (
@@ -114,6 +124,11 @@ export const Stories = () => {
         ) : stories.length === 0 ? (
           <div className="stories-empty">
             <p>Aucun récit trouvé</p>
+            {hasActiveFilters && (
+              <Button onClick={clearFilters} variant="outline" size="small">
+                Effacer les filtres
+              </Button>
+            )}
           </div>
         ) : (
           <div className="stories-grid">

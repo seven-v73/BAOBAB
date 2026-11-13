@@ -5,6 +5,7 @@ import { Layout } from '../components/Layout/Layout'
 import { Card } from '../components/Card/Card'
 import { Button } from '../components/Button/Button'
 import { Input } from '../components/Input/Input'
+import { MediaUpload } from '../components/Community/MediaUpload'
 import { useAuthStore } from '../stores/authStore'
 import { blogService } from '../services/api'
 import { useConfirmDialog } from '../components/UX/ConfirmDialog'
@@ -259,12 +260,12 @@ export const BlogAdmin = () => {
                 </div>
               </div>
 
-              <Input
-                label="Image (URL)"
-                type="url"
+              <MediaUpload
+                type="image"
                 value={formData.image}
-                onChange={(e) => setFormData({ ...formData, image: e.target.value })}
-                placeholder="https://example.com/image.jpg"
+                label="Image principale"
+                onChange={(url) => setFormData({ ...formData, image: url })}
+                onRemove={() => setFormData({ ...formData, image: '' })}
               />
 
               <Input

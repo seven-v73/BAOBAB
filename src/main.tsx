@@ -7,7 +7,7 @@ import App from './App.tsx'
 
 // Initialiser le thème avant le rendu pour éviter le flash
 const initTheme = () => {
-  const stored = localStorage.getItem('theme-storage')
+  const stored = localStorage.getItem('mb-theme')
   if (stored) {
     try {
       const parsed = JSON.parse(stored)
@@ -19,8 +19,8 @@ const initTheme = () => {
       // Ignore
     }
   }
-  // Thème par défaut
-  document.documentElement.setAttribute('data-theme', 'dark')
+  // Thème par défaut : clair (meilleure lisibilité des contenus éditoriaux)
+  document.documentElement.setAttribute('data-theme', 'light')
 }
 
 initTheme()

@@ -30,6 +30,7 @@ import couponRoutes from './routes/coupons.js'
 import settingsRoutes from './routes/settings.js'
 import timelineRoutes from './routes/timeline.js'
 import sourceRoutes from './routes/sources.js'
+import contributionRoutes from './routes/contributions.js'
 import figureRoutes from './routes/figures.js'
 import collectionRoutes from './routes/collections.js'
 import storyRoutes from './routes/stories.js'
@@ -47,9 +48,13 @@ import { nosqlInjectionProtection, validateMongoIds } from './middleware/nosqlIn
 
 const app = express()
 
+// Le serveur tourne derrière Nginx sur le VPS. Nécessaire pour que
+// express-rate-limit lise correctement X-Forwarded-For.
+app.set('trust proxy', 1)
+
 // Connexion à Redis (optionnel)
 initRedis().catch((error) => {
-  logger.warn('⚠️  Redis non disponible - Le cache est désactivé:', error.message)
+  logger.warn(' Redis non disponible - Le cache est désactivé:', error.message)
 })
 
 // Middleware de sécurité
@@ -57,7 +62,7 @@ app.use(helmet({
   contentSecurityPolicy: {
     directives: {
       defaultSrc: ["'self'"],
-      scriptSrc: ["'self'", "'unsafe-inline'", "'unsafe-eval'"], // À ajuster selon vos besoins
+      scriptSrc: env.NODE_ENV === 'production' ? ["'self'"] : ["'self'", "'unsafe-inline'", "'unsafe-eval'"],
       styleSrc: ["'self'", "'unsafe-inline'"],
       imgSrc: ["'self'", "data:", "https:", "http:"],
       connectSrc: ["'self'"],
@@ -90,11 +95,13 @@ app.use('/api/', nosqlInjectionProtection)
 // Rate limiting global
 app.use('/api/', apiLimiter)
 
-// Documentation Swagger
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec, {
-  customCss: '.swagger-ui .topbar { display: none }',
-  customSiteTitle: 'MonBaobab API Documentation'
-}))
+// Documentation Swagger: désactivée par défaut en production.
+if (env.NODE_ENV !== 'production' || env.ENABLE_API_DOCS) {
+  app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec, {
+    customCss: '.swagger-ui .topbar { display: none }',
+    customSiteTitle: 'MonBaobab API Documentation'
+  }))
+}
 
 // Route racine
 app.get('/', (req, res) => {
@@ -120,6 +127,8 @@ app.get('/', (req, res) => {
       quizzes: '/api/quizzes',
       proverbs: '/api/proverbs',
       communities: '/api/communities',
+      contributions: '/api/contributions',
+      sources: '/api/sources',
       search: '/api/search',
       recommendations: '/api/recommendations',
       analytics: '/api/analytics',
@@ -152,6 +161,7 @@ app.use('/api/coupons', couponRoutes)
 app.use('/api/settings', settingsRoutes)
 app.use('/api/timeline', timelineRoutes)
 app.use('/api/sources', sourceRoutes)
+app.use('/api/contributions', contributionRoutes)
 app.use('/api/figures', figureRoutes)
 app.use('/api/collections', collectionRoutes)
 app.use('/api/stories', storyRoutes)
@@ -176,12 +186,12 @@ try {
   await connectDB()
 
   app.listen(env.PORT, () => {
-    logger.info(`🚀 Server running on http://localhost:${env.PORT}`)
-    logger.info(`📚 API Documentation: http://localhost:${env.PORT}/api-docs`)
-    logger.info(`🌍 Environment: ${env.NODE_ENV}`)
+    logger.info(`Server running on http://localhost:${env.PORT}`)
+    logger.info(`API Documentation: http://localhost:${env.PORT}/api-docs`)
+    logger.info(`Environment: ${env.NODE_ENV}`)
   })
 } catch (error) {
-  logger.error(`❌ Impossible de démarrer le serveur: ${error.message}`)
-  logger.error('💡 Démarrez MongoDB localement ou configurez MONGODB_URI dans server/.env')
+  logger.error(`Impossible de démarrer le serveur: ${error.message}`)
+  logger.error('Démarrez MongoDB localement ou configurez MONGODB_URI dans server/.env')
   process.exit(1)
 }

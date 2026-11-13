@@ -3,6 +3,7 @@ import { Card } from '../../components/Card/Card'
 import { Button } from '../../components/Button/Button'
 import { Input } from '../../components/Input/Input'
 import { FileUpload } from '../../components/FileUpload/FileUpload'
+import { MediaUpload } from '../../components/Community/MediaUpload'
 import { productService } from '../../services/api'
 import { useNotifications } from '../../hooks/useNotifications'
 import { useConfirmDialog } from '../../components/UX/ConfirmDialog'
@@ -79,6 +80,7 @@ export const AdminProducts = () => {
   const [videos, setVideos] = useState<ProductVideo[]>([])
   const [documents, setDocuments] = useState<ProductDocument[]>([])
   const [uploadMode, setUploadMode] = useState<{ [key: string]: 'upload' | 'url' }>({})
+  const [pendingPrimaryImage, setPendingPrimaryImage] = useState('')
   const [formData, setFormData] = useState({
     name: '',
     description: '',
@@ -101,6 +103,20 @@ export const AdminProducts = () => {
 
     if (!url || existingImages.includes(url)) return
     setFormData({ ...formData, images: [...existingImages, url].join(', ') })
+  }
+
+  const setPrimaryImages = (images: string[]) => {
+    setFormData({ ...formData, images: images.filter(Boolean).join(', ') })
+  }
+
+  const updatePrimaryImage = (index: number, url: string) => {
+    const updated = [...primaryImages]
+    updated[index] = url
+    setPrimaryImages(updated)
+  }
+
+  const removePrimaryImage = (index: number) => {
+    setPrimaryImages(primaryImages.filter((_, imageIndex) => imageIndex !== index))
   }
 
   useEffect(() => {
@@ -243,6 +259,7 @@ export const AdminProducts = () => {
       stock: '',
       isFeatured: false,
     })
+    setPendingPrimaryImage('')
     setAdditionalImages([])
     setPdfs([])
     setVideos([])
@@ -353,6 +370,19 @@ export const AdminProducts = () => {
     return <div className="admin-loading">Chargement des produits...</div>
   }
 
+  const primaryImages = formData.images
+    .split(',')
+    .map((image) => image.trim())
+    .filter(Boolean)
+  const productMediaCount = primaryImages.length + additionalImages.length + pdfs.length + videos.length + documents.length
+  const productCompletionItems = [
+    Boolean(formData.name.trim()),
+    Boolean(formData.description.trim()),
+    Boolean(formData.price && Number(formData.price) > 0),
+    primaryImages.length > 0,
+  ]
+  const productCompletionScore = productCompletionItems.filter(Boolean).length
+
   return (
     <div className="admin-products">
       <div className="admin-section-header">
@@ -380,7 +410,15 @@ export const AdminProducts = () => {
 
       {showForm && (
         <Card className="product-form-card">
-          <h3>{editingProduct ? 'Modifier le produit' : 'Nouveau produit'}</h3>
+          <div className="admin-form-heading">
+            <div>
+              <h3>{editingProduct ? 'Modifier le produit' : 'Nouveau produit'}</h3>
+              <p>{productCompletionScore}/4 essentiels prêts · {productMediaCount} média{productMediaCount > 1 ? 's' : ''} · stock {formData.stock || '0'}</p>
+            </div>
+            <span className={`content-state-pill ${formData.isFeatured ? 'published' : 'draft'}`}>
+              {formData.isFeatured ? 'Vedette' : 'Standard'}
+            </span>
+          </div>
           
           {/* Onglets */}
           <div className="form-tabs">
@@ -521,26 +559,45 @@ export const AdminProducts = () => {
             </div>
             {activeTab === 'basic' && (
               <>
-                <div className="form-group">
-                  <label className="input-label">Ajouter une image principale</label>
-                  <FileUpload
+                <div className="media-section">
+                  <div className="media-section-header">
+                    <h4>Images principales</h4>
+                  </div>
+                  {primaryImages.length > 0 && (
+                    <>
+                      {primaryImages.map((image, index) => (
+                      <div className="media-item" key={`${image}-${index}`}>
+                        <MediaUpload
+                          type="image"
+                          value={image}
+                          label={`Image principale ${index + 1}`}
+                          onChange={(url) => updatePrimaryImage(index, url)}
+                          onRemove={() => removePrimaryImage(index)}
+                        />
+                      </div>
+                      ))}
+                    </>
+                  )}
+                  <MediaUpload
                     type="image"
-                    onUploadSuccess={addPrimaryImageUrl}
-                    accept="image/jpeg,image/jpg,image/png,image/gif,image/webp"
-                    label="Uploader une image produit"
+                    value={pendingPrimaryImage}
+                    label="Ajouter une image principale"
+                    onChange={setPendingPrimaryImage}
+                    onRemove={() => setPendingPrimaryImage('')}
                   />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="product-images" className="input-label">Images principales</label>
-                  <textarea
-                    id="product-images"
-                    name="images"
-                    className="form-textarea"
-                    value={formData.images}
-                    onChange={(e) => setFormData({ ...formData, images: e.target.value })}
-                    rows={2}
-                    placeholder="Les images uploadées sont ajoutées ici. Vous pouvez aussi coller une URL."
-                  />
+                  {pendingPrimaryImage && (
+                    <Button
+                      type="button"
+                      size="small"
+                      onClick={() => {
+                        addPrimaryImageUrl(pendingPrimaryImage)
+                        setPendingPrimaryImage('')
+                      }}
+                    >
+                      <Plus size={16} />
+                      Ajouter cette image
+                    </Button>
+                  )}
                 </div>
               </>
             )}
@@ -570,41 +627,13 @@ export const AdminProducts = () => {
                         </Button>
                       </div>
                     </div>
-                    <div className="media-upload-mode">
-                      <Button
-                        type="button"
-                        size="small"
-                        variant={uploadMode[`image-${idx}`] === 'upload' ? 'primary' : 'outline'}
-                        onClick={() => setUploadMode({ ...uploadMode, [`image-${idx}`]: 'upload' })}
-                      >
-                        <ImageIcon size={14} />
-                        Upload depuis PC
-                      </Button>
-                      <Button
-                        type="button"
-                        size="small"
-                        variant={uploadMode[`image-${idx}`] === 'url' || !uploadMode[`image-${idx}`] ? 'primary' : 'outline'}
-                        onClick={() => setUploadMode({ ...uploadMode, [`image-${idx}`]: 'url' })}
-                      >
-                        <LinkIcon size={14} />
-                        Lien URL
-                      </Button>
-                    </div>
-                    {uploadMode[`image-${idx}`] === 'upload' ? (
-                      <FileUpload
-                        type="image"
-                        onUploadSuccess={(url) => updateAdditionalImage(idx, 'url', url)}
-                        label="Uploader une image"
-                      />
-                    ) : (
-                      <Input
-                        label="URL de l'image"
-                        type="url"
-                        value={img.url}
-                        onChange={(e) => updateAdditionalImage(idx, 'url', e.target.value)}
-                        placeholder="https://example.com/image.jpg"
-                      />
-                    )}
+                    <MediaUpload
+                      type="image"
+                      value={img.url}
+                      label={`Image ${idx + 1}`}
+                      onChange={(url) => updateAdditionalImage(idx, 'url', url)}
+                      onRemove={() => updateAdditionalImage(idx, 'url', '')}
+                    />
                     <Input
                       label="Légende (optionnel)"
                       value={img.caption}
@@ -793,12 +822,12 @@ export const AdminProducts = () => {
                         <option value="vimeo">Vimeo</option>
                       </select>
                     </div>
-                    <Input
-                      label="Miniature (URL optionnel)"
-                      type="url"
+                    <MediaUpload
+                      type="image"
                       value={video.thumbnail}
-                      onChange={(e) => updateVideo(idx, 'thumbnail', e.target.value)}
-                      placeholder="https://example.com/thumbnail.jpg"
+                      label="Miniature vidéo"
+                      onChange={(url) => updateVideo(idx, 'thumbnail', url)}
+                      onRemove={() => updateVideo(idx, 'thumbnail', '')}
                     />
                   </div>
                 ))}
@@ -905,7 +934,11 @@ export const AdminProducts = () => {
               </div>
             )}
 
-            <div className="form-actions">
+            <div className="form-actions sticky-form-actions">
+              <div className="form-save-context">
+                <strong>{editingProduct ? 'Modification en cours' : 'Nouveau produit'}</strong>
+                <span>{productCompletionScore < 4 ? 'Complétez les champs essentiels avant mise en ligne.' : 'Prêt à enregistrer.'}</span>
+              </div>
               <Button type="submit">
                 {editingProduct ? 'Mettre à jour' : 'Créer le produit'}
               </Button>

@@ -282,7 +282,7 @@
 
 .dashboard-nav-item.active {
   background: linear-gradient(90deg, var(--color-bg-hover) 0%, transparent 100%);
-  color: var(--color-primary);
+  color: var(--accent);
   font-weight: 600;
 }
 
@@ -333,7 +333,7 @@
 
 .dashboard-content h2 {
   font-size: 1.75rem;
-  color: var(--color-primary);
+  color: var(--accent);
   margin-bottom: 1.5rem;
   margin-top: 0;
   font-weight: 700;
@@ -429,7 +429,7 @@
 .dashboard-section-kicker {
   display: inline-flex;
   margin-bottom: 0.65rem;
-  color: var(--color-primary);
+  color: var(--accent);
   font-size: 0.76rem;
   font-weight: 900;
   letter-spacing: 0.08em;
@@ -476,7 +476,7 @@
 }
 
 .dashboard-hub-action span {
-  color: var(--color-primary);
+  color: var(--accent);
   font-size: 0.76rem;
   font-weight: 900;
   text-transform: uppercase;
@@ -661,7 +661,7 @@
 
 .order-total {
   font-weight: 700;
-  color: var(--color-primary);
+  color: var(--accent);
   font-size: 1.1rem;
 }
 
@@ -853,7 +853,7 @@
 }
 
 .order-link:hover h3 {
-  color: var(--color-primary);
+  color: var(--accent);
 }
 
 .order-date {
@@ -923,7 +923,7 @@
 }
 
 .order-total-section strong {
-  color: var(--color-primary);
+  color: var(--accent);
   font-size: 1.25rem;
 }
 
@@ -1026,7 +1026,7 @@
 .favorite-price,
 .wishlist-price,
 .my-product-price {
-  color: var(--color-primary);
+  color: var(--accent);
   font-size: 1.25rem;
   font-weight: 700;
   margin-bottom: 1rem;
@@ -1069,7 +1069,7 @@
 }
 
 .form-section-title {
-  color: var(--color-primary);
+  color: var(--accent);
   font-size: 1.25rem;
   margin: 1rem 0 0.5rem 0;
   padding-top: 1rem;
@@ -1147,7 +1147,7 @@
 }
 
 .profile-info-item span {
-  color: var(--color-primary);
+  color: var(--accent);
   flex-shrink: 0;
   margin-top: 0.25rem;
   display: inline-block;
@@ -1206,7 +1206,7 @@
 }
 
 .settings-card h3 {
-  color: var(--color-primary);
+  color: var(--accent);
   margin-bottom: 1rem;
 }
 
@@ -1303,11 +1303,11 @@
 }
 
 .form-tab:hover {
-  color: var(--color-primary);
+  color: var(--accent);
 }
 
 .form-tab.active {
-  color: var(--color-primary);
+  color: var(--accent);
   border-bottom-color: var(--color-primary);
 }
 
@@ -1387,7 +1387,7 @@
 }
 
 .section-header h2 {
-  color: var(--color-primary);
+  color: var(--accent);
   font-size: 1.75rem;
   margin: 0;
   font-weight: 700;
@@ -1727,7 +1727,7 @@
 }
 
 .bookmark-remove-btn:hover {
-  color: var(--color-primary);
+  color: var(--accent);
 }
 
 .bookmark-content {
@@ -1822,7 +1822,7 @@
 .progress-achievements h3,
 .progress-activities h3 {
   margin: 0 0 1.5rem 0;
-  color: var(--color-primary);
+  color: var(--accent);
   font-size: 1.25rem;
 }
 
@@ -1851,7 +1851,7 @@
 
 .badge-item .icon-award {
   font-size: 2rem;
-  color: var(--color-primary);
+  color: var(--accent);
 }
 
 .badge-name {
@@ -1887,7 +1887,7 @@
 }
 
 .activity-value {
-  color: var(--color-primary);
+  color: var(--accent);
   font-weight: 700;
   font-size: 1.25rem;
 }
@@ -2762,5 +2762,104 @@
   .form-actions {
     flex-direction: column;
     align-items: stretch;
+  }
+}
+
+/* Dashboard breathing pass: keep overview cards readable on medium screens. */
+.dashboard-content {
+  min-width: 0;
+}
+
+.dashboard-overview {
+  gap: clamp(1.25rem, 2.2vw, 2rem);
+}
+
+.dashboard-overview .stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr));
+  gap: clamp(0.9rem, 1.7vw, 1.25rem);
+  align-items: stretch;
+}
+
+.dashboard-overview .stat-card {
+  min-width: 0;
+  min-height: 128px;
+  padding: clamp(1rem, 1.9vw, 1.35rem);
+}
+
+.dashboard-overview .stat-content h3 {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  font-size: clamp(1.85rem, 2.8vw, 2.8rem);
+}
+
+.dashboard-hub-card {
+  overflow: hidden;
+  padding: clamp(1.1rem, 2.6vw, 2rem);
+}
+
+.dashboard-hub-header {
+  max-width: 860px;
+}
+
+.dashboard-hub-header h2 {
+  max-width: 760px;
+  overflow-wrap: anywhere;
+}
+
+.dashboard-hub-grid {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+  gap: clamp(0.85rem, 1.5vw, 1.1rem);
+}
+
+.dashboard-hub-action {
+  min-width: 0;
+  min-height: 178px;
+  padding: clamp(0.95rem, 1.8vw, 1.2rem);
+  overflow: hidden;
+}
+
+.dashboard-hub-action span,
+.dashboard-hub-action strong,
+.dashboard-hub-action p,
+.dashboard-hub-action em {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+.dashboard-hub-action strong {
+  font-size: clamp(1rem, 1.3vw, 1.12rem);
+}
+
+.dashboard-hub-action p {
+  font-size: 0.94rem;
+}
+
+@media (min-width: 1180px) {
+  .dashboard-hub-grid {
+    grid-template-columns: repeat(2, minmax(260px, 1fr));
+  }
+}
+
+@media (min-width: 1480px) {
+  .dashboard-hub-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 1180px) {
+  .dashboard-overview .stats-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 620px) {
+  .dashboard-overview .stats-grid,
+  .dashboard-hub-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-hub-action {
+    min-height: auto;
   }
 }

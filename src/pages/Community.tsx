@@ -121,8 +121,8 @@ export const Community = () => {
     <Layout>
       <div className="community-page">
         <div className="community-header">
-          <h1>Communauté {platformName}</h1>
-          <p>Partagez vos expériences, posez des questions et échangez avec la communauté</p>
+          <h1>Cercle {platformName}</h1>
+          <p>Un fil pour partager une ressource, poser une question ou ouvrir une conversation utile.</p>
         </div>
 
         <div className="community-filters">
@@ -152,7 +152,7 @@ export const Community = () => {
         {user && (
           <PostForm
             onSubmit={handleCreatePost}
-            placeholder="Écrire à la communauté..."
+            placeholder="Partager une question, une histoire ou une ressource..."
           />
         )}
 
@@ -163,7 +163,7 @@ export const Community = () => {
         )}
 
         {loading && posts.length === 0 ? (
-          <Skeleton variant="cards" count={3} label="Chargement des posts" />
+          <Skeleton variant="cards" count={3} label="Chargement des messages" />
         ) : posts.length === 0 ? (
           <EmptyState
             title="Aucun post pour le moment"
@@ -195,7 +195,7 @@ export const Community = () => {
             )}
 
             {loading && posts.length > 0 && (
-              <Skeleton variant="cards" count={2} label="Chargement de posts supplémentaires" />
+              <Skeleton variant="cards" count={2} label="Chargement de messages supplémentaires" />
             )}
           </>
         )}

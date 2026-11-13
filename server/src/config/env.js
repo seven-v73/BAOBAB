@@ -59,6 +59,7 @@ export const env = {
   // Monitoring
   LOG_LEVEL: process.env.LOG_LEVEL || (process.env.NODE_ENV === 'production' ? 'warn' : 'info'),
   SENTRY_DSN: process.env.SENTRY_DSN,
+  ENABLE_API_DOCS: process.env.ENABLE_API_DOCS === 'true',
   // Détection d'anomalies
   MAX_FAILED_LOGIN_ATTEMPTS: parseInt(process.env.MAX_FAILED_LOGIN_ATTEMPTS) || 5,
   ANOMALY_DETECTION_WINDOW: parseInt(process.env.ANOMALY_DETECTION_WINDOW) || 15,
@@ -97,4 +98,3 @@ if (env.NODE_ENV === 'production') {
 }
 
 export default env
-

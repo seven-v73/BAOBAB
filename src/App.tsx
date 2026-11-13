@@ -1,4 +1,4 @@
-import { useEffect, lazy, Suspense } from 'react'
+import { useEffect, lazy, Suspense, useRef } from 'react'
 import { Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import { Home } from './pages/Home'
 import { Blog } from './pages/Blog'
@@ -11,6 +11,8 @@ import { Community } from './pages/Community'
 import { Communities } from './pages/Communities'
 import { CreateCommunity } from './pages/CreateCommunity'
 import { CommunityDetail } from './pages/CommunityDetail'
+import { Sources } from './pages/Sources'
+import { Contribute } from './pages/Contribute'
 import { useAuthStore } from './stores/authStore'
 import { useThemeStore } from './stores/themeStore'
 import { useSettingsStore } from './stores/settingsStore'
@@ -18,14 +20,8 @@ import { useNotifications } from './hooks/useNotifications'
 import { NotificationContainer } from './components/Notification/NotificationContainer'
 import { AdminRoute } from './components/AdminRoute'
 import './App.css'
-import './styles/theme-overrides.css'
-import './styles/premium-pages.css'
-import './styles/contrast-system.css'
-import './styles/button-system.css'
-import './styles/human-design.css'
 import './styles/admin-fixes.css'
-import './styles/form-system.css'
-import './styles/premium-polish.css'
+import './styles/shell.css'
 
 // Lazy loading pour les pages moins fréquemment utilisées
 const BlogAdmin = lazy(() => import('./pages/BlogAdmin').then(module => ({ default: module.BlogAdmin })))
@@ -46,19 +42,20 @@ const Quizzes = lazy(() => import('./pages/Quizzes').then(module => ({ default: 
 const Quiz = lazy(() => import('./pages/Quiz').then(module => ({ default: module.Quiz })))
 const Proverbs = lazy(() => import('./pages/Proverbs').then(module => ({ default: module.Proverbs })))
 const MapPage = lazy(() => import('./pages/MapPage').then(module => ({ default: module.MapPage })))
+const NotFound = lazy(() => import('./pages/NotFound').then(module => ({ default: module.NotFound })))
 const SearchResults = lazy(() => import('./pages/SearchResults').then(module => ({ default: module.SearchResults })))
 
 // Composant de chargement
 const LoadingFallback = () => (
-  <div style={{ 
-    display: 'flex', 
-    justifyContent: 'center', 
-    alignItems: 'center', 
-    minHeight: '50vh',
-    fontSize: '1.2rem',
-    color: '#666'
-  }}>
-    Chargement...
+  <div className="mb-page-loader" role="status" aria-live="polite">
+    <span className="sr-only">Chargement de la page…</span>
+    <div className="mb-skeleton" style={{ height: 40, width: '45%' }} />
+    <div className="mb-skeleton" style={{ height: 18, width: '70%' }} />
+    <div className="mb-grid" style={{ marginTop: 24 }}>
+      {[0, 1, 2].map((i) => (
+        <div key={i} className="mb-skeleton" style={{ height: 260 }} />
+      ))}
+    </div>
   </div>
 )
 
@@ -74,6 +71,8 @@ function App() {
   const { notifications, removeNotification } = useNotifications()
   const { token, fetchMe } = useAuthStore()
   const { theme } = useThemeStore()
+  const location = useLocation()
+  const previousPathRef = useRef(location.pathname)
   const fetchSettings = useSettingsStore((state) => state.fetchSettings)
 
   // Appliquer le thème au document
@@ -93,9 +92,33 @@ function App() {
     }
   }, [token, fetchMe])
 
+  useEffect(() => {
+    const timers: number[] = []
+    const pathChanged = previousPathRef.current !== location.pathname
+    previousPathRef.current = location.pathname
+
+    if (location.hash) {
+      // Les sections chargées de façon asynchrone peuvent apparaître un peu après la navigation
+      const scrollToHash = (attempt = 0) => {
+        const target = document.getElementById(decodeURIComponent(location.hash.slice(1)))
+        if (target) {
+          target.scrollIntoView({ block: 'start' })
+        } else if (attempt < 12) {
+          timers.push(window.setTimeout(() => scrollToHash(attempt + 1), 120))
+        }
+      }
+      scrollToHash()
+    } else if (pathChanged) {
+      window.scrollTo(0, 0)
+    }
+
+    return () => timers.forEach((timer) => window.clearTimeout(timer))
+  }, [location.pathname, location.hash])
+
   return (
     <>
-      <Routes>
+      <div className="page-transition-shell" key={location.pathname}>
+      <Routes location={location}>
         <Route path="/" element={<Home />} />
         <Route 
           path="/country/:id" 
@@ -107,6 +130,8 @@ function App() {
         />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:id" element={<BlogPostPage />} />
+        <Route path="/sources" element={<Sources />} />
+        <Route path="/contribute" element={<Contribute />} />
         <Route
           path="/timeline"
           element={
@@ -197,11 +222,7 @@ function App() {
         />
         <Route
           path="/communities"
-          element={
-            <ProtectedRoute>
-              <Communities />
-            </ProtectedRoute>
-          }
+          element={<Communities />}
         />
         <Route
           path="/communities/create"
@@ -213,11 +234,7 @@ function App() {
         />
         <Route
           path="/communities/:id"
-          element={
-            <ProtectedRoute>
-              <CommunityDetail />
-            </ProtectedRoute>
-          }
+          element={<CommunityDetail />}
         />
         <Route
           path="/community"
@@ -271,8 +288,16 @@ function App() {
             </AdminRoute>
           }
         />
-        <Route path="*" element={<Navigate to="/" replace />} />
+        <Route
+          path="*"
+          element={
+            <Suspense fallback={<LoadingFallback />}>
+              <NotFound />
+            </Suspense>
+          }
+        />
       </Routes>
+      </div>
       <NotificationContainer
         notifications={notifications}
         onClose={removeNotification}

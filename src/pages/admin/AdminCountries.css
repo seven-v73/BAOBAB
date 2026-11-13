@@ -137,7 +137,7 @@
 .form-eyebrow {
   display: inline-flex;
   margin-bottom: 0.45rem;
-  color: var(--color-primary);
+  color: var(--accent);
   font-size: 0.78rem;
   font-weight: 850;
   letter-spacing: 0.1em;
@@ -145,7 +145,7 @@
 }
 
 .country-form-card h3 {
-  color: var(--color-primary);
+  color: var(--accent);
   margin: 0 0 0.45rem 0;
   font-size: 1.5rem;
 }
@@ -635,7 +635,7 @@
 }
 
 .empty-state svg {
-  color: var(--color-primary);
+  color: var(--accent);
   margin-bottom: 1rem;
 }
 
@@ -667,11 +667,11 @@
 }
 
 .form-tab:hover {
-  color: var(--color-primary);
+  color: var(--accent);
 }
 
 .form-tab.active {
-  color: var(--color-primary);
+  color: var(--accent);
   border-bottom-color: var(--color-primary);
 }
 
@@ -688,7 +688,7 @@
 }
 
 .section-header-tab h4 {
-  color: var(--color-primary);
+  color: var(--accent);
   margin: 0;
   font-size: 1.25rem;
 }
@@ -750,7 +750,7 @@
 .move-btn:hover:not(:disabled) {
   background: var(--color-bg-hover);
   border-color: var(--color-primary);
-  color: var(--color-primary);
+  color: var(--accent);
 }
 
 .move-btn:disabled {
@@ -811,7 +811,7 @@
 }
 
 .image-item-header h5 {
-  color: var(--color-primary);
+  color: var(--accent);
   margin: 0;
   font-size: 1.1rem;
 }
@@ -872,7 +872,7 @@
 .mode-btn.active {
   background: var(--color-bg-hover);
   border-color: var(--color-primary);
-  color: var(--color-primary);
+  color: var(--accent);
 }
 
 .mode-btn svg {
@@ -893,7 +893,7 @@
 }
 
 .pdf-item-header h5 {
-  color: var(--color-primary);
+  color: var(--accent);
   margin: 0;
   font-size: 1.1rem;
 }

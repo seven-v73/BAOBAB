@@ -47,8 +47,8 @@ export const Register = () => {
   return (
     <div className="auth-page">
       <Card className="auth-card">
-        <h1>Inscription</h1>
-        <p className="auth-subtitle">Rejoignez la communauté {platformName}</p>
+        <h1>Rejoindre</h1>
+        <p className="auth-subtitle">Créez votre espace et gardez vos découvertes avec {platformName}.</p>
         
         <form onSubmit={handleSubmit} className="auth-form">
           <Input
@@ -94,12 +94,12 @@ export const Register = () => {
           {error && <div className="auth-error">{error}</div>}
           
           <Button type="submit" variant="primary" size="large" disabled={loading}>
-            {loading ? 'Inscription...' : 'S\'inscrire'}
+            {loading ? 'Création...' : 'Rejoindre'}
           </Button>
         </form>
         
         <p className="auth-link">
-          Déjà un compte ? <Link to="/auth/login">Se connecter</Link>
+          Déjà membre ? <Link to="/auth/login">Entrer</Link>
         </p>
       </Card>
     </div>

@@ -1,0 +1,84 @@
+/* ==========================================================================
+   Coquille applicative : transitions de page et harmonisation des pages internes
+   ========================================================================== */
+
+.page-transition-shell {
+  animation: mb-page-in 220ms var(--ease) both;
+}
+
+@keyframes mb-page-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* En-têtes de pages internes (« héros » encadrés) : un seul style sobre et cohérent.
+   Avant la refonte, chaque page avait son propre bandeau vert sombre bordé d'or. */
+.shop-header,
+.blog-header,
+.collections-header,
+.figures-header,
+.timeline-header,
+.stories-header,
+.quizzes-header,
+.proverbs-header,
+.sources-header,
+.communities-header,
+.search-header,
+.map-page-header,
+.contribute-header {
+  margin: 0 0 var(--space-6) !important;
+  padding: var(--space-5) 0 var(--space-2) !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: none !important;
+  box-shadow: none !important;
+  text-align: left !important;
+}
+
+.shop-header::before,
+.shop-header::after,
+.blog-header::before,
+.blog-header::after,
+.collections-header::before,
+.collections-header::after,
+.figures-header::before,
+.figures-header::after,
+.timeline-header::before,
+.timeline-header::after,
+.stories-header::before,
+.stories-header::after,
+.quizzes-header::before,
+.quizzes-header::after,
+.proverbs-header::before,
+.proverbs-header::after {
+  content: none !important;
+}
+
+:is(.shop-header, .blog-header, .collections-header, .figures-header, .timeline-header, .stories-header,
+  .quizzes-header, .proverbs-header, .sources-header, .communities-header, .search-header,
+  .map-page-header, .contribute-header) :is(h1, .page-title) {
+  margin: 0 0 var(--space-2) !important;
+  font-size: var(--text-3xl) !important;
+  color: var(--ink) !important;
+  text-align: left !important;
+  background: none !important;
+  -webkit-text-fill-color: currentColor !important;
+}
+
+:is(.shop-header, .blog-header, .collections-header, .figures-header, .timeline-header, .stories-header,
+  .quizzes-header, .proverbs-header, .sources-header, .communities-header, .search-header,
+  .map-page-header, .contribute-header) p {
+  max-width: 62ch;
+  margin: 0 !important;
+  color: var(--ink-2) !important;
+  font-size: var(--text-md) !important;
+  line-height: 1.55 !important;
+  text-align: left !important;
+}
+
+/* Titres dégradés (texte transparent) : illisibles selon le fond → couleur pleine */
+h1,
+h2,
+h3 {
+  -webkit-text-fill-color: currentColor;
+}

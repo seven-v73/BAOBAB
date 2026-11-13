@@ -5,15 +5,16 @@ import './Layout.css'
 
 interface LayoutProps {
   children: ReactNode
+  /** Les pages éditoriales gèrent elles-mêmes leurs marges et sections pleine largeur. */
+  fullWidth?: boolean
 }
 
-export const Layout = ({ children }: LayoutProps) => {
-  return (
-    <div className="layout">
-      <Header />
-      <main className="layout-main">{children}</main>
-      <Footer />
-    </div>
-  )
-}
-
+export const Layout = ({ children, fullWidth = false }: LayoutProps) => (
+  <div className="layout">
+    <Header />
+    <main id="contenu" tabIndex={-1} className={`layout-main${fullWidth ? ' layout-main--full' : ''}`}>
+      {children}
+    </main>
+    <Footer />
+  </div>
+)

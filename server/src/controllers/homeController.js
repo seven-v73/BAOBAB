@@ -5,21 +5,17 @@ import HistoricalFigure from '../models/HistoricalFigure.js'
 import Story from '../models/Story.js'
 import Collection from '../models/Collection.js'
 import Country from '../models/Country.js'
+import Proverb from '../models/Proverb.js'
+import Quiz from '../models/Quiz.js'
+import Community from '../models/Community.js'
+import Source from '../models/Source.js'
 import User from '../models/User.js'
 import Order from '../models/Order.js'
 import logger from '../utils/logger.js'
 import { catchAsync } from '../utils/errorHandler.js'
-import { getCache, setCache } from '../utils/cache.js'
 
 // GET /api/stats/home - Statistiques pour la page d'accueil
 export const getHomeStats = catchAsync(async (req, res) => {
-  // Vérifier le cache
-  const cacheKey = 'stats:home'
-  const cached = await getCache(cacheKey)
-  if (cached) {
-    return res.json(cached)
-  }
-
   const [
     countriesCount,
     blogPostsCount,
@@ -28,17 +24,25 @@ export const getHomeStats = catchAsync(async (req, res) => {
     figuresCount,
     storiesCount,
     collectionsCount,
+    proverbsCount,
+    quizzesCount,
+    communitiesCount,
+    sourcesCount,
     usersCount,
     totalBlogViews,
     totalProductViews,
   ] = await Promise.all([
-    Country.countDocuments(),
+    Country.countDocuments({ isActive: { $ne: false } }),
     Blog.countDocuments({ published: true }),
     Product.countDocuments({ isActive: true }),
     TimelineEvent.countDocuments(),
     HistoricalFigure.countDocuments(),
     Story.countDocuments(),
     Collection.countDocuments(),
+    Proverb.countDocuments(),
+    Quiz.countDocuments({ isActive: true }),
+    Community.countDocuments({ isActive: true }),
+    Source.countDocuments({ isActive: true }),
     User.countDocuments(),
     Blog.aggregate([{ $group: { _id: null, total: { $sum: '$views' } } }]),
     Product.aggregate([{ $group: { _id: null, total: { $sum: '$views' } } }]),
@@ -54,12 +58,13 @@ export const getHomeStats = catchAsync(async (req, res) => {
     figures: figuresCount,
     stories: storiesCount,
     collections: collectionsCount,
+    proverbs: proverbsCount,
+    quizzes: quizzesCount,
+    communities: communitiesCount,
+    sources: sourcesCount,
     users: usersCount,
     totalViews,
   }
-
-  // Mettre en cache pour 1 heure
-  await setCache(cacheKey, stats, 3600)
 
   res.json(stats)
 })
@@ -214,4 +219,3 @@ export const getRecentContent = catchAsync(async (req, res) => {
     stories: recentStories,
   })
 })
-

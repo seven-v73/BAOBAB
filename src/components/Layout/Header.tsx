@@ -1,388 +1,402 @@
-import { useEffect, useState, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
+import type { ComponentType } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
+import {
+  BookOpen,
+  ChevronDown,
+  Clock3,
+  FileText,
+  GraduationCap,
+  Layers,
+  LogOut,
+  Map as MapIcon,
+  Menu,
+  Moon,
+  PenLine,
+  Quote,
+  Search,
+  Settings,
+  ShoppingBag,
+  Sun,
+  User,
+  UsersRound,
+  X,
+} from 'lucide-react'
 import { useAuthStore } from '../../stores/authStore'
 import { useCartStore } from '../../stores/cartStore'
 import { useSettingsStore } from '../../stores/settingsStore'
-import { ThemeToggle } from '../ThemeToggle/ThemeToggle'
+import { useThemeStore } from '../../stores/themeStore'
 import { AdvancedSearch } from '../Search/AdvancedSearch'
 import './Header.css'
+
+type IconType = ComponentType<{ size?: number; strokeWidth?: number; 'aria-hidden'?: boolean }>
+
+type NavItem = { to: string; label: string; description: string; icon: IconType }
+type NavEntry =
+  | { kind: 'link'; label: string; to: string }
+  | { kind: 'menu'; label: string; items: NavItem[] }
+
+export const navigation: NavEntry[] = [
+  {
+    kind: 'menu',
+    label: 'Explorer',
+    items: [
+      { to: '/map', label: 'Carte & pays', description: 'Tous les pays, leurs régions et leurs cultures', icon: MapIcon },
+      { to: '/timeline', label: 'Chronologie', description: 'Les grandes périodes de l’histoire africaine', icon: Clock3 },
+      { to: '/figures', label: 'Personnalités', description: 'Celles et ceux qui ont marqué leur époque', icon: User },
+      { to: '/collections', label: 'Collections', description: 'Objets, arts et patrimoines thématiques', icon: Layers },
+    ],
+  },
+  {
+    kind: 'menu',
+    label: 'Lire',
+    items: [
+      { to: '/stories', label: 'Récits', description: 'Contes, mémoires et histoires transmises', icon: BookOpen },
+      { to: '/blog', label: 'Carnet de savoirs', description: 'Articles, analyses et repères', icon: FileText },
+      { to: '/proverbs', label: 'Proverbes', description: 'La sagesse des langues africaines', icon: Quote },
+    ],
+  },
+  { kind: 'link', label: 'Apprendre', to: '/quizzes' },
+  {
+    kind: 'menu',
+    label: 'Communauté',
+    items: [
+      { to: '/communities', label: 'Cercles', description: 'Échanger autour d’un pays ou d’un thème', icon: UsersRound },
+      { to: '/contribute', label: 'Contribuer', description: 'Partager une histoire, un savoir, un lieu', icon: PenLine },
+      { to: '/sources', label: 'Sources & provenance', description: 'D’où viennent nos contenus', icon: GraduationCap },
+    ],
+  },
+  { kind: 'link', label: 'Boutique', to: '/shop' },
+]
 
 export const Header = () => {
   const { isAuthenticated, user, logout } = useAuthStore()
   const itemCount = useCartStore((state) => state.getItemCount())
-  const { settings, fetchSettings } = useSettingsStore()
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [isMoreMenuOpen, setIsMoreMenuOpen] = useState(false)
+  const settings = useSettingsStore((state) => state.settings)
+  const { theme, toggleTheme } = useThemeStore()
+  const [openMenu, setOpenMenu] = useState<string | null>(null)
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false)
   const [isSearchOpen, setIsSearchOpen] = useState(false)
-  const [isScrolled, setIsScrolled] = useState(false)
   const [isUserMenuOpen, setIsUserMenuOpen] = useState(false)
+  const [isScrolled, setIsScrolled] = useState(false)
   const location = useLocation()
   const navigate = useNavigate()
-  const moreMenuRef = useRef<HTMLDivElement>(null)
-  const moreButtonRef = useRef<HTMLButtonElement>(null)
+  const navRef = useRef<HTMLElement>(null)
   const userMenuRef = useRef<HTMLDivElement>(null)
-  const userButtonRef = useRef<HTMLButtonElement>(null)
-  const headerRef = useRef<HTMLElement>(null)
-
-  useEffect(() => {
-    fetchSettings()
-  }, [fetchSettings])
-
-  // Détecter le scroll pour réduire la navbar
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollY = window.scrollY
-      setIsScrolled(scrollY > 50)
-    }
-
-    window.addEventListener('scroll', handleScroll, { passive: true })
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
-
-  // Fermer le menu mobile lors du changement de route
-  useEffect(() => {
-    setIsMenuOpen(false)
-    setIsSearchOpen(false)
-  }, [location.pathname])
-
-  // Fermer le menu "Plus" quand on clique en dehors
-  useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (
-        moreMenuRef.current &&
-        moreButtonRef.current &&
-        !moreMenuRef.current.contains(event.target as Node) &&
-        !moreButtonRef.current.contains(event.target as Node)
-      ) {
-        setIsMoreMenuOpen(false)
-      }
-      if (
-        userMenuRef.current &&
-        userButtonRef.current &&
-        !userMenuRef.current.contains(event.target as Node) &&
-        !userButtonRef.current.contains(event.target as Node)
-      ) {
-        setIsUserMenuOpen(false)
-      }
-    }
-
-    if (isMoreMenuOpen || isUserMenuOpen) {
-      document.addEventListener('mousedown', handleClickOutside)
-    }
-
-    return () => {
-      document.removeEventListener('mousedown', handleClickOutside)
-    }
-  }, [isMoreMenuOpen, isUserMenuOpen])
+  const drawerRef = useRef<HTMLDivElement>(null)
 
   const platformName = settings?.platformName || 'MonBaobab'
+  const isDark = theme === 'dark'
 
-  // Navigation principale (toujours visible sur desktop)
-  const mainNavItems = [
-    { to: '/', label: 'Accueil', icon: 'icon-home' },
-    { to: '/blog', label: 'Blog', icon: 'icon-file' },
-    { to: '/shop', label: 'Boutique', icon: 'icon-shopping' },
-  ]
+  const isActive = (to: string) => location.pathname === to || location.pathname.startsWith(`${to}/`)
+  const entryIsActive = (entry: NavEntry) =>
+    entry.kind === 'link' ? isActive(entry.to) : entry.items.some((item) => isActive(item.to))
 
-  // Navigation secondaire (menu déroulant "Plus")
-  const secondaryNavItems = [
-    { to: '/timeline', label: 'Chronologie', icon: 'icon-clock' },
-    { to: '/figures', label: 'Personnages', icon: 'icon-user' },
-    { to: '/collections', label: 'Collections', icon: 'icon-folder' },
-    { to: '/stories', label: 'Récits', icon: 'icon-book' },
-    { to: '/quizzes', label: 'Quiz', icon: 'icon-help-circle' },
-    { to: '/proverbs', label: 'Proverbes', icon: 'icon-quote' },
-    { to: '/map', label: 'Carte', icon: 'icon-globe' },
-  ]
+  // Fermer tous les menus à chaque navigation
+  useEffect(() => {
+    setOpenMenu(null)
+    setIsDrawerOpen(false)
+    setIsSearchOpen(false)
+    setIsUserMenuOpen(false)
+  }, [location.pathname])
 
-  const mobilePrimaryNavItems = [
-    { to: '/', label: 'Découvrir', hint: 'Accueil', icon: 'icon-home' },
-    { to: '/map', label: 'Carte', hint: 'Afrique', icon: 'icon-globe' },
-    { to: '/communities', label: 'Communautés', hint: 'Échanger', icon: 'icon-users' },
-    { to: '/shop', label: 'Boutique', hint: 'Artisanat', icon: 'icon-shopping' },
-    {
-      to: isAuthenticated ? '/dashboard' : '/login',
-      label: isAuthenticated ? 'Dashboard' : 'Connexion',
-      hint: isAuthenticated ? 'Mon espace' : 'Compte',
-      icon: isAuthenticated ? 'icon-layout' : 'icon-user',
-    },
-  ]
+  useEffect(() => {
+    const onScroll = () => setIsScrolled(window.scrollY > 8)
+    onScroll()
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
+
+  // Clic extérieur + touche Échap
+  useEffect(() => {
+    const onPointerDown = (event: MouseEvent) => {
+      const target = event.target as Node
+      if (navRef.current && !navRef.current.contains(target)) setOpenMenu(null)
+      if (userMenuRef.current && !userMenuRef.current.contains(target)) setIsUserMenuOpen(false)
+    }
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key !== 'Escape') return
+      setOpenMenu(null)
+      setIsUserMenuOpen(false)
+      setIsSearchOpen(false)
+      setIsDrawerOpen(false)
+    }
+    document.addEventListener('mousedown', onPointerDown)
+    document.addEventListener('keydown', onKeyDown)
+    return () => {
+      document.removeEventListener('mousedown', onPointerDown)
+      document.removeEventListener('keydown', onKeyDown)
+    }
+  }, [])
+
+  // Bloquer le défilement de la page quand le tiroir mobile est ouvert
+  useEffect(() => {
+    if (!isDrawerOpen) return
+    const previous = document.body.style.overflow
+    document.body.style.overflow = 'hidden'
+    drawerRef.current?.querySelector<HTMLElement>('a, button')?.focus()
+    return () => {
+      document.body.style.overflow = previous
+    }
+  }, [isDrawerOpen])
 
   const handleLogout = () => {
     logout()
-    navigate('/')
     setIsUserMenuOpen(false)
+    setIsDrawerOpen(false)
+    navigate('/')
+  }
+
+  const toggleSearch = () => {
+    setIsSearchOpen((open) => !open)
+    setOpenMenu(null)
   }
 
   return (
-    <header ref={headerRef} className={`header ${isScrolled ? 'scrolled' : ''}`}>
-      <div className="header-container">
-        {/* Logo */}
-        <Link to="/" className="header-logo">
-          <span className="logo-mark" aria-hidden="true">
-            <span>MB</span>
-          </span>
-          <span className="logo-wordmark">
-            <span className="logo-text">{platformName}</span>
-            <span className="logo-signature">Afrique connectée</span>
-          </span>
-        </Link>
-        
-        {/* Navigation principale - Desktop uniquement */}
-        <nav className="header-nav-desktop">
-          {mainNavItems.map((item) => {
-            const isActive = location.pathname === item.to
-            return (
-              <Link
-                key={item.to}
-                to={item.to}
-                className={`nav-link ${isActive ? 'active' : ''}`}
-              >
-                <span className={item.icon} />
-                <span className="nav-link-text">{item.label}</span>
-              </Link>
-            )
-          })}
-          
-          {/* Menu "Plus" pour navigation secondaire */}
-          <div className="nav-secondary" ref={moreMenuRef}>
-            <button
-              ref={moreButtonRef}
-              className={`nav-more-btn ${isMoreMenuOpen ? 'active' : ''}`}
-              onClick={() => setIsMoreMenuOpen(!isMoreMenuOpen)}
-              aria-label="Plus d'options"
-            >
-              <span className="icon-more-horizontal" />
-              <span className="nav-link-text">Plus</span>
-              <span className={`icon-arrow-down ${isMoreMenuOpen ? 'rotated' : ''}`} />
-            </button>
-            <div className={`nav-dropdown ${isMoreMenuOpen ? 'active' : ''}`}>
-              {secondaryNavItems.map((item) => (
-                <Link
-                  key={item.to}
-                  to={item.to}
-                  className="nav-dropdown-item"
-                  onClick={() => setIsMoreMenuOpen(false)}
-                >
-                  <span className={item.icon} />
-                  <span>{item.label}</span>
-                </Link>
+    <>
+      <a href="#contenu" className="skip-link">
+        Aller au contenu
+      </a>
+      <header className={`site-header${isScrolled ? ' is-scrolled' : ''}`}>
+        <div className="site-header__bar">
+          <Link to="/" className="site-header__logo" aria-label={`${platformName}, accueil`}>
+            <span className="site-logo" role="img" aria-label={platformName} />
+          </Link>
+
+          <nav className="site-nav" aria-label="Navigation principale" ref={navRef}>
+            <ul className="site-nav__list">
+              {navigation.map((entry) => (
+                <li key={entry.label} className="site-nav__entry">
+                  {entry.kind === 'link' ? (
+                    <Link
+                      to={entry.to}
+                      className={`site-nav__link${entryIsActive(entry) ? ' is-active' : ''}`}
+                      aria-current={isActive(entry.to) ? 'page' : undefined}
+                    >
+                      {entry.label}
+                    </Link>
+                  ) : (
+                    <>
+                      <button
+                        type="button"
+                        className={`site-nav__link${entryIsActive(entry) ? ' is-active' : ''}`}
+                        aria-expanded={openMenu === entry.label}
+                        aria-controls={`menu-${entry.label}`}
+                        onClick={() => setOpenMenu((current) => (current === entry.label ? null : entry.label))}
+                      >
+                        {entry.label}
+                        <ChevronDown size={16} aria-hidden={true} className="site-nav__chevron" />
+                      </button>
+                      <div
+                        id={`menu-${entry.label}`}
+                        className={`site-nav__panel${openMenu === entry.label ? ' is-open' : ''}`}
+                      >
+                        {entry.items.map((item) => (
+                          <Link
+                            key={item.to}
+                            to={item.to}
+                            className={`nav-item${isActive(item.to) ? ' is-active' : ''}`}
+                            aria-current={isActive(item.to) ? 'page' : undefined}
+                          >
+                            <span className="nav-item__icon">
+                              <item.icon size={18} strokeWidth={2} aria-hidden={true} />
+                            </span>
+                            <span>
+                              <strong>{item.label}</strong>
+                              <small>{item.description}</small>
+                            </span>
+                          </Link>
+                        ))}
+                      </div>
+                    </>
+                  )}
+                </li>
               ))}
-            </div>
-          </div>
-        </nav>
-        
-        {/* Actions utilisateur */}
-        <div className="header-actions">
-          {/* Bouton recherche compact */}
-          <button
-            className="search-toggle-btn"
-            onClick={() => setIsSearchOpen(!isSearchOpen)}
-            aria-label="Rechercher"
-          >
-            <span className="icon-search" />
-          </button>
+            </ul>
+          </nav>
 
-          {/* Panier */}
-          {isAuthenticated && (
-            <Link to="/cart" className="cart-link" aria-label="Panier">
-              <span className="icon-shopping" />
-              {itemCount > 0 && <span className="cart-badge">{itemCount}</span>}
+          <div className="site-header__actions">
+            <button
+              type="button"
+              className={`hdr-btn${isSearchOpen ? ' is-active' : ''}`}
+              onClick={toggleSearch}
+              aria-label="Rechercher"
+              aria-expanded={isSearchOpen}
+            >
+              <Search size={20} aria-hidden={true} />
+            </button>
+
+            <button
+              type="button"
+              className="hdr-btn hide-mobile"
+              onClick={toggleTheme}
+              aria-label={isDark ? 'Passer en mode clair' : 'Passer en mode sombre'}
+              title={isDark ? 'Mode clair' : 'Mode sombre'}
+            >
+              {isDark ? <Sun size={20} aria-hidden={true} /> : <Moon size={20} aria-hidden={true} />}
+            </button>
+
+            <Link
+              to="/cart"
+              className="hdr-btn"
+              aria-label={itemCount ? `Panier, ${itemCount} article${itemCount > 1 ? 's' : ''}` : 'Panier'}
+            >
+              <ShoppingBag size={20} aria-hidden={true} />
+              {itemCount > 0 && <span className="hdr-btn__badge">{itemCount > 99 ? '99+' : itemCount}</span>}
             </Link>
-          )}
 
-          {/* Toggle thème */}
-          <ThemeToggle />
-
-          {/* Menu utilisateur */}
-          {isAuthenticated ? (
-            <div className="user-menu-wrapper" ref={userMenuRef}>
-              <button
-                ref={userButtonRef}
-                className="user-menu-btn"
-                onClick={() => setIsUserMenuOpen(!isUserMenuOpen)}
-                aria-label="Menu utilisateur"
-              >
-                <span className="user-avatar">
-                  {user?.name?.charAt(0).toUpperCase() || 'U'}
-                </span>
-                <span className="icon-arrow-down" />
-              </button>
-              <div className={`user-dropdown ${isUserMenuOpen ? 'active' : ''}`}>
-                <div className="user-dropdown-header">
-                  <div className="user-info">
-                    <div className="user-name">{user?.name}</div>
-                    <div className="user-email">{user?.email}</div>
+            {isAuthenticated ? (
+              <div className="user-menu hide-mobile" ref={userMenuRef}>
+                <button
+                  type="button"
+                  className="user-menu__trigger"
+                  onClick={() => setIsUserMenuOpen((open) => !open)}
+                  aria-expanded={isUserMenuOpen}
+                  aria-label="Mon compte"
+                >
+                  <span className="avatar">{user?.name?.charAt(0).toUpperCase() || 'U'}</span>
+                  <ChevronDown size={16} aria-hidden={true} />
+                </button>
+                <div className={`user-menu__panel${isUserMenuOpen ? ' is-open' : ''}`}>
+                  <div className="user-menu__who">
+                    <strong>{user?.name || 'Utilisateur'}</strong>
+                    <span>{user?.email}</span>
                   </div>
-                </div>
-                <div className="user-dropdown-menu">
-                  <Link to="/dashboard" onClick={() => setIsUserMenuOpen(false)}>
-                    <span className="icon-layout" />
-                    Dashboard
+                  <Link to="/dashboard">
+                    <User size={18} aria-hidden={true} /> Mon espace
                   </Link>
-                  <Link to="/communities" onClick={() => setIsUserMenuOpen(false)}>
-                    <span className="icon-users" />
-                    Communautés
-                  </Link>
-                  <Link to="/cart" className="user-dropdown-cart" onClick={() => setIsUserMenuOpen(false)}>
-                    <span className="icon-shopping" />
-                    <span>Panier</span>
-                    {itemCount > 0 && <strong>{itemCount}</strong>}
+                  <Link to="/communities">
+                    <UsersRound size={18} aria-hidden={true} /> Mes cercles
                   </Link>
                   {user?.role === 'admin' && (
-                    <Link to="/admin" onClick={() => setIsUserMenuOpen(false)}>
-                      <span className="icon-settings" />
-                      Administration
+                    <Link to="/admin">
+                      <Settings size={18} aria-hidden={true} /> Administration
                     </Link>
                   )}
-                  <div className="user-dropdown-divider" />
-                  <button onClick={handleLogout} className="logout-btn">
-                    <span className="icon-log-out" />
-                    Déconnexion
+                  <button type="button" onClick={handleLogout}>
+                    <LogOut size={18} aria-hidden={true} /> Se déconnecter
                   </button>
                 </div>
               </div>
+            ) : (
+              <div className="site-header__auth hide-mobile">
+                <Link to="/login" className="btn btn-ghost">
+                  Se connecter
+                </Link>
+                <Link to="/register" className="btn">
+                  Rejoindre
+                </Link>
+              </div>
+            )}
+
+            <button
+              type="button"
+              className="hdr-btn show-mobile"
+              onClick={() => setIsDrawerOpen(true)}
+              aria-label="Ouvrir le menu"
+              aria-expanded={isDrawerOpen}
+              aria-controls="mobile-drawer"
+            >
+              <Menu size={22} aria-hidden={true} />
+            </button>
+          </div>
+        </div>
+
+        {isSearchOpen && (
+          <div className="site-search" role="search">
+            <div className="site-search__inner">
+              <AdvancedSearch />
+              <button type="button" className="hdr-btn" onClick={() => setIsSearchOpen(false)} aria-label="Fermer la recherche">
+                <X size={20} aria-hidden={true} />
+              </button>
+            </div>
+          </div>
+        )}
+      </header>
+
+      {/* Tiroir mobile */}
+      <div
+        className={`drawer-backdrop${isDrawerOpen ? ' is-open' : ''}`}
+        onClick={() => setIsDrawerOpen(false)}
+        aria-hidden="true"
+      />
+      <div
+        id="mobile-drawer"
+        ref={drawerRef}
+        className={`drawer${isDrawerOpen ? ' is-open' : ''}`}
+        role="dialog"
+        aria-modal="true"
+        aria-label="Menu"
+        aria-hidden={!isDrawerOpen}
+        inert={!isDrawerOpen ? true : undefined}
+      >
+        <div className="drawer__head">
+          <span className="site-logo" role="img" aria-label={platformName} />
+          <button type="button" className="hdr-btn" onClick={() => setIsDrawerOpen(false)} aria-label="Fermer le menu">
+            <X size={22} aria-hidden={true} />
+          </button>
+        </div>
+
+        <div className="drawer__body">
+          {isAuthenticated ? (
+            <div className="drawer__account">
+              <span className="avatar">{user?.name?.charAt(0).toUpperCase() || 'U'}</span>
+              <div>
+                <strong>{user?.name || 'Utilisateur'}</strong>
+                <Link to="/dashboard">Mon espace</Link>
+              </div>
             </div>
           ) : (
-            <div className="auth-buttons">
-              <Link to="/login" className="auth-link auth-link-button">
-                Connexion
+            <div className="drawer__cta">
+              <Link to="/register" className="btn btn-full-width">
+                Rejoindre MonBaobab
               </Link>
-              <Link to="/register" className="auth-link auth-link-primary">
-                Inscription
+              <Link to="/login" className="btn btn-outline btn-full-width">
+                Se connecter
               </Link>
             </div>
           )}
 
-          {/* Menu hamburger pour mobile */}
-          <button
-            className={`menu-toggle ${isMenuOpen ? 'active' : ''}`}
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            aria-label="Toggle menu"
-          >
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-        </div>
-      </div>
-
-      {/* Barre de recherche expandable */}
-      {isSearchOpen && (
-        <div className="header-search-expanded">
-          <AdvancedSearch />
-          <button
-            className="search-close-btn"
-            onClick={() => setIsSearchOpen(false)}
-            aria-label="Fermer la recherche"
-          >
-            <span className="icon-close" />
-          </button>
-        </div>
-      )}
-
-      {/* Menu mobile */}
-      <nav className={`header-nav-mobile ${isMenuOpen ? 'active' : ''}`}>
-        <div className="mobile-nav-content">
-          <div className="mobile-menu-head">
-            <span>Menu</span>
-            <strong>{platformName}</strong>
-          </div>
-
-          <div className="mobile-nav-quick" aria-label="Raccourcis principaux">
-            {mobilePrimaryNavItems.map((item) => {
-              const isActive = location.pathname === item.to
-              return (
-                <Link
-                  key={`${item.to}-${item.label}`}
-                  to={item.to}
-                  className={`mobile-quick-link ${isActive ? 'active' : ''}`}
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  <span className={item.icon} />
-                  <strong>{item.label}</strong>
-                  <small>{item.hint}</small>
-                </Link>
-              )
-            })}
-          </div>
-
-          <div className="mobile-nav-section-label">Essentiel</div>
-          {mainNavItems.map((item) => {
-            const isActive = location.pathname === item.to
-            return (
+          {navigation.map((entry) =>
+            entry.kind === 'link' ? (
               <Link
-                key={item.to}
-                to={item.to}
-                className={`mobile-nav-link ${isActive ? 'active' : ''}`}
-                onClick={() => setIsMenuOpen(false)}
+                key={entry.label}
+                to={entry.to}
+                className={`drawer__single${isActive(entry.to) ? ' is-active' : ''}`}
               >
-                <span className={item.icon} />
-                <span>{item.label}</span>
+                {entry.label}
               </Link>
-            )
-          })}
-          
-          <div className="mobile-nav-divider" />
-
-          <div className="mobile-nav-section-label">Ressources</div>
-          
-          {secondaryNavItems.map((item) => {
-            const isActive = location.pathname === item.to
-            return (
-              <Link
-                key={item.to}
-                to={item.to}
-                className={`mobile-nav-link ${isActive ? 'active' : ''}`}
-                onClick={() => setIsMenuOpen(false)}
-              >
-                <span className={item.icon} />
-                <span>{item.label}</span>
-              </Link>
-            )
-          })}
-          
-          {isAuthenticated && (
-            <>
-              <div className="mobile-nav-divider" />
-              <Link
-                to="/dashboard"
-                className="mobile-nav-link"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                <span className="icon-layout" />
-                <span>Dashboard</span>
-              </Link>
-              <Link
-                to="/communities"
-                className="mobile-nav-link"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                <span className="icon-users" />
-                <span>Communautés</span>
-              </Link>
-              <Link
-                to="/cart"
-                className="mobile-nav-link"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                <span className="icon-shopping" />
-                <span>Panier{itemCount > 0 ? ` (${itemCount})` : ''}</span>
-              </Link>
-              {user?.role === 'admin' && (
-                <Link
-                  to="/admin"
-                  className="mobile-nav-link"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  <span className="icon-settings" />
-                  <span>Administration</span>
-                </Link>
-              )}
-            </>
+            ) : (
+              <section key={entry.label} className="drawer__group">
+                <h2>{entry.label}</h2>
+                {entry.items.map((item) => (
+                  <Link key={item.to} to={item.to} className={`drawer__link${isActive(item.to) ? ' is-active' : ''}`}>
+                    <item.icon size={18} aria-hidden={true} />
+                    {item.label}
+                  </Link>
+                ))}
+              </section>
+            ),
           )}
         </div>
-      </nav>
-    </header>
+
+        <div className="drawer__foot">
+          <button type="button" className="btn btn-ghost" onClick={toggleTheme}>
+            {isDark ? <Sun size={18} aria-hidden={true} /> : <Moon size={18} aria-hidden={true} />}
+            {isDark ? 'Mode clair' : 'Mode sombre'}
+          </button>
+          {isAuthenticated && (
+            <button type="button" className="btn btn-ghost" onClick={handleLogout}>
+              <LogOut size={18} aria-hidden={true} /> Se déconnecter
+            </button>
+          )}
+          {user?.role === 'admin' && (
+            <Link to="/admin" className="btn btn-ghost">
+              <Settings size={18} aria-hidden={true} /> Admin
+            </Link>
+          )}
+        </div>
+      </div>
+    </>
   )
 }

@@ -5,6 +5,8 @@ import { blogService } from '../services/api'
 import { ArrowLeft, Calendar, User, Eye, Image as ImageIcon, FileText, Video, X } from 'lucide-react'
 import { PDFViewer } from '../components/MediaViewer/PDFViewer'
 import { VideoViewer } from '../components/MediaViewer/VideoViewer'
+import { foundationBlogPosts } from '../data/foundationContent'
+import { withContextualBlogVisual } from '../data/blogVisuals'
 import './BlogPost.css'
 
 interface BlogImage {
@@ -60,9 +62,11 @@ export const BlogPostPage = () => {
 
       try {
         const response = await blogService.getById(id)
-        setPost(response.data)
+        setPost(withContextualBlogVisual(response.data))
       } catch (error) {
         console.error('Erreur lors du chargement de l\'article:', error)
+        const fallbackPost = foundationBlogPosts.find((item) => item._id === id)
+        setPost(fallbackPost ? withContextualBlogVisual(fallbackPost) : null)
       } finally {
         setLoading(false)
       }
@@ -300,4 +304,3 @@ export const BlogPostPage = () => {
     </Layout>
   )
 }
-

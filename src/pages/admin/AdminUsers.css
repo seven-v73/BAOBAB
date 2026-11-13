@@ -22,7 +22,7 @@
 .stat-value {
   font-size: 2rem;
   font-weight: 800;
-  color: var(--color-primary);
+  color: var(--accent);
   line-height: 1;
 }
 
@@ -103,7 +103,7 @@
 }
 
 .user-detail-item svg {
-  color: var(--color-primary);
+  color: var(--accent);
   flex-shrink: 0;
 }
 
@@ -176,7 +176,7 @@
 }
 
 .role-admin {
-  color: var(--color-primary);
+  color: var(--accent);
   font-weight: 700;
 }
 

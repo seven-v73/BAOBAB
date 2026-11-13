@@ -31,7 +31,7 @@
 }
 
 .back-link:hover {
-  color: var(--color-primary);
+  color: var(--accent);
 }
 
 .quiz-header {
@@ -308,7 +308,7 @@
   border: 2px solid var(--color-primary);
   border-radius: 8px;
   font-weight: 700;
-  color: var(--color-primary);
+  color: var(--accent);
   flex-shrink: 0;
   transition: all 0.3s ease;
 }

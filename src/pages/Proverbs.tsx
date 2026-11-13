@@ -42,6 +42,7 @@ export const Proverbs = () => {
   const [proverbs, setProverbs] = useState<Proverb[]>([])
   const [loading, setLoading] = useState(true)
   const [searchTerm, setSearchTerm] = useState('')
+  const [searchInput, setSearchInput] = useState('')
   const [selectedCountry, setSelectedCountry] = useState<string>('')
   const [selectedCategory, setSelectedCategory] = useState<string>('')
   const [countries, setCountries] = useState<Country[]>([])
@@ -56,6 +57,14 @@ export const Proverbs = () => {
   useEffect(() => {
     fetchProverbs()
   }, [selectedCountry, selectedCategory, searchTerm])
+
+  useEffect(() => {
+    const timeout = window.setTimeout(() => {
+      setSearchTerm(searchInput)
+    }, 350)
+
+    return () => window.clearTimeout(timeout)
+  }, [searchInput])
 
   const fetchProverbs = async () => {
     try {
@@ -122,6 +131,7 @@ export const Proverbs = () => {
   const categories = ['Sagesse', 'Famille', 'Travail', 'Nature', 'Relations', 'Spiritualité', 'Autre']
   const hasActiveFilters = Boolean(searchTerm || selectedCountry || selectedCategory)
   const clearFilters = () => {
+    setSearchInput('')
     setSearchTerm('')
     setSelectedCountry('')
     setSelectedCategory('')
@@ -228,8 +238,8 @@ export const Proverbs = () => {
               id="proverb-search"
               name="proverb-search"
               placeholder="Rechercher un proverbe..."
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
+              value={searchInput}
+              onChange={(e) => setSearchInput(e.target.value)}
             />
           </div>
           <div className="filters-row">
@@ -265,7 +275,10 @@ export const Proverbs = () => {
           {hasActiveFilters && (
             <div className="active-filter-chips" aria-label="Filtres actifs">
               {searchTerm && (
-                <button type="button" className="active-filter-chip" onClick={() => setSearchTerm('')}>
+                <button type="button" className="active-filter-chip" onClick={() => {
+                  setSearchInput('')
+                  setSearchTerm('')
+                }}>
                   <span>Recherche: {searchTerm}</span>
                   <span aria-hidden="true">×</span>
                 </button>

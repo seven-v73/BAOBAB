@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { usePlatformName } from '../../hooks/usePlatformName'
 import { useNavigate, Link } from 'react-router-dom'
+import { usePlatformName } from '../../hooks/usePlatformName'
 import { useAuthStore } from '../../stores/authStore'
 import { Button } from '../../components/ui/Button'
 import { Input } from '../../components/ui/Input'
@@ -25,7 +25,7 @@ export const Login = () => {
       await login(email, password)
       navigate('/dashboard')
     } catch (err) {
-      setError('Une erreur est survenue')
+      setError('Email ou mot de passe incorrect. Veuillez réessayer.')
     } finally {
       setLoading(false)
     }
@@ -34,9 +34,18 @@ export const Login = () => {
   return (
     <div className="auth-page">
       <Card className="auth-card">
-        <h1>Connexion</h1>
-        <p className="auth-subtitle">Connectez-vous à votre compte {platformName}</p>
-        
+        {/* En-tête avec icône */}
+        <div className="auth-header">
+          <div className="auth-icon">
+            <span className="icon-login" aria-hidden="true" />
+          </div>
+          <h1>Entrer</h1>
+          <p className="auth-subtitle">
+            Retrouvez votre espace <strong>{platformName}</strong> et reprenez le fil.
+          </p>
+        </div>
+
+        {/* Formulaire */}
         <form onSubmit={handleSubmit} className="auth-form">
           <Input
             type="email"
@@ -47,7 +56,7 @@ export const Login = () => {
             placeholder="votre@email.com"
             autoComplete="email"
           />
-          
+
           <Input
             type="password"
             label="Mot de passe"
@@ -57,17 +66,49 @@ export const Login = () => {
             placeholder="••••••••"
             autoComplete="current-password"
           />
-          
+
+          {/* Lien mot de passe oublié */}
+          <div className="auth-forgot">
+            <Link to="/auth/forgot-password">Mot de passe oublié ?</Link>
+          </div>
+
           {error && <div className="auth-error">{error}</div>}
-          
-          <Button type="submit" variant="primary" size="large" disabled={loading}>
-            {loading ? 'Connexion...' : 'Se connecter'}
+
+          <Button 
+            type="submit" 
+            variant="primary" 
+            size="large" 
+            disabled={loading}
+            className="auth-submit-btn"
+          >
+            {loading ? (
+              <>
+                <span className="spinner" aria-hidden="true" />
+                Ouverture...
+              </>
+            ) : (
+              'Entrer'
+            )}
           </Button>
         </form>
-        
+
+        {/* Lien d'inscription */}
         <p className="auth-link">
-          Pas encore de compte ? <Link to="/auth/register">S'inscrire</Link>
+          Pas encore membre ? <Link to="/auth/register">Rejoindre</Link>
         </p>
+
+        {/* Séparateur décoratif */}
+        <div className="auth-divider">
+          <span>ou</span>
+        </div>
+
+        {/* Boutons sociaux (optionnel) */}
+        <div className="auth-social">
+          <button type="button" className="social-btn google">
+            <span className="icon-google" aria-hidden="true" />
+            Continuer avec Google
+          </button>
+        </div>
       </Card>
     </div>
   )

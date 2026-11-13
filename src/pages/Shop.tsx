@@ -7,6 +7,7 @@ import { useCartStore } from '../stores/cartStore'
 import { useAuthStore } from '../stores/authStore'
 import { productService, userService, countryService } from '../services/api'
 import { useNotifications } from '../hooks/useNotifications'
+import { withContextualProductVisual } from '../data/productVisuals'
 import { Heart, Star, ShoppingCart, SlidersHorizontal } from 'lucide-react'
 import { Link, useNavigate } from 'react-router-dom'
 import './Shop.css'
@@ -60,6 +61,7 @@ export const Shop = () => {
     page: 1,
     limit: 12,
   })
+  const [searchInput, setSearchInput] = useState('')
 
   const { isAuthenticated, user } = useAuthStore()
   const addItem = useCartStore((state) => state.addItem)
@@ -76,6 +78,18 @@ export const Shop = () => {
     fetchProducts()
     fetchUserData()
   }, [filters, isAuthenticated, user])
+
+  useEffect(() => {
+    const timer = window.setTimeout(() => {
+      setFilters((currentFilters) => (
+        currentFilters.search === searchInput
+          ? currentFilters
+          : { ...currentFilters, search: searchInput, page: 1 }
+      ))
+    }, 350)
+
+    return () => window.clearTimeout(timer)
+  }, [searchInput])
 
   const fetchCategories = async () => {
     try {
@@ -99,7 +113,8 @@ export const Shop = () => {
   const fetchTrendingProducts = async () => {
     try {
       const response = await productService.getTrending({ limit: 5 })
-      setTrendingProducts(response.data || [])
+      const productsData = Array.isArray(response.data) ? response.data : []
+      setTrendingProducts(productsData.map(withContextualProductVisual))
     } catch (error) {
       console.error('Erreur lors du chargement des produits tendance:', error)
     }
@@ -123,7 +138,7 @@ export const Shop = () => {
 
       const response = await productService.getAll(params)
       const productsData = response.data.products || []
-      setProducts(Array.isArray(productsData) ? productsData : [])
+      setProducts(Array.isArray(productsData) ? productsData.map(withContextualProductVisual) : [])
       setPagination(response.data.pagination || null)
     } catch (error) {
       console.error('Erreur lors du chargement des produits:', error)
@@ -237,6 +252,7 @@ export const Shop = () => {
       page: 1,
       limit: 12,
     })
+    setSearchInput('')
   }
 
   const formatPrice = (price: number, currency: string = 'FCFA') => {
@@ -297,8 +313,8 @@ export const Shop = () => {
             <Input
               type="text"
               placeholder="Rechercher un produit..."
-              value={filters.search}
-              onChange={(e) => handleFilterChange('search', e.target.value)}
+              value={searchInput}
+              onChange={(e) => setSearchInput(e.target.value)}
               className="shop-search"
             />
           </div>
@@ -327,7 +343,10 @@ export const Shop = () => {
                 key={filter.key}
                 type="button"
                 className="active-filter-chip"
-                onClick={() => handleFilterChange(filter.key, '')}
+                onClick={() => {
+                  if (filter.key === 'search') setSearchInput('')
+                  handleFilterChange(filter.key, '')
+                }}
               >
                 <span>{filter.label}</span>
                 <span aria-hidden="true">×</span>

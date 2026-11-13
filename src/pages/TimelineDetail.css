@@ -19,7 +19,7 @@
 }
 
 .back-link:hover {
-  color: var(--color-primary);
+  color: var(--accent);
 }
 
 .event-header {
@@ -164,7 +164,7 @@
 }
 
 .source-item span:first-child {
-  color: var(--color-primary);
+  color: var(--accent);
   flex-shrink: 0;
   display: inline-block;
 }
@@ -182,7 +182,7 @@
 }
 
 .source-item a {
-  color: var(--color-primary);
+  color: var(--accent);
   text-decoration: none;
   margin-top: 0.5rem;
   display: inline-block;

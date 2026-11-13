@@ -78,6 +78,69 @@
   }
 }
 
+.country-source-links {
+  display: grid;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.country-source-links article {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  align-items: center;
+  border: 1px solid var(--border-color, rgba(127,127,127,.24));
+  border-radius: 8px;
+  padding: 12px;
+  background: var(--surface-muted, rgba(127,127,127,.08));
+}
+
+.country-source-links strong,
+.country-source-links span {
+  display: block;
+}
+
+.country-source-links span {
+  margin-top: 4px;
+  color: var(--text-secondary, #6b7280);
+  font-size: .9rem;
+}
+
+.country-source-links a,
+.country-source-actions a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 38px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color, rgba(127,127,127,.28));
+  padding: 0 12px;
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 850;
+  white-space: nowrap;
+}
+
+.country-source-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.country-source-actions a:first-child {
+  background: var(--accent-color, #c9a227);
+  border-color: var(--accent-color, #c9a227);
+  color: #111;
+}
+
+@media (max-width: 680px) {
+  .country-source-links article {
+    align-items: stretch;
+    flex-direction: column;
+  }
+}
+
 .back-button {
   display: inline-flex;
   align-items: center;
@@ -290,7 +353,7 @@
 
 .country-compass-score p {
   margin: 0.5rem 0 0;
-  color: var(--color-primary);
+  color: var(--accent);
   font-weight: 900;
 }
 
@@ -338,8 +401,8 @@
 }
 
 .country-reading-mode button.active {
-  background: var(--color-primary);
-  color: #15120a;
+  background: var(--accent);
+  color: var(--on-accent);
   box-shadow: 0 10px 28px color-mix(in srgb, var(--color-primary) 28%, transparent);
 }
 
@@ -409,7 +472,7 @@
 
 .country-quick-actions a:hover {
   border-color: color-mix(in srgb, var(--color-primary) 44%, var(--readable-border));
-  color: var(--color-primary) !important;
+  color: var(--accent) !important;
 }
 
 .country-reading-journey {
@@ -464,7 +527,7 @@
   border: 1px solid var(--readable-border);
   border-radius: 999px;
   background: var(--readable-surface-muted);
-  color: var(--color-primary);
+  color: var(--accent);
   font-size: 0.82rem;
   font-weight: 950;
 }
@@ -476,7 +539,7 @@
 }
 
 .country-journey-step span {
-  color: var(--color-primary);
+  color: var(--accent);
   font-size: 0.72rem;
   font-weight: 900;
   text-transform: uppercase;
@@ -523,7 +586,7 @@
 }
 
 .country-day-intro > span {
-  color: var(--color-primary);
+  color: var(--accent);
   font-size: 0.78rem;
   font-weight: 950;
   text-transform: uppercase;
@@ -587,7 +650,7 @@
   border: 1px solid var(--readable-border);
   border-radius: 999px;
   background: var(--readable-surface-muted);
-  color: var(--color-primary);
+  color: var(--accent);
   font-size: 0.75rem;
   font-weight: 950;
   text-transform: uppercase;
@@ -641,7 +704,7 @@
 .country-insight-card > strong {
   position: relative;
   z-index: 1;
-  color: var(--color-primary);
+  color: var(--accent);
   font-size: 0.82rem;
   font-weight: 950;
 }
@@ -705,7 +768,7 @@
   border: 1px solid var(--readable-border);
   border-radius: 999px;
   background: var(--readable-surface-muted);
-  color: var(--color-primary);
+  color: var(--accent);
   font-size: 0.72rem;
   font-weight: 950;
   text-transform: uppercase;
@@ -780,7 +843,7 @@
 }
 
 .country-related-card-header span {
-  color: var(--color-primary);
+  color: var(--accent);
   font-size: 0.76rem;
   font-weight: 950;
   letter-spacing: 0;
@@ -796,7 +859,7 @@
 }
 
 .country-related-card-header a:hover {
-  color: var(--color-primary);
+  color: var(--accent);
 }
 
 .country-related-card h3 {
@@ -950,7 +1013,7 @@
 
 .retain-grid strong,
 .country-recommended-card > strong {
-  color: var(--color-primary);
+  color: var(--accent);
   font-size: 0.88rem;
   font-weight: 950;
 }
@@ -987,7 +1050,7 @@
 .country-memory-card > span {
   display: inline-flex;
   margin-bottom: 0.8rem;
-  color: var(--color-primary);
+  color: var(--accent);
   font-size: 0.78rem;
   font-weight: 900;
   text-transform: uppercase;
@@ -1088,7 +1151,7 @@
 
 .country-field-main > span,
 .country-moment-card > span {
-  color: var(--color-primary);
+  color: var(--accent);
   font-size: 0.78rem;
   font-weight: 950;
   text-transform: uppercase;
@@ -1131,7 +1194,7 @@
 
 .country-field-main a:hover {
   border-color: color-mix(in srgb, var(--color-primary) 42%, var(--readable-border));
-  color: var(--color-primary) !important;
+  color: var(--accent) !important;
 }
 
 .country-moment-grid {
@@ -2637,7 +2700,7 @@
 
 .country-start-card span,
 .country-crosslink-card strong {
-  color: var(--color-primary);
+  color: var(--accent);
 }
 
 .country-start-card span {

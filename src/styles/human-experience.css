@@ -1,0 +1,458 @@
+/*
+  Human experience layer.
+  Calms AI-like gloss and makes interaction feel closer to a lived community.
+*/
+
+:root {
+  --human-accent-soft: color-mix(in srgb, var(--color-gold) 14%, transparent);
+  --human-accent-line: color-mix(in srgb, var(--color-gold) 34%, var(--readable-border, var(--color-border)));
+  --human-touch-shadow: 0 10px 28px color-mix(in srgb, #000 12%, transparent);
+  --human-touch-shadow-hover: 0 16px 38px color-mix(in srgb, #000 15%, transparent);
+  --human-focus-ring: 0 0 0 4px color-mix(in srgb, var(--color-gold) 28%, transparent);
+}
+
+:where(.app, body)::before {
+  opacity: 0.34 !important;
+}
+
+:where(
+  .card,
+  .product-card,
+  .blog-card,
+  .collection-card,
+  .story-card,
+  .quiz-card,
+  .proverb-card,
+  .community-card,
+  .figure-card,
+  .timeline-card,
+  .timeline-event-card,
+  .post-card,
+  .stat-card,
+  .settings-card,
+  .profile-card,
+  .country-card-admin,
+  .product-card-admin,
+  .user-card-admin,
+  .community-request-card,
+  .admin-post-card
+) {
+  background:
+    linear-gradient(180deg, color-mix(in srgb, #fff 2%, transparent), transparent 52%),
+    var(--readable-surface, var(--color-bg-card)) !important;
+  box-shadow: var(--human-touch-shadow) !important;
+}
+
+:where(
+  .card,
+  .product-card,
+  .blog-card,
+  .collection-card,
+  .story-card,
+  .quiz-card,
+  .proverb-card,
+  .community-card,
+  .figure-card,
+  .timeline-card,
+  .timeline-event-card,
+  .post-card,
+  .stat-card,
+  .settings-card,
+  .profile-card,
+  .country-card-admin,
+  .product-card-admin,
+  .user-card-admin,
+  .community-request-card,
+  .admin-post-card
+):hover {
+  box-shadow: var(--human-touch-shadow-hover) !important;
+  border-color: var(--human-accent-line) !important;
+}
+
+:where(
+  .product-card,
+  .blog-card,
+  .collection-card,
+  .story-card,
+  .quiz-card,
+  .proverb-card,
+  .community-card,
+  .figure-card,
+  .timeline-card,
+  .timeline-event-card,
+  .post-card
+):hover {
+  transform: translateY(-2px) !important;
+}
+
+:where(
+  .btn,
+  button,
+  .auth-link-button,
+  .auth-link-primary,
+  .nav-link,
+  .nav-more-btn,
+  .mobile-nav-link,
+  .filter-btn,
+  .form-tab,
+  .tab-btn
+) {
+  text-transform: none !important;
+  letter-spacing: 0.005em !important;
+}
+
+:where(
+  .btn,
+  button:not(.theme-toggle):not(.menu-toggle):not(.country-shape),
+  .auth-link-button,
+  .auth-link-primary,
+  .filter-btn,
+  .form-tab,
+  .tab-btn
+) {
+  border-radius: 10px !important;
+  box-shadow: none !important;
+}
+
+:where(
+  .btn:hover,
+  button:not(.theme-toggle):not(.menu-toggle):not(.country-shape):hover,
+  .auth-link-button:hover,
+  .auth-link-primary:hover,
+  .filter-btn:hover,
+  .form-tab:hover,
+  .tab-btn:hover
+) {
+  transform: translateY(-1px) !important;
+  box-shadow: var(--human-touch-shadow) !important;
+}
+
+:where(a, button, input, select, textarea, [tabindex]):focus-visible {
+  outline: 0;
+  box-shadow: var(--human-focus-ring) !important;
+}
+
+:where([class^='icon-'], [class*=' icon-']) {
+  filter: none !important;
+  transform: none;
+}
+
+:where(
+  .nav-link span[class^='icon-'],
+  .nav-more-btn span[class^='icon-'],
+  .mobile-nav-link span[class^='icon-'],
+  .user-dropdown-menu span[class^='icon-'],
+  .dashboard-nav-item span[class^='icon-']
+) {
+  opacity: 0.82;
+}
+
+:where(
+  .nav-link:hover span[class^='icon-'],
+  .nav-link.active span[class^='icon-'],
+  .mobile-nav-link:hover span[class^='icon-'],
+  .mobile-nav-link.active span[class^='icon-']
+) {
+  opacity: 1;
+}
+
+:where(
+  .home-kicker,
+  .section-kicker,
+  .country-kicker,
+  .dashboard-section-kicker,
+  .mobile-nav-section-label,
+  .media-type,
+  .badge,
+  .tag,
+  .category-badge,
+  .request-status,
+  .request-type
+) {
+  text-transform: none !important;
+  letter-spacing: 0.025em !important;
+}
+
+:where(.page-header, .blog-header, .shop-header, .collections-header, .communities-header, .timeline-header, .figures-header, .stories-header, .quizzes-header, .proverbs-header, .search-header) {
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--color-forest) 72%, #15120f), color-mix(in srgb, var(--color-bg-card) 76%, transparent)),
+    var(--readable-surface, var(--color-bg-card)) !important;
+}
+
+:where(.empty-state, .admin-empty-state, .shop-empty, .blog-empty, .collections-empty, .timeline-empty, .stories-empty, .quizzes-empty, .proverbs-empty) {
+  background:
+    linear-gradient(180deg, var(--human-accent-soft), transparent),
+    var(--readable-surface, var(--color-bg-card)) !important;
+}
+
+:where(.community-card, .post-card, .comment, .member-card, .community-request-card) {
+  border-style: solid;
+}
+
+:where(.community-card)::after,
+:where(.post-card)::after {
+  content: '';
+  position: absolute;
+  inset: auto 1rem 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--human-accent-line), transparent);
+  opacity: 0;
+  transition: opacity 180ms ease;
+}
+
+:where(.community-card:hover)::after,
+:where(.post-card:hover)::after {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :where(*, *::before, *::after) {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Navigation éditoriale : les parcours restent visibles sans prendre
+   l'apparence de boutons d'administration. */
+.header {
+  border-bottom-color: color-mix(in srgb, var(--color-forest) 22%, transparent) !important;
+}
+
+[data-theme='light'] .header {
+  background: rgba(255, 252, 245, 0.94) !important;
+  box-shadow: 0 10px 30px rgba(31, 42, 34, 0.08) !important;
+}
+
+.header-nav-desktop {
+  flex: 0 1 auto !important;
+  gap: 0.2rem !important;
+  margin-inline: clamp(0.5rem, 2vw, 2.25rem) !important;
+  padding: 0.25rem !important;
+  border: 1px solid color-mix(in srgb, var(--color-forest) 16%, transparent) !important;
+  border-radius: 999px !important;
+  background: color-mix(in srgb, var(--color-bg-card) 82%, transparent) !important;
+}
+
+.header .nav-link,
+.header .nav-more-btn {
+  min-height: 42px !important;
+  padding-inline: 0.9rem !important;
+  border: 1px solid transparent !important;
+  border-radius: 999px !important;
+  color: var(--color-text-muted) !important;
+  font-size: 0.84rem !important;
+  font-weight: 750 !important;
+}
+
+.header .nav-link::before {
+  display: none !important;
+}
+
+.header .nav-link:hover,
+.header .nav-more-btn:hover {
+  background: color-mix(in srgb, var(--color-forest) 9%, transparent) !important;
+  color: var(--color-forest) !important;
+  transform: none !important;
+}
+
+.header .nav-link.active,
+.header .nav-more-btn.active {
+  background: linear-gradient(135deg, #fff0bc, #e8bf50) !important;
+  border-color: rgba(156, 118, 21, 0.48) !important;
+  color: #18342b !important;
+  box-shadow: 0 5px 14px rgba(201, 162, 39, 0.2) !important;
+}
+
+.header .nav-link.active span[class^='icon-'],
+.header .nav-more-btn.active span[class^='icon-'] {
+  color: inherit !important;
+}
+
+/* Les actions de compte doivent être identifiables en un regard :
+   secondaire sobre, action principale lumineuse. */
+.header .auth-buttons {
+  gap: 0.55rem !important;
+}
+
+.header .auth-link {
+  min-height: 42px !important;
+  height: 42px !important;
+  padding-inline: 1rem !important;
+  border-radius: 999px !important;
+  font-size: 0.84rem !important;
+  font-weight: 800 !important;
+}
+
+.header .auth-link .auth-icon {
+  width: 18px !important;
+  height: 18px !important;
+  flex: 0 0 18px !important;
+  stroke: currentColor !important;
+}
+
+.header .auth-link-button {
+  background: #fffaf0 !important;
+  border: 1px solid color-mix(in srgb, var(--color-forest) 52%, transparent) !important;
+  color: var(--color-forest) !important;
+}
+
+.header .auth-link-primary {
+  background: linear-gradient(135deg, #ffe49a 0%, #f1c95d 50%, #d9a92f 100%) !important;
+  border: 1px solid rgba(156, 118, 21, 0.58) !important;
+  color: #18342b !important;
+  box-shadow: 0 7px 18px rgba(201, 162, 39, 0.24) !important;
+}
+
+.header .auth-link-button:hover {
+  background: color-mix(in srgb, var(--color-forest) 8%, transparent) !important;
+  border-color: var(--color-forest) !important;
+  color: var(--color-forest) !important;
+}
+
+.header .auth-link-primary:hover {
+  background: linear-gradient(135deg, #fff0bb 0%, #f6d574 50%, #dfb33d 100%) !important;
+  color: #10251f !important;
+}
+
+.header .search-toggle-btn,
+.header .theme-toggle,
+.header .user-menu-btn,
+.header .cart-link {
+  min-width: 42px !important;
+  min-height: 42px !important;
+  border-radius: 50% !important;
+  background: color-mix(in srgb, var(--color-bg-card) 84%, transparent) !important;
+}
+
+[data-theme='dark'] .header .nav-link:hover,
+[data-theme='dark'] .header .nav-more-btn:hover,
+[data-theme='dark'] .header .auth-link-button:hover {
+  color: #fffaf0 !important;
+}
+
+[data-theme='dark'] .header .auth-link-button {
+  border-color: rgba(242, 207, 102, 0.72) !important;
+  color: #18342b !important;
+}
+
+/* « Approfondir » reste une action textuelle compacte : aucun pictogramme
+   superflu ne pousse le chevron ou les entrées du menu hors de leur cadre. */
+.header .nav-more-btn {
+  min-width: 0 !important;
+  overflow: hidden !important;
+}
+
+.header .nav-more-btn .nav-link-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.header .nav-more-btn .icon-arrow-down {
+  width: 16px !important;
+  min-width: 16px !important;
+  height: 16px !important;
+  font-size: 1rem !important;
+}
+
+.header .nav-dropdown {
+  max-width: min(290px, calc(100vw - 2rem));
+  overflow: hidden !important;
+}
+
+.header .nav-dropdown-item {
+  display: grid !important;
+  grid-template-columns: 22px minmax(0, 1fr);
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.header .nav-dropdown-item > span:last-child {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 1024px) {
+  .header-nav-desktop {
+    border: 0 !important;
+    background: transparent !important;
+    padding: 0 !important;
+  }
+}
+
+/* Barre desktop : lecture calme et éditoriale. Les mots portent les parcours,
+   les pictogrammes restent réservés au menu mobile et aux listes. */
+@media (min-width: 1025px) {
+  .header-container {
+    grid-template-columns: 185px minmax(0, 1fr) auto !important;
+    min-height: 64px !important;
+    gap: clamp(0.75rem, 1.8vw, 1.5rem) !important;
+  }
+
+  .brand-logo {
+    width: 165px !important;
+    max-height: 52px;
+  }
+
+  .header-nav-desktop {
+    justify-self: center !important;
+    width: auto !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  .header .nav-link,
+  .header .nav-more-btn {
+    min-height: 44px !important;
+    padding: 0 0.78rem !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: inset 0 -2px transparent !important;
+    color: var(--color-text-muted) !important;
+    font-size: 0.9rem !important;
+  }
+
+  .header-nav-desktop .nav-link > span[class^='icon-'],
+  .header-nav-desktop .nav-more-btn > span[class^='icon-']:not(.icon-arrow-down) {
+    display: none !important;
+  }
+
+  .header .nav-link:hover,
+  .header .nav-more-btn:hover {
+    background: transparent !important;
+    box-shadow: inset 0 -2px color-mix(in srgb, var(--color-gold) 52%, transparent) !important;
+    color: var(--color-forest) !important;
+  }
+
+  .header .nav-link.active,
+  .header .nav-more-btn.active {
+    background: transparent !important;
+    border: 0 !important;
+    box-shadow: inset 0 -3px var(--color-gold) !important;
+    color: var(--color-forest) !important;
+  }
+
+  .header .nav-more-btn {
+    gap: 0.28rem !important;
+    overflow: visible !important;
+  }
+
+  .header .nav-more-btn .icon-arrow-down {
+    display: inline-flex !important;
+    color: currentColor !important;
+  }
+
+  .header .nav-dropdown {
+    top: calc(100% + 0.55rem) !important;
+  }
+}

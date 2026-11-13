@@ -1,64 +1,27 @@
-.btn {
-  border: none;
-  border-radius: var(--radius-control);
-  font-weight: 750;
-  cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease, border-color 0.2s ease;
-  font-family: inherit;
-  letter-spacing: 0;
-  min-height: 40px;
-}
-
-.btn:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
+/* Le style des boutons (.btn, .btn-primary, .btn-outline, tailles, chargement…)
+   est défini une seule fois dans styles/foundation.css.
+   Ce fichier ne garde que les ajustements propres au composant <Button>. */
 
 .btn-primary {
-  background: linear-gradient(135deg, var(--color-forest) 0%, var(--color-cobalt) 100%);
-  color: #fffaf0;
-  box-shadow: 0 10px 24px rgba(15, 76, 58, 0.25);
+  --btn-bg: var(--accent);
+  --btn-fg: var(--on-accent);
 }
 
 .btn-primary:hover:not(:disabled) {
-  transform: translateY(-2px);
-  box-shadow: 0 16px 32px rgba(15, 76, 58, 0.34);
+  --btn-bg: var(--accent-hover);
 }
 
-.btn-secondary {
-  background: var(--color-bg-light);
-  color: var(--color-text);
-  border: 1px solid var(--color-border-light);
+.btn-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: inherit;
 }
 
-.btn-secondary:hover:not(:disabled) {
-  background: var(--color-bg-card);
-  border-color: var(--color-border);
+.btn-loading {
+  cursor: progress;
 }
 
-.btn-outline {
-  background: rgba(255, 255, 255, 0.04);
-  color: var(--color-text);
-  border: 1px solid var(--color-border);
-}
-
-.btn-outline:hover:not(:disabled) {
-  background: var(--color-bg-hover);
-  color: var(--color-gold);
-  border-color: var(--color-gold);
-}
-
-.btn-small {
-  padding: 0.5em 1em;
-  font-size: 0.875rem;
-}
-
-.btn-medium {
-  padding: 0.75em 1.5em;
-  font-size: 1rem;
-}
-
-.btn-large {
-  padding: 1em 2em;
-  font-size: 1.125rem;
+.btn-loading .btn-label {
+  opacity: 0.85;
 }

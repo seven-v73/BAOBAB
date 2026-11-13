@@ -19,7 +19,7 @@
 }
 
 .back-link:hover {
-  color: var(--color-primary);
+  color: var(--accent);
 }
 
 .figure-detail-hero {
@@ -80,7 +80,7 @@
 
 .figure-native-name {
   font-size: 1.2rem;
-  color: var(--color-primary);
+  color: var(--accent);
   font-style: italic;
   margin-bottom: 1.5rem;
 }
@@ -99,7 +99,7 @@
 }
 
 .meta-item span:first-child {
-  color: var(--color-primary);
+  color: var(--accent);
   flex-shrink: 0;
   display: inline-block;
 }
@@ -180,7 +180,7 @@
   height: 0.35rem;
   border-radius: 999px;
   background: currentColor;
-  color: var(--color-primary);
+  color: var(--accent);
 }
 
 .quotes-list {

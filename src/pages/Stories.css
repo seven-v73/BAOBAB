@@ -10,13 +10,10 @@
 }
 
 .stories-page .stories-header h1 {
-  color: #fffaf0 !important;
   -webkit-text-fill-color: #fffaf0 !important;
-  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.38) !important;
 }
 
 .stories-page .stories-header p {
-  color: rgba(255, 250, 240, 0.84) !important;
   -webkit-text-fill-color: rgba(255, 250, 240, 0.84) !important;
 }
 
@@ -133,7 +130,7 @@
 }
 
 .story-subtitle {
-  color: var(--color-primary);
+  color: var(--accent);
   font-style: italic;
   margin-bottom: 1rem;
   font-size: 0.95rem;

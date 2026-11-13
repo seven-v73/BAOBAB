@@ -154,7 +154,7 @@
   align-items: center;
 }
 
-.btn-icon {
+.member-actions .btn-icon {
   padding: 0.5rem;
   border: none;
   background: transparent;
@@ -167,20 +167,20 @@
   justify-content: center;
 }
 
-.btn-icon:hover {
+.member-actions .btn-icon:hover {
   background: var(--color-bg-hover);
   color: var(--color-text);
 }
 
-.btn-icon.ban:hover {
+.member-actions .btn-icon.ban:hover {
   color: #ef4444;
 }
 
-.btn-icon.remove:hover {
+.member-actions .btn-icon.remove:hover {
   color: #ef4444;
 }
 
-.btn-icon.unban:hover {
+.member-actions .btn-icon.unban:hover {
   color: #10b981;
 }
 
