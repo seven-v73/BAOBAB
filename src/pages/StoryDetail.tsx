@@ -7,6 +7,7 @@ import { storyService } from '../services/api'
 import { useAuthStore } from '../stores/authStore'
 import { useNotifications } from '../hooks/useNotifications'
 import './StoryDetail.css'
+import { useSeo } from '../seo/useSeo'
 
 interface Chapter {
   title: string
@@ -34,6 +35,16 @@ export const StoryDetail = () => {
   const { isAuthenticated } = useAuthStore()
   const { success, showError } = useNotifications()
   const [story, setStory] = useState<Story | null>(null)
+  useSeo(
+    story
+      ? {
+          title: story.subtitle ? `${story.title} : ${story.subtitle}` : story.title,
+          description: story.description,
+          image: story.coverImage,
+          type: 'article',
+        }
+      : null,
+  )
   const [loading, setLoading] = useState(true)
   const [currentChapter, setCurrentChapter] = useState(0)
   const [isPlaying, setIsPlaying] = useState(false)

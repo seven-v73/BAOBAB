@@ -7,6 +7,7 @@ import { collectionService } from '../services/api'
 import { useAuthStore } from '../stores/authStore'
 import { useNotifications } from '../hooks/useNotifications'
 import './CollectionDetail.css'
+import { useSeo } from '../seo/useSeo'
 
 interface CollectionItem {
   type: string
@@ -35,6 +36,7 @@ export const CollectionDetail = () => {
   const { isAuthenticated } = useAuthStore()
   const { success, showError } = useNotifications()
   const [collection, setCollection] = useState<Collection | null>(null)
+  useSeo(collection ? { title: collection.title, description: collection.description, image: collection.coverImage } : null)
   const [loading, setLoading] = useState(true)
   const [currentItemIndex, setCurrentItemIndex] = useState(0)
 

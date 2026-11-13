@@ -8,6 +8,7 @@ import { ShareButton } from '../components/ShareButton/ShareButton'
 import { timelineService, progressService } from '../services/api'
 import { useAuthStore } from '../stores/authStore'
 import './TimelineDetail.css'
+import { useSeo } from '../seo/useSeo'
 
 interface TimelineEvent {
   _id: string
@@ -67,6 +68,7 @@ interface TimelineEvent {
 export const TimelineDetail = () => {
   const { id } = useParams<{ id: string }>()
   const [event, setEvent] = useState<TimelineEvent | null>(null)
+  useSeo(event ? { title: event.title, description: event.shortDescription || event.description } : null)
   const [loading, setLoading] = useState(true)
   const { isAuthenticated } = useAuthStore()
 

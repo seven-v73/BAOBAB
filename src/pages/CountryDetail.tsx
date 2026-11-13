@@ -12,6 +12,7 @@ import { countryService, searchService, sourceService } from '../services/api'
 import { getCountryById as getStaticCountryById } from '../data/allAfricanCountries'
 import { getCountryDiscoveryDefault } from '../data/countryDiscoveryDefaults'
 import './CountryDetail.css'
+import { useSeo } from '../seo/useSeo'
 
 // Fonction pour obtenir l'URL du drapeau d'un pays
 const getFlagUrl = (countryId: string, size: 'w40' | 'w80' | 'w160' | 'w320' = 'w160') => {
@@ -283,6 +284,21 @@ const getRelatedItemPath = (type: RelatedContentType, item: RelatedContentItem, 
 export const CountryDetail = () => {
   const { id } = useParams<{ id: string }>()
   const [country, setCountry] = useState<Country | null>(null)
+  useSeo(
+    country
+      ? {
+          title: `${country.nameFr} : histoire, langues et cultures`,
+          description: country.oneSentenceSummary || country.description,
+          image: `https://flagcdn.com/w1280/${country.id.toLowerCase()}.png`,
+          jsonLd: {
+            '@type': 'Country',
+            name: country.nameFr,
+            description: (country.oneSentenceSummary || country.description || '').slice(0, 300),
+            containedInPlace: { '@type': 'Continent', name: 'Afrique' },
+          },
+        }
+      : null,
+  )
   const [loading, setLoading] = useState(true)
   const [readingMode, setReadingMode] = useState<'essential' | 'deep'>('deep')
   const [relatedContent, setRelatedContent] = useState<RelatedContentResults | null>(null)

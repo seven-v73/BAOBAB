@@ -185,6 +185,19 @@ app.use(errorHandler)
 try {
   await connectDB()
 
+  // Pages SEO pré-générées (meta, aperçus de partage, contenu lisible sans JS) :
+  // régénérées au démarrage puis toutes les 30 min pour inclure les nouveaux contenus.
+  // Activé seulement si SEO_DIST_DIR pointe vers le dossier dist servi par nginx.
+  if (process.env.SEO_DIST_DIR) {
+    const { buildSeo } = await import('./scripts/buildSeo.js')
+    const refreshSeo = () =>
+      buildSeo()
+        .then((count) => logger.info(`SEO : ${count} pages régénérées`))
+        .catch((error) => logger.warn(`SEO : régénération impossible — ${error.message}`))
+    setTimeout(refreshSeo, 10_000)
+    setInterval(refreshSeo, 30 * 60 * 1000).unref()
+  }
+
   app.listen(env.PORT, () => {
     logger.info(`Server running on http://localhost:${env.PORT}`)
     logger.info(`API Documentation: http://localhost:${env.PORT}/api-docs`)

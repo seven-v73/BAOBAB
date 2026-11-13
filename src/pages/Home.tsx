@@ -17,6 +17,7 @@ import { Layout } from '../components/Layout/Layout'
 import { allAfricanCountries, type AfricanCountry } from '../data/allAfricanCountries'
 import { homeService } from '../services/api'
 import { useSettingsStore } from '../stores/settingsStore'
+import { useSeo, SITE_URL, DEFAULT_DESCRIPTION } from '../seo/useSeo'
 import './Home.css'
 
 const flagUrl = (id: string, size: 'w40' | 'w80' | 'w160' = 'w80') =>
@@ -111,6 +112,26 @@ export const Home = () => {
   const [countryFilter, setCountryFilter] = useState('')
   const [showAllCountries, setShowAllCountries] = useState(false)
   const [spotlightId, setSpotlightId] = useState(featuredCountryIds[0])
+
+  useSeo({
+    path: '/',
+    jsonLd: [
+      {
+        '@type': 'WebSite',
+        '@id': `${SITE_URL}/#website`,
+        name: 'MonBaobab',
+        url: `${SITE_URL}/`,
+        inLanguage: 'fr',
+        description: DEFAULT_DESCRIPTION,
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: { '@type': 'EntryPoint', urlTemplate: `${SITE_URL}/search?q={search_term_string}` },
+          'query-input': 'required name=search_term_string',
+        },
+      },
+      { '@type': 'Organization', '@id': `${SITE_URL}/#organization`, name: 'MonBaobab', url: `${SITE_URL}/`, logo: `${SITE_URL}/LogoFiles/Fichier%202.png` },
+    ],
+  })
 
   useEffect(() => {
     let cancelled = false

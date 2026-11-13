@@ -8,6 +8,7 @@ import { useAuthStore } from '../stores/authStore'
 import { useNotifications } from '../hooks/useNotifications'
 import { useConfirmDialog } from '../components/UX/ConfirmDialog'
 import './Quiz.css'
+import { useSeo } from '../seo/useSeo'
 
 interface Question {
   question: string
@@ -52,6 +53,7 @@ export const Quiz = () => {
   const { success, showError } = useNotifications()
   const { confirm, Dialog } = useConfirmDialog()
   const [quiz, setQuiz] = useState<Quiz | null>(null)
+  useSeo(quiz ? { title: `Quiz : ${quiz.title}`, description: quiz.description } : null)
   const [loading, setLoading] = useState(true)
   const [answers, setAnswers] = useState<any[]>([])
   const [currentQuestion, setCurrentQuestion] = useState(0)

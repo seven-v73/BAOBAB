@@ -8,6 +8,7 @@ import { VideoViewer } from '../components/MediaViewer/VideoViewer'
 import { foundationBlogPosts } from '../data/foundationContent'
 import { withContextualBlogVisual } from '../data/blogVisuals'
 import './BlogPost.css'
+import { useSeo } from '../seo/useSeo'
 
 interface BlogImage {
   url: string
@@ -51,6 +52,26 @@ interface BlogPost {
 export const BlogPostPage = () => {
   const { id } = useParams<{ id: string }>()
   const [post, setPost] = useState<BlogPost | null>(null)
+  useSeo(
+    post
+      ? {
+          title: post.title,
+          description: post.excerpt || post.content,
+          image: post.image,
+          type: 'article',
+          jsonLd: {
+            '@type': 'Article',
+            headline: post.title.slice(0, 110),
+            description: (post.excerpt || '').slice(0, 300),
+            image: post.image ? [post.image.startsWith('http') ? post.image : `https://monbaobab.com${post.image}`] : undefined,
+            datePublished: post.createdAt,
+            dateModified: post.updatedAt,
+            author: { '@type': 'Organization', name: post.author || 'MonBaobab' },
+            inLanguage: 'fr',
+          },
+        }
+      : null,
+  )
   const [loading, setLoading] = useState(true)
   const [selectedImage, setSelectedImage] = useState<string | null>(null)
   const [selectedPDF, setSelectedPDF] = useState<BlogPDF | null>(null)

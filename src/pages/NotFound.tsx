@@ -1,9 +1,11 @@
 import { Link, useLocation } from 'react-router-dom'
 import { Layout } from '../components/Layout/Layout'
+import { useSeo } from '../seo/useSeo'
 
 /** Page 404 : avant la refonte, toute URL inconnue renvoyait silencieusement vers l'accueil. */
 export const NotFound = () => {
   const { pathname } = useLocation()
+  useSeo({ title: 'Page introuvable', noindex: true })
 
   return (
     <Layout>

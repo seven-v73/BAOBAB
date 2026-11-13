@@ -19,6 +19,7 @@ import { useSettingsStore } from './stores/settingsStore'
 import { useNotifications } from './hooks/useNotifications'
 import { NotificationContainer } from './components/Notification/NotificationContainer'
 import { AdminRoute } from './components/AdminRoute'
+import { RouteSeo } from './seo/RouteSeo'
 import './App.css'
 import './styles/admin-fixes.css'
 import './styles/shell.css'
@@ -117,6 +118,8 @@ function App() {
 
   return (
     <>
+      {/* Placé avant les pages : ses effets s'exécutent avant ceux des pages, qui peuvent ensuite préciser */}
+      <RouteSeo />
       <div className="page-transition-shell" key={location.pathname}>
       <Routes location={location}>
         <Route path="/" element={<Home />} />

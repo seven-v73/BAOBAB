@@ -14,6 +14,7 @@ import { Skeleton } from '../components/UX/Skeleton'
 import { useConfirmDialog } from '../components/UX/ConfirmDialog'
 import { Users, Settings, Mail, Lock, Globe } from 'lucide-react'
 import './CommunityDetail.css'
+import { useSeo } from '../seo/useSeo'
 
 interface Community {
   _id: string
@@ -69,6 +70,17 @@ export const CommunityDetail = () => {
   const { success, error: showError, info } = useNotifications()
   const { confirm, Dialog } = useConfirmDialog()
   const [community, setCommunity] = useState<Community | null>(null)
+  useSeo(
+    community
+      ? {
+          title: `Cercle ${community.name}`,
+          description: community.description,
+          image: community.coverImage || community.image,
+          // Les cercles privés ne doivent pas apparaître dans les moteurs de recherche
+          noindex: community.type !== 'public',
+        }
+      : null,
+  )
   const [posts, setPosts] = useState<Post[]>([])
   const [loading, setLoading] = useState(true)
   const [loadingPosts, setLoadingPosts] = useState(false)

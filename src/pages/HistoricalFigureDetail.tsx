@@ -5,6 +5,7 @@ import { Card } from '../components/Card/Card'
 import { Button } from '../components/Button/Button'
 import { figureService } from '../services/api'
 import './HistoricalFigureDetail.css'
+import { useSeo } from '../seo/useSeo'
 
 interface HistoricalFigure {
   _id: string
@@ -33,6 +34,22 @@ interface HistoricalFigure {
 export const HistoricalFigureDetail = () => {
   const { id } = useParams<{ id: string }>()
   const [figure, setFigure] = useState<HistoricalFigure | null>(null)
+  useSeo(
+    figure
+      ? {
+          title: figure.name,
+          description: figure.shortBiography || figure.biography,
+          image: figure.image,
+          type: 'profile',
+          jsonLd: {
+            '@type': 'Person',
+            name: figure.name,
+            alternateName: figure.nameNative || undefined,
+            description: (figure.shortBiography || '').slice(0, 300),
+          },
+        }
+      : null,
+  )
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
