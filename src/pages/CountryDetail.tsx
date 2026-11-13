@@ -1,28 +1,40 @@
-import { useState, useEffect } from 'react'
-import { useParams, Link } from 'react-router-dom'
+import { useEffect, useMemo, useState } from 'react'
+import type { ReactNode } from 'react'
+import { Link, useParams } from 'react-router-dom'
+import {
+  ArrowLeft,
+  ArrowRight,
+  BookOpen,
+  ChevronLeft,
+  ChevronRight,
+  Clock3,
+  ExternalLink,
+  FileText,
+  GraduationCap,
+  Landmark,
+  Languages,
+  Map as MapIcon,
+  Music,
+  PenLine,
+  PlayCircle,
+  Quote,
+  Sparkles,
+  Utensils,
+} from 'lucide-react'
 import { Layout } from '../components/Layout/Layout'
-import { Card } from '../components/Card/Card'
-import { Button } from '../components/Button/Button'
 import { PDFViewer } from '../components/MediaViewer/PDFViewer'
 import { VideoViewer } from '../components/MediaViewer/VideoViewer'
 import { DocumentViewer } from '../components/MediaViewer/DocumentViewer'
-import { CountryImmersive } from '../components/Country/CountryImmersive'
 import { CountryInteractiveMap } from '../components/Country/CountryInteractiveMap'
 import { countryService, searchService, sourceService } from '../services/api'
 import { getCountryById as getStaticCountryById } from '../data/allAfricanCountries'
+import { africaMapShapes } from '../data/africaMapShapes'
+import { getRegion, pathBounds } from '../data/africaRegions'
 import { getCountryDiscoveryDefault } from '../data/countryDiscoveryDefaults'
-import './CountryDetail.css'
 import { useSeo } from '../seo/useSeo'
+import './CountryDetail.css'
 
-// Fonction pour obtenir l'URL du drapeau d'un pays
-const getFlagUrl = (countryId: string, size: 'w40' | 'w80' | 'w160' | 'w320' = 'w160') => {
-  const codeMap: Record<string, string> = {
-    'EH': 'eh', // Sahara occidental
-  }
-  
-  const code = codeMap[countryId] || countryId.toLowerCase()
-  return `https://flagcdn.com/${size}/${code}.png`
-}
+/* ------------------------------------------------------------------ types */
 
 interface CustomSection {
   title: string
@@ -66,37 +78,7 @@ interface CountryMapPlace {
   type?: 'capital' | 'economic' | 'historic' | 'cultural' | 'natural' | 'port'
   description?: string
   highlight?: string
-  coordinates?: {
-    lat?: number
-    lng?: number
-  }
-}
-
-type RelatedContentType = 'proverbs' | 'figures' | 'events' | 'stories' | 'collections' | 'quizzes'
-
-interface RelatedContentItem {
-  _id?: string
-  id?: string
-  title?: string
-  name?: string
-  text?: string
-  translation?: string
-  shortDescription?: string
-  shortBiography?: string
-  subtitle?: string
-  description?: string
-  period?: string
-  category?: string
-  difficulty?: string
-  totalPoints?: number
-}
-
-type RelatedContentResults = Partial<Record<RelatedContentType, RelatedContentItem[]>>
-
-interface RecommendedPath {
-  title: string
-  description: string
-  items?: string[]
+  coordinates?: { lat?: number; lng?: number }
 }
 
 interface CountrySource {
@@ -132,7 +114,6 @@ interface Country {
   foodCulture?: string[]
   oralTraditions?: string[]
   knowledgeToPreserve?: string[]
-  recommendedPaths?: RecommendedPath[]
   relatedThemes?: string[]
   sourceQuality?: 'draft' | 'community' | 'verified' | 'official'
   discoveryIntro?: string
@@ -177,113 +158,186 @@ interface Country {
   historicalSites?: CountryMapPlace[]
 }
 
-const applyDiscoveryDefaults = (country: Country): Country => {
-  const defaults = getCountryDiscoveryDefault(country.id)
-  return {
-    ...defaults,
-    ...country,
-    oneSentenceSummary: country.oneSentenceSummary || defaults.oneSentenceSummary,
-    keyFacts: country.keyFacts?.length ? country.keyFacts : defaults.keyFacts,
-    peoples: country.peoples?.length ? country.peoples : defaults.peoples,
-    languageNotes: country.languageNotes || defaults.languageNotes,
-    historyHighlights: country.historyHighlights?.length ? country.historyHighlights : defaults.historyHighlights,
-    notableFigures: country.notableFigures?.length ? country.notableFigures : defaults.notableFigures,
-    musicAndArts: country.musicAndArts?.length ? country.musicAndArts : defaults.musicAndArts,
-    foodCulture: country.foodCulture?.length ? country.foodCulture : defaults.foodCulture,
-    oralTraditions: country.oralTraditions?.length ? country.oralTraditions : defaults.oralTraditions,
-    knowledgeToPreserve: country.knowledgeToPreserve?.length ? country.knowledgeToPreserve : defaults.knowledgeToPreserve,
-    recommendedPaths: country.recommendedPaths?.length ? country.recommendedPaths : defaults.recommendedPaths,
-    relatedThemes: country.relatedThemes?.length ? country.relatedThemes : defaults.relatedThemes,
-    sourceQuality: country.sourceQuality || defaults.sourceQuality || 'draft',
-    discoveryIntro: country.discoveryIntro || defaults.discoveryIntro || country.description,
-    economicOverview: country.economicOverview || defaults.economicOverview,
-    climate: country.climate || defaults.climate,
-    bestTimeToVisit: country.bestTimeToVisit || defaults.bestTimeToVisit,
-    etiquette: country.etiquette || defaults.etiquette,
-    transport: country.transport || defaults.transport,
-    connectivity: country.connectivity || defaults.connectivity,
-    visaNote: country.visaNote || defaults.visaNote,
-    healthAdvice: country.healthAdvice || defaults.healthAdvice,
-    safetyNote: country.safetyNote || defaults.safetyNote,
-    placesToDiscover: country.placesToDiscover?.length ? country.placesToDiscover : defaults.placesToDiscover,
-    experiences: country.experiences?.length ? country.experiences : defaults.experiences,
-    practicalTips: country.practicalTips?.length ? country.practicalTips : defaults.practicalTips,
-    sourceNotes: country.sourceNotes?.length ? country.sourceNotes : defaults.sourceNotes,
-    rites: country.rites?.length ? country.rites : defaults.rites,
-    customs: country.customs?.length ? country.customs : defaults.customs,
-    foods: country.foods?.length ? country.foods : defaults.foods,
-    traditions: country.traditions?.length ? country.traditions : defaults.traditions,
-    festivals: country.festivals?.length ? country.festivals : defaults.festivals,
-    arts: country.arts?.length ? country.arts : defaults.arts,
-    lastUpdated: country.lastUpdated || defaults.lastUpdated || '2026',
-  }
+interface RelatedItem {
+  _id?: string
+  title?: string
+  name?: string
+  text?: string
+  translation?: string
+  explanation?: string
+  language?: string
+  shortDescription?: string
+  shortBiography?: string
+  subtitle?: string
+  description?: string
+  period?: string
+  date?: string
+  category?: string
 }
 
-const splitReadable = (value?: string) => {
-  if (!value) return []
-  return value
-    .split(/[,;•]/)
-    .map((item) => item.trim())
-    .filter(Boolean)
-}
+type Related = Partial<Record<'proverbs' | 'figures' | 'events' | 'stories' | 'collections' | 'quizzes' | 'blogs', RelatedItem[]>>
 
-const uniq = (items: Array<string | undefined | null>) => {
+/* ------------------------------------------------------------------ utilitaires */
+
+const flagUrl = (id: string, size: 'w40' | 'w80' | 'w160' | 'w320' | 'w640' = 'w160') => `https://flagcdn.com/${size}/${id.toLowerCase()}.png`
+
+const list = (...sources: Array<string[] | undefined>) => {
   const seen = new Set<string>()
-  return items
-    .filter(Boolean)
-    .map((item) => item!.trim())
+  return sources
+    .flat()
+    .filter((item): item is string => Boolean(item && item.trim()))
+    .map((item) => item.trim())
     .filter((item) => {
       const key = item.toLowerCase()
-      if (!item || seen.has(key)) return false
+      if (seen.has(key)) return false
       seen.add(key)
       return true
     })
 }
 
-const relatedContentConfig: Array<{
-  key: RelatedContentType
-  title: string
-  label: string
-  emptyAction: string
-}> = [
-  { key: 'proverbs', title: 'Proverbes', label: 'Parole', emptyAction: 'Lire les proverbes' },
-  { key: 'stories', title: 'Récits', label: 'Récit', emptyAction: 'Lire les récits' },
-  { key: 'figures', title: 'Personnages', label: 'Figure', emptyAction: 'Voir les personnages' },
-  { key: 'events', title: 'Chronologie', label: 'Date', emptyAction: 'Voir la chronologie' },
-  { key: 'collections', title: 'Collections', label: 'Parcours', emptyAction: 'Ouvrir les collections' },
-  { key: 'quizzes', title: 'Quiz', label: 'Quiz', emptyAction: 'Tester ses repères' },
-]
-
-const getRelatedItemTitle = (item: RelatedContentItem) => (
-  item.title || item.name || item.text || 'Contenu MonBaobab'
-)
-
-const getRelatedItemText = (item: RelatedContentItem) => (
-  item.shortDescription ||
-  item.shortBiography ||
-  item.subtitle ||
-  item.translation ||
-  item.description ||
-  item.period ||
-  item.category ||
-  (item.difficulty ? `${item.difficulty}${item.totalPoints ? ` · ${item.totalPoints} points` : ''}` : '')
-)
-
-const getRelatedItemPath = (type: RelatedContentType, item: RelatedContentItem, countryQuery: string) => {
-  const id = item._id || item.id
-  if (type === 'proverbs') return `/proverbs?search=${countryQuery}`
-  if (!id) return `/search?q=${countryQuery}&type=${type}`
-  if (type === 'figures') return `/figures/${id}`
-  if (type === 'events') return `/timeline/${id}`
-  if (type === 'stories') return `/stories/${id}`
-  if (type === 'collections') return `/collections/${id}`
-  if (type === 'quizzes') return `/quizzes/${id}`
-  return `/search?q=${countryQuery}&type=${type}`
+/** « Léopold Sédar Senghor - poète et président » → { name, role } */
+const splitPerson = (value: string) => {
+  const [name, ...rest] = value.split(/\s[-–—:]\s/)
+  return { name: name.trim(), role: rest.join(' - ').trim() }
 }
+
+const byOrder = <T extends { order?: number }>(items?: T[]) => [...(items || [])].sort((a, b) => (a.order ?? 0) - (b.order ?? 0))
+
+const applyDefaults = (country: Country): Country => {
+  const d = getCountryDiscoveryDefault(country.id) as Partial<Country>
+  const pick = <K extends keyof Country>(key: K) => {
+    const value = country[key]
+    if (Array.isArray(value)) return (value.length ? value : d[key]) as Country[K]
+    return (value || d[key]) as Country[K]
+  }
+  const keys: Array<keyof Country> = [
+    'oneSentenceSummary', 'keyFacts', 'peoples', 'languageNotes', 'historyHighlights', 'notableFigures', 'musicAndArts',
+    'foodCulture', 'oralTraditions', 'knowledgeToPreserve', 'relatedThemes', 'sourceQuality', 'discoveryIntro',
+    'economicOverview', 'climate', 'bestTimeToVisit', 'etiquette', 'transport', 'connectivity', 'visaNote',
+    'healthAdvice', 'safetyNote', 'placesToDiscover', 'experiences', 'practicalTips', 'sourceNotes', 'rites',
+    'customs', 'foods', 'traditions', 'festivals', 'arts', 'lastUpdated',
+  ]
+  const merged: Country = { ...(d as Country), ...country }
+  keys.forEach((key) => {
+    ;(merged as unknown as Record<string, unknown>)[key] = pick(key)
+  })
+  return merged
+}
+
+const fromStatic = (id: string): Country | null => {
+  const s = getStaticCountryById(id.toUpperCase())
+  if (!s) return null
+  return applyDefaults({
+    _id: s.id,
+    id: s.id,
+    nameFr: s.nameFr,
+    capital: s.capital,
+    population: s.population,
+    area: s.area,
+    languages: s.languages || [],
+    currency: s.currency || '',
+    description: s.description,
+    culture: s.culture || '',
+    color: s.color,
+    rites: s.rites,
+    customs: s.customs,
+    foods: s.foods,
+    traditions: s.traditions,
+    festivals: s.festivals,
+    arts: s.arts,
+  })
+}
+
+const qualityLabels: Record<string, string> = {
+  draft: 'Brouillon à compléter',
+  community: 'Contenu communautaire',
+  verified: 'Contenu vérifié',
+  official: 'Sources officielles',
+}
+
+/* ------------------------------------------------------------------ silhouette */
+
+const continentShapes = Object.entries(africaMapShapes)
+
+const CountrySilhouette = ({ id, color }: { id: string; color: string }) => {
+  const shape = africaMapShapes[id]
+  if (!shape) return null
+  const b = pathBounds(shape.path)
+  const pad = Math.max(b.width, b.height) * 0.08
+  return (
+    <div className="cd-shape" aria-hidden="true">
+      <svg viewBox={`${b.x - pad} ${b.y - pad} ${b.width + pad * 2} ${b.height + pad * 2}`} className="cd-shape__main">
+        <defs>
+          <linearGradient id={`cd-grad-${id}`} x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stopColor={color} stopOpacity="0.95" />
+            <stop offset="100%" stopColor={color} stopOpacity="0.6" />
+          </linearGradient>
+        </defs>
+        <path d={shape.path} fill={`url(#cd-grad-${id})`} className="cd-shape__path" vectorEffect="non-scaling-stroke" />
+      </svg>
+      <svg viewBox="0 0 1000 1140" className="cd-shape__locator">
+        {continentShapes.map(([key, s]) => (
+          <path key={key} d={s.path} className={key === id ? 'is-current' : ''} />
+        ))}
+      </svg>
+    </div>
+  )
+}
+
+/* ------------------------------------------------------------------ blocs */
+
+const Section = ({ id, eyebrow, title, children, alt }: { id: string; eyebrow: string; title: string; children: ReactNode; alt?: boolean }) => (
+  <section id={id} className={`cd-section${alt ? ' cd-section--alt' : ''}`} aria-labelledby={`${id}-title`}>
+    <div className="container">
+      <header className="cd-section__head">
+        <p className="eyebrow">{eyebrow}</p>
+        <h2 id={`${id}-title`}>{title}</h2>
+      </header>
+      {children}
+    </div>
+  </section>
+)
+
+const Chips = ({ items }: { items: string[] }) => (
+  <ul className="cd-chips">
+    {items.map((item) => (
+      <li key={item}>{item}</li>
+    ))}
+  </ul>
+)
+
+const ThemeCard = ({ icon, title, items, text }: { icon: ReactNode; title: string; items?: string[]; text?: string }) =>
+  (items && items.length > 0) || text ? (
+    <article className="cd-theme">
+      <h3>
+        <span className="cd-theme__icon">{icon}</span>
+        {title}
+      </h3>
+      {text && <p>{text}</p>}
+      {items && items.length > 0 && (
+        <ul>
+          {items.map((item) => (
+            <li key={item}>{item}</li>
+          ))}
+        </ul>
+      )}
+    </article>
+  ) : null
+
+/* ------------------------------------------------------------------ page */
 
 export const CountryDetail = () => {
   const { id } = useParams<{ id: string }>()
   const [country, setCountry] = useState<Country | null>(null)
+  const [loading, setLoading] = useState(true)
+  const [related, setRelated] = useState<Related | null>(null)
+  const [sources, setSources] = useState<CountrySource[]>([])
+  const [activeSection, setActiveSection] = useState('essentiel')
+  const [lightbox, setLightbox] = useState<CountryImage | null>(null)
+  const [pdf, setPdf] = useState<CountryPDF | null>(null)
+  const [video, setVideo] = useState<CountryVideo | null>(null)
+  const [doc, setDoc] = useState<CountryDocument | null>(null)
+
   useSeo(
     country
       ? {
@@ -299,1394 +353,705 @@ export const CountryDetail = () => {
         }
       : null,
   )
-  const [loading, setLoading] = useState(true)
-  const [readingMode, setReadingMode] = useState<'essential' | 'deep'>('deep')
-  const [relatedContent, setRelatedContent] = useState<RelatedContentResults | null>(null)
-  const [countrySources, setCountrySources] = useState<CountrySource[]>([])
-  const [relatedLoading, setRelatedLoading] = useState(false)
-  const [selectedImage, setSelectedImage] = useState<string | null>(null)
-  const [selectedPDF, setSelectedPDF] = useState<CountryPDF | null>(null)
-  const [selectedVideo, setSelectedVideo] = useState<CountryVideo | null>(null)
-  const [selectedDocument, setSelectedDocument] = useState<CountryDocument | null>(null)
 
+  /* ---------- données ---------- */
   useEffect(() => {
-    if (id) {
-      fetchCountry()
+    if (!id) return
+    let cancelled = false
+    setLoading(true)
+    setRelated(null)
+    setSources([])
+    countryService
+      .getById(id)
+      .then((response) => {
+        if (!cancelled) setCountry(response.data ? applyDefaults(response.data) : fromStatic(id))
+      })
+      .catch(() => {
+        // API injoignable ou pays absent de la base : données statiques du catalogue
+        if (!cancelled) setCountry(fromStatic(id))
+      })
+      .finally(() => {
+        if (!cancelled) setLoading(false)
+      })
+    return () => {
+      cancelled = true
     }
   }, [id])
 
-  // Debug: Afficher les PDFs dans la console
   useEffect(() => {
-    if (country?.pdfs && country.pdfs.length > 0) {
-      const validPDFs = country.pdfs.filter(pdf => pdf && pdf.url && pdf.title)
-      if (validPDFs.length > 0) {
-        console.log('PDFs disponibles:', validPDFs)
-      }
-    }
-  }, [country?.pdfs])
-
-  useEffect(() => {
-    if (!country?.nameFr) {
-      setRelatedContent(null)
-      setCountrySources([])
-      return
-    }
-
+    if (!country) return
     let cancelled = false
-    setRelatedLoading(true)
-
-    searchService.search({ q: country.nameFr, limit: 3 })
-      .then((response) => {
-        if (!cancelled) {
-          setRelatedContent(response.data || null)
-        }
-      })
-      .catch((error) => {
-        if (!cancelled) {
-          console.error('Erreur lors du chargement des contenus liés:', error)
-          setRelatedContent(null)
-        }
-      })
-      .finally(() => {
-        if (!cancelled) {
-          setRelatedLoading(false)
-        }
-      })
-
+    searchService
+      .search({ q: country.nameFr, limit: 6 })
+      .then((response) => !cancelled && setRelated(response.data || null))
+      .catch(() => !cancelled && setRelated(null))
+    sourceService
+      .getAll({ country: country.id, limit: 6, minReliability: 3 })
+      .then((response) => !cancelled && setSources(response.data?.sources || []))
+      .catch(() => !cancelled && setSources([]))
     return () => {
       cancelled = true
     }
-  }, [country?.nameFr])
+  }, [country])
 
+  /* ---------- contenu dérivé ---------- */
+  const region = country ? getRegion(country.id) : undefined
+  const accent = region?.colorDark || country?.color || '#05662f'
+
+  const culture = useMemo(() => {
+    if (!country) return null
+    return {
+      arts: list(country.musicAndArts, country.arts),
+      traditions: list(country.traditions, country.festivals),
+      rites: list(country.rites, country.customs),
+      oral: list(country.oralTraditions),
+      food: list(country.foodCulture, country.foods),
+      people: list(country.notableFigures).map(splitPerson),
+      places: list(country.placesToDiscover, country.experiences),
+      history: list(country.historyHighlights),
+      peoples: list(country.peoples),
+      preserve: list(country.knowledgeToPreserve),
+    }
+  }, [country])
+
+  const practical = useMemo(() => {
+    if (!country) return []
+    return [
+      ['Climat', country.climate],
+      ['Meilleure période', country.bestTimeToVisit],
+      ['Se déplacer', country.transport],
+      ['Connectivité', country.connectivity],
+      ['Savoir-vivre', country.etiquette],
+      ['Visa', country.visaNote],
+      ['Santé', country.healthAdvice],
+      ['Sécurité', country.safetyNote],
+      ['Urgences', country.emergencyNumbers],
+    ].filter(([, value]) => Boolean(value)) as Array<[string, string]>
+  }, [country])
+
+  const technical = useMemo(() => {
+    if (!country) return []
+    return [
+      ['Nom officiel', country.officialName],
+      ['Gentilé', country.demonym],
+      ['Indépendance', country.independenceDate],
+      ['Régime', country.governmentType],
+      ['Fuseau horaire', country.timeZone],
+      ['Indicatif', country.callingCode],
+      ['Domaine internet', country.internetTld],
+      ['Conduite', country.drivingSide],
+    ].filter(([, value]) => Boolean(value)) as Array<[string, string]>
+  }, [country])
+
+  const images = byOrder(country?.images).filter((image) => image?.url)
+  const pdfs = byOrder(country?.pdfs).filter((item) => item?.url)
+  const videos = byOrder(country?.videos).filter((item) => item?.url)
+  const documents = byOrder(country?.documents).filter((item) => item?.url)
+  const customSections = byOrder(country?.customSections).filter((section) => section?.title && section?.content)
+
+  const proverbs = related?.proverbs || []
+  const relatedFigures = related?.figures || []
+  const relatedEvents = related?.events || []
+  const further = [
+    ...(related?.stories || []).map((item) => ({ item, to: `/stories/${item._id}`, kind: 'Récit', icon: <BookOpen size={18} /> })),
+    ...(related?.collections || []).map((item) => ({ item, to: `/collections/${item._id}`, kind: 'Collection', icon: <MapIcon size={18} /> })),
+    ...(related?.quizzes || []).map((item) => ({ item, to: `/quizzes/${item._id}`, kind: 'Quiz', icon: <GraduationCap size={18} /> })),
+    ...(related?.blogs || []).map((item) => ({ item, to: `/blog/${item._id}`, kind: 'Article', icon: <FileText size={18} /> })),
+  ]
+
+  /* Sections présentes (la navigation n'affiche que celles qui ont du contenu) */
+  const sections = useMemo(() => {
+    if (!country || !culture) return []
+    return [
+      { id: 'essentiel', label: 'L’essentiel', show: true },
+      { id: 'histoire', label: 'Histoire', show: culture.history.length > 0 || relatedEvents.length > 0 },
+      { id: 'peuples', label: 'Peuples & langues', show: culture.peoples.length > 0 || country.languages.length > 0 },
+      { id: 'culture', label: 'Culture', show: culture.arts.length + culture.traditions.length + culture.rites.length + culture.oral.length > 0 || proverbs.length > 0 },
+      { id: 'cuisine', label: 'Cuisine', show: culture.food.length > 0 },
+      { id: 'personnalites', label: 'Personnalités', show: culture.people.length > 0 || relatedFigures.length > 0 },
+      { id: 'lieux', label: 'Lieux', show: true },
+      { id: 'medias', label: 'Médias', show: images.length + pdfs.length + videos.length + documents.length > 0 },
+      { id: 'pratique', label: 'Pratique', show: practical.length + technical.length > 0 || (country.practicalTips?.length ?? 0) > 0 },
+      { id: 'sources', label: 'Sources', show: true },
+    ].filter((section) => section.show)
+  }, [country, culture, relatedEvents.length, proverbs.length, relatedFigures.length, images.length, pdfs.length, videos.length, documents.length, practical.length, technical.length])
+
+  /* Section active pendant le défilement : la dernière dont le haut est passé sous la barre d'onglets */
   useEffect(() => {
-    if (!country?.id) return
-
-    let cancelled = false
-    sourceService.getAll({ country: country.id, limit: 6, minReliability: 3 })
-      .then((response) => {
-        if (!cancelled) {
-          setCountrySources(response.data.sources || [])
-        }
-      })
-      .catch((error) => {
-        if (!cancelled) {
-          console.error('Erreur lors du chargement des sources liées:', error)
-          setCountrySources([])
-        }
-      })
-
+    if (!sections.length) return
+    let frame = 0
+    const update = () => {
+      frame = 0
+      const offset = (document.querySelector('.cd-tabs')?.getBoundingClientRect().bottom || 120) + 40
+      let current = sections[0].id
+      for (const section of sections) {
+        const el = document.getElementById(section.id)
+        if (el && el.getBoundingClientRect().top <= offset) current = section.id
+      }
+      // Bas de page atteint : la dernière section est forcément celle lue
+      if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 4) {
+        current = sections[sections.length - 1].id
+      }
+      setActiveSection(current)
+    }
+    const onScroll = () => {
+      if (!frame) frame = requestAnimationFrame(update)
+    }
+    update()
+    window.addEventListener('scroll', onScroll, { passive: true })
+    window.addEventListener('resize', onScroll)
     return () => {
-      cancelled = true
+      window.removeEventListener('scroll', onScroll)
+      window.removeEventListener('resize', onScroll)
+      if (frame) cancelAnimationFrame(frame)
     }
-  }, [country?.id])
+  }, [sections])
 
-  const fetchCountry = async () => {
-    try {
-      setLoading(true)
-      // Essayer d'abord de charger depuis l'API
-      try {
-        const response = await countryService.getById(id!)
-        if (response.data) {
-          console.log('Pays chargé depuis l\'API:', {
-            id: response.data.id,
-            name: response.data.nameFr,
-            pdfsCount: response.data.pdfs?.length || 0,
-            pdfs: response.data.pdfs
-          })
-          setCountry(applyDiscoveryDefaults(response.data))
-          return
-        }
-      } catch (apiError: any) {
-        // Si l'API retourne 404, c'est normal si le pays n'est pas encore en base
-        // On utilisera les données statiques comme fallback
-        if (apiError.response?.status !== 404) {
-          console.error('Erreur API:', apiError)
-        }
-      }
-      
-      // Fallback vers les données statiques
-      const countryIdUpper = id!.toUpperCase()
-      const staticCountry = getStaticCountryById(countryIdUpper)
-      if (staticCountry) {
-        // Convertir le format statique au format attendu
-        setCountry(applyDiscoveryDefaults({
-          _id: staticCountry.id,
-          id: staticCountry.id,
-          nameFr: staticCountry.nameFr,
-          capital: staticCountry.capital,
-          population: staticCountry.population,
-          area: staticCountry.area,
-          languages: staticCountry.languages || [],
-          currency: staticCountry.currency || '',
-          description: staticCountry.description,
-          culture: staticCountry.culture || '',
-          discoveryIntro: staticCountry.description,
-          lastUpdated: '2026',
-          officialName: staticCountry.nameFr,
-          region: '',
-          subregion: '',
-          color: staticCountry.color,
-          rites: staticCountry.rites,
-          customs: staticCountry.customs,
-          foods: staticCountry.foods,
-          traditions: staticCountry.traditions,
-          festivals: staticCountry.festivals,
-          arts: staticCountry.arts,
-          placesToDiscover: [],
-          experiences: [],
-          practicalTips: [],
-          sourceNotes: ['Données de base issues du catalogue MonBaobab. À compléter depuis l’administration avec les sources 2026.'],
-          customSections: [],
-          images: [],
-          pdfs: [],
-        }))
-      } else {
-        // Aucun pays trouvé ni dans l'API ni dans les données statiques
-        console.error(`Pays avec l'ID "${id}" non trouvé`)
-        setCountry(null)
-      }
-    } catch (err: any) {
-      console.error('Erreur lors du chargement du pays:', err)
-      // Essayer quand même le fallback statique en cas d'erreur
-      try {
-        const countryIdUpper = id!.toUpperCase()
-        const staticCountry = getStaticCountryById(countryIdUpper)
-        if (staticCountry) {
-          setCountry(applyDiscoveryDefaults({
-            _id: staticCountry.id,
-            id: staticCountry.id,
-            nameFr: staticCountry.nameFr,
-            capital: staticCountry.capital,
-            population: staticCountry.population,
-            area: staticCountry.area,
-            languages: staticCountry.languages || [],
-            currency: staticCountry.currency || '',
-            description: staticCountry.description,
-            culture: staticCountry.culture || '',
-            discoveryIntro: staticCountry.description,
-            lastUpdated: '2026',
-            officialName: staticCountry.nameFr,
-            region: '',
-            subregion: '',
-            color: staticCountry.color,
-            rites: staticCountry.rites,
-            customs: staticCountry.customs,
-            foods: staticCountry.foods,
-            traditions: staticCountry.traditions,
-            festivals: staticCountry.festivals,
-            arts: staticCountry.arts,
-            placesToDiscover: [],
-            experiences: [],
-            practicalTips: [],
-            sourceNotes: ['Données de base issues du catalogue MonBaobab. À compléter depuis l’administration avec les sources 2026.'],
-            customSections: [],
-            images: [],
-            pdfs: [],
-          }))
-          return
-        }
-      } catch (fallbackError) {
-        console.error('Erreur lors du fallback:', fallbackError)
-      }
-      setCountry(null)
-    } finally {
-      setLoading(false)
-    }
-  }
+  // Garder l'onglet actif visible dans la barre (mobile)
+  useEffect(() => {
+    document.querySelector(`.cd-tabs a[href="#${activeSection}"]`)?.scrollIntoView({ block: 'nearest', inline: 'center' })
+  }, [activeSection])
 
+  /* Pays précédent / suivant dans la même région */
+  const neighbours = useMemo(() => {
+    if (!country || !region) return null
+    const ids = [...region.countries].sort((a, b) =>
+      (getStaticCountryById(a)?.nameFr || a).localeCompare(getStaticCountryById(b)?.nameFr || b, 'fr'),
+    )
+    const index = ids.indexOf(country.id)
+    if (index < 0) return null
+    const get = (offset: number) => getStaticCountryById(ids[(index + offset + ids.length) % ids.length])
+    return { prev: get(-1), next: get(1), others: ids.filter((other) => other !== country.id).map((other) => getStaticCountryById(other)).filter(Boolean) }
+  }, [country, region])
+
+  /* ---------- états ---------- */
   if (loading) {
     return (
-      <Layout>
-        <div className="country-detail-loading" aria-live="polite">
-          <div className="country-skeleton-hero">
-            <span />
-            <strong />
-            <p />
-            <div>
-              <i />
-              <i />
-              <i />
-            </div>
-          </div>
-          <div className="country-skeleton-grid">
-            <span />
-            <span />
-            <span />
-          </div>
+      <Layout fullWidth>
+        <div className="mb-page-loader" role="status" aria-live="polite">
+          <span className="sr-only">Chargement de la fiche pays…</span>
+          <div className="mb-skeleton" style={{ height: 22, width: 160 }} />
+          <div className="mb-skeleton" style={{ height: 56, width: '50%' }} />
+          <div className="mb-skeleton" style={{ height: 18, width: '70%' }} />
+          <div className="mb-skeleton" style={{ height: 320, marginTop: 24 }} />
         </div>
       </Layout>
     )
   }
 
-  if (!country) {
+  if (!country || !culture) {
     return (
       <Layout>
-        <div className="country-detail-not-found">
-          <h1>Pays non trouvé</h1>
-          <p>Le pays que vous recherchez n'existe pas.</p>
-          <Link to="/">
-            <Button>Retour à l'accueil</Button>
+        <div className="mb-state" style={{ marginTop: 'var(--space-6)' }}>
+          <h1 style={{ fontSize: 'var(--text-2xl)' }}>Pays introuvable</h1>
+          <p>Aucune fiche ne correspond à « {id} ». Retrouvez tous les pays sur la carte.</p>
+          <Link to="/map" className="btn">
+            Ouvrir la carte
           </Link>
         </div>
       </Layout>
     )
   }
 
-  // Trier les sections personnalisées par ordre
-  const sortedCustomSections = country.customSections
-    ? [...country.customSections].sort((a, b) => a.order - b.order)
-    : []
-
-  // Trier les images par ordre
-  const sortedImages = country.images
-    ? [...country.images].sort((a, b) => (a.order || 0) - (b.order || 0))
-    : []
-
-  // Trier les PDFs par ordre
-  const sortedPDFs = country.pdfs
-    ? [...country.pdfs]
-        .filter(pdf => pdf && pdf.url && pdf.title) // Filtrer les PDFs valides
-        .sort((a, b) => (a.order || 0) - (b.order || 0))
-    : []
-
-  // Trier les vidéos par ordre
-  const sortedVideos = country.videos
-    ? [...country.videos].sort((a, b) => (a.order || 0) - (b.order || 0))
-    : []
-
-  // Trier les documents par ordre
-  const sortedDocuments = country.documents
-    ? [...country.documents].sort((a, b) => (a.order || 0) - (b.order || 0))
-    : []
-
-  const discoveryIntro = country.discoveryIntro || country.description
-  const identityFacts = [
+  const stats = [
     ['Capitale', country.capital],
     ['Population', country.population],
     ['Superficie', country.area],
-    ['Langues', country.languages?.join(', ')],
     ['Monnaie', country.currency],
-    ['Nom officiel', country.officialName],
-    ['Région', country.region],
-    ['Sous-région', country.subregion],
-    ['Gentilé', country.demonym],
     ['Indépendance', country.independenceDate],
-  ].filter(([, value]) => Boolean(value))
-
-  const practicalFacts = [
-    ['Fuseau horaire', country.timeZone],
-    ['Indicatif', country.callingCode],
-    ['Domaine internet', country.internetTld],
-    ['Conduite', country.drivingSide],
-    ['Numéros utiles', country.emergencyNumbers],
-  ].filter(([, value]) => Boolean(value))
-
-  const contextBlocks = [
-    ['Institutions', country.governmentType],
-    ['Économie', country.economicOverview],
-    ['Climat', country.climate],
-    ['Meilleure période', country.bestTimeToVisit],
-  ].filter(([, value]) => Boolean(value))
-
-  const travelBlocks = [
-    ['Visa et entrée', country.visaNote],
-    ['Santé', country.healthAdvice],
-    ['Sécurité', country.safetyNote],
-    ['Transport', country.transport],
-    ['Connexion', country.connectivity],
-    ['Codes sociaux', country.etiquette],
-  ].filter(([, value]) => Boolean(value))
-
-  const discoveryLists = [
-    ['Lieux à découvrir', country.placesToDiscover || []],
-    ['Expériences à vivre', country.experiences || []],
-    ['Conseils pratiques', country.practicalTips || []],
-  ].filter(([, items]) => Array.isArray(items) && items.length > 0) as [string, string[]][]
-
-  const cultureLists = [
-    ['Rites et cérémonies', country.rites || []],
-    ['Coutumes', country.customs || []],
-    ['Gastronomie', country.foods || []],
-    ['Festivals', country.festivals || []],
-    ['Arts et artisanat', country.arts || []],
-  ].filter(([, items]) => Array.isArray(items) && items.length > 0) as [string, string[]][]
-
-  const startHereItems = [
-    country.placesToDiscover?.[0] ? ['Voir', country.placesToDiscover[0], 'Un premier repère pour sentir le territoire.'] : null,
-    country.foods?.[0] ? ['Goûter', country.foods[0], 'Une entrée simple dans les goûts et les gestes du quotidien.'] : null,
-    country.experiences?.[0] ? ['Vivre', country.experiences[0], 'Une expérience qui donne du relief à la découverte.'] : null,
-  ].filter(Boolean) as [string, string, string][]
-
-  const keyTakeaways = [
-    ...(country.keyFacts || []),
-    country.capital ? `Capitale : ${country.capital}.` : null,
-    country.languages?.length ? `Langues à repérer : ${country.languages.slice(0, 3).join(', ')}.` : null,
-    country.subregion || country.region ? `Ancrage : ${country.subregion || country.region}.` : null,
-    country.arts?.[0] ? `Savoir-faire marquant : ${country.arts[0]}.` : null,
-  ].filter(Boolean).slice(0, 6) as string[]
-
-  const oneSentenceSummary = country.oneSentenceSummary || `${country.nameFr} se découvre par ${uniq([
-    country.placesToDiscover?.[0],
-    country.foods?.[0],
-    country.arts?.[0],
-    country.languages?.[0],
-  ]).join(', ') || 'ses lieux, ses voix et ses savoir-faire'}.`
-
-  const peopleItems = uniq([
-    ...(country.peoples || []),
-    ...(country.demonym ? splitReadable(country.demonym) : []),
-    ...(country.languages || []).slice(0, 4).map((language) => `Langue repère : ${language}`),
-  ]).slice(0, 8)
-
-  const historyItems = uniq([
-    ...(country.historyHighlights || []),
-    country.independenceDate ? `Indépendance : ${country.independenceDate}.` : undefined,
-    country.governmentType ? `Institutions : ${country.governmentType}.` : undefined,
-    ...(country.historicalSites || []).slice(0, 3).map((site) => site.name ? `${site.name} : ${site.description || 'lieu de mémoire à documenter.'}` : undefined),
-  ]).slice(0, 8)
-
-  const artsAndSoundsItems = uniq([
-    ...(country.musicAndArts || []),
-    ...(country.arts || []),
-    ...(country.festivals || []).slice(0, 3).map((festival) => `Moment culturel : ${festival}`),
-  ]).slice(0, 10)
-
-  const foodCultureItems = uniq([
-    ...(country.foodCulture || []),
-    ...(country.foods || []).map((food) => `À goûter : ${food}`),
-    ...(country.etiquette ? [`À table et en société : ${country.etiquette}`] : []),
-  ]).slice(0, 10)
-
-  const oralKnowledgeItems = uniq([
-    ...(country.oralTraditions || []),
-    ...(country.traditions || []),
-    ...(country.rites || []).slice(0, 4).map((rite) => `Rite ou cérémonie : ${rite}`),
-  ]).slice(0, 10)
-
-  const preservationItems = uniq([
-    ...(country.knowledgeToPreserve || []),
-    ...(country.customs || []).slice(0, 3).map((custom) => `Documenter les usages : ${custom}`),
-    ...(country.arts || []).slice(0, 3).map((art) => `Préserver le savoir-faire : ${art}`),
-    country.languages?.length ? `Collecter les mots, expressions et proverbes en ${country.languages.slice(0, 3).join(', ')}.` : undefined,
-  ]).slice(0, 8)
-
-  const relatedThemes = uniq([
-    ...(country.relatedThemes || []),
-    country.region,
-    country.subregion,
-    ...(country.arts || []).slice(0, 3),
-    ...(country.foods || []).slice(0, 2),
-  ]).slice(0, 10)
-
-  const sourceQualityLabels = {
-    draft: 'À compléter',
-    community: 'Communauté',
-    verified: 'Vérifié',
-    official: 'Officiel',
-  }
-
-  const countryQuery = encodeURIComponent(country.nameFr)
-  const countryIdQuery = encodeURIComponent(country.id)
-  const isDeepReading = readingMode === 'deep'
-  const relatedContentGroups = relatedContentConfig
-    .map((config) => ({
-      ...config,
-      items: relatedContent?.[config.key]?.slice(0, 3) || [],
-    }))
-    .filter((group) => group.items.length > 0)
-  const relatedContentCount = relatedContentGroups.reduce((total, group) => total + group.items.length, 0)
-
-  const recommendedDiscoveryPaths = country.recommendedPaths?.length ? country.recommendedPaths : [
-    {
-      title: 'Découverte rapide',
-      description: `Partir de ${country.capital}, retenir les repères essentiels, puis ouvrir la carte.`,
-      items: [country.capital, country.placesToDiscover?.[0], country.foods?.[0]].filter(Boolean) as string[],
-    },
-    {
-      title: 'Mémoire et transmission',
-      description: 'Relier les dates, les lieux de mémoire, les figures et les récits.',
-      items: [historyItems[0], country.notableFigures?.[0], oralKnowledgeItems[0]].filter(Boolean) as string[],
-    },
-    {
-      title: 'Culture vivante',
-      description: 'Entrer par les sons, les gestes, la cuisine et les savoir-faire.',
-      items: [artsAndSoundsItems[0], foodCultureItems[0], preservationItems[0]].filter(Boolean) as string[],
-    },
-  ]
-
-  const discoveryMoments = [
-    {
-      label: 'Regarder',
-      title: country.placesToDiscover?.[0] || country.capital,
-      text: country.placesToDiscover?.[1]
-        ? `Commencer par ${country.placesToDiscover[0]}, puis élargir vers ${country.placesToDiscover[1]}.`
-        : `Commencer par ${country.capital} pour poser les premiers repères.`,
-    },
-    {
-      label: 'Écouter',
-      title: artsAndSoundsItems[0] || country.languages?.[0] || 'Les voix du pays',
-      text: country.languages?.length
-        ? `Repérer les langues et les sons du quotidien : ${country.languages.slice(0, 3).join(', ')}.`
-        : 'Prêter attention aux musiques, aux récits et aux paroles transmises.',
-    },
-    {
-      label: 'Goûter',
-      title: country.foods?.[0] || foodCultureItems[0] || 'La table quotidienne',
-      text: country.foods?.length
-        ? `Entrer par les goûts : ${country.foods.slice(0, 3).join(', ')}.`
-        : 'Observer les marchés, les repas et les gestes autour de la table.',
-    },
-    {
-      label: 'Transmettre',
-      title: preservationItems[0] || 'Un savoir à garder',
-      text: 'Ajouter une source, corriger un détail, proposer un proverbe ou documenter une mémoire familiale.',
-    },
-  ].filter((item) => item.title)
-
-  const fieldQuestions = [
-    country.languages?.length ? `Comment salue-t-on dans une langue locale comme ${country.languages[0]} ?` : null,
-    country.foods?.[0] ? `Dans quel moment partage-t-on ${country.foods[0]} ?` : null,
-    country.arts?.[0] ? `Qui transmet aujourd'hui le savoir-faire ${country.arts[0]} ?` : null,
-    country.historicalSites?.[0]?.name ? `Quelle mémoire locale entoure ${country.historicalSites[0].name} ?` : null,
-    country.festivals?.[0] ? `Que faut-il comprendre avant d'assister à ${country.festivals[0]} ?` : null,
-  ].filter(Boolean) as string[]
-
-  const contributionPrompts = [
-    { to: `/dashboard`, label: 'Proposer un récit', text: 'Raconter une mémoire familiale, un lieu ou une pratique.' },
-    { to: `/dashboard`, label: 'Ajouter un proverbe', text: 'Partager une parole, sa traduction et son contexte.' },
-    { to: `/communities?search=${countryQuery}`, label: 'Demander à la communauté', text: 'Vérifier une information avec des personnes liées au pays.' },
-    { to: `/search?q=${countryQuery}&type=collections`, label: 'Créer un parcours', text: 'Relier pays, figures, dates, objets et récits.' },
-  ]
-
-  const contentSignals = [
-    { label: 'Repères', count: identityFacts.length, href: '#repères' },
-    { label: 'Carte', count: (country.mapPlaces?.length || 0) + (country.historicalSites?.length || 0), href: '#carte' },
-    { label: 'Culture', count: cultureLists.reduce((total, [, items]) => total + items.length, 0), href: '#culture' },
-    { label: 'Mémoire', count: peopleItems.length + historyItems.length + preservationItems.length, href: '#memoire' },
-    { label: 'Liens', count: relatedContentCount, href: '#echos' },
-    { label: 'Médias', count: sortedImages.length + sortedPDFs.length + sortedVideos.length + sortedDocuments.length, href: '#medias' },
-    { label: 'Sources', count: country.sourceNotes?.length || 0, href: '#savoirs' },
-  ]
-  const completedSignals = contentSignals.filter((signal) => signal.count > 0).length
-  const editorialScore = Math.round((completedSignals / contentSignals.length) * 100)
-  const discoveryDepth = editorialScore >= 75 ? 'Riche' : editorialScore >= 45 ? 'En construction' : 'À enrichir'
-  const quickActions = [
-    { to: '#carte', label: 'Explorer la carte' },
-    { to: '#memoire', label: 'Comprendre la mémoire' },
-    { to: `/search?q=${countryQuery}&type=proverbs`, label: 'Lire les proverbes' },
-    { to: `/communities?search=${countryQuery}`, label: 'Échanger' },
-  ]
-
-  const readingJourney = [
-    {
-      step: '01',
-      href: '#commencer',
-      label: 'Sentir le pays',
-      text: startHereItems[0]?.[1] || oneSentenceSummary,
-      meta: '2 min',
-    },
-    {
-      step: '02',
-      href: '#carte',
-      label: 'Situer les repères',
-      text: country.capital ? `Partir de ${country.capital}, puis suivre les villes et lieux liés.` : 'Lire le territoire par ses villes et ses lieux.',
-      meta: `${contentSignals[1].count || 'Plusieurs'} repères`,
-    },
-    {
-      step: '03',
-      href: '#memoire',
-      label: 'Comprendre la mémoire',
-      text: historyItems[0] || preservationItems[0] || 'Relier langues, récits, figures et savoirs à préserver.',
-      meta: `${peopleItems.length + historyItems.length + preservationItems.length} pistes`,
-    },
-    {
-      step: '04',
-      href: '#savoirs',
-      label: 'Relier MonBaobab',
-      text: 'Continuer vers les proverbes, récits, collections, quiz et communautés.',
-      meta: 'Aller plus loin',
-    },
-  ]
-
-  const discoveryDay = [
-    {
-      time: 'Matin',
-      title: country.capital || country.placesToDiscover?.[0] || 'Premier repère',
-      text: country.capital
-        ? `Commencer par ${country.capital}, observer les rythmes urbains, les langues entendues et les premiers repères administratifs.`
-        : 'Commencer par un lieu central, prendre le temps d’observer les déplacements, les langues et les premières habitudes.',
-    },
-    {
-      time: 'Midi',
-      title: country.foods?.[0] || 'La table comme porte d’entrée',
-      text: country.foods?.length
-        ? `Approcher le pays par la cuisine : ${country.foods.slice(0, 3).join(', ')}. Les plats disent souvent les saisons, les échanges et les gestes quotidiens.`
-        : 'Lire le quotidien par les marchés, les repas, les ingrédients et la manière de partager.',
-    },
-    {
-      time: 'Après-midi',
-      title: country.placesToDiscover?.[1] || historyItems[0] || 'Mémoire et territoire',
-      text: historyItems[0]
-        ? `Relier le territoire à la mémoire : ${historyItems[0]}`
-        : 'Visiter un lieu, interroger sa mémoire, puis le relier aux récits et aux figures du pays.',
-    },
-    {
-      time: 'Soir',
-      title: artsAndSoundsItems[0] || oralKnowledgeItems[0] || 'Voix, sons et transmission',
-      text: artsAndSoundsItems[0]
-        ? `Terminer par la culture vivante : ${artsAndSoundsItems[0]}. Les sons et les gestes donnent souvent une autre lecture du pays.`
-        : 'Finir par une parole, une musique, un proverbe ou une histoire transmise.',
-    },
-  ]
-
-  const insightPillars = [
-    {
-      label: 'Territoire',
-      title: country.subregion || country.region || 'Repères géographiques',
-      text: country.placesToDiscover?.length
-        ? `À lire par ${country.placesToDiscover.slice(0, 3).join(', ')}.`
-        : `À situer depuis ${country.capital || 'ses villes principales'}.`,
-    },
-    {
-      label: 'Mémoire',
-      title: historyItems[0] || country.independenceDate || 'Histoire à relier',
-      text: historyItems[1] || 'Relier les dates, lieux, figures et récits avant de conclure trop vite.',
-    },
-    {
-      label: 'Langues',
-      title: country.languages?.slice(0, 3).join(', ') || 'Voix du quotidien',
-      text: country.languageNotes || 'Les langues donnent accès aux salutations, proverbes, récits et manières de nommer le monde.',
-    },
-    {
-      label: 'Gestes',
-      title: artsAndSoundsItems[0] || country.arts?.[0] || 'Culture vivante',
-      text: artsAndSoundsItems[1] || 'Observer les sons, les matières, les danses, les textiles et les gestes transmis.',
-    },
-    {
-      label: 'Transmission',
-      title: preservationItems[0] || 'Savoirs à préserver',
-      text: preservationItems[1] || 'Documenter ce qui risque de disparaître : mots, pratiques, archives familiales, métiers et récits.',
-    },
-  ]
-
-  const knowledgeWorkshop = [
-    {
-      label: 'Mots à retenir',
-      title: country.languages?.length ? country.languages.slice(0, 3).join(', ') : 'Langues et expressions',
-      items: uniq([
-        ...(country.languages || []).slice(0, 3).map((language) => `Chercher une salutation en ${language}`),
-        ...(country.relatedThemes || []).slice(0, 2).map((theme) => `Relier au thème : ${theme}`),
-        'Noter un proverbe avec son contexte',
-      ]).slice(0, 4),
-    },
-    {
-      label: 'Gestes à observer',
-      title: country.arts?.[0] || country.customs?.[0] || 'Pratiques vivantes',
-      items: uniq([
-        ...(country.arts || []).slice(0, 2),
-        ...(country.customs || []).slice(0, 2),
-        ...(country.rites || []).slice(0, 1),
-      ]).slice(0, 4),
-    },
-    {
-      label: 'Sources à vérifier',
-      title: sourceQualityLabels[country.sourceQuality || 'draft'],
-      items: uniq([
-        ...(country.sourceNotes || []).slice(0, 3),
-        'Comparer les données sensibles avec une source officielle récente',
-      ]).slice(0, 4),
-    },
-    {
-      label: 'À transmettre',
-      title: preservationItems[0] || oralKnowledgeItems[0] || 'Mémoire locale',
-      items: uniq([
-        ...(preservationItems || []).slice(0, 2),
-        ...(oralKnowledgeItems || []).slice(0, 2),
-        'Ajouter une correction ou un récit depuis la communauté',
-      ]).slice(0, 4),
-    },
-  ].filter((block) => block.items.length > 0)
-
-  const ecosystemLinks = [
-    { to: `/search?q=${countryQuery}&type=proverbs`, label: 'Proverbes', text: 'Paroles, images et sagesses rattachées au pays.' },
-    { to: `/search?q=${countryQuery}&type=figures`, label: 'Personnages', text: 'Trajectoires, résistances, artistes et bâtisseurs.' },
-    { to: `/search?q=${countryQuery}&type=events`, label: 'Chronologie', text: 'Dates, ruptures et continuités à replacer.' },
-    { to: `/search?q=${countryQuery}&type=stories`, label: 'Récits', text: 'Histoires courtes, mémoire familiale et oralité.' },
-    { to: `/search?q=${countryQuery}&type=collections`, label: 'Collections', text: 'Parcours thématiques pour approfondir sans se perdre.' },
-    { to: `/search?q=${countryQuery}&type=products`, label: 'Boutique', text: 'Objets, matières et savoir-faire reliés au territoire.' },
-    { to: `/search?q=${countryQuery}&type=communities`, label: 'Communauté', text: 'Échanger, compléter, corriger et transmettre ensemble.' },
-    { to: `/search?q=${countryQuery}&type=quizzes`, label: 'Quiz', text: 'Tester ce que l’on retient après la découverte.' },
-  ]
-
-  const guidedPaths = [
-    {
-      title: 'Découvrir le pays',
-      text: 'Commencer par les repères, puis ouvrir les récits et la chronologie.',
-      links: [
-        { to: '#repères', label: 'Repères' },
-        { to: `/search?q=${countryQuery}&type=stories`, label: 'Récits' },
-        { to: `/search?q=${countryQuery}&type=events`, label: 'Chronologie' },
-      ],
-    },
-    {
-      title: 'Préserver un savoir',
-      text: 'Ajouter une source, proposer un proverbe ou rejoindre l’espace communautaire.',
-      links: [
-        { to: `/dashboard`, label: 'Proposer' },
-        { to: `/communities?search=${countryQuery}`, label: 'Communauté' },
-        { to: `/search?q=${countryQuery}&type=proverbs`, label: 'Proverbes' },
-      ],
-    },
-    {
-      title: 'Relier culture et économie',
-      text: 'Passer des pratiques culturelles aux objets, artisans et matières.',
-      links: [
-        { to: '#culture', label: 'Culture' },
-        { to: `/shop?country=${countryIdQuery}`, label: 'Boutique' },
-        { to: `/search?q=${countryQuery}&type=collections`, label: 'Collections' },
-      ],
-    },
-  ]
+  ].filter(([, value]) => Boolean(value)) as Array<[string, string]>
 
   return (
-    <Layout>
-      <div className="country-detail-page">
-        <section className="country-detail-hero">
-          <Link to="/map" className="back-button">Retour à la carte</Link>
-          <div className="country-hero-content">
-            <div className="country-hero-copy">
-              <span className="country-kicker">Fiche pays · mise à jour {country.lastUpdated || '2026'}</span>
-              <h1>{country.nameFr}</h1>
-              <p className="country-subtitle">{discoveryIntro}</p>
-              <div className="country-basic-info">
-                {identityFacts.slice(0, 5).map(([label, value]) => (
-                  <div className="info-badge" key={label}>
-                    <span>{label}</span>
-                    <strong>{value}</strong>
+    <Layout fullWidth>
+      <div className="cd" style={{ ['--cd-accent' as string]: accent }}>
+        {/* ---------- Héros ---------- */}
+        <header className="cd-hero">
+          <div className="container cd-hero__grid">
+            <div className="cd-hero__text">
+              <nav className="cd-crumbs" aria-label="Fil d’Ariane">
+                <Link to="/map">Carte</Link>
+                <span aria-hidden="true">›</span>
+                {region ? <Link to={`/map?pays=${country.id.toLowerCase()}`}>{region.name}</Link> : <span>Afrique</span>}
+                <span aria-hidden="true">›</span>
+                <span aria-current="page">{country.nameFr}</span>
+              </nav>
+              <div className="cd-hero__title">
+                <img src={flagUrl(country.id, 'w160')} alt={`Drapeau : ${country.nameFr}`} width={72} height={48} />
+                <div>
+                  <h1>{country.nameFr}</h1>
+                  {country.officialName && country.officialName !== country.nameFr && <p className="cd-hero__official">{country.officialName}</p>}
+                </div>
+              </div>
+              <p className="cd-hero__lead">{country.oneSentenceSummary || country.description}</p>
+              <dl className="cd-stats">
+                {stats.map(([label, value]) => (
+                  <div key={label}>
+                    <dt>{label}</dt>
+                    <dd>{value}</dd>
                   </div>
                 ))}
+              </dl>
+              <div className="cd-hero__actions">
+                <a href="#essentiel" className="btn">
+                  Découvrir le pays
+                </a>
+                <Link to={`/map?pays=${country.id.toLowerCase()}`} className="btn btn-outline">
+                  <MapIcon size={18} aria-hidden={true} /> Voir sur la carte
+                </Link>
               </div>
             </div>
-            <div className="country-flag-large">
-              <img
-                src={getFlagUrl(country.id, 'w320')}
-                alt={`Drapeau de ${country.nameFr}`}
-                onError={(e) => {
-                  const target = e.target as HTMLImageElement
-                  target.style.display = 'none'
-                  target.parentElement!.style.backgroundColor = country.color || '#8E44AD'
-                }}
-              />
-            </div>
+            <CountrySilhouette id={country.id} color={accent} />
           </div>
-        </section>
+        </header>
 
-        <nav className="country-discovery-nav" aria-label="Navigation de la fiche pays">
-          <a href="#repères">Vue</a>
-          <a href="#carte">Carte</a>
-          <a href="#commencer">Départ</a>
-          <a href="#culture">Culture</a>
-          <a href="#memoire">Mémoire</a>
-          <a href="#pratique">Pratique</a>
-          <a href="#savoirs">Savoirs</a>
+        {/* ---------- Navigation de la fiche ---------- */}
+        <nav className="cd-tabs" aria-label="Sections de la fiche">
+          <div className="container">
+            <ul>
+              {sections.map((section) => (
+                <li key={section.id}>
+                  <a href={`#${section.id}`} className={activeSection === section.id ? 'is-active' : ''} aria-current={activeSection === section.id ? 'true' : undefined}>
+                    {section.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
         </nav>
 
-        <section className="country-section country-compass-section" aria-label={`Boussole de découverte de ${country.nameFr}`}>
-          <Card className="country-compass-card">
-            <div className="country-compass-score">
-              <span className="section-kicker">Boussole MonBaobab</span>
-              <strong>{editorialScore}%</strong>
-              <p>{discoveryDepth}</p>
-            </div>
-            <div className="country-compass-content">
-              <h2>Choisir quoi explorer maintenant</h2>
-              <div className="country-reading-mode" role="group" aria-label="Mode de lecture">
-                <button
-                  type="button"
-                  className={readingMode === 'essential' ? 'active' : ''}
-                  onClick={() => setReadingMode('essential')}
-                >
-                  Essentiel
-                </button>
-                <button
-                  type="button"
-                  className={readingMode === 'deep' ? 'active' : ''}
-                  onClick={() => setReadingMode('deep')}
-                >
-                  Exploration complète
-                </button>
-              </div>
-              <div className="country-signal-grid">
-                {contentSignals.map((signal) => (
-                  <a href={signal.href} className={signal.count > 0 ? 'ready' : ''} key={signal.label}>
-                    <span>{signal.label}</span>
-                    <strong>{signal.count}</strong>
-                  </a>
+        {/* ---------- L'essentiel ---------- */}
+        <Section id="essentiel" eyebrow="L’essentiel" title={`${country.nameFr} en bref`}>
+          <div className="cd-essential">
+            <div className="cd-prose">
+              {(country.discoveryIntro || country.description)
+                .split(/\n{2,}/)
+                .filter(Boolean)
+                .map((paragraph) => (
+                  <p key={paragraph.slice(0, 32)}>{paragraph}</p>
                 ))}
-              </div>
+              {country.description && country.discoveryIntro && country.discoveryIntro !== country.description && <p>{country.description}</p>}
+              {country.economicOverview && (
+                <p>
+                  <strong>Économie. </strong>
+                  {country.economicOverview}
+                </p>
+              )}
             </div>
-            <div className="country-quick-actions">
-              {quickActions.map((action) => (
-                <Link to={action.to} key={action.label}>{action.label}</Link>
-              ))}
-            </div>
-          </Card>
-        </section>
-
-        <section className="country-section country-reading-journey" aria-label={`Parcours de lecture de ${country.nameFr}`}>
-          <div className="section-header-detailed">
-            <span className="section-kicker">Fil de visite</span>
-            <h2>Un parcours simple pour ne pas se perdre dans la richesse de la fiche</h2>
-          </div>
-          <div className="country-journey-rail">
-            {readingJourney.map((item) => (
-              <a href={item.href} className="country-journey-step" key={item.step}>
-                <strong>{item.step}</strong>
-                <div>
-                  <span>{item.meta}</span>
-                  <h3>{item.label}</h3>
-                  <p>{item.text}</p>
-                </div>
-              </a>
-            ))}
-          </div>
-        </section>
-
-        {startHereItems.length > 0 && (
-          <section className="country-section country-start-section" id="commencer">
-            <div className="section-header-detailed">
-              <span className="section-kicker">Commencer par</span>
-              <h2>Trois portes d'entrée pour découvrir {country.nameFr}</h2>
-            </div>
-            <div className="country-start-grid">
-              {startHereItems.map(([label, title, text]) => (
-                <Card className="country-start-card" key={`${label}-${title}`}>
-                  <span>{label}</span>
-                  <h3>{title}</h3>
-                  <p>{text}</p>
-                </Card>
-              ))}
-            </div>
-          </section>
-        )}
-
-        <section className="country-section country-editorial-section">
-          <Card className="country-one-line-card">
-            <span className="section-kicker">Ce pays en une phrase</span>
-            <p>{oneSentenceSummary}</p>
-            {relatedThemes.length > 0 && (
-              <div className="country-theme-strip">
-                {relatedThemes.map((theme) => <span key={theme}>{theme}</span>)}
-              </div>
+            {country.keyFacts && country.keyFacts.length > 0 && (
+              <ol className="cd-facts">
+                {country.keyFacts.map((fact, index) => (
+                  <li key={fact}>
+                    <span>{String(index + 1).padStart(2, '0')}</span>
+                    {fact}
+                  </li>
+                ))}
+              </ol>
             )}
-          </Card>
-          {keyTakeaways.length > 0 && (
-            <Card className="country-retain-card">
-              <span className="section-kicker">À retenir avant d'explorer</span>
-              <div className="retain-grid">
-                {keyTakeaways.map((item, index) => (
-                  <div key={`${item}-${index}`}>
-                    <strong>{String(index + 1).padStart(2, '0')}</strong>
-                    <span>{item}</span>
-                  </div>
-                ))}
-              </div>
-            </Card>
-          )}
-        </section>
-
-        {isDeepReading && (
-          <>
-            <section className="country-section country-field-guide-section">
-              <div className="section-header-detailed">
-                <span className="section-kicker">Carnet de découverte</span>
-                <h2>Entrer dans {country.nameFr} par les sens, les gestes et les questions</h2>
-              </div>
-              <div className="country-field-guide">
-                <Card className="country-field-main">
-                  <span>{country.nameFr}</span>
-                  <h3>Explorer sans rester spectateur</h3>
-                  <p>
-                    Une bonne fiche pays ne donne pas seulement des réponses. Elle aide à regarder mieux,
-                    poser de bonnes questions et relier les savoirs aux personnes qui les portent.
-                  </p>
-                  <div>
-                    <Link to={`/search?q=${countryQuery}&type=stories`}>Lire les récits</Link>
-                    <Link to={`/search?q=${countryQuery}&type=proverbs`}>Voir les proverbes</Link>
-                  </div>
-                </Card>
-                <div className="country-moment-grid">
-                  {discoveryMoments.map((moment) => (
-                    <Card className="country-moment-card" key={moment.label}>
-                      <span>{moment.label}</span>
-                      <h3>{moment.title}</h3>
-                      <p>{moment.text}</p>
-                    </Card>
-                  ))}
-                </div>
-              </div>
-            </section>
-
-            <section className="country-section country-day-section">
-              <div className="section-header-detailed">
-                <span className="section-kicker">Une journée imaginaire</span>
-                <h2>Suivre {country.nameFr} du matin au soir, comme un carnet de terrain</h2>
-              </div>
-              <div className="country-day-board">
-                <Card className="country-day-intro">
-                  <span>{country.nameFr}</span>
-                  <h3>Une lecture par moments</h3>
-                  <p>
-                    Ce parcours ne remplace pas le voyage. Il aide à organiser la découverte :
-                    regarder, goûter, situer, écouter, puis transmettre ce qui mérite d’être gardé.
-                  </p>
-                </Card>
-                <div className="country-day-timeline">
-                  {discoveryDay.map((moment) => (
-                    <article key={moment.time}>
-                      <strong>{moment.time}</strong>
-                      <h3>{moment.title}</h3>
-                      <p>{moment.text}</p>
-                    </article>
-                  ))}
-                </div>
-              </div>
-            </section>
-
-            <section className="country-section country-insight-section">
-              <div className="section-header-detailed">
-                <span className="section-kicker">Carte mentale</span>
-                <h2>Cinq axes pour retenir {country.nameFr} sans réduire sa complexité</h2>
-              </div>
-              <div className="country-insight-grid">
-                {insightPillars.map((pillar, index) => (
-                  <Card className="country-insight-card" key={pillar.label}>
-                    <strong>{String(index + 1).padStart(2, '0')}</strong>
-                    <span>{pillar.label}</span>
-                    <h3>{pillar.title}</h3>
-                    <p>{pillar.text}</p>
-                  </Card>
-                ))}
-              </div>
-            </section>
-
-            <section className="country-section country-workshop-section">
-              <div className="section-header-detailed">
-                <span className="section-kicker">Atelier du savoir</span>
-                <h2>Observer, vérifier, transmettre : les détails qui donnent de la profondeur</h2>
-              </div>
-              <div className="country-workshop-grid">
-                {knowledgeWorkshop.map((block) => (
-                  <Card className="country-workshop-card" key={block.label}>
-                    <span>{block.label}</span>
-                    <h3>{block.title}</h3>
-                    <ul>
-                      {block.items.map((item) => <li key={item}>{item}</li>)}
-                    </ul>
-                  </Card>
-                ))}
-              </div>
-            </section>
-
-            <CountryImmersive countryId={country.id} country={country} />
-          </>
-        )}
-
-        {(relatedLoading || relatedContentGroups.length > 0) && (
-          <section className="country-section country-related-section" id="echos">
-            <div className="section-header-detailed">
-              <span className="section-kicker">Échos MonBaobab</span>
-              <h2>Les contenus déjà reliés à {country.nameFr}</h2>
-            </div>
-            {relatedLoading ? (
-              <div className="country-related-loading" aria-live="polite">
-                <span />
-                <span />
-                <span />
-              </div>
-            ) : (
-              <div className="country-related-grid">
-                {relatedContentGroups.map((group) => (
-                  <Card className="country-related-card" key={group.key}>
-                    <div className="country-related-card-header">
-                      <span>{group.label}</span>
-                      <Link to={`/search?q=${countryQuery}&type=${group.key}`}>{group.emptyAction}</Link>
-                    </div>
-                    <h3>{group.title}</h3>
-                    <div className="country-related-items">
-                      {group.items.map((item) => (
-                        <Link
-                          to={getRelatedItemPath(group.key, item, countryQuery)}
-                          key={item._id || item.id || getRelatedItemTitle(item)}
-                        >
-                          <strong>{getRelatedItemTitle(item)}</strong>
-                          {getRelatedItemText(item) && <span>{getRelatedItemText(item)}</span>}
-                        </Link>
-                      ))}
-                    </div>
-                  </Card>
-                ))}
-              </div>
-            )}
-          </section>
-        )}
-
-        <section className="country-section country-map-section" id="carte">
-          <div className="section-header-detailed">
-            <span className="section-kicker">Territoire</span>
-            <h2>Explorer {country.nameFr} par ses villes et repères</h2>
           </div>
-          <CountryInteractiveMap country={country} />
-        </section>
+        </Section>
 
-        <section className="country-section country-overview-grid" id="repères">
-          <Card className="country-portrait-card">
-            <span className="section-kicker">Portrait</span>
-            <h2>Comprendre {country.nameFr} en quelques repères</h2>
-            {country.description && <p>{country.description}</p>}
-            {country.culture && <p>{country.culture}</p>}
-          </Card>
-          <Card className="country-facts-card">
-            <span className="section-kicker">Identité</span>
-            <div className="facts-list">
-              {identityFacts.map(([label, value]) => (
-                <div className="fact-row" key={label}>
-                  <span>{label}</span>
-                  <strong>{value}</strong>
-                </div>
-              ))}
-            </div>
-          </Card>
-          {keyTakeaways.length > 0 && (
-            <Card className="country-takeaways-card">
-              <span className="section-kicker">Ce qu'on retient</span>
-              <ul>
-                {keyTakeaways.map((item, index) => <li key={index}>{item}</li>)}
-              </ul>
-            </Card>
-          )}
-        </section>
-
-        {contextBlocks.length > 0 && (
-          <section className="country-section">
-            <div className="section-header-detailed">
-              <span className="section-kicker">Contexte 2026</span>
-              <h2>Ce qu'il faut situer</h2>
-            </div>
-            <div className="country-context-grid">
-              {contextBlocks.map(([label, value]) => (
-                <Card className="context-card" key={label}>
-                  <span>{label}</span>
-                  <p>{value}</p>
-                </Card>
-              ))}
-            </div>
-          </section>
-        )}
-
-        {discoveryLists.length > 0 && (
-          <section className="country-section" id="decouvrir">
-            <div className="section-header-detailed">
-              <span className="section-kicker">Découverte</span>
-              <h2>Entrer dans le pays par ses lieux, ses gestes et ses rythmes</h2>
-            </div>
-            <div className="discovery-list-grid">
-              {discoveryLists.map(([title, items]) => (
-                <Card className="discovery-list-card" key={title}>
-                  <h3>{title}</h3>
+        {/* ---------- Histoire ---------- */}
+        {sections.some((s) => s.id === 'histoire') && (
+          <Section id="histoire" eyebrow="Histoire" title="Repères historiques" alt>
+            <div className="cd-history">
+              {culture.history.length > 0 && (
+                <ol className="cd-timeline">
+                  {culture.history.map((item) => (
+                    <li key={item}>
+                      <p>{item}</p>
+                    </li>
+                  ))}
+                </ol>
+              )}
+              {relatedEvents.length > 0 && (
+                <aside className="cd-linked">
+                  <h3>
+                    <Clock3 size={18} aria-hidden={true} /> Dans la chronologie
+                  </h3>
                   <ul>
-                    {items.map((item, index) => <li key={index}>{item}</li>)}
+                    {relatedEvents.map((event) => (
+                      <li key={event._id}>
+                        <Link to={`/timeline/${event._id}`}>
+                          <strong>{event.title}</strong>
+                          {event.period && <span>{event.period}</span>}
+                        </Link>
+                      </li>
+                    ))}
                   </ul>
-                </Card>
-              ))}
+                  <Link to="/timeline" className="link-arrow">
+                    Toute la chronologie <ArrowRight size={16} aria-hidden={true} />
+                  </Link>
+                </aside>
+              )}
             </div>
-          </section>
+          </Section>
         )}
 
-        {cultureLists.length > 0 && (
-          <section className="country-section" id="culture">
-            <div className="section-header-detailed">
-              <span className="section-kicker">Culture vivante</span>
-              <h2>Traditions, saveurs et savoir-faire</h2>
-            </div>
-            <div className="culture-mosaic">
-              {cultureLists.map(([title, items]) => (
-                <Card className="culture-mosaic-card" key={title}>
-                  <h3>{title}</h3>
-                  <div className="culture-chip-list">
-                    {items.map((item, index) => <span key={index}>{item}</span>)}
-                  </div>
-                </Card>
-              ))}
-            </div>
-          </section>
-        )}
-
-        <section className="country-section country-memory-section" id="memoire">
-          <div className="section-header-detailed">
-            <span className="section-kicker">Mémoire et identités</span>
-            <h2>Peuples, langues, histoire et savoirs à transmettre</h2>
-          </div>
-          <div className="country-memory-grid">
-            {(peopleItems.length > 0 || country.languageNotes) && (
-              <Card className="country-memory-card highlight">
-                <span>Peuples et langues</span>
-                <h3>Les voix du territoire</h3>
-                {country.languageNotes && <p>{country.languageNotes}</p>}
-                <ul>
-                  {peopleItems.map((item) => <li key={item}>{item}</li>)}
-                </ul>
-              </Card>
-            )}
-            {historyItems.length > 0 && (
-              <Card className="country-memory-card">
-                <span>Mémoire historique</span>
-                <h3>Repères pour comprendre</h3>
-                <ul>
-                  {historyItems.map((item) => <li key={item}>{item}</li>)}
-                </ul>
-              </Card>
-            )}
-            {artsAndSoundsItems.length > 0 && (
-              <Card className="country-memory-card">
-                <span>Arts, sons et gestes</span>
-                <h3>Culture vivante</h3>
-                <div className="country-memory-tags">
-                  {artsAndSoundsItems.map((item) => <span key={item}>{item}</span>)}
+        {/* ---------- Peuples & langues ---------- */}
+        {sections.some((s) => s.id === 'peuples') && (
+          <Section id="peuples" eyebrow="Peuples & langues" title="Celles et ceux qui font le pays">
+            <div className="cd-two">
+              {culture.peoples.length > 0 && (
+                <div>
+                  <h3 className="cd-subtitle">Peuples et communautés</h3>
+                  <Chips items={culture.peoples} />
                 </div>
-              </Card>
-            )}
-            {foodCultureItems.length > 0 && (
-              <Card className="country-memory-card">
-                <span>Cuisine et quotidien</span>
-                <h3>Goûts, marchés, hospitalité</h3>
-                <ul>
-                  {foodCultureItems.map((item) => <li key={item}>{item}</li>)}
-                </ul>
-              </Card>
-            )}
-            {oralKnowledgeItems.length > 0 && (
-              <Card className="country-memory-card">
-                <span>Oralité</span>
-                <h3>Paroles, rites, récits</h3>
-                <div className="country-memory-tags">
-                  {oralKnowledgeItems.map((item) => <span key={item}>{item}</span>)}
-                </div>
-              </Card>
-            )}
-            {preservationItems.length > 0 && (
-              <Card className="country-memory-card preserve">
-                <span>Savoirs à préserver</span>
-                <h3>Ce que MonBaobab doit aider à garder</h3>
-                <ul>
-                  {preservationItems.map((item) => <li key={item}>{item}</li>)}
-                </ul>
-              </Card>
-            )}
-          </div>
-        </section>
-
-        {isDeepReading && (
-          <section className="country-section country-recommended-section">
-          <div className="section-header-detailed">
-            <span className="section-kicker">Parcours conseillé</span>
-            <h2>Choisir une porte d'entrée et avancer naturellement</h2>
-          </div>
-          <div className="country-recommended-grid">
-            {recommendedDiscoveryPaths.map((path, index) => (
-              <Card className="country-recommended-card" key={`${path.title}-${index}`}>
-                <strong>{String(index + 1).padStart(2, '0')}</strong>
-                <h3>{path.title}</h3>
-                <p>{path.description}</p>
-                {path.items && path.items.length > 0 && (
-                  <div>
-                    {path.items.map((item) => <span key={item}>{item}</span>)}
-                  </div>
-                )}
-              </Card>
-            ))}
-          </div>
-          </section>
-        )}
-
-        {isDeepReading && (fieldQuestions.length > 0 || contributionPrompts.length > 0) && (
-          <section className="country-section country-contribution-section">
-            <div className="country-question-panel">
-              <span className="section-kicker">Questions à ouvrir</span>
-              <h2>Ce que la communauté peut enrichir</h2>
-              <div className="country-question-list">
-                {fieldQuestions.map((question) => (
-                  <p key={question}>{question}</p>
-                ))}
+              )}
+              <div>
+                <h3 className="cd-subtitle">
+                  <Languages size={18} aria-hidden={true} /> Langues
+                </h3>
+                <Chips items={country.languages} />
+                {country.languageNotes && <p className="cd-note">{country.languageNotes}</p>}
               </div>
             </div>
-            <div className="country-contribution-grid">
-              {contributionPrompts.map((prompt) => (
-                <Link to={prompt.to} className="country-contribution-card" key={prompt.label}>
-                  <strong>{prompt.label}</strong>
-                  <span>{prompt.text}</span>
+          </Section>
+        )}
+
+        {/* ---------- Culture ---------- */}
+        {sections.some((s) => s.id === 'culture') && (
+          <Section id="culture" eyebrow="Culture" title="Arts, traditions et paroles" alt>
+            {country.culture && <p className="cd-lead">{country.culture}</p>}
+            <div className="cd-themes">
+              <ThemeCard icon={<Music size={20} />} title="Musiques et arts" items={culture.arts} />
+              <ThemeCard icon={<Sparkles size={20} />} title="Traditions et fêtes" items={culture.traditions} />
+              <ThemeCard icon={<Landmark size={20} />} title="Rites et coutumes" items={culture.rites} />
+              <ThemeCard icon={<Quote size={20} />} title="Oralité" items={culture.oral} />
+            </div>
+
+            {proverbs.length > 0 && (
+              <div className="cd-proverbs">
+                <h3 className="cd-subtitle">Proverbes — {country.nameFr}</h3>
+                <div className="cd-proverbs__grid">
+                  {proverbs.slice(0, 4).map((proverb) => (
+                    <figure key={proverb._id} className="cd-proverb">
+                      <blockquote>« {proverb.text} »</blockquote>
+                      {proverb.translation && <p className="cd-proverb__translation">{proverb.translation}</p>}
+                      {proverb.explanation && <figcaption>{proverb.explanation}</figcaption>}
+                      {proverb.language && <span className="mb-tag">{proverb.language}</span>}
+                    </figure>
+                  ))}
+                </div>
+                <Link to={`/proverbs?search=${encodeURIComponent(country.nameFr)}`} className="link-arrow">
+                  Tous les proverbes <ArrowRight size={16} aria-hidden={true} />
+                </Link>
+              </div>
+            )}
+          </Section>
+        )}
+
+        {/* ---------- Cuisine ---------- */}
+        {sections.some((s) => s.id === 'cuisine') && (
+          <Section id="cuisine" eyebrow="Cuisine" title="À goûter">
+            <ul className="cd-dishes">
+              {culture.food.map((dish) => (
+                <li key={dish}>
+                  <Utensils size={18} aria-hidden={true} />
+                  {dish}
+                </li>
+              ))}
+            </ul>
+          </Section>
+        )}
+
+        {/* ---------- Personnalités ---------- */}
+        {sections.some((s) => s.id === 'personnalites') && (
+          <Section id="personnalites" eyebrow="Personnalités" title="Des figures qui ont marqué le pays" alt>
+            <div className="cd-people">
+              {relatedFigures.map((figure) => (
+                <Link key={figure._id} to={`/figures/${figure._id}`} className="cd-person is-link">
+                  <span className="cd-person__avatar" aria-hidden="true">
+                    {(figure.name || '?').charAt(0)}
+                  </span>
+                  <span>
+                    <strong>{figure.name}</strong>
+                    <small>{figure.shortBiography}</small>
+                  </span>
+                  <ArrowRight size={16} aria-hidden={true} className="cd-person__arrow" />
+                </Link>
+              ))}
+              {culture.people
+                .filter((person) => !relatedFigures.some((figure) => figure.name && person.name.toLowerCase().includes(figure.name.toLowerCase())))
+                .map((person) => (
+                  <div key={person.name} className="cd-person">
+                    <span className="cd-person__avatar" aria-hidden="true">
+                      {person.name.charAt(0)}
+                    </span>
+                    <span>
+                      <strong>{person.name}</strong>
+                      {person.role && <small>{person.role}</small>}
+                    </span>
+                  </div>
+                ))}
+            </div>
+          </Section>
+        )}
+
+        {/* ---------- Lieux ---------- */}
+        <Section id="lieux" eyebrow="Lieux" title="Villes, routes et paysages">
+          <CountryInteractiveMap country={country} />
+          {culture.places.length > 0 && (
+            <div className="cd-places">
+              <h3 className="cd-subtitle">À découvrir</h3>
+              <Chips items={culture.places} />
+            </div>
+          )}
+        </Section>
+
+        {/* ---------- Sections personnalisées (administration) ---------- */}
+        {customSections.map((section) => (
+          <Section key={section.title} id={`section-${section.order}`} eyebrow="Dossier" title={section.title} alt>
+            {section.type === 'list' ? (
+              <ul className="cd-list">
+                {section.content
+                  .split('\n')
+                  .filter(Boolean)
+                  .map((line) => (
+                    <li key={line}>{line.replace(/^[-•]\s*/, '')}</li>
+                  ))}
+              </ul>
+            ) : section.type === 'html' ? (
+              // Contenu saisi par l'administration
+              <div className="cd-prose" dangerouslySetInnerHTML={{ __html: section.content }} />
+            ) : (
+              <div className="cd-prose">
+                {section.content.split(/\n{2,}/).map((paragraph) => (
+                  <p key={paragraph.slice(0, 32)}>{paragraph}</p>
+                ))}
+              </div>
+            )}
+          </Section>
+        ))}
+
+        {/* ---------- Médias ---------- */}
+        {sections.some((s) => s.id === 'medias') && (
+          <Section id="medias" eyebrow="Médias" title="Images, vidéos et documents" alt>
+            {images.length > 0 && (
+              <div className="cd-gallery">
+                {images.map((image) => (
+                  <button key={image.url} type="button" onClick={() => setLightbox(image)} className="cd-gallery__item">
+                    <img src={image.url} alt={image.caption || country.nameFr} loading="lazy" />
+                    {image.caption && <span>{image.caption}</span>}
+                  </button>
+                ))}
+              </div>
+            )}
+            {videos.length + pdfs.length + documents.length > 0 && (
+              <ul className="cd-files">
+                {videos.map((item) => (
+                  <li key={item.url}>
+                    <button type="button" onClick={() => setVideo(item)}>
+                      <PlayCircle size={20} aria-hidden={true} />
+                      <span>
+                        <strong>{item.title}</strong>
+                        {item.description && <small>{item.description}</small>}
+                      </span>
+                    </button>
+                  </li>
+                ))}
+                {pdfs.map((item) => (
+                  <li key={item.url}>
+                    <button type="button" onClick={() => setPdf(item)}>
+                      <FileText size={20} aria-hidden={true} />
+                      <span>
+                        <strong>{item.title}</strong>
+                        {item.description && <small>{item.description}</small>}
+                      </span>
+                    </button>
+                  </li>
+                ))}
+                {documents.map((item) => (
+                  <li key={item.url}>
+                    <button type="button" onClick={() => setDoc(item)}>
+                      <FileText size={20} aria-hidden={true} />
+                      <span>
+                        <strong>{item.title}</strong>
+                        {item.description && <small>{item.description}</small>}
+                      </span>
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </Section>
+        )}
+
+        {/* ---------- Pratique ---------- */}
+        {sections.some((s) => s.id === 'pratique') && (
+          <Section id="pratique" eyebrow="Pratique" title="Avant de partir">
+            <div className="cd-practical">
+              {practical.length > 0 && (
+                <div className="cd-accordion">
+                  {practical.map(([label, value], index) => (
+                    <details key={label} open={index < 2}>
+                      <summary>{label}</summary>
+                      <p>{value}</p>
+                    </details>
+                  ))}
+                  {country.practicalTips && country.practicalTips.length > 0 && (
+                    <details>
+                      <summary>Conseils</summary>
+                      <ul>
+                        {country.practicalTips.map((tip) => (
+                          <li key={tip}>{tip}</li>
+                        ))}
+                      </ul>
+                    </details>
+                  )}
+                </div>
+              )}
+              {technical.length > 0 && (
+                <dl className="cd-sheet">
+                  {technical.map(([label, value]) => (
+                    <div key={label}>
+                      <dt>{label}</dt>
+                      <dd>{value}</dd>
+                    </div>
+                  ))}
+                </dl>
+              )}
+            </div>
+          </Section>
+        )}
+
+        {/* ---------- Aller plus loin ---------- */}
+        {further.length > 0 && (
+          <Section id="plus-loin" eyebrow="Aller plus loin" title="Sur MonBaobab" alt>
+            <div className="cd-further">
+              {further.slice(0, 6).map(({ item, to, kind, icon }) => (
+                <Link key={to} to={to} className="cd-further__item">
+                  <span className="cd-further__kind">
+                    {icon} {kind}
+                  </span>
+                  <strong>{item.title || item.name}</strong>
+                  {(item.subtitle || item.shortDescription || item.description) && (
+                    <small>{item.subtitle || item.shortDescription || item.description}</small>
+                  )}
                 </Link>
               ))}
             </div>
-          </section>
+          </Section>
         )}
 
-        {(travelBlocks.length > 0 || practicalFacts.length > 0) && (
-          <section className="country-section country-practical-section" id="pratique">
-            <div className="section-header-detailed">
-              <span className="section-kicker">Avant de partir</span>
-              <h2>Repères utiles, à vérifier avant tout déplacement</h2>
-            </div>
-            <div className="country-practical-grid">
-              <Card className="country-facts-card">
-                <span className="section-kicker">Pratique</span>
-                <div className="facts-list">
-                  {practicalFacts.map(([label, value]) => (
-                    <div className="fact-row" key={label}>
-                      <span>{label}</span>
-                      <strong>{value}</strong>
-                    </div>
-                  ))}
-                </div>
-              </Card>
-              <div className="travel-note-grid">
-                {travelBlocks.map(([label, value]) => (
-                  <Card className="travel-note-card" key={label}>
-                    <h3>{label}</h3>
-                    <p>{value}</p>
-                  </Card>
-                ))}
-              </div>
-            </div>
-          </section>
-        )}
-
-        <section className="country-section" id="savoirs">
-          <div className="section-header-detailed">
-            <span className="section-kicker">Continuer l'exploration</span>
-            <h2>Tout MonBaobab relié à {country.nameFr}</h2>
-          </div>
-          <div className="country-ecosystem-grid">
-            {ecosystemLinks.map((link) => (
-              <Link to={link.to} className="country-crosslink-card" key={link.to}>
-                <strong>{link.label}</strong>
-                <span>{link.text}</span>
-              </Link>
-            ))}
-          </div>
-        </section>
-
-        <section className="country-section country-journey-section">
-          <div className="section-header-detailed">
-            <span className="section-kicker">Parcours guidés</span>
-            <h2>Choisir une intention et continuer sans friction</h2>
-          </div>
-          <div className="country-journey-grid">
-            {guidedPaths.map((path) => (
-              <Card className="country-journey-card" key={path.title}>
-                <h3>{path.title}</h3>
-                <p>{path.text}</p>
-                <div className="country-journey-actions">
-                  {path.links.map((link) => (
-                    <Link to={link.to} key={link.to}>{link.label}</Link>
-                  ))}
-                </div>
-              </Card>
-            ))}
-          </div>
-        </section>
-
-        {sortedCustomSections.map((section, index) => (
-          <section key={index} className="country-section">
-            <div className="section-header-detailed">
-              <span className="section-kicker">Carnet MonBaobab</span>
-              <h2>{section.title}</h2>
-            </div>
-            <Card className="culture-card-detailed">
-              {section.type === 'list' ? (
-                <ul className="custom-section-list">
-                  {section.content.split('\n').filter(line => line.trim()).map((item, idx) => (
-                    <li key={idx}>{item.trim()}</li>
-                  ))}
-                </ul>
-              ) : section.type === 'html' ? (
-                <div dangerouslySetInnerHTML={{ __html: section.content }} />
-              ) : (
-                <p style={{ whiteSpace: 'pre-line' }}>{section.content}</p>
-              )}
-            </Card>
-          </section>
-        ))}
-
-        {(sortedImages.length > 0 || sortedPDFs.length > 0 || sortedVideos.length > 0 || sortedDocuments.length > 0) && (
-          <section className="country-section" id="medias">
-            <div className="section-header-detailed">
-              <span className="section-kicker">Médias</span>
-              <h2>Voir, écouter, approfondir</h2>
-            </div>
-
-            {sortedImages.length > 0 && (
-              <div className="images-gallery">
-                {sortedImages.map((image, index) => (
-                  <Card key={index} className="image-gallery-item" onClick={() => setSelectedImage(image.url)}>
-                    <div className="gallery-image-wrapper">
-                      <img src={image.url} alt={image.caption || `Image ${index + 1}`} />
-                      {image.caption && <div className="gallery-image-caption">{image.caption}</div>}
-                    </div>
-                  </Card>
-                ))}
-              </div>
-            )}
-
-            <div className="media-grid">
-              {sortedPDFs.map((pdf, index) => (
-                <Card key={`pdf-${index}`} className="media-card" onClick={() => setSelectedPDF(pdf)}>
-                  <span className="media-type">PDF</span>
-                  <div className="media-card-content">
-                    <h3>{pdf.title}</h3>
-                    {pdf.description && <p>{pdf.description}</p>}
-                  </div>
-                  <Button variant="outline" size="small">Lire</Button>
-                </Card>
-              ))}
-              {sortedVideos.map((video, index) => (
-                <Card key={`video-${index}`} className="media-card video-card" onClick={() => setSelectedVideo(video)}>
-                  {video.thumbnail && (
-                    <div className="media-card-thumbnail">
-                      <img src={video.thumbnail} alt={video.title} />
-                      <div className="video-play-overlay">Lecture</div>
-                    </div>
-                  )}
-                  <span className="media-type">Vidéo</span>
-                  <div className="media-card-content">
-                    <h3>{video.title}</h3>
-                    {video.description && <p>{video.description}</p>}
-                  </div>
-                  <Button variant="outline" size="small">Regarder</Button>
-                </Card>
-              ))}
-              {sortedDocuments.map((document, index) => (
-                <Card key={`document-${index}`} className="media-card" onClick={() => setSelectedDocument(document)}>
-                  <span className="media-type">{document.type?.toUpperCase() || 'DOC'}</span>
-                  <div className="media-card-content">
-                    <h3>{document.title}</h3>
-                    {document.description && <p>{document.description}</p>}
-                  </div>
-                  <Button variant="outline" size="small">Ouvrir</Button>
-                </Card>
-              ))}
-            </div>
-          </section>
-        )}
-
-        {(country.sourceNotes?.length || countrySources.length > 0) && (
-          <section className="country-section">
-            <Card className="country-sources-card">
-              <span className="section-kicker">Sources et suivi</span>
-              <h2>Sources, vérification et données à maintenir</h2>
-              <p className="country-source-quality">Niveau éditorial : {sourceQualityLabels[country.sourceQuality || 'draft']}</p>
-              {countrySources.length > 0 && (
-                <div className="country-source-links">
-                  {countrySources.map((source) => (
-                    <article key={source._id}>
-                      <div>
-                        <strong>{source.title}</strong>
-                        <span>
-                          {[source.type, source.author || source.publisher, source.year, `fiabilité ${source.reliability || 3}/5`].filter(Boolean).join(' · ')}
-                        </span>
-                      </div>
-                      {source.url ? (
-                        <a href={source.url} target="_blank" rel="noreferrer">Consulter</a>
-                      ) : (
-                        <Link to="/sources">Bibliothèque</Link>
-                      )}
-                    </article>
-                  ))}
-                </div>
-              )}
+        {/* ---------- Sources ---------- */}
+        <Section id="sources" eyebrow="Sources" title="D’où viennent ces informations">
+          <div className="cd-sources">
+            <div>
+              <p className="cd-quality">
+                <span className={`cd-quality__badge is-${country.sourceQuality || 'draft'}`}>
+                  {qualityLabels[country.sourceQuality || 'draft']}
+                </span>
+                {country.lastUpdated && <span>Mise à jour : {country.lastUpdated}</span>}
+              </p>
               {country.sourceNotes && country.sourceNotes.length > 0 && (
-                <ul>
-                  {country.sourceNotes.map((note, index) => <li key={index}>{note}</li>)}
+                <ul className="cd-list">
+                  {country.sourceNotes.map((note) => (
+                    <li key={note}>{note}</li>
+                  ))}
                 </ul>
               )}
-              <div className="country-source-actions">
-                <Link to={`/sources?country=${country.id}`}>Explorer les sources</Link>
-                <Link to="/contribute">Proposer une correction ou une mémoire</Link>
-              </div>
-            </Card>
-          </section>
-        )}
+              {sources.length > 0 && (
+                <ul className="cd-source-list">
+                  {sources.map((source) => (
+                    <li key={source._id}>
+                      <strong>{source.title}</strong>
+                      <span>{[source.author, source.publisher, source.year].filter(Boolean).join(' · ')}</span>
+                      {source.url && (
+                        <a href={source.url} target="_blank" rel="noopener noreferrer">
+                          Consulter <ExternalLink size={14} aria-label="(nouvel onglet)" />
+                        </a>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+            <aside className="cd-contribute">
+              <PenLine size={22} aria-hidden={true} />
+              <h3>Vous connaissez bien ce pays ?</h3>
+              <p>Un proverbe, une recette, un lieu ou une correction : aidez-nous à enrichir cette fiche.</p>
+              <Link to="/contribute" className="btn">
+                Contribuer
+              </Link>
+            </aside>
+          </div>
+        </Section>
 
-        <div className="country-detail-footer">
-          <Link to="/map">
-            <Button variant="outline" size="large">Retour à la carte</Button>
-          </Link>
-        </div>
+        {/* ---------- Pays voisins ---------- */}
+        {neighbours && (
+          <nav className="cd-neighbours" aria-label={`Autres pays — ${region?.name}`}>
+            <div className="container">
+              <div className="cd-neighbours__nav">
+                {neighbours.prev && (
+                  <Link to={`/country/${neighbours.prev.id.toLowerCase()}`} className="cd-neighbours__link">
+                    <ChevronLeft size={20} aria-hidden={true} />
+                    <img src={flagUrl(neighbours.prev.id, 'w40')} alt="" width={24} height={16} />
+                    <span>
+                      <small>Précédent</small>
+                      {neighbours.prev.nameFr}
+                    </span>
+                  </Link>
+                )}
+                <Link to={`/map?pays=${country.id.toLowerCase()}`} className="cd-neighbours__map">
+                  <ArrowLeft size={16} aria-hidden={true} /> Retour à la carte
+                </Link>
+                {neighbours.next && (
+                  <Link to={`/country/${neighbours.next.id.toLowerCase()}`} className="cd-neighbours__link is-next">
+                    <span>
+                      <small>Suivant</small>
+                      {neighbours.next.nameFr}
+                    </span>
+                    <img src={flagUrl(neighbours.next.id, 'w40')} alt="" width={24} height={16} />
+                    <ChevronRight size={20} aria-hidden={true} />
+                  </Link>
+                )}
+              </div>
+              <h2 className="cd-neighbours__title">Autres pays — {region?.name}</h2>
+              <ul className="cd-neighbours__list">
+                {neighbours.others.map((other) => (
+                  <li key={other!.id}>
+                    <Link to={`/country/${other!.id.toLowerCase()}`}>
+                      <img src={flagUrl(other!.id, 'w40')} alt="" width={20} height={14} loading="lazy" />
+                      {other!.nameFr}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </nav>
+        )}
       </div>
 
-      {/* Modal pour afficher l'image en grand */}
-      {selectedImage && (
-        <div className="image-modal" onClick={() => setSelectedImage(null)}>
-          <div className="image-modal-content" onClick={(e) => e.stopPropagation()}>
-            <button className="image-modal-close" onClick={() => setSelectedImage(null)}>
+      {/* ---------- Visionneuses ---------- */}
+      {lightbox && (
+        <div className="cd-modal" role="dialog" aria-modal="true" aria-label={lightbox.caption || 'Image'} onClick={() => setLightbox(null)}>
+          <figure className="cd-modal__image" onClick={(event) => event.stopPropagation()}>
+            <img src={lightbox.url} alt={lightbox.caption || country.nameFr} />
+            {lightbox.caption && <figcaption>{lightbox.caption}</figcaption>}
+            <button type="button" className="btn btn-outline" onClick={() => setLightbox(null)}>
               Fermer
             </button>
-            <img src={selectedImage} alt="Vue agrandie" />
+          </figure>
+        </div>
+      )}
+      {pdf && (
+        <div className="cd-modal" role="dialog" aria-modal="true" onClick={() => setPdf(null)}>
+          <div className="cd-modal__box" onClick={(event) => event.stopPropagation()}>
+            <PDFViewer url={pdf.url} title={pdf.title || 'Document PDF'} description={pdf.description} onClose={() => setPdf(null)} />
           </div>
         </div>
       )}
-
-      {/* Modal PDF */}
-      {selectedPDF && (
-        <div className="media-modal" onClick={() => setSelectedPDF(null)}>
-          <div className="media-modal-content" onClick={(e) => e.stopPropagation()}>
-            {selectedPDF.url ? (
-              <PDFViewer
-                url={selectedPDF.url}
-                title={selectedPDF.title || 'Document PDF'}
-                description={selectedPDF.description}
-                onClose={() => setSelectedPDF(null)}
-              />
-            ) : (
-              <div style={{ padding: '2rem', textAlign: 'center', color: 'var(--color-text)' }}>
-                <h3>URL du PDF manquante</h3>
-                <p>Ce document PDF n'a pas d'URL valide.</p>
-                <Button onClick={() => setSelectedPDF(null)} style={{ marginTop: '1rem' }}>
-                  Fermer
-                </Button>
-              </div>
-            )}
+      {video && (
+        <div className="cd-modal" role="dialog" aria-modal="true" onClick={() => setVideo(null)}>
+          <div className="cd-modal__box" onClick={(event) => event.stopPropagation()}>
+            <VideoViewer url={video.url} title={video.title} description={video.description} type={video.type} thumbnail={video.thumbnail} onClose={() => setVideo(null)} />
           </div>
         </div>
       )}
-
-      {/* Modal Vidéo */}
-      {selectedVideo && (
-        <div className="media-modal" onClick={() => setSelectedVideo(null)}>
-          <div className="media-modal-content" onClick={(e) => e.stopPropagation()}>
-            <VideoViewer
-              url={selectedVideo.url}
-              title={selectedVideo.title}
-              description={selectedVideo.description}
-              type={selectedVideo.type}
-              thumbnail={selectedVideo.thumbnail}
-              onClose={() => setSelectedVideo(null)}
-            />
-          </div>
-        </div>
-      )}
-
-      {/* Modal Document */}
-      {selectedDocument && (
-        <div className="media-modal" onClick={() => setSelectedDocument(null)}>
-          <div className="media-modal-content" onClick={(e) => e.stopPropagation()}>
-            <DocumentViewer
-              url={selectedDocument.url}
-              title={selectedDocument.title}
-              description={selectedDocument.description}
-              type={selectedDocument.type || 'other'}
-              onClose={() => setSelectedDocument(null)}
-            />
+      {doc && (
+        <div className="cd-modal" role="dialog" aria-modal="true" onClick={() => setDoc(null)}>
+          <div className="cd-modal__box" onClick={(event) => event.stopPropagation()}>
+            <DocumentViewer url={doc.url} title={doc.title} description={doc.description} type={doc.type || 'other'} onClose={() => setDoc(null)} />
           </div>
         </div>
       )}

@@ -1,51 +1,72 @@
+import { useCallback, useMemo } from 'react'
+import { Link, useSearchParams } from 'react-router-dom'
 import { Layout } from '../components/Layout/Layout'
-import { Card } from '../components/Card/Card'
-import { RealisticAfricaMap } from '../components/AfricaMap/RealisticAfricaMap'
-import { useNavigate } from 'react-router-dom'
-import type { AfricanCountry } from '../data/allAfricanCountries'
+import { AfricaExplorer } from '../components/AfricaMap/AfricaExplorer'
+import { allAfricanCountries } from '../data/allAfricanCountries'
+import { africaRegions } from '../data/africaRegions'
 import './MapPage.css'
 
 export const MapPage = () => {
-  const navigate = useNavigate()
+  const [searchParams, setSearchParams] = useSearchParams()
+  // Lecture une seule fois : la sélection est ensuite pilotée par la carte
+  const initialCountry = useMemo(() => searchParams.get('pays'), []) // eslint-disable-line react-hooks/exhaustive-deps
 
-  const handleCountrySelect = (country: AfricanCountry) => {
-    navigate(`/country/${country.id.toLowerCase()}`)
-  }
+  // ?pays=sn dans l'URL : la sélection est partageable et survit au retour arrière
+  const handleSelection = useCallback(
+    (id: string | null) => {
+      setSearchParams(id ? { pays: id.toLowerCase() } : {}, { replace: true })
+    },
+    [setSearchParams],
+  )
+
+  const byRegion = useMemo(
+    () =>
+      africaRegions.map((region) => ({
+        region,
+        countries: region.countries
+          .map((id) => allAfricanCountries.find((c) => c.id === id))
+          .filter(Boolean)
+          .sort((a, b) => a!.nameFr.localeCompare(b!.nameFr, 'fr')),
+      })),
+    [],
+  )
 
   return (
-    <Layout>
-      <div className="map-page">
-        <div className="map-page-header">
-          <h1>Carte interactive de l'Afrique</h1>
-          <p>Parcourez le continent par ses pays, ses frontières et ses fiches culturelles.</p>
-        </div>
+    <Layout fullWidth>
+      <AfricaExplorer initialCountryId={initialCountry} onSelectionChange={handleSelection} />
 
-        <Card className="map-card">
-          <RealisticAfricaMap onCountrySelect={handleCountrySelect} />
-        </Card>
-
-        <div className="map-info">
-          <Card>
-            <h3>À propos de cette carte</h3>
-            <p>
-              Cette carte sert d'entrée géographique vers les fiches pays. Les frontières
-              permettent de lire les délimitations, les drapeaux facilitent l'identification
-              rapide, et chaque pays est accessible au clavier comme à la souris.
-            </p>
-            <ul>
-              <li>
-                <strong>Frontières</strong> : contour politique complet de l'Afrique.
-              </li>
-              <li>
-                <strong>Drapeaux</strong> : repères visuels cliquables au centre de chaque pays.
-              </li>
-              <li>
-                <strong>Fiches pays</strong> : ouverture directe vers les contenus culturels détaillés.
-              </li>
-            </ul>
-          </Card>
+      {/* Index textuel : accessible au clavier et aux lecteurs d'écran, utile aussi au référencement */}
+      <section className="section map-index" aria-labelledby="map-index-title">
+        <div className="container">
+          <div className="section-head">
+            <div>
+              <p className="eyebrow">Tous les pays</p>
+              <h2 id="map-index-title">Les pays d’Afrique, région par région</h2>
+            </div>
+          </div>
+          <div className="map-index__grid">
+            {byRegion.map(({ region, countries }) => (
+              <section key={region.id} className="map-index__region">
+                <h3>
+                  <i style={{ background: region.color }} aria-hidden="true" />
+                  {region.name}
+                  <small>{countries.length}</small>
+                </h3>
+                <ul>
+                  {countries.map((country) => (
+                    <li key={country!.id}>
+                      <Link to={`/country/${country!.id.toLowerCase()}`}>
+                        <img src={`https://flagcdn.com/w40/${country!.id.toLowerCase()}.png`} alt="" width={20} height={14} loading="lazy" />
+                        {country!.nameFr}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            ))}
+          </div>
         </div>
-      </div>
+      </section>
     </Layout>
   )
 }
