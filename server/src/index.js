@@ -9,7 +9,7 @@ import { initSentry } from './utils/sentry.js'
 import env from './config/env.js'
 import logger from './utils/logger.js'
 import { errorHandler, notFoundHandler } from './utils/errorHandler.js'
-import { apiLimiter, authLimiter } from './middleware/rateLimiter.js'
+import { apiLimiter } from './middleware/rateLimiter.js'
 
 // Initialiser Sentry en premier
 initSentry()
@@ -144,7 +144,8 @@ app.get('/api/health', (req, res) => {
 })
 
 // Routes avec rate limiting spécifique pour l'auth
-app.use('/api/auth', authLimiter, authRoutes)
+// Limites de débit appliquées route par route dans routes/auth.js
+app.use('/api/auth', authRoutes)
 app.use('/api/products', productsRoutes)
 app.use('/api/blog', blogRoutes)
 app.use('/api/users', userRoutes)

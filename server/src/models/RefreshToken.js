@@ -1,10 +1,15 @@
 import mongoose from 'mongoose'
 
+/**
+ * Une session = un appareil connecté.
+ * `token` contient l'empreinte SHA-256 du refresh token (jamais le jeton lui-même) ;
+ * les sessions créées avant cette version stockaient le jeton en clair et restent reconnues.
+ */
 const refreshTokenSchema = new mongoose.Schema({
   token: {
     type: String,
     required: true,
-    unique: true, // unique: true crée automatiquement un index
+    unique: true,
   },
   user: {
     type: mongoose.Schema.Types.ObjectId,
@@ -14,15 +19,33 @@ const refreshTokenSchema = new mongoose.Schema({
   expiresAt: {
     type: Date,
     required: true,
-    index: { expireAfterSeconds: 0 }, // Suppression automatique après expiration
+    index: { expireAfterSeconds: 0 }, // suppression automatique à expiration
   },
   createdAt: {
+    type: Date,
+    default: Date.now,
+  },
+  lastUsedAt: {
     type: Date,
     default: Date.now,
   },
   revokedAt: {
     type: Date,
     default: null,
+  },
+  revokedReason: {
+    type: String,
+    default: '',
+  },
+  // Empreinte du jeton qui l'a remplacé lors de la rotation (tolérance aux requêtes simultanées)
+  replacedBy: {
+    type: String,
+    default: null,
+  },
+  // Date de première connexion de la session (conservée d'une rotation à l'autre)
+  sessionStartedAt: {
+    type: Date,
+    default: Date.now,
   },
   ipAddress: {
     type: String,
@@ -34,16 +57,12 @@ const refreshTokenSchema = new mongoose.Schema({
   },
 })
 
-// Index pour améliorer les performances
-// Note: token a déjà un index unique créé automatiquement par unique: true
-refreshTokenSchema.index({ user: 1 })
+refreshTokenSchema.index({ user: 1, revokedAt: 1 })
 
-// Méthode pour vérifier si le token est valide
-refreshTokenSchema.methods.isValid = function() {
+refreshTokenSchema.methods.isValid = function isValid() {
   return !this.revokedAt && this.expiresAt > new Date()
 }
 
 const RefreshToken = mongoose.model('RefreshToken', refreshTokenSchema)
 
 export default RefreshToken
-

@@ -93,7 +93,7 @@ export const generateTOTP = (secret) => {
   const decodedSecret = base32Decode(secret)
   
   // Créer un buffer pour le temps
-  const timeBuffer = Buffer.allocUnsafe(8)
+  const timeBuffer = Buffer.alloc(8) // alloc (et non allocUnsafe) : les 4 octets de poids fort doivent valoir 0 (RFC 6238)
   timeBuffer.writeUInt32BE(timeStep, 4)
   
   // Calculer HMAC-SHA1
@@ -144,7 +144,7 @@ export const verifyTOTP = (secret, token, window = null) => {
  */
 const generateTOTPForTimeStep = (secret, timeStep) => {
   const decodedSecret = base32Decode(secret)
-  const timeBuffer = Buffer.allocUnsafe(8)
+  const timeBuffer = Buffer.alloc(8) // alloc (et non allocUnsafe) : les 4 octets de poids fort doivent valoir 0 (RFC 6238)
   timeBuffer.writeUInt32BE(timeStep, 4)
   
   const hmac = crypto.createHmac('sha1', decodedSecret)

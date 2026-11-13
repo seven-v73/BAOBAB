@@ -101,7 +101,9 @@ export const Register = () => {
       } else {
         await register(normalizedEmail, password, trimmedName)
         success(`Bienvenue sur ${platformName}.`)
-        navigate('/dashboard', { replace: true })
+        // Retour à la page d'origine (ex. « Écrire un texte ») plutôt qu'au tableau de bord
+        const redirect = searchParams.get('redirect')
+        navigate(redirect && redirect.startsWith('/') && !redirect.startsWith('//') ? redirect : '/dashboard', { replace: true })
       }
     } catch (err: any) {
       const errorMessage = err.message || 'Inscription impossible pour le moment.'

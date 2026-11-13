@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { SessionsPanel } from '../components/Account/SessionsPanel'
 import { Navigate, Link } from 'react-router-dom'
 import { Layout } from '../components/Layout/Layout'
 import { Card } from '../components/Card/Card'
@@ -2929,7 +2930,9 @@ export const Dashboard = () => {
                       
                       try {
                         setSavingPassword(true)
-                        await authService.changePassword(passwordData.currentPassword, passwordData.newPassword)
+                        const { data } = await authService.changePassword(passwordData.currentPassword, passwordData.newPassword)
+                        // L'API ouvre une nouvelle session pour cet appareil (les autres sont déconnectés)
+                        if (data?.token) useAuthStore.getState().applySessionPayload(data)
                         setPasswordSuccess(true)
                         setPasswordData({
                           currentPassword: '',
@@ -2975,13 +2978,13 @@ export const Dashboard = () => {
                       />
                     </div>
                     {passwordError && (
-                      <div className="error-message" style={{ color: '#ef4444', marginBottom: '1rem' }}>
+                      <div className="error-message" style={{ color: 'var(--danger)', marginBottom: '1rem' }}>
                         {passwordError}
                       </div>
                     )}
                     {passwordSuccess && (
-                      <div className="success-message" style={{ color: '#10b981', marginBottom: '1rem' }}>
-                        Mot de passe mis à jour.
+                      <div className="success-message" style={{ color: 'var(--success)', marginBottom: '1rem' }}>
+                        Mot de passe mis à jour. Vos autres appareils ont été déconnectés.
                       </div>
                     )}
                     <Button type="submit" disabled={savingPassword}>
@@ -2989,6 +2992,7 @@ export const Dashboard = () => {
                       {savingPassword ? 'Mise à jour...' : 'Mettre à jour le mot de passe'}
                     </Button>
                   </form>
+                  <SessionsPanel />
                 </Card>
 
                 {/* Section Préférences */}

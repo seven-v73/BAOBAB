@@ -62,16 +62,25 @@ const LoadingFallback = () => (
 )
 
 // Composant pour protéger les routes
+// Route réservée aux membres : pendant la vérification de session au démarrage, on attend
+// (sinon un simple rechargement de page renverrait vers la connexion)
 const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
-  const { isAuthenticated } = useAuthStore()
+  const isAuthenticated = useAuthStore((state) => state.isAuthenticated)
+  const status = useAuthStore((state) => state.status)
+  const sessionExpired = useAuthStore((state) => state.sessionExpired)
+  const loggedOut = useAuthStore((state) => state.loggedOut)
   const location = useLocation()
+  if (status !== 'ready' && isAuthenticated) return <LoadingFallback />
+  if (isAuthenticated) return <>{children}</>
+  if (loggedOut) return <Navigate to="/" replace />
   const redirect = `${location.pathname}${location.search}`
-  return isAuthenticated ? <>{children}</> : <Navigate to={`/login?redirect=${encodeURIComponent(redirect)}`} replace />
+  return <Navigate to={`/login?redirect=${encodeURIComponent(redirect)}${sessionExpired ? '&expired=1' : ''}`} replace />
 }
 
 function App() {
-  const { notifications, removeNotification } = useNotifications()
-  const { token, fetchMe } = useAuthStore()
+  const { notifications, removeNotification, warning } = useNotifications()
+  const initAuth = useAuthStore((state) => state.init)
+  const sessionExpired = useAuthStore((state) => state.sessionExpired)
   const { theme } = useThemeStore()
   const location = useLocation()
   const previousPathRef = useRef(location.pathname)
@@ -87,12 +96,15 @@ function App() {
     fetchSettings()
   }, [fetchSettings])
 
-  // Récupérer les données utilisateur au chargement si un token existe
+  // Rétablir la session au démarrage (cookie sécurisé, sans redemander le mot de passe)
   useEffect(() => {
-    if (token) {
-      fetchMe().catch(console.error)
-    }
-  }, [token, fetchMe])
+    initAuth()
+  }, [initAuth])
+
+  // Session terminée pendant la navigation (inactivité prolongée, déconnexion d'un autre appareil…)
+  useEffect(() => {
+    if (sessionExpired) warning('Votre session a expiré. Reconnectez-vous pour continuer.', 6000)
+  }, [sessionExpired, warning])
 
   useEffect(() => {
     const timers: number[] = []

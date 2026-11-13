@@ -1,0 +1,83 @@
+.sp {
+  margin-top: var(--space-6);
+  padding-top: var(--space-5);
+  border-top: 1px solid var(--line);
+}
+
+.sp__head h3 {
+  font-size: var(--text-md);
+}
+
+.sp__head p {
+  margin: 4px 0 var(--space-4);
+  color: var(--ink-3);
+  font-size: var(--text-sm);
+}
+
+.sp__empty {
+  color: var(--ink-3);
+}
+
+.sp__list {
+  display: grid;
+  gap: var(--space-2);
+  margin: 0 0 var(--space-4);
+  padding: 0;
+  list-style: none;
+}
+
+.sp__list li {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+}
+
+.sp__list li.is-current {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent-soft) 45%, var(--surface));
+}
+
+.sp__icon {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-md);
+  background: var(--surface-2);
+  color: var(--ink-2);
+}
+
+.sp__info {
+  display: grid;
+  min-width: 0;
+}
+
+.sp__info strong {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  color: var(--ink);
+}
+
+.sp__info small {
+  color: var(--ink-3);
+}
+
+.sp__badge {
+  padding: 1px 8px;
+  border-radius: var(--radius-full);
+  background: var(--accent);
+  color: var(--on-accent);
+  font-size: var(--text-xs);
+  font-weight: 800;
+}
+
+.sp__all {
+  width: 100%;
+}

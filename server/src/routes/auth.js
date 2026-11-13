@@ -1,10 +1,11 @@
 import express from 'express'
-import { register, login, getMe, refreshToken, logout, changePassword } from '../controllers/authController.js'
+import { register, login, getMe, refreshToken, logout, logoutAll, listSessions, revokeSession, changePassword } from '../controllers/authController.js'
 import { setup2FA, verify2FA, disable2FA, verify2FALogin, get2FAStatus } from '../controllers/twoFactorController.js'
 import { authenticate } from '../middleware/auth.js'
 import { validateRegister, validateLogin, sanitizeInput } from '../middleware/validation.js'
 import { body } from 'express-validator'
 import { validate } from '../middleware/validation.js'
+import { authLimiter, refreshLimiter } from '../middleware/rateLimiter.js'
 
 const router = express.Router()
 
@@ -57,21 +58,23 @@ const router = express.Router()
  *         $ref: '#/components/responses/ValidationError'
  */
 // POST /api/auth/register
-router.post('/register', sanitizeInput, validateRegister, register)
+router.post('/register', authLimiter, sanitizeInput, validateRegister, register)
 
 // POST /api/auth/login
-router.post('/login', sanitizeInput, validateLogin, login)
+router.post('/login', authLimiter, sanitizeInput, validateLogin, login)
 
-// POST /api/auth/refresh - Rafraîchir le token
-router.post('/refresh', [
-  body('refreshToken')
-    .notEmpty()
-    .withMessage('Refresh token requis'),
-  validate
-], refreshToken)
+// POST /api/auth/refresh - Renouveler la session (cookie httpOnly, ou ancien jeton dans le corps)
+router.post('/refresh', refreshLimiter, refreshToken)
 
-// POST /api/auth/logout - Déconnexion
-router.post('/logout', authenticate, logout)
+// POST /api/auth/logout - Déconnexion de cet appareil (fonctionne même si l'accès a expiré)
+router.post('/logout', refreshLimiter, logout)
+
+// POST /api/auth/logout-all - Déconnexion de tous les appareils
+router.post('/logout-all', authenticate, logoutAll)
+
+// Appareils connectés
+router.get('/sessions', authenticate, listSessions)
+router.delete('/sessions/:id', authenticate, revokeSession)
 
 // GET /api/auth/me - Récupérer l'utilisateur connecté
 router.get('/me', authenticate, getMe)
@@ -82,8 +85,8 @@ router.put('/change-password', authenticate, [
     .notEmpty()
     .withMessage('Le mot de passe actuel est requis'),
   body('newPassword')
-    .isLength({ min: 6 })
-    .withMessage('Le nouveau mot de passe doit contenir au moins 6 caractères'),
+    .isLength({ min: 12, max: 128 })
+    .withMessage('Le nouveau mot de passe doit contenir au moins 12 caractères'),
   validate
 ], changePassword)
 
@@ -109,10 +112,11 @@ router.post('/2fa/disable', authenticate, [
 ], disable2FA)
 
 // POST /api/auth/2fa/verify-login - Vérifier le code 2FA lors de la connexion
-router.post('/2fa/verify-login', [
-  body('email')
-    .isEmail()
-    .withMessage('Email invalide'),
+router.post('/2fa/verify-login', authLimiter, [
+  body('challengeToken')
+    .isString()
+    .notEmpty()
+    .withMessage('Demande de connexion manquante : saisissez à nouveau votre mot de passe'),
   body('token')
     .optional()
     .isLength({ min: 6, max: 6 })

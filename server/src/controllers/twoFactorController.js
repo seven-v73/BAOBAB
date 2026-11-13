@@ -6,6 +6,8 @@ import { catchAsync } from '../utils/errorHandler.js'
 import logger from '../utils/logger.js'
 import { logSecurityEvent } from '../utils/securityLogger.js'
 import { securityMonitoring } from '../utils/securityMonitoring.js'
+import { verifyTwoFactorChallenge } from '../utils/jwt.js'
+import { startSession } from '../utils/session.js'
 
 // GET /api/auth/2fa/setup - Initialiser la 2FA
 export const setup2FA = catchAsync(async (req, res, next) => {
@@ -150,54 +152,47 @@ export const disable2FA = catchAsync(async (req, res, next) => {
 
 // POST /api/auth/2fa/verify-login - Vérifier le code 2FA lors de la connexion
 export const verify2FALogin = catchAsync(async (req, res, next) => {
-  const { email, token, backupCode } = req.body
+  const { challengeToken, token, backupCode } = req.body
 
-  if (!email || (!token && !backupCode)) {
-    return next(new AppError('Email et code TOTP ou code de sauvegarde requis', 400))
+  // Le défi prouve que le mot de passe a été vérifié juste avant (valable 5 minutes)
+  let userId
+  try {
+    userId = verifyTwoFactorChallenge(challengeToken).userId
+  } catch {
+    return next(new AppError('Votre demande de connexion a expiré. Saisissez à nouveau votre mot de passe.', 401))
   }
 
-  const user = await User.findOne({ email: email.toLowerCase() })
-  if (!user) {
-    return next(new AppError('Utilisateur non trouvé', 404))
-  }
-
-  const twoFactor = await TwoFactorAuth.findOne({ user: user._id })
-  if (!twoFactor || !twoFactor.enabled) {
-    return next(new AppError('2FA non activée pour ce compte', 400))
+  const user = await User.findById(userId)
+  const twoFactor = user && (await TwoFactorAuth.findOne({ user: user._id }))
+  if (!user || !user.isActive || !twoFactor?.enabled) {
+    return next(new AppError('Connexion impossible pour ce compte', 401))
   }
 
   let isValid = false
-
   if (token) {
-    // Vérifier le code TOTP
     isValid = verifyTOTP(twoFactor.secret, token)
   } else if (backupCode) {
-    // Vérifier le code de sauvegarde
-    const backup = twoFactor.backupCodes.find(bc => bc.code === backupCode.toUpperCase() && !bc.used)
+    const backup = twoFactor.backupCodes.find((bc) => bc.code === String(backupCode).toUpperCase() && !bc.used)
     if (backup) {
       isValid = true
       backup.used = true
       backup.usedAt = new Date()
-      await twoFactor.save()
     }
   }
 
   if (!isValid) {
-    logSecurityEvent('2FA_LOGIN_FAILED', { userId: user._id.toString(), email })
-    securityMonitoring.recordEvent('2FA_LOGIN_FAILED', { userId: user._id.toString(), email }, 'high')
-    return next(new AppError('Code TOTP ou code de sauvegarde invalide', 401))
+    logSecurityEvent('2FA_LOGIN_FAILED', { userId: user._id.toString() })
+    securityMonitoring.recordEvent('2FA_LOGIN_FAILED', { userId: user._id.toString() }, 'high')
+    return next(new AppError('Code incorrect. Vérifiez l’heure de votre téléphone ou utilisez un code de secours.', 401))
   }
 
   twoFactor.lastUsed = new Date()
   await twoFactor.save()
+  logSecurityEvent('2FA_LOGIN_SUCCESS', { userId: user._id.toString() })
+  securityMonitoring.recordEvent('2FA_LOGIN_SUCCESS', { userId: user._id.toString() }, 'low')
 
-  logSecurityEvent('2FA_LOGIN_SUCCESS', { userId: user._id.toString(), email })
-  securityMonitoring.recordEvent('2FA_LOGIN_SUCCESS', { userId: user._id.toString(), email }, 'low')
-
-  res.json({
-    message: 'Code 2FA vérifié avec succès',
-    verified: true
-  })
+  const { body } = await startSession(req, res, user)
+  res.json({ message: 'Connexion réussie', ...body })
 })
 
 // GET /api/auth/2fa/status - Obtenir le statut de la 2FA

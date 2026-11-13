@@ -32,9 +32,11 @@ export const apiLimiter = rateLimit({
 })
 
 // Rate limiting strict pour l'authentification (protection contre brute force)
+// Ne s'applique qu'aux tentatives d'identification (connexion, inscription, code 2FA) ;
+// les requêtes réussies ne sont pas comptées. 10 échecs : marge pour les IP partagées (réseaux mobiles).
 export const authLimiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 5, // Limite de 5 tentatives par IP
+  max: 10, // 10 échecs par IP
   skipSuccessfulRequests: true, // Ne pas compter les requêtes réussies
   message: {
     error: 'Trop de tentatives de connexion. Veuillez réessayer dans 15 minutes.',
@@ -48,6 +50,15 @@ export const authLimiter = rateLimit({
       retryAfter: '15 minutes'
     })
   }
+})
+
+// Renouvellement de session : appelé automatiquement par l'application, plafond large
+export const refreshLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 120,
+  standardHeaders: true,
+  legacyHeaders: false,
+  handler: (req, res) => res.status(429).json({ error: 'Trop de renouvellements de session. Réessayez dans quelques minutes.' }),
 })
 
 // Rate limiting pour les uploads (fichiers volumineux)

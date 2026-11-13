@@ -1,177 +1,73 @@
 import axios from 'axios'
+import type { InternalAxiosRequestConfig } from 'axios'
+import { getAccessToken, isAccessTokenExpiring, refreshSession, sessionApi } from './session'
 
 const API_URL = import.meta.env.VITE_API_URL || '/api'
 
 const api = axios.create({
   baseURL: API_URL,
+  withCredentials: true,
   headers: {
     'Content-Type': 'application/json',
   },
 })
 
-// Instance axios séparée pour le refresh token (sans intercepteurs)
-const refreshApi = axios.create({
-  baseURL: API_URL,
-  headers: {
-    'Content-Type': 'application/json',
-  },
-})
+// Les routes de session gèrent elles-mêmes leurs erreurs (un mauvais mot de passe n'est pas une session expirée)
+const isAuthRoute = (url?: string) => Boolean(url && /\/auth\/(login|register|refresh|logout|2fa\/verify-login)/.test(url))
 
-// Variable pour éviter les boucles de refresh
-let isRefreshing = false
-let failedQueue: Array<{
-  resolve: (value?: any) => void
-  reject: (reason?: any) => void
-}> = []
-
-const processQueue = (error: any, token: string | null = null) => {
-  failedQueue.forEach(prom => {
-    if (error) {
-      prom.reject(error)
-    } else {
-      prom.resolve(token)
-    }
-  })
-  failedQueue = []
-}
-
-// Intercepteur pour ajouter le token
-api.interceptors.request.use((config) => {
-  const token = localStorage.getItem('auth-storage')
-  if (token) {
-    try {
-      const parsed = JSON.parse(token)
-      if (parsed.state?.token) {
-        config.headers.Authorization = `Bearer ${parsed.state.token}`
-      }
-    } catch (e) {
-      // Ignore
-    }
+// Ajoute le jeton d'accès, en le renouvelant juste avant s'il est sur le point d'expirer
+api.interceptors.request.use(async (config: InternalAxiosRequestConfig) => {
+  if (!isAuthRoute(config.url) && getAccessToken() && isAccessTokenExpiring()) {
+    await refreshSession().catch(() => undefined)
   }
-  
+  const token = getAccessToken()
+  if (token) config.headers.Authorization = `Bearer ${token}`
+
   // Ne pas écraser Content-Type pour multipart/form-data (uploads de fichiers)
   if (config.data instanceof FormData) {
     delete config.headers['Content-Type']
   }
-  
   return config
 })
 
-// Intercepteur pour gérer les erreurs et refresh automatique
+// Sur 401 : un seul renouvellement puis nouvel essai ; si la session est terminée,
+// le store d'authentification est prévenu (redirection douce par les routes protégées, sans rechargement)
 api.interceptors.response.use(
   (response) => response,
   async (error) => {
-    // Ignorer les erreurs si la requête a été annulée
-    if (error.code === 'ERR_CANCELED' || error.message === 'canceled') {
-      return Promise.reject(error)
-    }
+    const original = error.config as (InternalAxiosRequestConfig & { _retry?: boolean }) | undefined
+    if (error.code === 'ERR_CANCELED' || !original) return Promise.reject(error)
 
-    const originalRequest = error.config
-
-    // Si pas de config, c'est probablement une erreur de réseau ou d'extension
-    if (!originalRequest) {
-      return Promise.reject(error)
-    }
-
-    // Si erreur 401 et pas déjà en cours de refresh
-    if (error.response?.status === 401 && !originalRequest._retry) {
-      if (isRefreshing) {
-        // Si un refresh est déjà en cours, mettre en queue
-        return new Promise((resolve, reject) => {
-          failedQueue.push({ resolve, reject })
-        })
-          .then(token => {
-            if (!originalRequest) {
-              return Promise.reject(new Error('Request cancelled'))
-            }
-            originalRequest.headers.Authorization = `Bearer ${token}`
-            return api(originalRequest)
-          })
-          .catch(err => {
-            return Promise.reject(err)
-          })
-      }
-
-      originalRequest._retry = true
-      isRefreshing = true
-
+    if (error.response?.status === 401 && !original._retry && !isAuthRoute(original.url)) {
+      original._retry = true
       try {
-        // Récupérer le refresh token
-        const authStorage = localStorage.getItem('auth-storage')
-        if (!authStorage) {
-          throw new Error('No auth storage')
+        const session = await refreshSession()
+        if (session) {
+          original.headers.Authorization = `Bearer ${session.token}`
+          return api(original)
         }
-
-        const parsed = JSON.parse(authStorage)
-        const refreshToken = parsed.state?.refreshToken
-
-        if (!refreshToken) {
-          throw new Error('No refresh token')
-        }
-
-        // Appeler l'API de refresh avec l'instance séparée (sans intercepteurs)
-        const response = await refreshApi.post('/auth/refresh', {
-          refreshToken
-        })
-
-        const { token: newToken, refreshToken: newRefreshToken } = response.data
-
-        // Mettre à jour le storage
-        const updatedAuth = {
-          ...parsed,
-          state: {
-            ...parsed.state,
-            token: newToken,
-            refreshToken: newRefreshToken
-          }
-        }
-        localStorage.setItem('auth-storage', JSON.stringify(updatedAuth))
-
-        // Mettre à jour le header de la requête originale
-        originalRequest.headers.Authorization = `Bearer ${newToken}`
-
-        // Traiter la queue
-        processQueue(null, newToken)
-
-        isRefreshing = false
-
-        // Réessayer la requête originale
-        return api(originalRequest)
-      } catch (refreshError) {
-        // Refresh échoué, déconnecter
-        processQueue(refreshError, null)
-        isRefreshing = false
-        localStorage.removeItem('auth-storage')
-        
-        // Rediriger vers login seulement si on n'est pas déjà sur la page de login
-        if (window.location.pathname !== '/login') {
-          const redirect = `${window.location.pathname}${window.location.search}`
-          window.location.href = `/login?redirect=${encodeURIComponent(redirect)}`
-        }
-        
-        return Promise.reject(refreshError)
+      } catch {
+        // Réseau indisponible : on renvoie l'erreur d'origine
       }
     }
-
     return Promise.reject(error)
-  }
+  },
 )
 
 export default api
 
 // Services spécifiques
 export const authService = {
-  login: (email: string, password: string) =>
-    api.post('/auth/login', { email, password }),
-  register: (email: string, password: string, name: string) =>
-    api.post('/auth/register', { email, password, name }),
+  login: (email: string, password: string) => sessionApi.post('/auth/login', { email, password }),
+  verify2FA: (challengeToken: string, code: { token?: string; backupCode?: string }) =>
+    sessionApi.post('/auth/2fa/verify-login', { challengeToken, ...code }),
+  register: (email: string, password: string, name: string) => sessionApi.post('/auth/register', { email, password, name }),
   getMe: () => api.get('/auth/me'),
-  refresh: (refreshToken: string) =>
-    api.post('/auth/refresh', { refreshToken }),
-  logout: (refreshToken: string) =>
-    api.post('/auth/logout', { refreshToken }),
   changePassword: (currentPassword: string, newPassword: string) =>
     api.put('/auth/change-password', { currentPassword, newPassword }),
+  getSessions: () => api.get('/auth/sessions'),
+  revokeSession: (id: string) => api.delete(`/auth/sessions/${id}`),
+  logoutAll: () => api.post('/auth/logout-all'),
 }
 
 export const communityService = {
