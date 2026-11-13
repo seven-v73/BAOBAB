@@ -31,10 +31,12 @@ const staticRoutes: Record<string, SeoInput> = {
   '/search': { title: 'Recherche', noindex: true },
   '/admin': { title: 'Administration', noindex: true },
   '/blog/admin': { title: 'Administration du blog', noindex: true },
+  '/blog/ecrire': { title: 'Écrire dans le carnet de savoirs', noindex: true },
 }
 
 /** Titre provisoire des pages de détail pendant le chargement de leurs données */
 const detailSections: Array<[RegExp, SeoInput]> = [
+  [/^\/blog\/ecrire\/[^/]+$/, { title: 'Modifier mon texte', noindex: true }],
   [/^\/blog\/[^/]+$/, { title: 'Carnet de savoirs' }],
   [/^\/country\/[^/]+$/, { title: 'Fiche pays' }],
   [/^\/figures\/[^/]+$/, { title: 'Personnalités' }],

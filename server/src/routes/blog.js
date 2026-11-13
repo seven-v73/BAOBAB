@@ -4,27 +4,26 @@ import {
   getBlogById,
   createBlog,
   updateBlog,
+  reviewBlog,
   deleteBlog,
 } from '../controllers/blogController.js'
-import { authenticate } from '../middleware/auth.js'
-import { authorize } from '../middleware/auth.js'
+import { authenticate, authorize, optionalAuthenticate } from '../middleware/auth.js'
 import { validateBlog, validateMongoId } from '../middleware/validation.js'
 
 const router = express.Router()
 
-// GET /api/blog - Récupérer tous les articles
-router.get('/', getAllBlogs)
+// Lecture publique (articles publiés) ; l'auteur et l'admin voient aussi les textes non publiés
+router.get('/', optionalAuthenticate, getAllBlogs)
+router.get('/:id', optionalAuthenticate, validateMongoId, getBlogById)
 
-// GET /api/blog/:id - Récupérer un article par ID
-router.get('/:id', validateMongoId, getBlogById)
-
-// POST /api/blog - Créer un nouvel article (Utilisateurs authentifiés)
+// Écriture : tout membre connecté peut proposer un texte (modéré avant publication)
 router.post('/', authenticate, validateBlog, createBlog)
 
-// PUT /api/blog/:id - Mettre à jour un article (Admin uniquement)
-router.put('/:id', authenticate, authorize('admin'), validateMongoId, validateBlog, updateBlog)
+// Modification / suppression : auteur (texte non publié) ou admin — contrôlé dans le contrôleur
+router.put('/:id', authenticate, validateMongoId, validateBlog, updateBlog)
+router.delete('/:id', authenticate, validateMongoId, deleteBlog)
 
-// DELETE /api/blog/:id - Supprimer un article (Admin uniquement)
-router.delete('/:id', authenticate, authorize('admin'), validateMongoId, deleteBlog)
+// Modération (admin)
+router.patch('/:id/review', authenticate, authorize('admin'), validateMongoId, reviewBlog)
 
 export default router

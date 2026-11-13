@@ -43,6 +43,7 @@ const Quizzes = lazy(() => import('./pages/Quizzes').then(module => ({ default: 
 const Quiz = lazy(() => import('./pages/Quiz').then(module => ({ default: module.Quiz })))
 const Proverbs = lazy(() => import('./pages/Proverbs').then(module => ({ default: module.Proverbs })))
 const MapPage = lazy(() => import('./pages/MapPage').then(module => ({ default: module.MapPage })))
+const BlogWrite = lazy(() => import('./pages/BlogWrite').then(module => ({ default: module.BlogWrite })))
 const NotFound = lazy(() => import('./pages/NotFound').then(module => ({ default: module.NotFound })))
 const SearchResults = lazy(() => import('./pages/SearchResults').then(module => ({ default: module.SearchResults })))
 
@@ -132,6 +133,26 @@ function App() {
           } 
         />
         <Route path="/blog" element={<Blog />} />
+        <Route
+          path="/blog/ecrire"
+          element={
+            <ProtectedRoute>
+              <Suspense fallback={<LoadingFallback />}>
+                <BlogWrite />
+              </Suspense>
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/blog/ecrire/:id"
+          element={
+            <ProtectedRoute>
+              <Suspense fallback={<LoadingFallback />}>
+                <BlogWrite />
+              </Suspense>
+            </ProtectedRoute>
+          }
+        />
         <Route path="/blog/:id" element={<BlogPostPage />} />
         <Route path="/sources" element={<Sources />} />
         <Route path="/contribute" element={<Contribute />} />

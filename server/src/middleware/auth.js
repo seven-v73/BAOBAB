@@ -48,3 +48,20 @@ export const authorize = (...roles) => {
   }
 }
 
+
+/**
+ * Authentification facultative : renseigne req.user si un jeton valide est fourni,
+ * sans jamais bloquer la requête (lecture publique avec droits étendus pour l'auteur ou l'admin).
+ */
+export const optionalAuthenticate = async (req, res, next) => {
+  const token = req.headers.authorization?.replace('Bearer ', '')
+  if (!token) return next()
+  try {
+    const decoded = verifyToken(token)
+    const user = await User.findById(decoded.userId).select('-password')
+    if (user && user.isActive) req.user = user
+  } catch {
+    // Jeton absent, expiré ou invalide : on continue en lecture publique
+  }
+  next()
+}

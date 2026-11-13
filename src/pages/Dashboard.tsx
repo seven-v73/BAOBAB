@@ -260,13 +260,9 @@ export const Dashboard = () => {
 
   const fetchMyBlogs = async () => {
     try {
-      const response = await blogService.getAll()
-      const allBlogs = Array.isArray(response.data) ? response.data : []
-      // Filtrer par auteur (nom de l'utilisateur)
-      const userBlogs = allBlogs.filter((blog: any) => 
-        blog.author === profile?.name || blog.author === authUser?.name
-      )
-      setMyBlogs(userBlogs)
+      // Textes du compte connecté, quel que soit leur statut (brouillon, relecture, publié)
+      const response = await blogService.getMine()
+      setMyBlogs(Array.isArray(response.data) ? response.data : [])
     } catch (err: any) {
       showError('Erreur lors du chargement de vos articles')
     }
@@ -1280,10 +1276,10 @@ export const Dashboard = () => {
               <div className="dashboard-my-blogs">
                 <div className="section-header">
                   <h2>Articles</h2>
-                  <Button onClick={() => setShowBlogForm(!showBlogForm)}>
-                    <span className="icon-plus" />
-                    {showBlogForm ? 'Annuler' : 'Nouvel article'}
-                  </Button>
+                  {/* L'écriture se fait désormais dans l'éditeur dédié (aperçu, sources, relecture) */}
+                  <Link to="/blog/ecrire" className="btn">
+                    Écrire un texte
+                  </Link>
                 </div>
 
                 {showBlogForm && (

@@ -19,6 +19,46 @@ const blogSchema = new mongoose.Schema({
     required: true,
     default: 'MonBaobab Team',
   },
+  // Compte de l'auteur (contributions de la communauté)
+  authorId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User',
+    index: true,
+  },
+  // « savoir » : article documenté (références obligatoires pour la communauté)
+  // « temoignage » : récit d'expérience personnelle, présenté comme tel
+  kind: {
+    type: String,
+    enum: ['savoir', 'temoignage'],
+    default: 'savoir',
+  },
+  // Cycle de modération. `published` reste le champ de visibilité, synchronisé ci-dessous.
+  status: {
+    type: String,
+    enum: ['draft', 'pending', 'published', 'rejected'],
+    default: 'published',
+    index: true,
+  },
+  reviewNote: {
+    type: String,
+    default: '',
+  },
+  // Références citées dans l'article (bibliographie)
+  references: [{
+    title: { type: String, required: true, trim: true, maxlength: 300 },
+    author: { type: String, default: '', trim: true, maxlength: 200 },
+    publisher: { type: String, default: '', trim: true, maxlength: 200 },
+    year: { type: Number, default: null },
+    url: { type: String, default: '', trim: true, maxlength: 600 },
+    note: { type: String, default: '', trim: true, maxlength: 300 },
+  }],
+  // Pays principal concerné (code ISO, facultatif)
+  country: {
+    type: String,
+    default: '',
+    uppercase: true,
+    trim: true,
+  },
   // Sources pour vérification
   sources: [{
     type: mongoose.Schema.Types.ObjectId,
@@ -70,7 +110,7 @@ const blogSchema = new mongoose.Schema({
   category: {
     type: String,
     default: 'Histoire',
-    enum: ['Histoire', 'Culture', 'Géographie', 'Économie', 'Politique', 'Autre'],
+    enum: ['Histoire', 'Culture', 'Géographie', 'Économie', 'Politique', 'Société', 'Arts', 'Cuisine', 'Langues', 'Autre'],
   },
   tags: {
     type: [String],
@@ -86,6 +126,14 @@ const blogSchema = new mongoose.Schema({
   },
 }, {
   timestamps: true,
+})
+
+// La visibilité publique découle du statut de modération
+blogSchema.pre('save', function syncPublished(next) {
+  if (this.isModified('status') || this.isNew) {
+    this.published = this.status === 'published'
+  }
+  next()
 })
 
 // Index pour la recherche full-text

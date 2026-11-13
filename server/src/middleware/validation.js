@@ -54,12 +54,37 @@ export const validateBlog = [
     .withMessage('Le contenu doit contenir au moins 10 caractères'),
   body('category')
     .optional()
-    .isIn(['Histoire', 'Culture', 'Géographie', 'Économie', 'Politique', 'Autre'])
+    .isIn(['Histoire', 'Culture', 'Géographie', 'Économie', 'Politique', 'Société', 'Arts', 'Cuisine', 'Langues', 'Autre'])
     .withMessage('Catégorie invalide'),
   body('tags')
     .optional()
-    .isArray()
-    .withMessage('Les tags doivent être un tableau'),
+    .isArray({ max: 10 })
+    .withMessage('Les tags doivent être un tableau (10 au maximum)'),
+  body('kind')
+    .optional()
+    .isIn(['savoir', 'temoignage'])
+    .withMessage('Type de texte invalide'),
+  body('status')
+    .optional()
+    .isIn(['draft', 'pending', 'published', 'rejected'])
+    .withMessage('Statut invalide'),
+  body('references')
+    .optional()
+    .isArray({ max: 30 })
+    .withMessage('Les références doivent être une liste (30 au maximum)'),
+  body('references.*.title')
+    .optional()
+    .isString()
+    .isLength({ max: 300 })
+    .withMessage('Titre de référence trop long'),
+  body('references.*.url')
+    .optional({ values: 'falsy' })
+    .isURL({ protocols: ['http', 'https'], require_protocol: true })
+    .withMessage('Lien de référence invalide (http ou https)'),
+  body('image')
+    .optional({ values: 'falsy' })
+    .custom((value) => /^(https?:\/\/|\/)/.test(value))
+    .withMessage('Image : lien http(s) ou chemin du site attendu'),
   validate
 ]
 

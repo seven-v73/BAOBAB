@@ -46,6 +46,7 @@ const esc = (value) =>
 const plain = (value) =>
   String(value ?? '')
     .replace(/<[^>]+>/g, ' ')
+    .replace(/\[\d+\]/g, '')
     .replace(/[#*_`>\[\]]/g, '')
     .replace(/\s+/g, ' ')
     .trim()
@@ -81,6 +82,37 @@ const paragraphs = (text, max = 12) =>
     .slice(0, max)
     .map((p) => `<p>${esc(p)}</p>`)
     .join('\n')
+
+/** Texte d'article (syntaxe du carnet : ## parties, > citations, - listes, [n] notes) → HTML sûr */
+const articleHtml = (content = '') =>
+  String(content)
+    .replace(/\r\n/g, '\n')
+    .split(/\n{2,}/)
+    .map((chunk) => chunk.trim())
+    .filter(Boolean)
+    .map((chunk) => {
+      const inline = (text) =>
+        esc(text)
+          .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+          .replace(/\*([^*]+)\*/g, '<em>$1</em>')
+          .replace(/\s*\[(\d+)\]/g, '<sup><a href="#ref-$1">$1</a></sup>')
+      const lines = chunk.split('\n').map((line) => line.trim())
+      if (/^#{2,3}\s/.test(chunk)) return `<h2>${inline(chunk.replace(/^#{2,3}\s+/, ''))}</h2>`
+      if (lines.every((line) => line.startsWith('>'))) return `<blockquote>${inline(lines.map((l) => l.replace(/^>\s?/, '')).join(' '))}</blockquote>`
+      if (lines.every((line) => /^[-•]\s+/.test(line))) return `<ul>${lines.map((l) => `<li>${inline(l.replace(/^[-•]\s+/, ''))}</li>`).join('')}</ul>`
+      return `<p>${inline(lines.join(' '))}</p>`
+    })
+    .join('\n')
+
+const referencesHtml = (references = []) =>
+  references.length
+    ? `<h2>Références</h2><ol>${references
+        .map(
+          (ref, i) =>
+            `<li id="ref-${i + 1}">${esc(ref.title)}${[ref.author, ref.publisher, ref.year].filter(Boolean).length ? ` — ${esc([ref.author, ref.publisher, ref.year].filter(Boolean).join(', '))}` : ''}${ref.url ? ` <a href="${esc(ref.url)}" rel="nofollow">${esc(ref.url)}</a>` : ''}</li>`,
+        )
+        .join('')}</ol>`
+    : ''
 
 const list = (items, render = (item) => esc(item)) =>
   items && items.length ? `<ul>${items.map((item) => `<li>${render(item)}</li>`).join('')}</ul>` : ''
@@ -284,7 +316,7 @@ ${c.notableFigures?.length ? `<h2>Personnalités</h2>${list(c.notableFigures)}` 
       lastmod: b.updatedAt,
       breadcrumbs: [home, { name: 'Carnet de savoirs', path: '/blog' }, { name: b.title, path: path_ }],
       priority: '0.8',
-      body: `<p><em>${esc(b.category || '')} · ${esc(b.author || SITE_NAME)}</em></p>\n${paragraphs(b.content, 40)}`,
+      body: `<p><em>${esc(b.category || '')} · ${b.kind === 'temoignage' ? 'Témoignage' : 'Article documenté'} · ${esc(b.author || SITE_NAME)}</em></p>\n${b.excerpt ? `<p><strong>${esc(plain(b.excerpt))}</strong></p>` : ''}\n${articleHtml(b.content)}\n${referencesHtml(b.references)}`,
       jsonLd: {
         '@type': 'Article',
         headline: clip(b.title, 110),
@@ -292,7 +324,8 @@ ${c.notableFigures?.length ? `<h2>Personnalités</h2>${list(c.notableFigures)}` 
         image: b.image ? [absolute(b.image)] : undefined,
         datePublished: isoDate(b.createdAt),
         dateModified: isoDate(b.updatedAt),
-        author: { '@type': 'Organization', name: b.author || SITE_NAME },
+        author: { '@type': b.authorId && b.author !== 'Rédaction MonBaobab' ? 'Person' : 'Organization', name: b.author || SITE_NAME },
+        citation: (b.references || []).map((ref) => ref.url || ref.title),
         publisher: { '@id': `${SITE}/#organization` },
         articleSection: b.category || undefined,
         keywords: (b.tags || []).join(', ') || undefined,
@@ -553,6 +586,7 @@ Disallow: /checkout
 Disallow: /cart
 Disallow: /orders/
 Disallow: /blog/admin
+Disallow: /blog/ecrire
 Disallow: /${SHELL_FILE}
 
 Sitemap: ${SITE}/sitemap.xml

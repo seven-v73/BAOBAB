@@ -7,6 +7,7 @@ import { Input } from '../../components/Input/Input'
 import { FileUpload } from '../../components/FileUpload/FileUpload'
 import { MediaUpload } from '../../components/Community/MediaUpload'
 import { blogService } from '../../services/api'
+import { ModerationQueue } from '../../components/Article/ModerationQueue'
 import { useNotifications } from '../../hooks/useNotifications'
 import { useConfirmDialog } from '../../components/UX/ConfirmDialog'
 import { Plus, Edit, Trash2, Eye, Search, Image as ImageIcon, FileText, Video, File as FileIcon, X, ArrowUp, ArrowDown, Link as LinkIcon } from 'lucide-react'
@@ -353,6 +354,8 @@ export const AdminBlog = () => {
           {showForm ? 'Annuler' : 'Nouvel Article'}
         </Button>
       </div>
+
+      <ModerationQueue onChange={fetchPosts} />
 
       <div className="blog-search-bar">
         <Search size={20} />
@@ -892,7 +895,7 @@ export const AdminBlog = () => {
               <div className="admin-post-header">
                 <div className="admin-post-status">
                   <span className={`status-badge ${post.published ? 'published' : 'draft'}`}>
-                    {post.published ? 'Publié' : 'Brouillon'}
+                    {post.published ? 'Publié' : ({ pending: 'En relecture', rejected: 'Renvoyé', draft: 'Brouillon' } as Record<string, string>)[(post as { status?: string }).status || 'draft'] || 'Brouillon'}
                   </span>
                   <span className="views-count">{post.views} vues</span>
                 </div>

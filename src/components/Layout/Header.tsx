@@ -5,6 +5,7 @@ import {
   BookOpen,
   ChevronDown,
   Clock3,
+  Feather,
   FileText,
   GraduationCap,
   Layers,
@@ -62,7 +63,8 @@ export const navigation: NavEntry[] = [
     label: 'Communauté',
     items: [
       { to: '/communities', label: 'Cercles', description: 'Échanger autour d’un pays ou d’un thème', icon: UsersRound },
-      { to: '/contribute', label: 'Contribuer', description: 'Partager une histoire, un savoir, un lieu', icon: PenLine },
+      { to: '/blog/ecrire', label: 'Écrire dans le carnet', description: 'Transmettre un savoir ou une expérience', icon: Feather },
+      { to: '/contribute', label: 'Contribuer', description: 'Proposer un lieu, une correction, une source', icon: PenLine },
       { to: '/sources', label: 'Sources & provenance', description: 'D’où viennent nos contenus', icon: GraduationCap },
     ],
   },
@@ -88,7 +90,11 @@ export const Header = () => {
   const platformName = settings?.platformName || 'MonBaobab'
   const isDark = theme === 'dark'
 
-  const isActive = (to: string) => location.pathname === to || location.pathname.startsWith(`${to}/`)
+  // Une seule entrée active : la plus précise (ex. /blog/ecrire active « Écrire », pas « Carnet de savoirs »)
+  const allPaths = navigation.flatMap((entry) => (entry.kind === 'link' ? [entry.to] : entry.items.map((item) => item.to)))
+  const matches = (to: string) => location.pathname === to || location.pathname.startsWith(`${to}/`)
+  const bestMatch = allPaths.filter(matches).sort((a, b) => b.length - a.length)[0]
+  const isActive = (to: string) => to === bestMatch
   const entryIsActive = (entry: NavEntry) =>
     entry.kind === 'link' ? isActive(entry.to) : entry.items.some((item) => isActive(item.to))
 

@@ -1,156 +1,221 @@
-import { useState, useEffect } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
+import { ArrowRight, BookOpen, Feather, PenLine, Search, ShieldCheck } from 'lucide-react'
 import { Layout } from '../components/Layout/Layout'
-import { Card } from '../components/Card/Card'
-import { Input } from '../components/Input/Input'
+import { readingMinutes } from '../components/Article/ArticleBody'
 import { blogService } from '../services/api'
-import { foundationBlogPosts } from '../data/foundationContent'
-import { withContextualBlogVisual } from '../data/blogVisuals'
+import type { BlogPost } from './BlogPost'
 import './Blog.css'
 
-interface BlogPost {
-  _id: string
-  title: string
-  content: string
-  excerpt: string
-  author: string
-  image?: string
-  category: string
-  tags: string[]
-  published: boolean
-  views: number
-  createdAt: string
-  updatedAt: string
-}
+type KindFilter = 'all' | 'savoir' | 'temoignage'
+
+const formatDate = (value: string) => new Date(value).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })
+
+const Meta = ({ post }: { post: BlogPost }) => (
+  <p className="bl-meta">
+    <span>{post.author}</span>
+    <span>
+      <BookOpen size={14} aria-hidden={true} /> {readingMinutes(post.content)} min
+    </span>
+    {post.kind === 'temoignage' ? (
+      <span className="bl-badge bl-badge--testimony">
+        <Feather size={13} aria-hidden={true} /> Témoignage
+      </span>
+    ) : (post.references?.length ?? 0) > 0 ? (
+      <span className="bl-badge">
+        <ShieldCheck size={13} aria-hidden={true} /> {post.references!.length} source{post.references!.length > 1 ? 's' : ''}
+      </span>
+    ) : null}
+  </p>
+)
 
 export const Blog = () => {
-  const [posts, setPosts] = useState<BlogPost[]>(foundationBlogPosts)
-  const [loading, setLoading] = useState(false)
-  const [searchTerm, setSearchTerm] = useState('')
-  const [categoryFilter, setCategoryFilter] = useState('')
+  const [posts, setPosts] = useState<BlogPost[]>([])
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState(false)
+  const [kind, setKind] = useState<KindFilter>('all')
+  const [category, setCategory] = useState('')
+  const [query, setQuery] = useState('')
 
   useEffect(() => {
-    const fetchPosts = async () => {
-      try {
-        const response = await blogService.getAll()
-        const responsePosts = Array.isArray(response.data)
-          ? response.data
-          : response.data.blogs || response.data.data || response.data.posts || []
-        // Filtrer uniquement les articles publiés
-        const publishedPosts = responsePosts
-          .filter((post: BlogPost) => post.published !== false)
-          .map(withContextualBlogVisual)
-        setPosts(publishedPosts.length > 0 ? publishedPosts : foundationBlogPosts)
-      } catch (error) {
-        console.error('Erreur lors du chargement des articles:', error)
-        setPosts(foundationBlogPosts)
-      } finally {
-        setLoading(false)
-      }
-    }
-
-    fetchPosts()
+    blogService
+      .getAll({ published: true })
+      .then((response) => setPosts(response.data))
+      .catch(() => setError(true))
+      .finally(() => setLoading(false))
   }, [])
 
-  const categories = Array.from(new Set(posts.map((post) => post.category).filter(Boolean)))
-  const filteredPosts = posts.filter((post) => {
-    const query = searchTerm.trim().toLowerCase()
-    const matchesSearch = !query ||
-      post.title.toLowerCase().includes(query) ||
-      (post.excerpt || '').toLowerCase().includes(query) ||
-      post.content.toLowerCase().includes(query) ||
-      post.tags?.some((tag) => tag.toLowerCase().includes(query))
-    const matchesCategory = !categoryFilter || post.category === categoryFilter
-    return matchesSearch && matchesCategory
-  })
+  const categories = useMemo(() => [...new Set(posts.map((post) => post.category).filter(Boolean))] as string[], [posts])
+
+  const filtered = useMemo(() => {
+    const q = query.trim().toLowerCase()
+    return posts.filter(
+      (post) =>
+        (kind === 'all' || (post.kind || 'savoir') === kind) &&
+        (!category || post.category === category) &&
+        (!q || `${post.title} ${post.excerpt} ${post.tags?.join(' ')} ${post.author}`.toLowerCase().includes(q)),
+    )
+  }, [posts, kind, category, query])
+
+  const isFiltered = kind !== 'all' || Boolean(category) || Boolean(query.trim())
+  const [featured, ...rest] = filtered
 
   return (
-    <Layout>
-      <div className="blog">
-        <div className="blog-header">
-          <h1>Récits et mémoire</h1>
-          <p className="blog-subtitle">
-            Articles, repères et lectures pour comprendre les lieux, les époques et les héritages.
-          </p>
+    <Layout fullWidth>
+      <div className="bl">
+        {/* ---------- En-tête ---------- */}
+        <header className="bl-head container">
+          <div>
+            <p className="eyebrow">Carnet de savoirs</p>
+            <h1>Lire, comprendre, transmettre</h1>
+            <p className="bl-head__lead">
+              Des articles documentés et sourcés, et des témoignages de celles et ceux qui vivent les cultures dont ils parlent.
+            </p>
+          </div>
+          <Link to="/blog/ecrire" className="btn btn-large">
+            <PenLine size={18} aria-hidden={true} /> Écrire un texte
+          </Link>
+        </header>
+
+        {/* ---------- Filtres ---------- */}
+        <div className="bl-filters container">
+          <div className="bl-kinds" role="tablist" aria-label="Type de texte">
+            {(
+              [
+                ['all', 'Tout'],
+                ['savoir', 'Articles documentés'],
+                ['temoignage', 'Témoignages'],
+              ] as Array<[KindFilter, string]>
+            ).map(([value, label]) => (
+              <button key={value} type="button" role="tab" aria-selected={kind === value} className={kind === value ? 'is-active' : ''} onClick={() => setKind(value)}>
+                {label}
+              </button>
+            ))}
+          </div>
+          <div className="bl-filters__right">
+            <label className="bl-search">
+              <Search size={16} aria-hidden={true} />
+              <span className="sr-only">Rechercher un texte</span>
+              <input type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Rechercher" />
+            </label>
+            <label className="sr-only" htmlFor="bl-category">
+              Thème
+            </label>
+            <select id="bl-category" value={category} onChange={(event) => setCategory(event.target.value)}>
+              <option value="">Tous les thèmes</option>
+              {categories.map((item) => (
+                <option key={item} value={item}>
+                  {item}
+                </option>
+              ))}
+            </select>
+          </div>
         </div>
 
-        <div className="blog-controls" aria-label="Filtres des articles">
-          <Input
-            type="search"
-            value={searchTerm}
-            onChange={(event) => setSearchTerm(event.target.value)}
-            placeholder="Rechercher un article, un thème, un tag..."
-          />
-          <select
-            value={categoryFilter}
-            onChange={(event) => setCategoryFilter(event.target.value)}
-            className="blog-category-filter"
-            aria-label="Filtrer par catégorie"
-          >
-            <option value="">Toutes les catégories</option>
-            {categories.map((category) => (
-              <option key={category} value={category}>{category}</option>
-            ))}
-          </select>
-          {(searchTerm || categoryFilter) && (
-            <button type="button" className="blog-clear-filters" onClick={() => {
-              setSearchTerm('')
-              setCategoryFilter('')
-            }}>
-              Effacer
-            </button>
+        <div className="container">
+          {loading ? (
+            <div className="bl-grid" aria-busy="true">
+              <div className="mb-skeleton bl-skeleton-feature" />
+              {[0, 1, 2].map((i) => (
+                <div key={i} className="mb-skeleton" style={{ height: 340 }} />
+              ))}
+            </div>
+          ) : error ? (
+            <div className="mb-state">
+              <h3>Le carnet est momentanément indisponible</h3>
+              <p>Réessayez dans quelques instants.</p>
+              <button type="button" className="btn" onClick={() => window.location.reload()}>
+                Réessayer
+              </button>
+            </div>
+          ) : filtered.length === 0 ? (
+            <div className="mb-state">
+              <h3>{posts.length === 0 ? 'Aucun texte publié pour le moment' : 'Aucun texte ne correspond'}</h3>
+              <p>{posts.length === 0 ? 'Soyez la première personne à transmettre un savoir.' : 'Essayez un autre thème ou un autre mot.'}</p>
+              {isFiltered ? (
+                <button
+                  type="button"
+                  className="btn btn-outline"
+                  onClick={() => {
+                    setKind('all')
+                    setCategory('')
+                    setQuery('')
+                  }}
+                >
+                  Effacer les filtres
+                </button>
+              ) : (
+                <Link to="/blog/ecrire" className="btn">
+                  Écrire un texte
+                </Link>
+              )}
+            </div>
+          ) : (
+            <>
+              {/* ---------- À la une ---------- */}
+              {featured && (
+                <Link to={`/blog/${featured._id}`} className="bl-feature">
+                  <div className="bl-feature__media">{featured.image && <img src={featured.image} alt="" />}</div>
+                  <div className="bl-feature__body">
+                    <p className="bl-kicker">
+                      {isFiltered ? featured.category : 'À la une'} · {formatDate(featured.createdAt)}
+                    </p>
+                    <h2>{featured.title}</h2>
+                    {featured.excerpt && <p className="bl-feature__excerpt">{featured.excerpt}</p>}
+                    <Meta post={featured} />
+                    <span className="link-arrow">
+                      Lire le texte <ArrowRight size={16} aria-hidden={true} />
+                    </span>
+                  </div>
+                </Link>
+              )}
+
+              {rest.length > 0 && (
+                <div className="bl-grid">
+                  {rest.map((post) => (
+                    <Link key={post._id} to={`/blog/${post._id}`} className="bl-card">
+                      <div className="bl-card__media">{post.image && <img src={post.image} alt="" loading="lazy" />}</div>
+                      <div className="bl-card__body">
+                        <p className="bl-kicker">{post.category}</p>
+                        <h3>{post.title}</h3>
+                        {post.excerpt && <p className="bl-card__excerpt">{post.excerpt}</p>}
+                        <Meta post={post} />
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </>
           )}
         </div>
 
-        {loading ? (
-          <div className="blog-loading">Chargement des articles...</div>
-        ) : posts.length === 0 ? (
-          <div className="blog-empty">
-            <p>Aucun article disponible pour le moment.</p>
+        {/* ---------- Transmettre ---------- */}
+        <section className="bl-invite" aria-labelledby="bl-invite-title">
+          <div className="container bl-invite__inner">
+            <div>
+              <p className="eyebrow">À vous la plume</p>
+              <h2 id="bl-invite-title">Vous avez un savoir ou une expérience à transmettre ?</h2>
+              <p>
+                Une recette de famille, l’histoire d’un lieu, un savoir-faire, un souvenir : chaque texte est relu par l’équipe avant
+                publication, pour qu’il soit à la fois fidèle à votre voix et juste dans ses faits.
+              </p>
+            </div>
+            <ol className="bl-steps">
+              <li>
+                <strong>Choisissez</strong> un article documenté ou un témoignage
+              </li>
+              <li>
+                <strong>Écrivez</strong> avec l’aperçu en direct, citez vos sources
+              </li>
+              <li>
+                <strong>Soumettez</strong> : nous relisons et vous répondons
+              </li>
+            </ol>
+            <Link to="/blog/ecrire" className="btn btn-large">
+              <PenLine size={18} aria-hidden={true} /> Commencer à écrire
+            </Link>
           </div>
-        ) : filteredPosts.length === 0 ? (
-          <div className="blog-empty">
-            <p>Aucun article ne correspond à votre recherche.</p>
-            <button type="button" className="blog-clear-filters" onClick={() => {
-              setSearchTerm('')
-              setCategoryFilter('')
-            }}>
-              Réinitialiser les filtres
-            </button>
-          </div>
-        ) : (
-          <div className="blog-grid">
-            {filteredPosts.map((post) => (
-              <Card key={post._id} className="blog-card">
-                {post.image && (
-                  <div className="blog-image">
-                    <img src={post.image} alt={post.title} />
-                  </div>
-                )}
-                <div className="blog-category">{post.category}</div>
-                <h3>{post.title}</h3>
-                <p className="blog-excerpt">{post.excerpt || post.content.substring(0, 200) + '...'}</p>
-                <div className="blog-meta">
-                  <span className="blog-author">{post.author}</span>
-                  <span className="blog-date">
-                    {new Date(post.createdAt).toLocaleDateString('fr-FR')}
-                  </span>
-                  <span className="blog-views">{post.views} vues</span>
-                </div>
-                {post.tags && post.tags.length > 0 && (
-                  <div className="blog-tags">
-                    {post.tags.map((tag, index) => (
-                      <span key={index} className="blog-tag">{tag}</span>
-                    ))}
-                  </div>
-                )}
-                <Link to={`/blog/${post._id}`} className="blog-link">
-                  Lire
-                </Link>
-              </Card>
-            ))}
-          </div>
-        )}
+        </section>
       </div>
     </Layout>
   )

@@ -258,7 +258,12 @@ export const productService = {
 }
 
 export const blogService = {
-  getAll: () => api.get('/blog'),
+  getAll: (params?: { category?: string; kind?: string; status?: string; published?: boolean; search?: string }) =>
+    api.get('/blog', { params }),
+  /** Textes de l'utilisateur connecté, quel que soit leur statut */
+  getMine: () => api.get('/blog', { params: { mine: true } }),
+  /** Modération (admin) : publier ou renvoyer à l'auteur avec une note */
+  review: (id: string, decision: 'approve' | 'reject', note?: string) => api.patch(`/blog/${id}/review`, { decision, note }),
   getById: (id: string) => api.get(`/blog/${id}`),
   create: (data: any) => api.post('/blog', data),
   update: (id: string, data: any) => api.put(`/blog/${id}`, data),
