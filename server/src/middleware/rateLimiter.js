@@ -3,7 +3,10 @@ import env from '../config/env.js'
 
 // Rate limiting général pour toutes les routes API
 // Limite plus élevée en développement
-const maxRequests = env.NODE_ENV === 'production' ? 100 : 1000
+// 400 requêtes / 15 min par IP : une page des espaces membres déclenche 5 à 15 appels, et de nombreux
+// utilisateurs partagent la même IP sur les réseaux mobiles (CGNAT). Les tentatives de connexion
+// gardent leur propre limite stricte (authLimiter).
+const maxRequests = env.NODE_ENV === 'production' ? 400 : 1000
 
 export const apiLimiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
