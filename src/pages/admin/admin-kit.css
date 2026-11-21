@@ -1,0 +1,404 @@
+/* Kit commun des sections d'administration, au langage de la refonte.
+ * Portée : .mba-contenu (zone de travail de l'admin) ; la spécificité (deux classes) passe devant
+ * les feuilles historiques de chaque section sans recourir à !important. */
+
+/* ---------- En-tête de section : le titre est déjà dans la barre du haut ---------- */
+.mba-contenu .admin-section-header,
+.mba-contenu .settings-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 20px;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+.mba-contenu .admin-section-header > div:first-child h2,
+.mba-contenu .admin-section-header > h2 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+
+.mba-contenu .admin-section-header > div:first-child p {
+  margin: 0;
+  color: var(--brand-texte-doux);
+}
+
+/* ---------- Cartes ---------- */
+.mba-contenu .card,
+.mba-contenu .form-card,
+.mba-contenu .settings-card {
+  padding: 24px;
+  border: 0;
+  border-radius: 24px;
+  background: var(--brand-blanc);
+  box-shadow: none;
+  color: var(--brand-foret);
+}
+
+.mba-contenu .card::before,
+.mba-contenu .card::after {
+  content: none;
+}
+
+.mba-contenu .form-card {
+  margin-bottom: 24px;
+}
+
+.mba-contenu h2,
+.mba-contenu h3,
+.mba-contenu h4 {
+  color: var(--brand-foret);
+  font-family: var(--font-titre);
+}
+
+/* ---------- Formulaires ---------- */
+.mba-contenu .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.mba-contenu .form-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0 16px;
+}
+
+.mba-contenu .input-label,
+.mba-contenu .form-group > label {
+  color: var(--brand-foret);
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.mba-contenu input:not([type='checkbox']):not([type='radio']):not([type='file']):not([type='range']),
+.mba-contenu select,
+.mba-contenu textarea,
+.mba-contenu .form-textarea,
+.mba-contenu .form-select {
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 14px;
+  border: 1px solid var(--brand-trait-champ);
+  border-radius: 12px;
+  background: var(--brand-blanc);
+  color: var(--brand-foret);
+  font: 400 0.9375rem / 1.4 var(--font-texte);
+  box-shadow: none;
+}
+
+.mba-contenu textarea,
+.mba-contenu .form-textarea {
+  min-height: 110px;
+  resize: vertical;
+}
+
+.mba-contenu input:focus,
+.mba-contenu select:focus,
+.mba-contenu textarea:focus {
+  border-color: var(--brand-foret);
+  outline: 2px solid var(--brand-foret);
+  outline-offset: 0;
+}
+
+.mba-contenu input::placeholder,
+.mba-contenu textarea::placeholder {
+  color: rgb(23 65 35 / 0.45);
+}
+
+.mba-contenu .form-checkbox,
+.mba-contenu .settings-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mba-contenu input[type='checkbox'] {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--brand-foret);
+}
+
+.mba-contenu .field-meta {
+  color: var(--brand-texte-doux);
+  font-size: 0.8125rem;
+}
+
+.mba-contenu .form-actions,
+.mba-contenu .sticky-form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 8px;
+  padding-top: 16px;
+  border-top: 1px solid var(--brand-trait);
+  background: var(--brand-blanc);
+}
+
+/* Composant Input : enveloppe sans cadre en double */
+.mba-contenu .input-wrapper {
+  border: 0;
+  background: none;
+  box-shadow: none;
+}
+
+/* ---------- Onglets de formulaire ---------- */
+.mba-contenu .form-tabs,
+.mba-contenu .filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+.mba-contenu .section-header-tab,
+.mba-contenu .form-tabs button,
+.mba-contenu .filter-buttons button {
+  min-height: 38px;
+  padding: 0 16px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--brand-vert-pale);
+  color: var(--brand-foret);
+  font: 600 0.875rem / 1 var(--font-texte);
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.mba-contenu .section-header-tab.active,
+.mba-contenu .form-tabs button.active,
+.mba-contenu .filter-buttons button.active,
+.mba-contenu .filter-buttons .btn-primary {
+  background: var(--brand-foret);
+  color: var(--brand-blanc);
+}
+
+/* ---------- Recherche ---------- */
+.mba-contenu .admin-search,
+.mba-contenu .search-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 6px 6px 6px 16px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--brand-blanc);
+  box-shadow: none;
+}
+
+.mba-contenu .admin-search input,
+.mba-contenu .search-bar input {
+  min-height: 40px;
+  border: 0;
+  background: none;
+}
+
+.mba-contenu .admin-search input:focus,
+.mba-contenu .search-bar input:focus {
+  outline: none;
+}
+
+.mba-contenu .admin-search:focus-within,
+.mba-contenu .search-bar:focus-within {
+  outline: 2px solid var(--brand-foret);
+  outline-offset: 2px;
+}
+
+/* ---------- Tableaux ---------- */
+.mba-contenu .admin-table-container {
+  overflow-x: auto;
+  padding: 0 8px;
+  border: 0;
+  border-radius: 24px;
+  background: var(--brand-blanc);
+  box-shadow: none;
+}
+
+.mba-contenu .admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: none;
+}
+
+.mba-contenu .admin-table th {
+  padding: 14px 12px;
+  border-bottom: 1px solid var(--brand-trait);
+  background: none;
+  color: var(--brand-texte-doux);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.mba-contenu .admin-table td {
+  padding: 14px 12px;
+  border-bottom: 1px solid var(--brand-trait);
+  background: none;
+  color: var(--brand-foret);
+  font-size: 0.9375rem;
+  vertical-align: middle;
+}
+
+.mba-contenu .admin-table tr:last-child td {
+  border-bottom: 0;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .mba-contenu .admin-table tbody tr:hover td {
+    background: color-mix(in srgb, var(--brand-vert-pale) 60%, transparent);
+  }
+}
+
+.mba-contenu .table-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.mba-contenu .table-actions .btn,
+.mba-contenu .media-item-actions .btn,
+.mba-contenu .item-controls button,
+.mba-contenu .move-btn,
+.mba-contenu .remove-btn {
+  width: 36px;
+  min-height: 36px;
+  padding: 0;
+  border: 1.5px solid var(--brand-trait-fort);
+  border-radius: 50%;
+  background: var(--brand-blanc);
+  color: var(--brand-foret);
+}
+
+/* ---------- Badges ---------- */
+.mba-contenu .verified-badge,
+.mba-contenu .featured-badge,
+.mba-contenu .not-verified,
+.mba-contenu .status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--brand-vert-pale);
+  color: var(--brand-foret);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  box-shadow: none;
+}
+
+.mba-contenu .verified-badge,
+.mba-contenu .featured-badge {
+  background: var(--brand-foret);
+  color: var(--brand-blanc);
+}
+
+.mba-contenu .not-verified {
+  background: color-mix(in srgb, var(--brand-ambre) 26%, var(--brand-blanc));
+}
+
+/* ---------- Médias (images, documents, vidéos des formulaires) ---------- */
+.mba-contenu .media-section {
+  margin-bottom: 16px;
+  padding: 16px;
+  border: 1px solid var(--brand-trait);
+  border-radius: 16px;
+  background: var(--brand-creme);
+}
+
+.mba-contenu .media-section-header,
+.mba-contenu .media-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.mba-contenu .media-item {
+  margin-top: 10px;
+  padding: 14px;
+  border: 0;
+  border-radius: 14px;
+  background: var(--brand-blanc);
+}
+
+.mba-contenu .media-item-number {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--brand-vert-pale);
+  font-size: 0.8125rem;
+  font-weight: 700;
+}
+
+.mba-contenu .media-upload-mode {
+  display: flex;
+  gap: 8px;
+  margin: 8px 0;
+}
+
+/* ---------- États ---------- */
+.mba-contenu .admin-loading,
+.mba-contenu .empty-state,
+.mba-contenu .admin-empty,
+.mba-contenu .empty-message {
+  padding: 40px 24px;
+  border-radius: 24px;
+  background: var(--brand-blanc);
+  color: var(--brand-texte-doux);
+  text-align: center;
+}
+
+.mba-contenu .admin-loading {
+  background: none;
+}
+
+/* Statistiques en tête de section (membres, etc.) */
+.mba-contenu .stat-item {
+  padding: 12px 16px;
+  border: 0;
+  border-radius: 16px;
+  background: var(--brand-blanc);
+  box-shadow: none;
+}
+
+.mba-contenu .stat-value {
+  color: var(--brand-foret);
+  font: 800 1.5rem / 1 var(--font-titre);
+}
+
+.mba-contenu .stat-label {
+  color: var(--brand-texte-doux);
+  font-size: 0.8125rem;
+}
+
+/* Fenêtres modales des sections */
+.mba-contenu .modal-overlay,
+.mba-contenu .admin-modal-overlay {
+  background: rgb(17 17 17 / 0.45);
+}
+
+.mba-contenu .modal,
+.mba-contenu .modal-content,
+.mba-contenu .admin-modal {
+  border: 0;
+  border-radius: 28px;
+  background: var(--brand-creme);
+  box-shadow: var(--shadow-float);
+}
