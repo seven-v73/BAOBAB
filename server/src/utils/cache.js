@@ -34,6 +34,9 @@ export const initRedis = async () => {
   }
 }
 
+/** Client Redis prêt à l'emploi, ou null (non configuré, en cours de connexion ou coupé) */
+export const getRedisClient = () => (redisClient?.isReady ? redisClient : null)
+
 /**
  * Ferme la connexion Redis
  */

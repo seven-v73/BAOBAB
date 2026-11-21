@@ -66,6 +66,12 @@ const proverbSchema = new mongoose.Schema({
     type: Number,
     default: 0,
   },
+  // Membres ayant aimé (un « j'aime » par compte) ; jamais renvoyé par défaut
+  likedBy: {
+    type: [{ type: mongoose.Schema.Types.ObjectId, ref: 'User' }],
+    default: [],
+    select: false,
+  },
   isFeatured: {
     type: Boolean,
     default: false,

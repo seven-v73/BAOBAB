@@ -150,6 +150,27 @@ export const disable2FA = catchAsync(async (req, res, next) => {
   })
 })
 
+export const MAX_2FA_ATTEMPTS = 5
+export const TWO_FA_LOCK_MINUTES = 15
+
+/** Réserve une tentative de code ; null si le compte est bloqué. */
+const reserve2FAAttempt = async (id) => {
+  const now = new Date()
+  // Blocage expiré : on repart de zéro
+  await TwoFactorAuth.updateOne({ _id: id, lockedUntil: { $ne: null, $lte: now } }, { $set: { failedAttempts: 0, lockedUntil: null } })
+  const updated = await TwoFactorAuth.findOneAndUpdate(
+    { _id: id, failedAttempts: { $lt: MAX_2FA_ATTEMPTS } },
+    { $inc: { failedAttempts: 1 } },
+    { new: true },
+  )
+  if (!updated) return null
+  if (updated.failedAttempts >= MAX_2FA_ATTEMPTS) {
+    // Dernière tentative autorisée : le blocage démarre (levé aussitôt si le code est bon)
+    await TwoFactorAuth.updateOne({ _id: id }, { $set: { lockedUntil: new Date(Date.now() + TWO_FA_LOCK_MINUTES * 60 * 1000) } })
+  }
+  return updated
+}
+
 // POST /api/auth/2fa/verify-login - Vérifier le code 2FA lors de la connexion
 export const verify2FALogin = catchAsync(async (req, res, next) => {
   const { challengeToken, token, backupCode } = req.body
@@ -166,6 +187,17 @@ export const verify2FALogin = catchAsync(async (req, res, next) => {
   const twoFactor = user && (await TwoFactorAuth.findOne({ user: user._id }))
   if (!user || !user.isActive || !twoFactor?.enabled) {
     return next(new AppError('Connexion impossible pour ce compte', 401))
+  }
+
+  // Verrou par compte, indépendant de l'IP : chaque vérification réserve une tentative de façon
+  // atomique, même si un attaquant qui connaît le mot de passe envoie ses codes en parallèle
+  // depuis plusieurs adresses. Au-delà de MAX_2FA_ATTEMPTS, compte bloqué 2FA_LOCK_MINUTES.
+  const reserved = await reserve2FAAttempt(twoFactor._id)
+  if (!reserved) {
+    const fresh = await TwoFactorAuth.findById(twoFactor._id).select('lockedUntil')
+    const minutes = Math.max(1, Math.ceil(((fresh?.lockedUntil?.getTime() || Date.now()) - Date.now()) / 60000))
+    logSecurityEvent('2FA_LOCKED', { userId: user._id.toString() })
+    return next(new AppError(`Trop de codes incorrects. Pour protéger votre compte, réessayez dans ${minutes} min.`, 429))
   }
 
   let isValid = false
@@ -188,6 +220,8 @@ export const verify2FALogin = catchAsync(async (req, res, next) => {
 
   twoFactor.lastUsed = new Date()
   await twoFactor.save()
+  // Écriture explicite : le document a été lu avant la réservation de la tentative
+  await TwoFactorAuth.updateOne({ _id: twoFactor._id }, { $set: { failedAttempts: 0, lockedUntil: null } })
   logSecurityEvent('2FA_LOGIN_SUCCESS', { userId: user._id.toString() })
   securityMonitoring.recordEvent('2FA_LOGIN_SUCCESS', { userId: user._id.toString() }, 'low')
 

@@ -37,6 +37,15 @@ const twoFactorAuthSchema = new mongoose.Schema({
     type: Date,
     default: null,
   },
+  // Codes vérifiés depuis le dernier succès (compte bloqué au-delà de MAX_2FA_ATTEMPTS)
+  failedAttempts: {
+    type: Number,
+    default: 0,
+  },
+  lockedUntil: {
+    type: Date,
+    default: null,
+  },
 }, {
   timestamps: true,
 })

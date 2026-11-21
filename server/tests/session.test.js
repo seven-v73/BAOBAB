@@ -10,6 +10,7 @@ import { generateRefreshToken } from '../src/utils/jwt.js'
 import { generateSecret, generateTOTP } from '../src/utils/totp.js'
 import { errorHandler } from '../src/utils/errorHandler.js'
 import '../src/models/Product.js' // requis par /me (populate des favoris)
+import { authLimiter } from '../src/middleware/rateLimiter.js'
 
 // Base de test distincte de la production (supprimée à la fin)
 const testMongoUri = process.env.TEST_MONGODB_URI || 'mongodb://127.0.0.1:27017/baobab_test_sessions'
@@ -38,6 +39,8 @@ afterAll(async () => {
 
 beforeEach(async () => {
   await Promise.all([User.deleteMany({}), RefreshToken.deleteMany({}), TwoFactorAuth.deleteMany({})])
+  // Chaque test repart sans échec compté pour l'IP locale (limite par IP testée ailleurs)
+  await authLimiter.resetKey('127.0.0.1')
   user = await User.create({ name: 'Awa', email: 'awa@example.com', password })
 })
 
@@ -192,6 +195,44 @@ describe('Double authentification', () => {
     expect((await request(app).post('/api/auth/2fa/verify-login').send({ challengeToken: body.challengeToken, backupCode: 'abcd2345' })).status).toBe(200)
     const again = await login()
     expect((await request(app).post('/api/auth/2fa/verify-login').send({ challengeToken: again.body.challengeToken, backupCode: 'ABCD2345' })).status).toBe(401)
+  })
+
+  const wrongCode = (challengeToken) => {
+    const good = generateTOTP(secret)
+    // Un code à 6 chiffres différent du bon (et des fenêtres voisines, très improbable)
+    const bad = String((Number(good) + 500000) % 1000000).padStart(6, '0')
+    return request(app).post('/api/auth/2fa/verify-login').send({ challengeToken, token: bad })
+  }
+
+  it('bloque le compte après 5 codes incorrects, même avec le bon code ensuite', async () => {
+    const { body } = await login()
+    for (let i = 0; i < 5; i++) expect((await wrongCode(body.challengeToken)).status).toBe(401)
+    const res = await request(app).post('/api/auth/2fa/verify-login').send({ challengeToken: body.challengeToken, token: generateTOTP(secret) })
+    expect(res.status).toBe(429)
+    const stored = await TwoFactorAuth.findOne({ user: user._id })
+    expect(stored.lockedUntil.getTime()).toBeGreaterThan(Date.now())
+  })
+
+  it('un bon code remet le compteur à zéro', async () => {
+    const { body } = await login()
+    for (let i = 0; i < 4; i++) expect((await wrongCode(body.challengeToken)).status).toBe(401)
+    expect((await request(app).post('/api/auth/2fa/verify-login').send({ challengeToken: body.challengeToken, token: generateTOTP(secret) })).status).toBe(200)
+    const stored = await TwoFactorAuth.findOne({ user: user._id })
+    expect(stored.failedAttempts).toBe(0)
+    expect(stored.lockedUntil).toBeNull()
+  })
+
+  it('des codes envoyés en parallèle ne dépassent pas 5 vérifications', async () => {
+    const { body } = await login()
+    const results = await Promise.all(Array.from({ length: 12 }, () => wrongCode(body.challengeToken)))
+    expect(results.filter((r) => r.status === 401).length).toBeLessThanOrEqual(5)
+    expect(results.filter((r) => r.status === 429).length).toBeGreaterThanOrEqual(7)
+  })
+
+  it('le blocage expiré laisse réessayer', async () => {
+    await TwoFactorAuth.updateOne({ user: user._id }, { $set: { failedAttempts: 5, lockedUntil: new Date(Date.now() - 1000) } })
+    const { body } = await login()
+    expect((await request(app).post('/api/auth/2fa/verify-login').send({ challengeToken: body.challengeToken, token: generateTOTP(secret) })).status).toBe(200)
   })
 
   it('impossible sans le défi (on ne peut plus tenter des codes avec un simple e-mail)', async () => {

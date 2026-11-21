@@ -219,18 +219,21 @@ export const getRandomProverb = catchAsync(async (req, res) => {
 export const likeProverb = catchAsync(async (req, res) => {
   const { id } = req.params
 
-  const proverb = await Proverb.findById(id)
+  // Un « j'aime » par membre : l'ajout et l'incrément se font en une seule opération atomique
+  const updated = await Proverb.findOneAndUpdate(
+    { _id: id, likedBy: { $ne: req.user._id } },
+    { $addToSet: { likedBy: req.user._id }, $inc: { likes: 1 } },
+    { new: true, projection: { likes: 1 } },
+  )
 
+  if (updated) {
+    return res.json({ success: true, data: { likes: updated.likes, liked: true } })
+  }
+
+  const proverb = await Proverb.findById(id).select('likes')
   if (!proverb) {
     throw new AppError('Proverbe non trouvé', 404)
   }
-
-  proverb.likes += 1
-  await proverb.save()
-
-  res.json({
-    success: true,
-    data: { likes: proverb.likes },
-  })
+  res.json({ success: true, data: { likes: proverb.likes, liked: true, alreadyLiked: true } })
 })
 

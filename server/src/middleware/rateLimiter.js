@@ -1,5 +1,6 @@
 import rateLimit from 'express-rate-limit'
 import env from '../config/env.js'
+import { RedisFallbackStore } from './rateLimitStore.js'
 
 // Rate limiting général pour toutes les routes API
 // Limite plus élevée en développement
@@ -9,6 +10,7 @@ import env from '../config/env.js'
 const maxRequests = env.NODE_ENV === 'production' ? 400 : 1000
 
 export const apiLimiter = rateLimit({
+  store: new RedisFallbackStore('apiLimiter'),
   windowMs: 15 * 60 * 1000, // 15 minutes
   max: maxRequests, // Limite variable selon l'environnement
   message: {
@@ -38,6 +40,7 @@ export const apiLimiter = rateLimit({
 // Ne s'applique qu'aux tentatives d'identification (connexion, inscription, code 2FA) ;
 // les requêtes réussies ne sont pas comptées. 10 échecs : marge pour les IP partagées (réseaux mobiles).
 export const authLimiter = rateLimit({
+  store: new RedisFallbackStore('authLimiter'),
   windowMs: 15 * 60 * 1000, // 15 minutes
   max: 10, // 10 échecs par IP
   skipSuccessfulRequests: true, // Ne pas compter les requêtes réussies
@@ -57,6 +60,7 @@ export const authLimiter = rateLimit({
 
 // Renouvellement de session : appelé automatiquement par l'application, plafond large
 export const refreshLimiter = rateLimit({
+  store: new RedisFallbackStore('refreshLimiter'),
   windowMs: 15 * 60 * 1000,
   max: 120,
   standardHeaders: true,
@@ -67,6 +71,7 @@ export const refreshLimiter = rateLimit({
 // Envois de fichiers (jusqu'à 50 Mo pour une vidéo) : 60 par heure et par IP, de quoi illustrer
 // plusieurs articles, mais pas de remplir le disque du serveur.
 export const uploadLimiter = rateLimit({
+  store: new RedisFallbackStore('uploadLimiter'),
   windowMs: 60 * 60 * 1000,
   max: 60,
   standardHeaders: true,
@@ -77,6 +82,7 @@ export const uploadLimiter = rateLimit({
 // Créations de compte, réussies ou non : 10 par heure et par IP (authLimiter ne compte que les échecs,
 // les inscriptions en masse n'étaient donc limitées que par la limite générale).
 export const registerLimiter = rateLimit({
+  store: new RedisFallbackStore('registerLimiter'),
   windowMs: 60 * 60 * 1000,
   max: 10,
   standardHeaders: true,
@@ -87,6 +93,7 @@ export const registerLimiter = rateLimit({
 // Écritures publiques ou de membres (j'aime, newsletter, contributions, commentaires, proverbes) :
 // 30 par quart d'heure et par IP, pour empêcher le gonflage des compteurs et le spam.
 export const writeLimiter = rateLimit({
+  store: new RedisFallbackStore('writeLimiter'),
   windowMs: 15 * 60 * 1000,
   max: 30,
   standardHeaders: true,
