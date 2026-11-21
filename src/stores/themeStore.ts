@@ -12,7 +12,7 @@ interface ThemeState {
 export const useThemeStore = create<ThemeState>()(
   persist(
     (set) => ({
-      theme: 'dark', // Par défaut, mode sombre
+      theme: 'light', // Thème clair crème par défaut (DESIGN.md)
       toggleTheme: () => {
         set((state) => {
           const newTheme = state.theme === 'dark' ? 'light' : 'dark'
@@ -28,6 +28,10 @@ export const useThemeStore = create<ThemeState>()(
     }),
     {
       name: 'theme-storage',
+      // v1 : passage au thème clair. Le sélecteur de thème est masqué, donc on ramène
+      // les visiteurs restés sur l'ancien défaut sombre vers le clair.
+      version: 1,
+      migrate: () => ({ theme: 'light' as Theme }),
       onRehydrateStorage: () => (state) => {
         // Appliquer le thème au chargement
         if (state) {

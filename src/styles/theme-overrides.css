@@ -177,14 +177,6 @@
   color: var(--color-gold-dark) !important;
 }
 
-[data-theme="light"] :where(footer, .footer) {
-  color: var(--color-text) !important;
-}
-
-[data-theme="light"] :where(footer, .footer) :where(p, span, a, li) {
-  color: #4f5a54 !important;
-}
-
 /* Zones inversées: elles gardent leur contraste clair sur fond image/sombre. */
 [data-theme="light"] :where(
   .hero,

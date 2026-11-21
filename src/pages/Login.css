@@ -1,0 +1,445 @@
+/* Connexion d'après la maquette Figma « Connexion / Desktop 1440 » et « Mobile 390 ».
+ * Page autonome (pas d'en-tête de site) ; production-ergonomics.css et form-system.css
+ * habillent les champs en !important : la page réaffirme ses formes ici. */
+
+.mcl {
+  --readable-text: var(--brand-foret);
+  --mcl-bord: rgb(23 65 35 / 0.14);
+  display: flex;
+  min-height: 100svh;
+  padding: 16px;
+  background: var(--brand-creme);
+  color: var(--brand-foret);
+  font-family: var(--font-texte);
+}
+
+.mcl a {
+  color: inherit;
+}
+
+/* ---------- Colonne formulaire ---------- */
+
+.mcl-formulaire {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+  min-width: 0;
+  padding: 40px 96px 32px;
+}
+
+.mcl-haut {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.mcl-logo img {
+  display: block;
+  width: 144px;
+  height: auto;
+}
+
+.mcl .mcl-retour {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: rgb(23 65 35 / 0.66) !important;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.42;
+  text-decoration: none;
+}
+
+.mcl .mcl-retour:hover {
+  color: var(--brand-foret) !important;
+}
+
+.mcl-contenu {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  width: min(420px, 100%);
+  margin: 0 auto;
+  align-self: flex-start;
+}
+
+.mcl-titre {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mcl-titre h1 {
+  --human-title-line: 1.12;
+  margin: 0;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+}
+
+.mcl-titre p {
+  margin: 0;
+  color: rgb(23 65 35 / 0.66) !important;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.mcl .mcl-titre a {
+  color: var(--brand-foret);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.mcl .mcl-titre a:hover {
+  text-decoration: underline;
+}
+
+.mcl-erreur {
+  margin: 0;
+  color: #b3261e !important;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.42;
+}
+
+/* Champs pilules */
+.mcl-champs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.mcl-champ {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.mcl-champ label {
+  color: var(--brand-foret) !important;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.mcl .mcl-champ input {
+  height: 52px;
+  padding: 14px 16px 14px 18px;
+  border: 1px solid var(--mcl-bord) !important;
+  border-radius: 999px !important;
+  background: var(--brand-blanc);
+  color: var(--brand-foret) !important;
+  font: 400 1rem / 1.5 var(--font-texte);
+}
+
+.mcl .mcl-champ input::placeholder {
+  color: var(--brand-foret) !important;
+  opacity: 0.45;
+}
+
+.mcl .mcl-champ input:focus {
+  outline: none;
+  border-color: var(--brand-foret) !important;
+}
+
+.mcl-labels {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.mcl .mcl-oublie {
+  color: var(--brand-foret) !important;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.42;
+  text-decoration: underline;
+}
+
+.mcl-zone {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 52px;
+  padding: 0 16px 0 18px;
+  border: 1px solid var(--mcl-bord);
+  border-radius: 999px;
+  background: var(--brand-blanc);
+}
+
+.mcl-zone:focus-within {
+  border-color: var(--brand-foret);
+}
+
+.mcl .mcl-zone input {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  padding: 0;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: none;
+}
+
+.mcl .mcl-zone input:focus {
+  outline: none;
+}
+
+.mcl .mcl-afficher {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  min-width: 0;
+  padding: 0;
+  border: 0 !important;
+  border-radius: 999px !important;
+  background: none !important;
+  box-shadow: none !important;
+  color: var(--brand-foret) !important;
+  cursor: pointer;
+}
+
+.mcl .mcl-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  align-self: stretch;
+  height: 48px;
+  padding: 0;
+  border: 0;
+  border-radius: 999px !important;
+  background: var(--brand-foret) !important;
+  box-shadow: none !important;
+  color: var(--brand-blanc) !important;
+  font: 600 1rem / 1 var(--font-texte);
+  cursor: pointer;
+}
+
+.mcl .mcl-btn:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.mcl-note {
+  margin: 0;
+  color: rgb(23 65 35 / 0.6) !important;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.42;
+}
+
+/* Variante photo de l'inscription : les maisons peintes de Tiébélé */
+.mcl-photo--tiebele {
+  background:
+    linear-gradient(180deg, rgb(23 65 35 / 0) 20%, rgb(23 65 35 / 0.95) 95%),
+    url('/content/register/tiebele.png') center / cover no-repeat;
+}
+
+/* Sélecteur de rôle (mode création admin uniquement) */
+.mcl .mcl-zone select {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  padding: 0;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: none;
+  color: var(--brand-foret) !important;
+  font: 400 1rem / 1.5 var(--font-texte);
+}
+
+.mcl .mcl-zone select:focus {
+  outline: none;
+}
+
+/* ---------- Mot de passe oublié (même squelette que la connexion) ---------- */
+
+.mcl-desc {
+  margin: 0;
+  color: rgb(23 65 35 / 0.66);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.mcl .mcl-lien-retour {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  align-self: flex-start;
+  color: var(--brand-foret) !important;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  line-height: 1.42;
+  text-decoration: none;
+}
+
+.mcl .mcl-lien-retour:hover {
+  text-decoration: underline;
+}
+
+.mcl-succes {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-self: stretch;
+  padding: 20px;
+  border-radius: 18px;
+  background: #eef4ea;
+}
+
+.mcl-succes p {
+  margin: 0;
+  color: var(--brand-foret) !important;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.mcl-pied {
+  color: rgb(23 65 35 / 0.66) !important;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.42;
+}
+
+/* ---------- Colonne photo ---------- */
+
+.mcl-photo {
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 16px;
+  width: 640px;
+  padding: 56px;
+  border-radius: 32px;
+  background:
+    linear-gradient(180deg, rgb(23 65 35 / 0) 20%, rgb(23 65 35 / 0.95) 95%),
+    url('/content/login/tissage.png') center / cover no-repeat;
+}
+
+/* Préfixe racine : reste au-dessus des rares règles génériques résiduelles */
+.mcl .mcl-eyebrow {
+  margin: 0;
+  color: var(--brand-ambre); /* #E2B52F, exact maquette */
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.mcl-photo h2 {
+  --human-title-line: 1.12;
+  max-width: 480px;
+  margin: 0;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  color: var(--brand-blanc);
+}
+
+.mcl-avantages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mcl-avantages li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: rgb(255 255 255 / 0.85) !important;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.42;
+}
+
+.mcl-avantages li::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--brand-ambre);
+}
+
+/* ---------- Mobile (maquette « Connexion / Mobile 390 ») ---------- */
+
+@media (max-width: 900px) {
+  .mcl {
+    flex-direction: column;
+    gap: 24px;
+    padding: 0 0 24px;
+  }
+
+  /* La photo s'insère entre l'en-tête et le formulaire */
+  .mcl-formulaire {
+    display: contents;
+  }
+
+  .mcl-haut {
+    order: 0;
+    padding: 14px 20px 0;
+  }
+
+  .mcl-photo {
+    order: 1;
+    width: auto;
+    align-self: stretch;
+    height: 220px;
+    margin: 0 20px;
+    padding: 20px;
+    gap: 8px;
+    border-radius: 20px;
+  }
+
+  .mcl-photo h2 {
+    max-width: none;
+    font-size: 1.25rem;
+    line-height: 1.24;
+    letter-spacing: -0.01em;
+  }
+
+  .mcl-avantages {
+    display: none;
+  }
+
+  .mcl-contenu {
+    order: 2;
+    width: auto;
+    align-self: stretch;
+    gap: 22px;
+    margin: 0 20px;
+  }
+
+  .mcl-titre h1 {
+    font-size: 1.625rem;
+    line-height: 1.14;
+    letter-spacing: -0.015em;
+  }
+
+  .mcl-pied {
+    order: 3;
+    margin: 0 20px;
+    text-align: center;
+  }
+}

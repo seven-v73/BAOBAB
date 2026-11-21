@@ -1,0 +1,577 @@
+/* Pages Récits et Repères (fusion des anciennes rubriques, voir clean.md).
+ * Maquette : fichier Figma « Baobab », cadres « Récits / Desktop 1440 » et « Repères / Desktop 1440 ».
+ * contrast-system.css force la couleur des textes via --readable-text : chaque élément coloré
+ * redéclare donc aussi --readable-text.
+ */
+
+.mbr {
+  --readable-text: var(--brand-encre);
+  --readable-text-muted: var(--brand-texte-doux);
+  display: flex;
+  flex-direction: column;
+  gap: clamp(40px, 6vw, 72px);
+  color: var(--brand-encre);
+  font-family: var(--font-texte);
+}
+
+.mbr a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.mbr a:focus-visible {
+  outline: 2px solid var(--brand-foret);
+  outline-offset: 3px;
+}
+
+.mbr :where(h1, h2, h3, p, ul) {
+  margin: 0;
+}
+
+.mbr :where(ul) {
+  padding: 0;
+  list-style: none;
+}
+
+.mbr h1,
+.mbr h2,
+.mbr h3 {
+  --readable-text: var(--brand-foret);
+  color: var(--brand-foret);
+  font-family: var(--font-titre);
+  text-wrap: balance;
+}
+
+/* --- Introduction --- */
+
+.mbr-intro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px 64px;
+  padding-top: clamp(16px, 4vw, 40px);
+}
+
+.mbr-intro h1 {
+  max-width: 14ch;
+  font-size: clamp(2.25rem, 5vw, 4rem);
+  line-height: 1.04;
+  letter-spacing: -0.02em;
+}
+
+.mbr-intro p {
+  --readable-text: var(--brand-texte-doux);
+  max-width: 42ch;
+  color: var(--brand-texte-doux);
+  font-size: 1.125rem;
+  line-height: 1.55;
+}
+
+.mbr-eyebrow {
+  --readable-text: var(--brand-foret);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: var(--brand-vert-pale);
+  color: var(--brand-foret);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.mbr-eyebrow::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--brand-sauge);
+}
+
+/* --- Filtres --- */
+
+.mbr-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.mbr-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 16px;
+  border-radius: 999px;
+  background: var(--brand-blanc);
+}
+
+.mbr-search input {
+  width: min(240px, 50vw);
+  border: 0;
+  background: transparent;
+  color: var(--brand-encre);
+  font: 400 0.875rem var(--font-texte);
+}
+
+.mbr-search input:focus-visible {
+  outline: none;
+}
+
+.mbr-search:focus-within {
+  outline: 2px solid var(--brand-foret);
+  outline-offset: 2px;
+}
+
+/* --- Sections --- */
+
+.mbr-section {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.mbr-section-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 8px 24px;
+}
+
+.mbr-section-head h2 {
+  font-size: clamp(1.5rem, 2.6vw, 1.75rem);
+}
+
+.mbr-section-head p {
+  --readable-text: var(--brand-texte-doux);
+  margin-top: 6px;
+  color: var(--brand-texte-doux);
+}
+
+.mbr-meta {
+  --readable-text: var(--brand-sauge);
+  color: var(--brand-sauge);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.mbr-empty {
+  --readable-text: var(--brand-texte-doux);
+  padding: 32px;
+  border: 1.5px dashed var(--brand-trait-fort);
+  border-radius: 24px;
+  color: var(--brand-texte-doux);
+  text-align: center;
+}
+
+/* --- Récits : carte à la une --- */
+
+.mbr-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  overflow: hidden;
+  border-radius: 32px;
+  background: var(--brand-blanc);
+}
+
+.mbr-feature-media {
+  min-height: 320px;
+  background: var(--brand-vert-pale) center / cover no-repeat;
+}
+
+.mbr-feature-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 14px;
+  padding: clamp(28px, 4vw, 48px);
+}
+
+.mbr-feature-body h2 {
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+}
+
+.mbr-feature-body p {
+  --readable-text: var(--brand-texte-doux);
+  color: var(--brand-texte-doux);
+  line-height: 1.55;
+}
+
+/* À la une sans photo : même traitement que la carte « sans photo » */
+.mbr-feature--plain {
+  grid-template-columns: 1fr;
+  background: var(--brand-foret);
+}
+
+.mbr-feature--plain .mbr-feature-body {
+  max-width: 760px;
+}
+
+.mbr-feature--plain .mbr-feature-body::before {
+  content: '“';
+  color: var(--brand-ambre);
+  font: 800 4rem/0.8 var(--font-titre);
+}
+
+.mbr-feature--plain h2,
+.mbr-feature--plain p:not(.mbr-meta) {
+  --readable-text: var(--brand-blanc);
+  color: var(--brand-blanc);
+}
+
+.mbr-feature--plain .mbr-button {
+  --readable-text: var(--brand-foret);
+  background: var(--brand-blanc);
+  color: var(--brand-foret) !important;
+}
+
+.mbr-button {
+  --readable-text: var(--brand-blanc);
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  gap: 10px;
+  min-height: 48px;
+  margin-top: 8px;
+  padding: 0 24px;
+  border-radius: 999px;
+  background: var(--brand-foret);
+  color: var(--brand-blanc) !important;
+  font-weight: 600;
+}
+
+/* Variante contour : action secondaire à côté d'un bouton plein */
+.mbr-button--ghost {
+  --readable-text: var(--brand-foret);
+  border: 1.5px solid var(--brand-foret);
+  background: transparent;
+  color: var(--brand-foret) !important;
+}
+
+/* --- Récits : grille --- */
+
+.mbr-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+  gap: 24px;
+}
+
+.mbr-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mbr-card-media {
+  aspect-ratio: 4 / 5;
+  border-radius: 28px;
+  background: var(--brand-vert-pale) center / cover no-repeat;
+}
+
+.mbr-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0 4px;
+}
+
+.mbr-card h3 {
+  font-size: 1.375rem;
+  line-height: 1.22;
+}
+
+.mbr-card p {
+  --readable-text: var(--brand-texte-doux);
+  display: -webkit-box;
+  overflow: hidden;
+  color: var(--brand-texte-doux);
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+/* Carte sans photo : vert forêt, guillemet ambre (maquette « Carte/Récit sans photo ») */
+.mbr-card--plain {
+  justify-content: flex-end;
+  min-height: 100%;
+  aspect-ratio: auto;
+  padding: 32px;
+  border-radius: 28px;
+  background: var(--brand-foret);
+}
+
+.mbr-card--plain::before {
+  content: '“';
+  margin-bottom: auto;
+  color: var(--brand-ambre);
+  font: 800 4rem/1 var(--font-titre);
+}
+
+.mbr-card--plain h3,
+.mbr-card--plain p {
+  --readable-text: var(--brand-blanc);
+  color: var(--brand-blanc);
+}
+
+.mbr-card--plain p {
+  opacity: 0.8;
+}
+
+/* --- Récits : dossiers --- */
+
+.mbr-dossiers {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr));
+  gap: 24px;
+}
+
+.mbr-dossier {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 10px;
+  min-height: 200px;
+  padding: 32px;
+  border-radius: 28px;
+  background: var(--brand-foret);
+}
+
+.mbr-dossier h3,
+.mbr-dossier p {
+  --readable-text: var(--brand-blanc);
+  color: var(--brand-blanc);
+}
+
+.mbr-dossier p {
+  opacity: 0.8;
+}
+
+/* --- Repères : frise des dates --- */
+
+.mbr-dates {
+  padding: clamp(28px, 5vw, 56px);
+  border-radius: 32px;
+  background: var(--brand-foret);
+}
+
+.mbr-dates .mbr-section-head h2,
+.mbr-dates .mbr-section-head p,
+.mbr-dates .mbr-section-head a {
+  --readable-text: var(--brand-blanc);
+  color: var(--brand-blanc);
+}
+
+.mbr-timeline {
+  display: grid;
+  grid-auto-columns: minmax(220px, 1fr);
+  grid-auto-flow: column;
+  gap: 20px;
+  padding-top: 34px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  background: linear-gradient(rgb(255 255 255 / 0.3), rgb(255 255 255 / 0.3)) 0 8px / 100% 2px no-repeat;
+}
+
+.mbr-timeline li {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 20px;
+  border-radius: 22px;
+  background: var(--brand-blanc);
+  scroll-snap-align: start;
+}
+
+.mbr-timeline li::before {
+  content: '';
+  position: absolute;
+  top: -34px;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  border: 3px solid var(--brand-blanc);
+  border-radius: 50%;
+  background: var(--brand-ambre);
+}
+
+.mbr-timeline strong {
+  --readable-text: var(--brand-foret);
+  color: var(--brand-foret);
+  font: 700 1.375rem/1.2 var(--font-titre);
+  white-space: nowrap;
+}
+
+.mbr-timeline small {
+  --readable-text: var(--brand-texte-doux);
+  color: var(--brand-texte-doux);
+  font-size: 0.875rem;
+}
+
+/* --- Repères : personnalités --- */
+
+.mbr-people {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr));
+  gap: 20px;
+}
+
+.mbr-person {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 12px 12px 20px;
+  border-radius: 24px;
+  background: var(--brand-blanc);
+}
+
+.mbr-person-media {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1;
+  border-radius: 16px;
+  background: var(--brand-vert-pale) center / cover no-repeat;
+  color: var(--brand-sauge);
+}
+
+.mbr-person-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0 12px;
+}
+
+.mbr-person h3 {
+  font-size: 1.375rem;
+}
+
+.mbr-person p {
+  --readable-text: var(--brand-texte-doux);
+  color: var(--brand-texte-doux);
+}
+
+/* --- Repères : proverbes --- */
+
+.mbr-proverbs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+  gap: 20px;
+}
+
+.mbr-proverb {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 28px;
+  border-radius: 24px;
+  background: var(--brand-blanc);
+}
+
+.mbr-proverb::before {
+  content: '“';
+  color: var(--brand-ambre);
+  font: 800 3.5rem/0.8 var(--font-titre);
+}
+
+.mbr-proverb blockquote {
+  --readable-text: var(--brand-foret);
+  margin: 0;
+  color: var(--brand-foret);
+  font: 700 1.375rem/1.3 var(--font-titre);
+}
+
+.mbr-proverb:first-child {
+  background: var(--brand-foret);
+}
+
+.mbr-proverb:first-child blockquote {
+  --readable-text: var(--brand-blanc);
+  color: var(--brand-blanc);
+}
+
+@media (max-width: 760px) {
+  .mbr-feature {
+    grid-template-columns: 1fr;
+  }
+
+  .mbr-feature-media {
+    min-height: 220px;
+  }
+
+  .mbr-filters,
+  .mbr-search,
+  .mbr-search input {
+    width: 100%;
+  }
+
+  .mbr-timeline {
+    grid-auto-flow: row;
+    grid-auto-columns: auto;
+    padding: 0 0 0 30px;
+    background: linear-gradient(rgb(255 255 255 / 0.3), rgb(255 255 255 / 0.3)) 7px 0 / 2px 100% no-repeat;
+  }
+
+  .mbr-timeline li::before {
+    top: 22px;
+    left: -30px;
+  }
+}
+
+/* --- Liste blanche et encart latéral (fiche pays, Mon espace) --- */
+.mbr-list {
+  padding: 8px !important;
+  border-radius: 24px;
+  background: var(--brand-blanc);
+}
+
+.mbr-list li {
+  display: flex;
+  gap: 18px;
+  padding: 18px 16px;
+  border-bottom: 1px solid var(--brand-trait);
+}
+
+.mbr-list li:last-child {
+  border-bottom: 0;
+}
+
+.mbr-list h3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.25rem;
+}
+
+.mbr-list p:not(.mbr-meta) {
+  --readable-text: var(--brand-texte-doux);
+  margin-top: 4px;
+  color: var(--brand-texte-doux);
+}
+
+.mbr-aside {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 28px;
+  border-radius: 24px;
+  background: var(--brand-vert-pale);
+}
+
+.mbr-aside h2 {
+  font-size: 1.5rem;
+}
+
+.mbr-aside p {
+  --readable-text: var(--brand-texte-doux);
+  color: var(--brand-texte-doux);
+}
+

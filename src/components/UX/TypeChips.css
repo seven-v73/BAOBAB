@@ -1,0 +1,82 @@
+.mbr-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* button-system.css impose une couleur aux boutons, production-ergonomics.css un arrondi : on les reprend ici */
+.mbr-chips .mbr-chip {
+  --readable-text: var(--brand-foret);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 40px;
+  padding: 8px 14px;
+  border: 0;
+  border-radius: 999px !important;
+  background: var(--brand-blanc);
+  color: var(--brand-foret) !important;
+  font: 500 0.875rem/1.4 var(--font-texte);
+  cursor: pointer;
+}
+
+.mbr-chip span {
+  opacity: 0.55;
+}
+
+.mbr-chips .mbr-chip[aria-pressed='true'] {
+  --readable-text: var(--brand-blanc);
+  background: var(--brand-foret);
+  color: var(--brand-blanc) !important;
+}
+
+/* Variante onglets : texte souligné, compteur en pastille */
+.mbr-chips--tabs {
+  gap: 32px;
+  border-bottom: 1px solid var(--brand-trait);
+}
+
+.mbr-chips--tabs .mbr-chip,
+.mbr-chips--tabs .mbr-chip[aria-pressed='true'] {
+  min-height: 48px;
+  padding: 0 0 12px;
+  border-bottom: 3px solid transparent;
+  border-radius: 0 !important;
+  background: none;
+  color: var(--brand-texte-doux) !important;
+  font-weight: 600;
+}
+
+.mbr-chips--tabs .mbr-chip[aria-pressed='true'] {
+  border-bottom-color: var(--brand-foret);
+  color: var(--brand-foret) !important;
+}
+
+.mbr-chips--tabs .mbr-chip span {
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: var(--brand-vert-pale);
+  opacity: 1;
+}
+
+.mbr-chips--tabs .mbr-chip[aria-pressed='true'] span {
+  --readable-text: var(--brand-blanc);
+  background: var(--brand-foret);
+  color: var(--brand-blanc);
+}
+
+.mbr-chip:focus-visible {
+  outline: 2px solid var(--brand-foret);
+  outline-offset: 3px;
+}
+
+@media (max-width: 760px) {
+  .mbr-chips {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  .mbr-chip {
+    flex: none;
+  }
+}

@@ -1,0 +1,524 @@
+/* Récits d'après la maquette Figma « Récits / Desktop 1440 » et « Mobile 390 ».
+ * production-ergonomics.css et button-system.css habillent tous les <button> en !important :
+ * les boutons de la page reprennent leurs formes ici. */
+
+.mrc {
+  --readable-text: var(--brand-foret);
+  --mrc-pad: clamp(20px, 8.3vw, 120px);
+  flex: 1;
+  background: var(--brand-creme);
+  color: var(--brand-foret);
+  font-family: var(--font-texte);
+}
+
+.mrc h1,
+.mrc h2,
+.mrc h3 {
+  font-family: var(--font-titre);
+  font-weight: 700;
+}
+
+.mrc-kicker {
+  margin: 0;
+  color: var(--brand-sauge);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.mrc-empty {
+  margin: 0 var(--mrc-pad) 96px;
+  padding: 48px 24px;
+  text-align: center;
+}
+
+/* ---------- Introduction ---------- */
+
+.mrc-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 56px var(--mrc-pad) 40px;
+}
+
+.mrc-intro h1 {
+  --human-title-line: 1.04;
+  max-width: 698px;
+  margin: 0;
+  font-size: clamp(2.25rem, 4.5vw, 4rem);
+  font-weight: 800;
+  line-height: 1.04;
+  letter-spacing: -0.025em;
+}
+
+.mrc-intro p {
+  max-width: 400px;
+  margin: 0;
+  color: rgb(23 65 35 / 0.8);
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+/* ---------- Récit à la une ---------- */
+
+.mrc .mrc-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 680px) minmax(0, 1fr);
+  margin: 0 var(--mrc-pad) 64px;
+  overflow: hidden;
+  border-radius: 32px;
+  background: var(--brand-blanc);
+  color: var(--brand-foret);
+  text-decoration: none;
+}
+
+.mrc-feature-media {
+  display: block;
+  width: 100%;
+  height: 440px;
+  object-fit: cover;
+}
+
+.mrc-feature-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 48px;
+}
+
+.mrc-feature h2 {
+  --human-title-line: 1.12;
+  margin: 0;
+  font-size: 2.25rem;
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+}
+
+.mrc-feature-text {
+  margin: 0;
+  color: rgb(23 65 35 / 0.8);
+  line-height: 1.5;
+}
+
+.mrc-meta {
+  margin: 0;
+  color: rgb(23 65 35 / 0.6);
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.42;
+}
+
+.mrc .mrc-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 52px;
+  margin-top: 4px;
+  padding: 0 28px;
+  border: 0;
+  border-radius: 999px !important;
+  background: var(--brand-foret) !important;
+  box-shadow: none !important;
+  color: var(--brand-blanc) !important;
+  font: 600 1rem / 1 var(--font-texte);
+}
+
+/* ---------- Filtres ---------- */
+
+.mrc-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px 24px;
+  padding: 0 var(--mrc-pad) 32px;
+}
+
+.mrc-refine {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.mrc-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 40px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: var(--brand-blanc);
+  color: var(--brand-foret);
+}
+
+.mrc-search input {
+  width: 126px;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: 500 0.875rem / 1.42 var(--font-texte);
+  letter-spacing: 0.01em;
+}
+
+.mrc-search input::placeholder {
+  color: rgb(23 65 35 / 0.55);
+}
+
+/* ---------- Grille des récits ---------- */
+
+.mrc-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin: 0 var(--mrc-pad) 96px;
+  padding: 0;
+  list-style: none;
+}
+
+.mrc .mrc-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: var(--brand-foret);
+  text-decoration: none;
+}
+
+.mrc-card-media {
+  aspect-ratio: 4 / 5;
+  border-radius: 28px;
+  background: center / cover no-repeat;
+}
+
+.mrc-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 4px;
+}
+
+.mrc-card h3 {
+  --human-title-line: 1.22;
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.22;
+  letter-spacing: -0.01em;
+}
+
+.mrc-card-text {
+  margin: 0;
+  color: var(--brand-foret);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* ---------- Dossiers ---------- */
+
+.mrc-dossiers {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding: 0 var(--mrc-pad) 120px;
+}
+
+.mrc-dossiers-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.mrc-dossiers-head > div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.mrc-dossiers-head h2 {
+  --human-title-line: 1.16;
+  margin: 0;
+  font-size: 1.75rem;
+  line-height: 1.16;
+  letter-spacing: -0.015em;
+}
+
+.mrc-dossiers-head p {
+  margin: 0;
+  color: rgb(23 65 35 / 0.7);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.mrc .mrc-more {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  border: 0;
+  border-radius: 0 !important;
+  background: none !important;
+  box-shadow: none !important;
+  color: var(--brand-foret) !important;
+  font: 600 1rem / 1 var(--font-texte);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mrc-dossiers-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mrc .mrc-dossier {
+  --readable-text: var(--brand-blanc);
+  position: relative;
+  display: flex;
+  min-height: 190px;
+  overflow: hidden;
+  border-radius: 28px;
+  background: var(--brand-foret);
+  color: var(--brand-blanc);
+  text-decoration: none;
+}
+
+.mrc-dossier-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 32px 24px 32px 32px;
+}
+
+.mrc-dossier h3 {
+  --human-title-line: 1.22;
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.22;
+  letter-spacing: -0.01em;
+}
+
+.mrc-dossier-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding-top: 12px;
+  color: rgb(255 255 255 / 0.9);
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.mrc-dossier-img {
+  flex: none;
+  align-self: stretch;
+  width: 220px;
+  object-fit: cover;
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 900px) {
+  .mrc {
+    --mrc-pad: 20px;
+  }
+
+  .mrc-intro {
+    gap: 14px;
+    padding: 28px 20px 24px;
+  }
+
+  .mrc-intro h1 {
+    --human-title-line: 1.06;
+    font-size: 2.25rem;
+    line-height: 1.06 !important;
+    letter-spacing: -0.02em;
+  }
+
+  .mrc-intro p {
+    font-size: 1.0625rem;
+  }
+
+  /* Carte pleine largeur : photo au-dessus, textes dessous, pas de bouton.
+     Préfixe .mrc obligatoire : la règle de base porte deux classes. */
+  .mrc .mrc-feature {
+    grid-template-columns: 1fr;
+    margin: 0 16px 24px;
+    border-radius: 28px;
+  }
+
+  /* Photo entière, à sa proportion d'origine : rien n'est rogné */
+  .mrc-feature-media {
+    height: auto;
+  }
+
+  .mrc-feature-body {
+    gap: 10px;
+    padding: 20px 20px 22px;
+  }
+
+  .mrc-feature h2 {
+    font-size: 1.625rem;
+    line-height: 1.14;
+  }
+
+  .mrc-feature-text {
+    font-size: 1rem;
+  }
+
+  .mrc .mrc-btn {
+    display: none;
+  }
+
+  /* Les pastilles défilent à l'horizontale ; les listes et la recherche attendent le desktop */
+  .mrc-filters {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding: 0 16px 16px 20px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .mrc-filters::-webkit-scrollbar {
+    display: none;
+  }
+
+  .mrc-filters .mbr-chips {
+    flex-wrap: nowrap;
+  }
+
+  .mrc-refine {
+    display: none;
+  }
+
+  /* La grille devient une liste de lignes vignette + textes */
+  .mrc-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin: 0 16px 40px;
+  }
+
+  .mrc .mrc-card {
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+    padding: 12px 14px 12px 12px;
+    border-radius: 22px;
+    background: var(--brand-blanc);
+  }
+
+  .mrc-card-media {
+    flex: none;
+    width: 96px;
+    height: 112px;
+    aspect-ratio: auto;
+    border-radius: 16px;
+  }
+
+  .mrc-card-body {
+    min-width: 0;
+    gap: 6px;
+    padding: 0;
+  }
+
+  .mrc-card h3 {
+    font: 600 1rem / 1 var(--font-texte);
+    letter-spacing: 0;
+  }
+
+  .mrc-card-text {
+    display: none;
+  }
+
+  /* Dossiers : cartes photo qui défilent, texte posé sur un dégradé forêt */
+  .mrc-dossiers {
+    gap: 16px;
+    padding: 0 0 64px;
+  }
+
+  .mrc-dossiers-head {
+    padding: 0 20px;
+  }
+
+  .mrc-dossiers-head p {
+    display: none;
+  }
+
+  .mrc-dossiers-head h2 {
+    font-size: 1.625rem;
+    line-height: 1.14;
+  }
+
+  .mrc-dossiers-list {
+    display: flex;
+    gap: 12px;
+    margin: 0;
+    padding: 0 16px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+
+  .mrc-dossiers-list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .mrc-dossiers-list > li {
+    flex: 0 0 auto;
+  }
+
+  .mrc .mrc-dossier {
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 280px;
+    min-height: 180px;
+    border-radius: 24px;
+    scroll-snap-align: start;
+  }
+
+  .mrc-dossier-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .mrc .mrc-dossier::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: linear-gradient(180deg, rgb(15 32 20 / 0.05) 30%, rgb(15 32 20 / 0.8) 100%);
+  }
+
+  .mrc-dossier-body {
+    position: relative;
+    z-index: 1;
+    gap: 10px;
+    padding: 24px 22px;
+  }
+
+  .mrc-dossier h3 {
+    font-size: 1.25rem;
+    line-height: 1.24;
+  }
+
+  .mrc-dossier-link {
+    display: none;
+  }
+
+  .mrc-empty {
+    margin: 0 16px 40px;
+  }
+}

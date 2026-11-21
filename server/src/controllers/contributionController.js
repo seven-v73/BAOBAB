@@ -31,8 +31,11 @@ const resolveCountry = async (countryValue) => {
 export const getContributions = catchAsync(async (req, res) => {
   const { status, type, country, mine, page = 1, limit = 20 } = req.query
   const query = {}
+  // Un membre voit toutes ses propositions, quel que soit leur statut, avec la note de relecture
+  const ownList = mine === 'true' && Boolean(req.user)
 
-  if (req.user?.role !== 'admin') {
+  if (ownList) query.submittedBy = req.user._id
+  if (!ownList && req.user?.role !== 'admin') {
     query.visibility = 'public'
     query.status = 'approved'
   } else if (status && status !== 'all') {
@@ -41,7 +44,6 @@ export const getContributions = catchAsync(async (req, res) => {
 
   if (type) query.type = type
   if (country) query.countryName = new RegExp(String(country), 'i')
-  if (mine === 'true' && req.user) query.submittedBy = req.user._id
 
   const skip = (Number(page) - 1) * Number(limit)
   const [contributions, total] = await Promise.all([
@@ -52,7 +54,7 @@ export const getContributions = catchAsync(async (req, res) => {
       .sort({ createdAt: -1 })
       .skip(skip)
       .limit(Number(limit))
-      .select(publicSelect),
+      .select(ownList ? `${publicSelect} reviewNote reviewedAt` : publicSelect),
     Contribution.countDocuments(query),
   ])
 

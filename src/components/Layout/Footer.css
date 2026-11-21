@@ -1,54 +1,162 @@
-.footer {
+/* Pied de page d'après la maquette Figma : carte verte arrondie, symbole en filigrane */
+
+.mbf {
+  --readable-text: var(--brand-blanc);
   margin-top: auto;
-  border-top: 1px solid var(--color-border);
-  padding: 2.5rem 2rem 1.15rem;
+  padding: 16px;
+  background: var(--brand-creme);
+  font-family: var(--font-texte);
+}
+
+.mbf-card {
   position: relative;
-  transition: background 0.3s ease, border-color 0.3s ease;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  overflow: hidden;
+  padding: 80px clamp(24px, 6vw, 88px) 40px;
+  border-radius: 40px;
+  background: var(--brand-foret);
+  color: var(--brand-blanc);
 }
 
-/* Fond pour le thème sombre */
-[data-theme="dark"] .footer,
-.footer:not([data-theme]) {
-  background: linear-gradient(135deg, #1a1a1a 0%, #252525 100%);
+.mbf-watermark {
+  position: absolute;
+  top: 40px;
+  left: calc(900 / 1408 * 100%);
+  z-index: -1;
+  width: 585px;
+  height: auto;
+  fill: var(--brand-blanc);
+  opacity: 0.06;
 }
 
-/* Fond pour le thème clair */
-[data-theme="light"] .footer {
-  background: linear-gradient(135deg, var(--color-bg-secondary) 0%, var(--color-bg-tertiary) 100%);
+.mbf-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 48px;
 }
 
-.footer-bottom {
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
+.mbf-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  max-width: 412px;
 }
 
-.footer-inner {
-  max-width: 760px;
-  margin: 0 auto 1.25rem;
-  text-align: center;
+.mbf-brand img {
+  width: 144px;
+  height: auto;
 }
 
-.footer-kicker {
-  margin: 0 0 0.35rem;
-  color: var(--color-gold);
-  font-weight: 850;
-}
-
-.footer-note {
+.mbf .mbf-brand p {
   margin: 0;
-  color: var(--color-text-muted);
+  color: var(--brand-blanc);
+  font: 700 clamp(1.75rem, 3vw, 2.25rem) / 1.12 var(--font-titre);
+  letter-spacing: -0.015em;
 }
 
-.footer-copyright {
-  color: var(--color-text-muted);
-  font-size: 0.85rem;
+.mbf-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 72px;
+}
+
+.mbf .mbf-title {
+  --readable-text: var(--brand-sauge);
+  margin: 0 0 14px;
+  color: var(--brand-sauge);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.mbf ul {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
   margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .footer {
-    padding: 1.5rem 1rem 1rem;
+.mbf a {
+  color: var(--brand-blanc) !important;
+  text-decoration: none;
+}
+
+.mbf a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.mbf-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px 24px;
+  padding-top: 28px;
+  border-top: 1px solid var(--brand-blanc);
+}
+
+.mbf-bottom p {
+  margin: 0;
+  color: var(--brand-blanc);
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+/* Mobile : valeurs du cadre « Mobile 390 » */
+@media (max-width: 760px) {
+  .mbf {
+    padding: 8px;
+  }
+
+  .mbf-card {
+    gap: 40px;
+    padding: 48px 24px 28px;
+    border-radius: 32px;
+  }
+
+  .mbf-watermark {
+    top: 16px;
+    left: 150px;
+    width: 355px;
+  }
+
+  .mbf-top {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .mbf-brand {
+    gap: 20px;
+  }
+
+  .mbf-brand img {
+    width: 131.55px;
+  }
+
+  .mbf .mbf-brand p {
+    font-size: 1.625rem;
+    line-height: 1.14;
+  }
+
+  /* Naviguer et Territoires côte à côte, MonBaobab en dessous */
+  .mbf-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 24px;
+  }
+
+  .mbf-bottom {
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 24px;
+    border-top-color: rgb(255 255 255 / 0.16);
   }
 }

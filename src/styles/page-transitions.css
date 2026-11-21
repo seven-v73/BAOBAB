@@ -22,10 +22,11 @@ body {
   scroll-margin-top: var(--page-scroll-offset);
 }
 
+/* `backwards` et pas de will-change : une fois l'entrée jouée, l'enveloppe ne garde ni transform
+   ni filter, sinon tout élément en position fixed de la page se calerait sur elle et non sur l'écran */
 .page-transition-shell {
   min-height: 100vh;
-  animation: page-enter var(--page-transition-duration) var(--page-transition-ease) both;
-  will-change: opacity, transform, filter;
+  animation: page-enter var(--page-transition-duration) var(--page-transition-ease) backwards;
 }
 
 .route-transitioning .page-transition-shell {

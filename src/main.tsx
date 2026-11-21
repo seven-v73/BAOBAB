@@ -11,7 +11,8 @@ const initTheme = () => {
   if (stored) {
     try {
       const parsed = JSON.parse(stored)
-      if (parsed.state?.theme) {
+      // Avant la v1 du store, le thème stocké vient de l'ancien défaut sombre : on l'ignore
+      if (parsed.version >= 1 && parsed.state?.theme) {
         document.documentElement.setAttribute('data-theme', parsed.state.theme)
         return
       }
@@ -20,7 +21,7 @@ const initTheme = () => {
     }
   }
   // Thème par défaut
-  document.documentElement.setAttribute('data-theme', 'dark')
+  document.documentElement.setAttribute('data-theme', 'light')
 }
 
 initTheme()

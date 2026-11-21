@@ -1,105 +1,594 @@
-.map-page {
-  padding: 2rem;
-  max-width: 1400px;
-  margin: 0 auto;
-}
+/* Explorer d'après la maquette Figma : panneau blanc de 496 px à gauche, carte vert pâle à droite.
+ * production-ergonomics.css arrondit tous les <button> en !important : on rétablit les formes de la maquette. */
 
-.map-page-header {
-  text-align: center;
-  margin-bottom: 3rem;
-}
-
-.map-page-header h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  color: var(--color-text);
-}
-
-.map-page-header p {
-  font-size: 1.2rem;
-  color: var(--color-text-muted);
-}
-
-.map-filters {
+.mbx {
+  --readable-text: var(--brand-foret);
+  --mbx-pale: #eef4ea;
+  --mbx-soft: rgb(23 65 35 / 0.68);
   display: flex;
-  gap: 1rem;
-  margin-bottom: 2rem;
-  flex-wrap: wrap;
+  gap: 16px;
+  height: min(860px, calc(100svh - 112px));
+  min-height: 640px;
+  padding: 0 16px 16px;
+  color: var(--brand-foret);
+  font-family: var(--font-texte);
 }
 
-.filter-group {
+/* ---------- Panneau ---------- */
+
+.mbx-panel {
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  gap: 20px;
+  width: 496px;
+  padding: 36px 32px 0;
+  overflow: hidden;
+  border-radius: 32px;
+  background: var(--brand-blanc);
+}
+
+/* Sur desktop, la recherche et la liste se rangent autour des régions (ordre de la maquette) */
+.mbx-sheet {
+  display: contents;
+}
+
+.mbx-intro {
+  order: 0;
+}
+
+.mbx-search {
+  order: 1;
+}
+
+.mbx-chips {
+  order: 2;
+}
+
+.mbx-list {
+  order: 3;
+}
+
+.mbx-intro h1 {
+  --human-title-line: 1.12;
+  margin: 0 0 14px;
+  font: 700 2.25rem / 1.12 var(--font-titre);
+  letter-spacing: -0.015em;
+}
+
+.mbx-intro p {
+  margin: 0;
+  color: rgb(23 65 35 / 0.8);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.mbx-search {
+  display: flex;
+  flex: none;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+  height: 48px;
+  padding: 0 18px;
+  border-radius: var(--radius-pill);
+  background: var(--mbx-pale);
+  color: #173f23;
+}
+
+.mbx-search:focus-within {
+  outline: 2px solid var(--brand-foret);
+  outline-offset: 2px;
+}
+
+.mbx .mbx-search input {
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+  height: 100%;
+  padding: 0;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  color: var(--brand-foret);
+  font: 500 0.875rem / 1.42 var(--font-texte);
+  letter-spacing: 0.01em;
+  outline: none;
+}
+
+.mbx .mbx-search input::placeholder {
+  color: rgb(23 65 35 / 0.55);
+}
+
+/* Pastilles de région : fond vert pâle sur le panneau blanc */
+.mbx .mbr-chip:not([aria-pressed='true']) {
+  background: var(--mbx-pale);
+}
+
+.mbx-list {
+  flex: 1;
+  min-height: 0;
+  margin: 0 -8px;
+  padding: 0 8px 24px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  /* les lignes s'estompent en haut et en bas au lieu d'être coupées net */
+  mask-image: linear-gradient(to bottom, transparent, #000 16px, #000 calc(100% - 24px), transparent);
+}
+
+/* Curseur fin et arrondi, sans piste (Chrome, Edge, Safari) */
+.mbx-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.mbx-list::-webkit-scrollbar-thumb {
+  border-width: 2px;
+}
+
+.mbx-group {
+  margin: 0;
+  padding: 4px 0 8px 14px;
+  color: var(--brand-sauge);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.mbx-group span + span::before {
+  content: ' · ';
+}
+
+.mbx-list [role='group'] + [role='group'] {
+  margin-top: 16px;
+}
+
+.mbx .mbx-row {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  flex: 1;
-  min-width: 200px;
+  gap: 14px;
+  width: 100%;
+  min-height: 62px;
+  margin-bottom: 2px;
+  padding: 12px 14px;
+  border: 0;
+  border-radius: 16px !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  color: var(--brand-foret) !important;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
 }
 
-.filter-group svg {
-  color: var(--color-primary);
-  flex-shrink: 0;
+.mbx .mbx-row:hover,
+.mbx .mbx-row[aria-pressed='true'] {
+  background: var(--mbx-pale) !important;
 }
 
-.filter-select {
+.mbx-dot {
+  flex: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--dot);
+}
+
+.mbx-row-text {
+  display: flex;
   flex: 1;
-  padding: 0.75rem;
-  border: 1px solid var(--color-border);
-  border-radius: 8px;
-  background: var(--color-bg);
-  color: var(--color-text);
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.mbx-row-text strong {
   font-size: 1rem;
+  font-weight: 600;
+  line-height: 1;
 }
 
-.map-card {
-  padding: 0;
+.mbx-row-text span {
   overflow: hidden;
-  margin-bottom: 2rem;
+  color: var(--mbx-soft);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.42;
+  letter-spacing: 0.01em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
-.map-info {
-  margin-top: 2rem;
+.mbx-row svg {
+  flex: none;
+  color: #173f23;
+  opacity: 0.45;
 }
 
-.map-info h3 {
-  margin-bottom: 1rem;
-  color: var(--color-text);
+.mbx-row[aria-pressed='true'] svg {
+  opacity: 1;
 }
 
-.map-info p {
-  margin-bottom: 1rem;
-  color: var(--color-text-muted);
-  line-height: 1.6;
+.mbx-empty {
+  padding: 24px 14px;
+  color: var(--mbx-soft);
 }
 
-.map-info ul {
-  list-style: none;
+/* ---------- Carte ---------- */
+
+.mbx-map {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  border-radius: 32px;
+  background: var(--mbx-pale);
+}
+
+.mbx-relief {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.mbx-capital {
+  cursor: pointer;
+}
+
+.mbx-label-wrap {
+  overflow: visible;
+}
+
+/* Étiquette du pays choisi : pastille blanche au-dessus du repère */
+.mbx-label {
+  display: flex;
+  justify-content: center;
+  width: 160px;
+  transform-origin: 0 0;
+}
+
+.mbx-label span {
+  padding: 8px 14px;
+  border-radius: var(--radius-pill);
+  background: var(--brand-blanc);
+  box-shadow: 0 6px 16px rgb(8 26 13 / 0.18);
+  color: var(--brand-foret);
+  font: 500 14px / 1.42 var(--font-texte);
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+
+.mbx-legend {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 10px 16px;
+  border-radius: var(--radius-pill);
+  background: var(--brand-blanc);
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+.mbx-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.mbx-legend i {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.mbx-legend-rich {
+  border: 1.5px solid var(--brand-blanc);
+  background: var(--brand-terre);
+}
+
+.mbx-legend-wip {
+  border: 1.5px solid var(--brand-sauge);
+  background: var(--brand-creme);
+}
+
+.mbx-zoom {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 4px;
+  border-radius: var(--radius-pill);
+  background: var(--brand-blanc);
+}
+
+.mbx .mbx-zoom button {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  min-width: 0;
+  height: 40px;
+  min-height: 0;
   padding: 0;
+  border: 0;
+  border-radius: var(--radius-pill) !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  color: #173f23 !important;
+  cursor: pointer;
 }
 
-.map-info li {
-  padding: 0.5rem 0;
-  color: var(--color-text-muted);
+.mbx .mbx-zoom button:hover:not(:disabled) {
+  background: var(--mbx-pale) !important;
 }
 
-.map-info li strong {
-  color: var(--color-text);
+.mbx .mbx-zoom button:disabled {
+  cursor: default;
+  opacity: 0.35;
 }
 
-@media (max-width: 768px) {
-  .map-page {
-    padding: 1rem;
+/* Aperçu du pays choisi, posé en bas à gauche de la carte */
+.mbx-preview {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  display: flex;
+  gap: 16px;
+  width: min(460px, calc(100% - 48px));
+  padding: 12px 20px 12px 12px;
+  border-radius: 28px;
+  background: var(--brand-blanc);
+  box-shadow: 0 20px 48px -8px rgb(8 26 13 / 0.2);
+}
+
+.mbx-preview img {
+  flex: none;
+  align-self: stretch;
+  width: 150px;
+  min-height: 209px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.mbx-preview-body {
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-width: 0;
+  padding: 8px 0 4px;
+}
+
+.mbx-eyebrow {
+  margin: 0 0 4px;
+  color: var(--brand-sauge);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.mbx-preview h2 {
+  --human-title-line: 1.22;
+  margin: 0 0 4px;
+  font: 700 1.5rem / 1.22 var(--font-titre);
+  letter-spacing: -0.01em;
+}
+
+.mbx-summary {
+  margin: 0 0 12px;
+  color: rgb(23 65 35 / 0.8);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.mbx-facts {
+  margin: 0 0 12px;
+  color: rgb(23 65 35 / 0.7);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.42;
+  letter-spacing: 0.01em;
+}
+
+.mbx .mbx-open {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 52px;
+  margin-top: auto;
+  padding: 0 28px;
+  border-radius: var(--radius-pill);
+  background: var(--brand-foret);
+  color: var(--brand-blanc) !important;
+  font: 600 1rem / 1 var(--font-texte);
+  text-decoration: none;
+}
+
+/* La croix ne sert que sur mobile (feuille d'aperçu) */
+.mbx .mbx-close {
+  display: none;
+}
+
+/* ---------- Mobile : carte en haut, liste dans une feuille ---------- */
+
+@media (max-width: 900px) {
+  .mbx {
+    display: grid;
+    grid-template-areas: 'chips' 'map' 'sheet';
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+    height: auto;
+    min-height: 0;
+    padding: 0;
   }
 
-  .map-page-header h1 {
-    font-size: 2rem;
+  .mbx-panel {
+    display: contents;
   }
 
-  .map-filters {
+  .mbx-intro {
+    display: none;
+  }
+
+  .mbx-chips {
+    z-index: 2;
+    grid-area: chips;
+    margin-bottom: -60px;
+    padding: 12px 16px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .mbx-chips::-webkit-scrollbar,
+  .mbx-chips .mbr-chips::-webkit-scrollbar {
+    display: none;
+  }
+
+  .mbx-chips .mbr-chips {
+    scrollbar-width: none;
+  }
+
+  /* Titre de région en grand, nombre de pays à droite (maquette mobile) */
+  .mbx-group {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 4px 0 12px;
+    color: var(--brand-foret);
+    letter-spacing: 0;
+    text-transform: none;
+  }
+
+  .mbx-group span:first-child {
+    font: 700 1.5rem / 1.22 var(--font-titre);
+    letter-spacing: -0.01em;
+  }
+
+  .mbx-group span + span {
+    color: var(--mbx-soft);
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+
+  .mbx-group span + span::before {
+    content: none;
+  }
+
+  .mbx-chips .mbr-chips {
+    flex-wrap: nowrap;
+  }
+
+  .mbx .mbr-chip:not([aria-pressed='true']) {
+    background: var(--brand-blanc);
+  }
+
+  .mbx-map {
+    grid-area: map;
+    height: 380px;
+    border-radius: 0;
+  }
+
+  .mbx-legend,
+  .mbx-zoom {
+    display: none;
+  }
+
+  .mbx-sheet {
+    position: relative;
+    z-index: 2;
+    display: flex;
     flex-direction: column;
+    gap: 16px;
+    grid-area: sheet;
+    margin-top: -24px;
+    padding: 28px 20px 32px;
+    border-radius: 28px 28px 0 0;
+    background: var(--brand-blanc);
   }
 
-  .filter-group {
+  /* Poignée de la feuille */
+  .mbx-sheet::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    width: 40px;
+    height: 4px;
+    border-radius: 999px;
+    background: rgb(23 65 35 / 0.2);
+    translate: -50% 0;
+  }
+
+  .mbx-list {
+    overflow: visible;
+  }
+
+  /* L'aperçu devient une feuille en bas de l'écran, avec une croix pour la fermer */
+  .mbx-preview {
+    position: fixed;
+    inset: auto 0 0;
+    z-index: 900;
+    flex-direction: column;
+    width: auto;
+    max-height: 80svh;
+    padding: 24px 20px 28px;
+    overflow-y: auto;
+    border-radius: 28px 28px 0 0;
+  }
+
+  .mbx-preview img {
+    order: 1;
     width: 100%;
+    height: 180px;
+    min-height: 0;
+  }
+
+  .mbx-preview-body {
+    display: contents;
+  }
+
+  .mbx-eyebrow {
+    order: 0;
+    padding-right: 48px;
+  }
+
+  .mbx-preview h2,
+  .mbx-summary,
+  .mbx-facts,
+  .mbx .mbx-open {
+    order: 2;
+  }
+
+  .mbx .mbx-open {
+    justify-content: center;
+  }
+
+  .mbx .mbx-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    display: grid;
+    place-items: center;
+    width: 40px;
+    min-width: 0;
+    height: 40px;
+    min-height: 0;
+    padding: 0;
+    border: 0;
+    border-radius: var(--radius-pill) !important;
+    background: var(--mbx-pale) !important;
+    box-shadow: none !important;
+    color: var(--brand-foret) !important;
   }
 }
-

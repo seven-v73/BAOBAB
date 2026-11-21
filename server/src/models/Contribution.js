@@ -95,7 +95,11 @@ const contributionSchema = new mongoose.Schema({
   timestamps: true,
 })
 
-contributionSchema.index({ title: 'text', content: 'text', countryName: 'text', tags: 'text' })
+// Le champ « language » (langue du contenu) ne doit pas servir de langue d'index : MongoDB refuse une valeur vide ou inconnue
+contributionSchema.index(
+  { title: 'text', content: 'text', countryName: 'text', tags: 'text' },
+  { default_language: 'none', language_override: 'searchLanguage' }
+)
 contributionSchema.index({ status: 1, createdAt: -1 })
 contributionSchema.index({ type: 1, status: 1, createdAt: -1 })
 
