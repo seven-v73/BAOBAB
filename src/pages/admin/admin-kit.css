@@ -79,11 +79,8 @@
   font-weight: 600;
 }
 
-.mba-contenu input:not([type='checkbox']):not([type='radio']):not([type='file']):not([type='range']),
-.mba-contenu select,
-.mba-contenu textarea,
-.mba-contenu .form-textarea,
-.mba-contenu .form-select {
+/* :where() : base de faible priorité, que chaque section peut préciser (recherche en pilule, erreurs) */
+.mba-contenu :where(input:not([type='checkbox'], [type='radio'], [type='file'], [type='range']), select, textarea, .form-textarea, .form-select) {
   width: 100%;
   min-height: 44px;
   padding: 10px 14px;
@@ -95,15 +92,12 @@
   box-shadow: none;
 }
 
-.mba-contenu textarea,
-.mba-contenu .form-textarea {
+.mba-contenu :where(textarea, .form-textarea) {
   min-height: 110px;
   resize: vertical;
 }
 
-.mba-contenu input:focus,
-.mba-contenu select:focus,
-.mba-contenu textarea:focus {
+.mba-contenu :where(input, select, textarea):focus {
   border-color: var(--brand-foret);
   outline: 2px solid var(--brand-foret);
   outline-offset: 0;

@@ -1,16 +1,35 @@
-import { useState, useEffect } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
+import type { CSSProperties, KeyboardEvent as ReactKeyboardEvent } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { Card } from '../../components/Card/Card'
-import { Button } from '../../components/Button/Button'
 import { Input } from '../../components/Input/Input'
 import { FileUpload } from '../../components/FileUpload/FileUpload'
 import { MediaUpload } from '../../components/Community/MediaUpload'
+import { TypeChips } from '../../components/UX/TypeChips'
 import { countryService } from '../../services/api'
 import { useNotifications } from '../../hooks/useNotifications'
 import { useConfirmDialog } from '../../components/UX/ConfirmDialog'
 import { allAfricanCountries } from '../../data/allAfricanCountries'
-import { Plus, Edit, Trash2, Search, Globe, MapPin, Users, Globe2, Image as ImageIcon, FileText, X, ArrowUp, ArrowDown, Database, Link as LinkIcon, Video, File as FileIcon } from 'lucide-react'
+import { REGION_COLORS, REGION_LABELS, REGION_ORDER, regionOfCode, type Region } from '../../utils/afrique'
+import {
+  ArrowDown,
+  ArrowUp,
+  ArrowUpRight,
+  Database,
+  File as FileIcon,
+  FileText,
+  Image as ImageIcon,
+  Link as LinkIcon,
+  Pencil,
+  Plus,
+  Search,
+  Trash2,
+  Video,
+  X,
+} from 'lucide-react'
 import './AdminCountries.css'
+
+// Pays : la liste des fiches pays (drapeau, capitale, région, complétude) et leur édition dans un
+// panneau à onglets. Les rubriques reprennent tous les champs de la fiche publique /country/<code>.
 
 interface CustomSection {
   title: string
@@ -121,85 +140,356 @@ interface Country {
   isActive?: boolean
 }
 
+const EMPTY_FORM = {
+  id: '',
+  name: '',
+  nameFr: '',
+  capital: '',
+  population: '',
+  area: '',
+  languages: '',
+  currency: '',
+  description: '',
+  culture: '',
+  oneSentenceSummary: '',
+  keyFacts: '',
+  peoples: '',
+  languageNotes: '',
+  historyHighlights: '',
+  notableFigures: '',
+  musicAndArts: '',
+  foodCulture: '',
+  oralTraditions: '',
+  knowledgeToPreserve: '',
+  recommendedPaths: '',
+  relatedThemes: '',
+  sourceQuality: 'draft',
+  discoveryIntro: '',
+  lastUpdated: '2026',
+  officialName: '',
+  region: '',
+  subregion: '',
+  demonym: '',
+  timeZone: '',
+  callingCode: '',
+  internetTld: '',
+  drivingSide: '',
+  independenceDate: '',
+  governmentType: '',
+  economicOverview: '',
+  climate: '',
+  bestTimeToVisit: '',
+  safetyNote: '',
+  etiquette: '',
+  transport: '',
+  connectivity: '',
+  visaNote: '',
+  healthAdvice: '',
+  emergencyNumbers: '',
+  placesToDiscover: '',
+  experiences: '',
+  practicalTips: '',
+  sourceNotes: '',
+  color: '#8E44AD',
+  rites: '',
+  customs: '',
+  foods: '',
+  traditions: '',
+  festivals: '',
+  arts: '',
+}
+
+type FormState = typeof EMPTY_FORM
+type FieldKey = keyof FormState
+
+/** Valeurs du formulaire d'après une fiche existante (listes jointes par « ; », langues par « , »). */
+const formFromCountry = (country: Country): FormState => ({
+  id: country.id,
+  name: country.name || '',
+  nameFr: country.nameFr,
+  capital: country.capital,
+  population: country.population || '',
+  area: country.area || '',
+  languages: country.languages?.join(', ') || '',
+  currency: country.currency || '',
+  description: country.description || '',
+  culture: country.culture || '',
+  oneSentenceSummary: country.oneSentenceSummary || '',
+  keyFacts: country.keyFacts?.join('; ') || '',
+  peoples: country.peoples?.join('; ') || '',
+  languageNotes: country.languageNotes || '',
+  historyHighlights: country.historyHighlights?.join('; ') || '',
+  notableFigures: country.notableFigures?.join('; ') || '',
+  musicAndArts: country.musicAndArts?.join('; ') || '',
+  foodCulture: country.foodCulture?.join('; ') || '',
+  oralTraditions: country.oralTraditions?.join('; ') || '',
+  knowledgeToPreserve: country.knowledgeToPreserve?.join('; ') || '',
+  recommendedPaths: country.recommendedPaths?.map((path) => `${path.title} | ${path.description} | ${(path.items || []).join(', ')}`).join('\n') || '',
+  relatedThemes: country.relatedThemes?.join('; ') || '',
+  sourceQuality: country.sourceQuality || 'draft',
+  discoveryIntro: country.discoveryIntro || '',
+  lastUpdated: country.lastUpdated || '2026',
+  officialName: country.officialName || '',
+  region: country.region || '',
+  subregion: country.subregion || '',
+  demonym: country.demonym || '',
+  timeZone: country.timeZone || '',
+  callingCode: country.callingCode || '',
+  internetTld: country.internetTld || '',
+  drivingSide: country.drivingSide || '',
+  independenceDate: country.independenceDate || '',
+  governmentType: country.governmentType || '',
+  economicOverview: country.economicOverview || '',
+  climate: country.climate || '',
+  bestTimeToVisit: country.bestTimeToVisit || '',
+  safetyNote: country.safetyNote || '',
+  etiquette: country.etiquette || '',
+  transport: country.transport || '',
+  connectivity: country.connectivity || '',
+  visaNote: country.visaNote || '',
+  healthAdvice: country.healthAdvice || '',
+  emergencyNumbers: country.emergencyNumbers || '',
+  placesToDiscover: country.placesToDiscover?.join('; ') || '',
+  experiences: country.experiences?.join('; ') || '',
+  practicalTips: country.practicalTips?.join('; ') || '',
+  sourceNotes: country.sourceNotes?.join('; ') || '',
+  color: country.color || '#8E44AD',
+  rites: country.rites?.join('; ') || '',
+  customs: country.customs?.join('; ') || '',
+  foods: country.foods?.join('; ') || '',
+  traditions: country.traditions?.join('; ') || '',
+  festivals: country.festivals?.join('; ') || '',
+  arts: country.arts?.join('; ') || '',
+})
+
+// ---------- Rubriques du panneau d'édition ----------
+
+const LISTE = 'Séparez les éléments par des point-virgules.'
+
+interface FieldSpec {
+  key: FieldKey
+  label: string
+  /** Zone de texte de n lignes ; sans valeur, champ d'une ligne */
+  rows?: number
+  placeholder?: string
+  required?: boolean
+  hint?: string
+  /** Zone de texte sur une demi-largeur (deux côte à côte) */
+  half?: boolean
+}
+
+type TabKey = 'identite' | 'reperes' | 'culture' | 'memoire' | 'decouverte' | 'sections' | 'medias' | 'sources'
+
+interface TabSpec {
+  key: TabKey
+  label: string
+  intro: string
+  fields?: FieldSpec[]
+}
+
+const ONGLETS: TabSpec[] = [
+  {
+    key: 'identite',
+    label: 'Identité',
+    intro: 'Les données de base de la fiche publique. Les champs marqués d’un astérisque sont obligatoires.',
+    fields: [
+      { key: 'nameFr', label: 'Nom français', required: true, placeholder: 'Maroc' },
+      { key: 'id', label: 'Code pays (ISO, deux lettres)', required: true, placeholder: 'MA', hint: 'Non modifiable après création.' },
+      { key: 'name', label: 'Nom anglais', placeholder: 'Morocco' },
+      { key: 'officialName', label: 'Nom officiel', placeholder: 'République du Sénégal' },
+      { key: 'capital', label: 'Capitale', required: true },
+      { key: 'demonym', label: 'Gentilé', placeholder: 'Sénégalais, Sénégalaise' },
+      { key: 'population', label: 'Population', placeholder: '37M' },
+      { key: 'area', label: 'Superficie', placeholder: '447K km²' },
+      { key: 'languages', label: 'Langues', placeholder: 'Arabe, Amazigh', hint: 'Séparez les langues par des virgules.' },
+      { key: 'currency', label: 'Monnaie', placeholder: 'Dirham' },
+      { key: 'region', label: 'Région (texte affiché)', placeholder: 'Afrique de l’Ouest' },
+      { key: 'subregion', label: 'Sous-région', placeholder: 'Sahel, Golfe de Guinée...' },
+      { key: 'color', label: 'Couleur du pays', hint: 'Accent de la fiche publique.' },
+      { key: 'description', label: 'Description', rows: 4, required: true },
+    ],
+  },
+  {
+    key: 'reperes',
+    label: 'Repères',
+    intro: 'Ce qu’il faut savoir en premier : une phrase, quelques faits, les institutions.',
+    fields: [
+      { key: 'oneSentenceSummary', label: 'Ce pays en une phrase', rows: 2, placeholder: 'Une phrase humaine, précise, qui donne le ton de la fiche.' },
+      { key: 'keyFacts', label: 'À retenir avant d’explorer', rows: 3, half: true, hint: LISTE, placeholder: 'Ville clé; Tradition forte; Langue à connaître' },
+      { key: 'relatedThemes', label: 'Thèmes reliés', rows: 3, half: true, hint: LISTE, placeholder: 'Textile; Oralité; Royaumes; Ports; Sahel' },
+      { key: 'independenceDate', label: 'Date d’indépendance', placeholder: '4 avril 1960' },
+      { key: 'governmentType', label: 'Régime / institutions', placeholder: 'République...' },
+      { key: 'economicOverview', label: 'Économie en bref', placeholder: 'Services, agriculture, mines...' },
+      { key: 'timeZone', label: 'Fuseau horaire', placeholder: 'UTC+0' },
+      { key: 'callingCode', label: 'Indicatif', placeholder: '+221' },
+      { key: 'internetTld', label: 'Domaine internet', placeholder: '.sn' },
+      { key: 'drivingSide', label: 'Conduite', placeholder: 'À droite' },
+    ],
+  },
+  {
+    key: 'culture',
+    label: 'Culture',
+    intro: 'Les personnes, les langues, les gestes et les goûts du quotidien.',
+    fields: [
+      { key: 'culture', label: 'Culture', rows: 3 },
+      { key: 'peoples', label: 'Peuples et identités', rows: 3, half: true, hint: LISTE, placeholder: 'Groupes, communautés, zones culturelles' },
+      { key: 'languageNotes', label: 'Notes sur les langues', rows: 3, half: true, placeholder: 'Langues officielles, langues nationales, usages de salutation...' },
+      { key: 'rites', label: 'Rites', rows: 2, half: true, hint: LISTE, placeholder: 'Cérémonie du thé; Mariages traditionnels' },
+      { key: 'customs', label: 'Coutumes', rows: 2, half: true, hint: LISTE },
+      { key: 'traditions', label: 'Traditions', rows: 2, half: true, hint: LISTE },
+      { key: 'festivals', label: 'Festivals', rows: 2, half: true, hint: LISTE },
+      { key: 'arts', label: 'Arts et artisanat', rows: 2, half: true, hint: LISTE },
+      { key: 'musicAndArts', label: 'Arts, sons et gestes', rows: 2, half: true, hint: LISTE, placeholder: 'Musique; danse; textile; instruments; architecture' },
+      { key: 'foods', label: 'Spécialités culinaires', rows: 2, half: true, hint: LISTE },
+      { key: 'foodCulture', label: 'Cuisine et quotidien', rows: 2, half: true, hint: LISTE, placeholder: 'Plat emblématique; boisson; marché; moment social' },
+    ],
+  },
+  {
+    key: 'memoire',
+    label: 'Mémoire',
+    intro: 'L’histoire, les figures et les savoirs à transmettre.',
+    fields: [
+      { key: 'historyHighlights', label: 'Mémoire historique', rows: 3, half: true, hint: LISTE, placeholder: 'Royaumes; période coloniale; indépendance; dates récentes' },
+      { key: 'notableFigures', label: 'Personnages à relier', rows: 3, half: true, hint: LISTE, placeholder: 'Nom - rôle; Nom - rôle' },
+      { key: 'oralTraditions', label: 'Oralité et récits', rows: 3, half: true, hint: LISTE, placeholder: 'Contes; proverbes; récits familiaux; rites de parole' },
+      { key: 'knowledgeToPreserve', label: 'Savoirs à préserver', rows: 3, half: true, hint: LISTE, placeholder: 'Métiers; langues; gestes; archives orales; techniques artisanales' },
+    ],
+  },
+  {
+    key: 'decouverte',
+    label: 'Découverte',
+    intro: 'Les lieux, les parcours et les conseils pratiques pour explorer le pays.',
+    fields: [
+      { key: 'discoveryIntro', label: 'Introduction immersive', rows: 4, placeholder: 'Une entrée courte, sensorielle et concrète pour présenter le pays.' },
+      { key: 'placesToDiscover', label: 'Lieux à découvrir', rows: 3, half: true, hint: LISTE },
+      { key: 'experiences', label: 'Expériences à vivre', rows: 3, half: true, hint: LISTE },
+      {
+        key: 'recommendedPaths',
+        label: 'Parcours conseillés',
+        rows: 4,
+        hint: 'Une ligne par parcours : titre | description | étapes séparées par des virgules.',
+        placeholder: 'Découverte rapide | Commencer par la capitale et les repères clés | Capitale, cuisine, carte\nMémoire | Relier dates, figures et lieux | Indépendance, musée, proverbes',
+      },
+      { key: 'climate', label: 'Climat', rows: 2, half: true },
+      { key: 'bestTimeToVisit', label: 'Meilleure période', rows: 2, half: true },
+      { key: 'visaNote', label: 'Visa / entrée', rows: 3, half: true },
+      { key: 'healthAdvice', label: 'Santé', rows: 3, half: true },
+      { key: 'etiquette', label: 'Codes sociaux', rows: 3, half: true },
+      { key: 'safetyNote', label: 'Note sécurité', rows: 3, half: true },
+      { key: 'transport', label: 'Transport', placeholder: 'Aéroports, train, routes, taxis...' },
+      { key: 'connectivity', label: 'Connexion', placeholder: 'Réseaux mobiles, internet...' },
+      { key: 'emergencyNumbers', label: 'Numéros utiles', placeholder: 'Police, pompiers, urgences...' },
+      { key: 'practicalTips', label: 'Conseils pratiques', rows: 3, hint: LISTE },
+    ],
+  },
+  { key: 'sections', label: 'Sections', intro: 'Des sections libres ajoutées à la page du pays, dans l’ordre choisi.' },
+  { key: 'medias', label: 'Médias', intro: 'Images, PDF, vidéos et documents proposés sur la page du pays.' },
+  {
+    key: 'sources',
+    label: 'Sources',
+    intro: 'D’où viennent les informations, et leur niveau de vérification.',
+    fields: [
+      { key: 'sourceQuality', label: 'Niveau éditorial' },
+      { key: 'lastUpdated', label: 'Mise à jour', placeholder: '2026' },
+      {
+        key: 'sourceNotes',
+        label: 'Sources et notes de vérification',
+        rows: 3,
+        hint: LISTE,
+        placeholder: 'Ex : Données population Banque mondiale 2026; Formalités à confirmer avant voyage',
+      },
+    ],
+  },
+]
+
+const NIVEAUX: Record<string, string> = {
+  draft: 'À compléter',
+  community: 'Communauté',
+  verified: 'Vérifié',
+  official: 'Officiel',
+}
+
+// ---------- Complétude : champs renseignés sur l'ensemble des rubriques ----------
+
+// Les champs toujours pré-remplis (code, couleur, niveau, année) ne comptent pas
+const HORS_COMPLETUDE: FieldKey[] = ['id', 'color', 'sourceQuality', 'lastUpdated']
+const MEDIAS = ['customSections', 'images', 'pdfs', 'videos', 'documents'] as const
+const CHAMPS_COMPLETUDE: string[] = [
+  ...ONGLETS.flatMap((tab) => (tab.fields || []).map((field) => field.key)).filter((key) => !HORS_COMPLETUDE.includes(key)),
+  ...MEDIAS,
+]
+
+const rempli = (value: unknown) => (Array.isArray(value) ? value.length > 0 : typeof value === 'string' ? value.trim().length > 0 : value != null)
+
+const completudeOf = (get: (key: string) => unknown) => {
+  const faits = CHAMPS_COMPLETUDE.filter((key) => rempli(get(key))).length
+  return Math.round((faits / CHAMPS_COMPLETUDE.length) * 100)
+}
+
+const completudeCountry = (country: Country) => completudeOf((key) => (country as unknown as Record<string, unknown>)[key])
+
+// ---------- Divers ----------
+
+const getFlagUrl = (countryId: string) => {
+  const codeMap: Record<string, string> = { EH: 'eh' }
+  const code = codeMap[countryId] || countryId.toLowerCase()
+  return `https://flagcdn.com/w80/${code}.png`
+}
+
+type RegionFiltre = 'tous' | Region
+
+const REGION_OPTIONS: ReadonlyArray<{ key: RegionFiltre; label: string }> = [
+  { key: 'tous', label: 'Tout le continent' },
+  ...REGION_ORDER.map((region) => ({ key: region, label: REGION_LABELS[region] })),
+]
+
+const normaliser = (value: string) =>
+  value
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .toLowerCase()
+
+const regionStyle = (region: Region | null) => (region ? ({ '--mac-region': REGION_COLORS[region] } as CSSProperties) : undefined)
+
+const FOCUSABLES = 'a[href], button:not([disabled]), input:not([disabled]):not([type="hidden"]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'
+
 export const AdminCountries = () => {
   const [countries, setCountries] = useState<Country[]>([])
   const [loading, setLoading] = useState(true)
   const [searchTerm, setSearchTerm] = useState('')
+  const [regionFiltre, setRegionFiltre] = useState<RegionFiltre>('tous')
   const [showForm, setShowForm] = useState(false)
   const [editingCountry, setEditingCountry] = useState<Country | null>(null)
-  const [activeTab, setActiveTab] = useState<'basic' | 'discovery' | 'sections' | 'images' | 'pdfs' | 'videos' | 'documents'>('basic')
+  const [activeTab, setActiveTab] = useState<TabKey>('identite')
   const [customSections, setCustomSections] = useState<CustomSection[]>([])
   const [images, setImages] = useState<CountryImage[]>([])
   const [pdfs, setPdfs] = useState<CountryPDF[]>([])
   const [videos, setVideos] = useState<CountryVideo[]>([])
   const [documents, setDocuments] = useState<CountryDocument[]>([])
-  const [formData, setFormData] = useState({
-    id: '',
-    name: '',
-    nameFr: '',
-    capital: '',
-    population: '',
-    area: '',
-    languages: '',
-    currency: '',
-    description: '',
-    culture: '',
-    oneSentenceSummary: '',
-    keyFacts: '',
-    peoples: '',
-    languageNotes: '',
-    historyHighlights: '',
-    notableFigures: '',
-    musicAndArts: '',
-    foodCulture: '',
-    oralTraditions: '',
-    knowledgeToPreserve: '',
-    recommendedPaths: '',
-    relatedThemes: '',
-    sourceQuality: 'draft',
-    discoveryIntro: '',
-    lastUpdated: '2026',
-    officialName: '',
-    region: '',
-    subregion: '',
-    demonym: '',
-    timeZone: '',
-    callingCode: '',
-    internetTld: '',
-    drivingSide: '',
-    independenceDate: '',
-    governmentType: '',
-    economicOverview: '',
-    climate: '',
-    bestTimeToVisit: '',
-    safetyNote: '',
-    etiquette: '',
-    transport: '',
-    connectivity: '',
-    visaNote: '',
-    healthAdvice: '',
-    emergencyNumbers: '',
-    placesToDiscover: '',
-    experiences: '',
-    practicalTips: '',
-    sourceNotes: '',
-    color: '#8E44AD',
-    rites: '',
-    customs: '',
-    foods: '',
-    traditions: '',
-    festivals: '',
-    arts: '',
-  })
+  const [formData, setFormData] = useState<FormState>(EMPTY_FORM)
+  const [saving, setSaving] = useState(false)
+  const [drapeauxManquants, setDrapeauxManquants] = useState<string[]>([])
   const navigate = useNavigate()
   const { success, error: showError } = useNotifications()
   const { confirm, Dialog } = useConfirmDialog()
   const [initializing, setInitializing] = useState(false)
   const [uploadMode, setUploadMode] = useState<{ [key: string]: 'upload' | 'url' }>({})
 
-  useEffect(() => {
-    fetchCountries()
-  }, [])
+  const panelRef = useRef<HTMLFormElement | null>(null)
+  const retourFocusRef = useRef<HTMLElement | null>(null)
+  const snapshotRef = useRef('')
+  const confirmOuvertRef = useRef(false)
+  const fermerRef = useRef<() => void>(() => undefined)
+
+  // Une confirmation ouverte au-dessus du panneau garde la main sur Échap et le focus
+  const demander = async (options: Parameters<typeof confirm>[0]) => {
+    confirmOuvertRef.current = true
+    try {
+      return await confirm(options)
+    } finally {
+      confirmOuvertRef.current = false
+    }
+  }
 
   const fetchCountries = async () => {
     try {
@@ -216,169 +506,191 @@ export const AdminCountries = () => {
     }
   }
 
-  const filteredCountries = countries.filter(country =>
-    country.nameFr.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    country.capital.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    country.id.toLowerCase().includes(searchTerm.toLowerCase())
+  useEffect(() => {
+    fetchCountries()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
+  // ---------- Liste ----------
+
+  const recherche = normaliser(searchTerm.trim())
+  const trouves = useMemo(
+    () =>
+      countries
+        .filter(
+          (country) =>
+            !recherche ||
+            normaliser(country.nameFr || '').includes(recherche) ||
+            normaliser(country.capital || '').includes(recherche) ||
+            normaliser(country.id || '').includes(recherche),
+        )
+        .sort((a, b) => (a.nameFr || '').localeCompare(b.nameFr || '', 'fr')),
+    [countries, recherche],
   )
 
+  const compteurs = useMemo(() => {
+    const counts: Partial<Record<RegionFiltre, number>> = { tous: trouves.length }
+    for (const region of REGION_ORDER) counts[region] = 0
+    for (const country of trouves) {
+      const region = regionOfCode(country.id)
+      if (region) counts[region] = (counts[region] || 0) + 1
+    }
+    return counts
+  }, [trouves])
+
+  const groupes = useMemo(() => {
+    const regions: Array<Region | null> = regionFiltre === 'tous' ? [...REGION_ORDER, null] : [regionFiltre]
+    return regions
+      .map((region) => ({ region, pays: trouves.filter((country) => regionOfCode(country.id) === region) }))
+      .filter((groupe) => groupe.region !== null || groupe.pays.length > 0)
+      .filter((groupe) => !recherche || regionFiltre !== 'tous' || groupe.pays.length > 0)
+  }, [trouves, regionFiltre, recherche])
+
+  const chiffres = useMemo(() => {
+    const verifies = countries.filter((c) => c.sourceQuality === 'verified' || c.sourceQuality === 'official').length
+    const aCompleter = countries.filter((c) => !c.sourceQuality || c.sourceQuality === 'draft').length
+    const moyenne = countries.length ? Math.round(countries.reduce((total, c) => total + completudeCountry(c), 0) / countries.length) : 0
+    return { verifies, aCompleter, moyenne }
+  }, [countries])
+
+  const regionChipsStyle = Object.fromEntries(REGION_ORDER.map((region, index) => [`--mac-r${index + 1}`, REGION_COLORS[region]])) as CSSProperties
+
+  // ---------- Panneau d'édition ----------
+
+  const snapshotOf = (form: FormState, sections: CustomSection[], imgs: CountryImage[], pdfList: CountryPDF[], vids: CountryVideo[], docs: CountryDocument[]) =>
+    JSON.stringify([form, sections, imgs, pdfList, vids, docs])
+
+  const ouvrirPanneau = () => {
+    retourFocusRef.current = document.activeElement as HTMLElement | null
+    setShowForm(true)
+  }
+
+  const handleCreate = () => {
+    resetForm()
+    snapshotRef.current = snapshotOf(EMPTY_FORM, [], [], [], [], [])
+    ouvrirPanneau()
+  }
+
   const handleEdit = (country: Country) => {
+    const next = formFromCountry(country)
     setEditingCountry(country)
-    setFormData({
-      id: country.id,
-      name: country.name || '',
-      nameFr: country.nameFr,
-      capital: country.capital,
-      population: country.population || '',
-      area: country.area || '',
-      languages: country.languages?.join(', ') || '',
-      currency: country.currency || '',
-      description: country.description || '',
-      culture: country.culture || '',
-      oneSentenceSummary: country.oneSentenceSummary || '',
-      keyFacts: country.keyFacts?.join('; ') || '',
-      peoples: country.peoples?.join('; ') || '',
-      languageNotes: country.languageNotes || '',
-      historyHighlights: country.historyHighlights?.join('; ') || '',
-      notableFigures: country.notableFigures?.join('; ') || '',
-      musicAndArts: country.musicAndArts?.join('; ') || '',
-      foodCulture: country.foodCulture?.join('; ') || '',
-      oralTraditions: country.oralTraditions?.join('; ') || '',
-      knowledgeToPreserve: country.knowledgeToPreserve?.join('; ') || '',
-      recommendedPaths: country.recommendedPaths?.map((path) => `${path.title} | ${path.description} | ${(path.items || []).join(', ')}`).join('\n') || '',
-      relatedThemes: country.relatedThemes?.join('; ') || '',
-      sourceQuality: country.sourceQuality || 'draft',
-      discoveryIntro: country.discoveryIntro || '',
-      lastUpdated: country.lastUpdated || '2026',
-      officialName: country.officialName || '',
-      region: country.region || '',
-      subregion: country.subregion || '',
-      demonym: country.demonym || '',
-      timeZone: country.timeZone || '',
-      callingCode: country.callingCode || '',
-      internetTld: country.internetTld || '',
-      drivingSide: country.drivingSide || '',
-      independenceDate: country.independenceDate || '',
-      governmentType: country.governmentType || '',
-      economicOverview: country.economicOverview || '',
-      climate: country.climate || '',
-      bestTimeToVisit: country.bestTimeToVisit || '',
-      safetyNote: country.safetyNote || '',
-      etiquette: country.etiquette || '',
-      transport: country.transport || '',
-      connectivity: country.connectivity || '',
-      visaNote: country.visaNote || '',
-      healthAdvice: country.healthAdvice || '',
-      emergencyNumbers: country.emergencyNumbers || '',
-      placesToDiscover: country.placesToDiscover?.join('; ') || '',
-      experiences: country.experiences?.join('; ') || '',
-      practicalTips: country.practicalTips?.join('; ') || '',
-      sourceNotes: country.sourceNotes?.join('; ') || '',
-      color: country.color || '#8E44AD',
-      rites: country.rites?.join('; ') || '',
-      customs: country.customs?.join('; ') || '',
-      foods: country.foods?.join('; ') || '',
-      traditions: country.traditions?.join('; ') || '',
-      festivals: country.festivals?.join('; ') || '',
-      arts: country.arts?.join('; ') || '',
-    })
+    setFormData(next)
     setCustomSections(country.customSections || [])
     setImages(country.images || [])
     setPdfs(country.pdfs || [])
     setVideos(country.videos || [])
     setDocuments(country.documents || [])
-    setShowForm(true)
-    setActiveTab('basic')
-    console.log('Pays chargé pour édition - PDFs:', country.pdfs)
+    setUploadMode({})
+    setActiveTab('identite')
+    snapshotRef.current = snapshotOf(next, country.customSections || [], country.images || [], country.pdfs || [], country.videos || [], country.documents || [])
+    ouvrirPanneau()
+  }
+
+  const allerAuBloc = (tab: TabKey, blocId?: string) => {
+    setActiveTab(tab)
+    if (blocId) window.setTimeout(() => document.getElementById(blocId)?.scrollIntoView({ block: 'start', behavior: 'smooth' }), 60)
   }
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
+    if (saving) return
+
+    // Champs obligatoires : vérifiés ici car l'onglet Identité n'est pas forcément affiché
+    if (!formData.id.trim() || !formData.nameFr.trim() || !formData.capital.trim() || !formData.description.trim()) {
+      showError('Renseignez le code, le nom français, la capitale et la description (onglet Identité).')
+      allerAuBloc('identite')
+      return
+    }
+    if (customSections.some((section) => !section.title.trim())) {
+      showError('Chaque section personnalisée doit avoir un titre.')
+      allerAuBloc('sections')
+      return
+    }
+
     try {
-      console.log('Soumission du formulaire - PDFs:', pdfs)
-      console.log('Soumission du formulaire - Videos:', videos)
-      console.log('Soumission du formulaire - Documents:', documents)
       // Filtrer les PDFs valides (avec URL et titre)
       // Ignorer ceux qui sont complètement vides (pas de titre et pas d'URL)
       const validPDFs = pdfs
-        .filter(pdf => {
+        .filter((pdf) => {
           const hasUrl = pdf.url && pdf.url.trim()
           const hasTitle = pdf.title && pdf.title.trim()
-          // Garder seulement ceux qui ont les deux (URL et titre)
           return hasUrl && hasTitle
         })
-        .map((pdf, idx) => ({ 
-          url: pdf.url.trim(), 
-          title: pdf.title.trim(), 
-          description: pdf.description?.trim() || '', 
-          order: idx 
+        .map((pdf, idx) => ({
+          url: pdf.url.trim(),
+          title: pdf.title.trim(),
+          description: pdf.description?.trim() || '',
+          order: idx,
         }))
-      
-      // Vérifier s'il y a des PDFs partiellement remplis (un champ rempli mais pas l'autre)
-      const partiallyFilledPDFs = pdfs.filter(pdf => {
+
+      // PDFs partiellement remplis (un champ rempli mais pas l'autre) : erreur
+      const partiallyFilledPDFs = pdfs.filter((pdf) => {
         const hasUrl = pdf.url && pdf.url.trim()
         const hasTitle = pdf.title && pdf.title.trim()
-        // Si un champ est rempli mais pas l'autre, c'est une erreur
         return (hasUrl && !hasTitle) || (!hasUrl && hasTitle)
       })
       if (partiallyFilledPDFs.length > 0) {
         showError('Veuillez remplir tous les champs requis pour les PDFs (URL et titre). Les PDFs incomplets seront ignorés.')
-        setActiveTab('pdfs')
+        allerAuBloc('medias', 'mac-bloc-pdfs')
         return
       }
 
       const validVideos = videos
-        .filter(video => {
+        .filter((video) => {
           const hasUrl = video.url && video.url.trim()
           const hasTitle = video.title && video.title.trim()
           return hasUrl && hasTitle
         })
-        .map((video, idx) => ({ 
-          url: video.url.trim(), 
-          title: video.title.trim(), 
-          description: video.description?.trim() || '', 
+        .map((video, idx) => ({
+          url: video.url.trim(),
+          title: video.title.trim(),
+          description: video.description?.trim() || '',
           type: video.type || 'direct',
           thumbnail: video.thumbnail?.trim() || '',
-          order: idx 
+          order: idx,
         }))
-      
-      const partiallyFilledVideos = videos.filter(video => {
+
+      const partiallyFilledVideos = videos.filter((video) => {
         const hasUrl = video.url && video.url.trim()
         const hasTitle = video.title && video.title.trim()
         return (hasUrl && !hasTitle) || (!hasUrl && hasTitle)
       })
       if (partiallyFilledVideos.length > 0) {
         showError('Veuillez remplir tous les champs requis pour les vidéos (URL et titre). Les vidéos incomplètes seront ignorées.')
-        setActiveTab('videos')
+        allerAuBloc('medias', 'mac-bloc-videos')
         return
       }
 
       const validDocuments = documents
-        .filter(doc => {
+        .filter((doc) => {
           const hasUrl = doc.url && doc.url.trim()
           const hasTitle = doc.title && doc.title.trim()
           return hasUrl && hasTitle
         })
-        .map((doc, idx) => ({ 
-          url: doc.url.trim(), 
-          title: doc.title.trim(), 
-          description: doc.description?.trim() || '', 
+        .map((doc, idx) => ({
+          url: doc.url.trim(),
+          title: doc.title.trim(),
+          description: doc.description?.trim() || '',
           type: doc.type || 'other',
-          order: idx 
+          order: idx,
         }))
-      
-      const partiallyFilledDocuments = documents.filter(doc => {
+
+      const partiallyFilledDocuments = documents.filter((doc) => {
         const hasUrl = doc.url && doc.url.trim()
         const hasTitle = doc.title && doc.title.trim()
         return (hasUrl && !hasTitle) || (!hasUrl && hasTitle)
       })
       if (partiallyFilledDocuments.length > 0) {
         showError('Veuillez remplir tous les champs requis pour les documents (URL et titre). Les documents incomplets seront ignorés.')
-        setActiveTab('documents')
+        allerAuBloc('medias', 'mac-bloc-documents')
         return
       }
 
-      const parseList = (value: string) => value.split(';').map((item) => item.trim()).filter(Boolean)
+      const parseList = (value: string) =>
+        value
+          .split(';')
+          .map((item) => item.trim())
+          .filter(Boolean)
       const parsedRecommendedPaths = formData.recommendedPaths
         .split('\n')
         .map((line) => line.trim())
@@ -388,7 +700,10 @@ export const AdminCountries = () => {
           return {
             title,
             description,
-            items: items.split(',').map((item) => item.trim()).filter(Boolean),
+            items: items
+              .split(',')
+              .map((item) => item.trim())
+              .filter(Boolean),
           }
         })
         .filter((path) => path.title && path.description)
@@ -400,7 +715,10 @@ export const AdminCountries = () => {
         capital: formData.capital,
         population: formData.population,
         area: formData.area,
-        languages: formData.languages.split(',').map(l => l.trim()).filter(Boolean),
+        languages: formData.languages
+          .split(',')
+          .map((l) => l.trim())
+          .filter(Boolean),
         currency: formData.currency,
         description: formData.description,
         culture: formData.culture,
@@ -457,20 +775,13 @@ export const AdminCountries = () => {
         documents: validDocuments,
       }
 
-      console.log('Données à envoyer:', JSON.stringify(countryData, null, 2))
-      console.log('PDFs valides à envoyer:', validPDFs)
-      
+      setSaving(true)
+      const pdfCount = validPDFs.length
       if (editingCountry) {
-        const response = await countryService.update(editingCountry._id || editingCountry.id, countryData)
-        console.log('Réponse de mise à jour:', response.data)
-        console.log('PDFs dans la réponse:', response.data.pdfs)
-        const pdfCount = validPDFs.length
+        await countryService.update(editingCountry._id || editingCountry.id, countryData)
         success(`Pays mis à jour avec succès ! ${pdfCount} PDF(s) sauvegardé(s).`)
       } else {
-        const response = await countryService.create(countryData)
-        console.log('Réponse de création:', response.data)
-        console.log('PDFs dans la réponse:', response.data.pdfs)
-        const pdfCount = validPDFs.length
+        await countryService.create(countryData)
         success(`Pays créé avec succès ! ${pdfCount} PDF(s) sauvegardé(s).`)
       }
 
@@ -479,105 +790,126 @@ export const AdminCountries = () => {
     } catch (error: any) {
       const errorMessage = error.response?.data?.error || 'Erreur lors de la sauvegarde'
       showError(errorMessage)
+    } finally {
+      setSaving(false)
     }
   }
 
-  const handleDelete = async (id: string) => {
-    const accepted = await confirm({
-      title: 'Supprimer ce pays ?',
+  const handleDelete = async (id: string, nom?: string) => {
+    const accepted = await demander({
+      title: nom ? `Supprimer ${nom} ?` : 'Supprimer ce pays ?',
       message: 'La fiche pays et ses contenus associés seront retirés.',
       confirmLabel: 'Supprimer',
       tone: 'danger',
     })
-    if (!accepted) return
+    if (!accepted) return false
 
     try {
       await countryService.delete(id)
       success('Pays supprimé avec succès !')
       fetchCountries()
+      return true
     } catch (error: any) {
       const errorMessage = error.response?.data?.error || 'Erreur lors de la suppression'
       showError(errorMessage)
+      return false
     }
   }
 
   const resetForm = () => {
-    setFormData({
-      id: '',
-      name: '',
-      nameFr: '',
-      capital: '',
-      population: '',
-      area: '',
-      languages: '',
-      currency: '',
-      description: '',
-      culture: '',
-      oneSentenceSummary: '',
-      keyFacts: '',
-      peoples: '',
-      languageNotes: '',
-      historyHighlights: '',
-      notableFigures: '',
-      musicAndArts: '',
-      foodCulture: '',
-      oralTraditions: '',
-      knowledgeToPreserve: '',
-      recommendedPaths: '',
-      relatedThemes: '',
-      sourceQuality: 'draft',
-      discoveryIntro: '',
-      lastUpdated: '2026',
-      officialName: '',
-      region: '',
-      subregion: '',
-      demonym: '',
-      timeZone: '',
-      callingCode: '',
-      internetTld: '',
-      drivingSide: '',
-      independenceDate: '',
-      governmentType: '',
-      economicOverview: '',
-      climate: '',
-      bestTimeToVisit: '',
-      safetyNote: '',
-      etiquette: '',
-      transport: '',
-      connectivity: '',
-      visaNote: '',
-      healthAdvice: '',
-      emergencyNumbers: '',
-      placesToDiscover: '',
-      experiences: '',
-      practicalTips: '',
-      sourceNotes: '',
-      color: '#8E44AD',
-      rites: '',
-      customs: '',
-      foods: '',
-      traditions: '',
-      festivals: '',
-      arts: '',
-    })
+    setFormData(EMPTY_FORM)
     setCustomSections([])
     setImages([])
     setPdfs([])
     setVideos([])
     setDocuments([])
+    setUploadMode({})
     setEditingCountry(null)
     setShowForm(false)
-    setActiveTab('basic')
+    setActiveTab('identite')
   }
 
-  // Gestion des sections personnalisées
+  // Fermer (Annuler, Échap, clic sur le voile) : on demande avant de perdre des changements
+  const fermer = async () => {
+    const modifie = snapshotOf(formData, customSections, images, pdfs, videos, documents) !== snapshotRef.current
+    if (modifie) {
+      const abandon = await demander({
+        title: 'Abandonner les modifications ?',
+        message: 'Les changements non enregistrés seront perdus.',
+        confirmLabel: 'Abandonner',
+        cancelLabel: 'Continuer l’édition',
+        tone: 'danger',
+      })
+      if (!abandon) return
+    }
+    resetForm()
+  }
+
+  useEffect(() => {
+    fermerRef.current = () => {
+      void fermer()
+    }
+  })
+
+  // Panneau ouvert : défilement de la page bloqué, focus dans le panneau, Échap ferme, Tab y reste
+  useEffect(() => {
+    if (!showForm) return
+    const previousOverflow = document.body.style.overflow
+    document.body.style.overflow = 'hidden'
+    const timer = window.setTimeout(() => {
+      const panel = panelRef.current
+      const premier = panel?.querySelector<HTMLElement>('.mac-onglet-panneau input:not([disabled]), .mac-onglet-panneau textarea, .mac-onglet-panneau select')
+      ;(premier || panel?.querySelector<HTMLElement>(FOCUSABLES))?.focus()
+    }, 30)
+
+    const handleKeydown = (event: KeyboardEvent) => {
+      if (confirmOuvertRef.current) return
+      if (event.key === 'Escape') {
+        event.preventDefault()
+        fermerRef.current()
+        return
+      }
+      if (event.key === 'Tab' && panelRef.current) {
+        const focusables = Array.from(panelRef.current.querySelectorAll<HTMLElement>(FOCUSABLES)).filter((el) => el.offsetParent !== null)
+        if (!focusables.length) return
+        const first = focusables[0]
+        const last = focusables[focusables.length - 1]
+        if (event.shiftKey && document.activeElement === first) {
+          event.preventDefault()
+          last.focus()
+        } else if (!event.shiftKey && document.activeElement === last) {
+          event.preventDefault()
+          first.focus()
+        } else if (!panelRef.current.contains(document.activeElement)) {
+          event.preventDefault()
+          first.focus()
+        }
+      }
+    }
+
+    window.addEventListener('keydown', handleKeydown)
+    return () => {
+      window.clearTimeout(timer)
+      window.removeEventListener('keydown', handleKeydown)
+      document.body.style.overflow = previousOverflow
+      const retour = retourFocusRef.current
+      if (retour && document.contains(retour)) retour.focus()
+    }
+  }, [showForm])
+
+  // Onglets : flèches gauche/droite pour passer de l'un à l'autre
+  const handleTabsKeydown = (event: ReactKeyboardEvent<HTMLDivElement>) => {
+    if (event.key !== 'ArrowRight' && event.key !== 'ArrowLeft') return
+    event.preventDefault()
+    const index = ONGLETS.findIndex((tab) => tab.key === activeTab)
+    const next = ONGLETS[(index + (event.key === 'ArrowRight' ? 1 : ONGLETS.length - 1)) % ONGLETS.length]
+    setActiveTab(next.key)
+    window.setTimeout(() => document.getElementById(`mac-onglet-${next.key}`)?.focus(), 0)
+  }
+
+  // ---------- Sections personnalisées ----------
   const addCustomSection = () => {
-    setCustomSections([...customSections, {
-      title: '',
-      content: '',
-      type: 'text',
-      order: customSections.length,
-    }])
+    setCustomSections([...customSections, { title: '', content: '', type: 'text', order: customSections.length }])
   }
 
   const updateCustomSection = (index: number, field: keyof CustomSection, value: any) => {
@@ -593,22 +925,17 @@ export const AdminCountries = () => {
   const moveCustomSection = (index: number, direction: 'up' | 'down') => {
     if (direction === 'up' && index === 0) return
     if (direction === 'down' && index === customSections.length - 1) return
-    
     const updated = [...customSections]
     const newIndex = direction === 'up' ? index - 1 : index + 1
     ;[updated[index], updated[newIndex]] = [updated[newIndex], updated[index]]
-    updated[index].order = index
-    updated[newIndex].order = newIndex
+    updated[index] = { ...updated[index], order: index }
+    updated[newIndex] = { ...updated[newIndex], order: newIndex }
     setCustomSections(updated)
   }
 
-  // Gestion des images
+  // ---------- Images ----------
   const addImage = () => {
-    setImages([...images, {
-      url: '',
-      caption: '',
-      order: images.length,
-    }])
+    setImages([...images, { url: '', caption: '', order: images.length }])
   }
 
   const updateImage = (index: number, field: keyof CountryImage, value: any) => {
@@ -621,46 +948,32 @@ export const AdminCountries = () => {
     setImages(images.filter((_, i) => i !== index))
   }
 
-  // Gestion des PDFs
+  // ---------- PDFs ----------
   const addPDF = () => {
-    setPdfs([...pdfs, {
-      url: '',
-      title: '',
-      description: '',
-    }])
+    setPdfs([...pdfs, { url: '', title: '', description: '' }])
   }
 
   const updatePDF = (index: number, field: keyof CountryPDF, value: any) => {
-    const updated = [...pdfs]
-    if (!updated[index]) {
-      // Si l'index n'existe pas, créer un nouveau PDF
-      updated[index] = { url: '', title: '', description: '', order: index }
-    }
-    updated[index] = { ...updated[index], [field]: value }
-    setPdfs(updated)
-    console.log(`PDF ${index} mis à jour - ${field}:`, value, 'PDFs complets:', updated)
+    // Mise à jour fonctionnelle : l'envoi d'un fichier peut se terminer après d'autres saisies
+    setPdfs((current) => {
+      const updated = [...current]
+      if (!updated[index]) updated[index] = { url: '', title: '', description: '', order: index }
+      updated[index] = { ...updated[index], [field]: value }
+      return updated
+    })
   }
 
   const removePDF = (index: number) => {
     setPdfs(pdfs.filter((_, i) => i !== index))
   }
 
-  // Gestion des vidéos
+  // ---------- Vidéos ----------
   const addVideo = () => {
-    setVideos([...videos, {
-      url: '',
-      title: '',
-      description: '',
-      type: 'direct',
-      thumbnail: '',
-      order: videos.length,
-    }])
+    setVideos([...videos, { url: '', title: '', description: '', type: 'direct', thumbnail: '', order: videos.length }])
   }
 
   const updateVideo = (index: number, field: keyof CountryVideo, value: string | undefined) => {
-    const updated = [...videos]
-    ;(updated[index] as any)[field] = value
-    setVideos(updated)
+    setVideos((current) => current.map((video, i) => (i === index ? { ...video, [field]: value } : video)))
   }
 
   const removeVideo = (index: number) => {
@@ -670,31 +983,19 @@ export const AdminCountries = () => {
   const moveVideo = (index: number, direction: 'up' | 'down') => {
     if (direction === 'up' && index === 0) return
     if (direction === 'down' && index === videos.length - 1) return
-    
     const updated = [...videos]
-    if (direction === 'up') {
-      [updated[index], updated[index - 1]] = [updated[index - 1], updated[index]]
-    } else {
-      [updated[index], updated[index + 1]] = [updated[index + 1], updated[index]]
-    }
+    const other = direction === 'up' ? index - 1 : index + 1
+    ;[updated[index], updated[other]] = [updated[other], updated[index]]
     setVideos(updated.map((v, idx) => ({ ...v, order: idx })))
   }
 
-  // Gestion des documents
+  // ---------- Documents ----------
   const addDocument = () => {
-    setDocuments([...documents, {
-      url: '',
-      title: '',
-      description: '',
-      type: 'other',
-      order: documents.length,
-    }])
+    setDocuments([...documents, { url: '', title: '', description: '', type: 'other', order: documents.length }])
   }
 
   const updateDocument = (index: number, field: keyof CountryDocument, value: string | undefined) => {
-    const updated = [...documents]
-    ;(updated[index] as any)[field] = value
-    setDocuments(updated)
+    setDocuments((current) => current.map((doc, i) => (i === index ? { ...doc, [field]: value } : doc)))
   }
 
   const removeDocument = (index: number) => {
@@ -704,18 +1005,14 @@ export const AdminCountries = () => {
   const moveDocument = (index: number, direction: 'up' | 'down') => {
     if (direction === 'up' && index === 0) return
     if (direction === 'down' && index === documents.length - 1) return
-    
     const updated = [...documents]
-    if (direction === 'up') {
-      [updated[index], updated[index - 1]] = [updated[index - 1], updated[index]]
-    } else {
-      [updated[index], updated[index + 1]] = [updated[index + 1], updated[index]]
-    }
+    const other = direction === 'up' ? index - 1 : index + 1
+    ;[updated[index], updated[other]] = [updated[other], updated[index]]
     setDocuments(updated.map((d, idx) => ({ ...d, order: idx })))
   }
 
   const handleInitializeCountries = async () => {
-    const accepted = await confirm({
+    const accepted = await demander({
       title: 'Initialiser les pays africains ?',
       message: 'Les 54 pays seront ajoutés ou mis à jour avec les données de base.',
       confirmLabel: 'Initialiser',
@@ -726,1052 +1023,597 @@ export const AdminCountries = () => {
     try {
       const response = await countryService.initialize(allAfricanCountries)
       const { created, updated, errors } = response.data
-      
+
       let message = `Initialisation terminée : ${created} pays créés, ${updated} pays mis à jour.`
       if (errors && errors.length > 0) {
         message += `\n${errors.length} erreur(s) : ${errors.map((e: any) => e.country).join(', ')}`
       }
-      
+
       success(message)
-      fetchCountries() // Recharger la liste
+      fetchCountries()
     } catch (error: any) {
-      const errorMessage = error.response?.data?.error || 'Erreur lors de l\'initialisation'
+      const errorMessage = error.response?.data?.error || "Erreur lors de l'initialisation"
       showError(errorMessage)
     } finally {
       setInitializing(false)
     }
   }
 
-  const getFlagUrl = (countryId: string) => {
-    const codeMap: Record<string, string> = { 'EH': 'eh' }
-    const code = codeMap[countryId] || countryId.toLowerCase()
-    return `https://flagcdn.com/w80/${code}.png`
+  // ---------- Rendu ----------
+
+  const setChamp = (key: FieldKey, value: string) => setFormData((current) => ({ ...current, [key]: value }))
+  const valeurForm = (key: string) => {
+    if ((MEDIAS as readonly string[]).includes(key)) return { customSections, images, pdfs, videos, documents }[key as (typeof MEDIAS)[number]]
+    return formData[key as FieldKey]
+  }
+  const scorePanneau = completudeOf(valeurForm)
+  const remplisOnglet = (tab: TabSpec) => {
+    if (tab.key === 'sections') return customSections.length
+    if (tab.key === 'medias') return images.length + pdfs.length + videos.length + documents.length
+    const fields = (tab.fields || []).filter((field) => !HORS_COMPLETUDE.includes(field.key))
+    return `${fields.filter((field) => rempli(formData[field.key])).length}/${fields.length}`
   }
 
-  const hasText = (value?: string) => Boolean(value && value.trim().length > 0)
-  const completionItems = [
-    {
-      label: 'Base',
-      done: hasText(formData.id) && hasText(formData.nameFr) && hasText(formData.capital) && hasText(formData.description),
-    },
-    {
-      label: 'Culture',
-      done: hasText(formData.culture) || hasText(formData.foods) || hasText(formData.arts) || hasText(formData.festivals),
-    },
-    {
-      label: 'Découverte',
-      done: hasText(formData.discoveryIntro) || hasText(formData.placesToDiscover) || hasText(formData.experiences),
-    },
-    {
-      label: 'Transmission',
-      done: hasText(formData.oneSentenceSummary) || hasText(formData.keyFacts) || hasText(formData.knowledgeToPreserve),
-    },
-    {
-      label: 'Pratique',
-      done: hasText(formData.climate) || hasText(formData.bestTimeToVisit) || hasText(formData.visaNote) || hasText(formData.healthAdvice),
-    },
-    {
-      label: 'Médias',
-      done: images.length + pdfs.length + videos.length + documents.length > 0,
-    },
-    {
-      label: 'Sources',
-      done: hasText(formData.sourceNotes),
-    },
-  ]
-  const completionScore = Math.round((completionItems.filter((item) => item.done).length / completionItems.length) * 100)
+  const renderChamp = (field: FieldSpec) => {
+    const id = `mac-champ-${field.key}`
+    const hintId = field.hint ? `${id}-aide` : undefined
+    const value = formData[field.key]
+    let control
+    if (field.key === 'sourceQuality') {
+      control = (
+        <select id={id} value={value} onChange={(e) => setChamp(field.key, e.target.value)} aria-describedby={hintId}>
+          {Object.entries(NIVEAUX).map(([cle, libelle]) => (
+            <option key={cle} value={cle}>
+              {libelle}
+            </option>
+          ))}
+        </select>
+      )
+    } else if (field.key === 'color') {
+      control = (
+        <span className="mac-couleur">
+          <input id={id} type="color" value={value} onChange={(e) => setChamp(field.key, e.target.value)} aria-describedby={hintId} />
+          <code>{value}</code>
+        </span>
+      )
+    } else if (field.rows) {
+      control = (
+        <textarea
+          id={id}
+          value={value}
+          rows={field.rows}
+          required={field.required}
+          placeholder={field.placeholder}
+          aria-describedby={hintId}
+          onChange={(e) => setChamp(field.key, e.target.value)}
+        />
+      )
+    } else {
+      control = (
+        <input
+          id={id}
+          type="text"
+          value={value}
+          required={field.required}
+          placeholder={field.placeholder}
+          aria-describedby={hintId}
+          disabled={field.key === 'id' && !!editingCountry}
+          onChange={(e) => setChamp(field.key, field.key === 'id' ? e.target.value.toUpperCase() : e.target.value)}
+        />
+      )
+    }
+    return (
+      <div key={field.key} className={`mac-champ${field.rows && !field.half ? ' mac-champ--large' : ''}`}>
+        <label htmlFor={id}>
+          {field.label}
+          {field.required && (
+            <span className="mac-requis" aria-hidden="true">
+              {' '}
+              *
+            </span>
+          )}
+        </label>
+        {control}
+        {field.hint && (
+          <span id={hintId} className="mac-aide">
+            {field.hint}
+          </span>
+        )}
+      </div>
+    )
+  }
 
-  if (loading) {
-    return <div className="admin-loading">Chargement des pays...</div>
+  const boutonsOrdre = (index: number, total: number, move: (index: number, direction: 'up' | 'down') => void, remove: (index: number) => void, libelle: string) => (
+    <div className="mac-item-actions">
+      <button type="button" className="mac-icone" onClick={() => move(index, 'up')} disabled={index === 0} aria-label={`Monter ${libelle}`} title="Déplacer vers le haut">
+        <ArrowUp size={16} aria-hidden="true" />
+      </button>
+      <button type="button" className="mac-icone" onClick={() => move(index, 'down')} disabled={index === total - 1} aria-label={`Descendre ${libelle}`} title="Déplacer vers le bas">
+        <ArrowDown size={16} aria-hidden="true" />
+      </button>
+      <button type="button" className="mac-icone mac-icone--danger" onClick={() => remove(index)} aria-label={`Retirer ${libelle}`} title="Retirer">
+        <X size={16} aria-hidden="true" />
+      </button>
+    </div>
+  )
+
+  const boutonRetirer = (index: number, remove: (index: number) => void, libelle: string) => (
+    <div className="mac-item-actions">
+      <button type="button" className="mac-icone mac-icone--danger" onClick={() => remove(index)} aria-label={`Retirer ${libelle}`} title="Retirer">
+        <X size={16} aria-hidden="true" />
+      </button>
+    </div>
+  )
+
+  const renderSections = () => (
+    <div className="mac-bloc">
+      <div className="mac-bloc-tete">
+        <h4>Sections personnalisées</h4>
+        <button type="button" className="btn btn-outline btn-small" onClick={addCustomSection}>
+          <Plus size={16} aria-hidden="true" /> Ajouter une section
+        </button>
+      </div>
+      {customSections.length === 0 ? (
+        <p className="mac-vide">Aucune section personnalisée. Ajoutez-en une pour enrichir la page du pays.</p>
+      ) : (
+        <ol className="mac-items">
+          {customSections.map((section, index) => (
+            <li key={index} className="mac-item">
+              <div className="mac-item-tete">
+                <strong>Section {index + 1}</strong>
+                {boutonsOrdre(index, customSections.length, moveCustomSection, removeCustomSection, `la section ${index + 1}`)}
+              </div>
+              <div className="mac-champs">
+                <Input label="Titre de la section" value={section.title} onChange={(e) => updateCustomSection(index, 'title', e.target.value)} placeholder="Ex : Histoire du pays" required />
+                <div className="mac-champ">
+                  <label htmlFor={`section-type-${index}`}>Type de contenu</label>
+                  <select
+                    id={`section-type-${index}`}
+                    value={section.type}
+                    onChange={(e) => updateCustomSection(index, 'type', e.target.value as 'text' | 'html' | 'list')}
+                  >
+                    <option value="text">Texte simple</option>
+                    <option value="html">HTML</option>
+                    <option value="list">Liste</option>
+                  </select>
+                </div>
+                <div className="mac-champ mac-champ--large">
+                  <label htmlFor={`section-content-${index}`}>Contenu</label>
+                  <textarea
+                    id={`section-content-${index}`}
+                    value={section.content}
+                    onChange={(e) => updateCustomSection(index, 'content', e.target.value)}
+                    rows={section.type === 'list' ? 6 : 4}
+                    placeholder={section.type === 'list' ? 'Une ligne par élément de la liste' : 'Contenu de la section...'}
+                  />
+                </div>
+              </div>
+            </li>
+          ))}
+        </ol>
+      )}
+    </div>
+  )
+
+  const renderMedias = () => (
+    <>
+      <nav className="mac-sous-nav" aria-label="Types de médias">
+        <a href="#mac-bloc-images">Images ({images.length})</a>
+        <a href="#mac-bloc-pdfs">PDF ({pdfs.length})</a>
+        <a href="#mac-bloc-videos">Vidéos ({videos.length})</a>
+        <a href="#mac-bloc-documents">Documents ({documents.length})</a>
+      </nav>
+
+      <section className="mac-bloc" id="mac-bloc-images" aria-labelledby="mac-titre-images">
+        <div className="mac-bloc-tete">
+          <h4 id="mac-titre-images">Galerie d’images</h4>
+          <button type="button" className="btn btn-outline btn-small" onClick={addImage}>
+            <ImageIcon size={16} aria-hidden="true" /> Ajouter une image
+          </button>
+        </div>
+        {images.length === 0 ? (
+          <p className="mac-vide">Aucune image. Ajoutez des images pour enrichir la galerie du pays.</p>
+        ) : (
+          <ol className="mac-items mac-items--grille">
+            {images.map((image, index) => (
+              <li key={index} className="mac-item">
+                <div className="mac-item-tete">
+                  <strong>Image {index + 1}</strong>
+                  {boutonRetirer(index, removeImage, `l’image ${index + 1}`)}
+                </div>
+                <MediaUpload type="image" value={image.url} label={`Image ${index + 1}`} onChange={(url) => updateImage(index, 'url', url)} onRemove={() => updateImage(index, 'url', '')} />
+                <Input label="Légende (optionnel)" value={image.caption} onChange={(e) => updateImage(index, 'caption', e.target.value)} placeholder="Description de l’image" />
+              </li>
+            ))}
+          </ol>
+        )}
+      </section>
+
+      <section className="mac-bloc" id="mac-bloc-pdfs" aria-labelledby="mac-titre-pdfs">
+        <div className="mac-bloc-tete">
+          <h4 id="mac-titre-pdfs">Documents PDF</h4>
+          <button type="button" className="btn btn-outline btn-small" onClick={addPDF}>
+            <FileText size={16} aria-hidden="true" /> Ajouter un PDF
+          </button>
+        </div>
+        {pdfs.length === 0 ? (
+          <p className="mac-vide">Aucun document PDF. Ajoutez des documents pour enrichir les ressources du pays.</p>
+        ) : (
+          <ol className="mac-items">
+            {pdfs.map((pdf, index) => {
+              const mode = uploadMode[`pdf-${index}`] || 'upload'
+              return (
+                <li key={index} className="mac-item">
+                  <div className="mac-item-tete">
+                    <strong>PDF {index + 1}</strong>
+                    {boutonRetirer(index, removePDF, `le PDF ${index + 1}`)}
+                  </div>
+                  <Input label="Titre du document" value={pdf.title} onChange={(e) => updatePDF(index, 'title', e.target.value)} placeholder="Ex : Guide touristique" required />
+                  <div className="mac-mode" role="group" aria-label={`Source du PDF ${index + 1}`}>
+                    <button type="button" aria-pressed={mode === 'upload'} onClick={() => setUploadMode({ ...uploadMode, [`pdf-${index}`]: 'upload' })}>
+                      <FileText size={16} aria-hidden="true" /> Depuis l’ordinateur
+                    </button>
+                    <button type="button" aria-pressed={mode === 'url'} onClick={() => setUploadMode({ ...uploadMode, [`pdf-${index}`]: 'url' })}>
+                      <LinkIcon size={16} aria-hidden="true" /> Lien (Drive, Dropbox…)
+                    </button>
+                  </div>
+                  {mode === 'upload' ? (
+                    <>
+                      <FileUpload type="pdf" onUploadSuccess={(url) => updatePDF(index, 'url', url)} label="Upload de PDF" />
+                      {pdf.url && (
+                        <p className="mac-fichier">
+                          Fichier enregistré :{' '}
+                          <a href={pdf.url} target="_blank" rel="noopener noreferrer">
+                            ouvrir le PDF <ArrowUpRight size={14} aria-hidden="true" />
+                          </a>
+                        </p>
+                      )}
+                    </>
+                  ) : (
+                    <Input
+                      label="URL du PDF"
+                      value={pdf.url}
+                      onChange={(e) => updatePDF(index, 'url', e.target.value)}
+                      placeholder="https://exemple.com/document.pdf ou lien Google Drive/Dropbox"
+                      required
+                    />
+                  )}
+                  <div className="mac-champ">
+                    <label htmlFor={`pdf-description-${index}`}>Description (optionnel)</label>
+                    <textarea id={`pdf-description-${index}`} value={pdf.description} onChange={(e) => updatePDF(index, 'description', e.target.value)} rows={2} placeholder="Description du document..." />
+                  </div>
+                </li>
+              )
+            })}
+          </ol>
+        )}
+      </section>
+
+      <section className="mac-bloc" id="mac-bloc-videos" aria-labelledby="mac-titre-videos">
+        <div className="mac-bloc-tete">
+          <h4 id="mac-titre-videos">Vidéos</h4>
+          <button type="button" className="btn btn-outline btn-small" onClick={addVideo}>
+            <Video size={16} aria-hidden="true" /> Ajouter une vidéo
+          </button>
+        </div>
+        {videos.length === 0 ? (
+          <p className="mac-vide">Aucune vidéo. Ajoutez des vidéos pour enrichir le contenu du pays.</p>
+        ) : (
+          <ol className="mac-items">
+            {videos.map((video, index) => (
+              <li key={index} className="mac-item">
+                <div className="mac-item-tete">
+                  <strong>Vidéo {index + 1}</strong>
+                  {boutonsOrdre(index, videos.length, moveVideo, removeVideo, `la vidéo ${index + 1}`)}
+                </div>
+                <div className="mac-champs">
+                  <Input label="Titre de la vidéo" value={video.title} onChange={(e) => updateVideo(index, 'title', e.target.value)} placeholder="Ex : Présentation du pays" required />
+                  <div className="mac-champ">
+                    <label htmlFor={`video-type-${index}`}>Type de vidéo</label>
+                    <select id={`video-type-${index}`} value={video.type || 'direct'} onChange={(e) => updateVideo(index, 'type', e.target.value as CountryVideo['type'])}>
+                      <option value="direct">URL directe</option>
+                      <option value="youtube">YouTube</option>
+                      <option value="vimeo">Vimeo</option>
+                      <option value="other">Autre</option>
+                    </select>
+                  </div>
+                  <div className="mac-champ--large">
+                    <Input
+                      label="URL de la vidéo"
+                      value={video.url}
+                      onChange={(e) => updateVideo(index, 'url', e.target.value)}
+                      placeholder="https://youtube.com/watch?v=... ou https://vimeo.com/..."
+                      required
+                    />
+                  </div>
+                </div>
+                <MediaUpload type="image" value={video.thumbnail || ''} label="Miniature vidéo" onChange={(url) => updateVideo(index, 'thumbnail', url)} onRemove={() => updateVideo(index, 'thumbnail', '')} />
+                <div className="mac-champ">
+                  <label htmlFor={`video-description-${index}`}>Description (optionnel)</label>
+                  <textarea id={`video-description-${index}`} value={video.description || ''} onChange={(e) => updateVideo(index, 'description', e.target.value)} rows={2} placeholder="Description de la vidéo..." />
+                </div>
+              </li>
+            ))}
+          </ol>
+        )}
+      </section>
+
+      <section className="mac-bloc" id="mac-bloc-documents" aria-labelledby="mac-titre-documents">
+        <div className="mac-bloc-tete">
+          <h4 id="mac-titre-documents">Documents (DOCX, XLSX, etc.)</h4>
+          <button type="button" className="btn btn-outline btn-small" onClick={addDocument}>
+            <FileIcon size={16} aria-hidden="true" /> Ajouter un document
+          </button>
+        </div>
+        {documents.length === 0 ? (
+          <p className="mac-vide">Aucun document. Ajoutez des documents pour enrichir les ressources du pays.</p>
+        ) : (
+          <ol className="mac-items">
+            {documents.map((document, index) => (
+              <li key={index} className="mac-item">
+                <div className="mac-item-tete">
+                  <strong>Document {index + 1}</strong>
+                  {boutonsOrdre(index, documents.length, moveDocument, removeDocument, `le document ${index + 1}`)}
+                </div>
+                <div className="mac-champs">
+                  <Input label="Titre du document" value={document.title} onChange={(e) => updateDocument(index, 'title', e.target.value)} placeholder="Ex : Rapport économique" required />
+                  <div className="mac-champ">
+                    <label htmlFor={`document-type-${index}`}>Type de document</label>
+                    <select id={`document-type-${index}`} value={document.type || 'other'} onChange={(e) => updateDocument(index, 'type', e.target.value as CountryDocument['type'])}>
+                      <option value="docx">Word (DOCX)</option>
+                      <option value="doc">Word (DOC)</option>
+                      <option value="xlsx">Excel (XLSX)</option>
+                      <option value="xls">Excel (XLS)</option>
+                      <option value="pptx">PowerPoint (PPTX)</option>
+                      <option value="ppt">PowerPoint (PPT)</option>
+                      <option value="txt">Texte (TXT)</option>
+                      <option value="other">Autre</option>
+                    </select>
+                  </div>
+                  <div className="mac-champ--large">
+                    <Input
+                      label="URL du document"
+                      value={document.url}
+                      onChange={(e) => updateDocument(index, 'url', e.target.value)}
+                      placeholder="https://exemple.com/document.docx ou lien Google Drive/Dropbox"
+                      required
+                    />
+                  </div>
+                </div>
+                <div className="mac-champ">
+                  <label htmlFor={`document-description-${index}`}>Description (optionnel)</label>
+                  <textarea
+                    id={`document-description-${index}`}
+                    value={document.description || ''}
+                    onChange={(e) => updateDocument(index, 'description', e.target.value)}
+                    rows={2}
+                    placeholder="Description du document..."
+                  />
+                </div>
+              </li>
+            ))}
+          </ol>
+        )}
+      </section>
+    </>
+  )
+
+  const ongletActif = ONGLETS.find((tab) => tab.key === activeTab) || ONGLETS[0]
+  const regionPanneau = regionOfCode(formData.id)
+  const titrePanneau = editingCountry ? editingCountry.nameFr : formData.nameFr.trim() || 'Nouveau pays'
+
+  if (loading && countries.length === 0) {
+    return (
+      <p className="mac-chargement" role="status">
+        Chargement des pays…
+      </p>
+    )
   }
 
   return (
-    <div className="admin-countries">
-      <div className="admin-section-header">
-        <div>
-          <h2>Gestion des Pays</h2>
-          <p>Gérez les informations des 54 pays africains</p>
-        </div>
-        <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+    <div className="mac">
+      <header className="mac-tete">
+        <dl className="mac-chiffres">
+          <div>
+            <dt>Pays dans la base</dt>
+            <dd>
+              {countries.length}
+              <small> / {allAfricanCountries.length}</small>
+            </dd>
+          </div>
+          <div>
+            <dt>Vérifiés ou officiels</dt>
+            <dd>{chiffres.verifies}</dd>
+          </div>
+          <div>
+            <dt>À compléter</dt>
+            <dd>{chiffres.aCompleter}</dd>
+          </div>
+          <div>
+            <dt>Complétude moyenne</dt>
+            <dd>{chiffres.moyenne} %</dd>
+          </div>
+        </dl>
+        <div className="mac-tete-actions">
           {countries.length === 0 && (
-            <Button 
-              onClick={handleInitializeCountries}
-              disabled={initializing}
-              variant="secondary"
-            >
-              <Database size={20} />
-              {initializing ? 'Initialisation...' : 'Initialiser tous les pays'}
-            </Button>
+            <button type="button" className="btn btn-outline" onClick={handleInitializeCountries} disabled={initializing}>
+              <Database size={18} aria-hidden="true" />
+              {initializing ? 'Initialisation…' : 'Initialiser tous les pays'}
+            </button>
           )}
-          <Button onClick={() => {
-            resetForm()
-            setShowForm(!showForm)
-          }}>
-            <Plus size={20} />
-            {showForm ? 'Annuler' : 'Nouveau Pays'}
-          </Button>
+          <button type="button" className="btn btn-primary" onClick={handleCreate}>
+            <Plus size={18} aria-hidden="true" /> Ajouter un pays
+          </button>
         </div>
+      </header>
+
+      <div className="mac-filtres">
+        <div className="mac-regions" style={regionChipsStyle}>
+          <TypeChips label="Région" options={REGION_OPTIONS} counts={compteurs} active={regionFiltre} onChange={setRegionFiltre} />
+        </div>
+        <label className="mac-recherche">
+          <Search size={16} aria-hidden="true" />
+          <input type="search" className="mac-recherche-champ" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} placeholder="Pays, capitale ou code" aria-label="Rechercher un pays, une capitale ou un code" />
+        </label>
       </div>
 
-      <div className="countries-search-bar">
-        <Search size={20} />
-        <Input
-          id="country-search"
-          name="country-search"
-          placeholder="Rechercher un pays, une capitale ou un code..."
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-        />
-      </div>
+      <p className="mac-compte" aria-live="polite">
+        {regionFiltre === 'tous' ? trouves.length : compteurs[regionFiltre] || 0} pays
+        {recherche ? ` pour « ${searchTerm.trim()} »` : ''}
+        {recherche && (
+          <button type="button" className="mac-lien" onClick={() => setSearchTerm('')}>
+            Effacer la recherche
+          </button>
+        )}
+      </p>
 
-      {showForm && (
-        <Card className="country-form-card">
-          <div className="country-form-header">
-            <div>
-              <span className="form-eyebrow">Fiche éditoriale</span>
-              <h3>{editingCountry ? `Modifier ${editingCountry.nameFr}` : 'Nouveau pays'}</h3>
-              <p>Avancez section par section. Les champs MonBaobab complètent la page publique sans remplacer les données officielles.</p>
-            </div>
-            <div className="completion-meter" aria-label={`Complétion ${completionScore}%`}>
-              <strong>{completionScore}%</strong>
-              <span>complété</span>
-              <div className="completion-track">
-                <i style={{ width: `${completionScore}%` }} />
-              </div>
-            </div>
-          </div>
-
-          <div className="completion-chips" aria-label="État des sections">
-            {completionItems.map((item) => (
-              <span className={item.done ? 'done' : ''} key={item.label}>
-                {item.label}
-              </span>
-            ))}
-          </div>
-          
-          {/* Onglets */}
-          <div className="form-tabs">
-            <button
-              type="button"
-              className={`form-tab ${activeTab === 'basic' ? 'active' : ''}`}
-              onClick={() => setActiveTab('basic')}
-            >
-              Informations de base
-            </button>
-            <button
-              type="button"
-              className={`form-tab ${activeTab === 'discovery' ? 'active' : ''}`}
-              onClick={() => setActiveTab('discovery')}
-            >
-              Découverte 2026
-            </button>
-            <button
-              type="button"
-              className={`form-tab ${activeTab === 'sections' ? 'active' : ''}`}
-              onClick={() => setActiveTab('sections')}
-            >
-              Sections personnalisées
-            </button>
-            <button
-              type="button"
-              className={`form-tab ${activeTab === 'images' ? 'active' : ''}`}
-              onClick={() => setActiveTab('images')}
-            >
-              Images ({images.length})
-            </button>
-            <button
-              type="button"
-              className={`form-tab ${activeTab === 'pdfs' ? 'active' : ''}`}
-              onClick={() => setActiveTab('pdfs')}
-            >
-              PDFs ({pdfs.length})
-            </button>
-            <button
-              type="button"
-              className={`form-tab ${activeTab === 'videos' ? 'active' : ''}`}
-              onClick={() => setActiveTab('videos')}
-            >
-              Vidéos ({videos.length})
-            </button>
-            <button
-              type="button"
-              className={`form-tab ${activeTab === 'documents' ? 'active' : ''}`}
-              onClick={() => setActiveTab('documents')}
-            >
-              Documents ({documents.length})
-            </button>
-          </div>
-
-          <form onSubmit={handleSubmit} className="country-form">
-            {/* Contenu des onglets */}
-            {activeTab === 'basic' && (
-              <>
-                <div className="form-row">
-                  <Input
-                    label="Code pays (ex: MA, SN)"
-                    value={formData.id}
-                    onChange={(e) => setFormData({ ...formData, id: e.target.value.toUpperCase() })}
-                    required
-                    placeholder="MA"
-                    disabled={!!editingCountry}
-                  />
-                  <Input
-                    label="Nom français"
-                    value={formData.nameFr}
-                    onChange={(e) => setFormData({ ...formData, nameFr: e.target.value })}
-                    required
-                    placeholder="Maroc"
-                  />
-                </div>
-                <Input
-                  label="Nom anglais"
-                  value={formData.name}
-                  onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                  placeholder="Morocco"
-                />
-                <Input
-                  label="Capitale"
-                  value={formData.capital}
-                  onChange={(e) => setFormData({ ...formData, capital: e.target.value })}
-                  required
-                />
-                <div className="form-row">
-                  <Input
-                    label="Population"
-                    value={formData.population}
-                    onChange={(e) => setFormData({ ...formData, population: e.target.value })}
-                    placeholder="37M"
-                  />
-                  <Input
-                    label="Superficie"
-                    value={formData.area}
-                    onChange={(e) => setFormData({ ...formData, area: e.target.value })}
-                    placeholder="447K km²"
-                  />
-                </div>
-                <div className="form-row">
-                  <Input
-                    label="Langues (séparées par des virgules)"
-                    value={formData.languages}
-                    onChange={(e) => setFormData({ ...formData, languages: e.target.value })}
-                    placeholder="Arabe, Amazigh"
-                  />
-                  <Input
-                    label="Monnaie"
-                    value={formData.currency}
-                    onChange={(e) => setFormData({ ...formData, currency: e.target.value })}
-                    placeholder="Dirham"
-                  />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="country-description" className="input-label">Description</label>
-                  <textarea
-                    id="country-description"
-                    name="description"
-                    className="form-textarea"
-                    value={formData.description}
-                    onChange={(e) => setFormData({ ...formData, description: e.target.value })}
-                    rows={4}
-                    required
-                  />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="country-culture" className="input-label">Culture</label>
-                  <textarea
-                    id="country-culture"
-                    name="culture"
-                    className="form-textarea"
-                    value={formData.culture}
-                    onChange={(e) => setFormData({ ...formData, culture: e.target.value })}
-                    rows={3}
-                  />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="country-rites" className="input-label">Rites (séparés par des point-virgules)</label>
-                  <textarea
-                    id="country-rites"
-                    name="rites"
-                    className="form-textarea"
-                    value={formData.rites}
-                    onChange={(e) => setFormData({ ...formData, rites: e.target.value })}
-                    rows={2}
-                    placeholder="Cérémonie du thé; Mariages traditionnels"
-                  />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="country-customs" className="input-label">Coutumes (séparées par des point-virgules)</label>
-                  <textarea
-                    id="country-customs"
-                    name="customs"
-                    className="form-textarea"
-                    value={formData.customs}
-                    onChange={(e) => setFormData({ ...formData, customs: e.target.value })}
-                    rows={2}
-                  />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="country-foods" className="input-label">Spécialités culinaires (séparées par des point-virgules)</label>
-                  <textarea
-                    id="country-foods"
-                    name="foods"
-                    className="form-textarea"
-                    value={formData.foods}
-                    onChange={(e) => setFormData({ ...formData, foods: e.target.value })}
-                    rows={2}
-                  />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="country-festivals" className="input-label">Festivals (séparés par des point-virgules)</label>
-                  <textarea
-                    id="country-festivals"
-                    name="festivals"
-                    className="form-textarea"
-                    value={formData.festivals}
-                    onChange={(e) => setFormData({ ...formData, festivals: e.target.value })}
-                    rows={2}
-                  />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="country-arts" className="input-label">Arts & Artisanat (séparés par des point-virgules)</label>
-                  <textarea
-                    id="country-arts"
-                    name="arts"
-                    className="form-textarea"
-                    value={formData.arts}
-                    onChange={(e) => setFormData({ ...formData, arts: e.target.value })}
-                    rows={2}
-                  />
-                </div>
-                <Input
-                  label="Couleur (hex)"
-                  type="color"
-                  value={formData.color}
-                  onChange={(e) => setFormData({ ...formData, color: e.target.value })}
-                />
-              </>
-            )}
-
-            {activeTab === 'discovery' && (
-              <div className="tab-content discovery-admin-content">
-                <div className="section-header-tab">
-                  <div>
-                    <h4>Fiche découverte du pays</h4>
-                    <p className="empty-message">Ajoutez ici les repères à jour, les conseils pratiques et les éléments qui donnent envie d'explorer le pays.</p>
-                  </div>
-                </div>
-
-                <div className="form-row">
-                  <Input
-                    label="Nom officiel"
-                    value={formData.officialName}
-                    onChange={(e) => setFormData({ ...formData, officialName: e.target.value })}
-                    placeholder="République du Sénégal"
-                  />
-                  <Input
-                    label="Mise à jour"
-                    value={formData.lastUpdated}
-                    onChange={(e) => setFormData({ ...formData, lastUpdated: e.target.value })}
-                    placeholder="2026"
-                  />
-                </div>
-
-                <div className="form-group">
-                  <label htmlFor="country-discovery-intro" className="input-label">Introduction immersive</label>
-                  <textarea
-                    id="country-discovery-intro"
-                    name="discoveryIntro"
-                    className="form-textarea"
-                    value={formData.discoveryIntro}
-                    onChange={(e) => setFormData({ ...formData, discoveryIntro: e.target.value })}
-                    rows={4}
-                    placeholder="Une entrée courte, sensorielle et concrète pour présenter le pays."
-                  />
-                </div>
-
-                <div className="form-group">
-                  <label htmlFor="country-one-sentence" className="input-label">Ce pays en une phrase</label>
-                  <textarea
-                    id="country-one-sentence"
-                    className="form-textarea"
-                    value={formData.oneSentenceSummary}
-                    onChange={(e) => setFormData({ ...formData, oneSentenceSummary: e.target.value })}
-                    rows={2}
-                    placeholder="Une phrase humaine, précise, qui donne le ton de la fiche."
-                  />
-                </div>
-
-                <div className="form-row">
-                  <div className="form-group">
-                    <label htmlFor="country-key-facts" className="input-label">À retenir avant d'explorer</label>
-                    <textarea id="country-key-facts" className="form-textarea" value={formData.keyFacts} onChange={(e) => setFormData({ ...formData, keyFacts: e.target.value })} rows={3} placeholder="Ville clé; Tradition forte; Langue à connaître" />
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="country-related-themes" className="input-label">Thèmes reliés</label>
-                    <textarea id="country-related-themes" className="form-textarea" value={formData.relatedThemes} onChange={(e) => setFormData({ ...formData, relatedThemes: e.target.value })} rows={3} placeholder="Textile; Oralité; Royaumes; Ports; Sahel" />
-                  </div>
-                </div>
-
-                <div className="form-row">
-                  <div className="form-group">
-                    <label htmlFor="country-peoples" className="input-label">Peuples et identités</label>
-                    <textarea id="country-peoples" className="form-textarea" value={formData.peoples} onChange={(e) => setFormData({ ...formData, peoples: e.target.value })} rows={3} placeholder="Groupes, communautés, zones culturelles; séparés par des point-virgules" />
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="country-language-notes" className="input-label">Notes sur les langues</label>
-                    <textarea id="country-language-notes" className="form-textarea" value={formData.languageNotes} onChange={(e) => setFormData({ ...formData, languageNotes: e.target.value })} rows={3} placeholder="Langues officielles, langues nationales, usages de salutation..." />
-                  </div>
-                </div>
-
-                <div className="form-row">
-                  <div className="form-group">
-                    <label htmlFor="country-history-highlights" className="input-label">Mémoire historique</label>
-                    <textarea id="country-history-highlights" className="form-textarea" value={formData.historyHighlights} onChange={(e) => setFormData({ ...formData, historyHighlights: e.target.value })} rows={3} placeholder="Royaumes; période coloniale; indépendance; dates récentes" />
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="country-notable-figures" className="input-label">Personnages à relier</label>
-                    <textarea id="country-notable-figures" className="form-textarea" value={formData.notableFigures} onChange={(e) => setFormData({ ...formData, notableFigures: e.target.value })} rows={3} placeholder="Nom - rôle; Nom - rôle" />
-                  </div>
-                </div>
-
-                <div className="form-row">
-                  <div className="form-group">
-                    <label htmlFor="country-music-arts" className="input-label">Arts, sons et gestes</label>
-                    <textarea id="country-music-arts" className="form-textarea" value={formData.musicAndArts} onChange={(e) => setFormData({ ...formData, musicAndArts: e.target.value })} rows={3} placeholder="Musique; danse; textile; instruments; architecture" />
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="country-food-culture" className="input-label">Cuisine et quotidien</label>
-                    <textarea id="country-food-culture" className="form-textarea" value={formData.foodCulture} onChange={(e) => setFormData({ ...formData, foodCulture: e.target.value })} rows={3} placeholder="Plat emblématique; boisson; marché; moment social" />
-                  </div>
-                </div>
-
-                <div className="form-row">
-                  <div className="form-group">
-                    <label htmlFor="country-oral-traditions" className="input-label">Oralité et récits</label>
-                    <textarea id="country-oral-traditions" className="form-textarea" value={formData.oralTraditions} onChange={(e) => setFormData({ ...formData, oralTraditions: e.target.value })} rows={3} placeholder="Contes; proverbes; récits familiaux; rites de parole" />
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="country-knowledge-preserve" className="input-label">Savoirs à préserver</label>
-                    <textarea id="country-knowledge-preserve" className="form-textarea" value={formData.knowledgeToPreserve} onChange={(e) => setFormData({ ...formData, knowledgeToPreserve: e.target.value })} rows={3} placeholder="Métiers; langues; gestes; archives orales; techniques artisanales" />
-                  </div>
-                </div>
-
-                <div className="form-group">
-                  <label htmlFor="country-recommended-paths" className="input-label">Parcours conseillés</label>
-                  <textarea
-                    id="country-recommended-paths"
-                    className="form-textarea"
-                    value={formData.recommendedPaths}
-                    onChange={(e) => setFormData({ ...formData, recommendedPaths: e.target.value })}
-                    rows={4}
-                    placeholder="Découverte rapide | Commencer par la capitale et les repères clés | Capitale, cuisine, carte&#10;Mémoire | Relier dates, figures et lieux | Indépendance, musée, proverbes"
-                  />
-                </div>
-
-                <div className="form-group">
-                  <label htmlFor="country-source-quality" className="input-label">Niveau éditorial</label>
-                  <select
-                    id="country-source-quality"
-                    className="form-select"
-                    value={formData.sourceQuality}
-                    onChange={(e) => setFormData({ ...formData, sourceQuality: e.target.value })}
-                  >
-                    <option value="draft">À compléter</option>
-                    <option value="community">Communauté</option>
-                    <option value="verified">Vérifié</option>
-                    <option value="official">Officiel</option>
-                  </select>
-                </div>
-
-                <div className="form-row">
-                  <Input label="Région" value={formData.region} onChange={(e) => setFormData({ ...formData, region: e.target.value })} placeholder="Afrique de l'Ouest" />
-                  <Input label="Sous-région" value={formData.subregion} onChange={(e) => setFormData({ ...formData, subregion: e.target.value })} placeholder="Sahel, Golfe de Guinée..." />
-                </div>
-                <div className="form-row">
-                  <Input label="Gentilé" value={formData.demonym} onChange={(e) => setFormData({ ...formData, demonym: e.target.value })} placeholder="Sénégalais, Sénégalaise" />
-                  <Input label="Date d'indépendance" value={formData.independenceDate} onChange={(e) => setFormData({ ...formData, independenceDate: e.target.value })} placeholder="4 avril 1960" />
-                </div>
-                <div className="form-row">
-                  <Input label="Régime / institutions" value={formData.governmentType} onChange={(e) => setFormData({ ...formData, governmentType: e.target.value })} placeholder="République..." />
-                  <Input label="Économie en bref" value={formData.economicOverview} onChange={(e) => setFormData({ ...formData, economicOverview: e.target.value })} placeholder="Services, agriculture, mines..." />
-                </div>
-                <div className="form-row">
-                  <Input label="Fuseau horaire" value={formData.timeZone} onChange={(e) => setFormData({ ...formData, timeZone: e.target.value })} placeholder="UTC+0" />
-                  <Input label="Indicatif" value={formData.callingCode} onChange={(e) => setFormData({ ...formData, callingCode: e.target.value })} placeholder="+221" />
-                </div>
-                <div className="form-row">
-                  <Input label="Domaine internet" value={formData.internetTld} onChange={(e) => setFormData({ ...formData, internetTld: e.target.value })} placeholder=".sn" />
-                  <Input label="Conduite" value={formData.drivingSide} onChange={(e) => setFormData({ ...formData, drivingSide: e.target.value })} placeholder="À droite" />
-                </div>
-
-                <div className="form-group">
-                  <label htmlFor="country-climate" className="input-label">Climat</label>
-                  <textarea id="country-climate" className="form-textarea" value={formData.climate} onChange={(e) => setFormData({ ...formData, climate: e.target.value })} rows={2} />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="country-best-time" className="input-label">Meilleure période</label>
-                  <textarea id="country-best-time" className="form-textarea" value={formData.bestTimeToVisit} onChange={(e) => setFormData({ ...formData, bestTimeToVisit: e.target.value })} rows={2} />
-                </div>
-
-                <div className="form-row">
-                  <div className="form-group">
-                    <label htmlFor="country-visa" className="input-label">Visa / entrée</label>
-                    <textarea id="country-visa" className="form-textarea" value={formData.visaNote} onChange={(e) => setFormData({ ...formData, visaNote: e.target.value })} rows={3} />
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="country-health" className="input-label">Santé</label>
-                    <textarea id="country-health" className="form-textarea" value={formData.healthAdvice} onChange={(e) => setFormData({ ...formData, healthAdvice: e.target.value })} rows={3} />
-                  </div>
-                </div>
-
-                <div className="form-row">
-                  <div className="form-group">
-                    <label htmlFor="country-etiquette" className="input-label">Codes sociaux</label>
-                    <textarea id="country-etiquette" className="form-textarea" value={formData.etiquette} onChange={(e) => setFormData({ ...formData, etiquette: e.target.value })} rows={3} />
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="country-safety" className="input-label">Note sécurité</label>
-                    <textarea id="country-safety" className="form-textarea" value={formData.safetyNote} onChange={(e) => setFormData({ ...formData, safetyNote: e.target.value })} rows={3} />
-                  </div>
-                </div>
-
-                <div className="form-row">
-                  <Input label="Transport" value={formData.transport} onChange={(e) => setFormData({ ...formData, transport: e.target.value })} placeholder="Aéroports, train, routes, taxis..." />
-                  <Input label="Connexion" value={formData.connectivity} onChange={(e) => setFormData({ ...formData, connectivity: e.target.value })} placeholder="Réseaux mobiles, internet..." />
-                </div>
-                <Input label="Numéros utiles" value={formData.emergencyNumbers} onChange={(e) => setFormData({ ...formData, emergencyNumbers: e.target.value })} placeholder="Police, pompiers, urgences..." />
-
-                <div className="form-group">
-                  <label htmlFor="country-places" className="input-label">Lieux à découvrir (séparés par des point-virgules)</label>
-                  <textarea id="country-places" className="form-textarea" value={formData.placesToDiscover} onChange={(e) => setFormData({ ...formData, placesToDiscover: e.target.value })} rows={3} />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="country-experiences" className="input-label">Expériences à vivre (séparées par des point-virgules)</label>
-                  <textarea id="country-experiences" className="form-textarea" value={formData.experiences} onChange={(e) => setFormData({ ...formData, experiences: e.target.value })} rows={3} />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="country-practical" className="input-label">Conseils pratiques (séparés par des point-virgules)</label>
-                  <textarea id="country-practical" className="form-textarea" value={formData.practicalTips} onChange={(e) => setFormData({ ...formData, practicalTips: e.target.value })} rows={3} />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="country-sources" className="input-label">Sources et notes de vérification (séparées par des point-virgules)</label>
-                  <textarea id="country-sources" className="form-textarea" value={formData.sourceNotes} onChange={(e) => setFormData({ ...formData, sourceNotes: e.target.value })} rows={3} placeholder="Ex: Données population Banque mondiale 2026; Formalités à confirmer avant voyage" />
-                </div>
-              </div>
-            )}
-
-            {activeTab === 'sections' && (
-              <div className="tab-content">
-                <div className="section-header-tab">
-                  <h4>Sections personnalisées</h4>
-                  <Button type="button" onClick={addCustomSection} size="small">
-                    <Plus size={16} />
-                    Ajouter une section
-                  </Button>
-                </div>
-                {customSections.length === 0 ? (
-                  <p className="empty-message">Aucune section personnalisée. Ajoutez-en une pour enrichir la page du pays.</p>
-                ) : (
-                  <div className="sections-list">
-                    {customSections.map((section, index) => (
-                      <Card key={index} className="section-item-card">
-                        <div className="section-item-header">
-                          <Input
-                            label="Titre de la section"
-                            value={section.title}
-                            onChange={(e) => updateCustomSection(index, 'title', e.target.value)}
-                            placeholder="Ex: Histoire du pays"
-                            required
-                          />
-                          <div className="section-item-controls">
-                            <button
-                              type="button"
-                              onClick={() => moveCustomSection(index, 'up')}
-                              disabled={index === 0}
-                              className="move-btn"
-                              title="Déplacer vers le haut"
-                            >
-                              <ArrowUp size={16} />
-                            </button>
-                            <button
-                              type="button"
-                              onClick={() => moveCustomSection(index, 'down')}
-                              disabled={index === customSections.length - 1}
-                              className="move-btn"
-                              title="Déplacer vers le bas"
-                            >
-                              <ArrowDown size={16} />
-                            </button>
-                            <button
-                              type="button"
-                              onClick={() => removeCustomSection(index)}
-                              className="remove-btn"
-                              title="Supprimer"
-                            >
-                              <X size={16} />
-                            </button>
-                          </div>
-                        </div>
-                        <div className="form-group">
-                          <label htmlFor={`section-type-${index}`} className="input-label">Type de contenu</label>
-                          <select
-                            id={`section-type-${index}`}
-                            name={`section-type-${index}`}
-                            className="form-select"
-                            value={section.type}
-                            onChange={(e) => updateCustomSection(index, 'type', e.target.value as 'text' | 'html' | 'list')}
-                          >
-                            <option value="text">Texte simple</option>
-                            <option value="html">HTML</option>
-                            <option value="list">Liste</option>
-                          </select>
-                        </div>
-                        <div className="form-group">
-                          <label htmlFor={`section-content-${index}`} className="input-label">Contenu</label>
-                          <textarea
-                            id={`section-content-${index}`}
-                            name={`section-content-${index}`}
-                            className="form-textarea"
-                            value={section.content}
-                            onChange={(e) => updateCustomSection(index, 'content', e.target.value)}
-                            rows={section.type === 'list' ? 6 : 4}
-                            placeholder={section.type === 'list' ? 'Une ligne par élément de la liste' : 'Contenu de la section...'}
-                          />
-                        </div>
-                      </Card>
-                    ))}
-                  </div>
-                )}
-              </div>
-            )}
-
-            {activeTab === 'images' && (
-              <div className="tab-content">
-                <div className="section-header-tab">
-                  <h4>Galerie d'images</h4>
-                  <Button type="button" onClick={addImage} size="small">
-                    <ImageIcon size={16} />
-                    Ajouter une image
-                  </Button>
-                </div>
-                {images.length === 0 ? (
-                  <p className="empty-message">Aucune image. Ajoutez des images pour enrichir la galerie du pays.</p>
-                ) : (
-                  <div className="images-list">
-                    {images.map((image, index) => (
-                      <Card key={index} className="image-item-card">
-                        <div className="image-item-header">
-                          <h5>Image {index + 1}</h5>
-                          <button
-                            type="button"
-                            onClick={() => removeImage(index)}
-                            className="remove-btn"
-                            title="Supprimer"
-                          >
-                            <X size={16} />
-                          </button>
-                        </div>
-                        <MediaUpload
-                          type="image"
-                          value={image.url}
-                          label={`Image ${index + 1}`}
-                          onChange={(url) => updateImage(index, 'url', url)}
-                          onRemove={() => updateImage(index, 'url', '')}
-                        />
-                        <Input
-                          label="Légende (optionnel)"
-                          value={image.caption}
-                          onChange={(e) => updateImage(index, 'caption', e.target.value)}
-                          placeholder="Description de l'image"
-                        />
-                      </Card>
-                    ))}
-                  </div>
-                )}
-              </div>
-            )}
-
-            {activeTab === 'pdfs' && (
-              <div className="tab-content">
-                <div className="section-header-tab">
-                  <h4>Documents PDF</h4>
-                  <Button type="button" onClick={addPDF} size="small">
-                    <FileText size={16} />
-                    Ajouter un PDF
-                  </Button>
-                </div>
-                {pdfs.length === 0 ? (
-                  <p className="empty-message">Aucun document PDF. Ajoutez des documents pour enrichir les ressources du pays.</p>
-                ) : (
-                  <div className="pdfs-list-admin">
-                    {pdfs.map((pdf, index) => (
-                      <Card key={index} className="pdf-item-card">
-                        <div className="pdf-item-header">
-                          <h5>Document {index + 1}</h5>
-                          <button
-                            type="button"
-                            onClick={() => removePDF(index)}
-                            className="remove-btn"
-                            title="Supprimer"
-                          >
-                            <X size={16} />
-                          </button>
-                        </div>
-                        <Input
-                          label="Titre du document"
-                          value={pdf.title}
-                          onChange={(e) => updatePDF(index, 'title', e.target.value)}
-                          placeholder="Ex: Guide touristique"
-                          required
-                        />
-                        <div className="upload-mode-selector">
-                          <button
-                            type="button"
-                            className={`mode-btn ${(uploadMode[`pdf-${index}`] || 'upload') === 'upload' ? 'active' : ''}`}
-                            onClick={(e) => {
-                              e.preventDefault()
-                              e.stopPropagation()
-                              setUploadMode({ ...uploadMode, [`pdf-${index}`]: 'upload' })
-                            }}
-                          >
-                            <FileText size={16} />
-                            Upload depuis votre ordinateur
-                          </button>
-                          <button
-                            type="button"
-                            className={`mode-btn ${uploadMode[`pdf-${index}`] === 'url' ? 'active' : ''}`}
-                            onClick={(e) => {
-                              e.preventDefault()
-                              e.stopPropagation()
-                              setUploadMode({ ...uploadMode, [`pdf-${index}`]: 'url' })
-                            }}
-                          >
-                            <LinkIcon size={16} />
-                            Lien URL (Drive, Dropbox, etc.)
-                          </button>
-                        </div>
-                        
-                        {(uploadMode[`pdf-${index}`] || 'upload') === 'upload' ? (
-                          <FileUpload
-                            type="pdf"
-                            onUploadSuccess={(url) => {
-                              console.log('Callback onUploadSuccess appelé avec URL:', url)
-                              updatePDF(index, 'url', url)
-                            }}
-                            label="Upload de PDF"
-                          />
+      {countries.length === 0 ? (
+        <div className="mac-vide-liste">
+          <p>Aucun pays dans la base pour l’instant.</p>
+          <p>Initialisez les 54 pays avec leurs données de base, ou ajoutez-en un.</p>
+        </div>
+      ) : (
+        groupes.map(({ region, pays }) => (
+          <section key={region || 'autre'} className="mac-groupe" style={regionStyle(region)} aria-labelledby={`mac-groupe-${region || 'autre'}`}>
+            <h3 id={`mac-groupe-${region || 'autre'}`} className="mac-groupe-titre">
+              {region && <i aria-hidden="true" />}
+              {region ? REGION_LABELS[region] : 'Hors des cinq régions'}
+              <span>{pays.length}</span>
+            </h3>
+            {pays.length === 0 ? (
+              <p className="mac-vide-liste">{recherche ? 'Aucun pays ne correspond à la recherche dans cette région.' : 'Aucun pays de cette région dans la base. Ajoutez-en un pour la faire vivre.'}</p>
+            ) : (
+              <ul className="mac-liste">
+                {pays.map((country) => {
+                  const score = completudeCountry(country)
+                  const niveau = country.sourceQuality || 'draft'
+                  const regionPays = regionOfCode(country.id)
+                  const sansDrapeau = drapeauxManquants.includes(country.id)
+                  return (
+                    <li key={country._id || country.id} className="mac-ligne" style={regionStyle(regionPays)}>
+                      <span className="mac-drapeau" aria-hidden="true">
+                        {sansDrapeau ? (
+                          <span>{country.id}</span>
                         ) : (
-                          <Input
-                            label="URL du PDF"
-                            value={pdf.url}
-                            onChange={(e) => updatePDF(index, 'url', e.target.value)}
-                            placeholder="https://exemple.com/document.pdf ou lien Google Drive/Dropbox"
-                            required
-                          />
+                          <img src={getFlagUrl(country.id)} alt="" loading="lazy" onError={() => setDrapeauxManquants((current) => [...current, country.id])} />
                         )}
-                        <div className="form-group">
-                          <label htmlFor={`pdf-description-${index}`} className="input-label">Description (optionnel)</label>
-                          <textarea
-                            id={`pdf-description-${index}`}
-                            name={`pdf-description-${index}`}
-                            className="form-textarea"
-                            value={pdf.description}
-                            onChange={(e) => updatePDF(index, 'description', e.target.value)}
-                            rows={2}
-                            placeholder="Description du document..."
-                          />
-                        </div>
-                      </Card>
-                    ))}
-                  </div>
-                )}
-              </div>
+                      </span>
+                      <span className="mac-ligne-nom">
+                        <button type="button" className="mac-ouvrir" onClick={() => handleEdit(country)}>
+                          {country.nameFr}
+                        </button>
+                        <span className="mac-meta">
+                          <span className="mac-code">{country.id}</span>
+                          {country.capital && <span>{country.capital}</span>}
+                        </span>
+                      </span>
+                      <span className="mac-ligne-region">
+                        {regionPays && <i aria-hidden="true" />}
+                        {regionPays ? REGION_LABELS[regionPays] : country.region || 'Région non définie'}
+                      </span>
+                      <span className={`mac-niveau mac-niveau--${niveau}`}>{NIVEAUX[niveau] || niveau}</span>
+                      <span className="mac-completude" title={`${score} % des champs renseignés`}>
+                        <span className="mac-jauge" role="meter" aria-valuemin={0} aria-valuemax={100} aria-valuenow={score} aria-label={`Complétude de ${country.nameFr}`}>
+                          <span style={{ width: `${score}%` }} />
+                        </span>
+                        <span className="mac-score">{score} %</span>
+                      </span>
+                      <span className="mac-actions">
+                        <button type="button" className="mac-icone" onClick={() => navigate(`/country/${country.id}`)} aria-label={`Voir ${country.nameFr} sur le site`} title="Voir sur le site">
+                          <ArrowUpRight size={18} aria-hidden="true" />
+                        </button>
+                        <button type="button" className="mac-icone" onClick={() => handleEdit(country)} aria-label={`Modifier ${country.nameFr}`} title="Modifier">
+                          <Pencil size={18} aria-hidden="true" />
+                        </button>
+                        <button type="button" className="mac-icone mac-icone--danger" onClick={() => handleDelete(country._id || country.id, country.nameFr)} aria-label={`Supprimer ${country.nameFr}`} title="Supprimer">
+                          <Trash2 size={18} aria-hidden="true" />
+                        </button>
+                      </span>
+                    </li>
+                  )
+                })}
+              </ul>
             )}
-
-            {activeTab === 'videos' && (
-              <div className="tab-content">
-                <div className="section-header-tab">
-                  <h4>Vidéos</h4>
-                  <Button type="button" onClick={addVideo} size="small">
-                    <Video size={16} />
-                    Ajouter une vidéo
-                  </Button>
-                </div>
-                {videos.length === 0 ? (
-                  <p className="empty-message">Aucune vidéo. Ajoutez des vidéos pour enrichir le contenu du pays.</p>
-                ) : (
-                  <div className="videos-list-admin">
-                    {videos.map((video, index) => (
-                      <Card key={index} className="video-item-card">
-                        <div className="video-item-header">
-                          <h5>Vidéo {index + 1}</h5>
-                          <div className="item-controls">
-                            <button
-                              type="button"
-                              onClick={() => moveVideo(index, 'up')}
-                              disabled={index === 0}
-                              className="move-btn"
-                              title="Déplacer vers le haut"
-                            >
-                              <ArrowUp size={16} />
-                            </button>
-                            <button
-                              type="button"
-                              onClick={() => moveVideo(index, 'down')}
-                              disabled={index === videos.length - 1}
-                              className="move-btn"
-                              title="Déplacer vers le bas"
-                            >
-                              <ArrowDown size={16} />
-                            </button>
-                            <button
-                              type="button"
-                              onClick={() => removeVideo(index)}
-                              className="remove-btn"
-                              title="Supprimer"
-                            >
-                              <X size={16} />
-                            </button>
-                          </div>
-                        </div>
-                        <Input
-                          label="Titre de la vidéo"
-                          value={video.title}
-                          onChange={(e) => updateVideo(index, 'title', e.target.value)}
-                          placeholder="Ex: Présentation du pays"
-                          required
-                        />
-                        <div className="form-group">
-                          <label htmlFor={`video-type-${index}`} className="input-label">Type de vidéo</label>
-                          <select
-                            id={`video-type-${index}`}
-                            name={`video-type-${index}`}
-                            className="form-select"
-                            value={video.type || 'direct'}
-                            onChange={(e) => updateVideo(index, 'type', e.target.value as CountryVideo['type'])}
-                          >
-                            <option value="direct">URL directe</option>
-                            <option value="youtube">YouTube</option>
-                            <option value="vimeo">Vimeo</option>
-                            <option value="other">Autre</option>
-                          </select>
-                        </div>
-                        <Input
-                          label="URL de la vidéo"
-                          value={video.url}
-                          onChange={(e) => updateVideo(index, 'url', e.target.value)}
-                          placeholder="https://youtube.com/watch?v=... ou https://vimeo.com/..."
-                          required
-                        />
-                        <MediaUpload
-                          type="image"
-                          value={video.thumbnail || ''}
-                          label="Miniature vidéo"
-                          onChange={(url) => updateVideo(index, 'thumbnail', url)}
-                          onRemove={() => updateVideo(index, 'thumbnail', '')}
-                        />
-                        <div className="form-group">
-                          <label htmlFor={`video-description-${index}`} className="input-label">Description (optionnel)</label>
-                          <textarea
-                            id={`video-description-${index}`}
-                            name={`video-description-${index}`}
-                            className="form-textarea"
-                            value={video.description || ''}
-                            onChange={(e) => updateVideo(index, 'description', e.target.value)}
-                            rows={2}
-                            placeholder="Description de la vidéo..."
-                          />
-                        </div>
-                      </Card>
-                    ))}
-                  </div>
-                )}
-              </div>
-            )}
-
-            {activeTab === 'documents' && (
-              <div className="tab-content">
-                <div className="section-header-tab">
-                  <h4>Documents (DOCX, XLSX, etc.)</h4>
-                  <Button type="button" onClick={addDocument} size="small">
-                    <FileIcon size={16} />
-                    Ajouter un document
-                  </Button>
-                </div>
-                {documents.length === 0 ? (
-                  <p className="empty-message">Aucun document. Ajoutez des documents pour enrichir les ressources du pays.</p>
-                ) : (
-                  <div className="documents-list-admin">
-                    {documents.map((document, index) => (
-                      <Card key={index} className="document-item-card">
-                        <div className="document-item-header">
-                          <h5>Document {index + 1}</h5>
-                          <div className="item-controls">
-                            <button
-                              type="button"
-                              onClick={() => moveDocument(index, 'up')}
-                              disabled={index === 0}
-                              className="move-btn"
-                              title="Déplacer vers le haut"
-                            >
-                              <ArrowUp size={16} />
-                            </button>
-                            <button
-                              type="button"
-                              onClick={() => moveDocument(index, 'down')}
-                              disabled={index === documents.length - 1}
-                              className="move-btn"
-                              title="Déplacer vers le bas"
-                            >
-                              <ArrowDown size={16} />
-                            </button>
-                            <button
-                              type="button"
-                              onClick={() => removeDocument(index)}
-                              className="remove-btn"
-                              title="Supprimer"
-                            >
-                              <X size={16} />
-                            </button>
-                          </div>
-                        </div>
-                        <Input
-                          label="Titre du document"
-                          value={document.title}
-                          onChange={(e) => updateDocument(index, 'title', e.target.value)}
-                          placeholder="Ex: Rapport économique"
-                          required
-                        />
-                        <div className="form-group">
-                          <label htmlFor={`document-type-${index}`} className="input-label">Type de document</label>
-                          <select
-                            id={`document-type-${index}`}
-                            name={`document-type-${index}`}
-                            className="form-select"
-                            value={document.type || 'other'}
-                            onChange={(e) => updateDocument(index, 'type', e.target.value as CountryDocument['type'])}
-                          >
-                            <option value="docx">Word (DOCX)</option>
-                            <option value="doc">Word (DOC)</option>
-                            <option value="xlsx">Excel (XLSX)</option>
-                            <option value="xls">Excel (XLS)</option>
-                            <option value="pptx">PowerPoint (PPTX)</option>
-                            <option value="ppt">PowerPoint (PPT)</option>
-                            <option value="txt">Texte (TXT)</option>
-                            <option value="other">Autre</option>
-                          </select>
-                        </div>
-                        <Input
-                          label="URL du document"
-                          value={document.url}
-                          onChange={(e) => updateDocument(index, 'url', e.target.value)}
-                          placeholder="https://exemple.com/document.docx ou lien Google Drive/Dropbox"
-                          required
-                        />
-                        <div className="form-group">
-                          <label htmlFor={`document-description-${index}`} className="input-label">Description (optionnel)</label>
-                          <textarea
-                            id={`document-description-${index}`}
-                            name={`document-description-${index}`}
-                            className="form-textarea"
-                            value={document.description || ''}
-                            onChange={(e) => updateDocument(index, 'description', e.target.value)}
-                            rows={2}
-                            placeholder="Description du document..."
-                          />
-                        </div>
-                      </Card>
-                    ))}
-                  </div>
-                )}
-              </div>
-            )}
-
-            <div className="form-actions">
-              <Button type="submit">
-                {editingCountry ? 'Mettre à jour' : 'Créer le pays'}
-              </Button>
-              <Button type="button" variant="outline" onClick={resetForm}>
-                Annuler
-              </Button>
-            </div>
-          </form>
-        </Card>
+          </section>
+        ))
       )}
 
-      <div className="countries-grid-admin">
-        {filteredCountries.length === 0 ? (
-          <Card className="empty-state">
-            <Globe2 size={48} />
-            <p>Aucun pays trouvé.</p>
-            {searchTerm && (
-              <Button onClick={() => setSearchTerm('')} variant="outline" size="small">
-                Effacer la recherche
-              </Button>
-            )}
-          </Card>
-        ) : (
-          filteredCountries.map((country) => (
-            <Card key={country._id || country.id} className="country-card-admin">
-              <div className="country-card-header-admin">
-                <div className="country-flag-small-admin">
-                  <img 
-                    src={getFlagUrl(country.id)} 
-                    alt={`Drapeau de ${country.nameFr}`}
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement
-                      target.style.display = 'none'
-                      target.parentElement!.style.backgroundColor = country.color
-                    }}
-                  />
-                </div>
-                <div className="country-title-group">
-                  <h4>{country.nameFr}</h4>
-                  <span className="country-code">{country.id}</span>
-                </div>
-                <div className="country-actions">
-                  <Button
-                    size="small"
-                    variant="outline"
-                    onClick={() => navigate(`/country/${country.id}`)}
-                    title="Voir la page publique"
-                  >
-                    <Globe size={16} />
-                  </Button>
-                  <Button
-                    size="small"
-                    variant="outline"
-                    onClick={() => handleEdit(country)}
-                  >
-                    <Edit size={16} />
-                  </Button>
-                  <Button
-                    size="small"
-                    variant="outline"
-                    onClick={() => handleDelete(country._id || country.id)}
-                  >
-                    <Trash2 size={16} />
-                  </Button>
-                </div>
+      {showForm && (
+        <div className="mac-voile" onMouseDown={(event) => {
+            if (event.target === event.currentTarget) fermerRef.current()
+          }}>
+          <form ref={panelRef} className="mac-panneau" role="dialog" aria-modal="true" aria-labelledby="mac-panneau-titre" onSubmit={handleSubmit}>
+            <header className="mac-panneau-tete" style={regionStyle(regionPanneau)}>
+              <div className="mac-panneau-titres">
+                <p className="mac-kicker">
+                  {regionPanneau && <i aria-hidden="true" />}
+                  {editingCountry ? 'Modifier la fiche' : 'Nouvelle fiche'}
+                  {regionPanneau ? ` · ${REGION_LABELS[regionPanneau]}` : ''}
+                  {formData.id ? ` · ${formData.id}` : ''}
+                </p>
+                <h3 id="mac-panneau-titre">{titrePanneau}</h3>
               </div>
-              <div className="country-info-admin">
-                <div className="info-item-admin">
-                  <MapPin size={16} />
-                  <span><strong>Capitale:</strong> {country.capital}</span>
-                </div>
-                <div className="info-item-admin">
-                  <Users size={16} />
-                  <span><strong>Population:</strong> {country.population}</span>
-                </div>
-                <div className="info-item-admin">
-                  <Globe2 size={16} />
-                  <span><strong>Superficie:</strong> {country.area}</span>
-                </div>
+              <div className="mac-panneau-score">
+                <span className="mac-jauge" role="meter" aria-valuemin={0} aria-valuemax={100} aria-valuenow={scorePanneau} aria-label="Complétude de la fiche">
+                  <span style={{ width: `${scorePanneau}%` }} />
+                </span>
+                <span>{scorePanneau} % complétée</span>
               </div>
-              <p className="country-description-admin">{country.description}</p>
-            </Card>
-          ))
-        )}
-      </div>
+              <button type="button" className="mac-icone mac-fermer" onClick={() => fermerRef.current()} aria-label="Fermer le panneau">
+                <X size={20} aria-hidden="true" />
+              </button>
+            </header>
+
+            <div className="mac-onglets" role="tablist" aria-label="Rubriques de la fiche" onKeyDown={handleTabsKeydown}>
+              {ONGLETS.map((tab) => (
+                <button
+                  key={tab.key}
+                  id={`mac-onglet-${tab.key}`}
+                  type="button"
+                  role="tab"
+                  aria-selected={activeTab === tab.key}
+                  aria-controls="mac-onglet-contenu"
+                  tabIndex={activeTab === tab.key ? 0 : -1}
+                  className="mac-onglet"
+                  onClick={() => setActiveTab(tab.key)}
+                >
+                  {tab.label} <span>{remplisOnglet(tab)}</span>
+                </button>
+              ))}
+            </div>
+
+            <div id="mac-onglet-contenu" className="mac-panneau-corps mac-onglet-panneau" role="tabpanel" aria-labelledby={`mac-onglet-${activeTab}`}>
+              <p className="mac-intro">{ongletActif.intro}</p>
+              {ongletActif.fields && <div className="mac-champs">{ongletActif.fields.map(renderChamp)}</div>}
+              {activeTab === 'sections' && renderSections()}
+              {activeTab === 'medias' && renderMedias()}
+            </div>
+
+            <footer className="mac-panneau-pied">
+              {editingCountry && (
+                <button
+                  type="button"
+                  className="btn btn-danger"
+                  disabled={saving}
+                  onClick={async () => {
+                    if (await handleDelete(editingCountry._id || editingCountry.id, editingCountry.nameFr)) resetForm()
+                  }}
+                >
+                  <Trash2 size={16} aria-hidden="true" /> Supprimer
+                </button>
+              )}
+              <span className="mac-pied-droite">
+                <button type="button" className="btn btn-outline" onClick={() => fermerRef.current()}>
+                  Annuler
+                </button>
+                <button type="submit" className="btn btn-primary" disabled={saving}>
+                  {saving ? 'Enregistrement…' : editingCountry ? 'Enregistrer' : 'Créer le pays'}
+                </button>
+              </span>
+            </footer>
+          </form>
+        </div>
+      )}
       {Dialog}
     </div>
   )

@@ -55,7 +55,8 @@ export const getContributions = catchAsync(async (req, res) => {
       .sort({ createdAt: -1 })
       .skip(skip)
       .limit(Number(limit))
-      .select(ownList ? `${publicSelect} reviewNote reviewedAt` : publicSelect),
+      // Le membre (ses propositions) et l'équipe voient la note de relecture ; le public, non
+      .select(ownList || req.user?.role === 'admin' ? `${publicSelect} reviewNote reviewedAt reviewedBy` : publicSelect),
     Contribution.countDocuments(query),
   ])
 
