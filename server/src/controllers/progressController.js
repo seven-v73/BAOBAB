@@ -172,7 +172,7 @@ export const getLeaderboard = catchAsync(async (req, res) => {
   const { limit = 10 } = req.query
 
   const topUsers = await UserProgress.find()
-    .populate('user', 'name email avatar')
+    .populate('user', 'name avatar')
     .sort({ totalPoints: -1 })
     .limit(parseInt(limit))
     .lean()

@@ -39,6 +39,10 @@ export const getAllUsers = catchAsync(async (req, res) => {
 
 // GET /api/users/:id - Récupérer un utilisateur
 export const getUserById = catchAsync(async (req, res) => {
+  // Un membre ne lit que son propre profil (e-mail, téléphone, adresse) ; l'admin lit tous les profils
+  if (req.user.role !== 'admin' && req.user._id.toString() !== req.params.id) {
+    return res.status(403).json({ error: 'Accès refusé' })
+  }
   const user = await User.findById(req.params.id).select('-password')
   if (!user) {
     return res.status(404).json({ error: 'Utilisateur non trouvé' })

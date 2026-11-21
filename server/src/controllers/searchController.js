@@ -12,6 +12,7 @@ import Source from '../models/Source.js'
 import Contribution from '../models/Contribution.js'
 import logger from '../utils/logger.js'
 import { catchAsync } from '../utils/errorHandler.js'
+import { safeRegExp } from '../utils/regex.js'
 
 // GET /api/search - Recherche unifiée
 export const searchAll = catchAsync(async (req, res) => {
@@ -35,7 +36,7 @@ export const searchAll = catchAsync(async (req, res) => {
   }
 
   const searchQuery = q.trim()
-  const searchRegex = new RegExp(searchQuery, 'i')
+  const searchRegex = safeRegExp(searchQuery)
 
   const results = {
     products: [],
@@ -262,7 +263,7 @@ export const getSearchSuggestions = catchAsync(async (req, res) => {
   }
 
   const searchQuery = q.trim()
-  const searchRegex = new RegExp(searchQuery, 'i')
+  const searchRegex = safeRegExp(searchQuery)
 
   const [products, blogs, events, figures, countries, proverbs, communities, quizzes, sources, contributions] = await Promise.all([
     Product.find({

@@ -12,6 +12,13 @@ export class AppError extends Error {
   }
 }
 
+// Jamais de mot de passe, code 2FA ou jeton en clair dans les journaux
+const SENSITIVE_KEYS = /pass|token|secret|code|otp/i
+const redactBody = (body) => {
+  if (!body || typeof body !== 'object') return body
+  return Object.fromEntries(Object.entries(body).map(([key, value]) => [key, SENSITIVE_KEYS.test(key) ? '[masqué]' : value]))
+}
+
 export const errorHandler = (err, req, res, next) => {
   err.statusCode = err.statusCode || 500
   err.status = err.status || 'error'
@@ -24,7 +31,7 @@ export const errorHandler = (err, req, res, next) => {
       url: req.originalUrl,
       method: req.method,
       ip: req.ip,
-      body: req.body,
+      body: redactBody(req.body),
       params: req.params,
       query: req.query
     })

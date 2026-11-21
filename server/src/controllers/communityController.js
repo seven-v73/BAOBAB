@@ -50,7 +50,7 @@ export const getAllPosts = catchAsync(async (req, res) => {
     .sort({ isPinned: -1, createdAt: -1 })
     .skip(skip)
     .limit(parseInt(limit))
-    .populate('author', 'name avatar email')
+    .populate('author', 'name avatar')
     .populate('community', 'name type image')
     .lean()
 
@@ -82,7 +82,7 @@ export const getAllPosts = catchAsync(async (req, res) => {
 // GET /api/community/posts/:id - Récupérer un post par ID
 export const getPostById = catchAsync(async (req, res) => {
   const post = await CommunityPost.findById(req.params.id)
-    .populate('author', 'name avatar email')
+    .populate('author', 'name avatar')
     .populate('community', 'name type image')
     .populate({
       path: 'comments',
@@ -167,7 +167,7 @@ export const createPost = catchAsync(async (req, res) => {
   })
 
   await post.save()
-  await post.populate('author', 'name avatar email')
+  await post.populate('author', 'name avatar')
   if (communityId) {
     await post.populate('community', 'name type image')
     
@@ -179,7 +179,7 @@ export const createPost = catchAsync(async (req, res) => {
   }
 
   await post.save()
-  await post.populate('author', 'name avatar email')
+  await post.populate('author', 'name avatar')
 
   logger.info(`Nouveau post créé par ${req.user.name} (${req.user._id})`)
 
@@ -220,7 +220,7 @@ export const updatePost = catchAsync(async (req, res) => {
   if (category) post.category = category
 
   await post.save()
-  await post.populate('author', 'name avatar email')
+  await post.populate('author', 'name avatar')
 
   logger.info(`Post ${post._id} mis à jour par ${req.user.name}`)
 
@@ -303,7 +303,7 @@ export const likePost = catchAsync(async (req, res) => {
   }
 
   await post.save()
-  await post.populate('author', 'name avatar email')
+  await post.populate('author', 'name avatar')
 
   res.json(post)
 })

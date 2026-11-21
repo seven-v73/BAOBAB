@@ -199,7 +199,14 @@ try {
     setInterval(refreshSeo, 30 * 60 * 1000).unref()
   }
 
-  app.listen(env.PORT, () => {
+  // En production, l'API n'écoute que localement : tout passe par nginx (HTTPS, en-têtes,
+  // X-Forwarded-For fiable pour les limites de requêtes). HOST=0.0.0.0 pour l'ouvrir.
+  // localhost peut se résoudre en ::1 (IPv6) : on écoute aussi sur la boucle locale IPv6.
+  const hosts = process.env.HOST ? [process.env.HOST] : env.NODE_ENV === 'production' ? ['127.0.0.1', '::1'] : ['0.0.0.0']
+  hosts.slice(1).forEach((host) => {
+    app.listen(env.PORT, host).on('error', (error) => logger.warn(`Écoute impossible sur ${host}: ${error.message}`))
+  })
+  app.listen(env.PORT, hosts[0], () => {
     logger.info(`Server running on http://localhost:${env.PORT}`)
     logger.info(`API Documentation: http://localhost:${env.PORT}/api-docs`)
     logger.info(`Environment: ${env.NODE_ENV}`)

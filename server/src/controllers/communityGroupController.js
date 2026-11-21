@@ -121,7 +121,7 @@ export const getMyCommunities = catchAsync(async (req, res) => {
 // GET /api/communities/:id - Récupérer une communauté par ID
 export const getCommunityById = catchAsync(async (req, res) => {
   const community = await Community.findById(req.params.id)
-    .populate('creator', 'name avatar email')
+    .populate('creator', 'name avatar')
 
   if (!community) {
     return res.status(404).json({ error: 'Communauté non trouvée' })
@@ -182,7 +182,7 @@ export const createCommunity = catchAsync(async (req, res) => {
   }
 
   // Vérifier si le nom existe déjà
-  const existing = await Community.findOne({ name: { $regex: new RegExp(`^${name}$`, 'i') } })
+  const existing = await Community.findOne({ name: { $regex: new RegExp(`^${escapeRegExp(name)}$`, 'i') } })
   if (existing) {
     return res.status(400).json({ error: 'Une communauté avec ce nom existe déjà' })
   }
@@ -582,7 +582,7 @@ export const getCommunityMembers = catchAsync(async (req, res) => {
   if (role) query.role = role
 
   const members = await CommunityMember.find(query)
-    .populate('user', 'name avatar email')
+    .populate('user', 'name avatar')
     .sort({ role: 1, joinedAt: -1 })
     .skip(skip)
     .limit(parseInt(limit))

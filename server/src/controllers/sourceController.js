@@ -1,6 +1,7 @@
 import Source from '../models/Source.js'
 import { catchAsync } from '../utils/errorHandler.js'
 import logger from '../utils/logger.js'
+import { safeRegExp } from '../utils/regex.js'
 
 // GET /api/sources - Récupérer toutes les sources avec filtres
 export const getSources = catchAsync(async (req, res) => {
@@ -40,7 +41,7 @@ export const getSources = catchAsync(async (req, res) => {
     const matchedCountry = await Country.findOne({
       $or: [
         { id: String(country).toUpperCase() },
-        { nameFr: new RegExp(String(country), 'i') },
+        { nameFr: safeRegExp(country) },
       ],
     }).select('_id')
 

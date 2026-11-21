@@ -2,6 +2,7 @@ import Contribution from '../models/Contribution.js'
 import Country from '../models/Country.js'
 import { catchAsync } from '../utils/errorHandler.js'
 import logger from '../utils/logger.js'
+import { safeRegExp } from '../utils/regex.js'
 
 const publicSelect = 'type title content country countryName language period location sourceUrl mediaUrl tags visibility status createdAt submittedBy'
 
@@ -18,7 +19,7 @@ const resolveCountry = async (countryValue) => {
     $or: [
       { _id: countryValue.match?.(/^[a-f\d]{24}$/i) ? countryValue : undefined },
       { id: String(countryValue).toUpperCase() },
-      { nameFr: new RegExp(`^${String(countryValue).trim()}$`, 'i') },
+      { nameFr: safeRegExp(countryValue, { exact: true }) },
     ].filter((condition) => Object.values(condition)[0] !== undefined),
   })
 
@@ -43,7 +44,7 @@ export const getContributions = catchAsync(async (req, res) => {
   }
 
   if (type) query.type = type
-  if (country) query.countryName = new RegExp(String(country), 'i')
+  if (country) query.countryName = safeRegExp(country)
 
   const skip = (Number(page) - 1) * Number(limit)
   const [contributions, total] = await Promise.all([
