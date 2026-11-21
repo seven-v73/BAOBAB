@@ -1,0 +1,361 @@
+/* Relecture de la base de connaissances, aux jetons de la charte. */
+
+.maf {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  color: var(--brand-foret);
+}
+
+.maf h2,
+.maf h3,
+.maf h4 {
+  margin: 0;
+  font-family: var(--font-titre);
+  color: var(--brand-foret);
+}
+
+.maf-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.maf-head h2 {
+  font-size: 1.75rem;
+}
+
+.maf-head p {
+  max-width: 56ch;
+  margin-top: 6px;
+  color: var(--brand-texte-doux);
+}
+
+.maf-stats {
+  display: flex;
+  gap: 10px;
+  margin: 0;
+}
+
+.maf-stats div {
+  min-width: 88px;
+  padding: 12px 14px;
+  border-radius: 16px;
+  background: var(--brand-blanc);
+}
+
+.maf-stats dt {
+  font-size: 0.8125rem;
+  color: var(--brand-texte-doux);
+}
+
+.maf-stats dd {
+  margin: 2px 0 0;
+  font: 700 1.5rem / 1.1 var(--font-titre);
+}
+
+.maf-alerte {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  padding: 12px 16px;
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--brand-ambre) 22%, var(--brand-blanc));
+}
+
+.maf-filtres {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.maf-filtres-droite {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.maf-types {
+  overflow-x: auto;
+}
+
+.maf-types .mbr-chips {
+  flex-wrap: nowrap;
+}
+
+.maf-case,
+.maf-recherche {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 40px;
+  padding: 0 14px;
+  border-radius: 999px;
+  background: var(--brand-blanc);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.maf-recherche input {
+  width: 150px;
+  border: 0;
+  background: none;
+}
+
+.maf-recherche input:focus {
+  outline: none;
+}
+
+.maf-recherche:focus-within {
+  outline: 2px solid var(--brand-foret);
+  outline-offset: 2px;
+}
+
+.maf-compte {
+  margin: 0;
+  color: var(--brand-texte-doux);
+  font-size: 0.875rem;
+}
+
+.maf-liste {
+  margin: 0;
+  padding: 0 8px;
+  border-radius: 20px;
+  background: var(--brand-blanc);
+  list-style: none;
+}
+
+.maf-liste li + li {
+  border-top: 1px solid var(--brand-trait);
+}
+
+.maf .maf-ligne {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  padding: 14px 10px;
+  border: 0;
+  background: none;
+  color: var(--brand-foret);
+  text-align: left;
+  cursor: pointer;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .maf .maf-ligne:hover strong {
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+  }
+}
+
+.maf-ligne-texte {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+
+.maf-ligne-texte strong {
+  font-family: var(--font-titre);
+  font-size: 1.0625rem;
+}
+
+.maf-kicker {
+  margin: 0;
+  color: var(--brand-texte-doux);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.maf-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 6px;
+  flex: none;
+  max-width: 50%;
+}
+
+.maf-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--brand-vert-pale);
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+
+.maf-badge--publie {
+  background: var(--brand-foret);
+  color: var(--brand-blanc);
+}
+
+.maf-badge--valide_expert {
+  box-shadow: inset 0 0 0 1.5px var(--brand-foret);
+}
+
+.maf-badge--retire {
+  box-shadow: inset 0 0 0 1.5px var(--brand-terre);
+}
+
+.maf-badge--sensible,
+.maf-badge--maj {
+  background: color-mix(in srgb, var(--brand-ambre) 26%, var(--brand-blanc));
+}
+
+.maf-sources {
+  align-self: center;
+  color: var(--brand-texte-doux);
+  font-size: 0.8125rem;
+}
+
+.maf-pages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+/* Fiche ouverte */
+.maf-voile {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgb(17 17 17 / 0.45);
+}
+
+.maf-fiche {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: min(760px, 100%);
+  max-height: calc(100vh - 48px);
+  overflow-y: auto;
+  padding: 28px;
+  border-radius: 28px;
+  background: var(--brand-creme);
+  box-shadow: var(--shadow-float);
+}
+
+.maf-fiche h3 {
+  font-size: 1.75rem;
+  line-height: 1.15;
+}
+
+.maf-statut {
+  margin: 0;
+  color: var(--brand-texte-doux);
+  font-size: 0.9375rem;
+}
+
+.maf-description {
+  margin: 0;
+  font-size: 1.0625rem;
+  line-height: 1.55;
+}
+
+.maf-details {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 6px 16px;
+  margin: 0;
+  padding: 16px;
+  border-radius: 16px;
+  background: var(--brand-blanc);
+}
+
+.maf-details div {
+  display: contents;
+}
+
+.maf-details dt {
+  color: var(--brand-texte-doux);
+  font-size: 0.875rem;
+}
+
+.maf-details dd {
+  margin: 0;
+  font-size: 0.9375rem;
+}
+
+.maf-sources-liste {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+.maf-sources-liste a {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--brand-foret);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.maf-sources-liste span {
+  display: block;
+  color: var(--brand-texte-doux);
+  font-size: 0.8125rem;
+}
+
+.maf-note {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-weight: 600;
+  font-size: 0.9375rem;
+}
+
+.maf-note em {
+  font-weight: 400;
+  color: var(--brand-texte-doux);
+}
+
+.maf-note textarea {
+  padding: 12px;
+  border: 1px solid var(--brand-trait-champ);
+  border-radius: 12px;
+  background: var(--brand-blanc);
+  font-weight: 400;
+  resize: vertical;
+}
+
+.maf-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+@media (max-width: 900px) {
+  .maf .maf-ligne {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .maf-badges {
+    justify-content: flex-start;
+    max-width: none;
+  }
+
+  .maf-fiche {
+    padding: 20px;
+  }
+}

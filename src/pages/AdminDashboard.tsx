@@ -27,10 +27,11 @@ import { AdminQuiz } from './admin/AdminQuiz'
 import { AdminCommunityRequests } from './admin/AdminCommunityRequests'
 import { AdminSources } from './admin/AdminSources'
 import { AdminContributions } from './admin/AdminContributions'
+import { AdminFiches } from './admin/AdminFiches'
 import { communityService } from '../services/api'
 import './AdminDashboard.css'
 
-type AdminSection = 'overview' | 'countries' | 'blog' | 'products' | 'users' | 'settings' | 'timeline' | 'figures' | 'collections' | 'quizzes' | 'communities' | 'sources' | 'contributions'
+type AdminSection = 'overview' | 'fiches' | 'countries' | 'blog' | 'products' | 'users' | 'settings' | 'timeline' | 'figures' | 'collections' | 'quizzes' | 'communities' | 'sources' | 'contributions'
 
 export const AdminDashboard = () => {
   const platformName = usePlatformName()
@@ -42,7 +43,7 @@ export const AdminDashboard = () => {
   // Gérer la section depuis l'URL
   useEffect(() => {
     const section = searchParams.get('section') as AdminSection
-    if (section && ['overview', 'countries', 'blog', 'users', 'settings', 'timeline', 'figures', 'collections', 'sources', 'contributions'].includes(section)) {
+    if (section && ['overview', 'fiches', 'countries', 'blog', 'users', 'settings', 'timeline', 'figures', 'collections', 'sources', 'contributions'].includes(section)) {
       setActiveSection(section)
     }
   }, [searchParams])
@@ -69,6 +70,7 @@ export const AdminDashboard = () => {
 
   const menuItems = [
     { id: 'overview' as AdminSection, label: 'Vue d\'ensemble', iconClass: 'icon-trending-up' },
+    { id: 'fiches' as AdminSection, label: 'Base de connaissances', iconClass: 'icon-book' },
     { id: 'countries' as AdminSection, label: 'Pays', iconClass: 'icon-globe' },
     { id: 'blog' as AdminSection, label: 'Blog', iconClass: 'icon-book' },
     { id: 'timeline' as AdminSection, label: 'Chronologie', iconClass: 'icon-clock' },
@@ -84,6 +86,8 @@ export const AdminDashboard = () => {
     switch (activeSection) {
       case 'overview':
         return <AdminStats />
+      case 'fiches':
+        return <AdminFiches />
       case 'countries':
         return <AdminCountries />
       case 'blog':

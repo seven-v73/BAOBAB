@@ -285,6 +285,15 @@ export const timelineService = {
 }
 
 // Source Service
+// Base de connaissances (fiches sourcées par pays, voir server/data/afrique/SCHEMA.md)
+export const ficheService = {
+  getAll: (params?: Record<string, string | number | undefined>) => api.get('/fiches', { params }),
+  getById: (ficheId: string) => api.get(`/fiches/${ficheId}`),
+  getAdmin: (params?: Record<string, string | number | undefined>) => api.get('/fiches/admin', { params }),
+  getStats: () => api.get('/fiches/admin/stats'),
+  setStatut: (ficheId: string, statut: string, note?: string) => api.patch(`/fiches/${ficheId}/statut`, { statut, note }),
+}
+
 export const sourceService = {
   getAll: (params?: any) => api.get('/sources', { params }),
   getById: (id: string) => api.get(`/sources/${id}`),

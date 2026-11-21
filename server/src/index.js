@@ -37,6 +37,7 @@ import figureRoutes from './routes/figures.js'
 import collectionRoutes from './routes/collections.js'
 import storyRoutes from './routes/stories.js'
 import quizRoutes from './routes/quizzes.js'
+import ficheRoutes from './routes/fiches.js'
 import proverbRoutes from './routes/proverbs.js'
 import bookmarkRoutes from './routes/bookmarks.js'
 import progressRoutes from './routes/progress.js'
@@ -182,6 +183,7 @@ app.use('/api/collections', collectionRoutes)
 app.use('/api/stories', storyRoutes)
 app.use('/api/quizzes', quizRoutes)
 app.use('/api/proverbs', proverbRoutes)
+app.use('/api/fiches', ficheRoutes)
 app.use('/api/bookmarks', bookmarkRoutes)
 app.use('/api/progress', progressRoutes)
 app.use('/api', homeRoutes)

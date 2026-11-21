@@ -90,6 +90,8 @@ step "6. Base de données : index et corrections"
 (cd "$APP/server" && "${AS_WWW[@]}" node src/scripts/syncContributionIndexes.js)
 # Corrections de données sans risque à relancer (ne modifient que ce qui est encore faux)
 (cd "$APP/server" && "${AS_WWW[@]}" node src/scripts/fixAncientDates.js)
+# Base de connaissances (server/data/afrique) : nouvelles fiches en revue, décisions de l'équipe préservées
+(cd "$APP/server" && "${AS_WWW[@]}" node src/scripts/importerBaseAfrique.js)
 
 # ------------------------------------------------------------------ 5. redémarrage
 step "7. Redémarrage de l'API"
