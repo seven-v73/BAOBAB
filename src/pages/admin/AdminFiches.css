@@ -359,3 +359,21 @@
     padding: 20px;
   }
 }
+
+.maf-barre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.maf .maf-lien-public {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--brand-foret);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}

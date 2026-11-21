@@ -292,6 +292,7 @@ export const ficheService = {
   getAdmin: (params?: Record<string, string | number | undefined>) => api.get('/fiches/admin', { params }),
   getStats: () => api.get('/fiches/admin/stats'),
   setStatut: (ficheId: string, statut: string, note?: string) => api.patch(`/fiches/${ficheId}/statut`, { statut, note }),
+  publierValidees: (filtre: { pays?: string; type?: string; note?: string }) => api.post('/fiches/admin/publier-validees', filtre),
 }
 
 export const sourceService = {

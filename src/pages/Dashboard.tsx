@@ -177,9 +177,14 @@ export const Dashboard = () => {
             <h1>{form.name || user?.name}</h1>
             <p>{joinMeta(since && `Membre depuis ${since}`, form.city, form.country)}</p>
           </div>
-          <Link to="/contribute" className="mbr-button">
-            Proposer un contenu <ArrowRight size={18} aria-hidden="true" />
-          </Link>
+          <div className="mbd-head-actions">
+            <Link to="/contribute" className="mbr-button">
+              Proposer un contenu <ArrowRight size={18} aria-hidden="true" />
+            </Link>
+            <Link to="/blog/ecrire" className="mbr-button mbr-button--ghost">
+              Écrire un article
+            </Link>
+          </div>
         </header>
 
         <TypeChips

@@ -521,3 +521,15 @@
     max-width: none;
   }
 }
+
+/* Accès à l'éditeur d'articles (textes longs) */
+.mcf-ecrire .mcf-ecrire-lien {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  align-self: flex-start;
+  color: var(--brand-foret);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}

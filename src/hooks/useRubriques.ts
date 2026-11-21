@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
-import { blogService, collectionService, figureService, proverbService, storyService, timelineService } from '../services/api'
+import { blogService, collectionService, ficheService, figureService, proverbService, storyService, timelineService } from '../services/api'
 import { DOSSIERS, RECITS } from '../data/recitsContent'
 import { DATES, PERSONNALITES, PROVERBES } from '../data/reperesContent'
 import { listFrom, joinMeta } from '../utils'
-import { findCountryCodes, formatLifespan, formatYear, placeOf, yearOf, type Place } from '../utils/afrique'
+import { countryNameOf, findCountryCodes, formatLifespan, formatYear, placeOf, yearOf, type Place } from '../utils/afrique'
 
 // Contenus des rubriques Récits et Repères, lus dans la base et rattachés à leur pays et à leur
 // région. Les contenus rédigés pour la maquette servent tant que la base n'a pas répondu, et
@@ -194,6 +194,41 @@ const fromProverb = (proverb: any): ProverbItem => ({
   origine: joinMeta(proverb.language ? `Proverbe ${proverb.language.toLowerCase()}` : 'Proverbe', proverb.countryName),
 })
 
+// Fiches publiées de la base de connaissances (server/data/afrique), ouvertes sur /fiche/:id
+const fromFicheEvent = (fiche: any): DateItem => ({
+  ...placeOf([fiche.pays]),
+  id: `fiche-${fiche.ficheId}`,
+  year: yearOf(fiche.contenu?.date || fiche.date),
+  annee: fiche.contenu?.date_affichee || formatYear(fiche.contenu?.date || fiche.date),
+  titre: fiche.titre,
+  epoque: '',
+  to: `/fiche/${fiche.ficheId}`,
+})
+
+const fromFichePersonne = (fiche: any): FigureItem => ({
+  ...placeOf([fiche.pays]),
+  id: `fiche-${fiche.ficheId}`,
+  nom: fiche.titre,
+  dates: formatLifespan(fiche.contenu?.naissance?.date, fiche.contenu?.deces?.date),
+  role: clip(fiche.description),
+  portrait: fiche.contenu?.image?.url || PORTRAITS.get(normalizeName(fiche.titre)) || '',
+  to: `/fiche/${fiche.ficheId}`,
+})
+
+const fromFicheProverbe = (fiche: any): ProverbItem => ({
+  ...placeOf([fiche.pays]),
+  id: `fiche-${fiche.ficheId}`,
+  citation: fiche.contenu?.traduction || fiche.titre,
+  langue: fiche.contenu?.langue || '',
+  origine: joinMeta(fiche.contenu?.langue ? `Proverbe ${String(fiche.contenu.langue).toLowerCase()}` : 'Proverbe', countryNameOf(fiche.pays)),
+  to: `/fiche/${fiche.ficheId}`,
+})
+
+const sansDoublon = <T,>(base: T[], ajouts: T[], cle: (item: T) => string) => {
+  const vus = new Set(base.map(cle))
+  return [...base, ...ajouts.filter((item) => !vus.has(cle(item)))]
+}
+
 // Contenu de la maquette, en attendant la base
 const editorialDates: DateItem[] = DATES.map((d) => ({ ...placeOf(findCountryCodes(d.pays)), id: d.id, year: null, annee: d.annee, titre: d.titre, epoque: d.epoque }))
 const editorialFigures: FigureItem[] = PERSONNALITES.map((p) => ({ ...placeOf(findCountryCodes(p.pays)), id: p.id, nom: p.nom, dates: p.dates, role: p.role, portrait: p.portrait }))
@@ -209,8 +244,15 @@ export const useReperes = () => {
 
   useEffect(() => {
     let cancelled = false
-    Promise.allSettled([timelineService.getAll({ limit: 200 }), figureService.getAll({ limit: 200 }), proverbService.getAll({ limit: 200 })]).then(
-      ([events, figures, proverbs]) => {
+    Promise.allSettled([
+      timelineService.getAll({ limit: 200 }),
+      figureService.getAll({ limit: 200 }),
+      proverbService.getAll({ limit: 200 }),
+      ficheService.getAll({ type: 'evenement', limit: 200 }),
+      ficheService.getAll({ type: 'personnalite', limit: 200 }),
+      ficheService.getAll({ type: 'proverbe', limit: 200 }),
+    ]).then(
+      ([events, figures, proverbs, ficheEvents, fichePersonnes, ficheProverbes]) => {
         if (cancelled) return
         setState((previous) => {
           const read = (result: PromiseSettledResult<{ data: unknown }>, key: string) =>
@@ -218,8 +260,9 @@ export const useReperes = () => {
           const dbEvents = read(events, 'events')
           const dbFigures = read(figures, 'figures')
           const dbProverbs = read(proverbs, 'data')
-          return {
-            status: dbEvents || dbFigures || dbProverbs ? 'pret' : 'hors-ligne',
+          const publiees = (result: PromiseSettledResult<{ data: unknown }>) => (result.status === 'fulfilled' ? listFrom(result.value.data, 'fiches') : [])
+          const nom = (value: string) => normalizeName(value)
+          const etat = {
             dates: dbEvents?.length
               ? dbEvents.filter((e) => e.isActive !== false).map(fromEvent).sort((a, b) => (a.year ?? 0) - (b.year ?? 0))
               : previous.dates,
@@ -227,6 +270,12 @@ export const useReperes = () => {
               ? dbFigures.filter((f) => f.isActive !== false).map(fromFigure).sort((a, b) => a.nom.localeCompare(b.nom, 'fr'))
               : previous.figures,
             proverbs: dbProverbs?.length ? dbProverbs.map(fromProverb) : previous.proverbs,
+          }
+          return {
+            status: (dbEvents || dbFigures || dbProverbs ? 'pret' : 'hors-ligne') as LoadState,
+            dates: sansDoublon(etat.dates, publiees(ficheEvents).map(fromFicheEvent), (d) => nom(d.titre)).sort((a, b) => (a.year ?? 0) - (b.year ?? 0)),
+            figures: sansDoublon(etat.figures, publiees(fichePersonnes).map(fromFichePersonne), (f) => nom(f.nom)).sort((a, b) => a.nom.localeCompare(b.nom, 'fr')),
+            proverbs: sansDoublon(etat.proverbs, publiees(ficheProverbes).map(fromFicheProverbe), (p) => nom(p.citation)),
           }
         })
       },

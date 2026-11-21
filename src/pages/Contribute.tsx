@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import type { ComponentType, FormEvent } from 'react'
-import { useNavigate } from 'react-router-dom'
-import { BookOpen, Landmark, MapPin, MessageSquareQuote, Mic, PencilLine, ShieldCheck } from 'lucide-react'
+import { Link, useNavigate } from 'react-router-dom'
+import { BookOpen, Landmark, MapPin, MessageSquareQuote, Mic, PencilLine, ShieldCheck, ArrowRight } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import { Layout } from '../components/Layout/Layout'
 import { Dropdown } from '../components/UX/Dropdown'
@@ -297,6 +297,17 @@ export const Contribute = () => {
           </form>
 
           <aside className="mcf-side">
+            <section className="mcf-ensuite mcf-ecrire">
+              <h2>Un texte plus long ?</h2>
+              <p>
+                <span>
+                  Article documenté ou témoignage : l’éditeur vous guide (sources, aperçu, relecture par l’équipe avant publication dans Récits).
+                </span>
+              </p>
+              <Link to="/blog/ecrire" className="mcf-ecrire-lien">
+                Écrire un article <ArrowRight size={16} strokeWidth={1.8} aria-hidden="true" />
+              </Link>
+            </section>
             <section className="mcf-charte">
               <h2>La charte courte</h2>
               {CHARTES.map((regle) => (

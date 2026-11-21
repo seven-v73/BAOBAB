@@ -1,0 +1,53 @@
+.mfi-grille {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mfi-grille .mfi-carte {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  height: 100%;
+  padding: 18px 44px 18px 18px;
+  border-radius: 20px;
+  background: var(--brand-blanc);
+  color: var(--brand-foret);
+  text-decoration: none;
+  transition: transform var(--duration-fast) var(--ease-out);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .mfi-grille .mfi-carte:hover {
+    transform: translateY(-2px);
+  }
+}
+
+.mfi-kicker {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.mfi-carte strong {
+  font-family: var(--font-titre);
+  font-size: 1.125rem;
+  line-height: 1.2;
+}
+
+.mfi-texte {
+  color: var(--brand-texte-doux);
+  font-size: 0.9375rem;
+  line-height: 1.45;
+}
+
+.mfi-fleche {
+  position: absolute;
+  top: 18px;
+  right: 16px;
+}

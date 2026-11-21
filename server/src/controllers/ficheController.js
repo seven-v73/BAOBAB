@@ -91,3 +91,18 @@ export const changerStatut = catchAsync(async (req, res) => {
   await fiche.save()
   res.json({ ficheId: fiche.ficheId, statut: fiche.statut, historique: fiche.historique })
 })
+
+// POST /api/fiches/admin/publier-validees — publie d'un coup les fiches validées (filtre pays/type).
+// Les contenus sensibles en sont exclus : ils se publient un par un, avec une note de validation.
+export const publierValidees = catchAsync(async (req, res) => {
+  const filtre = { statut: 'valide_expert', sensible: { $ne: true } }
+  if (req.body.pays) filtre.pays = String(req.body.pays).toUpperCase().slice(0, 2)
+  if (req.body.type && FICHE_TYPES.includes(req.body.type)) filtre.type = req.body.type
+  const note = String(req.body.note || 'Publication groupée des fiches validées').slice(0, 1000)
+  const resultat = await Fiche.updateMany(filtre, {
+    $set: { statut: 'publie', miseAJourDisponible: false },
+    $push: { historique: { statut: 'publie', par: req.user._id, le: new Date(), note } },
+  })
+  const sensiblesEnAttente = await Fiche.countDocuments({ ...filtre, sensible: true })
+  res.json({ publiees: resultat.modifiedCount, sensiblesEnAttente })
+})

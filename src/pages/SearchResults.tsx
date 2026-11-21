@@ -4,8 +4,9 @@ import { Link, useSearchParams } from 'react-router-dom'
 import { ArrowRight, Search } from 'lucide-react'
 import { Layout } from '../components/Layout/Layout'
 import { TypeChips } from '../components/UX/TypeChips'
-import { searchService } from '../services/api'
-import { joinMeta } from '../utils'
+import { ficheService, searchService } from '../services/api'
+import { joinMeta, listFrom } from '../utils'
+import { FICHE_TYPE_LABELS } from '../components/Fiches/FichesPubliees'
 import { findCountryCodes, formatHistoricalDate, placeOf, REGION_COLORS, type Place } from '../utils/afrique'
 import './Rubriques.css'
 import './SearchResults.css'
@@ -27,11 +28,22 @@ const GROUPS = [
   { key: 'pays', label: 'Pays' },
   { key: 'recits', label: 'Récits' },
   { key: 'reperes', label: 'Repères' },
+  { key: 'savoirs', label: 'Savoirs' },
   { key: 'sources', label: 'Sources' },
 ] as const
 type GroupKey = (typeof GROUPS)[number]['key']
 
-const toHits = (data: any): Record<Exclude<GroupKey, 'tout'>, Hit[]> => {
+// Fiches publiées de la base de connaissances
+const ficheHit = (f: any): Hit => ({
+  key: `fiche-${f.ficheId}`,
+  kind: joinMeta(FICHE_TYPE_LABELS[f.type] || 'Fiche', f.periode),
+  title: f.titre,
+  text: f.description,
+  to: `/fiche/${f.ficheId}`,
+  place: placeOf([f.pays]),
+})
+
+const toHits = (data: any, fiches: any[] = []): Record<Exclude<GroupKey, 'tout'>, Hit[]> => {
   const list = (key: string) => (Array.isArray(data?.[key]) ? data[key] : [])
   return {
     pays: list('countries').map((c: any) => ({
@@ -85,6 +97,7 @@ const toHits = (data: any): Record<Exclude<GroupKey, 'tout'>, Hit[]> => {
         to: `/figures/${f._id}`,
         place: placeOf(findCountryCodes(f.birthPlace?.location, f.shortBiography)),
       })),
+      ...fiches.filter((f) => ['personnalite', 'evenement', 'proverbe'].includes(f.type)).map(ficheHit),
       ...list('proverbs').map((p: any) => ({
         key: `proverb-${p._id}`,
         kind: joinMeta('Proverbe', p.language && p.language.toLowerCase()),
@@ -93,6 +106,9 @@ const toHits = (data: any): Record<Exclude<GroupKey, 'tout'>, Hit[]> => {
         place: placeOf(findCountryCodes(p.countryName)),
       })),
     ],
+    savoirs: fiches
+      .filter((f) => !['personnalite', 'evenement', 'proverbe'].includes(f.type))
+      .map(ficheHit),
     sources: list('sources').map((s: any) => ({
       key: `source-${s._id}`,
       kind: joinMeta('Source', s.reliability && `fiabilité ${s.reliability}/5`),
@@ -122,11 +138,13 @@ export const SearchResults = () => {
     }
     let cancelled = false
     setStatus('chargement')
-    searchService
-      .search({ q: query, limit: 12 })
-      .then((response) => {
+    Promise.all([
+      searchService.search({ q: query, limit: 12 }),
+      ficheService.getAll({ q: query, limit: 24 }).then((r) => listFrom(r.data, 'fiches')).catch(() => []),
+    ])
+      .then(([response, fiches]) => {
         if (cancelled) return
-        setHits(toHits(response.data))
+        setHits(toHits(response.data, fiches))
         setStatus('pret')
       })
       .catch(() => !cancelled && setStatus('erreur'))
@@ -142,7 +160,7 @@ export const SearchResults = () => {
   }
 
   const counts: Partial<Record<GroupKey, number>> = hits
-    ? ({ tout: hits.pays.length + hits.recits.length + hits.reperes.length + hits.sources.length, pays: hits.pays.length, recits: hits.recits.length, reperes: hits.reperes.length, sources: hits.sources.length } as Record<GroupKey, number>)
+    ? ({ tout: hits.pays.length + hits.recits.length + hits.reperes.length + hits.savoirs.length + hits.sources.length, pays: hits.pays.length, recits: hits.recits.length, reperes: hits.reperes.length, savoirs: hits.savoirs.length, sources: hits.sources.length } as Record<GroupKey, number>)
     : {}
   const sections = hits
     ? (GROUPS.filter((g) => g.key !== 'tout' && (group === 'tout' || group === g.key)) as Array<{ key: Exclude<GroupKey, 'tout'>; label: string }>).filter((g) => hits[g.key].length > 0)

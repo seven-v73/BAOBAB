@@ -32,6 +32,7 @@ const RecitDetail = lazy(() => import('./pages/RecitDetail').then(module => ({ d
 const Reperes = lazy(() => import('./pages/Reperes').then(module => ({ default: module.Reperes })))
 const MapPage = lazy(() => import('./pages/MapPage').then(module => ({ default: module.MapPage })))
 const BlogWrite = lazy(() => import('./pages/BlogWrite').then(module => ({ default: module.BlogWrite })))
+const FicheDetail = lazy(() => import('./pages/FicheDetail').then(module => ({ default: module.FicheDetail })))
 const NotFound = lazy(() => import('./pages/NotFound').then(module => ({ default: module.NotFound })))
 const SearchResults = lazy(() => import('./pages/SearchResults').then(module => ({ default: module.SearchResults })))
 
@@ -212,6 +213,14 @@ function App() {
           }
         />
         <Route path="/blog/:id" element={<BlogPostPage />} />
+        <Route
+          path="/fiche/:ficheId"
+          element={
+            <Suspense fallback={<LoadingFallback />}>
+              <FicheDetail />
+            </Suspense>
+          }
+        />
         <Route path="/sources" element={<Sources />} />
         <Route path="/contribute" element={<Contribute />} />
         <Route

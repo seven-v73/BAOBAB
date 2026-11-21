@@ -27,6 +27,7 @@ import { BookmarkButton } from '../components/BookmarkButton/BookmarkButton'
 import { ShareButton } from '../components/ShareButton/ShareButton'
 import { Breadcrumbs } from '../components/UX/Breadcrumbs'
 import { TypeChips } from '../components/UX/TypeChips'
+import { FichesPubliees } from '../components/Fiches/FichesPubliees'
 import { useParamState } from '../hooks/useParamState'
 import { countryService, searchService, sourceService } from '../services/api'
 import { useSeo } from '../seo/useSeo'
@@ -456,6 +457,9 @@ export const CountryDetail = () => {
                     </button>
                   </Block>
                 )}
+                <FichesPubliees pays={country.id} type="site" titre="Lieux et patrimoine" sousTitre="Sites du patrimoine mondial, villes historiques, lieux de mémoire." />
+                <FichesPubliees pays={country.id} type="peuple" titre="Peuples et communautés" />
+                <FichesPubliees pays={country.id} type="langue" titre="Langues" sousTitre="Langues parlées dans le pays, avec leur statut." />
               </>
             )}
 
@@ -500,6 +504,9 @@ export const CountryDetail = () => {
                     </ul>
                   </Block>
                 )}
+                <FichesPubliees pays={country.id} type="tradition" titre="Traditions vivantes" sousTitre="Musiques, danses, savoir-faire, rites et fêtes, avec leurs communautés." />
+                <FichesPubliees pays={country.id} type="oeuvre" titre="Œuvres et objets" sousTitre="Avec l’institution qui les conserve." />
+                <FichesPubliees pays={country.id} type="proverbe" titre="Proverbes publiés" sousTitre="Avec leur langue et la publication où ils figurent." />
               </>
             )}
 
@@ -540,6 +547,8 @@ export const CountryDetail = () => {
                     </div>
                   )}
                 </Block>
+                <FichesPubliees pays={country.id} type="personnalite" titre="Personnalités" sousTitre="Celles et ceux qui ont marqué l’histoire du pays." />
+                <FichesPubliees pays={country.id} type="evenement" titre="Dates clés" />
               </>
             )}
 

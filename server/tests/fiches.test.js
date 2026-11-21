@@ -109,4 +109,14 @@ describe('API', () => {
       .send({ statut: 'publie', note: 'Relue avec le comité culturel de la communauté concernée' })
     expect(valide.status).toBe(200)
   })
+
+  it('publie d’un coup les fiches validées, sauf les contenus sensibles', async () => {
+    await Fiche.updateMany({ pays: 'SN', type: 'tradition' }, { statut: 'valide_expert' })
+    const sensibles = await Fiche.countDocuments({ pays: 'SN', type: 'tradition', sensible: true })
+    const res = await request(app).post('/api/fiches/admin/publier-validees').set(auth(admin)).send({ pays: 'SN', type: 'tradition' })
+    expect(res.status).toBe(200)
+    expect(res.body.publiees).toBe((await Fiche.countDocuments({ pays: 'SN', type: 'tradition' })) - sensibles)
+    expect(await Fiche.countDocuments({ pays: 'SN', type: 'tradition', sensible: true, statut: 'publie' })).toBe(0)
+    expect((await request(app).get('/api/fiches?pays=SN&type=tradition')).body.pagination.total).toBe(res.body.publiees)
+  })
 })

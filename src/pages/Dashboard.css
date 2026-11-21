@@ -232,3 +232,14 @@
     flex-basis: 100%;
   }
 }
+
+.mbd-head-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.mbd-head-actions .mbr-button {
+  margin-top: 0;
+}

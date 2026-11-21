@@ -185,6 +185,23 @@ export const AdminFiches = () => {
     }
   }
 
+  const rafraichirStats = () => ficheService.getStats().then(({ data }) => setStats(data)).catch(() => undefined)
+
+  // Publication groupée des fiches validées (filtres pays et type en cours) ; les sensibles restent à publier une par une
+  const publierLot = async () => {
+    setEnCours(true)
+    try {
+      const { data } = await ficheService.publierValidees({ pays: codePays, type: type === 'tous' ? undefined : type })
+      success(`${data.publiees} fiche(s) publiée(s).${data.sensiblesEnAttente ? ` ${data.sensiblesEnAttente} fiche(s) sensible(s) restent à publier une par une, avec une note de validation.` : ''}`)
+      charger()
+      rafraichirStats()
+    } catch {
+      error('Publication groupée impossible.')
+    } finally {
+      setEnCours(false)
+    }
+  }
+
   const s = stats?.statuts || {}
   const totalFiches = Object.values(s).reduce((a, b) => a + b, 0)
 
@@ -192,7 +209,7 @@ export const AdminFiches = () => {
     <div className="maf">
       <header className="maf-head">
         <div>
-          <p>Fiches sourcées collectées pour chaque pays. Relisez, validez puis publiez : seules les fiches publiées sont visibles sur le site.</p>
+          <p>Fiches sourcées collectées pour chaque pays. Deux étapes : <strong>Valider</strong> = relue, reste privée ; <strong>Publier</strong> = visible sur le site (fiche pays, Repères, recherche, page de la fiche).</p>
         </div>
         <dl className="maf-stats">
           <div>
@@ -241,7 +258,14 @@ export const AdminFiches = () => {
         <TypeChips label="Type" options={TYPES} counts={{}} active={type} onChange={(key) => { setType(key); setPage(1) }} />
       </div>
 
-      <p className="maf-compte">{total} fiche(s)</p>
+      <div className="maf-barre">
+        <p className="maf-compte">{total} fiche(s)</p>
+        {statut === 'valide_expert' && total > 0 && (
+          <button type="button" className="btn btn-primary btn-small" disabled={enCours} onClick={publierLot}>
+            <Eye size={16} aria-hidden="true" /> Publier les fiches validées{codePays ? ` (${countryNameOf(codePays) || codePays})` : ''}
+          </button>
+        )}
+      </div>
       <ul className="maf-liste">
         {fiches.map((fiche) => (
           <li key={fiche._id}>
@@ -329,12 +353,17 @@ export const AdminFiches = () => {
               Note de décision {ouverte.sensible && <em>(obligatoire pour publier : qui a validé ?)</em>}
               <textarea value={note} onChange={(event) => setNote(event.target.value)} rows={3} placeholder="Ex. : relue avec le conservateur du musée national, dates confirmées." />
             </label>
+            {ouverte.statut === 'publie' && (
+              <a className="maf-lien-public" href={`/fiche/${ouverte.ficheId}`} target="_blank" rel="noopener noreferrer">
+                Voir sur le site <ArrowUpRight size={14} aria-hidden="true" />
+              </a>
+            )}
             <div className="maf-actions">
               <button type="button" className="btn btn-outline" disabled={enCours} onClick={() => decider('valide_expert')}>
-                <CheckCircle2 size={16} aria-hidden="true" /> Valider
+                <CheckCircle2 size={16} aria-hidden="true" /> Valider (reste privée)
               </button>
               <button type="button" className="btn btn-primary" disabled={enCours} onClick={() => decider('publie')}>
-                <Eye size={16} aria-hidden="true" /> Publier
+                <Eye size={16} aria-hidden="true" /> Publier sur le site
               </button>
               <button type="button" className="btn btn-danger" disabled={enCours} onClick={() => decider('retire')}>
                 <XCircle size={16} aria-hidden="true" /> Retirer

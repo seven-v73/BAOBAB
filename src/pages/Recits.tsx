@@ -8,6 +8,7 @@ import { TypeChips } from '../components/UX/TypeChips'
 import { useParamState } from '../hooks/useParamState'
 import { useRecits, type RecitItem } from '../hooks/useRubriques'
 import { interleaveByRegion, REGION_COLORS, REGION_LABELS, REGION_ORDER, type Region } from '../utils/afrique'
+import './Rubriques.css'
 import './Recits.css'
 
 // Récits d'après la maquette Figma « Récits / Desktop 1440 » et « Mobile 390 », alimentés par la
@@ -112,6 +113,14 @@ export const Recits = () => {
               </span>
             )}
           </p>
+          <div className="mrc-intro-actions">
+            <Link to="/blog/ecrire" className="mbr-button">
+              Écrire un article <ArrowRight size={18} aria-hidden="true" />
+            </Link>
+            <Link to="/contribute" className="mbr-button mbr-button--ghost">
+              Partager un témoignage
+            </Link>
+          </div>
         </header>
 
         {feature && (
