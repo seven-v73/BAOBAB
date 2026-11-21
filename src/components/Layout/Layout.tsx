@@ -7,14 +7,16 @@ interface LayoutProps {
   children: ReactNode
   /** Les pages éditoriales gèrent elles-mêmes leurs marges et sections pleine largeur. */
   fullWidth?: boolean
+  /** Espaces applicatifs (mon espace, cercles, administration) : pas de pied de page */
+  hideFooter?: boolean
 }
 
-export const Layout = ({ children, fullWidth = false }: LayoutProps) => (
+export const Layout = ({ children, fullWidth = false, hideFooter = false }: LayoutProps) => (
   <div className="layout">
     <Header />
     <main id="contenu" tabIndex={-1} className={`layout-main${fullWidth ? ' layout-main--full' : ''}`}>
       {children}
     </main>
-    <Footer />
+    {!hideFooter && <Footer />}
   </div>
 )

@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react'
 import { SessionsPanel } from '../components/Account/SessionsPanel'
-import { Navigate, Link } from 'react-router-dom'
+import { Navigate, Link, useSearchParams } from 'react-router-dom'
+import { Bookmark, Package, Settings, ShoppingBag } from 'lucide-react'
+import { SpaceShell, SpaceStat, SpaceAction, type SpaceNavGroup } from '../components/Space/SpaceShell'
+import { BrandIcon } from '../components/Brand/BrandIcon'
 import { Layout } from '../components/Layout/Layout'
 import { Card } from '../components/Card/Card'
 import { Button } from '../components/Button/Button'
@@ -692,329 +695,124 @@ export const Dashboard = () => {
   ]
 
   return (
-    <Layout>
-      <div className="dashboard">
-        <div className="dashboard-header">
-          <div>
-            <p className="dashboard-eyebrow">Espace personnel</p>
-            <h1>Bonjour {displayName.split(' ')[0]}</h1>
-            <p className="dashboard-welcome">
-              Retrouvez vos commandes, vos contenus sauvegardés et vos contributions au même endroit.
-            </p>
-          </div>
-          <div className="dashboard-hero-panel">
-            <div className="dashboard-hero-metric">
-              <span>{stats.totalOrders}</span>
-              <small>Commandes</small>
-            </div>
-            <div className="dashboard-hero-metric">
-              <span>{savedContentCount}</span>
-              <small>Sauvegardés</small>
-            </div>
-            <div className="dashboard-hero-metric">
-              <span>{contributionCount}</span>
-              <small>Contributions</small>
-            </div>
-            {authUser?.role === 'admin' && (
-              <Link to="/admin" className="dashboard-admin-link">
-                Administration
-              </Link>
-            )}
-          </div>
-        </div>
-
-        <div className="dashboard-global-search">
-          <div className="global-search-bar">
-            <Input
-              id="dashboard-search"
-              name="dashboard-search"
-              placeholder="Rechercher une commande, un favori ou un contenu..."
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-              className="global-search-input"
-            />
-            {searchTerm && (
-              <button
-                className="clear-search-btn icon-close"
-                onClick={() => setSearchTerm('')}
-                title="Effacer la recherche"
-                aria-label="Effacer la recherche"
-              />
-            )}
-          </div>
-        </div>
-
-        <div className="dashboard-layout">
-          <aside className="dashboard-sidebar">
-            <div className="dashboard-sidebar-profile">
-              <div className="sidebar-avatar" aria-hidden="true">
-                {displayName.charAt(0).toUpperCase()}
-              </div>
-              <div>
-                <strong>{displayName}</strong>
-                <span>Membre depuis {memberSince}</span>
-              </div>
-            </div>
-            <nav className="dashboard-nav">
-              <span className="dashboard-nav-group">Activité</span>
-              <button
-                className={`dashboard-nav-item ${activeSection === 'overview' ? 'active' : ''}`}
-                onClick={() => setActiveSection('overview')}
-              >
-                Vue d’ensemble
-              </button>
-              <button
-                className={`dashboard-nav-item ${activeSection === 'orders' ? 'active' : ''}`}
-                onClick={() => setActiveSection('orders')}
-              >
-                Commandes
-                {stats.totalOrders > 0 && <span className="nav-badge">{stats.totalOrders}</span>}
-              </button>
-              <span className="dashboard-nav-group">Achats</span>
-              <button
-                className={`dashboard-nav-item ${activeSection === 'favorites' ? 'active' : ''}`}
-                onClick={() => setActiveSection('favorites')}
-              >
-                Produits favoris
-                {stats.favoritesCount > 0 && <span className="nav-badge">{stats.favoritesCount}</span>}
-              </button>
-              <button
-                className={`dashboard-nav-item ${activeSection === 'wishlist' ? 'active' : ''}`}
-                onClick={() => setActiveSection('wishlist')}
-              >
-                À garder
-                {stats.wishlistCount > 0 && <span className="nav-badge">{stats.wishlistCount}</span>}
-              </button>
-              <span className="dashboard-nav-group">Mes contenus</span>
-              <button
-                className={`dashboard-nav-item ${activeSection === 'myBlogs' ? 'active' : ''}`}
-                onClick={() => setActiveSection('myBlogs')}
-              >
-                Articles
-                {myBlogs.length > 0 && <span className="nav-badge">{myBlogs.length}</span>}
-              </button>
-              <button
-                className={`dashboard-nav-item ${activeSection === 'myProducts' ? 'active' : ''}`}
-                onClick={() => setActiveSection('myProducts')}
-              >
-                Produits
-                {myProducts.length > 0 && <span className="nav-badge">{myProducts.length}</span>}
-              </button>
-              <button
-                className={`dashboard-nav-item ${activeSection === 'proverbs' ? 'active' : ''}`}
-                onClick={() => setActiveSection('proverbs')}
-              >
-                Proverbes
-              </button>
-              <button
-                className={`dashboard-nav-item ${activeSection === 'bookmarks' ? 'active' : ''}`}
-                onClick={() => setActiveSection('bookmarks')}
-              >
-                Lectures sauvegardées
-              </button>
-              <button
-                className={`dashboard-nav-item ${activeSection === 'progress' ? 'active' : ''}`}
-                onClick={() => setActiveSection('progress')}
-              >
-                Progression
-              </button>
-              <span className="dashboard-nav-group">Compte</span>
-              <button
-                className={`dashboard-nav-item ${activeSection === 'profile' ? 'active' : ''}`}
-                onClick={() => setActiveSection('profile')}
-              >
-                Profil
-              </button>
-              <button
-                className={`dashboard-nav-item ${activeSection === 'settings' ? 'active' : ''}`}
-                onClick={() => setActiveSection('settings')}
-              >
-                Paramètres
-              </button>
-            </nav>
-          </aside>
-
-          <main className="dashboard-content">
+    <SpaceShell
+      variant="member"
+      spaceLabel="Mon espace"
+      identity={{ name: displayName, detail: `Membre depuis ${memberSince}`, badge: authUser?.role === 'admin' ? 'Administrateur' : undefined, avatar: profile?.avatar || undefined }}
+      nav={memberNav}
+      active={activeSection}
+      onSelect={(id) => setActiveSection(id as DashboardSection)}
+      eyebrow={sectionMeta[activeSection]?.eyebrow}
+      title={sectionMeta[activeSection]?.title || 'Mon espace'}
+      subtitle={sectionMeta[activeSection]?.subtitle}
+      actions={sectionMeta[activeSection]?.actions}
+      sidebarFooter={
+        <>
+          <Link to="/community">
+            <BrandIcon name="apps" tone="white" size={20} /> Mes cercles
+          </Link>
+          {authUser?.role === 'admin' && (
+            <Link to="/admin">
+              <Settings size={20} aria-hidden={true} /> Administration
+            </Link>
+          )}
+        </>
+      }
+    >
             {activeSection === 'overview' && (
               <div className="dashboard-overview">
-                {searchTerm && (
-                  <Card className="search-results-info">
-                    <p>
-                      Recherche: <strong>"{searchTerm}"</strong> - 
-                      {(() => {
-                        const matchingOrders = orders.filter(o => 
-                          o.orderNumber.toLowerCase().includes(searchTerm.toLowerCase())
-                        ).length
-                        const matchingFavorites = profile?.favorites?.filter((f: any) => 
-                          f.name?.toLowerCase().includes(searchTerm.toLowerCase())
-                        ).length || 0
-                        const matchingWishlist = profile?.wishlist?.filter((w: any) => 
-                          w.name?.toLowerCase().includes(searchTerm.toLowerCase())
-                        ).length || 0
-                        const total = matchingOrders + matchingFavorites + matchingWishlist
-                        return ` ${total} résultat${total > 1 ? 's' : ''} trouvé${total > 1 ? 's' : ''}`
-                      })()}
-                    </p>
-                  </Card>
-                )}
-                <div className="stats-grid">
-                  <Card className="stat-card">
-                    <div className="stat-content">
-                      <h3>{stats.totalOrders}</h3>
-                      <p>Commandes</p>
-                    </div>
-                  </Card>
-                  <Card className="stat-card">
-                    <div className="stat-content">
-                      <h3>{formatFCFA(stats.totalSpent)}</h3>
-                      <p>Total dépensé</p>
-                    </div>
-                  </Card>
-                  <Card className="stat-card">
-                    <div className="stat-content">
-                      <h3>{completedOrders}</h3>
-                      <p>Commandes livrées</p>
-                    </div>
-                  </Card>
-                  <Card className="stat-card">
-                    <div className="stat-content">
-                      <h3>{savedContentCount}</h3>
-                      <p>Éléments sauvegardés</p>
-                    </div>
-                  </Card>
+                <section className="space-welcome">
+                  <div>
+                    <h2>Bonjour {displayName.split(' ')[0]} !</h2>
+                    <p>Reprenez une lecture, transmettez un savoir ou retrouvez vos échanges.</p>
+                  </div>
+                  <Link to="/blog/ecrire" className="btn">
+                    Écrire un texte
+                  </Link>
+                </section>
+
+                <div className="space-grid">
+                  <SpaceStat icon={<BrandIcon name="heart" size={28} />} value={savedContentCount} label="Sauvegardés" hint="Lectures et produits" onClick={() => setActiveSection('bookmarks')} />
+                  <SpaceStat icon={<BrandIcon name="upload" size={28} />} value={contributionCount} label="Contributions" hint="Textes, proverbes, produits" onClick={() => setActiveSection('myBlogs')} />
+                  <SpaceStat icon={<BrandIcon name="history" size={28} />} value={progressSummary} label="Progression" hint="Parcours et quiz" onClick={() => setActiveSection('progress')} />
+                  <SpaceStat icon={<BrandIcon name="download" size={28} />} value={stats.totalOrders} label="Commandes" hint={stats.totalOrders ? formatFCFA(stats.totalSpent) : 'Aucune pour le moment'} onClick={() => setActiveSection('orders')} />
                 </div>
 
-                <Card className="dashboard-hub-card">
-                  <div className="dashboard-hub-header">
-                    <span className="dashboard-section-kicker">Atelier MonBaobab</span>
-                    <h2>Vos parcours, contenus et gestes utiles au même endroit</h2>
-                    <p>
-                      Un espace pour reprendre une découverte, garder une trace, contribuer et rejoindre les échanges sans se disperser.
-                    </p>
+                <section className="space-section">
+                  <div className="space-section__head">
+                    <div>
+                      <h2>Que voulez-vous faire ?</h2>
+                      <p>Les raccourcis vers ce qui compte dans MonBaobab.</p>
+                    </div>
                   </div>
-                  <div className="dashboard-hub-grid">
-                    {hubActions.map((item) => {
-                      const content = (
-                        <>
-                          <span>{item.meta}</span>
-                          <strong>{item.title}</strong>
-                          <p>{item.text}</p>
-                          <em>{item.action}</em>
-                        </>
-                      )
+                  <div className="space-grid">
+                    <SpaceAction icon={<BrandIcon name="upload" size={28} />} title="Transmettre un savoir" text="Article documenté ou témoignage" to="/blog/ecrire" />
+                    <SpaceAction icon={<BrandIcon name="globe" size={28} />} title="Explorer la carte" text="55 pays, leurs cultures et leurs histoires" to="/map" />
+                    <SpaceAction icon={<BrandIcon name="apps" size={28} />} title="Mes cercles" text="Échanger avec la communauté" to="/community" />
+                    <SpaceAction icon={<BrandIcon name="translate" size={28} />} title="Partager un proverbe" text="Dans votre langue, avec son sens" onClick={() => setActiveSection('proverbs')} />
+                  </div>
+                </section>
 
-                      return item.to ? (
-                        <Link to={item.to} className="dashboard-hub-action" key={item.title}>
-                          {content}
-                        </Link>
-                      ) : (
-                        <button type="button" className="dashboard-hub-action" onClick={item.onClick} key={item.title}>
-                          {content}
-                        </button>
-                      )
-                    })}
-                  </div>
-                </Card>
+                {firstSteps.some((step) => !step.done) && (
+                  <section className="space-section">
+                    <div className="space-section__head">
+                      <div>
+                        <h2>Vos premiers pas</h2>
+                        <p>{firstSteps.filter((step) => step.done).length} sur {firstSteps.length} — quelques gestes pour profiter pleinement de MonBaobab.</p>
+                      </div>
+                    </div>
+                    <div className="space-progress" aria-hidden="true">
+                      <span style={{ width: `${(firstSteps.filter((step) => step.done).length / firstSteps.length) * 100}%` }} />
+                    </div>
+                    <ul className="space-steps">
+                      {firstSteps.map((step) => (
+                        <li key={step.label} className={step.done ? 'is-done' : ''}>
+                          <span className="space-steps__check" aria-hidden="true">✓</span>
+                          <span>
+                            {step.label}
+                            <span className="sr-only">{step.done ? ' : fait' : ' : à faire'}</span>
+                          </span>
+                          {!step.done &&
+                            (step.to ? (
+                              <Link to={step.to} className="btn btn-ghost btn-small">
+                                {step.cta}
+                              </Link>
+                            ) : (
+                              <button type="button" className="btn btn-ghost btn-small" onClick={step.onClick}>
+                                {step.cta}
+                              </button>
+                            ))}
+                        </li>
+                      ))}
+                    </ul>
+                  </section>
+                )}
 
                 {orders.length > 0 && (
-                  <Card className="recent-orders-card">
-                    <h2>Commandes récentes</h2>
+                  <section className="space-section">
+                    <div className="space-section__head">
+                      <h2>Commandes récentes</h2>
+                      <button type="button" className="btn btn-ghost btn-small" onClick={() => setActiveSection('orders')}>
+                        Tout voir
+                      </button>
+                    </div>
                     <div className="recent-orders-list">
-                      {orders
-                        .filter(order => {
-                          if (!searchTerm) return true
-                          return order.orderNumber.toLowerCase().includes(searchTerm.toLowerCase())
-                        })
-                        .slice(0, 3)
-                        .map((order) => (
-                        <Link
-                          key={order._id}
-                          to={`/orders/${order._id}`}
-                          className="recent-order-item"
-                        >
+                      {orders.slice(0, 3).map((order) => (
+                        <Link key={order._id} to={`/orders/${order._id}`} className="recent-order-item">
                           <div className="order-info">
                             <span className="order-number">{order.orderNumber}</span>
-                            <span className="order-date">
-                              {new Date(order.createdAt).toLocaleDateString('fr-FR')}
-                            </span>
+                            <span className="order-date">{new Date(order.createdAt).toLocaleDateString('fr-FR')}</span>
                           </div>
                           <div className="order-meta">
                             <span className="order-total">{formatFCFA(order.total)}</span>
-                            <span
-                              className="order-status"
-                              style={{ color: getStatusColor(order.status) }}
-                            >
-                              <span className={getStatusIconClass(order.status)} />
+                            <span className="order-status" style={{ color: getStatusColor(order.status) }}>
                               {getStatusLabel(order.status)}
                             </span>
                           </div>
                         </Link>
                       ))}
                     </div>
-                    {orders.length > 3 && (
-                      <Button
-                        variant="outline"
-                        onClick={() => setActiveSection('orders')}
-                        className="view-all-btn"
-                      >
-                        Voir toutes les commandes
-                      </Button>
-                    )}
-                  </Card>
-                )}
-
-                {orders.length > 0 && (
-                  <Card className="stats-chart-card">
-                    <h2>Statistiques mensuelles</h2>
-                    <div className="chart-container">
-                      {(() => {
-                        // Grouper les commandes par mois
-                        const monthlyData = orders.reduce((acc: any, order) => {
-                          const month = new Date(order.createdAt).toLocaleDateString('fr-FR', { month: 'short', year: 'numeric' })
-                          if (!acc[month]) {
-                            acc[month] = { count: 0, total: 0 }
-                          }
-                          acc[month].count++
-                          acc[month].total += order.total
-                          return acc
-                        }, {})
-
-                        const months = Object.keys(monthlyData).slice(-6) // 6 derniers mois
-                        const maxCount = Math.max(...months.map(m => monthlyData[m].count), 1)
-
-                        if (months.length === 0) {
-                          return (
-                            <div className="chart-empty">
-                              <p>Aucune donnée disponible</p>
-                            </div>
-                          )
-                        }
-
-                        return (
-                          <div className="chart-bars">
-                            {months.map((month, idx) => (
-                              <div key={idx} className="chart-bar-group">
-                                <div className="chart-bar-wrapper">
-                                  <div
-                                    className="chart-bar"
-                                    style={{
-                                      height: `${(monthlyData[month].count / maxCount) * 100}%`,
-                                      backgroundColor: '#d4af37',
-                                    }}
-                                    title={`${monthlyData[month].count} commande(s) - ${formatFCFA(monthlyData[month].total)}`}
-                                  />
-                                </div>
-                                <div className="chart-label">
-                                  <span className="chart-month">{month}</span>
-                                  <span className="chart-value">{monthlyData[month].count}</span>
-                                </div>
-                              </div>
-                            ))}
-                          </div>
-                        )
-                      })()}
-                    </div>
-                  </Card>
+                  </section>
                 )}
               </div>
             )}
@@ -3009,9 +2807,6 @@ export const Dashboard = () => {
                 </Card>
               </div>
             )}
-          </main>
-        </div>
-      </div>
-    </Layout>
+    </SpaceShell>
   )
 }
