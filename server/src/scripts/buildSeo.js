@@ -69,9 +69,14 @@ const isoDate = (value) => {
   return date && !Number.isNaN(date.getTime()) ? date.toISOString() : undefined
 }
 
+// Année lisible : les dates anciennes sont en numérotation astronomique (an 0 = 1 av. J.-C.),
+// -2499 s'écrit « 2500 av. J.-C. » (même règle que src/utils/afrique.ts côté site)
 const year = (value) => {
   const date = value ? new Date(value) : null
-  return date && !Number.isNaN(date.getTime()) ? date.getUTCFullYear() : null
+  if (!date || Number.isNaN(date.getTime())) return null
+  const y = date.getUTCFullYear()
+  if (y <= 0) return `${1 - y} av. J.-C.`
+  return y < 1000 ? `${y} apr. J.-C.` : String(y)
 }
 
 const paragraphs = (text, max = 12) =>

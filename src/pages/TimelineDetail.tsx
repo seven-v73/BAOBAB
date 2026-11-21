@@ -9,6 +9,7 @@ import { timelineService, progressService } from '../services/api'
 import { useAuthStore } from '../stores/authStore'
 import './TimelineDetail.css'
 import { useSeo } from '../seo/useSeo'
+import { formatHistoricalDate } from '../utils/afrique'
 
 interface TimelineEvent {
   _id: string
@@ -101,14 +102,9 @@ export const TimelineDetail = () => {
     }
   }
 
-  const formatDate = (dateString: string) => {
-    const date = new Date(dateString)
-    return date.toLocaleDateString('fr-FR', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric',
-    })
-  }
+  // Années avant J.-C. et dates connues à l'année près (voir utils/afrique)
+  const formatDate = (dateString?: string) => formatHistoricalDate(dateString)
+
 
   if (loading) {
     return (

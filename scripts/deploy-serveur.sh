@@ -86,8 +86,10 @@ step "5. Build du site et des pages SEO"
 [ -f "$APP/dist/sitemap.xml" ] || { warn "sitemap.xml absent : pages SEO non générées"; false; }
 echo "Pages SEO : $(grep -c '<loc>' "$APP/dist/sitemap.xml") URL dans le sitemap"
 
-step "6. Index MongoDB des contributions"
+step "6. Base de données : index et corrections"
 (cd "$APP/server" && "${AS_WWW[@]}" node src/scripts/syncContributionIndexes.js)
+# Corrections de données sans risque à relancer (ne modifient que ce qui est encore faux)
+(cd "$APP/server" && "${AS_WWW[@]}" node src/scripts/fixAncientDates.js)
 
 # ------------------------------------------------------------------ 5. redémarrage
 step "7. Redémarrage de l'API"

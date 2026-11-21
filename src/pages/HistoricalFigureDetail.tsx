@@ -6,6 +6,7 @@ import { Button } from '../components/Button/Button'
 import { figureService } from '../services/api'
 import './HistoricalFigureDetail.css'
 import { useSeo } from '../seo/useSeo'
+import { formatHistoricalDate } from '../utils/afrique'
 
 interface HistoricalFigure {
   _id: string
@@ -70,15 +71,9 @@ export const HistoricalFigureDetail = () => {
     }
   }
 
-  const formatDate = (dateString?: string) => {
-    if (!dateString) return ''
-    const date = new Date(dateString)
-    return date.toLocaleDateString('fr-FR', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric',
-    })
-  }
+  // Années avant J.-C. et dates connues à l'année près (voir utils/afrique)
+  const formatDate = (dateString?: string) => formatHistoricalDate(dateString)
+
 
   if (loading) {
     return (

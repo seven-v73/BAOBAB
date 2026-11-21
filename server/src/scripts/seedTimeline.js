@@ -133,7 +133,7 @@ const timelineEventsData = [
     title: "Construction des Pyramides de Gizeh",
     description: "Construction de la Grande Pyramide de Khéops, l'une des Sept Merveilles du monde antique. Cette réalisation architecturale exceptionnelle témoigne de l'avancement technologique et de l'organisation sociale de l'Égypte antique.",
     shortDescription: "Construction de la Grande Pyramide",
-    date: new Date('-2580-01-01'),
+    date: new Date('-002579-01-01T00:00:00Z'),
     period: 'Antiquité',
     location: {
       region: 'Égypte',

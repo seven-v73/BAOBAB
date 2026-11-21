@@ -568,3 +568,167 @@
     display: none;
   }
 }
+
+/* ---------- Lecture pluriculturelle : régions, liens, vignettes sans portrait ---------- */
+
+/* Couleur de la région du repère (décor uniquement : point, filet, fond de vignette) */
+.mrp {
+  --mrp-region: var(--brand-sauge);
+}
+
+.mrp-regions {
+  margin-top: -28px;
+  padding: 0 var(--mrp-pad) 48px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.mrp-regions::-webkit-scrollbar {
+  display: none;
+}
+
+.mrp-regions .mbr-chips {
+  flex-wrap: nowrap;
+}
+
+.mrp-point {
+  background: var(--mrp-region);
+}
+
+.mrp-date-pays i,
+.mrp-lieu i {
+  flex: none;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--mrp-region);
+}
+
+/* Plusieurs frises de cinq dates à la suite (vue « Dates ») */
+.mrp-frise + .mrp-frise {
+  margin-top: 8px;
+}
+
+/* Cartes cliquables : dates et personnalités ouvrent leur fiche */
+.mrp .mrp-date-card,
+.mrp .mrp-figure {
+  text-decoration: none;
+  transition: transform 150ms var(--ease-out, cubic-bezier(0.23, 1, 0.32, 1)), box-shadow 150ms var(--ease-out, cubic-bezier(0.23, 1, 0.32, 1));
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .mrp a.mrp-date-card:hover,
+  .mrp a.mrp-figure:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 0 1px rgb(23 65 35 / 0.3);
+  }
+}
+
+.mrp a.mrp-date-card:focus-visible,
+.mrp a.mrp-figure:focus-visible {
+  outline: 2px solid var(--brand-foret);
+  outline-offset: 2px;
+}
+
+.mrp-dates a.mrp-date-card:focus-visible {
+  outline-color: var(--brand-blanc);
+}
+
+.mrp-lieu {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: auto;
+  padding-top: 6px;
+  color: rgb(23 65 35 / 0.65);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.42;
+}
+
+/* Pas de portrait : initiales sur fond vert pâle, filet de la couleur de la région */
+.mrp-monogramme {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 240px;
+  border-radius: 16px;
+  /* Fond uni teinté de la couleur de la région : pas de motif sous du texte (DESIGN.md §6) */
+  background: color-mix(in srgb, var(--mrp-region) 14%, var(--brand-vert-pale));
+  box-shadow: inset 0 6px 0 var(--mrp-region);
+  color: var(--brand-foret);
+  font: 700 3rem / 1 var(--font-titre);
+  letter-spacing: 0.02em;
+}
+
+.mrp-proverbes li {
+  box-shadow: inset 0 4px 0 var(--mrp-region);
+}
+
+.mrp-plus {
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+}
+
+.mrp-empty a {
+  color: var(--brand-foret);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+@media (max-width: 900px) {
+  .mrp-regions {
+    margin-top: -16px;
+    padding: 0 16px 24px 20px;
+  }
+
+  .mrp-monogramme {
+    flex: none;
+    width: 64px;
+    height: 64px;
+    font-size: 1.375rem;
+  }
+
+  .mrp-frise + .mrp-frise {
+    margin-top: 0;
+  }
+}
+
+/* Cartes de dates devenues des liens : la couleur des liens et --readable-text (blanc dans la
+ * bande forêt) ne doivent pas repeindre le texte des cartes blanches */
+.mrp-dates .mrp-date-card,
+.mrp-dates .mrp-date-card strong,
+.mrp-dates .mrp-date-titre {
+  color: var(--brand-foret) !important;
+}
+
+.mrp-dates .mrp-date-pays {
+  color: rgb(23 65 35 / 0.65) !important;
+}
+
+.mrp .mrp-figure,
+.mrp .mrp-figure h3 {
+  color: var(--brand-foret);
+}
+
+/* Mobile : frise verticale sans carte, texte blanc sur la bande forêt (maquette Mobile 390) */
+@media (max-width: 900px) {
+  .mrp-dates .mrp-date-card,
+  .mrp-dates .mrp-date-card strong {
+    color: var(--brand-blanc) !important;
+  }
+
+  .mrp-dates .mrp-date-titre {
+    color: rgb(255 255 255 / 0.92) !important;
+  }
+
+  .mrp-dates .mrp-date-pays {
+    color: rgb(255 255 255 / 0.6) !important;
+  }
+
+  .mrp-dates a.mrp-date-card:focus-visible {
+    outline-color: var(--brand-blanc);
+  }
+}

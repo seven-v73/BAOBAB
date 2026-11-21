@@ -522,3 +522,92 @@
     margin: 0 16px 40px;
   }
 }
+
+/* ---------- Lecture pluriculturelle : régions, lieux, vignettes sans image ---------- */
+
+/* Couleur de la région du récit (décor uniquement : point, filet, fond de vignette) */
+.mrc {
+  --mrc-region: var(--brand-sauge);
+}
+
+.mrc-regions {
+  margin-top: -12px;
+  padding: 0 var(--mrc-pad) 36px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.mrc-regions::-webkit-scrollbar {
+  display: none;
+}
+
+.mrc-regions .mbr-chips {
+  flex-wrap: nowrap;
+}
+
+.mrc-diversite {
+  color: var(--brand-foret);
+  font-weight: 600;
+}
+
+.mrc-place {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: auto 0 0;
+  padding-top: 4px;
+  color: rgb(23 65 35 / 0.65) !important;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.42;
+}
+
+.mrc-place i {
+  flex: none;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--mrc-region);
+}
+
+/* Pas d'image : fond teinté de la couleur de la région et courbes de niveau de la marque, en
+ * filigrane léger pour ne pas concurrencer les photos voisines */
+.mrc-motif {
+  position: relative;
+  overflow: hidden;
+  background: color-mix(in srgb, var(--mrc-region) 12%, var(--brand-vert-pale));
+  box-shadow: inset 0 6px 0 var(--mrc-region);
+}
+
+.mrc-motif::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('/Motifs/Fichier%2059.svg') center / 260% no-repeat;
+  opacity: 0.35;
+}
+
+.mrc-plus {
+  display: flex;
+  justify-content: center;
+  margin: -56px var(--mrc-pad) 96px;
+}
+
+.mrc-empty a {
+  color: var(--brand-foret);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+@media (max-width: 900px) {
+  .mrc-regions {
+    margin-top: 0;
+    padding: 0 16px 24px 20px;
+  }
+
+  .mrc-plus {
+    margin: -24px 20px 64px;
+  }
+}

@@ -300,6 +300,15 @@ L'identité est **plate**. Pas d'ombres portées marquées, pas de glassmorphism
 
 **Haut de la page d'accueil** : carte verte arrondie à courbes de niveau vivantes (maquette Figma « Landing MonBaobab »). Titre sur trois lignes, « autrement. » en ambre ; à droite, le grand symbole de la marque avec une photo de baobabs dans l'œil. La navigation se pose dans la carte, en verre. Boutons « Explorer l'atlas » (ambre) et « Lire les récits » (verre).
 
+**Lecture pluriculturelle** (Récits, Repères et toute liste de contenus) :
+- Chaque contenu affiche son **pays et sa région** (« Burkina Faso · Afrique de l'Ouest »), précédés d'un point de la couleur de sa région. Sans pays identifiable : « Tout le continent » ou « Afrique et monde ».
+- **Une couleur secondaire par région**, en décor seulement (points, filets, fonds teintés) : Nord orange désert, Ouest ambre, Centre turquoise, Est abysse, Australe terre cuite (`REGION_COLORS`, `src/utils/afrique.ts`).
+- **Filtre par région** en pastilles, visible aussi sur mobile, avec les compteurs. Une région vide reste affichée et invite à contribuer.
+- Les listes **alternent les régions** (`interleaveByRegion`) : aucune région ne monopolise le haut de page.
+- Proverbes : toujours la **langue et le pays d'origine** (« Proverbe mooré · Burkina Faso »).
+- Années anciennes : « 2500 av. J.-C. » (`formatYear`). Une date au 1ᵉʳ janvier signale une année seule : pas de jour inventé.
+- Contenu sans image : fond teinté de la couleur de sa région avec les courbes de niveau en filigrane ; personnalité sans portrait : ses initiales sur fond teinté, sans motif sous le texte.
+
 **Tags / filtres** : `--radius-pill`, fond vert pâle, texte forêt ; actif : fond forêt, texte crème.
 **Carte interactive (atlas)** : pays en sauge clair, survol/sélection forêt, frontières crème ; les accents secondaires servent à catégoriser (régions, thèmes), un par catégorie.
 

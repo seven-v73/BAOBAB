@@ -148,8 +148,8 @@ const figuresData = [
   {
     name: "Hannibal Barca",
     nameNative: "Hannibal Barca",
-    birthDate: new Date('-247-01-01'),
-    deathDate: new Date('-183-01-01'),
+    birthDate: new Date('-000246-01-01T00:00:00Z'),
+    deathDate: new Date('-000182-01-01T00:00:00Z'),
     birthPlace: {
       location: "Carthage (Tunisie actuelle)",
       coordinates: { lat: 36.85, lng: 10.33 }
