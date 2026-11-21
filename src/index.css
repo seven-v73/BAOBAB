@@ -2,7 +2,7 @@
 @import './styles/icon-replacements.css';
 
 :root {
-  font-family: 'Nunito Sans', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: var(--font-texte);
   line-height: 1.5;
   font-weight: 400;
 
@@ -10,6 +10,61 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Jetons de marque MonBaobab (DESIGN.md §12). Les variables --color-* plus bas
+   restent en place le temps de migrer les pages une à une. */
+:root {
+  --brand-foret: #174123;
+  --brand-foret-hover: #0f2e18;
+  --brand-sauge: #77a162;
+  --brand-turquoise: #00a39a;
+  --brand-abysse: #1478a6;
+  --brand-ambre: #e2b52f;
+  --brand-desert: #e87525;
+  --brand-terre: #d94a3a;
+  --brand-brun: #75462e;
+  --brand-creme: #f7f6f2;
+  --brand-blanc: #ffffff;
+  --brand-vert-pale: #f2f6f0;
+  --brand-encre: #111111;
+  --brand-texte-doux: #4a5a4f;
+  --brand-trait: rgb(23 65 35 / 0.12);
+  --brand-trait-fort: rgb(23 65 35 / 0.30);
+  --brand-trait-champ: rgb(23 65 35 / 0.20);
+  --brand-voile: rgb(17 17 17 / 0.24);
+
+  /* ponytail: polices gratuites de remplacement, à échanger contre GC Regain / ZT Nature quand les licences seront prêtes */
+  --font-titre: 'Hepta Slab', 'Roboto Slab', Georgia, serif;
+  --font-texte: 'Hanken Grotesk', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 28px;
+  --radius-pill: 999px;
+  --shadow-float: 0 8px 24px rgb(23 65 35 / 0.10);
+  --shadow-dock: 0 12px 32px rgb(23 65 35 / 0.28);
+
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --duration-fast: 150ms;
+  --duration-base: 250ms;
+
+  --page-max: 1200px;
+  --page-gutter: clamp(16px, 5vw, 48px);
+  --nav-h: 72px;
+}
+
+/* Masqué à l'écran, lu par les lecteurs d'écran */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
 }
 
 /* Couleurs communes (identiques pour les deux thèmes) */
@@ -99,7 +154,7 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  overflow-x: hidden;
+  overflow-x: clip; /* clip et non hidden : hidden casse position: sticky (navbar) */
   background-attachment: fixed;
   position: relative;
   transition: background-color 0.3s ease, color 0.3s ease;
@@ -211,7 +266,7 @@ button {
 #root {
   width: 100%;
   min-height: 100vh;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 /* Règles globales pour améliorer la lisibilité en mode clair */
@@ -236,10 +291,10 @@ button {
 }
 
 /* Liens en mode clair */
-[data-theme="light"] a:not(.header-logo) {
+[data-theme="light"] :where(a:not(.header-logo)) {
   color: var(--color-gold-dark);
 }
 
-[data-theme="light"] a:not(.header-logo):hover {
+[data-theme="light"] :where(a:not(.header-logo):hover) {
   color: var(--color-gold);
 }

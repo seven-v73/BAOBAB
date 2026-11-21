@@ -1,0 +1,85 @@
+/* Liste déroulante pilule (filtres Récits et Repères).
+ * production-ergonomics.css et button-system.css habillent les <button> en !important :
+ * la pilule et les options réaffirment leurs formes ici. */
+
+.ux-dd {
+  position: relative;
+}
+
+.ux-dd-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 40px;
+  padding: 10px 14px 10px 16px;
+  border: 0;
+  border-radius: 999px !important;
+  background: var(--brand-blanc) !important;
+  box-shadow: none !important;
+  color: var(--brand-foret) !important;
+  font: 500 0.875rem / 1.42 var(--font-texte);
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.ux-dd[data-open] .ux-dd-btn {
+  background: var(--brand-foret) !important;
+  color: var(--brand-blanc) !important;
+}
+
+.ux-dd-btn svg {
+  transition: rotate var(--duration-fast) var(--ease-out);
+}
+
+.ux-dd[data-open] .ux-dd-btn svg {
+  rotate: 180deg;
+}
+
+.ux-dd-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  z-index: 60;
+  min-width: 100%;
+  max-height: 320px;
+  margin: 0;
+  padding: 6px;
+  overflow-y: auto;
+  border-radius: 20px;
+  background: var(--brand-blanc);
+  box-shadow: var(--shadow-float);
+  list-style: none;
+}
+
+.ux-dd-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  min-height: 40px;
+  padding: 10px 14px;
+  border: 0;
+  border-radius: 999px !important;
+  background: none !important;
+  box-shadow: none !important;
+  color: var(--brand-foret) !important;
+  font: 500 0.875rem / 1.42 var(--font-texte);
+  letter-spacing: 0.01em;
+  text-align: left;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.ux-dd-option:hover {
+  background: #eef4ea !important;
+}
+
+.ux-dd-option.is-selected {
+  font-weight: 600;
+}
+
+.ux-dd-option svg {
+  color: var(--brand-sauge);
+}

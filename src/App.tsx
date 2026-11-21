@@ -1,16 +1,12 @@
 import { useEffect, lazy, Suspense, useRef } from 'react'
 import { Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import { Home } from './pages/Home'
-import { Blog } from './pages/Blog'
 import { BlogPostPage } from './pages/BlogPost'
-import { Shop } from './pages/Shop'
-import { Cart } from './pages/Cart'
 import { Login } from './pages/Login'
+import { ForgotPassword } from './pages/ForgotPassword'
 import { Register } from './pages/Register'
-import { Community } from './pages/Community'
-import { Communities } from './pages/Communities'
-import { CreateCommunity } from './pages/CreateCommunity'
-import { CommunityDetail } from './pages/CommunityDetail'
+// En pause (voir clean.md) : boutique, panier, paiement, commandes, cercles, fil social et quiz.
+// Les pages restent dans src/pages, mais elles ne sont plus routées.
 import { Sources } from './pages/Sources'
 import { Contribute } from './pages/Contribute'
 import { useAuthStore } from './stores/authStore'
@@ -41,19 +37,13 @@ const BlogAdmin = lazy(() => import('./pages/BlogAdmin').then(module => ({ defau
 const CountryDetail = lazy(() => import('./pages/CountryDetail').then(module => ({ default: module.CountryDetail })))
 const AdminDashboard = lazy(() => import('./pages/AdminDashboard').then(module => ({ default: module.AdminDashboard })))
 const Dashboard = lazy(() => import('./pages/Dashboard').then(module => ({ default: module.Dashboard })))
-const OrderDetail = lazy(() => import('./pages/OrderDetail').then(module => ({ default: module.OrderDetail })))
-const Checkout = lazy(() => import('./pages/Checkout').then(module => ({ default: module.Checkout })))
-const Timeline = lazy(() => import('./pages/Timeline').then(module => ({ default: module.Timeline })))
-const HistoricalFigures = lazy(() => import('./pages/HistoricalFigures').then(module => ({ default: module.HistoricalFigures })))
 const HistoricalFigureDetail = lazy(() => import('./pages/HistoricalFigureDetail').then(module => ({ default: module.HistoricalFigureDetail })))
-const Collections = lazy(() => import('./pages/Collections').then(module => ({ default: module.Collections })))
 const CollectionDetail = lazy(() => import('./pages/CollectionDetail').then(module => ({ default: module.CollectionDetail })))
 const TimelineDetail = lazy(() => import('./pages/TimelineDetail').then(module => ({ default: module.TimelineDetail })))
-const Stories = lazy(() => import('./pages/Stories').then(module => ({ default: module.Stories })))
 const StoryDetail = lazy(() => import('./pages/StoryDetail').then(module => ({ default: module.StoryDetail })))
-const Quizzes = lazy(() => import('./pages/Quizzes').then(module => ({ default: module.Quizzes })))
-const Quiz = lazy(() => import('./pages/Quiz').then(module => ({ default: module.Quiz })))
-const Proverbs = lazy(() => import('./pages/Proverbs').then(module => ({ default: module.Proverbs })))
+const Recits = lazy(() => import('./pages/Recits').then(module => ({ default: module.Recits })))
+const RecitDetail = lazy(() => import('./pages/RecitDetail').then(module => ({ default: module.RecitDetail })))
+const Reperes = lazy(() => import('./pages/Reperes').then(module => ({ default: module.Reperes })))
 const MapPage = lazy(() => import('./pages/MapPage').then(module => ({ default: module.MapPage })))
 const SearchResults = lazy(() => import('./pages/SearchResults').then(module => ({ default: module.SearchResults })))
 
@@ -87,7 +77,8 @@ function App() {
   const previousPathRef = useRef(location.pathname)
   const fetchSettings = useSettingsStore((state) => state.fetchSettings)
 
-  const routeKey = `${location.pathname}${location.search}`
+  // Seul le chemin rejoue la transition : un filtre ou un onglet (?type=, ?onglet=) ne remonte pas la page.
+  const routeKey = location.pathname
 
   // Appliquer le thème au document
   useEffect(() => {
@@ -112,10 +103,12 @@ function App() {
     const timers: number[] = []
     previousPathRef.current = location.pathname
 
-    document.documentElement.classList.add('route-transitioning')
-    timers.push(window.setTimeout(() => {
-      document.documentElement.classList.remove('route-transitioning')
-    }, reduceMotion ? 0 : 520))
+    if (pathChanged) {
+      document.documentElement.classList.add('route-transitioning')
+      timers.push(window.setTimeout(() => {
+        document.documentElement.classList.remove('route-transitioning')
+      }, reduceMotion ? 0 : 520))
+    }
 
     const scrollToHash = (attempt = 0) => {
       const target = document.getElementById(decodeURIComponent(location.hash.slice(1)))
@@ -165,18 +158,40 @@ function App() {
             </Suspense>
           } 
         />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/blog/:id" element={<BlogPostPage />} />
-        <Route path="/sources" element={<Sources />} />
-        <Route path="/contribute" element={<Contribute />} />
+        {/* Récits et Repères remplacent six anciennes listes ; leurs adresses redirigent (clean.md) */}
         <Route
-          path="/timeline"
+          path="/recits"
           element={
             <Suspense fallback={<LoadingFallback />}>
-              <Timeline />
+              <Recits />
             </Suspense>
           }
         />
+        <Route
+          path="/recit/:id"
+          element={
+            <Suspense fallback={<LoadingFallback />}>
+              <RecitDetail />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/reperes"
+          element={
+            <Suspense fallback={<LoadingFallback />}>
+              <Reperes />
+            </Suspense>
+          }
+        />
+        <Route path="/blog" element={<Navigate to="/recits?type=articles" replace />} />
+        <Route path="/stories" element={<Navigate to="/recits?type=histoires" replace />} />
+        <Route path="/collections" element={<Navigate to="/recits?type=dossiers" replace />} />
+        <Route path="/timeline" element={<Navigate to="/reperes?type=dates" replace />} />
+        <Route path="/figures" element={<Navigate to="/reperes?type=personnalites" replace />} />
+        <Route path="/proverbs" element={<Navigate to="/reperes?type=proverbes" replace />} />
+        <Route path="/blog/:id" element={<BlogPostPage />} />
+        <Route path="/sources" element={<Sources />} />
+        <Route path="/contribute" element={<Contribute />} />
         <Route
           path="/timeline/:id"
           element={
@@ -185,47 +200,13 @@ function App() {
             </Suspense>
           }
         />
-        <Route path="/figures" element={<HistoricalFigures />} />
         <Route path="/figures/:id" element={<HistoricalFigureDetail />} />
-        <Route path="/collections" element={<Collections />} />
         <Route path="/collections/:id" element={<CollectionDetail />} />
-        <Route
-          path="/stories"
-          element={
-            <Suspense fallback={<LoadingFallback />}>
-              <Stories />
-            </Suspense>
-          }
-        />
         <Route
           path="/stories/:id"
           element={
             <Suspense fallback={<LoadingFallback />}>
               <StoryDetail />
-            </Suspense>
-          }
-        />
-        <Route
-          path="/quizzes"
-          element={
-            <Suspense fallback={<LoadingFallback />}>
-              <Quizzes />
-            </Suspense>
-          }
-        />
-        <Route
-          path="/quizzes/:id"
-          element={
-            <Suspense fallback={<LoadingFallback />}>
-              <Quiz />
-            </Suspense>
-          }
-        />
-        <Route
-          path="/proverbs"
-          element={
-            <Suspense fallback={<LoadingFallback />}>
-              <Proverbs />
             </Suspense>
           }
         />
@@ -247,8 +228,6 @@ function App() {
             </ProtectedRoute>
           }
         />
-        <Route path="/shop" element={<Shop />} />
-        <Route path="/cart" element={<Cart />} />
         <Route
           path="/search"
           element={
@@ -257,41 +236,8 @@ function App() {
             </Suspense>
           }
         />
-        <Route
-          path="/communities"
-          element={<Communities />}
-        />
-        <Route
-          path="/communities/create"
-          element={
-            <ProtectedRoute>
-              <CreateCommunity />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/communities/:id"
-          element={<CommunityDetail />}
-        />
-        <Route
-          path="/community"
-          element={
-            <ProtectedRoute>
-              <Community />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/checkout"
-          element={
-            <ProtectedRoute>
-              <Suspense fallback={<LoadingFallback />}>
-                <Checkout />
-              </Suspense>
-            </ProtectedRoute>
-          }
-        />
         <Route path="/login" element={<Login />} />
+        <Route path="/mot-de-passe-oublie" element={<ForgotPassword />} />
         <Route path="/register" element={<Register />} />
         <Route path="/auth/login" element={<Navigate to="/login" replace />} />
         <Route path="/auth/register" element={<Navigate to="/register" replace />} />
@@ -301,16 +247,6 @@ function App() {
             <ProtectedRoute>
               <Suspense fallback={<LoadingFallback />}>
                 <Dashboard />
-              </Suspense>
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/orders/:id"
-          element={
-            <ProtectedRoute>
-              <Suspense fallback={<LoadingFallback />}>
-                <OrderDetail />
               </Suspense>
             </ProtectedRoute>
           }

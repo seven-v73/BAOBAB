@@ -1,7 +1,9 @@
 .layout {
+  position: relative;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  /* place pour la navbar boussole fixée en bas */
 }
 
 .layout-main {
@@ -14,7 +16,9 @@
 
 /* Pages éditoriales qui composent leurs propres marges et sections pleine largeur. */
 .layout-main--full {
-  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   max-width: none !important;
   margin: 0 !important;
   padding: 0 !important;

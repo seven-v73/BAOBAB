@@ -38,11 +38,11 @@ body,
 }
 
 :where(
-  main,
-  section,
-  article,
-  aside,
-  form,
+  main:not(:is(.mbp, .mbx, .mbh, .mrc, .mrd, .mrp, .mcf, .mcl) *),
+  section:not(:is(.mbp, .mbx, .mbh, .mrc, .mrd, .mrp, .mcf, .mcl) *),
+  article:not(:is(.mbp, .mbx, .mbh, .mrc, .mrd, .mrp, .mcf, .mcl) *),
+  aside:not(:is(.mbp, .mbx, .mbh, .mrc, .mrd, .mrp, .mcf, .mcl) *),
+  form:not(:is(.mbp, .mbx, .mbh, .mrc, .mrd, .mrp, .mcf, .mcl) *),
   .page,
   .container,
   .layout-main,
@@ -75,8 +75,8 @@ body,
 }
 
 :where(
-  small,
-  time,
+  small:not(:is(.mbp, .mbx, .mbh, .mrc, .mrd, .mrp, .mcf, .mcl) *),
+  time:not(:is(.mbp, .mbx, .mbh, .mrc, .mrd, .mrp, .mcf, .mcl) *),
   .text-muted,
   .text-light,
   .muted,
@@ -313,11 +313,11 @@ body,
 
 /* Last-resort readable text pass for CSS chunks loaded after the app shell. */
 [data-theme='light'] body :where(
-  main,
-  section,
-  article,
-  aside,
-  form,
+  main:not(:is(.mbp, .mbx, .mbh, .mrc, .mrd, .mrp, .mcf, .mcl) *),
+  section:not(:is(.mbp, .mbx, .mbh, .mrc, .mrd, .mrp, .mcf, .mcl) *),
+  article:not(:is(.mbp, .mbx, .mbh, .mrc, .mrd, .mrp, .mcf, .mcl) *),
+  aside:not(:is(.mbp, .mbx, .mbh, .mrc, .mrd, .mrp, .mcf, .mcl) *),
+  form:not(:is(.mbp, .mbx, .mbh, .mrc, .mrd, .mrp, .mcf, .mcl) *),
   .page,
   .container,
   .layout-main,
@@ -355,18 +355,18 @@ body,
   .product-description,
   .order-date,
   .info-label,
-  small,
-  time
+  small:not(:is(.mbp, .mbx, .mbh, .mrc, .mrd, .mrp, .mcf, .mcl) *),
+  time:not(:is(.mbp, .mbx, .mbh, .mrc, .mrd, .mrp, .mcf, .mcl) *)
 ) {
   color: var(--readable-text-muted) !important;
 }
 
 [data-theme='dark'] body :where(
-  main,
-  section,
-  article,
-  aside,
-  form,
+  main:not(:is(.mbp, .mbx, .mbh, .mrc, .mrd, .mrp, .mcf, .mcl) *),
+  section:not(:is(.mbp, .mbx, .mbh, .mrc, .mrd, .mrp, .mcf, .mcl) *),
+  article:not(:is(.mbp, .mbx, .mbh, .mrc, .mrd, .mrp, .mcf, .mcl) *),
+  aside:not(:is(.mbp, .mbx, .mbh, .mrc, .mrd, .mrp, .mcf, .mcl) *),
+  form:not(:is(.mbp, .mbx, .mbh, .mrc, .mrd, .mrp, .mcf, .mcl) *),
   .page,
   .container,
   .layout-main,
@@ -391,14 +391,14 @@ body,
 }
 
 [data-theme='dark'] body :where(
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  strong,
-  b,
+  h1:not(:is(.mbp, .mbx, .mbh, .mrc, .mrd, .mrp, .mcf, .mcl) *),
+  h2:not(:is(.mbp, .mbx, .mbh, .mrc, .mrd, .mrp, .mcf, .mcl) *),
+  h3:not(:is(.mbp, .mbx, .mbh, .mrc, .mrd, .mrp, .mcf, .mcl) *),
+  h4:not(:is(.mbp, .mbx, .mbh, .mrc, .mrd, .mrp, .mcf, .mcl) *),
+  h5:not(:is(.mbp, .mbx, .mbh, .mrc, .mrd, .mrp, .mcf, .mcl) *),
+  h6:not(:is(.mbp, .mbx, .mbh, .mrc, .mrd, .mrp, .mcf, .mcl) *),
+  strong:not(:is(.mbp, .mbx, .mbh, .mrc, .mrd, .mrp, .mcf, .mcl) *),
+  b:not(:is(.mbp, .mbx, .mbh, .mrc, .mrd, .mrp, .mcf, .mcl) *),
   .card-title,
   .section-title,
   .page-title
@@ -420,8 +420,8 @@ body,
   .product-description,
   .order-date,
   .info-label,
-  small,
-  time
+  small:not(:is(.mbp, .mbx, .mbh, .mrc, .mrd, .mrp, .mcf, .mcl) *),
+  time:not(:is(.mbp, .mbx, .mbh, .mrc, .mrd, .mrp, .mcf, .mcl) *)
 ) {
   color: var(--readable-text-muted) !important;
 }

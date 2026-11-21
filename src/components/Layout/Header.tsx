@@ -1,329 +1,295 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
+import type { FormEvent } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
-import { LogIn, UserPlus } from 'lucide-react'
+import { ArrowRight, Menu, Search, Settings, X } from 'lucide-react'
+import gsap from 'gsap'
+import { useGSAP } from '@gsap/react'
 import { useAuthStore } from '../../stores/authStore'
-import { useCartStore } from '../../stores/cartStore'
 import { useSettingsStore } from '../../stores/settingsStore'
-import { ThemeToggle } from '../ThemeToggle/ThemeToggle'
-import { AdvancedSearch } from '../Search/AdvancedSearch'
 import './Header.css'
 
-type NavigationItem = { to: string; label: string; icon: string }
+gsap.registerPlugin(useGSAP)
 
-const primaryItems: NavigationItem[] = [
-  { to: '/map', label: 'Explorer', icon: 'icon-globe' },
-  { to: '/collections', label: 'Comprendre', icon: 'icon-folder' },
-  { to: '/stories', label: 'Mémoires', icon: 'icon-book' },
-  { to: '/contribute', label: 'Contribuer', icon: 'icon-edit' },
+// Navigation de la maquette Figma : composant « Navigation/Claire », sa variante posée sur la hero,
+// et le cadre « Mobile 390 / Menu ouvert ».
+type NavItem = { to: string; label: string; also?: string[] }
+
+// Les 5 entrées de clean.md. `also` : anciennes adresses ou pages de détail rattachées à l'entrée.
+const NAV_ITEMS: NavItem[] = [
+  { to: '/', label: 'Accueil' },
+  { to: '/map', label: 'Explorer', also: ['/country'] },
+  { to: '/recits', label: 'Récits', also: ['/blog', '/stories', '/collections'] },
+  { to: '/reperes', label: 'Repères', also: ['/timeline', '/figures', '/proverbs'] },
+  { to: '/contribute', label: 'Contribuer', also: ['/sources'] },
 ]
 
-const resourceGroups: Array<{ title: string; items: NavigationItem[] }> = [
-  {
-    title: 'Connaissances',
-    items: [
-      { to: '/timeline', label: 'Chronologies', icon: 'icon-clock' },
-      { to: '/figures', label: 'Personnalités', icon: 'icon-user' },
-      { to: '/blog', label: 'Carnet de savoirs', icon: 'icon-file' },
-      { to: '/proverbs', label: 'Proverbes', icon: 'icon-quote' },
-    ],
-  },
-  {
-    title: 'Communauté',
-    items: [
-      { to: '/sources', label: 'Sources & provenance', icon: 'icon-file' },
-      { to: '/communities', label: 'Cercles de mémoire', icon: 'icon-users' },
-      { to: '/quizzes', label: 'Apprendre', icon: 'icon-help-circle' },
-      { to: '/shop', label: 'Créateurs & objets', icon: 'icon-shopping' },
-    ],
-  },
-]
+interface HeaderProps {
+  /** La barre se pose sur la hero verte de l'accueil : logo blanc, pastilles en verre */
+  overlay?: boolean
+}
 
-export const Header = () => {
-  const { isAuthenticated, user, logout } = useAuthStore()
-  const itemCount = useCartStore((state) => state.getItemCount())
+export const Header = ({ overlay = false }: HeaderProps) => {
+  const { isAuthenticated, user } = useAuthStore()
   const { settings, fetchSettings } = useSettingsStore()
-  const [isResourcesOpen, setIsResourcesOpen] = useState(false)
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isSearchOpen, setIsSearchOpen] = useState(false)
-  const [isUserMenuOpen, setIsUserMenuOpen] = useState(false)
-  const [isScrolled, setIsScrolled] = useState(false)
+  const [query, setQuery] = useState('')
+  const searchInput = useRef<HTMLInputElement>(null)
   const location = useLocation()
   const navigate = useNavigate()
-  const resourcesRef = useRef<HTMLDivElement>(null)
-  const userMenuRef = useRef<HTMLDivElement>(null)
+  const platformName = settings?.platformName || 'MonBaobab'
+
+  /* Menu mobile en trois phases pour pouvoir animer la fermeture :
+   * « open » affiche la carte verte, « closing » joue le rabattement avant de retourner à « closed ». */
+  const [menuPhase, setMenuPhase] = useState<'closed' | 'open' | 'closing'>('closed')
+  const headerRef = useRef<HTMLElement>(null)
+  const barRef = useRef<HTMLDivElement>(null)
+  const menuRef = useRef<HTMLDivElement>(null)
+  const menuTl = useRef<gsap.core.Timeline | null>(null)
+  const barRect = useRef<DOMRect | null>(null)
+  const reducedMotion = useMemo(() => window.matchMedia('(prefers-reduced-motion: reduce)').matches, [])
+  const menuOpen = menuPhase !== 'closed'
 
   useEffect(() => {
     fetchSettings()
   }, [fetchSettings])
 
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20)
-    }
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
-
-  useEffect(() => {
-    setIsMenuOpen(false)
     setIsSearchOpen(false)
-    setIsResourcesOpen(false)
-    setIsUserMenuOpen(false)
+    setMenuPhase((phase) => (phase === 'closed' ? phase : 'closing'))
   }, [location.pathname])
 
   useEffect(() => {
-    const closeMenus = (event: MouseEvent) => {
-      const target = event.target as Node
-      if (resourcesRef.current && !resourcesRef.current.contains(target)) {
-        setIsResourcesOpen(false)
-      }
-      if (userMenuRef.current && !userMenuRef.current.contains(target)) {
-        setIsUserMenuOpen(false)
-      }
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key !== 'Escape') return
+      setIsSearchOpen(false)
+      setMenuPhase((phase) => (phase === 'closed' ? phase : 'closing'))
     }
-    document.addEventListener('mousedown', closeMenus)
-    return () => document.removeEventListener('mousedown', closeMenus)
+    document.addEventListener('keydown', onKeyDown)
+    return () => document.removeEventListener('keydown', onKeyDown)
   }, [])
 
-  const platformName = settings?.platformName || 'MonBaobab'
-  const isActive = (to: string) =>
-    location.pathname === to || location.pathname.startsWith(`${to}/`)
-  const resourceIsActive = resourceGroups
-    .flatMap((group) => group.items)
-    .some((item) => isActive(item.to))
-
-  const handleLogout = () => {
-    logout()
-    navigate('/')
-    setIsUserMenuOpen(false)
+  const toggleMenu = () => {
+    if (menuPhase === 'closed') {
+      // Mesure avant le rendu de la carte : sert au FLIP qui suit
+      barRect.current = barRef.current?.getBoundingClientRect() ?? null
+      setMenuPhase('open')
+    } else {
+      setMenuPhase('closing')
+    }
   }
 
-  const renderLink = (item: NavigationItem, mobile = false) => (
-    <Link
-      key={item.to}
-      to={item.to}
-      className={`nav-link ${isActive(item.to) ? 'active' : ''}`}
-      onClick={() => setIsMenuOpen(false)}
-    >
-      <span className={item.icon} aria-hidden="true" />
-      {!mobile && <span className="nav-link-text">{item.label}</span>}
-      {mobile && <span>{item.label}</span>}
-    </Link>
+  /* Morphose du menu : la barre reste immobile (FLIP) pendant que la carte verte
+   * se déploie et que les liens montent en cascade. Le logo et les pastilles se
+   * fondent en CSS ; sans GSAP (mouvement réduit), le CSS bascule directement. */
+  useGSAP(
+    () => {
+      const header = headerRef.current
+      const bar = barRef.current
+      const menu = menuRef.current
+      if (!header || !bar || !menu) return
+      const items = Array.from(menu.querySelectorAll('.mbn-menu-link, .mbn-menu-cta, .mbn-menu-signin'))
+      menuTl.current?.kill()
+      gsap.killTweensOf([header, bar, menu, ...items])
+
+      // FLIP : compense le décalage du passage en carte flottante (inset 8 px).
+      // Mesure capturée une fois : l'ouverture et la fermeture la consument à tour de rôle.
+      const pendingRect: DOMRect | null = barRect.current
+      barRect.current = null
+      const flip = { x: 0, y: 0 }
+      if (pendingRect) {
+        const last = bar.getBoundingClientRect()
+        flip.x = pendingRect.left - last.left
+        flip.y = pendingRect.top - last.top
+      }
+
+      if (reducedMotion) {
+        if (menuPhase === 'closing') setMenuPhase('closed')
+        return
+      }
+
+      if (menuPhase === 'open') {
+        menuTl.current = gsap
+          .timeline()
+          .fromTo(
+            header,
+            {
+              backgroundColor: overlay ? 'rgb(23 65 35 / 0)' : '#f7f6f2',
+              borderRadius: '0px',
+              boxShadow: '0 24px 64px rgb(17 17 17 / 0)',
+            },
+            {
+              backgroundColor: '#174123',
+              borderRadius: '32px',
+              boxShadow: '0 24px 64px rgb(17 17 17 / 0.3)',
+              duration: 0.5,
+              ease: 'power2.out',
+            },
+            0,
+          )
+          .from(bar, { ...flip, duration: 0.5, ease: 'power3.out' }, 0)
+          .fromTo(menu, { clipPath: 'inset(0 0 100% 0)' }, { clipPath: 'inset(0 0 0% 0)', duration: 0.55, ease: 'power3.inOut' }, 0)
+          .fromTo(items, { y: 26, autoAlpha: 0 }, { y: 0, autoAlpha: 1, stagger: 0.055, duration: 0.45, ease: 'power2.out' }, 0.14)
+      }
+
+      if (menuPhase === 'closing') {
+        menuTl.current = gsap
+          .timeline({
+            onComplete: () => {
+              // Mesure avant le retour en flux, pour le FLIP de fermeture
+              barRect.current = bar.getBoundingClientRect()
+              setMenuPhase('closed')
+            },
+          })
+          .to(items, { y: -16, autoAlpha: 0, stagger: 0.03, duration: 0.2, ease: 'power2.in' }, 0)
+          .to(menu, { clipPath: 'inset(0 0 100% 0)', duration: 0.4, ease: 'power3.inOut' }, 0.08)
+          .to(
+            header,
+            {
+              backgroundColor: overlay ? 'rgb(23 65 35 / 0)' : '#f7f6f2',
+              borderRadius: '0px',
+              boxShadow: '0 24px 64px rgb(17 17 17 / 0)',
+              duration: 0.4,
+              ease: 'power2.in',
+            },
+            0.1,
+          )
+      }
+
+      if (menuPhase === 'closed') {
+        // Rendu propre au CSS : les styles inline de l'animation partent
+        gsap.set([header, menu, ...items], { clearProps: 'all' })
+        if (pendingRect) {
+          const last = bar.getBoundingClientRect()
+          gsap.from(bar, {
+            x: pendingRect.left - last.left,
+            y: pendingRect.top - last.top,
+            duration: 0.45,
+            ease: 'power3.out',
+          })
+        }
+      }
+    },
+    { dependencies: [menuPhase, overlay], scope: headerRef },
   )
 
+  // La loupe s'allonge en champ ; une fois ouvert, le même bouton lance la recherche
+  useEffect(() => {
+    if (isSearchOpen) searchInput.current?.focus()
+  }, [isSearchOpen])
+
+  const closeSearch = () => {
+    setIsSearchOpen(false)
+    setQuery('')
+  }
+
+  const submitSearch = (event: FormEvent) => {
+    event.preventDefault()
+    const q = query.trim()
+    if (!isSearchOpen || !q) {
+      setIsSearchOpen(true)
+      return
+    }
+    navigate(`/search?q=${encodeURIComponent(q)}`)
+    closeSearch()
+  }
+
+  const matches = (to: string) =>
+    to === '/' ? location.pathname === '/' : location.pathname === to || location.pathname.startsWith(`${to}/`)
+  const isActive = (item: NavItem) => matches(item.to) || (item.also ?? []).some(matches)
+
+  // Bouton de droite : « Mon espace » une fois connecté, sinon « Rejoindre » (ou « Explorer l'atlas » sur la hero)
+  const cta = isAuthenticated
+    ? { to: '/dashboard', label: 'Mon espace' }
+    : overlay
+      ? { to: '/map', label: 'Explorer l’atlas' }
+      : { to: '/register', label: 'Rejoindre' }
+
+  const links = (className: string) =>
+    NAV_ITEMS.map((item) => (
+      <Link key={item.to} to={item.to} className={className} aria-current={isActive(item) ? 'page' : undefined}>
+        {item.label}
+        {className === 'mbn-menu-link' && <ArrowRight size={20} aria-hidden="true" />}
+      </Link>
+    ))
+
   return (
-    <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
-      <div className="header-container">
-        {/* Logo */}
-        <Link to="/" className="header-logo" aria-label={`${platformName}, accueil`}>
-          <img src="/LogoFiles/Fichier%207.svg" alt={platformName} className="logo-image" />
+    <header ref={headerRef} className="mbn" data-overlay={overlay || undefined} data-menu-open={menuOpen || undefined}>
+      <div className="mbn-bar" ref={barRef}>
+        <Link to="/" className="mbn-logo" aria-label={`${platformName}, accueil`}>
+          {/* Les deux versions empilées se fondent l'une dans l'autre (hero, menu ouvert) */}
+          <img src="/Logo/Fichier%203.svg" alt="" width="144" height="48" />
+          <img src="/Logo/Fichier%207.svg" alt="" width="144" height="48" />
         </Link>
 
-        {/* Navigation desktop */}
-        <nav className="header-nav-desktop" aria-label="Navigation principale">
-          {primaryItems.map((item) => renderLink(item))}
-
-          <div className="nav-secondary" ref={resourcesRef}>
-            <button
-              type="button"
-              className={`nav-more-btn ${isResourcesOpen || resourceIsActive ? 'active' : ''}`}
-              onClick={() => setIsResourcesOpen((open) => !open)}
-              aria-expanded={isResourcesOpen}
-            >
-              <span className="icon-grid" aria-hidden="true" />
-              <span className="nav-link-text">Ressources</span>
-              <span
-                className={`icon-arrow-down ${isResourcesOpen ? 'rotated' : ''}`}
-                aria-hidden="true"
-              />
-            </button>
-
-            <div className={`nav-dropdown ${isResourcesOpen ? 'active' : ''}`}>
-              {resourceGroups.map((group) => (
-                <div className="nav-dropdown-group" key={group.title}>
-                  <span className="nav-dropdown-label">{group.title}</span>
-                  {group.items.map((item) => (
-                    <Link
-                      key={item.to}
-                      to={item.to}
-                      className={`nav-dropdown-item ${isActive(item.to) ? 'active' : ''}`}
-                      onClick={() => setIsResourcesOpen(false)}
-                    >
-                      <span className={item.icon} aria-hidden="true" />
-                      <span>{item.label}</span>
-                    </Link>
-                  ))}
-                </div>
-              ))}
-            </div>
-          </div>
+        <nav className="mbn-links" aria-label="Navigation principale">
+          {links('mbn-link')}
         </nav>
 
-        {/* Actions du header */}
-        <div className="header-actions">
-          {/* Recherche */}
-          <button
-            type="button"
-            className="action-btn search-toggle-btn"
-            onClick={() => setIsSearchOpen((open) => !open)}
-            aria-label="Rechercher"
+        <div className="mbn-actions">
+          <form
+            role="search"
+            className="mbn-search"
+            data-open={isSearchOpen || undefined}
+            onSubmit={submitSearch}
+            onBlur={(event) => {
+              if (!query.trim() && !event.currentTarget.contains(event.relatedTarget as Node)) closeSearch()
+            }}
           >
-            <span className="icon-search" aria-hidden="true" />
-          </button>
-
-          {/* Theme Toggle
-          <div className="action-btn theme-toggle-wrapper">
-            <ThemeToggle />
-          </div> */}
-
-          {/* Panier */}
-          <Link
-            to="/cart"
-            className="action-btn cart-link"
-            aria-label={`Panier${itemCount ? ` (${itemCount} articles)` : ''}`}
-          >
-            <span className="icon-shopping" aria-hidden="true" />
-            {itemCount > 0 && <span className="cart-badge">{itemCount}</span>}
-          </Link>
-
-          {/* Authentification */}
-          {isAuthenticated ? (
-            <div className="user-menu-wrapper" ref={userMenuRef}>
-              <button
-                type="button"
-                className="user-menu-btn"
-                onClick={() => setIsUserMenuOpen((open) => !open)}
-                aria-expanded={isUserMenuOpen}
-              >
-                <span className="user-avatar">
-                  {user?.name?.charAt(0).toUpperCase() || 'U'}
-                </span>
-                <span className="icon-arrow-down" aria-hidden="true" />
-              </button>
-
-              <div className={`user-dropdown ${isUserMenuOpen ? 'active' : ''}`}>
-                <div className="user-dropdown-header">
-                  <div className="user-info">
-                    <span className="user-name">{user?.name || 'Utilisateur'}</span>
-                    <span className="user-email">{user?.email}</span>
-                  </div>
-                </div>
-                <div className="user-dropdown-menu">
-                  <Link to="/dashboard" onClick={() => setIsUserMenuOpen(false)}>
-                    <span className="icon-user" aria-hidden="true" /> Mon espace
-                  </Link>
-                  <Link to="/communities" onClick={() => setIsUserMenuOpen(false)}>
-                    <span className="icon-users" aria-hidden="true" /> Mes cercles
-                  </Link>
-                  <Link
-                    to="/cart"
-                    className="user-dropdown-cart"
-                    onClick={() => setIsUserMenuOpen(false)}
-                  >
-                    <span className="icon-shopping" aria-hidden="true" /> Panier
-                    {itemCount > 0 && <strong>{itemCount}</strong>}
-                  </Link>
-                  {user?.role === 'admin' && (
-                    <Link to="/admin" onClick={() => setIsUserMenuOpen(false)}>
-                      <span className="icon-settings" aria-hidden="true" /> Administration
-                    </Link>
-                  )}
-                  <div className="user-dropdown-divider" />
-                  <button type="button" className="logout-btn" onClick={handleLogout}>
-                    <span className="icon-logout" aria-hidden="true" /> Déconnexion
-                  </button>
-                </div>
-              </div>
-            </div>
-          ) : (
-            <div className="auth-buttons">
-              <Link to="/login" className="auth-link auth-link-button">
-                <LogIn className="auth-icon" size={18} strokeWidth={2.25} aria-hidden="true" />
-                <span className="auth-link-text">Se connecter</span>
-              </Link>
-              <Link to="/register" className="auth-link auth-link-primary">
-                <UserPlus className="auth-icon" size={18} strokeWidth={2.25} aria-hidden="true" />
-                <span className="auth-link-text">Rejoindre</span>
-              </Link>
-            </div>
+            <button type="submit" className="mbn-search-btn" aria-label={isSearchOpen ? 'Lancer la recherche' : 'Rechercher'}>
+              <Search size={20} strokeWidth={1.8} aria-hidden="true" />
+            </button>
+            <input
+              ref={searchInput}
+              type="search"
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
+              placeholder="Un pays, un récit, un proverbe…"
+              aria-label="Rechercher sur MonBaobab"
+              tabIndex={isSearchOpen ? 0 : -1}
+            />
+          </form>
+          {user?.role === 'admin' && (
+            <Link to="/admin" className="mbn-round mbn-desktop" aria-label="Administration">
+              <Settings size={20} strokeWidth={1.8} aria-hidden="true" />
+            </Link>
           )}
-
-          {/* Menu hamburger */}
+          <Link to={cta.to} className="mbn-cta mbn-desktop">
+            {cta.label} {!overlay && <ArrowRight size={18} aria-hidden="true" />}
+          </Link>
           <button
             type="button"
-            className={`menu-toggle ${isMenuOpen ? 'active' : ''}`}
-            onClick={() => setIsMenuOpen((open) => !open)}
-            aria-label={isMenuOpen ? 'Fermer le menu' : 'Ouvrir le menu'}
-            aria-expanded={isMenuOpen}
+            className="mbn-round mbn-mobile"
+            aria-label={menuOpen ? 'Fermer le menu' : 'Ouvrir le menu'}
+            aria-expanded={menuOpen}
+            aria-controls="mbn-menu"
+            onClick={toggleMenu}
           >
-            <span />
-            <span />
-            <span />
+            {/* Burger et croix empilés : fondu + rotation d'un état à l'autre */}
+            <span className="mbn-toggle-icons" aria-hidden="true">
+              <Menu size={20} strokeWidth={1.8} />
+              <X size={20} strokeWidth={1.8} />
+            </span>
           </button>
         </div>
       </div>
 
-      {/* Panneau de recherche */}
-      {isSearchOpen && (
-        <div className="header-search-expanded">
-          <div className="advanced-search-container">
-            <AdvancedSearch />
-          </div>
-          <button
-            type="button"
-            className="search-close-btn"
-            onClick={() => setIsSearchOpen(false)}
-            aria-label="Fermer la recherche"
-          >
-            ✕
-          </button>
-        </div>
-      )}
-
-      {/* Menu mobile */}
-      <nav
-        className={`header-nav-mobile ${isMenuOpen ? 'active' : ''}`}
-        aria-label="Navigation mobile"
-      >
-        <div className="mobile-nav-content">
-          <div className="mobile-menu-head">
-            <strong>{platformName}</strong>
-            <span>Comprendre l'Afrique, ensemble</span>
-          </div>
-
-          <div className="mobile-nav-quick">
-            {primaryItems.map((item) => (
-              <Link
-                key={item.to}
-                to={item.to}
-                className={`mobile-quick-link ${isActive(item.to) ? 'active' : ''}`}
-                onClick={() => setIsMenuOpen(false)}
-              >
-                <span className={item.icon} aria-hidden="true" />
-                <strong>{item.label}</strong>
-                <small>Explorer</small>
-              </Link>
-            ))}
-          </div>
-
-          {resourceGroups.map((group) => (
-            <div className="mobile-nav-group" key={group.title}>
-              <div className="mobile-nav-section-label">{group.title}</div>
-              {group.items.map((item) => (
-                <Link
-                  key={item.to}
-                  to={item.to}
-                  className={`mobile-nav-link ${isActive(item.to) ? 'active' : ''}`}
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  <span className={item.icon} aria-hidden="true" />
-                  <span>{item.label}</span>
-                </Link>
-              ))}
-            </div>
-          ))}
-        </div>
-      </nav>
+      {/* Toujours monté : GSAP anime l'ouverture et la fermeture, le CSS cache par défaut */}
+      <div id="mbn-menu" ref={menuRef} className="mbn-menu">
+        <nav
+          aria-label="Menu"
+          onClick={() => setMenuPhase((phase) => (phase === 'closed' ? phase : 'closing'))}
+        >
+          {links('mbn-menu-link')}
+        </nav>
+        <Link to={isAuthenticated ? '/dashboard' : '/map'} className="mbn-menu-cta">
+          {isAuthenticated ? 'Mon espace' : 'Explorer l’atlas'} <ArrowRight size={18} aria-hidden="true" />
+        </Link>
+        {!isAuthenticated && (
+          <Link to="/login" className="mbn-menu-signin">
+            Se connecter
+          </Link>
+        )}
+      </div>
     </header>
   )
 }

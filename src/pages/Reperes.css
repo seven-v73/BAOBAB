@@ -1,0 +1,570 @@
+/* Repères d'après la maquette Figma « Repères / Desktop 1440 » et « Mobile 390 ».
+ * production-ergonomics.css et button-system.css habillent tous les <button> en !important. */
+
+.mrp {
+  --readable-text: var(--brand-foret);
+  --mrp-pad: clamp(20px, 8.3vw, 120px);
+  flex: 1;
+  background: var(--brand-creme);
+  color: var(--brand-foret);
+  font-family: var(--font-texte);
+}
+
+.mrp h1,
+.mrp h2,
+.mrp h3 {
+  font-family: var(--font-titre);
+  font-weight: 700;
+}
+
+.mrp-kicker {
+  margin: 0;
+  color: var(--brand-sauge);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.mrp-empty {
+  padding: 48px 24px 96px;
+  text-align: center;
+}
+
+/* ---------- Introduction et filtres ---------- */
+
+.mrp-intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 24px 40px;
+  padding: 56px var(--mrp-pad) 40px;
+}
+
+.mrp-intro h1 {
+  --human-title-line: 1.04;
+  max-width: 751px;
+  margin: 0;
+  font-size: clamp(2.25rem, 4.5vw, 4rem);
+  font-weight: 800;
+  line-height: 1.04;
+  letter-spacing: -0.025em;
+}
+
+.mrp-intro p {
+  max-width: 420px;
+  margin: 0;
+  color: rgb(23 65 35 / 0.8);
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.mrp-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px 24px;
+  padding: 0 var(--mrp-pad) 48px;
+}
+
+.mrp-refine {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* ---------- En-têtes de section ---------- */
+
+.mrp-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 24px;
+}
+
+.mrp-head > div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.mrp-head h2 {
+  --human-title-line: 1.16;
+  margin: 0;
+  font-size: 1.75rem;
+  line-height: 1.16;
+  letter-spacing: -0.015em;
+}
+
+.mrp-head p {
+  margin: 0;
+  color: rgb(23 65 35 / 0.7);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.mrp-head--clair h2 {
+  color: var(--brand-blanc);
+}
+
+.mrp-head--clair p {
+  color: rgb(255 255 255 / 0.75);
+}
+
+.mrp .mrp-more {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  border: 0;
+  border-radius: 0 !important;
+  background: none !important;
+  box-shadow: none !important;
+  color: var(--brand-foret) !important;
+  font: 600 1rem / 1 var(--font-texte);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ---------- Dates : bande vert forêt, frise horizontale ---------- */
+
+.mrp-dates {
+  --readable-text: var(--brand-blanc);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 56px var(--mrp-pad) 64px;
+  background: var(--brand-foret);
+}
+
+/* Sur desktop, le lien se pose dans l'en-tête ; sur mobile il suit la frise */
+.mrp-dates .mrp-more {
+  color: var(--brand-blanc) !important;
+}
+
+.mrp-dates-link {
+  position: absolute;
+  top: 64px;
+  right: var(--mrp-pad);
+  align-self: flex-start;
+}
+
+.mrp-frise {
+  position: relative;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* L'axe passe derrière les points */
+.mrp-frise::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  right: 0;
+  left: 0;
+  height: 2px;
+  background: rgb(255 255 255 / 0.3);
+}
+
+.mrp-frise li {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.mrp-point {
+  width: 16px;
+  height: 16px;
+  margin: 13px 0 36px;
+  border: 3px solid var(--brand-blanc);
+  border-radius: 50%;
+}
+
+/* Couleur posée sur la carte elle-même : contrast-system force la couleur
+ * héritée sur les sections, rien ne doit dépendre de l'héritage ici. */
+/* Couleurs réaffirmées en !important : contrast-system.css force les <p>/héritages
+ * en gris chaud, et rien ne doit dépendre de l'héritage sur les cartes blanches. */
+.mrp-date-card {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 20px;
+  border-radius: 22px;
+  background: var(--brand-blanc);
+  color: var(--brand-foret);
+}
+
+.mrp-date-card strong {
+  font: 700 1.5rem / 1.22 var(--font-titre);
+  letter-spacing: -0.01em;
+  color: var(--brand-foret);
+}
+
+.mrp-date-titre {
+  color: var(--brand-foret);
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.mrp-date-pays {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: auto;
+  padding-top: 8px;
+  color: rgb(23 65 35 / 0.65);
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.42;
+}
+
+.mrp-date-pays i {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+
+/* ---------- Personnalités ---------- */
+
+.mrp-section {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding: 72px var(--mrp-pad) 24px;
+}
+
+.mrp-section--last {
+  padding-bottom: 120px;
+}
+
+.mrp-figures {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mrp-figure {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  gap: 16px;
+  padding: 12px 12px 20px;
+  border-radius: 24px;
+  background: var(--brand-blanc);
+}
+
+.mrp-figure img {
+  width: 100%;
+  height: 240px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.mrp-figure > div {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 0 12px;
+}
+
+.mrp-figure h3 {
+  --human-title-line: 1.22;
+  margin: 0;
+  font-size: 1.5rem;
+  letter-spacing: -0.01em;
+  line-height: 1.22;
+}
+
+.mrp-figure-role {
+  margin: 0;
+  color: rgb(23 65 35 / 0.78);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* ---------- Proverbes ---------- */
+
+.mrp-proverbes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mrp-proverbes li {
+  --readable-text: var(--brand-foret);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 18px;
+  min-height: 292px;
+  padding: 32px 28px 28px;
+  border-radius: 24px;
+  background: var(--brand-blanc);
+}
+
+.mrp-proverbes .mrp-proverbe--sombre {
+  --readable-text: var(--brand-blanc);
+  background: var(--brand-foret);
+}
+
+.mrp-proverbes blockquote {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 18px;
+  margin: 0;
+  font: 700 1.5rem / 1.22 var(--font-titre);
+  letter-spacing: -0.01em;
+}
+
+.mrp-proverbe--sombre blockquote {
+  color: var(--brand-blanc);
+}
+
+.mrp-guillemet {
+  color: var(--brand-ambre);
+  font-size: 4rem;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 1.04;
+}
+
+/* ---------- Mobile (maquette « Repères / Mobile 390 ») ---------- */
+
+@media (max-width: 900px) {
+  .mrp {
+    --mrp-pad: 20px;
+  }
+
+  .mrp-intro {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 28px 20px 20px;
+  }
+
+  .mrp-intro h1 {
+    --human-title-line: 1.06;
+    font-size: 2.25rem;
+    line-height: 1.06 !important;
+    letter-spacing: -0.02em;
+  }
+
+  .mrp-intro p {
+    font-size: 1.0625rem;
+  }
+
+  /* Les pilules défilent, les listes attendent le desktop */
+  .mrp-filters {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding: 0 16px 28px 20px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .mrp-filters::-webkit-scrollbar {
+    display: none;
+  }
+
+  .mrp-filters .mbr-chips {
+    flex-wrap: nowrap;
+  }
+
+  .mrp-refine {
+    display: none;
+  }
+
+  /* Dates : carte vert forêt à frise verticale */
+  .mrp-dates {
+    gap: 20px;
+    margin: 0 8px;
+    padding: 28px 20px;
+    border-radius: 32px;
+  }
+
+  .mrp-dates h2 {
+    font-size: 1.625rem;
+    line-height: 1.14;
+  }
+
+  .mrp-head--clair p {
+    display: none;
+  }
+
+  .mrp-dates-link {
+    position: static;
+    padding-top: 0;
+  }
+
+  .mrp-frise {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .mrp-frise::before {
+    display: none;
+  }
+
+  .mrp-frise li {
+    position: relative;
+    flex-direction: row;
+    gap: 14px;
+  }
+
+  /* Le rail relie chaque point au suivant */
+  .mrp-frise li::after {
+    content: '';
+    position: absolute;
+    top: 18px;
+    bottom: -4px;
+    left: 6px;
+    width: 2px;
+    background: rgb(255 255 255 / 0.3);
+  }
+
+  .mrp-frise li:last-child::after {
+    display: none;
+  }
+
+  .mrp-point {
+    flex: none;
+    width: 14px;
+    height: 14px;
+    margin: 2px 0 0;
+    border-width: 2.5px;
+  }
+
+  .mrp-date-card {
+    background: none;
+    gap: 4px;
+    padding: 0 0 20px;
+  }
+
+  .mrp-date-card strong {
+    color: var(--brand-blanc);
+    font-size: 1.25rem;
+  }
+
+  .mrp-date-titre {
+    color: rgb(255 255 255 / 0.92);
+  }
+
+  .mrp-date-pays {
+    margin-top: 0;
+    padding-top: 0;
+    color: rgb(255 255 255 / 0.6);
+  }
+
+  /* Personnalités : lignes portrait + textes */
+  .mrp-section {
+    gap: 12px;
+    padding: 40px 16px 0;
+  }
+
+  .mrp-section--last {
+    padding-bottom: 64px;
+  }
+
+  .mrp-head {
+    padding: 0 0 4px 4px;
+  }
+
+  .mrp-head p {
+    display: none;
+  }
+
+  .mrp-head h2 {
+    font-size: 1.625rem;
+    line-height: 1.14;
+  }
+
+  .mrp-head .mrp-more {
+    display: none;
+  }
+
+  .mrp-figures {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .mrp-figure {
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 16px 14px 14px;
+    border-radius: 20px;
+  }
+
+  .mrp-figure img {
+    flex: none;
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+  }
+
+  .mrp-figure > div {
+    flex: 1;
+    min-width: 0;
+    gap: 3px;
+    padding: 0;
+  }
+
+  .mrp-figure h3 {
+    font: 600 1rem / 1 var(--font-texte);
+    letter-spacing: 0;
+  }
+
+  .mrp-figure-role {
+    color: rgb(23 65 35 / 0.72);
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.42;
+  }
+
+  /* Proverbes : cartes empilées, sans guillemet orné */
+  .mrp-proverbes {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .mrp-proverbes li {
+    min-height: 0;
+    gap: 10px;
+    padding: 22px;
+    border-radius: 22px;
+  }
+
+  .mrp-proverbes blockquote {
+    gap: 0;
+    font-size: 1.25rem;
+    line-height: 1.24;
+  }
+
+  .mrp-guillemet {
+    display: none;
+  }
+}

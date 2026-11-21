@@ -1,0 +1,16 @@
+.africa-relief {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.africa-relief-fill {
+  fill: var(--brand-foret);
+}
+
+.africa-relief-line {
+  fill: none;
+  stroke: var(--brand-sauge);
+  stroke-width: 2;
+}

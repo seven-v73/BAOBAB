@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Share } from 'lucide-react'
 import { useNotifications } from '../../hooks/useNotifications'
 import './ShareButton.css'
 
@@ -7,9 +8,11 @@ interface ShareButtonProps {
   title: string
   description?: string
   className?: string
+  /** Bouton rond, icône seule */
+  iconOnly?: boolean
 }
 
-export const ShareButton = ({ url, title, description = '', className = '' }: ShareButtonProps) => {
+export const ShareButton = ({ url, title, description = '', className = '', iconOnly = false }: ShareButtonProps) => {
   const { success, showError } = useNotifications()
   const [showMenu, setShowMenu] = useState(false)
 
@@ -84,13 +87,13 @@ export const ShareButton = ({ url, title, description = '', className = '' }: Sh
   return (
     <div className={`share-button-container ${className}`}>
       <button
-        className="share-btn"
+        type="button"
+        className={`share-btn${iconOnly ? ' share-btn--icon' : ''}`}
         onClick={handleNativeShare}
-        title="Partager"
-        aria-label="Partager"
+        aria-label={iconOnly ? 'Partager' : undefined}
       >
-        <span className="icon-share" />
-        <span>Partager</span>
+        <Share size={18} strokeWidth={1.6} aria-hidden="true" />
+        {!iconOnly && <span>Partager</span>}
       </button>
 
       {showMenu && (

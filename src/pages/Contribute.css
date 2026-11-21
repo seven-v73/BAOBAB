@@ -1,222 +1,523 @@
-.contribute-page {
-  width: min(1180px, calc(100% - 32px));
-  margin: 0 auto;
-  padding: 42px 0 76px;
-  --contribute-bg: #fffaf0;
-  --contribute-panel: #ffffff;
-  --contribute-panel-soft: #f5efe0;
-  --contribute-text: #17201c;
-  --contribute-muted: #5f675f;
-  --contribute-border: rgba(31, 41, 35, .18);
-  --contribute-input: #fffdf7;
-  --contribute-accent: var(--accent-color, #c9a227);
-  color: var(--contribute-text);
+/* Contribuer d'après la maquette Figma « Contribuer / Desktop 1440 » et « Mobile 390 ».
+ * production-ergonomics.css, button-system.css et form-system.css habillent les <button>
+ * et les champs en !important : la page réaffirme ses formes ici. */
+
+.mcf {
+  --readable-text: var(--brand-foret);
+  --mcf-pad: clamp(20px, 8.3vw, 120px);
+  --mcf-bord: rgb(23 65 35 / 0.14);
+  flex: 1;
+  background: var(--brand-creme);
+  color: var(--brand-foret);
+  font-family: var(--font-texte);
 }
 
-[data-theme='dark'] .contribute-page {
-  --contribute-bg: #0c1718;
-  --contribute-panel: #152426;
-  --contribute-panel-soft: #1b3031;
-  --contribute-text: #fff8e6;
-  --contribute-muted: #d8cab0;
-  --contribute-border: rgba(255, 248, 230, .22);
-  --contribute-input: #0b181a;
-  --contribute-accent: #d6ad37;
-}
-
-.contribute-hero {
-  max-width: 860px;
-  padding: 18px 0 28px;
-}
-
-.contribute-hero p {
-  margin: 0 0 10px;
-  color: var(--contribute-accent);
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: .08em;
-}
-
-.contribute-hero h1 {
-  margin: 0;
-  font-size: clamp(2.1rem, 5vw, 4.6rem);
-  line-height: 1;
-  color: var(--contribute-text);
-}
-
-.contribute-hero span {
-  display: block;
-  max-width: 720px;
-  margin-top: 16px;
-  color: var(--contribute-muted);
-  line-height: 1.65;
-  font-size: 1.06rem;
-}
-
-.contribute-shell {
-  display: grid;
-  grid-template-columns: minmax(260px, 300px) minmax(0, 1fr);
-  gap: 20px;
-  align-items: start;
-}
-
-.contribute-guidelines,
-.contribute-form {
-  border: 1px solid var(--border-color, #d1d5db);
-  border-radius: 8px;
-  background: var(--contribute-panel);
-  border-color: var(--contribute-border);
-  color: var(--contribute-text);
-  box-shadow: 0 16px 42px rgba(0, 0, 0, .18);
-}
-
-.contribute-guidelines {
-  position: sticky;
-  top: 96px;
-  padding: 20px;
-}
-
-.contribute-guidelines h2,
-.contribute-form label {
-  margin: 0;
-  color: var(--contribute-text) !important;
-}
-
-.contribute-guidelines ul {
-  margin: 14px 0;
-  padding-left: 18px;
-  color: var(--contribute-muted);
-  line-height: 1.55;
-}
-
-.contribute-guidelines a {
-  color: var(--contribute-text) !important;
-  font-weight: 900;
-}
-
-.contribute-form {
-  display: grid;
-  gap: 16px;
-  padding: 20px;
-}
-
-.contribute-type-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
-  gap: 12px;
-}
-
-.contribute-type-grid button {
-  display: flex !important;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 7px;
-  min-height: 104px;
-  border: 1px solid var(--contribute-border);
-  border-radius: 8px;
-  background: var(--contribute-panel-soft) !important;
-  color: var(--contribute-text) !important;
-  text-align: left;
-  padding: 14px;
-  cursor: pointer;
-  white-space: normal;
-  overflow: hidden;
-}
-
-.contribute-type-grid button.active {
-  border-color: var(--contribute-accent);
-  box-shadow: inset 0 0 0 2px var(--contribute-accent), 0 10px 24px rgba(0, 0, 0, .14);
-  background:
-    linear-gradient(180deg, color-mix(in srgb, var(--contribute-accent) 12%, transparent), transparent),
-    var(--contribute-panel-soft) !important;
-}
-
-.contribute-type-grid strong,
-.contribute-type-grid small {
-  display: block !important;
-  width: 100%;
-}
-
-.contribute-type-grid strong {
-  color: var(--contribute-text);
-  font-size: .98rem;
-  line-height: 1.2;
-}
-
-.contribute-type-grid small {
-  color: var(--contribute-muted);
-  line-height: 1.4;
-  font-size: .86rem;
+.mcf h1,
+.mcf h2 {
+  font-family: var(--font-titre);
   font-weight: 700;
 }
 
-.contribute-form label {
+.mcf-label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--brand-foret) !important;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+/* ---------- Introduction ---------- */
+
+.mcf-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 48px var(--mcf-pad);
+}
+
+.mcf-intro h1 {
+  --human-title-line: 1.04;
+  max-width: 695px;
+  margin: 0;
+  font-size: clamp(2.25rem, 4.5vw, 4rem);
+  font-weight: 800;
+  line-height: 1.04;
+  letter-spacing: -0.025em;
+}
+
+.mcf-intro p {
+  max-width: 720px;
+  margin: 0;
+  color: rgb(23 65 35 / 0.8) !important;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+/* ---------- Corps : étapes, champs, colonne latérale ---------- */
+
+.mcf-body {
   display: grid;
-  gap: 7px;
-  color: var(--contribute-text) !important;
-  font-weight: 850;
+  grid-template-columns: 200px minmax(0, 1fr) 340px;
+  gap: 48px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 var(--mcf-pad) 120px;
+}
+
+/* Étapes */
+.mcf-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: sticky;
+  top: 24px;
+  align-self: start;
+}
+
+.mcf .mcf-steps a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  color: rgb(23 65 35 / 0.55) !important;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.42;
+  text-decoration: none;
+}
+
+.mcf-step-num {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  background: #eef4ea;
+  color: rgb(23 65 35 / 0.6) !important;
+}
+
+.mcf .mcf-steps a.is-active {
+  color: var(--brand-foret) !important;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.mcf .mcf-steps a.is-active .mcf-step-num {
+  background: var(--brand-foret);
+  color: var(--brand-blanc) !important;
+}
+
+/* Champs */
+.mcf-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
   min-width: 0;
 }
 
-.contribute-form input,
-.contribute-form textarea,
-.contribute-form select {
-  width: 100%;
-  border-radius: 8px;
-  border: 1px solid var(--contribute-border) !important;
-  background: var(--contribute-input) !important;
-  color: var(--contribute-text) !important;
-  padding: 12px;
-  font: inherit;
+.mcf-groupe {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  scroll-margin-top: 96px;
+}
+
+.mcf-groupe h2 {
+  --human-title-line: 1.16;
+  margin: 0;
+  font-size: 1.75rem;
+  line-height: 1.16;
+  letter-spacing: -0.015em;
+}
+
+/* Cartes de type */
+.mcf-types {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  max-width: 564px;
+}
+
+.mcf .mcf-types button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  min-height: 156px;
+  /* button-system.css force min-width:max-content et nowrap sur tous les boutons :
+   * sans réinitialisation, chaque carte déborde de sa piste et chevauche les autres */
   min-width: 0;
+  white-space: normal;
+  padding: 20px;
+  border: 1px solid rgb(23 65 35 / 0.1) !important;
+  border-radius: 20px !important;
+  background: var(--brand-blanc) !important;
   box-shadow: none !important;
-}
-
-.contribute-form input::placeholder,
-.contribute-form textarea::placeholder {
-  color: color-mix(in srgb, var(--contribute-muted) 72%, transparent) !important;
-}
-
-.contribute-form textarea {
-  resize: vertical;
-  min-height: 160px;
-}
-
-.contribute-fields {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(240px, 1fr));
-  gap: 14px;
-}
-
-.contribute-submit {
-  min-height: 48px;
-  border: 0;
-  border-radius: 8px;
-  background: var(--contribute-accent) !important;
-  color: #111;
-  font-weight: 950;
+  color: var(--brand-foret) !important;
+  text-align: left;
   cursor: pointer;
-  width: 100%;
 }
 
-.contribute-submit:disabled {
-  opacity: .68;
+.mcf .mcf-types button.is-active {
+  border: 2px solid var(--brand-foret) !important;
+  background: #eef4ea !important;
+}
+
+.mcf-type-haut {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  color: #173f23;
+}
+
+.mcf-coche {
+  display: grid;
+  place-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 999px;
+  background: var(--brand-foret);
+  color: var(--brand-blanc);
+}
+
+.mcf-types strong {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.mcf-types small {
+  color: rgb(23 65 35 / 0.65) !important;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.42;
+}
+
+/* Champs texte */
+.mcf-champ {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.mcf-champ label {
+  color: var(--brand-foret) !important;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.mcf .mcf-champ textarea {
+  height: 110px;
+  padding: 14px 16px 14px 18px;
+  border: 1px solid var(--mcf-bord) !important;
+  border-radius: 18px !important;
+  background: var(--brand-blanc);
+  color: var(--brand-foret) !important;
+  font: 400 1rem / 1.5 var(--font-texte);
+  resize: vertical;
+}
+
+.mcf .mcf-champ textarea::placeholder {
+  color: rgb(23 65 35 / 0.45) !important;
+}
+
+.mcf .mcf-champ textarea:focus {
+  outline: none;
+  border-color: var(--brand-foret) !important;
+}
+
+.mcf-ligne {
+  display: flex;
+  gap: 16px;
+}
+
+.mcf-ligne .mcf-champ {
+  flex: 1;
+}
+
+.mcf-aide {
+  margin: 0;
+  color: rgb(23 65 35 / 0.55) !important;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.42;
+}
+
+/* Options d'origine */
+.mcf-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.mcf .mcf-options button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 42px;
+  min-width: 0;
+  padding: 10px 16px 10px 14px;
+  border: 1px solid var(--mcf-bord) !important;
+  border-radius: 999px !important;
+  background: var(--brand-blanc) !important;
+  box-shadow: none !important;
+  color: var(--brand-foret) !important;
+  font: 500 0.875rem / 1.42 var(--font-texte);
+  letter-spacing: 0.01em;
+  cursor: pointer;
+}
+
+.mcf .mcf-options button.is-active {
+  border-color: var(--brand-foret) !important;
+  background: var(--brand-foret) !important;
+  color: var(--brand-blanc) !important;
+}
+
+.mcf-options .mcf-coche {
+  width: 14px;
+  height: 14px;
+  background: var(--brand-blanc);
+  color: var(--brand-foret);
+}
+
+/* Envoi */
+.mcf-envoi {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 8px;
+  scroll-margin-top: 96px;
+}
+
+.mcf .mcf-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 52px;
+  padding: 0 28px;
+  border: 0;
+  border-radius: 999px !important;
+  background: var(--brand-foret) !important;
+  box-shadow: none !important;
+  color: var(--brand-blanc) !important;
+  font: 600 1rem / 1 var(--font-texte);
+  cursor: pointer;
+}
+
+.mcf .mcf-btn:disabled {
+  opacity: 0.6;
   cursor: wait;
 }
 
-@media (max-width: 860px) {
-  .contribute-page {
-    width: min(100% - 20px, 1180px);
-    padding-top: 24px;
+.mcf-note {
+  max-width: 291px;
+  margin: 0;
+  color: rgb(23 65 35 / 0.6) !important;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.42;
+}
+
+/* ---------- Colonne latérale ---------- */
+
+.mcf-side {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.mcf-charte {
+  --readable-text: var(--brand-blanc);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 26px;
+  border-radius: 24px;
+  background: var(--brand-foret);
+}
+
+.mcf-charte h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  letter-spacing: -0.01em;
+  line-height: 1.22;
+  color: var(--brand-blanc);
+}
+
+.mcf-charte p {
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  color: rgb(255 255 255 / 0.88) !important;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.42;
+}
+
+.mcf-charte svg {
+  flex: none;
+  color: var(--brand-sauge);
+}
+
+.mcf-ensuite {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 24px;
+  border-radius: 24px;
+  background: var(--brand-blanc);
+}
+
+.mcf-ensuite h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  letter-spacing: -0.01em;
+  line-height: 1.22;
+}
+
+.mcf-ensuite p {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin: 0;
+}
+
+.mcf-num {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  background: #eef4ea;
+  color: var(--brand-foret) !important;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.42;
+}
+
+.mcf-ensuite p > span:last-child {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  color: rgb(23 65 35 / 0.65) !important;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.42;
+}
+
+.mcf-ensuite strong {
+  color: var(--brand-foret);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+/* ---------- Mobile (maquette « Contribuer / Mobile 390 ») ---------- */
+
+@media (max-width: 900px) {
+  .mcf-intro {
+    gap: 14px;
+    padding: 28px 20px 24px;
   }
 
-  .contribute-shell,
-  .contribute-fields {
-    grid-template-columns: 1fr;
+  .mcf-intro h1 {
+    --human-title-line: 1.06;
+    font-size: 2.25rem;
+    line-height: 1.06 !important;
+    letter-spacing: -0.02em;
   }
 
-  .contribute-guidelines {
-    position: static;
+  .mcf-intro p {
+    font-size: 1.0625rem;
+  }
+
+  /* La charte passe sous l'intro, « Et ensuite » après le formulaire */
+  .mcf-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 0;
+  }
+
+  .mcf-steps {
+    display: none;
+  }
+
+  .mcf-side {
+    display: contents;
+  }
+
+  .mcf-charte {
+    order: 1;
+    margin: 0 16px 28px;
+  }
+
+  .mcf-charte h2 {
+    font-size: 1.25rem;
+    line-height: 1.24;
+  }
+
+  .mcf-fields {
+    order: 2;
+    gap: 36px;
+    padding: 0 20px 32px;
+  }
+
+  .mcf-ensuite {
+    order: 3;
+    margin: 0 16px 56px;
+  }
+
+  .mcf-groupe h2 {
+    font-size: 1.625rem;
+    line-height: 1.14;
+  }
+
+  /* Cartes compactes : icône + titre, deux par rangée */
+  .mcf-types {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .mcf .mcf-types button {
+    min-height: 90px;
+  }
+
+  .mcf-types small {
+    display: none;
+  }
+
+  .mcf-ligne {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .mcf-envoi {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .mcf .mcf-btn {
+    align-self: stretch;
+  }
+
+  .mcf-note {
+    max-width: none;
   }
 }

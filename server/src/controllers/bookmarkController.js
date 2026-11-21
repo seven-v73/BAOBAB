@@ -1,6 +1,38 @@
 import Bookmark from '../models/Bookmark.js'
+import Blog from '../models/Blog.js'
+import Collection from '../models/Collection.js'
+import Country from '../models/Country.js'
+import HistoricalFigure from '../models/HistoricalFigure.js'
+import Proverb from '../models/Proverb.js'
+import Quiz from '../models/Quiz.js'
+import Story from '../models/Story.js'
+import TimelineEvent from '../models/TimelineEvent.js'
 import { catchAsync } from '../utils/errorHandler.js'
 import logger from '../utils/logger.js'
+
+// Un favori ne stocke que l'identifiant : on joint le minimum pour l'afficher (titre, image, lieu)
+const ITEM_SOURCES = {
+  country: [Country, 'id nameFr region images'],
+  figure: [HistoricalFigure, 'name image images birthPlace'],
+  story: [Story, 'title coverImage country'],
+  collection: [Collection, 'title coverImage'],
+  blog: [Blog, 'title image'],
+  event: [TimelineEvent, 'title date images location'],
+  proverb: [Proverb, 'text countryName language'],
+  quiz: [Quiz, 'title'],
+}
+
+const attachItems = async (bookmarks) => {
+  const idsByType = {}
+  for (const b of bookmarks) (idsByType[b.itemType] ??= []).push(b.itemId)
+  const found = new Map()
+  await Promise.all(Object.entries(idsByType).map(async ([type, ids]) => {
+    const [Model, fields] = ITEM_SOURCES[type]
+    const docs = await Model.find({ _id: { $in: ids } }).select(fields).lean()
+    for (const doc of docs) found.set(`${type}:${doc._id}`, doc)
+  }))
+  return bookmarks.map((b) => ({ ...b, item: found.get(`${b.itemType}:${b.itemId}`) ?? null }))
+}
 
 // GET /api/bookmarks - Récupérer tous les favoris de l'utilisateur
 export const getBookmarks = catchAsync(async (req, res) => {
@@ -30,7 +62,7 @@ export const getBookmarks = catchAsync(async (req, res) => {
   logger.info('Favoris récupérés', { userId, count: bookmarks.length })
 
   res.json({
-    data: bookmarks,
+    data: await attachItems(bookmarks),
     pagination: {
       page: parseInt(page),
       limit: parseInt(limit),
