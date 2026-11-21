@@ -1,3 +1,4 @@
+import os from 'node:os'
 import express from 'express'
 import cors from 'cors'
 import helmet from 'helmet'
@@ -48,9 +49,18 @@ import { nosqlInjectionProtection, validateMongoIds } from './middleware/nosqlIn
 
 const app = express()
 
-// Le serveur tourne derrière Nginx sur le VPS. Nécessaire pour que
-// express-rate-limit lise correctement X-Forwarded-For.
-app.set('trust proxy', 1)
+// Le serveur tourne derrière Nginx sur le VPS : on lit X-Forwarded-For (IP réelle du visiteur,
+// utilisée par les limites de requêtes) uniquement quand la connexion vient de cette machine,
+// c'est-à-dire de nginx. Une requête envoyée directement sur le port 3000 depuis Internet
+// garde sa vraie IP : un X-Forwarded-For forgé ne permet plus de contourner les limites.
+const localAddresses = new Set(
+  Object.values(os.networkInterfaces()).flat().filter(Boolean).map((iface) => iface.address),
+)
+const isLocalAddress = (address = '') => {
+  const ip = address.replace(/^::ffff:/, '')
+  return ip === '::1' || ip.startsWith('127.') || localAddresses.has(ip)
+}
+app.set('trust proxy', (address, hop) => hop === 0 && isLocalAddress(address))
 
 // Connexion à Redis (optionnel)
 initRedis().catch((error) => {
@@ -199,14 +209,9 @@ try {
     setInterval(refreshSeo, 30 * 60 * 1000).unref()
   }
 
-  // En production, l'API n'écoute que localement : tout passe par nginx (HTTPS, en-têtes,
-  // X-Forwarded-For fiable pour les limites de requêtes). HOST=0.0.0.0 pour l'ouvrir.
-  // localhost peut se résoudre en ::1 (IPv6) : on écoute aussi sur la boucle locale IPv6.
-  const hosts = process.env.HOST ? [process.env.HOST] : env.NODE_ENV === 'production' ? ['127.0.0.1', '::1'] : ['0.0.0.0']
-  hosts.slice(1).forEach((host) => {
-    app.listen(env.PORT, host).on('error', (error) => logger.warn(`Écoute impossible sur ${host}: ${error.message}`))
-  })
-  app.listen(env.PORT, hosts[0], () => {
+  // HOST permet de restreindre l'écoute (ex. HOST=127.0.0.1 si nginx passe par la boucle locale)
+  const listenArgs = process.env.HOST ? [env.PORT, process.env.HOST] : [env.PORT]
+  app.listen(...listenArgs, () => {
     logger.info(`Server running on http://localhost:${env.PORT}`)
     logger.info(`API Documentation: http://localhost:${env.PORT}/api-docs`)
     logger.info(`Environment: ${env.NODE_ENV}`)

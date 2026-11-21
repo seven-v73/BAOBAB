@@ -108,12 +108,5 @@ for page in /recits /reperes /country/sn /login; do
 done
 trap - ERR
 
-PUBLIC_IP=$(hostname -I | awk '{print $1}')
-if [ -n "$PUBLIC_IP" ] && curl -s -o /dev/null --max-time 5 "http://$PUBLIC_IP:3000/api/health"; then
-  warn "Le port 3000 répond encore depuis l'extérieur : vérifiez HOST dans server/.env"
-else
-  echo "OK  port 3000 fermé depuis l'extérieur"
-fi
-
 step "Déploiement terminé"
 echo "Sauvegarde : $BACKUP  (retour arrière : git reset --hard \$(cat $BACKUP/commit.txt) + dist de la sauvegarde)"
