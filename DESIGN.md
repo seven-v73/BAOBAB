@@ -406,7 +406,15 @@ Sobre et utile, au service de la découverte.
 
 ## 13. Migration depuis l'ancien style
 
-Faite le 21 novembre 2026 (refonte Figma mise en ligne) : palette forêt/crème, Hepta Slab + Hanken Grotesk, thème clair par défaut, favicon `Logo/Fichier 4.svg`, navigation Récits/Repères. Reste à consolider : les anciennes feuilles de `src/styles/` (`premium-*`, `human-*`…) encore chargées par certaines pages (admin, détail de récit ou de personnalité) et les couleurs codées en dur qu'elles contiennent. À aligner sur les jetons §12 page par page.
+Terminée le 21 novembre 2026 : toutes les pages (publiques, membres, administration) sont au style de la refonte.
+
+Règles pour ne pas y revenir :
+- **Aucune feuille globale de style** en dehors de `src/index.css`, qui ne contient que les jetons, la remise à zéro et deux utilitaires (`.sr-only`, `.container`). Le dossier `src/styles/` (or, dégradés, quadrillage, `!important` sur les boutons) a été supprimé : ne pas le recréer.
+- **Pages de lecture** (article, histoire, dossier, date, personnalité, récit) : toujours le composant `Lecture` (`src/components/Lecture`), gabarit de la maquette « Récit ».
+- **Listes** (Récits, Repères, Sources, Recherche) : intro + pastilles `TypeChips` + filtre par région + cartes blanches arrondies.
+- **Boutons** : `.mbr-button` dans les pages, composant `Button` ailleurs ; jamais de dégradé ni d'ombre lourde.
+- **Icônes** : `lucide-react` uniquement.
+- Les anciennes variables (`--color-*`, `--space-*`, `--accent`…) sont rebranchées sur la charte dans `index.css` ; pour du code neuf, utiliser directement `--brand-*`.
 
 ---
 

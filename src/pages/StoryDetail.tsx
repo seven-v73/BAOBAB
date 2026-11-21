@@ -1,245 +1,147 @@
-import { useState, useEffect } from 'react'
-import { useParams, Link } from 'react-router-dom'
-import { Layout } from '../components/Layout/Layout'
-import { Card } from '../components/Card/Card'
-import { Button } from '../components/Button/Button'
+import { useEffect, useState } from 'react'
+import { useParams } from 'react-router-dom'
+import { Check } from 'lucide-react'
+import { Lecture, LectureEmpty, LectureSkeleton } from '../components/Lecture/Lecture'
 import { storyService } from '../services/api'
 import { useAuthStore } from '../stores/authStore'
 import { useNotifications } from '../hooks/useNotifications'
-import './StoryDetail.css'
 import { useSeo } from '../seo/useSeo'
+import { joinMeta } from '../utils'
+import { findCountryCodes, placeOf } from '../utils/afrique'
+
+// Histoire (épopée, biographie, documentaire) dans le gabarit de lecture de la refonte :
+// tous les chapitres à la suite, sommaire des chapitres dans la colonne.
 
 interface Chapter {
   title: string
   content: string
-  images: Array<{ url: string; caption: string }>
+  images?: Array<{ url: string; caption?: string }>
   audio?: string
-  interactiveElements: Array<{ type: string; data: any }>
   order: number
 }
 
 interface Story {
   _id: string
   title: string
-  subtitle: string
-  coverImage: string
-  description: string
-  chapters: Chapter[]
-  readingTime: number
-  difficulty: string
-  category: string
+  subtitle?: string
+  coverImage?: string
+  description?: string
+  chapters?: Chapter[]
+  readingTime?: number
+  category?: string
+  tags?: string[]
+  author?: string
 }
+
+const paragraphs = (text = '') => text.split(/\n\s*\n|\n/).map((p) => p.trim()).filter(Boolean)
+const back = { to: '/recits?type=histoires', label: 'Retour aux récits' }
 
 export const StoryDetail = () => {
   const { id } = useParams<{ id: string }>()
   const { isAuthenticated } = useAuthStore()
-  const { success, showError } = useNotifications()
+  const { success, error: showError } = useNotifications()
   const [story, setStory] = useState<Story | null>(null)
+  const [loading, setLoading] = useState(true)
+  const [done, setDone] = useState(false)
+
   useSeo(
     story
-      ? {
-          title: story.subtitle ? `${story.title} : ${story.subtitle}` : story.title,
-          description: story.description,
-          image: story.coverImage,
-          type: 'article',
-        }
+      ? { title: story.subtitle ? `${story.title} : ${story.subtitle}` : story.title, description: story.description, image: story.coverImage, type: 'article' }
       : null,
   )
-  const [loading, setLoading] = useState(true)
-  const [currentChapter, setCurrentChapter] = useState(0)
-  const [isPlaying, setIsPlaying] = useState(false)
-  const [audioProgress, setAudioProgress] = useState(0)
 
   useEffect(() => {
-    if (id) {
-      fetchStory()
+    if (!id) return
+    let cancelled = false
+    setLoading(true)
+    storyService
+      .getById(id)
+      .then((response) => !cancelled && setStory(response.data))
+      .catch(() => !cancelled && setStory(null))
+      .finally(() => !cancelled && setLoading(false))
+    return () => {
+      cancelled = true
     }
   }, [id])
 
-  const fetchStory = async () => {
-    try {
-      setLoading(true)
-      const response = await storyService.getById(id!)
-      setStory(response.data)
-    } catch (error) {
-      console.error('Erreur lors du chargement du récit:', error)
-      showError('Erreur lors du chargement du récit')
-    } finally {
-      setLoading(false)
-    }
-  }
-
-  const handleComplete = async () => {
-    if (!isAuthenticated) {
-      showError('Vous devez être connecté pour compléter un récit')
-      return
-    }
-
-    try {
-      await storyService.complete(id!)
-      success('Récit complété avec succès !')
-    } catch (error: any) {
-      showError(error.response?.data?.error || 'Erreur lors de la complétion')
-    }
-  }
-
-  const sortedChapters = story?.chapters ? [...story.chapters].sort((a, b) => a.order - b.order) : []
-  const currentChapterData = sortedChapters[currentChapter]
-
-  if (loading) {
-    return (
-      <Layout>
-        <div className="story-detail-loading">
-          <p>Chargement...</p>
-        </div>
-      </Layout>
-    )
-  }
-
+  if (loading) return <LectureSkeleton />
   if (!story) {
     return (
-      <Layout>
-        <div className="story-detail-not-found">
-          <h1>Récit non trouvé</h1>
-          <Link to="/stories">
-            <Button>Retour aux récits</Button>
-          </Link>
-        </div>
-      </Layout>
+      <LectureEmpty back={back}>
+        <h1>Ce récit est introuvable</h1>
+        <p>Il a peut-être été retiré ou déplacé.</p>
+      </LectureEmpty>
     )
+  }
+
+  const chapters = [...(story.chapters || [])].sort((a, b) => a.order - b.order)
+  const place = placeOf(findCountryCodes(story.tags, story.title, story.subtitle))
+
+  const complete = async () => {
+    if (!isAuthenticated) {
+      showError('Connectez-vous pour garder ce récit dans votre parcours.')
+      return
+    }
+    try {
+      await storyService.complete(story._id)
+      setDone(true)
+      success('Récit ajouté à votre parcours.')
+    } catch (err) {
+      showError((err as { response?: { data?: { error?: string } } }).response?.data?.error || 'Enregistrement impossible pour le moment.')
+    }
   }
 
   return (
-    <Layout>
-      <div className="story-detail-page">
-        <Link to="/stories" className="back-link">
-          <span className="icon-arrow-left" style={{ fontSize: '20px', width: '20px', height: '20px', display: 'inline-block' }} />
-          Retour aux récits
-        </Link>
+    <Lecture
+      back={back}
+      kicker={joinMeta(story.category, place.region ? place.regionLabel : '', story.readingTime && `${story.readingTime} min`)}
+      title={story.title}
+      lead={story.subtitle || story.description}
+      byline={{ name: story.author && story.author !== 'MonBaobab Team' ? story.author : undefined, detail: `${chapters.length} chapitre${chapters.length > 1 ? 's' : ''}` }}
+      bookmark={{ itemType: 'story', itemId: story._id }}
+      shareUrl={`/stories/${story._id}`}
+      image={story.coverImage ? { src: story.coverImage } : undefined}
+      place={place}
+      toc={chapters.map((chapter, index) => ({ id: `chapitre-${index + 1}`, label: chapter.title || `Chapitre ${index + 1}` }))}
+      tocLabel="Chapitres"
+      currentRecitId={`story-${story._id}`}
+    >
+      {story.subtitle && story.description && (
+        <section>
+          <p>{story.description}</p>
+        </section>
+      )}
 
-        <div className="story-detail-hero">
-          <div className="story-hero-cover">
-            {story.coverImage ? (
-              <img src={story.coverImage} alt={story.title} />
-            ) : (
-              <div className="story-hero-placeholder">
-                <span className="icon-book" style={{ fontSize: '64px', width: '64px', height: '64px' }} />
-              </div>
-            )}
-          </div>
-          <div className="story-hero-info">
-            <div className="story-category-badge">{story.category}</div>
-            <h1>{story.title}</h1>
-            {story.subtitle && <p className="story-subtitle">{story.subtitle}</p>}
-            <p className="story-description">{story.description}</p>
-            <div className="story-hero-meta">
-              <span>Temps de lecture: {story.readingTime} minutes</span>
-              <span>Niveau: {story.difficulty}</span>
-            </div>
-            {isAuthenticated && (
-              <Button onClick={handleComplete} style={{ marginTop: '1rem' }}>
-                <span className="icon-check" style={{ fontSize: '18px', width: '18px', height: '18px', display: 'inline-block' }} />
-                Marquer comme complété
-              </Button>
-            )}
-          </div>
-        </div>
+      {chapters.map((chapter, index) => (
+        <section key={index} id={`chapitre-${index + 1}`}>
+          <p className="mrd-kicker">Chapitre {index + 1}</p>
+          <h2>{chapter.title}</h2>
+          {paragraphs(chapter.content).map((text, i) => (
+            <p key={i}>{text}</p>
+          ))}
+          {chapter.images?.filter((image) => image.url).map((image) => (
+            <figure key={image.url} className="mrd-figure mrl-inline-figure">
+              <img src={image.url} alt={image.caption || ''} loading="lazy" />
+              {image.caption && <figcaption>{image.caption}</figcaption>}
+            </figure>
+          ))}
+          {chapter.audio && <audio controls preload="none" src={chapter.audio} className="mrl-audio" />}
+        </section>
+      ))}
 
-        <div className="story-chapters">
-          <div className="chapters-sidebar">
-            <h3>Chapitres ({sortedChapters.length})</h3>
-            <div className="chapters-list">
-              {sortedChapters.map((chapter, index) => (
-                <button
-                  key={index}
-                  className={`chapter-item ${index === currentChapter ? 'active' : ''}`}
-                  onClick={() => setCurrentChapter(index)}
-                >
-                  <span className="chapter-number">{index + 1}</span>
-                  <span className="chapter-title">{chapter.title}</span>
-                </button>
-              ))}
-            </div>
-          </div>
-
-          <div className="story-reader">
-            {currentChapterData && (
-              <Card className="chapter-card">
-                <div className="chapter-header">
-                  <h2>
-                    Chapitre {currentChapter + 1}: {currentChapterData.title}
-                  </h2>
-                  {currentChapterData.audio && (
-                    <div className="audio-player">
-                      <button
-                        className="audio-control"
-                        onClick={() => setIsPlaying(!isPlaying)}
-                      >
-                        {isPlaying ? (
-                          <span className="icon-pause" style={{ fontSize: '20px', width: '20px', height: '20px', display: 'inline-block' }} />
-                        ) : (
-                          <span className="icon-play" style={{ fontSize: '20px', width: '20px', height: '20px', display: 'inline-block' }} />
-                        )}
-                      </button>
-                      <audio
-                        src={currentChapterData.audio}
-                        onTimeUpdate={(e) => {
-                          const audio = e.currentTarget
-                          setAudioProgress((audio.currentTime / audio.duration) * 100)
-                        }}
-                        onEnded={() => setIsPlaying(false)}
-                        style={{ display: 'none' }}
-                        autoPlay={isPlaying}
-                      />
-                    </div>
-                  )}
-                </div>
-                <div className="chapter-content">
-                  {currentChapterData.content.split('\n').map((paragraph, index) => (
-                    <p key={index}>{paragraph}</p>
-                  ))}
-                </div>
-                {currentChapterData.images.length > 0 && (
-                  <div className="chapter-images">
-                    {currentChapterData.images.map((image, index) => (
-                      <div key={index} className="chapter-image">
-                        <img src={image.url} alt={image.caption || `Image ${index + 1}`} />
-                        {image.caption && <p className="image-caption">{image.caption}</p>}
-                      </div>
-                    ))}
-                  </div>
-                )}
-                <div className="chapter-navigation">
-                  {currentChapter > 0 && (
-                    <Button
-                      variant="outline"
-                      onClick={() => setCurrentChapter(currentChapter - 1)}
-                    >
-                      <span className="icon-arrow-left" style={{ fontSize: '18px', width: '18px', height: '18px', display: 'inline-block' }} />
-                      Chapitre précédent
-                    </Button>
-                  )}
-                  {currentChapter < sortedChapters.length - 1 && (
-                    <Button
-                      onClick={() => setCurrentChapter(currentChapter + 1)}
-                    >
-                      Chapitre suivant
-                      <span className="icon-arrow-right" style={{ fontSize: '18px', width: '18px', height: '18px', display: 'inline-block' }} />
-                    </Button>
-                  )}
-                  {currentChapter === sortedChapters.length - 1 && isAuthenticated && (
-                    <Button onClick={handleComplete}>
-                      <span className="icon-check" style={{ fontSize: '18px', width: '18px', height: '18px', display: 'inline-block' }} />
-                      Compléter le récit
-                    </Button>
-                  )}
-                </div>
-              </Card>
-            )}
-          </div>
-        </div>
-      </div>
-    </Layout>
+      <section className="mrd-fact">
+        <p className="mrd-kicker">Fin du récit</p>
+        <p>Gardez la trace de vos lectures dans votre espace, et retrouvez-les d’un appareil à l’autre.</p>
+        <button type="button" className="mbr-button" onClick={complete} disabled={done}>
+          {done ? (
+            <>
+              <Check size={18} aria-hidden="true" /> Dans votre parcours
+            </>
+          ) : (
+            'J’ai lu ce récit'
+          )}
+        </button>
+      </section>
+    </Lecture>
   )
 }
-

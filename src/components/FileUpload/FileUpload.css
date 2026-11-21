@@ -29,13 +29,13 @@
 }
 
 .file-upload-dropzone:hover {
-  border-color: rgba(212, 175, 55, 0.6);
+  border-color: rgb(23 65 35 / 0.6);
   background: var(--readable-surface, var(--color-bg-card));
 }
 
 .file-upload-dropzone.dragging {
-  border-color: #d4af37;
-  background: rgba(212, 175, 55, 0.1);
+  border-color: var(--brand-foret);
+  background: rgb(23 65 35 / 0.1);
   transform: scale(1.02);
 }
 
@@ -58,7 +58,7 @@
 }
 
 .file-upload-content svg {
-  color: #d4af37;
+  color: var(--brand-foret);
   opacity: 0.8;
 }
 
@@ -98,7 +98,7 @@
   position: absolute;
   top: -8px;
   right: -8px;
-  background: #e74c3c;
+  background: var(--brand-terre);
   border: none;
   border-radius: 50%;
   width: 24px;
@@ -112,7 +112,7 @@
 }
 
 .preview-remove:hover {
-  background: #c0392b;
+  background: var(--brand-terre);
   transform: scale(1.1);
 }
 

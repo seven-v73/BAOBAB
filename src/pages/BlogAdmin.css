@@ -39,7 +39,7 @@
 
 .blog-admin-header h1 {
   font-size: 2.5rem;
-  color: #d4af37;
+  color: var(--brand-foret);
   margin: 0;
   font-weight: 700;
 }
@@ -90,8 +90,8 @@
 
 .form-textarea:focus {
   outline: none;
-  border-color: #646cff;
-  box-shadow: 0 0 0 3px rgba(100, 108, 255, 0.1);
+  border-color: var(--brand-abysse);
+  box-shadow: 0 0 0 3px rgb(20 120 166 / 0.1);
 }
 
 .form-textarea::placeholder {
@@ -112,8 +112,8 @@
 
 .form-select:focus {
   outline: none;
-  border-color: #646cff;
-  box-shadow: 0 0 0 3px rgba(100, 108, 255, 0.1);
+  border-color: var(--brand-abysse);
+  box-shadow: 0 0 0 3px rgb(20 120 166 / 0.1);
 }
 
 .form-select option {
@@ -133,7 +133,7 @@
   width: 20px;
   height: 20px;
   cursor: pointer;
-  accent-color: #646cff;
+  accent-color: var(--brand-abysse);
 }
 
 .form-actions {
@@ -171,9 +171,9 @@
 }
 
 .admin-post-card:hover {
-  border-color: rgba(212, 175, 55, 0.3);
+  border-color: rgb(23 65 35 / 0.3);
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(212, 175, 55, 0.15);
+  box-shadow: var(--shadow-float);
 }
 
 .admin-post-header {
@@ -201,9 +201,9 @@
 }
 
 .status-badge.published {
-  background: rgba(39, 174, 96, 0.2);
-  color: #27ae60;
-  border: 1px solid rgba(39, 174, 96, 0.3);
+  background: rgb(119 161 98 / 0.2);
+  color: var(--brand-foret);
+  border: 1px solid rgb(119 161 98 / 0.3);
 }
 
 .status-badge.draft {
@@ -246,8 +246,8 @@
 }
 
 .category {
-  background: rgba(212, 175, 55, 0.15);
-  color: #d4af37;
+  background: rgb(23 65 35 / 0.15);
+  color: var(--brand-foret);
   padding: 0.25rem 0.75rem;
   border-radius: 12px;
   font-weight: 600;
@@ -267,8 +267,8 @@
 }
 
 .tag {
-  background: rgba(100, 108, 255, 0.15);
-  color: #646cff;
+  background: rgb(20 120 166 / 0.15);
+  color: var(--brand-abysse);
   padding: 0.25rem 0.5rem;
   border-radius: 6px;
   font-size: 0.75rem;
@@ -298,12 +298,12 @@
 }
 
 .form-tab:hover {
-  color: #d4af37;
+  color: var(--brand-foret);
 }
 
 .form-tab.active {
-  color: #d4af37;
-  border-bottom-color: #d4af37;
+  color: var(--brand-foret);
+  border-bottom-color: var(--brand-foret);
 }
 
 /* Sections de médias */
@@ -321,7 +321,7 @@
 }
 
 .media-section-header h4 {
-  color: #d4af37;
+  color: var(--brand-foret);
   margin: 0;
   font-size: 1.25rem;
 }
@@ -341,7 +341,7 @@
 }
 
 .media-item-number {
-  color: #d4af37;
+  color: var(--brand-foret);
   font-weight: 600;
   font-size: 1rem;
 }

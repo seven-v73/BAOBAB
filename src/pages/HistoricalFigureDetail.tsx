@@ -1,40 +1,57 @@
-import { useState, useEffect } from 'react'
-import { useParams, Link } from 'react-router-dom'
-import { Layout } from '../components/Layout/Layout'
-import { Card } from '../components/Card/Card'
-import { Button } from '../components/Button/Button'
+import { useEffect, useState } from 'react'
+import { Link, useParams } from 'react-router-dom'
+import { ArrowRight } from 'lucide-react'
+import { Lecture, LectureCard, LectureEmpty, LectureSkeleton } from '../components/Lecture/Lecture'
 import { figureService } from '../services/api'
-import './HistoricalFigureDetail.css'
 import { useSeo } from '../seo/useSeo'
-import { formatHistoricalDate } from '../utils/afrique'
+import { joinMeta } from '../utils'
+import { findCountryCodes, formatHistoricalDate, formatLifespan, placeOf } from '../utils/afrique'
+import { PERSONNALITES } from '../data/reperesContent'
 
-interface HistoricalFigure {
+// Fiche d'une personnalité (Repères) dans le gabarit de lecture de la refonte.
+
+interface Figure {
   _id: string
   name: string
-  nameNative: string
+  nameNative?: string
   birthDate?: string
   deathDate?: string
-  role: string[]
-  achievements: string[]
-  biography: string
-  shortBiography: string
-  image: string
-  images: Array<{ url: string; caption: string }>
-  birthPlace: {
-    country?: { _id: string; nameFr: string; id: string }
-    location: string
-  }
-  quotes: Array<{ text: string; context: string; source: string; verified: boolean }>
-  legacy: string
-  culturalImpact: string
-  verified: boolean
-  relatedCountries: Array<{ _id: string; nameFr: string; id: string }>
-  relatedEvents: Array<{ _id: string; title: string; date: string }>
+  birthPlace?: { location?: string }
+  deathPlace?: { location?: string }
+  role?: string[]
+  biography?: string
+  shortBiography?: string
+  achievements?: Array<string | { title?: string; description?: string }>
+  quotes?: Array<{ text: string; context?: string; source?: string }>
+  legacy?: string
+  culturalImpact?: string
+  image?: string
+  tags?: string[]
+  relatedEvents?: Array<{ _id: string; title: string; date: string }>
+  relatedCountries?: Array<{ nameFr?: string } | string>
+  sources?: Array<{ type?: string; title?: string; url?: string; author?: string; year?: number }>
+  verified?: boolean
 }
+
+const ROLE_LABELS: Record<string, string> = {
+  'Roi/Reine': 'Souveraineté',
+  Guerrier: 'Résistance et défense',
+  Diplomate: 'Diplomatie et politique',
+  Commerçant: 'Commerce',
+  Innovateur: 'Innovation',
+  Savant: 'Savoirs',
+  Artiste: 'Arts',
+}
+
+const back = { to: '/reperes?type=personnalites', label: 'Retour aux repères' }
+const paragraphs = (text = '') => text.split(/\n+/).map((p) => p.trim()).filter(Boolean)
+const normalize = (value = '') => value.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z]/g, '')
 
 export const HistoricalFigureDetail = () => {
   const { id } = useParams<{ id: string }>()
-  const [figure, setFigure] = useState<HistoricalFigure | null>(null)
+  const [figure, setFigure] = useState<Figure | null>(null)
+  const [loading, setLoading] = useState(true)
+
   useSeo(
     figure
       ? {
@@ -42,195 +59,177 @@ export const HistoricalFigureDetail = () => {
           description: figure.shortBiography || figure.biography,
           image: figure.image,
           type: 'profile',
-          jsonLd: {
-            '@type': 'Person',
-            name: figure.name,
-            alternateName: figure.nameNative || undefined,
-            description: (figure.shortBiography || '').slice(0, 300),
-          },
+          jsonLd: { '@type': 'Person', name: figure.name, alternateName: figure.nameNative || undefined, description: (figure.shortBiography || '').slice(0, 300) },
         }
       : null,
   )
-  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    if (id) {
-      fetchFigure()
+    if (!id) return
+    let cancelled = false
+    setLoading(true)
+    figureService
+      .getById(id)
+      .then((response) => !cancelled && setFigure(response.data))
+      .catch(() => !cancelled && setFigure(null))
+      .finally(() => !cancelled && setLoading(false))
+    return () => {
+      cancelled = true
     }
   }, [id])
 
-  const fetchFigure = async () => {
-    try {
-      setLoading(true)
-      const response = await figureService.getById(id!)
-      setFigure(response.data)
-    } catch (error) {
-      console.error('Erreur lors du chargement de la figure:', error)
-    } finally {
-      setLoading(false)
-    }
-  }
-
-  // Années avant J.-C. et dates connues à l'année près (voir utils/afrique)
-  const formatDate = (dateString?: string) => formatHistoricalDate(dateString)
-
-
-  if (loading) {
-    return (
-      <Layout>
-        <div className="figure-detail-loading">
-          <p>Chargement...</p>
-        </div>
-      </Layout>
-    )
-  }
-
+  if (loading) return <LectureSkeleton />
   if (!figure) {
     return (
-      <Layout>
-        <div className="figure-detail-not-found">
-          <h1>Figure historique non trouvée</h1>
-          <Link to="/figures">
-            <Button>Retour aux figures</Button>
-          </Link>
-        </div>
-      </Layout>
+      <LectureEmpty back={back}>
+        <h1>Cette personnalité est introuvable</h1>
+        <p>Sa fiche a peut-être été retirée ou déplacée.</p>
+      </LectureEmpty>
     )
   }
 
+  const place = placeOf(
+    findCountryCodes(
+      figure.birthPlace?.location,
+      (figure.relatedCountries || []).map((c) => (typeof c === 'string' ? c : c.nameFr || '')),
+      figure.shortBiography,
+    ),
+  )
+  const portrait = figure.image || PERSONNALITES.find((p) => normalize(p.nom) === normalize(figure.name))?.portrait
+  const achievements = (figure.achievements || []).map((a) => (typeof a === 'string' ? a : a.title || a.description || '')).filter(Boolean)
+  const quotes = (figure.quotes || []).filter((q) => q.text)
+  const sources = (figure.sources || []).filter((s) => s.title)
+  const roles = (figure.role || []).map((role) => ROLE_LABELS[role] || role)
+  const lifespan = formatLifespan(figure.birthDate, figure.deathDate)
+
+  const toc = [
+    { id: 'biographie', label: 'Biographie' },
+    ...(achievements.length ? [{ id: 'realisations', label: 'Réalisations' }] : []),
+    ...(quotes.length ? [{ id: 'paroles', label: 'Paroles' }] : []),
+    ...(figure.legacy || figure.culturalImpact ? [{ id: 'heritage', label: 'Héritage' }] : []),
+    ...(figure.relatedEvents?.length ? [{ id: 'dates', label: 'Dates liées' }] : []),
+    ...(sources.length ? [{ id: 'sources', label: 'Sources' }] : []),
+  ]
+
   return (
-    <Layout>
-      <div className="figure-detail-page">
-        <Link to="/figures" className="back-link">
-          <span className="icon-arrow-left" style={{ fontSize: '20px', width: '20px', height: '20px', display: 'inline-block' }} />
-          Retour aux figures historiques
-        </Link>
+    <Lecture
+      back={back}
+      kicker={joinMeta('Personnalité', lifespan, place.pays)}
+      title={figure.name}
+      lead={figure.shortBiography}
+      byline={{ name: figure.nameNative && figure.nameNative !== figure.name ? figure.nameNative : undefined, detail: figure.verified ? 'Fiche relue par l’équipe' : undefined }}
+      bookmark={{ itemType: 'figure', itemId: figure._id }}
+      shareUrl={`/figures/${figure._id}`}
+      image={portrait ? { src: portrait, caption: figure.name } : undefined}
+      place={place.codes.length ? place : undefined}
+      toc={toc}
+      tocLabel="Dans cette fiche"
+      aside={
+        <LectureCard kicker="Repères">
+          <dl className="mrl-facts">
+            {figure.birthDate && (
+              <>
+                <dt>Naissance</dt>
+                <dd>{joinMeta(formatHistoricalDate(figure.birthDate), figure.birthPlace?.location)}</dd>
+              </>
+            )}
+            {figure.deathDate && (
+              <>
+                <dt>Décès</dt>
+                <dd>{joinMeta(formatHistoricalDate(figure.deathDate), figure.deathPlace?.location)}</dd>
+              </>
+            )}
+          </dl>
+          {roles.length > 0 && (
+            <ul className="mrl-tags">
+              {roles.map((role) => (
+                <li key={role}>{role}</li>
+              ))}
+            </ul>
+          )}
+        </LectureCard>
+      }
+    >
+      <section id="biographie">
+        {paragraphs(figure.biography || figure.shortBiography).map((text, index) => (
+          <p key={index}>{text}</p>
+        ))}
+      </section>
 
-        <div className="figure-detail-hero">
-          <div className="figure-hero-image">
-            {figure.image ? (
-              <img src={figure.image} alt={figure.name} />
-            ) : (
-              <div className="figure-hero-placeholder">
-                <span>{figure.name.charAt(0)}</span>
-              </div>
-            )}
-            {figure.verified && (
-              <div className="figure-verified-label">
-                <span className="icon-check" style={{ fontSize: '20px', width: '20px', height: '20px', display: 'inline-block' }} />
-                <span>Vérifié par des experts</span>
-              </div>
-            )}
-          </div>
-          <div className="figure-hero-info">
-            <h1>{figure.name}</h1>
-            {figure.nameNative && (
-              <p className="figure-native-name">{figure.nameNative}</p>
-            )}
-            <div className="figure-hero-meta">
-              {figure.birthDate && (
-                <div className="meta-item">
-                  <span className="icon-calendar" />
-                  <div>
-                    <strong>Naissance:</strong> {formatDate(figure.birthDate)}
-                    {figure.deathDate && (
-                      <>
-                        <br />
-                        <strong>Décès:</strong> {formatDate(figure.deathDate)}
-                      </>
+      {achievements.length > 0 && (
+        <section id="realisations">
+          <h2>Réalisations</h2>
+          <ul className="mrl-list">
+            {achievements.map((achievement) => (
+              <li key={achievement}>{achievement}</li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {quotes.length > 0 && (
+        <section id="paroles">
+          <h2>Paroles</h2>
+          {quotes.map((quote, index) => (
+            <blockquote key={index} className="mrd-quote">
+              <p>{quote.text}</p>
+            </blockquote>
+          ))}
+        </section>
+      )}
+
+      {(figure.legacy || figure.culturalImpact) && (
+        <section id="heritage" className="mrd-fact">
+          <p className="mrd-kicker">Héritage</p>
+          {[figure.legacy, figure.culturalImpact].filter(Boolean).map((text, index) => (
+            <p key={index}>{text}</p>
+          ))}
+        </section>
+      )}
+
+      {figure.relatedEvents && figure.relatedEvents.length > 0 && (
+        <section id="dates">
+          <h2>Dates liées</h2>
+          <ul className="mrl-steps">
+            {figure.relatedEvents.map((event) => (
+              <li key={event._id}>
+                <Link to={`/timeline/${event._id}`} className="mrl-step">
+                  <span className="mrl-step-text">
+                    <span className="mrd-kicker">{formatHistoricalDate(event.date)}</span>
+                    <strong>{event.title}</strong>
+                  </span>
+                  <ArrowRight size={18} strokeWidth={1.6} aria-hidden="true" />
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {sources.length > 0 && (
+        <section id="sources" className="mrd-sources">
+          <ul>
+            {sources.map((source, index) => (
+              <li key={index}>
+                <span className="mrd-num">{index + 1}</span>
+                <span className="mrd-source-text">
+                  <p className="mrd-kicker">{joinMeta(source.type, source.year && String(source.year))}</p>
+                  <p>
+                    {source.url ? (
+                      <a href={source.url} target="_blank" rel="noopener noreferrer nofollow">
+                        {source.title}
+                      </a>
+                    ) : (
+                      source.title
                     )}
-                  </div>
-                </div>
-              )}
-              {figure.birthPlace.country && (
-                <div className="meta-item">
-                  <span className="icon-location" />
-                  <div>
-                    <strong>Lieu de naissance:</strong> {figure.birthPlace.location}
-                    {figure.birthPlace.country && (
-                      <>
-                        <br />
-                        <span>{figure.birthPlace.country.nameFr}</span>
-                      </>
-                    )}
-                  </div>
-                </div>
-              )}
-            </div>
-            <div className="figure-roles-list">
-              {figure.role.map((role) => (
-                <span key={role} className="role-badge">
-                  {role}
+                    {source.author && ` — ${source.author}`}
+                  </p>
                 </span>
-              ))}
-            </div>
-          </div>
-        </div>
-
-        <div className="figure-detail-content">
-          <Card className="biography-card">
-            <h2>Biographie</h2>
-            <div className="biography-text">
-              {figure.biography.split('\n').map((paragraph, index) => (
-                <p key={index}>{paragraph}</p>
-              ))}
-            </div>
-          </Card>
-
-          {figure.achievements.length > 0 && (
-            <Card className="achievements-card">
-              <h2>
-                <span className="icon-award" style={{ fontSize: '24px', width: '24px', height: '24px', display: 'inline-block' }} />
-                Réalisations
-              </h2>
-              <ul className="achievements-list">
-                {figure.achievements.map((achievement, index) => (
-                  <li key={index}>{achievement}</li>
-                ))}
-              </ul>
-            </Card>
-          )}
-
-          {figure.quotes.length > 0 && (
-            <Card className="quotes-card">
-              <h2>
-                <span className="icon-quote" style={{ fontSize: '24px', width: '24px', height: '24px', display: 'inline-block' }} />
-                Citations
-              </h2>
-              <div className="quotes-list">
-                {figure.quotes.map((quote, index) => (
-                  <div key={index} className="quote-item">
-                    <blockquote>"{quote.text}"</blockquote>
-                    {quote.context && <p className="quote-context">{quote.context}</p>}
-                    {quote.source && <p className="quote-source">— {quote.source}</p>}
-                    {quote.verified && (
-                      <span className="quote-verified">
-                        <span className="icon-check" style={{ fontSize: '14px', width: '14px', height: '14px', display: 'inline-block' }} />
-                        Vérifié
-                      </span>
-                    )}
-                  </div>
-                ))}
-              </div>
-            </Card>
-          )}
-
-          {figure.legacy && (
-            <Card className="legacy-card">
-              <h2>Héritage</h2>
-              <p>{figure.legacy}</p>
-            </Card>
-          )}
-
-          {figure.culturalImpact && (
-            <Card className="impact-card">
-              <h2>Impact Culturel</h2>
-              <p>{figure.culturalImpact}</p>
-            </Card>
-          )}
-        </div>
-      </div>
-    </Layout>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+    </Lecture>
   )
 }
-

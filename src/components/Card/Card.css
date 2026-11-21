@@ -34,26 +34,26 @@
 .card-default {
   background: var(--color-bg-card, #1a1a1a);
   border: 1px solid var(--color-border, rgba(255, 255, 255, 0.06));
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-float);
 }
 
 [data-theme="light"] .card-default {
   background: #ffffff;
   border-color: rgba(0, 0, 0, 0.06);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  box-shadow: var(--shadow-float);
 }
 
 /* Elevated - Ombre plus prononcée */
 .card-elevated {
   background: var(--color-bg-card, #1a1a1a);
   border: 1px solid var(--color-border, rgba(255, 255, 255, 0.06));
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15), 0 2px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--shadow-float);
 }
 
 [data-theme="light"] .card-elevated {
   background: #ffffff;
   border-color: rgba(0, 0, 0, 0.06);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08), 0 2px 8px rgba(0, 0, 0, 0.02);
+  box-shadow: var(--shadow-float);
 }
 
 /* Outline - Bordure avec fond transparent */
@@ -73,7 +73,7 @@
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid color-mix(in srgb, var(--color-border, rgba(255, 255, 255, 0.06)) 50%, transparent);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  box-shadow: var(--shadow-float);
 }
 
 [data-theme="light"] .card-glass {
@@ -93,35 +93,35 @@
 
 /* Card default hover */
 .card-default.card-hoverable:hover {
-  border-color: var(--color-gold, #d4af37);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(212, 175, 55, 0.08);
+  border-color: var(--color-gold, var(--brand-foret));
+  box-shadow: var(--shadow-float);
 }
 
 [data-theme="light"] .card-default.card-hoverable:hover {
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.06), 0 0 0 1px rgba(212, 175, 55, 0.08);
+  box-shadow: var(--shadow-float);
 }
 
 /* Card elevated hover */
 .card-elevated.card-hoverable:hover {
-  border-color: var(--color-gold, #d4af37);
-  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(212, 175, 55, 0.08);
+  border-color: var(--color-gold, var(--brand-foret));
+  box-shadow: var(--shadow-float);
 }
 
 [data-theme="light"] .card-elevated.card-hoverable:hover {
-  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.06), 0 0 0 1px rgba(212, 175, 55, 0.08);
+  box-shadow: var(--shadow-float);
 }
 
 /* Card outline hover */
 .card-outline.card-hoverable:hover {
-  border-color: var(--color-gold, #d4af37);
-  background: color-mix(in srgb, var(--color-gold, #d4af37) 4%, transparent);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.04);
+  border-color: var(--color-gold, var(--brand-foret));
+  background: color-mix(in srgb, var(--color-gold, var(--brand-foret)) 4%, transparent);
+  box-shadow: var(--shadow-float);
 }
 
 /* Card glass hover */
 .card-glass.card-hoverable:hover {
-  border-color: var(--color-gold, #d4af37);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(212, 175, 55, 0.08);
+  border-color: var(--color-gold, var(--brand-foret));
+  box-shadow: var(--shadow-float);
 }
 
 /* ===== INTERACTIVE ===== */
@@ -132,7 +132,7 @@
 }
 
 .card-interactive:focus {
-  outline: 2px solid var(--color-gold, #d4af37);
+  outline: 2px solid var(--color-gold, var(--brand-foret));
   outline-offset: 2px;
 }
 
@@ -141,7 +141,7 @@
 }
 
 .card-interactive:focus-visible {
-  outline: 2px solid var(--color-gold, #d4af37);
+  outline: 2px solid var(--color-gold, var(--brand-foret));
   outline-offset: 2px;
 }
 
@@ -158,7 +158,7 @@
   left: 0;
   right: 0;
   height: 2px;
-  background: linear-gradient(90deg, transparent, var(--color-gold, #d4af37), transparent);
+  background: var(--color-gold, var(--brand-foret));
   opacity: 0;
   transition: opacity 0.3s ease;
 }
@@ -220,28 +220,22 @@
 
 /* Card avec bordure dorée */
 .card-gold-border {
-  border-color: var(--color-gold, #d4af37);
+  border-color: var(--color-gold, var(--brand-foret));
 }
 
 .card-gold-border::before {
   opacity: 1;
-  background: linear-gradient(90deg, var(--color-gold, #d4af37), var(--color-gold-light, #f4d03f), var(--color-gold, #d4af37));
+  background: var(--color-gold, var(--brand-foret));
 }
 
 /* Card avec fond dégradé */
 .card-gradient {
-  background: linear-gradient(135deg, 
-    color-mix(in srgb, var(--color-gold, #d4af37) 5%, var(--color-bg-card, #1a1a1a)), 
-    color-mix(in srgb, var(--color-forest, #1a472a) 5%, var(--color-bg-card, #1a1a1a))
-  );
+  background: color-mix(in srgb, var(--color-gold, var(--brand-foret)) 5%, var(--color-bg-card, #1a1a1a));
   border-color: transparent;
 }
 
 [data-theme="light"] .card-gradient {
-  background: linear-gradient(135deg, 
-    color-mix(in srgb, var(--color-gold, #d4af37) 5%, #ffffff), 
-    color-mix(in srgb, var(--color-forest, #1a472a) 5%, #ffffff)
-  );
+  background: color-mix(in srgb, var(--color-gold, var(--brand-foret)) 5%, #ffffff);
 }
 
 /* Card avec effet de brillance */

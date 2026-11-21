@@ -47,7 +47,7 @@
 .product-card-admin:hover {
   transform: translateY(-4px);
   border-color: var(--color-primary);
-  box-shadow: 0 12px 32px var(--color-shadow-gold);
+  box-shadow: var(--shadow-float);
 }
 
 .product-image-admin {
@@ -188,8 +188,8 @@
 .featured-badge {
   display: inline-block;
   padding: 0.25rem 0.75rem;
-  background: linear-gradient(135deg, rgba(212, 175, 55, 0.3), rgba(244, 208, 63, 0.2));
-  border: 1px solid rgba(212, 175, 55, 0.5);
+  background: rgb(23 65 35 / 0.3);
+  border: 1px solid rgb(23 65 35 / 0.5);
   border-radius: 12px;
   font-size: 0.75rem;
   font-weight: 600;

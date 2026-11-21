@@ -189,7 +189,7 @@
 
 .auth-field input:focus {
   border-color: var(--color-gold);
-  box-shadow: 0 0 0 4px rgba(212, 175, 55, 0.14);
+  box-shadow: 0 0 0 4px rgb(23 65 35 / 0.14);
 }
 
 .auth-options {
@@ -336,19 +336,19 @@
   cursor: pointer;
   text-align: left;
   font-family: inherit;
-  color: #1a1410;
+  color: var(--brand-foret);
   transition: all 0.2s ease;
 }
 
 .role-option:hover {
-  border-color: #d4af37;
+  border-color: var(--brand-foret);
   background: #ffffff;
 }
 
 .role-option.active {
-  border-color: #d4af37;
-  background: rgba(212, 175, 55, 0.08);
-  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.15);
+  border-color: var(--brand-foret);
+  background: rgb(23 65 35 / 0.08);
+  box-shadow: 0 4px 12px rgb(23 65 35 / 0.15);
 }
 
 .role-option > span {
@@ -377,7 +377,7 @@
   border: 1px solid #e0e0e0;
   font-size: 0.7rem;
   font-weight: 700;
-  color: #1a1410;
+  color: var(--brand-foret);
 }
 
 .role-badge {
@@ -385,8 +385,8 @@
   margin-left: 0.5rem;
   padding: 0.15rem 0.5rem;
   border-radius: 999px;
-  background: #d4af37;
-  color: #1a1410;
+  background: var(--brand-foret);
+  color: var(--brand-foret);
   font-size: 0.65rem;
   font-weight: 800;
   text-transform: uppercase;
@@ -421,14 +421,14 @@
   position: absolute;
   inset: 0;
   width: var(--meter-size, 0%);
-  background: var(--meter-color, #d4af37);
+  background: var(--meter-color, var(--brand-foret));
   transition: width 0.3s ease;
 }
 
 .password-meter small {
   font-size: 0.75rem;
   font-weight: 700;
-  color: #1a1410;
+  color: var(--brand-foret);
   white-space: nowrap;
 }
 
@@ -436,12 +436,12 @@
 .password-meter[data-score='0'],
 .password-meter[data-score='1'] {
   --meter-size: 25%;
-  --meter-color: #e74c3c;
+  --meter-color: var(--brand-terre);
 }
 
 .password-meter[data-score='2'] {
   --meter-size: 50%;
-  --meter-color: #f39c12;
+  --meter-color: var(--brand-ambre);
 }
 
 .password-meter[data-score='3'] {
@@ -451,7 +451,7 @@
 
 .password-meter[data-score='4'] {
   --meter-size: 90%;
-  --meter-color: #27ae60;
+  --meter-color: var(--brand-foret);
 }
 
 .password-meter[data-score='5'] {
@@ -505,7 +505,7 @@
 }
 
 .auth-visibility-toggle:hover {
-  color: #1a1410;
+  color: var(--brand-foret);
 }
 
 /* ===== RESPONSIVE REGISTER ===== */

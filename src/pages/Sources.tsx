@@ -1,10 +1,20 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Link } from 'react-router-dom'
-import { useSearchParams } from 'react-router-dom'
+import type { CSSProperties } from 'react'
+import { Link, useSearchParams } from 'react-router-dom'
+import { ArrowRight, ArrowUpRight, Search } from 'lucide-react'
 import { Layout } from '../components/Layout/Layout'
+import { Dropdown } from '../components/UX/Dropdown'
+import { TypeChips } from '../components/UX/TypeChips'
+import { useParamState } from '../hooks/useParamState'
 import { sourceService } from '../services/api'
 import { foundationSources } from '../data/foundationContent'
+import { joinMeta, listFrom } from '../utils'
+import { countryNameOf, interleaveByRegion, REGION_COLORS, REGION_LABELS, REGION_ORDER, regionOfCode, type Region } from '../utils/afrique'
+import './Rubriques.css'
 import './Sources.css'
+
+// Sources : la bibliothèque de référence de MonBaobab, au style de la refonte (pastilles,
+// cartes blanches arrondies) et lue à l'échelle du continent (filtre par région).
 
 interface Source {
   _id: string
@@ -14,203 +24,210 @@ interface Source {
   publisher?: string
   year?: number
   url?: string
-  language?: string
   reliability?: number
-  citations?: number
   description?: string
-  keywords?: string[]
-  relatedTopics?: string[]
-  relatedCountries?: Array<{ _id: string; id: string; nameFr: string }>
+  relatedCountries?: Array<{ _id?: string; id?: string; nameFr?: string } | string>
 }
 
-const sourceTypes = [
-  { value: '', label: 'Toutes' },
-  { value: 'book', label: 'Livres' },
-  { value: 'archive', label: 'Archives' },
-  { value: 'museum', label: 'Musées' },
-  { value: 'testimony', label: 'Témoignages' },
-  { value: 'video', label: 'Audio/vidéo' },
-  { value: 'website', label: 'Sites' },
-]
+const TYPES = [
+  { key: 'tous', label: 'Toutes' },
+  { key: 'book', label: 'Livres' },
+  { key: 'archive', label: 'Archives' },
+  { key: 'museum', label: 'Musées' },
+  { key: 'testimony', label: 'Témoignages' },
+  { key: 'video', label: 'Audio et vidéo' },
+  { key: 'website', label: 'Sites' },
+] as const
+type TypeKey = (typeof TYPES)[number]['key']
 
-const typeLabels: Record<string, string> = {
+const TYPE_LABELS: Record<string, string> = {
   book: 'Livre',
   article: 'Article',
   document: 'Document',
   archive: 'Archive',
   testimony: 'Témoignage',
   museum: 'Musée',
-  video: 'Audio/vidéo',
+  video: 'Audio et vidéo',
   website: 'Site',
 }
 
+const RELIABILITY = ['3 et plus : contextualisée', '4 et plus : solide', '5 : référence']
+const REGIONS = [{ key: 'partout', label: 'Tout le continent' }, ...REGION_ORDER.map((key) => ({ key, label: REGION_LABELS[key] }))] as const
+type RegionKey = 'partout' | Region
+
+const codesOf = (source: Source) =>
+  (source.relatedCountries || [])
+    .map((country) => (typeof country === 'string' ? country : country.id || ''))
+    .filter(Boolean)
+    .map((code) => code.toUpperCase())
+
 export const Sources = () => {
-  const [searchParams] = useSearchParams()
-  const [sources, setSources] = useState<Source[]>(foundationSources)
-  const [loading, setLoading] = useState(false)
-  const [loadError, setLoadError] = useState('')
-  const [search, setSearch] = useState('')
-  const [type, setType] = useState('')
-  const [minReliability, setMinReliability] = useState('')
-  const country = searchParams.get('country') || ''
+  const [searchParams, setSearchParams] = useSearchParams()
+  const country = (searchParams.get('country') || '').toUpperCase()
+  const [sources, setSources] = useState<Source[]>(foundationSources as Source[])
+  const [status, setStatus] = useState<'chargement' | 'pret' | 'hors-ligne'>('chargement')
+  const [query, setQuery] = useState('')
+  const [reliability, setReliability] = useState('')
+  const [type, setType] = useParamState<TypeKey>('type', 'tous')
+  const [region, setRegion] = useParamState<RegionKey>('region', 'partout')
 
   useEffect(() => {
-    const fetchSources = async () => {
-      try {
-        setLoadError('')
-        const response = await sourceService.getAll({
-          search: search || undefined,
-          type: type || undefined,
-          country: country || undefined,
-          minReliability: minReliability || undefined,
-          limit: 80,
-        })
-        const apiSources = response.data.sources || []
-        setSources(apiSources.length > 0 ? apiSources : foundationSources)
-      } catch (error) {
-        console.error('Erreur lors du chargement des sources:', error)
-        try {
-          const params = new URLSearchParams()
-          if (search) params.set('search', search)
-          if (type) params.set('type', type)
-          if (country) params.set('country', country)
-          if (minReliability) params.set('minReliability', minReliability)
-          params.set('limit', '80')
-          const fallbackResponse = await fetch(`/api/sources?${params.toString()}`)
-          const fallbackData = await fallbackResponse.json()
-          const fallbackSources = fallbackData.sources || []
-          setSources(fallbackSources.length > 0 ? fallbackSources : foundationSources)
-        } catch (fallbackError) {
-          console.error('Fallback sources échoué:', fallbackError)
-          setSources(foundationSources)
-          setLoadError('Les sources n’ont pas pu être chargées. Réessayez dans un instant.')
-        }
-      } finally {
-        setLoading(false)
-      }
+    let cancelled = false
+    sourceService
+      .getAll({ limit: 200 })
+      .then((response) => {
+        if (cancelled) return
+        const list = listFrom(response.data, 'sources') as Source[]
+        if (list.length) setSources(list)
+        setStatus('pret')
+      })
+      .catch(() => !cancelled && setStatus('hors-ligne'))
+    return () => {
+      cancelled = true
     }
+  }, [])
 
-    const timeout = window.setTimeout(fetchSources, 220)
-    return () => window.clearTimeout(timeout)
-  }, [search, type, minReliability, country])
+  const minReliability = reliability ? Number(reliability[0]) : 0
+  const inScope = (source: Source) => {
+    const codes = codesOf(source)
+    return (
+      (!country || codes.includes(country)) &&
+      (region === 'partout' || codes.some((code) => regionOfCode(code) === region)) &&
+      (source.reliability || 0) >= minReliability &&
+      (!query.trim() || `${source.title} ${source.description} ${source.author} ${source.publisher}`.toLowerCase().includes(query.trim().toLowerCase()))
+    )
+  }
 
-  const stats = useMemo(() => {
-    const reliable = sources.filter((source) => (source.reliability || 0) >= 4).length
-    const countries = new Set(sources.flatMap((source) => source.relatedCountries?.map((country) => country.id) || []))
-    return { reliable, countries: countries.size }
-  }, [sources])
+  const scoped = sources.filter(inScope)
+  const visible = interleaveByRegion(
+    scoped.filter((source) => type === 'tous' || source.type === type),
+    (source) => regionOfCode(codesOf(source)[0]),
+  )
+  const counts = Object.fromEntries(TYPES.map(({ key }) => [key, key === 'tous' ? scoped.length : scoped.filter((s) => s.type === key).length])) as Record<TypeKey, number>
+  const regionCounts = Object.fromEntries(
+    REGIONS.map(({ key }) => [key, sources.filter((s) => key === 'partout' || codesOf(s).some((code) => regionOfCode(code) === key)).length]),
+  ) as Record<RegionKey, number>
+
+  const stats = useMemo(
+    () => ({
+      reliable: sources.filter((source) => (source.reliability || 0) >= 4).length,
+      countries: new Set(sources.flatMap(codesOf)).size,
+    }),
+    [sources],
+  )
 
   return (
-    <Layout>
-      <main className="sources-page">
-        <section className="sources-hero">
-          <p className="sources-kicker">Bibliothèque de confiance</p>
-          <h1>Sources, archives et repères pour vérifier la mémoire.</h1>
-          <p>
-            MonBaobab distingue les savoirs sourcés, les traditions orales à contextualiser et
-            les contributions communautaires. Cette bibliothèque sert de colonne vertébrale à la
-            plateforme.
-          </p>
-          <div className="sources-hero-actions">
-            <Link to="/contribute">Proposer une source</Link>
-            <Link to="/map">Explorer par pays</Link>
+    <Layout fullWidth>
+      <div className="msr">
+        <header className="msr-intro">
+          <div>
+            <p className="msr-kicker">Bibliothèque de référence</p>
+            <h1>Des sources pour vérifier la mémoire</h1>
           </div>
-        </section>
+          <div className="msr-intro-side">
+            <p>
+              Ouvrages, archives, musées et témoignages qui fondent les contenus de MonBaobab. Chaque source porte une note de fiabilité,
+              pour distinguer le savoir documenté de la tradition orale à contextualiser.
+            </p>
+            <p className="msr-stats">
+              {sources.length} sources · {stats.reliable} très fiables · {stats.countries} pays
+            </p>
+            <div className="msr-actions">
+              <Link to="/contribute" className="mbr-button">
+                Proposer une source <ArrowRight size={18} aria-hidden="true" />
+              </Link>
+              <Link to="/map" className="mbr-button mbr-button--ghost">
+                Explorer les pays
+              </Link>
+            </div>
+          </div>
+        </header>
+
+        <div className="msr-filters">
+          <TypeChips label="Type de source" options={TYPES} counts={counts} active={type} onChange={setType} />
+          <div className="msr-refine">
+            <Dropdown label="Fiabilité" allLabel="Fiabilité : toutes" value={reliability} options={RELIABILITY} onChange={setReliability} />
+            <label className="msr-search">
+              <Search size={16} strokeWidth={1.6} aria-hidden="true" />
+              <input type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Rechercher une source" aria-label="Rechercher une source" />
+            </label>
+          </div>
+        </div>
+        <div className="msr-regions">
+          <TypeChips label="Région" options={REGIONS} counts={regionCounts} active={region} onChange={setRegion} />
+        </div>
 
         {country && (
-          <div className="sources-country-filter">
-            Sources liées au pays <strong>{country}</strong>
-            <Link to="/sources">Voir toute la bibliothèque</Link>
-          </div>
+          <p className="msr-scope">
+            Sources liées à <strong>{countryNameOf(country) || country}</strong>.{' '}
+            <button
+              type="button"
+              className="msr-link"
+              onClick={() => {
+                const next = new URLSearchParams(searchParams)
+                next.delete('country')
+                setSearchParams(next, { replace: true })
+              }}
+            >
+              Voir toutes les sources
+            </button>
+          </p>
         )}
+        {status === 'hors-ligne' && <p className="msr-scope">La bibliothèque n’est pas joignable pour le moment : voici les sources de référence de la rédaction.</p>}
 
-        <section className="sources-metrics" aria-label="Indicateurs sources">
-          <div>
-            <strong>{loading ? '...' : sources.length}</strong>
-            <span>sources affichées</span>
-          </div>
-          <div>
-            <strong>{loading ? '...' : stats.reliable}</strong>
-            <span>sources très fiables</span>
-          </div>
-          <div>
-            <strong>{loading ? '...' : stats.countries}</strong>
-            <span>pays reliés</span>
-          </div>
-        </section>
-
-        <section className="sources-tools">
-          <input
-            type="search"
-            value={search}
-            onChange={(event) => setSearch(event.target.value)}
-            placeholder="Chercher une source, un thème, une archive..."
-            aria-label="Chercher dans les sources"
-          />
-          <select value={type} onChange={(event) => setType(event.target.value)} aria-label="Filtrer par type">
-            {sourceTypes.map((item) => (
-              <option key={item.value || 'all'} value={item.value}>{item.label}</option>
-            ))}
-          </select>
-          <select value={minReliability} onChange={(event) => setMinReliability(event.target.value)} aria-label="Filtrer par fiabilité">
-            <option value="">Toute fiabilité</option>
-            <option value="3">3+ contextualisée</option>
-            <option value="4">4+ solide</option>
-            <option value="5">5 officielle</option>
-          </select>
-        </section>
-
-        {loading ? (
-          <section className="sources-grid" aria-live="polite" aria-label="Chargement des sources">
-            {Array.from({ length: 8 }).map((_, index) => (
-              <article className="source-card source-card-skeleton" key={index}>
-                <div className="source-card-top"><span /> <strong /></div>
-                <h2 />
-                <p />
-                <p />
-                <div className="source-tags"><span /><span /><span /></div>
-              </article>
-            ))}
-          </section>
-        ) : loadError ? (
-          <div className="sources-loading sources-error">{loadError}</div>
-        ) : sources.length === 0 ? (
-          <div className="sources-loading">Aucune source ne correspond à ce filtre.</div>
+        {visible.length > 0 ? (
+          <ul className="msr-grid">
+            {visible.map((source) => {
+              const codes = codesOf(source)
+              const firstRegion = regionOfCode(codes[0])
+              return (
+                <li key={source._id} className="msr-card" style={{ '--msr-region': firstRegion ? REGION_COLORS[firstRegion] : 'var(--brand-sauge)' } as CSSProperties}>
+                  <p className="msr-card-kicker">
+                    {joinMeta(TYPE_LABELS[source.type] || 'Source', source.reliability && `Fiabilité ${source.reliability}/5`)}
+                  </p>
+                  <h2>{source.title}</h2>
+                  {source.description && <p className="msr-card-text">{source.description}</p>}
+                  <p className="msr-card-meta">{joinMeta(source.author, source.publisher !== source.author && source.publisher, source.year)}</p>
+                  {codes.length > 0 && (
+                    <ul className="msr-countries">
+                      {codes.slice(0, 5).map((code) => (
+                        <li key={code}>
+                          <Link to={`/country/${code.toLowerCase()}`}>{countryNameOf(code) || code}</Link>
+                        </li>
+                      ))}
+                      {codes.length > 5 && <li>+{codes.length - 5}</li>}
+                    </ul>
+                  )}
+                  {source.url && (
+                    <a href={source.url} target="_blank" rel="noopener noreferrer nofollow" className="msr-card-link">
+                      Consulter la source <ArrowUpRight size={16} aria-hidden="true" />
+                    </a>
+                  )}
+                </li>
+              )
+            })}
+          </ul>
         ) : (
-          <section className="sources-grid">
-            {sources.map((source) => (
-              <article className="source-card" key={source._id}>
-                <div className="source-card-top">
-                  <span>{typeLabels[source.type] || source.type}</span>
-                  <strong>Fiabilité {source.reliability || 3}/5</strong>
-                </div>
-                <h2>{source.title}</h2>
-                <p>{source.description}</p>
-                <div className="source-meta">
-                  {[source.author, source.publisher, source.year].filter(Boolean).join(' · ')}
-                </div>
-                {source.relatedCountries && source.relatedCountries.length > 0 && (
-                  <div className="source-countries">
-                    {source.relatedCountries.slice(0, 5).map((country) => (
-                      <Link key={country.id} to={`/country/${country.id}`}>{country.nameFr}</Link>
-                    ))}
-                  </div>
-                )}
-                <div className="source-tags">
-                  {(source.keywords || source.relatedTopics || []).slice(0, 4).map((tag) => (
-                    <span key={tag}>{tag}</span>
-                  ))}
-                </div>
-                {source.url && (
-                  <a className="source-link" href={source.url} target="_blank" rel="noreferrer">
-                    Consulter
-                  </a>
-                )}
-              </article>
-            ))}
-          </section>
+          <p className="msr-empty">
+            Aucune source ne correspond pour l’instant. <Link to="/contribute">Proposer une source</Link>
+          </p>
         )}
-      </main>
+
+        <aside className="msr-scale">
+          <h2>Lire la note de fiabilité</h2>
+          <ol>
+            <li>
+              <strong>5</strong> Référence scientifique ou institutionnelle, recoupée.
+            </li>
+            <li>
+              <strong>4</strong> Source solide, auteur ou institution identifiés.
+            </li>
+            <li>
+              <strong>3</strong> Source utile à contextualiser : tradition orale, témoignage, presse.
+            </li>
+          </ol>
+        </aside>
+      </div>
     </Layout>
   )
 }

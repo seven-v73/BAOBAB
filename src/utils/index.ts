@@ -39,7 +39,7 @@ export const readableQuantity = (value = '') => value.replace(/(\d)M/, '$1 M').r
 /**
  * Assemble une ligne de méta (« Mali · Mémoire · 6 min ») en ignorant les parties vides.
  */
-export const joinMeta = (...parts: Array<string | false | null | undefined>) => parts.filter(Boolean).join(' · ')
+export const joinMeta = (...parts: Array<string | number | false | null | undefined>) => parts.filter(Boolean).join(' · ')
 
 /**
  * Débounce une fonction

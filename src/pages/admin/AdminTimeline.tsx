@@ -7,6 +7,7 @@ import { useNotifications } from '../../hooks/useNotifications'
 import { useConfirmDialog } from '../../components/UX/ConfirmDialog'
 import { Plus, Edit, Trash2, Search, Calendar, MapPin, CheckCircle } from 'lucide-react'
 import './AdminTimeline.css'
+import { formatHistoricalDate } from '../../utils/afrique'
 
 interface TimelineEvent {
   _id: string
@@ -234,7 +235,7 @@ export const AdminTimeline = () => {
                   <td>
                     <div className="table-cell-with-icon">
                       <Calendar size={16} />
-                      {new Date(event.date).toLocaleDateString('fr-FR')}
+                      {formatHistoricalDate(event.date)}
                     </div>
                   </td>
                   <td>{event.period}</td>

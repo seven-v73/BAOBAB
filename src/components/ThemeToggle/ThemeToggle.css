@@ -68,17 +68,17 @@
 
 [data-theme="light"] .theme-toggle-btn,
 .theme-toggle-btn.theme-light {
-  color: #1a1410;
+  color: var(--brand-foret);
 }
 
 [data-theme="dark"] .theme-toggle-btn:hover,
 .theme-toggle-btn.theme-dark:hover {
-  color: var(--color-gold, #d4af37);
+  color: var(--color-gold, var(--brand-foret));
 }
 
 [data-theme="light"] .theme-toggle-btn:hover,
 .theme-toggle-btn.theme-light:hover {
-  color: #b8941f;
+  color: var(--brand-foret-hover);
 }
 
 /* ========================================
@@ -101,9 +101,9 @@
 
 .theme-toggle-wrapper:hover {
   background: var(--color-bg-hover, rgba(255, 255, 255, 0.05));
-  border-color: var(--color-gold, #d4af37);
+  border-color: var(--color-gold, var(--brand-foret));
   transform: translateY(-2px);
-  box-shadow: 0 4px 16px rgba(212, 175, 55, 0.12);
+  box-shadow: 0 4px 16px rgb(23 65 35 / 0.12);
 }
 
 .theme-toggle-wrapper:active {
@@ -143,7 +143,7 @@
    ======================================== */
 
 .theme-toggle-wrapper.glow-on-hover:hover {
-  box-shadow: 0 0 20px rgba(212, 175, 55, 0.2), 0 4px 16px rgba(212, 175, 55, 0.12);
+  box-shadow: 0 0 20px rgb(23 65 35 / 0.2), 0 4px 16px rgb(23 65 35 / 0.12);
 }
 
 /* ========================================

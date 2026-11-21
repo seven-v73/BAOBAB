@@ -42,7 +42,7 @@
   align-items: center;
   gap: 0.75rem;
   margin-bottom: 1.5rem;
-  color: #d4af37;
+  color: var(--brand-foret);
   font-size: 1.5rem;
 }
 
@@ -68,10 +68,10 @@
 .discount-applied {
   margin-top: 1rem;
   padding: 0.75rem;
-  background: rgba(39, 174, 96, 0.1);
-  border: 1px solid rgba(39, 174, 96, 0.3);
+  background: rgb(119 161 98 / 0.1);
+  border: 1px solid rgb(119 161 98 / 0.3);
   border-radius: 8px;
-  color: #27ae60;
+  color: var(--brand-foret);
   font-weight: 600;
 }
 
@@ -92,7 +92,7 @@
 
 .checkout-summary h2 {
   margin-bottom: 1.5rem;
-  color: #d4af37;
+  color: var(--brand-foret);
   font-size: 1.5rem;
 }
 
@@ -121,17 +121,17 @@
 }
 
 .summary-line.discount {
-  color: #27ae60;
+  color: var(--brand-foret);
 }
 
 .summary-total {
   display: flex;
   justify-content: space-between;
   padding-top: 1rem;
-  border-top: 2px solid rgba(212, 175, 55, 0.3);
+  border-top: 2px solid rgb(23 65 35 / 0.3);
   font-size: 1.25rem;
   font-weight: 700;
-  color: #d4af37;
+  color: var(--brand-foret);
 }
 
 .checkout-submit {

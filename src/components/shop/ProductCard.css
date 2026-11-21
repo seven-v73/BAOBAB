@@ -29,7 +29,7 @@
 }
 
 .product-name {
-  color: #d4af37;
+  color: var(--brand-foret);
   font-size: 1.25rem;
   margin: 0;
   flex: 1;
@@ -62,7 +62,7 @@
 }
 
 .price-amount {
-  color: #d4af37;
+  color: var(--brand-foret);
   font-size: 1.5rem;
   font-weight: 700;
 }

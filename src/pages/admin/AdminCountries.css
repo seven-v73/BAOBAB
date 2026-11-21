@@ -21,12 +21,11 @@
 /* Amélioration du contraste pour le titre de section */
 [data-theme="dark"] .admin-section-header h2,
 .admin-section-header h2:not([data-theme]) {
-  color: #d4af37;
-  text-shadow: 0 0 8px rgba(212, 175, 55, 0.3);
+  color: var(--brand-foret);
 }
 
 [data-theme="light"] .admin-section-header h2 {
-  color: #b8941f;
+  color: var(--brand-foret-hover);
 }
 
 .admin-section-header p {
@@ -42,7 +41,7 @@
 }
 
 [data-theme="light"] .admin-section-header p {
-  color: #4d3a2f;
+  color: var(--brand-foret);
 }
 
 .countries-search-bar {
@@ -59,14 +58,14 @@
 /* Amélioration du contraste pour la barre de recherche */
 [data-theme="dark"] .countries-search-bar,
 .countries-search-bar:not([data-theme]) {
-  background: rgba(61, 42, 31, 0.6);
-  border-color: rgba(212, 175, 55, 0.4);
+  background: rgb(23 65 35 / 0.6);
+  border-color: rgb(23 65 35 / 0.4);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 [data-theme="light"] .countries-search-bar {
   background: rgba(255, 255, 255, 0.9);
-  border-color: rgba(212, 175, 55, 0.5);
+  border-color: rgb(23 65 35 / 0.5);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -78,11 +77,11 @@
 /* Amélioration du contraste pour l'icône de recherche */
 [data-theme="dark"] .countries-search-bar svg,
 .countries-search-bar svg:not([data-theme]) {
-  color: #d4af37;
+  color: var(--brand-foret);
 }
 
 [data-theme="light"] .countries-search-bar svg {
-  color: #b8941f;
+  color: var(--brand-foret-hover);
 }
 
 .countries-search-bar input {
@@ -100,7 +99,7 @@
 }
 
 [data-theme="light"] .countries-search-bar input {
-  color: #1a1410;
+  color: var(--brand-foret);
 }
 
 .countries-search-bar input::placeholder {
@@ -191,7 +190,7 @@
   height: 100%;
   min-width: 8px;
   border-radius: inherit;
-  background: linear-gradient(90deg, var(--color-primary), var(--color-gold));
+  background: var(--color-primary);
 }
 
 .completion-chips {
@@ -217,7 +216,7 @@
 .completion-chips span.done {
   color: var(--color-bg);
   border-color: transparent;
-  background: linear-gradient(135deg, var(--color-primary), var(--color-gold));
+  background: var(--color-primary);
 }
 
 .country-form {
@@ -243,22 +242,22 @@
 /* Amélioration du contraste pour les cartes en mode sombre */
 [data-theme="dark"] .country-card-admin,
 .country-card-admin:not([data-theme]) {
-  background: rgba(61, 42, 31, 0.6);
-  border-color: rgba(212, 175, 55, 0.4);
+  background: rgb(23 65 35 / 0.6);
+  border-color: rgb(23 65 35 / 0.4);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 /* Amélioration du contraste pour les cartes en mode clair */
 [data-theme="light"] .country-card-admin {
   background: rgba(255, 255, 255, 0.95);
-  border-color: rgba(212, 175, 55, 0.5);
+  border-color: rgb(23 65 35 / 0.5);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .country-card-admin:hover {
   transform: translateY(-4px);
   border-color: var(--color-primary);
-  box-shadow: 0 12px 32px var(--color-shadow-gold);
+  box-shadow: var(--shadow-float);
 }
 
 /* Desktop editorial workspace */
@@ -369,8 +368,8 @@
   .form-tab.active {
     color: var(--color-bg);
     border-color: transparent;
-    background: linear-gradient(135deg, var(--color-primary), var(--color-gold));
-    box-shadow: 0 12px 28px color-mix(in srgb, var(--color-primary) 18%, transparent);
+    background: var(--color-primary);
+    box-shadow: var(--shadow-float);
   }
 
   .country-form {
@@ -423,29 +422,29 @@
 [data-theme="dark"] .country-actions button,
 .country-actions button:not([data-theme]) {
   background: rgba(255, 255, 255, 0.12) !important;
-  border-color: rgba(212, 175, 55, 0.5) !important;
+  border-color: rgb(23 65 35 / 0.5) !important;
   color: rgba(255, 255, 255, 0.95) !important;
 }
 
 [data-theme="dark"] .country-actions button:hover,
 .country-actions button:hover:not([data-theme]) {
   background: rgba(255, 255, 255, 0.2) !important;
-  border-color: rgba(212, 175, 55, 0.7) !important;
-  color: #d4af37 !important;
+  border-color: rgb(23 65 35 / 0.7) !important;
+  color: var(--brand-foret) !important;
   transform: scale(1.05);
 }
 
 /* Amélioration du contraste pour les boutons d'action en mode clair */
 [data-theme="light"] .country-actions button {
-  background: rgba(45, 31, 26, 0.12) !important;
-  border-color: rgba(212, 175, 55, 0.6) !important;
-  color: #1a1410 !important;
+  background: rgb(23 65 35 / 0.12) !important;
+  border-color: rgb(23 65 35 / 0.6) !important;
+  color: var(--brand-foret) !important;
 }
 
 [data-theme="light"] .country-actions button:hover {
-  background: rgba(45, 31, 26, 0.2) !important;
-  border-color: rgba(212, 175, 55, 0.8) !important;
-  color: #b8941f !important;
+  background: rgb(23 65 35 / 0.2) !important;
+  border-color: rgb(23 65 35 / 0.8) !important;
+  color: var(--brand-foret-hover) !important;
   transform: scale(1.05);
 }
 
@@ -472,7 +471,7 @@
 }
 
 [data-theme="light"] .country-info-admin p {
-  color: #2d1f1a;
+  color: var(--brand-foret);
   font-weight: 500;
 }
 
@@ -483,12 +482,12 @@
 /* Amélioration du contraste pour les labels en gras */
 [data-theme="dark"] .country-info-admin strong,
 .country-info-admin strong:not([data-theme]) {
-  color: #d4af37;
+  color: var(--brand-foret);
   font-weight: 700;
 }
 
 [data-theme="light"] .country-info-admin strong {
-  color: #b8941f;
+  color: var(--brand-foret-hover);
   font-weight: 700;
 }
 
@@ -510,7 +509,7 @@
 }
 
 [data-theme="light"] .country-description-admin {
-  color: #4d3a2f;
+  color: var(--brand-foret);
 }
 
 .country-flag-small-admin {
@@ -550,11 +549,10 @@
 [data-theme="dark"] .country-title-group h4,
 .country-title-group h4:not([data-theme]) {
   color: rgba(255, 255, 255, 1);
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 [data-theme="light"] .country-title-group h4 {
-  color: #1a1410;
+  color: var(--brand-foret);
   font-weight: 800;
 }
 
@@ -572,15 +570,15 @@
 /* Amélioration du contraste pour le code pays */
 [data-theme="dark"] .country-code,
 .country-code:not([data-theme]) {
-  background: rgba(212, 175, 55, 0.2);
-  color: #d4af37;
-  border: 1px solid rgba(212, 175, 55, 0.4);
+  background: rgb(23 65 35 / 0.2);
+  color: var(--brand-foret);
+  border: 1px solid rgb(23 65 35 / 0.4);
 }
 
 [data-theme="light"] .country-code {
-  background: rgba(212, 175, 55, 0.15);
-  color: #b8941f;
-  border: 1px solid rgba(212, 175, 55, 0.5);
+  background: rgb(23 65 35 / 0.15);
+  color: var(--brand-foret-hover);
+  border: 1px solid rgb(23 65 35 / 0.5);
 }
 
 .info-item-admin {
@@ -600,7 +598,7 @@
 }
 
 [data-theme="light"] .info-item-admin {
-  color: #2d1f1a;
+  color: var(--brand-foret);
   font-weight: 500;
 }
 
@@ -612,11 +610,11 @@
 /* Amélioration du contraste pour les icônes */
 [data-theme="dark"] .info-item-admin svg,
 .info-item-admin svg:not([data-theme]) {
-  color: #d4af37;
+  color: var(--brand-foret);
 }
 
 [data-theme="light"] .info-item-admin svg {
-  color: #b8941f;
+  color: var(--brand-foret-hover);
 }
 
 .admin-loading {
@@ -759,9 +757,9 @@
 }
 
 .remove-btn:hover {
-  background: rgba(231, 76, 60, 0.2);
-  border-color: rgba(231, 76, 60, 0.4);
-  color: #e74c3c;
+  background: rgb(217 74 58 / 0.2);
+  border-color: rgb(217 74 58 / 0.4);
+  color: var(--brand-terre);
 }
 
 .form-select {
@@ -955,7 +953,7 @@
   .form-tab.active {
     color: var(--color-bg);
     border-color: transparent;
-    background: linear-gradient(135deg, var(--color-primary), var(--color-gold));
+    background: var(--color-primary);
   }
 
   .section-item-header {
@@ -965,4 +963,35 @@
   .section-item-controls {
     align-self: flex-end;
   }
+}
+
+/* Le nom du pays prend la place restante : les boutons d'action ne le recouvrent plus */
+.country-card-header-admin .country-title-group {
+  flex: 1;
+  min-width: 0;
+}
+
+.country-card-header-admin .country-title-group h4 {
+  margin: 0;
+  font-size: 1.125rem;
+  line-height: 1.2;
+  overflow-wrap: break-word;
+}
+
+.country-card-header-admin {
+  flex-wrap: wrap;
+}
+
+/* Boutons d'action compacts (icône seule) */
+.country-actions .btn {
+  width: 34px;
+  min-height: 34px;
+  padding: 0;
+}
+
+/* Actions sur leur propre ligne, sous le drapeau et le nom */
+.country-card-header-admin > .country-actions {
+  order: 3;
+  width: 100%;
+  margin-left: 0;
 }

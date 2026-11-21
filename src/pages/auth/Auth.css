@@ -87,7 +87,7 @@
 }
 
 [data-theme="light"] .auth-header h1 {
-  color: #1a1410;
+  color: var(--brand-foret);
 }
 
 .auth-subtitle {
@@ -98,7 +98,7 @@
 }
 
 .auth-subtitle strong {
-  color: var(--color-gold, #d4af37);
+  color: var(--color-gold, var(--brand-foret));
   font-weight: 600;
 }
 
@@ -128,15 +128,15 @@
 }
 
 .auth-forgot-link:hover {
-  color: var(--color-gold, #d4af37);
+  color: var(--color-gold, var(--brand-foret));
   text-decoration: underline;
 }
 
 /* ===== ERROR ===== */
 .auth-error {
-  background: rgba(231, 76, 60, 0.06);
-  border: 1px solid rgba(231, 76, 60, 0.12);
-  color: #e74c3c;
+  background: rgb(217 74 58 / 0.06);
+  border: 1px solid rgb(217 74 58 / 0.12);
+  color: var(--brand-terre);
   padding: 0.75rem 1rem;
   border-radius: 10px;
   text-align: center;
@@ -174,7 +174,7 @@
 }
 
 .auth-register-link a {
-  color: var(--color-gold, #d4af37);
+  color: var(--color-gold, var(--brand-foret));
   text-decoration: none;
   font-weight: 600;
   transition: all 0.2s ease;
@@ -198,9 +198,9 @@
   height: 3px;
   background: linear-gradient(90deg, 
     transparent, 
-    var(--color-gold, #d4af37), 
+    var(--color-gold, var(--brand-foret)), 
     var(--color-gold-light, #f4d03f), 
-    var(--color-gold, #d4af37), 
+    var(--color-gold, var(--brand-foret)), 
     transparent
   );
   opacity: 0.7;

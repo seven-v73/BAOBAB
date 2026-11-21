@@ -7,6 +7,7 @@ import { useNotifications } from '../../hooks/useNotifications'
 import { useConfirmDialog } from '../../components/UX/ConfirmDialog'
 import { Plus, Edit, Trash2, Search, User, Calendar, MapPin, CheckCircle } from 'lucide-react'
 import './AdminFigures.css'
+import { formatYear } from '../../utils/afrique'
 
 interface HistoricalFigure {
   _id: string
@@ -243,8 +244,8 @@ export const AdminFigures = () => {
                   <td>
                     <div className="table-cell-with-icon">
                       <Calendar size={16} />
-                      {figure.birthDate ? new Date(figure.birthDate).getFullYear() : '?'}
-                      {figure.deathDate && ` - ${new Date(figure.deathDate).getFullYear()}`}
+                      {figure.birthDate ? formatYear(figure.birthDate) : '?'}
+                      {figure.deathDate && ` – ${formatYear(figure.deathDate)}`}
                     </div>
                   </td>
                   <td>

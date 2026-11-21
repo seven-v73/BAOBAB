@@ -5,7 +5,7 @@
   padding: 1rem 1.25rem;
   background: rgba(255, 255, 255, 0.95);
   border-radius: 12px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--shadow-float);
   min-width: 300px;
   max-width: 500px;
   animation: slideIn 0.3s ease-out;
@@ -24,23 +24,23 @@
 }
 
 .notification-success {
-  border-left-color: #27ae60;
-  color: #27ae60;
+  border-left-color: var(--brand-foret);
+  color: var(--brand-foret);
 }
 
 .notification-error {
-  border-left-color: #e74c3c;
-  color: #e74c3c;
+  border-left-color: var(--brand-terre);
+  color: var(--brand-terre);
 }
 
 .notification-info {
-  border-left-color: #3498db;
-  color: #3498db;
+  border-left-color: var(--brand-abysse);
+  color: var(--brand-abysse);
 }
 
 .notification-warning {
-  border-left-color: #f39c12;
-  color: #f39c12;
+  border-left-color: var(--brand-ambre);
+  color: var(--brand-ambre);
 }
 
 .notification-icon {

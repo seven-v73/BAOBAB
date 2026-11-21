@@ -42,7 +42,7 @@ export const AdminDashboard = () => {
   // Gérer la section depuis l'URL
   useEffect(() => {
     const section = searchParams.get('section') as AdminSection
-    if (section && ['overview', 'countries', 'blog', 'products', 'users', 'settings', 'timeline', 'figures', 'collections', 'quizzes', 'communities', 'sources', 'contributions'].includes(section)) {
+    if (section && ['overview', 'countries', 'blog', 'users', 'settings', 'timeline', 'figures', 'collections', 'sources', 'contributions'].includes(section)) {
       setActiveSection(section)
     }
   }, [searchParams])
@@ -71,14 +71,11 @@ export const AdminDashboard = () => {
     { id: 'overview' as AdminSection, label: 'Vue d\'ensemble', iconClass: 'icon-trending-up' },
     { id: 'countries' as AdminSection, label: 'Pays', iconClass: 'icon-globe' },
     { id: 'blog' as AdminSection, label: 'Blog', iconClass: 'icon-book' },
-    { id: 'products' as AdminSection, label: 'Produits', iconClass: 'icon-shopping' },
     { id: 'timeline' as AdminSection, label: 'Chronologie', iconClass: 'icon-clock' },
     { id: 'figures' as AdminSection, label: 'Personnages', iconClass: 'icon-user' },
     { id: 'collections' as AdminSection, label: 'Collections', iconClass: 'icon-folder-open' },
-    { id: 'quizzes' as AdminSection, label: 'Quiz', iconClass: 'icon-book' },
     { id: 'sources' as AdminSection, label: 'Sources', iconClass: 'icon-file' },
     { id: 'contributions' as AdminSection, label: 'Contributions', iconClass: 'icon-edit' },
-    { id: 'communities' as AdminSection, label: 'Communautés', iconClass: 'icon-users' },
     { id: 'users' as AdminSection, label: 'Utilisateurs', iconClass: 'icon-users' },
     { id: 'settings' as AdminSection, label: 'Paramètres', iconClass: 'icon-settings' },
   ]

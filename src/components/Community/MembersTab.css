@@ -137,11 +137,11 @@
 }
 
 .role-icon.admin {
-  color: #3b82f6;
+  color: var(--brand-abysse);
 }
 
 .role-icon.moderator {
-  color: #10b981;
+  color: var(--brand-foret);
 }
 
 .role-icon.member {
@@ -173,15 +173,15 @@
 }
 
 .member-actions .btn-icon.ban:hover {
-  color: #ef4444;
+  color: var(--brand-terre);
 }
 
 .member-actions .btn-icon.remove:hover {
-  color: #ef4444;
+  color: var(--brand-terre);
 }
 
 .member-actions .btn-icon.unban:hover {
-  color: #10b981;
+  color: var(--brand-foret);
 }
 
 .role-menu-container {

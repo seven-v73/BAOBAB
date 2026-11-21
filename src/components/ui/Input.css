@@ -35,11 +35,11 @@
 }
 
 .input-error {
-  border-color: #e74c3c;
+  border-color: var(--brand-terre);
 }
 
 .input-error-message {
-  color: #e74c3c;
+  color: var(--brand-terre);
   font-size: 0.875rem;
 }
 

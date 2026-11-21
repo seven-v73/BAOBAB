@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Card } from '../../components/Card/Card'
-import { Globe, BookOpen, ShoppingBag, Users, TrendingUp, Eye, ArrowRight } from 'lucide-react'
+import { Globe, BookOpen, Users, Eye, ArrowRight, PenLine } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
 import { countryService, blogService, productService, userService } from '../../services/api'
 import './AdminStats.css'
@@ -56,7 +56,7 @@ export const AdminStats = () => {
         products: Array.isArray(products) ? products.length : 0,
         users: Array.isArray(users) ? users.length : 0,
         totalViews,
-        growth: 12.5, // TODO: Calculer la croissance réelle
+        growth: 0,
       })
     } catch (error) {
       console.error('Erreur lors du chargement des statistiques:', error)
@@ -70,7 +70,6 @@ export const AdminStats = () => {
       label: 'Pays',
       value: stats.countries,
       icon: Globe,
-      color: '#d4af37',
       change: '54 pays africains',
       onClick: () => navigate('/admin?section=countries'),
     },
@@ -78,23 +77,13 @@ export const AdminStats = () => {
       label: 'Articles Blog',
       value: stats.blogPosts,
       icon: BookOpen,
-      color: '#3498db',
       change: 'Articles publiés',
       onClick: () => navigate('/admin?section=blog'),
-    },
-    {
-      label: 'Produits',
-      value: stats.products,
-      icon: ShoppingBag,
-      color: '#27ae60',
-      change: 'En boutique',
-      onClick: () => navigate('/admin?section=products'),
     },
     {
       label: 'Utilisateurs',
       value: stats.users,
       icon: Users,
-      color: '#e74c3c',
       change: 'Inscrits',
       onClick: () => navigate('/admin?section=users'),
     },
@@ -102,15 +91,7 @@ export const AdminStats = () => {
       label: 'Vues Total',
       value: stats.totalViews.toLocaleString(),
       icon: Eye,
-      color: '#9b59b6',
       change: 'Engagement',
-    },
-    {
-      label: 'Croissance',
-      value: `${stats.growth}%`,
-      icon: TrendingUp,
-      color: '#f39c12',
-      change: 'vs mois dernier',
     },
   ]
 
@@ -130,8 +111,8 @@ export const AdminStats = () => {
               onClick={stat.onClick}
             >
               <div className="stat-card-header">
-                <div className="stat-icon-wrapper" style={{ backgroundColor: `${stat.color}20`, borderColor: stat.color }}>
-                  <Icon size={24} style={{ color: stat.color }} />
+                <div className="stat-icon-wrapper" >
+                  <Icon size={24} aria-hidden="true" />
                 </div>
                 <div className="stat-change positive">
                   {stat.change}
@@ -171,10 +152,10 @@ export const AdminStats = () => {
             </button>
             <button 
               className="quick-action-btn"
-              onClick={() => navigate('/admin?section=products')}
+              onClick={() => navigate('/admin?section=contributions')}
             >
-              <ShoppingBag size={20} />
-              <span>Nouveau produit</span>
+              <PenLine size={20} />
+              <span>Relire les contributions</span>
             </button>
             <button 
               className="quick-action-btn"

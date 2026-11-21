@@ -1,0 +1,385 @@
+/* Compléments du gabarit de lecture (RecitDetail.css) pour les contenus de la base :
+ * article du carnet, histoire, dossier, date, personnalité. Mêmes jetons que la maquette. */
+
+.mrd-body--sans-image {
+  padding-top: 8px;
+}
+
+/* Carte claire de la colonne (comme le sommaire) */
+.mrl-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 22px;
+  border-radius: 24px;
+  background: var(--brand-blanc);
+  color: var(--brand-foret);
+}
+
+.mrl-card h2 {
+  margin: 0;
+  font-size: 1.375rem;
+  line-height: 1.2;
+}
+
+.mrl-card p,
+.mrl-card dd {
+  margin: 0;
+  color: var(--brand-foret);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+/* Fiche d'identité : libellé + valeur */
+.mrl-facts {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 16px;
+  margin: 0;
+}
+
+.mrl-facts dt {
+  color: rgb(23 65 35 / 0.65);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.mrl-facts dd {
+  font-weight: 600;
+}
+
+/* Étiquettes (thèmes, rôles) */
+.mrl-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mrl-tags li {
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: var(--brand-vert-pale);
+  color: var(--brand-foret);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+/* Liste à puces sobre dans le corps */
+.mrd-text .mrl-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+  padding-left: 1.2em;
+  color: var(--brand-foret);
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+.mrl-list li::marker {
+  color: var(--brand-sauge);
+}
+
+/* Étapes d'un dossier, contenus liés : lignes cliquables numérotées */
+.mrl-steps {
+  margin: 0;
+  padding: 0 8px;
+  border-radius: 24px;
+  background: var(--brand-blanc);
+  list-style: none;
+}
+
+.mrl-steps li + li {
+  border-top: 1px solid var(--brand-trait);
+}
+
+.mrd .mrl-step {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 12px;
+  color: var(--brand-foret) !important;
+  text-decoration: none;
+}
+
+.mrl-step-text {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.mrl-step-text strong {
+  font-family: var(--font-titre);
+  font-size: 1.125rem;
+  line-height: 1.25;
+}
+
+.mrl-step-text span {
+  color: rgb(23 65 35 / 0.7);
+  font-size: 0.9375rem;
+  line-height: 1.45;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .mrd a.mrl-step:hover strong {
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+  }
+}
+
+/* Bandeau d'information (statut de relecture, avertissement) */
+.mrl-notice {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 16px;
+  padding: 14px 18px;
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--brand-ambre) 22%, var(--brand-blanc));
+  color: var(--brand-foret);
+  font-size: 0.9375rem;
+  line-height: 1.45;
+}
+
+/* Médias joints (images, documents, vidéos) */
+.mrl-media {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mrd .mrl-media button {
+  display: flex !important;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+  min-height: 0 !important;
+  padding: 14px !important;
+  border: 1px solid var(--brand-trait) !important;
+  border-radius: 16px !important;
+  background: var(--brand-blanc) !important;
+  color: var(--brand-foret) !important;
+  font: 600 0.9375rem / 1.3 var(--font-texte) !important;
+  text-align: left;
+  box-shadow: none !important;
+  cursor: pointer;
+}
+
+.mrl-media img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Vignette sans image : fond teinté de la région et courbes de niveau en filigrane */
+.mrl-motif {
+  position: relative;
+  overflow: hidden;
+  background: color-mix(in srgb, var(--mrc-region, var(--brand-sauge)) 12%, var(--brand-vert-pale)) !important;
+  box-shadow: inset 0 6px 0 var(--mrc-region, var(--brand-sauge));
+}
+
+.mrl-motif::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('/Motifs/Fichier%2059.svg') center / 260% no-repeat;
+  opacity: 0.35;
+}
+
+/* Corps d'un article du carnet (ArticleBody) aux couleurs du gabarit */
+.mrd-text .ab {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.mrd-text .ab-h2,
+.mrd-text .ab-h3 {
+  margin: 0;
+  padding-top: 4px;
+  scroll-margin-top: 96px;
+  color: var(--brand-foret);
+  font-family: var(--font-titre);
+  font-weight: 700;
+  text-align: left;
+  letter-spacing: -0.015em;
+}
+
+.mrd-text .ab-h2 {
+  font-size: 1.75rem;
+  line-height: 1.16;
+}
+
+.mrd-text .ab-h2::before,
+.mrd-text .ab-h2::after {
+  content: none;
+}
+
+.mrd-text .ab-h3 {
+  font-size: 1.375rem;
+  line-height: 1.2;
+}
+
+.mrd-text .ab-p {
+  margin: 0;
+  color: var(--brand-foret);
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.mrd-text .ab-quote {
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 12px 0;
+  border: 0;
+  background: none;
+  color: var(--brand-foret);
+  font-family: var(--font-titre);
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.16;
+}
+
+.mrd-text .ab-quote::before {
+  content: '';
+  flex: none;
+  align-self: stretch;
+  width: 4px;
+  border-radius: 2px;
+  background: var(--brand-sauge);
+}
+
+.mrd-text .ab-list {
+  margin: 0;
+  padding-left: 1.2em;
+  color: var(--brand-foret);
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+.mrd-text .ab-cite {
+  margin-left: 2px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: var(--brand-vert-pale);
+  color: var(--brand-foret);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.mrd-text .ab-refs {
+  margin: 0;
+  padding: 8px 20px 8px 40px;
+  border-radius: 24px;
+  background: var(--brand-blanc);
+  color: var(--brand-foret);
+}
+
+.mrd-text .ab-refs li {
+  padding: 12px 0;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+.mrd-text .ab-refs li + li {
+  border-top: 1px solid var(--brand-trait);
+}
+
+.mrd-text .ab-refs__title {
+  display: block;
+  font-weight: 600;
+}
+
+.mrd-text .ab-refs__meta,
+.mrd-text .ab-refs__note {
+  display: block;
+  color: rgb(23 65 35 / 0.7);
+}
+
+.mrd .ab-refs__link {
+  color: var(--brand-abysse) !important;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+/* Liens dans le texte : forêt souligné (plus de liens dorés) */
+.mrd-text a:not(.mrl-step) {
+  color: var(--brand-foret);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.mrl-skeleton {
+  border-radius: 12px;
+  background: var(--brand-vert-pale);
+}
+
+/* Visionneuse (image agrandie, PDF, vidéo) */
+.mrl-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgb(17 17 17 / 0.72);
+}
+
+.mrl-modal > * {
+  max-width: min(1100px, 100%);
+  max-height: 100%;
+}
+
+.mrl-modal img {
+  max-height: 85vh;
+  border-radius: 16px;
+}
+
+@media (max-width: 900px) {
+  .mrd-text .ab-p {
+    font-size: 1.0625rem;
+  }
+
+  .mrd-text .ab-h2,
+  .mrd-text .ab-quote {
+    font-size: 1.375rem;
+  }
+}
+
+/* Image dans le fil du texte (chapitres) */
+.mrd-text .mrl-inline-figure {
+  margin: 8px 0 0;
+  padding: 0;
+}
+
+.mrd-text .mrl-inline-figure img {
+  width: 100%;
+  height: auto;
+  max-height: 520px;
+  border-radius: 24px;
+  object-fit: cover;
+}
+
+.mrl-audio {
+  width: 100%;
+  margin-top: 8px;
+}
+
+.mrd-text section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

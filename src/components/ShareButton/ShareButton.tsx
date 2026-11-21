@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Share } from 'lucide-react'
+import { AtSign, Copy, Facebook, Mail, MessageCircle, QrCode, Share, Share2, X } from 'lucide-react'
 import { useNotifications } from '../../hooks/useNotifications'
 import './ShareButton.css'
 
@@ -107,38 +107,38 @@ export const ShareButton = ({ url, title, description = '', className = '', icon
                 onClick={() => setShowMenu(false)}
                 aria-label="Fermer"
               >
-                <span className="icon-close" />
+                <X size={18} aria-hidden="true" />
               </button>
             </div>
             <div className="share-menu-options">
               {'share' in navigator && (
                 <button className="share-option" onClick={handleNativeShare}>
-                  <span className="icon-share" />
+                  <Share2 size={18} aria-hidden="true" />
                   <span>Partager via...</span>
                 </button>
               )}
               <button className="share-option" onClick={handleFacebook}>
-                <span className="icon-facebook" />
+                <Facebook size={18} aria-hidden="true" />
                 <span>Facebook</span>
               </button>
               <button className="share-option" onClick={handleTwitter}>
-                <span className="icon-twitter" />
+                <AtSign size={18} aria-hidden="true" />
                 <span>Twitter</span>
               </button>
               <button className="share-option" onClick={handleWhatsApp}>
-                <span className="icon-whatsapp" />
+                <MessageCircle size={18} aria-hidden="true" />
                 <span>WhatsApp</span>
               </button>
               <button className="share-option" onClick={handleEmail}>
-                <span className="icon-mail" />
+                <Mail size={18} aria-hidden="true" />
                 <span>Email</span>
               </button>
               <button className="share-option" onClick={handleCopyLink}>
-                <span className="icon-copy" />
+                <Copy size={18} aria-hidden="true" />
                 <span>Copier le lien</span>
               </button>
               <button className="share-option" onClick={handleQRCode}>
-                <span className="icon-qr" />
+                <QrCode size={18} aria-hidden="true" />
                 <span>Code QR</span>
               </button>
             </div>

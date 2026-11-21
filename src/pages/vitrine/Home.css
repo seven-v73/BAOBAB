@@ -25,7 +25,7 @@
 }
 
 .highlight {
-  color: #d4af37;
+  color: var(--brand-foret);
 }
 
 .hero-subtitle {
@@ -56,7 +56,7 @@
 .section-title {
   text-align: center;
   font-size: 2.5rem;
-  color: #d4af37;
+  color: var(--brand-foret);
   margin-bottom: 3rem;
 }
 
@@ -77,7 +77,7 @@
 }
 
 .value-card h3 {
-  color: #d4af37;
+  color: var(--brand-foret);
   margin-bottom: 1rem;
   font-size: 1.5rem;
 }
@@ -109,7 +109,7 @@
 
 .feature-content h2 {
   font-size: 2rem;
-  color: #d4af37;
+  color: var(--brand-foret);
   margin-bottom: 1.5rem;
 }
 
@@ -129,13 +129,13 @@
 .image-placeholder {
   width: 100%;
   height: 300px;
-  background: rgba(212, 175, 55, 0.1);
+  background: rgb(23 65 35 / 0.1);
   border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 5rem;
-  border: 2px dashed rgba(212, 175, 55, 0.3);
+  border: 2px dashed rgb(23 65 35 / 0.3);
 }
 
 @media (max-width: 968px) {

@@ -1,250 +1,208 @@
-import { useState, useEffect } from 'react'
-import { useParams, Link } from 'react-router-dom'
-import { Layout } from '../components/Layout/Layout'
-import { Card } from '../components/Card/Card'
-import { Button } from '../components/Button/Button'
+import { useEffect, useState } from 'react'
+import { Link, useParams } from 'react-router-dom'
+import { ArrowRight, Check } from 'lucide-react'
+import { Lecture, LectureCard, LectureEmpty, LectureSkeleton } from '../components/Lecture/Lecture'
 import { collectionService } from '../services/api'
 import { useAuthStore } from '../stores/authStore'
 import { useNotifications } from '../hooks/useNotifications'
-import './CollectionDetail.css'
 import { useSeo } from '../seo/useSeo'
+import { joinMeta } from '../utils'
+import { findCountryCodes, formatHistoricalDate, placeOf } from '../utils/afrique'
+
+// Dossier : une suite d'étapes (dates, personnalités, histoires, articles, pays) dans le
+// gabarit de lecture de la refonte.
 
 interface CollectionItem {
   type: string
   itemId: any
   order: number
-  notes: string
+  notes?: string
 }
 
 interface Collection {
   _id: string
   title: string
-  description: string
-  coverImage: string
-  theme: string[]
-  difficulty: string
-  estimatedTime: number
+  description?: string
+  shortDescription?: string
+  coverImage?: string
+  theme?: string[]
+  tags?: string[]
+  estimatedTime?: number
   items: CollectionItem[]
-  curator: {
-    _id: string
-    name: string
+  curator?: { name?: string }
+}
+
+const TYPE_LABELS: Record<string, string> = {
+  country: 'Pays',
+  blog: 'Article',
+  event: 'Date',
+  figure: 'Personnalité',
+  story: 'Histoire',
+}
+
+const linkOf = (item: CollectionItem) => {
+  const target = item.itemId
+  if (!target) return null
+  switch (item.type) {
+    case 'country':
+      return `/country/${String(target.id || target._id).toLowerCase()}`
+    case 'blog':
+      return `/blog/${target._id}`
+    case 'event':
+      return `/timeline/${target._id}`
+    case 'figure':
+      return `/figures/${target._id}`
+    case 'story':
+      return `/stories/${target._id}`
+    default:
+      return null
   }
 }
+
+const titleOf = (item: CollectionItem) => {
+  const target = item.itemId
+  if (!target) return 'Contenu retiré'
+  return target.nameFr || target.name || target.title || 'Sans titre'
+}
+
+const back = { to: '/recits?type=dossiers', label: 'Retour aux dossiers' }
 
 export const CollectionDetail = () => {
   const { id } = useParams<{ id: string }>()
   const { isAuthenticated } = useAuthStore()
-  const { success, showError } = useNotifications()
+  const { success, error: showError } = useNotifications()
   const [collection, setCollection] = useState<Collection | null>(null)
-  useSeo(collection ? { title: collection.title, description: collection.description, image: collection.coverImage } : null)
   const [loading, setLoading] = useState(true)
-  const [currentItemIndex, setCurrentItemIndex] = useState(0)
+  const [done, setDone] = useState(false)
+
+  useSeo(collection ? { title: collection.title, description: collection.shortDescription || collection.description, image: collection.coverImage } : null)
 
   useEffect(() => {
-    if (id) {
-      fetchCollection()
+    if (!id) return
+    let cancelled = false
+    setLoading(true)
+    collectionService
+      .getById(id)
+      .then((response) => !cancelled && setCollection(response.data))
+      .catch(() => !cancelled && setCollection(null))
+      .finally(() => !cancelled && setLoading(false))
+    return () => {
+      cancelled = true
     }
   }, [id])
 
-  const fetchCollection = async () => {
-    try {
-      setLoading(true)
-      const response = await collectionService.getById(id!)
-      setCollection(response.data)
-    } catch (error) {
-      console.error('Erreur lors du chargement de la collection:', error)
-      showError('Erreur lors du chargement de la collection')
-    } finally {
-      setLoading(false)
-    }
-  }
-
-  const handleComplete = async () => {
-    if (!isAuthenticated) {
-      showError('Vous devez être connecté pour compléter une collection')
-      return
-    }
-
-    try {
-      await collectionService.complete(id!)
-      success('Collection complétée avec succès !')
-    } catch (error: any) {
-      showError(error.response?.data?.error || 'Erreur lors de la complétion')
-    }
-  }
-
-  const getItemLink = (item: CollectionItem) => {
-    switch (item.type) {
-      case 'country':
-        return `/country/${item.itemId.id || item.itemId._id}`
-      case 'blog':
-        return `/blog/${item.itemId._id}`
-      case 'event':
-        return `/timeline/${item.itemId._id}`
-      case 'figure':
-        return `/figures/${item.itemId._id}`
-      case 'story':
-        return `/stories/${item.itemId._id}`
-      default:
-        return '#'
-    }
-  }
-
-  const getItemTitle = (item: CollectionItem) => {
-    if (!item.itemId) return 'Contenu non disponible'
-    switch (item.type) {
-      case 'country':
-        return item.itemId.nameFr || item.itemId.name
-      case 'blog':
-        return item.itemId.title
-      case 'event':
-        return item.itemId.title
-      case 'figure':
-        return item.itemId.name
-      case 'story':
-        return item.itemId.title
-      default:
-        return 'Titre non disponible'
-    }
-  }
-
-  if (loading) {
-    return (
-      <Layout>
-        <div className="collection-detail-loading">
-          <p>Chargement...</p>
-        </div>
-      </Layout>
-    )
-  }
-
+  if (loading) return <LectureSkeleton />
   if (!collection) {
     return (
-      <Layout>
-        <div className="collection-detail-not-found">
-          <h1>Collection non trouvée</h1>
-          <Link to="/collections">
-            <Button>Retour aux collections</Button>
-          </Link>
-        </div>
-      </Layout>
+      <LectureEmpty back={back}>
+        <h1>Ce dossier est introuvable</h1>
+        <p>Il a peut-être été retiré ou déplacé.</p>
+      </LectureEmpty>
     )
   }
 
-  const sortedItems = [...collection.items].sort((a, b) => a.order - b.order)
-  const currentItem = sortedItems[currentItemIndex]
+  const items = [...(collection.items || [])].sort((a, b) => a.order - b.order)
+  const place = placeOf(findCountryCodes(collection.tags, collection.title, collection.shortDescription, items.map(titleOf)))
+
+  const complete = async () => {
+    if (!isAuthenticated) {
+      showError('Connectez-vous pour garder ce dossier dans votre parcours.')
+      return
+    }
+    try {
+      await collectionService.complete(collection._id)
+      setDone(true)
+      success('Dossier ajouté à votre parcours.')
+    } catch (err) {
+      showError((err as { response?: { data?: { error?: string } } }).response?.data?.error || 'Enregistrement impossible pour le moment.')
+    }
+  }
 
   return (
-    <Layout>
-      <div className="collection-detail-page">
-        <Link to="/collections" className="back-link">
-          <span className="icon-arrow-left" style={{ fontSize: '20px', width: '20px', height: '20px', display: 'inline-block' }} />
-          Retour aux collections
-        </Link>
-
-        <div className="collection-detail-hero">
-          <div className="collection-hero-cover">
-            {collection.coverImage ? (
-              <img src={collection.coverImage} alt={collection.title} />
-            ) : (
-              <div className="collection-hero-placeholder">
-                <span className="icon-book" style={{ fontSize: '64px', width: '64px', height: '64px', display: 'inline-block' }} />
-              </div>
-            )}
-          </div>
-          <div className="collection-hero-info">
-            <div className="collection-themes">
+    <Lecture
+      back={back}
+      kicker={joinMeta('Dossier', collection.theme?.[0], collection.estimatedTime && `${collection.estimatedTime} min`)}
+      title={collection.title}
+      lead={collection.shortDescription || undefined}
+      byline={{ name: collection.curator?.name, detail: `${items.length} étape${items.length > 1 ? 's' : ''}` }}
+      bookmark={{ itemType: 'collection', itemId: collection._id }}
+      shareUrl={`/collections/${collection._id}`}
+      image={collection.coverImage ? { src: collection.coverImage } : undefined}
+      place={place.codes.length ? place : undefined}
+      toc={[
+        ...(collection.description ? [{ id: 'presentation', label: 'Présentation' }] : []),
+        { id: 'etapes', label: 'Les étapes' },
+      ]}
+      tocLabel="Dans ce dossier"
+      currentRecitId={`collection-${collection._id}`}
+      aside={
+        collection.theme && collection.theme.length > 0 ? (
+          <LectureCard kicker="Thèmes">
+            <ul className="mrl-tags">
               {collection.theme.map((theme) => (
-                <span key={theme} className="theme-badge">
-                  {theme}
-                </span>
+                <li key={theme}>{theme}</li>
               ))}
-            </div>
-            <h1>{collection.title}</h1>
-            <p className="collection-description">{collection.description}</p>
-            <div className="collection-hero-meta">
-              <div className="meta-item">
-                <span className="icon-clock" style={{ fontSize: '18px', width: '18px', height: '18px', display: 'inline-block' }} />
-                <span>{collection.estimatedTime} minutes de lecture</span>
-              </div>
-              <div className="meta-item">
-                <span>Niveau: {collection.difficulty}</span>
-              </div>
-              {collection.curator && (
-                <div className="meta-item">
-                  <span>Curateur: {collection.curator.name}</span>
-                </div>
-              )}
-            </div>
-            {isAuthenticated && (
-              <Button onClick={handleComplete} style={{ marginTop: '1rem' }}>
-                <span className="icon-check" style={{ fontSize: '18px', width: '18px', height: '18px', display: 'inline-block' }} />
-                Marquer comme complété
-              </Button>
-            )}
-          </div>
-        </div>
-
-        <div className="collection-items-section">
-          <h2>Contenu de la collection ({sortedItems.length} éléments)</h2>
-          <div className="collection-items-list">
-            {sortedItems.map((item, index) => (
-              <Card
-                key={index}
-                className={`collection-item-card ${index === currentItemIndex ? 'active' : ''}`}
-                onClick={() => setCurrentItemIndex(index)}
-              >
-                <div className="item-number">{index + 1}</div>
-                <div className="item-content">
-                  <h3>{getItemTitle(item)}</h3>
-                  {item.notes && <p className="item-notes">{item.notes}</p>}
-                </div>
-                <Link to={getItemLink(item)} onClick={(e) => e.stopPropagation()}>
-                  <Button variant="outline" size="small">
-                    Voir <span className="icon-arrow-right" style={{ fontSize: '16px', width: '16px', height: '16px', display: 'inline-block' }} />
-                  </Button>
-                </Link>
-              </Card>
+            </ul>
+          </LectureCard>
+        ) : undefined
+      }
+    >
+      {collection.description && (
+        <section id="presentation">
+          {collection.description
+            .split(/\n+/)
+            .filter(Boolean)
+            .map((text, index) => (
+              <p key={index}>{text}</p>
             ))}
-          </div>
-        </div>
+        </section>
+      )}
 
-        {currentItem && (
-          <div className="collection-current-item">
-            <Card>
-              <h3>Élément {currentItemIndex + 1} sur {sortedItems.length}</h3>
-              <h4>{getItemTitle(currentItem)}</h4>
-              {currentItem.notes && <p>{currentItem.notes}</p>}
-              <div className="navigation-buttons">
-                {currentItemIndex > 0 && (
-                  <Button
-                    variant="outline"
-                    onClick={() => setCurrentItemIndex(currentItemIndex - 1)}
-                  >
-                    <span className="icon-arrow-left" style={{ fontSize: '18px', width: '18px', height: '18px', display: 'inline-block' }} />
-                    Précédent
-                  </Button>
+      <section id="etapes">
+        <h2>Les étapes</h2>
+        <ol className="mrl-steps">
+          {items.map((item, index) => {
+            const to = linkOf(item)
+            const date = item.type === 'event' ? formatHistoricalDate(item.itemId?.date) : ''
+            const content = (
+              <>
+                <span className="mrd-num">{index + 1}</span>
+                <span className="mrl-step-text">
+                  <span className="mrd-kicker">{joinMeta(TYPE_LABELS[item.type] || 'Contenu', date)}</span>
+                  <strong>{titleOf(item)}</strong>
+                  {(item.notes || item.itemId?.shortDescription) && <span>{item.notes || item.itemId?.shortDescription}</span>}
+                </span>
+                {to && <ArrowRight size={18} strokeWidth={1.6} aria-hidden="true" />}
+              </>
+            )
+            return (
+              <li key={index}>
+                {to ? (
+                  <Link to={to} className="mrl-step">
+                    {content}
+                  </Link>
+                ) : (
+                  <div className="mrl-step">{content}</div>
                 )}
-                <Link to={getItemLink(currentItem)}>
-                  <Button>
-                    Voir le contenu <span className="icon-arrow-right" style={{ fontSize: '18px', width: '18px', height: '18px', display: 'inline-block' }} />
-                  </Button>
-                </Link>
-                {currentItemIndex < sortedItems.length - 1 && (
-                  <Button
-                    variant="outline"
-                    onClick={() => setCurrentItemIndex(currentItemIndex + 1)}
-                  >
-                    Suivant
-                    <span className="icon-arrow-right" style={{ fontSize: '18px', width: '18px', height: '18px', display: 'inline-block' }} />
-                  </Button>
-                )}
-              </div>
-            </Card>
-          </div>
-        )}
-      </div>
-    </Layout>
+              </li>
+            )
+          })}
+        </ol>
+      </section>
+
+      <section className="mrd-fact">
+        <p className="mrd-kicker">Fin du dossier</p>
+        <p>Vous avez parcouru toutes les étapes ? Gardez ce dossier dans votre parcours.</p>
+        <button type="button" className="mbr-button" onClick={complete} disabled={done}>
+          {done ? (
+            <>
+              <Check size={18} aria-hidden="true" /> Dans votre parcours
+            </>
+          ) : (
+            'J’ai parcouru ce dossier'
+          )}
+        </button>
+      </section>
+    </Lecture>
   )
 }
-

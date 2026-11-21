@@ -24,15 +24,15 @@
 /* Amélioration du contraste pour les cartes en mode sombre */
 [data-theme="dark"] .stat-card-admin,
 .stat-card-admin:not([data-theme]) {
-  background: rgba(61, 42, 31, 0.6);
-  border-color: rgba(212, 175, 55, 0.4);
+  background: rgb(23 65 35 / 0.6);
+  border-color: rgb(23 65 35 / 0.4);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 /* Amélioration du contraste pour les cartes en mode clair */
 [data-theme="light"] .stat-card-admin {
   background: rgba(255, 255, 255, 0.95);
-  border-color: rgba(212, 175, 55, 0.5);
+  border-color: rgb(23 65 35 / 0.5);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -43,7 +43,7 @@
 .stat-card-admin.clickable:hover {
   transform: translateY(-6px);
   border-color: var(--color-primary);
-  box-shadow: 0 16px 40px var(--color-shadow-gold);
+  box-shadow: var(--shadow-float);
 }
 
 .stat-card-footer {
@@ -62,20 +62,20 @@
 /* Amélioration du contraste pour le footer en mode sombre */
 [data-theme="dark"] .stat-card-footer,
 .stat-card-footer:not([data-theme]) {
-  color: #d4af37;
-  border-top-color: rgba(212, 175, 55, 0.4);
+  color: var(--brand-foret);
+  border-top-color: rgb(23 65 35 / 0.4);
 }
 
 /* Amélioration du contraste pour le footer en mode clair */
 [data-theme="light"] .stat-card-footer {
-  color: #b8941f;
-  border-top-color: rgba(212, 175, 55, 0.5);
+  color: var(--brand-foret-hover);
+  border-top-color: rgb(23 65 35 / 0.5);
 }
 
 .stat-card-admin:hover {
   transform: translateY(-4px);
   border-color: var(--color-primary);
-  box-shadow: 0 12px 32px var(--color-shadow-gold);
+  box-shadow: var(--shadow-float);
 }
 
 .stat-card-header {
@@ -114,23 +114,23 @@
 }
 
 .stat-change.positive {
-  background: rgba(39, 174, 96, 0.3);
-  color: #27ae60;
-  border: 1px solid rgba(39, 174, 96, 0.4);
+  background: rgb(119 161 98 / 0.3);
+  color: var(--brand-foret);
+  border: 1px solid rgb(119 161 98 / 0.4);
 }
 
 /* Amélioration du contraste pour les badges de changement */
 [data-theme="dark"] .stat-change.positive,
 .stat-change.positive:not([data-theme]) {
-  background: rgba(39, 174, 96, 0.4);
+  background: rgb(119 161 98 / 0.4);
   color: #2ecc71;
-  border-color: rgba(39, 174, 96, 0.6);
+  border-color: rgb(119 161 98 / 0.6);
 }
 
 [data-theme="light"] .stat-change.positive {
-  background: rgba(39, 174, 96, 0.25);
-  color: #27ae60;
-  border-color: rgba(39, 174, 96, 0.5);
+  background: rgb(119 161 98 / 0.25);
+  color: var(--brand-foret);
+  border-color: rgb(119 161 98 / 0.5);
 }
 
 .stat-card-body {
@@ -151,12 +151,11 @@
 [data-theme="dark"] .stat-value,
 .stat-value:not([data-theme]) {
   color: rgba(255, 255, 255, 1);
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 /* Amélioration du contraste pour les valeurs en mode clair */
 [data-theme="light"] .stat-value {
-  color: #1a1410;
+  color: var(--brand-foret);
   font-weight: 900;
 }
 
@@ -176,7 +175,7 @@
 
 /* Amélioration du contraste pour les labels en mode clair */
 [data-theme="light"] .stat-label {
-  color: #2d1f1a;
+  color: var(--brand-foret);
   font-weight: 600;
 }
 
@@ -202,12 +201,11 @@
 /* Amélioration du contraste pour le titre des actions rapides */
 [data-theme="dark"] .quick-actions-card h3,
 .quick-actions-card h3:not([data-theme]) {
-  color: #d4af37;
-  text-shadow: 0 0 8px rgba(212, 175, 55, 0.3);
+  color: var(--brand-foret);
 }
 
 [data-theme="light"] .quick-actions-card h3 {
-  color: #b8941f;
+  color: var(--brand-foret-hover);
 }
 
 .quick-actions-grid {
@@ -237,15 +235,15 @@
 [data-theme="dark"] .quick-action-btn,
 .quick-action-btn:not([data-theme]) {
   background: rgba(255, 255, 255, 0.12);
-  border-color: rgba(212, 175, 55, 0.4);
+  border-color: rgb(23 65 35 / 0.4);
   color: rgba(255, 255, 255, 0.95);
   font-weight: 600;
 }
 
 [data-theme="light"] .quick-action-btn {
-  background: rgba(45, 31, 26, 0.15);
-  border-color: rgba(212, 175, 55, 0.5);
-  color: #1a1410;
+  background: rgb(23 65 35 / 0.15);
+  border-color: rgb(23 65 35 / 0.5);
+  color: var(--brand-foret);
   font-weight: 600;
 }
 
@@ -253,7 +251,7 @@
   background: var(--color-bg-hover);
   border-color: var(--color-primary);
   transform: translateY(-2px);
-  box-shadow: 0 8px 16px var(--color-shadow-gold);
+  box-shadow: var(--shadow-float);
 }
 
 .quick-action-btn svg {
@@ -264,11 +262,11 @@
 /* Amélioration du contraste pour les icônes des boutons */
 [data-theme="dark"] .quick-action-btn svg,
 .quick-action-btn svg:not([data-theme]) {
-  color: #d4af37;
+  color: var(--brand-foret);
 }
 
 [data-theme="light"] .quick-action-btn svg {
-  color: #b8941f;
+  color: var(--brand-foret-hover);
 }
 
 @media (max-width: 768px) {

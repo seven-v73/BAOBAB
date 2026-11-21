@@ -129,21 +129,21 @@
 }
 
 .settings-tab .btn-danger {
-  background: #ef4444;
+  background: var(--brand-terre);
   color: white;
 }
 
 .settings-tab .btn-danger:hover:not(:disabled) {
-  background: #dc2626;
+  background: var(--brand-terre);
 }
 
 .danger-zone {
-  border-color: #ef4444;
-  background: rgba(239, 68, 68, 0.05);
+  border-color: var(--brand-terre);
+  background: rgb(217 74 58 / 0.05);
 }
 
 .danger-zone h3 {
-  color: #ef4444;
+  color: var(--brand-terre);
 }
 
 .danger-actions {
@@ -152,8 +152,8 @@
 
 .delete-confirm {
   padding: 1.5rem;
-  background: rgba(239, 68, 68, 0.1);
-  border: 1px solid #ef4444;
+  background: rgb(217 74 58 / 0.1);
+  border: 1px solid var(--brand-terre);
   border-radius: 0.5rem;
   margin-top: 1rem;
 }
@@ -164,14 +164,14 @@
 }
 
 .warning-icon {
-  color: #ef4444;
+  color: var(--brand-terre);
   margin-bottom: 0.5rem;
 }
 
 .delete-input {
   width: 100%;
   padding: 0.75rem;
-  border: 1px solid #ef4444;
+  border: 1px solid var(--brand-terre);
   background: var(--color-bg);
   color: var(--color-text);
   border-radius: 0.5rem;
@@ -189,10 +189,10 @@
   align-items: center;
   gap: 0.5rem;
   padding: 1rem;
-  background: rgba(239, 68, 68, 0.1);
-  border: 1px solid #ef4444;
+  background: rgb(217 74 58 / 0.1);
+  border: 1px solid var(--brand-terre);
   border-radius: 0.5rem;
-  color: #ef4444;
+  color: var(--brand-terre);
 }
 
 @media (max-width: 768px) {

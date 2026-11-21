@@ -20,7 +20,6 @@
   color: var(--accent);
   font-size: 2rem;
   margin: 0 0 0.5rem 0;
-  text-shadow: 0 2px 8px rgba(212, 175, 55, 0.3);
 }
 
 .admin-section-header p {
@@ -48,7 +47,7 @@
 
 .quiz-admin-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-float);
   border-color: var(--color-primary);
 }
 
@@ -82,28 +81,28 @@
 }
 
 .difficulty-badge.beginner {
-  background: rgba(16, 185, 129, 0.1);
-  color: #10b981;
-  border: 1px solid #10b981;
+  background: rgb(119 161 98 / 0.1);
+  color: var(--brand-foret);
+  border: 1px solid var(--brand-foret);
 }
 
 .difficulty-badge.intermediate {
   background: rgba(245, 158, 11, 0.1);
-  color: #f59e0b;
-  border: 1px solid #f59e0b;
+  color: var(--brand-ambre);
+  border: 1px solid var(--brand-ambre);
 }
 
 .difficulty-badge.advanced {
-  background: rgba(239, 68, 68, 0.1);
-  color: #ef4444;
-  border: 1px solid #ef4444;
+  background: rgb(217 74 58 / 0.1);
+  color: var(--brand-terre);
+  border: 1px solid var(--brand-terre);
 }
 
 .active-badge {
   padding: 0.25rem 0.75rem;
-  background: rgba(16, 185, 129, 0.1);
-  color: #10b981;
-  border: 1px solid #10b981;
+  background: rgb(119 161 98 / 0.1);
+  color: var(--brand-foret);
+  border: 1px solid var(--brand-foret);
   border-radius: 12px;
   font-size: 0.75rem;
   font-weight: 700;
@@ -215,7 +214,7 @@
 .form-textarea:focus {
   outline: none;
   border-color: var(--color-primary);
-  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
+  box-shadow: 0 0 0 3px rgb(23 65 35 / 0.1);
 }
 
 .form-select {
@@ -232,7 +231,7 @@
 .form-select:focus {
   outline: none;
   border-color: var(--color-primary);
-  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
+  box-shadow: 0 0 0 3px rgb(23 65 35 / 0.1);
 }
 
 .question-form {
@@ -281,7 +280,7 @@
 }
 
 .tf-option.selected {
-  background: linear-gradient(135deg, var(--color-primary) 0%, #b8941f 100%);
+  background: var(--color-primary);
   color: white;
   border-color: var(--color-primary);
 }

@@ -1,138 +1,217 @@
-.search-results {
-  padding: clamp(1.25rem, 4vw, 3rem);
-  max-width: 1320px;
-  margin: 0 auto;
+/* Recherche : mêmes jetons et composants que les rubriques de la refonte. */
+
+.mse {
+  --readable-text: var(--brand-foret);
+  --mse-pad: clamp(20px, 8.3vw, 120px);
+  --mse-region: var(--brand-sauge);
+  flex: 1;
+  padding-bottom: 120px;
+  background: var(--brand-creme);
+  color: var(--brand-foret);
+  font-family: var(--font-texte);
 }
 
-.search-results-header {
-  margin-bottom: 2rem;
-  padding: clamp(1.25rem, 3vw, 2rem);
-  border: 1px solid var(--readable-border, var(--color-border));
-  border-radius: 8px;
-  background: var(--readable-surface, var(--color-bg-card));
+.mse h1,
+.mse h2 {
+  margin: 0;
+  color: var(--brand-foret);
+  font-family: var(--font-titre);
+  font-weight: 700;
 }
 
-.search-results-header h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.search-query {
-  color: var(--color-text-secondary);
-  font-size: 1.1rem;
-}
-
-.search-type-tabs {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.55rem;
-  margin-top: 1.25rem;
-}
-
-.search-type-tabs a {
-  min-height: 40px;
-  display: inline-flex;
-  align-items: center;
-  padding: 0.55rem 0.85rem;
-  border: 1px solid var(--readable-border, var(--color-border));
-  border-radius: 999px;
-  background: var(--readable-surface-soft, rgba(255, 255, 255, 0.06));
-  color: var(--readable-text, var(--color-text));
-  font-weight: 800;
-  text-decoration: none;
-}
-
-.search-type-tabs a.active,
-.search-type-tabs a:hover {
-  background: var(--button-primary-bg);
-  color: var(--button-primary-text);
-  border-color: var(--button-primary-border);
-}
-
-.search-loading,
-.search-empty {
-  text-align: center;
-  padding: 4rem 2rem;
-  color: var(--color-text-secondary);
-}
-
-.search-results-content {
+.mse-intro {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 24px;
+  padding: 56px var(--mse-pad) 32px;
 }
 
-.search-section h2 {
-  font-size: 1.75rem;
-  margin: 0;
-  color: var(--color-text);
+.mse-intro h1 {
+  --human-title-line: 1.06;
+  max-width: 900px;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.06;
+  letter-spacing: -0.025em;
 }
 
-.search-section-header {
+.mse-form {
   display: flex;
-  justify-content: space-between;
-  gap: 1rem;
   align-items: center;
-  margin-bottom: 1rem;
+  gap: 10px;
+  max-width: 640px;
+  padding: 6px 6px 6px 20px;
+  border-radius: 999px;
+  background: var(--brand-blanc);
+  color: var(--brand-foret);
 }
 
-.search-section-header a {
-  color: var(--accent);
-  font-weight: 850;
-  text-decoration: none;
-  white-space: nowrap;
+.mse-form:focus-within {
+  outline: 2px solid var(--brand-foret);
+  outline-offset: 2px;
 }
 
-.search-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.5rem;
-}
-
-.search-item {
-  padding: 1.5rem;
-  border-radius: 8px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.search-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(212, 175, 55, 0.2);
-}
-
-.search-item h3 {
-  margin: 0 0 0.5rem 0;
-  color: var(--color-text);
-  line-height: 1.25;
-  overflow-wrap: anywhere;
-}
-
-.search-item p {
-  margin: 0;
-  color: var(--color-text-secondary);
-}
-
-.search-item a {
-  text-decoration: none;
+.mse-form input {
+  flex: 1;
+  min-width: 0;
+  border: 0;
+  background: none;
   color: inherit;
+  font: 500 1rem / 1.4 var(--font-texte);
 }
 
-.search-item span {
-  display: inline-flex;
-  margin-bottom: 0.75rem;
-  color: var(--accent);
-  font-size: 0.78rem;
-  font-weight: 900;
+.mse-form input:focus {
+  outline: none;
+}
+
+.mse .mse-form .mbr-button {
+  margin: 0;
+  min-height: 44px;
+}
+
+.mse-filters {
+  padding: 0 var(--mse-pad) 32px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.mse-filters .mbr-chips {
+  flex-wrap: nowrap;
+}
+
+.mse-state {
+  margin: 0 var(--mse-pad);
+  padding: 32px 0;
+  font-size: 1.0625rem;
+}
+
+.mse-state a {
+  color: var(--brand-foret);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.mse-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 var(--mse-pad) 56px;
+}
+
+.mse-section h2 {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-size: 1.75rem;
+}
+
+.mse-section h2 span {
+  color: rgb(23 65 35 / 0.55);
+  font-family: var(--font-texte);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.mse-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mse .mse-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 100%;
+  padding: 22px 48px 20px 22px;
+  border-radius: 24px;
+  background: var(--brand-blanc);
+  box-shadow: inset 0 4px 0 var(--mse-region);
+  color: var(--brand-foret);
+  text-decoration: none;
+  transition: transform 150ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .mse .mse-card:hover {
+    transform: translateY(-2px);
+  }
+}
+
+.mse .mse-card:focus-visible {
+  outline: 2px solid var(--brand-foret);
+  outline-offset: 2px;
+}
+
+.mse-kicker {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
 }
 
-@media (max-width: 680px) {
-  .search-section-header {
-    align-items: flex-start;
-    flex-direction: column;
+.mse-card strong {
+  font-family: var(--font-titre);
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+
+.mse-text {
+  color: rgb(23 65 35 / 0.8);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+.mse-place {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: auto;
+  padding-top: 4px;
+  color: rgb(23 65 35 / 0.65);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.mse-place i {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--mse-region);
+}
+
+.mse-arrow {
+  position: absolute;
+  top: 22px;
+  right: 20px;
+}
+
+@media (max-width: 1100px) {
+  .mse-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 900px) {
+  .mse {
+    --mse-pad: 20px;
   }
 
-  .search-grid {
+  .mse-intro {
+    padding: 28px 20px 24px;
+  }
+
+  .mse-grid {
     grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .mse .mse-form .mbr-button {
+    padding: 0 16px;
   }
 }

@@ -20,15 +20,15 @@
 .admin-contributions-head p,
 .admin-contributions-list p,
 .admin-contributions-list small {
-  color: var(--text-secondary, #6b7280);
+  color: var(--text-secondary, var(--brand-texte-doux));
 }
 
 .admin-contributions-head select {
   min-height: 42px;
   border-radius: 8px;
-  border: 1px solid var(--border-color, #d1d5db);
+  border: 1px solid var(--border-color, var(--brand-trait-fort));
   background: var(--input-bg, #fff);
-  color: var(--text-primary, #111827);
+  color: var(--text-primary, var(--brand-foret));
   padding: 0 12px;
 }
 
@@ -40,7 +40,7 @@
 .admin-contributions-list article {
   display: grid;
   gap: 10px;
-  border: 1px solid var(--border-color, #d1d5db);
+  border: 1px solid var(--border-color, var(--brand-trait-fort));
   border-radius: 8px;
   padding: 16px;
   background: var(--card-bg, rgba(255,255,255,.76));
@@ -67,10 +67,10 @@
   min-height: 38px;
   display: inline-flex;
   align-items: center;
-  border: 1px solid var(--border-color, #d1d5db);
+  border: 1px solid var(--border-color, var(--brand-trait-fort));
   border-radius: 8px;
   background: transparent;
-  color: var(--text-primary, #111827);
+  color: var(--text-primary, var(--brand-foret));
   padding: 0 12px;
   font-weight: 850;
   text-decoration: none;
@@ -78,9 +78,9 @@
 }
 
 .admin-contribution-actions button:nth-child(2) {
-  background: var(--accent-color, #c9a227);
+  background: var(--accent-color, var(--brand-foret));
   color: #111;
-  border-color: var(--accent-color, #c9a227);
+  border-color: var(--accent-color, var(--brand-foret));
 }
 
 @media (max-width: 720px) {

@@ -1,5 +1,6 @@
 import { useId, useState } from 'react'
 import type { InputHTMLAttributes, ReactNode } from 'react'
+import { Eye, EyeOff, X } from 'lucide-react'
 import './Input.css'
 
 interface InputProps extends Omit<InputHTMLAttributes<HTMLInputElement>, 'size'> {
@@ -136,10 +137,7 @@ export const Input = ({
             aria-label={showPassword ? 'Masquer le mot de passe' : 'Afficher le mot de passe'}
             tabIndex={-1}
           >
-            <span 
-              className={showPassword ? 'icon-eye-off' : 'icon-eye'} 
-              aria-hidden="true"
-            />
+            {showPassword ? <EyeOff size={18} aria-hidden="true" /> : <Eye size={18} aria-hidden="true" />}
           </button>
         )}
 
@@ -151,7 +149,7 @@ export const Input = ({
             aria-label="Effacer"
             tabIndex={-1}
           >
-            <span className="icon-x" aria-hidden="true" />
+            <X size={16} aria-hidden="true" />
           </button>
         )}
 

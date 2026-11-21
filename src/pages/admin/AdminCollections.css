@@ -175,17 +175,17 @@
 }
 
 .difficulty-badge.beginner {
-  background: #10b981;
+  background: var(--brand-foret);
   color: white;
 }
 
 .difficulty-badge.intermediate {
-  background: #f59e0b;
+  background: var(--brand-ambre);
   color: white;
 }
 
 .difficulty-badge.advanced {
-  background: #ef4444;
+  background: var(--brand-terre);
   color: white;
 }
 

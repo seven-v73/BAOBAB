@@ -17,21 +17,6 @@ import { NotificationContainer } from './components/Notification/NotificationCon
 import { AdminRoute } from './components/AdminRoute'
 import { RouteSeo } from './seo/RouteSeo'
 import './App.css'
-import './styles/theme-overrides.css'
-import './styles/premium-pages.css'
-import './styles/contrast-system.css'
-import './styles/button-system.css'
-import './styles/human-design.css'
-import './styles/admin-fixes.css'
-import './styles/form-system.css'
-import './styles/premium-polish.css'
-import './styles/production-ergonomics.css'
-import './styles/page-transitions.css'
-import './styles/page-limits.css'
-import './styles/layout-safety.css'
-import './styles/typography-human.css'
-import './styles/human-experience.css'
-import './styles/monbaobab-header.css'
 
 // Lazy loading pour les pages moins fréquemment utilisées
 const BlogAdmin = lazy(() => import('./pages/BlogAdmin').then(module => ({ default: module.BlogAdmin })))

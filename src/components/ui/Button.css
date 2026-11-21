@@ -46,19 +46,19 @@
 
 /* Primary - Doré */
 .btn-primary {
-  background: linear-gradient(135deg, #d4af37 0%, #b8941f 100%);
-  color: #1a1410;
-  box-shadow: 0 4px 16px rgba(212, 175, 55, 0.2);
+  background: linear-gradient(135deg, var(--brand-foret) 0%, var(--brand-foret-hover) 100%);
+  color: var(--brand-foret);
+  box-shadow: 0 4px 16px rgb(23 65 35 / 0.2);
 }
 
 .btn-primary:hover:not(:disabled):not(.btn-loading) {
   transform: translateY(-3px);
-  box-shadow: 0 8px 32px rgba(212, 175, 55, 0.3);
+  box-shadow: 0 8px 32px rgb(23 65 35 / 0.3);
 }
 
 .btn-primary:active:not(:disabled):not(.btn-loading) {
   transform: translateY(-1px);
-  box-shadow: 0 4px 16px rgba(212, 175, 55, 0.2);
+  box-shadow: 0 4px 16px rgb(23 65 35 / 0.2);
 }
 
 /* Secondary - Vert forêt */
@@ -81,14 +81,14 @@
 /* Outline - Doré avec bordure */
 .btn-outline {
   background: transparent;
-  border: 2px solid #d4af37;
-  color: #d4af37;
+  border: 2px solid var(--brand-foret);
+  color: var(--brand-foret);
 }
 
 .btn-outline:hover:not(:disabled):not(.btn-loading) {
-  background: rgba(212, 175, 55, 0.08);
+  background: rgb(23 65 35 / 0.08);
   transform: translateY(-3px);
-  box-shadow: 0 8px 32px rgba(212, 175, 55, 0.15);
+  box-shadow: 0 8px 32px rgb(23 65 35 / 0.15);
 }
 
 .btn-outline:active:not(:disabled):not(.btn-loading) {
@@ -112,19 +112,19 @@
 
 /* Danger - Rouge */
 .btn-danger {
-  background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+  background: linear-gradient(135deg, var(--brand-terre) 0%, var(--brand-terre) 100%);
   color: #fff;
-  box-shadow: 0 4px 16px rgba(231, 76, 60, 0.2);
+  box-shadow: 0 4px 16px rgb(217 74 58 / 0.2);
 }
 
 .btn-danger:hover:not(:disabled):not(.btn-loading) {
   transform: translateY(-3px);
-  box-shadow: 0 8px 32px rgba(231, 76, 60, 0.3);
+  box-shadow: 0 8px 32px rgb(217 74 58 / 0.3);
 }
 
 .btn-danger:active:not(:disabled):not(.btn-loading) {
   transform: translateY(-1px);
-  box-shadow: 0 4px 16px rgba(231, 76, 60, 0.2);
+  box-shadow: 0 4px 16px rgb(217 74 58 / 0.2);
 }
 
 /* ===== SIZES ===== */
@@ -247,7 +247,7 @@
 }
 
 .btn-outline:active:not(:disabled):not(.btn-loading)::after {
-  background: rgba(212, 175, 55, 0.1);
+  background: rgb(23 65 35 / 0.1);
 }
 
 /* ========================================
@@ -255,7 +255,7 @@
    ======================================== */
 
 [data-theme="light"] .btn-ghost {
-  color: #1a1410;
+  color: var(--brand-foret);
 }
 
 [data-theme="light"] .btn-ghost:hover:not(:disabled):not(.btn-loading) {

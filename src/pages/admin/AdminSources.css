@@ -5,7 +5,7 @@
 
 .admin-source-form,
 .admin-source-list article {
-  border: 1px solid var(--border-color, #d1d5db);
+  border: 1px solid var(--border-color, var(--brand-trait-fort));
   border-radius: 8px;
   background: var(--card-bg, rgba(255,255,255,.75));
   padding: 18px;
@@ -39,10 +39,10 @@
 .admin-source-form select,
 .admin-source-form textarea {
   width: 100%;
-  border: 1px solid var(--border-color, #d1d5db);
+  border: 1px solid var(--border-color, var(--brand-trait-fort));
   border-radius: 8px;
   background: var(--input-bg, #fff);
-  color: var(--text-primary, #111827);
+  color: var(--text-primary, var(--brand-foret));
   padding: 10px 12px;
   font: inherit;
 }
@@ -56,9 +56,9 @@
 .admin-source-actions button,
 .admin-source-list button {
   min-height: 40px;
-  border: 1px solid var(--border-color, #d1d5db);
+  border: 1px solid var(--border-color, var(--brand-trait-fort));
   border-radius: 8px;
-  background: var(--accent-color, #c9a227);
+  background: var(--accent-color, var(--brand-foret));
   color: #111;
   padding: 0 14px;
   font-weight: 900;
@@ -77,13 +77,13 @@
 
 .admin-source-list span,
 .admin-source-list p {
-  color: var(--text-secondary, #6b7280);
+  color: var(--text-secondary, var(--brand-texte-doux));
 }
 
 .admin-source-list button {
   justify-self: start;
   background: transparent;
-  color: var(--text-primary, #111827);
+  color: var(--text-primary, var(--brand-foret));
 }
 
 @media (max-width: 820px) {
