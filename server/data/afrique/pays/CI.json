@@ -1,0 +1,4058 @@
+{
+  "code": "CI",
+  "nom": "Côte d'Ivoire",
+  "region": "ouest",
+  "wikidata": "Q1008",
+  "maj": "2026-11-21",
+  "pays": {
+    "nom_officiel": "République de Côte d'Ivoire",
+    "capitale": "Yamoussoukro (capitale politique et administrative ; Abidjan, principal centre économique)",
+    "langues_officielles": [
+      "français"
+    ],
+    "langues_nationales": [],
+    "population": {
+      "valeur": 32711547,
+      "annee": 2025,
+      "source": "S122"
+    },
+    "superficie_km2": 322463,
+    "monnaie": "Franc CFA (UEMOA)",
+    "resume": "La Côte d'Ivoire borde le golfe de Guinée et partage ses frontières avec le Mali, le Burkina Faso, le Ghana, le Liberia et la Guinée. Yamoussoukro est sa capitale depuis 1983, mais Abidjan reste le principal centre économique. Larousse décrit une population répartie en quatre grands groupes, akan, mandé, voltaïque et kru, issus de migrations venues du nord, de l'est et de l'ouest. Colonie française depuis 1893, le pays devient indépendant le 7 août 1960, avec Félix Houphouët-Boigny comme premier président. Le français est la langue officielle, au milieu de dizaines de langues locales. Cinq biens naturels et culturels sont inscrits au patrimoine mondial, et cinq éléments à la Liste représentative du patrimoine culturel immatériel.",
+    "sources": [
+      "S122",
+      "S3",
+      "S50",
+      "S29",
+      "S21",
+      "S63",
+      "S27",
+      "S67",
+      "S22",
+      "S19",
+      "S39"
+    ]
+  },
+  "langues": [
+    {
+      "id": "CI-langue-francais",
+      "nom": "Français",
+      "description": "Le français est la langue officielle de la Côte d'Ivoire et la langue d'enseignement. Il sert de langue commune entre des communautés dont les langues maternelles sont très diverses. Une partie des Ivoiriens l'utilise aussi à la maison : 6 % des personnes interrogées le citent comme langue parlée chez elles selon l'enquête Afrobaromètre de 2014 reprise par Wikipédia.",
+      "famille": "Indo-européen, italique, roman (Glottolog)",
+      "glottocode": "stan1290",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "wikidata": "Q150",
+      "sources": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode stan1290 lu sur la page Glottolog correspondante."
+      }
+    },
+    {
+      "id": "CI-langue-dioula",
+      "nom": "Dioula",
+      "description": "Le dioula est une langue mandingue qui sert de langue véhiculaire, surtout dans le commerce, en Côte d'Ivoire et au Burkina Faso. Son nom renvoie au métier de colporteur : Larousse désigne par ce mot un groupe social mandé, surtout malinké. Le regroupement « malinké/dioula » arrive en tête des langues parlées à la maison, avec 17 % des personnes interrogées selon l'enquête Afrobaromètre de 2014 reprise par Wikipédia.",
+      "famille": "Mandé, Mandé occidental, Manding-Kpelle, Manding, Manding oriental (Glottolog)",
+      "glottocode": "dyul1238",
+      "statut_linguistique": [
+        "véhiculaire"
+      ],
+      "nom_local": "Julakan",
+      "wikidata": "Q32706",
+      "sources": [
+        "S4",
+        "S5",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode dyul1238 lu sur la page Glottolog correspondante."
+      }
+    },
+    {
+      "id": "CI-langue-baoule",
+      "nom": "Baoulé",
+      "description": "Le baoulé est une langue akan du centre de la Côte d'Ivoire, associée au peuple baoulé installé autour de Bouaké. Il est cité comme langue parlée à la maison par 15 % des personnes interrogées selon l'enquête Afrobaromètre de 2014 reprise par Wikipédia, ce qui le place juste derrière le groupe malinké/dioula. Glottolog le range dans la branche bia des langues tano.",
+      "famille": "Atlantic-Congo, Volta-Congo, Kwa Volta-Congo, Nyo, Potou-Tano, Tano, Central Tano, Bia (Glottolog)",
+      "glottocode": "baou1238",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "wikidata": "Q35107",
+      "sources": [
+        "S6",
+        "S7",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode baou1238 lu sur la page Glottolog correspondante."
+      }
+    },
+    {
+      "id": "CI-langue-bete",
+      "nom": "Bété (Daloa)",
+      "description": "Le bété désigne un ensemble de parlers de la famille kru, employés dans l'ouest forestier du pays ; Glottolog distingue notamment le bété de Daloa et celui de Gagnoa. Selon l'enquête Afrobaromètre de 2014 relayée par Wikipédia, 7 % des personnes interrogées parlent bété à la maison. Frédéric Bruly Bouabré a conçu un syllabaire de plus de 400 signes pour noter cette langue.",
+      "famille": "Kru, Kru oriental, Bétéique, Bété occidental (Glottolog)",
+      "glottocode": "dalo1238",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "nom_local": "Bété de Daloa",
+      "wikidata": "Q11155819",
+      "sources": [
+        "S8",
+        "S9",
+        "S10",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode dalo1238 lu sur la page Glottolog correspondante."
+      }
+    },
+    {
+      "id": "CI-langue-senoufo",
+      "nom": "Sénoufo (sénari)",
+      "description": "Le sénari est une des langues sénoufo, parlées dans le nord de la Côte d'Ivoire et dans les régions voisines du Mali et du Burkina Faso. Larousse classe le sénoufo parmi les langues voltaïques. Il est cité par 8 % des personnes interrogées comme langue parlée à la maison, selon l'enquête Afrobaromètre de 2014 reprise par Wikipédia.",
+      "famille": "Atlantic-Congo, Volta-Congo, North Volta-Congo, Senufo (Glottolog)",
+      "glottocode": "ceba1235",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "nom_local": "Cebaara",
+      "wikidata": "Q10975121",
+      "sources": [
+        "S11",
+        "S12",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode ceba1235 (Senari/Cebaara) lu sur Glottolog ; le nom « sénoufo » recouvre plusieurs langues."
+      }
+    },
+    {
+      "id": "CI-langue-agni",
+      "nom": "Agni (anyin)",
+      "description": "L'agni, ou anyin, est une langue akan du sud-est de la Côte d'Ivoire, que l'on retrouve aussi dans l'ouest du Ghana. Les Agni sont rattachés par Larousse au groupe akan venu de l'est. Selon l'enquête Afrobaromètre de 2014 relayée par Wikipédia, 8 % des personnes interrogées parlent agni à la maison.",
+      "famille": "Atlantic-Congo, Volta-Congo, Kwa Volta-Congo, Nyo, Potou-Tano, Tano, Central Tano, Bia, Anyinic (Glottolog)",
+      "glottocode": "anyi1245",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "wikidata": "Q28395",
+      "sources": [
+        "S13",
+        "S14",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode anyi1245 lu sur la page Glottolog correspondante."
+      }
+    },
+    {
+      "id": "CI-langue-dan",
+      "nom": "Dan (yacouba)",
+      "description": "Le dan est une langue mandé du sud-est, appelée yakuba ou yacouba en Côte d'Ivoire d'après Glottolog. Larousse place les Dan parmi les « Mandingues du Sud », établis aux franges de la forêt. Il est cité par 5 % des personnes interrogées comme langue parlée à la maison (rubrique « yacouba », Afrobaromètre 2014 relayé par Wikipédia).",
+      "famille": "Mandé, Mandé oriental, Mandé du Sud-Est, Mano-Dan, Guro-Dan, Dan-Toura (Glottolog)",
+      "glottocode": "dann1241",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "nom_local": "Yacouba",
+      "wikidata": "Q1158971",
+      "sources": [
+        "S15",
+        "S16",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode dann1241 ; Glottolog indique que « Yakuba » est le nom courant du dan en Côte d'Ivoire."
+      }
+    },
+    {
+      "id": "CI-langue-gouro",
+      "nom": "Gouro",
+      "description": "Le gouro est une langue mandé parlée entre le Bandama et le Sassandra, dans le centre-ouest du pays. C'est la langue des communautés gouro qui pratiquent le zaouli, inscrit au patrimoine culturel immatériel de l'humanité. Il est cité par 3 % des personnes interrogées comme langue parlée à la maison (Afrobaromètre 2014, relayé par Wikipédia).",
+      "famille": "Mandé, Mandé oriental, Mandé du Sud-Est, Mano-Dan, Guro-Dan, Guro-Yaouré (Glottolog)",
+      "glottocode": "guro1248",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "wikidata": "Q35251",
+      "sources": [
+        "S17",
+        "S18",
+        "S19",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode guro1248 lu sur la page Glottolog correspondante."
+      }
+    },
+    {
+      "id": "CI-langue-abron",
+      "nom": "Abron (bono)",
+      "description": "L'abron, ou bono, est une langue akan. Larousse range les Abron parmi les peuples akan venus de l'est, de l'actuel Ghana. Les Abron figurent aussi parmi les communautés de tisserands de pagnes citées par l'UNESCO, et 2 % des personnes interrogées parlent abron à la maison (Afrobaromètre 2014, relayé par Wikipédia).",
+      "famille": "Atlantic-Congo, Volta-Congo, Kwa Volta-Congo, Nyo, Potou-Tano, Tano, Central Tano, Akanic (Glottolog)",
+      "glottocode": "abro1238",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "nom_local": "Bono",
+      "wikidata": "Q34831",
+      "sources": [
+        "S20",
+        "S21",
+        "S22",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode abro1238 lu sur la page Glottolog correspondante."
+      }
+    },
+    {
+      "id": "CI-langue-attie",
+      "nom": "Attié",
+      "description": "L'attié est une langue du groupe nyo des langues kwa selon Glottolog. Wikipédia cite les Attié parmi les groupes arrivés lors des grandes migrations du XVIIIe siècle dans le sud-est et le centre du pays, et parmi les peuples lagunaires qui produisent l'attiéké. Selon l'enquête Afrobaromètre de 2014, 3 % des personnes interrogées parlent attié à la maison.",
+      "famille": "Atlantic-Congo, Volta-Congo, Kwa Volta-Congo, Nyo (Glottolog)",
+      "glottocode": "atti1239",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "wikidata": "Q34844",
+      "sources": [
+        "S23",
+        "S24",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode atti1239 lu sur la page Glottolog correspondante."
+      }
+    },
+    {
+      "id": "CI-langue-abe",
+      "nom": "Abé (abbey)",
+      "description": "L'abé, ou abbey, est une langue du groupe agnéby au sein des langues kwa. Wikipédia cite les Abbey parmi les groupes arrivés lors des grandes migrations du XVIIIe siècle dans le sud-est et le centre du pays. Selon l'enquête Afrobaromètre de 2014, 2 % des personnes interrogées parlent abbey à la maison, et Glottolog ne signale pas de menace sur la langue.",
+      "famille": "Atlantic-Congo, Volta-Congo, Kwa Volta-Congo, Nyo, Agneby (Glottolog)",
+      "glottocode": "abee1242",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "wikidata": "Q34833",
+      "sources": [
+        "S25",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Statut « non menacée » : indication Glottolog (source Ethnologue/ AES), à recouper."
+      }
+    },
+    {
+      "id": "CI-langue-adioukrou",
+      "nom": "Adioukrou",
+      "description": "L'adioukrou est une langue du groupe agnéby. Les Adioukrou comptent parmi les peuples lagunaires qui produisent l'attiéké selon Wikipédia et l'UNESCO. 2 % des personnes interrogées la parlent à la maison (Afrobaromètre 2014, relayé par Wikipédia).",
+      "famille": "Atlantic-Congo, Volta-Congo, Kwa Volta-Congo, Nyo, Agneby (Glottolog)",
+      "glottocode": "adio1239",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "wikidata": "Q34738",
+      "sources": [
+        "S26",
+        "S27",
+        "S24",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode adio1239 lu sur la page Glottolog correspondante."
+      }
+    },
+    {
+      "id": "CI-langue-godie",
+      "nom": "Godié",
+      "description": "Le godié est une langue kru, classée par Glottolog dans le groupe du bété occidental. Larousse situe les populations kru dans le sud-ouest du pays. Environ 1 % des personnes interrogées la citent comme langue parlée à la maison (Afrobaromètre 2014, relayé par Wikipédia).",
+      "famille": "Kru, Kru oriental, Bétéique, Bété occidental (Glottolog)",
+      "glottocode": "godi1239",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "wikidata": "Q3914412",
+      "sources": [
+        "S28",
+        "S29",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode godi1239 lu sur la page Glottolog correspondante."
+      }
+    },
+    {
+      "id": "CI-langue-wobe",
+      "nom": "Wobé (wè du Nord)",
+      "description": "Le wobé fait partie des langues wè, un ensemble de la famille kru. Glottolog le désigne sous le nom de Wobe-Wè du Nord. Wikipédia cite le wobé parmi les langues parlées à la maison par environ 1 % des personnes interrogées (Afrobaromètre 2014).",
+      "famille": "Kru, Kru occidental élargi, Wè-Bassa-Klao, Wè, Wè nucléaire, Guéré-Krahn (Glottolog)",
+      "glottocode": "weno1238",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "nom_local": "Wobé",
+      "wikidata": "Q3915363",
+      "sources": [
+        "S30",
+        "S29",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode weno1238 lu sur la page Glottolog correspondante."
+      }
+    },
+    {
+      "id": "CI-langue-nzema",
+      "nom": "Nzema (n'zima)",
+      "description": "Le nzema est une langue akan du sud, parlée par les N'zima de Grand-Bassam et du sud-est de la Côte d'Ivoire ainsi qu'au Ghana. Il porte la fête de l'Abissa, que les N'zima célèbrent chaque année à l'automne. Le site du patrimoine mondial de Grand-Bassam inclut le village de pêcheurs N'zima.",
+      "famille": "Atlantic-Congo, Volta-Congo, Kwa Volta-Congo, Nyo, Potou-Tano, Tano, Central Tano, Bia, Southern Bia, Jwira-Nzima (Glottolog)",
+      "glottocode": "nzim1238",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "wikidata": "Q36337",
+      "sources": [
+        "S31",
+        "S32",
+        "S33"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode nzim1238 lu sur la page Glottolog correspondante."
+      }
+    },
+    {
+      "id": "CI-langue-aboure",
+      "nom": "Abouré",
+      "description": "L'abouré est une langue tano occidentale du groupe kwa selon Glottolog. Wikipédia classe les Abouré parmi les peuples arrivés dans le sud-est depuis la basse vallée de la Volta, aux XVIe et XVIIe siècles. Glottolog la distingue comme langue à part entière.",
+      "famille": "Atlantic-Congo, Volta-Congo, Kwa Volta-Congo, Nyo, Potou-Tano, Tano, Tano occidental (Glottolog)",
+      "glottocode": "abur1243",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "wikidata": "Q34767",
+      "sources": [
+        "S34",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode abur1243 lu sur la page Glottolog correspondante."
+      }
+    }
+  ],
+  "peuples": [
+    {
+      "id": "CI-peuple-baoule",
+      "nom": "Baoulé",
+      "description": "Les Baoulé forment un peuple akan du centre de la Côte d'Ivoire, établi autour de Bouaké. Larousse situe leur origine dans l'espace achanti : vers 1717, un différend entre le roi Opoku Ware et la reine Abla Pokou les a conduits à franchir la Comoé. Leur royaume fut éphémère, mais l'organisation en clans a subsisté. Les Baoulé figurent parmi les communautés de tisserands de pagnes citées par l'UNESCO.",
+      "langues": [
+        "baoulé"
+      ],
+      "regions": [
+        "Centre",
+        "Bouaké"
+      ],
+      "pays_partages": [],
+      "sources": [
+        "S7",
+        "S21",
+        "S22"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-peuple-agni",
+      "nom": "Agni (Anyi)",
+      "description": "Les Agni vivent dans le sud-est de la Côte d'Ivoire et dans l'ouest du Ghana. Larousse les compte parmi les populations akan arrivées de l'est. À la suite des querelles dynastiques liées à l'essor achanti, des migrants agni ont fondé Enchi, au Ghana, et le royaume littoral d'Assinie.",
+      "langues": [
+        "agni"
+      ],
+      "regions": [
+        "Sud-Est"
+      ],
+      "pays_partages": [
+        "GH"
+      ],
+      "sources": [
+        "S14",
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-peuple-abron",
+      "nom": "Abron (Bono)",
+      "description": "Les Abron sont un peuple akan que Larousse rattache aux populations venues de l'est, de l'actuel Ghana. Wikipédia situe le royaume de Bono et l'État de Gyaman, de langue abron, entre le XVe siècle et le XIXe siècle. L'UNESCO les cite parmi les communautés ivoiriennes de tisserands de pagnes.",
+      "langues": [
+        "abron"
+      ],
+      "regions": [
+        "Est"
+      ],
+      "pays_partages": [
+        "GH"
+      ],
+      "sources": [
+        "S21",
+        "S35",
+        "S22"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Région exacte à préciser auprès d'une source dédiée ; seul l'espace « est » est attesté par les sources ouvertes."
+      }
+    },
+    {
+      "id": "CI-peuple-senoufo",
+      "nom": "Sénoufo",
+      "description": "Les Sénoufo vivent dans le nord de la Côte d'Ivoire et dans les régions voisines du Mali et du Burkina Faso, selon Larousse. Korhogo est présentée comme leur capitale et comme la « cité du Poro » par Wikipédia. Le coton y est cultivé, filé, tissé puis décoré à la main pour fabriquer la toile de Korhogo, textile emblématique de la région. Glottolog classe aussi le tagbana dans le groupe sénoufo, et la communauté tagbana joue les trompes du Gbofe d'Afounkaha.",
+      "langues": [
+        "sénoufo (sénari)"
+      ],
+      "regions": [
+        "Nord",
+        "Korhogo"
+      ],
+      "pays_partages": [
+        "ML",
+        "BF"
+      ],
+      "sources": [
+        "S12",
+        "S36",
+        "S37",
+        "S38",
+        "S39"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-peuple-malinke-dioula",
+      "nom": "Malinké et Dioula",
+      "description": "Les Malinké et les Dioula appartiennent aux Mandingues du Nord, dont l'histoire est liée à l'empire du Mali. Larousse précise que Malinké est le nom donné en Côte d'Ivoire et en Guinée à ces populations, tandis que dioula désigne un groupe social surtout malinké, lié au commerce, et sa langue. Dans le nord ivoirien, Kong fut un centre commercial dioula au XVIIIe siècle, et les mosquées de style soudanais témoignent de leur influence.",
+      "langues": [
+        "dioula"
+      ],
+      "regions": [
+        "Nord",
+        "Kong",
+        "Odienné"
+      ],
+      "pays_partages": [
+        "ML",
+        "GN",
+        "BF"
+      ],
+      "sources": [
+        "S16",
+        "S5",
+        "S40",
+        "S41"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-peuple-bete",
+      "nom": "Bétés",
+      "description": "Les Bétés appartiennent au groupe kru et vivent dans l'ouest forestier de la Côte d'Ivoire. Larousse indique qu'ils seraient venus de l'ouest, de l'actuel Liberia. Leur culture a inspiré le syllabaire de Frédéric Bruly Bouabré et le Didiga des chasseurs bété, que le dramaturge Bernard Zadi Zaourou a fait renaître au théâtre.",
+      "langues": [
+        "bété (Daloa)"
+      ],
+      "regions": [
+        "Ouest forestier",
+        "Daloa"
+      ],
+      "pays_partages": [],
+      "sources": [
+        "S9",
+        "S21",
+        "S10",
+        "S42"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-peuple-gouro",
+      "nom": "Gouro",
+      "description": "Les Gouro vivent dans le centre-ouest, entre les fleuves Bandama et Sassandra, et parlent une langue du groupe mandé. Les communautés gouro des départements de Bouaflé et de Zuénoula pratiquent le zaouli, musique et danse masquée inscrites au patrimoine immatériel de l'humanité. Larousse rappelle aussi la vive résistance des Gouro et des Baoulé à la conquête coloniale du centre du pays.",
+      "langues": [
+        "gouro"
+      ],
+      "regions": [
+        "Centre-Ouest",
+        "Bouaflé",
+        "Zuénoula"
+      ],
+      "pays_partages": [],
+      "sources": [
+        "S18",
+        "S19",
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-peuple-dan",
+      "nom": "Dan (Yacouba)",
+      "description": "Les Dan, appelés Yacouba en Côte d'Ivoire, sont des Mandé du Sud établis à l'ouest du pays. Larousse les classe parmi les Mandingues anciennement installés aux franges de la forêt, et Wikipédia indique que les Mandé forestiers, dont les Dan, seraient arrivés du Sahel entre le XIe et le XVIe siècle. Leurs masques figurent dans les collections du Metropolitan Museum, qui les situe en Côte d'Ivoire ou au Liberia.",
+      "langues": [
+        "dan (yacouba)"
+      ],
+      "regions": [
+        "Ouest"
+      ],
+      "pays_partages": [
+        "LR"
+      ],
+      "sources": [
+        "S16",
+        "S2",
+        "S15",
+        "S43"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Région précise (Man, Danané…) à documenter avec une source ethnographique."
+      }
+    },
+    {
+      "id": "CI-peuple-lobi",
+      "nom": "Lobi",
+      "description": "Les Lobi vivent dans le sud-est du Burkina Faso et dans le nord de la Côte d'Ivoire ; Larousse leur attribue environ 700 000 personnes et une langue voltaïque. Leur territoire porte de grands alignements de murailles en ruine, dont l'origine est controversée.",
+      "langues": [
+        "lobi (langue voltaïque)"
+      ],
+      "regions": [
+        "Nord"
+      ],
+      "pays_partages": [
+        "BF"
+      ],
+      "sources": [
+        "S44"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Aucune fiche langue créée : le glottocode de la graine n'a pas été vérifié sur Glottolog."
+      }
+    },
+    {
+      "id": "CI-peuple-lagunaires",
+      "nom": "Peuples lagunaires (Ébrié, Adioukrou, Alladian, Avikam, Abidji, Attié…)",
+      "description": "Sur le littoral et autour des lagunes du sud vivent plusieurs peuples, dont les Ébrié, Adioukrou, Alladian, Avikam, Abidji et Attié. Larousse note que les plus anciennes implantations connues se trouvent sur la lagune côtière. Ces communautés sont les productrices traditionnelles de l'attiéké, semoule de manioc fermentée cuite à la vapeur, dont les femmes assurent la préparation et la vente.",
+      "langues": [
+        "adioukrou",
+        "attié"
+      ],
+      "regions": [
+        "Lagunes",
+        "Sud"
+      ],
+      "pays_partages": [],
+      "sources": [
+        "S21",
+        "S27",
+        "S24"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-peuple-nzima",
+      "nom": "N'zima (Nzema)",
+      "description": "Les N'zima vivent sur la côte du sud-est de la Côte d'Ivoire, notamment à Grand-Bassam, et au Ghana. Leur village de pêcheurs fait partie du site de Grand-Bassam inscrit au patrimoine mondial. Ils célèbrent chaque année l'Abissa, fête du nouvel an, et l'écrivain Bernard Dadié, né à Assinie, se rattache à leur branche.",
+      "langues": [
+        "nzema"
+      ],
+      "regions": [
+        "Grand-Bassam",
+        "Sud-Est"
+      ],
+      "pays_partages": [
+        "GH"
+      ],
+      "sources": [
+        "S32",
+        "S33",
+        "S45",
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "id": "CI-site-grand-bassam",
+      "nom": "Ville historique de Grand-Bassam",
+      "type": "patrimoine_mondial",
+      "description": "Grand-Bassam, première capitale coloniale de la Côte d'Ivoire, est un exemple de ville planifiée à la fin du XIXe et au début du XXe siècle, avec des quartiers distincts pour le commerce, l'administration et l'habitat des Européens et des Africains. Le site comprend le village de pêcheurs N'zima et une architecture coloniale fonctionnelle à galeries et vérandas. L'UNESCO y voit le témoin des relations complexes entre Européens et Africains, puis du mouvement d'indépendance. La ville a attiré des populations venues d'Afrique, d'Europe et du Levant.",
+      "wikidata": "Q17990623",
+      "unesco_id": "1322",
+      "inscription": 2012,
+      "coordonnees": {
+        "lat": 5.1965,
+        "lng": -3.7368
+      },
+      "regions": [
+        "Grand-Bassam"
+      ],
+      "periode": "fin XIXe-début XXe siècle",
+      "sensible": true,
+      "note_sensibilite": "Lieu de mémoire de la colonisation et de la marche des femmes de 1949 : les récits doivent distinguer faits établis et mémoire, et associer les communautés N'zima.",
+      "sources": [
+        "S32",
+        "S46"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées de la graine (Wikidata) ; la page UNESCO ne les affiche pas."
+      }
+    },
+    {
+      "id": "CI-site-tai",
+      "nom": "Parc national de Taï",
+      "type": "patrimoine_mondial",
+      "description": "Le parc de Taï conserve l'un des derniers grands massifs de forêt tropicale primaire d'Afrique de l'Ouest. L'UNESCO souligne l'intérêt scientifique de sa flore et de ses mammifères menacés, notamment l'hippopotame pygmée et onze espèces de singes. Le bien a été inscrit en 1982, et une modification mineure de ses limites a été enregistrée en 2023.",
+      "wikidata": "Q328577",
+      "unesco_id": "195",
+      "inscription": 1982,
+      "coordonnees": {
+        "lat": 5.64889,
+        "lng": -7.09528
+      },
+      "sources": [
+        "S47"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées N5°38′56″ W7°5′43″ lues sur la page UNESCO."
+      }
+    },
+    {
+      "id": "CI-site-comoe",
+      "nom": "Parc national de la Comoé",
+      "type": "patrimoine_mondial",
+      "description": "Le parc de la Comoé est l'une des plus vastes zones protégées d'Afrique de l'Ouest et se distingue par la grande diversité de sa végétation. Grâce au fleuve Comoé, on y trouve des associations de plantes habituellement plus méridionales, comme des savanes arbustives et des îlots de forêt dense humide. Il est inscrit depuis 1983, et une modification mineure de ses limites a été enregistrée en 2023.",
+      "wikidata": "Q501344",
+      "unesco_id": "227",
+      "inscription": 1983,
+      "coordonnees": {
+        "lat": 9.077,
+        "lng": -3.758
+      },
+      "sources": [
+        "S48"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées N9°4′37,2″ W3°45′28,8″ lues sur la page UNESCO."
+      }
+    },
+    {
+      "id": "CI-site-mont-nimba",
+      "nom": "Réserve naturelle intégrale du mont Nimba",
+      "type": "patrimoine_mondial",
+      "description": "Le mont Nimba s'élève aux confins de la Côte d'Ivoire, de la Guinée et du Liberia, au-dessus des savanes. Ses pentes forestières et ses pâturages d'altitude abritent une flore et une faune très riches, avec des espèces endémiques comme le crapaud vivipare et des chimpanzés qui utilisent des pierres comme outils. Le bien, inscrit en 1981 et étendu en 1982, est transfrontalier ; l'UNESCO accompagne la Côte d'Ivoire et la Guinée dans un processus de retrait de la Liste du patrimoine mondial en péril.",
+      "wikidata": "Q924276",
+      "unesco_id": "155",
+      "inscription": 1981,
+      "coordonnees": {
+        "lat": 7.60318,
+        "lng": -8.39097
+      },
+      "sources": [
+        "S49",
+        "S50"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées lues sur la page UNESCO (dossier 155bis). La graine contient deux entrées (155 et 155bis) : fusionnées ici en un seul bien."
+      }
+    },
+    {
+      "id": "CI-site-mosquees-soudanaises",
+      "nom": "Mosquées de style soudanais du nord de la Côte d'Ivoire",
+      "type": "patrimoine_mondial",
+      "description": "Huit petites mosquées en terre, à Tengréla, Kouto, Sorobango, Samatiguila, Nambira, Kong et Kaouara, forment ce bien. Elles se reconnaissent à leurs charpentes en saillie, leurs contreforts surmontés de poteries ou d'œufs d'autruche et leurs minarets en pyramide tronquée. Ce style, né à Djenné, s'est répandu vers le sud à partir du XVe siècle ; ces mosquées, bâties surtout entre le XVIIe et le XIXe siècle, sont les mieux conservées des vingt qui subsistent dans le pays.",
+      "wikidata": "Q65725484",
+      "unesco_id": "1648",
+      "inscription": 2021,
+      "coordonnees": {
+        "lat": 10.49032,
+        "lng": -6.41017
+      },
+      "regions": [
+        "Nord",
+        "Kong",
+        "Tengréla",
+        "Kouto",
+        "Sorobango",
+        "Samatiguila",
+        "Nambira",
+        "Kaouara"
+      ],
+      "periode": "XVIIe-XIXe siècle",
+      "sensible": true,
+      "note_sensibilite": "Lieux de culte en usage : toute valorisation touristique ou photographique doit respecter les règles des communautés musulmanes qui les entretiennent.",
+      "sources": [
+        "S41",
+        "S40"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées de la graine (Wikidata), un point représentatif pour un bien en série."
+      }
+    },
+    {
+      "id": "CI-site-basilique-yamoussoukro",
+      "nom": "Basilique Notre-Dame-de-la-Paix de Yamoussoukro",
+      "type": "monument",
+      "description": "Cette basilique catholique de Yamoussoukro, voulue par le président Félix Houphouët-Boigny, est l'une des plus grandes églises du monde et évoque Saint-Pierre de Rome. L'architecte ivoirien Pierre Fakhoury a été choisi le 4 février 1986 à l'issue d'un concours ; vingt-quatre entreprises l'ont construite entre 1986 et 1989, et le dôme est l'œuvre d'Eiffel Construction Métallique. Le pape Jean-Paul II l'a consacrée le 10 septembre 1990.",
+      "coordonnees": {
+        "lat": 6.81111,
+        "lng": -5.29694
+      },
+      "regions": [
+        "Yamoussoukro"
+      ],
+      "periode": "1986-1990",
+      "sources": [
+        "S51",
+        "S52"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-site-musee-civilisations",
+      "nom": "Musée des civilisations de Côte d'Ivoire",
+      "type": "musee",
+      "description": "Musée d'État d'Abidjan, il expose des pièces ethnographiques, archéologiques et iconographiques venues de toutes les régions du pays. Son histoire remonte au Centrifan, centre d'artisanat des années 1940 rattaché à l'IFAN en 1944, dirigé de 1947 à 1979 par l'ethnologue Bohumil Holas. Il a pris le nom de musée national d'Abidjan en 1972.",
+      "coordonnees": {
+        "lat": 5.33361,
+        "lng": -4.02417
+      },
+      "regions": [
+        "Abidjan"
+      ],
+      "periode": "depuis les années 1940",
+      "sources": [
+        "S53"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-site-musee-costume",
+      "nom": "Musée national du costume de Grand-Bassam",
+      "type": "musee",
+      "description": "Ce musée d'État occupe l'ancien palais du gouverneur de Grand-Bassam, premier siège de la colonie de Côte d'Ivoire. Le bâtiment, entouré d'une véranda, a servi de bureaux aux quatre premiers gouverneurs entre 1893 et 1902. Il a été transformé en musée par arrêté ministériel du 30 avril 1981.",
+      "coordonnees": {
+        "lat": 5.19611,
+        "lng": -3.73694
+      },
+      "regions": [
+        "Grand-Bassam"
+      ],
+      "periode": "1893-1902, musée depuis 1981",
+      "sources": [
+        "S54",
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-site-kong",
+      "nom": "Kong",
+      "type": "ville_historique",
+      "description": "Kong, dans le nord-est du pays, fut un centre marchand dioula : Larousse la décrit comme un royaume contrôlant au XVIIIe siècle le commerce de l'or, de la kola et des armes vers le sud, des esclaves, du bétail, du sel et des chevaux vers le nord. Ses maisons à terrasse de style soudanais et ses cinq mosquées avec leurs medersa dominaient la ville protégée par des remparts. Samory Touré la détruisit presque entièrement en 1897 ; elle fut ensuite reconstruite, et sa mosquée figure parmi les huit biens inscrits au patrimoine mondial en 2021.",
+      "coordonnees": {
+        "lat": 9.15056,
+        "lng": -4.61028
+      },
+      "regions": [
+        "Nord-Est"
+      ],
+      "periode": "XVIIIe siècle à aujourd'hui",
+      "sources": [
+        "S21",
+        "S40",
+        "S55",
+        "S41"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-site-korhogo",
+      "nom": "Korhogo",
+      "type": "ville_historique",
+      "description": "Korhogo est la grande ville du nord de la Côte d'Ivoire, chef-lieu de la région du Poro, que Wikipédia présente comme la capitale du peuple sénoufo et la « cité du Poro ». Larousse y relève le textile et la noix de cajou. Le nom signifierait « héritage » en sénoufo, et la ville a donné son nom à la toile de Korhogo, peinte à la main.",
+      "coordonnees": {
+        "lat": 9.45778,
+        "lng": -5.62944
+      },
+      "regions": [
+        "Poro",
+        "Savanes"
+      ],
+      "sources": [
+        "S56",
+        "S36",
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-site-bingerville",
+      "nom": "Bingerville",
+      "type": "ville_historique",
+      "description": "Bingerville, sur la lagune Ébrié, fut capitale de la colonie de 1900 à 1934 avant qu'Abidjan ne la remplace ; elle doit son nom au gouverneur Louis-Gustave Binger. On y trouve l'école des arts appliqués, dite école de sculpture Combes, et son musée, ainsi qu'une école d'agriculture et un institut de recherche sur le café et le cacao. Wikipédia la cite aussi comme l'un des deux principaux sites ouest-africains attestant une occupation humaine ancienne, à l'Ogolien, il y a 25 000 à 13 000 ans.",
+      "coordonnees": {
+        "lat": 5.35,
+        "lng": -3.9
+      },
+      "regions": [
+        "Abidjan",
+        "Lagunes"
+      ],
+      "periode": "capitale de 1900 à 1934",
+      "sources": [
+        "S57",
+        "S58",
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-site-assinie",
+      "nom": "Assinie",
+      "type": "ville_historique",
+      "description": "Assinie, sur le littoral à l'est d'Abidjan, fut un établissement français de 1687 à 1705 d'après Larousse. Les Agni y fondèrent un royaume littoral, et l'écrivain Bernard Dadié est né au sein de ce royaume. La localité, dans le département d'Adiaké, est aujourd'hui une station balnéaire.",
+      "coordonnees": {
+        "lat": 5.12361,
+        "lng": -3.27778
+      },
+      "regions": [
+        "Sud-Comoé"
+      ],
+      "periode": "1687-1705, puis XXe siècle",
+      "sources": [
+        "S59",
+        "S21",
+        "S60"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-site-parc-banco",
+      "nom": "Parc national du Banco",
+      "type": "site_naturel",
+      "description": "Le parc national du Banco se trouve en plein cœur d'Abidjan. Wikipédia le présente, avec le parc de la Tijuca à Rio de Janeiro, comme une forêt tropicale dense primaire au milieu d'une agglomération. Son nom viendrait de l'ébrié « Gbancô », « source d'eau rafraîchissante ».",
+      "coordonnees": {
+        "lat": 5.39444,
+        "lng": -4.05194
+      },
+      "regions": [
+        "Abidjan"
+      ],
+      "sources": [
+        "S61",
+        "S62"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source principale Wikipédia ; Larousse ne mentionne ici qu'Abidjan."
+      }
+    },
+    {
+      "id": "CI-site-ahouakro",
+      "nom": "Parc archéologique d'Ahouakro",
+      "type": "liste_indicative",
+      "description": "Le parc archéologique d'Ahouakro est inscrit depuis 2006 sur la liste indicative de la Côte d'Ivoire pour le patrimoine mondial, c'est-à-dire parmi les biens que l'État envisage de proposer. Wikipédia le cite, avec Fanfala, parmi les rares témoins d'une culture néolithique encore mal connue faute de découvertes archéologiques. Aucune description plus précise du site n'a pu être lue dans les sources ouvertes.",
+      "sources": [
+        "S63",
+        "S35"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Seuls le nom et l'année d'inscription à la liste indicative sont attestés (page État partie UNESCO) ; description à enrichir avec le dossier de liste indicative."
+      }
+    },
+    {
+      "id": "CI-site-pont-victoire-grand-bassam",
+      "nom": "Statue et pont de la Victoire (marche des femmes), Grand-Bassam",
+      "type": "lieu_de_memoire",
+      "description": "À Grand-Bassam, une statue inaugurée en 1999 sur la place de la Paix représente les participantes de la marche des femmes du 24 décembre 1949, et une plaque rend hommage à ces « vaillantes femmes ». Le pont reliant le quartier français au reste de la ville a été baptisé « pont de la Victoire » en leur honneur. Ces lieux rappellent la mobilisation de centaines, voire de milliers de femmes selon les estimations, pour obtenir la libération de dirigeants du PDCI-RDA emprisonnés.",
+      "regions": [
+        "Grand-Bassam"
+      ],
+      "periode": "depuis 1999",
+      "sensible": true,
+      "note_sensibilite": "Mémoire de la répression coloniale ; la fiche s'appuie sur des travaux d'historiens et sur des récits de militantes.",
+      "sources": [
+        "S64",
+        "S65",
+        "S66"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Les estimations de participantes varient selon les sources (500 ou 2 000)."
+      }
+    }
+  ],
+  "traditions": [
+    {
+      "id": "CI-tradition-attieke",
+      "nom": "Savoir-faire lié à la production de l'attiéké",
+      "categorie": "cuisine",
+      "description": "L'attiéké est un plat de semoule de manioc fermentée cuite à la vapeur, produit par les peuples lagunaires du sud. La préparation va de la culture et de la récolte du manioc au broyage, au mélange avec du manioc fermenté, à la cuisson à la vapeur puis au conditionnement en paniers tapissés de feuilles de manioc. Les femmes préparent, cuisent, conservent et vendent l'attiéké, tandis que les hommes cultivent, récoltent, transportent et broient le manioc ; les savoirs passent par l'oralité et l'observation au sein des familles.",
+      "nom_local": "Attiéké",
+      "communautes": [
+        "peuples lagunaires",
+        "Adioukrou",
+        "Ébrié",
+        "Avikam"
+      ],
+      "regions": [
+        "Lagunes",
+        "Sud"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "02086",
+        "annee": 2024,
+        "url": "https://ich.unesco.org/en/RL/skills-related-to-attieke-production-in-cote-d-ivoire-02086"
+      },
+      "sources": [
+        "S27",
+        "S24"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-tradition-balafon",
+      "nom": "Pratiques culturelles liées au balafon (et au kolintang)",
+      "categorie": "musique",
+      "description": "Le balafon est un xylophone à lames de bois de différentes longueurs, joué au Mali, au Burkina Faso et en Côte d'Ivoire ; son équivalent indonésien est le kolintang. L'UNESCO souligne les ressemblances de matériaux, de formes, de fonctions et de transmission entre les deux familles d'instruments, ainsi que les valeurs de respect mutuel, de tolérance et d'unité qui leur sont associées. L'élément avait d'abord été retenu en 2012 pour le Mali, le Burkina Faso et la Côte d'Ivoire, puis étendu à l'Indonésie en 2024.",
+      "nom_local": "Balafon",
+      "communautes": [
+        "communautés du balafon de Côte d'Ivoire, du Mali et du Burkina Faso"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "02131",
+        "annee": 2024,
+        "url": "https://ich.unesco.org/en/RL/cultural-practices-and-expressions-linked-to-balafon-and-kolintang-in-mali-burkina-faso-cote-d-ivoire-and-indonesia-02131"
+      },
+      "sources": [
+        "S67"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Les régions et peuples ivoiriens précis ne figurent pas dans l'extrait lu : à compléter avec le dossier de candidature."
+      }
+    },
+    {
+      "id": "CI-tradition-pagne-tisse",
+      "nom": "Savoir-faire traditionnels du tissage de pagnes",
+      "categorie": "textile",
+      "description": "Les pagnes ivoiriens se distinguent par leurs techniques de tissage et leurs matières premières : des fils de coton teints de diverses couleurs, tissés en bandes étroites sur un métier conçu par le tisserand, puis cousues entre elles pour former des motifs variés. Les communautés gouro, baoulé, malinké, sénoufo, koulango, nafana et abron les fabriquent, chacune avec ses propres savoir-faire. Chez les Dida, les étoffes sont tissées en fibres de raphia.",
+      "communautes": [
+        "Gouro",
+        "Baoulé",
+        "Malinké",
+        "Sénoufo",
+        "Koulango",
+        "Nafana",
+        "Abron",
+        "Dida"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01949",
+        "annee": 2023,
+        "url": "https://ich.unesco.org/en/RL/traditional-skills-of-loincloth-weaving-in-cote-d-ivoire-01949"
+      },
+      "sources": [
+        "S22"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-tradition-zaouli",
+      "nom": "Zaouli, musique et danse populaires des communautés gouro",
+      "categorie": "danse",
+      "description": "Le zaouli est une musique et une danse pratiquées par les communautés gouro des départements de Bouaflé et de Zuénoula, en hommage à la beauté féminine. Il s'inspire de deux masques, le Blou et le Djela, et réunit dans un même événement sculpture du masque, tissage du costume, musique et danse. Il existe sept types de masques de zaouli, chacun lié à une légende. Sculpteurs, artisans, instrumentistes, chanteurs, danseurs et notables en sont les détenteurs.",
+      "nom_local": "Zaouli (Djela lou Zaouli)",
+      "communautes": [
+        "Gouro"
+      ],
+      "regions": [
+        "Bouaflé",
+        "Zuénoula"
+      ],
+      "langues": [
+        "gouro"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01255",
+        "annee": 2017,
+        "url": "https://ich.unesco.org/en/RL/zaouli-popular-music-and-dance-of-the-guro-communities-in-cote-d-ivoire-01255"
+      },
+      "sensible": true,
+      "note_sensibilite": "Pratique liée à des masques et à des légendes : les détails rituels et la représentation des masques doivent suivre l'avis des communautés gouro.",
+      "sources": [
+        "S19",
+        "S18"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-tradition-gbofe",
+      "nom": "Gbofe d'Afounkaha, musique des trompes traversières de la communauté tagbana",
+      "categorie": "musique",
+      "description": "Le Gbofe est joué surtout dans le village d'Afounkaha, chez les Tagbana : le mot désigne à la fois les trompes traversières et l'ensemble de la performance (musique, chant, danse). Six trompes de 50 à 70 cm, faites de racines recouvertes de peau de vache, imitent les mots de la langue tagbana, que des chœurs de femmes « traduisent » en chant, avec des tambours pour la mesure. Il accompagne rites et cérémonies et porte louange, amour, satire, deuil ou messages éducatifs. L'UNESCO le juge en danger de disparition à cause de la guerre, de l'exode rural et de l'industrialisation.",
+      "nom_local": "Gbofe",
+      "communautes": [
+        "Tagbana"
+      ],
+      "regions": [
+        "Afounkaha"
+      ],
+      "langues": [
+        "tagbana"
+      ],
+      "transmission": "menacée",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "00005",
+        "annee": 2008,
+        "url": "https://ich.unesco.org/en/RL/gbofe-of-afounkaha-the-music-of-the-transverse-trumps-of-the-tagbana-community-00005"
+      },
+      "sensible": true,
+      "note_sensibilite": "Pratique rituelle et cérémonielle ; les messages et usages traditionnels relèvent de la communauté tagbana.",
+      "sources": [
+        "S39",
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Proclamé en 2001, inscrit en 2008."
+      }
+    },
+    {
+      "id": "CI-tradition-goli",
+      "nom": "Masque et danse Goli",
+      "categorie": "danse",
+      "description": "Le Goli est un masque dansé sacré, pratiqué au centre chez les Baoulé et au centre-ouest chez les Wan, groupe gouro de Kounahiri considéré comme son berceau. Le masque baoulé associe un visage de crocodile, un éléphant et deux disques rouges figurant le soleil ; chez les Gouro, il prend la forme d'un heaume à tête de buffle. Autrefois réservé à des cérémonies précises comme les funérailles de chefs, il est devenu aussi un spectacle collectif d'une journée, tout en gardant une part de sacralité.",
+      "nom_local": "Goli",
+      "communautes": [
+        "Baoulé",
+        "Wan (Gouro)"
+      ],
+      "regions": [
+        "Centre",
+        "Centre-Ouest",
+        "Kounahiri"
+      ],
+      "langues": [
+        "baoulé",
+        "gouro"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sensible": true,
+      "note_sensibilite": "Masque sacré lié à des rites funéraires et à des sacrifices : ne pas décrire les rites internes sans l'accord des détenteurs.",
+      "sources": [
+        "S68",
+        "S69",
+        "S70"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Les sources écrivent « Kounanhiri » ; graphie « Kounahiri » ici, à confirmer."
+      }
+    },
+    {
+      "id": "CI-tradition-abissa",
+      "nom": "Abissa, fête du nouvel an N'zima",
+      "categorie": "fete",
+      "description": "L'Abissa est la fête traditionnelle du peuple N'zima, célébrée en octobre et novembre à Grand-Bassam, à Tiapoum et dans plusieurs villages. Wikipédia la fait remonter aux années 1600 et rappelle qu'elle succède à un rite appelé « Kudum ». Elle tourne entre les sous-groupes N'zima de Côte d'Ivoire et du Ghana.",
+      "communautes": [
+        "N'zima"
+      ],
+      "regions": [
+        "Grand-Bassam",
+        "Tiapoum"
+      ],
+      "langues": [
+        "nzema"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sensible": true,
+      "note_sensibilite": "Fête comportant des rites propitiatoires ; la description s'en tient aux éléments publics.",
+      "sources": [
+        "S33",
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source principale Wikipédia : à compléter par une source N'zima ou ministérielle."
+      }
+    },
+    {
+      "id": "CI-tradition-fete-igname",
+      "nom": "Fête des ignames",
+      "categorie": "fete",
+      "description": "La fête des ignames est célébrée chaque année par plusieurs peuples akan de l'est de la Côte d'Ivoire, dont les Agni, Baoulé, Abron, Koulango et Abé. Elle marque la fin d'une bonne récolte vivrière et le nouvel an, et permet de communier avec les esprits des ancêtres. Wikipédia lui prête plus de 300 ans, entre septembre et janvier, avec des rites propres à chaque localité.",
+      "communautes": [
+        "Agni",
+        "Baoulé",
+        "Abron",
+        "Koulango",
+        "Abé"
+      ],
+      "regions": [
+        "Est"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sensible": true,
+      "note_sensibilite": "Contient des rites d'adoration des ancêtres et des objets royaux ; ne pas détailler les rituels sans les communautés.",
+      "sources": [
+        "S71"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia) : à compléter avec une source institutionnelle ivoirienne."
+      }
+    },
+    {
+      "id": "CI-tradition-toile-korhogo",
+      "nom": "Toile de Korhogo (filafani)",
+      "categorie": "textile",
+      "description": "La toile de Korhogo, appelée filafani en sénoufo, est un textile des Sénoufo de Korhogo. Le coton est cultivé, filé et tissé à la main, puis décoré de motifs dessinés au pochoir avec un pigment végétal à base de boue fermentée qui fonce avec le temps. Femmes et hommes participent à sa fabrication, et les motifs puisent dans les symboles humains, naturels et animaux de la culture sénoufo.",
+      "communautes": [
+        "Sénoufo"
+      ],
+      "regions": [
+        "Korhogo"
+      ],
+      "langues": [
+        "sénoufo (sénari)"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S37",
+        "S56"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source principale Wikipédia ; Larousse mentionne seulement le textile à Korhogo."
+      }
+    },
+    {
+      "id": "CI-tradition-zouglou",
+      "nom": "Zouglou",
+      "categorie": "musique",
+      "description": "Le zouglou est un genre musical urbain né en Côte d'Ivoire au début des années 1990 et dominant de la variété ivoirienne pendant une dizaine d'années. Ses textes racontent les réalités sociales de la jeunesse, parfois avec humour, et portent des messages politiques ou contestataires. Il se joue souvent en acoustique, avec des instruments traditionnels, bouteilles et tam-tams.",
+      "communautes": [
+        "jeunesse urbaine"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "periode": "depuis les années 1990",
+      "sources": [
+        "S72"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia) ; l'article RFI Musique prévu n'a pas pu être ouvert. « Abidjan » non attesté par l'extrait lu."
+      }
+    },
+    {
+      "id": "CI-tradition-coupe-decale",
+      "nom": "Coupé-décalé",
+      "categorie": "musique",
+      "description": "Le coupé-décalé est né au début des années 2000 dans la communauté ivoirienne de Paris avant de conquérir la Côte d'Ivoire puis une grande partie de l'Afrique. RFI Musique le décrit comme une musique d'ambiance portée par Douk Saga puis par DJ Arafat, dont les hommages à la disparition en août 2019 ont montré l'ampleur du phénomène. Il prend le contre-pied du zouglou par son goût du divertissement et de la mise en scène.",
+      "communautes": [
+        "communauté ivoirienne de Paris"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "periode": "depuis les années 2000",
+      "sources": [
+        "S73",
+        "S74"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-tradition-ziglibithy",
+      "nom": "Ziglibithy",
+      "categorie": "musique",
+      "description": "Le ziglibithy est un style musical et une danse « tradi-moderne » inspirés des sonorités de l'ouest de la Côte d'Ivoire, chez les Bété et les Dida, et de la culture kroumen. Wikipédia le rattache à Ernesto Djédjé, qui aurait modernisé ces éléments par des transformations instrumentales et l'introduction du funk. Le mot associe zigli, « danse », et bhithy, « chanson sucrée ».",
+      "communautes": [
+        "Bété",
+        "Dida",
+        "Kroumen"
+      ],
+      "regions": [
+        "Ouest"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S75",
+        "S76",
+        "S9"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source principale Wikipédia."
+      }
+    },
+    {
+      "id": "CI-tradition-didiga",
+      "nom": "Didiga des chasseurs bété",
+      "categorie": "oralite",
+      "description": "Le Didiga est une forme d'expression des chasseurs bété que le dramaturge Bernard Zadi Zaourou a fait renaître. Larousse le cite comme exemple de l'enracinement du théâtre ivoirien dans la tradition, qui l'amène à de riches expériences formelles.",
+      "communautes": [
+        "Bété"
+      ],
+      "langues": [
+        "bété (Daloa)"
+      ],
+      "transmission": "revitalisée",
+      "unesco": null,
+      "sources": [
+        "S42",
+        "S9"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Description limitée à ce que dit Larousse ; à compléter avec un travail de Zadi Zaourou ou un article scientifique."
+      }
+    },
+    {
+      "id": "CI-tradition-alloco",
+      "nom": "Alloco",
+      "categorie": "cuisine",
+      "description": "L'alloco est la banane plantain frite. À Treichville, à Abidjan, Marie Koré tenait un « allocodrome », lieu de vente de plantains frites qui employait des jeunes femmes et accueillait des clients de toutes conditions, et où elle a rencontré son futur époux.",
+      "communautes": [
+        "Abidjan"
+      ],
+      "regions": [
+        "Abidjan",
+        "Treichville"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S66",
+        "S77"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Description limitée à l'usage attesté dans les sources ouvertes ; recette et origine à documenter."
+      }
+    }
+  ],
+  "personnalites": [
+    {
+      "id": "CI-personnalite-abla-pokou",
+      "nom": "Abla Pokou",
+      "wikidata": "Q774231",
+      "description": "Abla Pokou est une reine du XVIIIe siècle, associée à la migration des Baoulé depuis l'espace achanti vers l'actuelle Côte d'Ivoire. Larousse situe vers 1717 la querelle avec le roi achanti Opoku Ware qui la conduit à franchir la Comoé et à s'établir près de Bouaké. La tradition orale lui attribue aussi un sacrifice célèbre, que Wikipédia rapporte comme une légende ; sa nièce maintint ensuite l'unité du groupe.",
+      "roles": [
+        "reine",
+        "fondatrice du groupe baoulé"
+      ],
+      "domaines": [
+        "politique",
+        "savoirs"
+      ],
+      "epoque": "XVIIIe siècle",
+      "sources": [
+        "S21",
+        "S7",
+        "S78"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Figure à la fois historique et légendaire : aucune date de naissance ni de décès n'est donnée par les sources ouvertes (Wikidata propose 1730-1770, non retenu)."
+      },
+      "sensible": true,
+      "note_sensibilite": "Récit fondateur mêlant histoire et légende (sacrifice d'un enfant) : à présenter comme tradition orale, avec l'accord de la communauté baoulé."
+    },
+    {
+      "id": "CI-personnalite-houphouet-boigny",
+      "nom": "Félix Houphouët-Boigny",
+      "wikidata": "Q214407",
+      "description": "Médecin et planteur issu de notables baoulé, Félix Houphouët-Boigny fonde en 1944 le Syndicat agricole africain, devient député à Paris en 1945 et attache son nom à la loi du 16 avril 1946 abolissant le travail forcé. Il crée le PDCI en 1946, préside le RDA jusqu'en 1959, puis devient le premier président de la Côte d'Ivoire indépendante, de 1960 à sa mort en 1993. Larousse décrit un pouvoir paternaliste, soutenu par la croissance du « miracle ivoirien » mais sans opposition tolérée jusqu'en 1990.",
+      "naissance": {
+        "date": "1905-10-18",
+        "lieu": "Yamoussoukro (date officielle, discutée)"
+      },
+      "deces": {
+        "date": "1993-12",
+        "lieu": "Yamoussoukro"
+      },
+      "roles": [
+        "médecin",
+        "planteur",
+        "chef de canton",
+        "député",
+        "ministre",
+        "président de la République"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S79",
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Larousse précise que la date de naissance officielle (18 octobre 1905) reste incertaine, certains proposant 1898."
+      }
+    },
+    {
+      "id": "CI-personnalite-marie-kore",
+      "nom": "Marie Koré",
+      "wikidata": "Q109044416",
+      "description": "Marie Koré fut l'une des figures de la marche des femmes sur Grand-Bassam de décembre 1949. Responsable du comité des femmes du PDCI à Treichville, elle tenait un « allocodrome » où elle employait de jeunes femmes. Frappée et blessée pendant la marche, elle fut condamnée à deux mois de prison selon Wikipédia, et un timbre à son effigie a été édité. Les circonstances de sa mort en 1953 restent débattues.",
+      "naissance": {
+        "date": "1912",
+        "lieu": "Gossa (Daloa)"
+      },
+      "deces": {
+        "date": "1953",
+        "lieu": "Treichville (Abidjan)"
+      },
+      "roles": [
+        "militante du PDCI-RDA",
+        "commerçante"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S66",
+        "S65",
+        "S77",
+        "S64"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance « vers 1910-1912 » selon Capire ; 1912 retenu comme dans Wikipédia. Lieu de décès : hôpital annexe de Treichville (Capire), circonstances discutées."
+      }
+    },
+    {
+      "id": "CI-personnalite-anne-marie-raggi",
+      "nom": "Anne-Marie Raggi",
+      "wikidata": "Q112945529",
+      "description": "Anne-Marie Raggi dirigeait la section féminine du PDCI à Grand-Bassam à la fin de 1949. L'historienne Elizabeth Jacob rapporte que l'idée d'un boycott des produits français, relayée par Gabriel d'Arboussier, lui est attribuée. Elle fait partie des meneuses de la marche du 24 décembre 1949, puis siégea au Conseil économique et social de 1976 à 2000.",
+      "naissance": {
+        "date": "1918-10-08",
+        "lieu": "Lauzoua (Divo)"
+      },
+      "deces": {
+        "date": "2004-10-19",
+        "lieu": "Abidjan"
+      },
+      "roles": [
+        "militante du PDCI-RDA",
+        "conseillère économique et sociale"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S65",
+        "S66",
+        "S80",
+        "S64"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates et lieux issus de l'article Wikipédia (en) ; non recoupés par une source institutionnelle."
+      }
+    },
+    {
+      "id": "CI-personnalite-henriette-diabate",
+      "nom": "Henriette Diabaté",
+      "wikidata": "Q3132469",
+      "description": "Historienne et femme politique, Henriette Diabaté a enseigné l'histoire à l'université d'Abidjan. Ministre de la Culture à partir de 1990, elle a fondé le Marché des arts et du spectacle africains (Masa), selon Jeune Afrique. Son livre « La marche des femmes sur Grand-Bassam » (1975) reste, selon l'historienne Elizabeth Jacob, le récit le plus complet de la marche de 1949.",
+      "naissance": {
+        "date": "1935-03-13",
+        "lieu": "Bingerville"
+      },
+      "roles": [
+        "historienne",
+        "ministre de la Culture",
+        "autrice"
+      ],
+      "domaines": [
+        "politique",
+        "savoirs",
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S81",
+        "S65",
+        "S82"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance lue sur Wikipédia seulement ; Jeune Afrique ne la donne pas."
+      }
+    },
+    {
+      "id": "CI-personnalite-bernard-dadie",
+      "nom": "Bernard Binlin Dadié",
+      "wikidata": "Q822315",
+      "description": "Né à Assinie, Bernard Dadié est l'un des grands écrivains de la première génération africaine d'expression française, avec Senghor et Césaire d'après Larousse. Journaliste, il participe à la fondation de la revue Présence africaine ; il écrit contes, poèmes, romans et surtout du théâtre, qui offre un regard souvent ironique sur l'Afrique contemporaine. Son roman Climbié (1956) est considéré comme le premier roman ivoirien. Un article de la revue Journal of African History cite ses textes écrits en prison pendant la marche des femmes de décembre 1949.",
+      "naissance": {
+        "date": "1916-01-10",
+        "lieu": "Assinie"
+      },
+      "deces": {
+        "date": "2019-03-09",
+        "lieu": "Abidjan"
+      },
+      "roles": [
+        "écrivain",
+        "journaliste",
+        "dramaturge",
+        "homme politique"
+      ],
+      "domaines": [
+        "littérature",
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S83",
+        "S45",
+        "S42",
+        "S65",
+        "S60"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Décès (2019) lu sur Wikipédia seulement ; Larousse (version ancienne) ne le mentionne pas."
+      }
+    },
+    {
+      "id": "CI-personnalite-ahmadou-kourouma",
+      "nom": "Ahmadou Kourouma",
+      "wikidata": "Q401023",
+      "description": "Écrivain malinké de nationalité ivoirienne, Ahmadou Kourouma a renouvelé le roman africain en français avec Les Soleils des indépendances (1968), où il critique les régimes issus de la décolonisation dans une écriture métissée de malinké. Il publie ensuite Monnè, outrages et défis (1990), En attendant le vote des bêtes sauvages (1998) et Allah n'est pas obligé (2000), couronné par le prix Renaudot et le Goncourt des lycéens. Larousse le tient pour le plus célèbre des écrivains ivoiriens.",
+      "naissance": {
+        "date": "1927-11-24",
+        "lieu": "Togobala (Guinée) selon Larousse ; Boundiali selon Wikipédia"
+      },
+      "deces": {
+        "date": "2003-12-11",
+        "lieu": "Lyon (Bron selon Wikipédia)"
+      },
+      "roles": [
+        "romancier",
+        "dramaturge"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S84",
+        "S85",
+        "S86"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Désaccord entre Larousse (Togobala, Guinée) et Wikipédia (Boundiali) sur le lieu de naissance ; à trancher avec une source biographique."
+      }
+    },
+    {
+      "id": "CI-personnalite-jean-marie-adiaffi",
+      "nom": "Jean-Marie Adiaffi",
+      "wikidata": "Q2756854",
+      "description": "Écrivain né à Bettié, Jean-Marie Adiaffi a fait des études de cinéma puis de philosophie en France. Son roman La Carte d'identité (1980) a reçu le grand prix littéraire d'Afrique noire. Larousse le présente aussi comme un poète puissant, soumettant la langue française à des rythmes africains, notamment dans D'éclairs et de foudre et La Galerie infernale.",
+      "naissance": {
+        "date": "1941",
+        "lieu": "Bettié"
+      },
+      "deces": {
+        "date": "1999",
+        "lieu": "Abidjan"
+      },
+      "roles": [
+        "écrivain",
+        "poète",
+        "cinéaste"
+      ],
+      "domaines": [
+        "littérature",
+        "arts"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S87",
+        "S42"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-personnalite-veronique-tadjo",
+      "nom": "Véronique Tadjo",
+      "wikidata": "Q443404",
+      "description": "Née à Paris d'un père ivoirien et d'une mère française, Véronique Tadjo a grandi en Côte d'Ivoire. Poétesse, romancière et autrice pour la jeunesse, elle illustre aussi ses livres. Larousse cite Latérite (1984), À vol d'oiseau (1986), Le Royaume aveugle (1990) et L'Ombre d'Imana (2000), né d'un séjour au Rwanda en 1988. Elle a dirigé le département de français de l'université du Witwatersrand à Johannesburg.",
+      "naissance": {
+        "date": "1955-07-21",
+        "lieu": "Paris"
+      },
+      "roles": [
+        "écrivaine",
+        "poétesse",
+        "illustratrice",
+        "enseignante"
+      ],
+      "domaines": [
+        "littérature",
+        "arts"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S88",
+        "S89"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-personnalite-marguerite-abouet",
+      "nom": "Marguerite Abouet",
+      "wikidata": "Q3028789",
+      "description": "Née à Abidjan, Marguerite Abouet a mené une carrière juridique avant de se consacrer à l'écriture. Elle est la scénariste d'Aya de Yopougon, bande dessinée dessinée par Clément Oubrerie, qui décrit avec humour une Afrique loin des clichés de guerre et de famine. Wikipédia indique que le premier album a reçu le prix du premier album au Festival d'Angoulême en 2006.",
+      "naissance": {
+        "date": "1971",
+        "lieu": "Abidjan"
+      },
+      "roles": [
+        "scénariste",
+        "écrivaine"
+      ],
+      "domaines": [
+        "littérature",
+        "arts"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S90",
+        "S91",
+        "S92"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année de naissance lue sur Wikipédia ; Gallimard indique seulement « née à Abidjan »."
+      }
+    },
+    {
+      "id": "CI-personnalite-bruly-bouabre",
+      "nom": "Frédéric Bruly Bouabré",
+      "wikidata": "Q2071033",
+      "description": "Artiste et poète né dans la région de Daloa, Frédéric Bruly Bouabré a connu en mars 1948 une expérience mystique qui l'a conduit à inventer une écriture pour noter le bété : un syllabaire de plus de 400 pictogrammes, que Théodore Monod a analysé en 1958. Il est aussi l'auteur d'une importante série de dessins à la bille et au crayon de couleur sur de petits cartons, qui racontent des traditions vivantes.",
+      "naissance": {
+        "date": "1923",
+        "lieu": "Zéprégühé (région de Daloa)"
+      },
+      "deces": {
+        "date": "2014-01-28",
+        "lieu": "Abidjan"
+      },
+      "roles": [
+        "artiste",
+        "poète",
+        "inventeur d'une écriture"
+      ],
+      "domaines": [
+        "arts",
+        "savoirs"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S10",
+        "S93"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance en 1923 selon Larousse et Wikipédia, 1921 selon d'autres sources ; décès lu sur Wikipédia seulement."
+      }
+    },
+    {
+      "id": "CI-personnalite-desire-ecare",
+      "nom": "Désiré Écaré",
+      "wikidata": "Q3045209",
+      "description": "Réalisateur né à Treichville, Désiré Écaré a débuté comme acteur de théâtre avant de fonder sa maison de production, Les Films de la Lagune, pour tourner Concerto pour un exil, son premier film. Il est l'auteur de Visages de femmes (1985), comédie dramatique qui suit les destinées différentes de plusieurs femmes, en ville comme en brousse, face au poids de la tradition.",
+      "naissance": {
+        "date": "1939-04-15",
+        "lieu": "Treichville (Abidjan)"
+      },
+      "deces": {
+        "date": "2009-02-16",
+        "lieu": "Abidjan"
+      },
+      "roles": [
+        "réalisateur",
+        "acteur"
+      ],
+      "domaines": [
+        "arts",
+        "cinéma"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S94",
+        "S95"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates et lieux lus sur Wikipédia ; Larousse ne documente que le film."
+      }
+    },
+    {
+      "id": "CI-personnalite-alpha-blondy",
+      "nom": "Alpha Blondy",
+      "wikidata": "Q323213",
+      "description": "Alpha Blondy, de son vrai nom Seydou Koné, a imposé un reggae très imprégné de rythmes africains en Afrique de l'Ouest dès les années 1980. Son premier disque, Jah Glory (1983), contenait « Brigadier Sabari », chanté en dioula. RFI Musique raconte qu'il a vécu à Monrovia et à New York, où il a découvert le reggae, avant d'être surnommé le « Marley » ivoirien.",
+      "naissance": {
+        "date": "1953-01-01",
+        "lieu": "Dimbokro"
+      },
+      "roles": [
+        "chanteur",
+        "auteur-compositeur"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S96",
+        "S97"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "RFI Musique écrit qu'il « serait né » le 1er janvier 1953 : date et lieu à recouper."
+      }
+    },
+    {
+      "id": "CI-personnalite-tiken-jah-fakoly",
+      "nom": "Tiken Jah Fakoly",
+      "wikidata": "Q263170",
+      "description": "Tiken Jah Fakoly, de son vrai nom Doumbia Moussa Fakoly, est un chanteur de reggae malinké issu d'une famille de griots. Il est devenu célèbre en Afrique de l'Ouest avec « Mangercratie » (1996) et a reçu le prix RFI Découvertes Afrique en 2000. Ses textes expriment les préoccupations de la jeunesse face aux difficultés politiques.",
+      "naissance": {
+        "date": "1968-06-23",
+        "lieu": "Odienné"
+      },
+      "roles": [
+        "chanteur",
+        "auteur-compositeur"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S98",
+        "S99"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-personnalite-dobet-gnahore",
+      "nom": "Dobet Gnahoré",
+      "wikidata": "Q458985",
+      "description": "Fille du percussionniste Boni Gnahoré, Dobet Gnahoré a grandi en Côte d'Ivoire avant d'entrer à douze ans au Ki Yi Mbock, centre fondé à Abidjan par l'autrice camerounaise Werewere Liking pour former aux métiers des arts et du spectacle. Chanteuse, danseuse et musicienne, elle chante en plusieurs langues africaines dont le malinké et le wolof. Elle a reçu un Grammy Award le 31 janvier 2010 pour « Pearls », en duo avec India.Arie.",
+      "naissance": {
+        "date": "1982-06-17",
+        "lieu": "Côte d'Ivoire"
+      },
+      "roles": [
+        "chanteuse",
+        "danseuse",
+        "musicienne"
+      ],
+      "domaines": [
+        "musique",
+        "danse"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S100",
+        "S101",
+        "S102"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lieu précis de naissance non fixé par les sources lues (franceinfo : « originaire d'Abidjan »)."
+      }
+    },
+    {
+      "id": "CI-personnalite-didier-drogba",
+      "nom": "Didier Drogba",
+      "wikidata": "Q48892",
+      "description": "Né à Abidjan le 11 mars 1978, Didier Drogba a passé l'essentiel de son enfance en France, où il a commencé sa carrière professionnelle au Mans à vingt ans. Attaquant à Marseille puis à Chelsea, il a remporté la Ligue des champions en 2012. Les supporters de Chelsea l'ont élu meilleur joueur de l'histoire du club en 2012, après 157 buts en 341 matchs. Il a créé la Fondation Didier Drogba.",
+      "naissance": {
+        "date": "1978-03-11",
+        "lieu": "Abidjan"
+      },
+      "roles": [
+        "footballeur",
+        "fondateur de fondation"
+      ],
+      "domaines": [
+        "sport"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S103",
+        "S104",
+        "S105"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-personnalite-marie-josee-ta-lou",
+      "nom": "Marie-Josée Ta Lou",
+      "wikidata": "Q17497076",
+      "description": "Sprinteuse née à Bouaflé, Marie-Josée Ta Lou a décroché, selon World Athletics, deux médailles d'argent et une de bronze aux championnats du monde, plus une médaille d'argent aux championnats du monde en salle ; elle compte aussi cinq places dans les huit premiers aux Jeux olympiques. Elle détient le record national du 100 m avec 10 s 72, couru le 10 août 2022. Olympedia la compte parmi les porte-drapeaux de la Côte d'Ivoire.",
+      "naissance": {
+        "date": "1988-11-18",
+        "lieu": "Bouaflé"
+      },
+      "roles": [
+        "athlète"
+      ],
+      "domaines": [
+        "sport"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S106",
+        "S107"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Record 10 s 72 marqué « NR » (record national) et « AR » (record d'Afrique) sur World Athletics."
+      }
+    },
+    {
+      "id": "CI-personnalite-murielle-ahoure",
+      "nom": "Murielle Ahouré",
+      "wikidata": "Q2777914",
+      "description": "Sprinteuse née à Abidjan, Murielle Ahouré est double vice-championne du monde (World Athletics) et championne du monde en salle, et a remporté la finale de la Diamond League. Son record du 60 m, 6 s 97 le 2 mars 2018, est aussi un record d'Afrique. Olympedia la signale parmi les porte-drapeaux de la Côte d'Ivoire aux Jeux olympiques.",
+      "naissance": {
+        "date": "1987-08-23",
+        "lieu": "Abidjan"
+      },
+      "roles": [
+        "athlète"
+      ],
+      "domaines": [
+        "sport"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S108",
+        "S109"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "evenements": [
+    {
+      "id": "CI-evenement-ogolien-bingerville",
+      "titre": "Occupation humaine ancienne à Bingerville (Ogolien)",
+      "date": "-022999-01-01",
+      "date_affichee": "entre 25 000 et 13 000 ans avant le présent",
+      "precision": "siecle",
+      "description": "Wikipédia cite Bingerville comme l'un des deux principaux sites ouest-africains, avec Iwo Eleru au Nigeria, prouvant avec certitude une occupation humaine de l'Ogolien, entre 25 000 et 13 000 ans avant le présent. Larousse rappelle plus largement que les plus anciennes implantations du territoire se trouvent sur la lagune côtière.",
+      "fin": "-010999-12-31",
+      "regions": [
+        "Bingerville",
+        "Lagunes"
+      ],
+      "sources": [
+        "S58",
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Datation en années avant le présent donnée par Wikipédia (référence non rouverte) ; conversion approximative en années avant J.-C. à vérifier avec une source archéologique."
+      }
+    },
+    {
+      "id": "CI-evenement-royaume-kong",
+      "titre": "Royaume dioula de Kong",
+      "date": "1700-01-01",
+      "date_affichee": "première moitié du XVIIIe siècle",
+      "precision": "siecle",
+      "description": "Dans la savane du nord, la ville de Kong devient le centre d'un royaume dioula, fondé par la dynastie Ouattara, qui contrôle le commerce de l'or, de la kola, des armes, du sel, du bétail et des chevaux. Larousse précise que cet empire n'eut qu'une existence éphémère, mais que Kong brilla par son commerce et son rayonnement culturel.",
+      "fin": "1749-12-31",
+      "acteurs": [
+        "Dioula",
+        "dynastie Ouattara"
+      ],
+      "regions": [
+        "Kong",
+        "Nord"
+      ],
+      "sources": [
+        "S21",
+        "S40",
+        "S55"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-evenement-portugais-1469",
+      "titre": "Arrivée des navigateurs portugais sur la côte",
+      "date": "1469-01-01",
+      "date_affichee": "1469",
+      "precision": "annee",
+      "description": "Des navigateurs portugais abordent le littoral actuel de la Côte d'Ivoire et fondent des comptoirs à Bassam et à Sassandra, d'après Larousse. Des Hollandais, puis des Français, leur succèdent, pour un commerce d'ivoire, de poivre et d'esclaves.",
+      "acteurs": [
+        "navigateurs portugais"
+      ],
+      "regions": [
+        "Littoral"
+      ],
+      "sources": [
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-evenement-assinie-francais",
+      "titre": "Établissement français d'Assinie",
+      "date": "1687-01-01",
+      "date_affichee": "1687-1705",
+      "precision": "annee",
+      "description": "Les Français tiennent un établissement à Assinie de 1687 à 1705, avant leur retour plus durable au XIXe siècle. Les Agni avaient fondé dans cette zone le royaume littoral d'Assinie.",
+      "fin": "1705-12-31",
+      "acteurs": [
+        "Français",
+        "Agni"
+      ],
+      "regions": [
+        "Assinie"
+      ],
+      "sources": [
+        "S21",
+        "S59"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-evenement-migration-baoule",
+      "titre": "Migration des Baoulé conduite par Abla Pokou",
+      "date": "1717-01-01",
+      "date_affichee": "vers 1717",
+      "precision": "annee",
+      "description": "Vers 1717, une querelle entre le roi achanti Opoku Ware et la reine Abla Pokou conduit celle-ci à franchir la Comoé et à s'installer près de Bouaké avec un groupe qui prend le nom de Baoulé. Le royaume fut éphémère : après la mort de sa nièce sur un champ de bataille, les Baoulé se dispersèrent, et seuls les clans subsistèrent comme trace de leur organisation sociale.",
+      "acteurs": [
+        "Abla Pokou",
+        "Baoulé",
+        "Opoku Ware"
+      ],
+      "regions": [
+        "Bouaké",
+        "Centre"
+      ],
+      "sources": [
+        "S21",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-evenement-implantation-francaise-1842",
+      "titre": "Début de l'implantation française sur la côte",
+      "date": "1842-01-01",
+      "date_affichee": "à partir de 1842",
+      "precision": "annee",
+      "description": "Larousse date de 1842 le début de la présence française durable, après l'épisode d'Assinie. Wikipédia mentionne la construction de Fort-Nemours à Grand-Bassam en 1843. Les premiers traités de protectorat furent négociés par de jeunes administrateurs comme Treich-Laplène, Binger et Delafosse.",
+      "acteurs": [
+        "administrateurs français"
+      ],
+      "regions": [
+        "Grand-Bassam"
+      ],
+      "sources": [
+        "S21",
+        "S35"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "1842 selon Larousse, 1843 pour Fort-Nemours selon Wikipédia."
+      }
+    },
+    {
+      "id": "CI-evenement-colonie-1893",
+      "titre": "La Côte d'Ivoire devient colonie française",
+      "date": "1893-03-10",
+      "date_affichee": "10 mars 1893",
+      "precision": "jour",
+      "description": "La Côte d'Ivoire est érigée en colonie française en 1893 ; Wikipédia donne la date du 10 mars. Louis-Gustave Binger en est le premier gouverneur, et Grand-Bassam la première capitale. La conquête du centre du pays se heurte à une vive résistance des Gouro et des Baoulé.",
+      "acteurs": [
+        "administration coloniale française",
+        "Gouro",
+        "Baoulé"
+      ],
+      "regions": [
+        "Grand-Bassam"
+      ],
+      "sources": [
+        "S21",
+        "S3",
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-evenement-kong-detruite-1897",
+      "titre": "Destruction de Kong par Samory Touré",
+      "date": "1897-05-01",
+      "date_affichee": "mai 1897",
+      "precision": "mois",
+      "description": "En mai 1897, Samory Touré se présente devant Kong, dont la défense n'était plus assurée, et rase la ville. Larousse décrit une ville marchande aux maisons à terrasse de style soudanais, aux cinq mosquées et à leurs medersa, protégée par des remparts. Wikipédia ajoute que les Français la récupèrent six mois plus tard et la reconstruisent.",
+      "acteurs": [
+        "Samory Touré"
+      ],
+      "regions": [
+        "Kong"
+      ],
+      "sources": [
+        "S21",
+        "S55"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-evenement-samory-capture-1898",
+      "titre": "Défaite et arrestation de Samory Touré",
+      "date": "1898-01-01",
+      "date_affichee": "1898",
+      "precision": "annee",
+      "description": "Après avoir conquis le nord de la Côte d'Ivoire, Samory Touré, chef malinké, est arrêté par l'armée française en 1898 et exilé au Gabon, d'après Larousse. Des troubles sporadiques durent cependant jusqu'à la Première Guerre mondiale.",
+      "acteurs": [
+        "Samory Touré",
+        "armée française"
+      ],
+      "regions": [
+        "Nord"
+      ],
+      "sources": [
+        "S110",
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-evenement-abidjan-capitale-1934",
+      "titre": "Abidjan devient capitale de la colonie",
+      "date": "1934-01-01",
+      "date_affichee": "1934",
+      "precision": "annee",
+      "description": "Après Grand-Bassam puis Bingerville, Abidjan devient en 1934 la capitale de la colonie, lors d'une réforme rattachant une partie de la Haute-Volta. Elle conservera ce rôle jusqu'en 1983.",
+      "regions": [
+        "Abidjan"
+      ],
+      "sources": [
+        "S21",
+        "S62"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-evenement-saa-1944",
+      "titre": "Fondation du Syndicat agricole africain",
+      "date": "1944-09-03",
+      "date_affichee": "3 septembre 1944",
+      "precision": "jour",
+      "description": "Félix Houphouët fonde le Syndicat agricole africain, qui réclame la hausse des salaires et l'abolition du travail forcé et regroupe rapidement quelque 20 000 planteurs, selon Larousse. Cette base le mène à être élu député à l'Assemblée constituante française en 1945.",
+      "acteurs": [
+        "Félix Houphouët-Boigny",
+        "planteurs africains"
+      ],
+      "sources": [
+        "S79",
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-evenement-abolition-travail-force-1946",
+      "titre": "Loi abolissant le travail forcé",
+      "date": "1946-04-16",
+      "date_affichee": "16 avril 1946",
+      "precision": "jour",
+      "description": "La loi du 16 avril 1946, associée au nom de Félix Houphouët-Boigny, supprime le travail forcé dans les territoires français d'outre-mer. Elle lui vaut une notoriété bien au-delà de la Côte d'Ivoire.",
+      "acteurs": [
+        "Félix Houphouët-Boigny"
+      ],
+      "sources": [
+        "S21",
+        "S79"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-evenement-pdci-1946",
+      "titre": "Création du PDCI",
+      "date": "1946-04-30",
+      "date_affichee": "30 avril 1946",
+      "precision": "jour",
+      "description": "Le 30 avril 1946, Houphouët-Boigny transforme son comité électoral en Parti démocratique de Côte d'Ivoire (PDCI). Celui-ci devient le fer de lance du Rassemblement démocratique africain (RDA), fondé à Bamako le 18 octobre 1946.",
+      "acteurs": [
+        "Félix Houphouët-Boigny",
+        "PDCI",
+        "RDA"
+      ],
+      "sources": [
+        "S79"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-evenement-marche-femmes-1949",
+      "titre": "Marche des femmes sur Grand-Bassam",
+      "date": "1949-12-22",
+      "date_affichee": "22-24 décembre 1949",
+      "precision": "jour",
+      "description": "Des femmes du PDCI-RDA marchent d'Abidjan à Grand-Bassam, à environ 40 km, pour obtenir la libération de dirigeants du parti emprisonnés sans jugement et en grève de la faim. Le 24 décembre, face aux forces de l'ordre qui usent de gaz lacrymogène, elles sont, selon l'historienne Elizabeth Jacob, deux mille ; d'autres sources parlent de 500. Le mouvement est devenu un symbole de la résistance des femmes à la colonisation.",
+      "fin": "1949-12-24",
+      "acteurs": [
+        "Marie Koré",
+        "Anne-Marie Raggi",
+        "femmes du PDCI-RDA"
+      ],
+      "regions": [
+        "Abidjan",
+        "Grand-Bassam"
+      ],
+      "sources": [
+        "S65",
+        "S66",
+        "S64"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Participation estimée à 500 (Capire) ou 2 000 (Cambridge) : fourchette à présenter comme telle."
+      }
+    },
+    {
+      "id": "CI-evenement-climbie-1956",
+      "titre": "Publication de Climbié de Bernard Dadié",
+      "date": "1956-01-01",
+      "date_affichee": "1956",
+      "precision": "annee",
+      "description": "Le roman ivoirien naît en 1956 avec Climbié de Bernard Dadié, selon Larousse. Largement autobiographique, il retrace un parcours commun aux intellectuels de la première génération.",
+      "acteurs": [
+        "Bernard Binlin Dadié"
+      ],
+      "sources": [
+        "S42",
+        "S83",
+        "S111"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-evenement-independance-1960",
+      "titre": "Indépendance de la Côte d'Ivoire",
+      "date": "1960-08-07",
+      "date_affichee": "7 août 1960",
+      "precision": "jour",
+      "description": "Le 7 août 1960, la Côte d'Ivoire accède à l'indépendance et Félix Houphouët-Boigny est élu premier président de la République. Il sera candidat unique à chaque élection jusqu'en 1990, d'après Larousse.",
+      "acteurs": [
+        "Félix Houphouët-Boigny"
+      ],
+      "sources": [
+        "S21",
+        "S79",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-evenement-soleils-1968",
+      "titre": "Parution des Soleils des indépendances",
+      "date": "1968-01-01",
+      "date_affichee": "1968",
+      "precision": "annee",
+      "description": "Le roman d'Ahmadou Kourouma paraît en 1968 et rompt avec la dénonciation du système colonial pour regarder les pays devenus indépendants. Écrit en français nourri de malinké, il suit un vieux prince déchu, Fama Doumbouya.",
+      "acteurs": [
+        "Ahmadou Kourouma"
+      ],
+      "sources": [
+        "S84",
+        "S112"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-evenement-yamoussoukro-1983",
+      "titre": "Yamoussoukro devient capitale",
+      "date": "1983-01-01",
+      "date_affichee": "1983",
+      "precision": "annee",
+      "description": "En 1983, Yamoussoukro, ville nouvelle créée sur l'emplacement du village natal d'Houphouët-Boigny, succède à Abidjan comme capitale. Abidjan reste le principal centre économique.",
+      "acteurs": [
+        "Félix Houphouët-Boigny"
+      ],
+      "regions": [
+        "Yamoussoukro"
+      ],
+      "sources": [
+        "S52",
+        "S62"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-evenement-basilique-1990",
+      "titre": "Consécration de la basilique de Yamoussoukro",
+      "date": "1990-09-10",
+      "date_affichee": "10 septembre 1990",
+      "precision": "jour",
+      "description": "Le pape Jean-Paul II consacre la basilique Notre-Dame-de-la-Paix, construite entre 1986 et 1989 à l'initiative de Félix Houphouët-Boigny. Des personnalités politiques étrangères, dont Jacques Chirac, alors maire de Paris, assistent à la cérémonie.",
+      "acteurs": [
+        "Jean-Paul II",
+        "Félix Houphouët-Boigny"
+      ],
+      "regions": [
+        "Yamoussoukro"
+      ],
+      "sources": [
+        "S51",
+        "S52"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-evenement-multipartisme-1990",
+      "titre": "Ouverture au multipartisme et première présidentielle pluraliste",
+      "date": "1990-01-01",
+      "date_affichee": "1990",
+      "precision": "annee",
+      "description": "Sous la pression d'un « vent d'Est » à partir de 1989, Houphouët-Boigny accepte le multipartisme. Il affronte pour la première fois un challenger, Laurent Gbagbo, à l'élection présidentielle de 1990 et l'emporte avec plus de 80 % des voix, avec 30 % d'abstentions. Alassane Ouattara est nommé en novembre 1990 au poste nouvellement créé de Premier ministre.",
+      "acteurs": [
+        "Félix Houphouët-Boigny",
+        "Laurent Gbagbo",
+        "Alassane Ouattara"
+      ],
+      "sources": [
+        "S21",
+        "S113"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-evenement-mort-houphouet-1993",
+      "titre": "Mort de Félix Houphouët-Boigny",
+      "date": "1993-12-01",
+      "date_affichee": "décembre 1993",
+      "precision": "mois",
+      "description": "Le président meurt en décembre 1993 ; son mandat est achevé, selon la Constitution, par le président de l'Assemblée, Henri Konan Bédié. Larousse parle d'une succession sous tension.",
+      "acteurs": [
+        "Félix Houphouët-Boigny",
+        "Henri Konan Bédié"
+      ],
+      "sources": [
+        "S21",
+        "S79",
+        "S114"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-evenement-coup-1999",
+      "titre": "Renversement du président Bédié",
+      "date": "1999-12-24",
+      "date_affichee": "24 décembre 1999",
+      "precision": "jour",
+      "description": "Le président Henri Konan Bédié est destitué au terme d'une mutinerie de jeunes soldats. Le général Robert Gueï devient le nouvel homme fort du pays.",
+      "acteurs": [
+        "Henri Konan Bédié",
+        "Robert Gueï"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement récent ou lié à un conflit politique : présentation neutre, positions des parties et de l'ONU attribuées à leurs sources ; en attente de validation par un historien.",
+      "sources": [
+        "S21",
+        "S114"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-evenement-soulevement-2002",
+      "titre": "Soulèvement armé du 19 septembre 2002",
+      "date": "2002-09-19",
+      "date_affichee": "19 septembre 2002",
+      "precision": "jour",
+      "description": "Dans la nuit du 18 au 19 septembre 2002, des militaires prennent plusieurs sites à Abidjan, à Bouaké et à Korhogo. Les forces loyalistes reprennent Abidjan, mais le nord reste aux mains des rebelles, et le pays est coupé en deux. La France renforce ses effectifs (opération Licorne) et des forces de la CEDEAO sont envoyées.",
+      "acteurs": [
+        "MPCI",
+        "armée ivoirienne",
+        "France",
+        "CEDEAO"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement récent ou lié à un conflit politique : présentation neutre, positions des parties et de l'ONU attribuées à leurs sources ; en attente de validation par un historien.",
+      "sources": [
+        "S21",
+        "S115"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-evenement-linas-marcoussis-2003",
+      "titre": "Accord de Linas-Marcoussis",
+      "date": "2003-01-24",
+      "date_affichee": "24 janvier 2003",
+      "precision": "jour",
+      "description": "Réunis en France du 15 au 24 janvier 2003, le camp présidentiel, les rebelles et l'opposition non armée signent un accord prévoyant un gouvernement de réconciliation nationale. L'accord est contesté à Abidjan par les partisans du président, et un compromis est trouvé à Accra le 8 mars 2003.",
+      "acteurs": [
+        "Laurent Gbagbo",
+        "Forces nouvelles",
+        "France"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement récent ou lié à un conflit politique : présentation neutre, positions des parties et de l'ONU attribuées à leurs sources ; en attente de validation par un historien.",
+      "sources": [
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-evenement-ouagadougou-2007",
+      "titre": "Accord de Ouagadougou",
+      "date": "2007-03-04",
+      "date_affichee": "4 mars 2007",
+      "precision": "jour",
+      "description": "Le 4 mars 2007, des négociations directes entre Laurent Gbagbo et Guillaume Soro, secrétaire général des Forces nouvelles, débouchent sur un accord de paix prévoyant le démantèlement des milices et l'intégration des militaires rebelles. Guillaume Soro devient Premier ministre en mars 2007.",
+      "acteurs": [
+        "Laurent Gbagbo",
+        "Guillaume Soro",
+        "Blaise Compaoré"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement récent ou lié à un conflit politique : présentation neutre, positions des parties et de l'ONU attribuées à leurs sources ; en attente de validation par un historien.",
+      "sources": [
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-evenement-crise-post-electorale-2010",
+      "titre": "Présidentielle de 2010 et crise post-électorale",
+      "date": "2010-10-31",
+      "date_affichee": "31 octobre 2010 - 11 avril 2011",
+      "precision": "jour",
+      "description": "Après le scrutin des 31 octobre et 28 novembre 2010, la Commission électorale indépendante donne Alassane Ouattara vainqueur avec plus de 54 %, résultat avalisé par les Nations unies et l'Union africaine. Le Conseil constitutionnel invalide des votes dans le Nord et proclame Laurent Gbagbo élu avec 51,45 %. Les deux camps prêtent serment, la crise devient un conflit armé et Laurent Gbagbo est arrêté le 11 avril 2011 ; des violences contre des civils sont rapportées.",
+      "fin": "2011-04-11",
+      "acteurs": [
+        "Alassane Ouattara",
+        "Laurent Gbagbo",
+        "Nations unies",
+        "Union africaine"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement récent ou lié à un conflit politique : présentation neutre, positions des parties et de l'ONU attribuées à leurs sources ; en attente de validation par un historien.",
+      "sources": [
+        "S21",
+        "S116",
+        "S113"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-evenement-grand-bassam-unesco-2012",
+      "titre": "Inscription de Grand-Bassam au patrimoine mondial",
+      "date": "2012-01-01",
+      "date_affichee": "2012",
+      "precision": "annee",
+      "description": "La ville historique de Grand-Bassam est inscrite sur la Liste du patrimoine mondial de l'UNESCO au titre des critères (iii) et (iv).",
+      "regions": [
+        "Grand-Bassam"
+      ],
+      "sources": [
+        "S32",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-evenement-constitution-2016",
+      "titre": "Constitution de la IIIe République",
+      "date": "2016-10-30",
+      "date_affichee": "30 octobre 2016",
+      "precision": "jour",
+      "description": "Le texte est approuvé par référendum le 30 octobre 2016 par 93,4 % des votants, pour 42,2 % de participation, l'opposition ayant appelé au boycott. Il supprime la condition d'« ivoirité » pour accéder à la présidence, crée un poste de vice-président et un Sénat.",
+      "sensible": true,
+      "note_sensibilite": "Événement récent ou lié à un conflit politique : présentation neutre, positions des parties et de l'ONU attribuées à leurs sources ; en attente de validation par un historien.",
+      "sources": [
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-evenement-zaouli-2017",
+      "titre": "Zaouli inscrit au patrimoine culturel immatériel",
+      "date": "2017-01-01",
+      "date_affichee": "2017",
+      "precision": "annee",
+      "description": "La musique et la danse zaouli des communautés gouro sont inscrites en 2017 sur la Liste représentative de l'UNESCO.",
+      "acteurs": [
+        "Gouro"
+      ],
+      "sources": [
+        "S19"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-evenement-mosquees-unesco-2021",
+      "titre": "Inscription des mosquées de style soudanais",
+      "date": "2021-01-01",
+      "date_affichee": "2021",
+      "precision": "annee",
+      "description": "Huit mosquées de style soudanais du nord ivoirien sont inscrites sur la Liste du patrimoine mondial au titre des critères (ii) et (iv).",
+      "regions": [
+        "Nord"
+      ],
+      "sources": [
+        "S41"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-evenement-inscriptions-2023-2024",
+      "titre": "Inscriptions du pagne tissé (2023), de l'attiéké et du balafon (2024)",
+      "date": "2023-01-01",
+      "date_affichee": "2023-2024",
+      "precision": "annee",
+      "description": "Le comité de l'UNESCO inscrit en 2023 les savoir-faire du tissage de pagnes, puis en 2024 le savoir-faire lié à l'attiéké et les pratiques liées au balafon et au kolintang, ces dernières partagées avec le Mali, le Burkina Faso et l'Indonésie.",
+      "fin": "2024-12-31",
+      "sources": [
+        "S22",
+        "S27",
+        "S67"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "oeuvres": [
+    {
+      "id": "CI-oeuvre-masque-mblo-met",
+      "titre": "Masque lunaire d'une performance mblo",
+      "type": "masque",
+      "description": "Masque facial en bois attribué à un artiste baoulé du centre de la Côte d'Ivoire, daté du milieu du XIXe au début du XXe siècle. Son titre au Metropolitan Museum l'associe à une performance mblo. Il mesure environ 27 cm de haut, 33,7 cm avec son socle.",
+      "createur": "artiste baoulé anonyme",
+      "communaute": "Baoulé",
+      "periode": "milieu du XIXe-début du XXe siècle",
+      "materiaux": [
+        "bois"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "2015.566",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/643506",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access CC0) ; image non reproduite ici.",
+      "regions": [
+        "Centre"
+      ],
+      "sources": [
+        "S117",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-oeuvre-masque-zamble-met",
+      "titre": "Masque facial zamble",
+      "type": "masque",
+      "description": "Masque facial gouro en bois et pigment, haut de 46,7 cm, que le Metropolitan Museum identifie comme un masque zamble. Il date du XIXe au milieu du XXe siècle et provient du centre de la Côte d'Ivoire. Il appartient à la collection Michael C. Rockefeller, léguée au musée en 1979.",
+      "createur": "artiste gouro anonyme",
+      "communaute": "Gouro",
+      "periode": "XIXe-milieu du XXe siècle",
+      "materiaux": [
+        "bois",
+        "pigment"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1979.206.105",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/312308",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access CC0) ; image non reproduite ici.",
+      "regions": [
+        "Centre-Ouest"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Objet de culte ou de performance rituelle conservé hors de son contexte d'origine : les usages, les circonstances d'acquisition et une éventuelle restitution doivent être documentés avec les communautés.",
+      "sources": [
+        "S118",
+        "S18"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-oeuvre-masque-wanyugo-met",
+      "titre": "Masque casque à deux visages (wanyugo)",
+      "type": "masque",
+      "description": "Masque casque sénoufo en bois et pigment, orné de deux visages, long d'environ 63,5 cm. Le Metropolitan Museum le situe dans le nord de la Côte d'Ivoire et le date de la fin du XIXe au milieu du XXe siècle. Il fait partie de la collection Michael C. Rockefeller, donnée au musée en 1964.",
+      "createur": "artiste sénoufo anonyme",
+      "communaute": "Sénoufo",
+      "periode": "fin XIXe-milieu du XXe siècle",
+      "materiaux": [
+        "bois",
+        "pigment"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1978.412.311",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/310754",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access CC0) ; image non reproduite ici.",
+      "regions": [
+        "Nord"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Objet de culte ou de performance rituelle conservé hors de son contexte d'origine : les usages, les circonstances d'acquisition et une éventuelle restitution doivent être documentés avec les communautés.",
+      "sources": [
+        "S119",
+        "S12"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-oeuvre-figure-tyekpa-met",
+      "titre": "Figure de maternité tyekpa",
+      "type": "sculpture",
+      "description": "Figure sénoufo en bois et huile, haute d'environ 55 cm, que le Metropolitan Museum nomme figure de maternité tyekpa. Elle est attribuée au nord de la Côte d'Ivoire et datée de la fin du XIXe au milieu du XXe siècle. Elle est entrée dans les collections du musée en 1981 par un don de Lawrence Gussman.",
+      "createur": "artiste sénoufo anonyme",
+      "communaute": "Sénoufo",
+      "periode": "fin XIXe-milieu du XXe siècle",
+      "materiaux": [
+        "bois",
+        "huile"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1981.397",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/314375",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access CC0) ; image non reproduite ici.",
+      "regions": [
+        "Nord"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Objet de culte ou de performance rituelle conservé hors de son contexte d'origine : les usages, les circonstances d'acquisition et une éventuelle restitution doivent être documentés avec les communautés.",
+      "sources": [
+        "S120",
+        "S12"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-oeuvre-masque-dan-met",
+      "titre": "Masque facial dan",
+      "type": "masque",
+      "description": "Masque dan en bois, fer, raphia, cauris, pigment et argile, haut d'environ 30,5 cm. Le Metropolitan Museum l'attribue à l'ouest de la Côte d'Ivoire, avec une incertitude sur l'espace frontalier du Liberia ; il le date du XIXe au milieu du XXe siècle. Il fait partie de la collection Michael C. Rockefeller.",
+      "createur": "artiste dan anonyme",
+      "communaute": "Dan",
+      "periode": "XIXe-milieu du XXe siècle",
+      "materiaux": [
+        "bois",
+        "fer",
+        "raphia",
+        "cauris",
+        "pigment",
+        "argile"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1979.206.134",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/312349",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access CC0) ; image non reproduite ici.",
+      "regions": [
+        "Ouest"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Objet de culte ou de performance rituelle conservé hors de son contexte d'origine : les usages, les circonstances d'acquisition et une éventuelle restitution doivent être documentés avec les communautés.",
+      "sources": [
+        "S43",
+        "S16"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le Met indique « northeastern region, Liberia or western region, Côte d'Ivoire » : provenance partagée."
+      }
+    },
+    {
+      "id": "CI-oeuvre-masque-goli-glin-met",
+      "titre": "Masque casque Goli Glin",
+      "type": "masque",
+      "description": "Masque casque baoulé en bois et pigment, long d'environ 82,6 cm, que le Metropolitan Museum nomme Goli Glin. Il date du début au milieu du XXe siècle et provient du centre de la Côte d'Ivoire. Il illustre l'univers du masque Goli, dont la pratique est décrite dans la fiche tradition correspondante.",
+      "createur": "artiste baoulé anonyme",
+      "communaute": "Baoulé",
+      "periode": "début-milieu du XXe siècle",
+      "materiaux": [
+        "bois",
+        "pigment"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1979.535.2",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/314131",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access CC0) ; image non reproduite ici.",
+      "regions": [
+        "Centre"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Objet de culte ou de performance rituelle conservé hors de son contexte d'origine : les usages, les circonstances d'acquisition et une éventuelle restitution doivent être documentés avec les communautés.",
+      "sources": [
+        "S70",
+        "S68"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-oeuvre-soleils-independances",
+      "titre": "Les Soleils des indépendances",
+      "type": "livre",
+      "description": "Premier roman d'Ahmadou Kourouma, publié en 1968, qui délaisse la dénonciation de la colonisation pour regarder les pays devenus indépendants. À travers un vieux prince déchu, il critique le nouveau régime et ses « bâtardises » dans une écriture où le français épouse le rythme du malinké. Wikipédia indique une publication aux Presses de l'Université de Montréal en 1968, puis au Seuil en 1970.",
+      "createur": "Ahmadou Kourouma",
+      "periode": "1968",
+      "institution": "Presses de l'Université de Montréal (1968) ; Éditions du Seuil (1970)",
+      "url_notice": "https://www.larousse.fr/encyclopedie/litterature/Ahmadou_Kourouma/174585",
+      "droits": "Œuvre protégée par le droit d'auteur ; seule une notice est présentée.",
+      "sources": [
+        "S84",
+        "S112"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-oeuvre-climbie",
+      "titre": "Climbié",
+      "type": "livre",
+      "description": "Roman de Bernard Dadié paru en 1956, considéré comme le premier roman de Côte d'Ivoire. Largement autobiographique, il retrace un itinéraire commun aux intellectuels de la première génération. Wikipédia indique une publication aux Nouvelles Éditions ivoiriennes.",
+      "createur": "Bernard Binlin Dadié",
+      "periode": "1956",
+      "institution": "Nouvelles Éditions ivoiriennes (NEI)",
+      "url_notice": "https://www.larousse.fr/encyclopedie/litterature/Bernard_Binlin_Dadi%C3%A9/172667",
+      "droits": "Œuvre protégée par le droit d'auteur ; seule une notice est présentée.",
+      "sources": [
+        "S83",
+        "S42",
+        "S111"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-oeuvre-allah-pas-oblige",
+      "titre": "Allah n'est pas obligé",
+      "type": "livre",
+      "description": "Roman d'Ahmadou Kourouma publié en 2000 au Seuil, narré par Birahima, un enfant de douze ans enrôlé dans des factions armées sur la route du Liberia. Il a reçu le prix Renaudot et le prix Goncourt des lycéens. Larousse y voit une œuvre qui a apporté à son auteur et à la littérature africaine de langue française une célébrité largement méritée.",
+      "createur": "Ahmadou Kourouma",
+      "periode": "2000",
+      "institution": "Éditions du Seuil",
+      "url_notice": "https://www.larousse.fr/encyclopedie/litterature/Ahmadou_Kourouma/174585",
+      "droits": "Œuvre protégée par le droit d'auteur ; seule une notice est présentée.",
+      "sources": [
+        "S84",
+        "S121"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-oeuvre-carte-identite",
+      "titre": "La Carte d'identité",
+      "type": "livre",
+      "description": "Roman de Jean-Marie Adiaffi couronné par le grand prix littéraire d'Afrique noire. Le prince Meledouman, à qui un pouvoir étranger et répressif impose une carte d'identité sans valeur pour lui, part à sa recherche, dans un Bettié de plus en plus fantastique, au long d'une semaine sacrée akan.",
+      "createur": "Jean-Marie Adiaffi",
+      "periode": "1980",
+      "url_notice": "https://www.larousse.fr/encyclopedie/litterature/Jean-Marie_Ade_Adiaffi/170799",
+      "droits": "Œuvre protégée par le droit d'auteur ; seule une notice est présentée.",
+      "sources": [
+        "S87"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-oeuvre-aya-yopougon",
+      "titre": "Aya de Yopougon",
+      "type": "livre",
+      "description": "Série de bandes dessinées écrite par Marguerite Abouet et dessinée par Clément Oubrerie, publiée par Gallimard à partir de 2005. L'intrigue se déroule à la fin des années 1970 dans le quartier populaire de Yopougon, à Abidjan, et suit trois jeunes femmes de dix-neuf ans. Le premier album a reçu le prix du premier album au Festival d'Angoulême en 2006 selon Wikipédia.",
+      "createur": "Marguerite Abouet (scénario) ; Clément Oubrerie (dessin)",
+      "periode": "depuis 2005",
+      "institution": "Éditions Gallimard (collection Bayou)",
+      "url_notice": "https://www.gallimard.fr/Contributeurs/Marguerite-Abouet",
+      "droits": "Œuvre protégée par le droit d'auteur ; seule une notice est présentée.",
+      "regions": [
+        "Abidjan"
+      ],
+      "sources": [
+        "S90",
+        "S92"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-oeuvre-alphabet-bete",
+      "titre": "Alphabet bété",
+      "type": "peinture",
+      "description": "Syllabaire de plus de 400 pictogrammes imaginé par Frédéric Bruly Bouabré pour noter la langue bété, après une expérience mystique en 1948. Théodore Monod en a fait l'analyse en 1958. Wikipédia précise qu'il comporte 448 signes, reproduits sur de petites cartes.",
+      "createur": "Frédéric Bruly Bouabré",
+      "communaute": "Bété",
+      "periode": "à partir de 1948",
+      "url_notice": "https://www.larousse.fr/encyclopedie/peinture/Fr%C3%A9d%C3%A9ric_Bruly_Bouabr%C3%A9/151327",
+      "droits": "Œuvre protégée par le droit d'auteur ; aucune image reproduite.",
+      "regions": [
+        "Daloa"
+      ],
+      "sources": [
+        "S10",
+        "S93"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Institution détentrice non documentée dans les sources ouvertes (des musées en conservent des séries : à vérifier)."
+      }
+    },
+    {
+      "id": "CI-oeuvre-visages-de-femmes",
+      "titre": "Visages de femmes",
+      "type": "film",
+      "description": "Film de Désiré Écaré sorti en 1985, comédie dramatique avec Eugénie Cissé Roland, Albertine Guéssan, Véronique Mahile et Alexis Leatche. Il suit les destinées différentes de plusieurs femmes qui, en ville comme en brousse, doivent affronter le poids de la tradition. Il dure 1 h 45 et est en couleurs.",
+      "createur": "Désiré Écaré",
+      "periode": "1985",
+      "url_notice": "https://www.larousse.fr/encyclopedie/film/Visages_de_femmes/10589",
+      "droits": "Œuvre protégée par le droit d'auteur ; seule une notice est présentée.",
+      "sources": [
+        "S94",
+        "S95"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-oeuvre-jah-glory",
+      "titre": "Jah Glory",
+      "type": "musique",
+      "description": "Premier disque d'Alpha Blondy, sorti en 1983, avec le titre phare « Brigadier Sabari », chanté en dioula et inspiré d'une opération de police à laquelle le chanteur avait assisté. Le succès est immédiat, et le reggae devient un élément du paysage musical ivoirien, d'après RFI Musique.",
+      "createur": "Alpha Blondy",
+      "periode": "1983",
+      "url_notice": "https://musique.rfi.fr/artiste/reggae/alpha-blondy",
+      "droits": "Œuvre protégée par le droit d'auteur ; seule une notice est présentée.",
+      "sources": [
+        "S96"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CI-oeuvre-mangercratie",
+      "titre": "Mangercratie",
+      "type": "musique",
+      "description": "Titre le plus célèbre de Tiken Jah Fakoly, sorti en 1996, qui le fait connaître dans toute l'Afrique de l'Ouest. Il évoque l'aspiration des Africains à un régime « où l'on mange » plutôt qu'à des régimes en « craties » qui les privent de leurs droits. Malgré quelques censures par les médias officiels, le disque est resté cinq mois dans les classements en Côte d'Ivoire.",
+      "createur": "Tiken Jah Fakoly",
+      "periode": "1996",
+      "url_notice": "https://musique.rfi.fr/artiste/reggae/tiken-jah-fakoly",
+      "droits": "Œuvre protégée par le droit d'auteur ; seule une notice est présentée.",
+      "sources": [
+        "S98"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "proverbes": [],
+  "sources": [
+    {
+      "id": "S1",
+      "titre": "Glottolog : French",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1290",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S2",
+      "titre": "Langues en Côte d'Ivoire — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Langues_en_C%C3%B4te_d%27Ivoire",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S3",
+      "titre": "Côte d'Ivoire — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/C%C3%B4te_d%27Ivoire",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S4",
+      "titre": "Glottolog : Dyula",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/dyul1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S5",
+      "titre": "Dioulas ou Dyoulas — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/divers/Dioulas/116598",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S6",
+      "titre": "Glottolog : Baoulé",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/baou1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S7",
+      "titre": "Baoulés — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/divers/Baoul%C3%A9s/107460",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S8",
+      "titre": "Glottolog : Daloa Bété",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/dalo1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S9",
+      "titre": "Bétés — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/divers/B%C3%A9t%C3%A9s/108702",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S10",
+      "titre": "Frédéric Bruly Bouabré (Dictionnaire de la peinture) — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/peinture/Fr%C3%A9d%C3%A9ric_Bruly_Bouabr%C3%A9/151327",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S11",
+      "titre": "Glottolog : Senari",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/ceba1235",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S12",
+      "titre": "Sénoufos ou Senufos — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/divers/S%C3%A9noufos/143925",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S13",
+      "titre": "Glottolog : Anyin",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/anyi1245",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S14",
+      "titre": "Agnis ou Anyis — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/divers/Agnis/104249",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S15",
+      "titre": "Glottolog : Dan",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/dann1241",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S16",
+      "titre": "Mandingues ou Mandés — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/divers/Mandingues/131470",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S17",
+      "titre": "Glottolog : Guro",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/guro1248",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S18",
+      "titre": "Gouros — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/divers/Gouros/121964",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S19",
+      "titre": "Zaouli, musique et danse populaires des communautés gouro — Patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/zaouli-popular-music-and-dance-of-the-guro-communities-in-cote-d-ivoire-01255",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation du site",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S20",
+      "titre": "Glottolog : Abron",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/abro1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S21",
+      "titre": "Côte d'Ivoire : histoire — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/divers/C%C3%B4te_dIvoire_histoire/187417",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S22",
+      "titre": "Savoir-faire traditionnels du tissage de pagnes — Patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/traditional-skills-of-loincloth-weaving-in-cote-d-ivoire-01949",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation du site",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S23",
+      "titre": "Glottolog : Attié",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/atti1239",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S24",
+      "titre": "Attiéké — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Atti%C3%A9k%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S25",
+      "titre": "Glottolog : Abé",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/abee1242",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S26",
+      "titre": "Glottolog : Adioukrou",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/adio1239",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S27",
+      "titre": "Savoir-faire lié à la production de l'attiéké — Patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/skills-related-to-attieke-production-in-cote-d-ivoire-02086",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation du site",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S28",
+      "titre": "Glottolog : Godié",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/godi1239",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S29",
+      "titre": "Côte d'Ivoire : population — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/divers/C%C3%B4te_d%E2%80%99Ivoire_population/187415",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S30",
+      "titre": "Glottolog : Wobe-Wè Northern",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/weno1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S31",
+      "titre": "Glottolog : Nzima",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/nzim1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S32",
+      "titre": "Ville historique de Grand-Bassam — Centre du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/1322",
+      "type": "unesco",
+      "licence": "Descriptions UNESCO sous licence CC-BY-SA IGO 3.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S33",
+      "titre": "Abissa — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Abissa",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S34",
+      "titre": "Glottolog : Abure",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/abur1243",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S35",
+      "titre": "Histoire de la Côte d'Ivoire — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Histoire_de_la_C%C3%B4te_d%27Ivoire",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S36",
+      "titre": "Korhogo — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Korhogo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S37",
+      "titre": "Korhogo (textile) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Korhogo_%28textile%29",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S38",
+      "titre": "Glottolog : Tagwana Senoufo",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/tagw1240",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S39",
+      "titre": "Gbofe d'Afounkaha, musique des trompes traversières de la communauté tagbana — Patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/gbofe-of-afounkaha-the-music-of-the-transverse-trumps-of-the-tagbana-community-00005",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation du site",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S40",
+      "titre": "royaume de Kong — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/autre-region/Kong/127819",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S41",
+      "titre": "Mosquées de style soudanais du Nord ivoirien — Centre du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/1648",
+      "type": "unesco",
+      "licence": "Descriptions UNESCO sous licence CC-BY-SA IGO 3.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S42",
+      "titre": "Côte d'Ivoire (Dictionnaire mondial des littératures) — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/litterature/C%C3%B4te_dIvoire/172578",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S43",
+      "titre": "Masque dan (1979.206.134) — The Metropolitan Museum of Art (API Open Access)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/312349",
+      "type": "musee",
+      "licence": "CC0 (données Open Access)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S44",
+      "titre": "Lobis — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/divers/Lobis/130167",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S45",
+      "titre": "Bernard Binlin Dadié — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/personnage/Bernard_Binlin_Dadi%C3%A9/115422",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S46",
+      "titre": "Grand-Bassam — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/ville/Grand-Bassam/122062",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S47",
+      "titre": "Parc national de Taï — Centre du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/195",
+      "type": "unesco",
+      "licence": "Descriptions UNESCO sous licence CC-BY-SA IGO 3.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S48",
+      "titre": "Parc national de la Comoé — Centre du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/227",
+      "type": "unesco",
+      "licence": "Descriptions UNESCO sous licence CC-BY-SA IGO 3.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S49",
+      "titre": "Réserve naturelle intégrale du mont Nimba — Centre du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/155",
+      "type": "unesco",
+      "licence": "Descriptions UNESCO sous licence CC-BY-SA IGO 3.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S50",
+      "titre": "Côte d'Ivoire (pays) — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/pays/C%C3%B4te_dIvoire/114843",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S51",
+      "titre": "Basilique Notre-Dame-de-la-Paix de Yamoussoukro — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Basilique_Notre-Dame-de-la-Paix_de_Yamoussoukro",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S52",
+      "titre": "Yamoussoukro — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/ville/Yamoussoukro/150222",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S53",
+      "titre": "Musée des civilisations de Côte d'Ivoire — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_civilisations_de_C%C3%B4te_d%27Ivoire",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S54",
+      "titre": "Musée national du costume de Grand-Bassam — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_du_costume_de_Grand-Bassam",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S55",
+      "titre": "Kong (Côte d'Ivoire) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Kong_%28C%C3%B4te_d%27Ivoire%29",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S56",
+      "titre": "Korhogo — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/ville/Korhogo/127876",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S57",
+      "titre": "Bingerville — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/ville/Bingerville/108900",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S58",
+      "titre": "Bingerville — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Bingerville",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S59",
+      "titre": "Assinie — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/divers/Assinie/106457",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S60",
+      "titre": "Bernard Dadié — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Bernard_Dadi%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S61",
+      "titre": "Parc national du Banco — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Parc_national_du_Banco",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S62",
+      "titre": "Abidjan — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/ville/Abidjan/103800",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S63",
+      "titre": "Côte d'Ivoire — Convention du patrimoine mondial (page État partie)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/statesparties/ci",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation du site",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S64",
+      "titre": "Marche des femmes sur Grand-Bassam — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Marche_des_femmes_sur_Grand-Bassam",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S65",
+      "titre": "Militant Mothers: Gender and the Politics of Anticolonial Action in Côte d'Ivoire",
+      "institution": "Cambridge University Press, The Journal of African History 63(3)",
+      "url": "https://www.cambridge.org/core/journals/journal-of-african-history/article/militant-mothers-gender-and-the-politics-of-anticolonial-action-in-cote-divoire/7AC5DC9D263DB0CBA4798520A719DCDF",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S66",
+      "titre": "Marie Koré: Marching for Freedom and Independence in Ivory Coast",
+      "institution": "Capire",
+      "url": "https://capiremov.org/en/experience/marie-kore-marching-for-freedom-and-independence-in-ivory-coast/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S67",
+      "titre": "Pratiques culturelles liées au balafon et au kolintang — Patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/cultural-practices-and-expressions-linked-to-balafon-and-kolintang-in-mali-burkina-faso-cote-d-ivoire-and-indonesia-02131",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation du site",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S68",
+      "titre": "Dossier : le masque Goli, du sacré à la réjouissance",
+      "institution": "Abidjan.net",
+      "url": "https://news.abidjan.net/articles/363607/dossier-le-masque-goli-du-sacre-a-la-rejouissance",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S69",
+      "titre": "Masque Goli — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Masque_Goli",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S70",
+      "titre": "Masque casque Goli Glin baoulé (1979.535.2) — The Metropolitan Museum of Art (API Open Access)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/314131",
+      "type": "musee",
+      "licence": "CC0 (données Open Access)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S71",
+      "titre": "Fête des ignames — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/F%C3%AAte_des_ignames",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S72",
+      "titre": "Zouglou — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Zouglou",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S73",
+      "titre": "Le coupé décalé, tempo sulfureux — RFI Musique (2021)",
+      "institution": "RFI Musique",
+      "url": "https://musique.rfi.fr/coupe-decale/20210108-coupe-decale-tempo-sulfureux",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S74",
+      "titre": "Coupé-décalé — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Coup%C3%A9-d%C3%A9cal%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S75",
+      "titre": "Ziglibithy — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Ziglibithy",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S76",
+      "titre": "Ernesto Djédjé — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Ernesto_Dj%C3%A9dj%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S77",
+      "titre": "Marie Koré — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Marie_Kor%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S78",
+      "titre": "Abla Pokou — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Abla_Pokou",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S79",
+      "titre": "Félix Houphouët-Boigny — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/personnage/F%C3%A9lix_Houphou%C3%ABt-Boigny/124280",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S80",
+      "titre": "Anne-Marie Essy Raggi — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Anne-Marie_Essy_Raggi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S81",
+      "titre": "Henriette Diabaté — Jeune Afrique (archives)",
+      "institution": "Jeune Afrique",
+      "url": "https://www.jeuneafrique.com/128827/archives-thematique/henriette-diabat/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S82",
+      "titre": "Henriette Diabaté — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Henriette_Diabat%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S83",
+      "titre": "Bernard Binlin Dadié (Dictionnaire mondial des littératures) — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/litterature/Bernard_Binlin_Dadi%C3%A9/172667",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S84",
+      "titre": "Ahmadou Kourouma (Dictionnaire mondial des littératures) — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/litterature/Ahmadou_Kourouma/174585",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S85",
+      "titre": "Ahmadou Kourouma — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/personnage/Ahmadou_Kourouma/127978",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S86",
+      "titre": "Ahmadou Kourouma — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Ahmadou_Kourouma",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S87",
+      "titre": "Jean-Marie Adiaffi (Dictionnaire mondial des littératures) — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/litterature/Jean-Marie_Ade_Adiaffi/170799",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S88",
+      "titre": "Véronique Tadjo (Dictionnaire mondial des littératures) — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/litterature/V%C3%A9ronique_Tadjo/177270",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S89",
+      "titre": "Véronique Tadjo — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/V%C3%A9ronique_Tadjo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S90",
+      "titre": "Marguerite Abouet — page auteur",
+      "institution": "Éditions Gallimard",
+      "url": "https://www.gallimard.fr/Contributeurs/Marguerite-Abouet",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S91",
+      "titre": "Marguerite Abouet — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Marguerite_Abouet",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S92",
+      "titre": "Aya de Yopougon — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Aya_de_Yopougon",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S93",
+      "titre": "Frédéric Bruly Bouabré — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bruly_Bouabr%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S94",
+      "titre": "Visages de femmes (Dictionnaire mondial des films) — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/film/Visages_de_femmes/10589",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S95",
+      "titre": "Désiré Écaré — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/D%C3%A9sir%C3%A9_%C3%89car%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S96",
+      "titre": "Alpha Blondy — RFI Musique",
+      "institution": "RFI Musique",
+      "url": "https://musique.rfi.fr/artiste/reggae/alpha-blondy",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S97",
+      "titre": "Alpha Blondy — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Alpha_Blondy",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S98",
+      "titre": "Tiken Jah Fakoly — RFI Musique",
+      "institution": "RFI Musique",
+      "url": "https://musique.rfi.fr/artiste/reggae/tiken-jah-fakoly",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S99",
+      "titre": "Tiken Jah Fakoly — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Tiken_Jah_Fakoly",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S100",
+      "titre": "Dobet Gnahoré, Na Afriki — RFI Musique (2007)",
+      "institution": "RFI Musique",
+      "url": "https://musique.rfi.fr/musique/20070126-dobet-gnahore",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S101",
+      "titre": "La chanteuse Dobet Gnahoré primée aux Grammy Awards",
+      "institution": "franceinfo (France Télévisions)",
+      "url": "https://www.francetvinfo.fr/culture/musique/la-chanteuse-dobet-gnahore-primee-aux-grammy-awards_3328359.html",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S102",
+      "titre": "Dobet Gnahoré — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Dobet_Gnahor%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S103",
+      "titre": "Biographie de Didier Drogba",
+      "institution": "Fondation Didier Drogba",
+      "url": "https://www.didierdrogbafoundation.org/fr/biographie-du-president",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S104",
+      "titre": "Didier Drogba élu meilleur joueur de l'histoire de Chelsea",
+      "institution": "Le Parisien",
+      "url": "https://www.leparisien.fr/sports/football/didier-drogba-elu-meilleur-joueur-de-l-histoire-de-chelsea-02-11-2012-2286849.php",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S105",
+      "titre": "Didier Drogba — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Didier_Drogba",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S106",
+      "titre": "Marie-Josée Ta Lou-Smith — profil",
+      "institution": "World Athletics",
+      "url": "https://worldathletics.org/athletes/_/14415994",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S107",
+      "titre": "Marie-Josée Ta Lou-Smith — Olympedia",
+      "institution": "Olympedia",
+      "url": "https://www.olympedia.org/athletes/129723",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S108",
+      "titre": "Murielle Ahouré-Demps — profil",
+      "institution": "World Athletics",
+      "url": "https://worldathletics.org/athletes/cote-divoire/murielle-ahour%C3%A9-demps-14304569",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S109",
+      "titre": "Murielle Ahouré-Demps — Olympedia",
+      "institution": "Olympedia",
+      "url": "https://www.olympedia.org/athletes/121105",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S110",
+      "titre": "Samori Touré — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/personnage/Samori_Tour%C3%A9/142931",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S111",
+      "titre": "Climbié — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Climbi%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S112",
+      "titre": "Les Soleils des indépendances — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Les_Soleils_des_ind%C3%A9pendances",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S113",
+      "titre": "Alassane Ouattara — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/personnage/Alassane_Ouattara/185631",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S114",
+      "titre": "Henri Konan Bédié — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/personnage/Henri_Konan_B%C3%A9di%C3%A9/108137",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S115",
+      "titre": "Ce jour-là : le 19 septembre 2002, une tentative de coup d'État ébranle la Côte d'Ivoire",
+      "institution": "Jeune Afrique",
+      "url": "https://www.jeuneafrique.com/356203/politique/jour-19-septembre-2002-tentative-de-coup-detat-ebranle-profondement-cote-divoire/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S116",
+      "titre": "Laurent Gbagbo — Larousse",
+      "institution": "Éditions Larousse (encyclopédie en ligne)",
+      "url": "https://www.larousse.fr/encyclopedie/personnage/Laurent_Gbagbo/121002",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S117",
+      "titre": "Masque lunaire d'une performance mblo (2015.566) — The Metropolitan Museum of Art (API Open Access)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/643506",
+      "type": "musee",
+      "licence": "CC0 (données Open Access)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S118",
+      "titre": "Masque zamble gouro (1979.206.105) — The Metropolitan Museum of Art (API Open Access)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/312308",
+      "type": "musee",
+      "licence": "CC0 (données Open Access)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S119",
+      "titre": "Masque casque wanyugo sénoufo (1978.412.311) — The Metropolitan Museum of Art (API Open Access)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/310754",
+      "type": "musee",
+      "licence": "CC0 (données Open Access)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S120",
+      "titre": "Figure de maternité tyekpa sénoufo (1981.397) — The Metropolitan Museum of Art (API Open Access)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/314375",
+      "type": "musee",
+      "licence": "CC0 (données Open Access)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S121",
+      "titre": "Allah n'est pas obligé — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Allah_n%27est_pas_oblig%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S122",
+      "titre": "Banque mondiale : population totale de la Côte d'Ivoire (SP.POP.TOTL)",
+      "institution": "Banque mondiale",
+      "url": "https://api.worldbank.org/v2/country/CI/indicator/SP.POP.TOTL?format=json",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    }
+  ]
+}

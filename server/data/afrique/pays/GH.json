@@ -1,0 +1,4495 @@
+{
+  "code": "GH",
+  "nom": "Ghana",
+  "region": "ouest",
+  "wikidata": "Q117",
+  "maj": "2026-11-21",
+  "pays": {
+    "nom_officiel": "République du Ghana",
+    "capitale": "Accra",
+    "langues_officielles": [
+      "anglais"
+    ],
+    "langues_nationales": [
+      "akan (twi asante, twi akuapem, fanti)",
+      "dagaare",
+      "dagbani",
+      "dangme",
+      "éwé",
+      "ga",
+      "gonja",
+      "kasem",
+      "nzema"
+    ],
+    "population": {
+      "valeur": 35064272,
+      "annee": 2025,
+      "source": "S1"
+    },
+    "superficie_km2": 238539,
+    "monnaie": "Cedi ghanéen (GHS)",
+    "resume": "Le Ghana est un pays du golfe de Guinée, en Afrique de l'Ouest, dont la capitale est Accra et dont l'anglais est la langue officielle. Son territoire actuel réunit des royaumes et des communautés très divers : États akan de la forêt comme l'Empire ashanti, cités côtières fante et ga, royaumes du nord comme le Dagbon, et des sociétés comme les Tallensi ou les Dagaaba. Sur la côte, des forts bâtis entre 1482 et 1786 par des marchands européens, aujourd'hui inscrits au patrimoine mondial, rappellent le commerce de l'or puis la traite des esclaves. Colonie britannique de la Côte-de-l'Or, le pays est devenu indépendant le 6 mars 1957, et Kwame Nkrumah en a été le premier chef de gouvernement. Il a ensuite connu des coups d'État puis, depuis la constitution de 1992, un régime multipartite. Sa culture s'exprime aujourd'hui dans le kente, le highlife, les festivals et la littérature, deux éléments étant inscrits sur les listes du patrimoine immatériel de l'UNESCO.",
+    "sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S8",
+      "S27",
+      "S19",
+      "S4",
+      "S6",
+      "S17",
+      "S18",
+      "S5"
+    ]
+  },
+  "langues": [
+    {
+      "id": "GH-langue-akan",
+      "nom": "Akan",
+      "nom_local": "Akan",
+      "description": "L'akan est la grande langue de communication du sud du Ghana, avec ses variantes twi (asante et akuapem) et fanti. Selon la notice de Glottolog (qui reprend l'Ethnologue), elle sert de langue de travail de fait à l'échelle nationale et s'est largement diffusée dès le XVIIe siècle, notamment par le commerce de l'or, l'agriculture et la traite. Les Akans la parlent aussi en Côte d'Ivoire.",
+      "famille": "Atlantic-Congo, Volta-Congo, Kwa Volta-Congo, Nyo, Potou-Tano, Tano, Central Tano, Akanic",
+      "glottocode": "akan1250",
+      "statut_linguistique": [
+        "nationale",
+        "véhiculaire"
+      ],
+      "wikidata": "Q28026",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Ashanti",
+        "côte centrale",
+        "sud du Ghana"
+      ],
+      "sources": [
+        "S59",
+        "S5",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode akan1250 (Akan, niveau langue) lu sur Glottolog ; twi et fanti y figurent comme dialectes."
+      }
+    },
+    {
+      "id": "GH-langue-twi",
+      "nom": "Twi",
+      "nom_local": "Twi",
+      "description": "Le twi regroupe les parlers akan de l'asante et de l'akuapem, enseignés comme langues nationales. Glottolog le range comme dialecte de l'akan, avec deux sous-ensembles, akuapem et asante. C'est la langue des proverbes ashanti recueillis et traduits par R. S. Rattray en 1916.",
+      "famille": "Atlantic-Congo, Volta-Congo, Kwa Volta-Congo, Nyo, Potou-Tano, Tano, Central Tano, Akanic (dialecte de l'akan)",
+      "glottocode": "twii1234",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q36850",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Ashanti",
+        "Akuapem (région Est)"
+      ],
+      "locuteurs": {
+        "valeur": 3820807,
+        "annee": 2010,
+        "source": "S5"
+      },
+      "sources": [
+        "S60",
+        "S5",
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode twii1234 (niveau dialecte d'Akan) lu sur Glottolog. Effectif 2010 = catégorie « Asante (Twi) » du recensement, relevée sur Wikipédia ; à contrôler à la source (ONU / Ghana Statistical Service)."
+      }
+    },
+    {
+      "id": "GH-langue-fanti",
+      "nom": "Fanti",
+      "nom_local": "Fanti",
+      "description": "Le fanti est le parler akan de la côte centrale, autour de Cape Coast et d'Anomabu. Il est l'une des langues nationales enseignées. Ottobah Cugoano, né sur cette côte au XVIIIe siècle, y situait son pays natal sous le nom de « Fantyn » dans son livre de 1787.",
+      "famille": "Atlantic-Congo, Volta-Congo, Kwa Volta-Congo, Nyo, Potou-Tano, Tano, Central Tano, Akanic (dialecte de l'akan)",
+      "glottocode": "fant1241",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q35570",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Cape Coast",
+        "côte centrale"
+      ],
+      "locuteurs": {
+        "valeur": 2757219,
+        "annee": 2010,
+        "source": "S5"
+      },
+      "sources": [
+        "S61",
+        "S5",
+        "S35"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode fant1241 (niveau dialecte d'Akan) lu sur Glottolog. Effectif 2010 : catégorie « Fanti » du recensement, relevée sur Wikipédia ; à contrôler à la source."
+      }
+    },
+    {
+      "id": "GH-langue-ewe",
+      "nom": "Éwé",
+      "nom_local": "Ewe",
+      "description": "L'éwé appartient à l'ensemble gbe et se parle surtout dans la région de la Volta, ainsi qu'au Togo voisin. Il est une langue nationale du Ghana. Dès 1857, le missionnaire J. B. Schlegel en publiait une description avec un recueil de proverbes du parler anlo.",
+      "famille": "Atlantic-Congo, Volta-Congo, Kwa Volta-Congo, Gbe, Western Gbe, Eweic",
+      "glottocode": "ewee1241",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q30005",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "région de la Volta"
+      ],
+      "locuteurs": {
+        "valeur": 3323072,
+        "annee": 2010,
+        "source": "S5"
+      },
+      "sources": [
+        "S62",
+        "S5",
+        "S33",
+        "S24"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode ewee1241 lu sur Glottolog. Effectif 2010 : catégorie « Ewe » du recensement, relevée sur Wikipédia ; à contrôler à la source."
+      }
+    },
+    {
+      "id": "GH-langue-ga",
+      "nom": "Ga",
+      "nom_local": "Ga",
+      "description": "Le ga est la langue des communautés ga de la plaine d'Accra, au sein de l'ensemble ga-dangme. Un dictionnaire ga-adangme de J. Zimmermann (1858), issu de sept années d'enquêtes auprès des habitants de la côte d'Accra, a servi aux historiens pour étudier le royaume d'Accra au XVIIe siècle. Le ga est l'une des langues nationales.",
+      "famille": "Atlantic-Congo, Volta-Congo, Kwa Volta-Congo, Ga-Dangme",
+      "glottocode": "gaaa1244",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q33287",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Grand Accra"
+      ],
+      "locuteurs": {
+        "valeur": 744884,
+        "annee": 2010,
+        "source": "S5"
+      },
+      "sources": [
+        "S63",
+        "S26",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode gaaa1244 lu sur Glottolog. Effectif 2010 : catégorie « Ga » du recensement, relevée sur Wikipédia ; à contrôler à la source."
+      }
+    },
+    {
+      "id": "GH-langue-adangme",
+      "nom": "Adangme (dangme)",
+      "nom_local": "Dangme",
+      "description": "Le dangme est la langue sœur du ga, parlée autour d'Accra et dans la région Est, au sein de l'ensemble ga-dangme. Il fait partie des langues nationales du Ghana. Son nom apparaît sous la forme « adangme » dans les classifications internationales et sous celle de « dangme » dans l'usage ghanéen.",
+      "famille": "Atlantic-Congo, Volta-Congo, Kwa Volta-Congo, Ga-Dangme",
+      "glottocode": "adan1247",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q35141",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Grand Accra",
+        "région Est"
+      ],
+      "locuteurs": {
+        "valeur": 1007170,
+        "annee": 2010,
+        "source": "S5"
+      },
+      "sources": [
+        "S64",
+        "S5",
+        "S26"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode adan1247 lu sur Glottolog. Effectif 2010 : catégorie « Adangme » du recensement, relevée sur Wikipédia ; à contrôler à la source."
+      }
+    },
+    {
+      "id": "GH-langue-dagbani",
+      "nom": "Dagbani",
+      "nom_local": "Dagbanli",
+      "description": "Le dagbani est la langue du Dagbon, dans le nord du pays, et appartient au groupe gur (mampruli-dagbani). Les langues mole-dagbane sont parlées par environ les deux tiers des habitants du nord du Ghana, selon une étude de Nehemia Levtzion sur les Dagomba. Le dagbani est une langue nationale.",
+      "famille": "Atlantic-Congo, Volta-Congo, North Volta-Congo, Gur, … Mampruli-Dagbani",
+      "glottocode": "dagb1246",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q32238",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "région du Nord",
+        "Dagbon"
+      ],
+      "locuteurs": {
+        "valeur": 1051123,
+        "annee": 2010,
+        "source": "S5"
+      },
+      "sources": [
+        "S65",
+        "S25",
+        "S5",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode dagb1246 lu sur Glottolog. Effectif 2010 : catégorie « Dagbani » du recensement, relevée sur Wikipédia ; à contrôler à la source."
+      }
+    },
+    {
+      "id": "GH-langue-dagaare",
+      "nom": "Dagaare",
+      "nom_local": "Dagaare",
+      "description": "Le dagaare est la langue des Dagaaba, dans le nord du Ghana et le sud du Burkina Faso. Il appartient au groupe gur et se décline en plusieurs variétés ; le glottocode du fichier source (sout2789) désigne précisément le dagaare central-méridional. Il est une langue nationale, et le xylophone gyil y occupe une place musicale importante.",
+      "famille": "Atlantic-Congo, Volta-Congo, North Volta-Congo, Gur, … Safaliba-Dagaare, Dagaaric, Central-South Dagaric",
+      "glottocode": "sout2789",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q35159",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "nord du Ghana"
+      ],
+      "locuteurs": {
+        "valeur": 924417,
+        "annee": 2010,
+        "source": "S5"
+      },
+      "sources": [
+        "S66",
+        "S5",
+        "S118"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode sout2789 = « Central Dagaare » sur Glottolog (et non la langue entière). Effectif 2010 : catégorie « Dagari » du recensement, relevée sur Wikipédia ; à contrôler à la source."
+      }
+    },
+    {
+      "id": "GH-langue-nzema",
+      "nom": "Nzema",
+      "nom_local": "Nzema",
+      "description": "Le nzema est parlé dans le sud-ouest de la région de l'Ouest, de la zone ahanta jusqu'à la frontière ivoirienne. C'est une langue de la branche bia, proche de l'akan, enseignée comme langue nationale. Ses proverbes font l'objet d'études universitaires récentes.",
+      "famille": "Atlantic-Congo, Volta-Congo, Kwa Volta-Congo, Nyo, Potou-Tano, Tano, Central Tano, Bia, Southern Bia, Jwira-Nzima",
+      "glottocode": "nzim1238",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q36337",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "région de l'Ouest (Western)"
+      ],
+      "locuteurs": {
+        "valeur": 271671,
+        "annee": 2010,
+        "source": "S5"
+      },
+      "sources": [
+        "S67",
+        "S36",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode nzim1238 (« Nzima ») lu sur Glottolog. Effectif 2010 : catégorie « Nzema » du recensement, relevée sur Wikipédia ; à contrôler à la source."
+      }
+    },
+    {
+      "id": "GH-langue-gonja",
+      "nom": "Gonja",
+      "nom_local": "Gonja",
+      "description": "Le gonja est la langue du royaume gonja, dans le nord du pays ; elle fait partie du groupe guang, distinct de l'akan. Elle figure parmi les langues nationales.",
+      "famille": "Atlantic-Congo, Volta-Congo, Kwa Volta-Congo, Nyo, Potou-Tano, Tano, Guang, North Guang, Gonja-Dompo",
+      "glottocode": "gonj1241",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q35267",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "nord du Ghana"
+      ],
+      "locuteurs": {
+        "valeur": 309527,
+        "annee": 2010,
+        "source": "S5"
+      },
+      "sources": [
+        "S68",
+        "S5",
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode gonj1241 lu sur Glottolog. Effectif 2010 : catégorie « Gonja » du recensement, relevée sur Wikipédia."
+      }
+    },
+    {
+      "id": "GH-langue-kusaal",
+      "nom": "Kusaal",
+      "nom_local": "Kusaal",
+      "description": "Le kusaal est une langue gur du groupe oti-volta, apparentée au mampruli et au dagbani. Le recensement de 2010 dénombre plus d'un demi-million de personnes dans cette catégorie linguistique.",
+      "famille": "Atlantic-Congo, Volta-Congo, North Volta-Congo, Gur, … Southeast Western Oti-Volta",
+      "glottocode": "kusa1250",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "wikidata": "Q35708",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "nord du Ghana"
+      ],
+      "locuteurs": {
+        "valeur": 534618,
+        "annee": 2010,
+        "source": "S5"
+      },
+      "sources": [
+        "S69",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode kusa1250 lu sur Glottolog. Région à préciser (aucune source ouverte lue ne la donne). Effectif 2010 relevé sur Wikipédia."
+      }
+    },
+    {
+      "id": "GH-langue-kasem",
+      "nom": "Kasem",
+      "nom_local": "Kasem",
+      "description": "Le kasem (ou kassem) est une langue gur de la branche grusi ; il fait partie des neuf langues nationales retenues pour l'enseignement. Il a un lien étroit avec le nuna voisin au sein du sous-groupe nuna-kasem.",
+      "famille": "Atlantic-Congo, Volta-Congo, North Volta-Congo, Gur, … Grusi, Northern Grusi, Nuna-Kasem",
+      "glottocode": "kase1253",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q35552",
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S70",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode kase1253 lu sur Glottolog ; le fichier-graine le nomme « kassem » (QID Q35552)."
+      }
+    },
+    {
+      "id": "GH-langue-anglais",
+      "nom": "Anglais",
+      "nom_local": "English",
+      "description": "L'anglais est la langue officielle du Ghana, héritée de la période coloniale britannique. D'après le recensement de 2010, environ 67 % des habitants de 11 ans et plus savent le lire et l'écrire. Il sert à l'administration, à l'école et aux médias, tandis que les langues ghanéennes restent langues de la vie quotidienne et des arts.",
+      "famille": "Indo-European, Germanic, … Macro-English",
+      "glottocode": "stan1293",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "wikidata": "Q1860",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "tout le Ghana"
+      ],
+      "sources": [
+        "S71",
+        "S5",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode stan1293 (English) lu sur Glottolog ; chiffre d'alphabétisation tiré du recensement 2010 (Wikipédia)."
+      }
+    },
+    {
+      "id": "GH-langue-haoussa",
+      "nom": "Haoussa",
+      "nom_local": "Hausa",
+      "description": "Le haoussa est une langue afro-asiatique du groupe tchadique. Au Ghana, il sert de langue véhiculaire, en particulier chez les musulmans, selon Wikipédia. Il est absent de la liste des langues nationales d'enseignement.",
+      "famille": "Afro-Asiatic, Chadic, West Chadic, West Chadic A, West Chadic A.1",
+      "glottocode": "haus1257",
+      "statut_linguistique": [
+        "véhiculaire"
+      ],
+      "wikidata": "Q56475",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "communautés musulmanes"
+      ],
+      "sources": [
+        "S72",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode haus1257 lu sur Glottolog."
+      }
+    },
+    {
+      "id": "GH-langue-pidgin",
+      "nom": "Pidgin ghanéen",
+      "nom_local": "Ghanaian Pidgin English",
+      "description": "Le pidgin ghanéen est une langue de contact à base lexicale anglaise, classée par Glottolog près du krio nigérian-ghanéen. Il est utilisé à l'oral dans les villes et dans la chanson populaire : la notice UNESCO du highlife précise que ce répertoire se chante en langues locales, en anglais et en pidgin.",
+      "famille": "Indo-European, Germanic, … Macro-English, Guinea Coast Creole English, West African Creole English, Nigerian-Ghanaian Krio",
+      "glottocode": "ghan1244",
+      "statut_linguistique": [
+        "véhiculaire"
+      ],
+      "wikidata": "Q5555465",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "villes du Ghana"
+      ],
+      "sources": [
+        "S73",
+        "S17"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode ghan1244 (« Ghanaian Pidgin English ») lu sur Glottolog."
+      }
+    },
+    {
+      "id": "GH-langue-mampruli",
+      "nom": "Mampruli",
+      "nom_local": "Mampruli",
+      "description": "Le mampruli est une langue gur apparentée au dagbani, au sein du sous-groupe mampruli-dagbani. Elle est liée au royaume du Mamprugu, l'un des États du nord cités par l'UNESCO parmi les États islamisés qui ont suivi les routes commerciales. Une catégorie « Mamprusi » figure dans le recensement de 2010.",
+      "famille": "Atlantic-Congo, Volta-Congo, North Volta-Congo, Gur, … Mampruli-Dagbani",
+      "glottocode": "mamp1244",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "nord du Ghana (Mamprugu)"
+      ],
+      "locuteurs": {
+        "valeur": 315992,
+        "annee": 2010,
+        "source": "S5"
+      },
+      "sources": [
+        "S74",
+        "S15",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode mamp1244 lu sur Glottolog. Effectif 2010 : catégorie « Mamprusi », relevée sur Wikipédia ; pas de QID vérifié."
+      }
+    }
+  ],
+  "peuples": [
+    {
+      "id": "GH-peuple-akan",
+      "nom": "Akans",
+      "description": "Les Akans forment un grand ensemble de populations du sud du Ghana et de Côte d'Ivoire, qui parlent des variantes de l'akan. Selon la BBC, des États akan apparaissent dès le XIIe siècle et développent le commerce de l'or. Niangoran-Bouah décrit chez eux des institutions et des symboles politiques que racontent les poids à peser l'or, appelés « pierres-proverbes ».",
+      "langues": [
+        "akan",
+        "twi",
+        "fanti"
+      ],
+      "regions": [
+        "sud et centre du Ghana"
+      ],
+      "pays_partages": [
+        "CI"
+      ],
+      "organisation": "Royaumes et chefferies, avec succession matrilinéaire d'après Wikipédia.",
+      "activites": [
+        "commerce de l'or",
+        "agriculture",
+        "travail du laiton"
+      ],
+      "sources": [
+        "S3",
+        "S21",
+        "S130",
+        "S59"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-peuple-ashanti",
+      "nom": "Ashantis (Asante)",
+      "description": "Les Ashantis, groupe akan du centre-sud, ont formé au XVIIIe siècle un puissant royaume autour de Kumasi. L'UNESCO situe l'apogée de cette civilisation au XVIIIe siècle, et l'historien Ivor Wilks a consacré à l'empire asante du XIXe siècle une somme majeure saluée par Emmanuel Terray. Leur capitale a abrité un « musée royal », l'Aban, bâti au début du XIXe siècle sous Osei Bonsu.",
+      "langues": [
+        "twi"
+      ],
+      "regions": [
+        "Kumasi",
+        "région ashanti"
+      ],
+      "organisation": "Confédération royale dirigée par l'Asantehene, avec des reines mères.",
+      "activites": [
+        "commerce de l'or",
+        "architecture"
+      ],
+      "sources": [
+        "S9",
+        "S20",
+        "S23",
+        "S46",
+        "S131"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-peuple-fante",
+      "nom": "Fantes",
+      "description": "Les Fantes vivent sur la côte centrale du Ghana, autour de Cape Coast et d'Anomabu, et forment aussi des communautés de pêcheurs en Côte d'Ivoire. Au XIXe siècle, leurs marchands ont connu un essor puis un déclin, au moment de la Confédération fante de 1868 et de l'Aborigines' Rights Protection Society, d'après Edward Reynolds. Ottobah Cugoano, né sur cette côte, a laissé en 1787 un témoignage direct sur son pays.",
+      "langues": [
+        "fanti"
+      ],
+      "regions": [
+        "côte centrale",
+        "Cape Coast",
+        "Anomabu"
+      ],
+      "pays_partages": [
+        "CI"
+      ],
+      "organisation": "États côtiers alliés en confédération (1868).",
+      "activites": [
+        "pêche",
+        "commerce côtier"
+      ],
+      "sources": [
+        "S31",
+        "S35",
+        "S132",
+        "S108"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-peuple-ewe",
+      "nom": "Éwés",
+      "description": "Les Éwés vivent à l'est de la Volta, dans l'actuel Ghana, et au Togo voisin. Jean-Claude Pauvert rappelle que leur demande de vivre sous une même administration, présentée à l'ONU en 1947, restait entière malgré l'union de l'ancien Togo britannique au Ghana. Parmi les Éwés figurent Esther Ocloo, pionnière du microcrédit, née dans la région de la Volta, et la danse agbadza.",
+      "langues": [
+        "éwé"
+      ],
+      "regions": [
+        "région de la Volta"
+      ],
+      "pays_partages": [
+        "TG"
+      ],
+      "activites": [
+        "musique et danse"
+      ],
+      "sources": [
+        "S24",
+        "S22",
+        "S33",
+        "S103"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-peuple-ga",
+      "nom": "Gas (Ga-Adangme)",
+      "description": "Les Gas sont installés dans la plaine du Grand Accra, et leur parler est lié à celui des Dangmes. Thierry Rivière montre, à partir du dictionnaire ga de Zimmermann (1858), qu'un royaume d'Accra existait au XVIIe siècle. Leur fête annuelle, Homowo, évoque le souvenir d'une famine.",
+      "langues": [
+        "ga",
+        "dangme"
+      ],
+      "regions": [
+        "Grand Accra"
+      ],
+      "pays_partages": [
+        "TG"
+      ],
+      "sources": [
+        "S26",
+        "S133",
+        "S115"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-peuple-dagbamba",
+      "nom": "Dagombas (Dagbamba)",
+      "description": "Les Dagombas (Dagbamba) habitent le Dagbon, dans le nord du Ghana. D'après Nehemia Levtzion, l'islam et le commerce ont joué un grand rôle dans cette société, dont la langue appartient au groupe mole-dagbane. Le Dagbon compte, pour l'UNESCO, parmi les États du nord formés le long des routes marchandes.",
+      "langues": [
+        "dagbani"
+      ],
+      "regions": [
+        "Dagbon",
+        "région du Nord",
+        "Yendi"
+      ],
+      "organisation": "Royaume dirigé par des chefs, avec des fêtes comme le Damba.",
+      "activites": [
+        "agriculture",
+        "commerce"
+      ],
+      "sources": [
+        "S25",
+        "S30",
+        "S15",
+        "S122"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-peuple-gonja",
+      "nom": "Gonjas",
+      "description": "Les Gonjas ont fondé un État du nord du Ghana, étudié par l'archéologue Peter Shinnie. L'UNESCO le range parmi les États nés de la pénétration de marchands et de guerriers mandé sur les routes du commerce de l'or et de la kola. Les Gonjas ont aussi adopté la fête du Damba.",
+      "langues": [
+        "gonja"
+      ],
+      "regions": [
+        "nord du Ghana"
+      ],
+      "activites": [
+        "commerce"
+      ],
+      "sources": [
+        "S30",
+        "S15",
+        "S122"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-peuple-nzema",
+      "nom": "Nzémas (Nzima)",
+      "description": "Les Nzémas vivent dans le sud-ouest du pays, de la zone ahanta à la frontière ivoirienne. Leur nom signale aussi le village sur pilotis de Nzulezu, dont le nom signifie « surface de l'eau ». Anton Wilhelm Amo, premier philosophe de l'Ouest africain en Europe, est dit d'origine nzema.",
+      "langues": [
+        "nzema"
+      ],
+      "regions": [
+        "région de l'Ouest",
+        "Axim",
+        "lac Tadane"
+      ],
+      "sources": [
+        "S36",
+        "S14",
+        "S99"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-peuple-dagaaba",
+      "nom": "Dagaabas (Dagara)",
+      "description": "Les Dagaabas vivent dans le nord du Ghana et en partie au Burkina Faso. Kojo Yelpaala a étudié l'organisation de leur société, qui ne reposait pas sur un État centralisé. Le xylophone gyil, joué aussi par les Birifor, tient une grande place dans leur musique.",
+      "langues": [
+        "dagaare"
+      ],
+      "regions": [
+        "nord du Ghana"
+      ],
+      "pays_partages": [
+        "BF"
+      ],
+      "activites": [
+        "musique"
+      ],
+      "sources": [
+        "S29",
+        "S118"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-peuple-tallensi",
+      "nom": "Tallensis (Talensi)",
+      "description": "Les Tallensis, ou Talensi, vivent autour des Tong Hills, dans la région de l'Upper East, à environ seize kilomètres de Bolgatanga. L'UNESCO décrit ces collines granitiques comme le centre sacré des Talensi, avec des sanctuaires de la terre et des ancêtres, et des fêtes comme le Boaram et le Gologo.",
+      "langues": [],
+      "regions": [
+        "Tong Hills",
+        "Tenzug",
+        "Upper East"
+      ],
+      "organisation": "Société sans royaume centralisé, organisée autour de sanctuaires de la terre et des ancêtres.",
+      "activites": [
+        "agriculture",
+        "élevage"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Les sanctuaires de la terre et des ancêtres sont des lieux de culte vivants : toute présentation doit rester validée par les communautés talensi.",
+      "sources": [
+        "S12"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-peuple-mamprusi",
+      "nom": "Mamprusis",
+      "description": "Les Mamprusis, associés au royaume du Mamprugu, appartiennent aux sociétés du nord du Ghana. L'UNESCO cite le Mamprugu parmi les États islamisés formés sur les routes commerciales du nord, et parmi les royaumes conquérants du sud des Tong Hills. Leur langue, le mampruli, est proche du dagbani.",
+      "langues": [
+        "mampruli"
+      ],
+      "regions": [
+        "nord du Ghana",
+        "Mamprugu"
+      ],
+      "sources": [
+        "S15",
+        "S12",
+        "S74"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "id": "GH-site-forts-chateaux",
+      "nom": "Forts et châteaux de Volta, d'Accra et ses environs et des régions centrale et ouest",
+      "type": "patrimoine_mondial",
+      "wikidata": "Q778743",
+      "description": "Ces comptoirs fortifiés s'échelonnent sur environ 500 km de côte, entre Keta à l'est et Beyin à l'ouest, et ont été fondés entre 1482 et 1786. Ils ont été bâtis et occupés tour à tour par des marchands portugais, espagnols, danois, suédois, néerlandais, allemands et britanniques. D'abord liés au commerce de l'or, ils ont ensuite joué un rôle dans la traite des esclaves, puis dans sa disparition au XIXe siècle. Le château Saint-George d'Elmina, construit en 1482, compte parmi les plus anciens bâtiments européens hors d'Europe.",
+      "unesco_id": "34",
+      "inscription": 1979,
+      "coordonnees": {
+        "lat": 5.1036944,
+        "lng": -1.241
+      },
+      "regions": [
+        "Keta",
+        "Accra",
+        "Cape Coast",
+        "Elmina",
+        "Beyin",
+        "région de la Volta",
+        "région centrale",
+        "région de l'Ouest"
+      ],
+      "periode": "1482-1786",
+      "sensible": true,
+      "note_sensibilite": "Lieu de mémoire de la traite atlantique : les récits doivent distinguer les faits établis des traditions mémorielles, et rester en lien avec le Ghana Museums and Monuments Board et les communautés locales.",
+      "sources": [
+        "S8",
+        "S93",
+        "S10",
+        "S7",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-site-batiments-ashanti",
+      "nom": "Bâtiments traditionnels ashanti",
+      "type": "patrimoine_mondial",
+      "wikidata": "Q1141003",
+      "description": "Au nord-est de Kumasi, dix sanctuaires subsistent comme derniers témoins matériels de l'architecture ashanti du XVIIIe siècle, époque d'apogée du royaume. Construits en bois, bambou et terre battue, ils s'organisent autour de cours intérieures et étaient couverts de chaume. Leurs murs portent de grands bas-reliefs de spirales, d'arabesques, d'animaux et de plantes, mêlés à des symboles adinkra qui portent un sens symbolique. Ces édifices en terre sont vulnérables au temps et au climat.",
+      "unesco_id": "35",
+      "inscription": 1980,
+      "coordonnees": {
+        "lat": 6.40111,
+        "lng": -1.62583
+      },
+      "regions": [
+        "Kumasi",
+        "région ashanti"
+      ],
+      "periode": "XVIIIe-XIXe siècle",
+      "sensible": true,
+      "note_sensibilite": "Il s'agit de sanctuaires vivants : l'accès, les photographies et les récits sur les pratiques qui s'y déroulent relèvent des communautés et des autorités ashanti.",
+      "sources": [
+        "S9",
+        "S94",
+        "S10",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-site-tenzug-tallensi",
+      "nom": "Tong Hills et habitats tallensi (Tenzug)",
+      "type": "liste_indicative",
+      "description": "Les Tong Hills sont un massif granitique des savanes de l'Upper East, à seize kilomètres de Bolgatanga. L'UNESCO y décrit le centre sacré des Talensi, avec des sanctuaires de la terre et des ancêtres, dont le sanctuaire ba'ar Tonna'ab, au-dessus du village de Tenzug. Les habitats, faits de maisons à cour et de chemins, expriment l'organisation sociale des Talensi, qui vivent surtout d'agriculture et d'élevage. Le site est inscrit sur la liste indicative depuis 2000.",
+      "coordonnees": {
+        "lat": 10.6667,
+        "lng": -0.8167
+      },
+      "regions": [
+        "Upper East",
+        "Bolgatanga",
+        "Tenzug"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Les sanctuaires de la terre et des ancêtres sont des lieux de culte actifs ; leur présentation attend la validation des communautés talensi.",
+      "sources": [
+        "S12"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-site-nzulezu",
+      "nom": "Village sur pilotis de Nzulezu",
+      "type": "liste_indicative",
+      "description": "Nzulezu est un village construit sur pilotis au-dessus du lac Tadane, dans le district de Jomoro, à environ 90 km à l'ouest de Takoradi. Son nom en nzema signifie « surface de l'eau ». Selon la tradition rapportée à l'UNESCO, les habitants seraient venus de Walata, et auraient été guidés par un escargot. La vie quotidienne, l'école, le culte et les enterrements s'y déroulent sur le lac, et le jeudi est un jour sacré où aucune activité n'a lieu. Le site est inscrit sur la liste indicative depuis 2000.",
+      "regions": [
+        "région de l'Ouest",
+        "Jomoro",
+        "Beyin"
+      ],
+      "sources": [
+        "S14",
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-site-mole",
+      "nom": "Parc national de Mole",
+      "type": "site_naturel",
+      "description": "Le parc national de Mole couvre environ 4 840 km² de savane guinéenne, dans le bassin de la Volta blanche. Premier espace faunique protégé du Ghana et plus grand du pays, il abrite plus de 90 espèces de mammifères et environ 400 espèces d'oiseaux, dont des éléphants, des buffles et des antilopes. Il figure sur la liste indicative du patrimoine mondial depuis 2000.",
+      "regions": [
+        "nord du Ghana"
+      ],
+      "sources": [
+        "S11"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-site-navrongo",
+      "nom": "Cathédrale catholique de Navrongo",
+      "type": "monument",
+      "description": "La mission catholique de Navrongo a été fondée en 1906 par treize Pères français, d'abord avec quelques huttes dont une chapelle. La cathédrale actuelle, entièrement construite en briques de terre crue et enduite de mortier de terre, mesure 60 m de long pour 14 m de large. Son plan à nef et bas-côtés reprend des colonnes aux lignes arrondies qui mettent en valeur la plasticité de la terre. Elle est inscrite sur la liste indicative depuis 2000.",
+      "regions": [
+        "Navrongo",
+        "Upper East"
+      ],
+      "periode": "depuis 1906",
+      "sources": [
+        "S13"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-site-kakum",
+      "nom": "Parc national de Kakum",
+      "type": "site_naturel",
+      "description": "Le parc de Kakum, dont le nom vient de la rivière Kakum, protège un reste de la forêt tropicale côtière de l'Afrique de l'Ouest, qui a perdu environ 72 % de sa superficie. Réserve forestière dès 1925, il alimente en eau douce Cape Coast et 133 autres villes et villages. Il figure sur la liste indicative du patrimoine mondial depuis 2000.",
+      "regions": [
+        "région centrale",
+        "Cape Coast"
+      ],
+      "periode": "réserve depuis 1925",
+      "sources": [
+        "S16"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-site-mosquees-larabanga",
+      "nom": "Mosquées de style soudanais du nord-ouest et mosquée de Larabanga",
+      "type": "monument",
+      "description": "Au nord-ouest du pays, des mosquées de style soudanais jalonnent les routes des marchands dyula venus de Djenné vers les régions de l'or et de la kola. L'UNESCO relie ces édifices à la naissance d'États islamisés comme le Wala, le Dagbon, le Gonja et le Mamprugu. La mosquée de Larabanga, fondée en 1421 selon Wikipédia, est la plus ancienne du pays ; le Ghana Museums and Monuments Board la cite parmi ses monuments.",
+      "regions": [
+        "nord-ouest du Ghana",
+        "Larabanga"
+      ],
+      "periode": "XVe siècle (Larabanga, selon Wikipédia)",
+      "sources": [
+        "S15",
+        "S129",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-site-manhyia",
+      "nom": "Palais et musée de Manhyia",
+      "type": "musee",
+      "description": "Manhyia, à Kumasi, est le siège de l'Asantehene et sa résidence officielle ; le premier palais est devenu musée. Le palais actuel a été construit en 1925 par les Britanniques, après que l'armée coloniale eut fait sauter le palais Aban pendant la guerre du Trône d'or. Ce palais de pierre, projeté sous Osei Kwadwo (1764-1777) et réalisé une cinquantaine d'années plus tard sous Osei Bonsu, a été conçu comme un « musée royal » d'après Claude-Hélène Perrot.",
+      "regions": [
+        "Kumasi",
+        "région ashanti"
+      ],
+      "sources": [
+        "S127",
+        "S23",
+        "S46"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-site-mausolee-nkrumah",
+      "nom": "Mausolée et parc commémoratif Kwame Nkrumah",
+      "type": "lieu_de_memoire",
+      "description": "Ce complexe commémoratif d'Accra, dédié à Kwame Nkrumah et dédicacé en 1992, a été installé sur d'anciens terrains de polo coloniaux. Le mausolée abrite les dépouilles de Nkrumah et de son épouse Fathia. Selon Wikipédia, c'est aussi l'endroit où Nkrumah proclama l'indépendance, et un musée y présente des objets de sa vie. La forme du bâtiment évoque une épée renversée.",
+      "regions": [
+        "Accra"
+      ],
+      "periode": "depuis 1992",
+      "sensible": true,
+      "note_sensibilite": "Le site abrite des sépultures : les représentations doivent rester respectueuses et conformes aux règles fixées par les autorités ghanéennes.",
+      "sources": [
+        "S126",
+        "S95"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-site-musee-national",
+      "nom": "Musée national du Ghana",
+      "type": "musee",
+      "description": "Le Musée national d'Accra est, selon Wikipédia, le plus grand et le plus ancien des six musées placés sous la tutelle du Ghana Museums and Monuments Board. Il a ouvert le 5 mars 1957, à la veille de l'indépendance, à l'initiative de Nkrumah. Il rassemble environ 10 000 objets d'archéologie, d'ethnographie et d'art, dont les collections du musée d'anthropologie d'Achimota. Fermé en 2015 pour restauration, il a rouvert en 2022.",
+      "regions": [
+        "Accra"
+      ],
+      "periode": "depuis 1957",
+      "sources": [
+        "S7",
+        "S128",
+        "S95"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "traditions": [
+    {
+      "id": "GH-tradition-highlife",
+      "nom": "Musique et danse highlife",
+      "categorie": "musique",
+      "description": "Le highlife est une musique populaire de danse et de récit, faite de rythmes vifs et de paroles proches de la vie de tous les jours. Il mêle guitares, cuivres, tambours, xylophones et percussions, souvent en appel et réponse entre un chanteur et un chœur. Il se chante en plusieurs langues locales, en anglais et en pidgin, lors de mariages, funérailles, fêtes et cérémonies de nom. Trois grands styles coexistent (Dance Band, Guitar Band et Burger), et la transmission passe par l'apprentissage en orchestre, les familles et l'université.",
+      "communautes": [
+        "musiciens et orchestres du Ghana"
+      ],
+      "regions": [
+        "tout le Ghana"
+      ],
+      "langues": [
+        "langues ghanéennes",
+        "anglais",
+        "pidgin"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "02141",
+        "annee": 2025,
+        "url": "https://ich.unesco.org/en/RL/highlife-music-and-dance-02141"
+      },
+      "sources": [
+        "S17",
+        "S19",
+        "S39"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Notice UNESCO : « Inscribed in 2025 (20.COM) » ; la page d'État du Ghana affiche « 2024, RL » dans un intitulé : année 2025 retenue d'après la notice de l'élément."
+      }
+    },
+    {
+      "id": "GH-tradition-kente",
+      "nom": "Tissage traditionnel du kente",
+      "categorie": "textile",
+      "description": "Le kente est un tissu fait de bandes tissées en soie, coton ou rayonne sur des métiers horizontaux. L'âge, le statut social et le genre de la personne qui le porte influencent le choix des couleurs et des motifs. Les pièces reçoivent des noms tirés de proverbes, de dictons et de situations sociales. Les femmes filent le coton et tissent, les hommes fabriquent les métiers et les outils, et chaque communauté de tisserands est dirigée par un maître tisserand ; les savoirs passent par les familles, l'apprentissage et l'école.",
+      "communautes": [
+        "communautés de tisserands du Ghana"
+      ],
+      "regions": [
+        "tout le Ghana"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "02130",
+        "annee": 2024,
+        "url": "https://ich.unesco.org/en/RL/craftsmanship-of-traditional-woven-textile-kente-02130"
+      },
+      "sources": [
+        "S18",
+        "S19"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-tradition-adinkra",
+      "nom": "Symboles adinkra",
+      "categorie": "textile",
+      "nom_local": "Adinkra",
+      "description": "Les adinkra sont des symboles des Akans, qui représentent des idées ou des maximes et sont liés à des proverbes. On les trouve sur des tissus, des poteries, des tabourets, des poids à peser l'or et dans l'architecture. Sur les sanctuaires ashanti de Kumasi, ils côtoient d'autres motifs dans de grands bas-reliefs aux significations symboliques.",
+      "communautes": [
+        "Akans",
+        "Ashantis"
+      ],
+      "regions": [
+        "région ashanti",
+        "sud du Ghana"
+      ],
+      "langues": [
+        "twi"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S114",
+        "S9"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-tradition-poids-or",
+      "nom": "Poids à peser l'or akan",
+      "categorie": "artisanat",
+      "description": "Les Akans pesaient la poudre d'or avec des poids en laiton, dont beaucoup représentent des animaux, des objets ou des symboles. Georges Niangoran-Bouah y voit des « pierres-proverbes » qui disent l'histoire, les institutions et la vie sociale des populations akan. L'article de Claude-Hélène Perrot montre aussi que ces poids ont été collectés au XIXe siècle : ceux du Français Marie-Joseph Bonnat, otage à Kumasi en 1870, en font partie.",
+      "communautes": [
+        "Akans",
+        "Ashantis"
+      ],
+      "regions": [
+        "Kumasi",
+        "sud du Ghana"
+      ],
+      "langues": [
+        "twi"
+      ],
+      "periode": "XVIIIe-XXe siècle",
+      "transmission": "fragile",
+      "unesco": null,
+      "sources": [
+        "S21",
+        "S22",
+        "S56",
+        "S114"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Catégorie de transmission « fragile » posée par prudence ; aucune source lue ne mesure l'état actuel de la pratique."
+      }
+    },
+    {
+      "id": "GH-tradition-homowo",
+      "nom": "Fête Homowo des Gas",
+      "categorie": "fete",
+      "description": "Homowo est la grande fête annuelle des Gas du Grand Accra. Elle commence fin avril ou en mai, au moment des semailles, et rappelle une famine ancienne du pays ga. Son nom associe « faim » et « huer » : on se moque symboliquement de la faim.",
+      "communautes": [
+        "Gas"
+      ],
+      "regions": [
+        "Accra",
+        "Grand Accra"
+      ],
+      "langues": [
+        "ga"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sensible": true,
+      "note_sensibilite": "Fête liée à des rites communautaires et au calendrier traditionnel : sa description doit être validée par les autorités traditionnelles ga.",
+      "sources": [
+        "S115",
+        "S26"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-tradition-akwasidae",
+      "nom": "Fête Akwasidae",
+      "categorie": "fete",
+      "description": "L'Akwasidae est une fête des Ashantis, célébrée un dimanche toutes les six semaines environ. Elle correspond à la dernière journée d'un cycle du calendrier akan de neuf périodes, appelé adae. Elle réunit chefs et habitants, y compris la diaspora ashanti.",
+      "communautes": [
+        "Ashantis"
+      ],
+      "regions": [
+        "Kumasi",
+        "région ashanti"
+      ],
+      "langues": [
+        "twi"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sensible": true,
+      "note_sensibilite": "Cérémonie liée au culte des ancêtres et à la royauté ashanti : à valider auprès des autorités traditionnelles.",
+      "sources": [
+        "S123"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-tradition-kundum",
+      "nom": "Fête Kundum",
+      "categorie": "fete",
+      "description": "Le Kundum est une fête des Ahantas et des Nzémas de la région de l'Ouest, célébrée au moment de la récolte pour remercier Dieu de l'abondance de nourriture. Un explorateur néerlandais du XVIIe siècle, Bosman, en a laissé l'une des premières descriptions écrites. Selon la tradition orale, elle serait née quand un chasseur vit des nains danser en cercle.",
+      "communautes": [
+        "Ahantas",
+        "Nzémas"
+      ],
+      "regions": [
+        "région de l'Ouest"
+      ],
+      "langues": [
+        "nzema"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sensible": true,
+      "note_sensibilite": "Fête rituelle avec des éléments religieux et des récits d'origine : validation communautaire nécessaire.",
+      "sources": [
+        "S124"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-tradition-damba",
+      "nom": "Fête Damba",
+      "categorie": "fete",
+      "description": "Le Damba est la grande fête du nord du Ghana, célébrée le troisième mois du calendrier dagomba. Son nom est dagbani ; on dit Damma en mampruli et Jingbenti en waali. Née pour marquer la naissance et la dénomination du prophète Muhammad, elle célèbre aujourd'hui surtout le patrimoine et la chefferie du Dagbon et des royaumes voisins. Les Gonjas l'ont aussi adoptée.",
+      "communautes": [
+        "Dagbamba",
+        "Mamprusis",
+        "Gonjas",
+        "Waalas"
+      ],
+      "regions": [
+        "région du Nord",
+        "région de la Savane",
+        "Upper East",
+        "Upper West"
+      ],
+      "langues": [
+        "dagbani",
+        "mampruli"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S122"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-tradition-gologo-boaram",
+      "nom": "Fêtes Boaram et Gologo des Tallensis",
+      "categorie": "fete",
+      "description": "Selon l'UNESCO, les Tong Hills sont la scène de fêtes très colorées. Le Boaram a lieu en octobre : c'est une fête de la récolte centrée sur les sanctuaires des ancêtres. Le Gologo vient à la fin de la saison sèche et se concentre sur le grand sanctuaire de la terre, Noo.",
+      "communautes": [
+        "Tallensis"
+      ],
+      "regions": [
+        "Tong Hills",
+        "Upper East"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sensible": true,
+      "note_sensibilite": "Cérémonies liées à des sanctuaires de la terre et des ancêtres : aucune description détaillée sans l'accord des communautés talensi.",
+      "sources": [
+        "S12"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-tradition-kpanlogo",
+      "nom": "Kpanlogo",
+      "categorie": "danse",
+      "description": "Le kpanlogo est une danse et une musique de loisir apparues dans les années 1960 chez les jeunes citadins d'Accra. Elle descend de styles ga plus anciens comme l'oge et le gome. Les jeunes générations ga l'ont conçue comme une forme nouvelle, influencée par le rock américain, qui les distinguait des aînés.",
+      "communautes": [
+        "Gas"
+      ],
+      "regions": [
+        "Accra"
+      ],
+      "langues": [
+        "ga"
+      ],
+      "periode": "depuis les années 1960",
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S116"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-tradition-agbadza",
+      "nom": "Agbadza",
+      "categorie": "danse",
+      "description": "L'agbadza est une musique et une danse éwé, issue d'une très ancienne danse de guerre appelée atrikpui, et devenue une danse de loisir très populaire. On la joue surtout dans la région de la Volta, notamment pendant la fête Hogbetsotso des Éwés anlo. Elle compte cinq mouvements, dont une courte introduction de prière aux dieux et aux ancêtres.",
+      "communautes": [
+        "Éwés"
+      ],
+      "regions": [
+        "région de la Volta"
+      ],
+      "langues": [
+        "éwé"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S117"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-tradition-gyil",
+      "nom": "Xylophone gyil",
+      "categorie": "musique",
+      "description": "Le gyil est un xylophone ouest-africain à dix-sept lames montées sur calebasses, joué par les Dagaaba et les Birifor du nord du Ghana et du sud du Burkina Faso. On le frappe avec des maillets à têtes de caoutchouc, le plus souvent par paires, avec un accompagnement de calebasse. Les hommes en jouent plus souvent, sans interdit pour les femmes. Le musicien Bernard Woma (mort en 2018) a enseigné cet instrument et l'a fait connaître à l'étranger.",
+      "communautes": [
+        "Dagaabas",
+        "Birifor"
+      ],
+      "regions": [
+        "nord du Ghana"
+      ],
+      "langues": [
+        "dagaare"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S118"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-tradition-adowa",
+      "nom": "Danse adowa",
+      "categorie": "danse",
+      "description": "L'adowa est une danse traditionnelle des Akans, jouée lors de fêtes, funérailles, fiançailles et autres cérémonies. Les gestes des mains changent selon l'occasion : joie pour un mariage ou une intronisation, deuil pour des funérailles. Un ensemble adowa comprend un chanteur principal, un chœur et des percussions.",
+      "communautes": [
+        "Akans"
+      ],
+      "regions": [
+        "région ashanti",
+        "sud du Ghana"
+      ],
+      "langues": [
+        "twi"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S125"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-tradition-cercueils",
+      "nom": "Cercueils figuratifs",
+      "categorie": "artisanat",
+      "description": "Les cercueils figuratifs, appelés aussi cercueils fantaisie ou « cercueils-proverbes », sont fabriqués par des menuisiers spécialisés de la région du Grand Accra. Ils dérivent de palanquins figuratifs et sont considérés comme des œuvres d'art. Ils sont montrés au public occidental à Paris en 1989, avec sept cercueils de Kane Kwei (1922-1992) et de son ancien assistant Paa Joe.",
+      "communautes": [
+        "menuisiers du Grand Accra"
+      ],
+      "regions": [
+        "Grand Accra"
+      ],
+      "langues": [
+        "ga"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sensible": true,
+      "note_sensibilite": "Objets liés aux funérailles : leur présentation doit respecter les familles et les communautés.",
+      "sources": [
+        "S119"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique : Wikipédia (article signalé comme demandant des références) ; à renforcer avant publication."
+      }
+    },
+    {
+      "id": "GH-tradition-anansesem",
+      "nom": "Contes d'Ananse (anansesem)",
+      "categorie": "oralite",
+      "nom_local": "Anansesem",
+      "description": "Les récits d'Ananse, l'araignée, sont le cœur de la narration orale akan. R. S. Rattray note que le mot pour « histoire » en twi, anansesem, signifie littéralement « paroles sur une araignée », même quand l'araignée n'apparaît pas. L'araignée y passe pour très sage, et l'un des surnoms de l'Être suprême est Ananse kokroko, « la Grande Araignée ». Ces récits associent sagesse, ruse et malice.",
+      "communautes": [
+        "Akans",
+        "Ashantis"
+      ],
+      "regions": [
+        "région ashanti",
+        "sud du Ghana"
+      ],
+      "langues": [
+        "twi"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S32",
+        "S120"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-tradition-fufu",
+      "nom": "Fufu",
+      "categorie": "cuisine",
+      "description": "Le fufu est un plat de pâte pilée, préparée à l'origine avec du manioc, de la banane plantain et du taro. Le mot est issu du twi des Akans du Ghana, avant de s'étendre à d'autres préparations d'Afrique de l'Ouest et centrale. Pour les habitants de Nzulezu, le pilage du fufu fait partie des activités du quotidien menées sur le lac.",
+      "communautes": [
+        "Akans"
+      ],
+      "regions": [
+        "tout le Ghana"
+      ],
+      "langues": [
+        "twi"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S121",
+        "S14"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "personnalites": [
+    {
+      "id": "GH-personnalite-osei-tutu",
+      "nom": "Osei Tutu Ier",
+      "wikidata": "Q713080",
+      "description": "Osei Tutu est considéré comme le premier asantehene, le souverain de l'Empire ashanti. Neveu d'Obiri Yeboa, roi de Kwaaman (Kumasi), il aurait fédéré les États voisins puis vaincu le royaume de Denkyira à Feyiase en 1701. Selon Wikipédia, il meurt au combat en 1717. Son règne marque la naissance de la puissance ashanti.",
+      "naissance": {
+        "date": "date incertaine (vers 1660 selon Wikidata, qui note aussi 1636)",
+        "lieu": "région de Kumasi (Anyinam selon Wikidata)"
+      },
+      "deces": {
+        "date": "1717"
+      },
+      "roles": [
+        "premier asantehene"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XVIIe-XVIIIe siècle",
+      "sources": [
+        "S97",
+        "S3",
+        "S46",
+        "S34",
+        "S77"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates de naissance divergentes dans Wikidata (1636, vers 1660) : non tranchée. Décès 1717 d'après Wikipédia fr ; à confirmer."
+      }
+    },
+    {
+      "id": "GH-personnalite-okomfo-anokye",
+      "nom": "Okomfo Anokye",
+      "wikidata": "Q7082501",
+      "description": "Okomfo Anokye est présenté comme le premier prêtre de l'Empire ashanti et le conseiller d'Osei Tutu. La tradition lui attribue un rôle dans l'unification de la confédération, ainsi que dans la codification de la constitution et des lois ashanti. Carl Reindorf, en 1895, le décrit déjà comme un prêtre très renommé venu d'Awukugua, dans l'Akuapem, et lié à Osei Tutu. Les récits qui l'entourent mêlent histoire et tradition orale.",
+      "naissance": {
+        "date": "vers 1655",
+        "lieu": "Awukugua (Akuapem)"
+      },
+      "deces": {
+        "date": "1717 (ou 1719 selon les sources)"
+      },
+      "roles": [
+        "prêtre",
+        "conseiller politique"
+      ],
+      "domaines": [
+        "religion",
+        "politique"
+      ],
+      "epoque": "XVIIe-XVIIIe siècle",
+      "sensible": true,
+      "note_sensibilite": "Figure religieuse et légendaire de la fondation de l'empire ashanti : les récits sur ses pouvoirs relèvent de traditions vivantes ; à valider avec des spécialistes ashanti.",
+      "sources": [
+        "S98",
+        "S34",
+        "S78",
+        "S46"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates approximatives (naissance vers 1655, décès 1717 ou 1719) d'après Wikipédia fr et Wikidata."
+      }
+    },
+    {
+      "id": "GH-personnalite-anton-wilhelm-amo",
+      "nom": "Anton Wilhelm Amo",
+      "wikidata": "Q595486",
+      "description": "Né vers 1703 près d'Axim, dans l'actuel Ghana, Amo est donné enfant au duc de Brunswick-Wolfenbüttel après avoir été enlevé. Il fait des études en Allemagne et soutient à Wittenberg, le 16 avril 1734, une thèse sur l'impassibilité de l'esprit humain, qui critique Descartes. Il enseigne ensuite la philosophie à Halle et à Iéna. Il est considéré comme le premier philosophe africain connu d'Europe, d'origine nzema et akan.",
+      "naissance": {
+        "date": "vers 1703",
+        "lieu": "près d'Axim (Côte-de-l'Or)"
+      },
+      "deces": {
+        "date": "date incertaine (vers 1753 selon Wikipédia, 1756 selon l'université de Buffalo, 1759 selon Wikidata)",
+        "lieu": "Côte-de-l'Or (fort de Shama selon Wikipédia, à confirmer)"
+      },
+      "roles": [
+        "philosophe",
+        "professeur"
+      ],
+      "domaines": [
+        "savoirs",
+        "philosophie"
+      ],
+      "epoque": "XVIIIe siècle",
+      "sources": [
+        "S44",
+        "S43",
+        "S45",
+        "S99",
+        "S79"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date et lieu de décès contestés selon les sources consultées : à trancher avant publication."
+      }
+    },
+    {
+      "id": "GH-personnalite-ottobah-cugoano",
+      "nom": "Ottobah Cugoano",
+      "wikidata": "Q726772",
+      "description": "Cugoano naît vers 1757 sur la côte fante, près d'Ajumako ; il se dit lui-même né à « Agimaque », sur la côte de « Fantyn ». Enlevé vers l'âge de treize ans, il traverse l'Atlantique, travaille aux Caraïbes, puis est emmené en Angleterre. En 1787 il y publie un livre contre l'esclavage et la traite, l'un des premiers textes de ce type écrits par un Africain. Il se compte parmi les voix abolitionnistes de la fin du XVIIIe siècle.",
+      "naissance": {
+        "date": "vers 1757",
+        "lieu": "Ajumako, côte fante"
+      },
+      "roles": [
+        "auteur",
+        "abolitionniste"
+      ],
+      "domaines": [
+        "littérature",
+        "résistance"
+      ],
+      "epoque": "XVIIIe siècle",
+      "sources": [
+        "S35",
+        "S100",
+        "S80"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance vers 1757 (Wikipédia fr) ; Wikidata donne aussi 1748 ; date de décès non établie (1791 ou 1803 selon les sources)."
+      }
+    },
+    {
+      "id": "GH-personnalite-j-e-k-aggrey",
+      "nom": "James Emman Kwegyir Aggrey",
+      "wikidata": "Q1679925",
+      "description": "Né à Anomabu en 1875, Aggrey a été enseignant et penseur pan-africaniste. D'après un chapitre de Cambridge University Press, il fut dans les années 1920 le pan-africaniste le plus influent du monde africain anglophone, et un inspirateur des premiers dirigeants de l'African Association. Sa formation passe par l'Église méthodiste épiscopale africaine de Sion.",
+      "naissance": {
+        "date": "1875-10-18",
+        "lieu": "Anomabu"
+      },
+      "deces": {
+        "date": "1927-07-30"
+      },
+      "roles": [
+        "enseignant",
+        "penseur pan-africaniste"
+      ],
+      "domaines": [
+        "savoirs",
+        "politique"
+      ],
+      "epoque": "XIXe-XXe siècle",
+      "sources": [
+        "S53",
+        "S87"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-personnalite-j-b-danquah",
+      "nom": "J. B. Danquah",
+      "wikidata": "Q377908",
+      "description": "Joseph Boakye Danquah est une figure intellectuelle et politique du Ghana, décrite par sa petite-fille comme poète, dramaturge, philosophe, théologien, anthropologue et homme d'État. Il meurt le 4 février 1965 dans la prison de Nsawam, où il était détenu sans procès. Sa mort en détention est évoquée comme une tache dans l'histoire du pays.",
+      "naissance": {
+        "date": "1895-12 (le 18 ou le 21 décembre selon Wikidata)",
+        "lieu": "Bepong, Kwahu"
+      },
+      "deces": {
+        "date": "1965-02-04",
+        "lieu": "prison de Nsawam"
+      },
+      "roles": [
+        "homme politique",
+        "juriste",
+        "intellectuel"
+      ],
+      "domaines": [
+        "politique",
+        "savoirs"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S49",
+        "S88"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Jour de naissance incertain (18 ou 21 décembre 1895 dans Wikidata) ; lieu de naissance (Bepong) d'après Wikidata."
+      }
+    },
+    {
+      "id": "GH-personnalite-kwame-nkrumah",
+      "nom": "Kwame Nkrumah",
+      "wikidata": "Q8620",
+      "description": "Né à Nkroful en 1909, Nkrumah a été le chef du gouvernement de la Côte-de-l'Or à partir de 1954, puis le Premier ministre du Ghana indépendant, avant d'en devenir président en 1960. Son parti, le Convention People's Party, est né dans la période de nationalisme de masse de 1947 à 1951. Il a défendu le panafricanisme, mais il a aussi réprimé l'opposition et a été renversé par l'armée le 24 février 1966. Il est mort en 1972 à Bucarest.",
+      "naissance": {
+        "date": "1909-09-21",
+        "lieu": "Nkroful"
+      },
+      "deces": {
+        "date": "1972-04-27",
+        "lieu": "Bucarest"
+      },
+      "roles": [
+        "Premier ministre",
+        "président",
+        "panafricaniste"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S95",
+        "S28",
+        "S27",
+        "S3",
+        "S75"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-personnalite-yaa-asantewaa",
+      "nom": "Yaa Asantewaa",
+      "wikidata": "Q467803",
+      "description": "Reine mère d'Ejisu, dans la confédération ashanti, Yaa Asantewaa a pris la tête de la résistance armée contre les Britanniques en 1900, lors de la guerre du Trône d'or. Quand le gouverneur britannique a réclamé le Trône d'or, symbole de la nation ashanti, elle a appelé les chefs à se battre pour leur souverain exilé. Capturée avec ses conseillers, elle a été déportée aux Seychelles, où elle est morte le 17 octobre 1921. Elle reste un symbole de la résistance à la colonisation.",
+      "naissance": {
+        "date": "vers 1840",
+        "lieu": "Besease (Wikidata)"
+      },
+      "deces": {
+        "date": "1921-10-17",
+        "lieu": "Seychelles"
+      },
+      "roles": [
+        "reine mère",
+        "cheffe de guerre"
+      ],
+      "domaines": [
+        "résistance",
+        "politique"
+      ],
+      "epoque": "XIXe-XXe siècle",
+      "sources": [
+        "S46",
+        "S96",
+        "S3",
+        "S76"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de naissance approximative (vers 1840 ; Wikidata note aussi 1832)."
+      }
+    },
+    {
+      "id": "GH-personnalite-ama-ata-aidoo",
+      "nom": "Ama Ata Aidoo",
+      "wikidata": "Q298224",
+      "description": "Écrivaine, poétesse, dramaturge et universitaire, Ama Ata Aidoo a aussi été ministre de l'Éducation du Ghana en 1982-1983. Sa pièce The Dilemma of a Ghost (1965) fait d'elle la première dramaturge africaine publiée. Son œuvre interroge les paradoxes de l'identité africaine moderne, en particulier pour les femmes. Elle a fondé en 2000 la Mbaasem Foundation, qui soutient les écrivaines africaines.",
+      "naissance": {
+        "date": "1942-03-23",
+        "lieu": "Abeadzi Kyiakor, près de Saltpond"
+      },
+      "deces": {
+        "date": "2023-05-31",
+        "lieu": "Accra"
+      },
+      "roles": [
+        "écrivaine",
+        "dramaturge",
+        "ministre"
+      ],
+      "domaines": [
+        "littérature",
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S38",
+        "S101",
+        "S82"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Certaines sources donnent le 31 mars comme date de naissance (Wikipédia en) ; 23 mars retenu d'après Wikidata."
+      }
+    },
+    {
+      "id": "GH-personnalite-efua-sutherland",
+      "nom": "Efua Sutherland",
+      "wikidata": "Q274741",
+      "description": "Née à Cape Coast en 1924, Efua Sutherland est la dramaturge et animatrice culturelle qui a le plus marqué le théâtre ghanéen après l'indépendance. Elle a fondé la Ghana Society of Writers et le Ghana Experimental Theatre, installé au Ghana Drama Studio, et a écrit des pièces comme Edufa et The Marriage of Anansewa. Elle a aussi lancé la maison d'édition Afram Publications et l'idée du festival Panafest.",
+      "naissance": {
+        "date": "1924-06-27",
+        "lieu": "Cape Coast"
+      },
+      "deces": {
+        "date": "1996-01-02",
+        "lieu": "Accra"
+      },
+      "roles": [
+        "dramaturge",
+        "metteuse en scène",
+        "éditrice"
+      ],
+      "domaines": [
+        "arts",
+        "littérature"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S47",
+        "S102",
+        "S113",
+        "S83"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-personnalite-esther-ocloo",
+      "nom": "Esther Ocloo",
+      "wikidata": "Q5401133",
+      "description": "Née en 1919 dans la région de la Volta, dans une famille éwé, Esther Ocloo a débuté comme entrepreneure dans les années 1930 avec une très petite somme, et a formé d'autres femmes. En 1976, elle a cofondé Women's World Banking, réseau de microfinance, dont elle a été la première présidente du conseil. Elle reste connue au Ghana sous le nom d'« Auntie Ocloo ».",
+      "naissance": {
+        "date": "1919-04-18",
+        "lieu": "région de la Volta (Gold Coast, Togoland britannique)"
+      },
+      "deces": {
+        "date": "2002-02-08",
+        "lieu": "Accra"
+      },
+      "roles": [
+        "entrepreneure",
+        "pionnière du microcrédit"
+      ],
+      "domaines": [
+        "économie"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S40",
+        "S103",
+        "S84"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-personnalite-hannah-kudjoe",
+      "nom": "Hannah Kudjoe",
+      "wikidata": "Q22004762",
+      "description": "Hannah Kudjoe (née Dadson) a été l'une des premières militantes nationalistes de renom du mouvement pour l'indépendance dans les années 1940 et 1950. Secrétaire nationale à la propagande du Convention People's Party, elle était surnommée « Convention Hannah ». Elle rassemblait des foules pour des meetings et des pétitions, notamment pour obtenir la libération des « Big Six ». Elle a aussi œuvré pour améliorer la vie des femmes dans le nord du pays.",
+      "naissance": {
+        "date": "1918-12",
+        "lieu": "Busua, près de Dixcove"
+      },
+      "deces": {
+        "date": "1986-03-09",
+        "lieu": "Accra (Wikidata)"
+      },
+      "roles": [
+        "militante nationaliste",
+        "responsable de parti"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S52",
+        "S104",
+        "S85"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-personnalite-mabel-dove-danquah",
+      "nom": "Mabel Dove Danquah",
+      "wikidata": "Q1882348",
+      "description": "Journaliste, écrivaine et militante, Mabel Dove Danquah est née à Accra en 1905. Elle a écrit sous plusieurs pseudonymes pour des journaux d'Afrique de l'Ouest, dont l'Accra Evening News fondé par Kwame Nkrumah. Elle a été la première femme élue à l'Assemblée législative de la Côte-de-l'Or et, selon Wikipédia, à une assemblée législative africaine. Elle est décrite comme une pionnière du féminisme littéraire ghanéen.",
+      "naissance": {
+        "date": "1905",
+        "lieu": "Accra"
+      },
+      "deces": {
+        "date": "1984"
+      },
+      "roles": [
+        "journaliste",
+        "femme politique",
+        "écrivaine"
+      ],
+      "domaines": [
+        "littérature",
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S50",
+        "S51",
+        "S54",
+        "S105",
+        "S86"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance 1905 (Wikidata note aussi 1910) ; décès 1984 sans lieu précisé."
+      }
+    },
+    {
+      "id": "GH-personnalite-theodosia-okoh",
+      "nom": "Theodosia Okoh",
+      "wikidata": "Q15457178",
+      "description": "Artiste et sportive, Theodosia Okoh a conçu le drapeau national du Ghana. Elle a expliqué le choix du rouge, de l'or et du vert par la géographie tropicale du pays : l'or pour les richesses du sous-sol, le rouge pour celles et ceux qui sont morts ou ont œuvré pour l'indépendance, l'étoile à cinq branches pour l'émancipation et l'unité africaines dans la lutte contre le colonialisme. Elle a aussi été la première femme à diriger la fédération de hockey du Ghana.",
+      "naissance": {
+        "date": "1922-06-14",
+        "lieu": "Effiduase"
+      },
+      "deces": {
+        "date": "2015-04-19",
+        "lieu": "Tema"
+      },
+      "roles": [
+        "créatrice du drapeau",
+        "dirigeante sportive"
+      ],
+      "domaines": [
+        "arts",
+        "sport"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S52",
+        "S92"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-personnalite-kofi-annan",
+      "nom": "Kofi Annan",
+      "wikidata": "Q1254",
+      "description": "Né à Kumasi en 1938, Kofi Annan est devenu le septième secrétaire général des Nations unies, le premier élu parmi les fonctionnaires de l'organisation. Il a occupé ce poste à partir du 1er janvier 1997 et a mis l'accent sur la réforme de l'ONU, les droits de l'homme et la lutte contre le sida. Il a reçu le prix Nobel de la paix en 2001. Il est mort à Berne en 2018.",
+      "naissance": {
+        "date": "1938-04-08",
+        "lieu": "Kumasi"
+      },
+      "deces": {
+        "date": "2018-08-18",
+        "lieu": "Berne"
+      },
+      "roles": [
+        "diplomate",
+        "secrétaire général de l'ONU"
+      ],
+      "domaines": [
+        "diplomatie",
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S37",
+        "S81"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-personnalite-e-t-mensah",
+      "nom": "E. T. Mensah",
+      "wikidata": "Q1811495",
+      "description": "Emmanuel Tetteh Mensah, né à Accra en 1919, a appris la flûte et le saxophone avant de former E.T. Mensah and the Tempos, qui ont enregistré chez Decca dès 1952. Surnommé « le roi du highlife », il a composé en 1957 « Ghana Freedom Highlife », pour l'indépendance. Ses orchestres ont joué du highlife mêlé de rythmes cubains, de reggae et de musiques plus récentes ; il a enregistré onze albums.",
+      "naissance": {
+        "date": "1919-05-31",
+        "lieu": "Accra"
+      },
+      "deces": {
+        "date": "1996-07-19",
+        "lieu": "Mamprobi, Accra (Wikidata)"
+      },
+      "roles": [
+        "musicien",
+        "chef d'orchestre"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S39",
+        "S17",
+        "S89"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-personnalite-el-anatsui",
+      "nom": "El Anatsui",
+      "wikidata": "Q1323876",
+      "description": "Sculpteur né en 1944 au Ghana, El Anatsui vit et travaille au Nigeria, où il enseigne à l'université de Nsukka depuis 1975. Il a étudié à Kumasi avant de travailler le bois, l'argile, le métal et, plus récemment, les capsules de bouteilles de liqueur, qu'il assemble en grandes tentures souples. Ses œuvres évoquent l'histoire des échanges coloniaux et postcoloniaux. Il a participé à la Biennale de Venise de 1990.",
+      "naissance": {
+        "date": "1944",
+        "lieu": "Anyako (Wikidata)"
+      },
+      "roles": [
+        "sculpteur",
+        "professeur"
+      ],
+      "domaines": [
+        "arts"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S41",
+        "S42",
+        "S90"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lieu de naissance : « Anyanko » dans Art21, Anyako dans Wikidata ; à confirmer."
+      }
+    },
+    {
+      "id": "GH-personnalite-ayi-kwei-armah",
+      "nom": "Ayi Kwei Armah",
+      "wikidata": "Q792956",
+      "description": "Romancier et essayiste né à Sekondi-Takoradi en 1939, Ayi Kwei Armah est connu pour son premier roman, The Beautyful Ones Are Not Yet Born (1968), qui raconte la désillusion d'un homme sans nom dans le Ghana de l'après-indépendance. Ses romans, étudiés par la critique, mettent en tension les modes de pensée européens et africains. Ils jouent aussi sur la fragmentation du récit.",
+      "naissance": {
+        "date": "1939-10-28",
+        "lieu": "Sekondi-Takoradi"
+      },
+      "roles": [
+        "romancier",
+        "essayiste"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S48",
+        "S106",
+        "S91"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "evenements": [
+    {
+      "id": "GH-evenement-kintampo",
+      "titre": "Complexe de Kintampo",
+      "date": "-002499-01-01",
+      "date_affichee": "vers 2500-1400 av. J.-C.",
+      "precision": "siecle",
+      "description": "Des agropasteurs venus du Sahara, distincts des chasseurs-cueilleurs plus anciens, forment le complexe de Kintampo, dans la région du Bono Est actuelle. Cette période marque le passage du pastoralisme à la sédentarité dans l'Afrique de l'Ouest. Dans le nord, des fouilles à Ntereso (Gonja) ont livré des vestiges de l'âge de la pierre récent et de l'âge du fer.",
+      "fin": "-001399-12-31",
+      "regions": [
+        "Bono Est",
+        "nord du Ghana"
+      ],
+      "sources": [
+        "S107",
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Datation 2500-1400 av. J.-C. d'après Wikipédia (en) ; à confirmer avec une source archéologique."
+      }
+    },
+    {
+      "id": "GH-evenement-etats-akan",
+      "titre": "Apparition des États akan et commerce de l'or",
+      "date": "1100-01-01",
+      "date_affichee": "XIIe siècle",
+      "precision": "siecle",
+      "description": "La BBC place au XIIe siècle l'émergence de plusieurs États fondés par les Akans, qui développent le commerce de l'or. Ces États préparent les grands royaumes de la forêt, dont les Ashantis, et leurs échanges avec le nord et la côte.",
+      "acteurs": [
+        "Akans"
+      ],
+      "regions": [
+        "forêt akan"
+      ],
+      "sources": [
+        "S3",
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-elmina-1482",
+      "titre": "Fondation d'Elmina par les Portugais",
+      "date": "1482-01-01",
+      "date_affichee": "1482",
+      "precision": "annee",
+      "description": "Le château Saint-George d'Elmina est construit en 1482, selon l'UNESCO, et compte parmi les plus anciens bâtiments européens hors d'Europe. La BBC date de la même année l'installation de postes portugais pour acheter l'or aux États akan, bientôt suivis par d'autres puissances européennes.",
+      "acteurs": [
+        "Portugal",
+        "États akan"
+      ],
+      "regions": [
+        "Elmina",
+        "côte centrale"
+      ],
+      "sources": [
+        "S8",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-traite-or",
+      "titre": "La traite des esclaves dépasse l'or dans les exportations",
+      "date": "1500-01-01",
+      "date_affichee": "XVIe siècle",
+      "precision": "siecle",
+      "description": "Selon la BBC, au XVIe siècle, le transport d'esclaves devient la principale exportation de cette partie de la côte, devant l'or. Les forts côtiers, d'abord comptoirs de l'or, jouent un rôle croissant dans la traite des esclaves.",
+      "regions": [
+        "côte du Ghana"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Histoire de la traite atlantique : présentation sobre, qui distingue les faits établis des récits de mémoire et nomme les acteurs africains et européens.",
+      "sources": [
+        "S3",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-1642-hollandais",
+      "titre": "Les Portugais cèdent leurs possessions aux Néerlandais",
+      "date": "1642-01-01",
+      "date_affichee": "1642",
+      "precision": "annee",
+      "description": "En 1642, selon la BBC, les Portugais abandonnent leur territoire de la Côte-de-l'Or aux Néerlandais. Au XVIIe siècle arrivent aussi des Anglais, des Danois et des Suédois, et la traite devient très organisée.",
+      "acteurs": [
+        "Portugal",
+        "Pays-Bas"
+      ],
+      "regions": [
+        "côte du Ghana"
+      ],
+      "sources": [
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-feyiase-1701",
+      "titre": "Bataille de Feyiase et naissance de l'Empire ashanti",
+      "date": "1701-01-01",
+      "date_affichee": "1701",
+      "precision": "annee",
+      "description": "En 1701, Osei Tutu conduit la guerre contre le royaume de Denkyira, qui se conclut à la bataille de Feyiase. Le pouvoir passe de Denkyira à l'Empire ashanti naissant, que la BBC décrit comme dominant la région pendant deux siècles. La tradition associe la fondation de l'Asante à Osei Tutu et à Okomfo Anokye.",
+      "acteurs": [
+        "Osei Tutu",
+        "Okomfo Anokye",
+        "Denkyira"
+      ],
+      "regions": [
+        "Kumasi"
+      ],
+      "sources": [
+        "S3",
+        "S97",
+        "S46",
+        "S34"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année 1701 confirmée par la BBC, Wikipédia fr et le Dangerous Women Project."
+      }
+    },
+    {
+      "id": "GH-evenement-amo-1734",
+      "titre": "Soutenance de thèse d'Anton Wilhelm Amo à Wittenberg",
+      "date": "1734-04-16",
+      "date_affichee": "16 avril 1734",
+      "precision": "jour",
+      "description": "Anton Wilhelm Amo défend à l'université de Wittenberg sa dissertation De Humanae Mentis Apatheia, qui critique la distinction cartésienne entre l'esprit et le corps. Il est considéré comme le premier Africain à obtenir un doctorat de philosophie dans une université européenne.",
+      "acteurs": [
+        "Anton Wilhelm Amo"
+      ],
+      "regions": [
+        "Allemagne (Wittenberg)"
+      ],
+      "sources": [
+        "S44",
+        "S43"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-cugoano-1787",
+      "titre": "Publication du livre de Cugoano contre la traite",
+      "date": "1787-01-01",
+      "date_affichee": "1787",
+      "precision": "annee",
+      "description": "À Londres, Ottobah Cugoano publie Thoughts and Sentiments on the Evil and Wicked Traffic of the Slavery and Commerce of the Human Species, où il raconte son enlèvement sur la côte fante et condamne l'esclavage. Un an plus tard paraît une version française, selon Wikipédia.",
+      "acteurs": [
+        "Ottobah Cugoano"
+      ],
+      "regions": [
+        "Londres",
+        "côte fante"
+      ],
+      "sources": [
+        "S35",
+        "S100"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-1807",
+      "titre": "Entrée en vigueur de l'interdiction britannique de la traite",
+      "date": "1807-01-01",
+      "date_affichee": "1807",
+      "precision": "annee",
+      "description": "La BBC note qu'en 1807 l'interdiction britannique de la traite devient effective. Au XIXe siècle, les rapports de force entre la Grande-Bretagne et le royaume ashanti pour le contrôle de la région se multiplient.",
+      "acteurs": [
+        "Royaume-Uni",
+        "royaume ashanti"
+      ],
+      "sources": [
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-1821-colonie",
+      "titre": "Création de la colonie britannique de la Côte-de-l'Or",
+      "date": "1821-01-01",
+      "date_affichee": "1821",
+      "precision": "annee",
+      "description": "En 1821, le Royaume-Uni reprend les intérêts des autres puissances européennes et crée la colonie de la Côte-de-l'Or. La BBC indique qu'il l'étend ensuite en envahissant et soumettant des royaumes locaux.",
+      "acteurs": [
+        "Royaume-Uni"
+      ],
+      "regions": [
+        "côte du Ghana"
+      ],
+      "sources": [
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-anglo-ashanti-1",
+      "titre": "Première guerre anglo-ashanti",
+      "date": "1822-01-01",
+      "date_affichee": "1822-1824",
+      "precision": "annee",
+      "description": "Le premier conflit entre les Britanniques et l'Empire ashanti se déroule de 1822 à 1824 d'après la BBC. Il ouvre une longue série d'affrontements au XIXe siècle.",
+      "fin": "1824-12-31",
+      "acteurs": [
+        "Royaume-Uni",
+        "Empire ashanti"
+      ],
+      "sources": [
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-rachats-1850-1872",
+      "titre": "Rachat des possessions danoises et néerlandaises",
+      "date": "1850-01-01",
+      "date_affichee": "1850-1872",
+      "precision": "annee",
+      "description": "En 1850, la Grande-Bretagne achète et incorpore la Côte-de-l'Or danoise à sa colonie. En 1872, elle acquiert aussi la Côte-de-l'Or néerlandaise, ce qui consolide la colonie britannique.",
+      "fin": "1872-12-31",
+      "acteurs": [
+        "Royaume-Uni",
+        "Danemark",
+        "Pays-Bas"
+      ],
+      "regions": [
+        "côte du Ghana"
+      ],
+      "sources": [
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-confederation-fante",
+      "titre": "Confédération fante constitutionnelle",
+      "date": "1868-01-01",
+      "date_affichee": "1868",
+      "precision": "annee",
+      "description": "Les États fantes, alliés depuis la fin du XVIIe siècle, forment en 1868 une confédération constitutionnelle moderne. Edward Reynolds relie les hauts et les bas de la classe marchande africaine de la Côte-de-l'Or à la Confédération fante et à l'Aborigines' Rights Protection Society.",
+      "acteurs": [
+        "États fantes"
+      ],
+      "regions": [
+        "côte centrale"
+      ],
+      "sources": [
+        "S108",
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-anglo-ashanti-2",
+      "titre": "Prise et sac de Kumasi",
+      "date": "1873-01-01",
+      "date_affichee": "1873-1874",
+      "precision": "annee",
+      "description": "Lors de la deuxième guerre ashanti, en 1873-1874, les Britanniques saccagent Kumasi, la capitale de l'Empire ashanti, d'après la BBC. D'autres guerres suivent en 1893-1894 et 1895-1896.",
+      "fin": "1874-12-31",
+      "acteurs": [
+        "Royaume-Uni",
+        "Empire ashanti"
+      ],
+      "regions": [
+        "Kumasi"
+      ],
+      "sources": [
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-exil-prempeh",
+      "titre": "Exil de Prempeh Ier aux Seychelles",
+      "date": "1896-01-01",
+      "date_affichee": "1896",
+      "precision": "annee",
+      "description": "En 1896, les Britanniques exilent aux Seychelles le roi ashanti Prempeh Ier et d'autres membres du gouvernement, après la quatrième guerre ashanti. Le gouverneur Hodgson réclame ensuite le Trône d'or, ce qui nourrit la révolte de 1900.",
+      "acteurs": [
+        "Prempeh Ier",
+        "Royaume-Uni"
+      ],
+      "regions": [
+        "Kumasi",
+        "Seychelles"
+      ],
+      "sources": [
+        "S96",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-arps-1897",
+      "titre": "Création de l'Aborigines' Rights Protection Society",
+      "date": "1897-01-01",
+      "date_affichee": "1897",
+      "precision": "annee",
+      "description": "En 1897, des chefs traditionnels et des élites instruites fondent la Gold Coast Aborigines' Rights Protection Society pour protester contre les lois foncières de 1896 et 1897, qui menaçaient la tenure traditionnelle des terres. Elle devient une organisation majeure de la résistance politique anticoloniale.",
+      "acteurs": [
+        "Aborigines' Rights Protection Society"
+      ],
+      "regions": [
+        "Côte-de-l'Or"
+      ],
+      "sources": [
+        "S109",
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-guerre-trone-or",
+      "titre": "Guerre du Trône d'or",
+      "date": "1900-01-01",
+      "date_affichee": "1900-1901",
+      "precision": "annee",
+      "description": "En 1900, un soulèvement ashanti dirigé par Yaa Asantewaa s'oppose aux Britanniques, qui capturent Kumasi. La BBC y voit la perte d'indépendance des Ashantis. Le Dangerous Women Project date cette guerre de 1900-1901.",
+      "fin": "1901-12-31",
+      "acteurs": [
+        "Yaa Asantewaa",
+        "Royaume-Uni"
+      ],
+      "regions": [
+        "Kumasi",
+        "Ejisu"
+      ],
+      "sources": [
+        "S3",
+        "S46",
+        "S96"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-1901-annexion",
+      "titre": "Incorporation des royaumes dans la colonie",
+      "date": "1901-01-01",
+      "date_affichee": "1901",
+      "precision": "annee",
+      "description": "Selon la BBC, la colonie britannique de la Côte-de-l'Or incorpore en 1901 tous les royaumes dans une seule unité.",
+      "acteurs": [
+        "Royaume-Uni"
+      ],
+      "sources": [
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-constitution-1946",
+      "titre": "Constitution de 1946 et majorité africaine au Conseil législatif",
+      "date": "1946-01-01",
+      "date_affichee": "1946",
+      "precision": "annee",
+      "description": "Avec la constitution de 1946, la Côte-de-l'Or devient le premier territoire africain de la Grande-Bretagne doté d'un Conseil législatif à majorité d'Africains élus, avec un suffrage restreint. Georges Fischer note qu'elle était déjà dépassée avant d'être appliquée.",
+      "acteurs": [
+        "administration britannique"
+      ],
+      "regions": [
+        "Côte-de-l'Or"
+      ],
+      "sources": [
+        "S27"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-emeutes-1948",
+      "titre": "Émeutes d'Accra",
+      "date": "1948-02-28",
+      "date_affichee": "28 février 1948",
+      "precision": "jour",
+      "description": "Le 28 février 1948, la police disperse une marche d'anciens combattants qui demandaient leurs droits, et trois de leurs meneurs sont tués. La BBC y voit un jalon de la lutte pour l'indépendance. Les trois victimes, Nii Adjetey, Patrick Attipoe et Odartey Lamptey, sont depuis commémorées à Accra.",
+      "acteurs": [
+        "anciens combattants",
+        "police coloniale"
+      ],
+      "regions": [
+        "Accra"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement de violence coloniale : présentation factuelle et respectueuse des victimes.",
+      "sources": [
+        "S3",
+        "S110"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-independance-1957",
+      "titre": "Indépendance du Ghana",
+      "date": "1957-03-06",
+      "date_affichee": "6 mars 1957",
+      "precision": "jour",
+      "description": "Le 6 mars 1957, la Côte-de-l'Or accède à l'indépendance sous le nom de Ghana. Selon la BBC, le Ghana est le premier pays de l'Afrique noire subsaharienne à s'affranchir de la tutelle coloniale, et Kwame Nkrumah en devient le Premier ministre. L'indépendance réunit la Côte-de-l'Or, l'Ashanti, les Territoires du Nord et le Togo britannique.",
+      "acteurs": [
+        "Kwame Nkrumah",
+        "Convention People's Party"
+      ],
+      "regions": [
+        "Accra"
+      ],
+      "sources": [
+        "S27",
+        "S3",
+        "S95"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-ghana-freedom-1957",
+      "titre": "« Ghana Freedom Highlife » d'E. T. Mensah",
+      "date": "1957-01-01",
+      "date_affichee": "1957",
+      "precision": "annee",
+      "description": "En 1957, année de l'indépendance, le musicien E. T. Mensah compose le morceau « Ghana Freedom Highlife ». Le highlife, dont il est l'une des grandes figures, est aujourd'hui inscrit sur la liste représentative de l'UNESCO.",
+      "acteurs": [
+        "E. T. Mensah"
+      ],
+      "regions": [
+        "Accra"
+      ],
+      "sources": [
+        "S39",
+        "S17"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-republique-1960",
+      "titre": "Proclamation de la République",
+      "date": "1960-07-01",
+      "date_affichee": "1er juillet 1960",
+      "precision": "jour",
+      "description": "Le Ghana devient une république le 1er juillet 1960, tout en restant dans le Commonwealth. Kwame Nkrumah, jusque-là Premier ministre, devient président de la République.",
+      "acteurs": [
+        "Kwame Nkrumah"
+      ],
+      "sources": [
+        "S95",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-akosombo-1965",
+      "titre": "Barrage d'Akosombo",
+      "date": "1965-01-01",
+      "date_affichee": "1965",
+      "precision": "annee",
+      "description": "Le barrage d'Akosombo, construit entre 1961 et 1965 sur la Volta, crée le lac Volta, qui couvre environ 3,6 % du territoire ghanéen. Il a été conçu pour fournir de l'électricité à l'industrie de l'aluminium, et est l'un des grands projets du Ghana indépendant.",
+      "regions": [
+        "Volta"
+      ],
+      "sources": [
+        "S112"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-dilemma-1965",
+      "titre": "Publication de « The Dilemma of a Ghost »",
+      "date": "1965-01-01",
+      "date_affichee": "1965",
+      "precision": "annee",
+      "description": "La pièce The Dilemma of a Ghost, d'Ama Ata Aidoo, paraît en 1965, faisant d'elle la première dramaturge africaine publiée. Elle ouvre une série d'œuvres sur l'identité africaine moderne.",
+      "acteurs": [
+        "Ama Ata Aidoo"
+      ],
+      "sources": [
+        "S38",
+        "S101"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-coup-1966",
+      "titre": "Renversement de Nkrumah",
+      "date": "1966-02-24",
+      "date_affichee": "24 février 1966",
+      "precision": "jour",
+      "description": "Le 24 février 1966, pendant que Kwame Nkrumah est en visite en Chine, l'armée le renverse et met en place un Conseil national de libération. La BBC rappelle que des gouvernements militaires et civils alternent ensuite jusqu'en 1981.",
+      "acteurs": [
+        "Kwame Nkrumah",
+        "National Liberation Council"
+      ],
+      "regions": [
+        "Accra"
+      ],
+      "sources": [
+        "S3",
+        "S111"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-rawlings-1981",
+      "titre": "Jerry Rawlings prend le pouvoir",
+      "date": "1981-01-01",
+      "date_affichee": "1981",
+      "precision": "annee",
+      "description": "En 1981, le lieutenant d'aviation Jerry Rawlings prend le pouvoir. La BBC indique que, au milieu des années 1980, il mène des réformes économiques et une libéralisation politique graduelle.",
+      "acteurs": [
+        "Jerry Rawlings"
+      ],
+      "sources": [
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-constitution-1992",
+      "titre": "Constitution de 1992 et retour du multipartisme",
+      "date": "1992-01-01",
+      "date_affichee": "1992",
+      "precision": "annee",
+      "description": "Une nouvelle constitution est adoptée en 1992 et rétablit le multipartisme. La BBC voit dans le Ghana l'un des pays les plus stables d'Afrique de l'Ouest depuis cette transition.",
+      "sources": [
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-panafest-1992",
+      "titre": "Première édition de Panafest",
+      "date": "1992-01-01",
+      "date_affichee": "1992",
+      "precision": "annee",
+      "description": "Panafest, festival bisannuel de théâtre, musique et poésie pour les Africains et les personnes d'ascendance africaine, a lieu pour la première fois en 1992. L'idée a été lancée par Efua Sutherland au milieu des années 1980.",
+      "acteurs": [
+        "Efua Sutherland"
+      ],
+      "sources": [
+        "S113",
+        "S47",
+        "S102"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-conflits-nord-1994",
+      "titre": "Combats intercommunautaires dans le nord",
+      "date": "1994-01-01",
+      "date_affichee": "1994-1995",
+      "precision": "annee",
+      "description": "En 1994-1995, des affrontements entre communautés du nord du pays font, selon la BBC, de 1 000 à 2 000 morts. Les causes et le bilan exact relèvent de la recherche et de l'histoire orale.",
+      "fin": "1995-12-31",
+      "regions": [
+        "nord du Ghana"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Conflit intercommunautaire récent : présentation neutre, sans attribuer de responsabilité à un groupe ; les bilans cités sont ceux de la BBC.",
+      "sources": [
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-nobel-annan-2001",
+      "titre": "Prix Nobel de la paix 2001 pour Kofi Annan",
+      "date": "2001-01-01",
+      "date_affichee": "2001",
+      "precision": "annee",
+      "description": "Le diplomate ghanéen Kofi Annan, secrétaire général de l'ONU depuis 1997, figure parmi les lauréats du prix Nobel de la paix 2001, d'après la page de la Fondation Nobel.",
+      "acteurs": [
+        "Kofi Annan"
+      ],
+      "sources": [
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-petrole-2007",
+      "titre": "Découverte pétrolière en mer",
+      "date": "2007-01-01",
+      "date_affichee": "2007",
+      "precision": "annee",
+      "description": "En 2007, le Ghana annonce une importante découverte de pétrole en mer, avec un début de production en 2010, selon la BBC. L'or, le cacao et le pétrole sont aujourd'hui les piliers de l'économie.",
+      "fin": "2010-12-31",
+      "sources": [
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-kente-2024",
+      "titre": "Inscription du tissage du kente à l'UNESCO",
+      "date": "2024-01-01",
+      "date_affichee": "2024",
+      "precision": "annee",
+      "description": "Le savoir-faire du tissage traditionnel du kente est inscrit en 2024 sur la liste représentative du patrimoine culturel immatériel de l'humanité.",
+      "regions": [
+        "tout le Ghana"
+      ],
+      "sources": [
+        "S18"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-highlife-2025",
+      "titre": "Inscription du highlife à l'UNESCO",
+      "date": "2025-01-01",
+      "date_affichee": "2025",
+      "precision": "annee",
+      "description": "La musique et la danse highlife sont inscrites en 2025 sur la liste représentative du patrimoine culturel immatériel de l'humanité.",
+      "regions": [
+        "tout le Ghana"
+      ],
+      "sources": [
+        "S17"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-evenement-forts-unesco-1979",
+      "titre": "Inscription des forts et châteaux au patrimoine mondial",
+      "date": "1979-01-01",
+      "date_affichee": "1979",
+      "precision": "annee",
+      "description": "Les forts et châteaux de la côte ghanéenne sont inscrits en 1979 sur la liste du patrimoine mondial ; les bâtiments traditionnels ashanti suivent en 1980.",
+      "regions": [
+        "côte du Ghana",
+        "Kumasi"
+      ],
+      "sources": [
+        "S8",
+        "S9",
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "oeuvres": [
+    {
+      "id": "GH-oeuvre-tabouret-met",
+      "titre": "Tabouret de prestige à l'éléphant et au léopard",
+      "type": "sculpture",
+      "description": "Ce tabouret en bois, attribué aux peuples akan et classé par le Met comme tabouret de prestige, associe un éléphant et un léopard. Il mesure environ 56 cm de haut pour 24 cm de large. Il est daté du XIXe siècle au milieu du XXe siècle et fait partie de la collection Michael C. Rockefeller.",
+      "communaute": "Akan",
+      "periode": "XIXe-milieu du XXe siècle",
+      "materiaux": [
+        "bois"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1978.412.670",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/310881",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici.",
+      "sources": [
+        "S55"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-oeuvre-poids-pince-met",
+      "titre": "Poids à peser l'or en forme de pince de homard",
+      "type": "sculpture",
+      "description": "Ce poids en laiton, long d'environ 5 cm, est attribué aux Akans et sert à peser la poudre d'or. Son motif, une pince de homard, illustre le goût akan pour les poids figuratifs, qui renvoient à des proverbes selon Georges Niangoran-Bouah. Il est daté du XIXe siècle au milieu du XXe siècle.",
+      "communaute": "Akan",
+      "periode": "XIXe-milieu du XXe siècle",
+      "materiaux": [
+        "laiton"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1978.412.445",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/310874",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici.",
+      "sources": [
+        "S56",
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-oeuvre-cuillere-met",
+      "titre": "Cuillère asante-akan en laiton",
+      "type": "sculpture",
+      "description": "Cette cuillère en laiton, d'environ 14 cm de large, est attribuée aux Asante-Akan par le Met. Elle fait partie de la même collection que le tabouret et les poids à peser l'or. Elle est datée du XIXe siècle au milieu du XXe siècle.",
+      "communaute": "Asante-Akan",
+      "periode": "XIXe-milieu du XXe siècle",
+      "materiaux": [
+        "laiton"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1978.412.667",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/310879",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici.",
+      "sources": [
+        "S57"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-oeuvre-mere-enfant-met",
+      "titre": "Figure de mère et d'enfant",
+      "type": "sculpture",
+      "description": "Cette figure en bois haute d'environ 40 cm représente une mère et son enfant. Le Met l'attribue aux Akans et mentionne du kaolin, un pigment noir, des perles et une cordelette. Elle date du XIXe siècle au milieu du XXe siècle.",
+      "communaute": "Akan",
+      "periode": "XIXe-milieu du XXe siècle",
+      "materiaux": [
+        "bois",
+        "kaolin",
+        "pigment noir",
+        "perles",
+        "cordelette"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1978.412.671",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/310882",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici.",
+      "sources": [
+        "S58"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Fonction de l'objet (usage rituel ou non) non précisée dans la notice lue : vérifier avant de lever toute mention de sensibilité."
+      }
+    },
+    {
+      "id": "GH-oeuvre-dilemma-ghost",
+      "titre": "The Dilemma of a Ghost",
+      "type": "livre",
+      "description": "Pièce de théâtre d'Ama Ata Aidoo publiée en 1965 par Longman. Elle fait d'Aidoo la première dramaturge africaine publiée. Elle appartient à une œuvre qui questionne les paradoxes de l'identité africaine moderne, en particulier pour les femmes.",
+      "createur": "Ama Ata Aidoo",
+      "periode": "1965",
+      "institution": "Longman (édition de 1965, d'après la notice de la Poetry Foundation)",
+      "url_notice": "https://www.poetryfoundation.org/poets/ama-ata-aidoo",
+      "droits": "Œuvre protégée ; seule la notice biographique est citée.",
+      "sources": [
+        "S38",
+        "S101"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-oeuvre-anansewa",
+      "titre": "The Marriage of Anansewa",
+      "type": "livre",
+      "description": "Pièce d'Efua Sutherland publiée en 1975, d'après Wikipédia. Elle s'inspire des contes d'Ananse, le personnage de l'araignée de l'oralité akan, que Sutherland a portés à la scène au Ghana Drama Studio. Elle illustre le rôle de Sutherland dans le théâtre ghanéen après l'indépendance.",
+      "createur": "Efua Sutherland",
+      "periode": "1975",
+      "institution": "Éditeur non précisé dans les sources consultées",
+      "url_notice": "https://en.wikipedia.org/wiki/Efua_Sutherland",
+      "droits": "Œuvre protégée ; notice Wikipédia citée seulement.",
+      "sources": [
+        "S102",
+        "S47",
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Seule source directe : Wikipédia (en). Le lien avec les contes d'Ananse découle de l'intitulé de la pièce et de la note de Rattray sur Ananse : à confirmer par une source spécialisée."
+      }
+    },
+    {
+      "id": "GH-oeuvre-beautyful-ones",
+      "titre": "The Beautyful Ones Are Not Yet Born",
+      "type": "livre",
+      "description": "Premier roman d'Ayi Kwei Armah, publié en 1968. Il suit un homme sans nom dans le Ghana de l'après-indépendance. L'article de Garry Gillard (1992) en étudie la voix narrative, où la frontière entre le héros et la voix extérieure se brouille.",
+      "createur": "Ayi Kwei Armah",
+      "periode": "1968",
+      "institution": "Éditeur non précisé dans les sources consultées",
+      "url_notice": "https://freotopia.org/readingroom/litserv/SPAN/33/Gillard.html",
+      "droits": "Œuvre protégée ; seule une étude critique est citée.",
+      "sources": [
+        "S106",
+        "S48"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-oeuvre-cugoano-1787",
+      "titre": "Thoughts and Sentiments on the Evil and Wicked Traffic of the Slavery and Commerce of the Human Species",
+      "type": "livre",
+      "description": "Livre publié à Londres en 1787 par Ottobah Cugoano, né sur la côte fante. L'auteur y raconte son enlèvement et sa captivité, puis argumente contre la traite et l'esclavage. La numérisation de l'édition de 1787 est consultable sur Internet Archive.",
+      "createur": "Ottobah Cugoano",
+      "periode": "1787",
+      "institution": "Internet Archive (numérisation de l'édition de 1787)",
+      "url_notice": "https://archive.org/details/bim_eighteenth-century_thoughts-and-sentiments-_cugoano-ottobah_1787",
+      "droits": "Domaine public (édition de 1787).",
+      "sources": [
+        "S35",
+        "S100"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-oeuvre-amo-apatheia",
+      "titre": "Dissertatio inauguralis de humanae mentis apatheia",
+      "type": "livre",
+      "description": "Thèse d'Anton Wilhelm Amo, défendue à l'université de Wittenberg le 16 avril 1734 sous le titre De Humanae Mentis Apatheia. Amo y critique la distinction cartésienne entre l'esprit et le corps et soutient que l'esprit, immatériel, ne perçoit pas les choses matérielles. Dwight Lewis la présente sur le blog de l'American Philosophical Association.",
+      "createur": "Anton Wilhelm Amo",
+      "periode": "1734",
+      "institution": "Université de Wittenberg (soutenance de 1734)",
+      "url_notice": "https://blog.apaonline.org/2018/02/08/anton-wilhelm-amo-the-african-philosopher-in-18th-europe/",
+      "droits": "Texte ancien (1734) ; notice d'analyse citée.",
+      "sources": [
+        "S44",
+        "S43"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GH-oeuvre-ghana-freedom-highlife",
+      "titre": "Ghana Freedom Highlife",
+      "type": "musique",
+      "description": "Morceau de highlife composé en 1957 par E. T. Mensah, l'année de l'indépendance du Ghana. La Fondation Daniel Langlois présente la collection de disques de highlife du Gramophone Records Museum and Research Centre of Ghana, où figure la biographie de Mensah et la pochette de son album de 1976.",
+      "createur": "E. T. Mensah",
+      "periode": "1957",
+      "institution": "Fondation Daniel Langlois — collection « Ghana's Highlife Music » (Gramophone Records Museum and Research Centre of Ghana)",
+      "url_notice": "https://www.fondation-langlois.org/html/e/page.php?NumPage=2278",
+      "droits": "Œuvre musicale protégée ; notice de la collection citée.",
+      "sources": [
+        "S39",
+        "S17"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "proverbes": [
+    {
+      "id": "GH-proverbe-asase-terew",
+      "texte_original": "Asase terɛw, na Onyame ne ɔpanyin.",
+      "langue": "twi",
+      "traduction": "Sur toute la vaste terre, c'est l'Être suprême qui est l'aîné.",
+      "sens": "Proverbe placé par Rattray en tête du chapitre sur la croyance en un Être suprême : l'Être suprême est plus ancien que la terre elle-même.",
+      "publication": "R. S. Rattray, Ashanti Proverbs (The Primitive Ethics of a Savage People), Oxford, Clarendon Press, 1916, n° 1, p. 17 (numérisation Internet Archive).",
+      "note": "Graphie reconstituée à partir de la numérisation (OCR), où les lettres ɔ et ɛ de Rattray sont mal reconnues ; à contrôler par un locuteur du twi et à moderniser selon l'orthographe officielle.",
+      "sources": [
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Original et traduction anglaise de Rattray (1916) lus dans le texte numérisé (Internet Archive) ; transcription de l'original à contrôler."
+      }
+    },
+    {
+      "id": "GH-proverbe-obi-nkyere-abofra",
+      "texte_original": "Obi nkyerɛ abofra Onyame.",
+      "langue": "twi",
+      "traduction": "Personne ne montre le ciel à un enfant.",
+      "sens": "Rattray rappelle que, dans ce proverbe, Onyame désigne le ciel, séjour de l'Être suprême : un enfant couché sur le dos le voit sans qu'on ait besoin de le lui indiquer. Ce qui est évident n'a pas besoin d'être enseigné.",
+      "publication": "R. S. Rattray, Ashanti Proverbs (The Primitive Ethics of a Savage People), Oxford, Clarendon Press, 1916, n° 3, p. 22 (numérisation Internet Archive).",
+      "note": "Graphie reconstituée à partir de la numérisation (OCR), où les lettres ɔ et ɛ de Rattray sont mal reconnues ; à contrôler par un locuteur du twi et à moderniser selon l'orthographe officielle.",
+      "sources": [
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Original et traduction anglaise de Rattray (1916) lus dans le texte numérisé (Internet Archive) ; transcription de l'original à contrôler."
+      }
+    },
+    {
+      "id": "GH-proverbe-onyame-aduru",
+      "texte_original": "Onyame ma wo yare a, ɔma wo aduru.",
+      "langue": "twi",
+      "traduction": "Si l'Être suprême te donne la maladie, il te donne aussi le remède.",
+      "sens": "Le mal et son remède viennent de la même source : on peut garder espoir dans l'épreuve.",
+      "publication": "R. S. Rattray, Ashanti Proverbs (The Primitive Ethics of a Savage People), Oxford, Clarendon Press, 1916, n° 13, p. 28 (numérisation Internet Archive).",
+      "note": "Graphie reconstituée à partir de la numérisation (OCR), où les lettres ɔ et ɛ de Rattray sont mal reconnues ; à contrôler par un locuteur du twi et à moderniser selon l'orthographe officielle.",
+      "sources": [
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Original et traduction anglaise de Rattray (1916) lus dans le texte numérisé (Internet Archive) ; transcription de l'original à contrôler."
+      }
+    },
+    {
+      "id": "GH-proverbe-nnipa-nyinaa",
+      "texte_original": "Nnipa nyinaa yɛ Onyame mma, obi nyɛ asase ba.",
+      "langue": "twi",
+      "traduction": "Tous les humains sont les enfants de l'Être suprême, personne n'est enfant de la terre.",
+      "sens": "Tous les êtres humains ont la même origine : nul ne peut se croire d'une autre origine que les autres.",
+      "publication": "R. S. Rattray, Ashanti Proverbs (The Primitive Ethics of a Savage People), Oxford, Clarendon Press, 1916, n° 15, p. 28 (numérisation Internet Archive).",
+      "note": "Graphie reconstituée à partir de la numérisation (OCR), où les lettres ɔ et ɛ de Rattray sont mal reconnues ; à contrôler par un locuteur du twi et à moderniser selon l'orthographe officielle.",
+      "sources": [
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Original et traduction anglaise de Rattray (1916) lus dans le texte numérisé (Internet Archive) ; transcription de l'original à contrôler."
+      }
+    },
+    {
+      "id": "GH-proverbe-aboa-ananse",
+      "texte_original": "Aboa ananse nam na ɔso ne dan.",
+      "langue": "twi",
+      "traduction": "L'araignée marche en portant sa maison (sa toile).",
+      "sens": "Proverbe qui joue sur l'image de l'araignée, héroïne des récits ananse ; Rattray renvoie à sa note sur Ananse sans en tirer une morale explicite. Lecture proposée : celui qui emporte avec lui ce qui lui est nécessaire.",
+      "publication": "R. S. Rattray, Ashanti Proverbs (The Primitive Ethics of a Savage People), Oxford, Clarendon Press, 1916, n° 175, p. 72 (numérisation Internet Archive).",
+      "note": "Graphie reconstituée à partir de la numérisation (OCR), où les lettres ɔ et ɛ de Rattray sont mal reconnues ; à contrôler par un locuteur du twi et à moderniser selon l'orthographe officielle.",
+      "sources": [
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Original et traduction anglaise de Rattray (1916) lus dans le texte numérisé (Internet Archive) ; transcription de l'original à contrôler. Le sens proposé est une lecture de MonBaobab, à valider : Rattray ne commente pas le proverbe lui-même."
+      }
+    },
+    {
+      "id": "GH-proverbe-asi-mebla-ame",
+      "texte_original": "Asi mebl'a ameo.",
+      "langue": "éwé",
+      "traduction": "La main ne trompe personne.",
+      "sens": "Dans sa note, Schlegel explique que l'image vient de l'habitude de manger avec la main : percevoir par ses propres sens met à l'abri de l'illusion.",
+      "publication": "J. B. Schlegel, Schlüssel zur Ewe-Sprache, dargeboten in den grammatischen Grundzügen des Anlo-Dialekts derselben, mit Wörtersammlung nebst einer Sammlung von Sprüchwörtern und einigen Fabeln der Eingebornen, Bremen, W. Valett & Co., 1857, « Kurze Sammlung von Sprüchwörtern der Ewe-Sprache », n° 5, p. 122 (numérisation Internet Archive).",
+      "note": "Graphie de Schlegel (1857, parler anlo) relevée sur le texte océrisé de la numérisation ; les signes diacritiques sont perdus ou altérés par l'OCR. À contrôler par un locuteur et à moderniser selon l'orthographe actuelle de l'éwé.",
+      "sources": [
+        "S33"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Texte éwé, traduction allemande et note de Schlegel lus dans la numérisation (Internet Archive) ; traduction française de MonBaobab à partir de l'allemand."
+      }
+    },
+    {
+      "id": "GH-proverbe-asi-gbolo",
+      "texte_original": "Asi gbolo meyia simeo.",
+      "langue": "éwé",
+      "traduction": "La main vide ne va pas au marché.",
+      "sens": "Pour acheter, il faut de quoi payer : l'idée est rapprochée par Schlegel du proverbe précédent (n° 8) sur l'argent nécessaire pour acheter.",
+      "publication": "J. B. Schlegel, Schlüssel zur Ewe-Sprache, dargeboten in den grammatischen Grundzügen des Anlo-Dialekts derselben, mit Wörtersammlung nebst einer Sammlung von Sprüchwörtern und einigen Fabeln der Eingebornen, Bremen, W. Valett & Co., 1857, « Kurze Sammlung von Sprüchwörtern der Ewe-Sprache », n° 9, p. 123 (numérisation Internet Archive).",
+      "note": "Graphie de Schlegel (1857, parler anlo) relevée sur le texte océrisé de la numérisation ; les signes diacritiques sont perdus ou altérés par l'OCR. À contrôler par un locuteur et à moderniser selon l'orthographe actuelle de l'éwé.",
+      "sources": [
+        "S33"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Texte éwé, traduction allemande et note de Schlegel lus dans la numérisation (Internet Archive) ; traduction française de MonBaobab à partir de l'allemand. Le sens est déduit du texte et de la note 8 de Schlegel : à valider."
+      }
+    },
+    {
+      "id": "GH-proverbe-fia-eve",
+      "texte_original": "Fia eve menga du meo.",
+      "langue": "éwé",
+      "traduction": "Deux rois ne siègent pas dans la même ville.",
+      "sens": "Schlegel le rapproche de l'expression allemande « un pays, un prince » : un seul chef par territoire.",
+      "publication": "J. B. Schlegel, Schlüssel zur Ewe-Sprache, dargeboten in den grammatischen Grundzügen des Anlo-Dialekts derselben, mit Wörtersammlung nebst einer Sammlung von Sprüchwörtern und einigen Fabeln der Eingebornen, Bremen, W. Valett & Co., 1857, « Kurze Sammlung von Sprüchwörtern der Ewe-Sprache », n° 24, p. 125 (numérisation Internet Archive).",
+      "note": "Graphie de Schlegel (1857, parler anlo) relevée sur le texte océrisé de la numérisation ; les signes diacritiques sont perdus ou altérés par l'OCR. À contrôler par un locuteur et à moderniser selon l'orthographe actuelle de l'éwé.",
+      "sources": [
+        "S33"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Texte éwé, traduction allemande et note de Schlegel lus dans la numérisation (Internet Archive) ; traduction française de MonBaobab à partir de l'allemand."
+      }
+    },
+    {
+      "id": "GH-proverbe-ame-deka",
+      "texte_original": "Ame deka mesubo ame veo.",
+      "langue": "éwé",
+      "traduction": "Une personne ne sert pas deux personnes.",
+      "sens": "Schlegel le rapproche du verset « Nul ne peut servir deux maîtres » : on ne peut être fidèle à deux autorités à la fois.",
+      "publication": "J. B. Schlegel, Schlüssel zur Ewe-Sprache, dargeboten in den grammatischen Grundzügen des Anlo-Dialekts derselben, mit Wörtersammlung nebst einer Sammlung von Sprüchwörtern und einigen Fabeln der Eingebornen, Bremen, W. Valett & Co., 1857, « Kurze Sammlung von Sprüchwörtern der Ewe-Sprache », n° 25, p. 126 (numérisation Internet Archive).",
+      "note": "Graphie de Schlegel (1857, parler anlo) relevée sur le texte océrisé de la numérisation ; les signes diacritiques sont perdus ou altérés par l'OCR. À contrôler par un locuteur et à moderniser selon l'orthographe actuelle de l'éwé.",
+      "sources": [
+        "S33"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Texte éwé, traduction allemande et note de Schlegel lus dans la numérisation (Internet Archive) ; traduction française de MonBaobab à partir de l'allemand. La forme « ame veo » est celle lue dans la numérisation : l'OCR peut avoir altéré le dernier mot."
+      }
+    },
+    {
+      "id": "GH-proverbe-kila-kakula",
+      "texte_original": "Kila kakula didi nwoma nloa.",
+      "langue": "nzema",
+      "traduction": "Une petite souris mange autour de la peau d'un animal.",
+      "sens": "Selon l'auteur, on peut l'utiliser pour conseiller à un enfant de ne parler que des sujets qui sont ceux des enfants et de ne pas se mêler des affaires des adultes.",
+      "publication": "Mohammed Yakub, « Unity and Cooperation as Portrayed in Nzema Proverbs », International Journal of Linguistics and Literature (IJLL), vol. 7, n° 6, oct.-nov. 2018, pp. 43-56, p. 46.",
+      "note": "Graphie de l'article (Yakub 2018) relevée sur la numérisation ; les caractères spéciaux du nzema peuvent être mal reconnus. À contrôler par un locuteur.",
+      "sources": [
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Original et glose littérale lus dans l'article ; explication de l'usage donnée par l'auteur ; traduction française de MonBaobab."
+      }
+    },
+    {
+      "id": "GH-proverbe-nohale",
+      "texte_original": "Nohale le ayile.",
+      "langue": "nzema",
+      "traduction": "Dire la vérité est un remède.",
+      "sens": "La vérité guérit : elle soulage les relations et les conflits.",
+      "publication": "Mohammed Yakub, « Unity and Cooperation as Portrayed in Nzema Proverbs », International Journal of Linguistics and Literature (IJLL), vol. 7, n° 6, oct.-nov. 2018, pp. 43-56, p. 47.",
+      "note": "Graphie de l'article (Yakub 2018) relevée sur la numérisation ; les caractères spéciaux du nzema peuvent être mal reconnus. À contrôler par un locuteur.",
+      "sources": [
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Original et traduction anglaise (« telling the truth is a medication ») lus dans l'article ; la glose du sens est de MonBaobab."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "titre": "Population totale — Ghana (SP.POP.TOTL)",
+      "institution": "Banque mondiale",
+      "annee": 2026,
+      "url": "https://api.worldbank.org/v2/country/GHA/indicator/SP.POP.TOTL?format=json&per_page=5",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S2",
+      "titre": "Superficie — Ghana (AG.SRF.TOTL.K2)",
+      "institution": "Banque mondiale",
+      "annee": 2026,
+      "url": "https://api.worldbank.org/v2/country/GHA/indicator/AG.SRF.TOTL.K2?format=json&per_page=3",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S3",
+      "titre": "Ghana country profile",
+      "institution": "BBC News",
+      "annee": 2025,
+      "url": "https://www.bbc.com/news/world-africa-13433790",
+      "type": "presse",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S4",
+      "titre": "Ghana — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Ghana",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S5",
+      "titre": "Langues au Ghana — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Langues_au_Ghana",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S6",
+      "titre": "Wikidata — Ghana (Q117)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q117",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S7",
+      "titre": "Ghana Museums and Monuments Board — accueil",
+      "institution": "Ghana Museums and Monuments Board",
+      "url": "https://gmmb.gov.gh/",
+      "type": "institution",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S8",
+      "titre": "Forts et châteaux de Volta, d'Accra et ses environs et des régions centrale et ouest",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/34",
+      "type": "unesco",
+      "licence": "Texte de notice UNESCO (CC BY-SA 3.0 IGO pour les descriptions du Centre du patrimoine mondial)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S9",
+      "titre": "Bâtiments traditionnels ashanti",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/35",
+      "type": "unesco",
+      "licence": "Texte de notice UNESCO (CC BY-SA 3.0 IGO pour les descriptions du Centre du patrimoine mondial)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S10",
+      "titre": "Ghana — États parties",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/statesparties/gh",
+      "type": "unesco",
+      "licence": "Texte de notice UNESCO (CC BY-SA 3.0 IGO pour les descriptions du Centre du patrimoine mondial)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S11",
+      "titre": "Mole National Park (liste indicative)",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/1391/",
+      "type": "unesco",
+      "licence": "Texte de notice UNESCO (CC BY-SA 3.0 IGO pour les descriptions du Centre du patrimoine mondial)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S12",
+      "titre": "Tenzug - Tallensi settlements (liste indicative)",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/1392/",
+      "type": "unesco",
+      "licence": "Texte de notice UNESCO (CC BY-SA 3.0 IGO pour les descriptions du Centre du patrimoine mondial)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S13",
+      "titre": "Navrongo Catholic Cathedral (liste indicative)",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/1393/",
+      "type": "unesco",
+      "licence": "Texte de notice UNESCO (CC BY-SA 3.0 IGO pour les descriptions du Centre du patrimoine mondial)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S14",
+      "titre": "Nzulezu Stilt Settlement (liste indicative)",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/1394/",
+      "type": "unesco",
+      "licence": "Texte de notice UNESCO (CC BY-SA 3.0 IGO pour les descriptions du Centre du patrimoine mondial)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S15",
+      "titre": "Trade Pilgrimage Routes of North-Western Ghana (liste indicative)",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/1395/",
+      "type": "unesco",
+      "licence": "Texte de notice UNESCO (CC BY-SA 3.0 IGO pour les descriptions du Centre du patrimoine mondial)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S16",
+      "titre": "Kakum National Park (Assin Attandanso Reserve) (liste indicative)",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/1396/",
+      "type": "unesco",
+      "licence": "Texte de notice UNESCO (CC BY-SA 3.0 IGO pour les descriptions du Centre du patrimoine mondial)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S17",
+      "titre": "Highlife music and dance",
+      "institution": "UNESCO — Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/highlife-music-and-dance-02141",
+      "type": "unesco",
+      "licence": "Texte de notice UNESCO (conditions du site ich.unesco.org)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S18",
+      "titre": "Craftsmanship of traditional woven textile Kente",
+      "institution": "UNESCO — Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/craftsmanship-of-traditional-woven-textile-kente-02130",
+      "type": "unesco",
+      "licence": "Texte de notice UNESCO (conditions du site ich.unesco.org)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S19",
+      "titre": "Ghana — Patrimoine culturel immatériel",
+      "institution": "UNESCO — Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/state/ghana-GH",
+      "type": "unesco",
+      "licence": "Texte de notice UNESCO (conditions du site ich.unesco.org)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S20",
+      "titre": "Asante au XIXe siècle (compte rendu de Wilks, Asante in the nineteenth century)",
+      "institution": "Persée — Annales. Économies, Sociétés, Civilisations",
+      "auteur": "Emmanuel Terray",
+      "annee": 1977,
+      "url": "https://www.persee.fr/doc/ahess_0395-2649_1977_num_32_2_293818",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S21",
+      "titre": "Symboles institutionnels chez les Akan",
+      "institution": "Persée — L'Homme",
+      "auteur": "Georges Niangoran-Bouah",
+      "annee": 1973,
+      "url": "https://www.persee.fr/doc/hom_0439-4216_1973_num_13_1_367334",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S22",
+      "titre": "Poids à peser l'or ashanti : la collection d'un otage, Marie-Joseph Bonnat",
+      "institution": "Persée — Outre-mers. Revue d'histoire",
+      "auteur": "Claude-Hélène Perrot",
+      "annee": 2001,
+      "url": "https://www.persee.fr/doc/outre_1631-0438_2001_num_88_332_3893",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S23",
+      "titre": "Un musée royal au début du XIXe siècle en Ashanti : l'Aban",
+      "institution": "Persée — Cahiers d'Études africaines",
+      "auteur": "Claude-Hélène Perrot",
+      "annee": 1999,
+      "url": "https://www.persee.fr/doc/cea_0008-0055_1999_num_39_155_1782",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S24",
+      "titre": "L'évolution politique des Ewé",
+      "institution": "Persée — Cahiers d'Études africaines",
+      "auteur": "Jean-Claude Pauvert",
+      "annee": 1960,
+      "url": "https://www.persee.fr/doc/cea_0008-0055_1960_num_1_2_3672",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S25",
+      "titre": "Commerce et islam chez les Dagomba du Nord-Ghana",
+      "institution": "Persée — Annales. Économies, Sociétés, Civilisations",
+      "auteur": "Nehemia Levtzion (trad. Nina Godneff)",
+      "annee": 1968,
+      "url": "https://www.persee.fr/doc/ahess_0395-2649_1968_num_23_4_421956",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S26",
+      "titre": "Le dictionnaire ga de J. Zimmermann (1858) et le royaume d'Accra au XVIIe siècle",
+      "institution": "Persée — Journal des Africanistes",
+      "auteur": "Thierry Rivière",
+      "annee": 1990,
+      "url": "https://www.persee.fr/doc/jafr_0399-0346_1990_num_60_1_2299",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S27",
+      "titre": "Le Ghana, l'indépendance et ses problèmes",
+      "institution": "Persée — Politique étrangère",
+      "auteur": "Georges Fischer",
+      "annee": 1957,
+      "url": "https://www.persee.fr/doc/polit_0032-342x_1957_num_22_2_2492",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S28",
+      "titre": "Langue et pouvoir au Ghana sous Nkrumah. Les maîtres-mots",
+      "institution": "Persée — Politique africaine",
+      "auteur": "Martin Verlet",
+      "annee": 1986,
+      "url": "https://www.persee.fr/doc/polaf_0244-7827_1986_num_23_1_3832",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S29",
+      "titre": "Concepts anthropologiques occidentaux dans les états non-centralisés : un regard rétrospectif et introspectif sur les Dagaaba",
+      "institution": "Persée — Droit et société",
+      "auteur": "Kojo Yelpaala",
+      "annee": 1993,
+      "url": "https://www.persee.fr/doc/dreso_0769-3362_1993_num_23_1_1218",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S30",
+      "titre": "Archaeology in Gonja, Ghana",
+      "institution": "Persée — Bibliothèque d'histoire d'outre-mer (Mélanges Raymond Mauny)",
+      "auteur": "Peter L. Shinnie",
+      "annee": 1981,
+      "url": "https://www.persee.fr/doc/sfhom_1768-7144_1981_mel_5_1_923",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S31",
+      "titre": "The Rise and Fall of an African Merchant Class on the Gold Coast 1830-1874",
+      "institution": "Persée — Cahiers d'Études africaines",
+      "auteur": "Edward Reynolds",
+      "annee": 1974,
+      "url": "https://www.persee.fr/doc/cea_0008-0055_1974_num_14_54_2644",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S32",
+      "titre": "Ashanti proverbs (the primitive ethics of a savage people), translated from the original with grammatical and anthropological notes",
+      "institution": "Clarendon Press, Oxford — numérisation Internet Archive",
+      "auteur": "R. S. Rattray",
+      "annee": 1916,
+      "url": "https://archive.org/details/ashantiproverbst00rattuoft",
+      "type": "livre",
+      "licence": "domaine public (édition de 1916)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S33",
+      "titre": "Schlüssel zur Ewe-Sprache … nebst einer Sammlung von Sprüchwörtern und einigen Fabeln der Eingebornen",
+      "institution": "Bayerische Staatsbibliothek / W. Valett & Co., Bremen — numérisation Internet Archive",
+      "auteur": "J. B. Schlegel",
+      "annee": 1857,
+      "url": "https://archive.org/details/10589261bsb",
+      "type": "livre",
+      "licence": "domaine public (édition de 1857)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S34",
+      "titre": "History of the Gold Coast and Asante, based on traditions and historical facts, comprising a period of more than three centuries from about 1500 to 1860",
+      "institution": "Basel Mission Book Depot — numérisation Internet Archive",
+      "auteur": "Carl Christian Reindorf",
+      "annee": 1895,
+      "url": "https://archive.org/details/historyofgoldcoa00rein",
+      "type": "livre",
+      "licence": "domaine public (édition de 1895)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S35",
+      "titre": "Thoughts and sentiments on the evil and wicked traffic of the slavery and commerce of the human species",
+      "institution": "Londres, 1787 — numérisation Internet Archive",
+      "auteur": "Ottobah Cugoano",
+      "annee": 1787,
+      "url": "https://archive.org/details/bim_eighteenth-century_thoughts-and-sentiments-_cugoano-ottobah_1787",
+      "type": "livre",
+      "licence": "domaine public (édition de 1787)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S36",
+      "titre": "Unity and cooperation as portrayed in Nzema proverbs",
+      "institution": "International Journal of Linguistics and Literature (IJLL), vol. 7, n° 6, pp. 43-56 — Internet Archive",
+      "auteur": "Mohammed Yakub",
+      "annee": 2018,
+      "url": "https://archive.org/details/4.FormateIJLLUNITYANDCOOPERATIONASPORTRAYEDINNZEMAPROVERBS",
+      "type": "article_scientifique",
+      "licence": "© IASET 2018 (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S37",
+      "titre": "Kofi Annan — Biographical",
+      "institution": "NobelPrize.org (Fondation Nobel)",
+      "annee": 2001,
+      "url": "https://www.nobelprize.org/prizes/peace/2001/annan/biographical/",
+      "type": "institution",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S38",
+      "titre": "Ama Ata Aidoo",
+      "institution": "Poetry Foundation",
+      "url": "https://www.poetryfoundation.org/poets/ama-ata-aidoo",
+      "type": "institution",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S39",
+      "titre": "Ghana's Highlife Music Collection : E.T. Mensah",
+      "institution": "Fondation Daniel Langlois (collection du Gramophone Records Museum and Research Centre of Ghana)",
+      "auteur": "d'après J. Collins, 1996",
+      "url": "https://www.fondation-langlois.org/html/e/page.php?NumPage=2278",
+      "type": "institution",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S40",
+      "titre": "Esther Afua Ocloo: Ghana's inspiring businesswoman",
+      "institution": "Al Jazeera",
+      "annee": 2017,
+      "url": "https://www.aljazeera.com/economy/2017/4/18/esther-afua-ocloo-ghanas-inspiring-businesswoman",
+      "type": "presse",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S41",
+      "titre": "El Anatsui",
+      "institution": "Art21",
+      "url": "https://art21.org/artist/el-anatsui/",
+      "type": "institution",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S42",
+      "titre": "El Anatsui: Gawu",
+      "institution": "Fowler Museum at UCLA",
+      "annee": 2007,
+      "url": "https://fowler.ucla.edu/exhibitions/el-anatsui-gawu/",
+      "type": "musee",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S43",
+      "titre": "Anton-Wilhelm Amo, African Professor in 18th century Germany",
+      "institution": "University at Buffalo (Mathematicians of the African Diaspora)",
+      "auteur": "Scott W. Williams",
+      "annee": 2005,
+      "url": "https://www.math.buffalo.edu/mad/special/amo-anton.html",
+      "type": "universite",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S44",
+      "titre": "Anton Wilhelm Amo: The African Philosopher in 18th Century Europe",
+      "institution": "American Philosophical Association (blog)",
+      "auteur": "Dwight Lewis",
+      "annee": 2018,
+      "url": "https://blog.apaonline.org/2018/02/08/anton-wilhelm-amo-the-african-philosopher-in-18th-europe/",
+      "type": "institution",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S45",
+      "titre": "Kunst trifft Erinnerungskultur: Neue Ausstellung zu Amo an der MLU",
+      "institution": "Martin-Luther-Universität Halle-Wittenberg (communiqué)",
+      "annee": 2023,
+      "url": "https://pressemitteilungen.pr.uni-halle.de/index.php?modus=pmanzeige&pm_id=5651",
+      "type": "universite",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S46",
+      "titre": "Yaa Asantewaa",
+      "institution": "Dangerous Women Project (Université d'Édimbourg)",
+      "auteur": "Chantal Korsah",
+      "annee": 2016,
+      "url": "http://dangerouswomenproject.org/2016/07/22/yaa-asantewaa/",
+      "type": "universite",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S47",
+      "titre": "Review of The Legacy of Efua Sutherland: Pan-African Cultural Activism",
+      "institution": "Centre for African Studies, University of Leeds (LUCAS)",
+      "auteur": "Judith Greenwood",
+      "url": "https://lucas.leeds.ac.uk/article/the-legacy-of-efua-sutherland-pan-african-cultural-activism/",
+      "type": "universite",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S48",
+      "titre": "Narrative situation and ideology in five novels of Ayi Kwei Armah (Span n° 33, 1992)",
+      "institution": "SPAN, Journal of the South Pacific Association for Commonwealth Literature and Language Studies",
+      "auteur": "Garry Gillard",
+      "annee": 1992,
+      "url": "https://freotopia.org/readingroom/litserv/SPAN/33/Gillard.html",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S49",
+      "titre": "Ideals that last",
+      "institution": "Graphic Online (Daily Graphic, Accra)",
+      "auteur": "Meri Nana-Ama Danquah",
+      "annee": 2015,
+      "url": "https://www.graphic.com.gh/features/opinion/ideals-that-last.html",
+      "type": "presse",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S50",
+      "titre": "Heroes Of Our Time — Ms Mabel Ellen Dove",
+      "institution": "Daily Graphic via Modern Ghana",
+      "annee": 2007,
+      "url": "https://www.modernghana.com/news/133915/1/heroes-of-our-time-ms-mabel-ellen-dove.html",
+      "type": "presse",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S51",
+      "titre": "Africa has forgotten the women leaders of its independence struggle",
+      "institution": "Quartz Africa",
+      "annee": 2019,
+      "url": "https://qz.com/africa/1574284/africas-women-have-been-forgotten-from-its-independence-history",
+      "type": "presse",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S52",
+      "titre": "7 women who played a role in Ghana's independence struggle",
+      "institution": "Business Insider Africa",
+      "url": "https://africa.businessinsider.com/local/lifestyle/here-are-7-women-who-played-a-role-in-ghanas-independence-struggle/mc93yhh",
+      "type": "presse",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S53",
+      "titre": "Ethiopianism, Redemptive Pan-Africanism, and the African Nation in the Thought of James Aggrey",
+      "institution": "Cambridge University Press (Building the African Nation)",
+      "url": "https://www.cambridge.org/core/books/abs/building-the-african-nation/ethiopianism-redemptive-panafricanism-and-the-african-nation-in-the-thought-of-james-aggrey/A82DB25CA49560642A66AB5824074242",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S54",
+      "titre": "From Timbuktu to Trinidad: British Library launches dazzling West Africa show",
+      "institution": "The Guardian",
+      "auteur": "Thembi Mutch",
+      "annee": 2015,
+      "url": "https://www.theguardian.com/artanddesign/2015/oct/16/british-library-west-africa-word-symbol-song-exhibition",
+      "type": "presse",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S55",
+      "titre": "Prestige stool with elephant and leopard (The Met, objet 310881)",
+      "institution": "The Metropolitan Museum of Art (API Open Access)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/310881",
+      "type": "musee",
+      "licence": "CC0 (données Open Access du Met)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S56",
+      "titre": "Lobster claw gold weight (The Met, objet 310874)",
+      "institution": "The Metropolitan Museum of Art (API Open Access)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/310874",
+      "type": "musee",
+      "licence": "CC0 (données Open Access du Met)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S57",
+      "titre": "Spoon (The Met, objet 310879)",
+      "institution": "The Metropolitan Museum of Art (API Open Access)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/310879",
+      "type": "musee",
+      "licence": "CC0 (données Open Access du Met)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S58",
+      "titre": "Mother and child figure (The Met, objet 310882)",
+      "institution": "The Metropolitan Museum of Art (API Open Access)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/310882",
+      "type": "musee",
+      "licence": "CC0 (données Open Access du Met)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S59",
+      "titre": "Glottolog — Akan (akan1250)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/akan1250",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S60",
+      "titre": "Glottolog — Twi (twii1234)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/twii1234",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S61",
+      "titre": "Glottolog — Fante (fant1241)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/fant1241",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S62",
+      "titre": "Glottolog — Ewe (ewee1241)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/ewee1241",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S63",
+      "titre": "Glottolog — Ga (gaaa1244)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/gaaa1244",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S64",
+      "titre": "Glottolog — Adangme (adan1247)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/adan1247",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S65",
+      "titre": "Glottolog — Dagbani (dagb1246)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/dagb1246",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S66",
+      "titre": "Glottolog — Central Dagaare (sout2789)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/sout2789",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S67",
+      "titre": "Glottolog — Nzima (nzim1238)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/nzim1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S68",
+      "titre": "Glottolog — Gonja (gonj1241)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/gonj1241",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S69",
+      "titre": "Glottolog — Kusaal (kusa1250)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/kusa1250",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S70",
+      "titre": "Glottolog — Kasem (kase1253)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/kase1253",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S71",
+      "titre": "Glottolog — English (stan1293)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1293",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S72",
+      "titre": "Glottolog — Hausa (haus1257)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/haus1257",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S73",
+      "titre": "Glottolog — Ghanaian Pidgin English (ghan1244)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/ghan1244",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S74",
+      "titre": "Glottolog — Mampruli (mamp1244)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/mamp1244",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S75",
+      "titre": "Wikidata — Kwame Nkrumah (Q8620)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q8620",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S76",
+      "titre": "Wikidata — Yaa Asantewaa (Q467803)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q467803",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S77",
+      "titre": "Wikidata — Osei Tutu Ier (Q713080)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q713080",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S78",
+      "titre": "Wikidata — Okomfo Anokye (Q7082501)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q7082501",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S79",
+      "titre": "Wikidata — Anton Wilhelm Amo (Q595486)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q595486",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S80",
+      "titre": "Wikidata — Ottobah Cugoano (Q726772)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q726772",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S81",
+      "titre": "Wikidata — Kofi Annan (Q1254)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q1254",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S82",
+      "titre": "Wikidata — Ama Ata Aidoo (Q298224)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q298224",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S83",
+      "titre": "Wikidata — Efua Sutherland (Q274741)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q274741",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S84",
+      "titre": "Wikidata — Esther Ocloo (Q5401133)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q5401133",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S85",
+      "titre": "Wikidata — Hannah Kudjoe (Q22004762)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q22004762",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S86",
+      "titre": "Wikidata — Mabel Dove Danquah (Q1882348)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q1882348",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S87",
+      "titre": "Wikidata — James Emman Kwegyir Aggrey (Q1679925)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q1679925",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S88",
+      "titre": "Wikidata — J. B. Danquah (Q377908)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q377908",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S89",
+      "titre": "Wikidata — E. T. Mensah (Q1811495)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q1811495",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S90",
+      "titre": "Wikidata — El Anatsui (Q1323876)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q1323876",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S91",
+      "titre": "Wikidata — Ayi Kwei Armah (Q792956)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q792956",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S92",
+      "titre": "Wikidata — Theodosia Okoh (Q15457178)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q15457178",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S93",
+      "titre": "Wikidata — Forts de la côte ghanéenne (Q778743)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q778743",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S94",
+      "titre": "Wikidata — Bâtiments traditionnels ashantis (Q1141003)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q1141003",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S95",
+      "titre": "Kwame Nkrumah — Wikipédia (fr)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Kwame_Nkrumah",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S96",
+      "titre": "Yaa Asantewaa — Wikipédia (fr)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Yaa_Asantewaa",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S97",
+      "titre": "Osei Tutu Ier — Wikipédia (fr)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Osei_Tutu_Ier",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S98",
+      "titre": "Okomfo Anokye — Wikipédia (fr)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Okomfo_Anokye",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S99",
+      "titre": "Anton Wilhelm Amo — Wikipédia (fr)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Anton_Wilhelm_Amo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S100",
+      "titre": "Ottobah Cugoano — Wikipédia (fr)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Ottobah_Cugoano",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S101",
+      "titre": "Ama Ata Aidoo — Wikipédia (en)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Ama_Ata_Aidoo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S102",
+      "titre": "Efua Sutherland — Wikipédia (en)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Efua_Sutherland",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S103",
+      "titre": "Esther Ocloo — Wikipédia (en)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Esther_Ocloo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S104",
+      "titre": "Hannah Kudjoe — Wikipédia (en)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Hannah_Kudjoe",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S105",
+      "titre": "Mabel Dove Danquah — Wikipédia (en)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Mabel_Dove_Danquah",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S106",
+      "titre": "Ayi Kwei Armah — Wikipédia (en)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Ayi_Kwei_Armah",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S107",
+      "titre": "Kintampo culture — Wikipédia (en)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Kintampo_culture",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S108",
+      "titre": "Fante Confederacy — Wikipédia (en)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Fante_Confederacy",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S109",
+      "titre": "Gold Coast Aborigines' Rights Protection Society — Wikipédia (en)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Aborigines%27_Rights_Protection_Society",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S110",
+      "titre": "1948 Accra riots — Wikipédia (en)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/1948_Accra_riots",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S111",
+      "titre": "1966 Ghanaian coup d'état — Wikipédia (en)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/1966_Ghanaian_coup_d%27%C3%A9tat",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S112",
+      "titre": "Akosombo Dam — Wikipédia (en)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Akosombo_Dam",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S113",
+      "titre": "Panafest — Wikipédia (en)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Panafest",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S114",
+      "titre": "Adinkra symbols — Wikipédia (en)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Adinkra_symbols",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S115",
+      "titre": "Homowo — Wikipédia (en)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Homowo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S116",
+      "titre": "Kpanlogo — Wikipédia (en)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Kpanlogo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S117",
+      "titre": "Agbadza — Wikipédia (en)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Agbadza",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S118",
+      "titre": "Gyil — Wikipédia (en)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Gyil",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S119",
+      "titre": "Fantasy coffin — Wikipédia (en)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Fantasy_coffin",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S120",
+      "titre": "Anansi — Wikipédia (en)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Anansi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S121",
+      "titre": "Fufu — Wikipédia (en)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Fufu",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S122",
+      "titre": "Damba festival — Wikipédia (en)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Damba_festival",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S123",
+      "titre": "Akwasidae Festival — Wikipédia (en)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Akwasidae_Festival",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S124",
+      "titre": "Kundum Festival — Wikipédia (en)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Kundum_Festival",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S125",
+      "titre": "Adowa — Wikipédia (en)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Adowa",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S126",
+      "titre": "Kwame Nkrumah Memorial Park — Wikipédia (en)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Kwame_Nkrumah_Memorial_Park",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S127",
+      "titre": "Manhyia Palace — Wikipédia (en)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Manhyia_Palace",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S128",
+      "titre": "National Museum of Ghana — Wikipédia (en)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/National_Museum_of_Ghana",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S129",
+      "titre": "Larabanga Mosque — Wikipédia (en)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Larabanga_Mosque",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S130",
+      "titre": "Akans — Wikipédia (fr)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Akans",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S131",
+      "titre": "Ashantis — Wikipédia (fr)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Ashantis",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S132",
+      "titre": "Fantis — Wikipédia (fr)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Fantis",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S133",
+      "titre": "Ga (peuple) — Wikipédia (fr)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Ga_%28peuple%29",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    }
+  ]
+}

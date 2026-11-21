@@ -1,0 +1,3920 @@
+{
+  "code": "BJ",
+  "nom": "Bénin",
+  "region": "ouest",
+  "wikidata": "Q962",
+  "maj": "2026-11-21",
+  "pays": {
+    "nom_officiel": "République du Bénin",
+    "capitale": "Porto-Novo",
+    "langues_officielles": [
+      "français"
+    ],
+    "langues_nationales": [
+      "fon (fon-gbe)",
+      "yoruba",
+      "bariba (baatɔnum)",
+      "goun (gun-gbe)",
+      "aja (aja-gbe)",
+      "ayizo (ayizo-gbe)",
+      "xwla (xwla-gbe)",
+      "gen"
+    ],
+    "population": {
+      "valeur": 14111034,
+      "annee": 2023,
+      "source": "S1"
+    },
+    "superficie_km2": 114763,
+    "monnaie": "Franc CFA (UEMOA)",
+    "resume": "Le Bénin est un pays d'Afrique de l'Ouest ouvert sur le golfe de Guinée, dont la capitale officielle est Porto-Novo tandis que Cotonou, sa plus grande ville, concentre l'activité économique. Son territoire a abrité plusieurs royaumes (Allada, Porto-Novo, Abomey) dont les palais d'Abomey, inscrits à l'UNESCO, gardent la mémoire ; la côte de Ouidah fut aussi l'un des grands ports de départ de la traite atlantique. Devenu colonie du Dahomey en 1894, le pays proclame son indépendance le 1er août 1960 et connaît en 1990 une Conférence nationale qui sert de référence à d'autres pays africains. Sa culture associe des mondes très divers : cultes vodun et masques du Sud, royautés et fête de la Gaani du Nord, architecture en terre des Batammariba de l'Atacora, et une vie musicale et artistique reconnue. Plus de quarante langues y sont parlées, le français étant la seule langue officielle.",
+    "sources": [
+      "S1",
+      "S2",
+      "S9",
+      "S4",
+      "S48",
+      "S43",
+      "S51"
+    ]
+  },
+  "langues": [
+    {
+      "id": "BJ-langue-francais",
+      "nom": "Français",
+      "nom_local": "Français",
+      "description": "Le français est l'unique langue officielle du Bénin, héritée de la période coloniale. Il sert de langue de l'administration, de l'école et des médias, et c'est la langue de communication entre communautés, surtout en ville. À Cotonou, un français local, très vivant, s'est développé dans les rues et les marchés.",
+      "famille": "Indo-européen, roman",
+      "glottocode": "stan1290",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "wikidata": "Q150",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "tout le pays",
+        "Cotonou"
+      ],
+      "sources": [
+        "S27",
+        "S9"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-langue-fon",
+      "nom": "Fon (fongbè)",
+      "nom_local": "Fɔngbè",
+      "description": "Le fon est l'une des langues les plus parlées du Bénin, surtout dans le sud : plateau d'Abomey, Bohicon, Ouidah, Abomey-Calavi, Cotonou. C'était la langue officielle de l'ancien royaume du Dahomey, et les radios et télévisions du pays l'emploient aujourd'hui. Il appartient à l'ensemble des langues gbe et fait office de langue véhiculaire bien au-delà du peuple fon. Il s'écrit en alphabet latin complété de lettres comme ɔ et ɛ.",
+      "famille": "Niger-Congo, Atlantic-Congo, Volta-Niger, Gbe",
+      "glottocode": "fonn1241",
+      "statut_linguistique": [
+        "nationale",
+        "véhiculaire"
+      ],
+      "wikidata": "Q33291",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "plateau d'Abomey",
+        "Bohicon",
+        "Ouidah",
+        "Abomey-Calavi",
+        "Cotonou"
+      ],
+      "sources": [
+        "S11",
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-langue-yoruba",
+      "nom": "Yoruba (yorùbá)",
+      "nom_local": "Yorùbá",
+      "description": "Le yoruba est parlé dans plusieurs régions du Bénin, comme au Togo et surtout au Nigeria où vit l'essentiel de ses locuteurs. C'est la langue des chants et des textes du Gelede, cérémonie inscrite par l'UNESCO au patrimoine immatériel. Il appartient au groupe des langues yoruboïdes et fait partie des langues nationales du Bénin.",
+      "famille": "Niger-Congo, Atlantic-Congo, Volta-Niger, Yoruboïde",
+      "glottocode": "yoru1245",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q34311",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [],
+      "sources": [
+        "S12",
+        "S29",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-langue-bariba",
+      "nom": "Bariba (baatonum)",
+      "nom_local": "Baatɔnum",
+      "description": "Le baatɔnum, ou bariba, est l'une des langues les plus parlées dans le nord du Bénin, avec pour centres Banikoara, Kandi, Kouandé, Nikki et Parakou. Il est aussi parlé dans l'ouest du Nigeria. C'est la langue de la fête de la Gaani, célébrée à Nikki par les peuples baatonu et boo.",
+      "famille": "Niger-Congo, Atlantic-Congo, Gur",
+      "glottocode": "baat1238",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q34889",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Borgou",
+        "Alibori",
+        "Nikki",
+        "Kandi",
+        "Banikoara",
+        "Parakou"
+      ],
+      "sources": [
+        "S13",
+        "S30",
+        "S44"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-langue-goun",
+      "nom": "Goun (gungbè)",
+      "nom_local": "Gungbè",
+      "description": "Le goun, ou gun-gbe, est une langue gbe parlée surtout à Porto-Novo, ainsi que dans la région de Lagos, d'Ogun et de Badagry au Nigeria, selon Wikipédia. Le peuple goun est étroitement associé à la société des masques Zangbéto. La langue figure parmi les langues nationales du Bénin.",
+      "famille": "Niger-Congo, Atlantic-Congo, Volta-Niger, Gbe",
+      "glottocode": "gunn1250",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q3111668",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Porto-Novo"
+      ],
+      "sources": [
+        "S14",
+        "S31",
+        "S46"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-langue-aja",
+      "nom": "Aja (adja-gbe)",
+      "nom_local": "Aja-gbe",
+      "description": "L'aja-gbe est une langue gbe du sud-ouest du Bénin, parlée notamment dans le département du Couffo (Aplahoué, Djakotomey, Dogbo…). Selon Wikipédia, elle compte près de 550 000 locuteurs, dont 360 000 au Bénin en 2006 et le reste au Togo. Elle est reconnue parmi les langues nationales ; les Aja sont aussi mentionnés dans l'histoire de Ouidah, où leurs groupes pêcheurs vivaient sur les rives du lac Ahémé.",
+      "famille": "Niger-Congo, Atlantic-Congo, Volta-Niger, Gbe",
+      "glottocode": "ajab1235",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q35035",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Couffo",
+        "sud-ouest du Bénin"
+      ],
+      "sources": [
+        "S15",
+        "S32",
+        "S43"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "locuteurs": {
+        "valeur": 360000,
+        "annee": 2006,
+        "source": "S32"
+      }
+    },
+    {
+      "id": "BJ-langue-ayizo",
+      "nom": "Ayizo (ayizɔ-gbe)",
+      "nom_local": "Ayizɔgbè",
+      "description": "L'ayizo est une langue gbe parlée dans le département de l'Atlantique, notamment dans les communes d'Allada, Toffo et Zè. Il compte parmi les langues nationales du Bénin.",
+      "famille": "Niger-Congo, Atlantic-Congo, Volta-Niger, Gbe",
+      "glottocode": "ayiz1245",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q34841",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Atlantique"
+      ],
+      "sources": [
+        "S16",
+        "S33"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-langue-xwla",
+      "nom": "Xwla (xwla-gbe)",
+      "nom_local": "Xwlagbè",
+      "description": "Le xwla (ou phla) est une langue gbe parlée au Bénin et au Togo. Dans la région de Grand-Popo, des communautés xwla se rattachent à une migration depuis Tado, d'après la page Wikipédia consacrée à cette commune. Glottolog distingue plusieurs variétés, dont le « western Xwla ».",
+      "famille": "Niger-Congo, Atlantic-Congo, Volta-Niger, Gbe",
+      "glottocode": "west2456",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q36924",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Grand-Popo"
+      ],
+      "sources": [
+        "S17",
+        "S34",
+        "S117"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-langue-gen",
+      "nom": "Gen (mina)",
+      "nom_local": "Gengbè",
+      "description": "Le gen, aussi appelé mina, est l'une des langues gbe du pays, dans le même ensemble que le fon, l'aja et le xwla. Il fait partie des langues nationales du Bénin et déborde sur le Togo voisin. Wikipédia la classe parmi les cinq grands groupes gbe (aja, ewe, fon, gen, phla-phera).",
+      "famille": "Niger-Congo, Atlantic-Congo, Volta-Niger, Gbe",
+      "glottocode": "genn1243",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q33450",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [],
+      "sources": [
+        "S18",
+        "S10",
+        "S9"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-langue-ditammari",
+      "nom": "Ditammari",
+      "nom_local": "Ditammari",
+      "description": "Le ditammari est la langue des Batammariba, le peuple du Koutammakou, dans l'Atacora. Il appartient à la famille gur. Sa région est inscrite au patrimoine mondial de l'UNESCO pour ses maisons-tours en terre.",
+      "famille": "Niger-Congo, Atlantic-Congo, Gur",
+      "glottocode": "dita1238",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q35186",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Atacora",
+        "Koutammakou"
+      ],
+      "sources": [
+        "S19",
+        "S35",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-langue-dendi",
+      "nom": "Dendi",
+      "nom_local": "Dendi",
+      "description": "Le dendi est un dialecte songhaï méridional parlé dans le nord du Bénin, notamment à Karimama et Malanville, ainsi qu'au Niger voisin. Il sert aussi de langue d'échange informel dans plusieurs villes comme Djougou, Kandi et Parakou. Il appartient à une famille différente des langues gbe ou gur.",
+      "famille": "Nilo-saharien (famille controversée), songhaï",
+      "glottocode": "dend1243",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q35164",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Karimama",
+        "Malanville",
+        "Alibori"
+      ],
+      "sources": [
+        "S20",
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-langue-anii",
+      "nom": "Anii",
+      "nom_local": "Anii",
+      "description": "L'anii est une langue kwa parlée au Bénin, dans une quinzaine de villages de la commune de Bassila, et au Togo voisin. Elle a fait l'objet de plusieurs études de phonologie, de lexique et de syntaxe. Il ne faut pas la confondre avec l'agni, langue de Côte d'Ivoire et du Ghana.",
+      "famille": "Niger-Congo, Atlantic-Congo, Kwa (selon Wikipédia)",
+      "glottocode": "anii1245",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q34838",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Bassila"
+      ],
+      "sources": [
+        "S21",
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-langue-waama",
+      "nom": "Waama",
+      "nom_local": "Waama",
+      "description": "Le waama est une langue gur, du groupe oti-volta, parlée par les Waama, une communauté du Bénin. Il fait partie des langues nationales du pays.",
+      "famille": "Niger-Congo, Atlantic-Congo, Gur",
+      "glottocode": "waam1244",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q7958576",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [],
+      "sources": [
+        "S22",
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-langue-yom",
+      "nom": "Yom (pilapila)",
+      "nom_local": "Yom",
+      "description": "Le yom est une langue gur parlée surtout dans le nord-ouest et le nord-est du Bénin ; c'est la langue la plus parlée dans les communes de Djougou et de Copargo, dans la Donga. Ses locuteurs sont appelés Yowa. Le groupe yowa-nawdm compte, selon Wikipédia, environ 565 000 personnes.",
+      "famille": "Niger-Congo, Atlantic-Congo, Gur",
+      "glottocode": "yomm1242",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q36893",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Djougou",
+        "Copargo",
+        "Donga"
+      ],
+      "sources": [
+        "S23",
+        "S39"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-langue-peul",
+      "nom": "Peul du Borgou (fulfulde)",
+      "nom_local": "Fulfulde",
+      "description": "Le peul (fulfulde) est la langue des communautés peules du nord du Bénin, dont une grande partie pratique l'élevage. La variété du Borgou est répertoriée sous le glottocode borg1235. Le fulfulde, langue atlantique, est parlé dans une douzaine de pays d'Afrique de l'Ouest et du Centre.",
+      "famille": "Niger-Congo, Atlantic-Congo, Atlantique (Nord)",
+      "glottocode": "borg1235",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q12952426",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Borgou",
+        "Alibori"
+      ],
+      "sources": [
+        "S24",
+        "S40",
+        "S45"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-langue-tem",
+      "nom": "Tem (kotokoli)",
+      "nom_local": "Tem",
+      "description": "Le tem, appelé aussi kotokoli, est une langue gur parlée principalement par les Tem, au Togo, au Ghana et au Bénin. Il figure parmi les langues nationales du Bénin dans la liste reprise par Wikipédia.",
+      "famille": "Niger-Congo, Atlantic-Congo, Gur",
+      "glottocode": "temm1241",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q36531",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [],
+      "sources": [
+        "S25",
+        "S41"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-langue-lokpa",
+      "nom": "Lokpa",
+      "nom_local": "Lokpa",
+      "description": "Le lokpa (ou lukpa) est une langue gur parlée par les Lokpa, une population du Bénin et du Togo. Il est répertorié parmi les langues nationales du Bénin.",
+      "famille": "Niger-Congo, Atlantic-Congo, Gur",
+      "glottocode": "lukp1238",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q3258739",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [],
+      "sources": [
+        "S26",
+        "S42"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "peuples": [
+    {
+      "id": "BJ-peuple-fon",
+      "nom": "Fons",
+      "description": "Les Fons forment, selon Wikipédia, le groupe le plus nombreux du Bénin, avec environ 33 % de la population au recensement de 2002. Leur royaume du Danhomè (Dahomey), fondé à Abomey, a marqué l'histoire du golfe du Bénin. Ils vivent surtout au centre et au sud du pays et parlent le fon, une langue gbe. Le Metropolitan Museum conserve plusieurs objets de cour et bijoux attribués à des artistes fon.",
+      "langues": [
+        "fon",
+        "français"
+      ],
+      "regions": [
+        "Abomey",
+        "Cotonou",
+        "Ouidah",
+        "Allada",
+        "Bohicon"
+      ],
+      "sources": [
+        "S113",
+        "S43",
+        "S4",
+        "S56",
+        "S60"
+      ],
+      "wikidata": "Q12257903",
+      "pays_partages": [
+        "TG"
+      ],
+      "organisation": "Royaume du Danhomè fondé à Abomey en 1625, avec douze rois jusqu'en 1900 selon l'UNESCO.",
+      "activites": [
+        "artisanat de cour (orfèvrerie, laiton)",
+        "agriculture"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-peuple-yoruba-nago",
+      "nom": "Yoruba (Nago)",
+      "description": "Au Bénin, les Yoruba sont aussi appelés Nago ; leur communauté s'étend sur le Bénin, le Nigeria et le Togo, selon l'UNESCO. C'est elle qui célèbre le Gelede, cérémonie de masques et de chants qui rend hommage à la mère primordiale Iyà Nlà et au rôle des femmes dans l'organisation sociale. Les Egungun, mascarades des ancêtres, sont également visibles à Ouidah.",
+      "langues": [
+        "yoruba"
+      ],
+      "regions": [
+        "Ouidah",
+        "Kétou",
+        "Plateau",
+        "Porto-Novo"
+      ],
+      "sources": [
+        "S6",
+        "S47"
+      ],
+      "wikidata": "Q190168",
+      "pays_partages": [
+        "NG",
+        "TG"
+      ],
+      "activites": [
+        "commerce",
+        "artisanat de masques"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Les sociétés de masques et les cultes des ancêtres comportent des savoirs réservés ; les descriptions restent générales et doivent être validées par des représentants de la communauté.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-peuple-bariba",
+      "nom": "Baatonu (Bariba)",
+      "description": "Les Baatonu, ou Bariba, vivent dans le nord-est du Bénin, avec Nikki pour cité royale. Ils parlent le baatɔnum et se retrouvent chaque année à Nikki pour la fête de la Gaani, avec les cavaliers wassangari et le roi de Nikki. Leur territoire, le Baru Tem, s'étend aussi vers le Nigeria et le Togo.",
+      "langues": [
+        "bariba (baatɔnum)"
+      ],
+      "regions": [
+        "Nikki",
+        "Borgou",
+        "Alibori",
+        "Kandi"
+      ],
+      "sources": [
+        "S44",
+        "S98"
+      ],
+      "wikidata": "Q808185",
+      "pays_partages": [
+        "NG",
+        "TG"
+      ],
+      "organisation": "Royauté de Nikki, avec les princes wassangari, des dignitaires et des chefferies par activités.",
+      "activites": [
+        "cavalerie et parades",
+        "agriculture"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-peuple-peul",
+      "nom": "Peuls (Fulbe)",
+      "description": "Les Peuls du Bénin sont surtout présents dans le nord, où beaucoup pratiquent l'élevage bovin. Des femmes peules transforment le lait en fromage frais selon des techniques artisanales, d'après un mémoire d'ingénieur agronome béninois. Ils participent à la Gaani de Nikki aux côtés des Baatonu et des Boo.",
+      "langues": [
+        "peul (fulfulde)"
+      ],
+      "regions": [
+        "Borgou",
+        "Alibori",
+        "Nikki"
+      ],
+      "sources": [
+        "S52",
+        "S45",
+        "S40"
+      ],
+      "wikidata": "Q202575",
+      "pays_partages": [
+        "SN",
+        "ML",
+        "NE",
+        "NG",
+        "BF",
+        "GN",
+        "TG"
+      ],
+      "activites": [
+        "élevage bovin",
+        "transformation du lait"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-peuple-batammariba",
+      "nom": "Batammariba (Somba)",
+      "description": "Les Batammariba vivent dans l'Atacora, au nord-ouest du Bénin et au nord-est du Togo. Leur paysage du Koutammakou, classé par l'UNESCO, est connu pour ses maisons-tours en terre, les takienta, et pour ses sources, rochers sacrés et sites d'initiation liés à leurs rites. Leur langue est le ditammari.",
+      "langues": [
+        "ditammari"
+      ],
+      "regions": [
+        "Atacora",
+        "Koutammakou"
+      ],
+      "sources": [
+        "S3",
+        "S112"
+      ],
+      "wikidata": "Q1117480",
+      "pays_partages": [
+        "TG"
+      ],
+      "organisation": "Villages groupés avec espaces cérémoniels et sites d'initiation ; maisons-tours qui reflètent la structure sociale (UNESCO).",
+      "activites": [
+        "agriculture",
+        "construction en terre"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Les lieux d'initiation et les rochers sacrés du Koutammakou relèvent de pratiques réservées ; la fiche reste générale et doit être relue par la communauté.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-peuple-xweda",
+      "nom": "Xwéda (Houéda)",
+      "description": "Les Xwéda sont, d'après la fiche du gouvernement béninois sur Ouidah, les premiers habitants de la zone de Ouidah. Ils seraient d'origine adja, installés sur les rives du lac Ahémé et vivant surtout de pêche. Ils fondent un royaume nommé Kpassè, qui sera annexé au XVIIIe siècle par le royaume d'Abomey.",
+      "langues": [
+        "aja-gbe"
+      ],
+      "regions": [
+        "Ouidah",
+        "lac Ahémé"
+      ],
+      "sources": [
+        "S43",
+        "S10"
+      ],
+      "organisation": "Royaume de Kpassè (région de Ouidah), conquis par le roi Agadja d'Abomey en 1727 selon le gouvernement béninois.",
+      "activites": [
+        "pêche"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-peuple-goun",
+      "nom": "Goun",
+      "description": "Les Goun vivent surtout à Porto-Novo, avec des communautés dans la région de Lagos, d'Ogun et de Badagry au Nigeria. La société des masques Zangbéto, très ancrée chez les Goun, veille sur la communauté, protège les habitants et chasse les mauvais esprits. Leur langue est le goun (gun-gbe).",
+      "langues": [
+        "goun (gun-gbe)"
+      ],
+      "regions": [
+        "Porto-Novo"
+      ],
+      "sources": [
+        "S46",
+        "S105",
+        "S14"
+      ],
+      "pays_partages": [
+        "NG"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Les sociétés de masques sont des organisations initiatiques : seuls les aspects publics sont décrits ici.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q22132744"
+    },
+    {
+      "id": "BJ-peuple-aja",
+      "nom": "Aja (Adja)",
+      "description": "Les Aja vivent dans le sud-ouest du Bénin, surtout dans le Couffo, et au Togo voisin. Leur langue, l'aja-gbe, compterait environ 360 000 locuteurs au Bénin en 2006 d'après Wikipédia. Les traditions de la région rattachent plusieurs royaumes gbe à la cité de Tado, et la page gouvernementale sur Ouidah les mentionne parmi les populations du lac Ahémé.",
+      "langues": [
+        "aja-gbe"
+      ],
+      "regions": [
+        "Couffo",
+        "Mono",
+        "lac Ahémé"
+      ],
+      "sources": [
+        "S10",
+        "S32",
+        "S43"
+      ],
+      "wikidata": "Q357684",
+      "pays_partages": [
+        "TG"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "id": "BJ-site-abomey",
+      "nom": "Palais royaux d'Abomey",
+      "type": "patrimoine_mondial",
+      "description": "Les palais d'Abomey sont l'ancienne résidence des rois du Danhomè : de 1625 à 1900, douze rois s'y succèdent, chacun bâtissant son palais dans une enceinte de terre damée, sauf le roi Akaba qui eut un enclos séparé. L'UNESCO les considère comme un témoignage exceptionnel sur un royaume disparu. Une partie du site abrite aujourd'hui le musée historique d'Abomey.",
+      "regions": [
+        "Abomey",
+        "Zou"
+      ],
+      "sources": [
+        "S4",
+        "S103"
+      ],
+      "wikidata": "Q2425839",
+      "unesco_id": "323",
+      "inscription": 1985,
+      "coordonnees": {
+        "lat": 7.18556,
+        "lng": 1.98806
+      },
+      "periode": "1625-1900",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-site-koutammakou",
+      "nom": "Koutammakou, le pays des Batammariba",
+      "type": "patrimoine_mondial",
+      "description": "Le Koutammakou est un paysage culturel de l'Atacora, au Bénin et au Togo, habité par les Batammariba. Ses maisons-tours en terre, les takienta (sikien au pluriel), sont groupées en villages avec espaces cérémoniels, sources, rochers sacrés et sites d'initiation. L'UNESCO y voit une architecture qui reflète la structure sociale, étroitement liée au paysage de champs et de forêts.",
+      "regions": [
+        "Atacora"
+      ],
+      "sources": [
+        "S3",
+        "S112"
+      ],
+      "wikidata": "Q508040",
+      "unesco_id": "1140",
+      "inscription": 2004,
+      "coordonnees": {
+        "lat": 10.1,
+        "lng": 1.066666666
+      },
+      "sensible": true,
+      "note_sensibilite": "Site vivant comportant des lieux d'initiation et des rochers sacrés ; la visite et la description doivent respecter les règles fixées par les communautés.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-site-w-arly-pendjari",
+      "nom": "Complexe W-Arly-Pendjari",
+      "type": "patrimoine_mondial",
+      "description": "Ce complexe transnational, partagé par le Bénin, le Burkina Faso et le Niger, est une vaste savane soudano-sahélienne comprenant prairies, savanes boisées et forêts-galeries. L'UNESCO le décrit comme le plus grand ensemble d'écosystèmes de la ceinture de savane d'Afrique de l'Ouest, avec la plus grande population d'éléphants et la seule population viable de lions de la région. Au Bénin, il est géré par le CENAGREF, et il comprend notamment le parc national de la Pendjari.",
+      "regions": [
+        "Atacora"
+      ],
+      "sources": [
+        "S5",
+        "S116"
+      ],
+      "wikidata": "Q25379596",
+      "unesco_id": "749",
+      "inscription": 1996,
+      "coordonnees": {
+        "lat": 11.53,
+        "lng": 2.29
+      },
+      "sensible": true,
+      "note_sensibilite": "Zone touchée par l'insécurité : la page UNESCO du bien rapporte une condamnation d'attaques meurtrières au parc national du W (Bénin) ; les conditions de visite doivent être vérifiées auprès des autorités.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-site-route-esclave-ouidah",
+      "nom": "Route de l'esclave et Porte du Non-Retour (Ouidah)",
+      "type": "lieu_de_memoire",
+      "description": "À Ouidah, un parcours part de la place aux enchères, passe par le village de Zoungbodji et le fort portugais, puis rejoint la plage où se dresse la Porte du Non-Retour, inaugurée le 30 novembre 1995. Ce monument commémore le point d'embarquement de captifs vers les Amériques. Il figure, dans un ensemble de quatre communes, sur la liste indicative du Bénin pour le patrimoine mondial.",
+      "regions": [
+        "Ouidah",
+        "Atlantique"
+      ],
+      "sources": [
+        "S50",
+        "S8",
+        "S43"
+      ],
+      "coordonnees": {
+        "lat": 6.321389,
+        "lng": 2.091667
+      },
+      "periode": "XVIIIe-XIXe siècle ; monument de 1995",
+      "sensible": true,
+      "note_sensibilite": "Lieu de mémoire de la traite atlantique, considéré comme sacré par des communautés vodun : un comportement respectueux est demandé aux visiteurs.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-site-route-esclave-liste",
+      "nom": "Sites marquants de la Route de l'Esclave au Bénin",
+      "type": "liste_indicative",
+      "description": "Cette série de sites, soumise par le Bénin sur la liste indicative de l'UNESCO en 2021, relie quatre communes : Abomey (place Singbodji), Savè et Dassa-Zoumè dans les Collines, Kétou dans le Plateau et Ouidah. Elle documente les modes d'aménagement du territoire liés à la traite entre le règne d'Agadja et celui de Ghézo, soit environ deux siècles.",
+      "regions": [
+        "Abomey",
+        "Savè",
+        "Dassa-Zoumè",
+        "Kétou",
+        "Ouidah"
+      ],
+      "sources": [
+        "S8"
+      ],
+      "coordonnees": {
+        "lat": 7.186,
+        "lng": 1.994
+      },
+      "periode": "de Agadja à Ghézo",
+      "sensible": true,
+      "note_sensibilite": "Mémoire de la traite et sites sacrés : validation par les institutions de mémoire et les communautés nécessaire.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-site-fort-ouidah",
+      "nom": "Fort portugais et musée d'histoire de Ouidah",
+      "type": "musee",
+      "description": "Le fort São João Baptista de Ajudá, construit en 1721, a perdu peu à peu sa fonction militaire et est resté sous souveraineté portugaise jusqu'en 1961. Il abrite depuis 1967 le musée d'histoire de Ouidah, qui présente archéologie, histoire et traditions populaires de la région et revient sur le rôle de Ouidah dans la traite.",
+      "regions": [
+        "Ouidah"
+      ],
+      "sources": [
+        "S101",
+        "S102",
+        "S8"
+      ],
+      "wikidata": "Q1969968",
+      "coordonnees": {
+        "lat": 6.359167,
+        "lng": 2.09
+      },
+      "periode": "depuis 1721",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-site-musee-abomey",
+      "nom": "Musée historique d'Abomey",
+      "type": "musee",
+      "description": "Installé dans une partie des palais royaux d'Abomey, ce musée présente l'histoire des rois du Danhomè et de leurs palais. Il se trouve sur le site inscrit à l'UNESCO depuis 1985.",
+      "regions": [
+        "Abomey"
+      ],
+      "sources": [
+        "S103",
+        "S4"
+      ],
+      "wikidata": "Q10333504",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-site-honme",
+      "nom": "Musée Honmè (palais des rois de Porto-Novo)",
+      "type": "musee",
+      "description": "Le musée Honmè occupe l'ancien palais des rois de Hogbonou, dans le quartier Avassa de Porto-Novo. Il conserve environ 230 objets : objets cultuels, instruments de musique, poteries, asen, mobilier et un buste en bronze du roi Toffa. Une partie du site reste un lieu sacré où se tiennent des cérémonies.",
+      "regions": [
+        "Porto-Novo",
+        "Ouémé"
+      ],
+      "sources": [
+        "S99"
+      ],
+      "wikidata": "Q2784858",
+      "coordonnees": {
+        "lat": 6.469444,
+        "lng": 2.625278
+      },
+      "sensible": true,
+      "note_sensibilite": "Une partie du palais est un lieu sacré et les objets cultuels conservés appellent une présentation concertée avec les détenteurs de la tradition.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-site-da-silva",
+      "nom": "Musée Da-Silva (Porto-Novo)",
+      "type": "musee",
+      "description": "Ce musée privé, ouvert en 1998 par Karim da Silva, est consacré au patrimoine afro-brésilien et à la mémoire de la traite. Il occupe une maison de style afro-brésilien construite en 1890 pour une famille agouda, entre la lagune et la cathédrale de Porto-Novo.",
+      "regions": [
+        "Porto-Novo"
+      ],
+      "sources": [
+        "S100"
+      ],
+      "wikidata": "Q106834446",
+      "coordonnees": {
+        "lat": 6.470833,
+        "lng": 2.620278
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-site-zinsou",
+      "nom": "Fondation Zinsou (Cotonou et Ouidah)",
+      "type": "musee",
+      "description": "Lancée en 2005 par Marie-Cécile Zinsou, la fondation est tournée vers l'art contemporain africain et l'action sociale. Après plusieurs années d'expositions et d'ateliers, elle a ouvert en novembre 2013 un musée d'art contemporain à Ouidah. Elle présente notamment des œuvres de Romuald Hazoumè.",
+      "regions": [
+        "Cotonou",
+        "Ouidah"
+      ],
+      "sources": [
+        "S104"
+      ],
+      "wikidata": "Q3075592",
+      "coordonnees": {
+        "lat": 6.351667,
+        "lng": 2.372778
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-site-ganvie",
+      "nom": "Ganvié",
+      "type": "ville_historique",
+      "description": "Ganvié est une cité lacustre du lac Nokoué, dans la commune de Sô-Ava, au nord de Cotonou. Selon la tradition rapportée par Wikipédia, elle aurait été fondée au XVIIIe siècle par des populations cherchant refuge des razzias esclavagistes. Elle est inscrite depuis 1996 sur la liste indicative de l'UNESCO, mais n'est pas un bien du patrimoine mondial.",
+      "regions": [
+        "Sô-Ava",
+        "Atlantique",
+        "lac Nokoué"
+      ],
+      "sources": [
+        "S97"
+      ],
+      "wikidata": "Q1493703",
+      "periode": "XVIIIe siècle (selon la tradition)",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-site-nikki",
+      "nom": "Nikki, cité royale bariba",
+      "type": "ville_historique",
+      "description": "Nikki, dans le Borgou, est la cité du roi des Baatonu et le cadre annuel de la Gaani. Selon Wikipédia, des cavaliers wassangari y arrivent vers 1480 sous la direction de Mansa Doro, puis Séro est choisi comme chef. Le gouvernement béninois y a fait construire un nouveau palais royal et une arène pour la Gaani.",
+      "regions": [
+        "Nikki",
+        "Borgou"
+      ],
+      "sources": [
+        "S98",
+        "S44",
+        "S45"
+      ],
+      "wikidata": "Q2378608",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-site-grand-popo",
+      "nom": "Grand-Popo",
+      "type": "ville_historique",
+      "description": "Grand-Popo, sur la côte à l'ouest du pays, était déjà en relation commerciale avec l'Europe au XVIIe siècle. Wikipédia rapporte que les rois fon de Djanglanmey dominaient alors la région et que la ville fut un poste de traite avant l'abolition. La région est aussi présentée comme peuplée de Kotafon et de Xwla venus de Tado.",
+      "regions": [
+        "Grand-Popo",
+        "Mono"
+      ],
+      "sources": [
+        "S117"
+      ],
+      "wikidata": "Q1542478",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-site-ouidah-ville",
+      "nom": "Ouidah, ville historique et du vodun",
+      "type": "ville_historique",
+      "description": "Ouidah, sur la côte atlantique, fut un royaume xwéda puis le port d'Abomey après sa conquête par le roi Agadja en 1727. Le gouvernement béninois la présente comme berceau du vodoun et lieu de pèlerinage chaque 10 janvier, dans le cadre des Vodun Days. On y trouve le fort portugais, la route de l'esclave et de nombreux lieux de culte.",
+      "regions": [
+        "Ouidah",
+        "Atlantique"
+      ],
+      "sources": [
+        "S43",
+        "S47"
+      ],
+      "wikidata": "Q850031",
+      "sensible": true,
+      "note_sensibilite": "Ville de mémoire de la traite et de cultes vodun : la présentation doit rester concertée avec les institutions de mémoire et les communautés.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "traditions": [
+    {
+      "id": "BJ-tradition-gelede",
+      "nom": "Patrimoine oral du Gelede",
+      "categorie": "rite",
+      "description": "Le Gelede est une cérémonie de la communauté yoruba-nago, répartie entre le Bénin, le Nigeria et le Togo, qui rend hommage à la mère primordiale Iyà Nlà et au rôle des femmes dans l'organisation sociale. Il se tient chaque année après les récoltes, lors d'événements importants ou en période de sécheresse ou d'épidémie, avec des masques sculptés, des danses et des chants en yoruba qui retracent histoire et mythes. L'UNESCO souligne qu'il s'agit d'une société de masques gouvernée aussi par des femmes ; le tourisme et la perte de savoir-faire sont cités comme menaces.",
+      "sources": [
+        "S6",
+        "S7",
+        "S59"
+      ],
+      "nom_local": "Gèlèdè",
+      "communautes": [
+        "Yoruba-Nago"
+      ],
+      "regions": [],
+      "langues": [
+        "yoruba"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "00002",
+        "annee": 2008,
+        "url": "https://ich.unesco.org/en/RL/oral-heritage-of-gelede-00002"
+      },
+      "sensible": true,
+      "note_sensibilite": "Société de masques avec savoirs réservés, élément multinational (Bénin, Nigeria, Togo) ; relecture par les communautés concernées avant publication.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-tradition-gaani",
+      "nom": "Fête de la Gaani",
+      "categorie": "fete",
+      "description": "La Gaani est la grande fête annuelle des peuples baatonu et boo, célébrée à Nikki, dans le Borgou. Son nom signifie « joie, victoire » et elle rassemble parades de cavaliers wassangari, parcours rituel qui honore la mémoire des anciens empereurs, tambours sacrés, trompettes royales (kankangi) et cérémonie de Kayessi, où les dignitaires renouvellent leur allégeance à l'empereur. Les Peuls y participent aussi ; l'édition 2025 s'est tenue dans le nouveau palais royal et la nouvelle arène construits par l'État.",
+      "sources": [
+        "S44",
+        "S45",
+        "S107"
+      ],
+      "nom_local": "Gaani",
+      "communautes": [
+        "Baatonu",
+        "Boo",
+        "Peuls"
+      ],
+      "regions": [
+        "Nikki",
+        "Borgou"
+      ],
+      "langues": [
+        "bariba (baatɔnum)"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "wikidata": "Q3092830",
+      "periode": "annuelle",
+      "sensible": true,
+      "note_sensibilite": "Cérémonie royale comportant des rites (tambours sacrés, hommage aux ancêtres) ; la présentation doit être validée par la cour de Nikki.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-tradition-zangbeto",
+      "nom": "Zangbéto, gardiens de la nuit",
+      "categorie": "rite",
+      "description": "Le Zangbéto est une société de masques du sud du Bénin, d'origine goun. Son nom veut dire « chasseur de nuit » : il veille sur le roi, la communauté et chasse les mauvais esprits. À Porto-Novo, chaque quartier possède son Zangbéto et son zangan, médium qui transmet ses messages. Aujourd'hui, il intervient aussi dans la médiation sociale et se produit lors de festivals comme les Vodun Days de Ouidah.",
+      "sources": [
+        "S46",
+        "S105",
+        "S47"
+      ],
+      "nom_local": "Zangbéto",
+      "communautes": [
+        "Goun"
+      ],
+      "regions": [
+        "Porto-Novo",
+        "Ouidah"
+      ],
+      "langues": [
+        "goun (gun-gbe)"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "wikidata": "Q8066172",
+      "sensible": true,
+      "note_sensibilite": "Société initiatique réservée aux hommes initiés ; seuls les aspects publics (sorties, danses) sont décrits.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-tradition-egungun",
+      "nom": "Egungun, masques des ancêtres",
+      "categorie": "rite",
+      "description": "Dans la tradition yoruba, l'Egungun désigne le déguisement masqué du culte des ancêtres, qui représente aussi les ancêtres comme force collective. Les cérémonies annuelles en l'honneur des morts visent à leur assurer une place parmi les vivants. À Ouidah, les Egungun sortent notamment sur la place Maro lors des Vodun Days, aux côtés d'autres masques et rituels.",
+      "sources": [
+        "S106",
+        "S47"
+      ],
+      "nom_local": "Egúngún",
+      "communautes": [
+        "Yoruba-Nago"
+      ],
+      "regions": [
+        "Ouidah"
+      ],
+      "langues": [
+        "yoruba"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "wikidata": "Q1299119",
+      "sensible": true,
+      "note_sensibilite": "Culte des ancêtres avec rites réservés ; relecture par des détenteurs de la tradition.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-tradition-vodun-ouidah",
+      "nom": "Culte vodun et Vodun Days de Ouidah",
+      "categorie": "fete",
+      "description": "Le gouvernement béninois présente Ouidah comme le berceau du vodoun et un lieu de pèlerinage annuel des congrégations, autour de la journée du 10 janvier instituée sous la présidence de Nicéphore Soglo. Les Vodun Days de janvier 2026 ont réuni, du 8 au 10 janvier, des cérémonies à la forêt sacrée de Kpassè, au temple Mami-Dan, des sorties de Zangbéto et d'Egungun, ainsi que des concerts sur la plage.",
+      "sources": [
+        "S43",
+        "S47"
+      ],
+      "communautes": [],
+      "regions": [
+        "Ouidah",
+        "Atlantique"
+      ],
+      "langues": [
+        "fon"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "periode": "chaque année autour du 10 janvier (édition 2026 : 8-10 janvier)",
+      "sensible": true,
+      "note_sensibilite": "Pratique religieuse vivante ; la valorisation touristique et institutionnelle ne remplace pas la parole des pratiquants et des prêtres.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-tradition-fa",
+      "nom": "Consultation du Fâ (Tofâ)",
+      "categorie": "savoir",
+      "description": "Le Fâ est un système de divination pratiqué par les prêtres bokônon. Lors des Vodun Days 2026 à Ouidah, la consultation annuelle du Tofâ a révélé le signe Losso sa pour le Bénin, interprété par les Bokônon comme porteur de continuité, de prospérité et d'espoir. Wikipédia rapproche cette tradition de l'Ifá des Yoruba.",
+      "sources": [
+        "S47",
+        "S115"
+      ],
+      "nom_local": "Fâ / Tofâ",
+      "communautes": [],
+      "regions": [
+        "Ouidah"
+      ],
+      "langues": [
+        "fon",
+        "yoruba"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sensible": true,
+      "note_sensibilite": "Savoir divinatoire initiatique : la fiche ne décrit pas le contenu des corpus, réservé aux initiés.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-tradition-takienta",
+      "nom": "Maisons-tours takienta des Batammariba",
+      "categorie": "architecture",
+      "description": "Les takienta (sikien au pluriel) sont des maisons-tours en terre des Batammariba, à plusieurs niveaux, qui servent à la fois de logement, de réserve, de protection et d'espace rituel. L'UNESCO note que leur architecture reflète la structure sociale et que le cycle de construction, d'abandon et de reconstruction sur les ruines se poursuit. Les matériaux (terre, bois et plantes) sont liés à des bosquets protégés pour des raisons rituelles.",
+      "sources": [
+        "S3",
+        "S112"
+      ],
+      "nom_local": "Takienta / sikien",
+      "communautes": [
+        "Batammariba"
+      ],
+      "regions": [
+        "Atacora",
+        "Koutammakou"
+      ],
+      "langues": [
+        "ditammari"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "wikidata": "Q2395356",
+      "sensible": true,
+      "note_sensibilite": "Architecture liée à des rites et à des sites d'initiation ; relecture par la communauté.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-tradition-cuisine-pates",
+      "nom": "Pâtes, sauces et cuisine béninoise",
+      "categorie": "cuisine",
+      "description": "La cuisine béninoise repose sur des pâtes : à base de maïs dans le sud (wɔ̌, amiwo, akassa) et d'igname dans le nord. On les accompagne de sauces pimentées à la tomate, au poisson, à la viande ou aux arachides. Un condiment typique est la moutarde africaine, appelée afitin en fon et irù en yoruba.",
+      "sources": [
+        "S108"
+      ],
+      "nom_local": "Wɔ̌, amiwo, akassa",
+      "communautes": [
+        "Fon",
+        "Yoruba"
+      ],
+      "regions": [
+        "sud du Bénin",
+        "nord du Bénin"
+      ],
+      "langues": [
+        "fon",
+        "yoruba"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "wikidata": "Q3006891",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-tradition-fromage-peul",
+      "nom": "Fromage peul",
+      "categorie": "cuisine",
+      "description": "Dans le nord du Bénin, les femmes peules transforment le lait en fromage frais par des méthodes artisanales, selon un mémoire d'ingénieur agronome. Le caillage emploie traditionnellement une enzyme végétale extraite de Calotropis procera, et l'étude cherche à améliorer cette technologie. Cette activité est liée à l'élevage des Peuls.",
+      "sources": [
+        "S52"
+      ],
+      "communautes": [
+        "Peuls"
+      ],
+      "regions": [
+        "Borgou",
+        "Alibori"
+      ],
+      "langues": [
+        "peul (fulfulde)"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-tradition-tchinkoume",
+      "nom": "Tchinkoumé, musique funéraire à percussions d'eau",
+      "categorie": "musique",
+      "description": "Le tchinkoumé est une musique funéraire jouée avec des percussions sur l'eau. Selon la page Wikipédia sur la musique béninoise, des musiciens comme Tohon Stan l'ont adaptée pour un public plus large, au Bénin et à l'étranger, sous le nom de « musique du système tchink ».",
+      "sources": [
+        "S110"
+      ],
+      "communautes": [],
+      "regions": [],
+      "langues": [
+        "fon"
+      ],
+      "unesco": null,
+      "sensible": true,
+      "note_sensibilite": "Musique funéraire à usage rituel ; communauté d'origine et contexte à confirmer par des sources ethnomusicologiques avant publication.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-tradition-poly-rythmo",
+      "nom": "Orchestre Poly-Rythmo de Cotonou et musique populaire",
+      "categorie": "musique",
+      "description": "Formé en 1968 à Cotonou, l'orchestre mêle afrobeat, funk et soukous aux rythmes vaudous. Il a enregistré plus de cinq cents chansons entre 1969 et 1983, une cinquantaine de LP et une centaine de 45 tours, et reste actif. Des compilations parues à partir de 2003 lui ont valu un regain d'attention internationale.",
+      "sources": [
+        "S109",
+        "S110"
+      ],
+      "nom_local": "Tout-Puissant Orchestre Poly-Rythmo",
+      "communautes": [
+        "musiciens de Cotonou"
+      ],
+      "regions": [
+        "Cotonou"
+      ],
+      "langues": [
+        "fon",
+        "français"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "wikidata": "Q2028674",
+      "periode": "depuis 1966-1968",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "personnalites": [
+    {
+      "id": "BJ-personnalite-behanzin",
+      "nom": "Béhanzin",
+      "wikidata": "Q2366953",
+      "description": "Béhanzin est le roi d'Abomey qui régna de 1890 à 1894 face à l'avancée française. Fils du roi Glélé, il voit son royaume défait et intégré à la colonie du Dahomey ; il se rend en janvier 1894 et meurt en exil, en Algérie, en 1906. Il est resté une figure de la résistance à la colonisation.",
+      "roles": [
+        "roi d'Abomey",
+        "résistant"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S62",
+        "S61",
+        "S10"
+      ],
+      "naissance": {
+        "date": "1845"
+      },
+      "deces": {
+        "date": "1906-12-10",
+        "lieu": "Algérie (Blida selon Wikidata, Alger selon Wikipédia)"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "note": "Wikipédia donne 1845 et un décès à Alger ; Wikidata donne le 7 septembre 1844 et Blida. À arbitrer par un historien."
+    },
+    {
+      "id": "BJ-personnalite-ghezo",
+      "nom": "Ghézo",
+      "wikidata": "Q880285",
+      "description": "Ghézo, né prince Gakpe, est traditionnellement le neuvième roi d'Abomey, si l'on ne compte ni Adandozan ni la reine Hangbè. Il règne de 1818 à 1858 et consolide le royaume, notamment par des attaques régulières contre les Yoruba du Nigeria, qui alimentent aussi la traite. Son fils Glélé lui succède.",
+      "roles": [
+        "roi d'Abomey"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S64",
+        "S63",
+        "S10"
+      ],
+      "deces": {
+        "date": "1858"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-personnalite-glele",
+      "nom": "Glélé",
+      "wikidata": "Q718588",
+      "description": "Glélé, né Badohoun, est traditionnellement le dixième roi d'Abomey et succède à son père Ghézo. Il règne de 1858 à 1889 et adopte le lion pour emblème. Son fils Béhanzin lui succède.",
+      "roles": [
+        "roi d'Abomey"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S66",
+        "S65",
+        "S10"
+      ],
+      "naissance": {
+        "date": "1814"
+      },
+      "deces": {
+        "date": "1889-12-29"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-personnalite-hangbe",
+      "nom": "Tassin Hangbè",
+      "wikidata": "Q5647926",
+      "description": "Tassin Hangbè règne sur le Danhomè de 1708 à 1711, après la mort soudaine de son frère jumeau Akaba. Elle est peu documentée parce que son souvenir a été largement effacé de l'histoire officielle, et les connaissances reposent surtout sur des traditions orales. Une partie de la tradition lui attribue le rôle de créatrice du corps des guerrières, les Agodjé.",
+      "roles": [
+        "reine d'Abomey"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "début XVIIIe siècle",
+      "sources": [
+        "S68",
+        "S67",
+        "S114"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "note": "Dates de règne 1708-1711 ; naissance et décès non établis dans les sources consultées."
+    },
+    {
+      "id": "BJ-personnalite-agontime",
+      "nom": "Na Agontimé",
+      "wikidata": "Q58818197",
+      "description": "Na Agontimé est une femme de la cour du royaume du Dahomey à la fin du XVIIIe et au début du XIXe siècle, considérée comme reine-mère sous Ghézo. Son parcours matérialise le lien créé par la traite entre l'Afrique de l'Ouest et le Brésil, et elle est devenue l'une des figures de l'héritage africain au Brésil. Elle est la grand-mère d'Agboli-Agbo, dernier roi d'Abomey.",
+      "roles": [
+        "reine-mère",
+        "figure de la mémoire afro-brésilienne"
+      ],
+      "domaines": [
+        "politique",
+        "mémoire"
+      ],
+      "epoque": "fin XVIIIe-début XIXe siècle",
+      "sources": [
+        "S70",
+        "S69"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "note": "Dates indicatives de Wikidata (vers 1750 - vers 1900, Maranhão) : incertaines."
+    },
+    {
+      "id": "BJ-personnalite-maga",
+      "nom": "Hubert Maga",
+      "wikidata": "Q336242",
+      "description": "Hubert Maga est un instituteur et homme politique, premier président de la République du Dahomey indépendant (1960-1963), puis de nouveau de 1970 à 1972. Il est la figure qui rassemble les forces politiques du nord du pays dans les années 1950.",
+      "roles": [
+        "président de la République"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S72",
+        "S71",
+        "S10"
+      ],
+      "naissance": {
+        "date": "1916-08-10",
+        "lieu": "Parakou"
+      },
+      "deces": {
+        "date": "2000-05-08",
+        "lieu": "Cotonou"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "note": "Wikidata mentionne aussi 2002 comme année de décès ; Wikipédia donne le 8 mai 2000."
+    },
+    {
+      "id": "BJ-personnalite-apithy",
+      "nom": "Sourou Migan Apithy",
+      "wikidata": "Q718225",
+      "description": "Sourou Migan Apithy est un homme politique de Porto-Novo, élu député en 1945, puis chef du gouvernement autonome du Dahomey de 1957 à 1959. Il est le troisième président de la République du Dahomey, de 1964 à 1965.",
+      "roles": [
+        "député",
+        "chef de gouvernement",
+        "président de la République"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S74",
+        "S73",
+        "S10"
+      ],
+      "naissance": {
+        "date": "1913-04-08",
+        "lieu": "Porto-Novo"
+      },
+      "deces": {
+        "date": "1989-12-03",
+        "lieu": "Paris"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-personnalite-kerekou",
+      "nom": "Mathieu Kérékou",
+      "wikidata": "Q206719",
+      "description": "Mathieu Kérékou, militaire, prend le pouvoir par coup d'État en 1972 et dirige le pays jusqu'en 1990. Il convoque la Conférence nationale qui ouvre la transition démocratique, puis revient à la présidence par les urnes de 1996 à 2006.",
+      "roles": [
+        "président de la République",
+        "militaire"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S76",
+        "S75",
+        "S51"
+      ],
+      "naissance": {
+        "date": "1933-09-02",
+        "lieu": "Kouarfa"
+      },
+      "deces": {
+        "date": "2015-10-14",
+        "lieu": "Cotonou"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-personnalite-rsoglo",
+      "nom": "Rosine Vieyra Soglo",
+      "wikidata": "Q4979540",
+      "description": "Rosine Vieyra Soglo est une femme politique née à Ouidah. Députée de 1999 à 2019 et membre du Parlement panafricain, elle fut aussi Première dame du Bénin de 1991 à 1996.",
+      "roles": [
+        "députée",
+        "Première dame"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S78",
+        "S77"
+      ],
+      "naissance": {
+        "date": "1934-03-07",
+        "lieu": "Ouidah"
+      },
+      "deces": {
+        "date": "2021-07-25",
+        "lieu": "Cotonou"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-personnalite-gbedo",
+      "nom": "Marie-Élise Gbèdo",
+      "wikidata": "Q6762653",
+      "description": "Avocate et femme politique, Marie-Élise Gbèdo fut ministre du Commerce de 1998 à 1999 et milite pour les droits des femmes. Elle est la première Béninoise à se présenter à une élection présidentielle, en 2001, puis fut garde des Sceaux sous Thomas Boni Yayi.",
+      "roles": [
+        "avocate",
+        "ministre",
+        "garde des Sceaux"
+      ],
+      "domaines": [
+        "politique",
+        "droit"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S94",
+        "S93"
+      ],
+      "naissance": {
+        "date": "1954-12-29",
+        "lieu": "Mankono (Côte d'Ivoire)"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-personnalite-hountondji",
+      "nom": "Paulin Hountondji",
+      "wikidata": "Q712288",
+      "description": "Paulin Hountondji est un philosophe béninois, professeur d'université et homme politique, mort à Cotonou en 2024. Son livre African Philosophy: Myth and Reality sort la philosophie africaine du cadre anthropologique uniforme popularisé par Tempels, selon un hommage publié dans African Studies Review. Il reste une référence des débats sur les savoirs africains.",
+      "roles": [
+        "philosophe",
+        "professeur d'université"
+      ],
+      "domaines": [
+        "savoirs",
+        "philosophie"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S79",
+        "S53"
+      ],
+      "naissance": {
+        "date": "1942-04-11",
+        "lieu": "Abidjan (Côte d'Ivoire)"
+      },
+      "deces": {
+        "date": "2024-02-02",
+        "lieu": "Cotonou"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-personnalite-kidjo",
+      "nom": "Angélique Kidjo",
+      "wikidata": "Q231276",
+      "description": "Née à Ouidah, Angélique Kidjo est chanteuse, autrice-compositrice et actrice. Elle mêle traditions africaines, jazz, funk et pop, a publié plus de vingt albums et reçu cinq Grammy Awards. Ambassadrice de bonne volonté de l'UNICEF, elle a fondé en 2006 la Fondation Batonga pour l'éducation des filles.",
+      "roles": [
+        "chanteuse",
+        "autrice-compositrice",
+        "ambassadrice de bonne volonté"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S81",
+        "S80",
+        "S43"
+      ],
+      "naissance": {
+        "date": "1960-07-14",
+        "lieu": "Ouidah"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-personnalite-pedro",
+      "nom": "Gnonnas Pedro",
+      "wikidata": "Q5574398",
+      "description": "Gnonnas Pedro, né à Cotonou, est un chanteur de salsa, compositeur et musicien, originaire de Lokossa. Wikipédia le range parmi les musiciens influents de la période suivant l'indépendance, avec son groupe Pedro Gnonnas y sus Panchos.",
+      "roles": [
+        "chanteur",
+        "compositeur"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S83",
+        "S82",
+        "S110"
+      ],
+      "naissance": {
+        "date": "1943-01-10",
+        "lieu": "Cotonou"
+      },
+      "deces": {
+        "date": "2004-08-12",
+        "lieu": "Cotonou"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-personnalite-zinsou",
+      "nom": "Marie-Cécile Zinsou",
+      "wikidata": "Q17318783",
+      "description": "Marie-Cécile Zinsou est une entrepreneure franco-béninoise de l'art. Diplômée en histoire de l'art, elle lance en 2005 la Fondation Zinsou à Cotonou, premier lieu béninois consacré à l'art contemporain, qui a accueilli des millions de visiteurs, en majorité des écoliers.",
+      "roles": [
+        "fondatrice de la Fondation Zinsou"
+      ],
+      "domaines": [
+        "arts",
+        "culture"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S104",
+        "S84"
+      ],
+      "naissance": {
+        "date": "1982",
+        "lieu": "Paris"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-personnalite-hazoume",
+      "nom": "Romuald Hazoumè",
+      "wikidata": "Q320622",
+      "description": "Romuald Hazoumè est un plasticien de Porto-Novo. Il utilise des matériaux recyclés, notamment dans sa série de masques faits de bidons d'essence, et son œuvre La Bouche du roi a été exposée au Royaume-Uni pour le bicentenaire de la loi de 1807 sur la traite.",
+      "roles": [
+        "plasticien"
+      ],
+      "domaines": [
+        "arts"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S86",
+        "S85"
+      ],
+      "naissance": {
+        "date": "1962-02-07",
+        "lieu": "Porto-Novo"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-personnalite-gaba",
+      "nom": "Meschac Gaba",
+      "wikidata": "Q1376761",
+      "description": "Meschac Gaba est un artiste conceptuel béninois, né à Cotonou et installé entre Rotterdam et Cotonou. Son installation autobiographique « Museum of Contemporary African Art » (1997-2002), en douze salles, a été acquise par la Tate Modern en 2013. Il a aussi exposé à la Biennale de Venise en 2003.",
+      "roles": [
+        "artiste conceptuel"
+      ],
+      "domaines": [
+        "arts"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S88",
+        "S87"
+      ],
+      "naissance": {
+        "date": "1961",
+        "lieu": "Cotonou"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-personnalite-gbado",
+      "nom": "Béatrice Lalinon Gbado",
+      "wikidata": "Q5004979",
+      "description": "Béatrice Lalinon Gbado est une autrice de livres pour enfants et de beaux livres, née à Kandi. Basée à Cotonou, elle a fondé les Éditions Ruisseaux d'Afrique.",
+      "roles": [
+        "autrice",
+        "éditrice"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S90",
+        "S89"
+      ],
+      "naissance": {
+        "date": "1962-06-21",
+        "lieu": "Kandi"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-personnalite-ahouan",
+      "nom": "Odile Ahouanwanou",
+      "wikidata": "Q328631",
+      "description": "Odile Ahouanwanou est une athlète franco-béninoise née à Savalou, spécialiste de l'heptathlon. Elle détient le record national dans cette discipline, ainsi que sur le 100 m haies, le saut en hauteur et le lancer du poids.",
+      "roles": [
+        "athlète"
+      ],
+      "domaines": [
+        "sport"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S92",
+        "S91"
+      ],
+      "naissance": {
+        "date": "1991-01-05",
+        "lieu": "Savalou"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-personnalite-sessegnon",
+      "nom": "Stéphane Sessègnon",
+      "wikidata": "Q150207",
+      "description": "Stéphane Sessègnon est un footballeur international béninois, né à Allahé, qui évolue au poste de milieu offensif.",
+      "roles": [
+        "footballeur international"
+      ],
+      "domaines": [
+        "sport"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S96",
+        "S95"
+      ],
+      "naissance": {
+        "date": "1984-06-01",
+        "lieu": "Allahé"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "evenements": [
+    {
+      "id": "BJ-evenement-nikki-wassangari",
+      "titre": "Arrivée des Wassangari dans la région de Nikki",
+      "date": "1480-01-01",
+      "date_affichee": "vers 1480",
+      "precision": "annee",
+      "description": "Selon Wikipédia, des cavaliers wassangari conduits par Mansa Doro arrivent dans la région de Nikki vers 1480 ; Séro, son palefrenier, est choisi comme chef de la communauté restée sur place. Les chefferies par activités organisées à cette époque existent encore, d'après la même page. La fête de la Gaani est aujourd'hui liée à cette histoire.",
+      "sources": [
+        "S98",
+        "S44"
+      ],
+      "regions": [
+        "Nikki",
+        "Borgou"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-evenement-abomey-1625",
+      "titre": "Fondation du royaume d'Abomey",
+      "date": "1625-01-01",
+      "date_affichee": "1625",
+      "precision": "annee",
+      "description": "La tradition place en 1625 la fondation d'Abomey, capitale historique du royaume du Danhomè. De 1625 à 1900, douze rois s'y succèdent, tous dans la même enceinte de palais sauf Akaba. L'UNESCO considère l'ensemble comme un témoignage exceptionnel sur un royaume disparu.",
+      "sources": [
+        "S4",
+        "S10"
+      ],
+      "regions": [
+        "Abomey"
+      ],
+      "acteurs": [
+        "roi Houégbadja"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-evenement-hangbe",
+      "titre": "Règne de la reine Tassin Hangbè",
+      "date": "1708-01-01",
+      "date_affichee": "1708-1711",
+      "precision": "annee",
+      "description": "À la mort soudaine de son frère jumeau Akaba en 1708, Tassin Hangbè règne sur le Danhomè jusqu'en 1711. Elle disparaît largement de l'histoire officielle après son successeur Agadja, et sa mémoire passe surtout par les traditions orales.",
+      "sources": [
+        "S68",
+        "S67",
+        "S114"
+      ],
+      "fin": "1711-12-31",
+      "acteurs": [
+        "Tassin Hangbè",
+        "Agadja"
+      ],
+      "regions": [
+        "Abomey"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-evenement-ouidah-1727",
+      "titre": "Conquête de Ouidah par Abomey",
+      "date": "1727-01-01",
+      "date_affichee": "1727",
+      "precision": "annee",
+      "description": "Le roi Agadja conquiert le royaume xwéda de Savi et fait de Ouidah sa façade maritime. La ville devient le principal port de la côte du golfe du Bénin, point de départ de nombreux captifs vers les Amériques.",
+      "sources": [
+        "S43",
+        "S114",
+        "S10"
+      ],
+      "regions": [
+        "Ouidah"
+      ],
+      "acteurs": [
+        "roi Agadja",
+        "royaume xwéda"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Histoire de la traite atlantique : chiffres et récits à relier aux institutions de mémoire."
+    },
+    {
+      "id": "BJ-evenement-ghezo-1818",
+      "titre": "Début du règne de Ghézo",
+      "date": "1818-01-01",
+      "date_affichee": "1818-1858",
+      "precision": "annee",
+      "description": "Ghézo règne sur Abomey de 1818 à 1858 et consolide le royaume par des campagnes régulières contre les Yoruba du Nigeria. La liste indicative de l'UNESCO sur la Route de l'Esclave situe la période des pratiques esclavagistes liées au site entre le règne d'Agadja et celui de Ghézo.",
+      "sources": [
+        "S10",
+        "S8",
+        "S64"
+      ],
+      "fin": "1858-12-31",
+      "acteurs": [
+        "Ghézo"
+      ],
+      "regions": [
+        "Abomey"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-evenement-ouidah-1890",
+      "titre": "Traité de Ouidah",
+      "date": "1890-10-01",
+      "date_affichee": "octobre 1890",
+      "precision": "mois",
+      "description": "Signé en octobre 1890, le traité de Ouidah place Porto-Novo et Cotonou sous tutelle française et prévoit le versement d'une pension au roi du Dahomey. Béhanzin et ses partisans n'acceptent pas l'alliance du roi Toffa de Porto-Novo avec la France.",
+      "sources": [
+        "S10"
+      ],
+      "regions": [
+        "Ouidah",
+        "Porto-Novo",
+        "Cotonou"
+      ],
+      "acteurs": [
+        "Béhanzin",
+        "Toffa",
+        "France"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-evenement-behanzin-1894",
+      "titre": "Reddition de Béhanzin et colonie du Dahomey",
+      "date": "1894-01-15",
+      "date_affichee": "15 janvier 1894",
+      "precision": "jour",
+      "description": "Après la défaite militaire du Dahomey face aux troupes françaises, le roi Béhanzin se rend le 15 janvier 1894. Il est déporté, d'abord aux Antilles puis en Algérie où il meurt en 1906. Le territoire devient la colonie du Dahomey, qui dure jusqu'en 1958 selon la chronologie de Wikipédia.",
+      "sources": [
+        "S62",
+        "S10",
+        "S61"
+      ],
+      "acteurs": [
+        "Béhanzin",
+        "armée coloniale française"
+      ],
+      "regions": [
+        "Abomey"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Conquête coloniale : présenter le point de vue des communautés et des historiens béninois en plus des sources françaises."
+    },
+    {
+      "id": "BJ-evenement-apithy-1945",
+      "titre": "Élection de Sourou Migan Apithy à l'Assemblée constituante française",
+      "date": "1945-10-21",
+      "date_affichee": "21 octobre 1945",
+      "precision": "jour",
+      "description": "Sourou Migan Apithy, candidat des Comités électoraux, remporte au premier tour le siège du second collège du Dahomey. Cette élection ouvre la vie politique moderne du pays, avec la création de partis dès 1946.",
+      "sources": [
+        "S10",
+        "S73"
+      ],
+      "acteurs": [
+        "Sourou Migan Apithy"
+      ],
+      "regions": [
+        "Dahomey"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-evenement-republique-1958",
+      "titre": "Proclamation de la République du Dahomey au sein de la Communauté française",
+      "date": "1958-12-04",
+      "date_affichee": "4 décembre 1958",
+      "precision": "jour",
+      "description": "Après un référendum favorable en septembre, la république du Dahomey est proclamée le 4 décembre 1958, avec Sourou Migan Apithy président du Conseil de gouvernement. Le pays reste alors dans la Communauté française, jusqu'à l'indépendance de 1960.",
+      "sources": [
+        "S10"
+      ],
+      "acteurs": [
+        "Sourou Migan Apithy"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-evenement-independance",
+      "titre": "Indépendance du Dahomey",
+      "date": "1960-08-01",
+      "date_affichee": "1er août 1960",
+      "precision": "jour",
+      "description": "Le Dahomey accède à l'indépendance le 1er août 1960, proclamée par Hubert Maga, premier président. Cette date reste la fête nationale du Bénin.",
+      "sources": [
+        "S1",
+        "S2",
+        "S10",
+        "S72"
+      ],
+      "acteurs": [
+        "Hubert Maga"
+      ],
+      "regions": [
+        "Dahomey"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-evenement-coup-1972",
+      "titre": "Coup d'État de Mathieu Kérékou",
+      "date": "1972-10-26",
+      "date_affichee": "26 octobre 1972",
+      "precision": "jour",
+      "description": "Mathieu Kérékou est proclamé président après un coup d'État le 26 octobre 1972. Il dirige le pays jusqu'en 1990 ; le pays devient République populaire du Bénin sous son régime.",
+      "sources": [
+        "S76"
+      ],
+      "acteurs": [
+        "Mathieu Kérékou"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-evenement-conf-nationale",
+      "titre": "Conférence nationale des forces vives de la Nation",
+      "date": "1990-02-01",
+      "date_affichee": "février 1990",
+      "precision": "mois",
+      "description": "Convoquée à Cotonou en février 1990 dans un contexte de crise économique, la Conférence nationale rassemble des représentants de toute la société et ouvre la transition démocratique. L'ouvrage de l'IFRA la présente comme le « berceau » du modèle de conférence nationale africain.",
+      "sources": [
+        "S48",
+        "S51"
+      ],
+      "acteurs": [
+        "Mathieu Kérékou",
+        "Robert Dossou"
+      ],
+      "regions": [
+        "Cotonou"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-evenement-constitution-1990",
+      "titre": "Constitution du 11 décembre 1990",
+      "date": "1990-12-11",
+      "date_affichee": "11 décembre 1990",
+      "precision": "jour",
+      "description": "La constitution du 11 décembre 1990 est le texte issu de la Conférence nationale. Le gouvernement béninois en rappelle les acquis et les débats de réforme trente ans plus tard.",
+      "sources": [
+        "S48"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-evenement-soglo-1991",
+      "titre": "Nicéphore Soglo devient président",
+      "date": "1991-04-04",
+      "date_affichee": "4 avril 1991",
+      "precision": "jour",
+      "description": "Nicéphore Soglo prend la présidence de la République du Bénin le 4 avril 1991 et l'exerce jusqu'au 4 avril 1996. Sa présidence suit la Conférence nationale de 1990 et marque le début du régime pluraliste.",
+      "sources": [
+        "S118",
+        "S51"
+      ],
+      "acteurs": [
+        "Nicéphore Soglo"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-evenement-abomey-unesco",
+      "titre": "Inscription des palais royaux d'Abomey au patrimoine mondial",
+      "date": "1985-01-01",
+      "date_affichee": "1985",
+      "precision": "annee",
+      "description": "Les palais royaux d'Abomey sont inscrits sur la Liste du patrimoine mondial de l'UNESCO en 1985, au titre des critères (iii) et (iv). Une modification mineure des limites est enregistrée en 2007.",
+      "sources": [
+        "S4",
+        "S103"
+      ],
+      "regions": [
+        "Abomey"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-evenement-w-unesco",
+      "titre": "Inscription du complexe W-Arly-Pendjari",
+      "date": "1996-01-01",
+      "date_affichee": "1996",
+      "precision": "annee",
+      "description": "L'UNESCO indique une inscription en 1996 pour ce bien partagé entre le Bénin, le Burkina Faso et le Niger ; les critères retenus sont (ix) et (x).",
+      "sources": [
+        "S5"
+      ],
+      "regions": [
+        "Atacora"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-evenement-koutammakou-unesco",
+      "titre": "Inscription du Koutammakou",
+      "date": "2004-01-01",
+      "date_affichee": "2004",
+      "precision": "annee",
+      "description": "Le Koutammakou, pays des Batammariba, est inscrit en 2004 avec les critères (v) et (vi). La page UNESCO indique que l'ensemble couvre le Togo et le Bénin.",
+      "sources": [
+        "S3"
+      ],
+      "regions": [
+        "Atacora"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-evenement-porte-non-retour",
+      "titre": "Inauguration de la Porte du Non-Retour à Ouidah",
+      "date": "1995-11-30",
+      "date_affichee": "30 novembre 1995",
+      "precision": "jour",
+      "description": "Le monument, érigé sur la plage de Ouidah, est inauguré le 30 novembre 1995 par le président Nicéphore Soglo et le directeur général de l'UNESCO Federico Mayor, dans le cadre de l'Année internationale de la tolérance.",
+      "sources": [
+        "S50"
+      ],
+      "regions": [
+        "Ouidah"
+      ],
+      "acteurs": [
+        "Nicéphore Soglo",
+        "Federico Mayor"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Lieu de mémoire de la traite."
+    },
+    {
+      "id": "BJ-evenement-zinsou-2005",
+      "titre": "Lancement de la Fondation Zinsou à Cotonou",
+      "date": "2005-06-01",
+      "date_affichee": "juin 2005",
+      "precision": "mois",
+      "description": "Marie-Cécile Zinsou lance en juin 2005 la Fondation Zinsou, première structure béninoise consacrée à l'art contemporain. Elle ouvre un musée à Ouidah en novembre 2013.",
+      "sources": [
+        "S104"
+      ],
+      "acteurs": [
+        "Marie-Cécile Zinsou"
+      ],
+      "regions": [
+        "Cotonou"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-evenement-gelede-2008",
+      "titre": "Inscription du Gelede sur la Liste représentative",
+      "date": "2008-01-01",
+      "date_affichee": "2008",
+      "precision": "annee",
+      "description": "Le patrimoine oral du Gelede est inscrit en 2008 sur la Liste représentative du patrimoine culturel immatériel de l'humanité, après une proclamation en 2001. C'est l'unique élément inscrit pour le Bénin, qu'il partage avec le Nigeria et le Togo.",
+      "sources": [
+        "S6",
+        "S7"
+      ],
+      "acteurs": [
+        "communauté yoruba-nago"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-evenement-ratification-ich",
+      "titre": "Ratification de la Convention de 2003 pour la sauvegarde du patrimoine immatériel",
+      "date": "2012-04-17",
+      "date_affichee": "17 avril 2012",
+      "precision": "jour",
+      "description": "Le Bénin ratifie la Convention de l'UNESCO pour la sauvegarde du patrimoine culturel immatériel le 17 avril 2012, selon la page de l'État partie.",
+      "sources": [
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-evenement-loi-restitution",
+      "titre": "Loi française sur la restitution de biens culturels au Bénin",
+      "date": "2020-12-24",
+      "date_affichee": "24 décembre 2020",
+      "precision": "jour",
+      "description": "Le Parlement français adopte le 24 décembre 2020 une loi confirmant la restitution définitive de 26 œuvres des trésors royaux d'Abomey conservées au musée du quai Branly. La mission avait été préparée à partir du rapport de Felwine Sarr et Bénédicte Savoy remis en novembre 2018.",
+      "sources": [
+        "S49"
+      ],
+      "acteurs": [
+        "France",
+        "Bénin"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-evenement-restitution-ceremonie",
+      "titre": "Cérémonie de restitution des 26 œuvres au musée du quai Branly",
+      "date": "2021-10-27",
+      "date_affichee": "27 octobre 2021",
+      "precision": "jour",
+      "description": "Une cérémonie se tient le 27 octobre 2021 au musée du quai Branly-Jacques Chirac pour la restitution de 26 œuvres des trésors royaux d'Abomey.",
+      "sources": [
+        "S49"
+      ],
+      "acteurs": [
+        "France",
+        "Bénin"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-evenement-restitution-transfert",
+      "titre": "Signature du transfert de propriété des trésors d'Abomey",
+      "date": "2021-11-09",
+      "date_affichee": "9 novembre 2021",
+      "precision": "jour",
+      "description": "Le 9 novembre 2021, au palais de l'Élysée, les présidents français et béninois signent l'acte de transfert de propriété qui finalise la restitution des 26 œuvres. Le retour au Bénin s'ensuit.",
+      "sources": [
+        "S49"
+      ],
+      "acteurs": [
+        "Emmanuel Macron",
+        "Patrice Talon"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-evenement-dahomey-film",
+      "titre": "Dahomey de Mati Diop, Ours d'or à la Berlinale",
+      "date": "2024-02-18",
+      "date_affichee": "2024",
+      "precision": "annee",
+      "description": "Le documentaire Dahomey de Mati Diop, qui retrace le retour au Bénin en 2021 de 26 trésors royaux, est présenté à la Berlinale 2024 le 18 février et remporte l'Ours d'or.",
+      "sources": [
+        "S111",
+        "S49"
+      ],
+      "acteurs": [
+        "Mati Diop"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-evenement-gaani-2025",
+      "titre": "Édition 2025 de la Gaani dans le nouveau palais de Nikki",
+      "date": "2025-09-01",
+      "date_affichee": "septembre 2025",
+      "precision": "mois",
+      "description": "Les Baatonu, Boo et Peuls célèbrent la Gaani 2025 dans une nouvelle arène et un nouveau palais royal construits par l'État à Nikki. Le ministre de la Culture annonce l'élaboration d'un protocole pour donner une dimension internationale aux grandes fêtes culturelles.",
+      "sources": [
+        "S45"
+      ],
+      "regions": [
+        "Nikki"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-evenement-vodun-2026",
+      "titre": "Vodun Days 2026 à Ouidah",
+      "date": "2026-01-08",
+      "date_affichee": "8-10 janvier 2026",
+      "precision": "jour",
+      "description": "Du 8 au 10 janvier 2026, Ouidah accueille les Vodun Days, avec cérémonies, sorties de masques, concerts sur la plage et consultation annuelle du Fâ, qui a désigné le signe Losso sa pour le Bénin.",
+      "sources": [
+        "S47"
+      ],
+      "fin": "2026-01-10",
+      "regions": [
+        "Ouidah"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Cérémonies religieuses vivantes ; relier à la parole des pratiquants."
+    }
+  ],
+  "oeuvres": [
+    {
+      "id": "BJ-oeuvre-bocio",
+      "titre": "Bocio à visages opposés",
+      "type": "sculpture",
+      "description": "Ce bocio, objet de pouvoir de la tradition fon, est fait de bois, d'os, de dents, de fil de fer, de matières organiques appliquées et d'un fragment textile. Le Metropolitan Museum le date de la fin du XIXe au milieu du XXe siècle et l'attribue à un artiste et spécialiste rituel fon.",
+      "sources": [
+        "S55"
+      ],
+      "createur": "artiste et spécialiste rituel fon",
+      "communaute": "Fon",
+      "periode": "fin XIXe-milieu XXe siècle",
+      "materiaux": [
+        "bois",
+        "os",
+        "dents",
+        "fil de fer",
+        "matière organique",
+        "textile"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1984.190",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/314781",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access CC0) ; image non reproduite ici.",
+      "sensible": true,
+      "note_sensibilite": "Objet rituel (bocio) : sa présentation et sa reproduction doivent être discutées avec les détenteurs de la tradition.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-oeuvre-asen",
+      "titre": "Asen royal (autel commémoratif) à l'oiseau",
+      "type": "sculpture",
+      "description": "Cet asen est un autel commémoratif en laiton et cuivre, du XIXe siècle, attribué aux artistes de la guilde des Hountondji, qui travaillaient pour la cour du Danhomè. Il est surmonté d'un oiseau. Le Met le conserve au titre de la collection Michael C. Rockefeller.",
+      "sources": [
+        "S56"
+      ],
+      "createur": "artistes de la guilde Hountondji",
+      "communaute": "Fon (royaume du Danhomè)",
+      "periode": "XIXe siècle",
+      "materiaux": [
+        "laiton",
+        "cuivre",
+        "gousse (?)"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1979.206.82",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/312286",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access CC0) ; image non reproduite ici.",
+      "sensible": true,
+      "note_sensibilite": "Autel commémoratif lié au culte des ancêtres royaux.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-oeuvre-makpo",
+      "titre": "Sceptre royal makpo à l'ananas",
+      "type": "sculpture",
+      "description": "Ce sceptre royal makpo, en alliage d'argent et de cuivre monté sur bois, est daté de 1889-1894 : il appartient donc à la fin du royaume du Danhomè. Il est attribué aux artistes de la guilde Hountondji et porte un motif d'ananas.",
+      "sources": [
+        "S57"
+      ],
+      "createur": "artistes de la guilde Hountondji",
+      "communaute": "Fon (royaume du Danhomè)",
+      "periode": "1889-1894",
+      "materiaux": [
+        "alliage argent-cuivre",
+        "bois"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1979.206.73",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/312277",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access CC0) ; image non reproduite ici.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-oeuvre-buffle",
+      "titre": "Figure de buffle",
+      "type": "sculpture",
+      "description": "Cette figure de buffle du XIXe siècle associe argent, fer, alliage de cuivre et bois. Elle est attribuée aux artistes de la guilde Hountondji du royaume du Danhomè. Le Met la détient depuis un don de 2002.",
+      "sources": [
+        "S58"
+      ],
+      "createur": "artistes de la guilde Hountondji",
+      "communaute": "Fon (royaume du Danhomè)",
+      "periode": "XIXe siècle",
+      "materiaux": [
+        "argent",
+        "fer",
+        "alliage de cuivre",
+        "bois"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "2002.517.1",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/318416",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access CC0) ; image non reproduite ici.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-oeuvre-bracelet",
+      "titre": "Bracelet d'argent au parasol et aux tambours",
+      "type": "bijou",
+      "description": "Ce bracelet en argent d'artisan fon, daté du XIXe au milieu du XXe siècle, figure un parasol et des tambours. Il appartient à une série de bijoux fon du Met aux motifs variés (oiseaux, avions, chauves-souris).",
+      "sources": [
+        "S60"
+      ],
+      "createur": "artisan fon",
+      "communaute": "Fon",
+      "periode": "XIXe-milieu XXe siècle",
+      "materiaux": [
+        "argent"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1989.387.11",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/316317",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access CC0) ; image non reproduite ici.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-oeuvre-gelede-masque",
+      "titre": "Casque-masque gẹ̀lẹ̀dẹ́",
+      "type": "masque",
+      "description": "Ce casque-masque en bois est attribué à la culture yoruba de la région de Kétou, au sud-ouest du Nigeria ou au Bénin, et daté du milieu du XXe siècle. Il appartient au monde des masques du Gelede, cérémonie inscrite par l'UNESCO.",
+      "sources": [
+        "S59",
+        "S6"
+      ],
+      "createur": "artiste yoruba",
+      "communaute": "Yoruba-Nago",
+      "periode": "milieu XXe siècle",
+      "materiaux": [
+        "bois"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1990.336",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/316460",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access CC0) ; image non reproduite ici.",
+      "sensible": true,
+      "note_sensibilite": "Masque d'une société rituelle ; provenance exacte (Nigeria ou Bénin) incertaine selon la notice du Met.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-oeuvre-tresors-abomey",
+      "titre": "Les 26 œuvres des trésors royaux d'Abomey",
+      "type": "sculpture",
+      "description": "Ce ensemble de vingt-six œuvres des trésors royaux d'Abomey, conservé au musée du quai Branly-Jacques Chirac, a fait l'objet d'une loi de restitution adoptée le 24 décembre 2020. Elles ont été montrées à Paris fin octobre 2021, puis leur propriété est transférée au Bénin le 9 novembre 2021. Elles sont depuis revenues au Bénin.",
+      "sources": [
+        "S49",
+        "S10"
+      ],
+      "communaute": "Fon (royaume du Danhomè)",
+      "institution": "Musée du quai Branly-Jacques Chirac (jusqu'en 2021), puis République du Bénin",
+      "url_notice": "https://www.elysee.fr/emmanuel-macron/2021/11/14/les-26-oeuvres-des-tresors-royaux-dabomey-sont-revenues-au-benin",
+      "droits": "Œuvres restituées à l'État béninois en 2021 ; pas d'image reproduite ici.",
+      "periode": "XIXe siècle",
+      "sensible": true,
+      "note_sensibilite": "Biens issus d'un pillage colonial ; la présentation doit suivre la parole des institutions béninoises.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-oeuvre-porte-non-retour",
+      "titre": "Porte du Non-Retour (Ouidah)",
+      "type": "architecture",
+      "description": "Cette arche commémorative en béton peint, flanquée de sculptures métalliques, se dresse sur la plage de Ouidah où des captifs étaient embarqués vers les Amériques. Un chemin relie le monument à la place où l'on vendait les personnes asservies. L'œuvre est créditée à Yves Ahouangnimon, Fortuné Bandeira, Dominique Kouas et Yves Apollinaire Pédé.",
+      "sources": [
+        "S50",
+        "S43"
+      ],
+      "createur": "Yves Ahouangnimon, Fortuné Bandeira, Dominique Kouas, Yves Apollinaire Pédé",
+      "periode": "1995",
+      "materiaux": [
+        "béton peint",
+        "métal"
+      ],
+      "institution": "Gouvernement de la République du Bénin (ministère du Tourisme, de la Culture et des Arts) et UNESCO",
+      "url_notice": "https://www.slaverymonuments.org/items/show/1147",
+      "droits": "Notice Contemporary Monuments to the Slave Past ; droits de l'œuvre réservés aux artistes et au ministère.",
+      "sensible": true,
+      "note_sensibilite": "Monument de mémoire de la traite.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-oeuvre-african-philosophy",
+      "titre": "African Philosophy: Myth and Reality (Sur la « philosophie africaine »)",
+      "type": "livre",
+      "description": "Dans ce livre, Paulin Hountondji critique l'approche anthropologique qui présente la philosophie africaine comme une pensée collective uniforme, dans la ligne de Tempels. L'ouvrage a eu un fort retentissement dans les débats africains sur les savoirs. L'hommage de l'African Studies Review le qualifie d'« essentiellement révolutionnaire ».",
+      "sources": [
+        "S53"
+      ],
+      "createur": "Paulin Hountondji",
+      "periode": "1976-1977",
+      "institution": "Ouvrage publié (éditions françaises et anglaises)",
+      "url_notice": "https://www.cambridge.org/core/journals/african-studies-review/article/remembering-paulin-hountondji-the-zairian-interlude/4064F29A0310A958F3288CAB030098E1",
+      "droits": "Ouvrage sous droits ; référence via un article en accès libre.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-oeuvre-dahomey-film",
+      "titre": "Dahomey (film de Mati Diop)",
+      "type": "film",
+      "description": "Documentaire franco-sénégalais-béninois de 68 minutes sorti en 2024, Dahomey retrace le rapatriement au Bénin, en 2021, de 26 trésors royaux détenus par la France depuis l'époque coloniale. Il a reçu l'Ours d'or à la Berlinale 2024. La musique est de Wally Badarou et Dean Blunt.",
+      "sources": [
+        "S111",
+        "S49"
+      ],
+      "createur": "Mati Diop",
+      "periode": "2024",
+      "institution": "Les Films du Bal ; distribution Les Films du losange",
+      "url_notice": "https://fr.wikipedia.org/wiki/Dahomey_(film)",
+      "droits": "Film sous droits de ses producteurs.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-oeuvre-poly-rythmo",
+      "titre": "Œuvre discographique de l'Orchestre Poly-Rythmo de Cotonou",
+      "type": "musique",
+      "description": "Formé en 1968, le groupe a enregistré plus de cinq cents chansons entre 1969 et 1983, une cinquantaine de LP et une centaine de 45 tours. Son style associe afrobeat, funk et soukous à des rythmes vaudous, et des compilations parues depuis 2003 ont élargi son public.",
+      "sources": [
+        "S109",
+        "S110"
+      ],
+      "createur": "Orchestre Poly-Rythmo de Cotonou",
+      "periode": "1969-1983 (période la plus prolifique)",
+      "institution": "Orchestre Poly-Rythmo de Cotonou ; rééditions Soundway Records, Analog Africa",
+      "url_notice": "https://fr.wikipedia.org/wiki/Orchestre_Poly-Rythmo_de_Cotonou",
+      "droits": "Enregistrements sous droits de leurs ayants droit.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "proverbes": [
+    {
+      "id": "BJ-proverbe-tambour-guerre",
+      "langue": "fon (royaume du Dahomey)",
+      "traduction": "Là où il y a la guerre, il y aura le tambour.",
+      "sens": "Le proverbe associe le tambour à la guerre : l'instrument accompagne les moments d'affrontement. Sens proposé par MonBaobab, non glosé par la source.",
+      "publication": "Richard F. Burton (compil.), Wit and Wisdom from West Africa; or, A Book of Proverbial Philosophy, Idioms, Enigmas, and Laconisms, Londres, Tinsley Brothers, 1865 (numérisation Internet Archive : witandwisdomfro01burtgoog), p. 446, n° 7 (« Miscellaneous phrases and expressions »).",
+      "note": "Recueilli par Frederick E. Forbes lors de missions à Abomey en 1849-1850 (Dahomey and the Dahomans, Londres, Longmans, 1851) et repris en anglais par Burton ; le texte fon d'origine n'y figure pas. La traduction française est celle de MonBaobab depuis l'anglais de 1865, à relire par un locuteur fon.",
+      "sources": [
+        "S54"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-proverbe-vendre-crier",
+      "langue": "fon (royaume du Dahomey)",
+      "traduction": "Le plus sûr moyen de vendre est de crier ses marchandises dans les rues.",
+      "sens": "On se fait connaître en proposant soi-même ce que l'on a. Sens proposé par MonBaobab, non glosé par la source.",
+      "publication": "Richard F. Burton (compil.), Wit and Wisdom from West Africa; or, A Book of Proverbial Philosophy, Idioms, Enigmas, and Laconisms, Londres, Tinsley Brothers, 1865 (numérisation Internet Archive : witandwisdomfro01burtgoog), p. 446, n° 8.",
+      "note": "Recueilli par Frederick E. Forbes lors de missions à Abomey en 1849-1850 (Dahomey and the Dahomans, Londres, Longmans, 1851) et repris en anglais par Burton ; le texte fon d'origine n'y figure pas. La traduction française est celle de MonBaobab depuis l'anglais de 1865, à relire par un locuteur fon.",
+      "sources": [
+        "S54"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-proverbe-paix-guerre-regard",
+      "langue": "fon (royaume du Dahomey)",
+      "traduction": "En temps de paix, le regard du guerrier vagabonde dans toutes les directions ; en temps de guerre, il se fixe sur un seul point.",
+      "sens": "Burton glose : « La force doit être concentrée » ; en temps de guerre, l'attention doit se concentrer sur un seul but.",
+      "publication": "Richard F. Burton (compil.), Wit and Wisdom from West Africa; or, A Book of Proverbial Philosophy, Idioms, Enigmas, and Laconisms, Londres, Tinsley Brothers, 1865 (numérisation Internet Archive : witandwisdomfro01burtgoog), p. 446, n° 9 (note de Burton : « Force should be concentrated »).",
+      "note": "Recueilli par Frederick E. Forbes lors de missions à Abomey en 1849-1850 (Dahomey and the Dahomans, Londres, Longmans, 1851) et repris en anglais par Burton ; le texte fon d'origine n'y figure pas. La traduction française est celle de MonBaobab depuis l'anglais de 1865, à relire par un locuteur fon.",
+      "sources": [
+        "S54"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-proverbe-serpent-parole",
+      "langue": "fon (royaume du Dahomey)",
+      "traduction": "Bien que le serpent perde ses perles et mue, il ne peut changer de couleur ; je ne peux pas non plus changer ma parole.",
+      "sens": "Une parole donnée ne se reprend pas, comme la couleur du serpent ne change pas. Sens proposé par MonBaobab d'après la formule.",
+      "publication": "Richard F. Burton (compil.), Wit and Wisdom from West Africa; or, A Book of Proverbial Philosophy, Idioms, Enigmas, and Laconisms, Londres, Tinsley Brothers, 1865 (numérisation Internet Archive : witandwisdomfro01burtgoog), p. 447, n° 12.",
+      "note": "Recueilli par Frederick E. Forbes lors de missions à Abomey en 1849-1850 (Dahomey and the Dahomans, Londres, Longmans, 1851) et repris en anglais par Burton ; le texte fon d'origine n'y figure pas. La traduction française est celle de MonBaobab depuis l'anglais de 1865, à relire par un locuteur fon.",
+      "sources": [
+        "S54"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-proverbe-haricots",
+      "langue": "fon (royaume du Dahomey)",
+      "traduction": "Les haricots, même séchés au feu ardent, peuvent être retirés et mangés en y introduisant le doigt.",
+      "sens": "Même une situation qui paraît difficile à saisir peut être maîtrisée avec le bon geste. Sens proposé par MonBaobab, non glosé par la source.",
+      "publication": "Richard F. Burton (compil.), Wit and Wisdom from West Africa; or, A Book of Proverbial Philosophy, Idioms, Enigmas, and Laconisms, Londres, Tinsley Brothers, 1865 (numérisation Internet Archive : witandwisdomfro01burtgoog), p. 447, n° 13.",
+      "note": "Recueilli par Frederick E. Forbes lors de missions à Abomey en 1849-1850 (Dahomey and the Dahomans, Londres, Longmans, 1851) et repris en anglais par Burton ; le texte fon d'origine n'y figure pas. La traduction française est celle de MonBaobab depuis l'anglais de 1865, à relire par un locuteur fon.",
+      "sources": [
+        "S54"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-proverbe-yoruba-bouche",
+      "langue": "yoruba",
+      "traduction": "Une bouche qui ne tient pas à la bouche, une lèvre qui ne tient pas à la lèvre, apportent des ennuis aux mâchoires.",
+      "sens": "Burton y voit l'équivalent de « la parole est d'argent, le silence est d'or » : savoir se taire évite les ennuis.",
+      "publication": "Richard F. Burton (compil.), Wit and Wisdom from West Africa; or, A Book of Proverbial Philosophy, Idioms, Enigmas, and Laconisms, Londres, Tinsley Brothers, 1865 (numérisation Internet Archive : witandwisdomfro01burtgoog), p. 180, n° 1 (chap. V, « Proverbs in the Yoruba language »).",
+      "note": "Proverbe yoruba noté par le missionnaire T. J. Bowen (Grammar and Dictionary of the Yoruba Language, Smithsonian Institution, 1858), repris par Burton en graphie sans marques tonales ; recueilli dans le monde yoruba du Nigeria (Abeokuta) et non au Bénin spécifiquement. Orthographe de 1858, à moderniser ; lecture OCR de la numérisation.",
+      "sources": [
+        "S54"
+      ],
+      "texte_original": "Ete i mo ete ni iko oran ba ereke.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "BJ-proverbe-yoruba-sage",
+      "langue": "yoruba",
+      "traduction": "Un sage (ou conseiller) qui connaît les proverbes règle vite les difficultés.",
+      "sens": "Connaître les proverbes aide à apaiser les conflits.",
+      "publication": "Richard F. Burton (compil.), Wit and Wisdom from West Africa; or, A Book of Proverbial Philosophy, Idioms, Enigmas, and Laconisms, Londres, Tinsley Brothers, 1865 (numérisation Internet Archive : witandwisdomfro01burtgoog), p. 180, n° 2.",
+      "note": "Proverbe yoruba noté par le missionnaire T. J. Bowen (Grammar and Dictionary of the Yoruba Language, Smithsonian Institution, 1858), repris par Burton en graphie sans marques tonales ; recueilli dans le monde yoruba du Nigeria (Abeokuta) et non au Bénin spécifiquement. Orthographe de 1858, à moderniser ; lecture OCR de la numérisation.",
+      "sources": [
+        "S54"
+      ],
+      "texte_original": "Amoran mo owe, i ladza (or ni ilaju) oran.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "titre": "Wikidata Q962 (Bénin)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q962",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S2",
+      "titre": "Bénin — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/B%C3%A9nin",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S3",
+      "titre": "Koutammakou, le pays des Batammariba",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/1140",
+      "type": "unesco",
+      "licence": "CC BY-SA IGO 3.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S4",
+      "titre": "Palais royaux d'Abomey",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/323",
+      "type": "unesco",
+      "licence": "CC BY-SA IGO 3.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S5",
+      "titre": "Complexe W-Arly-Pendjari",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/749",
+      "type": "unesco",
+      "licence": "CC BY-SA IGO 3.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S6",
+      "titre": "Oral heritage of Gelede (RL, 2008)",
+      "institution": "UNESCO — Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/oral-heritage-of-gelede-00002",
+      "type": "unesco",
+      "licence": "CC BY-SA IGO 3.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S7",
+      "titre": "Benin — UNESCO Intangible Cultural Heritage (page État partie)",
+      "institution": "UNESCO — Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/state/benin-BJ",
+      "type": "unesco",
+      "licence": "CC BY-SA IGO 3.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S8",
+      "titre": "Sites marquants de la Route de l'Esclave au Bénin (liste indicative, réf. 6512)",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/listesindicatives/6512/",
+      "type": "unesco",
+      "licence": "CC BY-SA IGO 3.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S9",
+      "titre": "Langues au Bénin — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Langues_au_B%C3%A9nin",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S10",
+      "titre": "Histoire du Bénin — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Histoire_du_B%C3%A9nin",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S11",
+      "titre": "Glottolog — Fon (fonn1241)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/fonn1241",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S12",
+      "titre": "Glottolog — Yoruba (yoru1245)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/yoru1245",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S13",
+      "titre": "Glottolog — Baatonum (bariba) (baat1238)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/baat1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S14",
+      "titre": "Glottolog — Gun (gunn1250)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/gunn1250",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S15",
+      "titre": "Glottolog — Aja (Bénin) (ajab1235)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/ajab1235",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S16",
+      "titre": "Glottolog — Ayizo Gbe (ayiz1245)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/ayiz1245",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S17",
+      "titre": "Glottolog — Western Xwla Gbe (west2456)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/west2456",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S18",
+      "titre": "Glottolog — Gen (genn1243)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/genn1243",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S19",
+      "titre": "Glottolog — Ditammari (dita1238)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/dita1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S20",
+      "titre": "Glottolog — Dendi (Bénin) (dend1243)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/dend1243",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S21",
+      "titre": "Glottolog — Anii (anii1245)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/anii1245",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S22",
+      "titre": "Glottolog — Waama (waam1244)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/waam1244",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S23",
+      "titre": "Glottolog — Yom (yomm1242)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/yomm1242",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S24",
+      "titre": "Glottolog — Borgu Fulfulde (peul de Borgou) (borg1235)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/borg1235",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S25",
+      "titre": "Glottolog — Tem (temm1241)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/temm1241",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S26",
+      "titre": "Glottolog — Lukpa (lokpa) (lukp1238)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/lukp1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S27",
+      "titre": "Glottolog — Français (stan1290)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1290",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S28",
+      "titre": "Fon (langue) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Fon_(langue)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S29",
+      "titre": "Yoruba (langue) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Yoruba_(langue)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S30",
+      "titre": "Bariba (langue) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Bariba_(langue)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S31",
+      "titre": "Gun-gbe — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Gungbe",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S32",
+      "titre": "Aja-gbe — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Adja",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S33",
+      "titre": "Ayizo (langue) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Ayizo_(langue)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S34",
+      "titre": "Xwla (langue) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Xwla_(langue)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S35",
+      "titre": "Ditammari — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Ditammari",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S36",
+      "titre": "Dendi (langue) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Dendi_(langue)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S37",
+      "titre": "Anii (langue) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Anii_(langue)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S38",
+      "titre": "Waama (langue) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Waama_(langue)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S39",
+      "titre": "Yom (langue) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Yom_(langue)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S40",
+      "titre": "Peul (langue) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Peul_(langue)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S41",
+      "titre": "Tem (langue) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Tem_(langue)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S42",
+      "titre": "Lokpa (langue) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Lokpa_(langue)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S43",
+      "titre": "Destination Bénin : Ouidah, la terre hxuéda, ville à vocation historique, culturelle, cultuelle et touristique",
+      "institution": "Gouvernement de la République du Bénin",
+      "url": "https://www.gouv.bj/article/1055/",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2020
+    },
+    {
+      "id": "S44",
+      "titre": "À la découverte de la Gaani, richesse culturelle et touristique du Bénin",
+      "institution": "Gouvernement de la République du Bénin",
+      "url": "https://www.gouv.bj/article/405/a-la-decouverte-de-la-gaani-richesse-culturelle-et-touristique-du-benin-bientot-revalorisee-par-le-gouvernement/",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2019
+    },
+    {
+      "id": "S45",
+      "titre": "Gaani 2025 : le Gouvernement marque sa solidarité aux communautés Baatonu, Boo et Peulh",
+      "institution": "Gouvernement de la République du Bénin",
+      "url": "https://www.gouv.bj/article/3236/gaani-2025-gouvernement-marque-solidarite-communautes-baatonu-peulh/",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2025
+    },
+    {
+      "id": "S46",
+      "titre": "Vodun Days 2025 : les Zangbéto en démonstration sur l'esplanade du Fort français",
+      "institution": "Gouvernement de la République du Bénin",
+      "url": "https://www.gouv.bj/article/2945/vodun-days-2025-zangbeto-demonstration-esplanade-fort-francais-lieu-charge-histoire/",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2025
+    },
+    {
+      "id": "S47",
+      "titre": "Succès éclatant des Vodun Days 2026",
+      "institution": "Gouvernement de la République du Bénin",
+      "url": "https://www.gouv.bj/article/3406/succes-eclatant-vodun-days-2026-le-benin-assume-son-statut-de-grande-nation-de-culture-et-de-traditions-ancestrales/",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S48",
+      "titre": "Gouvernement face à la presse : réformes politiques, 30 ans après la Conférence nationale",
+      "institution": "Gouvernement de la République du Bénin",
+      "url": "https://www.gouv.bj/article/514/gouvernement-face-a-la-presse-le-ministre-alain-orounla-parle-des-reformes-politiques-30-ans-apres-la-conference-nationale/",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2020
+    },
+    {
+      "id": "S49",
+      "titre": "Les 26 œuvres des trésors royaux d'Abomey sont revenues au Bénin",
+      "institution": "Présidence de la République française (Élysée)",
+      "url": "https://www.elysee.fr/emmanuel-macron/2021/11/14/les-26-oeuvres-des-tresors-royaux-dabomey-sont-revenues-au-benin",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2021
+    },
+    {
+      "id": "S50",
+      "titre": "La Porte du Non Retour (Ouidah, Republic of Benin)",
+      "institution": "Contemporary Monuments to the Slave Past (Monument Lab / projet CMSP)",
+      "url": "https://www.slaverymonuments.org/items/show/1147",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S51",
+      "titre": "Bénin and the National Conference (The national conference as a model for democratic transition : Benin and Nigeria)",
+      "institution": "OpenEdition Books / IFRA-Nigeria",
+      "url": "https://books.openedition.org/ifra/3352",
+      "type": "livre",
+      "licence": "tous droits réservés (accès libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S52",
+      "titre": "Lait et fromage au Bénin",
+      "institution": "Mémoire Online — Faculté des sciences agronomiques (Bénin)",
+      "url": "https://www.memoireonline.com/04/10/3418/lait-et-fromage-au-Benin.html",
+      "type": "universite",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "auteur": "Séro Kora",
+      "annee": 2005
+    },
+    {
+      "id": "S53",
+      "titre": "Remembering Paulin Hountondji: The Zairian Interlude",
+      "institution": "African Studies Review (Cambridge University Press)",
+      "url": "https://www.cambridge.org/core/journals/african-studies-review/article/remembering-paulin-hountondji-the-zairian-interlude/4064F29A0310A958F3288CAB030098E1",
+      "type": "article_scientifique",
+      "licence": "CC BY (accès libre)",
+      "consulte_le": "2026-11-21",
+      "annee": 2024
+    },
+    {
+      "id": "S54",
+      "titre": "Wit and Wisdom from West Africa (numérisation Internet Archive)",
+      "institution": "Internet Archive",
+      "url": "https://archive.org/details/witandwisdomfro01burtgoog",
+      "type": "livre",
+      "licence": "domaine public",
+      "consulte_le": "2026-11-21",
+      "auteur": "Richard Francis Burton",
+      "annee": 1865
+    },
+    {
+      "id": "S55",
+      "titre": "Bocio with opposing faces — The Met (notice 314781)",
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "url": "https://www.metmuseum.org/art/collection/search/314781",
+      "type": "musee",
+      "licence": "CC0 pour les données Open Access ; droits variables selon l'objet",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S56",
+      "titre": "Royal asen (commemorative altar) with bird — The Met (notice 312286)",
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "url": "https://www.metmuseum.org/art/collection/search/312286",
+      "type": "musee",
+      "licence": "CC0 pour les données Open Access ; droits variables selon l'objet",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S57",
+      "titre": "Makpo royal scepter with pineapple — The Met (notice 312277)",
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "url": "https://www.metmuseum.org/art/collection/search/312277",
+      "type": "musee",
+      "licence": "CC0 pour les données Open Access ; droits variables selon l'objet",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S58",
+      "titre": "Buffalo figure — The Met (notice 318416)",
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "url": "https://www.metmuseum.org/art/collection/search/318416",
+      "type": "musee",
+      "licence": "CC0 pour les données Open Access ; droits variables selon l'objet",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S59",
+      "titre": "Gẹ̀lẹ̀dẹ́ helmet mask — The Met (notice 316460)",
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "url": "https://www.metmuseum.org/art/collection/search/316460",
+      "type": "musee",
+      "licence": "CC0 pour les données Open Access ; droits variables selon l'objet",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S60",
+      "titre": "Armband with Umbrella and Drums — The Met (notice 316317)",
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "url": "https://www.metmuseum.org/art/collection/search/316317",
+      "type": "musee",
+      "licence": "CC0 pour les données Open Access ; droits variables selon l'objet",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S61",
+      "titre": "Wikidata Q2366953 (Béhanzin)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q2366953",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S62",
+      "titre": "Béhanzin — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/B%C3%A9hanzin",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S63",
+      "titre": "Wikidata Q880285 (Ghézo)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q880285",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S64",
+      "titre": "Ghézo — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Gh%C3%A9zo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S65",
+      "titre": "Wikidata Q718588 (Glélé)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q718588",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S66",
+      "titre": "Glélé — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Gl%C3%A9l%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S67",
+      "titre": "Wikidata Q5647926 (Tassin Hangbè)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q5647926",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S68",
+      "titre": "Tassin Hangbè — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Tassin_Hangb%C3%A8",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S69",
+      "titre": "Wikidata Q58818197 (Na Agontimé)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q58818197",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S70",
+      "titre": "Na Agontimé — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Na_Agontim%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S71",
+      "titre": "Wikidata Q336242 (Hubert Maga)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q336242",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S72",
+      "titre": "Hubert Maga — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Hubert_Maga",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S73",
+      "titre": "Wikidata Q718225 (Sourou Migan Apithy)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q718225",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S74",
+      "titre": "Sourou Migan Apithy — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Sourou_Migan_Apithy",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S75",
+      "titre": "Wikidata Q206719 (Mathieu Kérékou)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q206719",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S76",
+      "titre": "Mathieu Kérékou — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mathieu_K%C3%A9r%C3%A9kou",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S77",
+      "titre": "Wikidata Q4979540 (Rosine Vieyra Soglo)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q4979540",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S78",
+      "titre": "Rosine Vieyra Soglo — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Rosine_Vieyra_Soglo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S79",
+      "titre": "Wikidata Q712288 (Paulin Hountondji)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q712288",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S80",
+      "titre": "Wikidata Q231276 (Angélique Kidjo)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q231276",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S81",
+      "titre": "Angélique Kidjo — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Ang%C3%A9lique_Kidjo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S82",
+      "titre": "Wikidata Q5574398 (Gnonnas Pedro)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q5574398",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S83",
+      "titre": "Gnonnas Pedro — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Gnonnas_Pedro",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S84",
+      "titre": "Wikidata Q17318783 (Marie-Cécile Zinsou)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q17318783",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S85",
+      "titre": "Wikidata Q320622 (Romuald Hazoumè)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q320622",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S86",
+      "titre": "Romuald Hazoumè — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Romuald_Hazoum%C3%A8",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S87",
+      "titre": "Wikidata Q1376761 (Meschac Gaba)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q1376761",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S88",
+      "titre": "Meschac Gaba — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Meschac_Gaba",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S89",
+      "titre": "Wikidata Q5004979 (Béatrice Lalinon Gbado)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q5004979",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S90",
+      "titre": "Béatrice Lalinon Gbado — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/B%C3%A9atrice_Lalinon_Gbado",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S91",
+      "titre": "Wikidata Q328631 (Odile Ahouanwanou)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q328631",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S92",
+      "titre": "Odile Ahouanwanou — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Odile_Ahouanwanou",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S93",
+      "titre": "Wikidata Q6762653 (Marie-Élise Gbèdo)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q6762653",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S94",
+      "titre": "Marie-Élise Gbèdo — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Marie-%C3%89lise_Gb%C3%A8do",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S95",
+      "titre": "Wikidata Q150207 (Stéphane Sessègnon)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q150207",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S96",
+      "titre": "Stéphane Sessègnon — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/St%C3%A9phane_Sess%C3%A8gnon",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S97",
+      "titre": "Ganvié — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Ganvi%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S98",
+      "titre": "Nikki (commune) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Nikki_(commune)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S99",
+      "titre": "Musée Honmè — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Honm%C3%A8",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S100",
+      "titre": "Musée Da-Silva — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Da-Silva",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S101",
+      "titre": "Fort portugais de Ouidah — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Fort_portugais_de_Ouidah",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S102",
+      "titre": "Musée d'histoire de Ouidah — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_d%27histoire_de_Ouidah",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S103",
+      "titre": "Musée historique d'Abomey — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_historique_d%27Abomey",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S104",
+      "titre": "Fondation Zinsou — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Fondation_Zinsou",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S105",
+      "titre": "Zangbéto — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Zangbeto",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S106",
+      "titre": "Egungun — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Egungun",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S107",
+      "titre": "Fête de la Gaani — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/F%C3%AAte_de_la_Gaani",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S108",
+      "titre": "Cuisine béninoise — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Cuisine_b%C3%A9ninoise",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S109",
+      "titre": "Orchestre Poly-Rythmo de Cotonou — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Orchestre_Poly-Rythmo_de_Cotonou",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S110",
+      "titre": "Musique béninoise — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Musique_b%C3%A9ninoise",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S111",
+      "titre": "Dahomey (film) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Dahomey_(film)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S112",
+      "titre": "Tata Somba — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Tata_Somba",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S113",
+      "titre": "Fons (peuple) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Fons_(peuple)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S114",
+      "titre": "Amazones du Dahomey — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Amazones_du_Dahomey",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S115",
+      "titre": "Ifá — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/If%C3%A1",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S116",
+      "titre": "Parc national de la Pendjari — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Parc_national_de_la_Pendjari",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S117",
+      "titre": "Grand-Popo — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Grand-Popo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S118",
+      "titre": "Nicéphore Soglo — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Nic%C3%A9phore_Soglo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    }
+  ]
+}

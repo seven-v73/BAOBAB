@@ -1,0 +1,4029 @@
+{
+  "code": "GN",
+  "nom": "Guinée",
+  "region": "ouest",
+  "wikidata": "Q1006",
+  "maj": "2026-11-21",
+  "pays": {
+    "nom_officiel": "République de Guinée",
+    "capitale": "Conakry",
+    "langues_officielles": [
+      "français",
+      "langues nationales (depuis la Constitution de 2025)"
+    ],
+    "langues_nationales": [
+      "soussou",
+      "nalou",
+      "mikhifore",
+      "balante",
+      "baga",
+      "téméné",
+      "landouma",
+      "mandenyi",
+      "tanda",
+      "peul (pular)",
+      "badiaranké",
+      "soninké (sarakolé)",
+      "diakhanké",
+      "coniagui",
+      "bassari",
+      "foulakounda",
+      "mandinka",
+      "maninka (malinké)",
+      "kouranko",
+      "toucouleur",
+      "jalonké",
+      "wassoulounké",
+      "sankaranké",
+      "toma",
+      "guerzé (kpelle)",
+      "kissi",
+      "mano",
+      "lélé",
+      "kono",
+      "konianké",
+      "manya"
+    ],
+    "population": {
+      "valeur": 17521167,
+      "annee": 2025,
+      "source": "S11"
+    },
+    "superficie_km2": 245857,
+    "monnaie": "Franc guinéen (GNF)",
+    "resume": "La Guinée est un pays d'Afrique de l'Ouest ouvert sur l'Atlantique, dont la capitale est Conakry. Ses quatre régions naturelles, Guinée maritime, Moyenne-Guinée avec le massif du Fouta Djallon, Haute-Guinée et Guinée forestière, abritent des communautés très diverses (soussou, peule, malinké, kissi, kpelle, toma, baga, bassari et bien d'autres) et plus d'une trentaine de langues nationales. Son territoire a connu l'empire du Mali, dont la capitale supposée Niani se trouve aujourd'hui en Haute-Guinée, puis l'imamat théocratique du Fouta Djallon, la résistance de Samory Touré et la colonisation française. Premier pays francophone d'Afrique de l'Ouest à voter « non » au référendum de 1958, il proclame son indépendance le 2 octobre 1958. Il compte un bien du patrimoine mondial (la réserve du mont Nimba, partagée avec la Côte d'Ivoire) et un élément du patrimoine culturel immatériel (l'espace culturel du Sosso-Bala).",
+    "sources": [
+      "S11",
+      "S15",
+      "S16",
+      "S2",
+      "S4",
+      "S12",
+      "S20"
+    ]
+  },
+  "langues": [
+    {
+      "id": "GN-langue-francais",
+      "nom": "Français",
+      "nom_local": "Français",
+      "description": "Le français est la langue de travail de l'administration, de l'enseignement et des médias, héritée de la période coloniale. Après l'indépendance, le régime a cherché dans les années 1960 et 1970 à promouvoir les langues guinéennes à l'école, puis le français est redevenu seule langue d'enseignement. La Constitution de 2025 le place à égalité avec les langues nationales.",
+      "famille": "Indo-européen, roman (Glottolog : Indo-European, Italic, Romance)",
+      "glottocode": "stan1290",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "sources": [
+        "S77",
+        "S12",
+        "S19",
+        "S20"
+      ],
+      "wikidata": "Q150",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Tout le pays"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode stan1290 lu sur glottolog.org (page de la langue)."
+      }
+    },
+    {
+      "id": "GN-langue-pular",
+      "nom": "Pular (peul)",
+      "nom_local": "Pular",
+      "description": "Le pular est la variété de peul parlée en Guinée, surtout en Moyenne-Guinée autour du Fouta Djallon. Il fait partie d'un vaste ensemble dialectal ouest-africain. Il s'écrit en alphabet latin national mais aussi en caractères arabes adaptés (ajami) et en adlam.",
+      "famille": "Atlantique-Congo, Atlantique du Nord-Centre, Fula-Sereer, peul (Glottolog)",
+      "glottocode": "pula1262",
+      "statut_linguistique": [
+        "nationale",
+        "véhiculaire"
+      ],
+      "sources": [
+        "S59",
+        "S12"
+      ],
+      "wikidata": "Q3915357",
+      "ecritures": [
+        "latin",
+        "ajami (arabe)"
+      ],
+      "regions": [
+        "Moyenne-Guinée (Fouta Djallon)",
+        "Basse-Guinée"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode pula1262 lu sur glottolog.org (page de la langue)."
+      }
+    },
+    {
+      "id": "GN-langue-soussou",
+      "nom": "Soussou",
+      "nom_local": "Sosoxui",
+      "description": "Le soussou est la langue des Soussou de la Guinée maritime et de la région de Conakry. Il appartient aux langues mandées, au sein du groupe susu-yalunka. Selon une enquête citée sur Wikipédia, c'est la langue première la plus répandue dans la capitale.",
+      "famille": "Mandé, mandé occidental, Manding-Kpelle, mandé central, susu-yalunka (Glottolog)",
+      "glottocode": "susu1250",
+      "statut_linguistique": [
+        "nationale",
+        "véhiculaire"
+      ],
+      "sources": [
+        "S61",
+        "S12"
+      ],
+      "wikidata": "Q33990",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Guinée maritime",
+        "Conakry"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode susu1250 lu sur glottolog.org (page de la langue)."
+      }
+    },
+    {
+      "id": "GN-langue-maninka",
+      "nom": "Maninka (malinké de l'Est)",
+      "nom_local": "Maninkakan",
+      "description": "Le maninka est la langue mandingue dominante en Haute-Guinée. Il se rattache à l'ensemble manding, issu de l'aire de l'ancien empire du Mali. Il s'écrit en alphabet latin et surtout en n'ko, créé en 1949 par Solomana Kanté pour les langues mandingues.",
+      "famille": "Mandé, mandé occidental, Manding, manding oriental (Glottolog : Eastern Maninkakan)",
+      "glottocode": "east2426",
+      "statut_linguistique": [
+        "nationale",
+        "véhiculaire"
+      ],
+      "sources": [
+        "S60",
+        "S12",
+        "S24"
+      ],
+      "wikidata": "Q11002130",
+      "ecritures": [
+        "latin",
+        "n'ko"
+      ],
+      "regions": [
+        "Haute-Guinée"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode east2426 lu sur glottolog.org (page de la langue)."
+      }
+    },
+    {
+      "id": "GN-langue-konyanka",
+      "nom": "Konyanka (maninka konyanka)",
+      "nom_local": "Konyanka",
+      "description": "Le konianké est une variété de maninka parlée dans la région forestière, notamment autour de Nzérékoré et de Beyla. À Beyla, il dispose même d'une écriture propre, le bhèkan, en plus du n'ko et du latin.",
+      "famille": "Mandé, mandé occidental, Manding, manding oriental, konya-manya (Glottolog)",
+      "glottocode": "kony1250",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "sources": [
+        "S65",
+        "S12"
+      ],
+      "wikidata": "Q11163298",
+      "ecritures": [
+        "latin",
+        "n'ko",
+        "bhèkan"
+      ],
+      "regions": [
+        "Guinée forestière (Nzérékoré, Beyla)"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode kony1250 lu sur glottolog.org (page de la langue)."
+      }
+    },
+    {
+      "id": "GN-langue-kissi",
+      "nom": "Kissi (kissi du Nord)",
+      "nom_local": "Kissi",
+      "description": "Le kissi est parlé dans la zone de Guéckédou et de Kissidougou, en Guinée forestière. C'est une langue atlantique du groupe mel, sans lien de parenté proche avec ses voisines mandées. Il compte parmi les langues utilisées à l'école entre 1966 et 1984.",
+      "famille": "Atlantique-Congo, Mel, Mel méridional, kissi (Glottolog)",
+      "glottocode": "nort2765",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "sources": [
+        "S62",
+        "S12",
+        "S19"
+      ],
+      "wikidata": "Q19921576",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Guinée forestière (Guéckédou, Kissidougou)"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode nort2765 lu sur glottolog.org (page de la langue)."
+      }
+    },
+    {
+      "id": "GN-langue-kpelle",
+      "nom": "Kpelle de Guinée (guerzé)",
+      "nom_local": "Kpwèlè",
+      "description": "Le kpelle de Guinée, appelé guerzé dans l'usage administratif, est la langue des Kpwèlè de la région de Nzérékoré et de Yomou. Le nom « guerzé » vient d'une déformation par les interprètes de l'armée coloniale, selon Portères. La même langue se prolonge au Liberia.",
+      "famille": "Mandé, mandé occidental, mandé du Sud-Ouest, kpelle (Glottolog)",
+      "glottocode": "guin1254",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "sources": [
+        "S63",
+        "S22",
+        "S12"
+      ],
+      "wikidata": "Q11052867",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Guinée forestière (Nzérékoré, Yomou)"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode guin1254 lu sur glottolog.org (page de la langue)."
+      }
+    },
+    {
+      "id": "GN-langue-toma",
+      "nom": "Toma (loma)",
+      "nom_local": "Toma",
+      "description": "Le toma, ou loma, est parlé dans la préfecture de Macenta, où Portères situe le cœur du pays toma, et se prolonge au Liberia. Il fait partie des langues mandées du Sud-Ouest. Il figure parmi les huit langues enseignées entre 1966 et 1984.",
+      "famille": "Mandé, mandé occidental, mandé du Sud-Ouest, mende-loma, loma (Glottolog)",
+      "glottocode": "toma1245",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "sources": [
+        "S64",
+        "S21",
+        "S19"
+      ],
+      "wikidata": "Q11055484",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Guinée forestière (Macenta)"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode toma1245 lu sur glottolog.org (page de la langue)."
+      }
+    },
+    {
+      "id": "GN-langue-yalunka",
+      "nom": "Jalonké (yalunka)",
+      "nom_local": "Jalonke",
+      "description": "Le jalonké, ou yalunka, est une langue mandée proche du soussou. Les Jalonké sont souvent évoqués dans l'histoire du Fouta Djallon, où ils ont précédé l'imamat peul. La langue est aujourd'hui considérée par Glottolog comme non menacée.",
+      "famille": "Mandé, mandé occidental, Manding-Kpelle, mandé central, susu-yalunka (Glottolog)",
+      "glottocode": "yalu1240",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "sources": [
+        "S66",
+        "S6"
+      ],
+      "wikidata": "Q35524",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Fouta Djallon et abords"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode yalu1240 lu sur glottolog.org (page de la langue)."
+      }
+    },
+    {
+      "id": "GN-langue-kuranko",
+      "nom": "Kouranko (kuranko)",
+      "nom_local": "Kuranko",
+      "description": "Le kouranko est une langue du groupe mandingue parlée en Guinée et en Sierra Leone. Il figure sur la liste des langues nationales guinéennes. Glottolog le classe parmi les langues non menacées.",
+      "famille": "Mandé, mandé occidental, Manding-Kpelle, mandé central, manding, mokole (Glottolog)",
+      "glottocode": "kura1250",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "sources": [
+        "S67",
+        "S12"
+      ],
+      "wikidata": "Q3198896",
+      "ecritures": [
+        "latin"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode kura1250 lu sur glottolog.org (page de la langue)."
+      }
+    },
+    {
+      "id": "GN-langue-baga-sitemu",
+      "nom": "Baga sitemu",
+      "nom_local": "Baga Sitemu",
+      "description": "Le baga sitemu est l'une des langues des Baga, installés sur le littoral entre le Rio Nunez et Conakry. Elle appartient aux langues atlantiques septentrionales du groupe mel. Glottolog signale un recul au profit d'autres langues (statut « shifting »).",
+      "famille": "Atlantique-Congo, Mel, Mel septentrional, landumique (Glottolog)",
+      "glottocode": "baga1272",
+      "statut_linguistique": [
+        "nationale",
+        "menacée"
+      ],
+      "sources": [
+        "S68",
+        "S23",
+        "S12"
+      ],
+      "wikidata": "Q36466",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Guinée maritime (littoral baga)"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode baga1272 lu sur glottolog.org (page de la langue)."
+      }
+    },
+    {
+      "id": "GN-langue-nalu",
+      "nom": "Nalu (nalou)",
+      "nom_local": "Nalu",
+      "description": "Le nalu est une langue atlantique de la côte nord de la Guinée, au contact du Rio Nunez. Elle forme avec le mbulungish et le baga pukur le petit groupe nalu. Glottolog la juge menacée.",
+      "famille": "Atlantique-Congo, Atlantique du Nord-Centre, naluique (Glottolog)",
+      "glottocode": "nalu1240",
+      "statut_linguistique": [
+        "nationale",
+        "menacée"
+      ],
+      "sources": [
+        "S69",
+        "S11"
+      ],
+      "wikidata": "Q36026",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Guinée maritime (Rio Nunez)"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode nalu1240 lu sur glottolog.org (page de la langue)."
+      }
+    },
+    {
+      "id": "GN-langue-landoma",
+      "nom": "Landoma (landouma)",
+      "nom_local": "Landoma",
+      "description": "Le landoma est une langue atlantique de la côte nord, citée dès les récits des premiers contacts avec les navigateurs portugais dans la zone du Rio Nunez et du Rio Compagny. Elle est apparentée aux langues baga. Glottolog la considère comme menacée.",
+      "famille": "Atlantique-Congo, Mel, Mel septentrional, landumique (Glottolog)",
+      "glottocode": "land1256",
+      "statut_linguistique": [
+        "nationale",
+        "menacée"
+      ],
+      "sources": [
+        "S70",
+        "S11"
+      ],
+      "wikidata": "Q35568",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Guinée maritime (Boké)"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode land1256 lu sur glottolog.org. Localisation « Boké » non vérifiée, à confirmer : seule la zone Rio Nunez est citée par la source."
+      }
+    },
+    {
+      "id": "GN-langue-coniagui",
+      "nom": "Coniagui (wamey)",
+      "nom_local": "Wamey",
+      "description": "Le coniagui, ou wamey, est une langue du groupe tenda parlée dans le nord de la Guinée. Les Coniagui sont voisins des Bassari et des Peuls de cette région frontalière. Glottolog la classe parmi les langues menacées.",
+      "famille": "Atlantique-Congo, Atlantique du Nord-Centre, tenda (Glottolog)",
+      "glottocode": "wame1240",
+      "statut_linguistique": [
+        "nationale",
+        "menacée"
+      ],
+      "sources": [
+        "S71",
+        "S8"
+      ],
+      "wikidata": "Q36935",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Nord de la Guinée (région de Koundara)"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode wame1240 lu sur glottolog.org. Localisation précise à confirmer (la liste indicative ne cite que le contact avec les Bassari)."
+      }
+    },
+    {
+      "id": "GN-langue-bassari",
+      "nom": "Bassari (bassari-tanda)",
+      "nom_local": "Oniyan",
+      "description": "Le bassari est la langue des Bassari de la préfecture de Koundara, dans les collines du nord. Elle appartient au groupe tenda des langues atlantiques et se retrouve de l'autre côté de la frontière sénégalaise. Glottolog la juge menacée.",
+      "famille": "Atlantique-Congo, Atlantique du Nord-Centre, tenda, bassari-bedik-bapen (Glottolog)",
+      "glottocode": "bass1258",
+      "statut_linguistique": [
+        "nationale",
+        "menacée"
+      ],
+      "sources": [
+        "S72",
+        "S8"
+      ],
+      "wikidata": "Q35098",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Préfecture de Koundara"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode bass1258 lu sur glottolog.org (page de la langue)."
+      }
+    },
+    {
+      "id": "GN-langue-badyara",
+      "nom": "Badiaranké (jaad-badyara)",
+      "nom_local": "Jaad",
+      "description": "Le badiaranké est une petite langue atlantique du nord-ouest du pays, inscrite parmi les langues nationales. Glottolog la classe parmi les langues menacées. Glottolog en fait une branche distincte des langues atlantiques du Nord-Centre.",
+      "famille": "Atlantique-Congo, Atlantique du Nord-Centre, jaad (Glottolog)",
+      "glottocode": "bady1239",
+      "statut_linguistique": [
+        "nationale",
+        "menacée"
+      ],
+      "sources": [
+        "S73",
+        "S12"
+      ],
+      "wikidata": "Q35095",
+      "ecritures": [
+        "latin"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode bady1239 lu sur glottolog.org (page de la langue)."
+      }
+    },
+    {
+      "id": "GN-langue-mano",
+      "nom": "Mano (mann)",
+      "nom_local": "Mann",
+      "description": "Le mano est une langue mandée du Sud-Est, voisine du kpelle et du dan, parlée en Guinée, au Liberia et en Côte d'Ivoire. Portères le situe à l'est du pays kpelle. C'est l'une des langues nationales guinéennes.",
+      "famille": "Mandé, mandé oriental, mandé du Sud-Est, mano-dan (Glottolog)",
+      "glottocode": "mann1248",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "sources": [
+        "S74",
+        "S22"
+      ],
+      "wikidata": "Q3913286",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Guinée forestière (sud-est)"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode mann1248 lu sur glottolog.org (page de la langue)."
+      }
+    },
+    {
+      "id": "GN-langue-mbulungish",
+      "nom": "Mbulungish (bulongic)",
+      "nom_local": "Mbulungish",
+      "description": "Le mbulungish est une langue atlantique du Rio Nunez, parlée par un très petit nombre de personnes. Wikipédia, d'après Ethnologue, évoque quelques milliers de locuteurs au plus, dans un petit nombre de villages. Glottolog la classe dans les langues en recul.",
+      "famille": "Atlantique-Congo, Atlantique du Nord-Centre, naluique (Glottolog)",
+      "glottocode": "mbul1258",
+      "statut_linguistique": [
+        "minoritaire",
+        "menacée"
+      ],
+      "sources": [
+        "S75",
+        "S12"
+      ],
+      "wikidata": "Q36003",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Rio Nunez"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode mbul1258 lu sur glottolog.org (page de la langue)."
+      }
+    },
+    {
+      "id": "GN-langue-diakhanke",
+      "nom": "Diakhanké (jahanka)",
+      "nom_local": "Jaxanka",
+      "description": "Le diakhanké est la langue des Diakhanké, communauté musulmane lettrée liée à l'histoire de l'islam en Afrique de l'Ouest. Elle se rattache au manding occidental. Les Diakhanké ont compté parmi les populations musulmanes arrivées au Fouta Djallon aux XVIIe et XVIIIe siècles.",
+      "famille": "Mandé, mandé occidental, manding, manding occidental (Glottolog : Jahanka)",
+      "glottocode": "jaha1245",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "sources": [
+        "S76",
+        "S6"
+      ],
+      "wikidata": "Q3913992",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Fouta Djallon",
+        "Haute-Guinée"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode jaha1245 lu sur glottolog.org."
+      }
+    }
+  ],
+  "peuples": [
+    {
+      "id": "GN-peuple-peul",
+      "nom": "Peuls (Fulbe, Haalpulaar'en)",
+      "description": "Les Peuls forment la population dominante de la Moyenne-Guinée et du Fouta Djallon, où ils se sont établis massivement aux XVIIe et XVIIIe siècles. Ils ont fondé l'imamat du Fouta Djallon, dirigé depuis Timbo et dont l'intronisation des almamy se faisait à Fougoumba. Éleveurs et agriculteurs, ils partagent la langue pular, notée en latin et en caractères arabes adaptés. Des villages peuls sédentarisés cohabitent aussi avec les Bassari au nord.",
+      "langues": [
+        "pular"
+      ],
+      "regions": [
+        "Moyenne-Guinée (Fouta Djallon)",
+        "Labé",
+        "Mamou",
+        "Koundara"
+      ],
+      "sources": [
+        "S6",
+        "S28",
+        "S8",
+        "S59",
+        "S11"
+      ],
+      "pays_partages": [
+        "SN",
+        "ML"
+      ],
+      "organisation": "Imamat théocratique du Fouta Djallon (XVIIIe-XIXe s.), organisé en neuf provinces (diwé) selon la liste indicative.",
+      "activites": [
+        "élevage",
+        "agriculture"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-peuple-mandingue",
+      "nom": "Mandingues (Maninka, Malinké)",
+      "description": "Les Mandingues, ou Maninka, peuplent surtout la Haute-Guinée. Leur histoire est liée à l'empire du Mali et à Niani, ancienne capitale située près de la frontière malienne. Le Gberedou/Hamana, sur le Niger, est décrit comme un foyer de la civilisation mandingue où s'entretiennent des cultes liés aux mares sacrées. Ils sont aussi les héritiers de l'épopée de Soundiata et du Sosso-Bala, instrument sacré conservé à Nyagassola.",
+      "langues": [
+        "maninka",
+        "konyanka"
+      ],
+      "regions": [
+        "Haute-Guinée",
+        "Kankan",
+        "Kouroussa"
+      ],
+      "sources": [
+        "S5",
+        "S9",
+        "S3",
+        "S60"
+      ],
+      "pays_partages": [
+        "ML"
+      ],
+      "activites": [
+        "agriculture",
+        "pêche",
+        "élevage",
+        "artisanat",
+        "art des griots"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Les pratiques rituelles décrites (mares sacrées, culte des ancêtres) relèvent de savoirs communautaires : validation par les détenteurs recommandée.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-peuple-soussou",
+      "nom": "Soussou",
+      "description": "Les Soussou vivent surtout en Guinée maritime et dans la région de Conakry, où ils sont voisins des Baga, au point qu'une publication scientifique décrit l'abri préhistorique de Kakimbon comme fréquenté aujourd'hui par des Baga et des Soussou. Leur langue, le soussou, est la plus citée comme langue première dans la capitale. Le récit historique courant les décrit comme repoussés vers le littoral à l'époque de la formation du Fouta Djallon.",
+      "langues": [
+        "soussou"
+      ],
+      "regions": [
+        "Guinée maritime",
+        "Conakry",
+        "Coyah"
+      ],
+      "sources": [
+        "S25",
+        "S61",
+        "S11",
+        "S44"
+      ],
+      "activites": [
+        "pêche",
+        "commerce",
+        "agriculture"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-peuple-baga",
+      "nom": "Baga",
+      "description": "Les Baga occupent la côte marécageuse comprise entre la rive sud du Rio Nunez et la hauteur de Conakry, sur environ 200 kilomètres. Denise Paulme les décrit en 1957 comme des riziculteurs installés dans la mangrove. Ils sont connus pour leurs masques et cimiers rituels, conservés dans plusieurs musées. Un récit historique courant les dit installés sur la côte dès le VIIIe siècle, avec les Nalu. Leur langue, le baga sitemu, est classée en recul par Glottolog.",
+      "langues": [
+        "baga sitemu",
+        "baga pukur"
+      ],
+      "regions": [
+        "Basse-Guinée (littoral)"
+      ],
+      "sources": [
+        "S23",
+        "S68",
+        "S79",
+        "S11"
+      ],
+      "activites": [
+        "riziculture de mangrove",
+        "pêche"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Plusieurs objets baga conservés dans les musées sont liés à des rites ; ne pas présenter leur sens sans l'accord des communautés.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-peuple-kissi",
+      "nom": "Kissi",
+      "description": "Les Kissi vivent en Guinée forestière, autour de Guéckédou et de Kissidougou. Portères les situe au nord-ouest des Toma, qu'ils auraient autrefois repoussés d'une partie de la région de Guéckédou. Leur langue appartient au groupe mel des langues atlantiques et a été enseignée à l'école entre 1966 et 1984.",
+      "langues": [
+        "kissi"
+      ],
+      "regions": [
+        "Guinée forestière",
+        "Guéckédou",
+        "Kissidougou"
+      ],
+      "sources": [
+        "S21",
+        "S62",
+        "S19",
+        "S12"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-peuple-toma",
+      "nom": "Toma (Loma)",
+      "description": "Les Toma, ou Loma, occupent surtout la zone montagneuse de la préfecture de Macenta. Dans les années 1960, Portères estimait qu'ils étaient environ 80 000 en Guinée et plus de 140 000 au Liberia. Selon la tradition qu'il rapporte, ils seraient en place depuis très longtemps et auraient vu arriver les Kouranko, les Kissi, les Kpelle et l'expansion malinké. Leur langue est apparentée à celle des Kpelle.",
+      "langues": [
+        "toma"
+      ],
+      "regions": [
+        "Guinée forestière",
+        "Macenta"
+      ],
+      "sources": [
+        "S21",
+        "S64",
+        "S19"
+      ],
+      "pays_partages": [
+        "LR"
+      ],
+      "activites": [
+        "riziculture"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-peuple-kpelle",
+      "nom": "Kpelle (Kpwèlè, Guerzé)",
+      "description": "Le peuple appelé « Guerzé » dans l'administration se nomme lui-même Kpwèlè, comme le rappelle Portères. Il habite la région de Nzérékoré et de Yomou, et son territoire se prolonge au Liberia jusqu'à Monrovia. Ses voisins sont les Toma au nord et à l'ouest, les Manon et les Dan à l'est.",
+      "langues": [
+        "kpelle"
+      ],
+      "regions": [
+        "Guinée forestière",
+        "Nzérékoré",
+        "Yomou"
+      ],
+      "sources": [
+        "S22",
+        "S63",
+        "S12"
+      ],
+      "pays_partages": [
+        "LR"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-peuple-manon",
+      "nom": "Manon (Mano)",
+      "description": "Les Manon sont un peuple de langue mandée du Sud-Est, installé dans le sud-est de la Guinée forestière, à l'est des Kpelle. Ils partagent leur espace avec le Liberia et la Côte d'Ivoire. L'étude de Portères sur les noms de riz les cite parmi les voisins immédiats des Kpelle.",
+      "langues": [
+        "mano"
+      ],
+      "regions": [
+        "Guinée forestière (sud-est)"
+      ],
+      "sources": [
+        "S22",
+        "S74"
+      ],
+      "pays_partages": [
+        "LR",
+        "CI"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-peuple-bassari",
+      "nom": "Bassari",
+      "description": "Les Bassari habitent la préfecture de Koundara, dans les collines du nord, à la frontière du Sénégal. Trente-trois villages y sont peuplés exclusivement de Bassari, à côté de huit villages peuls. Leur culture se distingue par un système de classes d'âge et des rites jalonnant les travaux agricoles et les étapes de la vie, au cœur d'un paysage culturel proposé à l'inscription au patrimoine mondial.",
+      "langues": [
+        "bassari"
+      ],
+      "regions": [
+        "Koundara",
+        "Guingan",
+        "Termessè"
+      ],
+      "sources": [
+        "S8",
+        "S72"
+      ],
+      "pays_partages": [
+        "SN"
+      ],
+      "activites": [
+        "agriculture",
+        "filage du coton",
+        "poterie"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Les rites d'initiation et d'âge évoqués sont des savoirs réservés : consulter la communauté avant toute diffusion détaillée.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-peuple-jalonke",
+      "nom": "Jalonké (Yalunka)",
+      "description": "Les Jalonké sont un peuple de langue mandée, proche des Soussou, associé à l'histoire du Fouta Djallon. La liste indicative guinéenne évoque un pouvoir jalonké et peul qui précéda l'imamat et dont les musulmans devinrent maîtres. Leur langue, le jalonké ou yalunka, apparaît sur la liste des langues nationales.",
+      "langues": [
+        "jalonké"
+      ],
+      "regions": [
+        "Fouta Djallon et abords"
+      ],
+      "sources": [
+        "S6",
+        "S66",
+        "S11"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-peuple-coniagui",
+      "nom": "Coniagui",
+      "description": "Les Coniagui sont une population du nord de la Guinée, voisine des Bassari et des Peuls. Leur langue, le wamey, appartient aux langues tenda de la famille atlantique. Glottolog la classe parmi les langues menacées, ce qui appelle une attention particulière à sa transmission.",
+      "langues": [
+        "coniagui (wamey)"
+      ],
+      "regions": [
+        "Nord de la Guinée (Koundara et environs)"
+      ],
+      "sources": [
+        "S8",
+        "S71"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-peuple-nalu",
+      "nom": "Nalu (Nalou)",
+      "description": "Les Nalu vivent sur la côte nord, près du Rio Nunez, et font partie des populations rencontrées par les premiers navigateurs portugais. Des masques nalu, comme le masque Banda, sont conservés au Metropolitan Museum of Art. Leur langue, le nalu, est classée menacée.",
+      "langues": [
+        "nalu"
+      ],
+      "regions": [
+        "Basse-Guinée (Rio Nunez)"
+      ],
+      "sources": [
+        "S11",
+        "S81",
+        "S69"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Les masques sont des objets rituels ; la présentation doit rester prudente.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-peuple-landoma",
+      "nom": "Landoma (Landouma)",
+      "description": "Les Landoma sont l'une des populations de la côte nord, citées dans les premiers récits d'exploration portugaise du Rio Nunez et du Rio Compagny. Leur langue appartient au groupe landumique, proche des langues baga. Elle est considérée comme menacée.",
+      "langues": [
+        "landoma"
+      ],
+      "regions": [
+        "Basse-Guinée (Rio Nunez)"
+      ],
+      "sources": [
+        "S11",
+        "S70"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-peuple-diakhanke",
+      "nom": "Diakhanké",
+      "description": "Les Diakhanké sont une communauté musulmane de langue manding, connue pour ses lettrés et son rôle dans la diffusion de l'islam. La liste indicative guinéenne les cite parmi les musulmans arrivés au Fouta Djallon aux XVIIe et XVIIIe siècles, aux côtés de Soninké et de Malinké. Glottolog classe leur langue parmi les langues non menacées.",
+      "langues": [
+        "diakhanké"
+      ],
+      "regions": [
+        "Fouta Djallon",
+        "Haute-Guinée"
+      ],
+      "sources": [
+        "S6",
+        "S76",
+        "S11"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "id": "GN-site-mont-nimba",
+      "nom": "Réserve naturelle intégrale du mont Nimba",
+      "type": "patrimoine_mondial",
+      "description": "Le massif du Nimba, aux confins de la Guinée, de la Côte d'Ivoire et du Liberia, domine les savanes voisines et culmine à 1 752 m. Ses pentes portent une forêt dense au pied de pâturages d'altitude, avec une faune et une flore riches en espèces endémiques, dont le crapaud vivipare et des chimpanzés qui utilisent des pierres comme outils. Le bien, de près de 17 600 ha, a été inscrit en 1981 au titre des critères (ix) et (x), puis modifié en 1982 ; il figure sur la liste du patrimoine mondial en péril depuis 1992.",
+      "sources": [
+        "S1",
+        "S2",
+        "S18"
+      ],
+      "regions": [
+        "Guinée forestière (région de Lola)"
+      ],
+      "coordonnees": {
+        "lat": 7.603,
+        "lng": -8.391
+      },
+      "unesco_id": "155bis",
+      "inscription": 1981,
+      "wikidata": "Q924276",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-site-niani",
+      "nom": "Niani",
+      "type": "liste_indicative",
+      "description": "Niani est une ancienne cité médiévale du nord-est de la Guinée, à la frontière du Mali, dans la préfecture de Mandiana. Elle est proposée comme capitale possible de l'empire du Mali, entre les XIIIe et XVe siècles. Les fouilles polono-guinéennes de 1965, 1968 et 1973 y ont mis au jour des quartiers anciens, de la poterie et des traces de métallurgie ; une partie des trouvailles est conservée au Musée national de Guinée. Le site est inscrit sur la liste indicative de 2025.",
+      "sources": [
+        "S5",
+        "S26",
+        "S27"
+      ],
+      "regions": [
+        "Haute-Guinée (Mandiana)"
+      ],
+      "periode": "VIe-XVIIe siècle selon les fouilles",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-site-case-fougoumba",
+      "nom": "Case de couronnement des almamy de Fougoumba",
+      "type": "liste_indicative",
+      "description": "La case de couronnement de Fougoumba, en Moyenne-Guinée, est un édifice circulaire en blocs d'argile venus des neuf provinces traditionnelles du Fouta Djallon. Elle abritait la formation spirituelle du nouvel almamy et renferme encore des attributs du pouvoir, dont un coran et une tabala. Elle est refaite à l'identique tous les sept ans et reste un lieu de médiation entre les anciennes provinces.",
+      "sources": [
+        "S6"
+      ],
+      "regions": [
+        "Moyenne-Guinée (Dalaba, Fougoumba)"
+      ],
+      "periode": "fin du XVIIIe siècle",
+      "sensible": true,
+      "note_sensibilite": "Des attributs du pouvoir et un lieu de bénédiction sont concernés : accord des détenteurs locaux à confirmer.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-site-massif-fouta-djallon",
+      "nom": "Massif du Fouta Djallon (Moyen-Bafing et Gambie-Falémé)",
+      "type": "liste_indicative",
+      "description": "Le massif du Fouta Djallon est qualifié de « château d'eau de l'Afrique de l'Ouest » : il abrite les sources de grands fleuves comme le Niger, le Sénégal et la Gambie. La proposition de 2026 porte sur un bien naturel d'environ 7 197 km2 formé du parc national du Moyen-Bafing et de la réserve de faune de Gambie-Falémé. Il est inscrit sur la liste indicative de la Guinée.",
+      "sources": [
+        "S7"
+      ],
+      "regions": [
+        "Moyenne-Guinée"
+      ],
+      "coordonnees": {
+        "lat": 11.8452,
+        "lng": -11.3393
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-site-paysage-bassari",
+      "nom": "Paysage culturel Bassari de Guinée",
+      "type": "liste_indicative",
+      "description": "Dans la préfecture de Koundara, trois secteurs (Bokoré, Amangathia et Hotat) réunissent quarante et un villages, dont trente-trois exclusivement bassari et huit à dominance peule. Ce paysage de collines et de grottes porte les traces de refuges et de rites liés au cycle agricole et aux âges de la vie. Il prolonge le paysage culturel bassari du Sénégal, inscrit au patrimoine mondial en 2012.",
+      "sources": [
+        "S8"
+      ],
+      "regions": [
+        "Koundara"
+      ],
+      "coordonnees": {
+        "lat": 12.3761,
+        "lng": -12.9217
+      },
+      "sensible": true,
+      "note_sensibilite": "Rites d'initiation et lieux rituels : consultation communautaire nécessaire.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-site-gberedou-hamana",
+      "nom": "Gberedou/Hamana",
+      "type": "liste_indicative",
+      "description": "Situé entre Kouroussa et Kankan, dans la plaine inondable du Niger, le Gberedou/Hamana est présenté comme un foyer de la civilisation mandingue. Ses mares sacrées de Baro, Balato et Koumana donnent lieu chaque année à des pèlerinages et à des cérémonies mêlant danses, chants et pêche collective. Les villages concernés vivent d'agriculture, de chasse, d'élevage, de pêche et d'artisanat.",
+      "sources": [
+        "S9"
+      ],
+      "regions": [
+        "Haute-Guinée (Kouroussa, Kankan)"
+      ],
+      "coordonnees": {
+        "lat": 10.8833,
+        "lng": -9.2167
+      },
+      "sensible": true,
+      "note_sensibilite": "Cultes liés aux génies protecteurs et aux ancêtres : savoir communautaire sensible.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-site-farinya-rio-pongo",
+      "nom": "Farinya et l'estuaire du Rio Pongo",
+      "type": "liste_indicative",
+      "description": "Le district de Farinya, en Basse-Guinée, se trouve dans un estuaire profond et discret du Rio Pongo. La proposition guinéenne le décrit comme un des points d'embarquement de la traite atlantique, à l'extrémité de routes partant du Fouta Djallon et de la boucle du Niger. Il est présenté comme un site de mémoire de la route de l'esclave.",
+      "sources": [
+        "S10",
+        "S28"
+      ],
+      "regions": [
+        "Basse-Guinée (Boffa)"
+      ],
+      "coordonnees": {
+        "lat": 10.2833,
+        "lng": -13.9833
+      },
+      "sensible": true,
+      "note_sensibilite": "Lieu de mémoire de la traite des êtres humains : approche respectueuse et contextualisée.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-site-kakimbon",
+      "nom": "Abri de Kakimbon",
+      "type": "site_archeologique",
+      "description": "L'abri de Kakimbon est creusé dans un rocher de magnétite à une douzaine de kilomètres à l'ouest de Conakry, près du village de Rotouma. Il est connu depuis 1883 et a été fouillé en 1961 en collaboration avec le personnel du Musée national, qui conserve le matériel. Un bois sacré le surplombe, et des offrandes y sont encore déposées.",
+      "sources": [
+        "S25"
+      ],
+      "regions": [
+        "Conakry (environs de Rotouma)"
+      ],
+      "periode": "outillage de pierre ; fouille de 1961",
+      "sensible": true,
+      "note_sensibilite": "Un bois sacré et des offrandes sont associés au site.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-site-musee-national",
+      "nom": "Musée national de Guinée",
+      "type": "musee",
+      "description": "Le Musée national de Guinée, à Conakry (quartier de Kaloum), conserve des collections archéologiques et ethnographiques, notamment une partie des objets fouillés à Niani. Des chercheurs y ont étudié et déposé du matériel dès les années 1960, comme celui de l'abri de Kakimbon. Il abrite aussi un buste de Samori Touré.",
+      "sources": [
+        "S5",
+        "S25",
+        "S33"
+      ],
+      "regions": [
+        "Conakry (Kaloum)"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-site-camp-boiro",
+      "nom": "Camp Boiro",
+      "type": "lieu_de_memoire",
+      "description": "Le camp Boiro, à Conakry, fut sous le régime de Sékou Touré une prison politique, devenue un symbole de la répression. Des proches de victimes s'y recueillent chaque année, notamment à la mémoire des personnes pendues ou fusillées le 25 janvier 1971. Après la mort de Sékou Touré en 1984, les prisonniers politiques qui s'y trouvaient furent libérés.",
+      "sources": [
+        "S38",
+        "S39",
+        "S44"
+      ],
+      "regions": [
+        "Conakry"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Lieu de mémoire de violences d'État ; mémoire encore débattue. Présentation neutre, avec la parole des familles.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-site-stade-28-septembre",
+      "nom": "Stade du 28-Septembre",
+      "type": "lieu_de_memoire",
+      "description": "Le stade du 28-Septembre, à Conakry, a accueilli des rassemblements officiels, comme l'hommage à Sékou Touré en mars 1984. C'est aussi là que se sont produits, le 28 septembre 2009, les événements que la Cour pénale internationale qualifie de crimes contre l'humanité.",
+      "sources": [
+        "S36",
+        "S39",
+        "S37"
+      ],
+      "regions": [
+        "Conakry"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Lieu des violences du 28 septembre 2009 ; contenu politique sensible, sources judiciaires citées.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-site-mausolee-camayenne",
+      "nom": "Mausolée de Camayenne",
+      "type": "monument",
+      "description": "Selon Jeune Afrique, le mausolée de Camayenne, à Conakry, abrite les restes de Samory Touré et d'Alpha Yaya, ainsi que ceux de Sékou Touré, inhumé en 1984. Il est présenté comme un lieu consacré à des figures de l'histoire guinéenne. Le rapatriement des cendres de Samory a été organisé à la fin des années 1960.",
+      "sources": [
+        "S39",
+        "S42"
+      ],
+      "regions": [
+        "Conakry (Camayenne)"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Lieu funéraire : présentation sobre et respectueuse.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "traditions": [
+    {
+      "id": "GN-tradition-sosso-bala",
+      "nom": "Espace culturel du Sosso-Bala",
+      "categorie": "musique",
+      "description": "Le Sosso-Bala est un balafon sacré, symbole de la liberté et de la cohésion de la communauté mandingue. Il aurait appartenu au roi Soumaoro Kanté, au début du XIIIe siècle, et porte depuis des siècles l'épopée de Soundiata. L'instrument original est conservé dans une case de Nyagassola, sous la garde du Balatigui de la famille Dökala, des griots Kouyaté, qui enseigne aussi le balafon aux enfants. La transmission est fragilisée par l'exode rural et les difficiles conditions de vie du village.",
+      "regions": [
+        "Nyagassola (nord de la Guinée)",
+        "Haute-Guinée"
+      ],
+      "communautes": [
+        "Mandingues",
+        "famille Kouyaté (griots)"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "00009",
+        "annee": 2008,
+        "url": "https://ich.unesco.org/en/RL/cultural-space-of-sosso-bala-00009"
+      },
+      "sources": [
+        "S3",
+        "S4"
+      ],
+      "transmission": "fragile",
+      "nom_local": "Sosso-Bala",
+      "langues": [
+        "maninka"
+      ],
+      "periode": "XIIIe siècle à aujourd'hui",
+      "sensible": true,
+      "note_sensibilite": "Instrument sacré, gardé par un seul détenteur et joué lors de circonstances précises : toute présentation doit rester conforme à l'élément inscrit et validée par la famille gardienne.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-tradition-mares-sacrees-gberedou",
+      "nom": "Mares sacrées du Gberedou/Hamana et pèlerinages annuels",
+      "categorie": "rite",
+      "description": "Dans la plaine du Niger, entre Kouroussa et Kankan, des mares comme Bolé à Baro, Woigbé à Balato ou Nantamba à Koumana sont des lieux de culte liés à des génies protecteurs et aux ancêtres. Chaque année, des cérémonies y réunissent des habitants et des visiteurs venus de la région et de l'étranger, avec danses, chants et pêche collective. Ces pratiques coexistent avec l'islam, majoritaire dans la zone.",
+      "regions": [
+        "Haute-Guinée (Baro, Balato, Koumana)"
+      ],
+      "communautes": [
+        "Mandingues"
+      ],
+      "unesco": null,
+      "sources": [
+        "S9"
+      ],
+      "transmission": "vivante",
+      "langues": [
+        "maninka"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Culte des génies et des ancêtres : savoirs rituels communautaires, descriptions à valider avec les détenteurs.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-tradition-intronisation-almamy",
+      "nom": "Intronisation des almamy du Fouta Djallon",
+      "categorie": "rite",
+      "description": "À Fougoumba, le nouvel almamy du Fouta Djallon recevait une bénédiction à la mosquée centrale puis passait neuf jours en formation spirituelle dans la case de couronnement. Les délégués des neuf provinces y venaient aussi chaque année évaluer les actions menées et préparer celles de l'année suivante. Si la théocratie a été abolie, la case continue de jouer un rôle de rencontre et de médiation entre les anciennes provinces.",
+      "regions": [
+        "Moyenne-Guinée (Fougoumba)"
+      ],
+      "communautes": [
+        "Peuls"
+      ],
+      "unesco": null,
+      "sources": [
+        "S6",
+        "S28"
+      ],
+      "langues": [
+        "pular"
+      ],
+      "periode": "XVIIIe siècle à aujourd'hui",
+      "sensible": true,
+      "note_sensibilite": "Rite d'investiture et lieu de bénédiction : validation par les autorités traditionnelles de Fougoumba.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-tradition-tabala",
+      "nom": "Tabala, tambour de messages du Fouta Djallon",
+      "categorie": "musique",
+      "description": "Au Fouta Djallon, la tabala est un tambour qui servait à transmettre des messages dans tout le royaume, depuis un lieu appelé Pellun tabaldé. Elle fait partie des attributs du pouvoir conservés dans la case de couronnement de Fougoumba, avec le coran, le turban et la lance. Elle illustre le rôle de l'instrument comme moyen de communication politique.",
+      "regions": [
+        "Moyenne-Guinée (Fougoumba)"
+      ],
+      "communautes": [
+        "Peuls"
+      ],
+      "unesco": null,
+      "sources": [
+        "S6"
+      ],
+      "langues": [
+        "pular"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Attribut du pouvoir traditionnel : usage encadré par les détenteurs.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-tradition-initiation-bassari",
+      "nom": "Classes d'âge et rites d'initiation bassari",
+      "categorie": "rite",
+      "description": "Chez les Bassari de Koundara, l'organisation sociale repose sur un système de classes d'âge peu courant en Guinée. Des rites accompagnent les semis, les récoltes, la fécondité, la naissance, l'initiation, le mariage et la mort. Les récoltes de céréales ouvrent la saison sèche, période où les femmes filent le coton et font de la poterie.",
+      "regions": [
+        "Koundara"
+      ],
+      "communautes": [
+        "Bassari"
+      ],
+      "unesco": null,
+      "sources": [
+        "S8"
+      ],
+      "transmission": "fragile",
+      "langues": [
+        "bassari"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Initiation : savoirs réservés aux initiés. Seule une description générale, tirée de la liste indicative, est donnée ici.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-tradition-masques-baga",
+      "nom": "Masques et cimiers baga (D'mba, a-Tshol)",
+      "categorie": "rite",
+      "description": "Les Baga sculptent des cimiers et des coiffes portés lors de cérémonies, comme le D'mba, nommé « grande mère » dans la documentation du Metropolitan Museum, ou les cimiers liés à la médecine. Des tambours à figure féminine ou maternelle complètent cet ensemble. Ces objets, aujourd'hui dispersés dans des collections muséales, renvoient à des rites dont le sens appartient aux communautés baga.",
+      "regions": [
+        "Basse-Guinée (littoral baga)"
+      ],
+      "communautes": [
+        "Baga"
+      ],
+      "unesco": null,
+      "sources": [
+        "S79",
+        "S80",
+        "S84",
+        "S23"
+      ],
+      "langues": [
+        "baga sitemu"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Objets et rites sacrés : ne pas détailler la signification sans accord communautaire ; questions de restitution à suivre.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-tradition-nko",
+      "nom": "Alphabet n'ko et culture de l'écrit manding",
+      "categorie": "savoir",
+      "description": "Le n'ko est un alphabet inventé en 1949 pour transcrire les langues mandingues, créé par Solomana Kanté, né près de Kankan. Il s'est diffusé comme mouvement culturel autour de la transcription du malinké, de l'enseignement et de pratiques de soin, surtout en Guinée mais aussi au Mali et en Côte d'Ivoire.",
+      "regions": [
+        "Haute-Guinée",
+        "Kankan"
+      ],
+      "communautes": [
+        "Mandingues"
+      ],
+      "unesco": null,
+      "sources": [
+        "S24",
+        "S78",
+        "S12"
+      ],
+      "transmission": "vivante",
+      "langues": [
+        "maninka",
+        "konyanka"
+      ],
+      "periode": "depuis 1949",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-tradition-riziculture-mangrove",
+      "nom": "Riziculture de mangrove des Baga",
+      "categorie": "savoir",
+      "description": "Les Baga cultivent le riz dans les marais côtiers situés entre le Rio Nunez et Conakry, où les estuaires, les marées et les palétuviers imposent des techniques adaptées. Denise Paulme décrivait en 1957 un littoral aux pluies abondantes de fin avril à fin novembre, où les habitants distinguent quatre saisons. Cette riziculture fait partie des savoir-faire agricoles caractéristiques du littoral guinéen.",
+      "regions": [
+        "Basse-Guinée (littoral)"
+      ],
+      "communautes": [
+        "Baga"
+      ],
+      "unesco": null,
+      "sources": [
+        "S23"
+      ],
+      "langues": [
+        "baga sitemu"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-tradition-noms-des-riz-foret",
+      "nom": "Noms et variétés de riz en Guinée forestière",
+      "categorie": "savoir",
+      "description": "Dans les années 1960, Roland Portères a recensé les noms de variétés de riz chez les Toma de Macenta puis chez les Kpelle et les Manon. Ces noms reflètent des classements propres à chaque communauté, selon les régions, les emprunts et les milieux. Ils témoignent de savoirs paysans précis sur la diversité du riz cultivé.",
+      "regions": [
+        "Guinée forestière (Macenta, Nzérékoré)"
+      ],
+      "communautes": [
+        "Toma",
+        "Kpelle",
+        "Manon"
+      ],
+      "unesco": null,
+      "sources": [
+        "S21",
+        "S22"
+      ],
+      "langues": [
+        "toma",
+        "kpelle",
+        "mano"
+      ],
+      "periode": "documenté dans les années 1960",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-tradition-melodie-alpha-yaya",
+      "nom": "Mélodie « Alpha Yaya », origine de l'hymne national",
+      "categorie": "musique",
+      "description": "Selon Mamba Sano, la mélodie « Alpha Yaya » est née d'un chant de griots maninka, joué à la kora et dansé devant Alpha Yaya à Conakry. Deux phrases en forment le noyau, que l'auteur traduit comme l'idée que les chefs ne sont pas semblables et qu'on est regretté selon ses bienfaits. L'air s'est répandu dans tout le pays puis est devenu l'hymne national après l'indépendance, sous le titre « Liberté ».",
+      "regions": [
+        "Conakry",
+        "Guinée entière"
+      ],
+      "communautes": [
+        "Maninka (griots)"
+      ],
+      "unesco": null,
+      "sources": [
+        "S32"
+      ],
+      "transmission": "vivante",
+      "langues": [
+        "maninka"
+      ],
+      "periode": "hymne national depuis l'indépendance",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-tradition-bembeya-jazz",
+      "nom": "Orchestres nationaux et Bembeya Jazz",
+      "categorie": "musique",
+      "description": "Après l'indépendance, le pouvoir de Sékou Touré s'appuie sur la culture et lance un concours national pour chanter les héros de la résistance. Le Bembeya Jazz National, né en 1961, enregistre en 1969 « Regard sur le passé », une longue épopée musicale consacrée à Samory Touré. Ce modèle de récit chanté a inspiré d'autres orchestres ouest-africains.",
+      "regions": [
+        "Guinée entière"
+      ],
+      "communautes": [
+        "Maninka (répertoire mandingue)"
+      ],
+      "unesco": null,
+      "sources": [
+        "S42"
+      ],
+      "periode": "depuis 1961",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-tradition-epopee-soundiata",
+      "nom": "Épopée de Soundiata et art des griots",
+      "categorie": "oralite",
+      "description": "L'épopée de Soundiata, bâtisseur de l'empire du Mali, est transmise depuis des siècles par les griots, notamment grâce au balafon du Sosso-Bala. À Niani, la liste indicative guinéenne signale la survivance de pratiques orales, rituelles et artistiques liées à l'ancien empire. Elle s'appuie aussi sur une organisation sociale par classes professionnelles.",
+      "regions": [
+        "Haute-Guinée (Niani, Nyagassola)"
+      ],
+      "communautes": [
+        "Mandingues",
+        "griots"
+      ],
+      "unesco": null,
+      "sources": [
+        "S3",
+        "S5"
+      ],
+      "transmission": "vivante",
+      "langues": [
+        "maninka"
+      ],
+      "periode": "XIIIe siècle à aujourd'hui",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "personnalites": [
+    {
+      "id": "GN-personne-soumaoro-kante",
+      "nom": "Soumaoro Kanté",
+      "description": "Soumaoro Kanté est le roi de Sosso qui, selon l'UNESCO, monta sur le trône au début du XIIIe siècle. La tradition lui attribue la possession du balafon sacré Sosso-Bala, fabriqué par lui ou offert par un génie. Ses dates précises de naissance et de mort ne sont pas établies dans les sources consultées.",
+      "roles": [
+        "roi de Sosso"
+      ],
+      "domaines": [
+        "politique",
+        "musique"
+      ],
+      "epoque": "début du XIIIe siècle",
+      "sources": [
+        "S3",
+        "S17"
+      ],
+      "wikidata": "Q2975296",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-personne-soundiata-keita",
+      "nom": "Soundiata Keïta",
+      "description": "Soundiata Keïta est présenté par la tradition et par la liste indicative guinéenne de Niani comme le fondateur de l'empire du Mali, au XIIIe siècle. Les hymnes de l'épopée mandingue, transmis par les griots, célèbrent ce bâtisseur. La ville de Niani, à la frontière malienne, est associée à son règne. Les dates exactes de sa vie varient selon les sources et ne sont pas données ici.",
+      "roles": [
+        "fondateur de l'empire du Mali"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XIIIe siècle",
+      "sources": [
+        "S5",
+        "S3",
+        "S17"
+      ],
+      "wikidata": "Q175772",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-personne-alpha-yaya-diallo",
+      "nom": "Alpha Yaya Diallo",
+      "description": "Alpha Yaya Diallo est une figure peule de Labé, appelée ancien « roi du Labé » par Jeune Afrique, qui incarne pour Mamba Sano l'esprit de la résistance à la colonisation jusqu'en 1910, après deux déportations. L'historien Robert Cornevin s'est demandé en 1970 s'il fut un héros national ou la victime d'un conflit entre gouverneurs, preuve que son rôle fait débat. Son nom est resté attaché à la mélodie qui est devenue l'hymne national guinéen. Il est mort en exil en 1912 selon Wikidata.",
+      "roles": [
+        "chef de Labé",
+        "résistant"
+      ],
+      "domaines": [
+        "résistance",
+        "politique"
+      ],
+      "epoque": "fin XIXe-début XXe siècle",
+      "sources": [
+        "S32",
+        "S31",
+        "S39",
+        "S17"
+      ],
+      "naissance": {
+        "date": "1830"
+      },
+      "deces": {
+        "date": "1912-10-10",
+        "lieu": "Nouadhibou"
+      },
+      "wikidata": "Q473154",
+      "regions": [
+        "Labé"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-personne-samory-toure",
+      "nom": "Samory Touré",
+      "description": "Samory Touré fut le chef de guerre et l'almami à la tête de l'empire wassoulou, qui tint tête à la France de 1881 à 1898 selon Mamba Sano. Il fut capturé à Guélémou le 29 septembre 1898 puis exilé au Gabon, où il mourut en 1900. Son image, notamment le portrait au Coran, a été largement reprise par le régime de Sékou Touré, et son nom est devenu un symbole de la résistance. Les historiens discutent de la construction de son souvenir.",
+      "roles": [
+        "chef de guerre",
+        "almami",
+        "fondateur de l'empire wassoulou"
+      ],
+      "domaines": [
+        "résistance",
+        "politique"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S33",
+        "S34",
+        "S32",
+        "S17"
+      ],
+      "naissance": {
+        "date": "1830",
+        "lieu": "Manyambaladougou (préfecture de Kérouané)"
+      },
+      "deces": {
+        "date": "1900-06-02",
+        "lieu": "Ndjolé (Gabon)"
+      },
+      "wikidata": "Q469314",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-personne-sekou-toure",
+      "nom": "Ahmed Sékou Touré",
+      "description": "Ahmed Sékou Touré, né à Faranah, fut syndicaliste puis premier président de la Guinée indépendante, de 1958 à sa mort en 1984. Il mena le « non » au référendum de 1958, formule restée célèbre : préférer la pauvreté dans la liberté à la richesse dans l'esclavage. Son régime est aussi marqué par une forte répression, dont les exécutions de 1971 et le camp Boiro, et sa mémoire reste disputée en Guinée.",
+      "roles": [
+        "syndicaliste",
+        "président de la République"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S39",
+        "S29",
+        "S38",
+        "S56",
+        "S17"
+      ],
+      "naissance": {
+        "date": "1922-01-09",
+        "lieu": "Faranah"
+      },
+      "deces": {
+        "date": "1984-03-26",
+        "lieu": "Cleveland (États-Unis)"
+      },
+      "wikidata": "Q155402",
+      "sensible": true,
+      "note_sensibilite": "Figure politique contestée : héros de l'indépendance pour certains, responsable d'une répression pour d'autres. Présentation neutre, sources variées.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-personne-solomana-kante",
+      "nom": "Solomana Kanté",
+      "description": "Solomana Kanté, dit Souleymane Kanté, est l'inventeur de l'alphabet n'ko, créé en 1949 pour les langues mandingues. Né en 1922 à Sumankoï, près de Kankan, il avait fait des études coraniques avant de partir en Côte d'Ivoire, où il se serait senti poussé à prouver que les langues africaines pouvaient s'écrire. Son alphabet est devenu un mouvement culturel qui s'étend de la Guinée au Mali et à la Côte d'Ivoire.",
+      "roles": [
+        "inventeur de l'alphabet n'ko",
+        "lettré"
+      ],
+      "domaines": [
+        "savoirs",
+        "littérature"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S24",
+        "S54",
+        "S17"
+      ],
+      "naissance": {
+        "date": "1922",
+        "lieu": "Sumankoï (près de Kankan)"
+      },
+      "deces": {
+        "date": "1987-11-23",
+        "lieu": "Conakry"
+      },
+      "wikidata": "Q2996980",
+      "regions": [
+        "Kankan"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-personne-camara-laye",
+      "nom": "Camara Laye",
+      "description": "Camara Laye est l'un des écrivains fondateurs de la littérature africaine d'expression française. Son premier roman, L'Enfant noir, paru en 1953, largement autobiographique, lui valut le prix Charles Veillon 1954, mais fut aussi critiqué pour son absence d'engagement politique. Il est né en 1928 à Kouroussa et mort à Dakar en 1980.",
+      "roles": [
+        "écrivain"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S13",
+        "S51",
+        "S17"
+      ],
+      "naissance": {
+        "date": "1928",
+        "lieu": "Kouroussa"
+      },
+      "deces": {
+        "date": "1980-02-04",
+        "lieu": "Dakar (Sénégal)"
+      },
+      "wikidata": "Q1371169",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-personne-fodeba-keita",
+      "nom": "Fodéba Keïta",
+      "description": "Fodéba Keïta, né à Siguiri en 1921, fut un artiste et homme politique guinéen. Selon Le Courrier de Conakry, Sékou Touré le nomma au gouvernement. Il est mort en 1969 au camp Boiro, selon Wikidata. La Bibliothèque nationale de France le recense comme auteur (1921-1969).",
+      "roles": [
+        "artiste",
+        "homme politique"
+      ],
+      "domaines": [
+        "arts",
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S52",
+        "S44",
+        "S17"
+      ],
+      "naissance": {
+        "date": "1921-01-19",
+        "lieu": "Siguiri"
+      },
+      "deces": {
+        "date": "1969-05-27",
+        "lieu": "camp Boiro, Conakry"
+      },
+      "wikidata": "Q472572",
+      "sensible": true,
+      "note_sensibilite": "Mort en détention politique : sujet sensible, voir contexte du camp Boiro.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-personne-djibril-tamsir-niane",
+      "nom": "Djibril Tamsir Niane",
+      "description": "Djibril Tamsir Niane fut un écrivain et un historien guinéen. Il est né à Conakry en 1932 et mort à Dakar en 2021, selon Wikidata et la Bibliothèque nationale de France (1932-2021).",
+      "roles": [
+        "historien",
+        "écrivain"
+      ],
+      "domaines": [
+        "savoirs",
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S53",
+        "S17"
+      ],
+      "naissance": {
+        "date": "1932-01-09",
+        "lieu": "Conakry"
+      },
+      "deces": {
+        "date": "2021-03-08",
+        "lieu": "Dakar (Sénégal)"
+      },
+      "wikidata": "Q3032943",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-personne-diallo-telli",
+      "nom": "Diallo Telli",
+      "description": "Diallo Telli, né en 1925 (à Porédaka selon Wikidata), fut un diplomate guinéen, artisan de l'entrée de la Guinée à l'ONU en 1958, puis secrétaire général de l'OUA de 1964 à 1972. De retour en Guinée comme ministre de la Justice, il fut arrêté en 1976, accusé de complot et mourut en détention le 1er mars 1977.",
+      "roles": [
+        "diplomate",
+        "secrétaire général de l'OUA",
+        "ministre de la Justice"
+      ],
+      "domaines": [
+        "politique",
+        "diplomatie"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S40",
+        "S55",
+        "S17"
+      ],
+      "naissance": {
+        "date": "1925",
+        "lieu": "Porédaka"
+      },
+      "deces": {
+        "date": "1977-03-01",
+        "lieu": "camp Boiro, Conakry"
+      },
+      "wikidata": "Q533901",
+      "sensible": true,
+      "note_sensibilite": "Mort en détention après des aveux obtenus, selon Jeune Afrique, sous la torture : sujet sensible.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-personne-mory-kante",
+      "nom": "Mory Kanté",
+      "description": "Mory Kanté, chanteur et musicien issu de la tradition des griots mandingues, était surnommé « le griot électrique ». Il est connu dans le monde entier pour le tube « Yéké Yéké ». Né en 1950 à Albadaria, près de Kissidougou, il est mort le 22 mai 2020 à Conakry.",
+      "roles": [
+        "chanteur",
+        "musicien"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S46",
+        "S58",
+        "S17"
+      ],
+      "naissance": {
+        "date": "1950-03-29",
+        "lieu": "Albadaria (préfecture de Kissidougou)"
+      },
+      "deces": {
+        "date": "2020-05-22",
+        "lieu": "Conakry"
+      },
+      "wikidata": "Q551576",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-personne-sory-kandia-kouyate",
+      "nom": "Sory Kandia Kouyaté",
+      "description": "Sory Kandia Kouyaté est un chanteur de la tradition des griots, surnommé « la voix de la révolution » guinéenne. Un critique de NPR le range parmi les meilleurs chanteurs qu'ait produits l'Afrique et estime qu'il aurait pu devenir une star internationale s'il avait vécu quelques années de plus. Il est mort en 1977.",
+      "roles": [
+        "chanteur",
+        "griot"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S47",
+        "S17"
+      ],
+      "naissance": {
+        "date": "1933"
+      },
+      "deces": {
+        "date": "1977-12-25"
+      },
+      "wikidata": "Q23541021",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-personne-jeanne-martin-cisse",
+      "nom": "Jeanne Martin Cissé",
+      "description": "Née à Kankan en 1926 d'une famille aux racines malinké et soussou, Jeanne Martin Cissé fut institutrice puis militante du RDA. Représentante permanente de la Guinée à l'ONU, elle devint en 1972 la première femme à présider le Conseil de sécurité. Ministre des Affaires sociales en 1976, elle fut emprisonnée de 1984 à 1985 après la mort de Sékou Touré. Elle est décédée en 2017.",
+      "roles": [
+        "institutrice",
+        "diplomate",
+        "ministre"
+      ],
+      "domaines": [
+        "politique",
+        "diplomatie"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S41",
+        "S44",
+        "S18",
+        "S17"
+      ],
+      "naissance": {
+        "date": "1926-04-06",
+        "lieu": "Kankan"
+      },
+      "deces": {
+        "date": "2017-02-21",
+        "lieu": "Conakry"
+      },
+      "wikidata": "Q1543352",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-personne-rabiatou-serah-diallo",
+      "nom": "Rabiatou Serah Diallo",
+      "description": "Rabiatou Serah Diallo, originaire de Mamou, a dirigé la Confédération nationale des travailleurs de Guinée et fut la première femme africaine à diriger un syndicat national selon Le Courrier de Conakry. Elle a joué un rôle central dans les grèves générales de 2006 et 2007. Nommée présidente du Conseil national de transition en 2010, elle est morte à Conakry en juin 2023.",
+      "roles": [
+        "syndicaliste",
+        "présidente du CNT"
+      ],
+      "domaines": [
+        "politique",
+        "syndicalisme"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S44",
+        "S43",
+        "S17"
+      ],
+      "naissance": {
+        "date": "1949-12-31",
+        "lieu": "Mamou (région d'origine)"
+      },
+      "deces": {
+        "date": "2023-06-28",
+        "lieu": "Conakry"
+      },
+      "wikidata": "Q532082",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-personne-aicha-bah-diallo",
+      "nom": "Aïcha Bah Diallo",
+      "description": "Aïcha Bah Diallo est née en 1942 à Kouroussa et a suivi une formation scientifique en chimie et en biochimie. Ministre de l'Éducation de 1989 à 1996, elle a vu le nombre de filles scolarisées passer de 113 000 à 233 000 selon Le Courrier de Conakry. Elle a contribué à la création du FAWE en 1992 puis a travaillé à l'UNESCO.",
+      "roles": [
+        "ministre de l'Éducation",
+        "chimiste",
+        "responsable à l'UNESCO"
+      ],
+      "domaines": [
+        "éducation",
+        "sciences",
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S44",
+        "S17"
+      ],
+      "naissance": {
+        "date": "1942",
+        "lieu": "Kouroussa"
+      },
+      "wikidata": "Q4937291",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-personne-mafory-bangoura",
+      "nom": "Hadja Mafory Bangoura",
+      "description": "Née vers 1910 à Wonkifon, dans la préfecture de Coyah, dans une famille soussou, Mafory Bangoura fut couturière avant de présider le comité des femmes du RDA. Elle est condamnée à de la prison en 1955 puis libérée après une mobilisation de femmes. Devenue ministre des Affaires sociales, elle est morte à Bucarest en 1976 ; un collège de Conakry porte son nom depuis 2023.",
+      "roles": [
+        "militante du RDA",
+        "ministre des Affaires sociales"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S44",
+        "S45",
+        "S18",
+        "S17"
+      ],
+      "naissance": {
+        "date": "1910",
+        "lieu": "Wonkifon (Coyah)"
+      },
+      "deces": {
+        "date": "1976",
+        "lieu": "Bucarest (Roumanie)"
+      },
+      "wikidata": "Q1883677",
+      "regions": [
+        "Coyah",
+        "Conakry"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-personne-loffo-camara",
+      "nom": "Loffo Camara",
+      "description": "Loffo Camara, née vers 1925 à Macenta, fut sage-femme, députée puis secrétaire d'État aux Affaires sociales de 1961 à 1968, première femme membre d'un gouvernement guinéen. Écartée du pouvoir, elle fut arrêtée en décembre 1970 et fusillée le 25 janvier 1971 au camp Boiro, seule femme du groupe exécuté.",
+      "roles": [
+        "sage-femme",
+        "secrétaire d'État"
+      ],
+      "domaines": [
+        "politique",
+        "santé"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S44",
+        "S38",
+        "S18"
+      ],
+      "naissance": {
+        "date": "1925",
+        "lieu": "Macenta"
+      },
+      "deces": {
+        "date": "1971-01-25",
+        "lieu": "Conakry"
+      },
+      "wikidata": "Q6666650",
+      "sensible": true,
+      "note_sensibilite": "Exécution politique : sujet sensible, présentation factuelle.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-personne-binta-pilote",
+      "nom": "Binta Pilote",
+      "description": "Fatoumata Binta Diallo, dite Binta Pilote, est née à Labé en 1949. Enrôlée dans l'armée en 1971, elle se forme en URSS et devient la première femme pilote d'hélicoptère d'Afrique noire, pilote du chef de l'État. Elle est morte à Créteil en 2020.",
+      "roles": [
+        "pilote d'hélicoptère",
+        "colonel d'aviation",
+        "députée"
+      ],
+      "domaines": [
+        "aviation",
+        "armée"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S44",
+        "S18"
+      ],
+      "naissance": {
+        "date": "1949-12-27",
+        "lieu": "Labé"
+      },
+      "deces": {
+        "date": "2020-04-29",
+        "lieu": "Créteil (France)"
+      },
+      "wikidata": "Q93263571",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-personne-nadine-bari",
+      "nom": "Nadine Bari",
+      "description": "Née en 1940 en France, Nadine Bari était juriste, écrivaine et actrice. Installée en Guinée avec son mari après l'indépendance, elle est devenue une militante de la vérité sur les disparus des purges du régime de Sékou Touré. Elle est décédée le 10 décembre 2023 à La Réunion.",
+      "roles": [
+        "écrivaine",
+        "juriste",
+        "militante des droits humains"
+      ],
+      "domaines": [
+        "littérature",
+        "droit"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S48",
+        "S57",
+        "S17"
+      ],
+      "naissance": {
+        "date": "1940",
+        "lieu": "France (Terrasson-Lavilledieu selon Wikidata)"
+      },
+      "deces": {
+        "date": "2023-12-10",
+        "lieu": "La Réunion"
+      },
+      "wikidata": "Q115487053",
+      "sensible": true,
+      "note_sensibilite": "Militante liée aux disparus : contexte de violences d'État.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-personne-sia-tolno",
+      "nom": "Sia Tolno",
+      "description": "Sia Tolno, née à Guéckédou en 1975, a grandi à Freetown, où elle a commencé à chanter comme choriste. Réfugiée à Conakry en 1995 à cause de la guerre civile en Sierra Leone, elle poursuit une carrière de chanteuse d'afrobeat.",
+      "roles": [
+        "chanteuse"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S49",
+        "S17"
+      ],
+      "naissance": {
+        "date": "1975-02-21",
+        "lieu": "Guéckédou"
+      },
+      "wikidata": "Q11893309",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "evenements": [
+    {
+      "id": "GN-evenement-soumaoro-sosso",
+      "titre": "Règne de Soumaoro Kanté à Sosso",
+      "date": "1200-01-01",
+      "date_affichee": "début du XIIIe siècle",
+      "precision": "siecle",
+      "description": "Selon l'UNESCO, le roi Soumaoro Kanté accède au trône de Sosso au début du XIIIe siècle. Le balafon sacré Sosso-Bala lui est attribué, et il porte depuis lors les épopées de la région mandingue.",
+      "sources": [
+        "S3"
+      ],
+      "acteurs": [
+        "Soumaoro Kanté"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-empire-mali",
+      "titre": "Empire du Mali et capitale de Niani",
+      "date": "1200-01-01",
+      "date_affichee": "XIIIe-XVe siècle",
+      "precision": "siecle",
+      "description": "La liste indicative guinéenne présente Niani comme capitale d'une civilisation ouest-africaine qui s'est développée entre les XIIIe et XVe siècles, sous Soundiata Keïta et ses successeurs. L'archéologie polono-guinéenne y a trouvé des occupations entre le VIe et le XVIIe siècle ; l'identification de Niani comme capitale du Mali reste discutée par les historiens.",
+      "sources": [
+        "S5",
+        "S26",
+        "S27"
+      ],
+      "fin": "1500-01-01",
+      "acteurs": [
+        "Soundiata Keïta"
+      ],
+      "regions": [
+        "Haute-Guinée"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-fouilles-niani",
+      "titre": "Fouilles polono-guinéennes de Niani",
+      "date": "1965-01-01",
+      "date_affichee": "1965-1973",
+      "precision": "annee",
+      "description": "Des équipes polonaises et guinéennes fouillent le site de Niani en 1965, 1968 et 1973. Elles étudient le quartier royal, le quartier dit arabe, des villages, des tombes et des fours de forgerons, et obtiennent des datations radiocarbone entre le VIIIe et le XVIIe siècle.",
+      "sources": [
+        "S26",
+        "S5"
+      ],
+      "fin": "1973-12-31",
+      "acteurs": [
+        "Władysław Filipowiak"
+      ],
+      "regions": [
+        "Haute-Guinée"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-imamat-fouta",
+      "titre": "Naissance de l'imamat théocratique du Fouta Djallon",
+      "date": "1701-01-01",
+      "date_affichee": "première moitié du XVIIIe siècle",
+      "precision": "siecle",
+      "description": "Dans la première moitié du XVIIIe siècle se constitue au Fouta Djallon un État théocratique, dirigé par des Peuls musulmans, dont les provinces sont réunies à Timbo et à Fougoumba. Roger Botte souligne que cet État s'appuie aussi sur l'esclavage et la traite. Wikipédia date la bataille de Talansan de 1725.",
+      "sources": [
+        "S28",
+        "S6",
+        "S11"
+      ],
+      "acteurs": [
+        "Peuls du Fouta Djallon"
+      ],
+      "regions": [
+        "Moyenne-Guinée"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement lié à la guerre sainte et à la traite : présentation nuancée, contexte des sources.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-resistance-samory",
+      "titre": "Résistance de Samory Touré face à la France",
+      "date": "1881-01-01",
+      "date_affichee": "1881-1898",
+      "precision": "annee",
+      "description": "Pendant dix-huit ans, de 1881 à 1898, l'armée de Samory tient en échec les colonnes françaises, selon Mamba Sano. Ces affrontements retardent la soumission de la Haute-Guinée.",
+      "sources": [
+        "S32",
+        "S33"
+      ],
+      "fin": "1898-09-29",
+      "acteurs": [
+        "Samory Touré"
+      ],
+      "regions": [
+        "Haute-Guinée"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-protectorat-fouta",
+      "titre": "Protectorat français sur le Fouta Djallon",
+      "date": "1896-01-01",
+      "date_affichee": "1896",
+      "precision": "annee",
+      "description": "À la suite d'un traité signé avec l'almamy de Timbo, la France instaure en 1896 un protectorat sur le Fouta Djallon, ajouté aux « Rivières du Sud » de la Basse-Guinée.",
+      "sources": [
+        "S32"
+      ],
+      "regions": [
+        "Moyenne-Guinée"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-capture-samory",
+      "titre": "Capture de Samory Touré à Guélémou",
+      "date": "1898-09-29",
+      "date_affichee": "29 septembre 1898",
+      "precision": "jour",
+      "description": "Le 29 septembre 1898 au lever du jour, des tirailleurs de la colonne du capitaine Gouraud s'emparent de Samory à Guélémou. L'épisode a donné lieu à des récits rivaux dans l'armée française, et des images ont été reconstituées après coup.",
+      "sources": [
+        "S33",
+        "S34",
+        "S32"
+      ],
+      "acteurs": [
+        "Samory Touré",
+        "Henri Gouraud"
+      ],
+      "regions": [
+        "Haute-Guinée"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-guinee-francaise",
+      "titre": "Territoire délimité sous le nom de Guinée française",
+      "date": "1899-01-01",
+      "date_affichee": "1899",
+      "precision": "annee",
+      "description": "Mamba Sano écrit qu'en 1899 le territoire est délimité et regroupé dans sa forme actuelle sous le nom de Guinée française, au sein de l'AOF. Wikipédia date la proclamation de la colonie de 1891.",
+      "sources": [
+        "S32",
+        "S11"
+      ],
+      "regions": [
+        "Tout le pays"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-mort-samory",
+      "titre": "Mort de Samory Touré en exil au Gabon",
+      "date": "1900-06-02",
+      "date_affichee": "2 juin 1900",
+      "precision": "jour",
+      "description": "Samory meurt à Ndjolé, au Gabon, où l'administration coloniale l'avait déporté après sa capture. Son exil et sa mort sont devenus des éléments centraux de sa mémoire de résistant.",
+      "sources": [
+        "S17",
+        "S33"
+      ],
+      "acteurs": [
+        "Samory Touré"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-fin-alpha-yaya",
+      "titre": "Fin de la résistance d'Alpha Yaya à Labé",
+      "date": "1910-01-01",
+      "date_affichee": "1910",
+      "precision": "annee",
+      "description": "Alpha Yaya incarne, selon Mamba Sano, la résistance à Labé jusqu'en 1910, après deux déportations. Il meurt en exil en 1912 selon Wikidata. Le rôle exact de ce chef a été débattu par les historiens.",
+      "sources": [
+        "S32",
+        "S31",
+        "S17"
+      ],
+      "acteurs": [
+        "Alpha Yaya Diallo"
+      ],
+      "regions": [
+        "Labé"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-forestiere-1912",
+      "titre": "Régions toma et guerzé imparfaitement soumises jusqu'en 1912",
+      "date": "1912-01-01",
+      "date_affichee": "jusqu'en 1912",
+      "precision": "annee",
+      "description": "Mamba Sano indique que les régions toma et guerzé de la Guinée forestière restent hostiles et imparfaitement soumises jusqu'en 1912, et que des expéditions militaires y répriment des soulèvements.",
+      "sources": [
+        "S32"
+      ],
+      "acteurs": [
+        "Toma",
+        "Kpelle (Guerzé)"
+      ],
+      "regions": [
+        "Guinée forestière"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Violences coloniales ; présentation factuelle.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-nko-1949",
+      "titre": "Invention de l'alphabet n'ko",
+      "date": "1949-01-01",
+      "date_affichee": "1949",
+      "precision": "annee",
+      "description": "En 1949, Solomana Kanté crée l'alphabet n'ko pour écrire les langues mandingues, après avoir estimé que ces langues pouvaient être notées et dotées d'une grammaire. L'alphabet devient un mouvement culturel diffusé en Guinée, au Mali et en Côte d'Ivoire.",
+      "sources": [
+        "S24"
+      ],
+      "acteurs": [
+        "Solomana Kanté"
+      ],
+      "regions": [
+        "Haute-Guinée"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-greve-1953",
+      "titre": "Grève générale de 1953",
+      "date": "1953-01-01",
+      "date_affichee": "1953",
+      "precision": "annee",
+      "description": "Une grève générale marque l'année 1953 en Guinée. Selon Le Courrier de Conakry, elle met en contact Sékou Touré et Hadja Mafory Bangoura, qu'il encourage à mobiliser les femmes.",
+      "sources": [
+        "S44"
+      ],
+      "acteurs": [
+        "Sékou Touré",
+        "Mafory Bangoura"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-degaulle-conakry",
+      "titre": "Visite du général de Gaulle à Conakry",
+      "date": "1958-08-25",
+      "date_affichee": "25 août 1958",
+      "precision": "jour",
+      "description": "Le général de Gaulle, en campagne référendaire, arrive à Conakry. Devant l'Assemblée territoriale, Sékou Touré déclare préférer la pauvreté dans la liberté à la richesse dans l'esclavage, et de Gaulle répond que l'indépendance est possible en votant « non » le 28 septembre.",
+      "sources": [
+        "S29"
+      ],
+      "acteurs": [
+        "Charles de Gaulle",
+        "Sékou Touré"
+      ],
+      "regions": [
+        "Conakry"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-referendum-1958",
+      "titre": "Référendum du 28 septembre 1958",
+      "date": "1958-09-28",
+      "date_affichee": "28 septembre 1958",
+      "precision": "jour",
+      "description": "La Guinée vote « non » à la proposition de communauté française du général de Gaulle, seul pays d'Afrique francophone à le faire selon Wikipédia. Ce vote est évoqué par Mamba Sano comme le vote historique qui a conduit à l'indépendance.",
+      "sources": [
+        "S29",
+        "S32",
+        "S11"
+      ],
+      "acteurs": [
+        "Sékou Touré"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-independance",
+      "titre": "Proclamation de l'indépendance",
+      "date": "1958-10-02",
+      "date_affichee": "2 octobre 1958",
+      "precision": "jour",
+      "description": "La Guinée proclame son indépendance le 2 octobre 1958, obtenue pacifiquement selon Jeune Afrique. Sékou Touré en devient le premier président.",
+      "sources": [
+        "S39",
+        "S11"
+      ],
+      "acteurs": [
+        "Sékou Touré"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-onu-1958",
+      "titre": "Admission de la Guinée à l'ONU",
+      "date": "1958-12-12",
+      "date_affichee": "12 décembre 1958",
+      "precision": "jour",
+      "description": "L'ONU enregistre l'admission de la Guinée le 12 décembre 1958. Jeune Afrique attribue à Diallo Telli un rôle d'artisan de cette entrée.",
+      "sources": [
+        "S35",
+        "S40"
+      ],
+      "acteurs": [
+        "Diallo Telli"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-union-ghana",
+      "titre": "Union de la Guinée et du Ghana",
+      "date": "1958-12-01",
+      "date_affichee": "décembre 1958",
+      "precision": "mois",
+      "description": "En décembre 1958, les dirigeants de la Guinée et du Ghana entérinent leur union, dans une démarche panafricaine liée à la Conférence des peuples africains d'Accra. Wikipédia date de mai 1959 la formation formelle de l'union.",
+      "sources": [
+        "S50",
+        "S11"
+      ],
+      "acteurs": [
+        "Sékou Touré",
+        "Kwame Nkrumah"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-accords-1959",
+      "titre": "Accords franco-guinéens",
+      "date": "1959-01-07",
+      "date_affichee": "7 janvier 1959",
+      "precision": "jour",
+      "description": "Les accords franco-guinéens du 7 janvier 1959 règlent les relations entre la Guinée devenue indépendante et la France, comme le présente Georges Fischer dans l'Annuaire français de droit international.",
+      "sources": [
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-kakimbon-1961",
+      "titre": "Fouille de l'abri de Kakimbon",
+      "date": "1961-01-01",
+      "date_affichee": "1961",
+      "precision": "annee",
+      "description": "En 1961, l'archéologue tchécoslovaque Jan Jelinek fouille l'abri de Kakimbon, près de Conakry, avec le personnel du Musée national de Guinée. Les trouvailles, des outils de pierre notamment, sont déposées au musée de Conakry.",
+      "sources": [
+        "S25"
+      ],
+      "regions": [
+        "Conakry"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-langues-1966",
+      "titre": "Promotion des langues guinéennes à l'école",
+      "date": "1966-01-01",
+      "date_affichee": "1966-1984",
+      "precision": "annee",
+      "description": "À partir de 1966, le régime de Sékou Touré promeut les langues guinéennes au détriment du français. Huit langues sont introduites dans l'enseignement jusqu'en 1984 : soussou, peul, malinké, kissi, toma, coniagui, bassari et le français.",
+      "sources": [
+        "S19",
+        "S12"
+      ],
+      "fin": "1984-12-31",
+      "acteurs": [
+        "Sékou Touré"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-cendres-samory",
+      "titre": "Rapatriement des cendres de Samory",
+      "date": "1968-12-01",
+      "date_affichee": "fin 1968",
+      "precision": "mois",
+      "description": "Sékou Touré organise à la fin de 1968 le rapatriement des cendres de Samory Touré et lance un concours musical national pour chanter les résistants.",
+      "sources": [
+        "S42"
+      ],
+      "acteurs": [
+        "Sékou Touré",
+        "Samory Touré"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-regard-sur-le-passe",
+      "titre": "Enregistrement de « Regard sur le passé »",
+      "date": "1969-01-01",
+      "date_affichee": "1969",
+      "precision": "annee",
+      "description": "Le Bembeya Jazz National enregistre en 1969 « Regard sur le passé », longue épopée musicale à la gloire de Samory Touré et, par son intermédiaire, de Sékou Touré.",
+      "sources": [
+        "S42"
+      ],
+      "acteurs": [
+        "Bembeya Jazz National"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-mar-verde",
+      "titre": "Opération Mar Verde",
+      "date": "1970-01-01",
+      "date_affichee": "1970",
+      "precision": "annee",
+      "description": "En 1970, le Portugal organise un débarquement militaire accompagné d'une tentative de coup d'État, qui échoue selon Wikipédia. Il est suivi d'arrestations, dont celle de Loffo Camara, arrêtée en décembre 1970.",
+      "sources": [
+        "S11",
+        "S44"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Conflit et répression : positions des parties à documenter.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-25-janvier-1971",
+      "titre": "Exécutions du 25 janvier 1971",
+      "date": "1971-01-25",
+      "date_affichee": "25 janvier 1971",
+      "precision": "jour",
+      "description": "Le 25 janvier 1971, des centaines de Guinéens sont exécutés à Conakry, selon Africanews, et plus de quatre-vingts à l'échelle nationale selon un porte-parole de familles. Loffo Camara fait partie des personnes fusillées au camp Boiro.",
+      "sources": [
+        "S38",
+        "S44"
+      ],
+      "acteurs": [
+        "Loffo Camara"
+      ],
+      "regions": [
+        "Conakry"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Violences d'État : présentation factuelle, avec la parole des familles.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-mort-telli",
+      "titre": "Mort de Diallo Telli en détention",
+      "date": "1977-03-01",
+      "date_affichee": "1er mars 1977",
+      "precision": "jour",
+      "description": "Arrêté dans la nuit du 18 au 19 juillet 1976 et accusé de complot, Diallo Telli meurt en détention le 1er mars 1977. Jeune Afrique rapporte des aveux obtenus sous la torture.",
+      "sources": [
+        "S40"
+      ],
+      "acteurs": [
+        "Diallo Telli"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Détention politique et torture : sujet sensible.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-nimba-1981",
+      "titre": "Inscription du mont Nimba au patrimoine mondial",
+      "date": "1981-01-01",
+      "date_affichee": "1981",
+      "precision": "annee",
+      "description": "La réserve naturelle intégrale du mont Nimba est inscrite en 1981, puis ses limites sont modifiées en 1982. Elle est placée sur la liste du patrimoine mondial en péril en 1992.",
+      "sources": [
+        "S1"
+      ],
+      "regions": [
+        "Guinée forestière"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-mort-sekou",
+      "titre": "Mort de Sékou Touré",
+      "date": "1984-03-26",
+      "date_affichee": "26 mars 1984",
+      "precision": "jour",
+      "description": "Sékou Touré meurt à Cleveland, aux États-Unis, après une opération de l'aorte. Sa dépouille est ramenée à Conakry, exposée au Palais du peuple puis inhumée au mausolée de Camayenne.",
+      "sources": [
+        "S39"
+      ],
+      "acteurs": [
+        "Sékou Touré"
+      ],
+      "regions": [
+        "Conakry"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-coup-1984",
+      "titre": "Prise du pouvoir par l'armée",
+      "date": "1984-04-03",
+      "date_affichee": "nuit du 2 au 3 avril 1984",
+      "precision": "jour",
+      "description": "Dans la nuit du 2 au 3 avril 1984, l'armée du colonel Lansana Conté prend le pouvoir et forme un Comité militaire de redressement national. Les prisonniers politiques du camp Boiro sont libérés et les institutions du Parti-État dissoutes.",
+      "sources": [
+        "S39"
+      ],
+      "acteurs": [
+        "Lansana Conté"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement politique : sources de presse, à contextualiser.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-coup-2008",
+      "titre": "Mort de Lansana Conté et prise du pouvoir par le CNDD",
+      "date": "2008-12-23",
+      "date_affichee": "22-23 décembre 2008",
+      "precision": "jour",
+      "description": "Après la mort du président Lansana Conté le 22 décembre 2008, des dignitaires militaires annoncent le 23 décembre la dissolution du gouvernement et la suspension de la Constitution. Le capitaine Moussa Dadis Camara prend la tête du CNDD.",
+      "sources": [
+        "S11"
+      ],
+      "acteurs": [
+        "Moussa Dadis Camara"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Épisode politique récent : sourcé uniquement par Wikipédia, à confirmer.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-massacre-2009",
+      "titre": "Massacre du stade de Conakry",
+      "date": "2009-09-28",
+      "date_affichee": "28 septembre 2009",
+      "precision": "jour",
+      "description": "Le 28 septembre 2009, une manifestation de l'opposition est réprimée par des militaires au stade de Conakry. Le bureau du procureur de la CPI conclut à des crimes contre l'humanité, dont meurtres, viols et disparitions forcées ; RFI évoquait en 2010 plus de 150 morts et plus de 100 femmes violées.",
+      "sources": [
+        "S36",
+        "S37"
+      ],
+      "regions": [
+        "Conakry"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Crimes contre l'humanité établis par la CPI ; responsabilités individuelles en cours de jugement : présentation strictement factuelle.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-cnt-2010",
+      "titre": "Rabiatou Serah Diallo nommée présidente du CNT",
+      "date": "2010-02-08",
+      "date_affichee": "8 février 2010",
+      "precision": "jour",
+      "description": "Après le massacre de 2009 et l'exil de Moussa Dadis Camara, Rabiatou Serah Diallo est nommée le 8 février 2010 présidente du Conseil national de transition, chargé de conduire la transition vers des élections.",
+      "sources": [
+        "S44",
+        "S43"
+      ],
+      "acteurs": [
+        "Rabiatou Serah Diallo"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-coup-2021",
+      "titre": "Coup d'État du 5 septembre 2021",
+      "date": "2021-09-05",
+      "date_affichee": "5 septembre 2021",
+      "precision": "jour",
+      "description": "Des forces spéciales dirigées par Mamadi Doumbouya capturent le président Alpha Condé et une junte prend le pouvoir. Le pays entre dans une transition dont le calendrier est resté discuté.",
+      "sources": [
+        "S11"
+      ],
+      "acteurs": [
+        "Mamadi Doumbouya",
+        "Alpha Condé"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Actualité politique : source unique Wikipédia, à confirmer.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-cpi-2022",
+      "titre": "Clôture de l'examen préliminaire de la CPI",
+      "date": "2022-09-29",
+      "date_affichee": "29 septembre 2022",
+      "precision": "jour",
+      "description": "Le 29 septembre 2022, le procureur de la CPI clôt l'examen préliminaire sur la Guinée en constatant que les autorités nationales ne sont ni inactives ni réticentes, avec l'ouverture du procès national sur les événements de 2009. Un mémorandum d'entente est signé.",
+      "sources": [
+        "S36"
+      ],
+      "regions": [
+        "Conakry"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Justice pénale internationale et nationale : présentation factuelle.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-evenement-constitution-2025",
+      "titre": "Nouvelle Constitution et langues nationales",
+      "date": "2025-09-26",
+      "date_affichee": "26 septembre 2025",
+      "precision": "jour",
+      "description": "Une nouvelle Constitution est promulguée le 26 septembre 2025, selon Wikipédia. Elle redonne aux langues nationales un statut officiel aux côtés du français, comme l'annonçait en juin 2025 le président du CNT.",
+      "sources": [
+        "S11",
+        "S20"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Contexte politique contesté : présentation neutre.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "oeuvres": [
+    {
+      "id": "GN-oeuvre-dmba",
+      "titre": "Coiffe D'mba (grande mère)",
+      "type": "masque",
+      "description": "Cette grande coiffe en bois sculptée, d'environ 1,18 m de haut, représente un D'mba, désigné « grande mère » dans la notice du Met. Elle date de la fin du XIXe siècle à la première moitié du XXe siècle. Elle fait partie de la collection Michael C. Rockefeller du musée.",
+      "sources": [
+        "S79",
+        "S23"
+      ],
+      "communaute": "Baga",
+      "materiaux": [
+        "bois"
+      ],
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "1979.206.17",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/312189",
+      "droits": "Notice du Met (données Open Access CC0) ; image non reproduite ici car non libre.",
+      "periode": "fin XIXe - première moitié du XXe siècle",
+      "regions": [
+        "Basse-Guinée"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Objet rituel ou sacré : sens et usages relevant des communautés. Présentation prudente, sans détail initiatique ; la question de la provenance et d'une éventuelle restitution reste ouverte.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-oeuvre-mantsho",
+      "titre": "Coiffe a-Mantsho-ña-Tshol (maître de la médecine)",
+      "type": "masque",
+      "description": "Cimier en bois, peint, lié au vocabulaire de la médecine dans la notice du Met, qui le nomme « maître de la médecine ». Il date du XIXe siècle à la première moitié du XXe. Il appartient à la collection Rockefeller.",
+      "sources": [
+        "S80"
+      ],
+      "communaute": "Baga",
+      "materiaux": [
+        "bois (Vitex doniana)",
+        "pigment"
+      ],
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "1979.206.101",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/312304",
+      "droits": "Notice du Met (données Open Access CC0) ; image non reproduite ici car non libre.",
+      "periode": "XIXe - première moitié du XXe siècle",
+      "regions": [
+        "Basse-Guinée"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Objet rituel ou sacré : sens et usages relevant des communautés. Présentation prudente, sans détail initiatique ; la question de la provenance et d'une éventuelle restitution reste ouverte.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-oeuvre-banda-nalu",
+      "titre": "Masque Banda",
+      "type": "masque",
+      "description": "Masque en bois peint, de plus d'un mètre de long, attribué aux Nalu de Guinée. Il date de la fin du XIXe siècle à la première moitié du XXe siècle. Il a été donné au Met par Nelson A. Rockefeller en 1964.",
+      "sources": [
+        "S81",
+        "S11"
+      ],
+      "communaute": "Nalu",
+      "materiaux": [
+        "bois",
+        "peinture"
+      ],
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "1978.412.307",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/310750",
+      "droits": "Notice du Met (données Open Access CC0) ; image non reproduite ici car non libre.",
+      "periode": "fin XIXe - première moitié du XXe siècle",
+      "regions": [
+        "Basse-Guinée"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Objet rituel ou sacré : sens et usages relevant des communautés. Présentation prudente, sans détail initiatique ; la question de la provenance et d'une éventuelle restitution reste ouverte.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-oeuvre-andef",
+      "titre": "A-ndëf (tambour)",
+      "type": "musique",
+      "description": "Tambour en bois à une peau, haut d'environ 1,09 m, attribué aux Baga et à la région du Niger. Il date de la fin du XIXe siècle. Le Met l'a acquis en 2012.",
+      "sources": [
+        "S82"
+      ],
+      "communaute": "Baga",
+      "materiaux": [
+        "bois",
+        "peau"
+      ],
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "2012.358",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/506808",
+      "droits": "Domaine public (Open Access du Met, CC0).",
+      "periode": "fin XIXe siècle",
+      "regions": [
+        "Haute-Guinée (région du Niger)"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Objet rituel ou sacré : sens et usages relevant des communautés. Présentation prudente, sans détail initiatique ; la question de la provenance et d'une éventuelle restitution reste ouverte.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-oeuvre-timba",
+      "titre": "Timba (tambour à figure)",
+      "type": "musique",
+      "description": "Grand tambour de bois polychrome, d'une hauteur d'environ 1,29 m, attribué aux Baga. Sa notice du Met le relie à des thèmes de maternité et d'allaitement. Il date de la fin du XIXe ou du début du XXe siècle.",
+      "sources": [
+        "S83"
+      ],
+      "communaute": "Baga",
+      "materiaux": [
+        "bois polychrome"
+      ],
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "2003.316",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/503620",
+      "droits": "Notice du Met (données Open Access CC0) ; image non reproduite ici car non libre.",
+      "periode": "fin XIXe - début XXe siècle",
+      "regions": [
+        "Basse-Guinée"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Objet rituel ou sacré : sens et usages relevant des communautés. Présentation prudente, sans détail initiatique ; la question de la provenance et d'une éventuelle restitution reste ouverte.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-oeuvre-tambour-mere-enfant",
+      "titre": "Tambour à figure de mère et d'enfant",
+      "type": "musique",
+      "description": "Tambour en bois peint, haut d'environ un mètre, surmonté d'un groupe sculpté de type mère et enfant. Il est attribué aux Baga et date du XIXe à la moitié du XXe siècle. Il a été donné au Met par Nelson A. Rockefeller en 1968.",
+      "sources": [
+        "S84"
+      ],
+      "communaute": "Baga",
+      "materiaux": [
+        "bois",
+        "pigment"
+      ],
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "1978.412.582",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/311043",
+      "droits": "Notice du Met (données Open Access CC0) ; image non reproduite ici car non libre.",
+      "periode": "XIXe - milieu du XXe siècle",
+      "regions": [
+        "Basse-Guinée"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Objet rituel ou sacré : sens et usages relevant des communautés. Présentation prudente, sans détail initiatique ; la question de la provenance et d'une éventuelle restitution reste ouverte.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-oeuvre-hoddu",
+      "titre": "Hoddu (xalam), luth peul",
+      "type": "instrument",
+      "description": "Luth à cordes pincées en bois et peau, long d'environ 65 cm, attribué aux Peuls. Le Met signale une origine possible au Mali, en Guinée, en Guinée-Bissau ou en Sénégambie, ce qui rend sa provenance incertaine. Il date de la fin du XIXe siècle.",
+      "sources": [
+        "S85"
+      ],
+      "communaute": "Peuls",
+      "materiaux": [
+        "bois",
+        "peau"
+      ],
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "89.4.473",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/501091",
+      "droits": "Domaine public (Open Access du Met, CC0).",
+      "periode": "fin XIXe siècle",
+      "regions": [
+        "Moyenne-Guinée (provenance incertaine)"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-oeuvre-sosso-bala",
+      "titre": "Sosso-Bala, balafon sacré",
+      "type": "instrument",
+      "description": "Balafon d'environ 1,5 m de long, composé de vingt lames sous lesquelles sont fixées des calebasses. Il symbolise la liberté et la cohésion des Mandingues. L'instrument original est conservé à Nyagassola, dans une case ronde en terre, sous la garde du Balatigui.",
+      "sources": [
+        "S3"
+      ],
+      "communaute": "Mandingues (famille Dökala, griots Kouyaté)",
+      "materiaux": [
+        "bois",
+        "calebasses"
+      ],
+      "institution": "Conservé par la famille Dökala à Nyagassola (Guinée)",
+      "url_notice": "https://ich.unesco.org/en/RL/cultural-space-of-sosso-bala-00009",
+      "droits": "Notice UNESCO ; images de l'UNESCO non reproduites.",
+      "periode": "XIIIe siècle selon la tradition",
+      "regions": [
+        "Haute-Guinée (Nyagassola)"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Instrument sacré dont l'accès et l'usage sont réservés ; conservation par la famille gardienne.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-oeuvre-regard-sur-le-passe",
+      "titre": "« Regard sur le passé » (Bembeya Jazz National)",
+      "type": "musique",
+      "description": "Longue épopée musicale enregistrée en 1969 par le Bembeya Jazz National, orchestre né en 1961. Elle chante Samory Touré, héros de la résistance, et à travers lui le président Sékou Touré. Elle a créé un modèle suivi par d'autres orchestres ouest-africains.",
+      "sources": [
+        "S42"
+      ],
+      "createur": "Bembeya Jazz National",
+      "institution": "Disques et rééditions (lieu de conservation à préciser)",
+      "url_notice": "https://www.jeuneafrique.com/1146049/culture/serie-le-bembeya-jazz-chante-les-heros-de-la-guinee-3-5/",
+      "droits": "Œuvre protégée (droits des ayants droit)",
+      "periode": "1969",
+      "sensible": true,
+      "note_sensibilite": "Œuvre liée à la mémoire de Samory Touré et à la propagande d'un régime : lecture critique recommandée.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-oeuvre-enfant-noir",
+      "titre": "L'Enfant noir",
+      "type": "livre",
+      "description": "Premier roman de Camara Laye, paru à Paris en 1953, largement autobiographique. Il est considéré comme un texte fondateur de la littérature africaine contemporaine. Il a reçu le prix Charles Veillon 1954 et inspiré un film en 1995.",
+      "sources": [
+        "S13",
+        "S51"
+      ],
+      "createur": "Camara Laye",
+      "institution": "Bibliothèque nationale de France (notice d'auteur)",
+      "url_notice": "https://data.bnf.fr/ark:/12148/cb11894907d",
+      "droits": "Œuvre protégée",
+      "periode": "1953",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-oeuvre-pleuvoir-conakry",
+      "titre": "Il va pleuvoir sur Conakry",
+      "type": "film",
+      "description": "Film franco-guinéen de Cheick Fantamady Camara, sorti en 2007. Il décrit le malaise de jeunes Africains pris entre tradition et modernité.",
+      "sources": [
+        "S14"
+      ],
+      "createur": "Cheick Fantamady Camara",
+      "url_notice": "https://fr.wikipedia.org/wiki/Il_va_pleuvoir_sur_Conakry",
+      "droits": "Œuvre protégée",
+      "periode": "2007",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GN-oeuvre-hymne-liberte",
+      "titre": "Hymne national « Liberté » (mélodie « Alpha Yaya »)",
+      "type": "musique",
+      "description": "Selon Mamba Sano, l'hymne national est tiré d'une mélodie de griots maninka composée en l'honneur d'Alpha Yaya. Deux phrases en maninka, traduites par l'auteur, en forment le noyau, avec des variations ultérieures. Elle est devenue l'hymne de la Guinée indépendante.",
+      "sources": [
+        "S32"
+      ],
+      "communaute": "Maninka (griots)",
+      "institution": "Recherches africaines (publication de 1963)",
+      "url_notice": "http://www.webguinee.net/bibliotheque/archives/rechAfric/1963/2-3/AYHymneNational.html",
+      "droits": "Texte de Mamba Sano ; reproduction en ligne WebGuinée",
+      "periode": "hymne depuis 1958",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "proverbes": [],
+  "sources": [
+    {
+      "id": "S1",
+      "titre": "Réserve naturelle intégrale du mont Nimba (bien n° 155)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/155",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S2",
+      "titre": "Guinée : État partie à la Convention du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/etatsparties/gn",
+      "type": "unesco",
+      "licence": "UNESCO — conditions d'utilisation du site",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S3",
+      "titre": "Cultural space of Sosso-Bala (élément 00009)",
+      "institution": "UNESCO, patrimoine culturel immatériel",
+      "annee": 2008,
+      "url": "https://ich.unesco.org/en/RL/cultural-space-of-sosso-bala-00009",
+      "type": "unesco",
+      "licence": "UNESCO — conditions d'utilisation du site",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S4",
+      "titre": "Guinea — Intangible Cultural Heritage (page État)",
+      "institution": "UNESCO, patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/state/guinea-GN",
+      "type": "unesco",
+      "licence": "UNESCO — conditions d'utilisation du site",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S5",
+      "titre": "Niani, cité médiévale, ancienne capitale de l'empire du Mali (liste indicative n° 6818)",
+      "institution": "UNESCO, Centre du patrimoine mondial / Guinée",
+      "annee": 2025,
+      "url": "https://whc.unesco.org/fr/listesindicatives/6818/",
+      "type": "unesco",
+      "licence": "UNESCO — conditions d'utilisation du site",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S6",
+      "titre": "La case de couronnement des Almamy du Fouta Djallon (liste indicative n° 6820)",
+      "institution": "UNESCO, Centre du patrimoine mondial / Guinée",
+      "annee": 2025,
+      "url": "https://whc.unesco.org/fr/listesindicatives/6820/",
+      "type": "unesco",
+      "licence": "UNESCO — conditions d'utilisation du site",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S7",
+      "titre": "Massif du Fouta Djallon (liste indicative n° 7040)",
+      "institution": "UNESCO, Centre du patrimoine mondial / Guinée",
+      "annee": 2026,
+      "url": "https://whc.unesco.org/fr/listesindicatives/7040/",
+      "type": "unesco",
+      "licence": "UNESCO — conditions d'utilisation du site",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S8",
+      "titre": "Paysage culturel Bassari (liste indicative n° 6814)",
+      "institution": "UNESCO, Centre du patrimoine mondial / Guinée",
+      "annee": 2025,
+      "url": "https://whc.unesco.org/fr/listesindicatives/6814/",
+      "type": "unesco",
+      "licence": "UNESCO — conditions d'utilisation du site",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S9",
+      "titre": "Architecture vernaculaire et paysage culturel mandingue du Gberedou/Hamana (liste indicative n° 1521)",
+      "institution": "UNESCO, Centre du patrimoine mondial / Guinée",
+      "annee": 2001,
+      "url": "https://whc.unesco.org/fr/listesindicatives/1521/",
+      "type": "unesco",
+      "licence": "UNESCO — conditions d'utilisation du site",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S10",
+      "titre": "Route de l'esclave en Afrique, segment de Timbo au Rio Pongo (liste indicative n° 1523)",
+      "institution": "UNESCO, Centre du patrimoine mondial / Guinée",
+      "annee": 2001,
+      "url": "https://whc.unesco.org/fr/listesindicatives/1523/",
+      "type": "unesco",
+      "licence": "UNESCO — conditions d'utilisation du site",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S11",
+      "titre": "Guinée",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Guin%C3%A9e",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S12",
+      "titre": "Langues en Guinée",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Langues_en_Guin%C3%A9e",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S13",
+      "titre": "L'Enfant noir",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/L%27Enfant_noir",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S14",
+      "titre": "Il va pleuvoir sur Conakry",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Il_va_pleuvoir_sur_Conakry",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S15",
+      "titre": "Population, total — Guinée (SP.POP.TOTL)",
+      "institution": "Banque mondiale",
+      "annee": 2025,
+      "url": "https://api.worldbank.org/v2/country/GIN/indicator/SP.POP.TOTL?format=json&per_page=3",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S16",
+      "titre": "Surface area (sq. km) — Guinée (AG.SRF.TOTL.K2)",
+      "institution": "Banque mondiale",
+      "annee": 2024,
+      "url": "https://api.worldbank.org/v2/country/GIN/indicator/AG.SRF.TOTL.K2?format=json&per_page=3",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S17",
+      "titre": "Wikidata — entités des personnalités (lot 1)",
+      "institution": "Wikidata",
+      "annee": 2026,
+      "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|descriptions|claims&languages=fr|en&ids=Q469314|Q155402|Q473154|Q2975296|Q175772|Q2996980|Q1371169|Q472572|Q3032943|Q533901|Q551576|Q23541021|Q285080|Q1543352|Q39501387|Q532082|Q1883677|Q40267563|Q115487053|Q4937291|Q11893309|Q104413194",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S18",
+      "titre": "Wikidata — entités des personnalités (lot 2)",
+      "institution": "Wikidata",
+      "annee": 2026,
+      "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=labels|descriptions|claims&languages=fr|en&ids=Q6666650|Q93263571|Q924276|Q1006",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S19",
+      "titre": "La politique linguistique de la Guinée de 1966 à 1984",
+      "institution": "Persée — Mots. Les langages du politique",
+      "auteur": "Ali Badara Sylla",
+      "annee": 1997,
+      "url": "https://www.persee.fr/doc/mots_0243-6450_1997_num_52_1_2472",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès ouvert Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S20",
+      "titre": "Dansa Kourouma : « Les langues nationales ont désormais la même valeur que le français »",
+      "institution": "Guinéenews",
+      "auteur": "Alhassane Bah",
+      "annee": 2025,
+      "url": "https://guineenews.org/2025/06/30/dansa-kourouma-les-langues-nationales-ont-desormais-la-meme-valeur-que-le-francais/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S21",
+      "titre": "Les noms des riz en Guinée (suite) — Les Toma",
+      "institution": "Persée — Journal d'agriculture tropicale et de botanique appliquée",
+      "auteur": "Roland Portères",
+      "annee": 1965,
+      "url": "https://www.persee.fr/doc/jatba_0021-7662_1965_num_12_12_2857",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès ouvert Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S22",
+      "titre": "Les noms des riz en Guinée (suite) — Les Ngerze et les Manon",
+      "institution": "Persée — Journal d'agriculture tropicale et de botanique appliquée",
+      "auteur": "Roland Portères",
+      "annee": 1966,
+      "url": "https://www.persee.fr/doc/jatba_0021-7662_1966_num_13_1_2867",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès ouvert Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S23",
+      "titre": "Des riziculteurs africains : les Baga (Guinée française)",
+      "institution": "Persée — Cahiers d'outre-mer",
+      "auteur": "Denise Paulme",
+      "annee": 1957,
+      "url": "https://www.persee.fr/doc/caoum_0373-5834_1957_num_10_39_2044",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès ouvert Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S24",
+      "titre": "Le N'Ko au Mali",
+      "institution": "Persée — Cahiers d'études africaines",
+      "auteur": "Jean-Loup Amselle",
+      "annee": 1996,
+      "url": "https://www.persee.fr/doc/cea_0008-0055_1996_num_36_144_1870",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès ouvert Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S25",
+      "titre": "La grotte de Kakimbon en République de Guinée",
+      "institution": "Persée — Bulletin de la Société préhistorique française",
+      "auteur": "Jan Jelinek, Joseph Pelisek, Karel Valoch",
+      "annee": 1964,
+      "url": "https://www.persee.fr/doc/bspf_0249-7638_1964_hos_61_2_4003",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès ouvert Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S26",
+      "titre": "Compte rendu de W. Filipowiak, Études archéologiques sur la capitale du Mali",
+      "institution": "Persée — Journal des africanistes",
+      "auteur": "Raymond Mauny",
+      "annee": 1980,
+      "url": "https://www.persee.fr/doc/jafr_0399-0346_1980_num_50_2_2014_t2_0265_0000_2",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès ouvert Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S27",
+      "titre": "Le complexe du palais royal du Mali",
+      "institution": "Persée — Mélanges Raymond Mauny",
+      "auteur": "Władysław Filipowiak",
+      "annee": 1981,
+      "url": "https://www.persee.fr/doc/sfhom_1768-7144_1981_mel_5_1_924",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès ouvert Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S28",
+      "titre": "Les rapports Nord-Sud, la traite négrière et le Fuuta Jaloo à la fin du XVIIIe siècle",
+      "institution": "Persée — Annales. Économies, Sociétés, Civilisations",
+      "auteur": "Roger Botte",
+      "annee": 1991,
+      "url": "https://www.persee.fr/doc/ahess_0395-2649_1991_num_46_6_279017",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès ouvert Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S29",
+      "titre": "Sékou Touré et l'indépendance guinéenne. Déconstruction d'un mythe et retour sur une histoire",
+      "institution": "Persée — Outre-mers",
+      "auteur": "Abdoulaye Diallo",
+      "annee": 2008,
+      "url": "https://www.persee.fr/doc/outre_1631-0438_2008_num_95_358_4329",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès ouvert Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S30",
+      "titre": "L'indépendance de la Guinée et les accords franco-guinéens",
+      "institution": "Persée — Annuaire français de droit international",
+      "auteur": "Georges Fischer",
+      "annee": 1958,
+      "url": "https://www.persee.fr/doc/afdi_0066-3085_1958_num_4_1_1410",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès ouvert Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S31",
+      "titre": "Alfa Yaya Diallo fut-il un héros national de Guinée ou l'innocente victime d'un règlement de compte entre gouverneurs ?",
+      "institution": "Persée — Revue française d'histoire d'outre-mer",
+      "auteur": "Robert Cornevin",
+      "annee": 1970,
+      "url": "https://www.persee.fr/doc/outre_0300-9513_1970_num_57_208_1513",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès ouvert Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S32",
+      "titre": "De la mélodie populaire « Alpha Yaya » à l'Hymne national « Liberté »",
+      "institution": "WebGuinée — Recherches africaines (Études guinéennes), n° 2-3, 1963, p. 28-32",
+      "auteur": "Mamba Sano",
+      "annee": 1963,
+      "url": "http://www.webguinee.net/bibliotheque/archives/rechAfric/1963/2-3/AYHymneNational.html",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (reproduction en ligne WebGuinée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S33",
+      "titre": "Photographies de Samori Touré : de la carte postale coloniale aux pochettes de vinyles",
+      "institution": "OpenEdition Journals — Cahiers d'études africaines",
+      "auteur": "Elara Bertho",
+      "annee": 2018,
+      "url": "https://journals.openedition.org/etudesafricaines/22087",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès ouvert OpenEdition)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S34",
+      "titre": "Julie d'Andurain, La capture de Samory (1898) (compte rendu)",
+      "institution": "OpenEdition Journals — Revue historique des armées",
+      "annee": 2013,
+      "url": "https://journals.openedition.org/rha/7701",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès ouvert OpenEdition)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S35",
+      "titre": "Liste des États membres de l'ONU (dates d'admission)",
+      "institution": "Organisation des Nations unies",
+      "url": "https://www.un.org/en/about-us/member-states",
+      "type": "institution",
+      "licence": "© ONU",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S36",
+      "titre": "Guinea — Preliminary examination",
+      "institution": "Cour pénale internationale",
+      "annee": 2022,
+      "url": "https://www.icc-cpi.int/guinea",
+      "type": "institution",
+      "licence": "© CPI",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S37",
+      "titre": "Guinée : premier anniversaire du massacre du 28 septembre 2009",
+      "institution": "RFI",
+      "annee": 2010,
+      "url": "http://www.rfi.fr/afrique/20100928-guinee-premier-anniversaire-massacre-28-septembre-2009",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S38",
+      "titre": "Guinée : commémoration d'exécutions de masse sous le régime de Sékou Touré",
+      "institution": "Africanews",
+      "annee": 2018,
+      "url": "https://fr.africanews.com/2018/01/26/guinee-commemoration-d-executions-de-masse-sous-le-regime-de-sekou-toure/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S39",
+      "titre": "Mort du président guinéen Sékou Touré",
+      "institution": "Jeune Afrique",
+      "annee": 2007,
+      "url": "http://www.jeuneafrique.com/71043/archives-thematique/mort-du-pr-sident-guin-en-s-kou-tour/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S40",
+      "titre": "Devenus anciens patrons de l'OUA et de l'Union africaine",
+      "institution": "Jeune Afrique",
+      "annee": 2016,
+      "url": "http://www.jeuneafrique.com/402046/politique/devenus-anciens-patrons-de-loua-de-lunion-africaine/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S41",
+      "titre": "La Guinée endeuillée par la disparition de Jeanne Martin Cissé, figure de l'indépendance et des droits des femmes",
+      "institution": "Jeune Afrique",
+      "auteur": "François-Xavier Freland",
+      "annee": 2017,
+      "url": "http://www.jeuneafrique.com/405868/politique/guinee-endeuillee-disparition-de-jeanne-martin-cisse-figure-de-lindependance-droits-femmes/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S42",
+      "titre": "[Série] Bembeya Jazz : « Regard sur le passé », une épopée à la gloire de Sékou Touré (3/5)",
+      "institution": "Jeune Afrique",
+      "auteur": "Léo Pajon",
+      "annee": 2021,
+      "url": "https://www.jeuneafrique.com/1146049/culture/serie-le-bembeya-jazz-chante-les-heros-de-la-guinee-3-5/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S43",
+      "titre": "Guinée : Hadja Rabiatou Sérah Diallo a été enterrée à Conakry",
+      "institution": "RFI",
+      "annee": 2023,
+      "url": "https://www.rfi.fr/fr/afrique/20230701-guin%C3%A9e-hadja-rabiatou-s%C3%A9rah-diallo-a-regagn%C3%A9-sa-derni%C3%A8re-demeure",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S44",
+      "titre": "Ces femmes qui ont laissé leur empreinte indélébile dans l'histoire de la Guinée",
+      "institution": "Le Courrier de Conakry",
+      "url": "https://lecourrierdeconakry.com/ces-femmes-qui-ont-laisse-leur-empreinte-indelebile-dans-lhistoire-de-la-guinee/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S45",
+      "titre": "Éducation : le collège de Madina change de nom pour devenir Hadja Mafory Bangoura",
+      "institution": "MediaGuinée",
+      "auteur": "Youssouf Keita",
+      "annee": 2023,
+      "url": "https://mediaguinee.com/education-le-college-de-madina-change-de-nom-pour-devenir-hadja-mafory-bangoura/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S46",
+      "titre": "Le chanteur guinéen Mory Kanté, connu pour son tube « Yéké Yéké », est mort à l'âge de 70 ans",
+      "institution": "franceinfo",
+      "annee": 2020,
+      "url": "https://www.francetvinfo.fr/culture/musique/musique-du-monde/le-chanteur-guineen-mory-kante-connu-dans-le-monde-entier-pour-son-tube-yeke-yeke-est-mort-a-70-ans_3976209.html",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S47",
+      "titre": "Sory Kandia Kouyaté: Guinea's Voice Of Revolution",
+      "institution": "NPR",
+      "auteur": "Banning Eyre",
+      "annee": 2012,
+      "url": "https://www.npr.org/2012/07/11/156608458/sory-kandia-kouyat-guineas-voice-of-revolution",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S48",
+      "titre": "Nécrologie – Décès de Nadine Bari, combattante de la vérité sur les « disparus » en Guinée",
+      "institution": "Guinéenews",
+      "annee": 2023,
+      "url": "https://guineenews.org/necrologie-deces-de-nadine-bari-combattante-de-la-verite-sur-les-disparus-en-guinee/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S49",
+      "titre": "Sia Tolno — En sol majeur",
+      "institution": "RFI",
+      "annee": 2014,
+      "url": "http://www.rfi.fr/emission/20140727-1-sia-tolno",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S50",
+      "titre": "Union de la Guinée et du Ghana",
+      "institution": "Lumni Enseignement (INA)",
+      "annee": 1958,
+      "url": "https://enseignants.lumni.fr/fiche-media/00000000756/union-de-la-guinee-et-du-ghana.html",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S51",
+      "titre": "data.bnf.fr — Laye Camara (1928-1980)",
+      "institution": "Bibliothèque nationale de France",
+      "url": "https://data.bnf.fr/ark:/12148/cb11894907d",
+      "type": "base_de_donnees",
+      "licence": "Licence ouverte (voir conditions du site)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S52",
+      "titre": "data.bnf.fr — Fodéba Keïta (1921-1969)",
+      "institution": "Bibliothèque nationale de France",
+      "url": "https://data.bnf.fr/ark:/12148/cb12437235n",
+      "type": "base_de_donnees",
+      "licence": "Licence ouverte (voir conditions du site)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S53",
+      "titre": "data.bnf.fr — Djibril Tamsir Niane (1932-2021)",
+      "institution": "Bibliothèque nationale de France",
+      "url": "https://data.bnf.fr/ark:/12148/cb119176410",
+      "type": "base_de_donnees",
+      "licence": "Licence ouverte (voir conditions du site)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S54",
+      "titre": "data.bnf.fr — Souleymane Kanté (1922-1987)",
+      "institution": "Bibliothèque nationale de France",
+      "url": "https://data.bnf.fr/ark:/12148/cb17802810h",
+      "type": "base_de_donnees",
+      "licence": "Licence ouverte (voir conditions du site)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S55",
+      "titre": "data.bnf.fr — Diallo Telli (1925-1977)",
+      "institution": "Bibliothèque nationale de France",
+      "url": "https://data.bnf.fr/ark:/12148/cb11972333k",
+      "type": "base_de_donnees",
+      "licence": "Licence ouverte (voir conditions du site)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S56",
+      "titre": "data.bnf.fr — Ahmed Sékou Touré (1922-1984)",
+      "institution": "Bibliothèque nationale de France",
+      "url": "https://data.bnf.fr/ark:/12148/cb12018830q",
+      "type": "base_de_donnees",
+      "licence": "Licence ouverte (voir conditions du site)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S57",
+      "titre": "data.bnf.fr — Nadine Bari (1940-2023)",
+      "institution": "Bibliothèque nationale de France",
+      "url": "https://data.bnf.fr/ark:/12148/cb11890226s",
+      "type": "base_de_donnees",
+      "licence": "Licence ouverte (voir conditions du site)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S58",
+      "titre": "data.bnf.fr — Mory Kanté (1950-2020)",
+      "institution": "Bibliothèque nationale de France",
+      "url": "https://data.bnf.fr/ark:/12148/cb13895844v",
+      "type": "base_de_donnees",
+      "licence": "Licence ouverte (voir conditions du site)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S59",
+      "titre": "Glottolog 5.4 — Pular (pula1262)",
+      "institution": "Glottolog (MPI-EVA)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/pula1262",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S60",
+      "titre": "Glottolog 5.4 — Eastern Maninkakan (east2426)",
+      "institution": "Glottolog (MPI-EVA)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/east2426",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S61",
+      "titre": "Glottolog 5.4 — Susu (susu1250)",
+      "institution": "Glottolog (MPI-EVA)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/susu1250",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S62",
+      "titre": "Glottolog 5.4 — Northern Kissi (nort2765)",
+      "institution": "Glottolog (MPI-EVA)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/nort2765",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S63",
+      "titre": "Glottolog 5.4 — Guinea Kpelle (guin1254)",
+      "institution": "Glottolog (MPI-EVA)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/guin1254",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S64",
+      "titre": "Glottolog 5.4 — Toma (toma1245)",
+      "institution": "Glottolog (MPI-EVA)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/toma1245",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S65",
+      "titre": "Glottolog 5.4 — Konyanka Maninka (kony1250)",
+      "institution": "Glottolog (MPI-EVA)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/kony1250",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S66",
+      "titre": "Glottolog 5.4 — Yalunka (yalu1240)",
+      "institution": "Glottolog (MPI-EVA)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/yalu1240",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S67",
+      "titre": "Glottolog 5.4 — Kuranko (kura1250)",
+      "institution": "Glottolog (MPI-EVA)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/kura1250",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S68",
+      "titre": "Glottolog 5.4 — Baga Sitemu (baga1272)",
+      "institution": "Glottolog (MPI-EVA)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/baga1272",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S69",
+      "titre": "Glottolog 5.4 — Nalu (nalu1240)",
+      "institution": "Glottolog (MPI-EVA)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/nalu1240",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S70",
+      "titre": "Glottolog 5.4 — Landoma (land1256)",
+      "institution": "Glottolog (MPI-EVA)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/land1256",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S71",
+      "titre": "Glottolog 5.4 — Wamey (wame1240)",
+      "institution": "Glottolog (MPI-EVA)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/wame1240",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S72",
+      "titre": "Glottolog 5.4 — Bassari-Tanda (bass1258)",
+      "institution": "Glottolog (MPI-EVA)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/bass1258",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S73",
+      "titre": "Glottolog 5.4 — Jaad-Badyara (bady1239)",
+      "institution": "Glottolog (MPI-EVA)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/bady1239",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S74",
+      "titre": "Glottolog 5.4 — Mann (mann1248)",
+      "institution": "Glottolog (MPI-EVA)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/mann1248",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S75",
+      "titre": "Glottolog 5.4 — Mbulungish (mbul1258)",
+      "institution": "Glottolog (MPI-EVA)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/mbul1258",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S76",
+      "titre": "Glottolog 5.4 — Jahanka (jaha1245)",
+      "institution": "Glottolog (MPI-EVA)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/jaha1245",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S77",
+      "titre": "Glottolog 5.4 — French (stan1290)",
+      "institution": "Glottolog (MPI-EVA)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/stan1290",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S78",
+      "titre": "Glottolog 5.4 — N'Ko (nkoa1234)",
+      "institution": "Glottolog (MPI-EVA)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/nkoa1234",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S79",
+      "titre": "Metropolitan Museum of Art — D'mba (great mother) headdress, 1979.206.17",
+      "institution": "The Metropolitan Museum of Art (API collection)",
+      "annee": 2026,
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/312189",
+      "type": "musee",
+      "licence": "CC0 (données Open Access)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S80",
+      "titre": "Metropolitan Museum of Art — a-Mantsho-ña-Tshol (master of medicine) headdress, 1979.206.101",
+      "institution": "The Metropolitan Museum of Art (API collection)",
+      "annee": 2026,
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/312304",
+      "type": "musee",
+      "licence": "CC0 (données Open Access)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S81",
+      "titre": "Metropolitan Museum of Art — Banda mask, 1978.412.307",
+      "institution": "The Metropolitan Museum of Art (API collection)",
+      "annee": 2026,
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/310750",
+      "type": "musee",
+      "licence": "CC0 (données Open Access)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S82",
+      "titre": "Metropolitan Museum of Art — A-ndëf, 2012.358",
+      "institution": "The Metropolitan Museum of Art (API collection)",
+      "annee": 2026,
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/506808",
+      "type": "musee",
+      "licence": "CC0 (données Open Access)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S83",
+      "titre": "Metropolitan Museum of Art — Timba, 2003.316",
+      "institution": "The Metropolitan Museum of Art (API collection)",
+      "annee": 2026,
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/503620",
+      "type": "musee",
+      "licence": "CC0 (données Open Access)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S84",
+      "titre": "Metropolitan Museum of Art — Drum with Mother and Child Figure, 1978.412.582",
+      "institution": "The Metropolitan Museum of Art (API collection)",
+      "annee": 2026,
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/311043",
+      "type": "musee",
+      "licence": "CC0 (données Open Access)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S85",
+      "titre": "Metropolitan Museum of Art — Hoddu (Xalam), 89.4.473",
+      "institution": "The Metropolitan Museum of Art (API collection)",
+      "annee": 2026,
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/501091",
+      "type": "musee",
+      "licence": "CC0 (données Open Access)",
+      "consulte_le": "2026-11-21"
+    }
+  ]
+}

@@ -1,0 +1,3575 @@
+{
+  "code": "LY",
+  "nom": "Libye",
+  "region": "nord",
+  "wikidata": "Q1016",
+  "maj": "2026-11-21",
+  "pays": {
+    "nom_officiel": "État de Libye",
+    "capitale": "Tripoli",
+    "langues_officielles": [
+      "arabe"
+    ],
+    "langues_nationales": [],
+    "population": {
+      "valeur": 7458555,
+      "annee": 2025,
+      "source": "S1"
+    },
+    "superficie_km2": 1759540,
+    "monnaie": "Dinar libyen (LYD)",
+    "resume": "La Libye est un pays d'Afrique du Nord ouvert sur la Méditerranée, dont la capitale est Tripoli ; son territoire, très largement saharien, réunit trois régions historiques, la Tripolitaine, la Cyrénaïque et le Fezzan. Il porte la trace de couches successives : peintures rupestres du Tadrart Acacus, comptoirs phéniciens et cités puniques, colonies grecques de la Pentapole (Cyrène), grandes cités romaines (Leptis Magna, Sabratha), puis conquête arabe, régence ottomane et colonisation italienne. L'indépendance a été proclamée le 24 décembre 1951. Aux côtés de l'arabe, seule langue officielle, la Déclaration constitutionnelle de 2011 garantit les droits linguistiques et culturels des Amazighs, des Toubous, des Touaregs et des autres composantes de la société libyenne. Cinq sites sont inscrits au patrimoine mondial et un élément, le kohl arabe, au patrimoine culturel immatériel (2025). Depuis 2011, le pays traverse une longue période de transition politique, qui pèse sur la protection de son patrimoine.",
+    "sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6"
+    ]
+  },
+  "langues": [
+    {
+      "id": "LY-langue-arabe",
+      "nom": "Arabe (standard moderne)",
+      "nom_local": "العربية",
+      "description": "L'arabe est la seule langue officielle de la Libye selon la Déclaration constitutionnelle de 2011. Dans la vie courante, la grande majorité des habitants parle des variétés locales d'arabe, tandis que la forme standard sert à l'écrit, à l'administration et aux médias.",
+      "famille": "Afro-asiatique, sémitique",
+      "glottocode": "arab1395",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "ecritures": [
+        "arabe"
+      ],
+      "sources": [
+        "S3",
+        "S7",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode arab1395 (famille « Arabic ») confirmé sur Glottolog ; le standard moderne (Q56467) n'a pas de glottocode propre."
+      },
+      "wikidata": "Q13955",
+      "regions": [
+        "Ensemble du pays"
+      ]
+    },
+    {
+      "id": "LY-langue-arabe-libyen",
+      "nom": "Arabe libyen",
+      "nom_local": "العربية الليبية",
+      "description": "L'arabe libyen est la variété d'arabe parlée au quotidien dans la majeure partie du pays. Glottolog (d'après Ethnologue) le décrit comme langue de communication élargie, utilisée aussi comme langue véhiculaire par des Libyens dont la première langue n'est pas l'arabe, ainsi que dans la poésie populaire et les échanges en ligne.",
+      "famille": "Afro-asiatique, sémitique, arabe",
+      "glottocode": "liby1240",
+      "statut_linguistique": [
+        "véhiculaire"
+      ],
+      "ecritures": [
+        "arabe"
+      ],
+      "sources": [
+        "S9",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q56503",
+      "regions": [
+        "Ensemble du pays"
+      ]
+    },
+    {
+      "id": "LY-langue-arabe-est-libyen",
+      "nom": "Arabe de l'est libyen",
+      "nom_local": "عربية شرق ليبيا",
+      "description": "Les parlers de Cyrénaïque forment un ensemble distinct des parlers de Tripolitaine et du Fezzan : d'après la Library of Congress, ceux de l'est ressemblent à ceux d'Égypte et du Proche-Orient, alors que ceux de l'ouest appartiennent au groupe maghrébin. Glottolog en isole une entrée de dialecte, « Eastern Libyan Arabic ».",
+      "famille": "Afro-asiatique, sémitique, arabe",
+      "glottocode": "east2691",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "arabe"
+      ],
+      "sources": [
+        "S10",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q123347094",
+      "regions": [
+        "Cyrénaïque"
+      ]
+    },
+    {
+      "id": "LY-langue-nafusi",
+      "nom": "Nafusi",
+      "nom_local": "Tanfusit",
+      "description": "Le nafusi est la langue amazighe (berbère) du Djebel Nefousa, dans l'ouest de la Tripolitaine. La Library of Congress (1987) note que la langue berbère survit surtout dans les hauteurs du Djebel Nefousa et à Awjila ; Glottolog la classe parmi les langues en danger.",
+      "famille": "Afro-asiatique, berbère",
+      "glottocode": "nafu1238",
+      "statut_linguistique": [
+        "minoritaire",
+        "régionale"
+      ],
+      "ecritures": [],
+      "sources": [
+        "S11",
+        "S12",
+        "S13"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode nafu1238 confirmé sur Glottolog (statut AES : en danger). Écritures non renseignées faute de source."
+      },
+      "wikidata": "Q36151",
+      "regions": [
+        "Djebel Nefousa (Tripolitaine)"
+      ]
+    },
+    {
+      "id": "LY-langue-awjila",
+      "nom": "Awjila (tamazight d'Awjila)",
+      "nom_local": "Awjili",
+      "description": "L'awjila est une langue berbère de l'oasis d'Awjila, en Cyrénaïque méridionale. L'Encyclopédie berbère précise que son nom local désigne le parler des « Awjilins » et que l'oasis est citée dès Hérodote ; Glottolog la décrit comme menacée par le glissement vers l'arabe.",
+      "famille": "Afro-asiatique, berbère",
+      "glottocode": "awji1241",
+      "statut_linguistique": [
+        "minoritaire",
+        "menacée"
+      ],
+      "ecritures": [],
+      "sources": [
+        "S14",
+        "S15",
+        "S12"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q56398",
+      "regions": [
+        "Oasis d'Awjila (Cyrénaïque)"
+      ]
+    },
+    {
+      "id": "LY-langue-ghadamsi",
+      "nom": "Ghadamsi (ghadamès)",
+      "nom_local": "Ghadamsi",
+      "description": "Le ghadamsi est la langue berbère de l'oasis de Ghadamès, dans l'ouest du Fezzan, près des frontières algérienne et tunisienne. L'Encyclopédie berbère y consacre une description grammaticale et rappelle que cette oasis a longtemps vécu du commerce transsaharien ; Glottolog la juge menacée.",
+      "famille": "Afro-asiatique, berbère",
+      "glottocode": "ghad1239",
+      "statut_linguistique": [
+        "minoritaire",
+        "menacée"
+      ],
+      "ecritures": [],
+      "sources": [
+        "S16",
+        "S17"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q56747",
+      "regions": [
+        "Ghadamès (Fezzan)"
+      ]
+    },
+    {
+      "id": "LY-langue-tamahaq",
+      "nom": "Tamahaq (touareg)",
+      "nom_local": "Tamahaq",
+      "description": "Le tamahaq est la variété de touareg parlée par une partie des Touaregs du sud-ouest libyen, autour de Ghat et de Ghadamès, comme dans l'Ahaggar algérien voisin. La Library of Congress la désigne sous le nom de tamasheq et la range parmi les dialectes berbères ; Glottolog la juge menacée.",
+      "famille": "Afro-asiatique, berbère, touareg",
+      "glottocode": "taha1241",
+      "statut_linguistique": [
+        "minoritaire",
+        "menacée"
+      ],
+      "ecritures": [
+        "tifinagh"
+      ],
+      "sources": [
+        "S18",
+        "S19",
+        "S20"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode taha1241 (Tahaggart Tamahaq) confirmé sur Glottolog. Tifinagh : usage touareg cité par la Library of Congress."
+      },
+      "wikidata": "Q56703",
+      "regions": [
+        "Sud-ouest (Ghat, Ghadamès)"
+      ]
+    },
+    {
+      "id": "LY-langue-tedaga",
+      "nom": "Tedaga (tebu)",
+      "nom_local": "Tedaga",
+      "description": "Le tedaga est la langue des Toubous (Tebu), installés dans l'extrême sud libyen et dans les pays voisins. La Library of Congress la rattache à la famille nilo-saharienne et note que ses dialectes ne sont pas tous intercompréhensibles ; Glottolog la classe comme menacée.",
+      "famille": "Nilo-saharien, saharien",
+      "glottocode": "teda1241",
+      "statut_linguistique": [
+        "minoritaire",
+        "menacée"
+      ],
+      "ecritures": [],
+      "sources": [
+        "S21",
+        "S22",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q36639",
+      "regions": [
+        "Sud (Koufra, Fezzan méridional)"
+      ]
+    },
+    {
+      "id": "LY-langue-lsl",
+      "nom": "Langue des signes libyenne",
+      "nom_local": "لغة الإشارة الليبية",
+      "description": "La langue des signes libyenne est la langue de la communauté sourde du pays. Glottolog la rattache, d'après des travaux de lexicostatistique, à la famille des langues des signes arabes, aux côtés des langues des signes égyptienne, levantine, irakienne et yéménite.",
+      "famille": "Langues des signes (famille arabe)",
+      "glottocode": "liby1235",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "ecritures": [],
+      "sources": [
+        "S23"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q11775688",
+      "regions": [
+        "Ensemble du pays"
+      ]
+    }
+  ],
+  "peuples": [
+    {
+      "id": "LY-peuple-arabes",
+      "nom": "Arabes de Libye",
+      "description": "Les Libyens arabophones forment la grande majorité de la population. Selon la Library of Congress, la diffusion de l'arabe et de l'islam débute avec la conquête du VIIe siècle, puis s'amplifie avec l'arrivée des groupes bédouins Banu Hilal et Banu Sulaym au XIe siècle, la Cyrénaïque étant l'une des régions les plus profondément arabisées. La société reste marquée par des appartenances familiales et régionales fortes, entre villes côtières, oasis et vie pastorale.",
+      "langues": [
+        "arabe libyen",
+        "arabe de l'est libyen"
+      ],
+      "regions": [
+        "Tripolitaine",
+        "Cyrénaïque",
+        "Fezzan"
+      ],
+      "sources": [
+        "S24",
+        "S25",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "organisation": "Appartenances familiales et régionales ; la source (1987) décrit une vie pastorale saisonnière dans certaines zones et des villages sédentaires ailleurs."
+    },
+    {
+      "id": "LY-peuple-amazighs-nefousa",
+      "nom": "Amazighs du Djebel Nefousa et de Zouara",
+      "description": "Les Amazighs (Berbères) du nord-ouest libyen vivent surtout dans le Djebel Nefousa, en Tripolitaine, et dans quelques localités côtières. Leur langue est le nafusi. Selon la Library of Congress (1987), la majorité des Berbères de Libye suit le rite kharidjite ; Wikipédia rappelle qu'un imamat ibadite s'est appuyé sur le Djebel Nefousa au VIIIe siècle. La Déclaration constitutionnelle de 2011 cite explicitement les droits linguistiques et culturels des Amazighs.",
+      "langues": [
+        "nafusi"
+      ],
+      "regions": [
+        "Djebel Nefousa",
+        "Zouara"
+      ],
+      "sources": [
+        "S12",
+        "S13",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "LY-peuple-awjilins",
+      "nom": "Awjilins (habitants de l'oasis d'Awjila)",
+      "description": "Les Awjilins sont les habitants berbérophones de l'oasis d'Awjila, en Cyrénaïque méridionale, qui vivent de la palmeraie et ont longtemps pratiqué le commerce caravanier. L'Encyclopédie berbère les décrit au début du XIXe siècle autour de 10 000 personnes, et distingue plusieurs groupes locaux ; elle indique un recul de la population au XXe siècle. Leur langue est l'awjila.",
+      "langues": [
+        "awjila"
+      ],
+      "regions": [
+        "Oasis d'Awjila (Cyrénaïque)"
+      ],
+      "sources": [
+        "S15",
+        "S12"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "LY-peuple-ghadamsis",
+      "nom": "Ghadamsis (habitants de Ghadamès)",
+      "description": "Les Ghadamsis habitent l'oasis de Ghadamès, au sud-ouest du pays. Commerçants réputés du Sahara, ils ont vécu du commerce transsaharien jusqu'à son déclin au XIXe siècle. D'après l'Encyclopédie berbère, la ville est répartie entre plusieurs quartiers historiques, organisés en groupes familiaux, avec une société longtemps très hiérarchisée ; l'émigration vers Tripoli et Tunis est devenue un fait économique majeur.",
+      "langues": [
+        "ghadamsi"
+      ],
+      "regions": [
+        "Ghadamès (Fezzan)"
+      ],
+      "sources": [
+        "S17",
+        "S26",
+        "S27"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "LY-peuple-touaregs",
+      "nom": "Touaregs de Libye",
+      "description": "Des Touaregs vivent dans le sud-ouest libyen, autour de Ghat et de Ghadamès, en lien étroit avec les Touaregs d'Algérie et du Sahara. Ils parlent le tamahaq (tamasheq). La Library of Congress (1987) note que les femmes y jouissent d'un statut élevé et que la transmission passe par la lignée maternelle ; la Déclaration constitutionnelle de 2011 cite les droits linguistiques et culturels des Touaregs. Le festival de Ghat met en valeur leur culture.",
+      "langues": [
+        "tamahaq"
+      ],
+      "regions": [
+        "Ghat",
+        "Ghadamès",
+        "Fezzan"
+      ],
+      "sources": [
+        "S19",
+        "S17",
+        "S3",
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": [
+        "DZ"
+      ]
+    },
+    {
+      "id": "LY-peuple-toubous",
+      "nom": "Toubous (Tebu)",
+      "description": "Les Toubous (Tebu) forment une communauté de l'extrême sud libyen, qui se prolonge au Tchad, au Niger et au Soudan. Leur identité est liée à leur langue, le tedaga, de famille nilo-saharienne. La Library of Congress (1987) décrit une économie mêlant élevage, agriculture et culture du palmier-dattier, avec un islam marqué par l'influence senoussie. Les effectifs cités par cette source (environ 2 600 en Libye) sont très anciens et ne reflètent pas la situation actuelle. La Déclaration constitutionnelle de 2011 mentionne leurs droits culturels.",
+      "langues": [
+        "tedaga"
+      ],
+      "regions": [
+        "Sud libyen (Koufra, Fezzan méridional)"
+      ],
+      "sources": [
+        "S22",
+        "S3",
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": [
+        "TD",
+        "NE",
+        "SD"
+      ]
+    },
+    {
+      "id": "LY-peuple-kouloughlis",
+      "nom": "Kouloughlis",
+      "description": "Les Kouloughlis, de l'arabe « fils de serviteurs », descendent d'unions entre soldats ottomans et femmes libyennes. Sous la régence de Tripoli, ils occupaient de hautes fonctions administratives et militaires et se sentaient proches des intérêts locaux ; la dynastie Karamanli, fondée en 1711, est issue de ce milieu. La Library of Congress (1987) les présente comme un groupe distinct installé près de Tripoli ; Wikipédia signale encore des locuteurs de turc issus de cette communauté à Tripoli, Benghazi et Misrata.",
+      "langues": [
+        "arabe libyen"
+      ],
+      "regions": [
+        "Tripoli",
+        "Misrata",
+        "Benghazi"
+      ],
+      "sources": [
+        "S29",
+        "S30",
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "LY-peuple-italiens",
+      "nom": "Communauté italienne de Libye",
+      "description": "Pendant la période coloniale, des colons venus d'Italie se sont installés surtout en Tripolitaine et en Cyrénaïque : environ 110 000 en 1940, soit 12 % de la population selon la Library of Congress, sur des terres souvent prises à des communautés pastorales libyennes. Ce peuplement fait partie de l'histoire coloniale douloureuse du pays ; l'italien y reste présent à petite échelle et son enseignement a été relancé à l'école comme langue facultative en 2024, d'après Wikipédia.",
+      "langues": [
+        "italien"
+      ],
+      "regions": [
+        "Tripolitaine",
+        "Cyrénaïque"
+      ],
+      "sources": [
+        "S32",
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": [
+        "IT"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Histoire coloniale : spoliations foncières et violences ; formulation à faire valider par un historien ou une institution libyenne."
+    }
+  ],
+  "sites": [
+    {
+      "id": "LY-site-leptis-magna",
+      "nom": "Leptis Magna",
+      "type": "patrimoine_mondial",
+      "description": "Fondée comme cité punique sur la côte de la Tripolitaine, Leptis Magna atteint son apogée à l'époque romaine, surtout sous l'empereur Septime Sévère, né dans la ville. L'UNESCO y relève un port artificiel, un marché, un forum et une basilique sévériens, un arc, un théâtre, un hippodrome et un amphithéâtre. Le bien est sur la Liste du patrimoine mondial en péril depuis 2016.",
+      "regions": [
+        "Tripolitaine",
+        "Al-Khums"
+      ],
+      "sources": [
+        "S4",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "periode": "Antiquité (punique puis romaine)",
+      "unesco_id": "183",
+      "inscription": 1982,
+      "coordonnees": {
+        "lat": 32.636748,
+        "lng": 14.2922
+      },
+      "wikidata": "Q191504"
+    },
+    {
+      "id": "LY-site-tadrart-acacus",
+      "nom": "Sites rupestres du Tadrart Acacus",
+      "type": "patrimoine_mondial",
+      "description": "Massif rocheux du Fezzan, à la frontière du Tassili n'Ajjer algérien, le Tadrart Acacus abrite des milliers de peintures rupestres de styles très variés, qui s'étalent d'environ 12 000 av. J.-C. au Ier siècle de notre ère. Elles montrent les changements de la faune et de la flore et les modes de vie successifs des populations du Sahara. Le bien est sur la Liste du patrimoine mondial en péril depuis 2016.",
+      "regions": [
+        "Fezzan",
+        "Ghat"
+      ],
+      "sources": [
+        "S33"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "periode": "de 12 000 av. J.-C. au Ier siècle",
+      "unesco_id": "287",
+      "inscription": 1985,
+      "coordonnees": {
+        "lat": 24.833429166,
+        "lng": 10.333319444
+      },
+      "wikidata": "Q308807"
+    },
+    {
+      "id": "LY-site-sabratha",
+      "nom": "Site archéologique de Sabratha",
+      "type": "patrimoine_mondial",
+      "description": "Comptoir phénicien qui écoulait les produits de l'intérieur africain, Sabratha fit partie du royaume numide de Massinissa avant d'être romanisée et reconstruite aux IIe et IIIe siècles. Son théâtre à trois ordres, cité par l'UNESCO, est son monument le plus connu. Le bien est sur la Liste du patrimoine mondial en péril depuis 2016.",
+      "regions": [
+        "Tripolitaine",
+        "Sabratha"
+      ],
+      "sources": [
+        "S34",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "periode": "Antiquité (phénicienne puis romaine)",
+      "unesco_id": "184",
+      "inscription": 1982,
+      "coordonnees": {
+        "lat": 32.80528,
+        "lng": 12.485
+      },
+      "wikidata": "Q15052130"
+    },
+    {
+      "id": "LY-site-ghadames",
+      "nom": "Ancienne ville de Ghadamès",
+      "type": "patrimoine_mondial",
+      "description": "Surnommée « la perle du désert », Ghadamès est une oasis habitée depuis très longtemps, exemple remarquable d'habitat traditionnel présaharien. Ses maisons répartissent les fonctions par niveaux : réserves au rez-de-chaussée, étage familial, terrasses à ciel ouvert réservées aux femmes, reliées par des passages couverts. L'inscription date de 1986 ; le bien a été inscrit sur la Liste en péril en 2016 et en a été retiré en 2025 d'après la page UNESCO.",
+      "regions": [
+        "Fezzan",
+        "Ghadamès"
+      ],
+      "sources": [
+        "S26",
+        "S17",
+        "S27"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "غدامس",
+      "periode": "habitat traditionnel présaharien",
+      "unesco_id": "362",
+      "inscription": 1986,
+      "coordonnees": {
+        "lat": 30.133333333,
+        "lng": 9.5
+      },
+      "wikidata": "Q192237"
+    },
+    {
+      "id": "LY-site-cyrene",
+      "nom": "Site archéologique de Cyrène",
+      "type": "patrimoine_mondial",
+      "description": "Colonie fondée par des Grecs de l'île de Théra, Cyrène fut l'une des principales villes du monde hellénique, puis romanisée ; elle resta une grande capitale jusqu'au tremblement de terre de 365. L'UNESCO écrit qu'un millénaire d'histoire est inscrit dans ses ruines. Le bien est sur la Liste du patrimoine mondial en péril depuis 2016.",
+      "regions": [
+        "Cyrénaïque",
+        "Shahhat"
+      ],
+      "sources": [
+        "S35",
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "periode": "de l'époque grecque (VIIe s. av. J.-C.) à l'Antiquité tardive",
+      "unesco_id": "190",
+      "inscription": 1982,
+      "coordonnees": {
+        "lat": 32.816666666,
+        "lng": 21.85
+      },
+      "wikidata": "Q44112"
+    },
+    {
+      "id": "LY-site-ptolemais",
+      "nom": "Site archéologique de Ptolémaïs",
+      "type": "liste_indicative",
+      "description": "Ptolémaïs est l'une des cinq cités de la Pentapole de Cyrénaïque. Sur la côte, à environ 110 km à l'est de Benghazi, elle devient une cité hellénistique au IIIe siècle av. J.-C., puis capitale de la province romaine de Libye supérieure sous Dioclétien, avec un évêché influent. Les fouilles ont livré des mosaïques, des sculptures, des inscriptions et des monnaies. Le site est sur la liste indicative de la Libye (dépôt du 20 juillet 2020).",
+      "regions": [
+        "Cyrénaïque"
+      ],
+      "sources": [
+        "S37",
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "periode": "VIIe s. av. J.-C. à l'époque islamique",
+      "coordonnees": {
+        "lat": 32.7079,
+        "lng": 20.9517
+      }
+    },
+    {
+      "id": "LY-site-ghirza",
+      "nom": "Site archéologique de Ghirza",
+      "type": "liste_indicative",
+      "description": "Ghirza est un site de frontière du pré-désert de Tripolitaine, à environ 250 km au sud-est de la côte. On y trouve une quarantaine de structures, un temple et deux nécropoles aux mausolées richement décorés, dont les reliefs mêlent influences romaines, puniques et locales. Les vestiges conservés datent surtout de la fin du IIIe et du IVe siècle. Le site est sur la liste indicative (dépôt du 20 juillet 2020).",
+      "regions": [
+        "Tripolitaine"
+      ],
+      "sources": [
+        "S39",
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "periode": "Ier au IVe siècle",
+      "coordonnees": {
+        "lat": 30.9467,
+        "lng": 14.5511
+      }
+    },
+    {
+      "id": "LY-site-haua-fteah",
+      "nom": "Grotte de Haua Fteah",
+      "type": "site_archeologique",
+      "description": "La grotte de Haua Fteah est un vaste abri sous roche de la Djebel Akhdar, dans l'est de la Cyrénaïque, à environ 8 km à l'est de Soussa. Les fouilles de l'Université de Cambridge (1951-1955, puis 2007-2015) y ont montré une occupation humaine d'environ 150 000 ans, avec des mandibules d'Homo sapiens. Elle est sur la liste indicative de la Libye (dépôt du 20 juillet 2020). Les coordonnées de la fiche UNESCO sont incohérentes et n'ont pas été reprises.",
+      "regions": [
+        "Cyrénaïque",
+        "Soussa"
+      ],
+      "sources": [
+        "S40",
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "periode": "Paléolithique à nos jours"
+    },
+    {
+      "id": "LY-site-mosquee-awjila",
+      "nom": "Mosquée ancienne d'Awjila",
+      "type": "monument",
+      "description": "La mosquée ancienne d'Awjila, d'architecture saharienne en terre et en pierre, occupe environ 827 m² au centre de la vieille ville. Selon le dossier libyen déposé à l'UNESCO, elle date du XIIe siècle ; sa salle de prière est couverte de vingt et une petites coupoles coniques qui régulent la chaleur et la lumière, et deux de ses nefs ne subsistent que partiellement. Elle figure sur la liste indicative (dépôt du 15 avril 2026).",
+      "regions": [
+        "Cyrénaïque",
+        "Awjila"
+      ],
+      "sources": [
+        "S41",
+        "S38",
+        "S15"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "periode": "XIIe siècle",
+      "coordonnees": {
+        "lat": 29.1276,
+        "lng": 21.2909
+      }
+    },
+    {
+      "id": "LY-site-apollonia",
+      "nom": "Apollonia de Cyrénaïque (Soussa)",
+      "type": "site_archeologique",
+      "description": "Apollonia était le port de Cyrène et l'une des cinq cités de la Pentapole, avec Barké, Euhespérides, Teuchira et Cyrène. Selon la Library of Congress, la région s'enrichit grâce au grain, au vin, à la laine et au silphium, plante propre à la Cyrénaïque.",
+      "regions": [
+        "Cyrénaïque",
+        "Soussa"
+      ],
+      "sources": [
+        "S36",
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "periode": "VIIe s. av. J.-C. à l'Antiquité tardive"
+    },
+    {
+      "id": "LY-site-tripoli",
+      "nom": "Tripoli",
+      "type": "ville_historique",
+      "description": "Tripoli, capitale du pays, est née comme comptoir phénicien (Oea) et fut l'une des trois cités de la « Tripolis » punique avec Leptis et Sabratha. Sous la régence ottomane et la dynastie Karamanli, elle était la seule ville d'importance, peuplée d'Arabes, de Turcs, de Kouloughlis, de juifs et de commerçants européens. Elle compte aujourd'hui environ 1,1 million d'habitants selon Wikipédia.",
+      "regions": [
+        "Tripolitaine"
+      ],
+      "sources": [
+        "S6",
+        "S29",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "periode": "Antiquité à nos jours",
+      "coordonnees": {
+        "lat": 32.9,
+        "lng": 13.1858
+      }
+    },
+    {
+      "id": "LY-site-koufra",
+      "nom": "Oasis de Koufra",
+      "type": "lieu_de_memoire",
+      "description": "Koufra, grande oasis du désert libyque dans le sud-est, fut le dernier bastion senoussi : la Library of Congress indique que sa chute en 1931 précéda la capture d'Omar al-Mokhtar. La reine Fatima el-Sharif y serait née en 1911. Le lieu garde une place centrale dans la mémoire de la résistance à l'Italie.",
+      "regions": [
+        "Fezzan oriental",
+        "Koufra"
+      ],
+      "sources": [
+        "S42",
+        "S43"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "periode": "1931 (chute de Koufra)",
+      "sensible": true,
+      "note_sensibilite": "Mémoire de la résistance anticoloniale et de la répression italienne ; formulation à valider."
+    },
+    {
+      "id": "LY-site-jaghbub",
+      "nom": "Jaghbub (Giarabub)",
+      "type": "lieu_de_memoire",
+      "description": "Oasis de l'est de la Cyrénaïque, Jaghbub fut la ville sainte et le siège de la confrérie senoussie, où Omar al-Mokhtar étudia ; Idris Ier y naquit. Les Italiens l'occupèrent en février 1926 d'après Encyclopedia.com. Le lieu est associé à la formation de la confrérie et à la résistance anticoloniale.",
+      "regions": [
+        "Cyrénaïque"
+      ],
+      "sources": [
+        "S44",
+        "S45"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "periode": "XIXe-XXe siècle",
+      "sensible": true,
+      "note_sensibilite": "Mémoire de la confrérie senoussie et de la résistance anticoloniale ; formulation à valider."
+    },
+    {
+      "id": "LY-site-al-bayda",
+      "nom": "Al-Bayda, première zawiya senoussie de Cyrénaïque",
+      "type": "lieu_de_memoire",
+      "description": "Al-Bayda, dans le Djebel Akhdar, est la ville où Muhammad bin Ali as-Sanusi fonda en 1843 la première zawiya (loge) de la confrérie en Cyrénaïque. La Library of Congress explique que le relatif éloignement de l'autorité ottomane y rendait l'enseignement de la confrérie plus facile à diffuser parmi les populations de l'intérieur.",
+      "regions": [
+        "Cyrénaïque",
+        "Al-Bayda"
+      ],
+      "sources": [
+        "S46"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "periode": "depuis 1843"
+    }
+  ],
+  "traditions": [
+    {
+      "id": "LY-tradition-kohl-arabe",
+      "nom": "Kohl arabe",
+      "categorie": "artisanat",
+      "description": "Le kohl est une fine poudre noire utilisée comme eye-liner par toutes et tous : cosmétique, protection contre le vent, le sable et le soleil, mais aussi remède et pratique rituelle. Fabriqué à la maison ou en réunion, surtout par des femmes qui transmettent le savoir à leurs filles et petites-filles, il est conservé dans des flacons décorés, les makhala. L'élément est inscrit en 2025 sur la Liste représentative, en commun avec huit autres États arabes.",
+      "regions": [
+        "Ensemble du pays"
+      ],
+      "communautes": [
+        "Communautés bédouines et nomades",
+        "communautés rurales",
+        "femmes"
+      ],
+      "sources": [
+        "S47",
+        "S5"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "02261",
+        "annee": 2025,
+        "url": "https://ich.unesco.org/en/RL/arabic-kohl-02261"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "الكحل العربي",
+      "transmission": "vivante",
+      "periode": "inscrit en 2025",
+      "sensible": true,
+      "note_sensibilite": "Pratique corporelle et rituelle ; fiche UNESCO multinationale (Libye, Irak, Jordanie, Oman, Palestine, Arabie saoudite, Syrie, Tunisie, Émirats) : à valider avec les communautés libyennes concernées."
+    },
+    {
+      "id": "LY-tradition-architecture-ghadames",
+      "nom": "Habitat vertical et terrasses des femmes de Ghadamès",
+      "categorie": "architecture",
+      "description": "À Ghadamès, la maison se répartit en niveaux : stocks au rez-de-chaussée, vie de famille à l'étage, terrasses à ciel ouvert réservées aux femmes, reliées entre elles par un réseau de passages couverts. La ville a longtemps été organisée en quartiers fortifiés dont les portes se fermaient la nuit. Cet art de bâtir et de vivre dans l'oasis a justifié l'inscription de la ville en 1986.",
+      "regions": [
+        "Ghadamès (Fezzan)"
+      ],
+      "communautes": [
+        "Ghadamsis"
+      ],
+      "sources": [
+        "S26",
+        "S17"
+      ],
+      "unesco": null,
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "LY-tradition-cri-huhu-ghadames",
+      "nom": "Cri « hūhu » des femmes de Ghadamès",
+      "categorie": "oralite",
+      "description": "Selon l'Encyclopédie berbère, à Ghadamès les femmes, du haut des terrasses, se préviennent de maison en maison de l'arrivée d'une caravane ou de voyageurs par un cri prolongé, « hūhu », parfois suivi de la provenance des arrivants (par exemple « āyet Tūnis », des gens de Tunis). Cette pratique est rattachée par la tradition à l'époque des quartiers fortifiés isolés. Sa vitalité actuelle n'est pas documentée dans la source.",
+      "regions": [
+        "Ghadamès (Fezzan)"
+      ],
+      "communautes": [
+        "Ghadamsis"
+      ],
+      "sources": [
+        "S17"
+      ],
+      "unesco": null,
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "hūhu"
+    },
+    {
+      "id": "LY-tradition-maluf",
+      "nom": "Ma'lūf libyen",
+      "categorie": "musique",
+      "description": "Le ma'lūf est un répertoire de musique arabo-andalouse transmis par la tradition orale en Libye, que les musiciens interrogés par l'ethnomusicologue Philip Ciantar décrivent comme un « vieil héritage » lié aux musulmans et aux juifs chassés d'Espagne. Son étude en Libye est récente par rapport à celle du Maroc, de l'Algérie et de la Tunisie. Il est pratiqué par des ensembles et des chanteurs qui l'ont conservé et fixé par la transcription et l'enregistrement.",
+      "regions": [
+        "Tripolitaine",
+        "Cyrénaïque"
+      ],
+      "communautes": [
+        "Communautés arabophones urbaines"
+      ],
+      "sources": [
+        "S48"
+      ],
+      "unesco": null,
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "مألوف",
+      "transmission": "vivante"
+    },
+    {
+      "id": "LY-tradition-festival-ghadames",
+      "nom": "Festival de l'artisanat et du patrimoine de Ghadamès",
+      "categorie": "fete",
+      "description": "En février 2023, Ghadamès a accueilli un grand festival d'artisanat et de commerce célébrant les traditions touarègues selon Africanews. Le maire de la ville y voit un grand honneur pour Ghadamès, cité de patrimoine où le commerce remonte à des siècles. Al Jazeera rappelle que l'économie locale dépend du tourisme.",
+      "regions": [
+        "Ghadamès (Fezzan)"
+      ],
+      "communautes": [
+        "Ghadamsis",
+        "Touaregs"
+      ],
+      "sources": [
+        "S49",
+        "S27"
+      ],
+      "unesco": null,
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "transmission": "vivante",
+      "periode": "depuis 2023 (édition citée)"
+    },
+    {
+      "id": "LY-tradition-festival-tahala",
+      "nom": "Festival de Tahala (région de Ghat)",
+      "categorie": "fete",
+      "description": "La première édition du festival de Tahala, petite localité de la région de Ghat entre l'Acacus et les dunes, s'est tenue sur le thème « Authenticité et patrimoine » : musique et danses folkloriques, artisanat et course de méharis, que la Libya Observer associe aux Touaregs. Les organisateurs, des clubs et associations locales, espéraient faire de Ghat un symbole de paix et la capitale touristique du pays.",
+      "regions": [
+        "Ghat (Fezzan)"
+      ],
+      "communautes": [
+        "Touaregs",
+        "habitants de Ghat"
+      ],
+      "sources": [
+        "S28",
+        "S19"
+      ],
+      "unesco": null,
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "transmission": "vivante"
+    },
+    {
+      "id": "LY-tradition-bazin-asida",
+      "nom": "Bazin et asida (cuisine libyenne)",
+      "categorie": "cuisine",
+      "description": "Le bazin, pain sans levain de farine d'orge bouillie puis battue au magraf, est un plat emblématique, servi avec une sauce tomate à l'agneau, des pommes de terre et des œufs durs. L'asida, pâte de farine cuite, se mange avec le rub (sirop de dattes) ou du beurre clarifié. La cuisine côtière, notamment à Tripoli, porte l'influence italienne ; le Sud est plus arabe et amazigh, d'après Wikipédia.",
+      "regions": [
+        "Tripolitaine",
+        "Fezzan",
+        "Cyrénaïque"
+      ],
+      "communautes": [
+        "Communautés arabes et amazighes"
+      ],
+      "sources": [
+        "S50"
+      ],
+      "unesco": null,
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "بازين وعصيدة",
+      "transmission": "vivante"
+    },
+    {
+      "id": "LY-tradition-foggaras-fezzan",
+      "nom": "Foggaras du Fezzan (irrigation souterraine)",
+      "categorie": "savoir",
+      "description": "Les foggaras sont de longs réseaux de canaux souterrains en pierre qui amènent l'eau aux cultures. Selon la Library of Congress, les Garamantes du Fezzan en ont fait usage pour irriguer leurs terres dans un pays aride. Ce savoir hydraulique de l'Antiquité a laissé des paysages d'oasis ; son état actuel de transmission n'est pas documenté dans la source.",
+      "regions": [
+        "Fezzan"
+      ],
+      "communautes": [
+        "Garamantes (histoire)",
+        "habitants des oasis du Fezzan"
+      ],
+      "sources": [
+        "S20"
+      ],
+      "unesco": null,
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "periode": "Antiquité"
+    },
+    {
+      "id": "LY-tradition-dattes-awjila",
+      "nom": "Culture des dattes dans l'oasis d'Awjila",
+      "categorie": "savoir",
+      "description": "L'oasis d'Awjila vit depuis l'Antiquité de ses palmeraies : Hérodote cite déjà les dattes que viennent y récolter les Nasamons, et les géographes arabes comme al-Bakri et al-Idrisi mentionnent ses nombreux dattiers et ses légumes. Beaucoup d'habitants ont aussi été guides de caravanes. L'Encyclopédie berbère décrit la culture céréalière, légumière et fruitière irriguée par de nombreux puits.",
+      "regions": [
+        "Awjila (Cyrénaïque)"
+      ],
+      "communautes": [
+        "Awjilins"
+      ],
+      "sources": [
+        "S15",
+        "S41"
+      ],
+      "unesco": null,
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "LY-tradition-zawiyas-senoussies",
+      "nom": "Confrérie et zawiyas senoussies",
+      "categorie": "rite",
+      "description": "La confrérie senoussie, fondée par Muhammad bin Ali as-Sanusi, s'est organisée en lieux d'enseignement et de vie communautaire, les zawiyas. Selon la Library of Congress, ses membres devaient gagner leur vie par le travail et se tenaient à distance des pratiques extatiques de certains soufis. Le réseau, enraciné en Cyrénaïque à partir de 1843, a joué un rôle spirituel, éducatif puis politique, notamment dans la résistance à l'Italie.",
+      "regions": [
+        "Cyrénaïque",
+        "Koufra"
+      ],
+      "communautes": [
+        "Confrérie senoussie"
+      ],
+      "sources": [
+        "S46",
+        "S51"
+      ],
+      "unesco": null,
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Pratique religieuse et mémoire politique ; à valider avec des institutions libyennes concernées avant publication."
+    },
+    {
+      "id": "LY-tradition-voile-bleu-touareg",
+      "nom": "Voile et vêtements bleus des Touaregs",
+      "categorie": "textile",
+      "description": "Chez les Touaregs, les hommes portent le voile, et pas les femmes ; la teinture bleue des vêtements des notables déteint souvent sur la peau, d'où l'expression d'« hommes bleus » rapportée par la Library of Congress. Cette tenue appartient aux communautés du sud-ouest libyen, qui parlent le tamahaq.",
+      "regions": [
+        "Ghat",
+        "Ghadamès"
+      ],
+      "communautes": [
+        "Touaregs"
+      ],
+      "sources": [
+        "S19"
+      ],
+      "unesco": null,
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "LY-tradition-agriculture-nefousa",
+      "nom": "Agriculture et gestion de l'eau du Djebel Nefousa",
+      "categorie": "savoir",
+      "description": "Dans le Djebel Nefousa, les habitants cultivent depuis l'époque préromaine l'olivier et les céréales grâce à des murs de retenue dans les oueds et à des citernes. Ces aménagements, associés à des villages groupés, forment un savoir-faire rural amazigh. Wikipédia résume les travaux archéologiques qui les documentent ; la fiche n'a pas pu vérifier la pratique actuelle.",
+      "regions": [
+        "Djebel Nefousa"
+      ],
+      "communautes": [
+        "Amazighs du Nefousa"
+      ],
+      "sources": [
+        "S13"
+      ],
+      "unesco": null,
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "personnalites": [
+    {
+      "id": "LY-personne-aristippe",
+      "nom": "Aristippe de Cyrène",
+      "description": "Élève de Socrate, Aristippe est considéré comme le fondateur de l'école cyrénaïque, qui fait du plaisir le critère du bien. Né à Cyrène vers 435 av. J.-C., il a transmis son enseignement à sa fille Arété puis à son petit-fils, qui le prolongèrent.",
+      "roles": [
+        "philosophe"
+      ],
+      "domaines": [
+        "savoirs",
+        "philosophie"
+      ],
+      "epoque": "Antiquité grecque",
+      "sources": [
+        "S52",
+        "S53"
+      ],
+      "wikidata": "Q189506",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "vers 435 av. J.-C.",
+        "lieu": "Cyrène"
+      },
+      "deces": {
+        "date": "vers 356 av. J.-C.",
+        "lieu": null
+      }
+    },
+    {
+      "id": "LY-personne-arete",
+      "nom": "Arété de Cyrène",
+      "description": "Fille d'Aristippe, Arété dirigea l'école cyrénaïque après son père : la Stanford Encyclopedia of Philosophy la présente comme une femme scholarque du début du IVe siècle av. J.-C. Elle a eu pour élève son propre fils, Aristippe le Jeune, qui systématisa la doctrine.",
+      "roles": [
+        "philosophe",
+        "scholarque"
+      ],
+      "domaines": [
+        "savoirs",
+        "philosophie"
+      ],
+      "epoque": "Antiquité grecque",
+      "sources": [
+        "S52",
+        "S54"
+      ],
+      "wikidata": "Q262225",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "IVe siècle av. J.-C.",
+        "lieu": "Cyrène"
+      }
+    },
+    {
+      "id": "LY-personne-callimaque",
+      "nom": "Callimaque de Cyrène",
+      "description": "Poète et érudit né à Cyrène, Callimaque travailla à la cour des Ptolémées à Alexandrie. Encyclopedia.com lui attribue les Pinakes, un catalogue annoté en 120 volumes des livres de la bibliothèque d'Alexandrie, et le range parmi les figures majeures de la poésie alexandrine.",
+      "roles": [
+        "poète",
+        "érudit",
+        "bibliothécaire"
+      ],
+      "domaines": [
+        "littérature",
+        "savoirs"
+      ],
+      "epoque": "Antiquité hellénistique",
+      "sources": [
+        "S55"
+      ],
+      "wikidata": "Q192417",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "vers 310 av. J.-C.",
+        "lieu": "Cyrène"
+      },
+      "deces": {
+        "date": "vers 240 av. J.-C.",
+        "lieu": null
+      }
+    },
+    {
+      "id": "LY-personne-eratosthene",
+      "nom": "Ératosthène de Cyrène",
+      "description": "Né à Cyrène, Ératosthène étudia à Athènes puis fut appelé à Alexandrie par Ptolémée III. MacTutor, l'histoire des mathématiques de l'université de St Andrews, le présente comme un mathématicien célèbre pour ses travaux sur les nombres premiers et pour sa mesure du diamètre de la Terre.",
+      "roles": [
+        "mathématicien",
+        "géographe",
+        "astronome"
+      ],
+      "domaines": [
+        "sciences"
+      ],
+      "epoque": "Antiquité hellénistique",
+      "sources": [
+        "S56"
+      ],
+      "wikidata": "Q43182",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "276 av. J.-C.",
+        "lieu": "Cyrène"
+      },
+      "deces": {
+        "date": "194 av. J.-C.",
+        "lieu": "Alexandrie"
+      }
+    },
+    {
+      "id": "LY-personne-berenice-ii",
+      "nom": "Bérénice II de Cyrène",
+      "description": "Fille du roi Magas de Cyrène, Bérénice épousa Ptolémée III et devint reine de l'Égypte ptolémaïque, ce qui rattacha Cyrène à l'Empire lagide. Livius.org la présente comme reine de l'Empire ptolémaïque ; elle est née après 270 av. J.-C. et morte en 221 av. J.-C.",
+      "roles": [
+        "reine"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "Antiquité hellénistique",
+      "sources": [
+        "S57"
+      ],
+      "wikidata": "Q40010",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "après 270 av. J.-C.",
+        "lieu": "Cyrène"
+      },
+      "deces": {
+        "date": "221 av. J.-C.",
+        "lieu": null
+      }
+    },
+    {
+      "id": "LY-personne-carneade",
+      "nom": "Carnéade de Cyrène",
+      "description": "Philosophe né à Cyrène en 214 av. J.-C., Carnéade devint scholarque de l'Académie d'Athènes avant 155 av. J.-C. Il fit partie de l'ambassade envoyée à Rome et y prononça des discours sur la justice, à l'origine de sa notoriété.",
+      "roles": [
+        "philosophe",
+        "scholarque"
+      ],
+      "domaines": [
+        "savoirs",
+        "philosophie"
+      ],
+      "epoque": "Antiquité hellénistique",
+      "sources": [
+        "S58"
+      ],
+      "wikidata": "Q284994",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "214 av. J.-C.",
+        "lieu": "Cyrène"
+      },
+      "deces": {
+        "date": "129 ou 128 av. J.-C.",
+        "lieu": null
+      }
+    },
+    {
+      "id": "LY-personne-septime-severe",
+      "nom": "Septime Sévère",
+      "description": "Né à Leptis Magna, Septime Sévère devint empereur romain de 193 à 211. L'UNESCO souligne que la ville, devenue l'une des plus belles de l'Empire, fut embellie et agrandie par cet « enfant du pays ». Sa dynastie fait de Leptis une capitale monumentale.",
+      "roles": [
+        "empereur romain"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "Empire romain",
+      "sources": [
+        "S4",
+        "S59"
+      ],
+      "wikidata": "Q1442",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "11 avril 145",
+        "lieu": "Leptis Magna"
+      },
+      "deces": {
+        "date": "4 février 211",
+        "lieu": null
+      }
+    },
+    {
+      "id": "LY-personne-synesios",
+      "nom": "Synésios de Cyrène",
+      "description": "Philosophe néoplatonicien issu d'une ancienne famille de Cyrène, Synésios fut le disciple d'Hypatie à Alexandrie, à qui il adressa plusieurs lettres, puis devint évêque de Ptolémaïs. Il est mort vers 414 ; sa date de naissance est incertaine.",
+      "roles": [
+        "philosophe",
+        "évêque"
+      ],
+      "domaines": [
+        "savoirs",
+        "philosophie",
+        "religion"
+      ],
+      "epoque": "Antiquité tardive",
+      "sources": [
+        "S60"
+      ],
+      "wikidata": "Q357027",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "incertaine (vers 370-373)",
+        "lieu": "Cyrène (région)"
+      },
+      "deces": {
+        "date": "vers 414",
+        "lieu": "Ptolémaïs (Cyrénaïque)"
+      }
+    },
+    {
+      "id": "LY-personne-sanusi",
+      "nom": "Muhammad bin Ali as-Sanusi",
+      "description": "Savant et mystique né près d'Oran en 1787, il fonda la confrérie senoussie, dont la première loge de Cyrénaïque ouvrit à Al-Bayda en 1843. Son enseignement, qui insistait sur le travail et la sobriété, se répandit parmi les populations de l'intérieur ; la confrérie devint ensuite un acteur politique majeur.",
+      "roles": [
+        "fondateur de confrérie",
+        "savant"
+      ],
+      "domaines": [
+        "religion",
+        "savoirs"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S46"
+      ],
+      "wikidata": "Q192246",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1787",
+        "lieu": "près d'Oran (Algérie)"
+      },
+      "deces": {
+        "date": "1859",
+        "lieu": null
+      },
+      "sensible": true,
+      "note_sensibilite": "Personnalité religieuse fondatrice d'une confrérie ; à valider avec des institutions religieuses libyennes."
+    },
+    {
+      "id": "LY-personne-yusuf-karamanli",
+      "nom": "Yusuf Karamanli",
+      "description": "Pacha de Tripoli de 1795 à 1832, il consolida l'autonomie de la régence, domina les populations de l'intérieur et profita du tribut versé par les États européens et américains. Le déclin de la course et les pressions financières européennes provoquèrent ensuite des révoltes ; il abdiqua en 1832.",
+      "roles": [
+        "pacha",
+        "souverain"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XVIIIe-XIXe siècles",
+      "sources": [
+        "S30",
+        "S61"
+      ],
+      "wikidata": "Q2622048",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1766",
+        "lieu": "Tripoli"
+      },
+      "deces": {
+        "date": "1838",
+        "lieu": null
+      }
+    },
+    {
+      "id": "LY-personne-omar-al-mokhtar",
+      "nom": "Omar al-Mokhtar",
+      "description": "Chef de la résistance en Cyrénaïque contre l'occupation italienne, Omar al-Mokhtar a mené de 1923 à 1931 une guérilla à la tête de petits groupes mobiles, avant d'être capturé le 11 septembre 1931 et pendu le 16. Il est considéré comme héros national de la Libye ; sa date de naissance est incertaine, entre 1856 et 1862.",
+      "roles": [
+        "chef de la résistance",
+        "enseignant coranique"
+      ],
+      "domaines": [
+        "résistance",
+        "politique"
+      ],
+      "epoque": "Colonisation italienne",
+      "sources": [
+        "S44",
+        "S42"
+      ],
+      "wikidata": "Q212388",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "entre 1856 et 1862 (selon Encyclopedia.com)",
+        "lieu": "Cyrénaïque orientale"
+      },
+      "deces": {
+        "date": "16 septembre 1931",
+        "lieu": "camp de Soluch (Cyrénaïque)"
+      },
+      "nom_local": "عمر المختار",
+      "sensible": true,
+      "note_sensibilite": "Figure de résistance et de mémoire nationale ; les dates de naissance divergent selon les sources."
+    },
+    {
+      "id": "LY-personne-idris-ier",
+      "nom": "Idris Ier",
+      "description": "Chef de la confrérie senoussie, négociateur avec l'Italie puis la Grande-Bretagne, Idris Ier fut le premier et unique roi de Libye après l'indépendance du 24 décembre 1951. Il fut renversé par le coup d'État du 1er septembre 1969 et mourut en exil au Caire en 1983.",
+      "roles": [
+        "roi",
+        "chef religieux"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S45",
+        "S62"
+      ],
+      "wikidata": "Q116430",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "13 mars 1890 (1889 selon certaines sources)",
+        "lieu": "Jaghbub (Cyrénaïque)"
+      },
+      "deces": {
+        "date": "1983",
+        "lieu": "Le Caire"
+      }
+    },
+    {
+      "id": "LY-personne-fatima-el-sharif",
+      "nom": "Fatima el-Sharif",
+      "description": "Reine consort de Libye de 1951 à 1969, Fatima el-Sharif était la fille d'Ahmed Sharif as-Senussi, chef de la confrérie senoussie. Née dans l'oasis de Koufra, elle vécut au Caire après le coup d'État de 1969 et y mourut le 3 octobre 2009.",
+      "roles": [
+        "reine consort"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S43",
+        "S63"
+      ],
+      "wikidata": "Q285647",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1911 (jour exact inconnu selon Royal Central ; 2 avril 1911 selon Wikipédia)",
+        "lieu": "oasis de Koufra"
+      },
+      "deces": {
+        "date": "3 octobre 2009",
+        "lieu": "Le Caire"
+      }
+    },
+    {
+      "id": "LY-personne-kadhafi",
+      "nom": "Mouammar Kadhafi",
+      "description": "Officier arrivé au pouvoir par le coup d'État du 1er septembre 1969, Mouammar Kadhafi dirigea la Libye jusqu'en 2011. Né vers 1942 près de Syrte selon la Library of Congress, il fut formé à l'académie militaire de Benghazi. Il est mort le 20 octobre 2011 pendant la guerre civile ; son bilan reste fortement débattu.",
+      "roles": [
+        "dirigeant politique",
+        "officier"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S64",
+        "S65",
+        "S66",
+        "S67"
+      ],
+      "wikidata": "Q19878",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1942 (environ)",
+        "lieu": "près de Syrte"
+      },
+      "deces": {
+        "date": "20 octobre 2011",
+        "lieu": null
+      },
+      "sensible": true,
+      "note_sensibilite": "Figure politique controversée ; présentation volontairement factuelle. Circonstances de la mort et bilan du régime : sujets disputés, à faire valider par un historien."
+    },
+    {
+      "id": "LY-personne-salwa-bugaighis",
+      "nom": "Salwa Bugaighis",
+      "description": "Avocate de Benghazi, Salwa Bugaighis fut l'une des voix de la révolution de 2011 et membre du Conseil national de transition ; elle défendait notamment un quota de femmes au Parlement. Elle fut assassinée à son domicile le 25 juin 2014, le jour des élections législatives.",
+      "roles": [
+        "avocate",
+        "militante des droits humains",
+        "membre du Conseil national de transition"
+      ],
+      "domaines": [
+        "politique",
+        "droits humains"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S68",
+        "S69"
+      ],
+      "wikidata": "Q17284954",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "24 avril 1963",
+        "lieu": "Benghazi"
+      },
+      "deces": {
+        "date": "25 juin 2014",
+        "lieu": "Benghazi"
+      },
+      "nom_local": "سلوى بوقعيقيص",
+      "sensible": true,
+      "note_sensibilite": "Assassinat politique récent : enquête non conclue d'après les sources consultées ; présentation à faire valider."
+    },
+    {
+      "id": "LY-personne-hana-elhebshi",
+      "nom": "Hana Elhebshi",
+      "description": "Architecte à Tripoli, devenue militante pendant la révolution de 2011, Hana Elhebshi a transmis aux médias des informations sur les victimes et les détentions sous le régime. Elle figure parmi les dix lauréates 2012 du prix International Women of Courage du Département d'État des États-Unis.",
+      "roles": [
+        "architecte",
+        "militante"
+      ],
+      "domaines": [
+        "droits humains",
+        "architecture"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S70",
+        "S71"
+      ],
+      "wikidata": "Q18001233",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "vers 1985",
+        "lieu": "Libye"
+      },
+      "sensible": true,
+      "note_sensibilite": "Personne vivante ; année de naissance approximative. Accord de la personne à vérifier avant publication."
+    },
+    {
+      "id": "LY-personne-hajer-sharief",
+      "nom": "Hajer Sharief",
+      "description": "Cofondatrice de l'organisation Together We Build It, Hajer Sharief promeut la participation des femmes et des jeunes à la construction de la paix en Libye. La Fondation Kofi Annan rappelle qu'elle a été choisie pour conseiller le Secrétaire général de l'ONU sur la jeunesse, la paix et la sécurité, et qu'elle est l'une des douze championnes d'ONU Femmes sur ce thème.",
+      "roles": [
+        "militante pour la paix",
+        "cofondatrice d'ONG"
+      ],
+      "domaines": [
+        "politique",
+        "paix"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S72",
+        "S73"
+      ],
+      "wikidata": "Q55606238",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1994 (selon Wikipédia)",
+        "lieu": "Libye"
+      },
+      "sensible": true,
+      "note_sensibilite": "Personne vivante ; date de naissance non confirmée par une source institutionnelle."
+    },
+    {
+      "id": "LY-personne-najwa-binshatwan",
+      "nom": "Najwa Binshatwan",
+      "description": "Romancière, nouvelliste et universitaire née à Ajdabiya, Najwa Binshatwan a vu son roman Les Enclos des esclaves retenu en 2017 dans la présélection du Prix international de la fiction arabe, ce qui en a fait la première Libyenne présente à ce stade. En 2018, elle fut écrivaine en résidence de la revue Banipal à Durham.",
+      "roles": [
+        "romancière",
+        "universitaire"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S74",
+        "S75"
+      ],
+      "wikidata": "Q4939077",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1970",
+        "lieu": "Ajdabiya"
+      }
+    },
+    {
+      "id": "LY-personne-ibrahim-al-koni",
+      "nom": "Ibrahim al-Koni",
+      "description": "Romancier libyen d'origine touarègue, Ibrahim al-Koni n'a appris à lire et à écrire qu'à douze ans, puis a étudié la littérature à l'Institut Gorki de Moscou. Auteur de plus de 80 livres traduits en plus de 35 langues, il fut finaliste du Man Booker International Prize en 2015. Wikipédia indique qu'il est né en 1948 à Ghadamès.",
+      "roles": [
+        "romancier"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S76",
+        "S77"
+      ],
+      "wikidata": "Q552892",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1948",
+        "lieu": "Ghadamès"
+      },
+      "nom_local": "إبراهيم الكوني"
+    },
+    {
+      "id": "LY-personne-ahmed-fakroun",
+      "nom": "Ahmed Fakroun",
+      "description": "Chanteur et auteur-compositeur de Benghazi, Ahmed Fakroun a mêlé musique arabe et influences européennes, au Royaume-Uni puis à Paris. Son titre Soleil Soleil (1983, album Mots d'amour) l'a fait connaître en Europe et a été redécouvert des décennies plus tard par des DJ et des collectionneurs.",
+      "roles": [
+        "chanteur",
+        "auteur-compositeur"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S78",
+        "S79",
+        "S80"
+      ],
+      "wikidata": "Q4695812",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1953 (selon Wikipédia)",
+        "lieu": "Benghazi"
+      },
+      "nom_local": "أحمد فكرون"
+    }
+  ],
+  "evenements": [
+    {
+      "id": "LY-evenement-haua-fteah",
+      "titre": "Occupation humaine de la grotte de Haua Fteah",
+      "date": "-148000-01-01",
+      "date_affichee": "vers 150 000 ans avant le présent",
+      "precision": "siecle",
+      "description": "Les fouilles de l'Université de Cambridge ont montré que la grotte de Haua Fteah, en Cyrénaïque, a été occupée par des humains sur environ 150 000 ans, des mandibules d'Homo sapiens ayant été retrouvées en profondeur. La date indiquée est une approximation commode pour classer l'événement.",
+      "sources": [
+        "S40"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "populations préhistoriques de Cyrénaïque"
+      ],
+      "regions": [
+        "Cyrénaïque"
+      ]
+    },
+    {
+      "id": "LY-evenement-acacus",
+      "titre": "Début des peintures rupestres du Tadrart Acacus",
+      "date": "-011999-01-01",
+      "date_affichee": "vers 12 000 av. J.-C.",
+      "precision": "siecle",
+      "description": "Les plus anciennes peintures du Tadrart Acacus remontent à environ 12 000 ans av. J.-C., les plus récentes au Ier siècle de notre ère. Elles accompagnent les changements du climat, de la faune et des modes de vie.",
+      "sources": [
+        "S33"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "populations du Sahara"
+      ],
+      "fin": "0100-01-01",
+      "regions": [
+        "Fezzan"
+      ]
+    },
+    {
+      "id": "LY-evenement-garamantes",
+      "titre": "Les Garamantes dominent le Fezzan",
+      "date": "-000999-01-01",
+      "date_affichee": "avant 1000 av. J.-C. (début de la période)",
+      "precision": "siecle",
+      "description": "Selon la Library of Congress, les Garamantes sont installés au Fezzan avant 1000 av. J.-C. et y établissent, depuis Germa, un royaume contrôlant une route caravanière entre le Soudan occidental et la Méditerranée. Ils irriguaient leurs terres par des foggaras et ont laissé des inscriptions en tifinagh ; Rome conclut avec eux une alliance commerciale et militaire à la fin du Ier siècle.",
+      "sources": [
+        "S20"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Garamantes"
+      ],
+      "regions": [
+        "Fezzan"
+      ]
+    },
+    {
+      "id": "LY-evenement-cites-puniques",
+      "titre": "Cités puniques de la Tripolitaine",
+      "date": "-000450-01-01",
+      "date_affichee": "Ve siècle av. J.-C.",
+      "precision": "siecle",
+      "description": "À partir des comptoirs phéniciens, la sphère de Carthage s'étend sur la côte libyenne : Oea (Tripoli), Leptis et Sabratha forment la « Tripolis » (les « trois cités »), au cœur d'une civilisation dite punique.",
+      "sources": [
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Carthage",
+        "cités puniques"
+      ],
+      "regions": [
+        "Tripolitaine"
+      ]
+    },
+    {
+      "id": "LY-evenement-fondation-cyrene",
+      "titre": "Fondation de Cyrène",
+      "date": "-000630-01-01",
+      "date_affichee": "631 av. J.-C.",
+      "precision": "annee",
+      "description": "Selon la tradition rapportée par la Library of Congress, des colons de l'île de Thera, guidés par l'oracle de Delphes, fondent Cyrène en 631 av. J.-C. ; la ville donne son nom à la Cyrénaïque et forme avec quatre autres cités la Pentapole.",
+      "sources": [
+        "S36",
+        "S35"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "colons de Théra",
+        "populations libyennes"
+      ],
+      "regions": [
+        "Cyrénaïque"
+      ]
+    },
+    {
+      "id": "LY-evenement-perses-cyrenaique",
+      "titre": "Cyrénaïque sous domination perse",
+      "date": "-000524-01-01",
+      "date_affichee": "525 av. J.-C.",
+      "precision": "annee",
+      "description": "L'armée de Cambyse, fraîchement victorieuse en Égypte, envahit la Cyrénaïque, qui restera pendant deux siècles sous domination perse ou égyptienne.",
+      "sources": [
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Cambyse",
+        "cités de la Pentapole"
+      ],
+      "regions": [
+        "Cyrénaïque"
+      ]
+    },
+    {
+      "id": "LY-evenement-rome-annexe-cyrenaique",
+      "titre": "Rome annexe la Cyrénaïque",
+      "date": "-000073-01-01",
+      "date_affichee": "74 av. J.-C.",
+      "precision": "annee",
+      "description": "Ptolémée Apion, dernier souverain grec de la région, lègue la Cyrénaïque à Rome, qui l'annexe officiellement en 74 av. J.-C. et la rattache à la Crète comme province.",
+      "sources": [
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Ptolémée Apion",
+        "République romaine"
+      ],
+      "regions": [
+        "Cyrénaïque"
+      ]
+    },
+    {
+      "id": "LY-evenement-severe-empereur",
+      "titre": "Septime Sévère, né à Leptis, devient empereur",
+      "date": "0193-01-01",
+      "date_affichee": "193",
+      "precision": "annee",
+      "description": "Né à Leptis Magna, Septime Sévère règne comme empereur romain de 193 à 211. La cité, embellie sous son règne, connaît alors son apogée monumentale.",
+      "sources": [
+        "S4",
+        "S59"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Septime Sévère"
+      ],
+      "fin": "0211-02-04",
+      "regions": [
+        "Tripolitaine"
+      ]
+    },
+    {
+      "id": "LY-evenement-seisme-365",
+      "titre": "Séisme de 365 à Cyrène",
+      "date": "0365-01-01",
+      "date_affichee": "365",
+      "precision": "annee",
+      "description": "D'après l'UNESCO, Cyrène resta une grande capitale jusqu'au tremblement de terre de 365, après lequel son rôle décline.",
+      "sources": [
+        "S35"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Cyrénaïque"
+      ]
+    },
+    {
+      "id": "LY-evenement-conquete-arabe",
+      "titre": "Conquête arabe de la Cyrénaïque, de la Tripolitaine et du Fezzan",
+      "date": "0642-01-01",
+      "date_affichee": "642 à 663",
+      "precision": "annee",
+      "description": "En 642, Amr ibn al-As conquiert la Cyrénaïque ; la Tripolitaine suit les années suivantes, et Uqba ibn Nafi obtient en 663 la capitulation de Germa, au Fezzan. L'arabisation est ensuite progressive, plus rapide dans les campagnes que dans les villes.",
+      "sources": [
+        "S81",
+        "S24"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Amr ibn al-As",
+        "Uqba ibn Nafi"
+      ],
+      "fin": "0663-01-01",
+      "regions": [
+        "Cyrénaïque",
+        "Tripolitaine",
+        "Fezzan"
+      ]
+    },
+    {
+      "id": "LY-evenement-fatimides",
+      "titre": "Les Fatimides contrôlent la Tripolitaine",
+      "date": "0910-01-01",
+      "date_affichee": "910",
+      "precision": "annee",
+      "description": "Après la prise de Kairouan en 909, les Kutama installent le fondateur de la dynastie fatimide ; le territoire qu'ils contrôlent comprend la Tripolitaine. Tripoli prospère grâce au commerce de l'or, des esclaves et du sel.",
+      "sources": [
+        "S82"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "dynastie fatimide",
+        "Kutama"
+      ],
+      "regions": [
+        "Tripolitaine"
+      ]
+    },
+    {
+      "id": "LY-evenement-hilaliens",
+      "titre": "Migrations des Banu Hilal et Banu Sulaym",
+      "date": "1050-01-01",
+      "date_affichee": "XIe siècle",
+      "precision": "siecle",
+      "description": "Invités par le calife fatimide du Caire, des groupes bédouins Banu Hilal et Banu Sulaym gagnent le Maghreb. Selon la Library of Congress, l'impact fut profond sur la Cyrénaïque et la Tripolitaine : villes ruinées, terres converties en pâturages, arabisation accélérée.",
+      "sources": [
+        "S25",
+        "S24"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Banu Hilal",
+        "Banu Sulaym"
+      ],
+      "regions": [
+        "Cyrénaïque",
+        "Tripolitaine"
+      ]
+    },
+    {
+      "id": "LY-evenement-ottomans-tripoli",
+      "titre": "La régence ottomane de Tripoli",
+      "date": "1551-08-15",
+      "date_affichee": "15 août 1551",
+      "precision": "jour",
+      "description": "Selon l'article de Wikipédia sur la Libye, la régence ottomane de Tripoli commence le 15 août 1551 et dure jusqu'en 1911. Ses pachas, puis ses deys à partir de 1611, gouvernent avec l'appui des janissaires.",
+      "sources": [
+        "S2",
+        "S29"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Empire ottoman",
+        "pachas et deys de Tripoli"
+      ],
+      "fin": "1911-11-05",
+      "regions": [
+        "Tripolitaine"
+      ]
+    },
+    {
+      "id": "LY-evenement-karamanli",
+      "titre": "Ahmad Karamanli fonde la dynastie des Karamanli",
+      "date": "1711-01-01",
+      "date_affichee": "1711",
+      "precision": "annee",
+      "description": "Ahmad Karamanli, officier de cavalerie kouloughli, s'empare de Tripoli en 1711 et fonde une monarchie héréditaire largement arabe dans sa composition, qui étend son autorité jusqu'à la Cyrénaïque tout en reconnaissant une suzeraineté ottomane nominale.",
+      "sources": [
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Ahmad Karamanli",
+        "Kouloughlis"
+      ],
+      "regions": [
+        "Tripolitaine"
+      ]
+    },
+    {
+      "id": "LY-evenement-yusuf-karamanli",
+      "titre": "Yusuf Karamanli devient pacha de Tripoli",
+      "date": "1795-01-01",
+      "date_affichee": "1795",
+      "precision": "annee",
+      "description": "Yusuf Karamanli règne de 1795 à 1832. La régence tire alors des revenus de la course et du tribut versé par des États européens et américains ; en 1799, les États-Unis acceptent de lui verser 18 000 dollars par an.",
+      "sources": [
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Yusuf Karamanli"
+      ],
+      "fin": "1832-01-01",
+      "regions": [
+        "Tripolitaine"
+      ]
+    },
+    {
+      "id": "LY-evenement-retour-ottoman",
+      "titre": "Retour de l'administration ottomane directe",
+      "date": "1835-01-01",
+      "date_affichee": "1835",
+      "precision": "annee",
+      "description": "Après des révoltes provoquées par de nouveaux impôts et la guerre civile, les troupes du sultan rétablissent la tutelle ottomane directe à Tripoli, mettant fin à la dynastie Karamanli. La date est celle de la fin du règne d'Ali II, indiquée par la Library of Congress.",
+      "sources": [
+        "S30",
+        "S83"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Empire ottoman",
+        "Ali II Karamanli"
+      ],
+      "regions": [
+        "Tripolitaine"
+      ]
+    },
+    {
+      "id": "LY-evenement-zawiya-bayda",
+      "titre": "Première zawiya senoussie en Cyrénaïque",
+      "date": "1843-01-01",
+      "date_affichee": "1843",
+      "precision": "annee",
+      "description": "Muhammad bin Ali as-Sanusi fonde à Al-Bayda la première loge de sa confrérie en Cyrénaïque, qui devient un réseau religieux et éducatif très influent.",
+      "sources": [
+        "S46"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Muhammad bin Ali as-Sanusi"
+      ],
+      "regions": [
+        "Cyrénaïque"
+      ]
+    },
+    {
+      "id": "LY-evenement-italie-tripoli",
+      "titre": "L'Italie s'empare de Tripoli",
+      "date": "1911-10-03",
+      "date_affichee": "3 octobre 1911",
+      "precision": "jour",
+      "description": "Après un ultimatum à l'Empire ottoman, l'Italie déclare la guerre en septembre 1911 et prend Tripoli le 3 octobre, puis Tobrouk, Al-Khums, Derna et Benghazi. La résistance se poursuit de l'intérieur.",
+      "sources": [
+        "S84"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Royaume d'Italie",
+        "Empire ottoman"
+      ],
+      "regions": [
+        "Tripolitaine",
+        "Cyrénaïque"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Histoire coloniale ; présentation factuelle, à faire valider."
+    },
+    {
+      "id": "LY-evenement-traite-lausanne-1912",
+      "titre": "Traité de Lausanne (octobre 1912)",
+      "date": "1912-10-01",
+      "date_affichee": "octobre 1912",
+      "precision": "mois",
+      "description": "Par le traité signé en octobre 1912, le sultan accorde l'indépendance à la Tripolitaine et à la Cyrénaïque tandis que l'Italie annonce leur annexion. Pour la Library of Congress, ce traité ne met pas fin à la résistance, qui continue sans interruption pendant vingt ans.",
+      "sources": [
+        "S84",
+        "S51"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Empire ottoman",
+        "Italie"
+      ],
+      "regions": [
+        "Tripolitaine",
+        "Cyrénaïque"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Histoire coloniale."
+    },
+    {
+      "id": "LY-evenement-seconde-guerre-italo-senoussie",
+      "titre": "Seconde guerre italo-senoussie",
+      "date": "1923-01-01",
+      "date_affichee": "1923 à 1931",
+      "precision": "annee",
+      "description": "À partir de 1923, l'armée italienne occupe les territoires senoussis. Omar al-Mokhtar mène une guérilla ; Rodolfo Graziani, après 1929, impose une guerre d'usure, avec déportations de populations vers des camps, fermeture de la frontière égyptienne et destruction du bétail.",
+      "sources": [
+        "S42",
+        "S44"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Omar al-Mokhtar",
+        "Rodolfo Graziani",
+        "confrérie senoussie"
+      ],
+      "fin": "1931-09-16",
+      "regions": [
+        "Cyrénaïque"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Violences coloniales et camps de concentration ; bilan humain disputé selon les sources."
+    },
+    {
+      "id": "LY-evenement-execution-mokhtar",
+      "titre": "Exécution d'Omar al-Mokhtar",
+      "date": "1931-09-16",
+      "date_affichee": "16 septembre 1931",
+      "precision": "jour",
+      "description": "Pris dans une embuscade le 11 septembre 1931 près de Zonta (Zliten), Omar al-Mokhtar est exécuté le 16 septembre au camp de Soluch. Sa mort provoque une vive indignation dans le monde arabe.",
+      "sources": [
+        "S44",
+        "S42"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Omar al-Mokhtar"
+      ],
+      "regions": [
+        "Cyrénaïque"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Mémoire de la répression coloniale."
+    },
+    {
+      "id": "LY-evenement-libye-colonie-unifiee",
+      "titre": "Création de la colonie unifiée de Libye",
+      "date": "1934-01-01",
+      "date_affichee": "1934",
+      "precision": "annee",
+      "description": "L'Italie réunit la Tripolitaine et la Cyrénaïque en une seule colonie appelée Libye, reprenant un nom antique ; le Fezzan reste un territoire militaire.",
+      "sources": [
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Royaume d'Italie"
+      ],
+      "regions": [
+        "Libye"
+      ]
+    },
+    {
+      "id": "LY-evenement-ventimilli",
+      "titre": "Arrivée des « ventimilli » (colons italiens)",
+      "date": "1938-10-01",
+      "date_affichee": "octobre 1938",
+      "precision": "mois",
+      "description": "En octobre 1938, un convoi de 20 000 colons italiens, les ventimilli, arrive en Libye. En 1940, la Library of Congress compte environ 110 000 Italiens, soit 12 % de la population.",
+      "sources": [
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Italo Balbo",
+        "colons italiens"
+      ],
+      "regions": [
+        "Tripolitaine",
+        "Cyrénaïque"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Histoire coloniale ; spoliations foncières."
+    },
+    {
+      "id": "LY-evenement-guerre-du-desert",
+      "titre": "La guerre du désert en Libye",
+      "date": "1940-09-01",
+      "date_affichee": "1940 à 1943",
+      "precision": "annee",
+      "description": "La Cyrénaïque change trois fois de mains pendant la Seconde Guerre mondiale. Tripoli tombe aux mains des Britanniques en janvier 1943 ; mi-février, les dernières troupes de l'Axe ont quitté le pays.",
+      "sources": [
+        "S85"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Armées britannique, italienne et allemande"
+      ],
+      "fin": "1943-02-15",
+      "regions": [
+        "Cyrénaïque",
+        "Tripolitaine"
+      ]
+    },
+    {
+      "id": "LY-evenement-onu-1949",
+      "titre": "L'ONU décide de l'avenir de la Libye",
+      "date": "1949-11-01",
+      "date_affichee": "novembre 1949",
+      "precision": "mois",
+      "description": "Faute d'accord entre les grandes puissances, la question libyenne est portée devant l'Assemblée générale des Nations unies. En novembre 1949, une résolution prévoit une assemblée de représentants des trois provinces pour décider de leur avenir ; elle choisit une monarchie constitutionnelle.",
+      "sources": [
+        "S45",
+        "S86"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Nations unies",
+        "Idris Ier"
+      ],
+      "regions": [
+        "Libye"
+      ]
+    },
+    {
+      "id": "LY-evenement-independance",
+      "titre": "Indépendance de la Libye",
+      "date": "1951-12-24",
+      "date_affichee": "24 décembre 1951",
+      "precision": "jour",
+      "description": "Le 24 décembre 1951, le roi Idris Ier proclame l'indépendance. La constitution d'octobre 1951 établit une monarchie fédérale ; Tripoli et Benghazi servent alternativement de capitale.",
+      "sources": [
+        "S86",
+        "S62",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Idris Ier"
+      ],
+      "regions": [
+        "Libye"
+      ]
+    },
+    {
+      "id": "LY-evenement-coup-1969",
+      "titre": "Coup d'État du 1er septembre 1969",
+      "date": "1969-09-01",
+      "date_affichee": "1er septembre 1969",
+      "precision": "jour",
+      "description": "Une soixantaine de jeunes officiers et soldats, regroupés dans le Mouvement des officiers libres, renversent la monarchie sans résistance notable ; ils proclament la République arabe libyenne, dirigée par un Conseil de commandement de la révolution.",
+      "sources": [
+        "S65"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Mouvement des officiers libres",
+        "Mouammar Kadhafi"
+      ],
+      "regions": [
+        "Libye"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Période politique contestée ; présentation factuelle."
+    },
+    {
+      "id": "LY-evenement-jamahiriya-1977",
+      "titre": "Création de la Jamahiriya",
+      "date": "1977-03-01",
+      "date_affichee": "mars 1977",
+      "precision": "mois",
+      "description": "En mars 1977, le Congrès général du peuple, à l'initiative de Kadhafi, adopte la « Déclaration d'établissement de l'autorité du peuple » et proclame la Jamahiriya arabe libyenne populaire et socialiste, nom abandonné après 2011.",
+      "sources": [
+        "S2",
+        "S87"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Mouammar Kadhafi"
+      ],
+      "regions": [
+        "Libye"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Période politique contestée ; présentation factuelle."
+    },
+    {
+      "id": "LY-evenement-unesco-1982",
+      "titre": "Inscription de Leptis Magna, Sabratha et Cyrène au patrimoine mondial",
+      "date": "1982-01-01",
+      "date_affichee": "1982",
+      "precision": "annee",
+      "description": "Trois sites antiques libyens sont inscrits au patrimoine mondial en 1982 ; le Tadrart Acacus suit en 1985 et l'ancienne ville de Ghadamès en 1986.",
+      "sources": [
+        "S4",
+        "S34",
+        "S35",
+        "S33",
+        "S26"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "UNESCO"
+      ],
+      "fin": "1986-01-01",
+      "regions": [
+        "Libye"
+      ]
+    },
+    {
+      "id": "LY-evenement-cij-1994",
+      "titre": "Arrêt de la Cour internationale de Justice sur le différend Libye/Tchad",
+      "date": "1994-02-03",
+      "date_affichee": "3 février 1994",
+      "precision": "jour",
+      "description": "Saisie par un accord de 1989, la Cour rend son arrêt le 3 février 1994. Elle y a retenu que le traité franco-libyen de 1955 avait entendu définir la frontière commune et que celle-ci, une fois fixée, ne dépend plus de la survie du traité.",
+      "sources": [
+        "S88",
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Libye",
+        "Tchad",
+        "Cour internationale de Justice"
+      ],
+      "regions": [
+        "Sud libyen"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Différend territorial : positions des parties et décision de la CIJ citées d'après la page de la Cour ; la présentation doit rester neutre."
+    },
+    {
+      "id": "LY-evenement-revolution-2011",
+      "titre": "Révolution du 17 février 2011",
+      "date": "2011-02-17",
+      "date_affichee": "17 février 2011",
+      "precision": "jour",
+      "description": "La Déclaration constitutionnelle évoque la « révolution du 17 février 2011 » menée par le peuple libyen contre l'ancien régime. Le 26 février, le Conseil de sécurité de l'ONU déferre la situation à la Cour pénale internationale (résolution 1970).",
+      "sources": [
+        "S3",
+        "S66"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Peuple libyen",
+        "Conseil national de transition",
+        "Conseil de sécurité"
+      ],
+      "regions": [
+        "Libye"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Conflit récent ; présentation neutre et prudente."
+    },
+    {
+      "id": "LY-evenement-nom-etat-libye",
+      "titre": "Adoption du nom « État de Libye »",
+      "date": "2013-01-08",
+      "date_affichee": "8 janvier 2013",
+      "precision": "jour",
+      "description": "Le Congrès national général approuve un changement de nom qui abandonne l'appellation de la Jamahiriya pour « État de Libye », selon Wikipédia.",
+      "sources": [
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Congrès national général"
+      ],
+      "regions": [
+        "Libye"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Période de transition politique."
+    },
+    {
+      "id": "LY-evenement-assassinat-bugaighis",
+      "titre": "Assassinat de Salwa Bugaighis",
+      "date": "2014-06-25",
+      "date_affichee": "25 juin 2014",
+      "precision": "jour",
+      "description": "L'avocate Salwa Bugaighis est tuée à Benghazi le jour des élections législatives ; l'ONU condamne l'attaque et appelle à traduire ses auteurs en justice.",
+      "sources": [
+        "S68"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Salwa Bugaighis"
+      ],
+      "regions": [
+        "Benghazi"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Violence politique récente ; enquête non élucidée selon les sources consultées."
+    },
+    {
+      "id": "LY-evenement-patrimoine-en-peril",
+      "titre": "Les cinq sites libyens inscrits sur la Liste du patrimoine mondial en péril",
+      "date": "2016-01-01",
+      "date_affichee": "2016",
+      "precision": "annee",
+      "description": "Les cinq biens libyens du patrimoine mondial sont inscrits sur la Liste en péril en 2016. Ghadamès en est retiré en 2025 d'après les dates affichées par l'UNESCO.",
+      "sources": [
+        "S4",
+        "S34",
+        "S35",
+        "S33",
+        "S26"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "UNESCO",
+        "Libye"
+      ],
+      "fin": "2025-01-01",
+      "regions": [
+        "Libye"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet lié à un conflit récent et à la sécurité des sites ; présentation neutre."
+    },
+    {
+      "id": "LY-evenement-kohl-2025",
+      "titre": "Le kohl arabe inscrit au patrimoine culturel immatériel",
+      "date": "2025-01-01",
+      "date_affichee": "2025",
+      "precision": "annee",
+      "description": "Le kohl arabe, élément partagé avec huit autres États arabes, est inscrit en 2025 sur la Liste représentative du patrimoine culturel immatériel de l'humanité ; c'est le premier élément immatériel libyen.",
+      "sources": [
+        "S47",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "UNESCO",
+        "Libye"
+      ],
+      "regions": [
+        "Libye"
+      ]
+    }
+  ],
+  "oeuvres": [
+    {
+      "id": "LY-oeuvre-apollon-cyrene",
+      "titre": "Apollon de Cyrène",
+      "type": "sculpture",
+      "description": "Grande statue romaine en marbre d'Apollon trouvée à Cyrène, dans le temple d'Apollon, par les explorateurs britanniques Robert Murdoch Smith et Edwin Porcher. Brisée en 121 morceaux, elle a été remontée au British Museum, où elle est conservée ; elle mesure 2,28 m selon Wikipédia.",
+      "institution": "British Museum (Londres)",
+      "url_notice": "https://en.wikipedia.org/wiki/Apollo_of_Cyrene",
+      "sources": [
+        "S89"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "materiaux": [
+        "marbre"
+      ],
+      "numero_inventaire": "1861.7-25.1",
+      "droits": "Notice Wikipédia CC BY-SA ; objet : British Museum",
+      "periode": "IIe siècle",
+      "sensible": true,
+      "note_sensibilite": "Objet issu de fouilles du XIXe siècle conservé hors de Libye ; question de restitution à examiner avec les institutions libyennes."
+    },
+    {
+      "id": "LY-oeuvre-venus-cyrene",
+      "titre": "Vénus de Cyrène",
+      "type": "sculpture",
+      "description": "Copie romaine d'un original hellénistique figurant Aphrodite sortant de la mer, découverte fin 1913 dans le sanctuaire d'Apollon à Cyrène et transportée à Rome. Après une décision de justice italienne, elle a été restituée à la Libye en 2008, d'après LacusCurtius.",
+      "institution": "Restituée à la Libye en 2008 ; lieu de conservation actuel non vérifié",
+      "url_notice": "https://penelope.uchicago.edu/~grout/encyclopaedia_Romana/miscellanea/museums/venuscyrene.html",
+      "sources": [
+        "S90"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "materiaux": [
+        "marbre (non précisé par la source)"
+      ],
+      "droits": "Notice : LacusCurtius, consultation libre",
+      "periode": "copie romaine d'un original hellénistique"
+    },
+    {
+      "id": "LY-oeuvre-art-rupestre-acacus",
+      "titre": "Peintures rupestres du Tadrart Acacus",
+      "type": "peinture",
+      "description": "Ensemble de milliers de peintures rupestres du Fezzan, dans des styles différents qui se succèdent de 12 000 av. J.-C. au Ier siècle, reflétant les changements de faune, de flore et de modes de vie. Le site est inscrit au patrimoine mondial depuis 1985.",
+      "institution": "Site in situ (Tadrart Acacus, Fezzan)",
+      "url_notice": "https://whc.unesco.org/fr/list/287",
+      "sources": [
+        "S33"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communaute": "populations successives du Sahara",
+      "droits": "Description CC BY-SA IGO 3.0 (UNESCO)",
+      "periode": "12 000 av. J.-C. – Ier siècle"
+    },
+    {
+      "id": "LY-oeuvre-arc-severe-leptis",
+      "titre": "Arc et basilique de Septime Sévère à Leptis Magna",
+      "type": "architecture",
+      "description": "Le forum sévérien, la basilique et l'arc de Septime Sévère sont cités par l'UNESCO parmi les plus beaux monuments du monde romain, avec des sculptures et ciselures marquées par des traditions africaines et orientales. Ils sont conservés sur place à Leptis Magna.",
+      "institution": "Site in situ (Leptis Magna)",
+      "url_notice": "https://whc.unesco.org/fr/list/183",
+      "sources": [
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "droits": "Description CC BY-SA IGO 3.0 (UNESCO)",
+      "periode": "fin du IIe – début du IIIe siècle"
+    },
+    {
+      "id": "LY-oeuvre-theatre-sabratha",
+      "titre": "Théâtre romain de Sabratha",
+      "type": "architecture",
+      "description": "Le théâtre de Sabratha, construit probablement sous l'empereur Commode, avait trois ordres de colonnes pour le décor de scène et pouvait accueillir environ 5 000 spectateurs selon la page UNESCO (version néerlandaise). Il est l'un des monuments les plus connus du site.",
+      "institution": "Site in situ (Sabratha)",
+      "url_notice": "https://whc.unesco.org/fr/list/184",
+      "sources": [
+        "S34"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "droits": "Description CC BY-SA IGO 3.0 (UNESCO)",
+      "periode": "IIe-IIIe siècle"
+    },
+    {
+      "id": "LY-oeuvre-mausolees-ghirza",
+      "titre": "Mausolées de Ghirza",
+      "type": "architecture",
+      "description": "Les nécropoles de Ghirza comptent des mausolées en pierre de taille, bâtis comme des arcades à colonnes autour d'une chambre funéraire, dont les reliefs montrent des scènes agricoles, de chasse (chameau, autruche), des grappes de raisin et des poissons. Ils expriment l'identité d'une aristocratie locale.",
+      "institution": "Site in situ (Ghirza, Tripolitaine)",
+      "url_notice": "https://whc.unesco.org/en/tentativelists/6486",
+      "sources": [
+        "S39"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communaute": "aristocratie locale de Ghirza",
+      "droits": "Texte soumis à l'UNESCO par l'État partie",
+      "periode": "fin du IIIe – IVe siècle"
+    },
+    {
+      "id": "LY-oeuvre-mosquee-awjila",
+      "titre": "Mosquée ancienne d'Awjila",
+      "type": "architecture",
+      "description": "Mosquée d'architecture saharienne, en argile et en pierre, avec vingt et une petites coupoles coniques au-dessus de la salle de prière. Sa construction est située au XIIe siècle par le dossier libyen déposé à l'UNESCO.",
+      "institution": "Site in situ (Awjila)",
+      "url_notice": "https://whc.unesco.org/fr/listesindicatives/7014/",
+      "sources": [
+        "S41"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "materiaux": [
+        "argile",
+        "pierre",
+        "bois et palmes"
+      ],
+      "droits": "Texte soumis à l'UNESCO par l'État partie",
+      "periode": "XIIe siècle"
+    },
+    {
+      "id": "LY-oeuvre-enclos-esclaves",
+      "titre": "Les Enclos des esclaves (Zarā'ib al-'abīd)",
+      "type": "livre",
+      "description": "Roman de Najwa Binshatwan paru en 2016, retenu dans la présélection du Prix international de la fiction arabe 2017 ; il aborde une période sombre de l'histoire libyenne. Son titre anglais varie selon les sources (« The Slaves' Pens », « Slave Pens »).",
+      "institution": "Œuvre publiée (éditeurs divers ; institution de conservation non précisée)",
+      "url_notice": "https://arablit.org/2018/09/27/najwa-binshatwan-its-time-for-libyan-writers-to-prove-themselves/",
+      "sources": [
+        "S74",
+        "S75"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "createur": "Najwa Binshatwan",
+      "droits": "Œuvre protégée ; texte de présentation seul cité",
+      "periode": "2016"
+    },
+    {
+      "id": "LY-oeuvre-oeuvre-al-koni",
+      "titre": "Œuvre romanesque d'Ibrahim al-Koni",
+      "type": "livre",
+      "description": "Ensemble de plus de 80 livres (romans, nouvelles, poèmes) d'Ibrahim al-Koni, traduits en plus de 35 langues ; l'auteur fut finaliste du Man Booker International Prize 2015. Ses fictions puisent dans l'univers touareg et le désert.",
+      "institution": "The Booker Prizes (fiche d'auteur)",
+      "url_notice": "https://thebookerprizes.com/the-booker-library/authors/ibrahim-al-koni",
+      "sources": [
+        "S76"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "createur": "Ibrahim al-Koni",
+      "droits": "Œuvres protégées ; texte de présentation seul cité"
+    },
+    {
+      "id": "LY-oeuvre-lion-du-desert",
+      "titre": "Le Lion du désert (Lion of the Desert)",
+      "type": "film",
+      "description": "Film de 1981 réalisé par Moustapha Akkad, avec Anthony Quinn dans le rôle d'Omar al-Mokhtar ; il évoque la résistance de Cyrénaïque à l'occupation italienne. Encyclopedia.com le cite comme évocation de la vie du chef de la résistance.",
+      "institution": "Film (producteur : Moustapha Akkad)",
+      "url_notice": "https://en.wikipedia.org/wiki/Lion_of_the_Desert",
+      "sources": [
+        "S91",
+        "S44"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "createur": "Moustapha Akkad (réalisation)",
+      "droits": "Œuvre protégée",
+      "periode": "1981",
+      "sensible": true,
+      "note_sensibilite": "Évocation d'événements de la colonisation et de la résistance."
+    },
+    {
+      "id": "LY-oeuvre-soleil-soleil",
+      "titre": "Soleil Soleil (Ahmed Fakroun)",
+      "type": "musique",
+      "description": "Morceau d'Ahmed Fakroun de 1983, tiré de l'album Mots d'amour, mêlant instruments et mélodies arabes à une électronique dansante ; il lui a valu une notoriété en Europe, puis une redécouverte à l'ère numérique.",
+      "institution": "Œuvre éditée (disque ; institution de conservation non précisée)",
+      "url_notice": "https://leguesswho.com/news/ahmed-fakroun-rediscovered-pioneer-in-modern-arabic-music-live-with-dutch-turkish-act-altin-gun",
+      "sources": [
+        "S78",
+        "S79"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "createur": "Ahmed Fakroun",
+      "droits": "Œuvre protégée",
+      "periode": "1983"
+    }
+  ],
+  "proverbes": [],
+  "sources": [
+    {
+      "id": "S1",
+      "titre": "Population, total — Libye (indicateur SP.POP.TOTL)",
+      "institution": "Banque mondiale",
+      "url": "https://api.worldbank.org/v2/country/LY/indicator/SP.POP.TOTL?format=json&per_page=5",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S2",
+      "titre": "Libye",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Libye",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S3",
+      "titre": "Libya 2011 Constitution (Déclaration constitutionnelle)",
+      "institution": "Constitute Project (Oxford University Press)",
+      "url": "https://www.constituteproject.org/constitution/Libya_2011",
+      "type": "base_de_donnees",
+      "licence": "consultation libre, © Oxford University Press",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S4",
+      "titre": "Site archéologique de Leptis Magna",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/183",
+      "type": "unesco",
+      "licence": "CC BY-SA IGO 3.0 (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S5",
+      "titre": "Libya — patrimoine culturel immatériel (page État partie)",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/state/libya-LY",
+      "type": "unesco",
+      "licence": "texte © UNESCO, consultation libre",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S6",
+      "titre": "Libya: A Country Study, « Tripolitania and the Phoenicians »",
+      "institution": "Bibliothèque du Congrès des États-Unis (Library of Congress)",
+      "url": "https://countrystudies.us/libya/5.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Helen Chapin Metz (dir.)",
+      "annee": 1987
+    },
+    {
+      "id": "S7",
+      "titre": "Libya: A Country Study, « Languages of Libya »",
+      "institution": "Bibliothèque du Congrès des États-Unis (Library of Congress)",
+      "url": "https://countrystudies.us/libya/43.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Helen Chapin Metz (dir.)",
+      "annee": 1987
+    },
+    {
+      "id": "S8",
+      "titre": "Glottolog — Arabic [arab1395]",
+      "institution": "Glottolog (Institut Max-Planck pour la science de l'histoire humaine)",
+      "url": "https://glottolog.org/resource/languoid/id/arab1395",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S9",
+      "titre": "Glottolog — Libyan Arabic [liby1240]",
+      "institution": "Glottolog (Institut Max-Planck pour la science de l'histoire humaine)",
+      "url": "https://glottolog.org/resource/languoid/id/liby1240",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S10",
+      "titre": "Glottolog — Eastern Libyan Arabic [east2691]",
+      "institution": "Glottolog (Institut Max-Planck pour la science de l'histoire humaine)",
+      "url": "https://glottolog.org/resource/languoid/id/east2691",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S11",
+      "titre": "Glottolog — Nafusi [nafu1238]",
+      "institution": "Glottolog (Institut Max-Planck pour la science de l'histoire humaine)",
+      "url": "https://glottolog.org/resource/languoid/id/nafu1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S12",
+      "titre": "Libya: A Country Study, « Berbers »",
+      "institution": "Bibliothèque du Congrès des États-Unis (Library of Congress)",
+      "url": "https://countrystudies.us/libya/40.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Helen Chapin Metz (dir.)",
+      "annee": 1987
+    },
+    {
+      "id": "S13",
+      "titre": "Nafusa Mountains",
+      "institution": "Wikipédia (anglais)",
+      "url": "https://en.wikipedia.org/wiki/Nafusa_Mountains",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S14",
+      "titre": "Glottolog — Awjilah [awji1241]",
+      "institution": "Glottolog (Institut Max-Planck pour la science de l'histoire humaine)",
+      "url": "https://glottolog.org/resource/languoid/id/awji1241",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S15",
+      "titre": "Augila (A318)",
+      "institution": "Encyclopédie berbère (OpenEdition Journals)",
+      "url": "https://journals.openedition.org/encyclopedieberbere/1220",
+      "type": "article_scientifique",
+      "licence": "OpenEdition (consultation libre)",
+      "consulte_le": "2026-11-21",
+      "auteur": "W. Vycichl, K.-G. Prasse",
+      "annee": 1989
+    },
+    {
+      "id": "S16",
+      "titre": "Glottolog — Ghadames [ghad1239]",
+      "institution": "Glottolog (Institut Max-Planck pour la science de l'histoire humaine)",
+      "url": "https://glottolog.org/resource/languoid/id/ghad1239",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S17",
+      "titre": "Ghadamès (G36)",
+      "institution": "Encyclopédie berbère (OpenEdition Journals)",
+      "url": "https://journals.openedition.org/encyclopedieberbere/1913",
+      "type": "article_scientifique",
+      "licence": "OpenEdition (consultation libre)",
+      "consulte_le": "2026-11-21",
+      "auteur": "E.B., J. Despois, J. Lanfry, K.-G. Prasse",
+      "annee": 1998
+    },
+    {
+      "id": "S18",
+      "titre": "Glottolog — Tahaggart Tamahaq [taha1241]",
+      "institution": "Glottolog (Institut Max-Planck pour la science de l'histoire humaine)",
+      "url": "https://glottolog.org/resource/languoid/id/taha1241",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S19",
+      "titre": "Libya: A Country Study, « Tuareg »",
+      "institution": "Bibliothèque du Congrès des États-Unis (Library of Congress)",
+      "url": "https://countrystudies.us/libya/41.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Helen Chapin Metz (dir.)",
+      "annee": 1987
+    },
+    {
+      "id": "S20",
+      "titre": "Libya: A Country Study, « Fezzan and the Garamentes »",
+      "institution": "Bibliothèque du Congrès des États-Unis (Library of Congress)",
+      "url": "https://countrystudies.us/libya/7.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Helen Chapin Metz (dir.)",
+      "annee": 1987
+    },
+    {
+      "id": "S21",
+      "titre": "Glottolog — Tedaga [teda1241]",
+      "institution": "Glottolog (Institut Max-Planck pour la science de l'histoire humaine)",
+      "url": "https://glottolog.org/resource/languoid/id/teda1241",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S22",
+      "titre": "Libya: A Country Study, « Black Africans »",
+      "institution": "Bibliothèque du Congrès des États-Unis (Library of Congress)",
+      "url": "https://countrystudies.us/libya/42.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Helen Chapin Metz (dir.)",
+      "annee": 1987
+    },
+    {
+      "id": "S23",
+      "titre": "Glottolog — Libyan Sign Language [liby1235]",
+      "institution": "Glottolog (Institut Max-Planck pour la science de l'histoire humaine)",
+      "url": "https://glottolog.org/resource/languoid/id/liby1235",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S24",
+      "titre": "Libya: A Country Study, « Arabs »",
+      "institution": "Bibliothèque du Congrès des États-Unis (Library of Congress)",
+      "url": "https://countrystudies.us/libya/39.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Helen Chapin Metz (dir.)",
+      "annee": 1987
+    },
+    {
+      "id": "S25",
+      "titre": "Libya: A Country Study, « Hilalians »",
+      "institution": "Bibliothèque du Congrès des États-Unis (Library of Congress)",
+      "url": "https://countrystudies.us/libya/11.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Helen Chapin Metz (dir.)",
+      "annee": 1987
+    },
+    {
+      "id": "S26",
+      "titre": "Ancienne ville de Ghadamès",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/362",
+      "type": "unesco",
+      "licence": "CC BY-SA IGO 3.0 (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S27",
+      "titre": "Through war and decay, Libya's 'desert pearl' tries to hold on",
+      "institution": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2022/5/27/through-war-and-decay-libyas-desert-pearl-tries-to-hold-on",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "auteur": "Malik Traina",
+      "annee": 2022
+    },
+    {
+      "id": "S28",
+      "titre": "Tahala festival kicks off in Ghat",
+      "institution": "The Libya Observer",
+      "url": "https://www.libyaobserver.ly/culture/tahala-festival-kicks-ghat",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S29",
+      "titre": "Libya: A Country Study, « Pashas and Deys »",
+      "institution": "Bibliothèque du Congrès des États-Unis (Library of Congress)",
+      "url": "https://countrystudies.us/libya/15.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Helen Chapin Metz (dir.)",
+      "annee": 1987
+    },
+    {
+      "id": "S30",
+      "titre": "Libya: A Country Study, « Karamanlis »",
+      "institution": "Bibliothèque du Congrès des États-Unis (Library of Congress)",
+      "url": "https://countrystudies.us/libya/16.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Helen Chapin Metz (dir.)",
+      "annee": 1987
+    },
+    {
+      "id": "S31",
+      "titre": "Languages of Libya",
+      "institution": "Wikipedia (anglais)",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Libya",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S32",
+      "titre": "Libya: A Country Study, « The Fourth Shore »",
+      "institution": "Bibliothèque du Congrès des États-Unis (Library of Congress)",
+      "url": "https://countrystudies.us/libya/22.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Helen Chapin Metz (dir.)",
+      "annee": 1987
+    },
+    {
+      "id": "S33",
+      "titre": "Sites rupestres du Tadrart Acacus",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/287",
+      "type": "unesco",
+      "licence": "CC BY-SA IGO 3.0 (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S34",
+      "titre": "Site archéologique de Sabratha",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/184",
+      "type": "unesco",
+      "licence": "CC BY-SA IGO 3.0 (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S35",
+      "titre": "Site archéologique de Cyrène",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/190",
+      "type": "unesco",
+      "licence": "CC BY-SA IGO 3.0 (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S36",
+      "titre": "Libya: A Country Study, « Cyrenaica and the Greeks »",
+      "institution": "Bibliothèque du Congrès des États-Unis (Library of Congress)",
+      "url": "https://countrystudies.us/libya/6.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Helen Chapin Metz (dir.)",
+      "annee": 1987
+    },
+    {
+      "id": "S37",
+      "titre": "The Archaeological Site of Ptolemais (liste indicative)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/6487",
+      "type": "unesco",
+      "licence": "texte soumis par l'État partie, consultation libre",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S38",
+      "titre": "Listes indicatives — Libye (6 sites)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/listesindicatives/?action=listtentative&pattern=&state=ly&order=",
+      "type": "unesco",
+      "licence": "consultation libre",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S39",
+      "titre": "Archaeological site of Ghirza (liste indicative)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/6486",
+      "type": "unesco",
+      "licence": "texte soumis par l'État partie, consultation libre",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S40",
+      "titre": "Haua Fteah Cave (liste indicative)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/6488/",
+      "type": "unesco",
+      "licence": "texte soumis par l'État partie, consultation libre",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S41",
+      "titre": "The Ancient Mosque of Awjila (liste indicative)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/listesindicatives/7014/",
+      "type": "unesco",
+      "licence": "texte soumis par l'État partie, consultation libre",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S42",
+      "titre": "Libya: A Country Study, « The Second Italo-Sanusi War »",
+      "institution": "Bibliothèque du Congrès des États-Unis (Library of Congress)",
+      "url": "https://countrystudies.us/libya/21.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Helen Chapin Metz (dir.)",
+      "annee": 1987
+    },
+    {
+      "id": "S43",
+      "titre": "Fatimah, Last Queen of Libya",
+      "institution": "Royal Central",
+      "url": "https://royalcentral.co.uk/international/fatimah-last-queen-of-libya-138377/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "auteur": "Brittani Barger",
+      "annee": 2020
+    },
+    {
+      "id": "S44",
+      "titre": "Omar al-Mukhtar",
+      "institution": "Encyclopedia.com (Gale)",
+      "url": "https://encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/omar-al-mukhtar",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (Gale), consultation libre",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S45",
+      "titre": "Idris I",
+      "institution": "Encyclopedia.com (Gale)",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/idris-i",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (Gale), consultation libre",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S46",
+      "titre": "Libya: A Country Study, « The Sanusi Order »",
+      "institution": "Bibliothèque du Congrès des États-Unis (Library of Congress)",
+      "url": "https://countrystudies.us/libya/18.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Helen Chapin Metz (dir.)",
+      "annee": 1987
+    },
+    {
+      "id": "S47",
+      "titre": "Arabic Kohl (kohl arabe), Liste représentative du patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/arabic-kohl-02261",
+      "type": "unesco",
+      "licence": "texte © UNESCO, consultation libre",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S48",
+      "titre": "Review: The Ma'lūf in Contemporary Libya: An Arab Andalusian Musical Tradition by Philip Ciantar",
+      "institution": "Ethnomusicology Review (UCLA)",
+      "url": "https://ethnomusicologyreview.ucla.edu/node/735",
+      "type": "article_scientifique",
+      "licence": "consultation libre",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S49",
+      "titre": "Thousands flock to 'Pearl of the Desert' in Libya for heritage event",
+      "institution": "Africanews",
+      "url": "https://www.africanews.com/2023/02/04/thousands-flock-to-pearl-of-the-desert-in-libya-for-heritage-event/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2023
+    },
+    {
+      "id": "S50",
+      "titre": "Libyan cuisine",
+      "institution": "Wikipédia (anglais)",
+      "url": "https://en.wikipedia.org/wiki/Libyan_cuisine",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S51",
+      "titre": "Libya: A Country Study, « Italy and Arab Resistance »",
+      "institution": "Bibliothèque du Congrès des États-Unis (Library of Congress)",
+      "url": "https://countrystudies.us/libya/20.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Helen Chapin Metz (dir.)",
+      "annee": 1987
+    },
+    {
+      "id": "S52",
+      "titre": "The Cyrenaics",
+      "institution": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/cyrenaics/",
+      "type": "encyclopedie",
+      "licence": "consultation libre",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S53",
+      "titre": "Aristippus",
+      "institution": "Wikipédia (anglais)",
+      "url": "https://en.wikipedia.org/wiki/Aristippus",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S54",
+      "titre": "Arete of Cyrene",
+      "institution": "Wikipédia (anglais)",
+      "url": "https://en.wikipedia.org/wiki/Arete_of_Cyrene",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S55",
+      "titre": "Callimachus",
+      "institution": "Encyclopedia.com (Gale)",
+      "url": "https://www.encyclopedia.com/people/literature-and-arts/classical-literature-biographies/callimachus",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (Gale), consultation libre",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S56",
+      "titre": "Eratosthenes of Cyrene",
+      "institution": "MacTutor History of Mathematics, Université de St Andrews",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Eratosthenes/",
+      "type": "universite",
+      "licence": "consultation libre",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S57",
+      "titre": "Berenice II",
+      "institution": "Livius.org (Jona Lendering)",
+      "url": "https://www.livius.org/articles/person/berenice-ii/",
+      "type": "encyclopedie",
+      "licence": "consultation libre",
+      "consulte_le": "2026-11-21",
+      "auteur": "Jona Lendering"
+    },
+    {
+      "id": "S58",
+      "titre": "Carneades",
+      "institution": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/carneades/",
+      "type": "encyclopedie",
+      "licence": "consultation libre",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S59",
+      "titre": "Septimius Severus",
+      "institution": "Wikipédia (anglais)",
+      "url": "https://en.wikipedia.org/wiki/Septimius_Severus",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S60",
+      "titre": "Catholic Encyclopedia (1913) — Synesius of Cyrene",
+      "institution": "Wikisource (reprise de la Catholic Encyclopedia, 1913)",
+      "url": "https://en.wikisource.org/wiki/Catholic_Encyclopedia_(1913)/Synesius_of_Cyrene",
+      "type": "encyclopedie",
+      "licence": "domaine public",
+      "consulte_le": "2026-11-21",
+      "auteur": "Francis Joseph Bacchus",
+      "annee": 1913
+    },
+    {
+      "id": "S61",
+      "titre": "Yusuf Karamanli",
+      "institution": "Wikipédia (anglais)",
+      "url": "https://en.wikipedia.org/wiki/Yusuf_Karamanli",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S62",
+      "titre": "Libya: A Country Study, « INDEPENDENT LIBYA »",
+      "institution": "Bibliothèque du Congrès des États-Unis (Library of Congress)",
+      "url": "https://countrystudies.us/libya/27.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Helen Chapin Metz (dir.)",
+      "annee": 1987
+    },
+    {
+      "id": "S63",
+      "titre": "Fatimah el-Sharif",
+      "institution": "Wikipédia (anglais)",
+      "url": "https://en.wikipedia.org/wiki/Fatimah_el-Sharif",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S64",
+      "titre": "Libya: A Country Study, « Qadhafi »",
+      "institution": "Bibliothèque du Congrès des États-Unis (Library of Congress)",
+      "url": "https://countrystudies.us/libya/29.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Helen Chapin Metz (dir.)",
+      "annee": 1987
+    },
+    {
+      "id": "S65",
+      "titre": "Libya: A Country Study, « The September 1969 Coup »",
+      "institution": "Bibliothèque du Congrès des États-Unis (Library of Congress)",
+      "url": "https://countrystudies.us/libya/28.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Helen Chapin Metz (dir.)",
+      "annee": 1987
+    },
+    {
+      "id": "S66",
+      "titre": "Situation in Libya (ICC-01/11)",
+      "institution": "Cour pénale internationale",
+      "url": "https://www.icc-cpi.int/situations/libya",
+      "type": "institution",
+      "licence": "consultation libre",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S67",
+      "titre": "Muammar Gaddafi",
+      "institution": "Wikipédia (anglais)",
+      "url": "https://en.wikipedia.org/wiki/Muammar_Gaddafi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S68",
+      "titre": "Libyans mourn rights activist amid turmoil",
+      "institution": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2014/6/26/libyans-mourn-rights-activist-amid-turmoil",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2014
+    },
+    {
+      "id": "S69",
+      "titre": "Salwa Bughaighis",
+      "institution": "Wikipédia (anglais)",
+      "url": "https://en.wikipedia.org/wiki/Salwa_Bughaighis",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S70",
+      "titre": "Pittsburgh first U.S. city to spend time with courageous women",
+      "institution": "Pittsburgh Post-Gazette",
+      "url": "https://www.post-gazette.com/local/city/2012/03/06/Pittsburgh-first-U-S-city-to-spend-time-with-courageous-women/stories/201203060259",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2012
+    },
+    {
+      "id": "S71",
+      "titre": "Hana Elhebshi",
+      "institution": "Wikipédia (anglais)",
+      "url": "https://en.wikipedia.org/wiki/Hana_Elhebshi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S72",
+      "titre": "Hajer Sharief (Extremely Together)",
+      "institution": "Fondation Kofi Annan",
+      "url": "https://www.kofiannanfoundation.org/youth-peace/extremely-together/hajer-sharief/",
+      "type": "institution",
+      "licence": "tous droits réservés, consultation libre",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S73",
+      "titre": "Hajer Sharief",
+      "institution": "Wikipédia (anglais)",
+      "url": "https://en.wikipedia.org/wiki/Hajer_Sharief",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S74",
+      "titre": "Najwa Binshatwan: It's Time for Libyan Writers to Prove Themselves",
+      "institution": "ArabLit & ArabLit Quarterly",
+      "url": "https://arablit.org/2018/09/27/najwa-binshatwan-its-time-for-libyan-writers-to-prove-themselves/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "auteur": "Hend Saeed",
+      "annee": 2018
+    },
+    {
+      "id": "S75",
+      "titre": "Najwa Binshatwan",
+      "institution": "Wikipédia (anglais)",
+      "url": "https://en.wikipedia.org/wiki/Najwa_Binshatwan",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S76",
+      "titre": "Ibrahim al-Koni",
+      "institution": "The Booker Prizes",
+      "url": "https://thebookerprizes.com/the-booker-library/authors/ibrahim-al-koni",
+      "type": "institution",
+      "licence": "tous droits réservés, consultation libre",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S77",
+      "titre": "Ibrahim al-Koni",
+      "institution": "Wikipédia (anglais)",
+      "url": "https://en.wikipedia.org/wiki/Ibrahim_al-Koni",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S78",
+      "titre": "Ahmed Fakroun: rediscovered pioneer in modern Arabic music",
+      "institution": "Le Guess Who?",
+      "url": "https://leguesswho.com/news/ahmed-fakroun-rediscovered-pioneer-in-modern-arabic-music-live-with-dutch-turkish-act-altin-gun",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S79",
+      "titre": "O'Flynn releases powerful reinterpretation of Ahmed Fakroun's 1983 track 'Soleil Soleil'",
+      "institution": "Mixmag MENA",
+      "url": "https://mixmagmena.com/read/oflynn-ahmed-fakroun-soleil-news",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S80",
+      "titre": "Ahmed Fakroun",
+      "institution": "Wikipédia (anglais)",
+      "url": "https://en.wikipedia.org/wiki/Ahmed_Fakroun",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S81",
+      "titre": "Libya: A Country Study, « ISLAM AND THE ARABS »",
+      "institution": "Bibliothèque du Congrès des États-Unis (Library of Congress)",
+      "url": "https://countrystudies.us/libya/9.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Helen Chapin Metz (dir.)",
+      "annee": 1987
+    },
+    {
+      "id": "S82",
+      "titre": "Libya: A Country Study, « Fatimids »",
+      "institution": "Bibliothèque du Congrès des États-Unis (Library of Congress)",
+      "url": "https://countrystudies.us/libya/10.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Helen Chapin Metz (dir.)",
+      "annee": 1987
+    },
+    {
+      "id": "S83",
+      "titre": "Libya: A Country Study, « The Ottoman Revival »",
+      "institution": "Bibliothèque du Congrès des États-Unis (Library of Congress)",
+      "url": "https://countrystudies.us/libya/17.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Helen Chapin Metz (dir.)",
+      "annee": 1987
+    },
+    {
+      "id": "S84",
+      "titre": "Libya: A Country Study, « COLONY OF ITALY »",
+      "institution": "Bibliothèque du Congrès des États-Unis (Library of Congress)",
+      "url": "https://countrystudies.us/libya/19.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Helen Chapin Metz (dir.)",
+      "annee": 1987
+    },
+    {
+      "id": "S85",
+      "titre": "Libya: A Country Study, « The Desert War »",
+      "institution": "Bibliothèque du Congrès des États-Unis (Library of Congress)",
+      "url": "https://countrystudies.us/libya/24.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Helen Chapin Metz (dir.)",
+      "annee": 1987
+    },
+    {
+      "id": "S86",
+      "titre": "Libya: A Country Study, « The United Nations and Libya »",
+      "institution": "Bibliothèque du Congrès des États-Unis (Library of Congress)",
+      "url": "https://countrystudies.us/libya/26.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Helen Chapin Metz (dir.)",
+      "annee": 1987
+    },
+    {
+      "id": "S87",
+      "titre": "Libya: A Country Study, « The Socialist People's Libyan Arab Jamahiriya »",
+      "institution": "Bibliothèque du Congrès des États-Unis (Library of Congress)",
+      "url": "https://countrystudies.us/libya/30.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Helen Chapin Metz (dir.)",
+      "annee": 1987
+    },
+    {
+      "id": "S88",
+      "titre": "Différend territorial (Jamahiriya arabe libyenne/Tchad)",
+      "institution": "Cour internationale de Justice",
+      "url": "https://www.icj-cij.org/fr/affaire/83",
+      "type": "institution",
+      "licence": "consultation libre",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S89",
+      "titre": "Apollo of Cyrene",
+      "institution": "Wikipédia (anglais)",
+      "url": "https://en.wikipedia.org/wiki/Apollo_of_Cyrene",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S90",
+      "titre": "Venus (Aphrodite) of Cyrene",
+      "institution": "Université de Chicago, LacusCurtius / Encyclopaedia Romana",
+      "url": "https://penelope.uchicago.edu/~grout/encyclopaedia_Romana/miscellanea/museums/venuscyrene.html",
+      "type": "universite",
+      "licence": "consultation libre",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S91",
+      "titre": "Lion of the Desert",
+      "institution": "Wikipédia (anglais)",
+      "url": "https://en.wikipedia.org/wiki/Lion_of_the_Desert",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    }
+  ]
+}

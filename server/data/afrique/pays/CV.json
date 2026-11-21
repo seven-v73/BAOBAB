@@ -1,0 +1,3818 @@
+{
+  "code": "CV",
+  "nom": "Cap-Vert",
+  "region": "ouest",
+  "wikidata": "Q1011",
+  "maj": "2026-11-21",
+  "pays": {
+    "nom_officiel": "République de Cabo Verde (forme longue française usuelle : République du Cap-Vert)",
+    "capitale": "Praia",
+    "langues_officielles": [
+      "portugais"
+    ],
+    "langues_nationales": [
+      "créole cap-verdien (kabuverdianu)"
+    ],
+    "population": {
+      "valeur": 527326,
+      "annee": 2025,
+      "source": "S13"
+    },
+    "superficie_km2": 4033,
+    "monnaie": "Escudo cap-verdien (CVE)",
+    "resume": "Le Cap-Vert est un archipel volcanique de dix îles, dont neuf habitées, situé dans l'Atlantique au large du Sénégal. Les îles étaient désertes quand les Portugais y arrivent au XVe siècle ; leur peuplement s'est fait par la contrainte, avec des personnes réduites en esclavage venues de la côte ouest-africaine, et Ribeira Grande (aujourd'hui Cidade Velha), fondée vers 1462, est reconnue par l'UNESCO comme la première ville coloniale européenne des tropiques. De cette rencontre est née une société créole, et une langue, le kabuverdianu, qui coexiste avec le portugais, langue de l'administration et de l'école. Pays indépendant depuis le 5 juillet 1975 et ouvert au multipartisme depuis 1990-1991, il compte une diaspora très importante, dont les transferts d'argent comptent dans son économie. Sa musique, en particulier la morna, inscrite par l'UNESCO en 2019, et sa littérature, de Claridade aux auteurs contemporains, expriment l'insularité, l'exil et le lien avec la mer.",
+    "sources": [
+      "S13",
+      "S1",
+      "S2",
+      "S37",
+      "S14",
+      "S21",
+      "S15"
+    ],
+    "note": "Statut des langues : le portugais est la langue officielle ; Glottolog (citant Ethnologue) décrit le kabuverdianu comme langue d'identité nationale inscrite dans la Constitution (art. 9), en voie d'accès à un statut co-officiel. Wikipédia (fr) et la graine Wikidata le présentent comme co-officiel ; à trancher par l'expert."
+  },
+  "langues": [
+    {
+      "id": "CV-langue-kabuverdianu",
+      "nom": "Créole cap-verdien (kabuverdianu)",
+      "nom_local": "Kabuverdianu / Kriolu",
+      "wikidata": "Q35963",
+      "description": "Le kabuverdianu est la langue du quotidien de la grande majorité des Cap-Verdiens. Il s'est formé dès le XVe siècle dans le contexte de la traite portugaise, à partir d'un pidgin à base de portugais enrichi par les langues africaines des captifs. Longtemps marqué comme langue inférieure à l'époque coloniale, il est devenu un outil de résistance culturelle, notamment chez les poètes et chez les dirigeants de l'indépendance. Sa graphie n'était pas encore fixée en 1995 et les parlers varient d'une île à l'autre.",
+      "famille": "créole à base lexicale portugaise",
+      "glottocode": "kabu1256",
+      "statut_linguistique": [
+        "nationale",
+        "véhiculaire"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "toutes les îles",
+        "diaspora"
+      ],
+      "sources": [
+        "S15",
+        "S22",
+        "S40",
+        "S37"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode kabu1256 lu sur glottolog.org. Statut co-officiel à vérifier (voir note du pays)."
+      },
+      "statut": "en_revue"
+    },
+    {
+      "id": "CV-langue-sotavento",
+      "nom": "Parlers de Sotavento (îles sous le vent)",
+      "nom_local": "Sotavento",
+      "description": "Les parlers de Sotavento regroupent, selon Wikipédia, les variétés de Brava, Fogo, Santiago et Maio. Glottolog les classe comme un dialecte du kabuverdianu. Les différences régionales ne sont pas assez grandes, d'après la même source, pour empêcher l'intercompréhension entre îles.",
+      "famille": "créole à base lexicale portugaise",
+      "glottocode": "sota1243",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Brava",
+        "Fogo",
+        "Santiago",
+        "Maio"
+      ],
+      "sources": [
+        "S18",
+        "S40"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottolog contient aussi un nœud « Kabuverdianu Sotavento » (kabu1257) ; relation entre les deux à clarifier."
+      },
+      "statut": "en_revue"
+    },
+    {
+      "id": "CV-langue-barlavento",
+      "nom": "Parlers de Barlavento (îles au vent)",
+      "nom_local": "Barlavento",
+      "description": "Les parlers de Barlavento couvrent, selon Wikipédia, Boa Vista, Sal, São Nicolau, São Vicente et Santo Antão. Glottolog les range comme dialecte du kabuverdianu. Un article de 1995 souligne que le créole de Santo Antão diffère nettement de celui de Brava, ce qui illustre la diversité interne de la langue.",
+      "famille": "créole à base lexicale portugaise",
+      "glottocode": "barl1241",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Boa Vista",
+        "Sal",
+        "São Nicolau",
+        "São Vicente",
+        "Santo Antão"
+      ],
+      "sources": [
+        "S17",
+        "S40",
+        "S22"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-langue-portugais",
+      "nom": "Portugais",
+      "nom_local": "Português",
+      "wikidata": "Q5146",
+      "description": "Le portugais est la langue officielle du Cap-Vert et reste celle des institutions : justice, école, presse et administration. Il a été imposé pendant la colonisation, tandis que le créole était déconsidéré. Les auteurs cap-verdiens écrivent souvent en portugais, parfois en créole.",
+      "famille": "indo-européenne (romane)",
+      "glottocode": "port1283",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "toutes les îles"
+      ],
+      "sources": [
+        "S16",
+        "S22",
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-langue-francais",
+      "nom": "Français",
+      "nom_local": "Français",
+      "wikidata": "Q150",
+      "description": "Le français est enseigné à l'école au Cap-Vert, comme l'anglais, et le pays appartient à l'Organisation internationale de la Francophonie. Ce n'est pas une langue maternelle de la population résidente. Des régions et des communes cap-verdiennes sont membres d'associations francophones.",
+      "famille": "indo-européenne (romane)",
+      "glottocode": "stan1290",
+      "statut_linguistique": [
+        "langue étrangère enseignée"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S19",
+        "S40"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-langue-anglais",
+      "nom": "Anglais",
+      "nom_local": "English",
+      "wikidata": "Q1860",
+      "description": "L'anglais fait partie des langues enseignées à l'école cap-verdienne, aux côtés du français. Il s'est aussi diffusé par la longue relation du pays avec les États-Unis, où s'est installée l'une des plus anciennes communautés de la diaspora.",
+      "famille": "indo-européenne (germanique)",
+      "glottocode": "stan1293",
+      "statut_linguistique": [
+        "langue étrangère enseignée"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S20",
+        "S40",
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-langue-lscv",
+      "nom": "Langue des signes cap-verdienne",
+      "nom_local": "Língua gestual cabo-verdiana",
+      "wikidata": "Q125921959",
+      "description": "La langue des signes cap-verdienne est la langue des signes de la communauté sourde du pays, d'après Wikidata. Aucun glottocode ni aucune statistique de locuteurs n'ont pu être vérifiés ; cette fiche est volontairement brève et à compléter par une source spécialisée.",
+      "statut_linguistique": [
+        "langue des signes"
+      ],
+      "ecritures": [],
+      "sources": [
+        "S56"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "peuples": [
+    {
+      "id": "CV-peuple-crioulos",
+      "nom": "Cap-Verdiens (société créole)",
+      "wikidata": "Q19903733",
+      "description": "La population cap-verdienne s'est constituée aux îles à partir de la rencontre entre Européens et Africains réduits en esclavage, et la plupart des habitants se définissent aujourd'hui comme créoles. Cette identité commune s'exprime dans la langue, la musique et une histoire marquée par la sécheresse, la faim et l'émigration. Chaque île garde pourtant ses fêtes, ses parlers et ses pratiques.",
+      "langues": [
+        "kabuverdianu",
+        "portugais"
+      ],
+      "regions": [
+        "toutes les îles"
+      ],
+      "pays_partages": [],
+      "organisation": "Société insulaire structurée par des fêtes de saints patrons, des associations d'entraide (comme la tabanka) et de fortes solidarités familiales.",
+      "activites": [
+        "agriculture pluviale",
+        "pêche",
+        "commerce maritime",
+        "émigration et transferts d'argent"
+      ],
+      "sources": [
+        "S37",
+        "S21",
+        "S23",
+        "S22",
+        "S1"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-peuple-badius",
+      "nom": "Badius (Santiago)",
+      "wikidata": "Q120630009",
+      "description": "Les Badius désignent, selon Wikipédia, l'identité des communautés rurales afro-descendantes de l'intérieur de Santiago, descendantes en grande partie de personnes asservies venues d'Afrique de l'Ouest. Leur culture a beaucoup marqué l'identité nationale à travers le batuku, le funaná, la tabanka et l'entraide. Un article de 1995 situe à Santiago la forme la plus nettement africaine du batuku, dansé et chanté par des femmes.",
+      "langues": [
+        "kabuverdianu (variété de Santiago)"
+      ],
+      "regions": [
+        "Santiago"
+      ],
+      "pays_partages": [],
+      "organisation": "Entraide villageoise ; la tabanka de Santiago est décrite comme une association de secours mutuel.",
+      "activites": [
+        "agriculture",
+        "musique et danse (batuku, funaná, tabanka)"
+      ],
+      "sources": [
+        "S43",
+        "S23",
+        "S24"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source principale encyclopédique ; une source académique dédiée aux Badius reste à ouvrir."
+      },
+      "statut": "en_revue"
+    },
+    {
+      "id": "CV-peuple-rabelados",
+      "nom": "Rabelados (Espinho Branco, Santiago)",
+      "wikidata": "Q7278671",
+      "description": "Les Rabelados sont une communauté religieuse de l'intérieur de Santiago née dans les années 1940, quand de nouveaux prêtres européens remplacent des prêtres locaux et modifient les usages de l'Église. Des fidèles refusent ces changements, sont ridiculisés et persécutés, puis vivent longtemps à l'écart ; en 2016, un groupe d'environ 450 personnes est regroupé à Espinho Branco depuis 2000. Ils vivent d'agriculture, d'élevage, de pêche et d'artisanat, et maintiennent la messe traditionnelle, la lecture des Écritures et une riche tradition orale.",
+      "langues": [
+        "kabuverdianu"
+      ],
+      "regions": [
+        "Santiago (Espinho Branco, Tarrafal, Santa Cruz)"
+      ],
+      "pays_partages": [],
+      "organisation": "Communauté conduite par des responsables et des anciens ; une association d'artistes, Rabel-Arte, existe en 2016.",
+      "activites": [
+        "agriculture",
+        "élevage de chèvres",
+        "pêche",
+        "artisanat"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Communauté religieuse minoritaire longtemps stigmatisée : toute description doit être validée avec la communauté et rester respectueuse de ses pratiques de foi.",
+      "sources": [
+        "S30",
+        "S44",
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-peuple-chao-caldeiras",
+      "nom": "Habitants de Chã das Caldeiras (Fogo)",
+      "wikidata": "Q6548597",
+      "description": "Chã das Caldeiras est un village installé à l'intérieur de la caldeira du volcan du Fogo, peuplé depuis le début du XXe siècle (Bangaeira vers 1917, Portela vers 1920). Les habitants y cultivent la vigne, des légumineuses et des arbres fruitiers, et élèvent des chèvres dont le lait sert à un fromage traditionnel. Ils ont dû s'adapter aux éruptions, notamment celles de 1995 et de 2014.",
+      "langues": [
+        "kabuverdianu"
+      ],
+      "regions": [
+        "Fogo (São Filipe, Santa Catarina, Mosteiros)"
+      ],
+      "pays_partages": [],
+      "organisation": "Habitat en maisons circulaires de pierre volcanique et de chaume (funcos).",
+      "activites": [
+        "viticulture",
+        "agriculture pluviale",
+        "élevage de chèvres"
+      ],
+      "sources": [
+        "S9"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-peuple-bravenses",
+      "nom": "Habitants de Brava",
+      "description": "L'île de Brava fut peuplée à partir de 1620 par des colons venus de Madère et des Açores, rejoints après 1680 par des propriétaires de Fogo chassés par l'éruption. Au XVIIIe siècle, les baleiniers américains y recrutent des équipages, ce qui lance une émigration durable vers la Nouvelle-Angleterre. La Brava Packet Trade et les « lettres d'amour » contenant de l'argent ont lié l'île à sa diaspora.",
+      "langues": [
+        "kabuverdianu (variété de Brava)",
+        "portugais"
+      ],
+      "regions": [
+        "Brava"
+      ],
+      "pays_partages": [
+        "US"
+      ],
+      "activites": [
+        "pêche",
+        "émigration maritime",
+        "agriculture de subsistance"
+      ],
+      "sources": [
+        "S8",
+        "S21",
+        "S23"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-peuple-potieres-santiago",
+      "nom": "Potières de Santiago (Santa Catarina, Fonte Lima)",
+      "description": "Sur l'île de Santiago, notamment autour de Santa Catarina (Fonte Lima, Ribeira de Cariso), des femmes perpétuent un art de la poterie modelée à la main, dont les formes suivent la tradition africaine. La cuisson se fait en tas à ciel ouvert, souvent la nuit et dans une ambiance de fête, avec batuku. Selon l'auteur, ce savoir diminue face au plastique et à l'aluminium.",
+      "langues": [
+        "kabuverdianu"
+      ],
+      "regions": [
+        "Santiago (Santa Catarina)"
+      ],
+      "pays_partages": [],
+      "activites": [
+        "poterie",
+        "vente au marché d'Assomada"
+      ],
+      "sources": [
+        "S25"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Mention d'un possible rôle rituel de certaines statuettes (source de 1995) : à valider avec les potières.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-peuple-diaspora",
+      "nom": "Diaspora cap-verdienne",
+      "description": "Dès le XVe siècle, la situation du pays a fait de la migration une réalité constante, et la diaspora égale ou dépasse aujourd'hui la population résidente. Les communautés les plus anciennes se trouvent en Nouvelle-Angleterre, puis en Europe, en Amérique du Sud et en Afrique de l'Ouest. Elles sont liées au pays par les associations, la langue créole et les transferts d'argent.",
+      "langues": [
+        "kabuverdianu",
+        "portugais",
+        "anglais"
+      ],
+      "regions": [
+        "diaspora"
+      ],
+      "pays_partages": [
+        "US",
+        "PT",
+        "SN",
+        "FR",
+        "NL",
+        "BR",
+        "AR",
+        "SE",
+        "IT"
+      ],
+      "organisation": "Associations d'entraide et clubs, comme l'Associação Beneficente Caboverdiana fondée à New Bedford en 1917.",
+      "activites": [
+        "transferts d'argent",
+        "associations",
+        "musique"
+      ],
+      "sources": [
+        "S21",
+        "S37",
+        "S22"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "id": "CV-site-cidade-velha",
+      "nom": "Cidade Velha, centre historique de Ribeira Grande",
+      "nom_local": "Cidade Velha",
+      "type": "patrimoine_mondial",
+      "wikidata": "Q464913",
+      "unesco_id": "1310",
+      "inscription": 2009,
+      "coordonnees": {
+        "lat": 14.916666666,
+        "lng": -23.604166666
+      },
+      "description": "Située au sud de l'île de Santiago, Ribeira Grande, rebaptisée Cidade Velha à la fin du XVIIIe siècle, fut la première ville coloniale européenne construite sous les tropiques. Elle conserve une partie de son tracé d'origine, deux églises, une forteresse royale et la place du Pilori, dont la colonne de marbre du XVIe siècle est de style manuélin. L'UNESCO souligne son rôle de plateforme de la traite atlantique, mais aussi de lieu de rencontres interculturelles d'où est issue la première société créole.",
+      "regions": [
+        "Santiago"
+      ],
+      "periode": "XVe-XVIIIe siècle",
+      "sensible": true,
+      "note_sensibilite": "Lieu de mémoire de la traite atlantique : formuler avec les institutions patrimoniales du Cap-Vert et distinguer faits établis et récits mémoriels.",
+      "sources": [
+        "S1",
+        "S38",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-site-tarrafal",
+      "nom": "Camp de Tarrafal (Chão Bom)",
+      "nom_local": "Campo do Tarrafal",
+      "type": "lieu_de_memoire",
+      "wikidata": "Q1031493",
+      "coordonnees": {
+        "lat": 15.264167,
+        "lng": -23.743889
+      },
+      "description": "Créé par décret en 1936 sur l'île de Santiago, le camp du Tarrafal a reçu ses 152 premiers prisonniers le 29 octobre de cette année-là et a servi à enfermer des opposants antifascistes portugais jusqu'en 1956. Il rouvre en 1962 sous le nom de camp de travail de Chão Bom pour des anticolonialistes d'Angola, de Guinée-Bissau et du Cap-Vert. Le dossier de liste indicative déposé en 2016 le décrit comme un lieu de répression marqué par les travaux forcés, la torture et la maladie.",
+      "regions": [
+        "Santiago (Tarrafal)"
+      ],
+      "periode": "1936-1956, puis à partir de 1962",
+      "sensible": true,
+      "note_sensibilite": "Lieu de détention politique et de décès de prisonniers : récit à relire par les institutions de mémoire et, si possible, par les familles.",
+      "sources": [
+        "S5",
+        "S57"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-site-praia-plateau",
+      "nom": "Centre historique de Praia (le Plateau)",
+      "type": "liste_indicative",
+      "wikidata": "Q3751",
+      "coordonnees": {
+        "lat": 14.920833,
+        "lng": -23.525
+      },
+      "description": "Le centre historique de Praia occupe sur environ 15 hectares le plateau naturellement fortifié de Santa Maria da Vitória, au-dessus du port. Longtemps site militaire stratégique, il a profité du déclin de Ribeira Grande pour devenir le centre administratif de la colonie, et sa confirmation comme capitale date de 1770. Il est inscrit sur la liste indicative du pays depuis 2016.",
+      "regions": [
+        "Santiago (Praia)"
+      ],
+      "periode": "depuis le XVIe siècle",
+      "sources": [
+        "S6",
+        "S4"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le QID Q3751 désigne la ville de Praia, pas le seul Plateau. Coordonnées converties depuis N14°55'15\" W23°31'30\" (fiche UNESCO)."
+      },
+      "statut": "en_revue"
+    },
+    {
+      "id": "CV-site-sao-filipe",
+      "nom": "Centre historique de São Filipe (Fogo)",
+      "type": "liste_indicative",
+      "wikidata": "Q13957085",
+      "coordonnees": {
+        "lat": 14.896599,
+        "lng": -24.495499
+      },
+      "description": "Seconde île peuplée de l'archipel (entre 1470 et 1490), Fogo a vu naître São Filipe autour d'une chapelle, grâce à des propriétaires de Ribeira Grande qui y étendent la culture du coton. Les maisons à étage (sobrados) du XIXe siècle, financées par l'exportation de café, de vin et de graines de jatropha, forment l'essentiel du bâti actuel ; la localité devient ville le 12 juillet 1922. Les familles des sobrados y affichaient leur statut lors de fêtes syncrétiques.",
+      "regions": [
+        "Fogo"
+      ],
+      "periode": "XVe-XIXe siècle",
+      "sources": [
+        "S7",
+        "S23"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées Wikidata ; la fiche UNESCO reproduit par erreur celles de Praia."
+      },
+      "statut": "en_revue"
+    },
+    {
+      "id": "CV-site-nova-sintra",
+      "nom": "Centre historique de Nova Sintra (Brava)",
+      "type": "liste_indicative",
+      "wikidata": "Q493634",
+      "coordonnees": {
+        "lat": 14.870833,
+        "lng": -24.695833
+      },
+      "description": "Nova Sintra, sur la petite île de Brava (64 km²), garde un mode de vie semi-rural et des maisons du XIXe siècle entourées de jardins. L'île, peuplée à partir de 1620, a connu une forte émigration vers les États-Unis par les baleiniers, d'où un climat intellectuel particulier. C'est la ville natale du poète et compositeur de mornas Eugénio Tavares.",
+      "regions": [
+        "Brava"
+      ],
+      "periode": "XVIIe-XIXe siècle",
+      "sources": [
+        "S8",
+        "S58"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées Wikidata."
+      },
+      "statut": "en_revue"
+    },
+    {
+      "id": "CV-site-fogo-cha-das-caldeiras",
+      "nom": "Parc naturel du Fogo et Chã das Caldeiras",
+      "type": "site_naturel",
+      "wikidata": "Q499108",
+      "coordonnees": {
+        "lat": 14.949269,
+        "lng": -24.34037
+      },
+      "description": "Le parc couvre 8 468 hectares autour du volcan du Fogo, point culminant du Cap-Vert (2 829 m), actif, avec une caldeira de 8 km de diamètre. À l'intérieur vit la communauté de Chã das Caldeiras, qui cultive la vigne et élève des chèvres ; la dernière éruption a commencé le 23 novembre 2014. Le site figure sur la liste indicative depuis 2016 au titre de critères naturels.",
+      "regions": [
+        "Fogo"
+      ],
+      "periode": "volcan actif ; habité depuis le début du XXe siècle",
+      "sources": [
+        "S9",
+        "S59"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées Wikidata du sommet (Pico do Fogo)."
+      },
+      "statut": "en_revue"
+    },
+    {
+      "id": "CV-site-pedra-de-lume",
+      "nom": "Salines de Pedra de Lume (Sal)",
+      "type": "liste_indicative",
+      "wikidata": "Q486580",
+      "coordonnees": {
+        "lat": 16.796536,
+        "lng": -22.934347
+      },
+      "description": "Dans le cratère d'un volcan éteint de l'île de Sal, un dépôt de sel de plus de cinquante millions de tonnes a été exploité à partir de la fin du XVIIIe siècle. Tunnel, voie ferrée, quai et téléphérique de 1921 témoignent de cette industrie qui exportait jusqu'à 30 000 tonnes par an avant l'interdiction du sel étranger par le Brésil en 1887. Aujourd'hui, le sel sert surtout aux cosmétiques et à la thalassothérapie, et le cratère accueille des visiteurs.",
+      "regions": [
+        "Sal"
+      ],
+      "periode": "XIXe-XXe siècle",
+      "sources": [
+        "S10",
+        "S60"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées converties depuis la fiche UNESCO (N16°47'47.53\" W22°56'03.65\")."
+      },
+      "statut": "en_revue"
+    },
+    {
+      "id": "CV-site-santa-luzia",
+      "nom": "Réserves de Santa Luzia, Branco et Raso",
+      "type": "site_naturel",
+      "wikidata": "Q492531",
+      "coordonnees": {
+        "lat": 16.761389,
+        "lng": -24.743889
+      },
+      "description": "Santa Luzia, la plus petite île de l'archipel (34 km²), et les îlots Branco et Raso forment un complexe de réserves naturelles de 609,6 km² incluant la zone marine. Découvertes en 1461 par les Portugais, ces îles sont restées inhabitées, sauf Santa Luzia qui l'a été par intervalles aux XIXe et XXe siècles. Le complexe est inscrit sur la liste indicative depuis 2016.",
+      "regions": [
+        "Santa Luzia",
+        "São Vicente (à proximité)"
+      ],
+      "periode": "depuis 1461",
+      "sources": [
+        "S11",
+        "S61"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées Wikidata de l'île de Santa Luzia."
+      },
+      "statut": "en_revue"
+    },
+    {
+      "id": "CV-site-cova-paul-ribeira-torre",
+      "nom": "Parc naturel de Cova, Paúl et Ribeira da Torre (Santo Antão)",
+      "type": "site_naturel",
+      "coordonnees": {
+        "lat": 17.1167,
+        "lng": -25.0557
+      },
+      "description": "Au nord de Santo Antão, ce parc va d'environ 400 m à 1 585 m d'altitude (Pico da Cruz) et associe cratère volcanique, forêts, falaises et vallées profondes. Son microclimat, aidé par les précipitations occultes, favorise une riche flore endémique et une agriculture traditionnelle, avec élevage de chèvres. Le territoire est occupé depuis la fin du XVIe siècle.",
+      "regions": [
+        "Santo Antão (Porto Novo, Paúl, Ribeira Grande)"
+      ],
+      "periode": "depuis la fin du XVIe siècle",
+      "sources": [
+        "S12"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées : milieu approximatif de la fourchette donnée par la fiche UNESCO (N17°5'42\"-17°8'18.7\", W25°1'21\"-25°5'20\")."
+      },
+      "statut": "en_revue"
+    },
+    {
+      "id": "CV-site-museu-etnografico-praia",
+      "nom": "Musée ethnographique de Praia",
+      "nom_local": "Museu Etnográfico da Praia",
+      "type": "musee",
+      "wikidata": "Q3330560",
+      "coordonnees": {
+        "lat": 14.9209,
+        "lng": -23.5072
+      },
+      "description": "Ouvert en novembre 1997 dans un bâtiment du XIXe siècle de la partie historique de Praia, le musée présente une sélection d'objets illustrant les usages et coutumes traditionnels des Cap-Verdiens. Il se trouve dans le Plateau, rue 5 de Julho.",
+      "regions": [
+        "Santiago (Praia)"
+      ],
+      "periode": "depuis 1997",
+      "sources": [
+        "S51",
+        "S39",
+        "S62"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source principale encyclopédique ; site officiel de l'Instituto do Património Cultural à consulter."
+      },
+      "statut": "en_revue"
+    },
+    {
+      "id": "CV-site-mindelo",
+      "nom": "Mindelo (São Vicente)",
+      "type": "ville_historique",
+      "wikidata": "Q495547",
+      "coordonnees": {
+        "lat": 16.891353,
+        "lng": -24.987983
+      },
+      "description": "Mindelo, sur l'île de São Vicente, est devenue au XIXe siècle un grand port de ravitaillement pour les navires transatlantiques. Le lycée Gil Eanes y a été un foyer de débats littéraires et sociaux ; la revue Claridade y est fondée en 1936, le carnaval de Mindelo y est le plus renommé du pays, et le Centre national d'artisanat y tisse le pano d'obra. C'est aussi la ville de Cesária Évora.",
+      "regions": [
+        "São Vicente"
+      ],
+      "periode": "XIXe siècle à aujourd'hui",
+      "sources": [
+        "S37",
+        "S32",
+        "S26",
+        "S53",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "traditions": [
+    {
+      "id": "CV-tradition-morna",
+      "nom": "Morna, pratique musicale du Cap-Vert",
+      "nom_local": "Morna",
+      "categorie": "musique",
+      "wikidata": "Q502535",
+      "description": "La morna est une pratique musicale et chorégraphique qui associe voix, poésie, musique instrumentale et danse, accompagnée surtout par des cordes : guitare, violon, cavaquinho. Ses textes, aujourd'hui surtout en créole, parlent d'amour, de départ, de nostalgie, de la mer et de la terre natale. Elle accompagne les mariages, baptêmes et retrouvailles, et se transmet en famille, par des ateliers, la radio et le concours « Todo Mundo Canta ».",
+      "communautes": [
+        "musiciens, chanteurs, poètes et compositeurs de toutes les îles"
+      ],
+      "regions": [
+        "toutes les îles",
+        "Brava",
+        "São Vicente"
+      ],
+      "langues": [
+        "kabuverdianu",
+        "portugais"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01469",
+        "annee": 2019,
+        "url": "https://ich.unesco.org/en/RL/morna-musical-practice-of-cabo-verde-01469"
+      },
+      "transmission": "vivante",
+      "periode": "environ un siècle et demi selon un article de 1995",
+      "sources": [
+        "S2",
+        "S3",
+        "S24",
+        "S39"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikipédia (fr) situe la naissance de la morna à Boa Vista au XVIIIe siècle, alors que Martins (1995) parle d'un genre urbain vieux d'environ 150 ans : origine disputée."
+      },
+      "statut": "en_revue"
+    },
+    {
+      "id": "CV-tradition-batuku-finacon",
+      "nom": "Batuku et finaçon (Santiago)",
+      "nom_local": "Batuku / Batuque, finaçon",
+      "categorie": "musique",
+      "wikidata": "Q2891921",
+      "description": "Le batuku est une danse et un chant de femmes, avec un chœur dirigé par une meneuse, qui frappent des paumes sur un tissu (pano) serré entre les cuisses. Il comprend le txabeta, partie rapide dansée, et le finaçon, suite de vers improvisés ou de proverbes sur la vie de la communauté. Aujourd'hui surtout vivant à Santiago, il a des échos dans les chants de mariage d'autres îles.",
+      "communautes": [
+        "femmes batukaderas de Santiago",
+        "Badius"
+      ],
+      "regions": [
+        "Santiago",
+        "São Nicolau",
+        "Santo Antão"
+      ],
+      "langues": [
+        "kabuverdianu"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "sources": [
+        "S23",
+        "S24",
+        "S22",
+        "S41"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-tradition-tabanka",
+      "nom": "Tabanka",
+      "nom_local": "Tabanka",
+      "categorie": "fete",
+      "wikidata": "Q3394533",
+      "description": "La tabanka est à la fois un défilé de danse accompagné de tambours, cornes et conques, et une association d'entraide. À Santiago, la fête a lieu en juin ; les participants portent des costumes évoquant une cour royale et suivent des règles collectives strictes. Un ethnographe cité par Rodrigues y voit un mélange de pratiques catholiques et ouest-africaines.",
+      "communautes": [
+        "communautés de Santiago",
+        "communautés de Maio"
+      ],
+      "regions": [
+        "Santiago",
+        "Maio"
+      ],
+      "langues": [
+        "kabuverdianu"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "sensible": true,
+      "note_sensibilite": "Fête à dimension religieuse et règles rituelles : à valider avec les communautés porteuses avant publication.",
+      "sources": [
+        "S23",
+        "S24",
+        "S21",
+        "S45"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-tradition-funana",
+      "nom": "Funaná",
+      "nom_local": "Funaná",
+      "categorie": "danse",
+      "wikidata": "Q3090876",
+      "description": "Le funaná se joue à l'accordéon diatonique (gaita) et au ferrinho, tige de fer raclée qui marque le rythme. Né à l'intérieur de Santiago, il s'est électrifié en arrivant en ville vers l'indépendance, puis a gagné les autres îles. Il se danse en couple, avec des mouvements vifs des hanches.",
+      "communautes": [
+        "musiciens de Santiago"
+      ],
+      "regions": [
+        "Santiago"
+      ],
+      "langues": [
+        "kabuverdianu"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "sources": [
+        "S24",
+        "S46",
+        "S41"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-tradition-coladeira",
+      "nom": "Coladeira",
+      "nom_local": "Coladeira / Kaladera",
+      "categorie": "musique",
+      "wikidata": "Q2982341",
+      "description": "La coladeira est née au Cap-Vert dans les années 1950 et reste influencée par les rythmes d'Amérique latine. Jouée et dansée lors de fêtes, elle se prête volontiers au commentaire social et a nourri de nombreux groupes électriques.",
+      "communautes": [
+        "musiciens de toutes les îles"
+      ],
+      "regions": [
+        "toutes les îles"
+      ],
+      "langues": [
+        "kabuverdianu"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "periode": "depuis les années 1950",
+      "sources": [
+        "S24",
+        "S47"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-tradition-sao-joao-kola",
+      "nom": "Fêtes de São João et danse kola San Jon",
+      "nom_local": "Kola San Jon",
+      "categorie": "fete",
+      "description": "La Saint-Jean est fêtée sur toutes les îles autour du solstice d'été, avec processions, tambours, feux de joie, repas et danse. À São Vicente, le rythme se nomme kola San Jon, et la danse rapproche les partenaires jusqu'au ventre ; à Brava, un mât décoré est dressé. Des bateaux modèles parcourent les rues et rappellent les attaques de pirates.",
+      "communautes": [
+        "habitants de Brava, Santo Antão, São Vicente, São Nicolau"
+      ],
+      "regions": [
+        "Brava",
+        "Santo Antão",
+        "São Vicente",
+        "São Nicolau"
+      ],
+      "langues": [
+        "kabuverdianu"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "sensible": true,
+      "note_sensibilite": "Fête à dimension religieuse ; certaines pratiques rituelles (feu, divination) sont décrites ici d'après un auteur extérieur.",
+      "sources": [
+        "S23",
+        "S24",
+        "S48"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-tradition-sao-filipe-bandeiras",
+      "nom": "Fête de São Filipe et « bandeiras » (Fogo)",
+      "nom_local": "Nho São Filipe, bandeiras",
+      "categorie": "fete",
+      "description": "Le 1er mai, jour du saint patron de l'île, São Filipe accueille l'une des fêtes les plus élaborées de l'archipel, appelée bandeiras (« drapeaux »). On y pile du maïs dans un grand mortier cérémoniel et on dresse un mât, tandis que des bannières trempées dans la mer sont bénies puis portées en ville. Chaque année, une personne se charge du drapeau et de l'organisation de la fête suivante.",
+      "communautes": [
+        "habitants de Fogo"
+      ],
+      "regions": [
+        "Fogo (São Filipe)"
+      ],
+      "langues": [
+        "kabuverdianu"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "sensible": true,
+      "note_sensibilite": "Pratiques rituelles (sacrifice d'un animal, mât) décrites d'après un observateur ; à valider avec les communautés.",
+      "sources": [
+        "S23",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-tradition-carnaval-mindelo",
+      "nom": "Carnaval de Mindelo",
+      "nom_local": "Carnaval de São Vicente",
+      "categorie": "fete",
+      "description": "Le carnaval est une fête commune à toutes les îles, mais celui de Mindelo est le plus renommé. Il est vu comme un symbole d'identité de São Vicente et entretient un dialogue avec le carnaval brésilien. À Brava, un char de carnaval porte une « lettre d'amour » qui évoque les lettres d'émigrés contenant de l'argent.",
+      "communautes": [
+        "habitants de São Vicente"
+      ],
+      "regions": [
+        "São Vicente (Mindelo)",
+        "Brava"
+      ],
+      "langues": [
+        "kabuverdianu",
+        "portugais"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "periode": "février (mardi gras)",
+      "sources": [
+        "S42",
+        "S39",
+        "S23"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-tradition-panu-di-tera",
+      "nom": "Pánu di téra, tissage de coton",
+      "nom_local": "Pánu di téra / pano de obra",
+      "categorie": "textile",
+      "description": "Le pánu di téra est un tissu de coton fait de bandes étroites cousues ensemble, dont la technique a été apportée de la côte guinéenne par des tisserands asservis. Du XVe au XVIIe siècle, il servait de monnaie d'échange sur la côte ouest-africaine ; après l'indépendance, il est devenu un symbole d'identité. Le pano d'obra, le plus élaboré, est encore tissé au Centre national d'artisanat de Mindelo, et des modèles sont conservés au musée national d'ethnologie du Portugal.",
+      "communautes": [
+        "tisserandes et tisserands de Santiago et Fogo"
+      ],
+      "regions": [
+        "Santiago",
+        "Fogo",
+        "São Vicente (Mindelo)"
+      ],
+      "langues": [
+        "kabuverdianu"
+      ],
+      "unesco": null,
+      "transmission": "revitalisée",
+      "periode": "depuis le milieu du XVe siècle",
+      "sources": [
+        "S27",
+        "S21",
+        "S26",
+        "S34",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-tradition-poterie-santiago",
+      "nom": "Poterie modelée de Santiago et de Boa Vista",
+      "categorie": "artisanat",
+      "description": "Les potières de Santiago modèlent à la main de grandes jarres et des pots dans un bloc d'argile, sans tour ni four, puis cuisent les pièces en tas à ciel ouvert. À Boa Vista, l'influence d'un potier portugais dans les années 1960 aurait modifié les formes locales. Selon Leão Lopes (1995), ce savoir recule face aux produits industriels, et des statuettes à la signification peut-être rituelle ont presque disparu.",
+      "communautes": [
+        "potières de Santa Catarina (Fonte Lima, Ribeira de Cariso)",
+        "Boa Vista"
+      ],
+      "regions": [
+        "Santiago",
+        "Boa Vista"
+      ],
+      "langues": [
+        "kabuverdianu"
+      ],
+      "unesco": null,
+      "transmission": "fragile",
+      "sensible": true,
+      "note_sensibilite": "Possible dimension rituelle de certaines statuettes : à valider avec les potières.",
+      "sources": [
+        "S25",
+        "S26"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-tradition-cachupa",
+      "nom": "Cachupa",
+      "nom_local": "Katxupa",
+      "categorie": "cuisine",
+      "wikidata": "Q2060858",
+      "description": "La cachupa est un ragoût mijoté de maïs et de haricots, avec du poisson ou de la viande, souvent considéré comme le plat national. Chaque île a sa variante, la cachupa rica étant plus riche en ingrédients que la cachupa pobre, et les restes sont repris en cachupa frita. Elle peut se manger au petit-déjeuner avec un œuf et de la saucisse.",
+      "communautes": [
+        "toutes les îles"
+      ],
+      "regions": [
+        "toutes les îles"
+      ],
+      "langues": [
+        "kabuverdianu"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "sources": [
+        "S49",
+        "S39",
+        "S64"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Sources encyclopédiques uniquement ; une source culinaire ou ethnologique est à ajouter."
+      },
+      "statut": "en_revue"
+    },
+    {
+      "id": "CV-tradition-grogue",
+      "nom": "Grogue, eau-de-vie de canne",
+      "nom_local": "Grogue",
+      "categorie": "savoir",
+      "wikidata": "Q5610120",
+      "description": "Le grogue est une eau-de-vie de canne à sucre produite de façon essentiellement artisanale, la canne étant pressée dans un trapiche. Il sert aussi de base à des préparations médicinales avec des plantes comme la rue ou le romarin. Les chants de travail kola hoi accompagnent, à Santo Antão et Brava, le tour des bœufs autour du trapiche.",
+      "communautes": [
+        "producteurs de canne"
+      ],
+      "regions": [
+        "Santo Antão",
+        "Brava"
+      ],
+      "langues": [
+        "kabuverdianu"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "sources": [
+        "S50",
+        "S24",
+        "S39"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Régions de production à confirmer par une source agricole."
+      },
+      "statut": "en_revue"
+    },
+    {
+      "id": "CV-tradition-chants-travail-religieux",
+      "nom": "Chants de travail, chants religieux et chansons d'enfants",
+      "categorie": "oralite",
+      "description": "Le répertoire traditionnel comprend des chants de travail (kola hoi, chants de semis ou de désherbage), des chants religieux a cappella chantés hors de l'église et des chansons d'enfants. À Brava, les bombana accompagnent la plantation de la patate douce ; à São Nicolau, les divines se chantent à trois voix. Selon Martins (1995), plusieurs de ces formes, comme les chants de l'Épiphanie, sont en train de disparaître.",
+      "communautes": [
+        "habitants de Santo Antão, Brava, São Nicolau, Fogo, Santiago"
+      ],
+      "regions": [
+        "Santo Antão",
+        "Brava",
+        "São Nicolau",
+        "Fogo",
+        "Santiago"
+      ],
+      "langues": [
+        "kabuverdianu"
+      ],
+      "unesco": null,
+      "transmission": "fragile",
+      "sources": [
+        "S24"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-tradition-contes-oralite",
+      "nom": "Contes, devinettes et récits oraux",
+      "categorie": "oralite",
+      "description": "La tradition orale cap-verdienne est riche en contes, fables, devinettes et dictons, dont les récits du loup Ti Lobo. Des contes comme Pastorinho de Kabra ou Kava Figueira se chantent parfois sur des mélodies pentatoniques. Elsie Clews Parsons a recueilli en 1916-1917, auprès d'émigrants du Cap-Vert installés en Nouvelle-Angleterre, contes et devinettes en créole.",
+      "communautes": [
+        "conteurs et conteuses des îles et de la diaspora"
+      ],
+      "regions": [
+        "toutes les îles",
+        "diaspora"
+      ],
+      "langues": [
+        "kabuverdianu"
+      ],
+      "unesco": null,
+      "transmission": "fragile",
+      "sources": [
+        "S39",
+        "S24",
+        "S29"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-tradition-vin-fromage-fogo",
+      "nom": "Vin et fromage de chèvre de Chã das Caldeiras",
+      "categorie": "cuisine",
+      "description": "Dans la caldeira du Fogo, entre 1 200 et 1 700 m d'altitude, la viticulture donne le vin traditionnel dit manecon et d'autres vins. Les habitants cultivent aussi pois, haricots et fruits, et élèvent des chèvres dont le lait fait un fromage traditionnel.",
+      "communautes": [
+        "habitants de Chã das Caldeiras"
+      ],
+      "regions": [
+        "Fogo (Chã das Caldeiras)"
+      ],
+      "langues": [
+        "kabuverdianu"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "sources": [
+        "S9"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "personnalites": [
+    {
+      "id": "CV-personnalite-amilcar-cabral",
+      "nom": "Amílcar Cabral",
+      "wikidata": "Q213416",
+      "description": "Né en Guinée portugaise d'un père cap-verdien, il grandit au Cap-Vert, où il suit sa scolarité à Praia puis au lycée Gil Eanes de Mindelo, puis étudie l'agronomie à Lisbonne. Cofondateur du PAIGC, il en devient le stratège et le négociateur, menant des missions diplomatiques dans de nombreux pays. Il est assassiné à Conakry le 20 janvier 1973, avant les indépendances de la Guinée-Bissau et du Cap-Vert.",
+      "naissance": {
+        "date": "1924-09-12",
+        "lieu": "Bafatá (Guinée-Bissau)"
+      },
+      "roles": [
+        "agronome",
+        "dirigeant du PAIGC",
+        "théoricien de la libération",
+        "diplomate"
+      ],
+      "domaines": [
+        "politique",
+        "résistance",
+        "savoirs"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S88",
+        "S65",
+        "S32",
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le Museu do Aljube date la fondation du PAIGC de 1959, d'autres sources de 1956 ; circonstances de l'assassinat présentées différemment selon les sources."
+      },
+      "deces": {
+        "date": "1973-01-20",
+        "lieu": "Conakry (Guinée)"
+      }
+    },
+    {
+      "id": "CV-personnalite-cesaria-evora",
+      "nom": "Cesária Évora",
+      "wikidata": "Q103759",
+      "description": "Chanteuse de Mindelo, elle se produit d'abord dans les bars et hôtels de la ville et devient la « reine de la morna ». Encouragée par Bana, elle commence une carrière internationale avec La diva aux pieds nus, puis enregistre vingt-cinq albums entre 1965 et 2011. Elle a reçu un Grammy de musique du monde et la Légion d'honneur ; Wikidata donne son décès à Mindelo le 17 décembre 2011.",
+      "naissance": {
+        "date": "1941-08-27",
+        "lieu": "Mindelo (São Vicente)"
+      },
+      "roles": [
+        "chanteuse"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S89",
+        "S33",
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "deces": {
+        "date": "2011-12-17",
+        "lieu": "Mindelo (São Vicente)"
+      }
+    },
+    {
+      "id": "CV-personnalite-aristides-pereira",
+      "nom": "Aristides Pereira",
+      "wikidata": "Q298609",
+      "description": "Né à Boa Vista, il travaille d'abord dans les télécommunications en Guinée-Bissau puis s'engage dans le mouvement anticolonial. Cofondateur du PAIGC avec Amílcar Cabral, il est le premier président du Cap-Vert indépendant, de 1975 à 1991. Battu en 1991 lors des premières élections libres, il quitte le pouvoir sans crise.",
+      "naissance": {
+        "date": "1923-11-17",
+        "lieu": "Boa Vista (Fundo das Figueiras)"
+      },
+      "roles": [
+        "cofondateur du PAIGC",
+        "président de la République"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S90",
+        "S66",
+        "S31",
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "deces": {
+        "date": "2011-09-22",
+        "lieu": "Coimbra (Portugal)"
+      }
+    },
+    {
+      "id": "CV-personnalite-pedro-pires",
+      "nom": "Pedro Pires",
+      "wikidata": "Q107431",
+      "description": "Né à São Filipe, sur l'île de Fogo, il étudie à Mindelo puis à Lisbonne avant de rejoindre la lutte du PAIGC en exil. Premier ministre de 1975 à 1991, il est président de la République de 2001 à 2011.",
+      "naissance": {
+        "date": "1934-04-29",
+        "lieu": "São Filipe (Fogo)"
+      },
+      "roles": [
+        "premier ministre",
+        "président de la République"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S91",
+        "S67",
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-personnalite-eugenio-tavares",
+      "nom": "Eugénio Tavares",
+      "wikidata": "Q1355682",
+      "description": "Né à Brava, poète, journaliste et dramaturge, il est connu surtout pour ses mornas, écrites en grande partie dans le créole de Brava. Il a fait de la morna un genre plus grave et plus tourné vers l'amour. « Morna de Despedida » (Hora di bai) est restée l'une des mornas les plus célèbres, souvent entendue lors des funérailles.",
+      "naissance": {
+        "date": "1867-10-18",
+        "lieu": "Brava"
+      },
+      "roles": [
+        "poète",
+        "compositeur de mornas",
+        "journaliste",
+        "dramaturge"
+      ],
+      "domaines": [
+        "littérature",
+        "musique"
+      ],
+      "epoque": "XIXe-XXe siècle",
+      "sources": [
+        "S92",
+        "S68",
+        "S8",
+        "S24",
+        "S39"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikidata donne deux dates de décès (1er juin et 6 janvier 1930) ; Wikipédia et la fiche UNESCO ne tranchent pas explicitement."
+      },
+      "deces": {
+        "date": "1930-06-01",
+        "lieu": "Nova Sintra (Brava)"
+      }
+    },
+    {
+      "id": "CV-personnalite-b-leza",
+      "nom": "B. Léza (Francisco Xavier da Cruz)",
+      "wikidata": "Q10285239",
+      "description": "Né à Mindelo, il est l'un des compositeurs qui ont le plus marqué la morna, notamment par l'usage d'accords de passage. Son succès commence dans les années 1950 et sa marque a duré vingt ans. Il compose des mornas comme « Eclipse » et « Miss Perfumado ».",
+      "naissance": {
+        "lieu": "Mindelo (São Vicente)"
+      },
+      "roles": [
+        "compositeur"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S93",
+        "S69",
+        "S24"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikidata donne deux dates de naissance (1895 ou 1905) ; la date est laissée vide. Lieu de décès non retenu."
+      },
+      "deces": {
+        "date": "1958-07-14"
+      }
+    },
+    {
+      "id": "CV-personnalite-baltasar-lopes",
+      "nom": "Baltasar Lopes da Silva",
+      "wikidata": "Q548846",
+      "description": "Écrivain, poète et linguiste de São Nicolau, il écrit en portugais et en créole. Cofondateur de la revue Claridade avec Manuel Lopes et Jorge Barbosa, il publie en 1947 Chiquinho, souvent tenu pour le grand roman cap-verdien, et une étude des parlers du créole.",
+      "naissance": {
+        "date": "1907-04-23",
+        "lieu": "Calejão (São Nicolau)"
+      },
+      "roles": [
+        "écrivain",
+        "linguiste",
+        "professeur"
+      ],
+      "domaines": [
+        "littérature",
+        "savoirs"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S94",
+        "S70",
+        "S23",
+        "S52"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikidata et Wikipédia divergent sur le jour et le lieu du décès (mai 1989 ; São Vicente ou Lisbonne) : seule l'année est retenue."
+      },
+      "deces": {
+        "date": "1989"
+      }
+    },
+    {
+      "id": "CV-personnalite-manuel-lopes",
+      "nom": "Manuel Lopes",
+      "wikidata": "Q2636281",
+      "description": "Romancier, poète et essayiste, il est cofondateur de Claridade en 1936. Il écrit en portugais, en y mêlant des tournures du portugais et du créole du Cap-Vert, et décrit les ravages des sécheresses à São Vicente et à Santo Antão.",
+      "naissance": {
+        "date": "1907-12-23",
+        "lieu": "Mindelo (São Vicente)"
+      },
+      "roles": [
+        "romancier",
+        "poète",
+        "essayiste"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S95",
+        "S75",
+        "S53"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "deces": {
+        "date": "2005-01-25",
+        "lieu": "Lisbonne"
+      }
+    },
+    {
+      "id": "CV-personnalite-jorge-barbosa",
+      "nom": "Jorge Barbosa",
+      "wikidata": "Q1984024",
+      "description": "Poète né à Praia, il publie en 1935 l'anthologie Arquipélago, qui marque le début de la poésie cap-verdienne moderne. Avec Baltasar Lopes da Silva et Manuel Lopes, il fonde en 1936 la revue Claridade.",
+      "naissance": {
+        "date": "1902-05",
+        "lieu": "Praia (Santiago)"
+      },
+      "roles": [
+        "poète",
+        "cofondateur de Claridade"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S96",
+        "S83",
+        "S53"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le jour de naissance diffère entre Wikipédia (22 mai) et Wikidata (25 mai) : seul le mois est retenu."
+      },
+      "deces": {
+        "date": "1971-01-06",
+        "lieu": "Lisbonne"
+      }
+    },
+    {
+      "id": "CV-personnalite-corsino-fortes",
+      "nom": "Corsino Fortes",
+      "wikidata": "Q2998046",
+      "description": "Poète, juriste et diplomate né à Mindelo, il a été le premier ambassadeur du Cap-Vert au Portugal, de 1975 à 1981. Il a présidé l'association des écrivains cap-verdiens de 2003 à 2006 et signé certaines des œuvres les plus marquantes de la littérature du pays.",
+      "naissance": {
+        "date": "1933-02-14",
+        "lieu": "Mindelo (São Vicente)"
+      },
+      "roles": [
+        "poète",
+        "diplomate",
+        "juriste"
+      ],
+      "domaines": [
+        "littérature",
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S97",
+        "S76"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "deces": {
+        "date": "2015-07-24",
+        "lieu": "Mindelo (São Vicente)"
+      }
+    },
+    {
+      "id": "CV-personnalite-germano-almeida",
+      "nom": "Germano Almeida",
+      "wikidata": "Q580332",
+      "description": "Écrivain né à Boa Vista, avocat à Mindelo, il est l'auteur de romans traduits en plusieurs langues. Son roman sur Napumoceno da Silva Araújo a inspiré un film en 1997. Il a reçu le prix Camões en 2018.",
+      "naissance": {
+        "date": "1945-07-31",
+        "lieu": "Boa Vista"
+      },
+      "roles": [
+        "écrivain",
+        "avocat"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S98",
+        "S81",
+        "S55"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikidata donne aussi 1945-01-01 comme date de naissance ; la date du 31 juillet vient de Wikipédia."
+      }
+    },
+    {
+      "id": "CV-personnalite-armenio-vieira",
+      "nom": "Arménio Vieira",
+      "wikidata": "Q2604164",
+      "description": "Poète, écrivain et journaliste, il commence son activité dans les années 1960 et collabore à de nombreuses revues. Il a reçu le prix Camões en 2009 pour O Poema, a Viagem, o Sonho.",
+      "naissance": {
+        "date": "1941-01-29",
+        "lieu": "Praia (Santiago)"
+      },
+      "roles": [
+        "poète",
+        "journaliste"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S99",
+        "S82"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikidata donne aussi 24 janvier 1941 ; Wikipédia donne le 29. Lieu de naissance d'après Wikidata seulement."
+      }
+    },
+    {
+      "id": "CV-personnalite-mascarenhas-monteiro",
+      "nom": "António Mascarenhas Monteiro",
+      "wikidata": "Q336265",
+      "description": "Premier président du Cap-Vert élu démocratiquement, il exerce de 1991 à 2001. Sous le régime du parti unique, il a été secrétaire général de l'Assemblée nationale puis président de la Cour suprême de justice.",
+      "naissance": {
+        "date": "1944-02-16",
+        "lieu": "Ribeira da Barca (Santiago)"
+      },
+      "roles": [
+        "président de la République",
+        "juriste"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S100",
+        "S80",
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "deces": {
+        "date": "2016-09-16",
+        "lieu": "Praia (Santiago)"
+      }
+    },
+    {
+      "id": "CV-personnalite-bana",
+      "nom": "Bana (Adriano Gonçalves)",
+      "wikidata": "Q4853750",
+      "description": "Chanteur de Mindelo, surnommé le « roi de la morna », il a contribué à populariser le genre. Il a encouragé Cesária Évora à entamer une carrière internationale et fondé le label Monte Cara.",
+      "naissance": {
+        "date": "1932-03-05",
+        "lieu": "Mindelo (São Vicente)"
+      },
+      "roles": [
+        "chanteur",
+        "entrepreneur de musique"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S101",
+        "S79",
+        "S33",
+        "S41",
+        "S74"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Certaines sources donnent le 11 mars comme date de naissance (Wikipédia)."
+      },
+      "deces": {
+        "date": "2013-07-13",
+        "lieu": "Lisbonne"
+      }
+    },
+    {
+      "id": "CV-personnalite-orlanda-amarilis",
+      "nom": "Orlanda Amarílis",
+      "wikidata": "Q3073182",
+      "description": "Écrivaine née à Assomada, elle fait ses études à Mindelo puis se forme comme institutrice à Goa. Ses nouvelles et récits décrivent la vie des femmes cap-verdiennes et la diaspora, et elle est considérée comme l'une des auteures les plus talentueuses du pays.",
+      "naissance": {
+        "date": "1924-10-08",
+        "lieu": "Assomada (Santa Catarina)"
+      },
+      "roles": [
+        "écrivaine",
+        "institutrice"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S102",
+        "S71"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "deces": {
+        "date": "2014-02-01",
+        "lieu": "Lisbonne"
+      }
+    },
+    {
+      "id": "CV-personnalite-dulce-almada-duarte",
+      "nom": "Dulce Almada Duarte",
+      "wikidata": "Q27077739",
+      "description": "Linguiste née à São Vicente, elle étudie les langues romanes à Coimbra et s'engage pour l'indépendance : elle rejoint le PAIGC en Guinée. Elle est l'autrice de Bilinguismo ou diglossia ? sur les rapports de force entre le créole et le portugais dans la société cap-verdienne.",
+      "naissance": {
+        "date": "1933-08-24",
+        "lieu": "Mindelo (São Vicente)"
+      },
+      "roles": [
+        "linguiste",
+        "militante du PAIGC"
+      ],
+      "domaines": [
+        "savoirs",
+        "résistance"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S103",
+        "S72",
+        "S40"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "deces": {
+        "date": "2019-08-19",
+        "lieu": "Praia (Santiago)"
+      }
+    },
+    {
+      "id": "CV-personnalite-mayra-andrade",
+      "nom": "Mayra Andrade",
+      "wikidata": "Q445463",
+      "description": "Chanteuse née à La Havane de parents cap-verdiens, elle grandit entre plusieurs pays avant de s'installer à Paris puis à Lisbonne. Elle a reçu le prix de la critique allemande du disque en 2007 et 2009, et son album Lovely Difficult a été nommé aux Victoires de la musique en 2014.",
+      "naissance": {
+        "date": "1985-02-13",
+        "lieu": "La Havane (Cuba)"
+      },
+      "roles": [
+        "chanteuse"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S104",
+        "S73"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-personnalite-celina-pereira",
+      "nom": "Celina Pereira",
+      "wikidata": "Q18243135",
+      "description": "Chanteuse, enseignante et conteuse née à Boa Vista, elle publie en 1979 un premier disque puis Força di Cretcheu en 1986. Elle a travaillé comme institutrice à Viseu et mêlé chants, histoires et comptines.",
+      "naissance": {
+        "date": "1940",
+        "lieu": "Boa Vista"
+      },
+      "roles": [
+        "chanteuse",
+        "enseignante",
+        "conteuse"
+      ],
+      "domaines": [
+        "musique",
+        "oralité"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S105",
+        "S74"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date exacte de naissance incertaine (1940 ; 10 septembre selon Wikidata)."
+      },
+      "deces": {
+        "date": "2020-12-17",
+        "lieu": "Lisbonne"
+      }
+    },
+    {
+      "id": "CV-personnalite-vera-duarte",
+      "nom": "Vera Duarte",
+      "wikidata": "Q7920765",
+      "description": "Poétesse et juriste née à Mindelo, elle a siégé à la Cour suprême et a été conseillère du président de la République. Elle a reçu en 1995 le premier prix Nord-Sud du Conseil de l'Europe, avec Peter Gabriel, pour son engagement en faveur des droits humains, a co-fondé en 2003 la Commission nationale des droits de l'homme et de la citoyenneté, puis a été ministre de l'Éducation.",
+      "naissance": {
+        "date": "1952-10-02",
+        "lieu": "Mindelo (São Vicente)"
+      },
+      "roles": [
+        "poétesse",
+        "juge",
+        "militante des droits humains",
+        "ministre"
+      ],
+      "domaines": [
+        "littérature",
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S106",
+        "S77"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-personnalite-dina-salustio",
+      "nom": "Dina Salústio",
+      "wikidata": "Q104128393",
+      "description": "Romancière née à Santo Antão, pseudonyme de Bernardina Oliveira, elle est la première femme du pays à publier un roman et la première auteure cap-verdienne dont un roman est traduit en anglais. Formée comme assistante sociale, elle a travaillé au ministère des Affaires étrangères, ainsi qu'au Portugal et en Angola comme journaliste et enseignante.",
+      "naissance": {
+        "date": "1941",
+        "lieu": "Santo Antão"
+      },
+      "roles": [
+        "romancière",
+        "assistante sociale",
+        "journaliste"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S107",
+        "S78"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "evenements": [
+    {
+      "id": "CV-evenement-arrivee-portugais",
+      "titre": "Arrivée des Portugais dans un archipel inhabité",
+      "date": "1456-01-01",
+      "date_affichee": "vers 1456-1462",
+      "precision": "annee",
+      "description": "Dans la seconde moitié du XVe siècle, des navigateurs portugais et génois abordent les îles, que les sources décrivent comme inhabitées. Les dossiers de liste indicative datent la découverte de Fogo et de Sal de 1460, celle de Santa Luzia de 1461 et celle de Brava de 1462.",
+      "sources": [
+        "S23",
+        "S7",
+        "S11",
+        "S8",
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La date exacte du premier abordage est incertaine, comme le souligne Wikipédia."
+      },
+      "fin": "1462-12-31",
+      "acteurs": [
+        "navigateurs portugais et génois"
+      ]
+    },
+    {
+      "id": "CV-evenement-fondation-ribeira-grande",
+      "titre": "Fondation de Ribeira Grande (Cidade Velha)",
+      "date": "1462-01-01",
+      "date_affichee": "1462",
+      "precision": "annee",
+      "description": "Les Portugais fondent sur l'île de Santiago la colonie de Ribeira Grande, première ville coloniale européenne des tropiques selon l'UNESCO. Elle devient une escale de la traite atlantique et un lieu de naissance de la société créole.",
+      "sources": [
+        "S1",
+        "S37",
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Santiago"
+      ],
+      "acteurs": [
+        "Couronne portugaise",
+        "habitants et captifs de Ribeira Grande"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Histoire de la traite et de l'esclavage : formulations à relire avec des historiens et institutions de mémoire."
+    },
+    {
+      "id": "CV-evenement-peuplement-fogo",
+      "titre": "Peuplement de l'île de Fogo",
+      "date": "1470-01-01",
+      "date_affichee": "1470-1490",
+      "precision": "annee",
+      "description": "Fogo devient la deuxième île peuplée, par des propriétaires de Ribeira Grande et leurs captifs. Le coton y est cultivé, matière première du pano, principal bien d'échange pour obtenir des esclaves sur la côte africaine.",
+      "sources": [
+        "S7",
+        "S27"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "fin": "1490-12-31",
+      "regions": [
+        "Fogo"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Histoire de la traite et de l'esclavage : formulations à relire avec des historiens et institutions de mémoire."
+    },
+    {
+      "id": "CV-evenement-commerce-panos",
+      "titre": "Essor du commerce du pano de coton",
+      "date": "1450-01-01",
+      "date_affichee": "XVe-XVIIe siècle",
+      "precision": "siecle",
+      "description": "Des tisserands asservis venus de la côte guinéenne produisent des panos, très demandés en Afrique de l'Ouest et utilisés comme monnaie d'échange dans la traite. La production recule au XVIIIe siècle mais le tissu deviendra plus tard un symbole d'identité.",
+      "sources": [
+        "S27",
+        "S21",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "fin": "1699-12-31",
+      "regions": [
+        "Santiago",
+        "Fogo"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Histoire de la traite et de l'esclavage : formulations à relire avec des historiens et institutions de mémoire."
+    },
+    {
+      "id": "CV-evenement-praia-1515",
+      "titre": "Praia, port lié à la traite dès 1515",
+      "date": "1515-01-01",
+      "date_affichee": "1515",
+      "precision": "annee",
+      "description": "Le dossier de liste indicative de Praia indique qu'en 1515 la caravelle Santa Catarina y décharge 132 personnes réduites en esclavage. Le site devient ensuite un lieu d'escale pour les navires transatlantiques.",
+      "sources": [
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Santiago (Praia)"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Histoire de la traite et de l'esclavage : formulations à relire avec des historiens et institutions de mémoire."
+    },
+    {
+      "id": "CV-evenement-charte-1612",
+      "titre": "Charte royale de 1612 vers un siège à Praia",
+      "date": "1612-08-14",
+      "date_affichee": "14 août 1612",
+      "precision": "jour",
+      "description": "Philippe II ordonne que le gouverneur ou l'évêque réside en alternance à Praia Santa Maria, première étape vers le transfert du siège administratif et religieux. Ribeira Grande est alors en déclin.",
+      "sources": [
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Santiago (Praia)"
+      ],
+      "acteurs": [
+        "Philippe II"
+      ]
+    },
+    {
+      "id": "CV-evenement-peuplement-brava",
+      "titre": "Peuplement de Brava",
+      "date": "1620-01-01",
+      "date_affichee": "1620",
+      "precision": "annee",
+      "description": "L'île de Brava, restée longtemps inhabitée, commence à se peupler vers 1620 avec des colons de Madère et des Açores.",
+      "sources": [
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Brava"
+      ]
+    },
+    {
+      "id": "CV-evenement-eruption-fogo-1680",
+      "titre": "Séisme et éruption à Fogo, refuge à Brava",
+      "date": "1680-01-01",
+      "date_affichee": "1680",
+      "precision": "annee",
+      "description": "Après un tremblement de terre suivi d'une éruption à Fogo, des propriétaires et quelques couples de personnes noires libres se réfugient à Brava, où ils s'installent.",
+      "sources": [
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Fogo",
+        "Brava"
+      ]
+    },
+    {
+      "id": "CV-evenement-praia-capitale-1770",
+      "titre": "Confirmation de Praia comme capitale",
+      "date": "1770-01-01",
+      "date_affichee": "1770",
+      "precision": "annee",
+      "description": "Après le déclin de Ribeira Grande, Praia est confirmée comme véritable capitale de la province du Cap-Vert.",
+      "sources": [
+        "S6",
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La fiche de Nova Sintra (UNESCO) évoque une capitale transférée à Praia en 1855 ; les dates de transfert varient selon les sources."
+      },
+      "regions": [
+        "Santiago (Praia)"
+      ]
+    },
+    {
+      "id": "CV-evenement-secheresses-famines",
+      "titre": "Sécheresses et famines récurrentes",
+      "date": "1774-01-01",
+      "date_affichee": "1774-1975",
+      "precision": "annee",
+      "description": "Entre 1774 et 1975, plus de 120 000 Cap-Verdiens meurent des effets de la sécheresse et de la famine, qui frappe en moyenne une année sur huit. Ces crises alimentent l'émigration et marquent la mémoire collective, notamment dans les chansons.",
+      "sources": [
+        "S21",
+        "S23",
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "fin": "1975-12-31",
+      "sensible": true,
+      "note_sensibilite": "Mémoire de famines meurtrières et de recrutements forcés : formuler avec précaution."
+    },
+    {
+      "id": "CV-evenement-pedra-de-lume-1796",
+      "titre": "Installation à Pedra de Lume autour du sel",
+      "date": "1796-01-01",
+      "date_affichee": "vers 1796",
+      "precision": "annee",
+      "description": "Le marchand Manuel António Martins s'installe à Pedra de Lume avec des familles de Boa Vista et des captifs pour exploiter le sel du cratère. L'extraction fixe durablement la population sur l'île de Sal.",
+      "sources": [
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Sal"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Histoire de la traite et de l'esclavage : formulations à relire avec des historiens et institutions de mémoire."
+    },
+    {
+      "id": "CV-evenement-bresil-sel-1887",
+      "titre": "Le Brésil interdit le sel étranger",
+      "date": "1887-01-01",
+      "date_affichee": "1887",
+      "precision": "annee",
+      "description": "En 1887, le Brésil impose l'interdiction du sel étranger, ce qui interrompt l'âge d'or des salines de Pedra de Lume, qui exportaient jusqu'à 30 000 tonnes par an.",
+      "sources": [
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Sal"
+      ]
+    },
+    {
+      "id": "CV-evenement-abc-new-bedford-1917",
+      "titre": "Fondation de l'Associação Beneficente Caboverdiana",
+      "date": "1917-01-01",
+      "date_affichee": "1917",
+      "precision": "annee",
+      "description": "À New Bedford, dans le Massachusetts, la communauté cap-verdienne fonde la première d'une longue série d'associations d'entraide en diaspora.",
+      "sources": [
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Cap-Verdiens de New Bedford"
+      ]
+    },
+    {
+      "id": "CV-evenement-loi-us-1922",
+      "titre": "Les États-Unis restreignent l'immigration de personnes de couleur",
+      "date": "1922-01-01",
+      "date_affichee": "1922",
+      "precision": "annee",
+      "description": "La mesure limite fortement l'immigration cap-verdienne aux États-Unis et empêche les Cap-Verdiens américains de visiter les îles, d'où environ quarante ans d'isolement entre les deux communautés. Les départs se tournent vers l'Europe, l'Amérique du Sud et l'Afrique de l'Ouest.",
+      "sources": [
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-evenement-claridade-1936",
+      "titre": "Fondation de la revue Claridade",
+      "date": "1936-01-01",
+      "date_affichee": "1936",
+      "precision": "annee",
+      "description": "La revue lancée à Mindelo par Manuel Lopes, Baltasar Lopes da Silva et Jorge Barbosa contribue à construire une identité culturelle propre à l'archipel. Elle marque le début de la littérature cap-verdienne moderne.",
+      "sources": [
+        "S53",
+        "S84",
+        "S83"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "São Vicente (Mindelo)"
+      ],
+      "acteurs": [
+        "Manuel Lopes",
+        "Baltasar Lopes da Silva",
+        "Jorge Barbosa"
+      ]
+    },
+    {
+      "id": "CV-evenement-tarrafal-1936",
+      "titre": "Ouverture du camp de Tarrafal",
+      "date": "1936-10-29",
+      "date_affichee": "29 octobre 1936",
+      "precision": "jour",
+      "description": "Créé par décret le 23 avril 1936, le camp reçoit ses 152 premiers prisonniers, des opposants au régime autoritaire portugais.",
+      "sources": [
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Santiago (Tarrafal)"
+      ],
+      "acteurs": [
+        "Estado Novo portugais",
+        "prisonniers antifascistes"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Lieu de détention politique : formuler en lien avec les institutions de mémoire."
+    },
+    {
+      "id": "CV-evenement-famine-1941-1948",
+      "titre": "Grande famine de 1941-1948",
+      "date": "1941-01-01",
+      "date_affichee": "1941-1948",
+      "precision": "annee",
+      "description": "La famine fait environ 50 000 morts, soit plus du tiers de la population selon Wikipédia, qui parle d'indifférence des autorités portugaises. Un article de 1995 rappelle une famine ayant tué plus de 50 000 personnes sur une population d'environ 200 000, et les départs contraints vers les plantations de São Tomé.",
+      "sources": [
+        "S37",
+        "S23",
+        "S24"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikipédia date la famine de 1941-1948 ; l'article de 1995 ne précise pas les années. Les « Famine of '59 » citées par Kode di Dona renvoient à une autre crise."
+      },
+      "fin": "1948-12-31",
+      "sensible": true,
+      "note_sensibilite": "Mémoire de famines meurtrières et de recrutements forcés : formuler avec précaution."
+    },
+    {
+      "id": "CV-evenement-rabelados-1940s",
+      "titre": "Naissance du mouvement des Rabelados",
+      "date": "1940-01-01",
+      "date_affichee": "années 1940",
+      "precision": "annee",
+      "description": "Après l'arrivée de nouveaux prêtres européens dans les années 1940, une partie des fidèles de Santiago refuse les changements de l'Église et forme sa propre communauté. Ils seront ridiculisés et persécutés.",
+      "sources": [
+        "S30",
+        "S44"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "fin": "1949-12-31",
+      "regions": [
+        "Santiago"
+      ],
+      "acteurs": [
+        "Rabelados",
+        "Église catholique"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Communauté religieuse minoritaire : relire avec la communauté."
+    },
+    {
+      "id": "CV-evenement-chiquinho-1947",
+      "titre": "Publication du roman Chiquinho",
+      "date": "1947-01-01",
+      "date_affichee": "1947",
+      "precision": "annee",
+      "description": "Le roman de Baltasar Lopes da Silva, écrit en 1936, est publié en 1947 ; il est considéré comme l'œuvre la plus connue de la littérature cap-verdienne. Un article de 1995 le cite pour évoquer le batuku dans les mariages de São Nicolau.",
+      "sources": [
+        "S23",
+        "S52",
+        "S85"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "São Nicolau"
+      ],
+      "acteurs": [
+        "Baltasar Lopes da Silva"
+      ]
+    },
+    {
+      "id": "CV-evenement-paigc-1956",
+      "titre": "Fondation du PAIGC",
+      "date": "1956-01-01",
+      "date_affichee": "1956",
+      "precision": "annee",
+      "description": "Amílcar Cabral et ses compagnons, dont son frère Luís et Aristides Pereira, créent le Parti africain pour l'indépendance de la Guinée et du Cap-Vert. Le parti lie le sort politique des deux colonies.",
+      "sources": [
+        "S37",
+        "S31",
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikipédia date la fondation de 1956 ; le Museu do Aljube cite 1959. À trancher."
+      },
+      "acteurs": [
+        "Amílcar Cabral",
+        "Aristides Pereira",
+        "Luís Cabral"
+      ]
+    },
+    {
+      "id": "CV-evenement-pidjiguiti-1959",
+      "titre": "Grève des dockers de Pidjiguiti",
+      "date": "1959-08-03",
+      "date_affichee": "3 août 1959",
+      "precision": "jour",
+      "description": "À Bissau, une grève de dockers est violemment réprimée par la police coloniale, avec des dizaines de morts. Elle marque un tournant dans la stratégie du PAIGC.",
+      "sources": [
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Guinée-Bissau (Bissau)"
+      ],
+      "acteurs": [
+        "PAIGC",
+        "dockers de Bissau"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Violences de la répression coloniale : formulations à valider."
+    },
+    {
+      "id": "CV-evenement-tarrafal-1962",
+      "titre": "Réouverture du camp de Tarrafal pour les anticolonialistes",
+      "date": "1962-01-01",
+      "date_affichee": "1962",
+      "precision": "annee",
+      "description": "Après des années de fermeture, le camp rouvre sous le nom de camp de travail de Chão Bom pour incarcérer des anticolonialistes d'Angola, de Guinée-Bissau et du Cap-Vert.",
+      "sources": [
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Santiago (Tarrafal)"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Lieu de détention politique : formuler en lien avec les institutions de mémoire."
+    },
+    {
+      "id": "CV-evenement-lutte-armee-1963",
+      "titre": "Début de la lutte armée du PAIGC",
+      "date": "1963-01-23",
+      "date_affichee": "23 janvier 1963",
+      "precision": "jour",
+      "description": "Le PAIGC engage la lutte armée contre le colonialisme portugais, principalement en Guinée.",
+      "sources": [
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "PAIGC"
+      ]
+    },
+    {
+      "id": "CV-evenement-assassinat-cabral",
+      "titre": "Assassinat d'Amílcar Cabral",
+      "date": "1973-01-20",
+      "date_affichee": "20 janvier 1973",
+      "precision": "jour",
+      "description": "Amílcar Cabral est tué à Conakry. Les circonstances sont présentées différemment selon les sources, certaines évoquant des membres du PAIGC en lien avec des agents portugais.",
+      "sources": [
+        "S31",
+        "S32",
+        "S88"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Guinée (Conakry)"
+      ],
+      "acteurs": [
+        "Amílcar Cabral"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Assassinat politique : présentation neutre des hypothèses."
+    },
+    {
+      "id": "CV-evenement-independance-1975",
+      "titre": "Indépendance du Cap-Vert",
+      "date": "1975-07-05",
+      "date_affichee": "5 juillet 1975",
+      "precision": "jour",
+      "description": "Le Portugal reconnaît la souveraineté du Cap-Vert après des élections à une Assemblée nationale le 30 juin 1975. Aristides Pereira devient le premier président.",
+      "sources": [
+        "S37",
+        "S14",
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "PAIGC",
+        "Portugal"
+      ]
+    },
+    {
+      "id": "CV-evenement-multipartisme-1990",
+      "titre": "Fin du parti unique et premières élections libres",
+      "date": "1990-09-28",
+      "date_affichee": "28 septembre 1990 (élections en janvier 1991)",
+      "precision": "jour",
+      "description": "Le système à parti unique est aboli officiellement fin septembre 1990 ; les premières élections libres ont lieu en janvier 1991 et portent le MpD au pouvoir. La Banque mondiale souligne depuis une tradition de transitions pacifiques entre PAICV et MpD.",
+      "sources": [
+        "S37",
+        "S14"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "MpD",
+        "PAICV"
+      ]
+    },
+    {
+      "id": "CV-evenement-eruption-1995",
+      "titre": "Éruption du volcan du Fogo (1995)",
+      "date": "1995-01-01",
+      "date_affichee": "1995",
+      "precision": "annee",
+      "description": "Les deux familles qui avaient peuplé Chã das Caldeiras au début du XXe siècle y sont restées jusqu'à l'éruption de 1995, selon le dossier de liste indicative.",
+      "sources": [
+        "S9"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Fogo"
+      ]
+    },
+    {
+      "id": "CV-evenement-miss-perfumado-1992",
+      "titre": "Sortie de Miss Perfumado de Cesária Évora",
+      "date": "1992-01-01",
+      "date_affichee": "1992",
+      "precision": "annee",
+      "description": "L'album, quatrième de la chanteuse, s'est vendu à plus de 300 000 exemplaires et contient « Sodade », chanson sur le manque de la terre natale ressenti par la diaspora.",
+      "sources": [
+        "S54",
+        "S86",
+        "S33"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Cesária Évora"
+      ]
+    },
+    {
+      "id": "CV-evenement-cidade-velha-2009",
+      "titre": "Inscription de Cidade Velha au patrimoine mondial",
+      "date": "2009-01-01",
+      "date_affichee": "2009",
+      "precision": "annee",
+      "description": "Le centre historique de Ribeira Grande entre sur la Liste du patrimoine mondial de l'UNESCO, seul site du Cap-Vert inscrit à ce jour d'après la liste de l'UNESCO.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Santiago"
+      ]
+    },
+    {
+      "id": "CV-evenement-eruption-2014",
+      "titre": "Éruption du volcan du Fogo (2014)",
+      "date": "2014-11-23",
+      "date_affichee": "23 novembre 2014",
+      "precision": "jour",
+      "description": "La dernière éruption du volcan du Fogo commence le 23 novembre 2014 dans la caldeira de Chã das Caldeiras.",
+      "sources": [
+        "S9",
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Fogo"
+      ]
+    },
+    {
+      "id": "CV-evenement-ratification-ich-2016",
+      "titre": "Ratification de la Convention de 2003 sur le patrimoine immatériel",
+      "date": "2016-01-06",
+      "date_affichee": "6 janvier 2016",
+      "precision": "jour",
+      "description": "Le Cap-Vert ratifie la Convention de l'UNESCO pour la sauvegarde du patrimoine culturel immatériel, trois ans avant l'inscription de la morna sur la Liste représentative.",
+      "sources": [
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-evenement-morna-unesco-2019",
+      "titre": "Inscription de la morna au patrimoine immatériel",
+      "date": "2019-01-01",
+      "date_affichee": "2019",
+      "precision": "annee",
+      "description": "La morna est inscrite sur la Liste représentative du patrimoine culturel immatériel de l'humanité (14e session du Comité).",
+      "sources": [
+        "S2",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Cap-Vert",
+        "UNESCO"
+      ]
+    }
+  ],
+  "oeuvres": [
+    {
+      "id": "CV-oeuvre-violon-met",
+      "titre": "Violon à une corde (Cap-Vert), vers 1850-1903",
+      "type": "instrument",
+      "description": "Instrument à cordes frottées en bois, calebasse et cuir, attribué à la culture cap-verdienne et rattaché par le musée aux « Cape Verde Islands ». Il est entré au musée en 1889 avec la collection Crosby Brown d'instruments de musique. Il témoigne de la place des violons dans la musique du pays, évoquée dans les articles de Martins (1995).",
+      "communaute": "Cap-verdienne",
+      "materiaux": [
+        "bois",
+        "calebasse",
+        "cuir"
+      ],
+      "periode": "vers 1850-1903",
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "89.4.2954a, b",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/505453",
+      "droits": "Données de l'API Open Access du Met (CC0) ; l'objet n'est pas catalogué comme domaine public, image non reproduite ici.",
+      "sources": [
+        "S36",
+        "S24"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-oeuvre-pano-de-obra-ax994",
+      "titre": "Pano de obra (MNE AX.994)",
+      "type": "textile",
+      "description": "Pièce de coton teinte avec des colorants naturels, composée de six bandes étroites cousues, avec un décor en relief de motifs géométriques. Elle est attribuée au XXe siècle et à l'île de Santiago. Le pano d'obra, type de tissu venu de Guinée-Bissau, est le plus élaboré des panos cap-verdiens.",
+      "communaute": "Santiago",
+      "materiaux": [
+        "coton",
+        "teinture naturelle"
+      ],
+      "periode": "XXe siècle",
+      "institution": "Museu Nacional de Etnologia (Portugal)",
+      "numero_inventaire": "MNE: AX.994",
+      "url_notice": "https://artsandculture.google.com/asset/traditional-cloth-pano-de-obra-0098/rgERlVoz3n5vqg",
+      "droits": "Collection MNE ; image DGPC/ADF (tous droits réservés), non reproduite ici.",
+      "sources": [
+        "S34",
+        "S26",
+        "S27"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-oeuvre-pano-ac045",
+      "titre": "Tissu du Cap-Vert, Achada Longueira (MNE AC.045)",
+      "type": "textile",
+      "description": "Tissu de coton teint avec des pigments naturels, fait de six bandes tissées séparément puis cousues. Il vient d'Achada Longueira, sur l'île de Santiago, et date du XXe siècle.",
+      "communaute": "Santiago",
+      "materiaux": [
+        "coton",
+        "teinture naturelle"
+      ],
+      "periode": "XXe siècle",
+      "institution": "Museu Nacional de Etnologia (Portugal)",
+      "numero_inventaire": "MNE: AC.045",
+      "url_notice": "https://artsandculture.google.com/asset/cloth-cape-verde-unknown-author/9QF9M1bDuekvXg",
+      "droits": "Collection MNE ; image DGPC/ADF (tous droits réservés), non reproduite ici.",
+      "sources": [
+        "S35",
+        "S27"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-oeuvre-pilori-cidade-velha",
+      "titre": "Pilori de Cidade Velha",
+      "type": "architecture",
+      "description": "Sur la place du Pilori de Cidade Velha se dresse une colonne de marbre de style manuélin, datée du XVIe siècle. Elle est liée à la répression des esclaves rebelles selon Wikipédia.",
+      "periode": "XVIe siècle",
+      "materiaux": [
+        "marbre"
+      ],
+      "institution": "In situ, Cidade Velha (site du patrimoine mondial)",
+      "url_notice": "https://whc.unesco.org/fr/list/1310",
+      "droits": "Notice UNESCO (CC BY-SA 3.0 IGO).",
+      "sensible": true,
+      "note_sensibilite": "Objet lié à la traite et à la répression de personnes asservies.",
+      "sources": [
+        "S1",
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-oeuvre-chiquinho",
+      "titre": "Chiquinho (roman)",
+      "type": "livre",
+      "createur": "Baltasar Lopes da Silva",
+      "description": "Roman de Baltasar Lopes da Silva écrit en 1936 et publié en 1947, souvent présenté comme le plus célèbre de la littérature cap-verdienne. Il met en scène la culture créole et l'île de São Nicolau, et un article de 1995 en cite un passage sur le batuku lors d'un mariage.",
+      "periode": "1936-1947",
+      "institution": "Édition publiée (aucun exemplaire patrimonial consulté)",
+      "url_notice": "https://en.wikipedia.org/wiki/Chiquinho_(novel)",
+      "droits": "Notice encyclopédique ; œuvre sous droits.",
+      "wikidata": "Q5101764",
+      "sources": [
+        "S52",
+        "S23",
+        "S85"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-oeuvre-claridade",
+      "titre": "Claridade (revue littéraire)",
+      "type": "livre",
+      "createur": "Manuel Lopes, Baltasar Lopes da Silva, Jorge Barbosa",
+      "description": "Revue lancée à Mindelo en 1936, qui a participé à l'émancipation culturelle et politique de la société cap-verdienne. Ses fondateurs y ont construit l'idée d'une identité propre à l'archipel.",
+      "periode": "1936-1960",
+      "institution": "Revue (voir fonds de bibliothèques)",
+      "url_notice": "https://en.wikipedia.org/wiki/Claridade",
+      "droits": "Notice encyclopédique.",
+      "wikidata": "Q2638622",
+      "sources": [
+        "S53",
+        "S39",
+        "S84"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-oeuvre-arquipelago",
+      "titre": "Arquipélago (poèmes)",
+      "type": "livre",
+      "createur": "Jorge Barbosa",
+      "description": "Recueil de poèmes de Jorge Barbosa publié en 1935. Il marque le début de la poésie cap-verdienne moderne.",
+      "periode": "1935",
+      "institution": "Édition publiée (aucun exemplaire patrimonial consulté)",
+      "url_notice": "https://en.wikipedia.org/wiki/Jorge_Barbosa_(writer)",
+      "droits": "Notice encyclopédique ; œuvre sous droits.",
+      "sources": [
+        "S83",
+        "S96"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-oeuvre-miss-perfumado",
+      "titre": "Miss Perfumado (album de Cesária Évora)",
+      "type": "musique",
+      "createur": "Cesária Évora",
+      "description": "Quatrième album de la chanteuse, sorti en 1992, vendu à plus de 300 000 exemplaires. Il contient « Sodade », composé par Armando Zeferino Soares, et reprend le titre d'une morna de B. Léza.",
+      "periode": "1992",
+      "institution": "Album commercial (aucune institution détentrice)",
+      "url_notice": "https://en.wikipedia.org/wiki/Miss_Perfumado",
+      "droits": "Œuvre sous droits.",
+      "wikidata": "Q10330950",
+      "sources": [
+        "S54",
+        "S86"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-oeuvre-napumoceno-film",
+      "titre": "Napomuceno's Will (film, 1997)",
+      "type": "film",
+      "createur": "Francisco Manso",
+      "description": "Film dramatique cap-verdien de 1997, adapté du roman de Germano Almeida de 1989. Un riche marchand meurt et lègue sa fortune à sa fille illégitime, accompagnée de cassettes où il raconte sa vie.",
+      "periode": "1997",
+      "institution": "Film (aucune institution détentrice consultée)",
+      "url_notice": "https://en.wikipedia.org/wiki/O_Testamento_do_Senhor_Napumoceno",
+      "droits": "Œuvre sous droits.",
+      "wikidata": "Q109743403",
+      "sources": [
+        "S55",
+        "S87"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-oeuvre-hora-di-bai",
+      "titre": "Morna de Despedida (« Hora di bai »)",
+      "type": "musique",
+      "createur": "Eugénio Tavares",
+      "description": "Morna de Brava sur le départ, la douleur et le retour. Elle est largement entendue lors des funérailles. Le programme du Smithsonian de 1995 en publie une traduction anglaise.",
+      "periode": "fin XIXe-début XXe siècle",
+      "institution": "Texte reproduit dans le livret du Smithsonian Folklife Festival (1995)",
+      "url_notice": "https://folklife-media.si.edu/docs/festival/program-book-articles/FESTBK1995_09.pdf",
+      "droits": "Texte original de Tavares (mort en 1930) ; traduction et mise en page sous droits.",
+      "sources": [
+        "S24",
+        "S68"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-oeuvre-famine-59-kode-di-dona",
+      "titre": "« The Famine of '59 » (Kode di Dona)",
+      "type": "musique",
+      "createur": "Kode di Dona",
+      "description": "Chanson de Kode di Dona, l'un des pionniers du funaná, traduite par Richard Zenith. Le narrateur raconte son embarquement sur le navire Ana Mafalda comme travailleur sous contrat pour São Tomé, contraint par la faim.",
+      "periode": "après 1959",
+      "institution": "Texte reproduit dans le livret du Smithsonian Folklife Festival (1995)",
+      "url_notice": "https://folklife-media.si.edu/docs/festival/program-book-articles/FESTBK1995_09.pdf",
+      "droits": "Texte sous droits ; traduction publiée par le Smithsonian.",
+      "sensible": true,
+      "note_sensibilite": "Mémoire du travail contraint dans les plantations de São Tomé.",
+      "sources": [
+        "S24"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "proverbes": [
+    {
+      "id": "CV-proverbe-mais-cuit",
+      "texte_original": "Milh' coxid' ja passa simenter.",
+      "langue": "créole cap-verdien (kabuverdianu)",
+      "traduction": "Le maïs cuit n'est plus bon à semer.",
+      "sens": "Parsons précise que le dicton se dit d'un ancien à qui l'on demande une tâche qui ne convient plus à son âge, ou par lui.",
+      "publication": "Elsie Clews Parsons, Folk-Lore from the Cape Verde Islands, Part II (Memoirs of the American Folk-Lore Society, vol. XV), Cambridge (Mass.) et New York, American Folk-Lore Society, 1923, p. 194 (numérisation Internet Archive, section « Proverbs and Sayings », n° 2).",
+      "note": "Graphie de Parsons (1923), recueillie auprès d'émigrants cap-verdiens de Nouvelle-Angleterre ; à contrôler par un locuteur et à moderniser selon l'orthographe officielle.",
+      "sources": [
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-proverbe-poule-gratte",
+      "texte_original": "Galinha qui ta 'grabata ta disinterra oss' di se mae.",
+      "langue": "créole cap-verdien (kabuverdianu)",
+      "traduction": "La poule qui gratte déterre les os de sa mère.",
+      "sens": "Parsons ne donne pas de glose pour cette variante. Sens à faire préciser par un locuteur.",
+      "publication": "Elsie Clews Parsons, Folk-Lore from the Cape Verde Islands, Part II (Memoirs of the American Folk-Lore Society, vol. XV), Cambridge (Mass.) et New York, American Folk-Lore Society, 1923, p. 195 (numérisation Internet Archive, section « Proverbs and Sayings », n° 4 (b)).",
+      "note": "Graphie de Parsons (1923), recueillie auprès d'émigrants cap-verdiens de Nouvelle-Angleterre ; à contrôler par un locuteur et à moderniser selon l'orthographe officielle.",
+      "sources": [
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-proverbe-loup-peau",
+      "texte_original": "Quem nab quere ser Lob', nab vestu a pelle.",
+      "langue": "créole cap-verdien (kabuverdianu)",
+      "traduction": "Qui ne veut pas être Loup ne revêt pas sa peau.",
+      "sens": "Pas de glose chez Parsons ; sens à faire préciser par un locuteur (le Loup est un personnage des contes).",
+      "publication": "Elsie Clews Parsons, Folk-Lore from the Cape Verde Islands, Part II (Memoirs of the American Folk-Lore Society, vol. XV), Cambridge (Mass.) et New York, American Folk-Lore Society, 1923, p. 195 (numérisation Internet Archive, section « Proverbs and Sayings », n° 7).",
+      "note": "Graphie de Parsons (1923), recueillie auprès d'émigrants cap-verdiens de Nouvelle-Angleterre ; à contrôler par un locuteur et à moderniser selon l'orthographe officielle. Le texte numérisé porte « Quern » pour « Quem » (erreur de reconnaissance de caractères corrigée).",
+      "sources": [
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-proverbe-un-comme-aucun",
+      "texte_original": "Um e sima ninhum.",
+      "langue": "créole cap-verdien (kabuverdianu)",
+      "traduction": "Un est comme aucun.",
+      "sens": "Parsons précise : un seul vaut presque rien, dit par exemple quand la seule allumette disponible s'est éteinte.",
+      "publication": "Elsie Clews Parsons, Folk-Lore from the Cape Verde Islands, Part II (Memoirs of the American Folk-Lore Society, vol. XV), Cambridge (Mass.) et New York, American Folk-Lore Society, 1923, p. 195 (numérisation Internet Archive, section « Proverbs and Sayings », n° 8).",
+      "note": "Graphie de Parsons (1923), recueillie auprès d'émigrants cap-verdiens de Nouvelle-Angleterre ; à contrôler par un locuteur et à moderniser selon l'orthographe officielle.",
+      "sources": [
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-proverbe-souliers-morts",
+      "texte_original": "Quemqui 'spera pa' sapat' di dufunt' ta morre sim calcad'.",
+      "langue": "créole cap-verdien (kabuverdianu)",
+      "traduction": "Qui attend les souliers d'un défunt mourra sans chaussures.",
+      "sens": "Pas de glose chez Parsons, qui donne aussi une variante (« n'aura jamais de chaussures »). Sens à faire préciser par un locuteur.",
+      "publication": "Elsie Clews Parsons, Folk-Lore from the Cape Verde Islands, Part II (Memoirs of the American Folk-Lore Society, vol. XV), Cambridge (Mass.) et New York, American Folk-Lore Society, 1923, p. 195 (numérisation Internet Archive, section « Proverbs and Sayings », n° 12 (a)).",
+      "note": "Graphie de Parsons (1923), recueillie auprès d'émigrants cap-verdiens de Nouvelle-Angleterre ; à contrôler par un locuteur et à moderniser selon l'orthographe officielle.",
+      "sources": [
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-proverbe-faim-viande",
+      "texte_original": "Bianda sabe e fomi, cama sabe e son'.",
+      "langue": "créole cap-verdien (kabuverdianu)",
+      "traduction": "La faim est une bonne viande, le sommeil un bon lit.",
+      "sens": "Parsons le traduit sans commentaire ; l'image associe la faim et le sommeil à ce qui rend un repas ou un lit agréable.",
+      "publication": "Elsie Clews Parsons, Folk-Lore from the Cape Verde Islands, Part II (Memoirs of the American Folk-Lore Society, vol. XV), Cambridge (Mass.) et New York, American Folk-Lore Society, 1923, p. 196 (numérisation Internet Archive, section « Proverbs and Sayings », n° 17 (a)).",
+      "note": "Graphie de Parsons (1923), recueillie auprès d'émigrants cap-verdiens de Nouvelle-Angleterre ; à contrôler par un locuteur et à moderniser selon l'orthographe officielle.",
+      "sources": [
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-proverbe-moutarde-faim",
+      "texte_original": "Se pa' nu passa fome, nu ta come mustarda.",
+      "langue": "créole cap-verdien (kabuverdianu)",
+      "traduction": "Pour se débarrasser de la faim, nous mangeons de la moutarde.",
+      "sens": "Parsons note que ce dicton pourrait venir d'un proverbe portugais d'un livre de lecture scolaire, mal compris des informateurs puisque la moutarde est peu utilisée aux îles.",
+      "publication": "Elsie Clews Parsons, Folk-Lore from the Cape Verde Islands, Part II (Memoirs of the American Folk-Lore Society, vol. XV), Cambridge (Mass.) et New York, American Folk-Lore Society, 1923, p. 196 (numérisation Internet Archive, section « Proverbs and Sayings », n° 18).",
+      "note": "Graphie de Parsons (1923), recueillie auprès d'émigrants cap-verdiens de Nouvelle-Angleterre ; à contrôler par un locuteur et à moderniser selon l'orthographe officielle.",
+      "sources": [
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-proverbe-poisson-bouche",
+      "texte_original": "Peixe ta morre pa' se boca.",
+      "langue": "créole cap-verdien (kabuverdianu)",
+      "traduction": "Le poisson meurt par sa bouche.",
+      "sens": "Parsons précise : se dit à un bavard indiscret.",
+      "publication": "Elsie Clews Parsons, Folk-Lore from the Cape Verde Islands, Part II (Memoirs of the American Folk-Lore Society, vol. XV), Cambridge (Mass.) et New York, American Folk-Lore Society, 1923, p. 196 (numérisation Internet Archive, section « Proverbs and Sayings », n° 23).",
+      "note": "Graphie de Parsons (1923), recueillie auprès d'émigrants cap-verdiens de Nouvelle-Angleterre ; à contrôler par un locuteur et à moderniser selon l'orthographe officielle.",
+      "sources": [
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CV-proverbe-mer-donne",
+      "texte_original": "N ka ten di agraba di mar pamodi tudu ki ten e mar ki dau.",
+      "langue": "créole cap-verdien (kabuverdianu)",
+      "traduction": "Je ne peux pas en vouloir à la mer, car tout ce que j'ai, c'est la mer qui me l'a donné.",
+      "sens": "Le dicton exprime la dépendance et la reconnaissance envers la mer, source de la subsistance et des départs de l'émigration.",
+      "publication": "Raymond A. Almeida, « Nos Ku Nos: A Transnational Cape Verdean Community », dans Smithsonian Institution, Festival of American Folklife 1995, programme « Cape Verdean Connection », p. 20 (citation mise en exergue, traduction anglaise de l'auteur).",
+      "note": "Orthographe moderne telle qu'imprimée en 1995 ; la mise en page du livret est reconstituée à partir d'un texte extrait du PDF.",
+      "sources": [
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "titre": "Cidade Velha, centre historique de Ribeira Grande — Centre du patrimoine mondial",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/1310",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S2",
+      "titre": "Morna, musical practice of Cabo Verde — Liste représentative du patrimoine culturel immatériel",
+      "institution": "UNESCO — Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/morna-musical-practice-of-cabo-verde-01469",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (selon les conditions d'utilisation de l'UNESCO)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S3",
+      "titre": "Cabo Verde — État partie à la Convention de 2003 (UNESCO ICH)",
+      "institution": "UNESCO — Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/state/cabo-verde-CV",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (selon les conditions d'utilisation de l'UNESCO)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S4",
+      "titre": "Cabo Verde — États parties (Centre du patrimoine mondial, liste indicative)",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/statesparties/cv",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S5",
+      "titre": "Camp de concentration du Tarrafal — liste indicative",
+      "institution": "UNESCO — Centre du patrimoine mondial (soumission du ministère de la Culture du Cabo Verde, 2016)",
+      "url": "https://whc.unesco.org/en/tentativelists/6102/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S6",
+      "titre": "Centre historique de Praia — liste indicative",
+      "institution": "UNESCO — Centre du patrimoine mondial (soumission du ministère de la Culture du Cabo Verde, 2016)",
+      "url": "https://whc.unesco.org/en/tentativelists/6103/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S7",
+      "titre": "Centre historique de São Filipe — liste indicative",
+      "institution": "UNESCO — Centre du patrimoine mondial (soumission du ministère de la Culture du Cabo Verde, 2016)",
+      "url": "https://whc.unesco.org/en/tentativelists/6104/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S8",
+      "titre": "Centre historique de Nova Sintra — liste indicative",
+      "institution": "UNESCO — Centre du patrimoine mondial (soumission du ministère de la Culture du Cabo Verde, 2016)",
+      "url": "https://whc.unesco.org/en/tentativelists/6099/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S9",
+      "titre": "Parc naturel de Fogo – Chã das Caldeiras — liste indicative",
+      "institution": "UNESCO — Centre du patrimoine mondial (soumission du ministère de la Culture du Cabo Verde, 2016)",
+      "url": "https://whc.unesco.org/en/tentativelists/6100/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S10",
+      "titre": "Salines de Pedra de Lume — liste indicative",
+      "institution": "UNESCO — Centre du patrimoine mondial (soumission du ministère de la Culture du Cabo Verde, 2016)",
+      "url": "https://whc.unesco.org/en/tentativelists/6106/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S11",
+      "titre": "Complexe d'aires protégées de l'île de Santa Luzia et des îlots Branco et Raso — liste indicative",
+      "institution": "UNESCO — Centre du patrimoine mondial (soumission du ministère de la Culture du Cabo Verde, 2016)",
+      "url": "https://whc.unesco.org/en/tentativelists/6101/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S12",
+      "titre": "Parc naturel de Cova, Paúl et Ribeira da Torre — liste indicative",
+      "institution": "UNESCO — Centre du patrimoine mondial (soumission du ministère de la Culture du Cabo Verde, 2016)",
+      "url": "https://whc.unesco.org/en/tentativelists/6105/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S13",
+      "titre": "Population, total — Cabo Verde (SP.POP.TOTL, API Banque mondiale)",
+      "institution": "Banque mondiale",
+      "url": "https://api.worldbank.org/v2/country/CPV/indicator/SP.POP.TOTL?format=json",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S14",
+      "titre": "Cabo Verde — page pays",
+      "institution": "Banque mondiale",
+      "url": "https://www.worldbank.org/ext/en/country/caboverde",
+      "type": "institution",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S15",
+      "titre": "Kabuverdianu — Glottolog 5.4",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/kabu1256",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S16",
+      "titre": "Portuguese — Glottolog",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/port1283",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S17",
+      "titre": "Barlavento — Glottolog",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/barl1241",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S18",
+      "titre": "Sotavento — Glottolog",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/sota1243",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S19",
+      "titre": "French — Glottolog",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1290",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S20",
+      "titre": "English — Glottolog",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1293",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S21",
+      "titre": "Nos Ku Nos: A Transnational Cape Verdean Community",
+      "institution": "Smithsonian Institution (Festival of American Folklife, Cape Verdean Connection)",
+      "url": "https://folklife-media.si.edu/docs/festival/program-book-articles/FESTBK1995_05.pdf",
+      "type": "livre",
+      "licence": "tous droits réservés (Smithsonian Institution)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Raymond A. Almeida",
+      "annee": 1995
+    },
+    {
+      "id": "S22",
+      "titre": "Cape Verdean Kriolu in the United States",
+      "institution": "Smithsonian Institution (Festival of American Folklife, Cape Verdean Connection)",
+      "url": "https://folklife-media.si.edu/docs/festival/program-book-articles/FESTBK1995_07.pdf",
+      "type": "livre",
+      "licence": "tous droits réservés (Smithsonian Institution)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Manuel da Luz Gonçalves",
+      "annee": 1995
+    },
+    {
+      "id": "S23",
+      "titre": "Traditional Festivities",
+      "institution": "Smithsonian Institution (Festival of American Folklife, Cape Verdean Connection)",
+      "url": "https://folklife-media.si.edu/docs/festival/program-book-articles/FESTBK1995_08.pdf",
+      "type": "livre",
+      "licence": "tous droits réservés (Smithsonian Institution)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Gabriel Moacyr Rodrigues",
+      "annee": 1995
+    },
+    {
+      "id": "S24",
+      "titre": "Cape Verdean Musical Traditions",
+      "institution": "Smithsonian Institution (Festival of American Folklife, Cape Verdean Connection)",
+      "url": "https://folklife-media.si.edu/docs/festival/program-book-articles/FESTBK1995_09.pdf",
+      "type": "livre",
+      "licence": "tous droits réservés (Smithsonian Institution)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Margarida Barnabé Brito Martins",
+      "annee": 1995
+    },
+    {
+      "id": "S25",
+      "titre": "Cape Verdean Pottery",
+      "institution": "Smithsonian Institution (Festival of American Folklife, Cape Verdean Connection)",
+      "url": "https://folklife-media.si.edu/docs/festival/program-book-articles/FESTBK1995_10.pdf",
+      "type": "livre",
+      "licence": "tous droits réservés (Smithsonian Institution)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Leão Lopes",
+      "annee": 1995
+    },
+    {
+      "id": "S26",
+      "titre": "Arts and Crafts: Cultural Expression of a People",
+      "institution": "Smithsonian Institution (Festival of American Folklife, Cape Verdean Connection)",
+      "url": "https://folklife-media.si.edu/docs/festival/program-book-articles/FESTBK1995_11.pdf",
+      "type": "livre",
+      "licence": "tous droits réservés (Smithsonian Institution)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Maria Estrela",
+      "annee": 1995
+    },
+    {
+      "id": "S27",
+      "titre": "Designing national identity through cloth: the pánu di téra of Cape Verde",
+      "institution": "BUALA / Island Studies Journal",
+      "url": "https://www.buala.org/en/to-read/designing-national-identity-through-cloth-the-panu-di-tera-of-cape-verde",
+      "type": "article_scientifique",
+      "licence": "Creative Commons (version non précisée sur la page)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Ana Nolasco",
+      "annee": 2018
+    },
+    {
+      "id": "S28",
+      "titre": "Folk-Lore from the Cape Verde Islands, Part II (Memoirs of the American Folk-Lore Society, vol. XV)",
+      "institution": "American Folk-Lore Society / Hispanic Society of America (numérisation Internet Archive)",
+      "url": "https://archive.org/details/folklorefromcape02pars",
+      "type": "livre",
+      "licence": "domaine public (édition de 1923, numérisation Internet Archive)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Elsie Clews Parsons",
+      "annee": 1923
+    },
+    {
+      "id": "S29",
+      "titre": "Folk-Lore from the Cape Verde Islands, Part I (Memoirs of the American Folk-Lore Society, vol. XV)",
+      "institution": "American Folk-Lore Society / Hispanic Society of America (numérisation Internet Archive)",
+      "url": "https://archive.org/details/folklorefromcape01pars",
+      "type": "livre",
+      "licence": "domaine public (édition de 1923, numérisation Internet Archive)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Elsie Clews Parsons",
+      "annee": 1923
+    },
+    {
+      "id": "S30",
+      "titre": "Conhecendo os Rabelados (essai photographique), Iluminuras v. 17, n. 41, p. 340-358",
+      "institution": "Universidade Federal do Rio Grande do Sul — revue Iluminuras",
+      "url": "https://seer.ufrgs.br/index.php/iluminuras/article/download/64577/37353/265300",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (selon la revue)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Hilton P. Silva",
+      "annee": 2016
+    },
+    {
+      "id": "S31",
+      "titre": "Amílcar Lopes Cabral — Museu do Aljube Resistência e Liberdade",
+      "institution": "Museu do Aljube Resistência e Liberdade (Lisbonne)",
+      "url": "https://www.museudoaljube.pt/en/2024/09/12/amilcar-lopes-cabral-2/",
+      "type": "musee",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S32",
+      "titre": "Cabral, Amílcar (1924-1973) — notice Gale",
+      "institution": "Encyclopedia.com (Gale)",
+      "url": "https://www.encyclopedia.com/people/history/african-history-biographies/amilcar-cabral",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (Gale / Encyclopedia.com)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S33",
+      "titre": "Cesaria Évora (1941-2011) — Biografias de Mulheres Africanas",
+      "institution": "Universidade Federal do Rio Grande do Sul (UFRGS)",
+      "url": "https://www.ufrgs.br/africanas/cesaria-evora-1941-2011/",
+      "type": "universite",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S34",
+      "titre": "Traditional cloth - Pano de obra (MNE AX.994) — Google Arts & Culture",
+      "institution": "Google Arts & Culture (collection du Museu Nacional de Etnologia, Portugal)",
+      "url": "https://artsandculture.google.com/asset/traditional-cloth-pano-de-obra-0098/rgERlVoz3n5vqg",
+      "type": "musee",
+      "licence": "tous droits réservés (DGPC/ADF)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S35",
+      "titre": "Cloth, Cape Verde (MNE AC.045) — Google Arts & Culture",
+      "institution": "Google Arts & Culture (collection du Museu Nacional de Etnologia, Portugal)",
+      "url": "https://artsandculture.google.com/asset/cloth-cape-verde-unknown-author/9QF9M1bDuekvXg",
+      "type": "musee",
+      "licence": "tous droits réservés (DGPC/ADF)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S36",
+      "titre": "Single-string fiddle, ca. 1850-1903 (89.4.2954a, b) — API Open Access du Metropolitan Museum of Art",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/505453",
+      "type": "musee",
+      "licence": "données Open Access (CC0) ; objet non libre de droits d'image",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S37",
+      "titre": "Cap-Vert — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Cap-Vert",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S38",
+      "titre": "Histoire du Cap-Vert — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Histoire_du_Cap-Vert",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S39",
+      "titre": "Culture du Cap-Vert — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Culture_du_Cap-Vert",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S40",
+      "titre": "Langues au Cap-Vert — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Langues_au_Cap-Vert",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S41",
+      "titre": "Musique capverdienne — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Musique_capverdienne",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S42",
+      "titre": "Carnaval de Mindelo — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Carnaval_de_Mindelo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S43",
+      "titre": "Badiu people — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Badiu_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S44",
+      "titre": "Rabelados — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Rabelados",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S45",
+      "titre": "Tabanka — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Tabanka",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S46",
+      "titre": "Funaná — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Funan%C3%A1",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S47",
+      "titre": "Coladeira — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Coladeira",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S48",
+      "titre": "Kola San Jon — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Kola_San_Jon",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S49",
+      "titre": "Cachupa — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Cachupa",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S50",
+      "titre": "Grogue — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Grogue",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S51",
+      "titre": "Museu Etnográfico da Praia — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Museu_Etnogr%C3%A1fico_da_Praia",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S52",
+      "titre": "Chiquinho (novel) — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Chiquinho_(novel)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S53",
+      "titre": "Claridade — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Claridade",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S54",
+      "titre": "Miss Perfumado — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Miss_Perfumado",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S55",
+      "titre": "Napomuceno's Will — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/O_Testamento_do_Senhor_Napumoceno",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S56",
+      "titre": "Wikidata Q125921959 — langue des signes cap-verdienne",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q125921959",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S57",
+      "titre": "Wikidata Q1031493 — camp de Tarrafal",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q1031493",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S58",
+      "titre": "Wikidata Q493634 — Nova Sintra",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q493634",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S59",
+      "titre": "Wikidata Q499108 — Pico do Fogo",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q499108",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S60",
+      "titre": "Wikidata Q486580 — Pedra de Lume",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q486580",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S61",
+      "titre": "Wikidata Q492531 — Santa Luzia",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q492531",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S62",
+      "titre": "Wikidata Q3330560 — musée ethnographique de Praia",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q3330560",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S63",
+      "titre": "Wikidata Q495547 — Mindelo",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q495547",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S64",
+      "titre": "Wikidata Q2060858 — cachupa",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q2060858",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S65",
+      "titre": "Amílcar Cabral — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Am%C3%ADlcar_Cabral",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S66",
+      "titre": "Aristides Pereira — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Aristides_Pereira",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S67",
+      "titre": "Pedro Pires — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Pedro_Pires",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S68",
+      "titre": "Eugénio Tavares — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Eug%C3%A9nio_Tavares",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S69",
+      "titre": "B. Leza — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/B._Leza",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S70",
+      "titre": "Baltasar Lopes da Silva — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Baltasar_Lopes_da_Silva",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S71",
+      "titre": "Orlanda Amarílis — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Orlanda_Amar%C3%ADlis",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S72",
+      "titre": "Dulce Almada Duarte — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Dulce_Almada_Duarte",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S73",
+      "titre": "Mayra Andrade — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Mayra_Andrade",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S74",
+      "titre": "Celina Pereira — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Celina_Pereira",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S75",
+      "titre": "Manuel Lopes (writer) — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Manuel_Lopes_(writer)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S76",
+      "titre": "Corsino Fortes — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Corsino_Fortes",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S77",
+      "titre": "Vera Duarte — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Vera_Duarte",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S78",
+      "titre": "Dina Salústio — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Dina_Sal%C3%BAstio",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S79",
+      "titre": "Bana (singer) — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Bana_(singer)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S80",
+      "titre": "António Mascarenhas Monteiro — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Ant%C3%B3nio_Mascarenhas_Monteiro",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S81",
+      "titre": "Germano Almeida — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Germano_Almeida",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S82",
+      "titre": "Arménio Vieira — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Arm%C3%A9nio_Vieira",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S83",
+      "titre": "Jorge Barbosa (writer) — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Jorge_Barbosa_(writer)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S84",
+      "titre": "Wikidata Q2638622 — Claridade",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q2638622",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S85",
+      "titre": "Wikidata Q5101764 — Chiquinho",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q5101764",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S86",
+      "titre": "Wikidata Q10330950 — Miss Perfumado",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q10330950",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S87",
+      "titre": "Wikidata Q109743403 — Napomuceno's Will",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q109743403",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S88",
+      "titre": "Wikidata Q213416 — Amílcar Cabral",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q213416",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S89",
+      "titre": "Wikidata Q103759 — Cesária Évora",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q103759",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S90",
+      "titre": "Wikidata Q298609 — Aristides Pereira",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q298609",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S91",
+      "titre": "Wikidata Q107431 — Pedro Pires",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q107431",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S92",
+      "titre": "Wikidata Q1355682 — Eugénio Tavares",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q1355682",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S93",
+      "titre": "Wikidata Q10285239 — B. Léza (Francisco Xavier da Cruz)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q10285239",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S94",
+      "titre": "Wikidata Q548846 — Baltasar Lopes da Silva",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q548846",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S95",
+      "titre": "Wikidata Q2636281 — Manuel Lopes",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q2636281",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S96",
+      "titre": "Wikidata Q1984024 — Jorge Barbosa",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q1984024",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S97",
+      "titre": "Wikidata Q2998046 — Corsino Fortes",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q2998046",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S98",
+      "titre": "Wikidata Q580332 — Germano Almeida",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q580332",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S99",
+      "titre": "Wikidata Q2604164 — Arménio Vieira",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q2604164",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S100",
+      "titre": "Wikidata Q336265 — António Mascarenhas Monteiro",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q336265",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S101",
+      "titre": "Wikidata Q4853750 — Bana (Adriano Gonçalves)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q4853750",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S102",
+      "titre": "Wikidata Q3073182 — Orlanda Amarílis",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q3073182",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S103",
+      "titre": "Wikidata Q27077739 — Dulce Almada Duarte",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q27077739",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S104",
+      "titre": "Wikidata Q445463 — Mayra Andrade",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q445463",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S105",
+      "titre": "Wikidata Q18243135 — Celina Pereira",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q18243135",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S106",
+      "titre": "Wikidata Q7920765 — Vera Duarte",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q7920765",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S107",
+      "titre": "Wikidata Q104128393 — Dina Salústio",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q104128393",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    }
+  ]
+}

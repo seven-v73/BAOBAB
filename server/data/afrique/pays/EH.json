@@ -1,0 +1,3130 @@
+{
+  "code": "EH",
+  "nom": "Sahara occidental",
+  "region": "nord",
+  "wikidata": "Q6250",
+  "maj": "2026-11-21",
+  "pays": {
+    "nom_officiel": "Sahara occidental (territoire non autonome selon l'ONU ; revendiqué par le Royaume du Maroc et par la République arabe sahraouie démocratique)",
+    "capitale": "Laâyoune (ville administrée par le Maroc) ; Bir Lahlou (capitale provisoire proclamée par la RASD)",
+    "langues_officielles": [
+      "arabe",
+      "amazighe (selon la Constitution marocaine de 2011, appliquée par le Maroc au territoire qu'il administre)"
+    ],
+    "langues_nationales": [],
+    "population": {
+      "valeur": 612000,
+      "annee": 2021,
+      "source": "S1"
+    },
+    "superficie_km2": 266000,
+    "monnaie": "Dirham marocain (zone administrée par le Maroc) ; la RASD a émis une peseta sahraouie commémorative",
+    "resume": "Le Sahara occidental est un territoire désertique de 266 000 km² bordant l'Atlantique, entre le Maroc, l'Algérie et la Mauritanie. Ancienne colonie espagnole (Río de Oro et Saguia el-Hamra), il figure depuis 1963 sur la liste des territoires non autonomes de l'ONU et son statut final reste à déterminer. Le Maroc administre environ 80 % du territoire, y compris toutes les villes, et le revendique comme ses « provinces du Sud » ; le Front Polisario, qui a proclamé la RASD en 1976, contrôle une bande à l'est du mur de sable et gère des camps de réfugiés près de Tindouf, en Algérie. La population sahraouie, dont la langue maternelle est le hassanya, se partage en grands ensembles tribaux (Reguibat, Tekna, Oulad Delim…) et a longtemps vécu de l'élevage nomade ; sa culture est portée par la poésie, la musique modale azawan et, depuis les années 1970, une musique engagée. Les positions des parties divergent : référendum d'autodétermination pour le Polisario, autonomie sous souveraineté marocaine pour le Maroc, soutenue par la résolution 2797 du Conseil de sécurité (octobre 2025). La MINURSO a cessé ses opérations le 1er novembre 2026 après la non-reconduction de son mandat.",
+    "sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S28"
+    ],
+    "sensible": true,
+    "note_sensibilite": "Territoire dont le statut est contesté : les positions du Maroc, du Front Polisario/RASD, de l'Algérie et de l'ONU sont rapportées avec leurs sources, sans prendre parti ; les éléments politiques sont à valider par une institution partenaire."
+  },
+  "langues": [
+    {
+      "id": "EH-langue-hassanya",
+      "nom": "Hassanya",
+      "nom_local": "الحسانية",
+      "description": "Variété d'arabe bédouin, langue maternelle de la grande majorité des Sahraouis, aussi parlée en Mauritanie, dans le sud du Maroc, dans l'ouest algérien et le nord du Mali. L'Université Laval estime qu'elle est la langue maternelle d'environ 94 % des locuteurs du territoire ; elle est surtout orale (chansons, poésie, conversations familiales) et ne bénéficie pas d'un statut juridique propre. Elle a emprunté des mots à l'espagnol au Sahara occidental, comme elle en a pris au français en Mauritanie.",
+      "famille": "Afro-asiatique, sémitique (arabe maghrébin)",
+      "glottocode": "hass1238",
+      "statut_linguistique": [
+        "régionale",
+        "véhiculaire"
+      ],
+      "ecritures": [
+        "arabe",
+        "latin (transcriptions de linguistes)"
+      ],
+      "sources": [
+        "S4",
+        "S9",
+        "S29"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode hass1238 confirmé sur Glottolog (Hassaniyya, « Western Sahara [EH] » parmi les pays listés). Part de 94 % : estimation de l'Université Laval, non recoupée."
+      },
+      "wikidata": "Q56231",
+      "regions": [
+        "Ensemble du territoire"
+      ]
+    },
+    {
+      "id": "EH-langue-arabe-standard",
+      "nom": "Arabe standard moderne",
+      "nom_local": "العربية الفصحى",
+      "description": "Forme écrite et officielle de l'arabe, utilisée dans l'administration, l'enseignement et les médias. Le Front Polisario en fait la seule langue officielle de la RASD, tandis que la Constitution marocaine de 2011 la place, avec l'amazighe, parmi les langues officielles du royaume, y compris pour le territoire qu'il administre.",
+      "famille": "Afro-asiatique, sémitique",
+      "glottocode": "arab1395",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "ecritures": [
+        "arabe"
+      ],
+      "sources": [
+        "S4",
+        "S11",
+        "S29"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottolog n'attribue pas de glottocode propre à l'arabe standard moderne : arab1395 désigne la famille « Arabic »."
+      },
+      "wikidata": "Q56467",
+      "regions": [
+        "Ensemble du territoire",
+        "Camps de Tindouf"
+      ]
+    },
+    {
+      "id": "EH-langue-arabe-marocain",
+      "nom": "Arabe marocain (darija)",
+      "nom_local": "الدارجة المغربية",
+      "description": "Variété d'arabe du Maroc, devenue langue de la rue, du travail et de l'école dans les villes du territoire administré par le Maroc, où s'est installée depuis 1975 une importante population venue d'autres régions marocaines. L'Université Laval le crédite d'environ 1,4 % de locuteurs maternels sur le territoire, mais note qu'il concurrence de plus en plus le hassanya.",
+      "famille": "Afro-asiatique, sémitique (arabe maghrébin)",
+      "glottocode": "moro1292",
+      "statut_linguistique": [
+        "véhiculaire"
+      ],
+      "ecritures": [
+        "arabe",
+        "latin (usage informel)"
+      ],
+      "sources": [
+        "S4",
+        "S10",
+        "S29"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottolog liste « Western Sahara [EH] » parmi les pays de l'arabe marocain."
+      },
+      "wikidata": "Q56426",
+      "regions": [
+        "Laâyoune",
+        "Dakhla",
+        "Es-Semara",
+        "Boujdour"
+      ]
+    },
+    {
+      "id": "EH-langue-espagnol",
+      "nom": "Espagnol",
+      "nom_local": "español",
+      "description": "Langue de l'ancienne puissance coloniale (1884-1976), restée vivante chez les Sahraouis scolarisés avant 1976, ceux qui ont étudié en Espagne ou à Cuba et les enfants accueillis par le programme « Vacaciones en Paz ». L'administration de la RASD et les médias du Polisario l'utilisent, et des auteurs sahraouis, dont Bahia Mahmud Awah, y écrivent. Il a laissé des emprunts dans le hassanya et a donné naissance à ce que l'Université Laval nomme un « espagnol saharien ».",
+      "famille": "Indo-européenne, romane",
+      "glottocode": "stan1288",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S4",
+        "S12",
+        "S29",
+        "S45"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "L'estimation de l'Université Laval (150 000 à 200 000 locuteurs de seconde langue) n'est pas reprise ici faute de recoupement."
+      },
+      "regions": [
+        "Camps de Tindouf",
+        "Diaspora en Espagne",
+        "Zone sous contrôle du Polisario"
+      ]
+    },
+    {
+      "id": "EH-langue-francais",
+      "nom": "Français",
+      "nom_local": "français",
+      "description": "Langue communément utilisée par l'administration marocaine dans le territoire qu'elle administre.",
+      "famille": "Indo-européenne, romane",
+      "glottocode": "stan1290",
+      "statut_linguistique": [
+        "véhiculaire"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S4",
+        "S13",
+        "S29"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Villes administrées par le Maroc"
+      ]
+    },
+    {
+      "id": "EH-langue-tachelhit",
+      "nom": "Tachelhit (chleuh)",
+      "nom_local": "ⵜⴰⵛⵍⵃⵉⵜ",
+      "description": "Langue berbère du sud du Maroc, parlée par une partie des Tekna, notamment les branches du nord du territoire, et par des migrants venus du sud marocain. L'Université Laval signale toutefois que le berbère n'est pas vraiment une langue maternelle répandue au Sahara occidental, en dehors de ces communautés, et que son poids statistique est mal établi.",
+      "famille": "Afro-asiatique, berbère (atlasique)",
+      "glottocode": "tach1250",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "ecritures": [
+        "tifinagh",
+        "arabe",
+        "latin"
+      ],
+      "sources": [
+        "S4",
+        "S14",
+        "S29",
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottolog ne liste que le Maroc pour le tachelhit ; sa présence au Sahara occidental repose sur l'Université Laval et Wikipédia. Le pourcentage de 19,7 % de la fiche Laval est contredit par son propre texte et n'est pas repris."
+      },
+      "regions": [
+        "Nord du territoire",
+        "Tekna"
+      ]
+    },
+    {
+      "id": "EH-langue-amazighe-standard",
+      "nom": "Amazighe standard marocain",
+      "nom_local": "ⵜⴰⵎⴰⵣⵉⵖⵜ",
+      "description": "Forme standardisée de l'amazighe (berbère) institutionnalisée au Maroc, langue officielle selon la Constitution marocaine de 2011 pour le territoire que le royaume administre. Son usage au Sahara occidental passe surtout par l'école et l'administration marocaines.",
+      "famille": "Afro-asiatique, berbère",
+      "glottocode": "stan1324",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "ecritures": [
+        "tifinagh"
+      ],
+      "sources": [
+        "S4",
+        "S15",
+        "S29"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le glottocode stan1324 est un nœud « dialecte » de Glottolog, rattaché au Maroc ; son statut officiel au Sahara occidental est celui que lui donne la position marocaine."
+      },
+      "regions": [
+        "Territoire administré par le Maroc"
+      ]
+    }
+  ],
+  "peuples": [
+    {
+      "id": "EH-peuple-sahraouis",
+      "nom": "Sahraouis",
+      "description": "Le terme désigne les habitants du Sahara occidental et, plus précisément, les communautés hassanophones issues de groupes arabo-berbères nomades ; il s'est imposé sous la colonisation espagnole puis dans les luttes d'autodétermination. Jusqu'aux années 1970 la société vivait surtout de l'élevage de dromadaires, avant une sédentarisation poussée par la guerre, les sécheresses et l'urbanisation. L'existence même d'un « peuple sahraoui » est un enjeu politique : le Polisario l'affirme, tandis que Rabat la juge artificielle.",
+      "langues": [
+        "hassanya",
+        "espagnol"
+      ],
+      "regions": [
+        "Ensemble du territoire",
+        "Camps de Tindouf (Algérie)",
+        "Diaspora en Espagne"
+      ],
+      "sources": [
+        "S4",
+        "S7",
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": [
+        "DZ",
+        "ES",
+        "MA",
+        "MR"
+      ],
+      "organisation": "Société organisée en tribus et fractions, avec des lignages religieux (chorfa, marabouts).",
+      "activites": [
+        "élevage de dromadaires",
+        "poésie et musique",
+        "pêche et commerce"
+      ],
+      "wikidata": "Q577055",
+      "sensible": true,
+      "note_sensibilite": "Notion de peuple liée à la contestation du statut du territoire ; présentée sans parti pris."
+    },
+    {
+      "id": "EH-peuple-reguibat",
+      "nom": "Reguibat (Rgaybat)",
+      "description": "Confédération tribale sahraouie, décrite comme la plus importante, traditionnellement nomade et répartie entre le Sahara occidental, la Mauritanie, l'Algérie et le sud du Maroc. Elle comprend plusieurs ensembles (Reguibat Sahel sur la côte atlantique, Reguibat Chark à l'est, etc.) et pèse dans les villes de Smara, Aousserd et Dakhla. Plusieurs responsables sahraouis, dont Brahim Ghali, en sont issus.",
+      "langues": [
+        "hassanya"
+      ],
+      "regions": [
+        "Es-Semara",
+        "Aousserd",
+        "Dakhla",
+        "Hamada de Tindouf"
+      ],
+      "sources": [
+        "S4",
+        "S16",
+        "S18"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": [
+        "DZ",
+        "MA",
+        "MR"
+      ],
+      "organisation": "Confédération de fractions (Sahel, Chark, Lebouihat, Soueid, Oulad Moussa…).",
+      "activites": [
+        "élevage de dromadaires",
+        "commerce caravanier"
+      ],
+      "wikidata": "Q3398927"
+    },
+    {
+      "id": "EH-peuple-tekna",
+      "nom": "Tekna",
+      "description": "Confédération arabo-berbère établie entre Guelmim, Tan-Tan et Tarfaya, avec des branches au nord du Sahara occidental. Elle a joué un rôle de pont entre le Souss et le Sahara, notamment par le commerce caravanier. Une partie des Tekna parle le tachelhit en plus du hassanya, ce qui les distingue d'autres groupes sahraouis.",
+      "langues": [
+        "hassanya",
+        "tachelhit",
+        "arabe marocain"
+      ],
+      "regions": [
+        "Nord du territoire",
+        "Laâyoune",
+        "Guelmim et Tan-Tan (Maroc)"
+      ],
+      "sources": [
+        "S4",
+        "S16",
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": [
+        "MA"
+      ],
+      "organisation": "Fractions (Aït Lahcen, Aït Yassin, Aït Oussa, Azouafit, etc.).",
+      "activites": [
+        "commerce caravanier",
+        "élevage",
+        "commerce et pêche"
+      ],
+      "wikidata": "Q3062634"
+    },
+    {
+      "id": "EH-peuple-oulad-delim",
+      "nom": "Oulad Delim",
+      "description": "Tribu d'origine arabe maqilienne installée dans le sud du Sahara occidental, notamment autour de Laâyoune et de Boujdour selon la presse marocaine. Elle fait partie des trois grands ensembles tribaux du territoire, et la presse marocaine y rattache de nombreuses figures locales.",
+      "langues": [
+        "hassanya"
+      ],
+      "regions": [
+        "Laâyoune",
+        "Boujdour",
+        "Sud du territoire"
+      ],
+      "sources": [
+        "S16",
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source non-Wikipédia : presse marocaine (Yabiladi) ; une source universitaire reste à ajouter."
+      },
+      "organisation": "Plusieurs fractions ; alliances changeantes avec Reguibat et Tekna.",
+      "activites": [
+        "élevage"
+      ],
+      "wikidata": "Q3358162"
+    },
+    {
+      "id": "EH-peuple-oulad-tidrarin",
+      "nom": "Oulad Tidrarin",
+      "description": "Tribu de moyenne importance de l'Atlantique saharien, présente surtout autour de Dakhla. Elle est historiquement alliée aux Reguibat et aux Oulad Delim.",
+      "langues": [
+        "hassanya"
+      ],
+      "regions": [
+        "Dakhla"
+      ],
+      "sources": [
+        "S16",
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Seule source non-Wikipédia : Yabiladi ; à compléter par une source universitaire."
+      },
+      "activites": [
+        "élevage",
+        "pêche"
+      ]
+    },
+    {
+      "id": "EH-peuple-laaroussiyine",
+      "nom": "Laaroussiyine (Arosien)",
+      "description": "Groupe de lignage religieux, dont les membres se réclament d'une ascendance chérifienne, présent à Smara, Laâyoune et Guelmim. Il a historiquement tenu un rôle religieux et social, notamment autour des zaouïas.",
+      "langues": [
+        "hassanya"
+      ],
+      "regions": [
+        "Es-Semara",
+        "Laâyoune",
+        "Guelmim (Maroc)"
+      ],
+      "sources": [
+        "S16",
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Seule source non-Wikipédia : Yabiladi."
+      },
+      "organisation": "Lignage chérifien associé à des zaouïas.",
+      "activites": [
+        "enseignement religieux",
+        "médiation"
+      ]
+    },
+    {
+      "id": "EH-peuple-ahl-ma-el-ainin",
+      "nom": "Ahl Ma El Aïnin",
+      "description": "Confédération maraboutique rassemblant les disciples et descendants du cheikh Ma El Aïnin, figure religieuse et politique de la fin du XIXe siècle. Elle constitue une des tribus de taille moyenne du territoire et rappelle le rôle des confréries dans l'histoire de la région.",
+      "langues": [
+        "hassanya"
+      ],
+      "regions": [
+        "Es-Semara",
+        "Tiznit (Maroc)"
+      ],
+      "sources": [
+        "S30",
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Aucune source non-Wikipédia ouverte pour ce groupe."
+      },
+      "organisation": "Confédération maraboutique de disciples (tlamid) et descendants.",
+      "activites": [
+        "enseignement religieux"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Lignage religieux : à valider avec des représentants de la communauté."
+    },
+    {
+      "id": "EH-peuple-izarguiens",
+      "nom": "Izarguiens",
+      "description": "Groupe d'origine berbère, signalé entre Tan-Tan et Tarfaya, intégré au réseau tribal sahraoui. La militante Aminatou Haidar est issue de cette tribu, de la confédération tekna.",
+      "langues": [
+        "hassanya"
+      ],
+      "regions": [
+        "Tan-Tan et Tarfaya (Maroc)",
+        "Nord du territoire"
+      ],
+      "sources": [
+        "S4",
+        "S16",
+        "S42"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": [
+        "MA"
+      ]
+    },
+    {
+      "id": "EH-peuple-imraguen",
+      "nom": "Imraguen",
+      "description": "Communauté de pêcheurs de la côte atlantique, connue pour une pêche au filet pratiquée en association avec des dauphins, qui rabattent les bancs de poissons. L'Université Laval la rattache aux « Maures » du territoire ; sa présence se concentre surtout sur la côte mauritanienne voisine, et la localité de Lagouira, à l'extrême sud du Sahara occidental, est décrite comme habitée par quelques Imraguen.",
+      "langues": [
+        "hassanya"
+      ],
+      "regions": [
+        "Côte atlantique",
+        "Lagouira"
+      ],
+      "sources": [
+        "S4",
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Effectifs et statut exacts au Sahara occidental non établis par les sources ouvertes."
+      },
+      "organisation": "Villages côtiers de pêcheurs.",
+      "activites": [
+        "pêche au filet avec des dauphins"
+      ]
+    },
+    {
+      "id": "EH-peuple-haratin",
+      "nom": "Haratin",
+      "description": "Groupe social dont les membres sont décrits comme descendants de personnes asservies qui servaient de domestiques ou de gardiens de troupeaux dans les sociétés nomades ; Wikipédia rapporte qu'un tiers des Sahraouis y étaient rattachés vers 1993. L'esclavage est officiellement aboli, mais des témoignages font état de séquelles et de pratiques persistantes.",
+      "langues": [
+        "hassanya"
+      ],
+      "regions": [
+        "Ensemble du territoire",
+        "Camps de Tindouf"
+      ],
+      "sources": [
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia) ; à compléter par une source académique ouverte."
+      },
+      "organisation": "Position sociale héritée, distincte des tribus à lignage prestigieux.",
+      "activites": [
+        "agriculture d'oasis",
+        "garde des troupeaux",
+        "travail domestique"
+      ],
+      "wikidata": "Q1584897",
+      "sensible": true,
+      "note_sensibilite": "Sujet sensible : histoire de servitude ; présentation à valider par des représentants de la communauté."
+    }
+  ],
+  "sites": [
+    {
+      "id": "EH-site-laayoune",
+      "nom": "Laâyoune (El Aaiún)",
+      "type": "ville_historique",
+      "description": "Fondée officiellement par les Espagnols en 1938 près d'une nappe d'eau, Laâyoune est la plus grande ville du territoire et le siège de la MINURSO. C'est là qu'a eu lieu, le 17 juin 1970, la manifestation de Zemla réprimée par l'armée espagnole, et c'est près de ses portes que s'est tenu le camp de protestation de Gdeim Izik en 2010. Elle est administrée de facto par le Maroc depuis 1975-1976, sans que l'ONU y voie une reconnaissance de souveraineté.",
+      "regions": [
+        "Laâyoune-Sakia El Hamra"
+      ],
+      "sources": [
+        "S4",
+        "S26",
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de fondation 1938 : Wikipédia seule ; à recouper."
+      },
+      "periode": "XXe siècle",
+      "coordonnees": {
+        "lat": 27.15,
+        "lng": -13.2
+      },
+      "wikidata": "Q47837",
+      "sensible": true,
+      "note_sensibilite": "Territoire au statut contesté : l'ONU ne reconnaît ni la souveraineté du Maroc ni la proclamation de la RASD ; le lieu est présenté sans prendre parti."
+    },
+    {
+      "id": "EH-site-dakhla",
+      "nom": "Dakhla (Villa Cisneros)",
+      "type": "ville_historique",
+      "description": "Ancien comptoir espagnol appelé Villa Cisneros, devenu capitale administrative du Sahara espagnol avant que Laâyoune ne la remplace en 1961. Située sur une étroite presqu'île, au bord d'une baie lagunaire, la ville est aujourd'hui un pôle de pêche, d'agriculture sous serre et de sports nautiques. Elle est administrée par le Maroc depuis 1979 ; un camp de réfugiés sahraouis près de Tindouf porte aussi son nom.",
+      "regions": [
+        "Dakhla-Oued Ed-Dahab"
+      ],
+      "sources": [
+        "S4",
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "periode": "depuis la fin du XIXe siècle",
+      "coordonnees": {
+        "lat": 23.7167,
+        "lng": -15.95
+      },
+      "wikidata": "Q345204",
+      "sensible": true,
+      "note_sensibilite": "Territoire au statut contesté : l'ONU ne reconnaît ni la souveraineté du Maroc ni la proclamation de la RASD ; le lieu est présenté sans prendre parti."
+    },
+    {
+      "id": "EH-site-es-semara",
+      "nom": "Es-Semara (Smara)",
+      "type": "ville_historique",
+      "description": "Fondée vers 1898 par le cheikh Ma El Aïnin avec l'appui du sultan du Maroc, Smara fut un centre religieux et un point de ralliement de la résistance contre les colonisateurs. Elle conserve des zaouïas, dont celle de Ma El Aïnin, et est entourée de sites de gravures rupestres selon Wikipédia. L'explorateur français Michel Vieuchange l'atteignit en 1930 et en rapporta un récit de voyage publié en 1932.",
+      "regions": [
+        "Laâyoune-Sakia El Hamra"
+      ],
+      "sources": [
+        "S33",
+        "S37",
+        "S49"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date et fondateur : Wikipédia uniquement ; sites rupestres cités sans source indépendante."
+      },
+      "periode": "fondée vers 1898",
+      "coordonnees": {
+        "lat": 26.7394,
+        "lng": -11.6703
+      },
+      "wikidata": "Q842810",
+      "sensible": true,
+      "note_sensibilite": "Territoire au statut contesté : l'ONU ne reconnaît ni la souveraineté du Maroc ni la proclamation de la RASD ; le lieu est présenté sans prendre parti."
+    },
+    {
+      "id": "EH-site-tifariti",
+      "nom": "Tifariti",
+      "type": "lieu_de_memoire",
+      "description": "Ancien campement saisonnier près d'une oasis, puis base militaire espagnole, Tifariti fut un point d'arrêt pour des réfugiés en 1975-1976 et un champ de bataille de la guerre du Sahara occidental. Aujourd'hui en grande partie en ruines et entourée de zones minées, elle est située à l'est du mur de sable, dans la zone contrôlée par le Front Polisario, qui la présente comme une capitale proclamée de la RASD.",
+      "regions": [
+        "Zone à l'est du mur"
+      ],
+      "sources": [
+        "S34"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia)."
+      },
+      "periode": "XXe siècle",
+      "coordonnees": {
+        "lat": 26.158,
+        "lng": -10.567
+      },
+      "wikidata": "Q2360337",
+      "sensible": true,
+      "note_sensibilite": "Territoire au statut contesté : l'ONU ne reconnaît ni la souveraineté du Maroc ni la proclamation de la RASD ; le lieu est présenté sans prendre parti."
+    },
+    {
+      "id": "EH-site-bir-lahlou",
+      "nom": "Bir Lahlou",
+      "type": "lieu_de_memoire",
+      "description": "Localité du nord-est du territoire, dont le nom hassanya évoque une source d'eau douce. C'est de là que le Front Polisario a proclamé la RASD à la fin de février 1976 (26 ou 27 selon les sources) et que la radio nationale sahraouie émet depuis 1975. Elle sert de capitale provisoire à la RASD.",
+      "regions": [
+        "Zone à l'est du mur"
+      ],
+      "sources": [
+        "S4",
+        "S35"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de la proclamation : 26 février selon l'Université Laval, 27 février selon Wikipédia."
+      },
+      "periode": "depuis 1975",
+      "coordonnees": {
+        "lat": 26.3519,
+        "lng": -9.5672
+      },
+      "wikidata": "Q614754",
+      "sensible": true,
+      "note_sensibilite": "Territoire au statut contesté : l'ONU ne reconnaît ni la souveraineté du Maroc ni la proclamation de la RASD ; le lieu est présenté sans prendre parti."
+    },
+    {
+      "id": "EH-site-mur-des-sables",
+      "nom": "Mur des sables (« mur marocain »)",
+      "type": "lieu_de_memoire",
+      "description": "Ensemble de remblais de sable, de fossés, de postes et de champs de mines long de 2 700 km environ, construit par le Maroc à partir d'août 1980 et achevé en 1987. Il sépare la zone administrée par le Maroc, à l'ouest, de celle tenue par le Polisario, à l'est, et reste la ligne de partage de fait depuis le cessez-le-feu de 1991. Le Maroc le présente comme un dispositif défensif ; les Sahraouis l'appellent le « mur de la honte ».",
+      "regions": [
+        "Traverse le territoire du nord-est au sud-ouest"
+      ],
+      "sources": [
+        "S2",
+        "S4",
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Aucune coordonnée unique pertinente (ouvrage linéaire)."
+      },
+      "periode": "1980-1987",
+      "wikidata": "Q510052",
+      "sensible": true,
+      "note_sensibilite": "Ouvrage militaire lié à un conflit non réglé ; zones minées. Positions des deux parties rapportées."
+    },
+    {
+      "id": "EH-site-gdeim-izik",
+      "nom": "Camp de Gdeim Izik",
+      "type": "lieu_de_memoire",
+      "description": "Camp de protestation installé à une douzaine de kilomètres de Laâyoune en octobre 2010 par des Sahraouis qui réclamaient de meilleures conditions de vie. Il a rassemblé plusieurs milliers de personnes, jusqu'à son démantèlement par les forces marocaines le 8 novembre 2010, suivi d'affrontements à Laâyoune. Les bilans varient selon les parties, et l'épisode a inspiré des chansons, dont l'album « El Aaiun Egdat » de Mariem Hassan.",
+      "regions": [
+        "Laâyoune"
+      ],
+      "sources": [
+        "S7",
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Emplacement exact non documenté dans les sources ouvertes (environ 12 km de Laâyoune)."
+      },
+      "periode": "octobre-novembre 2010",
+      "wikidata": "Q2661450",
+      "sensible": true,
+      "note_sensibilite": "Événement violent et disputé : les versions marocaine et sahraouie divergent ; bilans non vérifiés de façon indépendante."
+    },
+    {
+      "id": "EH-site-camps-tindouf",
+      "nom": "Camps de réfugiés sahraouis de Tindouf",
+      "type": "lieu_de_memoire",
+      "description": "Camps installés dans le désert algérien près de Tindouf depuis la fin de 1975, où vit une grande partie de la population sahraouie exilée, administrés par le Front Polisario. Quatre camps portent les noms de villes du territoire : El Aaiun, Awserd, Es-Semara et Dakhla. Les chiffres de population sont contestés (de 90 000 personnes aidées par le HCR à plus de 170 000 selon des estimations plus récentes). Le lieu est en Algérie mais constitue un centre de la vie culturelle et politique sahraouie.",
+      "regions": [
+        "Wilaya de Tindouf (Algérie)"
+      ],
+      "sources": [
+        "S4",
+        "S7",
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Les camps sont en territoire algérien ; coordonnées non précisées dans les sources lues."
+      },
+      "periode": "depuis 1975-1976",
+      "wikidata": "Q3359974",
+      "sensible": true,
+      "note_sensibilite": "Situation humanitaire et chiffres contestés par les parties."
+    },
+    {
+      "id": "EH-site-boujdour",
+      "nom": "Boujdour",
+      "type": "ville_historique",
+      "description": "Ville côtière proche du cap Boujdour (cap Bojador), où les premiers explorateurs européens abordèrent en 1405 selon l'Université Laval. Elle comptait 42 651 habitants au recensement marocain de 2014. Elle est administrée par le Maroc.",
+      "regions": [
+        "Laâyoune-Sakia El Hamra"
+      ],
+      "sources": [
+        "S4",
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "periode": "depuis le XVe siècle (abords européens)",
+      "coordonnees": {
+        "lat": 26.1333,
+        "lng": -14.4667
+      },
+      "wikidata": "Q599897",
+      "sensible": true,
+      "note_sensibilite": "Territoire au statut contesté : l'ONU ne reconnaît ni la souveraineté du Maroc ni la proclamation de la RASD ; le lieu est présenté sans prendre parti."
+    },
+    {
+      "id": "EH-site-lagouira",
+      "nom": "Lagouira (La Güera)",
+      "type": "ville_historique",
+      "description": "Localité à l'extrême sud du territoire, face à Nouadhibou, aujourd'hui en grande partie en ruines. Elle se trouve de facto sous contrôle mauritanien, avec un camp de l'armée mauritanienne, et abrite quelques habitants imraguen.",
+      "regions": [
+        "Extrême sud"
+      ],
+      "sources": [
+        "S4",
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Détails sur le contrôle de fait : Wikipédia et Université Laval, non recoupés."
+      },
+      "periode": "XXe siècle",
+      "coordonnees": {
+        "lat": 20.8333,
+        "lng": -17.0917
+      },
+      "wikidata": "Q1356850",
+      "sensible": true,
+      "note_sensibilite": "Territoire au statut contesté : l'ONU ne reconnaît ni la souveraineté du Maroc ni la proclamation de la RASD ; le lieu est présenté sans prendre parti."
+    },
+    {
+      "id": "EH-site-baie-de-dakhla",
+      "nom": "Baie de Dakhla",
+      "type": "site_naturel",
+      "description": "Lagune de 37 km de long pour environ 610 km², séparée de l'Atlantique par un système dunaire. Inscrite à la convention de Ramsar, elle abrite une riche faune (mollusques, poissons, dauphins) et sert de zone d'hivernage à des oiseaux d'eau migrateurs. Le parc national de Dakhla est inscrit sur la liste indicative du Maroc au patrimoine mondial.",
+      "regions": [
+        "Dakhla-Oued Ed-Dahab"
+      ],
+      "sources": [
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia) ; liste indicative marocaine : à vérifier sur whc.unesco.org."
+      },
+      "sensible": true,
+      "note_sensibilite": "Territoire au statut contesté : l'ONU ne reconnaît ni la souveraineté du Maroc ni la proclamation de la RASD ; le lieu est présenté sans prendre parti."
+    }
+  ],
+  "traditions": [
+    {
+      "id": "EH-tradition-azawan",
+      "nom": "Azawan (système modal de la musique hassanie)",
+      "categorie": "musique",
+      "description": "Système musical des sociétés hassanophones de la région, dont les spécialistes situent la cristallisation au XVIIe siècle, joué traditionnellement par des musiciens et musiciennes spécialisés. Il structure des modes et des répertoires qui sont repris aujourd'hui avec la guitare électrique ou le clavier dans la musique sahraouie. Sa pratique et sa transmission sont liées aux familles de griots et de griottes.",
+      "regions": [
+        "Ensemble du territoire",
+        "Camps de Tindouf",
+        "Mauritanie voisine"
+      ],
+      "communautes": [
+        "Sahraouis",
+        "Bidan (hassanophones)"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "sources": [
+        "S7",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Datation « XVIIe siècle » rapportée par Ould Brahim (S8) ; à recouper."
+      },
+      "wikidata": "Q16530555",
+      "langues": [
+        "hassanya"
+      ],
+      "periode": "depuis le XVIIe siècle"
+    },
+    {
+      "id": "EH-tradition-ardin",
+      "nom": "Ardin (harpe des femmes bidan)",
+      "categorie": "musique",
+      "description": "Harpe traditionnellement associée aux femmes de la société bidan (hassanophone) et jouée par des musiciennes. Un voyageur français décrit en 1686 une griotte jouant d'un instrument de ce type devant l'émir du Trarza, dans une scène proche des concerts de chambre actuels. La pratique relève de la musique de chambre féminine et reste au cœur des performances de griottes.",
+      "regions": [
+        "Région hassanophone (Mauritanie, Sahara occidental)"
+      ],
+      "communautes": [
+        "Bidan",
+        "Griottes"
+      ],
+      "unesco": null,
+      "transmission": "fragile",
+      "sources": [
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Ancrage au Sahara occidental non détaillé par la source, qui décrit l'ensemble de l'aire hassanophone."
+      },
+      "wikidata": "Q931162",
+      "langues": [
+        "hassanya"
+      ]
+    },
+    {
+      "id": "EH-tradition-tebra",
+      "nom": "Tebra' (poésie féminine hassanie)",
+      "categorie": "oralite",
+      "description": "Genre poétique bref et chargé d'émotion, composé et interprété par des femmes bidan, souvent anonyme et transmis dans des cercles de femmes ou d'amies. Il parle de désir, de trahison et de statut social, et a été enregistré dès les années 1950, puis diffusé par la radio, les cassettes et aujourd'hui par les messageries mobiles. Son statut de « patrimoine anonyme » est débattu : une anthologie soutenue par l'État marocain en 2020 est critiquée pour avoir effacé l'origine régionale et féminine de ces poèmes.",
+      "regions": [
+        "Mauritanie",
+        "Sahara occidental",
+        "Sud du Maroc",
+        "Algérie",
+        "Mali"
+      ],
+      "communautes": [
+        "Femmes bidan",
+        "Griottes"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "sources": [
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Distribution géographique donnée par l'aire hassanophone ; pratiques sahraouies précises à documenter avec des communautés."
+      },
+      "nom_local": "تبراع",
+      "langues": [
+        "hassanya"
+      ],
+      "sensible": true,
+      "note_sensibilite": "La question de l'appropriation de cette poésie est un sujet disputé ; la présentation reste neutre."
+    },
+    {
+      "id": "EH-tradition-musique-nidal",
+      "nom": "Musique nidal (musique de la lutte)",
+      "categorie": "musique",
+      "description": "Genre musical engagé apparu à la fin de la période coloniale espagnole, puis développé dans les camps après 1975, qui chante la résistance, l'exil et la fierté sahraouie. Il emploie des couplets en hassanya, des modes de l'azawan, la guitare, puis le clavier ; des groupes comme Shaheed El Uali en ont fixé le répertoire. Des artistes de la diaspora (Mariem Hassan, Aziza Brahim) et des camps le poursuivent, par exemple avec des chansons sur Gdeim Izik.",
+      "regions": [
+        "Camps de Tindouf",
+        "Territoires sous administration marocaine",
+        "Diaspora en Espagne"
+      ],
+      "communautes": [
+        "Sahraouis"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "sources": [
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Les musiques sahraouies de la zone marocaine sont peu documentées dans les sources lues."
+      },
+      "langues": [
+        "hassanya",
+        "espagnol"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Répertoire politique, lié au projet national du Polisario ; ne reflète pas toutes les sensibilités sahraouies.",
+      "periode": "depuis les années 1960-1970"
+    },
+    {
+      "id": "EH-tradition-kharjas",
+      "nom": "Kharjas (poésie satirique hybride hispano-hassanie)",
+      "categorie": "oralite",
+      "description": "Genre poétique des années 1960 composé en un mélange d'espagnol et de hassanya, dont le nom évoque l'hybridation. Ses chansons et poèmes satiriques critiquaient l'influence espagnole et annonçaient les changements à venir. Il a précédé les chansons du Front Polisario, qui l'ont transformé en un répertoire entièrement hassanya.",
+      "regions": [
+        "Sahara espagnol (territoire actuel)"
+      ],
+      "communautes": [
+        "Sahraouis"
+      ],
+      "unesco": null,
+      "transmission": "fragile",
+      "sources": [
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Description d'après l'anthropologue Bahia Mahmud Awah, cité par Ruano Posada."
+      },
+      "langues": [
+        "hassanya",
+        "espagnol"
+      ],
+      "periode": "années 1960"
+    },
+    {
+      "id": "EH-tradition-khaima",
+      "nom": "Khaïma (tente nomade)",
+      "categorie": "architecture",
+      "description": "Tente d'origine nomade, en coton écru ou plus traditionnellement en poil de chameau ou de mouton, de forme pyramidale et soutenue par un mât central. Chez les Sahraouis, le mot désigne aussi la famille, le foyer, voire la tribu. Ce sont traditionnellement les femmes qui la cousent et la décorent en patchwork.",
+      "regions": [
+        "Ensemble du territoire",
+        "Camps de Tindouf"
+      ],
+      "communautes": [
+        "Sahraouis",
+        "communautés bidan"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "sources": [
+        "S30",
+        "S47"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia) ; la description des marchés renvoie surtout à la Mauritanie."
+      },
+      "nom_local": "خيمة",
+      "wikidata": "Q3518186",
+      "langues": [
+        "hassanya"
+      ],
+      "periode": "traditionnelle"
+    },
+    {
+      "id": "EH-tradition-melhfa",
+      "nom": "Melhfa (voile féminin)",
+      "categorie": "textile",
+      "description": "Voile de plusieurs mètres de long, enroulé autour du corps, porté par les femmes au Sahel et au Sahara. Le Monde diplomatique décrit, à El-Ayoun, la melhfa et la deraa comme les tenues traditionnelles sahraouies de la femme et de l'homme, qui croisent hidjabs et jeans dans la rue. Les modèles varient entre vêtements du quotidien et tenues de fête, avec des broderies de plus en plus travaillées.",
+      "regions": [
+        "Ensemble du territoire",
+        "Camps de Tindouf"
+      ],
+      "communautes": [
+        "Femmes sahraouies"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "sources": [
+        "S23",
+        "S48"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Vêtement partagé avec la Mauritanie, le Mali, le Niger et d'autres pays ; l'article Wikipédia est à compléter par une source spécialisée."
+      },
+      "nom_local": "ملحفة",
+      "wikidata": "Q119144225",
+      "langues": [
+        "hassanya"
+      ]
+    },
+    {
+      "id": "EH-tradition-nomadisme-chamelier",
+      "nom": "Nomadisme chamelier",
+      "categorie": "savoir",
+      "description": "Mode de vie fondé sur l'élevage de dromadaires et les déplacements saisonniers suivant les pluies, qui a longtemps structuré l'économie et la culture sahraouies. Les familles se nourrissaient surtout de lait et de viande. Les guerres, les sécheresses, les regroupements coloniaux et l'urbanisation l'ont fortement réduit, même si la culture reste imprégnée de nomadisme.",
+      "regions": [
+        "Ensemble du territoire",
+        "Hamada de Tindouf"
+      ],
+      "communautes": [
+        "Reguibat",
+        "Sahraouis"
+      ],
+      "unesco": null,
+      "transmission": "fragile",
+      "sources": [
+        "S4",
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "langues": [
+        "hassanya"
+      ],
+      "periode": "jusqu'aux années 1970 (puis recul)"
+    },
+    {
+      "id": "EH-tradition-peche-imraguen",
+      "nom": "Pêche au filet avec des dauphins (Imraguen)",
+      "categorie": "savoir",
+      "description": "Technique de pêche côtière où des dauphins rabattent des bancs de poissons vers les filets, mentionnée par l'Université Laval comme pratique ancienne des Imraguen. Elle témoigne d'une relation étroite entre une communauté et la faune marine. Son maintien au Sahara occidental même est mal documenté, la pratique étant mieux connue sur la côte mauritanienne.",
+      "regions": [
+        "Côte atlantique"
+      ],
+      "communautes": [
+        "Imraguen"
+      ],
+      "unesco": null,
+      "transmission": "fragile",
+      "sources": [
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Présence actuelle au Sahara occidental non confirmée ; mention indirecte dans une fiche universitaire."
+      },
+      "langues": [
+        "hassanya"
+      ]
+    },
+    {
+      "id": "EH-tradition-messel",
+      "nom": "Prière dans un messel (alignement de pierres)",
+      "categorie": "rite",
+      "description": "En dehors des villes, la prière se fait traditionnellement dans un alignement de pierres, le messel, qui figure une mosquée et comporte une pierre centrale surélevée pour l'imam. Cette pratique s'inscrit dans un islam nomade diffusé surtout par les marabouts et les confréries plutôt que par les mosquées. Elle témoigne de l'adaptation des pratiques religieuses à la vie mobile.",
+      "regions": [
+        "Zones désertiques et rurales"
+      ],
+      "communautes": [
+        "Sahraouis"
+      ],
+      "unesco": null,
+      "transmission": "fragile",
+      "sources": [
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia, section religion)."
+      },
+      "langues": [
+        "hassanya"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Pratique religieuse : à valider auprès de représentants de la communauté."
+    },
+    {
+      "id": "EH-tradition-confreries-zaouias",
+      "nom": "Confréries soufies et zaouïas",
+      "categorie": "rite",
+      "description": "L'islam sahraoui s'est diffusé par des marabouts et des confréries, dont la Qadiriyya et la Jazouliya, qui dépassent les frontières et les groupes ethniques. Les zaouïas, comme celle fondée à Smara par Ma El Aïnin, ont joué un rôle religieux et politique. Les relations de ces confréries avec les colonisateurs varient : certaines se sont alliées aux Espagnols, d'autres ont résisté aux Français.",
+      "regions": [
+        "Es-Semara",
+        "Ensemble du territoire"
+      ],
+      "communautes": [
+        "Ahl Ma El Aïnin",
+        "Laaroussiyine",
+        "Sahraouis"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "sources": [
+        "S16",
+        "S30",
+        "S33"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Sources essentiellement Wikipédia et presse."
+      },
+      "wikidata": "Q167777",
+      "langues": [
+        "hassanya"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Pratiques religieuses et lignages sacrés : validation préalable par les communautés concernées."
+    }
+  ],
+  "personnalites": [
+    {
+      "id": "EH-personne-ma-el-ainin",
+      "nom": "Ma El Aïnin (Cheikh Ma al-Aynayn)",
+      "description": "Cheikh et chérif de la fin du XIXe siècle, issu d'une famille religieuse de la région d'Oualata, qui fonda vers 1898 un ribat à Smara. Il y organisa un appel à la résistance contre les colonisateurs, avec le soutien du sultan du Maroc, et gagna un grand prestige religieux dans le Sahara. Il mourut en 1910 à Tiznit après un dernier soulèvement dans le Souss.",
+      "roles": [
+        "chef religieux",
+        "résistant"
+      ],
+      "domaines": [
+        "savoirs",
+        "religion",
+        "résistance"
+      ],
+      "epoque": "XIXe-XXe siècles",
+      "sources": [
+        "S33",
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Sources uniquement Wikipédia ; date de naissance approximative."
+      },
+      "naissance": {
+        "date": "vers 1831",
+        "lieu": "près d'Oualata (Mauritanie)"
+      },
+      "deces": {
+        "date": "1910-10-23",
+        "lieu": "Tiznit (Maroc)"
+      },
+      "wikidata": "Q2520973",
+      "sensible": true,
+      "note_sensibilite": "Figure religieuse et politique que les parties revendiquent différemment ; présentation neutre."
+    },
+    {
+      "id": "EH-personne-bassiri",
+      "nom": "Mohammed Bassiri",
+      "description": "Militant nationaliste né dans le sud marocain, fondateur d'un mouvement de libération de la Saguia el-Hamra et de l'Oued ed-Dahab à la fin des années 1960. Il mena la manifestation de Zemla à Laâyoune le 17 juin 1970 avant d'être arrêté ; il a disparu en détention et son décès n'a jamais été prouvé. Sa mémoire est revendiquée de façon différente par le Polisario et par sa propre famille, qui le dit marocain.",
+      "roles": [
+        "journaliste",
+        "militant politique"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S31",
+        "S46"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Sources uniquement Wikipédia ; lieu et date de naissance à recouper."
+      },
+      "naissance": {
+        "date": "1942",
+        "lieu": "Bni Ayat (province d'Azilal, Maroc)"
+      },
+      "deces": {
+        "date": "juin 1970 (disparition ; décès non prouvé)",
+        "lieu": null
+      },
+      "wikidata": "Q3128003",
+      "sensible": true,
+      "note_sensibilite": "Mémoire disputée et disparition forcée : à traiter avec prudence."
+    },
+    {
+      "id": "EH-personne-el-ouali",
+      "nom": "El-Ouali Moustapha Sayed",
+      "description": "Étudiant en droit à Rabat devenu cofondateur et premier dirigeant historique du Front Polisario, il est resté dans la mémoire sahraouie comme le « martyr » qui a donné son nom au groupe musical Shaheed El Uali. Selon Ruano Posada, il est mort sur le champ de bataille le 9 juin 1976, lors d'un assaut contre Nouakchott selon Jeune Afrique. Son lieu de naissance exact, en zone nomade, est incertain.",
+      "roles": [
+        "dirigeant politique",
+        "résistant"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S7",
+        "S18",
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de naissance non établie : 1948 (Wikidata) / 1949 (Wikipédia)."
+      },
+      "naissance": {
+        "date": "1948 ou 1949 selon les sources",
+        "lieu": "campement nomade de l'est du Sahara espagnol ; Bir Lahlou selon la plupart des sources"
+      },
+      "deces": {
+        "date": "1976-06-09",
+        "lieu": "près de Nouakchott (Mauritanie)"
+      },
+      "wikidata": "Q285662",
+      "sensible": true,
+      "note_sensibilite": "Figure fondatrice du Polisario ; perspective partisane à équilibrer avec les autres positions."
+    },
+    {
+      "id": "EH-personne-abdelaziz",
+      "nom": "Mohamed Abdelaziz",
+      "description": "Cofondateur du Front Polisario lors de son congrès constitutif de 1973 et secrétaire général du mouvement, il présida la République arabe sahraouie démocratique de 1976 jusqu'à sa mort en 2016. Son lieu de naissance est contesté : Smara pour le Polisario, région de Marrakech selon d'autres sources. Brahim Ghali lui a succédé après quarante jours de deuil.",
+      "roles": [
+        "dirigeant politique"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S18",
+        "S39"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date et lieu de naissance divergents selon les sources ; Jeune Afrique confirme le décès avant juillet 2016."
+      },
+      "naissance": {
+        "date": "1947-08-17 ou 1948",
+        "lieu": "Marrakech ou Smara selon les sources"
+      },
+      "deces": {
+        "date": "2016-05-31",
+        "lieu": null
+      },
+      "wikidata": "Q313797",
+      "sensible": true,
+      "note_sensibilite": "Naissance et rôle politique contestés ; présentés sans parti pris."
+    },
+    {
+      "id": "EH-personne-ghali",
+      "nom": "Brahim Ghali",
+      "description": "Membre fondateur du Front Polisario en 1973, chef militaire puis ministre de la Défense de la RASD, représentant à Madrid puis ambassadeur à Alger, il est secrétaire général du Polisario et président de la RASD depuis juillet 2016. Il est issu de la tribu des Reguibat. Il a fait l'objet de plaintes en Espagne, que le Polisario conteste ; sa naissance est située à Smara par le Polisario et près de Marrakech par le Maroc.",
+      "roles": [
+        "dirigeant politique",
+        "chef militaire"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S18",
+        "S51"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année 1946 d'après Jeune Afrique ; Wikipédia mentionne aussi 1945 et 1949."
+      },
+      "naissance": {
+        "date": "1946",
+        "lieu": "Smara (selon le Polisario) ou près de Marrakech (selon le Maroc)"
+      },
+      "wikidata": "Q4955460",
+      "sensible": true,
+      "note_sensibilite": "Personnalité politique en exercice, visée par des procédures judiciaires : présentation neutre."
+    },
+    {
+      "id": "EH-personne-bahia-mahmud-awah",
+      "nom": "Bahia Mahmud Awah",
+      "description": "Poète, écrivain, journaliste et anthropologue sahraoui, né en 1960 dans une famille nomade près d'Aousserd. Il a étudié à Cuba, dirigé le programme en espagnol de la radio nationale sahraouie, puis vécu en Espagne. Membre fondateur de la « Génération de l'amitié sahraouie », il est l'auteur de « Versos refugiados » (2007) et d'un essai sur la littérature du Sahara occidental (2008).",
+      "roles": [
+        "poète",
+        "écrivain",
+        "journaliste",
+        "anthropologue"
+      ],
+      "domaines": [
+        "littérature",
+        "savoirs"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S4",
+        "S7",
+        "S45"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1960",
+        "lieu": "près d'Aousserd"
+      },
+      "wikidata": "Q4842561"
+    },
+    {
+      "id": "EH-personne-dahane",
+      "nom": "Brahim Dahane",
+      "description": "Défenseur des droits humains né à Laâyoune, il a présidé l'Association sahraouie des victimes des violations graves des droits de l'homme commises par l'État marocain. Il fut arrêté à Laâyoune le 30 octobre 2005, au moment de la répression de manifestations indépendantistes, et placé en détention, selon Le Monde diplomatique.",
+      "roles": [
+        "militant des droits humains"
+      ],
+      "domaines": [
+        "résistance",
+        "droits humains"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S23",
+        "S27"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de naissance d'après Wikidata uniquement."
+      },
+      "naissance": {
+        "date": "1965",
+        "lieu": "Laâyoune"
+      },
+      "wikidata": "Q4955457",
+      "sensible": true,
+      "note_sensibilite": "Militant poursuivi par les autorités marocaines : propos rapportés avec prudence."
+    },
+    {
+      "id": "EH-personne-mariem-hassan",
+      "nom": "Mariem Hassan",
+      "description": "Chanteuse et parolière sahraouie née vers 1958 près d'Es-Semara, passée par le groupe Shahid El Uali avant de mener une carrière en solo depuis l'Espagne. Elle est devenue une voix emblématique de la musique nidal, notamment avec l'album « El Aaiun Egdat » (2012), consacré à Gdeim Izik. Elle est morte en 2015 dans un camp de réfugiés près de Tindouf.",
+      "roles": [
+        "chanteuse",
+        "parolière"
+      ],
+      "domaines": [
+        "musique",
+        "arts"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S7",
+        "S21",
+        "S40"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date exacte de naissance variable selon les sources (15 ou 31 mai, ou octobre 1958) : seule l'année est retenue."
+      },
+      "naissance": {
+        "date": "1958",
+        "lieu": "Oued Tazua, près d'Es-Semara"
+      },
+      "deces": {
+        "date": "2015-08-22",
+        "lieu": "camps de réfugiés sahraouis de Tindouf (Algérie)"
+      },
+      "wikidata": "Q3293004"
+    },
+    {
+      "id": "EH-personne-aziza-brahim",
+      "nom": "Aziza Brahim",
+      "description": "Chanteuse, percussionniste et actrice née en 1976 dans les camps de Tindouf, installée en Espagne depuis 2000. Selon Ruano Posada, elle est au sommet de sa carrière internationale et a chanté Gdeim Izik dans son album « Soutak » (2014), tandis que ses disques puisent dans des poèmes de sa grand-mère. Elle a aussi composé et interprété la bande originale du film « Wilaya ».",
+      "roles": [
+        "chanteuse",
+        "percussionniste",
+        "actrice"
+      ],
+      "domaines": [
+        "musique",
+        "arts"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S7",
+        "S41"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1976-06-09",
+        "lieu": "camps de réfugiés sahraouis (Tindouf, Algérie)"
+      },
+      "wikidata": "Q4832702"
+    },
+    {
+      "id": "EH-personne-aminatou-haidar",
+      "nom": "Aminatou Haidar",
+      "description": "Militante sahraouie des droits humains, née en 1966 à Akka (Maroc) dans une famille issue des Izarguiyines, de la confédération tekna, et installée à Laâyoune. Arrêtée en 1987 puis détenue plusieurs années, elle est devenue l'une des figures les plus connues du mouvement pacifique ; une grève de la faim à l'aéroport de Lanzarote en 2009 a attiré l'attention mondiale. Elle a reçu le prix Right Livelihood en 2019.",
+      "roles": [
+        "militante des droits humains"
+      ],
+      "domaines": [
+        "résistance",
+        "droits humains"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S7",
+        "S17",
+        "S42"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Prix Right Livelihood 2019 : mention Wikipédia, à recouper sur le site de la fondation."
+      },
+      "naissance": {
+        "date": "1966-07-24",
+        "lieu": "Akka (Maroc)"
+      },
+      "wikidata": "Q115979",
+      "sensible": true,
+      "note_sensibilite": "Figure militante contestée par les autorités marocaines, qui la jugent proche d'Alger ; propos rapportés avec leurs sources."
+    },
+    {
+      "id": "EH-personne-sultana-khaya",
+      "nom": "Sultana Khaya",
+      "description": "Militante sahraouie des droits humains, présidente à Boujdour de la Ligue pour la défense des droits de l'homme et contre le pillage des ressources naturelles. Front Line Defenders décrit son action par des manifestations pacifiques pour l'autodétermination et rapporte des agressions subies à son domicile en 2021. Le Maroc l'accuse d'utiliser les droits humains à des fins politiques.",
+      "roles": [
+        "militante des droits humains"
+      ],
+      "domaines": [
+        "résistance",
+        "droits humains"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S19",
+        "S50"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date et lieu de naissance non trouvés dans les sources lues."
+      },
+      "wikidata": "Q109984174",
+      "sensible": true,
+      "note_sensibilite": "Personne vivante visée par des allégations de violences et de la part des autorités marocaines ; éviter tout propos non sourcé."
+    },
+    {
+      "id": "EH-personne-fatma-el-mehdi",
+      "nom": "Fatma El Mehdi",
+      "description": "Née en 1969 à Smara, évacuée enfant en 1975 vers les camps de réfugiés, elle est secrétaire générale de l'Union nationale des femmes sahraouies. WNYC la présente comme la première femme sahraouie à participer à une conférence de l'ONU sur les droits des femmes. Elle a été invitée en 2016 au programme « Women PeaceMakers » de l'Université de San Diego.",
+      "roles": [
+        "responsable associative",
+        "militante féministe"
+      ],
+      "domaines": [
+        "politique",
+        "droits des femmes"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S22",
+        "S25",
+        "S43"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1969",
+        "lieu": "Smara"
+      },
+      "wikidata": "Q27509601"
+    },
+    {
+      "id": "EH-personne-najla-mohamed-lamin",
+      "nom": "Najla Mohamed-Lamin",
+      "description": "Enseignante et militante née en 1989 dans le camp de Smara, près de Tindouf, issue d'une famille d'Al Mahbes. Elle a fondé le Centre de documentation Almasar, qui informe femmes et enfants des camps sur leurs droits, la santé et le climat. La BBC l'a inscrite parmi les 100 femmes de 2023.",
+      "roles": [
+        "éducatrice",
+        "militante"
+      ],
+      "domaines": [
+        "sciences sociales",
+        "environnement",
+        "droits des femmes"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S20",
+        "S44"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1989",
+        "lieu": "camp de Smara (Tindouf, Algérie)"
+      },
+      "wikidata": "Q123509738"
+    },
+    {
+      "id": "EH-personne-um-murghiya",
+      "nom": "Um Murghiya Abdullah",
+      "description": "Jeune réfugiée en 1975-1976, elle aurait chanté la première chanson moderne de l'exode en mettant en musique « Le Sahara n'est pas à vendre » (Sahra Ma Tamba), poème de sa mère évoquant les phosphates et les pâturages. Aujourd'hui établie à Vitoria, en Espagne, elle a témoigné de cette création auprès de la chercheuse Violeta Ruano Posada.",
+      "roles": [
+        "chanteuse",
+        "témoin"
+      ],
+      "domaines": [
+        "musique",
+        "oralité"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Attribution de la « première chanson moderne » d'après le témoignage de Fatimettu ment Omar rapporté par S7 ; sans date ni lieu de naissance."
+      }
+    },
+    {
+      "id": "EH-personne-habuza",
+      "nom": "Mariem Mohamed Lamin (Habuza)",
+      "description": "Interprète originale du chant « Saadna ljibala », présenté au congrès constitutif du Front Polisario le 10 mai 1973. Rencontrée en octobre 2013 dans le camp d'El Aaiun, elle se souvenait encore de nombreux couplets révolutionnaires initiaux.",
+      "roles": [
+        "chanteuse"
+      ],
+      "domaines": [
+        "musique",
+        "oralité"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Seule source : entretien rapporté par Ruano Posada ; dates non connues."
+      }
+    },
+    {
+      "id": "EH-personne-hafed-mahayub",
+      "nom": "Hafed Mahayub",
+      "description": "Chanteur et compositeur du camp de Dakhla, ambulancier formé à Cuba, auteur d'après Ruano Posada de plus de 300 chansons depuis la fin des années 1990. Il chante la lutte des Sahraouis, notamment « Aminatu Haidar » et « La intifada », dans un style nidal modernisé.",
+      "roles": [
+        "chanteur",
+        "compositeur",
+        "ambulancier"
+      ],
+      "domaines": [
+        "musique",
+        "arts"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates de vie non trouvées."
+      }
+    }
+  ],
+  "evenements": [
+    {
+      "id": "EH-evenement-gravures",
+      "titre": "Période humide du Sahara et gravures rupestres",
+      "date": "-002999-01-01",
+      "date_affichee": "il y a environ 5 000 ans",
+      "precision": "siecle",
+      "description": "À l'époque humide du Sahara, des chasseurs ont laissé des gravures de scènes de chasse et d'animaux de la grande faune africaine sur le territoire. La date donnée est une approximation commode tirée d'une fiche universitaire.",
+      "sources": [
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Datation approximative issue de l'Université Laval ; à confirmer par une publication archéologique."
+      },
+      "acteurs": [
+        "populations préhistoriques"
+      ],
+      "regions": [
+        "Ensemble du territoire"
+      ]
+    },
+    {
+      "id": "EH-evenement-islamisation",
+      "titre": "Début de l'islamisation du Sahara occidental",
+      "date": "0750-01-01",
+      "date_affichee": "VIIIe siècle",
+      "precision": "siecle",
+      "description": "L'islam commence à se diffuser dans la région, surtout par les marchands berbères du nord, tout en restant longtemps superficiel selon l'Université Laval. Une grande partie de la population continuait de pratiquer ses rites traditionnels.",
+      "sources": [
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Datation approximative (VIIIe siècle) ; source unique."
+      },
+      "acteurs": [
+        "marchands berbères",
+        "populations sahariennes"
+      ],
+      "regions": [
+        "Ensemble du territoire"
+      ]
+    },
+    {
+      "id": "EH-evenement-almoravides",
+      "titre": "Mouvement almoravide",
+      "date": "1048-01-01",
+      "date_affichee": "vers 1048",
+      "precision": "annee",
+      "description": "Des Berbères de l'ouest saharien se coalisent autour du prédicateur Abdallah ibn Yasin et d'un chef local, puis conquièrent les tribus de la région avant de prendre le Maroc et d'étendre leur pouvoir vers al-Andalus. Leur dynastie, qui a Marrakech pour capitale, tombe en 1147 face aux Almohades. Ce moment est invoqué dans les discours historiques des parties.",
+      "sources": [
+        "S4",
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Les parties invoquent différemment cette période ; date exacte : 1048 (Laval, Wikipédia), mouvement s'étalant jusqu'à 1052."
+      },
+      "acteurs": [
+        "Almoravides",
+        "Abdallah ibn Yasin"
+      ],
+      "regions": [
+        "Sahara occidental",
+        "Maroc",
+        "Mauritanie"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement lié à un conflit non réglé : les positions des parties sont rapportées sans prendre parti."
+    },
+    {
+      "id": "EH-evenement-ardin-1493",
+      "titre": "Plus ancienne trace d'une performance musicale saharienne citée",
+      "date": "1493-01-01",
+      "date_affichee": "1493",
+      "precision": "annee",
+      "description": "Une correspondance de 1493 entre le savant saharien al-Lamtūnī et le polymathe égyptien al-Suyūṭī évoque des femmes jouant d'instruments devant des hommes, ce qui témoigne d'une tension entre divertissement et morale religieuse. Elle compte parmi les plus anciens témoignages sur la musique de la région.",
+      "sources": [
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Mention dans un article académique ; lieu précis non indiqué."
+      },
+      "acteurs": [
+        "savants sahariens"
+      ],
+      "regions": [
+        "Aire hassanophone"
+      ]
+    },
+    {
+      "id": "EH-evenement-cap-bojador",
+      "titre": "Premiers abordages européens près du cap Boujdour",
+      "date": "1405-01-01",
+      "date_affichee": "1405",
+      "precision": "annee",
+      "description": "Les premiers explorateurs européens abordent près du cap Bojador (Boujdour) et attaquent des caravanes, mais l'opposition des populations les cantonne à la côte. Les comptoirs et forts de la période suivante restent limités au littoral.",
+      "sources": [
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Université Laval)."
+      },
+      "acteurs": [
+        "explorateurs européens",
+        "populations locales"
+      ],
+      "regions": [
+        "Boujdour",
+        "côte atlantique"
+      ]
+    },
+    {
+      "id": "EH-evenement-protectorat-espagnol",
+      "titre": "Protectorat espagnol sur la côte et conférence de Berlin",
+      "date": "1884-01-01",
+      "date_affichee": "1884",
+      "precision": "annee",
+      "description": "L'Espagne place la côte saharienne sous son protectorat, fait confirmé par la conférence de Berlin (1884-1885). Villa Cisneros (Dakhla) devient le centre administratif du futur Sahara espagnol. Les frontières ne sont précisées qu'avec les conventions franco-espagnoles du début du XXe siècle.",
+      "sources": [
+        "S4",
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Espagne",
+        "populations sahraouies"
+      ],
+      "regions": [
+        "Dakhla",
+        "côte atlantique"
+      ],
+      "wikidata": "Q13582"
+    },
+    {
+      "id": "EH-evenement-fondation-smara",
+      "titre": "Fondation de Smara par Ma El Aïnin",
+      "date": "1898-01-01",
+      "date_affichee": "vers 1898",
+      "precision": "annee",
+      "description": "Le cheikh Ma El Aïnin construit un ribat à Smara, jusque-là point d'eau et carrefour caravanier, avec l'appui du sultan du Maroc. La ville devient un centre religieux et un point de départ de la résistance contre les colonisateurs.",
+      "sources": [
+        "S33",
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Datation « vers 1898 » : Wikipédia seule."
+      },
+      "acteurs": [
+        "Ma El Aïnin",
+        "Moulay Abdelaziz"
+      ],
+      "regions": [
+        "Es-Semara"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement lié à un conflit non réglé : les positions des parties sont rapportées sans prendre parti."
+    },
+    {
+      "id": "EH-evenement-mort-ma-el-ainin",
+      "titre": "Mort de Ma El Aïnin à Tiznit",
+      "date": "1910-10-23",
+      "date_affichee": "23 octobre 1910",
+      "precision": "jour",
+      "description": "Après l'échec de son avancée vers le nord, le cheikh Ma El Aïnin meurt à Tiznit, dans le Souss. Son mouvement, né à Smara, s'éteint avec lui, tandis que la présence française s'affirme au Maroc et en Mauritanie.",
+      "sources": [
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia)."
+      },
+      "acteurs": [
+        "Ma El Aïnin",
+        "armée française"
+      ],
+      "regions": [
+        "Tiznit (Maroc)",
+        "Es-Semara"
+      ]
+    },
+    {
+      "id": "EH-evenement-conventions-franco-espagnoles",
+      "titre": "Conventions franco-espagnoles fixant les frontières",
+      "date": "1912-01-01",
+      "date_affichee": "1912",
+      "precision": "annee",
+      "description": "Après l'établissement du protectorat français au Maroc en 1912, la convention de Madrid confirme les limites du Sahara espagnol définies par la convention de Paris de 1904. Ces accords tracent des frontières entre puissances coloniales sans consulter les populations.",
+      "sources": [
+        "S4",
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La date exacte de la convention de Madrid n'a pas été vérifiée : seule l'année 1912 est affichée."
+      },
+      "acteurs": [
+        "France",
+        "Espagne"
+      ],
+      "regions": [
+        "Sahara espagnol"
+      ]
+    },
+    {
+      "id": "EH-evenement-fondation-laayoune",
+      "titre": "Fondation de Laâyoune",
+      "date": "1938-01-01",
+      "date_affichee": "1938",
+      "precision": "annee",
+      "description": "L'armée espagnole fonde officiellement Laâyoune, après y avoir installé en 1934 un poste de police sur la piste entre cap Juby et Villa Cisneros. Elle deviendra la capitale du Sahara espagnol en 1961.",
+      "sources": [
+        "S31",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "armée espagnole"
+      ],
+      "regions": [
+        "Laâyoune"
+      ]
+    },
+    {
+      "id": "EH-evenement-ifni",
+      "titre": "Guerre d'Ifni et opération Écouvillon",
+      "date": "1957-10-01",
+      "date_affichee": "octobre 1957 - avril 1958",
+      "precision": "mois",
+      "description": "À la suite de l'indépendance du Maroc, l'Armée de libération du Sud, formée d'irréguliers marocains et de Sahraouis, attaque les positions espagnoles. Une opération conjointe franco-espagnole la repousse du Sahara occidental, tandis que le Maroc récupère le cap Juby (Tarfaya).",
+      "sources": [
+        "S4",
+        "S28",
+        "S33"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates de début et de fin tirées de Wikipédia (S28)."
+      },
+      "fin": "1958-04-30",
+      "acteurs": [
+        "Armée de libération du Sud",
+        "Espagne",
+        "France"
+      ],
+      "regions": [
+        "Ifni",
+        "Es-Semara",
+        "Tarfaya"
+      ],
+      "wikidata": "Q1640107",
+      "sensible": true,
+      "note_sensibilite": "Événement lié à un conflit non réglé : les positions des parties sont rapportées sans prendre parti."
+    },
+    {
+      "id": "EH-evenement-liste-onu-1963",
+      "titre": "Inscription sur la liste des territoires non autonomes",
+      "date": "1963-01-01",
+      "date_affichee": "1963",
+      "precision": "annee",
+      "description": "À la demande du Maroc, le Sahara occidental, alors colonie espagnole, est inscrit sur la liste des territoires non autonomes des Nations unies, statut qu'il conserve depuis. L'ONU y voit un territoire dont la décolonisation n'est pas achevée et dont le statut final reste à déterminer.",
+      "sources": [
+        "S28",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "ONU",
+        "Maroc",
+        "Espagne"
+      ],
+      "regions": [
+        "Sahara espagnol"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement lié à un conflit non réglé : les positions des parties sont rapportées sans prendre parti."
+    },
+    {
+      "id": "EH-evenement-zemla",
+      "titre": "Manifestation de Zemla à Laâyoune",
+      "date": "1970-06-17",
+      "date_affichee": "17 juin 1970",
+      "precision": "jour",
+      "description": "Le mouvement Harakat Tahrir remet une pétition au gouverneur général espagnol. La manifestation est réprimée par la Légion espagnole, qui fait au moins onze morts selon Wikipédia ; Mohammed Bassiri est arrêté puis disparaît. Cet épisode est considéré comme un point de départ du mouvement indépendantiste armé.",
+      "sources": [
+        "S31",
+        "S46"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Bilan humain : entre 2 et 11 morts selon les sources."
+      },
+      "acteurs": [
+        "Harakat Tahrir",
+        "Mohammed Bassiri",
+        "armée espagnole"
+      ],
+      "regions": [
+        "Laâyoune"
+      ],
+      "wikidata": "Q3800705",
+      "sensible": true,
+      "note_sensibilite": "Événement lié à un conflit non réglé : les positions des parties sont rapportées sans prendre parti."
+    },
+    {
+      "id": "EH-evenement-polisario-1973",
+      "titre": "Congrès constitutif du Front Polisario",
+      "date": "1973-05-10",
+      "date_affichee": "10 mai 1973",
+      "precision": "jour",
+      "description": "Le Front populaire de libération de la Saguia el-Hamra et du Río de Oro est fondé pour obtenir le départ de l'Espagne et s'oppose à tout rattachement au Maroc ou à la Mauritanie. Selon Ruano Posada, des chants révolutionnaires comme « Saadna ljibala » y sont interprétés. Le lieu exact du congrès n'est pas unanime dans les sources.",
+      "sources": [
+        "S4",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lieu du congrès (Zouerate ou Aïn Ben Tili) cité de façon discordante ; non retenu ici."
+      },
+      "acteurs": [
+        "Front Polisario"
+      ],
+      "regions": [
+        "Sahara espagnol"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement lié à un conflit non réglé : les positions des parties sont rapportées sans prendre parti."
+    },
+    {
+      "id": "EH-evenement-referendum-annonce-1974",
+      "titre": "L'Espagne annonce un référendum d'autodétermination",
+      "date": "1974-08-21",
+      "date_affichee": "21 août 1974",
+      "precision": "jour",
+      "description": "Madrid annonce un référendum pour le début de 1975. Le Maroc s'y oppose et demande l'arbitrage de la Cour internationale de justice.",
+      "sources": [
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Université Laval)."
+      },
+      "acteurs": [
+        "Espagne",
+        "Maroc"
+      ],
+      "regions": [
+        "Sahara espagnol"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement lié à un conflit non réglé : les positions des parties sont rapportées sans prendre parti."
+    },
+    {
+      "id": "EH-evenement-avis-cij",
+      "titre": "Avis consultatif de la Cour internationale de justice",
+      "date": "1975-10-16",
+      "date_affichee": "16 octobre 1975",
+      "precision": "jour",
+      "description": "La Cour répond que le territoire n'était pas une terra nullius et qu'il existait des liens d'allégeance entre le sultan du Maroc et certaines tribus, ainsi que des droits liés à la terre pour l'ensemble mauritanien. Elle ne trouve toutefois aucun lien de souveraineté territoriale susceptible d'empêcher l'application du principe d'autodétermination.",
+      "sources": [
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Cour internationale de justice",
+        "Maroc",
+        "Mauritanie"
+      ],
+      "regions": [
+        "Sahara occidental"
+      ],
+      "wikidata": "Q6049931",
+      "sensible": true,
+      "note_sensibilite": "Événement lié à un conflit non réglé : les positions des parties sont rapportées sans prendre parti."
+    },
+    {
+      "id": "EH-evenement-marche-verte",
+      "titre": "Marche verte",
+      "date": "1975-11-06",
+      "date_affichee": "6 novembre 1975",
+      "precision": "jour",
+      "description": "Le roi Hassan II envoie quelque 350 000 civils marocains vers le Sahara espagnol afin d'appuyer la revendication marocaine sur le territoire, quelques jours après l'avis de la Cour internationale de justice. Le Conseil de sécurité, dans sa résolution 380, estime qu'elle contourne cette décision. Le Maroc y voit un acte de réunification d'un territoire historiquement lié au royaume.",
+      "sources": [
+        "S4",
+        "S31",
+        "S52"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Chiffre de 350 000 participants : Wikipédia et Université Laval."
+      },
+      "acteurs": [
+        "Hassan II",
+        "Maroc"
+      ],
+      "regions": [
+        "Sahara espagnol"
+      ],
+      "wikidata": "Q870684",
+      "sensible": true,
+      "note_sensibilite": "Événement lié à un conflit non réglé : les positions des parties sont rapportées sans prendre parti."
+    },
+    {
+      "id": "EH-evenement-accords-madrid",
+      "titre": "Accords tripartites de Madrid",
+      "date": "1975-11-14",
+      "date_affichee": "14 novembre 1975",
+      "precision": "jour",
+      "description": "L'Espagne, le Maroc et la Mauritanie signent une déclaration qui transfère l'administration du territoire à une autorité temporaire tripartite, sans consulter l'Algérie ni les Sahraouis. L'ONU rappelle que cet accord n'a pas transféré la souveraineté. Il ouvre la période de la guerre du Sahara occidental.",
+      "sources": [
+        "S2",
+        "S4",
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Espagne",
+        "Maroc",
+        "Mauritanie"
+      ],
+      "regions": [
+        "Sahara occidental"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement lié à un conflit non réglé : les positions des parties sont rapportées sans prendre parti."
+    },
+    {
+      "id": "EH-evenement-proclamation-rasd",
+      "titre": "Proclamation de la RASD à Bir Lahlou",
+      "date": "1976-02-27",
+      "date_affichee": "26 ou 27 février 1976",
+      "precision": "jour",
+      "description": "Au lendemain du départ du dernier soldat espagnol, le Front Polisario proclame la République arabe sahraouie démocratique à Bir Lahlou. Des dizaines de milliers de Sahraouis fuient vers l'Algérie pendant ces mois. L'ONU ne reconnaît ni la souveraineté du Maroc sur le territoire ni la proclamation de la RASD.",
+      "sources": [
+        "S4",
+        "S28",
+        "S35"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date : 26 février (Laval), 27 février (Wikipédia)."
+      },
+      "acteurs": [
+        "Front Polisario"
+      ],
+      "regions": [
+        "Bir Lahlou",
+        "Tindouf"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement lié à un conflit non réglé : les positions des parties sont rapportées sans prendre parti."
+    },
+    {
+      "id": "EH-evenement-retrait-mauritanie",
+      "titre": "La Mauritanie renonce à sa part du territoire",
+      "date": "1979-08-10",
+      "date_affichee": "10 août 1979",
+      "precision": "jour",
+      "description": "Après un coup d'État à Nouakchott, la Mauritanie signe en août 1979 un accord avec le Polisario et abandonne ses revendications sur la partie sud du territoire. Le Maroc étend alors son administration à l'ensemble des zones laissées par la Mauritanie.",
+      "sources": [
+        "S2",
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date du 10 août 1979 pour le traité ; seule la précision « mois » est affichée."
+      },
+      "acteurs": [
+        "Mauritanie",
+        "Front Polisario",
+        "Maroc"
+      ],
+      "regions": [
+        "Sud du territoire"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement lié à un conflit non réglé : les positions des parties sont rapportées sans prendre parti."
+    },
+    {
+      "id": "EH-evenement-mur",
+      "titre": "Construction du mur de sable",
+      "date": "1980-08-01",
+      "date_affichee": "1980-1987",
+      "precision": "annee",
+      "description": "À partir d'août 1980, le Maroc érige un ensemble de remblais, de postes et de champs de mines long de 2 700 km, achevé en 1987. Il devient la ligne de séparation de fait entre la zone administrée par le Maroc et celle tenue par le Polisario.",
+      "sources": [
+        "S4",
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "fin": "1987-12-31",
+      "acteurs": [
+        "Maroc"
+      ],
+      "regions": [
+        "Sahara occidental"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement lié à un conflit non réglé : les positions des parties sont rapportées sans prendre parti."
+    },
+    {
+      "id": "EH-evenement-oua-1982",
+      "titre": "La RASD admise à l'Organisation de l'unité africaine",
+      "date": "1982-01-01",
+      "date_affichee": "1982",
+      "precision": "annee",
+      "description": "L'OUA accepte la RASD comme membre, ce qui conduit le Maroc à quitter l'organisation en 1984. Le Maroc ne réintègre l'Union africaine qu'en janvier 2017.",
+      "sources": [
+        "S4",
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Seule l'année 1982 est affichée ; mois et jour non vérifiés."
+      },
+      "acteurs": [
+        "OUA",
+        "Maroc",
+        "Front Polisario"
+      ],
+      "regions": [
+        "Sahara occidental"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement lié à un conflit non réglé : les positions des parties sont rapportées sans prendre parti."
+    },
+    {
+      "id": "EH-evenement-minurso-1991",
+      "titre": "Création de la MINURSO et cessez-le-feu",
+      "date": "1991-04-29",
+      "date_affichee": "29 avril 1991",
+      "precision": "jour",
+      "description": "Par sa résolution 690 (1991), le Conseil de sécurité crée la MINURSO pour mettre en œuvre le plan de règlement accepté en 1988 par le Maroc et le Polisario. Le cessez-le-feu tient dès le déploiement de la mission en septembre 1991, mais le référendum prévu n'a jamais eu lieu en raison de désaccords sur la liste des votants.",
+      "sources": [
+        "S2",
+        "S26"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "ONU",
+        "Maroc",
+        "Front Polisario"
+      ],
+      "regions": [
+        "Sahara occidental"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement lié à un conflit non réglé : les positions des parties sont rapportées sans prendre parti."
+    },
+    {
+      "id": "EH-evenement-manifestations-1999",
+      "titre": "Premières grandes manifestations civiles à Laâyoune et Dakhla",
+      "date": "1999-09-01",
+      "date_affichee": "septembre 1999",
+      "precision": "mois",
+      "description": "Deux mois après la mort de Hassan II et l'avènement de Mohammed VI, des manifestations sans précédent ont lieu dans les villes du territoire, surtout à Laâyoune et Dakhla. Elles marquent le début d'une série de soulèvements civils, qualifiés d'« intifadas » par leurs partisans.",
+      "sources": [
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Sahraouis",
+        "autorités marocaines"
+      ],
+      "regions": [
+        "Laâyoune",
+        "Dakhla"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement lié à un conflit non réglé : les positions des parties sont rapportées sans prendre parti."
+    },
+    {
+      "id": "EH-evenement-intifada-2005",
+      "titre": "Soulèvement de mai 2005 (intifada de l'indépendance)",
+      "date": "2005-05-01",
+      "date_affichee": "mai 2005",
+      "precision": "mois",
+      "description": "À partir de mai 2005, des manifestations indépendantistes ont lieu plusieurs fois par semaine à Laâyoune et à Smara et sont réprimées, avec des arrestations dont celle d'Aminatou Haidar. Le Monde diplomatique évoque une situation explosive en octobre, avec la mort du jeune Hamdi Lambarki après des violences policières, selon l'article. Ruano Posada souligne le peu d'écho de ce soulèvement dans la presse internationale, du fait du blocus médiatique imposé par le Maroc sur le territoire.",
+      "sources": [
+        "S7",
+        "S17",
+        "S23",
+        "S24"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Aminatou Haidar",
+        "autorités marocaines"
+      ],
+      "regions": [
+        "Laâyoune",
+        "Es-Semara"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement lié à un conflit non réglé : les positions des parties sont rapportées sans prendre parti."
+    },
+    {
+      "id": "EH-evenement-autonomie-2007",
+      "titre": "Proposition marocaine d'autonomie",
+      "date": "2007-04-11",
+      "date_affichee": "11 avril 2007",
+      "precision": "jour",
+      "description": "Le Maroc remet au Secrétaire général de l'ONU un plan d'autonomie du « Sahara marocain » sous sa souveraineté. Le Polisario le rejette et réclame un référendum d'autodétermination ; des pourparlers directs ont lieu en 2007-2008 sans résultat sur le fond.",
+      "sources": [
+        "S2",
+        "S4",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Maroc",
+        "Front Polisario",
+        "ONU"
+      ],
+      "regions": [
+        "Sahara occidental"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement lié à un conflit non réglé : les positions des parties sont rapportées sans prendre parti."
+    },
+    {
+      "id": "EH-evenement-gdeim-izik",
+      "titre": "Camp de Gdeim Izik et démantèlement du 8 novembre 2010",
+      "date": "2010-10-10",
+      "date_affichee": "10 octobre - 8 novembre 2010",
+      "precision": "jour",
+      "description": "Un camp de protestation de milliers de tentes est installé près de Laâyoune, puis démantelé par les forces marocaines le 8 novembre, ce qui provoque des affrontements en ville. Les chiffres des morts varient fortement selon que l'on suive les autorités marocaines ou le Polisario. L'événement est devenu un thème de chansons sahraouies.",
+      "sources": [
+        "S7",
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Bilan humain : 13 morts (autorités marocaines, pour les forces de l'ordre et civils) contre 36 (Polisario) selon Wikipédia S28 ; non vérifié de façon indépendante."
+      },
+      "fin": "2010-11-08",
+      "acteurs": [
+        "Sahraouis de Laâyoune",
+        "forces marocaines"
+      ],
+      "regions": [
+        "Laâyoune"
+      ],
+      "wikidata": "Q2661450",
+      "sensible": true,
+      "note_sensibilite": "Événement lié à un conflit non réglé : les positions des parties sont rapportées sans prendre parti."
+    },
+    {
+      "id": "EH-evenement-fin-cessez-le-feu",
+      "titre": "Le Polisario annonce la reprise de la lutte armée",
+      "date": "2020-11-01",
+      "date_affichee": "novembre 2020",
+      "precision": "mois",
+      "description": "Après l'opération marocaine de Guerguerat, le Front Polisario annonce se retirer du cessez-le-feu de 1991 et reprendre la lutte armée. La MINURSO note que les hostilités restent de basse intensité et continue d'appeler à les faire cesser.",
+      "sources": [
+        "S2",
+        "S26",
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date précise non retenue : MINURSO indique seulement « novembre 2020 »."
+      },
+      "acteurs": [
+        "Front Polisario",
+        "Maroc",
+        "MINURSO"
+      ],
+      "regions": [
+        "Guerguerat",
+        "Sahara occidental"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement lié à un conflit non réglé : les positions des parties sont rapportées sans prendre parti."
+    },
+    {
+      "id": "EH-evenement-usa-2020",
+      "titre": "Les États-Unis reconnaissent la souveraineté marocaine",
+      "date": "2020-12-10",
+      "date_affichee": "10 décembre 2020",
+      "precision": "jour",
+      "description": "L'administration américaine annonce reconnaître la souveraineté du Maroc sur le Sahara occidental, en parallèle d'un accord de normalisation entre le Maroc et Israël. L'ONU indique, selon l'Université Laval, que cette décision ne change pas sa position ; plusieurs États, dont la France, ont depuis soutenu le plan d'autonomie marocain.",
+      "sources": [
+        "S4",
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "États-Unis",
+        "Maroc"
+      ],
+      "regions": [
+        "Sahara occidental"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement lié à un conflit non réglé : les positions des parties sont rapportées sans prendre parti."
+    },
+    {
+      "id": "EH-evenement-resolution-2797",
+      "titre": "Résolution 2797 du Conseil de sécurité",
+      "date": "2025-10-31",
+      "date_affichee": "31 octobre 2025",
+      "precision": "jour",
+      "description": "Adoptée par 11 voix pour et 3 abstentions (Chine, Pakistan, Russie), la résolution proroge le mandat de la MINURSO jusqu'au 31 octobre 2026 et appelle à des négociations sur la base du plan d'autonomie proposé par le Maroc, tout en visant l'autodétermination du peuple du Sahara occidental. L'Algérie n'a pas pris part au vote, estimant que le texte s'écarte de la doctrine de décolonisation, et les opposants jugent que la résolution écarte l'option d'un référendum d'indépendance.",
+      "sources": [
+        "S5",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Conseil de sécurité",
+        "États-Unis",
+        "Maroc",
+        "Front Polisario",
+        "Algérie"
+      ],
+      "regions": [
+        "Sahara occidental"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement lié à un conflit non réglé : les positions des parties sont rapportées sans prendre parti."
+    },
+    {
+      "id": "EH-evenement-fin-minurso",
+      "titre": "Fin des opérations de la MINURSO",
+      "date": "2026-11-01",
+      "date_affichee": "1er novembre 2026",
+      "precision": "jour",
+      "description": "Après la non-reconduction de son mandat par le Conseil de sécurité, la MINURSO cesse ses opérations. Elle fut pendant plus de trente ans le seul observateur impartial déployé de part et d'autre du mur de sable.",
+      "sources": [
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Information la plus récente du dossier : à rafraîchir avant publication."
+      },
+      "acteurs": [
+        "ONU",
+        "MINURSO"
+      ],
+      "regions": [
+        "Laâyoune",
+        "Sahara occidental"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement lié à un conflit non réglé : les positions des parties sont rapportées sans prendre parti."
+    }
+  ],
+  "oeuvres": [
+    {
+      "id": "EH-oeuvre-el-aaiun-egdat",
+      "titre": "El Aaiun Egdat (« El Aaiun en feu »)",
+      "type": "musique",
+      "description": "Quatrième album de Mariem Hassan, sorti au printemps 2012, inspiré par les images du camp de Gdeim Izik en flammes. Il comprend des chansons comme « Rahy el aaiun egdat », « Arrabi al arabe » et « Gdeim Izik ». Il a été bien reçu des deux côtés du mur, dans les camps et dans les territoires administrés par le Maroc.",
+      "institution": "Label Nubenegra (Espagne)",
+      "url_notice": "https://books.openedition.org/pufr/21415?lang=fr",
+      "sources": [
+        "S7",
+        "S40"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "createur": "Mariem Hassan",
+      "droits": "Œuvre protégée ; notice : lecture de l'article de Ruano Posada (S7)",
+      "periode": "2012",
+      "sensible": true,
+      "note_sensibilite": "Œuvre politique liée à un événement contesté (Gdeim Izik)."
+    },
+    {
+      "id": "EH-oeuvre-sahrauis-music-western-sahara",
+      "titre": "Sahrauis : The Music of the Western Sahara",
+      "type": "musique",
+      "description": "Compilation publiée en 1998 par le label espagnol Nubenegra, qui a fait connaître à l'étranger des musiciens des camps. Elle a révélé notamment la première version professionnelle de la chanson « La intifada » par Mariem Hassan, et « Mère ne pleure pas pour moi » de Hafed Mahayub.",
+      "institution": "Label Nubenegra (Espagne)",
+      "url_notice": "https://books.openedition.org/pufr/21415?lang=fr",
+      "sources": [
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "createur": "Artistes sahraouis (Mariem Hassan, Hafed Mahayub, etc.)",
+      "droits": "Œuvre protégée ; notice : lecture de l'article de Ruano Posada (S7)",
+      "periode": "1998"
+    },
+    {
+      "id": "EH-oeuvre-soutak",
+      "titre": "Soutak (« Ta voix »)",
+      "type": "musique",
+      "description": "Album d'Aziza Brahim sorti en 2014, acoustique et épuré, qui mêle son sahraoui, influences maliennes, espagnoles et cubaines. Il comprend le morceau « Gdeim Izik », chanté en hassanya, qui accuse le Maroc de répression. Il a figuré en tête du classement World Music Charts Europe au printemps 2014.",
+      "institution": "Éditeur discographique non précisé dans les sources lues",
+      "url_notice": "https://fr.wikipedia.org/wiki/Aziza_Brahim",
+      "sources": [
+        "S7",
+        "S41"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "createur": "Aziza Brahim",
+      "droits": "Œuvre protégée ; notice Wikipédia CC BY-SA",
+      "periode": "2014",
+      "sensible": true,
+      "note_sensibilite": "Œuvre politique liée à un événement contesté (Gdeim Izik)."
+    },
+    {
+      "id": "EH-oeuvre-mabruk",
+      "titre": "Mabruk",
+      "type": "musique",
+      "description": "Album d'Aziza Brahim paru en février 2012, nommé en l'honneur de sa grand-mère El-Jadra Menthe Mabruk, dont certains poèmes inspirent les paroles. Sa participation à l'édition 2012 du festival WOMAD de Cáceres a été annoncée.",
+      "institution": "Éditeur discographique non précisé dans les sources lues",
+      "url_notice": "https://fr.wikipedia.org/wiki/Aziza_Brahim",
+      "sources": [
+        "S41"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia)."
+      },
+      "createur": "Aziza Brahim",
+      "droits": "Œuvre protégée ; notice Wikipédia CC BY-SA",
+      "periode": "2012"
+    },
+    {
+      "id": "EH-oeuvre-sahra-ma-tamba",
+      "titre": "« Le Sahara n'est pas à vendre » (Sahra Ma Tamba)",
+      "type": "musique",
+      "description": "Chanson née pendant l'exode de 1975-1976 qui met en musique un poème de la mère d'Um Murghiya, à la gloire de la terre sahraouie, de ses pâturages et du refus de vendre le territoire pour ses phosphates. Elle est devenue l'un des chants les plus représentatifs de la lutte sahraouie.",
+      "institution": "Tradition orale ; texte rapporté dans l'article de Violeta Ruano Posada (Presses universitaires François-Rabelais)",
+      "url_notice": "https://books.openedition.org/pufr/21415?lang=fr",
+      "sources": [
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Auteur du poème non nommé dans la source."
+      },
+      "createur": "Poème de la mère d'Um Murghiya Abdullah ; mise en chanson par Um Murghiya",
+      "droits": "Extrait cité dans un ouvrage en accès libre OpenEdition",
+      "periode": "1975-1976",
+      "sensible": true,
+      "note_sensibilite": "Chant politique."
+    },
+    {
+      "id": "EH-oeuvre-saadna-ljibala",
+      "titre": "« Saadna ljibala » (Escaladant la montagne)",
+      "type": "musique",
+      "description": "Chant révolutionnaire présenté au congrès constitutif du Front Polisario le 10 mai 1973, inspiré d'un poème algérien contre la domination coloniale française. Interprété à l'origine par Mariem Mohamed Lamin (Habuza), il affirme que les Sahraouis ne sont pas seulement des bergers nomades.",
+      "institution": "Tradition orale ; texte rapporté dans l'article de Violeta Ruano Posada (Presses universitaires François-Rabelais)",
+      "url_notice": "https://books.openedition.org/pufr/21415?lang=fr",
+      "sources": [
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "createur": "Interprète originale : Mariem Mohamed Lamin (Habuza)",
+      "droits": "Extrait cité dans un ouvrage en accès libre OpenEdition",
+      "periode": "1973",
+      "sensible": true,
+      "note_sensibilite": "Chant politique."
+    },
+    {
+      "id": "EH-oeuvre-ya-ahel-el-aaiun",
+      "titre": "« Ya ahel el aaiun » (Ô gens d'El Aaiun)",
+      "type": "musique",
+      "description": "Chanson des années 1990 devenue symbole de la fin de la guerre, avec son refrain « Ô gens d'El Aaiun, nos familles, nous rentrons à la maison ». Elle est accompagnée au clavier, instrument entré dans la musique sahraouie à cette époque.",
+      "institution": "Tradition orale ; texte rapporté dans l'article de Violeta Ruano Posada (Presses universitaires François-Rabelais)",
+      "url_notice": "https://books.openedition.org/pufr/21415?lang=fr",
+      "sources": [
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "createur": "Musiciens des camps (auteur non nommé)",
+      "droits": "Extrait cité dans un ouvrage en accès libre OpenEdition",
+      "periode": "années 1990",
+      "sensible": true,
+      "note_sensibilite": "Chant politique."
+    },
+    {
+      "id": "EH-oeuvre-versos-refugiados",
+      "titre": "Versos refugiados",
+      "type": "livre",
+      "description": "Premier recueil individuel de poèmes de Bahia Mahmud Awah, publié en 2007 par l'Université d'Alcalá. L'auteur y écrit en espagnol, langue partagée par une génération d'auteurs sahraouis.",
+      "institution": "Université d'Alcalá (éditeur)",
+      "url_notice": "https://en.wikipedia.org/wiki/Bahia_Mahmud_Awah",
+      "sources": [
+        "S45"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia en anglais)."
+      },
+      "createur": "Bahia Mahmud Awah",
+      "droits": "Œuvre protégée ; notice Wikipédia CC BY-SA",
+      "periode": "2007"
+    },
+    {
+      "id": "EH-oeuvre-smara-vieuchange",
+      "titre": "Smara, chez les dissidents du Sud marocain et du Rio de Oro",
+      "type": "livre",
+      "description": "Carnets de route de Michel Vieuchange, premier Européen à atteindre la ville de Smara en 1930, publiés après sa mort par son frère Jean avec une préface de Paul Claudel. Le texte est un témoignage européen de l'époque coloniale, marqué par son regard extérieur.",
+      "institution": "Plon (éditeur, 1932)",
+      "url_notice": "https://fr.wikipedia.org/wiki/Michel_Vieuchange",
+      "sources": [
+        "S49"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia) ; regard colonial à contextualiser."
+      },
+      "createur": "Michel Vieuchange",
+      "droits": "Œuvre protégée ; notice Wikipédia CC BY-SA",
+      "periode": "1932"
+    },
+    {
+      "id": "EH-oeuvre-tebraa-anthologie",
+      "titre": "Tebraâ : la poésie féminine hassanie (anthologie de 2020)",
+      "type": "livre",
+      "description": "Anthologie de 101 poèmes tebra' soutenue par l'État marocain, publiée en 2020, introduite par Catherine Taine-Cheikh. Elle est contestée dans un article académique : environ 95 % des poèmes viendraient de Mauritanie et l'ouvrage présenterait comme patrimoine anonyme une pratique spécifiquement féminine et régionale.",
+      "institution": "Anthologie soutenue par l'État marocain (éditeur non précisé dans la source lue)",
+      "url_notice": "https://journals.openedition.org/anneemaghreb/16214",
+      "sources": [
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Les caractéristiques de l'anthologie sont rapportées par un seul article ; l'ouvrage n'a pas été consulté."
+      },
+      "createur": "Collecte attribuée à un professeur sahraoui ; introduction de Catherine Taine-Cheikh",
+      "droits": "Œuvre protégée ; notice : article de L'Année du Maghreb (CC BY-NC-SA)",
+      "periode": "2020",
+      "sensible": true,
+      "note_sensibilite": "Débat sur l'appropriation culturelle d'une poésie de femmes bidan ; l'article cité a une position critique."
+    },
+    {
+      "id": "EH-oeuvre-wilaya-film",
+      "titre": "Wilaya (film)",
+      "type": "film",
+      "description": "Film espagnol dont Aziza Brahim a composé, produit et interprété la bande originale et dans lequel elle joue pour la première fois comme actrice. Il a été distribué en Espagne.",
+      "institution": "Notice cinématographique non consultée",
+      "url_notice": "https://fr.wikipedia.org/wiki/Aziza_Brahim",
+      "sources": [
+        "S41"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de sortie et réalisateur non vérifiés ; sujet du film d'après le titre (wilaya = camp), à vérifier."
+      },
+      "createur": "Réalisation non précisée dans les sources lues ; musique d'Aziza Brahim",
+      "droits": "Œuvre protégée",
+      "periode": "vers 2011-2012",
+      "wikidata": "Q8000066"
+    },
+    {
+      "id": "EH-oeuvre-autre-cote-du-mur",
+      "titre": "L'autre côté du mur (documentaire)",
+      "type": "film",
+      "description": "Documentaire de Denis Véricel de 2011 consacré au conflit du Sahara occidental.",
+      "institution": "Notice cinématographique non consultée",
+      "url_notice": "https://fr.wikipedia.org/wiki/Sahara_occidental",
+      "sources": [
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Seule mention : liste filmographique de Wikipédia ; contenu non vérifié."
+      },
+      "createur": "Denis Véricel",
+      "droits": "Œuvre protégée",
+      "periode": "2011"
+    }
+  ],
+  "proverbes": [],
+  "sources": [
+    {
+      "id": "S1",
+      "titre": "Wikidata — Sahara occidental (Q6250)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q6250",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S2",
+      "titre": "MINURSO — Background",
+      "institution": "Organisation des Nations unies (MINURSO)",
+      "url": "https://minurso.unmissions.org/en/background",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S3",
+      "titre": "Cour internationale de Justice — Sahara occidental (affaire n° 61)",
+      "institution": "Cour internationale de Justice",
+      "url": "https://www.icj-cij.org/case/61",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S4",
+      "titre": "Aménagement linguistique dans le monde — Sahara occidental (sous annexion marocaine)",
+      "institution": "Université Laval (CEFAN)",
+      "url": "https://axl.cefan.ulaval.ca/afrique/Sahara-occidental.htm",
+      "type": "universite",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "auteur": "Jacques Leclerc"
+    },
+    {
+      "id": "S5",
+      "titre": "Résolution 2797 (2025) adoptée par le Conseil de sécurité le 31 octobre 2025 (texte)",
+      "institution": "Université Laval (CEFAN), texte de l'ONU",
+      "url": "https://axl.cefan.ulaval.ca/afrique/maroc-ONU-2025.htm",
+      "type": "universite",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2025
+    },
+    {
+      "id": "S6",
+      "titre": "Security Council Renews MINURSO Mandate",
+      "institution": "American Society of International Law (ASIL)",
+      "url": "https://asil.org/ilib/security-council-renews-minurso-mandate/",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "auteur": "Ylian Gassmi",
+      "annee": 2025
+    },
+    {
+      "id": "S7",
+      "titre": "La musique nidal sahraouie et la lutte en partage",
+      "institution": "Presses universitaires François-Rabelais (OpenEdition Books)",
+      "url": "https://books.openedition.org/pufr/21415?lang=fr",
+      "type": "livre",
+      "licence": "accès libre OpenEdition Books ; tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "auteur": "Violeta Ruano Posada",
+      "annee": 2016
+    },
+    {
+      "id": "S8",
+      "titre": "The politics of authorlessness and appropriation in Bidan women's tebra', from 1953 archive to contemporary anthologies 2020–2024",
+      "institution": "L'Année du Maghreb n° 34 (OpenEdition Journals)",
+      "url": "https://journals.openedition.org/anneemaghreb/16214",
+      "type": "article_scientifique",
+      "licence": "CC BY-NC-SA",
+      "consulte_le": "2026-11-21",
+      "auteur": "Elhadj Ould Brahim",
+      "annee": 2025
+    },
+    {
+      "id": "S9",
+      "titre": "Glottolog — Hassaniyya (hass1238)",
+      "institution": "Max Planck Institute for Evolutionary Anthropology",
+      "url": "https://glottolog.org/resource/languoid/id/hass1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S10",
+      "titre": "Glottolog — Moroccan Arabic (moro1292)",
+      "institution": "Max Planck Institute for Evolutionary Anthropology",
+      "url": "https://glottolog.org/resource/languoid/id/moro1292",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S11",
+      "titre": "Glottolog — Arabic (arab1395)",
+      "institution": "Max Planck Institute for Evolutionary Anthropology",
+      "url": "https://glottolog.org/resource/languoid/id/arab1395",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S12",
+      "titre": "Glottolog — Spanish (stan1288)",
+      "institution": "Max Planck Institute for Evolutionary Anthropology",
+      "url": "https://glottolog.org/resource/languoid/id/stan1288",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S13",
+      "titre": "Glottolog — French (stan1290)",
+      "institution": "Max Planck Institute for Evolutionary Anthropology",
+      "url": "https://glottolog.org/resource/languoid/id/stan1290",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S14",
+      "titre": "Glottolog — Tachelhit (tach1250)",
+      "institution": "Max Planck Institute for Evolutionary Anthropology",
+      "url": "https://glottolog.org/resource/languoid/id/tach1250",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S15",
+      "titre": "Glottolog — Standard Moroccan Tamazight (stan1324)",
+      "institution": "Max Planck Institute for Evolutionary Anthropology",
+      "url": "https://glottolog.org/resource/languoid/id/stan1324",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S16",
+      "titre": "Moroccan Sahara : A panorama of the tribes shaping the region",
+      "institution": "Yabiladi (presse marocaine)",
+      "url": "https://en.yabiladi.com/articles/details/180587/moroccan-sahara-panorama-tribes-shaping.html",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "auteur": "Omar Soussi",
+      "annee": 2025
+    },
+    {
+      "id": "S17",
+      "titre": "Aminatou Haidar, la « pasionaria » inflexible du Sahara occidental",
+      "institution": "Jeune Afrique (dépêche AFP)",
+      "url": "https://www.jeuneafrique.com/depeches/98352/politique/aminatou-haidar-la-pasionaria-inflexible-du-sahara-occidental/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2009
+    },
+    {
+      "id": "S18",
+      "titre": "Sahara occidental : Brahim Ghali seul candidat pour succéder à Mohamed Abdelaziz à la tête du Polisario",
+      "institution": "Jeune Afrique",
+      "url": "https://www.jeuneafrique.com/339337/politique/sahara-occidental-brahim-ghali-seul-candidat-succeder-a-mohamed-abdelaziz-a-tete-polisario/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2016
+    },
+    {
+      "id": "S19",
+      "titre": "Sultana Khaya — profil",
+      "institution": "Front Line Defenders",
+      "url": "https://www.frontlinedefenders.org/en/profile/sultana-khaya",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S20",
+      "titre": "BBC 100 Women 2023 : who is on the list this year?",
+      "institution": "BBC News",
+      "url": "https://www.bbc.co.uk/news/resources/idt-02d9060e-15dc-426c-bfe0-86a6437e5234",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2023
+    },
+    {
+      "id": "S21",
+      "titre": "Mariem Hassan",
+      "institution": "Afrisson",
+      "url": "https://www.afrisson.com/mariem-hassan-8934/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "auteur": "Nago Seck"
+    },
+    {
+      "id": "S22",
+      "titre": "USD's 'Women PeaceMakers' offer messages that hit home",
+      "institution": "San Diego Union-Tribune",
+      "url": "https://www.sandiegouniontribune.com/lifestyle/people/sd-me-peacemakers-20160926-story.html",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "auteur": "Peter Rowe",
+      "annee": 2016
+    },
+    {
+      "id": "S23",
+      "titre": "Peur et silence à El-Ayoun",
+      "institution": "Le Monde diplomatique",
+      "url": "https://www.monde-diplomatique.fr/2006/01/LOMBART/13130",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "auteur": "Gaël Lombart, Julie Pichot",
+      "annee": 2006
+    },
+    {
+      "id": "S24",
+      "titre": "Inextricable, le conflit du Sahara occidental rebondit",
+      "institution": "Le Monde diplomatique",
+      "url": "https://www.monde-diplomatique.fr/2006/01/FINAN/13129",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "auteur": "Khadija Finan",
+      "annee": 2006
+    },
+    {
+      "id": "S25",
+      "titre": "Fighting For Women's Rights in the Western Sahara",
+      "institution": "WNYC (The Takeaway)",
+      "url": "https://www.wnyc.org/story/191053-fighting-womens-rights-western-sahara/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2012
+    },
+    {
+      "id": "S26",
+      "titre": "MINURSO — fiche de la mission",
+      "institution": "Opérations de maintien de la paix de l'ONU",
+      "url": "https://peacekeeping.un.org/en/factsheet/minurso",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S27",
+      "titre": "Wikidata — Brahim Dahane (Q4955457)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q4955457",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S28",
+      "titre": "Sahara occidental",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Sahara_occidental",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S29",
+      "titre": "Langues au Sahara occidental",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Langues_au_Sahara_occidental",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S30",
+      "titre": "Sahraoui (peuple)",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Sahraoui_(peuple)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S31",
+      "titre": "Laâyoune",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/La%C3%A2youne",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S32",
+      "titre": "Dakhla",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Dakhla_(Maroc)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S33",
+      "titre": "Es-Semara",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Es-Semara",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S34",
+      "titre": "Tifariti",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Tifariti",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S35",
+      "titre": "Bir Lahlou",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Bir_Lehlou",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S36",
+      "titre": "Mur des sables",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Mur_des_sables",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S37",
+      "titre": "Ma El Aïnin",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Ma_El_A%C3%AFnin",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S38",
+      "titre": "El-Ouali Moustapha Sayed",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/El-Ouali_Moustapha_Sayed",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S39",
+      "titre": "Mohamed Abdelaziz",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Mohamed_Abdelaziz",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S40",
+      "titre": "Mariem Hassan",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Mariem_Hassan",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S41",
+      "titre": "Aziza Brahim",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Aziza_Brahim",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S42",
+      "titre": "Aminatou Haidar",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Aminatou_Haidar",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S43",
+      "titre": "Fatma El Mehdi",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Fatma_El_Mehdi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S44",
+      "titre": "Najla Mohamed-Lamin",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Najla_Mohamed-Lamin",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S45",
+      "titre": "Bahia Mahmud Awah",
+      "institution": "Wikipédia (en)",
+      "url": "https://en.wikipedia.org/wiki/Bahia_Mahmud_Awah",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S46",
+      "titre": "Mohammed Bassiri",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Mohammed_Bassiri",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S47",
+      "titre": "Khaïma",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Kha%C3%AFma",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S48",
+      "titre": "Melhfa",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Melhfa",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S49",
+      "titre": "Michel Vieuchange",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Michel_Vieuchange",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S50",
+      "titre": "Sultana Khaya",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Sultana_Khaya",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S51",
+      "titre": "Brahim Ghali",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Brahim_Ghali",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S52",
+      "titre": "Marche verte",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Marche_verte",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    }
+  ]
+}

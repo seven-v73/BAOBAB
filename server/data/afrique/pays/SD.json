@@ -1,0 +1,3933 @@
+{
+  "code": "SD",
+  "nom": "Soudan",
+  "region": "nord",
+  "wikidata": "Q1049",
+  "maj": "2026-11-21",
+  "pays": {
+    "nom_officiel": "République du Soudan",
+    "capitale": "Khartoum",
+    "langues_officielles": [
+      "arabe",
+      "anglais"
+    ],
+    "langues_nationales": [
+      "arabe (langue nationale largement parlée)",
+      "toutes les langues autochtones du Soudan (article 8 de la Constitution de 2005)"
+    ],
+    "population": {
+      "valeur": 51662147,
+      "annee": 2025,
+      "source": "S1"
+    },
+    "superficie_km2": 1878000,
+    "monnaie": "Livre soudanaise (SDG)",
+    "resume": "Le Soudan s'étend de la mer Rouge aux confins du Tchad et est traversé par le Nil. Son territoire a abrité Kerma, le plus ancien royaume attesté d'Afrique subsaharienne, puis les royaumes de Napata et de Méroé, dont les souverains ont régné sur l'Égypte au VIIIe siècle av. J.-C. Les royaumes chrétiens de Nubie, le sultanat de Sennar et celui du Darfour ont ensuite façonné la vallée du Nil et l'ouest du pays, avant la conquête turco-égyptienne de 1820, la Mahdiyya et le condominium anglo-égyptien. Indépendant depuis le 1er janvier 1956, le pays a vu le Soudan du Sud devenir un État distinct en 2011, et traverse depuis avril 2023 une guerre qui a déplacé des millions de personnes et menace musées et sites. Un ouvrage de référence recense environ 125 langues et des dizaines de groupes ethniques, et le pays compte trois biens du patrimoine mondial et six éléments du patrimoine culturel immatériel inscrits par l'UNESCO.",
+    "sources": [
+      "S3",
+      "S5",
+      "S1",
+      "S2",
+      "S4",
+      "S47",
+      "S34",
+      "S45",
+      "S69",
+      "S7",
+      "S10"
+    ],
+    "note": "Khartoum est la capitale de droit ; selon Wikipédia, les institutions ont été relocalisées à Port-Soudan depuis le début de la guerre de 2023. La Constitution citée est la constitution transitoire de 2005 ; son statut actuel n'a pas été vérifié."
+  },
+  "langues": [
+    {
+      "id": "SD-langue-arabe",
+      "nom": "Arabe",
+      "nom_local": "العربية (al-ʿarabiyya)",
+      "description": "L'arabe est, avec l'anglais, langue officielle de travail de l'État selon la Constitution de 2005, qui le décrit comme langue nationale largement parlée. L'arabe standard moderne est la forme écrite et officielle, tandis que la vie quotidienne passe surtout par l'arabe soudanais. Glottolog classe l'arabe dans le groupe sémitique de la famille afro-asiatique.",
+      "famille": "Afro-asiatique, Sémitique, Sémitique occidental, Sémitique central, Arabian",
+      "glottocode": "arab1395",
+      "statut_linguistique": [
+        "officielle",
+        "nationale"
+      ],
+      "wikidata": "Q13955",
+      "sources": [
+        "S4",
+        "S6",
+        "S16"
+      ],
+      "ecritures": [
+        "arabe"
+      ],
+      "regions": [
+        "Tout le Soudan"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode arab1395 (Arabic) confirmé sur Glottolog."
+      }
+    },
+    {
+      "id": "SD-langue-arabe-soudanais",
+      "nom": "Arabe soudanais",
+      "nom_local": "Arabe soudanais (dialecte)",
+      "description": "L'arabe soudanais est la variété d'arabe parlée au quotidien dans le pays et la principale langue de communication entre communautés, y compris dans les monts Nouba où elle sert de langue véhiculaire. Selon Wikipédia, il est devenu la langue dominante du Soudan fluvial central et d'une grande partie du Kordofan dès avant le XIXe siècle. Glottolog le rattache à l'arabe égypto-soudanais et ne le juge pas menacé.",
+      "famille": "Afro-asiatique, Sémitique, Sémitique occidental, Sémitique central, Arabian, Arabic, Egyptic Arabic, Egypto-Sudanic Arabic, Sudanese-Chadian Arabic, East Sudanic Arabic",
+      "glottocode": "suda1236",
+      "statut_linguistique": [
+        "véhiculaire"
+      ],
+      "wikidata": "Q56573",
+      "sources": [
+        "S18",
+        "S58",
+        "S5"
+      ],
+      "regions": [
+        "Soudan fluvial central",
+        "Kordofan"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode suda1236 confirmé sur Glottolog ; Soudan listé parmi les pays."
+      }
+    },
+    {
+      "id": "SD-langue-anglais",
+      "nom": "Anglais",
+      "nom_local": "English",
+      "description": "L'anglais est langue officielle de travail du gouvernement national et langue d'enseignement supérieur selon la Constitution de 2005. Il est entré dans le pays avec l'administration anglo-égyptienne, qui en a fait la langue officielle du sud du territoire dans le cadre de la politique menée à partir de 1924. Il reste utilisé dans l'enseignement, l'administration et par une partie de la littérature soudanaise, comme chez Leila Aboulela.",
+      "famille": "Indo-européen, Germanique, Germanique occidental, Anglic",
+      "glottocode": "stan1293",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "wikidata": "Q1860",
+      "sources": [
+        "S4",
+        "S5",
+        "S51",
+        "S17"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode stan1293 (English) confirmé sur Glottolog (entrée générale de la langue, non spécifique au Soudan)."
+      }
+    },
+    {
+      "id": "SD-langue-bedja",
+      "nom": "Bedja (bedawiye)",
+      "nom_local": "To Bedawie",
+      "description": "Le bedja est la langue des Bedjas de l'est du Soudan, entre le Nil, l'Atbara et la mer Rouge ; c'est une langue couchitique, branche rare de la famille afro-asiatique dans le pays. Les chercheurs notent un bilinguisme avec l'arabe, qui domine les situations officielles, tandis que le bedja reste la langue du groupe et du territoire. Chez les Beni-Amer, il recule devant le tigré et l'arabe.",
+      "famille": "Afro-asiatique, Couchitique",
+      "glottocode": "beja1238",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q33025",
+      "sources": [
+        "S19",
+        "S54",
+        "S52",
+        "S53"
+      ],
+      "regions": [
+        "Mer Rouge",
+        "Est du Soudan"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode beja1238 confirmé sur Glottolog (Soudan, Égypte, Érythrée)."
+      }
+    },
+    {
+      "id": "SD-langue-nobiin",
+      "nom": "Nobiin",
+      "nom_local": "Nobiin",
+      "description": "Le nobiin est une langue nubienne du Nil, parlée au Soudan et en Égypte ; ses dialectes comprennent le mahas, langue des Nubiens du nord du Soudan. Glottolog la classe parmi les langues menacées. Elle appartient à la famille nubienne, ancienne dans la vallée du Nil.",
+      "famille": "Nubien, Nubien du Nil, Nobiin Nubian",
+      "glottocode": "nobi1240",
+      "statut_linguistique": [
+        "nationale",
+        "menacée"
+      ],
+      "wikidata": "Q36503",
+      "sources": [
+        "S20",
+        "S55"
+      ],
+      "regions": [
+        "Nord du Soudan"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode nobi1240 confirmé ; statut « threatened » (AES) lu sur Glottolog."
+      }
+    },
+    {
+      "id": "SD-langue-dongolawi",
+      "nom": "Dongolawi",
+      "nom_local": "Dongolawi (Dongola)",
+      "description": "Le dongolawi est la langue nubienne des Danagla, qui vivent autour de Dongola, dans le nord du Soudan. Il est proche de la langue appelée mattoki en Égypte. Glottolog en fait une langue menacée, parlée seulement au Soudan.",
+      "famille": "Nubien, Nubien du Nil, Kenuzi-Dongola",
+      "glottocode": "dong1288",
+      "statut_linguistique": [
+        "nationale",
+        "menacée"
+      ],
+      "wikidata": "Q55218915",
+      "sources": [
+        "S21",
+        "S55"
+      ],
+      "regions": [
+        "Dongola",
+        "Nord"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode dong1288 confirmé ; Soudan seul pays listé ; statut « threatened »."
+      }
+    },
+    {
+      "id": "SD-langue-four",
+      "nom": "Four (fur)",
+      "nom_local": "Fur",
+      "description": "Le four est la langue des Four, population sédentaire majeure du Darfour dont le nom a donné « Dar Four », le pays des Four. Elle forme à elle seule la famille furane selon Glottolog et se parle aussi au Tchad et en Centrafrique. Elle n'est pas considérée comme menacée.",
+      "famille": "Furan",
+      "glottocode": "furr1244",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q33364",
+      "sources": [
+        "S22",
+        "S40",
+        "S47"
+      ],
+      "regions": [
+        "Darfour"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode furr1244 confirmé sur Glottolog."
+      }
+    },
+    {
+      "id": "SD-langue-masalit",
+      "nom": "Masalit",
+      "nom_local": "Masalit",
+      "description": "Le masalit est une langue du groupe maban, parlée au Soudan et au Tchad ; son aire historique est le Dar Masalit, à l'ouest du Darfour. Glottolog la compte parmi les langues non menacées.",
+      "famille": "Maban, Mabang, Maba-Masalit, Macro-Masalit",
+      "glottocode": "nucl1440",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q56557",
+      "sources": [
+        "S23",
+        "S43"
+      ],
+      "regions": [
+        "Darfour occidental"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode nucl1440 confirmé (Masalit) sur Glottolog."
+      }
+    },
+    {
+      "id": "SD-langue-zaghawa",
+      "nom": "Zaghawa (béria)",
+      "nom_local": "Beria / Bèri",
+      "description": "Le zaghawa, ou béria, est une langue saharienne parlée par les Zaghawa dans le nord du Darfour et au Tchad voisin ; Glottolog la place aussi en Libye. Les études ethnologiques désignent l'ensemble Zaghawa-Bideyat par un même nom, bèri. La langue n'est pas jugée menacée.",
+      "famille": "Saharien, Saharien oriental",
+      "glottocode": "zagh1240",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q37007",
+      "sources": [
+        "S24",
+        "S59"
+      ],
+      "regions": [
+        "Nord du Darfour"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode zagh1240 confirmé (Beria)."
+      }
+    },
+    {
+      "id": "SD-langue-tama",
+      "nom": "Tama",
+      "nom_local": "Tama",
+      "description": "Le tama est une langue de la famille tamaïque, parlée au Soudan et au Tchad. Le sultanat historique du Dar Tama, partagé après la Première Guerre mondiale, a été rattaché au Tchad en 1924, ce qui explique la présence de la langue des deux côtés de la frontière.",
+      "famille": "Tamaïque, Tama-Sungor-Miisiirii, Tama-Sungor",
+      "glottocode": "tama1331",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q57001",
+      "sources": [
+        "S25",
+        "S43"
+      ],
+      "regions": [
+        "Darfour"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode tama1331 confirmé sur Glottolog."
+      }
+    },
+    {
+      "id": "SD-langue-berta",
+      "nom": "Berta",
+      "nom_local": "Berta",
+      "description": "Le berta est parlé dans la zone frontalière entre le Soudan et l'Éthiopie. Glottolog ne le rattache à aucune famille plus large et le décrit comme en voie de déplacement (shifting) au profit d'autres langues.",
+      "famille": "Berta (famille propre dans Glottolog)",
+      "glottocode": "bert1248",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q33178",
+      "sources": [
+        "S26"
+      ],
+      "regions": [
+        "Frontière soudano-éthiopienne"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode bert1248 confirmé ; statut AES « shifting »."
+      }
+    },
+    {
+      "id": "SD-langue-midob",
+      "nom": "Midob",
+      "nom_local": "Midob",
+      "description": "Le midob est une langue nubienne, parlée uniquement au Soudan selon Glottolog. Glottolog la rattache directement à la famille nubienne, sans la placer dans le sous-groupe des langues nubiennes du Nil.",
+      "famille": "Nubien",
+      "glottocode": "mido1240",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q36007",
+      "sources": [
+        "S27"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode mido1240 confirmé ; Soudan seul pays listé."
+      }
+    },
+    {
+      "id": "SD-langue-koalib",
+      "nom": "Koalib",
+      "nom_local": "Koalib",
+      "description": "Le koalib est une langue kordofanienne de la famille heibanienne, parlée dans les monts Nouba du Sud-Kordofan, où l'on compte au moins 50 langues locales. D'après Nicolas Quint, environ 100 000 personnes le parlent ; son aire d'origine se situe au nord-est des monts Nouba. Il possède une riche littérature orale, notamment des contes.",
+      "famille": "Heibanique, Heibanique centre-ouest, Heibanique central",
+      "glottocode": "koal1240",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q35859",
+      "sources": [
+        "S28",
+        "S58"
+      ],
+      "regions": [
+        "Sud-Kordofan (monts Nouba)"
+      ],
+      "locuteurs": {
+        "valeur": 100000,
+        "annee": 2010,
+        "source": "S58"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode koal1240 (Koalib-Rere) confirmé ; effectif estimé par Quint (2010)."
+      }
+    },
+    {
+      "id": "SD-langue-tigre",
+      "nom": "Tigré",
+      "nom_local": "Tigré",
+      "description": "Le tigré est une langue sémitique éthiopienne parlée au Soudan et en Érythrée. Dans l'est du Soudan, il influence et absorbe en partie des locuteurs du bedja, notamment parmi les Beni-Amer.",
+      "famille": "Afro-asiatique, Sémitique, Sémitique occidental, Éthio-sémitique, Tigre-Dahalik",
+      "glottocode": "tigr1270",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q34129",
+      "sources": [
+        "S29",
+        "S54"
+      ],
+      "regions": [
+        "Est du Soudan (Kassala, Tokar)"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode tigr1270 confirmé ; Soudan et Érythrée listés."
+      }
+    },
+    {
+      "id": "SD-langue-uduk",
+      "nom": "Uduk",
+      "nom_local": "Uduk",
+      "description": "L'uduk est une langue komane parlée dans la région frontalière du Soudan, de l'Éthiopie et du Soudan du Sud. Glottolog la classe dans la famille koman et la juge non menacée.",
+      "famille": "Koman, Koman central, Komo-Uduk",
+      "glottocode": "uduk1239",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q3182573",
+      "sources": [
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode uduk1239 confirmé ; Soudan, Éthiopie, Soudan du Sud listés."
+      }
+    },
+    {
+      "id": "SD-langue-otoro",
+      "nom": "Otoro",
+      "nom_local": "Otoro",
+      "description": "L'otoro est une langue kordofanienne de la famille heibanienne, parlée au Soudan. Glottolog signale qu'elle est en cours de déplacement vers d'autres langues, ce qui en fait un exemple de la pression qui s'exerce sur de petites langues des monts Nouba.",
+      "famille": "Heibanique, Heibanique centre-ouest, Heibanique central, Ebang-Logol",
+      "glottocode": "otor1240",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q36328",
+      "sources": [
+        "S31",
+        "S58"
+      ],
+      "regions": [
+        "Sud-Kordofan"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode otor1240 confirmé ; statut AES « shifting »."
+      }
+    },
+    {
+      "id": "SD-langue-gumuz",
+      "nom": "Gumuz (gumuz du nord)",
+      "nom_local": "Gumuz",
+      "description": "Le gumuz du nord est une langue de la famille gumuz, parlée à la frontière du Soudan et de l'Éthiopie. Glottolog la classe parmi les langues non menacées.",
+      "famille": "Gumuz, Nuclear Gumuz",
+      "glottocode": "gumu1244",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q2396970",
+      "sources": [
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode gumu1244 confirmé ; Soudan et Éthiopie listés."
+      }
+    }
+  ],
+  "peuples": [
+    {
+      "id": "SD-peuple-nubiens",
+      "nom": "Nubiens (Danagla, Mahas)",
+      "description": "Les Nubiens du Soudan, dont les deux ensembles sont les Danagla (autour de Dongola) et les Mahas, vivent le long du Nil dans le nord du pays ; d'autres groupes nubiens, Fadidja et Kenuz, vivent en Égypte. Ils parlent des langues nubiennes (dongolawi pour les Danagla, mahassi pour les Mahas) et possèdent une identité culturelle forte, ancrée dans une histoire antérieure au royaume de Koush. La construction du haut barrage d'Assouan a contraint des milliers d'entre eux à quitter des villages engloutis, ce qui marque encore leur mémoire.",
+      "langues": [
+        "dongolawi",
+        "nobiin (mahas)"
+      ],
+      "regions": [
+        "Dongola",
+        "Wadi Halfa",
+        "Nord"
+      ],
+      "sources": [
+        "S55",
+        "S56",
+        "S47",
+        "S45"
+      ],
+      "wikidata": "Q15140604",
+      "pays_partages": [
+        "EG"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikidata Q15140604 = Nubian people (ethnolinguistic group) ; deux sources non-Wikipédia ouvertes (Fogel 1995, 2003 ; Africae)."
+      }
+    },
+    {
+      "id": "SD-peuple-bedjas",
+      "nom": "Bedjas",
+      "description": "Les Bedjas sont les habitants autochtones d'une vaste zone qui va du sud de l'Égypte à l'ouest de l'Érythrée ; au Soudan, elle est bordée par le Nil, l'Atbara et la mer Rouge. Ils élèvent petit et gros bétail, complètent par une agriculture de subsistance, le commerce du charbon de bois ou l'emploi en ville, et ont longtemps pratiqué le commerce caravanier. Les chercheurs distinguent dix groupes majeurs, dont les Bishârîyîn, les Hadendowa, les Bani Amer et les Habâb, définis par la filiation patrilinéaire et la résidence sur le territoire ancestral.",
+      "langues": [
+        "bedja",
+        "tigré (chez les Beni-Amer)",
+        "arabe"
+      ],
+      "regions": [
+        "Mer Rouge",
+        "Est du Soudan"
+      ],
+      "sources": [
+        "S53",
+        "S52",
+        "S54",
+        "S47"
+      ],
+      "wikidata": "Q813961",
+      "pays_partages": [
+        "ER",
+        "EG"
+      ],
+      "organisation": "Dix groupes majeurs (Bishârîyîn, Amar'ar, Arteiga, Ashrâf, Kumeilâb, Hadendowa, Malhitkinâb, Halenga, Bani Amer, Habâb), selon Hamid Ahmed (2009).",
+      "activites": [
+        "élevage de petit et gros bétail",
+        "agriculture de subsistance",
+        "commerce du charbon de bois",
+        "commerce caravanier (historique)"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dix groupes majeurs lus dans Hamid Ahmed (2009) ; zone d'implantation lue dans le même article et dans Larché (2009)."
+      }
+    },
+    {
+      "id": "SD-peuple-four",
+      "nom": "Four (Fur)",
+      "description": "Les Four forment la principale population sédentaire du Darfour, dont le nom signifie le pays des Four. Au milieu du XVIe siècle, la dynastie des Keira, issue de cette communauté, a pris le pouvoir au Darfour et fondé un sultanat qui a duré jusqu'en 1916. Le palais du sultan Ali Dinar à El Fasher est encore présenté par des organisations soudanaises de patrimoine comme un symbole de la souveraineté des Four.",
+      "langues": [
+        "four"
+      ],
+      "regions": [
+        "Darfour"
+      ],
+      "sources": [
+        "S40",
+        "S47",
+        "S43",
+        "S71"
+      ],
+      "wikidata": "Q1124032",
+      "activites": [
+        "agriculture sédentaire"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Communauté affectée par la guerre du Darfour depuis 2003 et par les violences de 2023-2025 ; la présentation reste historique et culturelle, à relire avec des institutions et organisations soudanaises.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Keira issus des Four et fin du sultanat en 1916 lus dans Rilly et François."
+      }
+    },
+    {
+      "id": "SD-peuple-zaghawa",
+      "nom": "Zaghawa",
+      "description": "Les Zaghawa vivent au nord du Darfour et au nord-est du Tchad, de part et d'autre de la frontière ; les Arabes les distinguent des Bideyat, qui partagent leur langue. Éleveurs de bovins, de moutons et de chèvres, ils cultivent aussi le mil quand le climat le permet. Les recensements cités par Marie-José Tubiana donnent environ 200 000 Zaghawa au Soudan en 1974, un chiffre que les intéressés estiment aujourd'hui à 250 000.",
+      "langues": [
+        "zaghawa (béria)"
+      ],
+      "regions": [
+        "Nord du Darfour"
+      ],
+      "sources": [
+        "S59",
+        "S24",
+        "S46"
+      ],
+      "wikidata": "Q140328",
+      "pays_partages": [
+        "TD"
+      ],
+      "activites": [
+        "élevage de bovins, moutons et chèvres",
+        "culture du mil"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Communauté touchée par la guerre du Darfour ; chiffres de population contestés (recensement de 1974 contre estimations de la communauté).",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Effectifs 1974 et estimation communautaire lus dans Tubiana (1987)."
+      }
+    },
+    {
+      "id": "SD-peuple-masalit",
+      "nom": "Masalit",
+      "description": "Les Masalit sont l'une des trois grandes communautés sédentaires non arabes du Darfour, avec les Four et les Zaghawa. Leur territoire historique, le Dar Masalit, à l'ouest du Darfour, a été en partie conquis par la France en 1911 puis restitué au Soudan après la Première Guerre mondiale. Leur langue, le masalit, est aussi parlée au Tchad.",
+      "langues": [
+        "masalit"
+      ],
+      "regions": [
+        "Darfour occidental"
+      ],
+      "sources": [
+        "S43",
+        "S46",
+        "S23",
+        "S70"
+      ],
+      "wikidata": "Q1640583",
+      "pays_partages": [
+        "TD"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Le Darfour occidental a connu des violences intercommunautaires en 2023 selon les alertes de l'ONU ; les faits récents ne sont pas détaillés ici et doivent être relus avec les sources onusiennes.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dar Masalit et appartenance aux trois tribus sédentaires du Darfour lus dans François et Nicoloso-Beaumé."
+      }
+    },
+    {
+      "id": "SD-peuple-nuba",
+      "nom": "Peuples nouba (monts Nouba)",
+      "description": "« Nouba » désigne collectivement les communautés autochtones sédentaires des monts Nouba, au Sud-Kordofan, qui parlent au moins 50 langues réparties entre deux grands phylums. Selon une étude de 2012, elles représentent environ 75 % de la population de l'État et pratiquent surtout l'agriculture, avec des croyances chrétiennes, musulmanes ou animistes. Chaque vallée y a souvent sa propre langue, ce qui fait de la région un terrain d'étude exceptionnel pour les linguistes.",
+      "langues": [
+        "koalib",
+        "otoro",
+        "arabe soudanais (véhiculaire)"
+      ],
+      "regions": [
+        "Sud-Kordofan (monts Nouba)"
+      ],
+      "sources": [
+        "S58",
+        "S57",
+        "S47"
+      ],
+      "wikidata": "Q1280105",
+      "activites": [
+        "agriculture"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Région touchée par des conflits armés (Sud-Kordofan) ; la fiche reste culturelle et linguistique.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Plus de 50 langues et 1,5 à 2 millions d'habitants lus dans Quint (2010) ; 75 % lus dans Bronkhorst (2012)."
+      }
+    },
+    {
+      "id": "SD-peuple-baggara",
+      "nom": "Baggara",
+      "description": "Les Baggara sont des Arabes éleveurs de bovins (bagar signifie vache), répartis entre le Sud-Kordofan et le Darfour, dont les Misserya et les Rizeigat ; ils se déplacent entre le Tchad et le Nil. Les éleveurs de dromadaires sont appelés Abbala. Pour les Humr du Kordofan, l'ethnologue Ian Cunnison a décrit un élevage complété par la culture du mil et du coton.",
+      "langues": [
+        "arabe soudanais"
+      ],
+      "regions": [
+        "Sud-Kordofan",
+        "Darfour"
+      ],
+      "sources": [
+        "S47",
+        "S60",
+        "S57"
+      ],
+      "wikidata": "Q799892",
+      "pays_partages": [
+        "TD"
+      ],
+      "activites": [
+        "élevage bovin nomade",
+        "culture du mil et du coton"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Définition et sous-groupes lus dans Nicoloso-Cabon ; économie des Humr lue dans le compte rendu de Favret-Saada (1967)."
+      }
+    },
+    {
+      "id": "SD-peuple-rashaida",
+      "nom": "Rashaïda",
+      "description": "Les Rashaïda vivent dans l'est du Soudan, le long de la côte de la mer Rouge, comme les Bedjas. La présentation de la population soudanaise dans l'ouvrage de référence les cite comme l'une des communautés de cette région. Peu de sources ouvertes les décrivent en détail, ce qui limite cette fiche.",
+      "langues": [
+        "arabe"
+      ],
+      "regions": [
+        "Mer Rouge",
+        "Est du Soudan"
+      ],
+      "sources": [
+        "S47"
+      ],
+      "wikidata": "Q1540444",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Seule source ouverte lue : Nicoloso-Cabon ; fiche à enrichir."
+      }
+    },
+    {
+      "id": "SD-peuple-fallata",
+      "nom": "Fallata (communautés d'origine ouest-africaine)",
+      "description": "Le nom « Fallata » désigne les descendants de pèlerins venus d'Afrique de l'Ouest ou du Maghreb qui, depuis la fin du XIXe siècle, se rendaient à La Mecque via Port-Soudan et se sont parfois installés au retour. Le terme recouvre notamment des familles haoussa, bornouanes ou peules ; la chanteuse Aisha al-Falatiya est née de parents originaires de Sokoto, au Nigeria. Des langues d'Afrique de l'Ouest comme le haoussa et le peul sont aujourd'hui attestées jusque dans les monts Nouba.",
+      "langues": [
+        "haoussa",
+        "peul"
+      ],
+      "regions": [
+        "Soudan (présence dans plusieurs régions)"
+      ],
+      "sources": [
+        "S47",
+        "S62",
+        "S58"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Définition lue dans Nicoloso-Cabon ; langues haoussa et peul citées par Quint pour le Sud-Kordofan."
+      }
+    },
+    {
+      "id": "SD-peuple-jaalin",
+      "nom": "Arabes jaalayin et juhayna",
+      "description": "Les deux grandes familles tribales arabes sont les Jaalayin, plutôt sédentaires, et les Juhayna, plutôt nomades, qui comprennent les Kababish, les Baggara, les Shukria et les Rufaa. Selon Wikipédia, des Nubiens du nord du confluent du Nil bleu et du Nil blanc ont adopté l'identité tribale des Arabes jaalin sous le sultanat de Sennar, ce qui montre que ces appartenances ont évolué dans le temps.",
+      "langues": [
+        "arabe soudanais"
+      ],
+      "regions": [
+        "Vallée du Nil",
+        "Kordofan",
+        "Darfour"
+      ],
+      "sources": [
+        "S47",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Classification lue dans Nicoloso-Cabon ; adoption de l'identité jaalin lue uniquement sur Wikipédia (à confirmer dans une source académique)."
+      }
+    }
+  ],
+  "sites": [
+    {
+      "id": "SD-site-meroe",
+      "nom": "Sites archéologiques de l'île de Méroé",
+      "type": "patrimoine_mondial",
+      "description": "Entre le Nil et l'Atbara, ce paysage semi-désertique était le cœur du royaume de Koush, puissance majeure du VIIIe siècle av. J.-C. au IVe siècle apr. J.-C. Le bien réunit la cité royale de Méroé, le site religieux de Naqa et celui de Musawwarat es-Sufra, avec pyramides, temples, quartiers d'habitation et grands aménagements de gestion de l'eau. Il témoigne des échanges d'art, d'architecture, de religions et de langues entre la Méditerranée et l'Afrique intérieure.",
+      "regions": [
+        "Nord"
+      ],
+      "sources": [
+        "S7",
+        "S37"
+      ],
+      "wikidata": "Q3962345",
+      "periode": "VIIIe siècle av. J.-C. - IVe siècle apr. J.-C.",
+      "unesco_id": "1336",
+      "inscription": 2011,
+      "coordonnees": {
+        "lat": 16.93333333,
+        "lng": 33.71666667
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Inscription 2011 et id 1336 repris de la graine UNESCO/Wikidata ; description lue sur whc.unesco.org/fr/list/1336."
+      }
+    },
+    {
+      "id": "SD-site-gebel-barkal",
+      "nom": "Gebel Barkal et les sites de la région napatéenne",
+      "type": "patrimoine_mondial",
+      "description": "Cinq sites archéologiques (Gebel Barkal, Kurru, Nuri, Sanam et Zuma) s'étendent sur plus de 60 km dans la vallée du Nil et illustrent les cultures napatéenne et méroïtique du second royaume de Koush. On y trouve tombes avec ou sans pyramide, temples, quartiers d'habitation et palais. Le Gebel Barkal est lié à des traditions religieuses depuis l'Antiquité, et ses grands temples sont encore considérés comme des lieux sacrés par les habitants.",
+      "regions": [
+        "Nord"
+      ],
+      "sources": [
+        "S8",
+        "S35"
+      ],
+      "wikidata": "Q15278408",
+      "periode": "900 av. J.-C. - 350 apr. J.-C.",
+      "unesco_id": "1073",
+      "inscription": 2003,
+      "coordonnees": {
+        "lat": 18.533333333,
+        "lng": 31.816666666
+      },
+      "sensible": true,
+      "note_sensibilite": "Les temples du Gebel Barkal sont toujours perçus comme sacrés par les populations locales ; toute présentation doit rester respectueuse de ces usages.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Inscription 2003 et id 1073 repris de la graine ; description lue sur whc.unesco.org/fr/list/1073."
+      }
+    },
+    {
+      "id": "SD-site-sanganeb-dungonab",
+      "nom": "Parc national marin de Sanganeb et Parc national marin de la baie de Dungonab – île de Mukkawar",
+      "type": "patrimoine_mondial",
+      "description": "Ce bien en série comprend Sanganeb, seul atoll de la mer Rouge, à 25 km du littoral, et la baie de Dungonab avec l'île de Mukkawar, à 125 km au nord de Port-Soudan. Récifs coralliens, mangroves, herbiers marins, plages et îlots y abritent oiseaux de mer, mammifères marins, requins, tortues et raies manta. La baie de Dungonab accueille une population de dugongs d'importance mondiale.",
+      "regions": [
+        "Mer Rouge"
+      ],
+      "sources": [
+        "S9"
+      ],
+      "wikidata": "Q65937857",
+      "unesco_id": "262rev",
+      "coordonnees": {
+        "lat": 19.7361,
+        "lng": 37.4431
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année d'inscription non lue sur la page UNESCO ouverte ; non renseignée."
+      }
+    },
+    {
+      "id": "SD-site-kerma",
+      "nom": "Kerma et les deffufa",
+      "type": "site_archeologique",
+      "description": "Kerma, près de la troisième cataracte, fut la capitale du plus ancien royaume historiquement attesté d'Afrique subsaharienne. Deux énormes bâtiments en briques crues, les deffufa, signalent le site, et un immense cimetière de 20 000 à 30 000 tombes a été étudié. Les fouilles de l'université de Genève, menées à partir de 1973 par Charles Bonnet, ont prouvé qu'il s'agissait de la capitale d'un État indigène rival de l'Égypte.",
+      "regions": [
+        "Nord"
+      ],
+      "sources": [
+        "S34",
+        "S78"
+      ],
+      "periode": "vers 2450-1450 av. J.-C.",
+      "coordonnees": {
+        "lat": 19.6008,
+        "lng": 30.4097
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées lues sur Wikipédia fr (19°36'03\" N, 30°24'35\" E)."
+      }
+    },
+    {
+      "id": "SD-site-vieille-dongola",
+      "nom": "Vieille Dongola (Tungul)",
+      "type": "ville_historique",
+      "description": "Capitale du royaume chrétien de Makourie, la Vieille Dongola a été assiégée en 651 par une armée musulmane venue d'Égypte, qui a utilisé des catapultes avant de conclure un accord de non-agression, le Baqt. Les premières églises de la ville datent de la seconde moitié du VIe siècle et s'inspirent de l'architecture byzantine. Selon Wikipédia, la ville décline dès la fin du XIe siècle puis est détruite et abandonnée après la guerre civile de 1365, quand la cour se replie vers la Basse-Nubie.",
+      "regions": [
+        "Nord"
+      ],
+      "sources": [
+        "S39",
+        "S83",
+        "S5"
+      ],
+      "periode": "VIe-XIVe siècle",
+      "coordonnees": {
+        "lat": 18.22306,
+        "lng": 30.74389
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées lues sur Wikipedia en ; chute de la ville mentionnée dans Wikipédia fr Soudan (1365), à recouper avec Rilly."
+      }
+    },
+    {
+      "id": "SD-site-soba",
+      "nom": "Soba",
+      "type": "site_archeologique",
+      "description": "Soba, sur le Nil bleu près de la confluence avec le Nil blanc, était la capitale du royaume chrétien d'Alodie, aujourd'hui dans la banlieue de Khartoum. Les premiers édifices chrétiens connus datent du milieu du VIIe siècle, mais le site est très vaste et n'a été fouillé que partiellement. Une statue de bélier inscrite en méroïtique y fut dégagée en 1863, dans les ruines de la cathédrale.",
+      "regions": [
+        "Khartoum"
+      ],
+      "sources": [
+        "S39",
+        "S37",
+        "S5"
+      ],
+      "periode": "VIe-XVIe siècle",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Pas de coordonnées sourcées."
+      }
+    },
+    {
+      "id": "SD-site-sennar",
+      "nom": "Sennar",
+      "type": "ville_historique",
+      "description": "Sennar, sur le Nil bleu, fut la capitale du sultanat des Fungs, fondée selon la Chronique fung en 1504-1505 par Amara Dunqas. La ville n'a sans doute pas tout de suite été résidence royale : la première capitale fut Lamul, et la mosquée n'a été construite que plus d'un siècle plus tard. Le sultanat a dominé une grande partie du Soudan central avant de se réduire, au début du XIXe siècle, à la région de la Gezira.",
+      "regions": [
+        "Sennar"
+      ],
+      "sources": [
+        "S40",
+        "S84",
+        "S5"
+      ],
+      "periode": "XVIe-XIXe siècle",
+      "coordonnees": {
+        "lat": 13.55,
+        "lng": 33.583
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées lues sur Wikipedia en."
+      }
+    },
+    {
+      "id": "SD-site-omdourman",
+      "nom": "Omdourman (tombeau du Mahdi et maison du Khalifa)",
+      "type": "ville_historique",
+      "description": "Après la prise de Khartoum en 1885, le Mahdi choisit Omdourman comme cité sainte, et son successeur le khalife Abdallahi en fit la capitale de l'État mahdiste. Le tombeau du Mahdi, une qubba, fut endommagé en 1898 puis démoli par l'armée britannique. La ville garde une architecture de maisons à cour (hawsh) reliées par des portes intérieures, et la maison du Khalifa fait partie des musées pillés pendant la guerre de 2023.",
+      "regions": [
+        "Khartoum"
+      ],
+      "sources": [
+        "S42",
+        "S51",
+        "S71",
+        "S79"
+      ],
+      "periode": "depuis 1885",
+      "coordonnees": {
+        "lat": 15.65,
+        "lng": 32.4833
+      },
+      "sensible": true,
+      "note_sensibilite": "Lieu de mémoire du mahdisme et théâtre de combats en 2023 ; la présentation de la période mahdiste reste historique et neutre.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées lues sur Wikipédia fr (15°39' N, 32°29' E)."
+      }
+    },
+    {
+      "id": "SD-site-el-fasher",
+      "nom": "El Fasher et le palais du sultan Ali Dinar",
+      "type": "ville_historique",
+      "description": "El Fasher fut la capitale du sultanat du Darfour. Le palais du sultan Ali Dinar, construit en 1912, était la demeure du dernier sultan ; l'ONG Bouclier bleu y voit un symbole de la souveraineté du peuple four et de la résistance à la colonisation. D'après l'enquête relayée par RFI en décembre 2025, il n'en reste que des murs ravagés.",
+      "regions": [
+        "Darfour du Nord"
+      ],
+      "sources": [
+        "S71",
+        "S43",
+        "S80",
+        "S69"
+      ],
+      "periode": "XIXe-XXe siècle",
+      "coordonnees": {
+        "lat": 13.3667,
+        "lng": 25.2167
+      },
+      "sensible": true,
+      "note_sensibilite": "Ville au centre des combats de 2025 (prise par les Forces de soutien rapide le 26 octobre 2025 selon l'ONU) ; présentation neutre et prudente.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées lues sur Wikipédia fr (13°22' N, 25°13' E)."
+      }
+    },
+    {
+      "id": "SD-site-musee-national",
+      "nom": "Musée national du Soudan",
+      "type": "musee",
+      "description": "Établi en 1971 dans un bâtiment de 1955, à Khartoum, le Musée national réunissait environ 100 000 objets, des royaumes nubiens et koushites aux périodes chrétienne et islamique. Selon l'enquête de l'ONG Bouclier bleu et du Réseau Ayin relayée par RFI, il a été totalement pillé et vandalisé pendant la guerre. Les autorités estiment à plus de 100 000 pièces la collection touchée, et la valeur exacte des pertes reste impossible à évaluer.",
+      "regions": [
+        "Khartoum"
+      ],
+      "sources": [
+        "S85",
+        "S71"
+      ],
+      "periode": "depuis 1971",
+      "coordonnees": {
+        "lat": 15.606,
+        "lng": 32.508
+      },
+      "sensible": true,
+      "note_sensibilite": "Institution et collections affectées par la guerre ; les affirmations sur le sort des objets reposent sur des enquêtes d'ONG et doivent être confrontées aux déclarations de l'UNESCO et des autorités soudanaises.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées lues sur Wikipedia en (15°36'22\" N, 32°30'29\" E)."
+      }
+    },
+    {
+      "id": "SD-site-suakin",
+      "nom": "Suakin",
+      "type": "ville_historique",
+      "description": "Suakin est un ancien port de la mer Rouge construit sur une île de 20 km² reliée à la terre par une digue depuis le XIXe siècle. En 1866, les ports de Suakin et de Massaoua, dépendants de l'Égypte depuis 1846, sont passés sous le contrôle du Soudan pour mieux lutter contre le trafic d'esclaves. La vieille ville, bâtie surtout en corail, a été dépassée par Port-Soudan au nord.",
+      "regions": [
+        "Mer Rouge"
+      ],
+      "sources": [
+        "S82",
+        "S41"
+      ],
+      "periode": "XIXe siècle",
+      "coordonnees": {
+        "lat": 19.1025,
+        "lng": 37.3361
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées lues sur Wikipédia fr (19°06'09\" N, 37°20'10\" E)."
+      }
+    },
+    {
+      "id": "SD-site-sedeinga",
+      "nom": "Sedeinga",
+      "type": "site_archeologique",
+      "description": "Sedeinga, sur la rive ouest du Nil, au nord de la troisième cataracte, est connue pour sa nécropole méroïtique de pyramides de 6,7 à 7,5 m de côté et pour un temple égyptien dédié à la reine Tiyi. Certaines pyramides y possèdent des premières assises en schiste. Elle se trouve sur le débouché de pistes du désert, près d'un tronçon de la route des Quarante Jours.",
+      "regions": [
+        "Nord"
+      ],
+      "sources": [
+        "S81",
+        "S36"
+      ],
+      "periode": "époque méroïtique",
+      "coordonnees": {
+        "lat": 20.4364,
+        "lng": 30.3339
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées lues sur Wikipédia fr (20°26' N, 30°20' E)."
+      }
+    }
+  ],
+  "traditions": [
+    {
+      "id": "SD-tradition-al-jertiq",
+      "nom": "Al-Jertiq : rites et expressions de protection, d'abondance et de fertilité",
+      "categorie": "rite",
+      "description": "Chez les populations nubiennes du nord du Soudan, le long du Nil jusqu'à la frontière égyptienne, al-Jertiq accompagne les grands moments de la vie : mariage, naissance, circoncision, ou deuil d'un jeune célibataire. Des objets ornés, chacun doté d'un sens précis, protègent du mauvais œil, appellent la chance ou favorisent la fécondité, et le rite est jugé incomplet si l'un d'eux manque. Les cérémonies sont dirigées par des femmes âgées, et les filles apprennent en observant mères, grands-mères et sœurs ; l'élément a été inscrit par l'UNESCO en 2025.",
+      "nom_local": "Al-Jertiq (jirtig)",
+      "communautes": [
+        "populations nubiennes du nord du Soudan"
+      ],
+      "regions": [
+        "Nord",
+        "vallée du Nil"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "02275",
+        "annee": 2025,
+        "url": "https://ich.unesco.org/en/RL/al-jertiq-practices-rituals-and-expressions-for-preservation-protection-abundance-and-fertility-in-sudan-02275"
+      },
+      "sources": [
+        "S10",
+        "S49"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Rite de passage et de protection : la fiche suit la description publiée par l'UNESCO ; une relecture par des représentants des communautés nubiennes est recommandée avant publication.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Inscription 2025 (20.COM 7.b.41), id 02275, lus sur la page ich.unesco.org. Le dietek/jirtig décrit dans Nicoloso-Beaumé (échange de sucre et de lait, colliers de famille, encens) correspond à la même pratique."
+      }
+    },
+    {
+      "id": "SD-tradition-henne",
+      "nom": "Henné : rituels, pratiques esthétiques et sociales",
+      "categorie": "rite",
+      "description": "Le henné est un arbre des régions chaudes dont les feuilles, récoltées, séchées puis moulues, donnent une pâte servant à la parure, aux soins et à l'artisanat. Au Soudan, les femmes se font dessiner motifs floraux ou géométriques sur les mains, les avant-bras et les pieds, et le henné accompagne les naissances, les mariages et les fêtes ; la veille des noces, de véritables artistes l'appliquent à la mariée et à ses amies. L'élément est inscrit en 2024 par l'UNESCO au nom de seize pays, dont le Soudan.",
+      "communautes": [
+        "femmes",
+        "familles"
+      ],
+      "regions": [
+        "Tout le Soudan"
+      ],
+      "langues": [
+        "arabe soudanais"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "02116",
+        "annee": 2024,
+        "url": "https://ich.unesco.org/en/RL/henna-rituals-aesthetic-and-social-practices-02116"
+      },
+      "sources": [
+        "S11",
+        "S48",
+        "S49"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Inscription 2024 (19.COM) lue sur la page UNESCO ; pratiques soudanaises lues dans Nicoloso-Beaumé (henné cultivé intensivement, fêtes du henné)."
+      }
+    },
+    {
+      "id": "SD-tradition-mawlid",
+      "nom": "Procession et célébrations de l'anniversaire du Prophète au Soudan (Al-Molid)",
+      "categorie": "fete",
+      "description": "La célébration commence douze jours avant l'anniversaire du Prophète, au troisième mois du calendrier lunaire, par une procession de milliers d'hommes, de femmes et d'enfants, de responsables communautaires, de représentants de l'État, de forces armées et de fanfares. Les participants chantent des chants religieux et mystiques, exécutent des danses rituelles et récitent des prières soufies. La fête culmine sur la place d'Al-Molid, où l'on hisse un drapeau au sommet d'un très haut mât ; l'UNESCO l'a inscrite en 2023.",
+      "communautes": [
+        "communautés religieuses soufies"
+      ],
+      "regions": [
+        "Soudan (cadre urbain)"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01896",
+        "annee": 2023,
+        "url": "https://ich.unesco.org/en/RL/procession-and-celebrations-of-prophet-mohammed-s-birthday-in-sudan-01896"
+      },
+      "sources": [
+        "S12"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Célébration religieuse : la description reste fidèle au texte de l'UNESCO ; relecture par des acteurs religieux et culturels soudanais souhaitée.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Inscription 2023 (18.COM 8.b.7), id 01896, lus sur ich.unesco.org. La ville exacte n'est pas indiquée sur la page ouverte."
+      }
+    },
+    {
+      "id": "SD-tradition-gravure-metaux",
+      "nom": "Arts, savoir-faire et pratiques de la gravure sur métaux (or, argent, cuivre)",
+      "categorie": "artisanat",
+      "description": "La gravure sur métaux consiste à entailler à la main des mots, symboles ou motifs sur des objets décoratifs, utilitaires, religieux ou cérémoniels. Les artisans gravent des versets du Coran, des prières, des noms et des motifs géométriques, en creux ou en relief, parfois en combinant plusieurs métaux. Les objets gravés sont offerts lors des mariages ou utilisés dans des rites ; la transmission se fait en famille, par l'observation et la pratique, mais aussi dans des ateliers de formation. L'élément a été inscrit en 2023 au nom de dix pays, dont le Soudan.",
+      "communautes": [
+        "artisans orfèvres et graveurs"
+      ],
+      "regions": [
+        "Soudan"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01951",
+        "annee": 2023,
+        "url": "https://ich.unesco.org/en/RL/arts-skills-and-practices-associated-with-engraving-on-metals-gold-silver-and-copper-01951"
+      },
+      "sources": [
+        "S13"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Inscription 2023 (18.COM 8.b.36), id 01951, lus sur la page UNESCO ; élément multinational."
+      }
+    },
+    {
+      "id": "SD-tradition-palmier-dattier",
+      "nom": "Palmier dattier : savoirs, savoir-faire, traditions et pratiques",
+      "categorie": "savoir",
+      "description": "Le palmier dattier pousse dans les oasis et les régions arides, et de nombreuses populations ont bâti leurs civilisations avec lui. Ses dattes nourrissent, et ses feuilles, palmes et fibres servent à l'artisanat et à des rituels sociaux ; il apparaît aussi dans les poèmes et les chants. L'élément est inscrit en 2022 au nom de quinze pays dont le Soudan.",
+      "communautes": [
+        "cultivateurs d'oasis",
+        "artisans"
+      ],
+      "regions": [
+        "Soudan"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01902",
+        "annee": 2022,
+        "url": "https://ich.unesco.org/en/RL/date-palm-knowledge-skills-traditions-and-practices-01902"
+      },
+      "sources": [
+        "S14"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Inscription 2022 (17.COM), id 01902, lus sur la page UNESCO ; élément multinational."
+      }
+    },
+    {
+      "id": "SD-tradition-calligraphie-arabe",
+      "nom": "Calligraphie arabe : savoirs, savoir-faire et pratiques",
+      "categorie": "artisanat",
+      "description": "La calligraphie arabe est l'art d'écrire à la main l'alphabet arabe de façon fluide, pour exprimer harmonie, grâce et beauté. Elle se transmet par l'enseignement formel ou informel, avec des calames de roseau ou de bambou, des encres traditionnelles et du papier traité, mais aussi, aujourd'hui, des marqueurs et de la peinture en aérosol sur les murs. L'élément est inscrit en 2021 par l'UNESCO au nom de seize pays, dont le Soudan.",
+      "communautes": [
+        "calligraphes",
+        "écoles et ateliers"
+      ],
+      "regions": [
+        "Soudan"
+      ],
+      "langues": [
+        "arabe"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01718",
+        "annee": 2021,
+        "url": "https://ich.unesco.org/en/RL/arabic-calligraphy-knowledge-skills-and-practices-01718"
+      },
+      "sources": [
+        "S15"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Inscription 2021 (16.COM 8.b.35), id 01718, lus sur la page UNESCO ; élément multinational."
+      }
+    },
+    {
+      "id": "SD-tradition-tob",
+      "nom": "Le tob, vêtement féminin",
+      "categorie": "textile",
+      "description": "Le tob est la tenue traditionnelle des Soudanaises : une seule pièce de tissu d'environ 4,50 m sur 1,50 m, qui se drape sur le corps et protège du soleil, des moustiques et des regards. Il existe en couleurs variées et se porte pour le travail, les fêtes et les mariages ; les femmes y choisissent leurs plus beaux coloris pour les réceptions. Le tob blanc, porté par les femmes qui travaillent, est devenu en avril 2019 un symbole des manifestations.",
+      "communautes": [
+        "femmes soudanaises"
+      ],
+      "regions": [
+        "Tout le Soudan"
+      ],
+      "langues": [
+        "arabe soudanais"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S48",
+        "S49",
+        "S68"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dimensions et usages lus dans Nicoloso-Beaumé ; tob blanc des femmes qui travaillent lu dans Global News (2019)."
+      }
+    },
+    {
+      "id": "SD-tradition-dukhan",
+      "nom": "Dukhān, fumigation et soins de beauté",
+      "categorie": "savoir",
+      "description": "Le dukhān est une fumigation pratiquée surtout avant le mariage : les femmes s'assoient au-dessus d'un trou creusé dans la cour où brûlent des braises et du bois odorant, le cou entouré d'une collerette qui retient la vapeur. Elle est suivie d'un exfoliant végétal (dilka), puis de parfums comme le santal ou le musc, dont l'usage obéit à de véritables codes. La mariée la pratique parfois plusieurs heures par jour pendant la préparation des noces.",
+      "communautes": [
+        "femmes"
+      ],
+      "regions": [
+        "Tout le Soudan"
+      ],
+      "langues": [
+        "arabe soudanais"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S48",
+        "S49"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Description lue dans Nicoloso-Beaumé (La condition féminine ; Rites du mariage)."
+      }
+    },
+    {
+      "id": "SD-tradition-sobehya",
+      "nom": "Sobehya, danse de la mariée",
+      "categorie": "danse",
+      "description": "La sobehya est la danse du troisième soir du mariage, pratiquée surtout par les Arabes soudanais. La mariée danse pour son mari devant une assemblée uniquement féminine de parentes et d'amies, en quatre danses pour lesquelles elle change de tenue, et peut chanter pour taquiner les jeunes filles célibataires. L'usage veut que la photographie y soit empêchée, et des policières sont souvent présentes pour y veiller.",
+      "communautes": [
+        "Arabes soudanais"
+      ],
+      "regions": [
+        "Tout le Soudan"
+      ],
+      "langues": [
+        "arabe soudanais"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S49"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Cérémonie privée réservée aux femmes ; les images et détails intimes ne sont pas reproduits.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Description lue dans Nicoloso-Beaumé (Rites du mariage)."
+      }
+    },
+    {
+      "id": "SD-tradition-sittat-chay",
+      "nom": "Sittat chay, les dames du thé",
+      "categorie": "cuisine",
+      "description": "À presque tous les coins de rue de Khartoum, des femmes appelées sittat chay servent thé au gingembre ou à la cardamome, cafés très sucrés ou épicés, karkadé, tabaldi, parfois des beignets. Elles sont des centaines, installées sur les trottoirs ombragés avec de petites tables et des tabourets, et leur réputation dépend de leur emplacement et de leur propreté. Ce métier, toléré sans licence, fait vivre des veuves, des réfugiées et quelques hommes ; la police les chasse parfois.",
+      "communautes": [
+        "vendeuses de thé"
+      ],
+      "regions": [
+        "Khartoum",
+        "villes soudanaises"
+      ],
+      "langues": [
+        "arabe soudanais"
+      ],
+      "transmission": "fragile",
+      "unesco": null,
+      "sources": [
+        "S48",
+        "S50"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Description lue dans Nicoloso-Beaumé (La condition féminine). Transmission jugée « fragile » à cause de la précarité du métier : à valider."
+      }
+    },
+    {
+      "id": "SD-tradition-karkade-tabaldi",
+      "nom": "Karkadé et tabaldi, boissons nationales",
+      "categorie": "cuisine",
+      "description": "Le karkadé est une infusion rouge de pétales d'hibiscus, qui pousse surtout dans le Kordofan ; les pétales sont cueillis à la main chaque automne, séchés au soleil, puis la boisson se sert chaude ou froide. Le tabaldi, seconde boisson nationale, est préparé avec la pulpe du fruit du baobab, appelé « pain de singe », mêlée à de l'eau pour donner une boisson acidulée et rafraîchissante. Les graines du baobab, grillées, peuvent aussi remplacer le café.",
+      "communautes": [
+        "Soudanais"
+      ],
+      "regions": [
+        "Kordofan",
+        "tout le Soudan"
+      ],
+      "langues": [
+        "arabe soudanais"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S50"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Description lue dans Nicoloso-Beaumé (La nourriture)."
+      }
+    },
+    {
+      "id": "SD-tradition-repas-foul-kisra",
+      "nom": "Repas quotidiens : foul, kisra et poissons du Nil",
+      "categorie": "cuisine",
+      "description": "Les Soudanais prennent en général trois repas par jour. Le premier vrai repas, vers 11 heures, est le fatour, à base de foul (fèves mijotées) auquel on ajoute oignons, œufs, viande ou taamiya ; le déjeuner réunit la famille autour de riz, de galettes de maïs (kisra), de viande, d'oignons et de tomates. La perche du Nil et d'autres poissons pêchés le matin se vendent au marché d'Omdourman.",
+      "communautes": [
+        "Soudanais"
+      ],
+      "regions": [
+        "Khartoum",
+        "vallée du Nil"
+      ],
+      "langues": [
+        "arabe soudanais"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S50"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Description lue dans Nicoloso-Beaumé (La nourriture)."
+      }
+    },
+    {
+      "id": "SD-tradition-zirs",
+      "nom": "Les zirs, jarres d'eau offertes aux passants",
+      "categorie": "artisanat",
+      "description": "Au bord des routes et à chaque coin de rue, des zirs, grandes jarres de terre légèrement poreuses, sont remplies d'eau à la disposition des passants. L'évaporation y garde l'eau fraîche, ce qui est précieux dans un pays où la température peut approcher 50 °C. L'usage associe artisanat de la poterie et hospitalité.",
+      "communautes": [
+        "Soudanais"
+      ],
+      "regions": [
+        "Tout le Soudan"
+      ],
+      "langues": [
+        "arabe soudanais"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S50"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Description lue dans Nicoloso-Beaumé (La nourriture)."
+      }
+    },
+    {
+      "id": "SD-tradition-poesie-habait",
+      "nom": "Poésie orale bedja : le habáit",
+      "categorie": "oralite",
+      "description": "Le habáit est un genre poétique que la société bedja récite individuellement ; contrairement à d'autres genres, sa performance n'est liée à aucun lieu particulier. Sa profération est pensée comme un « lancement » de la parole, notamment dans des situations de contestation, et il exprime une culture bédouine où la vie est conçue comme une traversée du monde. L'espace, entre territoire proche et territoire lointain, y tient une place centrale.",
+      "nom_local": "Habáit",
+      "communautes": [
+        "Bedjas"
+      ],
+      "regions": [
+        "Mer Rouge",
+        "Est du Soudan"
+      ],
+      "langues": [
+        "bedja"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S53"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Description lue dans Hamid Ahmed (2009), Journal des africanistes 79-2."
+      }
+    },
+    {
+      "id": "SD-tradition-contes-koalib",
+      "nom": "Contes traditionnels koalib",
+      "categorie": "oralite",
+      "description": "Les Koalib, communauté nouba du Sud-Kordofan, possèdent une littérature orale que le linguiste Nicolas Quint a commencé à présenter à partir des contes traditionnels. Le koalib est parlé aujourd'hui par environ 100 000 personnes, dans une région où l'on dénombre au moins 50 langues locales. Ces récits témoignent de la diversité des cultures des monts Nouba.",
+      "communautes": [
+        "Koalib (peuples nouba)"
+      ],
+      "regions": [
+        "Sud-Kordofan (monts Nouba)"
+      ],
+      "langues": [
+        "koalib"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S58"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Description lue dans le résumé de Quint (2010) sur HAL-SHS."
+      }
+    },
+    {
+      "id": "SD-tradition-radio-omdourman",
+      "nom": "Les premières voix féminines à la radio d'Omdourman (Aisha al-Falatiya)",
+      "categorie": "musique",
+      "description": "En 1943, Aisha al-Falatiya est la première femme à chanter à la station de radio d'Omdourman, malgré l'hostilité de musiciens de l'époque. Elle avait appris la diction en mémorisant le Coran et débuta en chantant aux mariages ; son nom de scène évoque l'origine ouest-africaine de sa famille. Son répertoire a aussi servi des causes publiques, comme les chants pour le Congrès général des diplômés.",
+      "communautes": [
+        "chanteuses d'Omdourman"
+      ],
+      "regions": [
+        "Omdourman"
+      ],
+      "langues": [
+        "arabe soudanais"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S62"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Radio 1943 lue dans SIHA/Women in Islam ; d'autres sources avancent 1942 (non ouvertes)."
+      }
+    },
+    {
+      "id": "SD-tradition-musique-nubienne",
+      "nom": "Musique nubienne et chanson d'auteur",
+      "categorie": "musique",
+      "description": "La musique nubienne est décrite comme très vivante, et son principal représentant a été le chanteur Mohammed Wardi. Les musiques soudanaises varient selon les groupes et reposent souvent sur un rythme pentatonique ; l'oud est un instrument traditionnel, et des instruments comme le saxophone ou la guitare électrique ont favorisé un engouement pour le jazz dans les années 1960-1970. La chanson soudanaise mêle aussi des influences égyptiennes et éthiopiennes.",
+      "communautes": [
+        "Nubiens",
+        "chanteurs"
+      ],
+      "regions": [
+        "Nord",
+        "Khartoum"
+      ],
+      "langues": [
+        "arabe soudanais",
+        "nobiin"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S51",
+        "S65"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Description lue dans Nicoloso et al. (Les artistes) et ArabLit."
+      }
+    },
+    {
+      "id": "SD-tradition-mariage-rites",
+      "nom": "Rites du mariage et du deuil",
+      "categorie": "rite",
+      "description": "Le mariage est une cérémonie codée en plusieurs étapes : demande, remise de la dot, bain de fumigation de la mariée, fête du henné, signature à la mosquée, réception, danse de la mariée et cérémonie du jirtig. Les rites funéraires sont tout aussi codifiés : le défunt est enterré le jour même, les visiteurs présentent leurs condoléances pendant trois jours, et la veuve reste chez elle vêtue de blanc pendant quatre mois et dix jours.",
+      "communautes": [
+        "familles musulmanes soudanaises"
+      ],
+      "regions": [
+        "Tout le Soudan"
+      ],
+      "langues": [
+        "arabe soudanais"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S49"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Rites familiaux et religieux ; description générale tirée d'un seul ouvrage, qui note l'évolution récente de ces pratiques.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Description lue dans Nicoloso-Beaumé (Rites du mariage)."
+      }
+    }
+  ],
+  "personnalites": [
+    {
+      "id": "SD-personnalite-piankhy",
+      "nom": "Piankhy (Piyé)",
+      "wikidata": "Q315695",
+      "description": "Roi de Koush au VIIIe siècle av. J.-C., Piankhy conduit la campagne militaire qui place l'Égypte sous l'autorité koushite : il prend Hermopolis, puis Memphis. Le récit en est gravé sur la stèle de la Victoire, de 159 lignes, retrouvée en 1862 et conservée au musée du Caire. Il se fit enterrer à el-Kourrou, avec quatre chevaux inhumés près de sa tombe. Ses dates de règne restent débattues, entre 755-721 et 744-714 av. J.-C. selon les chronologies.",
+      "roles": [
+        "roi de Koush",
+        "premier souverain de la XXVe dynastie d'Égypte"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "Antiquité (VIIIe siècle av. J.-C.)",
+      "sources": [
+        "S35"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Règne 755-721 ou 744-714 et campagne lus dans Rilly (chap. 5). Date de naissance inconnue."
+      }
+    },
+    {
+      "id": "SD-personnalite-taharqo",
+      "nom": "Taharqo",
+      "wikidata": "Q315714",
+      "description": "Souverain koushite de la XXVe dynastie, Taharqo est présenté comme un pharaon bâtisseur : il inaugure la nécropole royale de Nouri, où il est enterré, et son nom reste attaché à de nombreux temples. Il est finalement vaincu par les Assyriens et se replie en Nubie. Le Metropolitan Museum conserve un shabti en granit à son nom, probablement de Nouri, et un contrepoids de collier le montrant allaité par la déesse Bastet.",
+      "roles": [
+        "roi de Koush",
+        "pharaon de la XXVe dynastie"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "Antiquité (VIIe siècle av. J.-C.)",
+      "sources": [
+        "S35",
+        "S74",
+        "S75"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Règne vers 690-664 av. J.-C. (Met) ; nécropole de Nouri lue dans Rilly. Date de naissance inconnue."
+      }
+    },
+    {
+      "id": "SD-personnalite-amanirenas",
+      "nom": "Amanirénas",
+      "wikidata": "Q175784",
+      "description": "Candace, c'est-à-dire reine-mère exerçant le pouvoir, du royaume de Méroé, Amanirénas est citée dans des inscriptions avec le roi et son fils le prince Akinidad. Elle est associée à la guerre contre Rome, qui éclate en 25 av. J.-C. quand les Méroïtes attaquent Assouan. Le traité conclu à Samos avec Auguste en 21-20 av. J.-C. fut étonnamment favorable à Méroé : aucun tribut ne fut exigé, et la tête d'une statue de bronze d'Auguste, retrouvée sous le seuil d'un temple de Méroé, rappelle ce butin.",
+      "roles": [
+        "Candace de Méroé",
+        "cheffe de guerre"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "Antiquité (Ier siècle av. J.-C.)",
+      "sources": [
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Guerre 25-22 et traité de Samos 21/20 av. J.-C. lus dans Rilly (chap. 7)."
+      }
+    },
+    {
+      "id": "SD-personnalite-amanishakheto",
+      "nom": "Amanishakhéto",
+      "wikidata": "Q275888",
+      "description": "Candace de Méroé, Amanishakhéto est enterrée dans une pyramide de la nécropole nord de Méroé (Begrawiya nord 6), dont la chapelle funéraire est ornée de scènes de légitimation. Rilly lui consacre aussi un développement sur la réorganisation de la Basse-Nubie et sur son trésor. Son nom figure, avec ceux d'Amanirénas et d'Amanitoré, parmi les reines dont le titre de Candace est attesté au tournant de l'ère.",
+      "roles": [
+        "Candace de Méroé"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "Antiquité (Ier siècle)",
+      "sources": [
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Pyramide Beg. N. 6 et titre de Candace lus dans Rilly (chap. 7)."
+      }
+    },
+    {
+      "id": "SD-personnalite-amanitore",
+      "nom": "Amanitoré",
+      "wikidata": "Q257004",
+      "description": "Candace de Méroé, Amanitoré règne avec son fils Natakamani à une époque d'extraordinaire prospérité : aucun souverain depuis Taharqo, sept siècles plus tôt, n'avait autant couvert le pays de temples et de palais. Elle repose dans une pyramide de Begrawiya nord (numéro 1). Les reliefs et inscriptions montrent le rôle central de la reine-mère dans la royauté méroïtique.",
+      "roles": [
+        "Candace de Méroé",
+        "bâtisseuse de temples"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "Antiquité (Ier siècle)",
+      "sources": [
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Couple mère-fils Amanitoré et Natakamani lu dans Rilly (chap. 7)."
+      }
+    },
+    {
+      "id": "SD-personnalite-muhammad-ahmad",
+      "nom": "Muhammad Ahmad, le Mahdi",
+      "wikidata": "Q298678",
+      "description": "En 1881, Muhammad Ahmad Abdallah se proclame le Mahdi et prend les armes contre l'administration turco-égyptienne, au nom d'un islam renouvelé. Ses succès militaires conduisent à la prise de Khartoum en janvier 1885, où le général Gordon est tué contre ses ordres. Il s'installe à Omdourman, où il meurt six mois plus tard ; son tombeau devient un lieu de pèlerinage.",
+      "deces": {
+        "date": "1885",
+        "lieu": "Omdourman"
+      },
+      "roles": [
+        "chef religieux",
+        "chef politique et militaire"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S42"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Figure religieuse et politique encore diversement perçue au Soudan ; présentation historique et neutre.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Proclamation en mars 1881 selon François ; certaines sources donnent juin 1881. Naissance non lue."
+      }
+    },
+    {
+      "id": "SD-personnalite-abdallahi",
+      "nom": "Abdallahi ibn Muhammad (le Khalifa)",
+      "wikidata": "Q307678",
+      "description": "Désigné successeur du Mahdi, le khalife Abdallahi prend la tête de l'État mahdiste en 1885 et fait d'Omdourman sa capitale. Il s'appuie sur les tribus nomades, qu'il transforme en groupes armés puissants au service du pouvoir, et reprend en 1889 le contrôle du Darfour. Sous son règne, les maisons d'Omdourman passent de la paille au pisé et les voies publiques sont tracées en 1894. Son régime s'effondre après la bataille d'Omdourman du 2 septembre 1898.",
+      "roles": [
+        "khalife",
+        "chef d'État"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S42",
+        "S43",
+        "S51"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance et décès non lus dans une source ouverte."
+      }
+    },
+    {
+      "id": "SD-personnalite-ali-dinar",
+      "nom": "Ali Dinar",
+      "wikidata": "Q3818737",
+      "description": "Dernier sultan du Darfour, Ali Dinar s'installe à la tête du pays à la fin de la Mahdiyya et lui rend son indépendance ; le condominium le reconnaît comme souverain contre un tribut versé à Khartoum. Au début de la Première Guerre mondiale, il déclare le jihad contre les Européens et s'associe à la confrérie sénoussiste de Libye. Il est vaincu en mai 1916 par le major Kelly à El Fasher, où son palais de 1912 reste pour des organisations de patrimoine un symbole de la souveraineté des Four.",
+      "roles": [
+        "sultan du Darfour"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XIXe-XXe siècle",
+      "sources": [
+        "S43",
+        "S71"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Figure de la souveraineté du Darfour dont le palais a été détruit pendant la guerre ; présentation historique.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance non lue."
+      }
+    },
+    {
+      "id": "SD-personnalite-ali-abd-al-latif",
+      "nom": "Ali Abd al-Latif",
+      "wikidata": "Q16123151",
+      "description": "Nationaliste soudanais lié à la Ligue du drapeau blanc, formée en 1924 par des postiers qui protestent contre l'absence des Soudanais aux pourparlers anglo-égyptiens. Il est arrêté et détenu pendant un an pour avoir publié un article séditieux, ce qui provoque des manifestations de cadets devant sa prison. Son nom est associé à l'un des premiers mouvements d'affirmation nationale du Soudan.",
+      "roles": [
+        "militant nationaliste"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S44"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance non lue ; détail issu de Bernard François (chap. 5)."
+      }
+    },
+    {
+      "id": "SD-personnalite-al-azhari",
+      "nom": "Ismaïl al-Azhari",
+      "wikidata": "Q255545",
+      "description": "Chef de l'Ashiqqa, la tendance jeune du Congrès, Ismaïl al-Azhari fonde en 1953 le Parti national unioniste. Il devient le premier Premier ministre issu des élections de 1953 et dirige le gouvernement de coalition au moment de l'indépendance, le 1er janvier 1956. Il est plus tard le chef de l'État du Soudan, de 1965 à 1969.",
+      "roles": [
+        "Premier ministre",
+        "chef d'État"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S44",
+        "S45",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Premier Premier ministre : Wikipédia ; présidence 1965-1969 : description Wikidata (non rouverte). Naissance non lue."
+      }
+    },
+    {
+      "id": "SD-personnalite-mahmoud-taha",
+      "nom": "Mahmoud Mohamed Taha",
+      "wikidata": "Q1884989",
+      "description": "Penseur musulman réformateur, il publie en 1951 « Al-rissala al-thaniya min al-islam », traduit « Un islam à vocation libératrice ». Il s'oppose en 1983 à l'introduction de la charia comme loi fondamentale. Arrêté le 5 janvier 1985, il est jugé en deux heures, condamné à mort par pendaison pour hérésie, et son exécution est fixée au 18 janvier 1985 ; son corps devait être inhumé en un lieu secret.",
+      "deces": {
+        "date": "1985-01-18"
+      },
+      "roles": [
+        "penseur religieux",
+        "dissident politique"
+      ],
+      "domaines": [
+        "savoirs",
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S45"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Condamnation et exécution politiques sous le régime de Nimeiry ; sujet toujours sensible, présenté à partir d'une source académique.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates lues dans François (chap. 6). Naissance non lue (Wikidata : 1909)."
+      }
+    },
+    {
+      "id": "SD-personnalite-fatima-ahmed-ibrahim",
+      "nom": "Fatima Ahmed Ibrahim",
+      "wikidata": "Q1398131",
+      "description": "Militante féministe et figure du Parti communiste, elle est élue députée en 1965 : première femme parlementaire du Soudan. Elle préside l'Union démocratique internationale des femmes à partir de 1991 et reçoit en 2006 le prix Ibn Rushd pour la défense des droits des femmes et de la justice sociale. Elle meurt à Londres le 12 août 2017 ; son corps est rapatrié à Khartoum.",
+      "naissance": {
+        "date": "1933"
+      },
+      "deces": {
+        "date": "2017-08-12",
+        "lieu": "Londres"
+      },
+      "roles": [
+        "députée",
+        "militante féministe"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S61",
+        "S48"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année de naissance 1933 selon Anadolu ; d'autres sources avancent des années différentes (non ouvertes), à confirmer. Lieu de naissance non lu."
+      }
+    },
+    {
+      "id": "SD-personnalite-aisha-al-falatiya",
+      "nom": "Aisha al-Falatiya",
+      "wikidata": "Q12222088",
+      "description": "Née à Kassala de parents originaires de Sokoto, au Nigeria, Aisha Musa Ahmed Yehia Idrees chante d'abord aux mariages contre la volonté de son père, sheikh et enseignant, et adopte le nom de scène « al-Falatiya ». Elle est la première femme à se produire à la radio d'Omdourman, en 1943. Elle chante aussi pour le Congrès général des diplômés, mouvement nationaliste de jeunes instruits.",
+      "naissance": {
+        "lieu": "Kassala"
+      },
+      "roles": [
+        "chanteuse"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S62"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lieu de naissance et radio 1943 lus dans SIHA ; année de naissance non lue."
+      }
+    },
+    {
+      "id": "SD-personnalite-tayeb-salih",
+      "nom": "Tayeb Salih",
+      "wikidata": "Q561434",
+      "description": "Romancier et journaliste culturel né à Karmakol, dans le nord du Soudan, Tayeb Salih est surtout connu pour « Saison de la migration vers le Nord », roman considéré comme l'un des plus importants de la littérature arabe. Après des études à l'université de Khartoum puis à Londres, il travaille au service arabe de la BBC et à l'UNESCO. Son œuvre, nourrie de la vie des villages du Nil, aborde l'exil, le choc culturel et la mémoire de la colonisation.",
+      "naissance": {
+        "date": "1929-07-12",
+        "lieu": "Karmakol"
+      },
+      "deces": {
+        "date": "2009-02-18",
+        "lieu": "Londres"
+      },
+      "roles": [
+        "écrivain",
+        "journaliste",
+        "fonctionnaire international"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S63",
+        "S51"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance 12 juillet 1929 selon ASC Leiden ; Nicoloso et al. donnent 1928 : à trancher."
+      }
+    },
+    {
+      "id": "SD-personnalite-mohammed-wardi",
+      "nom": "Mohammed Wardi",
+      "wikidata": "Q6893398",
+      "description": "Chanteur, compositeur et poète d'origine nubienne, Mohammed Wardi est une figure majeure de la musique soudanaise, dont son fils dit qu'il était l'un des chanteurs les plus admirés du continent. Né dans le nord du Soudan, formé comme enseignant, il s'installe à Khartoum dans les années 1950 et enregistre pour la radio pour la première fois le 19 juillet 1957. Opposé aux régimes autoritaires successifs, il est emprisonné à plusieurs reprises et vit en exil ; il meurt à Khartoum en 2012.",
+      "naissance": {
+        "date": "1932-07-19",
+        "lieu": "nord du Soudan (région de Wadi Halfa)"
+      },
+      "deces": {
+        "date": "2012-02-18",
+        "lieu": "Khartoum"
+      },
+      "roles": [
+        "chanteur",
+        "compositeur",
+        "poète"
+      ],
+      "domaines": [
+        "musique",
+        "résistance"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S64",
+        "S65",
+        "S51"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance 19 juillet 1932 selon son fils (OkayAfrica) ; ArabLit le dit né dans une famille nubienne de Wadi Halfa."
+      }
+    },
+    {
+      "id": "SD-personnalite-ibrahim-el-salahi",
+      "nom": "Ibrahim El-Salahi",
+      "wikidata": "Q2662098",
+      "description": "Peintre né en 1930, Ibrahim El-Salahi appartient à la deuxième génération d'artistes soudanais partis étudier en Grande-Bretagne et fonde en 1961 l'école de Khartoum, qui ouvre l'art soudanais au modernisme. Ses sources d'inspiration vont des coutumes locales aux contes traditionnels. La Tate Modern conserve plusieurs de ses œuvres, dont « Reborn Sounds of Childhood Dreams I » (1961-1965).",
+      "naissance": {
+        "date": "1930"
+      },
+      "roles": [
+        "peintre",
+        "fondateur de l'école de Khartoum"
+      ],
+      "domaines": [
+        "arts"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S51",
+        "S67",
+        "S66"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année de naissance lue dans Nicoloso et al. ; lieu de naissance non lu."
+      }
+    },
+    {
+      "id": "SD-personnalite-leila-aboulela",
+      "nom": "Leila Aboulela",
+      "wikidata": "Q290220",
+      "description": "Romancière de père soudanais et de mère égyptienne, Leila Aboulela a passé son enfance et son adolescence à Khartoum avant d'émigrer en Angleterre puis en Écosse. Elle écrit en anglais, et ses livres (Lyrics Alley, Minaret, La Traductrice) abordent l'identité, l'exil, l'amour et la foi. Elle est la première femme parmi les écrivains soudanais traduits en français.",
+      "roles": [
+        "romancière"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S51"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance non lue dans une source ouverte (la page de profil du British Council n'a pas pu être ouverte)."
+      }
+    },
+    {
+      "id": "SD-personnalite-alaa-salah",
+      "nom": "Alaa Salah",
+      "wikidata": "Q63126345",
+      "description": "Étudiante en ingénierie et architecture, Alaa Salah a été photographiée par Lana Haroun en avril 2019 debout sur une plateforme, vêtue d'un tob blanc et de boucles d'oreilles en forme de croissant de lune, menant un chant lors d'une manifestation à Khartoum. L'image est devenue un symbole des manifestations qui ont précédé la chute d'Omar el-Bechir. Les manifestantes ont été appelées « kandakas », en référence au titre donné aux reines de l'ancien Soudan.",
+      "roles": [
+        "militante",
+        "étudiante"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S68"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Personne vivante : la fiche ne donne que des informations publiées par la presse et évite toute donnée privée.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Âge (22 ans) et photographe lus dans Global News (avril 2019)."
+      }
+    }
+  ],
+  "evenements": [
+    {
+      "id": "SD-evenement-kerma",
+      "titre": "Royaume de Kerma",
+      "date": "-002449-01-01",
+      "date_affichee": "vers 2450-1450 av. J.-C.",
+      "precision": "siecle",
+      "fin": "-001449-12-31",
+      "description": "Kerma, près de la troisième cataracte, est la capitale d'un État puissant que Claude Rilly présente comme le plus anciennement attesté d'Afrique subsaharienne. Ses archers lui permettent de tenir tête à l'Égypte pharaonique pendant près d'un millénaire ; le royaume n'a jamais adopté l'écriture. Les fouilles genevoises menées à partir de 1973 ont révélé son importance.",
+      "regions": [
+        "Nord"
+      ],
+      "acteurs": [
+        "royaume de Kerma",
+        "Charles Bonnet (fouilleur)"
+      ],
+      "sources": [
+        "S34"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-ecole-beaux-arts",
+      "titre": "Création de l'école des beaux-arts de Khartoum",
+      "date": "1944-01-01",
+      "date_affichee": "1944",
+      "precision": "annee",
+      "description": "Les Britanniques créent en 1944 une école des beaux-arts à Khartoum, qui forme les premières générations d'artistes modernes. Beaucoup partent ensuite compléter leurs études à l'étranger, et la première promotion qui marque le début du courant moderne sort en 1951.",
+      "regions": [
+        "Khartoum"
+      ],
+      "acteurs": [
+        "Jean-Pierre Greenlaw (considéré comme père spirituel de l'école)"
+      ],
+      "sources": [
+        "S51"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-napata",
+      "titre": "Émergence du royaume de Napata",
+      "date": "-000849-01-01",
+      "date_affichee": "vers 850 av. J.-C.",
+      "precision": "siecle",
+      "description": "Après la fin de la domination égyptienne en Nubie, un pouvoir local puissant émerge à Napata, près du Gebel Barkal. Le premier roi dont on sait quelque chose est Alara, et la légitimité royale y passe notablement par les femmes.",
+      "regions": [
+        "Nord (Gebel Barkal)"
+      ],
+      "acteurs": [
+        "Alara",
+        "Kashta"
+      ],
+      "sources": [
+        "S35",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-piankhy-egypte",
+      "titre": "Conquête de l'Égypte par Piankhy",
+      "date": "-000799-01-01",
+      "date_affichee": "VIIIe siècle av. J.-C.",
+      "precision": "siecle",
+      "description": "Le roi koushite Piankhy conduit une grande campagne en Égypte : il prend Hermopolis puis Memphis, et fait graver le récit sur une stèle de granit, la stèle de la Victoire. Cette conquête ouvre la période où des rois de Koush gouvernent l'Égypte.",
+      "regions": [
+        "Nord"
+      ],
+      "acteurs": [
+        "Piankhy",
+        "Tefnakht (adversaire)"
+      ],
+      "sources": [
+        "S35"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-xxve-dynastie",
+      "titre": "XXVe dynastie koushite d'Égypte",
+      "date": "-000720-01-01",
+      "date_affichee": "de 721 ou 714 à 663 av. J.-C.",
+      "precision": "annee",
+      "fin": "-000662-12-31",
+      "description": "Les rois de Koush Piankhy, Shabaqo, Taharqo et Tanoutamani règnent sur l'Égypte pendant près d'un siècle. Taharqo y est un grand bâtisseur, avant d'être vaincu par les Assyriens.",
+      "regions": [
+        "Nord"
+      ],
+      "acteurs": [
+        "Piankhy",
+        "Shabaqo",
+        "Taharqo",
+        "Tanoutamani"
+      ],
+      "sources": [
+        "S35",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-fin-koush-egypte",
+      "titre": "Fin de la domination koushite sur l'Égypte",
+      "date": "-000655-01-01",
+      "date_affichee": "656 av. J.-C.",
+      "precision": "annee",
+      "description": "En 656, un accord scelle l'adoption de Nitocris, fille de Psammétique, par les deux adoratrices divines koushites de Thèbes. Cette transition douce consacre la réunification de l'Égypte sous l'autorité du roi saïte et marque la fin du pouvoir koushite sur la terre des pharaons.",
+      "acteurs": [
+        "Psammétique Ier",
+        "Nitocris"
+      ],
+      "sources": [
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-meroe",
+      "titre": "Royaume de Méroé",
+      "date": "-000289-01-01",
+      "date_affichee": "de 290 av. J.-C. à 350 apr. J.-C.",
+      "precision": "siecle",
+      "fin": "0350-12-31",
+      "description": "Le royaume de Méroé prolonge celui de Napata, avec pour centre la région entre le Nil et l'Atbara. Le règne d'Amanitoré et de son fils Natakamani est décrit par Rilly comme une ère d'extraordinaire prospérité, où temples et palais couvrent le territoire koushite. L'UNESCO situe la période méroïtique entre 270 av. J.-C. et 350 apr. J.-C.",
+      "regions": [
+        "Nord"
+      ],
+      "acteurs": [
+        "Amanirénas",
+        "Amanishakhéto",
+        "Amanitoré",
+        "Natakamani"
+      ],
+      "sources": [
+        "S37",
+        "S8",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-guerre-rome",
+      "titre": "Guerre entre Méroé et Rome",
+      "date": "-000024-01-01",
+      "date_affichee": "de 25 à 22 av. J.-C. (traité de Samos en 21-20)",
+      "precision": "annee",
+      "fin": "-000020-12-31",
+      "description": "Quand Aelius Gallus quitte l'Égypte en 25 av. J.-C., les Méroïtes attaquent Assouan ; Pétronius mène des campagnes en 24 puis les Méroïtes reprennent l'offensive vers Qasr Ibrim en 22. Le traité de Samos, conclu avec Auguste durant l'hiver 21-20 av. J.-C., ramène la frontière en deçà du Triacontaschène et n'exige aucun tribut, ce qui le rend étonnamment favorable à Méroé.",
+      "regions": [
+        "Nord"
+      ],
+      "acteurs": [
+        "Amanirénas",
+        "Auguste",
+        "Pétronius"
+      ],
+      "sources": [
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-fin-meroe",
+      "titre": "Fin de Méroé et royaumes postméroïtiques",
+      "date": "0350-01-01",
+      "date_affichee": "vers 350 apr. J.-C.",
+      "precision": "siecle",
+      "description": "Vers le milieu du IVe siècle, le royaume de Méroé se morcelle. Le roi d'Axoum Ézana relate dans sa stèle de victoire ses combats contre les « Noubas » dans le sud de l'ancien royaume. L'époque qui suit, de 350 à 543, est celle des royaumes postméroïtiques, où Blemmyes et Nubiens se disputent la région avant la naissance des royaumes chrétiens.",
+      "regions": [
+        "Nord"
+      ],
+      "acteurs": [
+        "Ézana d'Axoum",
+        "Blemmyes",
+        "Noubas"
+      ],
+      "sources": [
+        "S38",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-conversion-nubie",
+      "titre": "Conversion des royaumes nubiens au christianisme",
+      "date": "0543-01-01",
+      "date_affichee": "de 543 à 580",
+      "precision": "annee",
+      "fin": "0580-12-31",
+      "description": "Selon un récit rapporté par Jean d'Éphèse, la Nobadie est convertie en 543 et l'Alodie en 580 ; l'archéologie suggère que le christianisme pénètre dès le début du VIe siècle, et les premières églises d'Old Dongola datent de la seconde moitié du VIe siècle. Trois royaumes se partagent alors la vallée : Nobadie, Makourie et Alodie.",
+      "regions": [
+        "Nord",
+        "Khartoum"
+      ],
+      "acteurs": [
+        "Nobadie",
+        "Makourie",
+        "Alodie"
+      ],
+      "sources": [
+        "S39"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-baqt",
+      "titre": "Le Baqt, accord entre la Makourie et les Arabes",
+      "date": "0652-01-01",
+      "date_affichee": "652",
+      "precision": "annee",
+      "fin": "1299-12-31",
+      "description": "Après un siège de Dongola, jugé inattendu pour les musulmans, un armistice est signé en l'an 31 de l'Hégire (652) : arrêt des agressions, libre circulation sans installation durable, restitution des fugitifs et livraison annuelle de 360 esclaves en échange de céréales et de tissus. Cet accord est resté en vigueur, avec des interruptions, jusqu'au XIIIe siècle.",
+      "regions": [
+        "Nord"
+      ],
+      "acteurs": [
+        "royaume de Makourie",
+        "Abdallah Abou Sarh"
+      ],
+      "sources": [
+        "S39"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Accord impliquant un tribut en êtres humains ; fait historique à présenter sans glorification.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-dotawo",
+      "titre": "Dernier roi connu de Dotawo",
+      "date": "1484-01-01",
+      "date_affichee": "vers 1484",
+      "precision": "annee",
+      "description": "Dotawo est le nom nubien de la Makourie ; son dernier roi connu est Joël, vers 1484. Ensuite, on perd la trace d'un pouvoir nubien centralisé, jusqu'à l'arrivée des troupes ottomanes vers 1560.",
+      "regions": [
+        "Nord"
+      ],
+      "acteurs": [
+        "Joël"
+      ],
+      "sources": [
+        "S39"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-fondation-sennar",
+      "titre": "Fondation du sultanat de Sennar",
+      "date": "1504-01-01",
+      "date_affichee": "1504-1505",
+      "precision": "annee",
+      "description": "Selon la Chronique fung, Amara Dunqas fonde en 1504-1505 la ville de Sennar et le sultanat des Fungs, qui s'étend sur une partie du Soudan central. Dans la tradition orale, les Fungs sont surnommés les « Sultans noirs ». Leur sultanat dure jusqu'au début du XIXe siècle.",
+      "regions": [
+        "Sennar"
+      ],
+      "acteurs": [
+        "Amara Dunqas",
+        "Abdallah Jamma"
+      ],
+      "sources": [
+        "S40"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-keira-darfour",
+      "titre": "Les Keira prennent le pouvoir au Darfour",
+      "date": "1550-01-01",
+      "date_affichee": "milieu du XVIe siècle",
+      "precision": "siecle",
+      "description": "Vers le milieu du XVIe siècle, les Toungours du Darfour sont renversés par la dynastie des Keira, issue des Four, d'où le nom de Dar-Fur, « pays des Four ». Le premier sultan keira, Suleiman Solong, est réputé avoir introduit l'islam dans le royaume.",
+      "regions": [
+        "Darfour"
+      ],
+      "acteurs": [
+        "Keira",
+        "Four",
+        "Suleiman Solong"
+      ],
+      "sources": [
+        "S40"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-conquete-turco-egyptienne",
+      "titre": "Conquête turco-égyptienne du Soudan",
+      "date": "1820-10-01",
+      "date_affichee": "à partir d'octobre 1820",
+      "precision": "mois",
+      "description": "En octobre 1820, les troupes de Méhémet Ali quittent Wadi Halfa sous le commandement de son fils Ismaïl, avec des savants occidentaux. La conquête ouvre la période de l'administration turco-égyptienne, qui introduit télégraphes, vapeurs sur le Nil et irrigation, mais aussi de lourds impôts et un commerce d'esclaves.",
+      "regions": [
+        "Nord",
+        "Khartoum"
+      ],
+      "acteurs": [
+        "Méhémet Ali",
+        "Ismaïl"
+      ],
+      "sources": [
+        "S41",
+        "S5"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Épisode de conquête et de traite ; la présentation doit rester factuelle.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-mahdi-1881",
+      "titre": "Muhammad Ahmad se proclame le Mahdi",
+      "date": "1881-03-01",
+      "date_affichee": "mars 1881",
+      "precision": "mois",
+      "description": "Muhammad Ahmad Abdallah se proclame le Mahdi et prend les armes contre les « Turcs », c'est-à-dire les autorités turco-égyptiennes, pour restaurer un islam authentique. La défaite de petites troupes envoyées contre lui provoque un vaste mouvement d'adhésion. D'autres sources placent la proclamation en juin 1881.",
+      "regions": [
+        "Kordofan",
+        "Khartoum"
+      ],
+      "acteurs": [
+        "Muhammad Ahmad"
+      ],
+      "sources": [
+        "S42",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-chute-khartoum",
+      "titre": "Chute de Khartoum",
+      "date": "1885-01-01",
+      "date_affichee": "janvier 1885",
+      "precision": "mois",
+      "description": "Après un siège de plus de dix mois, Khartoum tombe aux mains des mahdistes. Le général Gordon est tué contre les ordres du Mahdi, et l'armée de secours britannique arrive quelques jours trop tard. Le Mahdi fait d'Omdourman sa cité sainte.",
+      "regions": [
+        "Khartoum"
+      ],
+      "acteurs": [
+        "Muhammad Ahmad",
+        "Charles Gordon"
+      ],
+      "sources": [
+        "S42"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-omdourman-1898",
+      "titre": "Bataille d'Omdourman",
+      "date": "1898-09-02",
+      "date_affichee": "2 septembre 1898",
+      "precision": "jour",
+      "description": "La victoire des forces anglo-égyptiennes sur les mahdistes, menées par Kitchener, met fin à l'État mahdiste. Le tombeau du Mahdi, endommagé par l'artillerie, est démoli à l'explosif par l'armée britannique.",
+      "regions": [
+        "Khartoum"
+      ],
+      "acteurs": [
+        "Kitchener",
+        "Abdallahi ibn Muhammad"
+      ],
+      "sources": [
+        "S42",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-condominium-1899",
+      "titre": "Condominium anglo-égyptien",
+      "date": "1899-01-01",
+      "date_affichee": "1899",
+      "precision": "annee",
+      "fin": "1955-12-31",
+      "description": "Le Royaume-Uni et l'Égypte s'accordent en 1899 pour gouverner ensemble le Soudan. Dans la pratique, le territoire est administré comme une colonie britannique, avec une administration directe au début, puis une politique de « indirect rule ».",
+      "regions": [
+        "Tout le Soudan"
+      ],
+      "acteurs": [
+        "Royaume-Uni",
+        "Égypte"
+      ],
+      "sources": [
+        "S44",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-fin-sultanat-darfour",
+      "titre": "Fin du sultanat du Darfour",
+      "date": "1916-05-01",
+      "date_affichee": "mai 1916",
+      "precision": "mois",
+      "description": "Ali Dinar, qui a déclaré le jihad contre les Européens et s'est associé aux Sénoussis de Libye, est défait par les Britanniques à El Fasher. Le Darfour perd ainsi l'indépendance qu'il avait retrouvée après la fin de la Mahdiyya.",
+      "regions": [
+        "Darfour"
+      ],
+      "acteurs": [
+        "Ali Dinar",
+        "major Kelly"
+      ],
+      "sources": [
+        "S43"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-drapeau-blanc",
+      "titre": "Ligue du drapeau blanc",
+      "date": "1924-01-01",
+      "date_affichee": "1924",
+      "precision": "annee",
+      "description": "Des postiers nationalistes forment la Ligue du drapeau blanc et protestent contre l'absence des Soudanais aux négociations anglo-égyptiennes. L'arrestation d'Ali Abd al-Latif provoque des manifestations de cadets, et la rébellion d'un bataillon soudanais est écrasée à Khartoum en novembre 1924.",
+      "regions": [
+        "Khartoum",
+        "Atbara"
+      ],
+      "acteurs": [
+        "Ali Abd al-Latif",
+        "Ligue du drapeau blanc"
+      ],
+      "sources": [
+        "S44"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-independance",
+      "titre": "Indépendance du Soudan",
+      "date": "1956-01-01",
+      "date_affichee": "1er janvier 1956",
+      "precision": "jour",
+      "description": "Le Soudan devient officiellement indépendant lors d'une cérémonie à Khartoum, où le drapeau soudanais remplace ceux de l'Égypte et du Royaume-Uni. Le gouvernement de coalition d'Ismaïl al-Azhari doit alors bâtir une constitution tenant compte de la diversité du pays.",
+      "regions": [
+        "Khartoum"
+      ],
+      "acteurs": [
+        "Ismaïl al-Azhari"
+      ],
+      "sources": [
+        "S45",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-revolution-octobre",
+      "titre": "Révolution d'octobre",
+      "date": "1964-10-01",
+      "date_affichee": "octobre 1964",
+      "precision": "mois",
+      "description": "Un soulèvement populaire et une grève générale renversent le régime militaire du général Abboud. La période de retour à la démocratie, de 1964 à 1969, est marquée par l'aggravation des combats dans le Sud.",
+      "regions": [
+        "Khartoum"
+      ],
+      "acteurs": [
+        "général Abboud"
+      ],
+      "sources": [
+        "S45",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-addis-abeba-1972",
+      "titre": "Accords d'Addis-Abeba",
+      "date": "1972-01-01",
+      "date_affichee": "1972",
+      "precision": "annee",
+      "description": "Les accords d'Addis-Abeba mettent fin à la première guerre civile : le Sud obtient une autonomie régionale, l'arabe reste langue nationale et l'anglais devient la première langue au Sud. Le texte est signé sous le régime de Nimeiry.",
+      "regions": [
+        "Sud (aujourd'hui Soudan du Sud)"
+      ],
+      "acteurs": [
+        "Gaafar Nimeiry",
+        "Joseph Lagu"
+      ],
+      "sources": [
+        "S45"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Épisode du conflit Nord-Sud ; présentation neutre.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "François ne donne que l'année 1972."
+      }
+    },
+    {
+      "id": "SD-evenement-execution-taha",
+      "titre": "Exécution de Mahmoud Mohamed Taha",
+      "date": "1985-01-18",
+      "date_affichee": "18 janvier 1985",
+      "precision": "jour",
+      "description": "Après une arrestation le 5 janvier et un procès de deux heures, la peine de mort par pendaison est confirmée le 15 janvier ; le président Nimeiry fixe l'exécution au 18. Le régime tombe peu après, sous l'effet de la famine, de la crise économique et d'une grève massive.",
+      "regions": [
+        "Khartoum"
+      ],
+      "acteurs": [
+        "Mahmoud Mohamed Taha",
+        "Gaafar Nimeiry"
+      ],
+      "sources": [
+        "S45"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Exécution politique ; présentation sobre, à partir d'une source académique.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-coup-bechir",
+      "titre": "Coup d'État d'Omar el-Bechir",
+      "date": "1989-06-30",
+      "date_affichee": "30 juin 1989",
+      "precision": "jour",
+      "description": "Le colonel Omar Hassan el-Bechir, appuyé par le mouvement islamiste, renverse le gouvernement par un coup d'État sans effusion de sang. Il restera au pouvoir jusqu'en 2019.",
+      "regions": [
+        "Khartoum"
+      ],
+      "acteurs": [
+        "Omar el-Bechir",
+        "Hassan al-Tourabi"
+      ],
+      "sources": [
+        "S45"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Période politique contestée ; présentation neutre.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-rebellion-darfour",
+      "titre": "Rébellion du Darfour",
+      "date": "2003-01-01",
+      "date_affichee": "2003",
+      "precision": "annee",
+      "description": "La rébellion du Darfour s'est déclenchée en 2003. La répression, avec l'usage de milices armées appelées Janjawid, a fait des dizaines de milliers de morts et déplacé près de deux millions de personnes, selon Bernard François ; Nicoloso et Beaumé parlent de près de trois millions de personnes ayant perdu terres ou vie. Des accords de paix ont été signés à Doha en 2011.",
+      "regions": [
+        "Darfour"
+      ],
+      "acteurs": [
+        "Four",
+        "Zaghawa",
+        "Masalit",
+        "Janjawid"
+      ],
+      "sources": [
+        "S45",
+        "S46"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Conflit récent aux responsabilités disputées ; les positions des parties et de l'ONU doivent être citées en détail lors de la relecture.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-accord-global-2005",
+      "titre": "Accord de paix global (CPA)",
+      "date": "2005-01-09",
+      "date_affichee": "9 janvier 2005",
+      "precision": "jour",
+      "description": "Après les négociations conduites sous médiation kényane, le Comprehensive Peace Agreement est signé le 9 janvier 2005. Il prévoit six ans de transition, puis un référendum d'autodétermination du Sud.",
+      "regions": [
+        "Tout le Soudan"
+      ],
+      "acteurs": [
+        "John Garang",
+        "gouvernement soudanais"
+      ],
+      "sources": [
+        "S45",
+        "S5"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Accord politique lié à la partition ; présentation neutre.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-soudan-sud",
+      "titre": "Indépendance du Soudan du Sud",
+      "date": "2011-07-09",
+      "date_affichee": "9 juillet 2011",
+      "precision": "jour",
+      "description": "Après le référendum de janvier 2011, qui donne une large majorité à la sécession, l'indépendance du Soudan du Sud est proclamée le 9 juillet. Le Soudan perd ainsi plus d'un quart de son territoire.",
+      "regions": [
+        "Tout le Soudan"
+      ],
+      "sources": [
+        "S45",
+        "S5"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Séparation territoriale ; présentation neutre.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le référendum est daté du 4 janvier par François et du 9 janvier par Wikipédia ; la fiche ne cite pas de jour."
+      }
+    },
+    {
+      "id": "SD-evenement-revolution-2019",
+      "titre": "Révolution soudanaise",
+      "date": "2018-12-19",
+      "date_affichee": "de décembre 2018 à août 2019",
+      "precision": "jour",
+      "fin": "2019-08-21",
+      "description": "Après le triplement du prix du pain, des manifestations débutent le 19 décembre 2018 à Atbara et gagnent Khartoum. Omar el-Bechir est renversé le 11 avril 2019 par un groupe de généraux ; le sit-in est dispersé dans le sang le 3 juin, puis une déclaration constitutionnelle est signée le 17 août et Abdallah Hamdok investi Premier ministre le 21 août.",
+      "regions": [
+        "Atbara",
+        "Khartoum"
+      ],
+      "acteurs": [
+        "Association des professionnels du Soudan",
+        "Abdallah Hamdok"
+      ],
+      "sources": [
+        "S45",
+        "S68"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Épisode politique récent et violent ; présentation neutre.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-guerre-2023",
+      "titre": "Début de la guerre entre l'armée et les Forces de soutien rapide",
+      "date": "2023-04-15",
+      "date_affichee": "15 avril 2023",
+      "precision": "jour",
+      "description": "Des affrontements éclatent le 15 avril 2023 entre l'armée dirigée par Abdel Fattah al-Burhan et les Forces de soutien rapide, deux factions issues du putsch d'octobre 2021. L'ONU qualifie la situation de pire crise humanitaire et de déplacement au monde, avec près de 13 millions de personnes déplacées de force depuis avril 2023, dont 8,6 millions à l'intérieur du pays.",
+      "regions": [
+        "Tout le Soudan"
+      ],
+      "acteurs": [
+        "Forces armées soudanaises",
+        "Forces de soutien rapide"
+      ],
+      "sources": [
+        "S69",
+        "S70"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Conflit en cours : les positions des parties et les chiffres de l'ONU sont cités avec leur source et leur date, et doivent être actualisés.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-el-fasher-2025",
+      "titre": "Prise d'El Fasher par les Forces de soutien rapide",
+      "date": "2025-10-26",
+      "date_affichee": "26 octobre 2025",
+      "precision": "jour",
+      "description": "Selon l'ONU, les Forces de soutien rapide prennent le contrôle d'El Fasher le 26 octobre 2025, une escalade qui s'accompagne de violences dans le nord du Darfour et au Kordofan. La ville abritait le palais du sultan Ali Dinar, aujourd'hui en ruines.",
+      "regions": [
+        "Darfour du Nord"
+      ],
+      "acteurs": [
+        "Forces de soutien rapide"
+      ],
+      "sources": [
+        "S69",
+        "S71"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement récent très sensible ; la fiche reprend uniquement la formulation de l'ONU et doit être mise à jour avec des sources actuelles.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-pillage-patrimoine",
+      "titre": "Pillage et destruction du patrimoine culturel",
+      "date": "2025-12-12",
+      "date_affichee": "enquête publiée en décembre 2025",
+      "precision": "mois",
+      "description": "Une enquête de l'ONG Bouclier bleu international et du Réseau Ayin, relayée par RFI, confirme par images satellites et données de terrain le pillage et les dommages subis par des dizaines de sites, musées et bibliothèques. Le Musée national de Khartoum, ceux de Nyala et d'El Geneina et la maison du Khalifa à Omdourman sont cités. Les autorités estiment à plus de 100 000 pièces la collection du Musée national.",
+      "regions": [
+        "Khartoum",
+        "Darfour",
+        "Omdourman"
+      ],
+      "acteurs": [
+        "Bouclier bleu international",
+        "Réseau Ayin"
+      ],
+      "sources": [
+        "S71",
+        "S85"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Les responsabilités attribuées dans l'enquête sont contestées et ne sont pas détaillées ici ; à confronter aux déclarations de l'UNESCO.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-evenement-cannes-goodbye-julia",
+      "titre": "« Goodbye Julia » à Cannes",
+      "date": "2023-01-01",
+      "date_affichee": "2023 (Festival de Cannes, Un Certain Regard)",
+      "precision": "annee",
+      "description": "Le premier long métrage de Mohamed Kordofani est sélectionné en Un Certain Regard en 2023 et reçoit le Prix de la Liberté. Il est présenté comme le premier film soudanais de la sélection officielle ; l'histoire se situe à la veille de la division du Soudan.",
+      "regions": [
+        "Khartoum"
+      ],
+      "acteurs": [
+        "Mohamed Kordofani"
+      ],
+      "sources": [
+        "S72"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date exacte de la projection non lue dans la source ouverte ; précision à l'année."
+      }
+    }
+  ],
+  "oeuvres": [
+    {
+      "id": "SD-oeuvre-shabti-taharqo",
+      "titre": "Shabti de Taharqo",
+      "type": "sculpture",
+      "description": "Ce shabti, figurine funéraire destinée à servir le défunt dans l'au-delà, porte le nom du roi koushite Taharqo. Il est taillé dans un granit d'une variété nubienne et provient probablement de Nouri, la nécropole royale où le souverain fut enterré. Il illustre la manière dont les rois de la XXVe dynastie ont adopté les codes funéraires égyptiens.",
+      "createur": "atelier royal de Taharqo",
+      "periode": "690-664 av. J.-C.",
+      "materiaux": [
+        "granit (variété nubienne)"
+      ],
+      "regions": [
+        "Nouri (Nord)"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "18.2.10",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/544883",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access CC0) ; image non reproduite ici.",
+      "sources": [
+        "S74",
+        "S35"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Titre, date, matériau, lieu probable (Nouri) et numéro 18.2.10 lus dans l'API du Met."
+      }
+    },
+    {
+      "id": "SD-oeuvre-menat-bastet-taharqo",
+      "titre": "Contrepoids de collier menat montrant Bastet allaitant Taharqo",
+      "type": "bijou",
+      "description": "Ce contrepoids de collier cérémoniel, en faïence, montre une déesse à tête de lionne, Bastet, allaitant le roi Taharqo. L'image relie le souverain koushite à la protection des divinités du panthéon égyptien. Le Met le rattache à la Nubie et le date de 690 à 645 av. J.-C.",
+      "createur": "atelier royal de Taharqo",
+      "periode": "690-645 av. J.-C.",
+      "materiaux": [
+        "faïence"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "41.160.104",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/544882",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access CC0) ; image non reproduite ici.",
+      "sources": [
+        "S75"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Titre, date, matériau, numéro lus dans l'API du Met (provenance « Possibly from Nubia »). Mention « à tête de lionne » lue dans le champ objectName du Met."
+      }
+    },
+    {
+      "id": "SD-oeuvre-jarre-meroitique",
+      "titre": "Jarre sphérique à quatre rangées de décor peint (période méroïtique)",
+      "type": "poterie",
+      "description": "Cette jarre sphérique en céramique est décorée de quatre rangées de motifs peints. Elle date de la période méroïtique, entre 100 av. J.-C. et 300 apr. J.-C., et provient de Nubie. Haute de 16,5 cm, elle donne une idée des poteries décorées de l'époque de Méroé.",
+      "communaute": "potiers méroïtiques",
+      "periode": "100 av. J.-C.-300 apr. J.-C.",
+      "materiaux": [
+        "céramique",
+        "peinture"
+      ],
+      "regions": [
+        "Nubie"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "08.202.47",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/548213",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access CC0) ; image non reproduite ici.",
+      "sources": [
+        "S76",
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Titre, période, hauteur 16,5 cm, matériaux et numéro lus dans l'API du Met."
+      }
+    },
+    {
+      "id": "SD-oeuvre-jibba-mahdiste",
+      "titre": "Jibba (tunique) mahdiste",
+      "type": "textile",
+      "description": "Cette tunique en coton et en laine teintée, dite jibba, est attribuée aux « peuples mahdistes » et datée de 1881-1898, période de l'État mahdiste. Elle mesure environ 142 cm de large sur 105 cm de long. Elle témoigne de la culture matérielle liée au mouvement fondé par Muhammad Ahmad.",
+      "communaute": "peuples mahdistes",
+      "periode": "1881-1898",
+      "materiaux": [
+        "coton",
+        "laine",
+        "teinture"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1993.370",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/316784",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access CC0) ; image non reproduite ici.",
+      "sources": [
+        "S77",
+        "S42"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Objet associé à un mouvement religieux et politique ; description factuelle à relire.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Titre, culture, dates, dimensions et numéro lus dans l'API du Met."
+      }
+    },
+    {
+      "id": "SD-oeuvre-stele-victoire-piankhy",
+      "titre": "Stèle de la Victoire de Piankhy",
+      "type": "stèle",
+      "description": "Cette massive stèle de granit gris est gravée sur ses quatre faces d'un texte de 159 lignes qui raconte la campagne de Piankhy en Égypte. Retrouvée en 1862 par un officier égyptien et envoyée au khédive, elle est aujourd'hui conservée au musée du Caire. Elle est l'un des principaux témoignages écrits de la XXVe dynastie.",
+      "createur": "scribes de Piankhy",
+      "periode": "VIIIe siècle av. J.-C.",
+      "materiaux": [
+        "granit gris"
+      ],
+      "regions": [
+        "Gebel Barkal (lieu d'érection)"
+      ],
+      "institution": "Musée égyptien du Caire (selon Rilly)",
+      "url_notice": "https://books.openedition.org/africae/2807",
+      "droits": "Pas de notice de musée consultée : lien vers le chapitre de l'ouvrage de Claude Rilly qui décrit la stèle ; aucune image reproduite.",
+      "sources": [
+        "S35"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lien = chapitre 5 de Rilly (pas de notice muséale ouverte) ; numéro d'inventaire non lu."
+      }
+    },
+    {
+      "id": "SD-oeuvre-statue-anlamani",
+      "titre": "Statue d'Anlamani du Gebel Barkal",
+      "type": "sculpture",
+      "description": "Cette statue de grande taille, de 3,80 m, présente le roi Anlamani coiffé de la couronne à quadruple plume du dieu Onouris. Retrouvée au Gebel Barkal, elle est aujourd'hui, selon Claude Rilly, au musée de Boston. Une autre statue du roi, découverte en 2003 à Doukki Gel, le montre avec la double couronne des pharaons, le double uraeus de Koush et les cornes de bélier d'Amon de Napata.",
+      "createur": "atelier royal d'Anlamani",
+      "periode": "VIe siècle av. J.-C.",
+      "regions": [
+        "Gebel Barkal"
+      ],
+      "institution": "Museum of Fine Arts, Boston (selon Rilly)",
+      "url_notice": "https://books.openedition.org/africae/2812",
+      "droits": "Pas de notice de musée consultée : lien vers le chapitre de Claude Rilly ; aucune image reproduite.",
+      "sources": [
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Localisation « musée de Boston » lue dans Rilly ; notice MFA non ouverte, numéro d'inventaire non lu. Date « VIe siècle » déduite de Rilly (Anlamani régna environ deux siècles et demi avant Nastasen) : à vérifier."
+      }
+    },
+    {
+      "id": "SD-oeuvre-reborn-sounds",
+      "titre": "Reborn Sounds of Childhood Dreams I",
+      "type": "peinture",
+      "description": "Peinture à l'émail et à l'huile sur coton, réalisée par Ibrahim El-Salahi entre 1961 et 1965, au moment où l'artiste fonde l'école de Khartoum. Elle est exposée à la Tate Modern, à Londres. Son titre évoque la mémoire de l'enfance, et ses motifs s'inspirent des coutumes et des contes traditionnels.",
+      "createur": "Ibrahim El-Salahi",
+      "periode": "1961-1965",
+      "materiaux": [
+        "peinture émail",
+        "peinture à l'huile",
+        "coton"
+      ],
+      "institution": "Tate (Tate Modern, Londres)",
+      "numero_inventaire": "T13979",
+      "url_notice": "https://www.tate.org.uk/art/artworks/el-salahi-reborn-sounds-of-childhood-dreams-i-t13979",
+      "droits": "Notice de la Tate ; image non reproduite ici.",
+      "sources": [
+        "S66",
+        "S67",
+        "S51"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Titre, date, médium lus sur la page Tate ; numéro T13979 déduit de l'URL de la notice (à confirmer). Lien avec les contes traditionnels : Nicoloso et al. à propos de l'artiste en général."
+      }
+    },
+    {
+      "id": "SD-oeuvre-saison-migration-nord",
+      "titre": "Saison de la migration vers le Nord",
+      "type": "livre",
+      "description": "Roman de Tayeb Salih, qui suit le retour d'un jeune Soudanais dans son village des bords du Nil après des études en Grande-Bretagne, et le choc culturel qui en découle. Il est considéré comme l'une des œuvres majeures de la littérature arabe, avec des traductions dans plus d'une dizaine de langues. L'édition française a paru chez Sindbad en 1983.",
+      "createur": "Tayeb Salih",
+      "periode": "années 1960",
+      "institution": "Bibliothèque de l'African Studies Centre Leiden (fiche de l'auteur)",
+      "url_notice": "https://www.ascleiden.nl/content/library-weekly/tayeb-salih",
+      "droits": "Œuvre protégée ; aucun extrait reproduit.",
+      "sources": [
+        "S63",
+        "S51"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de parution originale : Nicoloso et al. donnent 1968 ; autres sources 1966-1969 (non ouvertes). Édition française Sindbad 1983 lue sur la fiche ASC Leiden."
+      }
+    },
+    {
+      "id": "SD-oeuvre-talking-about-trees",
+      "titre": "Talking About Trees",
+      "type": "film",
+      "description": "Documentaire de Suhaib Gasmelbari (2019, coproduction France, Soudan, Allemagne, Tchad, Qatar) sur quatre membres du Sudanese Film Club qui veulent rouvrir un vieux cinéma. Unis par leur amour du cinéma et par leur formation en exil, ils essaient de restaurer des pellicules et de redonner sa place à l'histoire du cinéma soudanais. Le film a été présenté au Berlinale dans la section Panorama Documents 2019.",
+      "createur": "Suhaib Gasmelbari",
+      "periode": "2019",
+      "institution": "Berlinale (fiche officielle du programme 2019)",
+      "url_notice": "https://www.berlinale.de/en/2019/programme/201918539.html",
+      "droits": "Fiche de festival ; aucune image reproduite.",
+      "sources": [
+        "S73"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-oeuvre-goodbye-julia",
+      "titre": "Goodbye Julia",
+      "type": "film",
+      "description": "Premier long métrage de Mohamed Kordofani (2023, 120 minutes), sélectionné en Un Certain Regard à Cannes où il reçoit le Prix de la Liberté. À la veille de la division du Soudan, Mona, ex-chanteuse nord-soudanaise, tente de se racheter d'avoir causé accidentellement la mort d'un homme sud-soudanais en engageant sa femme comme domestique.",
+      "createur": "Mohamed Kordofani",
+      "periode": "2023",
+      "institution": "Festival de Cannes (fiche officielle Cinéma de demain)",
+      "url_notice": "https://cinemadedemain.festival-cannes.com/f/goodbye-julia/",
+      "droits": "Fiche de festival ; aucune image reproduite.",
+      "sources": [
+        "S72"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Film traitant de la partition du Soudan et du racisme ; présentation neutre limitée au résumé officiel.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-oeuvre-chansons-wardi",
+      "titre": "Chansons de Mohammed Wardi",
+      "type": "musique",
+      "description": "L'œuvre de Mohammed Wardi, qui s'étend sur plus de cinq décennies, comprend des chansons patriotiques et romantiques, dont « Beautiful and Impossible », « A Young Rose », « Old Grief » et « Migrating Birds ». Il choisissait ses paroles auprès de poètes reconnus, comme Mahjoub Sharief ou Salah Ahmed Ibrahim, avant de composer les mélodies. Ses chansons ont été reprises dans la révolution soudanaise de 2019.",
+      "createur": "Mohammed Wardi",
+      "periode": "années 1950-années 2000",
+      "institution": "Œuvre enregistrée (fiche ArabLit)",
+      "url_notice": "https://arablit.org/2020/02/18/remembering-muhammad-wardi-censored-banned-and-beloved/",
+      "droits": "Œuvre protégée ; aucun extrait reproduit.",
+      "sources": [
+        "S65",
+        "S64"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Titres en anglais lus dans ArabLit ; titres arabes originaux non lus."
+      }
+    }
+  ],
+  "proverbes": [
+    {
+      "id": "SD-proverbe-professeur-patience",
+      "texte_original": "Ya muꜥallem eṣ-ṣabr ꜥallemni !",
+      "langue": "arabe soudanais",
+      "traduction": "Ô professeur de patience, enseigne-moi !",
+      "sens": "Le proverbe fait de la patience la première vertu du voyageur au Soudan, où le temps « prend son temps » et où les trains comme les caravanes avancent lentement.",
+      "publication": "Olivier Cabon, « Avant-propos », in Histoire et civilisation du Soudan, Soleb / Bleu autour / Africae, 2017, p. 18-25 (édition en ligne OpenEdition Books).",
+      "note": "Translittération de l'auteur, reprise telle quelle ; à confirmer par un locuteur.",
+      "sources": [
+        "S33"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SD-proverbe-terre-notre-terre",
+      "texte_original": "û-hâsh hâshon",
+      "langue": "bedja",
+      "traduction": "La terre est notre terre.",
+      "sens": "Adage juridique bedja : les droits sur le sol sont inaliénables, si bien qu'un litige foncier commencé en arabe devant le juge se poursuit en bedja.",
+      "publication": "Didier Morin, « Sur la dynamique des langues dans l'est du Soudan », Égypte/Monde arabe, n° 17 (Soudan 2), 1994, p. 143-153, § 15 (l'auteur renvoie à Morton).",
+      "note": "Présenté par l'auteur comme « adage juridique bedja » ; graphie reprise de l'article, à confirmer par un locuteur bedja.",
+      "sources": [
+        "S54"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "titre": "Banque mondiale, Population totale (SP.POP.TOTL), Soudan",
+      "institution": "Banque mondiale",
+      "annee": 2025,
+      "url": "https://api.worldbank.org/v2/country/SD/indicator/SP.POP.TOTL?format=json",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S2",
+      "titre": "Banque mondiale, Superficie totale (AG.SRF.TOTL.K2), Soudan",
+      "institution": "Banque mondiale",
+      "annee": 2024,
+      "url": "https://api.worldbank.org/v2/country/SD/indicator/AG.SRF.TOTL.K2?format=json",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S3",
+      "titre": "Soudan (Q1049) — Wikidata",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q1049",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S4",
+      "titre": "Constitution nationale transitoire du Soudan de 2005 (texte, art. 8 sur les langues)",
+      "institution": "Comparative Constitutions Project (Constitute)",
+      "annee": 2005,
+      "url": "https://www.constituteproject.org/constitution/Sudan_2005",
+      "type": "institution",
+      "licence": "Texte de loi ; plateforme sous licence CC BY-NC 3.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S5",
+      "titre": "Soudan — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Soudan",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S6",
+      "titre": "Langues au Soudan — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Langues_au_Soudan",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S7",
+      "titre": "Sites archéologiques de l'île de Méroé — Centre du patrimoine mondial",
+      "institution": "UNESCO",
+      "url": "https://whc.unesco.org/fr/list/1336",
+      "type": "unesco",
+      "licence": "Description sous licence CC BY-SA IGO 3.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S8",
+      "titre": "Gebel Barkal et les sites de la région napatéenne — Centre du patrimoine mondial",
+      "institution": "UNESCO",
+      "url": "https://whc.unesco.org/fr/list/1073",
+      "type": "unesco",
+      "licence": "Description sous licence CC BY-SA IGO 3.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S9",
+      "titre": "Parc national marin de Sanganeb et Parc national marin de la baie de Dungonab – île de Mukkawar — Centre du patrimoine mondial",
+      "institution": "UNESCO",
+      "url": "https://whc.unesco.org/fr/list/262",
+      "type": "unesco",
+      "licence": "Description sous licence CC BY-SA IGO 3.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S10",
+      "titre": "Al-Jertiq: practices, rituals and expressions for preservation, protection, abundance and fertility in Sudan (n° 02275)",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/al-jertiq-practices-rituals-and-expressions-for-preservation-protection-abundance-and-fertility-in-sudan-02275",
+      "type": "unesco",
+      "licence": "© UNESCO (texte en ligne)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S11",
+      "titre": "Henna: rituals, aesthetic and social practices (n° 02116)",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/henna-rituals-aesthetic-and-social-practices-02116",
+      "type": "unesco",
+      "licence": "© UNESCO (texte en ligne)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S12",
+      "titre": "Procession and celebrations of Prophet Mohammed's birthday in Sudan (n° 01896)",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/procession-and-celebrations-of-prophet-mohammed-s-birthday-in-sudan-01896",
+      "type": "unesco",
+      "licence": "© UNESCO (texte en ligne)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S13",
+      "titre": "Arts, skills and practices associated with engraving on metals (gold, silver and copper) (n° 01951)",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/arts-skills-and-practices-associated-with-engraving-on-metals-gold-silver-and-copper-01951",
+      "type": "unesco",
+      "licence": "© UNESCO (texte en ligne)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S14",
+      "titre": "Date palm, knowledge, skills, traditions and practices (n° 01902)",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/date-palm-knowledge-skills-traditions-and-practices-01902",
+      "type": "unesco",
+      "licence": "© UNESCO (texte en ligne)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S15",
+      "titre": "Arabic calligraphy: knowledge, skills and practices (n° 01718)",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/arabic-calligraphy-knowledge-skills-and-practices-01718",
+      "type": "unesco",
+      "licence": "© UNESCO (texte en ligne)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S16",
+      "titre": "Glottolog 5.4 — Arabic (arab1395)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/arab1395",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S17",
+      "titre": "Glottolog 5.4 — English (stan1293)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1293",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S18",
+      "titre": "Glottolog 5.4 — Sudanese Arabic (suda1236)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/suda1236",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S19",
+      "titre": "Glottolog 5.4 — Beja (beja1238)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/beja1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S20",
+      "titre": "Glottolog 5.4 — Nobiin (nobi1240)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/nobi1240",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S21",
+      "titre": "Glottolog 5.4 — Dongola (dong1288)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/dong1288",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S22",
+      "titre": "Glottolog 5.4 — Fur (furr1244)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/furr1244",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S23",
+      "titre": "Glottolog 5.4 — Masalit (nucl1440)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/nucl1440",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S24",
+      "titre": "Glottolog 5.4 — Beria (zagh1240)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/zagh1240",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S25",
+      "titre": "Glottolog 5.4 — Tama (Chad) (tama1331)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/tama1331",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S26",
+      "titre": "Glottolog 5.4 — Berta (bert1248)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/bert1248",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S27",
+      "titre": "Glottolog 5.4 — Midob (mido1240)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/mido1240",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S28",
+      "titre": "Glottolog 5.4 — Koalib-Rere (koal1240)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/koal1240",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S29",
+      "titre": "Glottolog 5.4 — Tigre (tigr1270)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/tigr1270",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S30",
+      "titre": "Glottolog 5.4 — Uduk (uduk1239)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/uduk1239",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S31",
+      "titre": "Glottolog 5.4 — Otoro (otor1240)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/otor1240",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S32",
+      "titre": "Glottolog 5.4 — Northern Gumuz (gumu1244)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/gumu1244",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S33",
+      "titre": "Avant-propos — in Histoire et civilisation du Soudan, Soleb / Bleu autour / Africae, 2017 (édition en ligne OpenEdition Books)",
+      "institution": "OpenEdition Books / Africae",
+      "auteur": "Olivier Cabon",
+      "annee": 2017,
+      "url": "https://books.openedition.org/africae/2767",
+      "type": "livre",
+      "licence": "CC BY-NC-ND 4.0 (texte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S34",
+      "titre": "3. La Terre de l'Arc. Le Groupe C et le royaume de Kerma. 2450-1450 av. J.-C. — in Histoire et civilisation du Soudan, Soleb / Bleu autour / Africae, 2017 (édition en ligne OpenEdition Books)",
+      "institution": "OpenEdition Books / Africae",
+      "auteur": "Claude Rilly",
+      "annee": 2017,
+      "url": "https://books.openedition.org/africae/2797",
+      "type": "livre",
+      "licence": "CC BY-NC-ND 4.0 (texte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S35",
+      "titre": "5. « C'est Amon qui m'a fait ! » Napata et la conquête de l'Égypte. 850-664 av. J.-C. — in Histoire et civilisation du Soudan, Soleb / Bleu autour / Africae, 2017 (édition en ligne OpenEdition Books)",
+      "institution": "OpenEdition Books / Africae",
+      "auteur": "Claude Rilly",
+      "annee": 2017,
+      "url": "https://books.openedition.org/africae/2807",
+      "type": "livre",
+      "licence": "CC BY-NC-ND 4.0 (texte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S36",
+      "titre": "6. L'autre Terre des pharaons. Le royaume de Napata. 664-290 av. J.-C. — in Histoire et civilisation du Soudan, Soleb / Bleu autour / Africae, 2017 (édition en ligne OpenEdition Books)",
+      "institution": "OpenEdition Books / Africae",
+      "auteur": "Claude Rilly",
+      "annee": 2017,
+      "url": "https://books.openedition.org/africae/2812",
+      "type": "livre",
+      "licence": "CC BY-NC-ND 4.0 (texte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S37",
+      "titre": "7. Des temples dans la savane. Le royaume de Méroé. 290 av. J.-C.-350 apr. J.-C. — in Histoire et civilisation du Soudan, Soleb / Bleu autour / Africae, 2017 (édition en ligne OpenEdition Books)",
+      "institution": "OpenEdition Books / Africae",
+      "auteur": "Claude Rilly",
+      "annee": 2017,
+      "url": "https://books.openedition.org/africae/2817",
+      "type": "livre",
+      "licence": "CC BY-NC-ND 4.0 (texte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S38",
+      "titre": "9. Batailles sur les ruines de Méroé. Blemmyes et Nubiens : les royaumes postméroïtiques. 350-543 apr. J.-C. — in Histoire et civilisation du Soudan, Soleb / Bleu autour / Africae, 2017 (édition en ligne OpenEdition Books)",
+      "institution": "OpenEdition Books / Africae",
+      "auteur": "Claude Rilly",
+      "annee": 2017,
+      "url": "https://books.openedition.org/africae/2827",
+      "type": "livre",
+      "licence": "CC BY-NC-ND 4.0 (texte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S39",
+      "titre": "10. Des « rois grecs » à la peau sombre. Les royaumes chrétiens du Soudan médiéval. 543-1500 apr. J.-C. — in Histoire et civilisation du Soudan, Soleb / Bleu autour / Africae, 2017 (édition en ligne OpenEdition Books)",
+      "institution": "OpenEdition Books / Africae",
+      "auteur": "Claude Rilly",
+      "annee": 2017,
+      "url": "https://books.openedition.org/africae/2832",
+      "type": "livre",
+      "licence": "CC BY-NC-ND 4.0 (texte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S40",
+      "titre": "11. La victoire de l'islam. Ottomans et Fungs. 1500-1820 — in Histoire et civilisation du Soudan, Soleb / Bleu autour / Africae, 2017 (édition en ligne OpenEdition Books)",
+      "institution": "OpenEdition Books / Africae",
+      "auteur": "Claude Rilly",
+      "annee": 2017,
+      "url": "https://books.openedition.org/africae/2837",
+      "type": "livre",
+      "licence": "CC BY-NC-ND 4.0 (texte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S41",
+      "titre": "2. La création du Soudan moderne 1820-1885 — in Histoire et civilisation du Soudan, Soleb / Bleu autour / Africae, 2017 (édition en ligne OpenEdition Books)",
+      "institution": "OpenEdition Books / Africae",
+      "auteur": "Bernard François",
+      "annee": 2017,
+      "url": "https://books.openedition.org/africae/2892",
+      "type": "livre",
+      "licence": "CC BY-NC-ND 4.0 (texte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S42",
+      "titre": "3. La période mahdiste 1885-1898 — in Histoire et civilisation du Soudan, Soleb / Bleu autour / Africae, 2017 (édition en ligne OpenEdition Books)",
+      "institution": "OpenEdition Books / Africae",
+      "auteur": "Bernard François",
+      "annee": 2017,
+      "url": "https://books.openedition.org/africae/2897",
+      "type": "livre",
+      "licence": "CC BY-NC-ND 4.0 (texte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S43",
+      "titre": "4. Le royaume du Darfour — in Histoire et civilisation du Soudan, Soleb / Bleu autour / Africae, 2017 (édition en ligne OpenEdition Books)",
+      "institution": "OpenEdition Books / Africae",
+      "auteur": "Bernard François",
+      "annee": 2017,
+      "url": "https://books.openedition.org/africae/2902",
+      "type": "livre",
+      "licence": "CC BY-NC-ND 4.0 (texte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S44",
+      "titre": "5. Le condominium anglo-égyptien 1899-1955 — in Histoire et civilisation du Soudan, Soleb / Bleu autour / Africae, 2017 (édition en ligne OpenEdition Books)",
+      "institution": "OpenEdition Books / Africae",
+      "auteur": "Bernard François",
+      "annee": 2017,
+      "url": "https://books.openedition.org/africae/2907",
+      "type": "livre",
+      "licence": "CC BY-NC-ND 4.0 (texte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S45",
+      "titre": "6. Le Soudan indépendant — in Histoire et civilisation du Soudan, Soleb / Bleu autour / Africae, 2017 (édition en ligne OpenEdition Books)",
+      "institution": "OpenEdition Books / Africae",
+      "auteur": "Bernard François",
+      "annee": 2017,
+      "url": "https://books.openedition.org/africae/2912",
+      "type": "livre",
+      "licence": "CC BY-NC-ND 4.0 (texte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S46",
+      "titre": "Au Soudan aujourd'hui — in Histoire et civilisation du Soudan, Soleb / Bleu autour / Africae, 2017 (édition en ligne OpenEdition Books)",
+      "institution": "OpenEdition Books / Africae",
+      "auteur": "Odile Nicoloso et Nicolas Beaumé",
+      "annee": 2017,
+      "url": "https://books.openedition.org/africae/2932",
+      "type": "livre",
+      "licence": "CC BY-NC-ND 4.0 (texte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S47",
+      "titre": "La population — in Histoire et civilisation du Soudan, Soleb / Bleu autour / Africae, 2017 (édition en ligne OpenEdition Books)",
+      "institution": "OpenEdition Books / Africae",
+      "auteur": "Odile Nicoloso et Olivier Cabon",
+      "annee": 2017,
+      "url": "https://books.openedition.org/africae/2962",
+      "type": "livre",
+      "licence": "CC BY-NC-ND 4.0 (texte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S48",
+      "titre": "La condition féminine — in Histoire et civilisation du Soudan, Soleb / Bleu autour / Africae, 2017 (édition en ligne OpenEdition Books)",
+      "institution": "OpenEdition Books / Africae",
+      "auteur": "Odile Nicoloso et Nicolas Beaumé",
+      "annee": 2017,
+      "url": "https://books.openedition.org/africae/2972",
+      "type": "livre",
+      "licence": "CC BY-NC-ND 4.0 (texte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S49",
+      "titre": "Rites du mariage — in Histoire et civilisation du Soudan, Soleb / Bleu autour / Africae, 2017 (édition en ligne OpenEdition Books)",
+      "institution": "OpenEdition Books / Africae",
+      "auteur": "Odile Nicoloso et Nicolas Beaumé",
+      "annee": 2017,
+      "url": "https://books.openedition.org/africae/2977",
+      "type": "livre",
+      "licence": "CC BY-NC-ND 4.0 (texte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S50",
+      "titre": "La nourriture — in Histoire et civilisation du Soudan, Soleb / Bleu autour / Africae, 2017 (édition en ligne OpenEdition Books)",
+      "institution": "OpenEdition Books / Africae",
+      "auteur": "Odile Nicoloso et Nicolas Beaumé",
+      "annee": 2017,
+      "url": "https://books.openedition.org/africae/2987",
+      "type": "livre",
+      "licence": "CC BY-NC-ND 4.0 (texte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S51",
+      "titre": "Les artistes — in Histoire et civilisation du Soudan, Soleb / Bleu autour / Africae, 2017 (édition en ligne OpenEdition Books)",
+      "institution": "OpenEdition Books / Africae",
+      "auteur": "Odile Nicoloso, Mohamed Musa Ibrahim et Olivier Cabon",
+      "annee": 2017,
+      "url": "https://books.openedition.org/africae/2992",
+      "type": "livre",
+      "licence": "CC BY-NC-ND 4.0 (texte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S52",
+      "titre": "Le conflit oublié des Beja : l'Est-Soudan au cœur de la Corne de l'Afrique ?",
+      "institution": "Humanitaire (OpenEdition Journals), n° 22",
+      "auteur": "Jérôme Larché",
+      "annee": 2009,
+      "url": "https://journals.openedition.org/humanitaire/417",
+      "type": "article_scientifique",
+      "licence": "Accès ouvert OpenEdition (droits réservés à la revue)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S53",
+      "titre": "L'Espace et la poésie bedja (Soudan)",
+      "institution": "Journal des africanistes, 79-2 (OpenEdition Journals)",
+      "auteur": "Mohamed-Tahir Hamid Ahmed",
+      "annee": 2009,
+      "url": "https://journals.openedition.org/africanistes/3005",
+      "type": "article_scientifique",
+      "licence": "Accès ouvert OpenEdition (droits réservés à la revue)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S54",
+      "titre": "Sur la dynamique des langues dans l'est du Soudan",
+      "institution": "Égypte/Monde arabe, n° 17, CEDEJ (OpenEdition Journals)",
+      "auteur": "Didier Morin",
+      "annee": 1994,
+      "url": "https://journals.openedition.org/ema/1457",
+      "type": "article_scientifique",
+      "licence": "Accès ouvert OpenEdition (droits réservés à la revue)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S55",
+      "titre": "Figures nubiennes de l'ethnie, de la minorité, de la nation (Égypte, Soudan)",
+      "institution": "Ateliers d'anthropologie / Ateliers du LESC, n° 26 (OpenEdition Journals)",
+      "auteur": "Frédérique Fogel",
+      "annee": 2003,
+      "url": "https://journals.openedition.org/atelierslesc/8734",
+      "type": "article_scientifique",
+      "licence": "Accès ouvert OpenEdition (droits réservés à la revue)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S56",
+      "titre": "Des Nubies, des Nubiens : traditions scientifiques et locales de l'identité",
+      "institution": "Égypte/Monde arabe, n° 24 (OpenEdition Journals)",
+      "auteur": "Frédérique Fogel",
+      "annee": 1995,
+      "url": "https://journals.openedition.org/ema/634",
+      "type": "article_scientifique",
+      "licence": "Accès ouvert OpenEdition (droits réservés à la revue)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S57",
+      "titre": "Rareté de ressources et conflit entre pasteurs et agriculteurs au Sud-Kordofan, Soudan",
+      "institution": "Cultures & Conflits, n° 88 (OpenEdition Journals)",
+      "auteur": "Salomé Bronkhorst",
+      "annee": 2012,
+      "url": "https://journals.openedition.org/conflits/18589",
+      "type": "article_scientifique",
+      "licence": "Accès ouvert OpenEdition (droits réservés à la revue)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S58",
+      "titre": "La littérature orale en koalib (Sud-Kordofan)",
+      "institution": "HAL-SHS, Études littéraires africaines",
+      "auteur": "Nicolas Quint",
+      "annee": 2010,
+      "url": "https://shs.hal.science/halshs-00584032",
+      "type": "article_scientifique",
+      "licence": "Dépôt HAL (droits selon la revue)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S59",
+      "titre": "Bouche, voix, langage : la parole chez les Beri (Tchad)",
+      "institution": "Journal des Africanistes, 57-1 (Persée)",
+      "auteur": "Marie-José Tubiana",
+      "annee": 1987,
+      "url": "https://www.persee.fr/doc/jafr_0399-0346_1987_num_57_1_2173",
+      "type": "article_scientifique",
+      "licence": "Accès ouvert Persée (droits réservés à la revue)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S60",
+      "titre": "Compte rendu de I. Cunnison, Baggara Arabs (Oxford, Clarendon Press, 1966)",
+      "institution": "L'Homme, 7-4 (Persée)",
+      "auteur": "Jeanne Favret-Saada",
+      "annee": 1967,
+      "url": "https://www.persee.fr/doc/hom_0439-4216_1967_num_7_4_366927",
+      "type": "article_scientifique",
+      "licence": "Accès ouvert Persée (droits réservés à la revue)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S61",
+      "titre": "Prominent Sudanese feminist passes away (Fatima Ahmed Ibrahim)",
+      "institution": "Agence Anadolu",
+      "auteur": "Mohammed Amin",
+      "annee": 2017,
+      "url": "https://aa.com.tr/en/africa/prominent-sudanese-feminist-passes-away/883084",
+      "type": "presse",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S62",
+      "titre": "A Pioneer of Modernity: Aisha al-Fallatiya",
+      "institution": "Women in Islam / SIHA Network",
+      "auteur": "Reem Abbas ; Nusreldin Eldouma",
+      "annee": 2018,
+      "url": "https://womeninislam.squarespace.com/articles/2018/10/30/a-pioneer-of-modernity-aisha-al-fallatiya",
+      "type": "presse",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S63",
+      "titre": "Tayeb Salih — Library weekly",
+      "institution": "African Studies Centre Leiden",
+      "annee": 2022,
+      "url": "https://www.ascleiden.nl/content/library-weekly/tayeb-salih",
+      "type": "universite",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S64",
+      "titre": "The Story of Mohammed Wardi, 'The Last King of Nubia'",
+      "institution": "OkayAfrica",
+      "auteur": "Vik Sohonie (entretien avec Abdulwahab Wardi)",
+      "annee": 2018,
+      "url": "https://www.okayafrica.com/the-story-of-mohammed-wardi-the-last-king-of-nubia/114646",
+      "type": "presse",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S65",
+      "titre": "Remembering Muhammad Wardi: Censored, Banned, and Beloved",
+      "institution": "ArabLit & ArabLit Quarterly",
+      "auteur": "Lemya Shammat",
+      "annee": 2020,
+      "url": "https://arablit.org/2020/02/18/remembering-muhammad-wardi-censored-banned-and-beloved/",
+      "type": "presse",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S66",
+      "titre": "Ibrahim El-Salahi, Reborn Sounds of Childhood Dreams I, 1961-5",
+      "institution": "Tate",
+      "url": "https://www.tate.org.uk/art/artworks/el-salahi-reborn-sounds-of-childhood-dreams-i-t13979",
+      "type": "musee",
+      "licence": "Notice de musée (droits réservés)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S67",
+      "titre": "Ibrahim El-Salahi — artiste",
+      "institution": "Tate",
+      "url": "https://www.tate.org.uk/art/artists/ibrahim-el-salahi-16988",
+      "type": "musee",
+      "licence": "Notice de musée (droits réservés)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S68",
+      "titre": "How one woman became the symbol of Sudanese protests",
+      "institution": "Global News",
+      "annee": 2019,
+      "url": "https://globalnews.ca/news/5157192/sudan-protests-women-alaa-salah/",
+      "type": "presse",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S69",
+      "titre": "L'ONU et la crise au Soudan",
+      "institution": "UNRIC, Centre régional d'information des Nations Unies",
+      "annee": 2026,
+      "url": "https://unric.org/fr/crise-au-soudan-la-reponse-de-lonu/",
+      "type": "institution",
+      "licence": "Contenu ONU (usage éditorial)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S70",
+      "titre": "Soudan : l'ONU s'inquiète du sort des civils piégés dans des zones résidentielles (28 avril 2023)",
+      "institution": "ONU Info",
+      "annee": 2023,
+      "url": "https://news.un.org/fr/story/2023/04/1134627",
+      "type": "institution",
+      "licence": "Contenu ONU (usage éditorial)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S71",
+      "titre": "Soudan : le patrimoine culturel pillé à la faveur de la guerre (RFI, 12 décembre 2025)",
+      "institution": "Radio France Internationale, via AllAfrica",
+      "annee": 2025,
+      "url": "https://fr.allafrica.com/stories/202512120538.html",
+      "type": "presse",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S72",
+      "titre": "Goodbye Julia, Mohamed Kordofani (Un Certain Regard 2023)",
+      "institution": "Festival de Cannes",
+      "annee": 2023,
+      "url": "https://cinemadedemain.festival-cannes.com/f/goodbye-julia/",
+      "type": "institution",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S73",
+      "titre": "Talking About Trees (Panorama Dokumente 2019)",
+      "institution": "Berlinale",
+      "annee": 2019,
+      "url": "https://www.berlinale.de/en/2019/programme/201918539.html",
+      "type": "institution",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S74",
+      "titre": "Shabti of Taharqo, 18.2.10",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/544883",
+      "type": "musee",
+      "licence": "Open Access (CC0)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S75",
+      "titre": "Counterweight of a menit necklace with an image of Bastet nursing King Taharqo, 41.160.104",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/544882",
+      "type": "musee",
+      "licence": "Open Access (CC0)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S76",
+      "titre": "Spherical jar with four rows of painted decoration, 08.202.47",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/548213",
+      "type": "musee",
+      "licence": "Open Access (CC0)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S77",
+      "titre": "Jibba (tunic), 1993.370",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/316784",
+      "type": "musee",
+      "licence": "Open Access (CC0)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S78",
+      "titre": "Kerma — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Kerma",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S79",
+      "titre": "Omdourman — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Omdourman",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S80",
+      "titre": "El Fasher — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/El_Fasher",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S81",
+      "titre": "Sedeinga — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Sedeinga",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S82",
+      "titre": "Suakin — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Suakin",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S83",
+      "titre": "Old Dongola — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Old_Dongola",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S84",
+      "titre": "Sennar — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Sennar",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S85",
+      "titre": "National Museum of Sudan — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/National_Museum_of_Sudan",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    }
+  ]
+}

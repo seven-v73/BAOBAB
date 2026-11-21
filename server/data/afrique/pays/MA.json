@@ -1,0 +1,4905 @@
+{
+  "code": "MA",
+  "nom": "Maroc",
+  "region": "nord",
+  "wikidata": "Q1028",
+  "maj": "2026-11-21",
+  "pays": {
+    "nom_officiel": "Royaume du Maroc",
+    "capitale": "Rabat",
+    "langues_officielles": [
+      "arabe",
+      "amazighe (tamazight)"
+    ],
+    "langues_nationales": [
+      "hassanya (reconnue par l'article 5 de la Constitution comme composante de l'unité culturelle marocaine)"
+    ],
+    "population": {
+      "valeur": 36828330,
+      "annee": 2024,
+      "source": "S2"
+    },
+    "superficie_km2": 446550,
+    "monnaie": "Dirham marocain (MAD)",
+    "resume": "Le Maroc est un royaume du nord-ouest de l'Afrique, ouvert sur l'Atlantique et la Méditerranée, dont la capitale est Rabat. Sa Constitution de 2011 présente l'unité nationale comme le fruit de composantes arabo-islamique, amazighe et saharo-hassanie, nourries d'influences africaines, andalouses, hébraïques et méditerranéennes. Le pays garde des traces très anciennes, des fossiles de Jebel Irhoud, datés d'environ 315 000 ans, jusqu'aux villes impériales fondées par les dynasties idrisside, almoravide, almohade, mérinide et alaouite. Placé sous protectorat de 1912 à 1956 (avec des zones françaises et espagnoles), il a vu le protectorat français abrogé le 2 mars 1956. Le recensement de 2024 a dénombré 36 828 330 habitants légaux ; l'arabe et le tamazight sont langues officielles, et le pays compte neuf biens du patrimoine mondial et seize éléments du patrimoine culturel immatériel inscrits par l'UNESCO.",
+    "sensible": true,
+    "note_sensibilite": "Le statut du Sahara occidental est un sujet disputé : le Maroc, le Front Polisario et l'ONU n'en ont pas la même lecture. La fiche ne tranche pas ; voir les événements et sources qui citent la Cour internationale de Justice (1975) et la MINURSO (ONU).",
+    "sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S86",
+      "S6",
+      "S5"
+    ]
+  },
+  "langues": [
+    {
+      "id": "MA-langue-arabe",
+      "nom": "Arabe (standard)",
+      "nom_local": "العربية",
+      "description": "L'arabe est langue officielle du Royaume selon l'article 5 de la Constitution de 2011, qui charge l'État de le protéger et d'en promouvoir l'usage. Glottolog regroupe sous ce code l'ensemble de la famille arabe, dont les parlers marocains sont distingués séparément.",
+      "famille": "Afro-asiatique, sémitique (Glottolog : afro1255, semi1276, west2786, cent2236, arab1394)",
+      "glottocode": "arab1395",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "ecritures": [
+        "arabe"
+      ],
+      "sources": [
+        "S3",
+        "S49"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode arab1395 relevé sur Glottolog ; il désigne l'ensemble « Arabic », pas uniquement l'arabe standard moderne."
+      },
+      "regions": [
+        "Maroc entier"
+      ]
+    },
+    {
+      "id": "MA-langue-arabe-marocain",
+      "nom": "Arabe marocain (darija)",
+      "nom_local": "الدارجة",
+      "description": "L'arabe marocain, appelé darija, est la variété d'arabe maghrébin propre au Maroc ; Glottolog la classe dans l'arabe occidental, sous-groupe maghrébin. Elle ne figure pas parmi les langues officielles citées par la Constitution, qui retient l'arabe et le tamazight. Le recueil de proverbes d'Edward Westermarck (1930) en transcrit plus de 1 600, numérotés, qu'il attribue aux « Maures ».",
+      "famille": "Afro-asiatique, sémitique, arabe, arabe occidental maghrébin (Glottolog : …, nort3191, west3017, magh1239)",
+      "glottocode": "moro1292",
+      "statut_linguistique": [
+        "non officielle"
+      ],
+      "ecritures": [
+        "arabe",
+        "latin (transcription)"
+      ],
+      "sources": [
+        "S50",
+        "S3",
+        "S17"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Maroc entier"
+      ]
+    },
+    {
+      "id": "MA-langue-amazighe-standard",
+      "nom": "Amazighe standard marocain",
+      "nom_local": "ⵜⴰⵎⴰⵣⵉⵖⵜ",
+      "description": "Le tamazight est langue officielle de l'État depuis la Constitution de 2011, qui le décrit comme patrimoine commun de tous les Marocains. L'Institut royal de la culture amazighe, créé en 2001, est chargé de sa promotion et de sa normalisation. Glottolog le liste comme variété standard du tamazight marocain, rattachée au groupe berbère de l'Atlas.",
+      "famille": "Afro-asiatique, berbère, groupe Atlas (classement Glottolog par codes : afro1255, berb1260, kaby1244, atla1275), Atlas central (cent2194)",
+      "glottocode": "stan1324",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "ecritures": [
+        "tifinagh"
+      ],
+      "sources": [
+        "S3",
+        "S82",
+        "S51"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Maroc entier"
+      ]
+    },
+    {
+      "id": "MA-langue-tamazight-atlas",
+      "nom": "Tamazight du Maroc central",
+      "nom_local": "Tamaziɣt",
+      "description": "Le tamazight du Maroc central est le parler berbère de l'Atlas central et du Moyen Atlas, dont la danse ahidous est l'une des expressions collectives les plus connues. Les recensements récents regroupent sous « amazigh » trois ensembles : tachelhit, tamazight et tarifit. En 2024, d'après le HCP cité par TelQuel, 24,8 % des habitants déclarent employer l'amazigh dans leur vie quotidienne, tous parlers confondus.",
+      "famille": "Afro-asiatique, berbère, groupe Atlas (classement Glottolog par codes : afro1255, berb1260, kaby1244, atla1275), Atlas central (cent2194)",
+      "glottocode": "cent2195",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "tifinagh",
+        "latin",
+        "arabe"
+      ],
+      "sources": [
+        "S52",
+        "S4",
+        "S100"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Écritures citées de façon générale pour le berbère marocain : à contrôler auprès de l'IRCAM."
+      },
+      "regions": [
+        "Moyen Atlas",
+        "Haut Atlas central"
+      ]
+    },
+    {
+      "id": "MA-langue-tachelhit",
+      "nom": "Tachelhit (chleuh)",
+      "nom_local": "Taclḥit",
+      "description": "Le tachelhit est la langue berbère des Ichelhiyen, parlée dans le Souss, le Haut Atlas et l'Anti-Atlas. C'est l'un des trois ensembles amazighs distingués par le recensement de 2024. Glottolog le range dans le groupe berbère de l'Atlas.",
+      "famille": "Afro-asiatique, berbère, groupe Atlas (classement Glottolog par codes : afro1255, berb1260, kaby1244, atla1275), tachelhit (tach1250)",
+      "glottocode": "tach1250",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "tifinagh",
+        "latin",
+        "arabe"
+      ],
+      "sources": [
+        "S53",
+        "S88",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Écritures à confirmer par une source linguistique (l'écriture arabe est attestée pour des manuscrits en tachelhit)."
+      },
+      "regions": [
+        "Souss",
+        "Haut Atlas",
+        "Anti-Atlas"
+      ]
+    },
+    {
+      "id": "MA-langue-tarifit",
+      "nom": "Tarifit (rifain)",
+      "nom_local": "Tarifit",
+      "description": "Le tarifit est la langue berbère du Rif, dans le nord du pays, du groupe zénète selon la classification de Glottolog. Les Rifains forment aussi des communautés arabophones et bilingues. Le recensement de 2024 l'identifie comme l'une des trois variantes amazighes.",
+      "famille": "Afro-asiatique, berbère zénète (Glottolog : afro1255, berb1260, grea1296, zena1250)",
+      "glottocode": "tari1263",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "tifinagh",
+        "latin",
+        "arabe"
+      ],
+      "sources": [
+        "S54",
+        "S89",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Écritures à confirmer par une source linguistique."
+      },
+      "regions": [
+        "Rif",
+        "Nord-Est"
+      ]
+    },
+    {
+      "id": "MA-langue-hassanya",
+      "nom": "Hassanya",
+      "nom_local": "Ḥassāniyya",
+      "description": "Le hassanya est la variété d'arabe parlée par les communautés sahariennes du sud du pays et d'une partie du nord-ouest africain. L'article 5 de la Constitution charge l'État de le préserver comme composante de l'unité culturelle marocaine. Il est aussi présent dans les traditions orales du moussem de Tan-Tan, inscrit par l'UNESCO.",
+      "famille": "Afro-asiatique, sémitique, arabe occidental (Glottolog : arab1395, nort3191, west3017)",
+      "glottocode": "hass1238",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "arabe"
+      ],
+      "sources": [
+        "S55",
+        "S3",
+        "S48"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Sud du Maroc",
+        "Tan-Tan"
+      ]
+    },
+    {
+      "id": "MA-langue-francais",
+      "nom": "Français",
+      "nom_local": "Français",
+      "description": "Le français figure parmi les langues du protectorat français (1912-1956). Il n'est pas langue officielle au sens de la Constitution de 2011, qui demande en revanche d'apprendre et de maîtriser les langues étrangères les plus utiles dans le monde. C'est aussi la langue d'écriture de nombreux auteurs marocains, comme Driss Chraïbi.",
+      "famille": "Indo-européen, roman (Glottolog : indo1319, …, stan1290)",
+      "glottocode": "stan1290",
+      "statut_linguistique": [
+        "langue étrangère de grande diffusion"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S56",
+        "S86",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Maroc entier (surtout urbain)"
+      ]
+    },
+    {
+      "id": "MA-langue-espagnol",
+      "nom": "Espagnol",
+      "nom_local": "Español",
+      "description": "L'espagnol est lié aux zones placées sous contrôle espagnol à l'époque du protectorat, notamment le nord autour de Tanger. Choukri en évoque le régime colonial dans Le Pain nu.",
+      "famille": "Indo-européen, roman (Glottolog : indo1319, …, cast1243, stan1288)",
+      "glottocode": "stan1288",
+      "statut_linguistique": [
+        "langue étrangère"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S57",
+        "S6",
+        "S109"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Nord (ancien protectorat espagnol)"
+      ]
+    },
+    {
+      "id": "MA-langue-judeo-marocain",
+      "nom": "Judéo-arabe marocain",
+      "nom_local": "Judéo-arabe marocain",
+      "description": "Les juifs du Maroc ont parlé selon les régions l'arabe, des langues berbères et l'espagnol, à côté de l'hébreu liturgique, comme le décrit Haïm Zafrani. Le judéo-arabe marocain est la variété d'arabe maghrébin propre aux communautés juives arabophones. Zafrani écrivait en 1967 que ces langues étaient condamnées à disparaître avec la dispersion des communautés.",
+      "famille": "Afro-asiatique, sémitique, arabe maghrébin (Glottolog : …, magh1239, jude1265)",
+      "glottocode": "jude1265",
+      "statut_linguistique": [
+        "minoritaire",
+        "menacée"
+      ],
+      "ecritures": [
+        "hébreu (caractères)",
+        "arabe"
+      ],
+      "sources": [
+        "S58",
+        "S11"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Écritures à confirmer sur une source linguistique."
+      },
+      "regions": [
+        "Villes et mellahs du Maroc"
+      ]
+    },
+    {
+      "id": "MA-langue-ghomari",
+      "nom": "Ghomari",
+      "nom_local": "Ghmārīt",
+      "description": "Le ghomari est une langue berbère du nord-ouest du pays, associée aux Ghomara, dont le territoire s'étend entre l'oued Laou et l'oued Ouringa. Glottolog la rattache au groupe berbère de l'Atlas, sous-groupe nord. Wikipédia mentionne aussi, dans cette région, un arabe de montagne.",
+      "famille": "Afro-asiatique, berbère, groupe Atlas (classement Glottolog par codes : afro1255, berb1260, kaby1244, atla1275), Atlas du Nord (nort3248)",
+      "glottocode": "ghom1257",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "ecritures": [
+        "latin (transcription)"
+      ],
+      "sources": [
+        "S59",
+        "S92"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Rif occidental"
+      ]
+    },
+    {
+      "id": "MA-langue-senhaja-srair",
+      "nom": "Senhaja de Srair",
+      "nom_local": "Sənhaja",
+      "description": "Le senhaja de Srair est une variété berbère que Glottolog classe dans le groupe de l'Atlas du Nord, avec le ghomari. La documentation consultée ne précise pas les communes où elle se parle. Elle est donc présentée ici sans localisation, en attente d'une source dialectologique.",
+      "famille": "Afro-asiatique, berbère, groupe Atlas (classement Glottolog par codes : afro1255, berb1260, kaby1244, atla1275), Atlas du Nord (nort3248)",
+      "glottocode": "senh1238",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "ecritures": [
+        "latin (transcription)"
+      ],
+      "sources": [
+        "S60"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Aucune région vérifiée dans une source ouverte."
+      }
+    },
+    {
+      "id": "MA-langue-iznasen",
+      "nom": "Berbère des Beni-Snassen (iznasen)",
+      "nom_local": "Iznasn",
+      "description": "Le parler des Beni-Snassen, dit iznasen, est rattaché par Glottolog au rifain oriental, c'est-à-dire au grand ensemble zénète. Il se parle dans le massif des Béni-Snassen, au nord-est du pays, où se trouve la grotte des Pigeons de Taforalt. Il est proche du tarifit.",
+      "famille": "Afro-asiatique, berbère zénète (Glottolog : …, tari1263, riff1234, east2804)",
+      "glottocode": "east2804",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "ecritures": [
+        "latin (transcription)"
+      ],
+      "sources": [
+        "S61",
+        "S64"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Nord-Est (Beni-Snassen)"
+      ]
+    },
+    {
+      "id": "MA-langue-lsm",
+      "nom": "Langue des signes marocaine",
+      "nom_local": "Lugha al-ishāra",
+      "description": "La langue des signes marocaine est la langue des personnes sourdes du pays. Glottolog la classe dans une famille de langues des signes et précise que ce rattachement repose sur une proposition de la littérature.",
+      "famille": "Langues des signes (Glottolog : sign1238, deaf1237, lsfi1234, asli1244)",
+      "glottocode": "moro1242",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "ecritures": [
+        "langue des signes (sans écriture usuelle)"
+      ],
+      "sources": [
+        "S62"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Maroc entier"
+      ]
+    }
+  ],
+  "peuples": [
+    {
+      "id": "MA-peuple-chleuhs",
+      "nom": "Chleuhs (Ichelhiyen)",
+      "description": "Les Chleuhs, ou Ichelhiyen, sont la population berbérophone du sud et du centre du pays, établie surtout dans le Haut Atlas, l'Anti-Atlas et la vallée du Souss. Leur langue est le tachelhit. Beaucoup vivent aussi dans les grandes villes comme Casablanca ou Rabat.",
+      "langues": [
+        "tachelhit"
+      ],
+      "regions": [
+        "Souss",
+        "Haut Atlas",
+        "Anti-Atlas"
+      ],
+      "sources": [
+        "S88",
+        "S53",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MA-peuple-imazighen-atlas",
+      "nom": "Imazighen du Moyen Atlas et du Haut Atlas central",
+      "description": "Dans le Moyen Atlas et le Haut Atlas central, des communautés amazighophones parlent le tamazight. L'ahidous, danse collective où femmes et hommes forment des rondes, y accompagne les fêtes, et le moussem d'Imilchil réunit chaque automne les Aït Hadiddou. Leur culture est reconnue dans la Constitution de 2011 par le statut officiel du tamazight.",
+      "langues": [
+        "tamazight du Maroc central"
+      ],
+      "regions": [
+        "Moyen Atlas",
+        "Haut Atlas central",
+        "Imilchil",
+        "Khénifra"
+      ],
+      "sources": [
+        "S100",
+        "S106",
+        "S52",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "activites": [
+        "élevage et transhumance (marché du moussem d'Imilchil)",
+        "musique et danse (ahidous)"
+      ]
+    },
+    {
+      "id": "MA-peuple-rifains",
+      "nom": "Rifains",
+      "description": "Les Rifains sont les habitants du Rif, massif du nord du Maroc ; ils comptent des groupes berbérophones, arabophones et bilingues. Le Rif est surtout connu dans l'histoire pour la guerre menée de 1921 à 1926 autour d'Abdelkrim el-Khattabi contre les armées espagnole puis française. Leur langue berbère est le tarifit.",
+      "langues": [
+        "tarifit",
+        "arabe marocain"
+      ],
+      "regions": [
+        "Rif",
+        "Nord",
+        "Nador",
+        "Al Hoceïma"
+      ],
+      "sources": [
+        "S89",
+        "S9",
+        "S10",
+        "S54"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MA-peuple-ghomara",
+      "nom": "Ghomara",
+      "description": "Les Ghomara sont une population d'origine berbère établie dans le nord-ouest du pays, sur un territoire compris entre l'oued Laou et l'oued Ouringa. Ils parlent le ghomari ou, selon les lieux, un arabe de montagne. Wikipédia les rattache aux grands ensembles masmouda.",
+      "langues": [
+        "ghomari",
+        "arabe marocain"
+      ],
+      "regions": [
+        "Rif occidental",
+        "Nord-Ouest"
+      ],
+      "sources": [
+        "S92",
+        "S59"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MA-peuple-iznassen",
+      "nom": "Iznassen (Beni-Snassen)",
+      "description": "Les Iznassen vivent dans le massif des Béni-Snassen, dans le nord-est du pays, dans la région de Taforalt. Leur parler berbère est rapproché du rifain par Glottolog. Le massif abrite la grotte des Pigeons, grand site préhistorique.",
+      "langues": [
+        "iznasen",
+        "tarifit"
+      ],
+      "regions": [
+        "Nord-Est",
+        "Beni-Snassen"
+      ],
+      "sources": [
+        "S61",
+        "S64"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MA-peuple-hassanophones",
+      "nom": "Communautés hassanophones du Sud (Sahraouis)",
+      "description": "Les populations de culture hassanie du sud du Maroc parlent le hassanya et sont rattachées par l'UNESCO aux peuples nomades du Sahara, dont les rassemblements annuels suivaient le calendrier agricole et pastoral. Le moussem de Tan-Tan, né de ces rencontres, associe concours d'élevage de chameaux et de chevaux, poésie, chants et échanges, et l'UNESCO l'a inscrit en 2008. La Constitution de 2011 cite la composante saharo-hassanie de l'identité nationale.",
+      "langues": [
+        "hassanya"
+      ],
+      "regions": [
+        "Tan-Tan",
+        "Sud du Maroc"
+      ],
+      "sources": [
+        "S48",
+        "S3",
+        "S90",
+        "S55"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": [
+        "MR",
+        "DZ"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Le terme « Sahraouis » et le statut du Sahara occidental sont disputés ; cette fiche décrit des communautés de culture hassanie du Maroc sans prendre parti, et renvoie aux positions de l'ONU et de la Cour internationale de Justice citées dans les événements."
+    },
+    {
+      "id": "MA-peuple-juifs-marocains",
+      "nom": "Juifs marocains",
+      "description": "La présence juive au Maroc est très ancienne et a connu plusieurs vagues d'arrivées, dont des exilés d'Espagne ; ses communautés étaient arabophones, berbérophones ou hispanophones selon les régions. Haïm Zafrani décrivait dès 1967 la dislocation des communautés. Depuis les années 2000, le Maroc a restauré depuis les années 2000 des cimetières et d'anciens quartiers juifs (mellahs), muséifié des synagogues et ouvert des musées à Casablanca et à Essaouira. Le judaïsme est cité dans la Constitution de 2011 parmi les affluents hébraïques de l'identité nationale.",
+      "langues": [
+        "judéo-arabe marocain",
+        "arabe marocain",
+        "hébreu (liturgie)"
+      ],
+      "regions": [
+        "Casablanca",
+        "Essaouira",
+        "mellahs des villes impériales"
+      ],
+      "sources": [
+        "S11",
+        "S12",
+        "S91",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": []
+    },
+    {
+      "id": "MA-peuple-gnaoua",
+      "nom": "Gnaoua",
+      "description": "Les Gnaoua forment des confréries soufies, descendantes de personnes réduites en esclavage et issues de la traite, selon la présentation de l'UNESCO, qui situe ces origines au XVIe siècle au moins. Leurs veillées de transe et de possession thérapeutique allient pratiques africaines ancestrales, influences arabo-musulmanes et traditions berbères. Les groupes sont aujourd'hui organisés en associations dans les villages et les villes, et se retrouvent dans des festivals.",
+      "langues": [
+        "arabe marocain"
+      ],
+      "regions": [
+        "Essaouira",
+        "Marrakech",
+        "villes et campagnes du Maroc"
+      ],
+      "sources": [
+        "S42",
+        "S16"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Rites de possession et de transe : les récits doivent rester en lien avec les maâlems et confréries ; validation communautaire souhaitable."
+    }
+  ],
+  "sites": [
+    {
+      "id": "MA-site-ait-ben-haddou",
+      "nom": "Ksar d'Aït-Ben-Haddou",
+      "type": "patrimoine_mondial",
+      "description": "Ce ksar, ensemble de bâtiments en terre entourés de hautes murailles, est un habitat présaharien traditionnel. Les maisons se serrent derrière des remparts renforcés de tours d'angle et d'une porte en chicane, certaines ressemblant à de petits châteaux urbains. Situé sur les contreforts sud du Haut Atlas, dans la province de Ouarzazate, il est le plus célèbre des ksour de la vallée de l'Ounila.",
+      "sources": [
+        "S24"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q309436",
+      "unesco_id": "444",
+      "inscription": 1987,
+      "coordonnees": {
+        "lat": 31.05,
+        "lng": -7.133333
+      },
+      "regions": [
+        "Ouarzazate",
+        "Haut Atlas"
+      ],
+      "periode": "architecture en terre, à partir du XVIIe siècle"
+    },
+    {
+      "id": "MA-site-volubilis",
+      "nom": "Site archéologique de Volubilis",
+      "type": "patrimoine_mondial",
+      "description": "Volubilis conserve les vestiges, surtout romains, d'une ville fortifiée de 42 hectares au pied du Djebel Zerhoun. L'UNESCO souligne son intérêt pour comprendre la romanisation aux confins de l'empire et le contact entre cultures romaine et locale. Abandonnée pendant près de mille ans, elle a gardé un haut niveau d'authenticité, et c'est un des sites les plus riches de la période en Afrique du Nord par ses vestiges comme par son épigraphie.",
+      "sources": [
+        "S25",
+        "S65",
+        "S85"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q391215",
+      "unesco_id": "836",
+      "inscription": 1997,
+      "coordonnees": {
+        "lat": 34.0399646,
+        "lng": -5.5626871
+      },
+      "regions": [
+        "Meknès",
+        "Moulay Idriss Zerhoun"
+      ],
+      "periode": "Antiquité (province romaine de Maurétanie tingitane) ; Idrissides au VIIIe siècle"
+    },
+    {
+      "id": "MA-site-mazagan",
+      "nom": "Ville portugaise de Mazagan (El Jadida)",
+      "type": "patrimoine_mondial",
+      "description": "Mazagan est l'un des premiers établissements créés en Afrique par les explorateurs portugais en route vers l'Inde. Bâtie comme colonie fortifiée sur la côte atlantique, à 90 km au sud de Casablanca, elle illustre selon l'UNESCO des échanges d'influences entre cultures européenne et marocaine du XVIe au XVIIIe siècle. Les frères Francisco et Diogo de Arruda y construisirent la première citadelle en 1514, agrandie en 1541-1548.",
+      "sources": [
+        "S26"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q555360",
+      "unesco_id": "1058",
+      "inscription": 2004,
+      "coordonnees": {
+        "lat": 33.25656111,
+        "lng": -8.502475
+      },
+      "regions": [
+        "El Jadida",
+        "Doukkala-Abda"
+      ],
+      "periode": "XVIe-XVIIIe siècle"
+    },
+    {
+      "id": "MA-site-marrakech",
+      "nom": "Médina de Marrakech",
+      "type": "patrimoine_mondial",
+      "description": "Fondée en 1070-1072 par les Almoravides, Marrakech devint la capitale des Almohades et un centre majeur de l'Occident musulman. Elle garde la mosquée de la Koutoubia et son minaret de 77 mètres, la Casbah, les remparts, de grandes portes et des jardins. D'autres monuments, comme le palais Badiâ, la medersa Ben Youssef ou les tombeaux saadiens, sont venus s'y ajouter par la suite.",
+      "sources": [
+        "S27",
+        "S67"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q966780",
+      "unesco_id": "331",
+      "inscription": 1985,
+      "coordonnees": {
+        "lat": 31.63139,
+        "lng": -7.98667
+      },
+      "regions": [
+        "Marrakech"
+      ],
+      "periode": "depuis 1070-1072"
+    },
+    {
+      "id": "MA-site-fes",
+      "nom": "Médina de Fès",
+      "type": "patrimoine_mondial",
+      "description": "La médina de Fès garde la trace de la capitale fondée par la dynastie idrisside entre 789 et 808, formée de deux quartiers, la rive des Andalous et celle des Kaïrouanais. Les Almoravides la réunirent derrière un seul rempart, et les Mérinides fondèrent en 1276 une ville nouvelle, Fès Jedid, qui abrite le palais royal. L'ensemble reste, pour l'UNESCO, un témoignage vivant d'une cité médiévale ayant rayonné jusqu'en Andalousie et en Afrique subsaharienne.",
+      "sources": [
+        "S28",
+        "S83"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q2072102",
+      "unesco_id": "170",
+      "inscription": 1981,
+      "coordonnees": {
+        "lat": 34.0625,
+        "lng": -4.9725
+      },
+      "regions": [
+        "Fès"
+      ],
+      "periode": "depuis 789-808"
+    },
+    {
+      "id": "MA-site-tetouan",
+      "nom": "Médina de Tétouan (ancienne Titawin)",
+      "type": "patrimoine_mondial",
+      "description": "La médina de Tétouan s'étend sur les pentes du Djébel Dersa et fut du VIIIe siècle un point de jonction majeur entre le Maroc et l'Andalousie. Reconstruite après la Reconquista par des réfugiés revenus d'Espagne, elle porte de fortes influences andalouses dans son architecture et ses arts. C'est l'une des plus petites médinas marocaines, mais l'UNESCO la juge la plus complète.",
+      "sources": [
+        "S29"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q3847588",
+      "unesco_id": "837",
+      "inscription": 1997,
+      "coordonnees": {
+        "lat": 35.5710625,
+        "lng": -5.3664659
+      },
+      "regions": [
+        "Tétouan",
+        "Nord-Ouest"
+      ],
+      "periode": "VIIIe siècle, reconstruite après la Reconquista"
+    },
+    {
+      "id": "MA-site-essaouira",
+      "nom": "Médina d'Essaouira (ancienne Mogador)",
+      "type": "patrimoine_mondial",
+      "description": "Essaouira, jadis Mogador, est une ville fortifiée du milieu du XVIIIe siècle entourée d'une muraille de style Vauban, bâtie selon les principes de l'architecture militaire européenne tout en suivant l'urbanisme arabo-musulman. Elle a joué pendant des siècles le rôle de grand port de commerce reliant le Maroc et l'Afrique subsaharienne à l'Europe. L'UNESCO y voit aussi un centre multiculturel, qui accueille chaque année le festival Gnaoua.",
+      "sources": [
+        "S30",
+        "S16"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q11858823",
+      "unesco_id": "753",
+      "inscription": 2001,
+      "coordonnees": {
+        "lat": 31.51441,
+        "lng": -9.768904
+      },
+      "regions": [
+        "Essaouira"
+      ],
+      "periode": "milieu du XVIIIe siècle"
+    },
+    {
+      "id": "MA-site-meknes",
+      "nom": "Ville historique de Meknès",
+      "type": "patrimoine_mondial",
+      "description": "Meknès fut fondée en 1061 par les Almoravides comme établissement militaire, et son nom vient du groupe berbère des Meknassa. Elle conserve des vestiges de sa médina ancienne et de la ville impériale créée par le sultan Moulay Ismaïl (1672-1727), avec des remparts impressionnants de 15 mètres. L'UNESCO y voit un exemple complet de capitale nord-africaine du XVIIe siècle, mêlant conceptions islamiques et européennes.",
+      "sources": [
+        "S31",
+        "S73"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q12352436",
+      "unesco_id": "793",
+      "inscription": 1996,
+      "coordonnees": {
+        "lat": 33.894857,
+        "lng": -5.564481
+      },
+      "regions": [
+        "Meknès"
+      ],
+      "periode": "XIe siècle ; ville impériale de 1672 à 1727"
+    },
+    {
+      "id": "MA-site-rabat",
+      "nom": "Rabat, capitale moderne et ville historique",
+      "type": "patrimoine_mondial",
+      "description": "Rabat associe une ville capitale moderne, conçue au début du XXe siècle pendant le protectorat, à une ville historique et à de nombreuses composantes patrimoniales plus anciennes. L'UNESCO y voit l'adaptation des idées urbanistiques modernes au contexte maghrébin, et l'émergence d'un style architectural et décoratif propre au Maroc contemporain. Le bien inscrit comprend notamment le site du Chellah.",
+      "sources": [
+        "S32",
+        "S93"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q3551",
+      "unesco_id": "1401",
+      "inscription": 2012,
+      "coordonnees": {
+        "lat": 34.021111111,
+        "lng": -6.841388888
+      },
+      "regions": [
+        "Rabat"
+      ],
+      "periode": "XIIe siècle à XXe siècle"
+    },
+    {
+      "id": "MA-site-jebel-irhoud",
+      "nom": "Jebel Irhoud",
+      "type": "site_archeologique",
+      "description": "Jebel Irhoud est un site préhistorique situé à environ 55 km au sud-est de Safi, dans la région de Marrakech-Safi, où une ancienne grotte a été mise au jour par l'exploitation d'une mine de barytine. Depuis 1960 il a livré des fossiles humains, et de nouvelles découvertes publiées en 2017 dans Nature les datent d'environ 315 000 ans. Le titre de l'article parle d'une origine panafricaine d'Homo sapiens.",
+      "sources": [
+        "S5",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "coordonnees": {
+        "lat": 31.8797,
+        "lng": -8.8706
+      },
+      "regions": [
+        "Youssoufia",
+        "Marrakech-Safi"
+      ],
+      "periode": "Paléolithique moyen (environ 315 000 ans)",
+      "sensible": true,
+      "note_sensibilite": "Restes humains fossiles : respecter les règles de présentation des restes humains et renvoyer aux institutions de recherche marocaines (INSAP)."
+    },
+    {
+      "id": "MA-site-taforalt",
+      "nom": "Grotte des Pigeons (Taforalt)",
+      "type": "site_archeologique",
+      "description": "La grotte des Pigeons, ou grotte de Taforalt, est un site préhistorique situé dans le massif des Béni-Snassen, dans le nord-est du pays. Signalée en 1908, elle a été fouillée à partir des années 1940 puis, depuis 2003, par des équipes de l'INSAP de Rabat et de l'université d'Oxford. Seules des occupations paléolithiques y ont été rapportées.",
+      "sources": [
+        "S64"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "coordonnees": {
+        "lat": 34.8106,
+        "lng": -2.4083
+      },
+      "regions": [
+        "Beni-Snassen",
+        "Nord-Est"
+      ],
+      "periode": "Paléolithique supérieur"
+    },
+    {
+      "id": "MA-site-chellah",
+      "nom": "Chellah",
+      "type": "site_archeologique",
+      "description": "Le Chellah est une nécropole mérinide installée sur l'emplacement d'une cité antique, à Rabat, à environ 200 mètres du rempart almohade. Il fait partie depuis 2012 de l'ensemble de Rabat inscrit au patrimoine mondial. Il accueille chaque année depuis 2005 le festival Jazz au Chellah et a rouvert au public le 20 mai 2024 après restauration.",
+      "sources": [
+        "S93",
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "coordonnees": {
+        "lat": 34.0067,
+        "lng": -6.8203
+      },
+      "regions": [
+        "Rabat"
+      ],
+      "periode": "Antiquité, période mérinide"
+    },
+    {
+      "id": "MA-site-aghmat",
+      "nom": "Aghmat (Ghmate)",
+      "type": "site_archeologique",
+      "description": "Aghmat est une ancienne ville berbère du Haouz, au pied du Haut Atlas, à une trentaine de kilomètres de Marrakech sur la route de la vallée de l'Ourika. Elle existait avant la fondation de Marrakech par les Almoravides, dont elle fut un temps la capitale. Le site est aujourd'hui surtout connu pour le mausolée d'Al-Mutamid ibn Abbad.",
+      "sources": [
+        "S87",
+        "S67"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "coordonnees": {
+        "lat": 31.4225,
+        "lng": -7.8011
+      },
+      "regions": [
+        "Haouz",
+        "Vallée de l'Ourika"
+      ],
+      "periode": "avant le XIe siècle ; capitale almoravide 1058-1062"
+    },
+    {
+      "id": "MA-site-sijilmassa",
+      "nom": "Sijilmassa",
+      "type": "site_archeologique",
+      "description": "Sijilmassa fut une grande ville médiévale fondée en 757, qui joua dès le VIIIe siècle un rôle majeur dans le commerce transsaharien. Il n'en reste aujourd'hui que des ruines modestes, près de Rissani. C'est dans cette ville que s'installa, au XIIIe siècle, la famille dont est issue la dynastie alaouite.",
+      "sources": [
+        "S94",
+        "S84"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "coordonnees": {
+        "lat": 31.2764,
+        "lng": -4.2894
+      },
+      "regions": [
+        "Rissani",
+        "Tafilalet"
+      ],
+      "periode": "depuis 757"
+    },
+    {
+      "id": "MA-site-tinmel",
+      "nom": "Tinmel",
+      "type": "monument",
+      "description": "Tinmel est un village du Haut Atlas occidental, à une centaine de kilomètres au sud de Marrakech, dans la vallée de l'oued N'Fiss. Il fut le fief d'Ibn Toumert, et le point de départ, au début du XIIe siècle, des campagnes almohades contre les Almoravides. Le nom du village est rattaché à sa mosquée almohade.",
+      "sources": [
+        "S96",
+        "S68"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "coordonnees": {
+        "lat": 30.9847,
+        "lng": -8.2283
+      },
+      "regions": [
+        "Al Haouz",
+        "Haut Atlas"
+      ],
+      "periode": "XIIe siècle"
+    },
+    {
+      "id": "MA-site-mosquee-hassan-ii",
+      "nom": "Mosquée Hassan-II (Casablanca)",
+      "type": "monument",
+      "description": "Édifiée en partie sur la mer, la mosquée Hassan-II est un vaste complexe religieux et culturel de neuf hectares, avec salle de prière, bains, école coranique, bibliothèque, musée et académie des arts traditionnels. Sa construction a débuté le 12 juillet 1986 sous la direction de l'architecte Michel Pinseau, et elle a été inaugurée le 30 août 1993.",
+      "sources": [
+        "S95"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "coordonnees": {
+        "lat": 33.6083,
+        "lng": -7.6325
+      },
+      "regions": [
+        "Casablanca"
+      ],
+      "periode": "1986-1993"
+    },
+    {
+      "id": "MA-site-mausolee-mohammed-v",
+      "nom": "Mausolée Mohammed-V (Rabat)",
+      "type": "lieu_de_memoire",
+      "description": "Le mausolée Mohammed-V est un tombeau royal de Rabat, dont la construction a débuté en 1961 et qui a ouvert en 1971. Il fait partie de l'ensemble de Rabat inscrit au patrimoine mondial et rappelle le souvenir du sultan puis roi Mohammed V, figure de l'indépendance. Il reste un lieu de recueillement national.",
+      "sources": [
+        "S97",
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "coordonnees": {
+        "lat": 34.0226,
+        "lng": -6.8219
+      },
+      "regions": [
+        "Rabat"
+      ],
+      "periode": "1961-1971",
+      "sensible": true,
+      "note_sensibilite": "Tombeau royal et lieu de mémoire politique : tenir un ton factuel et respectueux, sans interprétation partisane."
+    },
+    {
+      "id": "MA-site-musee-judaisme-marocain",
+      "nom": "Musée du judaïsme marocain (Casablanca)",
+      "type": "musee",
+      "description": "Ouvert en 1997 à Casablanca, ce musée est consacré à l'histoire et au patrimoine des juifs du Maroc. Il fait partie des institutions créées ou valorisées depuis les années 2000 par le Maroc pour rendre visible cet héritage, avec la restauration de cimetières et de mellahs. Un autre musée consacré au judaïsme existe à Essaouira.",
+      "sources": [
+        "S98",
+        "S12"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Casablanca"
+      ],
+      "periode": "depuis 1997"
+    },
+    {
+      "id": "MA-site-musee-mohammed-vi",
+      "nom": "Musée Mohammed VI d'art moderne et contemporain (Rabat)",
+      "type": "musee",
+      "description": "Ouvert en 2014 à Rabat, ce musée présente environ quatre cents œuvres d'artistes marocains des XXe et XXIe siècles. Wikipédia le décrit comme le premier musée du Maroc indépendant consacré à l'art moderne national. Il permet de découvrir la scène plastique marocaine, dont des artistes comme Farid Belkahia, représenté aussi au Metropolitan Museum de New York.",
+      "sources": [
+        "S99",
+        "S23"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "coordonnees": {
+        "lat": 34.0161,
+        "lng": -6.8328
+      },
+      "regions": [
+        "Rabat"
+      ],
+      "periode": "depuis 2014"
+    }
+  ],
+  "traditions": [
+    {
+      "id": "MA-tradition-caftan",
+      "nom": "Caftan marocain : art, traditions et savoir-faire",
+      "categorie": "textile",
+      "description": "Le caftan est un vêtement traditionnel à ouverture centrale, avec boutons et riches décors faits main : broderies, perles, paillettes. Il se porte aux mariages, baptêmes, rites de passage et fêtes religieuses, et mobilise tisserands (brocart, velours, soie), tailleurs et artisans de la passementerie. Le savoir-faire se transmet en famille, en atelier et aujourd'hui dans des centres de formation et écoles de mode ; l'UNESCO l'a inscrit en 2025.",
+      "sources": [
+        "S33",
+        "S20"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "قفطان",
+      "regions": [
+        "Maroc"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "02077",
+        "annee": 2025,
+        "url": "https://ich.unesco.org/en/RL/moroccan-caftan-art-traditions-and-skills-02077"
+      }
+    },
+    {
+      "id": "MA-tradition-henne",
+      "nom": "Henné : rituels, pratiques esthétiques et sociales",
+      "categorie": "rite",
+      "description": "Le henné est une pâte tirée des feuilles d'un arbre des régions chaudes, perçu comme sacré par des communautés d'Afrique du Nord et du Moyen-Orient. Les femmes s'en servent pour la parure, notamment aux naissances et aux mariages, et il accompagne chants, proverbes et poèmes. L'UNESCO l'a inscrit en 2024 ; la transmission passe par l'observation et la pratique, aujourd'hui aussi par des instituts de beauté et les médias.",
+      "sources": [
+        "S34"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Maroc"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "02116",
+        "annee": 2024,
+        "url": "https://ich.unesco.org/en/RL/henna-rituals-aesthetic-and-social-practices-02116"
+      }
+    },
+    {
+      "id": "MA-tradition-malhun",
+      "nom": "Malhun, art poétique et musical populaire",
+      "categorie": "musique",
+      "description": "Le malhun est un art de poèmes chantés en arabe dialectal, parfois en hébreu, accompagnés au luth, au violon, au rebab et aux petits tambours. Il parle d'amour, de nature, de gastronomie, de voyages imaginaires, d'événements politiques ou de questions sociales, avec des messages moraux. Pratiqué par toutes et tous sans distinction de religion, il est transmis par l'apprentissage, des associations, des conservatoires et des publications ; inscrit en 2023.",
+      "sources": [
+        "S35"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Maroc"
+      ],
+      "langues": [
+        "arabe marocain",
+        "hébreu"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01592",
+        "annee": 2023,
+        "url": "https://ich.unesco.org/en/RL/malhun-a-popular-poetic-and-musical-art-01592"
+      }
+    },
+    {
+      "id": "MA-tradition-gravure-metaux",
+      "nom": "Gravure sur métaux (or, argent, cuivre)",
+      "categorie": "artisanat",
+      "description": "Cet art consiste à inciser à la main des mots, symboles ou motifs sur des objets d'usage, religieux ou cérémoniels en or, argent ou cuivre. Les objets gravés, bijoux ou ustensiles, sont souvent offerts aux mariages ou employés dans des rites, et certains métaux sont crus guérisseurs. Le savoir-faire se transmet en famille, en atelier et en centres de formation ; l'UNESCO l'a inscrit en 2023.",
+      "sources": [
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Maroc"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01951",
+        "annee": 2023,
+        "url": "https://ich.unesco.org/en/RL/arts-skills-and-practices-associated-with-engraving-on-metals-gold-silver-and-copper-01951"
+      }
+    },
+    {
+      "id": "MA-tradition-palmier-dattier",
+      "nom": "Palmier dattier : savoirs, savoir-faire, traditions et pratiques",
+      "categorie": "savoir",
+      "description": "Le palmier dattier pousse dans les oasis des zones arides. Les communautés en tirent des savoirs sur sa culture, des fruits et des fibres pour l'artisanat et les rites sociaux, et il revient dans la poésie et les chants. L'UNESCO a inscrit cet élément en 2022.",
+      "sources": [
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Maroc"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01902",
+        "annee": 2022,
+        "url": "https://ich.unesco.org/en/RL/date-palm-knowledge-skills-traditions-and-practices-01902"
+      }
+    },
+    {
+      "id": "MA-tradition-tbourida",
+      "nom": "Tbourida",
+      "categorie": "jeu_sport",
+      "description": "La tbourida est une performance équestre qui rejoue une succession de parades militaires, selon des conventions arabo-amazighes anciennes. Une troupe de 15 à 25 cavaliers, en nombre impair, exécute d'abord la salutation (hadda), puis la charge au galop (talqa) avec une salve à blanc. Les cavaliers portent des costumes d'époque ; l'UNESCO date la pratique du XVIe siècle et l'a inscrite en 2021.",
+      "sources": [
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Maroc"
+      ],
+      "transmission": "vivante",
+      "periode": "depuis le XVIe siècle",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01483",
+        "annee": 2021,
+        "url": "https://ich.unesco.org/en/RL/tbourida-01483"
+      }
+    },
+    {
+      "id": "MA-tradition-fauconnerie",
+      "nom": "Fauconnerie, patrimoine humain vivant",
+      "categorie": "savoir",
+      "description": "La fauconnerie est l'art de dresser et de faire voler des faucons ou d'autres rapaces, pratiquée depuis plus de quatre mille ans. Elle s'est ouverte à des valeurs sociales et de contact avec la nature, et mobilise éleveurs, soigneurs et artisans de matériel. L'UNESCO précise qu'elle se pratique dans de nombreux pays ; l'élément figure sur la liste du Maroc et a été inscrit en 2021.",
+      "sources": [
+        "S39"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Maroc"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01708",
+        "annee": 2021,
+        "url": "https://ich.unesco.org/en/RL/falconry-a-living-human-heritage-01708"
+      }
+    },
+    {
+      "id": "MA-tradition-calligraphie-arabe",
+      "nom": "Calligraphie arabe : savoirs, savoir-faire et pratiques",
+      "categorie": "artisanat",
+      "description": "La calligraphie arabe est l'art de tracer l'écriture arabe cursive avec fluidité, harmonie et grâce. Le calame est taillé dans le roseau ou le bambou, l'encre mêle miel, suie et safran, et le papier est traité à l'amidon, à l'œuf et à l'alun ; la calligraphie moderne emploie aussi marqueurs et bombes. Pratiquée par hommes et femmes de tous âges, elle se transmet par des écoles, des apprentissages et la voie informelle ; inscrite en 2021.",
+      "sources": [
+        "S40"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Maroc"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01718",
+        "annee": 2021,
+        "url": "https://ich.unesco.org/en/RL/arabic-calligraphy-knowledge-skills-and-practices-01718"
+      }
+    },
+    {
+      "id": "MA-tradition-couscous",
+      "nom": "Couscous : savoirs, savoir-faire et pratiques de production et de consommation",
+      "categorie": "cuisine",
+      "description": "La préparation du couscous est un processus cérémoniel : culture des céréales, mouture en semoule, roulage à la main, cuisson à la vapeur, avec des ustensiles dédiés en terre cuite ou en bois. Le plat s'accompagne de légumes et de viandes selon la région, la saison et l'occasion. Rites, expressions orales et pratiques sociales s'y rattachent ; l'UNESCO l'a inscrit en 2020.",
+      "sources": [
+        "S41"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Maroc"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01602",
+        "annee": 2020,
+        "url": "https://ich.unesco.org/en/RL/knowledge-know-how-and-practices-pertaining-to-the-production-and-consumption-of-couscous-01602"
+      }
+    },
+    {
+      "id": "MA-tradition-gnawa",
+      "nom": "Gnawa",
+      "categorie": "musique",
+      "description": "La culture gnawa associe musique de confrérie soufie, textes religieux invoquant ancêtres et esprits, et rituels thérapeutiques de possession en veillées de transe. Elle est née chez des groupes issus de l'esclavage et de la traite, au moins depuis le XVIe siècle, et elle mêle pratiques africaines, influences arabo-musulmanes et traditions berbères. En ville, certains musiciens jouent d'un instrument à cordes et de castagnettes, à la campagne de grands tambours ; l'UNESCO l'a inscrite en 2019.",
+      "sources": [
+        "S42",
+        "S16"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communautes": [
+        "Gnaoua"
+      ],
+      "regions": [
+        "villes du Maroc",
+        "campagnes du Maroc",
+        "Essaouira"
+      ],
+      "langues": [
+        "arabe marocain"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01170",
+        "annee": 2019,
+        "url": "https://ich.unesco.org/en/RL/gnawa-01170"
+      },
+      "sensible": true,
+      "note_sensibilite": "Rites de possession et de transe issus de l'histoire de l'esclavage : validation par les maâlems et confréries souhaitable avant publication."
+    },
+    {
+      "id": "MA-tradition-taskiwin",
+      "nom": "Taskiwin, danse martiale du Haut Atlas occidental",
+      "categorie": "danse",
+      "description": "Cette danse du Haut Atlas occidental tient son nom de la corne richement décorée, le tiskt, que porte chaque danseur. Elle repose sur un mouvement d'épaules rythmé par tambourins et flûtes, et sert à la cohésion sociale et à la socialisation des jeunes. Elle ne subsiste plus que dans un petit nombre de villages et l'UNESCO l'a inscrite en 2017 sur la liste de sauvegarde urgente.",
+      "sources": [
+        "S43"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Haut Atlas occidental"
+      ],
+      "transmission": "menacée",
+      "unesco": {
+        "liste": "Sauvegarde urgente",
+        "id": "01256",
+        "annee": 2017,
+        "url": "https://ich.unesco.org/en/USL/taskiwin-martial-dance-of-the-western-high-atlas-01256"
+      }
+    },
+    {
+      "id": "MA-tradition-arganier",
+      "nom": "Arganier : pratiques et savoir-faire liés à l'arbre",
+      "categorie": "savoir",
+      "description": "Dans la réserve de biosphère de l'Arganeraie, dans le sud-ouest, des femmes surtout extraient l'huile d'argan par des méthodes traditionnelles : récolte, séchage, décorticage, broyage, tri, pressage et mélange à l'eau tiède. L'huile sert en cuisine, en remède et en cosmétique, et se donne aussi en cadeau de mariage. Les savoirs passent de mère en fille ; l'UNESCO les a inscrits en 2014.",
+      "sources": [
+        "S44"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Arganeraie",
+        "Sud-Ouest"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "00955",
+        "annee": 2014,
+        "url": "https://ich.unesco.org/en/RL/argan-practices-and-know-how-concerning-the-argan-tree-00955"
+      }
+    },
+    {
+      "id": "MA-tradition-regime-mediterraneen",
+      "nom": "Régime méditerranéen",
+      "categorie": "cuisine",
+      "description": "Le régime méditerranéen est un ensemble de savoirs, de rituels et de pratiques sur les cultures, la pêche, l'élevage, la conservation, la cuisine et le partage des repas. Manger ensemble y fonde l'identité et la continuité des communautés, avec des valeurs d'hospitalité et de dialogue. L'UNESCO l'applique à l'ensemble des communautés du bassin méditerranéen et l'a inscrit en 2013 ; il figure sur la liste du Maroc.",
+      "sources": [
+        "S45"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Maroc"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "00884",
+        "annee": 2013,
+        "url": "https://ich.unesco.org/en/RL/mediterranean-diet-00884"
+      }
+    },
+    {
+      "id": "MA-tradition-fete-cerises-sefrou",
+      "nom": "Fête des cerises de Sefrou",
+      "categorie": "fete",
+      "description": "Chaque année, la ville de Sefrou célèbre sa région et sa cerise en élisant une Reine des cerises et en organisant un défilé avec troupes, musiques rurales et urbaines et chars des producteurs locaux. Les artisanes confectionnent des boutons de soie pour les robes traditionnelles, les arboriculteurs fournissent les fruits et les clubs sportifs participent. Les jeunes y sont associés ; l'UNESCO l'a inscrite en 2012.",
+      "sources": [
+        "S46"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Sefrou"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "00641",
+        "annee": 2012,
+        "url": "https://ich.unesco.org/en/RL/cherry-festival-in-sefrou-00641"
+      }
+    },
+    {
+      "id": "MA-tradition-jemaa-el-fna",
+      "nom": "Espace culturel de la place Jemaa el-Fna",
+      "categorie": "oralite",
+      "description": "La place Jemaa el-Fna, à l'entrée de la médina de Marrakech, concentre des expressions populaires musicales, religieuses et artistiques. On y rencontre jour et nuit conteurs, poètes, musiciens amazighs, danseurs gnaoua, joueurs de senthir, ainsi que guérisseurs, vendeurs et cuisiniers. Les récits des bardes (imayazen) s'y renouvellent en improvisant à partir de textes anciens ; l'UNESCO l'a inscrite en 2008, après l'avoir proclamée chef-d'œuvre.",
+      "sources": [
+        "S47",
+        "S27"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Marrakech"
+      ],
+      "langues": [
+        "arabe marocain",
+        "tamazight"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "00014",
+        "annee": 2008,
+        "url": "https://ich.unesco.org/en/RL/cultural-space-of-jemaa-el-fna-square-00014"
+      }
+    },
+    {
+      "id": "MA-tradition-moussem-tan-tan",
+      "nom": "Moussem de Tan-Tan",
+      "categorie": "fete",
+      "description": "Le moussem de Tan-Tan est un rassemblement annuel de peuples nomades du Sahara, venus de plus de trente groupes du sud du Maroc et d'autres parties du nord-ouest africain. On y échange denrées et produits, on y organise des concours d'élevage de chameaux et de chevaux, des chants, des jeux et des joutes poétiques de tradition hassanie. Devenu moussem en 1963, il a été interrompu de 1979 à 2004 pour des raisons de sécurité, selon l'UNESCO, qui l'a inscrit en 2008.",
+      "sources": [
+        "S48"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communautes": [
+        "communautés hassanophones"
+      ],
+      "regions": [
+        "Tan-Tan",
+        "Sud du Maroc"
+      ],
+      "langues": [
+        "hassanya"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "00168",
+        "annee": 2008,
+        "url": "https://ich.unesco.org/en/RL/moussem-of-tan-tan-00168"
+      },
+      "sensible": true,
+      "note_sensibilite": "La région touche à un territoire dont le statut est disputé : rester sur la description de l'UNESCO, sans prise de position."
+    },
+    {
+      "id": "MA-tradition-ahidous",
+      "nom": "Ahidous",
+      "categorie": "danse",
+      "description": "L'ahidous est une danse collective berbère du Moyen Atlas et du Haut Atlas, où hommes et femmes, coude à coude, forment des rondes ondulantes accompagnées de chants en berbère, les izlan, rythmés par l'alloun. On le danse aux fêtes et, l'été après la moisson, presque chaque soir dans certains villages. Un festival lui est dédié chaque année à Aïn Leuh, en août.",
+      "sources": [
+        "S100"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "ⴰⵃⵉⴷⵓⵙ",
+      "communautes": [
+        "Imazighen du Moyen Atlas"
+      ],
+      "regions": [
+        "Moyen Atlas",
+        "Haut Atlas",
+        "Khénifra",
+        "Azrou",
+        "Ifrane",
+        "Midelt"
+      ],
+      "langues": [
+        "tamazight du Maroc central"
+      ],
+      "transmission": "vivante",
+      "unesco": null
+    },
+    {
+      "id": "MA-tradition-ahwach",
+      "nom": "Ahwach (ahouach)",
+      "categorie": "danse",
+      "description": "L'ahwach est une danse collective berbère du sud marocain, pratiquée surtout dans la région Souss-Massa. Les danseurs, appelés ihouaouyn, s'y répondent en chantant des poèmes, et une séance peut durer jusqu'à deux heures. Les instruments sont le tara (tambourin), le tbel (tambour) et le naqus, objet en métal frappé de deux baguettes.",
+      "sources": [
+        "S101"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "ⴰⵃⵡⴰⵛ",
+      "regions": [
+        "Souss-Massa",
+        "Tiznit"
+      ],
+      "transmission": "vivante",
+      "unesco": null
+    },
+    {
+      "id": "MA-tradition-zellige",
+      "nom": "Zellige",
+      "categorie": "artisanat",
+      "description": "Le zellige est une mosaïque décorative de l'architecture islamique, faite de petits fragments de faïence émaillée de couleurs, découpés un à un puis assemblés sur un lit de mortier. Il orne mosquées, palais et demeures, et il est caractéristique des arts décoratifs de l'architecture mauresque. Ses origines restent obscures ; sous sa forme typique, il se répand largement aux XIIIe et XIVe siècles.",
+      "sources": [
+        "S102"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Maroc"
+      ],
+      "transmission": "vivante",
+      "unesco": null
+    },
+    {
+      "id": "MA-tradition-poterie-safi",
+      "nom": "Poterie de Safi",
+      "categorie": "artisanat",
+      "description": "La poterie de Safi est un style de céramique de la ville côtière de Safi, connu pour son argile abondante et ses décors colorés. Un artisan de Fès, Mohamed Langassi, y a introduit en 1875 le décor traditionnel de la poterie fassie. Le quartier des potiers, ou colline des potiers, protégé comme monument historique depuis 1920, concentre près de deux cents ateliers.",
+      "sources": [
+        "S103"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Safi"
+      ],
+      "transmission": "vivante",
+      "periode": "depuis 1875",
+      "unesco": null
+    },
+    {
+      "id": "MA-tradition-nass-el-ghiwane",
+      "nom": "Nass El Ghiwane et la musique ghiwani",
+      "categorie": "musique",
+      "description": "Nass El Ghiwane est un groupe né dans les années 1970 à Casablanca, dans le quartier de Hay Mohammadi. Son répertoire puise dans la poésie populaire marocaine et dans des textes soufis, avec des paroles engagées et poétiques. La notice de Wikipédia le présente comme l'origine d'un nouveau genre musical, le ghiwani.",
+      "sources": [
+        "S104"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Casablanca"
+      ],
+      "langues": [
+        "arabe marocain"
+      ],
+      "transmission": "vivante",
+      "periode": "depuis les années 1970",
+      "unesco": null
+    },
+    {
+      "id": "MA-tradition-festival-fes-musiques-sacrees",
+      "nom": "Festival de Fès des musiques sacrées du monde",
+      "categorie": "fete",
+      "description": "Fondé en 1994 par Faouzi Skali, ce festival se tient chaque année en juin à Fès, durant une dizaine de jours, dans les monuments et sites de la ville. Il accueille des artistes de toutes cultures, et s'accompagne depuis 2001 d'un forum de réflexion, le Forum de Fès. Il s'inscrit dans la tradition savante, artistique et spirituelle de la cité.",
+      "sources": [
+        "S105"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Fès"
+      ],
+      "transmission": "vivante",
+      "periode": "depuis 1994",
+      "unesco": null
+    },
+    {
+      "id": "MA-tradition-moussem-imilchil",
+      "nom": "Moussem d'Imilchil",
+      "categorie": "fete",
+      "description": "Le moussem d'Imilchil est une grande fête annuelle du Moyen Atlas, tenue au début de l'automne près d'Imilchil, dans la province de Midelt, après les récoltes et la transhumance. Il associe une foire où l'on vend du bétail et des produits agricoles ou artisanaux, une fête religieuse et un pèlerinage au tombeau du saint patron des Aït Hadiddou. Une légende l'associe aux lacs Tislit (la fiancée) et Isli (le fiancé).",
+      "sources": [
+        "S106"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communautes": [
+        "Aït Hadiddou"
+      ],
+      "regions": [
+        "Imilchil",
+        "Midelt",
+        "Moyen Atlas"
+      ],
+      "langues": [
+        "tamazight du Maroc central"
+      ],
+      "transmission": "vivante",
+      "unesco": null
+    },
+    {
+      "id": "MA-tradition-festival-gnaoua-essaouira",
+      "nom": "Festival Gnaoua et Musiques du Monde d'Essaouira",
+      "categorie": "musique",
+      "description": "Chaque année à Essaouira, ce festival réunit des maâlems gnaoua et des artistes venus d'autres horizons, et fait de la ville un lieu de rencontre pour ces traditions. Son site officiel annonce sa 28e édition du 24 au 26 juin 2027. Il prolonge la culture gnawa inscrite par l'UNESCO.",
+      "sources": [
+        "S16",
+        "S42"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Essaouira"
+      ],
+      "transmission": "vivante",
+      "unesco": null
+    },
+    {
+      "id": "MA-tradition-cuisine-marocaine",
+      "nom": "Cuisine marocaine et tajine",
+      "categorie": "cuisine",
+      "description": "La cuisine marocaine est une cuisine méditerranéenne variée, issue surtout de la cuisine berbère, avec des influences arabes, juives et andalouses. Le tajine désigne à la fois un plat de cuisson et de service en terre cuite et les mets qu'on y prépare, à base de viande, poisson, légumes, fruits, épices et huiles d'olive ou d'argan. Le couscous fait lui aussi l'objet d'une inscription UNESCO.",
+      "sources": [
+        "S107",
+        "S41"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Maroc"
+      ],
+      "transmission": "vivante",
+      "unesco": null
+    },
+    {
+      "id": "MA-tradition-jazz-chellah",
+      "nom": "Jazz au Chellah",
+      "categorie": "fete",
+      "description": "Depuis 2005, le site archéologique du Chellah, à Rabat, accueille chaque année le festival Jazz au Chellah. Il place des concerts dans un décor de nécropole mérinide bâtie sur une cité antique. Le site a rouvert au public le 20 mai 2024 après des travaux de restauration.",
+      "sources": [
+        "S93"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Rabat"
+      ],
+      "transmission": "vivante",
+      "periode": "depuis 2005",
+      "unesco": null
+    }
+  ],
+  "personnalites": [
+    {
+      "id": "MA-personnalite-idris1",
+      "nom": "Idris Ier",
+      "wikidata": "Q438601",
+      "description": "Idris Ier est un descendant de la famille du Prophète, d'obédience zaïdite, qui dut fuir le Hedjaz et se réfugia vers 789 près de Volubilis. Les Awraba, groupe berbère, le reconnurent comme guide politique et spirituel, et il fonda ainsi l'État idrisside. Il mourut entre 791 et 793.",
+      "roles": [
+        "fondateur de l'État idrisside",
+        "imam"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "VIIIe siècle",
+      "sources": [
+        "S111",
+        "S112",
+        "S85"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de naissance non retenue (non donnée par les sources consultées) ; date de décès incertaine (791 selon Wikidata, 791-793 selon Wikipédia)."
+      },
+      "deces": {
+        "date": "entre 791 et 793",
+        "lieu": "Volubilis"
+      }
+    },
+    {
+      "id": "MA-personnalite-idris2",
+      "nom": "Idris II",
+      "wikidata": "Q922653",
+      "description": "Idris II, né à Volubilis (Walili) trois mois après la mort de son père, prit le pouvoir à onze ans. Il unifia le pays et posa depuis Fès, nouvelle capitale, les bases de l'État idrisside. Il mourut en 828.",
+      "roles": [
+        "sultan idrisside",
+        "fondateur de Fès comme capitale"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "VIIIe-IXe siècle",
+      "sources": [
+        "S113",
+        "S114",
+        "S85",
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "791",
+        "lieu": "Volubilis (Walili)"
+      },
+      "deces": {
+        "date": "828",
+        "lieu": "Fès"
+      }
+    },
+    {
+      "id": "MA-personnalite-fihriya",
+      "nom": "Fatima al-Fihriya",
+      "wikidata": "Q182363",
+      "description": "Selon la tradition, Fatima al-Fihriya, née vers 800 à Kairouan et morte vers 880 à Fès, aurait fondé l'université Al Quaraouiyine. L'article de Wikipédia emploie le conditionnel (« aurait fondé »). Wikipédia la présente comme mécène.",
+      "roles": [
+        "mécène",
+        "fondatrice traditionnelle d'Al Quaraouiyine"
+      ],
+      "domaines": [
+        "savoirs",
+        "éducation"
+      ],
+      "epoque": "IXe siècle",
+      "sources": [
+        "S115",
+        "S116",
+        "S83"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Attribution de la fondation relevant de la tradition ; dates approximatives."
+      },
+      "naissance": {
+        "date": "vers 800",
+        "lieu": "Kairouan (Ifriqiya)"
+      },
+      "deces": {
+        "date": "vers 880",
+        "lieu": "Fès"
+      }
+    },
+    {
+      "id": "MA-personnalite-zaynab",
+      "nom": "Zaynab Nefzaouia",
+      "wikidata": "Q4165292",
+      "description": "Zaynab Nefzaouia est une femme influente berbère des débuts de la dynastie almoravide, présentée comme fondatrice et reine de Marrakech. Née à Aghmat en 1039, elle épousa Youssef ben Tachfine, auprès de qui elle aurait régné de fait. Elle serait morte à Marrakech en 1117.",
+      "roles": [
+        "reine almoravide",
+        "conseillère politique"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XIe-XIIe siècle",
+      "sources": [
+        "S117",
+        "S118",
+        "S67",
+        "S87"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Rôle exact débattu : Wikipédia emploie « présentée comme » et indique « fl. 1075 »."
+      },
+      "naissance": {
+        "date": "1039",
+        "lieu": "Aghmat"
+      },
+      "deces": {
+        "date": "1117",
+        "lieu": "Marrakech"
+      }
+    },
+    {
+      "id": "MA-personnalite-tachfine",
+      "nom": "Youssef ben Tachfine",
+      "wikidata": "Q369981",
+      "description": "Youssef ben Tachfine fut le premier sultan de la dynastie berbère des Almoravides, né entre 1006 et 1009. Il exerça son autorité sur un vaste ensemble politique, l'empire almoravide, qui allait du sud de la péninsule Ibérique au Sahara occidental et à la Mauritanie. Il remporta la bataille de Sagrajas (Zallaqa) en 1086.",
+      "roles": [
+        "sultan almoravide"
+      ],
+      "domaines": [
+        "politique",
+        "militaire"
+      ],
+      "epoque": "XIe-XIIe siècle",
+      "sources": [
+        "S119",
+        "S120",
+        "S67",
+        "S66"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lieux de naissance et de décès non retenus ; date de décès 1106 selon Wikidata (autre date : règne jusqu'en 1107 sur Wikipédia)."
+      },
+      "naissance": {
+        "date": "entre 1006 et 1009"
+      },
+      "deces": {
+        "date": "1106"
+      }
+    },
+    {
+      "id": "MA-personnalite-idrissi",
+      "nom": "Al Idrissi",
+      "wikidata": "Q173441",
+      "description": "Al Idrissi est un géographe, explorateur, botaniste et médecin né vers 1100 à Ceuta. Il a grandi au Maroc et en al-Andalus, et étudié à Cordoue. Wikipédia le qualifie d'explorateur, de géographe, de botaniste et de médecin.",
+      "roles": [
+        "géographe",
+        "explorateur",
+        "médecin"
+      ],
+      "domaines": [
+        "savoirs",
+        "sciences"
+      ],
+      "epoque": "XIIe siècle",
+      "sources": [
+        "S121",
+        "S122",
+        "S83"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates de naissance et de décès approximatives et variables selon Wikidata (1099-1110 ; 1165-1166)."
+      },
+      "naissance": {
+        "date": "vers 1100",
+        "lieu": "Ceuta"
+      },
+      "deces": {
+        "date": "vers 1165-1166"
+      }
+    },
+    {
+      "id": "MA-personnalite-battuta",
+      "nom": "Ibn Battûta",
+      "wikidata": "Q7331",
+      "description": "Ibn Battûta, né le 24 février 1304 à Tanger, est un voyageur d'origine berbère qui aurait parcouru plus de 120 000 km entre 1325 et 1349. Ses souvenirs ont été mis en forme par le lettré Ibn Juzayy sous le titre Rihla. Wikipédia invite à la prudence sur certaines parties du récit.",
+      "roles": [
+        "voyageur",
+        "auteur de la Rihla"
+      ],
+      "domaines": [
+        "littérature",
+        "voyage"
+      ],
+      "epoque": "XIVe siècle",
+      "sources": [
+        "S123",
+        "S124",
+        "S13"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date et lieu de décès incertains (1368 ou 1377 ; Fès ou Marrakech)."
+      },
+      "naissance": {
+        "date": "1304-02-24",
+        "lieu": "Tanger"
+      },
+      "deces": {
+        "date": "1368 ou 1377",
+        "lieu": "Fès ou Marrakech"
+      }
+    },
+    {
+      "id": "MA-personnalite-hurra",
+      "nom": "Sayyida al-Hurra",
+      "wikidata": "Q4299447",
+      "description": "Sayyida al-Hurra, née à Grenade en 1485, gouverna Tétouan de 1515 à 1542 et fut corsaire. Elle est connue pour sa lutte contre les Portugais installés à Ceuta et pour son alliance avec le corsaire turc Arudj Barberousse. Wikipédia la compte parmi les personnalités majeures de l'Occident musulman moderne.",
+      "roles": [
+        "gouverneure de Tétouan",
+        "corsaire"
+      ],
+      "domaines": [
+        "politique",
+        "mer"
+      ],
+      "epoque": "XVIe siècle",
+      "sources": [
+        "S125",
+        "S126"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de décès incertaine (« après 1542 » selon Wikipédia, 1561 selon Wikidata)."
+      },
+      "naissance": {
+        "date": "1485",
+        "lieu": "Grenade"
+      },
+      "deces": {
+        "date": "après 1542"
+      }
+    },
+    {
+      "id": "MA-personnalite-khattabi",
+      "nom": "Abdelkrim el-Khattabi",
+      "wikidata": "Q202650",
+      "description": "Abdelkrim el-Khattabi, né vers 1882 à Ajdir dans le Rif et mort le 6 février 1963 au Caire, dirigea la résistance rifaine contre les armées espagnole puis française pendant la guerre du Rif (1921-1926). Il fut président de la République du Rif. Un article de Persée présente cette guerre comme une phase nouvelle des luttes contre l'impérialisme colonial.",
+      "roles": [
+        "chef de la résistance rifaine",
+        "président de la République du Rif"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S127",
+        "S128",
+        "S9"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "vers 1882",
+        "lieu": "Ajdir (Rif)"
+      },
+      "deces": {
+        "date": "1963-02-06",
+        "lieu": "Le Caire"
+      },
+      "sensible": true,
+      "note_sensibilite": "Figure de la résistance coloniale aux lectures mémorielles contrastées ; garder un ton factuel."
+    },
+    {
+      "id": "MA-personnalite-m5",
+      "nom": "Mohammed V",
+      "wikidata": "Q193874",
+      "description": "Sidi Mohammed ben Youssef, né le 10 août 1909 à Fès, fut sultan du Maroc de 1927 à 1957 sous le protectorat, puis roi sous le nom de Mohammed V jusqu'en 1961. Il soutint à partir de 1944 le mouvement indépendantiste de l'Istiqlal. Il mourut le 26 février 1961 à Rabat.",
+      "roles": [
+        "sultan puis roi"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S129",
+        "S130",
+        "S76",
+        "S97"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1909-08-10",
+        "lieu": "Fès"
+      },
+      "deces": {
+        "date": "1961-02-26",
+        "lieu": "Rabat"
+      }
+    },
+    {
+      "id": "MA-personnalite-h2",
+      "nom": "Hassan II",
+      "wikidata": "Q69103",
+      "description": "Hassan II, né le 9 juillet 1929 à Rabat, est le roi du Maroc du 26 février 1961 à sa mort, le 23 juillet 1999. Son règne a été marqué par de graves violations des droits humains pendant les années de plomb, et après sa mort, son fils et successeur a créé une commission pour revenir sur ces violations. Il lança aussi la Marche verte en 1975.",
+      "roles": [
+        "roi du Maroc"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S131",
+        "S132",
+        "S78",
+        "S77"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1929-07-09",
+        "lieu": "Rabat"
+      },
+      "deces": {
+        "date": "1999-07-23",
+        "lieu": "Rabat"
+      },
+      "sensible": true,
+      "note_sensibilite": "Règne contesté sur les droits humains et la question du Sahara occidental : présentation neutre, positions des parties citées."
+    },
+    {
+      "id": "MA-personnalite-benbarka",
+      "nom": "Mehdi Ben Barka",
+      "wikidata": "Q510292",
+      "description": "Mehdi Ben Barka, né en janvier 1920 à Rabat, fut l'un des principaux opposants socialistes à Hassan II et un chef de file du mouvement tiers-mondiste. Enlevé à Paris le 29 octobre 1965, il a disparu et son corps n'a jamais été retrouvé. L'enquête judiciaire n'est pas close.",
+      "roles": [
+        "homme politique",
+        "opposant"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S133",
+        "S134",
+        "S78"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de naissance : janvier 1920 (Wikipédia), 1920 ou 1921 (Wikidata)."
+      },
+      "naissance": {
+        "date": "1920-01",
+        "lieu": "Rabat"
+      },
+      "deces": {
+        "date": "1965-10-29 (disparition)",
+        "lieu": "Fontenay-le-Vicomte (France)"
+      },
+      "sensible": true,
+      "note_sensibilite": "Disparition forcée dont les responsabilités font l'objet d'une enquête judiciaire inachevée ; citer les sources judiciaires."
+    },
+    {
+      "id": "MA-personnalite-allal",
+      "nom": "Allal El Fassi",
+      "wikidata": "Q2837662",
+      "description": "Allal El Fassi, né le 10 janvier 1910 à Fès et mort le 13 mai 1974 à Bucarest, est une figure majeure du nationalisme marocain. Il fut l'un des idéologues du parti de l'Istiqlal, dont il devint le chef en 1960.",
+      "roles": [
+        "homme politique",
+        "chef de l'Istiqlal"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S135",
+        "S136",
+        "S86"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1910-01-10",
+        "lieu": "Fès"
+      },
+      "deces": {
+        "date": "1974-05-13",
+        "lieu": "Bucarest"
+      }
+    },
+    {
+      "id": "MA-personnalite-malika",
+      "nom": "Malika El Fassi",
+      "wikidata": "Q3282080",
+      "description": "Malika El Fassi, née le 19 juin 1919 à Fès, est la seule femme signataire du Manifeste de l'indépendance du 11 janvier 1944. Ce texte de 1944 est un jalon du mouvement pour l'indépendance.",
+      "roles": [
+        "signataire du Manifeste de l'indépendance"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S137",
+        "S138",
+        "S86"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année de décès discordante : 2007 (Wikipédia) et 2005 (Wikidata)."
+      },
+      "naissance": {
+        "date": "1919-06-19",
+        "lieu": "Fès"
+      },
+      "deces": {
+        "date": "12 mai (2005 ou 2007)",
+        "lieu": "Fès"
+      }
+    },
+    {
+      "id": "MA-personnalite-mernissi",
+      "nom": "Fatema Mernissi",
+      "wikidata": "Q242376",
+      "description": "Fatema Mernissi, née en 1940 à Fès et morte le 30 novembre 2015 à Rabat, fut sociologue, universitaire et féministe. Elle consacra son œuvre à la place des femmes dans le monde arabe, privilégiant la capacité des femmes à négocier leur place plutôt qu'un discours de victimes.",
+      "roles": [
+        "sociologue",
+        "universitaire",
+        "féministe"
+      ],
+      "domaines": [
+        "savoirs",
+        "littérature",
+        "sciences sociales"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S139",
+        "S140"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1940",
+        "lieu": "Fès"
+      },
+      "deces": {
+        "date": "2015-11-30",
+        "lieu": "Rabat"
+      }
+    },
+    {
+      "id": "MA-personnalite-slimani",
+      "nom": "Leïla Slimani",
+      "wikidata": "Q18173445",
+      "description": "Leïla Slimani, née le 3 octobre 1981 à Rabat, est une journaliste et écrivaine franco-marocaine. Elle a reçu le prix Goncourt 2016 pour son deuxième roman, Chanson douce.",
+      "roles": [
+        "écrivaine",
+        "journaliste"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S141",
+        "S142",
+        "S108"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1981-10-03",
+        "lieu": "Rabat"
+      }
+    },
+    {
+      "id": "MA-personnalite-benjelloun",
+      "nom": "Tahar Ben Jelloun",
+      "wikidata": "Q334989",
+      "description": "Tahar Ben Jelloun est un écrivain, poète et peintre franco-marocain né à Fès. Auteur de nouvelles, romans, poèmes et essais, il a obtenu le prix Goncourt pour La Nuit sacrée. Il a traduit en français Le Pain nu de Mohamed Choukri.",
+      "roles": [
+        "écrivain",
+        "poète",
+        "traducteur"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S143",
+        "S144",
+        "S109"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année de naissance discordante : 15 décembre 1947 (Wikipédia), décembre 1944 ou 1947 (Wikidata)."
+      },
+      "naissance": {
+        "date": "1944 ou 1947-12-15",
+        "lieu": "Fès"
+      }
+    },
+    {
+      "id": "MA-personnalite-chraibi",
+      "nom": "Driss Chraïbi",
+      "wikidata": "Q379960",
+      "description": "Driss Chraïbi, né le 15 juillet 1926 à El Jadida et mort le 1er avril 2007 à Valence (Drôme), est un écrivain marocain de langue française. Il a signé une vingtaine de romans et créé des émissions pour France Culture pendant quarante ans. Colonialisme, condition de la femme, islam et Al-Andalus comptent parmi ses thèmes.",
+      "roles": [
+        "écrivain",
+        "producteur radio"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S145",
+        "S146"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikidata indique 2026 pour le décès (erreur manifeste) ; Wikipédia donne le 1er avril 2007."
+      },
+      "naissance": {
+        "date": "1926-07-15",
+        "lieu": "El Jadida"
+      },
+      "deces": {
+        "date": "2007-04-01",
+        "lieu": "Valence (Drôme, France)"
+      }
+    },
+    {
+      "id": "MA-personnalite-choukri",
+      "nom": "Mohamed Choukri",
+      "wikidata": "Q335436",
+      "description": "Mohamed Choukri, né le 15 juillet 1935 à Aït Chiker (province de Nador) et mort le 15 novembre 2003 à Rabat, est un écrivain marocain qui écrivait surtout en arabe classique. Son récit autobiographique Le Pain nu, publié d'abord en traduction anglaise, est devenu un texte majeur de la littérature arabe.",
+      "roles": [
+        "écrivain",
+        "traducteur"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S147",
+        "S148",
+        "S109"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1935-07-15",
+        "lieu": "Aït Chiker (Nador)"
+      },
+      "deces": {
+        "date": "2003-11-15",
+        "lieu": "Rabat"
+      }
+    },
+    {
+      "id": "MA-personnalite-moutawakel",
+      "nom": "Nawal El Moutawakel",
+      "wikidata": "Q239993",
+      "description": "Nawal El Moutawakel, née le 15 avril 1962 à Casablanca, a remporté le premier 400 mètres haies féminin de l'histoire des Jeux olympiques, à Los Angeles en 1984. Devenue dirigeante sportive et femme politique, elle est élue en 2012 vice-présidente du Comité international olympique.",
+      "roles": [
+        "athlète",
+        "dirigeante sportive",
+        "femme politique"
+      ],
+      "domaines": [
+        "sport",
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S149",
+        "S150"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1962-04-15",
+        "lieu": "Casablanca"
+      }
+    },
+    {
+      "id": "MA-personnalite-guerrouj",
+      "nom": "Hicham El Guerrouj",
+      "wikidata": "Q83905",
+      "description": "Hicham El Guerrouj, né le 14 septembre 1974 à Berkane, est un spécialiste de demi-fond et de fond. Il est quadruple champion du monde du 1 500 m, et a remporté à Athènes en 2004 les médailles d'or du 1 500 m et du 5 000 m.",
+      "roles": [
+        "athlète"
+      ],
+      "domaines": [
+        "sport"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S151",
+        "S152"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1974-09-14",
+        "lieu": "Berkane"
+      }
+    },
+    {
+      "id": "MA-personnalite-chaoui",
+      "nom": "Touria Chaoui",
+      "wikidata": "Q3533951",
+      "description": "Touria Chaoui, née le 14 décembre 1936 à Fès et morte le 1er mars 1956 à Casablanca, fut la première femme marocaine pilote d'avion et la plus jeune pilote du monde arabe.",
+      "roles": [
+        "pilote"
+      ],
+      "domaines": [
+        "aviation",
+        "sciences et techniques"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S153",
+        "S154"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1936-12-14",
+        "lieu": "Fès"
+      },
+      "deces": {
+        "date": "1956-03-01",
+        "lieu": "Casablanca"
+      }
+    },
+    {
+      "id": "MA-personnalite-chenna",
+      "nom": "Aïcha Chenna",
+      "wikidata": "Q403486",
+      "description": "Aïcha Chenna, née le 14 août 1941 à Casablanca et morte le 25 septembre 2022 dans la même ville, a défendu pendant plus de cinquante ans les droits des mères célibataires et des enfants nés hors mariage. Elle a fondé l'Association Solidarité Féminine.",
+      "roles": [
+        "militante",
+        "fondatrice d'association"
+      ],
+      "domaines": [
+        "société",
+        "droits des femmes"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S155",
+        "S156"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1941-08-14",
+        "lieu": "Casablanca"
+      },
+      "deces": {
+        "date": "2022-09-25",
+        "lieu": "Casablanca"
+      }
+    },
+    {
+      "id": "MA-personnalite-yazami",
+      "nom": "Rachid Yazami",
+      "wikidata": "Q7279515",
+      "description": "Rachid Yazami est un physico-chimiste marocain, inventeur de l'anode en graphite pour les batteries lithium-ion. Il a reçu en 2014 le prix Charles-Stark-Draper de l'Académie nationale d'ingénierie des États-Unis.",
+      "roles": [
+        "physico-chimiste",
+        "inventeur"
+      ],
+      "domaines": [
+        "sciences"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S157",
+        "S158"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lieu de naissance (Fès) lu sur Wikidata uniquement."
+      },
+      "naissance": {
+        "date": "1953-04-16",
+        "lieu": "Fès"
+      }
+    },
+    {
+      "id": "MA-personnalite-guinia",
+      "nom": "Mahmoud Guinia",
+      "wikidata": "Q3277803",
+      "description": "Mahmoud Guinia, né en 1951 à Essaouira et mort le 2 août 2015, fut un maâlem, maître musicien de la tradition gnawa. Wikipédia le présente comme un musicien gnaoui.",
+      "roles": [
+        "maâlem gnawa",
+        "musicien"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S159",
+        "S160",
+        "S42"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1951",
+        "lieu": "Essaouira"
+      },
+      "deces": {
+        "date": "2015-08-02"
+      }
+    }
+  ],
+  "evenements": [
+    {
+      "id": "MA-evenement-jebel-irhoud",
+      "titre": "Jebel Irhoud : fossiles humains datés d'environ 315 000 ans",
+      "date": "2017-01-01",
+      "date_affichee": "2017 (fossiles d'environ 315 000 ans)",
+      "precision": "annee",
+      "description": "En 2017, de nouveaux fossiles humains de Jebel Irhoud sont publiés dans Nature et datés par thermoluminescence de 315 000 ans, avec une marge de 34 000 ans. Les auteurs y voient le plus ancien et le plus riche site africain de l'âge de pierre moyen documentant les débuts de la lignée d'Homo sapiens. Le site est situé dans la région de Marrakech-Safi.",
+      "sources": [
+        "S5",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Marrakech-Safi"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Restes humains fossiles : présenter avec les institutions de recherche marocaines."
+    },
+    {
+      "id": "MA-evenement-mauretanie-tingitane",
+      "titre": "Province romaine de Maurétanie tingitane",
+      "date": "0040-01-01",
+      "date_affichee": "40-258",
+      "precision": "annee",
+      "description": "Après avoir été un royaume client de Rome, la Maurétanie est divisée par l'empereur Claude ; la partie occidentale devient la province de Maurétanie tingitane, avec Tanger pour capitale. Volubilis en conserve des vestiges importants.",
+      "sources": [
+        "S65",
+        "S25"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "fin": "0258-12-31",
+      "regions": [
+        "Tanger",
+        "Volubilis"
+      ]
+    },
+    {
+      "id": "MA-evenement-dynastie-idrisside",
+      "titre": "Installation de la dynastie idrisside",
+      "date": "0789-01-01",
+      "date_affichee": "789",
+      "precision": "annee",
+      "description": "Idris Ier, reconnu comme imam par les Awraba, fonde l'État idrisside autour de Volubilis. Son fils Idris II en fera, depuis Fès, un État structuré. La dynastie règne jusqu'en 985.",
+      "sources": [
+        "S85",
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "fin": "0985-12-31",
+      "regions": [
+        "Volubilis",
+        "Fès"
+      ],
+      "acteurs": [
+        "Idris Ier",
+        "Idris II",
+        "Awraba"
+      ]
+    },
+    {
+      "id": "MA-evenement-fes-capitale",
+      "titre": "Fès devient capitale idrisside",
+      "date": "0808-01-01",
+      "date_affichee": "808",
+      "precision": "annee",
+      "description": "La médina de Fès conserve la mémoire de la capitale fondée par les Idrissides entre 789 et 808. Fès remplace Volubilis comme capitale en 808 selon l'infobox de Wikipédia.",
+      "sources": [
+        "S28",
+        "S85"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Fès"
+      ]
+    },
+    {
+      "id": "MA-evenement-quaraouiyine",
+      "titre": "Fondation traditionnelle d'Al Quaraouiyine",
+      "date": "0859-01-01",
+      "date_affichee": "859",
+      "precision": "annee",
+      "description": "Selon la tradition, la construction d'Al Quaraouiyine, à Fès, débute en 859 sous les Idrissides. Elle est devenue une université publique en 1963 et est présentée par l'UNESCO et le Guinness comme la plus ancienne université encore en activité, ce que d'autres sources nuancent.",
+      "sources": [
+        "S83",
+        "S115"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Fès"
+      ],
+      "acteurs": [
+        "Fatima al-Fihriya (selon la tradition)"
+      ]
+    },
+    {
+      "id": "MA-evenement-fondation-marrakech",
+      "titre": "Fondation de Marrakech par les Almoravides",
+      "date": "1070-01-01",
+      "date_affichee": "1070-1072",
+      "precision": "annee",
+      "description": "Marrakech est fondée en 1070-1072 par les Almoravides, mouvement berbère sanhajien né vers 1040. Elle devient le centre d'un empire qui englobe le Maroc, le Sahara occidental, la Mauritanie et le sud de la péninsule Ibérique.",
+      "sources": [
+        "S27",
+        "S67"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "fin": "1072-12-31",
+      "regions": [
+        "Marrakech"
+      ]
+    },
+    {
+      "id": "MA-evenement-sagrajas",
+      "titre": "Bataille de Sagrajas (Zallaqa)",
+      "date": "1086-10-23",
+      "date_affichee": "23 octobre 1086",
+      "precision": "jour",
+      "description": "Le 23 octobre 1086, les Almoravides de Youssef ben Tachfine et des rois des taïfas d'al-Andalus battent l'armée d'Alphonse VI de Castille près de Badajoz.",
+      "sources": [
+        "S66",
+        "S119"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Badajoz (Espagne)"
+      ],
+      "acteurs": [
+        "Youssef ben Tachfine",
+        "Alphonse VI de Castille"
+      ]
+    },
+    {
+      "id": "MA-evenement-almohades-marrakech",
+      "titre": "Les Almohades prennent Marrakech",
+      "date": "1147-01-01",
+      "date_affichee": "1147",
+      "precision": "annee",
+      "description": "En 1147, Abd al-Mumin capture Marrakech aux Almoravides, ce qui marque l'essor du califat almohade, mouvement berbère fondé par Ibn Toumert en 1121 à Tinmel.",
+      "sources": [
+        "S68",
+        "S96"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Marrakech",
+        "Tinmel"
+      ]
+    },
+    {
+      "id": "MA-evenement-las-navas",
+      "titre": "Bataille de Las Navas de Tolosa",
+      "date": "1212-07-16",
+      "date_affichee": "16 juillet 1212",
+      "precision": "jour",
+      "description": "Le 16 juillet 1212, l'armée almohade est battue par une coalition de royaumes chrétiens d'Espagne à Las Navas de Tolosa. Les Almohades y subissent une défaite décisive.",
+      "sources": [
+        "S69",
+        "S68"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Andalousie (Espagne)"
+      ]
+    },
+    {
+      "id": "MA-evenement-fes-jedid",
+      "titre": "Fondation de Fès Jedid par les Mérinides",
+      "date": "1276-01-01",
+      "date_affichee": "1276",
+      "precision": "annee",
+      "description": "Les Mérinides, dynastie berbère zénète au pouvoir de 1244 à 1465, fondent en 1276 une ville nouvelle, Fès Jedid, à l'ouest de la vieille ville. Elle abrite le palais royal.",
+      "sources": [
+        "S28",
+        "S70"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Fès"
+      ]
+    },
+    {
+      "id": "MA-evenement-mazagan",
+      "titre": "Première citadelle portugaise de Mazagan",
+      "date": "1514-01-01",
+      "date_affichee": "1514",
+      "precision": "annee",
+      "description": "Les frères Francisco et Diogo de Arruda construisent en 1514 la première citadelle de Mazagan, sur la côte atlantique, étape sur la route des Portugais vers l'Inde. Elle est agrandie en 1541-1548.",
+      "sources": [
+        "S26"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "El Jadida"
+      ]
+    },
+    {
+      "id": "MA-evenement-trois-rois",
+      "titre": "Bataille des Trois Rois (Oued al-Makhazin)",
+      "date": "1578-08-04",
+      "date_affichee": "4 août 1578",
+      "precision": "jour",
+      "description": "Le 4 août 1578, près de Ksar el-Kébir, l'armée saadienne bat les forces du roi Sébastien Ier de Portugal. Le roi Sébastien Ier, le sultan Abd al-Malik et le prétendant Muhammad al-Mutawakkil y trouvent la mort.",
+      "sources": [
+        "S71"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Ksar el-Kébir"
+      ],
+      "acteurs": [
+        "Saadiens",
+        "Sébastien Ier de Portugal"
+      ]
+    },
+    {
+      "id": "MA-evenement-tondibi",
+      "titre": "Bataille de Tondibi",
+      "date": "1591-03-13",
+      "date_affichee": "mars 1591",
+      "precision": "annee",
+      "description": "En 1591, un corps expéditionnaire envoyé par le sultan saadien Ahmed el-Mansour bat à Tondibi l'armée de l'empire songhaï. Wikipédia date la bataille du 12 ou du 13 mars. L'artillerie y joue un rôle décisif, et l'événement est un tournant de l'histoire de l'Afrique de l'Ouest.",
+      "sources": [
+        "S72"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Tondibi (Mali)"
+      ],
+      "acteurs": [
+        "Saadiens",
+        "Empire songhaï"
+      ]
+    },
+    {
+      "id": "MA-evenement-alaouites",
+      "titre": "Établissement du sultanat alaouite",
+      "date": "1666-01-01",
+      "date_affichee": "1666",
+      "precision": "annee",
+      "description": "Sous l'impulsion de Rachid ben Chérif, les Alaouites étendent leur contrôle et établissent en 1666 un sultanat dont la capitale est Fès. La dynastie est celle qui règne encore sur le Maroc.",
+      "sources": [
+        "S84"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Fès"
+      ]
+    },
+    {
+      "id": "MA-evenement-moulay-ismail",
+      "titre": "Moulay Ismaïl couronné à Meknès",
+      "date": "1672-04-14",
+      "date_affichee": "14 avril 1672",
+      "precision": "jour",
+      "description": "Moulay Ismaïl est couronné à Meknès le 14 avril 1672 et règne jusqu'en 1727. Il fait de Meknès une ville impériale dont l'UNESCO retient les remparts de 15 mètres et les vestiges.",
+      "sources": [
+        "S73",
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "fin": "1727-03-22",
+      "regions": [
+        "Meknès"
+      ]
+    },
+    {
+      "id": "MA-evenement-traite-etats-unis",
+      "titre": "Traité de paix et d'amitié avec les États-Unis",
+      "date": "1786-06-23",
+      "date_affichee": "23 juin 1786",
+      "precision": "jour",
+      "description": "Le 23 juin 1786, à Marrakech, le sultan Sidi Muhammad et l'émissaire américain Thomas Barclay signent un traité de paix et d'amitié. Le département d'État américain le présente comme la reconnaissance des États-Unis par le Maroc.",
+      "sources": [
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Marrakech"
+      ],
+      "acteurs": [
+        "Sidi Muhammad",
+        "Thomas Barclay"
+      ]
+    },
+    {
+      "id": "MA-evenement-traite-de-fes",
+      "titre": "Traité de Fès et début du protectorat",
+      "date": "1912-03-30",
+      "date_affichee": "30 mars 1912",
+      "precision": "jour",
+      "description": "Le traité de Fès, signé le 30 mars 1912 entre le diplomate français Eugène Regnault et le sultan Moulay Abdelhafid, place une grande partie du territoire sous la dépendance de la France. Des zones passent aussi sous contrôle espagnol, notamment la province de Tanger.",
+      "sources": [
+        "S74",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Fès"
+      ]
+    },
+    {
+      "id": "MA-evenement-guerre-du-rif",
+      "titre": "Guerre du Rif",
+      "date": "1921-07-22",
+      "date_affichee": "1921-1926",
+      "precision": "jour",
+      "description": "À partir de juillet 1921, les Rifains rassemblés autour d'Abdelkrim el-Khattabi remportent une victoire à Anoual contre l'armée espagnole, puis affrontent l'armée française à partir de 1925. La guerre prend fin en 1926.",
+      "sources": [
+        "S9",
+        "S76",
+        "S127"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "fin": "1926-05-27",
+      "regions": [
+        "Rif"
+      ],
+      "acteurs": [
+        "Abdelkrim el-Khattabi",
+        "Espagne",
+        "France"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Conflit colonial aux mémoires contrastées ; préférer les sources académiques."
+    },
+    {
+      "id": "MA-evenement-dahir-berbere",
+      "titre": "Dahir berbère",
+      "date": "1930-05-16",
+      "date_affichee": "16 mai 1930",
+      "precision": "jour",
+      "description": "Ce dahir, pris sous le protectorat, vise à préserver l'autonomie juridique des communautés de coutume berbère. Il est perçu par le mouvement national comme une atteinte à l'unité du peuple marocain, et déclenche une réaction nationaliste d'ampleur.",
+      "sources": [
+        "S75"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Maroc"
+      ]
+    },
+    {
+      "id": "MA-evenement-manifeste-independance",
+      "titre": "Manifeste de l'indépendance",
+      "date": "1944-01-11",
+      "date_affichee": "11 janvier 1944",
+      "precision": "jour",
+      "description": "Le 11 janvier 1944, un manifeste réclamant l'indépendance du Maroc est présenté sous le protectorat. Malika El Fassi en est la seule signataire femme.",
+      "sources": [
+        "S86",
+        "S137"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MA-evenement-exil-mohammed-v",
+      "titre": "Éviction de Mohammed V",
+      "date": "1953-08-20",
+      "date_affichee": "20 août 1953",
+      "precision": "jour",
+      "description": "Le 20 août 1953, les autorités coloniales françaises écartent le sultan Mohammed V et installent Mohammed Ben Arafa, ce qui provoque un soulèvement : manifestations, grèves et sabotages. Cette période est appelée « Révolution du Roi et du Peuple ».",
+      "sources": [
+        "S76"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Maroc"
+      ]
+    },
+    {
+      "id": "MA-evenement-independance",
+      "titre": "Abrogation du protectorat français (2 mars 1956)",
+      "date": "1956-03-02",
+      "date_affichee": "2 mars 1956",
+      "precision": "jour",
+      "description": "Le 2 mars 1956, le protectorat français est abrogé par la déclaration franco-marocaine, reconnue par les États-Unis le 7 mars. Tanger, qui avait un statut international, est pleinement intégrée le 29 octobre 1956.",
+      "sources": [
+        "S86",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Maroc"
+      ]
+    },
+    {
+      "id": "MA-evenement-ben-barka",
+      "titre": "Disparition de Mehdi Ben Barka",
+      "date": "1965-10-29",
+      "date_affichee": "29 octobre 1965",
+      "precision": "jour",
+      "description": "Le 29 octobre 1965, Mehdi Ben Barka, opposant à Hassan II, est enlevé à Paris. Son corps n'a jamais été retrouvé et l'enquête n'est pas close.",
+      "sources": [
+        "S133",
+        "S78"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Paris"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Disparition forcée aux responsabilités encore débattues ; citer l'enquête judiciaire, sans prendre parti."
+    },
+    {
+      "id": "MA-evenement-annees-de-plomb",
+      "titre": "Années de plomb",
+      "date": "1963-07-01",
+      "date_affichee": "années 1960-1999",
+      "precision": "annee",
+      "description": "Les « années de plomb » désignent la période allant des années 1960 à 1999, sous Hassan II, marquée par la répression des opposants politiques. Wikipédia date le début de la répression de juillet 1963, avec l'arrestation de militants de l'UNFP et de communistes.",
+      "sources": [
+        "S78"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "fin": "1999-12-31",
+      "regions": [
+        "Maroc"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Violations des droits humains : rester sur les faits établis et les travaux de mémoire ; citer les sources."
+    },
+    {
+      "id": "MA-evenement-avis-cij-1975",
+      "titre": "Avis consultatif de la CIJ sur le Sahara occidental",
+      "date": "1975-10-16",
+      "date_affichee": "16 octobre 1975",
+      "precision": "jour",
+      "description": "Saisie par l'Assemblée générale des Nations unies, la Cour internationale de Justice rend le 16 octobre 1975 un avis : le territoire n'était pas terra nullius, et il existait des liens d'allégeance entre le sultan du Maroc et certains groupes du territoire, mais pas de lien de souveraineté territoriale avec le Maroc ou l'entité mauritanienne. La Cour conclut que ces liens n'affectent pas l'application du principe d'autodétermination.",
+      "sources": [
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Sahara occidental"
+      ],
+      "acteurs": [
+        "Cour internationale de Justice",
+        "Maroc",
+        "Mauritanie"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Territoire au statut contesté : le Maroc et le Front Polisario défendent des positions différentes ; ne reprendre que les formulations de la CIJ et de l'ONU."
+    },
+    {
+      "id": "MA-evenement-marche-verte",
+      "titre": "Marche verte",
+      "date": "1975-11-06",
+      "date_affichee": "6-9 novembre 1975",
+      "precision": "jour",
+      "description": "Le 6 novembre 1975, le roi Hassan II lance une marche civile de 350 000 volontaires vers le Sahara espagnol. Pour le Maroc, ce territoire fait historiquement partie du Sahara marocain. Elle précède les accords de Madrid, par lesquels l'Espagne se retire.",
+      "sources": [
+        "S77",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "fin": "1975-11-09",
+      "regions": [
+        "Sahara occidental"
+      ],
+      "acteurs": [
+        "Hassan II",
+        "Espagne"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Les parties (Maroc, Front Polisario) ont des lectures opposées ; l'ONU décrit le partage de 1975 entre le Maroc et la Mauritanie et le conflit armé qui a suivi."
+    },
+    {
+      "id": "MA-evenement-minurso",
+      "titre": "Création de la MINURSO",
+      "date": "1991-04-29",
+      "date_affichee": "29 avril 1991",
+      "precision": "jour",
+      "description": "Par la résolution 690 du 29 avril 1991, le Conseil de sécurité crée la Mission des Nations unies pour le référendum au Sahara occidental, sur la base de propositions de règlement acceptées en 1988 par le Maroc et le Front Polisario. Le référendum prévu n'a jamais eu lieu.",
+      "sources": [
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Sahara occidental"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Position de l'ONU sur un territoire au statut contesté ; citer la page de la MINURSO."
+    },
+    {
+      "id": "MA-evenement-fin-minurso",
+      "titre": "Fin des opérations de la MINURSO",
+      "date": "2026-11-01",
+      "date_affichee": "1er novembre 2026",
+      "precision": "jour",
+      "description": "Selon la page de la mission, la MINURSO a cessé ses opérations le 1er novembre 2026 à la suite de la non-reconduction de son mandat par le Conseil de sécurité. La page indique aussi que le cessez-le-feu a généralement tenu jusqu'en novembre 2020.",
+      "sources": [
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Sahara occidental"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement très récent et politique ; la fiche ne reprend que l'énoncé de la page de la MINURSO, à actualiser."
+    },
+    {
+      "id": "MA-evenement-ircam",
+      "titre": "Création de l'Institut royal de la culture amazighe",
+      "date": "2001-10-17",
+      "date_affichee": "17 octobre 2001",
+      "precision": "jour",
+      "description": "Fondé par le dahir du 17 octobre 2001, jour d'un discours du roi Mohammed VI à Ajdir, l'IRCAM est chargé de promouvoir la culture amazighe et d'élaborer la normalisation de la langue. Son siège est à Rabat.",
+      "sources": [
+        "S82"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Rabat"
+      ]
+    },
+    {
+      "id": "MA-evenement-m20f",
+      "titre": "Mouvement du 20 Février",
+      "date": "2011-02-20",
+      "date_affichee": "20 février 2011",
+      "precision": "jour",
+      "description": "Dans le sillage du Printemps arabe, des manifestations ont lieu le 20 février 2011 pour réclamer plus de libertés, l'égalité sociale et la fin de la corruption. Le mouvement rassemble de nombreux jeunes soutenus par des partis et syndicats.",
+      "sources": [
+        "S80"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Maroc"
+      ]
+    },
+    {
+      "id": "MA-evenement-constitution-2011",
+      "titre": "Constitution de 2011",
+      "date": "2011-07-01",
+      "date_affichee": "1er juillet 2011",
+      "precision": "jour",
+      "description": "La Constitution de 2011, adoptée le 1er juillet et promulguée le 30 juillet 2011, est la sixième du pays. Elle fait du tamazight une langue officielle aux côtés de l'arabe et reconnaît l'identité nationale dans ses composantes arabo-islamique, amazighe et saharo-hassanie.",
+      "sources": [
+        "S79",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Maroc"
+      ]
+    },
+    {
+      "id": "MA-evenement-seisme-al-haouz",
+      "titre": "Séisme d'Al Haouz",
+      "date": "2023-09-08",
+      "date_affichee": "8 septembre 2023",
+      "precision": "jour",
+      "description": "Le 8 septembre 2023, un séisme de magnitude comprise entre 6,7 et 6,9 selon les sources frappe le Haut Atlas, à environ 72 km au sud-ouest de Marrakech. Il s'agit du plus fort séisme enregistré par des stations sismiques dans l'histoire du pays. Le bilan provisoire du 27 septembre fait état d'au moins 2 960 morts.",
+      "sources": [
+        "S81"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Al Haouz",
+        "Marrakech-Safi"
+      ]
+    }
+  ],
+  "oeuvres": [
+    {
+      "id": "MA-oeuvre-tuiles-calligraphiques",
+      "titre": "Panneau de quatre carreaux calligraphiques",
+      "type": "architecture",
+      "description": "Ce panneau de quatre carreaux de pâte de grès, émaillés et gravés, porte un décor calligraphique. Il est daté du XIVe au début du XVe siècle et attribué au Maroc par le Metropolitan Museum. Il illustre le travail de la céramique architecturale, proche du zellige.",
+      "sources": [
+        "S18",
+        "S102"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "periode": "XIVe-début du XVe siècle",
+      "materiaux": [
+        "pâte de grès",
+        "glaçure"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1999.146",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/453659",
+      "droits": "Notice et image du Metropolitan Museum of Art : objet signalé du domaine public par le musée (Open Access CC0) ; image non reproduite ici.",
+      "regions": [
+        "Maroc"
+      ]
+    },
+    {
+      "id": "MA-oeuvre-tapis-rabat",
+      "titre": "Tapis de Rabat",
+      "type": "textile",
+      "description": "Ce grand tapis de laine à points noués, de plus de 3,6 mètres de haut, est daté du XIXe siècle et rattaché à Rabat dans la notice du Met. Il illustre la tradition du tapis en laine du Maroc.",
+      "sources": [
+        "S19"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "periode": "XIXe siècle",
+      "materiaux": [
+        "laine"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "45.114.16",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/450571",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access CC0) ; image non reproduite ici.",
+      "regions": [
+        "Rabat"
+      ]
+    },
+    {
+      "id": "MA-oeuvre-caftan-met",
+      "titre": "Caftan (fin XIXe - début XXe siècle)",
+      "type": "textile",
+      "description": "Ce caftan marocain est confectionné en soie et coton, avec fil métallique, et décoré en brocart. Il est daté de la fin du XIXe ou du début du XXe siècle par le Metropolitan Museum. Il permet de comparer l'objet ancien à la pratique du caftan aujourd'hui inscrite par l'UNESCO.",
+      "sources": [
+        "S20",
+        "S33"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "periode": "fin XIXe - début XXe siècle",
+      "materiaux": [
+        "soie",
+        "coton",
+        "fil métallique"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "C.I.41.86.8",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/85612",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access CC0) ; image non reproduite ici."
+    },
+    {
+      "id": "MA-oeuvre-boucle-oreille-or",
+      "titre": "Boucle d'oreille (une de deux), or, émeraude et rubis",
+      "type": "bijou",
+      "description": "Cette boucle d'oreille en or est ornée d'une émeraude, d'un rubis, d'émail champlevé et d'une perle. Le Met la date du XVIIIe au XXe siècle et la rattache au Maroc ; elle est signalée du domaine public. Elle appartient à une paire, donnée au musée en 1981 par Marguerite McBey.",
+      "sources": [
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "periode": "XVIIIe-XXe siècle",
+      "materiaux": [
+        "or",
+        "émeraude",
+        "rubis",
+        "émail champlevé",
+        "perle"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1981.5.16",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/453039",
+      "droits": "Notice du Metropolitan Museum of Art : objet signalé du domaine public par le musée (Open Access CC0) ; image non reproduite ici."
+    },
+    {
+      "id": "MA-oeuvre-ornement-poitrine-tiznit",
+      "titre": "Ornement de poitrine, probablement de Tiznit",
+      "type": "bijou",
+      "description": "Cet ornement de poitrine en argent et émail est daté du XIXe à la première moitié du XXe siècle et attribué « probablement à Tiznit » par le Metropolitan Museum. Il fait partie des bijoux d'argent émaillé de tradition marocaine conservés au musée.",
+      "sources": [
+        "S22"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "periode": "XIXe - première moitié du XXe siècle",
+      "materiaux": [
+        "argent",
+        "émail"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "55.111.51",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/451243",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access CC0) ; image non reproduite ici.",
+      "regions": [
+        "Tiznit"
+      ]
+    },
+    {
+      "id": "MA-oeuvre-belkahia-main",
+      "titre": "« Main » de Farid Belkahia",
+      "type": "peinture",
+      "description": "Cette œuvre de 1980, réalisée au henné et à pigments naturels sur peau de mouton tendue sur un support en bois, est signée Farid Belkahia, artiste marocain né à Marrakech en 1934 et mort en 2014. L'emploi du henné relie la création contemporaine à une pratique inscrite par l'UNESCO. Le Met l'a acquise en 2026.",
+      "sources": [
+        "S23",
+        "S34"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "createur": "Farid Belkahia (Marrakech 1934-2014)",
+      "periode": "1980",
+      "materiaux": [
+        "henné",
+        "pigments naturels",
+        "peau de mouton",
+        "bois"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "2026.513",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/928500",
+      "droits": "Œuvre protégée ; notice du Metropolitan Museum of Art (données Open Access CC0) ; image non reproduite ici."
+    },
+    {
+      "id": "MA-oeuvre-rihla-ms",
+      "titre": "Les Voyages d'Ibn Baṭouṭâh (manuscrit Arabe 2287)",
+      "type": "manuscrit",
+      "description": "Ce manuscrit sur papier du XVIIe siècle, de 206 feuillets, est une copie de la Rihla, le récit de voyage d'Ibn Battûta de Tanger. La Bibliothèque nationale de France le conserve sous la cote Arabe 2287 (ancienne cote Supplément arabe 909) et en propose une version numérisée. Le copiste désigne l'ouvrage par un titre propre au fol. 111 v°.",
+      "sources": [
+        "S13",
+        "S123"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "createur": "copiste inconnu ; texte d'Ibn Battûta, rédigé avec Ibn Juzayy",
+      "periode": "XVIIe siècle (copie)",
+      "materiaux": [
+        "papier"
+      ],
+      "institution": "Bibliothèque nationale de France, département des Manuscrits",
+      "numero_inventaire": "Arabe 2287",
+      "url_notice": "https://archivesetmanuscrits.bnf.fr/ark:/12148/cc302067",
+      "droits": "Notice BnF ; consultation de la version numérisée sur le site de la BnF."
+    },
+    {
+      "id": "MA-oeuvre-wechma",
+      "titre": "Wechma (film, 1970)",
+      "type": "film",
+      "description": "Wechma, long métrage de Hamid Bénani, raconte l'histoire de Messaoud, orphelin adopté par un fermier, qui se révolte contre sa famille puis sombre dans la délinquance. La Berlinale le présente comme un jalon du cinéma marocain, expérimental et rompant avec le naturalisme. Il a été produit par la société Sigma 3, fondée par d'anciens camarades de l'IDHEC.",
+      "sources": [
+        "S14",
+        "S15",
+        "S110"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "createur": "Hamid Bénani",
+      "periode": "1970",
+      "institution": "Sigma 3 (société de production) ; présenté à la Berlinale 2017, section Forum",
+      "url_notice": "https://www.berlinale.de/en/2017/programme/201703124.html",
+      "droits": "Film : droits des ayants droit ; notice de la Berlinale."
+    },
+    {
+      "id": "MA-oeuvre-pain-nu",
+      "titre": "Le Pain nu (Mohamed Choukri)",
+      "type": "livre",
+      "description": "Récit autobiographique de Mohamed Choukri sur l'enfance et l'adolescence d'un garçon dont la famille quitte le Rif pour Tanger. Il évoque la misère, la violence et la domination coloniale, et aborde des sujets alors tabous. Refusé par des éditeurs marocains, il parut d'abord en anglais (Paul Bowles, 1973), puis en français (Tahar Ben Jelloun, Maspero, 1980) ; il ne fut édité au Maroc qu'en 1982.",
+      "sources": [
+        "S109",
+        "S147"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "createur": "Mohamed Choukri",
+      "periode": "1973 (traduction anglaise)",
+      "institution": "Œuvre littéraire (éditions Peter Owen, Maspero, Seuil)",
+      "url_notice": "https://fr.wikipedia.org/wiki/Le_Pain_nu",
+      "droits": "Œuvre sous droits d'auteur."
+    },
+    {
+      "id": "MA-oeuvre-chanson-douce",
+      "titre": "Chanson douce (Leïla Slimani)",
+      "type": "livre",
+      "description": "Deuxième roman de Leïla Slimani, publié chez Gallimard le 18 août 2016, qui a obtenu le prix Goncourt le 3 novembre 2016. L'histoire part d'un fait divers survenu à New York en 2012, où une nourrice tue les deux enfants dont elle a la garde. Slimani est la douzième femme lauréate du Goncourt en cent treize ans.",
+      "sources": [
+        "S108",
+        "S141"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "createur": "Leïla Slimani",
+      "periode": "2016",
+      "institution": "Éditions Gallimard",
+      "numero_inventaire": "ISBN 978-2-07-019667-8",
+      "url_notice": "https://fr.wikipedia.org/wiki/Chanson_douce",
+      "droits": "Œuvre sous droits d'auteur."
+    }
+  ],
+  "proverbes": [
+    {
+      "id": "MA-proverbe-hote-serviteur",
+      "langue": "arabe marocain (darija)",
+      "traduction": "Le seigneur des gens est leur serviteur.",
+      "sens": "Un bon hôte reçoit ses invités comme s'il était à leur service.",
+      "publication": "Edward Westermarck, Wit and Wisdom in Morocco: a study of native proverbs, avec l'aide de Sherif 'Abd-es-Salam el-Baqqali, Londres, George Routledge & Sons, 1930, chap. XII (« Hospitality »), n° 1089, p. 207.",
+      "sources": [
+        "S17"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "note": "Traduction française établie à partir de la version anglaise de Westermarck, n° 1089 ; la transcription arabe de la numérisation (OCR) est trop dégradée pour être reproduite fidèlement. À contrôler avec un locuteur et le texte original."
+    },
+    {
+      "id": "MA-proverbe-manger-donner",
+      "langue": "arabe marocain (darija)",
+      "traduction": "Mange et donne à manger à l'hôte, même si tu as faim.",
+      "sens": "L'hospitalité passe avant son propre besoin.",
+      "publication": "Edward Westermarck, Wit and Wisdom in Morocco: a study of native proverbs, avec l'aide de Sherif 'Abd-es-Salam el-Baqqali, Londres, George Routledge & Sons, 1930, chap. XII (« Hospitality »), n° 1086, p. 207.",
+      "sources": [
+        "S17"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "note": "Traduction française établie à partir de la version anglaise de Westermarck, n° 1086 ; la transcription arabe de la numérisation (OCR) est trop dégradée pour être reproduite fidèlement. À contrôler avec un locuteur et le texte original."
+    },
+    {
+      "id": "MA-proverbe-peu-et-bon",
+      "langue": "arabe marocain (darija)",
+      "traduction": "Peu et bon vaut mieux que beaucoup et mauvais.",
+      "sens": "La qualité compte plus que la quantité.",
+      "publication": "Edward Westermarck, Wit and Wisdom in Morocco: a study of native proverbs, avec l'aide de Sherif 'Abd-es-Salam el-Baqqali, Londres, George Routledge & Sons, 1930, chap. XVIII (« Prudence »), n° 1674, p. 283.",
+      "sources": [
+        "S17"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "note": "Traduction française établie à partir de la version anglaise de Westermarck, n° 1674 ; la transcription arabe de la numérisation (OCR) est trop dégradée pour être reproduite fidèlement. À contrôler avec un locuteur et le texte original."
+    },
+    {
+      "id": "MA-proverbe-respecte-toi",
+      "langue": "arabe marocain (darija)",
+      "traduction": "Respecte-toi toi-même, les autres te respecteront.",
+      "sens": "Le respect d'autrui commence par l'estime de soi.",
+      "publication": "Edward Westermarck, Wit and Wisdom in Morocco: a study of native proverbs, avec l'aide de Sherif 'Abd-es-Salam el-Baqqali, Londres, George Routledge & Sons, 1930, chap. XVIII (« Prudence »), n° 1677, p. 283.",
+      "sources": [
+        "S17"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "note": "Traduction française établie à partir de la version anglaise de Westermarck, n° 1677 ; la transcription arabe de la numérisation (OCR) est trop dégradée pour être reproduite fidèlement. À contrôler avec un locuteur et le texte original."
+    },
+    {
+      "id": "MA-proverbe-serpent",
+      "langue": "arabe marocain (darija)",
+      "traduction": "Le serpent ne se mord pas lui-même.",
+      "sens": "Personne n'aime se faire du mal à soi-même.",
+      "publication": "Edward Westermarck, Wit and Wisdom in Morocco: a study of native proverbs, avec l'aide de Sherif 'Abd-es-Salam el-Baqqali, Londres, George Routledge & Sons, 1930, chap. XVIII (« Prudence »), n° 1664, p. 282.",
+      "sources": [
+        "S17"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "note": "Traduction française établie à partir de la version anglaise de Westermarck, n° 1664 ; la transcription arabe de la numérisation (OCR) est trop dégradée pour être reproduite fidèlement. À contrôler avec un locuteur et le texte original."
+    },
+    {
+      "id": "MA-proverbe-peu-avec-sante",
+      "langue": "arabe marocain (darija)",
+      "traduction": "Peu avec la santé vaut mieux que beaucoup avec l'affliction.",
+      "sens": "Mieux vaut une vie modeste et sereine que l'abondance dans le chagrin.",
+      "publication": "Edward Westermarck, Wit and Wisdom in Morocco: a study of native proverbs, avec l'aide de Sherif 'Abd-es-Salam el-Baqqali, Londres, George Routledge & Sons, 1930, chap. XVIII (« Prudence »), n° 1673, p. 283.",
+      "sources": [
+        "S17"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "note": "Traduction française établie à partir de la version anglaise de Westermarck, n° 1673 ; la transcription arabe de la numérisation (OCR) est trop dégradée pour être reproduite fidèlement. À contrôler avec un locuteur et le texte original."
+    },
+    {
+      "id": "MA-proverbe-chien-mord",
+      "langue": "arabe marocain (darija)",
+      "traduction": "Seul un chien mord dans sa propre maison.",
+      "sens": "Se quereller avec son invité chez soi est honteux.",
+      "publication": "Edward Westermarck, Wit and Wisdom in Morocco: a study of native proverbs, avec l'aide de Sherif 'Abd-es-Salam el-Baqqali, Londres, George Routledge & Sons, 1930, chap. XII (« Hospitality »), n° 1090, p. 207.",
+      "sources": [
+        "S17"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "note": "Traduction française établie à partir de la version anglaise de Westermarck, n° 1090 ; la transcription arabe de la numérisation (OCR) est trop dégradée pour être reproduite fidèlement. À contrôler avec un locuteur et le texte original."
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "titre": "Wikidata Q1028 (Maroc)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q1028",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S2",
+      "titre": "Population légale du Royaume du Maroc selon les résultats du RGPH 2024",
+      "institution": "Haut-Commissariat au Plan (Maroc)",
+      "url": "https://www.hcp.ma/Population-legale-du-Royaume-du-Maroc-repartie-par-regions-provinces-et-prefectures-et-communes-selon-les-resultats-du_a3975.html",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2024
+    },
+    {
+      "id": "S3",
+      "titre": "Morocco 2011 Constitution (traduction anglaise)",
+      "institution": "Constitute Project (Comparative Constitutions Project)",
+      "url": "https://www.constituteproject.org/constitution/Morocco_2011",
+      "type": "base_de_donnees",
+      "licence": "voir les conditions du site Constitute",
+      "consulte_le": "2026-11-21",
+      "annee": 2011
+    },
+    {
+      "id": "S4",
+      "titre": "Près de 25 % des Marocains parlent amazigh au quotidien, selon le HCP",
+      "institution": "TelQuel",
+      "url": "https://telquel.ma/instant-t/2024/12/30/pres-de-25-des-marocains-parlent-amazigh-selon-le-hcp_1911036/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2024
+    },
+    {
+      "id": "S5",
+      "titre": "New fossils from Jebel Irhoud, Morocco and the pan-African origin of Homo sapiens",
+      "institution": "Nature",
+      "url": "https://www.nature.com/articles/nature22336",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (résumé consulté)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Hublin J.-J. et al.",
+      "annee": 2017
+    },
+    {
+      "id": "S6",
+      "titre": "Morocco — Countries",
+      "institution": "Office of the Historian, U.S. Department of State",
+      "url": "https://history.state.gov/countries/morocco",
+      "type": "institution",
+      "licence": "domaine public (œuvre du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S7",
+      "titre": "Western Sahara (affaire 61, avis consultatif du 16 octobre 1975)",
+      "institution": "Cour internationale de Justice",
+      "url": "https://www.icj-cij.org/case/61",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S8",
+      "titre": "Background — MINURSO",
+      "institution": "Nations unies, MINURSO",
+      "url": "https://minurso.unmissions.org/background",
+      "type": "institution",
+      "licence": "tous droits réservés (Nations unies)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S9",
+      "titre": "RIF : 1926, un tournant",
+      "institution": "Persée / Recherches internationales",
+      "url": "https://www.persee.fr/doc/rint_0294-3069_2006_num_77_3_1916",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Paul Euzière",
+      "annee": 2006
+    },
+    {
+      "id": "S10",
+      "titre": "Abd el-Krim et la république du Rif (compte rendu des actes du colloque de 1973)",
+      "institution": "Persée / Revue de l'Occident musulman et de la Méditerranée",
+      "url": "https://www.persee.fr/doc/remmm_0035-1474_1977_num_24_1_1431",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Louis Mougin",
+      "annee": 1977
+    },
+    {
+      "id": "S11",
+      "titre": "Les langues juives du Maroc",
+      "institution": "Persée / Revue de l'Occident musulman et de la Méditerranée",
+      "url": "https://www.persee.fr/doc/remmm_0035-1474_1967_num_4_1_967",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Haïm Zafrani",
+      "annee": 1967
+    },
+    {
+      "id": "S12",
+      "titre": "Patrimoine juif, pouvoir marocain",
+      "institution": "OpenEdition Journals / L'Année du Maghreb",
+      "url": "https://journals.openedition.org/anneemaghreb/14054",
+      "type": "article_scientifique",
+      "licence": "voir la page de l'article",
+      "consulte_le": "2026-11-21",
+      "auteur": "Chiara Lutteri",
+      "annee": 2024
+    },
+    {
+      "id": "S13",
+      "titre": "Arabe 2287 — Les Voyages d'Ibn Baṭouṭâh (manuscrit)",
+      "institution": "Bibliothèque nationale de France, Archives et manuscrits",
+      "url": "https://archivesetmanuscrits.bnf.fr/ark:/12148/cc302067",
+      "type": "archive",
+      "licence": "voir les conditions de réutilisation de la BnF",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S14",
+      "titre": "Wechma | Traces (Forum 2017)",
+      "institution": "Berlinale",
+      "url": "https://www.berlinale.de/en/2017/programme/201703124.html",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2017
+    },
+    {
+      "id": "S15",
+      "titre": "WECHMA (1970)",
+      "institution": "British Film Institute",
+      "url": "https://www.bfi.org.uk/film/11a6b952-ae5b-5fe8-a9ec-0aab5a55a41f/wechma",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S16",
+      "titre": "Festival Gnaoua et Musiques du Monde d'Essaouira",
+      "institution": "Festival Gnaoua et Musiques du Monde",
+      "url": "https://www.festival-gnaoua.net",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S17",
+      "titre": "Wit and Wisdom in Morocco: a study of native proverbs (numérisation)",
+      "institution": "Internet Archive (Digital Library of India)",
+      "url": "https://archive.org/details/in.ernet.dli.2015.39254",
+      "type": "livre",
+      "licence": "domaine public présumé (auteur mort en 1939) ; numérisation Internet Archive",
+      "consulte_le": "2026-11-21",
+      "auteur": "Edward Westermarck, avec Sherif 'Abd-es-Salam el-Baqqali",
+      "annee": 1930
+    },
+    {
+      "id": "S18",
+      "titre": "Panel of Four Calligraphic Tiles — Metropolitan Museum of Art (API Open Access, objet 453659)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/453659",
+      "type": "musee",
+      "licence": "CC0 (données Open Access)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S19",
+      "titre": "Carpet — Metropolitan Museum of Art (API Open Access, objet 450571)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/450571",
+      "type": "musee",
+      "licence": "CC0 (données Open Access)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S20",
+      "titre": "Kaftan — Metropolitan Museum of Art (API Open Access, objet 85612)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/85612",
+      "type": "musee",
+      "licence": "CC0 (données Open Access)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S21",
+      "titre": "Earring, One of a Pair — Metropolitan Museum of Art (API Open Access, objet 453039)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/453039",
+      "type": "musee",
+      "licence": "CC0 (données Open Access)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S22",
+      "titre": "Breast Ornament — Metropolitan Museum of Art (API Open Access, objet 451243)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/451243",
+      "type": "musee",
+      "licence": "CC0 (données Open Access)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S23",
+      "titre": "Main (Farid Belkahia) — Metropolitan Museum of Art (API Open Access, objet 928500)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/928500",
+      "type": "musee",
+      "licence": "CC0 (données Open Access)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S24",
+      "titre": "Ksar d'Aït-Ben-Haddou — UNESCO, Centre du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/444",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S25",
+      "titre": "Site archéologique de Volubilis — UNESCO, Centre du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/836",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S26",
+      "titre": "Ville portugaise de Mazagan (El Jadida) — UNESCO, Centre du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/1058",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S27",
+      "titre": "Médina de Marrakech — UNESCO, Centre du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/331",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S28",
+      "titre": "Médina de Fès — UNESCO, Centre du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/170",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S29",
+      "titre": "Médina de Tétouan (ancienne Titawin) — UNESCO, Centre du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/837",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S30",
+      "titre": "Médina d'Essaouira (ancienne Mogador) — UNESCO, Centre du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/753",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S31",
+      "titre": "Ville historique de Meknès — UNESCO, Centre du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/793",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S32",
+      "titre": "Rabat, capitale moderne et ville historique : un patrimoine en partage — UNESCO, Centre du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/1401",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S33",
+      "titre": "Moroccan Caftan: art, traditions and skills — UNESCO, patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/moroccan-caftan-art-traditions-and-skills-02077",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S34",
+      "titre": "Henna: rituals, aesthetic and social practices — UNESCO, patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/henna-rituals-aesthetic-and-social-practices-02116",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S35",
+      "titre": "Malhun, a popular poetic and musical art — UNESCO, patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/malhun-a-popular-poetic-and-musical-art-01592",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S36",
+      "titre": "Arts, skills and practices associated with engraving on metals — UNESCO, patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/arts-skills-and-practices-associated-with-engraving-on-metals-gold-silver-and-copper-01951",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S37",
+      "titre": "Date palm, knowledge, skills, traditions and practices — UNESCO, patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/date-palm-knowledge-skills-traditions-and-practices-01902",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S38",
+      "titre": "Tbourida — UNESCO, patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/tbourida-01483",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S39",
+      "titre": "Falconry, a living human heritage — UNESCO, patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/falconry-a-living-human-heritage-01708",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S40",
+      "titre": "Arabic calligraphy: knowledge, skills and practices — UNESCO, patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/arabic-calligraphy-knowledge-skills-and-practices-01718",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S41",
+      "titre": "Knowledge, know-how and practices pertaining to the production and consumption of couscous — UNESCO, patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/knowledge-know-how-and-practices-pertaining-to-the-production-and-consumption-of-couscous-01602",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S42",
+      "titre": "Gnawa — UNESCO, patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/gnawa-01170",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S43",
+      "titre": "Taskiwin, martial dance of the western High Atlas — UNESCO, patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/USL/taskiwin-martial-dance-of-the-western-high-atlas-01256",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S44",
+      "titre": "Argan, practices and know-how concerning the argan tree — UNESCO, patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/argan-practices-and-know-how-concerning-the-argan-tree-00955",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S45",
+      "titre": "Mediterranean diet — UNESCO, patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/mediterranean-diet-00884",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S46",
+      "titre": "Cherry festival in Sefrou — UNESCO, patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/cherry-festival-in-sefrou-00641",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S47",
+      "titre": "Cultural space of Jemaa el-Fna Square — UNESCO, patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/cultural-space-of-jemaa-el-fna-square-00014",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S48",
+      "titre": "Moussem of Tan-Tan — UNESCO, patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/moussem-of-tan-tan-00168",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S49",
+      "titre": "Glottolog — Arabic (arab1395)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/arab1395",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S50",
+      "titre": "Glottolog — Moroccan Arabic (moro1292)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/moro1292",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S51",
+      "titre": "Glottolog — Standard Moroccan Tamazight (stan1324)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1324",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S52",
+      "titre": "Glottolog — Central Atlas Tamazight (cent2195)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/cent2195",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S53",
+      "titre": "Glottolog — Tachelhit (tach1250)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/tach1250",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S54",
+      "titre": "Glottolog — Tarifiyt-Beni-Iznasen-Eastern Middle Atlas Berber (Tarifit) (tari1263)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/tari1263",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S55",
+      "titre": "Glottolog — Hassaniyya (hass1238)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/hass1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S56",
+      "titre": "Glottolog — French (stan1290)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1290",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S57",
+      "titre": "Glottolog — Spanish (stan1288)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1288",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S58",
+      "titre": "Glottolog — Judeo-Moroccan Arabic (jude1265)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/jude1265",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S59",
+      "titre": "Glottolog — Ghomara (ghom1257)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/ghom1257",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S60",
+      "titre": "Glottolog — Senhaja de Srair (senh1238)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/senh1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S61",
+      "titre": "Glottolog — Eastern Rif (Iznasen) (east2804)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/east2804",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S62",
+      "titre": "Glottolog — Moroccan Sign Language (moro1242)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/moro1242",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S63",
+      "titre": "Djebel Irhoud — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Djebel_Irhoud",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S64",
+      "titre": "Grotte des Pigeons — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Grotte_des_Pigeons",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S65",
+      "titre": "Maurétanie tingitane — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Maur%C3%A9tanie_tingitane",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S66",
+      "titre": "Bataille de Sagrajas — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Bataille_de_Sagrajas",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S67",
+      "titre": "Almoravides — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Almoravides",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S68",
+      "titre": "Almohades — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Almohades",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S69",
+      "titre": "Bataille de Las Navas de Tolosa — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Bataille_de_Las_Navas_de_Tolosa",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S70",
+      "titre": "Sultanat mérinide — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Sultanat_m%C3%A9rinide",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S71",
+      "titre": "Bataille des Trois Rois — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Bataille_des_Trois_Rois",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S72",
+      "titre": "Bataille de Tondibi — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Bataille_de_Tondibi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S73",
+      "titre": "Ismaïl ben Chérif — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Isma%C3%AFl_ben_Ch%C3%A9rif",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S74",
+      "titre": "Traité de Fès — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Trait%C3%A9_de_F%C3%A8s",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S75",
+      "titre": "Dahir berbère — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Dahir_berb%C3%A8re",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S76",
+      "titre": "Révolution du Roi et du Peuple — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/R%C3%A9volution_du_Roi_et_du_Peuple",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S77",
+      "titre": "Marche verte — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Marche_verte",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S78",
+      "titre": "Années de plomb (Maroc) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Ann%C3%A9es_de_plomb_(Maroc)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S79",
+      "titre": "Constitution marocaine de 2011 — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Constitution_marocaine_de_2011",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S80",
+      "titre": "Mouvement du 20 Février — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mouvement_du_20_F%C3%A9vrier",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S81",
+      "titre": "Séisme de 2023 au Maroc — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/S%C3%A9isme_de_2023_au_Maroc",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S82",
+      "titre": "Institut royal de la culture amazighe — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Institut_royal_de_la_culture_amazighe",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S83",
+      "titre": "Université Al Quaraouiyine — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Universit%C3%A9_Al_Quaraouiyine",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S84",
+      "titre": "Dynastie alaouite — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Dynastie_alaouite",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S85",
+      "titre": "Idrissides — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Idrissides",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S86",
+      "titre": "Protectorat français au Maroc — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Protectorat_fran%C3%A7ais_au_Maroc",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S87",
+      "titre": "Site archéologique de Ghmate (Aghmat) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Site_arch%C3%A9ologique_de_Ghmate",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S88",
+      "titre": "Chleuhs — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Chleuhs",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S89",
+      "titre": "Rifains — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Rifains",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S90",
+      "titre": "Sahraoui (peuple) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Sahraoui_(peuple)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S91",
+      "titre": "Histoire des Juifs au Maroc — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Histoire_des_Juifs_au_Maroc",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S92",
+      "titre": "Ghomaras — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Ghomaras",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S93",
+      "titre": "Chellah — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Chellah",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S94",
+      "titre": "Sijilmassa — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Sijilmassa",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S95",
+      "titre": "Mosquée Hassan-II — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mosqu%C3%A9e_Hassan-II",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S96",
+      "titre": "Tinmel — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Tinmel",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S97",
+      "titre": "Mausolée Mohammed-V — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mausol%C3%A9e_Mohammed-V",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S98",
+      "titre": "Musée du Judaïsme marocain — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_Juda%C3%AFsme_marocain",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S99",
+      "titre": "Musée Mohammed VI d'art moderne et contemporain — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Mohammed_VI_d%27art_moderne_et_contemporain",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S100",
+      "titre": "Ahidous — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Ahidous",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S101",
+      "titre": "Ahouach — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Ahouach",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S102",
+      "titre": "Zellige — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Zellige",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S103",
+      "titre": "Poterie de Safi — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Poterie_de_Safi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S104",
+      "titre": "Nass El Ghiwane — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Nass_El_Ghiwane",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S105",
+      "titre": "Festival de Fès des musiques sacrées du monde — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Festival_de_F%C3%A8s_des_musiques_sacr%C3%A9es_du_monde",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S106",
+      "titre": "Moussem d'Imilchil — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Moussem_d%27Imilchil",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S107",
+      "titre": "Cuisine marocaine — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Cuisine_marocaine",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S108",
+      "titre": "Chanson douce — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Chanson_douce",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S109",
+      "titre": "Le Pain nu — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Le_Pain_nu",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S110",
+      "titre": "Wechma — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Wechma",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S111",
+      "titre": "Wikidata Q438601 (Idris Ier)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q438601",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S112",
+      "titre": "Idris Ier — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Idris_Ier",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S113",
+      "titre": "Wikidata Q922653 (Idris II)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q922653",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S114",
+      "titre": "Idris II — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Idris_II",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S115",
+      "titre": "Wikidata Q182363 (Fatima al-Fihriya)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q182363",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S116",
+      "titre": "Fatima al-Fihriya — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Fatima_al-Fihriya",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S117",
+      "titre": "Wikidata Q4165292 (Zaynab Nefzaouia)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q4165292",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S118",
+      "titre": "Zaynab Nefzaouia — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Zaynab_Nefzaouia",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S119",
+      "titre": "Wikidata Q369981 (Youssef ben Tachfine)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q369981",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S120",
+      "titre": "Youssef ben Tachfine — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Youssef_ben_Tachfine",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S121",
+      "titre": "Wikidata Q173441 (Al Idrissi)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q173441",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S122",
+      "titre": "Al Idrissi — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Al_Idrissi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S123",
+      "titre": "Wikidata Q7331 (Ibn Battûta)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q7331",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S124",
+      "titre": "Ibn Battûta — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Ibn_Batt%C3%BBta",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S125",
+      "titre": "Wikidata Q4299447 (Sayyida al-Hurra)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q4299447",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S126",
+      "titre": "Sayyida al-Hurra — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Sayyida_al-Hurra",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S127",
+      "titre": "Wikidata Q202650 (Abdelkrim el-Khattabi)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q202650",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S128",
+      "titre": "Abdelkrim el-Khattabi — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Abdelkrim_el-Khattabi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S129",
+      "titre": "Wikidata Q193874 (Mohammed V)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q193874",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S130",
+      "titre": "Mohammed V (roi du Maroc) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mohammed_V_(roi_du_Maroc)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S131",
+      "titre": "Wikidata Q69103 (Hassan II)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q69103",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S132",
+      "titre": "Hassan II — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Hassan_II",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S133",
+      "titre": "Wikidata Q510292 (Mehdi Ben Barka)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q510292",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S134",
+      "titre": "Mehdi Ben Barka — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mehdi_Ben_Barka",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S135",
+      "titre": "Wikidata Q2837662 (Allal El Fassi)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q2837662",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S136",
+      "titre": "Allal El Fassi — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Allal_El_Fassi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S137",
+      "titre": "Wikidata Q3282080 (Malika El Fassi)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q3282080",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S138",
+      "titre": "Malika El Fassi — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Malika_El_Fassi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S139",
+      "titre": "Wikidata Q242376 (Fatema Mernissi)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q242376",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S140",
+      "titre": "Fatima Mernissi — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Fatima_Mernissi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S141",
+      "titre": "Wikidata Q18173445 (Leïla Slimani)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q18173445",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S142",
+      "titre": "Leïla Slimani — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Le%C3%AFla_Slimani",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S143",
+      "titre": "Wikidata Q334989 (Tahar Ben Jelloun)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q334989",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S144",
+      "titre": "Tahar Ben Jelloun — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Tahar_Ben_Jelloun",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S145",
+      "titre": "Wikidata Q379960 (Driss Chraïbi)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q379960",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S146",
+      "titre": "Driss Chraïbi — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Driss_Chra%C3%AFbi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S147",
+      "titre": "Wikidata Q335436 (Mohamed Choukri)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q335436",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S148",
+      "titre": "Mohamed Choukri — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mohamed_Choukri",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S149",
+      "titre": "Wikidata Q239993 (Nawal El Moutawakel)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q239993",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S150",
+      "titre": "Nawal El Moutawakel — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Nawal_El_Moutawakel",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S151",
+      "titre": "Wikidata Q83905 (Hicham El Guerrouj)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q83905",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S152",
+      "titre": "Hicham El Guerrouj — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Hicham_El_Guerrouj",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S153",
+      "titre": "Wikidata Q3533951 (Touria Chaoui)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q3533951",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S154",
+      "titre": "Touria Chaoui — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Touria_Chaoui",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S155",
+      "titre": "Wikidata Q403486 (Aïcha Chenna)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q403486",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S156",
+      "titre": "Aïcha Chenna — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/A%C3%AFcha_Chenna",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S157",
+      "titre": "Wikidata Q7279515 (Rachid Yazami)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q7279515",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S158",
+      "titre": "Rachid Yazami — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Rachid_Yazami",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S159",
+      "titre": "Wikidata Q3277803 (Mahmoud Guinia)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q3277803",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S160",
+      "titre": "Mahmoud Guinia — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mahmoud_Guinia",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    }
+  ]
+}

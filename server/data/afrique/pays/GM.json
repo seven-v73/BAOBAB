@@ -1,0 +1,3713 @@
+{
+  "code": "GM",
+  "nom": "Gambie",
+  "region": "ouest",
+  "wikidata": "Q1005",
+  "maj": "2026-11-21",
+  "pays": {
+    "nom_officiel": "République de Gambie (Republic of The Gambia)",
+    "capitale": "Banjul",
+    "langues_officielles": [
+      "anglais"
+    ],
+    "langues_nationales": [
+      "mandinka",
+      "pulaar (peul)",
+      "wolof",
+      "sérère",
+      "jola (diola)",
+      "soninké",
+      "manjak",
+      "karon",
+      "bainouk"
+    ],
+    "population": {
+      "valeur": 2422712,
+      "annee": 2024,
+      "source": "S1"
+    },
+    "superficie_km2": 11300,
+    "monnaie": "Dalasi (GMD)",
+    "resume": "La Gambie est un pays d'Afrique de l'Ouest qui s'étire sur plus de 320 km le long du fleuve Gambie, entièrement enclavé dans le Sénégal sauf sur sa façade atlantique ; sa capitale est Banjul. Son territoire garde les cercles de pierres de Sénégambie, érigés sur plus de 1 500 ans, et l'île Kunta Kinteh, témoin de la rencontre entre l'Afrique et l'Europe et de la traite des captifs. Les royaumes mandingues, puis la colonisation britannique, ont façonné son histoire jusqu'à l'indépendance du 18 février 1965 et la proclamation de la République en 1970. Le pays compte près de 2,4 millions d'habitants au recensement de 2024, parmi lesquels des Mandinka, des Peuls, des Wolof, des Jola, des Soninké, des Sérères, des Manjak et des Aku. La tradition des griots et de la kora, le Kankurang inscrit à l'UNESCO et de nombreuses mascarades, danses et cuisines régionales en font un foyer culturel vivant.",
+    "sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7",
+      "S8",
+      "S9",
+      "S10"
+    ]
+  },
+  "langues": [
+    {
+      "id": "GM-langue-mandinka",
+      "nom": "Mandinka",
+      "nom_local": "Mandinka",
+      "description": "Le mandinka est la langue première la plus répandue en Gambie : selon Wikipédia, qui reprend Ethnologue, 38 % des habitants l'ont pour langue maternelle. C'est la langue des jalis (griots) mandingues, qui l'accompagnent de la kora, et celle de la communauté mandinka, premier groupe du pays au recensement de 2024. Ethnologue la classe parmi les langues stables, transmise à la maison mais non enseignée à l'école. Elle se parle aussi au Sénégal, en Guinée et en Guinée-Bissau.",
+      "famille": "Mandé, Mandé de l'Ouest, Mandingue (West Manding)",
+      "glottocode": "mand1436",
+      "statut_linguistique": [
+        "nationale",
+        "véhiculaire"
+      ],
+      "sources": [
+        "S11",
+        "S12",
+        "S10",
+        "S13",
+        "S14",
+        "S1"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q33678",
+      "regions": [
+        "toute la Gambie"
+      ]
+    },
+    {
+      "id": "GM-langue-pulaar",
+      "nom": "Pulaar (peul)",
+      "nom_local": "Pulaar",
+      "description": "Le pulaar est le nom donné en Gambie à la langue peule, parlée par la communauté peule (Fula, Fulbe). Selon Wikipédia, environ 21 % des Gambiens la parlent comme langue première, ce qui en fait la deuxième langue du pays. Le recensement de 2024 donne par ailleurs aux Peuls près d'un quart de la population. Glottolog la rattache au sous-groupe Fula de la branche atlantique du Niger-Congo.",
+      "famille": "Niger-Congo, Atlantic-Congo, Atlantique du Nord-Centre, Fula-Sereer, Fula",
+      "glottocode": "pula1263",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "sources": [
+        "S15",
+        "S10",
+        "S13",
+        "S1"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q1420205"
+    },
+    {
+      "id": "GM-langue-wolof",
+      "nom": "Wolof gambien",
+      "nom_local": "Wolof",
+      "description": "Le wolof de Gambie est la variante locale d'une langue de l'ensemble sénégambien. Ethnologue le range parmi les langues indigènes du pays et Access Gambia relève que les habitants de l'agglomération de Banjul et des Kombos l'ont adopté comme langue de communication courante. Selon Wikipédia, 18 % de la population le parle comme langue première.",
+      "famille": "Niger-Congo, Atlantic-Congo, Atlantique du Nord-Centre, Wolof-BKK, Wolofic",
+      "glottocode": "gamb1252",
+      "statut_linguistique": [
+        "nationale",
+        "véhiculaire"
+      ],
+      "sources": [
+        "S16",
+        "S10",
+        "S13",
+        "S17"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q12953302",
+      "regions": [
+        "Grand Banjul",
+        "Kombos"
+      ]
+    },
+    {
+      "id": "GM-langue-anglais",
+      "nom": "Anglais",
+      "nom_local": "English",
+      "description": "L'anglais est la langue des institutions, de l'administration et de l'enseignement en Gambie, héritage de la période coloniale britannique. Selon Wikipédia, il n'est pas inscrit comme langue officielle dans la constitution mais l'est dans les faits ; une annonce de 2014 visant à adopter l'arabe n'a jamais été suivie d'effet. Il n'est langue première que pour une très petite part de la population.",
+      "famille": "Indo-européen, Germanique, Germanique de l'Ouest, anglais",
+      "glottocode": "stan1293",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "sources": [
+        "S18",
+        "S19",
+        "S13"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q1860",
+      "ecritures": [
+        "latin"
+      ]
+    },
+    {
+      "id": "GM-langue-soninke",
+      "nom": "Soninké",
+      "nom_local": "Soninke",
+      "description": "Le soninké est une langue mandée du nord-ouest, parlée en Gambie par la communauté appelée localement Sarahule. Elle y représente, selon Wikipédia, environ 9 % des langues premières. Glottolog la rattache au groupe Soninké-Bozo et la signale aussi en Guinée et en Guinée-Bissau.",
+      "famille": "Mandé, Mandé de l'Ouest, Mandé du Nord-Ouest, Soninké-Bozo, Soninkean",
+      "glottocode": "soni1259",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "sources": [
+        "S20",
+        "S13",
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q36660"
+    },
+    {
+      "id": "GM-langue-jola-fonyi",
+      "nom": "Jola-Fonyi (diola)",
+      "nom_local": "Jola-Fonyi",
+      "description": "Le jola-fonyi est la langue des Jola du Foni, dans le sud-ouest de la Gambie, et aussi de la Casamance sénégalaise. Ethnologue le classe parmi les langues indigènes de Gambie ; Wikipédia lui attribue environ 4,5 % des locuteurs de langue première. Il appartient à la branche Bak des langues atlantiques.",
+      "famille": "Niger-Congo, Atlantic-Congo, Atlantique du Nord-Centre, Atlantique central, Bak, Jola-Manjaku, Jola",
+      "glottocode": "jola1263",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "sources": [
+        "S22",
+        "S10",
+        "S13",
+        "S23"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q3507832",
+      "regions": [
+        "Foni"
+      ]
+    },
+    {
+      "id": "GM-langue-serer",
+      "nom": "Sérère (sereer)",
+      "nom_local": "Sereer",
+      "description": "Le sereer, ou sérère, est parlé en Gambie par une petite communauté présente notamment autour de Barra, à l'entrée du fleuve. Ethnologue le liste sous le nom de serer-sine parmi les langues indigènes, et Wikipédia l'estime à 2,4 % des locuteurs de langue première. Glottolog le place dans l'ensemble Fula-Sereer.",
+      "famille": "Niger-Congo, Atlantic-Congo, Atlantique du Nord-Centre, Fula-Sereer",
+      "glottocode": "sere1260",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "sources": [
+        "S24",
+        "S10",
+        "S13",
+        "S25"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q36284",
+      "regions": [
+        "Barra"
+      ]
+    },
+    {
+      "id": "GM-langue-manjak",
+      "nom": "Manjak (mandjak)",
+      "nom_local": "Mandjak",
+      "description": "Le manjak, ou mandjak, est une langue de la branche Bak, parlée en Gambie, au Sénégal et en Guinée-Bissau. Ethnologue la compte parmi les sept langues indigènes de Gambie ; Wikipédia attribue environ 1,6 % des locuteurs de langue première aux Manjak et aux Bainouk, chacun.",
+      "famille": "Niger-Congo, Atlantic-Congo, Atlantique du Nord-Centre, Atlantique central, Bak, Jola-Manjaku, Manjaku-Mankanya-Pepel",
+      "glottocode": "mand1419",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S26",
+        "S10",
+        "S13"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q35822"
+    },
+    {
+      "id": "GM-langue-malinke-ouest",
+      "nom": "Malinké de l'Ouest (maninkakan occidental)",
+      "nom_local": "Maninkakan",
+      "description": "Le maninkakan occidental est une langue mandingue que l'annuaire Ethnologue recense parmi les langues indigènes de Gambie. Glottolog la classe dans l'ensemble mandingue, comme le mandinka, et la signale au sein du groupe Xasonka.",
+      "famille": "Mandé, Mandé de l'Ouest, Mandingue (West Manding)",
+      "glottocode": "west2500",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S27",
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q11028033"
+    },
+    {
+      "id": "GM-langue-bainouk",
+      "nom": "Bainouk (gunyaamolo)",
+      "nom_local": "Bainouk-Gunyaamolo-Gutobor",
+      "description": "Le bainouk, dans sa variante gunyaamolo-gutobor, est une langue atlantique que Glottolog signale en Gambie, en Guinée-Bissau et au Sénégal. Selon Wikipédia, environ 1,6 % des Gambiens l'ont pour langue première. L'histoire régionale mentionne aussi un royaume bainouk, établi au sud du fleuve Gambie, qui s'étendait jusqu'au Cacheu.",
+      "famille": "Atlantic-Congo, Atlantique du Nord-Centre, Wolof-BKK, Nyun, Bainounk",
+      "glottocode": "bain1261",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S28",
+        "S13",
+        "S29"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GM-langue-karon",
+      "nom": "Karon",
+      "nom_local": "Karon",
+      "description": "Le karon est une langue de la famille atlantique que Glottolog localise en Gambie et au Sénégal. Wikipédia la cite parmi les langues considérées comme nationales dans le pays. Glottolog la rattache à un sous-groupe jola, aux côtés du jola-fonyi.",
+      "famille": "Atlantic-Congo, Atlantique du Nord-Centre, Atlantique central, Bak, Jola-Manjaku, Jola, Kwatay-Karon-Mlomp, Karon-Mlomp",
+      "glottocode": "karo1294",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S30",
+        "S13"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GM-langue-krio-aku",
+      "nom": "Krio (aku)",
+      "nom_local": "Aku",
+      "description": "Le krio, appelé aku en Gambie, est une langue créole à base lexicale anglaise. Access Gambia indique que ses locuteurs, les Aku, représentent moins de 2 % de la population et descendent d'anciens captifs libérés ; la communauté est majoritairement chrétienne. Glottolog localise le krio en Gambie, en Guinée et en Sierra Leone.",
+      "famille": "Indo-européen, Germanique, Anglic, créole anglais de la côte de Guinée, créole anglais d'Afrique de l'Ouest",
+      "glottocode": "krio1253",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S31",
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Banjul"
+      ]
+    },
+    {
+      "id": "GM-langue-lsg",
+      "nom": "Langue des signes gambienne",
+      "nom_local": "Gambian Sign Language",
+      "description": "La langue des signes gambienne est utilisée par les personnes sourdes de Gambie, selon Wikipédia. Glottolog la rattache à la famille de langues des signes apparentée à la langue des signes américaine.",
+      "famille": "Langues des signes (ensemble de la langue des signes américaine)",
+      "glottocode": "gamb1259",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S33",
+        "S13"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q11706081"
+    }
+  ],
+  "peuples": [
+    {
+      "id": "GM-peuple-mandinka",
+      "nom": "Mandinka (Mandingues)",
+      "description": "Les Mandinka forment le premier groupe du pays : 34,4 % de la population selon le rapport préliminaire du recensement de 2024. Leur histoire régionale est liée à l'empire du Mali puis au royaume de Kaabu, que les archives orales du NCAC situent de la fin du XIIIe au milieu du XIXe siècle. Ils sont connus pour la tradition des jalis (griots) et de la kora, ainsi que pour le Kankurang, rite initiatique inscrit à l'UNESCO. Les Mandinka vivent aussi au Sénégal, au Mali, en Guinée et en Guinée-Bissau.",
+      "langues": [
+        "mandinka"
+      ],
+      "regions": [
+        "toute la Gambie"
+      ],
+      "sources": [
+        "S1",
+        "S34",
+        "S8",
+        "S7",
+        "S11",
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": [
+        "SN",
+        "ML",
+        "GN",
+        "GW"
+      ],
+      "organisation": "Société traditionnellement structurée en groupes (familles nobles, hommes libres, artisans et griots), selon Access Gambia.",
+      "activites": [
+        "agriculture (arachide)",
+        "pêche",
+        "griots (jalis) et joueurs de kora"
+      ]
+    },
+    {
+      "id": "GM-peuple-peul",
+      "nom": "Peuls (Fula, Fulbe, Pulaar)",
+      "description": "Les Peuls représentent environ un quart de la population gambienne en 2024 (25 %), ce qui en fait le deuxième groupe du pays. Ils sont traditionnellement associés à l'élevage, mais exercent aussi l'agriculture et le commerce. L'histoire du Fuladu, confédération peule qui s'étendait du fleuve Gambie au fleuve Corubal, est l'un des épisodes politiques du XIXe siècle conservés par le NCAC. Access Gambia décrit leur danse acrobatique, avec flûte, violon et calebasses, donnée parfois le week-end sur des plages.",
+      "langues": [
+        "pulaar"
+      ],
+      "regions": [
+        "Fuladu"
+      ],
+      "sources": [
+        "S1",
+        "S35",
+        "S36",
+        "S37",
+        "S15"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": [
+        "SN",
+        "GN",
+        "GW"
+      ],
+      "activites": [
+        "élevage",
+        "agriculture",
+        "commerce",
+        "danse et musique (flûte, violon, calebasse)"
+      ]
+    },
+    {
+      "id": "GM-peuple-wolof",
+      "nom": "Wolof",
+      "description": "Les Wolof comptent pour 15,4 % de la population gambienne au recensement préliminaire de 2024. On les trouve notamment dans le Grand Banjul, les Kombos et, selon Access Gambia, dans les anciens pays de Baddibu, Niumi et Jokadu. Leur langue sert de langue de communication à Banjul et dans les Kombos. Ils sont réputés pour le sabar, ensemble de tambours accompagnant des danses, et pour les formes de musique modernes issues de la région de Dakar.",
+      "langues": [
+        "wolof"
+      ],
+      "regions": [
+        "Grand Banjul",
+        "Kombos",
+        "Baddibu",
+        "Niumi"
+      ],
+      "sources": [
+        "S1",
+        "S17",
+        "S37",
+        "S16"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": [
+        "SN",
+        "MR"
+      ],
+      "activites": [
+        "commerce",
+        "agriculture",
+        "tambours et danses sabar"
+      ]
+    },
+    {
+      "id": "GM-peuple-jola",
+      "nom": "Jola (Diola)",
+      "description": "Les Jola sont installés surtout dans le Foni, au sud-ouest de la Gambie, ainsi qu'en Casamance et au nord de la Guinée-Bissau. Leurs communautés sont traditionnellement décentralisées : l'autorité s'exerçait au niveau du village et il n'existait pas de chef suprême. Ils pratiquent la riziculture, la récolte du miel, la collecte du vin de palme, la pêche et celle des huîtres. Les Jola ont des bosquets sacrés et des masques, comme le Kumpo, parmi les expressions culturelles les plus connues de Gambie.",
+      "langues": [
+        "jola-fonyi"
+      ],
+      "regions": [
+        "Foni"
+      ],
+      "sources": [
+        "S23",
+        "S36",
+        "S38",
+        "S22",
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": [
+        "SN",
+        "GW"
+      ],
+      "organisation": "Villages autonomes, autorité rituelle de l'aîné fondateur ; alliances temporaires en temps de guerre, selon Access Gambia.",
+      "activites": [
+        "riziculture",
+        "récolte du miel",
+        "vin de palme",
+        "pêche et huîtres"
+      ]
+    },
+    {
+      "id": "GM-peuple-soninke",
+      "nom": "Soninké (Sarahule)",
+      "description": "Les Soninké, appelés Sarahule en Gambie, représentent environ 8 % de la population selon les projections de 2023 reprises par Wikipédia. Leur langue appartient à la famille mandée. Access Gambia mentionne le molo, luth à une corde et archet de crin, parmi les instruments associés aux Toucouleurs, aux Mauritaniens et aux Soninké. On trouve des communautés soninké dans plusieurs pays voisins.",
+      "langues": [
+        "soninke"
+      ],
+      "regions": [
+        "Gambie"
+      ],
+      "sources": [
+        "S21",
+        "S20",
+        "S39"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": [
+        "GN",
+        "GW"
+      ]
+    },
+    {
+      "id": "GM-peuple-serer",
+      "nom": "Sérères (Serer)",
+      "description": "Les Sérères forment une petite communauté de Gambie, estimée à 2,9 % de la population en 2023 par Wikipédia. Access Gambia les décrit comme pêcheurs et constructeurs de bateaux, présents sur la côte et autour de Barra. Les cercles de pierres de Sénégambie nourrissent un débat sur leurs bâtisseurs : des travaux archéologiques, comme ceux de Luc Laporte, s'appuient sur l'ethnographie, notamment bassari, pour interpréter ces vestiges.",
+      "langues": [
+        "serer"
+      ],
+      "regions": [
+        "Barra",
+        "côte atlantique"
+      ],
+      "sources": [
+        "S25",
+        "S21",
+        "S40",
+        "S24"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": [
+        "SN"
+      ],
+      "activites": [
+        "pêche",
+        "construction de bateaux"
+      ]
+    },
+    {
+      "id": "GM-peuple-manjago",
+      "nom": "Manjak (Manjago)",
+      "description": "Les Manjak, ou Manjago, constituent une communauté minoritaire de Gambie (1,7 % de la population selon les projections de 2023). Leur langue appartient à la branche Bak des langues atlantiques et se parle aussi en Guinée-Bissau et au Sénégal. Access Gambia cite le bombolo, instrument à percussion, parmi les instruments joués par les Jola et les Manjak.",
+      "langues": [
+        "manjak"
+      ],
+      "regions": [
+        "Gambie"
+      ],
+      "sources": [
+        "S21",
+        "S26",
+        "S39"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": [
+        "GW",
+        "SN"
+      ]
+    },
+    {
+      "id": "GM-peuple-aku",
+      "nom": "Aku (Krio)",
+      "description": "Les Aku forment une petite communauté, de moins de 2 % de la population selon Access Gambia, descendante d'anciens captifs libérés. Ils parlent le krio, créole proche de l'anglais, sont majoritairement chrétiens et occupent traditionnellement des fonctions dans l'administration, l'enseignement, la presse et le commerce. Edward Francis Small, pionnier du mouvement nationaliste né à Bathurst en 1891, était aku.",
+      "langues": [
+        "krio-aku"
+      ],
+      "regions": [
+        "Banjul"
+      ],
+      "sources": [
+        "S32",
+        "S9",
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": [
+        "SL"
+      ]
+    },
+    {
+      "id": "GM-peuple-bainouk",
+      "nom": "Bainouk (Bainuk)",
+      "description": "Les Bainouk sont une communauté ancienne de la région, dont la langue est signalée par Glottolog en Gambie, en Guinée-Bissau et au Sénégal. D'après l'histoire régionale résumée par Wikipédia, un royaume bainouk existait au sud du fleuve Gambie et s'étendait jusqu'au Cacheu. Aujourd'hui, ils représenteraient environ 1,6 % des locuteurs de langue première du pays.",
+      "langues": [
+        "bainouk"
+      ],
+      "regions": [
+        "Gambie"
+      ],
+      "sources": [
+        "S28",
+        "S29",
+        "S13"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": [
+        "GW",
+        "SN"
+      ]
+    }
+  ],
+  "sites": [
+    {
+      "id": "GM-site-kunta-kinteh",
+      "nom": "Île Kunta Kinteh et sites associés",
+      "type": "patrimoine_mondial",
+      "description": "Sur le fleuve Gambie, à une trentaine de kilomètres de son embouchure, l'ancienne île James, rebaptisée Kunta Kinteh, abrite les ruines d'un fort européen. Avec des vestiges d'Albreda et de Juffureh, le site de San Domingo, Fort Bullen et la batterie des Six Canons, elle illustre quatre siècles de rencontres entre l'Afrique et l'Europe, de la traite des captifs à son abolition. Le Portugal l'aurait acquise vers 1456 selon l'UNESCO. Le bien a été inscrit en 2003 selon les critères iii et vi.",
+      "sources": [
+        "S5",
+        "S41",
+        "S42",
+        "S43"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "unesco_id": "761",
+      "inscription": 2003,
+      "coordonnees": {
+        "lat": 13.31747222,
+        "lng": -16.36147222
+      },
+      "wikidata": "Q4387456",
+      "regions": [
+        "North Bank",
+        "Banjul"
+      ],
+      "periode": "XVe-XIXe siècle",
+      "sensible": true,
+      "note_sensibilite": "Lieu de mémoire de la traite atlantique : les récits doivent distinguer faits établis et traditions mémorielles, et rester en lien avec les institutions et communautés gambiennes (NCAC) ainsi qu'avec les descendants de la diaspora."
+    },
+    {
+      "id": "GM-site-cercles-pierres",
+      "nom": "Cercles mégalithiques de Sénégambie",
+      "type": "patrimoine_mondial",
+      "description": "Quatre grands groupes de cercles de piliers de latérite, Sine Ngayène, Wanar, Wassu et Kerbatch, forment une concentration de plus de 1 000 monuments sur une bande de 100 km de large le long de 350 km du fleuve Gambie. Wassu et Kerbatch sont du côté gambien, Sine Ngayène et Wanar au Sénégal. Les fouilles ont livré du matériel daté entre le IIIe siècle av. J.-C. et le XVIe siècle. L'identité des bâtisseurs fait toujours l'objet de recherches.",
+      "sources": [
+        "S6",
+        "S42",
+        "S40",
+        "S44"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "unesco_id": "1226",
+      "inscription": 2006,
+      "coordonnees": {
+        "lat": 13.683333333,
+        "lng": -15.516666666
+      },
+      "wikidata": "Q98769058",
+      "regions": [
+        "Central River"
+      ],
+      "periode": "IIIe siècle av. J.-C. - XVIe siècle"
+    },
+    {
+      "id": "GM-site-banjul",
+      "nom": "Banjul (Bathurst)",
+      "type": "ville_historique",
+      "description": "Banjul, capitale de la Gambie, occupe l'embouchure du fleuve. Le Centre du patrimoine mondial relève que ses bâtiments coloniaux illustrent la période où les Britanniques ont pris le contrôle du fleuve. La ville, fondée sous le nom de Bathurst, abrite le musée national dans un ancien bâtiment colonial, ainsi que l'arche 22.",
+      "sources": [
+        "S5",
+        "S45",
+        "S46",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "coordonnees": {
+        "lat": 13.45306,
+        "lng": -16.5775
+      },
+      "wikidata": "Q3726",
+      "regions": [
+        "Banjul"
+      ]
+    },
+    {
+      "id": "GM-site-musee-national",
+      "nom": "Musée national de Gambie",
+      "type": "musee",
+      "description": "Le musée national, ouvert en 1985, occupe à Banjul un ancien bâtiment colonial qui fut un club, un siège du British Council, l'assemblée législative puis la bibliothèque nationale. Il collecte et présente la culture matérielle du pays. Il alimente quatre musées satellites : Juffureh, le site de Wassu, le musée ethnographique de Kerr Batch et le musée de l'arche 22.",
+      "sources": [
+        "S45",
+        "S47"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q1967468",
+      "regions": [
+        "Banjul"
+      ],
+      "periode": "depuis 1985"
+    },
+    {
+      "id": "GM-site-juffureh",
+      "nom": "Juffureh et musée de la traite et de la Sénégambie",
+      "type": "musee",
+      "description": "Juffureh est un village mandinka de la rive nord du fleuve, associé à Albreda et à l'histoire de la traite. Le NCAC y gère un musée consacré à la traite des esclaves et à la Sénégambie. Le village est devenu célèbre dans le monde après le roman Racines d'Alex Haley, et un festival annuel accueille les visiteurs de la diaspora.",
+      "sources": [
+        "S45",
+        "S42",
+        "S5",
+        "S48"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "coordonnees": {
+        "lat": 13.33861,
+        "lng": -16.3825
+      },
+      "wikidata": "Q1711203",
+      "regions": [
+        "North Bank"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Lieu de mémoire de la traite atlantique ; le lien avec le roman Racines relève d'une construction mémorielle et doit être présenté comme tel."
+    },
+    {
+      "id": "GM-site-wassu-musee",
+      "nom": "Musée des cercles de pierres de Wassu",
+      "type": "musee",
+      "description": "Le musée de site de Wassu, dans la région de Central River, présente les cercles de pierres et les fouilles associées. Il fait partie des satellites du musée national gérés par le NCAC. Il complète à Kerr Batch un second musée, ethnographique, installé sur le site des cercles.",
+      "sources": [
+        "S45",
+        "S49"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "coordonnees": {
+        "lat": 13.69111,
+        "lng": -14.87389
+      },
+      "wikidata": "Q2552179",
+      "regions": [
+        "Central River"
+      ]
+    },
+    {
+      "id": "GM-site-arch22",
+      "nom": "Arch 22",
+      "type": "lieu_de_memoire",
+      "description": "L'arche 22 est un monument de 35 mètres bâti à l'entrée de Banjul en 1996 pour commémorer le coup d'État du 22 juillet 1994. Dessinée par l'architecte sénégalais Pierre Goudiaby, elle abrite un petit musée du textile à son sommet, tandis que le NCAC y présente aujourd'hui une exposition sur les marabouts et les gris-gris et un espace sur la chefferie.",
+      "sources": [
+        "S50",
+        "S45",
+        "S51"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "coordonnees": {
+        "lat": 13.46029,
+        "lng": -16.58227
+      },
+      "wikidata": "Q632012",
+      "regions": [
+        "Banjul"
+      ],
+      "periode": "depuis 1996",
+      "sensible": true,
+      "note_sensibilite": "Monument érigé par le pouvoir issu du coup d'État de 1994 : sujet politique disputé, à présenter avec distance."
+    },
+    {
+      "id": "GM-site-katchikally",
+      "nom": "Bassin sacré de Katchikally (Bakau)",
+      "type": "monument",
+      "description": "À Bakau, le bassin de Katchikally est un lieu où l'on vient demander des bénédictions, sous la garde de la famille Bojang. Selon la légende recueillie par le NCAC, les crocodiles y furent amenés sur les instructions de l'esprit du lieu. Les visiteurs apportent des noix de kola, l'eau est bénie et la cérémonie s'achève par des tambours et des danses. Le NCAC mentionne aussi un petit musée associé à Katchikally.",
+      "sources": [
+        "S36",
+        "S45"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Bakau",
+        "Kanifing"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Lieu de culte actif : les rites et récits appartiennent à la famille gardienne (Bojang) ; l'accès et la description doivent être validés avec elle."
+    },
+    {
+      "id": "GM-site-folongko-kartong",
+      "nom": "Bassins sacrés de Kartong (Folongko) et de Berending",
+      "type": "monument",
+      "description": "Le bassin de Folongko, à Kartong, est confié à la famille Jaiteh ; selon la tradition, son esprit est la fille de celui de Katchikally, ce qui relie les deux lieux. Le bassin de Berending remplit une fonction semblable mais il est alimenté par de l'eau salée. Ces bassins sont fréquentés pour des prières et des demandes de bénédiction.",
+      "sources": [
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Kartong",
+        "West Coast"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Lieux de culte actifs ; récits à valider avec les familles gardiennes."
+    },
+    {
+      "id": "GM-site-touba-kolong",
+      "nom": "Touba Kolong",
+      "type": "lieu_de_memoire",
+      "description": "Touba Kolong est le village de la rive nord où se déroula en 1866 un affrontement entre une colonne britannique, avec des auxiliaires, et les partisans d'Amer Faal. Les sources orales rapportées par le NCAC racontent que les habitants avaient creusé et dissimulé un puits où tombèrent les assaillants. Le site de ce puits, marqué par une dépression, a été clôturé par les villageois.",
+      "sources": [
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "North Bank"
+      ],
+      "periode": "1866"
+    },
+    {
+      "id": "GM-site-tombe-sait-matty",
+      "nom": "Tombeau de Sait Matty Bâ (Bakau)",
+      "type": "monument",
+      "description": "Un bloc rectangulaire d'environ deux mètres, dans le jardin d'un hôtel du cap Point à Bakau, marque la sépulture de Sait Matty Bâ. Ce chef peul, fils du marabout Maba Diakhou Bâ, mena des campagnes pendant les guerres entre marabouts et chefs animistes dans les années 1880. Il se rendit aux Britanniques le 11 mai 1887 et vécut à Bakau jusqu'à sa mort en 1897.",
+      "sources": [
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Bakau"
+      ],
+      "periode": "1897",
+      "sensible": true,
+      "note_sensibilite": "Sépulture : lieu de mémoire sensible, entretien familial."
+    },
+    {
+      "id": "GM-site-tombe-musa-molloh",
+      "nom": "Tombeau de Musa Molloh Balde",
+      "type": "monument",
+      "description": "Musa Molloh Balde fut le deuxième dirigeant de l'empire peul du Fuladu, fils d'Alfa Molloh, fondateur de cet État. Son tombeau a été restauré en 1971 et déclaré monument national en 1974 ; la structure actuelle date de 1987, construite en collaboration avec le gouvernement sénégalais.",
+      "sources": [
+        "S36",
+        "S52"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "periode": "XXe siècle",
+      "sensible": true,
+      "note_sensibilite": "Sépulture d'un dirigeant dont l'action reste discutée (guerres, traite) ; présentation neutre."
+    },
+    {
+      "id": "GM-site-mosquee-gunjur",
+      "nom": "Mosquée de la dune de sable (Gunjur)",
+      "type": "monument",
+      "description": "Kenye-kenye Jamango, « mosquée de la dune de sable » en mandinka, désigne un lieu de prière sur les dunes surplombant la plage de Gunjur. Le site est tenu pour sacré parce que Cheikh Oumar Tall, chef de la Tijaniyya en Afrique de l'Ouest, s'y serait arrêté lors de sa mission. Il est visité par des fidèles qui y prient.",
+      "sources": [
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Gunjur",
+        "West Coast"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Lieu de culte musulman vénéré ; récit à valider avec la communauté."
+    },
+    {
+      "id": "GM-site-janjanbureh",
+      "nom": "Janjanbureh (Georgetown)",
+      "type": "ville_historique",
+      "description": "Janjanbureh est une ville de l'est de la Gambie. Access Gambia la rattache à la division de MacCarthy Island, d'où est originaire le premier président, Dawda Jawara, et signale à Janjanbureh la renaissance de festivals culturels.",
+      "sources": [
+        "S53",
+        "S9",
+        "S54"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "coordonnees": {
+        "lat": 13.53413,
+        "lng": -14.76615
+      },
+      "wikidata": "Q1002786",
+      "regions": [
+        "Central River"
+      ]
+    }
+  ],
+  "traditions": [
+    {
+      "id": "GM-tradition-kankurang",
+      "nom": "Kankurang, rite initiatique mandingue",
+      "categorie": "rite",
+      "description": "Le Kankurang est un rite d'initiation pratiqué dans les provinces mandingues du Sénégal et de la Gambie. Un initié, couvert d'un costume d'écorce de faara et de feuilles, le corps peint de teintures végétales, incarne un personnage qui accompagne la circoncision des garçons. Il passe pour garant de l'ordre et de la justice et pour exorciste des esprits mauvais ; l'initiation transmet règles de conduite, connaissance des plantes et techniques de chasse. Le rite se tient généralement en août-septembre et recule avec l'urbanisation et la diminution des forêts sacrées.",
+      "communautes": [
+        "Mandinka",
+        "Mandingues de Gambie et du Sénégal"
+      ],
+      "transmission": "fragile",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "00143",
+        "annee": 2008,
+        "url": "https://ich.unesco.org/en/RL/kankurang-manding-initiatory-rite-00143"
+      },
+      "sources": [
+        "S7",
+        "S55",
+        "S56",
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Gambie",
+        "Casamance (Sénégal)"
+      ],
+      "langues": [
+        "mandinka"
+      ],
+      "nom_local": "Kankurang",
+      "sensible": true,
+      "note_sensibilite": "Rite initiatique : les secrets de l'initiation ne doivent pas être divulgués ; fiche à valider avec les communautés mandingues et les institutions partenaires (NCAC).",
+      "periode": "proclamé chef-d'œuvre en 2005, inscrit en 2008"
+    },
+    {
+      "id": "GM-tradition-jaliya-kora",
+      "nom": "Jaliya : l'art des griots et la kora",
+      "categorie": "musique",
+      "description": "Les jalis (griots) mandinka sont les gardiens de l'histoire orale, des généalogies et des louanges, souvent accompagnés de la kora, harpe-luth à 21 cordes. Access Gambia indique que ce rôle se transmet traditionnellement de père en fils ou d'oncle à neveu après un long apprentissage. Au XIXe siècle, les guerres et la colonisation ont fragilisé le mécénat des familles nobles, et beaucoup de griots sont devenus musiciens itinérants. Des écoles, comme celle fondée par Sona Jobarteh, cherchent à reconstituer la transmission classique.",
+      "communautes": [
+        "Mandinka",
+        "jalis (griots)"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S14",
+        "S8",
+        "S57",
+        "S58",
+        "S59"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "toute la Gambie"
+      ],
+      "langues": [
+        "mandinka"
+      ],
+      "nom_local": "Jaliya"
+    },
+    {
+      "id": "GM-tradition-kumpo",
+      "nom": "Kumpo, mascarade des Jola",
+      "categorie": "danse",
+      "description": "Le Kumpo est une mascarade jola : un danseur recouvert d'herbe tourbillonne en dansant, ce qui produit un effet spectaculaire. Access Gambia le range aux côtés du Kankurang mandinka, du Simba wolof et du Mamapara parmi les mascarades gambiennes liées à la circoncision, au respect des règles du village, à l'éloignement du mal et au divertissement. Sa forme actuelle mêle fonction rituelle et spectacle.",
+      "communautes": [
+        "Jola"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S38",
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Foni"
+      ],
+      "langues": [
+        "jola-fonyi"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Mascarade liée à des contextes rituels : à valider avec les communautés jola avant publication."
+    },
+    {
+      "id": "GM-tradition-sabar-wolof",
+      "nom": "Sabar et danses wolof",
+      "categorie": "danse",
+      "description": "Chez les Wolof, le sabar associe des tambours, des chants et des danses où les femmes occupent le centre du cercle ; le taxuraan, spectacle villageois surtout masculin, mêle danses, improvisations et plaisanteries. Access Gambia cite aussi le tama, tambour d'aisselle, qui accompagne ces danses. Ces pratiques se retrouvent aux côtés de musiques plus récentes, comme le ndaga ou mbalax.",
+      "communautes": [
+        "Wolof"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S37",
+        "S39",
+        "S17"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Grand Banjul",
+        "Kombos"
+      ],
+      "langues": [
+        "wolof"
+      ]
+    },
+    {
+      "id": "GM-tradition-danse-peule",
+      "nom": "Danse acrobatique peule",
+      "categorie": "danse",
+      "description": "La danse acrobatique des Peuls est un spectacle plutôt qu'une danse collective : un flûtiste, un violoniste et un ou plusieurs percussionnistes frappant des calebasses posées sur leur poitrine se relaient pour des figures acrobatiques. Access Gambia note que ces ensembles se produisent parfois le week-end sur des plages, comme celle de Sanyang.",
+      "communautes": [
+        "Peuls"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S37",
+        "S35"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "côte atlantique"
+      ],
+      "langues": [
+        "pulaar"
+      ]
+    },
+    {
+      "id": "GM-tradition-boucarabou",
+      "nom": "Boucarabou et percussions jola",
+      "categorie": "musique",
+      "description": "Chez les Jola, le boucarabou est un ensemble de tambours de hauteurs différentes qu'un seul instrumentiste joue simultanément. Access Gambia cite aussi le bombolo, joué par les Jola et les Manjak. Ces instruments s'ajoutent à un répertoire commun où le djembé accompagne les mariages, les cérémonies de nom et les rassemblements.",
+      "communautes": [
+        "Jola",
+        "Manjak"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S39"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Foni"
+      ],
+      "langues": [
+        "jola-fonyi"
+      ]
+    },
+    {
+      "id": "GM-tradition-teinture-batik",
+      "nom": "Teinture à la cuve et batik gambiens",
+      "categorie": "textile",
+      "description": "Le tie-dye et le batik gambiens, aux couleurs vives, sont confectionnés en grande partie par des femmes qui travaillent chez elles avec de la teinture chaude et de grands bidons. On en tire des caftans, des robes warambas, des blouses ou du linge de maison. Access Gambia observe que le tourisme a favorisé une production de masse, mais que des savoir-faire authentiques subsistent dans les villages.",
+      "communautes": [
+        "artisanes gambiennes"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S60"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "côte atlantique",
+        "Brikama"
+      ]
+    },
+    {
+      "id": "GM-tradition-orfevrerie",
+      "nom": "Orfèvrerie traditionnelle",
+      "categorie": "artisanat",
+      "description": "L'orfèvrerie d'or et d'argent produit bracelets, pendentifs, broches, boucles d'oreilles et bagues. Selon Access Gambia, ce métier est tenu par des familles d'artisans, que les Wolof nomment tega, et porté en parure lors des cérémonies.",
+      "communautes": [
+        "Wolof",
+        "familles d'orfèvres"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S60"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Gambie"
+      ],
+      "langues": [
+        "wolof"
+      ]
+    },
+    {
+      "id": "GM-tradition-domoda",
+      "nom": "Domoda, ragoût à la pâte d'arachide",
+      "categorie": "cuisine",
+      "description": "Le domoda est un ragoût de viande ou de poulet cuit dans une sauce à la pâte d'arachide avec tomates, oignons et potiron, servi avec du riz. Access Gambia précise que le plat se nomme aussi « durango » en mandinka et « mafé » chez les Wolof du Sénégal. Access Gambia l'inclut parmi les recettes de référence du pays.",
+      "communautes": [
+        "Mandinka",
+        "toute la Gambie"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S61"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "toute la Gambie"
+      ],
+      "langues": [
+        "mandinka"
+      ]
+    },
+    {
+      "id": "GM-tradition-benachin",
+      "nom": "Benachin (riz jollof)",
+      "categorie": "cuisine",
+      "description": "Le benachin est un riz cuit avec poisson ou viande, tomate et légumes ; il se nomme aussi cheebu jën ou thieboudiène. Access Gambia attribue l'invention du riz jollof à une femme wolof du Sénégal, Penda Mbaye ; le plat est partagé dans toute la région et son origine fait débat.",
+      "communautes": [
+        "Wolof",
+        "toute la Gambie"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S62"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "toute la Gambie"
+      ],
+      "langues": [
+        "wolof"
+      ]
+    },
+    {
+      "id": "GM-tradition-bassins-sacres",
+      "nom": "Bénédictions aux bassins sacrés",
+      "categorie": "rite",
+      "description": "Dans plusieurs localités de la côte, des bassins abritent des crocodiles du Nil et sont vénérés comme lieux de bénédiction : à Katchikally (Bakau), Folongko (Kartong) et Berending. Une personne qui s'y rend apporte des noix de kola, reçoit de l'eau bénie et est lavée rituellement, puis la cérémonie s'achève par des tambours et des danses. Chaque bassin est confié à une famille gardienne.",
+      "communautes": [
+        "famille Bojang (Bakau)",
+        "famille Jaiteh (Kartong)"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Bakau",
+        "Kartong"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Rites actifs aux mains de familles gardiennes : ne pas détailler les formules et à valider avec elles."
+    },
+    {
+      "id": "GM-tradition-bosquets-sacres",
+      "nom": "Bosquets, arbres et pierres sacrés",
+      "categorie": "savoir",
+      "description": "Des bosquets, arbres et autels de pierre existent dans tout le pays ; on y fait offrandes et prières pour éloigner le mal et attirer le bien. Les Jola, en particulier, ont des bosquets où se déroulent des cérémonies, dont l'initiation. Ces lieux, souvent refuges pour la faune et les oiseaux, sont placés sous la garde d'esprits ou de lignages. Le NCAC cite par exemple Farankunko, bosquet des cérémonies de femmes, et Santangba à Brikama.",
+      "communautes": [
+        "Jola",
+        "Mandinka",
+        "communautés villageoises"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Lower River",
+        "Brikama",
+        "Gambie"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Lieux de culte : localisation précise et rites ne doivent pas être détaillés sans accord des gardiens."
+    },
+    {
+      "id": "GM-tradition-roots-festival",
+      "nom": "International Roots Homecoming Festival",
+      "categorie": "fete",
+      "description": "Depuis 1996, le gouvernement organise une « semaine du patrimoine » destinée à attirer des visiteurs de la diaspora africaine. L'UNESCO précise qu'une journée est généralement consacrée à un pèlerinage spirituel à l'île Kunta Kinteh et à la région d'Albreda-Juffureh. Pour ces visiteurs, le lieu a une portée symbolique et émotionnelle, celle d'un retour aux sources.",
+      "communautes": [
+        "diaspora africaine",
+        "habitants de la région d'Albreda et Juffureh"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S5",
+        "S54"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "North Bank"
+      ],
+      "langues": [
+        "anglais"
+      ],
+      "periode": "depuis 1996"
+    }
+  ],
+  "personnalites": [
+    {
+      "id": "GM-personnalite-molloh",
+      "nom": "Musa Molloh Balde",
+      "description": "Musa Molloh Balde fut le deuxième dirigeant de l'empire du Fuladu, État peul qui faisait partie d'une confédération s'étendant du fleuve Gambie au Corubal. Dans le contexte du partage colonial, il joua tour à tour sur les rivalités entre Français et Britanniques. Le NCAC raconte qu'après l'intégration du Fuladu à la colonie en 1902 puis des tensions avec les autorités, il fut exilé en Sierra Leone en 1919.",
+      "naissance": {
+        "date": "XIXe siècle"
+      },
+      "roles": [
+        "roi du Fuladu"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XIXe-XXe siècle",
+      "wikidata": "Q3326217",
+      "sources": [
+        "S36",
+        "S52"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "deces": {
+        "date": "1931"
+      },
+      "sensible": true,
+      "note_sensibilite": "Dirigeant précolonial dont l'action (guerres, traite) reste discutée : présentation neutre."
+    },
+    {
+      "id": "GM-personnalite-small",
+      "nom": "Edward Francis Small",
+      "description": "Né à Bathurst, Edward Francis Small fut l'un des pionniers du mouvement nationaliste gambien. Il fonda la section gambienne du Congrès national de l'Afrique occidentale britannique après 1920, fut associé au premier syndicat du pays, créé en 1928, et fut en 1942 le premier élu au suffrage de l'assemblée législative. Il édita aussi la revue The Gambia Outlook and Senegambian Reporter.",
+      "naissance": {
+        "date": "1891-01-29",
+        "lieu": "Bathurst (Banjul)"
+      },
+      "roles": [
+        "syndicaliste",
+        "journaliste",
+        "homme politique"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "wikidata": "Q5342993",
+      "sources": [
+        "S9",
+        "S63",
+        "S64"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "deces": {
+        "date": "1958"
+      }
+    },
+    {
+      "id": "GM-personnalite-jawara",
+      "nom": "Dawda Kairaba Jawara",
+      "description": "Vétérinaire de formation, Dawda Jawara dirigea le Parti progressiste du peuple fondé en 1959. Il devint Premier ministre en 1962 puis premier président en 1970, après le référendum qui fit de la Gambie une république. Il fut renversé en 1994. Il est mort à Fajara en août 2019, à 95 ans.",
+      "naissance": {
+        "date": "1924-05-16",
+        "lieu": "Barajally"
+      },
+      "roles": [
+        "Premier ministre",
+        "président de la République"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "wikidata": "Q312716",
+      "sources": [
+        "S9",
+        "S65",
+        "S66"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "deces": {
+        "date": "2019-08-27",
+        "lieu": "Fajara"
+      }
+    },
+    {
+      "id": "GM-personnalite-bensouda",
+      "nom": "Fatou Bensouda",
+      "description": "Juriste gambienne, Fatou Bensouda fut ministre de la Justice de son pays à partir de 1998 puis procureure adjointe de la Cour pénale internationale. En 2012, elle devient procureure en chef de la CPI, première Africaine à occuper ce poste. La Vrije Universiteit Brussel lui a décerné un doctorat honoris causa en 2013.",
+      "naissance": {
+        "date": "1961-01-31",
+        "lieu": "Banjul"
+      },
+      "roles": [
+        "procureure de la CPI",
+        "ministre de la Justice"
+      ],
+      "domaines": [
+        "droit"
+      ],
+      "epoque": "XXIe siècle",
+      "wikidata": "Q508482",
+      "sources": [
+        "S67",
+        "S68",
+        "S69",
+        "S70"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikidata donne aussi 1960 comme année de naissance ; l'université VUB indique 1961."
+      }
+    },
+    {
+      "id": "GM-personnalite-sona-jobarteh",
+      "nom": "Sona Jobarteh",
+      "description": "Chanteuse, compositrice et multi-instrumentiste, Sona Jobarteh est issue d'une des grandes familles de joueurs de kora et est considérée comme la première femme à devenir virtuose de cet instrument au sein d'une famille de griots. Petite-fille de Amadu Bansang Jobarteh, elle a grandi entre le Royaume-Uni et la Gambie et a fondé une école de musique mandingue en Gambie. Sa discographie comprend l'album Fasiya (2011).",
+      "naissance": {
+        "date": "1983-10-17",
+        "lieu": "Londres"
+      },
+      "roles": [
+        "joueuse de kora",
+        "compositrice"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXIe siècle",
+      "wikidata": "Q773793",
+      "sources": [
+        "S57",
+        "S71",
+        "S72"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GM-personnalite-suso",
+      "nom": "Foday Musa Suso",
+      "description": "Jali gambien et maître de la kora, Foday Musa Suso s'installe à Chicago en 1977 et y fonde le Mandingo Griot Society. Il a collaboré avec des musiciens de jazz et de musique contemporaine, notamment sur l'album Village Life avec Herbie Hancock. Un hommage publié dans The Standard après sa mort, en mai 2025, le décrit comme gardien de la kora et ambassadeur de la culture mandingue.",
+      "naissance": {
+        "date": "1950-02-18",
+        "lieu": "Sare Hamadi"
+      },
+      "roles": [
+        "jali",
+        "joueur de kora",
+        "compositeur"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "wikidata": "Q1435087",
+      "sources": [
+        "S58",
+        "S73",
+        "S74"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "deces": {
+        "date": "2025-05-25",
+        "lieu": "Brikama"
+      }
+    },
+    {
+      "id": "GM-personnalite-jaliba",
+      "nom": "Jaliba Kuyateh",
+      "description": "Né à Niamina Dankunku, dans la Central River Region, Jaliba Kuyateh est le fils du joueur de kora Kebba Sunkung Kuyateh et appartient à une famille de griots. Il est connu comme « le roi de la kora » et a mêlé les rythmes traditionnels à des formes populaires, parfois appelées « kora pop ». Il réside à Brikama et se produit à l'étranger.",
+      "naissance": {
+        "date": "1957-04-13",
+        "lieu": "Niamina Dankunku"
+      },
+      "roles": [
+        "jali",
+        "joueur de kora",
+        "chanteur"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "wikidata": "Q18377881",
+      "sources": [
+        "S75",
+        "S76",
+        "S77"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GM-personnalite-ceesay",
+      "nom": "Isatou Ceesay",
+      "description": "Isatou Ceesay est une militante et entrepreneuse sociale gambienne, originaire de Njau. Depuis 1997, elle travaille avec des communautés pour réduire les déchets plastiques en les transformant en objets vendables, ce qui procure un revenu à plus de cent femmes selon The Guardian. Son initiative, connue sous le nom One Plastic Bag, lui a valu le surnom de « reine du recyclage ».",
+      "naissance": {
+        "date": "1972-12",
+        "lieu": "Njau"
+      },
+      "roles": [
+        "militante environnementale",
+        "entrepreneuse sociale"
+      ],
+      "domaines": [
+        "sciences",
+        "société"
+      ],
+      "epoque": "XXIe siècle",
+      "wikidata": "Q73130258",
+      "sources": [
+        "S78",
+        "S79"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GM-personnalite-lenrie-peters",
+      "nom": "Lenrie Peters",
+      "description": "Né à Bathurst dans une famille issue de migrants des Antilles, Lenrie Peters fut chirurgien, romancier, poète et enseignant. Son unique roman, The Second Round (1965), et ses recueils comme Satellites (1967) et Katchikali (1971) ont été publiés dans la collection African Writers Series de Heinemann. Il est mort à Dakar en 2009.",
+      "naissance": {
+        "date": "1932-09-01",
+        "lieu": "Banjul (Bathurst)"
+      },
+      "roles": [
+        "chirurgien",
+        "écrivain",
+        "poète"
+      ],
+      "domaines": [
+        "littérature",
+        "sciences"
+      ],
+      "epoque": "XXe siècle",
+      "wikidata": "Q576088",
+      "sources": [
+        "S80",
+        "S81",
+        "S82"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "deces": {
+        "date": "2009-05-28",
+        "lieu": "Dakar"
+      }
+    },
+    {
+      "id": "GM-personnalite-hydara",
+      "nom": "Deyda Hydara",
+      "description": "Éditeur de renom du quotidien indépendant The Point, Deyda Hydara fut assassiné à Banjul le 16 décembre 2004. Selon le Comité pour la protection des journalistes, ce meurtre était toujours non résolu en 2009, et des journalistes furent condamnés pour sédition après avoir jugé insensibles les propos du président à ce sujet.",
+      "naissance": {
+        "date": "1946-06-09",
+        "lieu": "Barra"
+      },
+      "roles": [
+        "journaliste",
+        "éditeur"
+      ],
+      "domaines": [
+        "journalisme",
+        "résistance"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "wikidata": "Q1207263",
+      "sources": [
+        "S83",
+        "S84"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "deces": {
+        "date": "2004-12-16",
+        "lieu": "Kanifing"
+      },
+      "sensible": true,
+      "note_sensibilite": "Assassinat lié à des enjeux politiques récents : présentation neutre, avec renvoi aux sources."
+    },
+    {
+      "id": "GM-personnalite-satang-jow",
+      "nom": "Satang Jow",
+      "description": "Éducatrice et responsable publique gambienne née à Banjul, Satang Jow a été secrétaire d'État à l'Éducation en 1994-1995, puis à la Jeunesse, aux Sports et à la Culture de 1995 à 1997.",
+      "naissance": {
+        "date": "1943-08-31",
+        "lieu": "Banjul"
+      },
+      "roles": [
+        "secrétaire d'État",
+        "éducatrice"
+      ],
+      "domaines": [
+        "politique",
+        "éducation"
+      ],
+      "epoque": "XXe siècle",
+      "wikidata": "Q411841",
+      "sources": [
+        "S85",
+        "S86"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GM-personnalite-ndey-tapha-sosseh",
+      "nom": "Ndey Tapha Sosseh",
+      "description": "Journaliste et syndicaliste, Ndey Tapha Sosseh a commencé comme reporter au Daily Observer en 1998, puis est devenue sous-éditrice. En 2009, The Point la présente comme présidente de l'Union de la presse gambienne. Elle est titulaire d'un master de journalisme de l'Université de Central England à Birmingham.",
+      "naissance": {
+        "date": "1979-07-27",
+        "lieu": "Banjul"
+      },
+      "roles": [
+        "journaliste",
+        "syndicaliste"
+      ],
+      "domaines": [
+        "journalisme",
+        "société"
+      ],
+      "epoque": "XXIe siècle",
+      "wikidata": "Q1439231",
+      "sources": [
+        "S87",
+        "S88"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GM-personnalite-isatou-touray",
+      "nom": "Isatou Touray",
+      "description": "Militante des droits des femmes, Isatou Touray s'est fait connaître par son plaidoyer contre les mutilations génitales féminines. Elle a reçu en 2017 le prix Jeane J. Kirkpatrick du Women in Democracy Network, alors qu'elle était ministre du Commerce, de l'Industrie, de l'Intégration régionale et de l'Emploi.",
+      "naissance": {
+        "date": "1955-03-17",
+        "lieu": "Banjul"
+      },
+      "roles": [
+        "militante",
+        "ministre"
+      ],
+      "domaines": [
+        "politique",
+        "société"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "wikidata": "Q27541581",
+      "sources": [
+        "S89",
+        "S90"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GM-personnalite-tambajang",
+      "nom": "Fatoumata Jallow-Tambajang",
+      "description": "Fatoumata Jallow-Tambajang a été secrétaire d'État à la Santé et à la Protection sociale en 1994-1995 selon Guide2WomenLeaders, puis vice-présidente de la Gambie à partir de 2017. Elle a aussi travaillé pour le Programme des Nations unies pour le développement.",
+      "naissance": {
+        "date": "1949-10-22",
+        "lieu": "Brikama"
+      },
+      "roles": [
+        "vice-présidente",
+        "ministre"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "wikidata": "Q1398236",
+      "sources": [
+        "S85",
+        "S91"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GM-personnalite-sallah",
+      "nom": "Tijan M. Sallah",
+      "description": "Économiste, poète et nouvelliste gambien, Tijan Sallah a grandi à Serrekunda et à Banjul. Titulaire d'un doctorat d'économie de Virginia Tech, il puise dans la poésie de la Négritude et mêle le politique et le mystique. Il est l'auteur de plusieurs recueils, dont Harrow: London Poems of Convalescence (2014).",
+      "naissance": {
+        "date": "1958-03-06",
+        "lieu": "Serrekunda"
+      },
+      "roles": [
+        "poète",
+        "économiste"
+      ],
+      "domaines": [
+        "littérature",
+        "sciences"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "wikidata": "Q7801806",
+      "sources": [
+        "S92",
+        "S93"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikidata donne deux dates de naissance : 1958 et 6 mars 1958."
+      }
+    },
+    {
+      "id": "GM-personnalite-bass",
+      "nom": "Gina Bass",
+      "description": "Sprinteuse gambienne, Gina Bass (Gina Mariam Bass Bittaye) a participé aux Jeux olympiques de 2016 sur 200 mètres. Olympedia la présente aussi comme porte-drapeau de la Gambie lors de cérémonies d'ouverture et de clôture. Née à Toubacouta, au Sénégal, elle court pour la Gambie.",
+      "naissance": {
+        "date": "1995-05-03",
+        "lieu": "Toubacouta (Sénégal)"
+      },
+      "roles": [
+        "sprinteuse",
+        "porte-drapeau"
+      ],
+      "domaines": [
+        "sport"
+      ],
+      "epoque": "XXIe siècle",
+      "wikidata": "Q24951757",
+      "sources": [
+        "S94",
+        "S95"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GM-personnalite-barrow",
+      "nom": "Adama Barrow",
+      "description": "Adama Barrow, élu président en décembre 2016 contre Yahya Jammeh qui contesta d'abord le résultat, a pris ses fonctions en 2017 après l'intervention régionale de la CEDEAO et le départ de Jammeh. Dans une interview à la BBC, il avait annoncé vouloir créer une commission vérité et réconciliation. Il a été réélu en décembre 2021 avec environ 53 % des voix selon la BBC.",
+      "naissance": {
+        "date": "1965-02-15",
+        "lieu": "Mansajang Kunda (selon Wikidata)"
+      },
+      "roles": [
+        "président de la République"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXIe siècle",
+      "wikidata": "Q27917049",
+      "sources": [
+        "S96",
+        "S97",
+        "S98",
+        "S99"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le lieu de naissance varie selon les sources (Wikidata : Mansajang Kunda ; Wikipédia anglophone : Mankamang Kunda, district de Jimara) ; à vérifier."
+      },
+      "sensible": true,
+      "note_sensibilite": "Personnalité politique en exercice : présentation neutre."
+    }
+  ],
+  "evenements": [
+    {
+      "id": "GM-evenement-cercles-pierres",
+      "titre": "Construction des cercles de pierres",
+      "date": "-000299-01-01",
+      "date_affichee": "IIIe siècle av. J.-C. - XVIe siècle",
+      "precision": "siecle",
+      "description": "Le long du fleuve Gambie, des sociétés érigent sur plus de 1 500 ans des cercles de piliers de latérite et des tumulus funéraires. Le matériel archéologique recueilli est daté entre le IIIe siècle av. J.-C. et le XVIe siècle. Les chercheurs débattent encore de l'identité des bâtisseurs.",
+      "sources": [
+        "S6",
+        "S40",
+        "S42"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "fin": "1599-12-31",
+      "regions": [
+        "Central River"
+      ]
+    },
+    {
+      "id": "GM-evenement-kaabu",
+      "titre": "Royaume de Kaabu",
+      "date": "1290-01-01",
+      "date_affichee": "Fin du XIIIe siècle - milieu du XIXe siècle",
+      "precision": "siecle",
+      "description": "Selon les archives orales du NCAC, Kaabu fut une puissante fédération qui gouverna la Gambie, le sud du Sénégal et le nord de la Guinée-Bissau de la fin du XIIIe au milieu du XIXe siècle. Ses relations avec le Fuuta Jalon, ses origines au XIIIe siècle et sa structure sociale figurent parmi les thèmes couverts par les enregistrements conservés.",
+      "sources": [
+        "S8",
+        "S29"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "fin": "1850-12-31"
+    },
+    {
+      "id": "GM-evenement-portugal-1456",
+      "titre": "Les Portugais s'installent sur l'île James",
+      "date": "1456-01-01",
+      "date_affichee": "vers 1456",
+      "precision": "annee",
+      "description": "D'après l'UNESCO, l'île au milieu du fleuve avait été acquise par le Portugal auprès de dirigeants locaux en 1456 et la construction d'un fort commença. Sa position permettait de contrôler la voie d'eau et en fit un des premiers lieux d'échanges entre l'Afrique et l'Europe.",
+      "sources": [
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "North Bank"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Histoire de la traite : présentation factuelle et rattachée aux sources institutionnelles."
+    },
+    {
+      "id": "GM-evenement-abolition-1807",
+      "titre": "Abolition britannique de la traite",
+      "date": "1807-01-01",
+      "date_affichee": "1807",
+      "precision": "annee",
+      "description": "En 1807, le Parlement britannique abolit la traite des captifs. L'UNESCO souligne que cette décision explique la construction ultérieure de postes comme la batterie des Six Canons et Fort Bullen, seules défenses connues de la région bâties pour empêcher la traite.",
+      "sources": [
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Histoire de la traite et de son abolition ; présentation sourcée."
+    },
+    {
+      "id": "GM-evenement-bathurst-1816",
+      "titre": "Début de la colonie de la Couronne de Bathurst",
+      "date": "1816-01-01",
+      "date_affichee": "1816",
+      "precision": "annee",
+      "description": "À partir de 1816, la Gambie relève du système de colonie de la Couronne, avec une administration placée sous l'autorité du gouverneur de Sierra Leone. Le capitaine Alexander Grant fonde Bathurst, future Banjul, et la batterie des Six Canons est édifiée la même année à l'embouchure du fleuve.",
+      "sources": [
+        "S100",
+        "S5",
+        "S29"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Banjul"
+      ]
+    },
+    {
+      "id": "GM-evenement-fort-bullen-1826",
+      "titre": "Construction de Fort Bullen",
+      "date": "1826-01-01",
+      "date_affichee": "1826",
+      "precision": "annee",
+      "description": "Fort Bullen est bâti à Barra Point, face à Banjul, pour surveiller l'entrée du fleuve et lutter contre la traite devenue illégale. Il a de nouveau servi comme poste d'observation et d'artillerie pendant la Seconde Guerre mondiale.",
+      "sources": [
+        "S5",
+        "S101"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "North Bank"
+      ]
+    },
+    {
+      "id": "GM-evenement-touba-kolong-1866",
+      "titre": "Bataille de Touba Kolong",
+      "date": "1866-01-01",
+      "date_affichee": "1866",
+      "precision": "annee",
+      "description": "En 1866, une colonne menée par le colonel D'Arcy attaque Touba Kolong, village retranché derrière trois palissades où se trouvait Amer Faal. Les sources britanniques et les récits oraux divergent sur le déroulement : les habitants racontent avoir piégé les assaillants avec un puits recouvert.",
+      "sources": [
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "North Bank"
+      ],
+      "acteurs": [
+        "D'Arcy",
+        "Amer Faal"
+      ]
+    },
+    {
+      "id": "GM-evenement-sait-matty-1887",
+      "titre": "Reddition de Sait Matty Bâ",
+      "date": "1887-05-11",
+      "date_affichee": "11 mai 1887",
+      "precision": "jour",
+      "description": "Après avoir envahi le Sine-Saloum, Sait Matty Bâ fuit en Gambie et se rend aux Britanniques à Albreda le 11 mai 1887. Sa défaite relance une guerre civile au Baddibu. Il finit sa vie à Bakau, où il meurt en 1897.",
+      "sources": [
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Sait Matty Bâ"
+      ],
+      "regions": [
+        "Baddibu",
+        "Bakau"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Conflits entre marabouts et chefs animistes : lire avec précaution les sources coloniales."
+    },
+    {
+      "id": "GM-evenement-colonie-1888",
+      "titre": "La Gambie devient une colonie séparée",
+      "date": "1888-01-01",
+      "date_affichee": "1888",
+      "precision": "annee",
+      "description": "Le lien administratif avec la Sierra Leone est rompu en 1888 et la Gambie devient une colonie à part, dotée de ses conseils exécutif et législatif. En 1893, le gouvernement est habilité à étendre le régime britannique au protectorat.",
+      "sources": [
+        "S100"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GM-evenement-protectorat-1894",
+      "titre": "Ordonnance sur le protectorat",
+      "date": "1894-12-27",
+      "date_affichee": "27 décembre 1894",
+      "precision": "jour",
+      "description": "L'ordonnance du 27 décembre 1894 organise le protectorat : divisé en districts confiés à des chefs, souvent choisis par l'administration, avec des tribunaux locaux. Elle consacre le système d'administration indirecte.",
+      "sources": [
+        "S100",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GM-evenement-fuladu-1902",
+      "titre": "Le Fuladu intégré à la colonie, exil de Musa Molloh",
+      "date": "1902-01-01",
+      "date_affichee": "1902-1919",
+      "precision": "annee",
+      "description": "Une ordonnance de 1902 intègre le Fuladu à la colonie et met fin à la traite que Musa Molloh pratiquait encore. Pressé par les Français, il passe en territoire britannique en 1904. Les Britanniques l'exilent en Sierra Leone en 1919, selon le NCAC.",
+      "sources": [
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "fin": "1919-12-31",
+      "acteurs": [
+        "Musa Molloh Balde"
+      ]
+    },
+    {
+      "id": "GM-evenement-syndicat-1928",
+      "titre": "Premier syndicat de Gambie",
+      "date": "1928-01-01",
+      "date_affichee": "1928",
+      "precision": "annee",
+      "description": "En 1928 est créé le Bathurst Trade Union, premier syndicat du pays, qui obtient la première grève. Il s'inscrit dans le mouvement mené par Edward Francis Small pour obtenir une représentation des habitants de la colonie.",
+      "sources": [
+        "S9",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Edward Francis Small"
+      ]
+    },
+    {
+      "id": "GM-evenement-small-elu-1942",
+      "titre": "Edward Francis Small élu au conseil législatif",
+      "date": "1942-01-01",
+      "date_affichee": "1942",
+      "precision": "annee",
+      "description": "Edward Francis Small est élu au Conseil législatif pour représenter Bathurst et les Kombos, et devient le premier Gambien à remporter un scrutin populaire. Il siège jusqu'en 1947.",
+      "sources": [
+        "S9"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "fin": "1947-12-31",
+      "acteurs": [
+        "Edward Francis Small"
+      ]
+    },
+    {
+      "id": "GM-evenement-elections-1962",
+      "titre": "Élections de 1962 et gouvernement de Jawara",
+      "date": "1962-05-01",
+      "date_affichee": "mai 1962",
+      "precision": "mois",
+      "description": "Aux élections de mai 1962, le Parti progressiste du peuple remporte 17 des 25 sièges du protectorat et un siège de la colonie. Dawda Jawara devient Premier ministre et ouvre la voie à plus de trente années de gouvernement du PPP.",
+      "sources": [
+        "S9"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Dawda Jawara"
+      ]
+    },
+    {
+      "id": "GM-evenement-independance-1965",
+      "titre": "Indépendance de la Gambie",
+      "date": "1965-02-18",
+      "date_affichee": "18 février 1965",
+      "precision": "jour",
+      "description": "La Gambie accède à l'indépendance le 18 février 1965 et rejoint le Commonwealth comme monarchie constitutionnelle. Cette date est devenue la fête nationale.",
+      "sources": [
+        "S4",
+        "S9",
+        "S65"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GM-evenement-republique-1970",
+      "titre": "Proclamation de la République",
+      "date": "1970-04-24",
+      "date_affichee": "24 avril 1970",
+      "precision": "jour",
+      "description": "À la suite du référendum du 24 avril 1970, la Gambie devient une république et Dawda Jawara, jusque-là Premier ministre, devient président.",
+      "sources": [
+        "S9"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Dawda Jawara"
+      ]
+    },
+    {
+      "id": "GM-evenement-archives-1971",
+      "titre": "Création des Archives culturelles",
+      "date": "1971-01-01",
+      "date_affichee": "1971",
+      "precision": "annee",
+      "description": "En 1971, des Archives culturelles sont créées au sein du bureau des archives publiques, avec Bakary Sidibeh comme premier chargé de recherche, pour recueillir traditions orales et objets destinés à un futur musée national. Elles préfigurent le NCAC. Aujourd'hui, la division de la recherche conserve plus de 5 000 enregistrements.",
+      "sources": [
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GM-evenement-senegambie-1981",
+      "titre": "Accord de la Confédération de Sénégambie",
+      "date": "1981-12-17",
+      "date_affichee": "17 décembre 1981",
+      "precision": "jour",
+      "description": "L'accord signé à Dakar le 17 décembre 1981 prévoit une confédération entre la Gambie et le Sénégal, chacun gardant son indépendance et sa souveraineté, avec une coopération en matière de défense, d'économie, de monnaie et de politique étrangère.",
+      "sources": [
+        "S102"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GM-evenement-musee-1985",
+      "titre": "Ouverture du musée national",
+      "date": "1985-01-01",
+      "date_affichee": "1985",
+      "precision": "annee",
+      "description": "Le musée national ouvre ses portes à Banjul en 1985, quinze ans après la création de l'association des Amis du musée. Il est installé dans un ancien bâtiment colonial.",
+      "sources": [
+        "S45"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Banjul"
+      ]
+    },
+    {
+      "id": "GM-evenement-coup-1994",
+      "titre": "Coup d'État du 22 juillet 1994",
+      "date": "1994-07-22",
+      "date_affichee": "22 juillet 1994",
+      "precision": "jour",
+      "description": "Le 22 juillet 1994, un coup d'État mené par Yahya Jammeh, alors âgé de 23 ans, renverse le président Jawara ; Jammeh dirigera le pays jusqu'en 2017. Africanews qualifie le coup de non violent. L'arche 22 sera construite en 1996 pour le commémorer.",
+      "sources": [
+        "S65",
+        "S50"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Sujet politique disputé : le récit varie selon les camps ; à relire avec des sources diverses."
+    },
+    {
+      "id": "GM-evenement-roots-1996",
+      "titre": "Premier festival des Racines (Roots)",
+      "date": "1996-01-01",
+      "date_affichee": "1996",
+      "precision": "annee",
+      "description": "Depuis 1996, le gouvernement organise une « semaine du patrimoine » destinée à attirer les visiteurs de la diaspora africaine, avec un pèlerinage à l'île Kunta Kinteh et à Albreda-Juffureh.",
+      "sources": [
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GM-evenement-unesco-2003",
+      "titre": "Inscription de l'île Kunta Kinteh au patrimoine mondial",
+      "date": "2003-01-01",
+      "date_affichee": "2003",
+      "precision": "annee",
+      "description": "L'UNESCO inscrit l'île Kunta Kinteh et ses sites associés sur la Liste du patrimoine mondial, au titre des critères iii et vi.",
+      "sources": [
+        "S5",
+        "S42"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GM-evenement-hydara-2004",
+      "titre": "Assassinat de Deyda Hydara",
+      "date": "2004-12-16",
+      "date_affichee": "16 décembre 2004",
+      "precision": "jour",
+      "description": "L'éditeur de The Point, Deyda Hydara, est assassiné à Banjul. Le meurtre est resté non résolu pendant des années selon le CPJ, et il a nourri les tensions entre le pouvoir et la presse.",
+      "sources": [
+        "S83",
+        "S84"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Sujet politique et judiciaire : présentation neutre, sources citées."
+    },
+    {
+      "id": "GM-evenement-kankurang-2005",
+      "titre": "Le Kankurang proclamé chef-d'œuvre par l'UNESCO",
+      "date": "2005-01-01",
+      "date_affichee": "2005",
+      "precision": "annee",
+      "description": "En 2005, l'UNESCO proclame le Kankurang chef-d'œuvre du patrimoine oral et immatériel de l'humanité, d'après le NCAC. Le rite sera inscrit à la Liste représentative en 2008.",
+      "sources": [
+        "S56",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GM-evenement-cercles-2006",
+      "titre": "Inscription des cercles mégalithiques de Sénégambie",
+      "date": "2006-01-01",
+      "date_affichee": "2006",
+      "precision": "annee",
+      "description": "Les cercles de pierres de Sénégambie sont inscrits au patrimoine mondial en 2006 ; le bien est transfrontalier, partagé entre la Gambie (Wassu, Kerbatch) et le Sénégal (Sine Ngayène, Wanar).",
+      "sources": [
+        "S6",
+        "S42"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GM-evenement-kankurang-2008",
+      "titre": "Kankurang inscrit au patrimoine immatériel",
+      "date": "2008-01-01",
+      "date_affichee": "2008",
+      "precision": "annee",
+      "description": "En 2008, le Kankurang est inscrit sur la Liste représentative du patrimoine culturel immatériel de l'humanité. C'est le seul élément gambien de la liste selon la page de l'UNESCO consacrée à la Gambie.",
+      "sources": [
+        "S7",
+        "S55"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GM-evenement-bensouda-2012",
+      "titre": "Fatou Bensouda procureure de la CPI",
+      "date": "2012-01-01",
+      "date_affichee": "2012",
+      "precision": "annee",
+      "description": "Fatou Bensouda prête serment à La Haye comme procureure en chef de la Cour pénale internationale. Elle est la première Africaine à occuper ce poste.",
+      "sources": [
+        "S67",
+        "S68"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Fatou Bensouda"
+      ]
+    },
+    {
+      "id": "GM-evenement-alternance-2017",
+      "titre": "Élection de 2016 et départ de Yahya Jammeh",
+      "date": "2017-01-01",
+      "date_affichee": "décembre 2016 - janvier 2017",
+      "precision": "mois",
+      "description": "Yahya Jammeh, au pouvoir depuis 22 ans, perd l'élection de décembre 2016 face à Adama Barrow, puis conteste le résultat. Une opération militaire régionale de la CEDEAO est lancée et Jammeh quitte le pays en janvier 2017, pour l'exil.",
+      "sources": [
+        "S96",
+        "S97"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Adama Barrow",
+        "Yahya Jammeh",
+        "CEDEAO"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement politique récent : récit neutre, sources de presse."
+    },
+    {
+      "id": "GM-evenement-cij-2019",
+      "titre": "La Gambie saisit la CIJ contre le Myanmar",
+      "date": "2019-11-11",
+      "date_affichee": "11 novembre 2019",
+      "precision": "jour",
+      "description": "Le 11 novembre 2019, la Gambie dépose devant la Cour internationale de justice une requête invoquant la Convention sur le génocide à l'encontre du Myanmar, avec une demande de mesures conservatoires. La Cour a rendu une ordonnance sur ces mesures le 23 janvier 2020.",
+      "sources": [
+        "S103",
+        "S104"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Gambie",
+        "Myanmar",
+        "CIJ"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Affaire judiciaire internationale en cours de traitement : renvoyer aux documents de la CIJ, sans prendre parti."
+    },
+    {
+      "id": "GM-evenement-elections-2021",
+      "titre": "Réélection d'Adama Barrow",
+      "date": "2021-12-04",
+      "date_affichee": "4 décembre 2021",
+      "precision": "jour",
+      "description": "Lors du premier scrutin présidentiel organisé sans Yahya Jammeh depuis des décennies, Adama Barrow est réélu avec environ 53 % des voix, devant Ousainou Darboe (environ 28 %), selon la BBC.",
+      "sources": [
+        "S98"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Adama Barrow",
+        "Ousainou Darboe"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement politique récent : résultats cités depuis la presse ; le détail officiel est à contrôler."
+    },
+    {
+      "id": "GM-evenement-recensement-2024",
+      "titre": "Recensement de 2024 : rapport préliminaire",
+      "date": "2024-09-01",
+      "date_affichee": "septembre 2024",
+      "precision": "mois",
+      "description": "Le rapport préliminaire du recensement de 2024 chiffre la population à 2 422 712 habitants, dont 51 % de femmes. Le groupe mandinka représente 34,4 %, les Peuls 25 % et les Wolof 15,4 %.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GM-evenement-cij-2026",
+      "titre": "Arrêt de la CIJ dans l'affaire Gambie c. Myanmar",
+      "date": "2026-11-19",
+      "date_affichee": "19 novembre 2026",
+      "precision": "jour",
+      "description": "Le 19 novembre 2026, la Cour internationale de justice rend son arrêt sur le fond dans l'affaire Application de la convention pour la prévention et la répression du crime de génocide (Gambie c. Myanmar). Le texte de l'arrêt, les opinions individuelles et le communiqué sont publiés sur le site de la Cour ; la présente fiche n'en résume pas le dispositif.",
+      "sources": [
+        "S104"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Gambie",
+        "Myanmar",
+        "CIJ"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Décision récente : consulter directement l'arrêt de la CIJ ; contenu non analysé ici."
+    }
+  ],
+  "oeuvres": [
+    {
+      "id": "GM-oeuvre-kora-met",
+      "titre": "Kora mandinka (XIXe siècle)",
+      "type": "instrument",
+      "description": "Kora mandinka de Sénégambie, datée du XIXe siècle et conservée à New York. Elle est faite de calebasse, de peau, de cuir et de bois. Le Met la rattache à la région de Sénégambie : elle ne peut pas être localisée plus précisément en Gambie.",
+      "sources": [
+        "S59",
+        "S14"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communaute": "Mandinka",
+      "periode": "XIXe siècle",
+      "materiaux": [
+        "calebasse",
+        "peau",
+        "cuir",
+        "bois"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "89.4.498",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/501115",
+      "droits": "Notice du Metropolitan Museum of Art (Open Access, domaine public) ; image non reproduite ici.",
+      "regions": [
+        "Sénégambie"
+      ]
+    },
+    {
+      "id": "GM-oeuvre-hoddu-met",
+      "titre": "Hoddu (xalam) peul (XIXe siècle)",
+      "type": "instrument",
+      "description": "Luth de la famille des xalam attribué aux Peuls (Fulbe), rattaché par le Met à la région Mali-Guinée-Guinée-Bissau-Sénégambie. L'instrument, en bois et peau, illustre la pluralité des luths ouest-africains. La notice n'indique pas de provenance gambienne précise.",
+      "sources": [
+        "S105",
+        "S14"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communaute": "Peuls (Fulbe)",
+      "periode": "fin du XIXe siècle",
+      "materiaux": [
+        "bois",
+        "peau"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "89.4.473",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/501091",
+      "droits": "Notice du Metropolitan Museum of Art (Open Access, domaine public) ; image non reproduite ici.",
+      "regions": [
+        "Sénégambie"
+      ]
+    },
+    {
+      "id": "GM-oeuvre-cercles-wassu",
+      "titre": "Cercles de pierres de Wassu",
+      "type": "architecture",
+      "description": "À Wassu, des piliers de latérite taillés forment des cercles associés à des tumulus funéraires. Chaque cercle compte entre 8 et 14 piliers. Le site, protégé et géré par le NCAC, possède aussi un musée.",
+      "sources": [
+        "S6",
+        "S42",
+        "S49"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communaute": "sociétés de la vallée de la Gambie (identité débattue)",
+      "periode": "IIIe siècle av. J.-C. - XVIe siècle",
+      "materiaux": [
+        "latérite"
+      ],
+      "institution": "National Centre for Arts and Culture (NCAC) ; UNESCO (bien du patrimoine mondial)",
+      "url_notice": "https://whc.unesco.org/fr/list/1226",
+      "droits": "Descriptions UNESCO sous licence CC BY-SA 3.0 IGO."
+    },
+    {
+      "id": "GM-oeuvre-fort-bullen",
+      "titre": "Fort Bullen",
+      "type": "architecture",
+      "description": "Fort Bullen est une fortification rectangulaire à bastions circulaires, bâtie en 1826 à Barra Point. L'UNESCO précise qu'il fut conçu pour empêcher la traite devenue illégale. Il fait partie du bien Kunta Kinteh et sites associés.",
+      "sources": [
+        "S5",
+        "S42",
+        "S101"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "periode": "1826",
+      "institution": "NCAC ; UNESCO (bien du patrimoine mondial)",
+      "url_notice": "https://whc.unesco.org/en/list/761",
+      "droits": "Descriptions UNESCO sous licence CC BY-SA 3.0 IGO.",
+      "regions": [
+        "North Bank"
+      ]
+    },
+    {
+      "id": "GM-oeuvre-arch22-oeuvre",
+      "titre": "Arch 22",
+      "type": "architecture",
+      "description": "Arche néoclassique de 35 mètres à l'entrée de Banjul, conçue par Pierre Goudiaby, dont la construction débute en 1996. Le sommet abrite un musée textile et elle figure au dos du billet de 100 dalasis. Elle commémore le coup d'État du 22 juillet 1994.",
+      "sources": [
+        "S50",
+        "S45"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "createur": "Pierre Goudiaby (architecte)",
+      "periode": "depuis 1996",
+      "institution": "Gouvernement de la Gambie ; NCAC (musée de l'arche 22)",
+      "url_notice": "https://en.wikipedia.org/wiki/Arch_22",
+      "droits": "Monument ; notice Wikipédia sous licence CC BY-SA 4.0.",
+      "sensible": true,
+      "note_sensibilite": "Monument politique lié au coup d'État de 1994 : à présenter avec distance.",
+      "regions": [
+        "Banjul"
+      ]
+    },
+    {
+      "id": "GM-oeuvre-roots-haley",
+      "titre": "Racines (Roots: The Saga of an American Family)",
+      "type": "livre",
+      "description": "Roman d'Alex Haley paru en 1976, qui suit le destin de Kunta Kinte, jeune Mandinka du village de Juffureh capturé puis vendu aux États-Unis, et de ses descendants. Le NCAC rappelle que ce livre a rendu Juffureh célèbre dans le monde. L'œuvre est classée par Wikipédia comme fiction historique.",
+      "sources": [
+        "S106",
+        "S42"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "createur": "Alex Haley",
+      "periode": "1976",
+      "materiaux": [
+        "papier"
+      ],
+      "institution": "Doubleday (éditeur d'origine)",
+      "url_notice": "https://en.wikipedia.org/wiki/Roots:_The_Saga_of_an_American_Family",
+      "droits": "Œuvre sous droits ; seule la notice descriptive est reproduite.",
+      "sensible": true,
+      "note_sensibilite": "Récit mémoriel de la traite : distinguer fiction et histoire documentée."
+    },
+    {
+      "id": "GM-oeuvre-second-round",
+      "titre": "The Second Round",
+      "type": "livre",
+      "description": "Seul roman de Lenrie Peters, publié en 1965 à Londres dans la collection African Writers Series de Heinemann (n° 22). Peters était chirurgien et poète originaire de Bathurst.",
+      "sources": [
+        "S81",
+        "S80"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "createur": "Lenrie Peters",
+      "periode": "1965",
+      "institution": "Heinemann (éditeur)",
+      "url_notice": "https://en.wikipedia.org/wiki/Lenrie_Peters",
+      "droits": "Œuvre sous droits ; notice descriptive seule."
+    },
+    {
+      "id": "GM-oeuvre-katchikali",
+      "titre": "Katchikali",
+      "type": "livre",
+      "description": "Recueil de poèmes de Lenrie Peters publié en 1971 à Londres chez Heinemann (African Writers Series n° 103), l'un des livres de l'auteur utilisés dans les écoles gambiennes selon The Point.",
+      "sources": [
+        "S81",
+        "S80"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "createur": "Lenrie Peters",
+      "periode": "1971",
+      "institution": "Heinemann (éditeur)",
+      "url_notice": "https://en.wikipedia.org/wiki/Lenrie_Peters",
+      "droits": "Œuvre sous droits ; notice descriptive seule."
+    },
+    {
+      "id": "GM-oeuvre-fasiya",
+      "titre": "Fasiya",
+      "type": "musique",
+      "description": "Deuxième album de Sona Jobarteh, sorti en 2011 chez African Guild Records. Il suit son premier disque, Afro-Acoustic Soul.",
+      "sources": [
+        "S71",
+        "S57"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "createur": "Sona Jobarteh",
+      "periode": "2011",
+      "institution": "African Guild Records",
+      "url_notice": "https://en.wikipedia.org/wiki/Sona_Jobarteh",
+      "droits": "Œuvre sous droits ; notice descriptive seule."
+    },
+    {
+      "id": "GM-oeuvre-village-life",
+      "titre": "Village Life",
+      "type": "musique",
+      "description": "Album de duos entre le joueur de kora gambien Foday Musa Suso et le pianiste Herbie Hancock, sorti en 1985. Il a prolongé leur collaboration engagée l'année précédente sur Sound-System.",
+      "sources": [
+        "S73",
+        "S58"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "createur": "Foday Musa Suso et Herbie Hancock",
+      "periode": "1985",
+      "institution": "Columbia (éditeur)",
+      "url_notice": "https://en.wikipedia.org/wiki/Foday_Musa_Suso",
+      "droits": "Œuvre sous droits ; notice descriptive seule."
+    },
+    {
+      "id": "GM-oeuvre-archives-orales",
+      "titre": "Archives orales du NCAC",
+      "type": "musique",
+      "description": "La division Recherche et documentation du NCAC conserve plus de 5 000 enregistrements audio d'histoire, de généalogies, de traditions, de contes et de musique de la Gambie et de la Sénégambie, dont une partie est numérisée. Elle documente notamment le royaume de Kaabu.",
+      "sources": [
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "periode": "depuis 1971",
+      "institution": "National Centre for Arts and Culture (Banjul)",
+      "url_notice": "https://ncac.gm/oralarchieve/",
+      "droits": "Accès sur permis de recherche délivré par le NCAC.",
+      "sensible": true,
+      "note_sensibilite": "Enregistrements de traditions et généalogies : accès et réutilisation soumis aux règles du NCAC et des communautés."
+    }
+  ],
+  "proverbes": [
+    {
+      "id": "GM-proverbe-wolof-27",
+      "texte_original": "Son donl kone barame lojo di kondon.",
+      "langue": "wolof",
+      "traduction": "Sans les doigts, la main ne serait qu'une cuillère.",
+      "sens": "Chaque partie a son utilité : sans les doigts, la main ne sait rien saisir.",
+      "publication": "Richard F. Burton, Wit and Wisdom from West Africa; or, A Book of Proverbial Philosophy, Idioms, Enigmas, and Laconisms, Londres, Tinsley Brothers, 1865, « Proverbs in the Wolof tongue » (extraits de la Grammaire wolofe de J. Dard, 1826), n° 27, p. 8 (numérisation Internet Archive).",
+      "note": "Graphie de Dard (1826) reprise par Burton, relevée sur le texte océrisé de la numérisation : des erreurs de lecture sont possibles. À contrôler sur le fac-similé et par un locuteur, puis à moderniser selon l'orthographe officielle. Recueil de Sénégambie, non spécifique à la Gambie.",
+      "sources": [
+        "S107"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Traduction française établie à partir de la traduction anglaise de Burton ; le champ sens est rédigé par MonBaobab (la glose du n° 28 vient de la note de Burton)."
+      }
+    },
+    {
+      "id": "GM-proverbe-wolof-28",
+      "texte_original": "Daw don maee y taliba.",
+      "langue": "wolof",
+      "traduction": "Courir ici et là ne fait pas de savants.",
+      "sens": "Qui ne se fixe jamais n'apprend rien ; Burton note l'équivalence avec « pierre qui roule n'amasse pas mousse ».",
+      "publication": "Richard F. Burton, Wit and Wisdom from West Africa; or, A Book of Proverbial Philosophy, Idioms, Enigmas, and Laconisms, Londres, Tinsley Brothers, 1865, « Proverbs in the Wolof tongue » (extraits de la Grammaire wolofe de J. Dard, 1826), n° 28, p. 9 (numérisation Internet Archive).",
+      "note": "Graphie de Dard (1826) reprise par Burton, relevée sur le texte océrisé de la numérisation : des erreurs de lecture sont possibles. À contrôler sur le fac-similé et par un locuteur, puis à moderniser selon l'orthographe officielle. Recueil de Sénégambie, non spécifique à la Gambie.",
+      "sources": [
+        "S107"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Traduction française établie à partir de la traduction anglaise de Burton ; le champ sens est rédigé par MonBaobab (la glose du n° 28 vient de la note de Burton)."
+      }
+    },
+    {
+      "id": "GM-proverbe-wolof-45",
+      "texte_original": "Bonr bon amonl y nitte don done bonr.",
+      "langue": "wolof",
+      "traduction": "Un roi sans sujets n'est pas un roi.",
+      "sens": "L'autorité n'existe que par ceux qui la reconnaissent.",
+      "publication": "Richard F. Burton, Wit and Wisdom from West Africa; or, A Book of Proverbial Philosophy, Idioms, Enigmas, and Laconisms, Londres, Tinsley Brothers, 1865, « Proverbs in the Wolof tongue » (extraits de la Grammaire wolofe de J. Dard, 1826), n° 45, p. 11 (numérisation Internet Archive).",
+      "note": "Graphie de Dard (1826) reprise par Burton, relevée sur le texte océrisé de la numérisation : des erreurs de lecture sont possibles. À contrôler sur le fac-similé et par un locuteur, puis à moderniser selon l'orthographe officielle. Recueil de Sénégambie, non spécifique à la Gambie.",
+      "sources": [
+        "S107"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Traduction française établie à partir de la traduction anglaise de Burton ; le champ sens est rédigé par MonBaobab (la glose du n° 28 vient de la note de Burton)."
+      }
+    },
+    {
+      "id": "GM-proverbe-wolof-55",
+      "texte_original": "Bala gna fadhiana diaka verle.",
+      "langue": "wolof",
+      "traduction": "Avant de soigner les autres, soigne-toi toi-même.",
+      "sens": "Corrige d'abord tes propres défauts avant de conseiller autrui.",
+      "publication": "Richard F. Burton, Wit and Wisdom from West Africa; or, A Book of Proverbial Philosophy, Idioms, Enigmas, and Laconisms, Londres, Tinsley Brothers, 1865, « Proverbs in the Wolof tongue » (extraits de la Grammaire wolofe de J. Dard, 1826), n° 55, p. 13 (numérisation Internet Archive).",
+      "note": "Graphie de Dard (1826) reprise par Burton, relevée sur le texte océrisé de la numérisation : des erreurs de lecture sont possibles. À contrôler sur le fac-similé et par un locuteur, puis à moderniser selon l'orthographe officielle. Recueil de Sénégambie, non spécifique à la Gambie.",
+      "sources": [
+        "S107"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Traduction française établie à partir de la traduction anglaise de Burton ; le champ sens est rédigé par MonBaobab (la glose du n° 28 vient de la note de Burton)."
+      }
+    },
+    {
+      "id": "GM-proverbe-wolof-56",
+      "texte_original": "Yonne amoiil nkerre.",
+      "langue": "wolof",
+      "traduction": "Un chemin n'a pas d'ombre.",
+      "sens": "Proverbe donné sans glose dans la source ; sens à établir avec un locuteur.",
+      "publication": "Richard F. Burton, Wit and Wisdom from West Africa; or, A Book of Proverbial Philosophy, Idioms, Enigmas, and Laconisms, Londres, Tinsley Brothers, 1865, « Proverbs in the Wolof tongue » (extraits de la Grammaire wolofe de J. Dard, 1826), n° 56, p. 13 (numérisation Internet Archive).",
+      "note": "Graphie de Dard (1826) reprise par Burton, relevée sur le texte océrisé de la numérisation : des erreurs de lecture sont possibles. À contrôler sur le fac-similé et par un locuteur, puis à moderniser selon l'orthographe officielle. Recueil de Sénégambie, non spécifique à la Gambie.",
+      "sources": [
+        "S107"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Traduction française établie à partir de la traduction anglaise de Burton ; le champ sens est rédigé par MonBaobab (la glose du n° 28 vient de la note de Burton)."
+      }
+    },
+    {
+      "id": "GM-proverbe-wolof-58",
+      "texte_original": "New na mo gaenne dara.",
+      "langue": "wolof",
+      "traduction": "Un peu vaut mieux que rien.",
+      "sens": "Mieux vaut peu que pas du tout.",
+      "publication": "Richard F. Burton, Wit and Wisdom from West Africa; or, A Book of Proverbial Philosophy, Idioms, Enigmas, and Laconisms, Londres, Tinsley Brothers, 1865, « Proverbs in the Wolof tongue » (extraits de la Grammaire wolofe de J. Dard, 1826), n° 58, p. 13 (numérisation Internet Archive).",
+      "note": "Graphie de Dard (1826) reprise par Burton, relevée sur le texte océrisé de la numérisation : des erreurs de lecture sont possibles. À contrôler sur le fac-similé et par un locuteur, puis à moderniser selon l'orthographe officielle. Recueil de Sénégambie, non spécifique à la Gambie.",
+      "sources": [
+        "S107"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Traduction française établie à partir de la traduction anglaise de Burton ; le champ sens est rédigé par MonBaobab (la glose du n° 28 vient de la note de Burton)."
+      }
+    },
+    {
+      "id": "GM-proverbe-wolof-70",
+      "texte_original": "Lon narre barey barey sou dengue dickey diota ko.",
+      "langue": "wolof",
+      "traduction": "Les mensonges, si nombreux soient-ils, seront rattrapés par la vérité lorsqu'elle se lèvera.",
+      "sens": "La vérité finit par l'emporter sur le mensonge.",
+      "publication": "Richard F. Burton, Wit and Wisdom from West Africa; or, A Book of Proverbial Philosophy, Idioms, Enigmas, and Laconisms, Londres, Tinsley Brothers, 1865, « Proverbs in the Wolof tongue » (extraits de la Grammaire wolofe de J. Dard, 1826), n° 70, p. 15 (numérisation Internet Archive).",
+      "note": "Graphie de Dard (1826) reprise par Burton, relevée sur le texte océrisé de la numérisation : des erreurs de lecture sont possibles. À contrôler sur le fac-similé et par un locuteur, puis à moderniser selon l'orthographe officielle. Recueil de Sénégambie, non spécifique à la Gambie.",
+      "sources": [
+        "S107"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Traduction française établie à partir de la traduction anglaise de Burton ; le champ sens est rédigé par MonBaobab (la glose du n° 28 vient de la note de Burton)."
+      }
+    },
+    {
+      "id": "GM-proverbe-wolof-75",
+      "texte_original": "Boigne a di sakete ou guemigne.",
+      "langue": "wolof",
+      "traduction": "Les dents servent de clôture à la bouche.",
+      "sens": "Les dents protègent la bouche ; sens à confirmer avec un locuteur.",
+      "publication": "Richard F. Burton, Wit and Wisdom from West Africa; or, A Book of Proverbial Philosophy, Idioms, Enigmas, and Laconisms, Londres, Tinsley Brothers, 1865, « Proverbs in the Wolof tongue » (extraits de la Grammaire wolofe de J. Dard, 1826), n° 75, p. 16 (numérisation Internet Archive).",
+      "note": "Graphie de Dard (1826) reprise par Burton, relevée sur le texte océrisé de la numérisation : des erreurs de lecture sont possibles. À contrôler sur le fac-similé et par un locuteur, puis à moderniser selon l'orthographe officielle. Recueil de Sénégambie, non spécifique à la Gambie.",
+      "sources": [
+        "S107"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Traduction française établie à partir de la traduction anglaise de Burton ; le champ sens est rédigé par MonBaobab (la glose du n° 28 vient de la note de Burton)."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "titre": "Gambia's population rises to 2.4m, Mandinkas highest",
+      "institution": "The Point (Banjul), d'après le Bureau gambien de statistique (GBoS)",
+      "url": "https://thepoint.gm/africa/gambia/headlines/gambias-population-rises-to-2-4m-mandinkas-highest",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2024
+    },
+    {
+      "id": "S2",
+      "titre": "2024 Population and Housing Census — GBoS",
+      "institution": "Gambia Bureau of Statistics",
+      "url": "https://www.gbosdata.org/downloads/157-2024-population-and-housing-census",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S3",
+      "titre": "Gambie — Wikidata Q1005",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q1005",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S4",
+      "titre": "Gambie — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Gambie",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S5",
+      "titre": "Kunta Kinteh Island and Related Sites — UNESCO World Heritage Centre",
+      "institution": "UNESCO",
+      "url": "https://whc.unesco.org/en/list/761",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S6",
+      "titre": "Cercles mégalithiques de Sénégambie — Centre du patrimoine mondial de l'UNESCO",
+      "institution": "UNESCO",
+      "url": "https://whc.unesco.org/fr/list/1226",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S7",
+      "titre": "Kankurang, rite initiatique mandingue — UNESCO Patrimoine culturel immatériel",
+      "institution": "UNESCO",
+      "url": "https://ich.unesco.org/en/RL/kankurang-manding-initiatory-rite-00143",
+      "type": "unesco",
+      "licence": "© UNESCO (texte consulté en ligne)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S8",
+      "titre": "Oral Archive — Research and Documentation, NCAC",
+      "institution": "National Centre for Arts and Culture (NCAC), Gambie",
+      "url": "https://ncac.gm/oralarchieve/",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S9",
+      "titre": "History of the Independence Movement in Gambia — Access Gambia",
+      "institution": "Access Gambia (portail d'information touristique)",
+      "url": "https://www.accessgambia.com/information/history-independence-movement.html",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S10",
+      "titre": "Gambia — Languages, Literacy & Maps (Ethnologue)",
+      "institution": "Ethnologue (SIL International)",
+      "url": "https://www.ethnologue.com/country/GM/",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S11",
+      "titre": "Mandinka — Glottolog",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/mand1436",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S12",
+      "titre": "Mandinka — Ethnologue",
+      "institution": "Ethnologue (SIL International)",
+      "url": "https://www.ethnologue.com/language/mnk",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S13",
+      "titre": "Languages of the Gambia — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_the_Gambia",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S14",
+      "titre": "Kora Music & Griots in Gambia — Access Gambia",
+      "institution": "Access Gambia (portail d'information touristique)",
+      "url": "https://www.accessgambia.com/information/griots-kora.html",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S15",
+      "titre": "Pulaar — Glottolog",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/pula1263",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S16",
+      "titre": "Gambian Wolof — Glottolog",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/gamb1252",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S17",
+      "titre": "Wolof in Gambia — Access Gambia",
+      "institution": "Access Gambia (portail d'information touristique)",
+      "url": "https://www.accessgambia.com/information/wolof.html",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S18",
+      "titre": "English — Glottolog",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1293",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S19",
+      "titre": "Langues en Gambie — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Langues_en_Gambie",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S20",
+      "titre": "Soninke — Glottolog",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/soni1259",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S21",
+      "titre": "Demographics of the Gambia — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Demographics_of_the_Gambia",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S22",
+      "titre": "Jola-Fonyi — Glottolog",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/jola1263",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S23",
+      "titre": "Jola in Gambia — Access Gambia",
+      "institution": "Access Gambia (portail d'information touristique)",
+      "url": "https://www.accessgambia.com/information/jola.html",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S24",
+      "titre": "Sereer — Glottolog",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/sere1260",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S25",
+      "titre": "Serer in Gambia — Access Gambia",
+      "institution": "Access Gambia (portail d'information touristique)",
+      "url": "https://www.accessgambia.com/information/serer.html",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S26",
+      "titre": "Mandjak — Glottolog",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/mand1419",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S27",
+      "titre": "Western Maninkakan — Glottolog",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/west2500",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S28",
+      "titre": "Bainouk-Gunyaamolo-Gutobor — Glottolog",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/bain1261",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S29",
+      "titre": "History of the Gambia — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/History_of_the_Gambia",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S30",
+      "titre": "Karon — Glottolog",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/karo1294",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S31",
+      "titre": "Krio — Glottolog",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/krio1253",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S32",
+      "titre": "Aku People of Gambia — Access Gambia",
+      "institution": "Access Gambia (portail d'information touristique)",
+      "url": "https://www.accessgambia.com/information/aku.html",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S33",
+      "titre": "Gambian Sign Language — Glottolog",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/gamb1259",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S34",
+      "titre": "Mandinka in Gambia — Access Gambia",
+      "institution": "Access Gambia (portail d'information touristique)",
+      "url": "https://www.accessgambia.com/information/mandinka.html",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S35",
+      "titre": "Fula in Gambia — Access Gambia",
+      "institution": "Access Gambia (portail d'information touristique)",
+      "url": "https://www.accessgambia.com/information/fula.html",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S36",
+      "titre": "Sacred sites — NCAC",
+      "institution": "National Centre for Arts and Culture (NCAC), Gambie",
+      "url": "https://ncac.gm/sacred-sites/",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S37",
+      "titre": "Gambian Cultural Dancing — Access Gambia",
+      "institution": "Access Gambia (portail d'information touristique)",
+      "url": "https://www.accessgambia.com/information/cultural-dance.html",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S38",
+      "titre": "Gambia's Masquerades — Access Gambia",
+      "institution": "Access Gambia (portail d'information touristique)",
+      "url": "https://www.accessgambia.com/information/masquerades.html",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S39",
+      "titre": "Traditional Gambian Music Guide — Access Gambia",
+      "institution": "Access Gambia (portail d'information touristique)",
+      "url": "https://www.accessgambia.com/information/music-traditional.html",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S40",
+      "titre": "Mégalithes du Sénégal et de La Gambie : vestiges d'une « civilisation disparue » ?",
+      "institution": "Université de Rennes (HAL) — CReAAH",
+      "url": "https://univ-rennes.hal.science/hal-03904165v1",
+      "type": "universite",
+      "licence": "voir notice HAL",
+      "consulte_le": "2026-11-21",
+      "auteur": "Luc Laporte",
+      "annee": 2022
+    },
+    {
+      "id": "S41",
+      "titre": "Île Kunta Kinteh et sites associés — Centre du patrimoine mondial de l'UNESCO",
+      "institution": "UNESCO",
+      "url": "https://whc.unesco.org/fr/list/761",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S42",
+      "titre": "Monuments and Sites — NCAC",
+      "institution": "National Centre for Arts and Culture (NCAC), Gambie",
+      "url": "https://ncac.gm/monuments-and-sites/",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S43",
+      "titre": "Île Kunta Kinteh et sites associés — Wikidata Q4387456",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q4387456",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S44",
+      "titre": "Cercles mégalithiques de Sénégambie — Wikidata Q98769058",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q98769058",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S45",
+      "titre": "Cultural heritage — NCAC",
+      "institution": "National Centre for Arts and Culture (NCAC), Gambie",
+      "url": "https://ncac.gm/cultural-heritage/",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S46",
+      "titre": "Banjul — Wikidata Q3726",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q3726",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S47",
+      "titre": "Musée national de Gambie — Wikidata Q1967468",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q1967468",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S48",
+      "titre": "Jufureh — Wikidata Q1711203",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q1711203",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S49",
+      "titre": "Musée des cercles de pierres de Wassu — Wikidata Q2552179",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q2552179",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S50",
+      "titre": "Arch 22 — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Arch_22",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S51",
+      "titre": "Arch 22 — Wikidata Q632012",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q632012",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S52",
+      "titre": "Musa Molloh — Wikidata Q3326217",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q3326217",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S53",
+      "titre": "Janjanbureh — Wikidata Q1002786",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q1002786",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S54",
+      "titre": "Cultural Festivals in Gambia — Access Gambia",
+      "institution": "Access Gambia (portail d'information touristique)",
+      "url": "https://www.accessgambia.com/information/cultural-festivals.html",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S55",
+      "titre": "Gambia — UNESCO Intangible Cultural Heritage",
+      "institution": "UNESCO",
+      "url": "https://ich.unesco.org/en/state/gambia-GM",
+      "type": "unesco",
+      "licence": "© UNESCO (texte consulté en ligne)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S56",
+      "titre": "National Centre for Arts and Culture — accueil",
+      "institution": "National Centre for Arts and Culture (NCAC), Gambie",
+      "url": "https://ncac.gm/",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S57",
+      "titre": "Keeper of an ancient tradition is making history",
+      "institution": "Mail & Guardian",
+      "url": "http://mg.co.za/article/2014-03-27-keeper-of-an-ancient-tradition-is-making-history",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2014
+    },
+    {
+      "id": "S58",
+      "titre": "A Tribute To Jali Foday Susso: Custodian Of The Kora, Voice Of Manding, Pride Of The Gambia",
+      "institution": "The Standard (Banjul)",
+      "url": "https://standard.gm/a-tribute-to-jali-foday-susso-custodian-of-the-kora-voice-of-manding-pride-of-the-gambia/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "auteur": "Ebrima Jaiteh",
+      "annee": 2025
+    },
+    {
+      "id": "S59",
+      "titre": "Kora (89.4.498) — The Metropolitan Museum of Art",
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "url": "https://www.metmuseum.org/art/collection/search/501115",
+      "type": "musee",
+      "licence": "CC0 (Open Access)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S60",
+      "titre": "Arts & Crafts in Gambia — Access Gambia",
+      "institution": "Access Gambia (portail d'information touristique)",
+      "url": "https://www.accessgambia.com/information/arts-and-crafts.html",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S61",
+      "titre": "Gambian Peanut Butter Stew Recipe - Domoda — Access Gambia",
+      "institution": "Access Gambia (portail d'information touristique)",
+      "url": "https://www.accessgambia.com/information/domoda-peanut-stew.html",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S62",
+      "titre": "Jollof Rice (Benachin) - How to Cook — Access Gambia",
+      "institution": "Access Gambia (portail d'information touristique)",
+      "url": "https://www.accessgambia.com/information/jollof-rice-benachin.html",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S63",
+      "titre": "Edward Francis Small - Watchdog of The Gambia",
+      "institution": "The Point (Banjul)",
+      "url": "http://thepoint.gm/africa/gambia/article/edward-francis-small-watchdog-of-the-gambia-nana-grey-johnson-the-profile-of-a-great-gambian-patriot",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2014
+    },
+    {
+      "id": "S64",
+      "titre": "Edward Francis Small — Wikidata Q5342993",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q5342993",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S65",
+      "titre": "The Gambia's first president, Dawda Jawara, dies aged 95",
+      "institution": "Africanews",
+      "url": "https://www.africanews.com/2019/08/27/the-gambia-s-first-president-dawda-jawara-dies-aged-95-official/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2019
+    },
+    {
+      "id": "S66",
+      "titre": "Dawda Jawara — Wikidata Q312716",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q312716",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S67",
+      "titre": "Africa's Fatou Bensouda is new ICC chief prosecutor",
+      "institution": "BBC News",
+      "url": "https://www.bbc.com/news/world-africa-16029121",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "auteur": "Farouk Chothia"
+    },
+    {
+      "id": "S68",
+      "titre": "Gambia's Fatou Bensouda sworn in as ICC prosecutor",
+      "institution": "BBC News",
+      "url": "https://www.bbc.co.uk/news/world-africa-18455498",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S69",
+      "titre": "Fatou Bensouda — doctorat honoris causa",
+      "institution": "Vrije Universiteit Brussel",
+      "url": "https://www.vub.be/en/person/fatou-bensouda",
+      "type": "universite",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S70",
+      "titre": "Fatou Bensouda — Wikidata Q508482",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q508482",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S71",
+      "titre": "Sona Jobarteh — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Sona_Jobarteh",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S72",
+      "titre": "Sona Jobarteh — Wikidata Q773793",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q773793",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S73",
+      "titre": "Foday Musa Suso — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Foday_Musa_Suso",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S74",
+      "titre": "Foday Musa Suso — Wikidata Q1435087",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q1435087",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S75",
+      "titre": "Personality of the Week: Jaliba Kuyateh who turned Gambia's Kora music into modern sound",
+      "institution": "The Point (Banjul)",
+      "url": "https://thepoint.gm/africa/gambia/article/personality-of-the-week-jaliba-kuyateh-who-turned-gambias-kora-music-into-modern-sound",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "auteur": "Lamin B. Darboe",
+      "annee": 2012
+    },
+    {
+      "id": "S76",
+      "titre": "Jaliba Kuyateh — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Jaliba_Kuyateh",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S77",
+      "titre": "Jaliba Kuyateh — Wikidata Q18377881",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q18377881",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S78",
+      "titre": "How a small African recycling project tackles a mountainous rubbish problem",
+      "institution": "The Guardian",
+      "url": "https://www.theguardian.com/lifeandstyle/2014/may/01/small-african-recycling-project-tackling-mountainous-rubbish-problem",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "auteur": "Mike Webster",
+      "annee": 2014
+    },
+    {
+      "id": "S79",
+      "titre": "Isatou Ceesay — Wikidata Q73130258",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q73130258",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S80",
+      "titre": "Adieu Lenrie Peters",
+      "institution": "The Point (Banjul)",
+      "url": "http://thepoint.gm/africa/gambia/article/adieu-lenrie-peters",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2009
+    },
+    {
+      "id": "S81",
+      "titre": "Lenrie Peters — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Lenrie_Peters",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S82",
+      "titre": "Lenrie Peters — Wikidata Q576088",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q576088",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S83",
+      "titre": "Attacks on the Press 2009: Gambia",
+      "institution": "Committee to Protect Journalists",
+      "url": "http://www.cpj.org/2010/02/attacks-on-the-press-2009-gambia.php",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2010
+    },
+    {
+      "id": "S84",
+      "titre": "Deyda Hydara — Wikidata Q1207263",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q1207263",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S85",
+      "titre": "Gambia Ministers — Guide to Women Leaders",
+      "institution": "Guide2WomenLeaders",
+      "url": "https://www.guide2womenleaders.com/Gambia.htm",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S86",
+      "titre": "Satang Jow — Wikidata Q411841",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q411841",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S87",
+      "titre": "Spotlight on Ndey Tapha Sosseh, President, Gambia Press Union",
+      "institution": "The Point (Banjul)",
+      "url": "https://thepoint.gm/africa/gambia/article/spotlight-on-ndey-tapha-sosseh-president-gambia-press-union",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2009
+    },
+    {
+      "id": "S88",
+      "titre": "Ndey Tapha Sosseh — Wikidata Q1439231",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q1439231",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S89",
+      "titre": "Gambia's Isatou Touray Bags Jeane J. Kirkpatrick Award",
+      "institution": "Pan African Visions",
+      "url": "https://www.panafricanvisions.com/2017/gambias-isatou-touray-bags-jeane-j-kirkpatrick-award/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2017
+    },
+    {
+      "id": "S90",
+      "titre": "Isatou Touray — Wikidata Q27541581",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q27541581",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S91",
+      "titre": "Fatoumata Jallow-Tambajang — Wikidata Q1398236",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q1398236",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S92",
+      "titre": "Tijan Sallah",
+      "institution": "Poetry Foundation",
+      "url": "https://www.poetryfoundation.org/poets/tijan-sallah",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S93",
+      "titre": "Tijan Sallah — Wikidata Q7801806",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q7801806",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S94",
+      "titre": "Gina Bass — Olympedia",
+      "institution": "Olympedia",
+      "url": "https://www.olympedia.org/athletes/130195",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S95",
+      "titre": "Gina Bass — Wikidata Q24951757",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q24951757",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S96",
+      "titre": "Ex-President Yahya Jammeh leaves The Gambia after losing election",
+      "institution": "BBC News",
+      "url": "https://www.bbc.com/news/world-africa-38706426",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S97",
+      "titre": "Gambia's new President Adama Barrow arrives home",
+      "institution": "BBC News",
+      "url": "https://www.bbc.com/news/world-africa-38755897",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S98",
+      "titre": "Gambia elections: Adama Barrow declared presidential election winner",
+      "institution": "BBC News",
+      "url": "https://www.bbc.com/news/world-africa-59542813",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S99",
+      "titre": "Adama Barrow — Wikidata Q27917049",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q27917049",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S100",
+      "titre": "Gambia Colonial System of Administration in Government — Access Gambia",
+      "institution": "Access Gambia (portail d'information touristique)",
+      "url": "https://www.accessgambia.com/information/colonial-government.html",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S101",
+      "titre": "Fort Bullen — Wikidata Q1438468",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q1438468",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S102",
+      "titre": "The Senegambia Confederation agreement",
+      "institution": "Gambia.dk (archive)",
+      "url": "http://www.gambia.dk/senegambia_confederation.html",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S103",
+      "titre": "The Gambia v. Myanmar — Institution of proceedings",
+      "institution": "Cour internationale de justice",
+      "url": "https://www.icj-cij.org/case/178/institution-proceedings",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S104",
+      "titre": "The Gambia v. Myanmar — Application of the Convention on the Prevention and Punishment of the Crime of Genocide",
+      "institution": "Cour internationale de justice",
+      "url": "https://www.icj-cij.org/case/178",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S105",
+      "titre": "Hoddu (Xalam) (89.4.473) — The Metropolitan Museum of Art",
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "url": "https://www.metmuseum.org/art/collection/search/501091",
+      "type": "musee",
+      "licence": "CC0 (Open Access)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S106",
+      "titre": "Roots: The Saga of an American Family — Wikipedia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://en.wikipedia.org/wiki/Roots:_The_Saga_of_an_American_Family",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S107",
+      "titre": "Wit and wisdom from West Africa; or, A book of proverbial philosophy, idioms, enigmas, and laconisms",
+      "institution": "Internet Archive (numérisation Google)",
+      "url": "https://archive.org/details/witandwisdomfro00burtgoog",
+      "type": "livre",
+      "licence": "domaine public",
+      "consulte_le": "2026-11-21",
+      "auteur": "Richard Francis Burton",
+      "annee": 1865
+    }
+  ]
+}

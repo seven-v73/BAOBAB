@@ -1,0 +1,4214 @@
+{
+  "code": "GW",
+  "nom": "Guinée-Bissau",
+  "region": "ouest",
+  "wikidata": "Q1007",
+  "maj": "2026-11-21",
+  "pays": {
+    "nom_officiel": "République de Guinée-Bissau",
+    "capitale": "Bissau",
+    "langues_officielles": [
+      "portugais"
+    ],
+    "langues_nationales": [
+      "créole bissau-guinéen (kriol, langue véhiculaire)"
+    ],
+    "population": {
+      "valeur": 2249515,
+      "annee": 2025,
+      "source": "S1"
+    },
+    "superficie_km2": 36125,
+    "monnaie": "Franc CFA (XOF, UEMOA)",
+    "resume": "La Guinée-Bissau est un petit pays de la côte atlantique de l'Afrique de l'Ouest, entre le Sénégal au nord et la Guinée à l'est et au sud. Son littoral de mangroves, ses rivières à marées et son archipel des Bijagós ont façonné des sociétés de riziculteurs, de pêcheurs, d'éleveurs et de commerçants : Balante, Manjak, Papel, Bijogo, Peul, Mandingue, Biafada, Nalu et bien d'autres, qui parlent des langues atlantiques ou mandées. Au XIIIe siècle, des Mandingues venus de l'empire du Mali fondent le Kaabu, tandis que les comptoirs portugais de la côte, de Cacheu à Bissau, relient la région au commerce atlantique et à la traite. Territoire colonial portugais, le pays mène de 1963 à 1974 une guerre de libération conduite par le PAIGC d'Amílcar Cabral et devient indépendant en 1974. Le portugais est la langue officielle, mais c'est le créole, le kriol, qui circule partout, dans la rue comme dans la chanson. L'inscription de l'archipel des Bijagós au patrimoine mondial de l'UNESCO en 2025 met en lumière à la fois une biodiversité marine exceptionnelle et les traditions des communautés qui y vivent.",
+    "sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7",
+      "S8",
+      "S9"
+    ],
+    "note": "Superficie : 36 125 km² (Banque mondiale, 2022, surface totale) ; Encyclopedia.com et Wikipédia donnent 36 120 km². Statut des langues : le portugais est la langue officielle ; Glottolog décrit le créole comme langue véhiculaire principale et langue d'identité nationale de fait, Wikipédia (fr) comme langue régionale reconnue : à trancher par l'expert."
+  },
+  "langues": [
+    {
+      "id": "GW-langue-portugais",
+      "nom": "Portugais",
+      "description": "Le portugais est la langue officielle de la Guinée-Bissau, héritée de la période coloniale. Il est la langue de l'administration, des textes de loi et de l'enseignement, mais il reste minoritaire comme langue maternelle, loin derrière le kriol dans l'usage quotidien. Glottolog le classe parmi les langues dotées d'un statut national légal (Constitution).",
+      "famille": "indo-européenne (romane)",
+      "glottocode": "port1283",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "sources": [
+        "S9",
+        "S3",
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "Português",
+      "wikidata": "Q5146",
+      "ecritures": [
+        "latin"
+      ]
+    },
+    {
+      "id": "GW-langue-kriol",
+      "nom": "Créole bissau-guinéen (kriol)",
+      "description": "Le kriol est la langue véhiculaire du pays : des locuteurs de langues très différentes l'emploient pour se comprendre, au marché, en politique et dans la chanson. Il s'est formé au contact du portugais et des langues africaines de la côte, et fait partie des plus anciens créoles de la région selon Wikipédia. Glottolog le décrit comme langue d'identité nationale de fait, sans reconnaissance officielle à l'égal du portugais.",
+      "famille": "créole à base lexicale portugaise (Upper Guinea Crioulo)",
+      "glottocode": "uppe1455",
+      "statut_linguistique": [
+        "véhiculaire",
+        "nationale"
+      ],
+      "sources": [
+        "S8",
+        "S11",
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Statut exact (nationale, régionale reconnue) à confirmer ; voir la note de la rubrique pays."
+      },
+      "nom_local": "Kriol / Crioulo",
+      "wikidata": "Q33339",
+      "ecritures": [
+        "latin"
+      ]
+    },
+    {
+      "id": "GW-langue-balante",
+      "nom": "Balante (balanta-kentohe)",
+      "description": "Le balante est la langue du peuple balante, dont les communautés se trouvent surtout au centre et au sud du pays. Glottolog distingue plusieurs variétés (kentohe, naga, fora, mane) et l'évalue comme menacée à long terme malgré le nombre de locuteurs. ",
+      "famille": "langues atlantiques (famille Atlantic-Congo) (groupe bak)",
+      "glottocode": "bala1301",
+      "statut_linguistique": [
+        "minoritaire",
+        "menacée"
+      ],
+      "sources": [
+        "S12",
+        "S10",
+        "S13",
+        "S14"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Effectif de 1988 repris de Wikipédia (fr), non recoupé avec une source primaire : à actualiser."
+      },
+      "wikidata": "Q56789",
+      "regions": [
+        "centre",
+        "sud"
+      ],
+      "locuteurs": {
+        "valeur": 254000,
+        "annee": 1988,
+        "source": "S10"
+      }
+    },
+    {
+      "id": "GW-langue-peul",
+      "nom": "Peul (pular)",
+      "description": "Le peul est parlé par les communautés peules, éleveurs et commerçants installés surtout dans le nord et l'est du pays. Le glottocode retenu ici est celui du pular de Glottolog ; les variétés peules effectivement parlées en Guinée-Bissau restent à préciser. La langue s'écrit en alphabet latin et en adlam, comme le montre l'infobox de Wikipédia.",
+      "famille": "langues atlantiques (famille Atlantic-Congo) (groupe fula-sereer)",
+      "glottocode": "pula1262",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S15",
+        "S10",
+        "S3",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Effectif de 1988 repris de Wikipédia (fr), non recoupé avec une source primaire : à actualiser. Variété exacte (pular, pulaar, fulakunda…) à confirmer."
+      },
+      "wikidata": "Q3915357",
+      "regions": [
+        "nord",
+        "est"
+      ],
+      "ecritures": [
+        "latin",
+        "adlam"
+      ],
+      "locuteurs": {
+        "valeur": 169000,
+        "annee": 1988,
+        "source": "S10"
+      }
+    },
+    {
+      "id": "GW-langue-mandinka",
+      "nom": "Mandingue (mandinka)",
+      "description": "Le mandinka, ou mandingue, est la langue des communautés mandingues, héritières du Kaabu et en grande partie musulmanes. Il appartient à la famille mandée, distincte des langues atlantiques majoritaires dans le pays. Il s'écrit en latin et en n'ko, ce dernier apparaissant sur l'infobox de Wikipédia.",
+      "famille": "mandé (mandé occidental, mandingue)",
+      "glottocode": "mand1436",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S16",
+        "S10",
+        "S3",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Effectif de 1988 repris de Wikipédia (fr), non recoupé avec une source primaire : à actualiser."
+      },
+      "wikidata": "Q33678",
+      "ecritures": [
+        "latin",
+        "n'ko"
+      ],
+      "locuteurs": {
+        "valeur": 96000,
+        "annee": 1988,
+        "source": "S10"
+      }
+    },
+    {
+      "id": "GW-langue-manjak",
+      "nom": "Manjak (mandjak)",
+      "description": "Le manjak est la langue des Manjak, riziculteurs du littoral nord-ouest, autour de Bassarel et de Babok. Il est proche du papel et du mancagne au sein du groupe bak. Glottolog le classe parmi les langues menacées.",
+      "famille": "langues atlantiques (famille Atlantic-Congo) (groupe bak, manjaku-mankanya-pepel)",
+      "glottocode": "mand1419",
+      "statut_linguistique": [
+        "minoritaire",
+        "menacée"
+      ],
+      "sources": [
+        "S17",
+        "S10",
+        "S18"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Effectif de 1988 repris de Wikipédia (fr), non recoupé avec une source primaire : à actualiser."
+      },
+      "wikidata": "Q35822",
+      "regions": [
+        "Cacheu",
+        "nord-ouest"
+      ],
+      "locuteurs": {
+        "valeur": 118000,
+        "annee": 1988,
+        "source": "S10"
+      }
+    },
+    {
+      "id": "GW-langue-papel",
+      "nom": "Papel (pepel)",
+      "description": "Le papel est la langue des Papel, établis autour de Bissau et sur la côte. Il est étroitement apparenté au manjak dans la classification de Glottolog. Son statut y est qualifié de menacé.",
+      "famille": "langues atlantiques (famille Atlantic-Congo) (groupe bak, manjaku-mankanya-pepel)",
+      "glottocode": "pape1239",
+      "statut_linguistique": [
+        "minoritaire",
+        "menacée"
+      ],
+      "sources": [
+        "S19",
+        "S10",
+        "S20"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Effectif de 1988 repris de Wikipédia (fr), non recoupé avec une source primaire : à actualiser."
+      },
+      "wikidata": "Q36314",
+      "regions": [
+        "Bissau",
+        "littoral"
+      ],
+      "locuteurs": {
+        "valeur": 59000,
+        "annee": 1988,
+        "source": "S10"
+      }
+    },
+    {
+      "id": "GW-langue-mancagne",
+      "nom": "Mancagne (mankanya)",
+      "description": "Le mancagne est une petite langue, voisine du manjak et du papel. Glottolog en fait une langue menacée, et Wikipédia (fr) reprend un effectif de 25 000 locuteurs en 1988.",
+      "famille": "langues atlantiques (famille Atlantic-Congo) (groupe bak, manjaku-mankanya-pepel)",
+      "glottocode": "mank1251",
+      "statut_linguistique": [
+        "minoritaire",
+        "menacée"
+      ],
+      "sources": [
+        "S21",
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Effectif de 1988 repris de Wikipédia (fr), non recoupé avec une source primaire : à actualiser."
+      },
+      "wikidata": "Q35789",
+      "locuteurs": {
+        "valeur": 25000,
+        "annee": 1988,
+        "source": "S10"
+      }
+    },
+    {
+      "id": "GW-langue-biafada",
+      "nom": "Biafada",
+      "description": "Le biafada est la langue des Biafada, installés dans le centre-sud du pays, notamment dans la région de Quinara, autour de l'ancien royaume de Kinara. Il appartient au groupe jaad, avec le badiaranké. Glottolog le classe comme langue menacée.",
+      "famille": "langues atlantiques (famille Atlantic-Congo) (groupe jaad)",
+      "glottocode": "biaf1240",
+      "statut_linguistique": [
+        "minoritaire",
+        "menacée"
+      ],
+      "sources": [
+        "S22",
+        "S10",
+        "S23"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Effectif de 1988 repris de Wikipédia (fr), non recoupé avec une source primaire : à actualiser."
+      },
+      "wikidata": "Q35099",
+      "regions": [
+        "Quinara",
+        "Tombali"
+      ],
+      "locuteurs": {
+        "valeur": 18000,
+        "annee": 1988,
+        "source": "S10"
+      }
+    },
+    {
+      "id": "GW-langue-bijogo",
+      "nom": "Bijogo (bidyogo)",
+      "description": "Le bijogo est parlé dans l'archipel des Bijagós, où chaque île a ses propres parlers. Il forme une branche à part au sein des langues atlantiques. Christine Henry en situe les locuteurs autour de 16 000 personnes.",
+      "famille": "langues atlantiques (famille Atlantic-Congo) (branche bijogo)",
+      "glottocode": "bidy1244",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S24",
+        "S10",
+        "S25"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Effectif de 1988 repris de Wikipédia (fr), non recoupé avec une source primaire : à actualiser."
+      },
+      "wikidata": "Q35365",
+      "regions": [
+        "archipel des Bijagós"
+      ],
+      "locuteurs": {
+        "valeur": 16000,
+        "annee": 1988,
+        "source": "S10"
+      }
+    },
+    {
+      "id": "GW-langue-bayot",
+      "nom": "Bayot",
+      "description": "Le bayot est une langue rattachée au groupe jola, que Glottolog classe parmi les langues menacées. Wikipédia (fr) lui attribue environ 5 000 locuteurs en 1988 (sous la forme « baïote »).",
+      "famille": "langues atlantiques (famille Atlantic-Congo) (groupe bak, jola)",
+      "glottocode": "bayo1255",
+      "statut_linguistique": [
+        "minoritaire",
+        "menacée"
+      ],
+      "sources": [
+        "S26",
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Effectif de 1988 repris de Wikipédia (fr), non recoupé avec une source primaire : à actualiser."
+      },
+      "wikidata": "Q35019",
+      "locuteurs": {
+        "valeur": 5000,
+        "annee": 1988,
+        "source": "S10"
+      }
+    },
+    {
+      "id": "GW-langue-nalu",
+      "nom": "Nalu",
+      "description": "Le nalu est la langue des Nalu, population du sud du littoral, répartie entre la Guinée-Bissau et la Guinée. Glottolog le classe comme menacé. Wikipédia (fr) cite 8 830 locuteurs en Guinée-Bissau en 2006.",
+      "famille": "langues atlantiques (famille Atlantic-Congo) (groupe nalu)",
+      "glottocode": "nalu1240",
+      "statut_linguistique": [
+        "minoritaire",
+        "menacée"
+      ],
+      "sources": [
+        "S27",
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Effectif de 2006 (Wikipédia fr, 8 830 locuteurs en Guinée-Bissau) non repris dans le champ locuteurs."
+      },
+      "wikidata": "Q36026",
+      "regions": [
+        "sud"
+      ]
+    },
+    {
+      "id": "GW-langue-mansoanka",
+      "nom": "Mansoanka",
+      "description": "Le mansoanka est une langue minoritaire, de moins de dix mille locuteurs selon Wikipédia (fr, chiffre de 1988). Glottolog le rattache à la grande famille Atlantic-Congo sans en préciser davantage la branche.",
+      "famille": "Atlantic-Congo (classement détaillé non précisé par Glottolog)",
+      "glottocode": "mans1259",
+      "statut_linguistique": [
+        "minoritaire",
+        "menacée"
+      ],
+      "sources": [
+        "S29",
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Effectif de 1988 repris de Wikipédia (fr), non recoupé avec une source primaire : à actualiser."
+      },
+      "wikidata": "Q35814",
+      "locuteurs": {
+        "valeur": 9000,
+        "annee": 1988,
+        "source": "S10"
+      }
+    },
+    {
+      "id": "GW-langue-cobiana",
+      "nom": "Cobiana (kobiana)",
+      "description": "Le cobiana est une très petite langue, parlée par quelques centaines de personnes selon Wikipédia (fr, chiffre de 1988). Glottolog signale un changement de langue en cours chez ses locuteurs.",
+      "famille": "langues atlantiques (famille Atlantic-Congo) (groupe nyun, buy)",
+      "glottocode": "kobi1241",
+      "statut_linguistique": [
+        "minoritaire",
+        "menacée"
+      ],
+      "sources": [
+        "S30",
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Effectif de 1988 repris de Wikipédia (fr), non recoupé avec une source primaire : à actualiser."
+      },
+      "wikidata": "Q35609",
+      "locuteurs": {
+        "valeur": 300,
+        "annee": 1988,
+        "source": "S10"
+      }
+    },
+    {
+      "id": "GW-langue-kassanga",
+      "nom": "Kassanga (kasanga)",
+      "description": "Le kassanga est une langue quasi éteinte, apparentée au cobiana. Wikipédia (fr) lui attribue environ 400 locuteurs en 1988, et Glottolog le qualifie de presque éteint.",
+      "famille": "langues atlantiques (famille Atlantic-Congo) (groupe nyun, buy)",
+      "glottocode": "kasa1248",
+      "statut_linguistique": [
+        "minoritaire",
+        "menacée"
+      ],
+      "sources": [
+        "S31",
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Effectif de 1988 repris de Wikipédia (fr), non recoupé avec une source primaire : à actualiser."
+      },
+      "wikidata": "Q35542",
+      "locuteurs": {
+        "valeur": 400,
+        "annee": 1988,
+        "source": "S10"
+      }
+    },
+    {
+      "id": "GW-langue-soninke",
+      "nom": "Soninké",
+      "description": "Le soninké est une langue mandée, historiquement liée aux commerçants de longue distance du Sahel que décrit l'article d'histoire de Wikipédia (fr). Wikipédia (fr) lui attribue environ 2 000 locuteurs en 1988. Il appartient à la même grande famille que le mandinka.",
+      "famille": "mandé (mandé nord-occidental)",
+      "glottocode": "soni1259",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S32",
+        "S10",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Effectif de 1988 repris de Wikipédia (fr), non recoupé avec une source primaire : à actualiser."
+      },
+      "wikidata": "Q36660",
+      "locuteurs": {
+        "valeur": 2000,
+        "annee": 1988,
+        "source": "S10"
+      }
+    },
+    {
+      "id": "GW-langue-badiaranke",
+      "nom": "Badiaranké",
+      "description": "Le badiaranké (jaad-badyara) appartient au même groupe que le biafada. Wikipédia (fr) la range parmi les langues non officielles du pays. Glottolog en fait une langue menacée.",
+      "famille": "langues atlantiques (famille Atlantic-Congo) (groupe jaad)",
+      "glottocode": "bady1239",
+      "statut_linguistique": [
+        "minoritaire",
+        "menacée"
+      ],
+      "sources": [
+        "S33",
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q35095"
+    },
+    {
+      "id": "GW-langue-bassari",
+      "nom": "Bassari-Tanda",
+      "description": "Le bassari-tanda est parlé en Guinée-Bissau par les Tanda de la région de Tombali, un groupe de Bassari étudié par Monique Gessain. Il appartient au groupe tenda, ce qui le rapproche des Bassari et des Bedik du Sénégal oriental. Glottolog le classe comme menacé.",
+      "famille": "langues atlantiques (famille Atlantic-Congo) (groupe tenda)",
+      "glottocode": "bass1258",
+      "statut_linguistique": [
+        "minoritaire",
+        "menacée"
+      ],
+      "sources": [
+        "S34",
+        "S35"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q35098",
+      "regions": [
+        "Tombali"
+      ]
+    },
+    {
+      "id": "GW-langue-ejamat",
+      "nom": "Ejamat (diola-felupe)",
+      "description": "L'ejamat est la langue des Ajamat, souvent appelés Diola ou Felupe, dans le nord-ouest du pays, à la frontière de la Casamance. André Julliard a étudié les pratiques d'éducation des enfants chez les Diola Ajamat de Guinée-Bissau. Glottolog classe la langue comme menacée.",
+      "famille": "langues atlantiques (famille Atlantic-Congo) (groupe bak, jola)",
+      "glottocode": "ejam1238",
+      "statut_linguistique": [
+        "minoritaire",
+        "menacée"
+      ],
+      "sources": [
+        "S36",
+        "S37",
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q6269820",
+      "regions": [
+        "nord-ouest"
+      ]
+    }
+  ],
+  "peuples": [
+    {
+      "id": "GW-peuple-balante",
+      "nom": "Balante",
+      "description": "Les Balante forment l'une des plus importantes communautés du pays et vivent surtout au centre et au sud. Ils sont réputés pour la riziculture de bolanha, ces rizières gagnées sur la mangrove. Leur société repose sur une organisation par classes d'âge et sur le conseil des anciens, sans pouvoir central fort, et elle accueille volontiers de nouveaux venus. Encyclopedia.com estimait en 2005 leur part à environ 30 % de la population africaine du pays, Wikipédia (fr) à 25 % ; ces estimations varient selon les sources.",
+      "langues": [
+        "balante"
+      ],
+      "regions": [
+        "centre",
+        "sud",
+        "Oio"
+      ],
+      "sources": [
+        "S3",
+        "S13",
+        "S14",
+        "S39",
+        "S12",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": [
+        "SN",
+        "GM"
+      ],
+      "organisation": "Société organisée par classes d'âge, avec un conseil des anciens et une initiation des hommes ; pas de royauté centralisée selon l'article de Wikipédia (fr) sur l'histoire.",
+      "activites": [
+        "riziculture de bolanha",
+        "élevage",
+        "fêtes de deuil, d'initiation et de récolte"
+      ],
+      "sensible": true,
+      "note_sensibilite": "La mention de l'initiation et des cérémonies est générale ; les savoirs initiatiques ne sont pas décrits et leur présentation relève des communautés concernées."
+    },
+    {
+      "id": "GW-peuple-peul",
+      "nom": "Peul (Fula)",
+      "description": "Les Peuls sont installés surtout dans le nord et l'est du pays, où ils pratiquent l'élevage et le commerce, et ils sont majoritairement musulmans. Au XIXe siècle, les Peuls du Fouladou, soutenus par le Fouta-Djalon, jouent un rôle décisif dans la chute du Kaabu en 1867. Encyclopedia.com estimait en 2005 leur part à environ 20 % de la population.",
+      "langues": [
+        "peul (pular)"
+      ],
+      "regions": [
+        "nord",
+        "est"
+      ],
+      "sources": [
+        "S3",
+        "S7",
+        "S40",
+        "S15"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": [
+        "SN",
+        "GN",
+        "GM"
+      ],
+      "activites": [
+        "élevage",
+        "commerce"
+      ]
+    },
+    {
+      "id": "GW-peuple-manjak",
+      "nom": "Manjak (Mandjak, Manjaco)",
+      "description": "Les Manjak vivent sur le littoral nord-ouest, dans la région de Cacheu, où leurs anciens royaumes (Bassarel, Babok) vivaient de la riziculture, du vin et de l'huile de palme. Les femmes y jouent un rôle actif dans les cultes de divination et de soins, comme le kasara. Une partie de la communauté a émigré au Sénégal et en Europe. Les tissus tissés manjak, appelés sër-u-rabbal ou njaago, sont conservés dans des musées.",
+      "langues": [
+        "manjak"
+      ],
+      "regions": [
+        "Cacheu",
+        "Bassarel",
+        "Babok"
+      ],
+      "sources": [
+        "S18",
+        "S41",
+        "S42",
+        "S43",
+        "S17"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": [
+        "SN",
+        "GM"
+      ],
+      "organisation": "Royaumes littoraux selon l'ethnologie citée ; les chefferies ont été remodelées par la colonisation puis par l'indépendance (Wikipédia en).",
+      "activites": [
+        "riziculture",
+        "récolte du vin et de l'huile de palme",
+        "tissage"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Les cultes manjak (kasara, kabuatã) relèvent de savoirs rituels ; la description reste volontairement générale."
+    },
+    {
+      "id": "GW-peuple-mandingue",
+      "nom": "Mandingue (Mandinka)",
+      "description": "Les Mandingues sont les héritiers des Malinké venus de l'empire du Mali, qui ont fondé le Kaabu à partir du XIIIe siècle, à l'est du pays. Ils sont en grande partie musulmans et sont liés à des traditions de griots, de kora et de balafon. Encyclopedia.com estimait leur part à environ 13 % de la population en 2005.",
+      "langues": [
+        "mandinka"
+      ],
+      "regions": [
+        "est",
+        "nord-est (ancien Kaabu)"
+      ],
+      "sources": [
+        "S3",
+        "S40",
+        "S7",
+        "S44",
+        "S16"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": [
+        "SN",
+        "GM"
+      ],
+      "activites": [
+        "commerce",
+        "musique de griots (kora, balafon)"
+      ]
+    },
+    {
+      "id": "GW-peuple-papel",
+      "nom": "Papel (Pepel)",
+      "description": "Les Papel vivent sur le littoral, en particulier dans l'île de Bissau et ses environs, où se trouve la capitale. Leurs clans sont rattachés, selon la tradition orale rapportée par Wikipédia (en), à un ancêtre fondateur venu du royaume de Quinara. Leur langue, le papel, est proche du manjak. Encyclopedia.com estimait en 2005 leur part à environ 7 % de la population.",
+      "langues": [
+        "papel"
+      ],
+      "regions": [
+        "Bissau",
+        "littoral"
+      ],
+      "sources": [
+        "S3",
+        "S45",
+        "S20",
+        "S19",
+        "S46"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": [
+        "SN",
+        "GN"
+      ],
+      "organisation": "Clans et seigneuries au sein de petits royaumes, d'après Wikipédia (fr, article d'histoire).",
+      "activites": [
+        "agriculture",
+        "riziculture"
+      ]
+    },
+    {
+      "id": "GW-peuple-bijogo",
+      "nom": "Bijogo (Bijago)",
+      "description": "Les Bijogo vivent dans l'archipel des Bijagós, où chaque île forme une communauté autonome. Chez les Aňaki de Canhabaque, la filiation est matrilinéaire et un système de classes d'âge, avec initiations, organise la vie sociale. Ils furent de grands navigateurs de pirogues, aujourd'hui surtout agriculteurs de riz pluvial et exploitants du palmier à huile. L'UNESCO reconnaît la gestion traditionnelle des ressources par les communautés dans la conservation de l'archipel.",
+      "langues": [
+        "bijogo"
+      ],
+      "regions": [
+        "archipel des Bijagós",
+        "Canhabaque",
+        "Orango",
+        "Bubaque"
+      ],
+      "sources": [
+        "S25",
+        "S47",
+        "S48",
+        "S6",
+        "S49",
+        "S24"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "organisation": "Villages indépendants, filiation matrilinéaire, classes d'âge masculines et féminines (Aňaki de Canhabaque) ; cf. Henry (1995).",
+      "activites": [
+        "culture du riz pluvial",
+        "exploitation du palmier à huile",
+        "pêche",
+        "navigation en pirogue (pratique ancienne)"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Les initiations et les figures d'ancêtres sont des savoirs rituels : la description reste générale et attend la relecture d'une institution ou communauté partenaire."
+    },
+    {
+      "id": "GW-peuple-biafada",
+      "nom": "Biafada (Beafada)",
+      "description": "Les Biafada vivent surtout dans la région de Quinara et dans le sud, avec des groupes sur la rive nord du Geba. Ils sont associés à l'ancien royaume de Kinara et au commerce avec les comptoirs européens. Ils sont aujourd'hui majoritairement musulmans, avec des pratiques qui mêlent islam et croyances locales selon Wikipédia (en).",
+      "langues": [
+        "biafada"
+      ],
+      "regions": [
+        "Quinara",
+        "Tombali",
+        "rive nord du Geba"
+      ],
+      "sources": [
+        "S23",
+        "S7",
+        "S22"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": [
+        "SN",
+        "GM"
+      ]
+    },
+    {
+      "id": "GW-peuple-nalu",
+      "nom": "Nalu",
+      "description": "Les Nalu sont installés dans le sud du littoral, de part et d'autre de la frontière avec la Guinée. Walter Rodney les range, selon Wikipédia (en), parmi les populations arrivées avant les Mandé. Le territoire nalu a longtemps séparé le royaume biafada de Kinara des Landuma d'après l'article d'histoire de Wikipédia (fr).",
+      "langues": [
+        "nalu"
+      ],
+      "regions": [
+        "sud"
+      ],
+      "sources": [
+        "S50",
+        "S28",
+        "S7",
+        "S27"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": [
+        "GN"
+      ]
+    },
+    {
+      "id": "GW-peuple-felupe-diola",
+      "nom": "Felupe-Diola (Ajamat)",
+      "description": "Les Ajamat, appelés Diola ou Felupe, vivent dans le nord-ouest, au contact de la Casamance. Ils sont connus pour leur riziculture en rizières inondées et pour une organisation sociale peu hiérarchisée. L'article de Wikipédia (en) sur les Jola signale que la majorité d'entre eux sont aujourd'hui musulmans, tout en conservant des cultes et des rites propres.",
+      "langues": [
+        "ejamat"
+      ],
+      "regions": [
+        "nord-ouest",
+        "frontière avec la Casamance"
+      ],
+      "sources": [
+        "S38",
+        "S37",
+        "S36",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": [
+        "SN",
+        "GM"
+      ],
+      "activites": [
+        "riziculture"
+      ]
+    },
+    {
+      "id": "GW-peuple-tanda",
+      "nom": "Tanda (groupe bassari)",
+      "description": "Les Tanda de Tombali sont un groupe de Bassari établi en Guinée-Bissau, dans la région de Tombali. L'ethnologue Monique Gessain retrace leur présence dans cette région à partir des témoignages du XIXe siècle. Ils appartiennent à l'ensemble tenda, dont d'autres communautés vivent au Sénégal et en Guinée.",
+      "langues": [
+        "bassari-tanda"
+      ],
+      "regions": [
+        "Tombali"
+      ],
+      "sources": [
+        "S35",
+        "S34"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": [
+        "SN",
+        "GN"
+      ]
+    },
+    {
+      "id": "GW-peuple-bainouk",
+      "nom": "Baïnouk",
+      "description": "Les Baïnouk comptent parmi les populations les plus anciennes de la région, et leur royaume de Mampatim a été vaincu par les armées mandingues au XIIIe siècle. Leur société est matrilinéaire et organisée par classes d'âge. Une partie de leur histoire passe aujourd'hui par la tradition orale.",
+      "langues": [
+        "baïnouk"
+      ],
+      "regions": [
+        "nord-est"
+      ],
+      "sources": [
+        "S51",
+        "S7",
+        "S52",
+        "S40"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": [
+        "SN",
+        "GM"
+      ],
+      "organisation": "Société matrilinéaire, classes d'âge et initiation selon Wikipédia (fr)."
+    },
+    {
+      "id": "GW-peuple-creole-capverdienne",
+      "nom": "Communauté créole d'origine capverdienne",
+      "description": "Depuis la période coloniale, une population d'origine capverdienne et créole vit dans les villes de Bissau et dans d'anciens comptoirs. Encyclopedia.com l'estimait à environ 2 % de la population vers 2005 et rappelle que l'influence politique et commerciale de ce groupe a pesé dans les tensions de 1980. Amílcar Cabral, fils de parents capverdiens nés à Santiago, en est un représentant historique.",
+      "langues": [
+        "kriol",
+        "portugais"
+      ],
+      "regions": [
+        "Bissau",
+        "Bolama",
+        "Bafatá"
+      ],
+      "sources": [
+        "S3",
+        "S53",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": [
+        "CV"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet lié à la politique de 1980 ; présentation neutre, à relire par un expert."
+    }
+  ],
+  "sites": [
+    {
+      "id": "GW-site-bijagos",
+      "nom": "Écosystèmes côtiers et marins de l'archipel des Bijagós – Omatí Minhô",
+      "type": "patrimoine_mondial",
+      "description": "Inscrit en 2025 sur la Liste du patrimoine mondial au titre de critères naturels (ix) et (x), ce bien rassemble les milieux marins et intertidaux les mieux conservés de l'archipel des Bijagós. L'UNESCO le décrit comme le seul archipel deltaïque actif de la côte atlantique africaine, avec mangroves, vasières, tortues marines (dont l'îlot de Poilão, site majeur de ponte), lamantins, requins et raies, et plusieurs centaines de milliers d'oiseaux migrateurs. Le dossier insiste aussi sur la gestion traditionnelle des ressources par les communautés locales, dont les Bijogo, et sur trois aires marines protégées créées en 2000 et 2005.",
+      "sources": [
+        "S5",
+        "S6",
+        "S54",
+        "S49"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées lues sur la page UNESCO (11°7'12\"N 15°56'56\"O) ; la graine Wikidata donne 11.25, -16.083. Date : le 13 juillet 2025 selon Wikipédia (fr), 17 juillet 2025 pour l'actualité UNESCO ; la fiche UNESCO ne donne que l'année. Superficie : 394 067 ha, zone tampon 636 836 ha."
+      },
+      "regions": [
+        "Bolama-Bijagós",
+        "archipel des Bijagós"
+      ],
+      "coordonnees": {
+        "lat": 11.12,
+        "lng": -15.9489
+      },
+      "unesco_id": "1431",
+      "inscription": 2025,
+      "wikidata": "Q63353195"
+    },
+    {
+      "id": "GW-site-bissau",
+      "nom": "Bissau",
+      "type": "ville_historique",
+      "description": "Capitale et principal port du pays, Bissau est située sur l'estuaire du Geba. Wikipédia (fr) date sa fondation comme comptoir fortifié portugais de 1687, sur des terres du peuple papel, et la ville devient capitale de la colonie au XXe siècle. Elle abrite aujourd'hui la majorité des institutions nationales, dont les musées et l'Institut national d'études et de recherche (INEP).",
+      "sources": [
+        "S46",
+        "S3",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date du transfert de la capitale : 1941 (Wikipédia fr, histoire et Bolama) ou 1942 (Wikipédia fr, Bissau) : à trancher."
+      },
+      "regions": [
+        "Bissau"
+      ],
+      "coordonnees": {
+        "lat": 11.8667,
+        "lng": -15.6
+      }
+    },
+    {
+      "id": "GW-site-fort-amura",
+      "nom": "Fortaleza de São José da Amura",
+      "type": "monument",
+      "description": "Fort de Bissau dont la construction répond, à la fin du XVIIe siècle, à la volonté portugaise de devancer les projets français sur l'île de Bissau. Il abrite aujourd'hui le Musée militaire de la lutte de libération nationale et un monument aux héroïnes et héros nationaux, où figure notamment Pansau Na Isna. Amílcar Cabral y est inhumé selon Wikipédia (fr).",
+      "sources": [
+        "S55",
+        "S56",
+        "S57",
+        "S53"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Bissau"
+      ],
+      "coordonnees": {
+        "lat": 11.86028,
+        "lng": -15.57861
+      }
+    },
+    {
+      "id": "GW-site-cacheu",
+      "nom": "Cacheu",
+      "type": "ville_historique",
+      "description": "Ancien comptoir sur le fleuve Cacheu, la ville fut l'un des plus anciens établissements européens d'Afrique subsaharienne et un centre de la traite. Une population afro-européenne de lançados et de commerçants s'y forme à partir de la fin du XVIe siècle, et un fort en pierre construit dans les années 1640 existe encore. Aujourd'hui, c'est le chef-lieu de la région de Cacheu.",
+      "sources": [
+        "S58",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Cacheu"
+      ],
+      "coordonnees": {
+        "lat": 12.27056,
+        "lng": -16.16583
+      }
+    },
+    {
+      "id": "GW-site-bolama",
+      "nom": "Bolama",
+      "type": "ville_historique",
+      "description": "Ville de l'île de Bolama, érigée en municipalité en 1871 et capitale de la colonie de 1879 jusqu'au transfert à Bissau dans les années 1940, à cause du manque d'eau douce. Son architecture coloniale y est encore visible. L'arbitrage de 1870 sur la possession de l'île, mentionné par Encyclopedia.com, avait donné gain de cause au Portugal.",
+      "sources": [
+        "S59",
+        "S3",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Bolama-Bijagós"
+      ],
+      "coordonnees": {
+        "lat": 11.5833,
+        "lng": -15.4667
+      }
+    },
+    {
+      "id": "GW-site-kansala",
+      "nom": "Kansala",
+      "type": "site_archeologique",
+      "description": "Ancienne capitale du Kaabu, royaume mandingue formé à partir du XIIIe siècle, Kansala était une ville fortifiée entourée d'enceintes de terre. Elle abritait un bois sacré où se déroulait le couronnement du mansaba. La ville est détruite en 1867 lors de l'affrontement avec les forces peules du Fouta-Djalon, qui met fin au Kaabu, une date que confirme le compte rendu de Roger Botte sur l'ouvrage de D. T. Niane.",
+      "sources": [
+        "S60",
+        "S40"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "est"
+      ],
+      "coordonnees": {
+        "lat": 12.5364,
+        "lng": -14.1947
+      },
+      "sensible": true,
+      "note_sensibilite": "Lieu où subsistent des enceintes et un bois sacré : respecter les consignes des communautés locales ; la fiche attend une validation par les institutions du patrimoine."
+    },
+    {
+      "id": "GW-site-pidjiguiti",
+      "nom": "Quai de Pidjiguiti (mémorial)",
+      "type": "lieu_de_memoire",
+      "description": "Le quai du port de Bissau où des dockers en grève ont été réprimés le 3 août 1959, un événement qui a pesé dans le choix de la lutte armée par le PAIGC. Un monument, la « Main de Timba », rappelle les victimes près des quais, et le 3 août est un jour de commémoration. Les estimations du nombre de morts varient de 25 à plus de 50 selon les sources.",
+      "sources": [
+        "S61",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Bissau"
+      ],
+      "coordonnees": {
+        "lat": 11.85,
+        "lng": -15.5833
+      },
+      "sensible": true,
+      "note_sensibilite": "Lieu de mémoire d'une répression : bilan chiffré incertain, présentation neutre."
+    },
+    {
+      "id": "GW-site-madina-boe",
+      "nom": "Madina do Boé",
+      "type": "lieu_de_memoire",
+      "description": "Village du sud-est de la région de Gabú. C'est là que l'Assemblée nationale du PAIGC se réunit en 1973 et proclama, le 24 septembre 1973, l'indépendance de la Guinée-Bissau, avant la reconnaissance par le Portugal en 1974. Le Boé fut aussi le théâtre de combats de la guerre de libération, dont le désastre du fleuve Corubal en 1969.",
+      "sources": [
+        "S62",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Gabú"
+      ],
+      "coordonnees": {
+        "lat": 11.75,
+        "lng": -14.217
+      },
+      "sensible": true,
+      "note_sensibilite": "Lieu de la proclamation unilatérale de 1973 : la reconnaissance internationale de l'indépendance est postérieure ; présentation neutre."
+    },
+    {
+      "id": "GW-site-orango",
+      "nom": "Parc national des îles Orango",
+      "type": "site_naturel",
+      "description": "Créé en décembre 2000 dans le sud de l'archipel des Bijagós, ce parc couvre les îles d'Orango, Orangozinho, Meneque, Canogo et Imbone et leurs eaux, soit environ 1 582 km². Environ 160 km² de mangroves y jouent un rôle majeur pour la reproduction de la faune marine. Il est administré par l'Institut de la biodiversité et des aires protégées (IBAP). L'UNESCO cite le parc parmi les aires protégées qui préservent le site du patrimoine mondial.",
+      "sources": [
+        "S63",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Bolama-Bijagós"
+      ],
+      "coordonnees": {
+        "lat": 11.12,
+        "lng": -16.05
+      }
+    },
+    {
+      "id": "GW-site-mangroves-cacheu",
+      "nom": "Parc naturel des mangroves du fleuve Cacheu",
+      "type": "site_naturel",
+      "description": "Aire protégée créée le 1er décembre 2000 sur le fleuve Cacheu, dans le nord-ouest du pays, d'une superficie de 886 km². Elle est classée site Ramsar depuis 2015. Les mangroves de la région nourrissent la pêche et la riziculture traditionnelles décrites dans d'autres rubriques de la fiche.",
+      "sources": [
+        "S64"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Cacheu"
+      ],
+      "coordonnees": {
+        "lat": 12.3,
+        "lng": -16.17944
+      }
+    },
+    {
+      "id": "GW-site-musee-ethnographique",
+      "nom": "Musée ethnographique national et INEP (Bissau)",
+      "type": "musee",
+      "description": "Encyclopedia.com cite à Bissau deux musées, le Musée de la Guinée portugaise et le Musée ethnographique national, ainsi que l'Institut national d'études et de recherche (INEP), qui conserve des archives nationales et un musée. En 1999, trois directeurs de l'INEP ont publié une chronique intitulée « Destruição da memória colectiva de um povo » sur la « tragédie de l'INEP » et la destruction d'une mémoire collective. L'état actuel des collections doit être vérifié auprès des institutions.",
+      "sources": [
+        "S3",
+        "S65"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source ancienne (vers 2005) et chronique de 1999 : situation actuelle des collections à confirmer ; coordonnées non vérifiées, non indiquées."
+      },
+      "regions": [
+        "Bissau"
+      ]
+    }
+  ],
+  "traditions": [
+    {
+      "id": "GW-tradition-classes-age-bijogo",
+      "nom": "Classes d'âge et initiations chez les Bijogo (Aňaki)",
+      "categorie": "rite",
+      "description": "Chez les Aňaki de l'île de Canhabaque, la vie sociale s'organise par classes d'âge, dont le cycle masculin s'étend sur une trentaine d'années. Ce système s'articule avec les initiations des jeunes filles, et les villages restent indépendants les uns des autres. L'étude de Christine Henry le décrit comme le mode d'organisation principal de la société.",
+      "unesco": null,
+      "sources": [
+        "S25",
+        "S47"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Canhabaque",
+        "archipel des Bijagós"
+      ],
+      "communautes": [
+        "Bijogo (Aňaki)"
+      ],
+      "transmission": "vivante",
+      "langues": [
+        "bijogo"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Rites d'initiation : description générale, à valider avec les communautés bijogo avant publication."
+    },
+    {
+      "id": "GW-tradition-pirogues-bijogo",
+      "nom": "Pirogues et navigation des Bijogo",
+      "categorie": "artisanat",
+      "description": "Les Bijogo ont été de grands marins, dont les pirogues sculptées de figures de proue ont frappé les voyageurs du début du XXe siècle. Christine Henry retrace dans son article la grandeur puis le déclin de cette tradition maritime. Aujourd'hui, la pêche et l'agriculture dominent la vie de l'archipel.",
+      "unesco": null,
+      "sources": [
+        "S48",
+        "S25"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "archipel des Bijagós"
+      ],
+      "communautes": [
+        "Bijogo"
+      ],
+      "transmission": "fragile"
+    },
+    {
+      "id": "GW-tradition-cultes-manjak",
+      "nom": "Cultes et rituels manjak : kasara et kabuatã",
+      "categorie": "rite",
+      "description": "Dans le royaume manjak de Babok, au nord-ouest du pays, les femmes exercent des pouvoirs de divination et de soin, notamment dans le culte de kasara, dont l'autel comprend des poteries enterrées et de petits brancards ornés de miroirs. Maria Teixeira a aussi étudié le kabuatã, un rituel d'humanisation des nourrissons. Ces pratiques se retrouvent chez les Manjak du Sénégal.",
+      "unesco": null,
+      "sources": [
+        "S18",
+        "S41"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Cacheu",
+        "Babok"
+      ],
+      "communautes": [
+        "Manjak"
+      ],
+      "transmission": "vivante",
+      "langues": [
+        "manjak"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Cultes et objets rituels : description volontairement générale, validation par la communauté manjak nécessaire."
+    },
+    {
+      "id": "GW-tradition-pagnes-manjak",
+      "nom": "Pagnes tissés manjak (njaago)",
+      "categorie": "textile",
+      "description": "Le Metropolitan Museum conserve un pagne tissé manjak provenant de Guinée-Bissau, daté des années 1960, en coton, fibres synthétiques et teintures. Ces pièces, appelées sër-u-rabbal ou sër-u-njaago, sont attribuées par le musée à des tisserands manjak. D'autres pagnes semblables du Sénégal figurent dans la même collection.",
+      "unesco": null,
+      "sources": [
+        "S43",
+        "S42"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communautes": [
+        "Manjak"
+      ],
+      "transmission": "vivante"
+    },
+    {
+      "id": "GW-tradition-riziculture-mangrove",
+      "nom": "Riziculture de mangrove (bolanha)",
+      "categorie": "savoir",
+      "description": "Les riziculteurs du littoral gagnent des rizières sur la mangrove grâce à des digues, des canaux de drainage et un dessalement progressif des sols. Ce savoir est lié aux Balante, aux Manjak, aux Felupe-Diola et à d'autres communautés côtières, et Wikipédia (fr) en fait remonter l'origine à plus de trois mille ans. L'UNESCO relève que la pression des rizières sur les mangroves reste modérée autour de l'archipel des Bijagós.",
+      "unesco": null,
+      "sources": [
+        "S7",
+        "S42",
+        "S13",
+        "S6",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "littoral",
+        "Oio",
+        "Cacheu",
+        "Tombali"
+      ],
+      "communautes": [
+        "Balante",
+        "Manjak",
+        "Felupe-Diola"
+      ],
+      "transmission": "vivante",
+      "nom_local": "Bolanha"
+    },
+    {
+      "id": "GW-tradition-gumbe",
+      "nom": "Gumbé",
+      "categorie": "musique",
+      "description": "Le gumbé est un genre de musique et de danse né de plusieurs traditions folkloriques du pays, souvent chanté en kriol, avec des paroles humoristiques ou d'actualité. Wikipédia (en) le décrit comme le principal genre musical de la Guinée-Bissau, lié à la pensée nationaliste depuis l'époque coloniale. Après l'indépendance, des groupes comme Super Mama Djombo et des artistes comme Ernesto Dabó l'ont popularisé.",
+      "unesco": null,
+      "sources": [
+        "S66",
+        "S67"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Bissau"
+      ],
+      "communautes": [
+        "communautés du pays"
+      ],
+      "transmission": "vivante",
+      "nom_local": "Gumbé",
+      "langues": [
+        "créole bissau-guinéen (kriol)"
+      ]
+    },
+    {
+      "id": "GW-tradition-kussunde-bombolong",
+      "nom": "Kussundé et tambours bombolong (musique balante)",
+      "categorie": "musique",
+      "description": "Les Balante jouent du kussundé, un luth à calebasse, et des bombolong, grands tambours à fente qui permettent de communiquer à distance ou avec les esprits dans un langage codé. Ces musiques accompagnent les deuils, les initiations et les fêtes de récolte. Elles font partie des traditions folkloriques qui nourrissent le gumbé.",
+      "unesco": null,
+      "sources": [
+        "S66",
+        "S13"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "centre",
+        "sud"
+      ],
+      "communautes": [
+        "Balante"
+      ],
+      "transmission": "vivante",
+      "sensible": true,
+      "note_sensibilite": "Les tambours codés servent aussi dans des contextes rituels : description générale, validation communautaire nécessaire."
+    },
+    {
+      "id": "GW-tradition-musique-mandingue",
+      "nom": "Musique mandingue : kora, balafon et mémoire du Kaabu",
+      "categorie": "musique",
+      "description": "Dans les familles mandingues, la musique se transmet par le balafon et la kora, comme dans l'enfance du musicien Kimi Djabaté, né à Tabato. Les récits oraux d'histoire du Kaabu ont aussi été recueillis par des historiens comme Djibril Tamsir Niane, notamment en Gambie et au Sénégal. Ces pratiques entretiennent la mémoire du royaume et de sa chute en 1867.",
+      "unesco": null,
+      "sources": [
+        "S44",
+        "S40",
+        "S60"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "est",
+        "nord-est"
+      ],
+      "communautes": [
+        "Mandingue"
+      ],
+      "transmission": "vivante",
+      "langues": [
+        "mandinka"
+      ]
+    },
+    {
+      "id": "GW-tradition-cuisine",
+      "nom": "Cuisine bissau-guinéenne",
+      "categorie": "cuisine",
+      "description": "La cuisine du pays repose sur le riz, le poisson, les arachides, l'huile de palme et les légumes locaux. Parmi les plats cités par Wikipédia (en), le caldo de mancarra, ragoût d'arachides, le caldo de tchebem au poisson et le badadji, riz au yaourt, accompagnent les repas partagés et les fêtes. Les influences portugaises se mêlent à des préparations propres à chaque communauté.",
+      "unesco": null,
+      "sources": [
+        "S68"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communautes": [
+        "communautés du pays"
+      ],
+      "transmission": "vivante"
+    },
+    {
+      "id": "GW-tradition-commemorations",
+      "nom": "Journées de mémoire : 3 août, 20 janvier, 24 septembre",
+      "categorie": "fete",
+      "description": "Le calendrier national comprend la commémoration de Pidjiguiti le 3 août, la mort d'Amílcar Cabral le 20 janvier, la fête nationale du 24 septembre et l'anniversaire du mouvement de rectification du 14 novembre. Le 30 janvier, jour de la mort de Titina Silá, est célébré depuis 2003 comme Journée nationale de la femme, sans être férié. Ces journées entretiennent la mémoire de la lutte de libération.",
+      "unesco": null,
+      "sources": [
+        "S3",
+        "S56"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communautes": [
+        "ensemble du pays"
+      ],
+      "transmission": "vivante"
+    },
+    {
+      "id": "GW-tradition-gestion-bijagos",
+      "nom": "Gestion communautaire des ressources de l'archipel des Bijagós",
+      "categorie": "savoir",
+      "description": "Selon le dossier d'inscription de l'UNESCO, le très bon état de conservation de l'archipel tient en grande partie à l'organisation du territoire et à la gestion traditionnelle des ressources par les communautés locales. Elle se combine à des aires protégées, dont une aire marine communautaire des îles d'Urok ; trois aires marines protégées ont été créées en 2000 et 2005. Un plan de gestion de la réserve de biosphère Bolama-Bijagós a été adopté en 2023.",
+      "unesco": null,
+      "sources": [
+        "S6",
+        "S49"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "archipel des Bijagós"
+      ],
+      "communautes": [
+        "Bijogo"
+      ],
+      "transmission": "vivante"
+    }
+  ],
+  "personnalites": [
+    {
+      "id": "GW-personne-okinka-pampa",
+      "nom": "Okinka Pampa",
+      "wikidata": "Q39843917",
+      "description": "Okinka Pampa Kanyimpa est une reine-prêtresse des Bijogo de l'île d'Orango, qui vivait à Angagumé. Elle succède à son père comme souveraine de l'île et garde les ancêtres et les traditions de la communauté, à l'époque où le Portugal se prépare à occuper l'archipel. Elle meurt en 1930.",
+      "roles": [
+        "reine-prêtresse d'Orango"
+      ],
+      "domaines": [
+        "politique",
+        "religion"
+      ],
+      "epoque": "début du XXe siècle",
+      "sources": [
+        "S69",
+        "S70"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance non datée : Wikidata donne « vers 1850 » (imprécis), non reprise."
+      },
+      "deces": {
+        "date": "1930"
+      },
+      "sensible": true,
+      "note_sensibilite": "Figure à la fois politique et religieuse d'une communauté : à relire avec les institutions bijogo."
+    },
+    {
+      "id": "GW-personne-honorio-barreto",
+      "nom": "Honório Pereira Barreto",
+      "wikidata": "Q5897346",
+      "description": "Né à Cacheu d'une mère originaire de Ziguinchor et d'un père capverdien, Honório Barreto a été capitão-mor de Cacheu à trois reprises et gouverneur de Bissau. Les autorités portugaises l'ont longtemps cité comme exemple de réussite d'un natif de la colonie. Il a publié en 1843 un mémoire sur l'état de la Sénégambie portugaise, mais Wikipédia (en) rappelle aussi que le négoce de sa famille reposait sur la traite.",
+      "roles": [
+        "gouverneur (capitão-mor) de Cacheu et de Bissau",
+        "auteur"
+      ],
+      "domaines": [
+        "politique",
+        "administration coloniale"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S71",
+        "S72"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de décès : 16 avril (Wikidata) ou 16/26 avril 1859 (Wikipédia en)."
+      },
+      "naissance": {
+        "date": "1813-04-24",
+        "lieu": "Cacheu"
+      },
+      "deces": {
+        "date": "1859-04-16",
+        "lieu": "Bissau (forteresse de São José da Amura)"
+      },
+      "sensible": true,
+      "note_sensibilite": "Figure coloniale controversée : présentation à nuancer par un expert."
+    },
+    {
+      "id": "GW-personne-amilcar-cabral",
+      "nom": "Amílcar Cabral",
+      "wikidata": "Q213416",
+      "description": "Né à Bafatá de parents capverdiens, Amílcar Cabral étudie l'agronomie à Lisbonne, puis travaille comme agronome en Guinée portugaise, ce qui lui permet de parcourir le pays. Il fonde en 1956 le PAIGC, qui mène la lutte armée à partir de 1963. Ses textes politiques ont été réunis dans Unité et lutte (1975). Il est assassiné à Conakry le 20 janvier 1973 ; les responsabilités attribuées divergent selon les sources.",
+      "roles": [
+        "fondateur et secrétaire général du PAIGC",
+        "ingénieur agronome",
+        "théoricien",
+        "poète"
+      ],
+      "domaines": [
+        "politique",
+        "résistance",
+        "sciences",
+        "littérature"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S53",
+        "S73",
+        "S74",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Encyclopedia.com donne 1921 comme année de naissance ; Wikipédia et Wikidata : 12 septembre 1924."
+      },
+      "naissance": {
+        "date": "1924-09-12",
+        "lieu": "Bafatá"
+      },
+      "deces": {
+        "date": "1973-01-20",
+        "lieu": "Conakry"
+      },
+      "sensible": true,
+      "note_sensibilite": "Circonstances de l'assassinat discutées : Encyclopedia.com évoque un officier de marine du PAIGC, un compte rendu de 1975 des agents du pouvoir colonial portugais. Présentation neutre."
+    },
+    {
+      "id": "GW-personne-titina-sila",
+      "nom": "Titina Silá",
+      "wikidata": "Q7810012",
+      "description": "Ernestina dite Titina Silá rejoint très jeune la guérilla menée par le PAIGC et devient l'une des figures les plus populaires du mouvement, notamment sur le front nord. Elle est tuée le 30 janvier 1973 en traversant un fleuve avec d'autres combattants, en route vers les funérailles d'Amílcar Cabral. Depuis 2003, le 30 janvier est célébré comme Journée nationale de la femme guinéenne.",
+      "roles": [
+        "combattante du PAIGC",
+        "cheffe de guérilla"
+      ],
+      "domaines": [
+        "résistance",
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S56",
+        "S75",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de naissance : 1943 (Wikipédia fr, Wikidata) ; lieu du décès : fleuve Cacheu (Wikidata) ou rio Farim (texte de Wikipédia fr)."
+      },
+      "naissance": {
+        "date": "1943",
+        "lieu": "Cadique"
+      },
+      "deces": {
+        "date": "1973-01-30",
+        "lieu": "rio Cacheu"
+      }
+    },
+    {
+      "id": "GW-personne-carmen-pereira",
+      "nom": "Carmen Pereira",
+      "wikidata": "Q275945",
+      "description": "Carmen Pereira rejoint le PAIGC en 1962 et s'engage dans la lutte pour l'indépendance, puis dans la santé et la politique. Elle préside l'Assemblée nationale populaire de 1984 à 1989 et assure, du 14 au 16 mai 1984, l'intérim de la présidence du Conseil d'État. Wikipédia (fr) la présente comme la première femme cheffe d'État de son pays et d'Afrique.",
+      "roles": [
+        "présidente de l'Assemblée nationale populaire",
+        "ministre de la Santé",
+        "cheffe d'État par intérim (1984)"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S76",
+        "S77"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance : 22 septembre 1936 (Wikidata), année 1936 (Wikipédia fr) ; le Dictionnaire universel des créatrices donne 1937."
+      },
+      "naissance": {
+        "date": "1936-09-22",
+        "lieu": "Bissau"
+      },
+      "deces": {
+        "date": "2016-06-04",
+        "lieu": "Bissau"
+      }
+    },
+    {
+      "id": "GW-personne-teodora-ines-gomes",
+      "nom": "Teodora Inácia Gomes",
+      "wikidata": "Q96194829",
+      "description": "Fille d'un père d'origine bijogo et d'une mère manjak, Teodora Inácia Gomes rejoint la lutte armée en 1962. Elle suit une formation militaire, commande une unité de femmes, puis étudie la pédagogie à Kiev et dirige une école à Conakry. Après l'indépendance, elle est élue députée à l'Assemblée nationale populaire.",
+      "roles": [
+        "combattante du PAIGC",
+        "députée",
+        "enseignante",
+        "militante des droits des femmes"
+      ],
+      "domaines": [
+        "politique",
+        "résistance",
+        "éducation"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S78",
+        "S79"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1944-09-13",
+        "lieu": "Empada"
+      }
+    },
+    {
+      "id": "GW-personne-francisca-pereira",
+      "nom": "Francisca Pereira",
+      "wikidata": "Q27062203",
+      "description": "Née à Bolama, Francisca Pereira rejoint très jeune le mouvement d'indépendance, travaille au secrétariat du PAIGC à Conakry, puis se forme comme infirmière en URSS. Après 1974, elle est maire de Bolama et dirige l'union des femmes du pays. Elle est ensuite ministre de la Condition féminine de 1990 à 1994, puis ministre de l'Intérieur de 1997 à 1999.",
+      "roles": [
+        "infirmière",
+        "ministre",
+        "maire de Bolama"
+      ],
+      "domaines": [
+        "politique",
+        "santé",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S80",
+        "S81"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1942",
+        "lieu": "Bolama"
+      }
+    },
+    {
+      "id": "GW-personne-domingos-ramos",
+      "nom": "Domingos Ramos",
+      "wikidata": "Q55084612",
+      "description": "Domingos Ramos rejoint clandestinement le mouvement indépendantiste en 1957 et déserte l'armée coloniale après le massacre de Pidjiguiti. Formé militairement à l'étranger, il commande le front Est et dirige en 1964 un premier combat organisé de la guérilla. Il meurt au combat le 10 novembre 1966, lors de l'assaut contre le poste de Madina do Boé, et est considéré comme un héros national.",
+      "roles": [
+        "commandant du front Est du PAIGC"
+      ],
+      "domaines": [
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S82",
+        "S83"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année de naissance (1935) donnée par Wikidata ; l'article de Wikipédia (pt) ne la mentionne pas."
+      },
+      "naissance": {
+        "date": "1935",
+        "lieu": "Bissau"
+      },
+      "deces": {
+        "date": "1966-11-10",
+        "lieu": "Madina do Boé"
+      }
+    },
+    {
+      "id": "GW-personne-pansau-na-isna",
+      "nom": "Pansau Na Isna",
+      "wikidata": "Q55090783",
+      "description": "Issu d'une famille balante, Pansau Na Isna devient commandant du PAIGC et se fait connaître lors de la bataille de Como en 1963. Il dirige ensuite des opérations dans le sud puis sur le front nord, et meurt en mars 1970. Il figure parmi les héros nationaux, et son effigie était imprimée sur les billets de cinquante pesos.",
+      "roles": [
+        "combattant et commandant du PAIGC"
+      ],
+      "domaines": [
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S57",
+        "S84"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1938",
+        "lieu": "île de N'Fanda (Tombali)"
+      },
+      "deces": {
+        "date": "1970-03",
+        "lieu": "Nhacra"
+      }
+    },
+    {
+      "id": "GW-personne-luis-cabral",
+      "nom": "Luís Cabral",
+      "wikidata": "Q311443",
+      "description": "Demi-frère d'Amílcar Cabral, Luís Cabral cofonde le PAIGC en 1956 et devient le premier chef de l'État de la Guinée-Bissau indépendante, de 1973 à 1980. Il est renversé le 14 novembre 1980 par un coup d'État mené par João Bernardo Vieira, puis part en exil. Il meurt au Portugal en 2009.",
+      "roles": [
+        "premier président du Conseil d'État (1973-1980)",
+        "cofondateur du PAIGC"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S85",
+        "S86",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance : 10 avril (Wikipédia fr) ou 11 avril 1931 (Wikidata)."
+      },
+      "naissance": {
+        "date": "1931-04-10",
+        "lieu": "Bissau"
+      },
+      "deces": {
+        "date": "2009-05-30",
+        "lieu": "Torres Vedras (Portugal)"
+      },
+      "sensible": true,
+      "note_sensibilite": "Contexte du renversement de 1980 politiquement sensible ; présentation neutre."
+    },
+    {
+      "id": "GW-personne-nino-vieira",
+      "nom": "João Bernardo « Nino » Vieira",
+      "wikidata": "Q106164",
+      "description": "Ancien commandant de la guerre d'indépendance, João Bernardo Vieira prend le pouvoir en novembre 1980 et dirige le pays sous un régime de parti unique jusqu'à l'ouverture au multipartisme en 1991. Il est élu en 1994, renversé en 1999, puis réélu en 2005. Il est assassiné à Bissau le 2 mars 2009.",
+      "roles": [
+        "militaire",
+        "président de la République (1980-1999, 2005-2009)"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S87",
+        "S88",
+        "S3",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1939-04-27",
+        "lieu": "Bissau"
+      },
+      "deces": {
+        "date": "2009-03-02",
+        "lieu": "Bissau"
+      },
+      "sensible": true,
+      "note_sensibilite": "Personnage politique au centre de périodes de violence : présentation neutre, à relire par un expert."
+    },
+    {
+      "id": "GW-personne-kumba-iala",
+      "nom": "Kumba Ialá",
+      "wikidata": "Q336238",
+      "description": "Kumba Ialá, d'origine balante, est un ancien conférencier de philosophie devenu chef de l'opposition. Il arrive au second tour de la présidentielle de 1994, puis remporte celle de février 2000 et exerce la présidence jusqu'au coup d'État de septembre 2003. Il se convertit à l'islam en 2008 et adopte le nom de Mohamed Ialá Embaló.",
+      "roles": [
+        "président de la République (2000-2003)",
+        "chef du Parti pour le renouveau social"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S89",
+        "S90",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1953-03-15",
+        "lieu": "Bula"
+      },
+      "deces": {
+        "date": "2014-04-04",
+        "lieu": "Bissau"
+      }
+    },
+    {
+      "id": "GW-personne-adiato-nandigna",
+      "nom": "Adiato Djaló Nandigna",
+      "wikidata": "Q58164",
+      "description": "Adiato Djaló Nandigna occupe plusieurs postes ministériels à partir de 2008, dont ceux de la Jeunesse et des Sports, des Affaires étrangères et de la Présidence du Conseil des ministres. Elle devient Première ministre par intérim du 10 février 2012 jusqu'au coup d'État du 12 avril 2012.",
+      "roles": [
+        "Première ministre par intérim (2012)",
+        "ministre"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S91",
+        "S92"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lieu de naissance : Canchungo (Wikipédia fr) ; Wikidata indique seulement « Guinée-Bissau »."
+      },
+      "naissance": {
+        "date": "1958-11-06",
+        "lieu": "Canchungo"
+      },
+      "sensible": true,
+      "note_sensibilite": "Période de crise politique récente : présentation neutre."
+    },
+    {
+      "id": "GW-personne-vasco-cabral",
+      "nom": "Vasco Cabral",
+      "wikidata": "Q2410087",
+      "description": "Poète et homme politique, Vasco Cabral étudie à l'Université technique de Lisbonne, où il fréquente d'autres futurs dirigeants indépendantistes, et est emprisonné en 1953 pour son opposition au régime de Salazar. Il compte parmi les fondateurs du PAIGC et occupe plus tard des ministères après l'indépendance.",
+      "roles": [
+        "poète",
+        "ministre de l'Économie et des Finances",
+        "ministre de la Justice",
+        "cofondateur du PAIGC"
+      ],
+      "domaines": [
+        "politique",
+        "littérature"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S93",
+        "S94",
+        "S53"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1926-08-23",
+        "lieu": "Farim"
+      },
+      "deces": {
+        "date": "2005-08-24",
+        "lieu": "Bissau"
+      }
+    },
+    {
+      "id": "GW-personne-odete-semedo",
+      "nom": "Odete Semedo",
+      "wikidata": "Q10340236",
+      "description": "Odete Semedo écrit en portugais et en créole, et a publié deux recueils de poésie, Entre o Ser e o Amar et No Fundo do Canto. Elle a fondé la revue Tcholona, travaillé comme chercheuse à l'INEP et exercé des fonctions ministérielles. Elle a aussi traduit en créole le scénario du film Les Yeux bleus de Yonta de Flora Gomes.",
+      "roles": [
+        "poétesse",
+        "enseignante",
+        "chercheuse (INEP)",
+        "ministre de la Santé puis de la Culture"
+      ],
+      "domaines": [
+        "littérature",
+        "politique",
+        "éducation"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S95",
+        "S96"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de naissance : 1959 (Wikidata : 7 novembre 1959) ; l'article de Wikipédia (fr) donne aussi 1958."
+      },
+      "naissance": {
+        "date": "1959",
+        "lieu": "Bissau"
+      }
+    },
+    {
+      "id": "GW-personne-domingas-samy",
+      "nom": "Domingas Samy",
+      "wikidata": "Q137274600",
+      "description": "Domingas Samy publie des poèmes et des nouvelles en créole, en portugais, en russe et en français. Son recueil A Escola: Contos (1993) est le premier ouvrage de prose de fiction publié par une autrice du pays, selon Wikipédia (en), et il évoque la condition des femmes africaines. Elle a dirigé la Bibliothèque nationale et fut secrétaire de l'Union nationale des artistes et écrivains.",
+      "roles": [
+        "poétesse",
+        "nouvelliste",
+        "directrice de la Bibliothèque nationale"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S97",
+        "S98"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lieu de naissance : Bula (Wikipédia en) ; Wikidata indique la région de Cacheu."
+      },
+      "naissance": {
+        "date": "1955-01-02",
+        "lieu": "Bula (région de Cacheu)"
+      }
+    },
+    {
+      "id": "GW-personne-abdulai-sila",
+      "nom": "Abdulai Silá",
+      "wikidata": "Q4665779",
+      "description": "Ingénieur électricien formé à Dresde et écrivain, Abdulai Silá est l'auteur de trois romans : Eterna Paixão (1994), A Última Tragédia (1995) et Mistida (1997). Eterna Paixão est présenté comme le premier roman écrit et publié en Guinée-Bissau. Il a aussi fondé SITEC et Eguitel, le seul fournisseur privé d'accès Internet du pays selon Wikipédia (en).",
+      "roles": [
+        "romancier",
+        "ingénieur électricien",
+        "fondateur d'un fournisseur d'accès Internet"
+      ],
+      "domaines": [
+        "littérature",
+        "sciences"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S99",
+        "S100"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1958-04-01",
+        "lieu": "Catió"
+      }
+    },
+    {
+      "id": "GW-personne-tony-tcheka",
+      "nom": "Tony Tcheka (António Soares Lopes)",
+      "wikidata": "Q56349387",
+      "description": "Poète et journaliste, Tony Tcheka a dirigé la radiodiffusion nationale et le journal Nô Pintcha, où il a créé un supplément culturel et littéraire nommé Bantabá. Il a aussi fait partie des fondateurs de l'Association des écrivains de Guinée-Bissau et de l'Association des journalistes.",
+      "roles": [
+        "poète",
+        "journaliste",
+        "directeur du journal Nô Pintcha",
+        "cofondateur de l'AEGUI"
+      ],
+      "domaines": [
+        "littérature",
+        "médias"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S101",
+        "S102"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1951-12-21",
+        "lieu": "Bissau"
+      }
+    },
+    {
+      "id": "GW-personne-flora-gomes",
+      "nom": "Flora Gomes",
+      "wikidata": "Q2442793",
+      "description": "Formé à l'Institut cubain des arts et de l'industrie cinématographiques, Flora Gomes est l'un des principaux cinéastes d'Afrique lusophone. Son premier long métrage, Mortu Nega, est présenté à Venise en 1988, et Po di Sangui est en compétition au Festival de Cannes en 1996. Il continue à vivre et à travailler en Guinée-Bissau.",
+      "roles": [
+        "réalisateur"
+      ],
+      "domaines": [
+        "cinéma"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S103",
+        "S104",
+        "S105"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance : 31 décembre 1949 (Wikipédia fr), 13 ou 31 décembre 1949 (Wikidata)."
+      },
+      "naissance": {
+        "date": "1949",
+        "lieu": "Cadique"
+      }
+    },
+    {
+      "id": "GW-personne-sana-na-nhada",
+      "nom": "Sana Na N'Hada",
+      "wikidata": "Q20988718",
+      "description": "Enrôlé jeune dans la guérilla comme assistant médical, Sana Na N'Hada est envoyé étudier le cinéma à Cuba en 1967 à la demande d'Amílcar Cabral. Il réalise Xime (1994), situé en 1962, le documentaire Bissau d'Isabel (2005) et Kadjike (2013), tourné dans l'archipel des Bijagós. Il a aussi fourni à Chris Marker des images du carnaval de Bissau pour Sans soleil.",
+      "roles": [
+        "réalisateur"
+      ],
+      "domaines": [
+        "cinéma"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S106",
+        "S107"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1950-05-26",
+        "lieu": "Enxalé"
+      }
+    },
+    {
+      "id": "GW-personne-eneida-marta",
+      "nom": "Eneida Marta",
+      "wikidata": "Q5376728",
+      "description": "Eneida Marta chante en portugais et en créole bissau-guinéen. Elle tourne à l'international depuis la sortie de son premier album en 2001, a été sélectionnée au WOMEX en 2008 et a publié l'album Family en 2022.",
+      "roles": [
+        "chanteuse"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S108",
+        "S109"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lieu de naissance précis non établi (Wikidata : « Guinée-Bissau »)."
+      },
+      "naissance": {
+        "date": "1960",
+        "lieu": "Guinée-Bissau"
+      }
+    },
+    {
+      "id": "GW-personne-kimi-djabate",
+      "nom": "Kimi Djabaté",
+      "wikidata": "Q6410074",
+      "description": "Issu d'une famille de musiciens mandingues de Tabato, Kimi Djabaté commence le balafon à trois ans et apprend ensuite la kora. Il mêle ces héritages au gumbé, à l'afrobeat, à la morna et au jazz, et vit en Europe depuis une tournée avec l'ensemble national. Ses albums Teriké (2005) et Karam (2009) abordent des thèmes sociaux et politiques.",
+      "roles": [
+        "musicien",
+        "guitariste",
+        "joueur de balafon et de kora"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S44",
+        "S110"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lieu de naissance : famille de Tabato (Wikipédia en) ; Wikidata ne donne que la date."
+      },
+      "naissance": {
+        "date": "1975-01-20",
+        "lieu": "Tabato"
+      }
+    }
+  ],
+  "evenements": [
+    {
+      "id": "GW-evenement-neolithique",
+      "titre": "Occupation du territoire à la fin du néolithique",
+      "date": "-000299-01-01",
+      "date_affichee": "vers 300 av. J.-C.",
+      "precision": "siecle",
+      "description": "Selon l'article d'histoire de Wikipédia (fr), le territoire de l'actuelle Guinée-Bissau est occupé à la fin du néolithique, autour de 300 av. J.-C., sur la côte comme à l'intérieur. Les communautés littorales exploitent alors huîtres, coquillages et pêche, et la riziculture de mangrove s'invente dans ces estuaires.",
+      "sources": [
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Datation reprise de Wikipédia (fr) sans source primaire ouverte : à confirmer par un archéologue."
+      },
+      "regions": [
+        "littoral"
+      ]
+    },
+    {
+      "id": "GW-evenement-conquete-mandingue",
+      "titre": "Conquête mandingue de Tiramakhan Traoré et naissance du Kaabu",
+      "date": "1235-01-01",
+      "date_affichee": "1235-1265",
+      "precision": "annee",
+      "description": "Entre 1235 et 1265, le général Tiramakhan Traoré, venu de l'empire du Mali, conduit l'expansion mandingue vers l'ouest. Ses troupes s'imposent dans le royaume baïnouk et donnent naissance aux provinces d'où naîtra le Kaabu, dont l'histoire couvre ensuite les XIIIe-XIXe siècles. La conquête est connue par les traditions orales et par les travaux de Niane.",
+      "sources": [
+        "S40",
+        "S7",
+        "S51"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "fin": "1265-12-31",
+      "acteurs": [
+        "Tiramakhan Traoré",
+        "Baïnouk",
+        "Mandingues"
+      ],
+      "regions": [
+        "est",
+        "nord-est"
+      ]
+    },
+    {
+      "id": "GW-evenement-nuno-tristao",
+      "titre": "Premiers contacts avec la navigation portugaise",
+      "date": "1446-06-01",
+      "date_affichee": "juin 1446",
+      "precision": "mois",
+      "description": "Encyclopedia.com situe en juin 1446 l'arrivée sur la côte de l'explorateur portugais Nuno Tristão et l'établissement des premiers postes de commerce. Wikipédia (fr) rapporte une version différente, selon laquelle l'équipage de Tristão est vaincu par les Sérères, plus au nord ; les sources divergent sur la suite de l'expédition.",
+      "sources": [
+        "S3",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Récits divergents sur le sort de l'expédition : à trancher."
+      },
+      "acteurs": [
+        "Nuno Tristão"
+      ]
+    },
+    {
+      "id": "GW-evenement-contacts-malinke",
+      "titre": "Contacts directs entre navigateurs européens et Malinké",
+      "date": "1455-01-01",
+      "date_affichee": "1455-1456",
+      "precision": "annee",
+      "description": "Dès 1455-1456, selon le compte rendu de Roger Botte, les navigateurs européens entrent en contact avec les Malinké de la région, ce qui ouvre un commerce direct avec le Portugal qui coïncide avec le déclin de l'empire du Mali. Les flux de marchandises se réorientent peu à peu du Sahara vers l'Atlantique.",
+      "sources": [
+        "S40",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "fin": "1456-12-31",
+      "acteurs": [
+        "navigateurs portugais",
+        "Malinké"
+      ],
+      "regions": [
+        "Gambie",
+        "Geba"
+      ]
+    },
+    {
+      "id": "GW-evenement-chute-kaabu",
+      "titre": "Chute du Kaabu et destruction de Kansala",
+      "date": "1867-01-01",
+      "date_affichee": "1867",
+      "precision": "annee",
+      "description": "En 1867, le Kaabu est défait par les Peuls du Fuuta Jalon, un événement qui met fin à ce royaume mandingue. La capitale Kansala est détruite, selon Wikipédia (fr), lors de la bataille menée par les forces du Fouta-Djalon et des groupes peuls établis dans le Kaabu. Roger Botte rappelle que Niane parle de la défaite de Turuban Keloo.",
+      "sources": [
+        "S40",
+        "S60",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Kaabu",
+        "Fouta-Djalon",
+        "Peuls du Fouladou"
+      ],
+      "regions": [
+        "Kansala",
+        "est"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Mémoire d'un conflit entre communautés mandingue et peule : formulation neutre."
+    },
+    {
+      "id": "GW-evenement-arbitrage-bolama",
+      "titre": "Arbitrage sur Bolama",
+      "date": "1870-01-01",
+      "date_affichee": "1870",
+      "precision": "annee",
+      "description": "En 1870, un arbitrage rejette les prétentions britanniques sur des régions côtières et confirme le contrôle portugais, d'après Encyclopedia.com. Wikipédia (fr) précise que le différend porte sur l'île de Bolama et qu'il fut arbitré avec la participation du président américain Ulysses S. Grant.",
+      "sources": [
+        "S3",
+        "S7",
+        "S59"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Portugal",
+        "Royaume-Uni"
+      ],
+      "regions": [
+        "Bolama"
+      ]
+    },
+    {
+      "id": "GW-evenement-dependance-1879",
+      "titre": "La Guinée portugaise devient une dépendance distincte",
+      "date": "1879-01-01",
+      "date_affichee": "1879",
+      "precision": "annee",
+      "description": "En 1879, le territoire devient une dépendance portugaise séparée, administrativement subordonnée au Cap-Vert. Bolama en est la capitale à partir de cette date, jusqu'au transfert à Bissau dans les années 1940.",
+      "sources": [
+        "S3",
+        "S59"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Portugal"
+      ],
+      "regions": [
+        "Bolama"
+      ]
+    },
+    {
+      "id": "GW-evenement-traite-frontiere-1886",
+      "titre": "Traité franco-portugais sur les frontières",
+      "date": "1886-01-01",
+      "date_affichee": "1886",
+      "precision": "annee",
+      "description": "En 1886, un traité entre la France et le Portugal délimite les frontières de la Guinée portugaise avec les possessions françaises, qui seront relevées sur le terrain en 1905 par une commission mixte. Alain Kihm rappelle que la Casamance, jusque-là portugaise, est alors rattachée au Sénégal.",
+      "sources": [
+        "S3",
+        "S11",
+        "S111"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "France",
+        "Portugal"
+      ],
+      "regions": [
+        "frontière nord"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Question de frontières : présentation neutre, sans position sur des revendications contemporaines."
+    },
+    {
+      "id": "GW-evenement-demarcation-1905",
+      "titre": "Démarcation des frontières par une commission mixte",
+      "date": "1905-01-01",
+      "date_affichee": "1905",
+      "precision": "annee",
+      "description": "Les frontières de la Guinée portugaise sont matérialisées sur le terrain en 1905 par une commission conjointe, selon Encyclopedia.com. L'intérieur du territoire n'est toutefois pas effectivement occupé avant environ 1920.",
+      "sources": [
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "France",
+        "Portugal"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Question de frontières : présentation neutre."
+    },
+    {
+      "id": "GW-evenement-province-1951",
+      "titre": "La colonie devient « province d'outre-mer » portugaise",
+      "date": "1951-01-01",
+      "date_affichee": "1951",
+      "precision": "annee",
+      "description": "En 1951, avec les autres possessions portugaises d'Afrique, la Guinée est élevée au statut de province d'outre-mer du Portugal. ",
+      "sources": [
+        "S3",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Portugal"
+      ]
+    },
+    {
+      "id": "GW-evenement-fondation-paigc",
+      "titre": "Fondation du PAIGC",
+      "date": "1956-09-19",
+      "date_affichee": "19 septembre 1956",
+      "precision": "jour",
+      "description": "En septembre 1956, Amílcar Cabral et plusieurs compagnons, dont Luís Cabral et Aristides Pereira, fondent clandestinement le Parti africain pour l'indépendance de la Guinée et du Cap-Vert, le PAIGC. Cabral en devient le secrétaire général. Le parti mène d'abord une action politique avant de basculer dans la lutte armée.",
+      "sources": [
+        "S74",
+        "S3",
+        "S53"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Seul le mois est confirmé par Persée et Encyclopedia.com ; le jour (19 septembre) vient de Wikipédia (fr)."
+      },
+      "acteurs": [
+        "Amílcar Cabral",
+        "Luís Cabral",
+        "Aristides Pereira"
+      ],
+      "regions": [
+        "Bissau"
+      ]
+    },
+    {
+      "id": "GW-evenement-pidjiguiti",
+      "titre": "Massacre de Pidjiguiti",
+      "date": "1959-08-03",
+      "date_affichee": "3 août 1959",
+      "precision": "jour",
+      "description": "Le 3 août 1959, des dockers du port de Bissau en grève pour obtenir de meilleurs salaires sont réprimés par la police politique portugaise. Les estimations de morts vont de 25 à plus de 50 selon les sources. L'épisode pousse le PAIGC à envisager la lutte armée ; le 3 août est aujourd'hui un jour de commémoration.",
+      "sources": [
+        "S61",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "dockers de Bissau",
+        "PIDE",
+        "PAIGC"
+      ],
+      "regions": [
+        "Bissau"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Bilan humain incertain, mémoire vive : présentation sobre et neutre."
+    },
+    {
+      "id": "GW-evenement-debut-lutte-armee",
+      "titre": "Début de la lutte armée de libération",
+      "date": "1963-01-01",
+      "date_affichee": "1963",
+      "precision": "annee",
+      "description": "En 1963, la guérilla du PAIGC se déploie à grande échelle contre l'armée portugaise. Elle étend peu à peu les zones sous son contrôle, avec une organisation politique, sanitaire et scolaire dans les territoires libérés. La guerre dure jusqu'en 1974.",
+      "sources": [
+        "S3",
+        "S4",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "fin": "1974-09-10",
+      "acteurs": [
+        "PAIGC",
+        "armée portugaise"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Guerre de libération : récit à relire avec des historiens ; les bilans divergent selon les camps."
+    },
+    {
+      "id": "GW-evenement-assassinat-cabral",
+      "titre": "Assassinat d'Amílcar Cabral",
+      "date": "1973-01-20",
+      "date_affichee": "20 janvier 1973",
+      "precision": "jour",
+      "description": "Le 20 janvier 1973, Amílcar Cabral est assassiné à Conakry. Encyclopedia.com rapporte qu'il l'aurait été par un officier de marine du PAIGC, tandis qu'un compte rendu de 1975 évoque des agents du pouvoir colonial portugais. La direction du parti passe alors à Aristides Pereira. Le 20 janvier est un jour de commémoration.",
+      "sources": [
+        "S74",
+        "S3",
+        "S53"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Amílcar Cabral",
+        "PAIGC"
+      ],
+      "regions": [
+        "Conakry"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Responsabilités attribuées de façon divergente : présentation neutre."
+    },
+    {
+      "id": "GW-evenement-independance-proclamee",
+      "titre": "Proclamation unilatérale de l'indépendance",
+      "date": "1973-09-24",
+      "date_affichee": "24 septembre 1973",
+      "precision": "jour",
+      "description": "Le 24 septembre 1973, le PAIGC proclame unilatéralement l'indépendance de la République de Guinée-Bissau, à Madina do Boé selon Wikipédia (en). Le Portugal ne la reconnaît qu'en 1974. Le 24 septembre est la fête nationale.",
+      "sources": [
+        "S3",
+        "S62",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "PAIGC"
+      ],
+      "regions": [
+        "Madina do Boé",
+        "Gabú"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Reconnaissance internationale postérieure : présentation neutre."
+    },
+    {
+      "id": "GW-evenement-revolution-oeillets",
+      "titre": "Révolution des Œillets au Portugal",
+      "date": "1974-04-25",
+      "date_affichee": "25 avril 1974",
+      "precision": "jour",
+      "description": "Le 25 avril 1974, le renversement du régime au Portugal ouvre la voie à une solution négociée de la guerre. Le nouveau pouvoir est dirigé par le général António de Spínola, ancien gouverneur de la Guinée portugaise.",
+      "sources": [
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Portugal"
+      ]
+    },
+    {
+      "id": "GW-evenement-accords-alger",
+      "titre": "Accord d'Alger entre le Portugal et le PAIGC",
+      "date": "1974-08-26",
+      "date_affichee": "26 août 1974",
+      "precision": "jour",
+      "description": "Le 26 août 1974, le gouvernement portugais et le PAIGC signent à Alger un accord prévoyant l'indépendance à partir du 10 septembre et le retrait des troupes portugaises avant le 31 octobre. Il prévoit aussi un référendum sur le statut futur du Cap-Vert.",
+      "sources": [
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Portugal",
+        "PAIGC"
+      ],
+      "regions": [
+        "Alger"
+      ]
+    },
+    {
+      "id": "GW-evenement-independance-1974",
+      "titre": "Reconnaissance de l'indépendance par le Portugal",
+      "date": "1974-09-10",
+      "date_affichee": "10 septembre 1974",
+      "precision": "jour",
+      "description": "Le 10 septembre 1974, le Portugal reconnaît officiellement l'indépendance de la Guinée-Bissau, après la révolution d'avril. Luís Cabral devient chef de l'État.",
+      "sources": [
+        "S3",
+        "S7",
+        "S85"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Portugal",
+        "PAIGC",
+        "Luís Cabral"
+      ]
+    },
+    {
+      "id": "GW-evenement-coup-1980",
+      "titre": "Coup d'État du 14 novembre 1980",
+      "date": "1980-11-14",
+      "date_affichee": "14 novembre 1980",
+      "precision": "jour",
+      "description": "Le 14 novembre 1980, le président Luís Cabral est renversé par un coup d'État mené par João Bernardo Vieira. Encyclopedia.com mentionne parmi les causes des pénuries alimentaires et des tensions avec le Cap-Vert ; l'unification des deux pays est abandonnée. Le 14 novembre figurait comme jour férié dans la liste d'Encyclopedia.com vers 2005.",
+      "sources": [
+        "S3",
+        "S7",
+        "S85"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "João Bernardo Vieira",
+        "Luís Cabral"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement politique disputé : présentation neutre."
+    },
+    {
+      "id": "GW-evenement-jangue-jangue",
+      "titre": "Mouvement prophétique Jangue Jangue",
+      "date": "1983-06-01",
+      "date_affichee": "1983",
+      "precision": "annee",
+      "description": "En 1983, une femme balante, qui prend le nom de Jangue Jangue (« l'ombre »), affirme avoir reçu du dieu suprême balante des plantes médicinales et des commandements à transmettre à son peuple. Un mouvement populaire se forme autour d'elle et le gouvernement intervient par des mesures répressives. L'épisode est étudié par J. T. V. M. de Jong.",
+      "sources": [
+        "S39"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date : l'article place le début en juin 1983 pour la première révélation ; chronologie fine à préciser."
+      },
+      "acteurs": [
+        "communautés balante"
+      ],
+      "regions": [
+        "sud"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Mouvement religieux et politique : décrit à partir d'un seul article ; à relire par un expert."
+    },
+    {
+      "id": "GW-evenement-arbitrage-1985",
+      "titre": "Sentence arbitrale sur la frontière maritime Guinée-Guinée-Bissau",
+      "date": "1985-02-14",
+      "date_affichee": "14 février 1985",
+      "precision": "jour",
+      "description": "Le 14 février 1985, un tribunal arbitral rend sa sentence sur la délimitation de la frontière maritime entre la Guinée et la Guinée-Bissau. Eric David en propose une analyse juridique dans l'Annuaire français de droit international.",
+      "sources": [
+        "S112"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Guinée",
+        "Guinée-Bissau"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Question de frontière : présentation neutre, sans prendre position sur le tracé."
+    },
+    {
+      "id": "GW-evenement-multipartisme-1991",
+      "titre": "Ouverture au multipartisme",
+      "date": "1991-04-01",
+      "date_affichee": "avril 1991",
+      "precision": "mois",
+      "description": "En avril 1991, après dix années de parti unique, la Guinée-Bissau adopte formellement le multipartisme et une nouvelle constitution. Le président Vieira avait lui-même dénoncé le parti unique comme élitiste et répressif.",
+      "sources": [
+        "S3",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "João Bernardo Vieira"
+      ]
+    },
+    {
+      "id": "GW-evenement-elections-1994",
+      "titre": "Premières élections pluralistes",
+      "date": "1994-07-03",
+      "date_affichee": "juillet-août 1994",
+      "precision": "mois",
+      "description": "En juillet et août 1994 ont lieu les premières élections législatives et présidentielle pluralistes. João Bernardo Vieira est élu au second tour face à Kumba Ialá, avec environ 52 % des voix. Fafali Koudawo a montré que les candidats avaient largement mobilisé l'histoire pour se légitimer pendant la campagne.",
+      "sources": [
+        "S113",
+        "S3",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "fin": "1994-08-07",
+      "acteurs": [
+        "João Bernardo Vieira",
+        "Kumba Ialá"
+      ]
+    },
+    {
+      "id": "GW-evenement-guerre-1998",
+      "titre": "Mutinerie et guerre de 1998-1999",
+      "date": "1998-06-07",
+      "date_affichee": "juin 1998",
+      "precision": "mois",
+      "description": "En juin 1998, une mutinerie militaire dégénère en un bref mais dévastateur conflit interne. Selon Encyclopedia.com, des troupes du Sénégal et de Guinée sont appelées pour rétablir l'ordre, un hôpital est détruit et des milliers de personnes sont déplacées. Le conflit s'achève au printemps 1999.",
+      "sources": [
+        "S3",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date du 7 juin 1998 donnée par Wikipédia (fr) ; Encyclopedia.com indique juin."
+      },
+      "fin": "1999-05-07",
+      "acteurs": [
+        "armée",
+        "Ansumane Mané",
+        "João Bernardo Vieira"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Conflit récent aux responsabilités discutées : présentation neutre."
+    },
+    {
+      "id": "GW-evenement-depart-vieira-1999",
+      "titre": "Chute du président Vieira",
+      "date": "1999-05-01",
+      "date_affichee": "mai 1999",
+      "precision": "mois",
+      "description": "En mai 1999, des troupes fidèles au général Ansumane Mané prennent le palais présidentiel après son limogeage. Vieira se réfugie dans une ambassade avant de partir à Lisbonne, et Malam Bacai Sanhá dirige le gouvernement intérimaire. Des élections ont lieu fin 1999 et début 2000.",
+      "sources": [
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Ansumane Mané",
+        "João Bernardo Vieira",
+        "Malam Bacai Sanhá"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement politique récent : présentation neutre."
+    },
+    {
+      "id": "GW-evenement-assassinat-vieira-2009",
+      "titre": "Assassinat du président Vieira",
+      "date": "2009-03-02",
+      "date_affichee": "2 mars 2009",
+      "precision": "jour",
+      "description": "Le 2 mars 2009, João Bernardo Vieira est assassiné dans sa résidence par des militaires, au lendemain d'un attentat à la bombe qui avait tué le chef d'état-major. Des élections présidentielles suivent en 2009.",
+      "sources": [
+        "S7",
+        "S88"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "João Bernardo Vieira",
+        "armée"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement violent récent aux circonstances discutées : présentation neutre."
+    },
+    {
+      "id": "GW-evenement-ratification-whc",
+      "titre": "Ratification de la Convention du patrimoine mondial",
+      "date": "2006-01-28",
+      "date_affichee": "28 janvier 2006",
+      "precision": "jour",
+      "description": "Le 28 janvier 2006, la Guinée-Bissau ratifie la Convention du patrimoine mondial. Elle obtient plus tard son premier bien inscrit, l'archipel des Bijagós.",
+      "sources": [
+        "S54"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Guinée-Bissau",
+        "UNESCO"
+      ]
+    },
+    {
+      "id": "GW-evenement-ratification-pci",
+      "titre": "Ratification de la Convention pour la sauvegarde du patrimoine immatériel",
+      "date": "2016-03-07",
+      "date_affichee": "7 mars 2016",
+      "precision": "jour",
+      "description": "Le 7 mars 2016, le pays ratifie la Convention de 2003 pour la sauvegarde du patrimoine culturel immatériel. La page UNESCO consultée ne mentionne aucun élément inscrit du pays.",
+      "sources": [
+        "S114"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Guinée-Bissau",
+        "UNESCO"
+      ]
+    },
+    {
+      "id": "GW-evenement-cannes-1996",
+      "titre": "Po di Sangui de Flora Gomes en compétition à Cannes",
+      "date": "1996-05-01",
+      "date_affichee": "1996",
+      "precision": "annee",
+      "description": "En 1996, le film Po di Sangui de Flora Gomes, coproduction avec la France et le Portugal, est présenté en compétition au Festival de Cannes. Il raconte l'histoire d'un village où chaque naissance est accompagnée de la plantation d'un arbre. C'est un moment fort pour le cinéma du pays.",
+      "sources": [
+        "S105",
+        "S103"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Flora Gomes"
+      ]
+    },
+    {
+      "id": "GW-evenement-inscription-bijagos",
+      "titre": "Inscription de l'archipel des Bijagós au patrimoine mondial",
+      "date": "2025-07-13",
+      "date_affichee": "juillet 2025",
+      "precision": "mois",
+      "description": "En juillet 2025, le Comité du patrimoine mondial inscrit les écosystèmes côtiers et marins de l'archipel des Bijagós, premier bien du pays sur la Liste. La décision reconnaît une biodiversité exceptionnelle et le rôle de la gestion traditionnelle par les communautés locales.",
+      "sources": [
+        "S5",
+        "S6",
+        "S49"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Jour : 13 juillet selon Wikipédia (fr) ; actualité UNESCO datée du 17 juillet 2025."
+      },
+      "acteurs": [
+        "UNESCO",
+        "Guinée-Bissau",
+        "communautés bijogo"
+      ]
+    },
+    {
+      "id": "GW-evenement-coup-2025",
+      "titre": "Coup d'État du 26 novembre 2025",
+      "date": "2025-11-26",
+      "date_affichee": "26 novembre 2025",
+      "precision": "jour",
+      "description": "Le 26 novembre 2025, l'armée renverse le président Umaro Sissoco Embaló, selon Wikipédia (fr), quelques jours après des élections. Le pays entre dans une transition dirigée par Horta Inta-A Na Man, et la presse (RFI) évoque en octobre 2026 un report probable des élections annoncées pour le 6 décembre. La situation est en évolution.",
+      "sources": [
+        "S7",
+        "S4",
+        "S115"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Situation en évolution au moment de la consultation."
+      },
+      "acteurs": [
+        "armée",
+        "Umaro Sissoco Embaló",
+        "Horta Inta-A Na Man"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement très récent et politiquement disputé : présentation neutre, à mettre à jour."
+    }
+  ],
+  "oeuvres": [
+    {
+      "id": "GW-oeuvre-figure-iran",
+      "titre": "Iran (figure d'ancêtre)",
+      "type": "sculpture",
+      "description": "Figure sculptée bijogo en bois, avec des coquilles d'œuf et des matériaux organiques appliqués, datée de la fin du XIXe au milieu du XXe siècle. Le Met la désigne sous le nom d'Iran et la rattache aux figures d'ancêtre. Elle mesure environ 49,5 cm de haut.",
+      "sources": [
+        "S116"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communaute": "Bijogo",
+      "materiaux": [
+        "bois",
+        "coquilles d'œuf",
+        "matériaux organiques"
+      ],
+      "institution": "The Metropolitan Museum of Art, New York (Michael C. Rockefeller Wing)",
+      "numero_inventaire": "2012.398.1",
+      "url_notice": "https://collectionapi.metmuseum.org/public/collection/v1/objects/321221",
+      "droits": "Notice Met Museum Open Access ; aucune image reproduite ici",
+      "periode": "fin XIXe-milieu XXe siècle",
+      "sensible": true,
+      "note_sensibilite": "Objet à usage rituel ou mémoriel (arts bijogo) : description générale, à relire par la communauté ou un musée partenaire ; le Met n'a pas de notice sur le sens rituel exact."
+    },
+    {
+      "id": "GW-oeuvre-figure-eraminio",
+      "titre": "Eraminio (figure d'esprit)",
+      "type": "sculpture",
+      "description": "Sculpture bijogo en bois avec coquilles d'œuf, fibres et matériaux organiques, désignée par le Met comme une figure d'esprit, eraminio. Elle date de la fin du XIXe au milieu du XXe siècle et mesure environ 35 cm de haut.",
+      "sources": [
+        "S117"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communaute": "Bijogo",
+      "materiaux": [
+        "bois",
+        "coquilles d'œuf",
+        "fibres"
+      ],
+      "institution": "The Metropolitan Museum of Art, New York (Michael C. Rockefeller Wing)",
+      "numero_inventaire": "2012.398.2",
+      "url_notice": "https://collectionapi.metmuseum.org/public/collection/v1/objects/321222",
+      "droits": "Notice Met Museum Open Access ; aucune image reproduite ici",
+      "periode": "fin XIXe-milieu XXe siècle",
+      "sensible": true,
+      "note_sensibilite": "Objet à usage rituel ou mémoriel (arts bijogo) : description générale, à relire par la communauté ou un musée partenaire ; le Met n'a pas de notice sur le sens rituel exact."
+    },
+    {
+      "id": "GW-oeuvre-figure-neganou",
+      "titre": "Neganou (figure féminine)",
+      "type": "sculpture",
+      "description": "Figure féminine bijogo en bois, ornée de coquilles d'œuf et de matériaux organiques, attribuée au XIXe siècle. Le Met l'a classée dans le domaine public pour la réutilisation de l'image. Elle mesure environ 37 cm de haut.",
+      "sources": [
+        "S118"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communaute": "Bijogo",
+      "materiaux": [
+        "bois",
+        "coquilles d'œuf",
+        "matériaux organiques"
+      ],
+      "institution": "The Metropolitan Museum of Art, New York (Michael C. Rockefeller Wing)",
+      "numero_inventaire": "2012.398.3",
+      "url_notice": "https://collectionapi.metmuseum.org/public/collection/v1/objects/321223",
+      "droits": "Notice et image dans le domaine public (Met Open Access, CC0) ; image non reproduite ici",
+      "periode": "XIXe siècle",
+      "sensible": true,
+      "note_sensibilite": "Objet à usage rituel ou mémoriel (arts bijogo) : description générale, à relire par la communauté ou un musée partenaire ; le Met n'a pas de notice sur le sens rituel exact."
+    },
+    {
+      "id": "GW-oeuvre-figure-autel",
+      "titre": "Figure d'autel bijogo",
+      "type": "sculpture",
+      "description": "Figure de bois peint bijogo, désignée comme figure d'autel par le Met et datée des XIXe-XXe siècles. Elle fait partie de la collection Michael C. Rockefeller et mesure environ 48 cm de haut.",
+      "sources": [
+        "S119"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communaute": "Bijogo",
+      "materiaux": [
+        "bois",
+        "pigment"
+      ],
+      "institution": "The Metropolitan Museum of Art, New York (Michael C. Rockefeller Wing)",
+      "numero_inventaire": "1979.206.211",
+      "url_notice": "https://collectionapi.metmuseum.org/public/collection/v1/objects/311668",
+      "droits": "Notice Met Museum Open Access ; aucune image reproduite ici",
+      "periode": "XIXe-XXe siècle",
+      "sensible": true,
+      "note_sensibilite": "Objet à usage rituel ou mémoriel (arts bijogo) : description générale, à relire par la communauté ou un musée partenaire ; le Met n'a pas de notice sur le sens rituel exact."
+    },
+    {
+      "id": "GW-oeuvre-baton-soninke",
+      "titre": "Bâton de fonction (attribué à un forgeron soninké)",
+      "type": "sculpture",
+      "description": "Bâton de fonction en laiton, fer et alliage d'argent, attribué par le Met à un forgeron soninké et enregistré comme provenant de la République de Guinée-Bissau. Il date de la fin du XIXe ou du début du XXe siècle et mesure environ 70 cm.",
+      "sources": [
+        "S120",
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "createur": "forgeron soninké (selon le Met)",
+      "communaute": "Soninké",
+      "materiaux": [
+        "laiton",
+        "fer",
+        "alliage d'argent"
+      ],
+      "institution": "The Metropolitan Museum of Art, New York (Michael C. Rockefeller Wing)",
+      "numero_inventaire": "1979.206.212",
+      "url_notice": "https://collectionapi.metmuseum.org/public/collection/v1/objects/311669",
+      "droits": "Notice Met Museum Open Access ; aucune image reproduite ici",
+      "periode": "XIXe-début XXe siècle"
+    },
+    {
+      "id": "GW-oeuvre-pagne-manjak",
+      "titre": "Pagne tissé manjak (sër-u-rabbal / sër-u-njaago)",
+      "type": "textile",
+      "description": "Pagne en coton et fibres synthétiques teint, tissé dans les années 1960 par des artisans manjak et acquis par le Met. Il mesure environ 178 x 115 cm avec les franges. Des objets de même type provenant du Sénégal figurent dans la même collection.",
+      "sources": [
+        "S43",
+        "S42"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communaute": "Manjak",
+      "materiaux": [
+        "coton",
+        "fibres synthétiques",
+        "teinture"
+      ],
+      "institution": "The Metropolitan Museum of Art, New York (Michael C. Rockefeller Wing)",
+      "numero_inventaire": "2009.259",
+      "url_notice": "https://collectionapi.metmuseum.org/public/collection/v1/objects/320507",
+      "droits": "Notice Met Museum Open Access ; aucune image reproduite ici",
+      "periode": "années 1960"
+    },
+    {
+      "id": "GW-oeuvre-affiche-1973",
+      "titre": "3 de Agosto : Jornada de Solidaridad con el Pueblo de la Guinea-Bissau y Cabo Verde",
+      "type": "peinture",
+      "description": "Affiche imprimée en offset, signée Heriberto Echevarría et datée de 1973, consacrée à la journée de solidarité du 3 août avec les peuples de Guinée-Bissau et du Cap-Vert. Elle appartient au département d'art moderne et contemporain du Met et témoigne de la solidarité internationale avec la lutte du PAIGC.",
+      "sources": [
+        "S121"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le Met ne mentionne pas l'organisme éditeur de l'affiche dans la notice consultée ; type « peinture » retenu faute de catégorie « affiche » dans le contrat."
+      },
+      "createur": "Heriberto Echevarría",
+      "materiaux": [
+        "impression offset sur papier"
+      ],
+      "institution": "The Metropolitan Museum of Art, New York (art moderne et contemporain)",
+      "numero_inventaire": "2025.870.73",
+      "url_notice": "https://collectionapi.metmuseum.org/public/collection/v1/objects/930167",
+      "droits": "Notice Met Museum Open Access ; aucune image reproduite ici",
+      "periode": "1973"
+    },
+    {
+      "id": "GW-oeuvre-mortu-nega",
+      "titre": "Mortu Nega (Ceux que la mort a refusés)",
+      "type": "film",
+      "description": "Premier long métrage de Flora Gomes, présenté à Venise en 1988. Il évoque les derniers moments de la lutte de libération et les défis de la jeune indépendance.",
+      "sources": [
+        "S103",
+        "S106"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année : 1987 (Wikipédia fr, tournage) ou 1988 (présentation à Venise)."
+      },
+      "createur": "Flora Gomes",
+      "droits": "Film : droits des ayants droit ; aucune image reproduite",
+      "periode": "1988"
+    },
+    {
+      "id": "GW-oeuvre-po-di-sangui",
+      "titre": "Po di Sangui (L'arbre de sang)",
+      "type": "film",
+      "description": "Film de Flora Gomes, coproduction avec la France et le Portugal, en compétition au Festival de Cannes 1996. Dans le village d'Amanha Lundju, un arbre est planté à chaque naissance, et la rareté du bois menace l'équilibre de la communauté. Le film dure 90 minutes.",
+      "sources": [
+        "S105",
+        "S103"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "createur": "Flora Gomes",
+      "institution": "Festival de Cannes (fiche de sélection)",
+      "url_notice": "https://www.festival-cannes.com/en/f/po-di-sangui/",
+      "droits": "Film : droits des ayants droit ; aucune image reproduite",
+      "periode": "1996"
+    },
+    {
+      "id": "GW-oeuvre-xime",
+      "titre": "Xime",
+      "type": "film",
+      "description": "Premier long métrage de Sana Na N'Hada, coécrit avec Joop van Wijk et présenté au Festival de Cannes. Le film est situé en 1962, un an avant le début de la guerre de libération.",
+      "sources": [
+        "S106"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "createur": "Sana Na N'Hada",
+      "droits": "Film : droits des ayants droit ; aucune image reproduite",
+      "periode": "1994"
+    },
+    {
+      "id": "GW-oeuvre-kadjike",
+      "titre": "Kadjike",
+      "type": "film",
+      "description": "Documentaire de Sana Na N'Hada tourné dans l'archipel des Bijagós en 2013. Il oppose la beauté de l'archipel et sa lecture dans le mythe bijogo à la menace que représente le trafic international de drogue.",
+      "sources": [
+        "S106"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "createur": "Sana Na N'Hada",
+      "droits": "Film : droits des ayants droit ; aucune image reproduite",
+      "periode": "2013"
+    },
+    {
+      "id": "GW-oeuvre-eterna-paixao",
+      "titre": "Eterna Paixão",
+      "type": "livre",
+      "description": "Roman d'Abdulai Silá publié en 1994, présenté comme le premier roman écrit et publié en Guinée-Bissau. Il propose une critique du régime politique depuis l'indépendance, sous forme de mythe et de parabole.",
+      "sources": [
+        "S99"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "createur": "Abdulai Silá",
+      "droits": "Œuvre protégée ; aucune reproduction",
+      "periode": "1994"
+    },
+    {
+      "id": "GW-oeuvre-a-escola",
+      "titre": "A Escola: Contos",
+      "type": "livre",
+      "description": "Recueil de nouvelles de Domingas Samy publié en 1993, premier ouvrage de prose de fiction publié par une autrice du pays selon Wikipédia (en). Les trois nouvelles évoquent la condition des femmes et le colonialisme.",
+      "sources": [
+        "S97"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "createur": "Domingas Samy",
+      "droits": "Œuvre protégée ; aucune reproduction",
+      "periode": "1993"
+    },
+    {
+      "id": "GW-oeuvre-hymne",
+      "titre": "Esta é a Nossa Pátria Bem Amada (hymne national)",
+      "type": "musique",
+      "description": "Hymne national du pays, dont les paroles sont d'Amílcar Cabral et la musique de Xiao He selon Wikipédia (en). Il fut aussi l'hymne du Cap-Vert jusqu'en 1996. Encyclopedia.com le cite comme l'hymne national.",
+      "sources": [
+        "S66",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date d'adoption (1974) donnée par Wikipédia (fr, culture) : à confirmer."
+      },
+      "createur": "paroles : Amílcar Cabral ; musique : Xiao He",
+      "droits": "Œuvre protégée ; aucune reproduction",
+      "periode": "1974"
+    }
+  ],
+  "proverbes": [],
+  "sources": [
+    {
+      "id": "S1",
+      "titre": "Population, total — Guinea-Bissau (SP.POP.TOTL)",
+      "institution": "Banque mondiale",
+      "url": "https://api.worldbank.org/v2/country/GNB/indicator/SP.POP.TOTL?format=json&date=2020:2025",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S2",
+      "titre": "Surface area (sq. km) — Guinea-Bissau (AG.SRF.TOTL.K2)",
+      "institution": "Banque mondiale",
+      "url": "https://api.worldbank.org/v2/country/GNB/indicator/AG.SRF.TOTL.K2?format=json&date=2020:2024",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S3",
+      "titre": "Guinea-Bissau (Worldmark / Encyclopedia of the Nations : géographie, histoire, population, fêtes)",
+      "institution": "Encyclopedia.com",
+      "url": "https://www.encyclopedia.com/places/africa/guinea-bissau-political-geography/guinea-bissau",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (contenu daté, vers 2005)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S4",
+      "titre": "Guinée-Bissau — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Guin%C3%A9e-Bissau",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S5",
+      "titre": "Écosystèmes côtiers et marins de l’Archipel des Bijagós - Omatí Minhô (bien n° 1431)",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/1431",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (description)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S6",
+      "titre": "Coastal and Marine Ecosystems of the Bijagós Archipelago – Omatí Minhô (World Heritage List 1431, Outstanding Universal Value)",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/list/1431",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (description)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S7",
+      "titre": "Histoire de la Guinée-Bissau — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Histoire_de_la_Guin%C3%A9e-Bissau",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S8",
+      "titre": "Glottolog 5.4 — Upper Guinea Crioulo (uppe1455)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/uppe1455",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S9",
+      "titre": "Glottolog 5.4 — Portuguese (port1283)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/port1283",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S10",
+      "titre": "Langues en Guinée-Bissau — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Langues_en_Guin%C3%A9e-Bissau",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S11",
+      "titre": "Le créole de Guinée-Bissau et ses relations avec le portugais et les langues nationales",
+      "institution": "Persée — Études créoles, 1990",
+      "url": "https://www.persee.fr/doc/ecreo_0708-2398_1990_num_13_1_1308",
+      "type": "article_scientifique",
+      "licence": "Accès libre Persée ; droits réservés aux auteurs et revues",
+      "consulte_le": "2026-11-21",
+      "auteur": "Hildo H. do Couto"
+    },
+    {
+      "id": "S12",
+      "titre": "Glottolog 5.4 — Balanta-Kentohe (bala1301)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/bala1301",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S13",
+      "titre": "Culture de la Guinée-Bissau — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Culture_de_la_Guin%C3%A9e-Bissau",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S14",
+      "titre": "Balanta people — Wikipédia (en)",
+      "institution": "Wikipédia",
+      "url": "https://en.wikipedia.org/wiki/Balanta_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S15",
+      "titre": "Glottolog 5.4 — Pular (pula1262)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/pula1262",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S16",
+      "titre": "Glottolog 5.4 — Mandinka (mand1436)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/mand1436",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S17",
+      "titre": "Glottolog 5.4 — Mandjak (mand1419)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/mand1419",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S18",
+      "titre": "Développements contemporains d'un culte de soins : le Kasara manjak (Guinée-Bissau, Sénégal)",
+      "institution": "Persée — Cahiers de sociologie économique et culturelle, 2001",
+      "url": "https://www.persee.fr/doc/casec_0761-9871_2001_num_35_1_2345",
+      "type": "article_scientifique",
+      "licence": "Accès libre Persée ; droits réservés aux auteurs et revues",
+      "consulte_le": "2026-11-21",
+      "auteur": "Maria Teixeira"
+    },
+    {
+      "id": "S19",
+      "titre": "Glottolog 5.4 — Papel (pape1239)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/pape1239",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S20",
+      "titre": "Pepel (Papel) — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Papel_(peuple)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S21",
+      "titre": "Glottolog 5.4 — Mankanya (mank1251)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/mank1251",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S22",
+      "titre": "Glottolog 5.4 — Biafada (biaf1240)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/biaf1240",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S23",
+      "titre": "Biafada people — Wikipédia (en)",
+      "institution": "Wikipédia",
+      "url": "https://en.wikipedia.org/wiki/Biafada_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S24",
+      "titre": "Glottolog 5.4 — Kanyaki-Kagbaaga-Kajoko Bidyogo (bidy1244)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/bidy1244",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S25",
+      "titre": "Le système de classes d'âge des Añaki (Bijago de Guinée-Bissau)",
+      "institution": "Persée — Journal des africanistes, 1995",
+      "url": "https://www.persee.fr/doc/jafr_0399-0346_1995_num_65_1_2414",
+      "type": "article_scientifique",
+      "licence": "Accès libre Persée ; droits réservés aux auteurs et revues",
+      "consulte_le": "2026-11-21",
+      "auteur": "Christine Henry"
+    },
+    {
+      "id": "S26",
+      "titre": "Glottolog 5.4 — Kugere-Kuxinge (Bayot) (bayo1255)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/bayo1255",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S27",
+      "titre": "Glottolog 5.4 — Nalu (nalu1240)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/nalu1240",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S28",
+      "titre": "Nalus — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Nalus",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S29",
+      "titre": "Glottolog 5.4 — Mansoanka (mans1259)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/mans1259",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S30",
+      "titre": "Glottolog 5.4 — Kobiana (kobi1241)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/kobi1241",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S31",
+      "titre": "Glottolog 5.4 — Kasanga (kasa1248)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/kasa1248",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S32",
+      "titre": "Glottolog 5.4 — Soninke (soni1259)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/soni1259",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S33",
+      "titre": "Glottolog 5.4 — Jaad-Badyara (bady1239)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/bady1239",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S34",
+      "titre": "Glottolog 5.4 — Bassari-Tanda (bass1258)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/bass1258",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S35",
+      "titre": "Les Tanda de Tombali. Des Bassari en Guinée Bissau",
+      "institution": "Persée — Journal des africanistes, 1990",
+      "url": "https://www.persee.fr/doc/jafr_0399-0346_1990_num_60_2_2456",
+      "type": "article_scientifique",
+      "licence": "Accès libre Persée ; droits réservés aux auteurs et revues",
+      "consulte_le": "2026-11-21",
+      "auteur": "Monique Gessain"
+    },
+    {
+      "id": "S36",
+      "titre": "Glottolog 5.4 — Ejamat (ejam1238)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/ejam1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S37",
+      "titre": "Plutôt « chicoter » l'enfant que lui faire peur ! (Diola Ajamat en Guinée Bissau)",
+      "institution": "Persée — Le Monde alpin et rhodanien, 1998",
+      "url": "https://www.persee.fr/doc/mar_0758-4431_1998_num_26_2_1668",
+      "type": "article_scientifique",
+      "licence": "Accès libre Persée ; droits réservés aux auteurs et revues",
+      "consulte_le": "2026-11-21",
+      "auteur": "André Julliard"
+    },
+    {
+      "id": "S38",
+      "titre": "Jola people — Wikipédia (en)",
+      "institution": "Wikipédia",
+      "url": "https://en.wikipedia.org/wiki/Jola_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S39",
+      "titre": "Jangue Jangue : la politique par le bas en Guinée-Bissau",
+      "institution": "Persée — Politique africaine, 1987",
+      "url": "https://www.persee.fr/doc/polaf_0244-7827_1987_num_28_1_5137",
+      "type": "article_scientifique",
+      "licence": "Accès libre Persée ; droits réservés aux auteurs et revues",
+      "consulte_le": "2026-11-21",
+      "auteur": "J.T.V.M. de Jong (trad. R. Buijtenhuijs)"
+    },
+    {
+      "id": "S40",
+      "titre": "Compte rendu de : Djibril Tamsir Niane, Histoire des Mandingues de l'ouest. Le royaume du Gabou (Karthala-Arsan, 1989)",
+      "institution": "Persée — Cahiers d'études africaines, 1988",
+      "url": "https://www.persee.fr/doc/cea_0008-0055_1988_num_28_111_1668_t1_0553_0000_1",
+      "type": "article_scientifique",
+      "licence": "Accès libre Persée ; droits réservés aux auteurs et revues",
+      "consulte_le": "2026-11-21",
+      "auteur": "Roger Botte"
+    },
+    {
+      "id": "S41",
+      "titre": "Un rituel d'humanisation des nourrissons, le kabuatã manjak (Guinée-Bissau/Sénégal)",
+      "institution": "Persée — Journal des africanistes, 2001",
+      "url": "https://www.persee.fr/doc/jafr_0399-0346_2001_num_71_2_1267",
+      "type": "article_scientifique",
+      "licence": "Accès libre Persée ; droits réservés aux auteurs et revues",
+      "consulte_le": "2026-11-21",
+      "auteur": "Maria Teixeira"
+    },
+    {
+      "id": "S42",
+      "titre": "Manjak people — Wikipédia (en)",
+      "institution": "Wikipédia",
+      "url": "https://en.wikipedia.org/wiki/Manjak_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S43",
+      "titre": "The Met — notice n° 320507 : Sër-u-rabbal, or sër-u-njaago (woven wrapper), Manjak peoples",
+      "institution": "The Metropolitan Museum of Art (Open Access API)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/320507",
+      "type": "musee",
+      "licence": "Données ouvertes Met (CC0) ; images libres seulement si « domaine public »",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S44",
+      "titre": "Kimi Djabaté — Wikipédia (en)",
+      "institution": "Wikipédia",
+      "url": "https://en.wikipedia.org/wiki/Kimi_Djabat%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S45",
+      "titre": "Papel people — Wikipédia (en)",
+      "institution": "Wikipédia",
+      "url": "https://en.wikipedia.org/wiki/Papel_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S46",
+      "titre": "Bissau — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Bissau",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S47",
+      "titre": "Compte rendu de : Christine Henry, Les îles où dansent les enfants défunts. Âge, sexe et pouvoir chez les Bijogo de Guinée-Bissau",
+      "institution": "Persée — Cahiers d'études africaines, 1996",
+      "url": "https://www.persee.fr/doc/cea_0008-0055_1996_num_36_143_1430_t1_0527_0000_1",
+      "type": "article_scientifique",
+      "licence": "Accès libre Persée ; droits réservés aux auteurs et revues",
+      "consulte_le": "2026-11-21",
+      "auteur": "Michèle Dacher"
+    },
+    {
+      "id": "S48",
+      "titre": "Grandeur et décadence des marins bijogo",
+      "institution": "Persée — Cahiers d'études africaines, 1989",
+      "url": "https://www.persee.fr/doc/cea_0008-0055_1989_num_29_114_1642",
+      "type": "article_scientifique",
+      "licence": "Accès libre Persée ; droits réservés aux auteurs et revues",
+      "consulte_le": "2026-11-21",
+      "auteur": "Christine Henry"
+    },
+    {
+      "id": "S49",
+      "titre": "Bijagos (archipel) — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Bijagos",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S50",
+      "titre": "Nalu people — Wikipédia (en)",
+      "institution": "Wikipédia",
+      "url": "https://en.wikipedia.org/wiki/Nalu_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S51",
+      "titre": "Baïnouks — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Ba%C3%AFnouks",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S52",
+      "titre": "Glottolog 5.4 — Bainounk (famille) (bain1264)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/bain1264",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S53",
+      "titre": "Amílcar Cabral — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Am%C3%ADlcar_Cabral",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S54",
+      "titre": "Guinea-Bissau — UNESCO World Heritage Convention (État partie)",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/statesparties/gw",
+      "type": "unesco",
+      "licence": "tous droits réservés (UNESCO)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S55",
+      "titre": "Fortaleza de São José da Amura — Wikipédia (en)",
+      "institution": "Wikipédia",
+      "url": "https://en.wikipedia.org/wiki/Fortaleza_de_S%C3%A3o_Jos%C3%A9_da_Amura",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S56",
+      "titre": "Titina Silá — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Titina_Sil%C3%A1",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S57",
+      "titre": "Pansau Na Isna — Wikipédia (pt)",
+      "institution": "Wikipédia",
+      "url": "https://pt.wikipedia.org/wiki/Pansau_Na_Isna",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S58",
+      "titre": "Cacheu — Wikipédia (en)",
+      "institution": "Wikipédia",
+      "url": "https://en.wikipedia.org/wiki/Cacheu",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S59",
+      "titre": "Bolama — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Bolama",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S60",
+      "titre": "Kansala — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Kansala",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S61",
+      "titre": "Massacre de Pidjiguiti — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Massacre_de_Pidjiguiti",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S62",
+      "titre": "Boé (Madina do Boé) — Wikipédia (en)",
+      "institution": "Wikipédia",
+      "url": "https://en.wikipedia.org/wiki/Madina_do_Bo%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S63",
+      "titre": "Orango Islands National Park — Wikipédia (en)",
+      "institution": "Wikipédia",
+      "url": "https://en.wikipedia.org/wiki/Orango_Islands_National_Park",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S64",
+      "titre": "Cacheu River Mangroves Natural Park — Wikipédia (en)",
+      "institution": "Wikipédia",
+      "url": "https://en.wikipedia.org/wiki/Cacheu_River_Mangroves_Natural_Park",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S65",
+      "titre": "Destruição da memória colectiva de um povo. A tragédia do Inep da Guiné-Bissau",
+      "institution": "Persée — Lusotopie, 1999",
+      "url": "https://www.persee.fr/doc/luso_1257-0273_1999_num_6_1_1289",
+      "type": "article_scientifique",
+      "licence": "Accès libre Persée ; droits réservés aux auteurs et revues",
+      "consulte_le": "2026-11-21",
+      "auteur": "Carlos Lopes, Carlos Cardoso, Peter Karibe Mendy"
+    },
+    {
+      "id": "S66",
+      "titre": "Music of Guinea-Bissau — Wikipédia (en)",
+      "institution": "Wikipédia",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Guinea-Bissau",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S67",
+      "titre": "Gumbé — Wikipédia (en)",
+      "institution": "Wikipédia",
+      "url": "https://en.wikipedia.org/wiki/Gumbe",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S68",
+      "titre": "Cuisine of Guinea-Bissau — Wikipédia (en)",
+      "institution": "Wikipédia",
+      "url": "https://en.wikipedia.org/wiki/Cuisine_of_Guinea-Bissau",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S69",
+      "titre": "Okinka Pampa — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Okinka_Pampa",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S70",
+      "titre": "Wikidata Q39843917 — Okinka Pampa",
+      "institution": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q39843917.json",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S71",
+      "titre": "Honório Barreto — Wikipédia (en)",
+      "institution": "Wikipédia",
+      "url": "https://en.wikipedia.org/wiki/Hon%C3%B3rio_Barreto",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S72",
+      "titre": "Wikidata Q5897346 — Honório Barreto",
+      "institution": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q5897346.json",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S73",
+      "titre": "Wikidata Q213416 — Amílcar Cabral",
+      "institution": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q213416.json",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S74",
+      "titre": "Compte rendu de : Amilcar Cabral, Unité et Lutte, I. L'arme de la théorie (Maspero, 1975)",
+      "institution": "Persée — Revue Tiers Monde, 1975",
+      "url": "https://www.persee.fr/doc/tiers_0040-7356_1975_num_16_64_2601_t1_0887_0000_1",
+      "type": "article_scientifique",
+      "licence": "Accès libre Persée ; droits réservés aux auteurs et revues",
+      "consulte_le": "2026-11-21",
+      "auteur": "Mohamed Hassan"
+    },
+    {
+      "id": "S75",
+      "titre": "Wikidata Q7810012 — Titina Silá",
+      "institution": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q7810012.json",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S76",
+      "titre": "Carmen Pereira — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Carmen_Pereira",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S77",
+      "titre": "Wikidata Q275945 — Carmen Pereira",
+      "institution": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q275945.json",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S78",
+      "titre": "Teodora Inácia Gomes — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Teodora_In%C3%A1cia_Gomes",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S79",
+      "titre": "Wikidata Q96194829 — Teodora Inácia Gomes",
+      "institution": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q96194829.json",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S80",
+      "titre": "Francisca Pereira — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Francisca_Pereira",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S81",
+      "titre": "Wikidata Q27062203 — Francisca Pereira",
+      "institution": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q27062203.json",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S82",
+      "titre": "Domingos Ramos — Wikipédia (pt)",
+      "institution": "Wikipédia",
+      "url": "https://pt.wikipedia.org/wiki/Domingos_Ramos",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S83",
+      "titre": "Wikidata Q55084612 — Domingos Ramos",
+      "institution": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q55084612.json",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S84",
+      "titre": "Wikidata Q55090783 — Pansau Na Isna",
+      "institution": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q55090783.json",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S85",
+      "titre": "Luís Cabral — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Lu%C3%ADs_Cabral",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S86",
+      "titre": "Wikidata Q311443 — Luís Cabral",
+      "institution": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q311443.json",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S87",
+      "titre": "João Bernardo Vieira — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Jo%C3%A3o_Bernardo_Vieira",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S88",
+      "titre": "Wikidata Q106164 — João Bernardo Vieira",
+      "institution": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q106164.json",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S89",
+      "titre": "Kumba Ialá — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Kumba_Ial%C3%A1",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S90",
+      "titre": "Wikidata Q336238 — Kumba Ialá",
+      "institution": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q336238.json",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S91",
+      "titre": "Adiato Djaló Nandigna — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Adiato_Djal%C3%B3_Nandigna",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S92",
+      "titre": "Wikidata Q58164 — Adiato Djaló Nandigna",
+      "institution": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q58164.json",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S93",
+      "titre": "Vasco Cabral — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Vasco_Cabral",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S94",
+      "titre": "Wikidata Q2410087 — Vasco Cabral",
+      "institution": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q2410087.json",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S95",
+      "titre": "Odete Semedo — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Odete_Semedo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S96",
+      "titre": "Wikidata Q10340236 — Odete Semedo",
+      "institution": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q10340236.json",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S97",
+      "titre": "Domingas Samy — Wikipédia (en)",
+      "institution": "Wikipédia",
+      "url": "https://en.wikipedia.org/wiki/Domingas_Samy",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S98",
+      "titre": "Wikidata Q137274600 — Domingas Samy",
+      "institution": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q137274600.json",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S99",
+      "titre": "Abdulai Silá — Wikipédia (en)",
+      "institution": "Wikipédia",
+      "url": "https://en.wikipedia.org/wiki/Abdulai_Sil%C3%A1",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S100",
+      "titre": "Wikidata Q4665779 — Abdulai Silá",
+      "institution": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q4665779.json",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S101",
+      "titre": "Tony Tcheka — Wikipédia (pt)",
+      "institution": "Wikipédia",
+      "url": "https://pt.wikipedia.org/wiki/Tony_Tcheka",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S102",
+      "titre": "Wikidata Q56349387 — Tony Tcheka",
+      "institution": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q56349387.json",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S103",
+      "titre": "Flora Gomes — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Flora_Gomes",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S104",
+      "titre": "Wikidata Q2442793 — Flora Gomes",
+      "institution": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q2442793.json",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S105",
+      "titre": "Po di Sangui, Flora Gomes (1996, En compétition) — fiche du film",
+      "institution": "Festival de Cannes",
+      "url": "https://www.festival-cannes.com/en/f/po-di-sangui/",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S106",
+      "titre": "Sana Na N'Hada — Wikipédia (en)",
+      "institution": "Wikipédia",
+      "url": "https://en.wikipedia.org/wiki/Sana_Na_N%27Hada",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S107",
+      "titre": "Wikidata Q20988718 — Sana Na N'Hada",
+      "institution": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q20988718.json",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S108",
+      "titre": "Eneida Marta — Wikipédia (en)",
+      "institution": "Wikipédia",
+      "url": "https://en.wikipedia.org/wiki/Eneida_Marta",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S109",
+      "titre": "Wikidata Q5376728 — Eneida Marta",
+      "institution": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q5376728.json",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S110",
+      "titre": "Wikidata Q6410074 — Kimi Djabaté",
+      "institution": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q6410074.json",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S111",
+      "titre": "La situation linguistique en Casamance et Guinée-Bissau",
+      "institution": "Persée — Cahiers d'études africaines, 1980",
+      "url": "https://www.persee.fr/doc/cea_0008-0055_1980_num_20_79_2342",
+      "type": "article_scientifique",
+      "licence": "Accès libre Persée ; droits réservés aux auteurs et revues",
+      "consulte_le": "2026-11-21",
+      "auteur": "Alain Kihm"
+    },
+    {
+      "id": "S112",
+      "titre": "La sentence arbitrale du 14 février 1985 sur la délimitation de la frontière maritime Guinée-Guinée-Bissau",
+      "institution": "Persée — Annuaire français de droit international, 1985",
+      "url": "https://www.persee.fr/doc/afdi_0066-3085_1985_num_31_1_2665",
+      "type": "article_scientifique",
+      "licence": "Accès libre Persée ; droits réservés aux auteurs et revues",
+      "consulte_le": "2026-11-21",
+      "auteur": "Eric David"
+    },
+    {
+      "id": "S113",
+      "titre": "Histoire et quête de légitimité politique pendant les premières élections pluralistes en Guinée-Bissau",
+      "institution": "Persée — Lusotopie, 1995",
+      "url": "https://www.persee.fr/doc/luso_1257-0273_1995_num_2_1_992",
+      "type": "article_scientifique",
+      "licence": "Accès libre Persée ; droits réservés aux auteurs et revues",
+      "consulte_le": "2026-11-21",
+      "auteur": "Fafali Koudawo"
+    },
+    {
+      "id": "S114",
+      "titre": "Guinea-Bissau — UNESCO Intangible Cultural Heritage (page État partie)",
+      "institution": "UNESCO — Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/state/guinea-bissau-GW",
+      "type": "unesco",
+      "licence": "tous droits réservés (UNESCO)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S115",
+      "titre": "Guinée-Bissau — actualités (dossier RFI)",
+      "institution": "RFI",
+      "url": "https://www.rfi.fr/fr/tag/guin%C3%A9e-bissau/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S116",
+      "titre": "The Met — notice n° 321221 : Iran (ancestor figure), Bidjogo peoples",
+      "institution": "The Metropolitan Museum of Art (Open Access API)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/321221",
+      "type": "musee",
+      "licence": "Données ouvertes Met (CC0) ; images libres seulement si « domaine public »",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S117",
+      "titre": "The Met — notice n° 321222 : Eraminio (spirit) figure, Bidjogo peoples",
+      "institution": "The Metropolitan Museum of Art (Open Access API)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/321222",
+      "type": "musee",
+      "licence": "Données ouvertes Met (CC0) ; images libres seulement si « domaine public »",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S118",
+      "titre": "The Met — notice n° 321223 : Neganou female figure, Bidjogo peoples",
+      "institution": "The Metropolitan Museum of Art (Open Access API)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/321223",
+      "type": "musee",
+      "licence": "Données ouvertes Met (CC0) ; images libres seulement si « domaine public »",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S119",
+      "titre": "The Met — notice n° 311668 : Altar Figure, Bidjogo peoples",
+      "institution": "The Metropolitan Museum of Art (Open Access API)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/311668",
+      "type": "musee",
+      "licence": "Données ouvertes Met (CC0) ; images libres seulement si « domaine public »",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S120",
+      "titre": "The Met — notice n° 311669 : Staff of office, Soninke peoples (Republic of Guinea-Bissau)",
+      "institution": "The Metropolitan Museum of Art (Open Access API)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/311669",
+      "type": "musee",
+      "licence": "Données ouvertes Met (CC0) ; images libres seulement si « domaine public »",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S121",
+      "titre": "The Met — notice n° 930167 : 3 de Agosto: Jornada de Solidaridad con el Pueblo de la Guinea-Bissau y Cabo Verde, 1973",
+      "institution": "The Metropolitan Museum of Art (Open Access API)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/930167",
+      "type": "musee",
+      "licence": "Données ouvertes Met (CC0) ; images libres seulement si « domaine public »",
+      "consulte_le": "2026-11-21"
+    }
+  ]
+}

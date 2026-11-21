@@ -1,0 +1,3521 @@
+{
+ "code": "BF",
+ "nom": "Burkina Faso",
+ "region": "ouest",
+ "wikidata": "Q965",
+ "maj": "2026-11-21",
+ "pays": {
+  "nom_officiel": "Burkina Faso",
+  "capitale": "Ouagadougou",
+  "langues_officielles": [
+   "Langues nationales officialisées par la révision constitutionnelle de décembre 2023 (liste à fixer par la loi)"
+  ],
+  "langues_nationales": [
+   "mooré",
+   "fulfuldé",
+   "dioula",
+   "bissa"
+  ],
+  "langues_de_travail": [
+   "français",
+   "anglais"
+  ],
+  "population": {
+   "valeur": 24074580,
+   "annee": 2025,
+   "source": "S15"
+  },
+  "superficie_km2": 274200,
+  "monnaie": "Franc CFA (UEMOA)",
+  "resume": "Le Burkina Faso est un pays enclavé d'Afrique de l'Ouest, bordé par six États, dont la capitale est Ouagadougou. Ancienne colonie française de Haute-Volta devenue indépendante le 5 août 1960, il a pris son nom actuel en 1984, sous la présidence de Thomas Sankara. On y parle une soixantaine de langues : le mooré, le fulfuldé, le dioula et le bissa sont les quatre langues nationales les plus citées, et la révision constitutionnelle de décembre 2023 a retiré au français son statut de langue officielle au profit des langues nationales. Quatre biens figurent sur la Liste du patrimoine mondial (Loropéni, W-Arly-Pendjari, métallurgie ancienne du fer, cour royale de Tiébélé) et le balafon, pratiqué aussi au Mali et en Côte d'Ivoire, est inscrit depuis 2024 au patrimoine culturel immatériel. Ouagadougou accueille aussi le FESPACO, grand rendez-vous des cinémas d'Afrique.",
+  "sources": [
+   "S19",
+   "S15",
+   "S16",
+   "S17",
+   "S18",
+   "S72",
+   "S5",
+   "S6",
+   "S70",
+   "S54",
+   "S46"
+  ]
+ },
+ "langues": [
+  {
+   "id": "BF-langue-moore",
+   "nom": "mooré",
+   "description": "Langue des Moose, parlée surtout dans le centre du pays et dans les grandes villes. Elle sert de langue de communication très répandue et fait partie des langues nationales les plus citées. Elle appartient au groupe oti-volta des langues gur.",
+   "famille": "Atlantic-Congo > Gur > Oti-Volta (Mossi)",
+   "glottocode": "moss1236",
+   "statut_linguistique": "nationale",
+   "ecritures": [
+    "latin"
+   ],
+   "wikidata": "Q36096",
+   "locuteurs": {
+    "valeur": "51 % des habitants la déclarent comme langue principale",
+    "annee": 2006,
+    "source": "S18"
+   },
+   "sources": [
+    "S25",
+    "S18"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-langue-fulfulde",
+   "nom": "fulfuldé (peul)",
+   "description": "Langue des Peuls, parlée surtout dans le nord et le Sahel (Séno, Soum, Yagha, Oudalan). Glottolog la rattache à la branche peule des langues atlantiques ; la variété décrite ici est le fulfuldé du Niger occidental.",
+   "famille": "Atlantic-Congo > Atlantique > Fula",
+   "glottocode": "west2454",
+   "statut_linguistique": "nationale",
+   "ecritures": [
+    "latin"
+   ],
+   "wikidata": "Q12952430",
+   "sources": [
+    "S26",
+    "S48",
+    "S18"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-langue-dioula",
+   "nom": "dioula (jula)",
+   "description": "Variété de manding, langue commune à plusieurs pays d'Afrique de l'Ouest. Elle fait partie des langues nationales les plus citées au Burkina Faso.",
+   "famille": "Mandé > Manding (manding oriental)",
+   "glottocode": "dyul1238",
+   "statut_linguistique": "nationale",
+   "ecritures": [
+    "latin"
+   ],
+   "wikidata": "Q32706",
+   "sources": [
+    "S27",
+    "S18"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-langue-bissa",
+   "nom": "bissa",
+   "description": "Langue mandé de l'est parlée dans le centre-est du pays (d'après les coordonnées de Glottolog). Elle figure parmi les langues nationales citées.",
+   "famille": "Mandé > Mandé de l'est > Bisa-Busa",
+   "glottocode": "biss1248",
+   "statut_linguistique": "nationale",
+   "ecritures": [
+    "latin"
+   ],
+   "wikidata": "Q32934",
+   "sources": [
+    "S28",
+    "S18"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-langue-gourmanchema",
+   "nom": "gourmanchéma (gourmantché)",
+   "description": "Langue des Gourmantché, parlée dans l'est du pays, notamment dans le Séno et le Yagha. C'est une langue gur du groupe oti-volta.",
+   "famille": "Atlantic-Congo > Gur > Oti-Volta (Gurma)",
+   "glottocode": "gour1243",
+   "statut_linguistique": "régionale",
+   "ecritures": [
+    "latin"
+   ],
+   "wikidata": "Q35474",
+   "sources": [
+    "S29",
+    "S48",
+    "S18"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-langue-dagara",
+   "nom": "dagara (dagara du Nord)",
+   "description": "Langue des Dagara, parlée dans le sud-ouest du pays et chez les voisins du Ghana. Elle appartient au groupe dagaric des langues gur.",
+   "famille": "Atlantic-Congo > Gur > Oti-Volta (Dagaaric)",
+   "glottocode": "nort2780",
+   "statut_linguistique": "régionale",
+   "ecritures": [
+    "latin"
+   ],
+   "wikidata": "Q11004218",
+   "sources": [
+    "S30",
+    "S45"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-langue-birifor",
+   "nom": "birifor (malba)",
+   "description": "Langue des Birifor, proches des Lobi sur le plan culturel mais parlant une langue du groupe dagaric. Elle est utilisée dans le sud-ouest.",
+   "famille": "Atlantic-Congo > Gur > Oti-Volta (Dagaaric)",
+   "glottocode": "malb1235",
+   "statut_linguistique": "régionale",
+   "ecritures": [
+    "latin"
+   ],
+   "wikidata": "Q11150710",
+   "sources": [
+    "S43",
+    "S45"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-langue-lobiri",
+   "nom": "lobiri (lobi)",
+   "description": "Langue des Lobi, installés dans le sud-ouest du pays, au Ghana et en Côte d'Ivoire. Elle forme une branche distincte des langues gur centrales méridionales.",
+   "famille": "Atlantic-Congo > Gur > Lobiri-Jaane",
+   "glottocode": "lobi1245",
+   "statut_linguistique": "régionale",
+   "ecritures": [
+    "latin"
+   ],
+   "wikidata": "Q35807",
+   "sources": [
+    "S31",
+    "S45"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-langue-bobo-madare",
+   "nom": "bobo madaré du Sud",
+   "description": "Langue mandé des Bobo, dont le village d'origine Sya est le noyau de Bobo-Dioulasso. Les Bobo se distinguent de leurs voisins bwa, qui parlent une langue gur.",
+   "famille": "Mandé > Duun-Bobo",
+   "glottocode": "sout2840",
+   "statut_linguistique": "régionale",
+   "ecritures": [
+    "latin"
+   ],
+   "wikidata": "Q11001714",
+   "sources": [
+    "S32",
+    "S49",
+    "S13"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-langue-bwamu",
+   "nom": "bwamu cwi",
+   "description": "Langue des Bwa (Bwaba), parlée notamment autour de Bondoukuy et de Boni, dans l'ouest du pays. Glottolog la classe dans la branche bwamu-oti-volta des langues gur.",
+   "famille": "Atlantic-Congo > Gur > Bwamu",
+   "glottocode": "cwib1235",
+   "statut_linguistique": "régionale",
+   "ecritures": [
+    "latin"
+   ],
+   "wikidata": "Q11150714",
+   "sources": [
+    "S33",
+    "S51"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-langue-kassem",
+   "nom": "kassem (kasem)",
+   "description": "Langue des Kasena, au sud du pays, autour de Tiébélé. La cour royale de Tiébélé, inscrite à l'UNESCO, relève de ce peuple. Elle appartient au groupe grusi.",
+   "famille": "Atlantic-Congo > Gur > Grusi (Nuna-Kasem)",
+   "glottocode": "kase1253",
+   "statut_linguistique": "régionale",
+   "ecritures": [
+    "latin"
+   ],
+   "wikidata": "Q35552",
+   "sources": [
+    "S34",
+    "S4"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-langue-lyele",
+   "nom": "lyélé",
+   "description": "Langue des Lyela, parlée dans la province du Sanguié, dans le centre-ouest. Elle appartient aux langues grusi du nord.",
+   "famille": "Atlantic-Congo > Gur > Grusi",
+   "glottocode": "lyel1241",
+   "statut_linguistique": "régionale",
+   "ecritures": [
+    "latin"
+   ],
+   "wikidata": "Q3089032",
+   "sources": [
+    "S35",
+    "S47"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-langue-samo-maya",
+   "nom": "samo maya",
+   "description": "Langue mandé de l'est parlée dans le nord-ouest, dans la région de Tougan (Sourou) et de Toma (Nayala), par les Samo (San). La variété maya est l'une des variétés de samo.",
+   "famille": "Mandé > Mandé de l'est > Samo-Busa",
+   "glottocode": "maya1281",
+   "statut_linguistique": "régionale",
+   "ecritures": [
+    "latin"
+   ],
+   "wikidata": "Q10950421",
+   "sources": [
+    "S36",
+    "S47"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-langue-tamasheq",
+   "nom": "tamasheq",
+   "description": "Langue berbère des Touaregs de la zone sahélienne du nord, en particulier dans l'Oudalan, où elle est aussi parlée par les Bella. Elle est de la branche touarègue méridionale.",
+   "famille": "Afro-asiatique > Berbère > Touareg",
+   "glottocode": "tama1365",
+   "statut_linguistique": "régionale",
+   "ecritures": [
+    "tifinagh",
+    "latin"
+   ],
+   "wikidata": "Q4670066",
+   "sources": [
+    "S37",
+    "S48"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-langue-marka",
+   "nom": "marka (dafing)",
+   "description": "Langue manding des Marka, voisins des Bobo, des Bwa et des Bolon, dans l'ouest du pays.",
+   "famille": "Mandé > Manding (manding oriental)",
+   "glottocode": "mark1256",
+   "statut_linguistique": "régionale",
+   "ecritures": [
+    "latin"
+   ],
+   "wikidata": "Q36030",
+   "sources": [
+    "S38",
+    "S18"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-langue-sicite",
+   "nom": "sicité (sénoufo)",
+   "description": "Langue sénoufo parlée dans le sud-ouest du pays (d'après les coordonnées de Glottolog). Elle appartient à la branche nord des langues sénoufo.",
+   "famille": "Atlantic-Congo > Sénoufo > Nord (Supyiric)",
+   "glottocode": "sici1249",
+   "statut_linguistique": "régionale",
+   "ecritures": [
+    "latin"
+   ],
+   "wikidata": "Q56787",
+   "sources": [
+    "S39",
+    "S18"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-langue-toussian",
+   "nom": "toussian du Nord",
+   "description": "Langue des Toussian, parlée dans le sud-ouest du pays (d'après les coordonnées de Glottolog). Glottolog en fait une branche à part des langues gur, la famille tusia.",
+   "famille": "Atlantic-Congo > Gur > Tusia",
+   "glottocode": "nort2787",
+   "statut_linguistique": "régionale",
+   "ecritures": [
+    "latin"
+   ],
+   "wikidata": "Q11155635",
+   "sources": [
+    "S40",
+    "S18"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-langue-francais",
+   "nom": "français",
+   "description": "Langue héritée de la période coloniale, longtemps seule langue officielle écrite de l'administration. Depuis la révision constitutionnelle de décembre 2023, elle est langue de travail, avec l'anglais, tandis que les langues nationales sont appelées à devenir officielles.",
+   "famille": "Indo-européenne > Roman",
+   "glottocode": "stan1290",
+   "statut_linguistique": "langue de travail",
+   "ecritures": [
+    "latin"
+   ],
+   "wikidata": "Q150",
+   "locuteurs": {
+    "valeur": "environ 22,8 % de la population francophone (estimation 2024)",
+    "annee": 2024,
+    "source": "S18"
+   },
+   "sources": [
+    "S41",
+    "S17",
+    "S18"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-langue-lsb",
+   "nom": "langue des signes burkinabè",
+   "description": "Langue des personnes sourdes, décrite par Glottolog comme une langue des signes. Elle est indiquée comme employée à Ouagadougou et appartient à la famille des langues des signes issues de l'américaine.",
+   "famille": "Langues des signes",
+   "glottocode": "burk1234",
+   "statut_linguistique": "minoritaire",
+   "ecritures": [],
+   "wikidata": "Q4999053",
+   "sources": [
+    "S42",
+    "S18"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  }
+ ],
+ "peuples": [
+  {
+   "id": "BF-peuple-moose",
+   "nom": "Moose (Mossi)",
+   "description": "Les Moose constituent le principal groupe du centre du pays ; ils forment trois grands royaumes, Ouagadougou au centre, Yatenga au nord et Tenkodogo au sud. Leur histoire politique, étudiée par Michel Izard et Junzo Kawada, montre des institutions plus variées que ne le disait la littérature coloniale. À la cour, les tambourinaires royaux perpétuent le blason sonore de la dynastie.",
+   "langues": [
+    "mooré"
+   ],
+   "regions": [
+    "Centre",
+    "Ouagadougou",
+    "Yatenga",
+    "Tenkodogo"
+   ],
+   "pays_partages": [
+    "GH",
+    "TG",
+    "BJ"
+   ],
+   "organisation": "royaumes (Ouagadougou, Yatenga, Tenkodogo) dirigés par des naaba, avec une cour et des tambourinaires royaux",
+   "activites": [
+    "agriculture"
+   ],
+   "sources": [
+    "S44",
+    "S21",
+    "S25"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-peuple-peuls",
+   "nom": "Peuls (Fulɓe)",
+   "description": "Les Peuls vivent surtout dans le Sahel (Oudalan, Séno, Yagha) où plusieurs sous-groupes, comme les Djelgobé, les Gaobé ou les Peuls du Liptako, se répartissent selon l'histoire du peuplement. Les liens de dépendance entre groupes (Peul-Rimaïbé, Touareg-Bella) ont été abolis après la colonisation et le régime de 1983. Ils se servent du bois local pour fabriquer mortiers, bols à traire et cuillères.",
+   "langues": [
+    "fulfuldé"
+   ],
+   "regions": [
+    "Sahel",
+    "Oudalan",
+    "Séno",
+    "Yagha",
+    "Soum"
+   ],
+   "activites": [
+    "élevage",
+    "artisanat du bois"
+   ],
+   "sources": [
+    "S48",
+    "S26",
+    "S19"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-peuple-gourmantche",
+   "nom": "Gourmantché",
+   "description": "Les Gourmantché habitent l'est du pays, en particulier le Séno et le Yagha, et parlent le gourmanchéma. Ils pratiquent, comme plusieurs autres peuples du pays, la lutte traditionnelle.",
+   "langues": [
+    "gourmanchéma"
+   ],
+   "regions": [
+    "Est",
+    "Séno",
+    "Yagha"
+   ],
+   "activites": [
+    "agriculture",
+    "lutte traditionnelle"
+   ],
+   "sources": [
+    "S48",
+    "S47",
+    "S29",
+    "S19"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-peuple-kel-tamasheq",
+   "nom": "Kel Tamasheq (Touaregs et Bella)",
+   "description": "Les Kel Tamasheq désignent les locuteurs du tamasheq, c'est-à-dire des Touaregs et des Bella, installés dans l'Oudalan, au nord-est du pays. Les rapports de dépendance anciens entre Touaregs et Bella ont été abolis après la colonisation. Les Bella se sont orientés vers l'artisanat du bois et du cuir destiné aux marchés.",
+   "langues": [
+    "tamasheq"
+   ],
+   "regions": [
+    "Oudalan",
+    "Sahel"
+   ],
+   "activites": [
+    "artisanat du bois et du cuir"
+   ],
+   "sources": [
+    "S48",
+    "S37"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-peuple-bobo",
+   "nom": "Bobo",
+   "description": "Les Bobo, dont le village d'origine Sya est le noyau de Bobo-Dioulasso, parlent des langues mandé. Ils partagent avec leurs voisins bwa, bolon et marka une manière de concevoir la mort comme un événement normal et ordonné. Leurs rites funéraires, étudiés par les anthropologues, mettent en jeu des cauris et des lieux sacrés.",
+   "langues": [
+    "bobo madaré"
+   ],
+   "regions": [
+    "Bobo-Dioulasso",
+    "Houet",
+    "Koumi"
+   ],
+   "organisation": "villages de lignages, avec maisons mères et fondateurs",
+   "activites": [
+    "agriculture"
+   ],
+   "sources": [
+    "S49",
+    "S13",
+    "S14"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-peuple-bwa",
+   "nom": "Bwa (Bwaba)",
+   "description": "Les Bwa vivent dans l'ouest du pays, notamment autour de Boni et de Bondoukuy, dans la région de la Volta Noire. Ils sont connus pour leurs masques, qu'ils s'agisse de masques de feuilles liés au culte du Do ou de masques de bois peint. Les forgerons jouent un rôle important dans la fabrication des masques en bois.",
+   "langues": [
+    "bwamu"
+   ],
+   "regions": [
+    "Bondoukuy",
+    "Boni"
+   ],
+   "sensible": true,
+   "note_sensibilite": "Le culte du Do et ses masques relèvent de savoirs d'initiation ; seule la dimension exotérique est décrite ici. Validation par des représentants bwa attendue.",
+   "sources": [
+    "S51",
+    "S73",
+    "S33"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-peuple-lobi",
+   "nom": "Lobi",
+   "description": "Les Lobi sont installés dans le sud-ouest du pays et sur les territoires voisins du Ghana et de la Côte d'Ivoire. Leur société est décrite comme segmentaire, sans autorité politique centrale, et rassemblée par l'initiation du jɔ́rɔ́, tous les sept ans sur les rives de la Volta Noire. Lobi et Birifor ont traversé la Volta Noire vers 1770 selon la tradition orale.",
+   "langues": [
+    "lobiri"
+   ],
+   "regions": [
+    "Sud-Ouest",
+    "Gaoua",
+    "Loropéni"
+   ],
+   "pays_partages": [
+    "GH",
+    "CI"
+   ],
+   "organisation": "société segmentaire sans pouvoir central ; clans alliés ; initiation du jɔ́rɔ́",
+   "sensible": true,
+   "note_sensibilite": "L'initiation du jɔ́rɔ́ est un rite sacré ; la description s'en tient à la littérature scientifique publique.",
+   "sources": [
+    "S45",
+    "S31",
+    "S1"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-peuple-dagara",
+   "nom": "Dagara",
+   "description": "Les Dagara sont un peuple du sud-ouest, de culture proche des Lobi et des Birifor. Selon l'historien Joseph Ki-Zerbo, cité dans la littérature scientifique, ils ont quitté les terres du Ghana au XVIIIe siècle après la soumission des Gonja et des Dagomba. Leur xylophone de funérailles est connu sous le nom de logyil.",
+   "langues": [
+    "dagara"
+   ],
+   "regions": [
+    "Sud-Ouest"
+   ],
+   "pays_partages": [
+    "GH"
+   ],
+   "sources": [
+    "S45",
+    "S30"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-peuple-kasena",
+   "nom": "Kasena (Kassena)",
+   "description": "Les Kasena vivent au sud du pays, à la frontière du Ghana, autour de Tiébélé. Leur cour royale est un ensemble en terre fondé au XVIe siècle ; les hommes y construisent les habitations et les femmes y réalisent des décors peints symboliques. L'UNESCO l'a inscrite en 2024.",
+   "langues": [
+    "kassem"
+   ],
+   "regions": [
+    "Tiébélé",
+    "Sud"
+   ],
+   "organisation": "cour royale avec concessions, lieux de cérémonie et de palabre",
+   "activites": [
+    "architecture en terre",
+    "peinture murale"
+   ],
+   "sensible": true,
+   "note_sensibilite": "La cour royale comprend des éléments sacrés (tombe du fondateur, pierres sacrées) et reste un site vivant ; accord de la communauté attendu.",
+   "sources": [
+    "S4",
+    "S34"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-peuple-samo",
+   "nom": "Samo (San)",
+   "description": "Les Samo, ou San, occupent le nord-ouest du pays, dans les provinces du Sourou et du Nayala, autour de Tougan et de Toma. Ils sont réputés pour leur pratique de la lutte, à laquelle est associée une sculpture, le gnandôrô, propre à ce peuple. Ils entretiennent des relations de plaisanterie avec les Mossi et les Bissa.",
+   "langues": [
+    "samo maya"
+   ],
+   "regions": [
+    "Sourou",
+    "Nayala",
+    "Tougan",
+    "Toma"
+   ],
+   "activites": [
+    "agriculture",
+    "chasse",
+    "lutte"
+   ],
+   "sources": [
+    "S47",
+    "S46",
+    "S36"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-peuple-bissa",
+   "nom": "Bissa (Bisa)",
+   "description": "Les Bissa, locuteurs d'une langue mandé de l'est, vivent dans le centre-est du pays, près des royaumes moose. Les souverains de Tenkodogo ont souvent épousé des femmes bissa, ce qui a lié les deux groupes. Une tradition de relations de plaisanterie unit aussi Bissa et Samo.",
+   "langues": [
+    "bissa"
+   ],
+   "regions": [
+    "Centre-Est"
+   ],
+   "sources": [
+    "S44",
+    "S46",
+    "S28"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  }
+ ],
+ "sites": [
+  {
+   "id": "BF-site-loropeni",
+   "nom": "Ruines de Loropéni",
+   "description": "Premier bien burkinabè inscrit à l'UNESCO, cet ensemble de hauts murs de pierre couvre 11 130 m² et reste le mieux conservé des dix forteresses de la région lobi. Il s'insère dans un groupe d'une centaine d'enceintes liées au commerce transsaharien de l'or. Occupé par les Lohron ou les Koulango, il a connu son apogée du XIVe au XVIIe siècle et a été abandonné au début du XIXe.",
+   "type": "patrimoine_mondial",
+   "wikidata": "Q1269931",
+   "unesco_id": "1225",
+   "inscription": "2009",
+   "coordonnees": {
+    "lat": 10.310277777,
+    "lng": -3.563055555
+   },
+   "regions": [
+    "Sud-Ouest"
+   ],
+   "periode": "XIVe-XVIIe siècle",
+   "sources": [
+    "S1",
+    "S5",
+    "S45"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-site-w-arly-pendjari",
+   "nom": "Complexe W-Arly-Pendjari",
+   "description": "Vaste ensemble de savane soudano-sahélienne partagé entre le Bénin et le Burkina Faso, qui prolonge le parc national du W du Niger. Il abrite la plus grande population d'éléphants d'Afrique de l'Ouest ainsi que des lions, des guépards, des léopards et des lamantins. Le parc du W du Niger est inscrit depuis 1996 ; la page de l'État partie indique 1996 et 2017 pour le complexe.",
+   "type": "patrimoine_mondial",
+   "wikidata": "Q25379596",
+   "unesco_id": "749",
+   "inscription": "1996",
+   "coordonnees": {
+    "lat": 11.53,
+    "lng": 2.29
+   },
+   "regions": [
+    "Est"
+   ],
+   "pays_partages": [
+    "BJ",
+    "NE"
+   ],
+   "sources": [
+    "S2",
+    "S5"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-site-tiebele",
+   "nom": "Cour royale de Tiébélé",
+   "description": "Ensemble architectural en terre établi depuis le XVIe siècle, qui témoigne de l'organisation sociale et des valeurs du peuple kasena. Un mur d'enceinte entoure des concessions séparées, avec des maisons mères en forme de huit, des habitations de jeunes mariés quadrangulaires et des cases rondes pour les adolescents. Les hommes bâtissent, puis les femmes ornent les murs de peintures symboliques dont elles seules détiennent le savoir. Il est inscrit à l'UNESCO depuis 2024.",
+   "type": "patrimoine_mondial",
+   "wikidata": "Q65684910",
+   "unesco_id": "1713",
+   "inscription": "2024",
+   "coordonnees": {
+    "lat": 11.089722222,
+    "lng": -0.961555555
+   },
+   "regions": [
+    "Tiébélé",
+    "Sud"
+   ],
+   "periode": "depuis le XVIe siècle",
+   "sensible": true,
+   "note_sensibilite": "Site vivant comprenant des éléments sacrés (tombe du fondateur, pierres sacrées, cimetière) ; savoirs de décor détenus par les femmes de la cour.",
+   "sources": [
+    "S4",
+    "S5"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-site-metallurgie-fer",
+   "nom": "Sites de métallurgie ancienne du fer du Burkina Faso",
+   "description": "Bien en série de cinq éléments répartis dans différentes provinces : Douroula, Tiwêga, Yamané, Kindibo et Békuy. On y trouve une quinzaine de fourneaux debout à tirage naturel, d'autres structures de fourneaux, des mines et des traces d'habitat. Douroula, daté du VIIIe siècle avant notre ère, est le plus ancien témoin de production de fer recensé dans le pays ; les autres éléments illustrent l'intensification de la production au IIe millénaire. Si la réduction du minerai n'est plus pratiquée, les forgerons de village fournissent toujours des outils et prennent part à des rituels.",
+   "type": "patrimoine_mondial",
+   "wikidata": "Q65685157",
+   "unesco_id": "1602",
+   "inscription": "2019",
+   "coordonnees": {
+    "lat": 12.5878,
+    "lng": -3.329
+   },
+   "regions": [
+    "Bankui"
+   ],
+   "periode": "VIIIe siècle av. J.-C. à aujourd'hui",
+   "sensible": true,
+   "note_sensibilite": "Les forgerons participent à des rituels dont le contenu relève de leur communauté ; seules les informations publiées par l'UNESCO sont reprises ici.",
+   "sources": [
+    "S3",
+    "S5",
+    "S12"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-site-bourzanga",
+   "nom": "Nécropoles de Bourzanga",
+   "description": "Ensemble funéraire de la province du Bam comprenant des nécropoles à jarres-cercueils attribuées aux Dogon et une nécropole royale à stèles attribuée aux Kurumba. Les jarres sont disposées verticalement ou horizontalement, avec une seconde jarre en couvercle. Le site est inscrit sur la liste indicative depuis 1996.",
+   "type": "liste_indicative",
+   "regions": [
+    "Bam"
+   ],
+   "sensible": true,
+   "note_sensibilite": "Sépultures et restes humains : consultation des communautés concernées (Dogon, Kurumba) nécessaire avant toute valorisation.",
+   "sources": [
+    "S8"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-site-art-rupestre",
+   "nom": "Art rupestre du Burkina Faso",
+   "description": "Cinq ensembles de gravures et peintures rupestres répartis dans le nord (Sahel : Pobé-Mengao, Arbinda, Markoye) et dans l'ouest (Wempéa, Dramandougou, Neguéni, Kawara). Au nord dominent les animaux et les végétaux, à l'ouest des motifs plus abstraits réalisés par poinçonnage. Le dossier a été déposé sur la liste indicative en 2026.",
+   "type": "liste_indicative",
+   "regions": [
+    "Sahel",
+    "Ouest"
+   ],
+   "sources": [
+    "S9"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-site-mare-hippopotames",
+   "nom": "Forêt classée de la mare aux hippopotames",
+   "description": "Forêt de la province du Houet, partagée entre les communes de Satiri et de Padéma, classée par arrêté du 26 mars 1937 sur 19 200 hectares. Elle est réserve de biosphère de l'UNESCO depuis le 12 janvier 1987 et site Ramsar depuis 1990. Elle réunit forêts-galeries, forêts sèches et savanes.",
+   "type": "liste_indicative",
+   "regions": [
+    "Houet",
+    "Guiriko"
+   ],
+   "coordonnees": {
+    "lat": 11.6044,
+    "lng": -4.1839
+   },
+   "periode": "classée en 1937",
+   "sources": [
+    "S10"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-site-maison-du-peuple",
+   "nom": "Maison du peuple de Ouagadougou",
+   "description": "Édifice circulaire en béton brut conçu par l'architecte René Faublée, construit entre juin 1964 et mars 1965 et inauguré le 18 octobre 1965. Bâtie pour accueillir les réunions du parti UDV-RDA, elle compte environ 2 500 places et des toits à pyramides évoquant les cases traditionnelles. Sa gestion est confiée à la commune de Ouagadougou depuis 2008.",
+   "type": "monument",
+   "regions": [
+    "Ouagadougou"
+   ],
+   "periode": "1964-1965",
+   "sources": [
+    "S11"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-site-mosquees-soudanaises",
+   "nom": "Mosquées de style soudanais",
+   "description": "Série d'une dizaine de mosquées en terre, avec piliers de bois et toit de terre, à Barani, Dioulassoba, Douroula, Kérébé, Ouahabou, Lanfiéra, Rakaye, Sagbtenga, Nam-Ymi et To. Le dossier les date, avec prudence, entre le XIIIe et le XXe siècle. Leur architecture mêle techniques locales et islamiques.",
+   "type": "liste_indicative",
+   "regions": [
+    "Bankui",
+    "Guiriko",
+    "Nazinon",
+    "Nando"
+   ],
+   "periode": "XIIIe-XXe siècle",
+   "sources": [
+    "S12"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-site-sya",
+   "nom": "Sya (Dioulassoba), centre historique de Bobo-Dioulasso",
+   "description": "Noyau originel de Bobo-Dioulasso, sur quinze hectares entre les marigots Houet et Sanyo. Il est formé de trois villages (Kibidoué, Tiguisso et le village bobo-dioula) et de dix-huit foyers lignagers. On y voit une grande mosquée construite en 1892, une chapelle coloniale et des lieux de culte bobo liés aux marigots et aux silures sacrés.",
+   "type": "ville_historique",
+   "regions": [
+    "Bobo-Dioulasso",
+    "Houet"
+   ],
+   "coordonnees": {
+    "lat": 11.1773,
+    "lng": -4.2952
+   },
+   "sensible": true,
+   "note_sensibilite": "Lieux de culte traditionnels et silures sacrés : validation par les habitants de Sya attendue.",
+   "sources": [
+    "S13"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-site-koumi",
+   "nom": "Village architectural de Koumi",
+   "description": "Village bobo à environ 16 km au nord-ouest de Bobo-Dioulasso, dont les maisons en terre sont bâties sur un escarpement rocheux. Les concessions, parfois à un ou deux niveaux, reflètent le mode de vie, les croyances et l'organisation sociale bobo. Koumi est cité pour sa résilience face à l'urbanisation.",
+   "type": "liste_indicative",
+   "regions": [
+    "Houet",
+    "Bobo-Dioulasso"
+   ],
+   "sources": [
+    "S14"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  }
+ ],
+ "traditions": [
+  {
+   "id": "BF-tradition-balafon",
+   "nom": "Pratiques liées au balafon (et au kolintang)",
+   "description": "Le balafon est un xylophone à lames de bois de différentes longueurs, pratiqué au Mali, au Burkina Faso et en Côte d'Ivoire ; son équivalent indonésien est le kolintang. L'UNESCO souligne qu'il est associé à des valeurs de respect mutuel, de tolérance et de vie harmonieuse. Cette pratique commune à quatre pays a été inscrite en 2024 sur la Liste représentative.",
+   "categorie": "musique",
+   "unesco": {
+    "liste": "Liste représentative",
+    "id": "02131",
+    "annee": 2024,
+    "url": "https://ich.unesco.org/en/RL/cultural-practices-and-expressions-linked-to-balafon-and-kolintang-in-mali-burkina-faso-cote-d-ivoire-and-indonesia-02131"
+   },
+   "nom_local": "balafon",
+   "periode": "inscrit en 2024",
+   "sources": [
+    "S6",
+    "S7"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-tradition-peinture-murale-kasena",
+   "nom": "Peinture murale des femmes kasena de Tiébélé",
+   "description": "À Tiébélé, les hommes de la cour royale construisent les cases, puis les femmes les décorent de peintures aux motifs symboliques. Ces femmes sont les seules détentrices de ce savoir et en assurent la transmission. L'UNESCO décrit la cour comme un site vivant.",
+   "categorie": "artisanat",
+   "communautes": [
+    "Kasena"
+   ],
+   "regions": [
+    "Tiébélé"
+   ],
+   "unesco": null,
+   "transmission": "vivante",
+   "sensible": true,
+   "note_sensibilite": "Savoir détenu par les femmes de la cour royale ; accord de la communauté nécessaire pour toute reproduction ou publication.",
+   "sources": [
+    "S4"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-tradition-forge-fer",
+   "nom": "Savoir-faire des forgerons et métallurgie du fer",
+   "description": "La réduction du minerai de fer n'est plus pratiquée, mais les forgerons de village continuent de fournir outils et objets de fer et de participer à de nombreux rituels. L'UNESCO a retenu cette longue tradition, qui remonte au VIIIe siècle avant notre ère à Douroula. Les forgerons sont aussi les fabricants de nombreux masques bwa en bois.",
+   "categorie": "savoir",
+   "communautes": [
+    "forgerons de plusieurs communautés"
+   ],
+   "unesco": null,
+   "sensible": true,
+   "note_sensibilite": "Les forgerons détiennent des savoirs rituels ; seules les informations publiques sont décrites.",
+   "sources": [
+    "S3",
+    "S73"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-tradition-faso-dan-fani",
+   "nom": "Faso dan fani (pagne tissé de la patrie)",
+   "description": "Cotonnade traditionnellement tissée à la main, en bandes étroites, dont le nom, d'origine bambara, signifie « pagne tissé de la patrie ». Sa fabrication demande environ deux semaines, entre teinture, séchage et bobinage des fils. Promu depuis les années 1980 sous Thomas Sankara, il a été labellisé en 2021 et sert depuis 2024 à confectionner des robes de magistrats et des tenues scolaires.",
+   "categorie": "textile",
+   "nom_local": "faso dan fani",
+   "regions": [
+    "Ouagadougou"
+   ],
+   "unesco": null,
+   "transmission": "vivante",
+   "sources": [
+    "S66",
+    "S67"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-tradition-festima",
+   "nom": "FESTIMA, festival des masques et des arts de Dédougou",
+   "description": "Rendez-vous de sociétés de masques venues des régions du Guiriko, du Nando, du Bankui et du Sourou, lancé en 1996 par l'association ASAMA pour sauvegarder les masques. La 17e édition, en mai 2026, a marqué trente ans de la manifestation. Selon Al Jazeera, les masques y sont présentés sans la pleine force qu'ils auraient dans un rituel.",
+   "categorie": "fete",
+   "regions": [
+    "Dédougou",
+    "Bankui",
+    "Guiriko",
+    "Nando",
+    "Sourou"
+   ],
+   "unesco": null,
+   "transmission": "vivante",
+   "periode": "depuis 1996",
+   "sensible": true,
+   "note_sensibilite": "Les masques ont une dimension rituelle ; seule la version publique du festival est décrite.",
+   "sources": [
+    "S68",
+    "S69"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-tradition-masques-feuilles-bwa",
+   "nom": "Masques de feuilles du culte du Do (Bwa)",
+   "description": "Dans le culte du Do, une classe d'âge masculine acquiert au fil d'une initiation d'une dizaine d'années plusieurs modèles de masques entièrement faits de feuilles fraîches. La signification ésotérique reste réservée aux initiés ; l'étude publique décrit seulement la part exotérique du savoir sur les espèces végétales. Ces masques se rencontrent chez les Bwa de Bondoukuy.",
+   "categorie": "rite",
+   "communautes": [
+    "Bwa"
+   ],
+   "regions": [
+    "Bondoukuy"
+   ],
+   "unesco": null,
+   "sensible": true,
+   "note_sensibilite": "Initiation et masques sacrés : validation par les détenteurs du culte du Do requise avant publication.",
+   "sources": [
+    "S51"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-tradition-xylophone-funeraire-lobi",
+   "nom": "Xylophone de funérailles lobi, birifor et dagara",
+   "description": "Chez les Lobi, le grand xylophone de funérailles à quatorze lames (yolɔ̃nbuo, nommé logyil en dagara) est accompagné de tambours. Le registre sokpaa, dérivé de la musique sacrée du jɔ́rɔ́, souligne lors des funérailles le statut des grands initiés défunts âgés. Beaucoup de textes chantés sont des proverbes et des maximes.",
+   "categorie": "musique",
+   "communautes": [
+    "Lobi",
+    "Birifor",
+    "Dagara"
+   ],
+   "regions": [
+    "Sud-Ouest",
+    "Gaoua"
+   ],
+   "nom_local": "yolɔ̃nbuo",
+   "unesco": null,
+   "sensible": true,
+   "note_sensibilite": "Musique liée à l'initiation du jɔ́rɔ́ et aux funérailles ; validation communautaire attendue.",
+   "sources": [
+    "S45"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-tradition-lutte-san",
+   "nom": "Lutte traditionnelle et sculpture gnandôrô des Samo",
+   "description": "Chez les San (Samo), la lutte occupe les villages entre septembre et janvier, une fois les gros travaux agricoles terminés. Elle y est plus importante que chez les autres peuples du pays qui la pratiquent aussi (Moose, Lyela, Nuna, Bobo, Bwaba, Marka, Gourmantché). Elle s'accompagne d'une sculpture associée, le gnandôrô, qui n'existe nulle part ailleurs au Burkina Faso selon l'état des connaissances.",
+   "categorie": "jeu_sport",
+   "communautes": [
+    "Samo (San)"
+   ],
+   "regions": [
+    "Sourou",
+    "Nayala",
+    "Tougan",
+    "Toma"
+   ],
+   "nom_local": "gnandôrô",
+   "unesco": null,
+   "sources": [
+    "S47"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-tradition-relations-plaisanterie",
+   "nom": "Relations de plaisanterie",
+   "description": "Des peuples du pays, comme les Samo et les Mossi, ou les Bissa et les Samo, entretiennent des relations de plaisanterie : on s'y taquine ouvertement, ce qui apaise les tensions et rappelle une alliance ancienne. Le chercheur André Nyamba les décrit comme un mode de communication pour la paix sociale. Une candidature commune du Niger, du Mali et du Burkina Faso à l'UNESCO était en cours en 2026.",
+   "categorie": "savoir",
+   "communautes": [
+    "Samo",
+    "Mossi",
+    "Bissa",
+    "Lobi"
+   ],
+   "unesco": null,
+   "transmission": "vivante",
+   "sources": [
+    "S46",
+    "S7",
+    "S45"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-tradition-chants-funeraires-moose",
+   "nom": "Chants des veillées funéraires moose",
+   "description": "Dans l'ouest du pays moose, notamment dans la région de Kindi, plusieurs veillées de chants ont lieu pour les défunts morts de vieillesse ou de maladie. Ces chants posent souvent la question « Où est-il allé ? » et nomment les espaces de la montagne, de la brousse, des ancêtres et de la terre. Ils sont étudiés comme un lien entre rites funéraires et conceptions des ancêtres.",
+   "categorie": "oralite",
+   "communautes": [
+    "Moose"
+   ],
+   "regions": [
+    "Kindi",
+    "Ouest du pays moose"
+   ],
+   "unesco": null,
+   "sensible": true,
+   "note_sensibilite": "Rites funéraires et conceptions des ancêtres ; validation par des représentants moose recommandée.",
+   "sources": [
+    "S50"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-tradition-rites-funeraires-bobo",
+   "nom": "Rites funéraires bobo",
+   "description": "Chez les Bobo, la mort est vue comme un événement normal, et les rites d'enterrement des chefs de lignage visent à nier la mort de l'âme, non celle du corps. Une parcelle de l'âme est conservée symboliquement dans des cauris, manipulés rituellement et gardés en des lieux sacrés jusqu'aux funérailles définitives. Ces gestes concernent particulièrement les veuves et les orphelins.",
+   "categorie": "rite",
+   "communautes": [
+    "Bobo"
+   ],
+   "regions": [
+    "Bobo-Dioulasso",
+    "Houet"
+   ],
+   "unesco": null,
+   "sensible": true,
+   "note_sensibilite": "Rite funéraire et objets sacrés ; description limitée à l'article scientifique, validation bobo requise.",
+   "sources": [
+    "S49"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-tradition-fespaco",
+   "nom": "FESPACO, festival du cinéma à Ouagadougou",
+   "description": "Festival créé en 1969 à Ouagadougou et tenu tous les deux ans, qui est l'un des plus grands rendez-vous des cinémas d'Afrique. Son grand prix, l'Étalon de Yennenga, porte le nom de la princesse légendaire du Moogo. Le site officiel annonce la 30e édition pour mars 2027.",
+   "categorie": "fete",
+   "regions": [
+    "Ouagadougou"
+   ],
+   "unesco": null,
+   "transmission": "vivante",
+   "periode": "depuis 1969",
+   "sources": [
+    "S23",
+    "S70"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-tradition-ustensiles-bois-sahel",
+   "nom": "Ustensiles en bois du Sahel (Peuls, Touaregs, Bella, Gourmantché)",
+   "description": "Dans le Sahel burkinabè, les groupes locaux taillent dans des essences choisies les mortiers, pilons, bols à traire et cuillères de la vie quotidienne. Les choix du bois diffèrent entre Peuls Djelgobé et Gaobé, Peuls du Liptako, Bella, Touaregs et Gourmantché. Ce savoir touche à la fois l'artisanat et la connaissance des plantes.",
+   "categorie": "artisanat",
+   "communautes": [
+    "Peuls",
+    "Touaregs",
+    "Bella",
+    "Gourmantché"
+   ],
+   "regions": [
+    "Oudalan",
+    "Séno",
+    "Yagha"
+   ],
+   "unesco": null,
+   "sources": [
+    "S48"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-tradition-tambourinaires-moose",
+   "nom": "Tambourinaires royaux et blason sonore des dynasties moose",
+   "description": "À la cour des royaumes moose, des tambourinaires royaux jouent le « blason sonore » de la dynastie, voix de la royauté. La société moaaga, selon le compte rendu de Beucher, n'a pas entretenu de griots. Ce répertoire a été étudié pour la dynastie de Tenkodogo.",
+   "categorie": "musique",
+   "communautes": [
+    "Moose"
+   ],
+   "regions": [
+    "Tenkodogo"
+   ],
+   "unesco": null,
+   "sources": [
+    "S44"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  }
+ ],
+ "personnalites": [
+  {
+   "id": "BF-personnalite-yennenga",
+   "nom": "Yennenga",
+   "description": "Princesse légendaire de Gambaga, dans l'actuel Ghana, mère de Naaba Wedraogo, ancêtre fondateur des Moose selon la tradition de la cour de Ouagadougou. Son histoire vient de la tradition orale et connaît plusieurs variantes selon les narrateurs. Le grand prix du FESPACO, l'Étalon de Yennenga, porte son nom.",
+   "wikidata": "Q2600088",
+   "roles": [
+    "princesse",
+    "figure fondatrice (tradition)"
+   ],
+   "domaines": [
+    "histoire orale"
+   ],
+   "epoque": "tradition orale",
+   "note": "Figure de tradition orale : aucune date n'est fiable (Wikidata donne 1101 à titre indicatif).",
+   "sources": [
+    "S44",
+    "S24",
+    "S23",
+    "S82"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "naissance": {
+    "lieu": "Gambaga (nord du Ghana actuel), selon la tradition"
+   }
+  },
+  {
+   "id": "BF-personnalite-guimbi-ouattara",
+   "nom": "Guimbi Ouattara",
+   "description": "Dirigeante et cheffe militaire de Bobo-Dioulasso, née vers 1836 et morte en 1919. Elle reçut les explorateurs européens Binger, Crozat et Monteil à l'époque des premières expéditions. Un mausolée et plusieurs établissements de Bobo-Dioulasso portent son nom.",
+   "wikidata": "Q41751855",
+   "roles": [
+    "dirigeante",
+    "cheffe militaire",
+    "diplomate"
+   ],
+   "domaines": [
+    "politique"
+   ],
+   "epoque": "XIXe siècle",
+   "sources": [
+    "S22",
+    "S20",
+    "S83"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "naissance": {
+    "date": "1836",
+    "lieu": "Bobo-Dioulasso"
+   },
+   "deces": {
+    "date": "1919"
+   }
+  },
+  {
+   "id": "BF-personnalite-thomas-sankara",
+   "nom": "Thomas Sankara",
+   "description": "Officier né à Yako, Premier ministre en janvier 1983 puis président du pays après le coup d'État du 4 août 1983. Il rebaptisa le pays Burkina Faso, mena une politique anti-impérialiste et volontariste (femmes, santé, éducation, arbres) et fit porter des cotonnades locales aux officiels. Il a été assassiné le 15 octobre 1987 lors du coup d'État de Blaise Compaoré.",
+   "wikidata": "Q202155",
+   "roles": [
+    "capitaine",
+    "président"
+   ],
+   "domaines": [
+    "politique"
+   ],
+   "epoque": "XXe siècle",
+   "sensible": true,
+   "note_sensibilite": "Assassinat dont les responsabilités ont fait l'objet de procédures judiciaires ; présentation limitée aux faits sourcés.",
+   "sources": [
+    "S54",
+    "S71",
+    "S87"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "naissance": {
+    "date": "1949-12-21",
+    "lieu": "Yako"
+   },
+   "deces": {
+    "date": "1987-10-15",
+    "lieu": "Ouagadougou"
+   }
+  },
+  {
+   "id": "BF-personnalite-norbert-zongo",
+   "nom": "Norbert Zongo",
+   "description": "Journaliste et écrivain, directeur de publication de l'hebdomadaire L'Indépendant, qui signait aussi Henri Segbo. Il s'était spécialisé dans l'enquête sur les « dossiers noirs » de la IVe République. Il est mort le 13 décembre 1998 avec trois compagnons, retrouvés dans un véhicule calciné près de Sapouy ; les autorités ont ensuite proposé une commission d'enquête indépendante.",
+   "wikidata": "Q339733",
+   "roles": [
+    "journaliste",
+    "directeur de publication",
+    "écrivain"
+   ],
+   "domaines": [
+    "journalisme",
+    "littérature"
+   ],
+   "epoque": "XXe siècle",
+   "sensible": true,
+   "note_sensibilite": "Assassinat et enquête judiciaire contestée ; présentation limitée aux faits rapportés par RSF.",
+   "sources": [
+    "S55",
+    "S88"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "naissance": {
+    "date": "1949-07-31",
+    "lieu": "Koudougou"
+   },
+   "deces": {
+    "date": "1998-12-13",
+    "lieu": "Sapouy"
+   }
+  },
+  {
+   "id": "BF-personnalite-joseph-ki-zerbo",
+   "nom": "Joseph Ki-Zerbo",
+   "description": "Historien et homme politique né à Toma en 1922, formé à Paris, actif en Guinée puis en Haute-Volta. Il a centré ses travaux sur le développement endogène et fondé le Centre d'études pour le développement africain (CEDA). Il a publié en 1972 L'Histoire de l'Afrique noire, ouvrage de référence, et il a reçu le Right Livelihood Award en 1997 et est mort en 2006.",
+   "wikidata": "Q739752",
+   "roles": [
+    "historien",
+    "professeur",
+    "homme politique"
+   ],
+   "domaines": [
+    "savoirs",
+    "histoire",
+    "politique"
+   ],
+   "epoque": "XXe siècle",
+   "sources": [
+    "S56",
+    "S86"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "naissance": {
+    "date": "1922-06-21",
+    "lieu": "Toma"
+   },
+   "deces": {
+    "date": "2006-12-04",
+    "lieu": "Ouagadougou"
+   }
+  },
+  {
+   "id": "BF-personnalite-idrissa-ouedraogo",
+   "nom": "Idrissa Ouédraogo",
+   "description": "Cinéaste burkinabè surnommé « le maestro », né en 1954 et mort en 2018. Son film Tilaï (« la loi » ou « l'honneur ») a reçu le Grand Prix ex aequo au Festival de Cannes en 1990. Le tournage dans des paysages arides et à petit budget a marqué le cinéma africain.",
+   "wikidata": "Q113628",
+   "roles": [
+    "réalisateur",
+    "scénariste",
+    "producteur"
+   ],
+   "domaines": [
+    "cinéma",
+    "arts"
+   ],
+   "epoque": "XXe-XXIe siècles",
+   "sources": [
+    "S57",
+    "S58",
+    "S92"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "naissance": {
+    "date": "1954-01-21",
+    "lieu": "Banfora"
+   },
+   "deces": {
+    "date": "2018-02-18",
+    "lieu": "Ouagadougou"
+   }
+  },
+  {
+   "id": "BF-personnalite-gaston-kabore",
+   "nom": "Gaston Kaboré",
+   "description": "Cinéaste né à Bobo-Dioulasso en 1951, formé à Paris en cinéma et en histoire. Son film Wend Kuuni (1982) a reçu le César du meilleur film francophone en 1985, et Buud Yam a remporté le grand prix du FESPACO. Il a dirigé la Fédération panafricaine des cinéastes et fondé IMAGINE, centre culturel de Ouagadougou.",
+   "wikidata": "Q1495587",
+   "roles": [
+    "réalisateur",
+    "responsable culturel"
+   ],
+   "domaines": [
+    "cinéma",
+    "arts"
+   ],
+   "epoque": "XXe-XXIe siècles",
+   "sources": [
+    "S59",
+    "S93"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "naissance": {
+    "date": "1951",
+    "lieu": "Bobo-Dioulasso"
+   }
+  },
+  {
+   "id": "BF-personnalite-fanta-regina-nacro",
+   "nom": "Fanta Régina Nacro",
+   "description": "Cinéaste et scénariste burkinabè née à Tenkodogo, qui a participé au scénario de Yam Daabo en 1986. Son court-métrage Le Truc de Konaté a été primé au FESPACO en 1999 et dans de nombreux festivals.",
+   "wikidata": "Q433636",
+   "roles": [
+    "réalisatrice",
+    "scénariste"
+   ],
+   "domaines": [
+    "cinéma",
+    "arts"
+   ],
+   "epoque": "XXe-XXIe siècles",
+   "note": "Date de naissance (4 septembre 1962) donnée par Wikidata seulement ; non reprise faute de source institutionnelle.",
+   "sources": [
+    "S61",
+    "S91"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "naissance": {
+    "lieu": "Tenkodogo"
+   }
+  },
+  {
+   "id": "BF-personnalite-apolline-traore",
+   "nom": "Apolline Traoré",
+   "description": "Réalisatrice burkinabè née à Ouagadougou en 1976, formée à l'Emerson College de Boston. Son film de fin d'études The Price of Ignorance a reçu le prix du jury au FESPACO en 2001, et son long métrage Sira a été présenté à la Berlinale en 2023. Elle écrit, réalise et produit ses films.",
+   "wikidata": "Q53998060",
+   "roles": [
+    "réalisatrice",
+    "scénariste",
+    "productrice"
+   ],
+   "domaines": [
+    "cinéma",
+    "arts"
+   ],
+   "epoque": "XXIe siècle",
+   "sources": [
+    "S62",
+    "S94"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "naissance": {
+    "date": "1976",
+    "lieu": "Ouagadougou"
+   }
+  },
+  {
+   "id": "BF-personnalite-monique-ilboudo",
+   "nom": "Monique Ilboudo",
+   "description": "Écrivaine, juriste et femme politique burkinabè, docteure en droit privé de la Sorbonne. Son roman Le Mal de peau (1992) a reçu le Prix national du Burkina Faso, et elle a tenu la chronique « Féminin Pluriel » dans L'Observateur Paalga. Elle a été secrétaire d'État puis ministre chargée de la promotion des droits humains.",
+   "wikidata": "Q6900355",
+   "roles": [
+    "écrivaine",
+    "avocate",
+    "ministre"
+   ],
+   "domaines": [
+    "littérature",
+    "droit",
+    "politique"
+   ],
+   "epoque": "XXe-XXIe siècles",
+   "note": "Année et lieu de naissance donnés par Wikidata seulement.",
+   "sources": [
+    "S60",
+    "S90"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "naissance": {
+    "date": "1959",
+    "lieu": "Ouagadougou"
+   }
+  },
+  {
+   "id": "BF-personnalite-nazi-boni",
+   "nom": "Nazi Boni",
+   "description": "Écrivain et homme politique voltaïque, considéré comme le pionnier de la littérature burkinabè avec Crépuscule des temps anciens. Un article de 2017 explique l'oubli relatif de son œuvre par le stigmate politique subi sous le président Maurice Yaméogo et par des maladresses de style.",
+   "wikidata": "Q1296131",
+   "roles": [
+    "écrivain",
+    "homme politique"
+   ],
+   "domaines": [
+    "littérature",
+    "politique"
+   ],
+   "epoque": "XXe siècle",
+   "note": "Date exacte de naissance non établie (Wikidata : 1909) ; lieu non retenu.",
+   "sources": [
+    "S53",
+    "S84"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "naissance": {
+    "date": "1909"
+   },
+   "deces": {
+    "date": "1969-05-16",
+    "lieu": "Ouagadougou"
+   }
+  },
+  {
+   "id": "BF-personnalite-ouezzin-coulibaly",
+   "nom": "Daniel Ouezzin Coulibaly",
+   "description": "Instituteur et responsable politique né vers 1909 à Pouy, dans la communauté bobo, formé à l'école William-Ponty. Il fut l'un des fondateurs du Rassemblement démocratique africain (RDA), député, sénateur, puis vice-président du Conseil de gouvernement de la Haute-Volta en 1957. Il est mort à Paris le 7 septembre 1958.",
+   "wikidata": "Q605405",
+   "roles": [
+    "enseignant",
+    "parlementaire",
+    "responsable politique"
+   ],
+   "domaines": [
+    "politique"
+   ],
+   "epoque": "XXe siècle",
+   "note": "Date de naissance précise discutée : l'Encyclopaedia Africana indique « vers 1909 ».",
+   "sources": [
+    "S63",
+    "S85"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "naissance": {
+    "date": "1909",
+    "lieu": "Pouy"
+   },
+   "deces": {
+    "date": "1958-09-07",
+    "lieu": "Paris"
+   }
+  },
+  {
+   "id": "BF-personnalite-maurice-yameogo",
+   "nom": "Maurice Yaméogo",
+   "description": "Premier président de la Haute-Volta indépendante, à la tête de l'UDV-RDA, parti dont la Maison du peuple de Ouagadougou abritait les réunions. Réélu en octobre 1965, il a dû démissionner le 3 janvier 1966 après des soulèvements populaires. Il est mort en 1993.",
+   "wikidata": "Q442765",
+   "roles": [
+    "président",
+    "chef de parti"
+   ],
+   "domaines": [
+    "politique"
+   ],
+   "epoque": "XXe siècle",
+   "note": "Année de naissance donnée par Wikidata et Wikipédia (1921) ; jour inconnu.",
+   "sources": [
+    "S11",
+    "S20",
+    "S89"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "naissance": {
+    "date": "1921",
+    "lieu": "Koudougou"
+   },
+   "deces": {
+    "date": "1993-09-15"
+   }
+  },
+  {
+   "id": "BF-personnalite-hugues-zango",
+   "nom": "Hugues Fabrice Zango",
+   "description": "Athlète né à Ouagadougou en 1993, spécialiste du triple saut. Il a décroché le bronze aux Jeux olympiques de Tokyo avec 17,47 m, première médaille olympique de l'histoire du Burkina Faso. Il détenait alors le record du monde en salle.",
+   "wikidata": "Q20976240",
+   "roles": [
+    "athlète"
+   ],
+   "domaines": [
+    "sport"
+   ],
+   "epoque": "XXIe siècle",
+   "sources": [
+    "S64",
+    "S95"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "naissance": {
+    "date": "1993-06-25",
+    "lieu": "Ouagadougou"
+   }
+  },
+  {
+   "id": "BF-personnalite-marthe-koala",
+   "nom": "Marthe Koala",
+   "description": "Athlète née à Bobo-Dioulasso en 1994, spécialiste du 100 m haies et du saut en longueur. World Athletics la décrit comme victorieuse des Jeux africains et deux fois championne d'Afrique. Son record national au saut en longueur est de 6,94 m (août 2023).",
+   "wikidata": "Q6774651",
+   "roles": [
+    "athlète"
+   ],
+   "domaines": [
+    "sport"
+   ],
+   "epoque": "XXIe siècle",
+   "sources": [
+    "S65",
+    "S96"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "naissance": {
+    "date": "1994-03-08",
+    "lieu": "Bobo-Dioulasso"
+   }
+  }
+ ],
+ "evenements": [
+  {
+   "id": "BF-evenement-douroula",
+   "description": "Douroula est le plus ancien témoin de production de fer recensé dans le pays. Il fait partie des cinq éléments inscrits à l'UNESCO en 2019 ; les autres illustrent l'intensification de la production au IIe millénaire.",
+   "titre": "Fer à Douroula",
+   "date": "-000799-01-01",
+   "date_affichee": "VIIIe siècle av. J.-C.",
+   "precision": "siecle",
+   "regions": [
+    "Bankui"
+   ],
+   "sources": [
+    "S3"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-evenement-loropeni-apogee",
+   "description": "Les Lohron ou les Koulango contrôlent l'extraction et la transformation de l'or dans la région. La forteresse de Loropéni sera abandonnée définitivement au début du XIXe siècle.",
+   "titre": "Apogée de l'exploitation de l'or autour de Loropéni",
+   "date": "1300-01-01",
+   "date_affichee": "XIVe-XVIIe siècle",
+   "precision": "siecle",
+   "fin": "1699-12-31",
+   "regions": [
+    "Sud-Ouest"
+   ],
+   "sources": [
+    "S1"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-evenement-tiebele-fondation",
+   "description": "L'UNESCO situe depuis le XVIe siècle l'ensemble architectural en terre de la cour royale kasena de Tiébélé, qui reste aujourd'hui un site vivant.",
+   "titre": "Établissement de la cour royale de Tiébélé",
+   "date": "1500-01-01",
+   "date_affichee": "XVIe siècle",
+   "precision": "siecle",
+   "regions": [
+    "Tiébélé"
+   ],
+   "acteurs": [
+    "Kasena"
+   ],
+   "sources": [
+    "S4"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-evenement-royaumes-moose",
+   "description": "Les travaux d'Izard situent au XVIe siècle l'émergence de l'espace étatique du Moogo. Trois grands royaumes sont distingués : Ouagadougou au centre, Yatenga au nord et Tenkodogo au sud. Les dates précises restent incertaines et reposent largement sur des traditions orales.",
+   "titre": "Émergence des royaumes moose",
+   "date": "1500-01-01",
+   "date_affichee": "XVIe siècle",
+   "precision": "siecle",
+   "fin": "1599-12-31",
+   "acteurs": [
+    "Moose"
+   ],
+   "sources": [
+    "S44",
+    "S20"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-evenement-traversee-volta-noire",
+   "description": "Selon la tradition orale étudiée par les chercheurs, Lobi et Birifor franchissent la Volta Noire en venant du nord du Ghana. Les deux lieux de passage correspondent encore aux localités sacrées de l'initiation du jɔ́rɔ́, Dapola-Nako et Batié Nord.",
+   "titre": "Traversée de la Volta Noire par les Lobi et les Birifor",
+   "date": "1770-01-01",
+   "date_affichee": "vers 1770",
+   "precision": "annee",
+   "acteurs": [
+    "Lobi",
+    "Birifor"
+   ],
+   "regions": [
+    "Sud-Ouest"
+   ],
+   "sources": [
+    "S45"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-evenement-ouagadougou-1896",
+   "description": "Après l'occupation de la capitale mossi, le nouveau Mogho Naaba accepte le protectorat français. Entre 1853 et 1897, seize traités de protection ont été signés par les puissances européennes avec différents groupes.",
+   "titre": "Prise de Ouagadougou par la France",
+   "date": "1896-12-23",
+   "date_affichee": "23 décembre 1896",
+   "precision": "jour",
+   "acteurs": [
+    "Mogho Naaba",
+    "France"
+   ],
+   "regions": [
+    "Ouagadougou"
+   ],
+   "sources": [
+    "S20",
+    "S19"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-evenement-haute-volta-1919",
+   "description": "La colonie de Haute-Volta est créée par décret, avec Ouagadougou pour chef-lieu et sept cercles. Un article de Benoît Beucher étudie la reconstitution de la colonie sous l'angle des rapports entre pouvoir colonial et royauté moaaga (1919-1947).",
+   "titre": "Création de la colonie de Haute-Volta",
+   "date": "1919-03-01",
+   "date_affichee": "1er mars 1919",
+   "precision": "jour",
+   "regions": [
+    "Ouagadougou"
+   ],
+   "sources": [
+    "S20",
+    "S52"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-evenement-demembrement-1932",
+   "description": "La colonie est partagée entre le Soudan français, la Côte d'Ivoire et le Niger, malgré les protestations du Mogho Naaba.",
+   "titre": "Démembrement de la Haute-Volta",
+   "date": "1932-09-01",
+   "date_affichee": "septembre 1932",
+   "precision": "mois",
+   "sources": [
+    "S20",
+    "S52"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-evenement-reconstitution-1947",
+   "description": "La Haute-Volta est reconstituée dans ses limites de 1932, après des démarches menées notamment par le Mogho Naaba Kom II puis son fils Naaba Sagha II.",
+   "titre": "Reconstitution de la Haute-Volta",
+   "date": "1947-01-01",
+   "date_affichee": "1947",
+   "precision": "annee",
+   "acteurs": [
+    "Mogho Naaba Kom II",
+    "Naaba Sagha II"
+   ],
+   "sources": [
+    "S20",
+    "S52"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-evenement-ouezzin-1957",
+   "description": "Après son élection comme conseiller territorial de Banfora, Daniel Ouezzin Coulibaly devient vice-président du Conseil de gouvernement de la Haute-Volta. Il meurt à Paris le 7 septembre 1958.",
+   "titre": "Daniel Ouezzin Coulibaly à la tête du Conseil de gouvernement",
+   "date": "1957-01-01",
+   "date_affichee": "1957",
+   "precision": "annee",
+   "acteurs": [
+    "Daniel Ouezzin Coulibaly"
+   ],
+   "sources": [
+    "S63"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-evenement-independance-1960",
+   "description": "L'ancienne colonie de Haute-Volta devient indépendante. Maurice Yaméogo, à la tête de l'UDV-RDA, devient le premier président.",
+   "titre": "Indépendance de la Haute-Volta",
+   "date": "1960-08-05",
+   "date_affichee": "5 août 1960",
+   "precision": "jour",
+   "acteurs": [
+    "Maurice Yaméogo"
+   ],
+   "sources": [
+    "S19",
+    "S20",
+    "S11"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-evenement-maison-du-peuple-1965",
+   "description": "Le bâtiment circulaire de béton de René Faublée, construit pour les réunions du parti UDV-RDA, est officiellement inauguré à Ouagadougou.",
+   "titre": "Inauguration de la Maison du peuple",
+   "date": "1965-10-18",
+   "date_affichee": "18 octobre 1965",
+   "precision": "jour",
+   "regions": [
+    "Ouagadougou"
+   ],
+   "sources": [
+    "S11"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-evenement-demission-yameogo-1966",
+   "description": "Maurice Yaméogo démissionne à la suite de soulèvements populaires, après avoir tenté d'imposer l'UDV comme parti unique.",
+   "titre": "Démission de Maurice Yaméogo",
+   "date": "1966-01-03",
+   "date_affichee": "3 janvier 1966",
+   "precision": "jour",
+   "acteurs": [
+    "Maurice Yaméogo"
+   ],
+   "sensible": true,
+   "note_sensibilite": "Événement politique ; une seconde source non encyclopédique reste à ajouter.",
+   "sources": [
+    "S20"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-evenement-fespaco-1969",
+   "description": "Le festival de cinéma africain de Ouagadougou voit le jour en 1969. Il devient panafricain en 1972 et décerne dès lors l'Étalon de Yennenga. Il se tient tous les deux ans.",
+   "titre": "Création du FESPACO",
+   "date": "1969-01-01",
+   "date_affichee": "1969",
+   "precision": "annee",
+   "regions": [
+    "Ouagadougou"
+   ],
+   "sources": [
+    "S23",
+    "S70"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-evenement-histoire-afrique-noire-1972",
+   "description": "Le livre de synthèse de Joseph Ki-Zerbo, publié en 1972, est décrit par la Right Livelihood Foundation comme l'ouvrage de référence sur le sujet, régulièrement mis à jour.",
+   "titre": "Parution de l'Histoire de l'Afrique noire de Joseph Ki-Zerbo",
+   "date": "1972-01-01",
+   "date_affichee": "1972",
+   "precision": "annee",
+   "acteurs": [
+    "Joseph Ki-Zerbo"
+   ],
+   "sources": [
+    "S56"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-evenement-revolution-1983",
+   "description": "Un coup d'État orchestré avec Blaise Compaoré porte le capitaine Thomas Sankara à la présidence. Son gouvernement mène une diplomatie anti-impérialiste et des réformes sociales.",
+   "titre": "Prise du pouvoir par Thomas Sankara",
+   "date": "1983-08-04",
+   "date_affichee": "4 août 1983",
+   "precision": "jour",
+   "acteurs": [
+    "Thomas Sankara",
+    "Blaise Compaoré"
+   ],
+   "sources": [
+    "S54"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-evenement-burkina-faso-1984",
+   "description": "La Haute-Volta devient le Burkina Faso, nom qui signifie « le pays des hommes intègres ». Le pays en informe les Nations unies en 1984.",
+   "titre": "Changement de nom : Burkina Faso",
+   "date": "1984-08-04",
+   "date_affichee": "4 août 1984",
+   "precision": "jour",
+   "acteurs": [
+    "Thomas Sankara"
+   ],
+   "sources": [
+    "S19",
+    "S54",
+    "S72"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-evenement-sankara-1987",
+   "description": "Thomas Sankara est tué lors du coup d'État qui porte Blaise Compaoré au pouvoir. Des décennies plus tard, Compaoré a été condamné par contumace à la prison à vie, selon Africanews.",
+   "titre": "Assassinat de Thomas Sankara",
+   "date": "1987-10-15",
+   "date_affichee": "15 octobre 1987",
+   "precision": "jour",
+   "acteurs": [
+    "Thomas Sankara",
+    "Blaise Compaoré"
+   ],
+   "sensible": true,
+   "note_sensibilite": "Responsabilités encore discutées : présentation limitée aux faits sourcés.",
+   "sources": [
+    "S54",
+    "S71"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-evenement-festima-1996",
+   "description": "Le festival international des masques et des arts est lancé à Dédougou par l'association ASAMA pour sauvegarder les masques.",
+   "titre": "Lancement du FESTIMA à Dédougou",
+   "date": "1996-01-01",
+   "date_affichee": "1996",
+   "precision": "annee",
+   "regions": [
+    "Dédougou"
+   ],
+   "acteurs": [
+    "ASAMA"
+   ],
+   "sources": [
+    "S68"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-evenement-w-arly-pendjari-1996",
+   "description": "Le parc national du W du Niger est inscrit sur la Liste du patrimoine mondial en 1996 ; le complexe W-Arly-Pendjari, qui l'étend au Bénin et au Burkina Faso, apparaît avec les années 1996 et 2017 sur la page de l'État partie.",
+   "titre": "Inscription du W et du complexe W-Arly-Pendjari",
+   "date": "1996-01-01",
+   "date_affichee": "1996",
+   "precision": "annee",
+   "sources": [
+    "S2",
+    "S5"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-evenement-zongo-1998",
+   "description": "Le journaliste Norbert Zongo et trois compagnons sont retrouvés morts, dans un véhicule calciné, à environ 7 km de Sapouy. Les autorités ont ensuite proposé la création d'une commission d'enquête indépendante.",
+   "titre": "Assassinat de Norbert Zongo",
+   "date": "1998-12-13",
+   "date_affichee": "13 décembre 1998",
+   "precision": "jour",
+   "acteurs": [
+    "Norbert Zongo"
+   ],
+   "sensible": true,
+   "note_sensibilite": "Affaire judiciaire contestée ; présentation limitée aux faits rapportés par RSF.",
+   "sources": [
+    "S55"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-evenement-loropeni-2009",
+   "description": "Les ruines de Loropéni sont inscrites sur la Liste du patrimoine mondial, premier bien culturel du pays.",
+   "titre": "Loropéni, premier bien burkinabè inscrit à l'UNESCO",
+   "date": "2009-01-01",
+   "date_affichee": "2009",
+   "precision": "annee",
+   "sources": [
+    "S1",
+    "S5"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-evenement-insurrection-2014",
+   "description": "Face au projet de révision constitutionnelle qui lui aurait permis de rester au pouvoir, des manifestations massives, le 30 octobre 2014, aboutissent à l'incendie de l'Assemblée nationale. Blaise Compaoré démissionne le lendemain après vingt-sept ans de pouvoir.",
+   "titre": "Insurrection populaire et chute de Blaise Compaoré",
+   "date": "2014-10-30",
+   "date_affichee": "30-31 octobre 2014",
+   "precision": "jour",
+   "fin": "2014-10-31",
+   "acteurs": [
+    "Blaise Compaoré"
+   ],
+   "sensible": true,
+   "note_sensibilite": "Événement politique récent.",
+   "sources": [
+    "S71"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-evenement-coup-2015",
+   "description": "Des soldats du Régiment de sécurité présidentielle, sous les ordres du général Gilbert Diendéré, prennent en otage le président de transition et plusieurs membres du gouvernement. Les autorités de transition sont finalement rétablies.",
+   "titre": "Coup d'État du 16 septembre 2015",
+   "date": "2015-09-16",
+   "date_affichee": "16 septembre 2015",
+   "precision": "jour",
+   "sensible": true,
+   "note_sensibilite": "Événement politique récent ; seconde source non encyclopédique à compléter.",
+   "sources": [
+    "S20",
+    "S71"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-evenement-attentats-2016",
+   "description": "Des hommes armés attaquent un bar, un restaurant et un hôtel du centre de Ouagadougou. Al Jazeera rapporte 30 morts et 56 blessés de 18 nationalités, avec une revendication d'AQMI et d'Al-Mourabitoun.",
+   "titre": "Attentats de Ouagadougou",
+   "date": "2016-01-15",
+   "date_affichee": "15 janvier 2016",
+   "precision": "jour",
+   "regions": [
+    "Ouagadougou"
+   ],
+   "sensible": true,
+   "note_sensibilite": "Violences récentes : présentation neutre, bilan tel que rapporté par la presse.",
+   "sources": [
+    "S20",
+    "S69"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-evenement-coups-2022",
+   "description": "Le 24 janvier 2022, le président Kaboré est arrêté par des militaires et Paul-Henri Sandaogo Damiba prend la tête du pays. Il est renversé le 30 septembre 2022 et Ibrahim Traoré dirige depuis le pays. Africanews compte trois coups d'État depuis 2014.",
+   "titre": "Deux prises de pouvoir militaires en 2022",
+   "date": "2022-01-24",
+   "date_affichee": "24 janvier et 30 septembre 2022",
+   "precision": "jour",
+   "fin": "2022-09-30",
+   "acteurs": [
+    "Paul-Henri Sandaogo Damiba",
+    "Ibrahim Traoré"
+   ],
+   "sensible": true,
+   "note_sensibilite": "Événements politiques récents ; seconde source non encyclopédique à compléter.",
+   "sources": [
+    "S20",
+    "S71"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-evenement-constitution-2023",
+   "description": "L'Assemblée législative de transition adopte une révision constitutionnelle qui fait du français et de l'anglais des langues de travail et officialise les langues nationales.",
+   "titre": "Révision constitutionnelle sur les langues",
+   "date": "2023-12-30",
+   "date_affichee": "30 décembre 2023",
+   "precision": "jour",
+   "sources": [
+    "S17",
+    "S18"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-evenement-metallurgie-2019",
+   "description": "Les cinq éléments de Douroula, Tiwêga, Yamané, Kindibo et Békuy sont inscrits sur la Liste du patrimoine mondial.",
+   "titre": "Inscription des sites de métallurgie ancienne du fer",
+   "date": "2019-01-01",
+   "date_affichee": "2019",
+   "precision": "annee",
+   "sources": [
+    "S3",
+    "S5"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-evenement-tiebele-2024",
+   "description": "La cour royale de Tiébélé est inscrite au patrimoine mondial au titre du critère (iii) pour son exemple d'architecture en terre kasena.",
+   "titre": "Inscription de la cour royale de Tiébélé",
+   "date": "2024-01-01",
+   "date_affichee": "2024",
+   "precision": "annee",
+   "sources": [
+    "S4",
+    "S5"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-evenement-balafon-2024",
+   "description": "La décision 19.COM inscrit sur la Liste représentative les pratiques et expressions liées au balafon et au kolintang, partagées avec le Mali, la Côte d'Ivoire et l'Indonésie.",
+   "titre": "Inscription du balafon au patrimoine immatériel",
+   "date": "2024-01-01",
+   "date_affichee": "2024",
+   "precision": "annee",
+   "sources": [
+    "S6",
+    "S7"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  }
+ ],
+ "oeuvres": [
+  {
+   "id": "BF-oeuvre-masque-simbo-pi",
+   "description": "Masque de bois peint attribué à un forgeron bwa, collecté au village de Boni, dans le district de Bobo-Dioulasso, région de la Volta Noire. Il est daté entre le XIXe et le XXe siècle.",
+   "titre": "Masque Simbo Pi (Bwa)",
+   "type": "masque",
+   "communaute": [
+    "Bwa"
+   ],
+   "materiaux": [
+    "bois",
+    "pigment"
+   ],
+   "institution": "The Metropolitan Museum of Art, New York",
+   "numero_inventaire": "1978.412.357",
+   "url_notice": "https://www.metmuseum.org/art/collection/search/310795",
+   "droits": "Notice Met Open Access (CC0) ; image non libre pour cet objet",
+   "periode": "19e-20e siècle",
+   "sensible": true,
+   "note_sensibilite": "Masque d'un contexte rituel : consulter les communautés bwa avant diffusion d'images.",
+   "sources": [
+    "S73"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-oeuvre-masque-duho-duba",
+   "description": "Grand masque de bois peint (130 cm de large) réalisé par un forgeron bwa du sud, dans la première moitié du XXe siècle. Il est associé à Boni.",
+   "titre": "Masque faucon ou vautour (duho / duba, Bwa du Sud)",
+   "type": "masque",
+   "communaute": [
+    "Bwa"
+   ],
+   "materiaux": [
+    "bois de fromager (?)",
+    "pigment",
+    "fibre"
+   ],
+   "institution": "The Metropolitan Museum of Art, New York",
+   "numero_inventaire": "1979.206.196",
+   "url_notice": "https://www.metmuseum.org/art/collection/search/312401",
+   "droits": "Notice Met Open Access (CC0) ; image non libre pour cet objet",
+   "periode": "première moitié du 20e siècle",
+   "sensible": true,
+   "note_sensibilite": "Masque d'un contexte rituel : consulter les communautés bwa.",
+   "sources": [
+    "S74"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-oeuvre-masque-planche-nwantantay",
+   "description": "Masque à planche en bois, fibres et pigment, de la tradition bwa, daté du XIXe-XXe siècle.",
+   "titre": "Masque-planche Nwantantay (Bwa)",
+   "type": "masque",
+   "communaute": [
+    "Bwa"
+   ],
+   "materiaux": [
+    "bois",
+    "pigment",
+    "fibre"
+   ],
+   "institution": "The Metropolitan Museum of Art, New York",
+   "numero_inventaire": "1978.412.306",
+   "url_notice": "https://www.metmuseum.org/art/collection/search/310749",
+   "droits": "Notice Met Open Access (CC0) ; image non libre pour cet objet",
+   "periode": "19e-20e siècle",
+   "sensible": true,
+   "note_sensibilite": "Masque d'un contexte rituel.",
+   "sources": [
+    "S75"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-oeuvre-masque-casque-kuma",
+   "description": "Masque-casque bobo en bois de fromager (?) et pigment représentant un calao, daté de la fin du XIXe au milieu du XXe siècle.",
+   "titre": "Masque-casque Kuma (calao, Bobo)",
+   "type": "masque",
+   "communaute": [
+    "Bobo"
+   ],
+   "materiaux": [
+    "bois de fromager (?)",
+    "pigment"
+   ],
+   "institution": "The Metropolitan Museum of Art, New York",
+   "numero_inventaire": "1975.286",
+   "url_notice": "https://www.metmuseum.org/art/collection/search/309997",
+   "droits": "Notice Met Open Access (CC0) ; image non libre pour cet objet",
+   "periode": "fin 19e-milieu 20e siècle",
+   "sensible": true,
+   "note_sensibilite": "Masque d'un contexte rituel.",
+   "sources": [
+    "S76"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-oeuvre-figure-bateba-lobi",
+   "description": "Statue de bois lobi de type bateba, datée du XIXe au XXe siècle.",
+   "titre": "Figure féminine Bateba (Lobi)",
+   "type": "sculpture",
+   "communaute": [
+    "Lobi"
+   ],
+   "materiaux": [
+    "bois"
+   ],
+   "institution": "The Metropolitan Museum of Art, New York",
+   "numero_inventaire": "1977.220.8",
+   "url_notice": "https://www.metmuseum.org/art/collection/search/310294",
+   "droits": "Notice Met Open Access (CC0) ; image non libre pour cet objet",
+   "periode": "19e-20e siècle",
+   "sensible": true,
+   "note_sensibilite": "Objet sacré : description limitée aux informations de la notice ; consulter les communautés lobi.",
+   "sources": [
+    "S77"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-oeuvre-masque-karan-wemba",
+   "description": "Masque en bois de fromager (?) et métal des Mossi, représentant une figure féminine, daté du XIXe à la première moitié du XXe siècle.",
+   "titre": "Masque Karan-wemba (figure féminine, Mossi)",
+   "type": "masque",
+   "communaute": [
+    "Mossi (Moose)"
+   ],
+   "materiaux": [
+    "bois de fromager (?)",
+    "métal"
+   ],
+   "institution": "The Metropolitan Museum of Art, New York",
+   "numero_inventaire": "1979.206.84",
+   "url_notice": "https://www.metmuseum.org/art/collection/search/312288",
+   "droits": "Notice Met Open Access (CC0) ; image non libre pour cet objet",
+   "periode": "19e-première moitié 20e siècle",
+   "sensible": true,
+   "note_sensibilite": "Masque d'un contexte rituel.",
+   "sources": [
+    "S78"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-oeuvre-chaise-dagalo-nuna",
+   "description": "Siège de bois nuna daté du XIXe au début du XXe siècle, conservé au Met.",
+   "titre": "Chaise Dâgalo (Nuna)",
+   "type": "sculpture",
+   "communaute": [
+    "Nuna"
+   ],
+   "materiaux": [
+    "bois"
+   ],
+   "institution": "The Metropolitan Museum of Art, New York",
+   "numero_inventaire": "1978.412.642",
+   "url_notice": "https://www.metmuseum.org/art/collection/search/311101",
+   "droits": "Notice Met Open Access (CC0) ; image non libre pour cet objet",
+   "periode": "19e-début 20e siècle",
+   "sources": [
+    "S79"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-oeuvre-coiffe-adone-kurumba",
+   "description": "Coiffe en bois peint en forme d'antilope, de la tradition kurumba, du XIXe à la première moitié du XXe siècle.",
+   "titre": "Coiffe en antilope Adoné (Kurumba)",
+   "type": "masque",
+   "communaute": [
+    "Kurumba"
+   ],
+   "materiaux": [
+    "bois",
+    "pigment"
+   ],
+   "institution": "The Metropolitan Museum of Art, New York",
+   "numero_inventaire": "1979.206.253",
+   "url_notice": "https://www.metmuseum.org/art/collection/search/312229",
+   "droits": "Notice Met Open Access (CC0) ; image non libre pour cet objet",
+   "periode": "19e-première moitié 20e siècle",
+   "sensible": true,
+   "note_sensibilite": "Objet cérémoniel.",
+   "sources": [
+    "S80"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-oeuvre-masque-karou-marka",
+   "description": "Masque en bois de fromager (?) et pigment, de forme de croissant de lune, daté du milieu du XXe siècle et attribué aux Marka.",
+   "titre": "Masque Karou en croissant de lune (Marka)",
+   "type": "masque",
+   "communaute": [
+    "Marka"
+   ],
+   "materiaux": [
+    "bois de fromager (?)",
+    "pigment"
+   ],
+   "institution": "The Metropolitan Museum of Art, New York",
+   "numero_inventaire": "2012.529.4",
+   "url_notice": "https://www.metmuseum.org/art/collection/search/318502",
+   "droits": "Notice Met Open Access (CC0) ; image non libre pour cet objet",
+   "periode": "milieu du 20e siècle",
+   "sensible": true,
+   "note_sensibilite": "Masque d'un contexte rituel.",
+   "sources": [
+    "S81"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-oeuvre-tilai",
+   "description": "Film d'Idrissa Ouédraogo sorti en 1990, qui montre l'honneur comme principe structurant des sociétés traditionnelles burkinabè. Il a reçu le Grand Prix ex aequo au Festival de Cannes 1990.",
+   "titre": "Tilaï (film)",
+   "type": "film",
+   "createur": "Idrissa Ouédraogo",
+   "institution": "Festival de Cannes (fiche officielle)",
+   "url_notice": "https://www.festival-cannes.com/en/f/tilai",
+   "droits": "tous droits réservés",
+   "periode": "1990",
+   "sources": [
+    "S57",
+    "S58"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-oeuvre-wend-kuuni",
+   "description": "Film de Gaston Kaboré, sorti en 1982 et récompensé par le César du meilleur film francophone en 1985. Il est cité dans la biographie du cinéaste par l'African Film Festival de New York.",
+   "titre": "Wend Kuuni (film)",
+   "type": "film",
+   "createur": "Gaston Kaboré",
+   "institution": "African Film Festival, Inc. (fiche du réalisateur)",
+   "url_notice": "https://africanfilmny.org/?p=8151",
+   "droits": "tous droits réservés",
+   "periode": "1982",
+   "sources": [
+    "S59"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-oeuvre-mal-de-peau",
+   "description": "Premier roman de Monique Ilboudo, publié à Ouagadougou en 1992 puis réédité au Serpent à plumes. Il met en parallèle le destin d'une mère et de sa fille, toutes deux confrontées au colonisateur, et a reçu le Prix national du Burkina Faso.",
+   "titre": "Le Mal de peau (roman)",
+   "type": "livre",
+   "createur": "Monique Ilboudo",
+   "institution": "AfLit (University of Western Australia, fiche de l'auteure)",
+   "url_notice": "https://aflit.arts.uwa.edu.au/IlboudoMonique.html",
+   "droits": "tous droits réservés",
+   "periode": "1992",
+   "sources": [
+    "S60"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "BF-oeuvre-crepuscule-temps-anciens",
+   "description": "Roman de Nazi Boni, présenté comme œuvre pionnière de la littérature burkinabè. Un article de 2017 étudie sa réception et la place d'Ahmadou Kourouma dans l'histoire littéraire.",
+   "titre": "Crépuscule des temps anciens (roman)",
+   "type": "livre",
+   "createur": "Nazi Boni",
+   "institution": "Présence Francophone (article de Edgard Sankara)",
+   "url_notice": "https://crossworks.holycross.edu/pf/vol89/iss1/13",
+   "droits": "tous droits réservés",
+   "sources": [
+    "S53"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  }
+ ],
+ "proverbes": [],
+ "sources": [
+  {
+   "id": "S1",
+   "titre": "Ruines de Loropéni — Centre du patrimoine mondial",
+   "institution": "UNESCO",
+   "url": "https://whc.unesco.org/fr/list/1225",
+   "type": "unesco",
+   "licence": "CC BY-SA 3.0 IGO",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S2",
+   "titre": "Complexe W-Arly-Pendjari — Centre du patrimoine mondial",
+   "institution": "UNESCO",
+   "url": "https://whc.unesco.org/fr/list/749",
+   "type": "unesco",
+   "licence": "CC BY-SA 3.0 IGO",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S3",
+   "titre": "Sites de métallurgie ancienne du fer du Burkina Faso — Centre du patrimoine mondial",
+   "institution": "UNESCO",
+   "url": "https://whc.unesco.org/fr/list/1602",
+   "type": "unesco",
+   "licence": "CC BY-SA 3.0 IGO",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S4",
+   "titre": "La Cour royale de Tiébélé — Centre du patrimoine mondial",
+   "institution": "UNESCO",
+   "url": "https://whc.unesco.org/fr/list/1713",
+   "type": "unesco",
+   "licence": "CC BY-SA 3.0 IGO",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S5",
+   "titre": "Burkina Faso — États parties, Centre du patrimoine mondial",
+   "institution": "UNESCO",
+   "url": "https://whc.unesco.org/fr/etatsparties/bf",
+   "type": "unesco",
+   "licence": "CC BY-SA 3.0 IGO",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S6",
+   "titre": "Pratiques et expressions culturelles liées au balafon et au kolintang au Mali, Burkina Faso, Côte d’Ivoire et Indonésie (n° 02131)",
+   "institution": "UNESCO — patrimoine culturel immatériel",
+   "url": "https://ich.unesco.org/en/RL/cultural-practices-and-expressions-linked-to-balafon-and-kolintang-in-mali-burkina-faso-cote-d-ivoire-and-indonesia-02131",
+   "type": "unesco",
+   "licence": "CC BY-SA 3.0 IGO",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S7",
+   "titre": "Burkina Faso — Patrimoine culturel immatériel",
+   "institution": "UNESCO — patrimoine culturel immatériel",
+   "url": "https://ich.unesco.org/en/state/burkina-faso-BF",
+   "type": "unesco",
+   "licence": "CC BY-SA 3.0 IGO",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S8",
+   "titre": "Les nécropoles de Bourzanga — Liste indicative",
+   "institution": "UNESCO",
+   "url": "https://whc.unesco.org/fr/listesindicatives/56/",
+   "type": "unesco",
+   "licence": "CC BY-SA 3.0 IGO",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S9",
+   "titre": "L’art rupestre au Burkina Faso — Liste indicative",
+   "institution": "UNESCO",
+   "url": "https://whc.unesco.org/fr/listesindicatives/6937/",
+   "type": "unesco",
+   "licence": "CC BY-SA 3.0 IGO",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S10",
+   "titre": "Forêt classée de la mare aux hippopotames — Liste indicative",
+   "institution": "UNESCO",
+   "url": "https://whc.unesco.org/fr/listesindicatives/6938/",
+   "type": "unesco",
+   "licence": "CC BY-SA 3.0 IGO",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S11",
+   "titre": "La Maison du peuple — Liste indicative",
+   "institution": "UNESCO",
+   "url": "https://whc.unesco.org/fr/listesindicatives/6939/",
+   "type": "unesco",
+   "licence": "CC BY-SA 3.0 IGO",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S12",
+   "titre": "Les Mosquées du style soudanais au Burkina Faso — Liste indicative",
+   "institution": "UNESCO",
+   "url": "https://whc.unesco.org/fr/listesindicatives/6940/",
+   "type": "unesco",
+   "licence": "CC BY-SA 3.0 IGO",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S13",
+   "titre": "Sya, centre historique de Bobo-Dioulasso — Liste indicative",
+   "institution": "UNESCO",
+   "url": "https://whc.unesco.org/fr/listesindicatives/6941/",
+   "type": "unesco",
+   "licence": "CC BY-SA 3.0 IGO",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S14",
+   "titre": "Le Village architectural de Koumi — Liste indicative",
+   "institution": "UNESCO",
+   "url": "https://whc.unesco.org/fr/listesindicatives/6942/",
+   "type": "unesco",
+   "licence": "CC BY-SA 3.0 IGO",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S15",
+   "titre": "Population, total — Burkina Faso (SP.POP.TOTL)",
+   "institution": "Banque mondiale",
+   "url": "https://api.worldbank.org/v2/country/BFA/indicator/SP.POP.TOTL?format=json&per_page=5",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21",
+   "annee": 2025
+  },
+  {
+   "id": "S16",
+   "titre": "Burkina Faso (Q965) — Wikidata",
+   "institution": "Wikimedia Foundation",
+   "url": "https://www.wikidata.org/wiki/Q965",
+   "type": "base_de_donnees",
+   "licence": "CC0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S17",
+   "titre": "Burkina Faso : l’anglais et le français deviennent des langues de travail, les langues nationales officielles",
+   "institution": "Le360 Afrique (avec MAP)",
+   "url": "https://afrique.le360.ma/politique/burkina-faso-langlais-et-le-francais-deviennent-des-langues-de-travail-les-langues-nationales_3VRKCRQGIBCB5F3APVJZNVRZOM/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21",
+   "annee": 2023
+  },
+  {
+   "id": "S18",
+   "titre": "Langues au Burkina Faso — Wikipédia",
+   "institution": "Wikipédia (Wikimedia Foundation)",
+   "url": "https://fr.wikipedia.org/wiki/Langues_au_Burkina_Faso",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S19",
+   "titre": "Burkina Faso — Wikipédia",
+   "institution": "Wikipédia (Wikimedia Foundation)",
+   "url": "https://fr.wikipedia.org/wiki/Burkina_Faso",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S20",
+   "titre": "Histoire du Burkina Faso — Wikipédia",
+   "institution": "Wikipédia (Wikimedia Foundation)",
+   "url": "https://fr.wikipedia.org/wiki/Histoire_du_Burkina_Faso",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S21",
+   "titre": "Mossis — Wikipédia",
+   "institution": "Wikipédia (Wikimedia Foundation)",
+   "url": "https://fr.wikipedia.org/wiki/Mossis",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S22",
+   "titre": "Guimbi Ouattara — Wikipédia",
+   "institution": "Wikipédia (Wikimedia Foundation)",
+   "url": "https://fr.wikipedia.org/wiki/Guimbi_Ouattara",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S23",
+   "titre": "FESPACO — Wikipédia",
+   "institution": "Wikipédia (Wikimedia Foundation)",
+   "url": "https://fr.wikipedia.org/wiki/FESPACO",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S24",
+   "titre": "Yennenga — Wikipédia",
+   "institution": "Wikipédia (Wikimedia Foundation)",
+   "url": "https://fr.wikipedia.org/wiki/Yennenga",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S25",
+   "titre": "Glottolog : Mossi (moss1236)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/moss1236",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S26",
+   "titre": "Glottolog : Western Niger Fulfulde (west2454)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/west2454",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S27",
+   "titre": "Glottolog : Dyula (dyul1238)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/dyul1238",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S28",
+   "titre": "Glottolog : Bissa (biss1248)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/biss1248",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S29",
+   "titre": "Glottolog : Gourmanchéma (gour1243)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/gour1243",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S30",
+   "titre": "Glottolog : Northern Dagara (nort2780)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/nort2780",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S31",
+   "titre": "Glottolog : Lobi (lobi1245)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/lobi1245",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S32",
+   "titre": "Glottolog : Southern Bobo Madaré (sout2840)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/sout2840",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S33",
+   "titre": "Glottolog : Cwi Bwamu (cwib1235)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/cwib1235",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S34",
+   "titre": "Glottolog : Kasem (kase1253)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/kase1253",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S35",
+   "titre": "Glottolog : Lyélé (lyel1241)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/lyel1241",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S36",
+   "titre": "Glottolog : Maya Samo (maya1281)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/maya1281",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S37",
+   "titre": "Glottolog : Tamasheq (tama1365)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/tama1365",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S38",
+   "titre": "Glottolog : Marka (mark1256)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/mark1256",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S39",
+   "titre": "Glottolog : Sìcìté Sénoufo (sici1249)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/sici1249",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S40",
+   "titre": "Glottolog : Northern Toussian (nort2787)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/nort2787",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S41",
+   "titre": "Glottolog : French (stan1290)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/stan1290",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S42",
+   "titre": "Glottolog : Burkina Faso Sign Language (burk1234)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/burk1234",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S43",
+   "titre": "Glottolog : Malba Birifor (malb1235)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/malb1235",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S44",
+   "titre": "Compte rendu de J. Kawada, Genèse et dynamique de la royauté : les Mosi méridionaux (Burkina Faso) ; liste des travaux d’Izard sur le Moogo",
+   "institution": "Journal des africanistes (OpenEdition Journals)",
+   "url": "https://journals.openedition.org/africanistes/367",
+   "type": "article_scientifique",
+   "licence": "tous droits réservés (accès libre)",
+   "consulte_le": "2026-11-21",
+   "auteur": "Benoît Beucher",
+   "annee": 2004
+  },
+  {
+   "id": "S45",
+   "titre": "La communication musicale comme élément d’identité culturelle chez les Lobi du Burkina Faso",
+   "institution": "Cahiers d’ethnomusicologie (OpenEdition Journals)",
+   "url": "https://journals.openedition.org/ethnomusicologie/255",
+   "type": "article_scientifique",
+   "licence": "tous droits réservés (accès libre)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S46",
+   "titre": "Les relations de plaisanteries au Burkina Faso. Un mode de communication pour la paix sociale",
+   "institution": "Communication (OpenEdition Journals)",
+   "url": "https://journals.openedition.org/communication/5503",
+   "type": "article_scientifique",
+   "licence": "tous droits réservés (accès libre)",
+   "consulte_le": "2026-11-21",
+   "auteur": "André Nyamba",
+   "annee": 2001
+  },
+  {
+   "id": "S47",
+   "titre": "L’art dans la lutte traditionnelle chez les San du Burkina Faso : le gnandôrô",
+   "institution": "OpenEdition Journals (revue Afrique : archéologie & arts)",
+   "url": "https://journals.openedition.org/aaa/1259",
+   "type": "article_scientifique",
+   "licence": "tous droits réservés (accès libre)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S48",
+   "titre": "Exploitation traditionnelle des végétaux spontanés en région sahélienne du Burkina Faso",
+   "institution": "VertigO (OpenEdition Journals)",
+   "url": "https://journals.openedition.org/vertigo/2783",
+   "type": "article_scientifique",
+   "licence": "tous droits réservés (accès libre)",
+   "consulte_le": "2026-11-21",
+   "auteur": "S. Ganaba, J. M. Ouadba, O. Bognounou",
+   "annee": 2005
+  },
+  {
+   "id": "S49",
+   "titre": "Les voies de la rupture : veuves et orphelins face aux tâches du deuil dans le rituel funéraire bobo (Burkina Faso), première partie",
+   "institution": "Systèmes de pensée en Afrique noire (OpenEdition Journals)",
+   "url": "https://journals.openedition.org/span/1105",
+   "type": "article_scientifique",
+   "licence": "tous droits réservés (accès libre)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S50",
+   "titre": "Les espaces des morts dans les chants funéraires des Moose (Burkina Faso)",
+   "institution": "Journal des africanistes (OpenEdition Journals)",
+   "url": "https://journals.openedition.org/africanistes/2860",
+   "type": "article_scientifique",
+   "licence": "tous droits réservés (accès libre)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S51",
+   "titre": "Les masques de feuilles des Bwaba de Bondoukuy au Burkina Faso. Beauté, contrainte et savoirs partagés",
+   "institution": "HAL-SHS (IRD, PALOC)",
+   "url": "https://shs.hal.science/halshs-02943723v1",
+   "type": "article_scientifique",
+   "licence": "tous droits réservés (archive ouverte HAL)",
+   "consulte_le": "2026-11-21",
+   "auteur": "Anne Fournier",
+   "annee": 2020
+  },
+  {
+   "id": "S52",
+   "titre": "La reconstitution de la Haute-Volta, enjeu de transactions hégémoniques entre le pouvoir colonial et la royauté moaaga de Ouagadougou ? (1919-1947)",
+   "institution": "HAL-SHS (IMAF)",
+   "url": "https://shs.hal.science/halshs-01511952",
+   "type": "article_scientifique",
+   "licence": "tous droits réservés (archive ouverte HAL)",
+   "consulte_le": "2026-11-21",
+   "auteur": "Benoît Beucher",
+   "annee": 2010
+  },
+  {
+   "id": "S53",
+   "titre": "Le Crépuscule de Boni et les Soleils de Kourouma : questions de réception et de préséance dans la littérature francophone africaine",
+   "institution": "Présence Francophone (Holy Cross)",
+   "url": "https://crossworks.holycross.edu/pf/vol89/iss1/13",
+   "type": "article_scientifique",
+   "licence": "tous droits réservés (accès libre)",
+   "consulte_le": "2026-11-21",
+   "auteur": "Edgard Sankara",
+   "annee": 2017
+  },
+  {
+   "id": "S54",
+   "titre": "15 octobre 1987 — Assassinat du président burkinabé Thomas Sankara",
+   "institution": "Herodote.net",
+   "url": "https://www.herodote.net/15_octobre_1987-evenement-19871015.php",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S55",
+   "titre": "Enquête sur la mort de Norbert Zongo",
+   "institution": "Reporters sans frontières",
+   "url": "https://rsf.org/fr/enqu%C3%AAte-sur-la-mort-de-norbert-zongo",
+   "type": "institution",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S56",
+   "titre": "Joseph Ki-Zerbo — lauréat 1997",
+   "institution": "Right Livelihood Foundation",
+   "url": "https://rightlivelihood.org/the-change-makers/find-a-laureate/joseph-ki-zerbo/",
+   "type": "institution",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S57",
+   "titre": "Tilaï — Sélection officielle 1990",
+   "institution": "Festival de Cannes",
+   "url": "https://www.festival-cannes.com/en/f/tilai",
+   "type": "institution",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S58",
+   "titre": "1990 : le « maestro » burkinabé Idrissa Ouedraogo triomphe avec Tilaï",
+   "institution": "Festival de Cannes",
+   "url": "https://www.festival-cannes.com/en/2026/1990-the-burkinabe-maestro-idrissa-ouedraogo-prevails-with-tilai/",
+   "type": "institution",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21",
+   "annee": 2026
+  },
+  {
+   "id": "S59",
+   "titre": "Kaboré, Gaston — biographie",
+   "institution": "African Film Festival, Inc. (New York)",
+   "url": "https://africanfilmny.org/?p=8151",
+   "type": "institution",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S60",
+   "titre": "Monique Ilboudo",
+   "institution": "AfLit (University of Western Australia)",
+   "url": "https://aflit.arts.uwa.edu.au/IlboudoMonique.html",
+   "type": "universite",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S61",
+   "titre": "Fanta Régina Nacro",
+   "institution": "Quinzaine des cinéastes",
+   "url": "https://quinzaine-cineastes.fr/en/director/fanta-regina-nacro",
+   "type": "institution",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S62",
+   "titre": "Apolline Traoré",
+   "institution": "filmportal.de (Deutsches Filminstitut)",
+   "url": "https://filmportal.de/en/node/1845225",
+   "type": "base_de_donnees",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S63",
+   "titre": "Coulibaly, Daniel Ouezzin",
+   "institution": "Encyclopaedia Africana",
+   "url": "https://encyclopaediaafricana.com/?p=19452",
+   "type": "encyclopedie",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S64",
+   "titre": "Pichardo steps up to take Olympic triple jump gold",
+   "institution": "World Athletics",
+   "url": "https://worldathletics.org/news/report/tokyo-olympic-games-men-triple-jump-report",
+   "type": "institution",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21",
+   "annee": 2021
+  },
+  {
+   "id": "S65",
+   "titre": "Marthe Koala — profil",
+   "institution": "World Athletics",
+   "url": "https://worldathletics.org/athletes/-/265674",
+   "type": "institution",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S66",
+   "titre": "Burkina Faso : le Faso dan fani, une tradition vestimentaire indémodable",
+   "institution": "Le360 Afrique",
+   "url": "https://afrique.le360.ma/culture/burkina-faso-le-faso-dan-fani-une-tradition-vestimentaire-indemodable-qui-se-bonifie-avec-le-temps_KKRYQHJJPBE5HMACAHTPNWJQRI/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21",
+   "annee": 2023
+  },
+  {
+   "id": "S67",
+   "titre": "“Wait, It Is Not About Wigs?” The Story of Faso Dan Fani Court Robes in Burkina Faso",
+   "institution": "Law Library of Congress (In Custodia Legis)",
+   "url": "https://blogs.loc.gov/law/2025/04/wait-it-is-not-about-wigs-the-story-of-faso-dan-fani-court-robes-in-burkina-faso/",
+   "type": "institution",
+   "licence": "domaine public (publication d’une institution fédérale américaine)",
+   "consulte_le": "2026-11-21",
+   "auteur": "Louis Gilbert",
+   "annee": 2025
+  },
+  {
+   "id": "S68",
+   "titre": "FESTIMA 2026 : une vingtaine de sociétés de masques en fête à Dédougou",
+   "institution": "Sidwaya",
+   "url": "https://www.sidwaya.info/festima-2026-une-vingtaine-de-societes-de-masques-en-fete-a-dedougou/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21",
+   "annee": 2026
+  },
+  {
+   "id": "S69",
+   "titre": "In Burkina Faso: FESTIMA, a festival of African masks",
+   "institution": "Al Jazeera",
+   "url": "https://www.aljazeera.com/gallery/2016/3/13/in-burkina-faso-festima-a-festival-of-african-masks",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21",
+   "auteur": "Jacob Balzani Loov",
+   "annee": 2016
+  },
+  {
+   "id": "S70",
+   "titre": "FESPACO — Festival panafricain du cinéma et de la télévision de Ouagadougou (site officiel)",
+   "institution": "FESPACO",
+   "url": "https://fespaco.bf/",
+   "type": "institution",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S71",
+   "titre": "Ten years since Compaoré’s overthrow: Burkina Faso’s decade of turmoil",
+   "institution": "Africanews",
+   "url": "https://www.africanews.com/2024/10/31/ten-years-since-compaores-overthrow-burkina-fasos-decade-of-turmoil",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21",
+   "annee": 2024
+  },
+  {
+   "id": "S72",
+   "titre": "Burkina Faso — États Membres",
+   "institution": "Organisation des Nations unies",
+   "url": "https://www.un.org/en/about-us/member-states/burkina-faso",
+   "type": "institution",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S73",
+   "titre": "The Metropolitan Museum of Art — Mask (Simbo Pi) (310795)",
+   "institution": "The Metropolitan Museum of Art",
+   "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/310795",
+   "type": "musee",
+   "licence": "CC0 (données de notice, Open Access API)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S74",
+   "titre": "The Metropolitan Museum of Art — Duho (hawk mask) or duba (vulture mask) (312401)",
+   "institution": "The Metropolitan Museum of Art",
+   "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/312401",
+   "type": "musee",
+   "licence": "CC0 (données de notice, Open Access API)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S75",
+   "titre": "The Metropolitan Museum of Art — Plank Mask (Nwantantay) (310749)",
+   "institution": "The Metropolitan Museum of Art",
+   "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/310749",
+   "type": "musee",
+   "licence": "CC0 (données de notice, Open Access API)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S76",
+   "titre": "The Metropolitan Museum of Art — Kuma (hornbill helmet mask) (309997)",
+   "institution": "The Metropolitan Museum of Art",
+   "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/309997",
+   "type": "musee",
+   "licence": "CC0 (données de notice, Open Access API)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S77",
+   "titre": "The Metropolitan Museum of Art — Figure: Female (Bateba) (310294)",
+   "institution": "The Metropolitan Museum of Art",
+   "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/310294",
+   "type": "musee",
+   "licence": "CC0 (données de notice, Open Access API)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S78",
+   "titre": "The Metropolitan Museum of Art — Karan-wemba (female figure mask) (312288)",
+   "institution": "The Metropolitan Museum of Art",
+   "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/312288",
+   "type": "musee",
+   "licence": "CC0 (données de notice, Open Access API)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S79",
+   "titre": "The Metropolitan Museum of Art — Dâgalo (chair) (311101)",
+   "institution": "The Metropolitan Museum of Art",
+   "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/311101",
+   "type": "musee",
+   "licence": "CC0 (données de notice, Open Access API)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S80",
+   "titre": "The Metropolitan Museum of Art — Adoné (antelope headdress) (312229)",
+   "institution": "The Metropolitan Museum of Art",
+   "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/312229",
+   "type": "musee",
+   "licence": "CC0 (données de notice, Open Access API)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S81",
+   "titre": "The Metropolitan Museum of Art — Karou (crescent-moon mask) (318502)",
+   "institution": "The Metropolitan Museum of Art",
+   "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/318502",
+   "type": "musee",
+   "licence": "CC0 (données de notice, Open Access API)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S82",
+   "titre": "Yennenga (Q2600088) — Wikidata",
+   "institution": "Wikimedia Foundation",
+   "url": "https://www.wikidata.org/wiki/Q2600088",
+   "type": "base_de_donnees",
+   "licence": "CC0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S83",
+   "titre": "Guimbi Ouattara (Q41751855) — Wikidata",
+   "institution": "Wikimedia Foundation",
+   "url": "https://www.wikidata.org/wiki/Q41751855",
+   "type": "base_de_donnees",
+   "licence": "CC0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S84",
+   "titre": "Nazi Boni (Q1296131) — Wikidata",
+   "institution": "Wikimedia Foundation",
+   "url": "https://www.wikidata.org/wiki/Q1296131",
+   "type": "base_de_donnees",
+   "licence": "CC0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S85",
+   "titre": "Daniel Ouezzin Coulibaly (Q605405) — Wikidata",
+   "institution": "Wikimedia Foundation",
+   "url": "https://www.wikidata.org/wiki/Q605405",
+   "type": "base_de_donnees",
+   "licence": "CC0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S86",
+   "titre": "Joseph Ki-Zerbo (Q739752) — Wikidata",
+   "institution": "Wikimedia Foundation",
+   "url": "https://www.wikidata.org/wiki/Q739752",
+   "type": "base_de_donnees",
+   "licence": "CC0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S87",
+   "titre": "Thomas Sankara (Q202155) — Wikidata",
+   "institution": "Wikimedia Foundation",
+   "url": "https://www.wikidata.org/wiki/Q202155",
+   "type": "base_de_donnees",
+   "licence": "CC0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S88",
+   "titre": "Norbert Zongo (Q339733) — Wikidata",
+   "institution": "Wikimedia Foundation",
+   "url": "https://www.wikidata.org/wiki/Q339733",
+   "type": "base_de_donnees",
+   "licence": "CC0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S89",
+   "titre": "Maurice Yaméogo (Q442765) — Wikidata",
+   "institution": "Wikimedia Foundation",
+   "url": "https://www.wikidata.org/wiki/Q442765",
+   "type": "base_de_donnees",
+   "licence": "CC0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S90",
+   "titre": "Monique Ilboudo (Q6900355) — Wikidata",
+   "institution": "Wikimedia Foundation",
+   "url": "https://www.wikidata.org/wiki/Q6900355",
+   "type": "base_de_donnees",
+   "licence": "CC0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S91",
+   "titre": "Fanta Régina Nacro (Q433636) — Wikidata",
+   "institution": "Wikimedia Foundation",
+   "url": "https://www.wikidata.org/wiki/Q433636",
+   "type": "base_de_donnees",
+   "licence": "CC0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S92",
+   "titre": "Idrissa Ouédraogo (Q113628) — Wikidata",
+   "institution": "Wikimedia Foundation",
+   "url": "https://www.wikidata.org/wiki/Q113628",
+   "type": "base_de_donnees",
+   "licence": "CC0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S93",
+   "titre": "Gaston Kaboré (Q1495587) — Wikidata",
+   "institution": "Wikimedia Foundation",
+   "url": "https://www.wikidata.org/wiki/Q1495587",
+   "type": "base_de_donnees",
+   "licence": "CC0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S94",
+   "titre": "Apolline Traoré (Q53998060) — Wikidata",
+   "institution": "Wikimedia Foundation",
+   "url": "https://www.wikidata.org/wiki/Q53998060",
+   "type": "base_de_donnees",
+   "licence": "CC0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S95",
+   "titre": "Hugues Fabrice Zango (Q20976240) — Wikidata",
+   "institution": "Wikimedia Foundation",
+   "url": "https://www.wikidata.org/wiki/Q20976240",
+   "type": "base_de_donnees",
+   "licence": "CC0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S96",
+   "titre": "Marthe Koala (Q6774651) — Wikidata",
+   "institution": "Wikimedia Foundation",
+   "url": "https://www.wikidata.org/wiki/Q6774651",
+   "type": "base_de_donnees",
+   "licence": "CC0",
+   "consulte_le": "2026-11-21"
+  }
+ ]
+}

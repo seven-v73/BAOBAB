@@ -1,0 +1,3897 @@
+{
+  "code": "TN",
+  "nom": "Tunisie",
+  "region": "nord",
+  "wikidata": "Q948",
+  "maj": "2026-11-21",
+  "pays": {
+    "nom_officiel": "République tunisienne",
+    "capitale": "Tunis",
+    "langues_officielles": [
+      "arabe"
+    ],
+    "langues_nationales": [],
+    "population": {
+      "valeur": 12277109,
+      "annee": 2024,
+      "source": "S31"
+    },
+    "superficie_km2": 163610,
+    "monnaie": "Dinar tunisien (TND)",
+    "resume": "La Tunisie est un pays d'Afrique du Nord ouvert sur la Méditerranée, bordé par l'Algérie à l'ouest et la Libye au sud-est ; sa capitale, Tunis, occupe le fond du golfe du même nom. Son territoire garde les traces de Carthage, cité fondée au IXe siècle av. J.-C. qui domina une grande partie de la Méditerranée, puis des cités romaines comme Dougga ou El Jem et de Kairouan, fondée en 670 et première ville sainte du Maghreb ; l'UNESCO y inscrit dix biens au patrimoine mondial. L'arabe est la langue officielle et l'arabe tunisien la langue du quotidien, le français reste très présent et des communautés amazighes (berbérophones) vivent surtout dans le Sud, à Djerba, Matmata ou Tataouine. Placée sous protectorat français en 1881, la Tunisie devient indépendante le 20 mars 1956 ; le Code du statut personnel, promulgué cinq mois plus tard, a profondément modifié le droit de la famille. Le soulèvement parti de Sidi Bouzid fin 2010 a chassé le président Ben Ali le 14 janvier 2011, et le Quartet du dialogue national a reçu le prix Nobel de la paix en 2015.",
+    "sources": [
+      "S34",
+      "S33",
+      "S31",
+      "S32",
+      "S11",
+      "S36",
+      "S53",
+      "S49",
+      "S48",
+      "S51",
+      "S8",
+      "S1"
+    ]
+  },
+  "langues": [
+    {
+      "id": "TN-langue-arabe-standard",
+      "nom": "Arabe standard",
+      "nom_local": "العربية الفصحى",
+      "description": "L'arabe standard est la langue officielle de la Tunisie, celle de l'administration, de l'école et de l'écrit. Il coexiste avec l'arabe tunisien, parlé au quotidien, et avec le français, très présent dans l'enseignement supérieur et les médias. Il s'écrit en alphabet arabe, de droite à gauche.",
+      "famille": "Afro-asiatique, sémitique, sémitique occidental, arabe",
+      "glottocode": "stan1318",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "ecritures": [
+        "arabe"
+      ],
+      "sources": [
+        "S37",
+        "S34",
+        "S35"
+      ],
+      "wikidata": "Q56467",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-langue-arabe-tunisien",
+      "nom": "Arabe tunisien (derja)",
+      "nom_local": "تونسي / دارجة",
+      "description": "L'arabe tunisien, appelé aussi derja, est la langue vernaculaire de la quasi-totalité des Tunisiens dans la vie courante. Il repose sur un substrat berbère, punique et roman et a emprunté des mots au turc, à l'italien, à l'espagnol et au français. Selon l'Université Laval, environ 92 % de la population parle l'arabe ou l'une de ses variétés, et l'alternance avec le français ou l'anglais est fréquente à l'oral.",
+      "famille": "Afro-asiatique, sémitique, arabe maghrébin (arabe malto-tunisien)",
+      "glottocode": "tuni1259",
+      "statut_linguistique": [
+        "véhiculaire",
+        "nationale de fait"
+      ],
+      "ecritures": [],
+      "sources": [
+        "S38",
+        "S36",
+        "S35"
+      ],
+      "wikidata": "Q56240",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-langue-francais",
+      "nom": "Français",
+      "nom_local": "Français",
+      "description": "Le français s'est imposé sous le protectorat, surtout par l'école, et reste largement utilisé dans l'administration, l'enseignement supérieur, les affaires et les médias, bien que ce ne soit pas une langue officielle. Les autorités ont déclaré à l'Organisation internationale de la Francophonie environ 6,36 millions de personnes ayant une certaine maîtrise du français, soit 63,6 % de la population, d'après Wikipédia. Les billets de banque sont rédigés en arabe d'un côté et en français de l'autre.",
+      "famille": "Indo-européen, italique, roman, gallo-roman",
+      "glottocode": "stan1290",
+      "statut_linguistique": [
+        "langue étrangère largement utilisée"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S39",
+        "S35",
+        "S36"
+      ],
+      "wikidata": "Q150",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-langue-berbere-tunisien",
+      "nom": "Berbère de Tunisie (zénète oriental)",
+      "nom_local": "Tamazight",
+      "description": "Les parlers berbères de Tunisie, rattachés au groupe zénète oriental avec celui de Zouara en Libye, sont surtout parlés dans le Sud, autour de Tataouine et de Matmata et dans quelques villages de Djerba. Le nombre de locuteurs est difficile à établir : Wikipédia retient environ 50 000 personnes, l'Université Laval cite jusqu'à 78 000 berbérophones, alors que des estimations de la population d'origine amazighe vont de 5 à 10 %. Glottolog classe cette langue comme menacée.",
+      "famille": "Afro-asiatique, berbère, zénatique, Zuara-Sened",
+      "glottocode": "tuni1262",
+      "statut_linguistique": [
+        "minoritaire",
+        "menacée"
+      ],
+      "ecritures": [],
+      "sources": [
+        "S40",
+        "S35",
+        "S36"
+      ],
+      "note": "Écritures non renseignées : l'Université Laval précise que le berbère n'est ni lu ni écrit en Tunisie, l'État ayant refusé de l'introduire dans l'enseignement.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-langue-parler-djerba",
+      "nom": "Parler berbère de Djerba (jerbi)",
+      "nom_local": "Jerbi",
+      "description": "Le berbère de Djerba est parlé dans le centre et le sud-est de l'île et dans quelques zones voisines du continent. Il est très mêlé de vocabulaire arabe, comme l'indique l'Encyclopedia.com. Glottolog le range comme dialecte du berbère zénète tunisien, avec une classification établie notamment par Maarten Kossmann.",
+      "famille": "Afro-asiatique, berbère, zénatique, Zuara-Sened, berbère tunisien-Zuwara",
+      "glottocode": "jerb1241",
+      "statut_linguistique": [
+        "minoritaire",
+        "menacée"
+      ],
+      "ecritures": [],
+      "sources": [
+        "S41",
+        "S60",
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-langue-judeo-tunisien",
+      "nom": "Judéo-arabe tunisien",
+      "nom_local": "العربية اليهودية التونسية",
+      "description": "Le judéo-arabe tunisien est la variété d'arabe tunisien parlée par la communauté juive du pays. Glottolog le décrit comme un dialecte de l'arabe tunisien. Aujourd'hui la communauté, très réduite par les départs, se concentre surtout à Djerba, où vivent encore plus d'un millier de personnes selon une étude publiée sur HAL.",
+      "famille": "Afro-asiatique, sémitique, arabe maghrébin, arabe tunisien",
+      "glottocode": "jude1263",
+      "statut_linguistique": [
+        "minoritaire",
+        "menacée"
+      ],
+      "ecritures": [],
+      "sources": [
+        "S42",
+        "S59",
+        "S60"
+      ],
+      "wikidata": "Q56597",
+      "note": "Le statut « menacée » est une appréciation éditoriale à confirmer par un linguiste : les sources ouvertes consultées ne donnent pas d'évaluation du degré de vitalité.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-langue-lst",
+      "nom": "Langue des signes tunisienne",
+      "nom_local": "لغة الإشارة التونسية",
+      "description": "La langue des signes tunisienne est la langue des communautés sourdes de Tunisie. Glottolog la classe dans la famille des langues des signes dérivées de la langue des signes italienne. Les sources ouvertes consultées ne donnent pas de chiffres sur le nombre de signeurs.",
+      "famille": "Langues des signes, famille de la langue des signes italienne",
+      "glottocode": "tuni1249",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "ecritures": [],
+      "sources": [
+        "S43",
+        "S35"
+      ],
+      "wikidata": "Q7853191",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-langue-anglais",
+      "nom": "Anglais",
+      "nom_local": "English",
+      "description": "L'anglais fait partie des langues étrangères les plus pratiquées en Tunisie : les Tunisiens sont décrits comme au moins quadrilingues, entre arabe tunisien, arabe standard, français et anglais. Il intervient dans l'enseignement, les affaires, le tourisme et les échanges en ligne. Il n'a pas de statut officiel.",
+      "famille": "Indo-européen, germanique occidental",
+      "glottocode": "stan1293",
+      "statut_linguistique": [
+        "langue étrangère"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S44",
+        "S35"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-langue-italien",
+      "nom": "Italien",
+      "nom_local": "Italiano",
+      "description": "L'italien figure parmi les principales langues étrangères de Tunisie selon la nomenclature de Wikipédia, en raison des relations historiques entre les deux rives de la Méditerranée. Il a aussi laissé des emprunts dans l'arabe tunisien. Ce n'est pas une langue officielle et les sources ouvertes ne donnent pas de chiffres de pratique.",
+      "famille": "Indo-européen, italique, roman, italo-dalmate",
+      "glottocode": "ital1282",
+      "statut_linguistique": [
+        "langue étrangère"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S45",
+        "S35"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "peuples": [
+    {
+      "id": "TN-peuple-tunisiens-arabophones",
+      "nom": "Tunisiens arabophones",
+      "description": "La grande majorité des habitants de la Tunisie parle l'arabe tunisien dans la vie courante et utilise l'arabe standard à l'écrit. Cette population est issue de siècles de brassages entre communautés berbères, puniques, romaines, arabes, turques, andalouses et d'autres origines, que l'Université Laval résume en rappelant que beaucoup de Tunisiens descendent de Berbères arabisés.",
+      "langues": [
+        "arabe tunisien",
+        "arabe standard",
+        "français"
+      ],
+      "regions": [
+        "Ensemble du pays"
+      ],
+      "sources": [
+        "S36",
+        "S35",
+        "S60"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-peuple-amazighs",
+      "nom": "Amazighs de Tunisie",
+      "description": "Les Amazighs (Berbères) sont les descendants des populations autochtones du pays. Aucune statistique officielle ne les dénombre ; les estimations indépendantes varient de 5 à 10 % de la population, tandis que les berbérophones, nettement moins nombreux, se trouvent surtout à Djerba, Matmata, Tataouine (Chenini, Douiret), Médenine, Kébili et Tozeur. Le Sud abrite aussi un habitat troglodytique et des villages fortifiés (ksour) qui témoignent de leur adaptation à un milieu aride.",
+      "langues": [
+        "berbère de Tunisie",
+        "parler de Djerba",
+        "arabe tunisien"
+      ],
+      "regions": [
+        "Djerba",
+        "Matmata",
+        "Tamezret",
+        "Tataouine",
+        "Médenine",
+        "Kébili",
+        "Tozeur"
+      ],
+      "sources": [
+        "S36",
+        "S13",
+        "S60"
+      ],
+      "pays_partages": [
+        "DZ",
+        "LY",
+        "MA"
+      ],
+      "activites": [
+        "habitat troglodytique",
+        "agriculture oasienne",
+        "artisanat"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-peuple-bedouins",
+      "nom": "Communautés bédouines arabophones",
+      "description": "Certaines communautés arabophones du pays se rattachent à des groupes pastoraux et steppiques, que l'Université Laval distingue sous des noms comme « bédouin d'Arad » ou « bédouin du Jérid ». Elles parlent des variétés d'arabe, proches de l'arabe tunisien ou de l'arabe saharien. Les sources ouvertes consultées ne permettent pas de les décrire plus précisément.",
+      "langues": [
+        "arabe tunisien",
+        "arabes bédouins"
+      ],
+      "regions": [
+        "Sud tunisien",
+        "Jérid"
+      ],
+      "sources": [
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-peuple-juifs",
+      "nom": "Communauté juive de Tunisie (Djerba, Tunis)",
+      "description": "Les Juifs de Tunisie forment une communauté ancienne ; à Djerba, deux bourgs, Hara Sghira et Hara Kebira, sont l'un des derniers foyers juifs d'Afrique du Nord. Selon une étude publiée sur HAL, plus d'un millier de personnes y vivent encore, et la synagogue de la Ghriba accueille chaque année un pèlerinage à Lag Ba'Omer. Des écrivains comme Albert Memmi, né à Tunis en 1920, en sont issus.",
+      "langues": [
+        "arabe tunisien (judéo-arabe)",
+        "hébreu liturgique",
+        "français"
+      ],
+      "regions": [
+        "Djerba",
+        "Tunis"
+      ],
+      "sources": [
+        "S60",
+        "S59",
+        "S71"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Histoire liée à des tensions politiques et à des attaques contre des lieux de culte ; formulations à valider avec des représentants de la communauté.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-peuple-noirs-tunisiens",
+      "nom": "Noirs tunisiens",
+      "description": "Les « Noirs tunisiens » sont une minorité dont l'histoire est liée en partie à l'esclavage, aboli par décret en 1846, sans que celui-ci constitue leur seule origine : une thèse universitaire souligne la diversité de leurs identités et de leurs histoires. Après 1846, l'abolition s'est faite très lentement. L'État commémore désormais cette abolition, et les troupes de chanteurs-poètes Twāyef de Ghbonten, inscrites à l'UNESCO, naissent de cette période de libération.",
+      "langues": [
+        "arabe tunisien"
+      ],
+      "regions": [
+        "Sud tunisien",
+        "Tunis"
+      ],
+      "sources": [
+        "S57",
+        "S54",
+        "S22"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet sensible (esclavage, discriminations raciales) : éviter les généralisations, privilégier la parole des personnes concernées et valider avec des associations.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-peuple-andalous",
+      "nom": "Descendants des Andalous et morisques",
+      "description": "Après l'expulsion des morisques d'Espagne, une dernière grande vague d'immigration andalouse a atteint Tunis en 1609, et d'autres foyers se sont fixés dans le nord-ouest du pays, où Testour a été au début du XVIIe siècle le plus grand centre morisque. Les arrivants ont transformé le paysage et l'urbanisme de leurs lieux d'installation, comme à l'est du faubourg de Bab Souika à Tunis.",
+      "langues": [
+        "arabe tunisien"
+      ],
+      "regions": [
+        "Testour",
+        "Tunis (Bab Souika)",
+        "Nord-Ouest tunisien"
+      ],
+      "sources": [
+        "S55",
+        "S56"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-peuple-touaregs",
+      "nom": "Touaregs du Sud tunisien",
+      "description": "L'Université Laval signale la présence de quelques Touaregs, locuteurs d'un tamazight, dans le sud de la Tunisie, notamment à Tozeur. Les sources ouvertes consultées n'en disent pas davantage, et cette fiche reste donc brève, dans l'attente d'une source spécialisée.",
+      "langues": [
+        "tamazight"
+      ],
+      "regions": [
+        "Tozeur"
+      ],
+      "sources": [
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "id": "TN-site-kairouan",
+      "nom": "Kairouan",
+      "type": "patrimoine_mondial",
+      "description": "Fondée en 670, Kairouan a prospéré sous la dynastie aghlabide au IXe siècle et reste la première ville sainte du Maghreb, même après le transfert du pouvoir politique à Tunis au XIIe siècle. Son patrimoine comprend la Grande Mosquée, aux colonnes de marbre et de porphyre, et la mosquée des Trois-Portes, du IXe siècle. Des manuscrits coraniques attribués à cette ville, comme le Coran bleu, sont aujourd'hui conservés dans de grands musées.",
+      "sources": [
+        "S1",
+        "S113",
+        "S85"
+      ],
+      "nom_local": "القيروان",
+      "unesco_id": "499",
+      "inscription": 1988,
+      "coordonnees": {
+        "lat": 35.68333,
+        "lng": 10.1
+      },
+      "regions": [
+        "Kairouan"
+      ],
+      "periode": "depuis 670",
+      "sensible": true,
+      "note_sensibilite": "Lieux de culte en usage : les descriptions des mosquées et sanctuaires doivent respecter les usages religieux et rester en lien avec les autorités religieuses locales.",
+      "wikidata": "Q179570",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-site-djerba",
+      "nom": "Djerba : mode d'occupation d'un territoire insulaire",
+      "type": "patrimoine_mondial",
+      "description": "Ce bien en série illustre un mode de peuplement apparu sur l'île de Djerba vers le IXe siècle, dans un milieu semi-aride pauvre en eau. L'île était découpée en quartiers regroupés, économiquement autonomes, reliés entre eux et aux lieux de culte et de commerce par un réseau de routes. L'UNESCO y voit un exemple d'adaptation des habitants à leur environnement ; l'île abrite aussi des communautés berbérophones, musulmanes et juives.",
+      "sources": [
+        "S2",
+        "S60"
+      ],
+      "unesco_id": "1640",
+      "inscription": 2023,
+      "coordonnees": {
+        "lat": 33.79511,
+        "lng": 11.00542
+      },
+      "regions": [
+        "Djerba",
+        "Médenine"
+      ],
+      "periode": "depuis le IXe siècle",
+      "wikidata": "Q188938",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-site-sousse",
+      "nom": "Médina de Sousse",
+      "type": "patrimoine_mondial",
+      "description": "Port commercial et militaire important sous les Aghlabides (800-909), Sousse est un exemple typique de ville des premiers siècles de l'islam. Sa casbah, ses remparts, sa médina, sa Grande Mosquée, la mosquée Bu Ftata et son ribat, à la fois fort et édifice religieux, faisaient partie d'un système de défense de la côte.",
+      "sources": [
+        "S3"
+      ],
+      "unesco_id": "498",
+      "inscription": 1988,
+      "coordonnees": {
+        "lat": 35.82778,
+        "lng": 10.63861
+      },
+      "regions": [
+        "Sousse"
+      ],
+      "periode": "IXe siècle",
+      "wikidata": "Q608100",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-site-sidi-bou-said",
+      "nom": "Village de Sidi Bou Saïd",
+      "type": "patrimoine_mondial",
+      "description": "Perché sur un promontoire qui domine la Méditerranée, le village s'est développé autour de la sépulture d'un maître soufi du XIIe-XIIIe siècle, Sidi Bou Saïd. L'UNESCO souligne l'union de la géomorphologie, de l'architecture et d'une spiritualité soufie qui marque encore les lieux, ainsi que son esthétique aux couleurs emblématiques, source d'inspiration pour les artistes.",
+      "sources": [
+        "S4"
+      ],
+      "nom_local": "سيدي بوسعيد",
+      "unesco_id": "1769",
+      "inscription": 2026,
+      "coordonnees": {
+        "lat": 36.87103,
+        "lng": 10.34864
+      },
+      "regions": [
+        "Tunis"
+      ],
+      "periode": "depuis le XIIIe siècle",
+      "sensible": true,
+      "note_sensibilite": "Lieu associé à un saint soufi et à des pratiques de dévotion : présenter les usages religieux avec respect.",
+      "wikidata": "Q877391",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-site-el-jem",
+      "nom": "Amphithéâtre d'El Jem",
+      "type": "patrimoine_mondial",
+      "description": "Dans la petite ville d'El Jem se dressent les ruines du plus grand amphithéâtre d'Afrique du Nord, où pouvaient prendre place 35 000 spectateurs. Construit au IIIe siècle, il illustre l'extension et la grandeur de l'Empire romain.",
+      "sources": [
+        "S5"
+      ],
+      "unesco_id": "38",
+      "inscription": 1979,
+      "coordonnees": {
+        "lat": 35.29639,
+        "lng": 10.70694
+      },
+      "periode": "IIIe siècle",
+      "wikidata": "Q2914326",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-site-medina-tunis",
+      "nom": "Médina de Tunis",
+      "type": "patrimoine_mondial",
+      "description": "Sous les Almohades et les Hafsides, du XIIe au XVIe siècle, Tunis a compté parmi les villes les plus riches et les plus importantes du monde islamique. Environ 700 monuments (palais, mosquées, mausolées, médersas, fontaines) témoignent de ce passé. La médina abrite aussi un artisanat très actif et des festivals, comme celui de la Médina lancé en 1982.",
+      "sources": [
+        "S6",
+        "S114",
+        "S62"
+      ],
+      "nom_local": "مدينة تونس",
+      "unesco_id": "36",
+      "inscription": 1979,
+      "coordonnees": {
+        "lat": 36.79903,
+        "lng": 10.17006
+      },
+      "regions": [
+        "Tunis"
+      ],
+      "periode": "XIIe-XVIe siècle",
+      "wikidata": "Q3106527",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-site-ichkeul",
+      "nom": "Parc national de l'Ichkeul",
+      "type": "patrimoine_mondial",
+      "description": "Le lac et les zones humides de l'Ichkeul sont une halte indispensable pour des centaines de milliers d'oiseaux migrateurs, comme les canards, les oies, les cigognes et les flamants roses, qui viennent s'y nourrir et y nicher. Le lac est le dernier vestige d'une chaîne de lacs qui s'étendait autrefois à travers l'Afrique du Nord. C'est l'unique bien naturel tunisien inscrit au patrimoine mondial.",
+      "sources": [
+        "S7",
+        "S11"
+      ],
+      "unesco_id": "8",
+      "inscription": 1980,
+      "coordonnees": {
+        "lat": 37.16361,
+        "lng": 9.67472
+      },
+      "wikidata": "Q13220079",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-site-carthage",
+      "nom": "Site archéologique de Carthage",
+      "type": "patrimoine_mondial",
+      "description": "Fondée dès le IXe siècle av. J.-C. sur le golfe de Tunis, Carthage a bâti à partir du VIe siècle un empire commercial qui s'étendait à une grande partie de la Méditerranée et fut le centre d'une brillante civilisation. Rome la détruisit en 146 av. J.-C. et fonda une seconde Carthage, romaine, sur ses ruines.",
+      "sources": [
+        "S8",
+        "S115"
+      ],
+      "nom_local": "قرطاج",
+      "unesco_id": "37",
+      "inscription": 1979,
+      "coordonnees": {
+        "lat": 36.85788,
+        "lng": 10.33084
+      },
+      "regions": [
+        "Tunis (Carthage)"
+      ],
+      "periode": "IXe siècle av. J.-C. - Antiquité tardive",
+      "wikidata": "Q52284968",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-site-kerkouane",
+      "nom": "Cité punique de Kerkouane et sa nécropole",
+      "type": "patrimoine_mondial",
+      "description": "Cette ville phénicienne, sans doute abandonnée pendant la première guerre punique vers 250 av. J.-C., n'a pas été reconstruite par les Romains. Elle offre ainsi les seuls vestiges d'une ville phénico-punique parvenus jusqu'à nous. Ses maisons suivent un plan type, selon un urbanisme très élaboré.",
+      "sources": [
+        "S9",
+        "S116"
+      ],
+      "unesco_id": "332",
+      "inscription": 1985,
+      "coordonnees": {
+        "lat": 36.9464,
+        "lng": 11.0992
+      },
+      "periode": "avant 250 av. J.-C.",
+      "wikidata": "Q65944741",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-site-dougga",
+      "nom": "Dougga / Thugga",
+      "type": "patrimoine_mondial",
+      "description": "Avant l'annexion romaine de la Numidie, Thugga, bâtie sur une colline dominant une plaine fertile, était la capitale d'un État libyco-punique. Elle a prospéré sous la domination romaine et byzantine avant de décliner à la période islamique. Ses ruines montrent les ressources d'une petite ville romaine aux marges de l'Empire, et plus de 2 000 inscriptions libyques, puniques, grecques et latines y ont été relevées.",
+      "sources": [
+        "S10"
+      ],
+      "unesco_id": "794",
+      "inscription": 1997,
+      "coordonnees": {
+        "lat": 36.42361,
+        "lng": 9.22028
+      },
+      "periode": "Antiquité libyco-punique, romaine et byzantine",
+      "wikidata": "Q32378",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-site-medina-sfax",
+      "nom": "Médina de Sfax",
+      "type": "liste_indicative",
+      "description": "Fondée en 849 sur ordre des émirs aghlabides de Kairouan, la médina de Sfax se distingue par son plan orthogonal régulier et l'absence presque totale d'impasses. Entourée de remparts de 2 750 m et centrée sur sa grande mosquée, elle est inscrite sur la liste indicative de la Tunisie depuis 2012.",
+      "sources": [
+        "S12"
+      ],
+      "regions": [
+        "Sfax"
+      ],
+      "periode": "depuis 849",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-site-troglodytes-ksour",
+      "nom": "Habitat troglodytique et ksour du Sud tunisien",
+      "type": "liste_indicative",
+      "description": "Ce projet de bien en série regroupe les habitations creusées dans des grottes du jebel Sened (Gafsa) et les villages troglodytiques de Matmata et Tamezret (Gabès), ainsi que les ksour du Sud. Il illustre, selon le dossier tunisien, la manière dont des communautés amazighes se sont adaptées à un milieu aride et hostile.",
+      "sources": [
+        "S13"
+      ],
+      "regions": [
+        "Gafsa (Sened)",
+        "Gabès (Matmata, Tamezret)",
+        "Tataouine"
+      ],
+      "periode": "traditionnel, toujours habité par endroits",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-site-el-magtaa",
+      "nom": "Rammadiya d'El Magtaa (culture capsienne)",
+      "type": "site_archeologique",
+      "description": "Situé à environ 10 km au nord de Gafsa, ce site préhistorique, dit « rammadiya d'El Magtaa », renferme des vestiges datés de 10 000 à 7 000 ans avant le présent, du début au milieu de l'Holocène. Il est présenté comme le site de référence (« princeps ») de la culture capsienne, avec une séquence qui va du Capsien typique au Capsien supérieur.",
+      "sources": [
+        "S14"
+      ],
+      "coordonnees": {
+        "lat": 34.52881,
+        "lng": 8.73103
+      },
+      "regions": [
+        "Gafsa"
+      ],
+      "periode": "Holocène (10 000-7 000 ans avant le présent)",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-site-sbeitla",
+      "nom": "Site archéologique de Sbeïtla",
+      "type": "site_archeologique",
+      "description": "Sbeïtla conserve les vestiges de l'antique Sufetula, ville fondée par l'administration romaine dans le troisième quart du Ier siècle, dotée d'un plan orthogonal et d'un aqueduc encore en fonction. De nombreuses églises témoignent de la diffusion du christianisme ; au VIe siècle elle devient capitale de la province byzantine de Byzacène et, en 647, le patrice Grégoire s'y proclame indépendant.",
+      "sources": [
+        "S15"
+      ],
+      "regions": [
+        "Centre-ouest"
+      ],
+      "periode": "Ier-VIIe siècle",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-site-zaghouan-carthage",
+      "nom": "Complexe hydraulique romain de Zaghouan-Carthage",
+      "type": "site_archeologique",
+      "description": "Présenté comme le plus grand complexe de ce type, il associe le captage de sources, un nymphée dit « temple des eaux », un aqueduc de 132 km (avec des arcades de plus de 20 m de haut) et les citernes de la Maalga à Carthage. Il alimentait notamment les thermes d'Antonin, en bord de mer.",
+      "sources": [
+        "S16"
+      ],
+      "regions": [
+        "Zaghouan",
+        "Tunis (Carthage)"
+      ],
+      "periode": "époque romaine",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-site-chimtou",
+      "nom": "Carrières antiques de marbre numidique de Chimtou",
+      "type": "site_archeologique",
+      "description": "À Chimtou, l'antique Simitthus, des collines de calcaire jaune doré ont fourni le célèbre marbre numidique, exploité à partir du règne du roi numide Micipsa (148-118 av. J.-C.) puis diffusé à Rome. Le site comprend les carrières, une caserne-prison et une « colline sacrée » aux reliefs votifs consacrés au dieu africo-romain Saturne.",
+      "sources": [
+        "S17"
+      ],
+      "periode": "IIe siècle av. J.-C. - époque romaine",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-site-mausolees-numides",
+      "nom": "Mausolées royaux numides et monuments funéraires pré-islamiques",
+      "type": "site_archeologique",
+      "description": "La civilisation numide a laissé surtout des monuments funéraires : des centaines de tombes mégalithiques réunies en grandes nécropoles (Ellès, Hammam Zouakra, Makthar) et des mausolées de « type royal ». Ce projet de bien en série en retient des exemples variés, bâtis sur plusieurs millénaires.",
+      "sources": [
+        "S18"
+      ],
+      "regions": [
+        "Haut-Tell tunisien"
+      ],
+      "periode": "Antiquité",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-site-chott-el-jerid",
+      "nom": "Chott el-Jérid",
+      "type": "site_naturel",
+      "description": "Le Chott el-Jérid est une vaste dépression salée du sud-ouest du pays, partagée entre les gouvernorats de Tozeur et de Kébili, sur plus de 586 000 hectares. Une seule route de quelque quatre-vingts kilomètres le traverse, entre Tozeur et la région de Kébili. Son nom vient du Jérid, « pays du palmier ».",
+      "sources": [
+        "S19"
+      ],
+      "coordonnees": {
+        "lat": 33.7,
+        "lng": 8.4
+      },
+      "regions": [
+        "Tozeur",
+        "Kébili"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-site-oasis-gabes",
+      "nom": "Oasis de Gabès",
+      "type": "site_naturel",
+      "description": "L'oasis de Gabès est une oasis littorale traditionnelle qui doit son existence à un sol sableux, à des eaux jaillissantes et au palmier dattier, dont l'ombre crée un microclimat. On y pratique une culture à trois étages, avec palmiers, arbres fruitiers et cultures annuelles. Elle figure sur la liste indicative de la Tunisie depuis 2008.",
+      "sources": [
+        "S20"
+      ],
+      "coordonnees": {
+        "lat": 33.86618,
+        "lng": 10.04965
+      },
+      "regions": [
+        "Gabès"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "traditions": [
+    {
+      "id": "TN-tradition-kohl",
+      "nom": "Kohl arabe (khôl)",
+      "categorie": "savoir",
+      "description": "Le kohl est une fine poudre noire utilisée comme eye-liner par des personnes de tous genres, à la fois cosmétique et protection contre le vent, le sable et le soleil. Il est préparé à la maison ou lors de rencontres, surtout par des femmes qui transmettent le savoir à leurs filles et petites-filles, et conservé dans de petits flacons décoratifs transmis comme souvenirs de famille. L'élément a été inscrit en 2025 comme élément multinational du monde arabe.",
+      "sources": [
+        "S21"
+      ],
+      "transmission": "vivante",
+      "communautes": [
+        "femmes",
+        "communautés rurales, de pêcheurs et bédouines du monde arabe"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "02261",
+        "annee": 2025,
+        "url": "https://ich.unesco.org/en/RL/arabic-kohl-02261"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-tradition-twayef",
+      "nom": "Arts du spectacle des Twāyef de Ghbonten",
+      "categorie": "musique",
+      "description": "Les Twāyef sont des troupes de poètes-chanteurs, vêtus de robes blanches et de chéchias écarlates, accompagnés du tambour chenna. Chaque troupe, composée d'un chef et d'interprètes masculins, possède un répertoire propre allant du sacré au profane, mêlant humour et solennité. Cette pratique remonte au milieu du XIXe siècle, après l'abolition de l'esclavage de 1846, et mêle des influences africaines, berbères et arabes.",
+      "sources": [
+        "S22",
+        "S57"
+      ],
+      "transmission": "vivante",
+      "nom_local": "Twāyef de Ghbonten",
+      "communautes": [
+        "troupes Twāyef de la communauté Ghbonten"
+      ],
+      "periode": "depuis le milieu du XIXe siècle",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01875",
+        "annee": 2024,
+        "url": "https://ich.unesco.org/en/RL/performing-arts-among-the-twyef-of-ghbonten-01875"
+      },
+      "sensible": true,
+      "note_sensibilite": "Lié à l'histoire de l'esclavage et à la mémoire des Noirs tunisiens : à valider avec les troupes et les associations concernées.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-tradition-henna",
+      "nom": "Henné : rituels, esthétique et pratiques sociales",
+      "categorie": "rite",
+      "description": "Le henné est un arbre des régions chaudes dont les feuilles, récoltées, séchées et broyées, donnent une pâte utilisée surtout par les femmes pour teindre les cheveux et décorer mains et pieds. Symbole de joie, il accompagne les naissances et les mariages et s'associe à des chants, proverbes et poèmes. Il est aussi employé en artisanat et à des fins médicinales ; cet élément est inscrit en 2024 comme élément multinational.",
+      "sources": [
+        "S23"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "02116",
+        "annee": 2024,
+        "url": "https://ich.unesco.org/en/RL/henna-rituals-aesthetic-and-social-practices-02116"
+      },
+      "sensible": true,
+      "note_sensibilite": "Pratiques rituelles et de mariage : valider les descriptions avec des détentrices du savoir.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-tradition-gravure-metaux",
+      "nom": "Gravure sur métaux (or, argent, cuivre)",
+      "categorie": "artisanat",
+      "description": "La gravure sur métaux consiste à inciser à la main des mots, des symboles ou des motifs sur des objets décoratifs, utilitaires, religieux ou cérémoniels en or, argent ou cuivre. Les gravures peuvent être en creux, en relief ou combiner plusieurs métaux. Le savoir se transmet dans les familles et par des ateliers de formation ; l'élément multinational est inscrit en 2023.",
+      "sources": [
+        "S24"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01951",
+        "annee": 2023,
+        "url": "https://ich.unesco.org/en/RL/arts-skills-and-practices-associated-with-engraving-on-metals-gold-silver-and-copper-01951"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-tradition-harissa",
+      "nom": "Harissa : savoir-faire culinaires et pratiques sociales",
+      "categorie": "cuisine",
+      "description": "La harissa est un condiment à base de piment, partie intégrante des provisions domestiques et de la cuisine quotidienne. Elle est préparée surtout par les femmes, en famille ou entre voisines : piments séchés au soleil, épépinés, lavés puis broyés avec sel, ail et coriandre au mortier ou au hachoir. La culture du piment suit un calendrier agricole précis ; l'élément a été inscrit en 2022.",
+      "sources": [
+        "S25"
+      ],
+      "transmission": "vivante",
+      "communautes": [
+        "femmes",
+        "familles"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01710",
+        "annee": 2022,
+        "url": "https://ich.unesco.org/en/RL/harissa-knowledge-skills-and-culinary-and-social-practices-01710"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-tradition-palmier-dattier",
+      "nom": "Palmier dattier : savoirs, savoir-faire, traditions et pratiques",
+      "categorie": "savoir",
+      "description": "Le palmier dattier pousse dans les oasis des régions arides, où ses racines vont chercher l'humidité. Les communautés en entretiennent la culture et utilisent feuilles, palmes et fibres pour l'artisanat et des rituels sociaux ; il apparaît aussi dans la poésie et les chants. L'élément multinational est inscrit en 2022, et l'oasis de Gabès en offre un exemple tunisien de culture à trois étages.",
+      "sources": [
+        "S26",
+        "S20"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01902",
+        "annee": 2022,
+        "url": "https://ich.unesco.org/en/RL/date-palm-knowledge-skills-traditions-and-practices-01902"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-tradition-calligraphie-arabe",
+      "nom": "Calligraphie arabe : savoirs, savoir-faire et pratiques",
+      "categorie": "artisanat",
+      "description": "La calligraphie arabe est l'art d'écrire à la main l'alphabet arabe de façon fluide pour exprimer harmonie et beauté, avec ses vingt-huit lettres tracées de droite à gauche. Les techniques traditionnelles emploient un calame de roseau, une encre de suie, de miel et de safran et un papier traité à l'amidon, tandis que la calligraphie moderne recourt aux feutres ou à la peinture en aérosol. L'élément multinational est inscrit en 2021.",
+      "sources": [
+        "S27"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01718",
+        "annee": 2021,
+        "url": "https://ich.unesco.org/en/RL/arabic-calligraphy-knowledge-skills-and-practices-01718"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-tradition-charfia",
+      "nom": "Pêche à la charfia aux îles Kerkennah",
+      "categorie": "savoir",
+      "description": "La charfia est une technique de pêche passive fixe, installée avec des palmes plantées dans le fond qui forment une barrière triangulaire et dirigent le poisson, à marée descendante, vers des chambres de capture. Elle garde le poisson vivant jusqu'à la relève, contrairement au chalutage de fond. Il est de coutume de l'installer et de l'exploiter seulement entre l'équinoxe d'automne et juin, pour laisser la faune marine se renouveler.",
+      "sources": [
+        "S28"
+      ],
+      "transmission": "vivante",
+      "communautes": [
+        "pêcheurs des îles Kerkennah"
+      ],
+      "regions": [
+        "Kerkennah (Sfax)"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01566",
+        "annee": 2020,
+        "url": "https://ich.unesco.org/en/RL/charfia-fishing-in-the-kerkennah-islands-01566"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-tradition-couscous",
+      "nom": "Couscous : production et consommation",
+      "categorie": "cuisine",
+      "description": "La préparation du couscous est un processus cérémoniel de plusieurs opérations : culture de la céréale, mouture en semoule, roulage à la main, cuisson à la vapeur. Elle s'accompagne d'ustensiles spécifiques et le plat est servi avec des légumes et des viandes selon la région, la saison et l'occasion. L'élément est inscrit en 2020 par la Tunisie conjointement avec l'Algérie, le Maroc et la Mauritanie.",
+      "sources": [
+        "S29"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01602",
+        "annee": 2020,
+        "url": "https://ich.unesco.org/en/RL/knowledge-know-how-and-practices-pertaining-to-the-production-and-consumption-of-couscous-01602"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-tradition-poterie-sejnane",
+      "nom": "Poterie des femmes de Sejnane",
+      "categorie": "artisanat",
+      "description": "À Sejnane, toutes les étapes de la poterie en terre cuite sont réalisées par des femmes, qui vendent leurs pièces au village et au bord des routes voisines. L'argile est extraite des lits d'oueds, puis les pots sont cuits et ornés de motifs géométriques bicolores rappelant les tatouages et le tissage amazighs ; on y fabrique ustensiles de cuisine, poupées et figurines d'animaux. Les hommes participent à la vente, et le savoir passe de mère en fille, avec aussi des formations de l'Office national de l'artisanat.",
+      "sources": [
+        "S30"
+      ],
+      "transmission": "vivante",
+      "communautes": [
+        "femmes de Sejnane"
+      ],
+      "regions": [
+        "Sejnane"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01406",
+        "annee": 2018,
+        "url": "https://ich.unesco.org/en/RL/pottery-skills-of-the-women-of-sejnane-01406"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-tradition-malouf",
+      "nom": "Malouf tunisien (musique arabo-andalouse)",
+      "categorie": "musique",
+      "description": "Le malouf est la musique savante d'origine andalouse devenue emblème de la musique tunisienne ; il fut d'abord une poésie élitiste en arabe littéraire mise en musique pour les cours, avec des vers en dialecte tunisien, jouée aussi dans les zaouïas et les cafés. L'association La Rachidia, créée en 1934, a voulu le raviver, et l'État l'a institutionnalisé après l'indépendance, notamment par l'enseignement au conservatoire. Des artistes comme Lotfi Bouchnak l'ont fait connaître à l'étranger.",
+      "sources": [
+        "S61"
+      ],
+      "transmission": "vivante",
+      "regions": [
+        "Tunis"
+      ],
+      "langues": [
+        "arabe",
+        "arabe tunisien"
+      ],
+      "periode": "renouveau depuis 1934",
+      "unesco": null,
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-tradition-pelerinage-ghriba",
+      "nom": "Pèlerinage de la Ghriba à Djerba",
+      "categorie": "fete",
+      "description": "Chaque année, à l'occasion de la fête juive de Lag Ba'Omer, un pèlerinage réunit des milliers de personnes à la synagogue de la Ghriba, à Hara Sghira (Djerba). Beaucoup de pèlerins viennent de l'étranger, surtout de France et d'Israël, où de nombreux Juifs tunisiens ont émigré après le milieu du XXe siècle, et des musulmans prennent part à certains moments. Une étude le décrit comme un lieu d'interactions conviviales entre juifs et musulmans, fragilisé ces dernières décennies par des violences d'islamistes et touché par les tensions du conflit israélo-palestinien.",
+      "sources": [
+        "S59",
+        "S60"
+      ],
+      "transmission": "vivante",
+      "communautes": [
+        "communauté juive de Djerba et de sa diaspora"
+      ],
+      "regions": [
+        "Djerba (Hara Sghira)"
+      ],
+      "unesco": null,
+      "sensible": true,
+      "note_sensibilite": "Pratique religieuse et lieu de culte, marqué par des attaques et par des débats politiques (conflit israélo-palestinien) : présentation neutre et validation par la communauté.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-tradition-habitat-troglodytique",
+      "nom": "Habitat troglodytique de Matmata et Tamezret",
+      "categorie": "architecture",
+      "description": "Dans le Sud, des communautés amazighes ont développé un habitat creusé dans la roche ou en pleine terre : grottes aménagées à flanc de colline au jebel Sened et demeures excavées dans un sol de sable argileux à Matmata et Tamezret. Ce mode d'habitat, qui n'est pas unique mais très original selon le dossier tunisien, répond à un milieu aride et hostile et s'accompagne de villages fortifiés, les ksour.",
+      "sources": [
+        "S13"
+      ],
+      "transmission": "fragile",
+      "communautes": [
+        "Amazighs du Sud tunisien"
+      ],
+      "regions": [
+        "Matmata",
+        "Tamezret",
+        "Sened (Gafsa)"
+      ],
+      "unesco": null,
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-tradition-culture-oasienne",
+      "nom": "Agriculture oasienne à trois étages (Gabès, Jérid)",
+      "categorie": "savoir",
+      "description": "L'oasis de Gabès repose sur un sol sableux enrichi d'engrais naturels, une eau jaillissante et le palmier dattier, qui crée de l'ombre et un microclimat. On y cultive sur trois étages : palmiers, arbres fruitiers et cultures annuelles. Les oasis du Jérid, dans la région de Tozeur et du Chott el-Jérid, tiennent leur nom du « pays du palmier ».",
+      "sources": [
+        "S20",
+        "S19"
+      ],
+      "transmission": "vivante",
+      "regions": [
+        "Gabès",
+        "Tozeur",
+        "Kébili"
+      ],
+      "unesco": null,
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-tradition-artisanat-tunis",
+      "nom": "Artisanat de la médina de Tunis et Salon de l'artisanat",
+      "categorie": "artisanat",
+      "description": "La médina de Tunis, avec une quarantaine de souks regroupés par métier, est un grand lieu de création artisanale. Chaque année, le Salon de l'artisanat du Kram, organisé par l'Office national de l'artisanat, réunit des artisans de toutes les régions et a accueilli 140 000 visiteurs en 2017. Le Festival de la Médina, lancé en 1982, fait redécouvrir ce patrimoine à un large public.",
+      "sources": [
+        "S62"
+      ],
+      "transmission": "vivante",
+      "regions": [
+        "Tunis"
+      ],
+      "unesco": null,
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-tradition-jebba-mariage",
+      "nom": "Tenues de mariage brodées (jebba)",
+      "categorie": "textile",
+      "description": "Les collections du Metropolitan Museum conservent des ensembles de mariage et des tuniques (jebba) tunisiens des XIXe et XXe siècles, brodés de fils métalliques, de soie et de coton, parfois ornés de paillettes. Ils montrent un savoir-faire textile et de broderie lié aux cérémonies de mariage, sans que la fiche du musée précise la ville ou la communauté d'origine.",
+      "sources": [
+        "S89"
+      ],
+      "transmission": "fragile",
+      "periode": "fin XIXe-début XXe siècle",
+      "unesco": null,
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-tradition-tissage-mouchtiya",
+      "nom": "Tissage de la mouchtiya d'El Djem",
+      "categorie": "textile",
+      "description": "La mouchtiya est un manteau de femme en laine et coton teints, attribué à El Djem, que le Metropolitan Museum date du XXe siècle. Elle témoigne d'un tissage régional du centre-est tunisien dans lequel les costumes féminins se distinguent par leur format et leurs couleurs. La notice du musée ne détaille pas les techniques ni les communautés productrices.",
+      "sources": [
+        "S90"
+      ],
+      "transmission": "fragile",
+      "regions": [
+        "El Djem"
+      ],
+      "periode": "XXe siècle",
+      "unesco": null,
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-tradition-festival-jcc",
+      "nom": "Journées cinématographiques de Carthage",
+      "categorie": "fete",
+      "description": "Fondées en 1966, les JCC sont présentées comme le plus ancien festival de cinéma arabe et africain ; elles ont lieu tous les deux ans jusqu'en 2014, puis chaque année. La 27e édition, en 2016, a marqué leur cinquantenaire en étendant les projections à seize villes, à des universités et à des prisons, et en soutenant des projets de films par l'atelier Takmil et le Réseau des producteurs.",
+      "sources": [
+        "S50"
+      ],
+      "transmission": "vivante",
+      "regions": [
+        "Tunis",
+        "seize villes tunisiennes (2016)"
+      ],
+      "periode": "depuis 1966",
+      "unesco": null,
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "personnalites": [
+    {
+      "id": "TN-personnalite-hannibal",
+      "nom": "Hannibal Barca",
+      "wikidata": "Q36456",
+      "description": "Général carthaginois, fils d'Hamilcar Barca, Hannibal commande l'armée qui franchit les Alpes en 218 av. J.-C. pendant la seconde guerre punique. Il remporte plusieurs victoires en Italie sans prendre Rome, est vaincu à Zama en 202 av. J.-C., puis gouverne Carthage avant de fuir chez Antiochos III. Défait de nouveau, il met fin à ses jours.",
+      "naissance": {
+        "date": "247 av. J.-C. (vers)",
+        "lieu": "Carthage"
+      },
+      "roles": [
+        "général",
+        "homme d'État"
+      ],
+      "domaines": [
+        "politique",
+        "guerre"
+      ],
+      "epoque": "Antiquité",
+      "sources": [
+        "S63",
+        "S93"
+      ],
+      "deces": {
+        "date": "183 av. J.-C. (vers)",
+        "lieu": "Gebze (Bithynie)"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance « c. 247 », mort « c. 183 » (Encyclopedia.com) ; lieux de naissance et de mort d'après Wikidata."
+      }
+    },
+    {
+      "id": "TN-personnalite-tertullien",
+      "nom": "Tertullien",
+      "wikidata": "Q174929",
+      "description": "Tertullien, né probablement à Carthage vers 160, est un théologien et écrivain chrétien du IIIe siècle, fils d'un centurion au service du proconsul d'Afrique. Formé à la rhétorique et au droit, il se convertit vers 195, enseigne les catéchumènes à Carthage et commence son œuvre littéraire. Vers 212-213, il rompt avec l'Église et rejoint le montanisme.",
+      "naissance": {
+        "date": "vers 160",
+        "lieu": "Carthage (probablement)"
+      },
+      "roles": [
+        "théologien",
+        "écrivain",
+        "juriste"
+      ],
+      "domaines": [
+        "savoirs",
+        "littérature",
+        "religion"
+      ],
+      "epoque": "Antiquité tardive",
+      "sources": [
+        "S64",
+        "S94"
+      ],
+      "deces": {
+        "date": "après 220"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Encyclopedia.com : né « probablement à Carthage, c. 160 », mort après 220 ; Wikidata liste plusieurs dates possibles (150, 155, 160)."
+      }
+    },
+    {
+      "id": "TN-personnalite-ibn-al-jazzar",
+      "nom": "Ibn al-Jazzar",
+      "wikidata": "Q1655888",
+      "description": "Médecin de Kairouan du Xe siècle, né dans une famille de médecins, Ibn al-Jazzar a rédigé le Zād al-musāfir, encyclopédie médicale en sept livres traduite en grec, en hébreu et en latin sous le titre de Viaticum. Il a aussi écrit un traité de médecine pour les pauvres, où il s'intéresse à ceux qui ne pouvaient payer les soins.",
+      "naissance": {
+        "date": "fin du IXe siècle (dates incertaines)",
+        "lieu": "Kairouan"
+      },
+      "roles": [
+        "médecin",
+        "auteur"
+      ],
+      "domaines": [
+        "sciences",
+        "savoirs"
+      ],
+      "epoque": "IXe-Xe siècle",
+      "sources": [
+        "S68",
+        "S67",
+        "S95"
+      ],
+      "deces": {
+        "date": "979-980",
+        "lieu": "Kairouan"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates de vie incertaines : la NLM donne la mort en 979-980 (369 de l'Hégire) à Kairouan ; l'article de Cureus indique une vie entre 895 et 980."
+      }
+    },
+    {
+      "id": "TN-personnalite-ibn-khaldoun",
+      "nom": "Ibn Khaldoun",
+      "wikidata": "Q9294",
+      "description": "Né à Tunis en 1332, Ibn Khaldoun est un historien, philosophe et homme d'État dont la Muqaddima propose une théorie générale de l'histoire. Après des fonctions à la cour hafside, il voyage de Fès à Grenade puis vit ses deux dernières décennies au Caire, où il est six fois juge malikite en chef. Il y meurt en 1406.",
+      "naissance": {
+        "date": "1332-05-27",
+        "lieu": "Tunis"
+      },
+      "roles": [
+        "historien",
+        "philosophe",
+        "magistrat",
+        "homme d'État"
+      ],
+      "domaines": [
+        "savoirs",
+        "politique",
+        "littérature"
+      ],
+      "epoque": "XIVe siècle",
+      "sources": [
+        "S66",
+        "S96"
+      ],
+      "deces": {
+        "date": "1406-03-17",
+        "lieu": "Le Caire"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikidata mentionne deux dates de mort (16 et 17 mars 1406)."
+      }
+    },
+    {
+      "id": "TN-personnalite-tahar-haddad",
+      "nom": "Tahar Haddad",
+      "wikidata": "Q969533",
+      "description": "Né à Tunis dans une famille de petits commerçants originaire du Sud, Tahar Haddad étudie à la Zitouna et devient une figure du syndicalisme et du réformisme. Son livre « Notre femme dans la loi et la société » (1930), qui examine la condition de la femme musulmane et son émancipation, est un texte polémique dès son introduction. Il meurt en 1935.",
+      "naissance": {
+        "date": "1898",
+        "lieu": "Tunis"
+      },
+      "roles": [
+        "intellectuel",
+        "réformateur",
+        "syndicaliste"
+      ],
+      "domaines": [
+        "savoirs",
+        "politique",
+        "littérature"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S69",
+        "S97"
+      ],
+      "deces": {
+        "date": "1935"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Clio (OpenEdition) donne 1898-1935 ; Wikidata donne le 4 décembre 1899 pour la naissance."
+      }
+    },
+    {
+      "id": "TN-personnalite-chebbi",
+      "nom": "Abou el Kacem Chebbi",
+      "wikidata": "Q335543",
+      "description": "Poète né en 1909 près de Tozeur et mort à 25 ans, Chebbi a publié ses premiers poèmes dans la revue Apollo, ce qui lui valut une large notoriété. Il appelait la poésie arabe à se renouveler et est mort pendant qu'il composait son premier recueil, paru en 1955 sous le titre « Chansons de vie ».",
+      "naissance": {
+        "date": "1909-02-24",
+        "lieu": "Tozeur (al-Chabbiyya)"
+      },
+      "roles": [
+        "poète"
+      ],
+      "domaines": [
+        "littérature",
+        "arts"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S70",
+        "S98"
+      ],
+      "deces": {
+        "date": "1934-10-09",
+        "lieu": "Tunis"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-personnalite-farhat-hached",
+      "nom": "Farhat Hached",
+      "wikidata": "Q762261",
+      "description": "Fils d'un modeste pêcheur de Kerkennah, Farhat Hached quitte son village natal d'El Abbassia après l'école primaire et devient l'un des fondateurs et dirigeants de l'UGTT, dont il est secrétaire général. Il rompt avec la CGT française et rapproche le syndicat du mouvement national. Il est assassiné le 5 décembre 1952.",
+      "naissance": {
+        "date": "1914-02-02",
+        "lieu": "El Abbassia (Kerkennah)"
+      },
+      "roles": [
+        "syndicaliste",
+        "militant nationaliste"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S58",
+        "S52",
+        "S99"
+      ],
+      "deces": {
+        "date": "1952-12-05",
+        "lieu": "Radès"
+      },
+      "sensible": true,
+      "note_sensibilite": "Mort violente et responsabilités débattues : présentation sobre, à relire par des historiens.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-personnalite-bourguiba",
+      "nom": "Habib Bourguiba",
+      "wikidata": "Q643348",
+      "description": "Né à Monastir, avocat formé à Paris, Habib Bourguiba fonde le Néo-Destour en 1934 et mène la Tunisie à l'indépendance en 1956. Premier président de la République à partir de 1957, il engage des réformes comme le Code du statut personnel, mais gouverne de façon autoritaire et est proclamé président à vie dans les années 1970. Écarté en 1987, il meurt à Monastir en 2000.",
+      "naissance": {
+        "date": "1903-08-03",
+        "lieu": "Monastir"
+      },
+      "roles": [
+        "homme d'État",
+        "avocat",
+        "président"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S53",
+        "S49",
+        "S100"
+      ],
+      "deces": {
+        "date": "2000-04-06",
+        "lieu": "Monastir"
+      },
+      "sensible": true,
+      "note_sensibilite": "Bilan politique disputé (réformes et autoritarisme) : présentation équilibrée, positions attribuées.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-personnalite-memmi",
+      "nom": "Albert Memmi",
+      "wikidata": "Q733225",
+      "description": "Né à Tunis en 1920 dans une famille juive, Albert Memmi est un écrivain et sociologue dont les romans autobiographiques, comme « La Statue de sel », explorent la condition d'un Juif dans un pays à majorité musulmane et d'un Nord-Africain en Europe. Il est aussi connu pour ses essais sur le racisme et la colonisation. Il s'installe à Paris et y meurt en 2020.",
+      "naissance": {
+        "date": "1920-12-15",
+        "lieu": "Tunis"
+      },
+      "roles": [
+        "écrivain",
+        "sociologue"
+      ],
+      "domaines": [
+        "littérature",
+        "savoirs"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S71",
+        "S72",
+        "S101"
+      ],
+      "deces": {
+        "date": "2020-05-22",
+        "lieu": "Paris"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-personnalite-anouar-brahem",
+      "nom": "Anouar Brahem",
+      "wikidata": "Q548428",
+      "description": "Joueur de oud et compositeur né en 1957 dans la médina de Tunis, Anouar Brahem entre à dix ans au Conservatoire national et étudie avec Ali Sriti, spécialiste des maqamat. Après quelques années à Paris, il enregistre pour le label allemand ECM et collabore avec des musiciens venus du monde entier. Son premier disque, Barzakh, paraît en 1991.",
+      "naissance": {
+        "date": "1957-10-20",
+        "lieu": "Tunis (médina)"
+      },
+      "roles": [
+        "oudiste",
+        "compositeur"
+      ],
+      "domaines": [
+        "musique",
+        "arts"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S73",
+        "S102"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-personnalite-mohamed-gammoudi",
+      "nom": "Mohamed Gammoudi",
+      "wikidata": "Q345439",
+      "description": "Coureur de fond né en 1938 à Sidi Aïch, Mohamad Gammoudi est le premier médaillé et le premier champion olympique tunisien. Il a gagné le 5 000 m aux Jeux de 1968, avec aussi deux médailles d'argent (10 000 m en 1964, 5 000 m en 1972) et une de bronze (10 000 m en 1968). Il a aussi doublé 5 000 m et 10 000 m aux Jeux méditerranéens de 1963 et de 1967.",
+      "naissance": {
+        "date": "1938-02-11",
+        "lieu": "Sidi Aïch (Gafsa)"
+      },
+      "roles": [
+        "athlète"
+      ],
+      "domaines": [
+        "sport"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S74",
+        "S103"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-personnalite-aziza-othmana",
+      "nom": "Aziza Othmana",
+      "wikidata": "Q2875184",
+      "description": "Princesse de la dynastie des Mouradites, Aziza Othmana est connue pour sa compassion envers les démunis. Fille d'Ahmed Dey et petite-fille d'Othman Dey, selon des manuscrits cités par Lepetitjournal, elle est restée dans la mémoire tunisienne comme une bienfaitrice.",
+      "naissance": {
+        "date": "XVIIe siècle"
+      },
+      "roles": [
+        "princesse",
+        "bienfaitrice"
+      ],
+      "domaines": [
+        "politique",
+        "société"
+      ],
+      "epoque": "XVIIe siècle",
+      "sources": [
+        "S75",
+        "S104"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikidata donne 1606-1669 ; Lepetitjournal dit seulement « née au 17e siècle ». Rôle de fondatrice d'hôpital non repris ici faute de source ouverte."
+      }
+    },
+    {
+      "id": "TN-personnalite-habiba-msika",
+      "nom": "Habiba Msika",
+      "wikidata": "Q2911515",
+      "description": "Née Marguerite Messika dans le quartier juif de Tunis, Habiba Msika devient une chanteuse, danseuse et comédienne libre et avant-gardiste, nièce de la chanteuse Leïla Sfez. Elle a pris des cours de chant et d'arabe classique dès l'âge de sept ans, avec notamment Khemaïs Tarnane. Elle meurt à Tunis en 1930.",
+      "naissance": {
+        "date": "1903",
+        "lieu": "Tunis (Bab Souika)"
+      },
+      "roles": [
+        "chanteuse",
+        "danseuse",
+        "actrice"
+      ],
+      "domaines": [
+        "musique",
+        "arts"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S76",
+        "S105"
+      ],
+      "deces": {
+        "date": "1930-02-21",
+        "lieu": "Tunis"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le lieu de naissance exact (Tunis, Bab Souika ou Testour) varie selon les sources ; Lepetitjournal dit Bab Souika. Circonstances de la mort non reprises ici."
+      }
+    },
+    {
+      "id": "TN-personnalite-bchira-ben-mrad",
+      "nom": "Bchira Ben Mrad",
+      "wikidata": "Q2892588",
+      "description": "Pionnière du féminisme tunisien (1913-1993), Bchira Ben Mrad crée en 1936 l'Union des femmes musulmanes de Tunisie, première organisation féminine du pays. Elle est ensuite écartée de la vie publique sous Bourguiba, qui ne reconnaît pas sa contribution, avant qu'un hommage ne lui soit rendu sous Ben Ali. Un ouvrage collectif lui est consacré en 2026.",
+      "naissance": {
+        "date": "1913"
+      },
+      "roles": [
+        "militante",
+        "fondatrice d'association"
+      ],
+      "domaines": [
+        "politique",
+        "société"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S77",
+        "S106"
+      ],
+      "deces": {
+        "date": "1993-05-04"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-personnalite-tawhida-ben-cheikh",
+      "nom": "Tawhida Ben Cheikh",
+      "wikidata": "Q2740204",
+      "description": "Première bachelière de Tunisie et première Tunisienne diplômée de médecine à Paris (1936), Tawhida Ben Cheikh se spécialise en gynécologie-obstétrique. En 1955, elle dirige la maternité de l'hôpital Charles-Nicolle à Tunis et y crée le premier service de planning familial et la première école de sages-femmes. Son portrait figure sur le billet de dix dinars depuis 2020.",
+      "naissance": {
+        "date": "1909-01-02"
+      },
+      "roles": [
+        "médecin",
+        "militante pour les droits des femmes"
+      ],
+      "domaines": [
+        "sciences",
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S78",
+        "S107"
+      ],
+      "deces": {
+        "date": "2010-12-06",
+        "lieu": "Tunis"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikidata : naissance à Ras Jebel ; certaines sources disent Tunis (non retenu). Mort le 5 ou le 6 décembre 2010 selon les sources."
+      }
+    },
+    {
+      "id": "TN-personnalite-safia-farhat",
+      "nom": "Safia Farhat",
+      "wikidata": "Q3461280",
+      "description": "Figure de l'art moderne tunisien, Safia Farhat, née à Radès en 1924, a intégré la tapisserie et les savoir-faire artisanaux à l'art, contre la hiérarchie coloniale qui dévalorisait l'artisanat. Seule femme de l'École de Tunis, elle a aussi fondé en 1959 la revue Faïza, consacrée aux arts décoratifs puis aux questions féministes. Elle est morte à Tunis en 2004.",
+      "naissance": {
+        "date": "1924",
+        "lieu": "Radès"
+      },
+      "roles": [
+        "artiste",
+        "enseignante",
+        "éditrice",
+        "militante"
+      ],
+      "domaines": [
+        "arts",
+        "société"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S79",
+        "S108"
+      ],
+      "deces": {
+        "date": "2004-02-07",
+        "lieu": "Tunis"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikidata place la mort à Radès ; Mathaf à Tunis."
+      }
+    },
+    {
+      "id": "TN-personnalite-moufida-tlatli",
+      "nom": "Moufida Tlatli",
+      "wikidata": "Q431848",
+      "description": "Réalisatrice et monteuse, Moufida Tlatli signe en 1994 « Les Silences du palais », qu'elle a écrit avec Nouri Bouzid et qui devient le premier succès international d'une réalisatrice du monde arabe. Le film, dont l'action se situe vers le milieu des années 1960 avec des retours en arrière sur la décennie précédente, a reçu une mention spéciale du meilleur premier film à Cannes. Elle est morte à Tunis en février 2021.",
+      "naissance": {
+        "date": "1947-08-04"
+      },
+      "roles": [
+        "réalisatrice",
+        "monteuse",
+        "scénariste"
+      ],
+      "domaines": [
+        "cinéma",
+        "arts"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S80",
+        "S109"
+      ],
+      "deces": {
+        "date": "2021-02-07",
+        "lieu": "Tunis"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-personnalite-hele-beji",
+      "nom": "Hélé Béji",
+      "wikidata": "Q3144896",
+      "description": "Écrivaine tunisienne de langue française née à Tunis en 1948, Hélé Béji est agrégée de lettres, ancienne professeure à l'université de Tunis et fonctionnaire de l'UNESCO. Ses essais, comme « Désenchantement national » (1982) et « L'imposture culturelle » (1997), interrogent la décolonisation et la reconstruction de son pays. Elle y raconte aussi, dans « Une force qui demeure », son enfance entre un père musulman libéral et une mère de culture chrétienne.",
+      "naissance": {
+        "date": "1948-04-01",
+        "lieu": "Tunis"
+      },
+      "roles": [
+        "écrivaine",
+        "essayiste",
+        "professeure"
+      ],
+      "domaines": [
+        "littérature",
+        "savoirs"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S81",
+        "S110"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-personnalite-ons-jabeur",
+      "nom": "Ons Jabeur",
+      "wikidata": "Q290212",
+      "description": "Joueuse de tennis née à Ksar Hellal en 1994, Ons Jabeur est devenue en juillet 2022 la première Arabe et la première Africaine à atteindre une finale de Wimbledon, après sa victoire sur Tatjana Maria en demi-finale. Al Jazeera la décrit comme ayant « élevé le moral d'un continent » ; Billie Jean King rappelait qu'elle utilise le tennis comme une plateforme pour la Tunisie, l'Afrique et le monde arabe.",
+      "naissance": {
+        "date": "1994-08-28",
+        "lieu": "Ksar Hellal"
+      },
+      "roles": [
+        "joueuse de tennis"
+      ],
+      "domaines": [
+        "sport"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S82",
+        "S111"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Page Al Jazeera du 7 juillet 2022 (demi-finale) ; l'issue de la finale n'est pas traitée ici faute de source ouverte."
+      }
+    },
+    {
+      "id": "TN-personnalite-lina-ben-mhenni",
+      "nom": "Lina Ben Mhenni",
+      "wikidata": "Q468864",
+      "description": "Blogueuse, militante et enseignante de linguistique, Lina Ben Mhenni a tenu le blog « A Tunisian Girl » en arabe, en français et en anglais. Son blog a été l'un des premiers à relater l'immolation de Mohamed Bouazizi, et elle s'est rendue à Sidi Bouzid pour filmer les manifestations. Elle a reçu le prix du Deutsche Welle Blog Award en 2011 et est morte en 2020, à 36 ans.",
+      "naissance": {
+        "date": "1983-05-22",
+        "lieu": "Tunis"
+      },
+      "roles": [
+        "blogueuse",
+        "militante des droits humains",
+        "enseignante"
+      ],
+      "domaines": [
+        "société",
+        "journalisme"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S83",
+        "S84",
+        "S112"
+      ],
+      "deces": {
+        "date": "2020-01-27",
+        "lieu": "Tunis"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "evenements": [
+    {
+      "id": "TN-evenement-capsien",
+      "titre": "Culture capsienne à El Magtaa",
+      "date": "-007999-01-01",
+      "date_affichee": "vers 10 000 à 7 000 ans avant le présent",
+      "precision": "siecle",
+      "description": "Au début et au milieu de l'Holocène, des groupes humains occupent la rammadiya d'El Magtaa, près de Gafsa, que la Tunisie présente comme le site de référence de la culture capsienne. Les datations ont été confirmées par le carbone 14 et par les industries de pierre taillée. Ce site conserve une séquence qui va du Capsien typique au Capsien supérieur.",
+      "sources": [
+        "S14",
+        "S34"
+      ],
+      "fin": "-004999-12-31",
+      "regions": [
+        "Gafsa"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-fondation-carthage",
+      "titre": "Fondation de Carthage",
+      "date": "-000813-01-01",
+      "date_affichee": "IXe siècle av. J.-C. (814 av. J.-C. selon la tradition)",
+      "precision": "siecle",
+      "description": "Carthage est fondée au IXe siècle av. J.-C. sur le golfe de Tunis. À partir du VIe siècle, elle développe un empire commercial qui s'étend sur une grande partie de la Méditerranée et abrite une brillante civilisation. La date traditionnelle de 814 av. J.-C. est celle que retient Wikipédia, tandis que l'UNESCO indique simplement le IXe siècle.",
+      "sources": [
+        "S8",
+        "S34"
+      ],
+      "regions": [
+        "Tunis (Carthage)"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-kerkouane-abandon",
+      "titre": "Abandon de Kerkouane",
+      "date": "-000249-01-01",
+      "date_affichee": "vers 250 av. J.-C.",
+      "precision": "annee",
+      "description": "La cité phénicienne de Kerkouane est sans doute abandonnée pendant la première guerre punique, vers 250 av. J.-C. Les Romains ne l'ayant pas reconstruite, elle offre les seuls vestiges d'une ville phénico-punique parvenus jusqu'à nous.",
+      "sources": [
+        "S9"
+      ],
+      "acteurs": [
+        "Kerkouane",
+        "Carthage",
+        "Rome"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-seconde-guerre-punique",
+      "titre": "Seconde guerre punique et expédition d'Hannibal",
+      "date": "-000217-01-01",
+      "date_affichee": "218 av. J.-C.",
+      "precision": "annee",
+      "description": "En 218 av. J.-C., le général carthaginois Hannibal, fils d'Hamilcar Barca, envahit le nord de l'Italie avec 40 000 hommes et des éléphants après avoir franchi les Alpes. Il remporte une série de victoires mais ne parvient pas à prendre Rome. La guerre se termine en 202 av. J.-C.",
+      "sources": [
+        "S63"
+      ],
+      "fin": "-000201-12-31",
+      "acteurs": [
+        "Hannibal",
+        "Carthage",
+        "Rome"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-zama",
+      "titre": "Bataille de Zama",
+      "date": "-000201-01-01",
+      "date_affichee": "202 av. J.-C.",
+      "precision": "annee",
+      "description": "Rappelé à Carthage pour faire face à l'invasion de Scipion l'Africain, Hannibal est battu à Zama en 202 av. J.-C. Après la guerre, il devient magistrat suprême de Carthage et réduit le pouvoir de la noblesse, qui cherche l'appui de Rome ; il s'enfuit alors chez le roi séleucide Antiochos III.",
+      "sources": [
+        "S63"
+      ],
+      "acteurs": [
+        "Hannibal",
+        "Scipion l'Africain"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-micipsa-chimtou",
+      "titre": "Exploitation du marbre numidique de Chimtou",
+      "date": "-000147-01-01",
+      "date_affichee": "à partir de 148 av. J.-C.",
+      "precision": "siecle",
+      "description": "Les carrières de Chimtou (antique Simitthus) sont exploitées à partir du règne du roi numide Micipsa (148-118 av. J.-C.). Leur calcaire jaune doré, le marbre numidique, est introduit à Rome dès le début du Ier siècle av. J.-C., malgré la réprobation des moralistes pour ce luxe.",
+      "sources": [
+        "S17"
+      ],
+      "fin": "-000117-12-31",
+      "acteurs": [
+        "Micipsa",
+        "Numides"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-destruction-carthage",
+      "titre": "Destruction de Carthage",
+      "date": "-000145-01-01",
+      "date_affichee": "146 av. J.-C.",
+      "precision": "annee",
+      "description": "En 146 av. J.-C., à l'issue des guerres puniques, Rome détruit Carthage. Une seconde Carthage, romaine, est ensuite fondée sur ses ruines.",
+      "sources": [
+        "S8"
+      ],
+      "acteurs": [
+        "Rome",
+        "Carthage"
+      ],
+      "regions": [
+        "Tunis (Carthage)"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-el-jem",
+      "titre": "Construction de l'amphithéâtre d'El Jem",
+      "date": "0200-01-01",
+      "date_affichee": "IIIe siècle",
+      "precision": "siecle",
+      "description": "Au IIIe siècle est construit à El Jem le plus grand amphithéâtre d'Afrique du Nord, qui pouvait recevoir 35 000 spectateurs. Il illustre l'extension et la grandeur de l'Empire romain.",
+      "sources": [
+        "S5"
+      ],
+      "fin": "0299-12-31",
+      "regions": [
+        "El Jem"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-perpetue-felicite",
+      "titre": "Martyre de Perpétue et Félicité à Carthage",
+      "date": "0203-03-07",
+      "date_affichee": "7 mars 203",
+      "precision": "jour",
+      "description": "Le 7 mars 203, Perpétue, Félicité et trois compagnons, Revocatus, Saturus et Saturninus, sont suppliciés à Carthage à la suite d'un édit de Septime Sévère interdisant de devenir chrétien. Le récit de leur emprisonnement, rédigé en partie par Perpétue et par Saturus, est un témoignage rare de l'époque. Une basilique fut ensuite élevée sur leur tombe.",
+      "sources": [
+        "S65"
+      ],
+      "acteurs": [
+        "Perpétue",
+        "Félicité",
+        "Septime Sévère"
+      ],
+      "regions": [
+        "Tunis (Carthage)"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Récit de martyre et de persécution religieuse : formulations à valider avec des historiens des débuts du christianisme.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-gregoire-sbeitla",
+      "titre": "Le patrice Grégoire se proclame indépendant à Sbeïtla",
+      "date": "0647-01-01",
+      "date_affichee": "647",
+      "precision": "annee",
+      "description": "Au VIe siècle, Sufetula (Sbeïtla) devient capitale de la province byzantine de Byzacène et résidence du patrice Grégoire. En 647, celui-ci se déclare indépendant de Constantinople ; l'événement est connu par le dossier tunisien de liste indicative de Sbeïtla.",
+      "sources": [
+        "S15"
+      ],
+      "acteurs": [
+        "Grégoire le patrice"
+      ],
+      "regions": [
+        "Sbeïtla"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-kairouan-670",
+      "titre": "Fondation de Kairouan",
+      "date": "0670-01-01",
+      "date_affichee": "670",
+      "precision": "annee",
+      "description": "La ville de Kairouan est fondée en 670. Elle prospère au IXe siècle sous la dynastie aghlabide et reste, malgré le transfert de la capitale politique à Tunis au XIIe siècle, la première ville sainte du Maghreb.",
+      "sources": [
+        "S1"
+      ],
+      "regions": [
+        "Kairouan"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-aghlabides",
+      "titre": "Émirat aghlabide",
+      "date": "0800-01-01",
+      "date_affichee": "800-909",
+      "precision": "annee",
+      "description": "Les Aghlabides gouvernent l'Ifrikiya de 800 à 909 depuis Kairouan. Sousse est alors un important port commercial et militaire, et Sfax est fondée en 849 sur leur ordre, avec un plan régulier qui illustre l'urbanisme arabo-musulman.",
+      "sources": [
+        "S3",
+        "S12"
+      ],
+      "fin": "0909-12-31",
+      "acteurs": [
+        "Aghlabides"
+      ],
+      "regions": [
+        "Kairouan",
+        "Sousse",
+        "Sfax"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-almohades-hafsides",
+      "titre": "Tunis, grande capitale du monde islamique",
+      "date": "1100-01-01",
+      "date_affichee": "XIIe-XVIe siècle",
+      "precision": "siecle",
+      "description": "Sous les Almohades puis les Hafsides, du XIIe au XVIe siècle, Tunis devient l'une des villes les plus importantes et les plus riches du monde islamique, et la capitale politique à la place de Kairouan. Quelque 700 monuments de la médina en témoignent.",
+      "sources": [
+        "S6",
+        "S1"
+      ],
+      "fin": "1599-12-31",
+      "acteurs": [
+        "Almohades",
+        "Hafsides"
+      ],
+      "regions": [
+        "Tunis"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-andalous-1609",
+      "titre": "Dernière grande vague d'immigration andalouse",
+      "date": "1609-01-01",
+      "date_affichee": "1609",
+      "precision": "annee",
+      "description": "En 1609, une vague d'immigration andalouse, la dernière et la plus importante, arrive à Tunis. Une implantation organisée apparaît au nord du faubourg de Bab Souika, et Testour devient au début du XVIIe siècle le plus grand centre morisque du pays.",
+      "sources": [
+        "S55",
+        "S56"
+      ],
+      "acteurs": [
+        "morisques andalous"
+      ],
+      "regions": [
+        "Tunis",
+        "Testour"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-abolition-esclavage",
+      "titre": "Abolition de l'esclavage",
+      "date": "1846-01-01",
+      "date_affichee": "1846",
+      "precision": "annee",
+      "description": "Un décret de 1846 abolit l'esclavage en Tunisie, et l'État le commémore aujourd'hui comme tel. L'émancipation sociale s'est pourtant faite très lentement, et c'est dans ce contexte de libération qu'est née la tradition des troupes de poètes-chanteurs Twāyef.",
+      "sources": [
+        "S54",
+        "S22",
+        "S57"
+      ],
+      "acteurs": [
+        "Noirs tunisiens"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet de mémoire douloureuse et de discriminations persistantes : présentation à valider avec des associations de Noirs tunisiens.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-traite-bardo",
+      "titre": "Traité du Bardo",
+      "date": "1881-05-12",
+      "date_affichee": "12 mai 1881",
+      "precision": "jour",
+      "description": "Le 12 mai 1881, après une courte campagne militaire, un traité signé entre le bey de Tunis et le gouvernement français instaure le protectorat français. Le bey doit confier au « résident général de France » les affaires étrangères, la défense et la réforme de l'administration.",
+      "sources": [
+        "S46",
+        "S47"
+      ],
+      "acteurs": [
+        "bey de Tunis",
+        "France"
+      ],
+      "regions": [
+        "Le Bardo"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Colonisation : présentation à relire par des historiens, en distinguant les points de vue.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-la-marsa",
+      "titre": "Convention de La Marsa",
+      "date": "1883-06-05",
+      "date_affichee": "5 juin 1883",
+      "precision": "jour",
+      "description": "Le 5 juin 1883, la convention de La Marsa dépouille le bey du reste de son autorité et instaure une administration directe de la France sur le pays.",
+      "sources": [
+        "S46",
+        "S47"
+      ],
+      "acteurs": [
+        "bey de Tunis",
+        "France"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Colonisation : présentation à relire par des historiens.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-neo-destour",
+      "titre": "Fondation du Néo-Destour",
+      "date": "1934-01-01",
+      "date_affichee": "1934",
+      "precision": "annee",
+      "description": "En 1934, Habib Bourguiba fonde le Néo-Destour, parti plus radical que le Destour, qui promeut un nationalisme moderniste et laïc. Le mouvement joue un rôle central dans la lutte pour l'indépendance.",
+      "sources": [
+        "S53"
+      ],
+      "acteurs": [
+        "Habib Bourguiba",
+        "Néo-Destour"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-rachidia",
+      "titre": "Création de La Rachidia",
+      "date": "1934-01-01",
+      "date_affichee": "1934",
+      "precision": "annee",
+      "description": "En 1934, des intellectuels et des musiciens fondent à Tunis La Rachidia, école de musique destinée à faire revivre le malouf. L'association entend aussi contrer l'influence croissante de la musique égyptienne.",
+      "sources": [
+        "S61"
+      ],
+      "acteurs": [
+        "La Rachidia"
+      ],
+      "regions": [
+        "Tunis"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-umft",
+      "titre": "Création de l'Union des femmes musulmanes de Tunisie",
+      "date": "1936-01-01",
+      "date_affichee": "1936",
+      "precision": "annee",
+      "description": "En 1936, Bchira Ben Mrad fonde l'Union des femmes musulmanes de Tunisie, présentée comme la première organisation féminine tunisienne. Elle sera ensuite écartée de la vie publique sous Bourguiba.",
+      "sources": [
+        "S77"
+      ],
+      "acteurs": [
+        "Bchira Ben Mrad"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-ugtt",
+      "titre": "Fondation de l'UGTT",
+      "date": "1946-01-01",
+      "date_affichee": "1946",
+      "precision": "annee",
+      "description": "L'Union générale des travailleurs tunisiens est fondée en 1946 par Farhat Hached, qui rompt avec la CGT française dominée par les communistes. Premier effort indigène pour organiser les travailleurs, elle travaille en étroite relation avec le mouvement nationaliste.",
+      "sources": [
+        "S52",
+        "S58"
+      ],
+      "acteurs": [
+        "Farhat Hached",
+        "UGTT"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-assassinat-hached",
+      "titre": "Assassinat de Farhat Hached",
+      "date": "1952-12-05",
+      "date_affichee": "5 décembre 1952",
+      "precision": "jour",
+      "description": "Farhat Hached, secrétaire général de l'UGTT, est assassiné le 5 décembre 1952. L'Encyclopedia.com attribue ce meurtre à des membres de la Main rouge, que cette source décrit comme une organisation de résistance française.",
+      "sources": [
+        "S58",
+        "S52"
+      ],
+      "acteurs": [
+        "Farhat Hached"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Responsabilités attribuées à une organisation clandestine : formulations à valider.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-independance",
+      "titre": "Indépendance de la Tunisie",
+      "date": "1956-03-20",
+      "date_affichee": "20 mars 1956",
+      "precision": "jour",
+      "description": "Le 20 mars 1956, la Tunisie obtient son indépendance de la France, après des négociations rouvertes par Habib Bourguiba à la faveur de l'indépendance du Maroc. Bourguiba devient chef du gouvernement.",
+      "sources": [
+        "S53",
+        "S34"
+      ],
+      "acteurs": [
+        "Habib Bourguiba",
+        "France"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-csp",
+      "titre": "Promulgation du Code du statut personnel",
+      "date": "1956-08-13",
+      "date_affichee": "13 août 1956",
+      "precision": "jour",
+      "description": "Le 13 août 1956, moins de cinq mois après l'indépendance, la République tunisienne promulgue le Code du statut personnel, qui règle mariage, divorce, garde des enfants et héritage. Il interdit la polygamie et la répudiation unilatérale ; il maintient en revanche l'inégalité successorale. C'est une réforme venue d'en haut, non d'un mouvement de masse de femmes.",
+      "sources": [
+        "S49"
+      ],
+      "acteurs": [
+        "Habib Bourguiba"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-republique",
+      "titre": "Proclamation de la République",
+      "date": "1957-07-25",
+      "date_affichee": "25 juillet 1957",
+      "precision": "jour",
+      "description": "L'Assemblée constituante proclame la République en juillet 1957 ; Habib Bourguiba en devient le premier président. Il reste au pouvoir jusqu'en 1987.",
+      "sources": [
+        "S53",
+        "S34"
+      ],
+      "acteurs": [
+        "Habib Bourguiba",
+        "Assemblée constituante"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-jcc",
+      "titre": "Première édition des Journées cinématographiques de Carthage",
+      "date": "1966-01-01",
+      "date_affichee": "1966",
+      "precision": "annee",
+      "description": "Les JCC, fondées en 1966, sont décrites par la FIPRESCI comme le plus ancien festival arabe et africain. Elles ont lieu tous les deux ans jusqu'en 2014, puis chaque année.",
+      "sources": [
+        "S50"
+      ],
+      "acteurs": [
+        "JCC"
+      ],
+      "regions": [
+        "Tunis"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-patrimoine-1979",
+      "titre": "Premiers sites tunisiens au patrimoine mondial",
+      "date": "1979-01-01",
+      "date_affichee": "1979",
+      "precision": "annee",
+      "description": "En 1979, la médina de Tunis, le site archéologique de Carthage et l'amphithéâtre d'El Jem sont inscrits sur la Liste du patrimoine mondial de l'UNESCO. La Tunisie en compte aujourd'hui dix.",
+      "sources": [
+        "S6",
+        "S8",
+        "S5",
+        "S11"
+      ],
+      "acteurs": [
+        "UNESCO"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-ben-ali-1987",
+      "titre": "Ben Ali écarte Bourguiba du pouvoir",
+      "date": "1987-01-01",
+      "date_affichee": "1987",
+      "precision": "annee",
+      "description": "En 1987, le Premier ministre Zine el-Abidine Ben Ali écarte le président à vie Habib Bourguiba ; il restera 23 ans au pouvoir. Cette prise de pouvoir est qualifiée de coup d'État par l'Encyclopedia.com.",
+      "sources": [
+        "S53",
+        "S48"
+      ],
+      "fin": "2011-01-14",
+      "acteurs": [
+        "Zine el-Abidine Ben Ali",
+        "Habib Bourguiba"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Qualification de la prise de pouvoir disputée : présenter les formulations en les attribuant.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-immolation-bouazizi",
+      "titre": "Immolation de Mohamed Bouazizi",
+      "date": "2010-12-17",
+      "date_affichee": "17 décembre 2010",
+      "precision": "jour",
+      "description": "Le 17 décembre 2010, Mohamed Bouazizi, marchand ambulant de Sidi Bouzid, s'immole par le feu après avoir été harcelé par la police. Son geste déclenche des manifestations dans tout le pays, relayées par internet et par des blogueurs comme Lina Ben Mhenni.",
+      "sources": [
+        "S48",
+        "S83"
+      ],
+      "acteurs": [
+        "Mohamed Bouazizi"
+      ],
+      "regions": [
+        "Sidi Bouzid"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement récent et douloureux : éviter l'instrumentalisation et valider les formulations.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-chute-ben-ali",
+      "titre": "Fuite du président Ben Ali",
+      "date": "2011-01-14",
+      "date_affichee": "14 janvier 2011",
+      "precision": "jour",
+      "description": "Le 14 janvier 2011, après des émeutes dans tout le pays, Zine el-Abidine Ben Ali s'enfuit en Arabie saoudite. Hérodote parle de la première révolution démocratique et sociale du monde arabe ; la répression policière avait fait plusieurs dizaines de morts.",
+      "sources": [
+        "S48"
+      ],
+      "acteurs": [
+        "Zine el-Abidine Ben Ali"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement récent, bilan et qualification débattus : présentation neutre.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-nobel-2015",
+      "titre": "Prix Nobel de la paix du Quartet du dialogue national",
+      "date": "2015-01-01",
+      "date_affichee": "2015",
+      "precision": "annee",
+      "description": "En 2015, le prix Nobel de la paix est décerné au Quartet du dialogue national tunisien, formé de l'UGTT, de l'UTICA, de la Ligue tunisienne des droits de l'homme et de l'Ordre national des avocats. Le comité salue sa contribution décisive à la construction d'une démocratie pluraliste après 2011. Le Quartet, constitué à l'été 2013, avait ouvert un processus politique pacifique alors que le pays était au bord de la guerre civile.",
+      "sources": [
+        "S51"
+      ],
+      "acteurs": [
+        "UGTT",
+        "UTICA",
+        "LTDH",
+        "Ordre des avocats"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-djerba-2023",
+      "titre": "Djerba inscrite au patrimoine mondial",
+      "date": "2023-01-01",
+      "date_affichee": "2023",
+      "precision": "annee",
+      "description": "En 2023, l'UNESCO inscrit « Djerba : témoignage d'un mode d'occupation d'un territoire insulaire » sur la Liste du patrimoine mondial, reconnaissant un mode de peuplement apparu vers le IXe siècle.",
+      "sources": [
+        "S2"
+      ],
+      "acteurs": [
+        "UNESCO"
+      ],
+      "regions": [
+        "Djerba"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-evenement-sidi-bou-said-2026",
+      "titre": "Sidi Bou Saïd inscrit au patrimoine mondial",
+      "date": "2026-01-01",
+      "date_affichee": "2026",
+      "precision": "annee",
+      "description": "En 2026, le village de Sidi Bou Saïd est inscrit sur la Liste du patrimoine mondial, comme dixième bien de la Tunisie.",
+      "sources": [
+        "S4",
+        "S11"
+      ],
+      "acteurs": [
+        "UNESCO"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "oeuvres": [
+    {
+      "id": "TN-oeuvre-coran-bleu",
+      "titre": "Folio du « Coran bleu »",
+      "type": "manuscrit",
+      "description": "Ce folio provient d'un célèbre manuscrit coranique en lettres d'or et d'argent sur parchemin teint à l'indigo. Le Metropolitan Museum le situe en Tunisie, peut-être à Kairouan, entre la seconde moitié du IXe et le milieu du Xe siècle. Il témoigne de l'art du livre et de la calligraphie arabe.",
+      "sources": [
+        "S85",
+        "S1"
+      ],
+      "periode": "seconde moitié IXe - milieu Xe siècle",
+      "materiaux": [
+        "or",
+        "argent",
+        "parchemin teint à l'indigo"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "2004.88",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/454662",
+      "droits": "Données de la notice du Metropolitan Museum of Art (Open Access, CC0) ; image non reproduite ici.",
+      "regions": [
+        "Kairouan (peut-être)"
+      ],
+      "langues": [
+        "arabe"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Manuscrit coranique : objet religieux, à présenter avec respect et à valider avec des spécialistes.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-oeuvre-coran-nourrice",
+      "titre": "Bifolio du « Coran de la nourrice » (Mushaf al-Hadina)",
+      "type": "manuscrit",
+      "description": "Ce double feuillet d'un Coran illustré, daté d'environ 410 de l'Hégire (1019-1020), est attribué par le Metropolitan Museum à Kairouan, « probablement ». Il est exécuté à l'encre, à l'aquarelle opaque et à l'or sur parchemin, et mesure 44,5 sur 60 cm.",
+      "sources": [
+        "S86"
+      ],
+      "periode": "vers 1019-1020",
+      "materiaux": [
+        "encre",
+        "aquarelle opaque",
+        "or",
+        "parchemin"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "2007.191",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/456074",
+      "droits": "Données de la notice du Metropolitan Museum of Art (Open Access, CC0) ; image non reproduite ici.",
+      "regions": [
+        "Kairouan (probablement)"
+      ],
+      "langues": [
+        "arabe"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Manuscrit coranique : objet religieux, à présenter avec respect.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-oeuvre-coupe-cristal-carthage",
+      "titre": "Coupe en cristal de roche en forme de temple",
+      "type": "sculpture",
+      "description": "Cette minuscule coupe (6 sur 4,1 cm) en cristal de roche a la forme d'un temple. Le Metropolitan Museum l'attribue à la culture « nord-africaine (Carthage) » du IIIe au Ve siècle. Elle a été léguée au musée en 1955.",
+      "sources": [
+        "S87"
+      ],
+      "periode": "IIIe-Ve siècle",
+      "materiaux": [
+        "cristal de roche"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "55.135.5",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/468468",
+      "droits": "Données de la notice du Metropolitan Museum of Art (Open Access, CC0) ; image non reproduite ici.",
+      "regions": [
+        "Carthage"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-oeuvre-carreau-ceramique",
+      "titre": "Carreau de céramique glaçurée",
+      "type": "architecture",
+      "description": "Ce carreau en pâte siliceuse glaçurée, d'environ 10 cm de côté, est attribué à la Tunisie et daté des XIVe-XVe siècles par le Metropolitan Museum. Sa fiche ne précise ni le bâtiment d'origine ni l'atelier.",
+      "sources": [
+        "S88"
+      ],
+      "periode": "XIVe-XVe siècle",
+      "materiaux": [
+        "pâte siliceuse glaçurée"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "23.67.1",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/447629",
+      "droits": "Données de la notice du Metropolitan Museum of Art (Open Access, CC0) ; image non reproduite ici.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-oeuvre-ensemble-mariage",
+      "titre": "Ensemble de mariage (robe, chalwar et coiffe)",
+      "type": "textile",
+      "description": "Cet ensemble de trois pièces, robe, pantalon (chalwar) et coiffe, est brodé de fils métalliques, de soie et de coton. Le Metropolitan Museum le date de la fin du XIXe ou du début du XXe siècle et l'attribue probablement à la Tunisie. Il a été donné au musée en 1956.",
+      "sources": [
+        "S89"
+      ],
+      "periode": "fin XIXe - début XXe siècle",
+      "materiaux": [
+        "fils métalliques",
+        "soie",
+        "coton"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "C.I.56.11.1a–c",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/89306",
+      "droits": "Données de la notice du Metropolitan Museum of Art (Open Access, CC0) ; image non reproduite ici.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-oeuvre-mouchtiya-el-jem",
+      "titre": "Manteau de femme (mouchtiya) d'El Jem",
+      "type": "textile",
+      "description": "Ce manteau de femme en laine et coton teints, long de 2,20 m environ, est attribué à El Jem par le Metropolitan Museum, qui le date du XXe siècle. Il a été donné au musée en 2009.",
+      "sources": [
+        "S90"
+      ],
+      "periode": "XXe siècle",
+      "materiaux": [
+        "laine",
+        "coton",
+        "teintures"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "2009.544",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/320600",
+      "droits": "Données de la notice du Metropolitan Museum of Art (Open Access, CC0) ; image non reproduite ici.",
+      "regions": [
+        "El Djem"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-oeuvre-lampe-trois-hebreux",
+      "titre": "Lampe aux Trois Hébreux devant Nabuchodonosor",
+      "type": "objet",
+      "description": "Cette petite lampe à huile moulée en terre cuite, de 11,7 cm de long, porte un décor biblique. Le Metropolitan Museum la date des Ve-VIe siècles et la dit fabriquée en Tunisie.",
+      "sources": [
+        "S91"
+      ],
+      "periode": "Ve-VIe siècle",
+      "materiaux": [
+        "terre cuite moulée"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "27.94.39",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/448007",
+      "droits": "Données de la notice du Metropolitan Museum of Art (Open Access, CC0) ; image non reproduite ici.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-oeuvre-chale-bakhnug",
+      "titre": "Châle bakhnug",
+      "type": "textile",
+      "description": "Ce châle tissé en laine, orné de motifs géométriques brochés peut-être en coton et terminé par des franges torsadées, est daté du milieu du XXe siècle par le Metropolitan Museum, qui le dit probablement fait en Tunisie. Il a été donné en 2015 par Lin Lougheed.",
+      "sources": [
+        "S92"
+      ],
+      "periode": "milieu XXe siècle",
+      "materiaux": [
+        "laine",
+        "coton (peut-être)"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "2015.763.1",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/700337",
+      "droits": "Données de la notice du Metropolitan Museum of Art (Open Access, CC0) ; image non reproduite ici.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-oeuvre-statue-de-sel",
+      "titre": "La Statue de sel (Albert Memmi, 1953)",
+      "type": "livre",
+      "description": "Premier roman d'Albert Memmi, publié en français en 1953 et en anglais en 1955 sous le titre « The Pillar of Salt ». Cette œuvre autobiographique se déroule dans la Tunisie coloniale de 1920 à 1943. L'auteur y examine la situation d'être juif dans un pays à majorité musulmane.",
+      "sources": [
+        "S72",
+        "S71"
+      ],
+      "createur": "Albert Memmi",
+      "periode": "1953",
+      "url_notice": "https://www.encyclopedia.com/arts/culture-magazines/pillar-salt",
+      "droits": "Œuvre sous droits d'auteur ; seule la notice descriptive est liée.",
+      "langues": [
+        "français"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-oeuvre-chansons-de-vie",
+      "titre": "Chansons de vie (Abou el Kacem Chebbi, 1955)",
+      "type": "livre",
+      "description": "Premier recueil de poèmes de Chebbi, composé à la fin de sa brève vie, il paraît à titre posthume en 1955. Larousse indique qu'il l'avait intitulé « Chansons de vie ».",
+      "sources": [
+        "S70"
+      ],
+      "createur": "Abou el Kacem Chebbi",
+      "periode": "1955 (posthume)",
+      "url_notice": "https://www.larousse.fr/encyclopedie/litterature/Abu_l-Qasim_Chabbi/172301",
+      "droits": "Notice encyclopédique Larousse ; œuvre non reproduite.",
+      "langues": [
+        "arabe"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-oeuvre-notre-femme",
+      "titre": "Notre femme dans la loi et la société (Tahar Haddad, 1930)",
+      "type": "livre",
+      "description": "Ouvrage de Tahar Haddad publié en 1930, qui examine la situation de la femme musulmane et les questions liées à son émancipation à la lumière d'une interprétation évolutive de l'islam. Il aborde aussi la situation de la famille tunisienne frappée par la paupérisation. L'auteur y est polémique envers ceux qui réduisent la femme à un objet de désir.",
+      "sources": [
+        "S69"
+      ],
+      "createur": "Tahar Haddad",
+      "periode": "1930",
+      "url_notice": "https://journals.openedition.org/clio/285",
+      "droits": "Analyse publiée sur OpenEdition (Clio) ; œuvre non reproduite.",
+      "langues": [
+        "arabe"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Texte débattu sur la place des femmes et la religion : présentation à relire.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-oeuvre-silences-du-palais",
+      "titre": "Les Silences du palais (Moufida Tlatli, 1994)",
+      "type": "film",
+      "description": "Film de Moufida Tlatli, co-écrit avec Nouri Bouzid, qui est devenu le premier succès international d'une réalisatrice du monde arabe. L'action se déroule au milieu des années 1960, avec de longs retours en arrière sur la décennie précédente, avant l'indépendance. Il a reçu une mention spéciale du meilleur premier film à Cannes.",
+      "sources": [
+        "S80"
+      ],
+      "createur": "Moufida Tlatli",
+      "periode": "1994",
+      "url_notice": "https://www.irishtimes.com/life-and-style/people/moufida-tlatli-obituary-groundbreaker-in-arab-film-1.4506428",
+      "droits": "Notice de presse ; film non reproduit.",
+      "langues": [
+        "arabe"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TN-oeuvre-barzakh",
+      "titre": "Barzakh (Anouar Brahem, 1991)",
+      "type": "musique",
+      "description": "Premier album d'Anouar Brahem pour le label ECM, paru en 1991, avec des musiciens tunisiens. Le oud du compositeur y est accompagné par des musiciens tunisiens, dont Béchir Selmi.",
+      "sources": [
+        "S73"
+      ],
+      "createur": "Anouar Brahem",
+      "periode": "1991",
+      "url_notice": "https://encyclopedia.com/education/news-wires-white-papers-and-books/brahem-anouar",
+      "droits": "Notice encyclopédique ; enregistrement non reproduit.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "proverbes": [],
+  "sources": [
+    {
+      "id": "S1",
+      "titre": "Kairouan — Liste du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/499",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S2",
+      "titre": "Djerba : témoignage d’un mode d’occupation d’un territoire insulaire — Liste du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/1640",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S3",
+      "titre": "Médina de Sousse — Liste du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/498",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S4",
+      "titre": "Village de Sidi Bou Saïd — Liste du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/1769",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S5",
+      "titre": "Amphithéâtre d'El Jem — Liste du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/38",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S6",
+      "titre": "Médina de Tunis — Liste du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/36",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S7",
+      "titre": "Parc national de l'Ichkeul — Liste du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/8",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S8",
+      "titre": "Site archéologique de Carthage — Liste du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/37",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S9",
+      "titre": "Cité punique de Kerkouane et sa nécropole — Liste du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/332",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S10",
+      "titre": "Dougga / Thugga — Liste du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/794",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S11",
+      "titre": "Tunisie — États parties, Convention du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/etatsparties/tn",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S12",
+      "titre": "Médina de Sfax — Liste indicative",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/listesindicatives/5689/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S13",
+      "titre": "Habitat troglodytique et le monde des ksour du Sud tunisien — Liste indicative",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/listesindicatives/6444/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S14",
+      "titre": "Rammadiya d'El Magtaa (El Mekta), le site princeps de la culture capsienne — Liste indicative",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/listesindicatives/6536/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S15",
+      "titre": "Le site archéologique de Sbeïtla — Liste indicative",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/listesindicatives/6537/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S16",
+      "titre": "Le complexe hydraulique romain de Zaghouan-Carthage — Liste indicative",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/listesindicatives/5685/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S17",
+      "titre": "Les carrières antiques de marbre numidique de Chimtou — Liste indicative",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/listesindicatives/5687/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S18",
+      "titre": "Les Mausolées Royaux de Numidie, de la Maurétanie et les monuments funéraires pré-islamiques — Liste indicative",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/listesindicatives/5684/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S19",
+      "titre": "Chott El Jerid — Liste indicative",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/listesindicatives/5385/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S20",
+      "titre": "Oasis de Gabès — Liste indicative",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/listesindicatives/5386/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S21",
+      "titre": "Arabic Kohl — Liste représentative du patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/arabic-kohl-02261",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S22",
+      "titre": "Performing arts among the Twāyef of Ghbonten — Liste représentative du patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/performing-arts-among-the-twyef-of-ghbonten-01875",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S23",
+      "titre": "Henna: rituals, aesthetic and social practices — Liste représentative du patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/henna-rituals-aesthetic-and-social-practices-02116",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S24",
+      "titre": "Arts, skills and practices associated with engraving on metals (gold, silver and copper) — Liste représentative du patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/arts-skills-and-practices-associated-with-engraving-on-metals-gold-silver-and-copper-01951",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S25",
+      "titre": "Harissa, knowledge, skills and culinary and social practices — Liste représentative du patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/harissa-knowledge-skills-and-culinary-and-social-practices-01710",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S26",
+      "titre": "Date palm, knowledge, skills, traditions and practices — Liste représentative du patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/date-palm-knowledge-skills-traditions-and-practices-01902",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S27",
+      "titre": "Arabic calligraphy: knowledge, skills and practices — Liste représentative du patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/arabic-calligraphy-knowledge-skills-and-practices-01718",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S28",
+      "titre": "Charfia fishing in the Kerkennah Islands — Liste représentative du patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/charfia-fishing-in-the-kerkennah-islands-01566",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S29",
+      "titre": "Knowledge, know-how and practices pertaining to the production and consumption of couscous — Liste représentative du patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/knowledge-know-how-and-practices-pertaining-to-the-production-and-consumption-of-couscous-01602",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S30",
+      "titre": "Pottery skills of the women of Sejnane — Liste représentative du patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/pottery-skills-of-the-women-of-sejnane-01406",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S31",
+      "titre": "Population, total — Tunisie (SP.POP.TOTL)",
+      "institution": "Banque mondiale",
+      "url": "https://api.worldbank.org/v2/country/TN/indicator/SP.POP.TOTL?format=json&per_page=5",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S32",
+      "titre": "Surface area (sq. km) — Tunisie (AG.SRF.TOTL.K2)",
+      "institution": "Banque mondiale",
+      "url": "https://api.worldbank.org/v2/country/TN/indicator/AG.SRF.TOTL.K2?format=json&per_page=5",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S33",
+      "titre": "Wikidata Q948 — Tunisie",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q948.json",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S34",
+      "titre": "Tunisie — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Tunisie",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S35",
+      "titre": "Langues en Tunisie — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Langues_en_Tunisie",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S36",
+      "titre": "Tunisie — L'aménagement linguistique dans le monde",
+      "institution": "Université Laval (CEFAN)",
+      "auteur": "Jacques Leclerc",
+      "url": "https://www.axl.cefan.ulaval.ca/afrique/tunisie.htm",
+      "type": "universite",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S37",
+      "titre": "Glottolog — Standard Arabic (stan1318)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1318",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S38",
+      "titre": "Glottolog — Tunisian Arabic (tuni1259)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/tuni1259",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S39",
+      "titre": "Glottolog — French (stan1290)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1290",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S40",
+      "titre": "Glottolog — Tunisian-Zuwara Berber (tuni1262)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/tuni1262",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S41",
+      "titre": "Glottolog — Jerba (jerb1241)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/jerb1241",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S42",
+      "titre": "Glottolog — Judeo-Tunisian Arabic (jude1263)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/jude1263",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S43",
+      "titre": "Glottolog — Tunisian Sign Language (tuni1249)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/tuni1249",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S44",
+      "titre": "Glottolog — English (stan1293)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1293",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S45",
+      "titre": "Glottolog — Italian (ital1282)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/ital1282",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S46",
+      "titre": "Traité du Bardo du 12 mai 1881",
+      "institution": "Université Laval (CEFAN)",
+      "url": "https://axl.cefan.ulaval.ca/afrique/tunisie-bardo1881.htm",
+      "type": "universite",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S47",
+      "titre": "12 mai 1881 — Traité du Bardo avec la Tunisie",
+      "institution": "Herodote.net",
+      "auteur": "Alban Dignat",
+      "url": "https://www.herodote.net/12_mai_1881-evenement-18810512.php",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S48",
+      "titre": "14 janvier 2011 — Révolution tunisienne",
+      "institution": "Herodote.net",
+      "url": "https://www.herodote.net/17_decembre_2010_14_janvier_2011-evenement-20110114.php",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S49",
+      "titre": "Tunisia: Personal Status Code",
+      "institution": "Encyclopedia of the Modern Middle East and North Africa (Gale), via Encyclopedia.com",
+      "auteur": "Mounira M. Charrad",
+      "url": "https://encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/tunisia-personal-status-code",
+      "type": "livre",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S50",
+      "titre": "Carthage Blows Its Fiftieth Candle",
+      "institution": "FIPRESCI",
+      "annee": 2016,
+      "url": "https://fipresci.org/report/carthage-blows-its-fiftieth-candle/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S51",
+      "titre": "Nobel Peace Prize 2015 — Press release",
+      "institution": "NobelPrize.org (Comité Nobel norvégien)",
+      "annee": 2015,
+      "url": "https://www.nobelprize.org/prizes/peace/2015/press-release/",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S52",
+      "titre": "Union Générale des Travailleurs Tunisiens (UGTT)",
+      "institution": "Encyclopedia.com (Gale)",
+      "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/union-generale-des-travailleurs-tunisiens-ugtt",
+      "type": "livre",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S53",
+      "titre": "Habib Bourguiba",
+      "institution": "Encyclopedia.com (Encyclopedia of World Biography)",
+      "url": "https://www.encyclopedia.com/people/history/north-african-history-biographies/habib-bourguiba",
+      "type": "livre",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S54",
+      "titre": "Commémorer l'abolition de l'esclavage en Tunisie. Les droits des citoyens noirs et l'histoire des esclaves d'origines européennes",
+      "institution": "Esclavages & Post-esclavages (OpenEdition Journals)",
+      "auteur": "M'hamed Oualdi",
+      "url": "https://journals.openedition.org/slaveries/3989",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S55",
+      "titre": "L'installation des Andalous à Tunis au XVIIe siècle",
+      "institution": "Institut de recherche sur le Maghreb contemporain (OpenEdition Books)",
+      "url": "https://books.openedition.org/irmc/638",
+      "type": "livre",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S56",
+      "titre": "Origine du paysage andalou dans le nord-ouest tunisien",
+      "institution": "Cahiers de la Méditerranée (OpenEdition Journals)",
+      "url": "https://journals.openedition.org/cdlm/4934",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S57",
+      "titre": "Identités multiples et multitudes d’histoires : les « Noirs tunisiens » de 1846 à aujourd’hui",
+      "institution": "Annales de Civilisations (OpenEdition Journals)",
+      "auteur": "Ines Mrad-Dali",
+      "url": "https://journals.openedition.org/acrh/2330",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S58",
+      "titre": "Migrations et modernité dans les îles Kerkennah",
+      "institution": "Cahiers de la Méditerranée (OpenEdition Journals)",
+      "url": "https://journals.openedition.org/cdlm/583",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S59",
+      "titre": "A Paradoxical Pilgrimage. The Ghriba Synagogue in Djerba",
+      "institution": "Aix-Marseille Université (HAL)",
+      "url": "https://amu.hal.science/hal-03920092",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S60",
+      "titre": "Djerba",
+      "institution": "Encyclopedia.com (Gale)",
+      "url": "https://www.encyclopedia.com/history/asia-and-africa/middle-eastern-history/djerba",
+      "type": "livre",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S61",
+      "titre": "Bouchnaq, Lotfi (1954–)",
+      "institution": "Encyclopedia.com (Gale)",
+      "url": "https://www.encyclopedia.com/international/encyclopedias-almanacs-transcripts-and-maps/bouchnaq-lotfi-1954",
+      "type": "livre",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S62",
+      "titre": "Tunis — Creative Cities Network",
+      "institution": "UNESCO",
+      "url": "https://www.unesco.org/en/creative-cities/tunis",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S63",
+      "titre": "Hannibal",
+      "institution": "Encyclopedia.com (Oxford)",
+      "url": "https://www.encyclopedia.com/people/history/ancient-history-africa-biographies/hannibal",
+      "type": "livre",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S64",
+      "titre": "Tertullian",
+      "institution": "Encyclopedia.com (New Catholic Encyclopedia)",
+      "url": "https://www.encyclopedia.com/people/philosophy-and-religion/roman-catholic-and-orthodox-churches-general-biographies/tertullian",
+      "type": "livre",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S65",
+      "titre": "Sts. Felicitas and Perpetua",
+      "institution": "Catholic Encyclopedia (New Advent)",
+      "url": "https://www.newadvent.org/cathen/06029a.htm",
+      "type": "livre",
+      "licence": "domaine public",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S66",
+      "titre": "Abd al-Rahman ibn Muhammad ibn Khaldun",
+      "institution": "Encyclopedia.com (Encyclopedia of World Biography)",
+      "url": "https://www.encyclopedia.com/people/philosophy-and-religion/islam-biographies/abd-al-rahman-ibn-muhammad-ibn-khaldun",
+      "type": "livre",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S67",
+      "titre": "Ibn al-Jazzar (al-Gizar): A Renowned Tunisian Physician in General Medicine, Women’s Diseases, and Pediatrics During the Middle Ages",
+      "institution": "Cureus / PubMed Central",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11809117/",
+      "type": "article_scientifique",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S68",
+      "titre": "Islamic Medical Manuscripts: Bio-Bibliographies — I (Ibn al-Jazzār)",
+      "institution": "U.S. National Library of Medicine",
+      "url": "https://www.nlm.nih.gov/hmd/arabic/bioI.html",
+      "type": "institution",
+      "licence": "domaine public",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S69",
+      "titre": "Islam, réformisme et condition féminine en Tunisie : Tahar Haddad (1898-1935)",
+      "institution": "Clio. Femmes, Genre, Histoire (OpenEdition Journals)",
+      "url": "https://journals.openedition.org/clio/285",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S70",
+      "titre": "Abu l-Qasim Chabbi",
+      "institution": "Larousse (Encyclopédie)",
+      "url": "https://www.larousse.fr/encyclopedie/litterature/Abu_l-Qasim_Chabbi/172301",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S71",
+      "titre": "Albert Memmi",
+      "institution": "Encyclopedia.com (Encyclopedia of World Biography)",
+      "url": "https://www.encyclopedia.com/people/history/historians-miscellaneous-biographies/albert-memmi",
+      "type": "livre",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S72",
+      "titre": "The Pillar of Salt",
+      "institution": "Encyclopedia.com (Literary Themes / Gale)",
+      "url": "https://www.encyclopedia.com/arts/culture-magazines/pillar-salt",
+      "type": "livre",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S73",
+      "titre": "Brahem, Anouar",
+      "institution": "Encyclopedia.com (Contemporary Musicians / Gale)",
+      "url": "https://encyclopedia.com/education/news-wires-white-papers-and-books/brahem-anouar",
+      "type": "livre",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S74",
+      "titre": "Mohamad Gammoudi — Olympedia",
+      "institution": "Olympedia",
+      "url": "https://www.olympedia.org/athletes/76964",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S75",
+      "titre": "Histoire : princesse Aziza Othmana, la bienfaitrice",
+      "institution": "Lepetitjournal.com Tunis",
+      "url": "https://lepetitjournal.com/tunis/actualites/histoire-princesse-aziza-othmana-la-bienfaitrice-53968",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S76",
+      "titre": "Testour : célébration des 90 ans de la disparition de Habiba Msika",
+      "institution": "Lepetitjournal.com Tunis",
+      "url": "https://lepetitjournal.com/tunis/actualites/testour-celebration-des-90-ans-de-la-disparition-de-habiba-msika-274630",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S77",
+      "titre": "Bchira Ben Mrad, pionnière du féminisme tunisien, au cœur d'un nouvel ouvrage",
+      "institution": "L'Économiste Maghrébin",
+      "annee": 2026,
+      "url": "https://www.leconomistemaghrebin.com/2026/08/17/bchira-ben-mrad-pionniere-du-feminisme-tunisien-au-coeur-dun-nouvel-ouvrage/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S78",
+      "titre": "Tawhida Ben Cheikh",
+      "institution": "Ville de Paris",
+      "url": "https://www.paris.fr/pages/tawhida-ben-cheikh-31672",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S79",
+      "titre": "Safia Farhat",
+      "institution": "Mathaf : Arab Museum of Modern Art (Encyclopedia of Arab Art)",
+      "url": "https://mathaf.org.qa/en/encyclopedia/artists-biographies/safia-farhat/",
+      "type": "musee",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S80",
+      "titre": "Moufida Tlatli obituary: Groundbreaker in Arab film",
+      "institution": "The Irish Times",
+      "annee": 2021,
+      "url": "https://www.irishtimes.com/life-and-style/people/moufida-tlatli-obituary-groundbreaker-in-arab-film-1.4506428",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S81",
+      "titre": "Béji, Hélé (1948–)",
+      "institution": "Encyclopedia.com (Encyclopedia of Africa / Gale)",
+      "url": "https://encyclopedia.com/international/encyclopedias-almanacs-transcripts-and-maps/beji-hele-1948",
+      "type": "livre",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S82",
+      "titre": "Ons Jabeur reaches first Grand Slam final at Wimbledon",
+      "institution": "Al Jazeera",
+      "annee": 2022,
+      "url": "https://www.aljazeera.com/news/2022/7/7/ons-jabeur-reaches-first-grand-slam-final-at-wimbledon",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S83",
+      "titre": "Lina Ben Mhenni, “Tunisian Girl” blogger and activist",
+      "institution": "The Irish Times",
+      "annee": 2020,
+      "url": "https://www.irishtimes.com/life-and-style/people/lina-ben-mhenni-tunisian-girl-blogger-and-activist-1.4164680",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S84",
+      "titre": "Lina Ben Mhenni — profil",
+      "institution": "Front Line Defenders",
+      "url": "https://frontlinedefenders.org/en/profile/lina-ben-mhenni",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S85",
+      "titre": "The Met Collection API — objet 454662",
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/454662",
+      "type": "musee",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S86",
+      "titre": "The Met Collection API — objet 456074",
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/456074",
+      "type": "musee",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S87",
+      "titre": "The Met Collection API — objet 468468",
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/468468",
+      "type": "musee",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S88",
+      "titre": "The Met Collection API — objet 447629",
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/447629",
+      "type": "musee",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S89",
+      "titre": "The Met Collection API — objet 89306",
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/89306",
+      "type": "musee",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S90",
+      "titre": "The Met Collection API — objet 320600",
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/320600",
+      "type": "musee",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S91",
+      "titre": "The Met Collection API — objet 448007",
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/448007",
+      "type": "musee",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S92",
+      "titre": "The Met Collection API — objet 700337",
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/700337",
+      "type": "musee",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S93",
+      "titre": "Wikidata Q36456",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q36456",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S94",
+      "titre": "Wikidata Q174929",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q174929",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S95",
+      "titre": "Wikidata Q1655888",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q1655888",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S96",
+      "titre": "Wikidata Q9294",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q9294",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S97",
+      "titre": "Wikidata Q969533",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q969533",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S98",
+      "titre": "Wikidata Q335543",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q335543",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S99",
+      "titre": "Wikidata Q762261",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q762261",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S100",
+      "titre": "Wikidata Q643348",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q643348",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S101",
+      "titre": "Wikidata Q733225",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q733225",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S102",
+      "titre": "Wikidata Q548428",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q548428",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S103",
+      "titre": "Wikidata Q345439",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q345439",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S104",
+      "titre": "Wikidata Q2875184",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q2875184",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S105",
+      "titre": "Wikidata Q2911515",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q2911515",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S106",
+      "titre": "Wikidata Q2892588",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q2892588",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S107",
+      "titre": "Wikidata Q2740204",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q2740204",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S108",
+      "titre": "Wikidata Q3461280",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q3461280",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S109",
+      "titre": "Wikidata Q431848",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q431848",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S110",
+      "titre": "Wikidata Q3144896",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q3144896",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S111",
+      "titre": "Wikidata Q290212",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q290212",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S112",
+      "titre": "Wikidata Q468864",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q468864",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S113",
+      "titre": "Wikidata Q179570 (coordonnées)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q179570",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S114",
+      "titre": "Wikidata Q3106527 (coordonnées)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q3106527",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S115",
+      "titre": "Wikidata Q52284968 (coordonnées)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q52284968",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S116",
+      "titre": "Wikidata Q65944741 (coordonnées)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q65944741",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    }
+  ]
+}

@@ -1,0 +1,4601 @@
+{
+  "code": "EG",
+  "nom": "Égypte",
+  "region": "nord",
+  "wikidata": "Q79",
+  "maj": "2026-11-21",
+  "pays": {
+    "nom_officiel": "République arabe d'Égypte",
+    "capitale": "Le Caire",
+    "langues_officielles": [
+      "arabe"
+    ],
+    "langues_nationales": [],
+    "population": {
+      "valeur": 118365995,
+      "annee": 2025,
+      "source": "S1"
+    },
+    "superficie_km2": 1010408,
+    "monnaie": "Livre égyptienne",
+    "resume": "L'Égypte s'étend sur le nord-est de l'Afrique et, par le Sinaï, sur une part de l'Asie ; sa population se concentre le long du Nil et de son delta, et Le Caire en est la capitale. Elle a connu parmi les premiers États centralisés de l'histoire : le ministère égyptien des Antiquités situe l'unification du pays vers 3100 av. J.-C., puis se succèdent royaumes pharaoniques, royaume lagide, période romaine, califats et sultanats médiévaux, tutelle ottomane et monarchie de la dynastie de Méhémet Ali. Après l'indépendance formelle de 1922, la République est proclamée en 1953 ; les grandes dates contemporaines vont de la nationalisation du canal de Suez (1956) au soulèvement de 2011. Le pays compte sept biens du patrimoine mondial et onze éléments inscrits au patrimoine culturel immatériel, de la vallée des Baleines aux fêtes du Moulid et au koshary. L'arabe est la langue officielle ; des communautés nubiennes, amazighes de Siwa, bédouines, coptes et saïdis forment, avec les habitants du Delta et des grandes villes, une société plurielle.",
+    "sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ]
+  },
+  "langues": [
+    {
+      "id": "EG-langue-arabe-egyptien",
+      "nom": "Arabe égyptien",
+      "description": "L'arabe égyptien est la variété d'arabe parlée comme langue première en Égypte, notamment au Caire. Glottolog la classe dans l'ensemble « arabe égyptien-soudanais » et la juge non menacée. Les proverbes cairotes recueillis par Burckhardt au XIXe siècle montrent l'ancienneté de cette parole populaire, distincte de l'arabe standard.",
+      "famille": "Afro-asiatique, sémitique, arabe (arabe égyptien-soudanais)",
+      "glottocode": "egyp1253",
+      "statut_linguistique": [
+        "véhiculaire"
+      ],
+      "sources": [
+        "S6",
+        "S7",
+        "S4"
+      ],
+      "wikidata": "Q29919",
+      "regions": [
+        "Le Caire"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode egyp1253 confirmé (Glottolog). Aire de diffusion et statut de langue véhiculaire à préciser : la Constitution ne reconnaît officiellement que l'arabe."
+      }
+    },
+    {
+      "id": "EG-langue-arabe-standard",
+      "nom": "Arabe standard",
+      "description": "La Constitution de 2014 (révisée en 2019) dispose que l'arabe est la langue officielle de l'État. L'arabe standard sert à l'écrit, à l'école, à l'administration et à la liturgie musulmane. Sa calligraphie est inscrite par l'UNESCO au patrimoine immatériel (inscription de 2021).",
+      "famille": "Afro-asiatique, sémitique, arabe",
+      "glottocode": "stan1318",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "sources": [
+        "S8",
+        "S3",
+        "S9"
+      ],
+      "wikidata": "Q56467",
+      "ecritures": [
+        "arabe"
+      ],
+      "regions": [
+        "Ensemble du pays"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode stan1318 (Standard Arabic) confirmé sur Glottolog ; le fichier de graines n'en donnait pas pour Q56467."
+      }
+    },
+    {
+      "id": "EG-langue-arabe-saidi",
+      "nom": "Arabe saïdi",
+      "description": "L'arabe saïdi est la variété associée au Saïd, la Haute-Égypte. Glottolog le range avec l'arabe égyptien dans le même ensemble et le considère comme non menacé. Les pratiques saïdies présentées par l'UNESCO, comme le jeu de bâton tahteeb ou le tissage à la main, vivent dans ces communautés.",
+      "famille": "Afro-asiatique, sémitique, arabe (arabe égyptien-soudanais)",
+      "glottocode": "said1239",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S10",
+        "S11",
+        "S12"
+      ],
+      "wikidata": "Q56592",
+      "regions": [
+        "Haute-Égypte (Saïd)"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode said1239 et classification lus sur Glottolog."
+      }
+    },
+    {
+      "id": "EG-langue-arabe-bedouin-oriental",
+      "nom": "Arabe bédouin oriental d'Égypte",
+      "description": "Cette variété d'arabe est celle des communautés bédouines de l'est du pays. Glottolog la classe dans l'ensemble égyptien et la signale comme non menacée. L'est du pays (Sinaï, désert oriental), où les communautés bédouines sont présentes, est l'espace qui lui est associé.",
+      "famille": "Afro-asiatique, sémitique, arabe (arabe égyptien)",
+      "glottocode": "east2690",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S13",
+        "S14"
+      ],
+      "wikidata": "Q56714",
+      "regions": [
+        "Sinaï",
+        "Désert oriental"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode east2690 confirmé ; l'aire géographique exacte est à préciser par un spécialiste de dialectologie arabe."
+      }
+    },
+    {
+      "id": "EG-langue-arabe-bedouin-occidental",
+      "nom": "Arabe bédouin occidental d'Égypte",
+      "description": "Glottolog traite cette parlure comme un dialecte rattaché à l'arabe libyen, ce qui reflète les liens entre le désert occidental égyptien et la Libye voisine. Son nom indique qu'elle est employée par les populations bédouines de l'ouest.",
+      "famille": "Afro-asiatique, sémitique, arabe (arabe nord-africain, arabe libyen)",
+      "glottocode": "west2774",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S15"
+      ],
+      "wikidata": "Q116044950",
+      "regions": [
+        "Désert occidental"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottolog le classe comme dialecte (niveau « dialect »), non comme langue distincte."
+      }
+    },
+    {
+      "id": "EG-langue-siwi",
+      "nom": "Siwi",
+      "description": "Le siwi est une langue amazighe (berbère) parlée dans l'oasis de Siwa, à une cinquantaine de kilomètres de la frontière libyenne. L'ONU la classe comme en danger ; l'AFP observe pourtant que les enfants jouent en siwi au pied de la forteresse, et note que l'arabe y progresse depuis les années 1980 avec le tourisme, les médias et la mobilité.",
+      "famille": "Afro-asiatique, berbère, zénète élargi, berbère des oasis libyco-égyptiennes",
+      "glottocode": "siwi1239",
+      "statut_linguistique": [
+        "minoritaire",
+        "menacée"
+      ],
+      "sources": [
+        "S17",
+        "S18",
+        "S16"
+      ],
+      "wikidata": "Q36814",
+      "regions": [
+        "Oasis de Siwa",
+        "Oasis d'El-Gara"
+      ],
+      "locuteurs": {
+        "valeur": 15000,
+        "annee": 2008,
+        "source": "S16"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "15 000 locuteurs : estimation de l'ONU de 2008 rapportée par l'AFP (Africanews), soit la moitié de la population de l'oasis. Chiffre à recouper."
+      }
+    },
+    {
+      "id": "EG-langue-bedja",
+      "nom": "Bedja",
+      "description": "Le bedja est une langue cushitique de la famille afro-asiatique. Le désert oriental égyptien est le territoire de populations nomades ou semi-nomades, notamment Ababda et Bichariyin, que la littérature rattache souvent au monde bedja ; le lien précis entre ces groupes et la langue est à confirmer.",
+      "famille": "Afro-asiatique, couchitique",
+      "glottocode": "beja1238",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S19",
+        "S20"
+      ],
+      "wikidata": "Q33025",
+      "regions": [
+        "Désert oriental (sud-est)"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lien entre les Ababda/Bichariyin et la langue bedja non documenté par la source ouverte : à vérifier par un spécialiste."
+      }
+    },
+    {
+      "id": "EG-langue-nobiin",
+      "nom": "Nobiin",
+      "description": "Le nobiin est une langue nubienne du Nil, que Glottolog classe comme menacée. Le lien avec les Nubiens d'Égypte est à confirmer par une source linguistique ; ces communautés ont été déplacées par les barrages d'Assouan au XXe siècle selon Carnegie.",
+      "famille": "Nubien, nubien du Nil",
+      "glottocode": "nobi1240",
+      "statut_linguistique": [
+        "minoritaire",
+        "menacée"
+      ],
+      "sources": [
+        "S21",
+        "S22"
+      ],
+      "regions": [
+        "Assouan",
+        "Kom Ombo",
+        "Nubie"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Aire de diffusion en Égypte et nombre de locuteurs à documenter."
+      }
+    },
+    {
+      "id": "EG-langue-kenuzi",
+      "nom": "Kenuzi",
+      "description": "Le kenuzi est une variété nubienne du groupe Kenuzi-Dongola, que Glottolog traite comme un dialecte et classe comme en cours de substitution linguistique (shifting). Il est parlé par des Nubiens du sud de l'Égypte. Sa documentation reste plus mince que celle du nobiin.",
+      "famille": "Nubien, nubien du Nil (Kenuzi-Dongola)",
+      "glottocode": "kenu1243",
+      "statut_linguistique": [
+        "minoritaire",
+        "menacée"
+      ],
+      "sources": [
+        "S23"
+      ],
+      "wikidata": "Q20639851",
+      "regions": [
+        "Assouan"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottolog le classe au niveau « dialecte ». Aire exacte à préciser."
+      }
+    },
+    {
+      "id": "EG-langue-copte",
+      "nom": "Copte",
+      "description": "Le copte descend de l'égyptien ancien et appartient à la branche égyptienne de la famille afro-asiatique. Glottolog le classe comme éteint en tant que langue maternelle ; il demeure langue liturgique de l'Église copte, dont la population se dit copte « liturgique et ancestrale » selon Wikipédia. Elle descend du démotique, parlé à la fin de l'Antiquité.",
+      "famille": "Afro-asiatique, égyptien",
+      "glottocode": "copt1239",
+      "statut_linguistique": [
+        "liturgique"
+      ],
+      "sources": [
+        "S24",
+        "S5"
+      ],
+      "wikidata": "Q36155",
+      "regions": [
+        "Églises coptes d'Égypte"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode copt1239 et classification lus sur Glottolog."
+      }
+    },
+    {
+      "id": "EG-langue-langue-des-signes-egyptienne",
+      "nom": "Langue des signes égyptienne",
+      "description": "La langue des signes égyptienne est la langue des communautés sourdes du pays. Glottolog la rattache à la famille des langues des signes arabes. Sa description repose sur les travaux de Kinda Al-Fityani et Carol Padden, cités par Glottolog.",
+      "famille": "Langue des signes, langues des signes arabes",
+      "glottocode": "egyp1238",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S25"
+      ],
+      "wikidata": "Q5348443",
+      "regions": [
+        "Ensemble du pays"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode egyp1238 et classification lus sur Glottolog."
+      }
+    }
+  ],
+  "peuples": [
+    {
+      "id": "EG-peuple-nubiens",
+      "nom": "Nubiens",
+      "description": "Les Nubiens sont les habitants de la haute vallée du Nil entre le sud de l'Égypte et le nord du Soudan. Des villages nubiens ont été submergés ou déplacés par les barrages d'Assouan : selon Carnegie, la communauté a été touchée dès 1902, puis surtout entre 1961 et 1964, avec 135 000 personnes de 44 villages relogées au désert. La Constitution de 2014 prévoit leur retour, mais les promesses restent contestées. Les Nubiens célèbrent encore ensemble des fêtes comme l'Aïd, avec le « train de la Nubie » depuis le Caire et Alexandrie.",
+      "langues": [
+        "nobiin",
+        "kenuzi",
+        "arabe égyptien"
+      ],
+      "regions": [
+        "Assouan",
+        "Kom Ombo",
+        "Le Caire (diaspora)"
+      ],
+      "sources": [
+        "S22",
+        "S26",
+        "S21",
+        "S27"
+      ],
+      "nom_local": "Nuba",
+      "pays_partages": [
+        "SD"
+      ],
+      "activites": [
+        "agriculture",
+        "musique",
+        "migration vers les villes"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet politique actuel (retour sur les terres ancestrales, loi de 2018) : présenter les positions de la communauté et de l'État avec leurs sources ; relecture par des représentants nubiens souhaitable.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-peuple-siwis",
+      "nom": "Siwis (Amazighs de Siwa)",
+      "description": "Les Siwis habitent l'oasis de Siwa, dans le désert occidental, tout près de la frontière libyenne. Ils parlent le siwi, langue amazighe, et la plupart sont aussi arabophones. Leur oasis, intégrée à l'Égypte par Méhémet Ali en 1820, vit de l'eau de ses sources, des dattes, des olives et du tourisme. L'ONU juge leur langue menacée.",
+      "langues": [
+        "siwi",
+        "arabe égyptien"
+      ],
+      "regions": [
+        "Oasis de Siwa",
+        "El-Gara"
+      ],
+      "sources": [
+        "S18",
+        "S16",
+        "S17"
+      ],
+      "organisation": "Villages fortifiés construits sur des pitons rocheux (forteresse de Shali, XIIIe siècle).",
+      "activites": [
+        "culture du palmier-dattier et de l'olivier",
+        "artisanat (broderie, bijoux en argent, vannerie, poterie)",
+        "tourisme culturel"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-peuple-bedouins-du-sinai",
+      "nom": "Bédouins du Sinaï",
+      "description": "Les populations bédouines du Sinaï vivent sur une péninsule qui fut longtemps une marche entre l'Égypte, le Levant et l'Arabie. Le droit coutumier bédouin y est reconnu depuis le début du XXe siècle. Après 1967, des Bédouins ont été expropriés, et l'essor touristique des années 1990-2000 a transformé l'économie locale ; l'Atlas évoque aussi l'intensification de la violence ces dernières années. Des femmes bédouines font vivre une broderie traditionnelle, devenue source de revenus.",
+      "langues": [
+        "arabe bédouin oriental"
+      ],
+      "regions": [
+        "Nord-Sinaï",
+        "Sud-Sinaï",
+        "Sainte-Catherine"
+      ],
+      "sources": [
+        "S14",
+        "S28",
+        "S13"
+      ],
+      "activites": [
+        "broderie",
+        "tourisme"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Zone de conflit récent et de politique sécuritaire : les faits (expropriations, violences, opérations antiterroristes) doivent rester attribués à leurs sources (CNRS Éditions) et sans jugement.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-peuple-ababda-et-bichariyin",
+      "nom": "Ababda et Bichariyin (désert oriental)",
+      "description": "Entre la vallée du Nil et la mer Rouge, des sociétés pastorales connues depuis l'époque pharaonique ont longtemps guidé les caravanes et participé à l'exploitation des ressources du désert. Les Ababda et les Bichariyin, au sud, gardent en partie des activités nomades. Aujourd'hui largement sédentaires ou semi-sédentaires, ils guident touristes et prospecteurs.",
+      "langues": [
+        "bedja (à confirmer)"
+      ],
+      "regions": [
+        "Désert oriental",
+        "Bords de la mer Rouge",
+        "Assouan"
+      ],
+      "sources": [
+        "S20",
+        "S19"
+      ],
+      "activites": [
+        "pastoralisme",
+        "guidage dans le désert",
+        "exploitation minière"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-peuple-coptes",
+      "nom": "Coptes",
+      "description": "Les Coptes sont les chrétiens autochtones d'Égypte, en grande majorité membres de l'Église copte orthodoxe. Leur langue liturgique descend de l'égyptien ancien. Ils partagent avec leurs voisins musulmans des fêtes comme celles qui commémorent le voyage de la Sainte Famille en Égypte, inscrites par l'UNESCO en 2022, et des lieux comme Abou Mena et le monastère de Sainte-Catherine.",
+      "langues": [
+        "copte",
+        "arabe égyptien"
+      ],
+      "regions": [
+        "Ensemble du pays"
+      ],
+      "sources": [
+        "S5",
+        "S29",
+        "S30",
+        "S31"
+      ],
+      "nom_local": "ⲛⲓⲣⲉⲙⲛ̀ⲭⲏⲙⲓ",
+      "activites": [
+        "liturgie",
+        "pèlerinages",
+        "fêtes partagées"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet religieux et de minorité : relecture par une institution copte recommandée avant publication.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-peuple-saidis",
+      "nom": "Saïdis (Haute-Égypte)",
+      "description": "Les Saïdis sont les habitants du Saïd, la Haute-Égypte. Selon l'UNESCO, le jeu de bâton tahteeb est surtout pratiqué par des populations saïdies dans les zones rurales, et leur tissage à la main figure sur la liste de sauvegarde urgente. Le moulid d'Abou el-Haggag à Louxor est l'une des grandes fêtes de la région.",
+      "langues": [
+        "arabe saïdi"
+      ],
+      "regions": [
+        "Louxor",
+        "Haute-Égypte"
+      ],
+      "sources": [
+        "S11",
+        "S12",
+        "S32",
+        "S10"
+      ],
+      "activites": [
+        "agriculture",
+        "tissage à la main",
+        "jeu de bâton (tahteeb)"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-peuple-communautes-du-canal-de-suez",
+      "nom": "Communautés du canal de Suez",
+      "description": "La région du canal de Suez compte des communautés de pêcheurs, de marins et de négociants maritimes. L'UNESCO y situe la fabrication et le jeu de la semsemiah, une lyre à cadre jouée sur les bateaux de pêche et lors des fêtes. Port-Saïd a aussi été au cœur de la guerre de 1956, quand des milliers d'habitants ont fui, surtout vers Alexandrie.",
+      "langues": [
+        "arabe égyptien"
+      ],
+      "regions": [
+        "Région du canal de Suez",
+        "Port-Saïd"
+      ],
+      "sources": [
+        "S33",
+        "S34"
+      ],
+      "activites": [
+        "pêche",
+        "commerce maritime",
+        "musique de semsemiah"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-peuple-communautes-juives-et-etrangeres",
+      "nom": "Communautés juives et étrangères d'Égypte (histoire du cosmopolitisme)",
+      "description": "L'Égypte du XXe siècle comptait des communautés juives et étrangères. La guerre de Suez de 1956 a entraîné leur départ massif, selon l'Atlas de l'Égypte contemporaine, et mis fin à une part du cosmopolitisme urbain. Cette notice est historique ; la mémoire de ces communautés est portée aujourd'hui surtout par la diaspora.",
+      "langues": [
+        "arabe égyptien"
+      ],
+      "regions": [
+        "Égypte urbaine"
+      ],
+      "sources": [
+        "S34"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet politique et mémoriel sensible : formulation neutre, à faire relire par des spécialistes de l'histoire des juifs d'Égypte.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "id": "EG-site-ouadi-al-hitan",
+      "nom": "Ouadi Al-Hitan (la vallée des Baleines)",
+      "description": "Dans le désert occidental, ce site conserve des fossiles de baleines archéocètes, les premiers cétacés, qui perdaient alors leurs membres postérieurs. Selon l'UNESCO, il illustre l'une des grandes étapes de l'évolution, le passage de mammifères terrestres à des mammifères marins. Le nombre et la qualité des fossiles, ainsi que l'accès au paysage protégé, y sont uniques.",
+      "type": "patrimoine_mondial",
+      "sources": [
+        "S35",
+        "S36"
+      ],
+      "regions": [
+        "Désert occidental"
+      ],
+      "wikidata": "Q501833",
+      "unesco_id": "1186",
+      "inscription": "2005",
+      "coordonnees": {
+        "lat": 29.270833333,
+        "lng": 30.043888888
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-site-caire-historique",
+      "nom": "Le Caire historique",
+      "description": "Le Caire historique est une des plus anciennes villes islamiques au monde, avec ses mosquées, médersas, hammams et fontaines. Fondée comme siège du califat fatimide en 969, elle est devenue un grand centre du monde islamique et a connu son âge d'or au XIVe siècle. L'UNESCO souligne l'extraordinaire survivance de son tissu urbain médiéval.",
+      "type": "patrimoine_mondial",
+      "sources": [
+        "S37",
+        "S38"
+      ],
+      "regions": [
+        "Le Caire"
+      ],
+      "wikidata": "Q1100964",
+      "unesco_id": "89",
+      "inscription": "1979",
+      "coordonnees": {
+        "lat": 30.046,
+        "lng": 31.2627
+      },
+      "periode": "Xe-XIXe siècle",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-site-memphis-et-necropole",
+      "nom": "Memphis et sa nécropole – les zones des pyramides de Guizeh à Dahchour",
+      "description": "Memphis fut la première capitale de l'Égypte ancienne ; la tradition la dit fondée vers 3000 av. J.-C. Sa nécropole, de Guizeh à Dahchour, conserve les premiers grands édifices en pierre, des mastabas aux pyramides, dont celle de Khéops, unique merveille du monde antique encore debout selon l'UNESCO. Le site comprend aussi les restes de temples et de villages qui éclairent la vie ordinaire de l'époque.",
+      "type": "patrimoine_mondial",
+      "sources": [
+        "S39",
+        "S40",
+        "S41"
+      ],
+      "regions": [
+        "Gizeh",
+        "Saqqarah",
+        "Dahchour"
+      ],
+      "wikidata": "Q1175856",
+      "unesco_id": "86",
+      "inscription": "1979",
+      "coordonnees": {
+        "lat": 29.976,
+        "lng": 31.1304
+      },
+      "periode": "Ancien Empire",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-site-zone-sainte-catherine",
+      "nom": "Zone Sainte-Catherine",
+      "description": "Au pied du mont Horeb, que les musulmans appellent djebel Musa, se dresse le monastère orthodoxe de Sainte-Catherine, fondé au VIe siècle. C'est le plus ancien monastère chrétien à avoir conservé sans interruption sa fonction d'origine. La zone est sacrée pour le christianisme, l'islam et le judaïsme, et le monastère renferme de précieuses collections de manuscrits et d'icônes.",
+      "type": "patrimoine_mondial",
+      "sources": [
+        "S31",
+        "S42"
+      ],
+      "regions": [
+        "Sud-Sinaï"
+      ],
+      "wikidata": "Q2468771",
+      "unesco_id": "954",
+      "inscription": "2002",
+      "coordonnees": {
+        "lat": 28.55623,
+        "lng": 33.97543
+      },
+      "periode": "VIe siècle",
+      "sensible": true,
+      "note_sensibilite": "Lieu de culte actif et site sacré de plusieurs religions : toute présentation du monastère et de ses collections doit être validée par la communauté monastique.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-site-monuments-de-nubie",
+      "nom": "Monuments de Nubie d'Abou Simbel à Philae",
+      "description": "Ce bien en série du gouvernorat d'Assouan regroupe dix éléments, dont les temples d'Abou Simbel, taillés sous Ramsès II, et le sanctuaire d'Isis de Philae. Plusieurs temples ont été déplacés pendant la campagne internationale de l'UNESCO menée de 1960 à 1980 pour les sauver des eaux du haut barrage d'Assouan. À Philae, le culte d'Isis a perduré jusqu'au IXe siècle selon l'UNESCO.",
+      "type": "patrimoine_mondial",
+      "sources": [
+        "S43",
+        "S44"
+      ],
+      "regions": [
+        "Assouan",
+        "Nubie"
+      ],
+      "wikidata": "Q4923872",
+      "unesco_id": "88",
+      "inscription": "1979",
+      "coordonnees": {
+        "lat": 22.33638889,
+        "lng": 31.62611111
+      },
+      "periode": "Nouvel Empire à époque romaine",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-site-abou-mena",
+      "nom": "Abou Mena",
+      "description": "Abou Mena est une ville sainte paléochrétienne bâtie autour de la tombe du martyr Ménas d'Alexandrie, mort en 296. Elle fut l'un des premiers grands centres de pèlerinage chrétien du Ve au VIIe siècle et un modèle précoce d'architecture monastique. On y voit encore des églises, un baptistère, des rues, des ateliers et des maisons.",
+      "type": "patrimoine_mondial",
+      "sources": [
+        "S30",
+        "S45"
+      ],
+      "regions": [
+        "Sud d'Alexandrie"
+      ],
+      "wikidata": "Q9278",
+      "unesco_id": "90",
+      "inscription": "1979",
+      "coordonnees": {
+        "lat": 30.84105,
+        "lng": 29.66349
+      },
+      "periode": "Ve-VIIe siècle",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-site-thebes-antique",
+      "nom": "Thèbes antique et sa nécropole",
+      "description": "Thèbes, ville du dieu Amon, fut la capitale de l'Égypte au Moyen et au Nouvel Empire. Elle réunit les temples et palais de Karnak et de Louxor ainsi que les nécropoles de la Vallée des Rois et de la Vallée des Reines. L'UNESCO y voit le témoin matériel de la civilisation égyptienne à son apogée, avec des textes et des peintures qui renseignent aussi sur les voisins de l'Égypte.",
+      "type": "patrimoine_mondial",
+      "sources": [
+        "S46",
+        "S47",
+        "S48"
+      ],
+      "regions": [
+        "Louxor"
+      ],
+      "wikidata": "Q141298543",
+      "unesco_id": "87",
+      "inscription": "1979",
+      "coordonnees": {
+        "lat": 25.720555555,
+        "lng": 32.610277777
+      },
+      "periode": "Moyen Empire - Nouvel Empire",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-site-alexandrie",
+      "nom": "Alexandrie",
+      "description": "Alexandrie fut la capitale du royaume ptolémaïque : Ptolémée Ier acheva la construction de la ville et la dynastie y fit bâtir la célèbre bibliothèque, qui attira savants et penseurs grecs. C'est aussi la ville de naissance de Youssef Chahine, de Nour El Sherbini et le lieu où Nasser annonça, en juillet 1956, la nationalisation du canal de Suez.",
+      "type": "ville_historique",
+      "sources": [
+        "S49",
+        "S34",
+        "S50"
+      ],
+      "regions": [
+        "Alexandrie"
+      ],
+      "wikidata": "Q87",
+      "coordonnees": {
+        "lat": 31.1975,
+        "lng": 29.8925
+      },
+      "periode": "depuis l'Antiquité",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-site-bibliotheca-alexandrina",
+      "nom": "Bibliotheca Alexandrina",
+      "description": "La Bibliotheca Alexandrina est une grande bibliothèque et un centre culturel d'Alexandrie, qui porte le nom latin de la bibliothèque antique fondée sous les Ptolémées. Elle conserve et diffuse des archives, comme les photographies de la guerre de Suez de 1956 reproduites dans l'Atlas de l'Égypte contemporaine.",
+      "type": "musee",
+      "sources": [
+        "S51",
+        "S49",
+        "S34"
+      ],
+      "regions": [
+        "Alexandrie"
+      ],
+      "wikidata": "Q501851",
+      "coordonnees": {
+        "lat": 31.208888889,
+        "lng": 29.909166667
+      },
+      "periode": "XXIe siècle",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-site-musee-egyptien-du-caire",
+      "nom": "Musée égyptien du Caire",
+      "description": "Le Musée égyptien du Caire abrite parmi ses trésors la palette de Narmer, document majeur de l'unification de l'Égypte vers 3100 av. J.-C. selon le ministère égyptien des Antiquités. C'est l'un des grands musées nationaux consacrés à l'Égypte ancienne.",
+      "type": "musee",
+      "sources": [
+        "S52",
+        "S53"
+      ],
+      "regions": [
+        "Le Caire"
+      ],
+      "wikidata": "Q201219",
+      "coordonnees": {
+        "lat": 30.047778,
+        "lng": 31.233333
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-site-oasis-de-siwa",
+      "nom": "Oasis de Siwa",
+      "description": "Siwa est l'oasis la plus occidentale et la plus septentrionale du désert occidental. Selon l'Atlas de l'Égypte contemporaine, Alexandre le Grand aurait visité le temple d'Amon au IVe siècle av. J.-C. ; l'oasis fut conquise par des forces musulmanes en 640 mais ne se convertit à l'islam qu'au XIIe siècle. Les maisons fortifiées de karshif (sel, sable et argile) et la forteresse de Shali (XIIIe siècle) dominent la ville.",
+      "type": "ville_historique",
+      "sources": [
+        "S18",
+        "S54",
+        "S16"
+      ],
+      "regions": [
+        "Marsa Matrouh",
+        "Désert occidental"
+      ],
+      "wikidata": "Q2008735",
+      "coordonnees": {
+        "lat": 29.205277778,
+        "lng": 25.519444444
+      },
+      "periode": "depuis l'Antiquité",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-site-abydos",
+      "nom": "Abydos",
+      "description": "Abydos, près de Sohag, resta un lieu majeur de la période prédynastique tardive. Les rois de la Ire dynastie y furent enterrés, et leurs tombes marquent un bond de monumentalité ; deux rois de la IIe dynastie, Peribsen et Khasekhemoui, y firent aussi bâtir leur sépulture selon le ministère égyptien des Antiquités.",
+      "type": "site_archeologique",
+      "sources": [
+        "S53",
+        "S55"
+      ],
+      "regions": [
+        "Sohag"
+      ],
+      "wikidata": "Q192268",
+      "coordonnees": {
+        "lat": 26.185167,
+        "lng": 31.918889
+      },
+      "periode": "IIIe millénaire av. J.-C.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-site-deir-el-bahari",
+      "nom": "Deir el-Bahari",
+      "description": "Sur la rive ouest de Thèbes, le site de Deir el-Bahari abrite la tombe-temple du roi Nebhepetrê Montouhotep, qui réunifia l'Égypte vers 2055 av. J.-C. et ouvrit le Moyen Empire. Son monument, en partie creusé dans la falaise, servait à la fois de tombeau et de temple pour son culte funéraire.",
+      "type": "site_archeologique",
+      "sources": [
+        "S48",
+        "S56"
+      ],
+      "regions": [
+        "Louxor"
+      ],
+      "wikidata": "Q373909",
+      "coordonnees": {
+        "lat": 25.7375,
+        "lng": 32.6075
+      },
+      "periode": "Moyen Empire",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-site-complexe-sultan-al-ghuri",
+      "nom": "Complexe du sultan al-Ghuri",
+      "description": "Ce complexe mamelouk du Caire, qui réunit selon Wikidata une mosquée, une madrasa, un mausolée et un sabil, accueille aujourd'hui dans une salle de pierre vieille de cinq cents ans les représentations de la tanoura. Il est ainsi un lieu vivant de la danse soufie égyptienne.",
+      "type": "monument",
+      "sources": [
+        "S57",
+        "S58"
+      ],
+      "regions": [
+        "Le Caire"
+      ],
+      "wikidata": "Q6743467",
+      "coordonnees": {
+        "lat": 30.046,
+        "lng": 31.2599
+      },
+      "periode": "XVIe siècle",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-site-mosquee-abou-el-haggag",
+      "nom": "Mosquée d'Abou el-Haggag (Louxor)",
+      "description": "Édifiée dans l'ombre du temple de Louxor, cette mosquée abrite la tombe du cheikh soufi Abou el-Haggag, dont l'anniversaire (moulid) réunit chaque année des milliers d'Égyptiens. Pèlerins et habitants y déposent offrandes, chants et prières pendant trois jours.",
+      "type": "monument",
+      "sources": [
+        "S32",
+        "S59"
+      ],
+      "regions": [
+        "Louxor"
+      ],
+      "wikidata": "Q2635269",
+      "coordonnees": {
+        "lat": 25.7,
+        "lng": 32.639444444
+      },
+      "periode": "fête annuelle",
+      "sensible": true,
+      "note_sensibilite": "Lieu de culte et de pèlerinage soufi : les pratiques rituelles doivent être décrites avec l'accord de la communauté.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-site-port-said",
+      "nom": "Port-Saïd et le canal de Suez",
+      "description": "Port-Saïd, à l'entrée nord du canal de Suez, a été bombardée puis occupée en novembre 1956 par des forces franco-britanniques après la nationalisation du canal. Des milliers d'habitants ont fui, surtout vers Alexandrie. Le canal, ouvert en 1869, a donné au Sinaï une profondeur stratégique.",
+      "type": "lieu_de_memoire",
+      "sources": [
+        "S34",
+        "S14",
+        "S60"
+      ],
+      "regions": [
+        "Port-Saïd"
+      ],
+      "wikidata": "Q134509",
+      "coordonnees": {
+        "lat": 31.2625,
+        "lng": 32.306111111
+      },
+      "periode": "1869-1956",
+      "sensible": true,
+      "note_sensibilite": "Mémoire d'un conflit international : présentation neutre, attribuée à l'Atlas de l'Égypte contemporaine.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-site-haut-barrage-assouan",
+      "nom": "Haut barrage d'Assouan",
+      "description": "Le haut barrage d'Assouan, construit dans les années 1960, a provoqué la submersion de dizaines de villages nubiens et le relogement de milliers d'habitants ; il a aussi déclenché la campagne internationale de l'UNESCO pour sauver les temples de Nubie. Il reste un lieu de mémoire pour les Nubiens, dont le droit au retour est inscrit dans la Constitution de 2014.",
+      "type": "lieu_de_memoire",
+      "sources": [
+        "S22",
+        "S43",
+        "S61"
+      ],
+      "regions": [
+        "Assouan"
+      ],
+      "wikidata": "Q38891",
+      "coordonnees": {
+        "lat": 23.971431,
+        "lng": 32.880192
+      },
+      "periode": "1960-1970",
+      "sensible": true,
+      "note_sensibilite": "Mémoire d'un déplacement forcé : à formuler avec les communautés nubiennes.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "traditions": [
+    {
+      "id": "EG-tradition-koshary",
+      "nom": "Koshary et pratiques associées",
+      "description": "Le koshary est un plat du quotidien à base de riz, de pâtes, de lentilles noires et d'oignons frits, relevé de vinaigre, d'ail et de sauce piquante. Il se prépare à la maison et se vend dans les restaurants et sur des charrettes, surtout près des écoles. Le savoir se transmet surtout dans la famille, des mères aux filles, et par les émissions de cuisine et les formations professionnelles.",
+      "categorie": "cuisine",
+      "sources": [
+        "S62"
+      ],
+      "transmission": "vivante",
+      "communautes": [
+        "Familles",
+        "Restaurateurs et vendeurs de rue",
+        "Artisans des charrettes"
+      ],
+      "regions": [
+        "Ensemble du pays"
+      ],
+      "periode": "inscrit en 2025",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "02278",
+        "annee": 2025,
+        "url": "https://ich.unesco.org/en/RL/koshary-daily-life-dish-and-practices-associated-with-it-02278"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-tradition-henne",
+      "nom": "Henné : rituels, pratiques esthétiques et sociales",
+      "description": "Le henné est un arbuste dont les feuilles séchées et broyées donnent une pâte utilisée surtout par les femmes pour teindre les cheveux ou décorer les mains et les pieds, notamment à l'occasion de naissances et de mariages. L'usage s'accompagne de chants, de proverbes et de poèmes, et de savoirs sur la culture de l'arbre. Les familles transmettent ces pratiques par l'observation et la pratique, aujourd'hui aussi par des centres de beauté, des universités et les médias.",
+      "categorie": "savoir",
+      "sources": [
+        "S63"
+      ],
+      "transmission": "vivante",
+      "communautes": [
+        "Femmes",
+        "Familles"
+      ],
+      "regions": [
+        "Ensemble du pays"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "02116",
+        "annee": 2024,
+        "url": "https://ich.unesco.org/en/RL/henna-rituals-aesthetic-and-social-practices-02116"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Élément inscrit au titre d'une candidature multinationale : la fiche ne décrit que la part égyptienne et doit être relue avec les autres pays concernés."
+      }
+    },
+    {
+      "id": "EG-tradition-semsemiah",
+      "nom": "Semsemiah : fabrication et jeu de l'instrument",
+      "description": "La semsemiah est un instrument à cordes de type harpe, monté sur trois montants de bois formant un triangle, que les musiciens fabriquent souvent eux-mêmes avec du bois ou du métal de récupération. Dans la région du canal de Suez, elle accompagne les pêcheurs et les commerçants de la mer, les mariages, les fêtes et les matchs de football. Elle s'apprend dès l'enfance, dans les familles et les groupes de musiciens, ainsi que dans des ateliers de formation.",
+      "categorie": "musique",
+      "sources": [
+        "S33"
+      ],
+      "transmission": "vivante",
+      "communautes": [
+        "Pêcheurs",
+        "Marins et négociants",
+        "Musiciens et artisans de la région du canal de Suez"
+      ],
+      "regions": [
+        "Région du canal de Suez"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "02119",
+        "annee": 2024,
+        "url": "https://ich.unesco.org/en/RL/semsemiah-instrument-crafting-and-playing-02119"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Élément inscrit au titre d'une candidature multinationale : la fiche ne décrit que la part égyptienne et doit être relue avec les autres pays concernés."
+      }
+    },
+    {
+      "id": "EG-tradition-gravure-sur-metaux",
+      "nom": "Gravure sur métaux (or, argent et cuivre)",
+      "description": "Les artisans gravent à la main des mots, des motifs géométriques, des versets et des prières sur des objets en or, en argent ou en cuivre, en creux ou en relief. Ces pièces, bijoux ou objets domestiques, sont souvent offertes lors de mariages ou employées dans des rites religieux. La technique se transmet en famille et dans des ateliers de formation, parfois avec des publications et les réseaux sociaux.",
+      "categorie": "artisanat",
+      "sources": [
+        "S64"
+      ],
+      "transmission": "vivante",
+      "communautes": [
+        "Artisans graveurs"
+      ],
+      "regions": [
+        "Ensemble du pays"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01951",
+        "annee": 2023,
+        "url": "https://ich.unesco.org/en/RL/arts-skills-and-practices-associated-with-engraving-on-metals-gold-silver-and-copper-01951"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Élément inscrit au titre d'une candidature multinationale : la fiche ne décrit que la part égyptienne et doit être relue avec les autres pays concernés."
+      }
+    },
+    {
+      "id": "EG-tradition-voyage-sainte-famille",
+      "nom": "Fêtes du voyage de la Sainte Famille en Égypte",
+      "description": "Deux fêtes rappellent le voyage de la Sainte Famille de Bethléem vers l'Égypte : l'arrivée de la Sainte Famille, au début de juin, et la Nativité de la Vierge, entre mai et août, dans plusieurs villes dont Dronka et Le Caire. Coptes et musulmans y participent en nombre, avec chants, jeux traditionnels, processions, reconstitutions du voyage et repas partagés. Les savoirs passent par les églises, les monastères, les familles et la participation aux fêtes.",
+      "categorie": "fete",
+      "sources": [
+        "S29"
+      ],
+      "transmission": "vivante",
+      "communautes": [
+        "Coptes",
+        "Musulmans"
+      ],
+      "regions": [
+        "Dronka (Durunka)",
+        "Le Caire"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01700",
+        "annee": 2022,
+        "url": "https://ich.unesco.org/en/RL/festivals-related-to-the-journey-of-the-holy-family-in-egypt-01700"
+      },
+      "sensible": true,
+      "note_sensibilite": "Fêtes religieuses chrétiennes : relecture par une institution copte avant publication.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-tradition-palmier-dattier",
+      "nom": "Palmier-dattier : savoirs, savoir-faire, traditions et pratiques",
+      "description": "Dans les oasis et les régions sèches, le palmier-dattier est cultivé et ses palmes, fibres et feuilles servent à l'artisanat et à des rites sociaux. Il est aussi présent dans la poésie et les chants, et constitue une source majeure d'alimentation. L'élément a été inscrit avec plusieurs pays arabes ; l'oasis de Siwa compte, selon l'Atlas de l'Égypte contemporaine, environ 250 000 palmiers.",
+      "categorie": "savoir",
+      "sources": [
+        "S65",
+        "S18"
+      ],
+      "transmission": "vivante",
+      "communautes": [
+        "Habitants des oasis"
+      ],
+      "regions": [
+        "Oasis de Siwa",
+        "Oasis du désert"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01902",
+        "annee": 2022,
+        "url": "https://ich.unesco.org/en/RL/date-palm-knowledge-skills-traditions-and-practices-01902"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Élément inscrit au titre d'une candidature multinationale : la fiche ne décrit que la part égyptienne et doit être relue avec les autres pays concernés."
+      }
+    },
+    {
+      "id": "EG-tradition-calligraphie-arabe",
+      "nom": "Calligraphie arabe : savoirs, savoir-faire et pratiques",
+      "description": "La calligraphie arabe est l'art d'écrire à la main l'alphabet arabe, à partir de ses vingt-huit lettres, de manière fluide et harmonieuse. Les outils traditionnels comprennent le calame en roseau ou en bambou, une encre faite de miel, de suie et de safran, et un papier traité à l'amidon. Elle se transmet dans des écoles, des ateliers et de manière informelle ; les calligraphes décorent aussi le marbre, le bois ou les métaux.",
+      "categorie": "artisanat",
+      "sources": [
+        "S9"
+      ],
+      "transmission": "vivante",
+      "communautes": [
+        "Calligraphes"
+      ],
+      "regions": [
+        "Ensemble du pays"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01718",
+        "annee": 2021,
+        "url": "https://ich.unesco.org/en/RL/arabic-calligraphy-knowledge-skills-and-practices-01718"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Élément inscrit au titre d'une candidature multinationale : la fiche ne décrit que la part égyptienne et doit être relue avec les autres pays concernés."
+      }
+    },
+    {
+      "id": "EG-tradition-tissage-saidi",
+      "nom": "Tissage à la main en Haute-Égypte (Saïd)",
+      "description": "Dans le Saïd, hommes et femmes tissent depuis des siècles à la main le lin, le coton, la laine ou la soie, parfois avec des broderies, comme un héritage familial et un métier. Les anciens ateliers ont délaissé la soie pour le coton, plus rentable, et les petits métiers étroits ont été remplacés par des métiers plus larges. L'UNESCO alerte sur l'avenir de cet artisanat peu rémunérateur, peu transmis aux jeunes, et l'a inscrit sur la liste de sauvegarde urgente.",
+      "categorie": "textile",
+      "sources": [
+        "S12"
+      ],
+      "transmission": "menacée",
+      "communautes": [
+        "Tisserands et tisserandes du Saïd"
+      ],
+      "regions": [
+        "Haute-Égypte"
+      ],
+      "langues": [
+        "arabe saïdi"
+      ],
+      "unesco": {
+        "liste": "Sauvegarde urgente",
+        "id": "01605",
+        "annee": 2020,
+        "url": "https://ich.unesco.org/en/USL/handmade-weaving-in-upper-egypt-sa-eed-01605"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-tradition-marionnettes-a-main",
+      "nom": "Marionnettes à gaine traditionnelles (Al-Aragoz)",
+      "description": "Al-Aragoz est une forme ancienne de théâtre égyptien à marionnettes à gaine. Les marionnettistes, cachés dans un petit castelet portable, jouent avec un assistant qui dialogue avec les marionnettes et la foule ; la voix du personnage principal est modifiée par un instrument. Les spectacles abordent la vie quotidienne et la lutte contre la corruption. Les artistes, jadis itinérants, se sont installés surtout au Caire, et la pratique est menacée par le vieillissement des praticiens et le manque d'intérêt des jeunes.",
+      "categorie": "oralite",
+      "sources": [
+        "S66"
+      ],
+      "transmission": "menacée",
+      "communautes": [
+        "Marionnettistes"
+      ],
+      "regions": [
+        "Le Caire"
+      ],
+      "unesco": {
+        "liste": "Sauvegarde urgente",
+        "id": "01376",
+        "annee": 2018,
+        "url": "https://ich.unesco.org/en/USL/traditional-hand-puppetry-01376"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-tradition-tahteeb",
+      "nom": "Tahteeb, jeu de bâton",
+      "description": "Le tahteeb était dans l'Égypte ancienne un art martial ; il est devenu un jeu de fête, joué devant un public au son de la musique populaire. Deux adversaires munis de longs bâtons s'affrontent sans se frapper, avec un contrôle total de leurs gestes. Pratiqué par des hommes, surtout saïdis en milieu rural, il repose sur le respect mutuel, le courage et la fierté, et se transmet dans les familles et les quartiers.",
+      "categorie": "jeu_sport",
+      "sources": [
+        "S11"
+      ],
+      "transmission": "vivante",
+      "communautes": [
+        "Populations saïdies"
+      ],
+      "regions": [
+        "Haute-Égypte"
+      ],
+      "langues": [
+        "arabe saïdi"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01189",
+        "annee": 2016,
+        "url": "https://ich.unesco.org/en/RL/tahteeb-stick-game-01189"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-tradition-sirat-hilaliyya",
+      "nom": "Épopée Al-Sirah Al-Hilaliyyah",
+      "description": "Cette épopée orale raconte la migration de la communauté bédouine des Bani Hilal de la péninsule arabique vers l'Afrique du Nord au Xe siècle. Chantée par des poètes qui s'accompagnent d'un instrument à percussion ou d'une vièle à deux cordes (rabab), elle est jouée lors de mariages, de circoncisions et de réunions privées, parfois pendant des jours. L'UNESCO précise qu'elle n'est plus interprétée ailleurs qu'en Égypte dans sa forme musicale intégrale, et que le nombre d'interprètes diminue.",
+      "categorie": "oralite",
+      "sources": [
+        "S67"
+      ],
+      "transmission": "fragile",
+      "communautes": [
+        "Poètes-chanteurs"
+      ],
+      "regions": [
+        "Égypte"
+      ],
+      "langues": [
+        "arabe égyptien"
+      ],
+      "periode": "proclamée en 2003, inscrite en 2008",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "00075",
+        "annee": 2008,
+        "url": "https://ich.unesco.org/en/RL/al-sirah-al-hilaliyyah-epic-00075"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-tradition-moulid-abou-el-haggag",
+      "nom": "Moulid d'Abou el-Haggag à Louxor",
+      "description": "Chaque année, à Louxor, des milliers de personnes se rassemblent à l'ombre du temple pour l'anniversaire du cheikh Yusuf Abou el-Haggag, savant musulman né à Bagdad. La fête de trois jours rassemble des fidèles venus de tout le pays, qui visitent le tombeau du saint, déposent des offrandes, chantent et prient. Des chanteurs populaires y interprètent des chants religieux.",
+      "categorie": "fete",
+      "sources": [
+        "S32",
+        "S59"
+      ],
+      "transmission": "vivante",
+      "communautes": [
+        "Habitants de Louxor",
+        "Pèlerins venus de tout le pays"
+      ],
+      "regions": [
+        "Louxor"
+      ],
+      "periode": "annuelle",
+      "unesco": null,
+      "sensible": true,
+      "note_sensibilite": "Fête et pèlerinage religieux : relecture par la communauté concernée recommandée.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-tradition-sham-el-nessim",
+      "nom": "Sham el-Nessim",
+      "description": "Sham el-Nessim est une fête de printemps célébrée le lendemain de la Pâque copte orthodoxe, devenue jour férié. Les Égyptiens se promènent au bord du Nil ou dans les parcs, déjeunent d'œufs colorés, de feseekh (poisson salé), d'oignons verts et de laitue. Un égyptologue cité par Arab News relie ces coutumes à la fête de la moisson, Shemu, de l'Égypte ancienne.",
+      "categorie": "fete",
+      "sources": [
+        "S68"
+      ],
+      "transmission": "vivante",
+      "communautes": [
+        "Coptes",
+        "Musulmans"
+      ],
+      "regions": [
+        "Ensemble du pays"
+      ],
+      "periode": "chaque printemps",
+      "unesco": null,
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-tradition-tanoura",
+      "nom": "Tanoura (danse soufie)",
+      "description": "La tanoura est une interprétation égyptienne de la danse tournante soufie : les danseurs, en jupes colorées superposées, tournent sans fin au son de la flûte et des chants soufis. Les hommes dénouent les jupes et en lèvent une au-dessus de leur tête, la plus haute figurant le ciel et celle du dessous la terre. L'AFP rapporte que l'Égypte compterait plus de 15 millions de musulmans soufis répartis en près de 80 confréries, et que la tanoura se danse notamment dans le complexe du sultan al-Ghuri au Caire.",
+      "categorie": "danse",
+      "sources": [
+        "S57",
+        "S58"
+      ],
+      "transmission": "vivante",
+      "communautes": [
+        "Confréries soufies"
+      ],
+      "regions": [
+        "Le Caire"
+      ],
+      "unesco": null,
+      "sensible": true,
+      "note_sensibilite": "La danse est une forme de prière pour ses pratiquants : à présenter avec respect, hors contexte folklorique.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Chiffres sur les soufis rapportés par l'AFP, non vérifiés ailleurs."
+      }
+    },
+    {
+      "id": "EG-tradition-mahraganat",
+      "nom": "Mahraganat",
+      "description": "Les mahraganat sont une musique urbaine née de la rue, mêlant électro, rap et chaabi égyptien. Produits avec des logiciels accessibles, ils sont devenus, selon Music In Africa, la musique la plus populaire du pays malgré les restrictions : en 2020, le Syndicat des musiciens a limité les lieux de leurs concerts, et une interdiction temporaire a suivi en 2022, au nom des « valeurs » nationales.",
+      "categorie": "musique",
+      "sources": [
+        "S69"
+      ],
+      "transmission": "vivante",
+      "communautes": [
+        "Jeunes musiciens des quartiers populaires"
+      ],
+      "regions": [
+        "Le Caire",
+        "Ensemble du pays"
+      ],
+      "periode": "depuis les années 2000",
+      "unesco": null,
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date d'apparition du genre à confirmer par une source universitaire (la source ouverte ne la donne pas)."
+      }
+    },
+    {
+      "id": "EG-tradition-broderie-bedouine-du-sinai",
+      "nom": "Broderie bédouine du Sinaï",
+      "description": "Les femmes bédouines du Sinaï brodent des motifs colorés sur les vêtements traditionnels. L'association Fayrouz, fondée en 2010 par Amani Ghareeb, soutient de petits projets pour ces brodeuses, et son programme Motiva Sinawi adapte les « motivas » (ornements traditionnels) à des vêtements modernes, ce qui fait travailler environ 300 femmes selon Al-Monitor.",
+      "categorie": "textile",
+      "sources": [
+        "S28",
+        "S14"
+      ],
+      "transmission": "revitalisée",
+      "communautes": [
+        "Femmes bédouines du Sinaï"
+      ],
+      "regions": [
+        "Sinaï"
+      ],
+      "langues": [
+        "arabe bédouin oriental"
+      ],
+      "unesco": null,
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-tradition-artisanat-de-siwa",
+      "nom": "Artisanat de l'oasis de Siwa",
+      "description": "À Siwa, la fabrication de bijoux en argent, de broderies, de paniers et de poteries s'est développée depuis les années 1990 avec le tourisme culturel. Selon l'Atlas de l'Égypte contemporaine, un centre de documentation du patrimoine culturel et naturel de l'oasis a ouvert en 2012 grâce à un financement européen. Cette production s'est développée pour répondre à la quête d'authenticité des visiteurs.",
+      "categorie": "artisanat",
+      "sources": [
+        "S18"
+      ],
+      "transmission": "revitalisée",
+      "communautes": [
+        "Siwis"
+      ],
+      "regions": [
+        "Oasis de Siwa"
+      ],
+      "langues": [
+        "siwi"
+      ],
+      "unesco": null,
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-tradition-rites-de-l-eau-a-siwa",
+      "nom": "Rites de l'eau de Siwa (source de Juba)",
+      "description": "À Siwa, les sources, au nombre de deux mille dans l'Antiquité et de deux cents aujourd'hui, occupaient le cœur de rites et de pratiques. Les futures mariées se baignaient à la source de Juba la veille de leur nuit de noces, et les veuves s'y rendaient quarante jours après la mort de leur époux, d'après Valentina Serreli dans l'Atlas de l'Égypte contemporaine.",
+      "categorie": "rite",
+      "sources": [
+        "S18"
+      ],
+      "transmission": "fragile",
+      "communautes": [
+        "Siwis"
+      ],
+      "regions": [
+        "Oasis de Siwa"
+      ],
+      "periode": "usage passé et présent à vérifier",
+      "unesco": null,
+      "sensible": true,
+      "note_sensibilite": "Rites de passage (mariage, deuil) : ne pas détailler sans l'accord de la communauté siwie ; pratiques actuelles à vérifier.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La source décrit les pratiques « once at the heart » : leur persistance aujourd'hui n'est pas établie."
+      }
+    },
+    {
+      "id": "EG-tradition-fetes-de-l-aid-en-nubie",
+      "nom": "Fêtes de l'Aïd en Nubie",
+      "description": "Pour l'Aïd, les Nubiens de Nasr el-Nuba et d'autres villages se retrouvent en famille : le « train de la Nubie » quitte Le Caire et Alexandrie vers les gares de Kalabsha et Kom Ombo, des plats et pâtisseries propres à la région sont préparés, et des visites circulent entre villages. La salutation « Kurij Anga Naleh » signifie « Bonne fête ».",
+      "categorie": "fete",
+      "sources": [
+        "S26"
+      ],
+      "transmission": "vivante",
+      "communautes": [
+        "Nubiens"
+      ],
+      "regions": [
+        "Nasr el-Nuba",
+        "Kom Ombo",
+        "Assouan"
+      ],
+      "langues": [
+        "nobiin"
+      ],
+      "unesco": null,
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Orthographe nubienne de la salutation reprise telle quelle de la source (université d'Assouan)."
+      }
+    }
+  ],
+  "personnalites": [
+    {
+      "id": "EG-personne-hatchepsout",
+      "nom": "Hatchepsout",
+      "description": "Hatchepsout est devenue reine-pharaon de la XVIIIe dynastie après la mort de Thoutmosis II. Le ministère égyptien des Antiquités explique qu'elle se proclama roi aux côtés de son beau-fils Thoutmosis III, encore trop jeune, et développa une idéologie royale liée au dieu Amon. Son règne est associé à une grande prospérité et à d'importants chantiers, notamment à Karnak ; le Metropolitan Museum conserve une statue d'elle.",
+      "naissance": {
+        "date": "vers 1507 av. J.-C. (Wikidata ; vers 1508 selon Wikipédia)",
+        "lieu": "Thèbes"
+      },
+      "deces": {
+        "date": "vers 1458 av. J.-C.",
+        "lieu": null
+      },
+      "roles": [
+        "reine-pharaon"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "Nouvel Empire (XVIIIe dynastie)",
+      "sources": [
+        "S70",
+        "S71",
+        "S72",
+        "S73"
+      ],
+      "wikidata": "Q129234",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-personne-ramses-ii",
+      "nom": "Ramsès II",
+      "description": "Ramsès II, troisième pharaon de la XIXe dynastie, a régné plus de soixante ans et laissé plus de monuments dans le pays qu'aucun autre roi, selon le ministère égyptien des Antiquités. Il combattit les Hittites avant de conclure la paix avec eux. L'UNESCO lui attribue les temples taillés dans le roc d'Abou Simbel, sauvés des eaux du haut barrage d'Assouan par une campagne internationale.",
+      "naissance": {
+        "date": "vers 1303 av. J.-C. (estimations variables)",
+        "lieu": null
+      },
+      "deces": {
+        "date": "vers 1213 av. J.-C.",
+        "lieu": "Pi-Ramsès"
+      },
+      "roles": [
+        "pharaon",
+        "bâtisseur"
+      ],
+      "domaines": [
+        "politique",
+        "architecture"
+      ],
+      "epoque": "Nouvel Empire (XIXe dynastie)",
+      "sources": [
+        "S70",
+        "S43",
+        "S74",
+        "S75"
+      ],
+      "wikidata": "Q1523",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-personne-cleopatre-vii",
+      "nom": "Cléopâtre VII",
+      "description": "Cléopâtre VII, reine lagide, a régné sur l'Égypte de 51 à 30 av. J.-C. avec ses frères-époux puis aux côtés de Marc Antoine. Selon le ministère égyptien des Antiquités, la défaite d'Antoine et de Cléopâtre à Actium fit perdre son indépendance à l'Égypte, qui devint province romaine. Elle est l'une des figures les plus connues de l'Antiquité alexandrine.",
+      "naissance": {
+        "date": "vers 69 av. J.-C.",
+        "lieu": "Alexandrie"
+      },
+      "deces": {
+        "date": "12 août 30 av. J.-C.",
+        "lieu": "Alexandrie"
+      },
+      "roles": [
+        "reine"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "Période ptolémaïque",
+      "sources": [
+        "S76",
+        "S77",
+        "S78"
+      ],
+      "wikidata": "Q635",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-personne-hypatie",
+      "nom": "Hypatie d'Alexandrie",
+      "description": "Hypatie était une philosophe néoplatonicienne, astronome et mathématicienne d'Alexandrie. Selon Wikipédia, elle dirigeait l'école néoplatonicienne de la ville, où elle enseignait philosophie et astronomie, et elle est la première mathématicienne dont la vie soit bien documentée. Elle a été assassinée en 415.",
+      "naissance": {
+        "date": "entre 355 et 370",
+        "lieu": "Alexandrie"
+      },
+      "deces": {
+        "date": "415",
+        "lieu": "Alexandrie"
+      },
+      "roles": [
+        "philosophe",
+        "mathématicienne",
+        "astronome"
+      ],
+      "domaines": [
+        "savoirs",
+        "sciences"
+      ],
+      "epoque": "Antiquité tardive",
+      "sources": [
+        "S79",
+        "S80",
+        "S49"
+      ],
+      "wikidata": "Q11903",
+      "nom_local": true,
+      "sensible": true,
+      "note_sensibilite": null,
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-personne-imhotep",
+      "nom": "Imhotep",
+      "description": "Imhotep fut, au IIIe millénaire av. J.-C., l'architecte du vaste complexe funéraire du roi Djéser, première grande construction en pierre selon Wikipédia. Le ministère égyptien des Antiquités décrit la pyramide à degrés de Djéser comme le plus ancien édifice entièrement en pierre d'Égypte. Plus tard divinisé, Imhotep est devenu dans la tradition un dieu fils de Ptah.",
+      "naissance": {
+        "date": "vers 2800 av. J.-C. (Wikidata, précision au siècle)",
+        "lieu": "Memphis"
+      },
+      "deces": {
+        "date": "vers 2700 av. J.-C.",
+        "lieu": null
+      },
+      "roles": [
+        "architecte",
+        "médecin"
+      ],
+      "domaines": [
+        "architecture",
+        "savoirs"
+      ],
+      "epoque": "Ancien Empire (IIIe dynastie)",
+      "sources": [
+        "S81",
+        "S41",
+        "S82"
+      ],
+      "wikidata": "Q131171",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-personne-chajar-ad-durr",
+      "nom": "Chajar ad-Durr",
+      "description": "Chajar ad-Durr, esclave devenue favorite du sultan ayyoubide As-Salih Ayyub, a régné comme sultane en 1250, entre mai et juillet, au moment où l'État mamelouk s'installait. Wikipédia rapporte qu'elle fut battue à mort en 1257. Son mausolée se trouve au Caire.",
+      "naissance": {
+        "date": "inconnue (entre 1200 et 1228 selon Wikipédia)",
+        "lieu": null
+      },
+      "deces": {
+        "date": "1257-04-28",
+        "lieu": "Le Caire"
+      },
+      "roles": [
+        "sultane"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "Période ayyoubide et mamelouke",
+      "sources": [
+        "S83",
+        "S84",
+        "S37"
+      ],
+      "wikidata": "Q464920",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-personne-mehemet-ali",
+      "nom": "Méhémet Ali",
+      "description": "Officier ottoman d'origine albanaise, Méhémet Ali devient gouverneur d'Égypte en 1805 et engage le pays dans un mouvement de modernisation : irrigation, imprimerie, écoles spécialisées, armée de conscription. L'Atlas de l'Égypte contemporaine rappelle qu'en 1840 la charge de gouverneur devient héréditaire, ce qui établit une dynastie qui dure jusqu'à la République.",
+      "naissance": {
+        "date": "vers 1769 (date débattue)",
+        "lieu": "Kavala"
+      },
+      "deces": {
+        "date": "1849-08-02",
+        "lieu": "Alexandrie"
+      },
+      "roles": [
+        "gouverneur",
+        "fondateur de dynastie"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S85",
+        "S86",
+        "S87"
+      ],
+      "wikidata": "Q182781",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-personne-ahmed-urabi",
+      "nom": "Ahmed Urabi",
+      "description": "Ahmed Urabi est un officier égyptien issu de la paysannerie, premier chef politique et militaire du pays à sortir des fellahs selon Wikipédia. Il mena un mouvement nationaliste contre la tutelle financière anglo-française ; le débarquement britannique d'août 1882 mit fin à la crise et ouvrit la période d'occupation, rappelle l'Atlas de l'Égypte contemporaine.",
+      "naissance": {
+        "date": "1841-03-31",
+        "lieu": "Zagazig"
+      },
+      "deces": {
+        "date": "1911-09-21",
+        "lieu": "Le Caire"
+      },
+      "roles": [
+        "officier",
+        "chef du mouvement nationaliste"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S85",
+        "S88",
+        "S89"
+      ],
+      "wikidata": "Q365919",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-personne-saad-zaghloul",
+      "nom": "Saad Zaghloul",
+      "description": "Saad Zaghloul dirigea le parti Wafd, au cœur du mouvement pour l'indépendance de l'Égypte. Le Wafd encadra la lutte politique de la période qui s'acheva en 1922, rappelle l'Atlas de l'Égypte contemporaine. Il fut Premier ministre du 26 janvier au 24 novembre 1924.",
+      "naissance": {
+        "date": "vers juillet 1858 (date incertaine)",
+        "lieu": "Metoubes"
+      },
+      "deces": {
+        "date": "1927-08-23",
+        "lieu": "Le Caire"
+      },
+      "roles": [
+        "homme politique",
+        "Premier ministre"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S90",
+        "S85",
+        "S91"
+      ],
+      "wikidata": "Q328734",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-personne-hoda-shaarawi",
+      "nom": "Hoda Shaarawi",
+      "description": "Hoda Shaarawi est une pionnière du féminisme et du nationalisme égyptiens, fondatrice de l'Union féministe égyptienne. Wikipédia la présente comme une pionnière du féminisme, du mouvement pour le droit de vote et du nationalisme en Égypte.",
+      "naissance": {
+        "date": "1879-06-23",
+        "lieu": "Minya"
+      },
+      "deces": {
+        "date": "1947-12-12",
+        "lieu": "Le Caire"
+      },
+      "roles": [
+        "féministe",
+        "militante nationaliste",
+        "fondatrice de l'Union féministe égyptienne"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S92",
+        "S93"
+      ],
+      "wikidata": "Q2423343",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-personne-doria-shafik",
+      "nom": "Doria Shafik",
+      "description": "Doria Shafik, féministe, philosophe, poète et éditrice, est l'une des principales meneuses du mouvement de libération des femmes dans l'Égypte des années 1940 et 1950. Docteure de la Sorbonne, elle a lutté pour le droit de vote des Égyptiennes, obtenu en 1956 : l'Atlas de l'Égypte contemporaine précise que les femmes ont voté pour la première fois lors du référendum constitutionnel de cette année.",
+      "naissance": {
+        "date": "1908-12-14",
+        "lieu": "Tanta"
+      },
+      "deces": {
+        "date": "1975-09-20",
+        "lieu": "Le Caire"
+      },
+      "roles": [
+        "féministe",
+        "philosophe",
+        "poète",
+        "éditrice"
+      ],
+      "domaines": [
+        "politique",
+        "littérature"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S94",
+        "S34",
+        "S95"
+      ],
+      "wikidata": "Q4120224",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-personne-oum-kalthoum",
+      "nom": "Oum Kalthoum",
+      "description": "Oum Kalthoum est une chanteuse et actrice égyptienne dont la carrière s'étend de 1923 à 1975. Elle a chanté la résistance nationale pendant la guerre de Suez de 1956, selon l'Atlas de l'Égypte contemporaine. Le Nobel Ahmed Zewail raconte dans sa biographie que, enfant, il écoutait chaque premier jeudi du mois son concert de trois chansons à la radio.",
+      "naissance": {
+        "date": "1904-05-04 (ou 1898-12-31 selon les sources)",
+        "lieu": "Tamay al-Zahayra (district de Simballawayn)"
+      },
+      "deces": {
+        "date": "1975-02-03",
+        "lieu": "Le Caire"
+      },
+      "roles": [
+        "chanteuse",
+        "actrice"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S96",
+        "S34",
+        "S97",
+        "S98"
+      ],
+      "wikidata": "Q1110560",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-personne-samira-moussa",
+      "nom": "Samira Moussa",
+      "description": "Samira Moussa est une physicienne égyptienne pionnière de la recherche sur le rayonnement nucléaire, diplômée de l'Université du Caire. Selon Wikipédia, elle fut la seule Égyptienne à avoir eu accès aux laboratoires nucléaires américains de son époque ; elle est morte en 1952 en Californie.",
+      "naissance": {
+        "date": "1917-03-03 (ou 19 mars selon Wikipédia)",
+        "lieu": "Sinbu al-Kubra (Gharbiya)"
+      },
+      "deces": {
+        "date": "1952-08-05",
+        "lieu": "Californie (États-Unis)"
+      },
+      "roles": [
+        "physicienne nucléaire",
+        "universitaire"
+      ],
+      "domaines": [
+        "sciences"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S99",
+        "S100"
+      ],
+      "wikidata": "Q4116311",
+      "nom_local": true,
+      "sensible": true,
+      "note_sensibilite": null,
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-personne-nawal-el-saadawi",
+      "nom": "Nawal El Saadawi",
+      "description": "Médecin, psychiatre, romancière et féministe, Nawal El Saadawi est née à Kafr Tahla et formée à l'Université du Caire. Auteure de nombreux ouvrages dont le roman Ferdaous, une voix en enfer, elle a reçu notamment le prix international de Catalogne (2003) et le prix Stig-Dagerman (2011).",
+      "naissance": {
+        "date": "1931-10-27",
+        "lieu": "Kafr Tahla"
+      },
+      "deces": {
+        "date": "2021-03-21",
+        "lieu": "Gizeh"
+      },
+      "roles": [
+        "médecin",
+        "écrivaine",
+        "féministe"
+      ],
+      "domaines": [
+        "littérature",
+        "sciences",
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S101",
+        "S102"
+      ],
+      "wikidata": "Q238514",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-personne-faten-hamama",
+      "nom": "Faten Hamama",
+      "description": "Faten Hamama fut une grande actrice du cinéma égyptien, devant la caméra dès l'âge de sept ans et pendant près d'un demi-siècle. Elle tint le premier rôle de Ciel d'enfer, de Youssef Chahine, présenté au Festival de Cannes en 1954. Elle fut aussi productrice et scénariste.",
+      "naissance": {
+        "date": "1931-05-27",
+        "lieu": "Mansourah"
+      },
+      "deces": {
+        "date": "2015-01-17",
+        "lieu": "Le Caire"
+      },
+      "roles": [
+        "actrice",
+        "productrice",
+        "scénariste"
+      ],
+      "domaines": [
+        "arts",
+        "cinéma"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S103",
+        "S104"
+      ],
+      "wikidata": "Q2424957",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-personne-radwa-ashour",
+      "nom": "Radwa Ashour",
+      "description": "Radwa Ashour est une romancière égyptienne, née au Caire en 1946 et morte en 2014. Les sources ouvertes consultées ne détaillent pas son œuvre : cette notice, volontairement brève, attend des sources littéraires spécialisées avant d'être enrichie.",
+      "naissance": {
+        "date": "1946-05-26",
+        "lieu": "Le Caire"
+      },
+      "deces": {
+        "date": "2014 (30 novembre ou 1er décembre selon les sources)",
+        "lieu": "Le Caire"
+      },
+      "roles": [
+        "romancière"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S105",
+        "S106"
+      ],
+      "wikidata": "Q1241451",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-personne-nour-el-sherbini",
+      "nom": "Nour El Sherbini",
+      "description": "Joueuse de squash née à Alexandrie, Nour El Sherbini est devenue en 2015 la plus jeune championne du monde de l'histoire, puis numéro un mondiale en mai 2016. Elle a remporté huit fois le championnat du monde, égalant le record de Nicol David selon Wikipédia.",
+      "naissance": {
+        "date": "1995-11-01",
+        "lieu": "Alexandrie"
+      },
+      "deces": null,
+      "roles": [
+        "joueuse de squash"
+      ],
+      "domaines": [
+        "sport"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S107",
+        "S108"
+      ],
+      "wikidata": "Q4355286",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-personne-gamal-abdel-nasser",
+      "nom": "Gamal Abdel Nasser",
+      "description": "Officier devenu le deuxième président de la République (1956-1970), Nasser a organisé en 1952 le renversement de la monarchie et mené une politique socialiste et panarabe. L'Atlas de l'Égypte contemporaine le montre annonçant à Alexandrie, en juillet 1956, la nationalisation du canal de Suez, geste qui place l'Égypte au premier plan de la scène internationale et du camp anticolonial.",
+      "naissance": {
+        "date": "1918-01-15",
+        "lieu": "Bakos (Alexandrie)"
+      },
+      "deces": {
+        "date": "1970-09-28",
+        "lieu": "Le Caire"
+      },
+      "roles": [
+        "président",
+        "officier"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S34",
+        "S85",
+        "S109",
+        "S110"
+      ],
+      "wikidata": "Q39524",
+      "nom_local": true,
+      "sensible": true,
+      "note_sensibilite": null,
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-personne-naguib-mahfouz",
+      "nom": "Naguib Mahfouz",
+      "description": "Né au Caire en 1911, Naguib Mahfouz publie son premier roman en 1939 et devient avec la Trilogie du Caire (1957) célèbre dans tout le monde arabe pour ses peintures de la vie urbaine traditionnelle. Fonctionnaire jusqu'en 1972, il écrit plus de trente romans, dont beaucoup sont portés à l'écran. Il reçoit le prix Nobel de littérature en 1988 et meurt en 2006.",
+      "naissance": {
+        "date": "1911-12-11",
+        "lieu": "Le Caire"
+      },
+      "deces": {
+        "date": "2006-08-30",
+        "lieu": "Le Caire"
+      },
+      "roles": [
+        "romancier",
+        "nouvelliste",
+        "fonctionnaire"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S111",
+        "S112"
+      ],
+      "wikidata": "Q7176",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-personne-taha-hussein",
+      "nom": "Taha Hussein",
+      "description": "Universitaire, romancier, essayiste et critique littéraire, Taha Hussein perdit la vue dans l'enfance à la suite d'une ophtalmie mal soignée. Il fut ministre de l'Éducation nationale de janvier 1950 à janvier 1952 et reste l'une des grandes voix intellectuelles de l'Égypte du XXe siècle.",
+      "naissance": {
+        "date": "1889-11-14",
+        "lieu": "Minya"
+      },
+      "deces": {
+        "date": "1973-10-28",
+        "lieu": "Le Caire"
+      },
+      "roles": [
+        "écrivain",
+        "universitaire",
+        "ministre"
+      ],
+      "domaines": [
+        "littérature",
+        "savoirs",
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S113",
+        "S114"
+      ],
+      "wikidata": "Q328765",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-personne-youssef-chahine",
+      "nom": "Youssef Chahine",
+      "description": "Réalisateur, scénariste et producteur né à Alexandrie, Youssef Chahine a tourné une quarantaine de films de fiction ou documentaires et acquis une réputation internationale. Il a dirigé Faten Hamama dans Ciel d'enfer, présenté à Cannes en 1954.",
+      "naissance": {
+        "date": "1926-01-25",
+        "lieu": "Alexandrie"
+      },
+      "deces": {
+        "date": "2008-07-27",
+        "lieu": "Le Caire"
+      },
+      "roles": [
+        "réalisateur",
+        "scénariste",
+        "producteur"
+      ],
+      "domaines": [
+        "cinéma",
+        "arts"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S115",
+        "S103",
+        "S116"
+      ],
+      "wikidata": "Q312611",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-personne-ahmed-zewail",
+      "nom": "Ahmed Zewail",
+      "description": "Né à Damanhour en 1946, Ahmed Zewail a passé son enfance à Disouq, sur la branche de Rosette du Nil, dans une famille qui rêvait de le voir étudier à l'étranger. Il reçut le prix Nobel de chimie en 1999 et mourut à Pasadena en 2016. Dans sa biographie Nobel, il évoque aussi son goût de la musique et l'influence d'Oum Kalthoum.",
+      "naissance": {
+        "date": "1946-02-26",
+        "lieu": "Damanhour"
+      },
+      "deces": {
+        "date": "2016-08-02",
+        "lieu": "Pasadena (États-Unis)"
+      },
+      "roles": [
+        "chimiste",
+        "universitaire"
+      ],
+      "domaines": [
+        "sciences"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S97",
+        "S117"
+      ],
+      "wikidata": "Q106624",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-personne-mohamed-salah",
+      "nom": "Mohamed Salah",
+      "description": "Footballeur international égyptien né à Nagrig, Mohamed Salah a débuté à Al Mokawloon Al Arab avant de jouer en Suisse, à Bâle, puis en Premier League. Wikipédia le range parmi les meilleurs joueurs du monde et le meilleur footballeur égyptien.",
+      "naissance": {
+        "date": "1992-06-15",
+        "lieu": "Nagrig"
+      },
+      "deces": null,
+      "roles": [
+        "footballeur"
+      ],
+      "domaines": [
+        "sport"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S118",
+        "S119"
+      ],
+      "wikidata": "Q1354960",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-personne-sayed-darwish",
+      "nom": "Sayed Darwish",
+      "description": "Chanteur et compositeur né à Alexandrie, Sayed Darwish est considéré comme le père de la musique populaire égyptienne et l'un des plus grands musiciens du pays. Il est mort en 1923, à trente et un ans.",
+      "naissance": {
+        "date": "1892-03-17",
+        "lieu": "Alexandrie (Kom el-Dikka)"
+      },
+      "deces": {
+        "date": "1923-09 (14 ou 15 septembre selon les sources)",
+        "lieu": "Alexandrie"
+      },
+      "roles": [
+        "chanteur",
+        "compositeur"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S120",
+        "S121"
+      ],
+      "wikidata": "Q1208788",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "evenements": [
+    {
+      "id": "EG-evenement-badarien",
+      "titre": "Culture badarienne et débuts de l'Égypte néolithique",
+      "description": "Vers 5500 av. J.-C., la culture badarienne, près d'Assiout, compte parmi les cultures du Néolithique de la vallée du Nil. Selon le ministère égyptien des Antiquités, elle précède les cultures de Nagada et de Maadi, qui préparent l'unification du pays.",
+      "date": "-005499-01-01",
+      "date_affichee": "vers 5500 av. J.-C.",
+      "precision": "siecle",
+      "sources": [
+        "S122"
+      ],
+      "acteurs": [
+        "Cultures nilotiques"
+      ],
+      "regions": [
+        "Assiout",
+        "Moyenne-Égypte"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-unification",
+      "titre": "Unification de l'Égypte et fondation de Memphis",
+      "description": "Vers 3100 av. J.-C., la Haute et la Basse Égypte sont unifiées en un seul État, processus graduel dont une étape finale est liée au roi Narmer. Une nouvelle capitale, Memphis, est fondée entre les deux régions. Le ministère égyptien des Antiquités y voit le plus ancien État-nation du monde.",
+      "date": "-003099-01-01",
+      "date_affichee": "vers 3100 av. J.-C.",
+      "precision": "siecle",
+      "sources": [
+        "S53",
+        "S122",
+        "S39"
+      ],
+      "acteurs": [
+        "Narmer"
+      ],
+      "regions": [
+        "Memphis"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-ancien-empire-djeser",
+      "titre": "Début de l'Ancien Empire et première pyramide",
+      "description": "Au début de la IIIe dynastie, le roi Djéser fait élever à Saqqarah, par superposition de cinq mastabas, la première pyramide d'Égypte, qui est aussi le plus ancien édifice entièrement en pierre du pays. L'Ancien Empire, de la IIIe à la VIe dynastie, commence vers 2686 av. J.-C.",
+      "date": "-002685-01-01",
+      "date_affichee": "vers 2686 av. J.-C.",
+      "precision": "siecle",
+      "sources": [
+        "S41",
+        "S81"
+      ],
+      "acteurs": [
+        "Djéser",
+        "Imhotep"
+      ],
+      "regions": [
+        "Saqqarah"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-khoufou-grande-pyramide",
+      "titre": "Règne de Khéops et Grande Pyramide",
+      "description": "Sous Khéops (vers 2589-2566 av. J.-C.), est construite la plus grande pyramide du complexe de Gizeh, haute à l'origine de 146,5 mètres, qui fut la plus haute structure du monde pendant 3 800 ans selon le ministère égyptien des Antiquités. L'UNESCO la désigne comme l'unique merveille du monde antique encore debout.",
+      "date": "-002588-01-01",
+      "date_affichee": "vers 2589 av. J.-C.",
+      "precision": "siecle",
+      "sources": [
+        "S41",
+        "S39"
+      ],
+      "fin": "-002565-01-01",
+      "acteurs": [
+        "Khéops"
+      ],
+      "regions": [
+        "Gizeh"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-moyen-empire",
+      "titre": "Réunification sous Montouhotep et début du Moyen Empire",
+      "description": "Le roi Nebhepetrê Montouhotep réunifie l'Égypte vers 2055 av. J.-C., ce qui ouvre le Moyen Empire. Originaire de Thèbes, il fait bâtir à Deir el-Bahari son tombeau-temple, et Thèbes et son dieu Amon prennent une place croissante.",
+      "date": "-002054-01-01",
+      "date_affichee": "vers 2055 av. J.-C.",
+      "precision": "siecle",
+      "sources": [
+        "S48"
+      ],
+      "acteurs": [
+        "Nebhepetrê Montouhotep"
+      ],
+      "regions": [
+        "Thèbes",
+        "Deir el-Bahari"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-nouvel-empire",
+      "titre": "Expulsion des Hyksos et début du Nouvel Empire",
+      "description": "Vers 1550 av. J.-C., le Nouvel Empire commence après l'expulsion des Hyksos. L'Égypte devient une grande puissance du Proche-Orient, de la quatrième cataracte en Nubie à la Syrie actuelle, et de grands chantiers sont lancés, notamment à Karnak.",
+      "date": "-001549-01-01",
+      "date_affichee": "vers 1550 av. J.-C.",
+      "precision": "siecle",
+      "sources": [
+        "S70"
+      ],
+      "acteurs": [
+        "Pharaons de la XVIIIe dynastie"
+      ],
+      "regions": [
+        "Thèbes"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-regne-hatchepsout",
+      "titre": "Règne d'Hatchepsout",
+      "description": "Hatchepsout règne comme roi, aux côtés de son beau-fils Thoutmosis III, durant une période de forte prospérité artistique et architecturale. Le Metropolitan Museum date la co-régence d'environ 1473-1458 av. J.-C. ; d'autres sources la placent un peu plus tôt (vers 1479).",
+      "date": "-001478-01-01",
+      "date_affichee": "vers 1479-1458 av. J.-C.",
+      "precision": "siecle",
+      "sources": [
+        "S70",
+        "S71",
+        "S73"
+      ],
+      "fin": "-001457-01-01",
+      "acteurs": [
+        "Hatchepsout",
+        "Thoutmosis III"
+      ],
+      "regions": [
+        "Thèbes"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-mort-ramses-ii",
+      "titre": "Mort de Ramsès II",
+      "description": "Ramsès II, qui a régné plus de soixante ans, meurt vers 1213 av. J.-C. à Pi-Ramsès. Son long règne laisse plus de monuments que celui de n'importe quel autre roi, dont les temples d'Abou Simbel.",
+      "date": "-001212-01-01",
+      "date_affichee": "vers 1213 av. J.-C.",
+      "precision": "siecle",
+      "sources": [
+        "S75",
+        "S74",
+        "S70",
+        "S43"
+      ],
+      "acteurs": [
+        "Ramsès II"
+      ],
+      "regions": [
+        "Pi-Ramsès",
+        "Nubie"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-conquete-kouchite",
+      "titre": "Conquête kouchite et début de la Basse Époque",
+      "description": "Vers 747 av. J.-C., des rois kouchites de Nubie conquièrent l'Égypte, ce qui ouvre la Basse Époque selon le ministère égyptien des Antiquités. Après l'intervention assyrienne, Psammétique Ier (664-610 av. J.-C.) rétablit un pouvoir fort et fonde la dynastie saïte.",
+      "date": "-000746-01-01",
+      "date_affichee": "vers 747 av. J.-C.",
+      "precision": "siecle",
+      "sources": [
+        "S123"
+      ],
+      "acteurs": [
+        "Rois kouchites",
+        "Psammétique Ier"
+      ],
+      "regions": [
+        "Delta occidental",
+        "Nubie"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-conquete-alexandre",
+      "titre": "Alexandre le Grand en Égypte",
+      "description": "En 332 av. J.-C., après sa victoire sur le roi perse Darius III, Alexandre le Grand intègre l'Égypte à l'empire macédonien. L'Atlas de l'Égypte contemporaine situe au IVe siècle av. J.-C. sa visite au temple d'Amon de l'oasis de Siwa.",
+      "date": "-000331-01-01",
+      "date_affichee": "332 av. J.-C.",
+      "precision": "annee",
+      "sources": [
+        "S49",
+        "S18"
+      ],
+      "acteurs": [
+        "Alexandre le Grand"
+      ],
+      "regions": [
+        "Alexandrie",
+        "Siwa"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-royaume-ptolemaique",
+      "titre": "Royaume ptolémaïque et naissance d'Alexandrie",
+      "description": "À la mort d'Alexandre en 323 av. J.-C., Ptolémée Ier prend le pouvoir en Égypte, qui devient un royaume indépendant. Il achève Alexandrie, nouvelle capitale, et sous Ptolémée II la grande bibliothèque attire savants grecs et penseurs.",
+      "date": "-000322-01-01",
+      "date_affichee": "323 av. J.-C.",
+      "precision": "annee",
+      "sources": [
+        "S49"
+      ],
+      "acteurs": [
+        "Ptolémée Ier",
+        "Ptolémée II"
+      ],
+      "regions": [
+        "Alexandrie"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-mort-cleopatre-province-romaine",
+      "titre": "Mort de Cléopâtre VII et Égypte romaine",
+      "description": "Après la défaite d'Antoine et de Cléopâtre à Actium en 31 av. J.-C., l'Égypte perd son indépendance et devient province romaine, en 30 av. J.-C. Cléopâtre VII meurt à Alexandrie le 12 août 30 av. J.-C. L'Égypte romaine reste surnommée « grenier du monde antique » selon le ministère égyptien des Antiquités.",
+      "date": "-000029-08-12",
+      "date_affichee": "12 août 30 av. J.-C.",
+      "precision": "jour",
+      "sources": [
+        "S76",
+        "S77",
+        "S78"
+      ],
+      "acteurs": [
+        "Cléopâtre VII",
+        "Marc Antoine",
+        "Octavien"
+      ],
+      "regions": [
+        "Alexandrie"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-martyre-de-menas",
+      "titre": "Mort du martyr Ménas d'Alexandrie",
+      "description": "Le martyr Ménas d'Alexandrie meurt en 296. Sa tombe devient le noyau d'Abou Mena, un des premiers grands centres de pèlerinage chrétien, développé du Ve au VIIe siècle.",
+      "date": "0296-01-01",
+      "date_affichee": "296",
+      "precision": "annee",
+      "sources": [
+        "S30"
+      ],
+      "acteurs": [
+        "Ménas d'Alexandrie"
+      ],
+      "regions": [
+        "Abou Mena"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-monastere-sainte-catherine",
+      "titre": "Fondation du monastère de Sainte-Catherine",
+      "description": "Au VIe siècle est fondé, au pied du mont Horeb (djebel Musa), le monastère de Sainte-Catherine, devenu le plus ancien monastère chrétien à avoir gardé sans interruption sa fonction d'origine.",
+      "date": "0500-01-01",
+      "date_affichee": "VIe siècle",
+      "precision": "siecle",
+      "sources": [
+        "S31"
+      ],
+      "acteurs": [
+        "Communauté monastique"
+      ],
+      "regions": [
+        "Sinaï"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-fondation-du-caire",
+      "titre": "Fondation du Caire par les Fatimides",
+      "description": "Le Caire est fondé en 969 comme siège du califat fatimide. Les portes de la fortification fatimide (Bab Zuweila, Bab al-Nasr, Bab al-Futuh) bordent encore le noyau de la ville, que les Ayyoubides puis les Mamelouks agrandiront.",
+      "date": "0969-01-01",
+      "date_affichee": "969",
+      "precision": "annee",
+      "sources": [
+        "S37"
+      ],
+      "acteurs": [
+        "Fatimides"
+      ],
+      "regions": [
+        "Le Caire"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-sultanat-mamelouk",
+      "titre": "Début de l'État mamelouk et sultanat de Chajar ad-Durr",
+      "description": "En 1250, l'État mamelouk (1250-1517) s'installe en Égypte ; Chajar ad-Durr règne comme sultane de mai à juillet de cette année. Les sultans mamelouks font bâtir au Caire des édifices dans un nouveau style architectural.",
+      "date": "1250-05-01",
+      "date_affichee": "mai 1250",
+      "precision": "mois",
+      "sources": [
+        "S37",
+        "S83"
+      ],
+      "fin": "1517-01-01",
+      "acteurs": [
+        "Chajar ad-Durr",
+        "Mamelouks"
+      ],
+      "regions": [
+        "Le Caire"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-fin-mamelouks",
+      "titre": "Fin de l'État mamelouk (1517)",
+      "description": "L'UNESCO situe en 1517 la fin de l'État mamelouk. L'Égypte passe ensuite sous domination ottomane : l'Atlas de l'Égypte contemporaine la décrit comme une province de l'Empire ottoman au début du XIXe siècle.",
+      "date": "1517-01-01",
+      "date_affichee": "1517",
+      "precision": "annee",
+      "sources": [
+        "S37",
+        "S85"
+      ],
+      "acteurs": [
+        "Mamelouks",
+        "Empire ottoman"
+      ],
+      "regions": [
+        "Le Caire"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-mehemet-ali-gouverneur",
+      "titre": "Méhémet Ali devient gouverneur d'Égypte",
+      "description": "En 1805, Méhémet Ali, arrivé en 1801 avec le corps expéditionnaire ottoman contre les troupes françaises, devient gouverneur. Il lance une modernisation du pays qui en fait une puissance régionale et fonde une dynastie dont la charge devient héréditaire en 1840.",
+      "date": "1805-01-01",
+      "date_affichee": "1805",
+      "precision": "annee",
+      "sources": [
+        "S85",
+        "S86"
+      ],
+      "acteurs": [
+        "Méhémet Ali"
+      ],
+      "regions": [
+        "Égypte"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-canal-de-suez",
+      "titre": "Percement du canal de Suez",
+      "description": "Le canal de Suez est creusé entre 1859 et 1869. Son ouverture en 1869 donne au Sinaï une profondeur stratégique et fait de la péninsule un enjeu stratégique, et met fin à l'importance de routes commerciales et caravanières qui restaient capitales jusque-là.",
+      "date": "1859-01-01",
+      "date_affichee": "1859-1869",
+      "precision": "annee",
+      "sources": [
+        "S20",
+        "S14"
+      ],
+      "fin": "1869-12-31",
+      "acteurs": [
+        "Compagnie du canal",
+        "Autorités égyptiennes"
+      ],
+      "regions": [
+        "Suez",
+        "Port-Saïd"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-occupation-britannique",
+      "titre": "Débarquement britannique et début de l'occupation",
+      "description": "En août 1882, des forces britanniques débarquent dans la zone du canal, mettant fin à la crise née de la tutelle financière franco-britannique et du mouvement nationaliste du colonel Urabi. C'est le début de l'occupation de l'Égypte.",
+      "date": "1882-08-01",
+      "date_affichee": "août 1882",
+      "precision": "mois",
+      "sources": [
+        "S85",
+        "S88"
+      ],
+      "acteurs": [
+        "Ahmed Urabi",
+        "Royaume-Uni"
+      ],
+      "regions": [
+        "Canal de Suez",
+        "Alexandrie"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Période coloniale : à présenter avec le point de vue égyptien et les sources de l'Atlas de l'Égypte contemporaine.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-independance-formelle-1922",
+      "titre": "Indépendance formelle de 1922",
+      "description": "Après trois ans de violence et de lutte politique menée par le Wafd, l'Égypte accède en 1922 à une indépendance de façade : les Britanniques restent dans la vallée du Nil. La souveraineté pleine ne sera obtenue qu'après 1956.",
+      "date": "1922-01-01",
+      "date_affichee": "1922",
+      "precision": "annee",
+      "sources": [
+        "S85",
+        "S90"
+      ],
+      "acteurs": [
+        "Wafd",
+        "Saad Zaghloul",
+        "Royaume-Uni"
+      ],
+      "regions": [
+        "Égypte"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-revolution-1952",
+      "titre": "Révolution de juillet 1952",
+      "description": "En juillet 1952, des officiers renversent la monarchie, ce que Mahfouz et l'Atlas désignent comme la Révolution. La République est proclamée en 1953 ; Gamal Abdel Nasser accède à la présidence en 1956.",
+      "date": "1952-07-01",
+      "date_affichee": "juillet 1952",
+      "precision": "mois",
+      "sources": [
+        "S85",
+        "S34",
+        "S111",
+        "S109"
+      ],
+      "acteurs": [
+        "Officiers libres",
+        "Gamal Abdel Nasser"
+      ],
+      "regions": [
+        "Le Caire"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-crise-de-suez-1956",
+      "titre": "Nationalisation du canal et guerre de Suez",
+      "description": "Le 26 juillet 1956, Nasser annonce à Alexandrie la nationalisation de la Compagnie du canal de Suez, pour financer le haut barrage. Israël envahit le Sinaï le 29 octobre, puis la France et le Royaume-Uni bombardent et occupent Port-Saïd début novembre. Le cessez-le-feu du 6 novembre précède le retrait forcé des troupes étrangères, et l'Égypte en tire un triomphe politique.",
+      "date": "1956-07-26",
+      "date_affichee": "26 juillet - 6 novembre 1956",
+      "precision": "jour",
+      "sources": [
+        "S34",
+        "S85"
+      ],
+      "fin": "1956-11-06",
+      "acteurs": [
+        "Gamal Abdel Nasser",
+        "Israël",
+        "France",
+        "Royaume-Uni"
+      ],
+      "regions": [
+        "Alexandrie",
+        "Port-Saïd",
+        "Sinaï"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Conflit : positions des parties à présenter avec neutralité ; sources : Atlas de l'Égypte contemporaine (CNRS Éditions).",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-vote-des-femmes-1956",
+      "titre": "Constitution de 1956 et premier vote des femmes",
+      "description": "En 1956, une constitution est adoptée par référendum, lors duquel les Égyptiennes votent pour la première fois. L'année voit aussi les dernières troupes britanniques quitter le pays.",
+      "date": "1956-01-01",
+      "date_affichee": "1956",
+      "precision": "annee",
+      "sources": [
+        "S34",
+        "S94"
+      ],
+      "acteurs": [
+        "Citoyennes égyptiennes",
+        "Mouvement féministe"
+      ],
+      "regions": [
+        "Égypte"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-campagne-nubie-unesco",
+      "titre": "Campagne internationale de l'UNESCO pour la Nubie",
+      "description": "De 1960 à 1980, l'UNESCO mène une campagne internationale pour sauver les temples de Nubie, dont Abou Simbel et Philae, menacés par la montée des eaux du haut barrage d'Assouan. Entre 1961 et 1964, environ 135 000 Nubiens de 44 villages sont déplacés vers des terres désertiques, selon Carnegie.",
+      "date": "1960-01-01",
+      "date_affichee": "1960-1980 (déplacements 1961-1964)",
+      "precision": "annee",
+      "sources": [
+        "S43",
+        "S22"
+      ],
+      "fin": "1980-12-31",
+      "acteurs": [
+        "UNESCO",
+        "Nubiens",
+        "État égyptien"
+      ],
+      "regions": [
+        "Assouan",
+        "Nubie"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Déplacement forcé de la population nubienne : voir la fiche Nubiens ; relecture communautaire souhaitable.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-guerre-de-1967",
+      "titre": "Guerre de 1967 et occupation du Sinaï",
+      "description": "En 1967, la guerre des Six Jours se solde par une défaite égyptienne et l'amputation du territoire : le Sinaï est occupé par Israël. Des Bédouins sont alors expropriés, d'autres trouvent un emploi sur place.",
+      "date": "1967-01-01",
+      "date_affichee": "1967",
+      "precision": "annee",
+      "sources": [
+        "S85",
+        "S14"
+      ],
+      "acteurs": [
+        "Égypte",
+        "Israël"
+      ],
+      "regions": [
+        "Sinaï"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Conflit et territoire disputé : présenter les positions des parties et des Nations unies avec leurs sources.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-guerre-d-octobre-1973",
+      "titre": "Guerre d'octobre 1973",
+      "description": "En octobre 1973, Sadate rouvre les hostilités pour reconquérir le Sinaï occupé. La traversée du canal est un succès militaire qui lave les humiliations précédentes et ouvre un dialogue avec Israël.",
+      "date": "1973-10-01",
+      "date_affichee": "octobre 1973",
+      "precision": "mois",
+      "sources": [
+        "S85"
+      ],
+      "acteurs": [
+        "Anouar el-Sadate"
+      ],
+      "regions": [
+        "Canal de Suez",
+        "Sinaï"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Conflit : présentation attribuée à l'Atlas ; compléter avec des sources israéliennes et onusiennes.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-paix-1979",
+      "titre": "Traité de paix avec Israël",
+      "description": "En 1979, l'Égypte signe la paix avec Israël après les accords de Camp David (1978). Elle est exclue de la Ligue arabe jusqu'en 1989. Le Sinaï est restitué en 1982, avec une démilitarisation partielle et une force multinationale (MFO).",
+      "date": "1979-01-01",
+      "date_affichee": "1979",
+      "precision": "annee",
+      "sources": [
+        "S85",
+        "S14"
+      ],
+      "fin": "1982-12-31",
+      "acteurs": [
+        "Anouar el-Sadate",
+        "Israël"
+      ],
+      "regions": [
+        "Sinaï"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet politique : présentation neutre, positions des parties à documenter.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-inscriptions-patrimoine-mondial-1979",
+      "titre": "Premières inscriptions au patrimoine mondial",
+      "description": "En 1979, l'UNESCO inscrit au patrimoine mondial Le Caire historique, Memphis et sa nécropole, Thèbes antique, les monuments de Nubie et Abou Mena, cinq des sept biens égyptiens aujourd'hui sur la Liste.",
+      "date": "1979-01-01",
+      "date_affichee": "1979",
+      "precision": "annee",
+      "sources": [
+        "S37",
+        "S39",
+        "S46",
+        "S43",
+        "S30"
+      ],
+      "acteurs": [
+        "UNESCO",
+        "État égyptien"
+      ],
+      "regions": [
+        "Égypte"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-nobel-mahfouz-1988",
+      "titre": "Prix Nobel de littérature de Naguib Mahfouz",
+      "description": "En 1988, Naguib Mahfouz reçoit le prix Nobel de littérature. Cela consacre un écrivain dont chaque nouvelle publication est un événement culturel en Égypte.",
+      "date": "1988-01-01",
+      "date_affichee": "1988",
+      "precision": "annee",
+      "sources": [
+        "S111"
+      ],
+      "acteurs": [
+        "Naguib Mahfouz"
+      ],
+      "regions": [
+        "Le Caire"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-inscription-sirat-hilaliyya-2008",
+      "titre": "Inscription de l'épopée hilalienne à l'UNESCO",
+      "description": "Proclamée chef-d'œuvre en 2003, l'épopée Al-Sirah Al-Hilaliyyah est inscrite en 2008 sur la Liste représentative du patrimoine culturel immatériel.",
+      "date": "2008-01-01",
+      "date_affichee": "2008",
+      "precision": "annee",
+      "sources": [
+        "S67"
+      ],
+      "acteurs": [
+        "UNESCO",
+        "Poètes-chanteurs"
+      ],
+      "regions": [
+        "Égypte"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-revolution-2011",
+      "titre": "Soulèvement de 2011 et chute de Moubarak",
+      "description": "En 2011, le régime de Hosni Moubarak chute après le « printemps égyptien ». Le pays renoue ensuite avec un pouvoir autoritaire qui exalte la fierté nationale, selon l'Atlas de l'Égypte contemporaine.",
+      "date": "2011-01-01",
+      "date_affichee": "2011",
+      "precision": "annee",
+      "sources": [
+        "S85"
+      ],
+      "acteurs": [
+        "Hosni Moubarak",
+        "Manifestants"
+      ],
+      "regions": [
+        "Le Caire"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement politique récent : à relire par des spécialistes.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-constitution-2014-nubie",
+      "titre": "Constitution de 2014 et article 236",
+      "description": "La Constitution de 2014 prévoit, à l'article 236, des projets pour le retour des populations de Nubie dans leurs régions d'origine dans un délai de dix ans. Une commission est créée en octobre 2014 ; en 2018, la loi sur le développement de la Haute-Égypte est jugée par Carnegie comme un coup porté aux espoirs de retour des Nubiens.",
+      "date": "2014-01-01",
+      "date_affichee": "2014",
+      "precision": "annee",
+      "sources": [
+        "S22",
+        "S3"
+      ],
+      "acteurs": [
+        "Nubiens",
+        "État égyptien"
+      ],
+      "regions": [
+        "Assouan"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Politique actuelle (droits des Nubiens) : positions de la communauté et de l'État à présenter avec leurs sources.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-evenement-operation-sinai-2018",
+      "titre": "Opération antiterroriste « Sinaï 2018 »",
+      "description": "En 2018, l'armée lance une opération antiterroriste dans le Sinaï. L'Atlas de l'Égypte contemporaine rattache cette date à l'intensification de la violence dans la péninsule.",
+      "date": "2018-01-01",
+      "date_affichee": "2018",
+      "precision": "annee",
+      "sources": [
+        "S14"
+      ],
+      "acteurs": [
+        "Armée égyptienne"
+      ],
+      "regions": [
+        "Nord-Sinaï"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Conflit récent : relecture par un spécialiste ; ne pas attribuer de responsabilités non sourcées.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "oeuvres": [
+    {
+      "id": "EG-oeuvre-statue-assise-hatchepsout",
+      "titre": "Statue assise d'Hatchepsout",
+      "description": "Cette statue en calcaire peint représente la reine-pharaon Hatchepsout assise. Le Metropolitan Museum la date d'environ 1473-1458 av. J.-C., pendant la co-régence avec Thoutmosis III, et précise qu'elle a été fouillée à Thèbes.",
+      "type": "sculpture",
+      "sources": [
+        "S71"
+      ],
+      "communaute": "Égypte, Nouvel Empire",
+      "materiaux": [
+        "calcaire induré",
+        "peinture"
+      ],
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "29.3.2",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/544450",
+      "droits": "Domaine public (Open Access du Met, CC0)",
+      "periode": "vers 1473-1458 av. J.-C.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-oeuvre-tete-de-toutankhamon",
+      "titre": "Tête de Toutânkhamon",
+      "description": "Cette tête en calcaire est attribuée par le Metropolitan Museum à la période amarnienne ; elle est datée d'environ 1328-1318 av. J.-C., et a été acquise en 1950.",
+      "type": "sculpture",
+      "sources": [
+        "S124"
+      ],
+      "communaute": "Égypte, Nouvel Empire",
+      "materiaux": [
+        "calcaire induré"
+      ],
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "50.6",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/544690",
+      "droits": "Domaine public (Open Access du Met, CC0)",
+      "periode": "vers 1328-1318 av. J.-C.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-oeuvre-sahoure-et-divinite",
+      "titre": "Le roi Sahourê accompagné d'une divinité",
+      "description": "Ce groupe en gneiss, daté du Met d'environ 2458-2446 av. J.-C., figure le roi Sahourê de l'Ancien Empire avec une figure divine, et date de l'Ancien Empire.",
+      "type": "sculpture",
+      "sources": [
+        "S125"
+      ],
+      "communaute": "Égypte, Ancien Empire",
+      "materiaux": [
+        "gneiss"
+      ],
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "18.2.4",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/543882",
+      "droits": "Domaine public (Open Access du Met, CC0)",
+      "periode": "vers 2458-2446 av. J.-C.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-oeuvre-relief-nespekashouty",
+      "titre": "Relief de la tombe de Nespekashouty",
+      "description": "Ce relief en calcaire peint provient de la tombe de Nespekashouty, à Thèbes, et date de 656-650 av. J.-C., à l'époque saïte. Il atteste la continuité de l'art funéraire thébain à la Basse Époque.",
+      "type": "sculpture",
+      "sources": [
+        "S126"
+      ],
+      "communaute": "Égypte, Basse Époque saïte",
+      "materiaux": [
+        "calcaire",
+        "peinture"
+      ],
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "23.3.468",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/548338",
+      "droits": "Domaine public (Open Access du Met, CC0)",
+      "periode": "656-650 av. J.-C.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-oeuvre-lampe-de-mosquee-aydakin",
+      "titre": "Lampe de mosquée pour le mausolée de l'émir Aydakin al-Bunduqdar",
+      "description": "Cette lampe en verre soufflé, émaillé et doré, réalisée peu après 1285, était destinée au mausolée de l'émir Aydakin al-'Ala'i al-Bunduqdar au Caire. Elle illustre l'artisanat du verre à l'époque mamelouke.",
+      "type": "architecture",
+      "sources": [
+        "S127"
+      ],
+      "communaute": "Égypte mamelouke",
+      "materiaux": [
+        "verre soufflé",
+        "émail",
+        "dorure"
+      ],
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "17.190.985",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/447000",
+      "droits": "Domaine public (Open Access du Met, CC0)",
+      "periode": "peu après 1285",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-oeuvre-portes-de-minbar",
+      "titre": "Paire de portes de minbar",
+      "description": "Ces portes de minbar, datées d'environ 1325-1330, associent bois de rose et de mûrier à des incrustations d'ivoire, d'ébène et d'autres bois. Elles relèvent de la menuiserie de l'Égypte mamelouke.",
+      "type": "architecture",
+      "sources": [
+        "S128"
+      ],
+      "communaute": "Égypte mamelouke",
+      "materiaux": [
+        "bois de rose et de mûrier",
+        "ivoire",
+        "ébène"
+      ],
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "91.1.2064",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/444812",
+      "droits": "Domaine public (Open Access du Met, CC0)",
+      "periode": "vers 1325-1330",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-oeuvre-bol-a-l-aigle",
+      "titre": "Bol à l'aigle",
+      "description": "Ce bol en terre cuite à décor de lustre sur glaçure blanche opaque, vers l'an 1000, est attribué au potier Muslim ibn al-Dahhan à l'époque fatimide.",
+      "type": "peinture",
+      "sources": [
+        "S129"
+      ],
+      "communaute": "Égypte fatimide",
+      "materiaux": [
+        "terre cuite",
+        "lustre métallique"
+      ],
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "63.178.1",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/451717",
+      "droits": "Domaine public (Open Access du Met, CC0)",
+      "periode": "vers 1000",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-oeuvre-tapis-mamelouk",
+      "titre": "Tapis mamelouk",
+      "description": "Ce tapis en laine à points noués, du début du XVIe siècle, est considéré comme probablement égyptien. Il illustre l'art textile de la fin de la période mamelouke.",
+      "type": "textile",
+      "sources": [
+        "S130"
+      ],
+      "communaute": "Égypte mamelouke",
+      "materiaux": [
+        "laine"
+      ],
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "22.100.52",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/447510",
+      "droits": "Domaine public (Open Access du Met, CC0)",
+      "periode": "début du XVIe siècle",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-oeuvre-palette-de-narmer",
+      "titre": "Palette de Narmer",
+      "description": "La palette de Narmer est, selon le ministère égyptien des Antiquités, l'un des plus importants trésors du Musée égyptien du Caire : elle enregistre l'événement historique de l'unification de la Haute et de la Basse Égypte par le roi Narmer vers 3100 av. J.-C.",
+      "type": "sculpture",
+      "sources": [
+        "S53"
+      ],
+      "communaute": "Égypte, période dynastique archaïque",
+      "institution": "Musée égyptien du Caire",
+      "url_notice": "https://egymonuments.gov.eg/en/historical-periods/early-dynastic-period",
+      "droits": "Notice institutionnelle ; droits de l'institution",
+      "periode": "vers 3100 av. J.-C.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-oeuvre-trilogie-du-caire",
+      "titre": "Trilogie du Caire (Bayn al-Qasrayn, Qasr al-Shawq, Sukkariya)",
+      "description": "Parue en 1957, cette trilogie (Between-the-Palaces, Palace of Longing, Sugarhouse dans la traduction du prix Nobel) de Naguib Mahfouz a rendu l'auteur célèbre dans le monde arabe comme peintre de la vie urbaine traditionnelle.",
+      "type": "livre",
+      "sources": [
+        "S111"
+      ],
+      "createur": "Naguib Mahfouz",
+      "url_notice": "https://www.nobelprize.org/prizes/literature/1988/mahfouz/biographical/",
+      "droits": "Œuvre sous droits d'auteur",
+      "periode": "1957",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-oeuvre-les-enfants-de-gebelawi",
+      "titre": "Les Enfants de Gebelawi",
+      "description": "Roman de 1959 de Naguib Mahfouz, avec lequel l'auteur reprend l'écriture après plusieurs années d'interruption. Le Nobel y décrit un style nouveau qui cache des jugements politiques derrière l'allégorie et le symbole.",
+      "type": "livre",
+      "sources": [
+        "S111"
+      ],
+      "createur": "Naguib Mahfouz",
+      "url_notice": "https://www.nobelprize.org/prizes/literature/1988/mahfouz/biographical/",
+      "droits": "Œuvre sous droits d'auteur",
+      "periode": "1959",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "EG-oeuvre-ciel-d-enfer",
+      "titre": "Ciel d'enfer (film de Youssef Chahine)",
+      "description": "Ciel d'enfer est un film de Youssef Chahine de 1954 avec Faten Hamama, présenté au Festival de Cannes 1954. Wikipédia indique qu'il fait partie des 150 meilleures productions égyptiennes retenues lors du centenaire du cinéma égyptien en 1996.",
+      "type": "film",
+      "sources": [
+        "S103",
+        "S115"
+      ],
+      "createur": "Youssef Chahine",
+      "droits": "Œuvre sous droits d'auteur",
+      "periode": "1954",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "proverbes": [
+    {
+      "id": "EG-proverbe-serpent-collier",
+      "langue": "arabe égyptien (parler du Caire)",
+      "traduction": "Si un serpent t'aime, porte-le en collier.",
+      "sens": "Burckhardt l'explique ainsi : si des gens dangereux te témoignent de l'affection, gagne leur amitié par une politesse attentive.",
+      "publication": "John Lewis Burckhardt (trad.), Arabic proverbs, or, The manners and customs of the modern Egyptians, illustrated from their proverbial sayings current at Cairo, 2e éd., 1875, proverbe n° 16 (numérisation Internet Archive, texte intégral consulté).",
+      "regions": [
+        "Le Caire"
+      ],
+      "sources": [
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Traduction française établie d'après la traduction anglaise et les commentaires de Burckhardt ; le texte arabe original n'est pas repris car l'OCR de la numérisation est illisible : à compléter à partir du fac-similé."
+      }
+    },
+    {
+      "id": "EG-proverbe-chameau-ane",
+      "langue": "arabe égyptien (parler du Caire)",
+      "traduction": "Si ton chameau tombe en panne, charge un âne.",
+      "sens": "Adapter son entreprise à ses moyens, selon le commentaire de Burckhardt.",
+      "publication": "John Lewis Burckhardt (trad.), Arabic proverbs, or, The manners and customs of the modern Egyptians, illustrated from their proverbial sayings current at Cairo, 2e éd., 1875, proverbe n° 17 (numérisation Internet Archive, texte intégral consulté).",
+      "regions": [
+        "Le Caire"
+      ],
+      "sources": [
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Traduction française établie d'après la traduction anglaise et les commentaires de Burckhardt ; le texte arabe original n'est pas repris car l'OCR de la numérisation est illisible : à compléter à partir du fac-similé."
+      }
+    },
+    {
+      "id": "EG-proverbe-injures-et-amour",
+      "langue": "arabe égyptien (parler du Caire)",
+      "traduction": "Si tu vois quelqu'un t'insulter et jurer contre toi, sache qu'il t'aime.",
+      "sens": "Burckhardt note que ce dicton s'emploie à propos des amoureux (« de amatoribus dicitur »).",
+      "publication": "John Lewis Burckhardt (trad.), Arabic proverbs, or, The manners and customs of the modern Egyptians, illustrated from their proverbial sayings current at Cairo, 2e éd., 1875, proverbe n° 26 (numérisation Internet Archive, texte intégral consulté).",
+      "regions": [
+        "Le Caire"
+      ],
+      "sources": [
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Traduction française établie d'après la traduction anglaise et les commentaires de Burckhardt ; le texte arabe original n'est pas repris car l'OCR de la numérisation est illisible : à compléter à partir du fac-similé."
+      }
+    },
+    {
+      "id": "EG-proverbe-deluge-fils-sous-les-pieds",
+      "langue": "arabe égyptien (parler du Caire)",
+      "traduction": "Si l'eau arrive comme un déluge, mets ton fils sous tes pieds.",
+      "sens": "Se sauver soi-même au détriment de ses proches ; Burckhardt y voit un principe égoïste très répandu au Levant et le rattache à un récit musulman du déluge de Noé.",
+      "publication": "John Lewis Burckhardt (trad.), Arabic proverbs, or, The manners and customs of the modern Egyptians, illustrated from their proverbial sayings current at Cairo, 2e éd., 1875, proverbe n° 27 (numérisation Internet Archive, texte intégral consulté).",
+      "regions": [
+        "Le Caire"
+      ],
+      "sources": [
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Traduction française établie d'après la traduction anglaise et les commentaires de Burckhardt ; le texte arabe original n'est pas repris car l'OCR de la numérisation est illisible : à compléter à partir du fac-similé."
+      }
+    },
+    {
+      "id": "EG-proverbe-fin-de-la-nuit-les-cris",
+      "langue": "arabe égyptien (parler du Caire)",
+      "traduction": "À la fin de la nuit, on entend les cris.",
+      "sens": "Dicton adressé à ceux qui se réjouissent d'une bonne fortune, pour leur rappeler l'issue finale ; Burckhardt le rapproche des rixes qui éclatent au Caire en fin de nuit.",
+      "publication": "John Lewis Burckhardt (trad.), Arabic proverbs, or, The manners and customs of the modern Egyptians, illustrated from their proverbial sayings current at Cairo, 2e éd., 1875, proverbe n° 29 (numérisation Internet Archive, texte intégral consulté).",
+      "regions": [
+        "Le Caire"
+      ],
+      "sources": [
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Traduction française établie d'après la traduction anglaise et les commentaires de Burckhardt ; le texte arabe original n'est pas repris car l'OCR de la numérisation est illisible : à compléter à partir du fac-similé."
+      }
+    },
+    {
+      "id": "EG-proverbe-dernier-remede-cautere",
+      "langue": "arabe égyptien (parler du Caire)",
+      "traduction": "Le dernier remède, c'est le cautère.",
+      "sens": "Si rien d'autre ne réussit, il faut finir par recourir à des mesures violentes, selon Burckhardt.",
+      "publication": "John Lewis Burckhardt (trad.), Arabic proverbs, or, The manners and customs of the modern Egyptians, illustrated from their proverbial sayings current at Cairo, 2e éd., 1875, proverbe n° 30 (numérisation Internet Archive, texte intégral consulté).",
+      "regions": [
+        "Le Caire"
+      ],
+      "sources": [
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Traduction française établie d'après la traduction anglaise et les commentaires de Burckhardt ; le texte arabe original n'est pas repris car l'OCR de la numérisation est illisible : à compléter à partir du fac-similé."
+      }
+    },
+    {
+      "id": "EG-proverbe-noces-de-notre-pere",
+      "langue": "arabe égyptien (parler du Caire)",
+      "traduction": "Les noces sont les noces de notre père, et pourtant les gens se battent avec nous.",
+      "sens": "Ceux qui ont le plus de droits se retrouvent privés de l'avantage au profit d'autres ; Burckhardt évoque des invités qui bousculent les fils du marié pour prendre leur place.",
+      "publication": "John Lewis Burckhardt (trad.), Arabic proverbs, or, The manners and customs of the modern Egyptians, illustrated from their proverbial sayings current at Cairo, 2e éd., 1875, proverbe n° 31 (numérisation Internet Archive, texte intégral consulté).",
+      "regions": [
+        "Le Caire"
+      ],
+      "sources": [
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Traduction française établie d'après la traduction anglaise et les commentaires de Burckhardt ; le texte arabe original n'est pas repris car l'OCR de la numérisation est illisible : à compléter à partir du fac-similé."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "titre": "Population, total – Égypte (indicateur SP.POP.TOTL, API)",
+      "institution": "Banque mondiale",
+      "url": "https://api.worldbank.org/v2/country/EGY/indicator/SP.POP.TOTL?format=json&mrv=3",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2025
+    },
+    {
+      "id": "S2",
+      "titre": "Wikidata – Égypte (Q79)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q79",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S3",
+      "titre": "Constitution de l'Égypte de 2014 (révisée en 2019), traduction International IDEA",
+      "institution": "Comparative Constitutions Project / International IDEA",
+      "url": "https://www.constituteproject.org/constitution/Egypt_2019",
+      "type": "institution",
+      "licence": "tous droits réservés (citation courte)",
+      "consulte_le": "2026-11-21",
+      "annee": 2019
+    },
+    {
+      "id": "S4",
+      "titre": "Égypte – Wikipédia",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/%C3%89gypte",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S5",
+      "titre": "Coptes – Wikipédia",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Coptes",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S6",
+      "titre": "Glottolog – Egyptian Arabic (egyp1253)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/egyp1253",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S7",
+      "titre": "Arabic proverbs, or, The manners and customs of the modern Egyptians, illustrated from their proverbial sayings current at Cairo (2e éd., texte intégral numérisé)",
+      "institution": "Internet Archive",
+      "url": "https://archive.org/stream/arabicproverbsor00burc_0/arabicproverbsor00burc_0_djvu.txt",
+      "type": "livre",
+      "licence": "domaine public",
+      "consulte_le": "2026-11-21",
+      "auteur": "John Lewis Burckhardt (trad.)",
+      "annee": 1875
+    },
+    {
+      "id": "S8",
+      "titre": "Glottolog – Standard Arabic (stan1318)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1318",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S9",
+      "titre": "Arabic calligraphy: knowledge, skills and practices – Patrimoine culturel immatériel",
+      "institution": "UNESCO",
+      "url": "https://ich.unesco.org/en/RL/arabic-calligraphy-knowledge-skills-and-practices-01718",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation (citation courte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S10",
+      "titre": "Glottolog – Saidi Arabic (said1239)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/said1239",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S11",
+      "titre": "Tahteeb, stick game – Patrimoine culturel immatériel",
+      "institution": "UNESCO",
+      "url": "https://ich.unesco.org/en/RL/tahteeb-stick-game-01189",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation (citation courte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S12",
+      "titre": "Handmade weaving in Upper Egypt (Sa'eed) – Patrimoine culturel immatériel",
+      "institution": "UNESCO",
+      "url": "https://ich.unesco.org/en/USL/handmade-weaving-in-upper-egypt-sa-eed-01605",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation (citation courte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S13",
+      "titre": "Glottolog – Eastern Egyptian Bedawi Arabic (east2690)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/east2690",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S14",
+      "titre": "Le Sinaï, territoire stratégique sous tension, in Atlas de l'Égypte contemporaine",
+      "institution": "CNRS Éditions (OpenEdition Books)",
+      "url": "https://books.openedition.org/editionscnrs/37387",
+      "type": "livre",
+      "licence": "Licence OpenEdition Books",
+      "consulte_le": "2026-11-21",
+      "auteur": "Olivier Sanmartin",
+      "annee": 2020
+    },
+    {
+      "id": "S15",
+      "titre": "Glottolog – Western Egyptian Bedawi Arabic (west2774)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/west2774",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S16",
+      "titre": "An identity in peril: Egypt's Berbers scramble to save their language",
+      "institution": "Africanews (AFP)",
+      "url": "https://www.africanews.com/2020/12/02/an-identity-in-peril-egypt-s-berbers-scramble-to-save-their-language",
+      "type": "presse",
+      "licence": "tous droits réservés (citation courte)",
+      "consulte_le": "2026-11-21",
+      "annee": 2020
+    },
+    {
+      "id": "S17",
+      "titre": "Glottolog – Siwi (siwi1239)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/siwi1239",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S18",
+      "titre": "Siwa, the Berber oasis where cultures cross, in An Atlas of Contemporary Egypt",
+      "institution": "CNRS Éditions (OpenEdition Books)",
+      "url": "https://books.openedition.org/editionscnrs/58480",
+      "type": "livre",
+      "licence": "Licence OpenEdition Books",
+      "consulte_le": "2026-11-21",
+      "auteur": "Valentina Serreli",
+      "annee": 2020
+    },
+    {
+      "id": "S19",
+      "titre": "Glottolog – Beja (beja1238)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/beja1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S20",
+      "titre": "Unités et diversités des sociétés nomades au fil du temps : l'exemple du désert Oriental d'Égypte depuis le IIIe millénaire avant notre ère",
+      "institution": "Les nouvelles de l'archéologie (OpenEdition Journals)",
+      "url": "https://journals.openedition.org/nda/14662",
+      "type": "article_scientifique",
+      "licence": "Licence OpenEdition Journals",
+      "consulte_le": "2026-11-21",
+      "auteur": "Q. Cécillon, M. Crépy, I. Goncalves, J. Marchand",
+      "annee": 2023
+    },
+    {
+      "id": "S21",
+      "titre": "Glottolog – Nobiin (nobi1240)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/nobi1240",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S22",
+      "titre": "Dashing Nubians' Hopes of Returning Home",
+      "institution": "Carnegie Endowment for International Peace (Sada)",
+      "url": "https://carnegieendowment.org/sada/2018/08/dashing-nubians-hopes-of-returning-home?lang=en",
+      "type": "institution",
+      "licence": "tous droits réservés (citation courte)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Khaled Mahmoud",
+      "annee": 2018
+    },
+    {
+      "id": "S23",
+      "titre": "Glottolog – Kenuzi (kenu1243)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/kenu1243",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S24",
+      "titre": "Glottolog – Coptic (copt1239)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/copt1239",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S25",
+      "titre": "Glottolog – Egypt Sign Language (egyp1238)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/egyp1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S26",
+      "titre": "Customs and Traditions (Aswan Civilization and Heritage Centre)",
+      "institution": "Université d'Assouan",
+      "url": "https://aswu.edu.eg/en/achc-projects/customs-and-traditions",
+      "type": "universite",
+      "licence": "tous droits réservés (citation courte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S27",
+      "titre": "Nubiens – Wikipédia",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Nubiens",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S28",
+      "titre": "Sinai women turn to embroidery to preserve Bedouin culture",
+      "institution": "Al-Monitor",
+      "url": "https://al-monitor.com/originals/2017/01/egypt-sinai-women-embroidery-heritage.html",
+      "type": "presse",
+      "licence": "tous droits réservés (citation courte)",
+      "consulte_le": "2026-11-21",
+      "annee": 2017
+    },
+    {
+      "id": "S29",
+      "titre": "Festivals related to the Journey of the Holy family in Egypt – Patrimoine culturel immatériel",
+      "institution": "UNESCO",
+      "url": "https://ich.unesco.org/en/RL/festivals-related-to-the-journey-of-the-holy-family-in-egypt-01700",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation (citation courte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S30",
+      "titre": "Abou Mena – Centre du patrimoine mondial",
+      "institution": "UNESCO",
+      "url": "https://whc.unesco.org/fr/list/90",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S31",
+      "titre": "Zone Sainte-Catherine – Centre du patrimoine mondial",
+      "institution": "UNESCO",
+      "url": "https://whc.unesco.org/fr/list/954",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S32",
+      "titre": "Moulid Festival of Abu'l Hajjaj",
+      "institution": "Google Arts & Culture (American Research Center in Egypt)",
+      "url": "https://artsandculture.google.com/story/3QWhj0K4BGm51w",
+      "type": "institution",
+      "licence": "tous droits réservés (citation courte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S33",
+      "titre": "Semsemiah: instrument crafting and playing – Patrimoine culturel immatériel",
+      "institution": "UNESCO",
+      "url": "https://ich.unesco.org/en/RL/semsemiah-instrument-crafting-and-playing-02119",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation (citation courte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S34",
+      "titre": "1956 : l'agression tripartite, in Atlas de l'Égypte contemporaine",
+      "institution": "CNRS Éditions (OpenEdition Books)",
+      "url": "https://books.openedition.org/editionscnrs/37382",
+      "type": "livre",
+      "licence": "Licence OpenEdition Books",
+      "consulte_le": "2026-11-21",
+      "auteur": "Karine Bennafla et Wahel Rashid",
+      "annee": 2020
+    },
+    {
+      "id": "S35",
+      "titre": "Wadi Al-Hitan (La vallée des Baleines) – Centre du patrimoine mondial",
+      "institution": "UNESCO",
+      "url": "https://whc.unesco.org/fr/list/1186",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S36",
+      "titre": "Wikidata – Ouadi Al-Hitan (Q501833)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q501833",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S37",
+      "titre": "Le Caire historique – Centre du patrimoine mondial",
+      "institution": "UNESCO",
+      "url": "https://whc.unesco.org/fr/list/89",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S38",
+      "titre": "Wikidata – Caire islamique (Q1100964)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q1100964",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S39",
+      "titre": "Memphis et sa nécropole – les zones des pyramides de Guizeh à Dahchour – Centre du patrimoine mondial",
+      "institution": "UNESCO",
+      "url": "https://whc.unesco.org/fr/list/86",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S40",
+      "titre": "Wikidata – Memphis et sa nécropole (Q1175856)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q1175856",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S41",
+      "titre": "Old Kingdom – Historical Periods",
+      "institution": "Ministère du Tourisme et des Antiquités d'Égypte",
+      "url": "https://egymonuments.gov.eg/en/historical-periods/old-kingdom",
+      "type": "institution",
+      "licence": "tous droits réservés (citation courte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S42",
+      "titre": "Wikidata – Saint Catherine Area (Q2468771)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q2468771",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S43",
+      "titre": "Monuments de Nubie d'Abou Simbel à Philae – Centre du patrimoine mondial",
+      "institution": "UNESCO",
+      "url": "https://whc.unesco.org/fr/list/88",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S44",
+      "titre": "Wikidata – Monuments de Nubie (Q4923872)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q4923872",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S45",
+      "titre": "Wikidata – Abou Mena (Q9278)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q9278",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S46",
+      "titre": "Thèbes antique et sa nécropole – Centre du patrimoine mondial",
+      "institution": "UNESCO",
+      "url": "https://whc.unesco.org/fr/list/87",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S47",
+      "titre": "Wikidata – Thèbes antique et sa nécropole (Q141298543)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q141298543",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S48",
+      "titre": "Middle Kingdom – Historical Periods",
+      "institution": "Ministère du Tourisme et des Antiquités d'Égypte",
+      "url": "https://egymonuments.gov.eg/en/historical-periods/middle-kingdom",
+      "type": "institution",
+      "licence": "tous droits réservés (citation courte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S49",
+      "titre": "Ptolemaic Period – Historical Periods",
+      "institution": "Ministère du Tourisme et des Antiquités d'Égypte",
+      "url": "https://egymonuments.gov.eg/en/historical-periods/ptolemaic-period",
+      "type": "institution",
+      "licence": "tous droits réservés (citation courte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S50",
+      "titre": "Wikidata – Alexandrie (Q87)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q87",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S51",
+      "titre": "Wikidata – Bibliotheca Alexandrina (Q501851)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q501851",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S52",
+      "titre": "Wikidata – Musée égyptien du Caire (Q201219)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q201219",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S53",
+      "titre": "Early Dynastic Period – Historical Periods",
+      "institution": "Ministère du Tourisme et des Antiquités d'Égypte",
+      "url": "https://egymonuments.gov.eg/en/historical-periods/early-dynastic-period",
+      "type": "institution",
+      "licence": "tous droits réservés (citation courte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S54",
+      "titre": "Wikidata – Siwa (Q2008735)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q2008735",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S55",
+      "titre": "Wikidata – Abydos (Q192268)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q192268",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S56",
+      "titre": "Wikidata – Deir el-Bahari (Q373909)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q373909",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S57",
+      "titre": "Egypt's tanoura gives colorful spin on dervish tradition",
+      "institution": "Africanews (AFP)",
+      "url": "https://www.africanews.com/amp/2022/06/09/egypt-s-tanoura-gives-colorful-spin-on-dervish-tradition/",
+      "type": "presse",
+      "licence": "tous droits réservés (citation courte)",
+      "consulte_le": "2026-11-21",
+      "annee": 2022
+    },
+    {
+      "id": "S58",
+      "titre": "Wikidata – Complexe du Sultan Al-Ghuri (Q6743467)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q6743467",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S59",
+      "titre": "Wikidata – Mosquée Abou el-Haggag (Q2635269)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q2635269",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S60",
+      "titre": "Wikidata – Port-Saïd (Q134509)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q134509",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S61",
+      "titre": "Wikidata – Haut barrage d'Assouan (Q38891)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q38891",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S62",
+      "titre": "Koshary, daily life dish and practices associated with it – Patrimoine culturel immatériel",
+      "institution": "UNESCO",
+      "url": "https://ich.unesco.org/en/RL/koshary-daily-life-dish-and-practices-associated-with-it-02278",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation (citation courte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S63",
+      "titre": "Henna: rituals, aesthetic and social practices – Patrimoine culturel immatériel",
+      "institution": "UNESCO",
+      "url": "https://ich.unesco.org/en/RL/henna-rituals-aesthetic-and-social-practices-02116",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation (citation courte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S64",
+      "titre": "Arts, skills and practices associated with engraving on metals (gold, silver and copper) – Patrimoine culturel immatériel",
+      "institution": "UNESCO",
+      "url": "https://ich.unesco.org/en/RL/arts-skills-and-practices-associated-with-engraving-on-metals-gold-silver-and-copper-01951",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation (citation courte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S65",
+      "titre": "Date palm, knowledge, skills, traditions and practices – Patrimoine culturel immatériel",
+      "institution": "UNESCO",
+      "url": "https://ich.unesco.org/en/RL/date-palm-knowledge-skills-traditions-and-practices-01902",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation (citation courte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S66",
+      "titre": "Traditional hand puppetry – Patrimoine culturel immatériel",
+      "institution": "UNESCO",
+      "url": "https://ich.unesco.org/en/USL/traditional-hand-puppetry-01376",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation (citation courte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S67",
+      "titre": "Al-Sirah Al-Hilaliyyah epic – Patrimoine culturel immatériel",
+      "institution": "UNESCO",
+      "url": "https://ich.unesco.org/en/RL/al-sirah-al-hilaliyyah-epic-00075",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation (citation courte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S68",
+      "titre": "Springtime along the Nile: Egypt's ancient festival lives on",
+      "institution": "Arab News",
+      "url": "https://www.arabnews.pk/node/2639802",
+      "type": "presse",
+      "licence": "tous droits réservés (citation courte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S69",
+      "titre": "Mahraganat d'Égypte : l'électro chaabi qui brave les interdictions",
+      "institution": "Music In Africa",
+      "url": "https://www.musicinafrica.net/node/307275",
+      "type": "presse",
+      "licence": "tous droits réservés (citation courte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S70",
+      "titre": "New Kingdom – Historical Periods",
+      "institution": "Ministère du Tourisme et des Antiquités d'Égypte",
+      "url": "https://egymonuments.gov.eg/en/historical-periods/new-kingdom",
+      "type": "institution",
+      "licence": "tous droits réservés (citation courte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S71",
+      "titre": "Seated Statue of Hatshepsut (Met, 29.3.2)",
+      "institution": "The Metropolitan Museum of Art – Open Access",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/544450",
+      "type": "musee",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S72",
+      "titre": "Wikidata – Hatchepsout (Q129234)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q129234",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S73",
+      "titre": "Hatchepsout – Wikipédia",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Hatchepsout",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S74",
+      "titre": "Wikidata – Ramsès II (Q1523)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q1523",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S75",
+      "titre": "Ramsès II – Wikipédia",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Rams%C3%A8s_II",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S76",
+      "titre": "Roman Period – Historical Periods",
+      "institution": "Ministère du Tourisme et des Antiquités d'Égypte",
+      "url": "https://egymonuments.gov.eg/en/historical-periods/roman-period",
+      "type": "institution",
+      "licence": "tous droits réservés (citation courte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S77",
+      "titre": "Wikidata – Cléopâtre (Q635)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q635",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S78",
+      "titre": "Cléopâtre VII – Wikipédia",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Cl%C3%A9op%C3%A2tre_VII",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S79",
+      "titre": "Hypatie – Wikipédia",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Hypatie",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S80",
+      "titre": "Wikidata – Hypatie (Q11903)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q11903",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S81",
+      "titre": "Imhotep – Wikipédia",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Imhotep",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S82",
+      "titre": "Wikidata – Imhotep (Q131171)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q131171",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S83",
+      "titre": "Chajar ad-Durr – Wikipédia",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Chajar_ad-Durr",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S84",
+      "titre": "Wikidata – Chajar ad-Durr (Q464920)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q464920",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S85",
+      "titre": "Repères historiques aux XIXe et XXe siècles, in Atlas de l'Égypte contemporaine",
+      "institution": "CNRS Éditions (OpenEdition Books)",
+      "url": "https://books.openedition.org/editionscnrs/37377",
+      "type": "livre",
+      "licence": "Licence OpenEdition Books",
+      "consulte_le": "2026-11-21",
+      "auteur": "Anne-Claire de Gayffier-Bonneville",
+      "annee": 2020
+    },
+    {
+      "id": "S86",
+      "titre": "Méhémet Ali – Wikipédia",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/M%C3%A9h%C3%A9met_Ali",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S87",
+      "titre": "Wikidata – Méhémet Ali (Q182781)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q182781",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S88",
+      "titre": "Ahmed Urabi – Wikipedia (en)",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ahmed_Urabi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S89",
+      "titre": "Wikidata – Ahmed Urabi (Q365919)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q365919",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S90",
+      "titre": "Saad Zaghloul – Wikipédia",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Saad_Zaghloul",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S91",
+      "titre": "Wikidata – Saad Zaghloul (Q328734)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q328734",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S92",
+      "titre": "Huda Sha'arawi – Wikipedia (en)",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Huda_Sha'arawi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S93",
+      "titre": "Wikidata – Huda Sha'rawi (Q2423343)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q2423343",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S94",
+      "titre": "Doria Shafik – Wikipédia",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Doria_Shafik",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S95",
+      "titre": "Wikidata – Doria Shafik (Q4120224)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q4120224",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S96",
+      "titre": "Oum Kalthoum – Wikipédia",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Oum_Kalthoum",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S97",
+      "titre": "Ahmed Zewail – Biographical",
+      "institution": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/chemistry/1999/zewail/biographical/",
+      "type": "institution",
+      "licence": "© Nobel Foundation (citation courte)",
+      "consulte_le": "2026-11-21",
+      "annee": 1999
+    },
+    {
+      "id": "S98",
+      "titre": "Wikidata – Oum Kalthoum (Q1110560)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q1110560",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S99",
+      "titre": "Samira Moussa – Wikipédia",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Samira_Moussa",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S100",
+      "titre": "Wikidata – Samira Moussa (Q4116311)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q4116311",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S101",
+      "titre": "Nawal El Saadawi – Wikipédia",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Nawal_El_Saadawi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S102",
+      "titre": "Wikidata – Nawal El Saadawi (Q238514)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q238514",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S103",
+      "titre": "Faten Hamama – Wikipédia",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Faten_Hamama",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S104",
+      "titre": "Wikidata – Faten Hamama (Q2424957)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q2424957",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S105",
+      "titre": "Radwa Ashour – Wikipedia (en)",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Radwa_Ashour",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S106",
+      "titre": "Wikidata – Radwa Ashour (Q1241451)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q1241451",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S107",
+      "titre": "Nour El Sherbini – Wikipédia",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Nour_El_Sherbini",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S108",
+      "titre": "Wikidata – Nour El Sherbini (Q4355286)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q4355286",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S109",
+      "titre": "Gamal Abdel Nasser – Wikipédia",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Gamal_Abdel_Nasser",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S110",
+      "titre": "Wikidata – Gamal Abdel Nasser (Q39524)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q39524",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S111",
+      "titre": "Naguib Mahfouz – Biographical",
+      "institution": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/literature/1988/mahfouz/biographical/",
+      "type": "institution",
+      "licence": "© Nobel Foundation (citation courte)",
+      "consulte_le": "2026-11-21",
+      "annee": 1988
+    },
+    {
+      "id": "S112",
+      "titre": "Wikidata – Naguib Mahfouz (Q7176)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q7176",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S113",
+      "titre": "Taha Hussein – Wikipédia",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Taha_Hussein",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S114",
+      "titre": "Wikidata – Taha Hussein (Q328765)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q328765",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S115",
+      "titre": "Youssef Chahine – Wikipédia",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Youssef_Chahine",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S116",
+      "titre": "Wikidata – Youssef Chahine (Q312611)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q312611",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S117",
+      "titre": "Wikidata – Ahmed Zewail (Q106624)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q106624",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S118",
+      "titre": "Mohamed Salah – Wikipédia",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Mohamed_Salah",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S119",
+      "titre": "Wikidata – Mohamed Salah (Q1354960)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q1354960",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S120",
+      "titre": "Sayed Darwish – Wikipedia (en)",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sayed_Darwish",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S121",
+      "titre": "Wikidata – Sayed Darwish (Q1208788)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q1208788",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S122",
+      "titre": "Predynastic Period – Historical Periods",
+      "institution": "Ministère du Tourisme et des Antiquités d'Égypte",
+      "url": "https://egymonuments.gov.eg/en/historical-periods/predynastic-period",
+      "type": "institution",
+      "licence": "tous droits réservés (citation courte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S123",
+      "titre": "Late Period – Historical Periods",
+      "institution": "Ministère du Tourisme et des Antiquités d'Égypte",
+      "url": "https://egymonuments.gov.eg/en/historical-periods/late-period",
+      "type": "institution",
+      "licence": "tous droits réservés (citation courte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S124",
+      "titre": "Head of Tutankhamun (Met, 50.6)",
+      "institution": "The Metropolitan Museum of Art – Open Access",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/544690",
+      "type": "musee",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S125",
+      "titre": "King Sahure Accompanied by a Divine Figure (Met, 18.2.4)",
+      "institution": "The Metropolitan Museum of Art – Open Access",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/543882",
+      "type": "musee",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S126",
+      "titre": "Relief from the Tomb of Nespekashuty (Met, 23.3.468)",
+      "institution": "The Metropolitan Museum of Art – Open Access",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/548338",
+      "type": "musee",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S127",
+      "titre": "Mosque Lamp for the Mausoleum of Amir Aydakin al-'Ala'i al-Bunduqdar (Met, 17.190.985)",
+      "institution": "The Metropolitan Museum of Art – Open Access",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/447000",
+      "type": "musee",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S128",
+      "titre": "Pair of Minbar Doors (Met, 91.1.2064)",
+      "institution": "The Metropolitan Museum of Art – Open Access",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/444812",
+      "type": "musee",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S129",
+      "titre": "Bowl with Eagle (Met, 63.178.1)",
+      "institution": "The Metropolitan Museum of Art – Open Access",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/451717",
+      "type": "musee",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S130",
+      "titre": "Mamluk Carpet (Met, 22.100.52)",
+      "institution": "The Metropolitan Museum of Art – Open Access",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/447510",
+      "type": "musee",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    }
+  ]
+}

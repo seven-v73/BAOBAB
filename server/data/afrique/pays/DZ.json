@@ -1,0 +1,5068 @@
+{
+  "code": "DZ",
+  "nom": "Algérie",
+  "region": "nord",
+  "wikidata": "Q262",
+  "maj": "2026-11-21",
+  "pays": {
+    "nom_officiel": "République algérienne démocratique et populaire",
+    "capitale": "Alger",
+    "langues_officielles": [
+      "arabe",
+      "tamazight (berbère standard algérien)"
+    ],
+    "langues_nationales": [
+      "arabe",
+      "tamazight"
+    ],
+    "population": {
+      "valeur": 47435312,
+      "annee": 2025,
+      "source": "S1"
+    },
+    "superficie_km2": 2381741,
+    "monnaie": "Dinar algérien (DZD)",
+    "resume": "L'Algérie, plus vaste pays d'Afrique, s'étend de la côte méditerranéenne, où se trouve la capitale Alger, jusqu'aux massifs du Sahara central comme le Hoggar et le Tassili n'Ajjer. Son histoire va des gravures rupestres du Sahara aux royaumes de Numidie et de Maurétanie, aux dynasties rostémide, hammadide et zianide, puis à la régence d'Alger, à la colonisation française (1830-1962) et à l'indépendance proclamée le 5 juillet 1962. Le pays est plurilingue : l'arabe et le tamazight sont langues officielles depuis la révision constitutionnelle de 2016, la darja (arabe algérien) sert de langue véhiculaire et le français reste très présent. Il compte sept biens du patrimoine mondial et treize éléments inscrits au patrimoine culturel immatériel de l'humanité, du raï au couscous en passant par l'ahellil du Gourara et l'imzad touareg. Kabyles, Chaouis, Mozabites, Touaregs, Zénètes du Gourara et d'autres communautés font vivre cette diversité du littoral aux oasis.",
+    "sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6"
+    ]
+  },
+  "langues": [
+    {
+      "nom": "Arabe standard moderne",
+      "nom_local": "العربية",
+      "description": "Langue de l'État, de l'école, de l'administration et des médias écrits, l'arabe standard moderne est distinct de l'arabe parlé au quotidien. La Constitution le désigne comme langue officielle et nationale, aux côtés du tamazight depuis 2016. Sur Glottolog, le code utilisé ici (arab1395) désigne l'ensemble de la famille « Arabic ».",
+      "famille": "Afro-asiatique, sémitique, arabe",
+      "glottocode": "arab1395",
+      "statut_linguistique": [
+        "officielle",
+        "nationale"
+      ],
+      "sources": [
+        "S7",
+        "S5"
+      ],
+      "id": "DZ-langue-arabe-standard",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode lu sur la page Glottolog citée. Le code arab1395 correspond à la famille « Arabic » dans Glottolog ; il n’existe pas de code propre à l’arabe standard moderne."
+      },
+      "ecritures": [
+        "arabe"
+      ],
+      "regions": [
+        "Algérie (usage national)"
+      ],
+      "wikidata": "Q56467"
+    },
+    {
+      "nom": "Arabe algérien (darja)",
+      "nom_local": "الدارجة الجزائرية / Darja",
+      "description": "La darja est la langue du quotidien de la grande majorité des Algériens et la principale langue véhiculaire du pays ; Wikipédia l'estime utilisée par 70 à 90 % de la population, faute de statistiques linguistiques officielles. Elle rattache à l'arabe maghrébin et s'est nourrie d'apports berbères, puniques, espagnols et français, avec des variantes régionales comme l'oranais ou le tlemcénien. Une forme commune tend à se dégager sous l'effet de la musique populaire et des séries télévisées.",
+      "famille": "Afro-asiatique, sémitique, arabe maghrébin",
+      "glottocode": "alge1239",
+      "statut_linguistique": [
+        "véhiculaire"
+      ],
+      "sources": [
+        "S8",
+        "S5"
+      ],
+      "id": "DZ-langue-arabe-algerien",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode lu sur la page Glottolog citée. Part d'usage 70-90 % : estimation citée par Wikipédia, non officielle."
+      },
+      "ecritures": [
+        "arabe (usage oral)",
+        "latin (usage informel)"
+      ],
+      "regions": [
+        "Toute l'Algérie du Nord"
+      ],
+      "wikidata": "Q56499"
+    },
+    {
+      "nom": "Arabe saharien algérien",
+      "nom_local": "عربية الصحراء",
+      "description": "Dans le Sahara algérien, des parlers arabes bédouins plus conservateurs, regroupés sous le nom d'arabe saharien, coexistent avec les langues berbères des oasis. Glottolog les classe comme une langue distincte au sein de l'arabe maghrébin. Les sources ouvertes consultées donnent peu de précisions sur leur nombre de locuteurs.",
+      "famille": "Afro-asiatique, sémitique, arabe maghrébin",
+      "glottocode": "alge1240",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S9",
+        "S5"
+      ],
+      "id": "DZ-langue-arabe-saharien",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode lu sur la page Glottolog citée."
+      },
+      "ecritures": [
+        "arabe"
+      ],
+      "regions": [
+        "Sahara algérien"
+      ],
+      "wikidata": "Q56725"
+    },
+    {
+      "nom": "Kabyle",
+      "nom_local": "Taqbaylit",
+      "description": "Le kabyle, ou taqbaylit, est la langue berbère la plus parlée d'Algérie, surtout en Kabylie (Djurdjura, Bibans, Babors) et dans l'Algérois. Wikipédia l'estime parlé par plus de cinq millions de personnes. Il compte plusieurs zones dialectales et possède une riche littérature orale et écrite, étudiée notamment dans l'Encyclopédie berbère. Il relève du tamazight reconnu langue nationale et officielle depuis 2016.",
+      "famille": "Afro-asiatique, berbère, kabyle-atlas berbère",
+      "glottocode": "kaby1243",
+      "statut_linguistique": [
+        "régionale",
+        "reconnue au titre du tamazight"
+      ],
+      "sources": [
+        "S10",
+        "S5",
+        "S11"
+      ],
+      "id": "DZ-langue-kabyle",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode lu sur la page Glottolog citée. Effectif « plus de 5 millions » : estimation citée par Wikipédia, sans année."
+      },
+      "ecritures": [
+        "latin",
+        "tifinagh"
+      ],
+      "regions": [
+        "Kabylie",
+        "Alger"
+      ],
+      "locuteurs": {
+        "valeur": 5000000,
+        "annee": null,
+        "source": "S5"
+      },
+      "wikidata": "Q35853"
+    },
+    {
+      "nom": "Chaoui",
+      "nom_local": "Tacawit",
+      "description": "Le chaoui (tacawit) est la langue des Chaouis de l'Aurès et des régions voisines du nord-est du pays ; Wikipédia le décrit comme la deuxième langue berbère d'Algérie par le nombre de locuteurs. Glottolog le range dans le groupe zénète. Il se parle à Batna, Khenchela, Oum El Bouaghi, Tébessa et dans une partie du Constantinois.",
+      "famille": "Afro-asiatique, berbère, zénète",
+      "glottocode": "tach1249",
+      "statut_linguistique": [
+        "régionale",
+        "reconnue au titre du tamazight"
+      ],
+      "sources": [
+        "S12",
+        "S5",
+        "S13",
+        "S14"
+      ],
+      "id": "DZ-langue-chaoui",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode lu sur la page Glottolog citée. Effectif : estimation de 2005 reprise par Wikipédia (article Chaouis)."
+      },
+      "ecritures": [
+        "latin",
+        "tifinagh"
+      ],
+      "regions": [
+        "Aurès",
+        "Constantinois"
+      ],
+      "locuteurs": {
+        "valeur": 2870000,
+        "annee": 2005,
+        "source": "S13"
+      },
+      "wikidata": "Q33274"
+    },
+    {
+      "nom": "Mozabite",
+      "nom_local": "Tumzabt",
+      "description": "Le mozabite (tumzabt) est la langue berbère de la vallée du M'Zab, autour de Ghardaïa, parlée par les Mozabites ibadites. Wikipédia indique plus de 200 000 locuteurs ; la plupart des hommes sont aussi arabophones. Glottolog le classe dans les parlers zénètes des oasis du Sahara septentrional.",
+      "famille": "Afro-asiatique, berbère, zénète, berbère des oasis sahariennes du nord",
+      "glottocode": "tumz1238",
+      "statut_linguistique": [
+        "régionale",
+        "reconnue au titre du tamazight"
+      ],
+      "sources": [
+        "S15",
+        "S5",
+        "S16"
+      ],
+      "id": "DZ-langue-mozabite",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode lu sur la page Glottolog citée. « Plus de 200 000 » : estimation Wikipédia, sans année ; valeur plancher."
+      },
+      "ecritures": [
+        "latin",
+        "tifinagh"
+      ],
+      "regions": [
+        "Vallée du M'Zab (Ghardaïa)"
+      ],
+      "locuteurs": {
+        "valeur": 200000,
+        "annee": null,
+        "source": "S5"
+      },
+      "wikidata": "Q36149"
+    },
+    {
+      "nom": "Touareg de l'Ahaggar (tamahaq)",
+      "nom_local": "Tamahaq / Tahaggart",
+      "description": "Le tamahaq, appelé aussi tahaggart, est la variété de touareg parlée dans le massif du Hoggar et sur le Tassili n'Ajjer, dans l'extrême sud algérien. Il est traditionnellement noté en tifinagh, écriture dont dérive aussi celle utilisée aujourd'hui pour le tamazight. Les Touaregs forment des communautés dans plusieurs pays du Sahara et du Sahel.",
+      "famille": "Afro-asiatique, berbère, touareg",
+      "glottocode": "taha1241",
+      "statut_linguistique": [
+        "régionale",
+        "reconnue au titre du tamazight"
+      ],
+      "sources": [
+        "S17",
+        "S5",
+        "S18",
+        "S19"
+      ],
+      "id": "DZ-langue-tamahaq",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode lu sur la page Glottolog citée."
+      },
+      "ecritures": [
+        "tifinagh"
+      ],
+      "regions": [
+        "Hoggar",
+        "Tassili n'Ajjer",
+        "Tamanrasset"
+      ],
+      "wikidata": "Q56703"
+    },
+    {
+      "nom": "Chenoui",
+      "nom_local": "Tachenwit",
+      "description": "Le chenoui est un parler berbère de la région de Tipaza, autour du massif du Chenoua, et du littoral occidental de Chlef. Il fait partie du vaste ensemble des langues berbères d'Algérie reconnues sous le terme de tamazight. Glottolog le désigne sous le nom de berbère algérien occidental.",
+      "famille": "Afro-asiatique, berbère, zénète",
+      "glottocode": "chen1266",
+      "statut_linguistique": [
+        "régionale",
+        "minoritaire"
+      ],
+      "sources": [
+        "S20",
+        "S5"
+      ],
+      "id": "DZ-langue-chenoui",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode lu sur la page Glottolog citée."
+      },
+      "regions": [
+        "Tipaza",
+        "Chlef (littoral)"
+      ],
+      "wikidata": "Q33276"
+    },
+    {
+      "nom": "Tagargrent (ouargli)",
+      "nom_local": "Tagargrent",
+      "description": "Le tagargrent est le parler berbère de la région d'Ouargla et de N'Goussa, voisin du parler de Touggourt et de l'Oued Righ. Il appartient aux parlers zénètes des oasis du Sahara septentrional. Il est l'un des nombreux parlers berbères du Sahara algérien.",
+      "famille": "Afro-asiatique, berbère, zénète, berbère des oasis sahariennes du nord",
+      "glottocode": "taga1278",
+      "statut_linguistique": [
+        "régionale",
+        "minoritaire"
+      ],
+      "sources": [
+        "S21",
+        "S5"
+      ],
+      "id": "DZ-langue-tagargrent",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode lu sur la page Glottolog citée."
+      },
+      "regions": [
+        "Ouargla",
+        "N'Goussa",
+        "Oued Righ"
+      ],
+      "wikidata": "Q56586"
+    },
+    {
+      "nom": "Zénète du Gourara",
+      "nom_local": "Taznatit",
+      "description": "Le zénète du Gourara est le parler berbère des oasis du Gourara, dans le sud-ouest du pays. C'est dans cette langue, menacée de disparition selon l'UNESCO, que se chante l'ahellil, genre poétique et musical inscrit au patrimoine immatériel de l'humanité. Glottolog le classe comme dialecte au sein du groupe Sud-Oranais–Gourara.",
+      "famille": "Afro-asiatique, berbère, zénète, berbère des oasis sahariennes du nord, Sud-Oranais–Gourara",
+      "glottocode": "gour1247",
+      "statut_linguistique": [
+        "régionale",
+        "menacée"
+      ],
+      "sources": [
+        "S22",
+        "S23",
+        "S5"
+      ],
+      "id": "DZ-langue-zenete-gourara",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode lu sur la page Glottolog citée. Glottolog traite « Gourara » comme dialecte (niveau « dialect »)."
+      },
+      "regions": [
+        "Gourara",
+        "Touat",
+        "Tidikelt"
+      ],
+      "wikidata": "Q27926110"
+    },
+    {
+      "nom": "Korandjé",
+      "nom_local": "Korandjé",
+      "description": "Le korandjé est un parler songhaï, rattaché par Glottolog aux langues songhaï du nord-ouest ; Wikidata le relie à l'Algérie. Les sources ouvertes consultées ne donnent ni localisation précise, ni effectifs, ni écriture.",
+      "famille": "Songhaï, songhaï du nord-ouest, songhaï du nord",
+      "glottocode": "kora1291",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S24"
+      ],
+      "id": "DZ-langue-korandje",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode lu sur la page Glottolog citée. Localisation précise non vérifiée dans les sources ouvertes : champ régions omis."
+      },
+      "wikidata": "Q33427"
+    },
+    {
+      "nom": "Français",
+      "nom_local": "Français",
+      "description": "Le français n'est pas langue officielle mais reste très présent : enseigné à l'école, utilisé dans l'enseignement supérieur, la presse et la vie courante. Selon l'Organisation internationale de la francophonie, 11,2 millions de personnes de 5 ans et plus déclaraient savoir lire et écrire le français au recensement de 2008. L'Algérie n'est pas membre de l'OIF.",
+      "famille": "Indo-européen, italique, roman",
+      "glottocode": "stan1290",
+      "statut_linguistique": [
+        "véhiculaire"
+      ],
+      "sources": [
+        "S25",
+        "S5"
+      ],
+      "id": "DZ-langue-francais",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode lu sur la page Glottolog citée. Chiffre : personnes sachant lire et écrire le français (recensement 2008, d'après l'OIF cité par Wikipédia), pas des locuteurs natifs."
+      },
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Villes du nord",
+        "Alger"
+      ],
+      "locuteurs": {
+        "valeur": 11200000,
+        "annee": 2008,
+        "source": "S5"
+      },
+      "wikidata": "Q150"
+    },
+    {
+      "nom": "Langue des signes algérienne",
+      "nom_local": "Langue des signes algérienne",
+      "description": "La langue des signes algérienne est la langue des personnes sourdes du pays. Glottolog la rattache à la famille issue de la langue des signes française. Les sources ouvertes consultées ne fournissent pas d'effectif fiable.",
+      "famille": "Langue des signes, famille LSF",
+      "glottocode": "alge1235",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S26",
+        "S5"
+      ],
+      "id": "DZ-langue-lsa",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode lu sur la page Glottolog citée."
+      },
+      "regions": [
+        "Algérie"
+      ],
+      "wikidata": "Q3135421"
+    },
+    {
+      "nom": "Hassanya",
+      "nom_local": "Ḥassāniyya",
+      "description": "Le hassanya est l'arabe parlé par les Sahraouis ; en Algérie, il est signalé chez les réfugiés sahraouis installés à Tindouf. Glottolog le classe parmi les arabes maghrébins occidentaux. Sujet lié à la question du Sahara occidental, il est présenté ici seulement sous l'angle linguistique.",
+      "famille": "Afro-asiatique, sémitique, arabe maghrébin",
+      "glottocode": "hass1238",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S27",
+        "S5"
+      ],
+      "id": "DZ-langue-hassanya",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode lu sur la page Glottolog citée."
+      },
+      "ecritures": [
+        "arabe"
+      ],
+      "regions": [
+        "Tindouf (camps de réfugiés)"
+      ],
+      "wikidata": "Q56231",
+      "sensible": true,
+      "note_sensibilite": "Langue liée aux Sahraouis de Tindouf et au conflit du Sahara occidental, dont le statut est disputé ; seule la dimension linguistique est traitée ici, aucune position politique n'est prise."
+    }
+  ],
+  "peuples": [
+    {
+      "nom": "Kabyles (Iqbayliyen)",
+      "description": "Les Kabyles sont la communauté berbérophone la plus nombreuse d'Algérie ; ils vivent surtout dans les massifs du Djurdjura, des Bibans et des Babors, en Kabylie, et dans l'Algérois. Leur organisation sociale traditionnelle emboîte lignages, villages et confédérations de villages. La Kabylie a joué un rôle central dans l'affirmation de l'identité berbère, notamment avec le printemps berbère de 1980.",
+      "langues": [
+        "kabyle"
+      ],
+      "regions": [
+        "Kabylie",
+        "Alger"
+      ],
+      "sources": [
+        "S28",
+        "S11",
+        "S29",
+        "S30"
+      ],
+      "id": "DZ-peuple-kabyles",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Pays partagés : « FR » signale la diaspora importante en France (Wikipédia), non un territoire."
+      },
+      "pays_partages": [
+        "FR"
+      ],
+      "organisation": "Lignages (axerrub), villages (taddart), puis ensembles de villages, selon D. Abrous dans l'Encyclopédie berbère.",
+      "activites": [
+        "agriculture de montagne",
+        "artisanat (bijoux, poterie)",
+        "poésie orale"
+      ],
+      "wikidata": "Q648255"
+    },
+    {
+      "nom": "Chaouis (Icawiyen)",
+      "description": "Les Chaouis sont les habitants berbérophones du massif de l'Aurès et des régions voisines, dans le nord-est du pays (Batna, Khenchela, Oum El Bouaghi, Tébessa). Ils constituent après les Kabyles le deuxième groupe berbérophone d'Algérie. L'Aurès a une longue histoire, de la préhistoire aux résistances anciennes et au déclenchement de l'insurrection de novembre 1954.",
+      "langues": [
+        "chaoui",
+        "arabe algérien"
+      ],
+      "regions": [
+        "Aurès",
+        "Batna",
+        "Khenchela",
+        "Tébessa",
+        "Constantinois"
+      ],
+      "sources": [
+        "S13",
+        "S14",
+        "S31"
+      ],
+      "id": "DZ-peuple-chaouis",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q402515"
+    },
+    {
+      "nom": "Mozabites (Ait Mzab)",
+      "description": "Les Mozabites vivent surtout dans la vallée du M'Zab, autour de Ghardaïa, Beni Isguen, Melika, Bounoura et El Atteuf, ainsi que dans de grandes villes du pays. Ils sont pour la plupart ibadites, courant de l'islam différent du malikisme majoritaire, et parlent le mozabite. Leurs cités, bâties selon un plan pensé pour la vie en commun, sont inscrites au patrimoine mondial.",
+      "langues": [
+        "mozabite",
+        "arabe algérien"
+      ],
+      "regions": [
+        "Vallée du M'Zab",
+        "Ghardaïa"
+      ],
+      "sources": [
+        "S16",
+        "S32",
+        "S33"
+      ],
+      "id": "DZ-peuple-mozabites",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "organisation": "Cités fortifiées (ksour) organisées autour d'une mosquée, selon la notice UNESCO et l'Encyclopédie berbère.",
+      "wikidata": "Q1932580"
+    },
+    {
+      "nom": "Touaregs (Kel Tamajeq) du Hoggar et du Tassili",
+      "description": "Les Touaregs se nomment eux-mêmes Kel Tamajeq ; en Algérie, ils vivent surtout dans le Hoggar (Kel Ahaggar), autour de Tamanrasset, et sur le Tassili n'Ajjer, autour de Djanet. Ils partagent le Sahara avec d'autres communautés du Mali, du Niger, de Libye et du Burkina Faso. L'imzad, violon monocorde joué par les femmes, et le rituel de la Sebeïba de Djanet comptent parmi leurs pratiques inscrites par l'UNESCO.",
+      "langues": [
+        "tamahaq"
+      ],
+      "regions": [
+        "Hoggar",
+        "Tamanrasset",
+        "Djanet",
+        "Tassili n'Ajjer"
+      ],
+      "sources": [
+        "S34",
+        "S19",
+        "S35",
+        "S36"
+      ],
+      "id": "DZ-peuple-touaregs",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "pays_partages": [
+        "ML",
+        "NE",
+        "LY",
+        "BF"
+      ],
+      "organisation": "Confédérations, avec une transmission matrilinéaire des droits au commandement chez les Kel Ahaggar (E.B., Ahaggar).",
+      "activites": [
+        "élevage nomade",
+        "musique (imzad)",
+        "artisanat"
+      ],
+      "wikidata": "Q58843"
+    },
+    {
+      "nom": "Communautés zénètes du Gourara et du Touat",
+      "description": "Le Gourara, dans le sud-ouest, compte une centaine d'oasis peuplées de plus de 50 000 habitants d'origine berbère, arabe et soudanaise selon l'UNESCO. La partie berbérophone, zénète, est le foyer de l'ahellil, chant polyphonique et danse collective. La région est aussi celle de la foggara, système de canaux souterrains, et des pèlerinages de saints comme la Sbuâ.",
+      "langues": [
+        "zénète du Gourara",
+        "arabe algérien"
+      ],
+      "regions": [
+        "Gourara",
+        "Touat",
+        "Tidikelt"
+      ],
+      "sources": [
+        "S23",
+        "S37",
+        "S38"
+      ],
+      "id": "DZ-peuple-zenetes-gourara",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "activites": [
+        "agriculture oasienne",
+        "gestion des foggaras",
+        "chants collectifs (ahellil)"
+      ]
+    },
+    {
+      "nom": "Chenouis",
+      "description": "Les Chenouis sont les berbérophones du massif du Chenoua, sur le littoral de la wilaya de Tipaza, à l'ouest d'Alger. Leur parler, le chenoui, est l'un des îlots berbérophones du nord du pays. Les sources ouvertes consultées sont brèves sur leur organisation et leurs effectifs.",
+      "langues": [
+        "chenoui"
+      ],
+      "regions": [
+        "Tipaza",
+        "Chenoua"
+      ],
+      "sources": [
+        "S5",
+        "S20"
+      ],
+      "id": "DZ-peuple-chenouis",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q1775933"
+    },
+    {
+      "nom": "Populations arabophones d'Algérie",
+      "description": "La majorité des Algériens parlent l'arabe algérien (darja), langue véhiculaire du pays, dans des variantes régionales (algérois, oranais, tlemcénien, constantinois, parlers sahariens). Le pays résulte d'une arabisation progressive à partir du VIIe siècle, marquée notamment par l'arrivée de tribus hilaliennes et d'immigrés andalous. L'identité de chacun combine souvent plusieurs héritages berbère, arabe, andalou, ottoman et africain.",
+      "langues": [
+        "arabe algérien",
+        "arabe saharien"
+      ],
+      "regions": [
+        "Tout le pays"
+      ],
+      "sources": [
+        "S5",
+        "S6",
+        "S8"
+      ],
+      "id": "DZ-peuple-arabophones",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "nom": "Tassili n'Ajjer",
+      "description": "Dans un paysage de grès érodé aux allures lunaires, le Tassili n'Ajjer abrite l'un des plus importants ensembles d'art rupestre préhistorique du monde. Plus de 15 000 peintures et gravures y racontent, entre environ 6000 av. J.-C. et les premiers siècles de notre ère, les changements du climat, les migrations animales et l'évolution de la vie humaine aux confins du Sahara. Le site est inscrit au patrimoine mondial depuis 1982.",
+      "type": "patrimoine_mondial",
+      "sources": [
+        "S39",
+        "S40"
+      ],
+      "id": "DZ-site-tassili-najjer",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "unesco_id": "179",
+      "inscription": "1982",
+      "coordonnees": {
+        "lat": 25.666666666,
+        "lng": 9.0
+      },
+      "regions": [
+        "Sahara"
+      ],
+      "periode": "dès 6000 av. J.-C.",
+      "wikidata": "Q190048"
+    },
+    {
+      "nom": "Djémila (Cuicul)",
+      "description": "Djémila, l'antique Cuicul, est une cité romaine bâtie à environ 900 m d'altitude, avec forum, temples, basiliques, arcs de triomphe et maisons. L'UNESCO la distingue comme un exemple d'urbanisme romain adapté à un site de montagne. Elle est inscrite au patrimoine mondial depuis 1982.",
+      "type": "patrimoine_mondial",
+      "sources": [
+        "S41",
+        "S42"
+      ],
+      "id": "DZ-site-djemila",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "unesco_id": "191",
+      "inscription": "1982",
+      "coordonnees": {
+        "lat": 36.32056,
+        "lng": 5.73667
+      },
+      "periode": "Antiquité romaine",
+      "wikidata": "Q457362"
+    },
+    {
+      "nom": "Timgad",
+      "description": "Timgad a été fondée en l'an 100 par l'empereur Trajan comme colonie militaire, au pied du versant nord de l'Aurès. Son enceinte carrée et son plan orthogonal, ordonné par le cardo et le decumanus, en font pour l'UNESCO un exemple accompli d'urbanisme romain. Elle est inscrite au patrimoine mondial depuis 1982.",
+      "type": "patrimoine_mondial",
+      "sources": [
+        "S43",
+        "S44"
+      ],
+      "id": "DZ-site-timgad",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "unesco_id": "194",
+      "inscription": "1982",
+      "coordonnees": {
+        "lat": 35.484237,
+        "lng": 6.468666
+      },
+      "regions": [
+        "Aurès"
+      ],
+      "periode": "fondée en 100",
+      "wikidata": "Q459629"
+    },
+    {
+      "nom": "La Kalâa des Béni Hammad",
+      "description": "La Kalâa fut la première capitale des émirs hammadides, fondée en 1007 puis démantelée en 1152, dans un site montagneux de grande beauté. Ses ruines donnent l'image d'une ville musulmane fortifiée ; sa mosquée, dont la salle de prière compte 13 nefs et huit travées, est l'une des plus grandes d'Algérie. Le site est inscrit au patrimoine mondial depuis 1980.",
+      "type": "patrimoine_mondial",
+      "sources": [
+        "S45",
+        "S46"
+      ],
+      "id": "DZ-site-kalaa-beni-hammad",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "unesco_id": "102",
+      "inscription": "1980",
+      "coordonnees": {
+        "lat": 35.813888888,
+        "lng": 4.793333333
+      },
+      "periode": "1007-1152",
+      "wikidata": "Q500367"
+    },
+    {
+      "nom": "Casbah d'Alger",
+      "description": "La Casbah est une médina unique, dominant l'une des plus belles baies de la Méditerranée, face aux îlots où un comptoir carthaginois s'installa dès le IVe siècle av. J.-C. Elle conserve des vestiges de la citadelle, d'anciennes mosquées, des palais de style ottoman et une trame urbaine traditionnelle liée à un fort sens de la communauté. Elle est inscrite au patrimoine mondial depuis 1992.",
+      "type": "patrimoine_mondial",
+      "sources": [
+        "S47",
+        "S48"
+      ],
+      "id": "DZ-site-casbah-alger",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "unesco_id": "565",
+      "inscription": "1992",
+      "coordonnees": {
+        "lat": 36.78333,
+        "lng": 3.06028
+      },
+      "regions": [
+        "Alger"
+      ],
+      "wikidata": "Q662102"
+    },
+    {
+      "nom": "Vallée du M'Zab",
+      "description": "La vallée du M'Zab conserve un habitat traditionnel créé au Xe siècle par les Ibadites autour de cinq ksour, ou villages fortifiés. Simple, fonctionnelle et adaptée au milieu, son architecture est pensée pour la vie en communauté tout en respectant la structure familiale ; l'UNESCO la présente comme une source d'inspiration pour les urbanistes d'aujourd'hui. Elle est inscrite au patrimoine mondial depuis 1982.",
+      "type": "patrimoine_mondial",
+      "sources": [
+        "S33",
+        "S32",
+        "S49"
+      ],
+      "id": "DZ-site-mzab",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "unesco_id": "188",
+      "inscription": "1982",
+      "coordonnees": {
+        "lat": 32.487222222,
+        "lng": 3.681388888
+      },
+      "regions": [
+        "Ghardaïa"
+      ],
+      "periode": "depuis le Xe siècle",
+      "wikidata": "Q724484"
+    },
+    {
+      "nom": "Tipasa de Maurétanie",
+      "description": "Ancien comptoir punique sur la Méditerranée, Tipasa fut conquise par Rome qui en fit une base stratégique pour s'emparer des royaumes de Maurétanie. Elle réunit un ensemble unique de vestiges phéniciens, romains, paléochrétiens et byzantins, ainsi que des monuments autochtones comme le grand mausolée royal de Maurétanie. Elle est inscrite au patrimoine mondial depuis 1982.",
+      "type": "patrimoine_mondial",
+      "sources": [
+        "S50",
+        "S51"
+      ],
+      "id": "DZ-site-tipasa",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "unesco_id": "193",
+      "inscription": "1982",
+      "coordonnees": {
+        "lat": 36.5951,
+        "lng": 2.44077
+      },
+      "regions": [
+        "Tipaza"
+      ],
+      "periode": "Antiquité",
+      "wikidata": "Q3529269"
+    },
+    {
+      "nom": "Tlemcen",
+      "description": "Ancienne capitale du Maghreb central, Tlemcen, à l'ouest du pays, mêle influences arabes, arabo-andalouses, ottomanes et berbères. Elle fut la capitale des Zianides à partir de 1235 et resta un centre religieux, commercial et savant. Elle garde une tradition de costume de mariage inscrite par l'UNESCO.",
+      "type": "ville_historique",
+      "sources": [
+        "S52",
+        "S6",
+        "S53",
+        "S54"
+      ],
+      "id": "DZ-site-tlemcen",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "coordonnees": {
+        "lat": 34.882777777,
+        "lng": -1.316666666
+      },
+      "regions": [
+        "Tlemcen"
+      ],
+      "periode": "depuis l'Antiquité",
+      "wikidata": "Q185134"
+    },
+    {
+      "nom": "Constantine (Cirta)",
+      "description": "Constantine, l'antique Cirta, fut la capitale de la Numidie de 300 à 46 av. J.-C. avant de passer sous domination romaine ; elle doit son nom actuel à l'empereur Constantin Ier, depuis 313. Troisième ville du pays, elle est la grande métropole de l'Est algérien. Plusieurs de nos personnalités, comme Kateb Yacine et Hassiba Boulmerka, y sont nées.",
+      "type": "ville_historique",
+      "sources": [
+        "S55",
+        "S56"
+      ],
+      "id": "DZ-site-constantine",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "coordonnees": {
+        "lat": 36.365,
+        "lng": 6.614722222
+      },
+      "regions": [
+        "Constantine"
+      ],
+      "periode": "depuis l'Antiquité",
+      "wikidata": "Q187346"
+    },
+    {
+      "nom": "Hippone (Hippo Regius)",
+      "description": "Hippone est une ancienne cité portuaire dans l'actuelle Annaba, citée dès 310 ou 309 av. J.-C. dans les sources, passée sous le pouvoir des rois numides puis intégrée à l'Afrique romaine. Augustin y fut évêque de 395 à sa mort en 430, pendant le siège de la ville par les Vandales.",
+      "type": "site_archeologique",
+      "sources": [
+        "S57",
+        "S58"
+      ],
+      "id": "DZ-site-hippone",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "coordonnees": {
+        "lat": 36.8825,
+        "lng": 7.75
+      },
+      "regions": [
+        "Annaba"
+      ],
+      "periode": "Antiquité",
+      "wikidata": "Q858024"
+    },
+    {
+      "nom": "Cherchell (Iol-Césarée)",
+      "description": "Cherchell, à une centaine de kilomètres à l'ouest d'Alger, s'appelait Iol puis Césarée de Maurétanie ; c'était la capitale de la Maurétanie césarienne et l'une des grandes cités du littoral nord-africain. La ville garde un riche patrimoine antique. Le Metropolitan Museum conserve une photographie du milieu du XIXe siècle montrant des antiquités du musée de Cherchell.",
+      "type": "ville_historique",
+      "sources": [
+        "S59",
+        "S60",
+        "S61"
+      ],
+      "id": "DZ-site-cherchell",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "coordonnees": {
+        "lat": 36.6075,
+        "lng": 2.19
+      },
+      "regions": [
+        "Tipaza"
+      ],
+      "periode": "Antiquité",
+      "wikidata": "Q1617666"
+    },
+    {
+      "nom": "Tahert (Tagdemt)",
+      "description": "Tahert fut la capitale de la dynastie rostémide, fondée selon Wikipédia vers 761 par Ibn Rustom, dans la région actuelle de Tiaret. Cité marchande et foyer culturel, elle était réputée pour sa tolérance religieuse et ses bibliothèques. Elle fut ruinée lors des attaques fatimides de 909, et ses réfugiés ont rejoint le Sahara, puis le M'Zab.",
+      "type": "site_archeologique",
+      "sources": [
+        "S62",
+        "S6",
+        "S63"
+      ],
+      "id": "DZ-site-tahert",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "coordonnees": {
+        "lat": 35.366667,
+        "lng": 1.316667
+      },
+      "regions": [
+        "Tiaret"
+      ],
+      "periode": "761-909",
+      "wikidata": "Q3513903"
+    },
+    {
+      "nom": "Hoggar (Ahaggar)",
+      "description": "Le Hoggar est un massif circulaire au cœur du Sahara central, entièrement en Algérie ; son sommet, le Tahat, culmine à 2 918 m, plus haut sommet du pays. C'est le territoire historique des Touaregs Kel Ahaggar, autour de Tamanrasset. L'Encyclopédie berbère y consacre une longue notice, de la géologie à l'organisation sociale.",
+      "type": "site_naturel",
+      "sources": [
+        "S64",
+        "S19",
+        "S65"
+      ],
+      "id": "DZ-site-hoggar",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "coordonnees": {
+        "lat": 23.288611,
+        "lng": 5.534167
+      },
+      "regions": [
+        "Tamanrasset"
+      ],
+      "wikidata": "Q26399"
+    },
+    {
+      "nom": "Aïn Hanech",
+      "description": "Ancien lac près d'El Eulma, dans la wilaya de Sétif, Aïn Hanech a livré des galets aménagés en outils, datés par paléomagnétisme d'environ 1,8 million d'années. Découvert en 1947 par Camille Arambourg, il est présenté comme l'un des plus anciens gisements archéologiques d'Afrique du Nord.",
+      "type": "site_archeologique",
+      "sources": [
+        "S66",
+        "S6",
+        "S67"
+      ],
+      "id": "DZ-site-ain-hanech",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "coordonnees": {
+        "lat": 36.203888888,
+        "lng": 5.652777777
+      },
+      "regions": [
+        "Sétif"
+      ],
+      "periode": "Paléolithique inférieur",
+      "wikidata": "Q2876290"
+    },
+    {
+      "nom": "Mémorial du Martyr (Maqam Echahid)",
+      "description": "Le Mémorial du Martyr domine Alger depuis les hauteurs d'El Madania ; il a été inauguré le 5 juillet 1982, pour le 20e anniversaire de l'indépendance, en hommage aux combattants morts pour la libération du pays. Il mesure 92 m de haut. C'est un lieu de mémoire national et un point de repère de la capitale.",
+      "type": "lieu_de_memoire",
+      "sources": [
+        "S68",
+        "S69"
+      ],
+      "id": "DZ-site-memorial-martyr",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "مقام الشهيد",
+      "coordonnees": {
+        "lat": 36.745833333,
+        "lng": 3.0697222
+      },
+      "regions": [
+        "Alger"
+      ],
+      "periode": "depuis 1982",
+      "wikidata": "Q3056085",
+      "sensible": true,
+      "note_sensibilite": "Lieu de mémoire de la guerre d'indépendance ; les bilans et interprétations de cette guerre font l'objet de débats entre historiens."
+    },
+    {
+      "nom": "Musée national des Antiquités et des Arts islamiques",
+      "description": "Ouvert en 1897, ce musée d'Alger réunit un fonds archéologique et d'art islamique. Ses collections comprennent des mosaïques, des sculptures, de la numismatique, des céramiques, des armes et des tissus, provenant de sites comme Cherchell, Djemila, Hippone, la Kalâa des Béni Hammad ou Tipasa. Il propose une entrée directe dans l'Algérie antique et médiévale.",
+      "type": "musee",
+      "sources": [
+        "S70",
+        "S71"
+      ],
+      "id": "DZ-site-musee-antiquites",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "coordonnees": {
+        "lat": 36.7614,
+        "lng": 3.04611
+      },
+      "regions": [
+        "Alger"
+      ],
+      "periode": "depuis 1897",
+      "wikidata": "Q3330723"
+    },
+    {
+      "nom": "Musée national des Beaux-Arts d'Alger",
+      "description": "Ouvert au public le 5 mai 1930 dans le quartier du Hamma, c'est l'un des plus grands musées d'art d'Afrique, avec environ 8 000 œuvres. Il conserve peintures, dessins, estampes, sculptures, céramiques et arts décoratifs, de maîtres européens comme de peintres algériens, dont Baya, Yellès et Racim.",
+      "type": "musee",
+      "sources": [
+        "S72",
+        "S73"
+      ],
+      "id": "DZ-site-musee-beaux-arts",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "coordonnees": {
+        "lat": 36.74611111,
+        "lng": 3.07222222
+      },
+      "regions": [
+        "Alger"
+      ],
+      "periode": "depuis 1930",
+      "wikidata": "Q2912600"
+    }
+  ],
+  "traditions": [
+    {
+      "nom": "Henné : rituels, pratiques esthétiques et sociales",
+      "description": "Le henné est un arbuste des régions chaudes, perçu comme sacré dans plusieurs communautés d'Afrique du Nord et du Moyen-Orient. Ses feuilles, récoltées deux fois par an, séchées puis broyées, donnent une pâte servant à la parure, aux soins et aux fêtes comme les naissances et les mariages. L'élément a été inscrit en 2024 sur la liste représentative, avec plusieurs pays.",
+      "categorie": "rite",
+      "sources": [
+        "S74"
+      ],
+      "id": "DZ-tradition-henne",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communautes": [
+        "Femmes et familles de nombreuses régions"
+      ],
+      "regions": [
+        "Algérie"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "02116",
+        "annee": 2024,
+        "url": "https://ich.unesco.org/en/RL/henna-rituals-aesthetic-and-social-practices-02116"
+      },
+      "transmission": "vivante",
+      "sensible": true,
+      "note_sensibilite": "Pratique rituelle ou religieuse vivante : la description doit être relue par les communautés concernées ou une institution partenaire avant publication."
+    },
+    {
+      "nom": "Costume de cérémonie des femmes de l'est algérien",
+      "description": "La gandoura, la melehfa, le caftan, le quat et le lhef sont des tenues portées par les femmes de l'est pour les mariages et fêtes religieuses ou nationales. La gandoura, robe évasée en satin ou velours, est brodée de motifs floraux et animaliers au fil d'or ; la melehfa est un grand drapé fixé aux épaules par deux fibules d'argent. Les savoirs de confection se transmettent en famille et dans des centres de formation. L'élément a été inscrit en 2024.",
+      "categorie": "textile",
+      "sources": [
+        "S75",
+        "S76"
+      ],
+      "id": "DZ-tradition-costume-est",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communautes": [
+        "Femmes de l'Est algérien"
+      ],
+      "regions": [
+        "Est algérien",
+        "Constantine",
+        "Annaba"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "02139",
+        "annee": 2024,
+        "url": "https://ich.unesco.org/en/RL/the-women-s-ceremonial-costume-in-the-eastern-region-of-algeria-knowledge-and-skills-associated-with-the-making-and-adornment-of-the-gandoura-the-melehfa-the-caftan-the-quat-and-the-lhef-02139"
+      },
+      "transmission": "vivante"
+    },
+    {
+      "nom": "Gravure sur métaux (or, argent, cuivre)",
+      "description": "Graver à la main des mots, des motifs géométriques ou des versets du Coran sur des objets en or, en argent ou en cuivre est une pratique séculaire. Les objets gravés servent de cadeaux de mariage, d'objets du quotidien ou de rituel. Le savoir se transmet dans les familles, les ateliers et les centres de formation. L'élément a été inscrit en 2023.",
+      "categorie": "artisanat",
+      "sources": [
+        "S77"
+      ],
+      "id": "DZ-tradition-gravure-metaux",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Algérie"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01951",
+        "annee": 2023,
+        "url": "https://ich.unesco.org/en/RL/arts-skills-and-practices-associated-with-engraving-on-metals-gold-silver-and-copper-01951"
+      },
+      "transmission": "vivante"
+    },
+    {
+      "nom": "Raï, chant populaire algérien",
+      "description": "Le raï est un chant populaire né au début du XXe siècle dans l'Oranie, d'abord pratiqué en milieu rural par des chanteurs et chanteuses de poèmes en arabe dialectal. Il aborde l'amour, la liberté et les pressions sociales, et a conquis un public national puis international grâce à des artistes comme Khaled ou Mami. Cheikha Remitti en est l'une des figures majeures. Il est inscrit sur la liste représentative depuis 2022.",
+      "categorie": "musique",
+      "sources": [
+        "S78",
+        "S79",
+        "S80"
+      ],
+      "id": "DZ-tradition-rai",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communautes": [
+        "Oranie : Oran, Sidi Bel Abbès, Aïn Témouchent"
+      ],
+      "regions": [
+        "Oranie"
+      ],
+      "langues": [
+        "arabe algérien"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01894",
+        "annee": 2022,
+        "url": "https://ich.unesco.org/en/RL/rai-popular-folk-song-of-algeria-01894"
+      },
+      "transmission": "vivante",
+      "wikidata": "Q839029"
+    },
+    {
+      "nom": "Calligraphie arabe",
+      "description": "La calligraphie arabe est l'art d'écrire l'alphabet arabe de manière fluide et harmonieuse, à la plume de roseau ou de bambou avec une encre à base de miel, de suie et de safran, ou aujourd'hui au feutre et à la bombe. Pratiquée dans des pays arabes et non arabes, elle se transmet par l'école, l'apprentissage et l'autoformation. L'élément a été inscrit en 2021.",
+      "categorie": "artisanat",
+      "sources": [
+        "S81"
+      ],
+      "id": "DZ-tradition-calligraphie-arabe",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Algérie"
+      ],
+      "langues": [
+        "arabe"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01718",
+        "annee": 2021,
+        "url": "https://ich.unesco.org/en/RL/arabic-calligraphy-knowledge-skills-and-practices-01718"
+      },
+      "transmission": "vivante"
+    },
+    {
+      "nom": "Couscous : savoirs, savoir-faire et pratiques",
+      "description": "Préparer le couscous est un processus presque cérémoniel : on cultive la céréale, on moud la semoule, on la roule à la main, on la cuit à la vapeur puis on l'accompagne de légumes et de viandes variables selon la région et l'occasion. Poteries et ustensiles en bois sont fabriqués par des artisans. Le plat porte des valeurs de convivialité et de partage. L'élément a été inscrit en 2020.",
+      "categorie": "cuisine",
+      "sources": [
+        "S82"
+      ],
+      "id": "DZ-tradition-couscous",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Algérie"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01602",
+        "annee": 2020,
+        "url": "https://ich.unesco.org/en/RL/knowledge-know-how-and-practices-pertaining-to-the-production-and-consumption-of-couscous-01602"
+      },
+      "transmission": "vivante",
+      "wikidata": "Q76605"
+    },
+    {
+      "nom": "Savoirs des mesureurs d'eau des foggaras du Touat et du Tidikelt",
+      "description": "Dans les ksour du Touat et du Tidikelt, la foggara est un système de canaux dont l'eau est partagée selon des calculs précis. Les mesureurs d'eau, ou peigneurs, calculent les parts, entretiennent les peignes de distribution et conduisent l'eau. Selon l'UNESCO, leur savoir est menacé par le manque de transmission aux jeunes, l'urbanisation et des changements dans les rapports de propriété. L'élément est inscrit depuis 2018 sur la liste de sauvegarde urgente.",
+      "categorie": "savoir",
+      "sources": [
+        "S38"
+      ],
+      "id": "DZ-tradition-foggara-mesureurs",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communautes": [
+        "Habitants des ksour du Touat et du Tidikelt"
+      ],
+      "regions": [
+        "Touat",
+        "Tidikelt"
+      ],
+      "unesco": {
+        "liste": "Sauvegarde urgente",
+        "id": "01274",
+        "annee": 2018,
+        "url": "https://ich.unesco.org/en/USL/knowledge-and-skills-of-the-water-measurers-of-the-foggaras-or-water-bailiffs-of-touat-and-tidikelt-01274"
+      },
+      "transmission": "menacée"
+    },
+    {
+      "nom": "Sbuâ, pèlerinage annuel à la zawiya de Sidi El Hadj Belkacem (Gourara)",
+      "description": "Chaque année, des pèlerins zénètes du Gourara visitent des mausolées de saints pour commémorer la naissance du Prophète. Pendant une semaine, chants et danses accompagnent le pèlerinage qui se conclut, le septième jour, devant la zawiya de Sidi El Hadj Belkacem. Les femmes y tiennent un rôle, notamment en broyant les premiers grains pour le couscous des pèlerins. L'élément a été inscrit en 2015.",
+      "categorie": "fete",
+      "sources": [
+        "S37"
+      ],
+      "id": "DZ-tradition-sbua-gourara",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communautes": [
+        "Communautés zénètes du Gourara"
+      ],
+      "regions": [
+        "Gourara"
+      ],
+      "langues": [
+        "zénète du Gourara"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "00667",
+        "annee": 2015,
+        "url": "https://ich.unesco.org/en/RL/sbua-annual-pilgrimage-to-the-zawiya-of-sidi-el-hadj-belkacem-in-gourara-00667"
+      },
+      "transmission": "vivante",
+      "sensible": true,
+      "note_sensibilite": "Pratique rituelle ou religieuse vivante : la description doit être relue par les communautés concernées ou une institution partenaire avant publication."
+    },
+    {
+      "nom": "Rituel et cérémonies de la Sebeïba à Djanet",
+      "description": "La Sebeïba se déroule à Djanet pendant dix jours, au premier mois du calendrier lunaire musulman. Des danseurs en tenue de guerriers et des chanteuses concourent pendant neuf jours (le Timoulawine), puis les vainqueurs représentent chacun leur communauté lors du rituel, où l'on fait cliqueter les épées au rythme du tambourin. Selon l'UNESCO, la compétition artistique remplace symboliquement la violence entre communautés rivales. L'élément a été inscrit en 2014.",
+      "categorie": "rite",
+      "sources": [
+        "S36"
+      ],
+      "id": "DZ-tradition-sebeiba-djanet",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communautes": [
+        "Communautés touarègues de Djanet"
+      ],
+      "regions": [
+        "Djanet"
+      ],
+      "langues": [
+        "tamahaq"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "00665",
+        "annee": 2014,
+        "url": "https://ich.unesco.org/en/RL/ritual-and-ceremonies-of-sebeiba-in-the-oasis-of-djanet-algeria-00665"
+      },
+      "transmission": "vivante",
+      "wikidata": "Q2263473",
+      "sensible": true,
+      "note_sensibilite": "Pratique rituelle ou religieuse vivante : la description doit être relue par les communautés concernées ou une institution partenaire avant publication."
+    },
+    {
+      "nom": "Pèlerinage annuel au mausolée de Sidi Cheikh",
+      "description": "Chaque année, des communautés soufies nomades et sédentaires se rendent au mausolée de Sidi Abd el-Qader Ben Mohammed (Sidi Cheikh), à El Abiodh Sidi Cheikh, à partir du dernier jeudi de juin, pour trois jours de rituels religieux et de fêtes. Récitations du Coran, chants, danses et compétitions équestres réunissant plus de 300 cavaliers renforcent les alliances entre communautés. L'élément a été inscrit en 2013.",
+      "categorie": "fete",
+      "sources": [
+        "S83"
+      ],
+      "id": "DZ-tradition-pelerinage-sidi-cheikh",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communautes": [
+        "Communautés soufies nomades et sédentaires"
+      ],
+      "regions": [
+        "El Abiodh Sidi Cheikh"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "00660",
+        "annee": 2013,
+        "url": "https://ich.unesco.org/en/RL/annual-pilgrimage-to-the-mausoleum-of-sidi-abd-el-qader-ben-mohammed-sidi-cheikh-00660"
+      },
+      "transmission": "vivante",
+      "sensible": true,
+      "note_sensibilite": "Pratique rituelle ou religieuse vivante : la description doit être relue par les communautés concernées ou une institution partenaire avant publication."
+    },
+    {
+      "nom": "Imzad des communautés touarègues d'Algérie, du Mali et du Niger",
+      "description": "L'imzad est un violon à une corde, joué par les femmes touarègues, assis, l'instrument sur les genoux, avec un archet de bois courbe. Sa musique accompagne des poèmes et des chants qui célèbrent les exploits d'anciens héros, et on lui prête aussi un rôle apaisant pour les malades. L'instrument est fabriqué à partir d'une calebasse séchée. L'élément, partagé avec le Mali et le Niger, a été inscrit en 2013.",
+      "categorie": "musique",
+      "sources": [
+        "S35",
+        "S34"
+      ],
+      "id": "DZ-tradition-imzad",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communautes": [
+        "Femmes touarègues"
+      ],
+      "regions": [
+        "Sahara algérien (communautés touarègues)"
+      ],
+      "langues": [
+        "tamahaq"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "00891",
+        "annee": 2013,
+        "url": "https://ich.unesco.org/en/RL/practices-and-knowledge-linked-to-the-imzad-of-the-tuareg-communities-of-algeria-mali-and-niger-00891"
+      },
+      "transmission": "fragile",
+      "wikidata": "Q389949",
+      "sensible": true,
+      "note_sensibilite": "Pratique à dimension thérapeutique et spirituelle ; transmission orale par les détentrices du savoir, dont l'avis doit être sollicité."
+    },
+    {
+      "nom": "Rites et savoir-faire du costume de mariage de Tlemcen",
+      "description": "À Tlemcen, la mariée est habillée dans la maison de ses parents d'une robe en soie tissée d'or, puis d'un caftan en velours brodé, de bijoux et d'une coiffe conique ; des dessins de henné et un maquillage rouge et argent la protègent. Les filles sont initiées très tôt à cette tradition et les artisans transmettent la confection de génération en génération. L'élément a été inscrit en 2012.",
+      "categorie": "textile",
+      "sources": [
+        "S53",
+        "S52"
+      ],
+      "id": "DZ-tradition-costume-mariage-tlemcen",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communautes": [
+        "Habitants de Tlemcen"
+      ],
+      "regions": [
+        "Tlemcen"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "00668",
+        "annee": 2012,
+        "url": "https://ich.unesco.org/en/RL/rites-and-craftsmanship-associated-with-the-wedding-costume-tradition-of-tlemcen-00668"
+      },
+      "transmission": "vivante",
+      "sensible": true,
+      "note_sensibilite": "Pratique rituelle ou religieuse vivante : la description doit être relue par les communautés concernées ou une institution partenaire avant publication."
+    },
+    {
+      "nom": "Ahellil du Gourara",
+      "description": "L'ahellil est un genre poétique, musical et dansé emblématique des Zénètes du Gourara. Un joueur de flûte (bengri), un chanteur et un chœur qui peut compter jusqu'à cent personnes forment un cercle et tournent lentement en frappant des mains. Il s'exécute lors de fêtes religieuses, de pèlerinages et de mariages, dans une langue menacée de disparition selon l'UNESCO. Inscrit en 2008 (proclamé en 2005).",
+      "categorie": "musique",
+      "sources": [
+        "S23"
+      ],
+      "id": "DZ-tradition-ahellil-gourara",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "Ahellil",
+      "communautes": [
+        "Zénètes du Gourara"
+      ],
+      "regions": [
+        "Gourara"
+      ],
+      "langues": [
+        "zénète du Gourara"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "00121",
+        "annee": 2008,
+        "url": "https://ich.unesco.org/en/RL/ahellil-of-gourara-00121"
+      },
+      "transmission": "fragile",
+      "wikidata": "Q1406136"
+    },
+    {
+      "nom": "Musique arabo-andalouse (gharnati, sanâa, malouf)",
+      "description": "La musique arabo-andalouse est un genre savant du Maghreb, né en Al-Andalus au début du Xe siècle, distinct de la musique arabe classique du Moyen-Orient. En Algérie, ses écoles régionales portent les noms de gharnati, sanâa et malouf, et elle a donné naissance à des genres dérivés comme l'aroubi, le hawzi et le chaâbi. Elle se joue avec le oud, le rabâb, le violon, le nay et des percussions.",
+      "categorie": "musique",
+      "sources": [
+        "S84"
+      ],
+      "id": "DZ-tradition-musique-arabo-andalouse",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Algérie"
+      ],
+      "langues": [
+        "arabe"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "wikidata": "Q623904"
+    },
+    {
+      "nom": "Poésie kabyle (isefra) et poésie de résistance",
+      "description": "La poésie orale kabyle est une tradition vivante où les poètes, comme Yusef u Qasi au XVIIIe siècle, chantent la guerre, l'honneur et les relations avec les pouvoirs centraux. Salem Chaker souligne que, chez les Berbères, la résistance à l'agression extérieure est une source d'inspiration constante de la poésie. Mouloud Mammeri a contribué à collecter et à faire connaître ce patrimoine.",
+      "categorie": "oralite",
+      "sources": [
+        "S85",
+        "S86"
+      ],
+      "id": "DZ-tradition-poesie-kabyle",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "Isefra",
+      "communautes": [
+        "Kabyles"
+      ],
+      "regions": [
+        "Kabylie"
+      ],
+      "langues": [
+        "kabyle"
+      ],
+      "unesco": null,
+      "transmission": "vivante"
+    },
+    {
+      "nom": "Bijoux kabyles (Aït Yenni)",
+      "description": "Les bijoux kabyles sont des parures en argent, souvent allié au cuivre, ornées de corail rouge de Méditerranée et d'émaux cloisonnés de couleurs vives (bleu, vert, jaune) ; les artisans des Aït Yenni sont réputés pour cet usage de l'émail. Le Metropolitan Museum conserve des boucles d'oreilles de Kabylie de la première moitié du XXe siècle.",
+      "categorie": "artisanat",
+      "sources": [
+        "S87",
+        "S88"
+      ],
+      "id": "DZ-tradition-bijoux-kabyles",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communautes": [
+        "Kabyles"
+      ],
+      "regions": [
+        "Kabylie",
+        "Aït Yenni"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "wikidata": "Q110478225"
+    },
+    {
+      "nom": "Poterie kabyle",
+      "description": "La poterie kabyle, façonnée traditionnellement en Grande Kabylie, comprend des plats et récipients de céramique ornés de pigments. Le Metropolitan Museum conserve plusieurs grands plats kabyles du début à la moitié du XXe siècle, d'environ 40 cm de diamètre, issus de la région de la Grande Kabylie.",
+      "categorie": "artisanat",
+      "sources": [
+        "S89"
+      ],
+      "id": "DZ-tradition-poterie-kabyle",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communautes": [
+        "Kabyles"
+      ],
+      "regions": [
+        "Grande Kabylie"
+      ],
+      "unesco": null,
+      "transmission": "vivante"
+    },
+    {
+      "nom": "Karakou algérois",
+      "description": "Le karakou est une veste de velours brodée, costume de cérémonie algérois apparu au XIXe siècle, descendant de l'ancienne ghlila que Delacroix a représentée. Certaines Algéroises continuent de le porter au quotidien ; le mot est entré dans le Larousse en 2026 selon Wikipédia.",
+      "categorie": "textile",
+      "sources": [
+        "S90"
+      ],
+      "id": "DZ-tradition-karakou",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communautes": [
+        "Algéroises"
+      ],
+      "regions": [
+        "Alger"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "wikidata": "Q3192924"
+    },
+    {
+      "nom": "Chakhchoukha",
+      "description": "La chakhchoukha est un plat de fête fait de galette de semoule émiettée, arrosée d'une sauce tomate à la viande, avec des pois chiches et parfois des légumes. Elle se prépare avec de fines crêpes (rougag, trid, khobz-ftir) et connaît des variantes à Biskra, Constantine, Sétif, Khenchela, Batna, Annaba et El Oued, ainsi qu'à M'Sila.",
+      "categorie": "cuisine",
+      "sources": [
+        "S91"
+      ],
+      "id": "DZ-tradition-chakhchoukha",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Constantine",
+        "Sétif",
+        "Batna",
+        "Biskra",
+        "M'Sila"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "wikidata": "Q936218"
+    },
+    {
+      "nom": "Yennayer, nouvel an amazigh",
+      "description": "Yennayer est la fête du nouvel an agraire amazigh, célébrée le plus souvent les 12, 13 ou 14 janvier, selon le décalage entre calendriers julien et grégorien. Autour d'un repas partagé, de chants et de vœux, elle est devenue jour férié en Algérie depuis le 12 janvier 2018.",
+      "categorie": "fete",
+      "sources": [
+        "S92"
+      ],
+      "id": "DZ-tradition-yennayer",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communautes": [
+        "Berbérophones et arabophones"
+      ],
+      "regions": [
+        "Toute l'Algérie"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "wikidata": "Q3572171"
+    },
+    {
+      "nom": "Écriture tifinagh",
+      "description": "Le tifinagh est l'écriture utilisée par les Berbères pour écrire le tamazight, dérivée des écritures anciennes des langues berbères du Sud algérien et du Niger, chez les Touaregs, et du libyque. Elle figure aujourd'hui sur des panneaux officiels, comme à Tizi Ouzou, aux côtés de l'arabe et du français.",
+      "categorie": "savoir",
+      "sources": [
+        "S18",
+        "S19",
+        "S5"
+      ],
+      "id": "DZ-tradition-tifinagh",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communautes": [
+        "Touaregs",
+        "Berbérophones"
+      ],
+      "regions": [
+        "Hoggar",
+        "Kabylie"
+      ],
+      "langues": [
+        "tamahaq",
+        "kabyle"
+      ],
+      "unesco": null,
+      "transmission": "revitalisée",
+      "wikidata": "Q208503"
+    },
+    {
+      "nom": "Costumes traditionnels algériens",
+      "description": "Le costume féminin traditionnel d'Algérie, fait de drapés, de caftans, de broderies, de coiffes et de parures, garde les traces de nombreuses influences. On distingue les costumes citadins d'Alger, de l'Est (Constantine, Annaba) et de l'Ouest (Oran, Tlemcen), et les costumes ruraux de Kabylie, de l'Aurès, de l'Atlas saharien, du M'Zab et du Sahara profond.",
+      "categorie": "textile",
+      "sources": [
+        "S76"
+      ],
+      "id": "DZ-tradition-costume-traditionnel",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Alger",
+        "Constantine",
+        "Tlemcen",
+        "Kabylie",
+        "Aurès",
+        "M'Zab",
+        "Sahara"
+      ],
+      "unesco": null,
+      "transmission": "vivante"
+    }
+  ],
+  "personnalites": [
+    {
+      "nom": "Massinissa",
+      "description": "Fils du roi massyle Gaïa, Massinissa s'allie aux Romains contre Carthage, et sa victoire à Zama, en 202 av. J.-C., lui permet d'unifier massyles et massæsyles et de fonder le royaume de Numidie, avec Cirta pour capitale. Son règne est associé à l'extension de la culture des céréales. Son nom a été retrouvé en écriture libyque dans un tombeau à El Khroub, près de Constantine.",
+      "naissance": {
+        "date": "vers 238 av. J.-C. (240 selon d'autres sources)",
+        "lieu": "royaume des Massyles"
+      },
+      "roles": [
+        "roi de Numidie"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "Antiquité",
+      "sources": [
+        "S93",
+        "S94",
+        "S95",
+        "S6"
+      ],
+      "wikidata": "Q314685",
+      "id": "DZ-personne-massinissa",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates incertaines : BnF et Wikipédia donnent 238 à 148 av. J.-C., Wikidata admet 240-149."
+      },
+      "deces": {
+        "date": "148 av. J.-C. (149 selon d'autres sources)",
+        "lieu": "Cirta (Constantine)"
+      },
+      "regions": [
+        "Constantine"
+      ]
+    },
+    {
+      "nom": "Jugurtha",
+      "description": "Roi numide connu surtout par les historiens romains comme Salluste, Jugurtha tint tête à Rome pendant sept ans (111-105 av. J.-C.) dans ce qu'on appelle la guerre de Jugurtha. Livré aux Romains par son beau-père Bocchus Ier, il fut exhibé lors du triomphe de Marius en 104 av. J.-C., puis emprisonné à Rome où il mourut rapidement.",
+      "naissance": {
+        "date": "vers 160 av. J.-C.",
+        "lieu": "Cirta (Constantine)"
+      },
+      "roles": [
+        "roi de Numidie",
+        "chef militaire"
+      ],
+      "domaines": [
+        "politique",
+        "armée"
+      ],
+      "epoque": "Antiquité",
+      "sources": [
+        "S96",
+        "S97",
+        "S98"
+      ],
+      "wikidata": "Q156173",
+      "id": "DZ-personne-jugurtha",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates approximatives (BnF : 0160?-0104?)."
+      },
+      "deces": {
+        "date": "104 av. J.-C.",
+        "lieu": "Rome"
+      },
+      "regions": [
+        "Constantine"
+      ]
+    },
+    {
+      "nom": "Juba II",
+      "description": "Fils du roi numide Juba Ier, emmené enfant à Rome et formé à la culture romaine, Juba II régna sur la Numidie de 30 à 25 av. J.-C., puis sur la Maurétanie jusqu'en 23 apr. J.-C., avec Yol-Cherchell pour capitale. Il épousa Cléopâtre Séléné II, fille de Cléopâtre VII et de Marc Antoine. Il fut aussi un érudit et un auteur très respecté.",
+      "naissance": {
+        "date": "vers 50 av. J.-C. (incertain)",
+        "lieu": "Hippone (Annaba)"
+      },
+      "roles": [
+        "roi de Maurétanie",
+        "érudit"
+      ],
+      "domaines": [
+        "politique",
+        "savoirs"
+      ],
+      "epoque": "Antiquité",
+      "sources": [
+        "S99",
+        "S100",
+        "S101",
+        "S6"
+      ],
+      "wikidata": "Q315670",
+      "id": "DZ-personne-juba-ii",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance incertaine (BnF : 0052? av. J.-C.)."
+      },
+      "deces": {
+        "date": "23 apr. J.-C. (incertain)",
+        "lieu": "Maurétanie"
+      },
+      "regions": [
+        "Annaba",
+        "Cherchell"
+      ]
+    },
+    {
+      "nom": "Apulée",
+      "description": "Né à Madaure, l'actuelle M'daourouch, Apulée est un écrivain, orateur et philosophe de langue latine du IIe siècle. Il doit sa célébrité aux Métamorphoses, roman connu aussi sous le titre de L'Âne d'or. Une grande partie de ses œuvres est perdue, et l'on connaît sa vie surtout par ses propres écrits.",
+      "naissance": {
+        "date": "vers 125",
+        "lieu": "Madaure (M'daourouch)"
+      },
+      "roles": [
+        "écrivain",
+        "orateur",
+        "philosophe"
+      ],
+      "domaines": [
+        "littérature",
+        "philosophie"
+      ],
+      "epoque": "Antiquité",
+      "sources": [
+        "S102",
+        "S103",
+        "S104"
+      ],
+      "wikidata": "Q170512",
+      "id": "DZ-personne-apulee",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lieu de décès non confirmé par Wikipédia (« probablement après 170 ») ; indiqué ici selon Wikidata."
+      },
+      "deces": {
+        "date": "après 170 (probable)",
+        "lieu": "Carthage (selon Wikidata)"
+      },
+      "regions": [
+        "M'daourouch"
+      ]
+    },
+    {
+      "nom": "Augustin d'Hippone",
+      "description": "Né à Thagaste, dans l'Afrique romaine, Augustin fit des études de rhéteur avant de devenir évêque d'Hippone en 395, poste qu'il occupa jusqu'à sa mort en 430 pendant le siège de la ville par les Vandales. Théologien et philosophe, il est l'un des quatre premiers Pères de l'Église latine et docteur de l'Église. Sa formation reçue à Carthage n'efface pas, selon Wikipédia, des traits liés à sa région d'origine.",
+      "naissance": {
+        "date": "13 novembre 354",
+        "lieu": "Thagaste"
+      },
+      "roles": [
+        "évêque",
+        "théologien",
+        "philosophe"
+      ],
+      "domaines": [
+        "religion",
+        "philosophie"
+      ],
+      "epoque": "Antiquité tardive",
+      "sources": [
+        "S105",
+        "S106",
+        "S107",
+        "S57"
+      ],
+      "wikidata": "Q8018",
+      "id": "DZ-personne-augustin",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "deces": {
+        "date": "28 août 430",
+        "lieu": "Hippone (Annaba)"
+      },
+      "regions": [
+        "Annaba"
+      ]
+    },
+    {
+      "nom": "Dihya (la Kahina)",
+      "description": "Dihya, surnommée la Kahina (« la devineresse » en arabe), est connue comme une reine guerrière berbère de l'Aurès, qui s'opposa à la conquête arabe à la fin du VIIe siècle. Wikipédia rapporte qu'elle aurait infligé en 693 une défaite à l'armée de Hassan ibn Numan près de Meskiana avant d'être vaincue. L'historien Abdelmajid Hannoum rappelle que l'on sait peu de choses d'elle et que sa légende s'est construite au fil des récits, dont la fin se situe entre 693 et 702 selon les versions.",
+      "naissance": {
+        "date": "VIIe siècle (date incertaine)",
+        "lieu": "Aurès"
+      },
+      "roles": [
+        "reine guerrière"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "Haut Moyen Âge",
+      "sources": [
+        "S108",
+        "S109",
+        "S6",
+        "S110"
+      ],
+      "wikidata": "Q284295",
+      "id": "DZ-personne-dihya-kahina",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Sources médiévales tardives et légende : les dates de naissance (668 pour Wikidata, 675 pour Wikipédia) et de mort divergent."
+      },
+      "deces": {
+        "date": "entre 693 et 703 selon les versions",
+        "lieu": "non établi (lieu discuté)"
+      },
+      "regions": [
+        "Aurès"
+      ]
+    },
+    {
+      "nom": "Abd el-Kader (Émir Abdelkader)",
+      "description": "Issu d'une famille de l'aristocratie religieuse soufie, Abdelkader ben Mahieddine fut proclamé émir en 1832 dans la région de Mascara. Il dirigea pendant quinze ans la résistance à la conquête française, jusqu'à sa reddition en 1847, puis fut détenu en France et s'exila à Damas, où il mourut en 1883.",
+      "naissance": {
+        "date": "1808 (entre 1806 et 1808 selon les sources)",
+        "lieu": "El Guettana, près de Mascara"
+      },
+      "roles": [
+        "émir",
+        "chef militaire",
+        "érudit"
+      ],
+      "domaines": [
+        "politique",
+        "résistance",
+        "savoirs"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S111",
+        "S112",
+        "S113",
+        "S6"
+      ],
+      "wikidata": "Q179825",
+      "id": "DZ-personne-abd-el-kader",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance incertaine : « entre 1806 et 1808 » selon Wikipédia ; 1808 selon la BnF et Wikidata."
+      },
+      "deces": {
+        "date": "26 mai 1883",
+        "lieu": "Damas"
+      },
+      "regions": [
+        "Mascara"
+      ]
+    },
+    {
+      "nom": "Lalla Fatma N'Soumer",
+      "description": "Née vers 1830 en Kabylie, Lalla Fatma N'Soumer est une figure de la résistance kabyle aux premières années de la conquête française. Entre 1854 et juillet 1857, elle mena la résistance dans le Djurdjura, à la tête des imseblen. Capturée par les troupes françaises, elle fut emprisonnée jusqu'à sa mort, vers 1863, à Tablat.",
+      "naissance": {
+        "date": "1830",
+        "lieu": "Ouerdja (Abi Youcef), Kabylie"
+      },
+      "roles": [
+        "cheffe de la résistance",
+        "religieuse"
+      ],
+      "domaines": [
+        "résistance",
+        "politique"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S114",
+        "S115",
+        "S116"
+      ],
+      "wikidata": "Q2636619",
+      "id": "DZ-personne-lalla-fatma-nsoumer",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lieu de naissance : Ouerdja selon Wikipédia, Aïn El Hammam selon Wikidata ; date de décès : 1863 (BnF)."
+      },
+      "deces": {
+        "date": "1863",
+        "lieu": "Tablat"
+      },
+      "regions": [
+        "Kabylie"
+      ]
+    },
+    {
+      "nom": "Larbi Ben M'hidi",
+      "description": "Né à Aïn M'lila, Larbi Ben M'hidi est l'un des fondateurs du FLN en 1954. Avec Abane Ramdane, il prépara le congrès de la Soummam d'août 1956, et dirigea la Zone autonome d'Alger lors de la bataille d'Alger. Il est mort en 1957 à Alger, en détention ; les circonstances de sa mort sont encore discutées et ne sont pas détaillées ici.",
+      "naissance": {
+        "date": "1923",
+        "lieu": "Aïn M'lila"
+      },
+      "roles": [
+        "dirigeant du FLN",
+        "militaire"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S117",
+        "S118",
+        "S119",
+        "S6"
+      ],
+      "wikidata": "Q1395194",
+      "id": "DZ-personne-larbi-ben-mhidi",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "deces": {
+        "date": "4 mars 1957",
+        "lieu": "Alger (région d'Alger)"
+      },
+      "regions": [
+        "Oum El Bouaghi",
+        "Alger"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Mort en détention durant la guerre d'indépendance : les récits diffèrent selon les sources ; à valider par des historiens."
+    },
+    {
+      "nom": "Hassiba Ben Bouali",
+      "description": "Lycéenne née près de Chlef, Hassiba Ben Bouali s'engagea dans le FLN pendant la bataille d'Alger, aux côtés d'Ali la Pointe et de Yacef Saâdi. Elle mourut le 8 octobre 1957 dans la Casbah d'Alger. Elle est devenue l'un des symboles des femmes de la guerre d'indépendance.",
+      "naissance": {
+        "date": "20 janvier 1938",
+        "lieu": "Bougainville (Sendjas), près de Chlef"
+      },
+      "roles": [
+        "militante du FLN"
+      ],
+      "domaines": [
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S120",
+        "S121"
+      ],
+      "wikidata": "Q3128239",
+      "id": "DZ-personne-hassiba-ben-bouali",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "deces": {
+        "date": "8 octobre 1957",
+        "lieu": "Casbah d'Alger"
+      },
+      "regions": [
+        "Chlef",
+        "Alger"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Figure de la guerre d'indépendance : récits mémoriels à croiser avec la recherche historique."
+    },
+    {
+      "nom": "Djamila Bouhired",
+      "description": "Née en 1935 à Alger, Djamila Bouhired fut militante du FLN et collaboratrice de Yacef Saâdi. Arrêtée en 1957 pendant la bataille d'Alger, elle fit partie des six femmes du FLN condamnées à mort ; une campagne internationale animée par son avocat Jacques Vergès et par Georges Arnaud contribua à sa grâce en 1959. Elle fut libérée après les accords d'Évian.",
+      "naissance": {
+        "date": "juin 1935",
+        "lieu": "Alger (Casbah)"
+      },
+      "roles": [
+        "militante du FLN"
+      ],
+      "domaines": [
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S122",
+        "S123"
+      ],
+      "wikidata": "Q2667094",
+      "id": "DZ-personne-djamila-bouhired",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Alger"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Lutte armée de la guerre d'indépendance, mémoire contestée ; relecture nécessaire."
+    },
+    {
+      "nom": "Assia Djebar",
+      "description": "Née Fatima-Zohra Imalhayène à Cherchell, Assia Djebar est romancière, cinéaste et historienne de formation, auteure de La Soif (1957) et de la Nouba des femmes du mont Chenoua. Elle a été élue à l'Académie française en 2005, première écrivaine nord-africaine à y siéger. Elle est morte à Paris en 2015.",
+      "naissance": {
+        "date": "30 juin 1936",
+        "lieu": "Cherchell"
+      },
+      "roles": [
+        "romancière",
+        "cinéaste",
+        "professeure"
+      ],
+      "domaines": [
+        "littérature",
+        "cinéma"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S124",
+        "S125",
+        "S126",
+        "S127"
+      ],
+      "wikidata": "Q157313",
+      "id": "DZ-personne-assia-djebar",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La BnF indique 1935 comme année de naissance ; l'Académie française et Wikipédia indiquent 1936."
+      },
+      "deces": {
+        "date": "6 février 2015",
+        "lieu": "Paris"
+      },
+      "regions": [
+        "Tipaza"
+      ]
+    },
+    {
+      "nom": "Kateb Yacine",
+      "description": "Écrivain algérien d'une famille lettrée originaire des Aurès, Kateb Yacine est l'auteur de Nedjma (1956) et du Polygone étoilé (1966). Il fut aussi journaliste à Alger républicain et homme de théâtre. Il est mort à Grenoble en 1989.",
+      "naissance": {
+        "date": "1929 (25 janvier ou 2 août selon les sources)",
+        "lieu": "Constantine"
+      },
+      "roles": [
+        "écrivain",
+        "dramaturge",
+        "journaliste"
+      ],
+      "domaines": [
+        "littérature",
+        "théâtre"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S128",
+        "S129",
+        "S130"
+      ],
+      "wikidata": "Q379962",
+      "id": "DZ-personne-kateb-yacine",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de naissance incertaine : Wikipédia hésite entre le 25 janvier et le 2 août 1929 ; Wikidata donne 2 ou 6 août."
+      },
+      "deces": {
+        "date": "28 octobre 1989",
+        "lieu": "Grenoble"
+      },
+      "regions": [
+        "Constantine"
+      ]
+    },
+    {
+      "nom": "Mohammed Dib",
+      "description": "Né à Tlemcen dans une famille de la petite bourgeoisie, dont des membres étaient maîtres de la musique arabo-andalouse, Mohammed Dib est romancier, poète, dramaturge et auteur de contes pour enfants, d'expression française. Il est mort à La Celle-Saint-Cloud en 2003.",
+      "naissance": {
+        "date": "21 juillet 1920",
+        "lieu": "Tlemcen"
+      },
+      "roles": [
+        "romancier",
+        "poète",
+        "dramaturge"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S131",
+        "S132",
+        "S133"
+      ],
+      "wikidata": "Q462649",
+      "id": "DZ-personne-mohammed-dib",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "deces": {
+        "date": "2 mai 2003",
+        "lieu": "La Celle-Saint-Cloud"
+      },
+      "regions": [
+        "Tlemcen"
+      ]
+    },
+    {
+      "nom": "Mouloud Mammeri",
+      "description": "Écrivain, anthropologue et linguiste kabyle, Mouloud Mammeri fut l'un des fondateurs de la littérature maghrébine d'expression française et le porte-parole le plus prestigieux des berbérophones dans la seconde moitié du XXe siècle, selon Salem Chaker. Il a publié La Colline oubliée (1952) et recueilli des poèmes kabyles anciens. Il est mort dans un accident de voiture en 1989.",
+      "naissance": {
+        "date": "28 décembre 1917",
+        "lieu": "Taourirt Mimoun (Aït Yenni)"
+      },
+      "roles": [
+        "écrivain",
+        "anthropologue",
+        "linguiste"
+      ],
+      "domaines": [
+        "littérature",
+        "savoirs"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S86",
+        "S134",
+        "S135",
+        "S136"
+      ],
+      "wikidata": "Q983025",
+      "id": "DZ-personne-mouloud-mammeri",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Chaker (Persée) situe sa mort dans la nuit du 25 février 1989 ; Wikipédia indique le 26 février."
+      },
+      "deces": {
+        "date": "nuit du 25 au 26 février 1989",
+        "lieu": "Aïn Defla (accident de la route)"
+      },
+      "regions": [
+        "Tizi Ouzou"
+      ]
+    },
+    {
+      "nom": "Taos Amrouche",
+      "description": "Interprète de chants traditionnels kabyles et écrivaine, Taos Amrouche est la fille de Fadhma Aït Mansour Amrouche et la sœur de Jean Amrouche. Sa famille est originaire d'Ighil Ali, en Kabylie, mais elle est née à Tunis. Elle est morte en 1976 à Saint-Michel-l'Observatoire.",
+      "naissance": {
+        "date": "4 mars 1913",
+        "lieu": "Tunis (famille originaire d'Ighil Ali, Kabylie)"
+      },
+      "roles": [
+        "chanteuse",
+        "écrivaine"
+      ],
+      "domaines": [
+        "musique",
+        "littérature"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S137",
+        "S138",
+        "S139"
+      ],
+      "wikidata": "Q2641050",
+      "id": "DZ-personne-taos-amrouche",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance à Tunis, famille kabyle : rattachée à l'Algérie par son origine familiale et sa culture."
+      },
+      "deces": {
+        "date": "2 avril 1976",
+        "lieu": "Saint-Michel-l'Observatoire"
+      },
+      "regions": [
+        "Kabylie"
+      ]
+    },
+    {
+      "nom": "Fadhma Aït Mansour Amrouche",
+      "description": "Femme de lettres kabyle d'expression française, Fadhma Aït Mansour Amrouche est la mère des écrivains Jean et Taos Amrouche. Wikidata la présente aussi comme chanteuse et collectrice de textes traditionnels. Elle est née en Kabylie en 1882 et morte en Ille-et-Vilaine en 1967.",
+      "naissance": {
+        "date": "1882",
+        "lieu": "Tizi Hibel (Aït Mahmoud), Kabylie"
+      },
+      "roles": [
+        "écrivaine",
+        "chanteuse",
+        "collectrice de chants traditionnels"
+      ],
+      "domaines": [
+        "littérature",
+        "musique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S140",
+        "S141",
+        "S142"
+      ],
+      "wikidata": "Q464382",
+      "id": "DZ-personne-fadhma-amrouche",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lieu de naissance : Tizi Hibel selon Wikipédia, Taourirt Moussa selon Wikidata."
+      },
+      "deces": {
+        "date": "9 juillet 1967",
+        "lieu": "Saint-Brice-en-Coglès"
+      },
+      "regions": [
+        "Kabylie"
+      ]
+    },
+    {
+      "nom": "Cheikha Remitti",
+      "description": "Chanteuse de raï née Sadia Bedief, Cheikha Remitti est surnommée la « mamie du raï » et reste l'une des figures féminines majeures de ce genre en Afrique du Nord. Elle chante en s'accompagnant de la flûte gasba et du tambour galal, avec le langage direct des meddahates. Elle est née près de Sidi Bel Abbès en 1923 et morte à Paris en 2006.",
+      "naissance": {
+        "date": "8 mai 1923",
+        "lieu": "Tessala, près de Sidi Bel Abbès"
+      },
+      "roles": [
+        "chanteuse"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S80",
+        "S143",
+        "S144"
+      ],
+      "wikidata": "Q452186",
+      "id": "DZ-personne-cheikha-remitti",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La BnF indique parfois Paris comme lieu de naissance : l'indication « Tessala » suit Wikipédia et Wikidata."
+      },
+      "deces": {
+        "date": "15 mai 2006",
+        "lieu": "Paris"
+      },
+      "regions": [
+        "Sidi Bel Abbès",
+        "Oranie"
+      ]
+    },
+    {
+      "nom": "Khaled",
+      "description": "Chanteur de raï né à Oran en 1960, Khaled commence à enregistrer à l'adolescence sous le nom de Cheb Khaled. Il vient en France en 1986 et devient dans les années 1990 l'un des chanteurs algériens les plus connus, avec des titres comme Didi, Aïcha et C'est la vie.",
+      "naissance": {
+        "date": "29 février 1960",
+        "lieu": "Oran"
+      },
+      "roles": [
+        "chanteur",
+        "compositeur"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S145",
+        "S146",
+        "S147"
+      ],
+      "wikidata": "Q312609",
+      "id": "DZ-personne-khaled",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Oran"
+      ]
+    },
+    {
+      "nom": "Idir",
+      "description": "Chanteur kabyle né Hamid Cheriet, Idir a connu un succès mondial avec A Vava Inouva dans les années 1970, premier grand tube venu directement d'Algérie. Sa carrière débute en 1973 à Radio Alger, puis il s'éclipse volontairement une dizaine d'années à partir de 1981. Il est mort à Paris en 2020.",
+      "naissance": {
+        "date": "25 octobre 1949",
+        "lieu": "Aït Yenni (Grande Kabylie)"
+      },
+      "roles": [
+        "chanteur",
+        "compositeur"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S148",
+        "S149",
+        "S150"
+      ],
+      "wikidata": "Q2272870",
+      "id": "DZ-personne-idir",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La BnF et Wikidata mentionnent aussi 1945 comme année de naissance ; Wikipédia retient 1949."
+      },
+      "deces": {
+        "date": "2 mai 2020",
+        "lieu": "Paris"
+      },
+      "regions": [
+        "Kabylie"
+      ]
+    },
+    {
+      "nom": "Hassiba Boulmerka",
+      "description": "Athlète de demi-fond née à Constantine, Hassiba Boulmerka a remporté le 1500 m des Jeux olympiques de Barcelone le 8 août 1992, premier titre olympique de l'Algérie. Elle a aussi été championne du monde à deux reprises et championne d'Afrique à quatre reprises, selon World Athletics. Sa carrière, menée pendant la décennie noire, en fait un symbole du sport féminin.",
+      "naissance": {
+        "date": "10 juillet 1968",
+        "lieu": "Constantine"
+      },
+      "roles": [
+        "athlète"
+      ],
+      "domaines": [
+        "sport"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S151",
+        "S152",
+        "S153"
+      ],
+      "wikidata": "Q233870",
+      "id": "DZ-personne-hassiba-boulmerka",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Constantine"
+      ]
+    },
+    {
+      "nom": "Mohammed Arkoun",
+      "description": "Né en Kabylie, Mohammed Arkoun est un islamologue, historien et philosophe, professeur émérite d'histoire de la pensée islamique à Paris III. Il plaidait pour un islam repensé dans le monde contemporain et pour le dialogue entre religions et peuples. Il est mort à Paris en 2010.",
+      "naissance": {
+        "date": "1er février 1928",
+        "lieu": "Taourirt Mimoun (Aït Yenni)"
+      },
+      "roles": [
+        "islamologue",
+        "philosophe",
+        "professeur"
+      ],
+      "domaines": [
+        "savoirs",
+        "philosophie"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S154",
+        "S155",
+        "S156"
+      ],
+      "wikidata": "Q2738498",
+      "id": "DZ-personne-mohammed-arkoun",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "deces": {
+        "date": "14 septembre 2010",
+        "lieu": "Paris"
+      },
+      "regions": [
+        "Tizi Ouzou"
+      ]
+    }
+  ],
+  "evenements": [
+    {
+      "titre": "Culture de Mechta-Afalou",
+      "description": "Vers 20 000 av. J.-C., la culture dite de Mechta-Afalou s'épanouit surtout sur le littoral et dans la zone tellienne, avec une industrie parfois nommée ibéromaurusienne ou oranienne. Les dates préhistoriques sont des ordres de grandeur.",
+      "date": "-019999-01-01",
+      "date_affichee": "vers 20 000 av. J.-C.",
+      "precision": "siecle",
+      "sources": [
+        "S6"
+      ],
+      "id": "DZ-evenement-mechta-afalou",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Ordre de grandeur issu de Wikipédia (Histoire de l'Algérie)."
+      },
+      "regions": [
+        "littoral",
+        "Tell"
+      ]
+    },
+    {
+      "titre": "Révolution néolithique et civilisation capsienne",
+      "description": "Vers 7500 av. J.-C., l'Atérien laisse la place au Néolithique : sociétés sédentaires, agriculture, domestication, puis civilisation capsienne, connue pour ses escargotières et ses œufs d'autruche gravés.",
+      "date": "-007499-01-01",
+      "date_affichee": "vers 7500 av. J.-C.",
+      "precision": "siecle",
+      "sources": [
+        "S6"
+      ],
+      "id": "DZ-evenement-neolithique-capsien",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Ordre de grandeur issu de Wikipédia."
+      }
+    },
+    {
+      "titre": "Début de l'art rupestre du Tassili n'Ajjer",
+      "description": "Depuis environ 6000 av. J.-C. et jusqu'aux premiers siècles de notre ère, peintures et gravures du Tassili n'Ajjer enregistrent l'évolution du climat, des animaux et de la vie humaine au Sahara. Plus de 15 000 figures sont recensées.",
+      "date": "-005999-01-01",
+      "date_affichee": "vers 6000 av. J.-C.",
+      "precision": "siecle",
+      "sources": [
+        "S39"
+      ],
+      "id": "DZ-evenement-art-rupestre-tassili",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "fin": "0100-01-01",
+      "regions": [
+        "Tassili n'Ajjer"
+      ]
+    },
+    {
+      "titre": "Massinissa unifie la Numidie",
+      "description": "Après Zama, Massinissa réunit massyles et massæsyles et fonde le royaume de Numidie, qui couvre alors la quasi-totalité du nord de l'Algérie, avec Cirta pour capitale.",
+      "date": "-000201-01-01",
+      "date_affichee": "202 av. J.-C.",
+      "precision": "annee",
+      "sources": [
+        "S93",
+        "S6",
+        "S94"
+      ],
+      "id": "DZ-evenement-numidie-massinissa",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date 202 av. J.-C. (201 selon certaines sources)."
+      },
+      "acteurs": [
+        "Massinissa",
+        "Rome",
+        "Carthage"
+      ]
+    },
+    {
+      "titre": "Fin de la guerre de Jugurtha",
+      "description": "Livré par Bocchus Ier, le roi numide Jugurtha, qui résistait à Rome depuis 111 av. J.-C., est exhibé au triomphe de Marius en 104 av. J.-C., puis meurt en prison à Rome. La Numidie perd alors sa partie occidentale au profit de Bocchus.",
+      "date": "-000103-01-01",
+      "date_affichee": "104 av. J.-C.",
+      "precision": "annee",
+      "sources": [
+        "S96",
+        "S6",
+        "S97"
+      ],
+      "id": "DZ-evenement-mort-jugurtha",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Jugurtha",
+        "Bocchus Ier",
+        "Marius"
+      ]
+    },
+    {
+      "titre": "Juba II reçoit la Maurétanie",
+      "description": "Rome place Juba II, fils du dernier roi numide, à la tête de deux Maurétanies réunifiées, vers 25 av. J.-C. Il fait de Yol-Cherchell sa capitale ; en l'an 40, Rome met fin au protectorat et annexe le royaume.",
+      "date": "-000024-01-01",
+      "date_affichee": "25 av. J.-C.",
+      "precision": "annee",
+      "sources": [
+        "S99",
+        "S6",
+        "S100"
+      ],
+      "id": "DZ-evenement-juba-ii-mauretanie",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Juba II",
+        "Rome"
+      ],
+      "regions": [
+        "Cherchell"
+      ]
+    },
+    {
+      "titre": "Fondation de Timgad",
+      "description": "L'empereur Trajan crée Timgad ex nihilo comme colonie militaire en l'an 100, au pied de l'Aurès ; son plan orthogonal en fait un modèle d'urbanisme romain.",
+      "date": "0100-01-01",
+      "date_affichee": "100",
+      "precision": "annee",
+      "sources": [
+        "S43"
+      ],
+      "id": "DZ-evenement-fondation-timgad",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Trajan"
+      ],
+      "regions": [
+        "Aurès"
+      ]
+    },
+    {
+      "titre": "Mort d'Augustin pendant le siège d'Hippone",
+      "description": "Évêque d'Hippone depuis 395, Augustin meurt le 28 août 430 alors que les Vandales assiègent la ville. Hippone devient ensuite pour un temps la capitale de Genséric.",
+      "date": "0430-08-28",
+      "date_affichee": "28 août 430",
+      "precision": "jour",
+      "sources": [
+        "S105",
+        "S57",
+        "S106"
+      ],
+      "id": "DZ-evenement-mort-augustin",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Augustin",
+        "Vandales"
+      ],
+      "regions": [
+        "Annaba"
+      ]
+    },
+    {
+      "titre": "Arrivée des Vandales en Afrique",
+      "description": "En 429, des Vandales et des Alains conduits par Genséric passent le détroit de Gibraltar pour entrer en Afrique romaine. Plusieurs principautés maures, comme celle d'Altava, apparaissent ensuite.",
+      "date": "0429-01-01",
+      "date_affichee": "429",
+      "precision": "annee",
+      "sources": [
+        "S6"
+      ],
+      "id": "DZ-evenement-vandales",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Genséric",
+        "Vandales"
+      ]
+    },
+    {
+      "titre": "Victoire de la Kahina près de Meskiana",
+      "description": "Vers 693, selon Wikipédia, la reine de l'Aurès infligea près de Meskiana une défaite au corps expéditionnaire arabe de Hassan ibn Numan, avant d'être finalement vaincue. Les sources arabes tardives et la légende compliquent la datation exacte (entre 693 et 702).",
+      "date": "0693-01-01",
+      "date_affichee": "vers 693",
+      "precision": "annee",
+      "sources": [
+        "S6",
+        "S109",
+        "S108"
+      ],
+      "id": "DZ-evenement-kahina-meskiana",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date discutée : 693 à 702 selon les versions (Hannoum, Persée)."
+      },
+      "acteurs": [
+        "Dihya (la Kahina)",
+        "Hassan ibn Numan"
+      ],
+      "regions": [
+        "Aurès"
+      ]
+    },
+    {
+      "titre": "Fondation de Tahert",
+      "description": "Vers 761, Ibn Rustom fonde Tahert, capitale du royaume rostémide, État kharidjite connu pour son commerce, son rayonnement culturel et sa tolérance. La ville est détruite en 909 lors des attaques fatimides.",
+      "date": "0761-01-01",
+      "date_affichee": "761",
+      "precision": "annee",
+      "sources": [
+        "S6",
+        "S62"
+      ],
+      "id": "DZ-evenement-tahert",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Ibn Rustom",
+        "Rostémides"
+      ],
+      "regions": [
+        "Tiaret"
+      ]
+    },
+    {
+      "titre": "Installation des Ibadites dans le M'Zab",
+      "description": "Au Xe siècle, des Ibadites fuyant Tahert s'installent dans la vallée du M'Zab, où ils bâtissent leurs cinq ksour, dont Ghardaïa, Beni Isguen, Melika, Bounoura et El Atteuf.",
+      "date": "0901-01-01",
+      "date_affichee": "Xe siècle",
+      "precision": "siecle",
+      "sources": [
+        "S33",
+        "S32",
+        "S6"
+      ],
+      "id": "DZ-evenement-mzab-ibadites",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Ibadites"
+      ],
+      "regions": [
+        "Ghardaïa"
+      ]
+    },
+    {
+      "titre": "Fondation de la Kalâa des Béni Hammad",
+      "description": "Les émirs hammadides fondent leur première capitale, la Kalâa, en 1007 ; elle sera démantelée en 1152.",
+      "date": "1007-01-01",
+      "date_affichee": "1007",
+      "precision": "annee",
+      "sources": [
+        "S45"
+      ],
+      "id": "DZ-evenement-kalaa-fondation",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Hammadides"
+      ],
+      "fin": "1152-01-01"
+    },
+    {
+      "titre": "Les Zianides font de Tlemcen leur capitale",
+      "description": "En 1235, Yaghmoracen ibn Ziane, ancien gouverneur almohade de Tlemcen, fonde la dynastie zianide, qui s'étend sur les deux tiers occidentaux du pays et dure plus de trois siècles.",
+      "date": "1235-01-01",
+      "date_affichee": "1235",
+      "precision": "annee",
+      "sources": [
+        "S6",
+        "S52"
+      ],
+      "id": "DZ-evenement-zianides-tlemcen",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Yaghmoracen ibn Ziane"
+      ],
+      "regions": [
+        "Tlemcen"
+      ]
+    },
+    {
+      "titre": "Naissance de la régence d'Alger",
+      "description": "La régence d'Alger, fondée par des corsaires ottomans autour des frères Barberousse, dure de 1516 à 1830 selon Wikipédia et marque le début de la formation territoriale de l'Algérie contemporaine.",
+      "date": "1516-01-01",
+      "date_affichee": "1516",
+      "precision": "annee",
+      "sources": [
+        "S6",
+        "S4"
+      ],
+      "id": "DZ-evenement-regence-alger",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Barberousse",
+        "Ottomans"
+      ],
+      "fin": "1830-07-05",
+      "regions": [
+        "Alger"
+      ]
+    },
+    {
+      "titre": "Prise d'Alger par la France",
+      "description": "La campagne militaire menée de juin à juillet 1830 par un corps expéditionnaire français se solde par la prise d'Alger et la fin de la régence, ouvrant la colonisation française.",
+      "date": "1830-07-05",
+      "date_affichee": "5 juillet 1830",
+      "precision": "jour",
+      "sources": [
+        "S157",
+        "S6"
+      ],
+      "id": "DZ-evenement-prise-alger-1830",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "France",
+        "régence d'Alger"
+      ],
+      "regions": [
+        "Alger"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement de violence politique ou coloniale : bilans et interprétations débattus ; présentation à relire par des historiens."
+    },
+    {
+      "titre": "Abdelkader proclamé émir",
+      "description": "En 1832, Abdelkader ben Mahieddine est élu émir dans la région de Mascara. Il construit un État et conduit jusqu'en 1847 la résistance à la conquête française.",
+      "date": "1832-11-27",
+      "date_affichee": "1832",
+      "precision": "annee",
+      "sources": [
+        "S111",
+        "S6",
+        "S112"
+      ],
+      "id": "DZ-evenement-emir-abdelkader-1832",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Jour exact (27 novembre selon Wikipédia) discuté selon d'autres sources."
+      },
+      "acteurs": [
+        "Abd el-Kader"
+      ],
+      "regions": [
+        "Mascara"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement de violence politique ou coloniale : bilans et interprétations débattus ; présentation à relire par des historiens."
+    },
+    {
+      "titre": "Reddition d'Abd el-Kader",
+      "description": "Le 23 décembre 1847, le titre d'émir d'Abdelkader prend fin avec sa reddition, après quinze ans de résistance. Détenu en France, il est libéré en 1852 puis s'installe en Orient.",
+      "date": "1847-12-23",
+      "date_affichee": "23 décembre 1847",
+      "precision": "jour",
+      "sources": [
+        "S111",
+        "S6"
+      ],
+      "id": "DZ-evenement-reddition-abdelkader",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Abd el-Kader",
+        "France"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement de violence politique ou coloniale : bilans et interprétations débattus ; présentation à relire par des historiens."
+    },
+    {
+      "titre": "Fin de la résistance de Lalla Fatma N'Soumer",
+      "description": "En juillet 1857, après avoir mené depuis 1854 la résistance dans le Djurdjura, Lalla Fatma N'Soumer est capturée par les forces françaises, puis emprisonnée jusqu'à sa mort.",
+      "date": "1857-07-01",
+      "date_affichee": "juillet 1857",
+      "precision": "mois",
+      "sources": [
+        "S114",
+        "S115"
+      ],
+      "id": "DZ-evenement-capture-nsoumer",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Lalla Fatma N'Soumer"
+      ],
+      "regions": [
+        "Kabylie"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement de violence politique ou coloniale : bilans et interprétations débattus ; présentation à relire par des historiens."
+    },
+    {
+      "titre": "Insurrection de 1871",
+      "description": "La dernière grande révolte de l'Algérie coloniale commence en janvier 1871 avec l'affaire des spahis, puis s'étend en mars avec Mohamed El Mokrani. Plus de 150 000 Kabyles, soutenus par la confrérie Rahmaniyya, y prennent part selon Wikipédia.",
+      "date": "1871-01-01",
+      "date_affichee": "1871",
+      "precision": "annee",
+      "sources": [
+        "S6"
+      ],
+      "id": "DZ-evenement-revolte-1871",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Mohamed El Mokrani",
+        "Rahmaniyya"
+      ],
+      "regions": [
+        "Kabylie"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement de violence politique ou coloniale : bilans et interprétations débattus ; présentation à relire par des historiens."
+    },
+    {
+      "titre": "Manifestations du 8 mai 1945 et massacres de Sétif, Guelma et Kherrata",
+      "description": "Le 8 mai 1945, jour de célébration de la victoire des Alliés, des manifestations nationalistes éclatent dans le Constantinois et une répression durable s'ensuit. Selon Jean-Pierre Peyroulou, le nombre de victimes algériennes n'est pas établi avec certitude (fourchette la plus probable de 15 000 à 20 000), et 102 Européens sont morts.",
+      "date": "1945-05-08",
+      "date_affichee": "8 mai 1945",
+      "precision": "jour",
+      "sources": [
+        "S158",
+        "S159",
+        "S160"
+      ],
+      "id": "DZ-evenement-setif-1945",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "fin": "1945-06-26",
+      "regions": [
+        "Sétif",
+        "Guelma",
+        "Kherrata"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement de violence politique ou coloniale : bilans et interprétations débattus ; présentation à relire par des historiens."
+    },
+    {
+      "titre": "Toussaint rouge : début de la guerre d'indépendance",
+      "description": "Le 1er novembre 1954, une soixantaine d'attentats visant des objectifs civils et militaires marquent le début d'une guerre de huit ans, qui s'achève avec l'indépendance de 1962.",
+      "date": "1954-11-01",
+      "date_affichee": "1er novembre 1954",
+      "precision": "jour",
+      "sources": [
+        "S31",
+        "S161"
+      ],
+      "id": "DZ-evenement-toussaint-rouge",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "FLN"
+      ],
+      "fin": "1962-07-05",
+      "sensible": true,
+      "note_sensibilite": "Événement de violence politique ou coloniale : bilans et interprétations débattus ; présentation à relire par des historiens."
+    },
+    {
+      "titre": "Congrès de la Soummam",
+      "description": "En août 1956, le FLN tient clandestinement en Kabylie, à Ifri (Ouzellaguen), un congrès préparé notamment par Abane Ramdane et Larbi Ben M'hidi, qui définit l'organisation de la lutte.",
+      "date": "1956-08-20",
+      "date_affichee": "août 1956",
+      "precision": "mois",
+      "sources": [
+        "S6",
+        "S162",
+        "S119"
+      ],
+      "id": "DZ-evenement-soummam-1956",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "FLN",
+        "Abane Ramdane",
+        "Larbi Ben M'hidi"
+      ],
+      "regions": [
+        "Béjaïa",
+        "Kabylie"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement de violence politique ou coloniale : bilans et interprétations débattus ; présentation à relire par des historiens."
+    },
+    {
+      "titre": "Bataille d'Alger",
+      "description": "Du 7 janvier au 9 octobre 1957, la Zone autonome d'Alger du FLN et la 10e division parachutiste française s'affrontent dans la capitale ; les femmes du FLN comme Djamila Bouhired et Hassiba Ben Bouali y jouent un rôle remarqué.",
+      "date": "1957-01-07",
+      "date_affichee": "7 janvier 1957",
+      "precision": "jour",
+      "sources": [
+        "S163",
+        "S122",
+        "S120"
+      ],
+      "id": "DZ-evenement-bataille-alger",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "FLN",
+        "armée française"
+      ],
+      "fin": "1957-10-09",
+      "regions": [
+        "Alger"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement de violence politique ou coloniale : bilans et interprétations débattus ; présentation à relire par des historiens."
+    },
+    {
+      "titre": "Accords d'Évian",
+      "description": "Signés le 18 mars 1962 entre le gouvernement français et le GPRA, les accords d'Évian entraînent un cessez-le-feu applicable le 19 mars à midi.",
+      "date": "1962-03-18",
+      "date_affichee": "18 mars 1962",
+      "precision": "jour",
+      "sources": [
+        "S164",
+        "S161"
+      ],
+      "id": "DZ-evenement-accords-evian",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "France",
+        "GPRA"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement de violence politique ou coloniale : bilans et interprétations débattus ; présentation à relire par des historiens."
+    },
+    {
+      "titre": "Indépendance de l'Algérie",
+      "description": "L'indépendance est proclamée le 5 juillet 1962, aujourd'hui fête nationale du pays.",
+      "date": "1962-07-05",
+      "date_affichee": "5 juillet 1962",
+      "precision": "jour",
+      "sources": [
+        "S4",
+        "S161"
+      ],
+      "id": "DZ-evenement-independance-1962",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source non-Wikipédia à ajouter (date confirmée par plusieurs pages Wikipédia consultées uniquement)."
+      },
+      "regions": [
+        "Algérie"
+      ]
+    },
+    {
+      "titre": "Printemps berbère",
+      "description": "Entre mars et le 20 avril 1980, des manifestations en Kabylie et à Alger réclament la reconnaissance de l'identité et de la langue berbères. Salem Chaker écrit que cet événement a porté sur la scène publique une question culturelle et politique jusque-là occultée.",
+      "date": "1980-04-20",
+      "date_affichee": "20 avril 1980",
+      "precision": "jour",
+      "sources": [
+        "S30",
+        "S165",
+        "S86"
+      ],
+      "id": "DZ-evenement-printemps-berbere",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Tizi Ouzou",
+        "Alger",
+        "Kabylie"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement de violence politique ou coloniale : bilans et interprétations débattus ; présentation à relire par des historiens."
+    },
+    {
+      "titre": "Émeutes d'octobre 1988",
+      "description": "Les émeutes commencent à Bab-el-Oued dans la nuit du 4 au 5 octobre 1988 et gagnent l'Algérois et d'autres villes, dans un contexte de hausse des prix et de pénuries. Elles ouvrent une période d'ouverture politique.",
+      "date": "1988-10-04",
+      "date_affichee": "4 octobre 1988",
+      "precision": "jour",
+      "sources": [
+        "S166",
+        "S167",
+        "S168"
+      ],
+      "id": "DZ-evenement-octobre-1988",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "fin": "1988-10-10",
+      "regions": [
+        "Alger"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement de violence politique ou coloniale : bilans et interprétations débattus ; présentation à relire par des historiens."
+    },
+    {
+      "titre": "Décennie noire",
+      "description": "À partir de janvier 1992, après l'annulation du résultat du premier tour des législatives, l'Algérie traverse une période de violences armées qui dure jusqu'en 2002.",
+      "date": "1992-01-11",
+      "date_affichee": "11 janvier 1992",
+      "precision": "jour",
+      "sources": [
+        "S169",
+        "S167"
+      ],
+      "id": "DZ-evenement-decennie-noire",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "fin": "2002-02-08",
+      "sensible": true,
+      "note_sensibilite": "Événement de violence politique ou coloniale : bilans et interprétations débattus ; présentation à relire par des historiens. Les bilans chiffrés sont débattus."
+    },
+    {
+      "titre": "Tamazight langue officielle",
+      "description": "La révision constitutionnelle de 2016 reconnaît le tamazight comme langue officielle, aux côtés de l'arabe.",
+      "date": "2016-01-01",
+      "date_affichee": "2016",
+      "precision": "annee",
+      "sources": [
+        "S5"
+      ],
+      "id": "DZ-evenement-tamazight-2016",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source non-Wikipédia à ajouter (texte de la Constitution non lu)."
+      }
+    },
+    {
+      "titre": "Hirak",
+      "description": "À partir du 22 février 2019, des manifestations hebdomadaires s'opposent au cinquième mandat d'Abdelaziz Bouteflika, qui démissionne le 2 avril 2019. Le mouvement réclame ensuite un changement de système jusqu'en 2021.",
+      "date": "2019-02-22",
+      "date_affichee": "22 février 2019",
+      "precision": "jour",
+      "sources": [
+        "S170"
+      ],
+      "id": "DZ-evenement-hirak-2019",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source non-Wikipédia à ajouter ; date de fin du mouvement indicative (« 2019-2021 »)."
+      },
+      "sensible": true,
+      "note_sensibilite": "Événement de violence politique ou coloniale : bilans et interprétations débattus ; présentation à relire par des historiens."
+    },
+    {
+      "titre": "Le raï inscrit au patrimoine immatériel de l'humanité",
+      "description": "En 2022, le raï est inscrit sur la liste représentative de l'UNESCO comme chant populaire d'Algérie.",
+      "date": "2022-01-01",
+      "date_affichee": "2022",
+      "precision": "annee",
+      "sources": [
+        "S78"
+      ],
+      "id": "DZ-evenement-rai-unesco-2022",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Oranie"
+      ]
+    }
+  ],
+  "oeuvres": [
+    {
+      "titre": "Plat kabyle (Grande Kabylie)",
+      "description": "Grand plat de céramique orné de pigments, d'environ 40 cm de diamètre, attribué aux Kabyles de la région de la Grande Kabylie et daté du début au milieu du XXe siècle. Le Metropolitan Museum de New York en conserve plusieurs exemplaires, légués par la succession de Frank Wayde Hall Jr. en 2014.",
+      "type": "sculpture",
+      "sources": [
+        "S89"
+      ],
+      "id": "DZ-oeuvre-plat-kabyle",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Type « céramique » absent du schéma : classé provisoirement en « sculpture »."
+      },
+      "communaute": "Kabyles",
+      "materiaux": [
+        "céramique",
+        "pigment"
+      ],
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "2014.749.1",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/635648",
+      "droits": "Notice en ligne ; l'image n'est pas en Open Access (non reproduite).",
+      "periode": "début à milieu du XXe siècle",
+      "regions": [
+        "Grande Kabylie"
+      ]
+    },
+    {
+      "titre": "Boucle d'oreille (Kabylie)",
+      "description": "Boucle d'oreille de Kabylie, l'une d'une paire, en tôle d'argent, filigrane, émail, corail et imitation de corail ; elle mesure environ 8,9 cm de haut et date de la première moitié du XXe siècle. Elle illustre la bijouterie kabyle faite d'argent, de corail et d'émaux colorés.",
+      "type": "bijou",
+      "sources": [
+        "S88",
+        "S87"
+      ],
+      "id": "DZ-oeuvre-boucles-kabylie",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communaute": "Kabyles",
+      "materiaux": [
+        "argent",
+        "filigrane",
+        "émail",
+        "corail"
+      ],
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "55.111.36",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/451229",
+      "droits": "Notice en ligne ; l'image n'est pas en Open Access (non reproduite).",
+      "periode": "première moitié du XXe siècle",
+      "regions": [
+        "Kabylie"
+      ]
+    },
+    {
+      "titre": "[Antiquités du musée de Cherchell]",
+      "description": "Photographie sur papier salé réalisée en 1853-1854, montrant des antiquités conservées dans le musée de Cherchell, l'ancienne Césarée de Maurétanie. Elle témoigne de l'état des collections archéologiques au milieu du XIXe siècle. La notice indique que l'image est dans le domaine public.",
+      "type": "peinture",
+      "sources": [
+        "S60",
+        "S59"
+      ],
+      "id": "DZ-oeuvre-photo-cherchell",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Type « photographie » absent du schéma : classé provisoirement en « peinture »."
+      },
+      "createur": "photographe non précisé dans la notice consultée",
+      "materiaux": [
+        "épreuve au papier salé"
+      ],
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "2005.100.763",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/286689",
+      "droits": "Notice : isPublicDomain = vrai (Open Access du Met).",
+      "periode": "1853-1854",
+      "regions": [
+        "Cherchell"
+      ]
+    },
+    {
+      "titre": "Peintures et gravures rupestres du Tassili n'Ajjer",
+      "description": "Ensemble de plus de 15 000 peintures et gravures réalisées entre environ 6000 av. J.-C. et les premiers siècles de notre ère sur le plateau du Tassili n'Ajjer. Elles montrent le climat, les migrations animales et l'évolution de la vie humaine aux confins du Sahara. L'ensemble reste en place, sur le site.",
+      "type": "peinture",
+      "sources": [
+        "S39"
+      ],
+      "id": "DZ-oeuvre-rupestre-tassili",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communaute": "populations préhistoriques et protohistoriques du Sahara",
+      "materiaux": [
+        "pigments sur grès",
+        "gravure sur grès"
+      ],
+      "institution": "In situ — Parc national du Tassili n'Ajjer",
+      "url_notice": "https://whc.unesco.org/fr/list/179",
+      "droits": "Texte UNESCO sous CC BY-SA 3.0 IGO.",
+      "periode": "vers 6000 av. J.-C. – premiers siècles apr. J.-C.",
+      "regions": [
+        "Tassili n'Ajjer"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sites rupestres sensibles à la fréquentation et parfois liés à des usages rituels anciens ; consulter les institutions gestionnaires."
+    },
+    {
+      "titre": "Mausolée royal de Maurétanie",
+      "description": "Grand tumulus de pierre circulaire d'environ 60,9 m de diamètre et 32,4 m de haut, entouré de soixante colonnes ioniques, érigé à Sidi Rached près de Tipaza. Souvent appelé à tort « tombeau de la Chrétienne » (Kbor er Roumia), il fait partie du site de Tipasa inscrit au patrimoine mondial.",
+      "type": "architecture",
+      "sources": [
+        "S171",
+        "S50"
+      ],
+      "id": "DZ-oeuvre-mausolee-mauretanie",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "communaute": "royaume de Maurétanie",
+      "materiaux": [
+        "pierre"
+      ],
+      "institution": "In situ — Tipaza",
+      "url_notice": "https://whc.unesco.org/fr/list/193",
+      "droits": "Texte UNESCO sous CC BY-SA 3.0 IGO.",
+      "periode": "Antiquité",
+      "regions": [
+        "Tipaza"
+      ]
+    },
+    {
+      "titre": "Nedjma",
+      "description": "Roman de Kateb Yacine publié en 1956, cité en tête des œuvres principales de l'écrivain avec Le Polygone étoilé (1966). Kateb Yacine est l'une des grandes voix de la littérature algérienne d'expression française.",
+      "type": "livre",
+      "sources": [
+        "S128",
+        "S129"
+      ],
+      "id": "DZ-oeuvre-nedjma",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Notice BnF de l'auteur citée, pas de la notice du livre : à préciser."
+      },
+      "createur": "Kateb Yacine",
+      "institution": "Notices : BnF (data.bnf.fr)",
+      "url_notice": "https://data.bnf.fr/ark:/12148/cb11930322m",
+      "droits": "Œuvre sous droits d'auteur.",
+      "periode": "1956"
+    },
+    {
+      "titre": "Le Polygone étoilé",
+      "description": "Livre de Kateb Yacine publié en 1966, cité par Wikipédia parmi ses œuvres principales.",
+      "type": "livre",
+      "sources": [
+        "S128",
+        "S129"
+      ],
+      "id": "DZ-oeuvre-polygone-etoile",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "createur": "Kateb Yacine",
+      "institution": "Notices : BnF (data.bnf.fr)",
+      "url_notice": "https://data.bnf.fr/ark:/12148/cb11930322m",
+      "droits": "Œuvre sous droits d'auteur.",
+      "periode": "1966"
+    },
+    {
+      "titre": "La Colline oubliée",
+      "description": "Roman de Mouloud Mammeri publié en 1952, cité parmi ses œuvres principales avec Le Sommeil du juste (1955) et L'Opium et le Bâton (1965). Mammeri est l'un des fondateurs de la littérature maghrébine d'expression française.",
+      "type": "livre",
+      "sources": [
+        "S134",
+        "S86",
+        "S135"
+      ],
+      "id": "DZ-oeuvre-colline-oubliee",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "createur": "Mouloud Mammeri",
+      "institution": "Notices : BnF (data.bnf.fr)",
+      "url_notice": "https://data.bnf.fr/ark:/12148/cb11914192s",
+      "droits": "Œuvre sous droits d'auteur.",
+      "periode": "1952"
+    },
+    {
+      "titre": "La Nouba des femmes du mont Chenoua",
+      "description": "Long métrage d'Assia Djebar produit par la télévision algérienne, en arabe et en français, après des séjours dans la tribu maternelle des Berkani où elle interroge la mémoire des paysannes sur la guerre. Présenté à Carthage en 1978, il obtient le Prix de la critique internationale à la Biennale de Venise en 1979.",
+      "type": "film",
+      "sources": [
+        "S124",
+        "S125"
+      ],
+      "id": "DZ-oeuvre-nouba-chenoua",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année de réalisation exacte non lue ; présentations en 1978 et 1979 selon l'Académie française."
+      },
+      "createur": "Assia Djebar",
+      "institution": "Notice : Académie française",
+      "url_notice": "https://www.academie-francaise.fr/les-immortels/assia-djebar",
+      "droits": "Œuvre sous droits d'auteur.",
+      "periode": "fin des années 1970"
+    },
+    {
+      "titre": "A Vava Inouva",
+      "description": "Chanson d'Idir en langue kabyle, devenue dans les années 1970 un tube mondial, le premier grand succès venu directement d'Algérie selon Wikipédia. Elle est liée aux débuts de la carrière d'Idir à Radio Alger.",
+      "type": "musique",
+      "sources": [
+        "S148"
+      ],
+      "id": "DZ-oeuvre-a-vava-inouva",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Notice institutionnelle (BnF, ADAMI…) à ajouter."
+      },
+      "createur": "Idir",
+      "institution": "Notice : Wikipédia (pas de notice institutionnelle consultée)",
+      "url_notice": "https://fr.wikipedia.org/wiki/Idir",
+      "droits": "Œuvre sous droits d'auteur.",
+      "periode": "années 1970"
+    },
+    {
+      "titre": "Didi",
+      "description": "Chanson de raï de Khaled, citée avec Aïcha et C'est la vie parmi les titres qui l'ont rendu célèbre dans les années 1990.",
+      "type": "musique",
+      "sources": [
+        "S145",
+        "S78"
+      ],
+      "id": "DZ-oeuvre-didi-khaled",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Notice institutionnelle à ajouter ; année précise non lue."
+      },
+      "createur": "Khaled",
+      "institution": "Notice : Wikipédia (pas de notice institutionnelle consultée)",
+      "url_notice": "https://fr.wikipedia.org/wiki/Khaled_(chanteur)",
+      "droits": "Œuvre sous droits d'auteur.",
+      "periode": "années 1990"
+    },
+    {
+      "titre": "Les Métamorphoses (L'Âne d'or)",
+      "description": "Roman latin d'Apulée, originaire de Madaure, composé au IIe siècle. C'est le chef-d'œuvre de l'auteur.",
+      "type": "livre",
+      "sources": [
+        "S102",
+        "S103"
+      ],
+      "id": "DZ-oeuvre-metamorphoses-apulee",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "createur": "Apulée",
+      "institution": "Notice : BnF (data.bnf.fr)",
+      "url_notice": "https://data.bnf.fr/ark:/12148/cb125686918",
+      "droits": "Domaine public.",
+      "periode": "IIe siècle"
+    }
+  ],
+  "proverbes": [
+    {
+      "texte_original": "Tamurt yexla w-mergu.",
+      "langue": "kabyle",
+      "traduction": "Le pays dévasté par les grives.",
+      "sens": "Se dit d'un pays dont les habitants, trop mous, ne protègent pas leurs biens, même contre des grives.",
+      "publication": "Proverbes et dictons kabyles, traduits et introduits, Alger, Éditions Maison des Livres, 2002 (ISBN 9961-921-40-2) ; auteur non mentionné dans la numérisation consultée ; n° 483, p. 176",
+      "sources": [
+        "S172"
+      ],
+      "id": "DZ-proverbe-tamurt-yexla",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Texte lu dans la numérisation OCR (Internet Archive) ; graphie telle que lue, à comparer à la version imprimée."
+      }
+    },
+    {
+      "texte_original": "Netta iruh ad isselqem, yufa d anebdu yeqqur.",
+      "langue": "kabyle",
+      "traduction": "Il est parti faire réparer ses outils, et à son retour c'était déjà l'été sec.",
+      "sens": "Se dit de ceux qui lambinent et manquent l'occasion.",
+      "publication": "Proverbes et dictons kabyles, traduits et introduits, Alger, Éditions Maison des Livres, 2002 (ISBN 9961-921-40-2) ; auteur non mentionné dans la numérisation consultée ; n° 482, p. 176",
+      "sources": [
+        "S172"
+      ],
+      "id": "DZ-proverbe-netta-iruh",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Texte lu dans la numérisation OCR (Internet Archive) ; graphie telle que lue, à comparer à la version imprimée."
+      }
+    },
+    {
+      "texte_original": "Am seksu ddew texsayt.",
+      "langue": "kabyle",
+      "traduction": "Comme un couscous sous la courge.",
+      "sens": "Dit par quelqu'un qui a des ennuis et a perdu la joie de vivre malgré des apparences heureuses.",
+      "publication": "Proverbes et dictons kabyles, traduits et introduits, Alger, Éditions Maison des Livres, 2002 (ISBN 9961-921-40-2) ; auteur non mentionné dans la numérisation consultée ; n° 313",
+      "sources": [
+        "S172"
+      ],
+      "id": "DZ-proverbe-seksu-ddew",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Texte lu dans la numérisation OCR (Internet Archive) ; graphie telle que lue, à comparer à la version imprimée."
+      }
+    },
+    {
+      "texte_original": "Yif ahezzeb aqezzeb.",
+      "langue": "kabyle",
+      "traduction": "Prévenir vaut mieux que courtiser.",
+      "sens": "Par un effort de prévoyance, on garde sa liberté.",
+      "publication": "Proverbes et dictons kabyles, traduits et introduits, Alger, Éditions Maison des Livres, 2002 (ISBN 9961-921-40-2) ; auteur non mentionné dans la numérisation consultée ; n° 830, p. 233",
+      "sources": [
+        "S172"
+      ],
+      "id": "DZ-proverbe-yif-ahezzeb",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Texte lu dans la numérisation OCR (Internet Archive) ; graphie telle que lue, à comparer à la version imprimée."
+      }
+    },
+    {
+      "texte_original": "Yif at tewded i rref wala i tzeqqa.",
+      "langue": "kabyle",
+      "traduction": "Mieux vaut refaire l'auvent que toute la maison.",
+      "sens": "Il faut savoir prévoir et corriger à temps ce qui doit l'être.",
+      "publication": "Proverbes et dictons kabyles, traduits et introduits, Alger, Éditions Maison des Livres, 2002 (ISBN 9961-921-40-2) ; auteur non mentionné dans la numérisation consultée ; n° 829, p. 233",
+      "sources": [
+        "S172"
+      ],
+      "id": "DZ-proverbe-yif-rref",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Texte lu dans la numérisation OCR (Internet Archive) ; graphie telle que lue, à comparer à la version imprimée."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "titre": "World Bank Open Data — Population, total (SP.POP.TOTL), Algérie",
+      "institution": "Banque mondiale",
+      "url": "https://api.worldbank.org/v2/country/DZ/indicator/SP.POP.TOTL?format=json&mrv=3",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S2",
+      "titre": "World Bank Open Data — Surface area (AG.SRF.TOTL.K2), Algérie",
+      "institution": "Banque mondiale",
+      "url": "https://api.worldbank.org/v2/country/DZ/indicator/AG.SRF.TOTL.K2?format=json&mrv=2",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S3",
+      "titre": "Wikidata Q262 (Algérie)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q262",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S4",
+      "titre": "Algérie — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Alg%C3%A9rie",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S5",
+      "titre": "Langues en Algérie — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Langues_en_Alg%C3%A9rie",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S6",
+      "titre": "Histoire de l'Algérie — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Histoire_de_l%27Alg%C3%A9rie",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S7",
+      "titre": "Glottolog 5.4 — Arabic (arab1395)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/arab1395",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S8",
+      "titre": "Glottolog 5.4 — Algerian Arabic (alge1239)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/alge1239",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S9",
+      "titre": "Glottolog 5.4 — Algerian Saharan Arabic (alge1240)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/alge1240",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S10",
+      "titre": "Glottolog 5.4 — Kabyle (kaby1243)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/kaby1243",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S11",
+      "titre": "Kabylie : Géographie — Encyclopédie berbère",
+      "institution": "Encyclopédie berbère (OpenEdition Journals / IREMAM, INALCO)",
+      "url": "https://journals.openedition.org/encyclopedieberbere/1395",
+      "type": "article_scientifique",
+      "licence": "CC BY-NC-ND 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2004,
+      "auteur": "E.B. et M. Dahmani"
+    },
+    {
+      "id": "S12",
+      "titre": "Glottolog 5.4 — Chaouia of the Aures (tach1249)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/tach1249",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S13",
+      "titre": "Chaouis — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Chaouis",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S14",
+      "titre": "Aurès — Encyclopédie berbère",
+      "institution": "Encyclopédie berbère (OpenEdition Journals / IREMAM, INALCO)",
+      "url": "https://journals.openedition.org/encyclopedieberbere/258",
+      "type": "article_scientifique",
+      "licence": "CC BY-NC-ND 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 1990,
+      "auteur": "E.B., Ph. Leveau, P. Morizot, J. Morizot, M.-C. Chamla, F. Demoulin, S. Adjali, S. Chaker"
+    },
+    {
+      "id": "S15",
+      "titre": "Glottolog 5.4 — Tumzabt (tumz1238)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/tumz1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S16",
+      "titre": "Mozabites — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Mozabites",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S17",
+      "titre": "Glottolog 5.4 — Tahaggart Tamahaq (taha1241)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/taha1241",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S18",
+      "titre": "Tifinagh — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Tifinagh",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S19",
+      "titre": "Ahaggar — Encyclopédie berbère",
+      "institution": "Encyclopédie berbère (OpenEdition Journals / IREMAM, INALCO)",
+      "url": "https://journals.openedition.org/encyclopedieberbere/270",
+      "type": "article_scientifique",
+      "licence": "CC BY-NC-ND 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 1990,
+      "auteur": "P. Rognon, G. Camps, M. Gast, S. Chaker"
+    },
+    {
+      "id": "S20",
+      "titre": "Glottolog 5.4 — Western Algerian Berber (chen1266)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/chen1266",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S21",
+      "titre": "Glottolog 5.4 — Ouargli (taga1278)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/taga1278",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S22",
+      "titre": "Glottolog 5.4 — Gourara (gour1247)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/gour1247",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S23",
+      "titre": "Ahellil of Gourara — UNESCO Intangible Cultural Heritage",
+      "institution": "UNESCO — Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/ahellil-of-gourara-00121",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation du site (texte de la fiche d'inscription)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S24",
+      "titre": "Glottolog 5.4 — Korandje (kora1291)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/kora1291",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S25",
+      "titre": "Glottolog 5.4 — French (stan1290)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1290",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S26",
+      "titre": "Glottolog 5.4 — Algerian Sign Language (alge1235)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/alge1235",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S27",
+      "titre": "Glottolog 5.4 — Hassaniyya (hass1238)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/hass1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S28",
+      "titre": "Kabyles — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Kabyles",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S29",
+      "titre": "Kabylie : Anthropologie sociale — Encyclopédie berbère",
+      "institution": "Encyclopédie berbère (OpenEdition Journals / IREMAM, INALCO)",
+      "url": "https://journals.openedition.org/encyclopedieberbere/1416",
+      "type": "article_scientifique",
+      "licence": "CC BY-NC-ND 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2004,
+      "auteur": "D. Abrous"
+    },
+    {
+      "id": "S30",
+      "titre": "La question berbère dans l'Algérie indépendante : la fracture inévitable ?",
+      "institution": "Persée — Revue des mondes musulmans et de la Méditerranée n° 65",
+      "url": "https://www.persee.fr/doc/remmm_0997-1327_1992_num_65_1_1557",
+      "type": "article_scientifique",
+      "licence": "accès libre, tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 1992,
+      "auteur": "Salem Chaker"
+    },
+    {
+      "id": "S31",
+      "titre": "Chronique du conflit algérien 1954-1962",
+      "institution": "Persée — Revue historique des armées n° 187",
+      "url": "https://www.persee.fr/doc/rharm_0035-3299_1992_num_187_2_4133",
+      "type": "article_scientifique",
+      "licence": "accès libre, tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 1992,
+      "auteur": "Olivier Hamon"
+    },
+    {
+      "id": "S32",
+      "titre": "Mzab (ou M’zab) : Histoire et société — Encyclopédie berbère",
+      "institution": "Encyclopédie berbère (OpenEdition Journals / IREMAM, INALCO)",
+      "url": "https://journals.openedition.org/encyclopedieberbere/676",
+      "type": "article_scientifique",
+      "licence": "CC BY-NC-ND 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2010,
+      "auteur": "S. Doumane"
+    },
+    {
+      "id": "S33",
+      "titre": "Vallée du M'Zab — UNESCO World Heritage Centre",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/188",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S34",
+      "titre": "Touareg — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Touareg",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S35",
+      "titre": "Practices and knowledge linked to the Imzad of the Tuareg communities of Algeria, Mali and Niger — UNESCO Intangible Cultural Heritage",
+      "institution": "UNESCO — Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/practices-and-knowledge-linked-to-the-imzad-of-the-tuareg-communities-of-algeria-mali-and-niger-00891",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation du site (texte de la fiche d'inscription)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S36",
+      "titre": "Ritual and ceremonies of Sebeïba in the oasis of Djanet, Algeria — UNESCO Intangible Cultural Heritage",
+      "institution": "UNESCO — Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/ritual-and-ceremonies-of-sebeiba-in-the-oasis-of-djanet-algeria-00665",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation du site (texte de la fiche d'inscription)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S37",
+      "titre": "Sbuâ, annual pilgrimage to the zawiya of Sidi El Hadj Belkacem in Gourara — UNESCO Intangible Cultural Heritage",
+      "institution": "UNESCO — Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/sbua-annual-pilgrimage-to-the-zawiya-of-sidi-el-hadj-belkacem-in-gourara-00667",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation du site (texte de la fiche d'inscription)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S38",
+      "titre": "Knowledge and skills of the water measurers of the foggaras or water bailiffs of Touat and Tidikelt — UNESCO Intangible Cultural Heritage",
+      "institution": "UNESCO — Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/USL/knowledge-and-skills-of-the-water-measurers-of-the-foggaras-or-water-bailiffs-of-touat-and-tidikelt-01274",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation du site (texte de la fiche d'inscription)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S39",
+      "titre": "Tassili n'Ajjer — UNESCO World Heritage Centre",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/179",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S40",
+      "titre": "Wikidata Q190048 (Tassili n'Ajjer)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q190048",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S41",
+      "titre": "Djémila — UNESCO World Heritage Centre",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/191",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S42",
+      "titre": "Wikidata Q457362 (Djémila)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q457362",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S43",
+      "titre": "Timgad — UNESCO World Heritage Centre",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/194",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S44",
+      "titre": "Wikidata Q459629 (Timgad)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q459629",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S45",
+      "titre": "La Kalâa des Béni Hammad — UNESCO World Heritage Centre",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/102",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S46",
+      "titre": "Wikidata Q500367 (Kalâa des Béni Hammad)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q500367",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S47",
+      "titre": "Casbah d'Alger — UNESCO World Heritage Centre",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/565",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S48",
+      "titre": "Wikidata Q662102 (Casbah d'Alger)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q662102",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S49",
+      "titre": "Wikidata Q724484 (Mzab)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q724484",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S50",
+      "titre": "Tipasa — UNESCO World Heritage Centre",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/193",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S51",
+      "titre": "Wikidata Q3529269 (Tipasa de Maurétanie)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q3529269",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S52",
+      "titre": "Tlemcen — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Tlemcen",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S53",
+      "titre": "Rites and craftsmanship associated with the wedding costume tradition of Tlemcen — UNESCO Intangible Cultural Heritage",
+      "institution": "UNESCO — Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/rites-and-craftsmanship-associated-with-the-wedding-costume-tradition-of-tlemcen-00668",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation du site (texte de la fiche d'inscription)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S54",
+      "titre": "Wikidata Q185134 (Tlemcen)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q185134",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S55",
+      "titre": "Constantine (Algérie) — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Constantine_(Alg%C3%A9rie)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S56",
+      "titre": "Wikidata Q187346 (Constantine)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q187346",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S57",
+      "titre": "Hippone — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Hippone",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S58",
+      "titre": "Wikidata Q858024 (Hippone)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q858024",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S59",
+      "titre": "Cherchell — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Cherchell",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S60",
+      "titre": "[Antiquities in the Museum at Cherchell, Algeria] — Metropolitan Museum of Art",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/286689",
+      "type": "musee",
+      "licence": "notice : accès libre ; image : CC0 seulement si « Open Access » (non utilisée ici)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S61",
+      "titre": "Wikidata Q1617666 (Cherchell)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q1617666",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S62",
+      "titre": "Tahert — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Tahert",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S63",
+      "titre": "Wikidata Q3513903 (Tahert)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q3513903",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S64",
+      "titre": "Hoggar — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Hoggar",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S65",
+      "titre": "Wikidata Q26399 (Hoggar)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q26399",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S66",
+      "titre": "Aïn Hanech — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/A%C3%AFn_Hanech",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S67",
+      "titre": "Wikidata Q2876290 (Aïn Hanech)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q2876290",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S68",
+      "titre": "Mémorial du Martyr — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/M%C3%A9morial_du_Martyr",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S69",
+      "titre": "Wikidata Q3056085 (Mémorial du Martyr)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q3056085",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S70",
+      "titre": "Musée national des Antiquités et des Arts islamiques — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_des_Antiquit%C3%A9s_et_des_Arts_islamiques",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S71",
+      "titre": "Wikidata Q3330723 (Musée national des antiquités et des arts islamiques)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q3330723",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S72",
+      "titre": "Musée national des Beaux-Arts d'Alger — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_des_Beaux-Arts_d%27Alger",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S73",
+      "titre": "Wikidata Q2912600 (Musée national des Beaux-Arts d'Alger)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q2912600",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S74",
+      "titre": "Henna: rituals, aesthetic and social practices — UNESCO Intangible Cultural Heritage",
+      "institution": "UNESCO — Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/henna-rituals-aesthetic-and-social-practices-02116",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation du site (texte de la fiche d'inscription)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S75",
+      "titre": "The women's ceremonial costume in the Eastern region of Algeria — UNESCO Intangible Cultural Heritage",
+      "institution": "UNESCO — Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/the-women-s-ceremonial-costume-in-the-eastern-region-of-algeria-knowledge-and-skills-associated-with-the-making-and-adornment-of-the-gandoura-the-melehfa-the-caftan-the-quat-and-the-lhef-02139",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation du site (texte de la fiche d'inscription)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S76",
+      "titre": "Costume traditionnel algérien — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Costume_traditionnel_alg%C3%A9rien",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S77",
+      "titre": "Arts, skills and practices associated with engraving on metals (gold, silver and copper) — UNESCO Intangible Cultural Heritage",
+      "institution": "UNESCO — Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/arts-skills-and-practices-associated-with-engraving-on-metals-gold-silver-and-copper-01951",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation du site (texte de la fiche d'inscription)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S78",
+      "titre": "Raï, popular folk song of Algeria — UNESCO Intangible Cultural Heritage",
+      "institution": "UNESCO — Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/rai-popular-folk-song-of-algeria-01894",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation du site (texte de la fiche d'inscription)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S79",
+      "titre": "Raï — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Ra%C3%AF",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S80",
+      "titre": "Cheikha Remitti — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Cheikha_Remitti",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S81",
+      "titre": "Arabic calligraphy: knowledge, skills and practices — UNESCO Intangible Cultural Heritage",
+      "institution": "UNESCO — Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/arabic-calligraphy-knowledge-skills-and-practices-01718",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation du site (texte de la fiche d'inscription)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S82",
+      "titre": "Knowledge, know-how and practices pertaining to the production and consumption of couscous — UNESCO Intangible Cultural Heritage",
+      "institution": "UNESCO — Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/knowledge-know-how-and-practices-pertaining-to-the-production-and-consumption-of-couscous-01602",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation du site (texte de la fiche d'inscription)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S83",
+      "titre": "Annual pilgrimage to the mausoleum of Sidi 'Abd el-Qader Ben Mohammed (Sidi Cheikh) — UNESCO Intangible Cultural Heritage",
+      "institution": "UNESCO — Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/annual-pilgrimage-to-the-mausoleum-of-sidi-abd-el-qader-ben-mohammed-sidi-cheikh-00660",
+      "type": "unesco",
+      "licence": "UNESCO, conditions d'utilisation du site (texte de la fiche d'inscription)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S84",
+      "titre": "Musique arabo-andalouse — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Musique_arabo-andalouse",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S85",
+      "titre": "Une tradition de résistance et de lutte : la poésie berbère kabyle, un parcours poétique",
+      "institution": "Persée — Revue des mondes musulmans et de la Méditerranée n° 51",
+      "url": "https://www.persee.fr/doc/remmm_0997-1327_1989_num_51_1_2266",
+      "type": "article_scientifique",
+      "licence": "accès libre, tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 1989,
+      "auteur": "Salem Chaker"
+    },
+    {
+      "id": "S86",
+      "titre": "Mouloud Mammeri (1917-1989)",
+      "institution": "Persée — Revue des mondes musulmans et de la Méditerranée n° 51",
+      "url": "https://www.persee.fr/doc/remmm_0997-1327_1989_num_51_1_2279",
+      "type": "article_scientifique",
+      "licence": "accès libre, tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 1989,
+      "auteur": "Salem Chaker"
+    },
+    {
+      "id": "S87",
+      "titre": "Bijoux kabyles — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Bijoux_kabyles",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S88",
+      "titre": "Earring, One of a Pair (Kabylie) — Metropolitan Museum of Art",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/451229",
+      "type": "musee",
+      "licence": "notice : accès libre ; image : CC0 seulement si « Open Access » (non utilisée ici)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S89",
+      "titre": "Platter (Kabyle peoples) — Metropolitan Museum of Art",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/635648",
+      "type": "musee",
+      "licence": "notice : accès libre ; image : CC0 seulement si « Open Access » (non utilisée ici)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S90",
+      "titre": "Karakou — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Karakou",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S91",
+      "titre": "Chakhchoukha — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Chakhchoukha",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S92",
+      "titre": "Yennayer — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Yennayer",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S93",
+      "titre": "Massinissa — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Massinissa",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S94",
+      "titre": "Massinissa (roi de Numidie) — data.bnf.fr",
+      "institution": "Bibliothèque nationale de France",
+      "url": "https://data.bnf.fr/ark:/12148/cb135115995",
+      "type": "base_de_donnees",
+      "licence": "Licence ouverte Etalab",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S95",
+      "titre": "Wikidata Q314685 (Massinissa)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q314685",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S96",
+      "titre": "Jugurtha — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Jugurtha",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S97",
+      "titre": "Jugurtha (roi de Numidie) — data.bnf.fr",
+      "institution": "Bibliothèque nationale de France",
+      "url": "https://data.bnf.fr/ark:/12148/cb135116058",
+      "type": "base_de_donnees",
+      "licence": "Licence ouverte Etalab",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S98",
+      "titre": "Wikidata Q156173 (Jugurtha)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q156173",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S99",
+      "titre": "Juba II — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Juba_II",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S100",
+      "titre": "Juba II (roi de Maurétanie) — data.bnf.fr",
+      "institution": "Bibliothèque nationale de France",
+      "url": "https://data.bnf.fr/ark:/12148/cb135071294",
+      "type": "base_de_donnees",
+      "licence": "Licence ouverte Etalab",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S101",
+      "titre": "Wikidata Q315670 (Juba II)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q315670",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S102",
+      "titre": "Apulée — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Apul%C3%A9e",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S103",
+      "titre": "Apulée — data.bnf.fr",
+      "institution": "Bibliothèque nationale de France",
+      "url": "https://data.bnf.fr/ark:/12148/cb125686918",
+      "type": "base_de_donnees",
+      "licence": "Licence ouverte Etalab",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S104",
+      "titre": "Wikidata Q170512 (Apulée)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q170512",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S105",
+      "titre": "Augustin d'Hippone — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Augustin_d%27Hippone",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S106",
+      "titre": "Augustin (saint) — data.bnf.fr",
+      "institution": "Bibliothèque nationale de France",
+      "url": "https://data.bnf.fr/ark:/12148/cb11889551s",
+      "type": "base_de_donnees",
+      "licence": "Licence ouverte Etalab",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S107",
+      "titre": "Wikidata Q8018 (Augustin)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q8018",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S108",
+      "titre": "Dihya — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Dihya",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S109",
+      "titre": "Historiographie et légende au Maghreb : la Kâhina ou la production d'une mémoire",
+      "institution": "Persée — Annales. Histoire, Sciences sociales 54-3",
+      "url": "https://www.persee.fr/doc/ahess_0395-2649_1999_num_54_3_279771",
+      "type": "article_scientifique",
+      "licence": "accès libre, tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 1999,
+      "auteur": "Abdelmajid Hannoum"
+    },
+    {
+      "id": "S110",
+      "titre": "Wikidata Q284295 (Dihya)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q284295",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S111",
+      "titre": "Abdelkader ibn Muhieddine — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Abd_el-Kader",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S112",
+      "titre": "ʿAbd al-Qādir ibn Muḥyī al-Dīn al-Ǧazā'irī — data.bnf.fr",
+      "institution": "Bibliothèque nationale de France",
+      "url": "https://data.bnf.fr/ark:/12148/cb11887957g",
+      "type": "base_de_donnees",
+      "licence": "Licence ouverte Etalab",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S113",
+      "titre": "Wikidata Q179825 (Abd el-Kader)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q179825",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S114",
+      "titre": "Fatma N'Soumer — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Fatma_N%27Soumer",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S115",
+      "titre": "Fāṭimaẗ Nsūmar — data.bnf.fr",
+      "institution": "Bibliothèque nationale de France",
+      "url": "https://data.bnf.fr/ark:/12148/cb13549211n",
+      "type": "base_de_donnees",
+      "licence": "Licence ouverte Etalab",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S116",
+      "titre": "Wikidata Q2636619 (Lalla Fatma N'Soumer)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q2636619",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S117",
+      "titre": "Larbi Ben M'hidi — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Larbi_Ben_M%27hidi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S118",
+      "titre": "Wikidata Q1395194 (Larbi Ben M'hidi)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q1395194",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S119",
+      "titre": "La question démocratique dans le Mouvement national (1945-1962)",
+      "institution": "OpenEdition Journals — Insaniyat",
+      "url": "https://journals.openedition.org/insaniyat/6366",
+      "type": "article_scientifique",
+      "licence": "OpenEdition Freemium",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S120",
+      "titre": "Hassiba Ben Bouali — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Hassiba_Ben_Bouali",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S121",
+      "titre": "Wikidata Q3128239 (Hassiba Ben Bouali)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q3128239",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S122",
+      "titre": "Djamila Bouhired — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Djamila_Bouhired",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S123",
+      "titre": "Wikidata Q2667094 (Djamila Bouhired)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q2667094",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S124",
+      "titre": "Assia Djebar — Académie française",
+      "institution": "Académie française",
+      "url": "https://www.academie-francaise.fr/les-immortels/assia-djebar",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S125",
+      "titre": "Assia Djebar — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Assia_Djebar",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S126",
+      "titre": "Assia Djebar — data.bnf.fr",
+      "institution": "Bibliothèque nationale de France",
+      "url": "https://data.bnf.fr/ark:/12148/cb11900279p",
+      "type": "base_de_donnees",
+      "licence": "Licence ouverte Etalab",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S127",
+      "titre": "Wikidata Q157313 (Assia Djebar)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q157313",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S128",
+      "titre": "Kateb Yacine — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Kateb_Yacine",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S129",
+      "titre": "Yacine Kateb — data.bnf.fr",
+      "institution": "Bibliothèque nationale de France",
+      "url": "https://data.bnf.fr/ark:/12148/cb11930322m",
+      "type": "base_de_donnees",
+      "licence": "Licence ouverte Etalab",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S130",
+      "titre": "Wikidata Q379962 (Kateb Yacine)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q379962",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S131",
+      "titre": "Mohammed Dib — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Mohammed_Dib",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S132",
+      "titre": "Mohammed Dib — data.bnf.fr",
+      "institution": "Bibliothèque nationale de France",
+      "url": "https://data.bnf.fr/ark:/12148/cb11900111s",
+      "type": "base_de_donnees",
+      "licence": "Licence ouverte Etalab",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S133",
+      "titre": "Wikidata Q462649 (Mohammed Dib)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q462649",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S134",
+      "titre": "Mouloud Mammeri — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Mouloud_Mammeri",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S135",
+      "titre": "Mouloud Mammeri — data.bnf.fr",
+      "institution": "Bibliothèque nationale de France",
+      "url": "https://data.bnf.fr/ark:/12148/cb11914192s",
+      "type": "base_de_donnees",
+      "licence": "Licence ouverte Etalab",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S136",
+      "titre": "Wikidata Q983025 (Mouloud Mammeri)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q983025",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S137",
+      "titre": "Taos Amrouche — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Taos_Amrouche",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S138",
+      "titre": "Marguerite Taos Amrouche — data.bnf.fr",
+      "institution": "Bibliothèque nationale de France",
+      "url": "https://data.bnf.fr/ark:/12148/cb118887037",
+      "type": "base_de_donnees",
+      "licence": "Licence ouverte Etalab",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S139",
+      "titre": "Wikidata Q2641050 (Taos Amrouche)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q2641050",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S140",
+      "titre": "Fadhma Aït Mansour Amrouche — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Fadhma_A%C3%AFt_Mansour_Amrouche",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S141",
+      "titre": "Fadhma Aïth Mansour Amrouche — data.bnf.fr",
+      "institution": "Bibliothèque nationale de France",
+      "url": "https://data.bnf.fr/ark:/12148/cb12541795t",
+      "type": "base_de_donnees",
+      "licence": "Licence ouverte Etalab",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S142",
+      "titre": "Wikidata Q464382 (Fadhma Aït Mansour Amrouche)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q464382",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S143",
+      "titre": "Cheikha Remitti — data.bnf.fr",
+      "institution": "Bibliothèque nationale de France",
+      "url": "https://data.bnf.fr/ark:/12148/cb139292964",
+      "type": "base_de_donnees",
+      "licence": "Licence ouverte Etalab",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S144",
+      "titre": "Wikidata Q452186 (Cheikha Remitti)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q452186",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S145",
+      "titre": "Khaled (chanteur) — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Khaled_(chanteur)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S146",
+      "titre": "Khaled — data.bnf.fr",
+      "institution": "Bibliothèque nationale de France",
+      "url": "https://data.bnf.fr/ark:/12148/cb13922111z",
+      "type": "base_de_donnees",
+      "licence": "Licence ouverte Etalab",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S147",
+      "titre": "Wikidata Q312609 (Khaled)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q312609",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S148",
+      "titre": "Idir — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Idir",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S149",
+      "titre": "Idir — data.bnf.fr",
+      "institution": "Bibliothèque nationale de France",
+      "url": "https://data.bnf.fr/ark:/12148/cb139627343",
+      "type": "base_de_donnees",
+      "licence": "Licence ouverte Etalab",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S150",
+      "titre": "Wikidata Q2272870 (Idir)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q2272870",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S151",
+      "titre": "Hassiba Boulmerka — profil",
+      "institution": "World Athletics",
+      "url": "https://worldathletics.org/athletes/algeria/hassiba-boulmerka-14272850",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S152",
+      "titre": "Hassiba Boulmerka — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Hassiba_Boulmerka",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S153",
+      "titre": "Wikidata Q233870 (Hassiba Boulmerka)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q233870",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S154",
+      "titre": "Mohammed Arkoun — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Mohammed_Arkoun",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S155",
+      "titre": "Mohammed Arkoun — data.bnf.fr",
+      "institution": "Bibliothèque nationale de France",
+      "url": "https://data.bnf.fr/ark:/12148/cb11889091n",
+      "type": "base_de_donnees",
+      "licence": "Licence ouverte Etalab",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S156",
+      "titre": "Wikidata Q2738498 (Mohammed Arkoun)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q2738498",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S157",
+      "titre": "Expédition d'Alger (1830) — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Exp%C3%A9dition_d%27Alger_(1830)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S158",
+      "titre": "La milice, le commissaire et le témoin : le récit de la répression de mai 1945 à Guelma",
+      "institution": "Persée — Bulletin de l'Institut d'histoire du temps présent n° 83",
+      "url": "https://www.persee.fr/doc/ihtp_0247-0101_2004_num_83_1_1804",
+      "type": "article_scientifique",
+      "licence": "accès libre, tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2004,
+      "auteur": "Jean-Pierre Peyroulou"
+    },
+    {
+      "id": "S159",
+      "titre": "Guelma, 8 mai 1945 : une subversion européenne dans le département de Constantine, Algérie française",
+      "institution": "OpenEdition Journals — Insaniyat n° 39-40",
+      "url": "https://journals.openedition.org/insaniyat/2056",
+      "type": "article_scientifique",
+      "licence": "OpenEdition Freemium",
+      "consulte_le": "2026-11-21",
+      "annee": 2008,
+      "auteur": "Jean-Pierre Peyroulou"
+    },
+    {
+      "id": "S160",
+      "titre": "Massacres de Sétif, Guelma et Kherrata — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Massacres_de_S%C3%A9tif,_Guelma_et_Kherrata",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S161",
+      "titre": "Guerre d'Algérie — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Guerre_d%27Alg%C3%A9rie",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S162",
+      "titre": "Congrès de la Soummam — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Congr%C3%A8s_de_la_Soummam",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S163",
+      "titre": "Bataille d'Alger (1957) — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Bataille_d%27Alger_(1957)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S164",
+      "titre": "Accords d'Évian — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Accords_d%27%C3%89vian",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S165",
+      "titre": "Printemps berbère — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Printemps_berb%C3%A8re",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S166",
+      "titre": "Algérie : pouvoirs contestés",
+      "institution": "Persée — Camélia",
+      "url": "https://www.persee.fr/doc/camed_0395-9317_1990_num_41_1_1031",
+      "type": "article_scientifique",
+      "licence": "accès libre, tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 1990
+    },
+    {
+      "id": "S167",
+      "titre": "Quartiers défavorisés et vote islamiste à Alger",
+      "institution": "Persée — Revue des mondes musulmans et de la Méditerranée n° 65",
+      "url": "https://www.persee.fr/doc/remmm_0997-1327_1992_num_65_1_1561",
+      "type": "article_scientifique",
+      "licence": "accès libre, tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 1992,
+      "auteur": "Jacques Fontaine"
+    },
+    {
+      "id": "S168",
+      "titre": "Émeutes d'octobre 1988 en Algérie — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/%C3%89meutes_d%27octobre_1988_en_Alg%C3%A9rie",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S169",
+      "titre": "Décennie noire — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/D%C3%A9cennie_noire",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S170",
+      "titre": "Hirak (Algérie) — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Hirak_(Alg%C3%A9rie)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S171",
+      "titre": "Mausolée royal de Maurétanie — Wikipédia",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Mausol%C3%A9e_royal_de_Maur%C3%A9tanie",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S172",
+      "titre": "Proverbes et dictons kabyles (texte intégral numérisé)",
+      "institution": "Internet Archive — Éditions Maison des Livres, Alger, 2002",
+      "url": "https://archive.org/stream/ProverbesEtDictonsKabyles/Proverbes%20et%20dictons%20kabyles_djvu.txt",
+      "type": "livre",
+      "licence": "tous droits réservés (numérisation Internet Archive)",
+      "consulte_le": "2026-11-21",
+      "annee": 2002
+    }
+  ]
+}
