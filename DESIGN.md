@@ -2,7 +2,7 @@
 
 Référence de design du site **monbaobab.com**. Source de vérité : [`Design/MonBaobab Brand Guideline.pdf`](Design/MonBaobab%20Brand%20Guideline.pdf) (Branding guideline 2026, O. Y. Barnabas). Ce document traduit la charte en règles applicables au code. En cas de conflit, la charte prime ; les règles marquées **[web]** sont des compléments propres au site, absents de la charte.
 
-> **État actuel : le site n'est pas aligné sur la charte.** Il utilise un or `#d4af37` comme accent, un thème sombre par défaut et la police Nunito Sans. Voir [§13 Migration](#13-migration-depuis-létat-actuel).
+> **Style officiel de MonBaobab.** Ce document décrit le design en ligne sur monbaobab.com depuis le 21 novembre 2026 (refonte d'après les maquettes Figma). Toute nouvelle page, tout nouveau composant et tout support de la marque le suivent : jetons de couleur et de police (§12), composants (§9) et ton éditorial (§1). On ne réintroduit pas l'ancien style (or `#d4af37`, thème sombre par défaut, Nunito Sans, ombres lourdes).
 
 ---
 
@@ -20,7 +20,7 @@ Un atlas culturel africain : récits, atlas, patrimoine et savoir-faire des 55 p
 
 **Personnalité** : curieuse, accessible, ouverte, contemporaine, humaine.
 
-**Direction du site : « l'atlas vivant ».** Chaque partie du site emprunte un objet familier de l'exploration et le détourne : la carte devient la page, la navigation devient une boussole, le relief réagit au curseur. On évite la landing classique (titre, image, trois cartes, bouton). L'audace passe par la mise en scène et l'interaction, jamais par une sortie de la charte (couleurs, polices, logo).
+**Direction du site : « l'atlas vivant ».** Chaque partie du site emprunte un objet familier de l'exploration et le détourne : la carte devient la page, les courbes de niveau habillent les grandes surfaces vertes, le symbole de la marque devient une fenêtre sur une photo. On évite la landing classique (titre, image, trois cartes, bouton). L'audace passe par la mise en scène et l'interaction, jamais par une sortie de la charte (couleurs, polices, logo).
 → Interface **claire, aérée, chaleureuse**. Pas de luxe doré, pas de « dark premium », pas d'effets tape-à-l'œil.
 
 **Ton éditorial**
@@ -278,7 +278,7 @@ Rayons imbriqués concentriques : rayon intérieur = rayon extérieur − paddin
 ### Profondeur
 L'identité est **plate**. Pas d'ombres portées marquées, pas de glassmorphism, pas de lueurs dorées.
 - Séparer par la **couleur de fond** (crème / blanc / vert pâle) et des bordures fines `1px` forêt à 12 %.
-- Ombre autorisée uniquement pour les éléments flottants (menus, modales) : `0 8px 24px rgb(23 65 35 / 0.10)`. La boussole, qui flotte au-dessus de tout le contenu, porte une ombre plus franche : `0 12px 32px rgb(23 65 35 / 0.28)`.
+- Ombre autorisée uniquement pour les éléments flottants (menus, modales) : `0 8px 24px rgb(23 65 35 / 0.10)`.
 
 ---
 
@@ -294,10 +294,9 @@ L'identité est **plate**. Pas d'ombres portées marquées, pas de glassmorphism
 
 **Champ de formulaire** : fond blanc, bordure forêt 20 %, `--radius-sm`, hauteur 44 px, libellé visible au-dessus (pas de placeholder seul). Focus : bordure forêt + anneau forêt. Erreur : bordure terre cuite + message avec icône.
 
-**Barre du haut** : logo principal à gauche (≥ 120 px), recherche, panier et compte à droite. Rien d'autre : la navigation est dans la boussole. Fond crème opaque, non collante. Sur la page d'accueil, elle se pose sur la hero (fond transparent). Sous 640 px, « Se connecter / Rejoindre » devient une icône de compte.
-
-**Boussole (navigation principale)** : pilule forêt flottante, fixée en bas au centre de l'écran (inspirée d'un dock). Éléments : Accueil, Explorer, Comprendre, Mémoires, Contribuer, puis Ressources après un séparateur. Un indicateur crème glisse sous l'élément actif, dont le texte passe en forêt (320 ms, `--ease-out`). Ressources ouvre un panneau crème vers le haut, depuis la boussole, avec une description par destination. Sous 900 px : icônes seules sauf l'élément actif ; sous 380 px : icônes seules. Les libellés masqués restent lus par les lecteurs d'écran. Rendue dans `<body>` (portail React), car l'enveloppe des transitions de page porte un `transform`. Le bas de chaque page réserve `--dock-space` (104 px) pour ne rien masquer.
-**Pied de page** : fond forêt, texte crème, motif courbes de niveau en filigrane, logo blanc.
+**Barre du haut** : logo à gauche ; au centre, la navigation en **pilule** (Accueil, Explorer, Récits, Repères, Contribuer), fond vert pâle, élément actif sur pastille blanche ; à droite, un bouton rond de recherche (qui se déplie) et le bouton « Rejoindre » forêt (ou l'accès à Mon espace une fois connecté). Sur l'accueil, la barre se pose dans la carte verte du haut, pilule en verre. Sur mobile, logo + recherche + menu burger (morphose GSAP).
+**Pages de connexion** (connexion, inscription, mot de passe oublié) : pages autonomes sans barre ni pied, formulaire à gauche (mini en-tête logo + « Retour au site »), grande photo légendée à droite en carte arrondie.
+**Pied de page** : carte forêt arrondie (`--radius-lg`) détachée des bords, texte blanc, grand symbole en filigrane, logo blanc, accroche « L'Afrique à découvrir autrement. » et trois colonnes (Naviguer, Territoires, MonBaobab).
 
 **Haut de la page d'accueil** : carte verte arrondie à courbes de niveau vivantes (maquette Figma « Landing MonBaobab »). Titre sur trois lignes, « autrement. » en ambre ; à droite, le grand symbole de la marque avec une photo de baobabs dans l'œil. La navigation se pose dans la carte, en verre. Boutons « Explorer l'atlas » (ambre) et « Lire les récits » (verre).
 
@@ -314,7 +313,7 @@ Sobre et utile, au service de la découverte.
 - Retour au clic dès l'appui (`:active`), jamais seulement au relâchement.
 - Animer `transform` et `opacity` uniquement. Transitions CSS plutôt que `@keyframes` pour tout ce qui peut être interrompu (menu ouvert puis refermé aussitôt).
 - Effets de survol réservés aux appareils à souris : `@media (hover: hover) and (pointer: fine)`.
-- Pas de bibliothèque d'animation (ressorts) tant qu'aucune interaction de glisser ne l'exige.
+- GSAP est réservé aux mises en scène de la marque (titre de l'accueil, morphose du menu mobile). Le reste : transitions CSS.
 - Animations continues autorisées seulement pour le décor génératif (topographie vivante), jamais pour le contenu, et toujours coupées par `prefers-reduced-motion`.
 - Respecter `prefers-reduced-motion: reduce` (supprimer translations et parallaxe).
 - Pas de scintillement doré, pas de rebonds, pas d'animations en boucle sur le contenu.
@@ -396,23 +395,9 @@ Sobre et utile, au service de la découverte.
 
 ---
 
-## 13. Migration depuis l'état actuel
+## 13. Migration depuis l'ancien style
 
-Écarts constatés dans le code (octobre 2026) :
-
-| Actuel | Cible |
-|---|---|
-| Or `#d4af37` (157 occurrences), `#b8941f`, `--color-gold*` (39 fichiers) | Forêt pour les accents, abysse/forêt pour les liens, ambre seulement en fond ponctuel. |
-| Thème sombre par défaut (`:root` = dark) | Thème clair crème par défaut. |
-| Nunito Sans + Source Serif 4 (Google Fonts) | GC Regain + ZT Nature auto-hébergées. |
-| Forêt approximatif `#0f4c3a`, `#10251f` | `#174123`. |
-| Fond en dégradé + quadrillage `body::before` | Fond crème uni ; motifs de marque par section. |
-| Ombres `--shadow-soft` 70 px, lueurs dorées, `filter: brightness` sur icônes | Profondeur plate (§8). |
-| Rouges/verts génériques (`#e74c3c`, `#ef4444`, `#10b981`, `#27ae60`) | Couleurs d'état §3. |
-| Favicon `LogoFiles/Fichier 2.svg` (ancien vert) | `Logo/Fichier 4.svg` (icône sauge). |
-| 17 feuilles dans `src/styles/` qui se surchargent (`premium-*`, `human-*`, `theme-overrides`…) | Consolider autour des jetons §12. |
-
-Ordre conseillé : 1) jetons + polices, 2) en-tête/pied de page/boutons/cartes, 3) pages principales (accueil, carte, pays, blog), 4) admin.
+Faite le 21 novembre 2026 (refonte Figma mise en ligne) : palette forêt/crème, Hepta Slab + Hanken Grotesk, thème clair par défaut, favicon `Logo/Fichier 4.svg`, navigation Récits/Repères. Reste à consolider : les anciennes feuilles de `src/styles/` (`premium-*`, `human-*`…) encore chargées par certaines pages (admin, détail de récit ou de personnalité) et les couleurs codées en dur qu'elles contiennent. À aligner sur les jetons §12 page par page.
 
 ---
 
