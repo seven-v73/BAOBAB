@@ -6,6 +6,7 @@ import { AppError } from '../utils/errorHandler.js'
 import logger from '../utils/logger.js'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { uploadLimiter } from '../middleware/rateLimiter.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -33,7 +34,7 @@ const publicUploadUrl = (req, filenameOrUrl) => {
 }
 
 // Route pour upload d'images
-router.post('/image', authenticate, upload.single('image'), catchAsync(async (req, res, next) => {
+router.post('/image', authenticate, uploadLimiter, upload.single('image'), catchAsync(async (req, res, next) => {
   if (!req.file) {
     return next(new AppError('Aucun fichier uploadé', 400))
   }
@@ -63,7 +64,7 @@ router.post('/image', authenticate, upload.single('image'), catchAsync(async (re
 }))
 
 // Route pour upload de PDFs
-router.post('/pdf', authenticate, uploadPDF.single('pdf'), catchAsync(async (req, res, next) => {
+router.post('/pdf', authenticate, uploadLimiter, uploadPDF.single('pdf'), catchAsync(async (req, res, next) => {
   if (!req.file) {
     return next(new AppError('Aucun fichier uploadé', 400))
   }
@@ -85,7 +86,7 @@ router.post('/pdf', authenticate, uploadPDF.single('pdf'), catchAsync(async (req
 }))
 
 // Route pour upload de vidéos
-router.post('/video', authenticate, uploadVideo.single('video'), catchAsync(async (req, res, next) => {
+router.post('/video', authenticate, uploadLimiter, uploadVideo.single('video'), catchAsync(async (req, res, next) => {
   if (!req.file) {
     return next(new AppError('Aucun fichier uploadé', 400))
   }
@@ -107,7 +108,7 @@ router.post('/video', authenticate, uploadVideo.single('video'), catchAsync(asyn
 }))
 
 // Route pour upload de documents
-router.post('/document', authenticate, uploadDocument.single('document'), catchAsync(async (req, res, next) => {
+router.post('/document', authenticate, uploadLimiter, uploadDocument.single('document'), catchAsync(async (req, res, next) => {
   if (!req.file) {
     return next(new AppError('Aucun fichier uploadé', 400))
   }

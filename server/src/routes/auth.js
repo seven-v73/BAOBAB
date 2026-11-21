@@ -5,7 +5,7 @@ import { authenticate } from '../middleware/auth.js'
 import { validateRegister, validateLogin, sanitizeInput } from '../middleware/validation.js'
 import { body } from 'express-validator'
 import { validate } from '../middleware/validation.js'
-import { authLimiter, refreshLimiter } from '../middleware/rateLimiter.js'
+import { authLimiter, refreshLimiter, registerLimiter } from '../middleware/rateLimiter.js'
 
 const router = express.Router()
 
@@ -58,7 +58,7 @@ const router = express.Router()
  *         $ref: '#/components/responses/ValidationError'
  */
 // POST /api/auth/register
-router.post('/register', authLimiter, sanitizeInput, validateRegister, register)
+router.post('/register', registerLimiter, authLimiter, sanitizeInput, validateRegister, register)
 
 // POST /api/auth/login
 router.post('/login', authLimiter, sanitizeInput, validateLogin, login)

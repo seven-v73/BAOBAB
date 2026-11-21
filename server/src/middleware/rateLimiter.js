@@ -64,13 +64,33 @@ export const refreshLimiter = rateLimit({
   handler: (req, res) => res.status(429).json({ error: 'Trop de renouvellements de session. Réessayez dans quelques minutes.' }),
 })
 
-// Rate limiting pour les uploads (fichiers volumineux)
+// Envois de fichiers (jusqu'à 50 Mo pour une vidéo) : 60 par heure et par IP, de quoi illustrer
+// plusieurs articles, mais pas de remplir le disque du serveur.
 export const uploadLimiter = rateLimit({
-  windowMs: 60 * 60 * 1000, // 1 heure
-  max: 20, // Limite de 20 uploads par IP par heure
-  message: {
-    error: 'Trop d\'uploads. Veuillez réessayer plus tard.',
-    retryAfter: '1 heure'
-  }
+  windowMs: 60 * 60 * 1000,
+  max: 60,
+  standardHeaders: true,
+  legacyHeaders: false,
+  handler: (req, res) => res.status(429).json({ error: 'Trop d’envois de fichiers. Réessayez dans une heure.', retryAfter: '1 heure' }),
+})
+
+// Créations de compte, réussies ou non : 10 par heure et par IP (authLimiter ne compte que les échecs,
+// les inscriptions en masse n'étaient donc limitées que par la limite générale).
+export const registerLimiter = rateLimit({
+  windowMs: 60 * 60 * 1000,
+  max: 10,
+  standardHeaders: true,
+  legacyHeaders: false,
+  handler: (req, res) => res.status(429).json({ error: 'Trop de comptes créés depuis cette connexion. Réessayez dans une heure.', retryAfter: '1 heure' }),
+})
+
+// Écritures publiques ou de membres (j'aime, newsletter, contributions, commentaires, proverbes) :
+// 30 par quart d'heure et par IP, pour empêcher le gonflage des compteurs et le spam.
+export const writeLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 30,
+  standardHeaders: true,
+  legacyHeaders: false,
+  handler: (req, res) => res.status(429).json({ error: 'Trop d’actions en peu de temps. Réessayez dans quelques minutes.', retryAfter: '15 minutes' }),
 })
 

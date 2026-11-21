@@ -64,6 +64,13 @@ export const errorHandler = (err, req, res, next) => {
         message: err.message,
         ...(err.details && { details: err.details })
       })
+    } else if (err.expose && err.statusCode < 500) {
+      // Erreurs du client signalées par les bibliothèques (corps trop volumineux, JSON mal formé…)
+      const messages = { 413: 'Requête trop volumineuse.', 400: 'Requête mal formée.' }
+      res.status(err.statusCode).json({
+        status: 'fail',
+        message: messages[err.statusCode] || 'Requête refusée.'
+      })
     } else {
       // Erreurs de programmation (non prévues)
       res.status(500).json({

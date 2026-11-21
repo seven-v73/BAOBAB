@@ -11,6 +11,7 @@ import env from './config/env.js'
 import logger from './utils/logger.js'
 import { errorHandler, notFoundHandler } from './utils/errorHandler.js'
 import { apiLimiter } from './middleware/rateLimiter.js'
+import { boundPagination } from './middleware/pagination.js'
 
 // Initialiser Sentry en premier
 initSentry()
@@ -104,6 +105,9 @@ app.use('/api/', nosqlInjectionProtection)
 
 // Rate limiting global
 app.use('/api/', apiLimiter)
+
+// Pagination : bornes communes à toutes les listes (sauf /api/products, qui a son validateur)
+app.use('/api/', boundPagination)
 
 // Documentation Swagger: désactivée par défaut en production.
 if (env.NODE_ENV !== 'production' || env.ENABLE_API_DOCS) {

@@ -5,6 +5,7 @@ import {
   likeComment,
 } from '../controllers/commentController.js'
 import { authenticate } from '../middleware/auth.js'
+import { writeLimiter } from '../middleware/rateLimiter.js'
 
 const router = express.Router()
 
@@ -12,7 +13,7 @@ const router = express.Router()
 router.get('/blog/:blogId', getBlogComments)
 
 // Routes protégées
-router.post('/', authenticate, createComment)
+router.post('/', writeLimiter, authenticate, createComment)
 router.put('/:id/like', authenticate, likeComment)
 
 export default router
