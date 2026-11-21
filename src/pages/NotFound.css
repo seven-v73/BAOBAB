@@ -1,0 +1,41 @@
+.mnf {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: clamp(64px, 12vw, 140px) 16px;
+  text-align: center;
+}
+
+.mnf-code {
+  margin: 0;
+  font-family: var(--font-titre);
+  font-size: clamp(80px, 18vw, 160px);
+  line-height: 1;
+  color: var(--brand-vert-pale);
+}
+
+.mnf h1 {
+  margin: 16px 0 12px;
+  font-family: var(--font-titre);
+  font-size: clamp(28px, 5vw, 44px);
+  line-height: 1.1;
+  color: var(--brand-foret);
+}
+
+.mnf-texte {
+  margin: 0 auto 32px;
+  max-width: 52ch;
+  color: var(--brand-texte-doux);
+  line-height: 1.6;
+}
+
+.mnf-texte code {
+  font-size: 0.9em;
+  overflow-wrap: anywhere;
+}
+
+.mnf-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}

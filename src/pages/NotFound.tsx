@@ -1,33 +1,33 @@
 import { Link, useLocation } from 'react-router-dom'
+import { ArrowRight } from 'lucide-react'
 import { Layout } from '../components/Layout/Layout'
 import { useSeo } from '../seo/useSeo'
+import './Rubriques.css'
+import './NotFound.css'
 
-/** Page 404 : avant la refonte, toute URL inconnue renvoyait silencieusement vers l'accueil. */
+/** Page 404 : une adresse inconnue l'annonce clairement (et n'est pas indexée) au lieu de renvoyer à l'accueil. */
 export const NotFound = () => {
   const { pathname } = useLocation()
   useSeo({ title: 'Page introuvable', noindex: true })
 
   return (
     <Layout>
-      <div className="mb-state" style={{ marginTop: 'var(--space-6)', borderStyle: 'solid' }}>
-        <p className="eyebrow">Erreur 404</p>
-        <h1 style={{ fontSize: 'var(--text-2xl)' }}>Cette page n’existe pas (ou plus)</h1>
-        <p>
-          L’adresse <code>{pathname}</code> ne correspond à aucun contenu. Vous pouvez repartir de l’accueil ou
-          explorer la carte.
+      <section className="mnf">
+        <p className="mnf-code">404</p>
+        <h1>Ce chemin ne mène nulle part.</h1>
+        <p className="mnf-texte">
+          L’adresse <code>{pathname}</code> ne correspond à aucune page. Elle a peut-être changé avec la nouvelle
+          version du site.
         </p>
-        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--space-3)', justifyContent: 'center', marginTop: 'var(--space-3)' }}>
-          <Link to="/" className="btn">
-            Retour à l’accueil
+        <div className="mnf-actions">
+          <Link to="/" className="mbr-button">
+            Retour à l’accueil <ArrowRight size={18} aria-hidden="true" />
           </Link>
-          <Link to="/map" className="btn btn-outline">
-            Explorer la carte
-          </Link>
-          <Link to="/search" className="btn btn-ghost">
-            Rechercher
+          <Link to="/map" className="mbr-button mbr-button--ghost">
+            Explorer les pays
           </Link>
         </div>
-      </div>
+      </section>
     </Layout>
   )
 }
