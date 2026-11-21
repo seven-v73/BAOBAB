@@ -1,0 +1,595 @@
+{
+  "code": "ML",
+  "nom": "Mali",
+  "region": "ouest",
+  "collecte_le": "2026-11-21",
+  "wikidata": "Q912",
+  "identite": {
+    "nom_wikidata": "Mali",
+    "capitale": "Bamako",
+    "population": {
+      "valeur": 22395489,
+      "date": "2022-01-01"
+    },
+    "superficie_km2": 1241231,
+    "monnaie": "franc CFA",
+    "source": {
+      "titre": "Wikidata Q912",
+      "url": "https://www.wikidata.org/wiki/Q912",
+      "licence": "CC0"
+    }
+  },
+  "patrimoine_mondial": [
+    {
+      "nom": "tombeau des Askia",
+      "wikidata": "Q503823",
+      "unesco_id": "1139",
+      "url_unesco": "https://whc.unesco.org/fr/list/1139",
+      "coordonnees": {
+        "lat": 16.289722,
+        "lng": -0.044444
+      },
+      "inscription": "2004"
+    },
+    {
+      "nom": "falaise de Bandiagara",
+      "wikidata": "Q650546",
+      "unesco_id": "516",
+      "url_unesco": "https://whc.unesco.org/fr/list/516",
+      "coordonnees": {
+        "lat": 14.416666666,
+        "lng": -3.316666666
+      },
+      "inscription": "1989"
+    },
+    {
+      "nom": "Villes anciennes de Djenné",
+      "wikidata": "Q15278644",
+      "unesco_id": "116rev",
+      "url_unesco": "https://whc.unesco.org/fr/list/116",
+      "coordonnees": {
+        "lat": 13.90639,
+        "lng": -4.555
+      },
+      "inscription": "1988"
+    },
+    {
+      "nom": "Tombouctou",
+      "wikidata": "Q9427",
+      "unesco_id": "119rev",
+      "url_unesco": "https://whc.unesco.org/fr/list/119",
+      "coordonnees": {
+        "lat": 16.77348,
+        "lng": -3.00742
+      },
+      "inscription": "1988"
+    }
+  ],
+  "patrimoine_immateriel": [
+    {
+      "titre_en": "Cultural practices and expressions linked to Balafon and Kolintang in Mali, Burkina Faso, Côte d'Ivoire and Indonesia",
+      "liste": "Liste représentative",
+      "unesco_id": "02131",
+      "url": "https://ich.unesco.org/en/RL/cultural-practices-and-expressions-linked-to-balafon-and-kolintang-in-mali-burkina-faso-cote-d-ivoire-and-indonesia-02131"
+    },
+    {
+      "titre_en": "Cultural practices and expressions linked to the 'M’Bolon', a traditional musical percussion instrument",
+      "liste": "Sauvegarde urgente",
+      "unesco_id": "01689",
+      "url": "https://ich.unesco.org/en/USL/cultural-practices-and-expressions-linked-to-the-m-bolon-a-traditional-musical-percussion-instrument-01689"
+    },
+    {
+      "titre_en": "Coming forth of the masks and puppets in Markala",
+      "liste": "Liste représentative",
+      "unesco_id": "01004",
+      "url": "https://ich.unesco.org/en/RL/coming-forth-of-the-masks-and-puppets-in-markala-01004"
+    },
+    {
+      "titre_en": "Practices and knowledge linked to the Imzad of the Tuareg communities of Algeria, Mali and Niger",
+      "liste": "Liste représentative",
+      "unesco_id": "00891",
+      "url": "https://ich.unesco.org/en/RL/practices-and-knowledge-linked-to-the-imzad-of-the-tuareg-communities-of-algeria-mali-and-niger-00891"
+    },
+    {
+      "titre_en": "Secret society of the Kôrêdugaw, the rite of wisdom in Mali",
+      "liste": "Sauvegarde urgente",
+      "unesco_id": "00520",
+      "url": "https://ich.unesco.org/en/USL/secret-society-of-the-koredugaw-the-rite-of-wisdom-in-mali-00520"
+    },
+    {
+      "titre_en": "Sanké mon, collective fishing rite of the Sanké",
+      "liste": "Sauvegarde urgente",
+      "unesco_id": "00289",
+      "url": "https://ich.unesco.org/en/USL/sanke-mon-collective-fishing-rite-of-the-sanke-00289"
+    },
+    {
+      "titre_en": "Septennial re-roofing ceremony of the Kamablon, sacred house of Kangaba",
+      "liste": "Liste représentative",
+      "unesco_id": "00190",
+      "url": "https://ich.unesco.org/en/RL/septennial-re-roofing-ceremony-of-the-kamablon-sacred-house-of-kangaba-00190"
+    },
+    {
+      "titre_en": "Manden Charter, proclaimed in Kurukan Fuga",
+      "liste": "Liste représentative",
+      "unesco_id": "00290",
+      "url": "https://ich.unesco.org/en/RL/manden-charter-proclaimed-in-kurukan-fuga-00290"
+    },
+    {
+      "titre_en": "Cultural space of the Yaaral and Degal",
+      "liste": "Liste représentative",
+      "unesco_id": "00132",
+      "url": "https://ich.unesco.org/en/RL/cultural-space-of-the-yaaral-and-degal-00132"
+    }
+  ],
+  "patrimoine_immateriel_source": "https://ich.unesco.org/en/state/mali-ML",
+  "langues": [
+    {
+      "nom": "maninkakan de l'Est",
+      "wikidata": "Q11002130",
+      "glottocode": "east2426",
+      "officielle": false
+    },
+    {
+      "nom": "dogon toro so",
+      "wikidata": "Q11003311",
+      "glottocode": "toro1252",
+      "officielle": false
+    },
+    {
+      "nom": "tene kan",
+      "wikidata": "Q11018863",
+      "glottocode": "tene1248",
+      "officielle": false
+    },
+    {
+      "nom": "malinké de l'Ouest",
+      "wikidata": "Q11028033",
+      "glottocode": "west2500",
+      "officielle": false
+    },
+    {
+      "nom": "dogon",
+      "wikidata": "Q1234776",
+      "glottocode": "dogo1299",
+      "officielle": true
+    },
+    {
+      "nom": "pulaar",
+      "wikidata": "Q1420205",
+      "glottocode": "pula1263",
+      "officielle": false
+    },
+    {
+      "nom": "malinké",
+      "wikidata": "Q36186",
+      "glottocode": "mane1267",
+      "officielle": false
+    },
+    {
+      "nom": "mamara",
+      "wikidata": "Q36187",
+      "glottocode": "mama1271",
+      "officielle": false
+    },
+    {
+      "nom": "langues sénoufo",
+      "wikidata": "Q33795",
+      "glottocode": "senu1239",
+      "officielle": true
+    },
+    {
+      "nom": "bozo",
+      "wikidata": "Q35021",
+      "glottocode": "bozo1252",
+      "officielle": true
+    },
+    {
+      "nom": "arabe",
+      "wikidata": "Q13955",
+      "glottocode": "arab1395",
+      "officielle": false
+    },
+    {
+      "nom": "tamasheq",
+      "wikidata": "Q4670066",
+      "glottocode": "tama1365",
+      "officielle": true
+    },
+    {
+      "nom": "bambara",
+      "wikidata": "Q33243",
+      "glottocode": "bamb1269",
+      "officielle": false
+    },
+    {
+      "nom": "français",
+      "wikidata": "Q150",
+      "glottocode": "stan1290",
+      "officielle": false
+    },
+    {
+      "nom": "tomo kan",
+      "wikidata": "Q11137719",
+      "glottocode": "tomo1243",
+      "officielle": false
+    },
+    {
+      "nom": "bozo d'Hainyaxo",
+      "wikidata": "Q11159536",
+      "glottocode": "hain1253",
+      "officielle": false
+    },
+    {
+      "nom": "kagoro",
+      "wikidata": "Q11159524",
+      "glottocode": "kago1248",
+      "officielle": false
+    },
+    {
+      "nom": "bozo de Jenaama",
+      "wikidata": "Q10950633",
+      "glottocode": "jena1242",
+      "officielle": false
+    },
+    {
+      "nom": "ampari",
+      "wikidata": "Q4748057",
+      "glottocode": "ampa1238",
+      "officielle": false
+    },
+    {
+      "nom": "ana dogon",
+      "wikidata": "Q4750346",
+      "glottocode": "anat1248",
+      "officielle": false
+    },
+    {
+      "nom": "langue des signes de Tebul",
+      "wikidata": "Q7692090",
+      "glottocode": "tebu1240",
+      "officielle": false
+    },
+    {
+      "nom": "tebul",
+      "wikidata": "Q7692089",
+      "glottocode": "tebu1239",
+      "officielle": false
+    },
+    {
+      "nom": "bozo de Tiéyaxo",
+      "wikidata": "Q32860401",
+      "glottocode": "tiey1235",
+      "officielle": false
+    },
+    {
+      "nom": "langue des signes malienne",
+      "wikidata": "Q4853284",
+      "glottocode": "bama1249",
+      "officielle": false
+    },
+    {
+      "nom": "bankan tey",
+      "wikidata": "Q4856243",
+      "glottocode": "bank1259",
+      "officielle": false
+    },
+    {
+      "nom": "Douentza Sign Language",
+      "wikidata": "Q19571477",
+      "glottocode": "doue1234",
+      "officielle": false
+    },
+    {
+      "nom": "samo matya",
+      "wikidata": "Q10974879",
+      "glottocode": "maty1235",
+      "officielle": false
+    },
+    {
+      "nom": "ben tey",
+      "wikidata": "Q4886561",
+      "glottocode": "bent1238",
+      "officielle": false
+    },
+    {
+      "nom": "hassanya",
+      "wikidata": "Q56231",
+      "glottocode": "hass1238",
+      "officielle": true
+    },
+    {
+      "nom": "malinké de Kita",
+      "wikidata": "Q3015523",
+      "glottocode": "kita1248",
+      "officielle": false
+    },
+    {
+      "nom": "supyiré",
+      "wikidata": "Q56284",
+      "glottocode": "supy1237",
+      "officielle": false
+    },
+    {
+      "nom": "tawellemmet",
+      "wikidata": "Q56390",
+      "glottocode": "tawa1286",
+      "officielle": false
+    },
+    {
+      "nom": "Sucite",
+      "wikidata": "Q56787",
+      "glottocode": "sici1249",
+      "officielle": false
+    },
+    {
+      "nom": "bangeri me",
+      "wikidata": "Q1982696",
+      "glottocode": "bang1363",
+      "officielle": false
+    },
+    {
+      "nom": "dioula",
+      "wikidata": "Q32706",
+      "glottocode": "dyul1238",
+      "officielle": false
+    },
+    {
+      "nom": "n’ko",
+      "wikidata": "Q18546266",
+      "glottocode": "nkoa1234",
+      "officielle": false
+    },
+    {
+      "nom": "bunoge",
+      "wikidata": "Q4985178",
+      "glottocode": "buno1241",
+      "officielle": false
+    },
+    {
+      "nom": "tondi songway kiini",
+      "wikidata": "Q7820798",
+      "glottocode": "tond1249",
+      "officielle": false
+    },
+    {
+      "nom": "koyra chiini",
+      "wikidata": "Q33600",
+      "glottocode": "koyr1241",
+      "officielle": false
+    },
+    {
+      "nom": "mombo",
+      "wikidata": "Q6897074",
+      "glottocode": "momb1254",
+      "officielle": false
+    },
+    {
+      "nom": "mandinka",
+      "wikidata": "Q33678",
+      "glottocode": "mand1436",
+      "officielle": false
+    },
+    {
+      "nom": "pana",
+      "wikidata": "Q7129739",
+      "glottocode": "pana1295",
+      "officielle": false
+    },
+    {
+      "nom": "langues touarègues",
+      "wikidata": "Q34065",
+      "glottocode": "tuar1240",
+      "officielle": false
+    },
+    {
+      "nom": "peul",
+      "wikidata": "Q33454",
+      "glottocode": "fula1264",
+      "officielle": true
+    },
+    {
+      "nom": "Jamsai Dogon",
+      "wikidata": "Q3913290",
+      "glottocode": "jams1239",
+      "officielle": false
+    },
+    {
+      "nom": "bondum dom",
+      "wikidata": "Q3912758",
+      "glottocode": "bond1248",
+      "officielle": false
+    },
+    {
+      "nom": "dogul dom",
+      "wikidata": "Q3912880",
+      "glottocode": "dogu1235",
+      "officielle": false
+    },
+    {
+      "nom": "Toro-tegu Dogon",
+      "wikidata": "Q3913924",
+      "glottocode": "toro1253",
+      "officielle": false
+    },
+    {
+      "nom": "bolon",
+      "wikidata": "Q3913301",
+      "glottocode": "bolo1266",
+      "officielle": false
+    },
+    {
+      "nom": "kalamsé",
+      "wikidata": "Q3914000",
+      "glottocode": "kala1383",
+      "officielle": false
+    },
+    {
+      "nom": "jowulu",
+      "wikidata": "Q3914487",
+      "glottocode": "jowu1238",
+      "officielle": false
+    },
+    {
+      "nom": "duungooma",
+      "wikidata": "Q3914880",
+      "glottocode": "duun1242",
+      "officielle": false
+    },
+    {
+      "nom": "peul de Maasina",
+      "wikidata": "Q3915322",
+      "glottocode": "maas1239",
+      "officielle": false
+    },
+    {
+      "nom": "pular",
+      "wikidata": "Q3915357",
+      "glottocode": "pula1262",
+      "officielle": false
+    },
+    {
+      "nom": "bomu",
+      "wikidata": "Q35065",
+      "glottocode": "bomu1247",
+      "officielle": false
+    },
+    {
+      "nom": "konabéré",
+      "wikidata": "Q35371",
+      "glottocode": "nort2819",
+      "officielle": false
+    },
+    {
+      "nom": "songhaï",
+      "wikidata": "Q505198",
+      "glottocode": "song1307",
+      "officielle": true
+    },
+    {
+      "nom": "humburi senni",
+      "wikidata": "Q35486",
+      "glottocode": "humb1243",
+      "officielle": false
+    },
+    {
+      "nom": "jalonké",
+      "wikidata": "Q35524",
+      "glottocode": "yalu1240",
+      "officielle": false
+    },
+    {
+      "nom": "nanga",
+      "wikidata": "Q6963443",
+      "glottocode": "nang1261",
+      "officielle": false
+    },
+    {
+      "nom": "koyraboro senni",
+      "wikidata": "Q35655",
+      "glottocode": "koyr1242",
+      "officielle": false
+    },
+    {
+      "nom": "Koromfé",
+      "wikidata": "Q35701",
+      "glottocode": "koro1298",
+      "officielle": false
+    },
+    {
+      "nom": "langues mandingues",
+      "wikidata": "Q35772",
+      "glottocode": "mand1435",
+      "officielle": false
+    },
+    {
+      "nom": "marka",
+      "wikidata": "Q36030",
+      "glottocode": "mark1256",
+      "officielle": false
+    },
+    {
+      "nom": "soninké",
+      "wikidata": "Q36660",
+      "glottocode": "soni1259",
+      "officielle": false
+    },
+    {
+      "nom": "mooré",
+      "wikidata": "Q36096",
+      "glottocode": "moss1236",
+      "officielle": false
+    },
+    {
+      "nom": "khassonké",
+      "wikidata": "Q36905",
+      "glottocode": "xaas1235",
+      "officielle": false
+    },
+    {
+      "nom": "tommo so",
+      "wikidata": "Q47012992",
+      "glottocode": "tomm1242",
+      "officielle": false
+    },
+    {
+      "nom": "Shempire",
+      "wikidata": "Q36325",
+      "glottocode": "shem1239",
+      "officielle": false
+    },
+    {
+      "nom": "syenara",
+      "wikidata": "Q36316",
+      "glottocode": "syen1235",
+      "officielle": false
+    },
+    {
+      "nom": "tadaksahak",
+      "wikidata": "Q36568",
+      "glottocode": "tada1238",
+      "officielle": false
+    },
+    {
+      "nom": "zarma",
+      "wikidata": "Q36990",
+      "glottocode": "zarm1239",
+      "officielle": false
+    },
+    {
+      "nom": "yanda dom",
+      "wikidata": "Q8048316",
+      "glottocode": "yand1257",
+      "officielle": false
+    },
+    {
+      "nom": "tiranige diga",
+      "wikidata": "Q5313387",
+      "glottocode": "tira1258",
+      "officielle": false
+    },
+    {
+      "nom": "bankagooma",
+      "wikidata": "Q3438402",
+      "glottocode": "bank1258",
+      "officielle": false
+    },
+    {
+      "nom": "langues bobo",
+      "wikidata": "Q12628055",
+      "glottocode": "bobo1253",
+      "officielle": true
+    },
+    {
+      "nom": "bozo de Tiemacèwè",
+      "wikidata": "Q12643582",
+      "glottocode": "tiem1235",
+      "officielle": false
+    },
+    {
+      "nom": "Berbey Sign Language",
+      "wikidata": "Q85746654",
+      "glottocode": "berb1261",
+      "officielle": false
+    }
+  ]
+}

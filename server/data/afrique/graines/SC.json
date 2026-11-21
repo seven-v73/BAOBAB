@@ -1,0 +1,87 @@
+{
+  "code": "SC",
+  "nom": "Seychelles",
+  "region": "est",
+  "collecte_le": "2026-11-21",
+  "wikidata": "Q1042",
+  "identite": {
+    "nom_wikidata": "Seychelles",
+    "capitale": "Victoria",
+    "population": {
+      "valeur": 119773,
+      "date": "2023-01-01"
+    },
+    "superficie_km2": 459,
+    "monnaie": "roupie seychelloise",
+    "source": {
+      "titre": "Wikidata Q1042",
+      "url": "https://www.wikidata.org/wiki/Q1042",
+      "licence": "CC0"
+    }
+  },
+  "patrimoine_mondial": [
+    {
+      "nom": "Aldabra",
+      "wikidata": "Q272768",
+      "unesco_id": "185",
+      "url_unesco": "https://whc.unesco.org/fr/list/185",
+      "coordonnees": {
+        "lat": -9.416388888,
+        "lng": 46.416388888
+      },
+      "inscription": "1982"
+    },
+    {
+      "nom": "vallée de Mai",
+      "wikidata": "Q573558",
+      "unesco_id": "261",
+      "url_unesco": "https://whc.unesco.org/fr/list/261",
+      "coordonnees": {
+        "lat": -4.329166666,
+        "lng": 55.7375
+      },
+      "inscription": "1983"
+    }
+  ],
+  "patrimoine_immateriel": [
+    {
+      "titre_en": "Moutya",
+      "liste": "Liste représentative",
+      "unesco_id": "01690",
+      "url": "https://ich.unesco.org/en/RL/moutya-01690"
+    }
+  ],
+  "patrimoine_immateriel_source": "https://ich.unesco.org/en/state/seychelles-SC",
+  "langues": [
+    {
+      "nom": "anglais",
+      "wikidata": "Q1860",
+      "glottocode": "stan1293",
+      "officielle": true
+    },
+    {
+      "nom": "français",
+      "wikidata": "Q150",
+      "glottocode": "stan1290",
+      "officielle": true
+    },
+    {
+      "nom": "créole seychellois",
+      "wikidata": "Q34015",
+      "glottocode": "sese1246",
+      "officielle": false
+    },
+    {
+      "nom": "Seychelles Sign Language",
+      "wikidata": "Q110721423",
+      "glottocode": "seyc1234",
+      "officielle": false
+    },
+    {
+      "nom": "chagossien",
+      "wikidata": "Q36657",
+      "glottocode": null,
+      "officielle": false
+    }
+  ]
+}

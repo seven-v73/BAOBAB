@@ -1,0 +1,615 @@
+{
+  "code": "GH",
+  "nom": "Ghana",
+  "region": "ouest",
+  "collecte_le": "2026-11-21",
+  "wikidata": "Q117",
+  "identite": {
+    "nom_wikidata": "Ghana",
+    "capitale": "Accra",
+    "population": {
+      "valeur": 32833031,
+      "date": "2021-01-01"
+    },
+    "superficie_km2": 238535,
+    "monnaie": "cedi",
+    "source": {
+      "titre": "Wikidata Q117",
+      "url": "https://www.wikidata.org/wiki/Q117",
+      "licence": "CC0"
+    }
+  },
+  "patrimoine_mondial": [
+    {
+      "nom": "Forts de la côte ghanéenne",
+      "wikidata": "Q778743",
+      "unesco_id": "34",
+      "url_unesco": "https://whc.unesco.org/fr/list/34",
+      "coordonnees": {
+        "lat": 5.103694444,
+        "lng": -1.241
+      },
+      "inscription": "1979"
+    },
+    {
+      "nom": "bâtiments traditionnels Ashantis",
+      "wikidata": "Q1141003",
+      "unesco_id": "35",
+      "url_unesco": "https://whc.unesco.org/fr/list/35",
+      "coordonnees": {
+        "lat": 6.40111,
+        "lng": -1.62583
+      },
+      "inscription": "1980"
+    }
+  ],
+  "patrimoine_immateriel": [
+    {
+      "titre_en": "Highlife music and dance",
+      "liste": "Liste représentative",
+      "unesco_id": "02141",
+      "url": "https://ich.unesco.org/en/RL/highlife-music-and-dance-02141"
+    },
+    {
+      "titre_en": "Craftsmanship of traditional woven textile Kente",
+      "liste": "Liste représentative",
+      "unesco_id": "02130",
+      "url": "https://ich.unesco.org/en/RL/craftsmanship-of-traditional-woven-textile-kente-02130"
+    }
+  ],
+  "patrimoine_immateriel_source": "https://ich.unesco.org/en/state/ghana-GH",
+  "langues": [
+    {
+      "nom": "baoulé",
+      "wikidata": "Q35107",
+      "glottocode": "baou1238",
+      "officielle": false
+    },
+    {
+      "nom": "Bono",
+      "wikidata": "Q34831",
+      "glottocode": "abro1238",
+      "officielle": false
+    },
+    {
+      "nom": "adangbe",
+      "wikidata": "Q34730",
+      "glottocode": "adan1248",
+      "officielle": false
+    },
+    {
+      "nom": "ahanta",
+      "wikidata": "Q34729",
+      "glottocode": "ahan1243",
+      "officielle": false
+    },
+    {
+      "nom": "animere",
+      "wikidata": "Q34783",
+      "glottocode": "anim1239",
+      "officielle": false
+    },
+    {
+      "nom": "avatime",
+      "wikidata": "Q34796",
+      "glottocode": "avat1244",
+      "officielle": false
+    },
+    {
+      "nom": "anufo",
+      "wikidata": "Q34845",
+      "glottocode": "anuf1239",
+      "officielle": false
+    },
+    {
+      "nom": "efutu",
+      "wikidata": "Q34847",
+      "glottocode": "awut1241",
+      "officielle": false
+    },
+    {
+      "nom": "bimoba",
+      "wikidata": "Q34971",
+      "glottocode": "bimo1239",
+      "officielle": false
+    },
+    {
+      "nom": "ikposso",
+      "wikidata": "Q35029",
+      "glottocode": "ikpo1238",
+      "officielle": false
+    },
+    {
+      "nom": "adangme",
+      "wikidata": "Q35141",
+      "glottocode": "adan1247",
+      "officielle": false
+    },
+    {
+      "nom": "dagaare",
+      "wikidata": "Q35159",
+      "glottocode": "sout2789",
+      "officielle": false
+    },
+    {
+      "nom": "chala",
+      "wikidata": "Q35190",
+      "glottocode": "chal1269",
+      "officielle": false
+    },
+    {
+      "nom": "degha",
+      "wikidata": "Q35183",
+      "glottocode": "degg1238",
+      "officielle": false
+    },
+    {
+      "nom": "chumburung",
+      "wikidata": "Q35198",
+      "glottocode": "chum1261",
+      "officielle": false
+    },
+    {
+      "nom": "chakali",
+      "wikidata": "Q35206",
+      "glottocode": "chak1271",
+      "officielle": false
+    },
+    {
+      "nom": "ntrubo",
+      "wikidata": "Q35195",
+      "glottocode": "delo1240",
+      "officielle": false
+    },
+    {
+      "nom": "dwang",
+      "wikidata": "Q35258",
+      "glottocode": "dwan1238",
+      "officielle": false
+    },
+    {
+      "nom": "gikyode",
+      "wikidata": "Q35256",
+      "glottocode": "giky1238",
+      "officielle": false
+    },
+    {
+      "nom": "gonja",
+      "wikidata": "Q35267",
+      "glottocode": "gonj1241",
+      "officielle": false
+    },
+    {
+      "nom": "dompo",
+      "wikidata": "Q35270",
+      "glottocode": "domp1238",
+      "officielle": false
+    },
+    {
+      "nom": "langue des signes ghanéenne",
+      "wikidata": "Q35289",
+      "glottocode": "ghan1235",
+      "officielle": false
+    },
+    {
+      "nom": "gurenne",
+      "wikidata": "Q35331",
+      "glottocode": "fare1241",
+      "officielle": false
+    },
+    {
+      "nom": "gua",
+      "wikidata": "Q35422",
+      "glottocode": "guaa1238",
+      "officielle": false
+    },
+    {
+      "nom": "hanga",
+      "wikidata": "Q35426",
+      "glottocode": "hang1258",
+      "officielle": false
+    },
+    {
+      "nom": "kassem",
+      "wikidata": "Q35552",
+      "glottocode": "kase1253",
+      "officielle": false
+    },
+    {
+      "nom": "kamara",
+      "wikidata": "Q35561",
+      "glottocode": "kama1357",
+      "officielle": false
+    },
+    {
+      "nom": "fanti",
+      "wikidata": "Q35570",
+      "glottocode": "fant1241",
+      "officielle": false
+    },
+    {
+      "nom": "lelemi",
+      "wikidata": "Q35585",
+      "glottocode": "lele1264",
+      "officielle": false
+    },
+    {
+      "nom": "kplang",
+      "wikidata": "Q35628",
+      "glottocode": "kpla1238",
+      "officielle": false
+    },
+    {
+      "nom": "koma",
+      "wikidata": "Q35680",
+      "glottocode": "konn1242",
+      "officielle": false
+    },
+    {
+      "nom": "larteh",
+      "wikidata": "Q35639",
+      "glottocode": "lart1238",
+      "officielle": false
+    },
+    {
+      "nom": "kantosi",
+      "wikidata": "Q35651",
+      "glottocode": "kant1249",
+      "officielle": false
+    },
+    {
+      "nom": "krache",
+      "wikidata": "Q35658",
+      "glottocode": "krac1238",
+      "officielle": false
+    },
+    {
+      "nom": "konkomba",
+      "wikidata": "Q35674",
+      "glottocode": "konk1269",
+      "officielle": false
+    },
+    {
+      "nom": "kusaal",
+      "wikidata": "Q35708",
+      "glottocode": "kusa1250",
+      "officielle": false
+    },
+    {
+      "nom": "mamprusi",
+      "wikidata": "Q35804",
+      "glottocode": "mamp1244",
+      "officielle": false
+    },
+    {
+      "nom": "logba",
+      "wikidata": "Q35813",
+      "glottocode": "logb1245",
+      "officielle": false
+    },
+    {
+      "nom": "nkonya",
+      "wikidata": "Q35867",
+      "glottocode": "nkon1245",
+      "officielle": false
+    },
+    {
+      "nom": "nawuri",
+      "wikidata": "Q35906",
+      "glottocode": "nawu1242",
+      "officielle": false
+    },
+    {
+      "nom": "nawdm",
+      "wikidata": "Q36085",
+      "glottocode": "nawd1238",
+      "officielle": false
+    },
+    {
+      "nom": "mooré",
+      "wikidata": "Q36096",
+      "glottocode": "moss1236",
+      "officielle": false
+    },
+    {
+      "nom": "nchumbulu",
+      "wikidata": "Q36143",
+      "glottocode": "nchu1238",
+      "officielle": false
+    },
+    {
+      "nom": "nyangbo",
+      "wikidata": "Q36256",
+      "glottocode": "nyan1302",
+      "officielle": false
+    },
+    {
+      "nom": "ntcham",
+      "wikidata": "Q36266",
+      "glottocode": "ntch1242",
+      "officielle": false
+    },
+    {
+      "nom": "sekpele",
+      "wikidata": "Q36257",
+      "glottocode": "sekp1241",
+      "officielle": false
+    },
+    {
+      "nom": "selee",
+      "wikidata": "Q36272",
+      "glottocode": "sele1249",
+      "officielle": false
+    },
+    {
+      "nom": "nzema",
+      "wikidata": "Q36337",
+      "glottocode": "nzim1238",
+      "officielle": false
+    },
+    {
+      "nom": "jwira-pepesa",
+      "wikidata": "Q35467",
+      "glottocode": "pepe1238",
+      "officielle": false
+    },
+    {
+      "nom": "buli",
+      "wikidata": "Q35085",
+      "glottocode": "buli1254",
+      "officielle": false
+    },
+    {
+      "nom": "Cherepon",
+      "wikidata": "Q35181",
+      "glottocode": "cher1271",
+      "officielle": false
+    },
+    {
+      "nom": "wali",
+      "wikidata": "Q36895",
+      "glottocode": "wali1263",
+      "officielle": false
+    },
+    {
+      "nom": "koulango de Bondoukou",
+      "wikidata": "Q11031321",
+      "glottocode": "bond1246",
+      "officielle": false
+    },
+    {
+      "nom": "pidgin ghanéen",
+      "wikidata": "Q5555465",
+      "glottocode": "ghan1244",
+      "officielle": false
+    },
+    {
+      "nom": "anglais",
+      "wikidata": "Q1860",
+      "glottocode": "stan1293",
+      "officielle": true
+    },
+    {
+      "nom": "dagbanli",
+      "wikidata": "Q32238",
+      "glottocode": "dagb1246",
+      "officielle": false
+    },
+    {
+      "nom": "sisaala de l'Ouest",
+      "wikidata": "Q11154776",
+      "glottocode": "west2465",
+      "officielle": false
+    },
+    {
+      "nom": "nabit",
+      "wikidata": "Q20707795",
+      "glottocode": null,
+      "officielle": false
+    },
+    {
+      "nom": "birifor du Sud",
+      "wikidata": "Q32859745",
+      "glottocode": "sout2790",
+      "officielle": false
+    },
+    {
+      "nom": "bissa",
+      "wikidata": "Q32934",
+      "glottocode": "biss1248",
+      "officielle": false
+    },
+    {
+      "nom": "haoussa",
+      "wikidata": "Q56475",
+      "glottocode": "haus1257",
+      "officielle": false
+    },
+    {
+      "nom": "mpra",
+      "wikidata": "Q278041",
+      "glottocode": "mpra1235",
+      "officielle": false
+    },
+    {
+      "nom": "nterato",
+      "wikidata": "Q19757590",
+      "glottocode": "nter1234",
+      "officielle": false
+    },
+    {
+      "nom": "Siti",
+      "wikidata": "Q25047893",
+      "glottocode": "siti1241",
+      "officielle": false
+    },
+    {
+      "nom": "ga",
+      "wikidata": "Q33287",
+      "glottocode": "gaaa1244",
+      "officielle": false
+    },
+    {
+      "nom": "ligbi",
+      "wikidata": "Q33594",
+      "glottocode": "ligb1244",
+      "officielle": false
+    },
+    {
+      "nom": "anglais du Ghana",
+      "wikidata": "Q25105912",
+      "glottocode": "ghan1247",
+      "officielle": false
+    },
+    {
+      "nom": "éwé",
+      "wikidata": "Q30005",
+      "glottocode": "ewee1241",
+      "officielle": false
+    },
+    {
+      "nom": "langue des signes de Nanabin",
+      "wikidata": "Q6962330",
+      "glottocode": "nana1261",
+      "officielle": false
+    },
+    {
+      "nom": "koulango",
+      "wikidata": "Q35731",
+      "glottocode": "kula1277",
+      "officielle": false
+    },
+    {
+      "nom": "moba-bimoba",
+      "wikidata": "Q36010",
+      "glottocode": "moba1243",
+      "officielle": false
+    },
+    {
+      "nom": "sisaala tumulung",
+      "wikidata": "Q25383006",
+      "glottocode": "tumu1242",
+      "officielle": false
+    },
+    {
+      "nom": "paasaal",
+      "wikidata": "Q36426",
+      "glottocode": "paas1238",
+      "officielle": false
+    },
+    {
+      "nom": "safaliba",
+      "wikidata": "Q36432",
+      "glottocode": "safa1243",
+      "officielle": false
+    },
+    {
+      "nom": "siwu",
+      "wikidata": "Q36470",
+      "glottocode": "siwu1238",
+      "officielle": false
+    },
+    {
+      "nom": "tafi",
+      "wikidata": "Q36545",
+      "glottocode": "tafi1243",
+      "officielle": false
+    },
+    {
+      "nom": "tampulma",
+      "wikidata": "Q36590",
+      "glottocode": "tamp1252",
+      "officielle": false
+    },
+    {
+      "nom": "sehwi",
+      "wikidata": "Q36593",
+      "glottocode": "sehw1238",
+      "officielle": false
+    },
+    {
+      "nom": "vagla",
+      "wikidata": "Q36637",
+      "glottocode": "vagl1239",
+      "officielle": false
+    },
+    {
+      "nom": "nkami",
+      "wikidata": "Q7042522",
+      "glottocode": "nkam1239",
+      "officielle": false
+    },
+    {
+      "nom": "twi",
+      "wikidata": "Q36850",
+      "glottocode": "twii1234",
+      "officielle": false
+    },
+    {
+      "nom": "nyangbo-tafi",
+      "wikidata": "Q7070884",
+      "glottocode": "nyan1316",
+      "officielle": false
+    },
+    {
+      "nom": "wasa",
+      "wikidata": "Q36914",
+      "glottocode": "wasa1244",
+      "officielle": false
+    },
+    {
+      "nom": "tuwuli",
+      "wikidata": "Q36974",
+      "glottocode": "tuwu1238",
+      "officielle": false
+    },
+    {
+      "nom": "Yidana",
+      "wikidata": "Q107222330",
+      "glottocode": null,
+      "officielle": false
+    },
+    {
+      "nom": "langue des signes d'Adamorobe",
+      "wikidata": "Q27709",
+      "glottocode": "adam1238",
+      "officielle": false
+    },
+    {
+      "nom": "adele",
+      "wikidata": "Q27740",
+      "glottocode": "adel1244",
+      "officielle": false
+    },
+    {
+      "nom": "Baasaari",
+      "wikidata": "Q111285901",
+      "glottocode": null,
+      "officielle": false
+    },
+    {
+      "nom": "Awutu",
+      "wikidata": "Q124971195",
+      "glottocode": null,
+      "officielle": false
+    },
+    {
+      "nom": "nafaanra",
+      "wikidata": "Q13297",
+      "glottocode": "nafa1258",
+      "officielle": false
+    },
+    {
+      "nom": "akan",
+      "wikidata": "Q28026",
+      "glottocode": "akan1250",
+      "officielle": false
+    },
+    {
+      "nom": "agni",
+      "wikidata": "Q28395",
+      "glottocode": "anyi1245",
+      "officielle": false
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "code": "RW",
+  "nom": "Rwanda",
+  "region": "est",
+  "collecte_le": "2026-11-21",
+  "wikidata": "Q1037",
+  "identite": {
+    "nom_wikidata": "Rwanda",
+    "capitale": "Kigali",
+    "population": {
+      "valeur": 14569341,
+      "date": "2025-01-01"
+    },
+    "superficie_km2": 26338,
+    "monnaie": "franc rwandais",
+    "source": {
+      "titre": "Wikidata Q1037",
+      "url": "https://www.wikidata.org/wiki/Q1037",
+      "licence": "CC0"
+    }
+  },
+  "patrimoine_mondial": [
+    {
+      "nom": "Parc national de Nyungwe",
+      "wikidata": "Q1356828",
+      "unesco_id": "1697",
+      "url_unesco": "https://whc.unesco.org/fr/list/1697",
+      "coordonnees": {
+        "lat": -2.5282157,
+        "lng": 29.2758463
+      },
+      "inscription": "2023"
+    },
+    {
+      "nom": "Sites mémoriaux du génocide : Nyamata, Murambi, Bisesero et Gisozi",
+      "wikidata": "Q56293252",
+      "unesco_id": "1586",
+      "url_unesco": "https://whc.unesco.org/fr/list/1586",
+      "coordonnees": null,
+      "inscription": "2023"
+    }
+  ],
+  "patrimoine_immateriel": [
+    {
+      "titre_en": "Intore",
+      "liste": "Liste représentative",
+      "unesco_id": "02129",
+      "url": "https://ich.unesco.org/en/RL/intore-02129"
+    }
+  ],
+  "patrimoine_immateriel_source": "https://ich.unesco.org/en/state/rwanda-RW",
+  "langues": [
+    {
+      "nom": "anglais",
+      "wikidata": "Q1860",
+      "glottocode": "stan1293",
+      "officielle": true
+    },
+    {
+      "nom": "français",
+      "wikidata": "Q150",
+      "glottocode": "stan1290",
+      "officielle": true
+    },
+    {
+      "nom": "swahili",
+      "wikidata": "Q7838",
+      "glottocode": "swah1254",
+      "officielle": true
+    },
+    {
+      "nom": "kinyarwanda",
+      "wikidata": "Q33573",
+      "glottocode": "kiny1244",
+      "officielle": true
+    },
+    {
+      "nom": "Rwandan Sign Language",
+      "wikidata": "Q25041935",
+      "glottocode": "rwan1246",
+      "officielle": false
+    },
+    {
+      "nom": "Rwandan English",
+      "wikidata": "Q137482449",
+      "glottocode": "rwan1247",
+      "officielle": false
+    }
+  ]
+}

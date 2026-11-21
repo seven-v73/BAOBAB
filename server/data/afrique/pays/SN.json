@@ -1,0 +1,4274 @@
+{
+  "code": "SN",
+  "nom": "Sénégal",
+  "region": "ouest",
+  "wikidata": "Q1041",
+  "maj": "2026-11-21",
+  "pays": {
+    "nom_officiel": "République du Sénégal",
+    "capitale": "Dakar",
+    "langues_officielles": [
+      "français"
+    ],
+    "langues_nationales": [
+      "wolof",
+      "diola (jola)",
+      "malinké (mandingue)",
+      "pulaar (peul)",
+      "sérère",
+      "soninké",
+      "hassanya",
+      "balante",
+      "mancagne",
+      "noon",
+      "manjaque",
+      "ménik",
+      "oniyan",
+      "saafi-saafi"
+    ],
+    "population": {
+      "valeur": 18032473,
+      "annee": 2023,
+      "source": "S1"
+    },
+    "superficie_km2": 196722,
+    "monnaie": "Franc CFA (UEMOA)",
+    "resume": "Le Sénégal est un pays d'Afrique de l'Ouest ouvert sur l'Atlantique, dont la capitale est Dakar, à l'extrémité de la presqu'île du Cap-Vert. Son territoire a abrité des mégalithes, des amas coquilliers et de grands royaumes (Tekrour, Djolof, Sine, Saloum, Cayor, Waalo) bien avant les comptoirs européens de la côte. Saint-Louis et Gorée furent des places majeures de la traite atlantique puis de la colonisation française, avant l'indépendance proclamée le 20 août 1960. Le pays réunit de nombreuses langues et communautés (wolof, pulaar, sérère, diola, mandingue, soninké, bassari, bédik et d'autres) et trois éléments inscrits au patrimoine culturel immatériel de l'humanité, ainsi que sept biens du patrimoine mondial.",
+    "sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ]
+  },
+  "langues": [
+    {
+      "id": "SN-langue-wolof",
+      "nom": "Wolof",
+      "nom_local": "Wolof",
+      "description": "Le wolof est la langue la plus répandue du Sénégal : selon Wikipédia, près de 90 % des habitants la comprennent alors que les Wolofs forment moins de la moitié de la population, ce qui en fait une langue de communication entre communautés, surtout en ville et dans le commerce. Longtemps noté en écriture arabe adaptée (wolofal), il s'écrit aujourd'hui surtout en alphabet latin. Il est aussi langue nationale en Gambie et en Mauritanie.",
+      "famille": "Niger-Congo, Atlantic-Congo, Atlantique du Nord-Centre, Wolofic",
+      "glottocode": "nucl1347",
+      "statut_linguistique": [
+        "nationale",
+        "véhiculaire"
+      ],
+      "wikidata": "Q34257",
+      "sources": [
+        "S6",
+        "S7",
+        "S1"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Glottocode nucl1347 confirmé sur Glottolog (S6) ; QID Q34257 = langue wolof."
+      },
+      "ecritures": [
+        "latin",
+        "ajami (wolofal)"
+      ],
+      "regions": [
+        "Sénégal (large diffusion)"
+      ]
+    },
+    {
+      "id": "SN-langue-pulaar",
+      "nom": "Pulaar (peul)",
+      "nom_local": "Pulaar",
+      "description": "Le pulaar est le nom que porte au Sénégal la langue peule, parlée par les Peuls et les Toucouleurs (Haalpulaar'en), notamment dans le nord du pays. Elle fait partie d'un ensemble dialectal très étendu, le peul ou fulfulde, présent dans une quinzaine de pays d'Afrique de l'Ouest et centrale. Le pulaar est l'une des six premières langues nationales reconnues par la Constitution de 2001.",
+      "famille": "Niger-Congo, Atlantic-Congo, Atlantique du Nord-Centre, Fula-Sereer, Fula",
+      "glottocode": "pula1263",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q1420205",
+      "sources": [
+        "S8",
+        "S9",
+        "S10",
+        "S1"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Fouta-Toro",
+        "nord du Sénégal"
+      ]
+    },
+    {
+      "id": "SN-langue-sereer",
+      "nom": "Sérère (seereer)",
+      "nom_local": "Seereer",
+      "description": "Le sérère est la langue des Sérères du centre-ouest du Sénégal et d'une partie de la Gambie. Wikipédia, d'après un recensement de 2002, compte environ 1,15 million de locuteurs au Sénégal. Il s'écrit en alphabet latin avec une orthographe fixée par décret.",
+      "famille": "Niger-Congo, Atlantic-Congo, Atlantique du Nord-Centre, Fula-Sereer",
+      "glottocode": "sere1260",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q36284",
+      "sources": [
+        "S12",
+        "S11",
+        "S13",
+        "S1"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Locuteurs 1 154 760 au Sénégal (2002) confirmés par S11 ; glottocode sere1260 confirmé ; QID Q36284 = serer."
+      },
+      "ecritures": [
+        "latin"
+      ],
+      "locuteurs": {
+        "valeur": 1154760,
+        "annee": 2002,
+        "source": "S11"
+      }
+    },
+    {
+      "id": "SN-langue-jola-fonyi",
+      "nom": "Diola-Fogny (jola-fonyi)",
+      "nom_local": "Joola Foñi",
+      "description": "Le diola-fogny est l'une des langues jola, parlées par les Diolas de Casamance. La Constitution de 2001 reconnaît le diola parmi les six premières langues nationales du Sénégal. Le nom de Jola-Fonyi est la forme donnée par Glottolog pour cette langue.",
+      "famille": "Niger-Congo, Atlantic-Congo, Atlantique du Nord-Centre, Bak, Joola-Manjaku, Jola",
+      "glottocode": "jola1263",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q3507832",
+      "sources": [
+        "S14",
+        "S1"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Casamance"
+      ]
+    },
+    {
+      "id": "SN-langue-mandinka",
+      "nom": "Mandinka (mandingue)",
+      "nom_local": "Mandinka",
+      "description": "Le mandinka est une langue mandingue parlée au Sénégal surtout dans le sud-est et le sud-centre. Wikipédia, d'après un décompte de 2002, y relève 606 645 locuteurs. Il s'écrit tantôt en alphabet latin, tantôt en écriture arabe (ajami), cette dernière étant la plus traditionnelle.",
+      "famille": "Mande, Mande occidental, Manding, West Manding",
+      "glottocode": "mand1436",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q33678",
+      "sources": [
+        "S16",
+        "S15",
+        "S1"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "606 645 locuteurs au Sénégal (2002) et glottocode mand1436 confirmés par S15 ; QID Q33678 ok."
+      },
+      "ecritures": [
+        "latin",
+        "ajami"
+      ],
+      "regions": [
+        "sud-est",
+        "sud-centre"
+      ],
+      "locuteurs": {
+        "valeur": 606645,
+        "annee": 2002,
+        "source": "S15"
+      }
+    },
+    {
+      "id": "SN-langue-soninke",
+      "nom": "Soninké",
+      "nom_local": "Sooninkanxanne",
+      "description": "Le soninké est une langue mandée parlée par les Soninkés au Mali, au Sénégal, en Mauritanie et dans plusieurs pays voisins. Wikipédia estime à environ un million les locuteurs au Sénégal (estimation de 2012). Il s'écrit en alphabet latin, dont l'orthographe sénégalaise est fixée par un décret de 2005, ou en caractères arabes (ajami).",
+      "famille": "Mande, Mande occidental du Nord-Ouest, Soninke-Bozo",
+      "glottocode": "soni1259",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q36660",
+      "sources": [
+        "S18",
+        "S17",
+        "S1"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Environ 1 000 000 locuteurs au Sénégal (estimation 2012) et glottocode soni1259 confirmés par S17 ; QID Q36660 ok."
+      },
+      "ecritures": [
+        "latin",
+        "ajami"
+      ],
+      "locuteurs": {
+        "valeur": 1000000,
+        "annee": 2012,
+        "source": "S17"
+      }
+    },
+    {
+      "id": "SN-langue-balanta-ganja",
+      "nom": "Balante-ganja",
+      "nom_local": "Balanta-Ganja",
+      "description": "Le balante-ganja est une des variétés de la langue balante, parlée par les Balantes de Casamance, de Guinée-Bissau et de Gambie. Le balante figure parmi les langues promues au rang de langues nationales peu après 2001, d'après Wikipédia.",
+      "famille": "Niger-Congo, Atlantic-Congo, Atlantique du Nord-Centre, Bak, Balanta",
+      "glottocode": "bala1302",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q19359034",
+      "sources": [
+        "S19",
+        "S20",
+        "S1"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Glottocode bala1302 confirmé sur Glottolog (S19) ; QID Q19359034 = Balanta-Ganja."
+      },
+      "regions": [
+        "Casamance"
+      ]
+    },
+    {
+      "id": "SN-langue-noon",
+      "nom": "Noon",
+      "nom_local": "Noon",
+      "description": "Le noon est une langue du groupe cangin, que Glottolog range avec le saafi et le lehar. Elle est l'une des langues reconnues comme nationales au Sénégal peu après les six premières.",
+      "famille": "Niger-Congo, Atlantic-Congo, Cangin",
+      "glottocode": "noon1242",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q36304",
+      "sources": [
+        "S21",
+        "S22",
+        "S1"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-langue-saafi",
+      "nom": "Saafi-saafi",
+      "nom_local": "Saafi-Saafi",
+      "description": "Le saafi-saafi est une langue cangin, de la même branche que le noon. Elle fait partie des trois langues ajoutées à la liste des langues nationales après les onze premières, d'après Wikipédia.",
+      "famille": "Niger-Congo, Atlantic-Congo, Cangin, Saafi-Noon-Lehar",
+      "glottocode": "saaf1238",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q36308",
+      "sources": [
+        "S23",
+        "S1"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-langue-mankanya",
+      "nom": "Mancagne (mankanya)",
+      "nom_local": "Mankanya",
+      "description": "Le mancagne (mankanya) est une langue de la famille bak, proche du manjak et du papel, du groupe manjaku-mankanya-pepel selon Glottolog. Il figure parmi les langues promues au rang de langues nationales en complément des six premières.",
+      "famille": "Niger-Congo, Atlantic-Congo, Atlantique du Nord-Centre, Bak, Joola-Manjaku",
+      "glottocode": "mank1251",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q35789",
+      "sources": [
+        "S24",
+        "S1"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-langue-mandjak",
+      "nom": "Manjaque (mandjak)",
+      "nom_local": "Mandjak",
+      "description": "Le manjaque est la langue des Manjaques, présents en Guinée-Bissau, en Casamance et en Gambie. C'est une langue de la famille bak, reconnue parmi les langues nationales du Sénégal.",
+      "famille": "Niger-Congo, Atlantic-Congo, Atlantique du Nord-Centre, Bak, Joola-Manjaku",
+      "glottocode": "mand1419",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q35822",
+      "sources": [
+        "S25",
+        "S26",
+        "S1"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Casamance"
+      ]
+    },
+    {
+      "id": "SN-langue-hassaniyya",
+      "nom": "Hassanya (arabe hassaniyya)",
+      "nom_local": "Ḥassāniyya",
+      "description": "Le hassanya est une variété d'arabe parlée au Sahara occidental, en Mauritanie et au Sénégal. Essentiellement orale, elle a une poésie notée en caractères arabes ; la plupart des écrits restent en arabe littéraire. Elle est l'une des langues promues au rang de langues nationales du Sénégal.",
+      "famille": "Afro-Asiatique, sémitique, arabe maghrébin",
+      "glottocode": "hass1238",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q56231",
+      "sources": [
+        "S27",
+        "S28",
+        "S1"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "ecritures": [
+        "arabe"
+      ]
+    },
+    {
+      "id": "SN-langue-bassari",
+      "nom": "Bassari",
+      "description": "Le bassari est la langue des Bassaris, installés sur les plateaux du Sénégal oriental, au nord de la Guinée et en Guinée-Bissau. Elle appartient au groupe tenda, avec le bédik. Le Pays bassari, inscrit au patrimoine mondial, est le cadre de cette culture.",
+      "famille": "Niger-Congo, Atlantic-Congo, Atlantique du Nord-Centre, Tenda",
+      "glottocode": "bass1258",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "wikidata": "Q35098",
+      "sources": [
+        "S29",
+        "S30",
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Sénégal oriental"
+      ]
+    },
+    {
+      "id": "SN-langue-bedik",
+      "nom": "Bédik",
+      "nom_local": "Bedik",
+      "description": "Le bédik est la langue des Bédik, communauté de moins de 1 % de la population sénégalaise selon Wikipédia, établie autour de Bandafassi dans le sud-est du pays. Il appartient au groupe tenda comme le bassari.",
+      "famille": "Niger-Congo, Atlantic-Congo, Atlantique du Nord-Centre, Tenda",
+      "glottocode": "bedi1235",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "wikidata": "Q35096",
+      "sources": [
+        "S32",
+        "S33",
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Sénégal oriental",
+        "Bandafassi"
+      ]
+    },
+    {
+      "id": "SN-langue-francais",
+      "nom": "Français",
+      "nom_local": "Français",
+      "description": "Le français est la seule langue officielle du Sénégal : il sert à l'administration, à l'enseignement et aux médias. Wikipédia relève qu'il est parlé par 29 % des Sénégalais en 2014 et que l'école publique s'y déroule, avec le projet d'introduire davantage de langues nationales. Il coexiste avec le wolof et les autres langues dans la vie quotidienne.",
+      "famille": "Indo-européen, roman",
+      "glottocode": "stan1290",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "wikidata": "Q150",
+      "sources": [
+        "S34",
+        "S1",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "ecritures": [
+        "latin"
+      ]
+    }
+  ],
+  "peuples": [
+    {
+      "id": "SN-peuple-wolof",
+      "nom": "Wolofs",
+      "wikidata": "Q217397",
+      "description": "Les Wolofs forment la communauté la plus nombreuse du Sénégal, où ils vivent en majorité, ainsi qu'en Mauritanie et en Gambie. Leur langue, le wolof, est devenue la langue de communication entre communautés, bien au-delà de leur seul groupe. Une importante diaspora wolof existe en Afrique, en Europe et en Amérique du Nord.",
+      "langues": [
+        "wolof"
+      ],
+      "regions": [
+        "Sénégal"
+      ],
+      "pays_partages": [
+        "MR",
+        "GM"
+      ],
+      "sources": [
+        "S35",
+        "S1",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-peuple-peul",
+      "nom": "Peuls (Fulɓe)",
+      "wikidata": "Q202575",
+      "description": "Les Peuls, qui se désignent eux-mêmes Fulɓe (singulier Pullo), sont un peuple traditionnellement pasteur établi dans toute l'Afrique de l'Ouest et au-delà, dans une quinzaine de pays. Leur langue est le peul, appelé pulaar au Sénégal. Au Sénégal, le Pays bassari inclut une zone peule autour de Dindéfello.",
+      "langues": [
+        "pulaar"
+      ],
+      "regions": [
+        "Sénégal",
+        "Dindéfello (Pays bassari)"
+      ],
+      "pays_partages": [
+        "ML",
+        "MR",
+        "GM",
+        "GN"
+      ],
+      "activites": [
+        "élevage"
+      ],
+      "sources": [
+        "S36",
+        "S9"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-peuple-serere",
+      "nom": "Sérères (Seereer)",
+      "wikidata": "Q739970",
+      "description": "Les Sérères vivent surtout au centre-ouest du Sénégal, du sud de la région de Dakar jusqu'à la frontière gambienne, et forment la troisième communauté du pays par le nombre. Des groupes sérères existent aussi en Gambie et en Mauritanie. Leur histoire est liée aux royaumes du Sine et du Saloum, et des pratiques comme la divination xooy, inscrite par l'UNESCO, appartiennent à leur patrimoine.",
+      "langues": [
+        "sérère"
+      ],
+      "regions": [
+        "Sine-Saloum",
+        "Petite-Côte"
+      ],
+      "pays_partages": [
+        "GM",
+        "MR"
+      ],
+      "sources": [
+        "S13",
+        "S37",
+        "S38",
+        "S39",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-peuple-haalpulaar",
+      "nom": "Toucouleurs (Haalpulaar'en)",
+      "wikidata": "Q864920",
+      "description": "Les Toucouleurs, qui se nomment aussi Haalpulaar'en ou Fulbé du Fouta-Toro, sont une population d'origine et de langue peule, établie surtout dans le nord du Sénégal, le sud de la Mauritanie, au Mali et en Guinée. Le terme « toucouleur » est une dénomination extérieure, tandis que Pulaar renvoie à leur langue. Ils sont liés à l'histoire du Tekrour et du Fouta-Toro.",
+      "langues": [
+        "pulaar"
+      ],
+      "regions": [
+        "Fouta-Toro",
+        "nord du Sénégal"
+      ],
+      "pays_partages": [
+        "MR",
+        "ML",
+        "GN"
+      ],
+      "sources": [
+        "S10",
+        "S1"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-peuple-diola",
+      "nom": "Diolas (Jola)",
+      "wikidata": "Q1226906",
+      "description": "Les Diolas vivent en Casamance, en Gambie et en Guinée-Bissau et se reconnaissent par l'usage des langues diola. Ils comprennent plusieurs sous-groupes et ont connu des contacts avec les puissances britannique, française et portugaise. La figure d'Aline Sitoé Diatta, résistante de Basse-Casamance, et la danse du kumpo font partie de leur mémoire.",
+      "langues": [
+        "diola-fogny"
+      ],
+      "regions": [
+        "Casamance",
+        "Basse-Casamance"
+      ],
+      "pays_partages": [
+        "GM",
+        "GW"
+      ],
+      "sources": [
+        "S40",
+        "S41",
+        "S42"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-peuple-mandingue",
+      "nom": "Mandingues (Malinké)",
+      "wikidata": "Q819186",
+      "description": "Les Mandingues, aussi appelés Malinké selon les régions, sont un peuple d'Afrique de l'Ouest parlant les langues mandingues et rattaché historiquement à l'empire du Mali. Au Sénégal, leur langue mandinka est surtout parlée dans le sud-est et le sud-centre. La tradition des griots (djéli) et de la kora leur est associée, ainsi que le rite kankurang.",
+      "langues": [
+        "mandinka"
+      ],
+      "regions": [
+        "sud-est",
+        "sud-centre"
+      ],
+      "sources": [
+        "S43",
+        "S15",
+        "S44",
+        "S45"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-peuple-soninke",
+      "nom": "Soninkés",
+      "wikidata": "Q1146970",
+      "description": "Les Soninkés, appelés aussi Maraka, sont un peuple du Sahel ouest-africain installé au Mali, au Sénégal, en Mauritanie, en Gambie et dans d'autres pays. Ils se rattachent à l'empire du Wagadu et sont réputés pour leur culture cavalière et leur rôle de commerçants. Leur langue, le soninké, est une langue mandée.",
+      "langues": [
+        "soninké"
+      ],
+      "pays_partages": [
+        "ML",
+        "MR",
+        "GM",
+        "GN",
+        "GW",
+        "CI",
+        "BF"
+      ],
+      "activites": [
+        "commerce"
+      ],
+      "sources": [
+        "S46",
+        "S17"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-peuple-lebou",
+      "nom": "Lébous",
+      "wikidata": "Q3270067",
+      "description": "Les Lébous forment une communauté emblématique de la presqu'île du Cap-Vert, où se trouve Dakar, établie sur cette côte depuis plusieurs siècles. Selon la chronologie du Sénégal, une communauté autonome puis une République léboue indépendante du Cayor y apparaissent à la fin du XVIIIe siècle. Wikipédia les compte avec les Wolofs et signale que l'origine ancienne avancée par Cheikh Anta Diop reste controversée.",
+      "langues": [
+        "wolof"
+      ],
+      "regions": [
+        "presqu'île du Cap-Vert",
+        "Dakar"
+      ],
+      "sources": [
+        "S47",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-peuple-bassari",
+      "nom": "Bassaris",
+      "wikidata": "Q810476",
+      "description": "Les Bassaris vivent sur les plateaux du Sénégal oriental, au nord de la Guinée et, en minorité, en Guinée-Bissau. Avec les Bédiks, les Coniaguis et les Badiarankés ils forment le groupe plus large des Tenda. D'après l'UNESCO, leur paysage de terrasses et de rizières est organisé en villages et hameaux, et s'est développé entre le XIe et le XIXe siècle.",
+      "langues": [
+        "bassari"
+      ],
+      "regions": [
+        "Sénégal oriental",
+        "Salémata"
+      ],
+      "pays_partages": [
+        "GN",
+        "GW"
+      ],
+      "sources": [
+        "S30",
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-peuple-bedik",
+      "nom": "Bédiks",
+      "wikidata": "Q2929727",
+      "description": "Les Bédiks sont une population du sud-est du Sénégal, surtout dans l'arrondissement de Bandafassi près de la frontière guinéenne, où le pays est en altitude. Ils forment l'une des plus petites minorités du pays. Leurs villages sont des groupes denses de cases au toit de chaume pentu, selon l'UNESCO.",
+      "langues": [
+        "bédik"
+      ],
+      "regions": [
+        "Bandafassi",
+        "Sénégal oriental"
+      ],
+      "sources": [
+        "S33",
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-peuple-balante",
+      "nom": "Balantes",
+      "wikidata": "Q804639",
+      "description": "Les Balantes sont un peuple surtout présent en Guinée-Bissau, mais aussi en Casamance et en Gambie. Leur nom se serait formé d'une expression signifiant « ils ont refusé », d'après Wikipédia. Leur langue est le balante.",
+      "langues": [
+        "balante-ganja"
+      ],
+      "regions": [
+        "Casamance"
+      ],
+      "pays_partages": [
+        "GW",
+        "GM"
+      ],
+      "sources": [
+        "S48",
+        "S20"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-peuple-manjak",
+      "nom": "Manjaques (Manjaku)",
+      "wikidata": "Q1726724",
+      "description": "Les Manjaques, qui se nomment Manjaku, sont originaires de la région de Cacheu en Guinée-Bissau et vivent aussi en Casamance et en Gambie, avec une diaspora en France et au Portugal. Ils sont connus pour leurs pagnes tissés, dont le Metropolitan Museum conserve des exemplaires des années 1960-1970.",
+      "langues": [
+        "manjaque"
+      ],
+      "regions": [
+        "Casamance"
+      ],
+      "pays_partages": [
+        "GW",
+        "GM"
+      ],
+      "activites": [
+        "tissage"
+      ],
+      "sources": [
+        "S26",
+        "S49"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "id": "SN-site-goree",
+      "nom": "Île de Gorée",
+      "type": "patrimoine_mondial",
+      "wikidata": "Q244347",
+      "description": "Gorée est une île au large de Dakar qui fut du XVe au XIXe siècle le plus grand centre de commerce d'esclaves de la côte africaine. Elle passa successivement sous contrôle portugais, néerlandais, anglais et français, et son architecture oppose les sombres quartiers des captifs aux élégantes maisons des marchands. L'UNESCO la présente aujourd'hui comme un rappel de l'exploitation humaine et un lieu de réconciliation.",
+      "unesco_id": "26",
+      "inscription": 1978,
+      "coordonnees": {
+        "lat": 14.666944,
+        "lng": -17.398333
+      },
+      "regions": [
+        "Dakar"
+      ],
+      "periode": "XVe-XIXe siècle",
+      "sensible": true,
+      "note_sensibilite": "Lieu de mémoire de la traite atlantique : les récits doivent distinguer les faits établis des traditions mémorielles, et rester en lien avec les institutions et acteurs de mémoire sénégalais.",
+      "sources": [
+        "S50",
+        "S51"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Inscription 1978 (id 26) confirmée par UNESCO (S50, S3) ; QID Q244347 ok."
+      }
+    },
+    {
+      "id": "SN-site-saloum",
+      "nom": "Delta du Saloum",
+      "type": "patrimoine_mondial",
+      "wikidata": "Q559363",
+      "description": "Le delta du Saloum est un paysage d'environ 5 000 km² formé par les bras de trois fleuves, avec des chenaux d'eau saumâtre, près de 200 îles et îlots, des mangroves et une forêt sèche. La pêche et la cueillette de coquillages y font vivre les communautés depuis des millénaires. Le site compte 218 amas coquilliers, dont 28 portent des tumulus funéraires où l'on a trouvé des objets remarquables.",
+      "unesco_id": "1359",
+      "inscription": 2011,
+      "coordonnees": {
+        "lat": 13.835278,
+        "lng": -16.498611
+      },
+      "regions": [
+        "Sine-Saloum"
+      ],
+      "sources": [
+        "S52"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Inscription 2011, id 1359 confirmés (S52) ; QID Q559363 ok."
+      }
+    },
+    {
+      "id": "SN-site-niokolo-koba",
+      "nom": "Parc national du Niokolo-Koba",
+      "type": "patrimoine_mondial",
+      "wikidata": "Q679891",
+      "description": "Le parc du Niokolo-Koba s'étend le long de la Gambie, dans une zone bien arrosée de forêts-galeries et de savanes. L'UNESCO y signale une faune très riche : élan de Derby, chimpanzés, lions, léopards, une importante population d'éléphants, ainsi que de nombreux oiseaux, reptiles et amphibiens. C'est un bien inscrit pour sa valeur naturelle.",
+      "unesco_id": "153",
+      "inscription": 1981,
+      "coordonnees": {
+        "lat": 13.074167,
+        "lng": -12.722222
+      },
+      "regions": [
+        "Tambacounda",
+        "Sénégal oriental"
+      ],
+      "sources": [
+        "S53"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Inscription 1981, id 153 confirmés (S53) ; QID Q679891 ok."
+      }
+    },
+    {
+      "id": "SN-site-djoudj",
+      "nom": "Parc national des oiseaux du Djoudj",
+      "type": "patrimoine_mondial",
+      "wikidata": "Q733676",
+      "description": "Situé dans le delta du fleuve Sénégal, le Djoudj est une zone humide de 16 000 hectares avec un grand lac entouré de ruisseaux, d'étangs et de bras morts. Il offre un refuge vital mais fragile à environ un million et demi d'oiseaux, dont le pélican blanc, le héron pourpre, la spatule africaine, la grande aigrette et le cormoran.",
+      "unesco_id": "25",
+      "inscription": 1981,
+      "coordonnees": {
+        "lat": 16.358495,
+        "lng": -16.274102
+      },
+      "regions": [
+        "delta du fleuve Sénégal"
+      ],
+      "sources": [
+        "S54"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Inscription 1981, id 25 confirmés (S54) ; QID Q733676 ok."
+      }
+    },
+    {
+      "id": "SN-site-saint-louis",
+      "nom": "Île de Saint-Louis",
+      "type": "patrimoine_mondial",
+      "wikidata": "Q1114640",
+      "description": "Saint-Louis fut fondée au XVIIe siècle comme établissement colonial français, puis urbanisée au milieu du XIXe siècle. Capitale du Sénégal de 1872 à 1957, elle a joué un rôle culturel et économique majeur dans toute l'Afrique de l'Ouest. Son site insulaire à l'embouchure du fleuve, son plan régulier, ses quais et son architecture coloniale lui donnent son identité ; le ceebu jën, plat inscrit à l'UNESCO, est né dans les communautés de pêcheurs de l'île.",
+      "unesco_id": "956bis",
+      "inscription": 2000,
+      "coordonnees": {
+        "lat": 16.027781,
+        "lng": -16.504439
+      },
+      "regions": [
+        "Saint-Louis"
+      ],
+      "periode": "depuis le XVIIe siècle",
+      "sources": [
+        "S55",
+        "S56"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Inscription 2000 confirmée (S3 liste du Sénégal), page S55 id 956 ; QID Q1114640 ok."
+      }
+    },
+    {
+      "id": "SN-site-pays-bassari",
+      "nom": "Pays bassari : paysages culturels bassari, peul et bédik",
+      "type": "patrimoine_mondial",
+      "wikidata": "Q2916296",
+      "description": "Situé dans le sud-est du Sénégal, le Pays bassari comprend trois zones : Bassari (Salémata), Bédik (Bandafassi) et Peul (Dindéfello). Les peuples bassari, peul et bédik s'y sont installés entre le XIe et le XIXe siècle et y ont développé des cultures et des habitats adaptés à leur milieu. On y voit des terrasses et rizières, des villages et hameaux, des sites archéologiques et des villages bédiks aux cases de chaume pentues.",
+      "unesco_id": "1407",
+      "inscription": 2012,
+      "coordonnees": {
+        "lat": 12.593333,
+        "lng": -12.845833
+      },
+      "regions": [
+        "Kédougou",
+        "Sénégal oriental"
+      ],
+      "periode": "XIe-XIXe siècle",
+      "sources": [
+        "S31",
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Inscription 2012, id 1407 confirmés (S31) ; QID Q2916296 ok."
+      }
+    },
+    {
+      "id": "SN-site-cercles-megalithiques",
+      "nom": "Cercles mégalithiques de Sénégambie",
+      "type": "patrimoine_mondial",
+      "wikidata": "Q98769058",
+      "description": "Quatre grands ensembles (Sine Ngayène, Wanar, Wassu et Kerbatch) rassemblent plus de 1 000 monuments sur une bande de 100 km de large le long de 350 km du fleuve Gambie. Ces cercles de piliers de latérite et leurs tumuli, dont certains ont été fouillés, sont datés entre le IIIe siècle avant notre ère et le XVIe siècle. Le site, partagé avec la Gambie, témoigne d'une société prospère et très organisée.",
+      "unesco_id": "1226",
+      "inscription": 2006,
+      "coordonnees": {
+        "lat": 13.683333,
+        "lng": -15.516667
+      },
+      "regions": [
+        "Sine-Saloum",
+        "Kaolack"
+      ],
+      "pays_partages": [
+        "GM"
+      ],
+      "periode": "IIIe siècle av. J.-C. – XVIe siècle",
+      "sources": [
+        "S37",
+        "S45",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Inscription 2006 (S3, S45), id 1226, 1000 monuments, 100 km x 350 km, IIIe s. av. J.-C.-XVIe s. confirmés (S37) ; QID Q98769058 ok."
+      }
+    },
+    {
+      "id": "SN-site-touba",
+      "nom": "Touba et sa Grande Mosquée",
+      "type": "ville_historique",
+      "wikidata": "Q657072",
+      "description": "Touba, à 194 km à l'est de Dakar dans la région de Diourbel, est le siège de la confrérie mouride et la deuxième ville du pays. Sa Grande Mosquée, dont la construction fut décidée en 1926 par Cheikh Ahmadou Bamba, est la plus vaste mosquée du Sénégal. La ville accueille chaque année le Grand Magal, grand pèlerinage mouride.",
+      "coordonnees": {
+        "lat": 14.866541,
+        "lng": -15.899427
+      },
+      "regions": [
+        "Diourbel"
+      ],
+      "periode": "depuis la fin du XIXe siècle",
+      "sources": [
+        "S57",
+        "S58",
+        "S59"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-site-mcn",
+      "nom": "Musée des civilisations noires",
+      "type": "musee",
+      "wikidata": "Q59521062",
+      "description": "Musée d'État situé à Dakar, inauguré le 6 décembre 2018, il vise à mettre en avant la contribution de l'Afrique au patrimoine culturel et scientifique mondial. Son idée remonte à Léopold Sédar Senghor, à l'issue du premier Festival mondial des arts nègres de 1966, et sa construction a été financée par la Chine.",
+      "coordonnees": {
+        "lat": 14.67751,
+        "lng": -17.4351
+      },
+      "regions": [
+        "Dakar"
+      ],
+      "periode": "depuis 2018",
+      "sources": [
+        "S60"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Inauguration 6 décembre 2018 à Dakar confirmée (S60) ; QID ok."
+      }
+    },
+    {
+      "id": "SN-site-ifan",
+      "nom": "Musée Théodore-Monod d'art africain",
+      "type": "musee",
+      "wikidata": "Q2629758",
+      "description": "Longtemps appelé musée de Dakar ou musée de l'IFAN, ce musée fait partie de l'Institut fondamental d'Afrique noire, au sein de l'université Cheikh-Anta-Diop. Situé place Soweto, à côté de l'Assemblée nationale, il figure parmi les lieux d'exposition de la Biennale de Dakar.",
+      "coordonnees": {
+        "lat": 14.663307,
+        "lng": -17.438065
+      },
+      "regions": [
+        "Dakar"
+      ],
+      "sources": [
+        "S61"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Ouverture 1938, rattachement à l'IFAN/UCAD confirmés (S61) ; QID ok."
+      }
+    },
+    {
+      "id": "SN-site-renaissance",
+      "nom": "Monument de la Renaissance africaine",
+      "type": "monument",
+      "wikidata": "Q470763",
+      "description": "Ce monument de bronze et de cuivre de 52 mètres domine Dakar depuis l'une des collines des Mamelles, à Ouakam. Il représente un couple et son enfant dressés vers le ciel. Son érection, lancée sous la présidence d'Abdoulaye Wade, a suscité des débats sur son coût et sa conception.",
+      "coordonnees": {
+        "lat": 14.722222,
+        "lng": -17.495
+      },
+      "regions": [
+        "Dakar"
+      ],
+      "sources": [
+        "S62"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-site-joal-fadiouth",
+      "nom": "Joal-Fadiouth",
+      "type": "ville_historique",
+      "wikidata": "Q1340331",
+      "description": "Joal-Fadiouth, à l'extrémité de la Petite-Côte, réunit deux villages : Joal, sur le littoral, et Fadiouth, île artificielle constituée d'amas de coquillages et reliée à la côte par un pont de bois. La ville est le lieu de naissance de Léopold Sédar Senghor. Son peuplement sérère et son histoire de comptoir sont encore discutés.",
+      "coordonnees": {
+        "lat": 14.153139,
+        "lng": -16.831639
+      },
+      "regions": [
+        "Petite-Côte",
+        "Thiès"
+      ],
+      "sources": [
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-site-lac-rose",
+      "nom": "Lac Rose (lac Retba)",
+      "type": "site_naturel",
+      "wikidata": "Q1522557",
+      "description": "Le lac Rose, ou lac Rëtba en wolof, est une lagune côtière fermée d'environ 3 km², à 35 km au nord-est de Dakar. Ses eaux salées prennent une teinte rose à cause d'une algue microscopique. Le sel y est extrait à la main.",
+      "coordonnees": {
+        "lat": 14.838889,
+        "lng": -17.234444
+      },
+      "regions": [
+        "Dakar",
+        "Sangalkam"
+      ],
+      "sources": [
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-site-carabane",
+      "nom": "Île de Carabane (Karabane)",
+      "type": "ville_historique",
+      "wikidata": "Q948468",
+      "description": "Carabane est une île et un village à l'extrême sud-ouest du Sénégal, à l'embouchure du fleuve Casamance. C'est historiquement le premier comptoir colonial français de Casamance. La vie y suit le calendrier de la riziculture et de la pêche.",
+      "coordonnees": {
+        "lat": 12.558972,
+        "lng": -16.698722
+      },
+      "regions": [
+        "Casamance",
+        "Basse-Casamance"
+      ],
+      "sources": [
+        "S64"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-site-rufisque",
+      "nom": "Rufisque",
+      "type": "ville_historique",
+      "wikidata": "Q1019424",
+      "description": "Rufisque est une ville de la presqu'île du Cap-Vert, à 25 km à l'est de Dakar, considérée comme la porte sud de l'agglomération. Des négociants de Saint-Louis y ouvrent un comptoir en 1840 et elle obtient le statut de commune française en 1880. Elle faisait partie des Quatre communes.",
+      "coordonnees": {
+        "lat": 14.714028,
+        "lng": -17.272306
+      },
+      "regions": [
+        "Dakar"
+      ],
+      "sources": [
+        "S65",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-site-maison-esclaves",
+      "nom": "Maison des Esclaves (Gorée)",
+      "type": "lieu_de_memoire",
+      "wikidata": "Q691908",
+      "description": "Cet édifice de la rue Saint-Germain, sur l'île de Gorée, date de 1776 selon Wikipédia. Des études historiques ont montré qu'il n'a pas joué le rôle central qu'on lui prête dans la traite négrière, mais il demeure un lieu de mémoire majeur. Il fait face au Musée de la Femme Henriette-Bathily.",
+      "coordonnees": {
+        "lat": 14.667778,
+        "lng": -17.397222
+      },
+      "regions": [
+        "Dakar",
+        "Gorée"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Lieu de mémoire de la traite : à présenter avec les nuances historiographiques et en concertation avec les institutions de mémoire.",
+      "sources": [
+        "S51"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "traditions": [
+    {
+      "id": "SN-tradition-ceebu-jen",
+      "nom": "Ceebu jën (thiéboudiène), art culinaire du Sénégal",
+      "categorie": "cuisine",
+      "description": "Le ceebu jën est un plat né dans les communautés de pêcheurs de l'île de Saint-Louis, préparé avec du poisson, du riz brisé, du poisson séché, des mollusques et des légumes de saison. La qualité du poisson et le choix des légumes varient selon l'importance de l'occasion et la considération portée à l'invité. Recettes et techniques se transmettent traditionnellement de mère en fille, et le plat se mange le plus souvent avec les mains, selon des usages précis de table.",
+      "nom_local": "Ceebu jën",
+      "communautes": [
+        "pêcheurs de Saint-Louis",
+        "Wolofs"
+      ],
+      "regions": [
+        "Saint-Louis",
+        "tout le Sénégal"
+      ],
+      "langues": [
+        "wolof"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01748",
+        "annee": 2021,
+        "url": "https://ich.unesco.org/en/RL/ceebu-jen-a-culinary-art-of-senegal-01748"
+      },
+      "sources": [
+        "S56",
+        "S55"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Inscription liste représentative 2021, id 01748 confirmée (S56)."
+      }
+    },
+    {
+      "id": "SN-tradition-xooy",
+      "nom": "Xooy, cérémonie de divination des Sérères",
+      "categorie": "rite",
+      "description": "Le xooy est une cérémonie de divination organisée sur les places des villages sérères du centre-ouest du Sénégal avant la saison des pluies. Au cours d'une longue veillée, des maîtres devins appelés saltigues prennent tour à tour la parole dans un cercle pour livrer leurs prédictions, au rythme des tambours. Les réponses portent sur les pluies, les épidémies ou les maladies, et les saltigues transmettent aussi des savoirs sur les plantes et la médiation avec les génies.",
+      "nom_local": "Xooy",
+      "communautes": [
+        "Sérères"
+      ],
+      "regions": [
+        "Sine-Saloum",
+        "centre-ouest du Sénégal"
+      ],
+      "langues": [
+        "sérère"
+      ],
+      "transmission": "vivante",
+      "sensible": true,
+      "note_sensibilite": "Pratique rituelle et savoirs de divination détenus par les saltigues : la fiche doit être validée par la communauté sérère ou une institution partenaire avant publication ; ne rien décrire des contenus ésotériques.",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "00878",
+        "annee": 2013,
+        "url": "https://ich.unesco.org/en/RL/xooy-a-divination-ceremony-among-the-serer-of-senegal-00878"
+      },
+      "sources": [
+        "S39"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Inscription 2013, id 00878 confirmée (S39)."
+      }
+    },
+    {
+      "id": "SN-tradition-kankurang",
+      "nom": "Kankurang, rite initiatique mandingue",
+      "categorie": "rite",
+      "description": "Le kankurang est un rite initiatique pratiqué dans les provinces mandingues du Sénégal et de la Gambie, surtout en Casamance et à Mbour, lié aux cérémonies de circoncision. Un initié revêtu d'un costume de feuilles et d'écorce incarne le personnage, garant de l'ordre et de la justice. Les jeunes y apprennent les règles de la vie en communauté, les plantes et la chasse. L'UNESCO note que la pratique recule avec l'urbanisation et la disparition des forêts sacrées.",
+      "nom_local": "Kankurang",
+      "communautes": [
+        "Mandingues",
+        "autres communautés de Sénégambie"
+      ],
+      "regions": [
+        "Casamance",
+        "Mbour"
+      ],
+      "langues": [
+        "mandinka"
+      ],
+      "pays_partages": [
+        "GM"
+      ],
+      "transmission": "fragile",
+      "sensible": true,
+      "note_sensibilite": "Rite d'initiation et personnage masqué dont les savoirs sont réservés aux initiés : validation communautaire requise ; ne pas détailler les phases secrètes ni reproduire d'images sans accord.",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "00143",
+        "annee": 2008,
+        "url": "https://ich.unesco.org/en/RL/kankurang-manding-initiatory-rite-00143"
+      },
+      "sources": [
+        "S45",
+        "S43"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Inscription 2008, id 00143 ; Casamance et Mbour, Sénégal et Gambie confirmés (S45)."
+      }
+    },
+    {
+      "id": "SN-tradition-sabar",
+      "nom": "Sabar (tambours, danse et fête)",
+      "categorie": "musique",
+      "description": "Le sabar désigne à la fois une famille de tambours à fût, un style musical, une danse et une fête. Ces tambours font partie de la culture des Wolofs, mais aussi de communautés mandées, sosse et sérères, et le fût est taillé dans un tronc puis recouvert de peau de chèvre, joué avec une main et une baguette fine. Son rayonnement international doit beaucoup à Doudou Ndiaye Rose.",
+      "nom_local": "Sabar",
+      "communautes": [
+        "Wolofs",
+        "Sérères",
+        "Mandés"
+      ],
+      "regions": [
+        "Sénégal",
+        "Gambie"
+      ],
+      "langues": [
+        "wolof"
+      ],
+      "transmission": "vivante",
+      "wikidata": "Q747604",
+      "unesco": null,
+      "sources": [
+        "S66",
+        "S67"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-tradition-mbalax",
+      "nom": "Mbalax",
+      "categorie": "musique",
+      "description": "Le mbalax est un genre musical sénégalais moderne, ancré dans la tradition wolof du sabar et ayant intégré des éléments du njuup sérère et d'autres influences. Il repose sur les percussions, notamment le tama et le sabar. C'est la musique la plus écoutée au Sénégal et en Gambie, et Youssou N'Dour en est surnommé le « roi ».",
+      "nom_local": "Mbalax",
+      "communautes": [
+        "Wolofs",
+        "Sérères"
+      ],
+      "regions": [
+        "Dakar",
+        "Sénégal"
+      ],
+      "langues": [
+        "wolof"
+      ],
+      "transmission": "vivante",
+      "wikidata": "Q556959",
+      "periode": "XXe siècle",
+      "unesco": null,
+      "sources": [
+        "S67",
+        "S68"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-tradition-lutte",
+      "nom": "Lutte sénégalaise (làmb / njom)",
+      "categorie": "jeu_sport",
+      "description": "La lutte sénégalaise, làmb en wolof et njom en sérère, est un sport traditionnel de contact qui admet aussi les frappes. Très populaire dans le Sine-Saloum chez les Wolofs et Sérères et en Casamance chez les Diolas, elle est devenue professionnelle, avec des écuries et une fédération. Les combats s'accompagnent d'animations, de chants et de rituels qui en font aussi un spectacle culturel.",
+      "nom_local": "Làmb",
+      "communautes": [
+        "Wolofs",
+        "Sérères",
+        "Diolas"
+      ],
+      "regions": [
+        "Sine-Saloum",
+        "Casamance"
+      ],
+      "langues": [
+        "wolof",
+        "sérère"
+      ],
+      "transmission": "vivante",
+      "wikidata": "Q644522",
+      "unesco": null,
+      "sources": [
+        "S69"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-tradition-griots",
+      "nom": "Art des griots (gewel, djéli)",
+      "categorie": "oralite",
+      "description": "Les griots, appelés gewel en wolof, djéli en mandingue, kewel en sérère et gawlo en toucouleur, sont des spécialistes de la louange et du récit des faits historiques et des héros fondateurs. Ils forment en général un groupe endogame et assurent la mémoire des lignages. Leur tradition est ancrée chez les Wolofs, Sérères, Mandingues et Peuls.",
+      "nom_local": "Gewel / djéli",
+      "communautes": [
+        "Wolofs",
+        "Sérères",
+        "Mandingues",
+        "Peuls"
+      ],
+      "regions": [
+        "Sénégal"
+      ],
+      "transmission": "vivante",
+      "wikidata": "Q511054",
+      "unesco": null,
+      "sources": [
+        "S70"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-tradition-kora",
+      "nom": "Kora",
+      "categorie": "musique",
+      "description": "La kora est un instrument à cordes à 21 cordes dont la caisse est une calebasse recouverte de peau ; elle est jouée traditionnellement par des griots d'Afrique de l'Ouest, originaire du Mali et présent aussi au Sénégal. Wikipédia retient la première mention écrite de l'instrument en 1799 chez Mungo Park. Le Metropolitan Museum conserve une kora de Mamadou Kouyaté, dite mandinka, vers 1960.",
+      "nom_local": "Kora",
+      "communautes": [
+        "Mandingues",
+        "griots"
+      ],
+      "regions": [
+        "Sénégambie"
+      ],
+      "langues": [
+        "mandinka"
+      ],
+      "transmission": "vivante",
+      "wikidata": "Q585969",
+      "unesco": null,
+      "sources": [
+        "S44",
+        "S71"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-tradition-magal-touba",
+      "nom": "Grand Magal de Touba",
+      "categorie": "fete",
+      "description": "Le Magal de Touba est la plus importante fête religieuse de la confrérie mouride. Il commémore le départ en exil au Gabon de Cheikh Ahmadou Bamba en 1895 et se tient à Touba depuis 1928. Sa date suit le calendrier lunaire de l'hégire, et il rassemble des millions de pèlerins.",
+      "nom_local": "Grand Magal",
+      "communautes": [
+        "Mourides"
+      ],
+      "regions": [
+        "Touba",
+        "Diourbel"
+      ],
+      "langues": [
+        "wolof"
+      ],
+      "transmission": "vivante",
+      "wikidata": "Q3276499",
+      "sensible": true,
+      "note_sensibilite": "Fête religieuse d'une confrérie : le texte doit être relu par des représentants de la communauté mouride ou une institution partenaire.",
+      "unesco": null,
+      "sources": [
+        "S59",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Exil au Gabon en 1895 et célébration à Touba depuis 1928 confirmés (S59)."
+      }
+    },
+    {
+      "id": "SN-tradition-gamou",
+      "nom": "Gamou de Tivaouane",
+      "categorie": "fete",
+      "description": "Le Gamou est un grand pèlerinage annuel à l'occasion du Mawlid, tenu surtout à Tivaouane depuis 1902 à l'initiative d'El Hadji Malick Sy. C'est la principale fête commémorative des Tidjanes, aussi célébrée à Touba et à Médina Baye (Kaolack). Selon Wikipédia, le mot gàmmu viendrait d'une fête sérère profane avant d'acquérir sa dimension religieuse.",
+      "nom_local": "Gàmmu",
+      "communautes": [
+        "Tidjanes"
+      ],
+      "regions": [
+        "Tivaouane",
+        "Kaolack"
+      ],
+      "langues": [
+        "wolof"
+      ],
+      "transmission": "vivante",
+      "wikidata": "Q3095052",
+      "sensible": true,
+      "note_sensibilite": "Fête religieuse tidjane : relecture par la communauté concernée avant publication.",
+      "unesco": null,
+      "sources": [
+        "S72"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-tradition-tabaski",
+      "nom": "Tabaski (Aïd al-Adha)",
+      "categorie": "fete",
+      "description": "La Tabaski est le nom donné en Afrique de l'Ouest à l'Aïd al-Adha, fête du sacrifice. Au Sénégal comme pour les autres fêtes musulmanes, elle est un jour férié. Wikipédia la décrit comme la plus importante des fêtes musulmanes.",
+      "nom_local": "Tabaski",
+      "regions": [
+        "Sénégal"
+      ],
+      "transmission": "vivante",
+      "wikidata": "Q514400",
+      "unesco": null,
+      "sources": [
+        "S73",
+        "S72"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-tradition-kumpo",
+      "nom": "Kumpo (danse masquée diola)",
+      "categorie": "danse",
+      "description": "Le kumpo est un personnage masqué de la mythologie des Diolas de Casamance, de Gambie et de Guinée-Bissau. Le terme désigne selon le contexte le personnage, sa danse ou l'association qui régit les rites. Son costume est fait de fibres de rônier autour d'un bâton fiché dans le sol.",
+      "nom_local": "Kumpo",
+      "communautes": [
+        "Diolas"
+      ],
+      "regions": [
+        "Casamance"
+      ],
+      "langues": [
+        "diola-fogny"
+      ],
+      "pays_partages": [
+        "GM",
+        "GW"
+      ],
+      "transmission": "fragile",
+      "wikidata": "Q2052304",
+      "sensible": true,
+      "note_sensibilite": "Association et masque à dimension rituelle : validation par la communauté diola avant publication ; aucune image sans accord.",
+      "unesco": null,
+      "sources": [
+        "S42"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Diolas de Casamance, Gambie, Guinée-Bissau ; fibres de rônier confirmés (S42)."
+      }
+    },
+    {
+      "id": "SN-tradition-tissage-manjak",
+      "nom": "Pagnes tissés manjak (sër-u-rabbal)",
+      "categorie": "textile",
+      "description": "Les Manjaques tissent des pagnes en coton teint, appelés sër-u-rabbal ou sër-u-njaago, dont le Metropolitan Museum conserve plusieurs exemples des années 1960 et 1970. Ils font partie des savoir-faire textiles de la Casamance.",
+      "nom_local": "Sër-u-rabbal / sër-u-njaago",
+      "communautes": [
+        "Manjaques"
+      ],
+      "regions": [
+        "Casamance"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S26",
+        "S49"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Termes sër-u-rabbal / sër-u-njaago et exemplaires Met des années 1960 et 1970 confirmés via l'API du Met ; la mention Casamance repose sur S26 (Manjaques présents en Casamance)."
+      }
+    }
+  ],
+  "personnalites": [
+    {
+      "id": "SN-personnalite-ndate-yalla",
+      "nom": "Ndaté Yalla Mbodj",
+      "wikidata": "Q3337450",
+      "description": "Dernière grande reine (linguère) du Waalo, royaume du nord-ouest du Sénégal actuel, au XIXe siècle. Elle est devenue une figure de la résistance à la colonisation française, après avoir échappé enfant à la résistance de Nder. Dernière souveraine du Waalo, elle meurt à Dagana en 1860 ; son fils Sidya Ndaté Yalla Diop poursuivra la lutte.",
+      "naissance": {
+        "date": "1810"
+      },
+      "roles": [
+        "reine du Waalo",
+        "résistante"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S74"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "1810-1860, mort à Dagana confirmés (S74)."
+      },
+      "deces": {
+        "date": "1860",
+        "lieu": "Dagana"
+      }
+    },
+    {
+      "id": "SN-personnalite-aline-sitoe-diatta",
+      "nom": "Aline Sitoé Diatta",
+      "wikidata": "Q2748211",
+      "description": "Née à Kabrousse en Basse-Casamance, cheffe religieuse diola, elle fut l'une des dirigeantes d'un mouvement de résistance, notamment fiscale, à l'administration coloniale française pendant la Seconde Guerre mondiale. Elle est morte à Tombouctou, au Mali, en 1944. Elle est aujourd'hui une figure de la mémoire de la résistance casamançaise.",
+      "naissance": {
+        "date": "1920",
+        "lieu": "Kabrousse"
+      },
+      "roles": [
+        "cheffe religieuse",
+        "résistante"
+      ],
+      "domaines": [
+        "résistance",
+        "politique",
+        "spiritualité"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S41"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Naissance vers 1920 à Kabrousse, mort en 1944 à Tombouctou confirmés (S41)."
+      },
+      "deces": {
+        "date": "1944",
+        "lieu": "Tombouctou (Mali)"
+      }
+    },
+    {
+      "id": "SN-personnalite-mariama-ba",
+      "nom": "Mariama Bâ",
+      "wikidata": "Q464389",
+      "description": "Écrivaine née à Dakar, elle est l'autrice du roman épistolaire Une si longue lettre (1979), qui interroge les inégalités entre femmes et hommes et le sort des veuves. Institutrice formée à l'École normale de Rufisque, elle s'engagea aussi dans des associations féminines. Son livre a reçu le prix Noma à Francfort en 1980.",
+      "naissance": {
+        "date": "1929-04-17",
+        "lieu": "Dakar"
+      },
+      "roles": [
+        "écrivaine",
+        "enseignante",
+        "militante féministe"
+      ],
+      "domaines": [
+        "littérature",
+        "éducation"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S75",
+        "S76"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "17 avril 1929 Dakar - 17 août 1981 Dakar confirmés (S75)."
+      },
+      "deces": {
+        "date": "1981-08-17",
+        "lieu": "Dakar"
+      }
+    },
+    {
+      "id": "SN-personnalite-safi-faye",
+      "nom": "Safi Faye",
+      "wikidata": "Q272783",
+      "description": "Réalisatrice, ethnologue et féministe, elle est considérée comme la première femme cinéaste d'Afrique subsaharienne. Elle étudie l'ethnologie à l'EHESS puis le cinéma à l'École Louis-Lumière, et soutient en 1976 un mémoire sur la religion des Sérères, dont elle fait partie. Elle réalise notamment Kaddu Beykat (Lettre paysanne), documentaire sur les difficultés économiques au Sénégal.",
+      "naissance": {
+        "date": "1943-11-22",
+        "lieu": "Dakar"
+      },
+      "roles": [
+        "réalisatrice",
+        "ethnologue"
+      ],
+      "domaines": [
+        "cinéma",
+        "sciences humaines"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S77"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "22 nov. 1943 Dakar - 22 fév. 2023 Paris confirmés (S77)."
+      },
+      "deces": {
+        "date": "2023-02-22",
+        "lieu": "Paris"
+      }
+    },
+    {
+      "id": "SN-personnalite-annette-mbaye-derneville",
+      "nom": "Annette Mbaye d'Erneville",
+      "wikidata": "Q274587",
+      "description": "Femme de lettres, journaliste et femme de radio, elle est présentée comme une pionnière des médias au Sénégal. Née à Sokone dans le Sine-Saloum, elle est issue d'une famille métisse chrétienne de Saint-Louis. Son fils, le cinéaste Ousmane William Mbaye, lui a consacré le film Mère-Bi (2008).",
+      "naissance": {
+        "date": "1926-12-15",
+        "lieu": "Sokone"
+      },
+      "roles": [
+        "journaliste",
+        "poétesse",
+        "animatrice radio"
+      ],
+      "domaines": [
+        "médias",
+        "littérature"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S78"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "15 déc. 1926 à Sokone confirmé (S78)."
+      }
+    },
+    {
+      "id": "SN-personnalite-aminata-sow-fall",
+      "nom": "Aminata Sow Fall",
+      "wikidata": "Q444067",
+      "description": "Romancière née à Saint-Louis dans une famille wolof, elle est l'une des pionnières de la littérature africaine francophone. Son roman La Grève des bàttu, publié en 1979, imagine la révolte de mendiants chassés de la capitale et lui a valu le Grand prix littéraire d'Afrique noire en 1980. Son regard critique porte sur une société en mutation et sur l'idéologie patriarcale.",
+      "naissance": {
+        "date": "1941-04-27",
+        "lieu": "Saint-Louis"
+      },
+      "roles": [
+        "romancière"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S79",
+        "S80"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "27 avril 1941 à Saint-Louis confirmé (S79)."
+      }
+    },
+    {
+      "id": "SN-personnalite-ken-bugul",
+      "nom": "Ken Bugul",
+      "wikidata": "Q185636",
+      "description": "Pseudonyme de Mariètou Mbaye Biléoma, écrivaine née à Malem-Hodar dans la région de Kaffrine. En wolof, Ken Bugul signifie « celle dont personne ne veut ». Dernière née d'une famille nombreuse, elle a fait de l'abandon, de l'école coloniale et de l'exil en Europe des thèmes de son œuvre.",
+      "naissance": {
+        "date": "1947",
+        "lieu": "Malem-Hodar"
+      },
+      "roles": [
+        "écrivaine"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S81"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "1947 à Malem-Hodar confirmé (S81)."
+      }
+    },
+    {
+      "id": "SN-personnalite-yande-codou-sene",
+      "nom": "Yandé Codou Sène",
+      "wikidata": "Q2174556",
+      "description": "Chanteuse sérère née dans le Sine-Saloum, elle fut la griotte officielle du président Léopold Sédar Senghor. Elle a influencé la musique sénégambienne et des artistes comme Youssou N'Dour. Elle n'a enregistré son premier album, Night Sky in Sine Saloum, qu'en 1998, à l'âge de 65 ans.",
+      "naissance": {
+        "date": "1932",
+        "lieu": "Somb"
+      },
+      "roles": [
+        "griotte",
+        "chanteuse"
+      ],
+      "domaines": [
+        "musique",
+        "oralité"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S82"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "1932 à Somb, mort le 15 juillet 2010 à Gandiaye confirmés (S82)."
+      },
+      "deces": {
+        "date": "2010-07-15",
+        "lieu": "Gandiaye"
+      }
+    },
+    {
+      "id": "SN-personnalite-mame-madior-boye",
+      "nom": "Mame Madior Boye",
+      "wikidata": "Q468561",
+      "description": "Magistrate née à Saint-Louis, issue d'une famille de juristes, elle fut ministre de la Justice puis, à partir du 3 mars 2001, la première femme Première ministre du Sénégal. Elle n'était membre d'aucun parti. Pendant son mandat, elle a nommé plusieurs femmes à des postes ministériels.",
+      "naissance": {
+        "date": "1940-12-07",
+        "lieu": "Saint-Louis"
+      },
+      "roles": [
+        "magistrate",
+        "Première ministre"
+      ],
+      "domaines": [
+        "politique",
+        "droit"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S83"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "7 décembre 1940 à Saint-Louis confirmé (S83)."
+      }
+    },
+    {
+      "id": "SN-personnalite-nafissatou-niang-diallo",
+      "nom": "Nafissatou Niang Diallo",
+      "wikidata": "Q457530",
+      "description": "Femme de lettres née à Dakar, elle publie en 1975 De Tilène au Plateau, une enfance dakaroise, récit de sa vie paru aux Nouvelles éditions africaines. Orpheline de mère très jeune, elle grandit auprès de sa grand-mère paternelle. Elle est morte à Dakar en 1982.",
+      "naissance": {
+        "date": "1941-03-11",
+        "lieu": "Dakar"
+      },
+      "roles": [
+        "écrivaine"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S84"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "11 mars 1941 Dakar, mort en 1982 à Dakar confirmés (S84)."
+      },
+      "deces": {
+        "date": "1982",
+        "lieu": "Dakar"
+      }
+    },
+    {
+      "id": "SN-personnalite-lat-dior",
+      "nom": "Lat Dior",
+      "wikidata": "Q919497",
+      "description": "Damel (roi) wolof du Cayor, il a résisté pendant vingt-cinq ans à la pénétration coloniale française, notamment à la liaison ferroviaire Dakar-Saint-Louis et à l'extension de l'arachide. Il est resté célèbre pour des victoires comme celle de Ngolgol et pour son dernier combat à Dékhélé, où il meurt en octobre 1886. C'est une figure emblématique de l'histoire du Sénégal.",
+      "naissance": {
+        "date": "1842",
+        "lieu": "Keur Amadou Yalla"
+      },
+      "roles": [
+        "damel du Cayor",
+        "chef de guerre"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S85",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Naissance 1842 à Keur Amadou Yalla, mort en octobre 1886 (27 oct.) confirmés (S85)."
+      },
+      "deces": {
+        "date": "1886-10",
+        "lieu": "Dékhélé"
+      }
+    },
+    {
+      "id": "SN-personnalite-alboury-ndiaye",
+      "nom": "Alboury Ndiaye",
+      "wikidata": "Q2831944",
+      "description": "Bourba (roi) du Djolof, il est une grande figure de la résistance à la pénétration coloniale au XIXe siècle. Il appartenait à la famille de Lat Dior par sa mère et combattit des rivaux régionaux avant de s'opposer à l'avancée française. Sa vie est située approximativement entre 1847 et 1901.",
+      "naissance": {
+        "date": "vers 1847"
+      },
+      "roles": [
+        "bourba du Djolof",
+        "résistant"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S86"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Naissance vers 1847, mort en 1901 confirmés (S86)."
+      },
+      "deces": {
+        "date": "1901"
+      }
+    },
+    {
+      "id": "SN-personnalite-oumar-tall",
+      "nom": "Oumar Tall (Al-Hajj Omar)",
+      "wikidata": "Q185938",
+      "description": "Érudit musulman de la confrérie tidjane, né à Halwar dans le Fouta-Toro, il a fondé un empire peul musulman couvrant des territoires de la Guinée, du Sénégal, de la Mauritanie et du Mali. Il a joué un rôle majeur dans la diffusion de la Tijaniyya en Afrique de l'Ouest. Il a lancé un djihad à l'est du Sénégal en 1852 et disparaît en 1864 dans la falaise de Bandiagara, au Mali.",
+      "naissance": {
+        "date": "entre 1794 et 1797",
+        "lieu": "Halwar"
+      },
+      "roles": [
+        "érudit",
+        "chef d'État",
+        "chef de guerre"
+      ],
+      "domaines": [
+        "religion",
+        "politique"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S87",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Naissance entre 1794 et 1797 à Halwar, mort en 1864 à Bandiagara confirmés (S87)."
+      },
+      "deces": {
+        "date": "1864",
+        "lieu": "falaise de Bandiagara (Mali)"
+      }
+    },
+    {
+      "id": "SN-personnalite-ahmadou-bamba",
+      "nom": "Cheikh Ahmadou Bamba",
+      "wikidata": "Q452264",
+      "description": "Théologien et maître soufi né à Mbacké-Baol, fondateur de la confrérie mouride et de la ville de Touba. Il a connu l'exil au Gabon (1895-1902) puis en Mauritanie (1903-1907). Sa mort à Diourbel le 19 juillet 1927 est suivie par l'instauration du Grand Magal, qui commémore son départ en exil.",
+      "naissance": {
+        "date": "1853",
+        "lieu": "Mbacké-Baol"
+      },
+      "roles": [
+        "théologien",
+        "guide religieux"
+      ],
+      "domaines": [
+        "religion",
+        "savoirs"
+      ],
+      "epoque": "XIXe-XXe siècle",
+      "sources": [
+        "S88",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Naissance 1853 à Mbacké-Baol, mort le 19 juillet 1927 à Diourbel confirmés (S88)."
+      },
+      "deces": {
+        "date": "1927-07-19",
+        "lieu": "Diourbel"
+      },
+      "sensible": true,
+      "note_sensibilite": "Figure religieuse centrale pour la confrérie mouride : relecture par la communauté concernée avant publication."
+    },
+    {
+      "id": "SN-personnalite-blaise-diagne",
+      "nom": "Blaise Diagne",
+      "wikidata": "Q725749",
+      "description": "Né à Gorée d'un père lébou et d'une mère manjaque, il fut élu en 1914 premier député africain de la Chambre des députés française. Il a fait entendre le rôle des Africains engagés dans les troupes coloniales. En 1919, il crée le Parti républicain socialiste indépendant, présenté comme le premier parti politique africain.",
+      "naissance": {
+        "date": "1872-10-13",
+        "lieu": "Gorée"
+      },
+      "roles": [
+        "député",
+        "sous-secrétaire d'État aux Colonies"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XIXe-XXe siècle",
+      "sources": [
+        "S89",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "13 oct. 1872 Gorée - 11 mai 1934 Cambo-les-Bains confirmés (S89)."
+      },
+      "deces": {
+        "date": "1934-05-11",
+        "lieu": "Cambo-les-Bains (France)"
+      }
+    },
+    {
+      "id": "SN-personnalite-senghor",
+      "nom": "Léopold Sédar Senghor",
+      "wikidata": "Q154545",
+      "description": "Poète, penseur de la négritude et premier président du Sénégal indépendant, il est né à Joal et a fait ses études à Dakar puis à Paris. Agrégé de grammaire en 1935, mobilisé et prisonnier en 1940, il devient député en 1945 puis président de 1960 à 1980. Élu à l'Académie française en 1983, il fut le premier Africain à y siéger.",
+      "naissance": {
+        "date": "1906-10-09",
+        "lieu": "Joal"
+      },
+      "roles": [
+        "président de la République",
+        "poète",
+        "académicien"
+      ],
+      "domaines": [
+        "politique",
+        "littérature"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S90",
+        "S91"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "9 oct. 1906 Joal - 20 déc. 2001 Verson confirmés (S90)."
+      },
+      "deces": {
+        "date": "2001-12-20",
+        "lieu": "Verson (France)"
+      }
+    },
+    {
+      "id": "SN-personnalite-mamadou-dia",
+      "nom": "Mamadou Dia",
+      "wikidata": "Q739956",
+      "description": "Né à Khombole d'un père toucouleur et d'une mère sérère, il fut président du Conseil de 1957 à 1962. Il est l'un des protagonistes de la crise politique de décembre 1962 avec Senghor, à l'issue de laquelle il fut arrêté et condamné. Libéré en 1974 et amnistié en 1976, il est resté une référence intellectuelle et morale.",
+      "naissance": {
+        "date": "1910-07-18",
+        "lieu": "Khombole"
+      },
+      "roles": [
+        "président du Conseil",
+        "homme politique"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S92"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "18 juillet 1910 Khombole - 25 janvier 2009 confirmés (S92)."
+      },
+      "deces": {
+        "date": "2009-01-25",
+        "lieu": "Dakar"
+      }
+    },
+    {
+      "id": "SN-personnalite-cheikh-anta-diop",
+      "nom": "Cheikh Anta Diop",
+      "wikidata": "Q521729",
+      "description": "Intellectuel né à Thieytou, auteur d'ouvrages d'histoire et d'anthropologie comme Nations nègres et culture (1955) et Civilisation ou barbarie (1981). Il a voulu écrire l'histoire africaine d'avant la colonisation. Wikipédia précise que ses thèses sur l'Égypte antique sont largement réfutées par la recherche moderne, tout en gardant un lectorat. L'université de Dakar porte son nom.",
+      "naissance": {
+        "date": "1923-12-29",
+        "lieu": "Thieytou"
+      },
+      "roles": [
+        "historien",
+        "anthropologue",
+        "homme politique"
+      ],
+      "domaines": [
+        "sciences humaines",
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S93"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "29 déc. 1923 Thieytou - 7 fév. 1986 Dakar confirmés (S93)."
+      },
+      "deces": {
+        "date": "1986-02-07",
+        "lieu": "Dakar"
+      }
+    },
+    {
+      "id": "SN-personnalite-ousmane-sembene",
+      "nom": "Ousmane Sembène",
+      "wikidata": "Q314966",
+      "description": "Écrivain, réalisateur et scénariste né à Ziguinchor, issu d'une famille pauvre, il fut soldat puis docker avant de s'engager dans la lutte pour l'indépendance. Il écrit notamment Les Bouts de bois de Dieu (1960) et réalise La Noire de… (1966). Il est considéré comme une personnalité majeure de la culture africaine contemporaine.",
+      "naissance": {
+        "date": "1923-01-01",
+        "lieu": "Ziguinchor"
+      },
+      "roles": [
+        "écrivain",
+        "réalisateur"
+      ],
+      "domaines": [
+        "littérature",
+        "cinéma"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S94",
+        "S95"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "1er janvier 1923 Ziguinchor - 9 juin 2007 Dakar confirmés (S94)."
+      },
+      "deces": {
+        "date": "2007-06-09",
+        "lieu": "Dakar"
+      }
+    },
+    {
+      "id": "SN-personnalite-doudou-ndiaye-rose",
+      "nom": "Doudou N'Diaye Rose",
+      "wikidata": "Q3037895",
+      "description": "Percussionniste issu d'une famille de griots, né à Dakar, il consacra sa vie au tambour et dirigea des ensembles de plus de cent tambourinaires. Il joua le 4 avril 1960, jour de l'indépendance, devant le président Senghor avec 110 tambours. L'UNESCO l'a classé « Trésor humain vivant » en 2006.",
+      "naissance": {
+        "date": "1930-07-28",
+        "lieu": "Dakar"
+      },
+      "roles": [
+        "percussionniste",
+        "chef d'orchestre de tambours"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S96"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "28 juillet 1930 - 19 août 2015 Dakar confirmés (S96)."
+      },
+      "deces": {
+        "date": "2015-08-19",
+        "lieu": "Dakar"
+      }
+    },
+    {
+      "id": "SN-personnalite-ousmane-sow",
+      "nom": "Ousmane Sow",
+      "wikidata": "Q2784081",
+      "description": "Sculpteur né à Dakar, il a commencé sa première série, Les Nouba, en 1984, puis réalisé Les Masaï (1988), Les Zoulou (1991) et Les Peul (1993). Sa série sur la bataille de Little Big Horn a été exposée à Dakar en 1999. Il a aussi sculpté la statue de Victor Hugo de Besançon (2003).",
+      "naissance": {
+        "date": "1935-10-10",
+        "lieu": "Dakar"
+      },
+      "roles": [
+        "sculpteur"
+      ],
+      "domaines": [
+        "arts plastiques"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S97"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "deces": {
+        "date": "2016-12-01",
+        "lieu": "Dakar"
+      }
+    },
+    {
+      "id": "SN-personnalite-youssou-ndour",
+      "nom": "Youssou N'Dour",
+      "wikidata": "Q210734",
+      "description": "Chanteur, compositeur et musicien né à Dakar, surnommé « roi du mbalax » et connu internationalement. Il est aussi patron de presse depuis 2003 avec le groupe Futurs Médias. Il a été ministre de la Culture et du Tourisme en 2012 puis ministre du Tourisme et des Loisirs jusqu'en 2013.",
+      "naissance": {
+        "date": "1959-10-01",
+        "lieu": "Dakar"
+      },
+      "roles": [
+        "chanteur",
+        "homme politique",
+        "chef d'entreprise"
+      ],
+      "domaines": [
+        "musique",
+        "politique",
+        "médias"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S68",
+        "S67"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "1er octobre 1959 Dakar confirmé (S68)."
+      }
+    },
+    {
+      "id": "SN-personnalite-baaba-maal",
+      "nom": "Baaba Maal",
+      "wikidata": "Q684021",
+      "description": "Chanteur et guitariste né à Podor, au bord du fleuve Sénégal, dans le Fouta-Toro, d'une famille de pêcheurs. Il a appris le Coran dans un daara avant l'école française, puis la kora et d'autres instruments traditionnels au sein du groupe Lasly Fouta. Il a parcouru l'Afrique de l'Ouest avec son ami griot Mansour Seck.",
+      "naissance": {
+        "date": "1953-06-13",
+        "lieu": "Podor"
+      },
+      "roles": [
+        "chanteur",
+        "guitariste"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S98"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "13 juin 1953 à Podor confirmé (S98)."
+      }
+    },
+    {
+      "id": "SN-personnalite-sadio-mane",
+      "nom": "Sadio Mané",
+      "wikidata": "Q209942",
+      "description": "Footballeur international né à Bambali, révélé à l'AS Génération Foot puis à Metz et à Salzbourg. Il a joué à Southampton puis à Liverpool, avec lequel il a remporté la Ligue des champions en 2019. Il est considéré comme l'un des meilleurs joueurs de l'histoire du football africain.",
+      "naissance": {
+        "date": "1992-04-10",
+        "lieu": "Bambali"
+      },
+      "roles": [
+        "footballeur"
+      ],
+      "domaines": [
+        "sport"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S99"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "10 avril 1992 à Bambali confirmé (S99)."
+      }
+    }
+  ],
+  "evenements": [
+    {
+      "id": "SN-evenement-megalithes",
+      "titre": "Premiers mégalithes de Sénégambie",
+      "date": "-000299-01-01",
+      "date_affichee": "IIIe siècle av. J.-C.",
+      "precision": "siecle",
+      "description": "Les premiers mégalithes apparaissent dans le haut Saloum et la haute Gambie, selon la chronologie du Sénégal. Les cercles de piliers de latérite et leurs tumuli seront édifiés sur plus de 1 500 ans, jusqu'au XVIe siècle.",
+      "fin": "1599-12-31",
+      "regions": [
+        "Sine-Saloum"
+      ],
+      "sources": [
+        "S37",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-war-jabi",
+      "titre": "Conversion à l'islam du roi War Jabi du Tekrour",
+      "date": "1030-01-01",
+      "date_affichee": "vers 1030",
+      "precision": "annee",
+      "description": "War Jabi, roi du Tekrour dans la vallée du fleuve Sénégal, se convertit à l'islam vers 1030. La chronologie relie cette période à l'essor du mouvement almoravide et aux alliances qui s'ensuivent.",
+      "acteurs": [
+        "War Jabi"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-djolof",
+      "titre": "Fondation de l'empire du Djolof",
+      "date": "1360-01-01",
+      "date_affichee": "vers 1360",
+      "precision": "annee",
+      "description": "La chronologie du Sénégal place vers 1360 la fondation de l'empire du Djolof par Ndiadiane Ndiaye, au centre du pays. L'article sur le Sénégal le situe plutôt au XIIIe siècle : la date reste donc à préciser. Il regroupa ensuite plusieurs royaumes, dont le Cayor, le Baol, le Sine, le Saloum et le Waalo.",
+      "acteurs": [
+        "Ndiadiane Ndiaye"
+      ],
+      "note_date": "Datation discordante entre sources (XIIIe siècle ou vers 1360).",
+      "sources": [
+        "S5",
+        "S1"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-portugais-1444",
+      "titre": "Arrivée des navigateurs portugais",
+      "date": "1444-01-01",
+      "date_affichee": "1444",
+      "precision": "annee",
+      "description": "En 1444, des navigateurs portugais conduits par Dinis Dias atteignent les côtes sénégalaises et passent au large de l'embouchure du fleuve. Ils nomment la pointe la plus occidentale du continent Cabo Verde, le Cap-Vert.",
+      "acteurs": [
+        "Dinis Dias"
+      ],
+      "sources": [
+        "S5",
+        "S1"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-pire",
+      "titre": "Fondation de l'université islamique de Pire",
+      "date": "1603-01-01",
+      "date_affichee": "1603",
+      "precision": "annee",
+      "description": "Selon la chronologie, Khaly Amar Fall fonde en 1603 une université islamique à Pire.",
+      "acteurs": [
+        "Khaly Amar Fall"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-saint-louis-1659",
+      "titre": "Fondation du fort de Saint-Louis",
+      "date": "1659-01-01",
+      "date_affichee": "1659",
+      "precision": "annee",
+      "description": "Les Français établissent en 1659 un fort à Saint-Louis, qui devient la première capitale du Sénégal. La ville voit s'épanouir une communauté métisse, les signares, et sera capitale jusqu'en 1957.",
+      "regions": [
+        "Saint-Louis"
+      ],
+      "sources": [
+        "S5",
+        "S55"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-goree-1677",
+      "titre": "Les Français prennent Gorée",
+      "date": "1677-01-01",
+      "date_affichee": "1677",
+      "precision": "annee",
+      "description": "En 1677, les Français prennent l'île de Gorée aux Hollandais. Gorée, tour à tour portugaise, néerlandaise, anglaise et française, fut le plus grand centre de commerce d'esclaves de la côte.",
+      "regions": [
+        "Gorée"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Histoire de la traite atlantique : formulation à valider avec des historiens et institutions de mémoire.",
+      "sources": [
+        "S5",
+        "S50"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-republique-lebou",
+      "titre": "République léboue de Ndakarou",
+      "date": "1796-01-01",
+      "date_affichee": "1796",
+      "precision": "annee",
+      "description": "Selon la chronologie, des religieux venus du Cayor fondent en 1796 la République léboue de Ndakarou, dans le Cap-Vert. Elle devient indépendante du Cayor en 1812.",
+      "regions": [
+        "Cap-Vert",
+        "Dakar"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-abolition-1848",
+      "titre": "Abolition définitive de l'esclavage",
+      "date": "1848-04-27",
+      "date_affichee": "27 avril 1848",
+      "precision": "jour",
+      "description": "La IIe République française décrète le 27 avril 1848 l'abolition définitive de l'esclavage. La même année, les résidents de Saint-Louis et de Gorée obtiennent la citoyenneté française et élisent un député.",
+      "sensible": true,
+      "note_sensibilite": "Date de la législation française ; la fin effective des pratiques et les résistances locales doivent être documentées séparément.",
+      "sources": [
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-dakar-tirailleurs-1857",
+      "titre": "Création des Tirailleurs sénégalais et fondation de Dakar",
+      "date": "1857-01-01",
+      "date_affichee": "1857",
+      "precision": "annee",
+      "description": "En 1857, selon la chronologie, la France crée le corps des Tirailleurs sénégalais et fonde Dakar. Al-Hadj Omar Tall est vaincu la même année au siège de Médine.",
+      "regions": [
+        "Dakar"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-battling-siki",
+      "titre": "Battling Siki champion du monde de boxe",
+      "date": "1922-01-01",
+      "date_affichee": "1922",
+      "precision": "annee",
+      "description": "En 1922, en battant Georges Carpentier, le boxeur Battling Siki devient champion du monde. La chronologie du Sénégal retient cet exploit parmi les moments marquants du siècle.",
+      "acteurs": [
+        "Battling Siki"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-dekhele",
+      "titre": "Mort de Lat Dior à Dékhélé",
+      "date": "1886-10-01",
+      "date_affichee": "octobre 1886",
+      "precision": "mois",
+      "description": "Lat Dior, damel du Cayor, perd la vie à Dékhélé lors d'un dernier combat sans espoir contre les troupes coloniales. Les sources divergent sur le jour exact (26 ou 27 octobre).",
+      "acteurs": [
+        "Lat Dior"
+      ],
+      "note_date": "Jour exact discordant entre sources (26 ou 27 octobre 1886).",
+      "sources": [
+        "S85"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-aof-1895",
+      "titre": "Création de l'Afrique-Occidentale française",
+      "date": "1895-01-01",
+      "date_affichee": "1895",
+      "precision": "annee",
+      "description": "La France crée en 1895 l'Afrique-Occidentale française (AOF). Dakar en devient la capitale en 1902 et l'AOF sera dissoute en 1958.",
+      "sensible": true,
+      "note_sensibilite": "Sujet colonial : à relire avec des historiens africains.",
+      "sources": [
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-exil-bamba",
+      "titre": "Exil de Cheikh Ahmadou Bamba au Gabon",
+      "date": "1895-01-01",
+      "date_affichee": "1895",
+      "precision": "annee",
+      "description": "Cheikh Ahmadou Bamba est exilé au Gabon de 1895 à 1902, puis en Mauritanie de 1903 à 1907. Le Grand Magal de Touba commémore son départ en exil.",
+      "fin": "1902-12-31",
+      "acteurs": [
+        "Ahmadou Bamba"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement fondateur de la mémoire mouride : validation par la communauté concernée.",
+      "sources": [
+        "S5",
+        "S59"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-dakar-capitale-1902",
+      "titre": "Dakar, capitale de l'AOF",
+      "date": "1902-01-01",
+      "date_affichee": "1902",
+      "precision": "annee",
+      "description": "En 1902, Dakar succède à Saint-Louis comme capitale de l'Afrique-Occidentale française. La même année, El-Hadji Malick Sy fonde une zawiya tidjane à Tivaouane.",
+      "regions": [
+        "Dakar",
+        "Tivaouane"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-diagne-1914",
+      "titre": "Blaise Diagne, premier député africain",
+      "date": "1914-01-01",
+      "date_affichee": "1914",
+      "precision": "annee",
+      "description": "En 1914, Blaise Diagne l'emporte sur François Carpot et devient le premier Africain à siéger à l'Assemblée nationale française. Il est originaire de Gorée.",
+      "acteurs": [
+        "Blaise Diagne"
+      ],
+      "sources": [
+        "S5",
+        "S89"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-mort-bamba",
+      "titre": "Mort de Cheikh Ahmadou Bamba",
+      "date": "1927-07-19",
+      "date_affichee": "19 juillet 1927",
+      "precision": "jour",
+      "description": "Cheikh Ahmadou Bamba meurt à Diourbel le 19 juillet 1927. Le Grand Magal est célébré à Touba depuis 1928, l'année qui suit sa mort.",
+      "acteurs": [
+        "Ahmadou Bamba"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Mémoire religieuse mouride : relecture communautaire.",
+      "sources": [
+        "S5",
+        "S88"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-thiaroye",
+      "titre": "Massacre de Thiaroye",
+      "date": "1944-12-01",
+      "date_affichee": "1er décembre 1944",
+      "precision": "jour",
+      "description": "Le 1er décembre 1944, des troupes coloniales et des gendarmes français répriment par les armes des tirailleurs africains qui réclamaient leurs indemnités et le versement de leur pécule, au camp militaire de Thiaroye près de Dakar. L'événement est resté un sujet de mémoire et de débat historique.",
+      "regions": [
+        "Thiaroye",
+        "Dakar"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Massacre colonial : formulation à valider avec des historiens et les familles ; bilan chiffré à ne pas avancer sans source.",
+      "sources": [
+        "S100",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-greve-cheminots",
+      "titre": "Grève des cheminots du Dakar-Niger",
+      "date": "1947-10-11",
+      "date_affichee": "11 octobre 1947",
+      "precision": "jour",
+      "description": "Les cheminots africains de la ligne Dakar-Niger mènent une grève du 11 octobre 1947 au 19 mars 1948, qui s'étend à l'AOF. Elle a inspiré le roman d'Ousmane Sembène Les Bouts de bois de Dieu.",
+      "fin": "1948-03-19",
+      "acteurs": [
+        "cheminots de la ligne Dakar-Niger"
+      ],
+      "sources": [
+        "S101",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-independance-accord",
+      "titre": "Accord d'indépendance de la fédération du Mali",
+      "date": "1960-04-04",
+      "date_affichee": "4 avril 1960",
+      "precision": "jour",
+      "description": "Le 4 avril 1960, à Paris, est signé l'accord d'indépendance du Sénégal et du Soudan français au sein de la fédération du Mali. C'est la date retenue officiellement pour célébrer l'indépendance du Sénégal.",
+      "acteurs": [
+        "Sénégal",
+        "Soudan français"
+      ],
+      "sources": [
+        "S5",
+        "S1"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-independance",
+      "titre": "Indépendance du Sénégal",
+      "date": "1960-08-20",
+      "date_affichee": "20 août 1960",
+      "precision": "jour",
+      "description": "Le 20 août 1960, le Sénégal se retire de la fédération du Mali et proclame son indépendance. Léopold Sédar Senghor est élu président le 31 août 1960.",
+      "acteurs": [
+        "Léopold Sédar Senghor"
+      ],
+      "sources": [
+        "S5",
+        "S1"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-crise-1962",
+      "titre": "Crise politique de décembre 1962",
+      "date": "1962-12-01",
+      "date_affichee": "décembre 1962",
+      "precision": "mois",
+      "description": "En décembre 1962, une crise oppose Mamadou Dia à Léopold Sédar Senghor ; Dia est arrêté avec quatre ministres pour « tentative de coup d'État ». Un régime présidentiel est instauré par référendum le 3 mars 1963.",
+      "acteurs": [
+        "Mamadou Dia",
+        "Léopold Sédar Senghor"
+      ],
+      "sources": [
+        "S5",
+        "S92"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-festival-arts-negres",
+      "titre": "Premier Festival mondial des arts nègres",
+      "date": "1966-01-01",
+      "date_affichee": "1966",
+      "precision": "annee",
+      "description": "Le premier Festival mondial des arts nègres se tient à Dakar en 1966. Le film La Noire de… d'Ousmane Sembène y reçoit le prix du meilleur long-métrage. Le Musée des civilisations noires est imaginé par Senghor à l'issue du festival.",
+      "regions": [
+        "Dakar"
+      ],
+      "sources": [
+        "S5",
+        "S95"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-senegambie",
+      "titre": "Confédération de Sénégambie",
+      "date": "1981-12-12",
+      "date_affichee": "12 décembre 1981",
+      "precision": "jour",
+      "description": "Le Sénégal et la Gambie créent la Confédération de Sénégambie le 12 décembre 1981. Elle est dissoute le 30 septembre 1989.",
+      "fin": "1989-09-30",
+      "acteurs": [
+        "Sénégal",
+        "Gambie"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-casamance",
+      "titre": "Début du conflit en Casamance",
+      "date": "1983-12-01",
+      "date_affichee": "décembre 1983",
+      "precision": "mois",
+      "description": "La chronologie date de décembre 1983 le début du conflit en Casamance, après la création du Mouvement des forces démocratiques de Casamance au printemps 1982. Un accord de paix a été signé à Ziguinchor le 30 décembre 2004.",
+      "regions": [
+        "Casamance"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Conflit politique encore sensible : formulation neutre, à valider avec des chercheurs et des acteurs casamançais.",
+      "sources": [
+        "S5",
+        "S1"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-academie-1983",
+      "titre": "Senghor élu à l'Académie française",
+      "date": "1983-01-01",
+      "date_affichee": "1983",
+      "precision": "annee",
+      "description": "Léopold Sédar Senghor est élu en 1983 au fauteuil 16 de l'Académie française. Il est le premier Africain à y siéger.",
+      "acteurs": [
+        "Léopold Sédar Senghor"
+      ],
+      "sources": [
+        "S91",
+        "S90"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-biennale-dakar",
+      "titre": "Création de la Biennale de Dakar",
+      "date": "1990-01-01",
+      "date_affichee": "1990",
+      "precision": "annee",
+      "description": "La Biennale de Dakar (Dak'Art) est créée en 1990. Le musée Théodore-Monod de l'IFAN compte parmi les lieux qui accueillent ses expositions.",
+      "regions": [
+        "Dakar"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-alternance-2000",
+      "titre": "Première alternance : élection d'Abdoulaye Wade",
+      "date": "2000-03-19",
+      "date_affichee": "19 mars 2000",
+      "precision": "jour",
+      "description": "Le 19 mars 2000, Abdoulaye Wade est élu président de la République ; Wikipédia parle de première alternance. Réélu en 2007, il est suivi de Macky Sall en 2012.",
+      "acteurs": [
+        "Abdoulaye Wade"
+      ],
+      "sources": [
+        "S5",
+        "S1"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-joola",
+      "titre": "Naufrage du Joola",
+      "date": "2002-09-26",
+      "date_affichee": "26 septembre 2002",
+      "precision": "jour",
+      "description": "La chronologie du Sénégal date du 26 septembre 2002 le naufrage du Joola, événement qu'elle retient parmi ceux de l'histoire récente du pays.",
+      "sensible": true,
+      "note_sensibilite": "Catastrophe ayant causé de nombreuses victimes : ne pas avancer de bilan sans source et rester respectueux des familles.",
+      "sources": [
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-kankurang-2008",
+      "titre": "Inscription du Kankurang sur la liste UNESCO",
+      "date": "2008-01-01",
+      "date_affichee": "2008",
+      "precision": "annee",
+      "description": "Le Kankurang, rite initiatique mandingue partagé avec la Gambie, est inscrit en 2008 sur la Liste représentative du patrimoine culturel immatériel de l'humanité. Il avait été proclamé en 2005.",
+      "pays_partages": [
+        "GM"
+      ],
+      "sources": [
+        "S45"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-alternance-2012",
+      "titre": "Élection de Macky Sall",
+      "date": "2012-02-26",
+      "date_affichee": "26 février 2012",
+      "precision": "jour",
+      "description": "L'élection présidentielle du 26 février 2012 voit Macky Sall succéder à Abdoulaye Wade. Il est ensuite réélu en 2019.",
+      "acteurs": [
+        "Macky Sall"
+      ],
+      "sources": [
+        "S5",
+        "S1"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-xooy-2013",
+      "titre": "Inscription du xooy sur la liste UNESCO",
+      "date": "2013-01-01",
+      "date_affichee": "2013",
+      "precision": "annee",
+      "description": "La cérémonie de divination xooy des Sérères est inscrite en 2013 sur la Liste représentative du patrimoine culturel immatériel.",
+      "sources": [
+        "S39"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-mcn-2018",
+      "titre": "Inauguration du Musée des civilisations noires",
+      "date": "2018-12-06",
+      "date_affichee": "6 décembre 2018",
+      "precision": "jour",
+      "description": "Le Musée des civilisations noires est inauguré à Dakar le 6 décembre 2018 par le président Macky Sall. Il concrétise un projet imaginé par Senghor après le festival de 1966.",
+      "regions": [
+        "Dakar"
+      ],
+      "sources": [
+        "S60"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-ceebu-jen-2021",
+      "titre": "Inscription du ceebu jën sur la liste UNESCO",
+      "date": "2021-01-01",
+      "date_affichee": "2021",
+      "precision": "annee",
+      "description": "Le ceebu jën, art culinaire né dans les communautés de pêcheurs de Saint-Louis, est inscrit en 2021 sur la Liste représentative du patrimoine culturel immatériel de l'humanité.",
+      "sources": [
+        "S56"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-evenement-faye-2024",
+      "titre": "Bassirou Diomaye Faye président",
+      "date": "2024-04-02",
+      "date_affichee": "2 avril 2024",
+      "precision": "jour",
+      "description": "Bassirou Diomaye Faye est président de la République depuis le 2 avril 2024, à l'issue d'une transition démocratique pacifique selon l'article Wikipédia sur le Sénégal.",
+      "acteurs": [
+        "Bassirou Diomaye Faye"
+      ],
+      "sources": [
+        "S1"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "oeuvres": [
+    {
+      "id": "SN-oeuvre-kora-met",
+      "titre": "Kora de Mamadou Kouyaté",
+      "type": "instrument",
+      "description": "Kora de Sénégambie attribuée à la culture mandinka, fabriquée vers 1960 par Mamadou Kouyaté (mort en 1991), le chevalet étant de Djimo Kouyaté. Elle est faite de calebasse, de peau de chèvre, de peau d'antilope, d'ébène, de métal et de bois. Elle illustre l'art des facteurs et des griots mandingues.",
+      "createur": "Mamadou Kouyaté (chevalet : Djimo Kouyaté)",
+      "communaute": "Mandinka",
+      "periode": "vers 1960",
+      "materiaux": [
+        "calebasse",
+        "peau de chèvre",
+        "peau d'antilope",
+        "ébène",
+        "métal",
+        "bois"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1975.59",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/503060",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access CC0) ; image non reproduite ici.",
+      "sources": [
+        "S71",
+        "S44"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Kora 1975.59 : Mamadou Kouyaté, chevalet Djimo Kouyaté, vers 1960, matériaux, mandinka confirmés par l'API du Met."
+      }
+    },
+    {
+      "id": "SN-oeuvre-pagne-indigo-wolof",
+      "titre": "Pagne ou châle wolof teint à l'indigo (réserve par couture)",
+      "type": "textile",
+      "description": "Pagne en coton teint à l'indigo selon une technique de réserve par couture, attribué à un artiste wolof du début ou du milieu du XXe siècle. Il mesure environ 249 sur 140 cm. L'objet témoigne de l'art textile wolof.",
+      "communaute": "Wolofs",
+      "periode": "début-milieu du XXe siècle",
+      "materiaux": [
+        "coton",
+        "teinture"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "2016.723",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/738844",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access CC0) ; image non reproduite ici.",
+      "sources": [
+        "S102"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Met 2016.723, artiste wolof, début-milieu XXe s., 248,9 x 139,7 cm confirmés (API Met)."
+      }
+    },
+    {
+      "id": "SN-oeuvre-pagne-manjak",
+      "titre": "Pagne tissé manjak (sër-u-rabbal)",
+      "type": "textile",
+      "description": "Pagne tissé en coton teint, appelé sër-u-rabbal ou sër-u-njaago, attribué aux Manjaques et daté des années 1960. Il mesure environ 191 sur 125 cm. Le Met en conserve plusieurs exemplaires.",
+      "communaute": "Manjaques",
+      "periode": "années 1960",
+      "materiaux": [
+        "coton",
+        "teinture"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "2015.614.2",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/687565",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access CC0) ; image non reproduite ici.",
+      "sources": [
+        "S49",
+        "S26"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Met 2015.614.2, années 1960, 191,5 x 125,5 cm confirmés (API Met)."
+      }
+    },
+    {
+      "id": "SN-oeuvre-portrait-malick-sy",
+      "titre": "Portrait d'El-Hajj Malik Sy avec un parasol",
+      "type": "peinture",
+      "description": "Peinture sous verre sénégalaise des années 1940 à 1960 représentant El-Hajj Malik Sy, figure de la confrérie tidjane. Elle mesure environ 50 sur 41 cm et a été acquise par le Met en 2025. Le Met l'a classée dans son département d'art islamique.",
+      "periode": "années 1940-1960",
+      "materiaux": [
+        "peinture sur verre"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "2025.481",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/914915",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access CC0) ; image non reproduite ici.",
+      "sources": [
+        "S103"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Met 2025.481, peinture sous verre 1940s-1960s, 50,5 x 41 cm, département d'art islamique confirmés (API Met)."
+      }
+    },
+    {
+      "id": "SN-oeuvre-le-koriste",
+      "titre": "Le koriste",
+      "type": "textile",
+      "description": "Tapisserie des années 1980 de Boubacar Goudiaby (né à Thengory en 1946), en coton et laine. Elle mesure environ 160 sur 140 cm. Elle fait partie d'un ensemble de tapisseries sénégalaises entrées au Met en 2025.",
+      "createur": "Boubacar Goudiaby",
+      "periode": "années 1980",
+      "materiaux": [
+        "coton",
+        "laine"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "2025.122",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/919037",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access CC0) ; image non reproduite ici.",
+      "sources": [
+        "S104"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Met 2025.122, Boubacar Goudiaby (né à Thengory 1946), années 1980, 160 x 140 cm confirmés (API Met)."
+      }
+    },
+    {
+      "id": "SN-oeuvre-roi-du-fogny",
+      "titre": "Le roi du Fogny",
+      "type": "textile",
+      "description": "Tapisserie des années 1970 d'Ansoumana Diédhiou (1940-2001), de grand format (environ 258 sur 227 cm), en coton et laine, éd. 1/4. Le titre évoque le Fogny, dont la langue diola-fogny porte le nom.",
+      "createur": "Ansoumana Diédhiou",
+      "periode": "vers 1970",
+      "materiaux": [
+        "coton",
+        "laine"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "2025.129",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/919044",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access CC0) ; image non reproduite ici.",
+      "sources": [
+        "S105"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Met 2025.129, Ansoumana Diédhiou (1940-2001), vers 1970, 258 x 227 cm, éd. 1/4 confirmés (API Met)."
+      }
+    },
+    {
+      "id": "SN-oeuvre-une-si-longue-lettre",
+      "titre": "Une si longue lettre",
+      "type": "livre",
+      "description": "Premier roman de Mariama Bâ, publié en 1979, écrit en français sous forme de lettre : Ramatoulaye y raconte à son amie Aïssatou son veuvage et sa vie de femme et de mère. Il a reçu le prix Noma à la Foire du livre de Francfort en 1980 et est devenu un classique de la littérature africaine.",
+      "createur": "Mariama Bâ",
+      "periode": "1979",
+      "wikidata": "Q7549373",
+      "droits": "Œuvre protégée par le droit d'auteur",
+      "url_notice": "https://fr.wikipedia.org/wiki/Une_si_longue_lettre",
+      "sources": [
+        "S76"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Premier roman de Mariama Bâ, publié en 1979 (NEA, Dakar) confirmé (S76)."
+      }
+    },
+    {
+      "id": "SN-oeuvre-greve-des-battu",
+      "titre": "La Grève des bàttu",
+      "type": "livre",
+      "description": "Deuxième roman d'Aminata Sow Fall, publié en 1979 par les Nouvelles éditions africaines à Dakar. Il décrit la révolte de mendiants face à un homme politique qui les chasse de la ville. Il a reçu le Grand prix littéraire d'Afrique noire en 1980 et a été adapté au cinéma (Bàttu, 2000).",
+      "createur": "Aminata Sow Fall",
+      "periode": "1979",
+      "institution": "Nouvelles éditions africaines (éditeur)",
+      "wikidata": "Q30739377",
+      "droits": "Œuvre protégée par le droit d'auteur",
+      "url_notice": "https://fr.wikipedia.org/wiki/La_Gr%C3%A8ve_des_b%C3%A0ttu",
+      "sources": [
+        "S80"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SN-oeuvre-bouts-de-bois",
+      "titre": "Les Bouts de bois de Dieu",
+      "type": "livre",
+      "description": "Roman d'Ousmane Sembène paru en 1960 qui raconte la grève des cheminots africains de la ligne Dakar-Niger, du 11 octobre 1947 au 19 mars 1948. L'auteur l'a dédié à ses frères de syndicat et à tous les syndicalistes.",
+      "createur": "Ousmane Sembène",
+      "periode": "1960",
+      "wikidata": "Q3231133",
+      "droits": "Œuvre protégée par le droit d'auteur",
+      "url_notice": "https://fr.wikipedia.org/wiki/Les_Bouts_de_bois_de_Dieu",
+      "sources": [
+        "S101"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Roman de Sembène paru en 1960 confirmé (S101)."
+      }
+    },
+    {
+      "id": "SN-oeuvre-la-noire-de",
+      "titre": "La Noire de…",
+      "type": "film",
+      "description": "Film franco-sénégalais écrit et réalisé par Ousmane Sembène, sorti en 1966, avec Mbissine Thérèse Diop, d'après une nouvelle de Voltaïque. Il a remporté le prix du meilleur long-métrage au premier Festival mondial des arts nègres, a été sélectionné à la Semaine de la critique de Cannes et a reçu le prix Jean-Vigo.",
+      "createur": "Ousmane Sembène",
+      "periode": "1966",
+      "wikidata": "Q3211102",
+      "droits": "Œuvre protégée par le droit d'auteur",
+      "url_notice": "https://fr.wikipedia.org/wiki/La_Noire_de%E2%80%A6",
+      "sources": [
+        "S95"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Film de Sembène, 1966 confirmé (S95)."
+      }
+    },
+    {
+      "id": "SN-oeuvre-touki-bouki",
+      "titre": "Touki Bouki",
+      "type": "film",
+      "description": "Premier long-métrage de Djibril Diop Mambéty, sorti en 1973. Mory, un berger venu vendre ses bêtes à Dakar, rencontre Anta, étudiante, et tous deux rêvent de partir. Il a reçu le prix de la critique internationale au Festival de Cannes en 1973.",
+      "createur": "Djibril Diop Mambéty",
+      "periode": "1973",
+      "wikidata": "Q3310901",
+      "droits": "Œuvre protégée par le droit d'auteur",
+      "url_notice": "https://fr.wikipedia.org/wiki/Touki_Bouki",
+      "sources": [
+        "S106"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Film de Djibril Diop Mambéty, 1973 confirmé (S106)."
+      }
+    }
+  ],
+  "proverbes": [
+    {
+      "id": "SN-proverbe-trois-choses-monde",
+      "texte_original": "Adounæ, gnæt'-æ thie di-yobæl : ab khame, ab tare æk mbouse.",
+      "langue": "wolof",
+      "traduction": "Trois choses sont nécessaires en ce monde : des amis, de l'extérieur et de l'argent.",
+      "sens": "Le proverbe énumère trois ressources pour bien vivre en société : les relations, la bonne tenue et la fortune.",
+      "publication": "Pierre-David Boilat, Grammaire de la langue woloffe, Paris, Imprimerie impériale, 1858, 3e partie, « Des proverbes », p. 382 (numérisation Internet Archive).",
+      "note": "Graphie de Boilat (1858), relevée sur le texte océrisé de la numérisation ; à contrôler par un locuteur et à moderniser selon l'orthographe officielle.",
+      "sources": [
+        "S107"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Texte wolof et traduction retrouvés mot pour mot dans le texte océrisé de Boilat 1858 (Internet Archive), section Des proverbes (pp. 382-386) ; la pagination exacte est approximative, déduite des en-têtes de pages paires."
+      }
+    },
+    {
+      "id": "SN-proverbe-richesse-pied-langue",
+      "texte_original": "Yæ-y idi-may-é alel, deræ sakh-ou thiæ kawer : tainkhe, æk taistæn, æk lamigne.",
+      "langue": "wolof",
+      "traduction": "Dans ce qui donne la fortune rien n'a de poil : le pied, le talon et la langue.",
+      "sens": "Boilat ne commente que la grammaire ; une lecture possible, à valider, associe la richesse au déplacement et à la parole (le pied, la langue).",
+      "publication": "Pierre-David Boilat, Grammaire de la langue woloffe, Paris, Imprimerie impériale, 1858, 3e partie, « Des proverbes », p. 383 (numérisation Internet Archive).",
+      "note": "Graphie de Boilat (1858), relevée sur le texte océrisé de la numérisation ; à contrôler par un locuteur et à moderniser selon l'orthographe officielle.",
+      "sources": [
+        "S107"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Texte wolof et traduction retrouvés mot pour mot dans le texte océrisé de Boilat 1858 (Internet Archive), section Des proverbes (pp. 382-386) ; la pagination exacte est approximative, déduite des en-têtes de pages paires."
+      }
+    },
+    {
+      "id": "SN-proverbe-trois-accords",
+      "texte_original": "Gnætæ gnou-lounkou d'ou-gnou-fakhæ : lounk oum dhigène, lounk oum boure-fari, lounk oum mælike.",
+      "langue": "wolof",
+      "traduction": "Ces trois choses étant d'accord sont irrésistibles : la femme, le roi et le diable.",
+      "sens": "Proverbe sur la force de trois alliances qu'on ne défait pas ; la formulation reflète le regard du recueil de 1858 et doit être présentée comme telle.",
+      "publication": "Pierre-David Boilat, Grammaire de la langue woloffe, Paris, Imprimerie impériale, 1858, 3e partie, « Des proverbes », p. 383 (numérisation Internet Archive).",
+      "note": "Graphie de Boilat (1858), relevée sur le texte océrisé de la numérisation ; à contrôler par un locuteur et à moderniser selon l'orthographe officielle.",
+      "sources": [
+        "S107"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Texte wolof et traduction retrouvés mot pour mot dans le texte océrisé de Boilat 1858 (Internet Archive), section Des proverbes (pp. 382-386) ; la pagination exacte est approximative, déduite des en-têtes de pages paires."
+      }
+    },
+    {
+      "id": "SN-proverbe-vie-semer-recolter",
+      "texte_original": "Adounæ gnet'-æ ko dhiape : sakhle, koub sakh-bi, æk sakh-mi.",
+      "langue": "wolof",
+      "traduction": "Trois choses soutiennent la vie animale : semer, recueillir et manger.",
+      "sens": "Il rappelle que la vie repose sur le cycle des travaux agricoles et sur le repas qui en résulte.",
+      "publication": "Pierre-David Boilat, Grammaire de la langue woloffe, Paris, Imprimerie impériale, 1858, 3e partie, « Des proverbes », p. 383 (numérisation Internet Archive).",
+      "note": "Graphie de Boilat (1858), relevée sur le texte océrisé de la numérisation ; à contrôler par un locuteur et à moderniser selon l'orthographe officielle.",
+      "sources": [
+        "S107"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Texte wolof et traduction retrouvés mot pour mot dans le texte océrisé de Boilat 1858 (Internet Archive), section Des proverbes (pp. 382-386) ; la pagination exacte est approximative, déduite des en-têtes de pages paires."
+      }
+    },
+    {
+      "id": "SN-proverbe-mets-de-la-veille",
+      "texte_original": "Kou rér'-é mpænæ, bô' op'-é fænde.",
+      "langue": "wolof",
+      "traduction": "Qui dîne avec des mets de la veille jeûnera quand il sera malade.",
+      "sens": "Boilat l'explique par l'usage de garder du couscous du soir pour le lendemain ; le proverbe met en garde contre l'imprévoyance.",
+      "publication": "Pierre-David Boilat, Grammaire de la langue woloffe, Paris, Imprimerie impériale, 1858, 3e partie, « Des proverbes », p. 385 (numérisation Internet Archive).",
+      "note": "Graphie de Boilat (1858), relevée sur le texte océrisé de la numérisation ; à contrôler par un locuteur et à moderniser selon l'orthographe officielle.",
+      "sources": [
+        "S107"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Texte wolof et traduction retrouvés mot pour mot dans le texte océrisé de Boilat 1858 (Internet Archive), section Des proverbes (pp. 382-386) ; la pagination exacte est approximative, déduite des en-têtes de pages paires."
+      }
+    },
+    {
+      "id": "SN-proverbe-connaitre-un-lieu",
+      "texte_original": "Fi læ-dik-on, d'ou-téré ratrel.",
+      "langue": "wolof",
+      "traduction": "Reconnaître un lieu n'empêche pas d'y perdre un objet.",
+      "sens": "Connaître les lieux ne protège pas contre la perte : la familiarité ne dispense pas de la prudence.",
+      "publication": "Pierre-David Boilat, Grammaire de la langue woloffe, Paris, Imprimerie impériale, 1858, 3e partie, « Des proverbes », p. 386 (numérisation Internet Archive).",
+      "note": "Graphie de Boilat (1858), relevée sur le texte océrisé de la numérisation ; à contrôler par un locuteur et à moderniser selon l'orthographe officielle.",
+      "sources": [
+        "S107"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "verifie",
+        "le": "2026-11-21",
+        "note": "Texte wolof et traduction retrouvés mot pour mot dans le texte océrisé de Boilat 1858 (Internet Archive), section Des proverbes (pp. 382-386) ; la pagination exacte est approximative, déduite des en-têtes de pages paires."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "titre": "Sénégal — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/S%C3%A9n%C3%A9gal",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S2",
+      "titre": "Langues au Sénégal — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Langues_au_S%C3%A9n%C3%A9gal",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S3",
+      "titre": "Sénégal — UNESCO, Convention du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/statesparties/sn",
+      "type": "unesco",
+      "licence": "UNESCO (conditions d'utilisation du site)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S4",
+      "titre": "Sénégal — UNESCO, patrimoine culturel immatériel (page État)",
+      "institution": "UNESCO, patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/state/senegal-SN",
+      "type": "unesco",
+      "licence": "UNESCO (conditions d'utilisation du site)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S5",
+      "titre": "Chronologie du Sénégal — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Chronologie_du_S%C3%A9n%C3%A9gal",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S6",
+      "titre": "Glottolog 5.4 — Wolof (nucl1347)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/nucl1347",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S7",
+      "titre": "Wolof (langue) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Wolof_(langue)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S8",
+      "titre": "Glottolog 5.4 — Pulaar (pula1263)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/pula1263",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S9",
+      "titre": "Peul (langue) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Peul",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S10",
+      "titre": "Toucouleurs — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Toucouleurs",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S11",
+      "titre": "Sérère (langue) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/S%C3%A9r%C3%A8re_(langue)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S12",
+      "titre": "Glottolog 5.4 — Sereer (sere1260)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/sere1260",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S13",
+      "titre": "Sérères — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/S%C3%A9r%C3%A8res",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S14",
+      "titre": "Glottolog 5.4 — Jola-Fonyi (jola1263)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/jola1263",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S15",
+      "titre": "Mandinka — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mandinka",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S16",
+      "titre": "Glottolog 5.4 — Mandinka (mand1436)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/mand1436",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S17",
+      "titre": "Soninké — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Sonink%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S18",
+      "titre": "Glottolog 5.4 — Soninke (soni1259)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/soni1259",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S19",
+      "titre": "Glottolog 5.4 — Balanta-Ganja (bala1302)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/bala1302",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S20",
+      "titre": "Balante (langue) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Balante_(langue)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S21",
+      "titre": "Glottolog 5.4 — Noon (noon1242)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/noon1242",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S22",
+      "titre": "Noon (langue) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Noon_(langue)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S23",
+      "titre": "Glottolog 5.4 — Saafi-Saafi (saaf1238)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/saaf1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S24",
+      "titre": "Glottolog 5.4 — Mankanya (mank1251)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/mank1251",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S25",
+      "titre": "Glottolog 5.4 — Mandjak (mand1419)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/mand1419",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S26",
+      "titre": "Manjaques — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Manjaques",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S27",
+      "titre": "Glottolog 5.4 — Hassaniyya (hass1238)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/hass1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S28",
+      "titre": "Hassanya — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Hassanya",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S29",
+      "titre": "Glottolog 5.4 — Bassari-Tanda (bass1258)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/bass1258",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S30",
+      "titre": "Bassari (peuple) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Bassari_(peuple)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S31",
+      "titre": "Pays bassari : paysages culturels bassari, peul et bédik — UNESCO, Centre du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/1407",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S32",
+      "titre": "Glottolog 5.4 — Bedik (bedi1235)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/bedi1235",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S33",
+      "titre": "Bédik (peuple) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/B%C3%A9dik_(peuple)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S34",
+      "titre": "Glottolog 5.4 — French (stan1290)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1290",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S35",
+      "titre": "Wolofs — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Wolofs",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S36",
+      "titre": "Peuls — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Peuls",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S37",
+      "titre": "Cercles mégalithiques de Sénégambie — UNESCO, Centre du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/1226",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S38",
+      "titre": "Joal-Fadiouth — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Joal-Fadiouth",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S39",
+      "titre": "Xooy, a divination ceremony among the Serer of Senegal — UNESCO, patrimoine culturel immatériel",
+      "institution": "UNESCO, patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/xooy-a-divination-ceremony-among-the-serer-of-senegal-00878",
+      "type": "unesco",
+      "licence": "UNESCO (conditions d'utilisation du site)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S40",
+      "titre": "Diolas — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Diolas",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S41",
+      "titre": "Aline Sitoé Diatta — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Aline_Sito%C3%A9_Diatta",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S42",
+      "titre": "Kumpo — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Kumpo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S43",
+      "titre": "Mandingues — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mandingues",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S44",
+      "titre": "Kora — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Kora",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S45",
+      "titre": "Kankurang, Manding initiatory rite — UNESCO, patrimoine culturel immatériel",
+      "institution": "UNESCO, patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/kankurang-manding-initiatory-rite-00143",
+      "type": "unesco",
+      "licence": "UNESCO (conditions d'utilisation du site)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S46",
+      "titre": "Soninkés — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Sonink%C3%A9s",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S47",
+      "titre": "Lébous — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/L%C3%A9bous",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S48",
+      "titre": "Balantes — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Balantes",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S49",
+      "titre": "Sër-u-rabbal, woven wrapper (Met 2015.614.2) — The Metropolitan Museum of Art",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/687565",
+      "type": "musee",
+      "licence": "CC0 (données Open Access du Met ; image non reproduite)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S50",
+      "titre": "Île de Gorée — UNESCO, Centre du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/26",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S51",
+      "titre": "Maison des Esclaves — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Maison_des_Esclaves",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S52",
+      "titre": "Delta du Saloum — UNESCO, Centre du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/1359",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S53",
+      "titre": "Parc national du Niokolo-Koba — UNESCO, Centre du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/153",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S54",
+      "titre": "Parc national des oiseaux du Djoudj — UNESCO, Centre du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/25",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S55",
+      "titre": "Île de Saint-Louis — UNESCO, Centre du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/956",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S56",
+      "titre": "Ceebu Jën, a culinary art of Senegal — UNESCO, patrimoine culturel immatériel",
+      "institution": "UNESCO, patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/ceebu-jen-a-culinary-art-of-senegal-01748",
+      "type": "unesco",
+      "licence": "UNESCO (conditions d'utilisation du site)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S57",
+      "titre": "Touba (Sénégal) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Touba_(S%C3%A9n%C3%A9gal)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S58",
+      "titre": "Grande mosquée de Touba — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Grande_mosqu%C3%A9e_de_Touba",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S59",
+      "titre": "Magal de Touba — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Magal_de_Touba",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S60",
+      "titre": "Musée des civilisations noires — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_civilisations_noires",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S61",
+      "titre": "Musée Théodore-Monod d'art africain — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Th%C3%A9odore-Monod_d'Art_africain",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S62",
+      "titre": "Monument de la Renaissance africaine — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Monument_de_la_Renaissance_africaine",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S63",
+      "titre": "Lac Rose — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Lac_Rose",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S64",
+      "titre": "Carabane — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Carabane",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S65",
+      "titre": "Rufisque — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Rufisque",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S66",
+      "titre": "Sabar — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Sabar",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S67",
+      "titre": "Mbalax — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mbalax",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S68",
+      "titre": "Youssou N'Dour — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Youssou_N'Dour",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S69",
+      "titre": "Lutte sénégalaise — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Lutte_s%C3%A9n%C3%A9galaise",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S70",
+      "titre": "Griot — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Griot",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S71",
+      "titre": "Kora, Mamadou Kouyaté (Met 1975.59) — The Metropolitan Museum of Art",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/503060",
+      "type": "musee",
+      "licence": "CC0 (données Open Access du Met ; image non reproduite)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S72",
+      "titre": "Gamou — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Gamou",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S73",
+      "titre": "Aïd al-Adha (Tabaski) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/A%C3%AFd_al-Adha",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S74",
+      "titre": "Ndaté Yalla — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Ndat%C3%A9_Yalla",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S75",
+      "titre": "Mariama Bâ — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mariama_B%C3%A2",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S76",
+      "titre": "Une si longue lettre — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Une_si_longue_lettre",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S77",
+      "titre": "Safi Faye — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Safi_Faye",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S78",
+      "titre": "Annette Mbaye d'Erneville — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Annette_Mbaye_d'Erneville",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S79",
+      "titre": "Aminata Sow Fall — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Aminata_Sow_Fall",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S80",
+      "titre": "La Grève des bàttu — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/La_Gr%C3%A8ve_des_b%C3%A0ttu",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S81",
+      "titre": "Ken Bugul — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Ken_Bugul",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S82",
+      "titre": "Yandé Codou Sène — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Yand%C3%A9_Codou_S%C3%A8ne",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S83",
+      "titre": "Mame Madior Boye — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mame_Madior_Boye",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S84",
+      "titre": "Nafissatou Niang Diallo — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Nafissatou_Niang_Diallo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S85",
+      "titre": "Lat Dior — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Lat_Dior",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S86",
+      "titre": "Alboury Ndiaye — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Alboury_Ndiaye",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S87",
+      "titre": "Oumar Tall — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Oumar_Tall",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S88",
+      "titre": "Ahmadou Bamba — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Ahmadou_Bamba",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S89",
+      "titre": "Blaise Diagne — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Blaise_Diagne",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S90",
+      "titre": "Léopold Sédar Senghor — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/L%C3%A9opold_S%C3%A9dar_Senghor",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S91",
+      "titre": "Léopold Sédar Senghor — Académie française",
+      "institution": "Académie française",
+      "url": "https://www.academie-francaise.fr/les-immortels/leopold-sedar-senghor",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S92",
+      "titre": "Mamadou Dia — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mamadou_Dia",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S93",
+      "titre": "Cheikh Anta Diop — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Cheikh_Anta_Diop",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S94",
+      "titre": "Ousmane Sembène — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Ousmane_Semb%C3%A8ne",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S95",
+      "titre": "La Noire de... — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/La_Noire_de...",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S96",
+      "titre": "Doudou N'diaye Rose — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Doudou_N'diaye_Rose",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S97",
+      "titre": "Ousmane Sow — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Ousmane_Sow",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S98",
+      "titre": "Baaba Maal — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Baaba_Maal",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S99",
+      "titre": "Sadio Mané — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Sadio_Man%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S100",
+      "titre": "Massacre de Thiaroye — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Massacre_de_Thiaroye",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S101",
+      "titre": "Les Bouts de bois de Dieu — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Les_Bouts_de_bois_de_Dieu",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S102",
+      "titre": "Stitch-resist indigo shawl or wrapper (Met 2016.723) — The Metropolitan Museum of Art",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/738844",
+      "type": "musee",
+      "licence": "CC0 (données Open Access du Met ; image non reproduite)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S103",
+      "titre": "Portrait of El-Hajj Malik Sy with Umbrella (Met 2025.481) — The Metropolitan Museum of Art",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/914915",
+      "type": "musee",
+      "licence": "CC0 (données Open Access du Met ; image non reproduite)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S104",
+      "titre": "Le koriste, Boubacar Goudiaby (Met 2025.122) — The Metropolitan Museum of Art",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/919037",
+      "type": "musee",
+      "licence": "CC0 (données Open Access du Met ; image non reproduite)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S105",
+      "titre": "Le roi du Fogny, Ansoumana Diédhiou (Met 2025.129) — The Metropolitan Museum of Art",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/919044",
+      "type": "musee",
+      "licence": "CC0 (données Open Access du Met ; image non reproduite)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S106",
+      "titre": "Touki Bouki — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Touki_Bouki",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S107",
+      "titre": "Grammaire de la langue Woloffe (1858)",
+      "institution": "Internet Archive (numérisation Google Livres)",
+      "url": "https://archive.org/details/boilat-grammaire-de-la-langue-woloffe",
+      "type": "archive",
+      "licence": "domaine public",
+      "consulte_le": "2026-11-21",
+      "auteur": "P. D. Boilat",
+      "annee": 1858
+    }
+  ]
+}
