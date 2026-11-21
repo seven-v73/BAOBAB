@@ -1,16 +1,12 @@
 import { useEffect, lazy, Suspense, useRef } from 'react'
 import { Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import { Home } from './pages/Home'
-import { Blog } from './pages/Blog'
 import { BlogPostPage } from './pages/BlogPost'
-import { Shop } from './pages/Shop'
-import { Cart } from './pages/Cart'
 import { Login } from './pages/Login'
+import { ForgotPassword } from './pages/ForgotPassword'
 import { Register } from './pages/Register'
-import { Community } from './pages/Community'
-import { Communities } from './pages/Communities'
-import { CreateCommunity } from './pages/CreateCommunity'
-import { CommunityDetail } from './pages/CommunityDetail'
+// En pause (voir clean.md) : boutique, panier, paiement, commandes, cercles, fil social et quiz.
+// Les pages restent dans src/pages, mais elles ne sont plus routées.
 import { Sources } from './pages/Sources'
 import { Contribute } from './pages/Contribute'
 import { useAuthStore } from './stores/authStore'
@@ -21,27 +17,34 @@ import { NotificationContainer } from './components/Notification/NotificationCon
 import { AdminRoute } from './components/AdminRoute'
 import { RouteSeo } from './seo/RouteSeo'
 import './App.css'
+import './styles/theme-overrides.css'
+import './styles/premium-pages.css'
+import './styles/contrast-system.css'
+import './styles/button-system.css'
+import './styles/human-design.css'
 import './styles/admin-fixes.css'
-import './styles/shell.css'
+import './styles/form-system.css'
+import './styles/premium-polish.css'
+import './styles/production-ergonomics.css'
+import './styles/page-transitions.css'
+import './styles/page-limits.css'
+import './styles/layout-safety.css'
+import './styles/typography-human.css'
+import './styles/human-experience.css'
+import './styles/monbaobab-header.css'
 
 // Lazy loading pour les pages moins fréquemment utilisées
 const BlogAdmin = lazy(() => import('./pages/BlogAdmin').then(module => ({ default: module.BlogAdmin })))
 const CountryDetail = lazy(() => import('./pages/CountryDetail').then(module => ({ default: module.CountryDetail })))
 const AdminDashboard = lazy(() => import('./pages/AdminDashboard').then(module => ({ default: module.AdminDashboard })))
 const Dashboard = lazy(() => import('./pages/Dashboard').then(module => ({ default: module.Dashboard })))
-const OrderDetail = lazy(() => import('./pages/OrderDetail').then(module => ({ default: module.OrderDetail })))
-const Checkout = lazy(() => import('./pages/Checkout').then(module => ({ default: module.Checkout })))
-const Timeline = lazy(() => import('./pages/Timeline').then(module => ({ default: module.Timeline })))
-const HistoricalFigures = lazy(() => import('./pages/HistoricalFigures').then(module => ({ default: module.HistoricalFigures })))
 const HistoricalFigureDetail = lazy(() => import('./pages/HistoricalFigureDetail').then(module => ({ default: module.HistoricalFigureDetail })))
-const Collections = lazy(() => import('./pages/Collections').then(module => ({ default: module.Collections })))
 const CollectionDetail = lazy(() => import('./pages/CollectionDetail').then(module => ({ default: module.CollectionDetail })))
 const TimelineDetail = lazy(() => import('./pages/TimelineDetail').then(module => ({ default: module.TimelineDetail })))
-const Stories = lazy(() => import('./pages/Stories').then(module => ({ default: module.Stories })))
 const StoryDetail = lazy(() => import('./pages/StoryDetail').then(module => ({ default: module.StoryDetail })))
-const Quizzes = lazy(() => import('./pages/Quizzes').then(module => ({ default: module.Quizzes })))
-const Quiz = lazy(() => import('./pages/Quiz').then(module => ({ default: module.Quiz })))
-const Proverbs = lazy(() => import('./pages/Proverbs').then(module => ({ default: module.Proverbs })))
+const Recits = lazy(() => import('./pages/Recits').then(module => ({ default: module.Recits })))
+const RecitDetail = lazy(() => import('./pages/RecitDetail').then(module => ({ default: module.RecitDetail })))
+const Reperes = lazy(() => import('./pages/Reperes').then(module => ({ default: module.Reperes })))
 const MapPage = lazy(() => import('./pages/MapPage').then(module => ({ default: module.MapPage })))
 const BlogWrite = lazy(() => import('./pages/BlogWrite').then(module => ({ default: module.BlogWrite })))
 const NotFound = lazy(() => import('./pages/NotFound').then(module => ({ default: module.NotFound })))
@@ -49,15 +52,15 @@ const SearchResults = lazy(() => import('./pages/SearchResults').then(module => 
 
 // Composant de chargement
 const LoadingFallback = () => (
-  <div className="mb-page-loader" role="status" aria-live="polite">
-    <span className="sr-only">Chargement de la page…</span>
-    <div className="mb-skeleton" style={{ height: 40, width: '45%' }} />
-    <div className="mb-skeleton" style={{ height: 18, width: '70%' }} />
-    <div className="mb-grid" style={{ marginTop: 24 }}>
-      {[0, 1, 2].map((i) => (
-        <div key={i} className="mb-skeleton" style={{ height: 260 }} />
-      ))}
-    </div>
+  <div style={{ 
+    display: 'flex', 
+    justifyContent: 'center', 
+    alignItems: 'center', 
+    minHeight: '50vh',
+    fontSize: '1.2rem',
+    color: '#666'
+  }}>
+    Chargement...
   </div>
 )
 
@@ -86,6 +89,9 @@ function App() {
   const previousPathRef = useRef(location.pathname)
   const fetchSettings = useSettingsStore((state) => state.fetchSettings)
 
+  // Seul le chemin rejoue la transition : un filtre ou un onglet (?type=, ?onglet=) ne remonte pas la page.
+  const routeKey = location.pathname
+
   // Appliquer le thème au document
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme)
@@ -107,33 +113,58 @@ function App() {
   }, [sessionExpired, warning])
 
   useEffect(() => {
-    const timers: number[] = []
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
     const pathChanged = previousPathRef.current !== location.pathname
+    const timers: number[] = []
     previousPathRef.current = location.pathname
 
-    if (location.hash) {
-      // Les sections chargées de façon asynchrone peuvent apparaître un peu après la navigation
-      const scrollToHash = (attempt = 0) => {
-        const target = document.getElementById(decodeURIComponent(location.hash.slice(1)))
-        if (target) {
-          target.scrollIntoView({ block: 'start' })
-        } else if (attempt < 12) {
-          timers.push(window.setTimeout(() => scrollToHash(attempt + 1), 120))
-        }
-      }
-      scrollToHash()
-    } else if (pathChanged) {
-      window.scrollTo(0, 0)
+    if (pathChanged) {
+      document.documentElement.classList.add('route-transitioning')
+      timers.push(window.setTimeout(() => {
+        document.documentElement.classList.remove('route-transitioning')
+      }, reduceMotion ? 0 : 520))
     }
 
-    return () => timers.forEach((timer) => window.clearTimeout(timer))
-  }, [location.pathname, location.hash])
+    const scrollToHash = (attempt = 0) => {
+      const target = document.getElementById(decodeURIComponent(location.hash.slice(1)))
+      if (target) {
+        target.scrollIntoView({
+          behavior: reduceMotion ? 'auto' : 'smooth',
+          block: 'start',
+        })
+        return
+      }
+
+      if (attempt < 12) {
+        timers.push(window.setTimeout(() => scrollToHash(attempt + 1), 120))
+      }
+    }
+
+    timers.push(window.setTimeout(() => {
+      if (location.hash) {
+        scrollToHash()
+        return
+      }
+
+      if (pathChanged) {
+        window.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: reduceMotion ? 'auto' : 'smooth',
+        })
+      }
+    }, pathChanged ? 90 : 0))
+
+    return () => {
+      timers.forEach((timer) => window.clearTimeout(timer))
+    }
+  }, [location.pathname, location.search, location.hash])
 
   return (
     <>
       {/* Placé avant les pages : ses effets s'exécutent avant ceux des pages, qui peuvent ensuite préciser */}
       <RouteSeo />
-      <div className="page-transition-shell" key={location.pathname}>
+      <div className="page-transition-shell" key={routeKey}>
       <Routes location={location}>
         <Route path="/" element={<Home />} />
         <Route 
@@ -144,7 +175,37 @@ function App() {
             </Suspense>
           } 
         />
-        <Route path="/blog" element={<Blog />} />
+        {/* Récits et Repères remplacent six anciennes listes ; leurs adresses redirigent (clean.md) */}
+        <Route
+          path="/recits"
+          element={
+            <Suspense fallback={<LoadingFallback />}>
+              <Recits />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/recit/:id"
+          element={
+            <Suspense fallback={<LoadingFallback />}>
+              <RecitDetail />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/reperes"
+          element={
+            <Suspense fallback={<LoadingFallback />}>
+              <Reperes />
+            </Suspense>
+          }
+        />
+        <Route path="/blog" element={<Navigate to="/recits?type=articles" replace />} />
+        <Route path="/stories" element={<Navigate to="/recits?type=histoires" replace />} />
+        <Route path="/collections" element={<Navigate to="/recits?type=dossiers" replace />} />
+        <Route path="/timeline" element={<Navigate to="/reperes?type=dates" replace />} />
+        <Route path="/figures" element={<Navigate to="/reperes?type=personnalites" replace />} />
+        <Route path="/proverbs" element={<Navigate to="/reperes?type=proverbes" replace />} />
         <Route
           path="/blog/ecrire"
           element={
@@ -169,14 +230,6 @@ function App() {
         <Route path="/sources" element={<Sources />} />
         <Route path="/contribute" element={<Contribute />} />
         <Route
-          path="/timeline"
-          element={
-            <Suspense fallback={<LoadingFallback />}>
-              <Timeline />
-            </Suspense>
-          }
-        />
-        <Route
           path="/timeline/:id"
           element={
             <Suspense fallback={<LoadingFallback />}>
@@ -184,47 +237,13 @@ function App() {
             </Suspense>
           }
         />
-        <Route path="/figures" element={<HistoricalFigures />} />
         <Route path="/figures/:id" element={<HistoricalFigureDetail />} />
-        <Route path="/collections" element={<Collections />} />
         <Route path="/collections/:id" element={<CollectionDetail />} />
-        <Route
-          path="/stories"
-          element={
-            <Suspense fallback={<LoadingFallback />}>
-              <Stories />
-            </Suspense>
-          }
-        />
         <Route
           path="/stories/:id"
           element={
             <Suspense fallback={<LoadingFallback />}>
               <StoryDetail />
-            </Suspense>
-          }
-        />
-        <Route
-          path="/quizzes"
-          element={
-            <Suspense fallback={<LoadingFallback />}>
-              <Quizzes />
-            </Suspense>
-          }
-        />
-        <Route
-          path="/quizzes/:id"
-          element={
-            <Suspense fallback={<LoadingFallback />}>
-              <Quiz />
-            </Suspense>
-          }
-        />
-        <Route
-          path="/proverbs"
-          element={
-            <Suspense fallback={<LoadingFallback />}>
-              <Proverbs />
             </Suspense>
           }
         />
@@ -246,8 +265,6 @@ function App() {
             </ProtectedRoute>
           }
         />
-        <Route path="/shop" element={<Shop />} />
-        <Route path="/cart" element={<Cart />} />
         <Route
           path="/search"
           element={
@@ -256,41 +273,8 @@ function App() {
             </Suspense>
           }
         />
-        <Route
-          path="/communities"
-          element={<Communities />}
-        />
-        <Route
-          path="/communities/create"
-          element={
-            <ProtectedRoute>
-              <CreateCommunity />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/communities/:id"
-          element={<CommunityDetail />}
-        />
-        <Route
-          path="/community"
-          element={
-            <ProtectedRoute>
-              <Community />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/checkout"
-          element={
-            <ProtectedRoute>
-              <Suspense fallback={<LoadingFallback />}>
-                <Checkout />
-              </Suspense>
-            </ProtectedRoute>
-          }
-        />
         <Route path="/login" element={<Login />} />
+        <Route path="/mot-de-passe-oublie" element={<ForgotPassword />} />
         <Route path="/register" element={<Register />} />
         <Route path="/auth/login" element={<Navigate to="/login" replace />} />
         <Route path="/auth/register" element={<Navigate to="/register" replace />} />
@@ -305,16 +289,6 @@ function App() {
           }
         />
         <Route
-          path="/orders/:id"
-          element={
-            <ProtectedRoute>
-              <Suspense fallback={<LoadingFallback />}>
-                <OrderDetail />
-              </Suspense>
-            </ProtectedRoute>
-          }
-        />
-        <Route
           path="/admin"
           element={
             <AdminRoute>
@@ -324,6 +298,17 @@ function App() {
             </AdminRoute>
           }
         />
+        {/* Rubriques en pause (clean.md) : leurs anciennes adresses, parfois indexées, ramènent à l'accueil */}
+        <Route path="/quizzes" element={<Navigate to="/" replace />} />
+        <Route path="/quizzes/:id" element={<Navigate to="/" replace />} />
+        <Route path="/shop" element={<Navigate to="/" replace />} />
+        <Route path="/cart" element={<Navigate to="/" replace />} />
+        <Route path="/checkout" element={<Navigate to="/" replace />} />
+        <Route path="/orders/:id" element={<Navigate to="/" replace />} />
+        <Route path="/communities" element={<Navigate to="/" replace />} />
+        <Route path="/communities/create" element={<Navigate to="/" replace />} />
+        <Route path="/communities/:id" element={<Navigate to="/" replace />} />
+        <Route path="/community" element={<Navigate to="/" replace />} />
         <Route
           path="*"
           element={

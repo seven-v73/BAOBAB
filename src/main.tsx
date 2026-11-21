@@ -7,11 +7,12 @@ import App from './App.tsx'
 
 // Initialiser le thème avant le rendu pour éviter le flash
 const initTheme = () => {
-  const stored = localStorage.getItem('mb-theme')
+  const stored = localStorage.getItem('theme-storage')
   if (stored) {
     try {
       const parsed = JSON.parse(stored)
-      if (parsed.state?.theme) {
+      // Avant la v1 du store, le thème stocké vient de l'ancien défaut sombre : on l'ignore
+      if (parsed.version >= 1 && parsed.state?.theme) {
         document.documentElement.setAttribute('data-theme', parsed.state.theme)
         return
       }
@@ -19,7 +20,7 @@ const initTheme = () => {
       // Ignore
     }
   }
-  // Thème par défaut : clair (meilleure lisibilité des contenus éditoriaux)
+  // Thème par défaut
   document.documentElement.setAttribute('data-theme', 'light')
 }
 

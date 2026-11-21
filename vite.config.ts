@@ -1,14 +1,17 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+// En local, le front appelle /api : on le renvoie vers le backend (server/).
+// API_PROXY_TARGET change la cible quand le port 3000 est déjà pris.
+const backend = process.env.API_PROXY_TARGET || 'http://localhost:3000'
+
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
   server: {
-    // En développement, l'API Express tourne sur le port 3000 (comme derrière nginx en production)
     proxy: {
-      '/api': { target: 'http://127.0.0.1:3000', changeOrigin: true },
-      '/uploads': { target: 'http://127.0.0.1:3000', changeOrigin: true },
+      '/api': backend,
+      '/uploads': backend,
     },
   },
 })

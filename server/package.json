@@ -19,6 +19,7 @@
     "seed:countries": "node src/scripts/seedCountriesComplete.js",
     "seed:wisdom": "node src/scripts/seedMoreProverbsAndQuizzes.js",
     "seed:sources": "node src/scripts/seedSources.js",
+    "db:sync-contribution-indexes": "node src/scripts/syncContributionIndexes.js",
     "seed:all": "node src/scripts/seedAll.js",
     "sitemap:generate": "node src/scripts/buildSeo.js",
     "check:security": "node scripts/check-security.js"

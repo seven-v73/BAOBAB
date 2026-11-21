@@ -32,7 +32,7 @@ const SITE = (process.env.SITE_URL || 'https://monbaobab.com').replace(/\/$/, ''
 const SITE_NAME = 'MonBaobab'
 const DEFAULT_IMAGE = `${SITE}/og/monbaobab-default.jpg`
 const DEFAULT_DESCRIPTION =
-  'Histoires, cultures, savoirs et talents d’Afrique : fiches pays, personnalités, récits, proverbes et quiz, documentés et partagés par la communauté MonBaobab.'
+  'Histoires, cultures, savoirs et talents d’Afrique : fiches pays, personnalités, récits et proverbes, documentés et partagés par la communauté MonBaobab.'
 
 /* ---------------------------------------------------------------- utilitaires */
 
@@ -172,7 +172,7 @@ const snapshot = (page) => {
         .join(' › ')}</nav>`
     : ''
   return `<div class="seo-snapshot">
-<header><a href="/">${SITE_NAME}</a> · ${link('/map', 'Pays')} · ${link('/figures', 'Personnalités')} · ${link('/stories', 'Récits')} · ${link('/blog', 'Articles')} · ${link('/proverbs', 'Proverbes')}</header>
+<header><a href="/">${SITE_NAME}</a> · ${link('/map', 'Explorer')} · ${link('/recits', 'Récits')} · ${link('/reperes', 'Repères')} · ${link('/contribute', 'Contribuer')}</header>
 <main>
 ${crumbs}
 <h1>${esc(page.heading || page.title || SITE_NAME)}</h1>
@@ -189,19 +189,16 @@ const renderPage = (shell, page) =>
 /* ------------------------------------------------------------- collecte des pages */
 
 const collectPages = async (models) => {
-  const { Blog, Country, HistoricalFigure, Story, Collection, TimelineEvent, Quiz, Proverb, Product, Community } = models
+  const { Blog, Country, HistoricalFigure, Story, Collection, TimelineEvent, Proverb } = models
 
-  const [blogs, countries, figures, stories, collections, events, quizzes, proverbs, products, communities] = await Promise.all([
+  const [blogs, countries, figures, stories, collections, events, proverbs] = await Promise.all([
     Blog.find({ published: true }).sort({ createdAt: -1 }).lean(),
     Country.find({ isActive: { $ne: false } }).sort({ nameFr: 1 }).lean(),
     HistoricalFigure.find({ isActive: { $ne: false } }).sort({ name: 1 }).lean(),
     Story.find({ published: true }).sort({ createdAt: -1 }).lean(),
     Collection.find({ isActive: { $ne: false } }).sort({ order: 1 }).lean(),
     TimelineEvent.find({ isActive: { $ne: false } }).sort({ date: 1 }).lean(),
-    Quiz.find({ isActive: { $ne: false } }).sort({ createdAt: 1 }).lean(),
     Proverb.find({}).sort({ countryName: 1 }).lean(),
-    Product.find({ isActive: true }).sort({ createdAt: -1 }).lean(),
-    Community.find({ isActive: true, type: 'public' }).lean(),
   ])
 
   const pages = []
@@ -218,14 +215,11 @@ const collectPages = async (models) => {
     body: `<p>${esc(DEFAULT_DESCRIPTION)}</p>
 <h2>Explorer</h2>${list(
       [
-        ['/map', `Carte & pays (${countries.length})`],
-        ['/timeline', `Chronologie (${events.length} repères)`],
-        ['/figures', `Personnalités (${figures.length})`],
-        ['/stories', `Récits (${stories.length})`],
-        ['/proverbs', `Proverbes (${proverbs.length})`],
-        ['/quizzes', `Quiz (${quizzes.length})`],
-        ['/blog', `Carnet de savoirs (${blogs.length} articles)`],
-        ['/collections', `Collections (${collections.length})`],
+        ['/map', `Explorer les pays (${countries.length})`],
+        ['/recits', `Récits (${blogs.length + stories.length} articles et histoires, ${collections.length} dossiers)`],
+        ['/reperes', `Repères (${events.length} dates, ${figures.length} personnalités, ${proverbs.length} proverbes)`],
+        ['/sources', 'Sources'],
+        ['/contribute', 'Contribuer'],
       ],
       ([href, label]) => link(href, label),
     )}
@@ -249,7 +243,7 @@ const collectPages = async (models) => {
         '@id': `${SITE}/#organization`,
         name: SITE_NAME,
         url: `${SITE}/`,
-        logo: `${SITE}/LogoFiles/Fichier%202.png`,
+        logo: `${SITE}/Logo/Fichier%204@2x.png`,
       },
     ],
   })
@@ -259,7 +253,7 @@ const collectPages = async (models) => {
     path: '/map',
     title: 'Carte interactive des pays d’Afrique',
     description: `Explorez les ${countries.length} pays d’Afrique : capitales, langues, histoire, cultures, cuisines et personnalités.`,
-    breadcrumbs: [home, { name: 'Carte & pays', path: '/map' }],
+    breadcrumbs: [home, { name: 'Explorer', path: '/map' }],
     priority: '0.9',
     body: list(countries, (c) => `${link(`/country/${c.id.toLowerCase()}`, countryName(c))} — ${esc(c.capital || '')}`),
   })
@@ -273,7 +267,7 @@ const collectPages = async (models) => {
       description,
       image: `https://flagcdn.com/w1280/${c.id.toLowerCase()}.png`,
       lastmod: c.updatedAt,
-      breadcrumbs: [home, { name: 'Pays', path: '/map' }, { name, path: `/country/${c.id.toLowerCase()}` }],
+      breadcrumbs: [home, { name: 'Explorer', path: '/map' }, { name, path: `/country/${c.id.toLowerCase()}` }],
       priority: '0.8',
       body: `<p>${esc(description)}</p>
 ${c.description && c.description !== description ? `<p>${esc(plain(c.description))}</p>` : ''}
@@ -295,15 +289,17 @@ ${c.notableFigures?.length ? `<h2>Personnalités</h2>${list(c.notableFigures)}` 
     })
   }
 
-  /* Articles */
+  /* Récits : articles, histoires et dossiers (remplace /blog, /stories et /collections) */
   pages.push({
-    path: '/blog',
-    title: 'Carnet de savoirs : articles sur l’Afrique',
-    description: 'Articles, repères et lectures pour comprendre les lieux, les époques et les héritages africains.',
-    breadcrumbs: [home, { name: 'Carnet de savoirs', path: '/blog' }],
+    path: '/recits',
+    title: 'Récits : articles, témoignages et dossiers sur l’Afrique',
+    description: 'Articles documentés, histoires transmises et dossiers thématiques pour comprendre les lieux, les époques et les héritages africains.',
+    breadcrumbs: [home, { name: 'Récits', path: '/recits' }],
     changefreq: 'daily',
     priority: '0.9',
-    body: list(blogs, (b) => `${link(`/blog/${b._id}`, b.title)} — ${esc(clip(b.excerpt, 140))}`),
+    body: `<h2>Articles</h2>${list(blogs, (b) => `${link(`/blog/${b._id}`, b.title)} — ${esc(clip(b.excerpt, 140))}`)}
+<h2>Histoires</h2>${list(stories, (s) => `${link(`/stories/${s._id}`, s.title)} — ${esc(s.subtitle || clip(s.description, 120))}`)}
+<h2>Dossiers</h2>${list(collections, (c) => `${link(`/collections/${c._id}`, c.title)} — ${esc(c.shortDescription || '')}`)}`,
   })
   for (const b of blogs) {
     const path_ = `/blog/${b._id}`
@@ -314,7 +310,7 @@ ${c.notableFigures?.length ? `<h2>Personnalités</h2>${list(c.notableFigures)}` 
       image: b.image,
       type: 'article',
       lastmod: b.updatedAt,
-      breadcrumbs: [home, { name: 'Carnet de savoirs', path: '/blog' }, { name: b.title, path: path_ }],
+      breadcrumbs: [home, { name: 'Récits', path: '/recits' }, { name: b.title, path: path_ }],
       priority: '0.8',
       body: `<p><em>${esc(b.category || '')} · ${b.kind === 'temoignage' ? 'Témoignage' : 'Article documenté'} · ${esc(b.author || SITE_NAME)}</em></p>\n${b.excerpt ? `<p><strong>${esc(plain(b.excerpt))}</strong></p>` : ''}\n${articleHtml(b.content)}\n${referencesHtml(b.references)}`,
       jsonLd: {
@@ -335,14 +331,19 @@ ${c.notableFigures?.length ? `<h2>Personnalités</h2>${list(c.notableFigures)}` 
     })
   }
 
-  /* Personnalités */
+  /* Repères : dates, personnalités et proverbes (remplace /timeline, /figures et /proverbs) */
   pages.push({
-    path: '/figures',
-    title: 'Personnalités historiques africaines',
-    description: 'Portraits de celles et ceux qui ont marqué l’histoire de l’Afrique : souverains, résistantes, savants, artistes.',
-    breadcrumbs: [home, { name: 'Personnalités', path: '/figures' }],
-    priority: '0.8',
-    body: list(figures, (f) => `${link(`/figures/${f._id}`, f.name)} — ${esc(f.shortBiography || '')}`),
+    path: '/reperes',
+    title: 'Repères : dates, personnalités et proverbes d’Afrique',
+    description: 'Les grandes dates de l’histoire africaine, les personnalités qui l’ont marquée et les proverbes qui la transmettent.',
+    breadcrumbs: [home, { name: 'Repères', path: '/reperes' }],
+    priority: '0.9',
+    body: `<h2>Dates</h2>${list(events, (e) => `${year(e.date) ?? ''} — ${link(`/timeline/${e._id}`, e.title)}`)}
+<h2>Personnalités</h2>${list(figures, (f) => `${link(`/figures/${f._id}`, f.name)} — ${esc(f.shortBiography || '')}`)}
+<h2>Proverbes</h2>${list(
+      proverbs,
+      (p) => `<blockquote>${esc(p.text)}</blockquote> <small>${esc([p.countryName, p.language].filter(Boolean).join(' · '))}</small>${p.explanation ? `<p>${esc(p.explanation)}</p>` : ''}`,
+    )}`,
   })
   for (const f of figures) {
     const path_ = `/figures/${f._id}`
@@ -357,7 +358,7 @@ ${c.notableFigures?.length ? `<h2>Personnalités</h2>${list(c.notableFigures)}` 
       image: f.image,
       type: 'profile',
       lastmod: f.updatedAt,
-      breadcrumbs: [home, { name: 'Personnalités', path: '/figures' }, { name: f.name, path: path_ }],
+      breadcrumbs: [home, { name: 'Repères', path: '/reperes' }, { name: f.name, path: path_ }],
       priority: '0.7',
       body: `<p><strong>${esc(f.shortBiography || '')}</strong></p>
 ${paragraphs(f.biography, 20)}
@@ -374,15 +375,6 @@ ${f.achievements?.length ? `<h2>Réalisations</h2>${list(f.achievements.map((a) 
     })
   }
 
-  /* Récits */
-  pages.push({
-    path: '/stories',
-    title: 'Récits et histoires d’Afrique',
-    description: 'Épopées, contes, biographies et histoires transmises, à lire chapitre par chapitre.',
-    breadcrumbs: [home, { name: 'Récits', path: '/stories' }],
-    priority: '0.8',
-    body: list(stories, (s) => `${link(`/stories/${s._id}`, s.title)} — ${esc(s.subtitle || clip(s.description, 120))}`),
-  })
   for (const s of stories) {
     const path_ = `/stories/${s._id}`
     pages.push({
@@ -393,7 +385,7 @@ ${f.achievements?.length ? `<h2>Réalisations</h2>${list(f.achievements.map((a) 
       image: s.coverImage,
       type: 'article',
       lastmod: s.updatedAt,
-      breadcrumbs: [home, { name: 'Récits', path: '/stories' }, { name: s.title, path: path_ }],
+      breadcrumbs: [home, { name: 'Récits', path: '/recits' }, { name: s.title, path: path_ }],
       priority: '0.7',
       body: `<p>${esc(plain(s.description))}</p>
 ${(s.chapters || []).map((ch) => `<h2>${esc(ch.title || '')}</h2>\n${paragraphs(ch.content, 20)}`).join('\n')}`,
@@ -413,15 +405,6 @@ ${(s.chapters || []).map((ch) => `<h2>${esc(ch.title || '')}</h2>\n${paragraphs(
     })
   }
 
-  /* Collections */
-  pages.push({
-    path: '/collections',
-    title: 'Collections thématiques',
-    description: 'Parcours thématiques sur les empires, les arts, les femmes qui ont marqué l’histoire et les patrimoines africains.',
-    breadcrumbs: [home, { name: 'Collections', path: '/collections' }],
-    priority: '0.7',
-    body: list(collections, (c) => `${link(`/collections/${c._id}`, c.title)} — ${esc(c.shortDescription || '')}`),
-  })
   for (const c of collections) {
     const path_ = `/collections/${c._id}`
     pages.push({
@@ -430,22 +413,13 @@ ${(s.chapters || []).map((ch) => `<h2>${esc(ch.title || '')}</h2>\n${paragraphs(
       description: c.shortDescription || c.description,
       image: c.coverImage,
       lastmod: c.updatedAt,
-      breadcrumbs: [home, { name: 'Collections', path: '/collections' }, { name: c.title, path: path_ }],
+      breadcrumbs: [home, { name: 'Récits', path: '/recits' }, { name: c.title, path: path_ }],
       priority: '0.6',
       body: paragraphs(c.description, 10),
       jsonLd: { '@type': 'CollectionPage', name: c.title, description: clip(c.shortDescription || c.description, 300), url: absolute(path_) },
     })
   }
 
-  /* Chronologie */
-  pages.push({
-    path: '/timeline',
-    title: 'Chronologie de l’histoire africaine',
-    description: 'Les grandes périodes de l’histoire de l’Afrique, des royaumes anciens aux indépendances.',
-    breadcrumbs: [home, { name: 'Chronologie', path: '/timeline' }],
-    priority: '0.8',
-    body: list(events, (e) => `${year(e.date) ?? ''} — ${link(`/timeline/${e._id}`, e.title)}`),
-  })
   for (const e of events) {
     const path_ = `/timeline/${e._id}`
     const y = year(e.date)
@@ -456,79 +430,9 @@ ${(s.chapters || []).map((ch) => `<h2>${esc(ch.title || '')}</h2>\n${paragraphs(
       description: e.shortDescription || e.description,
       image: e.images?.[0],
       lastmod: e.updatedAt,
-      breadcrumbs: [home, { name: 'Chronologie', path: '/timeline' }, { name: e.title, path: path_ }],
+      breadcrumbs: [home, { name: 'Repères', path: '/reperes' }, { name: e.title, path: path_ }],
       priority: '0.6',
       body: `<p><em>${esc(e.period || '')}${e.location?.region ? ` · ${esc(e.location.region)}` : ''}${y ? ` · ${y}` : ''}</em></p>\n${paragraphs(e.description, 10)}`,
-    })
-  }
-
-  /* Quiz */
-  pages.push({
-    path: '/quizzes',
-    title: 'Quiz sur l’histoire et les cultures africaines',
-    description: 'Testez et enrichissez vos connaissances sur l’Afrique avec des quiz pour tous les niveaux.',
-    breadcrumbs: [home, { name: 'Quiz', path: '/quizzes' }],
-    priority: '0.7',
-    body: list(quizzes, (q) => `${link(`/quizzes/${q._id}`, q.title)} — ${esc(clip(q.description, 120))}`),
-  })
-  for (const q of quizzes) {
-    const path_ = `/quizzes/${q._id}`
-    pages.push({
-      path: path_,
-      title: `Quiz : ${q.title}`,
-      heading: q.title,
-      description: q.description,
-      lastmod: q.updatedAt,
-      breadcrumbs: [home, { name: 'Quiz', path: '/quizzes' }, { name: q.title, path: path_ }],
-      priority: '0.6',
-      // On ne publie pas les réponses : seulement l'intitulé des questions
-      body: `<p>${esc(plain(q.description))}</p><p>${(q.questions || []).length} questions.</p>${list((q.questions || []).map((x) => x.question))}`,
-      jsonLd: { '@type': 'Quiz', name: q.title, description: clip(q.description, 300), educationalLevel: q.difficulty, inLanguage: 'fr', url: absolute(path_) },
-    })
-  }
-
-  /* Proverbes (une seule page, pas de route de détail) */
-  pages.push({
-    path: '/proverbs',
-    title: `${proverbs.length} proverbes africains et leur sens`,
-    description: 'Proverbes africains classés par pays et par langue, avec leur explication.',
-    breadcrumbs: [home, { name: 'Proverbes', path: '/proverbs' }],
-    priority: '0.8',
-    body: list(
-      proverbs,
-      (p) => `<blockquote>${esc(p.text)}</blockquote> <small>${esc([p.countryName, p.language].filter(Boolean).join(' · '))}</small>${p.explanation ? `<p>${esc(p.explanation)}</p>` : ''}`,
-    ),
-  })
-
-  /* Boutique */
-  pages.push({
-    path: '/shop',
-    title: 'Boutique : créations et objets africains',
-    description: 'Objets, matières et créations choisis pour leur usage et leur histoire.',
-    breadcrumbs: [home, { name: 'Boutique', path: '/shop' }],
-    priority: '0.6',
-    body: list(products, (p) => `${esc(p.name)} — ${esc(new Intl.NumberFormat('fr-FR').format(p.price))} ${esc(p.currency || 'FCFA')}`),
-  })
-
-  /* Communautés */
-  pages.push({
-    path: '/communities',
-    title: 'Cercles : communautés autour de l’Afrique',
-    description: 'Rejoignez un cercle pour échanger autour d’un pays, d’une langue ou d’un thème.',
-    breadcrumbs: [home, { name: 'Cercles', path: '/communities' }],
-    priority: '0.6',
-    body: list(communities, (c) => `${link(`/communities/${c._id}`, c.name)} — ${esc(clip(c.description, 120))}`),
-  })
-  for (const c of communities) {
-    const path_ = `/communities/${c._id}`
-    pages.push({
-      path: path_,
-      title: `Cercle ${c.name}`,
-      description: c.description,
-      image: c.coverImage || c.image,
-      lastmod: c.updatedAt,
-      breadcrumbs: [home, { name: 'Cercles', path: '/communities' }, { name: c.name, path: path_ }],
-      priority: '0.5',
     })
   }
 
@@ -639,10 +543,7 @@ export const buildSeo = async ({ models } = {}) => {
       Story: await load('Story'),
       Collection: await load('Collection'),
       TimelineEvent: await load('TimelineEvent'),
-      Quiz: await load('Quiz'),
       Proverb: await load('Proverb'),
-      Product: await load('Product'),
-      Community: await load('Community'),
     }
   }
 

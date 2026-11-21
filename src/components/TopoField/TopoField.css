@@ -1,0 +1,8 @@
+.topo-field {
+  --topo-strong: var(--brand-foret);
+  --topo-soft: var(--brand-sauge);
+  display: block;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}

@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react'
+import { useLocation, useNavigate } from 'react-router-dom'
+import { Bookmark } from 'lucide-react'
 import { bookmarkService } from '../../services/api'
 import { useAuthStore } from '../../stores/authStore'
 import { useNotifications } from '../../hooks/useNotifications'
@@ -8,11 +10,15 @@ interface BookmarkButtonProps {
   itemType: 'event' | 'figure' | 'collection' | 'story' | 'quiz' | 'proverb' | 'blog' | 'country'
   itemId: string
   className?: string
+  /** Bouton rond, icône seule (photo de la fiche pays en mobile) */
+  iconOnly?: boolean
 }
 
-export const BookmarkButton = ({ itemType, itemId, className = '' }: BookmarkButtonProps) => {
+export const BookmarkButton = ({ itemType, itemId, className = '', iconOnly = false }: BookmarkButtonProps) => {
   const { isAuthenticated } = useAuthStore()
   const { success, showError } = useNotifications()
+  const navigate = useNavigate()
+  const location = useLocation()
   const [isBookmarked, setIsBookmarked] = useState(false)
   const [loading, setLoading] = useState(false)
   const [bookmarkId, setBookmarkId] = useState<string | null>(null)
@@ -30,14 +36,15 @@ export const BookmarkButton = ({ itemType, itemId, className = '' }: BookmarkBut
       if (response.data.bookmark) {
         setBookmarkId(response.data.bookmark._id)
       }
-    } catch (error) {
-      // Ignore errors for check
+    } catch {
+      // Vérification facultative : en cas d'échec, le bouton reste « Enregistrer »
     }
   }
 
   const handleToggle = async () => {
+    // Un visiteur non connecté est envoyé vers la connexion, puis ramené ici
     if (!isAuthenticated) {
-      showError('Connectez-vous pour ajouter aux favoris')
+      navigate(`/login?redirect=${encodeURIComponent(location.pathname + location.search)}`)
       return
     }
 
@@ -47,42 +54,33 @@ export const BookmarkButton = ({ itemType, itemId, className = '' }: BookmarkBut
         await bookmarkService.delete(bookmarkId)
         setIsBookmarked(false)
         setBookmarkId(null)
-        success('Retiré des favoris')
+        success('Retiré de vos enregistrements')
       } else {
-        const response = await bookmarkService.create({
-          itemType,
-          itemId,
-          category: 'favorite',
-        })
+        const response = await bookmarkService.create({ itemType, itemId, category: 'favorite' })
         setIsBookmarked(true)
         setBookmarkId(response.data._id)
-        success('Ajouté aux favoris')
+        success('Enregistré dans Mon espace')
       }
     } catch (error: any) {
-      const errorMessage = error.response?.data?.error || 'Erreur lors de la mise à jour'
-      showError(errorMessage)
+      showError(error.response?.data?.error || 'Erreur lors de la mise à jour')
     } finally {
       setLoading(false)
     }
   }
 
-  if (!isAuthenticated) {
-    return null
-  }
+  const label = isBookmarked ? 'Enregistré' : 'Enregistrer'
 
   return (
     <button
-      className={`bookmark-btn ${isBookmarked ? 'bookmarked' : ''} ${className}`}
+      type="button"
+      className={`bookmark-btn${isBookmarked ? ' bookmarked' : ''}${iconOnly ? ' bookmark-btn--icon' : ''} ${className}`}
       onClick={handleToggle}
       disabled={loading}
-      title={isBookmarked ? 'Retirer des favoris' : 'Ajouter aux favoris'}
-      aria-label={isBookmarked ? 'Retirer des favoris' : 'Ajouter aux favoris'}
+      aria-pressed={isBookmarked}
+      aria-label={iconOnly ? label : undefined}
     >
-      <span className={`icon-heart ${isBookmarked ? 'filled' : ''}`} />
-      <span className="bookmark-text">
-        {isBookmarked ? 'Favori' : 'Ajouter'}
-      </span>
+      <Bookmark size={18} strokeWidth={1.6} fill={isBookmarked ? 'currentColor' : 'none'} aria-hidden="true" />
+      {!iconOnly && <span>{label}</span>}
     </button>
   )
 }
-

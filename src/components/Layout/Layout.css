@@ -1,24 +1,25 @@
 .layout {
+  position: relative;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  min-height: 100dvh;
+  /* place pour la navbar boussole fixée en bas */
 }
 
 .layout-main {
   flex: 1;
   width: 100%;
-  max-width: calc(var(--container) + 2 * var(--gutter));
+  max-width: 1280px;
   margin: 0 auto;
-  padding: var(--space-6) var(--gutter) var(--space-8);
-}
-
-.layout-main:focus {
-  outline: none;
+  padding: 2rem;
 }
 
 /* Pages éditoriales qui composent leurs propres marges et sections pleine largeur. */
 .layout-main--full {
-  max-width: none;
-  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }

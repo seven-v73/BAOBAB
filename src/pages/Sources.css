@@ -312,23 +312,3 @@
     grid-template-columns: 1fr;
   }
 }
-
-/* Refonte : palette locale alignée sur le design system (clair et sombre) */
-.sources-page,
-[data-theme='dark'] .sources-page {
-  --sources-panel: var(--surface);
-  --sources-panel-soft: var(--surface-2);
-  --sources-card: var(--surface);
-  --sources-text: var(--ink);
-  --sources-muted: var(--ink-3);
-  --sources-border: var(--line);
-  --sources-input: var(--surface);
-  --sources-chip: var(--surface-2);
-  --sources-chip-text: var(--ink);
-  --sources-accent: var(--accent);
-}
-
-.sources-page .source-link,
-.sources-page .sources-hero-actions a:first-child {
-  color: var(--on-accent) !important;
-}

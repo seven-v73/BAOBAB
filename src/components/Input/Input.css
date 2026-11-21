@@ -16,7 +16,7 @@
 /* ===== LABEL ===== */
 .input-label {
   font-weight: 700;
-  color: var(--ink); /* Noir profond lisible sur fond clair */
+  color: #1a1410; /* Noir profond lisible sur fond clair */
   font-size: 0.88rem;
   display: flex;
   align-items: center;
@@ -113,7 +113,7 @@
   width: 100%;
   border: none;
   background: transparent;
-  color: var(--ink); /* Texte noir lisible */
+  color: #1a1410; /* Texte noir lisible */
   font-family: inherit;
   font-size: inherit;
   outline: none;
@@ -123,13 +123,13 @@
 }
 
 .input-element::placeholder {
-  color: var(--ink-3);
+  color: #999999;
   opacity: 0.8;
 }
 
 .input-element:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 1000px #faf9f6 inset !important;
-  -webkit-text-fill-color: var(--ink) !important;
+  -webkit-text-fill-color: #1a1410 !important;
 }
 
 /* ===== ICONS ===== */
@@ -171,7 +171,7 @@
 }
 
 .input-password-toggle:hover {
-  color: var(--ink);
+  color: #1a1410;
 }
 
 /* ===== HINT ===== */

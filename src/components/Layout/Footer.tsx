@@ -1,62 +1,78 @@
 import { Link, useLocation } from 'react-router-dom'
 import { useSettingsStore } from '../../stores/settingsStore'
-import { navigation } from './Header'
+import { MARK_PATH, MARK_VIEWBOX } from '../../data/brandMark'
 import './Footer.css'
+
+// Pied de page d'après la maquette Figma (« Pied de page », 11:178).
+const COLUMNS = [
+  {
+    title: 'Naviguer',
+    links: [
+      { to: '/map', label: 'Explorer' },
+      { to: '/recits', label: 'Récits' },
+      { to: '/reperes', label: 'Repères' },
+      { to: '/contribute', label: 'Contribuer' },
+    ],
+  },
+  {
+    title: 'Territoires',
+    links: [
+      { to: '/country/bf', label: 'Burkina Faso' },
+      { to: '/country/ci', label: 'Côte d’Ivoire' },
+      { to: '/country/cv', label: 'Cap-Vert' },
+    ],
+  },
+  {
+    title: 'MonBaobab',
+    links: [
+      { to: '/#mbh-team', label: 'À propos' },
+      { to: '/#mbh-manifesto', label: 'Manifeste' },
+    ],
+  },
+]
 
 export const Footer = () => {
   const location = useLocation()
-  const settings = useSettingsStore((state) => state.settings)
+  const { settings } = useSettingsStore()
   const platformName = settings?.platformName || 'MonBaobab'
-  const year = new Date().getFullYear()
 
-  // Pages d'authentification : pas de pied de page pour garder le focus sur le formulaire
   if (['/login', '/register'].includes(location.pathname)) return null
 
-  const columns = navigation.filter((entry) => entry.kind === 'menu')
-
   return (
-    <footer className="site-footer">
-      <div className="site-footer__inner">
-        <div className="site-footer__brand">
-          <span className="site-logo" role="img" aria-label={platformName} />
-          <p>
-            Découvrir, valoriser et transmettre les histoires, cultures et savoirs de l’Afrique —
-            avec celles et ceux qui les font vivre.
-          </p>
-          <Link to="/contribute" className="btn btn-outline">
-            Partager une histoire
-          </Link>
+    <footer className="mbf">
+      <div className="mbf-card">
+        <svg className="mbf-watermark" viewBox={MARK_VIEWBOX} aria-hidden="true">
+          <path d={MARK_PATH} />
+        </svg>
+        <div className="mbf-top">
+          <div className="mbf-brand">
+            <img src="/Logo/Fichier%207.svg" alt={platformName} width="144" height="48" />
+            <p>L’Afrique à découvrir autrement.</p>
+          </div>
+          <nav className="mbf-columns" aria-label="Pied de page">
+            {COLUMNS.map((column) => (
+              <div key={column.title}>
+                <p className="mbf-title">{column.title}</p>
+                <ul>
+                  {column.links.map((link) => (
+                    <li key={link.label}>
+                      <Link to={link.to}>{link.label}</Link>
+                    </li>
+                  ))}
+                  {column.title === 'MonBaobab' && settings?.contactEmail && (
+                    <li>
+                      <a href={`mailto:${settings.contactEmail}`}>Contact</a>
+                    </li>
+                  )}
+                </ul>
+              </div>
+            ))}
+          </nav>
         </div>
-
-        {columns.map((column) =>
-          column.kind === 'menu' ? (
-            <nav key={column.label} className="site-footer__col" aria-label={column.label}>
-              <h2>{column.label}</h2>
-              <ul>
-                {column.items.map((item) => (
-                  <li key={item.to}>
-                    <Link to={item.to}>{item.label}</Link>
-                  </li>
-                ))}
-              </ul>
-            </nav>
-          ) : null,
-        )}
-
-        <nav className="site-footer__col" aria-label="Plus">
-          <h2>Plus</h2>
-          <ul>
-            <li><Link to="/quizzes">Quiz</Link></li>
-            <li><Link to="/shop">Boutique</Link></li>
-            <li><Link to="/search">Recherche</Link></li>
-          </ul>
-        </nav>
-      </div>
-
-      <div className="site-footer__bottom">
-        <p>
-          © {year} {platformName}. Tous droits réservés.
-        </p>
+        <div className="mbf-bottom">
+          <p>© {new Date().getFullYear()} {platformName}. Une plateforme culturelle pour explorer, comprendre et transmettre.</p>
+          <p>Mentions légales · Confidentialité</p>
+        </div>
       </div>
     </footer>
   )
