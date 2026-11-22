@@ -779,10 +779,10 @@ export const AdminCountries = () => {
       const pdfCount = validPDFs.length
       if (editingCountry) {
         await countryService.update(editingCountry._id || editingCountry.id, countryData)
-        success(`Pays mis à jour avec succès ! ${pdfCount} PDF(s) sauvegardé(s).`)
+        success(`Pays mis à jour. ${pdfCount} PDF enregistré(s).`)
       } else {
         await countryService.create(countryData)
-        success(`Pays créé avec succès ! ${pdfCount} PDF(s) sauvegardé(s).`)
+        success(`Pays créé. ${pdfCount} PDF enregistré(s).`)
       }
 
       resetForm()
@@ -806,7 +806,7 @@ export const AdminCountries = () => {
 
     try {
       await countryService.delete(id)
-      success('Pays supprimé avec succès !')
+      success('Pays supprimé.')
       fetchCountries()
       return true
     } catch (error: any) {

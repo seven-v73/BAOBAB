@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import type { ComponentType, FormEvent } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { BookOpen, Landmark, MapPin, MessageSquareQuote, Mic, PencilLine, ShieldCheck, ArrowRight } from 'lucide-react'
+import { BookOpen, Landmark, MapPin, MessageSquareQuote, Mic, PencilLine, ArrowRight } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import { Layout } from '../components/Layout/Layout'
 import { Dropdown } from '../components/UX/Dropdown'
@@ -24,7 +24,7 @@ interface TypeCarte {
 
 /* Les six cartes de la maquette, reliées aux types de la base */
 const TYPES: TypeCarte[] = [
-  { value: 'family-memory', label: 'Récit ou mémoire', hint: 'Un récit transmis dans ta famille ou ta communauté.', icon: BookOpen },
+  { value: 'family-memory', label: 'Récit ou mémoire', hint: 'Un récit transmis dans votre famille ou votre communauté.', icon: BookOpen },
   { value: 'proverb', label: 'Proverbe', hint: 'Le dicton, sa langue, son sens et son pays.', icon: MessageSquareQuote },
   { value: 'oral-tradition', label: 'Tradition orale', hint: 'Conte, chant ou formule transmis à l’oral.', icon: Mic },
   { value: 'source', label: 'Source', hint: 'Livre, archive, musée ou lien fiable.', icon: Landmark },
@@ -49,16 +49,16 @@ const ETAPES = [
 ]
 
 const CHARTES = [
-  'Cite ta source ou raconte d’où vient ce que tu transmets.',
-  'Respecte les personnes, les peuples et les nuances locales.',
-  'Évite les clichés et les affirmations impossibles à vérifier.',
+  'Citez votre source, ou dites d’où vient ce que vous transmettez.',
+  'Respectez les personnes et les nuances locales.',
+  'Évitez les clichés et les affirmations invérifiables.',
   'Chaque contribution est relue avant publication.',
 ]
 
 const ENSUITE = [
-  { titre: 'Envoi', texte: 'Ta proposition entre dans la file de vérification.' },
+  { titre: 'Envoi', texte: 'Votre proposition entre dans la file de vérification.' },
   { titre: 'Relecture', texte: 'L’équipe vérifie les sources et le contexte avant tout.' },
-  { titre: 'Publication', texte: 'La contribution rejoint sa page, signée de ton pseudo.' },
+  { titre: 'Publication', texte: 'La contribution rejoint sa page, signée de votre pseudo.' },
 ]
 
 export const Contribute = () => {
@@ -126,7 +126,7 @@ export const Contribute = () => {
       setSubmitting(true)
       await contributionService.create({
         type: form.type,
-        title: `${typeChoisi?.label ?? 'Contribution'} — ${pays || 'à préciser'}`,
+        title: `${typeChoisi?.label ?? 'Contribution'} · ${pays || 'pays à préciser'}`,
         content: blocs.join('\n\n'),
         country: countryId,
         language: form.language,
@@ -280,9 +280,9 @@ export const Contribute = () => {
                   id="mcf-precisez"
                   value={precisement}
                   onChange={(event) => setPrecisement(event.target.value)}
-                  placeholder="Le nom du livre, le lien web, la personne qui te l’a transmis…"
+                  placeholder="Le nom du livre, le lien web, la personne qui vous l’a transmis…"
                 />
-                <p className="mcf-aide">Plus tu en dis sur l’origine, plus la vérification est rapide.</p>
+                <p className="mcf-aide">Plus vous en dites sur l’origine, plus la vérification est rapide.</p>
               </div>
             </section>
 
@@ -291,7 +291,7 @@ export const Contribute = () => {
                 {submitting ? 'Envoi…' : isAuthenticated ? 'Envoyer ma proposition' : 'Se connecter pour envoyer'}
               </button>
               <p className="mcf-note">
-                Ta proposition est relue par l’équipe avant publication. Rien n’est publié sans vérification.
+                Votre proposition est relue par l’équipe avant publication.
               </p>
             </section>
           </form>
@@ -311,10 +311,7 @@ export const Contribute = () => {
             <section className="mcf-charte">
               <h2>La charte courte</h2>
               {CHARTES.map((regle) => (
-                <p key={regle}>
-                  <ShieldCheck size={16} strokeWidth={1.6} aria-hidden="true" />
-                  {regle}
-                </p>
+                <p key={regle}>{regle}</p>
               ))}
             </section>
             <section className="mcf-ensuite">

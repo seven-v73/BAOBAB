@@ -114,7 +114,7 @@ const referencesHtml = (references = []) =>
     ? `<h2>Références</h2><ol>${references
         .map(
           (ref, i) =>
-            `<li id="ref-${i + 1}">${esc(ref.title)}${[ref.author, ref.publisher, ref.year].filter(Boolean).length ? ` — ${esc([ref.author, ref.publisher, ref.year].filter(Boolean).join(', '))}` : ''}${ref.url ? ` <a href="${esc(ref.url)}" rel="nofollow">${esc(ref.url)}</a>` : ''}</li>`,
+            `<li id="ref-${i + 1}">${esc(ref.title)}${[ref.author, ref.publisher, ref.year].filter(Boolean).length ? `, ${esc([ref.author, ref.publisher, ref.year].filter(Boolean).join(', '))}` : ''}${ref.url ? ` <a href="${esc(ref.url)}" rel="nofollow">${esc(ref.url)}</a>` : ''}</li>`,
         )
         .join('')}</ol>`
     : ''
@@ -169,7 +169,7 @@ const breadcrumbLd = (crumbs) => ({
 /* ------------------------------------------------------------ rendu des pages */
 
 const headTags = (page) => {
-  const title = page.title ? `${page.title} · ${SITE_NAME}` : `${SITE_NAME} — Histoires, cultures et savoirs d’Afrique`
+  const title = page.title ? `${page.title} · ${SITE_NAME}` : `${SITE_NAME} : histoires, cultures et savoirs d’Afrique`
   const description = clip(page.description || DEFAULT_DESCRIPTION)
   const url = absolute(page.path)
   const image = absolute(page.image) || DEFAULT_IMAGE
@@ -305,7 +305,7 @@ const collectPages = async (models) => {
     breadcrumbs: [home, { name: 'Explorer', path: '/map' }],
     priority: '0.9',
     lastmod: maxDate(countries),
-    body: list(countries, (c) => `${link(`/country/${c.id.toLowerCase()}`, countryName(c))} — ${esc(c.capital || '')}`),
+    body: list(countries, (c) => `${link(`/country/${c.id.toLowerCase()}`, countryName(c))} : ${esc(c.capital || '')}`),
   })
   // Personnalités repérées par leur nom dans les « personnalités » de la fiche pays (ex. « Nelson Mandela - président »)
   const figureIn = (entry) => figures.find((f) => f.name && norm(f.name).length >= 4 && norm(entry).includes(norm(f.name)))
@@ -356,8 +356,8 @@ ${c.oralTraditions?.length ? `<h2>Traditions orales</h2>${list(c.oralTraditions)
 ${c.customs?.length ? `<h2>Coutumes</h2>${list(c.customs)}` : ''}
 ${c.festivals?.length ? `<h2>Fêtes et festivals</h2>${list(c.festivals)}` : ''}
 ${c.discoveryIntro ? `<h2>Par où commencer</h2><p>${esc(plain(c.discoveryIntro))}</p>` : ''}
-${countryEvents.length ? `<h2>Dates clés</h2>${list(countryEvents, (e) => `${year(e.date) ?? ''} — ${link(`/timeline/${slugOf(e)}`, e.title)}`)}` : ''}
-${countryFiches.length ? `<h2>Fiches de la base de connaissances</h2>${list(countryFiches, (f) => `${link(`/fiche/${f.ficheId}`, f.titre)} — ${esc(FICHE_TYPES_FR[f.type] || 'Fiche')}`)}` : ''}
+${countryEvents.length ? `<h2>Dates clés</h2>${list(countryEvents, (e) => `${year(e.date) ?? ''} : ${link(`/timeline/${slugOf(e)}`, e.title)}`)}` : ''}
+${countryFiches.length ? `<h2>Fiches de la base de connaissances</h2>${list(countryFiches, (f) => `${link(`/fiche/${f.ficheId}`, f.titre)} : ${esc(FICHE_TYPES_FR[f.type] || 'Fiche')}`)}` : ''}
 ${countryBlogs.length ? `<h2>À lire</h2>${list(countryBlogs, (b) => link(`/blog/${slugOf(b)}`, b.title))}` : ''}
 ${countryProverbs.length ? `<h2>Proverbes</h2>${list(countryProverbs.slice(0, 8), (p) => `<blockquote>${esc(p.text)}</blockquote>${p.explanation ? ` ${esc(p.explanation)}` : ''}`)}` : ''}
 ${seeAlso(countries, c, (o) => link(`/country/${o.id.toLowerCase()}`, countryName(o)))}`,
@@ -381,9 +381,9 @@ ${seeAlso(countries, c, (o) => link(`/country/${o.id.toLowerCase()}`, countryNam
     changefreq: 'daily',
     lastmod: maxDate([...blogs, ...stories, ...collections]),
     priority: '0.9',
-    body: `<h2>Articles</h2>${list(blogs, (b) => `${link(`/blog/${slugOf(b)}`, b.title)} — ${esc(clip(b.excerpt, 140))}`)}
-<h2>Histoires</h2>${list(stories, (s) => `${link(`/stories/${slugOf(s)}`, s.title)} — ${esc(s.subtitle || clip(s.description, 120))}`)}
-<h2>Dossiers</h2>${list(collections, (c) => `${link(`/collections/${slugOf(c)}`, c.title)} — ${esc(c.shortDescription || '')}`)}`,
+    body: `<h2>Articles</h2>${list(blogs, (b) => `${link(`/blog/${slugOf(b)}`, b.title)} : ${esc(clip(b.excerpt, 140))}`)}
+<h2>Histoires</h2>${list(stories, (s) => `${link(`/stories/${slugOf(s)}`, s.title)} : ${esc(s.subtitle || clip(s.description, 120))}`)}
+<h2>Dossiers</h2>${list(collections, (c) => `${link(`/collections/${slugOf(c)}`, c.title)} : ${esc(c.shortDescription || '')}`)}`,
   })
   for (const b of blogs) {
     const path_ = `/blog/${slugOf(b)}`
@@ -428,8 +428,8 @@ ${seeAlso(countries, c, (o) => link(`/country/${o.id.toLowerCase()}`, countryNam
     breadcrumbs: [home, { name: 'Repères', path: '/reperes' }],
     priority: '0.9',
     lastmod: maxDate([...events, ...figures]),
-    body: `<h2>Dates</h2>${list(events, (e) => `${year(e.date) ?? ''} — ${link(`/timeline/${slugOf(e)}`, e.title)}`)}
-<h2>Personnalités</h2>${list(figures, (f) => `${link(`/figures/${slugOf(f)}`, f.name)} — ${esc(f.shortBiography || '')}`)}
+    body: `<h2>Dates</h2>${list(events, (e) => `${year(e.date) ?? ''} : ${link(`/timeline/${slugOf(e)}`, e.title)}`)}
+<h2>Personnalités</h2>${list(figures, (f) => `${link(`/figures/${slugOf(f)}`, f.name)} : ${esc(f.shortBiography || '')}`)}
 <h2>Proverbes</h2>${list(
       proverbs,
       (p) => `<blockquote>${esc(p.text)}</blockquote> <small>${esc([p.countryName, p.language].filter(Boolean).join(' · '))}</small>${p.explanation ? `<p>${esc(p.explanation)}</p>` : ''}`,
@@ -448,7 +448,7 @@ ${seeAlso(countries, c, (o) => link(`/country/${o.id.toLowerCase()}`, countryNam
       title: `${f.name}${span}`,
       heading: f.name,
       description: f.shortBiography || f.biography,
-      image: illustres.get(norm(f.name)) || f.image,
+      image: f.image || illustres.get(norm(f.name)),
       imageAlt: f.images?.find((i) => i.url === f.image)?.caption || f.name,
       type: 'profile',
       lastmod: f.updatedAt,
@@ -538,7 +538,7 @@ ${seeAlso(stories, s, (o) => link(`/stories/${slugOf(o)}`, o.title), 5)}`,
       lastmod: e.updatedAt,
       breadcrumbs: [home, { name: 'Repères', path: '/reperes' }, { name: e.title, path: path_ }],
       priority: '0.6',
-      body: `<p><em>${esc(e.period || '')}${e.location?.region ? ` · ${esc(e.location.region)}` : ''}${y ? ` · ${y}` : ''}</em></p>\n${paragraphs(e.description, 10)}\n${seeAlso(events, e, (o) => `${year(o.date) ?? ''} — ${link(`/timeline/${slugOf(o)}`, o.title)}`)}`,
+      body: `<p><em>${esc(e.period || '')}${e.location?.region ? ` · ${esc(e.location.region)}` : ''}${y ? ` · ${y}` : ''}</em></p>\n${paragraphs(e.description, 10)}\n${seeAlso(events, e, (o) => `${year(o.date) ?? ''} : ${link(`/timeline/${slugOf(o)}`, o.title)}`)}`,
     })
   }
 
@@ -562,7 +562,7 @@ ${seeAlso(stories, s, (o) => link(`/stories/${slugOf(o)}`, o.title), 5)}`,
       body: `<p><em>${esc(joinPlain([kind, f.periode, country && countryName(country)]))}</em></p>
 ${paragraphs(f.description, 10)}
 ${f.verification?.etat === 'verifie' ? '<p>Fiche vérifiée par l’équipe MonBaobab.</p>' : ''}
-${(f.sources || []).length ? `<h2>Sources</h2><ol>${f.sources.map((src) => `<li>${esc(src.titre)}${src.institution ? ` — ${esc(src.institution)}` : ''}${src.url ? ` <a href="${esc(src.url)}" rel="nofollow">${esc(src.url)}</a>` : ''}</li>`).join('')}</ol>` : ''}
+${(f.sources || []).length ? `<h2>Sources</h2><ol>${f.sources.map((src) => `<li>${esc(src.titre)}${src.institution ? `, ${esc(src.institution)}` : ''}${src.url ? ` <a href="${esc(src.url)}" rel="nofollow">${esc(src.url)}</a>` : ''}</li>`).join('')}</ol>` : ''}
 ${country ? `<p>Pays : ${link(`/country/${country.id.toLowerCase()}`, countryName(country))}</p>` : ''}`,
       jsonLd:
         f.type === 'personnalite'
@@ -739,7 +739,7 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
       process.exit(0)
     })
     .catch((error) => {
-      console[SOFT ? 'warn' : 'error'](`SEO : génération ${SOFT ? 'ignorée' : 'échouée'} — ${error.message}`)
+      console[SOFT ? 'warn' : 'error'](`SEO : génération ${SOFT ? 'ignorée' : 'échouée'} : ${error.message}`)
       process.exit(SOFT ? 0 : 1)
     })
 }

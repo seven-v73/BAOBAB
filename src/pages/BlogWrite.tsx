@@ -204,7 +204,7 @@ export const BlogWrite = () => {
       }
       await refreshMine()
       if (status === 'pending') {
-        success('Merci ! Votre texte est envoyé en relecture. Nous vous répondrons ici même.')
+        success('Merci. Votre texte est envoyé en relecture, nous vous répondrons ici.')
         navigate(`/blog/${response.data._id}`)
       } else {
         success('Brouillon enregistré.')
@@ -309,7 +309,7 @@ export const BlogWrite = () => {
 
               <label className="bw-field">
                 <span>
-                  Chapeau <small>(facultatif — 2 ou 3 phrases qui donnent envie de lire)</small>
+                  Chapeau <small>(facultatif : 2 ou 3 phrases qui donnent envie de lire)</small>
                 </span>
                 <textarea rows={2} maxLength={400} value={draft.excerpt} onChange={(event) => set('excerpt', event.target.value)} />
               </label>
@@ -338,7 +338,7 @@ export const BlogWrite = () => {
 
               <label className="bw-field">
                 <span>
-                  Image d’illustration <small>(facultatif — lien vers une image dont vous avez les droits)</small>
+                  Image d’illustration <small>(facultatif : lien vers une image dont vous avez les droits)</small>
                 </span>
                 <input type="url" value={draft.image} onChange={(event) => set('image', event.target.value)} placeholder="https://…" />
               </label>

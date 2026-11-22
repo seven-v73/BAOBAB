@@ -166,7 +166,7 @@ export const TimelineDetail = () => {
                     ) : (
                       source.title
                     )}
-                    {source.author && ` — ${source.author}`}
+                    {source.author && `, ${source.author}`}
                   </p>
                 </span>
               </li>

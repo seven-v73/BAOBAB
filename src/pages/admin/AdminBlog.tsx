@@ -152,10 +152,10 @@ export const AdminBlog = () => {
 
       if (editingPost) {
         await blogService.update(editingPost._id, postData)
-        success('Article mis à jour avec succès !')
+        success('Article mis à jour.')
       } else {
         await blogService.create(postData)
-        success('Article créé avec succès !')
+        success('Article créé.')
       }
 
       resetForm()
@@ -199,7 +199,7 @@ export const AdminBlog = () => {
 
     try {
       await blogService.delete(id)
-      success('Article supprimé avec succès !')
+      success('Article supprimé.')
       fetchPosts()
     } catch (error: any) {
       const errorMessage = error.response?.data?.error || 'Erreur lors de la suppression'

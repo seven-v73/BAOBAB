@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import type { CSSProperties } from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowRight, BookOpen, CalendarDays, Library, Map as MapIcon, PenLine, Sparkles, UserRound, Users } from 'lucide-react'
+import { ArrowRight, BookOpen, CalendarDays, Library, Map as MapIcon, PenLine, Inbox, UserRound, Users } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import { blogService, ficheService, userService } from '../../services/api'
 import { useAuthStore } from '../../stores/authStore'
@@ -72,7 +72,7 @@ export const AdminStats = ({ aTraiter, onNavigate }: Props) => {
 
   const taches: Array<{ id: string; titre: string; texte: string; nombre: number; icon: LucideIcon }> = [
     { id: 'fiches', titre: 'Fiches en revue', texte: 'À relire, valider puis publier.', nombre: aTraiter.fiches || 0, icon: Library },
-    { id: 'contributions', titre: 'Contributions proposées', texte: 'Proverbes, sources et corrections envoyés par les membres.', nombre: aTraiter.contributions || 0, icon: Sparkles },
+    { id: 'contributions', titre: 'Contributions proposées', texte: 'Proverbes, sources et corrections envoyés par les membres.', nombre: aTraiter.contributions || 0, icon: Inbox },
     { id: 'blog', titre: 'Articles en relecture', texte: 'Textes soumis, en attente de votre décision.', nombre: aTraiter.blog || 0, icon: PenLine },
   ]
 

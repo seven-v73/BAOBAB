@@ -45,7 +45,7 @@ export const allAfricanCountries: AfricanCountry[] = [
       'Cérémonie de circoncision (rite de passage)'
     ],
     customs: [
-      'Hospitalité légendaire (offrir le thé à tout visiteur)',
+      'Hospitalité (offrir le thé à tout visiteur)',
       'Respect des aînés et de la hiérarchie familiale',
       'Prière cinq fois par jour',
       'Jeûne du Ramadan',
@@ -93,7 +93,7 @@ export const allAfricanCountries: AfricanCountry[] = [
     languages: ['Français', 'Wolof'], 
     currency: 'Franc CFA', 
     description: 'Terre de la Teranga', 
-    culture: 'Le Sénégal incarne l\'esprit de la Teranga, une hospitalité légendaire qui fait de ce pays une destination chaleureuse. La musique mbalax, popularisée par Youssou N\'Dour, rythme la vie quotidienne. La lutte sénégalaise, sport national, combine force physique et traditions spirituelles. Dakar, capitale culturelle, vibre au rythme de ses marchés colorés et de sa scène artistique dynamique.', 
+    culture: 'Le Sénégal incarne l\'esprit de la Teranga, une hospitalité qui règle l’accueil des visiteurs. La musique mbalax, popularisée par Youssou N\'Dour, rythme la vie quotidienne. La lutte sénégalaise, sport national, combine force physique et traditions spirituelles. Dakar, capitale culturelle, vibre au rythme de ses marchés colorés et de sa scène artistique dynamique.', 
     color: '#E67E22', 
     center: [135, 415],
     rites: [

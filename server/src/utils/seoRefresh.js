@@ -16,7 +16,7 @@ export const demanderRegenerationSeo = (delai = 60_000) => {
       const count = await buildSeo()
       logger.info(`SEO : ${count} pages régénérées après publication`)
     } catch (error) {
-      logger.warn(`SEO : régénération impossible — ${error.message}`)
+      logger.warn(`SEO : régénération impossible : ${error.message}`)
     }
   }, delai)
   timer.unref?.()

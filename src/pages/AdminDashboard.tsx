@@ -11,7 +11,7 @@ import {
   Menu,
   PenLine,
   Settings,
-  Sparkles,
+  Inbox,
   Users,
   UserRound,
   X,
@@ -71,7 +71,7 @@ const GROUPES: Array<{ titre?: string; items: Item[] }> = [
   {
     titre: 'Communauté',
     items: [
-      { id: 'contributions', label: 'Contributions', icon: Sparkles, aide: 'Propositions des membres : proverbes, sources, corrections.' },
+      { id: 'contributions', label: 'Contributions', icon: Inbox, aide: 'Propositions des membres : proverbes, sources, corrections.' },
       { id: 'users', label: 'Membres', icon: Users, aide: 'Comptes, rôles et accès.' },
     ],
   },

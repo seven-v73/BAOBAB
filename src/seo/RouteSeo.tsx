@@ -8,7 +8,7 @@ import { useEffect } from 'react'
  */
 const staticRoutes: Record<string, SeoInput> = {
   '/': {},
-  '/map': { title: 'Explorer les pays d’Afrique', description: 'Explorez les pays d’Afrique : capitales, langues, histoire, cultures, cuisines et personnalités.' },
+  '/map': { title: 'Explorer les pays d’Afrique', description: 'Les pays d’Afrique un par un : capitales, langues, histoire, cultures, cuisines et personnalités.' },
   '/recits': { title: 'Récits : articles, témoignages et dossiers sur l’Afrique', description: 'Articles documentés, témoignages et dossiers thématiques pour comprendre les lieux, les époques et les héritages africains.' },
   '/reperes': { title: 'Repères : dates, personnalités et proverbes d’Afrique', description: 'Les grandes dates de l’histoire africaine, les personnalités qui l’ont marquée et les proverbes qui la transmettent.' },
   '/sources': { title: 'Sources et provenance des contenus', description: 'D’où viennent les contenus de MonBaobab : sources, méthode de vérification et contributions.' },

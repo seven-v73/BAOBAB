@@ -127,7 +127,7 @@ export const HistoricalFigureDetail = () => {
       byline={{ name: figure.nameNative && figure.nameNative !== figure.name ? figure.nameNative : undefined, detail: figure.verified ? 'Fiche relue par l’équipe' : undefined }}
       bookmark={{ itemType: 'figure', itemId: figure._id }}
       shareUrl={lienContenu('figures', figure)}
-      image={portrait ? { src: portrait, caption: (portrait === figure.image && figure.images?.find((i) => i.url === portrait)?.caption) || figure.name } : undefined}
+      image={portrait ? { src: portrait, caption: portrait === figure.image ? figure.images?.find((i) => i.url === portrait)?.caption || figure.name : `${figure.name} (illustration)` } : undefined}
       place={place.codes.length ? place : undefined}
       toc={toc}
       tocLabel="Dans cette fiche"
@@ -229,7 +229,7 @@ export const HistoricalFigureDetail = () => {
                     ) : (
                       source.title
                     )}
-                    {source.author && ` — ${source.author}`}
+                    {source.author && `, ${source.author}`}
                   </p>
                 </span>
               </li>

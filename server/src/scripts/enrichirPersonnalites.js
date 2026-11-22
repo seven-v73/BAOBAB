@@ -6,8 +6,8 @@
  *
  * - Les sources sont créées une seule fois (repérées par leur URL), puis rattachées à la personnalité.
  *   Relancer le script ne crée aucun doublon.
- * - Un portrait n'est posé que si la personnalité n'en a pas. Les portraits illustrés du site
- *   (src/data/reperesContent.ts) restent prioritaires : le design les a choisis.
+ * - Un portrait n'est posé que si la personnalité n'en a pas. Une photo ou gravure sourcée passe
+ *   avant les illustrations du site (src/data/reperesContent.ts), qui n'ont ni source ni crédit.
  * - Le crédit de la photo (auteur, licence, Wikimedia Commons) va dans la légende, comme l'exige la licence.
  */
 import fs from 'node:fs'
@@ -87,14 +87,10 @@ const main = async () => {
 
     const p = entree.portrait
     if (p?.url && !figure.image) {
-      if (dejaIllustrees.has(normaliser(figure.name))) {
-        actions.push('portrait illustré du site conservé (photo ignorée)')
-      } else {
-        figure.image = p.url
-        figure.images = [{ url: p.url, caption: p.legende || `${figure.name}. Wikimedia Commons, ${p.licence || 'licence libre'}.`, order: 0 }]
-        portraits += 1
-        actions.push(`portrait : ${p.page || p.url}`)
-      }
+      figure.image = p.url
+      figure.images = [{ url: p.url, caption: p.legende || `${figure.name}. Wikimedia Commons, ${p.licence || 'licence libre'}.`, order: 0 }]
+      portraits += 1
+      actions.push(`portrait : ${p.page || p.url}${dejaIllustrees.has(normaliser(figure.name)) ? ' (remplace l’illustration du site sur la fiche)' : ''}`)
     }
 
     console.log(`${actions.length ? '✓' : '='}  ${figure.name}${actions.length ? `\n     ${actions.join('\n     ')}` : ' : rien à changer'}`)

@@ -300,6 +300,8 @@
 
 .mcf .mcf-btn {
   display: inline-flex;
+  flex: none; /* « Se connecter pour envoyer » restait coupé sur quatre lignes */
+  white-space: nowrap;
   align-items: center;
   justify-content: center;
   gap: 10px;
@@ -357,19 +359,12 @@
 }
 
 .mcf-charte p {
-  display: flex;
-  gap: 10px;
   margin: 0;
   color: rgb(255 255 255 / 0.88) !important;
   font-size: 0.875rem;
   font-weight: 500;
   letter-spacing: 0.01em;
   line-height: 1.42;
-}
-
-.mcf-charte svg {
-  flex: none;
-  color: var(--brand-sauge);
 }
 
 .mcf-ensuite {

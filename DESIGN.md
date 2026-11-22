@@ -28,6 +28,17 @@ Un atlas culturel africain : récits, atlas, patrimoine et savoir-faire des 55 p
 - On parle de personnes et d'histoires, pas de « peuples » abstraits.
 - Phrases d'accroche courtes, en minuscules de phrase, terminées par un point : *« Découvrez l'Afrique autrement. »*
 - Accents et orthographe impeccables (les maquettes de la charte contiennent « Decouvrez » et « les richesse » : ne pas reproduire).
+- On vouvoie partout (interface, formulaires, messages).
+- **Sobriété** (relecture du 22/11/2026). Ce qui fait « texte généré » et qu'on n'écrit pas :
+  - les superlatifs et l'emphase : « légendaire », « exceptionnel », « fascinant », « le plus riche de l'histoire », « véritable joyau », « perle de… » ;
+  - les ouvertures en « Découvrez », « Explorez », « Plongez dans » ;
+  - le registre de motivation (« puiser de la force », « une boussole pour la jeunesse ») ;
+  - « l'Afrique » comme un bloc quand on parle d'un pays, d'un peuple ou d'une époque précise ;
+  - les tirets cadratins (—) : on écrit avec des virgules, des parenthèses ou deux-points ;
+  - les points d'exclamation dans les messages (« Article créé. », pas « Article créé avec succès ! ») ;
+  - les Majuscules À Chaque Mot dans les titres ;
+  - les emojis, et les icônes décoratives répétées en puce (une icône sert à agir ou à repérer un type, pas à orner chaque ligne) ;
+  - la légende présentée comme un fait : on écrit « selon l'épopée », « selon al-Umari », et on date.
 
 ---
 

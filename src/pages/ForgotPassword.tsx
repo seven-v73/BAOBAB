@@ -73,8 +73,8 @@ export const ForgotPassword = () => {
           ) : sent ? (
             <div className="mcl-succes">
               <p>
-                C’est envoyé ! Si un compte existe pour cette adresse, tu recevras un lien pour choisir un nouveau
-                mot de passe sous quelques minutes.
+                Demande envoyée. Si un compte existe pour cette adresse, vous recevrez un lien pour choisir un
+                nouveau mot de passe dans quelques minutes.
               </p>
               <Link to="/login" className="mcl-lien-retour">
                 <ArrowLeft size={16} strokeWidth={1.6} aria-hidden="true" /> Retour à la connexion

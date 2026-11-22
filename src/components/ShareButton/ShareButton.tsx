@@ -30,7 +30,7 @@ export const ShareButton = ({ url, title, description = '', className = '', icon
     if (navigator.share) {
       try {
         await navigator.share(shareData)
-        success('Contenu partagé !')
+        success('Contenu partagé.')
         setShowMenu(false)
       } catch (error: any) {
         if (error.name !== 'AbortError') {
@@ -70,7 +70,7 @@ export const ShareButton = ({ url, title, description = '', className = '', icon
   const handleCopyLink = async () => {
     try {
       await navigator.clipboard.writeText(fullUrl)
-      success('Lien copié dans le presse-papiers !')
+      success('Lien copié.')
       setShowMenu(false)
     } catch (error) {
       showError('Erreur lors de la copie')

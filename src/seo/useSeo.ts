@@ -7,7 +7,7 @@ import { useEffect } from 'react'
 
 export const SITE_URL = 'https://monbaobab.com'
 const SITE_NAME = 'MonBaobab'
-const DEFAULT_TITLE = 'MonBaobab — Histoires, cultures et savoirs d’Afrique'
+const DEFAULT_TITLE = 'MonBaobab : histoires, cultures et savoirs d’Afrique'
 export const DEFAULT_DESCRIPTION =
   'Histoires, cultures, savoirs et talents d’Afrique : fiches pays, personnalités, récits, proverbes et quiz, documentés et partagés par la communauté MonBaobab.'
 const DEFAULT_IMAGE = `${SITE_URL}/og/monbaobab-default.jpg`

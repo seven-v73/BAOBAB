@@ -145,7 +145,7 @@ const STORIES: StoryArticle[] = [
         blocks: [
           {
             kind: 'para',
-            text: 'Au Burkina Faso, le Faso Dan Fani — littéralement « le pagne tissé du pays » — s’entrelace à la vie quotidienne. On le porte aux fêtes, on l’offre aux mariages, on le tisse au village comme en ville. Sa particularité : il naît de bandes étroites de coton filé, assemblées une à une sur des métiers à pédale, ce qui donne ces rayures et ces damiers que rien ne peut confondre.',
+            text: 'Au Burkina Faso, le Faso Dan Fani (littéralement « le pagne tissé du pays ») fait partie de la vie quotidienne. On le porte aux fêtes, on l’offre aux mariages, on le tisse au village comme en ville. Sa particularité : il naît de bandes étroites de coton filé, assemblées une à une sur des métiers à pédale, ce qui donne ces rayures et ces damiers que rien ne peut confondre.',
           },
         ],
       },
@@ -227,7 +227,7 @@ const STORIES: StoryArticle[] = [
           },
           {
             kind: 'para',
-            text: 'La cour royale, avec ses cases aux silos intégrés et ses enceintes basses, forme un ensemble que les habitants entretiennent collectivement — un patrimoine vivant, classé sur la liste indicative de l’UNESCO, où l’on visite autant qu’on accueille.',
+            text: 'La cour royale, avec ses cases aux silos intégrés et ses enceintes basses, forme un ensemble que les habitants entretiennent ensemble : un patrimoine vivant, classé sur la liste indicative de l’UNESCO, où l’on visite autant qu’on accueille.',
           },
         ],
       },

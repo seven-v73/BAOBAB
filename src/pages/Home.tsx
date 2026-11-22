@@ -60,7 +60,7 @@ export const Home = () => {
     try {
       await newsletterService.subscribe(email)
       setEmail('')
-      success('Merci ! Votre première lettre arrive bientôt.')
+      success('Merci. Votre première lettre arrive bientôt.')
     } catch {
       error('L’inscription n’a pas abouti. Vérifiez l’adresse et réessayez.')
     }
@@ -82,8 +82,8 @@ export const Home = () => {
               <span>autrement.</span>
             </h1>
             <p className="mbh-lead" data-motion="hero-item">
-              MonBaobab ouvre une porte sur une Afrique plurielle, vivante et contemporaine. Explorez le continent à
-              travers ses territoires, ses récits, son patrimoine et ses savoir-faire.
+              MonBaobab rassemble des fiches pays, des récits, des repères et des savoir-faire, documentés et
+              sourcés, pour connaître les pays d’Afrique un par un.
             </p>
             <div className="mbh-actions" data-motion="hero-item">
               <Link to="/map" className="mbh-btn mbh-btn--ambre">

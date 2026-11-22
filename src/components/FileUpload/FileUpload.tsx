@@ -109,7 +109,7 @@ export const FileUpload = ({
         video: 'Vidéo',
         document: 'Document'
       }
-      success(`${typeNames[type]} uploadé avec succès !`)
+      success(`${typeNames[type]} envoyé.`)
       setPreview(null)
       if (fileInputRef.current) {
         fileInputRef.current.value = ''
