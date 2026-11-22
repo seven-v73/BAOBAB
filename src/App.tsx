@@ -1,14 +1,8 @@
 import { useEffect, lazy, Suspense, useRef } from 'react'
 import { Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import { Home } from './pages/Home'
-import { BlogPostPage } from './pages/BlogPost'
-import { Login } from './pages/Login'
-import { ForgotPassword } from './pages/ForgotPassword'
-import { Register } from './pages/Register'
 // En pause (voir clean.md) : boutique, panier, paiement, commandes, cercles, fil social et quiz.
 // Les pages restent dans src/pages, mais elles ne sont plus routées.
-import { Sources } from './pages/Sources'
-import { Contribute } from './pages/Contribute'
 import { useAuthStore } from './stores/authStore'
 import { useThemeStore } from './stores/themeStore'
 import { useSettingsStore } from './stores/settingsStore'
@@ -33,6 +27,12 @@ const Reperes = lazy(() => import('./pages/Reperes').then(module => ({ default: 
 const MapPage = lazy(() => import('./pages/MapPage').then(module => ({ default: module.MapPage })))
 const BlogWrite = lazy(() => import('./pages/BlogWrite').then(module => ({ default: module.BlogWrite })))
 const FicheDetail = lazy(() => import('./pages/FicheDetail').then(module => ({ default: module.FicheDetail })))
+const BlogPostPage = lazy(() => import('./pages/BlogPost').then(module => ({ default: module.BlogPostPage })))
+const Login = lazy(() => import('./pages/Login').then(module => ({ default: module.Login })))
+const ForgotPassword = lazy(() => import('./pages/ForgotPassword').then(module => ({ default: module.ForgotPassword })))
+const Register = lazy(() => import('./pages/Register').then(module => ({ default: module.Register })))
+const Sources = lazy(() => import('./pages/Sources').then(module => ({ default: module.Sources })))
+const Contribute = lazy(() => import('./pages/Contribute').then(module => ({ default: module.Contribute })))
 const NotFound = lazy(() => import('./pages/NotFound').then(module => ({ default: module.NotFound })))
 const SearchResults = lazy(() => import('./pages/SearchResults').then(module => ({ default: module.SearchResults })))
 
@@ -151,6 +151,8 @@ function App() {
       {/* Placé avant les pages : ses effets s'exécutent avant ceux des pages, qui peuvent ensuite préciser */}
       <RouteSeo />
       <div className="page-transition-shell" key={routeKey}>
+      {/* Filet pour les pages chargées à la demande sans Suspense propre (connexion, sources…) */}
+      <Suspense fallback={<LoadingFallback />}>
       <Routes location={location}>
         <Route path="/" element={<Home />} />
         <Route 
@@ -312,6 +314,7 @@ function App() {
           }
         />
       </Routes>
+      </Suspense>
       </div>
       <NotificationContainer
         notifications={notifications}

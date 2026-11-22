@@ -19,7 +19,20 @@ const redactBody = (body) => {
   return Object.fromEntries(Object.entries(body).map(([key, value]) => [key, SENSITIVE_KEYS.test(key) ? '[masqué]' : value]))
 }
 
+// Erreurs Mongoose provoquées par la requête du client, pas par un bug : réponse 4xx lisible
+// (sinon /api/figures/zzz renvoyait une erreur 500)
+const clientDbError = (err) => {
+  if (err.name === 'CastError') return new AppError('Ressource introuvable', 404)
+  if (err.name === 'ValidationError') {
+    const details = Object.values(err.errors || {}).map((e) => ({ field: e.path, message: e.message }))
+    return new AppError('Données invalides', 400, details.length ? details : null)
+  }
+  if (err.code === 11000) return new AppError('Cette ressource existe déjà', 409)
+  return null
+}
+
 export const errorHandler = (err, req, res, next) => {
+  if (!err.isOperational) err = clientDbError(err) || err
   err.statusCode = err.statusCode || 500
   err.status = err.status || 'error'
 

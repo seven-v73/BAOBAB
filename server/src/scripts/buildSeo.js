@@ -124,6 +124,26 @@ const list = (items, render = (item) => esc(item)) =>
 
 const link = (href, label) => `<a href="${esc(href)}">${esc(label)}</a>`
 
+// Comparaison de noms sans accents ni casse (« Léopold » = « leopold »)
+const norm = (value) =>
+  plain(value)
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+
+const maxDate = (items) =>
+  items.reduce((latest, item) => {
+    const date = isoDate(item?.updatedAt)
+    return date && (!latest || date > latest) ? date : latest
+  }, undefined)
+
+/** Quelques autres pages de la même rubrique, pour que chaque fiche en relie d'autres */
+const seeAlso = (items, current, render, count = 6) => {
+  const index = items.indexOf(current)
+  const others = [...items.slice(index + 1), ...items.slice(0, Math.max(index, 0))].filter((item) => item !== current).slice(0, count)
+  return others.length ? `<h2>À découvrir aussi</h2>${list(others, render)}` : ''
+}
+
 const breadcrumbLd = (crumbs) => ({
   '@type': 'BreadcrumbList',
   itemListElement: crumbs.map((crumb, index) => ({
@@ -148,14 +168,15 @@ const headTags = (page) => {
     `<title>${esc(title)}</title>`,
     `<meta name="description" content="${esc(description)}" />`,
     `<meta name="robots" content="${page.noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large'}" />`,
-    `<link rel="canonical" href="${esc(url)}" />`,
+    page.canonical === false ? '' : `<link rel="canonical" href="${esc(url)}" />`,
     `<meta property="og:site_name" content="${SITE_NAME}" />`,
     `<meta property="og:locale" content="fr_FR" />`,
     `<meta property="og:type" content="${page.type || 'website'}" />`,
-    `<meta property="og:url" content="${esc(url)}" />`,
+    page.canonical === false ? '' : `<meta property="og:url" content="${esc(url)}" />`,
     `<meta property="og:title" content="${esc(page.title || title)}" />`,
     `<meta property="og:description" content="${esc(description)}" />`,
     `<meta property="og:image" content="${esc(image)}" />`,
+    `<meta property="og:image:alt" content="${esc(page.imageAlt || page.heading || page.title || SITE_NAME)}" />`,
     `<meta name="twitter:card" content="summary_large_image" />`,
     `<meta name="twitter:title" content="${esc(page.title || title)}" />`,
     `<meta name="twitter:description" content="${esc(description)}" />`,
@@ -215,6 +236,7 @@ const collectPages = async (models) => {
     path: '/',
     changefreq: 'daily',
     priority: '1.0',
+    lastmod: maxDate([...blogs, ...stories, ...countries, ...figures, ...collections, ...events]),
     heading: 'L’Afrique a beaucoup à raconter.',
     description: DEFAULT_DESCRIPTION,
     body: `<p>${esc(DEFAULT_DESCRIPTION)}</p>
@@ -260,10 +282,32 @@ const collectPages = async (models) => {
     description: `Explorez les ${countries.length} pays d’Afrique : capitales, langues, histoire, cultures, cuisines et personnalités.`,
     breadcrumbs: [home, { name: 'Explorer', path: '/map' }],
     priority: '0.9',
+    lastmod: maxDate(countries),
     body: list(countries, (c) => `${link(`/country/${c.id.toLowerCase()}`, countryName(c))} — ${esc(c.capital || '')}`),
   })
+  // Personnalités repérées par leur nom dans les « personnalités » de la fiche pays (ex. « Nelson Mandela - président »)
+  const figureIn = (entry) => figures.find((f) => f.name && norm(f.name).length >= 4 && norm(entry).includes(norm(f.name)))
+  const countryOfFigure = new Map()
+  for (const c of countries) {
+    for (const entry of c.notableFigures || []) {
+      const f = figureIn(entry)
+      if (f && !countryOfFigure.has(String(f._id))) countryOfFigure.set(String(f._id), c)
+    }
+  }
+
   for (const c of countries) {
     const name = countryName(c)
+    const code = String(c.id || '').toUpperCase()
+    const countryProverbs = proverbs.filter((p) => String(p.country) === String(c._id) || norm(p.countryName) === norm(name))
+    const countryBlogs = blogs.filter((b) => b.country === code)
+    const countryFigures = figures.filter((f) => countryOfFigure.get(String(f._id)) === c || (f.relatedCountries || []).some((id) => String(id) === String(c._id)))
+    const countryEvents = events.filter((e) => (e.relatedCountries || []).some((id) => String(id) === String(c._id)))
+    // Personnalités liées au pays mais absentes de sa liste « personnalités »
+    const otherFigures = countryFigures.filter((f) => !(c.notableFigures || []).some((entry) => figureIn(entry) === f))
+    const notable = (entry) => {
+      const f = figureIn(entry)
+      return f ? link(`/figures/${f._id}`, entry) : esc(entry)
+    }
     const description = c.oneSentenceSummary || c.description || `${name} : histoire, langues et cultures.`
     pages.push({
       path: `/country/${c.id.toLowerCase()}`,
@@ -271,6 +315,7 @@ const collectPages = async (models) => {
       heading: name,
       description,
       image: `https://flagcdn.com/w1280/${c.id.toLowerCase()}.png`,
+      imageAlt: `Drapeau : ${name}`,
       lastmod: c.updatedAt,
       breadcrumbs: [home, { name: 'Explorer', path: '/map' }, { name, path: `/country/${c.id.toLowerCase()}` }],
       priority: '0.8',
@@ -282,7 +327,16 @@ ${c.historyHighlights?.length ? `<h2>Repères historiques</h2>${list(c.historyHi
 ${c.peoples?.length ? `<h2>Peuples</h2>${list(c.peoples)}` : ''}
 ${c.musicAndArts?.length ? `<h2>Musiques et arts</h2>${list(c.musicAndArts)}` : ''}
 ${c.foodCulture?.length ? `<h2>Cuisine</h2>${list(c.foodCulture)}` : ''}
-${c.notableFigures?.length ? `<h2>Personnalités</h2>${list(c.notableFigures)}` : ''}`,
+${c.notableFigures?.length ? `<h2>Personnalités</h2>${list(c.notableFigures, notable)}` : ''}
+${list(otherFigures, (f) => link(`/figures/${f._id}`, f.name))}
+${c.oralTraditions?.length ? `<h2>Traditions orales</h2>${list(c.oralTraditions)}` : ''}
+${c.customs?.length ? `<h2>Coutumes</h2>${list(c.customs)}` : ''}
+${c.festivals?.length ? `<h2>Fêtes et festivals</h2>${list(c.festivals)}` : ''}
+${c.discoveryIntro ? `<h2>Par où commencer</h2><p>${esc(plain(c.discoveryIntro))}</p>` : ''}
+${countryEvents.length ? `<h2>Dates clés</h2>${list(countryEvents, (e) => `${year(e.date) ?? ''} — ${link(`/timeline/${e._id}`, e.title)}`)}` : ''}
+${countryBlogs.length ? `<h2>À lire</h2>${list(countryBlogs, (b) => link(`/blog/${b._id}`, b.title))}` : ''}
+${countryProverbs.length ? `<h2>Proverbes</h2>${list(countryProverbs.slice(0, 8), (p) => `<blockquote>${esc(p.text)}</blockquote>${p.explanation ? ` ${esc(p.explanation)}` : ''}`)}` : ''}
+${seeAlso(countries, c, (o) => link(`/country/${o.id.toLowerCase()}`, countryName(o)))}`,
       jsonLd: {
         '@type': 'Country',
         name,
@@ -301,6 +355,7 @@ ${c.notableFigures?.length ? `<h2>Personnalités</h2>${list(c.notableFigures)}` 
     description: 'Articles documentés, histoires transmises et dossiers thématiques pour comprendre les lieux, les époques et les héritages africains.',
     breadcrumbs: [home, { name: 'Récits', path: '/recits' }],
     changefreq: 'daily',
+    lastmod: maxDate([...blogs, ...stories, ...collections]),
     priority: '0.9',
     body: `<h2>Articles</h2>${list(blogs, (b) => `${link(`/blog/${b._id}`, b.title)} — ${esc(clip(b.excerpt, 140))}`)}
 <h2>Histoires</h2>${list(stories, (s) => `${link(`/stories/${s._id}`, s.title)} — ${esc(s.subtitle || clip(s.description, 120))}`)}
@@ -317,7 +372,10 @@ ${c.notableFigures?.length ? `<h2>Personnalités</h2>${list(c.notableFigures)}` 
       lastmod: b.updatedAt,
       breadcrumbs: [home, { name: 'Récits', path: '/recits' }, { name: b.title, path: path_ }],
       priority: '0.8',
-      body: `<p><em>${esc(b.category || '')} · ${b.kind === 'temoignage' ? 'Témoignage' : 'Article documenté'} · ${esc(b.author || SITE_NAME)}</em></p>\n${b.excerpt ? `<p><strong>${esc(plain(b.excerpt))}</strong></p>` : ''}\n${articleHtml(b.content)}\n${referencesHtml(b.references)}`,
+      body: `<p><em>${esc(b.category || '')} · ${b.kind === 'temoignage' ? 'Témoignage' : 'Article documenté'} · ${esc(b.author || SITE_NAME)}</em></p>\n${b.excerpt ? `<p><strong>${esc(plain(b.excerpt))}</strong></p>` : ''}\n${articleHtml(b.content)}\n${referencesHtml(b.references)}\n${(() => {
+        const country = b.country && countries.find((c) => String(c.id).toUpperCase() === b.country)
+        return country ? `<p>Pays : ${link(`/country/${country.id.toLowerCase()}`, countryName(country))}</p>` : ''
+      })()}\n${seeAlso(blogs, b, (o) => link(`/blog/${o._id}`, o.title), 5)}`,
       jsonLd: {
         '@type': 'Article',
         headline: clip(b.title, 110),
@@ -343,6 +401,7 @@ ${c.notableFigures?.length ? `<h2>Personnalités</h2>${list(c.notableFigures)}` 
     description: 'Les grandes dates de l’histoire africaine, les personnalités qui l’ont marquée et les proverbes qui la transmettent.',
     breadcrumbs: [home, { name: 'Repères', path: '/reperes' }],
     priority: '0.9',
+    lastmod: maxDate([...events, ...figures]),
     body: `<h2>Dates</h2>${list(events, (e) => `${year(e.date) ?? ''} — ${link(`/timeline/${e._id}`, e.title)}`)}
 <h2>Personnalités</h2>${list(figures, (f) => `${link(`/figures/${f._id}`, f.name)} — ${esc(f.shortBiography || '')}`)}
 <h2>Proverbes</h2>${list(
@@ -367,7 +426,9 @@ ${c.notableFigures?.length ? `<h2>Personnalités</h2>${list(c.notableFigures)}` 
       priority: '0.7',
       body: `<p><strong>${esc(f.shortBiography || '')}</strong></p>
 ${paragraphs(f.biography, 20)}
-${f.achievements?.length ? `<h2>Réalisations</h2>${list(f.achievements.map((a) => (typeof a === 'string' ? a : a?.title || a?.description || '')).filter(Boolean))}` : ''}`,
+${f.achievements?.length ? `<h2>Réalisations</h2>${list(f.achievements.map((a) => (typeof a === 'string' ? a : a?.title || a?.description || '')).filter(Boolean))}` : ''}
+${countryOfFigure.get(String(f._id)) ? `<p>Pays : ${link(`/country/${countryOfFigure.get(String(f._id)).id.toLowerCase()}`, countryName(countryOfFigure.get(String(f._id))))}</p>` : ''}
+${seeAlso(figures, f, (o) => link(`/figures/${o._id}`, o.name))}`,
       jsonLd: {
         '@type': 'Person',
         name: f.name,
@@ -375,6 +436,9 @@ ${f.achievements?.length ? `<h2>Réalisations</h2>${list(f.achievements.map((a) 
         description: clip(f.shortBiography || f.biography, 300),
         image: f.image ? absolute(f.image) : undefined,
         birthPlace: f.birthPlace?.location ? { '@type': 'Place', name: f.birthPlace.location } : undefined,
+        birthDate: born && !born.includes('av.') ? isoDate(f.birthDate)?.slice(0, 10) : undefined,
+        deathDate: died && !died.includes('av.') ? isoDate(f.deathDate)?.slice(0, 10) : undefined,
+        nationality: countryOfFigure.get(String(f._id)) ? { '@type': 'Country', name: countryName(countryOfFigure.get(String(f._id))) } : undefined,
         url: absolute(path_),
       },
     })
@@ -393,7 +457,8 @@ ${f.achievements?.length ? `<h2>Réalisations</h2>${list(f.achievements.map((a) 
       breadcrumbs: [home, { name: 'Récits', path: '/recits' }, { name: s.title, path: path_ }],
       priority: '0.7',
       body: `<p>${esc(plain(s.description))}</p>
-${(s.chapters || []).map((ch) => `<h2>${esc(ch.title || '')}</h2>\n${paragraphs(ch.content, 20)}`).join('\n')}`,
+${(s.chapters || []).map((ch) => `<h2>${esc(ch.title || '')}</h2>\n${paragraphs(ch.content, 20)}`).join('\n')}
+${seeAlso(stories, s, (o) => link(`/stories/${o._id}`, o.title), 5)}`,
       jsonLd: {
         '@type': 'Article',
         headline: clip(s.title, 110),
@@ -420,7 +485,7 @@ ${(s.chapters || []).map((ch) => `<h2>${esc(ch.title || '')}</h2>\n${paragraphs(
       lastmod: c.updatedAt,
       breadcrumbs: [home, { name: 'Récits', path: '/recits' }, { name: c.title, path: path_ }],
       priority: '0.6',
-      body: paragraphs(c.description, 10),
+      body: `${paragraphs(c.description, 10)}\n${seeAlso(collections, c, (o) => link(`/collections/${o._id}`, o.title), 5)}`,
       jsonLd: { '@type': 'CollectionPage', name: c.title, description: clip(c.shortDescription || c.description, 300), url: absolute(path_) },
     })
   }
@@ -437,7 +502,7 @@ ${(s.chapters || []).map((ch) => `<h2>${esc(ch.title || '')}</h2>\n${paragraphs(
       lastmod: e.updatedAt,
       breadcrumbs: [home, { name: 'Repères', path: '/reperes' }, { name: e.title, path: path_ }],
       priority: '0.6',
-      body: `<p><em>${esc(e.period || '')}${e.location?.region ? ` · ${esc(e.location.region)}` : ''}${y ? ` · ${y}` : ''}</em></p>\n${paragraphs(e.description, 10)}`,
+      body: `<p><em>${esc(e.period || '')}${e.location?.region ? ` · ${esc(e.location.region)}` : ''}${y ? ` · ${y}` : ''}</em></p>\n${paragraphs(e.description, 10)}\n${seeAlso(events, e, (o) => `${year(o.date) ?? ''} — ${link(`/timeline/${o._id}`, o.title)}`)}`,
     })
   }
 
@@ -462,6 +527,23 @@ ${(s.chapters || []).map((ch) => `<h2>${esc(ch.title || '')}</h2>\n${paragraphs(
   return pages
 }
 
+/** Page servie par nginx (statut 404) pour les adresses inconnues ; React y affiche sa page introuvable */
+const notFoundPage = () => ({
+  path: '/404',
+  title: 'Page introuvable',
+  noindex: true,
+  canonical: false,
+  body: `<p>Cette page n’existe pas ou a été déplacée.</p>${list(
+    [
+      ['/', 'Accueil'],
+      ['/map', 'Explorer les pays'],
+      ['/recits', 'Récits'],
+      ['/reperes', 'Repères'],
+    ],
+    ([href, label]) => link(href, label),
+  )}`,
+})
+
 /* ------------------------------------------------------------------- écriture */
 
 const writeSitemap = (pages) => {
@@ -473,13 +555,14 @@ const writeSitemap = (pages) => {
     <loc>${esc(absolute(page.path))}</loc>
     <lastmod>${(isoDate(page.lastmod) || today).slice(0, 10)}</lastmod>
     <changefreq>${page.changefreq || 'weekly'}</changefreq>
-    <priority>${page.priority || '0.5'}</priority>
+    <priority>${page.priority || '0.5'}</priority>${page.image ? `
+    <image:image><image:loc>${esc(absolute(page.image))}</image:loc></image:image>` : ''}
   </url>`,
     )
     .join('\n')
   fs.writeFileSync(
     path.join(DIST, 'sitemap.xml'),
-    `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`,
+    `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${body}\n</urlset>\n`,
   )
 }
 
@@ -555,6 +638,7 @@ export const buildSeo = async ({ models } = {}) => {
   try {
     const pages = await collectPages(models)
     writePages(shell, pages)
+    fs.writeFileSync(path.join(DIST, '404.html'), renderPage(shell, notFoundPage()))
     writeSitemap(pages)
     writeRobots()
     return pages.length
