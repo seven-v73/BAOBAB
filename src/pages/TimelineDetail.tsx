@@ -1,3 +1,4 @@
+import { sourceTypeLabel } from '../utils/sources'
 import { useAdresseLisible } from '../hooks/useAdresseLisible'
 import { lienContenu } from '../utils/liens'
 import { useEffect, useState } from 'react'
@@ -156,7 +157,7 @@ export const TimelineDetail = () => {
               <li key={index}>
                 <span className="mrd-num">{index + 1}</span>
                 <span className="mrd-source-text">
-                  <p className="mrd-kicker">{joinMeta(source.type, source.year && String(source.year))}</p>
+                  <p className="mrd-kicker">{joinMeta(sourceTypeLabel(source.type), source.year && String(source.year))}</p>
                   <p>
                     {source.url ? (
                       <a href={source.url} target="_blank" rel="noopener noreferrer nofollow">

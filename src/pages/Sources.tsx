@@ -1,3 +1,4 @@
+import { SOURCE_TYPE_LABELS } from '../utils/sources'
 import { useEffect, useMemo, useState } from 'react'
 import type { CSSProperties } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
@@ -40,16 +41,7 @@ const TYPES = [
 ] as const
 type TypeKey = (typeof TYPES)[number]['key']
 
-const TYPE_LABELS: Record<string, string> = {
-  book: 'Livre',
-  article: 'Article',
-  document: 'Document',
-  archive: 'Archive',
-  testimony: 'Témoignage',
-  museum: 'Musée',
-  video: 'Audio et vidéo',
-  website: 'Site',
-}
+const TYPE_LABELS = SOURCE_TYPE_LABELS
 
 const RELIABILITY = ['3 et plus : contextualisée', '4 et plus : solide', '5 : référence']
 const REGIONS = [{ key: 'partout', label: 'Tout le continent' }, ...REGION_ORDER.map((key) => ({ key, label: REGION_LABELS[key] }))] as const
