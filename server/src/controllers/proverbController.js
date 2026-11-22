@@ -180,6 +180,31 @@ export const deleteProverb = catchAsync(async (req, res) => {
   })
 })
 
+// Proverbe du jour : le même pour tout le monde, toute la journée.
+// La journée est celle de Dakar, Abidjan, Bamako ou Ouagadougou (heure GMT, sans changement d'heure).
+// Le tirage ne dépend que de la date et des proverbes présents avant minuit : un proverbe ajouté
+// dans la journée ne change pas celui du jour, il entre en jeu le lendemain.
+const JOUR_MS = 24 * 60 * 60 * 1000
+const PAS = 7919 // nombre premier : parcourt toute la liste avant de revenir au même proverbe
+
+export const choisirIndexDuJour = (numeroDuJour, total) => (total > 0 ? (numeroDuJour * PAS) % total : -1)
+
+export const getProverbeDuJour = catchAsync(async (req, res) => {
+  const maintenant = Date.now()
+  const numeroDuJour = Math.floor(maintenant / JOUR_MS)
+  const debutDuJour = new Date(numeroDuJour * JOUR_MS)
+
+  let candidats = await Proverb.find({ createdAt: { $lt: debutDuJour } }).sort({ _id: 1 }).select('_id').lean()
+  if (!candidats.length) candidats = await Proverb.find({}).sort({ _id: 1 }).select('_id').lean()
+  const index = choisirIndexDuJour(numeroDuJour, candidats.length)
+  if (index < 0) throw new AppError('Aucun proverbe trouvé', 404)
+
+  const proverb = await Proverb.findById(candidats[index]._id).populate('country', 'name nameFr id').lean()
+  const secondesRestantes = Math.max(60, Math.floor((debutDuJour.getTime() + JOUR_MS - maintenant) / 1000))
+  res.set('Cache-Control', `public, max-age=${Math.min(600, secondesRestantes)}`)
+  res.json({ success: true, date: debutDuJour.toISOString().slice(0, 10), data: proverb })
+})
+
 // Récupérer un proverbe aléatoire
 export const getRandomProverb = catchAsync(async (req, res) => {
   const { country, category } = req.query

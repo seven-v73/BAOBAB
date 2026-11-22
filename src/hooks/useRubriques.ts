@@ -242,6 +242,20 @@ export const useReperes = () => {
     figures: editorialFigures,
     proverbs: editorialProverbs,
   })
+  const [proverbeDuJour, setProverbeDuJour] = useState<ProverbItem | null>(null)
+
+  useEffect(() => {
+    let cancelled = false
+    proverbService
+      .getDuJour()
+      .then(({ data }) => {
+        if (!cancelled && data?.data) setProverbeDuJour(fromProverb(data.data))
+      })
+      .catch(() => {})
+    return () => {
+      cancelled = true
+    }
+  }, [])
 
   useEffect(() => {
     let cancelled = false
@@ -286,5 +300,5 @@ export const useReperes = () => {
     }
   }, [])
 
-  return state
+  return { ...state, proverbeDuJour }
 }

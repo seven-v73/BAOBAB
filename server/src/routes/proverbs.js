@@ -6,6 +6,7 @@ import {
   updateProverb,
   deleteProverb,
   getRandomProverb,
+  getProverbeDuJour,
   likeProverb,
 } from '../controllers/proverbController.js'
 import { authenticate, authorize } from '../middleware/auth.js'
@@ -17,6 +18,7 @@ const router = express.Router()
 // Routes publiques
 router.get('/', getAllProverbs)
 router.get('/random', getRandomProverb)
+router.get('/du-jour', getProverbeDuJour)
 router.get('/:id', validateMongoId, getProverbById)
 router.post('/:id/like', writeLimiter, authenticate, validateMongoId, likeProverb)
 

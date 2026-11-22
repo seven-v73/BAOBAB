@@ -356,6 +356,8 @@ export const proverbService = {
   getAll: (params?: any) => api.get('/proverbs', { params }),
   getById: (id: string) => api.get(`/proverbs/${id}`),
   getRandom: (params?: any) => api.get('/proverbs/random', { params }),
+  // Le même pour tout le monde toute la journée (choisi par le serveur)
+  getDuJour: () => api.get('/proverbs/du-jour'),
   create: (data: any) => api.post('/proverbs', data),
   update: (id: string, data: any) => api.put(`/proverbs/${id}`, data),
   delete: (id: string) => api.delete(`/proverbs/${id}`),

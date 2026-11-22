@@ -71,7 +71,7 @@ const parcours = (dates: DateItem[], count: number) =>
     .sort((a, b) => (a.year ?? 0) - (b.year ?? 0))
 
 export const Reperes = () => {
-  const { dates: allDates, figures: allFigures, proverbs: allProverbs, status } = useReperes()
+  const { dates: allDates, figures: allFigures, proverbs: allProverbs, proverbeDuJour, status } = useReperes()
   const [type, setType] = useParamState<RepereType>('type', 'tout')
   const [region, setRegion] = useParamState<RegionKey>('region', 'partout')
   const [pays, setPays] = useState('')
@@ -111,7 +111,12 @@ export const Reperes = () => {
   // Vue « Tout » : un aperçu qui traverse les régions ; vue dédiée : tout, frise par lignes de cinq
   const datesShown = type === 'dates' ? dates : parcours(dates, FRISE)
   const figuresShown = type === 'personnalites' ? interleaveByRegion(figures, (f) => f.region) : interleaveByRegion(figures, (f) => f.region).slice(0, 4)
-  const proverbsAll = interleaveByRegion(proverbs, (p) => p.region)
+  // Le proverbe du jour (le même pour tous, toute la journée) ouvre la liste quand il entre dans les filtres
+  const duJour = proverbeDuJour && inPlace(proverbeDuJour) ? proverbeDuJour : null
+  const proverbsAll = [
+    ...(duJour ? [duJour] : []),
+    ...interleaveByRegion(proverbs, (p) => p.region).filter((p) => !duJour || (p.id !== duJour.id && p.citation !== duJour.citation)),
+  ]
   const proverbsShown = type === 'proverbes' ? proverbsAll.slice(0, proverbesShown) : proverbsAll.slice(0, 3)
 
   const first = datesShown[0]
@@ -230,7 +235,7 @@ export const Reperes = () => {
                     </span>
                     {proverbe.citation}»
                   </blockquote>
-                  <p className="mrp-kicker">{proverbe.origine}</p>
+                  <p className="mrp-kicker">{duJour && proverbe.id === duJour.id ? `Proverbe du jour · ${proverbe.origine}` : proverbe.origine}</p>
                 </li>
               ))}
             </ul>
