@@ -1,3 +1,4 @@
+import { CREDITS_PHOTOS } from '../data/creditsPhotos'
 import { SOURCE_TYPE_LABELS } from '../utils/sources'
 import { useEffect, useMemo, useState } from 'react'
 import type { CSSProperties } from 'react'
@@ -218,6 +219,17 @@ export const Sources = () => {
               <strong>3</strong> Source utile à contextualiser : tradition orale, témoignage, presse.
             </li>
           </ol>
+        </aside>
+
+        <aside className="msr-scale msr-credits" id="credits-photos">
+          <h2>Crédits des photos</h2>
+          <ul>
+            {CREDITS_PHOTOS.map((photo) => (
+              <li key={photo.src}>
+                <a href={photo.page} target="_blank" rel="noopener noreferrer">{photo.legende}</a>, {photo.credit}, Wikimedia Commons.
+              </li>
+            ))}
+          </ul>
         </aside>
       </div>
     </Layout>

@@ -27,15 +27,15 @@ export const ENRICHED_TERRITORIES: Record<string, { color: string; tagline: stri
     color: 'var(--brand-terre)',
     tagline: 'Le pays des hommes intègres',
     gallery: [
-      { src: '/content/home/tiebele.webp', caption: 'Tiébélé, cour royale kasséna' },
-      { src: '/content/home/faso-dan-fani.webp', caption: 'Le Faso Dan Fani sur le métier' },
-      { src: '/content/home/baobabs.webp', caption: 'Baobabs au soleil couchant' },
+      { src: '/content/home/tiebele.webp', caption: 'Maison peinte de la cour royale de Tiébélé. Photo : Alexander Leisser, CC BY-SA 4.0, Wikimedia Commons.' },
+      { src: '/content/home/faso-dan-fani.webp', caption: 'Tisserandes au travail. Photo : Btwien, CC BY-SA 4.0, Wikimedia Commons.' },
+      { src: '/content/home/baobabs.webp', caption: 'Baobab dans la région de l’Est. Photo : Desijwo, CC BY-SA 4.0, Wikimedia Commons.' },
     ],
   },
   CI: { color: 'var(--brand-desert)', tagline: 'Entre lagunes, forêts et savanes' },
   CV: {
     color: 'var(--brand-abysse)',
     tagline: 'Dix îles au large de l’Atlantique',
-    gallery: [{ src: '/content/home/cap-vert.webp', caption: 'Falaises et criques de l’archipel' }],
+    gallery: [{ src: '/content/home/cap-vert.webp', caption: 'Côte nord de Santo Antão. Photo : Konstantin Krismer, CC BY 3.0, Wikimedia Commons.' }],
   },
 }

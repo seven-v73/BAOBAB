@@ -16,6 +16,7 @@ export interface Personnalite {
   nom: string
   dates: string
   role: string
+  /** Portrait sourcé (vide : le site affiche les initiales, comme le prévoit DESIGN.md) */
   portrait: string
   pays: string
 }
@@ -77,7 +78,7 @@ export const PERSONNALITES: Personnalite[] = [
     nom: 'Soundiata Keïta',
     dates: '1190 – 1255',
     role: 'Fondateur de l’empire du Mali',
-    portrait: '/content/reperes/soundiata.png',
+    portrait: '',
     pays: 'Mali',
   },
   {
@@ -85,7 +86,7 @@ export const PERSONNALITES: Personnalite[] = [
     nom: 'Reine Nzinga Mbande',
     dates: '1583 – 1663',
     role: 'Reine du Ndongo et du Matamba',
-    portrait: '/content/reperes/nzinga.png',
+    portrait: '',
     pays: 'Angola',
   },
   {
@@ -93,7 +94,7 @@ export const PERSONNALITES: Personnalite[] = [
     nom: 'Yaa Asantewaa',
     dates: '1840 – 1921',
     role: 'Reine-mère d’Edweso, cheffe de guerre ashanti',
-    portrait: '/content/reperes/yaa-asantewaa.png',
+    portrait: '',
     pays: 'Ghana',
   },
   {
@@ -101,7 +102,7 @@ export const PERSONNALITES: Personnalite[] = [
     nom: 'Kwame Nkrumah',
     dates: '1909 – 1972',
     role: 'Premier président du Ghana indépendant',
-    portrait: '/content/reperes/kwame-nkrumah.png',
+    portrait: '',
     pays: 'Ghana',
   },
 ]

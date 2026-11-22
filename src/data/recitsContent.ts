@@ -58,7 +58,7 @@ export const RECITS: RecitCard[] = [
     meta: 'Savoir-faire · 7 min',
     title: 'Le Faso Dan Fani, un pagne tissé d’histoires',
     excerpt: 'Sur le métier à tisser, chaque bande de coton porte un motif, un message, une fierté.',
-    image: '/content/recits/faso-dan-fani.png',
+    image: '/content/recits/faso-dan-fani.webp',
     to: '/recit/faso-dan-fani',
   },
   {
@@ -69,7 +69,7 @@ export const RECITS: RecitCard[] = [
     meta: 'Patrimoine · 9 min',
     title: 'Tiébélé, les maisons peintes des femmes kasséna',
     excerpt: 'Dans la cour royale, les murs de terre se couvrent de motifs transmis de mère en fille.',
-    image: '/content/recits/tiebele.png',
+    image: '/content/recits/tiebele.webp',
     to: '/recit/tiebele',
   },
   {
@@ -80,7 +80,7 @@ export const RECITS: RecitCard[] = [
     meta: 'Savoir-faire · 5 min',
     title: 'La calebasse, du champ à l’atelier',
     excerpt: 'Séchée, gravée puis peinte, elle devient bol, instrument ou objet de fête.',
-    image: '/content/recits/calebasse.png',
+    image: '/content/recits/calebasse.webp',
     to: '/recit/calebasse',
   },
   {
@@ -91,7 +91,7 @@ export const RECITS: RecitCard[] = [
     meta: 'Mémoire · 6 min',
     title: 'Le pèlerinage de Mansa Musa',
     excerpt: 'En 1324, le voyage du souverain vers La Mecque distribue tant d’or que les cours s’en souviennent encore.',
-    image: '/content/recits/mansa-musa.png',
+    image: '/content/recits/mansa-musa.webp',
     to: '/recit/mansa-musa',
   },
 ]
@@ -105,7 +105,7 @@ export const DOSSIERS: RecitCard[] = [
     meta: 'Dossier · Burkina Faso',
     title: 'Savoir-faire du Burkina Faso',
     excerpt: 'Tissage, bronze et pagne : les gestes qui portent l’économie domestique.',
-    image: '/content/recits/faso-dan-fani.png',
+    image: '/content/recits/faso-dan-fani.webp',
     to: '/recits?type=dossiers',
   },
   {
@@ -116,7 +116,7 @@ export const DOSSIERS: RecitCard[] = [
     meta: 'Dossier · Mémoire',
     title: 'Les grands empires du Sahel',
     excerpt: 'Ghana, Mali, Songhaï : trois siècles de routes, de sels et de mémoires.',
-    image: '/content/recits/empire-sahel.png',
+    image: '/content/recits/empire-sahel.webp',
     to: '/recits?type=dossiers',
   },
 ]
@@ -129,9 +129,9 @@ const STORIES: StoryArticle[] = [
     title: 'Le Faso Dan Fani, un pagne tissé d’histoires',
     meta: 'Savoir-faire · Burkina Faso · 7 min',
     chapeau:
-      'Tissé bande après bande sur des métiers de bois, le Faso Dan Fani est devenu l’étoffe d’une fierté nationale burkinabè.',
-    image: '/content/recits/faso-dan-fani.png',
-    caption: 'Bandes de coton tissées sur métier traditionnel, atelier de Ouagadougou.',
+      'Tissé bande après bande sur des métiers de bois, le Faso Dan Fani est aujourd’hui porté comme un vêtement national au Burkina Faso.',
+    image: '/content/recits/faso-dan-fani.webp',
+    caption: 'Tisserandes au travail dans un village du Burkina Faso. Photo : Btwien, CC BY-SA 4.0, Wikimedia Commons.',
     author: 'La rédaction MonBaobab',
     date: 'Publié le 12 novembre 2026 · 7 minutes de lecture',
     country: {
@@ -196,9 +196,9 @@ const STORIES: StoryArticle[] = [
     title: 'Tiébélé, les maisons peintes des femmes kasséna',
     meta: 'Patrimoine · Burkina Faso · 9 min',
     chapeau:
-      'Dans le sud du Burkina Faso, la cour royale de Tiébélé garde une tradition unique : des murs de terre peints à la main par les femmes.',
-    image: '/content/recits/tiebele.png',
-    caption: 'Façade peinte de la cour royale de Tiébélé, pays kasséna.',
+      'Dans le sud du Burkina Faso, la cour royale de Tiébélé garde une tradition : des murs de terre peints à la main par les femmes.',
+    image: '/content/recits/tiebele.webp',
+    caption: 'Maison peinte de la cour royale de Tiébélé, Burkina Faso. Photo : Alexander Leisser, CC BY-SA 4.0, Wikimedia Commons.',
     author: 'La rédaction MonBaobab',
     date: 'Publié le 5 novembre 2026 · 9 minutes de lecture',
     country: {
@@ -243,8 +243,8 @@ const STORIES: StoryArticle[] = [
     meta: 'Savoir-faire · Mali · 5 min',
     chapeau:
       'Elle pousse au champ, sèche au soleil, puis se grave, se peint et se sculpte jusqu’à devenir bol, tasse ou instrument.',
-    image: '/content/recits/calebasse.png',
-    caption: 'Calebasses gravées et peintes, atelier de Bamako.',
+    image: '/content/recits/calebasse.webp',
+    caption: 'Calebasse décorée au village artisanal de Wadata, Niamey, Niger. Photo : Habibou Souley Hajara, CC BY-SA 4.0, Wikimedia Commons.',
     author: 'La rédaction MonBaobab',
     date: 'Publié le 28 octobre 2026 · 5 minutes de lecture',
     country: {
@@ -285,9 +285,9 @@ const STORIES: StoryArticle[] = [
     title: 'Le pèlerinage de Mansa Musa',
     meta: 'Mémoire · Mali · 6 min',
     chapeau:
-      'En 1324, l’empereur du Mali part pour La Mecque avec une caravane si généreuse que l’or s’en souvient encore.',
-    image: '/content/recits/mansa-musa.png',
-    caption: 'Représentation du passage de Mansa Musa, carte de l’Afrique de Gérard Mercator.',
+      'En 1324, le souverain du Mali part pour La Mecque. Son passage au Caire, raconté par al-Umari, a marqué les chroniqueurs.',
+    image: '/content/recits/mansa-musa.webp',
+    caption: 'Mansa Musa sur son trône, détail de l’Atlas catalan (1375), Bibliothèque nationale de France. Domaine public, Wikimedia Commons.',
     author: 'La rédaction MonBaobab',
     date: 'Publié le 15 octobre 2026 · 6 minutes de lecture',
     country: {
@@ -312,11 +312,11 @@ const STORIES: StoryArticle[] = [
         blocks: [
           {
             kind: 'para',
-            text: 'En 1324, il entreprend le hajj, le pèlerinage de La Mecque. Les chroniqueurs arabes, dont Al-Omari qui recueille les récits au Caire, décrivent une caravane de milliers de personnes, de chameaux chargés d’or et de vivres, précédée de serviteurs portant des staffs d’or.',
+            text: 'En 1324, il entreprend le hajj, le pèlerinage de La Mecque. Les chroniqueurs arabes, dont Al-Omari qui recueille les récits au Caire, décrivent une caravane de milliers de personnes, de chameaux chargés d’or et de vivres, précédée de serviteurs portant des bâtons d’or. Leurs chiffres varient d’un auteur à l’autre.',
           },
           {
             kind: 'para',
-            text: 'De retour, le souverain ramène des savants et des architectes, dont Abou Ishaq es-Sahéli, à qui l’on doit les mosquées de Tombouctou et de Djenné telles que la tradition les retient. Le voyage de piété devient un geste de politique culturelle.',
+            text: 'De retour, le souverain ramène des savants et des architectes, dont Abou Ishaq es-Sahéli, à qui la tradition attribue la mosquée Djingareyber de Tombouctou. Le voyage de piété devient un geste de politique culturelle.',
           },
         ],
       },

@@ -280,6 +280,33 @@
   line-height: 1;
 }
 
+/* Crédits des photos : même encart que la note de fiabilité, en liste simple */
+.msr-credits {
+  align-items: flex-start;
+  margin-top: 16px;
+}
+
+.msr-credits ul {
+  display: grid;
+  flex: 1;
+  gap: 6px;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.875rem;
+  line-height: 1.45;
+}
+
+.msr-credits li {
+  display: block;
+  max-width: none;
+}
+
+.msr-credits a {
+  color: var(--brand-foret);
+}
+
 @media (max-width: 1100px) {
   .msr-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));

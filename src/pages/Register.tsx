@@ -193,6 +193,7 @@ export const Register = () => {
           <li>Vos contributions suivies</li>
           <li>Gratuit</li>
         </ul>
+        <p className="mcl-credit">Photo : Alexander Leisser, CC BY-SA 4.0, Wikimedia Commons</p>
       </aside>
     </div>
   )

@@ -231,13 +231,14 @@ export const Login = () => {
       </main>
 
       <aside className="mcl-photo">
-        <p className="mcl-eyebrow">Faso Dan Fani, Burkina Faso</p>
+        <p className="mcl-eyebrow">Tisserandes, Burkina Faso</p>
         <h2>Un compte pour garder le fil de vos lectures.</h2>
         <ul className="mcl-avantages">
           <li>Vos récits enregistrés</li>
           <li>Vos contributions suivies</li>
           <li>Gratuit</li>
         </ul>
+        <p className="mcl-credit">Photo : Btwien, CC BY-SA 4.0, Wikimedia Commons</p>
       </aside>
     </div>
   )

@@ -241,10 +241,10 @@
 }
 
 /* Variante photo de l'inscription : les maisons peintes de Tiébélé */
-.mcl-photo--tiebele {
+.mcl-photo.mcl-photo--tiebele {
   background:
     linear-gradient(180deg, rgb(23 65 35 / 0) 20%, rgb(23 65 35 / 0.95) 95%),
-    url('/content/register/tiebele.png') center / cover no-repeat;
+    url('/content/register/tiebele.webp') center / cover no-repeat;
 }
 
 /* Sélecteur de rôle (mode création admin uniquement) */
@@ -329,7 +329,7 @@
   border-radius: 32px;
   background:
     linear-gradient(180deg, rgb(23 65 35 / 0) 20%, rgb(23 65 35 / 0.95) 95%),
-    url('/content/login/tissage.png') center / cover no-repeat;
+    url('/content/login/tissage.webp') center / cover no-repeat;
 }
 
 /* Préfixe racine : reste au-dessus des rares règles génériques résiduelles */
@@ -341,6 +341,12 @@
   line-height: 1.2;
   letter-spacing: 0.09em;
   text-transform: uppercase;
+}
+
+.mcl .mcl-credit {
+  margin: 0;
+  color: rgb(255 255 255 / 0.7);
+  font-size: 0.75rem;
 }
 
 .mcl-photo h2 {
