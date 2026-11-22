@@ -1,0 +1,4509 @@
+{
+  "code": "CD",
+  "nom": "République démocratique du Congo",
+  "region": "centre",
+  "wikidata": "Q974",
+  "maj": "2026-11-21",
+  "pays": {
+    "nom_officiel": "République démocratique du Congo",
+    "capitale": "Kinshasa",
+    "langues_officielles": [
+      "français"
+    ],
+    "langues_nationales": [
+      "lingala",
+      "swahili",
+      "kikongo ya leta (kituba)",
+      "tshiluba"
+    ],
+    "population": {
+      "valeur": 112832473,
+      "annee": 2025,
+      "source": "S1"
+    },
+    "superficie_km2": 2345410,
+    "monnaie": "Franc congolais",
+    "resume": "La République démocratique du Congo, dont la capitale est Kinshasa, est un vaste pays d'Afrique centrale traversé par le fleuve Congo et couvrant près de 2,35 millions de km². Elle est l'un des pays les plus multilingues du continent : le français y est la seule langue officielle, quatre langues bantoues (lingala, swahili, kikongo ya leta et tshiluba) ont le statut de langues nationales, et plus de 200 autres langues y sont parlées. Son territoire a abrité de grands États centralisés, comme le royaume du Kongo et l'empire luba, avant d'être placé sous l'autorité de Léopold II puis de la Belgique ; l'indépendance est proclamée le 30 juin 1960. Le pays a porté le nom de Zaïre de 1971 à 1997 et a traversé de longues crises politiques et armées dont l'est du territoire reste marqué. Il est aussi un foyer créatif majeur : la rumba congolaise, inscrite par l'UNESCO en 2021, la peinture, la sculpture, les textiles et une littérature vivante en témoignent, et cinq sites naturels figurent au patrimoine mondial.",
+    "sources": [
+      "S29",
+      "S1",
+      "S81",
+      "S9",
+      "S7"
+    ]
+  },
+  "langues": [
+    {
+      "nom": "Français",
+      "nom_local": "français",
+      "description": "Langue officielle unique du pays, héritée de la période coloniale et devenue la langue de l'administration, de l'enseignement et de la presse. Le français congolais présente des traits proches du français de Belgique ainsi que des néologismes propres. Selon le rapport 2018 de l'Organisation internationale de la Francophonie, environ la moitié de la population sait le lire et l'écrire, ce qui fait de la RDC le pays francophone le plus peuplé.",
+      "famille": "Indo-européenne, romane",
+      "glottocode": "stan1290",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Kinshasa",
+        "tout le pays"
+      ],
+      "locuteurs": {
+        "valeur": 42500000,
+        "annee": 2018,
+        "source": "S30"
+      },
+      "id": "CD-langue-francais",
+      "sources": [
+        "S110",
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode stan1290 lu sur Glottolog. Effectif : 42,5 millions de lecteurs-scripteurs (OIF 2018) tel que rapporté par Wikipédia ; rapport OIF à ouvrir."
+      }
+    },
+    {
+      "nom": "Lingala",
+      "nom_local": "lingála",
+      "description": "Le lingala est la langue véhiculaire de l'ouest du pays, très présente à Kinshasa, dans l'armée et dans la musique populaire. Glottolog, qui reprend les travaux d'Ethnologue, indique qu'il s'est formé vers 1900 sur le fleuve, entre Kinshasa et Kisangani, avant de s'imposer dans la capitale où il est la langue première de la majorité des habitants. Il est l'une des quatre langues nationales.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Bantoïde, Bantou (groupe des langues du fleuve)",
+      "glottocode": "ling1263",
+      "statut_linguistique": [
+        "nationale",
+        "véhiculaire"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Kinshasa",
+        "Équateur",
+        "ouest du pays"
+      ],
+      "id": "CD-langue-lingala",
+      "sources": [
+        "S111",
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode ling1263 (Kinshasa Lingala) lu sur Glottolog."
+      }
+    },
+    {
+      "nom": "Swahili du Congo",
+      "nom_local": "kiswahili ya Kongo",
+      "description": "Le swahili parlé en RDC est la grande langue véhiculaire de l'est du pays. Selon Glottolog, il s'y est implanté au XIXe siècle avec des commerçants venus de la côte est-africaine et reste la langue de communication la plus répandue en Afrique équatoriale orientale. Il fait partie des quatre langues nationales et est enseigné dans les provinces de l'Est.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Bantoïde, Bantou (swahili, G.40)",
+      "glottocode": "cong1236",
+      "statut_linguistique": [
+        "nationale",
+        "véhiculaire"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "est du pays"
+      ],
+      "id": "CD-langue-swahili",
+      "sources": [
+        "S112",
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode cong1236 (Congo Swahili) lu sur Glottolog."
+      }
+    },
+    {
+      "nom": "Kituba (kikongo ya leta)",
+      "nom_local": "kikongo ya leta",
+      "description": "Dans la Constitution, le « kikongo » reconnu comme langue nationale désigne, selon Wikipédia, le kituba (kikongo ya leta), et non l'ensemble des variétés de kikongo. Glottolog le décrit comme une langue de communication entre groupes linguistiques différents et mentionne son statut de langue nationale dans la Constitution de 2006. Il est utilisé dans la région du Kongo central, dans le Kwango et dans le Kwilu.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Bantoïde, Bantou (groupe kikongo, kituba)",
+      "glottocode": "kitu1246",
+      "statut_linguistique": [
+        "nationale",
+        "véhiculaire"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Kongo central",
+        "Kwango",
+        "Kwilu"
+      ],
+      "id": "CD-langue-kituba",
+      "sources": [
+        "S113",
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode kitu1246 (Kituba (Democratic Republic of Congo)) lu sur Glottolog."
+      }
+    },
+    {
+      "nom": "Tshiluba (luba-kasaï)",
+      "nom_local": "tshiluba",
+      "description": "Le tshiluba, appelé luba-lulua ou luba-kasaï par les linguistes, est la langue de communication du centre-sud du pays. Glottolog le classe parmi les langues de communication élargie et rappelle son statut de langue nationale dans la Constitution de 2006. Il est enseigné dans les provinces du Kasaï.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Bantoïde, Bantou (Luban)",
+      "glottocode": "luba1249",
+      "statut_linguistique": [
+        "nationale",
+        "véhiculaire"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Kasaï"
+      ],
+      "id": "CD-langue-tshiluba",
+      "sources": [
+        "S114",
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode luba1249 (Luba-Lulua) lu sur Glottolog ; les provinces du Kasaï viennent de Wikipédia (enseignement), à contrôler."
+      }
+    },
+    {
+      "nom": "Lomongo (mongo)",
+      "nom_local": "lomongo",
+      "description": "Le lomongo est la langue des Mongo, établis dans la forêt équatoriale du nord et du centre du pays. Une collection de proverbes lomongo publiée en 1921 à Bongandanga, dans l'Équateur, prouve la vitalité de la tradition orale en cette langue. Il est concurrencé par le lingala dans les villes.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Bantoïde, Bantou (bassin central)",
+      "glottocode": "mong1338",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Équateur"
+      ],
+      "id": "CD-langue-lomongo",
+      "sources": [
+        "S115",
+        "S36",
+        "S18"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode mong1338 (Mongo) lu sur Glottolog ; liste de provinces issue de Wikipédia (13 provinces citées), à vérifier."
+      }
+    },
+    {
+      "nom": "Kinande (nande)",
+      "nom_local": "kinande",
+      "description": "Le kinande est la langue des Nande, établis au Nord-Kivu dans la région de Beni et Lubero. Glottolog le place dans le groupe des langues bantoues des Grands Lacs et le décrit comme une langue en développement.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Bantoïde, Bantou (Grands Lacs)",
+      "glottocode": "nand1264",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Nord-Kivu",
+        "Beni",
+        "Lubero"
+      ],
+      "id": "CD-langue-kinande",
+      "sources": [
+        "S116",
+        "S80"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode nand1264 (Nande) lu sur Glottolog."
+      }
+    },
+    {
+      "nom": "Tetela",
+      "nom_local": "otetela",
+      "description": "Le tetela est une langue bantoue du groupe du bassin central, rattachée à Patrice Lumumba, né dans une famille tetela du Sankuru, et au père de Franco Luambo, décrit comme d'origine tetela. Glottolog la classe parmi les langues vigoureuses.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Bantoïde, Bantou (bassin central)",
+      "glottocode": "tete1250",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Sankuru"
+      ],
+      "id": "CD-langue-tetela",
+      "sources": [
+        "S117",
+        "S40",
+        "S44"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode tete1250 lu sur Glottolog ; localisation limitée au Sankuru d'après la naissance de Lumumba (Wikipédia) ; à compléter."
+      }
+    },
+    {
+      "nom": "Zandé",
+      "nom_local": "pazande",
+      "description": "Le zandé est une langue oubanguienne parlée dans le nord du pays, au bord de l'Uele, ainsi qu'au Soudan du Sud et en République centrafricaine. Glottolog la classe parmi les langues en développement. Elle est liée au peuple zandé, étudié par Evans-Pritchard dans les années 1920.",
+      "famille": "Atlantic-Congo, Volta-Congo, Nord Volta-Congo, Oubanguien",
+      "glottocode": "zand1248",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "bassin de l'Uele"
+      ],
+      "id": "CD-langue-zande",
+      "sources": [
+        "S118",
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode zand1248 lu sur Glottolog ; provinces citées d'après la mention de l'Uele sur Wikipédia, à préciser."
+      }
+    },
+    {
+      "nom": "Luba-Katanga (kiluba)",
+      "nom_local": "kiluba",
+      "description": "Le luba-katanga est la langue des Luba du Katanga, héritiers d'un royaume puissant. Glottolog le range parmi les langues menacées, signe d'une transmission fragilisée.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Bantoïde, Bantou (Luban)",
+      "glottocode": "luba1250",
+      "statut_linguistique": [
+        "régionale",
+        "menacée"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Katanga"
+      ],
+      "id": "CD-langue-luba-katanga",
+      "sources": [
+        "S119",
+        "S33"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode luba1250 (Luba-Katanga) lu sur Glottolog."
+      }
+    },
+    {
+      "nom": "Mangbetu",
+      "nom_local": "kimangbetu",
+      "description": "Le mangbetu appartient à la famille soudanique centrale, très différente des langues bantoues dominantes dans le pays. Les Mangbetu sont connus pour leurs harpes, leurs pipes et leurs objets de cour conservés dans plusieurs musées.",
+      "famille": "Soudanique central (Mangbetu-Asua)",
+      "glottocode": "mang1394",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "id": "CD-langue-mangbetu",
+      "sources": [
+        "S120",
+        "S24"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode mang1394 lu sur Glottolog ; région à préciser par une source."
+      }
+    },
+    {
+      "nom": "Alur",
+      "nom_local": "dhø Alur",
+      "description": "L'alur est une langue nilotique de l'ouest, parlée de part et d'autre de la frontière avec l'Ouganda. Elle fait partie des langues nilo-sahariennes minoritaires du pays, face à la masse des langues bantoues.",
+      "famille": "Nilotique occidental (luo du sud)",
+      "glottocode": "alur1250",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "id": "CD-langue-alur",
+      "sources": [
+        "S121"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode alur1250 lu sur Glottolog ; la région (Ituri) n'est pas sourcée dans les pages ouvertes : à confirmer."
+      }
+    },
+    {
+      "nom": "Lugbara",
+      "nom_local": "lugbarati",
+      "description": "Le lugbara est une langue soudanique centrale du groupe moru-madi. Glottolog la classe parmi les langues d'usage éducatif ; elle est parlée dans le nord-est du pays et au-delà de la frontière.",
+      "famille": "Soudanique central (Moru-Madi)",
+      "glottocode": "lugb1240",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "id": "CD-langue-lugbara",
+      "sources": [
+        "S122"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode lugb1240 lu sur Glottolog ; régions à confirmer par une source."
+      }
+    },
+    {
+      "nom": "Kisongye (songye)",
+      "nom_local": "kisongye",
+      "description": "Le kisongye est la langue des Songye, connus pour leurs masques kifwebe striés et leurs sculptures. Glottolog le range parmi les langues vigoureuses du groupe luban.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Bantoïde, Bantou (Luban)",
+      "glottocode": "song1303",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "id": "CD-langue-kisongye",
+      "sources": [
+        "S123",
+        "S60"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode song1303 lu sur Glottolog ; régions à confirmer par une source."
+      }
+    },
+    {
+      "nom": "Shi (mashi)",
+      "nom_local": "mashi",
+      "description": "Le shi est la langue des Bashi, dont le royaume de Bushi se situait autour de Bukavu et de la rive sud du lac Kivu. Elle fait partie des langues bantoues de la zone des Grands Lacs.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Bantoïde, Bantou (Kivu)",
+      "glottocode": "shii1238",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Sud-Kivu",
+        "Bukavu"
+      ],
+      "id": "CD-langue-shi",
+      "sources": [
+        "S124",
+        "S73"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode shii1238 (Shi) lu sur Glottolog."
+      }
+    },
+    {
+      "nom": "Tchokwé (cokwe)",
+      "nom_local": "cokwe",
+      "description": "Le tchokwé est une langue d'origine angolaise, très présente dans le sud-ouest et le sud du pays. Glottolog précise qu'au XXe siècle elle s'est répandue parmi plusieurs groupes du sud du Congo comme langue de commerce, de pêche, d'artisanat et d'élevage.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Bantoïde, Bantou (Njila)",
+      "glottocode": "chok1245",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "sud du pays"
+      ],
+      "id": "CD-langue-tchokwe",
+      "sources": [
+        "S125",
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode chok1245 (Chokwe) lu sur Glottolog."
+      }
+    },
+    {
+      "nom": "Efe",
+      "nom_local": "efe",
+      "description": "L'efe est la langue des chasseurs Efe de la forêt de l'Ituri, dans le nord-est du pays, voisins des Mbuti. Elle appartient à la famille soudanique centrale, ce qui la distingue des langues bantoues majoritaires dans le pays.",
+      "famille": "Soudanique central (Mangbutu-Efe)",
+      "glottocode": "efee1239",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Ituri"
+      ],
+      "id": "CD-langue-efe",
+      "sources": [
+        "S126",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode efee1239 (Efe) lu sur Glottolog."
+      }
+    }
+  ],
+  "peuples": [
+    {
+      "nom": "Kongo (Bakongo)",
+      "description": "Les Kongo sont un peuple bantou dont les terres s'étendent sur l'ouest de la RDC, le nord de l'Angola, le sud de la République du Congo et le sud du Gabon. Ils sont les héritiers du royaume du Kongo, que la BBC situe en essor dès le XIIIe siècle. Le Met conserve plusieurs crucifix de bronze produits dans la région, signe des échanges entre le royaume et le christianisme.",
+      "langues": [
+        "kikongo",
+        "kituba (kikongo ya leta)"
+      ],
+      "regions": [
+        "ouest du pays"
+      ],
+      "organisation": "Royaume du Kongo, centré sur Mbanza-Kongo ; clans et chefferies",
+      "activites": "pêche, agriculture, commerce, sculpture",
+      "pays_partages": [
+        "AO",
+        "CG",
+        "GA"
+      ],
+      "wikidata": "Q640090",
+      "id": "CD-peuple-kongo",
+      "sources": [
+        "S34",
+        "S9",
+        "S20"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Luba",
+      "description": "Les Luba forment l'un des grands groupes du centre-sud du pays, fondateurs d'un empire attesté entre le XVIe et le XIXe siècle autour de la dépression de Kamalondo et de la Lualaba. Leur art de cour est célèbre pour ses sièges royaux, ses bâtons de commandement et ses tablettes mémorielles. Le mutuashi, genre musical et danse, puise dans leurs traditions.",
+      "langues": [
+        "tshiluba",
+        "kiluba (luba-katanga)"
+      ],
+      "regions": [
+        "Katanga",
+        "Kasaï"
+      ],
+      "organisation": "Royauté sacrée ; société d'initiation Bambudye",
+      "activites": "agriculture, pêche, forge, art de cour",
+      "wikidata": "Q805841",
+      "id": "CD-peuple-luba",
+      "sources": [
+        "S33",
+        "S21",
+        "S59"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Kuba (Bakuba)",
+      "description": "Les Kuba vivent entre le Kasaï et le Sankuru, au centre du pays. Ils forment une union de plus de vingt groupes autour d'un royaume dont la capitale est Mushenge, et sont réputés pour leur statuaire et leurs textiles de raphia aux motifs géométriques. Le Met conserve plusieurs panneaux de prestige et jupes cérémonielles kuba.",
+      "langues": [
+        "bushoong"
+      ],
+      "regions": [
+        "Kasaï",
+        "Sankuru",
+        "Mushenge"
+      ],
+      "organisation": "Royaume dirigé par un roi (lukengo)",
+      "activites": "tissage du raphia, sculpture sur bois",
+      "wikidata": "Q358860",
+      "id": "CD-peuple-kuba",
+      "sources": [
+        "S35",
+        "S23"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Mongo (Bamongo)",
+      "description": "Les Mongo, parfois appelés Balolo, occupent la forêt équatoriale du nord et du centre ; Wikipédia les présente comme le groupe le plus nombreux du pays. Ils parlent le lomongo, dont un recueil de proverbes publié en 1921 à la mission de Bongandanga conserve de nombreux exemples. Les centres urbains adoptent souvent le lingala à la place.",
+      "langues": [
+        "lomongo",
+        "lingala"
+      ],
+      "regions": [
+        "Équateur"
+      ],
+      "activites": "pêche, agriculture forestière",
+      "wikidata": "Q927706",
+      "id": "CD-peuple-mongo",
+      "sources": [
+        "S36",
+        "S18"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Zandé (Azandé)",
+      "description": "Les Zandé vivent dans le nord du pays, au bord de l'Uele, ainsi qu'au Soudan du Sud et en République centrafricaine. Leur histoire est liée à des conquêtes qui ont fait adopter leur langue à des groupes voisins. Ils ont été étudiés par Evans-Pritchard dans les années 1920 à propos de la magie et des oracles.",
+      "langues": [
+        "zandé"
+      ],
+      "regions": [
+        "bassin de l'Uele"
+      ],
+      "activites": "agriculture",
+      "pays_partages": [
+        "SS",
+        "CF"
+      ],
+      "wikidata": "Q793575",
+      "id": "CD-peuple-zande",
+      "sources": [
+        "S37",
+        "S118"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Provinces d'implantation à confirmer par une source institutionnelle."
+      }
+    },
+    {
+      "nom": "Tchokwé",
+      "description": "Les Tchokwé sont originaires d'Angola et vivent surtout en RDC, avec des communautés en Zambie et en Namibie. Ils sont issus de migrations lunda vers le sud, liées à des conflits de succession dans les lignages au pouvoir. Leur langue, le tchokwé, a servi de langue de commerce dans le sud du Congo.",
+      "langues": [
+        "tchokwé"
+      ],
+      "regions": [
+        "sud du pays"
+      ],
+      "activites": "commerce, chasse, artisanat",
+      "pays_partages": [
+        "AO",
+        "ZM",
+        "NA"
+      ],
+      "wikidata": "Q1075883",
+      "id": "CD-peuple-tchokwe",
+      "sources": [
+        "S38",
+        "S125"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Ville de migration lunda : Wikipédia ; sud du pays d'après Glottolog."
+      }
+    },
+    {
+      "nom": "Lega",
+      "description": "Les Lega sont un peuple forestier de l'est du pays, installé à l'est de la Lwalaba, dans le Sud-Kivu, le Nord-Kivu et le Maniema. Wikipédia indique qu'ils seraient arrivés du nord-est au XVIe siècle. Le Met conserve plusieurs figures d'ivoire lega, liées à une société initiatique dont les savoirs ne se partagent pas publiquement.",
+      "langues": [
+        "kilega"
+      ],
+      "regions": [
+        "Sud-Kivu",
+        "Nord-Kivu",
+        "Maniema"
+      ],
+      "organisation": "Société initiatique bwami (non décrite ici)",
+      "wikidata": "Q2088223",
+      "id": "CD-peuple-lega",
+      "sources": [
+        "S39",
+        "S127"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Société initiatique et objets rituels : description limitée ; validation par des représentants lega à prévoir.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikipédia est la seule source sur l'histoire lega ; compléter."
+      }
+    },
+    {
+      "nom": "Songye",
+      "description": "Les Songye sont connus pour leurs masques kifwebe, aux stries incisées ou peintes, portés lors de cérémonies de sociétés initiatiques, et pour leurs sièges et haches de cérémonie conservés dans plusieurs musées, dont le Met.",
+      "langues": [
+        "kisongye"
+      ],
+      "organisation": "Sociétés kifwebe",
+      "id": "CD-peuple-songye",
+      "sources": [
+        "S60",
+        "S25",
+        "S123"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Masques liés à des sociétés initiatiques : description limitée, validation communautaire à prévoir.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Localisation à confirmer."
+      }
+    },
+    {
+      "nom": "Tetela",
+      "description": "Les Tetela comptent parmi leurs membres Patrice Lumumba, né dans une famille tetela à Onalua, dans le Sankuru. Le père de Franco Luambo est aussi décrit comme d'origine tetela. Le Met conserve un tambour à fente (lukombé) attribué aux Tetela, au Kasaï ou aux Kusu.",
+      "langues": [
+        "tetela"
+      ],
+      "regions": [
+        "Sankuru"
+      ],
+      "wikidata": "Q2351967",
+      "id": "CD-peuple-tetela",
+      "sources": [
+        "S40",
+        "S44",
+        "S22",
+        "S117"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Mangbetu",
+      "description": "Les Mangbetu sont connus pour un art de cour raffiné : harpes, pipes, tabliers de raphia et d'écorce. Le Met conserve une harpe domu et un tablier de femme negbe. Leur langue appartient à la famille soudanique centrale.",
+      "langues": [
+        "mangbetu"
+      ],
+      "organisation": "Chefferies de cour",
+      "id": "CD-peuple-mangbetu",
+      "sources": [
+        "S24",
+        "S28",
+        "S120"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Zone précise à confirmer."
+      }
+    },
+    {
+      "nom": "Mbuti et Efe",
+      "description": "Les Mbuti et les Efe sont des communautés de chasseurs de la forêt de l'Ituri, dans le nord-est du pays. L'UNESCO les mentionne comme les habitants traditionnels de la réserve de faune à okapis, dont la forêt fait partie du grand bassin du Congo.",
+      "langues": [
+        "efe"
+      ],
+      "regions": [
+        "Ituri"
+      ],
+      "activites": "chasse, cueillette",
+      "id": "CD-peuple-mbuti-efe",
+      "sources": [
+        "S5",
+        "S126"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Shi (Bashi)",
+      "description": "Les Bashi, locuteurs du shi, sont installés au Sud-Kivu. Selon Wikipédia, le site de Bukavu relevait de l'ancien royaume du Bushi, dirigé par un roi nommé Kabare. La ville de Bukavu a été fondée dans le cadre colonial.",
+      "langues": [
+        "shi"
+      ],
+      "regions": [
+        "Sud-Kivu",
+        "Bukavu"
+      ],
+      "organisation": "Royaume du Bushi",
+      "id": "CD-peuple-shi",
+      "sources": [
+        "S73",
+        "S124"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikipédia est la seule source sur le royaume du Bushi ; compléter."
+      }
+    }
+  ],
+  "sites": [
+    {
+      "nom": "Parc national des Virunga",
+      "type": "patrimoine_mondial",
+      "description": "Situé à l'est du pays, ce parc de 790 000 hectares réunit des habitats très variés, des marais et steppes aux neiges du Rwenzori à plus de 5 000 m, en passant par les plaines de lave et les savanes au pied des volcans. Il abrite le gorille de montagne, quelque 20 000 hippopotames et accueille des oiseaux migrateurs venus de Sibérie.",
+      "wikidata": "Q223589",
+      "unesco_id": "63",
+      "inscription": 1979,
+      "coordonnees": {
+        "lat": -0.5,
+        "lng": 29.5
+      },
+      "id": "CD-site-virunga",
+      "sources": [
+        "S2",
+        "S81"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Parc national de la Garamba",
+      "type": "patrimoine_mondial",
+      "description": "Dans le nord-est du pays, la Garamba fait partie de l'une des dernières grandes mosaïques de forêts et de savanes d'Afrique centrale. Elle forme une zone de transition entre la forêt guinéo-congolaise et la savane soudanienne et rassemble prairies, savanes boisées, forêts-galeries, marécages et zones humides à papyrus.",
+      "wikidata": "Q308893",
+      "unesco_id": "136",
+      "inscription": 1980,
+      "coordonnees": {
+        "lat": 4.0,
+        "lng": 29.25
+      },
+      "regions": [
+        "nord-est du pays"
+      ],
+      "id": "CD-site-garamba",
+      "sources": [
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Parc national de la Salonga",
+      "type": "patrimoine_mondial",
+      "description": "Au cœur du bassin central du fleuve Congo, la Salonga est la plus grande réserve de forêt tropicale pluviale d'Afrique. Très isolée, elle n'est accessible que par voie d'eau et protège des espèces endémiques menacées comme le « chimpanzé nain », le paon du Congo, l'éléphant de forêt et le faux gavial.",
+      "wikidata": "Q328488",
+      "unesco_id": "280",
+      "inscription": 1984,
+      "coordonnees": {
+        "lat": -2.0,
+        "lng": 21.0
+      },
+      "regions": [
+        "bassin central du Congo"
+      ],
+      "id": "CD-site-salonga",
+      "sources": [
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Réserve de faune à okapis",
+      "type": "patrimoine_mondial",
+      "description": "Elle occupe environ un cinquième de la forêt d'Ituri, dans le nord-est du pays, et protège près de 5 000 des quelque 30 000 okapis vivant à l'état sauvage, ainsi que des primates et des oiseaux menacés. Les chutes de l'Ituri et de l'Epulu en font aussi un paysage spectaculaire. Les communautés mbuti et efe y vivent traditionnellement de la chasse.",
+      "wikidata": "Q457304",
+      "unesco_id": "718",
+      "inscription": 1996,
+      "coordonnees": {
+        "lat": 2.0,
+        "lng": 28.5
+      },
+      "regions": [
+        "Ituri"
+      ],
+      "id": "CD-site-okapis",
+      "sources": [
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Parc national de Kahuzi-Biega",
+      "type": "patrimoine_mondial",
+      "description": "Vaste étendue de forêt tropicale primaire dominée par deux volcans éteints, le Kahuzi et le Biega, ce parc abrite une faune abondante. Il protège l'une des dernières populations de gorilles de plaine de l'est (Gorilla beringei graueri), à 2 100-2 400 m d'altitude.",
+      "wikidata": "Q457324",
+      "unesco_id": "137",
+      "inscription": 1980,
+      "coordonnees": {
+        "lat": -2.314805555,
+        "lng": 28.758666666
+      },
+      "regions": [
+        "rive ouest du lac Kivu"
+      ],
+      "id": "CD-site-kahuzi-biega",
+      "sources": [
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Kinshasa",
+      "type": "ville_historique",
+      "description": "Capitale et plus grande ville du pays, Kinshasa s'étend sur près de 10 000 km² sur la rive sud du fleuve Congo, au niveau du Pool Malebo, face à Brazzaville. Appelée Léopoldville de 1881 à 1966, elle porte en lingala le nom de Kisásá. Wikipédia estime sa population à plus de dix-sept millions d'habitants en 2021.",
+      "wikidata": "Q3838",
+      "coordonnees": {
+        "lat": -4.321944,
+        "lng": 15.311944
+      },
+      "regions": [
+        "Kinshasa"
+      ],
+      "id": "CD-site-kinshasa",
+      "sources": [
+        "S68",
+        "S99"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Lubumbashi",
+      "type": "ville_historique",
+      "description": "Deuxième ville du pays, fondée en 1910 par les Belges sous le nom d'Élisabethville et rebaptisée Lubumbashi en 1966. Capitale de l'éphémère État du Katanga entre 1960 et 1963, elle est devenue le chef-lieu du Haut-Katanga en 2015. C'est un centre minier et culturel du sud-est.",
+      "wikidata": "Q187593",
+      "coordonnees": {
+        "lat": -11.664167,
+        "lng": 27.482778
+      },
+      "regions": [
+        "Haut-Katanga"
+      ],
+      "id": "CD-site-lubumbashi",
+      "sources": [
+        "S69",
+        "S100"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Kisangani",
+      "type": "ville_historique",
+      "description": "Chef-lieu de la province de la Tshopo, Kisangani est une ville portuaire du nord-est qui s'est appelée Stanleyville de 1883 à 1966. Elle occupe les deux rives du fleuve Congo au confluent des rivières Lindi et Tshopo, au cœur de la forêt du bassin du Congo.",
+      "wikidata": "Q146723",
+      "coordonnees": {
+        "lat": 0.515278,
+        "lng": 25.191111
+      },
+      "regions": [
+        "Tshopo"
+      ],
+      "id": "CD-site-kisangani",
+      "sources": [
+        "S70",
+        "S101"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Chutes Boyoma",
+      "type": "site_naturel",
+      "description": "Les chutes Boyoma sont une série de sept cataractes qui se succèdent sur plus de 100 km sur la Lualaba, d'Ubundu à Kisangani. C'est en aval de ces chutes que la Lualaba prend le nom de Congo. Elles furent longtemps connues sous le nom de chutes Stanley, d'après l'explorateur qui les franchit en 1877.",
+      "wikidata": "Q38417",
+      "coordonnees": {
+        "lat": 0.491111,
+        "lng": 25.206389
+      },
+      "regions": [
+        "Tshopo"
+      ],
+      "id": "CD-site-boyoma",
+      "sources": [
+        "S76",
+        "S106"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Matadi",
+      "type": "ville_historique",
+      "description": "Principal port du pays sur le fleuve Congo, à environ 150 km en amont de l'Atlantique, Matadi a été fondée en 1886 pour acheminer les marchandises vers l'intérieur. Son nom signifie « pierres » en kikongo, en référence au relief et aux rapides qui l'entourent. C'est aujourd'hui le chef-lieu du Kongo central.",
+      "wikidata": "Q211073",
+      "coordonnees": {
+        "lat": -5.816667,
+        "lng": 13.483333
+      },
+      "regions": [
+        "Kongo central"
+      ],
+      "id": "CD-site-matadi",
+      "sources": [
+        "S71",
+        "S102"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Goma et le volcan Nyiragongo",
+      "type": "site_naturel",
+      "description": "Goma, chef-lieu du Nord-Kivu, est bâtie sur la rive nord du lac Kivu à 1 500 m d'altitude, sur d'anciennes coulées de lave du Nyiragongo. Ce volcan de 3 470 m, au nord de la ville, est entré en éruption à plusieurs reprises : celle de janvier 2002 a détruit une grande partie de Goma, selon la BBC.",
+      "wikidata": "Q214696",
+      "coordonnees": {
+        "lat": -1.5167,
+        "lng": 29.25
+      },
+      "regions": [
+        "Nord-Kivu"
+      ],
+      "id": "CD-site-nyiragongo-goma",
+      "sources": [
+        "S72",
+        "S79",
+        "S9",
+        "S103"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Bukavu",
+      "type": "ville_historique",
+      "description": "Chef-lieu du Sud-Kivu, Bukavu s'étend au sud-ouest du lac Kivu, face à la ville rwandaise de Cyangugu. Elle s'est d'abord appelée Costermansville pendant la période coloniale ; le site relevait auparavant du royaume du Bushi, dirigé par le roi des Bashi. Elle est la ville d'origine du docteur Denis Mukwege.",
+      "wikidata": "Q222279",
+      "coordonnees": {
+        "lat": -2.5,
+        "lng": 28.866667
+      },
+      "regions": [
+        "Sud-Kivu"
+      ],
+      "id": "CD-site-bukavu",
+      "sources": [
+        "S73",
+        "S104",
+        "S15"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Parc national de l'Upemba",
+      "type": "site_naturel",
+      "description": "Ce parc de 11 730 km², dans le nord-ouest du Haut-Katanga et le Haut-Lomami, recouvre une grande partie de la dépression de Kamalondo et ses lacs Upemba et Kisale. Wikipédia indique que c'est, avec le parc des Kundelungu, le seul endroit du pays où vivent des zèbres. La région est aussi un foyer d'occupations anciennes, dont les cultures kamilambienne et kisalienne.",
+      "wikidata": "Q263406",
+      "coordonnees": {
+        "lat": -9.016667,
+        "lng": 26.583333
+      },
+      "regions": [
+        "Haut-Lomami",
+        "Haut-Katanga"
+      ],
+      "id": "CD-site-upemba",
+      "sources": [
+        "S75",
+        "S33",
+        "S105"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Musée national de la République démocratique du Congo",
+      "type": "musee",
+      "description": "Ce musée, à Kinshasa, est consacré à l'histoire culturelle des nombreux groupes du pays. Construit avec des fonds de l'Agence coréenne de coopération internationale, il a été remis au gouvernement congolais le 14 juin 2019 et peut accueillir 12 000 objets.",
+      "wikidata": "Q65600754",
+      "regions": [
+        "Kinshasa"
+      ],
+      "periode": "depuis 2019",
+      "id": "CD-site-musee-national",
+      "sources": [
+        "S74",
+        "S107"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Musée national de Lubumbashi",
+      "type": "musee",
+      "description": "Rattaché à l'Institut des musées nationaux du Congo, ce musée de Lubumbashi trouve son origine dans une exposition d'archéologie présentée en 1937 par Francis Cabu. Un musée provisoire a ouvert en 1942, et les collections ont été installées en 1946 dans l'ancien pavillon belge de l'Exposition internationale de 1931.",
+      "wikidata": "Q16335725",
+      "coordonnees": {
+        "lat": -11.6494,
+        "lng": 27.4769
+      },
+      "regions": [
+        "Haut-Katanga"
+      ],
+      "periode": "depuis 1937",
+      "id": "CD-site-musee-lubumbashi",
+      "sources": [
+        "S78",
+        "S108"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Ishango",
+      "type": "site_archeologique",
+      "description": "Ishango est une zone de la rive du lac Édouard, près de la frontière avec l'Ouganda, où le géologue belge Jean de Heinzelin a découvert dans les années 1950 deux os gravés, aujourd'hui célèbres sous le nom d'os d'Ishango. Leur datation est estimée à environ 20 000 ans, et leur interprétation mathématique reste débattue.",
+      "regions": [
+        "lac Édouard"
+      ],
+      "periode": "vers 20 000 ans",
+      "id": "CD-site-ishango",
+      "sources": [
+        "S65",
+        "S17"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "traditions": [
+    {
+      "nom": "Rumba congolaise",
+      "categorie": "musique",
+      "description": "Genre musical et danse des villes de la RDC et de la République du Congo, la rumba est une expression multiculturelle issue d'une ancienne danse appelée nkumba (« taille » en kikongo). Elle accompagne fêtes et deuils, dans les espaces privés, publics et religieux, et se transmet par des clubs de quartier, des écoles et des associations. Les femmes ont joué un rôle majeur dans ses styles religieux et sentimentaux. L'UNESCO l'a inscrite sur la Liste représentative en 2021.",
+      "communautes": "Kongo, Luba et autres communautés urbaines, orchestres de Kinshasa et de Brazzaville",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01711",
+        "annee": 2021,
+        "url": "https://ich.unesco.org/en/RL/congolese-rumba-01711"
+      },
+      "transmission": "vivante",
+      "nom_local": "rumba congolaise",
+      "regions": [
+        "Kinshasa",
+        "Kongo central"
+      ],
+      "langues": [
+        "lingala",
+        "kikongo"
+      ],
+      "wikidata": "Q3453150",
+      "id": "CD-tradition-rumba",
+      "sources": [
+        "S7",
+        "S57",
+        "S12",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Mutuashi",
+      "categorie": "danse",
+      "description": "Le mutuashi est une danse et un genre musical issus des traditions des Luba du Kasaï. Le docteur Nico Kasanda en fut l'un des pionniers à partir de 1965, et la chanteuse Tshala Muana l'a popularisé à partir des années 1980, notamment avec la chanson Tchebele (1981). Il est devenu l'un des styles les plus populaires du pays.",
+      "communautes": "Luba du Kasaï",
+      "unesco": null,
+      "transmission": "vivante",
+      "regions": [
+        "Kasaï",
+        "Kinshasa"
+      ],
+      "langues": [
+        "tshiluba"
+      ],
+      "wikidata": "Q25091767",
+      "id": "CD-tradition-mutuashi",
+      "sources": [
+        "S59",
+        "S49"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Soukous et dérivés de la rumba",
+      "categorie": "musique",
+      "description": "Le soukous est un genre dérivé de la rumba congolaise, devenu populaire à partir des années 1960. Il a lui-même donné naissance à d'autres styles dansants, comme le ndombolo. Plus récemment, le tchatcho puis la musique « Tokooos » de Fally Ipupa ont prolongé cette lignée en mêlant rumba, afropop et rythmes urbains.",
+      "communautes": "Musiciens de Kinshasa et de la diaspora",
+      "unesco": null,
+      "transmission": "vivante",
+      "regions": [
+        "Kinshasa"
+      ],
+      "langues": [
+        "lingala"
+      ],
+      "wikidata": "Q1752683",
+      "id": "CD-tradition-soukous",
+      "sources": [
+        "S58",
+        "S57"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "La Sape (mode et élégance)",
+      "categorie": "fete",
+      "description": "La Sape (Société des ambianceurs et des personnes élégantes) est un mouvement d'élégance vestimentaire attaché à l'univers de la rumba, dont RFI désigne le chanteur Papa Wemba comme le « prince ». Selon RFI, la rumba rayonne au-delà de la musique : elle touche la danse, le vêtement et même les arts graphiques, comme l'a souligné l'exposition Beauté Congo présentée en 2015 à la Fondation Cartier à Paris.",
+      "communautes": "Kinois et diaspora congolaise",
+      "unesco": null,
+      "transmission": "vivante",
+      "regions": [
+        "Kinshasa"
+      ],
+      "id": "CD-tradition-sape",
+      "sources": [
+        "S12",
+        "S52"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source principale RFI (mention brève) ; chercher une étude sur la Sape."
+      }
+    },
+    {
+      "nom": "Sociétés et masques kifwebe",
+      "categorie": "rite",
+      "description": "Les kifwebe sont des masques striés des Songye et des Luba, portés lors de cérémonies de sociétés initiatiques et accompagnés de danses du même nom. Des barbes de fibres végétales étaient fixées sur le bord du masque. On distingue notamment les formes dites masculines (kilume) et féminines (bakashi). Les objets sont aujourd'hui conservés dans de nombreux musées.",
+      "communautes": "Songye, Luba",
+      "unesco": null,
+      "transmission": "fragile",
+      "nom_local": "kifwebe",
+      "langues": [
+        "kisongye",
+        "tshiluba"
+      ],
+      "wikidata": "Q98969575",
+      "id": "CD-tradition-kifwebe",
+      "sources": [
+        "S60",
+        "S25",
+        "S33"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Masques et cérémonies liés à des sociétés initiatiques : présenter sans dévoiler les savoirs réservés ; validation par des représentants songye et luba avant publication.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Origine communautaire précise et état actuel de la pratique à vérifier."
+      }
+    },
+    {
+      "nom": "Lukasa, tablettes mémorielles luba",
+      "categorie": "savoir",
+      "description": "Le lukasa est une tablette de bois en forme de sablier, couverte de perles, de coquillages ou de motifs gravés, qui aide les historiens de cour luba à raconter l'histoire du royaume : personnages, lieux, événements. Il a été créé et protégé par la société Bambudye, très liée à l'exercice du pouvoir luba. C'est un outil de mémoire autant qu'une œuvre d'art.",
+      "communautes": "Luba, société Bambudye",
+      "unesco": null,
+      "transmission": "fragile",
+      "nom_local": "lukasa",
+      "langues": [
+        "kiluba"
+      ],
+      "wikidata": "Q17149319",
+      "id": "CD-tradition-lukasa",
+      "sources": [
+        "S61",
+        "S26",
+        "S33"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Objet de savoir réservé à une société initiatique : ne pas décrire les significations des motifs ; validation luba obligatoire.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Pratique actuelle à vérifier auprès des communautés."
+      }
+    },
+    {
+      "nom": "Textiles de raphia kuba",
+      "categorie": "textile",
+      "description": "Les Kuba tissent le raphia et le brodent en velours de fibres coupées pour produire des panneaux de prestige et des jupes cérémonielles aux motifs géométriques variés. Le Met conserve plusieurs de ces pièces, dont un panneau de prestige de la fin du XIXe ou du début du XXe siècle et une jupe mapel.",
+      "communautes": "Kuba",
+      "unesco": null,
+      "transmission": "vivante",
+      "nom_local": "textiles kuba",
+      "regions": [
+        "Kasaï",
+        "Sankuru"
+      ],
+      "id": "CD-tradition-textiles-kuba",
+      "sources": [
+        "S23",
+        "S35"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Pendentifs de masque en ivoire (gikhokho)",
+      "categorie": "artisanat",
+      "description": "Les Pende taillent dans l'ivoire de petits pendentifs à l'image de masques, les gikhokho, portés comme ornements. Le Met conserve plusieurs exemplaires du début du XXe siècle.",
+      "communautes": "Pende",
+      "unesco": null,
+      "transmission": "vivante",
+      "nom_local": "gikhokho",
+      "id": "CD-tradition-ivoires-pende",
+      "sources": [
+        "S27"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Région et contexte d'usage à préciser par une source ethnographique."
+      }
+    },
+    {
+      "nom": "Harpes et arts de cour mangbetu",
+      "categorie": "musique",
+      "description": "Les Mangbetu ont développé un art de cour raffiné : harpes à corps de bois et de peau (domu), pipes sculptées, tabliers de raphia et d'écorce (negbe). Le Met conserve notamment une harpe domu et un tablier de femme negbe.",
+      "communautes": "Mangbetu",
+      "unesco": null,
+      "transmission": "vivante",
+      "nom_local": "domu",
+      "id": "CD-tradition-harpes-mangbetu",
+      "sources": [
+        "S24",
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Minkisi kongo",
+      "categorie": "rite",
+      "description": "Les minkisi (au singulier nkisi) sont des statuettes le plus souvent anthropomorphes produites par les populations kongo. Elles relèvent de la spécialité du nganga, qui les emploie pour soigner ou rendre la justice. Pendant la période coloniale, certaines ont été appelées « fétiches » par les observateurs européens, terme aujourd'hui écarté.",
+      "communautes": "Kongo",
+      "unesco": null,
+      "transmission": "fragile",
+      "nom_local": "nkisi, minkisi",
+      "langues": [
+        "kikongo"
+      ],
+      "wikidata": "Q1460155",
+      "id": "CD-tradition-minkisi",
+      "sources": [
+        "S62",
+        "S34"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Objets rituels et savoirs thérapeutiques : discours à valider avec des représentants kongo ; éviter toute exposition de savoirs réservés.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Église kimbanguiste",
+      "categorie": "rite",
+      "description": "Fondée à Nkamba en 1921 par Simon Kimbangu, l'Église kimbanguiste est devenue l'un des plus grands mouvements religieux nés en Afrique. Interdite par les autorités belges, elle a survécu dans la clandestinité et est apparue comme Église nationale après la levée de l'interdiction en 1960. Le dictionnaire biographique chrétien africain indique qu'elle revendique environ trois millions de fidèles.",
+      "communautes": "Kongo",
+      "unesco": null,
+      "transmission": "vivante",
+      "regions": [
+        "Kongo central",
+        "Kinshasa"
+      ],
+      "langues": [
+        "kikongo"
+      ],
+      "wikidata": "Q1549204",
+      "id": "CD-tradition-kimbanguisme",
+      "sources": [
+        "S14",
+        "S64"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Pratique religieuse vivante : présenter la foi telle que l'Église la décrit, avec validation par l'institution.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Chiffres de fidèles (DACB) anciens : à actualiser avec l'Église."
+      }
+    },
+    {
+      "nom": "Peinture populaire de Kinshasa",
+      "categorie": "artisanat",
+      "description": "La peinture populaire kinoise s'est développée à partir des ateliers de peintres d'enseignes et d'affiches de l'avenue Kasa-Vubu, à Kinshasa. Chéri Samba, né en 1956, en est l'une des figures : ses toiles associent images et commentaires écrits en français, en anglais et en lingala. Il a exposé à la Biennale de Venise en 1997, et ses œuvres figurent dans des collections comme celles du Centre Pompidou et du MoMA.",
+      "communautes": "Artistes de Kinshasa",
+      "unesco": null,
+      "transmission": "vivante",
+      "regions": [
+        "Kinshasa"
+      ],
+      "langues": [
+        "lingala",
+        "français"
+      ],
+      "id": "CD-tradition-peinture-populaire",
+      "sources": [
+        "S53",
+        "S95",
+        "S77"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Bande dessinée congolaise",
+      "categorie": "artisanat",
+      "description": "La bande dessinée congolaise désigne les bandes dessinées d'abord publiées en RDC, le plus souvent par des auteurs congolais. Wikipédia décrit une phase de renouvellement depuis le début du XXIe siècle, avec de nouvelles structures éditoriales et des projets indépendants. Elle s'inscrit dans l'univers graphique de Kinshasa, où la culture de la bande dessinée a influencé la peinture populaire.",
+      "communautes": "Auteurs et éditeurs de RDC",
+      "unesco": null,
+      "transmission": "vivante",
+      "regions": [
+        "Kinshasa"
+      ],
+      "wikidata": "Q15974703",
+      "id": "CD-tradition-bande-dessinee",
+      "sources": [
+        "S63",
+        "S53"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Proverbes lomongo",
+      "categorie": "oralite",
+      "description": "Les Mongo expriment leurs observations de la vie quotidienne sous forme de proverbes, souvent liés au monde de la forêt. Un recueil publié en 1921 à Bongandanga, dans l'Équateur, par la mission du Congo Balolo, en conserve de nombreux avec leur traduction en anglais. Ils servent d'enseignement moral et de repères sur les coutumes.",
+      "communautes": "Mongo",
+      "unesco": null,
+      "transmission": "vivante",
+      "nom_local": "nsao ya lomongo",
+      "regions": [
+        "Équateur"
+      ],
+      "langues": [
+        "lomongo"
+      ],
+      "id": "CD-tradition-proverbes-lomongo",
+      "sources": [
+        "S18",
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Kasalà, chant héroïque luba",
+      "categorie": "oralite",
+      "description": "Le kasalà est un chant héroïque luba, un genre de poésie orale d'éloge. La chercheuse et poétesse Clémentine Nzuji lui a consacré un ouvrage publié aux Presses universitaires du Zaïre en 1974.",
+      "communautes": "Luba",
+      "unesco": null,
+      "transmission": "vivante",
+      "langues": [
+        "kiluba",
+        "tshiluba"
+      ],
+      "id": "CD-tradition-kasala-luba",
+      "sources": [
+        "S56",
+        "S33"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Description fondée sur la bibliographie de Nzuji (Wikipédia) ; chercher une étude du kasalà."
+      }
+    }
+  ],
+  "personnalites": [
+    {
+      "nom": "Patrice Lumumba",
+      "description": "Figure majeure de l'indépendance, né dans une famille tetela au Sankuru, Patrice Lumumba devient le premier Premier ministre du pays en juin 1960. Le président Kasa-Vubu le révoque en septembre 1960. Il est assassiné début 1961 ; Wikipédia date sa mort du 17 janvier 1961 près d'Élisabethville, tandis que la BBC place l'événement en février 1961 (annonce de sa mort).",
+      "naissance": {
+        "date": "1925-07-02",
+        "lieu": "Onalua (Katako-Kombe, Sankuru)"
+      },
+      "roles": [
+        "Premier ministre",
+        "homme politique"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "wikidata": "Q161672",
+      "deces": {
+        "date": "1961-01-17",
+        "lieu": "près d'Élisabethville (Lubumbashi)"
+      },
+      "id": "CD-personne-lumumba",
+      "sources": [
+        "S40",
+        "S9",
+        "S82"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet politique et mémoriel : présentation factuelle, positions et responsabilités attribuées avec sources ; validation par un historien congolais.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de mort : 17 janvier 1961 (Wikipédia, Wikidata) ; la BBC mentionne février 1961 pour l'annonce publique."
+      }
+    },
+    {
+      "nom": "Simon Kimbangu",
+      "description": "Prédicateur né à Nkamba dans l'actuel Kongo central, Simon Kimbangu mène en 1921 un ministère de guérison et de prédication qui devient un grand mouvement de réveil. Arrêté et jugé par les autorités coloniales, il reste emprisonné jusqu'à sa mort en 1951 à Élisabethville. Il est devenu le fondateur symbolique de l'Église kimbanguiste.",
+      "naissance": {
+        "date": "1887-09-12",
+        "lieu": "Nkamba (Kongo central)"
+      },
+      "roles": [
+        "prédicateur",
+        "fondateur religieux"
+      ],
+      "domaines": [
+        "religion"
+      ],
+      "epoque": "XXe siècle",
+      "wikidata": "Q742357",
+      "deces": {
+        "date": "1951-10-12",
+        "lieu": "Élisabethville (Lubumbashi)"
+      },
+      "id": "CD-personne-kimbangu",
+      "sources": [
+        "S14",
+        "S41",
+        "S83"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Figure religieuse vénérée : validation par l'Église kimbanguiste.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de naissance (12 septembre 1887) issue de Wikidata ; non confirmée par les autres pages ouvertes."
+      }
+    },
+    {
+      "nom": "Kimpa Vita (Dona Béatrice)",
+      "description": "Prophétesse kongo née en 1684 à Mbanza-Kongo, aujourd'hui en Angola, Kimpa Vita fonde le mouvement antonien. Elle prône la réunification du royaume du Kongo et propose un christianisme africanisé. Capturée, elle est brûlée en 1706. Elle est aujourd'hui un symbole de résistance et de fierté pour les Kongo des deux Congo et d'Angola.",
+      "naissance": {
+        "date": "1684",
+        "lieu": "Mbanza-Kongo (royaume du Kongo, aujourd'hui en Angola)"
+      },
+      "roles": [
+        "prophétesse",
+        "dirigeante religieuse"
+      ],
+      "domaines": [
+        "religion",
+        "résistance"
+      ],
+      "epoque": "XVIIe-XVIIIe siècle",
+      "wikidata": "Q467347",
+      "deces": {
+        "date": "1706-07-02",
+        "lieu": "Evolulu (royaume du Kongo, aujourd'hui en Angola)"
+      },
+      "id": "CD-personne-kimpa-vita",
+      "sources": [
+        "S42",
+        "S13",
+        "S84"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Figure du royaume du Kongo (territoire partagé entre RDC et Angola) : validation par des spécialistes kongo.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Pays de naissance actuel : Angola ; liée à l'histoire kongo commune."
+      }
+    },
+    {
+      "nom": "Denis Mukwege",
+      "description": "Gynécologue né à Bukavu, Denis Mukwege est connu pour avoir fondé l'hôpital de Panzi, où lui et son équipe soignent les victimes de violences sexuelles en temps de guerre. Il a reçu le prix Nobel de la paix en 2018, en partage avec Nadia Murad, pour son action contre l'usage du viol comme arme de guerre. Il est aussi pasteur.",
+      "naissance": {
+        "date": "1955-03-01",
+        "lieu": "Bukavu"
+      },
+      "roles": [
+        "gynécologue",
+        "militant des droits humains"
+      ],
+      "domaines": [
+        "médecine",
+        "droits humains"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "wikidata": "Q1187542",
+      "id": "CD-personne-mukwege",
+      "sources": [
+        "S15",
+        "S16",
+        "S43",
+        "S85"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année de fondation de Panzi divergente entre pages Nobel (1999 / 2008) : non reprise."
+      }
+    },
+    {
+      "nom": "Franco Luambo",
+      "description": "Guitariste, chanteur et compositeur, Franco, de son vrai nom François Luambo Makiadi, a transformé le jeu de guitare de la rumba congolaise. Il dirige l'orchestre OK Jazz, devenu TP OK Jazz, pendant plus de trois décennies. Il est le compositeur le plus prolifique du pays, auteur notamment de « Mario » en 1985.",
+      "naissance": {
+        "date": "1938-07-06",
+        "lieu": "Sona-Bata (Congo belge)"
+      },
+      "roles": [
+        "guitariste",
+        "compositeur",
+        "chef d'orchestre"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe siècle",
+      "wikidata": "Q1378892",
+      "deces": {
+        "date": "1989-10-12",
+        "lieu": "Mont-Godinne (Belgique)"
+      },
+      "id": "CD-personne-franco",
+      "sources": [
+        "S44",
+        "S57",
+        "S86"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Joseph Kabasele (Le Grand Kallé)",
+      "description": "Chanteur né à Matadi, Joseph Kabasele, dit Le Grand Kallé, est considéré comme le père de la musique congolaise moderne. Son orchestre African Jazz, actif dès 1953, a été pionnier de la rumba congolaise et a accueilli Tabu Ley Rochereau. Il a fondé en 1960 son propre label, qui a produit aussi le TP OK Jazz de Franco.",
+      "naissance": {
+        "date": "1930-12-16",
+        "lieu": "Matadi"
+      },
+      "roles": [
+        "chanteur",
+        "chef d'orchestre",
+        "producteur"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe siècle",
+      "wikidata": "Q3113632",
+      "deces": {
+        "date": "1983-02-11",
+        "lieu": "Kinshasa"
+      },
+      "id": "CD-personne-kabasele",
+      "sources": [
+        "S45",
+        "S12",
+        "S87"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Mbilia Bel",
+      "description": "Chanteuse de rumba congolaise, née Marie-Claire Mboyo Moseka, Mbilia Bel s'est imposée sur la scène kinoise. Elle a été marquée dès l'enfance par la voix de la chanteuse togolaise Bella Bellow, entendue en tournée au Zaïre en 1969.",
+      "naissance": {
+        "date": "1959",
+        "lieu": "Kinshasa"
+      },
+      "roles": [
+        "chanteuse"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "wikidata": "Q3303525",
+      "id": "CD-personne-mbilia-bel",
+      "sources": [
+        "S46",
+        "S88"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Jour de naissance divergent (30 août selon Wikipédia, 10 janvier selon Wikidata) : année seule retenue."
+      }
+    },
+    {
+      "nom": "Tabu Ley Rochereau",
+      "description": "Chanteur, auteur-compositeur et homme politique né à Bagata, Tabu Ley Rochereau a débuté avec l'African Jazz du Grand Kallé avant de fonder sa propre formation. Il a contribué à moderniser la rumba congolaise et a mené une carrière internationale jusqu'à sa mort à Bruxelles.",
+      "naissance": {
+        "date": "1940-11-13",
+        "lieu": "Bagata (Congo belge)"
+      },
+      "roles": [
+        "chanteur",
+        "compositeur",
+        "homme politique"
+      ],
+      "domaines": [
+        "musique",
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "wikidata": "Q2743754",
+      "deces": {
+        "date": "2013-11-30",
+        "lieu": "Bruxelles"
+      },
+      "id": "CD-personne-tabu-ley",
+      "sources": [
+        "S47",
+        "S45",
+        "S89"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Valentin-Yves Mudimbe",
+      "description": "Philosophe, écrivain et poète, né à Likasi, V.-Y. Mudimbe a enseigné aux États-Unis après avoir quitté le Zaïre en 1979. Son essai « The Invention of Africa » (1988) est considéré comme un texte clé de la pensée postcoloniale. Ses romans, publiés surtout chez Présence africaine, vont de « Entre les eaux » (1973) à « Shaba deux » (1989).",
+      "naissance": {
+        "date": "1941-12-08",
+        "lieu": "Likasi (Jadotville)"
+      },
+      "roles": [
+        "philosophe",
+        "écrivain",
+        "poète"
+      ],
+      "domaines": [
+        "littérature",
+        "philosophie"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "wikidata": "Q3056528",
+      "deces": {
+        "date": "2025-04-22",
+        "lieu": "Caroline du Nord (États-Unis)"
+      },
+      "id": "CD-personne-mudimbe",
+      "sources": [
+        "S48",
+        "S90"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Tshala Muana",
+      "description": "Chanteuse, danseuse et productrice originaire du Kasaï, née à Élisabethville, Tshala Muana est surnommée la « reine du mutuashi ». Elle a modernisé ce folklore luba et l'a diffusé à travers le pays. Elle est décédée à Kinshasa en 2022.",
+      "naissance": {
+        "date": "1958",
+        "lieu": "Élisabethville (Lubumbashi)"
+      },
+      "roles": [
+        "chanteuse",
+        "danseuse",
+        "productrice"
+      ],
+      "domaines": [
+        "musique",
+        "danse"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "wikidata": "Q2620872",
+      "deces": {
+        "date": "2022-12-10",
+        "lieu": "Kinshasa"
+      },
+      "id": "CD-personne-tshala-muana",
+      "sources": [
+        "S49",
+        "S59",
+        "S91"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Jour de naissance divergent (13 mai Wikipédia, 13 mars Wikidata) : année seule retenue."
+      }
+    },
+    {
+      "nom": "Julienne Lusenge",
+      "description": "Militante née dans le Haut-Uele et élevée au Nord-Kivu, Julienne Lusenge est cofondatrice de l'ONG Solidarité féminine pour la paix et le développement intégral (SOFEPADI) et directrice exécutive du Fonds pour les femmes congolaises. Elle dénonce l'usage du viol comme arme de guerre.",
+      "naissance": {
+        "date": "1958-05-28",
+        "lieu": "Haut-Uele"
+      },
+      "roles": [
+        "militante",
+        "directrice d'ONG"
+      ],
+      "domaines": [
+        "droits humains"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "wikidata": "Q23021435",
+      "id": "CD-personne-lusenge",
+      "sources": [
+        "S50",
+        "S92"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance donnée par Wikipédia d'après une interview à Radio Okapi (à ouvrir) ; confirmée par Wikidata."
+      }
+    },
+    {
+      "nom": "Marie-Clémentine Anuarite Nengapeta",
+      "description": "Religieuse congolaise de la congrégation des Sœurs de la Sainte-Famille, Anuarite Nengapeta est morte assassinée en 1964 pendant la rébellion Simba, après avoir refusé les avances d'un chef rebelle. Elle est vénérée comme martyre par l'Église catholique.",
+      "naissance": {
+        "date": "1939"
+      },
+      "roles": [
+        "religieuse",
+        "enseignante"
+      ],
+      "domaines": [
+        "religion"
+      ],
+      "epoque": "XXe siècle",
+      "wikidata": "Q466996",
+      "deces": {
+        "date": "1964"
+      },
+      "id": "CD-personne-anuarite",
+      "sources": [
+        "S51",
+        "S93"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Figure religieuse et récit de violences : validation par la congrégation et par un historien.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lieux de naissance et de mort à renseigner."
+      }
+    },
+    {
+      "nom": "Papa Wemba",
+      "description": "Chanteur, auteur-compositeur et acteur né à Lubefu, Papa Wemba a cofondé le label Viva La Musica. Pilier de la rumba congolaise, il l'a portée à l'international tout en explorant le rock, le ndombolo ou la world music. RFI le désigne comme le prince de la Sape. Il est mort à Abidjan en 2016.",
+      "naissance": {
+        "date": "1949-06-14",
+        "lieu": "Lubefu (Congo belge)"
+      },
+      "roles": [
+        "chanteur",
+        "compositeur",
+        "acteur"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "wikidata": "Q736274",
+      "deces": {
+        "date": "2016-04-24",
+        "lieu": "Abidjan (Côte d'Ivoire)"
+      },
+      "id": "CD-personne-papa-wemba",
+      "sources": [
+        "S52",
+        "S12",
+        "S94"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Chéri Samba",
+      "description": "Peintre autodidacte né à Kinto M'Vuila, Chéri Samba a débuté à Kinshasa dans les ateliers de peintres d'enseignes de l'avenue Kasa-Vubu. Ses toiles, qui mêlent images et textes en français, en anglais et en lingala, comptent parmi les œuvres africaines contemporaines les plus connues ; elles figurent au Centre Pompidou et au MoMA.",
+      "naissance": {
+        "date": "1956-12-30",
+        "lieu": "Kinto M'Vuila"
+      },
+      "roles": [
+        "peintre"
+      ],
+      "domaines": [
+        "arts visuels"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "wikidata": "Q2617109",
+      "id": "CD-personne-cheri-samba",
+      "sources": [
+        "S53",
+        "S95"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Clémentine Nzuji",
+      "description": "Professeure, poétesse et chercheuse en littératures orales, née à Tshofa au Kasaï-Oriental, Clémentine Nzuji a remporté en 1969 le prix de poésie du concours Léopold Sédar Senghor au Festival de Dakar. Elle a enseigné à l'université nationale du Zaïre puis en Belgique, où elle a fondé en 1986 le centre CILTADE à l'université de Louvain.",
+      "naissance": {
+        "date": "1944-01-21",
+        "lieu": "Tshofa (Kasaï-Oriental)"
+      },
+      "roles": [
+        "poétesse",
+        "universitaire"
+      ],
+      "domaines": [
+        "littérature",
+        "savoirs"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "wikidata": "Q2980742",
+      "id": "CD-personne-nzuji",
+      "sources": [
+        "S56",
+        "S98"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Mobutu Sese Seko",
+      "description": "Né à Lisala, Joseph-Désiré Mobutu prend le pouvoir par un coup d'État en 1965, rebaptise le pays Zaïre en 1971 et change de nom en Mobutu Sese Seko. Son régime à parti unique s'appuie sur un culte de la personnalité et une politique d'« authenticité ». Il est chassé par les troupes de Laurent-Désiré Kabila en mai 1997 et meurt en exil à Rabat.",
+      "naissance": {
+        "date": "1930-10-14",
+        "lieu": "Lisala"
+      },
+      "roles": [
+        "chef d'État",
+        "militaire"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "wikidata": "Q164535",
+      "deces": {
+        "date": "1997-09-07",
+        "lieu": "Rabat (Maroc)"
+      },
+      "id": "CD-personne-mobutu",
+      "sources": [
+        "S54",
+        "S9",
+        "S10",
+        "S11",
+        "S96"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet politique et mémoriel : présentation factuelle, positions et responsabilités attribuées avec sources ; validation par un historien congolais.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "nom": "Laurent-Désiré Kabila",
+      "description": "Né à Jadotville (Likasi), Laurent-Désiré Kabila s'engage contre le régime de Mobutu dès les années 1960. À la tête de l'Alliance des forces démocratiques pour la libération du Congo, il entre à Kinshasa en mai 1997 et devient président. Il est assassiné en janvier 2001 par un garde du corps selon la BBC.",
+      "naissance": {
+        "date": "1939-11-27",
+        "lieu": "Jadotville (Likasi)"
+      },
+      "roles": [
+        "chef d'État",
+        "chef rebelle"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "wikidata": "Q135547",
+      "deces": {
+        "date": "2001-01-16",
+        "lieu": "Kinshasa"
+      },
+      "id": "CD-personne-l-d-kabila",
+      "sources": [
+        "S55",
+        "S9",
+        "S11",
+        "S97"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet politique et mémoriel : présentation factuelle, positions et responsabilités attribuées avec sources ; validation par un historien congolais.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "evenements": [
+    {
+      "titre": "Les os d'Ishango, témoins d'une culture préhistorique",
+      "date": "-017973-01-01",
+      "date_affichee": "vers 18 000 av. J.-C. (estimation)",
+      "precision": "siecle",
+      "description": "Deux os gravés découverts sur la rive du lac Édouard par Jean de Heinzelin sont datés d'environ 20 000 ans, d'après Wikipédia. Publiés en 1957, ils sont devenus célèbres comme possible trace d'un calcul préhistorique ; cette lecture mathématique est critiquée par certains auteurs.",
+      "acteurs": [
+        "Jean de Heinzelin"
+      ],
+      "regions": [
+        "lac Édouard"
+      ],
+      "id": "CD-evenement-ishango",
+      "sources": [
+        "S65",
+        "S17"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Datation incertaine : à confirmer auprès de l'Institut royal des sciences naturelles de Belgique."
+      }
+    },
+    {
+      "titre": "Occupations anciennes de la dépression de Kamalondo",
+      "date": "0650-01-01",
+      "date_affichee": "VIIe siècle",
+      "precision": "siecle",
+      "description": "Une cinquantaine de sites archéologiques sur les rives de la Lualaba témoignent d'une occupation dense dès le VIIe siècle, par des populations issues de l'expansion bantoue. Wikipédia distingue le Kamilambien, puis le Kisalien ancien et classique, avant la formation du royaume luba.",
+      "acteurs": [
+        "populations de la Lualaba"
+      ],
+      "regions": [
+        "Haut-Lomami",
+        "Haut-Katanga"
+      ],
+      "id": "CD-evenement-kamilambien",
+      "sources": [
+        "S33"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia) ; chercher la référence archéologique."
+      }
+    },
+    {
+      "titre": "Essor du royaume du Kongo",
+      "date": "1250-01-01",
+      "date_affichee": "XIIIe siècle",
+      "precision": "siecle",
+      "description": "La BBC situe aux années 1200 le début de l'essor de l'empire du Kongo, centré dans l'actuelle Angola et incluant l'extrême ouest du Congo ainsi que des territoires autour des lacs Kisale et Upemba.",
+      "acteurs": [
+        "royaume du Kongo"
+      ],
+      "regions": [
+        "Kongo central"
+      ],
+      "id": "CD-evenement-kongo-essor",
+      "sources": [
+        "S9",
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Arrivée de Diogo Cão à l'embouchure du Congo",
+      "date": "1482-01-01",
+      "date_affichee": "1482",
+      "precision": "annee",
+      "description": "Le navigateur portugais Diogo Cão est le premier Européen à visiter la région du Congo, et les Portugais nouent des liens avec le roi du Kongo, selon la BBC.",
+      "acteurs": [
+        "Diogo Cão",
+        "roi du Kongo"
+      ],
+      "regions": [
+        "Kongo central"
+      ],
+      "id": "CD-evenement-diogo-cao",
+      "sources": [
+        "S9",
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Établissement de l'empire luba",
+      "date": "1585-01-01",
+      "date_affichee": "XVIe siècle",
+      "precision": "siecle",
+      "description": "Wikipédia fait remonter l'empire luba à 1585 et le suit jusqu'au XIXe siècle. À son apogée au XVIIe siècle, il s'étendait de la Bushimaie au nord de l'Angola et de la Lulua au nord-est de la Zambie.",
+      "acteurs": [
+        "Luba"
+      ],
+      "regions": [
+        "Haut-Katanga",
+        "Kasaï"
+      ],
+      "id": "CD-evenement-luba-empire",
+      "sources": [
+        "S33"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de 1585 : repère de Wikipédia à confirmer par une source savante."
+      }
+    },
+    {
+      "titre": "Exécution de Kimpa Vita",
+      "date": "1706-07-02",
+      "date_affichee": "2 juillet 1706",
+      "precision": "jour",
+      "description": "La prophétesse Kimpa Vita, fondatrice du mouvement antonien, est capturée par des capucins puis brûlée sur le bûcher. Elle prônait la réunification du royaume du Kongo, alors divisé et marqué par la présence portugaise.",
+      "acteurs": [
+        "Kimpa Vita",
+        "capucins"
+      ],
+      "regions": [
+        "royaume du Kongo"
+      ],
+      "id": "CD-evenement-kimpa-vita-mort",
+      "sources": [
+        "S42",
+        "S13",
+        "S84"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Exécution d'une figure religieuse : récit à valider avec des spécialistes de l'histoire kongo.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lieu actuel : Angola."
+      }
+    },
+    {
+      "titre": "Traversée du fleuve Congo par Stanley",
+      "date": "1874-01-01",
+      "date_affichee": "1874-1877",
+      "precision": "annee",
+      "description": "L'explorateur Henry Morton Stanley suit le cours du fleuve Congo jusqu'à l'Atlantique entre 1874 et 1877, d'après la BBC, avant d'être chargé par Léopold II d'établir son autorité dans le bassin.",
+      "fin": "1877-12-31",
+      "acteurs": [
+        "Henry Morton Stanley",
+        "Léopold II"
+      ],
+      "regions": [
+        "fleuve Congo"
+      ],
+      "id": "CD-evenement-stanley",
+      "sources": [
+        "S9",
+        "S76"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Conférence de Berlin et reconnaissance des prétentions de Léopold II",
+      "date": "1884-01-01",
+      "date_affichee": "1884-1885",
+      "precision": "annee",
+      "description": "Les puissances européennes réunies à Berlin reconnaissent les revendications de Léopold II sur le bassin du Congo, qui annonce en 1885 la création de l'État indépendant du Congo, dont il est le chef.",
+      "acteurs": [
+        "Léopold II"
+      ],
+      "regions": [
+        "bassin du Congo"
+      ],
+      "id": "CD-evenement-berlin",
+      "sources": [
+        "S9",
+        "S66"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet de conflit armé ou de mémoire douloureuse : présentation neutre, faits attribués à leurs sources ; validation par un historien.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "fin": "1885-12-31"
+    },
+    {
+      "titre": "Création de l'État indépendant du Congo",
+      "date": "1885-01-01",
+      "date_affichee": "1885",
+      "precision": "annee",
+      "description": "Le territoire de l'actuelle RDC devient une possession personnelle du roi des Belges Léopold II, jusqu'en 1908. La BBC rappelle que des millions de Congolais auraient été tués ou épuisés par le travail forcé sous son autorité.",
+      "fin": "1908-01-01",
+      "acteurs": [
+        "Léopold II"
+      ],
+      "regions": [
+        "bassin du Congo"
+      ],
+      "id": "CD-evenement-eic",
+      "sources": [
+        "S9",
+        "S66"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet de conflit armé ou de mémoire douloureuse : présentation neutre, faits attribués à leurs sources ; validation par un historien.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Conquête belge du Katanga",
+      "date": "1891-01-01",
+      "date_affichee": "1891-1892",
+      "precision": "annee",
+      "description": "Les forces de l'État indépendant du Congo conquièrent le Katanga en 1891-1892, selon la chronologie de la BBC.",
+      "fin": "1892-12-31",
+      "acteurs": [
+        "État indépendant du Congo"
+      ],
+      "regions": [
+        "Katanga"
+      ],
+      "id": "CD-evenement-katanga-1891",
+      "sources": [
+        "S9"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet de conflit armé ou de mémoire douloureuse : présentation neutre, faits attribués à leurs sources ; validation par un historien.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Reprise du Congo par l'État belge",
+      "date": "1908-01-01",
+      "date_affichee": "1908",
+      "precision": "annee",
+      "description": "Sous la pression des protestations contre les massacres et atrocités de l'administration de Léopold II, l'État belge annexe le Congo, qui devient le Congo belge, d'après la BBC.",
+      "acteurs": [
+        "Belgique"
+      ],
+      "id": "CD-evenement-annexion",
+      "sources": [
+        "S9",
+        "S31"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet de conflit armé ou de mémoire douloureuse : présentation neutre, faits attribués à leurs sources ; validation par un historien.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Début du ministère de Simon Kimbangu",
+      "date": "1921-04-06",
+      "date_affichee": "avril-septembre 1921",
+      "precision": "mois",
+      "description": "Simon Kimbangu entame à Nkamba un ministère de guérison et de prédication qui devient un grand réveil. Les autorités belges l'arrêtent et le jugent en 1921, et il reste détenu jusqu'à sa mort.",
+      "fin": "1921-09-01",
+      "acteurs": [
+        "Simon Kimbangu",
+        "autorités belges"
+      ],
+      "regions": [
+        "Nkamba"
+      ],
+      "id": "CD-evenement-kimbangu-1921",
+      "sources": [
+        "S14",
+        "S64"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Épisode religieux et colonial : validation par l'Église kimbanguiste.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Arrivée de la rumba dans les villes congolaises",
+      "date": "1937-01-01",
+      "date_affichee": "fin des années 1930",
+      "precision": "siecle",
+      "description": "La rumba s'implante à Kinshasa et à Brazzaville à la fin des années 1930, par la circulation de disques de musique cubaine, selon Wikipédia. Les premiers studios et orchestres locaux se développent ensuite, avec des labels fondés par des producteurs étrangers.",
+      "acteurs": [
+        "musiciens et producteurs de Kinshasa"
+      ],
+      "regions": [
+        "Kinshasa"
+      ],
+      "id": "CD-evenement-rumba-arrivee",
+      "sources": [
+        "S57",
+        "S12"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date indicative (fin des années 1930) à affiner."
+      }
+    },
+    {
+      "titre": "Débuts de l'orchestre African Jazz",
+      "date": "1953-01-01",
+      "date_affichee": "1953",
+      "precision": "annee",
+      "description": "Dans une période d'électrification des instruments, l'African Jazz de Joseph Kabasele devient la formation phare de la rumba congolaise, d'après RFI.",
+      "acteurs": [
+        "Joseph Kabasele"
+      ],
+      "regions": [
+        "Kinshasa"
+      ],
+      "id": "CD-evenement-african-jazz",
+      "sources": [
+        "S12",
+        "S45"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Publication du « plan de trente ans » de Van Bilsen",
+      "date": "1955-01-01",
+      "date_affichee": "1955",
+      "precision": "annee",
+      "description": "Le professeur belge Antoine Van Bilsen publie un plan pour accorder au Congo une autonomie accrue sur trente ans, d'après la BBC.",
+      "acteurs": [
+        "Antoine Van Bilsen"
+      ],
+      "id": "CD-evenement-van-bilsen",
+      "sources": [
+        "S9"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Émeutes nationalistes à Léopoldville",
+      "date": "1959-01-01",
+      "date_affichee": "1959",
+      "precision": "annee",
+      "description": "La Belgique commence à perdre le contrôle de la situation après de graves émeutes nationalistes à Léopoldville, l'actuelle Kinshasa, selon la BBC.",
+      "acteurs": [
+        "mouvements nationalistes"
+      ],
+      "regions": [
+        "Kinshasa"
+      ],
+      "id": "CD-evenement-emeutes-1959",
+      "sources": [
+        "S9"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet de conflit armé ou de mémoire douloureuse : présentation neutre, faits attribués à leurs sources ; validation par un historien.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Indépendance du Congo",
+      "date": "1960-06-30",
+      "date_affichee": "30 juin 1960",
+      "precision": "jour",
+      "description": "Le Congo devient indépendant de la Belgique le 30 juin 1960, jour que le pays célèbre comme fête nationale. Patrice Lumumba devient Premier ministre et Joseph Kasa-Vubu président.",
+      "acteurs": [
+        "Patrice Lumumba",
+        "Joseph Kasa-Vubu"
+      ],
+      "regions": [
+        "Kinshasa"
+      ],
+      "id": "CD-evenement-independance",
+      "sources": [
+        "S29",
+        "S9",
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Mutinerie de l'armée et sécession du Katanga",
+      "date": "1960-07-01",
+      "date_affichee": "juillet 1960",
+      "precision": "mois",
+      "description": "L'armée se mutine, Moïse Tshombe proclame l'indépendance du Katanga et des troupes belges sont envoyées. Le Conseil de sécurité de l'ONU décide d'envoyer des soldats pour rétablir l'ordre, selon la BBC. La sécession prend fin en 1963.",
+      "fin": "1963-12-31",
+      "acteurs": [
+        "Moïse Tshombe",
+        "Nations unies"
+      ],
+      "regions": [
+        "Katanga"
+      ],
+      "id": "CD-evenement-katanga-secession",
+      "sources": [
+        "S9",
+        "S69"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet de conflit armé ou de mémoire douloureuse : présentation neutre, faits attribués à leurs sources ; validation par un historien.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Révocation de Lumumba par Kasa-Vubu",
+      "date": "1960-09-01",
+      "date_affichee": "septembre 1960",
+      "precision": "mois",
+      "description": "Le président Joseph Kasa-Vubu démet Patrice Lumumba de ses fonctions de Premier ministre, d'après la BBC.",
+      "acteurs": [
+        "Joseph Kasa-Vubu",
+        "Patrice Lumumba"
+      ],
+      "regions": [
+        "Kinshasa"
+      ],
+      "id": "CD-evenement-lumumba-revoque",
+      "sources": [
+        "S9",
+        "S40"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet de conflit armé ou de mémoire douloureuse : présentation neutre, faits attribués à leurs sources ; validation par un historien.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Assassinat de Patrice Lumumba",
+      "date": "1961-01-17",
+      "date_affichee": "17 janvier 1961",
+      "precision": "jour",
+      "description": "Patrice Lumumba est assassiné près d'Élisabethville. La BBC rapporte que sa mort est survenue avec une complicité supposée de services américains et belges, un point qui fait l'objet d'enquêtes et de débats.",
+      "acteurs": [
+        "Patrice Lumumba"
+      ],
+      "regions": [
+        "Katanga"
+      ],
+      "id": "CD-evenement-lumumba-mort",
+      "sources": [
+        "S40",
+        "S9",
+        "S82"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet de conflit armé ou de mémoire douloureuse : présentation neutre, faits attribués à leurs sources ; validation par un historien.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date : Wikipédia et Wikidata (17 janvier) ; BBC place l'événement en février 1961."
+      }
+    },
+    {
+      "titre": "Rébellion Simba",
+      "date": "1961-01-01",
+      "date_affichee": "1961-1964",
+      "precision": "annee",
+      "description": "Une rébellion dirigée notamment par Pierre Mulele et Antoine Gizenga éclate contre le gouvernement central et contrôle brièvement l'est du pays depuis Stanleyville (Kisangani). Sœur Anuarite en est l'une des victimes en 1964.",
+      "fin": "1964-12-31",
+      "acteurs": [
+        "Pierre Mulele",
+        "Antoine Gizenga"
+      ],
+      "regions": [
+        "Kisangani",
+        "est du pays"
+      ],
+      "id": "CD-evenement-simba",
+      "sources": [
+        "S67",
+        "S51"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet de conflit armé ou de mémoire douloureuse : présentation neutre, faits attribués à leurs sources ; validation par un historien.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Prise de pouvoir de Mobutu",
+      "date": "1965-01-01",
+      "date_affichee": "1965",
+      "precision": "annee",
+      "description": "Le chef d'état-major Joseph-Désiré Mobutu s'empare du pouvoir en 1965, ouvrant plus de trois décennies de régime à parti unique.",
+      "acteurs": [
+        "Joseph-Désiré Mobutu"
+      ],
+      "regions": [
+        "Kinshasa"
+      ],
+      "id": "CD-evenement-mobutu-1965",
+      "sources": [
+        "S9",
+        "S10",
+        "S54"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet de conflit armé ou de mémoire douloureuse : présentation neutre, faits attribués à leurs sources ; validation par un historien.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Le pays devient le Zaïre",
+      "date": "1971-01-01",
+      "date_affichee": "1971",
+      "precision": "annee",
+      "description": "Mobutu rebaptise le pays Zaïre, se renomme Mobutu Sese Seko, fait du Katanga le Shaba et du fleuve Congo le fleuve Zaïre, dans le cadre d'une politique d'authenticité.",
+      "acteurs": [
+        "Mobutu Sese Seko"
+      ],
+      "regions": [
+        "tout le pays"
+      ],
+      "id": "CD-evenement-zaire",
+      "sources": [
+        "S9",
+        "S54"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Festival Zaïre 74 à Kinshasa",
+      "date": "1974-01-01",
+      "date_affichee": "1974",
+      "precision": "annee",
+      "description": "Le TP OK Jazz de Franco participe au festival Zaïre 74, organisé à l'occasion du combat de boxe entre Mohamed Ali et George Foreman à Kinshasa.",
+      "acteurs": [
+        "Franco",
+        "TP OK Jazz"
+      ],
+      "regions": [
+        "Kinshasa"
+      ],
+      "id": "CD-evenement-zaire74",
+      "sources": [
+        "S44"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Fin de l'interdiction du multipartisme",
+      "date": "1990-01-01",
+      "date_affichee": "1990",
+      "precision": "annee",
+      "description": "Mobutu accepte de lever l'interdiction du multipartisme et nomme un gouvernement de transition, tout en conservant des pouvoirs importants, d'après la BBC.",
+      "acteurs": [
+        "Mobutu Sese Seko"
+      ],
+      "id": "CD-evenement-multipartisme",
+      "sources": [
+        "S9"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Chute de Mobutu et entrée de Kabila à Kinshasa",
+      "date": "1997-05-16",
+      "date_affichee": "16 mai 1997",
+      "precision": "jour",
+      "description": "Mobutu quitte le pouvoir devant l'avancée de l'AFDL de Laurent-Désiré Kabila, soutenue notamment par le Rwanda. Le Zaïre reprend le nom de République démocratique du Congo.",
+      "acteurs": [
+        "Laurent-Désiré Kabila",
+        "AFDL",
+        "Mobutu Sese Seko"
+      ],
+      "regions": [
+        "Kinshasa",
+        "est du pays"
+      ],
+      "id": "CD-evenement-afdl-1997",
+      "sources": [
+        "S11",
+        "S9"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet de conflit armé ou de mémoire douloureuse : présentation neutre, faits attribués à leurs sources ; validation par un historien.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Début de la seconde guerre du Congo",
+      "date": "1998-08-01",
+      "date_affichee": "août 1998",
+      "precision": "mois",
+      "description": "Des rebelles soutenus par le Rwanda et l'Ouganda se soulèvent contre Laurent-Désiré Kabila ; le Zimbabwe, la Namibie et l'Angola envoient des troupes à son secours. L'est du pays passe en grande partie sous le contrôle des rebelles, selon la BBC.",
+      "acteurs": [
+        "gouvernement de Kinshasa",
+        "Rwanda",
+        "Ouganda",
+        "Zimbabwe",
+        "Angola",
+        "Namibie"
+      ],
+      "regions": [
+        "est du pays",
+        "Kinshasa"
+      ],
+      "id": "CD-evenement-guerre-1998",
+      "sources": [
+        "S9"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet de conflit armé ou de mémoire douloureuse : présentation neutre, faits attribués à leurs sources ; validation par un historien.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Accord de cessez-le-feu de Lusaka",
+      "date": "1999-07-01",
+      "date_affichee": "juillet 1999",
+      "precision": "mois",
+      "description": "Six pays africains impliqués dans la guerre signent un accord de cessez-le-feu à Lusaka ; les mouvements rebelles le signent le mois suivant.",
+      "acteurs": [
+        "États africains impliqués"
+      ],
+      "id": "CD-evenement-lusaka",
+      "sources": [
+        "S9"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet de conflit armé ou de mémoire douloureuse : présentation neutre, faits attribués à leurs sources ; validation par un historien.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Assassinat de Laurent-Désiré Kabila",
+      "date": "2001-01-16",
+      "date_affichee": "16 janvier 2001",
+      "precision": "jour",
+      "description": "Le président Laurent-Désiré Kabila est abattu par un de ses gardes du corps, et son fils Joseph Kabila lui succède.",
+      "acteurs": [
+        "Laurent-Désiré Kabila",
+        "Joseph Kabila"
+      ],
+      "regions": [
+        "Kinshasa"
+      ],
+      "id": "CD-evenement-kabila-assassinat",
+      "sources": [
+        "S9",
+        "S55"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet de conflit armé ou de mémoire douloureuse : présentation neutre, faits attribués à leurs sources ; validation par un historien.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Éruption du Nyiragongo sur Goma",
+      "date": "2002-01-01",
+      "date_affichee": "janvier 2002",
+      "precision": "mois",
+      "description": "Une éruption du volcan Nyiragongo détruit une grande partie de la ville de Goma, selon la BBC.",
+      "acteurs": [
+        "population de Goma"
+      ],
+      "regions": [
+        "Goma"
+      ],
+      "id": "CD-evenement-nyiragongo-2002",
+      "sources": [
+        "S9",
+        "S79"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Accord de paix et gouvernement de transition",
+      "date": "2003-06-01",
+      "date_affichee": "décembre 2002 - juin 2003",
+      "precision": "annee",
+      "description": "Après un accord signé en Afrique du Sud en décembre 2002 entre le gouvernement et les principaux groupes rebelles, un gouvernement de transition est nommé en 2003 en vue d'élections.",
+      "acteurs": [
+        "Joseph Kabila",
+        "mouvements rebelles"
+      ],
+      "id": "CD-evenement-transition",
+      "sources": [
+        "S9"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet de conflit armé ou de mémoire douloureuse : présentation neutre, faits attribués à leurs sources ; validation par un historien.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Nouvelle Constitution et premières élections libres",
+      "date": "2006-02-01",
+      "date_affichee": "février 2006",
+      "precision": "mois",
+      "description": "Une nouvelle Constitution entre en vigueur en février 2006 et le pays adopte un nouveau drapeau. En juillet 2006, des élections présidentielle et législatives, les premières libres depuis quatre décennies, sont organisées.",
+      "acteurs": [
+        "population congolaise"
+      ],
+      "id": "CD-evenement-constitution-2006",
+      "sources": [
+        "S9",
+        "S29"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Remise du Musée national de la RDC",
+      "date": "2019-06-14",
+      "date_affichee": "14 juin 2019",
+      "precision": "jour",
+      "description": "Le Musée national de la République démocratique du Congo, construit à Kinshasa avec des fonds coréens, est officiellement remis au gouvernement congolais, avec une capacité de 12 000 objets.",
+      "acteurs": [
+        "Gouvernement congolais",
+        "KOICA"
+      ],
+      "regions": [
+        "Kinshasa"
+      ],
+      "id": "CD-evenement-mnrdc-2019",
+      "sources": [
+        "S74",
+        "S107"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Inscription de la rumba congolaise à l'UNESCO",
+      "date": "2021-12-01",
+      "date_affichee": "décembre 2021",
+      "precision": "mois",
+      "description": "La rumba congolaise est inscrite sur la Liste représentative du patrimoine culturel immatériel de l'humanité, à l'initiative conjointe de la RDC et de la République du Congo.",
+      "acteurs": [
+        "RDC",
+        "République du Congo",
+        "UNESCO"
+      ],
+      "regions": [
+        "Kinshasa",
+        "Brazzaville"
+      ],
+      "id": "CD-evenement-rumba-unesco",
+      "sources": [
+        "S7",
+        "S8",
+        "S57"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Prix Nobel de la paix pour Denis Mukwege",
+      "date": "2018-01-01",
+      "date_affichee": "2018",
+      "precision": "annee",
+      "description": "Le prix Nobel de la paix 2018 est attribué à Denis Mukwege, avec Nadia Murad, pour leurs efforts contre l'usage de la violence sexuelle comme arme de guerre.",
+      "acteurs": [
+        "Denis Mukwege",
+        "Nadia Murad"
+      ],
+      "regions": [
+        "Bukavu"
+      ],
+      "id": "CD-evenement-nobel-mukwege",
+      "sources": [
+        "S15",
+        "S43"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "oeuvres": [
+    {
+      "titre": "Crucifix kongo",
+      "type": "sculpture",
+      "description": "Ce crucifix de laiton daté du XVIe-XVIIe siècle, avec des ajouts postérieurs, vient de la région côtière de l'actuelle RDC, de l'Angola ou du Congo-Brazzaville. Il illustre la rencontre entre le christianisme et l'art kongo après l'arrivée des Portugais. Le Met le catalogue sous « Kongo peoples ».",
+      "communaute": "Kongo",
+      "materiaux": "laiton, alliage de cuivre, bronze, bois",
+      "periode": "16th–17th century with later additions",
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "1999.295.8",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/318324",
+      "droits": "Notice : Met Museum Open Access (CC0) ; image domaine public (CC0)",
+      "id": "CD-oeuvre-crucifix-kongo",
+      "sources": [
+        "S20",
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Provenance géographique donnée comme incertaine par le Met (RDC, Angola ou Congo-Brazzaville)."
+      }
+    },
+    {
+      "titre": "Lupona (siège royal luba)",
+      "type": "sculpture",
+      "description": "Siège de cour luba porté par une figure féminine, daté de la fin du XIXe ou du début du XXe siècle. Il appartient à l'art de cour du royaume luba, où la figure féminine soutient le siège de la royauté.",
+      "communaute": "Luba",
+      "materiaux": "bois, perles de verre, fibre de coton",
+      "periode": "Late 19th century–early 20th century",
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "1978.412.317",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/310760",
+      "droits": "Notice : Met Museum Open Access (CC0) ; image domaine public (CC0)",
+      "id": "CD-oeuvre-lupona-luba",
+      "sources": [
+        "S21",
+        "S33"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Siège de cour : lien possible avec des savoirs royaux ; description limitée, validation luba à prévoir.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Lukombé (tambour à fente)",
+      "type": "instrument",
+      "description": "Tambour à fente en bois et métal, daté d'environ 1900 et attribué aux Tetela, au Kasaï ou aux Kusu. Le Met le classe parmi les idiophones frappés.",
+      "communaute": "Tetela, Kasaï ou Kusu",
+      "materiaux": "bois, métal",
+      "periode": "ca. 1900",
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "2009.498",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/506173",
+      "droits": "Notice : Met Museum Open Access (CC0) ; image domaine public (CC0)",
+      "id": "CD-oeuvre-lukombe-tetela",
+      "sources": [
+        "S22",
+        "S40"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Description d'usage à confirmer ; seule la fiche du Met a été lue pour l'objet."
+      }
+    },
+    {
+      "titre": "Panneau de prestige kuba",
+      "type": "textile",
+      "description": "Panneau tissé en fibres de raphia et brodé en velours coupé, daté de la fin du XIXe ou du début du XXe siècle. Les textiles de ce type, aux motifs géométriques, étaient portés par des personnes de rang dans le royaume kuba et sont parmi les plus reconnus de l'art du centre du pays.",
+      "communaute": "Kuba",
+      "materiaux": "fibres de raphia, teintures végétales",
+      "periode": "Late 19th–early 20th century",
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "2017.683.9",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/768379",
+      "droits": "Notice : Met Museum Open Access (CC0) ; image non libre : pas d'image reprise ici",
+      "id": "CD-oeuvre-panneau-kuba",
+      "sources": [
+        "S23",
+        "S35"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Usage social des panneaux à confirmer avec une source ethnographique."
+      }
+    },
+    {
+      "titre": "Domu (harpe mangbetu)",
+      "type": "instrument",
+      "description": "Harpe de corps en bois et peau, cordes végétales et laiton, datée du XIXe siècle ou de la première moitié du XXe siècle. Elle appartient à la tradition musicale de cour des Mangbetu, au nord-est du pays.",
+      "communaute": "Mangbetu",
+      "materiaux": "bois, peau, fibres végétales, laiton",
+      "periode": "19th–first half of 20th century",
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "1978.412.412",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/310841",
+      "droits": "Notice : Met Museum Open Access (CC0) ; image non libre : pas d'image reprise ici",
+      "id": "CD-oeuvre-domu-mangbetu",
+      "sources": [
+        "S24"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Seule la fiche du Met a été lue pour cet objet ; ajouter une source sur la musique de cour mangbetu."
+      }
+    },
+    {
+      "titre": "Kifwebe kilume (masque masculin songye)",
+      "type": "masque",
+      "description": "Masque de bois pigmenté à stries, daté du XIXe-XXe siècle, qui appartient aux sociétés kifwebe des Songye. Le terme kilume désigne la forme dite masculine.",
+      "communaute": "Songye",
+      "materiaux": "bois, pigment",
+      "periode": "19th–20th century",
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "1978.412.456",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/310919",
+      "droits": "Notice : Met Museum Open Access (CC0) ; image non libre : pas d'image reprise ici",
+      "id": "CD-oeuvre-kifwebe-kilume",
+      "sources": [
+        "S25",
+        "S60"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Masque lié à une société initiatique : ne pas expliciter les usages réservés ; validation songye avant publication.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Lukasa (tablette mémorielle luba)",
+      "type": "sculpture",
+      "description": "Tablette de bois utilisée comme aide-mémoire par les historiens de cour luba. Elle est créée et protégée par la société Bambudye et sert à raconter l'histoire du royaume.",
+      "communaute": "Luba",
+      "materiaux": "bois",
+      "periode": "19th–mid-20th century",
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "1977.467.3",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/690570",
+      "droits": "Notice : Met Museum Open Access (CC0) ; image non libre : pas d'image reprise ici",
+      "id": "CD-oeuvre-lukasa-luba",
+      "sources": [
+        "S26",
+        "S61"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Objet de savoir réservé : ne pas décrire la lecture des motifs ; validation luba obligatoire.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Gikhokho (pendentif-masque pende)",
+      "type": "bijou",
+      "description": "Petit pendentif d'ivoire à l'image d'un masque, daté du début du XXe siècle, porté comme ornement chez les Pende.",
+      "communaute": "Pende",
+      "materiaux": "ivoire",
+      "periode": "early 20th century",
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "1978.412.562",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/311023",
+      "droits": "Notice : Met Museum Open Access (CC0) ; image non libre : pas d'image reprise ici",
+      "id": "CD-oeuvre-gikhokho-pende",
+      "sources": [
+        "S27"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "titre": "Os d'Ishango",
+      "type": "sculpture",
+      "description": "Deux os gravés d'encoches, longs d'environ 10 et 14 cm, découverts dans les années 1950 sur la rive du lac Édouard. Ils sont datés d'environ 20 000 ans et interprétés par certains comme une notation arithmétique, ce que d'autres contestent. Ils sont visibles à l'Institut royal des sciences naturelles de Belgique à Bruxelles, selon BibNum.",
+      "communaute": "populations préhistoriques d'Ishango",
+      "materiaux": "os, fragment de quartz",
+      "periode": "vers 20 000 ans",
+      "institution": "Institut royal des sciences naturelles de Belgique, Bruxelles (selon BibNum ; Wikipédia mentionne aussi le Musée royal de l'Afrique centrale)",
+      "url_notice": "https://fr.wikipedia.org/wiki/Os_d'Ishango",
+      "droits": "Pas d'image reprise ; notice de l'institution à identifier",
+      "id": "CD-oeuvre-os-ishango",
+      "sources": [
+        "S65",
+        "S17",
+        "S109"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Institution détentrice à confirmer (RBINS ou MRAC)."
+      },
+      "wikidata": "Q1077717"
+    },
+    {
+      "titre": "Mario",
+      "type": "musique",
+      "description": "Chanson de Franco et du TP OK Jazz sortie en 1985, qui raconte l'histoire d'un gigolo vivant chez une femme plus âgée. C'est son plus grand succès, et le titre a été repris par le groupe Africando en 2006.",
+      "createur": "Franco Luambo",
+      "periode": "1985",
+      "url_notice": "https://fr.wikipedia.org/wiki/Franco_Luambo",
+      "droits": "Œuvre protégée ; pas d'extrait reproduit",
+      "id": "CD-oeuvre-mario-franco",
+      "sources": [
+        "S44"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Notice Wikipédia seulement ; chercher un catalogue de disque."
+      }
+    },
+    {
+      "titre": "The Invention of Africa",
+      "type": "livre",
+      "description": "Essai de Valentin-Yves Mudimbe publié en 1988, considéré comme l'une des œuvres majeures de la pensée postcoloniale, traduit en français en 2021.",
+      "createur": "Valentin-Yves Mudimbe",
+      "periode": "1988",
+      "url_notice": "https://fr.wikipedia.org/wiki/Valentin-Yves_Mudimbe",
+      "droits": "Œuvre protégée",
+      "id": "CD-oeuvre-invention-africa",
+      "sources": [
+        "S48"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Notice Wikipédia seulement."
+      }
+    },
+    {
+      "titre": "Kasalà. Chant héroïque luba",
+      "type": "livre",
+      "description": "Ouvrage de Clémentine Nzuji, publié en 1974 aux Presses universitaires du Zaïre à Lubumbashi, consacré à un chant héroïque luba. Il relève de la littérature orale et des panégyriques.",
+      "createur": "Clémentine Nzuji",
+      "periode": "1974",
+      "institution": "Presses universitaires du Zaïre (éditeur)",
+      "url_notice": "https://fr.wikipedia.org/wiki/Clémentine_Nzuji",
+      "droits": "Œuvre protégée",
+      "id": "CD-oeuvre-kasala",
+      "sources": [
+        "S56"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Référence bibliographique issue de Wikipédia ; vérifier en catalogue."
+      }
+    },
+    {
+      "titre": "Tchebele",
+      "type": "musique",
+      "description": "Chanson de Tshala Muana sortie en 1981, qui marque, selon Wikipédia, l'origine moderne du style mutuashi.",
+      "createur": "Tshala Muana",
+      "periode": "1981",
+      "url_notice": "https://fr.wikipedia.org/wiki/Mutuashi",
+      "droits": "Œuvre protégée",
+      "id": "CD-oeuvre-tchebele",
+      "sources": [
+        "S59"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Notice Wikipédia seulement."
+      }
+    }
+  ],
+  "proverbes": [
+    {
+      "texte_original": "Bonenge okoikyaki la nzala, nda lisala, ntokote.",
+      "langue": "lomongo",
+      "traduction": "L'arbre bonenge, qui t'a sauvé de la faim en temps de disette, ne l'abats pas quand tu défriches ton champ.",
+      "sens": "Un bienfait appelle la reconnaissance : on ne détruit pas ce qui nous a aidés.",
+      "publication": "E. A. Ruskin (comp.), Mongo Proverbs and Fables, Bongandanga (Congo belge), Congo Balolo Mission Press, 1921, n° 2 (numérisation Internet Archive).",
+      "note": "Graphie lue sur une numérisation OCR (signes diacritiques absents) ; traduction française rédigée par MonBaobab d'après la version anglaise de Ruskin ; à contrôler par un locuteur du lomongo.",
+      "id": "CD-proverbe-lomongo-bonenge",
+      "sources": [
+        "S18"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "texte_original": "Ecim'eki nyango owak'a njwa, wuta nk'eko ?",
+      "langue": "lomongo",
+      "traduction": "L'étang où un serpent a tué ta mère, y retournes-tu ?",
+      "sens": "Il faut tirer leçon de l'expérience des autres et éviter les lieux dangereux.",
+      "publication": "E. A. Ruskin (comp.), Mongo Proverbs and Fables, Bongandanga (Congo belge), Congo Balolo Mission Press, 1921, n° 6 (numérisation Internet Archive).",
+      "note": "Transcription OCR approximative ; traduction française rédigée d'après la version anglaise ; à contrôler par un locuteur.",
+      "id": "CD-proverbe-lomongo-etang",
+      "sources": [
+        "S18"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "texte_original": "Mbwa ntainelaka ofa nkolo, ainela nkolo ekae.",
+      "langue": "lomongo",
+      "traduction": "Un chien ne fait pas fête à quelqu'un qui n'est pas son maître : il fait fête à son maître.",
+      "sens": "Même un chien reconnaît son bienfaiteur.",
+      "publication": "E. A. Ruskin (comp.), Mongo Proverbs and Fables, Bongandanga (Congo belge), Congo Balolo Mission Press, 1921, n° 10 (numérisation Internet Archive).",
+      "note": "Transcription OCR ; traduction rédigée d'après l'anglais ; à contrôler par un locuteur.",
+      "id": "CD-proverbe-lomongo-chien",
+      "sources": [
+        "S18"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "texte_original": "Bona oki'okala nk'akwela tsa ; ok'afeka oek'ekela.",
+      "langue": "lomongo",
+      "traduction": "Le premier enfant est tombé dans le feu ; pour le suivant, on dresse un écran devant le foyer.",
+      "sens": "L'expérience enseigne la prudence.",
+      "publication": "E. A. Ruskin (comp.), Mongo Proverbs and Fables, Bongandanga (Congo belge), Congo Balolo Mission Press, 1921, n° 12 (numérisation Internet Archive).",
+      "note": "Transcription OCR approximative ; traduction rédigée d'après l'anglais ; à contrôler par un locuteur.",
+      "id": "CD-proverbe-lomongo-feu",
+      "sources": [
+        "S18"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "texte_original": "Namba ntalembwaka wembo'okae.",
+      "langue": "lomongo",
+      "traduction": "L'éléphant ne se lasse pas de sa trompe.",
+      "sens": "Un fardeau utile devient léger.",
+      "publication": "E. A. Ruskin (comp.), Mongo Proverbs and Fables, Bongandanga (Congo belge), Congo Balolo Mission Press, 1921, n° 16 (numérisation Internet Archive).",
+      "note": "Transcription OCR approximative ; traduction rédigée d'après l'anglais ; à contrôler par un locuteur.",
+      "id": "CD-proverbe-lomongo-elephant",
+      "sources": [
+        "S18"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "texte_original": "Matu makulila ngolo, kuvioka mpe ntu.",
+      "langue": "kikongo (variantes vili et yombe)",
+      "traduction": "Les oreilles peuvent grandir, mais elles ne dépassent pas la tête.",
+      "sens": "Formule dite à un enfant qui s'obstine ou désobéit, pour lui rappeler de rester à sa place.",
+      "publication": "Aimée Noëlle Gomas et Bakouma Malanda, « Portée éducationnelle et rhétorique des proverbes dans la société ancestrale kongo », Cahiers Africains de Rhétorique, 2022, p. 237 (proverbes vili et yombe, n° 1).",
+      "note": "Article centré sur les Kongo de la République du Congo (Vili, Yombe) ; le proverbe est rapporté comme commun aux Vili, Suundi et Nkongo-Boko. Rattachement à la RDC à confirmer par une source des communautés yombe du Kongo central.",
+      "id": "CD-proverbe-kikongo-oreilles",
+      "sources": [
+        "S19"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "texte_original": "Kweenda ku maloongo kufula.",
+      "langue": "kikongo (variantes vili et yombe)",
+      "traduction": "Avant d'entreprendre un long voyage, il faut d'abord se renseigner.",
+      "sens": "Il faut se renseigner avant une longue entreprise.",
+      "publication": "Aimée Noëlle Gomas et Bakouma Malanda, « Portée éducationnelle et rhétorique des proverbes dans la société ancestrale kongo », Cahiers Africains de Rhétorique, 2022, p. 237 (proverbes vili et yombe, n° 4).",
+      "note": "Même remarque : article centré sur la République du Congo.",
+      "id": "CD-proverbe-kikongo-voyage",
+      "sources": [
+        "S19"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "titre": "Population totale, RD Congo (SP.POP.TOTL)",
+      "institution": "Banque mondiale",
+      "url": "https://api.worldbank.org/v2/country/COD/indicator/SP.POP.TOTL?format=json&per_page=5",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S2",
+      "titre": "Parc national des Virunga",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/63",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (description)",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S3",
+      "titre": "Parc national de la Garamba",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/136",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (description)",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S4",
+      "titre": "Parc national de la Salonga",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/280",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (description)",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S5",
+      "titre": "Réserve de faune à okapis",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/718",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (description)",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S6",
+      "titre": "Parc national de Kahuzi-Biega",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/137",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (description)",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S7",
+      "titre": "Congolese rumba (inscription 2021, Liste représentative)",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/congolese-rumba-01711",
+      "type": "unesco",
+      "licence": "UNESCO : conditions d'utilisation du site",
+      "consulte_le": "2026-11-21",
+      "annee": 2021
+    },
+    {
+      "id": "S8",
+      "titre": "République démocratique du Congo : États parties, Convention de 2003",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/state/democratic-republic-of-the-congo-CD",
+      "type": "unesco",
+      "licence": "UNESCO : conditions d'utilisation du site",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S9",
+      "titre": "Democratic Republic of Congo profile : Timeline",
+      "institution": "BBC News",
+      "url": "https://www.bbc.com/news/world-africa-13286306",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2023
+    },
+    {
+      "id": "S10",
+      "titre": "Mobutu Sese Seko (BBC Politics 97)",
+      "institution": "BBC News",
+      "url": "https://www.bbc.co.uk/news/special/politics97/news/09/0908/mobutu.shtml",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 1997
+    },
+    {
+      "id": "S11",
+      "titre": "16 mai 1997 : le Rwanda renverse Mobutu",
+      "institution": "RFI",
+      "url": "https://www.rfi.fr/fr/afrique/20170517-16-mai-1997-le-rwanda-renverse-mobutu",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2017
+    },
+    {
+      "id": "S12",
+      "titre": "La rumba congolaise, indémodable ?",
+      "institution": "RFI Musique",
+      "url": "https://musique.rfi.fr/musique-africaine/20210414-rumba-congolaise-indemodable",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2021
+    },
+    {
+      "id": "S13",
+      "titre": "Kimpa Vita, l'étoile révolutionnaire du Kongo",
+      "institution": "Jeune Afrique",
+      "url": "https://www.jeuneafrique.com/444727/societe/kimpa-vita-lespoir-kongo/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2018
+    },
+    {
+      "id": "S14",
+      "titre": "Kimbangu, Simon",
+      "institution": "Dictionary of African Christian Biography",
+      "url": "https://dacb.org/stories/democratic-republic-of-congo/kimbangu-simon/",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés (reproduit avec permission)",
+      "consulte_le": "2026-11-21",
+      "annee": 2026,
+      "auteur": "Mark R. Lipschutz et R. Kent Rasmussen"
+    },
+    {
+      "id": "S15",
+      "titre": "Denis Mukwege : Facts (Prix Nobel de la paix 2018)",
+      "institution": "Fondation Nobel",
+      "url": "https://www.nobelprize.org/prizes/peace/2018/mukwege/facts/",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2018
+    },
+    {
+      "id": "S16",
+      "titre": "Denis Mukwege : Biographical",
+      "institution": "Fondation Nobel",
+      "url": "https://www.nobelprize.org/prizes/peace/2018/mukwege/biographical/",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2018
+    },
+    {
+      "id": "S17",
+      "titre": "Les fables d'Ishango, ou l'irrésistible tentation de la mathématique-fiction",
+      "institution": "BibNum (OpenEdition Journals)",
+      "url": "https://journals.openedition.org/bibnum/889",
+      "type": "article_scientifique",
+      "licence": "accès libre, tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2010
+    },
+    {
+      "id": "S18",
+      "titre": "Mongo proverbs and fables",
+      "institution": "Congo Balolo Mission Press, Bongandanga (numérisation Internet Archive)",
+      "url": "https://archive.org/details/mongoproverbsfab00ruskrich",
+      "type": "livre",
+      "licence": "domaine public",
+      "consulte_le": "2026-11-21",
+      "annee": 1921,
+      "auteur": "E. A. Ruskin"
+    },
+    {
+      "id": "S19",
+      "titre": "Portée éducationnelle et rhétorique des proverbes dans la société ancestrale kongo",
+      "institution": "Cahiers Africains de Rhétorique (Internet Archive)",
+      "url": "https://archive.org/details/car-article-19",
+      "type": "article_scientifique",
+      "licence": "CC BY-NC-ND 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2022,
+      "auteur": "Aimée Noëlle Gomas et Bakouma Malanda"
+    },
+    {
+      "id": "S20",
+      "titre": "The Met Collection : Crucifix (Kongo) (objet 318324)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/318324",
+      "type": "musee",
+      "licence": "Notice : Open Access du Met (CC0) ; images : voir indicateur isPublicDomain",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S21",
+      "titre": "The Met Collection : Lupona (siège royal luba) (objet 310760)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/310760",
+      "type": "musee",
+      "licence": "Notice : Open Access du Met (CC0) ; images : voir indicateur isPublicDomain",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S22",
+      "titre": "The Met Collection : Lukombé (tambour à fente) (objet 506173)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/506173",
+      "type": "musee",
+      "licence": "Notice : Open Access du Met (CC0) ; images : voir indicateur isPublicDomain",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S23",
+      "titre": "The Met Collection : Prestige Panel (kuba) (objet 768379)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/768379",
+      "type": "musee",
+      "licence": "Notice : Open Access du Met (CC0) ; images : voir indicateur isPublicDomain",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S24",
+      "titre": "The Met Collection : Domu (harpe mangbetu) (objet 310841)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/310841",
+      "type": "musee",
+      "licence": "Notice : Open Access du Met (CC0) ; images : voir indicateur isPublicDomain",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S25",
+      "titre": "The Met Collection : Kifwebe kilume (masque songye) (objet 310919)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/310919",
+      "type": "musee",
+      "licence": "Notice : Open Access du Met (CC0) ; images : voir indicateur isPublicDomain",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S26",
+      "titre": "The Met Collection : Lukasa (tablette mémorielle luba) (objet 690570)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/690570",
+      "type": "musee",
+      "licence": "Notice : Open Access du Met (CC0) ; images : voir indicateur isPublicDomain",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S27",
+      "titre": "The Met Collection : Gikhokho (pendentif pende) (objet 311023)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/311023",
+      "type": "musee",
+      "licence": "Notice : Open Access du Met (CC0) ; images : voir indicateur isPublicDomain",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S28",
+      "titre": "The Met Collection : Negbe (tablier mangbetu) (objet 320861)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/320861",
+      "type": "musee",
+      "licence": "Notice : Open Access du Met (CC0) ; images : voir indicateur isPublicDomain",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S29",
+      "titre": "Wikipédia : République démocratique du Congo",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/République_démocratique_du_Congo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S30",
+      "titre": "Wikipédia : Langues en République démocratique du Congo",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Langues_en_République_démocratique_du_Congo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S31",
+      "titre": "Wikipédia : Histoire de la République démocratique du Congo",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Histoire_de_la_République_démocratique_du_Congo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S32",
+      "titre": "Wikipédia : Royaume du Kongo",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Royaume_du_Kongo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S33",
+      "titre": "Wikipédia : Empire luba",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Empire_luba",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S34",
+      "titre": "Wikipédia : Bakongo",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Bakongo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S35",
+      "titre": "Wikipédia : Kuba (peuple)",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Kuba_(peuple)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S36",
+      "titre": "Wikipédia : Mongo (peuple)",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Mongo_(peuple)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S37",
+      "titre": "Wikipédia : Zandé (peuple)",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Azandé",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S38",
+      "titre": "Wikipédia : Tchokwés",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Tchokwés",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S39",
+      "titre": "Wikipédia : Lega (peuple)",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Lega_(peuple)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S40",
+      "titre": "Wikipédia : Patrice Lumumba",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Patrice_Lumumba",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S41",
+      "titre": "Wikipédia : Simon Kimbangu",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Simon_Kimbangu",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S42",
+      "titre": "Wikipédia : Kimpa Vita",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Dona_Béatrice",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S43",
+      "titre": "Wikipédia : Denis Mukwege",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Denis_Mukwege",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S44",
+      "titre": "Wikipédia : Franco Luambo",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Franco_Luambo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S45",
+      "titre": "Wikipédia : Grand Kallé",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Joseph_Kabasele",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S46",
+      "titre": "Wikipédia : Mbilia Bel",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Mbilia_Bel",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S47",
+      "titre": "Wikipédia : Tabu Ley Rochereau",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Tabu_Ley_Rochereau",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S48",
+      "titre": "Wikipédia : Valentin-Yves Mudimbe",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Valentin-Yves_Mudimbe",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S49",
+      "titre": "Wikipédia : Tshala Muana",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Tshala_Muana",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S50",
+      "titre": "Wikipédia : Julienne Lusenge",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Julienne_Lusenge",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S51",
+      "titre": "Wikipédia : Marie-Clémentine Anuarite Nengapeta",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Marie-Clémentine_Anuarite_Nengapeta",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S52",
+      "titre": "Wikipédia : Papa Wemba",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Papa_Wemba",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S53",
+      "titre": "Wikipédia : Chéri Samba",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Chéri_Samba",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S54",
+      "titre": "Wikipédia : Mobutu Sese Seko",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Mobutu_Sese_Seko",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S55",
+      "titre": "Wikipédia : Laurent-Désiré Kabila",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Laurent-Désiré_Kabila",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S56",
+      "titre": "Wikipédia : Clémentine Nzuji",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Clémentine_Nzuji",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S57",
+      "titre": "Wikipédia : Rumba congolaise",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Rumba_congolaise",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S58",
+      "titre": "Wikipédia : Soukous",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Soukous",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S59",
+      "titre": "Wikipédia : Mutuashi",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Mutuashi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S60",
+      "titre": "Wikipédia : Kifwebe",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Kifwebe",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S61",
+      "titre": "Wikipédia : Lukasa",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Lukasa",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S62",
+      "titre": "Wikipédia : Nkisi",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Nkisi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S63",
+      "titre": "Wikipédia : Bande dessinée congolaise",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Bande_dessinée_congolaise",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S64",
+      "titre": "Wikipédia : Église kimbanguiste",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Kimbanguisme",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S65",
+      "titre": "Wikipédia : Os d'Ishango",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Os_d'Ishango",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S66",
+      "titre": "Wikipédia : État indépendant du Congo",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/État_indépendant_du_Congo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S67",
+      "titre": "Wikipédia : Rébellion Simba",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Rébellion_Simba",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S68",
+      "titre": "Wikipédia : Kinshasa",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Kinshasa",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S69",
+      "titre": "Wikipédia : Lubumbashi",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Lubumbashi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S70",
+      "titre": "Wikipédia : Kisangani",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Kisangani",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S71",
+      "titre": "Wikipédia : Matadi",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Matadi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S72",
+      "titre": "Wikipédia : Goma",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Goma",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S73",
+      "titre": "Wikipédia : Bukavu",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Bukavu",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S74",
+      "titre": "Wikipédia : Musée national de la République démocratique du Congo",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Musée_national_de_la_République_démocratique_du_Congo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S75",
+      "titre": "Wikipédia : Parc national de l'Upemba",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Parc_national_de_l'Upemba",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S76",
+      "titre": "Wikipédia : Chutes Boyoma",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Chutes_Boyoma",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S77",
+      "titre": "Wikipédia : Académie des beaux-arts de Kinshasa",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Académie_des_beaux-arts_de_Kinshasa",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S78",
+      "titre": "Wikipédia : Musée national de Lubumbashi",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Musée_national_de_Lubumbashi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S79",
+      "titre": "Wikipédia : Nyiragongo",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Nyiragongo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S80",
+      "titre": "Wikipédia : Nande",
+      "institution": "Wikipédia (fr)",
+      "url": "https://fr.wikipedia.org/wiki/Nande",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S81",
+      "titre": "Wikidata Q974 (République démocratique du Congo)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q974",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S82",
+      "titre": "Wikidata Q161672 (Patrice Lumumba)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q161672",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S83",
+      "titre": "Wikidata Q742357 (Simon Kimbangu)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q742357",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S84",
+      "titre": "Wikidata Q467347 (Kimpa Vita)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q467347",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S85",
+      "titre": "Wikidata Q1187542 (Denis Mukwege)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q1187542",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S86",
+      "titre": "Wikidata Q1378892 (Franco Luambo)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q1378892",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S87",
+      "titre": "Wikidata Q3113632 (Grand Kallé)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q3113632",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S88",
+      "titre": "Wikidata Q3303525 (Mbilia Bel)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q3303525",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S89",
+      "titre": "Wikidata Q2743754 (Tabu Ley Rochereau)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q2743754",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S90",
+      "titre": "Wikidata Q3056528 (V.-Y. Mudimbe)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q3056528",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S91",
+      "titre": "Wikidata Q2620872 (Tshala Muana)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q2620872",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S92",
+      "titre": "Wikidata Q23021435 (Julienne Lusenge)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q23021435",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S93",
+      "titre": "Wikidata Q466996 (Anuarite Nengapeta)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q466996",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S94",
+      "titre": "Wikidata Q736274 (Papa Wemba)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q736274",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S95",
+      "titre": "Wikidata Q2617109 (Chéri Samba)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q2617109",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S96",
+      "titre": "Wikidata Q164535 (Mobutu Sese Seko)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q164535",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S97",
+      "titre": "Wikidata Q135547 (Laurent-Désiré Kabila)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q135547",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S98",
+      "titre": "Wikidata Q2980742 (Clémentine Nzuji)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q2980742",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S99",
+      "titre": "Wikidata Q3838 (Kinshasa)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q3838",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S100",
+      "titre": "Wikidata Q187593 (Lubumbashi)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q187593",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S101",
+      "titre": "Wikidata Q146723 (Kisangani)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q146723",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S102",
+      "titre": "Wikidata Q211073 (Matadi)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q211073",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S103",
+      "titre": "Wikidata Q204381 (Goma)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q204381",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S104",
+      "titre": "Wikidata Q222279 (Bukavu)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q222279",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S105",
+      "titre": "Wikidata Q263406 (parc national de l'Upemba)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q263406",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S106",
+      "titre": "Wikidata Q38417 (chutes Boyoma)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q38417",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S107",
+      "titre": "Wikidata Q65600754 (musée national de la RDC)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q65600754",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S108",
+      "titre": "Wikidata Q16335725 (musée national de Lubumbashi)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q16335725",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S109",
+      "titre": "Wikidata Q1077717 (os d'Ishango)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q1077717",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S110",
+      "titre": "Glottolog : French [stan1290]",
+      "institution": "Max Planck Institute for Evolutionary Anthropology (Glottolog 5.4)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1290",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S111",
+      "titre": "Glottolog : Kinshasa Lingala [ling1263]",
+      "institution": "Max Planck Institute for Evolutionary Anthropology (Glottolog 5.4)",
+      "url": "https://glottolog.org/resource/languoid/id/ling1263",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S112",
+      "titre": "Glottolog : Congo Swahili [cong1236]",
+      "institution": "Max Planck Institute for Evolutionary Anthropology (Glottolog 5.4)",
+      "url": "https://glottolog.org/resource/languoid/id/cong1236",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S113",
+      "titre": "Glottolog : Kituba (DRC) [kitu1246]",
+      "institution": "Max Planck Institute for Evolutionary Anthropology (Glottolog 5.4)",
+      "url": "https://glottolog.org/resource/languoid/id/kitu1246",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S114",
+      "titre": "Glottolog : Luba-Lulua [luba1249]",
+      "institution": "Max Planck Institute for Evolutionary Anthropology (Glottolog 5.4)",
+      "url": "https://glottolog.org/resource/languoid/id/luba1249",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S115",
+      "titre": "Glottolog : Mongo [mong1338]",
+      "institution": "Max Planck Institute for Evolutionary Anthropology (Glottolog 5.4)",
+      "url": "https://glottolog.org/resource/languoid/id/mong1338",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S116",
+      "titre": "Glottolog : Nande [nand1264]",
+      "institution": "Max Planck Institute for Evolutionary Anthropology (Glottolog 5.4)",
+      "url": "https://glottolog.org/resource/languoid/id/nand1264",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S117",
+      "titre": "Glottolog : Tetela [tete1250]",
+      "institution": "Max Planck Institute for Evolutionary Anthropology (Glottolog 5.4)",
+      "url": "https://glottolog.org/resource/languoid/id/tete1250",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S118",
+      "titre": "Glottolog : Zande [zand1248]",
+      "institution": "Max Planck Institute for Evolutionary Anthropology (Glottolog 5.4)",
+      "url": "https://glottolog.org/resource/languoid/id/zand1248",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S119",
+      "titre": "Glottolog : Luba-Katanga [luba1250]",
+      "institution": "Max Planck Institute for Evolutionary Anthropology (Glottolog 5.4)",
+      "url": "https://glottolog.org/resource/languoid/id/luba1250",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S120",
+      "titre": "Glottolog : Mangbetu [mang1394]",
+      "institution": "Max Planck Institute for Evolutionary Anthropology (Glottolog 5.4)",
+      "url": "https://glottolog.org/resource/languoid/id/mang1394",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S121",
+      "titre": "Glottolog : Alur [alur1250]",
+      "institution": "Max Planck Institute for Evolutionary Anthropology (Glottolog 5.4)",
+      "url": "https://glottolog.org/resource/languoid/id/alur1250",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S122",
+      "titre": "Glottolog : Lugbara [lugb1240]",
+      "institution": "Max Planck Institute for Evolutionary Anthropology (Glottolog 5.4)",
+      "url": "https://glottolog.org/resource/languoid/id/lugb1240",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S123",
+      "titre": "Glottolog : Songe [song1303]",
+      "institution": "Max Planck Institute for Evolutionary Anthropology (Glottolog 5.4)",
+      "url": "https://glottolog.org/resource/languoid/id/song1303",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S124",
+      "titre": "Glottolog : Shi [shii1238]",
+      "institution": "Max Planck Institute for Evolutionary Anthropology (Glottolog 5.4)",
+      "url": "https://glottolog.org/resource/languoid/id/shii1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S125",
+      "titre": "Glottolog : Chokwe [chok1245]",
+      "institution": "Max Planck Institute for Evolutionary Anthropology (Glottolog 5.4)",
+      "url": "https://glottolog.org/resource/languoid/id/chok1245",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S126",
+      "titre": "Glottolog : Efe [efee1239]",
+      "institution": "Max Planck Institute for Evolutionary Anthropology (Glottolog 5.4)",
+      "url": "https://glottolog.org/resource/languoid/id/efee1239",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S127",
+      "titre": "The Met Collection : Iginga (figure lega en ivoire) (objet 310999)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/310999",
+      "type": "musee",
+      "licence": "Notice : Open Access du Met (CC0)",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    }
+  ]
+}

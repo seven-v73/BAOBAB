@@ -1,0 +1,3963 @@
+{
+  "code": "NE",
+  "nom": "Niger",
+  "region": "ouest",
+  "wikidata": "Q1032",
+  "maj": "2026-11-21",
+  "pays": {
+    "nom_officiel": "République du Niger",
+    "capitale": "Niamey",
+    "langues_officielles": [
+      "Depuis la Charte de la refondation de mars 2025 (art. 12), aucune langue officielle n'est nommée : le haoussa est désigné langue nationale et le français est devenu langue de travail (sous la Constitution de 2010, le français était la langue officielle)"
+    ],
+    "langues_nationales": [
+      "haoussa",
+      "zarma-songhaï",
+      "tamajaq",
+      "fulfulde",
+      "kanouri",
+      "arabe dialectal",
+      "gourmantchéma",
+      "tubu",
+      "buduma",
+      "tasawaq",
+      "tagdal"
+    ],
+    "langues_de_travail": [
+      "français"
+    ],
+    "population": {
+      "valeur": 27917831,
+      "annee": 2025,
+      "source": "S36"
+    },
+    "superficie_km2": 1267000,
+    "monnaie": "Franc CFA (XOF, UEMOA)",
+    "resume": "Le Niger est un vaste pays enclavé du Sahel, bordé au nord par l'Algérie et la Libye, à l'est par le Tchad, au sud par le Nigeria et le Bénin, à l'ouest par le Burkina Faso et le Mali. Sa capitale est Niamey ; le nord est entièrement désertique, tandis que les cultures se concentrent dans une bande méridionale où vit l'essentiel de la population. Devenu indépendant le 3 août 1960, il abrite de nombreuses communautés, parmi lesquelles les Haoussa, les Zarma et Songhaï, les Touaregs, les Peuls, les Kanouri, les Toubou et les Gourmantché. Son patrimoine compte trois biens du patrimoine mondial (l'Aïr et le Ténéré, le centre historique d'Agadez, le complexe W-Arly-Pendjari) et deux éléments du patrimoine culturel immatériel, les parentés à plaisanterie et l'imzad. Depuis le coup d'État du 26 juillet 2023, le pays est dirigé par des autorités militaires et la Constitution de 2010 est suspendue.",
+    "sensible": true,
+    "note_sensibilite": "La dernière phrase du résumé touche à une situation politique en cours (régime militaire depuis juillet 2023) ; la formulation est volontairement factuelle et sourcée (RFI).",
+    "sources": [
+      "S37",
+      "S36",
+      "S45",
+      "S4",
+      "S7",
+      "S54",
+      "S34",
+      "S64",
+      "S33"
+    ]
+  },
+  "langues": [
+    {
+      "id": "NE-langue-haoussa",
+      "nom": "haoussa",
+      "description": "Langue tchadique parlée surtout dans le sud du pays, près de la frontière avec le Nigeria, et comprise très largement comme langue de communication. En mars 2025, la Charte de la refondation l'a désignée langue nationale, parmi les onze langues citées à l'article 12. Un recueil de proverbes de 1905 en donne une transcription en lettres latines.",
+      "famille": "Afro-asiatique > Tchadique > Tchadique occidental",
+      "glottocode": "haus1257",
+      "statut_linguistique": "nationale",
+      "ecritures": [
+        "latin"
+      ],
+      "wikidata": "Q56475",
+      "locuteurs": {
+        "valeur": "environ 47 % des Nigériens",
+        "annee": 2025,
+        "source": "S35"
+      },
+      "sources": [
+        "S32",
+        "S34",
+        "S35",
+        "S62"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-langue-zarma",
+      "nom": "zarma",
+      "description": "Langue songhaï de l'ouest du pays, autour de Niamey, de Dosso et de Tillabéri. Elle est la deuxième langue du pays par le nombre de locuteurs et a été utilisée pour des films comme Le Wazzou polygame d'Oumarou Ganda, tourné entièrement en zarma. Glottolog la classe dans le groupe songhaï oriental.",
+      "famille": "Songhaï > Songhaï oriental",
+      "glottocode": "zarm1239",
+      "statut_linguistique": "nationale",
+      "wikidata": "Q36990",
+      "locuteurs": {
+        "valeur": "environ un quart des Nigériens (zarma-songhaï)",
+        "annee": 2025,
+        "source": "S34"
+      },
+      "sources": [
+        "S32",
+        "S34",
+        "S40"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-langue-tamasheq",
+      "nom": "tamasheq",
+      "description": "Variété du touareg méridional parlée par des communautés touarègues du Niger. Elle s'écrit en tifinagh et en lettres latines, et un poète comme Hawad l'emploie pour son œuvre. Glottolog la classe parmi les langues touarègues méridionales.",
+      "famille": "Afro-asiatique > Berbère > Touareg > Touareg méridional",
+      "glottocode": "tama1365",
+      "statut_linguistique": "nationale",
+      "ecritures": [
+        "tifinagh",
+        "latin"
+      ],
+      "wikidata": "Q4670066",
+      "sources": [
+        "S32",
+        "S47",
+        "S25"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-langue-tamajeq-air",
+      "nom": "tamajeq de l'Aïr",
+      "description": "Variété touarègue de l'Aïr, la région d'Agadez, souvent appelée tayart tamajeq. Glottolog la classe comme menacée (vulnérable selon Moseley, 2010). Elle est l'un des parlers des Touaregs Kel Aïr.",
+      "famille": "Afro-asiatique > Berbère > Touareg > Touareg méridional",
+      "glottocode": "taya1257",
+      "statut_linguistique": "menacée",
+      "ecritures": [
+        "tifinagh",
+        "latin"
+      ],
+      "wikidata": "Q56388",
+      "sources": [
+        "S32",
+        "S47"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-langue-tawellemmet",
+      "nom": "tawellemmet",
+      "description": "Variété touarègue méridionale que Glottolog situe dans l'ouest du Niger, vers Tahoua. Glottolog la signale comme non menacée et mentionne sa reconnaissance par la Constitution de 1999 (article 3).",
+      "famille": "Afro-asiatique > Berbère > Touareg > Touareg méridional",
+      "glottocode": "tawa1286",
+      "statut_linguistique": "nationale",
+      "ecritures": [
+        "tifinagh",
+        "latin"
+      ],
+      "wikidata": "Q56390",
+      "sources": [
+        "S32",
+        "S25"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-langue-kanouri-manga",
+      "nom": "kanouri manga",
+      "description": "Variété de kanouri parlée à l'est du Niger, notamment dans la région de Diffa (Mainé-Soroa, Goudoumaria), où vivent les Manga. Le kanouri est lié à l'histoire de l'empire du Bornou, dont le Mangari formait la marge nord.",
+      "famille": "Saharien > Saharien occidental > Kanouri-Kanembou > Kanouri",
+      "glottocode": "mang1399",
+      "statut_linguistique": "nationale",
+      "wikidata": "Q12952572",
+      "sources": [
+        "S32",
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-langue-kanouri-bilma",
+      "nom": "kanouri de Bilma",
+      "description": "Variété de kanouri parlée dans les oasis du Kaouar (Bilma, Fachi), où des colons kanouri se sont installés dès le Moyen Âge selon Peter Fuchs. Elle voisine avec le tedaga des Teda.",
+      "famille": "Saharien > Saharien occidental > Kanouri-Kanembou > Kanouri > Kanouri oriental",
+      "glottocode": "bilm1238",
+      "statut_linguistique": "nationale",
+      "wikidata": "Q8843523",
+      "sources": [
+        "S32",
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-langue-fulfulde-ouest",
+      "nom": "fulfulde (peul du Niger occidental)",
+      "description": "Variété du peul parlée dans l'ouest du Niger. Le peul compte parmi les langues citées à l'article 12 de la Charte de 2025.",
+      "famille": "Atlantique-Congo > Atlantique centre-nord > Peul-Sérère > Peul",
+      "glottocode": "west2454",
+      "statut_linguistique": "nationale",
+      "wikidata": "Q12952430",
+      "sources": [
+        "S32",
+        "S34"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-langue-fulfulde-est",
+      "nom": "fulfulde (peul du Niger centre-oriental)",
+      "description": "Variété du peul parlée dans le centre et l'est du pays, selon la classification de Glottolog qui la rattache au peul oriental. Elle est reconnue comme langue nationale depuis la Constitution de 1999.",
+      "famille": "Atlantique-Congo > Atlantique centre-nord > Peul-Sérère > Peul > Peul oriental",
+      "glottocode": "cent2018",
+      "statut_linguistique": "nationale",
+      "wikidata": "Q12628799",
+      "sources": [
+        "S32",
+        "S34"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-langue-dazaga",
+      "nom": "dazaga",
+      "description": "Langue des Daza, groupe toubou, parlée au Tchad et au Niger. Glottolog la classe dans le groupe tebu avec le tedaga.",
+      "famille": "Saharien > Saharien occidental > Tebu",
+      "glottocode": "daza1242",
+      "statut_linguistique": "nationale",
+      "wikidata": "Q35244",
+      "sources": [
+        "S32",
+        "S20"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-langue-tedaga",
+      "nom": "tedaga",
+      "description": "Langue des Teda, groupe toubou du Kaouar et du Djado. Glottolog la signale comme menacée (vulnérable).",
+      "famille": "Saharien > Saharien occidental > Tebu",
+      "glottocode": "teda1241",
+      "statut_linguistique": "menacée",
+      "wikidata": "Q36639",
+      "sources": [
+        "S32",
+        "S20",
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-langue-gourmantche",
+      "nom": "gourmantchéma",
+      "description": "Langue gur parlée dans le sud-ouest du pays, notamment dans le canton de Torodi, où les Gourmantché sont considérés comme les plus anciens occupants. Elle fait partie de la famille atlantique-congo.",
+      "famille": "Atlantique-Congo > Gur > Oti-Volta > Gurma",
+      "glottocode": "gour1243",
+      "statut_linguistique": "nationale",
+      "wikidata": "Q35474",
+      "sources": [
+        "S32",
+        "S29"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-langue-arabe-tchadien",
+      "nom": "arabe tchadien (shuwa)",
+      "description": "Variété d'arabe que Glottolog situe à l'est du Niger, rattachée à l'arabe soudano-tchadien. Elle fait partie des langues du pays citées dans la Charte de 2025 sous l'appellation d'arabe dialectal.",
+      "famille": "Afro-asiatique > Sémitique > Arabe > Arabe soudano-tchadien",
+      "glottocode": "chad1249",
+      "statut_linguistique": "nationale",
+      "wikidata": "Q56497",
+      "sources": [
+        "S32",
+        "S64"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-langue-tasawaq",
+      "nom": "tasawaq",
+      "description": "Langue songhaï du nord, que Glottolog situe dans la région d'Agadez. Elle est classée parmi les langues en voie de substitution (menacée selon Kossmann, 2007).",
+      "famille": "Songhaï > Songhaï du nord-ouest > Songhaï septentrional",
+      "glottocode": "tasa1240",
+      "statut_linguistique": "menacée",
+      "wikidata": "Q36564",
+      "sources": [
+        "S32",
+        "S64"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-langue-tagdal",
+      "nom": "tagdal",
+      "description": "Langue songhaï septentrionale, dont des locuteurs vivent dans le secteur de Tchin-Tabaraden. Glottolog la signale comme menacée, certains villages au nord et à l'ouest de cette ville ne la parlant déjà plus.",
+      "famille": "Songhaï > Songhaï du nord-ouest > Songhaï septentrional",
+      "glottocode": "tagd1238",
+      "statut_linguistique": "menacée",
+      "wikidata": "Q36570",
+      "sources": [
+        "S32",
+        "S64"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-langue-tadaksahak",
+      "nom": "tadaksahak",
+      "description": "Langue songhaï septentrionale que Glottolog situe près de la frontière entre le Mali et le Niger. Elle est jugée vigoureuse et non menacée.",
+      "famille": "Songhaï > Songhaï du nord-ouest > Songhaï septentrional",
+      "glottocode": "tada1238",
+      "statut_linguistique": "minoritaire",
+      "wikidata": "Q36568",
+      "sources": [
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-langue-francais",
+      "nom": "français",
+      "description": "Langue officielle du Niger sous la Constitution de 2010, elle est devenue langue de travail après la Charte de 2025, à la suite du retrait du pays de l'Organisation internationale de la Francophonie. Elle est parlée par une minorité de la population.",
+      "famille": "Indo-européen > Roman",
+      "glottocode": "stan1290",
+      "statut_linguistique": "véhiculaire",
+      "ecritures": [
+        "latin"
+      ],
+      "wikidata": "Q150",
+      "locuteurs": {
+        "valeur": "environ 13 % de la population",
+        "annee": 2025,
+        "source": "S34"
+      },
+      "sources": [
+        "S32",
+        "S33",
+        "S34",
+        "S55"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "peuples": [
+    {
+      "id": "NE-peuple-haoussa",
+      "nom": "Haoussa",
+      "description": "Les Haoussa forment le groupe le plus nombreux du pays, installé surtout dans la bande méridionale proche du Nigeria (Maradi, Zinder, Tahoua, Dosso). Le haoussa y sert de langue de communication entre communautés. Les cités haoussa, notamment Zinder et son quartier de Birni, ont une architecture en terre décorée reconnue sur la liste indicative du pays.",
+      "langues": [
+        "haoussa"
+      ],
+      "regions": [
+        "Maradi",
+        "Zinder",
+        "Tahoua",
+        "Dosso"
+      ],
+      "pays_partages": [
+        "NG"
+      ],
+      "organisation": "chefferies et sultanats (sultanat du Damagaram à Zinder)",
+      "activites": [
+        "agriculture",
+        "commerce",
+        "artisanat"
+      ],
+      "sources": [
+        "S37",
+        "S18",
+        "S8",
+        "S35"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-peuple-zarma-songhai",
+      "nom": "Zarma et Songhaï",
+      "description": "Les Zarma et les Songhaï vivent dans l'ouest du pays, de part et d'autre du fleuve Niger, et parlent une même langue. Un chercheur comme Finn Fuglestad les décrit comme des agriculteurs de mil, durement frappés par la famine de 1931. Leurs griots généalogistes, les jasare, conservent des récits d'origine qui racontent l'espace parcouru par les Zarma.",
+      "langues": [
+        "zarma",
+        "songhaï"
+      ],
+      "regions": [
+        "Niamey",
+        "Tillabéri",
+        "Dosso"
+      ],
+      "pays_partages": [
+        "ML",
+        "BF",
+        "NG"
+      ],
+      "organisation": "chefferies (Zarmakoye de Dosso) et griots généalogistes",
+      "activites": [
+        "agriculture (mil)"
+      ],
+      "sources": [
+        "S18",
+        "S27",
+        "S37",
+        "S24",
+        "S9"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-peuple-touaregs",
+      "nom": "Touaregs",
+      "description": "Les Touaregs nigériens vivent surtout dans le nord et le centre du pays, dans l'Aïr (région d'Agadez), l'Azawagh et la région de Tahoua, et parlent des variétés de tamasheq ou tamajaq. Ils ont longtemps animé le commerce caravanier, en particulier la caravane du sel entre l'Aïr et Bilma, et sont à l'origine de l'imzad, musique jouée par des femmes. Leurs forgerons (inadan) fabriquent des bijoux d'argent, dont la croix d'Agadès.",
+      "langues": [
+        "tamasheq",
+        "tamajeq de l'Aïr",
+        "tawellemmet"
+      ],
+      "regions": [
+        "Agadez",
+        "Aïr",
+        "Azawagh",
+        "Tahoua"
+      ],
+      "pays_partages": [
+        "DZ",
+        "ML"
+      ],
+      "organisation": "sultanat de l'Aïr à Agadez, avec des chefs de quartier",
+      "activites": [
+        "élevage",
+        "commerce caravanier",
+        "artisanat des métaux (forgerons)"
+      ],
+      "sources": [
+        "S37",
+        "S11",
+        "S6",
+        "S23",
+        "S22",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-peuple-peuls",
+      "nom": "Peuls (Fulbe)",
+      "description": "Les Peuls sont dispersés dans une grande partie du Niger, souvent comme éleveurs. Dans l'entre-deux Niger et Tchad, Gilbert Vieillard distingue les Fulbe, qui pratiquent le soro, et les Wodaabe, qui pratiquent le gerewol. Sur la rive nigérienne du lac Tchad, les Peuls sont arrivés plus récemment que les Boudouma.",
+      "langues": [
+        "fulfulde"
+      ],
+      "regions": [
+        "Diffa",
+        "entre Niger et Tchad"
+      ],
+      "pays_partages": [
+        "NG",
+        "TD"
+      ],
+      "activites": [
+        "élevage"
+      ],
+      "sources": [
+        "S19",
+        "S30",
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-peuple-wodaabe",
+      "nom": "Wodaabe (Peuls nomades)",
+      "description": "Les Wodaabe sont un groupe peul d'éleveurs mobiles, nommés ainsi dans l'article de Gilbert Vieillard (1932), qui leur associe le gerewol. Cette cérémonie les distingue d'autres Peuls qui pratiquent le soro. Leur répartition précise est à compléter avec des sources plus récentes.",
+      "langues": [
+        "fulfulde"
+      ],
+      "regions": [
+        "entre Niger et Tchad"
+      ],
+      "pays_partages": [
+        "NG",
+        "TD"
+      ],
+      "activites": [
+        "élevage mobile"
+      ],
+      "sources": [
+        "S19"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-peuple-kanouri",
+      "nom": "Kanouri (dont les Manga)",
+      "description": "Les Kanouri sont liés à l'ancien empire du Kanem-Bornou ; au Niger, les Manga vivent dans la région de Diffa (Mangari) et d'autres Kanouri dans les oasis du Kaouar (Bilma, Fachi). Une étude de Maïkorema Zakari décrit le Mangari comme la marge nord du Bornou du XVIe au XIXe siècle. À Fachi, selon Peter Fuchs, les Kanouri sont installés depuis au moins le XIIIe siècle et commercent avec Touaregs et Teda.",
+      "langues": [
+        "kanouri manga",
+        "kanouri de Bilma"
+      ],
+      "regions": [
+        "Diffa",
+        "Mainé-Soroa",
+        "Bilma",
+        "Fachi"
+      ],
+      "pays_partages": [
+        "NG",
+        "TD"
+      ],
+      "activites": [
+        "agriculture d'oasis",
+        "commerce caravanier"
+      ],
+      "sources": [
+        "S21",
+        "S31",
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-peuple-toubou",
+      "nom": "Toubou (Teda et Daza)",
+      "description": "Les Toubou sont des pasteurs sahariens et sahéliens dont le domaine, centré sur le nord du Tchad, déborde sur le Niger. Au Niger, on les trouve dans les départements de Bilma, N'Guigmi et N'Gourti. Catherine Baroin décrit une organisation territoriale souple, très différente de celle des Touaregs.",
+      "langues": [
+        "dazaga",
+        "tedaga"
+      ],
+      "regions": [
+        "Kaouar",
+        "Bilma",
+        "Djado",
+        "Diffa"
+      ],
+      "pays_partages": [
+        "TD"
+      ],
+      "organisation": "organisation politique fluide, sans forte emprise territoriale",
+      "activites": [
+        "élevage de dromadaires",
+        "commerce"
+      ],
+      "sources": [
+        "S20",
+        "S37",
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-peuple-gourmantche",
+      "nom": "Gourmantché",
+      "description": "Les Gourmantché vivent dans le sud-ouest du pays. À Torodi, ils sont décrits comme les plus anciens occupants de l'espace, et leurs chefs de village restent importants dans la gestion des terres. Leur langue, le gourmantchéma, appartient aux langues gur.",
+      "langues": [
+        "gourmantchéma"
+      ],
+      "regions": [
+        "Torodi",
+        "Tillabéri"
+      ],
+      "pays_partages": [
+        "BF"
+      ],
+      "organisation": "chefferies villageoises",
+      "sources": [
+        "S29",
+        "S37",
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-peuple-boudouma",
+      "nom": "Boudouma (Yedina)",
+      "description": "Les Boudouma, aussi appelés Yedina, sont décrits comme les habitants historiques des îles du lac Tchad. Ils ont suivi le retrait des eaux pendant les sécheresses de 1974 et 1984, puis sont revenus après la crue de 1998. Aujourd'hui ils partagent le lac avec des Peuls, des Haoussa et des Mobeur, ce qui nourrit des tensions foncières.",
+      "langues": [
+        "boudouma"
+      ],
+      "regions": [
+        "Diffa",
+        "lac Tchad"
+      ],
+      "pays_partages": [
+        "TD",
+        "NG"
+      ],
+      "activites": [
+        "pêche",
+        "élevage"
+      ],
+      "sources": [
+        "S30",
+        "S16",
+        "S37"
+      ],
+      "sensible": true,
+      "note_sensibilite": "La région de Diffa est touchée par l'insécurité ; la présentation s'en tient aux faits décrits par les chercheurs.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-peuple-azna",
+      "nom": "Azna (Arewa)",
+      "description": "Les Azna sont une communauté de l'Arewa, au sud-ouest du pays, autour de Lougou près de Dogondoutchi. Leur cheffe politique et religieuse porte le titre de Sarraounia. La liste indicative de Lougou y situe un lieu de culte, la pierre de justice Tunguma, et les tombes des reines.",
+      "langues": [
+        "haoussa"
+      ],
+      "regions": [
+        "Dogondoutchi",
+        "Lougou",
+        "Arewa"
+      ],
+      "organisation": "royauté religieuse héréditaire de la Sarraounia",
+      "activites": [
+        "agriculture"
+      ],
+      "sources": [
+        "S14",
+        "S26"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Le culte de Lougou et ses objets sacrés relèvent de savoirs rituels : toute diffusion détaillée demande l'accord de la communauté.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-peuple-arabes",
+      "nom": "Communautés arabes",
+      "description": "L'Université Laval cite des Arabes parmi les populations en grande partie nomades du nord du pays. Glottolog situe par ailleurs un parler arabe tchadien à l'est du Niger. Les sources ouvertes consultées ne permettent pas de décrire plus précisément ces communautés ni de les relier avec certitude entre elles.",
+      "langues": [
+        "arabe tchadien"
+      ],
+      "regions": [
+        "nord du Niger",
+        "est du Niger"
+      ],
+      "pays_partages": [
+        "TD"
+      ],
+      "sources": [
+        "S37",
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "id": "NE-site-air-tenere",
+      "nom": "Réserves naturelles de l'Aïr et du Ténéré",
+      "description": "Avec environ 7,7 millions d'hectares, c'est l'une des plus grandes aires protégées d'Afrique ; elle réunit le massif volcanique de l'Aïr, îlot sahélien dans le désert, et les étendues sableuses du Ténéré. Le cœur de la réserve (1 280 500 ha) est un sanctuaire de l'addax, strictement fermé à l'accès. Le bien est inscrit sur la Liste du patrimoine mondial en péril depuis 1992, le braconnage et le surpâturage étant les menaces principales.",
+      "type": "patrimoine_mondial",
+      "wikidata": "Q794643",
+      "unesco_id": "573",
+      "inscription": "1991",
+      "coordonnees": {
+        "lat": 19.0762,
+        "lng": 9.662
+      },
+      "regions": [
+        "Agadez"
+      ],
+      "sources": [
+        "S2",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-site-w-arly-pendjari",
+      "nom": "Complexe W-Arly-Pendjari",
+      "description": "Ce bien transfrontalier (Niger, Bénin, Burkina Faso) étend le parc national du W du Niger, inscrit en 1996, et couvre environ 1,7 million d'hectares de savanes soudano-sahéliennes. Il abrite la plus grande population d'éléphants d'Afrique de l'Ouest et la seule population viable de lions de la région. La gestion du W du Niger relève de la Direction générale des Eaux et Forêts ; les menaces citées sont le braconnage, le pâturage illégal et l'empiètement agricole. L'inscription initiale date de 1996 et l'extension de 2017 (dossier 749bis).",
+      "type": "patrimoine_mondial",
+      "wikidata": "Q25379596",
+      "unesco_id": "749",
+      "inscription": "1996",
+      "coordonnees": {
+        "lat": 12.317,
+        "lng": 2.272
+      },
+      "regions": [
+        "Parc national du W du Niger"
+      ],
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-site-agadez",
+      "nom": "Centre historique d'Agadez",
+      "description": "Surnommée la porte du désert, Agadez s'est développée aux XVe et XVIe siècles autour du sultanat de l'Aïr et de l'étape caravanière. Son centre est divisé en onze quartiers de forme irrégulière, avec de nombreuses maisons en terre et un ensemble palatial et religieux dont un minaret de 27 mètres entièrement en adobe, le plus haut du monde dans ce matériau. Le sultanat y reste en place et la ville abrite environ 20 000 habitants.",
+      "type": "patrimoine_mondial",
+      "wikidata": "Q47800464",
+      "unesco_id": "1268",
+      "inscription": "2013",
+      "coordonnees": {
+        "lat": 16.9744,
+        "lng": 7.9896
+      },
+      "regions": [
+        "Agadez"
+      ],
+      "periode": "XVe-XVIe siècle",
+      "sources": [
+        "S3",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-site-zinder-birni",
+      "nom": "Vieille ville de Zinder, quartier de Birni et sultanat du Damagaram",
+      "description": "Zinder, capitale du pays de 1911 à 1926, garde dans son quartier de Birni les traces du sultanat du Damagaram, dont l'origine est située vers 1736. Le palais du sultan aurait été bâti entre 1850 et 1852 sous la direction du maître maçon Mahaman Giwa, et le quartier était ceint de remparts élevés en 1855-1856. Les maisons de Birni comptent parmi les plus décorées de la ville, témoin de l'architecture haoussa. Le site figure sur la liste indicative du pays.",
+      "type": "ville_historique",
+      "coordonnees": {
+        "lat": 13.7833,
+        "lng": 9.0
+      },
+      "regions": [
+        "Zinder"
+      ],
+      "periode": "XVIIIe-XIXe siècle",
+      "sources": [
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-site-dosso-zarmakoye",
+      "nom": "Palais du Zarmakoye de Dosso",
+      "description": "Le palais du chef de province de Dosso a été construit en 1904, peu après l'accession du Zarmakoye Abdou Aoûta. La dynastie des Zarmakoye remonte au XVe siècle, et huit titulaires sont énumérés depuis 1902 ; les sept disparus reposent dans l'enceinte. Le site figure sur la liste indicative du pays.",
+      "type": "monument",
+      "coordonnees": {
+        "lat": 13.0476,
+        "lng": 3.1967
+      },
+      "regions": [
+        "Dosso"
+      ],
+      "periode": "XXe siècle (dynastie : XVe siècle)",
+      "sources": [
+        "S9"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-site-mosquees-tahoua",
+      "nom": "Mosquées en terre de la région de Tahoua (Yaama)",
+      "description": "La région de Tahoua compte des mosquées en banco conçues par l'architecte-maçon Elhadj Mamoudou, dit Falké, et son apprenti Elhadj Habou. La grande mosquée de Yaama, transformée de 1975 à 1982, a reçu le prix Aga Khan en 1986 ; les grandes mosquées comptent quatre minarets. L'ensemble figure sur la liste indicative du pays.",
+      "type": "monument",
+      "coordonnees": {
+        "lat": 14.3597,
+        "lng": 5.4992
+      },
+      "regions": [
+        "Tahoua"
+      ],
+      "periode": "depuis 1962",
+      "sources": [
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-site-route-du-sel",
+      "nom": "Route du sel (Aïr, Ténéré, Bilma)",
+      "description": "La route du sel relie l'Aïr aux salines de Bilma à travers le Ténéré ; on y échange du mil contre du sel et des dattes. Les Touaregs Kel Ewey y sont les plus attachés, et les caravanes partent groupées, jusqu'à plusieurs milliers de dromadaires. Fachi, oasis kanouri, est une étape indispensable où passent aussi de petites caravanes téda, daza et manga. Le site est inscrit sur la liste indicative du Niger.",
+      "type": "lieu_de_memoire",
+      "regions": [
+        "Agadez",
+        "Bilma",
+        "Fachi"
+      ],
+      "periode": "pratique ancienne, encore vivante à la fin du XXe siècle",
+      "sources": [
+        "S11",
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-site-djado",
+      "nom": "Plateau et fortin du Djado",
+      "description": "Le Djado est un ensemble fortifié très ancien, dans l'une des régions de montagnes et de plateaux hyperarides les plus inaccessibles du Sahara central. La liste indicative y signale des stations rupestres et des fortins en pierre sèche et en argile, qui n'ont jamais été fouillés. Il sert aussi de corridor de migration à l'addax.",
+      "type": "site_archeologique",
+      "regions": [
+        "Bilma",
+        "Djado"
+      ],
+      "periode": "préhistoire à période historique",
+      "sources": [
+        "S12",
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-site-bura",
+      "nom": "Site archéologique de Bura",
+      "description": "Découverte fortuitement en 1975 à environ 150 km au nord-ouest de Niamey, la nécropole de Bura appartient à un ensemble de sites de la vallée moyenne du Niger. Elle comprend des jarres-cercueils anthropomorphes surmontées de statuettes, contenant des squelettes, ainsi que des autels de pierre. Le site figure sur la liste indicative du pays.",
+      "type": "site_archeologique",
+      "coordonnees": {
+        "lat": 13.8333,
+        "lng": 0.5
+      },
+      "regions": [
+        "nord-ouest de Niamey"
+      ],
+      "sources": [
+        "S13"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Le site contient des sépultures et des restes humains : consultation de la communauté locale et des autorités du patrimoine avant toute diffusion d'images.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-site-lougou",
+      "nom": "Site de Lougou",
+      "description": "Situé à environ 350 km à l'est de Niamey, près de Dogondoutchi, Lougou est le plus ancien lieu d'installation des habitants de l'Arewa et le siège de la Sarraounia. On y trouve la pierre de justice Tunguma, les tombeaux des reines et le champ de bataille de la colonne Voulet-Chanoine de 1899. La liste indicative signale aussi que le périmètre du site est difficile à fixer et qu'il faudrait le protéger.",
+      "type": "lieu_de_memoire",
+      "coordonnees": {
+        "lat": 13.8667,
+        "lng": 4.2333
+      },
+      "regions": [
+        "Dogondoutchi"
+      ],
+      "periode": "XIVe siècle à aujourd'hui",
+      "sources": [
+        "S14",
+        "S26"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Lieu de culte actif, tombes royales et site de combat jonché d'ossements : toute diffusion exige l'accord de la Sarraounia et des habitants. La date des combats de 1899 diffère selon les sources.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-site-gadoufaoua",
+      "nom": "Gadoufaoua et gisements de dinosaures",
+      "description": "Dans le nord du pays, les couches du Crétacé livrent des squelettes de dinosaures et de crocodiliens ; Gadoufaoua, à 150 km au sud-est d'Agadez, est le gisement le plus important cité par la liste indicative. Cinq squelettes sont exposés au Musée national à Niamey, dont celui du grand herbivore Jobaria tiguidensis, long de 20 mètres. Les sables du Ténéré menacent ces gisements d'ensablement quotidien.",
+      "type": "site_naturel",
+      "regions": [
+        "Agadez"
+      ],
+      "periode": "Crétacé",
+      "sources": [
+        "S15"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-site-musee-national",
+      "nom": "Musée national Boubou Hama (Niamey)",
+      "description": "Le musée national de Niamey a été rebaptisé Musée national Boubou Hama en 2008. Il fait partie de la « vallée de la culture », avec l'Institut de recherches en sciences humaines et le CELHTO, créée sous l'impulsion de Boubou Hama. Il expose notamment des squelettes de dinosaures et les restes de l'Arbre du Ténéré.",
+      "type": "musee",
+      "wikidata": "Q1989844",
+      "coordonnees": {
+        "lat": 13.511111,
+        "lng": 2.107222
+      },
+      "regions": [
+        "Niamey"
+      ],
+      "periode": "depuis 1959",
+      "sources": [
+        "S39",
+        "S15",
+        "S66",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-site-gobero",
+      "nom": "Gobero (cimetières du Ténéré occidental)",
+      "description": "Sur la bordure d'un ancien lac, à l'ouest du Ténéré, le site de Gobero contient environ 200 sépultures réparties sur cinq millénaires. Les plus anciennes (7700-6200 av. J.-C.) forment le plus ancien cimetière connu du Sahara ; des populations plus graciles s'y installent après un épisode aride, à partir de 5200 av. J.-C. Le site a été repéré en 2000.",
+      "type": "site_archeologique",
+      "regions": [
+        "Agadez",
+        "Ténéré"
+      ],
+      "periode": "vers 7700 à 2500 av. J.-C.",
+      "sources": [
+        "S17"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Le site est un ensemble de sépultures contenant des restes humains : leur étude et la diffusion d'images relèvent des autorités du patrimoine.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-site-lac-tchad",
+      "nom": "Paysage culturel du lac Tchad (partie nigérienne)",
+      "description": "Le lac Tchad couvre environ 17 000 km² en fin de saison des pluies et s'étend sur le Cameroun, le Niger, le Nigeria et le Tchad. Sa partie nigérienne, dans la région de Diffa, abrite des îles habitées par plusieurs communautés, dont les Boudouma. Le Niger l'a proposé sur sa liste indicative en 2018 comme bien mixte.",
+      "type": "liste_indicative",
+      "coordonnees": {
+        "lat": 13.9333,
+        "lng": 13.4
+      },
+      "regions": [
+        "Diffa",
+        "Bosso",
+        "N'Guigmi"
+      ],
+      "periode": "depuis la préhistoire",
+      "sources": [
+        "S16",
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-site-arbre-tenere",
+      "nom": "Emplacement de l'Arbre du Ténéré",
+      "description": "L'Arbre du Ténéré, un acacia longtemps tenu pour l'arbre le plus isolé de la Terre, servait de repère aux caravanes à environ 235 km au nord-est d'Agadez. Il a été renversé en 1973 par un camion, et ses restes sont exposés au musée national de Niamey depuis le 8 novembre 1973. Une sculpture métallique le remplace sur place, installée en 1975 d'après Wikipédia.",
+      "type": "lieu_de_memoire",
+      "coordonnees": {
+        "lat": 17.7442,
+        "lng": 10.0828
+      },
+      "regions": [
+        "Agadez",
+        "Tchirozérine"
+      ],
+      "periode": "jusqu'en 1973",
+      "sources": [
+        "S66"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "traditions": [
+    {
+      "id": "NE-tradition-parentes-a-plaisanterie",
+      "nom": "Pratiques et expressions des parentés à plaisanterie",
+      "nom_local": "parentés à plaisanterie",
+      "description": "Pratique sociale entre communautés ethnolinguistiques : deux personnes issues de deux communautés qui incarnent symboliquement les branches des cousins croisés d'une même famille se taquinent pour entretenir la fraternité et la solidarité. Elle repose souvent sur d'anciens pactes interdisant conflit et guerre, avec le devoir de dire la vérité, de s'entraider et de régler les différends pacifiquement. On la pratique au marché, aux champs, aux mariages et aux funérailles, et le premier mois lunaire lui est particulièrement consacré. Elle a été inscrite en 2014 sur la Liste représentative.",
+      "categorie": "rite",
+      "communautes": [
+        "communautés ethnolinguistiques du Niger (consentements recueillis en français, fulfulde et haoussa)"
+      ],
+      "regions": [
+        "tout le pays"
+      ],
+      "langues": [
+        "haoussa",
+        "fulfulde"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01009",
+        "annee": 2014,
+        "url": "https://ich.unesco.org/en/RL/practices-and-expressions-of-joking-relationships-in-niger-01009"
+      },
+      "transmission": "vivante",
+      "periode": "inscrit en 2014",
+      "sources": [
+        "S5",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-tradition-imzad",
+      "nom": "Pratiques et savoirs liés à l'imzad",
+      "nom_local": "imzad",
+      "description": "L'imzad est un violon monocorde à archet que les femmes touarègues jouent en l'accompagnant de poèmes, souvent lors de cérémonies dans les campements. Les femmes fabriquent l'instrument avec une demi-calebasse séchée recouverte d'une peau, percée de trous en rosace. Sa musique sert aussi à apaiser les malades et à chasser les mauvais esprits. Inscrite en 2013 avec l'Algérie et le Mali, la pratique se transmet oralement ; un étudiant de Timia (Aïr) la décrit pourtant comme menacée dans son village.",
+      "categorie": "musique",
+      "communautes": [
+        "Touaregs du Niger, du Mali et d'Algérie"
+      ],
+      "regions": [
+        "Aïr",
+        "Agadez"
+      ],
+      "langues": [
+        "tamasheq"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "00891",
+        "annee": 2013,
+        "url": "https://ich.unesco.org/en/RL/practices-and-knowledge-linked-to-the-imzad-of-the-tuareg-communities-of-algeria-mali-and-niger-00891"
+      },
+      "transmission": "fragile",
+      "periode": "inscrit en 2013",
+      "sources": [
+        "S6",
+        "S7",
+        "S61"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-tradition-gerewol",
+      "nom": "Gerewol des Wodaabe",
+      "nom_local": "gerewol",
+      "description": "Le gerewol est l'institution que Gilbert Vieillard attribue aux Wodaabe, groupe peul d'entre Niger et Tchad, en la distinguant du soro des Fulbe. Vieillard range ces coutumes parmi les épreuves de passage de caractère sacré, qui tournent souvent au sport ou à l'exhibition. Les sources ouvertes consultées ne détaillent pas son déroulement ; cette fiche est à compléter avec des travaux ethnographiques récents.",
+      "categorie": "fete",
+      "communautes": [
+        "Wodaabe"
+      ],
+      "regions": [
+        "entre Niger et Tchad"
+      ],
+      "langues": [
+        "fulfulde"
+      ],
+      "unesco": null,
+      "periode": "attestée en 1932",
+      "sources": [
+        "S19"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-tradition-soro",
+      "nom": "Soro des Fulbe (épreuve du bâton)",
+      "nom_local": "soro",
+      "description": "Le soro est un duel rituel en deux manches entre Fulbe : un homme provoqué reçoit les coups de bâton de son adversaire sans broncher, puis les lui rendra lors d'une prochaine réunion. Gilbert Vieillard y voit une épreuve de courage et de résistance à la douleur, parfois pratiquée avec une trique de saule vert. Les règles changent selon les lieux.",
+      "categorie": "rite",
+      "communautes": [
+        "Fulbe (Peuls)"
+      ],
+      "regions": [
+        "entre Niger et Tchad"
+      ],
+      "langues": [
+        "fulfulde"
+      ],
+      "unesco": null,
+      "periode": "attestée en 1932",
+      "sources": [
+        "S19"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Rite de passage pouvant impliquer des violences physiques ; description historique (1932) à valider avec des communautés peules avant publication.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-tradition-caravane-du-sel",
+      "nom": "Caravane du sel entre l'Aïr et Bilma",
+      "nom_local": "caravane du sel",
+      "description": "Chaque année, des caravanes de dromadaires emportent du mil depuis l'Aïr vers les salines de Bilma et en rapportent du sel et des dattes. Les Touaregs Kel Ewey y sont très attachés, et les convois partent groupés pour affronter le Ténéré. Au début du XXe siècle, 7 000 à 30 000 dromadaires passaient par Bilma chaque année ; il n'en arrivait plus que 5 000 en 1988.",
+      "categorie": "savoir",
+      "communautes": [
+        "Touaregs Kel Ewey",
+        "Kanouri de Fachi",
+        "Teda"
+      ],
+      "regions": [
+        "Aïr",
+        "Ténéré",
+        "Bilma",
+        "Fachi"
+      ],
+      "langues": [
+        "tamasheq",
+        "kanouri de Bilma"
+      ],
+      "unesco": null,
+      "transmission": "fragile",
+      "periode": "pratique ancienne",
+      "sources": [
+        "S11",
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-tradition-bijoux-touaregs",
+      "nom": "Bijoux touaregs et croix d'Agadès",
+      "nom_local": "croix d'Agadès",
+      "description": "Les bijoux touaregs sont d'argent ou de cuivre, martelés et gravés, à l'exception des croix d'Agadès, qui sont coulées. Pour les informateurs de Germaine Dieterlen, ils fonctionnent comme un langage muet qui indique la famille, le rang ou l'état d'une personne. La croix d'Agadès est née dans l'Aïr, mais son origine et sa signification restent hypothétiques.",
+      "categorie": "artisanat",
+      "communautes": [
+        "forgerons touaregs"
+      ],
+      "regions": [
+        "Aïr",
+        "Agadez"
+      ],
+      "langues": [
+        "tamasheq"
+      ],
+      "unesco": null,
+      "sources": [
+        "S23",
+        "S22"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-tradition-architecture-agadez",
+      "nom": "Architecture en terre d'Agadez",
+      "nom_local": "banco d'Agadez",
+      "description": "Le centre d'Agadez est bâti en terre crue, avec un style décoratif propre à l'Aïr, dans un tracé hérité des anciens campements. Sa Grande Mosquée possède un minaret d'adobe de 27 mètres, et le palais du sultan reste le cœur du système coutumier. Les monuments religieux et les palais sont entretenus par le sultan ou par les chefs de quartier ; les habitations sont plus inégalement conservées.",
+      "categorie": "architecture",
+      "communautes": [
+        "Touaregs sédentarisés d'Agadez"
+      ],
+      "regions": [
+        "Agadez"
+      ],
+      "unesco": null,
+      "periode": "XVe siècle à aujourd'hui",
+      "sources": [
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-tradition-mosquees-tahoua",
+      "nom": "Architecture des mosquées en banco de la région de Tahoua",
+      "nom_local": "mosquées de Yaama et Salewa",
+      "description": "À partir des années 1960, le maçon Elhadj Mamoudou, dit Falké, a adapté la technique haoussa du banco à des mosquées à quatre minarets avec huit rangées de piliers et une coupole centrale. Son apprenti Elhadj Habou a poursuivi ce travail, notamment à Salewa en 1989. La mosquée de Yaama a reçu le prix Aga Khan en 1986.",
+      "categorie": "architecture",
+      "communautes": [
+        "Haoussa de la région de Tahoua"
+      ],
+      "regions": [
+        "Tahoua"
+      ],
+      "langues": [
+        "haoussa"
+      ],
+      "unesco": null,
+      "periode": "depuis 1962",
+      "sources": [
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-tradition-justice-tunguma",
+      "nom": "Justice de la pierre Tunguma à Lougou",
+      "nom_local": "Tunguma",
+      "description": "À Lougou, la Sarraounia siège avec la pierre sacrée Tunguma, qui aurait guidé la première reine ; la séance de justice a lieu chaque mercredi et chaque dimanche. À la mort d'une reine, les femmes ayant droit au titre sont réunies, et c'est le corps de la défunte qui désigne sa successeuse et l'emplacement de sa tombe. La liste indicative cite quinze Sarraounia dans la tradition.",
+      "categorie": "rite",
+      "communautes": [
+        "Azna de Lougou"
+      ],
+      "regions": [
+        "Dogondoutchi",
+        "Lougou"
+      ],
+      "langues": [
+        "haoussa"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "sources": [
+        "S14"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Rite et objets sacrés d'une royauté religieuse : toute diffusion exige l'accord de la Sarraounia et de la communauté azna.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-tradition-holey",
+      "nom": "Culte des holey chez les Songhaï-Zarma",
+      "nom_local": "holey",
+      "description": "Les Songhaï se réfèrent à plusieurs registres religieux à la fois : culte des ancêtres, génies des lieux (zin), divinités cosmologiques (holey), islam. Comprendre l'imbrication de ces systèmes revient, selon le compte rendu, à comprendre l'histoire du Songhaï. Jean Rouch en a fait l'étude dans La religion et la magie songhay (1960), dont Robert Jaulin rend compte en 1961.",
+      "categorie": "rite",
+      "communautes": [
+        "Songhaï-Zarma"
+      ],
+      "regions": [
+        "vallée du Niger"
+      ],
+      "langues": [
+        "zarma"
+      ],
+      "unesco": null,
+      "sources": [
+        "S24"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Rituels de possession et savoirs initiatiques : description académique ancienne à valider avec les communautés concernées avant publication.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-tradition-griots-jasare",
+      "nom": "Récits des griots jasare zarma",
+      "nom_local": "jasare",
+      "description": "Chez les Zarma, les jasare sont des griots généalogistes et historiens qui disent des récits d'ancêtres, riches en noms de lieux. Sandra Bornand analyse deux récits d'origine qui racontent l'espace occupé, parcouru puis quitté par les Zarma. Ces récits se distinguent des contes et participent à la construction d'une identité collective.",
+      "categorie": "oralite",
+      "communautes": [
+        "Zarma"
+      ],
+      "regions": [
+        "Tillabéri",
+        "Dosso",
+        "Niamey"
+      ],
+      "langues": [
+        "zarma"
+      ],
+      "unesco": null,
+      "sources": [
+        "S27",
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-tradition-gani-timia",
+      "nom": "Gani (Mouloud) touareg de Timia",
+      "nom_local": "Gani",
+      "description": "Au 12 du mois de Gani, les Touaregs de Timia, dans l'Aïr, célèbrent la naissance du Prophète avec des poèmes de louange, des femmes qui frappent l'ekanzam (tambour sur cerceau) et des courses de chameaux. Le village se répartit en deux groupes, les Kel Inig et les Kel Ataram, qui rivalisent jusqu'au 13e jour. Cette description provient d'un manuel d'apprentissage du tamacheq rédigé par un étudiant de Timia.",
+      "categorie": "fete",
+      "communautes": [
+        "Kel Timia",
+        "Touaregs de l'Aïr"
+      ],
+      "regions": [
+        "Timia",
+        "Aïr"
+      ],
+      "langues": [
+        "tamasheq"
+      ],
+      "unesco": null,
+      "sources": [
+        "S61"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-tradition-ahal",
+      "nom": "Veillées ahal et poésie touarègue",
+      "nom_local": "ahal",
+      "description": "Dans les veillées nocturnes appelées ahal, on se retrouve pour conter, réciter d'anciens poèmes et écouter l'imzad ; les femmes chantent et dansent. Amour et guerre sont les thèmes préférés de cette poésie classique, et un bon poète attire parfois des auditeurs de loin. Le même manuel note que la pratique recule dans les villages comme Timia.",
+      "categorie": "oralite",
+      "communautes": [
+        "Touaregs de l'Aïr"
+      ],
+      "regions": [
+        "Aïr"
+      ],
+      "langues": [
+        "tamasheq"
+      ],
+      "unesco": null,
+      "transmission": "fragile",
+      "sources": [
+        "S61"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-tradition-samaria",
+      "nom": "Samaria et musique tradi-moderne nigérienne",
+      "nom_local": "Samaria",
+      "description": "La samaria est un mouvement de mobilisation de la jeunesse, avec des troupes de quartier de chant et de danse qui ont servi de tremplin à des artistes comme Hamsou Garba. Elle a passé près de dix ans dans la troupe Samaria Sabongari de son quartier avant de fonder le groupe Anashua en 1991 et de lancer le festival Zanzaro. Ses chansons abordent les mariages forcés, la tolérance et l'unité sociale.",
+      "categorie": "musique",
+      "communautes": [
+        "jeunesse de Maradi et de Niamey"
+      ],
+      "regions": [
+        "Maradi",
+        "Niamey"
+      ],
+      "langues": [
+        "haoussa"
+      ],
+      "unesco": null,
+      "sources": [
+        "S44"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-tradition-fete-independance",
+      "nom": "Fête de l'indépendance et fête de l'arbre",
+      "nom_local": "fête du 3 août",
+      "description": "Le 3 août, le Niger célèbre son indépendance avec des défilés, des tam-tams, des danses traditionnelles, des courses de chevaux et de dromadaires. Depuis 1964, elle est associée à la fête de l'arbre, avec des plantations symboliques. À Niamey, la première célébration s'est tenue à l'actuelle place du Petit Marché en 1960.",
+      "categorie": "fete",
+      "communautes": [
+        "tout le pays"
+      ],
+      "regions": [
+        "Niamey"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "periode": "depuis 1960",
+      "sources": [
+        "S45"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "personnalites": [
+    {
+      "id": "NE-personnalite-sarraounia-mangou",
+      "nom": "Sarraounia Mangou",
+      "description": "« Sarraounia » est un titre haoussa qui désigne la cheffe politique et religieuse, héréditaire, du village animiste de Lougou ; « Mangou » est le surnom de celle qui régnait en 1899. Les récits oraux de Lougou gardent le souvenir de sa résistance à la colonne Voulet-Chanoine, alors que les archives françaises mentionnent des combats à Lougou sans citer son nom. Son image nationale doit beaucoup au roman de Mamani Abdoulaye (1980) et au film de Med Hondo (1986).",
+      "wikidata": "Q135111738",
+      "roles": [
+        "cheffe de Lougou (Sarraounia)",
+        "figure de la résistance à la colonisation"
+      ],
+      "domaines": [
+        "histoire",
+        "résistance"
+      ],
+      "epoque": "fin du XIXe siècle",
+      "naissance": {
+        "lieu": "Lougou (Arewa)"
+      },
+      "note": "Les dates de naissance et de décès sont inconnues ; l'origine de la fonction est située par les sources orales vers le XVIIe siècle.",
+      "sources": [
+        "S26",
+        "S14",
+        "S63"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Histoire disputée : la bataille de Lougou est datée d'avril (manuel scolaire cité par Bertho) ou de mai-juin 1899 (liste indicative), et le rôle personnel de la Sarraounia reste débattu ; figure aussi liée à un culte vivant.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-personnalite-kaocen",
+      "nom": "Kaocen",
+      "description": "Chef touareg de l'Aïr, associé à la révolte des Sénoussistes qui a visé la présence française à Agadez en décembre 1916. Selon la liste indicative de la route du sel, ce soulèvement a interrompu les caravanes jusqu'en 1920. Wikidata situe sa naissance en 1880 et son décès en 1919, mais les circonstances de sa mort varient selon les sources, et ses lieux de naissance et de mort ne sont pas repris ici.",
+      "wikidata": "Q17344812",
+      "roles": [
+        "chef de la révolte touarègue de 1916-1917"
+      ],
+      "domaines": [
+        "résistance",
+        "histoire"
+      ],
+      "epoque": "début du XXe siècle",
+      "naissance": {
+        "date": "1880"
+      },
+      "deces": {
+        "date": "1919"
+      },
+      "note": "Dates tirées de Wikidata ; lieux non retenus faute de source concordante ouverte.",
+      "sources": [
+        "S11",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-personnalite-boubou-hama",
+      "nom": "Boubou Hama",
+      "description": "Historien, poète, philosophe, écrivain et homme politique, Boubou Hama a présidé l'Assemblée nationale jusqu'au coup d'État de 1974, puis a été arrêté et libéré en 1977. Son autobiographie Kotia-Nima (1968) lui a valu le Grand Prix littéraire de l'Afrique noire en 1970, et il a été un pionnier de l'écriture en songhaï-zarma. Il a aussi porté la « vallée de la culture » de Niamey, dont fait partie le musée national qui porte son nom depuis 2008.",
+      "wikidata": "Q2912103",
+      "roles": [
+        "écrivain",
+        "historien",
+        "président de l'Assemblée nationale"
+      ],
+      "domaines": [
+        "littérature",
+        "histoire",
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "naissance": {
+        "date": "1906",
+        "lieu": "Fonéko"
+      },
+      "deces": {
+        "date": "1982-01",
+        "lieu": "Niamey"
+      },
+      "note": "Une source donne 1909 pour la naissance (nigerdiaspora) ; le site consacré à l'écrivain et Wikidata retiennent 1906.",
+      "sources": [
+        "S39",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-personnalite-mamani-abdoulaye",
+      "nom": "Abdoulaye Mamani",
+      "description": "Écrivain engagé et poète, né en 1932 et militant du Sawaba, il a vécu quatorze ans d'exil après l'indépendance avant d'être emprisonné sous Seyni Kountché. Il a écrit à sa sortie le roman Sarraounia (1980), qui a donné une dimension nationale à la reine de Lougou, et deux recueils de poèmes, Poémérides (1972) et Éboniques. Il a aussi adapté et dialogué le film Sarraounia de Med Hondo (1986).",
+      "wikidata": "Q308401",
+      "roles": [
+        "écrivain",
+        "poète",
+        "militant du Sawaba"
+      ],
+      "domaines": [
+        "littérature",
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "naissance": {
+        "date": "1932",
+        "lieu": "Goudoumaria"
+      },
+      "deces": {
+        "date": "1993-06-03"
+      },
+      "sources": [
+        "S26",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-personnalite-djibo-bakary",
+      "nom": "Djibo Bakary",
+      "description": "Instituteur formé à l'école William Ponty, il fonde en 1954 l'Union démocratique nigérienne, surnommée Sawaba (« délivrance » en haoussa), et devient en 1956 le premier maire de Niamey. En 1958, il appelle à voter non au référendum sur la Communauté franco-africaine, que Hamani Diori et Boubou Hama soutiennent ; la République est proclamée le 18 décembre 1958, avec Diori pour président. Il part en exil en janvier 1959, le Sawaba est dissous en décembre 1959, et il ne rentre à Niamey qu'après le coup d'État de 1974.",
+      "wikidata": "Q348849",
+      "roles": [
+        "homme politique",
+        "premier maire de Niamey",
+        "fondateur du Sawaba"
+      ],
+      "domaines": [
+        "politique",
+        "syndicalisme"
+      ],
+      "epoque": "XXe siècle",
+      "naissance": {
+        "date": "1922",
+        "lieu": "Soudouré"
+      },
+      "deces": {
+        "date": "1998-04-16",
+        "lieu": "Niamey"
+      },
+      "sources": [
+        "S38",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-personnalite-hamani-diori",
+      "nom": "Hamani Diori",
+      "description": "Premier président du Niger, il prend la tête de la République proclamée le 18 décembre 1958, puis déclare solennellement l'indépendance le 3 août 1960. Cousin éloigné de Djibo Bakary et compagnon de Boubou Hama au Parti progressiste nigérien, il rivalise avec le Sawaba durant les années 1950. Il est renversé le 15 avril 1974 par Seyni Kountché et meurt à Rabat en 1989.",
+      "wikidata": "Q314355",
+      "roles": [
+        "président de la République (1960-1974)"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "naissance": {
+        "date": "1916",
+        "lieu": "Soudouré"
+      },
+      "deces": {
+        "date": "1989-04-23",
+        "lieu": "Rabat"
+      },
+      "note": "Wikidata donne deux dates de naissance (6 ou 26 juin 1916) ; l'année 1916 seule est retenue ici.",
+      "sources": [
+        "S38",
+        "S45",
+        "S65",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-personnalite-seyni-kountche",
+      "nom": "Seyni Kountché",
+      "description": "Officier d'origine zarma, né à Damana Fandou (département de Filingué), il s'engage en 1949 dans l'armée coloniale française et sert en Indochine et en Algérie. Après l'indépendance il rejoint les forces armées nigériennes, puis dirige le pays du 15 avril 1974 jusqu'à sa mort le 10 novembre 1987. Son régime a succédé à celui de Hamani Diori après le coup d'État de 1974.",
+      "wikidata": "Q353198",
+      "roles": [
+        "chef de l'État (1974-1987)",
+        "officier"
+      ],
+      "domaines": [
+        "politique",
+        "armée"
+      ],
+      "epoque": "XXe siècle",
+      "naissance": {
+        "date": "1931-07-01",
+        "lieu": "Damana Fandou"
+      },
+      "deces": {
+        "date": "1987-11-10",
+        "lieu": "Paris"
+      },
+      "sources": [
+        "S52",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-personnalite-abdou-moumouni",
+      "nom": "Abdou Moumouni Dioffo",
+      "description": "Physicien, premier Africain agrégé en physique selon la presse nigérienne, il est considéré comme le père de l'énergie solaire au Niger. Il a déposé plusieurs brevets sur des chauffe-eau, des fours et des capteurs solaires, ainsi qu'un moteur à vapeur, et a enseigné en Afrique et en Europe. Il est mort le 7 avril 1991, et l'université de Niamey porte son nom.",
+      "wikidata": "Q47036625",
+      "roles": [
+        "physicien",
+        "enseignant",
+        "inventeur"
+      ],
+      "domaines": [
+        "sciences",
+        "énergie solaire"
+      ],
+      "epoque": "XXe siècle",
+      "naissance": {
+        "date": "1929-06-26",
+        "lieu": "Tessaoua"
+      },
+      "deces": {
+        "date": "1991-04-07",
+        "lieu": "Niamey"
+      },
+      "sources": [
+        "S67",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-personnalite-moustapha-alassane",
+      "nom": "Moustapha Alassane",
+      "description": "Cinéaste, animateur et producteur né en 1942 à N'Dougou, d'abord mécanicien, il apprend le cinéma à Niamey auprès de Jean Rouch puis l'animation au Canada auprès de Norman McLaren. Il a réalisé une trentaine de films, dont les premiers dessins animés d'Afrique subsaharienne, et a dirigé la section cinéma de l'université de Niamey pendant quinze ans. Il est mort à Ouagadougou le 17 mars 2015.",
+      "wikidata": "Q3326300",
+      "roles": [
+        "cinéaste",
+        "animateur",
+        "enseignant"
+      ],
+      "domaines": [
+        "cinéma"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "naissance": {
+        "date": "1942",
+        "lieu": "N'Dougou"
+      },
+      "deces": {
+        "date": "2015-03-17",
+        "lieu": "Ouagadougou"
+      },
+      "sources": [
+        "S41",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-personnalite-oumarou-ganda",
+      "nom": "Oumarou Ganda",
+      "description": "Né à Niamey en 1935 dans une culture zarma, il s'engage à 17 ans comme tirailleur et sert en Indochine, puis émigre en Côte d'Ivoire où il rencontre Jean Rouch et joue dans Moi, un Noir (1958). Revenu à Niamey, il réalise Cabascabo (1969) puis Le Wazzou polygame, grand prix du FESPACO en 1972, entièrement tourné en zarma. Il meurt à Niamey le 1er janvier 1981.",
+      "wikidata": "Q128704",
+      "roles": [
+        "cinéaste",
+        "acteur"
+      ],
+      "domaines": [
+        "cinéma"
+      ],
+      "epoque": "XXe siècle",
+      "naissance": {
+        "date": "1935",
+        "lieu": "Niamey"
+      },
+      "deces": {
+        "date": "1981-01-01",
+        "lieu": "Niamey"
+      },
+      "sources": [
+        "S40",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-personnalite-bombino",
+      "nom": "Bombino (Omara Moctar)",
+      "description": "Guitariste, compositeur et chanteur touareg, né Goumour Almoctar le 1er janvier 1980 dans un campement nomade au nord-est d'Agadez, de la tribu des Ifoghas (Kel Aïr). Il se fait connaître avec l'album Agadez (2011, Cumbancha Records), puis Nomad (2013, Nonesuch Records), produit avec Dan Auerbach. Il appelle ses auditeurs à défendre leur identité touarègue et à scolariser les enfants.",
+      "wikidata": "Q891919",
+      "roles": [
+        "guitariste",
+        "compositeur",
+        "chanteur"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXIe siècle",
+      "naissance": {
+        "date": "1980-01-01",
+        "lieu": "campement nomade au nord-est d'Agadez (Tidène selon Wikidata)"
+      },
+      "sources": [
+        "S46",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-personnalite-hawad",
+      "nom": "Hawad",
+      "description": "Poète et peintre touareg né en 1950 dans la famille des Ikazkazan, du groupe Kel Aïr. Il écrit dans sa langue, notée en tifinagh, et la traduit avec sa femme, la chercheuse Hélène Claudot-Hawad ; il invente la « furigraphie », un tifinagh modifié. Il vit en exil à Aix-en-Provence.",
+      "wikidata": "Q5684173",
+      "roles": [
+        "poète",
+        "peintre"
+      ],
+      "domaines": [
+        "littérature",
+        "arts"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "naissance": {
+        "date": "1950"
+      },
+      "sources": [
+        "S47",
+        "S63"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Hawad se définit comme touareg plutôt que comme nigérien (Poetry Translation Centre) : cette identification est rapportée telle quelle, sans position de MonBaobab.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-personnalite-abdoulrazak-alfaga",
+      "nom": "Abdoulrazak Issoufou Alfaga",
+      "description": "Taekwondoïste, il a pratiqué enfant malgré l'opposition de ses parents avant d'être sélectionné en équipe nationale en 2011. Médaillé d'or aux Jeux africains de 2015, il décroche l'argent aux Jeux olympiques de Rio en 2016 dans la catégorie des plus de 80 kg, deuxième médaille olympique de l'histoire du Niger après le bronze d'Issaka Daboré en 1972. Il est champion du monde en 2017.",
+      "wikidata": "Q25433452",
+      "roles": [
+        "taekwondoïste"
+      ],
+      "domaines": [
+        "sport"
+      ],
+      "epoque": "XXIe siècle",
+      "naissance": {
+        "date": "1994-12-26",
+        "lieu": "Niamey"
+      },
+      "sources": [
+        "S53",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-personnalite-hadijatou-mani",
+      "nom": "Hadijatou Mani (Hadizatou Mani)",
+      "description": "Militante contre l'esclavage, elle a porté son affaire devant la Cour de justice de la CEDEAO, qui a jugé à Niamey le 27 octobre 2008 que le Niger n'avait pas su la protéger de l'esclavage. La Cour a retenu qu'elle avait été tenue en esclavage près de neuf ans et lui a accordé 10 millions de francs CFA. C'était la première affaire d'esclavage jugée par cette cour et la première contre l'État nigérien devant une juridiction internationale ou régionale.",
+      "wikidata": "Q5637905",
+      "roles": [
+        "militante",
+        "plaignante devant la Cour de justice de la CEDEAO"
+      ],
+      "domaines": [
+        "droits humains"
+      ],
+      "epoque": "XXIe siècle",
+      "naissance": {
+        "date": "1984",
+        "lieu": "Tahoua (selon Wikidata)"
+      },
+      "note": "L'année de naissance (1984) est déduite de Wikidata et de l'âge de 24 ans indiqué par INTERIGHTS en 2008.",
+      "sources": [
+        "S43",
+        "S63"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Victime d'esclavage et de violences : la fiche s'en tient au jugement public et ne reprend aucun détail intime.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-personnalite-aichatou-mindaoudou",
+      "nom": "Aïchatou Mindaoudou",
+      "description": "Professeure de droit à l'université de Niamey, elle devient ministre pour la première fois en 1995 (Développement social), puis ministre des Affaires étrangères, de la Coopération et de l'Intégration africaine ; en 2006, Jeune Afrique la décrit comme une figure clé de la sous-région. Le secrétaire général de l'ONU l'a nommée en mai 2013 sa représentante spéciale pour la Côte d'Ivoire et chef de l'ONUCI.",
+      "wikidata": "Q2876218",
+      "roles": [
+        "ministre des Affaires étrangères",
+        "diplomate",
+        "représentante spéciale de l'ONU"
+      ],
+      "domaines": [
+        "politique",
+        "diplomatie",
+        "droit"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "naissance": {
+        "date": "1959"
+      },
+      "note": "Les sources divergent sur la date exacte (14 octobre ou 3 janvier 1959) et le lieu ; seule l'année est retenue.",
+      "sources": [
+        "S48",
+        "S49",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-personnalite-mariama-hima",
+      "nom": "Mariama Hima",
+      "description": "Cinéaste, anthropologue et ethnolinguiste, elle a été conservatrice du Musée national, directrice nationale de la culture puis ambassadrice du Niger en France. Elle a filmé sa recherche doctorale sous la direction de Jean Rouch et réalisé des films sur le recyclage, dont Baabu Banza (1984), Falaw (1985), Toukou (1986) et Katako (1987). Elle a aussi publié un livre de proverbes, Sagesse africaine (1998).",
+      "wikidata": "Q16937510",
+      "roles": [
+        "cinéaste",
+        "anthropologue",
+        "directrice de la culture",
+        "ambassadrice"
+      ],
+      "domaines": [
+        "cinéma",
+        "anthropologie",
+        "culture"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "naissance": {
+        "date": "1951-02-20",
+        "lieu": "Niamey"
+      },
+      "sources": [
+        "S50",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-personnalite-hamsou-garba",
+      "nom": "Hamsou Garba",
+      "description": "Chanteuse née à Maradi le 25 décembre 1958, pionnière de la musique tradi-moderne nigérienne, elle débute dans la troupe de quartier Samaria Sabongari avant de fonder le groupe Anashua en 1991. Elle a produit dix albums, dont Gargadi (2008), et chanté les mariages forcés, la tolérance et l'unité sociale ; elle a aussi lancé le festival Zanzaro. Elle est morte le 5 décembre 2022 à l'hôpital général de référence de Niamey.",
+      "wikidata": "Q42907551",
+      "roles": [
+        "chanteuse",
+        "productrice"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "naissance": {
+        "date": "1958-12-25",
+        "lieu": "Maradi"
+      },
+      "deces": {
+        "date": "2022-12-05",
+        "lieu": "Niamey"
+      },
+      "sources": [
+        "S44",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-personnalite-zalika-souley",
+      "nom": "Zalika Souley",
+      "description": "Présentée comme la première actrice africaine vraiment professionnelle, elle a joué dans de nombreux films des cinéastes nigériens Moustapha Alassane et Oumarou Ganda, ainsi que de réalisateurs d'autres pays. Le documentaire Al'lèèssi, une actrice africaine (2004) retrace sa carrière et l'histoire du cinéma nigérien. Wikidata donne 1947 comme naissance à Niamey et 2021 pour son décès.",
+      "wikidata": "Q3574689",
+      "roles": [
+        "actrice"
+      ],
+      "domaines": [
+        "cinéma"
+      ],
+      "epoque": "XXe siècle",
+      "naissance": {
+        "date": "1947-10-07",
+        "lieu": "Niamey"
+      },
+      "deces": {
+        "date": "2021-07-27",
+        "lieu": "Niamey"
+      },
+      "sources": [
+        "S42",
+        "S40",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-personnalite-rahmatou-keita",
+      "nom": "Rahmatou Keïta",
+      "description": "Journaliste et réalisatrice nigérienne, elle a signé le documentaire Al'lèèssi, une actrice africaine (2004, 69 minutes), consacré à l'actrice Zalika Souley et à l'histoire du cinéma nigérien. Elle y rappelle que les deux premiers grands cinéastes du pays, Moustapha Alassane et Oumarou Ganda, avaient été assistants de Jean Rouch.",
+      "wikidata": "Q3417580",
+      "roles": [
+        "réalisatrice",
+        "journaliste"
+      ],
+      "domaines": [
+        "cinéma",
+        "journalisme"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "naissance": {
+        "date": "1957",
+        "lieu": "Niamey"
+      },
+      "sources": [
+        "S42",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-personnalite-mariam-kamara",
+      "nom": "Mariam Kamara",
+      "description": "Architecte, elle a fondé et dirige à Niamey l'atelier Masōmī, qui conçoit des solutions adaptées au climat, à la culture et à l'histoire locale. Cofondatrice du bureau collaboratif united4design à Seattle, elle enseigne à l'université Brown depuis 2017. Son mémoire de 2013, Mobile Loitering, portait sur le genre et l'espace public au Niger.",
+      "wikidata": "Q105565734",
+      "roles": [
+        "architecte",
+        "enseignante"
+      ],
+      "domaines": [
+        "architecture"
+      ],
+      "epoque": "XXIe siècle",
+      "naissance": {
+        "date": "1979-04",
+        "lieu": "Saint-Étienne (France)"
+      },
+      "note": "Nigérienne née en France, elle travaille à Niamey ; le lieu de naissance vient de Wikidata.",
+      "sources": [
+        "S51",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "evenements": [
+    {
+      "id": "NE-evenement-gobero-premier-cimetiere",
+      "titre": "Premiers cimetières de Gobero",
+      "description": "Des chasseurs-pêcheurs-cueilleurs largement sédentaires enterrent leurs morts au bord d'un lac, à l'ouest du Ténéré : c'est le plus ancien cimetière connu du Sahara. Ils quittent les lieux durant une longue phase d'aridité vers 6200 av. J.-C.",
+      "date": "-007699-01-01",
+      "date_affichee": "vers 7700 av. J.-C.",
+      "precision": "siecle",
+      "fin": "-006199-01-01",
+      "regions": [
+        "Ténéré"
+      ],
+      "sources": [
+        "S17"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Il s'agit de sépultures : voir la note de sensibilité du site de Gobero.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-gobero-retour",
+      "titre": "Retour des occupants de Gobero",
+      "description": "Après la phase aride, des populations plus graciles s'installent à Gobero à partir de 5200 av. J.-C., avec des offrandes en os et en ivoire, une économie fondée sur les coquillages, le poisson et la savane, et un peu d'élevage bovin. L'occupation s'achève vers 2500 av. J.-C.",
+      "date": "-005199-01-01",
+      "date_affichee": "à partir de 5200 av. J.-C.",
+      "precision": "siecle",
+      "fin": "-002499-01-01",
+      "regions": [
+        "Ténéré"
+      ],
+      "sources": [
+        "S17"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-goubawa-arewa",
+      "titre": "Les Goubawa et l'Arewa",
+      "description": "Selon la liste indicative de Lougou, les premiers habitants de l'Arewa, les Goubawa ou Goubé, sont trouvés sur place par les Zarma, les Kourfayawa, les Peuls et les Touaregs à la fin du XIVe siècle. La tradition y rattache la première Sarraounia, venue du royaume de Daoura.",
+      "date": "1390-01-01",
+      "date_affichee": "fin du XIVe siècle",
+      "precision": "siecle",
+      "regions": [
+        "Dallol Bosso",
+        "Maouri"
+      ],
+      "sources": [
+        "S14"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-aur-agadez",
+      "titre": "Le sultanat de l'Aïr s'établit à Agadez",
+      "description": "Aux XVe et XVIe siècles, Agadez se développe lorsque le sultanat de l'Aïr s'y installe et que des communautés touarègues se sédentarisent en respectant les anciens campements. Le tracé urbain issu de cette époque est encore visible.",
+      "date": "1450-01-01",
+      "date_affichee": "XVe-XVIe siècle",
+      "precision": "siecle",
+      "regions": [
+        "Agadez"
+      ],
+      "sources": [
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-zarmakoye",
+      "titre": "Début de la dynastie des Zarmakoye",
+      "description": "Selon la liste indicative de Dosso, le règne des Zarmakoye a débuté au XVe siècle, quand Boukar, fils de Tagur Gana, s'installe dans le Zigui.",
+      "date": "1450-01-01",
+      "date_affichee": "XVe siècle",
+      "precision": "siecle",
+      "regions": [
+        "Dosso"
+      ],
+      "sources": [
+        "S9"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-damagaram-origine",
+      "titre": "Origine du sultanat du Damagaram",
+      "description": "Le sultanat du Damagaram est situé par la liste indicative de Zinder vers 1736. Les résidences des sultans changent jusqu'en 1812, date à laquelle Suleymane Dan Tanimoune installe le siège à Zinder, dans le quartier de Birni.",
+      "date": "1736-01-01",
+      "date_affichee": "vers 1736",
+      "precision": "annee",
+      "fin": "1812-01-01",
+      "regions": [
+        "Zinder"
+      ],
+      "sources": [
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-palais-zinder",
+      "titre": "Construction du palais du sultan de Zinder",
+      "description": "Le palais du sultan aurait été construit entre 1850 et 1852 sous le règne de Tanimoune, sous la supervision du maître maçon Mahaman Giwa. Le quartier de Birni est ensuite protégé par une muraille érigée en 1855-1856.",
+      "date": "1850-01-01",
+      "date_affichee": "1850-1852",
+      "precision": "annee",
+      "fin": "1852-12-31",
+      "regions": [
+        "Zinder"
+      ],
+      "sources": [
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-lougou-1899",
+      "titre": "Résistance de Lougou face à la colonne Voulet-Chanoine",
+      "description": "En 1899, la colonne française dite Mission Afrique centrale se heurte à la résistance des villages de Lougou et de Tongana. Les archives françaises citent 7 000 cartouches tirées, 4 tués et 6 blessés ; la tradition orale en fait un épisode de résistance de la Sarraounia Mangou. La date varie selon les sources.",
+      "date": "1899-04-01",
+      "date_affichee": "1899 (avril, ou mai-juin selon la liste indicative)",
+      "precision": "annee",
+      "regions": [
+        "Lougou",
+        "Arewa"
+      ],
+      "acteurs": [
+        "Sarraounia Mangou",
+        "Mission Voulet-Chanoine"
+      ],
+      "sources": [
+        "S26",
+        "S14"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Récit contesté entre tradition orale et archives ; événement colonial violent, présenté avec ses sources.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-dankori-1899",
+      "titre": "Drame de Dankori",
+      "description": "Le 14 juillet 1899, à Dankori, Voulet refuse de se rendre au colonel Klobb, venu arrêter les exactions de la mission, et le tue lors d'une escarmouche. Voulet est ensuite tué à son tour par ses propres tirailleurs.",
+      "date": "1899-07-14",
+      "date_affichee": "14 juillet 1899",
+      "precision": "jour",
+      "regions": [
+        "Dankori"
+      ],
+      "acteurs": [
+        "Paul Voulet",
+        "colonel Klobb"
+      ],
+      "sources": [
+        "S26"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Violences coloniales : les faits sont rapportés tels qu'ils figurent dans l'article cité.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-zinder-capitale",
+      "titre": "Zinder, capitale du territoire",
+      "description": "Zinder est capitale du Niger de 1911 à 1926, grâce à sa position de carrefour entre le Sahara et le Nigeria.",
+      "date": "1911-01-01",
+      "date_affichee": "1911-1926",
+      "precision": "annee",
+      "fin": "1926-12-31",
+      "regions": [
+        "Zinder"
+      ],
+      "sources": [
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-revolte-kaocen",
+      "titre": "Révolte de Kaocen à Agadez",
+      "description": "En décembre 1916, la révolte des Sénoussistes dirigée par Kaocen éclate à Agadez contre l'occupation française et interrompt provisoirement le commerce des caravanes de sel, qui ne reprennent qu'en 1920.",
+      "date": "1916-12-01",
+      "date_affichee": "décembre 1916",
+      "precision": "mois",
+      "fin": "1917-12-31",
+      "regions": [
+        "Agadez",
+        "Aïr"
+      ],
+      "acteurs": [
+        "Kaocen"
+      ],
+      "sources": [
+        "S11"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement de résistance anticoloniale ; les chiffres de la répression diffèrent selon les sources et ne sont pas repris ici.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-colonie-1922",
+      "titre": "Création de la colonie du Niger",
+      "description": "Le Niger devient une colonie distincte en 1922, avec Jules Brévié comme premier gouverneur.",
+      "date": "1922-01-01",
+      "date_affichee": "1922",
+      "precision": "annee",
+      "regions": [
+        "Niger"
+      ],
+      "sources": [
+        "S65"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-famine-1931",
+      "titre": "Grande famine de 1931",
+      "description": "L'Ouest nigérien, où vivent les Zarma et Songhaï, subit en 1931 une grande famine que Finn Fuglestad étudie comme une catastrophe naturelle. L'article s'appuie sur des témoignages oraux d'environ 80 personnes.",
+      "date": "1931-01-01",
+      "date_affichee": "1931",
+      "precision": "annee",
+      "regions": [
+        "Ouest nigérien"
+      ],
+      "sources": [
+        "S18"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-ppn-1946",
+      "titre": "Fondation du Parti progressiste nigérien",
+      "description": "En 1946, le Parti progressiste nigérien (PPN) est créé ; il devient en 1947 la section nigérienne du Rassemblement démocratique africain. Djibo Bakary, Hamani Diori et Boubou Hama en sont les dirigeants.",
+      "date": "1946-01-01",
+      "date_affichee": "1946",
+      "precision": "annee",
+      "regions": [
+        "Niger"
+      ],
+      "acteurs": [
+        "Djibo Bakary",
+        "Hamani Diori",
+        "Boubou Hama"
+      ],
+      "sources": [
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-bakary-maire-1956",
+      "titre": "Djibo Bakary, premier maire de Niamey",
+      "description": "À l'issue des élections municipales de 1956, l'Union démocratique nigérienne remporte un premier succès et Djibo Bakary devient le premier maire de Niamey.",
+      "date": "1956-01-01",
+      "date_affichee": "1956",
+      "precision": "annee",
+      "regions": [
+        "Niamey"
+      ],
+      "acteurs": [
+        "Djibo Bakary"
+      ],
+      "sources": [
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-referendum-1958",
+      "titre": "Référendum de 1958 et République nigérienne",
+      "description": "En 1958, les Nigériens se prononcent sur le maintien dans une communauté franco-africaine : Djibo Bakary défend le non, Hamani Diori et Boubou Hama le oui. La République est proclamée le 18 décembre 1958, avec Hamani Diori pour président.",
+      "date": "1958-12-18",
+      "date_affichee": "18 décembre 1958",
+      "precision": "jour",
+      "regions": [
+        "Niger"
+      ],
+      "acteurs": [
+        "Djibo Bakary",
+        "Hamani Diori",
+        "Boubou Hama"
+      ],
+      "sources": [
+        "S38",
+        "S45"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-sawaba-dissous-1959",
+      "titre": "Dissolution du Sawaba",
+      "description": "En décembre 1959, le MSA-Sawaba est dissous par le gouvernement ; ses membres entrent dans la clandestinité et ses cadres en exil poursuivent leur action.",
+      "date": "1959-12-01",
+      "date_affichee": "décembre 1959",
+      "precision": "mois",
+      "regions": [
+        "Niger"
+      ],
+      "acteurs": [
+        "Djibo Bakary"
+      ],
+      "sources": [
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-independance-1960",
+      "titre": "Indépendance du Niger",
+      "description": "Le 3 août 1960, dans la soirée, Hamani Diori déclare solennellement l'indépendance du Niger depuis le palais de la Présidence. Il n'y avait pas encore d'hymne national, et des défilés, des danses et des courses ont marqué la fête.",
+      "date": "1960-08-03",
+      "date_affichee": "3 août 1960",
+      "precision": "jour",
+      "regions": [
+        "Niamey"
+      ],
+      "acteurs": [
+        "Hamani Diori"
+      ],
+      "sources": [
+        "S45"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-fete-arbre-1964",
+      "titre": "Première fête de l'arbre",
+      "description": "En 1964, la fête de l'arbre est célébrée pour la première fois, associée à la fête de l'indépendance ; Hamani Diori y plante des manguiers face à l'arbre de la liberté, à Niamey.",
+      "date": "1964-01-01",
+      "date_affichee": "1964",
+      "precision": "annee",
+      "regions": [
+        "Niamey"
+      ],
+      "acteurs": [
+        "Hamani Diori"
+      ],
+      "sources": [
+        "S45"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-somair-1968",
+      "titre": "Création de la SOMAÏR et début de l'uranium",
+      "description": "La Société des Mines de l'Aïr est créée en 1968 et commence à produire du minerai à Arlit en 1971. C'est la première mine commerciale d'uranium du pays.",
+      "date": "1968-01-01",
+      "date_affichee": "1968 (production dès 1971)",
+      "precision": "annee",
+      "fin": "1971-12-31",
+      "regions": [
+        "Arlit",
+        "Agadez"
+      ],
+      "sources": [
+        "S58"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-cabascabo-cannes-1969",
+      "titre": "Cabascabo à Cannes",
+      "description": "Le premier film d'Oumarou Ganda, Cabascabo, est sélectionné à la Semaine de la critique du Festival de Cannes en 1969, puis reçoit le prix spécial du jury à Moscou.",
+      "date": "1969-01-01",
+      "date_affichee": "1969",
+      "precision": "annee",
+      "regions": [
+        "Niamey",
+        "Cannes"
+      ],
+      "acteurs": [
+        "Oumarou Ganda"
+      ],
+      "sources": [
+        "S40"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-wazzou-fespaco-1972",
+      "titre": "Le Wazzou polygame, grand prix du FESPACO",
+      "description": "Le film d'Oumarou Ganda, tourné entièrement en zarma, reçoit le grand prix du FESPACO en 1972.",
+      "date": "1972-01-01",
+      "date_affichee": "1972",
+      "precision": "annee",
+      "regions": [
+        "Niamey",
+        "Ouagadougou"
+      ],
+      "acteurs": [
+        "Oumarou Ganda"
+      ],
+      "sources": [
+        "S40"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-arbre-tenere-1973",
+      "titre": "Chute de l'Arbre du Ténéré",
+      "description": "L'arbre du Ténéré, repère des caravanes, est renversé en 1973 par un camion. Ses restes sont transportés le 8 novembre 1973 au musée national de Niamey.",
+      "date": "1973-01-01",
+      "date_affichee": "1973",
+      "precision": "annee",
+      "regions": [
+        "Ténéré",
+        "Niamey"
+      ],
+      "sources": [
+        "S66"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-coup-1974",
+      "titre": "Coup d'État du 15 avril 1974",
+      "description": "Le 15 avril 1974, Seyni Kountché prend le pouvoir et met fin à la présidence de Hamani Diori, qui sera emprisonné puis assigné à résidence. Les sawabistes en exil, dont Djibo Bakary, sont appelés à rentrer.",
+      "date": "1974-04-15",
+      "date_affichee": "15 avril 1974",
+      "precision": "jour",
+      "regions": [
+        "Niamey"
+      ],
+      "acteurs": [
+        "Seyni Kountché",
+        "Hamani Diori"
+      ],
+      "sources": [
+        "S52",
+        "S38",
+        "S65"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Changement de régime par la force ; présentation factuelle.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-sarraounia-film-1986",
+      "titre": "Sarraounia, film de Med Hondo",
+      "description": "Le film Sarraounia de Med Hondo, adapté et dialogué par Abdoulaye Mamani, est produit en 1986 par la direction cinématographique nationale du Burkina Faso et les Films Ô.",
+      "date": "1986-01-01",
+      "date_affichee": "1986",
+      "precision": "annee",
+      "regions": [
+        "Niger",
+        "Burkina Faso"
+      ],
+      "acteurs": [
+        "Med Hondo",
+        "Abdoulaye Mamani"
+      ],
+      "sources": [
+        "S26"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-aur-tenere-1991",
+      "titre": "Inscription de l'Aïr et du Ténéré",
+      "description": "Les réserves naturelles de l'Aïr et du Ténéré sont inscrites au patrimoine mondial en 1991, puis sur la liste du patrimoine en péril en 1992.",
+      "date": "1991-01-01",
+      "date_affichee": "1991",
+      "precision": "annee",
+      "regions": [
+        "Agadez"
+      ],
+      "sources": [
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-conference-nationale-1991",
+      "titre": "Conférence nationale de 1991",
+      "description": "À partir du 29 juillet 1991, la conférence nationale est suivie d'un gouvernement de transition dirigé par Amadou Cheiffou, étape vers le retour à des institutions civiles.",
+      "date": "1991-07-29",
+      "date_affichee": "à partir du 29 juillet 1991",
+      "precision": "jour",
+      "regions": [
+        "Niamey"
+      ],
+      "acteurs": [
+        "Amadou Cheiffou"
+      ],
+      "sources": [
+        "S65"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-accord-paix-1995",
+      "titre": "Accord de paix avec l'Organisation de la résistance armée",
+      "description": "Le 15 avril 1995, un accord établissant une paix définitive entre le gouvernement et l'Organisation de la résistance armée est paraphé à Ouagadougou, après des combats surtout dans l'Aïr depuis 1990. Il est solennellement signé à Niamey le 24 avril 1995.",
+      "date": "1995-04-15",
+      "date_affichee": "15 avril 1995",
+      "precision": "jour",
+      "regions": [
+        "Aïr",
+        "Niamey",
+        "Ouagadougou"
+      ],
+      "acteurs": [
+        "gouvernement du Niger",
+        "Organisation de la résistance armée"
+      ],
+      "sources": [
+        "S57"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Conflit entre l'État et des mouvements touaregs : positions présentées telles que décrites dans l'accord.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-cour-cedeao-2008",
+      "titre": "Jugement de la Cour de justice de la CEDEAO",
+      "description": "Le 27 octobre 2008, la Cour de justice de la CEDEAO juge à Niamey que le Niger a manqué à son devoir de protéger Hadijatou Mani de l'esclavage. C'est le premier cas d'esclavage jugé par cette cour.",
+      "date": "2008-10-27",
+      "date_affichee": "27 octobre 2008",
+      "precision": "jour",
+      "regions": [
+        "Niamey"
+      ],
+      "acteurs": [
+        "Hadijatou Mani"
+      ],
+      "sources": [
+        "S43"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Affaire d'esclavage : présentée à partir du jugement public.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-agadez-2013",
+      "titre": "Agadez inscrite au patrimoine mondial",
+      "description": "Le centre historique d'Agadez est inscrit au patrimoine mondial en 2013, cité pour son rôle de carrefour caravanier et son architecture en terre.",
+      "date": "2013-01-01",
+      "date_affichee": "2013",
+      "precision": "annee",
+      "regions": [
+        "Agadez"
+      ],
+      "sources": [
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-ich-2013-2014",
+      "titre": "Imzad (2013) et parentés à plaisanterie (2014) à l'UNESCO",
+      "description": "L'imzad touareg est inscrit en 2013 avec l'Algérie et le Mali, et les parentés à plaisanterie en 2014 : ce sont les deux éléments du patrimoine immatériel nigérien sur la Liste représentative.",
+      "date": "2013-01-01",
+      "date_affichee": "2013-2014",
+      "precision": "annee",
+      "fin": "2014-12-31",
+      "regions": [
+        "Niger"
+      ],
+      "sources": [
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-rio-2016",
+      "titre": "Argent olympique de Rio",
+      "description": "Abdoulrazak Issoufou Alfaga remporte l'argent en taekwondo (plus de 80 kg) aux Jeux olympiques de Rio, la deuxième médaille olympique de l'histoire du Niger.",
+      "date": "2016-01-01",
+      "date_affichee": "2016",
+      "precision": "annee",
+      "regions": [
+        "Rio de Janeiro"
+      ],
+      "acteurs": [
+        "Abdoulrazak Issoufou Alfaga"
+      ],
+      "sources": [
+        "S53"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-inates-2019",
+      "titre": "Attaque d'Inates",
+      "description": "Au moins 71 militaires nigériens sont tués dans l'attaque d'une garnison à Inates, près de la frontière avec le Mali, selon le ministère de la Défense ; c'est l'attaque la plus meurtrière enregistrée dans cette zone.",
+      "date": "2019-12-01",
+      "date_affichee": "décembre 2019",
+      "precision": "mois",
+      "regions": [
+        "Inates",
+        "Tillabéri"
+      ],
+      "sources": [
+        "S56"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Violence armée récente : bilan rapporté d'après le ministère de la Défense.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-coup-2023",
+      "titre": "Coup d'État du 26 juillet 2023",
+      "description": "Dans la nuit du 26 au 27 juillet 2023, des militaires annoncent mettre fin au régime du président Mohamed Bazoum, retenu à la présidence à Niamey ; l'état-major déclare souscrire à leur déclaration. Les institutions et la Constitution sont suspendues, et les autorités militaires dirigent le pays depuis.",
+      "date": "2023-07-26",
+      "date_affichee": "26 juillet 2023",
+      "precision": "jour",
+      "regions": [
+        "Niamey"
+      ],
+      "acteurs": [
+        "Mohamed Bazoum",
+        "forces de défense et de sécurité"
+      ],
+      "sources": [
+        "S54",
+        "S64"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement politique récent et disputé : la communauté internationale a réclamé la libération du président ; formulation factuelle.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-evenement-charte-2025",
+      "titre": "Charte de la refondation et retrait de l'OIF",
+      "description": "Le Niger annonce le 17 mars 2025 son retrait de l'Organisation internationale de la Francophonie. Le 26 mars, le président Abdourahamane Tiani entérine la Charte de la refondation, qui se substitue à la Constitution suspendue : son article 12 désigne le haoussa langue nationale et fait du français une langue de travail.",
+      "date": "2025-03-17",
+      "date_affichee": "mars 2025",
+      "precision": "mois",
+      "fin": "2025-03-31",
+      "regions": [
+        "Niamey"
+      ],
+      "acteurs": [
+        "Abdourahamane Tiani"
+      ],
+      "sources": [
+        "S55",
+        "S34"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet politique et linguistique actuel ; la presse diverge sur le terme employé pour le haoussa (langue nationale selon RFI, officielle selon Global Voices).",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "oeuvres": [
+    {
+      "id": "NE-oeuvre-cabascabo",
+      "titre": "Cabascabo (1969)",
+      "description": "Premier film d'Oumarou Ganda, fiction de 45 minutes, montée à Paris au moment de mai 1968. Ganda, ancien tirailleur d'Indochine, l'a réalisé après avoir travaillé avec Jean Rouch. Il a été présenté à Cannes en 1969, puis a reçu le prix spécial du jury à Moscou, un prix de la critique à Málaga et une mention à Carthage. Les fiches donnent 1968 ou 1969 selon les sources.",
+      "type": "film",
+      "createur": "Oumarou Ganda",
+      "institution": "Africiné (fiche film et personne)",
+      "url_notice": "https://www.africine.org/personne/oumarou-ganda/3867",
+      "droits": "Notice documentaire ; droits du film réservés",
+      "periode": "1969",
+      "sources": [
+        "S40"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-oeuvre-wazzou-polygame",
+      "titre": "Le Wazzou polygame (1970)",
+      "description": "Fiction d'Oumarou Ganda tournée entièrement en zarma, sur la polygamie, le mariage forcé et la vengeance d'une coépouse qui se trompe de cible. Critique de ceux qui détiennent un certain pouvoir, elle a reçu le grand prix du FESPACO en 1972. Les fiches la datent de 1970 ou 1971.",
+      "type": "film",
+      "wikidata": "Q6507934",
+      "createur": "Oumarou Ganda",
+      "communaute": [
+        "Zarma"
+      ],
+      "institution": "Africiné (fiche personne)",
+      "url_notice": "https://www.africine.org/personne/oumarou-ganda/3867",
+      "droits": "Notice documentaire ; droits du film réservés",
+      "periode": "1970",
+      "sources": [
+        "S40",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-oeuvre-retour-aventurier",
+      "titre": "Le Retour d'un aventurier (1966)",
+      "description": "Film de fiction de Moustapha Alassane, réalisé en 1966, l'année de Bon voyage Sim. Il appartient à la première série d'œuvres de ce cinéaste, qui a ensuite pratiqué la satire de mœurs, par exemple avec F.V.V.A. (1972).",
+      "type": "film",
+      "createur": "Moustapha Alassane",
+      "institution": "Africiné (fiche personne)",
+      "url_notice": "https://www.africine.org/index.php/personne/moustapha-alassane/3565",
+      "droits": "Notice documentaire ; droits du film réservés",
+      "periode": "1966",
+      "sources": [
+        "S41"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-oeuvre-toula",
+      "titre": "Toula ou le génie des eaux (1973-1974)",
+      "description": "Film de Moustapha Alassane adapté d'un récit de Boubou Hama, avec Anna Soehring selon le site consacré à l'écrivain. Wikidata le date de 1973 ou 1974.",
+      "type": "film",
+      "wikidata": "Q3135668",
+      "createur": "Moustapha Alassane",
+      "institution": "Africiné et Wikidata (notices)",
+      "url_notice": "https://www.africine.org/index.php/personne/moustapha-alassane/3565",
+      "droits": "Notice documentaire ; droits du film réservés",
+      "periode": "1973-1974",
+      "sources": [
+        "S39",
+        "S41",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-oeuvre-alleessi",
+      "titre": "Al'lèèssi, une actrice africaine (2004)",
+      "description": "Documentaire de 69 minutes de Rahmatou Keïta sur l'actrice Zalika Souley, à travers laquelle elle raconte l'histoire du cinéma nigérien, né de l'influence de Jean Rouch et de deux de ses assistants, Moustapha Alassane et Oumarou Ganda.",
+      "type": "film",
+      "wikidata": "Q115953036",
+      "createur": "Rahmatou Keïta",
+      "institution": "Africiné (fiche film)",
+      "url_notice": "https://www.africine.org/film/al-leessi-une-actrice-africaine/570",
+      "droits": "Notice documentaire ; droits du film réservés",
+      "periode": "2004",
+      "sources": [
+        "S42",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-oeuvre-sarraounia-film",
+      "titre": "Sarraounia (1986)",
+      "description": "Film de Med Hondo sur la reine de Lougou, adapté et dialogué par Abdoulaye Mamani d'après son roman. Il est coproduit par la direction cinématographique nationale du Burkina Faso et les Films Ô. Wikidata l'identifie comme un film de 1986.",
+      "type": "film",
+      "wikidata": "Q1194695",
+      "createur": "Med Hondo (adaptation et dialogues : Abdoulaye Mamani)",
+      "institution": "Genre & Histoire n° 8 (note 39)",
+      "url_notice": "https://journals.openedition.org/genrehistoire/1218",
+      "droits": "Notice documentaire ; droits du film réservés",
+      "periode": "1986",
+      "sources": [
+        "S26",
+        "S63"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Histoire contestée entre tradition orale et archives ; voir la fiche de Sarraounia Mangou.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-oeuvre-kotia-nima",
+      "titre": "Kotia-Nima (1968-1969)",
+      "description": "Autobiographie en trois volumes de Boubou Hama, parue en 1968 selon le site consacré à l'auteur, qui lui a valu le Grand Prix littéraire de l'Afrique noire en 1970. Wikidata la date de 1969 et distingue les trois tomes.",
+      "type": "livre",
+      "wikidata": "Q122878640",
+      "createur": "Boubou Hama",
+      "institution": "Site Boubou Hama (notice biographique)",
+      "url_notice": "https://www.boubouhama.com/biographie/",
+      "droits": "Notice documentaire ; droits du texte réservés",
+      "periode": "1968",
+      "sources": [
+        "S39",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-oeuvre-sarraounia-roman",
+      "titre": "Sarraounia, ou le drame de la reine magicienne (1980)",
+      "description": "Roman d'Abdoulaye Mamani, publié à L'Harmattan en 1980, qui s'affranchit volontairement des faits historiques : sa Sarraounia est jeune et magicienne, et porte un message politique contre l'autoritarisme et pour une société égalitaire. Il a donné une dimension nationale à une figure auparavant régionale.",
+      "type": "livre",
+      "createur": "Abdoulaye Mamani",
+      "institution": "OpenEdition Journals (article de Bertho)",
+      "url_notice": "https://journals.openedition.org/genrehistoire/1218",
+      "droits": "Notice documentaire ; droits du texte réservés",
+      "periode": "1980",
+      "sources": [
+        "S26"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-oeuvre-bombino-agadez",
+      "titre": "Agadez (album, 2011)",
+      "description": "Premier album international de Bombino, produit par Ron Wyman et sorti en avril 2011 chez Cumbancha Records, après un enregistrement commencé à Cambridge (Massachusetts) puis terminé à Agadez. Il accompagne un concert pour la paix permis par le sultan d'Agadez à la base de la Grande Mosquée en janvier 2010.",
+      "type": "musique",
+      "createur": "Bombino (Omara Moctar)",
+      "communaute": [
+        "Touaregs Kel Aïr"
+      ],
+      "institution": "Site officiel de Bombino",
+      "url_notice": "http://www.bombinomusic.com/french-bio",
+      "droits": "Notice documentaire ; droits musicaux réservés",
+      "periode": "2011",
+      "sources": [
+        "S46"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-oeuvre-minaret-agadez",
+      "titre": "Minaret de la Grande Mosquée d'Agadez",
+      "description": "Minaret de 27 mètres entièrement en adobe, le plus haut ouvrage de ce type au monde selon l'UNESCO. Il fait partie d'un ensemble religieux et palatial bien conservé au cœur du centre historique d'Agadez.",
+      "type": "architecture",
+      "communaute": [
+        "Touaregs d'Agadez"
+      ],
+      "materiaux": [
+        "banco",
+        "adobe"
+      ],
+      "institution": "Centre historique d'Agadez (bien du patrimoine mondial)",
+      "url_notice": "https://whc.unesco.org/fr/list/1268",
+      "droits": "Description UNESCO sous licence CC BY-SA 3.0 IGO",
+      "periode": "XVe-XVIe siècle",
+      "regions": [
+        "Agadez"
+      ],
+      "sources": [
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-oeuvre-mosquee-yaama",
+      "titre": "Grande mosquée de Yaama",
+      "description": "Mosquée en terre de la région de Tahoua, conçue par l'architecte-maçon Elhadj Mamoudou (Falké) et transformée de 1975 à 1982 avec quatre tours d'angle à deux étages ; elle a reçu le prix Aga Khan d'architecture en 1986.",
+      "type": "architecture",
+      "createur": "Elhadj Mamoudou dit Falké",
+      "communaute": [
+        "Haoussa"
+      ],
+      "materiaux": [
+        "banco"
+      ],
+      "institution": "Village de Yaama, région de Tahoua",
+      "url_notice": "https://whc.unesco.org/en/tentativelists/5042/",
+      "droits": "Description issue de la liste indicative (UNESCO)",
+      "periode": "1962-1982",
+      "regions": [
+        "Tahoua"
+      ],
+      "sources": [
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-oeuvre-dinosaures-musee",
+      "titre": "Squelettes de dinosaures et de crocodiliens du Musée national",
+      "description": "Cinq squelettes sont exposés au Musée national à Niamey : Sarcosuchus imperator, Ouranosaurus nigeriensis, Afrovenator abakensis, Suchomimus tenerensis et Jobaria tiguidensis, long de 20 mètres. Ils proviennent des gisements du nord du pays comme Gadoufaoua.",
+      "type": "fossile",
+      "materiaux": [
+        "fossiles"
+      ],
+      "institution": "Musée national Boubou Hama, Niamey",
+      "url_notice": "https://whc.unesco.org/en/tentativelists/5056/",
+      "droits": "Description issue de la liste indicative (UNESCO)",
+      "periode": "Crétacé",
+      "regions": [
+        "Niamey",
+        "Agadez"
+      ],
+      "sources": [
+        "S15"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-oeuvre-bijou-tuareg-met",
+      "titre": "Bracelet touareg (Met Museum, 1995.597)",
+      "description": "Bracelet d'argent de 5,7 cm de haut attribué aux Touaregs du Niger, daté du XXe siècle et donné au Met en 1995 par John et Nicole Dintenfass. La notice est ouverte, mais l'image de cet objet n'est pas libre de droits.",
+      "type": "bijou",
+      "createur": "artiste touareg",
+      "communaute": [
+        "Touaregs"
+      ],
+      "materiaux": [
+        "argent"
+      ],
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "1995.597",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/317778",
+      "droits": "Notice Met Open Access (CC0) ; image non libre pour cet objet",
+      "periode": "XXe siècle",
+      "regions": [
+        "Niger"
+      ],
+      "sources": [
+        "S59",
+        "S23"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-oeuvre-poteau-tente-met",
+      "titre": "Ehel (poteau de tente touareg, Met Museum, 1998.390.2)",
+      "description": "Poteau de tente en bois haut de 44 pouces (environ 112 cm), attribué aux Touaregs du Niger, daté du début au milieu du XXe siècle et donné au Met en 1998 par Marilyn Johnson. La notice est ouverte, l'image n'est pas libre de droits.",
+      "type": "sculpture",
+      "createur": "artiste touareg",
+      "communaute": [
+        "Touaregs"
+      ],
+      "materiaux": [
+        "bois"
+      ],
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "1998.390.2",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/317894",
+      "droits": "Notice Met Open Access (CC0) ; image non libre pour cet objet",
+      "periode": "début-milieu du XXe siècle",
+      "regions": [
+        "Niger"
+      ],
+      "sources": [
+        "S60"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-oeuvre-statuettes-bura",
+      "titre": "Urnes funéraires anthropomorphes de Bura",
+      "description": "Les jarres-cercueils de Bura sont surmontées de têtes ou de statuettes anthropomorphes en terre cuite et contiennent des squelettes. La liste indicative de l'UNESCO les décrit en trois formes : vases longiformes de 70 à 80 cm, vases hémisphériques de 20 à 40 cm et jarres semi-ovoïdes de 50 à 70 cm.",
+      "type": "sculpture",
+      "materiaux": [
+        "terre cuite"
+      ],
+      "institution": "Site archéologique de Bura (liste indicative)",
+      "url_notice": "https://whc.unesco.org/en/tentativelists/5045/",
+      "droits": "Description issue de la liste indicative (UNESCO)",
+      "regions": [
+        "nord-ouest de Niamey"
+      ],
+      "sources": [
+        "S13"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Urnes funéraires contenant des restes humains : consultation de la communauté locale avant toute diffusion d'images.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "proverbes": [
+    {
+      "id": "NE-proverbe-tam-voir",
+      "texte_original": "Anay yazinkaz téssalé",
+      "langue": "tamasheq (Aïr)",
+      "traduction": "Mieux vaut voir que d'entendre.",
+      "sens": "Ce que l'on constate soi-même vaut mieux que ce que l'on rapporte.",
+      "publication": "Alghoubas Adouma, Apprendre le tamacheq (Allamad n' tamacheq), manuel d'un étudiant de l'Université de Niamey, sans éditeur ni date, numérisé sur archive.org (mis en ligne le 2018-11-11), section 41 « Maximes, proverbes et citations touarègues ».",
+      "sources": [
+        "S61"
+      ],
+      "note": "Transcription en lettres latines de l'auteur, originaire de Timia (Aïr) ; orthographe non normalisée. Source non académique, à faire relire par un locuteur.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-proverbe-tam-arbre",
+      "texte_original": "Achik iyan war titinkil efay",
+      "langue": "tamasheq (Aïr)",
+      "traduction": "Un seul arbre ne cache pas la forêt.",
+      "sens": "Un cas isolé ne dit rien de l'ensemble.",
+      "publication": "Alghoubas Adouma, Apprendre le tamacheq (Allamad n' tamacheq), manuel d'un étudiant de l'Université de Niamey, sans éditeur ni date, numérisé sur archive.org (mis en ligne le 2018-11-11), section 41 « Maximes, proverbes et citations touarègues ».",
+      "sources": [
+        "S61"
+      ],
+      "note": "Transcription en lettres latines de l'auteur, originaire de Timia (Aïr) ; orthographe non normalisée. Source non académique, à faire relire par un locuteur.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-proverbe-tam-doigt",
+      "texte_original": "Adad wardabagh tafouk",
+      "langue": "tamasheq (Aïr)",
+      "traduction": "Le doigt ne peut pas cacher le soleil.",
+      "sens": "On ne peut pas dissimuler ce qui est évident.",
+      "publication": "Alghoubas Adouma, Apprendre le tamacheq (Allamad n' tamacheq), manuel d'un étudiant de l'Université de Niamey, sans éditeur ni date, numérisé sur archive.org (mis en ligne le 2018-11-11), section 41 « Maximes, proverbes et citations touarègues ».",
+      "sources": [
+        "S61"
+      ],
+      "note": "Transcription en lettres latines de l'auteur, originaire de Timia (Aïr) ; orthographe non normalisée. Source non académique, à faire relire par un locuteur.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-proverbe-tam-tentes",
+      "texte_original": "Sinimigagat ehnan nawan tiznimihazam iwlawan nawan",
+      "langue": "tamasheq (Aïr)",
+      "traduction": "Éloignez vos tentes ; rapprochez vos cœurs.",
+      "sens": "On peut garder ses distances matérielles tout en cultivant l'amitié.",
+      "publication": "Alghoubas Adouma, Apprendre le tamacheq (Allamad n' tamacheq), manuel d'un étudiant de l'Université de Niamey, sans éditeur ni date, numérisé sur archive.org (mis en ligne le 2018-11-11), section 41 « Maximes, proverbes et citations touarègues ».",
+      "sources": [
+        "S61"
+      ],
+      "note": "Transcription en lettres latines de l'auteur, originaire de Timia (Aïr) ; orthographe non normalisée. Source non académique, à faire relire par un locuteur.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-proverbe-tam-mensonge",
+      "texte_original": "Ighounan bahou yilakoknen",
+      "langue": "tamasheq (Aïr)",
+      "traduction": "Les cordes du mensonge sont très fragiles.",
+      "sens": "Le mensonge ne tient pas longtemps.",
+      "publication": "Alghoubas Adouma, Apprendre le tamacheq (Allamad n' tamacheq), manuel d'un étudiant de l'Université de Niamey, sans éditeur ni date, numérisé sur archive.org (mis en ligne le 2018-11-11), section 41 « Maximes, proverbes et citations touarègues ».",
+      "sources": [
+        "S61"
+      ],
+      "note": "Transcription en lettres latines de l'auteur, originaire de Timia (Aïr) ; orthographe non normalisée. Source non académique, à faire relire par un locuteur.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-proverbe-azawagh-nouvelles",
+      "langue": "tamasheq (Azawagh)",
+      "traduction": "L'absence de nouvelles, c'est la paix.",
+      "sens": "Équivalent du français « pas de nouvelles, bonnes nouvelles ».",
+      "publication": "Alhassane Ag Solimane, Les gens de la parole disent. Proverbes touaregs de l'Azawagh, trad. et comm. par A. Ag Solimane et Saskia Walentowitz, préface d'Hélène Claudot-Hawad, Tervuren, Musée royal de l'Afrique centrale, coll. Tifinagh 1, 1994, 93 p. (197 proverbes), cité d'après le compte rendu d'Edmond Bernus, Journal des africanistes 64-2, 1994, p. 141.",
+      "sources": [
+        "S25"
+      ],
+      "note": "Le compte rendu de Persée ne reproduit que la traduction française de ce proverbe ; le texte tifinagh n'a pas été consulté.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-proverbe-azawagh-branche",
+      "langue": "tamasheq (Azawagh)",
+      "traduction": "Une seule branche ne fait pas l'enclos.",
+      "sens": "Équivalent du français « une hirondelle ne fait pas le printemps » : l'union fait la force.",
+      "publication": "Alhassane Ag Solimane, Les gens de la parole disent. Proverbes touaregs de l'Azawagh, trad. et comm. par A. Ag Solimane et Saskia Walentowitz, préface d'Hélène Claudot-Hawad, Tervuren, Musée royal de l'Afrique centrale, coll. Tifinagh 1, 1994, 93 p. (197 proverbes), cité d'après le compte rendu d'Edmond Bernus, Journal des africanistes 64-2, 1994, p. 141.",
+      "sources": [
+        "S25"
+      ],
+      "note": "Le compte rendu de Persée ne reproduit que la traduction française de ce proverbe ; le texte tifinagh n'a pas été consulté.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-proverbe-hausa-eau",
+      "texte_original": "Rua ba su yami banza.",
+      "langue": "haoussa",
+      "traduction": "L'eau ne devient pas amère sans raison.",
+      "sens": "Tout a une cause.",
+      "publication": "Captain G. Merrick, Hausa Proverbs, Londres, Kegan Paul, Trench, Trübner & Co., 1905, p. 10, n° 5 (recueil de proverbes collectés auprès de locuteurs de Kano, de Kabbi et de Zaria, avec glose et équivalent anglais).",
+      "sources": [
+        "S62"
+      ],
+      "note": "Orthographe d'époque telle qu'imprimée en 1905 (copie OCR d'archive.org) ; traduction française de MonBaobab d'après la glose anglaise de Merrick ; recueil nord-nigérian en haoussa, langue aussi parlée au Niger.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-proverbe-hausa-coton",
+      "texte_original": "Yawa shi kan sa zarre ya ja duchi.",
+      "langue": "haoussa",
+      "traduction": "La quantité fait que le fil de coton tire une pierre.",
+      "sens": "L'union fait la force.",
+      "publication": "Captain G. Merrick, Hausa Proverbs, Londres, Kegan Paul, Trench, Trübner & Co., 1905, p. 10, n° 7 (recueil de proverbes collectés auprès de locuteurs de Kano, de Kabbi et de Zaria, avec glose et équivalent anglais).",
+      "sources": [
+        "S62"
+      ],
+      "note": "Orthographe d'époque telle qu'imprimée en 1905 (copie OCR d'archive.org) ; traduction française de MonBaobab d'après la glose anglaise de Merrick ; recueil nord-nigérian en haoussa, langue aussi parlée au Niger.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-proverbe-hausa-lune",
+      "texte_original": "Ba domin tsawo akanga wata ba.",
+      "langue": "haoussa",
+      "traduction": "On ne voit pas la lune à cause de sa grande taille.",
+      "sens": "Ce n'est pas par votre mérite que vous avez réussi : n'importe qui en aurait fait autant.",
+      "publication": "Captain G. Merrick, Hausa Proverbs, Londres, Kegan Paul, Trench, Trübner & Co., 1905, p. 12, n° 17 (recueil de proverbes collectés auprès de locuteurs de Kano, de Kabbi et de Zaria, avec glose et équivalent anglais).",
+      "sources": [
+        "S62"
+      ],
+      "note": "Orthographe d'époque telle qu'imprimée en 1905 (copie OCR d'archive.org) ; traduction française de MonBaobab d'après la glose anglaise de Merrick ; recueil nord-nigérian en haoussa, langue aussi parlée au Niger.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NE-proverbe-hausa-maigre",
+      "texte_original": "Rama ba mutua ba.",
+      "langue": "haoussa",
+      "traduction": "Être maigre, ce n'est pas mourir.",
+      "sens": "Les apparences sont trompeuses.",
+      "publication": "Captain G. Merrick, Hausa Proverbs, Londres, Kegan Paul, Trench, Trübner & Co., 1905, p. 13, n° 21 (recueil de proverbes collectés auprès de locuteurs de Kano, de Kabbi et de Zaria, avec glose et équivalent anglais).",
+      "sources": [
+        "S62"
+      ],
+      "note": "Orthographe d'époque telle qu'imprimée en 1905 (copie OCR d'archive.org) ; traduction française de MonBaobab d'après la glose anglaise de Merrick ; recueil nord-nigérian en haoussa, langue aussi parlée au Niger.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "titre": "Complexe W-Arly-Pendjari (bien n° 749)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/749",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (description)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S2",
+      "titre": "Réserves naturelles de l'Aïr et du Ténéré (bien n° 573)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/573",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (description)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S3",
+      "titre": "Centre historique d'Agadez (bien n° 1268)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/1268",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (description)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S4",
+      "titre": "Niger, État partie à la Convention du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/statesparties/ne",
+      "type": "unesco",
+      "licence": "Conditions d'utilisation de l'UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S5",
+      "titre": "Practices and expressions of joking relationships in Niger (01009)",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/practices-and-expressions-of-joking-relationships-in-niger-01009",
+      "type": "unesco",
+      "licence": "Conditions d'utilisation de l'UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S6",
+      "titre": "Practices and knowledge linked to the Imzad of the Tuareg communities of Algeria, Mali and Niger (00891)",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/practices-and-knowledge-linked-to-the-imzad-of-the-tuareg-communities-of-algeria-mali-and-niger-00891",
+      "type": "unesco",
+      "licence": "Conditions d'utilisation de l'UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S7",
+      "titre": "Niger, éléments inscrits au patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/state/niger-NE",
+      "type": "unesco",
+      "licence": "Conditions d'utilisation de l'UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S8",
+      "titre": "La vieille ville de Zinder, quartier de Birni et le Sultanat (Liste indicative 5040)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/5040/",
+      "type": "unesco",
+      "licence": "Contenu transmis par l'État partie, publié par l'UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S9",
+      "titre": "Palais du Zarmakoye de Dosso (Liste indicative 5041)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/5041/",
+      "type": "unesco",
+      "licence": "Contenu transmis par l'État partie, publié par l'UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S10",
+      "titre": "Les mosquées en terre de la région de Tahoua (Liste indicative 5042)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/5042/",
+      "type": "unesco",
+      "licence": "Contenu transmis par l'État partie, publié par l'UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S11",
+      "titre": "Itinéraires culturels du désert du Sahara : Route du sel (Liste indicative 5043)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/5043/",
+      "type": "unesco",
+      "licence": "Contenu transmis par l'État partie, publié par l'UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S12",
+      "titre": "Plateau et fortin du Djado (Liste indicative 5044)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/5044/",
+      "type": "unesco",
+      "licence": "Contenu transmis par l'État partie, publié par l'UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S13",
+      "titre": "Site archéologique de Bura (Liste indicative 5045)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/5045/",
+      "type": "unesco",
+      "licence": "Contenu transmis par l'État partie, publié par l'UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S14",
+      "titre": "Le site de Lougou (Liste indicative 5046)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/5046/",
+      "type": "unesco",
+      "licence": "Contenu transmis par l'État partie, publié par l'UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S15",
+      "titre": "Gisements des dinosauriens (Liste indicative 5056)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/5056/",
+      "type": "unesco",
+      "licence": "Contenu transmis par l'État partie, publié par l'UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S16",
+      "titre": "Paysage culturel du lac Tchad (Niger) (Liste indicative 6359)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/6359/",
+      "type": "unesco",
+      "licence": "Contenu transmis par l'État partie, publié par l'UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S17",
+      "titre": "Lakeside Cemeteries in the Sahara: 5000 Years of Holocene Population and Environmental Change",
+      "institution": "PLOS ONE",
+      "auteur": "Sereno P. C., Garcea E. A. A., Jousse H., Stojanowski C. M. et al.",
+      "annee": 2008,
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0002995",
+      "type": "article_scientifique",
+      "licence": "CC BY",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S18",
+      "titre": "La grande famine de 1931 dans l'Ouest nigérien : réflexions autour d'une catastrophe naturelle",
+      "institution": "Persée, Revue française d'histoire d'outre-mer",
+      "auteur": "Finn Fuglestad",
+      "annee": 1974,
+      "url": "https://www.persee.fr/doc/outre_0300-9513_1974_num_61_222_1732",
+      "type": "article_scientifique",
+      "licence": "Persée, accès libre (droits de la revue)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S19",
+      "titre": "Notes sur deux institutions propres aux populations peules d'entre Niger et Tchad, le soro et le gerewol",
+      "institution": "Persée, Journal de la Société des Africanistes",
+      "auteur": "Gilbert Vieillard",
+      "annee": 1932,
+      "url": "https://www.persee.fr/doc/jafr_0037-9166_1932_num_2_1_1526",
+      "type": "article_scientifique",
+      "licence": "Persée, accès libre (droits de la revue)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S20",
+      "titre": "Organisation territoriale, organisation sociale : la logique du système toubou",
+      "institution": "Persée, Journal des africanistes",
+      "auteur": "Catherine Baroin",
+      "annee": 1986,
+      "url": "https://www.persee.fr/doc/jafr_0399-0346_1986_num_56_2_2141",
+      "type": "article_scientifique",
+      "licence": "Persée, accès libre (droits de la revue)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S21",
+      "titre": "Compte rendu de Maïkorema Zakari, Contribution à l'histoire des populations du sud-est nigérien : le cas du Mangari (XVIe-XIXe siècle)",
+      "institution": "Persée, Journal des africanistes",
+      "auteur": "Catherine Baroin",
+      "annee": 1990,
+      "url": "https://www.persee.fr/doc/jafr_0399-0346_1990_num_60_1_2303_t1_0182_0000_2",
+      "type": "article_scientifique",
+      "licence": "Persée, accès libre (droits de la revue)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S22",
+      "titre": "Terre : La croix d'Agadès",
+      "institution": "Persée, Revue historique des Armées",
+      "auteur": "Gervais Cadario",
+      "annee": 1995,
+      "url": "https://www.persee.fr/doc/rharm_0035-3299_1995_num_200_3_4492",
+      "type": "article_scientifique",
+      "licence": "Persée, accès libre (droits de la revue)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S23",
+      "titre": "Contribution à l'étude des bijoux touareg",
+      "institution": "Persée, Journal de la Société des Africanistes",
+      "auteur": "Germaine Dieterlen et Ziedonis Ligers",
+      "annee": 1972,
+      "url": "https://www.persee.fr/doc/jafr_0037-9166_1972_num_42_1_1697",
+      "type": "article_scientifique",
+      "licence": "Persée, accès libre (droits de la revue)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S24",
+      "titre": "J. Rouch, La religion et la magie Songhay (compte rendu)",
+      "institution": "Persée, L'Homme",
+      "auteur": "Robert Jaulin",
+      "annee": 1961,
+      "url": "https://www.persee.fr/doc/hom_0439-4216_1961_num_1_2_366386",
+      "type": "article_scientifique",
+      "licence": "Persée, accès libre (droits de la revue)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S25",
+      "titre": "Compte rendu de Alhassane Ag Solimane, Les gens de la parole disent. Proverbes touaregs de l'Azawagh",
+      "institution": "Persée, Journal des africanistes",
+      "auteur": "Edmond Bernus",
+      "annee": 1994,
+      "url": "https://www.persee.fr/doc/jafr_0399-0346_1994_num_64_2_2409_t1_0141_0000_1",
+      "type": "article_scientifique",
+      "licence": "Persée, accès libre (droits de la revue)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S26",
+      "titre": "Sarraounia, une reine africaine entre histoire et mythe littéraire (Niger, 1899-2010)",
+      "institution": "OpenEdition Journals, Genre & Histoire n° 8",
+      "auteur": "Elara Bertho",
+      "annee": 2011,
+      "url": "https://journals.openedition.org/genrehistoire/1218",
+      "type": "article_scientifique",
+      "licence": "OpenEdition Journals (accès libre, droits de la revue)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S27",
+      "titre": "« Entre ciel et terre » : de la construction de l'espace à la construction d'une identité collective dans deux récits d'origine des Zarma (Niger)",
+      "institution": "OpenEdition Journals, Journal des africanistes 79-2",
+      "auteur": "Sandra Bornand",
+      "annee": 2009,
+      "url": "https://journals.openedition.org/africanistes/2848",
+      "type": "article_scientifique",
+      "licence": "OpenEdition Journals (accès libre, droits de la revue)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S28",
+      "titre": "Les représentations de l'eau dans les récits de griots songhay-zarma (Niger)",
+      "institution": "HAL-SHS, Cahiers de littérature orale",
+      "auteur": "Sandra Bornand",
+      "annee": 2007,
+      "url": "https://shs.hal.science/halshs-00338101",
+      "type": "article_scientifique",
+      "licence": "Notice HAL (droits de la revue)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S29",
+      "titre": "Migration, chefferie et accès aux ressources foncières dans le canton de Torodi (Ouest du Niger)",
+      "institution": "OpenEdition Journals, Les Cahiers d'Outre-Mer n° 226-227",
+      "auteur": "Harouna Mounkaila",
+      "annee": 2004,
+      "url": "https://journals.openedition.org/com/517",
+      "type": "article_scientifique",
+      "licence": "OpenEdition Journals (accès libre, droits de la revue)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S30",
+      "titre": "Le Tchad des lacs, chapitre 12 : De l'insécurité de Boko Haram au conflit intercommunautaire dans le lac Tchad. Le conflit Peul/Boudouma au Niger",
+      "institution": "OpenEdition Books, IRD Éditions",
+      "auteur": "Mahamadou Abdourahamani et Maman Waziri Mato",
+      "url": "https://books.openedition.org/irdeditions/30732",
+      "type": "livre",
+      "licence": "OpenEdition Books (droits de l'éditeur)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S31",
+      "titre": "Téda et Kanouri : les relations interethniques à Fachi (dans Gens du roc et du sable)",
+      "institution": "OpenEdition Books, CNRS Éditions",
+      "auteur": "Peter Fuchs",
+      "url": "https://books.openedition.org/editionscnrs/38087",
+      "type": "livre",
+      "licence": "OpenEdition Books (droits de l'éditeur)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S32",
+      "titre": "Glottolog 5.4 (fiches de langues)",
+      "institution": "Max Planck Institute for Evolutionary Anthropology / Glottolog",
+      "url": "https://glottolog.org/",
+      "type": "base_de_donnees",
+      "licence": "Voir les conditions de Glottolog",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S33",
+      "titre": "Constitution du Niger de 2010 (texte en anglais)",
+      "institution": "Constitute Project",
+      "url": "https://www.constituteproject.org/constitution/Niger_2010",
+      "type": "base_de_donnees",
+      "licence": "Voir les conditions de Constitute Project",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S34",
+      "titre": "Niger : le haoussa devient langue nationale, le français réduit à une simple langue de travail",
+      "institution": "RFI",
+      "annee": 2025,
+      "url": "https://www.rfi.fr/fr/afrique/20250407-niger-le-haoussa-devient-langue-nationale-le-fran%C3%A7ais-r%C3%A9duit-%C3%A0-une-simple-langue-de-travail",
+      "type": "presse",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S35",
+      "titre": "Hausa replaces French as the official language of Niger, in a bold assertion of sovereignty",
+      "institution": "Global Voices",
+      "auteur": "Jean Sovon",
+      "annee": 2025,
+      "url": "https://globalvoices.org/2025/06/28/hausa-replaces-french-as-the-official-language-of-niger-in-a-bold-assertion-of-sovereignty/",
+      "type": "presse",
+      "licence": "CC BY 3.0 (politique de Global Voices)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S36",
+      "titre": "Population, total, Niger (indicateur SP.POP.TOTL)",
+      "institution": "Banque mondiale, API de données ouvertes",
+      "url": "https://api.worldbank.org/v2/country/NE/indicator/SP.POP.TOTL?format=json&per_page=5",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S37",
+      "titre": "Niger : fiche d'aménagement linguistique",
+      "institution": "Université Laval, L'aménagement linguistique dans le monde",
+      "url": "https://axl.cefan.ulaval.ca/afrique/niger.htm",
+      "type": "universite",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S38",
+      "titre": "BAKARY Djibo (notice Maitron)",
+      "institution": "Maitron (Université Paris 1 Panthéon-Sorbonne)",
+      "url": "https://maitron.fr/bakary-djibo/",
+      "type": "base_de_donnees",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S39",
+      "titre": "Boubou Hama : biographie",
+      "institution": "Site Boubou Hama",
+      "url": "https://www.boubouhama.com/biographie/",
+      "type": "institution",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S40",
+      "titre": "Oumarou Ganda (fiche personne)",
+      "institution": "Africiné (Fédération africaine de la critique cinématographique)",
+      "url": "https://www.africine.org/personne/oumarou-ganda/3867",
+      "type": "base_de_donnees",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S41",
+      "titre": "Moustapha Alassane (fiche personne)",
+      "institution": "Africiné (Fédération africaine de la critique cinématographique)",
+      "url": "https://www.africine.org/index.php/personne/moustapha-alassane/3565",
+      "type": "base_de_donnees",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S42",
+      "titre": "Al'lèèssi, une actrice africaine (fiche film)",
+      "institution": "Africiné (Fédération africaine de la critique cinématographique)",
+      "url": "https://www.africine.org/film/al-leessi-une-actrice-africaine/570",
+      "type": "base_de_donnees",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S43",
+      "titre": "Hadijatou Mani v Niger",
+      "institution": "INTERIGHTS",
+      "url": "https://www.interights.org/niger-slavery/index.html",
+      "type": "institution",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S44",
+      "titre": "Hamsou Garba, grande légende de la musique nigérienne est décédée à l'âge de 64 ans",
+      "institution": "Studio Kalangou",
+      "annee": 2022,
+      "url": "https://www.studiokalangou.org/85564-hamsou-grande-legende-musique-nigerienne",
+      "type": "presse",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S45",
+      "titre": "3 août 1960 : le jour où est née l'indépendance du Niger",
+      "institution": "Studio Kalangou",
+      "annee": 2022,
+      "url": "https://www.studiokalangou.org/76923-aout-1960-jour-nee-independance-niger",
+      "type": "presse",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S46",
+      "titre": "Bombino : biographie en français",
+      "institution": "Site officiel de Bombino",
+      "url": "http://www.bombinomusic.com/french-bio",
+      "type": "institution",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S47",
+      "titre": "Hawad",
+      "institution": "Poetry Translation Centre",
+      "url": "https://www.poetrytranslation.org/poet/hawad/",
+      "type": "institution",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S48",
+      "titre": "Aïchatou Mindaoudou",
+      "institution": "Jeune Afrique",
+      "annee": 2006,
+      "url": "https://www.jeuneafrique.com/128882/archives-thematique/aechatou-mindaoudou/",
+      "type": "presse",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S49",
+      "titre": "Aïchatou Mindaoudou Souleymane : Représentante spéciale du Secrétaire général des Nations Unies pour la Côte d'Ivoire",
+      "institution": "ONUCI (Nations Unies)",
+      "annee": 2013,
+      "url": "https://onuci.unmissions.org/fr/news/aichatou-mindaoudou-souleymane-representante-speciale-du-secretaire-general-des-nations",
+      "type": "institution",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S50",
+      "titre": "Mariama Hima : Trailblazer and pioneer of cinema of Niger",
+      "institution": "African Women in Cinema Blog (Beti Ellerson)",
+      "auteur": "Beti Ellerson",
+      "annee": 2010,
+      "url": "https://africanwomenincinema.blogspot.com/2010/08/Mariama-Hima-Trailblazer-and-pioneer.html",
+      "type": "article_scientifique",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S51",
+      "titre": "Mariam Kamara : « architecture itself can not make a more equitable world but we can contribute with specific actions »",
+      "institution": "ArchDaily",
+      "auteur": "Mónica Arellano",
+      "annee": 2019,
+      "url": "https://www.archdaily.com/913252/mariam-kamara-architecture-itself-can-not-make-a-more-equitable-world-but-we-can-contribute-with-specific-actions",
+      "type": "presse",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S52",
+      "titre": "38ème anniversaire de la disparition du Général Seyni Kountché, un officier au destin singulier",
+      "institution": "Agence nigérienne de presse (ANP)",
+      "auteur": "Abdourahamane Salifou",
+      "annee": 2025,
+      "url": "https://anp.ne/38eme-anniversaire-de-la-disparition-du-general-seyni-kountche-un-officier-au-destin-singulier/",
+      "type": "presse",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S53",
+      "titre": "Abdoulrazak Alfaga, du taekwondo en cachette au Niger à la lumière des Jeux olympiques",
+      "institution": "VOA Afrique",
+      "url": "https://www.voaafrique.com/a/abdoulrazak-alfaga-du-taekwondo-en-cachette-au-niger-%C3%A0-la-lumi%C3%A8re-des-jeux-olympiques/5720266.html",
+      "type": "presse",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S54",
+      "titre": "Niger : des militaires affirment avoir renversé le président, l'état-major des armées annonce « souscrire à la déclaration » des putschistes",
+      "institution": "RFI",
+      "annee": 2023,
+      "url": "https://www.rfi.fr/fr/afrique/20230726-niger-des-militaires-affirment-avoir-renvers%C3%A9-le-r%C3%A9gime-du-pr%C3%A9sident-mohamed-bazoum",
+      "type": "presse",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S55",
+      "titre": "Le Niger annonce son retrait de l'Organisation internationale de la Francophonie",
+      "institution": "RFI",
+      "annee": 2025,
+      "url": "https://www.rfi.fr/fr/afrique/20250317-le-niger-annonce-son-retrait-de-l-organisation-internationale-de-la-francophonie",
+      "type": "presse",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S56",
+      "titre": "Niger : plusieurs dizaines de soldats tués dans l'attaque d'une garnison à Inates",
+      "institution": "RFI",
+      "annee": 2019,
+      "url": "https://www.rfi.fr/fr/afrique/20191211-niger-plus-centaine-morts-attaque-garnison-pres-inates",
+      "type": "presse",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S57",
+      "titre": "Accord établissant une paix définitive entre le Gouvernement de la République du Niger et l'Organisation de la Résistance Armée (15 avril 1995)",
+      "institution": "PA-X, Peace Agreements Database (Université d'Édimbourg)",
+      "url": "https://www.peaceagreements.org/agreements/204/",
+      "type": "base_de_donnees",
+      "licence": "Voir les conditions de PA-X",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S58",
+      "titre": "Uranium in Niger",
+      "institution": "World Nuclear Association",
+      "url": "https://world-nuclear.org/information-library/country-profiles/countries-g-n/niger",
+      "type": "institution",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S59",
+      "titre": "Bracelet, Tuareg peoples (1995.597) : notice de l'API de collection",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/317778",
+      "type": "musee",
+      "licence": "Métadonnées Met Open Access (CC0) ; image non libre pour cet objet",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S60",
+      "titre": "Ehel (tent post), Tuareg peoples (1998.390.2) : notice de l'API de collection",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/317894",
+      "type": "musee",
+      "licence": "Métadonnées Met Open Access (CC0) ; image non libre pour cet objet",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S61",
+      "titre": "Apprendre le tamacheq (Allamad n' tamacheq)",
+      "institution": "Internet Archive (document numérisé, mise en ligne le 2018-11-11)",
+      "auteur": "Alghoubas Adouma",
+      "url": "https://archive.org/stream/tamacheq_alghoubas_adamou/tamacheq_alghoubas_adamou_djvu.txt",
+      "type": "livre",
+      "licence": "Non précisée (auteur : Alghoubas Adouma, étudiant de l'Université de Niamey)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S62",
+      "titre": "Hausa Proverbs",
+      "institution": "Internet Archive (numérisation de l'édition de 1905)",
+      "auteur": "Captain G. Merrick",
+      "annee": 1905,
+      "url": "https://archive.org/stream/hausaproverbs00merrrich/hausaproverbs00merrrich_djvu.txt",
+      "type": "livre",
+      "licence": "Domaine public (édition de 1905)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S63",
+      "titre": "Wikidata",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q1032",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S64",
+      "titre": "Niger",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Niger",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S65",
+      "titre": "Histoire du Niger",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Histoire_du_Niger",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S66",
+      "titre": "Arbre du Ténéré",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Arbre_du_T%C3%A9n%C3%A9r%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S67",
+      "titre": "Énergie solaire : hommage à Abdou Moumouni Dioffo, un savant de renommée internationale",
+      "institution": "ActuNiger",
+      "auteur": "Abdoul Nasser Hassane",
+      "annee": 2018,
+      "url": "https://www.actuniger.com/societe/13883-energie-solaire-hommage-a-abdou-moumouni-dioffo-un-savant-de-renommee-internationale.html",
+      "type": "presse",
+      "licence": "Tous droits réservés",
+      "consulte_le": "2026-11-21"
+    }
+  ]
+}

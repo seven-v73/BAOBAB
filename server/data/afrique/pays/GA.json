@@ -1,0 +1,4454 @@
+{
+  "code": "GA",
+  "nom": "Gabon",
+  "region": "centre",
+  "wikidata": "Q1000",
+  "maj": "2026-11-21",
+  "pays": {
+    "nom_officiel": "République gabonaise",
+    "capitale": "Libreville",
+    "langues_officielles": [
+      "français"
+    ],
+    "langues_nationales": [],
+    "population": {
+      "valeur": 3518621,
+      "annee": 2026,
+      "source": "S1"
+    },
+    "superficie_km2": 267667,
+    "monnaie": "Franc CFA d'Afrique centrale",
+    "resume": "Le Gabon est un pays d'Afrique centrale traversé par l'équateur, qui borde l'Atlantique et partage ses frontières avec le Congo et le Cameroun. Libreville en est la capitale ; Port-Gentil, sur la côte, est considérée comme sa capitale économique. Le français y est la seule langue officielle, tandis qu'une cinquantaine de langues et de peuples, en grande majorité bantous (Fang, Myènè, Punu, Nzébi, Kota, Tsogo, Téké et d'autres), forment la mosaïque culturelle du pays. Les résultats du recensement proclamés le 27 août 2026 donnent 3 518 621 habitants, bien au-dessus des estimations antérieures de l'ordre de 2 à 2,6 millions. Colonie française puis indépendant depuis le 17 août 1960, le pays abrite deux biens du patrimoine mondial, Lopé-Okanda (paysage culturel) et Ivindo (parc naturel), ainsi que l'art oral du Mvet Oyeng, inscrit par l'UNESCO en 2025.",
+    "sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7",
+      "S8",
+      "S9"
+    ]
+  },
+  "langues": [
+    {
+      "id": "GA-langue-francais",
+      "nom": "Français",
+      "nom_local": "Français",
+      "description": "Le français est la seule langue officielle du Gabon : c'est la langue de l'école, de la justice et de l'administration, et celle qui permet de communiquer entre locuteurs de langues différentes. Selon un rapport de l'Observatoire de la langue française cité par Wikipédia, environ 66 % de la population était francophone en 2018. Il a sa propre variété gabonaise, nourrie d'expressions locales et de calques de langues du pays.",
+      "famille": "Indo-européenne, romane",
+      "glottocode": "stan1290",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "wikidata": "Q150",
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S10",
+        "S5",
+        "S6",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode stan1290 vérifié sur Glottolog. Proportion de francophones (66 % en 2018) lue dans Wikipédia, qui cite le rapport OLF ; chiffre non vérifié à la source."
+      },
+      "regions": [
+        "tout le pays"
+      ]
+    },
+    {
+      "id": "GA-langue-fang",
+      "nom": "Fang",
+      "nom_local": "Fang",
+      "description": "Le fang est parlé dans le nord-ouest du pays, au nord-ouest de l'Ivindo, et dans le bassin du moyen Ogooué jusqu'au mont Iboundji. Rékanga (2007), cité par Wikipédia, distingue plusieurs variétés (ntumu, okak, mekè, atsi, nzaman, mvèny). Glottolog ne le range pas parmi les langues en danger.",
+      "famille": "Atlantic-Congo, bantou",
+      "glottocode": "fang1246",
+      "statut_linguistique": [
+        "véhiculaire régionale"
+      ],
+      "wikidata": "Q33484",
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S11",
+        "S5",
+        "S12"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode fang1246 vérifié sur Glottolog (libellé « Fang (Equatorial Guinea) », même langue)."
+      },
+      "regions": [
+        "Woleu-Ntem",
+        "Estuaire",
+        "Moyen-Ogooué",
+        "Ogooué-Ivindo"
+      ]
+    },
+    {
+      "id": "GA-langue-myene",
+      "nom": "Myènè",
+      "nom_local": "Myènè",
+      "description": "Le myènè regroupe un ensemble de parlers de la côte : mpongwè, orungu, galwa, adyumba, nkomi et énénga selon la classification de Rékanga (2007). Il est parlé dans l'Ogooué-Maritime et les régions voisines, ainsi qu'en certains points de la côte nord. Glottolog l'indique comme vigoureux et non menacé.",
+      "famille": "Atlantic-Congo, bantou",
+      "glottocode": "myen1241",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "wikidata": "Q35832",
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S13",
+        "S5",
+        "S14"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode myen1241 vérifié sur Glottolog. Le mpongwè est un dialecte du myènè (Wikipédia)."
+      },
+      "regions": [
+        "Estuaire",
+        "Ogooué-Maritime",
+        "Moyen-Ogooué"
+      ]
+    },
+    {
+      "id": "GA-langue-punu",
+      "nom": "Punu",
+      "nom_local": "Ipunu",
+      "description": "Le punu est la langue principale du sud du Gabon, avec ses langues sœurs (eshira, sangu, vili, lumbu). Rékanga y distingue des variétés de Mouila, Tchibanga, Moabi, Ndéndé et Port-Gentil. Il compte parmi les langues les plus parlées du pays et n'est pas classé en danger par Glottolog.",
+      "famille": "Atlantic-Congo, bantou",
+      "glottocode": "punu1239",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "wikidata": "Q36401",
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S15",
+        "S5",
+        "S16"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode punu1239 vérifié sur Glottolog."
+      },
+      "regions": [
+        "Ngounié",
+        "Nyanga"
+      ]
+    },
+    {
+      "id": "GA-langue-nzebi",
+      "nom": "Nzébi",
+      "nom_local": "Inzébi",
+      "description": "Le nzébi est répandu dans le bassin du haut Ogooué et ses abords. Rékanga en décrit des variétés à Koulamoutou, Mbigou, Lébamba, Mounana, Moanda et Bakoumba. Il appartient à un groupe de langues voisines (douma, wandji, tsangi) et n'est pas classé en danger par Glottolog.",
+      "famille": "Atlantic-Congo, bantou",
+      "glottocode": "njeb1242",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "wikidata": "Q35923",
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S17",
+        "S5",
+        "S18"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode njeb1242 (Njebi) vérifié sur Glottolog."
+      },
+      "regions": [
+        "Ogooué-Lolo",
+        "Haut-Ogooué",
+        "Ngounié"
+      ]
+    },
+    {
+      "id": "GA-langue-kota",
+      "nom": "Kota",
+      "nom_local": "Ikota",
+      "description": "Le kota (ikota) se parle au nord du pays, jusqu'à la rive sud de l'Ivindo. Rékanga y distingue des variétés de Mékambo, de Batouala et de Lastoursville. Glottolog le classe comme menacé (statut « vulnérable » d'après l'Ethnologue).",
+      "famille": "Atlantic-Congo, bantou",
+      "glottocode": "kota1274",
+      "statut_linguistique": [
+        "régionale",
+        "menacée"
+      ],
+      "wikidata": "Q35607",
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S19",
+        "S5",
+        "S20"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode kota1274 vérifié sur Glottolog (Kota du Gabon)."
+      },
+      "regions": [
+        "Ogooué-Ivindo",
+        "Ogooué-Lolo"
+      ]
+    },
+    {
+      "id": "GA-langue-tsogo",
+      "nom": "Tsogo",
+      "nom_local": "Ghétsogho",
+      "description": "Le tsogo est la seule langue de la région centrale du pays à avoir une diffusion large, selon Wikipédia. C'est la langue des Mitsogo de la Ngounié, associés au rite du Bwiti. Une estimation de 9 000 locuteurs en 2007 est citée par Wikipédia ; Glottolog le juge vigoureux.",
+      "famille": "Atlantic-Congo, bantou",
+      "glottocode": "tsog1243",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "wikidata": "Q36674",
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S21",
+        "S5",
+        "S22"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode tsog1243 vérifié sur Glottolog. Le chiffre de 9 000 locuteurs vient de Wikipédia (non vérifié à la source)."
+      },
+      "regions": [
+        "Ngounié"
+      ],
+      "locuteurs": {
+        "valeur": 9000,
+        "annee": 2007,
+        "source": "S22"
+      }
+    },
+    {
+      "id": "GA-langue-baka",
+      "nom": "Baka",
+      "nom_local": "Baka",
+      "description": "Le baka est la langue des Baka, un peuple de chasseurs-cueilleurs de la forêt du nord du Gabon et des pays voisins. Selon Wikipédia, c'est la seule langue gabonaise d'origine africaine qui ne soit pas bantoue. Glottolog le classe comme menacé ; une étude de 2013 publiée dans Africana Linguistica en a analysé les noms de champignons en lien avec le kóya.",
+      "famille": "Atlantic-Congo (non bantoue)",
+      "glottocode": "baka1272",
+      "statut_linguistique": [
+        "minoritaire",
+        "menacée"
+      ],
+      "wikidata": "Q34905",
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S23",
+        "S5",
+        "S24"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode baka1272 vérifié sur Glottolog (libellé « Baka (Cameroon) », même langue)."
+      },
+      "regions": [
+        "nord du Gabon"
+      ]
+    },
+    {
+      "id": "GA-langue-mbere",
+      "nom": "Mbéré (obamba)",
+      "nom_local": "Mbéré (obamba)",
+      "description": "Le mbéré, appelé aussi lembaama ou obamba, est parlé sur les pentes frontalières à l'est du haut Ogooué, jusqu'à Franceville, selon Wikipédia. Glottolog le désigne sous le nom de Mbere-Mbamba. Rékanga en distingue des variétés comme le mpiini et le ngaami.",
+      "famille": "Atlantic-Congo, bantou",
+      "glottocode": "mber1257",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "wikidata": "Q36062",
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S25",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode mber1257 vérifié sur Glottolog."
+      },
+      "regions": [
+        "Haut-Ogooué"
+      ]
+    },
+    {
+      "id": "GA-langue-vili",
+      "nom": "Vili",
+      "nom_local": "Vili",
+      "description": "Le vili est une langue du sud-ouest du Gabon, proche du punu. Les Vili sont rattachés à l'ancien royaume de Loango, dont les Bavili étaient les habitants. Glottolog ne le range pas parmi les langues en danger.",
+      "famille": "Atlantic-Congo, bantou",
+      "glottocode": "vili1238",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "wikidata": "Q3558409",
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S26",
+        "S5",
+        "S27"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode vili1238 vérifié sur Glottolog."
+      },
+      "regions": [
+        "Nyanga"
+      ]
+    },
+    {
+      "id": "GA-langue-sira",
+      "nom": "Sira",
+      "nom_local": "Sira",
+      "description": "Le sira est classé par Rékanga (2007) dans un groupe de langues du sud avec le punu, le lumbu et le sangu. Il présente des variétés (kamba, tandu, ngosi) dont une du Fernan-Vaz, dans l'Ogooué-Maritime. Glottolog ne le range pas parmi les langues en danger.",
+      "famille": "Atlantic-Congo, bantou",
+      "glottocode": "sira1266",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "wikidata": "Q36599",
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S28",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode sira1266 vérifié sur Glottolog."
+      },
+      "regions": [
+        "Ogooué-Maritime"
+      ]
+    },
+    {
+      "id": "GA-langue-ndumu",
+      "nom": "Ndumu",
+      "nom_local": "Ndumu",
+      "description": "Le ndumu est classé par Rékanga (2007) dans le groupe mbété, avec des variétés comme le kuya et l'épigi. Il fait partie des langues du sud-est du pays. Glottolog ne le range pas parmi les langues en danger.",
+      "famille": "Atlantic-Congo, bantou",
+      "glottocode": "ndum1239",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "wikidata": "Q35901",
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S29",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode ndum1239 vérifié sur Glottolog ; localisation précise non sourcée."
+      }
+    },
+    {
+      "id": "GA-langue-sake",
+      "nom": "Saké",
+      "nom_local": "Saké",
+      "description": "Le saké est classé par Rékanga (2007) dans le groupe kélé, proche du kota. Glottolog signale un statut de langue menacée avec glissement vers d'autres langues, d'après l'Ethnologue.",
+      "famille": "Atlantic-Congo, bantou",
+      "glottocode": "sake1247",
+      "statut_linguistique": [
+        "régionale",
+        "menacée"
+      ],
+      "wikidata": "Q36425",
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S30",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode sake1247 vérifié sur Glottolog ; localisation non sourcée."
+      }
+    },
+    {
+      "id": "GA-langue-lumbu",
+      "nom": "Lumbu",
+      "nom_local": "Lumbu",
+      "description": "Le lumbu est une langue de la côte sud, avec une variété du nord (Sette-Cama, Gamba) et une du sud (Mayumba) selon Rékanga (2007). Il appartient au même ensemble que le punu et le vili. Glottolog ne le range pas parmi les langues en danger.",
+      "famille": "Atlantic-Congo, bantou",
+      "glottocode": "lumb1249",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "wikidata": "Q35793",
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S31",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode lumb1249 vérifié sur Glottolog."
+      },
+      "regions": [
+        "Ogooué-Maritime",
+        "Nyanga"
+      ]
+    },
+    {
+      "id": "GA-langue-teke",
+      "nom": "Téké (latege)",
+      "nom_local": "Téké (latege)",
+      "description": "Le téké est parlé sur les pentes frontalières à l'est du haut Ogooué, jusqu'à Franceville, selon Wikipédia. Glottolog le désigne sous le nom de Latege. Les Téké figurent parmi les peuples dont se réclame la famille paternelle d'Omar Bongo.",
+      "famille": "Atlantic-Congo, bantou",
+      "glottocode": "teke1275",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "wikidata": "Q36478",
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S32",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode teke1275 (Latege) vérifié sur Glottolog ; l'appellation « téké » est celle de Wikipédia."
+      },
+      "regions": [
+        "Haut-Ogooué"
+      ]
+    }
+  ],
+  "peuples": [
+    {
+      "id": "GA-peuple-fang",
+      "nom": "Fang",
+      "description": "Les Fang vivent dans le nord du Gabon, en Guinée équatoriale, au Cameroun et dans quelques zones voisines. Le Mvett, art épique accompagné d'un instrument à cordes, est décrit par Pierre Smith comme la manifestation la plus prestigieuse de leur culture et de celle des peuples apparentés. Le nom « Pahouin », employé à l'époque coloniale, est rejeté par les Fang eux-mêmes selon Wikipédia. Un fort sentiment d'appartenance se structure par les clans (ayong) et les lignées (mvok).",
+      "langues": [
+        "fang"
+      ],
+      "regions": [
+        "Woleu-Ntem",
+        "Estuaire",
+        "Moyen-Ogooué",
+        "Ogooué-Ivindo"
+      ],
+      "pays_partages": [
+        "GQ",
+        "CM",
+        "CG",
+        "ST"
+      ],
+      "organisation": "Clans (ayong) et lignées (mvok), selon Wikipédia.",
+      "activites": [
+        "agriculture",
+        "récits épiques (Mvett)",
+        "société initiatique du Bwiti-fang"
+      ],
+      "sources": [
+        "S12",
+        "S33",
+        "S34",
+        "S35",
+        "S11"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Aucun chiffre démographique retenu : Wikipédia signale que les statistiques ethniques officielles sont un sujet sensible. Part exacte des Fang dans la population non établie."
+      }
+    },
+    {
+      "id": "GA-peuple-mpongwe",
+      "nom": "Mpongwè",
+      "description": "Les Mpongwè forment l'une des sociétés de langue myènè de l'estuaire du Gabon, autour de l'actuelle Libreville. Henry Bucher les décrit comme maîtres de l'embouchure du fleuve Gabon dès le début du XVIIe siècle au plus tard, intermédiaires entre commerçants européens et sociétés de l'intérieur. Il évalue leur nombre à 6 000 à 7 000 en 1842. Des chefs mpongwè ont signé les traités qui ont permis aux Français de s'installer dans l'estuaire au milieu du XIXe siècle.",
+      "langues": [
+        "myènè (mpongwè)"
+      ],
+      "regions": [
+        "Estuaire",
+        "Libreville"
+      ],
+      "pays_partages": [],
+      "organisation": "Clans dirigés par des chefs (le terme « roi » employé par les Européens désignait un chef de clan).",
+      "activites": [
+        "commerce d'intermédiaire",
+        "pêche"
+      ],
+      "sources": [
+        "S36",
+        "S14",
+        "S37",
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Effectifs de 1842 tirés de Bucher (1977), non actualisés."
+      }
+    },
+    {
+      "id": "GA-peuple-nkomi",
+      "nom": "Nkomi",
+      "description": "Les Nkomi sont les représentants les plus méridionaux du groupe myènè du littoral gabonais. François Gaulme les situe entre les Bavili de l'ancien royaume de Loango et des sociétés côtières comme les Mpongwè et les Orungu. Ils occupaient, au début du XXe siècle, les rives de l'Ogooué jusqu'au cap Sainte-Catherine, autour de la lagune du Fernan-Vaz. Gaulme évalue leur nombre à environ 15 000 à la fin du XIXe siècle et à 5 000 vers 1974.",
+      "langues": [
+        "myènè (nkomi)"
+      ],
+      "regions": [
+        "Ogooué-Maritime",
+        "lagune du Fernan-Vaz"
+      ],
+      "pays_partages": [],
+      "organisation": "Société côtière fragmentée en lignages.",
+      "activites": [
+        "pêche",
+        "commerce fluvial et côtier"
+      ],
+      "sources": [
+        "S27",
+        "S39",
+        "S40",
+        "S41"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Effectifs de Gaulme (1974), anciens."
+      }
+    },
+    {
+      "id": "GA-peuple-orungu",
+      "nom": "Orungu",
+      "description": "Les Orungu sont un peuple myènè du cap Lopez et du delta de l'Ogooué, dans la région de Port-Gentil. Christian Huetz de Lemps rappelle que leur arrivée sur la côte est postérieure à celle des Mpongwè. Participants actifs au commerce avec les Européens, ils ont formé un royaume au début du XIXe siècle selon Wikipédia.",
+      "langues": [
+        "myènè (orungu)"
+      ],
+      "regions": [
+        "Ogooué-Maritime",
+        "Port-Gentil",
+        "cap Lopez"
+      ],
+      "pays_partages": [],
+      "organisation": "Royaume côtier dirigé par des chefs, selon Wikipédia.",
+      "activites": [
+        "commerce avec les Européens",
+        "pêche"
+      ],
+      "sources": [
+        "S40",
+        "S14",
+        "S42",
+        "S41"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date et étendue du royaume orungu : lire des sources historiques complémentaires."
+      }
+    },
+    {
+      "id": "GA-peuple-punu",
+      "nom": "Punu",
+      "description": "Les Punu vivent surtout dans le sud du Gabon, en Ngounié et dans la Nyanga (Mouila, Ndendé, Tchibanga), et dans le Niari au Congo. Ils appartiennent à l'ensemble shira-punu, voisin des Lumbu, des Vili et des Sangu. Selon Wikipédia, la société de l'okuyi, dont le masque blanc mukudj est l'emblème, assurait la cohésion des villages. Pierre-Philippe Rey situe une migration punu vers le milieu du XIXe siècle.",
+      "langues": [
+        "punu"
+      ],
+      "regions": [
+        "Ngounié",
+        "Nyanga"
+      ],
+      "pays_partages": [
+        "CG"
+      ],
+      "organisation": "Villages indépendants, divisés en clans et en familles ; société de l'okuyi.",
+      "activites": [
+        "agriculture",
+        "sculpture de masques",
+        "danse de masques"
+      ],
+      "sources": [
+        "S16",
+        "S43",
+        "S15"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source non-Wikipédia pour l'origine des Punu à compléter (Rey 1969 concerne les Punu du Congo-Brazzaville)."
+      }
+    },
+    {
+      "id": "GA-peuple-nzebi",
+      "nom": "Nzébi",
+      "description": "Les Nzébi occupent depuis le XIXe siècle un espace d'environ 32 000 km² autour du mont Birougou, dans le massif du Chaillu, de part et d'autre de la frontière avec le Congo. Georges Dupré les montre acteurs du commerce de la fin du XIXe siècle, entre l'Ogooué et le Niari. Selon Gérard Collomb, leurs sociétés initiatiques masculines (Mwiri, Nzègho) et féminines (Lecimba, Njembé) accompagnent la vie sociale et le mythe des sept fils de Nzèbi.",
+      "langues": [
+        "nzébi",
+        "douma",
+        "wandji"
+      ],
+      "regions": [
+        "Ogooué-Lolo",
+        "Ngounié",
+        "Haut-Ogooué"
+      ],
+      "pays_partages": [
+        "CG"
+      ],
+      "organisation": "Société de clans, égalitaire selon Wikipédia, structurée par un récit fondateur (Koto) et par des sociétés initiatiques.",
+      "activites": [
+        "chasse",
+        "agriculture",
+        "travail du fer",
+        "commerce à longue distance"
+      ],
+      "sources": [
+        "S44",
+        "S45",
+        "S18",
+        "S17"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Chiffres variables (60 000 selon Dupré vers 1970, environ 100 000 selon Wikipédia dans les années 2000) : non repris."
+      }
+    },
+    {
+      "id": "GA-peuple-kota",
+      "nom": "Kota",
+      "description": "Le terme « Kota » désigne un ensemble de groupes du nord-est du Gabon et de l'ouest du Congo, dont les Kota proprement dits, les Mahongwè, les Shamaye, les Shaké, les Ndambomo, les Wumbu et les Ndasa. Wikipédia précise que le nom a été attribué par les voisins et signifie « attaché ». Ils sont connus pour la sculpture de figures de reliquaire couvertes de métal, présentes dans les collections du Metropolitan Museum.",
+      "langues": [
+        "kota",
+        "mahongwè",
+        "shaké",
+        "ndasa"
+      ],
+      "regions": [
+        "Ogooué-Ivindo",
+        "Ogooué-Lolo"
+      ],
+      "pays_partages": [
+        "CG"
+      ],
+      "organisation": "Clans patrilinéaires et exogames, villages de petite taille (Wikipédia).",
+      "activites": [
+        "chasse",
+        "poterie",
+        "forge",
+        "sculpture"
+      ],
+      "sources": [
+        "S20",
+        "S46",
+        "S47",
+        "S19"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La délimitation du groupe « kota » varie selon les auteurs (Perrois 1970, Loubamono-Bessacque 2017, cités par Wikipédia)."
+      }
+    },
+    {
+      "id": "GA-peuple-mitsogo",
+      "nom": "Mitsogo (Tsogo)",
+      "description": "Les Mitsogo vivent au centre du Gabon, en Ngounié. Selon Wikipédia, ils sont réputés pour leurs rites initiatiques très élaborés, en particulier le Bwiti (bwete), dont ils sont considérés comme les principaux précurseurs. Gérard Collomb décrit le bwete comme une extension sociale remarquable du culte des ancêtres chez les Mitsogo, étendue à d'autres peuples. Leur langue est le tsogo.",
+      "langues": [
+        "tsogo"
+      ],
+      "regions": [
+        "Ngounié"
+      ],
+      "pays_partages": [],
+      "organisation": "Société matrilinéaire selon Wikipédia, organisée en secteurs ; sociétés initiatiques Bwiti, Mwiri (hommes) et Nyembe (femmes).",
+      "activites": [
+        "agriculture sur brûlis",
+        "rites initiatiques"
+      ],
+      "sources": [
+        "S22",
+        "S45",
+        "S39",
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Origine et migrations rapportées par Wikipédia (« réf. à confirmer »)"
+      },
+      "wikidata": "Q1427215"
+    },
+    {
+      "id": "GA-peuple-baka",
+      "nom": "Baka",
+      "description": "Les Baka sont un peuple de chasseurs-cueilleurs de la forêt tropicale, présents dans le nord du Gabon, au Cameroun, au Congo et en Centrafrique. Ils sont historiquement rangés parmi les peuples dits « Pygmées », terme que plusieurs organisations jugent péjoratif. Une étude linguistique de 2013 documente leurs noms de champignons et ceux des Kóya, ce qui rappelle l'étendue de leur connaissance de la forêt. Beaucoup vivent aujourd'hui dans des villages le long des pistes forestières.",
+      "langues": [
+        "baka"
+      ],
+      "regions": [
+        "nord du Gabon"
+      ],
+      "pays_partages": [
+        "CM",
+        "CG",
+        "CF"
+      ],
+      "organisation": "Société égalitaire sans hiérarchie, selon Wikipédia.",
+      "activites": [
+        "chasse",
+        "cueillette",
+        "pêche",
+        "chant polyphonique"
+      ],
+      "sources": [
+        "S24",
+        "S48",
+        "S41",
+        "S23"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Les informations de Wikipédia sur les Baka concernent surtout le Cameroun ; pays_partages et mode de vie à confirmer pour le Gabon."
+      }
+    },
+    {
+      "id": "GA-peuple-vili",
+      "nom": "Vili",
+      "description": "Les Vili (Bavili) se rattachent à l'ancien royaume de Loango, qui s'étendait jusqu'à l'actuelle Nyanga. François Gaulme les situe sur la côte, au sud des Nkomi. Selon Wikipédia, des Vili libérés d'un navire négrier brésilien, l'Elizia, ont formé le premier peuplement du village de Libreville en 1849.",
+      "langues": [
+        "vili"
+      ],
+      "regions": [
+        "Nyanga"
+      ],
+      "pays_partages": [
+        "CG"
+      ],
+      "organisation": "Royaume de Loango (ancien).",
+      "activites": [
+        "commerce côtier"
+      ],
+      "sources": [
+        "S27",
+        "S41",
+        "S49",
+        "S26"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Région actuelle des Vili au Gabon à préciser."
+      }
+    }
+  ],
+  "sites": [
+    {
+      "id": "GA-site-ivindo",
+      "nom": "Parc national d'Ivindo",
+      "type": "patrimoine_mondial",
+      "description": "Situé sur l'équateur, dans le nord du pays, ce parc couvre près de 300 000 hectares traversés par un réseau de rivières d'eau noire, avec des rapides et des chutes bordés de forêt intacte. Ses milieux aquatiques abritent des poissons endémiques, dont treize espèces menacées, et au moins sept espèces d'herbes de rivière de la famille des Podostemaceae. La forêt y héberge notamment l'éléphant de forêt, le gorille de l'Ouest, le chimpanzé et le mandrill. Le site est inscrit au patrimoine mondial en 2021 au titre de ses valeurs naturelles.",
+      "sources": [
+        "S50",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Texte lu sur la page UNESCO (whc.unesco.org/fr/list/1653) ; coordonnées de la graine Wikidata."
+      },
+      "wikidata": "Q9055979",
+      "unesco_id": "1653",
+      "inscription": 2021,
+      "coordonnees": {
+        "lat": 0.088,
+        "lng": 12.63
+      },
+      "regions": [
+        "nord du Gabon"
+      ]
+    },
+    {
+      "id": "GA-site-lope-okanda",
+      "nom": "Écosystème et paysage culturel relique de Lopé-Okanda",
+      "type": "patrimoine_mondial",
+      "description": "Ce site mixte associe une forêt tropicale dense bien conservée à des savanes reliques riches en espèces, dont de grands mammifères menacés. Il contient des vestiges d'occupation autour de collines, grottes et abris, des traces de travail du fer et une collection d'environ 1 800 pétroglyphes. Pour l'UNESCO, ces sites néolithiques et de l'âge du fer reflètent un axe migratoire majeur emprunté par des peuples bantous et d'autres le long de la vallée de l'Ogooué. Il est inscrit en 2007.",
+      "sources": [
+        "S51",
+        "S8",
+        "S52",
+        "S53",
+        "S54"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Texte lu sur la page UNESCO (whc.unesco.org/fr/list/1147) ; l'identifiant « 1147rev » de la graine correspond à la révision de l'inscription, la page publique est /list/1147."
+      },
+      "wikidata": "Q14223008",
+      "unesco_id": "1147",
+      "inscription": 2007,
+      "coordonnees": {
+        "lat": -0.5,
+        "lng": 11.5
+      },
+      "regions": [
+        "moyenne vallée de l'Ogooué"
+      ]
+    },
+    {
+      "id": "GA-site-loango",
+      "nom": "Parc national de Loango",
+      "type": "liste_indicative",
+      "description": "Le parc couvre 155 000 hectares sur le littoral, à 300 km au sud de Libreville, avec plages, cordons littoraux, lagunes et plaine. Il est connu pour des hippopotames et des éléphants qui fréquentent la plage, et pour la ponte des tortues luths, dont ses plages sont le deuxième site mondial avec environ 30 000 nids par an d'après le dossier gabonais. D'anciens villages comme Petit Loango et Sette-Cama y rappellent les échanges commerciaux précoloniaux. Il figure sur la liste indicative du Gabon depuis 2022.",
+      "sources": [
+        "S55",
+        "S8",
+        "S56"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Texte tiré du dossier soumis par le Gabon à l'UNESCO. Coordonnées converties de 2°09'19,87\" S, 9°35'31,62\" E (les degrés/minutes données par le dossier)."
+      },
+      "wikidata": "Q1756690",
+      "coordonnees": {
+        "lat": -2.1555,
+        "lng": 9.5921
+      },
+      "regions": [
+        "Nyanga",
+        "Ogooué-Maritime"
+      ]
+    },
+    {
+      "id": "GA-site-grottes-lastoursville",
+      "nom": "Grottes de Lastoursville",
+      "type": "liste_indicative",
+      "description": "Quarante-trois cavités ont été recensées dans la région de Lastoursville, dont neuf présentent un intérêt particulier, avec des galeries de plus d'un kilomètre. Des chasseurs-cueilleurs y sont présents depuis environ 25 000 ans, et des dessins au charbon ont été datés du XVe siècle. Les grottes ont aussi servi de refuge, de sépulture et de lieu de pratiques rituelles, notamment le rite initiatique Ndjobi. Une grande salle de la grotte de Pahon 1 abrite une colonie de chauves-souris.",
+      "sources": [
+        "S57",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Texte tiré du dossier gabonais (liste indicative 2022). Sites rituels : accès et photographies à discuter avec les communautés avant publication."
+      },
+      "regions": [
+        "Ogooué-Lolo",
+        "Lastoursville"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Les grottes accueillent des pratiques rituelles et des sépultures encore vivantes ; ne pas publier de localisation précise ni d'images sans l'accord des communautés concernées."
+    },
+    {
+      "id": "GA-site-bangombe-moulende",
+      "nom": "Pile nucléaire de Bangombé et site fossilifère de Moulendé",
+      "type": "liste_indicative",
+      "description": "Ces deux ensembles, distants de 20 km dans le bassin de Franceville, se trouvent dans des roches vieilles d'environ 2,1 milliards d'années. À Moulendé, des organismes fossiles pluricellulaires complexes, les Gabonionta, ont été découverts en 2008. Bangombé conserve les traces d'un réacteur nucléaire naturel qui a fonctionné il y a environ 1,9 milliard d'années, comme les seize réacteurs voisins d'Oklo. Le dossier est inscrit sur la liste indicative du Gabon en 2022.",
+      "sources": [
+        "S58",
+        "S4",
+        "S59"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Texte tiré du dossier gabonais déposé à l'UNESCO."
+      },
+      "regions": [
+        "Haut-Ogooué",
+        "Franceville"
+      ]
+    },
+    {
+      "id": "GA-site-monts-birougou",
+      "nom": "Parc national des Monts Birougou",
+      "type": "liste_indicative",
+      "description": "Ce parc d'environ 69 000 hectares se trouve dans le massif du Chaillu, la région la plus accidentée du Gabon, à cheval sur la Ngounié et l'Ogooué-Lolo, à la frontière avec le Congo. Le dossier le présente comme un « château d'eau » drainé par de nombreux cours d'eau. La forêt dense humide y est dominée par l'okoumé. Il figure sur la liste indicative depuis 2022.",
+      "sources": [
+        "S60",
+        "S8",
+        "S18"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Texte tiré du dossier gabonais. Le mont Birougou est aussi le centre de l'espace nzébi selon Wikipédia."
+      },
+      "coordonnees": {
+        "lat": -1.4607,
+        "lng": 12.1555
+      },
+      "regions": [
+        "Ngounié",
+        "Ogooué-Lolo"
+      ]
+    },
+    {
+      "id": "GA-site-libreville",
+      "nom": "Libreville",
+      "type": "ville_historique",
+      "description": "La capitale s'est formée à partir du poste français installé en 1843 dans l'estuaire du Gabon, sur un territoire des Mpongwè. Son nom est donné en 1849 à un village destiné à des captifs libérés d'un navire négrier brésilien, l'Elizia, des Vili selon Wikipédia. Elle a servi de point de départ à la colonisation française du Gabon et abrite la première université du pays, dont les premiers bâtiments datent de 1970.",
+      "sources": [
+        "S49",
+        "S41",
+        "S14",
+        "S40"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Histoire de Libreville d'après Wikipédia ; la date de 1843 (poste français) confirmée par M'Bokolo (Persée)."
+      },
+      "wikidata": "Q3825",
+      "coordonnees": {
+        "lat": 0.39,
+        "lng": 9.4542
+      },
+      "regions": [
+        "Estuaire"
+      ]
+    },
+    {
+      "id": "GA-site-lambarene",
+      "nom": "Lambaréné",
+      "type": "lieu_de_memoire",
+      "description": "Ville fluviale du Moyen-Ogooué, bâtie autour d'une île où se tient le marché. Pierre Savorgnan de Brazza y a séjourné lors de ses voyages sur l'Ogooué. C'est aussi la ville de l'hôpital fondé par Albert Schweitzer, dont l'arrivée a été célébrée par un centenaire en 2013. Rose Francine Rogombé et Georges Rawiri y sont nés.",
+      "sources": [
+        "S61",
+        "S62",
+        "S63",
+        "S64"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date d'arrivée de Schweitzer (1913) déduite du centenaire célébré en 2013 selon Wikipédia ; à confirmer dans une source sur Schweitzer."
+      },
+      "wikidata": "Q874197",
+      "coordonnees": {
+        "lat": -0.7014,
+        "lng": 10.2344
+      },
+      "regions": [
+        "Moyen-Ogooué"
+      ]
+    },
+    {
+      "id": "GA-site-franceville",
+      "nom": "Franceville",
+      "type": "ville_historique",
+      "description": "Franceville, au sud-est du pays, était le village de Masuku (« chutes » en obamba) avant que Pierre Savorgnan de Brazza ne la rebaptise en 1880. Elle est la troisième ville du pays et le terminus du chemin de fer Transgabonais. L'université des sciences et techniques de Masuku y a été créée en 1986. C'est aussi près de Franceville que des fossiles pluricellulaires de 2,1 milliards d'années ont été découverts en 2008.",
+      "sources": [
+        "S59",
+        "S65",
+        "S58"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source non-Wikipédia : titre d'un article de Persée sur la ville centenaire (1980) ; texte non lu."
+      },
+      "wikidata": "Q459369",
+      "coordonnees": {
+        "lat": -1.6208,
+        "lng": 13.5828
+      },
+      "regions": [
+        "Haut-Ogooué"
+      ]
+    },
+    {
+      "id": "GA-site-port-gentil",
+      "nom": "Port-Gentil",
+      "type": "ville_historique",
+      "description": "Port-Gentil, sur l'île de Mandji et le cap Lopez, est considérée comme la capitale économique du pays. Elle est née autour d'une douane-poste créée en 1894 et d'un centre commercial pour le caoutchouc et l'ivoire, puis le bois. L'exploration pétrolière y a fait suite à la Première Guerre mondiale. Elle abrite la seule raffinerie du pays, la SOGARA.",
+      "sources": [
+        "S66",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Informations lues dans Wikipédia ; source institutionnelle à ajouter."
+      },
+      "wikidata": "Q501715",
+      "coordonnees": {
+        "lat": -0.7167,
+        "lng": 8.775
+      },
+      "regions": [
+        "Ogooué-Maritime"
+      ]
+    },
+    {
+      "id": "GA-site-grotte-iroungou",
+      "nom": "Grotte d'Iroungou",
+      "type": "site_archeologique",
+      "description": "Découverte fin 2018 près de Mouila par le géo-archéologue Richard Oslisly, cette grotte abrite une sépulture collective d'au moins vingt-huit personnes. Les datations au carbone 14 placent les inhumations au XIVe siècle, d'après la presse, ou entre le XIVe et le XVe siècle d'après Wikipédia. Le mobilier funéraire comprend des objets en fer, en cuivre et des coquillages marins. Les chercheurs la décrivent comme une découverte rare, car les restes humains sont presque inexistants en Afrique centrale.",
+      "sources": [
+        "S67",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Nombre de défunts (28) et mobilier (512 artefacts) lus dans Wikipédia ; datation XIVe siècle confirmée par franceinfo (AFP, mars 2020)."
+      },
+      "regions": [
+        "Ngounié",
+        "Mouila"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Restes humains : la gestion des squelettes et des informations sur le site doit être validée par les autorités patrimoniales et les communautés locales avant publication."
+    },
+    {
+      "id": "GA-site-elarmekora",
+      "nom": "Site d'Elarmékora",
+      "type": "site_archeologique",
+      "description": "Dans la moyenne vallée de l'Ogooué, des pierres taillées de l'âge de la pierre ancien (Earlier Stone Age) ont été trouvées à Elarmékora. Une datation indirecte par nucléides cosmogéniques (béryllium 10 et aluminium 26), publiée en 2021 par une équipe incluant Richard Oslisly et l'agence des parcs nationaux, les situe à au moins 650 000 ans d'après Wikipédia. Le site est parmi les plus anciens témoignages d'une présence humaine documentés au Gabon.",
+      "sources": [
+        "S68",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le titre et les auteurs ont été lus sur HAL ; l'âge de 650 000 ans provient de Wikipédia et n'a pas été relu dans l'article."
+      },
+      "regions": [
+        "moyenne vallée de l'Ogooué"
+      ]
+    }
+  ],
+  "traditions": [
+    {
+      "id": "GA-tradition-mvet-oyeng",
+      "nom": "Mvet Oyeng, art musical, pratiques et savoir-faire associés à la communauté Ekang",
+      "categorie": "oralite",
+      "description": "Le Mvet Oyeng est un chant épique pratiqué par la communauté Ekang : un récit en plusieurs épisodes est chanté, accompagné de danse et d'un instrument à cordes traditionnel, le public participant par des battements de baguettes, des applaudissements et des chants. Le terme désigne à la fois les récits, le conteur, l'instrument et le musicien. Il existe une forme sacrée, transmise par une initiation stricte, et une forme populaire, plus souple, jouée lors de fêtes et de spectacles. Les femmes peuvent être conteuses, surtout dans la forme populaire, mais ne fabriquent ni ne jouent généralement l'instrument. L'élément est inscrit en 2025 sur la Liste représentative, conjointement avec le Cameroun et le Congo.",
+      "communautes": [
+        "Ekang (Fang et peuples apparentés)"
+      ],
+      "regions": [
+        "Woleu-Ntem",
+        "Estuaire",
+        "Moyen-Ogooué",
+        "Ogooué-Ivindo"
+      ],
+      "sources": [
+        "S69",
+        "S9",
+        "S33",
+        "S70",
+        "S71"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Texte de l'UNESCO lu sur ich.unesco.org. Les régions du Gabon proviennent de Wikipédia (aire des Fang), pas de la fiche UNESCO."
+      },
+      "nom_local": "Mvet Oyeng",
+      "langues": [
+        "fang"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "02253",
+        "annee": 2025,
+        "url": "https://ich.unesco.org/en/RL/mvet-oyeng-musical-art-practices-and-skills-associated-with-the-ekang-community-02253"
+      },
+      "transmission": "vivante",
+      "sensible": true,
+      "note_sensibilite": "La forme sacrée du Mvet Oyeng se transmet par une initiation stricte : ne pas publier de contenu initiatique ; validation par la communauté Ekang."
+    },
+    {
+      "id": "GA-tradition-bwiti",
+      "nom": "Bwiti (Bwete)",
+      "categorie": "rite",
+      "description": "Le Bwiti, ou bwete, est l'association initiatique la plus connue du Gabon. François Gaulme note que son culte s'est développé des traditions mitsogo jusqu'au syncrétisme fang. Gérard Collomb y voit chez les Mitsogo une extension sociale remarquable du culte des ancêtres, étendue à d'autres peuples ; Jacques Binet et ses collègues décrivent le Bwiti-fang comme une société initiatique mixte qui tend à devenir une religion. Robert Nassau mentionne déjà une danse « Bweti » dans un conte mpongwè publié en 1912. Selon Wikipédia, la musique sacrée du Bwiti implique l'usage de l'iboga.",
+      "communautes": [
+        "Mitsogo",
+        "Apindji",
+        "Fang",
+        "Nkomi"
+      ],
+      "regions": [
+        "Ngounié",
+        "Estuaire",
+        "Ogooué-Maritime"
+      ],
+      "sources": [
+        "S39",
+        "S45",
+        "S34",
+        "S72",
+        "S73",
+        "S74"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Pratique initiatique : description volontairement générale. Aucun contenu rituel ni détail sur l'iboga n'est repris."
+      },
+      "langues": [
+        "tsogo",
+        "fang"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "wikidata": "Q1018444",
+      "sensible": true,
+      "note_sensibilite": "Rite initiatique avec des savoirs secrets et l'usage d'une plante psychoactive : relecture et validation par des praticiens et des institutions partenaires avant publication ; ne pas détailler les rites ni les préparations."
+    },
+    {
+      "id": "GA-tradition-mwiri-banzebi",
+      "nom": "Sociétés initiatiques des Nzébi (Mwiri, Nzègho, Ngoï, Lecimba, Njembé)",
+      "categorie": "rite",
+      "description": "Chez les Nzébi, plusieurs sociétés initiatiques assurent l'entrée des jeunes dans la communauté des adultes et le maintien de l'ordre social : Mwiri et Nzègho pour les hommes, Lecimba et Njembé pour les femmes. Ngoï rassemble des hommes guerriers après une épreuve d'entrée. Gérard Collomb présente ces sociétés comme des relais de savoirs sur le monde des morts et des esprits, aujourd'hui largement disparus. Wikipédia indique que le Mwiri est aussi pratiqué par les hommes mitsogo.",
+      "communautes": [
+        "Nzébi",
+        "Mitsogo"
+      ],
+      "regions": [
+        "Ogooué-Lolo",
+        "Ngounié",
+        "Haut-Ogooué"
+      ],
+      "sources": [
+        "S45",
+        "S18",
+        "S22"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Description fondée sur Collomb (1983) : texte intégral non lu au-delà du début de l'article."
+      },
+      "langues": [
+        "nzébi"
+      ],
+      "unesco": null,
+      "sensible": true,
+      "note_sensibilite": "Sociétés initiatiques : validation par les communautés concernées ; ne pas publier de contenu secret."
+    },
+    {
+      "id": "GA-tradition-reliquaires-kota",
+      "nom": "Figures de reliquaire kota (mbulu ngulu)",
+      "categorie": "artisanat",
+      "description": "Chez les Kota, des figures en bois recouvertes de plaques et de fils de cuivre ou de laiton, appelées par exemple mbulu ngulu (« image du mort »), ont été conçues pour garder des reliques d'ancêtres. Wikipédia les cite parmi les productions les plus réputées des Kota. Le Metropolitan Museum conserve plusieurs de ces figures, attribuées aux groupes kota, mahongwè et obamba, datées du XIXe et du début du XXe siècle.",
+      "communautes": [
+        "Kota",
+        "Mahongwè",
+        "Obamba"
+      ],
+      "regions": [
+        "Ogooué-Ivindo",
+        "Haut-Ogooué"
+      ],
+      "sources": [
+        "S20",
+        "S46",
+        "S47"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La fonction des figures est ici décrite d'après les intitulés du Met (« reliquary », « image of the dead ») ; pas d'étude ethnographique lue."
+      },
+      "unesco": null,
+      "sensible": true,
+      "note_sensibilite": "Objets liés au culte des ancêtres et à des restes humains : ne pas présenter comme de simples œuvres d'art ; validation par les communautés."
+    },
+    {
+      "id": "GA-tradition-byeri-fang",
+      "nom": "Byeri : figures et têtes de reliquaire fang",
+      "categorie": "artisanat",
+      "description": "Le Metropolitan Museum conserve des figures gardiennes et des têtes de reliquaire fang appelées eyema byeri et nlô byeri, en bois, parfois rehaussées de laiton et enduites d'huile de palme, datées du XIXe siècle. Ces sculptures sont attribuées à des groupes fang (okak, betsi) du Gabon et de la Guinée équatoriale. Les intitulés du musée les désignent comme gardiennes de reliquaires.",
+      "communautes": [
+        "Fang (Okak, Betsi)"
+      ],
+      "regions": [
+        "nord du Gabon"
+      ],
+      "sources": [
+        "S75",
+        "S76",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Fonction rituelle déduite des intitulés du Met ; à documenter dans une étude ethnographique (Perrois, Laburthe-Tolra…)."
+      },
+      "langues": [
+        "fang"
+      ],
+      "unesco": null,
+      "sensible": true,
+      "note_sensibilite": "Objets funéraires et rituels : validation par les communautés fang avant publication."
+    },
+    {
+      "id": "GA-tradition-mukudj-punu",
+      "nom": "Masque mukudj et société de l'okuyi (Punu)",
+      "categorie": "danse",
+      "description": "Le mukudj est un masque blanc de figure féminine, porté par un danseur masculin monté sur de longues échasses. Selon Wikipédia, la société de l'okuyi, dont il est l'emblème, assurait la cohésion des villages punu, apaisait les esprits de la forêt et intervenait lors des deuils. Le Metropolitan Museum conserve des masques mukudj, en bois peint au kaolin, datés du milieu du XIXe au milieu du XXe siècle.",
+      "communautes": [
+        "Punu",
+        "Eshira",
+        "Lumbu"
+      ],
+      "regions": [
+        "Ngounié",
+        "Nyanga"
+      ],
+      "sources": [
+        "S16",
+        "S43",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Description fondée sur Wikipédia et sur les notices du Met (notice 318667 citée ; la notice 310743 a aussi été consultée)."
+      },
+      "langues": [
+        "punu"
+      ],
+      "unesco": null,
+      "sensible": true,
+      "note_sensibilite": "Masque rituel : respecter les règles d'usage et de diffusion définies par les communautés."
+    },
+    {
+      "id": "GA-tradition-contes-ekano",
+      "nom": "Contes et récits oraux (contes mpongwè, benga et fang)",
+      "categorie": "oralite",
+      "description": "Le Gabon possède un riche répertoire de contes, de fables, de légendes et d'épopées. Robert Nassau a recueilli seize contes auprès de deux narrateurs mpongwè à Libreville et des contes de langue benga, qu'il désigne comme des ekano. Jean-Émile Mbot analyse des contes fang où la tortue et le léopard sont des personnages centraux. André Raponda-Walker a rassemblé des Contes gabonais, publiés chez Présence africaine.",
+      "communautes": [
+        "Mpongwè",
+        "Benga",
+        "Fang"
+      ],
+      "regions": [
+        "Estuaire",
+        "Woleu-Ntem"
+      ],
+      "sources": [
+        "S72",
+        "S35",
+        "S77"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Les contes de Nassau ont été traduits et publiés par un missionnaire américain en 1912 : texte original en mpongwè non conservé."
+      },
+      "langues": [
+        "myènè (mpongwè)",
+        "benga",
+        "fang"
+      ],
+      "unesco": null,
+      "transmission": "vivante"
+    },
+    {
+      "id": "GA-tradition-ingwala",
+      "nom": "Ingwala (chant épique nzébi)",
+      "categorie": "oralite",
+      "description": "L'Ingwala est un chant épique des Nzébi, que Wikipédia cite avec le Mvett des Fang parmi les grandes formes de l'oralité gabonaise. Certains conteurs anciens et modernes s'efforcent de le maintenir vivant.",
+      "communautes": [
+        "Nzébi"
+      ],
+      "regions": [
+        "Ogooué-Lolo",
+        "Ngounié"
+      ],
+      "sources": [
+        "S77"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia) ; à compléter avec un travail de terrain ou une publication scientifique."
+      },
+      "langues": [
+        "nzébi"
+      ],
+      "unesco": null,
+      "transmission": "fragile"
+    },
+    {
+      "id": "GA-tradition-cuisine",
+      "nom": "Cuisine gabonaise : feuilles de manioc, nkumu, odika, nyembwe",
+      "categorie": "cuisine",
+      "description": "Les bases de la cuisine gabonaise sont le manioc et ses feuilles, la banane plantain, le poisson, le gibier et la volaille. Les feuilles de manioc (mayagha en nzébi) se préparent différemment chez les Fang, les Kota et les Punu. Le nkumu, feuille de liane sauvage, fait partie du patrimoine alimentaire des Téké, des Obamba et des Ndumu. L'odika, « chocolat indigène » en myènè, est une sauce à base de graines grillées et pilées ; le poulet nyembwe est l'un des plats les plus répandus.",
+      "communautes": [
+        "Fang",
+        "Kota",
+        "Punu",
+        "Téké",
+        "Obamba",
+        "Myènè"
+      ],
+      "regions": [
+        "tout le pays"
+      ],
+      "sources": [
+        "S78"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia), sans publication scientifique ni institution ; à compléter."
+      },
+      "langues": [
+        "nzébi",
+        "myènè"
+      ],
+      "unesco": null,
+      "transmission": "vivante"
+    },
+    {
+      "id": "GA-tradition-musique-tradimoderne",
+      "nom": "Musique tradi-moderne et oralitude",
+      "categorie": "musique",
+      "description": "La musique gabonaise mêle traditions locales et courants modernes (tradi-moderne, afro-zouk, rumba gabonaise). La littérature gabonaise relie cette tradition à l'oralitude des conteurs et des bardes, très présente chez des artistes comme Pierre Akendengué. Selon Wikipédia, la musique gabonaise moderne naît vers 1974 avec le premier album d'Akendengué. Patience Dabany a aussi puisé dans la rumba congolaise et le répertoire batéké.",
+      "communautes": [
+        "artistes gabonais"
+      ],
+      "regions": [
+        "tout le pays"
+      ],
+      "sources": [
+        "S74",
+        "S77",
+        "S79",
+        "S80"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Sources uniquement Wikipédia ; à renforcer (RFI Musique, travaux ethnomusicologiques)."
+      },
+      "langues": [
+        "français",
+        "myènè"
+      ],
+      "unesco": null,
+      "transmission": "vivante"
+    },
+    {
+      "id": "GA-tradition-forge-nzebi",
+      "nom": "Travail du fer chez les Nzébi",
+      "categorie": "artisanat",
+      "description": "Les Nzébi sont connus depuis le XIXe siècle pour l'extraction et le travail du minerai de fer, notamment autour du gisement de Lékoumou dans la région de Mayoko. Selon Georges Dupré, ils pratiquaient aussi un commerce actif à la fin du XIXe siècle. Leurs forgerons fabriquaient eux-mêmes des armes, d'après les explorateurs cités par Wikipédia.",
+      "communautes": [
+        "Nzébi"
+      ],
+      "regions": [
+        "Ogooué-Lolo",
+        "Ngounié"
+      ],
+      "sources": [
+        "S44",
+        "S18"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Savoir historique : état actuel de la transmission non sourcé."
+      },
+      "langues": [
+        "nzébi"
+      ],
+      "unesco": null
+    }
+  ],
+  "personnalites": [
+    {
+      "id": "GA-personnalite-denis-rapontchombo",
+      "nom": "Denis Rapontchombo (« roi Denis »)",
+      "wikidata": "Q3022890",
+      "description": "Chef du clan mpongwè des Asiga, Denis Rapontchombo fut l'un des principaux interlocuteurs des Européens dans l'estuaire du Gabon. Le 9 février 1839, il signe avec les Français une convention prévoyant une alliance et la cession de terres sur la rive gauche de l'estuaire. Louis-Philippe le nomme chevalier de la Légion d'honneur en septembre 1839. Le titre de « roi » est celui que lui donnent les Européens pour désigner un chef de clan.",
+      "naissance": {
+        "date": "vers 1780"
+      },
+      "roles": [
+        "chef de clan mpongwè"
+      ],
+      "domaines": [
+        "politique",
+        "diplomatie"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S38",
+        "S81",
+        "S41",
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de naissance approximative (vers 1780) selon Wikipédia et Wikidata ; lieu de naissance non sourcé. Date du traité (9 février 1839) lue dans Wikipédia (Histoire du Gabon)."
+      },
+      "deces": {
+        "date": "9 mai 1876"
+      }
+    },
+    {
+      "id": "GA-personnalite-andre-raponda-walker",
+      "nom": "André Raponda-Walker",
+      "wikidata": "Q2848506",
+      "description": "Prêtre, écrivain et chercheur autodidacte, André Raponda-Walker est né à Libreville d'un père britannique et d'une mère de la lignée du roi Louis Ré-Dowé. Premier Gabonais ordonné prêtre (1899), il a parcouru l'intérieur du pays en étudiant langues, faune, flore et coutumes. Associé à Roger Sillans, il publie notamment Rites et croyances des peuples du Gabon (1962), dont des comptes rendus de Persée soulignent la valeur documentaire. Il a aussi réuni des Contes gabonais.",
+      "naissance": {
+        "date": "19 juillet 1871",
+        "lieu": "Libreville"
+      },
+      "roles": [
+        "prêtre",
+        "missionnaire",
+        "écrivain",
+        "ethnographe"
+      ],
+      "domaines": [
+        "savoirs",
+        "littérature",
+        "religion"
+      ],
+      "epoque": "XIXe-XXe siècle",
+      "sources": [
+        "S82",
+        "S83",
+        "S84",
+        "S85"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates et lieux concordent entre Wikipédia et Wikidata."
+      },
+      "deces": {
+        "date": "11 décembre 1968",
+        "lieu": "Libreville"
+      }
+    },
+    {
+      "id": "GA-personnalite-jean-hilaire-aubame",
+      "nom": "Jean-Hilaire Aubame",
+      "wikidata": "Q256998",
+      "description": "Issu d'une famille fang et orphelin très jeune, Jean-Hilaire Aubame travaille dans les douanes, rallie la France libre et est élu en 1946 député du Gabon à l'Assemblée nationale française. Il est le principal rival politique de Léon M'ba. Après l'indépendance, il est ministre des Affaires étrangères, puis chef du gouvernement provisoire formé par les militaires lors du coup d'État de février 1964, qui ne dure qu'un jour.",
+      "naissance": {
+        "date": "10 novembre 1912",
+        "lieu": "Libreville"
+      },
+      "roles": [
+        "député",
+        "ministre des Affaires étrangères",
+        "chef de gouvernement provisoire (1964)"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S86",
+        "S87",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de naissance : Wikidata signale aussi « 1912 » sans jour ; Wikipédia donne le 10 novembre 1912."
+      },
+      "deces": {
+        "date": "16 août 1989",
+        "lieu": "Libreville"
+      }
+    },
+    {
+      "id": "GA-personnalite-leon-mba",
+      "nom": "Léon M'ba",
+      "wikidata": "Q299629",
+      "description": "Né à Libreville dans une famille fang, Léon M'ba est d'abord chef de canton, puis maire élu de Libreville en 1956. Premier ministre à l'indépendance du 17 août 1960, il devient président en 1961. RFI rappelle qu'il aurait préféré la départementalisation du Gabon. Son régime se durcit, et un coup d'État militaire le renverse en février 1964 avant que l'armée française ne le rétablisse.",
+      "naissance": {
+        "date": "9 février 1902",
+        "lieu": "Libreville"
+      },
+      "roles": [
+        "chef de canton",
+        "maire de Libreville",
+        "président de la République (1961-1967)"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S88",
+        "S89",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de décès : RFI indique le 27 novembre 1967, Wikipédia et Wikidata (qui note les deux dates) le 28."
+      },
+      "deces": {
+        "date": "27 ou 28 novembre 1967",
+        "lieu": "Paris"
+      },
+      "sensible": true,
+      "note_sensibilite": "Figure politique controversée : présentation neutre ; l'article de RFI rend compte des critiques sur la dérive autoritaire de son régime."
+    },
+    {
+      "id": "GA-personnalite-omar-bongo",
+      "nom": "Omar Bongo (Omar Bongo Ondimba)",
+      "wikidata": "Q172083",
+      "description": "Né Albert-Bernard Bongo à Lewaï, dans le Haut-Ogooué, il devient vice-président en 1966 puis président à la mort de Léon M'ba, en 1967. Il crée le Parti démocratique gabonais en 1968 et reste au pouvoir jusqu'à sa mort le 8 juin 2009. Son long règne est associé aux relations étroites entre le Gabon et la France ainsi qu'à de nombreuses controverses financières.",
+      "naissance": {
+        "date": "30 décembre 1935",
+        "lieu": "Lewaï (Bongoville)"
+      },
+      "roles": [
+        "président de la République (1967-2009)"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S90",
+        "S91",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lieu de naissance : Wikipédia indique Lewaï, Wikidata Bongoville (même localité sous deux noms). Dates concordantes."
+      },
+      "deces": {
+        "date": "8 juin 2009",
+        "lieu": "Barcelone"
+      },
+      "sensible": true,
+      "note_sensibilite": "Figure politique controversée : présentation neutre et factuelle ; renvoyer aux sources pour les controverses financières."
+    },
+    {
+      "id": "GA-personnalite-georges-rawiri",
+      "nom": "Georges Rawiri",
+      "wikidata": "Q922877",
+      "description": "Né à Lambaréné, Georges Rawiri est à la fois poète, diplomate et homme politique. Il est ministre à plusieurs reprises, notamment de l'Information puis des Affaires étrangères, et préside le Sénat de 1997 à 2006. Il est le père de la romancière Angèle Rawiri. La page de Wikipédia sur la littérature gabonaise le cite parmi les poètes du pays.",
+      "naissance": {
+        "date": "10 mars 1932",
+        "lieu": "Lambaréné"
+      },
+      "roles": [
+        "ministre",
+        "diplomate",
+        "président du Sénat",
+        "poète"
+      ],
+      "domaines": [
+        "politique",
+        "littérature"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S92",
+        "S64",
+        "S77"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates et lieux concordants entre Wikipédia et Wikidata."
+      },
+      "deces": {
+        "date": "9 avril 2006",
+        "lieu": "Paris"
+      }
+    },
+    {
+      "id": "GA-personnalite-pierre-claver-akendengue",
+      "nom": "Pierre-Claver Akendengué",
+      "wikidata": "Q3383659",
+      "description": "Chanteur, musicien et poète, Pierre-Claver Akendengué édite son premier album, Nandipo, en 1974, qui mêle chant en myènè, rimes françaises, guitare acoustique et percussions. Contraint à l'exil en France de 1972 à 1985, il crée à son retour au Gabon le Carrefour des arts, lieu de rencontre et de formation. Il a participé à l'album Lambarena : Bach to Africa (1995).",
+      "naissance": {
+        "date": "25 avril 1942 (Wikipédia) ou 1943 (Wikidata)",
+        "lieu": "Awuta"
+      },
+      "roles": [
+        "chanteur",
+        "poète",
+        "compositeur"
+      ],
+      "domaines": [
+        "musique",
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S79",
+        "S93",
+        "S74"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année de naissance divergente entre Wikipédia (1942) et Wikidata (1943) : non tranchée ; lieu d'après Wikipédia."
+      }
+    },
+    {
+      "id": "GA-personnalite-laurent-owondo",
+      "nom": "Laurent Owondo",
+      "wikidata": "Q94536401",
+      "description": "Écrivain, dramaturge, professeur d'université et comédien, Laurent Owondo a étudié la littérature américaine à Aix-en-Provence et à Paris. Wikipédia le décrit comme l'un des principaux romanciers gabonais, notamment pour Au bout du silence (1985). Il est aussi l'auteur de la pièce La folle du gouverneur.",
+      "naissance": {
+        "date": "14 juillet 1948",
+        "lieu": "Libreville"
+      },
+      "roles": [
+        "écrivain",
+        "dramaturge",
+        "professeur d'université",
+        "comédien"
+      ],
+      "domaines": [
+        "littérature",
+        "théâtre"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S94",
+        "S95",
+        "S77"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikidata ne donne que l'année de naissance (1948) et de décès (2019) ; jour et lieu d'après Wikipédia."
+      },
+      "deces": {
+        "date": "10 juin 2019"
+      }
+    },
+    {
+      "id": "GA-personnalite-janis-otsiemi",
+      "nom": "Janis Otsiemi",
+      "wikidata": "Q18644507",
+      "description": "Né à Franceville en 1976, Janis Otsiemi est un écrivain gabonais spécialisé dans le roman policier. Son roman La vie est un sale boulot a reçu le Prix du roman gabonais en 2010. Il publie aussi des essais.",
+      "naissance": {
+        "date": "19 juillet 1976",
+        "lieu": "Franceville"
+      },
+      "roles": [
+        "écrivain"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S96",
+        "S97",
+        "S77"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikidata signale deux dates (19 juin et 19 juillet 1976) ; Wikipédia donne le 19 juillet."
+      }
+    },
+    {
+      "id": "GA-personnalite-anthony-obame",
+      "nom": "Anthony Obame",
+      "wikidata": "Q573714",
+      "description": "Taekwondoïste né à Libreville, Anthony Obame a obtenu la médaille d'argent aux Jeux olympiques de Londres en 2012. Il s'agit de la première médaille olympique de l'histoire du Gabon. Il est aussi champion du monde et d'Afrique dans la catégorie des plus de 87 kg.",
+      "naissance": {
+        "date": "10 septembre 1988",
+        "lieu": "Libreville"
+      },
+      "roles": [
+        "taekwondoïste"
+      ],
+      "domaines": [
+        "sport"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S98",
+        "S99"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Palmarès lu dans Wikipédia ; à confirmer sur le site du Comité international olympique."
+      }
+    },
+    {
+      "id": "GA-personnalite-pierre-emerick-aubameyang",
+      "nom": "Pierre-Emerick Aubameyang",
+      "wikidata": "Q44977",
+      "description": "Footballeur international gabonais né en France, Pierre-Emerick Aubameyang joue notamment à Dortmund puis à Arsenal. Il a été sacré footballeur africain de l'année pour 2015 (annonce de janvier 2016) et meilleur buteur du championnat d'Allemagne en 2016-2017. Il vient d'une famille de footballeurs : son père Pierre Aubameyang a lui aussi joué en équipe nationale.",
+      "naissance": {
+        "date": "18 juin 1989",
+        "lieu": "Laval (France)"
+      },
+      "roles": [
+        "footballeur"
+      ],
+      "domaines": [
+        "sport"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S100",
+        "S101"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Palmarès et clubs lus dans Wikipédia (mis à jour à une date non vérifiée)."
+      }
+    },
+    {
+      "id": "GA-personnalite-joseph-rendjambe",
+      "nom": "Joseph Rendjambé",
+      "wikidata": "Q3185553",
+      "description": "Homme politique issu d'une famille royale d'Omboué, Joseph Rendjambé devient en 1990 le premier secrétaire général du Parti gabonais du progrès. Il meurt en mai 1990 dans une chambre d'hôtel dans des circonstances jamais clairement élucidées, ce qui déclenche une vague de manifestations. Ces événements s'inscrivent dans l'ouverture au multipartisme du début des années 1990.",
+      "naissance": {
+        "date": "31 mai 1939",
+        "lieu": "Omboué (Fernan-Vaz)"
+      },
+      "roles": [
+        "secrétaire général du Parti gabonais du progrès"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S102",
+        "S103",
+        "S104"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lieu de décès contradictoire dans Wikipédia ; Wikidata donne seulement mai 1990. À vérifier."
+      },
+      "deces": {
+        "date": "23 mai 1990",
+        "lieu": "Libreville selon l'introduction de Wikipédia ; Port-Gentil (hôtel Dowé) selon une note de la même page"
+      },
+      "sensible": true,
+      "note_sensibilite": "Mort aux circonstances contestées : présentation neutre, sans conclure ; attribuer chaque interprétation à sa source."
+    },
+    {
+      "id": "GA-personnalite-rose-francine-rogombe",
+      "nom": "Rose Francine Rogombé",
+      "wikidata": "Q270645",
+      "description": "Juriste d'ethnie galwa née à Lambaréné, Rose Francine Rogombé est la première femme magistrate du Gabon. Secrétaire d'État à la Promotion de la femme en 1983, elle préside le Sénat de 2009 à 2015. À la mort d'Omar Bongo, elle assure l'intérim de la présidence de la République de juin à octobre 2009.",
+      "naissance": {
+        "date": "20 septembre 1942",
+        "lieu": "Lambaréné"
+      },
+      "roles": [
+        "magistrate",
+        "présidente du Sénat",
+        "présidente de la République par intérim (2009)"
+      ],
+      "domaines": [
+        "politique",
+        "droit"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S105",
+        "S63",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates et lieux concordants ; RFI confirme seulement la mort de Bongo le 8 juin 2009."
+      },
+      "deces": {
+        "date": "10 avril 2015",
+        "lieu": "Villejuif (France)"
+      }
+    },
+    {
+      "id": "GA-personnalite-rose-christiane-ossouka-raponda",
+      "nom": "Rose Christiane Ossouka Raponda",
+      "wikidata": "Q65556229",
+      "description": "Économiste d'origine mpongwè née à Franceville, Rose Christiane Ossouka Raponda devient en 2014 la première femme maire de Libreville. Nommée Première ministre le 16 juillet 2020, elle est la première femme à occuper ce poste, puis vice-présidente de la République de janvier à août 2023.",
+      "naissance": {
+        "date": "30 juin 1963",
+        "lieu": "Franceville"
+      },
+      "roles": [
+        "économiste",
+        "maire de Libreville",
+        "Première ministre",
+        "vice-présidente"
+      ],
+      "domaines": [
+        "politique",
+        "économie"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S106",
+        "S107"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Fonctions lues dans Wikipédia ; à confirmer par un communiqué officiel."
+      }
+    },
+    {
+      "id": "GA-personnalite-marie-madeleine-mborantsuo",
+      "nom": "Marie-Madeleine Mborantsuo",
+      "wikidata": "Q55598537",
+      "description": "Magistrate née à Franceville, Marie-Madeleine Mborantsuo préside la Chambre des comptes de la Cour suprême dès 1983, puis la Cour constitutionnelle de sa création en 1991 à 2023. Titulaire d'un doctorat en droit obtenu en 2005, elle a participé à l'élaboration des textes constitutionnels de la transition vers le multipartisme. Ses décisions ont été contestées par l'opposition.",
+      "naissance": {
+        "date": "18 avril 1955",
+        "lieu": "Franceville"
+      },
+      "roles": [
+        "magistrate",
+        "présidente de la Cour constitutionnelle (1991-2023)"
+      ],
+      "domaines": [
+        "droit",
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S108",
+        "S109"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lues dans Wikipédia ; les informations de vie privée n'ont pas été reprises."
+      },
+      "sensible": true,
+      "note_sensibilite": "Figure politique contestée : présentation neutre ; citer les positions de l'opposition avec leurs sources."
+    },
+    {
+      "id": "GA-personnalite-angele-rawiri",
+      "nom": "Angèle Rawiri",
+      "wikidata": "Q4764310",
+      "description": "Née à Port-Gentil, Angèle Rawiri est considérée comme la première romancière gabonaise. Son roman Elonga (1980) raconte le retour au pays d'un jeune métis, et Fureurs et cris de femmes (1989) est son livre le plus connu. Elle ouvre dans la littérature gabonaise des personnages féminins qui dénoncent leur condition.",
+      "naissance": {
+        "date": "29 avril 1954",
+        "lieu": "Port-Gentil"
+      },
+      "roles": [
+        "romancière"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S110",
+        "S111",
+        "S77"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de décès : Wikidata indique le 15 octobre ou le 15 novembre 2010 ; Wikipédia le 15 novembre."
+      },
+      "deces": {
+        "date": "15 novembre 2010",
+        "lieu": "Puteaux (France)"
+      }
+    },
+    {
+      "id": "GA-personnalite-justine-mintsa",
+      "nom": "Justine Mintsa",
+      "wikidata": "Q2375987",
+      "description": "Écrivaine fang née à Oyem, Justine Mintsa est l'une des romancières de la génération post-indépendance. Son roman Histoire d'Awu figure parmi les premiers titres de la collection « Continents noirs » de Gallimard (2000). Elle préside l'Union des écrivains gabonais de 1977 à 2001.",
+      "naissance": {
+        "date": "8 septembre 1949",
+        "lieu": "Oyem"
+      },
+      "roles": [
+        "écrivaine",
+        "présidente de l'Union des écrivains gabonais"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S112",
+        "S113"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lue dans Wikipédia ; à confirmer par la maison d'édition."
+      }
+    },
+    {
+      "id": "GA-personnalite-patience-dabany",
+      "nom": "Patience Dabany",
+      "wikidata": "Q443143",
+      "description": "Née Marie-Joséphine Kama à Brazzaville, Patience Dabany est une artiste gabonaise, autrice, compositrice et chanteuse. Elle fonde des orchestres comme Akébé II puis Kounabéli Mbil'asuku. Sa musique puise dans la rumba congolaise et le répertoire batéké, et elle chante en français, anglais, lingala, fang ou batéké. Elle a contribué à lancer des artistes gabonais dont Annie-Flore Batchiellilys.",
+      "naissance": {
+        "date": "1944 (Wikipédia ; Wikidata indique aussi 1937)",
+        "lieu": "Brazzaville"
+      },
+      "roles": [
+        "chanteuse",
+        "compositrice",
+        "autrice"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S80",
+        "S114",
+        "S74"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année de naissance incertaine (1944 ou 1937) : non tranchée. Informations privées sur ses liens avec la présidence non reprises."
+      }
+    },
+    {
+      "id": "GA-personnalite-annie-flore-batchiellilys",
+      "nom": "Annie-Flore Batchiellilys",
+      "wikidata": "Q27999271",
+      "description": "Chanteuse, musicienne et compositrice née à Tchibanga, Annie-Flore Batchiellilys est de langue maternelle punu. Elle marie chants traditionnels, jazz et blues. Remarquée dans un concours animé par Pierre Akendengué, elle a fondé en 2006 le festival des Nuits atypiques de Mighoma. Elle est devenue sénatrice en 2023.",
+      "naissance": {
+        "date": "10 avril 1967",
+        "lieu": "Tchibanga"
+      },
+      "roles": [
+        "chanteuse",
+        "compositrice",
+        "sénatrice"
+      ],
+      "domaines": [
+        "musique",
+        "politique"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S115",
+        "S116"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lue dans Wikipédia ; nomination au Sénat en octobre 2023 à confirmer par une source institutionnelle."
+      }
+    },
+    {
+      "id": "GA-personnalite-ruddy-zang-milama",
+      "nom": "Ruddy Zang-Milama",
+      "wikidata": "Q432444",
+      "description": "Sprinteuse née à Port-Gentil, Ruddy Zang-Milama a représenté le Gabon aux Jeux olympiques de 2008, où elle a été éliminée en quart de finale, ainsi qu'aux championnats du monde de 2007 et 2009.",
+      "naissance": {
+        "date": "6 juin 1987",
+        "lieu": "Port-Gentil"
+      },
+      "roles": [
+        "athlète (sprint)"
+      ],
+      "domaines": [
+        "sport"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S117",
+        "S118"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Courte notice Wikipédia ; palmarès complet non vérifié."
+      }
+    },
+    {
+      "id": "GA-personnalite-samantha-biffot",
+      "nom": "Samantha Biffot",
+      "wikidata": "Q64224961",
+      "description": "Réalisatrice, productrice et scénariste franco-gabonaise née à Paris, Samantha Biffot fonde en 2010 la maison Princesse M Productions à Libreville. Sa série L'œil de la cité a reçu le prix de la meilleure série au festival panafricain de Ouagadougou en 2013. Elle a aussi réalisé le documentaire L'Africain qui voulait voler sur le maître de kung-fu Luc Bendza.",
+      "naissance": {
+        "date": "1985",
+        "lieu": "Paris"
+      },
+      "roles": [
+        "réalisatrice",
+        "productrice",
+        "scénariste"
+      ],
+      "domaines": [
+        "cinéma"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S119",
+        "S120",
+        "S121"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lue dans Wikipédia ; à confirmer par le festival ou la maison de production."
+      }
+    }
+  ],
+  "evenements": [
+    {
+      "id": "GA-evenement-youmbidi",
+      "titre": "Occupation des abris de Youmbidi, Pahon et Kessipougou",
+      "date": "-022999-01-01",
+      "date_affichee": "il y a environ 25 000 ans",
+      "precision": "siecle",
+      "description": "Des recherches archéologiques attestent la présence de chasseurs-cueilleurs depuis environ 25 000 ans dans les grottes de Pahon, de Kessipougou et de Youmbidi, près de Lastoursville. Ils y préparaient notamment un poison végétal pour leurs flèches, d'après le dossier gabonais déposé à l'UNESCO.",
+      "sources": [
+        "S57",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date approximative (25 000 ans avant le présent) transcrite en année astronomique ; datation à confirmer dans la publication de Richard Oslisly."
+      },
+      "regions": [
+        "Ogooué-Lolo"
+      ]
+    },
+    {
+      "id": "GA-evenement-age-fer",
+      "titre": "Premières communautés de l'âge du fer dans la vallée de l'Ogooué",
+      "date": "-000399-01-01",
+      "date_affichee": "vers 400-300 av. J.-C.",
+      "precision": "siecle",
+      "description": "Dans la moyenne vallée de l'Ogooué, des établissements de l'âge du fer ancien, comme Lalara et Otoumbi, remplacent les occupations néolithiques entre les IVe et IIIe siècles avant notre ère, selon Wikipédia. L'UNESCO souligne l'importance de cette vallée comme axe de migration de peuples bantous, avec des traces de travail du fer à Lopé-Okanda.",
+      "sources": [
+        "S51",
+        "S41",
+        "S53"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates (2400-2300 BP) rapportées par Wikipédia ; à relire dans les publications de Richard Oslisly."
+      },
+      "fin": "-000299-12-31",
+      "regions": [
+        "moyenne vallée de l'Ogooué"
+      ]
+    },
+    {
+      "id": "GA-evenement-iroungou-xive",
+      "titre": "Inhumations de la grotte d'Iroungou",
+      "date": "1300-01-01",
+      "date_affichee": "XIVe siècle",
+      "precision": "siecle",
+      "description": "Les squelettes de la grotte d'Iroungou, près de Mouila, ont été datés au carbone 14 du XIVe siècle, d'après la presse, ou de la période XIVe-XVe siècle selon Wikipédia. Cette sépulture collective, accompagnée de nombreux objets, éclaire une Afrique centrale médiévale encore peu documentée.",
+      "sources": [
+        "S67",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Datation : franceinfo (XIVe siècle) et Wikipédia (XIVe-XVe) ne concordent pas exactement."
+      },
+      "regions": [
+        "Ngounié"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Restes humains : validation par les autorités patrimoniales et les communautés avant publication."
+    },
+    {
+      "id": "GA-evenement-portugais-1472",
+      "titre": "Arrivée des Portugais dans l'estuaire du Gabon",
+      "date": "1472-01-01",
+      "date_affichee": "1472",
+      "precision": "annee",
+      "description": "Des navigateurs portugais atteignent l'estuaire du Komo en 1472. Selon Wikipédia, son nom viendrait du portugais gabão (manteau de marin). Christian Huetz de Lemps rappelle que les Mpongwè étaient établis dans l'estuaire avant cette arrivée.",
+      "sources": [
+        "S40",
+        "S41",
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date lue dans Wikipédia et reprise par Huetz de Lemps (Persée) comme repère."
+      },
+      "acteurs": [
+        "navigateurs portugais",
+        "Mpongwè"
+      ],
+      "regions": [
+        "Estuaire"
+      ]
+    },
+    {
+      "id": "GA-evenement-convention-1839",
+      "titre": "Convention entre la France et le chef mpongwè Denis Rapontchombo",
+      "date": "1839-02-09",
+      "date_affichee": "9 février 1839",
+      "precision": "jour",
+      "description": "Le 9 février 1839, deux envoyés de la France, Bouët-Willaumez et Broquant, signent avec Denis Rapontchombo une convention d'alliance défensive et offensive, accompagnée de la cession de terres sur la rive gauche de l'estuaire contre des marchandises. Wikipédia relève que les chefs mesuraient mal la portée de ces engagements.",
+      "sources": [
+        "S41",
+        "S38",
+        "S122"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date et contenu lus dans Wikipédia ; Deschamps (Persée) couvre la période 1839-1853 mais son texte n'a pas été lu en détail."
+      },
+      "acteurs": [
+        "Denis Rapontchombo",
+        "France"
+      ],
+      "regions": [
+        "Estuaire"
+      ]
+    },
+    {
+      "id": "GA-evenement-mission-protestante-1842",
+      "titre": "Mission protestante américaine et ses écoles dans l'estuaire",
+      "date": "1842-01-01",
+      "date_affichee": "à partir de 1842",
+      "precision": "annee",
+      "description": "À partir de 1842, la mission protestante américaine tient des écoles dans l'estuaire du Gabon, jusqu'en 1870 selon l'article de David Gardinier. Wikipédia rappelle que les missionnaires ont élaboré des transcriptions de langues locales en alphabet latin à partir des années 1840.",
+      "sources": [
+        "S123",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Seul le titre et la période de l'article de Gardinier ont été lus ; les transcriptions des années 1840 viennent de Wikipédia (Langues au Gabon)."
+      },
+      "fin": "1870-12-31",
+      "regions": [
+        "Estuaire"
+      ]
+    },
+    {
+      "id": "GA-evenement-poste-francais-1843",
+      "titre": "Établissement du poste français dans l'estuaire",
+      "date": "1843-01-01",
+      "date_affichee": "1843",
+      "precision": "annee",
+      "description": "Un poste français, le poste d'Okolo, est installé dans l'estuaire en 1843 : c'est l'origine de la future Libreville. Elikia M'Bokolo montre que les sociétés myènè du littoral, dont les Mpongwè, furent profondément transformées après 1850 par la fin de la traite et l'implantation française.",
+      "sources": [
+        "S14",
+        "S49",
+        "S41"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date confirmée par M'Bokolo (Persée) ; le jour (18 juin) vient de Wikipédia."
+      },
+      "acteurs": [
+        "France",
+        "Mpongwè"
+      ],
+      "regions": [
+        "Estuaire"
+      ]
+    },
+    {
+      "id": "GA-evenement-libreville-1849",
+      "titre": "Fondation de Libreville",
+      "date": "1849-01-01",
+      "date_affichee": "1849",
+      "precision": "annee",
+      "description": "En 1849, un village est créé pour accueillir des captifs libérés d'un navire négrier brésilien, l'Elizia, arraisonné au large du Loango. Il reçoit le nom de Libreville et devient le point de départ de l'occupation française du pays.",
+      "sources": [
+        "S49",
+        "S41"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Sources Wikipédia seulement : source non-Wikipédia à trouver."
+      },
+      "regions": [
+        "Estuaire"
+      ]
+    },
+    {
+      "id": "GA-evenement-franceville-1880",
+      "titre": "Masuku rebaptisé Franceville",
+      "date": "1880-06-13",
+      "date_affichee": "13 juin 1880",
+      "precision": "jour",
+      "description": "Pierre Savorgnan de Brazza rebaptise le village de Masuku, près de chutes, en Franceville le 13 juin 1880. La localité deviendra la troisième ville du pays.",
+      "sources": [
+        "S59",
+        "S65"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date lue dans Wikipédia ; l'article de Persée (1980) a été lu seulement par son titre."
+      },
+      "regions": [
+        "Haut-Ogooué"
+      ]
+    },
+    {
+      "id": "GA-evenement-bichet-1897",
+      "titre": "Le père Bichet sacré chez les Nkomi",
+      "date": "1897-01-01",
+      "date_affichee": "1897",
+      "precision": "annee",
+      "description": "En 1897, des Nkomi intègrent à leur société un missionnaire catholique, le père Marie-Georges Bichet, dont une brochure de 1950 fait le « roi des Nkomi ». François Gaulme y voit un cas exceptionnel d'intégration d'un Européen à la vie d'une société africaine.",
+      "sources": [
+        "S27",
+        "S39"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Fondé sur la présentation de l'article de Gaulme ; la nature exacte du « sacre » n'a pas été relue."
+      },
+      "acteurs": [
+        "Nkomi",
+        "Marie-Georges Bichet"
+      ],
+      "regions": [
+        "Ogooué-Maritime"
+      ]
+    },
+    {
+      "id": "GA-evenement-schweitzer-1913",
+      "titre": "Arrivée d'Albert Schweitzer à Lambaréné",
+      "date": "1913-01-01",
+      "date_affichee": "1913",
+      "precision": "annee",
+      "description": "En 1913, le médecin Albert Schweitzer s'installe à Lambaréné où il fonde un hôpital. L'arrivée a été commémorée par un centenaire en 2013, avec des travaux dans la ville. Un article de Persée examine la mémoire de Schweitzer parmi les Africains.",
+      "sources": [
+        "S61",
+        "S62"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année déduite du centenaire de 2013 (Wikipédia) ; l'article de Persée n'a été lu que partiellement."
+      },
+      "acteurs": [
+        "Albert Schweitzer"
+      ],
+      "regions": [
+        "Moyen-Ogooué"
+      ]
+    },
+    {
+      "id": "GA-evenement-aubame-1946",
+      "titre": "Jean-Hilaire Aubame élu député du Gabon",
+      "date": "1946-11-10",
+      "date_affichee": "10 novembre 1946",
+      "precision": "jour",
+      "description": "Le 10 novembre 1946, le Gabon forme une circonscription à part entière pour le collège des autochtones et Jean-Hilaire Aubame est élu député à l'Assemblée nationale française, sous l'étiquette SFIO.",
+      "sources": [
+        "S86",
+        "S87"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikipédia seulement pour la date ; source non-Wikipédia à ajouter."
+      },
+      "acteurs": [
+        "Jean-Hilaire Aubame"
+      ]
+    },
+    {
+      "id": "GA-evenement-independance-1960",
+      "titre": "Indépendance du Gabon",
+      "date": "1960-08-17",
+      "date_affichee": "17 août 1960",
+      "precision": "jour",
+      "description": "Léon M'ba proclame l'indépendance du Gabon le 17 août 1960, en tant que Premier ministre nommé sous l'administration coloniale. RFI rappelle qu'il aurait préféré faire du Gabon un département français et qu'il a dû renoncer à un drapeau qui évoquait la colonie, au profit du drapeau vert, jaune et bleu.",
+      "sources": [
+        "S7",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date confirmée par RFI et Wikipédia."
+      },
+      "acteurs": [
+        "Léon M'ba"
+      ]
+    },
+    {
+      "id": "GA-evenement-etat-urgence-1960",
+      "titre": "État d'urgence et arrestations de novembre 1960",
+      "date": "1960-11-16",
+      "date_affichee": "16 novembre 1960",
+      "precision": "jour",
+      "description": "Le 16 novembre 1960, sous prétexte d'un complot, Léon M'ba décrète l'état d'urgence et fait arrêter huit adversaires malgré leur immunité parlementaire. Le lendemain, il dissout l'Assemblée nationale, ce qui conduit à de nouvelles élections en février 1961.",
+      "sources": [
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Un seul article (RFI) lu ; à croiser avec une source historique."
+      },
+      "acteurs": [
+        "Léon M'ba",
+        "Paul-Marie Gondjout"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement politique contesté : présentation fondée sur une source de presse ; à compléter."
+    },
+    {
+      "id": "GA-evenement-election-mba-1961",
+      "titre": "Élection de Léon M'ba à la présidence et nouvelle Constitution",
+      "date": "1961-02-12",
+      "date_affichee": "12 février 1961",
+      "precision": "jour",
+      "description": "Le 12 février 1961, Léon M'ba est élu président du Gabon en candidat unique, tandis que sa liste d'union nationale remporte 99,75 % des suffrages selon RFI. Une Constitution adoptée le 21 février 1961 renforce ses pouvoirs.",
+      "sources": [
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Résultats et dates lus dans RFI."
+      },
+      "acteurs": [
+        "Léon M'ba",
+        "Jean-Hilaire Aubame"
+      ]
+    },
+    {
+      "id": "GA-evenement-coup-1964",
+      "titre": "Coup d'État militaire de février 1964 et intervention française",
+      "date": "1964-02-18",
+      "date_affichee": "17-18 février 1964",
+      "precision": "jour",
+      "description": "Dans la nuit du 17 au 18 février 1964, des militaires arrêtent Léon M'ba et forment un gouvernement provisoire dirigé par Jean-Hilaire Aubame. Environ 2 000 soldats français débarquent à Libreville dans la nuit du 18 au 19 et rétablissent Léon M'ba au pouvoir.",
+      "sources": [
+        "S7",
+        "S88",
+        "S86"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Chronologie fondée sur RFI."
+      },
+      "fin": "1964-02-19",
+      "acteurs": [
+        "Léon M'ba",
+        "Jean-Hilaire Aubame",
+        "armée française"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Épisode politique disputé : relater les faits sans prendre parti, en attribuant les interprétations à leurs auteurs."
+    },
+    {
+      "id": "GA-evenement-bongo-1967",
+      "titre": "Mort de Léon M'ba et arrivée d'Omar Bongo à la présidence",
+      "date": "1967-11-27",
+      "date_affichee": "27 novembre - 2 décembre 1967",
+      "precision": "jour",
+      "description": "Léon M'ba meurt à Paris à la fin de novembre 1967. Albert-Bernard Bongo, devenu vice-président fin 1966, lui succède. Wikipédia date de l'investiture le 2 décembre.",
+      "sources": [
+        "S7",
+        "S90"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "RFI donne le 27 novembre pour la mort de Léon M'ba, Wikipédia le 28 ; l'accession de Bongo est datée du 2 décembre par Wikipédia."
+      },
+      "fin": "1967-12-02",
+      "acteurs": [
+        "Léon M'ba",
+        "Omar Bongo"
+      ]
+    },
+    {
+      "id": "GA-evenement-pdg-1968",
+      "titre": "Création du Parti démocratique gabonais",
+      "date": "1968-03-12",
+      "date_affichee": "12 mars 1968",
+      "precision": "jour",
+      "description": "Le 12 mars 1968, Omar Bongo dissout les partis politiques et crée le Parti démocratique gabonais (PDG), promu parti unique. Le multipartisme n'est rétabli qu'au début des années 1990.",
+      "sources": [
+        "S7",
+        "S4",
+        "S90"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date lue dans RFI."
+      },
+      "acteurs": [
+        "Omar Bongo"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Histoire politique : présenter sans jugement de valeur, en renvoyant aux sources."
+    },
+    {
+      "id": "GA-evenement-oklo-1972",
+      "titre": "Découverte du réacteur nucléaire naturel d'Oklo",
+      "date": "1972-01-01",
+      "date_affichee": "1972",
+      "precision": "annee",
+      "description": "Des analyses de routine sur un échantillon d'uranium, au début des années 1970, révèlent un déficit anormal en uranium 235 et conduisent à la découverte de réacteurs nucléaires naturels qui ont fonctionné il y a environ 2 milliards d'années. Seize réacteurs ont été trouvés à Oklo, près de Franceville.",
+      "sources": [
+        "S58",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année précise (1972) lue dans Wikipédia ; le dossier UNESCO indique « début des années 1970 »."
+      },
+      "regions": [
+        "Haut-Ogooué"
+      ]
+    },
+    {
+      "id": "GA-evenement-cenaci-1975",
+      "titre": "Création du Centre national du cinéma",
+      "date": "1975-01-01",
+      "date_affichee": "1975",
+      "precision": "annee",
+      "description": "En 1975, le président Omar Bongo fonde le Centre national du cinéma (CENACI), dirigé d'abord par Philippe Mory, qui relance la production d'un cinéma soutenu par l'État. Imunga Ivanga, dans Africiné, décrit ce soutien comme décisif au milieu des années 1970 mais ayant favorisé un cinéma « officiel ».",
+      "sources": [
+        "S121",
+        "S124"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date et fondation lues dans Wikipédia (Cinéma gabonais) ; Africiné parle d'aide de l'État au milieu des années 1970."
+      },
+      "acteurs": [
+        "Omar Bongo",
+        "Philippe Mory"
+      ]
+    },
+    {
+      "id": "GA-evenement-rendjambe-1990",
+      "titre": "Mort de Joseph Rendjambé et émeutes de mai 1990",
+      "date": "1990-05-23",
+      "date_affichee": "mai 1990",
+      "precision": "mois",
+      "description": "La mort d'un opposant, Joseph Rendjambé, en mai 1990, dans une chambre d'hôtel et dans des circonstances jamais élucidées, provoque une vague de protestations. Ces événements ont lieu pendant l'ouverture du pays au multipartisme que François Gaulme analyse dans Politique africaine en 1991.",
+      "sources": [
+        "S102",
+        "S104",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Mois : Wikipédia (23 mai) ; lieu du décès contradictoire dans la même page ; l'article de Gaulme n'a pas été lu en détail."
+      },
+      "acteurs": [
+        "Joseph Rendjambé"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Circonstances de la mort contestées : présentation neutre, sans conclure."
+    },
+    {
+      "id": "GA-evenement-constitution-1991",
+      "titre": "Constitution du 26 mars 1991 et création de la Cour constitutionnelle",
+      "date": "1991-03-26",
+      "date_affichee": "26 mars 1991",
+      "precision": "jour",
+      "description": "La Constitution du 26 mars 1991 crée la Cour constitutionnelle. Marie-Madeleine Mborantsuo, membre de la commission de rédaction, en prend la présidence.",
+      "sources": [
+        "S108",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikipédia seulement pour la date ; source non-Wikipédia à ajouter."
+      },
+      "acteurs": [
+        "Marie-Madeleine Mborantsuo"
+      ]
+    },
+    {
+      "id": "GA-evenement-lope-2007",
+      "titre": "Inscription de Lopé-Okanda au patrimoine mondial",
+      "date": "2007-01-01",
+      "date_affichee": "2007",
+      "precision": "annee",
+      "description": "En 2007, l'UNESCO inscrit l'« Écosystème et paysage culturel relique de Lopé-Okanda » sur la Liste du patrimoine mondial. C'est le premier site gabonais inscrit, et un bien mixte, naturel et culturel.",
+      "sources": [
+        "S51",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année lue sur la page UNESCO ; le jour de la décision n'est pas indiqué."
+      },
+      "regions": [
+        "moyenne vallée de l'Ogooué"
+      ]
+    },
+    {
+      "id": "GA-evenement-fossiles-2008",
+      "titre": "Découverte des fossiles pluricellulaires de Moulendé",
+      "date": "2008-01-01",
+      "date_affichee": "2008",
+      "precision": "annee",
+      "description": "En 2008, des organismes fossiles pluricellulaires complexes, les Gabonionta, âgés de 2,1 milliards d'années, sont découverts près de Franceville. Cette découverte a bousculé les connaissances sur l'apparition de la vie complexe.",
+      "sources": [
+        "S58",
+        "S4",
+        "S59"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date et âge lus dans le dossier UNESCO."
+      },
+      "regions": [
+        "Haut-Ogooué"
+      ]
+    },
+    {
+      "id": "GA-evenement-bongo-2009",
+      "titre": "Mort d'Omar Bongo et présidence par intérim de Rose Francine Rogombé",
+      "date": "2009-06-08",
+      "date_affichee": "8 juin 2009",
+      "precision": "jour",
+      "description": "Omar Bongo meurt le 8 juin 2009 après plus de quarante ans de pouvoir. La présidente du Sénat, Rose Francine Rogombé, assure l'intérim de la présidence de la République de juin à octobre 2009, avant l'élection d'Ali Bongo.",
+      "sources": [
+        "S7",
+        "S105",
+        "S91"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de décès confirmée par RFI et Wikidata."
+      },
+      "acteurs": [
+        "Omar Bongo",
+        "Rose Francine Rogombé"
+      ]
+    },
+    {
+      "id": "GA-evenement-iroungou-2018",
+      "titre": "Découverte de la grotte d'Iroungou",
+      "date": "2018-01-01",
+      "date_affichee": "fin 2018",
+      "precision": "annee",
+      "description": "À la fin de 2018, le géo-archéologue Richard Oslisly met au jour dans le sud du Gabon une cavité renfermant de nombreux squelettes et des objets de l'époque médiévale. Une expédition d'anthropobiologistes l'étudie en 2020.",
+      "sources": [
+        "S67"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Chronologie lue dans franceinfo (AFP, mars 2020)."
+      },
+      "acteurs": [
+        "Richard Oslisly"
+      ],
+      "regions": [
+        "Ngounié"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Restes humains : validation par les autorités patrimoniales avant publication."
+    },
+    {
+      "id": "GA-evenement-ossouka-2020",
+      "titre": "Première femme Première ministre",
+      "date": "2020-07-16",
+      "date_affichee": "16 juillet 2020",
+      "precision": "jour",
+      "description": "Le 16 juillet 2020, Rose Christiane Ossouka Raponda est nommée Première ministre par le président Ali Bongo. Elle est la première femme à occuper cette fonction.",
+      "sources": [
+        "S106",
+        "S107"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikipédia seulement pour la date ; source non-Wikipédia à ajouter."
+      },
+      "acteurs": [
+        "Rose Christiane Ossouka Raponda"
+      ]
+    },
+    {
+      "id": "GA-evenement-ivindo-2021",
+      "titre": "Inscription du parc national d'Ivindo au patrimoine mondial",
+      "date": "2021-01-01",
+      "date_affichee": "2021",
+      "precision": "annee",
+      "description": "En 2021, le parc national d'Ivindo, d'environ 300 000 hectares, est inscrit sur la Liste du patrimoine mondial pour ses valeurs naturelles. C'est le deuxième bien gabonais inscrit.",
+      "sources": [
+        "S50",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année lue sur la page UNESCO et sur la page de l'État partie."
+      },
+      "regions": [
+        "nord du Gabon"
+      ]
+    },
+    {
+      "id": "GA-evenement-coup-2023",
+      "titre": "Coup d'État du 30 août 2023",
+      "date": "2023-08-30",
+      "date_affichee": "30 août 2023",
+      "precision": "jour",
+      "description": "Le 30 août 2023, quelques minutes après l'annonce de la réélection d'Ali Bongo, des militaires réunis au sein du Comité pour la transition et la restauration des institutions annulent le vote et prennent le pouvoir. Le général Brice Oligui Nguema prête serment comme président de la transition le 4 septembre 2023.",
+      "sources": [
+        "S125",
+        "S126"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Faits lus dans Gabonreview (30 août 2023) et BBC Afrique (4 septembre 2023)."
+      },
+      "acteurs": [
+        "Comité pour la transition et la restauration des institutions",
+        "Brice Oligui Nguema",
+        "Ali Bongo"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement politique récent et disputé : présentation neutre, positions des parties à citer avec leurs sources."
+    },
+    {
+      "id": "GA-evenement-constituante-2024",
+      "titre": "Assemblée constituante de la transition",
+      "date": "2024-09-12",
+      "date_affichee": "12 septembre 2024",
+      "precision": "jour",
+      "description": "Le 12 septembre 2024, 168 députés et sénateurs de la transition se réunissent en Assemblée constituante pour dix jours afin d'examiner le projet de Constitution rédigé par un comité technique et remis le 31 août. Les militaires du CTRI auront le dernier mot avant un référendum prévu d'ici la fin de l'année.",
+      "sources": [
+        "S127"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Un seul article (RFI) lu ; issue du référendum non sourcée ici."
+      },
+      "acteurs": [
+        "CTRI",
+        "Brice Oligui Nguema"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Actualité politique : présenter les faits tels que rapportés par la source."
+    },
+    {
+      "id": "GA-evenement-mvet-2025",
+      "titre": "Inscription du Mvet Oyeng sur la Liste représentative de l'UNESCO",
+      "date": "2025-01-01",
+      "date_affichee": "2025",
+      "precision": "annee",
+      "description": "En 2025, le Mvet Oyeng, art musical, pratiques et savoir-faire associés à la communauté Ekang, est inscrit sur la Liste représentative du patrimoine culturel immatériel. L'inscription est partagée entre le Gabon, le Cameroun et le Congo.",
+      "sources": [
+        "S69",
+        "S9"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année lue sur ich.unesco.org (20.COM) ; la date exacte de la session n'est pas indiquée sur les pages lues."
+      },
+      "acteurs": [
+        "communauté Ekang"
+      ]
+    },
+    {
+      "id": "GA-evenement-recensement-2026",
+      "titre": "Résultats du recensement général de la population et des logements",
+      "date": "2026-08-27",
+      "date_affichee": "27 août 2026",
+      "precision": "jour",
+      "description": "Le 27 août 2026, la Cour constitutionnelle proclame les résultats du recensement général de la population et des logements : 3 518 621 habitants, soit nettement plus que les estimations antérieures de 1,7 à 2,1 millions citées par la presse.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source de presse (Gabonreview) ; à confirmer par la publication officielle de la Direction générale de la statistique."
+      },
+      "acteurs": [
+        "Cour constitutionnelle"
+      ]
+    }
+  ],
+  "oeuvres": [
+    {
+      "id": "GA-oeuvre-mbulu-ngulu-met",
+      "titre": "Mbulu ngulu (image du mort)",
+      "type": "sculpture",
+      "description": "Cette figure de reliquaire, attribuée aux Obamba-Kota, est une petite sculpture de bois recouverte de plaques de laiton, avec des fils de cuivre, des os et des clous de laiton et de fer. Elle mesure environ 42 cm de haut et date de la fin du XIXe ou du début du XXe siècle. Elle fait partie de la collection Michael C. Rockefeller du Metropolitan Museum.",
+      "sources": [
+        "S46",
+        "S20"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Notice lue via l'API du Met (312312)."
+      },
+      "communaute": "Obamba-Kota",
+      "periode": "fin du XIXe-début du XXe siècle",
+      "materiaux": [
+        "bois",
+        "laiton",
+        "cuivre",
+        "os",
+        "fer"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1979.206.109",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/312312",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici.",
+      "sensible": true,
+      "note_sensibilite": "Figure de reliquaire liée au culte des ancêtres : présentation respectueuse, validation par les communautés."
+    },
+    {
+      "id": "GA-oeuvre-eyema-byeri-met",
+      "titre": "Eyema byeri (figure gardienne de reliquaire)",
+      "type": "sculpture",
+      "description": "Cette sculpture en bois, attribuée aux Fang okak, est rehaussée de laiton et enduite d'huile de palme. Elle mesure environ 64 cm de haut et date du XIXe siècle. Le Met la rattache au Gabon ou à la Guinée équatoriale.",
+      "sources": [
+        "S75",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Notice lue via l'API du Met (310870). Statut « domaine public » indiqué par le Met pour cet objet."
+      },
+      "communaute": "Okak-Fang",
+      "periode": "XIXe siècle",
+      "materiaux": [
+        "bois",
+        "laiton",
+        "huile de palme"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1978.412.441",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/310870",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici.",
+      "sensible": true,
+      "note_sensibilite": "Objet funéraire et rituel : validation par les communautés fang."
+    },
+    {
+      "id": "GA-oeuvre-nlo-byeri-met",
+      "titre": "Nlô byeri (tête gardienne de reliquaire)",
+      "type": "sculpture",
+      "description": "Cette tête en bois, attribuée aux Fang betsi, est ornée de laiton et d'huile de palme. Elle mesure environ 46 cm de haut et date du XIXe siècle. Elle figure parmi les têtes de reliquaire fang du Metropolitan Museum.",
+      "sources": [
+        "S76",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Notice lue via l'API du Met (312429). Statut « domaine public » indiqué par le Met."
+      },
+      "communaute": "Betsi-Fang",
+      "periode": "XIXe siècle",
+      "materiaux": [
+        "bois",
+        "laiton",
+        "huile de palme"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1979.206.229",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/312429",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici.",
+      "sensible": true,
+      "note_sensibilite": "Objet funéraire et rituel : validation par les communautés fang."
+    },
+    {
+      "id": "GA-oeuvre-mukudj-met",
+      "titre": "Mukudj (masque)",
+      "type": "masque",
+      "description": "Ce masque punu en bois peint au kaolin représente un visage féminin blanc. Il mesure environ 34 cm de haut et date du milieu du XIXe au milieu du XXe siècle. Wikipédia indique que ces masques appartenaient à la société de l'okuyi et étaient portés par un danseur sur échasses.",
+      "sources": [
+        "S43",
+        "S16"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Notice lue via l'API du Met (318667)."
+      },
+      "communaute": "Punu",
+      "periode": "milieu du XIXe-milieu du XXe siècle",
+      "materiaux": [
+        "bois",
+        "pigments",
+        "kaolin"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "2000.177",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/318667",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici.",
+      "sensible": true,
+      "note_sensibilite": "Masque rituel : respecter les règles de diffusion définies par les communautés."
+    },
+    {
+      "id": "GA-oeuvre-ngontang-met",
+      "titre": "Ngontang (masque heaume « jeune fille blanche »)",
+      "type": "masque",
+      "description": "Ce masque heaume fang en bois peint au kaolin mesure environ 39 cm de haut et date de la première moitié du XXe siècle. Son titre, « young white girl » dans la notice du Met, correspond à la tradition des masques ngontang.",
+      "sources": [
+        "S128"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Notice lue via l'API du Met (314285) ; sens et usage du masque non documentés ici."
+      },
+      "communaute": "Fang",
+      "periode": "première moitié du XXe siècle",
+      "materiaux": [
+        "bois",
+        "pigments",
+        "kaolin"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1980.559",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/314285",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici.",
+      "sensible": true,
+      "note_sensibilite": "Masque rituel : respecter les règles de diffusion définies par les communautés."
+    },
+    {
+      "id": "GA-oeuvre-boho-na-bwete-met",
+      "titre": "Boho na bwete (visage de l'ancêtre)",
+      "type": "sculpture",
+      "description": "Cette figure mahongwè, du groupe kota, est faite de bois recouvert de feuilles et de fils de laiton ou de cuivre. Elle mesure environ 53 cm de haut et date de 1879 au début du XXe siècle. Son titre signifie « visage de l'ancêtre ».",
+      "sources": [
+        "S47",
+        "S20"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Notice lue via l'API du Met (310863)."
+      },
+      "communaute": "Mahongwè (Kota)",
+      "periode": "1879-début du XXe siècle",
+      "materiaux": [
+        "bois",
+        "laiton",
+        "cuivre",
+        "fer"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1978.412.434",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/310863",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici.",
+      "sensible": true,
+      "note_sensibilite": "Figure de reliquaire liée aux ancêtres : validation par les communautés."
+    },
+    {
+      "id": "GA-oeuvre-contes-gabonais",
+      "titre": "Contes gabonais",
+      "type": "livre",
+      "description": "Recueil de contes réunis par André Raponda-Walker au cours de sa longue vie auprès de populations du Gabon, publié chez Présence africaine (première édition en 1967, réédité en 2001). Il appartient avec les recueils d'Henri Trilles à la tradition de collecte de la littérature orale du pays.",
+      "sources": [
+        "S77",
+        "S82"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Références lues dans Wikipédia (Littérature gabonaise) ; l'ouvrage lui-même n'a pas été consulté."
+      },
+      "createur": "André Raponda-Walker",
+      "periode": "1967 (rééd. 2001)",
+      "institution": "Présence africaine (éditeur)",
+      "url_notice": "https://fr.wikipedia.org/wiki/Litt%C3%A9rature_gabonaise",
+      "droits": "Ouvrage sous droits ; notice bibliographique seulement."
+    },
+    {
+      "id": "GA-oeuvre-rites-croyances",
+      "titre": "Rites et croyances des peuples du Gabon",
+      "type": "livre",
+      "description": "Cet essai de 1962, écrit par André Raponda-Walker avec l'ethnobotaniste Roger Sillans, décrit avec minutie les pratiques religieuses d'autrefois et d'aujourd'hui, souvent en lien avec des plantes précises. Les comptes rendus de Persée soulignent qu'il a pu sauver de l'oubli des éléments en voie de disparition.",
+      "sources": [
+        "S84",
+        "S85"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Références lues dans les deux comptes rendus de Persée (L'Homme 1963 ; Archives de sociologie des religions 1963)."
+      },
+      "createur": "André Raponda-Walker et Roger Sillans",
+      "periode": "1962",
+      "institution": "Présence africaine (éditeur)",
+      "url_notice": "https://www.persee.fr/doc/hom_0439-4216_1963_num_3_3_366590",
+      "droits": "Notice bibliographique seulement.",
+      "sensible": true,
+      "note_sensibilite": "Description de pratiques religieuses : lire avec les précautions d'usage (ouvrage écrit par un prêtre catholique)."
+    },
+    {
+      "id": "GA-oeuvre-le-mvett",
+      "titre": "Le Mvett (Tsira Ndong Ndoutoume)",
+      "type": "livre",
+      "description": "Tsira Ndong Ndoutoume a transcrit et publié des récits du Mvett en deux volumes chez Présence africaine (1970 et 1975). Pierre Smith, dans L'Homme, décrit le Mvett comme la manifestation la plus prestigieuse de la culture des Fang et des peuples apparentés au Gabon, en Guinée équatoriale et au Cameroun.",
+      "sources": [
+        "S33",
+        "S77",
+        "S71"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Références lues dans le compte rendu de Persée."
+      },
+      "createur": "Tsira Ndong Ndoutoume",
+      "periode": "1970-1975",
+      "institution": "Présence africaine (éditeur)",
+      "url_notice": "https://www.persee.fr/doc/hom_0439-4216_1977_num_17_1_367731",
+      "droits": "Notice bibliographique seulement."
+    },
+    {
+      "id": "GA-oeuvre-elonga",
+      "titre": "Elonga",
+      "type": "livre",
+      "description": "Premier roman d'Angèle Rawiri, publié en 1980, Elonga raconte le retour au pays d'un jeune métis et le choc culturel qui en résulte. L'autrice est considérée comme la première romancière gabonaise.",
+      "sources": [
+        "S110",
+        "S111"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Résumé lu dans Wikipédia ; éditeur non vérifié."
+      },
+      "createur": "Angèle Rawiri",
+      "periode": "1980",
+      "institution": "Éditeur à préciser",
+      "url_notice": "https://fr.wikipedia.org/wiki/Ang%C3%A8le_Rawiri",
+      "droits": "Notice bibliographique seulement."
+    },
+    {
+      "id": "GA-oeuvre-au-bout-du-silence",
+      "titre": "Au bout du silence",
+      "type": "livre",
+      "description": "Ce roman de Laurent Owondo, paru en 1985, est cité par Wikipédia comme l'ouvrage qui culmine la naissance du genre romanesque au Gabon. L'auteur est aussi dramaturge.",
+      "sources": [
+        "S77",
+        "S94",
+        "S95"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Éditeur et détails non vérifiés."
+      },
+      "createur": "Laurent Owondo",
+      "periode": "1985",
+      "institution": "Éditeur à préciser",
+      "url_notice": "https://fr.wikipedia.org/wiki/Laurent_Owondo",
+      "droits": "Notice bibliographique seulement."
+    },
+    {
+      "id": "GA-oeuvre-nandipo",
+      "titre": "Nandipo",
+      "type": "musique",
+      "description": "Album de Pierre-Claver Akendengué produit par Pierre Barouh pour le label Saravah en 1974. Il mêle chant en myènè, rimes françaises, guitare acoustique, percussions variées et influences soul et cubaines. Wikipédia date de 1974 le début de la musique gabonaise moderne avec ce premier album.",
+      "sources": [
+        "S79",
+        "S74",
+        "S93"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lu dans Wikipédia ; disque non écouté."
+      },
+      "createur": "Pierre-Claver Akendengué",
+      "periode": "1974",
+      "institution": "Saravah (label)",
+      "url_notice": "https://fr.wikipedia.org/wiki/Pierre_Akendengue",
+      "droits": "Notice bibliographique seulement."
+    },
+    {
+      "id": "GA-oeuvre-dole",
+      "titre": "Dôlè",
+      "type": "film",
+      "description": "Film d'Imunga Ivanga sorti en 2000, présenté par Wikipédia comme le premier long métrage gabonais en deux décennies. Africiné le cite parmi la production gabonaise de 2000, avec Les Flots de Libreville du même cinéaste. Il aurait reçu des prix à Carthage, Cannes et Milan selon Wikipédia.",
+      "sources": [
+        "S124",
+        "S121"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Prix lus dans Wikipédia seulement ; à vérifier auprès des festivals."
+      },
+      "createur": "Imunga Ivanga",
+      "periode": "2000",
+      "institution": "Africiné (base de données)",
+      "url_notice": "https://www.africine.org/analyse/le-renouveau-du-cinema-gabonais/1810",
+      "droits": "Notice bibliographique seulement."
+    },
+    {
+      "id": "GA-oeuvre-where-animals-talk",
+      "titre": "Where Animals Talk: West African Folk Lore Tales",
+      "type": "livre",
+      "description": "Recueil publié à Boston en 1912 par le missionnaire Robert Hamill Nassau. Il rassemble des contes mpongwè, benga et fang, accompagnés de notes sur plusieurs proverbes. Le texte est entré dans le domaine public et son édition numérisée est consultable sur l'Internet Archive.",
+      "sources": [
+        "S72"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lu en texte intégral (OCR) sur Internet Archive ; point de vue d'un missionnaire du début du XXe siècle, vocabulaire d'époque à contextualiser."
+      },
+      "createur": "Robert Hamill Nassau",
+      "periode": "1912",
+      "institution": "Internet Archive (numérisation)",
+      "url_notice": "https://archive.org/details/whereanimalstalk00nassrich",
+      "droits": "Domaine public (publication de 1912)."
+    }
+  ],
+  "proverbes": [
+    {
+      "id": "GA-proverbe-njiwo",
+      "texte_original": "Eziwo a juwi na Antyavina.",
+      "langue": "mpongwè (myènè)",
+      "traduction": "Eziwo (l'antilope njiwo) est mort de sommeil.",
+      "sens": "Nassau explique que l'on remonte d'un événement (la mort supposée de l'antilope) à sa première cause, le sommeil, derrière les causes immédiates.",
+      "publication": "Robert H. Nassau, Where Animals Talk: West African Folk Lore Tales, Boston, Richard G. Badger, The Gorham Press, 1912, Part First (Mpongwe), conte 10 « Njiwo died of sleep: a proverb », p. 58 (numérisation Internet Archive).",
+      "note": "Graphie reprise de l'OCR : les diacritiques de l'orthographe mpongwè n'ont pas pu être contrôlés ; à moderniser. Dans la note, « Eziwo » est une façon familière de dire Njiwo.",
+      "sources": [
+        "S72"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Texte et traduction anglaise lus dans l'édition numérisée (OCR) ; à contrôler par un locuteur de la langue."
+      }
+    },
+    {
+      "id": "GA-proverbe-nkula",
+      "texte_original": "Inkula si nyo o'kangd 'Ngdngwe.",
+      "langue": "mpongwè (myènè)",
+      "traduction": "Les noix (nkula) se mangent à cause d'Angangwe.",
+      "sens": "Nassau y lit l'obligation que nous avons tous envers des puissances protectrices supérieures ; dans le conte, les porcs (ingowa) mangent des noix sous la protection de leur roi Angangwe.",
+      "publication": "Robert H. Nassau, Where Animals Talk: West African Folk Lore Tales, Boston, Richard G. Badger, The Gorham Press, 1912, Part First (Mpongwe), conte 7 « Nuts are eaten because of Angangwe: a proverb », p. 49 (numérisation Internet Archive).",
+      "note": "Le texte original est très altéré par l'OCR (« o'kangd 'Ngdngwe »), il doit être confronté à une édition imprimée ; la traduction française suit l'intitulé anglais du conte.",
+      "sources": [
+        "S72"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Texte et traduction anglaise lus dans l'édition numérisée (OCR) ; à contrôler par un locuteur de la langue."
+      }
+    },
+    {
+      "id": "GA-proverbe-iwedo",
+      "texte_original": "Iwedo a yalakendi na moto umbaka.",
+      "langue": "benga",
+      "traduction": "La mort commence par une seule personne.",
+      "sens": "Dans le conte, la tortue cite ce proverbe pour rappeler que tous doivent rester vigilants : le danger peut venir à tous par l'indiscrétion de quelques-uns.",
+      "publication": "Robert H. Nassau, Where Animals Talk: West African Folk Lore Tales, Boston, Richard G. Badger, The Gorham Press, 1912, Part Second (Benga), conte 13 « Death begins by some one person: a proverb », pp. 126-127 (numérisation Internet Archive).",
+      "note": "Conte recueilli à Batanga (Cameroun) dans le dialecte bapuku du benga, auprès de trois narrateurs ; la forme benga du Gabon peut différer.",
+      "sources": [
+        "S72"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Texte et traduction anglaise lus dans l'édition numérisée (OCR) ; à contrôler par un locuteur de la langue."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "titre": "Démographie : le Gabon franchit officiellement la barre des 3 millions d'habitants",
+      "institution": "Gabonreview",
+      "auteur": "Tokyo Yabangoye",
+      "annee": 2026,
+      "url": "https://www.gabonreview.com/demographie-le-gabon-franchit-officiellement-la-barre-des-3-millions-dhabitants/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S2",
+      "titre": "Population totale — Gabon (SP.POP.TOTL)",
+      "institution": "Banque mondiale",
+      "annee": 2026,
+      "url": "https://api.worldbank.org/v2/country/GAB/indicator/SP.POP.TOTL?format=json&per_page=5",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S3",
+      "titre": "Wikidata Q1000 — Gabon",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "annee": 2026,
+      "url": "https://www.wikidata.org/wiki/Q1000",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S4",
+      "titre": "Gabon — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Gabon",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S5",
+      "titre": "Langues au Gabon — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Langues_au_Gabon",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S6",
+      "titre": "Culture du Gabon — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Culture_du_Gabon",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S7",
+      "titre": "Léon Mba, le président qui ne voulait pas de l'indépendance du Gabon",
+      "institution": "RFI",
+      "auteur": "Yves-Laurent Goma",
+      "annee": 2010,
+      "url": "https://www.rfi.fr/fr/afrique/20100816-leon-mba-le-president-voulait-pas-independance-gabon",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S8",
+      "titre": "Gabon — États parties",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "annee": 2026,
+      "url": "https://whc.unesco.org/fr/etatsparties/ga",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions) ; autres contenus : conditions du site UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S9",
+      "titre": "Gabon — Patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "annee": 2026,
+      "url": "https://ich.unesco.org/en/state/gabon-GA",
+      "type": "unesco",
+      "licence": "conditions du site UNESCO (© UNESCO)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S10",
+      "titre": "Glottolog : French (stan1290)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/stan1290",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S11",
+      "titre": "Glottolog : Fang (fang1246)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/fang1246",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S12",
+      "titre": "Fang — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Fangs",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S13",
+      "titre": "Glottolog : Myene (myen1241)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/myen1241",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S14",
+      "titre": "Le Gabon précolonial : étude sociale et économique",
+      "institution": "Persée",
+      "auteur": "Elikia M'Bokolo",
+      "annee": 1977,
+      "url": "https://www.persee.fr/doc/cea_0008-0055_1977_num_17_66_2457",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre sur Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S15",
+      "titre": "Glottolog : Punu (punu1239)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/punu1239",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S16",
+      "titre": "Punu (peuple) — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Punu_%28peuple%29",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S17",
+      "titre": "Glottolog : Njebi (nzebi) (njeb1242)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/njeb1242",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S18",
+      "titre": "Nzebi (peuple) — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Nzebi_%28peuple%29",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S19",
+      "titre": "Glottolog : Kota (Gabon) (kota1274)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/kota1274",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S20",
+      "titre": "Kota (peuple) — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Kota_%28peuple%29",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S21",
+      "titre": "Glottolog : Tsogo (tsog1243)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/tsog1243",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S22",
+      "titre": "Mitsogo — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Mitsogo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S23",
+      "titre": "Glottolog : Baka (baka1272)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/baka1272",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S24",
+      "titre": "Champignons consommés par les Pygmées du Gabon : analyse linguistique des myconymes baka et kóya",
+      "institution": "Persée",
+      "auteur": "Joseph Koni Muluwa, Hugues Calixte Eyi Ndong, Jérôme Degreef, Koen Bostoen",
+      "annee": 2013,
+      "url": "https://www.persee.fr/doc/aflin_2033-8732_2013_num_19_1_1019",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre sur Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S25",
+      "titre": "Glottolog : Mbere-Mbamba (mber1257)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/mber1257",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S26",
+      "titre": "Glottolog : Vili (vili1238)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/vili1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S27",
+      "titre": "Un problème d'histoire du Gabon. Le sacre du P. Bichet par les Nkomi en 1897",
+      "institution": "Persée",
+      "auteur": "François Gaulme",
+      "annee": 1974,
+      "url": "https://www.persee.fr/doc/outre_0300-9513_1974_num_61_224_1775",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre sur Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S28",
+      "titre": "Glottolog : Sira (sira1266)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/sira1266",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S29",
+      "titre": "Glottolog : Ndumu (ndum1239)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/ndum1239",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S30",
+      "titre": "Glottolog : Sake (sake1247)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/sake1247",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S31",
+      "titre": "Glottolog : Lumbu (lumb1249)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/lumb1249",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S32",
+      "titre": "Glottolog : Latege (téké) (teke1275)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-SHH)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/teke1275",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S33",
+      "titre": "Tsira Ndong Ndoutoume, Le Mvett (compte rendu)",
+      "institution": "Persée",
+      "auteur": "Pierre Smith",
+      "annee": 1977,
+      "url": "https://www.persee.fr/doc/hom_0439-4216_1977_num_17_1_367731",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre sur Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S34",
+      "titre": "Textes religieux du Bwiti-fan et de ses confréries prophétiques dans leurs cadres rituels",
+      "institution": "Persée",
+      "auteur": "Jacques Binet, Otto Gollnhofer, Roger Sillans",
+      "annee": 1972,
+      "url": "https://www.persee.fr/doc/cea_0008-0055_1972_num_12_46_2762",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre sur Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S35",
+      "titre": "La tortue et le léopard chez les Fang du Gabon (hypothèse de travail sur les contes traduits)",
+      "institution": "Persée",
+      "auteur": "Jean-Émile Mbot",
+      "annee": 1974,
+      "url": "https://www.persee.fr/doc/cea_0008-0055_1974_num_14_56_2621",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre sur Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S36",
+      "titre": "The Settlement of the Mpongwe clans in the Gabon estuary : an historical synthesis",
+      "institution": "Persée",
+      "auteur": "Henry H. Bucher Jr.",
+      "annee": 1977,
+      "url": "https://www.persee.fr/doc/outre_0300-9513_1977_num_64_235_2007",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre sur Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S37",
+      "titre": "Mpongwe — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Mpongw%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S38",
+      "titre": "Denis Rapontchombo — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Denis_Rapontchombo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S39",
+      "titre": "Le Bwiti chez les Nkomi : associations cultuelles et évolution historique sur le littoral gabonais",
+      "institution": "Persée",
+      "auteur": "François Gaulme",
+      "annee": 1979,
+      "url": "https://www.persee.fr/doc/jafr_0399-0346_1979_num_49_2_1984",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre sur Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S40",
+      "titre": "Les débuts de la colonisation française au Gabon (note critique)",
+      "institution": "Persée",
+      "auteur": "Christian Huetz de Lemps",
+      "annee": 1982,
+      "url": "https://www.persee.fr/doc/caoum_0373-5834_1982_num_35_137_3013",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre sur Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S41",
+      "titre": "Histoire du Gabon — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Histoire_du_Gabon",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S42",
+      "titre": "Orungu — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Orungu",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S43",
+      "titre": "The Metropolitan Museum of Art — notice d'objet 318667 (API Open Access)",
+      "institution": "The Metropolitan Museum of Art",
+      "annee": 2026,
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/318667",
+      "type": "musee",
+      "licence": "CC0 (données Open Access du Met)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S44",
+      "titre": "Le commerce entre sociétés lignagères : les Nzabi dans la traite à la fin du XIXe siècle (Gabon-Congo)",
+      "institution": "Persée",
+      "auteur": "Georges Dupré",
+      "annee": 1972,
+      "url": "https://www.persee.fr/doc/cea_0008-0055_1972_num_12_48_2740",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre sur Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S45",
+      "titre": "Fragments d'une cosmologie Banzèbi",
+      "institution": "Persée",
+      "auteur": "Gérard Collomb",
+      "annee": 1983,
+      "url": "https://www.persee.fr/doc/jafr_0399-0346_1983_num_53_1_2040",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre sur Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S46",
+      "titre": "The Metropolitan Museum of Art — notice d'objet 312312 (API Open Access)",
+      "institution": "The Metropolitan Museum of Art",
+      "annee": 2026,
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/312312",
+      "type": "musee",
+      "licence": "CC0 (données Open Access du Met)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S47",
+      "titre": "The Metropolitan Museum of Art — notice d'objet 310863 (API Open Access)",
+      "institution": "The Metropolitan Museum of Art",
+      "annee": 2026,
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/310863",
+      "type": "musee",
+      "licence": "CC0 (données Open Access du Met)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S48",
+      "titre": "Baka (peuple) — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Baka_%28peuple%29",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S49",
+      "titre": "Libreville — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Libreville",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S50",
+      "titre": "Parc national de l'Ivindo",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "annee": 2021,
+      "url": "https://whc.unesco.org/fr/list/1653",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (description)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S51",
+      "titre": "Écosystème et paysage culturel relique de Lopé-Okanda",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "annee": 2007,
+      "url": "https://whc.unesco.org/fr/list/1147",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (description)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S52",
+      "titre": "Le parc national de la Lopé-Okanda (Gabon) : un paysage culturel relique inscrit au patrimoine mondial de l'UNESCO",
+      "institution": "Persée",
+      "auteur": "Bernard Peyrot",
+      "annee": 2011,
+      "url": "https://www.persee.fr/doc/etrop_1147-3991_2011_act_20_11_1227",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre sur Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S53",
+      "titre": "Hommes et milieux à l'Holocène dans la moyenne vallée de l'Ogooué (Gabon)",
+      "institution": "Persée",
+      "auteur": "Richard Oslisly",
+      "annee": 1998,
+      "url": "https://www.persee.fr/doc/bspf_0249-7638_1998_num_95_1_10737",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre sur Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S54",
+      "titre": "Parc national de la Lopé — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Parc_national_de_la_Lop%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S55",
+      "titre": "Parc national de Loango (liste indicative)",
+      "institution": "UNESCO, Centre du patrimoine mondial (soumis par la Délégation permanente du Gabon)",
+      "annee": 2022,
+      "url": "https://whc.unesco.org/fr/listesindicatives/6593/",
+      "type": "unesco",
+      "licence": "contenu de l'État partie publié par l'UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S56",
+      "titre": "Parc national de Loango — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Parc_national_de_Loango",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S57",
+      "titre": "Grottes de Lastoursville (liste indicative)",
+      "institution": "UNESCO, Centre du patrimoine mondial (soumis par la Délégation permanente du Gabon)",
+      "annee": 2022,
+      "url": "https://whc.unesco.org/fr/listesindicatives/6587/",
+      "type": "unesco",
+      "licence": "contenu de l'État partie publié par l'UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S58",
+      "titre": "Le site fossilifère de Moulendé et la pile nucléaire de Bangombé (liste indicative)",
+      "institution": "UNESCO, Centre du patrimoine mondial (soumis par la Délégation permanente du Gabon)",
+      "annee": 2022,
+      "url": "https://whc.unesco.org/fr/listesindicatives/6590/",
+      "type": "unesco",
+      "licence": "contenu de l'État partie publié par l'UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S59",
+      "titre": "Franceville — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Franceville",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S60",
+      "titre": "Parc national des Monts Birougou (liste indicative)",
+      "institution": "UNESCO, Centre du patrimoine mondial (soumis par la Délégation permanente du Gabon)",
+      "annee": 2022,
+      "url": "https://whc.unesco.org/fr/listesindicatives/6591/",
+      "type": "unesco",
+      "licence": "contenu de l'État partie publié par l'UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S61",
+      "titre": "Lambaréné — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Lambar%C3%A9n%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S62",
+      "titre": "Albert Schweitzer dans la mémoire des Africains",
+      "institution": "Persée",
+      "auteur": "Matthieu Arnold",
+      "annee": 2013,
+      "url": "https://www.persee.fr/doc/rhpr_0035-2403_2013_num_93_3_1781",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre sur Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S63",
+      "titre": "Wikidata Q270645 — Rose Francine Rogombé",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "annee": 2026,
+      "url": "https://www.wikidata.org/wiki/Q270645",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S64",
+      "titre": "Wikidata Q922877 — Georges Rawiri",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "annee": 2026,
+      "url": "https://www.wikidata.org/wiki/Q922877",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S65",
+      "titre": "De Franceville à Masuku, ontogenèse d'une ville centenaire",
+      "institution": "Persée",
+      "annee": 1980,
+      "url": "https://www.persee.fr/doc/bagf_0004-5322_1980_num_57_473_5203",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre sur Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S66",
+      "titre": "Port-Gentil — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Port-Gentil",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S67",
+      "titre": "Gabon : la grotte d'Iroungou, vestige inespéré d'une Afrique médiévale méconnue",
+      "institution": "franceinfo Culture (avec l'AFP)",
+      "annee": 2020,
+      "url": "https://www.franceinfo.fr/culture/patrimoine/archeologie/gabon-la-grotte-d-iroungou-vestige-inespere-d-une-afrique-medievale-meconnue_3858701.html",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S68",
+      "titre": "In situ-produced 10Be and 26Al indirect dating of Elarmékora Earlier Stone Age artifacts: first attempt in a savannah forest mosaic in the middle Ogooué valley, Gabon",
+      "institution": "HAL (Philosophical Transactions of the Royal Society B)",
+      "auteur": "Regis Braucher, Richard Oslisly et al.",
+      "annee": 2021,
+      "url": "https://hal.science/hal-03426405/",
+      "type": "article_scientifique",
+      "licence": "accès ouvert (HAL) ; voir la notice",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S69",
+      "titre": "Mvet Oyeng, musical art, practices and skills associated with the Ekang community",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "annee": 2025,
+      "url": "https://ich.unesco.org/en/RL/mvet-oyeng-musical-art-practices-and-skills-associated-with-the-ekang-community-02253",
+      "type": "unesco",
+      "licence": "conditions du site UNESCO (© UNESCO)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S70",
+      "titre": "L'impensé du Mvet",
+      "institution": "Persée",
+      "auteur": "Bonaventure Mvé-Ondo",
+      "annee": 2002,
+      "url": "https://www.persee.fr/doc/litra_0989-4322_2002_num_29_1_1661",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre sur Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S71",
+      "titre": "Mvet — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Mvet",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S72",
+      "titre": "Where Animals Talk: West African Folk Lore Tales (numérisation)",
+      "institution": "Internet Archive",
+      "auteur": "Robert Hamill Nassau",
+      "annee": 1912,
+      "url": "https://archive.org/details/whereanimalstalk00nassrich",
+      "type": "archive",
+      "licence": "domaine public (publication de 1912)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S73",
+      "titre": "Bwiti — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Bwiti",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S74",
+      "titre": "Musique gabonaise — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Musique_gabonaise",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S75",
+      "titre": "The Metropolitan Museum of Art — notice d'objet 310870 (API Open Access)",
+      "institution": "The Metropolitan Museum of Art",
+      "annee": 2026,
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/310870",
+      "type": "musee",
+      "licence": "CC0 (données Open Access du Met)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S76",
+      "titre": "The Metropolitan Museum of Art — notice d'objet 312429 (API Open Access)",
+      "institution": "The Metropolitan Museum of Art",
+      "annee": 2026,
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/312429",
+      "type": "musee",
+      "licence": "CC0 (données Open Access du Met)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S77",
+      "titre": "Littérature gabonaise — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Litt%C3%A9rature_gabonaise",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S78",
+      "titre": "Cuisine gabonaise — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Cuisine_gabonaise",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S79",
+      "titre": "Pierre Akendengué — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Pierre_Akendengue",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S80",
+      "titre": "Patience Dabany — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Patience_Dabany",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S81",
+      "titre": "Wikidata Q3022890 — Denis Rapontchombo",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "annee": 2026,
+      "url": "https://www.wikidata.org/wiki/Q3022890",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S82",
+      "titre": "André Raponda-Walker — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Andr%C3%A9_Raponda-Walker",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S83",
+      "titre": "Wikidata Q2848506 — André Raponda-Walker",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "annee": 2026,
+      "url": "https://www.wikidata.org/wiki/Q2848506",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S84",
+      "titre": "André Raponda Walker et Roger Sillans, Rites et croyances des peuples du Gabon (compte rendu)",
+      "institution": "Persée",
+      "auteur": "Michel Izard",
+      "annee": 1963,
+      "url": "https://www.persee.fr/doc/hom_0439-4216_1963_num_3_3_366590",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre sur Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S85",
+      "titre": "Raponda-Walker (A.) et Sillans (P.), Rites et croyances des peuples du Gabon (compte rendu)",
+      "institution": "Persée",
+      "auteur": "F. Agblemagnon",
+      "annee": 1963,
+      "url": "https://www.persee.fr/doc/assr_0003-9659_1963_num_15_1_1734_t1_0212_0000_2",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre sur Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S86",
+      "titre": "Jean-Hilaire Aubame — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Jean-Hilaire_Aubame",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S87",
+      "titre": "Wikidata Q256998 — Jean-Hilaire Aubame",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "annee": 2026,
+      "url": "https://www.wikidata.org/wiki/Q256998",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S88",
+      "titre": "Léon M'ba — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/L%C3%A9on_M%27ba",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S89",
+      "titre": "Wikidata Q299629 — Léon M'ba",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "annee": 2026,
+      "url": "https://www.wikidata.org/wiki/Q299629",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S90",
+      "titre": "Omar Bongo — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Omar_Bongo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S91",
+      "titre": "Wikidata Q172083 — Omar Bongo",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "annee": 2026,
+      "url": "https://www.wikidata.org/wiki/Q172083",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S92",
+      "titre": "Georges Rawiri — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Georges_Rawiri",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S93",
+      "titre": "Wikidata Q3383659 — Pierre Akendengué",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "annee": 2026,
+      "url": "https://www.wikidata.org/wiki/Q3383659",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S94",
+      "titre": "Laurent Owondo — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Laurent_Owondo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S95",
+      "titre": "Wikidata Q94536401 — Laurent Owondo",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "annee": 2026,
+      "url": "https://www.wikidata.org/wiki/Q94536401",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S96",
+      "titre": "Janis Otsiemi — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Janis_Otsiemi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S97",
+      "titre": "Wikidata Q18644507 — Janis Otsiemi",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "annee": 2026,
+      "url": "https://www.wikidata.org/wiki/Q18644507",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S98",
+      "titre": "Anthony Obame — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Anthony_Obame",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S99",
+      "titre": "Wikidata Q573714 — Anthony Obame",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "annee": 2026,
+      "url": "https://www.wikidata.org/wiki/Q573714",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S100",
+      "titre": "Pierre-Emerick Aubameyang — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Pierre-Emerick_Aubameyang",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S101",
+      "titre": "Wikidata Q44977 — Pierre-Emerick Aubameyang",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "annee": 2026,
+      "url": "https://www.wikidata.org/wiki/Q44977",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S102",
+      "titre": "Joseph Rendjambé — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Joseph_Rendjamb%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S103",
+      "titre": "Wikidata Q3185553 — Joseph Rendjambé",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "annee": 2026,
+      "url": "https://www.wikidata.org/wiki/Q3185553",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S104",
+      "titre": "Le Gabon à la recherche d'un nouvel ethos politique et social",
+      "institution": "Persée",
+      "auteur": "François Gaulme",
+      "annee": 1991,
+      "url": "https://www.persee.fr/doc/polaf_0244-7827_1991_num_43_1_5496",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre sur Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S105",
+      "titre": "Rose Francine Rogombé — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Rose_Francine_Rogomb%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S106",
+      "titre": "Rose Christiane Ossouka Raponda — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Rose_Christiane_Ossouka_Raponda",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S107",
+      "titre": "Wikidata Q65556229 — Rose Christiane Ossouka Raponda",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "annee": 2026,
+      "url": "https://www.wikidata.org/wiki/Q65556229",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S108",
+      "titre": "Marie-Madeleine Mborantsuo — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Marie-Madeleine_Mborantsuo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S109",
+      "titre": "Wikidata Q55598537 — Marie-Madeleine Mborantsuo",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "annee": 2026,
+      "url": "https://www.wikidata.org/wiki/Q55598537",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S110",
+      "titre": "Angèle Rawiri — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Ang%C3%A8le_Rawiri",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S111",
+      "titre": "Wikidata Q4764310 — Angèle Rawiri",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "annee": 2026,
+      "url": "https://www.wikidata.org/wiki/Q4764310",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S112",
+      "titre": "Justine Mintsa — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Justine_Mintsa",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S113",
+      "titre": "Wikidata Q2375987 — Justine Mintsa",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "annee": 2026,
+      "url": "https://www.wikidata.org/wiki/Q2375987",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S114",
+      "titre": "Wikidata Q443143 — Patience Dabany",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "annee": 2026,
+      "url": "https://www.wikidata.org/wiki/Q443143",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S115",
+      "titre": "Annie-Flore Batchiellilys — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Annie-Flore_Batchiellilys",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S116",
+      "titre": "Wikidata Q27999271 — Annie-Flore Batchiellilys",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "annee": 2026,
+      "url": "https://www.wikidata.org/wiki/Q27999271",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S117",
+      "titre": "Ruddy Zang-Milama — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Ruddy_Zang-Milama",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S118",
+      "titre": "Wikidata Q432444 — Ruddy Zang-Milama",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "annee": 2026,
+      "url": "https://www.wikidata.org/wiki/Q432444",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S119",
+      "titre": "Samantha Biffot — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Samantha_Biffot",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S120",
+      "titre": "Wikidata Q64224961 — Samantha Biffot",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "annee": 2026,
+      "url": "https://www.wikidata.org/wiki/Q64224961",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S121",
+      "titre": "Cinéma gabonais — Wikipédia",
+      "institution": "Wikipédia (fr)",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Cin%C3%A9ma_gabonais",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S122",
+      "titre": "Quinze ans de Gabon (1839-1853), suite et fin",
+      "institution": "Persée",
+      "auteur": "Hubert Deschamps",
+      "annee": 1965,
+      "url": "https://www.persee.fr/doc/outre_0300-9513_1965_num_52_186_1394",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre sur Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S123",
+      "titre": "The schools of the American Protestant mission in Gabon (1842-1870)",
+      "institution": "Persée",
+      "auteur": "David E. Gardinier",
+      "annee": 1988,
+      "url": "https://www.persee.fr/doc/outre_0300-9513_1988_num_75_279_2659",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre sur Persée)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S124",
+      "titre": "Le renouveau du cinéma gabonais",
+      "institution": "Africiné (Fédération africaine de la critique cinématographique)",
+      "auteur": "Imunga Ivanga",
+      "annee": 2001,
+      "url": "https://www.africine.org/analyse/le-renouveau-du-cinema-gabonais/1810",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S125",
+      "titre": "Gabon : Ali Bongo officiellement réélu, des militaires prennent le pouvoir",
+      "institution": "Gabonreview",
+      "auteur": "Alix-Ida Mussavu",
+      "annee": 2023,
+      "url": "https://www.gabonreview.com/gabon-ali-bongo-officiellement-reelu-des-militaires-prennent-le-pouvoir/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S126",
+      "titre": "Gabon : le général Oligui Nguema prend quartier",
+      "institution": "BBC News Afrique",
+      "auteur": "Thomas Naadi",
+      "annee": 2023,
+      "url": "https://www.bbc.com/afrique/articles/cxw4pl0pl01o",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S127",
+      "titre": "Gabon : début effectif des travaux de l'Assemblée constituante",
+      "institution": "RFI",
+      "annee": 2024,
+      "url": "https://www.rfi.fr/fr/afrique/20240913-gabon-d%C3%A9but-effectif-des-travaux-de-l-assembl%C3%A9e-constituante",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S128",
+      "titre": "The Metropolitan Museum of Art — notice d'objet 314285 (API Open Access)",
+      "institution": "The Metropolitan Museum of Art",
+      "annee": 2026,
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/314285",
+      "type": "musee",
+      "licence": "CC0 (données Open Access du Met)",
+      "consulte_le": "2026-11-21"
+    }
+  ]
+}

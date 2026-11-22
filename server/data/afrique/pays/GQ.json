@@ -1,0 +1,3738 @@
+{
+  "code": "GQ",
+  "nom": "Guinée équatoriale",
+  "region": "centre",
+  "wikidata": "Q983",
+  "maj": "2026-11-21",
+  "pays": {
+    "nom_officiel": "République de Guinée équatoriale",
+    "capitale": "Ciudad de la Paz (Djibloho), capitale depuis un décret du 3 janvier 2026 ; Malabo, sur l'île de Bioko, l'a été de 1969 à 2026",
+    "langues_officielles": [
+      "espagnol",
+      "français",
+      "portugais"
+    ],
+    "langues_nationales": [
+      "langues autochtones (fang, bubi, fá d'Ambô, ndowe et autres) reconnues comme « partie intégrante de la culture nationale » par la loi constitutionnelle n° 1/1998"
+    ],
+    "population": {
+      "valeur": 1938431,
+      "annee": 2025,
+      "source": "S1"
+    },
+    "superficie_km2": 28051,
+    "monnaie": "Franc CFA d'Afrique centrale (XAF, CEMAC)",
+    "resume": "La Guinée équatoriale est un petit pays d'Afrique centrale en deux morceaux : une région continentale, le Río Muni (Mbini), entre le Cameroun et le Gabon, et une région insulaire qui comprend Bioko, Annobón, Corisco et les Elobey. Les Fang, majoritaires sur le continent, les Bubi de Bioko, les peuples côtiers ndowe, les Annobonais lusophones créolisés et les descendants de familles venues de Freetown et d'ailleurs y composent une mosaïque de langues bantoues et de créoles. Passées des Portugais aux Espagnols en 1778, ces terres forment la seule colonie espagnole d'Afrique subsaharienne ; l'indépendance est proclamée le 12 octobre 1968. Le pays a ensuite connu une longue période autoritaire et la littérature en espagnol, portée par des auteurs souvent exilés, y est une particularité remarquable. Aucun bien n'est inscrit au patrimoine mondial et aucun élément au patrimoine immatériel de l'UNESCO, mais six sites naturels et culturels figurent depuis 2026 sur la liste indicative.",
+    "sources": [
+      "S1",
+      "S2",
+      "S47",
+      "S48",
+      "S37",
+      "S3",
+      "S4",
+      "S53"
+    ],
+    "note": "Population : 1 938 431 habitants en 2025 selon la Banque mondiale ; la graine Wikidata donne 1 847 549 (2023) et Wikipédia (fr) 1 853 000 (2025) : les estimations divergent. Superficie : 28 051,5 km² selon la Banque mondiale (2024). Capitale : la fiche BBC (mise à jour en 2023) indique encore Malabo comme capitale actuelle et Ciudad de la Paz comme ville en construction ; Wikipédia (fr) mentionne un décret présidentiel du 3 janvier 2026 : à confirmer par une source gouvernementale. Patrimoine mondial : la page UNESCO indique 0 bien inscrit et 6 sites sur la liste indicative (révision du 14 avril 2026) ; la page UNESCO du patrimoine immatériel ne présente aucun élément inscrit pour la Guinée équatoriale (Convention ratifiée le 17 juin 2010)."
+  },
+  "langues": [
+    {
+      "id": "GQ-langue-espagnol",
+      "nom": "Espagnol",
+      "nom_local": "Español",
+      "description": "L'espagnol est la première langue officielle du pays et la langue de l'administration, de l'enseignement et de la littérature écrite, héritage de la colonisation espagnole. Selon l'article « Langues en Guinée équatoriale » de Wikipédia, environ 88 % de la population le parle, souvent comme seconde langue. La Guinée équatoriale est le seul pays d'Afrique subsaharienne où l'espagnol est langue officielle.",
+      "famille": "indo-européenne (romane)",
+      "glottocode": "stan1288",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "wikidata": "Q1321",
+      "sources": [
+        "S24",
+        "S53",
+        "S47"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GQ-langue-francais",
+      "nom": "Français",
+      "nom_local": "Français",
+      "description": "Le français est devenu langue officielle en 1997-1998, au moment où le pays rejoint la zone du franc CFA d'Afrique centrale et la Francophonie. Il est enseigné dans le secondaire mais reste nettement moins parlé que l'espagnol, alors que le pays est entouré par le Cameroun et le Gabon francophones. La loi constitutionnelle du 21 janvier 1998 a fixé cette officialisation.",
+      "famille": "indo-européenne (romane)",
+      "glottocode": "stan1290",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "wikidata": "Q150",
+      "sources": [
+        "S25",
+        "S53",
+        "S47"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GQ-langue-portugais",
+      "nom": "Portugais",
+      "nom_local": "Português",
+      "description": "Le portugais a été proclamé troisième langue officielle en 2011, dans le cadre de la candidature du pays à la Communauté des pays de langue portugaise (CPLP). Son usage courant reste très réduit : l'intérêt est surtout diplomatique, et le lien historique passe plutôt par le fá d'Ambô, créole d'origine portugaise d'Annobón.",
+      "famille": "indo-européenne (romane)",
+      "glottocode": "port1283",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "wikidata": "Q5146",
+      "sources": [
+        "S26",
+        "S53",
+        "S49"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GQ-langue-fang",
+      "nom": "Fang",
+      "nom_local": "Fáŋ (ntumu, okak, etc.)",
+      "description": "Le fang est la langue africaine la plus parlée du pays, surtout dans le Río Muni, et sert aussi au Gabon, au Cameroun et au Congo. Glottolog le décrit comme langue de communication élargie et de fait langue d'identité nationale, utilisée à l'église, dans le commerce, l'agriculture et la tradition orale musicale. Il comporte des variantes régionales (on parle notamment de Ntumu et d'Okak) qui, selon Wikipédia (fr), restent mutuellement compréhensibles.",
+      "famille": "atlantico-congolaise (bantoue), groupe Yaoundé-Fang (A70)",
+      "glottocode": "fang1246",
+      "statut_linguistique": [
+        "véhiculaire"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "wikidata": "Q33484",
+      "sources": [
+        "S12",
+        "S50",
+        "S53"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GQ-langue-bubi",
+      "nom": "Bubi",
+      "nom_local": "Bubé / Bôhôbé",
+      "description": "Le bubi est la langue des Bubi, population autochtone de l'île de Bioko. Glottolog le classe comme menacé : il reste parlé mais recule face à l'espagnol et au pichi. Le poète Juan Balboa Boneke et le linguiste Justo Bolekia Boleká l'ont employé et étudié dans des textes littéraires et scientifiques.",
+      "famille": "atlantico-congolaise (bantoue) (groupe Mbam-Bubi)",
+      "glottocode": "bube1242",
+      "statut_linguistique": [
+        "menacée"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "wikidata": "Q35110",
+      "locuteurs": {
+        "valeur": 40000,
+        "annee": 1995,
+        "source": "S51"
+      },
+      "sources": [
+        "S17",
+        "S51",
+        "S60",
+        "S42"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GQ-langue-ndowe-kombe",
+      "nom": "Kombe",
+      "nom_local": "Combe / Ngumbi",
+      "description": "Le kombe (ngumbi) est une langue côtière du Río Muni, au nord de Bata, rattachée au groupe bengaïque comme le benga, le batanga et le yasa. Glottolog estime sa vitalité bonne (« vigoureuse »). Les Kombe sont l'un des peuples côtiers que l'on regroupe souvent sous le nom de Ndowe.",
+      "famille": "atlantico-congolaise (bantoue) (groupe sawabantu, bengaïque)",
+      "glottocode": "ngum1255",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "wikidata": "Q36459",
+      "sources": [
+        "S19",
+        "S27",
+        "S60"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GQ-langue-benga",
+      "nom": "Benga",
+      "nom_local": "Benga",
+      "description": "Le benga est la langue des Benga, présents sur le littoral du Río Muni, dans l'île de Corisco et au Gabon voisin. Il compte peu de locuteurs et Glottolog le tient pour sévèrement menacé. Il a une place dans l'histoire de la région, car les rois benga de Corisco apparaissent dans les relations entre Espagnols et Africains au XIXe siècle.",
+      "famille": "atlantico-congolaise (bantoue) (groupe sawabantu, bengaïque)",
+      "glottocode": "beng1282",
+      "statut_linguistique": [
+        "menacée"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "wikidata": "Q34952",
+      "locuteurs": {
+        "valeur": 3000,
+        "annee": 1995,
+        "source": "S49"
+      },
+      "sources": [
+        "S14",
+        "S52",
+        "S48"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GQ-langue-batanga",
+      "nom": "Batanga",
+      "nom_local": "Batanga / Banoho",
+      "description": "Le batanga est parlé sur le littoral de la Guinée équatoriale et du sud du Cameroun. Glottolog le classe en transition linguistique (« shifting »). Il appartient à la même branche que le benga.",
+      "famille": "atlantico-congolaise (bantoue) (groupe sawabantu, bengaïque)",
+      "glottocode": "bata1285",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "wikidata": "Q34979",
+      "sources": [
+        "S15",
+        "S49"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GQ-langue-yasa",
+      "nom": "Yasa (iyasa)",
+      "nom_local": "Yasa",
+      "description": "Le yasa est une langue côtière parlée à la frontière sud du Cameroun, au Gabon et en Guinée équatoriale. Glottolog signale que, dans le milieu camerounais d'Ebodjé, les enfants le comprennent mais parlent surtout le français, ce qui le rend vulnérable.",
+      "famille": "atlantico-congolaise (bantoue) (groupe sawabantu, bengaïque)",
+      "glottocode": "yasa1242",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "wikidata": "Q36899",
+      "sources": [
+        "S22"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GQ-langue-kwasio",
+      "nom": "Kwasio (bujeba, ngumba)",
+      "nom_local": "Bujeba / Ngumba",
+      "description": "Le kwasio, appelé bujeba en Guinée équatoriale, est la langue des Bujeba des environs de Bata et du Río Benito, et aussi du Cameroun voisin. Glottolog ne le considère pas comme menacé. Son aire est toutefois en contact étroit avec le fang, qui exerce une forte attraction linguistique.",
+      "famille": "atlantico-congolaise (bantoue) (groupe Makaa-Njem, A80)",
+      "glottocode": "kwas1243",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "wikidata": "Q34098",
+      "sources": [
+        "S13",
+        "S80",
+        "S27"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GQ-langue-gyele",
+      "nom": "Gyele (bakola, bagyeli)",
+      "nom_local": "Gyele",
+      "description": "Le gyele est la langue des Bagyeli (Bakola, Bayele), chasseurs-cueilleurs des forêts de part et d'autre de la frontière avec le Cameroun. Glottolog note que les locuteurs l'emploient entre eux et préfèrent souvent parler le kwasio avec les villageois voisins, par suite de leur situation sociale marginale. La langue est en transition.",
+      "famille": "atlantico-congolaise (bantoue) (groupe Makaa-Njem, A80)",
+      "glottocode": "gyel1242",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "wikidata": "Q35434",
+      "sources": [
+        "S21",
+        "S27"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GQ-langue-seki",
+      "nom": "Seki (sekiyani)",
+      "nom_local": "Seki",
+      "description": "Le seki est une petite langue bantoue de l'aire frontalière entre Gabon, Cameroun et Guinée équatoriale. Glottolog le classe comme menacé, avec peu de documentation. Il illustre la grande diversité linguistique de la zone côtière du golfe de Guinée.",
+      "famille": "atlantico-congolaise (bantoue) (Bantu A, non subdivisé par Glottolog)",
+      "glottocode": "seki1238",
+      "statut_linguistique": [
+        "menacée"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "wikidata": "Q36547",
+      "sources": [
+        "S20"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GQ-langue-molengue",
+      "nom": "Molengue (balengue)",
+      "nom_local": "Molengue",
+      "description": "Le molengue (ou balengue) est une langue du Río Muni que Glottolog classe comme menacée. Son rattachement précis au sein du groupe bengaïque n'est pas tranché. Les données sur ses locuteurs restent rares.",
+      "famille": "atlantico-congolaise (bantoue) (groupe sawabantu, bengaïque non classé)",
+      "glottocode": "mole1238",
+      "statut_linguistique": [
+        "menacée"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "wikidata": "Q13345",
+      "sources": [
+        "S23"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GQ-langue-fa-dambo",
+      "nom": "Fá d'Ambô (annobonais)",
+      "nom_local": "Fa d'Ambu",
+      "description": "Le fá d'Ambô est le créole d'Annobón, issu du portugais et de langues bantoues, probablement apportées par des personnes d'origine angolaise réduites en esclavage selon plusieurs auteurs. Il est parlé dans l'île d'Annobón, la seule du pays située dans l'hémisphère sud, et Glottolog le juge vigoureux. Un article de 1995 estimait à environ 2 000 le nombre de ses habitants-locuteurs, la population ayant depuis augmenté selon d'autres sources.",
+      "famille": "créole à base portugaise (créoles du golfe de Guinée)",
+      "glottocode": "fada1250",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "wikidata": "Q34992",
+      "locuteurs": {
+        "valeur": 2000,
+        "annee": 1995,
+        "source": "S30"
+      },
+      "sources": [
+        "S16",
+        "S30",
+        "S27"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La population d'Annobón est donnée à 5 232 habitants en 2015 par Wikipédia (fr) : le chiffre de 1995 ne reflète pas le nombre actuel de locuteurs."
+      }
+    },
+    {
+      "id": "GQ-langue-pichi",
+      "nom": "Pichi (pidgin de Guinée équatoriale)",
+      "nom_local": "Pichi",
+      "description": "Le pichi est un créole d'origine anglaise issu du krio de Sierra Leone, arrivé à Bioko avec des colons de Freetown en 1827. Selon Glottolog, il sert de langue de communication dans toute l'île de Bioko, sauf à l'école et dans l'administration. Il porte la mémoire de la présence britannique et des communautés dites fernandinas.",
+      "famille": "créole à base anglaise (créoles anglais de la côte guinéenne)",
+      "glottocode": "fern1234",
+      "statut_linguistique": [
+        "véhiculaire"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "wikidata": "Q35288",
+      "sources": [
+        "S18",
+        "S79",
+        "S48"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "peuples": [
+    {
+      "id": "GQ-peuple-fang",
+      "nom": "Fang",
+      "description": "Les Fang forment le groupe le plus nombreux de Guinée équatoriale ; ils vivent surtout dans le Río Muni et se prolongent au Gabon, au Cameroun et au Congo. Leur nom « Pahouin », forgé de l'extérieur, est contesté ; ils se désignent comme Fang. Leur culture est notamment connue pour le mvet, grande tradition de chants et de récits épiques, et pour la statuaire d'ancêtres des reliquaires byeri. Plusieurs grands ensembles (Ntumu, Okak, Nzaman, Atsi, Mvaï, Meke) sont décrits dans la littérature.",
+      "langues": [
+        "fang"
+      ],
+      "regions": [
+        "Río Muni (Mbini)",
+        "Mongomo",
+        "Evinayong",
+        "Niefang",
+        "Bata"
+      ],
+      "pays_partages": [
+        "GA",
+        "CM",
+        "CG"
+      ],
+      "organisation": "Organisation en lignées et clans exogames (ayong, mvok), selon Wikipédia (fr) ; l'histoire récente est marquée par une grande migration vers la côte au XIXe siècle.",
+      "activites": [
+        "agriculture",
+        "commerce de l'ivoire et ferronnerie (selon Glottolog)",
+        "tradition orale (mvet)",
+        "statuaire d'ancêtres (byeri)"
+      ],
+      "wikidata": "Q1295544",
+      "sources": [
+        "S31",
+        "S33",
+        "S27",
+        "S50",
+        "S12"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Les chiffres de répartition varient : 80 % de la population équatoguinéenne selon une source citée par Wikipédia (fr), 85 % dans le corps de l'article. Source non-Wikipédia pour l'organisation sociale à rechercher."
+      }
+    },
+    {
+      "id": "GQ-peuple-bubi",
+      "nom": "Bubi",
+      "description": "Les Bubi (Bôhôbé) sont la population autochtone de l'île de Bioko. Ils parlent le bubi, langue bantoue en recul, et ont aujourd'hui une place minoritaire dans l'île. La période d'indépendance a été difficile pour eux : Wikipédia (fr) rapporte des massacres sous la présidence de Macías Nguema, et un mouvement d'autodétermination de Bioko (MAIB) a existé. Les Bubi sont aussi des écrivains : Juan Balboa Boneke et Justo Bolekia Boleká ont publié en espagnol et en bubi.",
+      "langues": [
+        "bubi",
+        "espagnol",
+        "pichi"
+      ],
+      "regions": [
+        "Bioko",
+        "Malabo",
+        "Rebola",
+        "Baney"
+      ],
+      "pays_partages": [],
+      "organisation": "Royauté bubi unifiée par Moka au XIXe siècle puis dirigée par Sas Ebuera (1899-1904) et Malabo (jusqu'en 1937), selon Wikipédia (fr) ; les chefferies s'effacent sous l'administration espagnole.",
+      "activites": [
+        "contes et récits oraux (recueil de Creus, Brunat et Carulla)",
+        "chant et danse traditionnels"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet politique : persécutions sous le régime de Macías Nguema et revendications d'autodétermination de Bioko. Présentation neutre, à relire avec des sources académiques et des représentants bubi.",
+      "wikidata": "Q41477",
+      "sources": [
+        "S27",
+        "S17",
+        "S51",
+        "S47",
+        "S34",
+        "S42"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GQ-peuple-ndowe",
+      "nom": "Ndowe (peuples côtiers du Río Muni)",
+      "description": "On appelle Ndowe plusieurs communautés de la côte du Río Muni et des îles voisines, parmi lesquelles les Kombe et, selon les sources, les Benga et les Bujeba. Liniger-Goumaz les décrit comme des peuples côtiers connus pour leurs longues migrations. Une série de recueils de contes dirigée par Jacint Creus a consacré un volume aux contes ndowe, preuve de la richesse de leur oralité. L'appellation Ndowe est englobante : chaque communauté garde son nom propre.",
+      "langues": [
+        "kombe",
+        "benga",
+        "kwasio"
+      ],
+      "regions": [
+        "littoral du Río Muni",
+        "Bata",
+        "Corisco",
+        "Elobey"
+      ],
+      "pays_partages": [
+        "GA",
+        "CM"
+      ],
+      "organisation": "Communautés distinctes ; rois benga de Corisco cités dans l'histoire coloniale (Munga I, Bonkoro II).",
+      "activites": [
+        "contes et récits oraux"
+      ],
+      "sources": [
+        "S27",
+        "S34",
+        "S80",
+        "S60"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le périmètre exact du terme « Ndowe » varie selon les sources ; à valider avec un spécialiste."
+      }
+    },
+    {
+      "id": "GQ-peuple-benga",
+      "nom": "Benga",
+      "description": "Les Benga vivent sur le littoral, notamment dans l'île de Corisco, et leur royaume de Corisco est mentionné parmi les entités politiques d'avant la colonisation. Au XIXe siècle, les Espagnols traitent avec leurs rois. Leur langue est aujourd'hui sévèrement menacée.",
+      "langues": [
+        "benga"
+      ],
+      "regions": [
+        "Corisco",
+        "littoral du Río Muni"
+      ],
+      "pays_partages": [
+        "GA"
+      ],
+      "organisation": "Royautés insulaires et côtières, en relation avec les autorités espagnoles au XIXe siècle.",
+      "activites": [],
+      "sources": [
+        "S52",
+        "S48",
+        "S14",
+        "S49"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Effectifs : environ 3 000 locuteurs en 1995 (Wikipédia fr) ; environ 4 000 personnes dans les années 2000 (infobox Wikipédia fr)."
+      }
+    },
+    {
+      "id": "GQ-peuple-kombe",
+      "nom": "Kombe",
+      "description": "Les Kombe (Combe) vivent au nord de Bata, sur la côte du Río Muni. Ils sont cités par Liniger-Goumaz parmi les peuples côtiers aux longues migrations. Leur langue est vigoureuse selon Glottolog.",
+      "langues": [
+        "kombe"
+      ],
+      "regions": [
+        "Litoral",
+        "nord de Bata"
+      ],
+      "pays_partages": [],
+      "organisation": "Peuple côtier ; l'écrivain Leoncio Evita (né près de Bata) situe son roman de 1953 chez les Combé ou Ndowe.",
+      "activites": [],
+      "sources": [
+        "S27",
+        "S19",
+        "S60"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GQ-peuple-bujeba",
+      "nom": "Bujeba (Bisio, Kwasio)",
+      "description": "Les Bujeba vivent dans la zone de Bata et au sud du Río Benito et ont de forts liens avec le Cameroun voisin, où ils s'appellent Kwasio. Leur nombre a diminué parce que beaucoup se sont rapprochés des Fang. Une étude universitaire récente porte sur le culte des ancêtres chez les anciens Kwasio.",
+      "langues": [
+        "kwasio"
+      ],
+      "regions": [
+        "Bata",
+        "Río Benito"
+      ],
+      "pays_partages": [
+        "CM"
+      ],
+      "organisation": "Communautés côtières, souvent désignées comme « playeros » (gens de la plage) en espagnol selon Wikipédia (en).",
+      "activites": [],
+      "sources": [
+        "S27",
+        "S80",
+        "S13"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le terme « playeros » vient de Wikipédia (en) ; à confirmer par une source scientifique."
+      }
+    },
+    {
+      "id": "GQ-peuple-annobonais",
+      "nom": "Annobonais",
+      "description": "Les Annobonais vivent dans l'île d'Annobón, très isolée dans l'Atlantique Sud. Ils parlent le fá d'Ambô, créole portugais, et pratiquent notamment la pêche traditionnelle, un trait culturel souligné par le dossier de la liste indicative de 2026. Les auteurs les associent à une origine probablement angolaise. Ils ont connu des revendications politiques liées à l'isolement de l'île. Parmi eux, l'écrivain Juan Tomás Ávila Laurel est d'origine annobonaise.",
+      "langues": [
+        "fá d'Ambô",
+        "espagnol"
+      ],
+      "regions": [
+        "Annobón",
+        "San Antonio de Palé",
+        "Malabo"
+      ],
+      "pays_partages": [],
+      "organisation": "Communauté insulaire ; l'île a été portugaise puis cédée à l'Espagne en 1778 et s'est soulevée contre ces dominations selon Wikipédia (fr).",
+      "activites": [
+        "pêche traditionnelle",
+        "contes (recueil de Creus et Brunat)"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Des revendications politiques et des tensions avec l'État existent (article de 1995 de Gorozpe) ; présentation neutre, à actualiser avec des sources récentes.",
+      "sources": [
+        "S27",
+        "S30",
+        "S6",
+        "S43",
+        "S16",
+        "S34",
+        "S47"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GQ-peuple-fernandinos",
+      "nom": "Fernandinos",
+      "description": "Les Fernandinos sont une communauté créole de Bioko dont les ancêtres venaient notamment de Freetown, du Ghana actuel et de Lagos, installés au XIXe siècle autour de la culture du cacao. Leur parler est le pichi, créole anglais issu du krio. Leur nom vient de l'ancien nom de l'île, Fernando Poo.",
+      "langues": [
+        "pichi",
+        "espagnol",
+        "bubi"
+      ],
+      "regions": [
+        "Bioko",
+        "Malabo"
+      ],
+      "pays_partages": [
+        "ST"
+      ],
+      "organisation": "Communauté de Bioko, à l'histoire liée à la présence britannique de 1827 et aux flux de main-d'œuvre.",
+      "activites": [
+        "commerce",
+        "plantations de cacao (historique)"
+      ],
+      "sources": [
+        "S79",
+        "S18",
+        "S48"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source non-Wikipédia : Glottolog décrit l'arrivée du pichi avec des colons de Freetown en 1827 ; le reste vient de Wikipédia (en)."
+      }
+    },
+    {
+      "id": "GQ-peuple-bagyeli",
+      "nom": "Bagyeli (Bakola, Bayele)",
+      "description": "Les Bagyeli (Bakola, Bayele) sont des communautés des forêts frontalières entre Guinée équatoriale et Cameroun. Liniger-Goumaz notait en 1972 qu'elles étaient presque absentes des études. Leur langue, le gyele, est en transition.",
+      "langues": [
+        "gyele",
+        "kwasio"
+      ],
+      "regions": [
+        "forêts du Río Muni, frontière avec le Cameroun"
+      ],
+      "pays_partages": [
+        "CM"
+      ],
+      "organisation": "Communautés forestières en relation de voisinage avec des villages agricoles.",
+      "activites": [],
+      "sources": [
+        "S27",
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Peu documenté dans les sources ouvertes ; à compléter."
+      }
+    },
+    {
+      "id": "GQ-peuple-batanga",
+      "nom": "Batanga",
+      "description": "Les Batanga vivent sur le littoral de Guinée équatoriale et du Cameroun. Leur langue est classée par Glottolog en transition linguistique. Ils appartiennent à l'ensemble des peuples côtiers bantous voisins des Benga et des Kombe.",
+      "langues": [
+        "batanga"
+      ],
+      "regions": [
+        "littoral"
+      ],
+      "pays_partages": [
+        "CM"
+      ],
+      "organisation": "Peuple côtier.",
+      "activites": [],
+      "sources": [
+        "S15",
+        "S49"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Peu documenté dans les sources ouvertes ; à compléter."
+      }
+    }
+  ],
+  "sites": [
+    {
+      "id": "GQ-site-caldera-luba",
+      "nom": "Réserve scientifique de la Caldera de Luba",
+      "type": "liste_indicative",
+      "description": "Située au sud de l'île de Bioko, cette réserve couvre environ 62 900 hectares autour de deux massifs volcaniques, la caldera de Luba (2 261 m) et le lac de cratère du pic de Biao. Le dossier de liste indicative, déposé par la Guinée équatoriale le 14 avril 2026 au titre du critère naturel (x), met en avant une forêt tropicale dense, une forte biodiversité et un endémisme élevé. Une seule ville, Ureka, se trouve à l'intérieur de ses limites.",
+      "regions": [
+        "Bioko-Sur",
+        "île de Bioko"
+      ],
+      "periode": "liste indicative (soumission du 14 avril 2026)",
+      "wikidata": "Q5680048",
+      "sources": [
+        "S5",
+        "S11",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées lues sur la fiche UNESCO (N 3°21'12'' E 8°30'47''), converties en degrés décimaux ; elles sont identiques à celles de l'église de Batete, ce qui est probablement une erreur du dossier."
+      },
+      "coordonnees": {
+        "lat": 3.3533,
+        "lng": 8.5131
+      }
+    },
+    {
+      "id": "GQ-site-annobon-reserve",
+      "nom": "Réserve naturelle d'Annobón",
+      "type": "liste_indicative",
+      "description": "Île volcanique d'environ 7 km sur 2,5 km, dominée par le massif de Santa Mina (612 m) et un lac de cratère de quelque 700 m de diamètre. Le dossier de liste indicative (critères viii et x, soumission du 14 avril 2026) insiste sur ses espèces endémiques d'oiseaux, ses formations végétales particulières et ses récifs coralliens. Il signale aussi l'intérêt ethnologique de la pêche traditionnelle des Annobonais.",
+      "regions": [
+        "Annobón"
+      ],
+      "periode": "liste indicative (soumission du 14 avril 2026)",
+      "sources": [
+        "S6",
+        "S11",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées de la fiche UNESCO (S 1°25'30'' E 5°38'24'') converties en degrés décimaux."
+      },
+      "coordonnees": {
+        "lat": -1.425,
+        "lng": 5.64
+      }
+    },
+    {
+      "id": "GQ-site-monte-alen",
+      "nom": "Parc national de Monte Alén",
+      "type": "liste_indicative",
+      "description": "Situé dans la région continentale, ce parc de relief accidenté monte jusqu'à environ 1 200 m sur des sols granitiques. Selon le dossier UNESCO de 2026 (critère x), il abrite une grande faune, un paysage forestier typique du bassin du Congo, mais aussi des sites sacrés et d'anciens mythes liés à une grotte. Il a été identifié en 1983 par le gouvernement équatoguinéen et la coopération espagnole comme zone prioritaire de conservation.",
+      "regions": [
+        "Río Muni",
+        "Evinayong",
+        "Niefang",
+        "Mbini",
+        "Cogo"
+      ],
+      "periode": "liste indicative (soumission du 14 avril 2026)",
+      "wikidata": "Q6904640",
+      "sensible": true,
+      "note_sensibilite": "Le dossier mentionne des sites sacrés et des mythes liés à une grotte : à ne pas détailler sans l'accord des communautés locales.",
+      "sources": [
+        "S7",
+        "S11",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées de la fiche UNESCO (N 1°49' E 10°15') converties en degrés décimaux."
+      },
+      "coordonnees": {
+        "lat": 1.8167,
+        "lng": 10.25
+      }
+    },
+    {
+      "id": "GQ-site-pico-basile",
+      "nom": "Parc national du Pico Basilé",
+      "type": "liste_indicative",
+      "description": "Au nord de Bioko, près de Malabo, ce parc entoure le point culminant du pays, à 3 011 m d'altitude. Le dossier de liste indicative (critère x, 14 avril 2026) précise que le parc a été formellement créé par la loi n° 6/2025 et que le brouillard est fréquent sur ses pentes. Le site était déjà considéré comme prioritaire pour la conservation dans les études des années 1980.",
+      "regions": [
+        "Bioko-Norte",
+        "île de Bioko"
+      ],
+      "periode": "liste indicative (soumission du 14 avril 2026)",
+      "wikidata": "Q6063070",
+      "sources": [
+        "S8",
+        "S11",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées de la fiche UNESCO (N 3°35'16'' E 8°45'43'') converties en degrés décimaux."
+      },
+      "coordonnees": {
+        "lat": 3.5878,
+        "lng": 8.7619
+      }
+    },
+    {
+      "id": "GQ-site-eglise-batete",
+      "nom": "Église néogothique de Batete",
+      "type": "liste_indicative",
+      "description": "Cette église en bois, bâtie de 1922 à 1926 par des missionnaires clarétains sur la côte sud de Bioko, domine la baie de San Carlos. Le dossier de liste indicative (critères iii et iv) la décrit comme conçue par l'autodidacte Luis Sagarra et construite par de la main-d'œuvre locale, à l'exception des vitraux et de la cloche importés. Il y voit un exemple rare d'architecture néogothique entièrement en bois en Afrique, et un témoin de la formation des menuisiers à l'école de Banapá.",
+      "regions": [
+        "Bioko-Sur",
+        "baie de San Carlos"
+      ],
+      "periode": "1922-1926 ; liste indicative (14 avril 2026)",
+      "sources": [
+        "S9",
+        "S11",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La fiche UNESCO donne les mêmes coordonnées que la réserve de Luba : coordonnées non reprises."
+      }
+    },
+    {
+      "id": "GQ-site-corisco",
+      "nom": "Île de Corisco (Mandji)",
+      "type": "liste_indicative",
+      "description": "Petite île d'environ 15 km² dans le golfe de Guinée, près de la frontière maritime avec le Gabon, formant avec Elobey Grande et Elobey Chico un petit archipel. Le dossier de liste indicative (critères viii et x) met en avant ses plages, ses mangroves et ses tortues marines (verte, luth, imbriquée). Une étude de Perramon Marti (1968), commentée par Galy en 1969, y relève des occupations successives, portugaise, hollandaise, allemande, anglaise puis espagnole.",
+      "regions": [
+        "Corisco",
+        "Elobey"
+      ],
+      "periode": "liste indicative (soumission du 14 avril 2026)",
+      "wikidata": "Q749561",
+      "sources": [
+        "S10",
+        "S11",
+        "S36",
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées approximatives (N 0°54'-0°57' E 9°18') lues sur la fiche UNESCO ; la mention des occupations successives vient du compte rendu de Galy (1969), qui rapporte le travail de Perramon Marti."
+      },
+      "coordonnees": {
+        "lat": 0.925,
+        "lng": 9.3
+      }
+    },
+    {
+      "id": "GQ-site-malabo",
+      "nom": "Malabo",
+      "type": "ville_historique",
+      "description": "Ville de la côte nord de Bioko fondée en 1827 par les Britanniques sous le nom de Port Clarence, base navale contre la traite, puis rebaptisée Santa Isabel sous administration espagnole et Malabo en 1973. Elle a été capitale du pays de 1969 à 2026, avec environ 297 000 habitants en 2018. On y voit notamment la cathédrale Sainte-Élisabeth et la Casa Verde, et la ville abrite la Biblioteca Nacional.",
+      "regions": [
+        "Bioko-Norte",
+        "île de Bioko"
+      ],
+      "wikidata": "Q3818",
+      "sources": [
+        "S54",
+        "S37",
+        "S48",
+        "S44"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Plusieurs détails historiques de l'article Wikipédia (fr) sont contestables (origine des Bubi) et n'ont pas été repris."
+      },
+      "coordonnees": {
+        "lat": 3.7519,
+        "lng": 8.7736
+      }
+    },
+    {
+      "id": "GQ-site-bata",
+      "nom": "Bata",
+      "type": "ville_historique",
+      "description": "Principale ville portuaire du Río Muni, ancien comptoir commercial français en 1900 puis base espagnole après le traité de Paris. Avec environ 347 000 habitants au recensement de 2015, c'est la première ville du pays et sa capitale économique. Elle est connue pour sa Tour de la Liberté ; le 7 mars 2021, des explosions de munitions dans un camp militaire y ont fait 107 morts.",
+      "regions": [
+        "Litoral",
+        "Río Muni"
+      ],
+      "wikidata": "Q320792",
+      "sensible": true,
+      "note_sensibilite": "Mention d'un événement récent et meurtrier (7 mars 2021) : sources institutionnelles à ajouter.",
+      "sources": [
+        "S55",
+        "S47"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "coordonnees": {
+        "lat": 1.85,
+        "lng": 9.75
+      }
+    },
+    {
+      "id": "GQ-site-mongomo-basilique",
+      "nom": "Basilique de l'Immaculée-Conception de Mongomo",
+      "type": "monument",
+      "description": "Grande église catholique de Mongomo, dans la province de Wele-Nzas, à la frontière du Gabon. Wikipédia (fr) la présente comme le plus grand édifice religieux d'Afrique centrale et la deuxième plus grande église catholique d'Afrique ; elle a été déclarée basilique mineure en décembre 2011. La ville est aussi liée aux deux premiers présidents du pays : Teodoro Obiang en est originaire et Francisco Macías Nguema en fut le maire avant l'indépendance.",
+      "regions": [
+        "Wele-Nzas",
+        "Mongomo"
+      ],
+      "wikidata": "Q526539",
+      "sources": [
+        "S58"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia fr) : superlatifs à confirmer par une source du Vatican ou de l'Église locale."
+      },
+      "coordonnees": {
+        "lat": 1.6286,
+        "lng": 11.3169
+      }
+    },
+    {
+      "id": "GQ-site-black-beach",
+      "nom": "Prison de Black Beach (Malabo)",
+      "type": "lieu_de_memoire",
+      "description": "Prison de Malabo associée à l'histoire politique du pays : Bonifacio Ondó Edú y est mort en mars 1969 et Francisco Macías Nguema y a été exécuté en 1979. Teodoro Obiang en a été le chef avant le coup d'État de 1979, selon Wikipédia (fr). Le lieu renvoie aux violations des droits humains documentées sous les régimes successifs.",
+      "regions": [
+        "Malabo",
+        "Bioko-Norte"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Lieu de détention et d'exécutions : présentation neutre fondée sur des sources académiques ou onusiennes à ajouter ; sujet politique actuel.",
+      "sources": [
+        "S71",
+        "S46",
+        "S48",
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Les circonstances de la mort d'Ondó Edú sont contestées (suicide officiel, assassinat selon d'autres récits)."
+      }
+    },
+    {
+      "id": "GQ-site-bioko",
+      "nom": "Île de Bioko",
+      "type": "site_naturel",
+      "description": "Île volcanique du golfe de Guinée d'environ 2 017 km², qui culmine au pic Basilé à 3 011 m. Ses deux massifs volcaniques et ses lacs de cratère, comme les lacs Loreto et Moka, intéressaient déjà les géographes dans les années 1950. Elle compte environ 334 000 habitants en 2015 et abrite Malabo, ainsi que l'essentiel de la population bubi.",
+      "regions": [
+        "Bioko-Norte",
+        "Bioko-Sur"
+      ],
+      "wikidata": "Q205022",
+      "sources": [
+        "S57",
+        "S35",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "coordonnees": {
+        "lat": 3.5,
+        "lng": 8.7
+      }
+    },
+    {
+      "id": "GQ-site-annobon-ile",
+      "nom": "Île d'Annobón",
+      "type": "site_naturel",
+      "description": "Île volcanique isolée de l'Atlantique Sud, à environ 350 km du cap Lopez au Gabon, et seule partie du pays située dans l'hémisphère sud. Sa capitale est San Antonio de Palé et son point culminant le Quioveo (598 m). L'île est le foyer du fá d'Ambô, du peuple annobonais et de contes recueillis par Creus et Brunat.",
+      "regions": [
+        "Annobón",
+        "San Antonio de Palé"
+      ],
+      "wikidata": "Q728665",
+      "sources": [
+        "S56",
+        "S30",
+        "S34"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Superficie : 17 km² dans le texte et 20,9 km² dans l'infobox de Wikipédia (fr)."
+      },
+      "coordonnees": {
+        "lat": -1.4167,
+        "lng": 5.6333
+      }
+    },
+    {
+      "id": "GQ-site-mossumu",
+      "nom": "Site de Mossumu (Río Muni)",
+      "type": "site_archeologique",
+      "description": "Gisement fouillé dans la province du Littoral, daté d'environ 30 000 ans avant notre ère selon Wikipédia (fr). Il a livré une industrie lithique de tradition « sangoenne », connue à cette époque dans une grande partie de l'Afrique centrale. C'est l'un des jalons les plus anciens du peuplement humain du Río Muni.",
+      "regions": [
+        "Litoral",
+        "Río Muni"
+      ],
+      "sources": [
+        "S47",
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Datation reprise de Wikipédia (fr), sans source archéologique primaire ouverte : à confirmer par un archéologue. Le compte rendu de Galy (1969) atteste seulement des stations préhistoriques du Río Muni."
+      }
+    },
+    {
+      "id": "GQ-site-banapa",
+      "nom": "Gisement préhistorique de Banapá",
+      "type": "site_archeologique",
+      "description": "Près du séminaire de Banapá, au sud de Malabo, l'un des trois gisements « prénéolithiques » connus de Bioko a été fouillé dans les années 1960 par un anthropologue espagnol. Il est antérieur à la tradition timbabé, elle-même non datée, qui ouvre la séquence archéologique de l'île. Le site illustre le peu de recherches menées jusqu'ici sur le passé ancien de Bioko.",
+      "regions": [
+        "Bioko",
+        "Malabo"
+      ],
+      "sources": [
+        "S47"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia fr) : à confirmer."
+      }
+    },
+    {
+      "id": "GQ-site-biblioteca-nacional",
+      "nom": "Biblioteca Nacional de Guinea Ecuatorial",
+      "type": "musee",
+      "description": "Bibliothèque nationale inaugurée à Malabo en juin 2009, dont Guillermina Mekuy, alors directrice des bibliothèques et musées du pays, a été la première directrice. Elle fait partie des institutions culturelles nationales créées au XXIe siècle.",
+      "regions": [
+        "Malabo"
+      ],
+      "wikidata": "Q55580128",
+      "sources": [
+        "S44",
+        "S65"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La mention des collections est générale ; à compléter avec le site de l'institution."
+      }
+    },
+    {
+      "id": "GQ-site-centro-cultural",
+      "nom": "Centre culturel hispano-guinéen de Malabo",
+      "type": "lieu_de_memoire",
+      "description": "Créé en 1982 à Malabo, le Centre culturel hispano-guinéen a joué un rôle central dans la renaissance littéraire du pays après la dictature de Macías. Il disposait d'une bibliothèque, éditait la revue África 2000 et publiait des auteurs équatoguinéens. Il a notamment publié, en 1992, les recueils de contes annobonais et bubis réunis par Jacint Creus et ses collègues.",
+      "regions": [
+        "Malabo"
+      ],
+      "sources": [
+        "S60",
+        "S34"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Ne pas confondre avec les centres culturels espagnols de Malabo et de Bata, créés plus tard."
+      }
+    }
+  ],
+  "traditions": [
+    {
+      "id": "GQ-tradition-mvet",
+      "nom": "Mvet (épopée et instrument des Fang)",
+      "categorie": "oralite",
+      "description": "Le mvet désigne à la fois un instrument à cordes en forme de harpe-arc, le fait d'en jouer, un genre littéraire épique et les veillées où il est interprété. Pierre Smith y voit, d'après les intéressés eux-mêmes, la plus prestigieuse expression de la culture fang et des peuples apparentés au Gabon, en Guinée équatoriale et au Cameroun. L'article de Matateyou distingue plusieurs genres de mvet, dont le mvet Ekan et le mvet Engubi, qui célèbrent des princes et des héros nationaux.",
+      "communautes": [
+        "Fang",
+        "peuples apparentés (Beti, Bulu)"
+      ],
+      "regions": [
+        "Río Muni"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "nom_local": "Mvet / Mvett",
+      "langues": [
+        "fang"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Selon Wikipédia (en), la notation musicale du mvet est réservée à des initiés de la société bebom-mvet : ne pas décrire les savoirs initiatiques ; à valider avec des détenteurs de la tradition.",
+      "sources": [
+        "S33",
+        "S32",
+        "S49",
+        "S78"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Les sources scientifiques ouvertes portent sur l'aire fang-beti dans son ensemble (Gabon, Guinée équatoriale, Cameroun)."
+      }
+    },
+    {
+      "id": "GQ-tradition-byeri",
+      "nom": "Statuaire d'ancêtres byeri",
+      "categorie": "rite",
+      "description": "Chez les Fang, les statuettes en bois et les têtes dites byeri sont liées au culte des ancêtres et gardent les reliquaires de la famille. Louis Perrois a montré, d'après le compte rendu de Merlo, l'unité de style de cette statuaire rituelle dans l'ensemble de l'aire dite pahouine (Gabon, Guinée équatoriale, sud du Cameroun). Le Metropolitan Museum conserve une figure eyema byeri attribuée aux Okak-Fang du Gabon ou de Guinée équatoriale.",
+      "communautes": [
+        "Fang (Okak, Betsi)"
+      ],
+      "regions": [
+        "Río Muni"
+      ],
+      "unesco": null,
+      "transmission": "fragile",
+      "nom_local": "Byeri / Byéri",
+      "sensible": true,
+      "note_sensibilite": "Objets sacrés liés au culte des ancêtres et à des reliquaires : à relire avec des représentants fang ou un musée partenaire ; ne pas détailler les rites.",
+      "sources": [
+        "S31",
+        "S45"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Ni la transmission actuelle ni les pratiques en Guinée équatoriale ne sont décrites dans les sources ouvertes : champ « transmission » à vérifier."
+      }
+    },
+    {
+      "id": "GQ-tradition-contes-orales",
+      "nom": "Contes et récits de tradition orale",
+      "categorie": "oralite",
+      "description": "Entre 1987 et 1992, l'anthropologue Jacint Creus et ses collègues ont rassemblé des contes de quatre communautés : ndowe, fang, annobonais et bubi. Le compte rendu de Valérie De Wulf indique que ces recueils, publiés à Malabo, cherchaient à fixer un état de sociétés orales soumises à l'influence croissante du modèle européen. Le travail a demandé cinq ans de recherche.",
+      "communautes": [
+        "Ndowe",
+        "Fang",
+        "Annobonais",
+        "Bubi"
+      ],
+      "regions": [
+        "Río Muni",
+        "Annobón",
+        "Bioko"
+      ],
+      "unesco": null,
+      "transmission": "fragile",
+      "langues": [
+        "fang",
+        "fá d'Ambô",
+        "bubi",
+        "kombe"
+      ],
+      "sources": [
+        "S34",
+        "S60"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Les recueils eux-mêmes n'ont pas été consultés : seul le compte rendu de 1995 est ouvert. Mention d'une tradition « fragile » : interprétation de l'éditeur."
+      }
+    },
+    {
+      "id": "GQ-tradition-balele",
+      "nom": "Balélé et danses traditionnelles",
+      "categorie": "danse",
+      "description": "Parmi les danses traditionnelles, Wikipédia cite le balélé, le mokom, le ndong, le biben, le mbaa et l'akoma mbaa (fang), le cachá (bubi) et l'ivanga (ndowe). Selon Wikipédia (en), elles sont accompagnées d'un petit orchestre composé notamment de sanza, de xylophone, de tambours, de cithares et de harpes-arcs. Wikipédia (fr) cite aussi un Festival national des danses traditionnelles (FESNADATRAGE).",
+      "communautes": [
+        "Fang",
+        "Bubi",
+        "Ndowe"
+      ],
+      "regions": [
+        "Río Muni",
+        "Bioko"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "nom_local": "Balélé, mokom, ndong, cachá, ivanga",
+      "sources": [
+        "S49",
+        "S78"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Liste issue de Wikipédia (fr) : aucune source scientifique ouverte n'a été trouvée sur ces danses ; à compléter."
+      }
+    },
+    {
+      "id": "GQ-tradition-instruments",
+      "nom": "Instruments de musique traditionnels",
+      "categorie": "musique",
+      "description": "La musique traditionnelle emploie des instruments dont le sanza (lamellophone), le xylophone, les tambours, des cithares, des harpes-arcs et le tam-tam, caisse de bois à lamelles que l'on joue avec des baguettes. Les instruments en bois sont souvent décorés de motifs géométriques ou d'animaux. Les chants se font souvent en appel et réponse, avec un chœur et des tambours.",
+      "communautes": [
+        "Fang",
+        "Bubi",
+        "autres communautés"
+      ],
+      "regions": [
+        "Río Muni",
+        "Bioko"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "sources": [
+        "S78",
+        "S49"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia en) : à compléter avec des travaux d'ethnomusicologie."
+      }
+    },
+    {
+      "id": "GQ-tradition-guitare",
+      "nom": "Groupes de guitares et musique populaire",
+      "categorie": "musique",
+      "description": "La musique populaire équatoguinéenne a longtemps été peu enregistrée. Selon Wikipédia (en), les groupes de guitare acoustique de modèle espagnol y forment la tradition populaire la plus connue, avec des artistes comme Desmali et Dambo de la Costa, tandis que soukous, makossa, reggae et rock circulent aussi. Des artistes comme Patrima, Malabo Strit Band ou Baron Ya Buk-Lu complètent le paysage.",
+      "communautes": [
+        "scène urbaine de Malabo et de Bata"
+      ],
+      "regions": [
+        "Bioko",
+        "Río Muni"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "sources": [
+        "S78",
+        "S49"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia en) : à compléter ; la production d'artistes en exil est mal documentée."
+      }
+    },
+    {
+      "id": "GQ-tradition-peche-annobon",
+      "nom": "Pêche traditionnelle des Annobonais",
+      "categorie": "savoir",
+      "description": "Le dossier de liste indicative de 2026 sur la réserve d'Annobón relève l'intérêt ethnologique de la pêche traditionnelle pratiquée par les Annobonais. Dans une île isolée, éloignée de 350 km du cap Lopez au Gabon, ces savoirs de la mer font partie de la vie quotidienne.",
+      "communautes": [
+        "Annobonais"
+      ],
+      "regions": [
+        "Annobón"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "sources": [
+        "S6",
+        "S56"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La description des techniques n'est pas détaillée dans les sources ouvertes : à compléter."
+      }
+    },
+    {
+      "id": "GQ-tradition-cuisine",
+      "nom": "Cuisine équatoguinéenne",
+      "categorie": "cuisine",
+      "description": "La cuisine du pays combine des traditions africaines locales, des apports espagnols et marocains selon Wikipédia (fr). Elle repose sur le plantain, la patate douce, le manioc, l'igname, le taro (malanga), l'arachide, le poisson et le piment. Parmi les plats cités figurent la bambucha (ragoût de feuilles de manioc), la soupe de poisson à l'arachide et le poulet à la sauce moambe.",
+      "communautes": [
+        "ensemble du pays"
+      ],
+      "regions": [
+        "Río Muni",
+        "Bioko",
+        "Annobón"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "sources": [
+        "S59"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia fr, ébauche) : à compléter avec des sources culinaires ou ethnologiques."
+      }
+    },
+    {
+      "id": "GQ-tradition-fete-nationale",
+      "nom": "Fêtes nationales et religieuses",
+      "categorie": "fete",
+      "description": "Le calendrier officiel comprend la fête nationale du 12 octobre, qui rappelle l'indépendance de 1968, la fête des forces armées du 3 août, le Jour de l'Afrique le 25 mai et plusieurs fêtes chrétiennes. Sainte-Isabelle figure aussi au calendrier, le 17 novembre. Environ 93 % de la population est chrétienne selon Wikipédia (fr).",
+      "communautes": [
+        "ensemble du pays"
+      ],
+      "regions": [
+        "Bioko",
+        "Río Muni",
+        "Annobón"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "sources": [
+        "S47",
+        "S54"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Sources uniquement Wikipédia (fr) : liste à recouper avec le calendrier officiel."
+      }
+    },
+    {
+      "id": "GQ-tradition-oralite-bubi",
+      "nom": "Chants, récits et cérémonies bubi",
+      "categorie": "oralite",
+      "description": "Selon Wikipédia (fr), la danse, la musique et le chant traditionnels des Bubi, largement inspirés de leurs cérémonies religieuses, restent profondément enracinés malgré l'impact du catholicisme. Un recueil de contes bubis a été publié en 1992 à Malabo par Creus, Brunat et Carulla. L'écrivain Justo Bolekia Boleká a publié des « Narraciones bubis » en 1994.",
+      "communautes": [
+        "Bubi"
+      ],
+      "regions": [
+        "Bioko"
+      ],
+      "unesco": null,
+      "transmission": "fragile",
+      "langues": [
+        "bubi"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Les cérémonies religieuses ne sont pas décrites ; à valider avec des représentants bubi.",
+      "sources": [
+        "S51",
+        "S34",
+        "S42"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "L'état de transmission est inféré de la menace pesant sur la langue (Glottolog) : à vérifier."
+      }
+    }
+  ],
+  "personnalites": [
+    {
+      "id": "GQ-personne-maria-nsue-angue",
+      "nom": "María Nsué Angüe",
+      "wikidata": "Q3088503",
+      "description": "Écrivaine et ministre de l'Éducation et de la Culture, d'une famille fang. Son roman Ekomo (1985) est considéré comme le premier roman publié par une Équatoguinéenne : il suit une femme fang qui, devenue veuve, cherche à échapper à certains tabous. Elle a aussi écrit des nouvelles, des articles et des poèmes, où reviennent l'oppression des femmes et les effets de la colonisation.",
+      "roles": [
+        "romancière",
+        "poétesse",
+        "ministre"
+      ],
+      "domaines": [
+        "littérature",
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "naissance": {
+        "date": "1945",
+        "lieu": "Bidjabidjan (Río Muni)"
+      },
+      "sources": [
+        "S38",
+        "S61",
+        "S46",
+        "S60"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance : 1945 (Casa África, Wikidata), 1948 ou 1950 selon d'autres sources ; Wikidata donne aussi Ebebiyín comme lieu possible."
+      },
+      "deces": {
+        "date": "2017-01-18",
+        "lieu": "Malabo"
+      }
+    },
+    {
+      "id": "GQ-personne-raquel-ilonbe",
+      "nom": "Raquel Ilonbé",
+      "wikidata": "Q7294443",
+      "description": "Poétesse née à Corisco, de mère équatoguinéenne et de père espagnol, élevée en Espagne puis revenue chercher ses racines. Son recueil Ceiba, écrit entre 1966 et 1978, explore la quête d'identité. Elle publie en 1981 Leyendas guineanas, le premier livre pour enfants du pays, d'après des légendes collectées dans des lieux reculés.",
+      "roles": [
+        "poétesse",
+        "collectrice de légendes"
+      ],
+      "domaines": [
+        "littérature",
+        "oralité"
+      ],
+      "epoque": "XXe siècle",
+      "naissance": {
+        "date": "1938",
+        "lieu": "Corisco"
+      },
+      "sources": [
+        "S60",
+        "S46"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Pseudonyme de Raquel del Pozo Epita (Wikipédia fr). Année de naissance : 1938 (Wikipédia fr) ou 1931 (Wikidata). Lieu de décès : Madrid selon Wikidata, non confirmé ailleurs. Aucune source non-Wikipédia/Wikidata trouvée."
+      },
+      "deces": {
+        "date": "1992",
+        "lieu": "Madrid"
+      }
+    },
+    {
+      "id": "GQ-personne-trifonia-melibea-obono",
+      "nom": "Trifonia Melibea Obono",
+      "wikidata": "Q61499088",
+      "description": "Romancière, journaliste, politologue et chercheuse d'origine fang, spécialiste des questions de genre en Afrique. Elle est l'autrice de La Bastarda (2016), premier roman d'une Équatoguinéenne traduit en anglais, et de plusieurs romans et essais sur les droits des femmes et la sexualité. Elle enseigne à l'université nationale de Guinée équatoriale et est chercheuse postdoctorale en Allemagne.",
+      "roles": [
+        "romancière",
+        "chercheuse",
+        "militante"
+      ],
+      "domaines": [
+        "littérature",
+        "sciences sociales"
+      ],
+      "epoque": "XXIe siècle",
+      "naissance": {
+        "date": "1982-11-27",
+        "lieu": "Afaetom (Evinayong)"
+      },
+      "sensible": true,
+      "note_sensibilite": "Son roman La Bastarda a pour protagoniste une femme lesbienne et serait interdit dans le pays selon Wikipédia (en) : sujet sensible de droits LGBT, à traiter avec prudence.",
+      "sources": [
+        "S39",
+        "S62",
+        "S46"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lieu de naissance précis (Afaetom) selon Wikipédia (en) ; Casa África donne Evinayong."
+      }
+    },
+    {
+      "id": "GQ-personne-trinidad-morgades",
+      "nom": "Trinidad Morgades Besari",
+      "wikidata": "Q16642738",
+      "description": "Première Équatoguinéenne à avoir reçu une formation universitaire, diplômée de l'université de Barcelone en 1958. Enseignante, diplomate et responsable d'institutions universitaires, elle a dirigé le journal El Correo Guineoecuatoriano et écrit une pièce, Antígona, qui réinterprète Sophocle. Elle est devenue académicienne correspondante de l'Académie royale espagnole en 2010.",
+      "roles": [
+        "universitaire",
+        "diplomate",
+        "écrivaine",
+        "journaliste"
+      ],
+      "domaines": [
+        "éducation",
+        "littérature",
+        "théâtre"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "naissance": {
+        "date": "1931-04-24",
+        "lieu": "Santa Isabel (Malabo)"
+      },
+      "sources": [
+        "S64",
+        "S46"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Aucune source non-Wikipédia/Wikidata ouverte ; à compléter avec la Real Academia Española."
+      },
+      "deces": {
+        "date": "2019-10-10",
+        "lieu": "Malabo"
+      }
+    },
+    {
+      "id": "GQ-personne-remei-sipi",
+      "nom": "Remei Sipi Mayo",
+      "wikidata": "Q99669468",
+      "description": "Écrivaine, éditrice et militante née à Rebola (Bioko), installée à Barcelone depuis 1968. Elle a cofondé l'association E'Waiso Ipola et créé la maison d'édition Mey, qui publie la littérature équatoguinéenne, et elle a défendu les droits des femmes africaines et des personnes immigrées. Elle a présidé la Fédération des associations guinéennes de Catalogne.",
+      "roles": [
+        "écrivaine",
+        "éditrice",
+        "militante"
+      ],
+      "domaines": [
+        "littérature",
+        "société civile"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "naissance": {
+        "date": "1952",
+        "lieu": "Rebola (Bioko)"
+      },
+      "sources": [
+        "S40",
+        "S63",
+        "S46"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GQ-personne-genoveva-anonman",
+      "nom": "Genoveva Añonman",
+      "wikidata": "Q432020",
+      "description": "Footballeuse née à Kogo, attaquante, qui a joué en Guinée équatoriale, en Afrique du Sud et en Allemagne. Elle fait partie de la sélection qui a remporté le Championnat d'Afrique féminin 2008 à domicile et à nouveau en 2012. Lors de la Coupe du monde 2011 elle a marqué les deux buts de son équipe et est devenue la première Africaine à figurer dans l'équipe-type du tournoi, selon Wikipédia (en).",
+      "roles": [
+        "footballeuse",
+        "entraîneuse"
+      ],
+      "domaines": [
+        "sport"
+      ],
+      "epoque": "XXIe siècle",
+      "naissance": {
+        "date": "1989-04-19",
+        "lieu": "Kogo"
+      },
+      "sources": [
+        "S66",
+        "S46"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikidata donne aussi 1987-10-12 comme date de naissance ; l'affirmation sur l'équipe-type de 2011 vient de Wikipédia (en) seule ; aucune source non-Wikipédia/Wikidata ouverte."
+      }
+    },
+    {
+      "id": "GQ-personne-guillermina-mekuy",
+      "nom": "Guillermina Mekuy",
+      "wikidata": "Q24685671",
+      "description": "Écrivaine et femme politique née en 1982, qui a grandi à Madrid. Elle publie son premier roman à dix-sept ans et devient directrice des bibliothèques et musées du pays, puis première directrice de la Biblioteca Nacional inaugurée à Malabo en 2009. Elle a ensuite été sénatrice puis ministre de la Culture, d'après Wikipédia (en).",
+      "roles": [
+        "romancière",
+        "directrice de la Biblioteca Nacional",
+        "ministre"
+      ],
+      "domaines": [
+        "littérature",
+        "culture",
+        "politique"
+      ],
+      "epoque": "XXIe siècle",
+      "naissance": {
+        "date": "1982-06-25",
+        "lieu": "Evinayong"
+      },
+      "sources": [
+        "S44",
+        "S65"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikidata contient une date de naissance erronée (25 juin de l'an 25) : non reprise. La carrière politique vient de Wikipédia (en) seule."
+      }
+    },
+    {
+      "id": "GQ-personne-leoncio-evita",
+      "nom": "Leoncio Evita Enoy",
+      "wikidata": "Q928846",
+      "description": "Intellectuel, peintre et écrivain né près de Bata, enseignant à l'école des arts et métiers de Bata. Son roman Cuando los combes luchaban (1953) est considéré comme le premier roman équatoguinéen et se déroule chez les Combé ou Ndowe, la communauté de l'auteur. Il a vécu au Cameroun de 1953 à 1960.",
+      "roles": [
+        "romancier",
+        "peintre",
+        "enseignant"
+      ],
+      "domaines": [
+        "littérature",
+        "arts visuels"
+      ],
+      "epoque": "XXe siècle",
+      "naissance": {
+        "date": "1929-08-08",
+        "lieu": "Udubuandolo (près de Bata)"
+      },
+      "sources": [
+        "S67",
+        "S60",
+        "S46"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "deces": {
+        "date": "1996-12",
+        "lieu": "Bata"
+      }
+    },
+    {
+      "id": "GQ-personne-juan-balboa-boneke",
+      "nom": "Juan Balboa Boneke",
+      "wikidata": "Q3327842",
+      "description": "Poète, romancier et homme politique bubi né à Rebola. Ministre sous Obiang, il s'exile ensuite en Espagne. Ses recueils O Boriba (1982) et Desde mi vidriera (1983) mêlent l'espagnol et le bubi et traitent de l'exil ; il publie aussi le roman El reencuentro (1985).",
+      "roles": [
+        "poète",
+        "romancier",
+        "ministre"
+      ],
+      "domaines": [
+        "littérature",
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "naissance": {
+        "date": "1938-06-09",
+        "lieu": "Rebola"
+      },
+      "sources": [
+        "S68",
+        "S60",
+        "S46"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "deces": {
+        "date": "2014-03-10",
+        "lieu": "Valence (Espagne)"
+      }
+    },
+    {
+      "id": "GQ-personne-donato-ndongo",
+      "nom": "Donato Ndongo-Bidyogo",
+      "wikidata": "Q5295440",
+      "description": "Écrivain, journaliste et historien né à Niefang, qui a quitté le pays pour l'Espagne à 14 ans. Son Antología de la literatura guineana (1984) est considérée comme l'œuvre fondatrice de la littérature guinéenne en espagnol. Il est aussi l'auteur d'Historia y tragedia de Guinea Ecuatorial (1977) et de romans comme Las tinieblas de tu memoria negra (1987).",
+      "roles": [
+        "écrivain",
+        "journaliste",
+        "historien"
+      ],
+      "domaines": [
+        "littérature",
+        "journalisme"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "naissance": {
+        "date": "1950-12-12",
+        "lieu": "Niefang"
+      },
+      "sources": [
+        "S41",
+        "S69",
+        "S46"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "L'année de l'anthologie varie : 1984 (Casa África) ou 1985 (Wikipédia fr)."
+      }
+    },
+    {
+      "id": "GQ-personne-ndongo-miyone",
+      "nom": "Atanasio Ndongo Miyone",
+      "wikidata": "Q2181164",
+      "description": "Musicien, écrivain et dirigeant fang, fondateur en 1959 du MONALIGE, parti nationaliste réclamant l'indépendance. Il est l'auteur des paroles de l'hymne national, adopté en 1968, et premier ministre des Affaires étrangères du pays indépendant. Il meurt en mars 1969 après une chute dans des circonstances discutées.",
+      "roles": [
+        "parolier de l'hymne national",
+        "dirigeant politique"
+      ],
+      "domaines": [
+        "politique",
+        "musique",
+        "écriture"
+      ],
+      "epoque": "XXe siècle",
+      "naissance": {
+        "date": "1928-03-19",
+        "lieu": "Mbini (Río Muni)"
+      },
+      "sensible": true,
+      "note_sensibilite": "Circonstances de la mort contestées (suicide officiel, défenestration suspectée) ; présentation neutre, sources académiques ou onusiennes à ajouter.",
+      "sources": [
+        "S70",
+        "S46",
+        "S49"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "deces": {
+        "date": "1969-03-26",
+        "lieu": "Bata"
+      }
+    },
+    {
+      "id": "GQ-personne-ondo-edu",
+      "nom": "Bonifacio Ondó Edú",
+      "wikidata": "Q732636",
+      "description": "Homme politique fang d'Evinayong, premier chef du gouvernement autonome de la Guinée espagnole de 1964 à 1968 et dirigeant du MUNGE. Il perd le second tour de la première présidentielle de septembre 1968 face à Macías Nguema et meurt en prison en mars 1969.",
+      "roles": [
+        "premier ministre",
+        "dirigeant nationaliste"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "naissance": {
+        "date": "1922-03-19",
+        "lieu": "Evinayong"
+      },
+      "sensible": true,
+      "note_sensibilite": "Mort contestée (suicide officiel, assassinat selon d'autres récits) ; sujet politique, présentation neutre.",
+      "sources": [
+        "S71",
+        "S46",
+        "S48"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance en 1920 ou 1922 selon Wikipédia (en) ; Wikidata donne seulement 1922."
+      },
+      "deces": {
+        "date": "1969-03-05",
+        "lieu": "prison de Black Beach (Malabo)"
+      }
+    },
+    {
+      "id": "GQ-personne-macias-nguema",
+      "nom": "Francisco Macías Nguema",
+      "wikidata": "Q211936",
+      "description": "Premier président de la Guinée équatoriale de 1968 à 1979. Élu après l'indépendance, il instaure un pouvoir personnel et un régime de terreur qui a poussé près d'un tiers de la population à fuir, selon la BBC. Il est renversé en août 1979, jugé et exécuté.",
+      "roles": [
+        "président"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "naissance": {
+        "date": "1924-01-01",
+        "lieu": "Nzangayong"
+      },
+      "sensible": true,
+      "note_sensibilite": "Figure d'un régime de répression : présentation factuelle fondée sur des sources académiques et onusiennes à ajouter.",
+      "sources": [
+        "S72",
+        "S37",
+        "S48",
+        "S46"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lieu de naissance : Nzangayong (Wikipédia en) ou Mongomo (Wikidata). Bilan humain : environ 50 000 morts et disparus et plus de 100 000 exilés selon Wikipédia (fr), non repris faute de source primaire."
+      },
+      "deces": {
+        "date": "1979-09-29",
+        "lieu": "Malabo"
+      }
+    },
+    {
+      "id": "GQ-personne-mbomio",
+      "nom": "Leandro Mbomio Nsue",
+      "wikidata": "Q6509700",
+      "description": "Sculpteur et artiste né à Evinayong, qui a étudié l'art en Espagne et vécu longtemps en exil sous le franquisme. Il a été ministre et nommé Artiste pour la paix par l'UNESCO en octobre 2007, selon Wikipédia (en). Il est mort à Bata.",
+      "roles": [
+        "sculpteur",
+        "ministre"
+      ],
+      "domaines": [
+        "arts visuels",
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "naissance": {
+        "date": "1938-01-05",
+        "lieu": "Evinayong"
+      },
+      "sources": [
+        "S73",
+        "S46"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La nomination UNESCO vient de Wikipédia (en) seule : à vérifier auprès de l'UNESCO."
+      },
+      "deces": {
+        "date": "2012-11-12",
+        "lieu": "Bata"
+      }
+    },
+    {
+      "id": "GQ-personne-avila-laurel",
+      "nom": "Juan Tomás Ávila Laurel",
+      "wikidata": "Q151806",
+      "description": "Écrivain d'origine annobonaise né à Malabo, auteur de romans, pièces, poèmes et essais. Il est surtout connu hors du pays pour un roman paru en anglais sous le titre By Night the Mountain Burns (2014), inspiré de son enfance à Annobón. Il vit à Barcelone depuis 2011, après une grève de la faim et une lettre ouverte.",
+      "roles": [
+        "écrivain",
+        "dramaturge",
+        "militant"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "naissance": {
+        "date": "1966-11-06",
+        "lieu": "Santa Isabel (Malabo)"
+      },
+      "sensible": true,
+      "note_sensibilite": "Engagement politique et exil : présentation neutre.",
+      "sources": [
+        "S43",
+        "S74",
+        "S46"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GQ-personne-bolekia",
+      "nom": "Justo Bolekia Boleká",
+      "wikidata": "Q6318472",
+      "description": "Linguiste, poète et universitaire d'origine bubi, né à Santiago de Baney. Docteur de l'université de Salamanque, où il est professeur de philologie française, il a publié des essais comme Lenguas y poder en África (2001) et Lingüística bantu a través del bubi (2008). Il a aussi été engagé dans le mouvement MAIB.",
+      "roles": [
+        "linguiste",
+        "poète",
+        "universitaire"
+      ],
+      "domaines": [
+        "sciences du langage",
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "naissance": {
+        "date": "1954-12-13",
+        "lieu": "Santiago de Baney (Bioko)"
+      },
+      "sensible": true,
+      "note_sensibilite": "Engagement politique dans un mouvement d'autodétermination : présentation neutre.",
+      "sources": [
+        "S42",
+        "S75",
+        "S46"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GQ-personne-emilio-nsue",
+      "nom": "Emilio Nsue",
+      "wikidata": "Q581058",
+      "description": "Footballeur né à Palma de Majorque d'un père équatoguinéen et d'une mère espagnole. Après des titres européens de jeunes avec l'Espagne, il choisit en 2013 la sélection de Guinée équatoriale, dont il devient le capitaine et le meilleur buteur de l'histoire d'après Wikipédia (en).",
+      "roles": [
+        "footballeur"
+      ],
+      "domaines": [
+        "sport"
+      ],
+      "epoque": "XXIe siècle",
+      "naissance": {
+        "date": "1989-09-30",
+        "lieu": "Palma de Majorque (Espagne)"
+      },
+      "sources": [
+        "S76",
+        "S46"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Né en Espagne ; la fiche conserve ce profil de diaspora. Statistiques de buts non reprises."
+      }
+    },
+    {
+      "id": "GQ-personne-malabo-melaka",
+      "nom": "Malabo Löpèlo Mëlaka (roi Malabo Ier)",
+      "wikidata": "Q6740779",
+      "description": "Roi des Bubi de Bioko sous administration espagnole. Fils du roi Moka, il règne à partir de 1904 et jusqu'en 1937, au moment où la souveraineté bubi s'efface. Son nom a été donné à la capitale de l'île, Malabo, dans les années 1970.",
+      "roles": [
+        "roi des Bubi"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XIXe-XXe siècles",
+      "naissance": {
+        "date": "vers 1837"
+      },
+      "sensible": true,
+      "note_sensibilite": "Figure royale d'une communauté : à relire avec des représentants bubi.",
+      "sources": [
+        "S77",
+        "S48",
+        "S54",
+        "S46"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La page Wikipédia (en) contient plusieurs affirmations sans référence (« citation needed ») : seuls le règne (1904-1937), la filiation et le nom de la capitale sont retenus. Wikipédia (fr) indique qu'il est emprisonné avant la fin de son règne."
+      },
+      "deces": {
+        "date": "1937",
+        "lieu": "Bioko"
+      }
+    }
+  ],
+  "evenements": [
+    {
+      "id": "GQ-evenement-mossumu",
+      "titre": "Premières traces humaines à Mossumu",
+      "date": "-029999-01-01",
+      "date_affichee": "vers 30 000 av. J.-C.",
+      "precision": "siecle",
+      "description": "Des vestiges d'une industrie lithique de tradition sangoenne, découverts à Mossumu, dans le Littoral, sont datés d'environ 30 000 ans av. J.-C. selon Wikipédia (fr). Ils attestent la présence de chasseurs-cueilleurs dans le Río Muni. Les données archéologiques restent lacunaires pour le pays.",
+      "sources": [
+        "S47",
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Datation reprise de Wikipédia (fr) sans source archéologique primaire : à confirmer par un archéologue."
+      },
+      "regions": [
+        "Río Muni"
+      ]
+    },
+    {
+      "id": "GQ-evenement-bioko-separation",
+      "titre": "Bioko se sépare du continent",
+      "date": "-007999-01-01",
+      "date_affichee": "vers 8000 av. J.-C.",
+      "precision": "siecle",
+      "description": "Avec la montée des eaux de l'Atlantique, après la dernière période glaciaire, le pont de terre qui reliait l'île de Bioko au continent est lentement submergé vers 8000 av. J.-C. selon Wikipédia (fr). L'île devient alors l'espace insulaire des Bubi, dont l'occupation continue est attestée jusqu'à l'époque historique.",
+      "sources": [
+        "S47"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Datation reprise de Wikipédia (fr) sans source primaire."
+      },
+      "regions": [
+        "Bioko"
+      ]
+    },
+    {
+      "id": "GQ-evenement-carboneras",
+      "titre": "Tradition archéologique de Carboneras à Bioko",
+      "date": "0500-01-01",
+      "date_affichee": "Ve-Xe siècle",
+      "precision": "siecle",
+      "description": "Sur Bioko, la séquence archéologique comprend les traditions timbabé, carboneras, bolaopi, buela et balombe. La tradition carboneras est datée au radiocarbone entre le Ve et le Xe siècle de notre ère selon Wikipédia (fr), ce qui montre une occupation continue de l'île avant l'arrivée des Européens.",
+      "fin": "1000-01-01",
+      "sources": [
+        "S47"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia fr) : à confirmer par l'archéologie."
+      },
+      "regions": [
+        "Bioko"
+      ]
+    },
+    {
+      "id": "GQ-evenement-annobon-1471",
+      "titre": "Les Portugais aperçoivent Annobón",
+      "date": "1471-01-01",
+      "date_affichee": "1er janvier 1471",
+      "precision": "jour",
+      "description": "Le jour de l'An 1471, des navigateurs portugais voient l'île qu'ils appellent Ilha do Ano Bom, d'où vient le nom d'Annobón. C'est l'un des premiers contacts européens avec le golfe de Guinée. L'île sera peuplée au milieu du XVIe siècle par des Portugais et des personnes réduites en esclavage.",
+      "acteurs": [
+        "João de Santarém",
+        "Pedro Escobar"
+      ],
+      "sources": [
+        "S47",
+        "S48",
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "BBC donne 1471 pour la vue de Bioko par Fernão do Pó ; Wikipédia (fr) place cette découverte en 1474 et 1471 pour Annobón : divergence à trancher."
+      },
+      "regions": [
+        "Annobón"
+      ]
+    },
+    {
+      "id": "GQ-evenement-bioko-1474",
+      "titre": "Fernão do Pó aperçoit Bioko",
+      "date": "1474-01-01",
+      "date_affichee": "1474",
+      "precision": "annee",
+      "description": "Un navigateur portugais, Fernão do Pó, aperçoit l'île qui portera son nom, Fernando Poo, avant de devenir Bioko. Son nom est resté jusqu'à la colonie de Guinée espagnole. L'île était déjà habitée par les Bubi, et les Portugais finissent par se retirer.",
+      "acteurs": [
+        "Fernão do Pó"
+      ],
+      "sources": [
+        "S47",
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date : 1474 selon Wikipédia (fr), 1471 selon la BBC."
+      },
+      "regions": [
+        "Bioko"
+      ]
+    },
+    {
+      "id": "GQ-evenement-el-pardo",
+      "titre": "Traité d'El Pardo : le Portugal cède les îles à l'Espagne",
+      "date": "1778-03-01",
+      "date_affichee": "mars 1778",
+      "precision": "mois",
+      "description": "Le traité d'El Pardo, après celui de San Ildefonso, transfère à l'Espagne Bioko, Annobón et Corisco et des droits de commerce sur la côte du golfe, en échange de territoires en Amérique du Sud. Les expéditions espagnoles qui suivent échouent en partie face aux maladies et à la résistance locale. L'Espagne n'occupera vraiment le territoire que bien plus tard.",
+      "acteurs": [
+        "Portugal",
+        "Espagne"
+      ],
+      "sources": [
+        "S48",
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le mois précis (mars 1778) est donné par Wikipédia (fr) ; la BBC donne seulement l'année."
+      },
+      "regions": [
+        "Bioko",
+        "Annobón",
+        "Corisco"
+      ]
+    },
+    {
+      "id": "GQ-evenement-annobon-1778",
+      "titre": "Soulèvement des Annobonais contre l'expédition espagnole",
+      "date": "1778-01-01",
+      "date_affichee": "1778",
+      "precision": "annee",
+      "description": "Lors de la prise de possession de 1778, les habitants d'Annobón se soulèvent et ne reconnaissent ni la domination portugaise ni la domination espagnole. À Bioko, l'expédition espagnole souffre de maladies et d'attaques des Bubi, puis se mutine. L'épisode montre la résistance locale aux revendications européennes.",
+      "acteurs": [
+        "Annobonais",
+        "Bubi"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Épisode colonial décrit par une seule source secondaire : à confirmer.",
+      "sources": [
+        "S47"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Mention « source secondaire nécessaire » sur Wikipédia (fr) pour le soulèvement d'Annobón."
+      },
+      "regions": [
+        "Annobón",
+        "Bioko"
+      ]
+    },
+    {
+      "id": "GQ-evenement-port-clarence",
+      "titre": "Occupation britannique de Port Clarence (Malabo)",
+      "date": "1827-01-01",
+      "date_affichee": "1827-1843",
+      "precision": "annee",
+      "description": "À partir de 1827, avec l'accord de l'Espagne, les Britanniques s'installent sur Bioko et fondent Port Clarence, future Malabo, base navale destinée à réprimer la traite des esclaves. La présence dure jusqu'en 1843. Elle laisse une trace linguistique durable, avec l'arrivée d'un créole anglais, le pichi, venu de Freetown.",
+      "fin": "1843-01-01",
+      "acteurs": [
+        "Royaume-Uni"
+      ],
+      "sources": [
+        "S37",
+        "S54",
+        "S18",
+        "S48"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La BBC date 1827-1843 ; Wikipédia (fr) évoque 1827-1832 dans la section histoire. Divergence à trancher."
+      },
+      "regions": [
+        "Malabo",
+        "Bioko"
+      ]
+    },
+    {
+      "id": "GQ-evenement-immigration-cubaine",
+      "titre": "Autorisation d'installer à Bioko des Noirs et mulâtres de Cuba",
+      "date": "1845-09-13",
+      "date_affichee": "13 septembre 1845",
+      "precision": "jour",
+      "description": "Une ordonnance de la reine Isabelle II permet aux Noirs et aux mulâtres de Cuba qui le souhaitent de s'établir à Bioko. Elle s'inscrit dans le retour de l'Espagne sur l'île, après le départ des Britanniques. Elle contribue à la diversité des populations de Bioko, avec les Fernandinos.",
+      "acteurs": [
+        "Isabelle II"
+      ],
+      "sources": [
+        "S48"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia fr) : à confirmer."
+      },
+      "regions": [
+        "Bioko"
+      ]
+    },
+    {
+      "id": "GQ-evenement-rio-muni-1885",
+      "titre": "Río Muni devient protectorat espagnol",
+      "date": "1885-01-01",
+      "date_affichee": "1885",
+      "precision": "annee",
+      "description": "Après les expéditions de Manuel Iradier en 1875 et 1884, le continent devient en 1885 un protectorat espagnol, avant de devenir une colonie en 1900. Cette époque coïncide avec la conférence de Berlin sur le partage de l'Afrique.",
+      "acteurs": [
+        "Espagne",
+        "Manuel Iradier"
+      ],
+      "sources": [
+        "S48",
+        "S47"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia fr) : à confirmer par un travail d'historien."
+      },
+      "regions": [
+        "Río Muni"
+      ]
+    },
+    {
+      "id": "GQ-evenement-traite-paris-1900",
+      "titre": "Traité de Paris : fixation du territoire espagnol",
+      "date": "1900-06-27",
+      "date_affichee": "27 juin 1900",
+      "precision": "jour",
+      "description": "Le 27 juin 1900, la France et l'Espagne signent le traité de Paris, qui met fin à près d'un demi-siècle de rivalité en Afrique de l'Ouest et réduit le Río Muni à environ 26 000 km². Les discussions portaient surtout sur la région du Muni et sur les îles Elobey. Le territoire continental de l'actuelle Guinée équatoriale est alors fixé.",
+      "acteurs": [
+        "France",
+        "Espagne"
+      ],
+      "sources": [
+        "S28",
+        "S37",
+        "S47"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Río Muni",
+        "Elobey"
+      ]
+    },
+    {
+      "id": "GQ-evenement-guinee-espagnole",
+      "titre": "Fernando Poo et Río Muni deviennent les Territoires espagnols d'Afrique occidentale",
+      "date": "1904-01-01",
+      "date_affichee": "1904",
+      "precision": "annee",
+      "description": "En 1904, Fernando Poo et le Río Muni sont regroupés sous le nom de Territoires espagnols d'Afrique occidentale, appelés ensuite Guinée espagnole. La réunion administrative se renforce en 1926 avec la colonie de Guinée espagnole.",
+      "acteurs": [
+        "Espagne"
+      ],
+      "sources": [
+        "S37",
+        "S48"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le nom d'origine en espagnol est approximatif (BBC : « Western African Territories »)."
+      },
+      "regions": [
+        "Bioko",
+        "Río Muni"
+      ]
+    },
+    {
+      "id": "GQ-evenement-bubi-1937",
+      "titre": "Fin du règne du roi bubi Malabo",
+      "date": "1937-01-01",
+      "date_affichee": "1937",
+      "precision": "annee",
+      "description": "Le roi Malabo, souverain des Bubi depuis 1904, règne jusqu'en 1937. À sa mort, l'influence politique de la royauté bubi disparaît et l'administration coloniale renforce son autorité. Les royaumes régionaux s'effacent dans la période qui suit la réunification de 1926.",
+      "acteurs": [
+        "Bubi",
+        "administration coloniale espagnole"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet colonial et politique : présentation neutre, à relire avec des représentants bubi.",
+      "sources": [
+        "S48",
+        "S77"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Circonstances de la fin de règne (emprisonnement) divergentes selon les sources."
+      },
+      "regions": [
+        "Bioko"
+      ]
+    },
+    {
+      "id": "GQ-evenement-loi-1959",
+      "titre": "Région équatoriale espagnole : statut de province",
+      "date": "1959-07-30",
+      "date_affichee": "30 juillet 1959",
+      "precision": "jour",
+      "description": "La loi du 30 juillet 1959 donne aux territoires du golfe de Guinée le statut de provinces espagnoles d'outre-mer sous le nom de Región Ecuatorial Española, divisée en provinces de Fernando Poo et du Río Muni. L'administration reste sous l'autorité d'un gouverneur général aux pleins pouvoirs civils et militaires.",
+      "acteurs": [
+        "Espagne"
+      ],
+      "sources": [
+        "S48",
+        "S29"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Bioko",
+        "Río Muni"
+      ]
+    },
+    {
+      "id": "GQ-evenement-repression-1959",
+      "titre": "Assassinats de dirigeants indépendantistes et arrestations",
+      "date": "1959-01-01",
+      "date_affichee": "1959",
+      "precision": "annee",
+      "description": "En 1959, plusieurs dirigeants nationalistes, dont Enrique Nvó et Acacio Mañé Elá, sont assassinés et 24 autres personnes arrêtées, selon Wikipédia (en). Beaucoup d'indépendantistes choisissent alors l'exil, dont Bonifacio Ondó Edú, pour poursuivre la lutte depuis l'étranger.",
+      "acteurs": [
+        "Enrique Nvó",
+        "Acacio Mañé Elá",
+        "Bonifacio Ondó Edú"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Violences politiques : présentation neutre, à confirmer par des sources académiques.",
+      "sources": [
+        "S71"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia en)."
+      },
+      "regions": [
+        "Río Muni"
+      ]
+    },
+    {
+      "id": "GQ-evenement-referendum-1963",
+      "titre": "Référendum sur l'autonomie",
+      "date": "1963-12-15",
+      "date_affichee": "15 décembre 1963",
+      "precision": "jour",
+      "description": "Le 15 décembre 1963, un projet d'autonomie soumis par le gouvernement espagnol est approuvé à une écrasante majorité. Les territoires prennent le nom de Guinée équatoriale et se dotent d'une Assemblée générale, d'un Conseil de gouvernement et d'un commissaire général. Bonifacio Ondó Edú devient chef du gouvernement autonome en 1964.",
+      "acteurs": [
+        "Espagne",
+        "Bonifacio Ondó Edú"
+      ],
+      "sources": [
+        "S48",
+        "S71"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Bioko",
+        "Río Muni"
+      ]
+    },
+    {
+      "id": "GQ-evenement-independance",
+      "titre": "Indépendance de la Guinée équatoriale",
+      "date": "1968-10-12",
+      "date_affichee": "12 octobre 1968",
+      "precision": "jour",
+      "description": "Après un référendum constitutionnel du 11 août 1968 et la première présidentielle de septembre, l'indépendance est proclamée le 12 octobre 1968. Francisco Macías Nguema l'emporte sur Bonifacio Ondó Edú au second tour. Le 12 octobre est aujourd'hui la fête nationale.",
+      "acteurs": [
+        "Francisco Macías Nguema",
+        "Bonifacio Ondó Edú",
+        "Espagne"
+      ],
+      "sources": [
+        "S48",
+        "S37",
+        "S47",
+        "S71"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Bioko",
+        "Río Muni",
+        "Annobón"
+      ]
+    },
+    {
+      "id": "GQ-evenement-crise-1969",
+      "titre": "Crise politique de mars 1969",
+      "date": "1969-03-05",
+      "date_affichee": "mars 1969",
+      "precision": "mois",
+      "description": "En mars 1969, Bonifacio Ondó Edú meurt en prison et Atanasio Ndongo Miyone meurt après une chute du palais présidentiel, dans le contexte d'un prétendu complot dénoncé par Macías Nguema. Les circonstances restent discutées. Les troupes espagnoles quittent ensuite le pays, en mars et avril 1969.",
+      "acteurs": [
+        "Francisco Macías Nguema",
+        "Bonifacio Ondó Edú",
+        "Atanasio Ndongo Miyone"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement politique contesté : présentation neutre, positions des parties à documenter avec des sources académiques et onusiennes.",
+      "sources": [
+        "S71",
+        "S70",
+        "S48"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates exactes : 5 mars (mort d'Ondó Edú), 26 mars (mort de Ndongo Miyone), départ des troupes les 28 mars et 5 avril 1969 (Wikipédia fr)."
+      },
+      "regions": [
+        "Malabo",
+        "Bata"
+      ]
+    },
+    {
+      "id": "GQ-evenement-president-vie",
+      "titre": "Macías Nguema proclamé président à vie",
+      "date": "1972-07-01",
+      "date_affichee": "juillet 1972",
+      "precision": "mois",
+      "description": "En juillet 1972, Francisco Macías Nguema se proclame président à vie, après l'instauration d'un parti unique en 1970. Sous son régime, le pays connaît une répression importante : selon la BBC, un tiers de la population s'exile. Wikipédia (fr) donne un bilan chiffré de la répression mais sans source primaire.",
+      "acteurs": [
+        "Francisco Macías Nguema"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Violences d'État : présentation factuelle, bilan chiffré à sourcer par l'ONU ou des historiens.",
+      "sources": [
+        "S48",
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le mois précis vient de Wikipédia (fr)."
+      },
+      "regions": [
+        "pays entier"
+      ]
+    },
+    {
+      "id": "GQ-evenement-africanisation-1973",
+      "titre": "Africanisation des noms de lieux : Santa Isabel devient Malabo",
+      "date": "1973-01-01",
+      "date_affichee": "1973",
+      "precision": "annee",
+      "description": "Sous Macías Nguema, des noms de lieux sont changés : la capitale, Santa Isabel, devient Malabo en 1973, Fernando Poo est rebaptisée Masie Nguema Biyogo et Annobón devient Pagalu. Ces noms sont abandonnés pour les îles après 1979, mais Malabo reste le nom de la ville.",
+      "acteurs": [
+        "Francisco Macías Nguema"
+      ],
+      "sources": [
+        "S48",
+        "S54"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Malabo",
+        "Bioko",
+        "Annobón"
+      ]
+    },
+    {
+      "id": "GQ-evenement-coup-1979",
+      "titre": "Coup d'État de Teodoro Obiang Nguema",
+      "date": "1979-08-03",
+      "date_affichee": "3 août 1979",
+      "precision": "jour",
+      "description": "Le 3 août 1979, le colonel Teodoro Obiang Nguema renverse son oncle Francisco Macías Nguema. L'ancien président est jugé et exécuté en septembre. Les îles retrouvent leurs noms de Bioko et Annobón. Teodoro Obiang Nguema reste au pouvoir depuis lors.",
+      "acteurs": [
+        "Teodoro Obiang Nguema",
+        "Francisco Macías Nguema"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet politique contemporain : positions de l'opposition et de l'ONU à documenter.",
+      "sources": [
+        "S37",
+        "S48",
+        "S72"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Malabo"
+      ]
+    },
+    {
+      "id": "GQ-evenement-centro-cultural-1982",
+      "titre": "Création du Centre culturel hispano-guinéen de Malabo",
+      "date": "1982-01-01",
+      "date_affichee": "1982",
+      "precision": "annee",
+      "description": "En 1982 est créé à Malabo le Centre culturel hispano-guinéen, doté d'une bibliothèque, de la revue África 2000 et d'une maison d'édition. Il joue un rôle clé dans la renaissance littéraire après la dictature, et publie des auteurs équatoguinéens confirmés ou débutants.",
+      "acteurs": [
+        "Centre culturel hispano-guinéen"
+      ],
+      "sources": [
+        "S60"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Malabo"
+      ]
+    },
+    {
+      "id": "GQ-evenement-combes-1953",
+      "titre": "Publication de Cuando los combes luchaban",
+      "date": "1953-01-01",
+      "date_affichee": "1953",
+      "precision": "annee",
+      "description": "En 1953, Leoncio Evita publie Cuando los combes luchaban, considéré comme le premier roman équatoguinéen. L'action se déroule au Río Muni chez les Combé ou Ndowe, communauté de l'auteur, à l'époque précoloniale. Le récit est raconté du point de vue d'un missionnaire européen, ce qui a conduit la critique à le ranger dans une littérature dite de consentement.",
+      "acteurs": [
+        "Leoncio Evita Enoy"
+      ],
+      "sources": [
+        "S60",
+        "S67"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Río Muni"
+      ]
+    },
+    {
+      "id": "GQ-evenement-antologia-1984",
+      "titre": "Antología de la literatura guineana",
+      "date": "1984-01-01",
+      "date_affichee": "1984",
+      "precision": "annee",
+      "description": "Donato Ndongo-Bidyogo réunit la première anthologie de littérature guinéenne en espagnol, considérée comme œuvre fondatrice. Elle présente poésie et prose, publiées ou non, d'auteurs dont plusieurs n'ont plus publié ensuite.",
+      "acteurs": [
+        "Donato Ndongo-Bidyogo"
+      ],
+      "sources": [
+        "S41",
+        "S60"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date : 1984 (Casa África) ou 1985 (Wikipédia fr)."
+      },
+      "regions": [
+        "Malabo"
+      ]
+    },
+    {
+      "id": "GQ-evenement-ekomo-1985",
+      "titre": "Publication d'Ekomo de María Nsué Angüe",
+      "date": "1985-01-01",
+      "date_affichee": "1985",
+      "precision": "annee",
+      "description": "En 1985 paraît Ekomo, premier roman d'une femme équatoguinéenne. Le récit suit Nnanga, une femme fang, mais est raconté du point de vue d'un homme, Ekomo. Le livre est devenu une référence de la littérature équatoguinéenne.",
+      "acteurs": [
+        "María Nsué Angüe"
+      ],
+      "sources": [
+        "S38",
+        "S60",
+        "S61"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Río Muni"
+      ]
+    },
+    {
+      "id": "GQ-evenement-petrole-1996",
+      "titre": "Découverte et exploitation du pétrole",
+      "date": "1996-01-01",
+      "date_affichee": "1995-1996",
+      "precision": "annee",
+      "description": "Dans les années 1990, la découverte de gisements d'hydrocarbures au large du pays transforme son économie. La BBC rappelle qu'une grande compagnie annonce de nouvelles réserves en 1996 et que le pays devient un grand producteur d'Afrique subsaharienne, sans que cette richesse profite à la majorité.",
+      "sources": [
+        "S37",
+        "S47"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La BBC écrit que le pays a découvert du pétrole en 1995 et date l'annonce de Mobil en 1996."
+      },
+      "regions": [
+        "offshore",
+        "Malabo",
+        "Bata"
+      ]
+    },
+    {
+      "id": "GQ-evenement-francais-1998",
+      "titre": "Le français devient deuxième langue officielle",
+      "date": "1998-01-21",
+      "date_affichee": "21 janvier 1998",
+      "precision": "jour",
+      "description": "La loi constitutionnelle n° 1/1998 du 21 janvier 1998 établit l'espagnol et le français comme langues officielles et reconnaît les langues autochtones comme partie intégrante de la culture nationale. Elle accompagne l'entrée dans la zone CEMAC. Le portugais sera ajouté en 2011.",
+      "sources": [
+        "S53",
+        "S47"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikipédia (fr) parle aussi de 1997 pour l'adoption du français : divergence à trancher."
+      },
+      "regions": [
+        "pays entier"
+      ]
+    },
+    {
+      "id": "GQ-evenement-biblioteca-2009",
+      "titre": "Inauguration de la Biblioteca Nacional de Guinea Ecuatorial",
+      "date": "2009-06-01",
+      "date_affichee": "juin 2009",
+      "precision": "mois",
+      "description": "La bibliothèque nationale est inaugurée à Malabo en juin 2009, avec Guillermina Mekuy comme première directrice. L'ouverture marque la volonté de doter le pays d'institutions de conservation et de lecture publique.",
+      "acteurs": [
+        "Guillermina Mekuy"
+      ],
+      "sources": [
+        "S44",
+        "S65"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Malabo"
+      ]
+    },
+    {
+      "id": "GQ-evenement-ich-2010",
+      "titre": "Ratification de la Convention de 2003 pour la sauvegarde du patrimoine immatériel",
+      "date": "2010-06-17",
+      "date_affichee": "17 juin 2010",
+      "precision": "jour",
+      "description": "La Guinée équatoriale ratifie la Convention pour la sauvegarde du patrimoine culturel immatériel le 17 juin 2010. Elle avait ratifié la Convention du patrimoine mondial le 10 mars 2010. À ce jour, aucun élément ni aucun bien du pays n'est inscrit sur les listes de l'UNESCO.",
+      "acteurs": [
+        "UNESCO"
+      ],
+      "sources": [
+        "S4",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "pays entier"
+      ]
+    },
+    {
+      "id": "GQ-evenement-football-2012",
+      "titre": "Titres au Championnat d'Afrique féminin de football",
+      "date": "2012-01-01",
+      "date_affichee": "2008 et 2012",
+      "precision": "annee",
+      "description": "L'équipe féminine de Guinée équatoriale remporte le Championnat d'Afrique en 2008, puis en 2012, chaque fois à domicile. Genoveva Añonman, attaquante, figure parmi les joueuses marquantes de cette période. En 2011, l'équipe participe à la Coupe du monde.",
+      "acteurs": [
+        "Genoveva Añonman"
+      ],
+      "sources": [
+        "S66"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia en) : à confirmer par la CAF."
+      },
+      "regions": [
+        "pays entier"
+      ]
+    },
+    {
+      "id": "GQ-evenement-liste-indicative",
+      "titre": "Établissement de la liste indicative du patrimoine mondial",
+      "date": "2021-09-16",
+      "date_affichee": "16 septembre 2021",
+      "precision": "jour",
+      "description": "Une actualité de l'UNESCO date de septembre 2021 l'établissement de la liste indicative de la Guinée équatoriale. Elle est révisée le 14 avril 2026 avec six sites : deux sites naturels de Bioko (Luba et Pico Basilé), l'église néogothique de Batete, le parc de Monte Alén, l'île d'Annobón et l'île de Corisco.",
+      "acteurs": [
+        "UNESCO",
+        "Guinée équatoriale"
+      ],
+      "sources": [
+        "S3",
+        "S11"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La date de 2021 est celle d'une actualité listée sur la page UNESCO ; son texte n'a pas été ouvert."
+      },
+      "regions": [
+        "Bioko",
+        "Río Muni",
+        "Annobón",
+        "Corisco"
+      ]
+    },
+    {
+      "id": "GQ-evenement-explosions-bata",
+      "titre": "Explosions de munitions à Bata",
+      "date": "2021-03-07",
+      "date_affichee": "7 mars 2021",
+      "precision": "jour",
+      "description": "Le 7 mars 2021, des explosions dans le camp militaire de Nkoa Ntoma à Bata font 107 morts et 615 blessés selon Wikipédia (fr). L'événement a durablement marqué la ville.",
+      "sensible": true,
+      "note_sensibilite": "Événement meurtrier récent : à confirmer par des sources institutionnelles ou de presse de référence.",
+      "sources": [
+        "S55"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia fr) : bilan à recouper."
+      },
+      "regions": [
+        "Bata"
+      ]
+    },
+    {
+      "id": "GQ-evenement-capitale-2026",
+      "titre": "Ciudad de la Paz promue capitale",
+      "date": "2026-01-03",
+      "date_affichee": "3 janvier 2026",
+      "precision": "jour",
+      "description": "Un décret présidentiel du 3 janvier 2026 fait de Ciudad de la Paz, ville de la province de Djibloho, à l'est du pays en pleine forêt, la nouvelle capitale. La BBC indiquait en 2023 que le siège du gouvernement avait déjà été déplacé en 2016 et que la ville était en construction. Malabo avait été capitale de 1969 à 2026.",
+      "acteurs": [
+        "Teodoro Obiang Nguema"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Décision politique récente et critiquée selon les sources : présentation neutre.",
+      "sources": [
+        "S47",
+        "S37",
+        "S54"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source du décret : Wikipédia (fr) seulement ; la BBC date le déménagement des institutions de 2016."
+      },
+      "regions": [
+        "Djibloho",
+        "Malabo"
+      ]
+    }
+  ],
+  "oeuvres": [
+    {
+      "id": "GQ-oeuvre-eyema-byeri",
+      "titre": "Eyema byeri (figure gardienne de reliquaire)",
+      "type": "sculpture",
+      "description": "Figure en bois, laiton et huile de palme, attribuée aux Okak-Fang et datée du XIXe siècle, haute d'environ 64 cm. Les byeri veillaient sur les reliquaires d'ancêtres dans le culte fang. Le Metropolitan Museum la rattache au Gabon ou à la Guinée équatoriale.",
+      "institution": "The Metropolitan Museum of Art, New York (Michael C. Rockefeller Wing), inv. 1978.412.441",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/310870",
+      "droits": "Domaine public selon le Met (Open Access, CC0) ; aucune image reproduite ici",
+      "communaute": "Fang (Okak)",
+      "materiaux": [
+        "bois",
+        "laiton",
+        "huile de palme"
+      ],
+      "numero_inventaire": "1978.412.441",
+      "periode": "XIXe siècle",
+      "sensible": true,
+      "note_sensibilite": "Objet lié au culte des ancêtres : à relire avec des représentants fang ou un musée partenaire ; provenance exacte (Gabon ou Guinée équatoriale) incertaine.",
+      "sources": [
+        "S45",
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GQ-oeuvre-combes-luchaban",
+      "titre": "Cuando los combes luchaban (1953)",
+      "type": "livre",
+      "description": "Roman de Leoncio Evita, considéré comme le premier roman équatoguinéen. Il se situe chez les Combé ou Ndowe du Río Muni avant la colonisation et est raconté par un missionnaire protestant européen. Il a servi de référence en littérature coloniale ; la critique parle de « littérature de consentement ».",
+      "institution": "œuvre publiée (1953) ; notice Wikipédia fr",
+      "url_notice": "https://fr.wikipedia.org/wiki/Litt%C3%A9rature_de_la_Guin%C3%A9e_%C3%A9quatoriale",
+      "droits": "œuvre protégée : seule la notice est référencée, aucun extrait reproduit",
+      "createur": "Leoncio Evita Enoy",
+      "periode": "1953",
+      "sources": [
+        "S60",
+        "S67"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GQ-oeuvre-lanza-boabi",
+      "titre": "Una lanza por el Boabí (1962)",
+      "type": "livre",
+      "description": "Deuxième roman équatoguinéen, de Daniel Jones Mathama, né à San Carlos en 1913. Le héros, Gué, raconte son enfance à Fernando Poo, son départ en Espagne et son retour. Le livre décrit en détail des coutumes bubi, avec un regard qui reflète son époque coloniale.",
+      "institution": "œuvre publiée (1962) ; notice Wikipédia fr",
+      "url_notice": "https://fr.wikipedia.org/wiki/Litt%C3%A9rature_de_la_Guin%C3%A9e_%C3%A9quatoriale",
+      "droits": "œuvre protégée : seule la notice est référencée, aucun extrait reproduit",
+      "createur": "Daniel Jones Mathama",
+      "periode": "1962",
+      "sources": [
+        "S60"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia fr) : à confirmer avec une notice bibliographique."
+      }
+    },
+    {
+      "id": "GQ-oeuvre-leyendas",
+      "titre": "Leyendas guineanas (1981)",
+      "type": "livre",
+      "description": "Recueil de huit légendes collectées par Raquel Ilonbé dans des lieux reculés du pays, présenté comme le premier livre pour enfants du pays. Il se rattache à la mémoire orale équatoguinéenne.",
+      "institution": "œuvre publiée (1981) ; notice Wikipédia fr",
+      "url_notice": "https://fr.wikipedia.org/wiki/Litt%C3%A9rature_de_la_Guin%C3%A9e_%C3%A9quatoriale",
+      "droits": "œuvre protégée : seule la notice est référencée, aucun extrait reproduit",
+      "createur": "Raquel Ilonbé",
+      "periode": "1981",
+      "sources": [
+        "S60"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia fr) : à confirmer."
+      }
+    },
+    {
+      "id": "GQ-oeuvre-o-boriba",
+      "titre": "O Boriba (l'exilé), 1982",
+      "type": "livre",
+      "description": "Recueil de poèmes de Juan Balboa Boneke, qui mêle l'espagnol à des mots en bubi, sa langue maternelle, et en inclut même entièrement. Il parle d'exil et de la souffrance du peuple bubi pendant la dictature.",
+      "institution": "œuvre publiée (1982) ; notice Wikipédia fr",
+      "url_notice": "https://fr.wikipedia.org/wiki/Litt%C3%A9rature_de_la_Guin%C3%A9e_%C3%A9quatoriale",
+      "droits": "œuvre protégée : seule la notice est référencée, aucun extrait reproduit",
+      "createur": "Juan Balboa Boneke",
+      "periode": "1982",
+      "sources": [
+        "S60",
+        "S68"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GQ-oeuvre-antologia",
+      "titre": "Antología de la literatura guineana (1984)",
+      "type": "livre",
+      "description": "Première anthologie de la littérature équatoguinéenne en espagnol, réunie par Donato Ndongo-Bidyogo. Elle rassemble poésie et prose, publiées ou non, et a longtemps servi de point d'entrée à ce corpus. Casa África la considère comme l'œuvre fondatrice de la littérature guinéenne en espagnol.",
+      "institution": "œuvre publiée ; notice Casa África",
+      "url_notice": "https://www.casafrica.es/es/persona/donato-ndongo",
+      "droits": "œuvre protégée : seule la notice est référencée, aucun extrait reproduit",
+      "createur": "Donato Ndongo-Bidyogo",
+      "periode": "1984",
+      "sources": [
+        "S41",
+        "S60"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date : 1984 (Casa África) ou 1985 (Wikipédia fr)."
+      }
+    },
+    {
+      "id": "GQ-oeuvre-ekomo",
+      "titre": "Ekomo (1985)",
+      "type": "livre",
+      "description": "Roman de María Nsué Angüe, premier roman publié par une Équatoguinéenne. Il suit Nnanga, une femme fang qui cherche à rompre avec des tabous après la mort de son mari, mais est raconté du point de vue d'un homme, ce qui laisse à l'autrice une grande liberté de critique du monde patriarcal. Casa África le tient pour une œuvre de référence.",
+      "institution": "œuvre publiée ; notice Casa África",
+      "url_notice": "https://www.casafrica.es/es/persona/maria-nsue-angue",
+      "droits": "œuvre protégée : seule la notice est référencée, aucun extrait reproduit",
+      "createur": "María Nsué Angüe",
+      "periode": "1985",
+      "sources": [
+        "S38",
+        "S60",
+        "S61"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GQ-oeuvre-tinieblas",
+      "titre": "Las tinieblas de tu memoria negra (1987)",
+      "type": "livre",
+      "description": "Roman de Donato Ndongo-Bidyogo, traduit en anglais et en français selon Casa África. Il appartient à la littérature de l'exil née après l'indépendance et à la réflexion sur la mémoire de l'Afrique centrale.",
+      "institution": "œuvre publiée ; notice Casa África",
+      "url_notice": "https://www.casafrica.es/es/persona/donato-ndongo",
+      "droits": "œuvre protégée : seule la notice est référencée, aucun extrait reproduit",
+      "createur": "Donato Ndongo-Bidyogo",
+      "periode": "1987",
+      "sources": [
+        "S41"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le résumé est général : le contenu du roman n'a pas été lu dans une source ouverte."
+      }
+    },
+    {
+      "id": "GQ-oeuvre-cuentos-1992",
+      "titre": "Cuentos annoboneses et Cuentos bubis de Guinea Ecuatorial (1992)",
+      "type": "livre",
+      "description": "Deux recueils de contes publiés à Malabo en 1992 par Jacint Creus, Maria-Antonia Brunat et Pilar Carulla, dans le cadre de programmes de coopération culturelle. Ils complètent deux volumes consacrés aux contes ndowe et fang. Le compte rendu de Valérie De Wulf souligne le caractère représentatif et évolutif de ces récits oraux.",
+      "institution": "œuvre publiée ; compte rendu Persée",
+      "url_notice": "https://www.persee.fr/doc/cea_0008-0055_1995_num_35_138_1467_t1_0688_0000_2",
+      "droits": "œuvre protégée : seule la notice est référencée, aucun extrait reproduit",
+      "createur": "Jacint Creus, Maria-Antonia Brunat, Pilar Carulla",
+      "communaute": "Annobonais, Bubi",
+      "periode": "1992",
+      "sensible": true,
+      "note_sensibilite": "Contes issus de communautés : à valider avec les communautés annobonaises et bubi.",
+      "sources": [
+        "S34"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GQ-oeuvre-by-night",
+      "titre": "By Night the Mountain Burns (2014)",
+      "type": "livre",
+      "description": "Premier roman de Juan Tomás Ávila Laurel publié en anglais, finaliste du Independent Foreign Fiction Prize 2015 d'après Wikipédia (en). Il s'inspire de son enfance sur l'île d'Annobón. Casa África le décrit comme un écrivain prolifique et critique de la situation sociopolitique de son pays.",
+      "institution": "œuvre publiée (And Other Stories) ; notice Casa África",
+      "url_notice": "https://www.casafrica.es/es/persona/juan-tomas-avila-laurel",
+      "droits": "œuvre protégée : seule la notice est référencée, aucun extrait reproduit",
+      "createur": "Juan Tomás Ávila Laurel",
+      "periode": "2014 (traduction anglaise)",
+      "sources": [
+        "S74",
+        "S43"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Titre original espagnol non vérifié dans les sources ouvertes."
+      }
+    },
+    {
+      "id": "GQ-oeuvre-la-bastarda",
+      "titre": "La Bastarda (2016)",
+      "type": "livre",
+      "description": "Roman de Trifonia Melibea Obono, premier roman d'une Équatoguinéenne traduit en anglais. Il donne la parole à un tabou, l'homosexualité, dans le contexte fang. Casa África le cite parmi ses principales œuvres.",
+      "institution": "œuvre publiée ; notice Casa África",
+      "url_notice": "https://www.casafrica.es/es/persona/trifonia-melibea-obono",
+      "droits": "œuvre protégée : seule la notice est référencée, aucun extrait reproduit",
+      "createur": "Trifonia Melibea Obono",
+      "periode": "2016",
+      "sensible": true,
+      "note_sensibilite": "Sujet sensible : livre interdit dans le pays selon Wikipédia (en).",
+      "sources": [
+        "S39",
+        "S62"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "GQ-oeuvre-hymne",
+      "titre": "Caminemos pisando las sendas de nuestra inmensa felicidad (hymne national)",
+      "type": "musique",
+      "description": "Hymne national adopté en 1968, au moment de l'indépendance, avec des paroles d'Atanasio Ndongo Miyone. Le pays a pour devise Unidad, Paz, Justicia. Le titre se traduit par « Marchons en foulant les chemins de notre bonheur immense ».",
+      "institution": "symbole de l'État ; notice Wikipédia fr",
+      "url_notice": "https://fr.wikipedia.org/wiki/Guin%C3%A9e_%C3%A9quatoriale",
+      "droits": "œuvre protégée : seule la notice est référencée, aucun extrait reproduit",
+      "createur": "Atanasio Ndongo Miyone (paroles)",
+      "periode": "1968",
+      "sources": [
+        "S47",
+        "S49",
+        "S78"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le compositeur de la musique n'est pas indiqué dans les pages ouvertes."
+      }
+    },
+    {
+      "id": "GQ-oeuvre-teresa",
+      "titre": "Teresa (film, 2010)",
+      "type": "film",
+      "description": "Moyen métrage de 34 minutes sur trois adolescents, réalisé par Juan Pablo Ebang Esono sur un scénario de Guillermina Mekuy. Wikipédia (fr) cite Ebang Esono parmi les premiers cinéastes du pays dans un contexte où l'industrie du cinéma était presque inexistante.",
+      "institution": "œuvre audiovisuelle ; notice Wikipédia fr",
+      "url_notice": "https://fr.wikipedia.org/wiki/Culture_de_la_Guin%C3%A9e_%C3%A9quatoriale",
+      "droits": "œuvre protégée : seule la notice est référencée, aucun extrait reproduit",
+      "createur": "Juan Pablo Ebang Esono (réalisation)",
+      "periode": "2010",
+      "sources": [
+        "S49",
+        "S65"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source Wikipédia seulement : à confirmer par une notice de film."
+      }
+    }
+  ],
+  "proverbes": [],
+  "sources": [
+    {
+      "id": "S1",
+      "titre": "Population, total — Equatorial Guinea (SP.POP.TOTL)",
+      "institution": "Banque mondiale",
+      "url": "https://api.worldbank.org/v2/country/GNQ/indicator/SP.POP.TOTL?format=json&date=2020:2025",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S2",
+      "titre": "Surface area (sq. km) — Equatorial Guinea (AG.SRF.TOTL.K2)",
+      "institution": "Banque mondiale",
+      "url": "https://api.worldbank.org/v2/country/GNQ/indicator/AG.SRF.TOTL.K2?format=json&date=2020:2024",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S3",
+      "titre": "Equatorial Guinea — États parties à la Convention du patrimoine mondial",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/statesparties/gq",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S4",
+      "titre": "Equatorial Guinea — Patrimoine culturel immatériel",
+      "institution": "UNESCO — Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/state/equatorial-guinea-GQ",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S5",
+      "titre": "Réserve Scientifique de la Caldera de Luba (Liste indicative, réf. 6945)",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/6945/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S6",
+      "titre": "Réserve naturelle d'Annobón (RNA) (Liste indicative, réf. 6946)",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/6946/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S7",
+      "titre": "Parc National de Monte Alén (Liste indicative, réf. 7004)",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/7004/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S8",
+      "titre": "Parc National de Pico Basilé (Liste indicative, réf. 7005)",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/7005/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S9",
+      "titre": "Église néogothique de Batete (Liste indicative, réf. 7006)",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/7006/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S10",
+      "titre": "L'île de Corisco (Mandji) (Liste indicative, réf. 7007)",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/7007/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S11",
+      "titre": "Tentative Lists — Equatorial Guinea (6 sites, révision du 14/04/2026)",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/?action=listtentative&state=gq",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S12",
+      "titre": "Glottolog 5.4 — Fang (Equatorial Guinea) (fang1246)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/fang1246",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S13",
+      "titre": "Glottolog 5.4 — Kwasio (kwas1243)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/kwas1243",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S14",
+      "titre": "Glottolog 5.4 — Benga (beng1282)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/beng1282",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S15",
+      "titre": "Glottolog 5.4 — Batanga (bata1285)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/bata1285",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S16",
+      "titre": "Glottolog 5.4 — Annobonese (Fa d'Ambu) (fada1250)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/fada1250",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S17",
+      "titre": "Glottolog 5.4 — Bube (Bubi) (bube1242)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/bube1242",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S18",
+      "titre": "Glottolog 5.4 — Pichi (Equatorial Guinean Pidgin) (fern1234)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/fern1234",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S19",
+      "titre": "Glottolog 5.4 — Ngumbi (Kombe) (ngum1255)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/ngum1255",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S20",
+      "titre": "Glottolog 5.4 — Seki (seki1238)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/seki1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S21",
+      "titre": "Glottolog 5.4 — Gyele (gyel1242)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/gyel1242",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S22",
+      "titre": "Glottolog 5.4 — Yasa (yasa1242)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/yasa1242",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S23",
+      "titre": "Glottolog 5.4 — Molengue (mole1238)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/mole1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S24",
+      "titre": "Glottolog 5.4 — Spanish (stan1288)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1288",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S25",
+      "titre": "Glottolog 5.4 — French (stan1290)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1290",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S26",
+      "titre": "Glottolog 5.4 — Portuguese (port1283)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/port1283",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S27",
+      "titre": "Guinée équatoriale. Populations. Bibliographie.",
+      "institution": "Persée — Journal de la Société des Africanistes",
+      "url": "https://www.persee.fr/doc/jafr_0037-9166_1972_num_42_2_1951",
+      "type": "article_scientifique",
+      "licence": "accès libre (Persée)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Max Liniger-Goumaz",
+      "annee": 1972
+    },
+    {
+      "id": "S28",
+      "titre": "Elobey Grande, un différend frontalier franco-espagnol",
+      "institution": "Persée — Mélanges de la Casa de Velázquez",
+      "url": "https://www.persee.fr/doc/casa_0076-230x_1989_num_25_1_2554",
+      "type": "article_scientifique",
+      "licence": "accès libre (Persée)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Jean-Christophe Mabire",
+      "annee": 1989
+    },
+    {
+      "id": "S29",
+      "titre": "La Guinée espagnole",
+      "institution": "Persée — Revue française de science politique",
+      "url": "https://www.persee.fr/doc/rfsp_0035-2950_1963_num_13_3_392733",
+      "type": "article_scientifique",
+      "licence": "accès libre (Persée)",
+      "consulte_le": "2026-11-21",
+      "auteur": "René Pélissier",
+      "annee": 1963
+    },
+    {
+      "id": "S30",
+      "titre": "Reivindicación política y particularismo en Annobón",
+      "institution": "Persée — Lusotopie",
+      "url": "https://www.persee.fr/doc/luso_1257-0273_1995_num_2_1_990",
+      "type": "article_scientifique",
+      "licence": "accès libre (Persée)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Iñaki Gorozpe",
+      "annee": 1995
+    },
+    {
+      "id": "S31",
+      "titre": "Perrois (Louis) : La Statuaire fang, Gabon (compte rendu)",
+      "institution": "Persée — Revue française d'histoire d'outre-mer",
+      "url": "https://www.persee.fr/doc/outre_0300-9513_1974_num_61_222_1747_t1_0164_0000_2",
+      "type": "article_scientifique",
+      "licence": "accès libre (Persée)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Christian Merlo",
+      "annee": 1974
+    },
+    {
+      "id": "S32",
+      "titre": "L'épopée Ndzana Ngazogo dans la typologie du Mvet en Afrique centrale",
+      "institution": "Persée — Littérales",
+      "url": "https://www.persee.fr/doc/litra_0989-4322_2002_num_29_1_1662",
+      "type": "article_scientifique",
+      "licence": "accès libre (Persée)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Emmanuel Matateyou",
+      "annee": 2002
+    },
+    {
+      "id": "S33",
+      "titre": "Tsira Ndong Ndoutoume, Le Mvett (compte rendu)",
+      "institution": "Persée — L'Homme",
+      "url": "https://www.persee.fr/doc/hom_0439-4216_1977_num_17_1_367731",
+      "type": "article_scientifique",
+      "licence": "accès libre (Persée)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Pierre Smith",
+      "annee": 1977
+    },
+    {
+      "id": "S34",
+      "titre": "Creus & Brunat, Cuentos Annoboneses de Guinea Ecuatorial (compte rendu)",
+      "institution": "Persée — Cahiers d'études africaines",
+      "url": "https://www.persee.fr/doc/cea_0008-0055_1995_num_35_138_1467_t1_0688_0000_2",
+      "type": "article_scientifique",
+      "licence": "accès libre (Persée)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Valérie De Wulf",
+      "annee": 1995
+    },
+    {
+      "id": "S35",
+      "titre": "Quelques notes sur Fernando Po",
+      "institution": "Persée — Les Cahiers d'Outre-Mer",
+      "url": "https://www.persee.fr/doc/caoum_0373-5834_1952_num_5_18_1790",
+      "type": "article_scientifique",
+      "licence": "accès libre (Persée)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Paul Pélissier",
+      "annee": 1952
+    },
+    {
+      "id": "S36",
+      "titre": "Préhistoire africaine : Perramon Marti, Contribución a la prehistoria y protohistoria de Rio Muni (compte rendu)",
+      "institution": "Persée — Annales ESC",
+      "url": "https://www.persee.fr/doc/ahess_0395-2649_1969_num_24_3_884",
+      "type": "article_scientifique",
+      "licence": "accès libre (Persée)",
+      "consulte_le": "2026-11-21",
+      "auteur": "G.-R. Galy",
+      "annee": 1969
+    },
+    {
+      "id": "S37",
+      "titre": "Equatorial Guinea country profile (dernière mise à jour 11 avril 2023)",
+      "institution": "BBC News",
+      "url": "https://www.bbc.com/news/world-africa-13317174",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S38",
+      "titre": "María Nsue Angüe — fiche personne",
+      "institution": "Casa África (consortium public espagnol)",
+      "url": "https://www.casafrica.es/es/persona/maria-nsue-angue",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S39",
+      "titre": "Trifonia Melibea Obono — fiche personne",
+      "institution": "Casa África (consortium public espagnol)",
+      "url": "https://www.casafrica.es/es/persona/trifonia-melibea-obono",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S40",
+      "titre": "Remei Sipi Mayo — fiche personne",
+      "institution": "Casa África (consortium public espagnol)",
+      "url": "https://www.casafrica.es/es/persona/remei-sipi-mayo",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S41",
+      "titre": "Donato Ndongo — fiche personne",
+      "institution": "Casa África (consortium public espagnol)",
+      "url": "https://www.casafrica.es/es/persona/donato-ndongo",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S42",
+      "titre": "Justo Bolekia Boleká — fiche personne",
+      "institution": "Casa África (consortium public espagnol)",
+      "url": "https://www.casafrica.es/es/persona/justo-bolekia-boleka",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S43",
+      "titre": "Juan Tomás Ávila Laurel — fiche personne",
+      "institution": "Casa África (consortium public espagnol)",
+      "url": "https://www.casafrica.es/es/persona/juan-tomas-avila-laurel",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S44",
+      "titre": "Guillermina Mekuy Mba-Obono — fiche personne",
+      "institution": "Casa África (consortium public espagnol)",
+      "url": "https://www.casafrica.es/es/persona/guillermina-mekuy-mba-obono",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S45",
+      "titre": "Eyema byeri (reliquary guardian figure), 1978.412.441",
+      "institution": "The Metropolitan Museum of Art (Open Access)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/310870",
+      "type": "musee",
+      "licence": "CC0 (notice Open Access)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S46",
+      "titre": "Wikidata — entités des personnalités citées (API wbgetentities : dates et lieux)",
+      "institution": "Wikidata",
+      "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q3088503|Q7294443|Q61499088|Q16642738|Q99669468|Q432020|Q24685671|Q928846|Q3327842|Q5295440|Q2181164|Q732636|Q211936|Q6509700|Q151806|Q6318472|Q581058|Q6740779&props=claims|labels&languages=fr|en&format=json",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S47",
+      "titre": "Guinée équatoriale — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Guin%C3%A9e_%C3%A9quatoriale",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S48",
+      "titre": "Histoire de la Guinée équatoriale — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Histoire_de_la_Guin%C3%A9e_%C3%A9quatoriale",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S49",
+      "titre": "Culture de la Guinée équatoriale — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Culture_de_la_Guin%C3%A9e_%C3%A9quatoriale",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S50",
+      "titre": "Fangs — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Fangs_(peuple)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S51",
+      "titre": "Bubis — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Bubis",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S52",
+      "titre": "Bengas — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Bengas",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S53",
+      "titre": "Langues en Guinée équatoriale — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Langues_en_Guin%C3%A9e_%C3%A9quatoriale",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S54",
+      "titre": "Malabo — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Malabo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S55",
+      "titre": "Bata (Guinée équatoriale) — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Bata_(Guin%C3%A9e_%C3%A9quatoriale)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S56",
+      "titre": "Annobón — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Annob%C3%B3n",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S57",
+      "titre": "Bioko — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Bioko",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S58",
+      "titre": "Mongomo — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Mongomo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S59",
+      "titre": "Cuisine équatoguinéenne — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Cuisine_%C3%A9quato-guin%C3%A9enne",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S60",
+      "titre": "Littérature équatoguinéenne — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Litt%C3%A9rature_de_la_Guin%C3%A9e_%C3%A9quatoriale",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S61",
+      "titre": "María Nsué Angüe — Wikipedia (en)",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mar%C3%ADa_Nsu%C3%A9_Ang%C3%BCe",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S62",
+      "titre": "Trifonia Melibea Obono — Wikipedia (en)",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Trifonia_Melibea_Obono",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S63",
+      "titre": "Remei Sipi — Wikipedia (en)",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Remei_Sipi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S64",
+      "titre": "Trinidad Morgades Besari — Wikipedia (en)",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Trinidad_Morgades_Besari",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S65",
+      "titre": "Guillermina Mekuy — Wikipedia (en)",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Guillermina_Mekuy",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S66",
+      "titre": "Genoveva Añonman — Wikipedia (en)",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Genoveva_A%C3%B1onma",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S67",
+      "titre": "Leoncio Evita — Wikipedia (en)",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Leoncio_Evita",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S68",
+      "titre": "Juan Balboa Boneke — Wikipedia (en)",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Juan_Balboa_Boneke",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S69",
+      "titre": "Donato Ndongo-Bidyogo — Wikipedia (en)",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Donato_Ndongo-Bidyogo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S70",
+      "titre": "Atanasio Ndongo Miyone — Wikipedia (en)",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Atanasio_Ndongo_Miyone",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S71",
+      "titre": "Bonifacio Ondó Edú — Wikipedia (en)",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bonifacio_Ond%C3%B3_Edu",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S72",
+      "titre": "Francisco Macías Nguema — Wikipedia (en)",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Francisco_Mac%C3%ADas_Nguema",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S73",
+      "titre": "Leandro Mbomio Nsue — Wikipedia (en)",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Leandro_Mbomio_Nsue",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S74",
+      "titre": "Juan Tomás Ávila Laurel — Wikipedia (en)",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Juan_Tom%C3%A1s_%C3%81vila_Laurel",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S75",
+      "titre": "Justo Bolekia Boleká — Wikipedia (en)",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Justo_Bolekia_Bolek%C3%A1",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S76",
+      "titre": "Emilio Nsue — Wikipedia (en)",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Emilio_Nsue",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S77",
+      "titre": "Malabo Lopelo Melaka — Wikipedia (en)",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Malabo_Lopelo_Melaka",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S78",
+      "titre": "Music of Equatorial Guinea — Wikipedia (en)",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Equatorial_Guinea",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S79",
+      "titre": "Fernandino people — Wikipedia (en)",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fernandino_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S80",
+      "titre": "Kwasio people (Bujeba) — Wikipedia (en)",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bujeba_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    }
+  ]
+}

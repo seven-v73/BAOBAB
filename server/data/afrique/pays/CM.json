@@ -1,0 +1,4023 @@
+{
+  "code": "CM",
+  "nom": "Cameroun",
+  "region": "centre",
+  "wikidata": "Q1009",
+  "maj": "2026-11-21",
+  "pays": {
+    "nom_officiel": "République du Cameroun",
+    "capitale": "Yaoundé",
+    "langues_officielles": [
+      "français",
+      "anglais"
+    ],
+    "langues_nationales": [
+      "fulfulde (peul)",
+      "ewondo",
+      "douala",
+      "bassa",
+      "boulou",
+      "langues bamilékées",
+      "haoussa",
+      "kanouri",
+      "moundang",
+      "pidgin camerounais (langue véhiculaire)"
+    ],
+    "population": {
+      "valeur": 29879337,
+      "annee": 2025,
+      "source": "S1"
+    },
+    "superficie_km2": 475442,
+    "monnaie": "Franc CFA d'Afrique centrale (XAF, CEMAC)",
+    "resume": "Le Cameroun, à la jonction de l'Afrique centrale et de l'Afrique de l'Ouest, a pour capitale Yaoundé et pour langues officielles le français et l'anglais. On le surnomme « l'Afrique en miniature » pour la diversité de ses paysages, de ses peuples et de ses quelque 300 langues recensées. Son territoire réunit des royaumes des hautes terres de l'Ouest (Bamoun, chefferies bamilékées), des cités côtières sawa, des sociétés forestières du Sud et de l'Est, des lamidats du Nord et des communautés des monts Mandara et du Logone. Placé sous protectorat allemand en 1884, puis divisé en deux territoires administrés par la France et le Royaume-Uni, il devient indépendant le 1er janvier 1960 pour sa partie française ; le Cameroun méridional britannique s'y rattache le 1er octobre 1961. Trois biens sont inscrits au patrimoine mondial (Dja, Sangha, monts Mandara) et quatre éléments au patrimoine immatériel : Nguon, Ngondo, Mvet Oyeng et Guruna.",
+    "sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S7",
+      "S11",
+      "S5"
+    ]
+  },
+  "langues": [
+    {
+      "id": "CM-langue-ewondo",
+      "nom": "Ewondo",
+      "nom_local": "Ewondo",
+      "description": "L'ewondo est la langue des Ewondo de la région du Centre et se parle dans les régions du Centre, de l'Est et du Littoral. Glottolog la range parmi les langues de communication élargie, utilisée dans le commerce. Elle fait partie du groupe béti, avec le boulou ou l'eton, et figure parmi les langues nationales citées dans l'infobox du Cameroun.",
+      "famille": "Atlantic-Congo > Benue-Congo > Bantoïde > Bantu > Basaa-Yaoundé (A40-70) > Yaoundé-Fang > Ewondo-Bébélé",
+      "glottocode": "ewon1239",
+      "statut_linguistique": [
+        "nationale",
+        "véhiculaire"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Centre",
+        "Est",
+        "Littoral"
+      ],
+      "wikidata": "Q35459",
+      "sources": [
+        "S37",
+        "S3",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Statut de langue de communication élargie et classification d'après la notice Glottolog (reprise des données Ethnologue) ; nombre de locuteurs non renseigné faute de source ouverte."
+      }
+    },
+    {
+      "id": "CM-langue-douala",
+      "nom": "Duala",
+      "nom_local": "Duala",
+      "description": "Le duala (ou douala) est la langue des Duala de la côte, autour de l'estuaire du Wouri. Selon Glottolog, une mission s'ouvre à Douala en 1845 et la langue devient, en 1875, une langue de communication pour de nombreux groupes du pays. Elle sert encore de langue véhiculaire à une partie des peuples sawa.",
+      "famille": "Atlantic-Congo > Benue-Congo > Bantoïde > Bantu > Sawabantu > Dualaic",
+      "glottocode": "dual1243",
+      "statut_linguistique": [
+        "nationale",
+        "véhiculaire"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Littoral",
+        "Douala"
+      ],
+      "wikidata": "Q33013",
+      "sources": [
+        "S38",
+        "S54",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Statut de langue de communication élargie et classification d'après la notice Glottolog (reprise des données Ethnologue) ; nombre de locuteurs non renseigné faute de source ouverte."
+      }
+    },
+    {
+      "id": "CM-langue-fulfulde",
+      "nom": "Fulfulde de l'Adamaoua",
+      "nom_local": "Fulfulde",
+      "description": "Le fulfulde, ou peul, est la première langue maternelle du pays selon Wikipédia, et sert de langue véhiculaire dans le centre et le nord. Glottolog précise que le peul de l'Adamaoua arrive au Cameroun en 1805 avec le mouvement religieux parti du nord du Nigeria, et qu'il a d'abord servi de langue de commerce. Il s'écrit aujourd'hui avec l'alphabet latin.",
+      "famille": "Atlantic-Congo > Atlantique centre-nord > Fula-Sereer > Peul oriental (peul de l'Adamaoua-Bagirmi)",
+      "glottocode": "adam1253",
+      "statut_linguistique": [
+        "nationale",
+        "véhiculaire"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Adamaoua",
+        "Nord",
+        "Extrême-Nord"
+      ],
+      "wikidata": "Q34776",
+      "sources": [
+        "S39",
+        "S5",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Graphie latine non explicitement confirmée par les sources ouvertes consultées : à vérifier."
+      }
+    },
+    {
+      "id": "CM-langue-basaa",
+      "nom": "Basaa",
+      "nom_local": "Basaa (Ɓàsàa)",
+      "description": "Le basaa est la langue des Bassa, établis surtout en Sanaga-Maritime, dans le Nyong-et-Kellé et autour de Douala. Il appartient au groupe bantu A40 selon Glottolog, qui lui attribue un statut de langue en développement. Les Bassa sont aussi cités par Wikipédia comme proches des Duala, des Bakoko et des Banen.",
+      "famille": "Atlantic-Congo > Benue-Congo > Bantoïde > Bantu > Basaa-Yaoundé (A40-70) > Basaa (A.40)",
+      "glottocode": "basa1284",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Littoral",
+        "Centre",
+        "Sud"
+      ],
+      "wikidata": "Q33093",
+      "sources": [
+        "S40",
+        "S59",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Statut de langue de communication élargie et classification d'après la notice Glottolog (reprise des données Ethnologue) ; nombre de locuteurs non renseigné faute de source ouverte."
+      }
+    },
+    {
+      "id": "CM-langue-bamoun",
+      "nom": "Bamoun",
+      "nom_local": "Bamum",
+      "description": "Le bamoun est la langue du royaume de Foumban, dans le département du Noun. D'après Glottolog, c'est une langue de communication élargie née sur les hauts plateaux de l'Ouest. Elle a été notée à partir de 1896 par le roi Njoya dans un système d'écriture inventé pour elle, avant de s'écrire aujourd'hui aussi en caractères latins. Wikipédia estime ses locuteurs à 215 000 en 1982.",
+      "famille": "Atlantic-Congo > Benue-Congo > Bantoïde méridional > Grassfields > Mbam-Nkam (Mbam-Nkam sud, Nun)",
+      "glottocode": "bamu1253",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin",
+        "écriture bamoun (Njoya)"
+      ],
+      "regions": [
+        "Ouest",
+        "département du Noun",
+        "Foumban"
+      ],
+      "wikidata": "Q35280",
+      "sources": [
+        "S41",
+        "S36",
+        "S55",
+        "S26"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le nombre de locuteurs (215 000, 1982) vient de Wikipédia et n'est pas repris ici comme chiffre sourcé."
+      }
+    },
+    {
+      "id": "CM-langue-boulou",
+      "nom": "Boulou",
+      "nom_local": "Bulu",
+      "description": "Le boulou est parlé dans le Sud, notamment autour d'Ebolowa, par un peuple du groupe béti-fang. Glottolog indique qu'il s'est répandu au XIXe siècle grâce aux écoles des missions protestantes et qu'il est utilisé à l'église, dans le commerce et l'enseignement. Il est cité parmi les langues nationales de l'infobox Cameroun.",
+      "famille": "Atlantic-Congo > Benue-Congo > Bantoïde > Bantu > Basaa-Yaoundé (A40-70) > Yaoundé-Fang",
+      "glottocode": "bulu1251",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Sud"
+      ],
+      "wikidata": "Q35028",
+      "sources": [
+        "S42",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Statut de langue de communication élargie et classification d'après la notice Glottolog (reprise des données Ethnologue) ; nombre de locuteurs non renseigné faute de source ouverte."
+      }
+    },
+    {
+      "id": "CM-langue-mafa",
+      "nom": "Mafa",
+      "nom_local": "Mafa",
+      "description": "Le mafa est la langue des Mafa des monts Mandara, dans l'Extrême-Nord. C'est une langue tchadique de la branche Biu-Mandara. Glottolog la classe parmi les langues de communication élargie. Le peuple mafa, auquel l'UNESCO attribue la région de Diy-Gid-Biy depuis le XVe siècle, est aujourd'hui engagé dans des actions de promotion de sa langue auprès des jeunes (Wikipédia).",
+      "famille": "Afro-asiatique > Tchadique > Biu-Mandara > Matakam",
+      "glottocode": "mafa1239",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Extrême-Nord",
+        "monts Mandara"
+      ],
+      "wikidata": "Q35819",
+      "sources": [
+        "S43",
+        "S57",
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Statut de langue de communication élargie et classification d'après la notice Glottolog (reprise des données Ethnologue) ; nombre de locuteurs non renseigné faute de source ouverte."
+      }
+    },
+    {
+      "id": "CM-langue-baka",
+      "nom": "Baka",
+      "nom_local": "Baka",
+      "description": "Le baka est la langue des Baka, chasseurs-cueilleurs des forêts du Sud-Est. Glottolog la classe en langue menacée (vulnérable) : la transmission aux enfants reste solide, mais presque tous les locuteurs sont bilingues avec la langue majoritaire de leur voisinage. Elle appartient au groupe oubanguien, très éloigné des langues bantu voisines.",
+      "famille": "Atlantic-Congo > Cameroun-Oubangui > Oubanguien > Mundu-Baka (complexe baka)",
+      "glottocode": "baka1272",
+      "statut_linguistique": [
+        "minoritaire",
+        "menacée"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Est",
+        "Sud-Est",
+        "réserve de faune du Dja"
+      ],
+      "wikidata": "Q34905",
+      "sources": [
+        "S44",
+        "S56",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Statut de langue de communication élargie et classification d'après la notice Glottolog (reprise des données Ethnologue) ; nombre de locuteurs non renseigné faute de source ouverte."
+      }
+    },
+    {
+      "id": "CM-langue-ghomala",
+      "nom": "Ghomala'",
+      "nom_local": "Ghomálá'",
+      "description": "Le ghomala' est l'une des langues bamilékées de l'Ouest, parlée notamment autour de Baham, Bandjoun et Bafoussam d'après Wikipédia. Glottolog la range dans le bamiléké de l'Est, avec un statut en développement. Elle a des variantes locales très vivantes.",
+      "famille": "Atlantic-Congo > Bantoïde méridional > Grassfields > Mbam-Nkam > bamiléké (est)",
+      "glottocode": "ghom1247",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Ouest",
+        "Bandjoun",
+        "Baham"
+      ],
+      "wikidata": "Q35271",
+      "sources": [
+        "S45",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Statut de langue de communication élargie et classification d'après la notice Glottolog (reprise des données Ethnologue) ; nombre de locuteurs non renseigné faute de source ouverte."
+      }
+    },
+    {
+      "id": "CM-langue-nufi",
+      "nom": "Fe'fe' (nufi)",
+      "nom_local": "Fe'fe'",
+      "description": "Le fe'fe' (ou nufi) est une autre langue bamiléké de l'Est, parlée autour de Bafang dans le Haut-Nkam. Glottolog la décrit comme une langue en développement. Wikipédia la cite parmi les langues bamilékées au côté du ghomala' et du medumba.",
+      "famille": "Atlantic-Congo > Bantoïde méridional > Grassfields > Mbam-Nkam > bamiléké (est)",
+      "glottocode": "fefe1239",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Ouest",
+        "Haut-Nkam"
+      ],
+      "wikidata": "Q35276",
+      "sources": [
+        "S46",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Localisation (Bafang, Haut-Nkam) à confirmer : seule la page Culture du Cameroun de Wikipédia associe le nom nufi à Bafang."
+      }
+    },
+    {
+      "id": "CM-langue-medumba",
+      "nom": "Medumba",
+      "nom_local": "Medumba",
+      "description": "Le medumba est une langue grassfields d'origine du département du Ndé, dans l'Ouest, selon Glottolog. Les missionnaires protestants l'ont utilisée comme langue d'église au début du XXe siècle. Elle est classée parmi les langues de communication élargie.",
+      "famille": "Atlantic-Congo > Bantoïde méridional > Grassfields > Mbam-Nkam > bamiléké (sud-est)",
+      "glottocode": "medu1238",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Ouest",
+        "Ndé"
+      ],
+      "wikidata": "Q36019",
+      "sources": [
+        "S48",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Statut de langue de communication élargie et classification d'après la notice Glottolog (reprise des données Ethnologue) ; nombre de locuteurs non renseigné faute de source ouverte."
+      }
+    },
+    {
+      "id": "CM-langue-pidgin",
+      "nom": "Pidgin camerounais",
+      "nom_local": "Pidgin English",
+      "description": "Le pidgin camerounais est une langue de contact à base anglaise, née le long de la côte ouest-africaine vers 1800 et utilisée d'abord pour le commerce. Glottolog le décrit comme la langue véhiculaire la plus répandue du pays. Wikipédia ajoute qu'il sert de langue de communication entre commerçants et que la jeunesse urbaine a aussi créé le camfranglais.",
+      "famille": "Créole à base anglaise (Guinea Coast Creole English), famille indo-européenne (germanique)",
+      "glottocode": "came1254",
+      "statut_linguistique": [
+        "véhiculaire"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Sud-Ouest",
+        "Nord-Ouest",
+        "Littoral",
+        "villes"
+      ],
+      "wikidata": "Q35541",
+      "sources": [
+        "S47",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Statut de langue de communication élargie et classification d'après la notice Glottolog (reprise des données Ethnologue) ; nombre de locuteurs non renseigné faute de source ouverte."
+      }
+    },
+    {
+      "id": "CM-langue-tupuri",
+      "nom": "Tupuri",
+      "nom_local": "Tupuri",
+      "description": "Le tupuri est une langue du Mayo-Kani et du Logone, dans l'Extrême-Nord, parlée aussi au Tchad. Elle appartient au groupe Mbum du nord et Glottolog lui attribue un statut en développement. Elle fait partie de l'ensemble des langues de la plaine du Logone, avec le massa et le moundang.",
+      "famille": "Atlantic-Congo > Cameroun-Oubangui > Mbum (nord) > Tupuri-Mundang-Mambai",
+      "glottocode": "tupu1244",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Extrême-Nord"
+      ],
+      "wikidata": "Q36646",
+      "sources": [
+        "S49",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Zones de parler (Mayo-Kani, Tchad) non confirmées dans les sources ouvertes ; seule la classification Glottolog est établie."
+      }
+    },
+    {
+      "id": "CM-langue-masana",
+      "nom": "Masana (massa)",
+      "nom_local": "Masana",
+      "description": "Le masana est la langue des Massa, éleveurs des plaines inondables du Logone, de part et d'autre de la frontière avec le Tchad. C'est une langue tchadique du groupe Masa. Glottolog lui attribue un statut en développement. Les Massa sont aussi à l'origine de la pratique du Guruna inscrite à l'UNESCO.",
+      "famille": "Afro-asiatique > Tchadique > Masa (nord)",
+      "glottocode": "masa1322",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Extrême-Nord",
+        "Mayo-Danay"
+      ],
+      "wikidata": "Q56668",
+      "sources": [
+        "S50",
+        "S58",
+        "S14"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Statut de langue de communication élargie et classification d'après la notice Glottolog (reprise des données Ethnologue) ; nombre de locuteurs non renseigné faute de source ouverte."
+      }
+    },
+    {
+      "id": "CM-langue-francais",
+      "nom": "Français",
+      "nom_local": "Français",
+      "description": "Le français est l'une des deux langues officielles du Cameroun. Huit des dix régions ont une majorité francophone, selon Wikipédia, qui cite pour 2005 environ 57,7 % des 12 ans et plus capables de s'exprimer en français. Cette présence est un héritage de la tutelle française exercée de 1916-1919 à 1960.",
+      "famille": "Indo-européen > Roman",
+      "glottocode": "stan1290",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "tout le pays",
+        "huit régions majoritairement francophones"
+      ],
+      "wikidata": "Q150",
+      "sources": [
+        "S51",
+        "S5",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Statistiques de 2005 à actualiser."
+      }
+    },
+    {
+      "id": "CM-langue-anglais",
+      "nom": "Anglais",
+      "nom_local": "English",
+      "description": "L'anglais est l'autre langue officielle du Cameroun, majoritaire dans les régions du Nord-Ouest et du Sud-Ouest. Wikipédia cite 24,1 % des 12 ans et plus déclarant le parler au recensement de 2005. Il vient de la période du Cameroun britannique, de 1922 à 1961.",
+      "famille": "Indo-européen > Germanique",
+      "glottocode": "stan1293",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Nord-Ouest",
+        "Sud-Ouest"
+      ],
+      "wikidata": "Q1860",
+      "sources": [
+        "S52",
+        "S5",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Statistiques de 2005 à actualiser."
+      }
+    }
+  ],
+  "peuples": [
+    {
+      "id": "CM-peuple-sawa",
+      "nom": "Sawa (Duala et peuples côtiers)",
+      "description": "Sawa est le nom d'un ensemble de populations bantu du littoral, parmi lesquelles les Duala, établies sur la côte et dans les régions voisines du Littoral, du Sud-Ouest et du Sud. Wikipédia relève que ces groupes se reconnaissent une appartenance commune, même si ses fondements historiques sont parfois flous. Chaque année, le Ngondo, inscrit à l'UNESCO en 2024, rassemble les Sawa autour des oracles de l'eau.",
+      "langues": [
+        "duala",
+        "basaa",
+        "bakweri"
+      ],
+      "regions": [
+        "Littoral",
+        "Sud-Ouest",
+        "Douala"
+      ],
+      "organisation": "Chefferies de quartier réunies par l'assemblée du Ngondo, à la fois tribunal traditionnel et lieu de résistance sous la colonisation (Osidimbea).",
+      "activites": [
+        "pêche",
+        "commerce fluvial et côtier",
+        "artisanat"
+      ],
+      "pays_partages": [
+        "GQ"
+      ],
+      "sources": [
+        "S54",
+        "S15",
+        "S25"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Pays partagé GQ : Wikipédia cite les Batanga et les Yassa sur la côte de Guinée équatoriale ; à confirmer avec une source scientifique."
+      }
+    },
+    {
+      "id": "CM-peuple-bamoun",
+      "nom": "Bamoun",
+      "description": "Les Bamoun vivent à l'ouest du Cameroun, dans le département du Noun, autour de Foumban, au sein d'un royaume dont Wikipédia fait remonter la fondation à 1394 et dont l'UNESCO souligne l'ancienneté des rituels de gouvernance (Nguon, plus de six cents ans). Leur roi Njoya a doté la langue bamoun d'une écriture entre 1896 et 1910. Les Bamoun vivent aujourd'hui d'artisanat, de commerce et d'agriculture.",
+      "langues": [
+        "bamoun"
+      ],
+      "regions": [
+        "Ouest",
+        "Noun",
+        "Foumban"
+      ],
+      "organisation": "Royaume dirigé par un Mfon (roi), dont le mandat est évalué tous les deux ans lors des rituels Nguon, d'après l'UNESCO.",
+      "activites": [
+        "artisanat",
+        "commerce",
+        "agriculture"
+      ],
+      "sources": [
+        "S55",
+        "S16",
+        "S26",
+        "S36",
+        "S41"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CM-peuple-bamileke",
+      "nom": "Bamilékés (peuples du Grassland)",
+      "description": "Le terme bamiléké désigne depuis l'époque allemande les habitants des hautes terres de l'Ouest, répartis en sept départements et une centaine de chefferies selon Wikipédia, qui note que ces peuples ne se désignent pas eux-mêmes ainsi. Ils parlent des langues apparentées comme le ghomala', le fe'fe', le medumba ou le yemba. Leurs chefferies, comme celle de Bandjoun, sont des ensembles de cases royales et de places publiques, tandis que les chefs sont les gardiens d'arts et de savoirs.",
+      "langues": [
+        "ghomala'",
+        "fe'fe'",
+        "medumba",
+        "yemba"
+      ],
+      "regions": [
+        "Ouest",
+        "Bamboutos",
+        "Haut-Nkam",
+        "Mifi",
+        "Ndé",
+        "Menoua"
+      ],
+      "organisation": "Chefferies dirigées par un fo (chef), d'après Wikipédia.",
+      "activites": [
+        "agriculture",
+        "commerce",
+        "artisanat"
+      ],
+      "sources": [
+        "S53",
+        "S61",
+        "S45",
+        "S48",
+        "S46"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Les pages Wikipédia sur l'origine des Bamilékés (migrations depuis l'Égypte ou la Nubie) relèvent de traditions orales discutées : non reprises ici."
+      }
+    },
+    {
+      "id": "CM-peuple-beti-fang",
+      "nom": "Ekang : Béti, Boulou, Eton, Ewondo (Fang-Béti)",
+      "description": "Les Ekang rassemblent des communautés du sud du Cameroun comme les Ewondo, les Boulou et les Eton, ainsi que, au-delà de la frontière, des Fang. L'UNESCO les cite pour le Mvet Oyeng, une tradition de chant épique accompagnée d'un instrument à cordes, présente au Cameroun, au Gabon et au Congo. Les frontières coloniales ont séparé des communautés fang-béti vivant au Cameroun et au Gabon (Wikipédia).",
+      "langues": [
+        "ewondo",
+        "boulou",
+        "eton",
+        "fang"
+      ],
+      "regions": [
+        "Centre",
+        "Sud",
+        "Est"
+      ],
+      "organisation": "Société à lignages et chefs de village ; au début du XXe siècle, l'administration allemande a nommé Charles Atangana chef des Ewondo et des Bané, selon Wikipédia.",
+      "activites": [
+        "agriculture",
+        "musique et récit épique"
+      ],
+      "pays_partages": [
+        "GA",
+        "CG"
+      ],
+      "sources": [
+        "S13",
+        "S3",
+        "S37",
+        "S42"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Pays partagés : Gabon et Congo, d'après la fiche UNESCO du Mvet Oyeng."
+      }
+    },
+    {
+      "id": "CM-peuple-peul",
+      "nom": "Peuls (Fulbe)",
+      "description": "Les Peuls du Cameroun, installés surtout dans l'Adamaoua et le Nord, sont des éleveurs devenus aussi chefs de lamidats. D'après Glottolog, leur langue arrive dans le pays en 1805 avec le mouvement religieux venu du nord du Nigeria, puis devient une langue de commerce. Wikipédia y voit la première langue maternelle du Cameroun, avec 21 % de la population.",
+      "langues": [
+        "fulfulde"
+      ],
+      "regions": [
+        "Adamaoua",
+        "Nord",
+        "Extrême-Nord"
+      ],
+      "organisation": "Lamidats dirigés par un lamido, à la fois chef politique et religieux (Wikipédia, histoire du Cameroun).",
+      "activites": [
+        "élevage",
+        "commerce"
+      ],
+      "sources": [
+        "S4",
+        "S39",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CM-peuple-baka",
+      "nom": "Baka",
+      "description": "Les Baka sont des communautés de chasseurs-cueilleurs des forêts du sud-est du Cameroun, qui vivent aussi au Congo, au Gabon et en Centrafrique. Longtemps nomades, ils se sont installés depuis les années 1950 le long des pistes forestières, tout en conservant des campements en forêt aux saisons de fructification. La notice UNESCO de la réserve du Dja signale la présence de Baka dans cette forêt classée.",
+      "langues": [
+        "baka"
+      ],
+      "regions": [
+        "Est",
+        "Sud-Est",
+        "réserve de faune du Dja"
+      ],
+      "organisation": "Groupes de campement en forêt, en échange régulier avec leurs voisins agriculteurs bantu (Wikipédia).",
+      "activites": [
+        "chasse",
+        "cueillette",
+        "pêche"
+      ],
+      "pays_partages": [
+        "CG",
+        "GA",
+        "CF"
+      ],
+      "sources": [
+        "S56",
+        "S8",
+        "S44"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Le terme « pygmées » est jugé péjoratif ; la situation foncière et les relations avec les aires protégées sont un sujet sensible. À valider avec des organisations baka."
+    },
+    {
+      "id": "CM-peuple-mafa",
+      "nom": "Mafa",
+      "description": "Les Mafa habitent les monts Mandara, dans l'Extrême-Nord. L'UNESCO situe leur présence dans la région du paysage Diy-Gid-Biy depuis le XVe siècle, au milieu de terrasses agricoles, de maisons, de tombes et de lieux de culte. Leur société distingue, d'après Wikipédia, les cultivateurs et les forgerons, ces derniers jouant un rôle central dans les rites funéraires.",
+      "langues": [
+        "mafa"
+      ],
+      "regions": [
+        "Extrême-Nord",
+        "monts Mandara",
+        "Mokolo"
+      ],
+      "organisation": "Société à clans, distinguant cultivateurs et forgerons (Wikipédia).",
+      "activites": [
+        "agriculture en terrasses",
+        "forge",
+        "poterie"
+      ],
+      "pays_partages": [
+        "NG"
+      ],
+      "sources": [
+        "S10",
+        "S57",
+        "S43"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Le nom « Matakam » est contesté par certains Mafa (Wikipédia) ; les croyances et funérailles évoquées sont des savoirs communautaires à valider avec les intéressés."
+    },
+    {
+      "id": "CM-peuple-massa",
+      "nom": "Massa",
+      "description": "Les Massa sont des éleveurs de bovins, aussi agriculteurs et pêcheurs, des plaines inondables du Logone, au Cameroun (Mayo-Danay) et au Tchad. Chaque année, les jeunes et les hommes partent avec leurs troupeaux dans un camp pour le Guruna, une retraite d'apprentissage inscrite par l'UNESCO en 2025.",
+      "langues": [
+        "masana"
+      ],
+      "regions": [
+        "Extrême-Nord",
+        "Mayo-Danay"
+      ],
+      "organisation": "Lignages patrilinéaires ; avant la colonisation française, société sans chef unique, conduite par un conseil des chefs de famille (Wikipédia).",
+      "activites": [
+        "élevage bovin",
+        "agriculture",
+        "pêche"
+      ],
+      "pays_partages": [
+        "TD"
+      ],
+      "sources": [
+        "S14",
+        "S58",
+        "S50"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CM-peuple-bassa",
+      "nom": "Bassa (Basaa)",
+      "description": "Les Bassa, ou Basaa, sont un peuple bantu du Littoral, du Centre et du Sud, présents notamment en Sanaga-Maritime, dans le Nkam et dans le Nyong-et-Kéllé. Leur lieu d'origine est rattaché dans leurs traditions à Ngog Lituba, d'après Wikipédia. Ruben Um Nyobè, figure de l'UPC, était issu de leur pays.",
+      "langues": [
+        "basaa"
+      ],
+      "regions": [
+        "Littoral",
+        "Centre",
+        "Sud"
+      ],
+      "organisation": "Lignages et sous-groupes issus du lieu mythique de Ngog Lituba (Wikipédia).",
+      "activites": [
+        "agriculture"
+      ],
+      "sources": [
+        "S59",
+        "S40",
+        "S17"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CM-peuple-tikar",
+      "nom": "Tikar",
+      "description": "Les Tikar vivent dans le centre du Cameroun, à l'est des Bamoun et au sud du plateau de l'Adamaoua, dans la plaine du Mbam. Wikipédia rappelle plusieurs versions de leur origine, par la migration depuis le nord ou par le plateau de l'Adamaoua. Le Met range dans un « groupe tikar » les Kom, auteurs d'un cimier de mascarade du XIXe siècle conservé à New York.",
+      "langues": [
+        "tikar"
+      ],
+      "regions": [
+        "Centre",
+        "Nord-Ouest",
+        "plaine Tikar"
+      ],
+      "organisation": "Chefferies de la plaine tikar (Wikipédia).",
+      "activites": [
+        "agriculture",
+        "artisanat"
+      ],
+      "sources": [
+        "S60",
+        "S106"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Origines évoquées par Wikipédia : traditions orales, à ne pas citer comme faits établis."
+      }
+    }
+  ],
+  "sites": [
+    {
+      "id": "CM-site-dja",
+      "nom": "Réserve de faune du Dja",
+      "type": "patrimoine_mondial",
+      "description": "Créée en 1950, la réserve du Dja fait partie des forêts denses humides du bassin du Congo et couvre près de 526 000 hectares. Le fleuve Dja l'entoure presque entièrement, ce qui lui sert de limite naturelle, et 90 % de sa surface était encore intacte à l'inscription. La notice UNESCO y relève une grande variété de primates et plus de cent espèces de mammifères, dont le gorille de plaine de l'ouest, le chimpanzé et l'éléphant de forêt. Des Baka vivent dans cette forêt.",
+      "regions": [
+        "bassin du Congo"
+      ],
+      "wikidata": "Q843147",
+      "unesco_id": "407",
+      "inscription": 1987,
+      "coordonnees": {
+        "lat": 3.0167,
+        "lng": 12.9833
+      },
+      "sources": [
+        "S8",
+        "S2",
+        "S56"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées reprises de la graine Wikidata/UNESCO."
+      }
+    },
+    {
+      "id": "CM-site-sangha",
+      "nom": "Trinational de la Sangha",
+      "type": "patrimoine_mondial",
+      "description": "Ce bien transfrontalier réunit trois parcs nationaux contigus, d'environ 750 000 hectares au total, au point de rencontre du Cameroun, de la République centrafricaine et du Congo. La notice UNESCO le décrit comme peu touché par l'activité humaine, avec toute la gamme des forêts tropicales humides, des clairières, des crocodiles du Nil et des éléphants de forêt. Il abrite aussi le gorille de plaine de l'ouest, en danger critique, et le chimpanzé.",
+      "regions": [
+        "bassin du Congo"
+      ],
+      "wikidata": "Q2580451",
+      "unesco_id": "1380rev",
+      "inscription": 2012,
+      "coordonnees": {
+        "lat": 2.666666666,
+        "lng": 16.333333333
+      },
+      "sources": [
+        "S9",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Site partagé avec la RCA et le Congo ; coordonnées de la graine, sans doute au milieu de l'ensemble transfrontalier."
+      }
+    },
+    {
+      "id": "CM-site-diy-gid-biy",
+      "nom": "Paysage culturel Diy-Gid-Biy des monts Mandara",
+      "type": "patrimoine_mondial",
+      "description": "Dans l'Extrême-Nord, ce bien rassemble seize sites archéologiques répartis dans sept villages. Diy-Gid-Biy signifie « ruine de la demeure du chef » en mafa. Ces structures en pierres sèches, probablement bâties entre le XIIe et le XVIIe siècle, sont liées à des terrasses agricoles, des habitations, des tombes et des lieux de culte. Leurs constructeurs d'origine restent inconnus, et les Mafa habitent la région depuis le XVe siècle.",
+      "regions": [
+        "Extrême-Nord",
+        "monts Mandara"
+      ],
+      "wikidata": "Q5285004",
+      "unesco_id": "1745",
+      "inscription": 2025,
+      "coordonnees": {
+        "lat": 10.91666667,
+        "lng": 13.83333333
+      },
+      "periode": "XIIe-XVIIe siècle",
+      "sources": [
+        "S10",
+        "S2",
+        "S57"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Le paysage comprend des tombes et des lieux de culte encore liés à des communautés mafa : à valider avec elles et avec les institutions partenaires."
+    },
+    {
+      "id": "CM-site-shum-laka",
+      "nom": "Grotte de Shum Laka",
+      "type": "site_archeologique",
+      "description": "Cet abri sous roche de 1 200 m², à 1 600 m d'altitude près de Bamenda, a livré des vestiges d'une occupation humaine qui remonte à environ 32 000 ans. Les fouilles ont mis au jour dix-huit squelettes âgés de 8 000 à 3 000 ans, parmi les plus anciens ossements humains de la sous-région. Des analyses génétiques ont rapproché des individus de groupes de chasseurs-cueilleurs de forêt actuels. Le site est inscrit sur la liste indicative du Cameroun.",
+      "regions": [
+        "Nord-Ouest",
+        "Bamenda"
+      ],
+      "wikidata": "Q10667178",
+      "coordonnees": {
+        "lat": 5.85861,
+        "lng": 10.0778
+      },
+      "sources": [
+        "S68",
+        "S12",
+        "S103"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Les 32 000 ans (avant le présent) viennent de Wikipédia ; à confirmer avec une publication de fouille."
+      },
+      "sensible": true,
+      "note_sensibilite": "Restes humains : toute présentation publique doit respecter la sensibilité des communautés concernées."
+    },
+    {
+      "id": "CM-site-chefferie-bandjoun",
+      "nom": "Chefferie de Bandjoun",
+      "type": "monument",
+      "description": "La chefferie de Bandjoun, à Pété-Bandjoun, est le domaine où réside le chef supérieur des Bandjoun, avec ses épouses et ses cases. Elle comprend la forêt royale, une place, des cases et un palais construit au XXe siècle. Un musée y raconte l'histoire de la dynastie et rassemble, selon Wikipédia, près de 400 objets. Son thème est « Forge, art et pouvoir ».",
+      "regions": [
+        "Ouest",
+        "Bandjoun",
+        "pays bamiléké"
+      ],
+      "wikidata": "Q43077462",
+      "coordonnees": {
+        "lat": 5.34949,
+        "lng": 10.40974
+      },
+      "sources": [
+        "S61",
+        "S97"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Les 400 objets viennent de Wikipédia ; à confirmer auprès de la chefferie."
+      }
+    },
+    {
+      "id": "CM-site-musee-dschang",
+      "nom": "Musée des civilisations de Dschang",
+      "type": "musee",
+      "description": "Ce musée public de Dschang, dans la Menoua, a été inauguré en 2010, puis créé officiellement en 2011 dans le cadre de la Route des chefferies, avec la ville de Nantes. Il présente des collections camerounaises et étrangères et cherche à montrer la diversité des quatre grandes aires culturelles du pays à travers l'art, l'architecture et l'organisation politique.",
+      "regions": [
+        "Ouest",
+        "Dschang",
+        "Menoua"
+      ],
+      "wikidata": "Q24039035",
+      "coordonnees": {
+        "lat": 5.451462,
+        "lng": 10.065518
+      },
+      "sources": [
+        "S62",
+        "S98"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CM-site-musee-national",
+      "nom": "Musée national du Cameroun",
+      "type": "musee",
+      "description": "Installé à Yaoundé dans l'ancien palais présidentiel, le musée occupe un bâtiment qui fut d'abord la résidence du major allemand Hans Dominik, puis le palais du gouverneur français. L'idée d'en faire un musée national date de 1988, et il fait l'objet d'importants travaux de rénovation lancés en 2009. Il conserve notamment des masques, des instruments de musique et un catalogue photographique.",
+      "regions": [
+        "Centre",
+        "Yaoundé"
+      ],
+      "wikidata": "Q16335742",
+      "coordonnees": {
+        "lat": 3.86039,
+        "lng": 11.51569
+      },
+      "sources": [
+        "S67",
+        "S102"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates de rénovation et de réouverture à vérifier (article Wikipédia confus sur ce point)."
+      }
+    },
+    {
+      "id": "CM-site-mont-cameroun",
+      "nom": "Mont Cameroun",
+      "type": "site_naturel",
+      "description": "Le mont Cameroun est un volcan actif du Sud-Ouest, face à l'île de Bioko, point culminant de la ligne du Cameroun avec une altitude estimée entre 4 040 et 4 095 mètres selon les sources. Les Bakweri l'appellent Mongo-mo-Ndemi, « montagne des dieux », tandis que son sommet, le Fako, est appelé « montagne du Tonnerre ». Son massif couvre environ 1 300 km², sur une ellipse d'environ 50 km sur 35 à la base.",
+      "regions": [
+        "Sud-Ouest",
+        "Fako"
+      ],
+      "wikidata": "Q190562",
+      "coordonnees": {
+        "lat": 4.2166666666667,
+        "lng": 9.1725
+      },
+      "sources": [
+        "S64",
+        "S100"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Les noms bakweri viennent de Wikipédia : à contrôler avec un locuteur."
+      }
+    },
+    {
+      "id": "CM-site-jardin-limbe",
+      "nom": "Jardin botanique de Limbé",
+      "type": "site_naturel",
+      "description": "Premier jardin botanique du Cameroun, créé en 1892 à Victoria (aujourd'hui Limbé) par une équipe allemande, il servait d'abord de jardin d'essai pour des plantes agricoles tropicales. Les Britanniques en prennent la direction en 1920, puis du personnel camerounais l'administre à partir de 1932. Il compte aujourd'hui environ 48 hectares et s'oriente vers la conservation, l'éducation et le tourisme.",
+      "regions": [
+        "Sud-Ouest",
+        "Limbé"
+      ],
+      "wikidata": "Q3162399",
+      "coordonnees": {
+        "lat": 4.01297,
+        "lng": 9.20108
+      },
+      "sources": [
+        "S63",
+        "S99"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Surface actuelle (48 ha) et dates tirées de Wikipédia."
+      }
+    },
+    {
+      "id": "CM-site-pagode-douala",
+      "nom": "Ancien palais des rois Bell (La Pagode)",
+      "type": "lieu_de_memoire",
+      "description": "Ce palais de Douala a été construit en 1905 par le roi Auguste Manga Ndumbe. Son fils Rudolf Douala Manga Bell, qui lui succède en 1908, y habite jusqu'à son arrestation en juillet 1914 par les autorités allemandes, après son opposition au projet d'expropriation des Duala riverains du fleuve. Il est pendu le 8 août 1914. Occupée par des entreprises depuis les années 1920, la Pagode reste un témoin de l'architecture coloniale allemande.",
+      "regions": [
+        "Littoral",
+        "Douala",
+        "Bonanjo"
+      ],
+      "sources": [
+        "S24",
+        "S74"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées non sourcées : non renseignées."
+      },
+      "sensible": true,
+      "note_sensibilite": "Lieu de mémoire lié à une exécution coloniale ; la page source comporte une année de naissance erronée (1972) pour Rudolf Manga Bell : non reprise."
+    },
+    {
+      "id": "CM-site-parc-waza",
+      "nom": "Parc national de Waza",
+      "type": "site_naturel",
+      "description": "Le parc de Waza, dans l'Extrême-Nord près du lac Tchad, couvre 1 700 km² d'après Wikipédia, qui y voit l'un des principaux atouts touristiques du pays. Il est reconnu comme réserve de biosphère par l'UNESCO depuis 1979. Le Cameroun l'a inscrit sur sa liste indicative du patrimoine mondial en 2018.",
+      "regions": [
+        "Extrême-Nord"
+      ],
+      "sources": [
+        "S65",
+        "S12"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées non sourcées : non renseignées."
+      }
+    },
+    {
+      "id": "CM-site-rhumsiki",
+      "nom": "Rhumsiki",
+      "type": "ville_historique",
+      "description": "Rhumsiki est un village des monts Mandara, à 55 km de Mokolo et à 3 km de la frontière nigériane, dans l'Extrême-Nord. Il comptait 1 150 habitants kapsiki en 1966-1967, répartis autour de maisons de pierre à toit de chaume représentatives de l'habitat du Nord-Cameroun. Wikipédia en fait l'un des lieux les plus visités du septentrion.",
+      "regions": [
+        "Extrême-Nord",
+        "Mayo-Tsanaga",
+        "monts Mandara"
+      ],
+      "wikidata": "Q3429813",
+      "coordonnees": {
+        "lat": 10.483333333333,
+        "lng": 13.6
+      },
+      "sources": [
+        "S66",
+        "S101"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Population 1966-67 : donnée ancienne (Wikipédia)."
+      }
+    }
+  ],
+  "traditions": [
+    {
+      "id": "CM-tradition-mvet-oyeng",
+      "nom": "Mvet Oyeng, art musical de la communauté Ekang",
+      "categorie": "musique",
+      "description": "Le Mvet Oyeng est une tradition de la communauté Ekang : un récitant chante des épopées en série, accompagné de danses et d'un instrument à cordes pincées, tandis que le public participe avec des baguettes, des battements de mains et des chants. Il existe sous une forme sacrée, transmise par initiation, et sous une forme populaire, jouée lors de fêtes et de spectacles. Les femmes peuvent y être conteuses, surtout dans la forme populaire, mais ne fabriquent ni ne jouent d'habitude l'instrument. Cet art porte l'histoire, la langue et les valeurs de la communauté.",
+      "communautes": [
+        "Ekang"
+      ],
+      "regions": [
+        "Sud",
+        "Centre"
+      ],
+      "langues": [
+        "ewondo",
+        "boulou",
+        "fang"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "02253",
+        "annee": 2025,
+        "url": "https://ich.unesco.org/en/RL/mvet-oyeng-musical-art-practices-and-skills-associated-with-the-ekang-community-02253"
+      },
+      "nom_local": "Mvet Oyeng",
+      "sources": [
+        "S13",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Élément partagé avec le Gabon et le Congo."
+      },
+      "sensible": true,
+      "note_sensibilite": "La forme sacrée du Mvet suit une initiation stricte : les détails rituels ne sont pas publiés ici."
+    },
+    {
+      "id": "CM-tradition-guruna",
+      "nom": "Guruna, retraites pastorales des Massa",
+      "categorie": "rite",
+      "description": "Le Guruna est une retraite annuelle, à la fois pratique et lieu, qui sert d'école de vie aux jeunes Massa installés de part et d'autre du Logone, au Cameroun et au Tchad. Garçons et hommes quittent leur village avec leurs troupeaux pour un camp, où l'on enseigne la lutte, la musique, la danse, l'artisanat, l'histoire de la communauté et surtout l'élevage et les soins aux bovins. Les filles ne passent pas la nuit au camp mais préparent les repas et les décors. L'apprentissage se fait par oral, observation et imitation.",
+      "communautes": [
+        "Massa"
+      ],
+      "regions": [
+        "Extrême-Nord",
+        "Mayo-Danay"
+      ],
+      "langues": [
+        "masana"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "02260",
+        "annee": 2025,
+        "url": "https://ich.unesco.org/en/RL/guruna-a-practice-of-pastoral-socio-cultural-and-artistic-retreats-centered-on-livestock-among-the-massa-02260"
+      },
+      "nom_local": "Guruna",
+      "sources": [
+        "S14",
+        "S58",
+        "S50"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Élément partagé avec le Tchad."
+      },
+      "sensible": true,
+      "note_sensibilite": "Rituels dirigés par des responsables communautaires lors de la retraite : à valider avec les Massa avant toute diffusion détaillée."
+    },
+    {
+      "id": "CM-tradition-ngondo",
+      "nom": "Ngondo, culte des oracles de l'eau chez les Sawa",
+      "categorie": "fete",
+      "description": "Le Ngondo est le culte des oracles de l'eau pratiqué chaque année par les Sawa, de septembre au premier dimanche de décembre. Le volet populaire comprend une caravane dans les quartiers sawa, des luttes, une foire artisanale et un concours de beauté. Le volet sacré se joue sur le Wouri : un prêtre plonge d'une pirogue sacrée avec une jarre contenant vœux et plaintes de la communauté et revient avec le message des oracles, lu dans une case sacrée puis transmis aux chefs et au public. Selon Osidimbea, l'assemblée du Ngondo a aussi été un tribunal et un foyer de résistance duala.",
+      "communautes": [
+        "Sawa",
+        "Duala"
+      ],
+      "regions": [
+        "Littoral",
+        "Douala"
+      ],
+      "langues": [
+        "duala"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "02140",
+        "annee": 2024,
+        "url": "https://ich.unesco.org/en/RL/ngondo-worship-of-water-oracles-and-associated-cultural-traditions-among-the-sawa-02140"
+      },
+      "nom_local": "Ngondo",
+      "wikidata": "Q3339328",
+      "sources": [
+        "S15",
+        "S25",
+        "S6",
+        "S104"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Le volet sacré (oracles, case sacrée) relève de savoirs initiatiques : à valider avec les chefs sawa."
+    },
+    {
+      "id": "CM-tradition-nguon",
+      "nom": "Nguon, rituels de gouvernance chez les Bamoun",
+      "categorie": "rite",
+      "description": "Le Nguon est une série de rituels qui se déroulent sur trois jours entre le roi, le Mfon, et son peuple. Tous les deux ans, au début de décembre, des chefs rituels recueillent l'avis de la communauté sur l'état du royaume, puis s'entretiennent de nuit avec le Mfon. Le lendemain, il comparait lors d'un « procès » public sur sa gestion, pouvant recevoir des amendes voire être destitué ; s'il est reconduit, il prononce un discours d'acceptation. Des fêtes populaires et un défilé clôturent l'événement, qui existe depuis plus de six cents ans.",
+      "communautes": [
+        "Bamoun"
+      ],
+      "regions": [
+        "Ouest",
+        "Noun",
+        "Foumban"
+      ],
+      "langues": [
+        "bamoun"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01955",
+        "annee": 2023,
+        "url": "https://ich.unesco.org/en/RL/nguon-rituals-of-governance-and-associated-expressions-in-the-bamoun-community-01955"
+      },
+      "nom_local": "Nguon",
+      "sources": [
+        "S16",
+        "S26",
+        "S55"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Rituels de gouvernance et sociétés secrètes : détails non publiés ici, à valider avec le palais de Foumban."
+    },
+    {
+      "id": "CM-tradition-makossa",
+      "nom": "Makossa",
+      "categorie": "musique",
+      "description": "Le makossa est un genre musical urbain né dans les années 1950 de la culture sawa, d'abord lié à Douala, puis adopté dans tout le pays. Il vient de la danse traditionnelle sawa ambas-bay, avec des influences du jazz, de la musique latine et de la rumba congolaise. Son nom viendrait d'un mot duala invitant à danser. Manu Dibango, dont le tube Soul Makossa a séduit le public américain en 1972-1973, l'a fait connaître hors du pays.",
+      "communautes": [
+        "Sawa",
+        "Duala"
+      ],
+      "regions": [
+        "Littoral",
+        "Douala"
+      ],
+      "langues": [
+        "duala"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S69",
+        "S21",
+        "S27"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Étymologie et naissance dans les années 1950 : Wikipédia seulement."
+      }
+    },
+    {
+      "id": "CM-tradition-bikutsi",
+      "nom": "Bikutsi",
+      "categorie": "danse",
+      "description": "Le bikutsi est une musique et une danse du Centre, associée aux Béti. Son nom signifierait en ewondo « frapper la terre ». Le rythme est à 6/8. À l'origine, ce sont des femmes assises en cercle qui chantent des mélodies transmises oralement, au son de hochets et de bambous, lors de cérémonies et de rituels de guérison. Une version festive plus orchestrée apparaît vers les années 1970, avec balafons et tambours.",
+      "communautes": [
+        "Béti",
+        "Ewondo"
+      ],
+      "regions": [
+        "Centre",
+        "Yaoundé"
+      ],
+      "langues": [
+        "ewondo"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S70",
+        "S27"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Presque entièrement fondé sur Wikipédia ; source non-Wikipédia à ajouter."
+      },
+      "sensible": true,
+      "note_sensibilite": "Mentionne des rituels de guérison : à valider avec les communautés béti."
+    },
+    {
+      "id": "CM-tradition-ecriture-bamoun",
+      "nom": "Écriture et savoirs du roi Njoya (écriture bamoun)",
+      "categorie": "savoir",
+      "description": "Entre 1896 et 1910, le roi Njoya a fait évoluer, avec ses conseillers, un système d'écriture pour la langue bamoun, d'abord pictographique, puis en grande partie syllabique. Il l'a utilisé pour produire des manuscrits dans la langue du royaume et dans une langue de cour distincte. Après la Première Guerre mondiale, l'administration coloniale en a interdit l'enseignement, ce qui a contribué à son recul.",
+      "communautes": [
+        "Bamoun"
+      ],
+      "regions": [
+        "Ouest",
+        "Foumban"
+      ],
+      "langues": [
+        "bamoun"
+      ],
+      "transmission": "fragile",
+      "unesco": null,
+      "periode": "depuis 1896",
+      "sources": [
+        "S36",
+        "S73",
+        "S41"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La date d'interdiction (après la Première Guerre mondiale) vient d'une page de présentation ; à confirmer avec une source universitaire."
+      }
+    },
+    {
+      "id": "CM-tradition-ndole",
+      "nom": "Ndolé",
+      "categorie": "cuisine",
+      "description": "Le ndolé est un plat à base de feuilles de vernonia, des feuilles amères, avec une pâte d'arachides, des épices et de la viande, du poisson séché ou des crevettes. Il est considéré comme un plat emblématique du Cameroun, au moins dans le Littoral, et s'accompagne de bâtons de manioc (miondo), de plantains ou de manioc. La plante est cultivée dans les jardins du Sud-Ouest du Cameroun et du Nigeria voisin.",
+      "communautes": [
+        "Sawa",
+        "Littoral"
+      ],
+      "regions": [
+        "Littoral",
+        "Sud-Ouest"
+      ],
+      "langues": [
+        "duala"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S71",
+        "S72"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Fondé sur Wikipédia ; à compléter par une source culinaire ou ethnobotanique."
+      }
+    },
+    {
+      "id": "CM-tradition-ndop",
+      "nom": "Ndop, étoffes royales des Grassfields",
+      "categorie": "textile",
+      "description": "Le ndop est une grande étoffe de cérémonie en coton et laine, teinte et décorée, associée aux chefferies des hautes terres de l'Ouest. La collection du Met comprend une pièce de 8,2 mètres de long, de la première moitié du XXe siècle, attribuée aux peuples bamilékés.",
+      "communautes": [
+        "Bamilékés"
+      ],
+      "regions": [
+        "Ouest"
+      ],
+      "langues": [
+        "ghomala'",
+        "medumba"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S108",
+        "S53"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La description du ndop repose sur la seule fiche du Met : à compléter par une source locale sur les usages et les artisans."
+      },
+      "sensible": true,
+      "note_sensibilite": "Étoffe liée à des fonctions royales : à valider avec des chefferies."
+    },
+    {
+      "id": "CM-tradition-masque-elephant",
+      "nom": "Masques éléphant aka ou mbap nteng",
+      "categorie": "rite",
+      "description": "Les masques éléphant des peuples bamilékés sont de grandes pièces en tissu couvertes de perles de verre, montées sur du bois et portées lors de cérémonies. Le Met en conserve plusieurs exemplaires, datés du XIXe au milieu du XXe siècle. Leur usage est lié aux chefferies et à des sociétés d'hommes, ce que les sources ouvertes ne détaillent pas ici.",
+      "communautes": [
+        "Bamilékés"
+      ],
+      "regions": [
+        "Ouest"
+      ],
+      "langues": [
+        "ghomala'"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S109",
+        "S53"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Description limitée aux données de la fiche du Met."
+      },
+      "sensible": true,
+      "note_sensibilite": "Masque cérémoniel lié à des sociétés initiatiques : usage et signification à valider avec les chefferies."
+    },
+    {
+      "id": "CM-tradition-kwifon",
+      "nom": "Mascarade Ngumba/Kwifon",
+      "categorie": "rite",
+      "description": "Le Met conserve un cimier de mascarade attribué aux Kom, dans le groupe tikar, désigné comme provenant de la mascarade Ngumba ou Kwifon et daté du XIXe siècle. Il est taillé dans l'iroko. Les sources ouvertes consultées ne documentent pas l'usage actuel de cette mascarade.",
+      "communautes": [
+        "Kom"
+      ],
+      "regions": [
+        "Nord-Ouest"
+      ],
+      "langues": [
+        "kom"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S106"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Fondé sur la seule fiche du Met ; usage et statut actuels non sourcés."
+      },
+      "sensible": true,
+      "note_sensibilite": "Mascarade de société initiatique : toute description détaillée doit venir de la communauté kom."
+    },
+    {
+      "id": "CM-tradition-chefferies",
+      "nom": "Architecture des chefferies bamilékées",
+      "categorie": "architecture",
+      "description": "Les chefferies bamilékées sont des ensembles de cases, de places et de forêts royales où réside le chef. À Bandjoun, le domaine regroupe la forêt royale, des cases, une cour et un palais. D'autres chefferies de l'Ouest, comme Bafoussam ou Foumban, sont citées parmi les royaumes traditionnels du pays par Wikipédia.",
+      "communautes": [
+        "Bamilékés",
+        "Bamoun"
+      ],
+      "regions": [
+        "Ouest"
+      ],
+      "langues": [
+        "ghomala'"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S61",
+        "S6",
+        "S12"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La liste indicative du Cameroun contient aussi « La Chefferie de Bafut » et « La Grande Case dans la Chefferie traditionnelle des Grassfields »."
+      }
+    },
+    {
+      "id": "CM-tradition-camfranglais",
+      "nom": "Camfranglais",
+      "categorie": "oralite",
+      "description": "Le camfranglais est un argot de la jeunesse urbaine qui mêle français, anglais, mots de langues locales et verlan, et varie selon les villes. Il apparaît au milieu des années 1970 après la réunification des deux Cameroun, et gagne en popularité à la fin des années 1990 grâce à certains musiciens.",
+      "communautes": [
+        "jeunesse urbaine"
+      ],
+      "regions": [
+        "Douala",
+        "Yaoundé"
+      ],
+      "langues": [
+        "français",
+        "anglais",
+        "pidgin camerounais"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S5",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Fondé sur Wikipédia ; à vérifier auprès de linguistes (« créole » est contesté)."
+      }
+    },
+    {
+      "id": "CM-tradition-fenac",
+      "nom": "Festival national des arts et de la culture (FENAC)",
+      "categorie": "fete",
+      "description": "Le FENAC est un événement biennal qui célèbre les talents artistiques et culturels du pays. L'article de Wikipédia sur la culture du pays le cite, avec la fête du Ngondo, parmi les grands rendez-vous culturels.",
+      "communautes": [
+        "artistes du Cameroun"
+      ],
+      "regions": [
+        "tout le pays"
+      ],
+      "langues": [
+        "langues du Cameroun"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Fondé sur une seule ligne de Wikipédia ; description à compléter."
+      }
+    }
+  ],
+  "personnalites": [
+    {
+      "id": "CM-personnalite-um-nyobe",
+      "nom": "Ruben Um Nyobè",
+      "wikidata": "Q1572626",
+      "description": "Ruben Um Nyobè est l'une des grandes figures de la lutte pour l'indépendance du Cameroun. Il devient président de l'Union des populations du Cameroun (UPC) en novembre 1948 et prononce des discours devant les Nations unies en 1952 et 1953. Entré dans la clandestinité après l'interdiction de l'UPC en 1955, il est tué le 13 septembre 1958 par l'armée française. L'Assemblée nationale l'a proclamé héros national en 1991, d'après Osidimbea.",
+      "naissance": {
+        "date": "1913-04-10",
+        "lieu": "Eog Makon, près d'Éséka (Osidimbea) ; Éséka (Wikidata)"
+      },
+      "roles": [
+        "président de l'UPC",
+        "syndicaliste",
+        "militant de l'indépendance"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "deces": {
+        "date": "1958-09-13",
+        "lieu": "Libog Li Ngoi, près de Boumnyebel (Osidimbea) ; Libelingoï (Wikidata)"
+      },
+      "sources": [
+        "S17",
+        "S29",
+        "S82",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikidata donne aussi 1913 sans jour ; lieu de décès orthographié différemment selon les sources."
+      },
+      "sensible": true,
+      "note_sensibilite": "Mort violente et mémoire politique encore débattue (répression de l'UPC) ; présentation à faire valider par des historiens."
+    },
+    {
+      "id": "CM-personnalite-njoya",
+      "nom": "Ibrahim Njoya",
+      "wikidata": "Q670091",
+      "description": "Ibrahim Njoya est le 17e roi des Bamoun et règne de 1889 à 1933 depuis Foumban. Il est resté célèbre pour avoir créé, avec l'aide de ses conseillers, une écriture pour la langue bamoun entre 1896 et 1910, ainsi qu'une langue de cour. Il s'est converti à l'islam avec son peuple au cours de son règne, d'après Wikipédia. Il meurt le 30 mai 1933 à Yaoundé.",
+      "naissance": {
+        "date": "1876",
+        "lieu": "Foumban (Wikidata)"
+      },
+      "roles": [
+        "roi des Bamoun",
+        "inventeur d'une écriture"
+      ],
+      "domaines": [
+        "politique",
+        "savoirs",
+        "langue et écriture"
+      ],
+      "epoque": "XIXe-XXe siècle",
+      "deces": {
+        "date": "1933-05-30",
+        "lieu": "Yaoundé"
+      },
+      "sources": [
+        "S36",
+        "S73",
+        "S83",
+        "S26"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance 1876 (Wikidata, précision à l'année) ; Wikipédia ne donne pas de date précise."
+      }
+    },
+    {
+      "id": "CM-personnalite-manga-bell",
+      "nom": "Rudolf Douala Manga Bell",
+      "wikidata": "Q656027",
+      "description": "Roi du clan Bell du peuple duala, Rudolf Douala Manga Bell succède à son père en 1908 et occupe le palais de la Pagode, à Douala. Il prend la tête de l'opposition au projet allemand d'expropriation des Duala riverains du fleuve. Arrêté en juillet 1914 pour haute trahison, il est pendu le 8 août 1914. Osidimbea le présente comme l'un des premiers héros de la lutte anticoloniale africaine.",
+      "naissance": {
+        "date": "1873-04-24",
+        "lieu": "Douala"
+      },
+      "roles": [
+        "roi des Bell",
+        "chef de la résistance duala"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "deces": {
+        "date": "1914-08-08",
+        "lieu": "Douala"
+      },
+      "sources": [
+        "S24",
+        "S74",
+        "S84"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikidata donne 1873 ou 1875 ; Osidimbea comporte une coquille (1972) non reprise."
+      },
+      "sensible": true,
+      "note_sensibilite": "Exécution coloniale : présentation sobre, à faire valider par la famille ou des historiens."
+    },
+    {
+      "id": "CM-personnalite-moumie",
+      "nom": "Félix-Roland Moumié",
+      "wikidata": "Q3092350",
+      "description": "Médecin né près de Foumban, Félix-Roland Moumié devient l'un des dirigeants de l'UPC et succède à Ruben Um Nyobè à la tête de la lutte pour l'indépendance. Il est empoisonné à Genève en octobre 1960 et meurt le 3 novembre. Wikipédia considère que les services secrets français en sont très probablement responsables ; la justice suisse a prononcé un non-lieu.",
+      "naissance": {
+        "date": "1925-11-01",
+        "lieu": "près de Foumban"
+      },
+      "roles": [
+        "médecin",
+        "dirigeant de l'UPC"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "deces": {
+        "date": "1960-11-03",
+        "lieu": "Genève"
+      },
+      "sources": [
+        "S28",
+        "S30",
+        "S75",
+        "S85"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance : Wikipédia 1er novembre 1925 ; Wikidata Foumban. Empoisonnement le 15 octobre 1960 selon Osidimbea, mort le 3 novembre."
+      },
+      "sensible": true,
+      "note_sensibilite": "Assassinat dont les responsabilités sont discutées : formulation à valider."
+    },
+    {
+      "id": "CM-personnalite-ouandie",
+      "nom": "Ernest Ouandié",
+      "wikidata": "Q3057116",
+      "description": "Ernest Ouandié est un dirigeant de l'UPC, venu du Haut-Nkam, qui poursuit la lutte armée après l'indépendance contre le régime d'Ahmadou Ahidjo. Il est fusillé le 15 janvier 1971 à Bafoussam. Osidimbea le place, avec Ruben Um Nyobè et Félix-Roland Moumié, parmi les chefs de l'UPC contraints à l'exil et au maquis en 1955.",
+      "naissance": {
+        "date": "1924",
+        "lieu": "Badoumla, arrondissement de Bana (Wikipédia)"
+      },
+      "roles": [
+        "dirigeant de l'UPC"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "deces": {
+        "date": "1971-01-15",
+        "lieu": "Bafoussam"
+      },
+      "sources": [
+        "S28",
+        "S76",
+        "S86"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance 1924 (Wikipédia) ou 1914 (Wikidata) ; Osidimbea (page Um Nyobè) donne 1972 pour l'exécution contre 1971 ailleurs."
+      },
+      "sensible": true,
+      "note_sensibilite": "Exécution politique et guerre civile après 1960 : sujet disputé."
+    },
+    {
+      "id": "CM-personnalite-ahidjo",
+      "nom": "Ahmadou Ahidjo",
+      "wikidata": "Q298718",
+      "description": "Premier président du Cameroun, de 1960 à 1982, Ahmadou Ahidjo proclame l'indépendance le 1er janvier 1960 en tant que Premier ministre. Il devient président de la République fédérale en octobre 1961, puis de la République unie du Cameroun en 1972. Il démissionne le 4 novembre 1982 et meurt en exil à Dakar en 1989 ; il a été condamné à mort par contumace en 1984 après le coup d'État manqué du 6 avril 1984, qu'il a toujours nié.",
+      "naissance": {
+        "date": "1924-08-24",
+        "lieu": "Garoua (Osidimbea, Wikidata) ; Nassarao près de Garoua (Wikipédia)"
+      },
+      "roles": [
+        "Premier ministre",
+        "président de la République"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "deces": {
+        "date": "1989-11-30",
+        "lieu": "Dakar"
+      },
+      "sources": [
+        "S18",
+        "S31",
+        "S81",
+        "S87"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Bilan du régime et du coup d'État de 1984 discutés : présentation neutre."
+    },
+    {
+      "id": "CM-personnalite-mongo-beti",
+      "nom": "Mongo Beti",
+      "wikidata": "Q248047",
+      "description": "Alexandre Biyidi Awala, qui écrit sous le nom de Mongo Beti, est un romancier et essayiste, né près de Mbalmayo, dans le groupe béti. Ses livres dénoncent à la fois le colonialisme et les dérives des régimes après les indépendances. Osidimbea cite de lui « Main basse sur le Cameroun », livre interdit en France en 1972. Il meurt à Douala le 7 octobre 2001.",
+      "naissance": {
+        "date": "1932-06-30",
+        "lieu": "Akométam, près de Mbalmayo"
+      },
+      "roles": [
+        "écrivain",
+        "essayiste",
+        "éditeur"
+      ],
+      "domaines": [
+        "littérature",
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "deces": {
+        "date": "2001-10-07",
+        "lieu": "Douala"
+      },
+      "sources": [
+        "S77",
+        "S17",
+        "S34",
+        "S88"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Osidimbea (2001) ne donne que l'année du décès ; date exacte d'après Wikipédia/Wikidata."
+      }
+    },
+    {
+      "id": "CM-personnalite-oyono",
+      "nom": "Ferdinand Oyono",
+      "wikidata": "Q1000379",
+      "description": "Ferdinand Oyono est un écrivain et diplomate né à Ngoulemakong. Il publie trois romans : Une vie de boy et Le Vieux Nègre et la médaille en 1956, puis Chemin d'Europe en 1960. Il mène ensuite une longue carrière diplomatique, avec des postes d'ambassadeur dans plusieurs pays et à l'ONU, puis plusieurs postes ministériels. Il meurt à Yaoundé le 10 juin 2010.",
+      "naissance": {
+        "date": "1929-09-14",
+        "lieu": "Ngoulemakong"
+      },
+      "roles": [
+        "romancier",
+        "diplomate",
+        "ministre"
+      ],
+      "domaines": [
+        "littérature",
+        "politique",
+        "diplomatie"
+      ],
+      "epoque": "XXe siècle",
+      "deces": {
+        "date": "2010-06-10",
+        "lieu": "Yaoundé"
+      },
+      "sources": [
+        "S19",
+        "S89"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CM-personnalite-bebey",
+      "nom": "Francis Bebey",
+      "wikidata": "Q529942",
+      "description": "Francis Bebey est un musicien, écrivain et journaliste né à Douala. Arrivé en France en 1951, il devient reporter radio puis entre à l'UNESCO en 1961, où il dirige le programme de musique. Son roman Le Fils d'Agatha Moudio obtient le Grand prix littéraire d'Afrique noire en 1968. Il enregistre notamment des pièces pour guitare seule en 1965.",
+      "naissance": {
+        "date": "1929-07-15",
+        "lieu": "Douala"
+      },
+      "roles": [
+        "musicien",
+        "écrivain",
+        "journaliste"
+      ],
+      "domaines": [
+        "musique",
+        "littérature"
+      ],
+      "epoque": "XXe siècle",
+      "deces": {
+        "date": "2001-05-28",
+        "lieu": "Paris"
+      },
+      "sources": [
+        "S20",
+        "S27",
+        "S90"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CM-personnalite-dibango",
+      "nom": "Manu Dibango",
+      "wikidata": "Q445829",
+      "description": "Le saxophoniste et chanteur Manu Dibango, né à Douala, est l'un des musiciens qui ont fait connaître le makossa au-delà du Cameroun. Son succès Soul Makossa, sorti en 1972, lui vaut un triomphe à l'Olympia puis aux États-Unis, dont une nomination à l'Oscar de Hollywood en 1974 pour l'album O Boso. Il est devenu artiste de l'UNESCO pour la paix en 2004 et meurt en mars 2020.",
+      "naissance": {
+        "date": "1933-12-12",
+        "lieu": "Douala"
+      },
+      "roles": [
+        "saxophoniste",
+        "chanteur",
+        "compositeur"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "deces": {
+        "date": "2020-03-24",
+        "lieu": "Melun (Wikidata) ; Paris (Osidimbea)"
+      },
+      "sources": [
+        "S21",
+        "S27",
+        "S69",
+        "S91"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance : 10 décembre selon Osidimbea, 12 décembre selon Wikidata ; lieu de décès divergent."
+      }
+    },
+    {
+      "id": "CM-personnalite-marthe-moumie",
+      "nom": "Marthe Ekemeyong Moumié",
+      "wikidata": "Q26504700",
+      "description": "Née en pays boulou, Marthe Ekemeyong Moumié est une écrivaine et militante, épouse de Félix-Roland Moumié, rencontré à Lolodorf et épousé en 1950. Elle a été assassinée à son domicile d'Ebolowa le 9 janvier 2009.",
+      "naissance": {
+        "date": "1931-09-04",
+        "lieu": "Ebom Essawo (Efoulan)"
+      },
+      "roles": [
+        "écrivaine",
+        "militante"
+      ],
+      "domaines": [
+        "littérature",
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "deces": {
+        "date": "2009-01-09",
+        "lieu": "Ebolowa"
+      },
+      "sources": [
+        "S78",
+        "S92"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Seule source non-Wikipédia : Wikidata (pas encore de source institutionnelle ouverte)."
+      },
+      "sensible": true,
+      "note_sensibilite": "Mort violente : formulation à valider."
+    },
+    {
+      "id": "CM-personnalite-beyala",
+      "nom": "Calixthe Beyala",
+      "wikidata": "Q297510",
+      "description": "Romancière née à Douala, Calixthe Beyala a grandi dans le quartier de New Bell. Elle reçoit le Grand prix du roman de l'Académie française en 1994 pour Les Honneurs perdus, devient chevalière de la Légion d'honneur en 2010 et ambassadrice de la culture camerounaise en 2019.",
+      "naissance": {
+        "date": "1961-10-26",
+        "lieu": "Douala"
+      },
+      "roles": [
+        "romancière"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S79",
+        "S93"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikipédia mentionne aussi des accusations de plagiat dans les années 1990 : à traiter avec une source de référence. Pas de source non-Wikipédia autre que Wikidata."
+      }
+    },
+    {
+      "id": "CM-personnalite-miano",
+      "nom": "Léonora Miano",
+      "wikidata": "Q465373",
+      "description": "Écrivaine née à Douala, Léonora Miano reçoit le prix Louis-Guilloux 2006 et le prix du Premier roman de femme pour L'Intérieur de la nuit, le Grand prix littéraire d'Afrique noire en 2011 et le prix Femina 2013 pour La Saison de l'ombre. Son œuvre comprend aussi des essais et des textes pour la scène.",
+      "naissance": {
+        "date": "1973-03-12",
+        "lieu": "Douala"
+      },
+      "roles": [
+        "romancière",
+        "essayiste"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S22",
+        "S94"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikidata libelle l'entité « Louise Clarisse Éléonore Ndondongui » : à clarifier."
+      }
+    },
+    {
+      "id": "CM-personnalite-nzie",
+      "nom": "Anne-Marie Nzié",
+      "wikidata": "Q175509",
+      "description": "Chanteuse née à Lolodorf, Anne-Marie Nzié est surnommée « Mama Cameroun » par RFI. En 1958, elle collabore avec Gilbert Bécaud sur la chanson Bateau Miracle et se produit à l'Olympia de Paris. Elle reçoit la Légion d'honneur en 2001, et des cérémonies célèbrent ses soixante ans de carrière en 2008. Elle meurt à Yaoundé le 24 mai 2016.",
+      "naissance": {
+        "date": "1932",
+        "lieu": "Lolodorf"
+      },
+      "roles": [
+        "chanteuse"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "deces": {
+        "date": "2016-05-24",
+        "lieu": "Yaoundé"
+      },
+      "sources": [
+        "S23",
+        "S95"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année de naissance 1932 (Osidimbea, Wikidata) à confirmer."
+      }
+    },
+    {
+      "id": "CM-personnalite-mbango",
+      "nom": "Françoise Mbango Etone",
+      "wikidata": "Q229085",
+      "description": "Athlète spécialiste du triple saut, née à Yaoundé, Françoise Mbango Etone devient championne olympique à Athènes en 2004 puis à Pékin en 2008. Elle détient le record olympique de la discipline avec 15,39 m en 2008, d'après Wikipédia. Elle a été naturalisée française en 2010.",
+      "naissance": {
+        "date": "1976-04-14",
+        "lieu": "Yaoundé"
+      },
+      "roles": [
+        "athlète"
+      ],
+      "domaines": [
+        "sport"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S80",
+        "S96"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Seule source non-Wikipédia : Wikidata ; à compléter avec Olympedia ou World Athletics."
+      }
+    }
+  ],
+  "evenements": [
+    {
+      "id": "CM-evenement-shum-laka",
+      "titre": "Occupation de la grotte de Shum Laka",
+      "date": "-029999-01-01",
+      "date_affichee": "vers 32 000 ans avant le présent",
+      "precision": "siecle",
+      "description": "L'abri sous roche de Shum Laka, près de Bamenda, a été occupé par des groupes humains depuis le Paléolithique supérieur jusqu'à l'âge du fer. Les fouilles y ont livré des outils de pierre, de la céramique et des sépultures dont les plus anciennes ont de 8 000 à 3 000 ans.",
+      "regions": [
+        "Nord-Ouest"
+      ],
+      "sources": [
+        "S68",
+        "S12"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date approximative (32 000 ans AP) convertie en année astronomique ; à confirmer par une publication de fouille."
+      }
+    },
+    {
+      "id": "CM-evenement-berceau-bantu",
+      "titre": "Zone d'origine des langues bantu",
+      "date": "-000999-01-01",
+      "date_affichee": "Ier millénaire av. J.-C.",
+      "precision": "siecle",
+      "description": "Le sud-ouest du Cameroun et le sud-est du Nigeria sont désignés comme l'une des zones où se développent les premières sociétés sédentaires d'agriculteurs, parlant des langues bantu. Elles se sont ensuite diffusées dans une grande partie de l'Afrique subsaharienne.",
+      "fin": "-000001-12-31",
+      "regions": [
+        "Sud-Ouest"
+      ],
+      "sources": [
+        "S3",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Hypothèse scientifique résumée par Wikipédia, à confirmer par une source linguistique ou archéologique (Persée, OpenEdition)."
+      }
+    },
+    {
+      "id": "CM-evenement-hannon",
+      "titre": "Périple d'Hannon (récit contesté)",
+      "date": "-000499-01-01",
+      "date_affichee": "Ve siècle av. J.-C.",
+      "precision": "siecle",
+      "description": "Un texte grec attribué au Carthaginois Hannon évoque l'observation d'un mont de feu que certains rapprochent du mont Cameroun, appelé « char des dieux ». Les historiens discutent de cette lecture, la traduction depuis le phénicien étant incertaine et aucune trace archéologique n'étant connue.",
+      "regions": [
+        "Sud-Ouest",
+        "mont Cameroun"
+      ],
+      "sources": [
+        "S3",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Identification contestée ; ne pas présenter comme un fait."
+      }
+    },
+    {
+      "id": "CM-evenement-diy-gid-biy",
+      "titre": "Construction des structures en pierres sèches de Diy-Gid-Biy",
+      "date": "1100-01-01",
+      "date_affichee": "XIIe-XVIIe siècle",
+      "precision": "siecle",
+      "description": "Des ensembles d'architecture en pierres sèches, organisés en terrasses, sont édifiés dans les monts Mandara, probablement entre le XIIe et le XVIIe siècle. Leurs constructeurs ne sont pas identifiés. Les Mafa occupent la région depuis le XVe siècle.",
+      "fin": "1699-12-31",
+      "regions": [
+        "Extrême-Nord",
+        "monts Mandara"
+      ],
+      "sources": [
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Datation « vraisemblablement » selon l'UNESCO."
+      }
+    },
+    {
+      "id": "CM-evenement-royaume-bamoun",
+      "titre": "Fondation du royaume bamoun",
+      "date": "1394-01-01",
+      "date_affichee": "1394 (selon Wikipédia)",
+      "precision": "annee",
+      "description": "Le royaume bamoun, dans l'Ouest, est présenté comme fondé en 1394, avec un apogée au XVIIIe siècle. L'UNESCO souligne que les rituels de gouvernance Nguon y existent depuis plus de six cents ans.",
+      "regions": [
+        "Ouest",
+        "Noun",
+        "Foumban"
+      ],
+      "acteurs": [
+        "Bamoun"
+      ],
+      "sources": [
+        "S55",
+        "S16",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikipédia (Histoire du Cameroun) situe plutôt la fondation à la fin du XVIe siècle : divergence non tranchée."
+      }
+    },
+    {
+      "id": "CM-evenement-portugais-wouri",
+      "titre": "Arrivée des Portugais dans l'estuaire du Wouri",
+      "date": "1472-01-01",
+      "date_affichee": "1472",
+      "precision": "annee",
+      "description": "Des marins portugais, dont Fernando Pó selon Wikipédia, entrent dans l'estuaire du Wouri et s'étonnent de l'abondance de crevettes : ils appellent le cours d'eau Rio dos Camarões. De ce nom est venu celui du pays.",
+      "regions": [
+        "Littoral",
+        "Wouri"
+      ],
+      "acteurs": [
+        "marins portugais"
+      ],
+      "sources": [
+        "S3",
+        "S4",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CM-evenement-jihad-adamaoua",
+      "titre": "Jihad peul et émirat de l'Adamaoua",
+      "date": "1804-01-01",
+      "date_affichee": "vers 1804-1809",
+      "precision": "annee",
+      "description": "Inspirés par la guerre sainte lancée en 1804 par Ousman dan Fodio au nord du Nigeria, des Peuls du sud étendent le jihad dans les plateaux du centre, qui prennent le nom d'Adamaoua. L'émirat de l'Adamaoua est daté de 1809 à 1903. Glottolog place l'arrivée du peul de l'Adamaoua au Cameroun en 1805.",
+      "fin": "1903-12-31",
+      "regions": [
+        "Adamaoua"
+      ],
+      "acteurs": [
+        "Peuls",
+        "Modibbo Adama"
+      ],
+      "sources": [
+        "S4",
+        "S39"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates 1804/1805/1809 selon les sources."
+      }
+    },
+    {
+      "id": "CM-evenement-mission-douala",
+      "titre": "Ouverture d'une mission à Douala",
+      "date": "1845-01-01",
+      "date_affichee": "1845",
+      "precision": "annee",
+      "description": "Des missionnaires baptistes britanniques s'installent au Cameroun en 1845. Glottolog note que la mission de Douala contribue à faire du duala une langue de communication à l'échelle de nombreux groupes en 1875.",
+      "regions": [
+        "Littoral",
+        "Douala"
+      ],
+      "sources": [
+        "S4",
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CM-evenement-protectorat-allemand",
+      "titre": "Début du protectorat allemand (Kamerun)",
+      "date": "1884-07-05",
+      "date_affichee": "5 juillet 1884",
+      "precision": "jour",
+      "description": "En juillet 1884, des rois duala (Bell et Akwa) signent un traité avec des firmes hambourgeoises et l'Allemagne proclame sa souveraineté sur le Kamerun. Le protectorat s'étend alors du lac Tchad à la Sangha.",
+      "fin": "1916-12-31",
+      "acteurs": [
+        "rois Bell et Akwa",
+        "Allemagne"
+      ],
+      "sources": [
+        "S3",
+        "S4",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CM-evenement-ecriture-bamoun",
+      "titre": "Création de l'écriture bamoun",
+      "date": "1896-01-01",
+      "date_affichee": "1896-1910",
+      "precision": "annee",
+      "description": "Entre 1896 et 1910, le roi Njoya et ses conseillers font évoluer un système d'écriture de pictographique à partiellement syllabique pour noter la langue bamoun. Elle sert à écrire des manuscrits dans la langue du royaume.",
+      "fin": "1910-12-31",
+      "regions": [
+        "Foumban",
+        "Ouest"
+      ],
+      "acteurs": [
+        "roi Njoya"
+      ],
+      "sources": [
+        "S36",
+        "S73"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CM-evenement-manga-bell-pendu",
+      "titre": "Exécution de Rudolf Douala Manga Bell",
+      "date": "1914-08-08",
+      "date_affichee": "8 août 1914",
+      "precision": "jour",
+      "description": "Accusé de haute trahison après sa résistance à l'expropriation des Duala, le roi Rudolf Douala Manga Bell est pendu à Douala par les autorités allemandes le 8 août 1914.",
+      "regions": [
+        "Douala"
+      ],
+      "acteurs": [
+        "Rudolf Douala Manga Bell",
+        "administration allemande"
+      ],
+      "sources": [
+        "S24",
+        "S74",
+        "S84"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Violence coloniale : à valider par des historiens."
+    },
+    {
+      "id": "CM-evenement-partage-1916",
+      "titre": "Partage du Kamerun entre la France et le Royaume-Uni",
+      "date": "1916-03-04",
+      "date_affichee": "4 mars 1916",
+      "precision": "jour",
+      "description": "Pendant la Première Guerre mondiale, les généraux français et britanniques se partagent le territoire allemand à Londres : environ quatre cinquièmes à la France à l'est, un cinquième au Royaume-Uni à l'ouest. La Société des Nations confirme ce partage par des mandats en 1922.",
+      "acteurs": [
+        "France",
+        "Royaume-Uni"
+      ],
+      "sources": [
+        "S4",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CM-evenement-tutelle-onu",
+      "titre": "Vote de la tutelle de l'ONU",
+      "date": "1946-12-13",
+      "date_affichee": "13 décembre 1946",
+      "precision": "jour",
+      "description": "L'Assemblée générale de l'ONU vote la mise sous tutelle du Cameroun français, après la création d'une première assemblée représentative en octobre 1946.",
+      "sources": [
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia) ; à croiser avec une source de l'ONU."
+      }
+    },
+    {
+      "id": "CM-evenement-creation-upc",
+      "titre": "Création de l'Union des populations du Cameroun (UPC)",
+      "date": "1948-04-10",
+      "date_affichee": "10 avril 1948",
+      "precision": "jour",
+      "description": "Le mouvement nationaliste UPC est fondé le 10 avril 1948 par douze personnes. Ruben Um Nyobè en prend la présidence en novembre 1948.",
+      "acteurs": [
+        "UPC",
+        "Ruben Um Nyobè"
+      ],
+      "sources": [
+        "S4",
+        "S17"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CM-evenement-emeutes-1955",
+      "titre": "Émeutes de mai 1955 et interdiction de l'UPC",
+      "date": "1955-05-22",
+      "date_affichee": "22 mai-15 juillet 1955",
+      "precision": "jour",
+      "description": "Des manifestations secouent plusieurs villes du sud du 22 au 30 mai 1955 et sont réprimées dans le sang ; à Yaoundé, 50 personnes sont tuées selon Osidimbea. L'UPC est interdite en juillet 1955, ses dirigeants partent en exil ou au maquis.",
+      "fin": "1955-07-15",
+      "sources": [
+        "S28",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Bilans divergents selon les sources."
+      },
+      "sensible": true,
+      "note_sensibilite": "Répression coloniale : chiffres et responsabilités disputés."
+    },
+    {
+      "id": "CM-evenement-mort-um-nyobe",
+      "titre": "Mort de Ruben Um Nyobè",
+      "date": "1958-09-13",
+      "date_affichee": "13 septembre 1958",
+      "precision": "jour",
+      "description": "Ruben Um Nyobè, devenu clandestin après 1955, est tué le 13 septembre 1958 par l'armée française dans le maquis bassa, près de Boumnyebel.",
+      "regions": [
+        "Sanaga-Maritime"
+      ],
+      "acteurs": [
+        "Ruben Um Nyobè",
+        "armée française"
+      ],
+      "sources": [
+        "S17",
+        "S29",
+        "S82"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Mort violente, mémoire politique disputée."
+    },
+    {
+      "id": "CM-evenement-independance",
+      "titre": "Indépendance du Cameroun français",
+      "date": "1960-01-01",
+      "date_affichee": "1er janvier 1960",
+      "precision": "jour",
+      "description": "Le Premier ministre Ahmadou Ahidjo proclame l'indépendance de la République du Cameroun, ancien territoire sous tutelle française, le 1er janvier 1960. Ahidjo est élu président en mai 1960 par les députés.",
+      "acteurs": [
+        "Ahmadou Ahidjo"
+      ],
+      "sources": [
+        "S7",
+        "S30",
+        "S18",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CM-evenement-moumie-poison",
+      "titre": "Empoisonnement de Félix-Roland Moumié à Genève",
+      "date": "1960-10-15",
+      "date_affichee": "15 octobre-3 novembre 1960",
+      "precision": "jour",
+      "description": "Félix-Roland Moumié, dirigeant de l'UPC en exil, est empoisonné au thallium dans un hôtel de Genève le 15 octobre 1960 selon Osidimbea, et meurt le 3 novembre. Wikipédia indique que la justice suisse a prononcé un non-lieu.",
+      "fin": "1960-11-03",
+      "regions": [
+        "Genève (Suisse)"
+      ],
+      "sources": [
+        "S30",
+        "S75",
+        "S85"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Attribution (services secrets français) discutée ; à valider."
+    },
+    {
+      "id": "CM-evenement-plebiscite-1961",
+      "titre": "Plébiscites au Cameroun britannique",
+      "date": "1961-02-11",
+      "date_affichee": "11 février 1961",
+      "precision": "jour",
+      "description": "Sous l'égide de l'ONU, les populations du Cameroun britannique choisissent entre le rattachement au Nigeria et au Cameroun. Le Nord rejoint le Nigeria, le Sud se réunit avec l'ancien Cameroun français.",
+      "acteurs": [
+        "ONU",
+        "Cameroun méridional",
+        "Cameroun septentrional"
+      ],
+      "sources": [
+        "S4",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CM-evenement-reunification",
+      "titre": "Réunification et République fédérale du Cameroun",
+      "date": "1961-10-01",
+      "date_affichee": "1er octobre 1961",
+      "precision": "jour",
+      "description": "Le Cameroun méridional britannique s'unit à la République du Cameroun, formant la République fédérale avec Ahmadou Ahidjo comme président. John Ngu Foncha en est vice-président selon Wikipédia.",
+      "acteurs": [
+        "Ahmadou Ahidjo",
+        "John Ngu Foncha"
+      ],
+      "sources": [
+        "S7",
+        "S18",
+        "S3",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CM-evenement-fin-federalisme",
+      "titre": "Référendum mettant fin au fédéralisme",
+      "date": "1972-05-20",
+      "date_affichee": "20 mai 1972",
+      "precision": "jour",
+      "description": "Le 20 mai 1972, un référendum met fin à la fédération et crée la République unie du Cameroun, devenue République du Cameroun en 1984. Le 20 mai est aujourd'hui la fête nationale.",
+      "sources": [
+        "S7",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CM-evenement-soul-makossa",
+      "titre": "Succès mondial de « Soul Makossa »",
+      "date": "1972-01-01",
+      "date_affichee": "1972",
+      "precision": "annee",
+      "description": "Manu Dibango enregistre son premier album O Boso, puis connaît un succès mondial avec Soul Makossa, qui se vend à des millions d'exemplaires et lui vaut un triomphe à New York.",
+      "acteurs": [
+        "Manu Dibango"
+      ],
+      "sources": [
+        "S21",
+        "S69"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CM-evenement-demission-ahidjo",
+      "titre": "Démission d'Ahmadou Ahidjo",
+      "date": "1982-11-04",
+      "date_affichee": "4 novembre 1982",
+      "precision": "jour",
+      "description": "Ahmadou Ahidjo démissionne de la présidence le 4 novembre 1982. Son Premier ministre Paul Biya lui succède et forme son premier gouvernement quelques jours plus tard.",
+      "sources": [
+        "S18",
+        "S32",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CM-evenement-coup-1984",
+      "titre": "Tentative de coup d'État du 6 avril 1984",
+      "date": "1984-04-06",
+      "date_affichee": "6 avril 1984",
+      "precision": "jour",
+      "description": "Des soldats de la Garde républicaine tentent de renverser le président Paul Biya. Osidimbea évoque environ 70 morts. Ahmadou Ahidjo est condamné à mort par contumace, alors qu'il a toujours nié toute participation.",
+      "sources": [
+        "S31",
+        "S18"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Bilan indicatif selon une seule source."
+      },
+      "sensible": true,
+      "note_sensibilite": "Événement politique récent ; bilan et responsabilités disputés."
+    },
+    {
+      "id": "CM-evenement-mai-1990",
+      "titre": "Marche pour le multipartisme",
+      "date": "1990-05-26",
+      "date_affichee": "26 mai 1990",
+      "precision": "jour",
+      "description": "Le 26 mai 1990, John Fru Ndi marche pour réclamer le multipartisme malgré l'interdiction, et six personnes sont tuées selon Osidimbea. L'Assemblée nationale vote en décembre 1990 des lois sur la création de partis.",
+      "sources": [
+        "S33",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Événement politique avec morts : à valider."
+    },
+    {
+      "id": "CM-evenement-mondial-1990",
+      "titre": "Le Cameroun en quarts de finale de la Coupe du monde",
+      "date": "1990-01-01",
+      "date_affichee": "1990",
+      "precision": "annee",
+      "description": "À la Coupe du monde en Italie, l'équipe du Cameroun bat l'Argentine au premier match puis se qualifie pour les quarts de finale, une qualification qualifiée d'historique par Osidimbea, avant de perdre contre l'Angleterre.",
+      "sources": [
+        "S33"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Score et contexte à confirmer par une source sportive (FIFA)."
+      }
+    },
+    {
+      "id": "CM-evenement-crise-anglophone",
+      "titre": "Crise dans les régions anglophones",
+      "date": "2016-11-01",
+      "date_affichee": "depuis novembre 2016",
+      "precision": "mois",
+      "description": "En novembre 2016, des enseignants et des juristes protestent contre la place du français et du droit civil dans les régions anglophones. La contestation devient, à partir de fin 2017, un conflit armé entre l'État et des groupes séparatistes qui ont proclamé une « Ambazonie », non reconnue internationalement.",
+      "sources": [
+        "S4",
+        "S35"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source non-Wikipédia seulement pour le début des manifestations."
+      },
+      "sensible": true,
+      "note_sensibilite": "Conflit en cours : positions des parties et chiffres à présenter avec des sources de l'ONU et d'ONG ; non fournis ici."
+    },
+    {
+      "id": "CM-evenement-inscription-dja",
+      "titre": "Inscription de la réserve du Dja au patrimoine mondial",
+      "date": "1987-01-01",
+      "date_affichee": "1987",
+      "precision": "annee",
+      "description": "La réserve de faune du Dja est inscrite sur la Liste du patrimoine mondial en 1987.",
+      "regions": [
+        "bassin du Congo"
+      ],
+      "sources": [
+        "S8",
+        "S11"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CM-evenement-inscription-sangha",
+      "titre": "Inscription du Trinational de la Sangha",
+      "date": "2012-01-01",
+      "date_affichee": "2012",
+      "precision": "annee",
+      "description": "Le Trinational de la Sangha, partagé avec la RCA et le Congo, est inscrit sur la Liste du patrimoine mondial en 2012.",
+      "sources": [
+        "S9",
+        "S11"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CM-evenement-inscription-nguon",
+      "titre": "Inscription du Nguon au patrimoine immatériel",
+      "date": "2023-01-01",
+      "date_affichee": "2023",
+      "precision": "annee",
+      "description": "Les rituels de gouvernance Nguon de la communauté bamoun sont inscrits sur la Liste représentative du patrimoine culturel immatériel de l'humanité en 2023.",
+      "sources": [
+        "S16"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CM-evenement-inscription-ngondo",
+      "titre": "Inscription du Ngondo au patrimoine immatériel",
+      "date": "2024-01-01",
+      "date_affichee": "2024",
+      "precision": "annee",
+      "description": "Le Ngondo, culte des oracles de l'eau chez les Sawa, est inscrit sur la Liste représentative en 2024, lors de la 19e session du comité.",
+      "sources": [
+        "S15",
+        "S25"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CM-evenement-inscriptions-2025",
+      "titre": "Inscriptions de 2025 : Diy-Gid-Biy, Mvet Oyeng et Guruna",
+      "date": "2025-01-01",
+      "date_affichee": "2025",
+      "precision": "annee",
+      "description": "En 2025, le paysage Diy-Gid-Biy est inscrit au patrimoine mondial, et le Mvet Oyeng (avec le Gabon et le Congo) et le Guruna (avec le Tchad) sont inscrits au patrimoine culturel immatériel.",
+      "sources": [
+        "S10",
+        "S13",
+        "S14",
+        "S11"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "oeuvres": [
+    {
+      "id": "CM-oeuvre-cimier-nja",
+      "titre": "Cimier de mascarade nja",
+      "type": "masque",
+      "description": "Ce cimier de mascarade nja, du royaume bamoun, est fait de bois, de cuivre, de perles de verre, de fibre de palmier raphia et de cauris. Il mesure environ 66 cm de haut et date d'environ 1800-1880. Le Met l'attribue à des artistes des Grassfields.",
+      "periode": "ca. 1800–80",
+      "materiaux": [
+        "bois",
+        "cuivre",
+        "perles de verre",
+        "raphia",
+        "cauris"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/311021",
+      "droits": "Image du domaine public (Open Access, CC0) consultable sur le site du Met ; non reproduite ici.",
+      "communaute": "Bamoun",
+      "numero_inventaire": "1978.412.560",
+      "sources": [
+        "S105"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Masque de mascarade : usage et statut à valider avec la communauté bamoun."
+    },
+    {
+      "id": "CM-oeuvre-cimier-kwifon",
+      "titre": "Cimier de mascarade Ngumba/Kwifon",
+      "type": "masque",
+      "description": "Ce cimier de mascarade, attribué aux Kom du groupe tikar, est taillé dans un bois dur, l'iroko, et date du XIXe siècle. Il mesure environ 63 cm de haut. Le Met en donne la provenance comme celle d'une mascarade Ngumba ou Kwifon.",
+      "periode": "19th century",
+      "materiaux": [
+        "iroko"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/309790",
+      "droits": "Image du domaine public (Open Access, CC0) consultable sur le site du Met ; non reproduite ici.",
+      "communaute": "Kom (groupe tikar)",
+      "numero_inventaire": "1972.4.2",
+      "sources": [
+        "S106"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Mascarade de société initiatique : à valider avec la communauté kom."
+    },
+    {
+      "id": "CM-oeuvre-siege-duala",
+      "titre": "Siège de prestige duala",
+      "type": "sculpture",
+      "description": "Ce siège de prestige en bois, attribué aux Duala, date du milieu à la fin du XIXe siècle. Il mesure environ 29,5 cm de haut pour 48 cm de large.",
+      "periode": "Mid–late 19th century",
+      "materiaux": [
+        "bois"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/309821",
+      "droits": "Image du domaine public (Open Access, CC0) consultable sur le site du Met ; non reproduite ici.",
+      "communaute": "Duala",
+      "numero_inventaire": "1972.4.31",
+      "sources": [
+        "S107"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CM-oeuvre-ndop",
+      "titre": "Ndop, étoffe royale",
+      "type": "textile",
+      "description": "Ce ndop, étoffe royale de cérémonie en coton et laine teints, est attribué aux peuples bamilékés et daté de la première moitié du XXe siècle. Il atteint 8,2 mètres de long.",
+      "periode": "early–mid-20th century",
+      "materiaux": [
+        "coton",
+        "laine",
+        "teinture"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/636847",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici, droits à vérifier.",
+      "communaute": "Bamilékés",
+      "numero_inventaire": "2013.1140.15",
+      "sources": [
+        "S108"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CM-oeuvre-masque-elephant",
+      "titre": "Masque éléphant aka ou mbap nteng",
+      "type": "masque",
+      "description": "Ce masque éléphant est un vêtement de tête en coton orné de perles de verre sur une structure en bois, attribué aux peuples bamilékés et daté du XIXe au milieu du XXe siècle. Il mesure environ 155 cm de haut.",
+      "periode": "19th–mid-20th century",
+      "materiaux": [
+        "coton",
+        "perles de verre",
+        "bois"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/314264",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici, droits à vérifier.",
+      "communaute": "Bamilékés",
+      "numero_inventaire": "1980.554.2",
+      "sources": [
+        "S109"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Masque de cérémonie : usage à valider avec les chefferies."
+    },
+    {
+      "id": "CM-oeuvre-corne-ndu",
+      "titre": "Ndu, corne à boire de cérémonie",
+      "type": "sculpture",
+      "description": "Cette corne de buffle à boire, ornée de perles de verre, de fibres et de tissu de coton, vient du royaume bamoun et date du début du XXe siècle. Elle mesure environ 36 cm de haut.",
+      "periode": "early 20th century",
+      "materiaux": [
+        "corne de buffle",
+        "perles de verre",
+        "fibres",
+        "coton"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/312206",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici, droits à vérifier.",
+      "communaute": "Bamoun",
+      "numero_inventaire": "1979.206.34",
+      "sources": [
+        "S110"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CM-oeuvre-figure-lefem",
+      "titre": "Figure commémorative lefem",
+      "type": "sculpture",
+      "description": "Cette grande figure masculine en bois, fibres et matière organique, est attribuée aux Bangwa et datée du XIXe au début du XXe siècle. Elle mesure environ 102 cm de haut. Le Met l'intitule « figure commémorative lefem ».",
+      "periode": "19th–early 20th century",
+      "materiaux": [
+        "bois",
+        "fibre",
+        "matière organique"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/311037",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici, droits à vérifier.",
+      "communaute": "Bangwa",
+      "numero_inventaire": "1978.412.576",
+      "sources": [
+        "S111"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Figure commémorative liée à des défunts ou à des rites : à valider avec la communauté bangwa."
+    },
+    {
+      "id": "CM-oeuvre-poteau-bamoun",
+      "titre": "Élément architectural à figure masculine",
+      "type": "architecture",
+      "description": "Cet élément en bois, probablement un sommet de poteau de maison (« house post finial » pour le Met), représente une figure masculine. Il est attribué aux Bamoun, daté du XIXe au milieu du XXe siècle, et mesure environ 91 cm de haut.",
+      "periode": "19th–mid-20th century",
+      "materiaux": [
+        "bois"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/310866",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici, droits à vérifier.",
+      "communaute": "Bamoun",
+      "numero_inventaire": "1978.412.437",
+      "sources": [
+        "S112"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CM-oeuvre-vie-de-boy",
+      "titre": "Une vie de boy",
+      "type": "livre",
+      "description": "Premier roman de Ferdinand Oyono, paru en 1956, qui s'inscrit dans la littérature de la période coloniale. Osidimbea cite ce titre avec Le Vieux Nègre et la médaille, publié la même année, et Chemin d'Europe, paru en 1960.",
+      "periode": "1956",
+      "materiaux": [
+        "papier"
+      ],
+      "institution": "Œuvre publiée (éditeur non vérifié)",
+      "url_notice": "https://www.osidimbea.cm/hommes-et-femmes/oyono-ferdinand/",
+      "droits": "Œuvre sous droits ; aucune reproduction.",
+      "createur": "Ferdinand Oyono",
+      "sources": [
+        "S19",
+        "S89"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Éditeur et numéro d'édition à vérifier (catalogue BnF ou éditeur)."
+      }
+    },
+    {
+      "id": "CM-oeuvre-main-basse",
+      "titre": "Main basse sur le Cameroun",
+      "type": "livre",
+      "description": "Ouvrage de Mongo Beti sur la décolonisation et le régime camerounais, cité dans l'entrée Osidimbea consacrée à Ruben Um Nyobè. Osidimbea indique qu'il a été interdit en 1972 par Raymond Marcellin, sur la suggestion de Jacques Foccart ; la fiche cite l'édition La Découverte de 2003.",
+      "periode": "1972 (édition 2003)",
+      "materiaux": [
+        "papier"
+      ],
+      "institution": "La Découverte (édition 2003, selon Osidimbea)",
+      "url_notice": "https://www.osidimbea.cm/hommes-et-femmes/um-nyobe-ruben/",
+      "droits": "Œuvre sous droits ; aucune reproduction.",
+      "createur": "Mongo Beti",
+      "sources": [
+        "S17",
+        "S77"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de première publication à vérifier (catalogue)."
+      },
+      "sensible": true,
+      "note_sensibilite": "Livre politique interdit en France ; présentation neutre."
+    },
+    {
+      "id": "CM-oeuvre-fils-agatha",
+      "titre": "Le Fils d'Agatha Moudio",
+      "type": "livre",
+      "description": "Roman de Francis Bebey, qui lui a valu le Grand prix littéraire d'Afrique noire en 1968, selon Osidimbea.",
+      "periode": "avant 1968",
+      "materiaux": [
+        "papier"
+      ],
+      "institution": "Œuvre publiée (éditeur non vérifié)",
+      "url_notice": "https://www.osidimbea.cm/hommes-et-femmes/bebey-francis/",
+      "droits": "Œuvre sous droits ; aucune reproduction.",
+      "createur": "Francis Bebey",
+      "sources": [
+        "S20"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année de parution et éditeur à vérifier."
+      }
+    },
+    {
+      "id": "CM-oeuvre-soul-makossa",
+      "titre": "Soul Makossa",
+      "type": "musique",
+      "description": "Titre de Manu Dibango, devenu un tube mondial à partir de 1972-1973. Il a contribué à la nomination de l'album O Boso à l'Oscar de Hollywood en 1974, d'après Osidimbea.",
+      "periode": "1972",
+      "materiaux": [],
+      "institution": "Disque (éditeur non vérifié)",
+      "url_notice": "https://www.osidimbea.cm/hommes-et-femmes/dibango-manu/",
+      "droits": "Œuvre sous droits ; aucune reproduction.",
+      "createur": "Manu Dibango",
+      "sources": [
+        "S21",
+        "S69"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Nomination « Oscar » : formulation d'Osidimbea à vérifier."
+      }
+    },
+    {
+      "id": "CM-oeuvre-saison-ombre",
+      "titre": "La Saison de l'ombre",
+      "type": "livre",
+      "description": "Roman de Léonora Miano, prix Femina 2013 d'après Osidimbea, et aussi lauréat du Grand prix du roman métis 2013.",
+      "periode": "2013",
+      "materiaux": [
+        "papier"
+      ],
+      "institution": "Œuvre publiée (éditeur non vérifié)",
+      "url_notice": "https://www.osidimbea.cm/hommes-et-femmes/miano-leonora/",
+      "droits": "Œuvre sous droits ; aucune reproduction.",
+      "createur": "Léonora Miano",
+      "sources": [
+        "S22"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Éditeur à vérifier."
+      }
+    }
+  ],
+  "proverbes": [],
+  "sources": [
+    {
+      "id": "S1",
+      "titre": "Population totale — Cameroun (SP.POP.TOTL)",
+      "institution": "Banque mondiale",
+      "annee": 2026,
+      "url": "https://api.worldbank.org/v2/country/CMR/indicator/SP.POP.TOTL?format=json&per_page=5",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S2",
+      "titre": "Wikidata — Cameroun (Q1009)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q1009",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S3",
+      "titre": "Cameroun — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Cameroun",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S4",
+      "titre": "Histoire du Cameroun — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Histoire_du_Cameroun",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S5",
+      "titre": "Langues au Cameroun — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Langues_au_Cameroun",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S6",
+      "titre": "Culture du Cameroun — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Culture_du_Cameroun",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S7",
+      "titre": "République du Cameroun — Indépendance !",
+      "institution": "Musée royal de l'Afrique centrale (AfricaMuseum)",
+      "annee": 2020,
+      "url": "https://independance.africamuseum.be/en/node/169",
+      "type": "musee",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S8",
+      "titre": "Réserve de faune du Dja",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/407",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (description)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S9",
+      "titre": "Trinational de la Sangha",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/1380",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (description)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S10",
+      "titre": "Paysage culturel Diy-Gid-Biy des Monts Mandara",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/1745",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (description)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S11",
+      "titre": "Cameroun — Convention du patrimoine mondial",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/etatsparties/cm",
+      "type": "unesco",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S12",
+      "titre": "Listes indicatives — Cameroun",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/listesindicatives/?action=listtentative&state=cm",
+      "type": "unesco",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S13",
+      "titre": "Mvet Oyeng, musical art, practices and skills associated with the Ekang community",
+      "institution": "UNESCO — Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/mvet-oyeng-musical-art-practices-and-skills-associated-with-the-ekang-community-02253",
+      "type": "unesco",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S14",
+      "titre": "Guruna, a practice of pastoral, socio-cultural and artistic retreats centered on livestock among the Massa",
+      "institution": "UNESCO — Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/guruna-a-practice-of-pastoral-socio-cultural-and-artistic-retreats-centered-on-livestock-among-the-massa-02260",
+      "type": "unesco",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S15",
+      "titre": "Ngondo, worship of water oracles and associated cultural traditions among the Sawa",
+      "institution": "UNESCO — Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/ngondo-worship-of-water-oracles-and-associated-cultural-traditions-among-the-sawa-02140",
+      "type": "unesco",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S16",
+      "titre": "Nguon, rituals of governance and associated expressions in the Bamoun community",
+      "institution": "UNESCO — Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/nguon-rituals-of-governance-and-associated-expressions-in-the-bamoun-community-01955",
+      "type": "unesco",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S17",
+      "titre": "Ruben UM NYOBE — Osidimbea",
+      "institution": "Osidimbea — La Mémoire du Cameroun",
+      "url": "https://www.osidimbea.cm/hommes-et-femmes/um-nyobe-ruben/",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S18",
+      "titre": "Ahmadou AHIDJO — Osidimbea",
+      "institution": "Osidimbea — La Mémoire du Cameroun",
+      "url": "https://www.osidimbea.cm/hommes-et-femmes/ahidjo-ahmadou/",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S19",
+      "titre": "Ferdinand Léopold OYONO — Osidimbea",
+      "institution": "Osidimbea — La Mémoire du Cameroun",
+      "url": "https://www.osidimbea.cm/hommes-et-femmes/oyono-ferdinand/",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S20",
+      "titre": "Francis BEBEY — Osidimbea",
+      "institution": "Osidimbea — La Mémoire du Cameroun",
+      "url": "https://www.osidimbea.cm/hommes-et-femmes/bebey-francis/",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S21",
+      "titre": "Manu DIBANGO — Osidimbea",
+      "institution": "Osidimbea — La Mémoire du Cameroun",
+      "url": "https://www.osidimbea.cm/hommes-et-femmes/dibango-manu/",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S22",
+      "titre": "Léonora MIANO — Osidimbea",
+      "institution": "Osidimbea — La Mémoire du Cameroun",
+      "url": "https://www.osidimbea.cm/hommes-et-femmes/miano-leonora/",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S23",
+      "titre": "Anne Marie NZIE — Osidimbea",
+      "institution": "Osidimbea — La Mémoire du Cameroun",
+      "url": "https://www.osidimbea.cm/hommes-et-femmes/nzie-anne-marie/",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S24",
+      "titre": "Ancien Palais des Rois Bell (La Pagode) — Osidimbea",
+      "institution": "Osidimbea — La Mémoire du Cameroun",
+      "url": "https://www.osidimbea.cm/collectivites/littoral/pagode/",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S25",
+      "titre": "Histoire du Ngondo, l'Assemblée traditionnelle du peuple Sawa — Osidimbea",
+      "institution": "Osidimbea — La Mémoire du Cameroun",
+      "url": "https://www.osidimbea.cm/associations/fondations-assos/ngondo/",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S26",
+      "titre": "Histoire du département du Noun — Osidimbea",
+      "institution": "Osidimbea — La Mémoire du Cameroun",
+      "url": "https://www.osidimbea.cm/collectivites/ouest/noun/",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S27",
+      "titre": "La musique camerounaise (dossier) — Osidimbea",
+      "institution": "Osidimbea — La Mémoire du Cameroun",
+      "url": "https://www.osidimbea.cm/dossiers/musique-camerounaise/",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S28",
+      "titre": "Le Cameroun en 1955 — Osidimbea",
+      "institution": "Osidimbea — La Mémoire du Cameroun",
+      "url": "https://www.osidimbea.cm/cameroun-okoba/cameroun-1955/",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S29",
+      "titre": "Le Cameroun en 1958 — Osidimbea",
+      "institution": "Osidimbea — La Mémoire du Cameroun",
+      "url": "https://www.osidimbea.cm/cameroun-okoba/cameroun-1958/",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S30",
+      "titre": "Le Cameroun en 1960 — Osidimbea",
+      "institution": "Osidimbea — La Mémoire du Cameroun",
+      "url": "https://www.osidimbea.cm/cameroun-okoba/cameroun-1960/",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S31",
+      "titre": "Le Cameroun en 1984 — Osidimbea",
+      "institution": "Osidimbea — La Mémoire du Cameroun",
+      "url": "https://www.osidimbea.cm/cameroun-au-fil/cameroun-1984/",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S32",
+      "titre": "Le Cameroun en 1982 — Osidimbea",
+      "institution": "Osidimbea — La Mémoire du Cameroun",
+      "url": "https://www.osidimbea.cm/cameroun-au-fil/cameroun-1982/",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S33",
+      "titre": "Le Cameroun en 1990 — Osidimbea",
+      "institution": "Osidimbea — La Mémoire du Cameroun",
+      "url": "https://www.osidimbea.cm/cameroun-au-fil/cameroun-1990/",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S34",
+      "titre": "Le Cameroun en 2001 — Osidimbea",
+      "institution": "Osidimbea — La Mémoire du Cameroun",
+      "url": "https://www.osidimbea.cm/cameroun-au-fil/cameroun-2001/",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S35",
+      "titre": "Le Cameroun en 2016 — Osidimbea",
+      "institution": "Osidimbea — La Mémoire du Cameroun",
+      "url": "https://www.osidimbea.cm/cameroun-au-fil/cameroun-2016/",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S36",
+      "titre": "The Bamum script (Shü-mom) — Endangered Alphabets",
+      "institution": "Endangered Alphabets Project (Tim Brookes)",
+      "url": "https://www.endangeredalphabets.net/?p=143",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S37",
+      "titre": "Glottolog — Ewondo (ewon1239)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/ewon1239",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S38",
+      "titre": "Glottolog — Duala (dual1243)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/dual1243",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S39",
+      "titre": "Glottolog — Adamawa Fulfulde (adam1253)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/adam1253",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S40",
+      "titre": "Glottolog — Basa (Cameroon) (basa1284)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/basa1284",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S41",
+      "titre": "Glottolog — Bamun (bamu1253)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/bamu1253",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S42",
+      "titre": "Glottolog — Bulu (Cameroon) (bulu1251)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/bulu1251",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S43",
+      "titre": "Glottolog — Mafa (mafa1239)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/mafa1239",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S44",
+      "titre": "Glottolog — Baka (Cameroon) (baka1272)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/baka1272",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S45",
+      "titre": "Glottolog — Ghomálá' (ghom1247)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/ghom1247",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S46",
+      "titre": "Glottolog — Fe'fe' (fefe1239)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/fefe1239",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S47",
+      "titre": "Glottolog — Cameroon Pidgin (came1254)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/came1254",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S48",
+      "titre": "Glottolog — Medumba (medu1238)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/medu1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S49",
+      "titre": "Glottolog — Tupuri (tupu1244)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/tupu1244",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S50",
+      "titre": "Glottolog — Masana (masa1322)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/masa1322",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S51",
+      "titre": "Glottolog — French (stan1290)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1290",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S52",
+      "titre": "Glottolog — English (stan1293)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1293",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S53",
+      "titre": "Bamilékés — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Bamil%C3%A9k%C3%A9s",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S54",
+      "titre": "Sawa (peuple) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Sawa_(peuple)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S55",
+      "titre": "Bamoun (peuple) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Bamoun_(peuple)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S56",
+      "titre": "Baka (peuple) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Baka_(peuple)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S57",
+      "titre": "Mafa (peuple) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mafa_(peuple)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S58",
+      "titre": "Massa (peuple) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Massa_(peuple)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S59",
+      "titre": "Bassa (peuple du Cameroun) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Bassa_(peuple_du_Cameroun)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S60",
+      "titre": "Tikar (peuple) — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Tikar_(peuple)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S61",
+      "titre": "Chefferie de Bandjoun — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Chefferie_de_Bandjoun",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S62",
+      "titre": "Musée des civilisations de Dschang — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_civilisations_de_Dschang",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S63",
+      "titre": "Jardin botanique de Limbé — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Jardin_botanique_de_Limb%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S64",
+      "titre": "Mont Cameroun — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mont_Cameroun",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S65",
+      "titre": "Parc national de Waza — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Parc_national_de_Waza",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S66",
+      "titre": "Rhumsiki — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Rhumsiki",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S67",
+      "titre": "Musée national du Cameroun — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_du_Cameroun",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S68",
+      "titre": "Grotte de Shum Laka — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Grotte_de_Shum_Laka",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S69",
+      "titre": "Makossa — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Makossa",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S70",
+      "titre": "Bikutsi — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Bikutsi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S71",
+      "titre": "Ndolé — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Ndol%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S72",
+      "titre": "Cuisine camerounaise — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Cuisine_camerounaise",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S73",
+      "titre": "Ibrahim Njoya — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Ibrahim_Njoya",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S74",
+      "titre": "Rudolf Douala Manga Bell — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Rudolf_Douala_Manga_Bell",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S75",
+      "titre": "Félix-Roland Moumié — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/F%C3%A9lix-Roland_Moumi%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S76",
+      "titre": "Ernest Ouandié — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Ernest_Ouandi%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S77",
+      "titre": "Mongo Beti — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mongo_Beti",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S78",
+      "titre": "Marthe Ekemeyong Moumié — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Marthe_Ekemeyong_Moumi%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S79",
+      "titre": "Calixthe Beyala — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Calixthe_Beyala",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S80",
+      "titre": "Françoise Mbango Etone — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Fran%C3%A7oise_Mbango_Etone",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S81",
+      "titre": "Ahmadou Ahidjo — Wikipédia",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Ahmadou_Ahidjo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S82",
+      "titre": "Wikidata — Ruben Um Nyobè (Q1572626)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q1572626",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S83",
+      "titre": "Wikidata — Ibrahim Njoya (Q670091)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q670091",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S84",
+      "titre": "Wikidata — Rudolf Douala Manga Bell (Q656027)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q656027",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S85",
+      "titre": "Wikidata — Félix-Roland Moumié (Q3092350)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q3092350",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S86",
+      "titre": "Wikidata — Ernest Ouandié (Q3057116)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q3057116",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S87",
+      "titre": "Wikidata — Ahmadou Ahidjo (Q298718)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q298718",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S88",
+      "titre": "Wikidata — Mongo Beti (Q248047)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q248047",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S89",
+      "titre": "Wikidata — Ferdinand Oyono (Q1000379)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q1000379",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S90",
+      "titre": "Wikidata — Francis Bebey (Q529942)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q529942",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S91",
+      "titre": "Wikidata — Manu Dibango (Q445829)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q445829",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S92",
+      "titre": "Wikidata — Marthe Ekemeyong Moumié (Q26504700)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q26504700",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S93",
+      "titre": "Wikidata — Calixthe Beyala (Q297510)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q297510",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S94",
+      "titre": "Wikidata — Léonora Miano (Q465373)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q465373",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S95",
+      "titre": "Wikidata — Anne-Marie Nzié (Q175509)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q175509",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S96",
+      "titre": "Wikidata — Françoise Mbango Etone (Q229085)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q229085",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S97",
+      "titre": "Wikidata — Chefferie de Bandjoun (Q43077462)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q43077462",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S98",
+      "titre": "Wikidata — Musée des civilisations de Dschang (Q24039035)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q24039035",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S99",
+      "titre": "Wikidata — Jardin botanique de Limbé (Q3162399)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q3162399",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S100",
+      "titre": "Wikidata — Mont Cameroun (Q190562)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q190562",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S101",
+      "titre": "Wikidata — Rhumsiki (Q3429813)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q3429813",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S102",
+      "titre": "Wikidata — Musée national du Cameroun (Q16335742)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q16335742",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S103",
+      "titre": "Wikidata — Grotte de Shum Laka (Q10667178)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q10667178",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S104",
+      "titre": "Wikidata — Ngondo (Q3339328)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q3339328",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S105",
+      "titre": "Helmet crest from a nja masquerade (The Met, objet 311021)",
+      "institution": "The Metropolitan Museum of Art (API Open Access)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/311021",
+      "type": "musee",
+      "licence": "CC0 (données Open Access du Met)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S106",
+      "titre": "Helmet crest from a Ngumba/Kwifon masquerade (The Met, objet 309790)",
+      "institution": "The Metropolitan Museum of Art (API Open Access)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/309790",
+      "type": "musee",
+      "licence": "CC0 (données Open Access du Met)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S107",
+      "titre": "Prestige seat (The Met, objet 309821)",
+      "institution": "The Metropolitan Museum of Art (API Open Access)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/309821",
+      "type": "musee",
+      "licence": "CC0 (données Open Access du Met)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S108",
+      "titre": "Ndop (royal display cloth) (The Met, objet 636847)",
+      "institution": "The Metropolitan Museum of Art (API Open Access)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/636847",
+      "type": "musee",
+      "licence": "CC0 (données Open Access du Met)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S109",
+      "titre": "Aka or mbap nteng (elephant mask) (The Met, objet 314264)",
+      "institution": "The Metropolitan Museum of Art (API Open Access)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/314264",
+      "type": "musee",
+      "licence": "CC0 (données Open Access du Met)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S110",
+      "titre": "Ndu (ceremonial drinking horn) (The Met, objet 312206)",
+      "institution": "The Metropolitan Museum of Art (API Open Access)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/312206",
+      "type": "musee",
+      "licence": "CC0 (données Open Access du Met)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S111",
+      "titre": "Lefem commemorative figure (The Met, objet 311037)",
+      "institution": "The Metropolitan Museum of Art (API Open Access)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/311037",
+      "type": "musee",
+      "licence": "CC0 (données Open Access du Met)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S112",
+      "titre": "Architectural element with male figure (The Met, objet 310866)",
+      "institution": "The Metropolitan Museum of Art (API Open Access)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/310866",
+      "type": "musee",
+      "licence": "CC0 (données Open Access du Met)",
+      "consulte_le": "2026-11-21"
+    }
+  ]
+}

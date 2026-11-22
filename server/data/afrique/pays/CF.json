@@ -1,0 +1,3117 @@
+{
+ "code": "CF",
+ "nom": "République centrafricaine",
+ "region": "centre",
+ "wikidata": "Q929",
+ "maj": "2026-11-21",
+ "pays": {
+  "nom_officiel": "République centrafricaine",
+  "capitale": "Bangui",
+  "langues_officielles": [
+   "français",
+   "sango"
+  ],
+  "langues_nationales": [
+   "sango"
+  ],
+  "population": {
+   "valeur": 5513282,
+   "annee": 2025,
+   "source": "S1"
+  },
+  "superficie_km2": 622984,
+  "monnaie": "Franc CFA d'Afrique centrale (XAF, zone CEMAC)",
+  "resume": "Enclavée au cœur du continent, la République centrafricaine s'étend sur environ 623 000 km² entre savanes au nord et forêts équatoriales au sud, et partage ses frontières avec le Tchad, le Soudan, le Soudan du Sud, la République démocratique du Congo, la République du Congo et le Cameroun. Ses habitants parlent des dizaines de langues, que le sango, langue véhiculaire de tout le pays, relie au français, l'autre langue officielle. Le territoire porte les traces de longues occupations : mégalithes de la région de Bouar, forges du fer parmi les plus anciennes d'Afrique centrale, sultanats du nord-est et royaumes zandé du sud-est. La colonie française d'Oubangui-Chari, la révolte du Kongo-Wara puis l'indépendance de 1960, portée par la figure de Barthélemy Boganda, ont façonné l'histoire contemporaine, marquée ensuite par des régimes autoritaires et des conflits armés. Le patrimoine mondial y compte deux sites naturels (Manovo-Gounda St Floris et le Trinational de la Sangha) et le chant polyphonique des Aka figure sur la liste représentative de l'UNESCO.",
+  "sources": [
+   "S1",
+   "S2",
+   "S3",
+   "S5",
+   "S8",
+   "S38",
+   "S11"
+  ]
+ },
+ "langues": [
+  {
+   "id": "CF-langue-sango",
+   "nom": "Sango",
+   "description": "Le sango est la langue de communication de tout le pays. Il est issu d'un parler lié au ngbandi des bords de l'Oubangui, utilisé par les commerçants fluviaux au XIXe siècle, puis devenu langue maternelle de nombreux enfants de Bangui. Il est langue nationale depuis 1964 et langue officielle, avec le français, depuis 1991 ; Wikipédia (en) l'estime parlé ou compris par environ 90 % de la population.",
+   "famille": "Atlantic-Congo, Volta-Congo, North Volta-Congo, Cameroun-Ubangian, Ubangi, Ngbandi-Mongoba-Kazibati, Ngbandic, Nuclear Ngbandic, Sangoic",
+   "glottocode": "sang1328",
+   "statut_linguistique": [
+    "officielle",
+    "nationale",
+    "véhiculaire"
+   ],
+   "regions": [
+    "tout le pays",
+    "Bangui"
+   ],
+   "sources": [
+    "S21",
+    "S5",
+    "S38"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier",
+    "note": "Glottocode sang1328 (Sango, niveau langue) lu sur Glottolog, classé dans Ngbandic. Attention : la graine collectée donnait sang1327, qui est le code de la famille Sangoic. Dates 1964 et 1991 d'après Wikipédia (en)."
+   },
+   "nom_local": "Sängö"
+  },
+  {
+   "id": "CF-langue-français",
+   "nom": "Français",
+   "description": "Le français est la langue de l'écrit, de l'administration, de l'enseignement et des médias. Selon Wikipédia (en), qui cite une étude de l'Observatoire démographique et statistique de l'espace francophone, environ 40 % des plus de 10 ans étaient estimés alphabétisés en français en 2022. Il cohabite avec le sango, plus largement parlé à l'oral.",
+   "famille": "Indo-européen, italique, roman",
+   "glottocode": "stan1290",
+   "statut_linguistique": [
+    "officielle"
+   ],
+   "regions": [
+    "tout le pays"
+   ],
+   "sources": [
+    "S22",
+    "S5"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier",
+    "note": "Glottocode stan1290 lu sur Glottolog (French)."
+   },
+   "ecritures": [
+    "latin"
+   ]
+  },
+  {
+   "id": "CF-langue-gbaya-(nord-ouest)",
+   "nom": "Gbaya (nord-ouest)",
+   "description": "Les parlers gbaya se rencontrent dans tout l'ouest du pays. Selon la notice d'ELLAF, le gbaya n'a pas de statut officiel en République centrafricaine ni au Cameroun et n'a pas de graphie standardisée ; une traduction de la Bible en yàáyùwèè propose une écriture phonologique. La notice de Glottolog situe le gbaya du nord-ouest dans l'ouest du pays.",
+   "famille": "Atlantic-Congo, Volta-Congo, North Volta-Congo, Gbaya-Manza-Ngbaka, Gbaya méridional-occidental",
+   "glottocode": "nort2775",
+   "statut_linguistique": [
+    "minoritaire"
+   ],
+   "regions": [
+    "ouest"
+   ],
+   "sources": [
+    "S23",
+    "S56",
+    "S5"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier",
+    "note": "Glottocode nort2775 (Northwest Gbaya) lu sur Glottolog ; les parlers gbaya forment un ensemble de variétés, d'autres glottocodes existent (par exemple sout2785)."
+   }
+  },
+  {
+   "id": "CF-langue-banda-bambari-(banda-linda)",
+   "nom": "Banda-Bambari (banda-linda)",
+   "description": "Le banda-bambari, appelé linda dans les travaux de Simha Arom, appartient à l'ensemble banda du centre du pays. C'est une langue à tons : Arom montre que les tambours à fente des Banda-Linda transmettent des messages en reproduisant trois hauteurs tonales et les rythmes de la parole.",
+   "famille": "Atlantic-Congo, Volta-Congo, North Volta-Congo, Cameroun-Ubangian, Ubangi, Ubangi Ka, Bandaic, Nuclear Bandaic, Central Bandaic, Lindaic",
+   "glottocode": "band1344",
+   "statut_linguistique": [
+    "minoritaire"
+   ],
+   "regions": [
+    "centre"
+   ],
+   "sources": [
+    "S24",
+    "S58",
+    "S5"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier",
+    "note": "Glottocode band1344 (Banda-Bambari, ISO liy) lu sur Glottolog ; correspondance avec le nom Banda-Linda déduite de l'article d'Arom : à confirmer par un linguiste."
+   }
+  },
+  {
+   "id": "CF-langue-zande",
+   "nom": "Zandé",
+   "description": "Le zandé est la langue des royaumes et chefferies du sud-est, dans la région du Haut-Oubangui et du Bahr el-Ghazal. Wikipédia (en), citant Ethnologue, lui attribue plus d'un million de locuteurs au total, dont une partie seulement en République centrafricaine.",
+   "famille": "Atlantic-Congo, Volta-Congo, North Volta-Congo, Cameroun-Ubangian, Ubangi, Zandic, Zande-Nzakara",
+   "glottocode": "zand1248",
+   "statut_linguistique": [
+    "minoritaire"
+   ],
+   "regions": [
+    "sud-est"
+   ],
+   "sources": [
+    "S25",
+    "S5",
+    "S4"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier",
+    "note": "Glottocode zand1248 lu sur Glottolog."
+   }
+  },
+  {
+   "id": "CF-langue-ngbaka-(minagende)",
+   "nom": "Ngbaka (minagende)",
+   "description": "Le ngbaka minagende fait partie du groupe Gbaya-Manza-Ngbaka. Les coordonnées de référence de Glottolog le placent dans le sud-ouest du pays.",
+   "famille": "Atlantic-Congo, Volta-Congo, North Volta-Congo, Gbaya-Manza-Ngbaka, Gbaya oriental, Gbanu-Manza-Ngbaka, Manza-Ngbaka",
+   "glottocode": "ngba1285",
+   "statut_linguistique": [
+    "minoritaire"
+   ],
+   "regions": [
+    "sud-ouest"
+   ],
+   "sources": [
+    "S26"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier",
+    "note": "Glottocode ngba1285 lu sur Glottolog ; région déduite des coordonnées de référence (indicatif)."
+   }
+  },
+  {
+   "id": "CF-langue-manza",
+   "nom": "Manza",
+   "description": "Le manza est une langue du groupe Gbaya-Manza-Ngbaka, parlée dans le centre-ouest du pays selon les coordonnées de référence de Glottolog.",
+   "famille": "Atlantic-Congo, Volta-Congo, North Volta-Congo, Gbaya-Manza-Ngbaka, Gbaya oriental, Gbanu-Manza-Ngbaka, Manza-Ngbaka, Manzaic",
+   "glottocode": "manz1243",
+   "statut_linguistique": [
+    "minoritaire"
+   ],
+   "regions": [
+    "centre-ouest"
+   ],
+   "sources": [
+    "S27"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier",
+    "note": "Glottocode manz1243 lu sur Glottolog ; région déduite des coordonnées (indicatif)."
+   }
+  },
+  {
+   "id": "CF-langue-yakoma",
+   "nom": "Yakoma",
+   "description": "Le yakoma appartient à la même branche ngbandic que la langue à l'origine du sango. Il est parlé dans le sud-est, le long de l'Oubangui, selon les coordonnées de référence de Glottolog.",
+   "famille": "Atlantic-Congo, Volta-Congo, North Volta-Congo, Cameroun-Ubangian, Ubangi, Ngbandi-Mongoba-Kazibati, Ngbandic, Nuclear Ngbandic",
+   "glottocode": "yako1252",
+   "statut_linguistique": [
+    "minoritaire"
+   ],
+   "regions": [
+    "sud-est"
+   ],
+   "sources": [
+    "S28",
+    "S21"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier",
+    "note": "Glottocode yako1252 lu sur Glottolog ; région déduite des coordonnées (indicatif)."
+   }
+  },
+  {
+   "id": "CF-langue-aka",
+   "nom": "Aka",
+   "description": "L'aka est la langue de tradition orale des Aka de la forêt du sud-ouest. L'Encyclopédie des Pygmées Aka, publiée de 1981 à 2018 en 16 volumes (environ 5 000 pages), lui est entièrement consacrée. Glottolog le désigne sous le nom Yaka (Central African Republic).",
+   "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, bantoïde, bantou (Likouala-Sangha)",
+   "glottocode": "yaka1272",
+   "statut_linguistique": [
+    "minoritaire"
+   ],
+   "regions": [
+    "sud-ouest (Lobaye)"
+   ],
+   "sources": [
+    "S29",
+    "S54"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier",
+    "note": "Glottocode yaka1272 lu sur Glottolog (Yaka, République centrafricaine, ISO axk) ; identification avec la langue des Aka du MNHN supposée d'après la région et le code (à confirmer)."
+   }
+  },
+  {
+   "id": "CF-langue-mbati",
+   "nom": "Mbati",
+   "description": "Le mbati est l'une des langues bantoues les plus septentrionales. Selon Wikipédia (en), qui cite un mémoire de 2020, il est parlé par environ 60 000 personnes dans le sud-ouest, autour de Mbaïki.",
+   "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, bantoïde, bantou (Likouala-Sangha)",
+   "glottocode": "mbat1248",
+   "statut_linguistique": [
+    "minoritaire"
+   ],
+   "regions": [
+    "sud-ouest (Mbaïki)"
+   ],
+   "sources": [
+    "S30",
+    "S5"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier",
+    "note": "Glottocode mbat1248 lu sur Glottolog ; effectif repris de Wikipédia (en)."
+   }
+  },
+  {
+   "id": "CF-langue-runga",
+   "nom": "Runga",
+   "description": "Le runga (ou aiki) est une langue maban, la plus méridionale de ce groupe, parlée dans le nord du pays. Wikipédia (en) rapporte, d'après Blench, environ 40 000 locuteurs dans les années 1990, la moitié en République centrafricaine et l'autre au Tchad.",
+   "famille": "Maban, Mabang, Runga-Kibet",
+   "glottocode": "rung1258",
+   "statut_linguistique": [
+    "minoritaire"
+   ],
+   "regions": [
+    "nord"
+   ],
+   "sources": [
+    "S31",
+    "S5"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier",
+    "note": "Glottocode rung1258 lu sur Glottolog ; effectif 1990 repris de Wikipédia (en)."
+   }
+  },
+  {
+   "id": "CF-langue-arabe-tchadien",
+   "nom": "Arabe tchadien",
+   "description": "Selon Wikipédia (en), l'arabe est parlé dans le nord-est, où le sango est moins répandu ; la variété tchadienne y domine, notamment dans les contextes religieux musulmans.",
+   "famille": "Afro-asiatique, sémitique, arabe soudano-tchadien",
+   "glottocode": "chad1249",
+   "statut_linguistique": [
+    "régionale"
+   ],
+   "regions": [
+    "nord-est"
+   ],
+   "sources": [
+    "S32",
+    "S5"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier",
+    "note": "Glottocode chad1249 lu sur Glottolog."
+   }
+  },
+  {
+   "id": "CF-langue-kare",
+   "nom": "Kare",
+   "description": "Le kare est une langue mbumic proche du pana, située dans l'ouest du pays selon les coordonnées de référence de Glottolog.",
+   "famille": "Atlantic-Congo, Volta-Congo, North Volta-Congo, Cameroun-Ubangian, Mbumic, Mbum central, Karangic, Kare-Pana",
+   "glottocode": "kare1338",
+   "statut_linguistique": [
+    "minoritaire"
+   ],
+   "regions": [
+    "ouest"
+   ],
+   "sources": [
+    "S33"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier",
+    "note": "Glottocode kare1338 lu sur Glottolog ; région déduite des coordonnées (indicatif)."
+   }
+  },
+  {
+   "id": "CF-langue-sara-kaba",
+   "nom": "Sara Kaba",
+   "description": "Le sara kaba appartient aux langues soudaniques centrales, dont Wikipédia (en) rappelle qu'elles se parlent surtout dans le nord, vers les frontières du Tchad et du Soudan.",
+   "famille": "Soudanique central, Sara-Bongo-Bagirmi, Sara-Kaba",
+   "glottocode": "sara1319",
+   "statut_linguistique": [
+    "minoritaire"
+   ],
+   "regions": [
+    "nord"
+   ],
+   "sources": [
+    "S34",
+    "S5"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier",
+    "note": "Glottocode sara1319 lu sur Glottolog."
+   }
+  },
+  {
+   "id": "CF-langue-gula",
+   "nom": "Gula",
+   "description": "Le gula est une langue soudanique centrale du groupe Fer-Gula, située dans le nord-est selon les coordonnées de référence de Glottolog.",
+   "famille": "Soudanique central, Sara-Bongo-Bagirmi, Fer-Gula",
+   "glottocode": "gula1266",
+   "statut_linguistique": [
+    "minoritaire"
+   ],
+   "regions": [
+    "nord-est"
+   ],
+   "sources": [
+    "S35",
+    "S5"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier",
+    "note": "Glottocode gula1266 lu sur Glottolog ; région déduite des coordonnées (indicatif)."
+   }
+  },
+  {
+   "id": "CF-langue-nzakara",
+   "nom": "Nzakara",
+   "description": "Le nzakara est proche du zandé au sein du groupe Zande-Nzakara et se situe dans le sud-est selon les coordonnées de référence de Glottolog.",
+   "famille": "Atlantic-Congo, Volta-Congo, North Volta-Congo, Cameroun-Ubangian, Ubangi, Zandic, Zande-Nzakara",
+   "glottocode": "nzak1247",
+   "statut_linguistique": [
+    "minoritaire"
+   ],
+   "regions": [
+    "sud-est"
+   ],
+   "sources": [
+    "S36"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier",
+    "note": "Glottocode nzak1247 lu sur Glottolog ; région déduite des coordonnées (indicatif)."
+   }
+  },
+  {
+   "id": "CF-langue-mpiemo",
+   "nom": "Mpiemo",
+   "description": "Le mpiemo est une langue bantoue du sud-ouest, dans la région de la Sangha selon les coordonnées de référence de Glottolog.",
+   "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, bantoïde, bantou (Makaa-Njem)",
+   "glottocode": "mpie1238",
+   "statut_linguistique": [
+    "minoritaire"
+   ],
+   "regions": [
+    "sud-ouest"
+   ],
+   "sources": [
+    "S37"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier",
+    "note": "Glottocode mpie1238 lu sur Glottolog ; région déduite des coordonnées (indicatif)."
+   }
+  }
+ ],
+ "peuples": [
+  {
+   "id": "CF-peuple-aka",
+   "nom": "Aka (Ba'Aka)",
+   "description": "Les Aka vivent dans les forêts du sud-ouest, au sud de la République centrafricaine et au nord du Congo, et vivent de chasse, de cueillette, de miel et de pêche. Ils sont connus pour leur polyphonie vocale, inscrite par l'UNESCO, et pour des campements dont les huttes sont construites par les femmes. Le MNHN estime leur nombre à environ 100 000 personnes, tandis que l'UNESCO et RFI soulignent les pressions de la déforestation et la perte d'accès à la forêt.",
+   "langues": [
+    "aka"
+   ],
+   "regions": [
+    "Lobaye",
+    "Sangha-Mbaéré",
+    "sud-ouest"
+   ],
+   "sources": [
+    "S9",
+    "S20",
+    "S54",
+    "S53",
+    "S55",
+    "S69"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "pays_partages": [
+    "CG"
+   ],
+   "organisation": "Petits groupes familiaux de trente à quarante personnes selon l'édition Ocora ; communautés dites démocratiques.",
+   "activites": [
+    "chasse",
+    "collecte (miel, chenilles, ignames)",
+    "musique polyphonique"
+   ],
+   "sensible": true,
+   "note_sensibilite": "Communauté autochtone dont des rites sont évoqués ; la relecture par des représentants aka (par exemple l'Union des communautés Ba'Aka de Bayanga) est souhaitable. L'UNESCO emploie le terme « Pygmées » dans l'intitulé officiel."
+  },
+  {
+   "id": "CF-peuple-gbaya",
+   "nom": "Gbaya",
+   "description": "Les Gbaya vivent dans l'ouest du pays et au Cameroun. D'après ELLAF, leur société est peu hiérarchisée, sans spécialistes de la parole : tout le monde peut conter, et la parole est très valorisée. Leur langue donne son nom aux monuments mégalithiques de la région de Bouar, appelés Tazunu (« pierre debout »). Wikipédia (fr) les compte parmi les premiers groupes du pays avec 33 % de la population selon une estimation d'ensemble non datée.",
+   "langues": [
+    "gbaya"
+   ],
+   "regions": [
+    "ouest",
+    "Bouar"
+   ],
+   "sources": [
+    "S56",
+    "S39",
+    "S57",
+    "S3"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "pays_partages": [
+    "CM"
+   ],
+   "organisation": "Hiérarchie très réduite selon ELLAF.",
+   "activites": [
+    "contes et chants",
+    "chasse"
+   ]
+  },
+  {
+   "id": "CF-peuple-banda",
+   "nom": "Banda",
+   "description": "Les Banda forment l'un des principaux ensembles du centre du pays, avec des communautés en RDC, au Cameroun et au Soudan du Sud. Michel Georges a étudié en 1959-1960 la vie rurale d'un village de la région de Grimari. Les Banda-Linda sont connus des ethnomusicologues pour leur langage tambouriné. Ils ont aussi subi les razzias esclavagistes du XIXe siècle venues du nord.",
+   "langues": [
+    "banda"
+   ],
+   "regions": [
+    "centre",
+    "Grimari",
+    "Bambari"
+   ],
+   "sources": [
+    "S68",
+    "S40",
+    "S58",
+    "S4",
+    "S13"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "pays_partages": [
+    "CD",
+    "CM",
+    "SS"
+   ],
+   "activites": [
+    "agriculture",
+    "forge",
+    "musique"
+   ]
+  },
+  {
+   "id": "CF-peuple-zande",
+   "nom": "Zandé",
+   "description": "Les Zandé sont associés aux sultanats et chefferies du sud-est, entre le Haut-Oubangui et le Bahr el-Ghazal. Leur expansion, du XVIIIe au XIXe siècle, est présentée comme le phénomène historique le plus marquant de la période précoloniale dans la région.",
+   "langues": [
+    "zandé",
+    "nzakara"
+   ],
+   "regions": [
+    "sud-est",
+    "Bangassou",
+    "Rafaï",
+    "Zémio"
+   ],
+   "sources": [
+    "S4",
+    "S5",
+    "S13"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "pays_partages": [
+    "CD",
+    "SS"
+   ],
+   "organisation": "Sultanats (Bangassou, Rafaï, Zémio) vers 1750-1900 selon Wikipédia (fr)."
+  },
+  {
+   "id": "CF-peuple-yakoma-ngbandi",
+   "nom": "Yakoma et riverains de l'Oubangui",
+   "description": "Les populations ngbandi et yakoma vivent le long de l'Oubangui. La langue ngbandi est le point de départ du sango, qui s'est répandu avec le commerce fluvial au XIXe siècle. Diki-Kidiri rattache la formation du sango à l'histoire du Haut-Oubangui depuis le XVIIe siècle.",
+   "langues": [
+    "sango",
+    "yakoma"
+   ],
+   "regions": [
+    "Oubangui",
+    "sud"
+   ],
+   "sources": [
+    "S38",
+    "S21",
+    "S28"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "pays_partages": [
+    "CD"
+   ]
+  },
+  {
+   "id": "CF-peuple-mbati",
+   "nom": "Mbati",
+   "description": "Les Mbati parlent l'une des langues bantoues les plus septentrionales, dans le sud-ouest autour de Mbaïki. La notice de la liste indicative cite les Mbati, avec les Gbaka et les Mondjombo, parmi les « grands voisins » des Aka, arrivés dans la région au XIXe siècle.",
+   "langues": [
+    "mbati"
+   ],
+   "regions": [
+    "Mbaïki",
+    "sud-ouest"
+   ],
+   "sources": [
+    "S5",
+    "S20",
+    "S30"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "CF-peuple-runga",
+   "nom": "Runga",
+   "description": "Les Runga parlent une langue maban dans le nord du pays, avec des locuteurs de l'autre côté de la frontière tchadienne. La notice de la liste indicative de Ndélé cite les Rounga parmi les populations établies sur le plateau et la plaine de Ndélé.",
+   "langues": [
+    "runga"
+   ],
+   "regions": [
+    "nord",
+    "Ndélé"
+   ],
+   "sources": [
+    "S5",
+    "S13",
+    "S31"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "pays_partages": [
+    "TD"
+   ]
+  },
+  {
+   "id": "CF-peuple-sara-kara",
+   "nom": "Sara, Kara et Gula du nord",
+   "description": "Dans le nord et le nord-est vivent des communautés de langues soudaniques centrales (sara kaba, gula, kara). La notice de Ndélé les cite, avec les Banda, parmi les groupes établis après la fin du sultanat du Dar el-Kouti.",
+   "langues": [
+    "sara kaba",
+    "gula",
+    "kara"
+   ],
+   "regions": [
+    "nord",
+    "nord-est",
+    "Ndélé"
+   ],
+   "sources": [
+    "S13",
+    "S34",
+    "S35",
+    "S5"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "pays_partages": [
+    "TD",
+    "SD"
+   ]
+  }
+ ],
+ "sites": [
+  {
+   "id": "CF-site-manovo-gounda",
+   "nom": "Parc national du Manovo-Gounda St Floris",
+   "type": "patrimoine_mondial",
+   "description": "Ce vaste parc de savanes du nord couvre 1 740 000 hectares à cheval sur les zones soudano-sahélienne et soudano-guinéenne. Il abrite éléphants, rhinocéros noirs, guépards, léopards et de nombreux oiseaux d'eau. Inscrit en 1988, il figure sur la Liste du patrimoine mondial en péril depuis 1997, en raison notamment du braconnage et du pâturage.",
+   "regions": [
+    "Bamingui-Bangoran",
+    "nord"
+   ],
+   "sources": [
+    "S6",
+    "S8"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "unesco_id": "475",
+   "inscription": 1988,
+   "coordonnees": {
+    "lat": 9.0,
+    "lng": 21.5
+   },
+   "wikidata": "Q503835"
+  },
+  {
+   "id": "CF-site-sangha-trinational",
+   "nom": "Trinational de la Sangha",
+   "type": "patrimoine_mondial",
+   "description": "Ce site transfrontalier relie trois parcs nationaux du bassin du Congo, au Cameroun, au Congo et en Centrafrique (parc national de Dzanga-Ndoki), pour environ 746 000 hectares et une vaste zone tampon incluant la réserve de Dzanga-Sangha. Il protège éléphants de forêt, gorilles de plaine de l'ouest et chimpanzés. L'UNESCO insiste sur les droits et moyens d'existence des populations autochtones, comme les BaAka.",
+   "regions": [
+    "Sangha-Mbaéré",
+    "sud-ouest"
+   ],
+   "sources": [
+    "S7",
+    "S8",
+    "S53"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "unesco_id": "1380",
+   "inscription": 2012,
+   "wikidata": "Q2580451"
+  },
+  {
+   "id": "CF-site-megalithes-bouar",
+   "nom": "Mégalithes de Bouar (Tazunu)",
+   "type": "liste_indicative",
+   "description": "Dans la région de Bouar, à l'ouest, des monuments de pierres dressées s'étendent sur environ 130 km de long et 30 km de large. Le terme gbaya-kara Tazunu signifie « pierre debout ». Pierre Vidal a fouillé sept monuments à partir de 1961, puis Étienne Zangato en a étudié l'architecture. Le site figure sur la liste indicative depuis 2006.",
+   "regions": [
+    "Nana-Mambéré",
+    "Bouar"
+   ],
+   "sources": [
+    "S12",
+    "S39",
+    "S4"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "coordonnees": {
+    "lat": 6.03,
+    "lng": 15.38
+   },
+   "periode": "jusqu'au Ier siècle apr. J.-C. selon Wikipédia (fr)"
+  },
+  {
+   "id": "CF-site-tata-ndele",
+   "nom": "Tata du sultan Sénoussi et ville de Ndélé",
+   "type": "liste_indicative",
+   "description": "Cet ensemble de la liste indicative réunit le palais fortifié du sultan Sénoussi, les grottes de Kaga-Kpoungouvou et la ville de Ndélé. Le palais, sur une colline, servait de base aux razzias esclavagistes vers les marchés du nord ; les grottes ont servi de refuge à des populations menacées. Sénoussi est tué par les troupes françaises le 12 janvier 1911, et la ville s'est ensuite peuplée de quartiers par origines.",
+   "regions": [
+    "Bamingui-Bangoran",
+    "Ndélé"
+   ],
+   "sources": [
+    "S13",
+    "S4"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "coordonnees": {
+    "lat": 8.4,
+    "lng": 20.65
+   },
+   "sensible": true,
+   "note_sensibilite": "Lieu de mémoire de la traite esclavagiste : présentation à relire avec des historiens et les communautés concernées."
+  },
+  {
+   "id": "CF-site-penders-sengue",
+   "nom": "Sites paléo-métallurgiques de Bangui (Pendèrè-Senguè)",
+   "type": "site_archeologique",
+   "description": "La prospection a recensé 26 gisements de l'âge du fer dans l'agglomération de Bangui. Celui de Pendèrè-Senguè, au quartier Gobongo, a livré plus de 3 000 pièces (scories, tessons, objets de fer dont des lames et des bracelets) et des ateliers étalés sur 250 m. Il est inscrit sur la liste indicative.",
+   "regions": [
+    "Bangui"
+   ],
+   "sources": [
+    "S14"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "coordonnees": {
+    "lat": 4.433,
+    "lng": 18.555
+   }
+  },
+  {
+   "id": "CF-site-lengo",
+   "nom": "Gravures rupestres de Lengo",
+   "type": "site_archeologique",
+   "description": "Près de Bakouma, une dalle latéritique de plus de 200 m porte plus de 500 figures gravées : antilopes, félins, oiseaux, lances et couteaux de jet, et une silhouette humaine à tête d'oiseau que les informateurs rapprochent d'un masque rituel. Le site est sur la liste indicative.",
+   "regions": [
+    "Mbomou",
+    "Bakouma"
+   ],
+   "sources": [
+    "S15"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "CF-site-bangui",
+   "nom": "Bangui, ville fondée sur l'Oubangui",
+   "type": "ville_historique",
+   "description": "La ville naît d'un poste colonial créé en 1889 sur l'Oubangui, érigé en commune en 1912 avec un premier plan d'urbanisme de l'architecte Fanny Jolly. Son centre conserve des bâtiments coloniaux aujourd'hui très dégradés, selon Thierry Bangui. Les sites paléo-métallurgiques de son agglomération témoignent d'une occupation bien plus ancienne.",
+   "regions": [
+    "Bangui"
+   ],
+   "sources": [
+    "S19",
+    "S63",
+    "S14",
+    "S3"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "coordonnees": {
+    "lat": 4.3667,
+    "lng": 18.5833
+   }
+  },
+  {
+   "id": "CF-site-campements-aka",
+   "nom": "Forêt de Mongoumba et campements aka",
+   "type": "site_naturel",
+   "description": "Cette entrée mixte de la liste indicative associe la forêt semi-caducifoliée de Mongoumba et une dizaine de campements aka, dont les huttes sont construites par les femmes avec des matériaux végétaux renouvelables. L'État y décrit un savoir lié à la chasse, à la pharmacopée, à la danse et à la musique.",
+   "regions": [
+    "Lobaye",
+    "Mongoumba",
+    "Mbaïki"
+   ],
+   "sources": [
+    "S20",
+    "S9"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "sensible": true,
+   "note_sensibilite": "Lieux de vie d'une communauté autochtone : accord et relecture de représentants aka souhaitables avant tout développement touristique."
+  },
+  {
+   "id": "CF-site-chutes-mbi",
+   "nom": "Chutes de la Mbi",
+   "type": "site_naturel",
+   "description": "La Mbi, affluent de la Mpoko, s'enfonce dans une gorge et chute sur environ 200 m de front sur 70 m, selon la notice de la liste indicative, qui estime qu'elles dépassent celles de Boali voisines par la hauteur et le front.",
+   "regions": [
+    "Ombella-M'Poko",
+    "Bossembélé"
+   ],
+   "sources": [
+    "S18"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "coordonnees": {
+    "lat": 4.917,
+    "lng": 17.633
+   }
+  },
+  {
+   "id": "CF-site-mbaere-bodingue",
+   "nom": "Réserve intégrale de la Mbaéré-Bodingué",
+   "type": "site_naturel",
+   "description": "Complexe de 824 000 ha dans la Sangha-Mbaéré, à la confluence de la Mbaéré et de la Bodingué, avec une zone de conservation de 86 000 ha où vivent éléphants, bongos, gorilles de plaine et chimpanzés. Il est sur la liste indicative depuis 2006.",
+   "regions": [
+    "Sangha-Mbaéré",
+    "Bambio"
+   ],
+   "sources": [
+    "S17"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "CF-site-zinga",
+   "nom": "Vestiges du chemin de fer de Zinga",
+   "type": "monument",
+   "description": "Un chemin de fer de six kilomètres relia dans les années 1920 Zinga et Mongo, sur l'Oubangui, pour contourner un obstacle à la navigation ; il a cessé en 1960. Subsistent un hangar avec deux locomotives, des wagons et l'épave d'un vapeur.",
+   "regions": [
+    "Lobaye",
+    "Mongoumba"
+   ],
+   "sources": [
+    "S16"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  }
+ ],
+ "traditions": [
+  {
+   "id": "CF-tradition-polyphonie-aka",
+   "nom": "Chants polyphoniques des Aka",
+   "categorie": "musique",
+   "description": "Les Aka ont développé une polyphonie contrapuntique à quatre voix maîtrisée par toute la communauté, avec une large place à l'improvisation. Chants et danses accompagnent l'installation d'un campement, la chasse et les funérailles, avec tambour enzeko, instrument à cordes geedale-bagongo et arc musical mbela. La transmission est orale, dès l'enfance, mais déforestation, exode rural et mise en spectacle touristique fragilisent la pratique.",
+   "communautes": [
+    "Aka"
+   ],
+   "regions": [
+    "Lobaye",
+    "sud-ouest"
+   ],
+   "sources": [
+    "S9",
+    "S10",
+    "S59",
+    "S55"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "unesco": {
+    "liste": "Liste représentative",
+    "id": "00082",
+    "annee": 2008,
+    "url": "https://ich.unesco.org/en/RL/polyphonic-singing-of-the-aka-pygmies-of-central-africa-00082"
+   },
+   "nom_local": "Chants polyphoniques des Pygmées Aka",
+   "transmission": "fragile",
+   "sensible": true,
+   "note_sensibilite": "Chants liés à des cérémonies et funérailles : validation par la communauté aka recommandée."
+  },
+  {
+   "id": "CF-tradition-contes-gbaya",
+   "nom": "Contes gbaya (tò)",
+   "categorie": "oralite",
+   "description": "Le conte gbaya est une parole de nuit, jamais dite de jour, que l'on raconte après le repas autour d'un feu. Chacun peut conter, avec un répertoire de 30 à 40 récits, souvent sous forme de chantefables avec refrain repris par l'assistance. Les formules d'ouverture et de clôture sont connues, et l'ELLAF note que les contes restent vivants.",
+   "communautes": [
+    "Gbaya"
+   ],
+   "regions": [
+    "ouest"
+   ],
+   "sources": [
+    "S56",
+    "S85"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "unesco": null,
+   "nom_local": "tò",
+   "transmission": "vivante",
+   "langues": [
+    "gbaya"
+   ]
+  },
+  {
+   "id": "CF-tradition-devinettes-gbaya",
+   "nom": "Devinettes gbaya (sìŋ)",
+   "categorie": "jeu_sport",
+   "description": "Les devinettes se jouent la nuit entre enfants et plus grands, par images décrivant une propriété de l'objet à trouver. Celui qui sèche donne un village à celui qui l'a collé, et le gagnant est celui qui en cumule le plus.",
+   "communautes": [
+    "Gbaya"
+   ],
+   "regions": [
+    "ouest"
+   ],
+   "sources": [
+    "S56"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "unesco": null,
+   "nom_local": "sìŋ",
+   "transmission": "vivante",
+   "langues": [
+    "gbaya"
+   ]
+  },
+  {
+   "id": "CF-tradition-chants-gbaya",
+   "nom": "Chants gbaya (gìmà)",
+   "categorie": "musique",
+   "description": "Le répertoire gbaya comprend des chants à penser joués à la sanza, des chants d'actualité pour les soirées de danse avec tambours, des berceuses, des chants de gibier chantés par les femmes au retour de chasse et des chants de grande chasse.",
+   "communautes": [
+    "Gbaya"
+   ],
+   "regions": [
+    "ouest"
+   ],
+   "sources": [
+    "S56"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "unesco": null,
+   "nom_local": "gìmà",
+   "transmission": "vivante",
+   "langues": [
+    "gbaya"
+   ]
+  },
+  {
+   "id": "CF-tradition-proverbes-gbaya",
+   "nom": "Art du proverbe gbaya (tó-wèn)",
+   "categorie": "oralite",
+   "description": "Le proverbe gbaya, « parole pilée » ou parole cachée, permet de critiquer sans faire honte. D'après l'ELLAF, le répertoire compte environ 250 proverbes et les adultes en créent aussi selon les besoins ; on n'en dit jamais hors contexte ni à la demande.",
+   "communautes": [
+    "Gbaya"
+   ],
+   "regions": [
+    "ouest"
+   ],
+   "sources": [
+    "S56"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "unesco": null,
+   "nom_local": "tó-wèn",
+   "transmission": "vivante",
+   "langues": [
+    "gbaya"
+   ]
+  },
+  {
+   "id": "CF-tradition-langage-tambours-banda",
+   "nom": "Langage tambouriné banda-linda (lenga)",
+   "categorie": "musique",
+   "description": "Les Banda-Linda transmettent des messages avec des tambours en bois, les lenga, en reproduisant trois hauteurs tonales et les rythmes de leur langue à tons. Simha Arom analyse la pratique du point de vue du récepteur du message.",
+   "communautes": [
+    "Banda-Linda"
+   ],
+   "regions": [
+    "centre"
+   ],
+   "sources": [
+    "S58",
+    "S24"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "unesco": null,
+   "nom_local": "lenga",
+   "transmission": "vivante",
+   "langues": [
+    "banda-bambari"
+   ]
+  },
+  {
+   "id": "CF-tradition-marionnettes-gbaya",
+   "nom": "Marionnettes et figurines rituelles gbaya",
+   "categorie": "rite",
+   "description": "D'après l'Encyclopédie mondiale des arts de la marionnette, le théâtre de figurines remonte à l'époque précoloniale et reste lié aux cérémonies. Chez les Gbaya Boro-Zango, des figurines et marottes représentent des divinités et sont animées par des prêtres lors de grandes cérémonies, notamment pour Gba-Zimi (agriculture) et Ngafo (fécondité et musique).",
+   "communautes": [
+    "Gbaya Boro-Zango"
+   ],
+   "regions": [
+    "ouest"
+   ],
+   "sources": [
+    "S57"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "unesco": null,
+   "transmission": "fragile",
+   "sensible": true,
+   "note_sensibilite": "Objets et cérémonies à caractère sacré : la fiche exige une validation par la communauté ou une institution partenaire avant publication."
+  },
+  {
+   "id": "CF-tradition-chenilles",
+   "nom": "Saison des chenilles",
+   "categorie": "cuisine",
+   "description": "En juillet-septembre, des villages de la Lobaye se tournent vers la cueillette, la vente et la consommation de chenilles, source de revenus et de nutrition dans un pays confronté à l'insécurité alimentaire. Les chenilles figurent aussi, selon l'édition Ocora, parmi les produits de collecte des Aka.",
+   "communautes": [
+    "habitants de la Lobaye"
+   ],
+   "regions": [
+    "Lobaye"
+   ],
+   "sources": [
+    "S60",
+    "S55"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "unesco": null,
+   "transmission": "vivante"
+  },
+  {
+   "id": "CF-tradition-huttes-aka",
+   "nom": "Construction des huttes aka",
+   "categorie": "architecture",
+   "description": "La liste indicative décrit des campements d'environ quinze à vingt habitations vernaculaires en matériaux végétaux, que les femmes aka construisent et dont elles transmettent la technique. Les matériaux, abondants à proximité, se renouvellent en toute saison.",
+   "communautes": [
+    "Aka"
+   ],
+   "regions": [
+    "Lobaye"
+   ],
+   "sources": [
+    "S20"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "unesco": null,
+   "transmission": "vivante"
+  },
+  {
+   "id": "CF-tradition-alimentation-aka",
+   "nom": "Alimentation de forêt des Ba'Aka",
+   "categorie": "cuisine",
+   "description": "Les Ba'Aka de Dzanga-Sangha décrivent une alimentation faite surtout de miel, d'ignames, de légumes et de viande de brousse comme antilope, porc-épic ou tortue. Leur représentant à Bayanga souligne que toutes leurs activités se déroulent en forêt.",
+   "communautes": [
+    "Ba'Aka"
+   ],
+   "regions": [
+    "Sangha-Mbaéré"
+   ],
+   "sources": [
+    "S53"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "unesco": null,
+   "transmission": "fragile"
+  }
+ ],
+ "personnalites": [
+  {
+   "id": "CF-personnalite-boganda",
+   "nom": "Barthélemy Boganda",
+   "wikidata": "Q346690",
+   "description": "Figure fondatrice de l'État centrafricain, il impulse en 1958 la transformation de l'Oubangui-Chari en République centrafricaine et porte un projet panafricain pour l'Afrique centrale. Il meurt dans un accident d'avion le 29 mars 1959, avant l'indépendance. Un compte rendu de Persée le décrit comme député et souligne les débats sur la façon de le raconter.",
+   "roles": [
+    "homme politique",
+    "député",
+    "premier chef de l'État"
+   ],
+   "domaines": [
+    "politique"
+   ],
+   "epoque": "XXe siècle",
+   "sources": [
+    "S70",
+    "S41",
+    "S42",
+    "S4"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "naissance": {
+    "date": "1910-04-04",
+    "lieu": "Bobangui"
+   },
+   "deces": {
+    "date": "1959-03-29",
+    "lieu": "accident d'avion (lieu non précisé dans les sources lues)"
+   }
+  },
+  {
+   "id": "CF-personnalite-dacko",
+   "nom": "David Dacko",
+   "wikidata": "Q310860",
+   "description": "Président du gouvernement en 1959-1960, puis président de la République de 1960 à 1966 et de 1979 à 1981. Renversé par Bokassa le 31 décembre 1965, il revient au pouvoir après l'opération Caban de septembre 1979.",
+   "roles": [
+    "président de la République"
+   ],
+   "domaines": [
+    "politique"
+   ],
+   "epoque": "XXe siècle",
+   "sources": [
+    "S71",
+    "S43",
+    "S4"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "naissance": {
+    "date": "1930-03-24",
+    "lieu": "Bouchia, près de Mbaïki"
+   },
+   "deces": {
+    "date": "2003-11-20",
+    "lieu": "Yaoundé"
+   }
+  },
+  {
+   "id": "CF-personnalite-bokassa",
+   "nom": "Jean-Bedel Bokassa",
+   "wikidata": "Q162708",
+   "description": "Militaire devenu président en 1966 après le coup d'État de la Saint-Sylvestre, il se proclame empereur en 1976 et se fait couronner le 4 décembre 1977. Il est renversé en septembre 1979. Gracié en 1993 après sept années de prison, il meurt à Bangui en 1996. Sa figure reste très débattue en Centrafrique.",
+   "roles": [
+    "militaire",
+    "président",
+    "empereur"
+   ],
+   "domaines": [
+    "politique"
+   ],
+   "epoque": "XXe siècle",
+   "sources": [
+    "S72",
+    "S44",
+    "S43",
+    "S67"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "naissance": {
+    "date": "1921-02-22",
+    "lieu": "Bobangui"
+   },
+   "deces": {
+    "date": "1996-11-03",
+    "lieu": "Bangui"
+   },
+   "sensible": true,
+   "note_sensibilite": "Régime autoritaire encore disputé dans la mémoire nationale : présentation factuelle et neutre."
+  },
+  {
+   "id": "CF-personnalite-goumba",
+   "nom": "Abel Goumba",
+   "wikidata": "Q318433",
+   "description": "Médecin, il devient sénateur de la Communauté élu le 1er mai 1959, puis Premier ministre à deux reprises et vice-président de la République de 2003 à 2005. Il a été écarté par l'administration coloniale au profit de David Dacko après la mort de Boganda.",
+   "roles": [
+    "médecin",
+    "sénateur",
+    "Premier ministre",
+    "vice-président"
+   ],
+   "domaines": [
+    "politique",
+    "santé"
+   ],
+   "epoque": "XXe-XXIe siècle",
+   "sources": [
+    "S73",
+    "S45",
+    "S4"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "naissance": {
+    "date": "1926-09-18",
+    "lieu": "Grimari"
+   },
+   "deces": {
+    "date": "2009-05-11",
+    "lieu": "Bangui"
+   }
+  },
+  {
+   "id": "CF-personnalite-patasse",
+   "nom": "Ange-Félix Patassé",
+   "wikidata": "Q314524",
+   "description": "Premier ministre de 1976 à 1978 puis premier président élu au suffrage multipartite en 1993, il dirige le pays jusqu'à son renversement par François Bozizé le 15 mars 2003. Sa présidence est marquée par des mutineries en 1996-1997.",
+   "roles": [
+    "président de la République",
+    "Premier ministre"
+   ],
+   "domaines": [
+    "politique"
+   ],
+   "epoque": "XXe-XXIe siècle",
+   "sources": [
+    "S74",
+    "S4"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "naissance": {
+    "date": "1937-01-25",
+    "lieu": "Paoua"
+   },
+   "deces": {
+    "date": "2011-04-05",
+    "lieu": "Douala (Cameroun)"
+   }
+  },
+  {
+   "id": "CF-personnalite-karnou",
+   "nom": "Karnou (Barka Ngaïnoumbey)",
+   "wikidata": "Q56823393",
+   "description": "Leader religieux d'origine gbaya, il est présenté par Wikipédia comme une figure centrale de la révolte du Kongo-Wara contre l'administration coloniale française. Cette révolte, déclenchée par le travail forcé, est datée de 1928 à 1932 dans l'article qui lui est consacré.",
+   "roles": [
+    "chef religieux",
+    "résistant anticolonial"
+   ],
+   "domaines": [
+    "résistance",
+    "religion"
+   ],
+   "epoque": "XXe siècle",
+   "sources": [
+    "S75",
+    "S66"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier",
+    "note": "Sources non-Wikipédia non trouvées."
+   },
+   "sensible": true,
+   "note_sensibilite": "Mouvement à dimension religieuse et récit de conflit colonial : à relire par des historiens, dates divergentes selon les articles (1925-1928 ou 1928-1932)."
+  },
+  {
+   "id": "CF-personnalite-samba-panza",
+   "nom": "Catherine Samba-Panza",
+   "wikidata": "Q15633683",
+   "description": "Militante associative et ancienne professionnelle de l'assurance, elle est maire de Bangui en 2013, puis élue le 20 janvier 2014 à la présidence de transition, première femme à ce poste dans le pays. RFI souligne qu'elle était la seule candidate soutenue à la fois par l'ex-Séléka et les anti-balaka.",
+   "roles": [
+    "cheffe de l'État de transition",
+    "maire de Bangui"
+   ],
+   "domaines": [
+    "politique"
+   ],
+   "epoque": "XXIe siècle",
+   "sources": [
+    "S76",
+    "S46"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "naissance": {
+    "date": "1954-06-26",
+    "lieu": "Fort-Lamy (actuelle N'Djamena)"
+   }
+  },
+  {
+   "id": "CF-personnalite-domitien",
+   "nom": "Élisabeth Domitien",
+   "wikidata": "Q291555",
+   "description": "Commerçante engagée dans le mouvement pour l'indépendance, elle devient la première femme Première ministre d'Afrique. Wikipédia (fr) date son mandat de 1975 à 1976 ; un portrait en ligne évoque l'année 1974, d'où une date à confirmer.",
+   "roles": [
+    "Première ministre"
+   ],
+   "domaines": [
+    "politique"
+   ],
+   "epoque": "XXe siècle",
+   "sources": [
+    "S77",
+    "S49"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier",
+    "note": "Divergence de date de nomination entre Wikipédia (1975) et le portrait en ligne (6 juin 1974) : à trancher par une source primaire."
+   },
+   "naissance": {
+    "date": "1925",
+    "lieu": "Bangui (selon un portrait publié en ligne)"
+   },
+   "deces": {
+    "date": "2005",
+    "lieu": "Bimbo"
+   }
+  },
+  {
+   "id": "CF-personnalite-darlan",
+   "nom": "Danièle Darlan",
+   "wikidata": "Q112153721",
+   "description": "Juriste et professeure, elle préside la Cour constitutionnelle de 2017 à 2022. Elle est mise à la retraite fin octobre 2022 dans des conditions contestées, après des décisions de la Cour défavorables aux autorités sur le projet de réforme constitutionnelle ; la Cour entérine son départ en janvier 2023.",
+   "roles": [
+    "présidente de la Cour constitutionnelle",
+    "juriste"
+   ],
+   "domaines": [
+    "droit",
+    "politique"
+   ],
+   "epoque": "XXIe siècle",
+   "sources": [
+    "S78",
+    "S47"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "naissance": {
+    "date": "1952"
+   },
+   "sensible": true,
+   "note_sensibilite": "Sujet politique contemporain : présentation neutre, versions des parties à confronter."
+  },
+  {
+   "id": "CF-personnalite-mamba",
+   "nom": "Idylle Mamba",
+   "wikidata": "Q30729265",
+   "description": "Chanteuse franco-centrafricaine née à Bangui, finaliste du Prix Découvertes RFI en 2014. En janvier 2014, elle enregistre à Dakar avec Youssou N'Dour une chanson pour la paix en Centrafrique.",
+   "roles": [
+    "chanteuse"
+   ],
+   "domaines": [
+    "musique"
+   ],
+   "epoque": "XXIe siècle",
+   "sources": [
+    "S79",
+    "S48"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "naissance": {
+    "date": "2 août (année non vérifiée)",
+    "lieu": "Bangui"
+   }
+  },
+  {
+   "id": "CF-personnalite-blouin",
+   "nom": "Andrée Blouin",
+   "wikidata": "Q18977771",
+   "description": "Née à Bessou, d'une mère banziri et d'un père français, elle est placée enfant dans un orphelinat. Militante des indépendances, elle s'engage en Guinée auprès de Sékou Touré puis au Congo comme conseillère de Patrice Lumumba, mobilisant des femmes contre le colonialisme. Elle raconte son parcours dans son autobiographie My Country, Africa.",
+   "roles": [
+    "militante",
+    "conseillère politique",
+    "autrice"
+   ],
+   "domaines": [
+    "politique",
+    "écriture"
+   ],
+   "epoque": "XXe siècle",
+   "sources": [
+    "S80",
+    "S50",
+    "S51",
+    "S86"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "naissance": {
+    "date": "1921-12-16",
+    "lieu": "Bessou"
+   }
+  },
+  {
+   "id": "CF-personnalite-conjungo",
+   "nom": "Marie-Joëlle Conjungo",
+   "wikidata": "Q1420688",
+   "description": "Athlète spécialiste du 100 mètres haies, elle représente la République centrafricaine aux Jeux olympiques de 2000 et de 2004, sans passer le premier tour selon Olympedia. Son record personnel est de 13,51 s (2003).",
+   "roles": [
+    "athlète"
+   ],
+   "domaines": [
+    "sport"
+   ],
+   "epoque": "XXe-XXIe siècle",
+   "sources": [
+    "S81",
+    "S52"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "naissance": {
+    "date": "1975-07-14",
+    "lieu": "Bangui"
+   }
+  },
+  {
+   "id": "CF-personnalite-baipo-temon",
+   "nom": "Sylvie Baïpo-Temon",
+   "wikidata": "Q60680031",
+   "description": "Diplomate et femme politique, elle est présentée par Wikipédia (fr) comme ministre des Affaires étrangères à partir de 2018. Cette fiche est à actualiser, les gouvernements ayant évolué depuis.",
+   "roles": [
+    "diplomate",
+    "ministre"
+   ],
+   "domaines": [
+    "politique",
+    "diplomatie"
+   ],
+   "epoque": "XXIe siècle",
+   "sources": [
+    "S82"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier",
+    "note": "Source unique (Wikipédia) ; fonctions à actualiser."
+   }
+  },
+  {
+   "id": "CF-personnalite-goyemide",
+   "nom": "Étienne Goyémidé",
+   "wikidata": "Q11858954",
+   "description": "Écrivain et dramaturge né à Ippy en 1942, mort le 17 mars 1997. Wikipédia (fr) indique qu'il fut ministre de l'Enseignement et de la Recherche de 1991 à 1992.",
+   "roles": [
+    "écrivain",
+    "dramaturge",
+    "ministre"
+   ],
+   "domaines": [
+    "littérature",
+    "politique"
+   ],
+   "epoque": "XXe siècle",
+   "sources": [
+    "S83"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier",
+    "note": "Source unique (Wikipédia) : une notice institutionnelle reste à trouver."
+   },
+   "naissance": {
+    "date": "1942",
+    "lieu": "Ippy"
+   },
+   "deces": {
+    "date": "1997-03-17"
+   }
+  },
+  {
+   "id": "CF-personnalite-bibi-tanga",
+   "nom": "Bibi Tanga",
+   "wikidata": "Q139714355",
+   "description": "Chanteur, bassiste et multi-instrumentiste franco-centrafricain, né à Bangui le 19 septembre 1969 selon Wikipédia (fr).",
+   "roles": [
+    "chanteur",
+    "bassiste"
+   ],
+   "domaines": [
+    "musique"
+   ],
+   "epoque": "XXe-XXIe siècle",
+   "sources": [
+    "S84"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier",
+    "note": "Source unique (Wikipédia) : à compléter."
+   },
+   "naissance": {
+    "date": "1969-09-19",
+    "lieu": "Bangui"
+   }
+  }
+ ],
+ "evenements": [
+  {
+   "id": "CF-evenement-pierres-taillees",
+   "titre": "Premiers outils de pierre taillée",
+   "date": "-008999-01-01",
+   "date_affichee": "au moins IXe millénaire av. J.-C.",
+   "precision": "siecle",
+   "description": "Des pierres taillées d'au moins le IXe millénaire avant notre ère ont été trouvées lors de fouilles dans le pays. Faute de restes humains associés, on ne peut pas les attribuer à une population précise.",
+   "sources": [
+    "S3"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "CF-evenement-peuplement-oubanguien",
+   "titre": "Installation des populations de l'Oubangui",
+   "date": "-002999-01-01",
+   "date_affichee": "IIIe millénaire av. J.-C.",
+   "precision": "siecle",
+   "description": "Selon Wikipédia (fr), des populations de langues adamaoua-oubanguiennes s'installent durablement au IIIe millénaire ; Diki-Kidiri rappelle que les travaux archéologiques et linguistiques font remonter à environ 3000 av. J.-C. l'occupation du bassin de l'Oubangui par les ancêtres des populations actuelles.",
+   "sources": [
+    "S38",
+    "S4"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "CF-evenement-forge-oboui",
+   "titre": "Forge d'Oboui",
+   "date": "-002342-01-01",
+   "date_affichee": "vers 2343-2058 av. J.-C.",
+   "precision": "siecle",
+   "description": "Étienne Zangato décrit à Oboui, dans le nord-ouest, un atelier métallurgique dont l'une des plus anciennes structures de forge est datée de 2343-2058 av. J.-C. Le site documente toute la chaîne de production du fer.",
+   "sources": [
+    "S61"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "fin": "-002057-12-31",
+   "regions": [
+    "nord-ouest"
+   ]
+  },
+  {
+   "id": "CF-evenement-megalithes-bouar",
+   "titre": "Civilisation des mégalithes de Bouar",
+   "date": "0001-01-01",
+   "date_affichee": "jusqu'au Ier siècle apr. J.-C.",
+   "precision": "siecle",
+   "description": "Une tradition de monuments de pierres dressées, les Tazunu, se développe dans la région de Bouar. Wikipédia (fr) la fait durer jusqu'au Ier siècle apr. J.-C. et lie sa fin à l'essor de la métallurgie du fer ; le début de la période reste à documenter.",
+   "sources": [
+    "S12",
+    "S39",
+    "S4"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "regions": [
+    "Bouar"
+   ]
+  },
+  {
+   "id": "CF-evenement-sultanats-zande",
+   "titre": "Sultanats zandé du sud-est",
+   "date": "1750-01-01",
+   "date_affichee": "vers 1750-1900",
+   "precision": "siecle",
+   "description": "Des sultanats zandé, notamment Bangassou, Rafaï et Zémio, se structurent dans le sud-est entre le milieu du XVIIIe et la fin du XIXe siècle.",
+   "sources": [
+    "S4",
+    "S5"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "fin": "1900-12-31",
+   "regions": [
+    "sud-est"
+   ]
+  },
+  {
+   "id": "CF-evenement-dar-el-kouti",
+   "titre": "Sultanat du Dar el-Kouti",
+   "date": "1830-01-01",
+   "date_affichee": "1830-1911",
+   "precision": "annee",
+   "description": "Dans le nord-est, le sultanat du Dar el-Kouti s'organise autour de Ndélé. Le palais fortifié du sultan Sénoussi servait de base aux razzias esclavagistes, qui ont durement touché les populations, notamment banda.",
+   "sources": [
+    "S4",
+    "S13"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "fin": "1911-12-31",
+   "regions": [
+    "Ndélé",
+    "nord-est"
+   ],
+   "sensible": true,
+   "note_sensibilite": "Histoire de la traite esclavagiste régionale : présentation à relire avec des historiens."
+  },
+  {
+   "id": "CF-evenement-mort-senoussi",
+   "titre": "Mort du sultan Sénoussi",
+   "date": "1911-01-12",
+   "date_affichee": "12 janvier 1911",
+   "precision": "jour",
+   "description": "La notice de la liste indicative date du 12 janvier 1911 le démantèlement du sultanat et l'assassinat de Sénoussi par les troupes coloniales françaises. Wikipédia (fr) indique qu'il est tué par les Français en 1911.",
+   "sources": [
+    "S13",
+    "S4"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "regions": [
+    "Ndélé"
+   ]
+  },
+  {
+   "id": "CF-evenement-poste-bangui",
+   "titre": "Fondation du poste de Bangui",
+   "date": "1889-01-01",
+   "date_affichee": "1889",
+   "precision": "annee",
+   "description": "Un poste est créé en 1889 sur la rive de l'Oubangui, point de départ de la future capitale. La liste indicative cite Michel Dolizi et le 26 juin ; une autre notice avance le 24 juillet 1889 : le jour exact reste à vérifier.",
+   "sources": [
+    "S19",
+    "S14",
+    "S4"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "regions": [
+    "Bangui"
+   ]
+  },
+  {
+   "id": "CF-evenement-crampel",
+   "titre": "Exécution de Paul Crampel",
+   "date": "1891-04-09",
+   "date_affichee": "9 avril 1891",
+   "precision": "jour",
+   "description": "L'explorateur français Paul Crampel est exécuté à Dar el-Kouti sur ordre du sultan Sénoussi, qui voulait l'empêcher de poursuivre sa route et s'empare de ses armes.",
+   "sources": [
+    "S4"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "regions": [
+    "nord-est"
+   ]
+  },
+  {
+   "id": "CF-evenement-commune-bangui",
+   "titre": "Bangui érigée en commune",
+   "date": "1912-01-01",
+   "date_affichee": "1912",
+   "precision": "annee",
+   "description": "Bangui devient une commune dirigée par un administrateur français. Le premier plan d'urbanisme est dressé la même année par l'architecte Fanny Jolly.",
+   "sources": [
+    "S19",
+    "S63"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "regions": [
+    "Bangui"
+   ]
+  },
+  {
+   "id": "CF-evenement-aef",
+   "titre": "Intégration à l'Afrique-Équatoriale française",
+   "date": "1910-01-01",
+   "date_affichee": "1910",
+   "precision": "annee",
+   "description": "L'Oubangui-Chari, colonie française depuis 1905 selon Wikipédia (fr), est intégré en 1910 à l'Afrique-Équatoriale française. La moitié du territoire est alors partagée en concessions confiées à des sociétés.",
+   "sources": [
+    "S4"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "CF-evenement-kongo-wara",
+   "titre": "Guerre du Kongo-Wara",
+   "date": "1928-01-01",
+   "date_affichee": "1928-1932",
+   "precision": "annee",
+   "description": "Révolte anticoloniale née du recrutement forcé et de l'exploitation de la population pour les chemins de fer et le latex. Elle touche surtout l'Oubangui-Chari et le Cameroun français et est aussi appelée guerre du manche de houe.",
+   "sources": [
+    "S66",
+    "S4"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "fin": "1932-12-31",
+   "regions": [
+    "ouest"
+   ],
+   "sensible": true,
+   "note_sensibilite": "Violences coloniales et mouvement à dimension religieuse : à valider par des historiens."
+  },
+  {
+   "id": "CF-evenement-republique-1958",
+   "titre": "Proclamation de la République centrafricaine",
+   "date": "1958-12-01",
+   "date_affichee": "1er décembre 1958",
+   "precision": "jour",
+   "description": "L'Oubangui-Chari devient un État appelé République centrafricaine sous l'impulsion de Barthélemy Boganda ; le 1er décembre reste la fête nationale.",
+   "sources": [
+    "S4",
+    "S3"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "CF-evenement-mort-boganda",
+   "titre": "Mort de Barthélemy Boganda",
+   "date": "1959-03-29",
+   "date_affichee": "29 mars 1959",
+   "precision": "jour",
+   "description": "Boganda meurt dans un accident d'avion en pleine campagne électorale. Abel Goumba, son Premier ministre, est écarté par l'administration coloniale au profit de David Dacko.",
+   "sources": [
+    "S4",
+    "S41"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "CF-evenement-independance",
+   "titre": "Indépendance",
+   "date": "1960-08-13",
+   "date_affichee": "13 août 1960",
+   "precision": "jour",
+   "description": "La République centrafricaine accède à l'indépendance, avec David Dacko comme premier président.",
+   "sources": [
+    "S4",
+    "S3"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "CF-evenement-saint-sylvestre",
+   "titre": "Coup d'État de la Saint-Sylvestre",
+   "date": "1965-12-31",
+   "date_affichee": "31 décembre 1965",
+   "precision": "jour",
+   "description": "Le colonel Jean-Bedel Bokassa renverse son cousin David Dacko dans la nuit du 31 décembre 1965.",
+   "sources": [
+    "S43",
+    "S4"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "CF-evenement-couronnement",
+   "titre": "Couronnement de Bokassa Ier",
+   "date": "1977-12-04",
+   "date_affichee": "4 décembre 1977",
+   "precision": "jour",
+   "description": "Après s'être proclamé empereur en 1976, Bokassa est couronné le 4 décembre 1977 dans un faste très coûteux.",
+   "sources": [
+    "S43",
+    "S67"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "sensible": true,
+   "note_sensibilite": "Régime autoritaire encore débattu."
+  },
+  {
+   "id": "CF-evenement-caban",
+   "titre": "Opération Caban",
+   "date": "1979-09-21",
+   "date_affichee": "20-21 septembre 1979",
+   "precision": "jour",
+   "description": "Durant la nuit du 20 au 21 septembre 1979, une opération française destitue Bokassa, alors en Libye ; David Dacko revient au pouvoir et la République est rétablie.",
+   "sources": [
+    "S43",
+    "S67"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "sensible": true,
+   "note_sensibilite": "Intervention étrangère : présentation neutre."
+  },
+  {
+   "id": "CF-evenement-kolingba",
+   "titre": "Coup d'État du général Kolingba",
+   "date": "1981-09-01",
+   "date_affichee": "septembre 1981",
+   "precision": "mois",
+   "description": "Le général André Kolingba prend le pouvoir et contraint Dacko à démissionner, instaurant un régime militaire.",
+   "sources": [
+    "S4"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "CF-evenement-elections-1993",
+   "titre": "Élections de 1993 et arrivée de Patassé",
+   "date": "1993-01-01",
+   "date_affichee": "1993",
+   "precision": "annee",
+   "description": "Après des mutineries, Kolingba organise des élections qui portent Ange-Félix Patassé à la présidence.",
+   "sources": [
+    "S4"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "CF-evenement-bozize-2003",
+   "titre": "Prise du pouvoir de François Bozizé",
+   "date": "2003-03-15",
+   "date_affichee": "15 mars 2003",
+   "precision": "jour",
+   "description": "Le général François Bozizé renverse Ange-Félix Patassé et ouvre un nouveau cycle de rébellions.",
+   "sources": [
+    "S4"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "sensible": true,
+   "note_sensibilite": "Conflits récents : présentation neutre."
+  },
+  {
+   "id": "CF-evenement-unesco-sangha",
+   "titre": "Inscription du Trinational de la Sangha",
+   "date": "2012-01-01",
+   "date_affichee": "2012",
+   "precision": "annee",
+   "description": "Le Trinational de la Sangha, dont le parc de Dzanga-Ndoki en Centrafrique, est inscrit sur la Liste du patrimoine mondial.",
+   "sources": [
+    "S7",
+    "S8"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "CF-evenement-unesco-manovo",
+   "titre": "Inscription du parc du Manovo-Gounda St Floris",
+   "date": "1988-01-01",
+   "date_affichee": "1988",
+   "precision": "annee",
+   "description": "Le parc est inscrit au patrimoine mondial ; il est sur la Liste en péril depuis 1997.",
+   "sources": [
+    "S6"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "CF-evenement-unesco-aka",
+   "titre": "Inscription du chant polyphonique aka",
+   "date": "2008-01-01",
+   "date_affichee": "2008",
+   "precision": "annee",
+   "description": "Les chants polyphoniques des Aka sont inscrits sur la Liste représentative du patrimoine culturel immatériel (proclamés d'abord en 2003).",
+   "sources": [
+    "S9",
+    "S10"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "CF-evenement-seleka-2013",
+   "titre": "Prise de Bangui par la Séléka",
+   "date": "2013-03-24",
+   "date_affichee": "24 mars 2013",
+   "precision": "jour",
+   "description": "Une coalition rebelle, la Séléka, chasse François Bozizé du pouvoir ; son chef Michel Djotodia se proclame président.",
+   "sources": [
+    "S4"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "sensible": true,
+   "note_sensibilite": "Conflit récent : présentation neutre."
+  },
+  {
+   "id": "CF-evenement-samba-panza-2014",
+   "titre": "Catherine Samba-Panza élue présidente de transition",
+   "date": "2014-01-20",
+   "date_affichee": "20 janvier 2014",
+   "precision": "jour",
+   "description": "Maire de Bangui, Catherine Samba-Panza est élue présidente de transition par le Parlement provisoire.",
+   "sources": [
+    "S46",
+    "S4"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "CF-evenement-minusca",
+   "titre": "Création de la MINUSCA",
+   "date": "2014-04-10",
+   "date_affichee": "10 avril 2014",
+   "precision": "jour",
+   "description": "Le Conseil de sécurité autorise le 10 avril 2014 une opération de maintien de la paix multidimensionnelle, la MINUSCA, qui absorbe le BINUCA et reçoit l'autorité de la MISCA le 15 septembre 2014.",
+   "sources": [
+    "S64"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "sensible": true,
+   "note_sensibilite": "Conflit récent : sources onusiennes."
+  },
+  {
+   "id": "CF-evenement-cpi-2007",
+   "titre": "Ouverture de l'enquête de la CPI",
+   "date": "2007-05-01",
+   "date_affichee": "mai 2007",
+   "precision": "mois",
+   "description": "À la suite d'un renvoi du gouvernement centrafricain en 2004, la Cour pénale internationale ouvre en mai 2007 une enquête sur les crimes commis depuis juillet 2002 ; elle la clôt le 16 décembre 2022.",
+   "sources": [
+    "S65"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "fin": "2022-12-16",
+   "sensible": true,
+   "note_sensibilite": "Procédures judiciaires : présentation neutre."
+  },
+  {
+   "id": "CF-evenement-accord-2019",
+   "titre": "Accord politique pour la paix et la réconciliation",
+   "date": "2019-02-06",
+   "date_affichee": "6 février 2019",
+   "precision": "jour",
+   "description": "L'État signe un accord avec 14 groupes armés, négocié à Khartoum, dont l'application reste disputée selon Wikipédia (fr).",
+   "sources": [
+    "S4"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "sensible": true,
+   "note_sensibilite": "Conflit récent : plusieurs lectures existent."
+  },
+  {
+   "id": "CF-evenement-cine-bangui",
+   "titre": "Lancement de Ciné-Bangui",
+   "date": "2020-01-01",
+   "date_affichee": "2020",
+   "precision": "annee",
+   "description": "Le projet Ciné-Bangui, financé par l'ambassade de France avec l'Alliance française de Bangui et l'école de cinéma de Lyon, forme de jeunes cinéastes.",
+   "sources": [
+    "S62"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  },
+  {
+   "id": "CF-evenement-darlan-2022",
+   "titre": "Mise à la retraite de Danièle Darlan",
+   "date": "2022-10-31",
+   "date_affichee": "fin octobre 2022",
+   "precision": "mois",
+   "description": "La présidente de la Cour constitutionnelle est mise à l'écart fin octobre 2022 dans des conditions contestées ; la Cour entérine son départ début janvier 2023.",
+   "sources": [
+    "S47"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "sensible": true,
+   "note_sensibilite": "Sujet politique contemporain."
+  },
+  {
+   "id": "CF-evenement-constitution-2023",
+   "titre": "Nouvelle Constitution",
+   "date": "2023-01-01",
+   "date_affichee": "2023",
+   "precision": "annee",
+   "description": "Selon Wikipédia (fr), une nouvelle constitution entre en vigueur en 2023.",
+   "sources": [
+    "S4"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "sensible": true,
+   "note_sensibilite": "Sujet politique contesté : à vérifier."
+  }
+ ],
+ "oeuvres": [
+  {
+   "id": "CF-oeuvre-anthologie-aka",
+   "titre": "Centrafrique. Anthologie de la musique des Pygmées Aka",
+   "type": "musique",
+   "description": "Double CD d'enregistrements de polyphonies aka, réédité en 2016 par Radio France à partir de parutions de 1978, 1987 et 2002. La notice décrit des chants accompagnant la chasse, la collecte du miel, le jeu et les rituels.",
+   "institution": "Radio France (collection Ocora)",
+   "url_notice": "https://www.radiofrance.com/les-editions/musique/centrafrique-anthologie-de-la-musique-des-pygmees-aka",
+   "sources": [
+    "S55"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "communaute": "Aka",
+   "periode": "1978-2016",
+   "droits": "Notice consultée ; droits réservés"
+  },
+  {
+   "id": "CF-oeuvre-epa",
+   "titre": "Encyclopédie des Pygmées Aka",
+   "type": "livre",
+   "description": "Encyclopédie en 16 volumes (environ 5 000 pages) parue de 1981 à 2018, qui présente la société aka à travers sa langue : ethnologie, ethnosciences, musicologie, écologie.",
+   "institution": "Muséum national d'histoire naturelle (Paris)",
+   "url_notice": "https://www.mnhn.fr/fr/actualites/tout-savoir-sur-les-pygmees-aka",
+   "sources": [
+    "S54"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "createur": "Jacqueline Thomas, Simha Arom, Serge Bahuchet et collègues",
+   "periode": "1981-2018",
+   "droits": "Notice consultée ; droits réservés"
+  },
+  {
+   "id": "CF-oeuvre-wanto",
+   "titre": "Wanto et l'origine des choses : contes d'origine et autres contes gbaya-kara",
+   "type": "livre",
+   "description": "Recueil de contes gbaya-kara de Centrafrique publié en 1977 par le Conseil international de la langue française et Edicef.",
+   "institution": "Internet Archive (exemplaire numérisé)",
+   "url_notice": "https://archive.org/details/wantoetlorigined0000unse",
+   "sources": [
+    "S85"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "communaute": "Gbaya-Kara",
+   "periode": "1977",
+   "droits": "Prêt numérique restreint"
+  },
+  {
+   "id": "CF-oeuvre-my-country-africa",
+   "titre": "My Country, Africa : autobiography of the black pasionaria",
+   "type": "livre",
+   "description": "Autobiographie d'Andrée Blouin, écrite avec Jean MacKellar et publiée à New York en 1983, qui retrace son engagement pour les indépendances de la Guinée et du Congo.",
+   "institution": "Internet Archive (exemplaire numérisé)",
+   "url_notice": "https://archive.org/details/mycountryafricaa00blou",
+   "sources": [
+    "S86",
+    "S50"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "createur": "Andrée Blouin, Jean MacKellar",
+   "periode": "1983",
+   "droits": "Prêt numérique restreint"
+  },
+  {
+   "id": "CF-oeuvre-kalck-boganda",
+   "titre": "Barthélémy Boganda. Élit de Dieu et des Centrafricains",
+   "type": "livre",
+   "description": "Portrait de Boganda publié par Pierre Kalck en 1995 (Sépia), que le critique Louis Sanmarco juge hommage bien écrit mais trop hagiographique.",
+   "institution": "Persée (compte rendu)",
+   "url_notice": "https://www.persee.fr/doc/outre_0300-9513_1996_num_83_313_3491_t1_0111_0000_3",
+   "sources": [
+    "S41"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "createur": "Pierre Kalck",
+   "periode": "1995",
+   "droits": "Compte rendu en accès libre"
+  },
+  {
+   "id": "CF-oeuvre-penel-boganda",
+   "titre": "Barthélémy Boganda, écrits et discours : 1946-1951, la lutte décisive",
+   "type": "livre",
+   "description": "Recueil de textes et discours de Boganda réunis par Jean-Dominique Penel (L'Harmattan, 1995).",
+   "institution": "Persée (compte rendu)",
+   "url_notice": "https://www.persee.fr/doc/polaf_0244-7827_1998_num_70_1_6142_t1_0165_0000_6",
+   "sources": [
+    "S42"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "createur": "Jean-Dominique Penel (éd.)",
+   "periode": "1995",
+   "droits": "Compte rendu en accès libre"
+  },
+  {
+   "id": "CF-oeuvre-ateliers-oboui",
+   "titre": "Les ateliers d'Oboui",
+   "type": "livre",
+   "description": "Ouvrage archéologique d'Étienne Zangato (2008) sur dix ans de travaux consacrés aux structures de réduction et de forge du nord-ouest, centré sur le site d'Oboui.",
+   "institution": "Sangonet (présentation de l'éditeur)",
+   "url_notice": "https://www.sangonet.com/hist/FichHistoire/prem-mettalurg-NO-RCA.html",
+   "sources": [
+    "S61"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "createur": "Étienne Zangato",
+   "periode": "2008",
+   "droits": "Présentation consultée ; droits réservés"
+  },
+  {
+   "id": "CF-oeuvre-nous-etudiants",
+   "titre": "Nous, étudiants !",
+   "type": "film",
+   "description": "Film du cinéaste Rafiki Fariala, cité par RFI comme ayant remporté une centaine de prix et plus de 200 sélections internationales.",
+   "institution": "RFI (reportage)",
+   "url_notice": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20240509-cin%C3%A9ma-en-centrafrique-le-septi%C3%A8me-art-fait-sa-r%C3%A9volution",
+   "sources": [
+    "S62"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "createur": "Rafiki Fariala",
+   "droits": "Reportage consulté ; droits réservés"
+  },
+  {
+   "id": "CF-oeuvre-makongo",
+   "titre": "Makongo",
+   "type": "film",
+   "description": "Film centrafricain cité par RFI comme ayant connu un grand succès international et reçu plusieurs prix. Le reportage n'en donne pas le réalisateur.",
+   "institution": "RFI (reportage)",
+   "url_notice": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20240509-cin%C3%A9ma-en-centrafrique-le-septi%C3%A8me-art-fait-sa-r%C3%A9volution",
+   "sources": [
+    "S62"
+   ],
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "droits": "Reportage consulté ; droits réservés"
+  }
+ ],
+ "proverbes": [
+  {
+   "id": "CF-proverbe-parole-ainee",
+   "langue": "gbaya",
+   "traduction": "Le guib l'a dit il y a bien longtemps, la parole c'est l'aînée.",
+   "sens": "D'après la notice d'ELLAF, la première parole prononcée est toujours prise en compte : on ne peut ni la corriger ni l'effacer.",
+   "publication": "Paulette Roulon-Doko, « Littérature en gbaya », ELLAF (Encyclopédie des littératures en langues africaines), Huma-Num, §1.1. Citée en traduction française seulement.",
+   "description": "Proverbe gbaya rapporté par l'ELLAF pour illustrer la valeur de la parole.",
+   "sources": [
+    "S56"
+   ],
+   "note": "Texte original gbaya non donné par la page : à compléter à partir des travaux de Roulon et Doko (1983, rééd. 2011).",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "id": "S1",
+   "titre": "Population totale — République centrafricaine (SP.POP.TOTL)",
+   "institution": "Banque mondiale",
+   "url": "https://api.worldbank.org/v2/country/CAF/indicator/SP.POP.TOTL?format=json&per_page=5",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21",
+   "annee": 2026
+  },
+  {
+   "id": "S2",
+   "titre": "Superficie — République centrafricaine (AG.SRF.TOTL.K2)",
+   "institution": "Banque mondiale",
+   "url": "https://api.worldbank.org/v2/country/CAF/indicator/AG.SRF.TOTL.K2?format=json&per_page=3",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21",
+   "annee": 2026
+  },
+  {
+   "id": "S3",
+   "titre": "République centrafricaine",
+   "institution": "Wikipédia (fr)",
+   "url": "https://fr.wikipedia.org/wiki/R%C3%A9publique_centrafricaine",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S4",
+   "titre": "Histoire de la République centrafricaine",
+   "institution": "Wikipédia (fr)",
+   "url": "https://fr.wikipedia.org/wiki/Histoire_de_la_R%C3%A9publique_centrafricaine",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S5",
+   "titre": "Languages of the Central African Republic",
+   "institution": "Wikipédia (en)",
+   "url": "https://en.wikipedia.org/wiki/Languages_of_the_Central_African_Republic",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S6",
+   "titre": "Parc national du Manovo-Gounda St Floris",
+   "institution": "UNESCO, Centre du patrimoine mondial",
+   "url": "https://whc.unesco.org/fr/list/475",
+   "type": "unesco",
+   "licence": "CC BY-SA 3.0 IGO",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S7",
+   "titre": "Trinational de la Sangha",
+   "institution": "UNESCO, Centre du patrimoine mondial",
+   "url": "https://whc.unesco.org/fr/list/1380",
+   "type": "unesco",
+   "licence": "CC BY-SA 3.0 IGO",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S8",
+   "titre": "République centrafricaine — État partie",
+   "institution": "UNESCO, Centre du patrimoine mondial",
+   "url": "https://whc.unesco.org/fr/etatsparties/cf",
+   "type": "unesco",
+   "licence": "CC BY-SA 3.0 IGO",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S9",
+   "titre": "Polyphonic singing of the Aka Pygmies of Central Africa (RL 00082)",
+   "institution": "UNESCO, Patrimoine culturel immatériel",
+   "url": "https://ich.unesco.org/en/RL/polyphonic-singing-of-the-aka-pygmies-of-central-africa-00082",
+   "type": "unesco",
+   "licence": "CC BY-SA 3.0 IGO",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S10",
+   "titre": "République centrafricaine — États parties (patrimoine immatériel)",
+   "institution": "UNESCO, Patrimoine culturel immatériel",
+   "url": "https://ich.unesco.org/en/state/central-african-republic-CF",
+   "type": "unesco",
+   "licence": "CC BY-SA 3.0 IGO",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S11",
+   "titre": "Listes indicatives — République centrafricaine",
+   "institution": "UNESCO, Centre du patrimoine mondial",
+   "url": "https://whc.unesco.org/fr/listesindicatives/?action=listtentative&state=cf",
+   "type": "unesco",
+   "licence": "CC BY-SA 3.0 IGO",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S12",
+   "titre": "Les mégalithes de Bouar (liste indicative n° 4003)",
+   "institution": "UNESCO, Centre du patrimoine mondial",
+   "url": "https://whc.unesco.org/fr/listesindicatives/4003/",
+   "type": "unesco",
+   "licence": "CC BY-SA 3.0 IGO",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S13",
+   "titre": "Le Tata du Sultan Sénoussi, les grottes de Kaga-Kpoungouvou, la ville de Ndélé (liste indicative n° 4004)",
+   "institution": "UNESCO, Centre du patrimoine mondial",
+   "url": "https://whc.unesco.org/fr/listesindicatives/4004/",
+   "type": "unesco",
+   "licence": "CC BY-SA 3.0 IGO",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S14",
+   "titre": "Les sites paléo-métallurgiques de Bangui (liste indicative n° 4005)",
+   "institution": "UNESCO, Centre du patrimoine mondial",
+   "url": "https://whc.unesco.org/fr/listesindicatives/4005/",
+   "type": "unesco",
+   "licence": "CC BY-SA 3.0 IGO",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S15",
+   "titre": "Les gravures rupestres de Lengo (liste indicative n° 4006)",
+   "institution": "UNESCO, Centre du patrimoine mondial",
+   "url": "https://whc.unesco.org/fr/listesindicatives/4006/",
+   "type": "unesco",
+   "licence": "CC BY-SA 3.0 IGO",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S16",
+   "titre": "Les vestiges du train de Zinga (liste indicative n° 4007)",
+   "institution": "UNESCO, Centre du patrimoine mondial",
+   "url": "https://whc.unesco.org/fr/listesindicatives/4007/",
+   "type": "unesco",
+   "licence": "CC BY-SA 3.0 IGO",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S17",
+   "titre": "La Réserve intégrale de la Mbaéré-Bondingué (liste indicative n° 4009)",
+   "institution": "UNESCO, Centre du patrimoine mondial",
+   "url": "https://whc.unesco.org/fr/listesindicatives/4009/",
+   "type": "unesco",
+   "licence": "CC BY-SA 3.0 IGO",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S18",
+   "titre": "Les chutes de la Mbi (liste indicative n° 4010)",
+   "institution": "UNESCO, Centre du patrimoine mondial",
+   "url": "https://whc.unesco.org/fr/listesindicatives/4010/",
+   "type": "unesco",
+   "licence": "CC BY-SA 3.0 IGO",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S19",
+   "titre": "La colline et la plaine, la rivière Oubangui et le patrimoine colonial bâti de la ville de Bangui (liste indicative n° 4011)",
+   "institution": "UNESCO, Centre du patrimoine mondial",
+   "url": "https://whc.unesco.org/fr/listesindicatives/4011/",
+   "type": "unesco",
+   "licence": "CC BY-SA 3.0 IGO",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S20",
+   "titre": "La forêt et les campements résidentiels de référence aka (liste indicative n° 4012)",
+   "institution": "UNESCO, Centre du patrimoine mondial",
+   "url": "https://whc.unesco.org/fr/listesindicatives/4012/",
+   "type": "unesco",
+   "licence": "CC BY-SA 3.0 IGO",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S21",
+   "titre": "Glottolog — Sango (sang1328)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/sang1328",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S22",
+   "titre": "Glottolog — French (stan1290)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/stan1290",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S23",
+   "titre": "Glottolog — Northwest Gbaya (nort2775)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/nort2775",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S24",
+   "titre": "Glottolog — Banda-Bambari (band1344)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/band1344",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S25",
+   "titre": "Glottolog — Zande (zand1248)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/zand1248",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S26",
+   "titre": "Glottolog — Ngbaka Minagende (ngba1285)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/ngba1285",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S27",
+   "titre": "Glottolog — Manza (manz1243)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/manz1243",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S28",
+   "titre": "Glottolog — Yakoma (yako1252)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/yako1252",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S29",
+   "titre": "Glottolog — Yaka (Central African Republic) (yaka1272)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/yaka1272",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S30",
+   "titre": "Glottolog — Mbati (mbat1248)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/mbat1248",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S31",
+   "titre": "Glottolog — Runga (rung1258)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/rung1258",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S32",
+   "titre": "Glottolog — Chadian Arabic (chad1249)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/chad1249",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S33",
+   "titre": "Glottolog — Kare (Central African Republic) (kare1338)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/kare1338",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S34",
+   "titre": "Glottolog — Sara Kaba (sara1319)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/sara1319",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S35",
+   "titre": "Glottolog — Gula (Central African Republic) (gula1266)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/gula1266",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S36",
+   "titre": "Glottolog — Nzakara (nzak1247)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/nzak1247",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S37",
+   "titre": "Glottolog — Mpiemo (mpie1238)",
+   "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+   "url": "https://glottolog.org/resource/languoid/id/mpie1238",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S38",
+   "titre": "Le sango dans la formation de la nation centrafricaine",
+   "institution": "Persée / Politique africaine",
+   "url": "https://www.persee.fr/doc/polaf_0244-7827_1986_num_23_1_3833",
+   "type": "article_scientifique",
+   "licence": "accès libre (Persée)",
+   "consulte_le": "2026-11-21",
+   "auteur": "Marcel Diki-Kidiri",
+   "annee": 1986
+  },
+  {
+   "id": "S39",
+   "titre": "Variantes architecturales des Tazunu du Nord-Ouest de la République Centrafricaine et évolution chrono-culturelle régionale",
+   "institution": "Persée / Journal des africanistes",
+   "url": "https://www.persee.fr/doc/jafr_0399-0346_1995_num_65_2_2435",
+   "type": "article_scientifique",
+   "licence": "accès libre (Persée)",
+   "consulte_le": "2026-11-21",
+   "auteur": "Étienne Zangato",
+   "annee": 1995
+  },
+  {
+   "id": "S40",
+   "titre": "La vie rurale chez les Banda (République Centrafricaine)",
+   "institution": "Persée / Les Cahiers d'Outre-Mer",
+   "url": "https://www.persee.fr/doc/caoum_0373-5834_1963_num_16_64_2312",
+   "type": "article_scientifique",
+   "licence": "accès libre (Persée)",
+   "consulte_le": "2026-11-21",
+   "auteur": "Michel Georges",
+   "annee": 1963
+  },
+  {
+   "id": "S41",
+   "titre": "Compte rendu de P. Kalck, Barthélémy Boganda. Élit de Dieu et des Centrafricains",
+   "institution": "Persée / Outre-Mers. Revue d'histoire",
+   "url": "https://www.persee.fr/doc/outre_0300-9513_1996_num_83_313_3491_t1_0111_0000_3",
+   "type": "article_scientifique",
+   "licence": "accès libre (Persée)",
+   "consulte_le": "2026-11-21",
+   "auteur": "Louis Sanmarco",
+   "annee": 1996
+  },
+  {
+   "id": "S42",
+   "titre": "Compte rendu de J.-D. Penel, Barthélémy Boganda, écrits et discours : 1946-1951",
+   "institution": "Persée / Politique africaine",
+   "url": "https://www.persee.fr/doc/polaf_0244-7827_1998_num_70_1_6142_t1_0165_0000_6",
+   "type": "article_scientifique",
+   "licence": "accès libre (Persée)",
+   "consulte_le": "2026-11-21",
+   "auteur": "Pierre-Marie Decoudras",
+   "annee": 1998
+  },
+  {
+   "id": "S43",
+   "titre": "Ce jour-là : le 21 septembre 1979, la chute de Bokassa 1er, empereur de Centrafrique",
+   "institution": "Jeune Afrique",
+   "url": "https://www.jeuneafrique.com/357904/politique/jour-21-septembre-1979-chute-de-bokassa-1er-empereur-de-centrafrique/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21",
+   "auteur": "Matthieu Kairouz",
+   "annee": 2016
+  },
+  {
+   "id": "S44",
+   "titre": "Bokassa, mort d'un tyran déchu",
+   "institution": "Libération",
+   "url": "https://www.liberation.fr/planete/1996/11/05/special-usa-bokassa-mort-d-un-tyran-dechu-l-ex-empereur-de-la-centrafrique-est-decede-dimanche-a-ban_189428/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21",
+   "auteur": "Stephen Smith",
+   "annee": 1996
+  },
+  {
+   "id": "S45",
+   "titre": "GOUMBA Abel — ancien sénateur de la Communauté",
+   "institution": "Sénat (France)",
+   "url": "https://www.senat.fr/senateur-communaute/goumba_abel0134sc.html",
+   "type": "institution",
+   "licence": "données publiques",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S46",
+   "titre": "Catherine Samba-Panza, nouvelle présidente de Centrafrique : pourquoi elle",
+   "institution": "RFI",
+   "url": "https://www.rfi.fr/afrique/20140120-centrafrique-catherine-samba-panza-femme-dialogue",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21",
+   "annee": 2014
+  },
+  {
+   "id": "S47",
+   "titre": "Centrafrique : la Cour constitutionnelle entérine le départ de Danièle Darlan",
+   "institution": "RFI",
+   "url": "https://www.rfi.fr/fr/afrique/20230103-centrafrique-la-cour-constitutionnelle-ent%C3%A9rine-le-d%C3%A9part-de-dani%C3%A8le-darlan",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21",
+   "annee": 2023
+  },
+  {
+   "id": "S48",
+   "titre": "Youssou N'Dour et Idylle Mamba en duo pour chanter la paix en Centrafrique",
+   "institution": "RFI",
+   "url": "https://www.rfi.fr/afrique/20140127-youssou-ndour-idylle-mamba-duo-chanter-paix-centrafrique/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21",
+   "annee": 2014
+  },
+  {
+   "id": "S49",
+   "titre": "Portrait : Elisabeth Domitien, première femme Premier ministre africaine",
+   "institution": "centrafrique-presse (blog, reprise d'Africa Post News)",
+   "url": "https://centrafrique-presse.over-blog.com/2019/03/portrait-elisabeth-domitien-premiere-femme-premier-ministre-africaine.html",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21",
+   "annee": 2019
+  },
+  {
+   "id": "S50",
+   "titre": "Blouin Andrée",
+   "institution": "African Literature, University of Western Australia",
+   "url": "https://aflit.arts.uwa.edu.au/BlouinAndree.html",
+   "type": "universite",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S51",
+   "titre": "La vie remarquable d'Andrée Blouin, héroïne africaine de l'indépendance méconnue",
+   "institution": "BBC News Afrique",
+   "url": "https://www.bbc.com/afrique/articles/cx2p3273yzvo",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21",
+   "auteur": "Wedaeli Chibelushi",
+   "annee": 2025
+  },
+  {
+   "id": "S52",
+   "titre": "Marie-Joëlle Conjungo",
+   "institution": "Olympedia",
+   "url": "https://www.olympedia.org/athletes/83384",
+   "type": "base_de_donnees",
+   "licence": "CC BY-NC-ND 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S53",
+   "titre": "Centrafrique : comment les pygmées Ba'Akas préservent et valorisent leur mode de vie traditionnel",
+   "institution": "RFI (radio partenaire)",
+   "url": "https://www.rfi.fr/fr/m%C3%A9dias-partenaires/20220628-centrafrique-comment-les-pygm%C3%A9es-ba-akas-pr%C3%A9servent-et-valorisent-leur-mode-de-vie-traditionnel",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21",
+   "annee": 2022
+  },
+  {
+   "id": "S54",
+   "titre": "Tout savoir sur les Pygmées Aka",
+   "institution": "Muséum national d'histoire naturelle",
+   "url": "https://www.mnhn.fr/fr/actualites/tout-savoir-sur-les-pygmees-aka",
+   "type": "institution",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21",
+   "annee": 2020
+  },
+  {
+   "id": "S55",
+   "titre": "Centrafrique. Anthologie de la musique des Pygmées Aka (CD Ocora Radio France)",
+   "institution": "Radio France, Éditions",
+   "url": "https://www.radiofrance.com/les-editions/musique/centrafrique-anthologie-de-la-musique-des-pygmees-aka",
+   "type": "institution",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21",
+   "annee": 2016
+  },
+  {
+   "id": "S56",
+   "titre": "Littérature en gbaya",
+   "institution": "ELLAF — Encyclopédie des littératures en langues africaines (Huma-Num)",
+   "url": "http://ellaf.huma-num.fr/litteratures/litterature-en-gbaya/",
+   "type": "universite",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21",
+   "auteur": "Paulette Roulon-Doko"
+  },
+  {
+   "id": "S57",
+   "titre": "République centrafricaine",
+   "institution": "World Encyclopedia of Puppetry Arts (UNIMA)",
+   "url": "https://wepa.unima.org/fr/republique-centrafricaine/",
+   "type": "encyclopedie",
+   "licence": "CC BY-NC-SA",
+   "consulte_le": "2026-11-21",
+   "auteur": "Julien Yamakana",
+   "annee": 2009
+  },
+  {
+   "id": "S58",
+   "titre": "Language and Music in fusion: The Drum language of the Banda linda (Central African Republic)",
+   "institution": "TRANS — Revista Transcultural de Música",
+   "url": "http://www.sibetrans.com/trans/a118/language-and-music-in-fusion-the-drum-language-of-the-banda-linda-central-african-republic",
+   "type": "article_scientifique",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21",
+   "auteur": "Simha Arom",
+   "annee": 2007
+  },
+  {
+   "id": "S59",
+   "titre": "La technique du jodel chez les Pygmées Aka (Centrafrique). Étude phonétique et acoustique",
+   "institution": "Cahiers de musiques traditionnelles (OpenEdition)",
+   "url": "https://ethnomusicologie.revues.org/1588",
+   "type": "article_scientifique",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21",
+   "auteur": "Susanne Fürniß",
+   "annee": 1991
+  },
+  {
+   "id": "S60",
+   "titre": "Centrafrique : les chenilles sociales de Mokinda [2/3]",
+   "institution": "RFI, Reportage Afrique",
+   "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20210728-centrafrique-les-chenilles-sociales-de-mokinda-2-3",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21",
+   "auteur": "Carol Valade",
+   "annee": 2021
+  },
+  {
+   "id": "S61",
+   "titre": "Les ateliers d'Oboui — premières communautés métallurgistes dans le nord-ouest du Centrafrique (présentation)",
+   "institution": "Sangonet",
+   "url": "https://www.sangonet.com/hist/FichHistoire/prem-mettalurg-NO-RCA.html",
+   "type": "livre",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21",
+   "auteur": "Étienne Zangato",
+   "annee": 2008
+  },
+  {
+   "id": "S62",
+   "titre": "Cinéma en Centrafrique : le septième art fait sa révolution",
+   "institution": "RFI, Reportage Afrique",
+   "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20240509-cin%C3%A9ma-en-centrafrique-le-septi%C3%A8me-art-fait-sa-r%C3%A9volution",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21",
+   "annee": 2024
+  },
+  {
+   "id": "S63",
+   "titre": "L'architecture coloniale du centre-ville de Bangui (Rép. Centrafricaine) : essai sur un patrimoine urbain en décadence",
+   "institution": "Les Cahiers d'Outre-Mer (OpenEdition)",
+   "url": "https://com.revues.org/6794",
+   "type": "article_scientifique",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21",
+   "auteur": "Thierry Bangui",
+   "annee": 2013
+  },
+  {
+   "id": "S64",
+   "titre": "MINUSCA",
+   "institution": "Nations unies, Opérations de paix",
+   "url": "https://peacekeeping.un.org/en/mission/minusca",
+   "type": "institution",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S65",
+   "titre": "Central African Republic (situation ICC-01/05)",
+   "institution": "Cour pénale internationale",
+   "url": "https://www.icc-cpi.int/car",
+   "type": "institution",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S66",
+   "titre": "Guerre du Kongo-Wara",
+   "institution": "Wikipédia (fr)",
+   "url": "https://fr.wikipedia.org/wiki/Guerre_du_Kongo-Wara",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S67",
+   "titre": "Empire centrafricain",
+   "institution": "Wikipédia (fr)",
+   "url": "https://fr.wikipedia.org/wiki/Empire_centrafricain",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S68",
+   "titre": "Banda (peuple)",
+   "institution": "Wikipédia (fr)",
+   "url": "https://fr.wikipedia.org/wiki/Banda_(peuple)",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S69",
+   "titre": "Aka (peuple)",
+   "institution": "Wikipédia (fr)",
+   "url": "https://fr.wikipedia.org/wiki/Aka_(peuple)",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S70",
+   "titre": "Barthélemy Boganda",
+   "institution": "Wikipédia (fr)",
+   "url": "https://fr.wikipedia.org/wiki/Barth%C3%A9lemy_Boganda",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S71",
+   "titre": "David Dacko",
+   "institution": "Wikipédia (fr)",
+   "url": "https://fr.wikipedia.org/wiki/David_Dacko",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S72",
+   "titre": "Jean-Bedel Bokassa",
+   "institution": "Wikipédia (fr)",
+   "url": "https://fr.wikipedia.org/wiki/Jean-Bedel_Bokassa",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S73",
+   "titre": "Abel Goumba",
+   "institution": "Wikipédia (fr)",
+   "url": "https://fr.wikipedia.org/wiki/Abel_Goumba",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S74",
+   "titre": "Ange-Félix Patassé",
+   "institution": "Wikipédia (fr)",
+   "url": "https://fr.wikipedia.org/wiki/Ange-F%C3%A9lix_Patass%C3%A9",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S75",
+   "titre": "Karnou",
+   "institution": "Wikipédia (fr)",
+   "url": "https://fr.wikipedia.org/wiki/Karnou",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S76",
+   "titre": "Catherine Samba-Panza",
+   "institution": "Wikipédia (fr)",
+   "url": "https://fr.wikipedia.org/wiki/Catherine_Samba-Panza",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S77",
+   "titre": "Élisabeth Domitien",
+   "institution": "Wikipédia (fr)",
+   "url": "https://fr.wikipedia.org/wiki/%C3%89lisabeth_Domitien",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S78",
+   "titre": "Danièle Darlan",
+   "institution": "Wikipédia (fr)",
+   "url": "https://fr.wikipedia.org/wiki/Dani%C3%A8le_Darlan",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S79",
+   "titre": "Idylle Mamba",
+   "institution": "Wikipédia (fr)",
+   "url": "https://fr.wikipedia.org/wiki/Idylle_Mamba",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S80",
+   "titre": "Andrée Blouin",
+   "institution": "Wikipédia (fr)",
+   "url": "https://fr.wikipedia.org/wiki/Andr%C3%A9e_Blouin",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S81",
+   "titre": "Maria-Joëlle Conjungo",
+   "institution": "Wikipédia (fr)",
+   "url": "https://fr.wikipedia.org/wiki/Maria-Jo%C3%ABlle_Conjungo",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S82",
+   "titre": "Sylvie Baïpo-Temon",
+   "institution": "Wikipédia (fr)",
+   "url": "https://fr.wikipedia.org/wiki/Sylvie_Ba%C3%AFpo-Temon",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S83",
+   "titre": "Étienne Goyémidé",
+   "institution": "Wikipédia (fr)",
+   "url": "https://fr.wikipedia.org/wiki/%C3%89tienne_Goy%C3%A9mid%C3%A9",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S84",
+   "titre": "Bibi Tanga",
+   "institution": "Wikipédia (fr)",
+   "url": "https://fr.wikipedia.org/wiki/Bibi_Tanga",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S85",
+   "titre": "Wanto et l'origine des choses : contes d'origine et autres contes gbaya-kara, Centrafrique",
+   "institution": "Internet Archive",
+   "url": "https://archive.org/details/wantoetlorigined0000unse",
+   "type": "base_de_donnees",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21",
+   "annee": 1977
+  },
+  {
+   "id": "S86",
+   "titre": "My country, Africa : autobiography of the black pasionaria",
+   "institution": "Internet Archive",
+   "url": "https://archive.org/details/mycountryafricaa00blou",
+   "type": "base_de_donnees",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21",
+   "auteur": "Andrée Blouin, Jean MacKellar",
+   "annee": 1983
+  }
+ ]
+}

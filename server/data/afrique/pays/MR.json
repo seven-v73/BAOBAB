@@ -1,0 +1,3766 @@
+{
+  "code": "MR",
+  "nom": "Mauritanie",
+  "region": "ouest",
+  "wikidata": "Q1025",
+  "maj": "2026-11-21",
+  "pays": {
+    "nom_officiel": "République islamique de Mauritanie",
+    "capitale": "Nouakchott",
+    "langues_officielles": [
+      "arabe"
+    ],
+    "langues_nationales": [
+      "pulaar",
+      "soninké",
+      "wolof"
+    ],
+    "population": {
+      "valeur": 5315065,
+      "annee": 2025,
+      "source": "S1"
+    },
+    "superficie_km2": 1030700,
+    "monnaie": "Ouguiya (MRU)",
+    "resume": "La Mauritanie est un vaste pays saharien et sahélien de l'Afrique de l'Ouest, ouvert sur l'Atlantique, qui relie le monde maghrébin et l'Afrique subsaharienne. Son territoire a vu naître la confédération sanhaja, l'empire du Ghana et le mouvement almoravide, puis des villes caravanières comme Ouadane, Chinguetti, Tichitt et Oualata, inscrites au patrimoine mondial. Les émirats et les confréries ont structuré la société avant la conquête française du début du XXe siècle et l'indépendance du 28 novembre 1960. Sa population réunit des arabophones (Bidhan et Haratin) et des communautés du fleuve Sénégal (Halpulaar, Soninkés, Wolofs, Peuls), ainsi que les pêcheurs imraguen de la côte. L'arabe est la langue officielle, le hassanya la langue la plus parlée, et le pulaar, le soninké et le wolof sont des langues nationales. Le pays compte deux biens du patrimoine mondial et neuf éléments du patrimoine culturel immatériel, dont la mahadra, l'épopée T'heydinn et l'épopée de Samba Gueladio.",
+    "sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7",
+      "S8"
+    ]
+  },
+  "langues": [
+    {
+      "id": "MR-langue-hassanya",
+      "nom": "Hassanya",
+      "description": "Le hassanya est le dialecte arabe parlé dans l'essentiel du pays et dans l'ouest du Sahara. Son nom vient des Banu Hassan, groupes arabes installés en Mauritanie entre le XVe et le XVIIe siècle. Les sources le présentent comme la langue maternelle de la grande majorité des habitants ; c'est aussi la langue de la poésie et de l'épopée des griots. Il est surtout oral, l'écrit passant par l'arabe standard.",
+      "nom_local": "Ḥassāniyya",
+      "famille": "Afro-asiatique, arabe (dialecte)",
+      "glottocode": "hass1238",
+      "statut_linguistique": [
+        "nationale",
+        "véhiculaire"
+      ],
+      "wikidata": "Q56231",
+      "regions": [
+        "ensemble du pays"
+      ],
+      "sources": [
+        "S9",
+        "S8",
+        "S10",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode hass1238 confirmé sur Glottolog. Statut « national » : Wikipédia le range parmi les langues nationales, la révision constitutionnelle de 2012 citée par Wikipédia ne nomme que pulaar, soninké et wolof ; Glottolog le décrit comme langue de l'identité nationale (Constitution 1991, art. 6)."
+      }
+    },
+    {
+      "id": "MR-langue-arabe",
+      "nom": "Arabe standard",
+      "description": "L'arabe standard est la seule langue officielle de la Mauritanie selon la Constitution de 1991 citée par Wikipédia. Il sert à l'écrit, à l'enseignement, à la religion et à l'administration, tandis que la vie quotidienne se joue surtout en hassanya. Les billets de banque portent l'arabe sur une face et le français sur l'autre.",
+      "nom_local": "العربية",
+      "famille": "Afro-asiatique, sémitique",
+      "glottocode": "stan1318",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "wikidata": "Q13955",
+      "ecritures": [
+        "arabe"
+      ],
+      "regions": [
+        "ensemble du pays"
+      ],
+      "sources": [
+        "S11",
+        "S8",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode stan1318 (arabe standard) confirmé sur Glottolog. La graine Wikidata classait aussi le français comme officiel ; les sources ouvertes ne retiennent que l'arabe depuis 1991."
+      }
+    },
+    {
+      "id": "MR-langue-francais",
+      "nom": "Français",
+      "description": "Le français a été co-officiel avec l'arabe jusqu'en 1991 et reste très utilisé dans l'administration, l'enseignement bilingue et les médias. Selon un rapport de l'Organisation internationale de la Francophonie cité par Wikipédia, environ 13 % des habitants savent le lire et l'écrire. Il n'a plus de statut officiel mais fonctionne de fait comme langue de travail.",
+      "famille": "Indo-européen, roman",
+      "glottocode": "stan1290",
+      "statut_linguistique": [
+        "véhiculaire"
+      ],
+      "wikidata": "Q150",
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Nouakchott",
+        "grandes villes"
+      ],
+      "sources": [
+        "S8",
+        "S3",
+        "S12"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode stan1290 confirmé sur Glottolog."
+      }
+    },
+    {
+      "id": "MR-langue-pulaar",
+      "nom": "Pulaar",
+      "description": "Le pulaar est la forme de la langue peule parlée par les Haalpulaar et les Peuls de la vallée du fleuve Sénégal. La Library of Congress la rattache aux langues atlantiques de la famille Niger-Congo et note l'importance de sa littérature orale. C'est l'une des trois langues nationales nommées dans la Constitution révisée en 2012.",
+      "nom_local": "Pulaar",
+      "famille": "Niger-Congo, atlantique (langue peule)",
+      "glottocode": "pula1263",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q1420205",
+      "regions": [
+        "vallée du fleuve Sénégal"
+      ],
+      "sources": [
+        "S13",
+        "S14",
+        "S15",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode pula1263 confirmé sur Glottolog."
+      }
+    },
+    {
+      "id": "MR-langue-soninke",
+      "nom": "Soninké",
+      "description": "Le soninké est la langue des Soninkés, établis sur les rives du fleuve Sénégal dans le centre-sud du pays et héritiers, selon la tradition, des bâtisseurs du royaume de Ghana. Un parler appelé azer, fortement marqué par le berbère, est signalé par la Library of Congress. Le soninké figure parmi les langues nationales reconnues par la Constitution.",
+      "nom_local": "Sooninkanxanne",
+      "famille": "Niger-Congo, mandé",
+      "glottocode": "soni1259",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q36660",
+      "regions": [
+        "vallée du fleuve Sénégal (centre-sud)"
+      ],
+      "sources": [
+        "S16",
+        "S17",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode soni1259 confirmé sur Glottolog."
+      }
+    },
+    {
+      "id": "MR-langue-wolof",
+      "nom": "Wolof",
+      "description": "Le wolof est parlé en Mauritanie par une communauté relativement peu nombreuse, surtout dans le sud près du fleuve ; il domine en revanche au Sénégal voisin. Il est l'une des trois langues nationales nommées par la Constitution depuis la révision de 2012. La graine Wikidata donnait le glottocode wolo1247, qui désigne en fait la sous-famille « Wolofic » ; le code de la langue est nucl1347.",
+      "nom_local": "Wolof",
+      "famille": "Niger-Congo, atlantique",
+      "glottocode": "nucl1347",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "wikidata": "Q34257",
+      "regions": [
+        "vallée du fleuve Sénégal"
+      ],
+      "sources": [
+        "S18",
+        "S19",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Correction du glottocode de la graine (wolo1247 = sous-famille Wolofic) par nucl1347, vérifié sur Glottolog."
+      }
+    },
+    {
+      "id": "MR-langue-zenaga",
+      "nom": "Zénaga",
+      "description": "Le zénaga est la dernière langue berbère de Mauritanie. Il survit dans le sud-ouest, parmi des locuteurs âgés et bilingues en arabe hassanya selon Glottolog, qui le classe parmi les langues en danger sévère. Il a longtemps été lié à une catégorie de la société maure, les Znaga, descendants de groupes berbères devenus tributaires.",
+      "nom_local": "Tuẓẓungiyya",
+      "famille": "Afro-asiatique, berbère",
+      "glottocode": "zena1248",
+      "statut_linguistique": [
+        "menacée",
+        "minoritaire"
+      ],
+      "wikidata": "Q37005",
+      "regions": [
+        "sud du pays, près du fleuve Sénégal (selon Wikipédia)"
+      ],
+      "sources": [
+        "S20",
+        "S8",
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode zena1248 confirmé sur Glottolog (statut : moribond)."
+      }
+    },
+    {
+      "id": "MR-langue-bambara",
+      "nom": "Bambara",
+      "description": "Le bambara est parlé par un petit nombre de personnes en Mauritanie, surtout des familles venues du Mali voisin. La Library of Congress précise que la langue est proche des autres langues mandé de la région. Elle n'a pas de statut particulier dans le pays.",
+      "nom_local": "Bamanankan",
+      "famille": "Niger-Congo, mandé",
+      "glottocode": "bamb1269",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "regions": [
+        "sud du pays"
+      ],
+      "sources": [
+        "S22",
+        "S23",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode bamb1269 confirmé sur Glottolog. Présence très minoritaire en Mauritanie d'après la Library of Congress (1988)."
+      }
+    },
+    {
+      "id": "MR-langue-tamasheq",
+      "nom": "Tamasheq",
+      "description": "Le tamasheq est la langue berbère des Touaregs ; Wikipédia le signale dans l'extrême sud-est de la Mauritanie, à la frontière malienne. Il appartient à une autre branche berbère que le zénaga. Les sources consultées ne donnent pas de chiffre de locuteurs pour la Mauritanie.",
+      "nom_local": "Tamāšaq",
+      "famille": "Afro-asiatique, berbère",
+      "glottocode": "tama1365",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "regions": [
+        "Hodh Ech Chargui (sud-est)"
+      ],
+      "sources": [
+        "S24",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode tama1365 confirmé sur Glottolog ; présence en Mauritanie attestée uniquement par Wikipédia."
+      }
+    }
+  ],
+  "peuples": [
+    {
+      "id": "MR-peuple-bidhan",
+      "nom": "Bidhan (Beydane)",
+      "description": "Les Bidhan, nommés « Maures » dans les sources coloniales, sont les arabophones de Mauritanie et forment le groupe le plus nombreux du pays. Leur identité résulte du rapprochement de populations berbères sanhaja et de groupes arabes Banu Hassan arrivés à partir du XVe siècle. Ils parlent le hassanya et se sont longtemps organisés en fractions, émirats et villes caravanières comme Chinguetti ou Oualata.",
+      "langues": [
+        "hassanya",
+        "arabe"
+      ],
+      "regions": [
+        "ensemble du pays",
+        "villes anciennes (Chinguetti, Ouadane, Tichitt, Oualata)"
+      ],
+      "pays_partages": [
+        "EH",
+        "MA",
+        "DZ",
+        "ML",
+        "SN"
+      ],
+      "organisation": "Selon la Library of Congress (1988), des familles guerrières (hassan) et religieuses (zawiya), des tributaires, des groupes d'artisans et de griots (iggawen) ; ces catégories sont aujourd'hui discutées et en évolution.",
+      "activites": [
+        "élevage nomade",
+        "commerce caravanier",
+        "enseignement religieux",
+        "poésie et musique"
+      ],
+      "wikidata": "Q448649",
+      "sources": [
+        "S25",
+        "S10",
+        "S26",
+        "S27",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le terme « Bidhan » (« les Blancs ») est celui que se donnent les arabophones eux-mêmes d'après Taine-Cheikh (Persée)."
+      }
+    },
+    {
+      "id": "MR-peuple-haratin",
+      "nom": "Haratin",
+      "description": "Les Haratin, parfois appelés « Maures noirs », sont des arabophones de Mauritanie dont les ascendants furent intégrés à la société maure comme esclaves ; ils parlent le hassanya et partagent largement la culture bidhan. Leur situation sociale, l'héritage de l'esclavage et leur représentation politique font l'objet de recherches et de combats associatifs, notamment menés par des militants haratin.",
+      "langues": [
+        "hassanya",
+        "arabe"
+      ],
+      "regions": [
+        "ensemble du pays"
+      ],
+      "pays_partages": [
+        "MA",
+        "DZ",
+        "EH"
+      ],
+      "activites": [
+        "agriculture",
+        "élevage",
+        "commerce",
+        "militance abolitionniste et civique"
+      ],
+      "wikidata": "Q1584897",
+      "sensible": true,
+      "note_sensibilite": "Sujet politique et social sensible (esclavage, discriminations héritées). La présentation s'en tient à des sources publiées et doit être relue par des personnes concernées et des spécialistes avant publication.",
+      "sources": [
+        "S21",
+        "S28",
+        "S29",
+        "S30",
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-peuple-imraguen",
+      "nom": "Imraguen",
+      "description": "Les Imraguen sont une petite communauté de pêcheurs installée sur la côte atlantique, surtout dans la zone du banc d'Arguin. Ils pratiquent la pêche saisonnière du mulet jaune, dont les femmes transforment une partie en poutargue. Des observations anciennes publiées dans le Journal des Africanistes (1937) décrivent leurs coutumes et leur place dans la société côtière.",
+      "langues": [
+        "hassanya"
+      ],
+      "regions": [
+        "Parc national du banc d'Arguin",
+        "côte entre Nouadhibou et Nouakchott"
+      ],
+      "activites": [
+        "pêche à pied du mulet jaune",
+        "préparation de la poutargue",
+        "pêche en association avec les dauphins"
+      ],
+      "wikidata": "Q1660486",
+      "sources": [
+        "S32",
+        "S33",
+        "S34",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le lien avec les dauphins est établi par l'UNESCO pour les pêcheurs du parc (fiche 506), sans nommer explicitement les Imraguen ; le rapprochement s'appuie sur Wikipédia."
+      }
+    },
+    {
+      "id": "MR-peuple-znaga",
+      "nom": "Zenaga (Znaga)",
+      "description": "Les Znaga sont, dans la société maure, des groupes issus de Berbères autrefois liés par un tribut à des familles guerrières ou religieuses. Leur culture et leur parler restent plus marqués par le berbère que ceux des autres arabophones. Le mot donne son nom à la langue zénaga, aujourd'hui menacée.",
+      "langues": [
+        "zénaga",
+        "hassanya"
+      ],
+      "regions": [
+        "sud du pays, près du fleuve Sénégal (selon Wikipédia)"
+      ],
+      "activites": [
+        "élevage",
+        "pastoralisme"
+      ],
+      "wikidata": "Q3302562",
+      "sources": [
+        "S21",
+        "S20",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Notion historique parfois contestée aujourd'hui ; description basée sur la Library of Congress (1988)."
+      }
+    },
+    {
+      "id": "MR-peuple-halpulaar",
+      "nom": "Halpulaar (Toucouleur)",
+      "description": "Les Halpulaar, appelés Toucouleur dans une partie de la littérature, vivent surtout de l'agriculture le long du fleuve Sénégal, en Mauritanie et au Sénégal. Ils parlent le pulaar et se rattachent à l'ancien royaume du Tekrour, qui a intégré des populations locales dont des Wolofs et des Soninkés. L'épopée de Samba Gueladio, inscrite par l'UNESCO, appartient à leur région d'origine, le Fouta Toro.",
+      "langues": [
+        "pulaar"
+      ],
+      "regions": [
+        "vallée du fleuve Sénégal",
+        "Fouta Toro"
+      ],
+      "pays_partages": [
+        "SN"
+      ],
+      "organisation": "Les classes d'âge (fedde) jouent un rôle dans les solidarités, d'après la Library of Congress (1988).",
+      "activites": [
+        "agriculture de décrue",
+        "élevage",
+        "commerce",
+        "enseignement coranique"
+      ],
+      "sources": [
+        "S35",
+        "S36",
+        "S14"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-peuple-peul",
+      "nom": "Peuls (Fulbe)",
+      "description": "Les Peuls de Mauritanie appartiennent à l'ensemble peul présent du Sénégal au Soudan, qui se nomme lui-même Fulbe (Pullo au singulier). Leur culture est associée à l'élevage de bovins et aux produits laitiers, ainsi qu'à une riche tradition orale en pulaar. Ils vivent surtout dans le sud du pays.",
+      "langues": [
+        "pulaar"
+      ],
+      "regions": [
+        "sud du pays"
+      ],
+      "pays_partages": [
+        "SN",
+        "NG",
+        "SD"
+      ],
+      "activites": [
+        "élevage de bovins",
+        "poésie et récit oraux"
+      ],
+      "sources": [
+        "S15",
+        "S14"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-peuple-soninke",
+      "nom": "Soninké",
+      "description": "Les Soninkés de Mauritanie forment la branche la plus occidentale d'un peuple répandu du Mali à la Côte d'Ivoire ; ils vivent surtout sur les rives du fleuve Sénégal dans le sud. Ils se rattachent à la mémoire du royaume de Ghana, dont la capitale Koumbi Saleh se trouvait dans le sud-est mauritanien. La migration, notamment vers la France, est une dimension ancienne de leur histoire d'après les travaux de Jacques Barou.",
+      "langues": [
+        "soninké"
+      ],
+      "regions": [
+        "rives du fleuve Sénégal (centre-sud)",
+        "Kiffa"
+      ],
+      "pays_partages": [
+        "ML",
+        "BF",
+        "CI"
+      ],
+      "activites": [
+        "agriculture",
+        "commerce",
+        "migration"
+      ],
+      "wikidata": "Q1146970",
+      "sources": [
+        "S17",
+        "S37",
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-peuple-wolof",
+      "nom": "Wolofs",
+      "description": "Les Wolofs de Mauritanie sont une communauté peu nombreuse, installée surtout près du fleuve Sénégal, où ils vivent de l'agriculture et du commerce. La Library of Congress précise qu'ils sont presque tous musulmans et rattachés à des confréries. L'essentiel du peuple wolof vit au Sénégal, où il est majoritaire.",
+      "langues": [
+        "wolof"
+      ],
+      "regions": [
+        "vallée du fleuve Sénégal"
+      ],
+      "pays_partages": [
+        "SN"
+      ],
+      "activites": [
+        "agriculture",
+        "commerce"
+      ],
+      "sources": [
+        "S19",
+        "S33"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-peuple-bambara",
+      "nom": "Bambara (Bamana)",
+      "description": "Les Bambaras ne sont qu'une petite communauté en Mauritanie, la plupart vivant au Mali. La Library of Congress les relie à la mémoire du royaume de Mali du XIIIe siècle et note qu'ils sont surtout cultivateurs. Leur langue, le bambara, appartient au groupe mandé.",
+      "langues": [
+        "bambara"
+      ],
+      "regions": [],
+      "pays_partages": [
+        "ML"
+      ],
+      "activites": [
+        "agriculture"
+      ],
+      "wikidata": "Q504685",
+      "sources": [
+        "S23",
+        "S22"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "id": "MR-site-banc-arguin",
+      "nom": "Parc national du banc d'Arguin",
+      "description": "Le parc longe la côte atlantique et réunit dunes, marais côtiers, petites îles et eaux peu profondes. Le contraste entre le désert et la richesse biologique de la zone marine en fait un paysage exceptionnel, et l'UNESCO souligne qu'il accueille plus de deux millions d'oiseaux limicoles migrateurs en hiver. Des tortues marines et des dauphins y vivent, ces derniers étant utilisés par les pêcheurs pour rabattre le poisson.",
+      "type": "patrimoine_mondial",
+      "regions": [
+        "côte atlantique"
+      ],
+      "periode": "inscrit en 1989",
+      "wikidata": "Q539518",
+      "unesco_id": "506",
+      "inscription": "1989",
+      "coordonnees": {
+        "lat": 20.234722222,
+        "lng": -16.108888888
+      },
+      "sources": [
+        "S4",
+        "S34"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-site-ksour",
+      "nom": "Anciens ksour de Ouadane, Chinguetti, Tichitt et Oualata",
+      "description": "Ces quatre villes de pierre et de terre ont été fondées pour accueillir les caravanes traversant le Sahara et sont devenues des foyers de culture islamique. Leur tissu urbain s'est formé entre le XIIe et le XVIe siècle : maisons à patio serrées le long de ruelles étroites autour d'une mosquée à minaret carré. Elles témoignent du mode de vie nomade et marchand de l'ouest du Sahara, et abritent des bibliothèques de manuscrits.",
+      "type": "patrimoine_mondial",
+      "regions": [
+        "Adrar",
+        "Tagant",
+        "Hodh Ech Chargui"
+      ],
+      "periode": "XIe–XVIe siècle",
+      "wikidata": "Q2845953",
+      "unesco_id": "750",
+      "inscription": "1996",
+      "coordonnees": {
+        "lat": 20.92889,
+        "lng": -11.62361
+      },
+      "sources": [
+        "S5",
+        "S39",
+        "S40",
+        "S41",
+        "S42",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Un seul enregistrement pour le bien (4 composantes : Ouadane, Chinguetti, Tichitt, Oualata). Les coordonnées de la graine désignent Ouadane/Chinguetti."
+      }
+    },
+    {
+      "id": "MR-site-dhar-tichitt",
+      "nom": "Dhar Tichitt",
+      "description": "Le Dhar Tichitt est une falaise en fer à cheval du sud-est mauritanien, qui domine l'ancien lac de l'Aouker. Les recherches archéologiques y ont reconnu un ensemble très dense de sites néolithiques sur plus de 800 km entre Oualata et Tidjikja. La question du lien entre cette culture de Tichitt et les cités médiévales comme Tegdaoust reste débattue par les archéologues.",
+      "type": "site_archeologique",
+      "regions": [
+        "Tagant",
+        "Hodh Ech Chargui"
+      ],
+      "periode": "Néolithique",
+      "sources": [
+        "S43",
+        "S44",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Pas de coordonnées publiées dans les sources consultées."
+      }
+    },
+    {
+      "id": "MR-site-koumbi-saleh",
+      "nom": "Koumbi Saleh",
+      "description": "Koumbi Saleh est identifiée comme la capitale de l'empire du Ghana, dans le sud-est de la Mauritanie. Le géographe al-Bakri, au XIe siècle, décrit deux villes dans une plaine, dont une très grande ville musulmane avec douze mosquées. La Library of Congress note que la prise de la ville par les Almoravides en 1076 marque la fin de l'hégémonie du Ghana.",
+      "type": "site_archeologique",
+      "regions": [
+        "Hodh Ech Chargui"
+      ],
+      "periode": "IVe–XIIIe siècle",
+      "wikidata": "Q682728",
+      "sources": [
+        "S45",
+        "S46",
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de fondation (IVe siècle) donnée par Wikipédia seulement."
+      }
+    },
+    {
+      "id": "MR-site-aoudaghost",
+      "nom": "Aoudaghost (Tegdaoust)",
+      "description": "Aoudaghost, aujourd'hui Tegdaoust, fut une ville caravanière majeure à l'orée de l'empire du Ghana. Al-Bakri, repris par la Library of Congress, la décrit au XIe siècle comme une grande ville avec une mosquée importante et des cultures irriguées. Elle a été la capitale de la confédération sanhaja avant d'être reprise aux Ghanéens par les Almoravides en 1054. Des fouilles françaises conduites dans les années 1960 y ont étudié la ville médiévale.",
+      "type": "site_archeologique",
+      "regions": [
+        "Hodh El Gharbi"
+      ],
+      "periode": "Ve–XVIe siècle",
+      "wikidata": "Q616309",
+      "sources": [
+        "S46",
+        "S47",
+        "S48"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Fondation vers le Ve siècle : Wikipédia seulement. Campagnes de fouilles 1960–1965 : titre « Tegdaoust III, Recherches sur Aoudaghost » cité dans la recherche Persée (non ouvert)."
+      }
+    },
+    {
+      "id": "MR-site-azougui",
+      "nom": "Azougui",
+      "description": "Azougui est une oasis de l'Adrar et le site d'une ancienne ville berbère. Au XIe siècle, une forteresse entourée de palmiers y fut édifiée par un frère des premiers chefs almoravides, et un chroniqueur du XIIe siècle la désigne comme « capitale des Almoravides ». Elle était une étape essentielle sur la route transsaharienne reliant le Maroc au Ghana.",
+      "type": "site_archeologique",
+      "regions": [
+        "Adrar"
+      ],
+      "periode": "XIe siècle",
+      "wikidata": "Q639003",
+      "sources": [
+        "S49",
+        "S47"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-site-richat",
+      "nom": "Structure de Richat (Guelb er Richat)",
+      "description": "La structure de Richat est une formation circulaire d'environ 50 km de diamètre, au nord-est de Ouadane, visible dans son ensemble depuis l'espace. Elle a été révélée dans son étendue en 1965 par le programme spatial Gemini et visitée en 1934 par Théodore Monod. Elle est aujourd'hui interprétée comme un formation dont l'origine a longtemps été une énigme avant d'être élucidée par les géologues.",
+      "type": "site_naturel",
+      "regions": [
+        "Adrar"
+      ],
+      "wikidata": "Q744591",
+      "sources": [
+        "S50"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-site-nouakchott",
+      "nom": "Nouakchott",
+      "description": "Nouakchott est la capitale choisie en 1957 par le premier gouvernement autonome, entre la vallée du fleuve et l'Adrar, comme compromis entre les deux régions. Née d'un poste militaire sur la côte atlantique, elle est devenue une grande agglomération qui accueille aujourd'hui une part importante de la population. On y trouve le Musée national et la Bibliothèque nationale.",
+      "type": "ville_historique",
+      "regions": [
+        "Nouakchott"
+      ],
+      "periode": "depuis 1957",
+      "sources": [
+        "S51",
+        "S52",
+        "S53"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-site-musee-national",
+      "nom": "Musée national de Mauritanie",
+      "description": "Installé à Nouakchott dans un bâtiment de 1972, le musée rassemble des collections archéologiques (outils moustériens, atériens, néolithiques, fouilles de Koumbi Saleh, Aoudaghost, Tichitt, Ouadane et Azougui) et ethnographiques. Il partage son édifice avec l'Institut mauritanien de recherche scientifique, le Centre de conservation des manuscrits et la Bibliothèque nationale.",
+      "type": "musee",
+      "regions": [
+        "Nouakchott"
+      ],
+      "periode": "depuis 1972",
+      "wikidata": "Q2370438",
+      "coordonnees": {
+        "lat": 18.0855556,
+        "lng": -15.9747222
+      },
+      "sources": [
+        "S53"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées lues sur Wikipédia (18°05'08\"N, 15°58'29\"O)."
+      }
+    },
+    {
+      "id": "MR-site-boutilimit",
+      "nom": "Boutilimit",
+      "description": "Boutilimit, dans le Trarza, est surnommée la capitale culturelle du pays en raison de ses érudits et de ses écoles coraniques. C'est le centre de la famille religieuse Sidiyya, dont Sidiyya Baba fit un lieu de bibliothèque et d'enseignement ; une medersa franco-arabe y fut ouverte en 1912. David Robinson (archive AODL) y voit aussi le point d'appui français de la conquête de la Mauritanie.",
+      "type": "ville_historique",
+      "regions": [
+        "Trarza"
+      ],
+      "periode": "XIXe–XXe siècle",
+      "wikidata": "Q895292",
+      "coordonnees": {
+        "lat": 17.5333333,
+        "lng": -17.7166667
+      },
+      "sources": [
+        "S54",
+        "S55",
+        "S56"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-site-oualata-fort",
+      "nom": "Fort d'Oualata",
+      "description": "Le fort d'Oualata fut bâti en 1912 pour les méharistes français sur une colline dominant la ville. Après la tentative de coup d'État d'octobre 1987, il a servi de prison à des détenus politiques noirs, selon Wikipédia, et reste pour certains Mauritaniens un lieu de souffrance. Abderrahmane Sissako y a tourné une partie de Timbuktu.",
+      "type": "lieu_de_memoire",
+      "regions": [
+        "Hodh Ech Chargui"
+      ],
+      "periode": "1912 ; prison à partir de 1987",
+      "sensible": true,
+      "note_sensibilite": "Lieu de détention de prisonniers politiques noirs après 1987 : mémoire douloureuse, récits contestés selon les camps. À présenter avec prudence et à faire relire par des témoins et des historiens.",
+      "sources": [
+        "S41",
+        "S57"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "traditions": [
+    {
+      "id": "MR-tradition-zaffa",
+      "nom": "La zaffa dans le mariage traditionnel",
+      "description": "La zaffa est le cortège qui marque le passage de la vie de célibataire à celle de couple marié. Elle associe préparatifs de la mariée, usage du henné, musique, danse, youyous et jets de friandises. Selon les communautés, des gestes symboliques protègent les époux, comme boire du lait ou casser un œuf. Les mères organisent les étapes, les anciens veillent au respect de la coutume et les jeunes accompagnent le cortège.",
+      "categorie": "rite",
+      "communautes": [
+        "non précisées dans la fiche UNESCO"
+      ],
+      "regions": [
+        "ensemble du pays"
+      ],
+      "transmission": "vivante",
+      "sources": [
+        "S58",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Élément multinational ; la fiche UNESCO ne détaille pas les communautés mauritaniennes."
+      },
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "02283",
+        "annee": 2025,
+        "url": "https://ich.unesco.org/en/RL/the-zaffa-in-the-traditional-wedding-02283"
+      }
+    },
+    {
+      "id": "MR-tradition-samba-gueladio",
+      "nom": "L'épopée de Samba Gueladio",
+      "description": "Cette épopée raconte l'histoire de Samba Gueladio, héritier légitime écarté du trône par son oncle, qui forge des alliances au cours de ses voyages jusqu'à reprendre son royaume, puis épargne son oncle vaincu. Elle est transmise par le récit et le chant, lors des mariages, naissances et autres rassemblements, et déclamée par des griots avec accompagnement musical. L'UNESCO souligne qu'elle célèbre aussi l'alliance entre communautés fondée sur le respect mutuel.",
+      "categorie": "oralite",
+      "communautes": [
+        "Halpulaar",
+        "Peuls"
+      ],
+      "regions": [
+        "Fouta Toro (Gorgol, Brakna, Guidimagha)"
+      ],
+      "langues": [
+        "pulaar"
+      ],
+      "transmission": "vivante",
+      "sources": [
+        "S36",
+        "S35"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01692",
+        "annee": 2024,
+        "url": "https://ich.unesco.org/en/RL/the-epic-of-samba-gueladio-01692"
+      }
+    },
+    {
+      "id": "MR-tradition-henne",
+      "nom": "Le henné : rituels, esthétique et pratiques sociales",
+      "description": "Le henné est un arbuste dont les feuilles, récoltées deux fois l'an, séchées puis broyées, donnent une pâte servant à teindre cheveux, mains et pieds. Il accompagne naissances et mariages, souvent avec chants, proverbes et poèmes, et sert aussi à des usages artisanaux et médicinaux. Les familles le transmettent par l'observation et la pratique, aujourd'hui appuyées par des associations, des centres de beauté et les médias.",
+      "categorie": "rite",
+      "communautes": [
+        "femmes principalement, selon l'UNESCO"
+      ],
+      "regions": [
+        "ensemble du pays"
+      ],
+      "transmission": "vivante",
+      "sources": [
+        "S59",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Élément multinational."
+      },
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "02116",
+        "annee": 2024,
+        "url": "https://ich.unesco.org/en/RL/henna-rituals-aesthetic-and-social-practices-02116"
+      }
+    },
+    {
+      "id": "MR-tradition-gravure-metaux",
+      "nom": "Arts et savoir-faire de la gravure sur métaux (or, argent, cuivre)",
+      "description": "La gravure sur métaux consiste à graver à la main mots, symboles, versets coraniques ou motifs géométriques sur des objets usuels, décoratifs, religieux ou cérémoniels. Les gravures peuvent être creusées ou en relief, ou résulter de l'association de plusieurs métaux. Les objets, comme les bijoux, sont souvent offerts pour les mariages ; le savoir se transmet en famille, en atelier et dans des centres de formation.",
+      "categorie": "artisanat",
+      "communautes": [
+        "artisans de plusieurs communautés"
+      ],
+      "regions": [
+        "ensemble du pays"
+      ],
+      "transmission": "vivante",
+      "sources": [
+        "S60",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Élément multinational."
+      },
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01951",
+        "annee": 2023,
+        "url": "https://ich.unesco.org/en/RL/arts-skills-and-practices-associated-with-engraving-on-metals-gold-silver-and-copper-01951"
+      }
+    },
+    {
+      "id": "MR-tradition-mahadra",
+      "nom": "La mahadra, système communautaire de transmission des savoirs et des expressions orales",
+      "description": "La mahadra, parfois appelée « l'université du désert », est une école sous la tente où l'on apprend surtout par l'écoute et la mémorisation. Ouverte à toutes et à tous, quels que soient l'âge, le sexe ou l'origine sociale, elle enseigne la langue et la littérature traditionnelle, les sciences religieuses, le soufisme, mais aussi la connaissance de la nature : pluies, plantes médicinales, traces d'animaux, orientation par les étoiles. Elle est liée à la transmission de la poésie et du conte mauritaniens.",
+      "categorie": "savoir",
+      "communautes": [
+        "communauté maure et au-delà"
+      ],
+      "regions": [
+        "ensemble du pays",
+        "zones nomades et villes"
+      ],
+      "langues": [
+        "hassanya",
+        "arabe"
+      ],
+      "transmission": "vivante",
+      "periode": "depuis plusieurs siècles",
+      "sources": [
+        "S61",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01960",
+        "annee": 2023,
+        "url": "https://ich.unesco.org/en/RL/mahadra-a-community-system-for-transmission-of-traditional-knowledge-and-oral-expressions-01960"
+      }
+    },
+    {
+      "id": "MR-tradition-palmier-dattier",
+      "nom": "Le palmier dattier : savoirs, savoir-faire, traditions et pratiques",
+      "description": "Le palmier dattier pousse dans les oasis et soutient des savoirs de culture, d'entretien et de récolte. Ses feuilles, palmes et fibres servent à l'artisanat et aux rites sociaux, et il est cité dans la poésie et les proverbes. Cet élément a été inscrit en commun par un large groupe d'États arabes, dont la Mauritanie.",
+      "categorie": "savoir",
+      "communautes": [
+        "communautés des oasis"
+      ],
+      "regions": [
+        "oasis (selon la fiche UNESCO)"
+      ],
+      "transmission": "vivante",
+      "sources": [
+        "S62",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Élément multinational ; lien avec les oasis mauritaniennes (Adrar, Tagant) à confirmer avec une source locale."
+      },
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01902",
+        "annee": 2022,
+        "url": "https://ich.unesco.org/en/RL/date-palm-knowledge-skills-traditions-and-practices-01902"
+      }
+    },
+    {
+      "id": "MR-tradition-calligraphie-arabe",
+      "nom": "La calligraphie arabe : savoirs, savoir-faire et pratiques",
+      "description": "La calligraphie arabe est l'art d'écrire à la main l'alphabet arabe en cursive, de droite à gauche, pour exprimer l'harmonie. Les techniques traditionnelles emploient des roseaux ou des bambous pour la plume, une encre de miel, de suie et de safran, et un papier traité à l'amidon, au blanc d'œuf et à l'alun. Elle est transmise par l'enseignement formel et informel.",
+      "categorie": "artisanat",
+      "communautes": [
+        "calligraphes, copistes, écoles religieuses"
+      ],
+      "regions": [
+        "ensemble du pays"
+      ],
+      "langues": [
+        "arabe"
+      ],
+      "transmission": "vivante",
+      "sources": [
+        "S63",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Élément multinational."
+      },
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01718",
+        "annee": 2021,
+        "url": "https://ich.unesco.org/en/RL/arabic-calligraphy-knowledge-skills-and-practices-01718"
+      }
+    },
+    {
+      "id": "MR-tradition-couscous",
+      "nom": "Savoirs et pratiques liés à la production et à la consommation du couscous",
+      "description": "Préparer le couscous est un processus cérémoniel : on cultive les céréales, on moud les grains en semoule, on la roule à la main, puis on la cuit à la vapeur. Des ustensiles spécifiques accompagnent chaque étape, et le plat varie selon la région, la saison et l'occasion. Le savoir se transmet par l'observation et l'imitation.",
+      "categorie": "cuisine",
+      "communautes": [
+        "familles"
+      ],
+      "regions": [
+        "ensemble du pays"
+      ],
+      "transmission": "vivante",
+      "sources": [
+        "S64",
+        "S6",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Élément multinational (Algérie, Maroc, Mauritanie, Tunisie)."
+      },
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01602",
+        "annee": 2020,
+        "url": "https://ich.unesco.org/en/RL/knowledge-know-how-and-practices-pertaining-to-the-production-and-consumption-of-couscous-01602"
+      }
+    },
+    {
+      "id": "MR-tradition-theydinn",
+      "nom": "L'épopée maure T'heydinn",
+      "description": "Le T'heydinn réunit des dizaines de poèmes qui louent les hauts faits d'émirs et de sultans maures et porte les valeurs ancestrales de la communauté. Les griots l'interprètent avec luth, harpe et timbale lors de mariages, réconciliations et invitations, chaque famille de griots ayant son répertoire. L'UNESCO l'a inscrite en 2011 parmi les éléments à sauvegarder d'urgence : les détenteurs complets du répertoire sont rares et âgés.",
+      "categorie": "oralite",
+      "communautes": [
+        "Bidhan",
+        "griots (iggawen)"
+      ],
+      "regions": [
+        "ensemble du pays"
+      ],
+      "langues": [
+        "hassanya"
+      ],
+      "transmission": "menacée",
+      "sources": [
+        "S65",
+        "S6",
+        "S66"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "unesco": {
+        "liste": "Sauvegarde urgente",
+        "id": "00524",
+        "annee": 2011,
+        "url": "https://ich.unesco.org/en/USL/moorish-epic-t-heydinn-00524"
+      }
+    },
+    {
+      "id": "MR-tradition-musique-maure",
+      "nom": "Musique maure des iggawen (tidinit, ardin)",
+      "description": "La musique maure repose sur les griots, appelés iggawen (iggiw au singulier), qui jouent le rôle de musiciens, poètes et historiens. Elle emploie la tidinit, luth traditionnel, et l'ardin, harpe à cordes jouée surtout par les femmes, et mêle arabe et traditions ouest-africaines. Des artistes comme Dimi Mint Abba, Malouma ou Noura Mint Seymali la prolongent et la mêlent à des sons contemporains.",
+      "categorie": "musique",
+      "nom_local": "Azawan (ensemble instrumental)",
+      "communautes": [
+        "iggawen (griots)",
+        "Bidhan"
+      ],
+      "regions": [
+        "ensemble du pays"
+      ],
+      "langues": [
+        "hassanya"
+      ],
+      "transmission": "vivante",
+      "wikidata": "Q931162",
+      "sources": [
+        "S66",
+        "S67",
+        "S68",
+        "S69",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "L'ardin, harpe des femmes, a un QID Wikidata propre (Q931162)."
+      },
+      "unesco": null
+    },
+    {
+      "id": "MR-tradition-poesie-orale",
+      "nom": "Poésie orale hassanya, « pays du million de poètes »",
+      "description": "La poésie est l'art le plus apprécié en Mauritanie et le pays est connu dans le monde arabe comme celui du « million de poètes ». Elle circule par la voix, dans les veillées, les campements et les écoles sous la tente. Des travaux publiés dans la Revue du monde musulman en 1989 étudient aussi l'émergence d'une parole poétique féminine dite « à haute voix », liée à la sédentarisation et à l'urbanisation.",
+      "categorie": "oralite",
+      "communautes": [
+        "Bidhan",
+        "Haratin",
+        "Halpulaar",
+        "Soninké"
+      ],
+      "regions": [
+        "ensemble du pays"
+      ],
+      "langues": [
+        "hassanya",
+        "arabe",
+        "pulaar",
+        "soninké"
+      ],
+      "transmission": "vivante",
+      "sources": [
+        "S3",
+        "S70",
+        "S71",
+        "S61"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "unesco": null
+    },
+    {
+      "id": "MR-tradition-melhfa-daraa",
+      "nom": "Vêtements traditionnels : melhfa et daraa",
+      "description": "La melhfa est un long voile léger, uni ou multicolore, qui enveloppe les femmes de la tête aux pieds. Les hommes portent le daraa, ample boubou bleu ou blanc fendu pour la tête, souvent bordé de motifs, avec un chèche (haouli) contre le soleil et le sable. Ces pièces sont adaptées au climat désertique.",
+      "categorie": "textile",
+      "communautes": [
+        "Bidhan"
+      ],
+      "regions": [
+        "ensemble du pays"
+      ],
+      "transmission": "vivante",
+      "sources": [
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique : Wikipédia ; à compléter par un musée ou une publication ethnographique."
+      },
+      "unesco": null
+    },
+    {
+      "id": "MR-tradition-bolonta",
+      "nom": "Le bolonta, vêtement soninké de Kaédi",
+      "description": "Le bolonta est un vêtement féminin en forme de caftan sans manches, porté sur une chemise à longues manches appelée katalla. Wikipédia le décrit comme caractéristique de la population soninké de Kaédi, dans le sud. À côté des tenues bidhan, il montre la diversité vestimentaire du pays.",
+      "categorie": "textile",
+      "communautes": [
+        "Soninké"
+      ],
+      "regions": [
+        "Kaédi (Gorgol)"
+      ],
+      "langues": [
+        "soninké"
+      ],
+      "transmission": "vivante",
+      "sources": [
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique : Wikipédia."
+      },
+      "unesco": null
+    },
+    {
+      "id": "MR-tradition-peche-imraguen",
+      "nom": "Pêche à pied du mulet jaune chez les Imraguen",
+      "description": "Pendant la saison de migration des mulets (octobre à décembre), les Imraguen pêchent depuis le rivage ; les femmes préparent ensuite une partie des prises en poutargue. L'UNESCO note que dans le parc national du banc d'Arguin, les pêcheurs utilisent des dauphins pour rabattre les bancs de poissons. Cette pratique lie un peuple, un écosystème et un site du patrimoine mondial.",
+      "categorie": "savoir",
+      "communautes": [
+        "Imraguen"
+      ],
+      "regions": [
+        "banc d'Arguin",
+        "côte atlantique"
+      ],
+      "transmission": "vivante",
+      "sources": [
+        "S34",
+        "S4",
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Statut de transmission non documenté en détail dans les sources consultées."
+      },
+      "unesco": null
+    },
+    {
+      "id": "MR-tradition-jeux",
+      "nom": "Jeux de société et de plein air (dhamet, jeux de femmes et d'hommes)",
+      "description": "Selon Wikipédia, les usages relatifs aux rencontres entre sexes ont donné deux familles de jeux : des jeux réservés aux femmes, pratiqués sous la tente ou à l'ombre, et des jeux d'hommes en plein air, dont le dhamet, un jeu de dames. Ils font partie de la sociabilité des campements et des villes.",
+      "categorie": "jeu_sport",
+      "communautes": [
+        "Bidhan"
+      ],
+      "regions": [
+        "ensemble du pays"
+      ],
+      "langues": [
+        "hassanya"
+      ],
+      "transmission": "vivante",
+      "sources": [
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique : Wikipédia (section Culture) ; à recouper."
+      },
+      "unesco": null
+    },
+    {
+      "id": "MR-tradition-manuscrits",
+      "nom": "Bibliothèques familiales et manuscrits des villes anciennes",
+      "description": "Les villes anciennes de l'Adrar, du Tagant et du Hodh abritent des milliers de manuscrits conservés dans des bibliothèques familiales, trace d'une culture islamique de savants et de commerçants caravaniers. L'UNESCO souligne le rôle de ces cités comme foyers de culture islamique. Le Musée national de Nouakchott partage son bâtiment avec le Centre de conservation des manuscrits.",
+      "categorie": "savoir",
+      "communautes": [
+        "lettrés bidhan",
+        "familles de savants"
+      ],
+      "regions": [
+        "Chinguetti",
+        "Ouadane",
+        "Oualata",
+        "Tichitt"
+      ],
+      "transmission": "vivante",
+      "sources": [
+        "S5",
+        "S3",
+        "S53"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Nombre de manuscrits non vérifié (« milliers » d'après Wikipédia)."
+      },
+      "unesco": null,
+      "sensible": true,
+      "note_sensibilite": "Les manuscrits sont des biens privés de familles et de lettrés ; toute présentation ou numérisation doit passer par l'accord des détenteurs."
+    },
+    {
+      "id": "MR-tradition-confreries",
+      "nom": "Confréries soufies et savants religieux",
+      "description": "Les confréries soufies, notamment la Qadiriyya et la Tijaniyya, structurent la vie religieuse et ont longtemps lié savants, marabouts et communautés de plusieurs groupes. La Library of Congress décrit leur rôle d'unification culturelle au-delà des lignages, et l'archive AODL documente la famille religieuse Sidiyya de Boutilimit. Elles sont encore très présentes dans les villes et les campagnes.",
+      "categorie": "savoir",
+      "communautes": [
+        "Bidhan",
+        "Halpulaar",
+        "Soninké"
+      ],
+      "regions": [
+        "Boutilimit",
+        "Trarza",
+        "Brakna",
+        "vallée du fleuve"
+      ],
+      "transmission": "vivante",
+      "sources": [
+        "S72",
+        "S56",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "unesco": null,
+      "sensible": true,
+      "note_sensibilite": "Pratiques religieuses et autorité spirituelle : présentation générale uniquement, sans détail de rites internes ; relecture par des responsables religieux conseillée."
+    }
+  ],
+  "personnalites": [
+    {
+      "id": "MR-personne-abd-allah-ibn-yasin",
+      "nom": "Abd Allah ibn Yasin",
+      "description": "Théologien malékite de l'ensemble sanhaja, appelé vers 1040 par le chef Yahya ibn Ibrahim pour enseigner un islam plus rigoureux aux peuples du Sahara atlantique. Il fonda un ribat, d'où le nom des Almoravides (al-murabitun), et mena le mouvement jusqu'à sa mort au combat en 1059. L'Encyclopédie berbère rappelle son rôle de fondateur de la dynastie almoravide.",
+      "naissance": {
+        "date": null,
+        "lieu": null
+      },
+      "deces": {
+        "date": "1059",
+        "lieu": null
+      },
+      "roles": [
+        "théologien",
+        "fondateur du mouvement almoravide"
+      ],
+      "domaines": [
+        "savoirs",
+        "politique",
+        "religion"
+      ],
+      "epoque": "XIe siècle",
+      "wikidata": "Q552693",
+      "sources": [
+        "S73",
+        "S47"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance non documentée. Date de mort : 1059 (Library of Congress) ; l'Encyclopédie berbère donne une date hégirienne dont la conversion est ambiguë."
+      }
+    },
+    {
+      "id": "MR-personne-sidiyya-baba",
+      "nom": "Sidiyya Baba",
+      "description": "Érudit et chef religieux de la famille Sidiyya, installée à Boutilimit, dans le sud-ouest du pays. Face aux rivalités locales, il s'allia à l'administrateur français Xavier Coppolani et rédigea une fatwa justifiant cette collaboration. Il fut aussi un promoteur de l'école : en 1912, il encouragea l'ouverture d'une medersa franco-arabe à Boutilimit, puis d'une école de filles ; il est l'auteur d'une Histoire des Sanhaja occidentaux.",
+      "naissance": {
+        "date": "1862",
+        "lieu": null
+      },
+      "deces": {
+        "date": "1924",
+        "lieu": null
+      },
+      "roles": [
+        "chef religieux",
+        "érudit",
+        "pédagogue"
+      ],
+      "domaines": [
+        "savoirs",
+        "politique",
+        "religion"
+      ],
+      "epoque": "XIXe–XXe siècles",
+      "sources": [
+        "S56",
+        "S55",
+        "S74"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates « vers 1862–1924 » données par l'archive AODL ; QID Wikidata non vérifié donc omis."
+      },
+      "sensible": true,
+      "note_sensibilite": "Figure débattue (collaboration avec la conquête coloniale, modernisation scolaire) : présentation à équilibrer avec des sources de la famille et d'historiens mauritaniens."
+    },
+    {
+      "id": "MR-personne-moktar-ould-daddah",
+      "nom": "Moktar Ould Daddah",
+      "description": "Premier président de la République islamique de Mauritanie. Né à Boutilimit en 1924, il dirigea le gouvernement qui prépara l'indépendance (1960), puis fut élu président en 1961 et chercha à surmonter la fracture entre éleveurs nomades et agriculteurs sédentaires. Régime devenu plus autoritaire (parti unique), il engagea le pays dans la guerre du Sahara occidental et fut renversé par l'armée en 1978. Il est mort à Paris en 2003.",
+      "naissance": {
+        "date": "1924",
+        "lieu": "Boutilimit (Trarza)"
+      },
+      "deces": {
+        "date": "2003",
+        "lieu": "Paris"
+      },
+      "roles": [
+        "homme d'État",
+        "président de la République (1960-1978)"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "wikidata": "Q345385",
+      "sources": [
+        "S75",
+        "S76",
+        "S51",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates complètes (25 décembre 1924, 14 octobre 2003) vues sur Wikidata (Q345385) ; Treccani donne les années. Premier ministre 21 mai 1957–20 août 1961 (Dodis)."
+      },
+      "sensible": true,
+      "note_sensibilite": "Bilan de la guerre du Sahara occidental et du régime : voir les événements concernés, présentés de façon neutre."
+    },
+    {
+      "id": "MR-personne-aissata-kane",
+      "nom": "Aïssata Kane",
+      "description": "Première Mauritanienne à avoir occupé un poste ministériel, comme ministre de la Protection de la famille et des affaires sociales à partir de 1975 sous Moktar Ould Daddah. Née à Dar El Barka dans la vallée du fleuve Sénégal, elle fut l'une des premières femmes halpulaar autorisées à poursuivre des études à Saint-Louis. Elle a mené des campagnes sur la scolarisation des filles, le planning familial et contre le gavage, et est décédée à Nouakchott en août 2019.",
+      "naissance": {
+        "date": "1938-08",
+        "lieu": "Dar El Barka (Brakna)"
+      },
+      "deces": {
+        "date": "2019-08-10",
+        "lieu": "Nouakchott"
+      },
+      "roles": [
+        "ministre",
+        "militante des droits des femmes"
+      ],
+      "domaines": [
+        "politique",
+        "droits des femmes"
+      ],
+      "epoque": "XXe–XXIe siècles",
+      "wikidata": "Q27062971",
+      "sources": [
+        "S77",
+        "S78"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le360 mentionne qu'elle fut aussi la première bachelière du pays ; naissance en août 1938 d'après Financial Afrik (jour non précisé)."
+      }
+    },
+    {
+      "id": "MR-personne-dimi-mint-abba",
+      "nom": "Dimi Mint Abba",
+      "description": "Chanteuse et joueuse d'ardin, surnommée la « diva du désert », issue d'une famille d'iggawin (griots). Elle apprit la percussion puis l'ardin auprès de sa mère, remporta en 1976 un concours de chant et représenta la Mauritanie dans plusieurs festivals arabes. Son album Moorish Music from Mauritania (World Circuit, 1990) fit connaître la musique maure en Europe ; elle est morte en juin 2011 lors d'une tournée au Maroc.",
+      "naissance": {
+        "date": "1958-12-25",
+        "lieu": "Tidjikja"
+      },
+      "deces": {
+        "date": "2011-06-04",
+        "lieu": "Maroc"
+      },
+      "roles": [
+        "chanteuse",
+        "instrumentiste (ardin)"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe–XXIe siècles",
+      "wikidata": "Q3028098",
+      "sources": [
+        "S67",
+        "S79",
+        "S80"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance (Tidjikja, 25 décembre 1958) : Wikipédia seule ; le Guardian donne 52 ans au décès. Lieu du décès : Maroc selon RFI et le Guardian, alors que Wikipédia indique Nouakchott."
+      }
+    },
+    {
+      "id": "MR-personne-noura-mint-seymali",
+      "nom": "Noura Mint Seymali",
+      "description": "Chanteuse et joueuse d'ardin née à Nouakchott dans une famille de griots. Élevée par sa grand-mère Mounina, chanteuse réputée, et par son père Seymali, qui avait étudié la musique arabe en Irak, elle mêle avec son mari guitariste les modes maures au rock et au blues. Son album Tzenni est sorti en juin 2014 sur le label Glitterbeat.",
+      "naissance": {
+        "date": null,
+        "lieu": "Nouakchott"
+      },
+      "roles": [
+        "chanteuse",
+        "compositrice",
+        "joueuse d'ardin"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXIe siècle",
+      "wikidata": "Q24049164",
+      "sources": [
+        "S68",
+        "S69"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de naissance non trouvée dans les sources ouvertes."
+      }
+    },
+    {
+      "id": "MR-personne-malouma",
+      "nom": "Malouma",
+      "description": "Chanteuse et femme politique née dans une famille de griots à Mederdra, dans le Trarza. Elle a appris la musique traditionnelle très jeune auprès de son père, le poète-musicien Moktar Ould Meidah, et a abordé dans ses chansons les inégalités, le mariage forcé ou l'éducation. Élue sénatrice en 2007, elle a créé en 2011 la Fondation Malouma pour préserver la culture traditionnelle et a été faite chevalière de la Légion d'honneur en 2012.",
+      "naissance": {
+        "date": "1960-10-01",
+        "lieu": "Mederdra (Trarza)"
+      },
+      "roles": [
+        "chanteuse",
+        "sénatrice",
+        "fondatrice de fondation culturelle"
+      ],
+      "domaines": [
+        "musique",
+        "politique"
+      ],
+      "epoque": "XXe–XXIe siècles",
+      "wikidata": "Q12244275",
+      "sources": [
+        "S81",
+        "S82",
+        "S83"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de naissance (1er octobre 1960) : Wikipédia fr ; RFI Musique dit « dans les années 1960 ». Hommes & Migrations situe l'enfance à Charatt près de Mederdra."
+      }
+    },
+    {
+      "id": "MR-personne-fatimetou-abdel-malik",
+      "nom": "Fatimetou Abdel Malik",
+      "description": "Femme politique née en 1958 à Tamchekett, où son père était administrateur, elle a étudié l'informatique à Louvain-la-Neuve (Belgique). Élue en 2001 à la tête de la commune de Tevragh-Zeina à Nouakchott, elle fut la première femme maire du pays. Elle a présidé le Réseau des femmes élues locales d'Afrique et soutient l'élection de femmes.",
+      "naissance": {
+        "date": "1958",
+        "lieu": "Tamchekett"
+      },
+      "roles": [
+        "maire",
+        "responsable de réseau de femmes élues"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe–XXIe siècles",
+      "wikidata": "Q28967004",
+      "sources": [
+        "S84"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le prénom s'écrit aussi Fatimatou ; le QID Q28967004 correspond à la fiche « Fatimatou Abdel Malick » de Wikipédia."
+      }
+    },
+    {
+      "id": "MR-personne-aminetou-mint-el-moctar",
+      "nom": "Aminetou Mint El Moctar",
+      "description": "Militante des droits des femmes, fondatrice et présidente de l'Association des femmes chefs de famille. Mariée de force à 13 ans, elle s'est engagée très tôt contre les mariages précoces et forcés, et a été arrêtée à plusieurs reprises, notamment en 1989 pour avoir critiqué les déportations de Noirs mauritaniens. Amnesty International la présente comme une « rebelle » face aux normes qui limitent les femmes.",
+      "roles": [
+        "militante",
+        "présidente d'association"
+      ],
+      "domaines": [
+        "droits des femmes",
+        "droits humains"
+      ],
+      "epoque": "XXe–XXIe siècles",
+      "wikidata": "Q53780275",
+      "sources": [
+        "S85"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance non retenue : l'article Amnesty de 2017 donne seulement l'âge (61 ans)."
+      },
+      "sensible": true,
+      "note_sensibilite": "Militante exposée à des menaces ; ne pas indiquer de lieu de résidence ni de détails de sécurité."
+    },
+    {
+      "id": "MR-personne-mekfoula-mint-brahim",
+      "nom": "Mekfoula Mint Brahim",
+      "description": "Biologiste et défenseure des droits humains qui préside l'ONG Pour une Mauritanie verte et démocratique, fondée en 2009 et active dans l'autonomisation des femmes rurales. Front Line Defenders lui a décerné en 2020 son prix pour l'Afrique ; elle s'attaque aux discriminations visant les femmes et les communautés haratin et d'Afrique subsaharienne. Elle a été détenue à plusieurs reprises, notamment pendant neuf jours en février 2020.",
+      "naissance": {
+        "date": "1968",
+        "lieu": "Tawaz (Adrar)"
+      },
+      "roles": [
+        "militante",
+        "présidente d'ONG",
+        "biologiste"
+      ],
+      "domaines": [
+        "droits humains",
+        "droits des femmes"
+      ],
+      "epoque": "XXIe siècle",
+      "wikidata": "Q53779354",
+      "sources": [
+        "S86",
+        "S87",
+        "S88"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance probable en 1968 ou 1969 selon Wikipédia (parents analphabètes, date inconnue)."
+      },
+      "sensible": true,
+      "note_sensibilite": "Militante arrêtée à plusieurs reprises : pas de détails privés."
+    },
+    {
+      "id": "MR-personne-mbarek-ould-beyrouk",
+      "nom": "Mbarek Ould Beyrouk",
+      "description": "Écrivain d'expression française né à Atar, il a étudié le droit et créé en 1988 le premier journal indépendant du pays, Mauritanie demain. Auteur de romans et nouvelles (Et le ciel a oublié de pleuvoir, Le Griot de l'émir, Le Tambour des larmes), il a reçu en 2016 le prix Kourouma pour ce dernier. Jeune Afrique le décrit comme un conteur de la société nomade et de ses tensions.",
+      "naissance": {
+        "date": "1957",
+        "lieu": "Atar"
+      },
+      "roles": [
+        "écrivain",
+        "journaliste"
+      ],
+      "domaines": [
+        "littérature",
+        "journalisme"
+      ],
+      "epoque": "XXe–XXIe siècles",
+      "wikidata": "Q24690849",
+      "sources": [
+        "S89"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-personne-moussa-ould-ebnou",
+      "nom": "Moussa Ould Ebnou",
+      "description": "Écrivain bilingue arabe-français et professeur de philosophie à l'université de Nouakchott, né à Boutilimit en 1956. Docteur en philosophie de la Sorbonne, il a publié en français L'Amour impossible (1990) et Barzakh (1994), puis l'a traduit en arabe sous le titre Madinat al-Riyah. Ses romans de science-fiction traitent du temps, de l'amour et de la quête d'une meilleure société.",
+      "naissance": {
+        "date": "1956",
+        "lieu": "Boutilimit"
+      },
+      "roles": [
+        "écrivain",
+        "enseignant en philosophie"
+      ],
+      "domaines": [
+        "littérature",
+        "philosophie"
+      ],
+      "epoque": "XXe–XXIe siècles",
+      "wikidata": "Q6926199",
+      "sources": [
+        "S90"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-personne-abderrahmane-sissako",
+      "nom": "Abderrahmane Sissako",
+      "description": "Cinéaste né en 1961 en Mauritanie et élevé au Mali, formé à l'école de cinéma VGIK à Moscou. Ses films (La Vie sur terre, Heremakono, Bamako, Timbuktu) explorent l'exil et les relations Nord-Sud. Timbuktu, en compétition à Cannes en 2014, fut le premier film mauritanien nommé à l'Oscar du meilleur film étranger et obtint sept Césars, dont ceux de meilleur film et de meilleur réalisateur ; ce film et sa position comme conseiller du président ont suscité des polémiques.",
+      "naissance": {
+        "date": "1961",
+        "lieu": "Kiffa"
+      },
+      "roles": [
+        "réalisateur",
+        "scénariste",
+        "producteur"
+      ],
+      "domaines": [
+        "cinéma"
+      ],
+      "epoque": "XXe–XXIe siècles",
+      "wikidata": "Q308097",
+      "sources": [
+        "S91",
+        "S57",
+        "S92"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance en 1961 d'après Cannes ; lieu (Kiffa) d'après Wikipédia seule."
+      },
+      "sensible": true,
+      "note_sensibilite": "Polémique publiée sur son rôle auprès du pouvoir (RFI, 2015) : présentation neutre."
+    },
+    {
+      "id": "MR-personne-med-hondo",
+      "nom": "Med Hondo",
+      "description": "Acteur, réalisateur et producteur, né à Atar et installé en France en 1959. Il fonda en 1966 la compagnie Griotshango, puis signa Soleil Ô (Léopard d'or à Locarno en 1970), West Indies et Les Bicots-nègres, vos voisins, des films sur le colonialisme et les travailleurs immigrés. Il fut aussi une grande voix du doublage français (Eddie Murphy, Morgan Freeman) et mourut à Paris en 2019.",
+      "naissance": {
+        "date": "1936",
+        "lieu": "Atar"
+      },
+      "deces": {
+        "date": "2019-03-02",
+        "lieu": "Paris"
+      },
+      "roles": [
+        "réalisateur",
+        "acteur",
+        "comédien de doublage"
+      ],
+      "domaines": [
+        "cinéma",
+        "théâtre"
+      ],
+      "epoque": "XXe–XXIe siècles",
+      "wikidata": "Q180886",
+      "sources": [
+        "S93",
+        "S94",
+        "S95"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année de naissance : 1936 selon le CNC, 4 mai 1935 selon Wikipédia."
+      }
+    },
+    {
+      "id": "MR-personne-biram-dah-abeid",
+      "nom": "Biram Dah Abeid",
+      "description": "Militant abolitionniste et homme politique issu de la communauté haratin, né à Rosso, président de l'Initiative pour la résurgence du mouvement abolitionniste (IRA). Il est le seul de sa fratrie de onze enfants à avoir été scolarisé et a consacré un mémoire d'histoire à l'esclavage. Arrêté en 2010, il a été défendu par des ONG de droits humains ; il a été candidat à l'élection présidentielle et est devenu député.",
+      "naissance": {
+        "date": "1965-01-12",
+        "lieu": "Rosso (Trarza)"
+      },
+      "roles": [
+        "militant",
+        "avocat",
+        "député"
+      ],
+      "domaines": [
+        "droits humains",
+        "politique"
+      ],
+      "epoque": "XXe–XXIe siècles",
+      "wikidata": "Q14448372",
+      "sources": [
+        "S30",
+        "S96"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance : Wikipédia fr ; arrestation de décembre 2010 : The Guardian (4 janvier 2011)."
+      },
+      "sensible": true,
+      "note_sensibilite": "Sujet politique et social sensible (esclavage, procès) ; positions contestées entre autorités et ONG."
+    },
+    {
+      "id": "MR-personne-sidi-mohamed-ould-cheikh-abdallahi",
+      "nom": "Sidi Mohamed Ould Cheikh Abdallahi",
+      "description": "Économiste originaire du Brakna, ministre sous Moktar Ould Daddah puis dans les premières années du colonel Taya. Il fut le premier président (2007-2008) élu démocratiquement dans l'histoire récente du pays et reconnut la responsabilité de l'État dans les violations de droits humains visant la communauté négro-africaine entre 1989 et 1992, en lançant le retour des déportés. Un putsch militaire mit fin à son mandat en 2008.",
+      "deces": {
+        "date": "2020-11-23",
+        "lieu": "Nouakchott"
+      },
+      "roles": [
+        "président de la République (2007-2008)",
+        "économiste"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe–XXIe siècles",
+      "wikidata": "Q310203",
+      "sources": [
+        "S97"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de décès : nuit du 22 au 23 novembre 2020 selon Le360 (une autre source donne le 22)."
+      },
+      "sensible": true,
+      "note_sensibilite": "Sujet politique récent (putsch de 2008, déportations 1989-1992) : formulation neutre et sourcée."
+    }
+  ],
+  "evenements": [
+    {
+      "id": "MR-evenement-berberes-dromadaire",
+      "titre": "Arrivée de groupes berbères et diffusion du dromadaire",
+      "description": "Aux IIIe et IVe siècles de notre ère, des groupes berbères venus du nord arrivent dans l'actuelle Mauritanie, aidés par l'introduction du dromadaire dans le Sahara. Ils soumettent une partie des Bafour, population plus ancienne, tandis que d'autres communautés se déplacent vers le sud. D'autres vagues berbères suivront aux VIIe et VIIIe siècles.",
+      "date": "0300-01-01",
+      "date_affichee": "IIIe-IVe siècle",
+      "precision": "siecle",
+      "acteurs": [
+        "Berbères",
+        "Bafour"
+      ],
+      "regions": [
+        "Sahara occidental"
+      ],
+      "sources": [
+        "S33"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source ancienne (Library of Congress, 1988) ; datation indicative."
+      }
+    },
+    {
+      "id": "MR-evenement-confederation-sanhaja",
+      "titre": "Confédération sanhaja et commerce caravanier",
+      "description": "Les Lemtuna, les Messufa et les Djodala forment la confédération sanhaja, dirigée depuis Aoudaghost. Elle contrôle les routes caravanières occidentales du Sahara, qui échangent l'or, l'ivoire et les captifs du sud contre du sel, du cuivre et des étoffes. Elle s'étend du VIIIe à la fin du Xe siècle.",
+      "date": "0800-01-01",
+      "date_affichee": "VIIIe-Xe siècle",
+      "precision": "siecle",
+      "fin": "0999-12-31",
+      "acteurs": [
+        "Lemtuna",
+        "Messufa",
+        "Djodala"
+      ],
+      "regions": [
+        "Adrar",
+        "Hodh"
+      ],
+      "sources": [
+        "S46"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-evenement-ibn-yasin-1039",
+      "titre": "Retour de Yahya ibn Ibrahim avec Abd Allah ibn Yasin",
+      "description": "Après son pèlerinage à La Mecque, le chef djodala Yahya ibn Ibrahim ramène le théologien Abd Allah ibn Yasin pour enseigner un islam plus strict. L'Encyclopédie berbère situe ce retour vers 1040 et précise qu'il s'est fait sur les conseils d'un maître de Sijilmassa. Cet épisode est à l'origine du mouvement almoravide.",
+      "date": "1039-01-01",
+      "date_affichee": "vers 1039",
+      "precision": "annee",
+      "acteurs": [
+        "Yahya ibn Ibrahim",
+        "Abd Allah ibn Yasin"
+      ],
+      "sources": [
+        "S47",
+        "S73"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "1039 (LoC) ou vers 1040 (Encyclopédie berbère)."
+      }
+    },
+    {
+      "id": "MR-evenement-ribat-1042",
+      "titre": "Fondation du ribat et début du mouvement almoravide",
+      "description": "Rejeté par les Djodala, Ibn Yasin et ses disciples se retirent dans un ribat fortifié. En 1042, ces « hommes du ribat », al-murabitun, lancent un jihad contre ceux qu'ils jugent infidèles ou hérétiques parmi les Sanhaja, ce qui donne naissance au mouvement almoravide.",
+      "date": "1042-01-01",
+      "date_affichee": "1042",
+      "precision": "annee",
+      "acteurs": [
+        "Almoravides",
+        "Abd Allah ibn Yasin"
+      ],
+      "wikidata": "Q75613",
+      "sources": [
+        "S47"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-evenement-1054-sijilmasa",
+      "titre": "Prise de Sijilmassa et reprise d'Aoudaghost",
+      "description": "Les Almoravides s'emparent de Sijilmassa, au Maghreb, et reprennent Aoudaghost au Ghana. Ils réunissent ainsi sous leur autorité les routes du commerce transsaharien occidental.",
+      "date": "1054-01-01",
+      "date_affichee": "1054",
+      "precision": "annee",
+      "acteurs": [
+        "Almoravides",
+        "Ghana"
+      ],
+      "regions": [
+        "Hodh El Gharbi"
+      ],
+      "sources": [
+        "S47"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-evenement-1059-mort-ibn-yasin",
+      "titre": "Mort d'Abd Allah ibn Yasin",
+      "description": "La mort d'Ibn Yasin au combat en 1059 passe la direction du mouvement à ses successeurs, Abou Bakr au sud et Youssouf ibn Tachfin au nord. Ce dernier prendra le Maroc et fondera Marrakech vers 1062.",
+      "date": "1059-01-01",
+      "date_affichee": "1059",
+      "precision": "annee",
+      "acteurs": [
+        "Almoravides"
+      ],
+      "sources": [
+        "S47",
+        "S73"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-evenement-1076-koumbi",
+      "titre": "Prise de Koumbi Saleh par les Almoravides",
+      "description": "La capture de Koumbi Saleh par les Almoravides marque la fin de l'hégémonie du royaume de Ghana sur le Sahel occidental, même si le royaume subsiste encore environ 125 ans selon la Library of Congress. La ville est décrite au XIe siècle par al-Bakri.",
+      "date": "1076-01-01",
+      "date_affichee": "1076",
+      "precision": "annee",
+      "acteurs": [
+        "Almoravides",
+        "Ghana"
+      ],
+      "regions": [
+        "Hodh Ech Chargui"
+      ],
+      "sources": [
+        "S38",
+        "S45"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-evenement-mali-xiiie",
+      "titre": "Extension de l'empire du Mali sur la région",
+      "description": "À la fin du XIIIe siècle, l'empire du Mali étend son autorité sur la partie de l'actuelle Mauritanie auparavant contrôlée par le Ghana, ainsi que sur la vallée du fleuve Sénégal. Les Mandés de Soundiata reprennent le rôle du Ghana dans le commerce saharien.",
+      "date": "1290-01-01",
+      "date_affichee": "fin du XIIIe siècle",
+      "precision": "siecle",
+      "acteurs": [
+        "empire du Mali"
+      ],
+      "regions": [
+        "sud et sud-est"
+      ],
+      "sources": [
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-evenement-1455-arguin",
+      "titre": "Fort portugais d'Arguin",
+      "description": "Les Portugais installent un comptoir fortifié à Arguin, au sud-est du cap Blanc. Ils y espèrent l'or mais se tournent vite vers la traite : jusqu'à 1 000 captifs par an auraient été exportés d'Arguin au milieu du XVe siècle, selon la Library of Congress. Un agent commercial portugais séjourne aussi à Ouadane.",
+      "date": "1455-01-01",
+      "date_affichee": "1455",
+      "precision": "annee",
+      "acteurs": [
+        "Portugal"
+      ],
+      "regions": [
+        "banc d'Arguin",
+        "Ouadane"
+      ],
+      "sources": [
+        "S98"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Chiffre de 1 000 captifs par an : estimation de la Library of Congress (1988)."
+      }
+    },
+    {
+      "id": "MR-evenement-1644-char-bouba",
+      "titre": "Guerre de Char Bouba (guerre de Trente Ans mauritanienne)",
+      "description": "Le conflit oppose des groupes berbères sanhaja, menés par l'imam Nasir ad Din, à des groupes arabes Bani Hassan. Les premiers perdent et deviennent vassaux, tandis que se met en place la hiérarchie sociale qui domine la société maure jusqu'au XXe siècle.",
+      "date": "1644-01-01",
+      "date_affichee": "1644-1674",
+      "precision": "annee",
+      "fin": "1674-12-31",
+      "acteurs": [
+        "Sanhaja (Lemtuna)",
+        "Bani Hassan"
+      ],
+      "wikidata": "Q5073613",
+      "sources": [
+        "S10",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La Library of Congress date de 1644 à 1674 ; Wikipédia parle d'environ trente ans au XVIIe siècle."
+      }
+    },
+    {
+      "id": "MR-evenement-1901-coppolani",
+      "titre": "Plan de « pénétration pacifique » de Xavier Coppolani",
+      "description": "Le gouvernement français adopte le plan proposé par Xavier Coppolani pour organiser les régions sous autorité maure. En s'appuyant sur des chefs religieux comme Sidiyya Baba et Saad Bou, et en jouant sur les rivalités, il soumet pacifiquement en 1904 le Trarza, le Brakna et le Tagant.",
+      "date": "1901-01-01",
+      "date_affichee": "1901",
+      "precision": "annee",
+      "acteurs": [
+        "Xavier Coppolani",
+        "Sidiyya Baba",
+        "Saad Bou"
+      ],
+      "wikidata": "Q3570637",
+      "sources": [
+        "S74",
+        "S56"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Histoire de la conquête coloniale : à lire avec des sources mauritaniennes en complément de la Library of Congress."
+    },
+    {
+      "id": "MR-evenement-1904-territoire-civil",
+      "titre": "Création du Territoire civil de Mauritanie",
+      "description": "La France crée le Territoire civil de Mauritanie, qui deviendra une colonie de l'Afrique-Occidentale française en 1920 selon Wikipédia. Le territoire est organisé à partir de postes militaires au sud avant l'avancée vers le nord.",
+      "date": "1904-01-01",
+      "date_affichee": "1904",
+      "precision": "annee",
+      "acteurs": [
+        "France"
+      ],
+      "sources": [
+        "S74",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-evenement-1905-coppolani-tidjikja",
+      "titre": "Mort de Xavier Coppolani à Tidjikja",
+      "description": "Coppolani est tué à Tidjikja avant le départ d'une colonne vers l'Adrar. Sa mort relance la résistance menée par Ma al-Aynin, qui appelle au jihad pour repousser les Français.",
+      "date": "1905-05-01",
+      "date_affichee": "mai 1905",
+      "precision": "mois",
+      "acteurs": [
+        "Xavier Coppolani",
+        "Ma al-Aynin"
+      ],
+      "regions": [
+        "Tagant",
+        "Adrar"
+      ],
+      "sources": [
+        "S74"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-evenement-1909-adrar",
+      "titre": "Conquête française de l'Adrar",
+      "description": "Le colonel Gouraud prend Atar, puis reçoit en 1909 la soumission des habitants de l'Adrar, clé de la pacification selon la Library of Congress. Toute résistance dans l'Adrar et le sud est brisée en 1912.",
+      "date": "1909-01-01",
+      "date_affichee": "1908-1909",
+      "precision": "annee",
+      "fin": "1912-12-31",
+      "acteurs": [
+        "colonel Gouraud",
+        "Ma al-Aynin"
+      ],
+      "regions": [
+        "Adrar"
+      ],
+      "sources": [
+        "S74"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Fin de la résistance dans l'Adrar et dans le sud en 1912 (Library of Congress)."
+      }
+    },
+    {
+      "id": "MR-evenement-1912-medersa",
+      "titre": "Ouverture de la medersa de Boutilimit",
+      "description": "Sur l'encouragement de Sidiyya Baba, une medersa franco-arabe ouvre à Boutilimit, suivie quelques années plus tard d'une école de filles, innovation marquante dans la société maure. L'école forme pendant des décennies une part importante des élites mauritaniennes.",
+      "date": "1912-01-01",
+      "date_affichee": "1912",
+      "precision": "annee",
+      "acteurs": [
+        "Sidiyya Baba"
+      ],
+      "regions": [
+        "Trarza"
+      ],
+      "sources": [
+        "S55"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-evenement-1957-nouakchott",
+      "titre": "Premier gouvernement autonome et choix de Nouakchott",
+      "description": "Moktar Ould Daddah devient premier ministre le 21 mai 1957 (Dodis) à la tête du premier gouvernement du territoire. Le choix de Nouakchott comme capitale, entre la vallée du fleuve et l'Adrar, exprime une volonté de compromis entre le sud et le nord.",
+      "date": "1957-05-21",
+      "date_affichee": "21 mai 1957",
+      "precision": "jour",
+      "acteurs": [
+        "Moktar Ould Daddah"
+      ],
+      "regions": [
+        "Nouakchott"
+      ],
+      "sources": [
+        "S51",
+        "S76"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-evenement-1958-republique",
+      "titre": "Proclamation de la République islamique de Mauritanie",
+      "description": "La Mauritanie vote par référendum la nouvelle constitution de 1958, puis proclame la République islamique au sein de la Communauté française. La Library of Congress situe cette proclamation en octobre 1958, tandis que Wikipédia donne le 28 novembre 1958.",
+      "date": "1958-01-01",
+      "date_affichee": "1958",
+      "precision": "annee",
+      "acteurs": [
+        "Territoire de Mauritanie"
+      ],
+      "sources": [
+        "S7",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date précise discordante : octobre 1958 (LoC) ; 28 novembre 1958 (Wikipédia)."
+      }
+    },
+    {
+      "id": "MR-evenement-1960-independance",
+      "titre": "Indépendance de la Mauritanie",
+      "description": "Le 28 novembre 1960, la Mauritanie proclame son indépendance, après l'adoption de sa propre constitution en 1959. Quelques jours plus tôt, le 18 novembre 1960, le Conseil fédéral suisse avait annoncé reconnaître l'indépendance de la République islamique, selon les archives de Dodis.",
+      "date": "1960-11-28",
+      "date_affichee": "28 novembre 1960",
+      "precision": "jour",
+      "acteurs": [
+        "Moktar Ould Daddah"
+      ],
+      "sources": [
+        "S7",
+        "S76",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La reconnaissance suisse est datée du 18.11.1960 sur Dodis, dans le cadre des préparatifs des fêtes de l'indépendance."
+      }
+    },
+    {
+      "id": "MR-evenement-1976-madrid",
+      "titre": "Accords de Madrid et occupation de Tiris al-Gharbiyya",
+      "description": "Après la fin de la présence espagnole au Sahara occidental, les accords de Madrid de 1975 partagent le territoire entre le Maroc et la Mauritanie ; les forces mauritaniennes occupent le Tiris al-Gharbiyya et affrontent le Front Polisario. Les Nations unies précisent que Maroc et Mauritanie avaient chacun revendiqué le territoire, ce que contestait le Polisario. En 1979, la Mauritanie renonce à sa part par un accord avec le Polisario.",
+      "date": "1976-02-01",
+      "date_affichee": "février 1976",
+      "precision": "mois",
+      "acteurs": [
+        "Mauritanie",
+        "Maroc",
+        "Front Polisario",
+        "Espagne"
+      ],
+      "regions": [
+        "Tiris al-Gharbiyya"
+      ],
+      "sources": [
+        "S99",
+        "S100",
+        "S101"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Statut du Sahara occidental contesté : positions de la Mauritanie, du Maroc, du Polisario et de l'ONU à présenter strictement selon les sources citées ; l'ONU décrit le territoire comme ayant été administré par l'Espagne jusqu'en 1976."
+    },
+    {
+      "id": "MR-evenement-1978-coup",
+      "titre": "Renversement de Moktar Ould Daddah",
+      "description": "Un comité militaire dirigé par le lieutenant-colonel Moustapha Ould Salek renverse le président Moktar Ould Daddah, fragilisé par une guerre coûteuse. Le nouveau régime accepte le cessez-le-feu déclaré par le Polisario et cherche la paix.",
+      "date": "1978-07-10",
+      "date_affichee": "10 juillet 1978",
+      "precision": "jour",
+      "acteurs": [
+        "Comité militaire de redressement national",
+        "Moktar Ould Daddah"
+      ],
+      "sources": [
+        "S75",
+        "S102",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Treccani : 1978 ; date précise du 10 juillet : Wikipédia."
+      },
+      "sensible": true,
+      "note_sensibilite": "Épisode lié au conflit du Sahara occidental."
+    },
+    {
+      "id": "MR-evenement-1979-retrait",
+      "titre": "La Mauritanie renonce à sa part du Sahara occidental",
+      "description": "Selon la mission onusienne MINURSO, la Mauritanie retire ses revendications sur la portion de territoire qu'elle administrait en signant en 1979 un accord avec le Front Polisario.",
+      "date": "1979-01-01",
+      "date_affichee": "1979",
+      "precision": "annee",
+      "acteurs": [
+        "Mauritanie",
+        "Front Polisario"
+      ],
+      "regions": [
+        "Tiris al-Gharbiyya"
+      ],
+      "sources": [
+        "S101"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Conflit du Sahara occidental : voir la fiche des événements liés."
+    },
+    {
+      "id": "MR-evenement-1981-esclavage",
+      "titre": "Abolition officielle de l'esclavage",
+      "description": "L'esclavage est officiellement aboli en 1981, selon Wikipédia, après des abolitions antérieures peu appliquées. Le Guardian rappelle qu'une loi de 2007 l'érige en délit, mais que des ONG dénoncent l'absence de condamnations. La Library of Congress situe la fin de la condition servile des « Maures noirs » en 1980.",
+      "date": "1981-01-01",
+      "date_affichee": "1981",
+      "precision": "annee",
+      "acteurs": [
+        "État mauritanien",
+        "ONG"
+      ],
+      "sources": [
+        "S3",
+        "S51",
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date : 1981 (Wikipédia) contre 1980 (Library of Congress)."
+      },
+      "sensible": true,
+      "note_sensibilite": "Question sociale et politique sensible, avec des chiffres contestés selon les sources."
+    },
+    {
+      "id": "MR-evenement-1988-journal",
+      "titre": "Premier journal indépendant : Mauritanie demain",
+      "description": "L'écrivain et journaliste Mbarek Ould Beyrouk crée Mauritanie demain, le premier journal indépendant du pays, où il publie éditoriaux et nouvelles.",
+      "date": "1988-01-01",
+      "date_affichee": "1988",
+      "precision": "annee",
+      "acteurs": [
+        "Mbarek Ould Beyrouk"
+      ],
+      "sources": [
+        "S89"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-evenement-1989-senegal",
+      "titre": "Crise mauritano-sénégalaise et déportations",
+      "description": "Un incident frontalier d'avril 1989 déclenche des violences entre communautés, des massacres de commerçants à Dakar et à Nouakchott, et des déplacements massifs de population entre les deux pays. En Mauritanie, des dizaines de milliers de Noirs sont expulsés vers le Sénégal et le Mali. Le président Sidi Mohamed Ould Cheikh Abdallahi reconnaîtra plus tard la responsabilité de l'État.",
+      "date": "1989-04-01",
+      "date_affichee": "1989-1991",
+      "precision": "mois",
+      "fin": "1991-12-31",
+      "acteurs": [
+        "Mauritanie",
+        "Sénégal",
+        "Halpulaar",
+        "Soninkés"
+      ],
+      "sources": [
+        "S29",
+        "S97",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Période 1989-1991 (Wikipédia) ou 1989-1992 (Le360)."
+      },
+      "sensible": true,
+      "note_sensibilite": "Événement traumatique et disputé ; chiffres variables selon les sources (50 000 vers le Sénégal et 40 000 vers le Mali selon Wikipédia). À faire relire par des représentants des communautés concernées."
+    },
+    {
+      "id": "MR-evenement-1989-arguin",
+      "titre": "Inscription du banc d'Arguin au patrimoine mondial",
+      "description": "Le parc national du banc d'Arguin est inscrit sur la Liste du patrimoine mondial pour la richesse de son écosystème et pour les oiseaux migrateurs qui y hivernent.",
+      "date": "1989-01-01",
+      "date_affichee": "1989",
+      "precision": "annee",
+      "acteurs": [
+        "UNESCO"
+      ],
+      "regions": [
+        "banc d'Arguin"
+      ],
+      "sources": [
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-evenement-1990-album",
+      "titre": "Moorish Music from Mauritania",
+      "description": "Dimi Mint Abba enregistre en Grande-Bretagne l'album Moorish Music from Mauritania, publié par World Circuit et présenté comme le premier enregistrement de qualité de la musique maure. L'album fait connaître le répertoire des iggawin au public européen.",
+      "date": "1990-01-01",
+      "date_affichee": "1990",
+      "precision": "annee",
+      "acteurs": [
+        "Dimi Mint Abba",
+        "Khalifa Ould Eide"
+      ],
+      "sources": [
+        "S67"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-evenement-1996-ksour",
+      "titre": "Inscription des anciens ksour au patrimoine mondial",
+      "description": "Les ksour de Ouadane, Chinguetti, Tichitt et Oualata entrent sur la Liste du patrimoine mondial comme centres caravaniers et foyers de culture islamique.",
+      "date": "1996-01-01",
+      "date_affichee": "1996",
+      "precision": "annee",
+      "acteurs": [
+        "UNESCO"
+      ],
+      "regions": [
+        "Adrar",
+        "Tagant",
+        "Hodh Ech Chargui"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-evenement-2001-premiere-maire",
+      "titre": "Première femme maire de Mauritanie",
+      "description": "Fatimetou Abdel Malik est élue à la tête de la commune de Tevragh-Zeina, à Nouakchott : c'est la première fois qu'une femme dirige un conseil municipal dans le pays.",
+      "date": "2001-01-01",
+      "date_affichee": "2001",
+      "precision": "annee",
+      "acteurs": [
+        "Fatimetou Abdel Malik"
+      ],
+      "regions": [
+        "Nouakchott"
+      ],
+      "sources": [
+        "S84"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-evenement-2007-loi-esclavage",
+      "titre": "Loi de 2007 criminalisant l'esclavage",
+      "description": "Une loi de 2007 fait de l'esclavage un délit en Mauritanie. Des organisations de droits humains soulignent néanmoins, selon The Guardian, que peu ou pas de condamnations ont suivi à l'époque.",
+      "date": "2007-01-01",
+      "date_affichee": "2007",
+      "precision": "annee",
+      "acteurs": [
+        "État mauritanien",
+        "ONG de droits humains"
+      ],
+      "sources": [
+        "S30",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Chiffres et efficacité de la loi contestés : présenter les sources."
+    },
+    {
+      "id": "MR-evenement-2007-president",
+      "titre": "Élection de Sidi Mohamed Ould Cheikh Abdallahi",
+      "description": "Sidi Mohamed Ould Cheikh Abdallahi devient président en 2007 : premier chef de l'État démocratiquement élu de l'histoire récente. Son mandat s'achève en 2008, après quinze mois, par un putsch militaire.",
+      "date": "2007-04-01",
+      "date_affichee": "2007-2008",
+      "precision": "mois",
+      "fin": "2008-08-06",
+      "acteurs": [
+        "Sidi Mohamed Ould Cheikh Abdallahi"
+      ],
+      "sources": [
+        "S97",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Épisode politique récent : formulation neutre."
+    },
+    {
+      "id": "MR-evenement-2007-malouma",
+      "titre": "Malouma élue sénatrice",
+      "description": "La chanteuse Malouma est élue au Sénat mauritanien, ce qui l'éloigne près de sept ans de la scène musicale internationale avant la sortie de l'album Knou.",
+      "date": "2007-01-01",
+      "date_affichee": "2007",
+      "precision": "annee",
+      "acteurs": [
+        "Malouma"
+      ],
+      "sources": [
+        "S82"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-evenement-2011-theydinn",
+      "titre": "Inscription de l'épopée T'heydinn à l'UNESCO",
+      "description": "L'épopée maure T'heydinn est inscrite sur la Liste de sauvegarde urgente du patrimoine culturel immatériel, car peu de griots en connaissent encore le répertoire complet.",
+      "date": "2011-01-01",
+      "date_affichee": "2011",
+      "precision": "annee",
+      "acteurs": [
+        "UNESCO",
+        "griots (iggawen)"
+      ],
+      "sources": [
+        "S65"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-evenement-2015-timbuktu",
+      "titre": "Timbuktu, nommé à l'Oscar et récompensé de sept Césars",
+      "description": "Présenté en compétition à Cannes en 2014, Timbuktu d'Abderrahmane Sissako est le premier film mauritanien nommé à l'Oscar du meilleur film étranger et remporte sept Césars en 2015. Une partie du tournage a eu lieu à Oualata.",
+      "date": "2015-01-01",
+      "date_affichee": "2014-2015",
+      "precision": "annee",
+      "acteurs": [
+        "Abderrahmane Sissako"
+      ],
+      "regions": [
+        "Oualata"
+      ],
+      "sources": [
+        "S91",
+        "S57"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-evenement-2023-unesco",
+      "titre": "Inscription de la mahadra et de la gravure sur métaux",
+      "description": "L'UNESCO inscrit en 2023 deux éléments mauritaniens sur la Liste représentative : la mahadra, « université du désert », et la gravure sur métaux précieux et cuivre.",
+      "date": "2023-01-01",
+      "date_affichee": "2023",
+      "precision": "annee",
+      "acteurs": [
+        "UNESCO"
+      ],
+      "sources": [
+        "S61",
+        "S60"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-evenement-2025-zaffa",
+      "titre": "Inscription de la zaffa à l'UNESCO",
+      "description": "La zaffa dans le mariage traditionnel est inscrite en 2025 sur la Liste représentative du patrimoine culturel immatériel, neuvième et dernier élément inscrit à ce jour pour la Mauritanie.",
+      "date": "2025-01-01",
+      "date_affichee": "2025",
+      "precision": "annee",
+      "acteurs": [
+        "UNESCO"
+      ],
+      "sources": [
+        "S58",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "oeuvres": [
+    {
+      "id": "MR-oeuvre-met-collier-paille",
+      "titre": "Collier en paille (peuples maures)",
+      "description": "Collier du XXe siècle réalisé en paille par une ou un artisan maure et conservé au Metropolitan Museum of Art. La notice du musée le situe en Mauritanie et l'associe aux peuples maures. Il illustre l'usage de fibres végétales dans la parure.",
+      "type": "bijou",
+      "communaute": "Maures",
+      "materiaux": [
+        "paille"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "2017.678.21",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/757224",
+      "droits": "Notice consultable en ligne ; image non reproduite (non publiée en domaine public par le musée)",
+      "periode": "XXe siècle",
+      "sources": [
+        "S103"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-oeuvre-met-collier-graines",
+      "titre": "Collier en graines et plastique (peuples maures)",
+      "description": "Collier du XXe siècle combinant graines et plastique, issu d'un artisanat maure et conservé au Metropolitan Museum of Art. Il montre l'association de matériaux naturels et industriels dans la parure contemporaine.",
+      "type": "bijou",
+      "communaute": "Maures",
+      "materiaux": [
+        "graines",
+        "plastique"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "2017.678.22",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/757225",
+      "droits": "Notice consultable en ligne ; image non reproduite",
+      "periode": "XXe siècle",
+      "sources": [
+        "S104"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-oeuvre-met-tar-touareg",
+      "titre": "Tar (tambour sur cadre, peuple touareg)",
+      "description": "Instrument de percussion de la seconde moitié du XIXe siècle, fabriqué en bois et en peau, que la notice du Metropolitan Museum of Art rattache aux Touaregs et à la Mauritanie. Il rappelle la présence de communautés touarègues dans l'est du pays.",
+      "type": "instrument",
+      "communaute": "Touaregs",
+      "materiaux": [
+        "bois",
+        "peau"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "2001.538",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/503994",
+      "droits": "Notice consultable en ligne ; image non reproduite",
+      "periode": "seconde moitié du XIXe siècle",
+      "sources": [
+        "S105"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-oeuvre-timbuktu",
+      "titre": "Timbuktu (film, 2014)",
+      "description": "Film d'Abderrahmane Sissako consacré à Tombouctou, au Mali, et à la domination de groupes jihadistes selon la présentation qu'en fait RFI. Sélectionné en compétition à Cannes en 2014, nommé à l'Oscar du meilleur film étranger et récompensé de sept Césars, il a aussi suscité des polémiques sur le rôle de son auteur auprès du pouvoir mauritanien.",
+      "type": "film",
+      "createur": "Abderrahmane Sissako",
+      "institution": "Le Pacte (distribution en France, selon la légende photo de RFI)",
+      "droits": "Film protégé par le droit d'auteur ; voir les ayants droit",
+      "periode": "2014",
+      "sources": [
+        "S91",
+        "S57"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-oeuvre-soleil-o",
+      "titre": "Soleil Ô (film, 1969)",
+      "description": "Film de fiction tourné en 1969 par Med Hondo, mêlant théâtre, dessin et dialogues pour dénoncer le néocolonialisme et la condition des travailleurs immigrés africains en France. Le film obtient le Léopard d'or à Locarno en 1970, est censuré dans plusieurs pays et restauré par la Cineteca di Bologna avec The Film Foundation.",
+      "type": "film",
+      "createur": "Med Hondo",
+      "institution": "Cineteca di Bologna et The Film Foundation (restauration)",
+      "droits": "Film protégé par le droit d'auteur ; voir les ayants droit",
+      "periode": "1969-1970",
+      "sources": [
+        "S93",
+        "S94"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-oeuvre-tambour-larmes",
+      "titre": "Le Tambour des larmes (roman)",
+      "description": "Roman de Mbarek Ould Beyrouk : Rayhana, séduite puis abandonnée, se voit enlever l'enfant né de cette union par une mère implacable. Pour se venger de la morale de son groupe nomade, elle dérobe le tambour sacré et se réfugie en ville. Il lui a valu le prix Kourouma 2016.",
+      "type": "livre",
+      "createur": "Mbarek Ould Beyrouk",
+      "institution": "Éditions Elyzad (Tunis)",
+      "droits": "Livre protégé par le droit d'auteur",
+      "periode": "2016",
+      "sources": [
+        "S89"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-oeuvre-moorish-music",
+      "titre": "Moorish Music from Mauritania (album)",
+      "description": "Album de Dimi Mint Abba enregistré à Londres avec son mari Khalifa Ould Eide et sa fille Fairuz, présenté lors de sa sortie comme le premier enregistrement de qualité de la musique maure. Il fait entendre la tidinit, l'ardin et les modes arabes mêlés d'influences ouest-africaines.",
+      "type": "musique",
+      "createur": "Dimi Mint Abba",
+      "institution": "World Circuit (label)",
+      "droits": "Enregistrement protégé par le droit voisin du producteur",
+      "periode": "1990",
+      "sources": [
+        "S67"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "MR-oeuvre-tzenni",
+      "titre": "Tzenni (album, 2014)",
+      "description": "Album de Noura Mint Seymali sorti en juin 2014, premier pour le marché international. Il marie les modes maures et la harpe ardin à la guitare électrique de son mari Jeiche et à des rythmes de blues et de rock.",
+      "type": "musique",
+      "createur": "Noura Mint Seymali",
+      "institution": "Glitterbeat Records (label)",
+      "droits": "Enregistrement protégé par le droit voisin du producteur",
+      "periode": "2014",
+      "sources": [
+        "S68",
+        "S69"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le nom du guitariste (Jeiche) est donné par The Quietus sans son nom de famille ; il n'est pas répété ici."
+      }
+    },
+    {
+      "id": "MR-oeuvre-histoire-sanhaja",
+      "titre": "Histoire des Sanhaja occidentaux (Sidiyya Baba)",
+      "description": "Texte rédigé par Sidiyya Baba vers la fin de sa vie, qui retrace l'histoire des Maures, berbères et arabes, des Almoravides du XIe siècle à son époque et expose son point de vue sur la présence française. Il est accessible en traduction anglaise publiée par H. T. Norris dans Saharan Myth and Saga.",
+      "type": "manuscrit",
+      "createur": "Sidiyya Baba",
+      "institution": "Ohio Digital Archive of Islamic Modernity (AODL), présentation de l'essai",
+      "droits": "Extraits d'essai en ligne ; texte original de Sidiyya Baba",
+      "periode": "début du XXe siècle",
+      "sources": [
+        "S55"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de rédaction non précisée dans l'essai AODL ; « dernières années de sa vie » seulement."
+      }
+    }
+  ],
+  "proverbes": [],
+  "sources": [
+    {
+      "id": "S1",
+      "titre": "Population, total (SP.POP.TOTL), Mauritanie",
+      "institution": "Banque mondiale",
+      "annee": 2025,
+      "url": "https://api.worldbank.org/v2/country/MRT/indicator/SP.POP.TOTL?format=json&per_page=5",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S2",
+      "titre": "Superficie (AG.SRF.TOTL.K2), Mauritanie",
+      "institution": "Banque mondiale",
+      "annee": 2024,
+      "url": "https://api.worldbank.org/v2/country/MRT/indicator/AG.SRF.TOTL.K2?format=json&per_page=5",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S3",
+      "titre": "Mauritanie, Wikipédia en français",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Mauritanie",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S4",
+      "titre": "Parc national du banc d'Arguin",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "annee": 1989,
+      "url": "https://whc.unesco.org/fr/list/506",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S5",
+      "titre": "Anciens ksour de Ouadane, Chinguetti, Tichitt et Oualata",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "annee": 1996,
+      "url": "https://whc.unesco.org/fr/list/750",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (descriptions)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S6",
+      "titre": "Mauritanie, patrimoine culturel immatériel",
+      "institution": "UNESCO",
+      "url": "https://ich.unesco.org/en/state/mauritania-MR",
+      "type": "unesco",
+      "licence": "© UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S7",
+      "titre": "Mauritania: A Country Study, « Independence and civilian rule »",
+      "institution": "Library of Congress (Federal Research Division)",
+      "auteur": "Robert E. Handloff (dir.)",
+      "annee": 1988,
+      "url": "https://countrystudies.us/mauritania/16.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S8",
+      "titre": "Langues en Mauritanie, Wikipédia en français",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Langues_en_Mauritanie",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S9",
+      "titre": "Glottolog 5.4, Hassaniyya (hass1238)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/hass1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S10",
+      "titre": "Mauritania: A Country Study, « Arab invasions »",
+      "institution": "Library of Congress (Federal Research Division)",
+      "auteur": "Robert E. Handloff (dir.)",
+      "annee": 1988,
+      "url": "https://countrystudies.us/mauritania/8.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S11",
+      "titre": "Glottolog 5.4, Standard Arabic (stan1318)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/stan1318",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S12",
+      "titre": "Glottolog 5.4, French (stan1290)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/stan1290",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S13",
+      "titre": "Glottolog 5.4, Pulaar (pula1263)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/pula1263",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S14",
+      "titre": "Mauritania: A Country Study, « Black Africans »",
+      "institution": "Library of Congress (Federal Research Division)",
+      "auteur": "Robert E. Handloff (dir.)",
+      "annee": 1988,
+      "url": "https://countrystudies.us/mauritania/31.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S15",
+      "titre": "Mauritania: A Country Study, « Fulbe »",
+      "institution": "Library of Congress (Federal Research Division)",
+      "auteur": "Robert E. Handloff (dir.)",
+      "annee": 1988,
+      "url": "https://countrystudies.us/mauritania/33.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S16",
+      "titre": "Glottolog 5.4, Soninke (soni1259)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/soni1259",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S17",
+      "titre": "Mauritania: A Country Study, « Soninké »",
+      "institution": "Library of Congress (Federal Research Division)",
+      "auteur": "Robert E. Handloff (dir.)",
+      "annee": 1988,
+      "url": "https://countrystudies.us/mauritania/34.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S18",
+      "titre": "Glottolog 5.4, Wolof (nucl1347)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/nucl1347",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S19",
+      "titre": "Mauritania: A Country Study, « Wolof »",
+      "institution": "Library of Congress (Federal Research Division)",
+      "auteur": "Robert E. Handloff (dir.)",
+      "annee": 1988,
+      "url": "https://countrystudies.us/mauritania/35.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S20",
+      "titre": "Glottolog 5.4, Zenaga (zena1248)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/zena1248",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S21",
+      "titre": "Mauritania: A Country Study, « Zenaga, artisans and entertainers »",
+      "institution": "Library of Congress (Federal Research Division)",
+      "auteur": "Robert E. Handloff (dir.)",
+      "annee": 1988,
+      "url": "https://countrystudies.us/mauritania/30.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S22",
+      "titre": "Glottolog 5.4, Bambara (bamb1269)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/bamb1269",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S23",
+      "titre": "Mauritania: A Country Study, « Bambara »",
+      "institution": "Library of Congress (Federal Research Division)",
+      "auteur": "Robert E. Handloff (dir.)",
+      "annee": 1988,
+      "url": "https://countrystudies.us/mauritania/36.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S24",
+      "titre": "Glottolog 5.4, Tamasheq (tama1365)",
+      "institution": "Glottolog (MPI-EVA / MPI-SHH)",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/tama1365",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S25",
+      "titre": "Mauritania: A Country Study, « Maures »",
+      "institution": "Library of Congress (Federal Research Division)",
+      "auteur": "Robert E. Handloff (dir.)",
+      "annee": 1988,
+      "url": "https://countrystudies.us/mauritania/29.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S26",
+      "titre": "La Mauritanie en noir et blanc. Petite promenade linguistique en hassâniyya",
+      "institution": "Persée, Revue du monde musulman et de la Méditerranée",
+      "auteur": "Catherine Taine-Cheikh",
+      "annee": 1989,
+      "url": "https://www.persee.fr/doc/remmm_0997-1327_1989_num_54_1_2317",
+      "type": "article_scientifique",
+      "licence": "accès libre, droits de l'éditeur",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S27",
+      "titre": "Beidanes, Wikipédia en français",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Beidanes",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S28",
+      "titre": "Du neuf dans le vieux : la situation des harâtîn et 'abîd en Mauritanie rurale",
+      "institution": "Persée, Journal des Africanistes",
+      "auteur": "Urs Peter Ruf",
+      "annee": 2000,
+      "url": "https://www.persee.fr/doc/jafr_0399-0346_2000_num_70_1_1229",
+      "type": "article_scientifique",
+      "licence": "accès libre, droits de l'éditeur",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S29",
+      "titre": "« Blancs » et « Noirs » au Sahel : la situation en Mauritanie",
+      "institution": "Persée, Journal des anthropologues",
+      "auteur": "Pierre Bonte",
+      "annee": 1990,
+      "url": "https://www.persee.fr/doc/jda_1156-0428_1990_num_40_1_1530",
+      "type": "article_scientifique",
+      "licence": "accès libre, droits de l'éditeur",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S30",
+      "titre": "Anti-slavery campaigner arrested in Mauritania",
+      "institution": "The Guardian",
+      "annee": 2011,
+      "url": "https://www.theguardian.com/world/2011/jan/04/mauritania-slavery-campaigner-human-rights",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S31",
+      "titre": "Haratins, Wikipédia en français",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Haratins",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S32",
+      "titre": "Coutumes des Imraguen (Côtes de Mauritanie, A. O. F.)",
+      "institution": "Persée, Journal de la Société des Africanistes",
+      "auteur": "Lieutenant Lotte",
+      "annee": 1937,
+      "url": "https://www.persee.fr/doc/jafr_0037-9166_1937_num_7_1_1622",
+      "type": "article_scientifique",
+      "licence": "accès libre, droits de l'éditeur",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S33",
+      "titre": "Mauritania: A Country Study, « Early history »",
+      "institution": "Library of Congress (Federal Research Division)",
+      "auteur": "Robert E. Handloff (dir.)",
+      "annee": 1988,
+      "url": "https://countrystudies.us/mauritania/4.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S34",
+      "titre": "Imraguens, Wikipédia en français",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Imraguens",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S35",
+      "titre": "Mauritania: A Country Study, « Toucouleur »",
+      "institution": "Library of Congress (Federal Research Division)",
+      "auteur": "Robert E. Handloff (dir.)",
+      "annee": 1988,
+      "url": "https://countrystudies.us/mauritania/32.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S36",
+      "titre": "The Epic of Samba Gueladio",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "annee": 2024,
+      "url": "https://ich.unesco.org/en/RL/the-epic-of-samba-gueladio-01692",
+      "type": "unesco",
+      "licence": "© UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S37",
+      "titre": "Les Soninké d'hier à demain",
+      "institution": "Persée, Hommes & Migrations",
+      "auteur": "Jacques Barou",
+      "annee": 1990,
+      "url": "https://www.persee.fr/doc/homig_1142-852x_1990_num_1131_1_1448",
+      "type": "article_scientifique",
+      "licence": "accès libre, droits de l'éditeur",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S38",
+      "titre": "Mauritania: A Country Study, « Sudanic empires and kingdoms »",
+      "institution": "Library of Congress (Federal Research Division)",
+      "auteur": "Robert E. Handloff (dir.)",
+      "annee": 1988,
+      "url": "https://countrystudies.us/mauritania/7.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S39",
+      "titre": "Chinguetti, Wikipédia en français",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Chinguetti",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S40",
+      "titre": "Ouadane, Wikipédia en français",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Ouadane",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S41",
+      "titre": "Oualata, Wikipédia en français",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Oualata",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S42",
+      "titre": "Tichitt, Wikipédia en français",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Tichitt",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S43",
+      "titre": "Les fouilles de Tichitt",
+      "institution": "Persée, Société française d'histoire d'outre-mer",
+      "auteur": "Henri Hugot",
+      "annee": 1981,
+      "url": "https://www.persee.fr/doc/sfhom_1768-7144_1981_mel_5_1_919",
+      "type": "article_scientifique",
+      "licence": "accès libre, droits de l'éditeur",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S44",
+      "titre": "Les sites Gangara, la fin de la culture de Tichitt et l'origine de Ghana",
+      "institution": "Persée, Journal des Africanistes",
+      "auteur": "Mohamed Ould Khattar",
+      "annee": 1995,
+      "url": "https://www.persee.fr/doc/jafr_0399-0346_1995_num_65_2_2429",
+      "type": "article_scientifique",
+      "licence": "accès libre, droits de l'éditeur",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S45",
+      "titre": "Koumbi Saleh, Wikipédia en français",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Koumbi_Saleh",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S46",
+      "titre": "Mauritania: A Country Study, « Sanhadja Confederation »",
+      "institution": "Library of Congress (Federal Research Division)",
+      "auteur": "Robert E. Handloff (dir.)",
+      "annee": 1988,
+      "url": "https://countrystudies.us/mauritania/5.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S47",
+      "titre": "Mauritania: A Country Study, « Almoravids »",
+      "institution": "Library of Congress (Federal Research Division)",
+      "auteur": "Robert E. Handloff (dir.)",
+      "annee": 1988,
+      "url": "https://countrystudies.us/mauritania/6.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S48",
+      "titre": "Aoudaghost, Wikipédia en français",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Aoudaghost",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S49",
+      "titre": "Azougui, Wikipédia en français",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Azougui",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S50",
+      "titre": "Structure de Richat, Wikipédia en français",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Structure_de_Richat",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S51",
+      "titre": "Mauritania: A Country Study, « The road to independence »",
+      "institution": "Library of Congress (Federal Research Division)",
+      "auteur": "Robert E. Handloff (dir.)",
+      "annee": 1988,
+      "url": "https://countrystudies.us/mauritania/15.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S52",
+      "titre": "Nouakchott, Wikipédia en français",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Nouakchott",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S53",
+      "titre": "Musée national de Mauritanie, Wikipédia en français",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_de_Mauritanie",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S54",
+      "titre": "Boutilimit, Wikipédia en français",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Boutilimit",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S55",
+      "titre": "Sidiyya Baba, essai (Sidiyya et pouvoir colonial)",
+      "institution": "Ohio Digital Archive of Islamic Modernity (AODL)",
+      "auteur": "David Robinson",
+      "url": "https://aodl.org/islamicmodernity/sidiyyababa/essays/178-673-1/",
+      "type": "base_de_donnees",
+      "licence": "voir conditions du site",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S56",
+      "titre": "Collaboration, Modernity and Colonial Rule: Sidiyya Baba and Mauritania",
+      "institution": "Ohio Digital Archive of Islamic Modernity (AODL)",
+      "auteur": "David Robinson",
+      "url": "https://aodl.org/islamicmodernity/sidiyyababa/",
+      "type": "base_de_donnees",
+      "licence": "voir conditions du site",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S57",
+      "titre": "« Timbuktu » chahuté, pourquoi tant de haine ?",
+      "institution": "RFI",
+      "annee": 2015,
+      "url": "https://www.rfi.fr/fr/afrique/20150226-timbuktu-pourquoi-tant-haine-abderrahmane-sissako-nicolas-beau-fespaco-2015",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S58",
+      "titre": "The zaffa in the traditional wedding",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "annee": 2025,
+      "url": "https://ich.unesco.org/en/RL/the-zaffa-in-the-traditional-wedding-02283",
+      "type": "unesco",
+      "licence": "© UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S59",
+      "titre": "Henna: rituals, aesthetic and social practices",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "annee": 2024,
+      "url": "https://ich.unesco.org/en/RL/henna-rituals-aesthetic-and-social-practices-02116",
+      "type": "unesco",
+      "licence": "© UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S60",
+      "titre": "Arts, skills and practices associated with engraving on metals (gold, silver and copper)",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "annee": 2023,
+      "url": "https://ich.unesco.org/en/RL/arts-skills-and-practices-associated-with-engraving-on-metals-gold-silver-and-copper-01951",
+      "type": "unesco",
+      "licence": "© UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S61",
+      "titre": "Mahadra, a community system for transmission of traditional knowledge and oral expressions",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "annee": 2023,
+      "url": "https://ich.unesco.org/en/RL/mahadra-a-community-system-for-transmission-of-traditional-knowledge-and-oral-expressions-01960",
+      "type": "unesco",
+      "licence": "© UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S62",
+      "titre": "Date palm, knowledge, skills, traditions and practices",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "annee": 2022,
+      "url": "https://ich.unesco.org/en/RL/date-palm-knowledge-skills-traditions-and-practices-01902",
+      "type": "unesco",
+      "licence": "© UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S63",
+      "titre": "Arabic calligraphy: knowledge, skills and practices",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "annee": 2021,
+      "url": "https://ich.unesco.org/en/RL/arabic-calligraphy-knowledge-skills-and-practices-01718",
+      "type": "unesco",
+      "licence": "© UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S64",
+      "titre": "Knowledge, know-how and practices pertaining to the production and consumption of couscous",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "annee": 2020,
+      "url": "https://ich.unesco.org/en/RL/knowledge-know-how-and-practices-pertaining-to-the-production-and-consumption-of-couscous-01602",
+      "type": "unesco",
+      "licence": "© UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S65",
+      "titre": "Moorish epic T'heydinn",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "annee": 2011,
+      "url": "https://ich.unesco.org/en/USL/moorish-epic-t-heydinn-00524",
+      "type": "unesco",
+      "licence": "© UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S66",
+      "titre": "Les sources de la musique maure",
+      "institution": "Persée, Hommes & Migrations",
+      "auteur": "Lemine Ould M. Salem",
+      "annee": 2003,
+      "url": "https://www.persee.fr/doc/homig_1142-852x_2003_num_1245_1_4074",
+      "type": "article_scientifique",
+      "licence": "accès libre, droits de l'éditeur",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S67",
+      "titre": "Dimi Mint Abba obituary",
+      "institution": "The Guardian",
+      "annee": 2011,
+      "url": "https://www.theguardian.com/music/2011/jun/09/dimi-mint-abba-obituary",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S68",
+      "titre": "A Spiral Dance: Noura Mint Seymali Interviewed",
+      "institution": "The Quietus",
+      "auteur": "Richie Troughton",
+      "annee": 2014,
+      "url": "https://thequietus.com/interviews/noura-mint-seymali-interview-tzenni/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S69",
+      "titre": "Noura Mint Seymali, une affaire de famille mauritanienne",
+      "institution": "RFI Musique",
+      "annee": 2016,
+      "url": "https://musique.rfi.fr/musique/20161025-noura-mint-seymali-arbina",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S70",
+      "titre": "A haute voix. Poésie féminine contemporaine en Mauritanie",
+      "institution": "Persée, Revue du monde musulman et de la Méditerranée",
+      "auteur": "Aline Tauzin",
+      "annee": 1989,
+      "url": "https://www.persee.fr/doc/remmm_0997-1327_1989_num_54_1_2325",
+      "type": "article_scientifique",
+      "licence": "accès libre, droits de l'éditeur",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S71",
+      "titre": "Enquête sur la littérature mauritanienne : formes et perspectives",
+      "institution": "Persée, Revue du monde musulman et de la Méditerranée",
+      "auteur": "Georges Voisset",
+      "annee": 1989,
+      "url": "https://www.persee.fr/doc/remmm_0997-1327_1989_num_54_1_2326",
+      "type": "article_scientifique",
+      "licence": "accès libre, droits de l'éditeur",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S72",
+      "titre": "Mauritania: A Country Study, « Brotherhoods and saints »",
+      "institution": "Library of Congress (Federal Research Division)",
+      "auteur": "Robert E. Handloff (dir.)",
+      "annee": 1988,
+      "url": "https://countrystudies.us/mauritania/39.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S73",
+      "titre": "'Abd-Allāh Ben Yāsīn Al-Gazūlī",
+      "institution": "OpenEdition, Encyclopédie berbère",
+      "auteur": "Georges Deverdun",
+      "annee": 1984,
+      "url": "https://journals.openedition.org/encyclopedieberbere/775",
+      "type": "article_scientifique",
+      "licence": "accès libre, droits de l'éditeur",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S74",
+      "titre": "Mauritania: A Country Study, « French colonial administration: pacification »",
+      "institution": "Library of Congress (Federal Research Division)",
+      "auteur": "Robert E. Handloff (dir.)",
+      "annee": 1988,
+      "url": "https://countrystudies.us/mauritania/11.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S75",
+      "titre": "Daddah, Moktar Ould",
+      "institution": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/moktar-ould-daddah_(Dizionario-di-Storia)/",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S76",
+      "titre": "Moktar Ould Daddah, fiche personne",
+      "institution": "Dodis, Documents diplomatiques suisses",
+      "url": "https://dodis.ch/P28201",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S77",
+      "titre": "Mauritanie : Aissata Kane, la dernière des Mohicans",
+      "institution": "Financial Afrik",
+      "annee": 2019,
+      "url": "https://www.financialafrik.com/2019/08/11/mauritanie-aissata-kane-la-derniere-des-mohicans/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S78",
+      "titre": "Mauritanie. Aïssata Kane : retour sur le parcours exceptionnel d'une icône",
+      "institution": "Le360 Afrique",
+      "annee": 2019,
+      "url": "https://afrique.le360.ma/mauritanie/politique/2019/08/14/27465-mauritanie-aissata-kane-retour-sur-le-parcours-exceptionnel-dune-icone-27465/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S79",
+      "titre": "Disparition de Dimi Mint Abba, diva mauritanienne",
+      "institution": "RFI",
+      "annee": 2011,
+      "url": "https://www.rfi.fr/fr/afrique/20110605-mort-diva-mauritanienne-dimi-mint-abba",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S80",
+      "titre": "Dimi Mint Abba, Wikipédia en français",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Dimi_Mint_Abba",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S81",
+      "titre": "Malouma",
+      "institution": "RFI Musique",
+      "annee": 2007,
+      "url": "https://musique.rfi.fr/musique/20070316-malouma",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S82",
+      "titre": "Malouma",
+      "institution": "OpenEdition, Hommes & Migrations",
+      "url": "https://journals.openedition.org/hommesmigrations/2853",
+      "type": "article_scientifique",
+      "licence": "accès libre, droits de l'éditeur",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S83",
+      "titre": "Malouma, Wikipédia en français",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Malouma",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S84",
+      "titre": "Fatimetou Abdel Malik, première femme maire de Mauritanie",
+      "institution": "Jeune Afrique",
+      "annee": 2015,
+      "url": "https://www.jeuneafrique.com/mag/263061/politique/fatimetou-abdel-malik-premiere-femme-maire-de-mauritanie/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S85",
+      "titre": "Aminetou Mint Moctar : a « rebel » against the rules that restrict women",
+      "institution": "Amnesty International",
+      "annee": 2017,
+      "url": "https://www.amnesty.org/en/latest/campaigns/2017/05/aminetou-mint-moctar/",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S86",
+      "titre": "Mekfoula Mint Brahim",
+      "institution": "Front Line Defenders",
+      "url": "https://www.frontlinedefenders.org/fr/profile/mekfoula-mint-brahim",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S87",
+      "titre": "Mauritanie : militante des droits de la femme, Mekfoula Mint Brahim, récompensée",
+      "institution": "RFI",
+      "annee": 2020,
+      "url": "https://www.rfi.fr/fr/afrique/20201010-mauritanie-prix-defense-droits-femmes-mekfoula-mint-brahim",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S88",
+      "titre": "Mekfoula Mint Brahim, Wikipédia en français",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Mekfoula_Mint_Brahim",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S89",
+      "titre": "Genève, prix Kourouma 2016 : Mbarek Ould Beyrouk, griot de sable et de plume",
+      "institution": "Jeune Afrique",
+      "annee": 2016,
+      "url": "https://www.jeuneafrique.com/321635/culture/beyrouk-griot-de-sable-de-plume/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S90",
+      "titre": "Ebnou, Moussa Ould (1956-)",
+      "institution": "Encyclopedia.com",
+      "url": "https://www.encyclopedia.com/international/encyclopedias-almanacs-transcripts-and-maps/ebnou-moussa-ould-1956",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S91",
+      "titre": "Abderrahmane Sissako",
+      "institution": "Festival de Cannes",
+      "url": "https://www.festival-cannes.com/en/p/abderrahmane-sissako/",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S92",
+      "titre": "Abderrahmane Sissako, Wikipédia en français",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Abderrahmane_Sissako",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S93",
+      "titre": "Disparition de Med Hondo, figure majeure du cinéma africain",
+      "institution": "Centre national du cinéma et de l'image animée",
+      "annee": 2019,
+      "url": "https://www.cnc.fr/cinema/actualites/disparition-de-med-hondo-figure-majeure-du-cinema-africain_947965",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S94",
+      "titre": "1969 : Soleil Ô sheds light on immigrants in France",
+      "institution": "Festival de Cannes",
+      "annee": 2017,
+      "url": "https://www.festival-cannes.com/en/2017/1969-soleil-o-sheds-light-on-immigrants-in-france/",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S95",
+      "titre": "Med Hondo, Wikipédia en français",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Med_Hondo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S96",
+      "titre": "Biram Dah Abeid, Wikipédia en français",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Biram_Dah_Abeid",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S97",
+      "titre": "Mauritanie : l'ancien président Sidi Mohamed ould Cheikh Abdallah n'est plus",
+      "institution": "Le360 Afrique",
+      "annee": 2020,
+      "url": "https://afrique.le360.ma/mauritanie/politique/2020/11/23/32631-mauritanie-lancien-president-sidi-mohamed-ould-cheikh-abdallah-nest-plus-32631/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S98",
+      "titre": "Mauritania: A Country Study, « Early European contacts »",
+      "institution": "Library of Congress (Federal Research Division)",
+      "auteur": "Robert E. Handloff (dir.)",
+      "annee": 1988,
+      "url": "https://countrystudies.us/mauritania/9.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S99",
+      "titre": "Mauritania: A Country Study, « Conflict in the Western Sahara »",
+      "institution": "Library of Congress (Federal Research Division)",
+      "auteur": "Robert E. Handloff (dir.)",
+      "annee": 1988,
+      "url": "https://countrystudies.us/mauritania/17.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S100",
+      "titre": "Mauritania: A Country Study, « Fighting the desert war »",
+      "institution": "Library of Congress (Federal Research Division)",
+      "auteur": "Robert E. Handloff (dir.)",
+      "annee": 1988,
+      "url": "https://countrystudies.us/mauritania/19.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S101",
+      "titre": "Background, MINURSO",
+      "institution": "Nations unies, MINURSO",
+      "url": "https://minurso.unmissions.org/background",
+      "type": "institution",
+      "licence": "© Nations unies",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S102",
+      "titre": "Mauritania: A Country Study, « Military withdrawal from the Western Sahara »",
+      "institution": "Library of Congress (Federal Research Division)",
+      "auteur": "Robert E. Handloff (dir.)",
+      "annee": 1988,
+      "url": "https://countrystudies.us/mauritania/20.htm",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S103",
+      "titre": "Necklace, Maure peoples, 2017.678.21",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/757224",
+      "type": "musee",
+      "licence": "notice du musée (droits de l'image non libres)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S104",
+      "titre": "Necklace, Maure peoples, 2017.678.22",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/757225",
+      "type": "musee",
+      "licence": "notice du musée (droits de l'image non libres)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S105",
+      "titre": "Tar, Tuareg people, 2001.538",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/503994",
+      "type": "musee",
+      "licence": "notice du musée (droits de l'image non libres)",
+      "consulte_le": "2026-11-21"
+    }
+  ]
+}

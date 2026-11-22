@@ -1,0 +1,4806 @@
+{
+  "code": "NG",
+  "nom": "Nigeria",
+  "region": "ouest",
+  "wikidata": "Q1033",
+  "maj": "2026-11-21",
+  "pays": {
+    "nom_officiel": "République fédérale du Nigeria",
+    "capitale": "Abuja",
+    "langues_officielles": [
+      "anglais"
+    ],
+    "langues_nationales": [
+      "haoussa",
+      "igbo",
+      "yoruba (article 55 de la Constitution : affaires de l'État conduites aussi dans ces langues lorsque les mesures nécessaires auront été prises)"
+    ],
+    "population": {
+      "valeur": 237527782,
+      "annee": 2025,
+      "source": "S1"
+    },
+    "superficie_km2": 923768,
+    "monnaie": "Naira (NGN)",
+    "resume": "Le Nigeria est une fédération d'Afrique de l'Ouest, ouverte sur le golfe de Guinée, dont la capitale est Abuja ; selon Wikipédia, un recensement de SIL y compte 529 langues. Son territoire réunit de très anciennes traditions : la culture Nok du plateau de Jos, les cités yoruba d'Ife et d'Oyo, le royaume edo du Bénin, les cités haoussa et l'empire du Bornou, puis le califat de Sokoto fondé après 1804. La Grande-Bretagne a annexé Lagos en 1861, unifié les protectorats du Nord et du Sud en 1914, et le pays est devenu indépendant le 1er octobre 1960. Il a connu des coups d'État, la guerre civile de 1967-1970 et une longue période de régimes militaires, jusqu'au retour d'un pouvoir civil le 29 mai 1999. Deux sites sont inscrits au patrimoine mondial (la forêt sacrée d'Osun-Oshogbo et le paysage culturel de Sukur) et huit éléments sur la liste représentative du patrimoine immatériel, tandis que la musique (afrobeat, jùjú), la littérature et le cinéma de Nollywood rayonnent bien au-delà du pays.",
+    "sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7",
+      "S8"
+    ]
+  },
+  "langues": [
+    {
+      "id": "NG-langue-haoussa",
+      "nom": "Haoussa",
+      "nom_local": "Harshen Hausa",
+      "description": "Le haoussa est une langue tchadique de la famille afro-asiatique, parlée surtout dans le nord du pays. Glottolog la décrit comme langue provinciale de fait du Nord, utilisée aussi comme seconde langue. Elle est écrite depuis des siècles en caractères arabes (ajami) et aujourd'hui aussi en caractères latins ; d'après l'article 55 de la Constitution, elle fait partie des trois langues africaines dans lesquelles les affaires de l'État doivent pouvoir se conduire.",
+      "famille": "Afro-Asiatic, Chadic, West Chadic, West Chadic A, West Chadic A.1, Hausa",
+      "glottocode": "haus1257",
+      "statut_linguistique": [
+        "nationale (article 55 de la Constitution)",
+        "véhiculaire"
+      ],
+      "ecritures": [
+        "latin",
+        "ajami"
+      ],
+      "regions": [
+        "nord du Nigeria"
+      ],
+      "sources": [
+        "S9",
+        "S8",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode haus1257 et classement lus sur la page Glottolog correspondante."
+      },
+      "wikidata": "Q56475"
+    },
+    {
+      "id": "NG-langue-yoruba",
+      "nom": "Yoruba",
+      "nom_local": "Èdè Yorùbá",
+      "description": "Le yoruba est la langue des communautés yoruba du sud-ouest du pays, à la limite du Bénin et du Togo. Glottolog la classe parmi les langues provinciales de fait de cette région. Elle porte une riche tradition orale : les versets ese d'Ifa sont chantés dans une langue poétique. Selon Encyclopedia.com, des efforts de normalisation visent son usage dans les médias et à l'école primaire.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Defoid, Yoruboid, Edekiri, Ede, Eastern Ede, Southeastern Ede, Nuclear Yoruba, Lucumi-Yoruba, Yoruba",
+      "glottocode": "yoru1245",
+      "statut_linguistique": [
+        "nationale (article 55 de la Constitution)"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "sud-ouest du Nigeria"
+      ],
+      "sources": [
+        "S10",
+        "S11",
+        "S3",
+        "S12"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode yoru1245 et classement lus sur la page Glottolog correspondante."
+      },
+      "wikidata": "Q34311"
+    },
+    {
+      "id": "NG-langue-igbo",
+      "nom": "Igbo",
+      "nom_local": "Asụsụ Igbo",
+      "description": "L'igbo est la langue des Igbo du sud-est du Nigeria, répartis de part et d'autre du Niger. Glottolog la range parmi les langues provinciales de fait du Sud-Est. Le film Living in Bondage (1992), tourné en igbo, est considéré comme celui qui a lancé le cinéma de Nollywood.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Igboid, Nuclear Igboid, Central-Northern Igbo, Igbo",
+      "glottocode": "nucl1417",
+      "statut_linguistique": [
+        "nationale (article 55 de la Constitution)"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "sud-est du Nigeria"
+      ],
+      "sources": [
+        "S13",
+        "S14",
+        "S3",
+        "S15"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode nucl1417 et classement lus sur la page Glottolog correspondante."
+      },
+      "wikidata": "Q33578"
+    },
+    {
+      "id": "NG-langue-anglais",
+      "nom": "Anglais",
+      "nom_local": "English",
+      "description": "L'anglais est la langue officielle de la fédération, héritage de la période coloniale britannique achevée en 1960. Selon Wikipédia, ce choix visait à faciliter l'unité linguistique et culturelle, alors que l'anglais est peu maîtrisé par une partie de la population. Il coexiste avec plusieurs centaines de langues locales.",
+      "famille": "Indo-European, Classical Indo-European, Germanic, Northwest Germanic, West Germanic, North Sea Germanic, Anglo-Frisian, Anglic, Later Anglic, Middle-Modern English, Macro-English, …",
+      "glottocode": "stan1293",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "tout le pays"
+      ],
+      "sources": [
+        "S16",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode stan1293 et classement lus sur la page Glottolog correspondante."
+      },
+      "wikidata": "Q1860"
+    },
+    {
+      "id": "NG-langue-pidgin",
+      "nom": "Pidgin nigérian",
+      "nom_local": "Naijá",
+      "description": "Le pidgin nigérian est un créole à base lexicale anglaise, classé par Glottolog dans les créoles anglais d'Afrique de l'Ouest. Il sert de langue de contact entre locuteurs de langues différentes. Fela Kuti, d'après Baker's Biographical Dictionary, l'utilisait dans ses chansons pour être compris dans toute l'Afrique anglophone.",
+      "famille": "Indo-European, Germanic, … Guinea Coast Creole English, West African Creole English (créole à base lexicale anglaise)",
+      "glottocode": "nige1257",
+      "statut_linguistique": [
+        "véhiculaire"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "sud du Nigeria",
+        "zones urbaines"
+      ],
+      "sources": [
+        "S17",
+        "S18"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode nige1257 et classement lus sur la page Glottolog correspondante."
+      },
+      "wikidata": "Q33655"
+    },
+    {
+      "id": "NG-langue-fulfulde",
+      "nom": "Peul nigérian (fulfulde)",
+      "nom_local": "Fulfulde",
+      "description": "Le peul du Nigeria (fulfulde des États haoussa) appartient à la branche atlantique des langues nigéro-congolaises. Elle est parlée par des pasteurs et des citadins peuls du nord du pays, dont beaucoup parlent aussi haoussa. Selon Encyclopedia.com, le fulfulde s'écrit surtout en caractères latins, et autrefois en caractères arabes.",
+      "famille": "Atlantic-Congo, North-Central Atlantic, Fula-Sereer, Fula, Eastern Fula, Hausa States Fulfulde",
+      "glottocode": "nige1253",
+      "statut_linguistique": [
+        "véhiculaire (région nord)"
+      ],
+      "ecritures": [
+        "latin",
+        "ajami"
+      ],
+      "regions": [
+        "nord du Nigeria"
+      ],
+      "sources": [
+        "S19",
+        "S20"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode nige1253 et classement lus sur la page Glottolog correspondante."
+      },
+      "wikidata": "Q36129"
+    },
+    {
+      "id": "NG-langue-kanuri",
+      "nom": "Kanouri",
+      "nom_local": "Kanuri",
+      "description": "Le kanouri central est la langue des Kanouri de l'État de Borno, dans le nord-est. Glottolog le range dans la famille saharienne, sans lien avec le haoussa. Encyclopedia.com note que c'est la langue la plus parlée de la famille saharienne centrale et que la plupart des Kanouri parlent aussi un peu de haoussa.",
+      "famille": "Saharan, Western Saharan, Kanuri-Kanembu, Kanuric, East Kanuri, Central Kanuri",
+      "glottocode": "cent2050",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Borno"
+      ],
+      "sources": [
+        "S21",
+        "S22"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode cent2050 (Central Kanuri) lu sur Glottolog ; l'identifiant Wikidata Q36094 vient de la page Wikipédia « Kanuri language ». Écriture latine seule retenue ; l'usage éventuel de l'ajami n'est pas sourcé."
+      },
+      "wikidata": "Q36094"
+    },
+    {
+      "id": "NG-langue-edo",
+      "nom": "Édo (bini)",
+      "nom_local": "Ẹ̀dó",
+      "description": "L'édo (bini) est la langue de l'ancien royaume du Bénin, dont la capitale est l'actuelle Benin City. Glottolog précise qu'elle est la langue de l'identité provinciale dans l'État d'Edo et qu'elle est utilisée à l'école. Elle appartient au groupe edoïde, avec l'urhobo, l'isoko et d'autres langues proches.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Akpes-Edoid, Edoid, North-Central Edoid, Central Plains Edoid, Bini",
+      "glottocode": "bini1246",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "État d'Edo",
+        "Benin City"
+      ],
+      "sources": [
+        "S23",
+        "S24"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode bini1246 et classement lus sur la page Glottolog correspondante."
+      },
+      "wikidata": "Q35375"
+    },
+    {
+      "id": "NG-langue-efik",
+      "nom": "Efik",
+      "nom_local": "Usem Efik",
+      "description": "L'efik est la langue de la région de Calabar et du bas Cross River, proche de l'ibibio. Glottolog la classe dans les langues de communication élargie et de l'identité provinciale pour les États de Cross River et d'Akwa Ibom. Encyclopedia.com rappelle qu'elle est devenue la langue littéraire et comprise par de nombreux Ibibio instruits.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Delta Cross, Lower Cross, Nuclear Lower Cross, Central Lower Cross, Efikic, Okop Usem, Efik-Ibibio, Efik",
+      "glottocode": "efik1245",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Calabar",
+        "Cross River",
+        "Akwa Ibom"
+      ],
+      "sources": [
+        "S25",
+        "S26"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode efik1245 et classement lus sur la page Glottolog correspondante."
+      },
+      "wikidata": "Q35377"
+    },
+    {
+      "id": "NG-langue-ibibio",
+      "nom": "Ibibio",
+      "nom_local": "Ibibio",
+      "description": "L'ibibio est parlé dans l'État d'Akwa Ibom, au sud-est du pays, et forme avec l'efik un même ensemble linguistique. Glottolog le classe parmi les langues de communication élargie de cette région. Il comprend plusieurs dialectes, dont l'anang et l'eket selon Encyclopedia.com.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Delta Cross, Lower Cross, Nuclear Lower Cross, Central Lower Cross, Efikic, Okop Usem, Efik-Ibibio, Ibibio",
+      "glottocode": "ibib1240",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Akwa Ibom"
+      ],
+      "sources": [
+        "S27",
+        "S26"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode ibib1240 et classement lus sur la page Glottolog correspondante."
+      },
+      "wikidata": "Q33792"
+    },
+    {
+      "id": "NG-langue-tiv",
+      "nom": "Tiv",
+      "nom_local": "Tiv",
+      "description": "Le tiv est la langue des Tiv, qui vivent de part et d'autre de la Bénoué. Encyclopedia.com indique qu'il existe une seule langue tiv comprise de tous, avec des variantes régionales. Glottolog le place dans le groupe tivoïde, branche des langues bantoïdes du sud.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Bantoid, Southern Bantoid, Tivoid, Central Tivoid, Central Tivoid A, Tiv-Evand, Tiv-Iyive-Otanga, Tiv",
+      "glottocode": "tivv1240",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "vallée de la Bénoué",
+        "Benue"
+      ],
+      "sources": [
+        "S28",
+        "S29"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode tivv1240 et classement lus sur la page Glottolog correspondante."
+      },
+      "wikidata": "Q34131"
+    },
+    {
+      "id": "NG-langue-idoma",
+      "nom": "Idoma",
+      "nom_local": "Idoma",
+      "description": "L'idoma est la langue des Idoma de la vallée de la Bénoué. Glottolog y voit la langue de l'identité provinciale dans plusieurs États (Kogi, Benue, Enugu). Il appartient au groupe idomoïde de la famille Benoué-Congo.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Idomoid, Akweya, Etulo-Idoma, Nuclear Idoma, Idoma-Agatu-Okpogu, Idoma",
+      "glottocode": "idom1241",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Benue",
+        "Kogi",
+        "Enugu"
+      ],
+      "sources": [
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode idom1241 et classement lus sur la page Glottolog correspondante."
+      },
+      "wikidata": "Q35478"
+    },
+    {
+      "id": "NG-langue-nupe",
+      "nom": "Nupe",
+      "nom_local": "Nupe",
+      "description": "Le nupe est la langue des Nupe, installés surtout dans l'État du Niger (Bida, Minna). Glottolog le classe parmi les langues de communication élargie de cette région. Encyclopedia.com distingue au moins deux dialectes très différents, le nupe central et le nupe tako.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Ebira-Nupoid, Macro-Nupoid, Nupoid, Nupe-Nupe-Tako",
+      "glottocode": "nupe1254",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Niger",
+        "Kwara",
+        "Kogi"
+      ],
+      "sources": [
+        "S31",
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode nupe1254 et classement lus sur la page Glottolog correspondante."
+      },
+      "wikidata": "Q36720"
+    },
+    {
+      "id": "NG-langue-igala",
+      "nom": "Igala",
+      "nom_local": "Igala",
+      "description": "L'igala est parlé autour du royaume igala, à la confluence du Niger et de la Bénoué. Glottolog le range dans le groupe yoruboïde et le décrit comme langue en développement. Il n'est pas considéré comme menacé.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Defoid, Yoruboid, Igala",
+      "glottocode": "igal1242",
+      "statut_linguistique": [
+        "non menacée (Glottolog)"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Kogi"
+      ],
+      "sources": [
+        "S33"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode igal1242 et classement lus sur la page Glottolog correspondante."
+      },
+      "wikidata": "Q35513"
+    },
+    {
+      "id": "NG-langue-izon",
+      "nom": "Izon (ijo)",
+      "nom_local": "Ìzọ́n",
+      "description": "L'izon (ijo) est la langue principale des Ijo du delta du Niger. Elle forme avec d'autres langues ijo une famille distincte de celle des langues voisines (ijoïde). Les Ijo vivent surtout dans les États de Bayelsa et de Rivers d'après Encyclopedia.com.",
+      "famille": "Ijoid, Ijo, Western Ijo, Izon",
+      "glottocode": "izon1238",
+      "statut_linguistique": [
+        "non menacée (Glottolog)"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Bayelsa",
+        "Rivers",
+        "delta du Niger"
+      ],
+      "sources": [
+        "S34",
+        "S35"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode izon1238 et classement lus sur la page Glottolog correspondante."
+      },
+      "wikidata": "Q35483"
+    },
+    {
+      "id": "NG-langue-itsekiri",
+      "nom": "Itsekiri",
+      "nom_local": "Itsekiri",
+      "description": "L'itsekiri est la langue de la région de Warri, dans le delta. Glottolog la classe dans le groupe yoruboïde, proche du yoruba. Elle est jugée en développement et non menacée.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Defoid, Yoruboid, Edekiri, Isekiri",
+      "glottocode": "isek1239",
+      "statut_linguistique": [
+        "non menacée (Glottolog)"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Warri",
+        "Delta"
+      ],
+      "sources": [
+        "S36",
+        "S35"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode isek1239 et classement lus sur la page Glottolog correspondante."
+      },
+      "wikidata": "Q36045"
+    },
+    {
+      "id": "NG-langue-urhobo",
+      "nom": "Urhobo",
+      "nom_local": "Urhobo",
+      "description": "L'urhobo est parlé dans l'État du Delta et appartient au groupe edoïde, tout comme l'édo. Glottolog le décrit comme la langue de l'identité provinciale du Delta, avec un enseignement élémentaire. Il côtoie l'itsekiri et l'izon dans la région de Warri.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Akpes-Edoid, Edoid, Southwestern Edoid, Urhobo",
+      "glottocode": "urho1239",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Delta"
+      ],
+      "sources": [
+        "S37",
+        "S24"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode urho1239 et classement lus sur la page Glottolog correspondante."
+      },
+      "wikidata": "Q36663"
+    },
+    {
+      "id": "NG-langue-ebira",
+      "nom": "Ebira",
+      "nom_local": "Ẹ̀bìrà",
+      "description": "L'ebira (igbira) est la langue des Ebira de l'État de Kogi, au centre du pays. Glottolog la rattache à un groupe ebira-nupoïde, proche du nupe. Encyclopedia.com cite le nupe comme proche parent de l'ebira (igbira), du gbari et du kakanda.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Ebira-Nupoid, Ebira",
+      "glottocode": "ebir1243",
+      "statut_linguistique": [
+        "non menacée (Glottolog)"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Kogi"
+      ],
+      "sources": [
+        "S38",
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode ebir1243 et classement lus sur la page Glottolog correspondante."
+      },
+      "wikidata": "Q35363"
+    }
+  ],
+  "peuples": [
+    {
+      "id": "NG-peuple-yoruba",
+      "nom": "Yoruba",
+      "description": "Les Yoruba vivent surtout dans le sud-ouest du pays et débordent au Bénin et au Togo. Le nom « Yoruba » désignait d'abord le royaume d'Oyo, puis les missionnaires l'ont étendu à l'ensemble des peuples parlant la même langue ; entre eux, beaucoup se disent d'abord Oyo, Egba, Ijebu, Ekiti, Owo, etc. Ife est leur cité d'origine dans les récits, et les villes (Ijebu Ode, Oyo, Ibadan) jouent un rôle central dans leur histoire.",
+      "langues": [
+        "yoruba"
+      ],
+      "regions": [
+        "sud-ouest du Nigeria",
+        "Ife",
+        "Oyo",
+        "Ibadan",
+        "Abeokuta",
+        "Lagos"
+      ],
+      "pays_partages": [
+        "BJ",
+        "TG"
+      ],
+      "organisation": "Cités-États et royaumes, jamais unifiés politiquement selon Encyclopedia.com.",
+      "activites": [
+        "agriculture",
+        "forge",
+        "commerce"
+      ],
+      "sources": [
+        "S11",
+        "S39",
+        "S12",
+        "S40"
+      ],
+      "wikidata": "Q190168",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source principale : Encyclopedia.com (Gale), ouvrage ancien dont les chiffres de population sont datés ; à croiser avec une source récente."
+      }
+    },
+    {
+      "id": "NG-peuple-igbo",
+      "nom": "Igbo",
+      "description": "Les Igbo occupent le sud-est du Nigeria de part et d'autre du Niger. Avant la colonisation, selon Encyclopedia.com, ils vivaient en communautés locales sans cadre politique commun, reliées par le commerce, les mariages, les migrations et les échanges rituels. Leur territoire est l'un des plus densément peuplés d'Afrique de l'Ouest, et des Igbo vivent aujourd'hui dans tout le pays.",
+      "langues": [
+        "igbo"
+      ],
+      "regions": [
+        "Enugu",
+        "Anambra",
+        "Abia",
+        "Imo",
+        "Ebonyi",
+        "Delta (Aniomà)"
+      ],
+      "organisation": "Communautés locales sans cadre politique commun avant la colonisation, selon Encyclopedia.com.",
+      "activites": [
+        "agriculture",
+        "commerce",
+        "mascarades"
+      ],
+      "sources": [
+        "S14",
+        "S41"
+      ],
+      "wikidata": "Q244157",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source principale : Encyclopedia.com (Gale), ouvrage ancien dont les chiffres de population sont datés ; à croiser avec une source récente."
+      }
+    },
+    {
+      "id": "NG-peuple-haoussa",
+      "nom": "Haoussa",
+      "description": "Les Haoussa forment un grand ensemble de populations de la savane du nord du Nigeria et du Niger voisin, unies par la langue et, majoritairement, par l'islam. Encyclopedia.com présente leur histoire comme celle d'un brassage de peuples autour de cités-États fortifiées (les « Hausa Bakwai », dont Daura est la plus ancienne selon la tradition). Après 1804, des dirigeants peuls reprennent le pouvoir dans ces États au sein du califat de Sokoto.",
+      "langues": [
+        "haoussa"
+      ],
+      "regions": [
+        "nord du Nigeria",
+        "Daura",
+        "Kano"
+      ],
+      "pays_partages": [
+        "NE"
+      ],
+      "organisation": "Cités-États dirigées par des rois (Habe) puis, après 1804, par des dirigeants peuls.",
+      "activites": [
+        "agriculture",
+        "commerce"
+      ],
+      "sources": [
+        "S8",
+        "S42"
+      ],
+      "wikidata": "Q33938",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source principale : Encyclopedia.com (Gale), ouvrage ancien dont les chiffres de population sont datés ; à croiser avec une source récente."
+      }
+    },
+    {
+      "id": "NG-peuple-peuls",
+      "nom": "Peuls (Fulbe)",
+      "description": "Les Peuls, que les Haoussa appellent Fulani, sont répartis sur une bande de l'Afrique de l'Ouest au Soudan. Encyclopedia.com explique que leur identité ethnique est complexe et a changé selon les époques, au gré des mélanges avec les populations voisines. Au Nigeria, des groupes urbanisés (Toroobe) ont fourni des clercs musulmans réputés, tandis que d'autres sont éleveurs de bovins.",
+      "langues": [
+        "fulfulde",
+        "haoussa"
+      ],
+      "regions": [
+        "nord du Nigeria"
+      ],
+      "pays_partages": [
+        "MR",
+        "SN",
+        "SD",
+        "ET",
+        "KE"
+      ],
+      "activites": [
+        "élevage",
+        "enseignement islamique",
+        "commerce"
+      ],
+      "sources": [
+        "S20",
+        "S43"
+      ],
+      "wikidata": "Q202575",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Pays partagés limités à ceux cités par Encyclopedia.com (Mauritanie, Sénégal, Soudan, Éthiopie, Kenya) ; la liste complète des pays est plus longue."
+      }
+    },
+    {
+      "id": "NG-peuple-kanouri",
+      "nom": "Kanouri",
+      "description": "Les Kanouri sont le groupe dominant de l'État de Borno, dans le nord-est du Nigeria, avec des communautés au Niger, au Tchad et au Cameroun. Ils descendent de la dynastie des Sefuwa, partie du Kanem au XIVe siècle pour fonder l'empire du Bornou près du lac Tchad. Leur langue et l'islam se sont diffusés chez de nombreux voisins.",
+      "langues": [
+        "kanuri",
+        "haoussa"
+      ],
+      "regions": [
+        "Borno"
+      ],
+      "pays_partages": [
+        "NE",
+        "TD",
+        "CM"
+      ],
+      "organisation": "Émirat du Borno, héritier de l'empire du Bornou.",
+      "activites": [
+        "agriculture"
+      ],
+      "sources": [
+        "S22"
+      ],
+      "wikidata": "Q572665",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source principale : Encyclopedia.com (Gale), ouvrage ancien dont les chiffres de population sont datés ; à croiser avec une source récente."
+      }
+    },
+    {
+      "id": "NG-peuple-edo",
+      "nom": "Edo (Bini)",
+      "description": "Les Edo sont le peuple du royaume du Bénin, dont la capitale est l'actuelle Benin City, dans le sud du pays. Ils sont connus pour leurs œuvres en laiton et en ivoire et pour une organisation politique complexe, dont les corporations d'artisans sont une composante. Le royaume a été conquis par la Grande-Bretagne en 1897, mais la monarchie edo a été rétablie ensuite.",
+      "langues": [
+        "edo"
+      ],
+      "regions": [
+        "Benin City",
+        "État d'Edo"
+      ],
+      "organisation": "Royaume dirigé par un oba, avec des chefs de palais et de ville et des corporations d'artisans.",
+      "activites": [
+        "travail du laiton",
+        "sculpture de l'ivoire",
+        "agriculture"
+      ],
+      "sources": [
+        "S24"
+      ],
+      "wikidata": "Q1287326",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source principale : Encyclopedia.com (Gale), ouvrage ancien dont les chiffres de population sont datés ; à croiser avec une source récente."
+      }
+    },
+    {
+      "id": "NG-peuple-ijo",
+      "nom": "Ijo (Ijaw)",
+      "description": "Les Ijo vivent dans le delta du Niger, surtout dans les États de Bayelsa et de Rivers. Selon Encyclopedia.com, ils étaient répartis en dizaines de clans (ibe) sans royaume unique, et ont tiré parti de leur position pour le commerce des esclaves puis de l'huile de palme. Le delta est aujourd'hui aussi marqué par l'exploitation pétrolière.",
+      "langues": [
+        "izon"
+      ],
+      "regions": [
+        "Bayelsa",
+        "Rivers",
+        "delta du Niger"
+      ],
+      "organisation": "Clans (ibe) et cités-États de l'est du delta.",
+      "activites": [
+        "pêche",
+        "commerce",
+        "agriculture"
+      ],
+      "sources": [
+        "S35"
+      ],
+      "wikidata": "Q528981",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source principale : Encyclopedia.com (Gale), ouvrage ancien dont les chiffres de population sont datés ; à croiser avec une source récente."
+      }
+    },
+    {
+      "id": "NG-peuple-tiv",
+      "nom": "Tiv",
+      "description": "Les Tiv vivent de part et d'autre de la Bénoué, dans le centre-est du Nigeria. Le nom Tiv est celui de l'ancêtre commun dont tous se disent descendants, d'après Encyclopedia.com. Leur art du récit a donné naissance au théâtre kwagh-hir, inscrit par l'UNESCO en 2019.",
+      "langues": [
+        "tiv"
+      ],
+      "regions": [
+        "Benue",
+        "vallée de la Bénoué"
+      ],
+      "sources": [
+        "S29",
+        "S44"
+      ],
+      "wikidata": "Q1235705",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source principale : Encyclopedia.com (Gale), ouvrage ancien dont les chiffres de population sont datés ; à croiser avec une source récente."
+      }
+    },
+    {
+      "id": "NG-peuple-nupe",
+      "nom": "Nupe",
+      "description": "Les Nupe occupent un bas pays du bassin du Niger, surtout dans l'État du Niger (Bida, Minna, Lapai, Mokwa). Selon leurs traditions, leur État a été fondé par Tsoede au XVe siècle. Leur région était auparavant formée de petits États semi-autonomes.",
+      "langues": [
+        "nupe"
+      ],
+      "regions": [
+        "Niger State",
+        "Bida",
+        "Minna",
+        "Kogi",
+        "Kwara"
+      ],
+      "organisation": "Royaume dirigé par un etsu, titre pris par Tsoede selon les traditions.",
+      "sources": [
+        "S32"
+      ],
+      "wikidata": "Q1482397",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source principale : Encyclopedia.com (Gale), ouvrage ancien dont les chiffres de population sont datés ; à croiser avec une source récente."
+      }
+    },
+    {
+      "id": "NG-peuple-ibibio-efik",
+      "nom": "Ibibio et Efik",
+      "description": "Les Ibibio forment un ensemble de groupes du sud-est du pays, dans l'État d'Akwa Ibom ; les Efik, de la région de Calabar, y sont rattachés par la langue. Encyclopedia.com indique qu'ils n'avaient pas, comme les Igbo voisins, de nom commun avant l'époque coloniale. Leur histoire est liée à celle de Calabar et à celle du commerce atlantique.",
+      "langues": [
+        "ibibio",
+        "efik"
+      ],
+      "regions": [
+        "Akwa Ibom",
+        "Calabar",
+        "Cross River"
+      ],
+      "sources": [
+        "S26"
+      ],
+      "wikidata": "Q239577",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source principale : Encyclopedia.com (Gale), ouvrage ancien dont les chiffres de population sont datés ; à croiser avec une source récente."
+      }
+    }
+  ],
+  "sites": [
+    {
+      "id": "NG-site-osun-oshogbo",
+      "nom": "Forêt sacrée d'Osun-Oshogbo",
+      "type": "patrimoine_mondial",
+      "description": "Cette dense forêt, en périphérie d'Oshogbo, est l'un des derniers vestiges de forêt primaire du sud du Nigeria. Elle est considérée comme la demeure d'Osun, divinité yoruba de la fertilité, et la rivière qui la traverse longe sanctuaires, sculptures et œuvres d'art dédiés à Osun et à d'autres divinités. L'UNESCO la décrit comme un symbole identitaire pour l'ensemble des Yoruba et probablement la dernière forêt sacrée de cette culture.",
+      "wikidata": "Q621498",
+      "unesco_id": "1118",
+      "inscription": 2005,
+      "coordonnees": {
+        "lat": 7.75491,
+        "lng": 4.550625
+      },
+      "regions": [
+        "Oshogbo",
+        "État d'Osun"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Lieu de culte vivant : visites et récits à valider avec les prêtresses et prêtres d'Osun et les autorités du site.",
+      "sources": [
+        "S45",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées et année d'inscription (2005) issues de la graine Wikidata/UNESCO ; description d'après la page whc.unesco.org."
+      }
+    },
+    {
+      "id": "NG-site-sukur",
+      "nom": "Paysage culturel de Sukur",
+      "type": "patrimoine_mondial",
+      "description": "Le paysage de Sukur, dans le nord-est du pays, est dominé par le palais du Hidi (le chef) bâti sur une colline qui surplombe les villages. Il comprend des champs en terrasses, des symboles sacrés et les vestiges très nombreux d'une ancienne industrie du fer qui a été florissante. Pour l'UNESCO, c'est l'expression physique remarquablement intacte d'une société, de sa culture spirituelle et matérielle.",
+      "wikidata": "Q1123956",
+      "unesco_id": "938",
+      "inscription": 1999,
+      "coordonnees": {
+        "lat": 10.740555555,
+        "lng": 13.571666666
+      },
+      "regions": [
+        "Sukur"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Symboles sacrés et palais du chef : toute présentation doit être relue avec la communauté de Sukur.",
+      "sources": [
+        "S46",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées et année d'inscription (1999) issues de la graine Wikidata/UNESCO."
+      }
+    },
+    {
+      "id": "NG-site-ile-ife",
+      "nom": "Ile-Ife",
+      "type": "ville_historique",
+      "description": "Ile-Ife est la cité sacrée des Yoruba, que leurs récits d'origine désignent comme le lieu où Oduduwa créa la terre et où commença la lignée des rois yoruba. Encyclopedia.com place l'apogée artistique et politique d'Ife entre les XIIe et XIVe siècles. La ville est aujourd'hui la résidence de l'ooni d'Ifè et abrite un musée national.",
+      "coordonnees": {
+        "lat": 7.48333,
+        "lng": 4.55917
+      },
+      "regions": [
+        "Ile-Ife",
+        "État d'Osun"
+      ],
+      "periode": "cité ancienne ; apogée XIIe-XIVe siècle",
+      "sensible": true,
+      "note_sensibilite": "Récits d'origine et lieux de culte : présentation à relire avec l'ooni et les prêtres.",
+      "sources": [
+        "S47",
+        "S11"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Fondation ~1000-500 av. J.-C. indiquée par Wikipédia : non retenue, trop incertaine."
+      }
+    },
+    {
+      "id": "NG-site-benin-city",
+      "nom": "Benin City",
+      "type": "ville_historique",
+      "description": "Benin City est la capitale de l'ancien royaume edo du Bénin et de l'actuel État d'Edo. Selon Encyclopedia.com, les visiteurs européens y découvraient, dès le XVe siècle, un vaste palais aux cours et aux salles décorées de laiton, d'ivoire et de bois sculpté. La ville a été prise par les troupes britanniques en février 1897.",
+      "coordonnees": {
+        "lat": 6.33333,
+        "lng": 5.62222
+      },
+      "regions": [
+        "Benin City",
+        "État d'Edo"
+      ],
+      "periode": "XIe siècle - aujourd'hui",
+      "sensible": true,
+      "note_sensibilite": "Mémoire de la prise de 1897 et des restitutions d'objets : sujet disputé, voir les positions des institutions concernées.",
+      "sources": [
+        "S48",
+        "S24",
+        "S49"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées issues de l'infobox du royaume du Bénin (Wikipédia), pas de la ville elle-même."
+      }
+    },
+    {
+      "id": "NG-site-kano",
+      "nom": "Kano",
+      "type": "ville_historique",
+      "description": "Kano est une grande ville du nord, ancienne étape du commerce transsaharien, dont les émirs de la dynastie Dabo règnent depuis le XIXe siècle. Wikipédia indique que l'islam y est arrivé au plus tard au XIe siècle. Les murailles anciennes de Kano figurent depuis 2007 sur la liste indicative du Nigeria pour le patrimoine mondial, et la ville est le cadre du durbar inscrit par l'UNESCO en 2024.",
+      "coordonnees": {
+        "lat": 12.0,
+        "lng": 8.517
+      },
+      "regions": [
+        "Kano"
+      ],
+      "periode": "ville ancienne",
+      "sources": [
+        "S50",
+        "S4",
+        "S42"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Liste indicative : « Ancient Kano City Walls and Associated Sites », 2007 (page États parties UNESCO)."
+      }
+    },
+    {
+      "id": "NG-site-old-oyo",
+      "nom": "Old Oyo (Oyo-Ile)",
+      "type": "liste_indicative",
+      "description": "Old Oyo, ou Oyo-Ile, est l'ancienne capitale de l'empire d'Oyo, l'un des grands États yoruba. Le site est inscrit sur la liste indicative du Nigeria depuis 1995 (critères ii et v), à l'initiative de la Commission nationale des musées et monuments. Wikipédia date l'empire d'environ 1300 à environ 1836.",
+      "regions": [
+        "État d'Oyo"
+      ],
+      "periode": "vers 1300 - vers 1836",
+      "sources": [
+        "S51",
+        "S52",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées de la page UNESCO données sous forme de fourchette (8°56'-9°03' N, 4°20'-4°26' E) : non converties en point."
+      }
+    },
+    {
+      "id": "NG-site-sungbo-eredo",
+      "nom": "Sungbo's Eredo",
+      "type": "site_archeologique",
+      "description": "Sungbo's Eredo est un ensemble de fossés et de talus défensifs au sud-ouest d'Ijebu Ode, d'une longueur totale de plus de 160 kilomètres. L'ouvrage a été bâti en l'honneur de la noble ijebu Bilikisu Sungbo et entoure la zone de l'ancien royaume ijebu. Il figure sur la liste indicative du patrimoine mondial du Nigeria.",
+      "coordonnees": {
+        "lat": 6.6481028,
+        "lng": 3.9936583
+      },
+      "regions": [
+        "Ijebu Ode",
+        "État d'Ogun"
+      ],
+      "sources": [
+        "S53",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Liste indicative : « Benin Iya / Sungbo's Eredo », 1995 (page États parties UNESCO). Datation de l'ouvrage non retenue."
+      }
+    },
+    {
+      "id": "NG-site-surame",
+      "nom": "Cité ancienne de Surame",
+      "type": "site_archeologique",
+      "description": "Surame est une ville ancienne du nord-ouest, créée au XVIe siècle par Muhammadu Kanta du Kebbi, qui contrôlait alors un empire régional. Elle a été abandonnée vers 1700 quand la capitale a été déplacée à Birnin Kebbi. Le site, d'environ 9 km, conserve des fondations, des murs en pierre et mortier, des puits et des fossés défensifs.",
+      "coordonnees": {
+        "lat": 13.088,
+        "lng": 4.899
+      },
+      "regions": [
+        "Sokoto"
+      ],
+      "periode": "XVIe siècle - vers 1700",
+      "sources": [
+        "S54",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Paysage culturel de Surame sur la liste indicative depuis 2007 (page UNESCO)."
+      }
+    },
+    {
+      "id": "NG-site-ikom-monolithes",
+      "nom": "Monolithes d'Ikom (Alok)",
+      "type": "site_archeologique",
+      "description": "Environ 300 monolithes de pierre volcanique sont dressés en une trentaine de cercles autour d'Alok, dans la région d'Ikom (État de Cross River). Hauts de 0,3 à 1,8 m, ils portent des visages stylisés et des motifs encore non déchiffrés. Wikipédia indique que les Ejagham pourraient les avoir gravés vers 200 de notre ère.",
+      "coordonnees": {
+        "lat": 6.0,
+        "lng": 8.5
+      },
+      "regions": [
+        "Ikom",
+        "État de Cross River"
+      ],
+      "periode": "vers 200 apr. J.-C. (incertain)",
+      "sensible": true,
+      "note_sensibilite": "Lieux associés aux communautés ejagham : propriété et usages à valider avec elles.",
+      "sources": [
+        "S55",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées approximatives (6° N, 8° 30' E) données par Wikipédia ; liste indicative 2007."
+      }
+    },
+    {
+      "id": "NG-site-grottes-ogbunike",
+      "nom": "Grottes d'Ogbunike",
+      "type": "site_naturel",
+      "description": "Les grottes d'Ogbunike s'ouvrent dans une vallée forestière de l'État d'Anambra. Les habitants les utilisent depuis des siècles et leur reconnaissent une signification spirituelle ; la fête Ime Ogba y est célébrée chaque année. On y accède pieds nus, selon la tradition rapportée par Wikipédia.",
+      "coordonnees": {
+        "lat": 6.185872,
+        "lng": 6.906069
+      },
+      "regions": [
+        "Anambra"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Lieu spirituel : règles d'accès et récits à valider avec la communauté d'Ogbunike.",
+      "sources": [
+        "S56",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Liste indicative 2007 (page UNESCO)."
+      }
+    },
+    {
+      "id": "NG-site-musee-national-lagos",
+      "nom": "Musée national de Lagos",
+      "type": "musee",
+      "description": "Le Musée national de Lagos, à Onikan, présente une collection d'art nigérian : statuaire, sculptures, pièces archéologiques et ethnographiques. Il est géré par la Commission nationale des musées et monuments. Wikipédia indique qu'il a rouvert en avril 2026 après une rénovation.",
+      "coordonnees": {
+        "lat": 6.44444,
+        "lng": 3.40333
+      },
+      "regions": [
+        "Lagos"
+      ],
+      "sources": [
+        "S57",
+        "S58"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Réouverture en avril 2026 : information de Wikipédia à confirmer auprès de la NCMM."
+      }
+    },
+    {
+      "id": "NG-site-musee-jos",
+      "nom": "Musée de Jos",
+      "type": "musee",
+      "description": "Le musée de Jos a été ouvert en 1952 par Bernard Fagg, alors directeur des antiquités de l'administration coloniale. Il est présenté comme le premier musée public d'Afrique de l'Ouest et ses premières vitrines étaient surtout consacrées aux figurines nok. Le complexe abrite aussi un musée de l'architecture traditionnelle nigériane.",
+      "regions": [
+        "Jos",
+        "plateau de Jos"
+      ],
+      "periode": "depuis 1952",
+      "sources": [
+        "S59",
+        "S60"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-site-igbo-ukwu",
+      "nom": "Igbo-Ukwu",
+      "type": "site_archeologique",
+      "description": "À Igbo-Ukwu, dans le sud-est, des bronzes coulés, des perles de verre et de cornaline et d'autres objets ont été découverts dans les propriétés de la famille Anozie, d'abord en 1938 puis lors des fouilles de Thurstan Shaw en 1959-1960. Shaw a retenu une date du IXe siècle, qui reste la plus citée même si la chronologie est discutée. Le site est considéré comme l'un des plus remarquables d'Afrique de l'Ouest.",
+      "regions": [
+        "Igbo-Ukwu"
+      ],
+      "periode": "IXe siècle (datation de Shaw)",
+      "sensible": true,
+      "note_sensibilite": "Contexte funéraire et rituel des découvertes : présenter avec prudence.",
+      "sources": [
+        "S61"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Pas de coordonnées sourcées dans l'article lu."
+      }
+    },
+    {
+      "id": "NG-site-calabar",
+      "nom": "Calabar (Akwa Akpa)",
+      "type": "ville_historique",
+      "description": "Calabar, appelée Akwa Akpa en efik, est la capitale de l'État de Cross River, au bord des rivières Calabar et Great Kwa. Wikipédia indique qu'elle est un port international depuis le XVIe siècle, exportant notamment l'huile de palme, et qu'elle fut un grand port d'embarquement de personnes réduites en esclavage vers les Amériques. Les Efik dominent aujourd'hui la population de la ville.",
+      "coordonnees": {
+        "lat": 4.97667,
+        "lng": 8.33833
+      },
+      "regions": [
+        "Calabar",
+        "État de Cross River"
+      ],
+      "periode": "XVIe siècle - aujourd'hui",
+      "sensible": true,
+      "note_sensibilite": "Lieu lié à la traite atlantique : récits à présenter avec les sources et les communautés.",
+      "sources": [
+        "S62"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia) : à compléter avec une source institutionnelle."
+      }
+    }
+  ],
+  "traditions": [
+    {
+      "id": "NG-tradition-durbar-kano",
+      "nom": "Durbar de Kano",
+      "categorie": "fete",
+      "description": "Le durbar est une procession d'environ 10 000 personnes, cavaliers, hommes et femmes à pied, organisée à l'occasion des deux grandes fêtes musulmanes de l'Aïd. L'émir et sa cour en sont la figure centrale, et quatre cortèges, chacun avec son moment et ses costumes, partent d'une porte du palais pour s'achever à une autre au son de salves de tirs. L'UNESCO souligne la part de savoir-faire artisanaux (costumes, armes blanches, harnachement) liés à cette fête.",
+      "communautes": [
+        "émirat de Kano",
+        "communauté haoussa"
+      ],
+      "regions": [
+        "Kano"
+      ],
+      "langues": [
+        "haoussa"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01895",
+        "annee": 2024,
+        "url": "https://ich.unesco.org/en/RL/durbar-in-kano-01895"
+      },
+      "sources": [
+        "S42",
+        "S50"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La notice UNESCO situe les fêtes aux neuvième et douzième mois du calendrier musulman ; formulation reprise telle quelle, à vérifier."
+      }
+    },
+    {
+      "id": "NG-tradition-accouchement-sages-femmes",
+      "nom": "Savoirs et pratiques des sages-femmes",
+      "categorie": "savoir",
+      "description": "Les sages-femmes accompagnent les femmes enceintes et leurs familles avant, pendant et après la naissance : visites à domicile, conseils, préparation à l'accouchement. Leur pratique mêle connaissances fondées sur des preuves et savoirs traditionnels, et varie selon les contextes. Cet élément a été inscrit en 2023 par huit pays, dont le Nigeria, avec la Colombie, Chypre, l'Allemagne, le Kirghizistan, le Luxembourg, la Slovénie et le Togo.",
+      "communautes": [
+        "sages-femmes"
+      ],
+      "regions": [
+        "Nigeria"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01968",
+        "annee": 2023,
+        "url": "https://ich.unesco.org/en/RL/midwifery-knowledge-skills-and-practices-01968"
+      },
+      "sources": [
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Élément multinational ; la partie nigériane (communautés concernées) n'est pas détaillée dans la notice lue."
+      }
+    },
+    {
+      "id": "NG-tradition-festival-sango-oyo",
+      "nom": "Festival de Sango à Oyo",
+      "categorie": "fete",
+      "description": "Le festival de Sango marque en août le début de la nouvelle année traditionnelle yoruba. Il dure dix jours près de l'ancien temple de Koso et commémore Tella-Oko, troisième alaafin d'Oyo, dont on croit qu'il incarne Sango, divinité du tonnerre et de la foudre. Les dévots de Sango y participent avec rites, danses, chants et musiques.",
+      "communautes": [
+        "Yoruba",
+        "dévots de Sango",
+        "palais de l'alaafin d'Oyo"
+      ],
+      "regions": [
+        "Oyo"
+      ],
+      "langues": [
+        "yoruba"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01974",
+        "annee": 2023,
+        "url": "https://ich.unesco.org/en/RL/sango-festival-oyo-01974"
+      },
+      "sensible": true,
+      "note_sensibilite": "Rite religieux vivant : validation par le palais de l'alaafin et les prêtres de Sango avant publication.",
+      "sources": [
+        "S40"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-tradition-kwagh-hir",
+      "nom": "Théâtre kwagh-hir",
+      "categorie": "danse",
+      "description": "Le kwagh-hir est un spectacle composite, à la fois visuel et éducatif, né de la tradition tiv du conte du soir appelée kwagh-alom. Avec le temps, des conteurs ont mis ces récits en scène, avec masques, costumes, marionnettes, danse et musique. L'UNESCO l'a inscrit en 2019 ; ses usages comprennent l'éducation morale et la sensibilisation sociale.",
+      "communautes": [
+        "Tiv"
+      ],
+      "regions": [
+        "Benue"
+      ],
+      "langues": [
+        "tiv"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "00683",
+        "annee": 2019,
+        "url": "https://ich.unesco.org/en/RL/kwagh-hir-theatrical-performance-00683"
+      },
+      "sources": [
+        "S44",
+        "S29"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-tradition-festival-peche-argungu",
+      "nom": "Festival international de pêche et de culture d'Argungu",
+      "categorie": "fete",
+      "description": "Chaque année, des communautés du nord-ouest se retrouvent près de la rivière Matan Fada pour ce festival de quatre jours, entre fin février et mars. Il comprend le kabanci, une série de concours aquatiques (pêche à la main, course de pirogues, capture de canards sauvages), ainsi que de la lutte et de la boxe locales. Hommes et garçons concourent tandis que les femmes les encouragent par des chants et des danses.",
+      "communautes": [
+        "communauté d'Argungu"
+      ],
+      "regions": [
+        "Argungu",
+        "nord-ouest du Nigeria"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "00901",
+        "annee": 2016,
+        "url": "https://ich.unesco.org/en/RL/argungu-international-fishing-and-cultural-festival-00901"
+      },
+      "sources": [
+        "S64"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-tradition-masque-ijele",
+      "nom": "Mascarade ijele",
+      "categorie": "rite",
+      "description": "L'ijele est un masque haut d'environ quatre mètres, porté lors de fêtes, d'enterrements et d'occasions particulières de la saison sèche dans de nombreuses communautés de l'État d'Anambra. Il évoque la fertilité et les bonnes récoltes. Sa construction est considérable : cent hommes y travaillent pendant six mois, sur une armature de bambou habillée de tissus colorés, avec un grand python au centre qui sépare les deux parties du costume.",
+      "communautes": [
+        "Igbo (Anambra)"
+      ],
+      "regions": [
+        "Anambra",
+        "sud-est du Nigeria"
+      ],
+      "langues": [
+        "igbo"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "00194",
+        "annee": 2009,
+        "url": "https://ich.unesco.org/en/RL/ijele-masquerade-00194"
+      },
+      "sensible": true,
+      "note_sensibilite": "Mascarade rituelle : à valider avec les communautés détentrices avant publication.",
+      "sources": [
+        "S41",
+        "S14"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-tradition-gelede",
+      "nom": "Patrimoine oral du Gelede",
+      "categorie": "rite",
+      "description": "Le Gelede est une cérémonie des Yoruba-Nago, répandus au Bénin, au Nigeria et au Togo, qui rend hommage à la Mère primordiale Iyà Nlà et au rôle des femmes dans l'organisation de la société. Elle se tient chaque année après les récoltes, de nuit sur une place publique, avec masques sculptés, danses et chants en yoruba retraçant l'histoire et les mythes. L'UNESCO note que le tourisme et la perte de savoir-faire menacent sa pratique, mais que la communauté reste attachée à sa préservation.",
+      "communautes": [
+        "Yoruba-Nago"
+      ],
+      "regions": [
+        "sud-ouest du Nigeria"
+      ],
+      "nom_local": "Gẹlẹdẹ",
+      "langues": [
+        "yoruba"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "00002",
+        "annee": 2008,
+        "url": "https://ich.unesco.org/en/RL/oral-heritage-of-gelede-00002"
+      },
+      "sensible": true,
+      "note_sensibilite": "Pratique rituelle liée aux mères et aux ancêtres : validation par la communauté requise.",
+      "sources": [
+        "S39",
+        "S11"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Inscrit en 2008 (proclamé en 2001) ; élément partagé avec le Bénin et le Togo."
+      }
+    },
+    {
+      "id": "NG-tradition-divination-ifa",
+      "nom": "Système de divination Ifa",
+      "categorie": "savoir",
+      "description": "La divination Ifa s'appuie sur un vaste corpus de textes, les odu, au nombre de 256, divisés en versets (ese) chantés par les prêtres, les babalawo. Chaque consultation utilise des noix de palme sacrées et une chaîne de divination pour désigner l'odu qui répond à une décision individuelle ou collective. L'UNESCO observe que les jeunes s'en détournent et que l'intolérance envers les divinations traditionnelles grandit.",
+      "communautes": [
+        "Yoruba",
+        "babalawo"
+      ],
+      "regions": [
+        "sud-ouest du Nigeria"
+      ],
+      "nom_local": "Ifá",
+      "langues": [
+        "yoruba"
+      ],
+      "transmission": "fragile",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "00146",
+        "annee": 2008,
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146"
+      },
+      "sensible": true,
+      "note_sensibilite": "Savoir initiatique et religieux : à valider avec des babalawo avant toute publication.",
+      "sources": [
+        "S12"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-tradition-egungun",
+      "nom": "Masques egungun",
+      "categorie": "rite",
+      "description": "Les egungun sont des mascarades yoruba de vénération des ancêtres : l'égúngún est la manifestation visible des esprits des défunts, qui reviennent périodiquement visiter la communauté pour être honorés et la bénir. Le terme couvre de nombreux types de costumes et de masques dont la classification est complexe. Le Met conserve des coiffes egungun en bois.",
+      "communautes": [
+        "Yoruba"
+      ],
+      "regions": [
+        "sud-ouest du Nigeria"
+      ],
+      "langues": [
+        "yoruba"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "wikidata": "Q1299119",
+      "sensible": true,
+      "note_sensibilite": "Culte des ancêtres et masques rituels : validation par les sociétés egungun nécessaire.",
+      "sources": [
+        "S65",
+        "S66"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-tradition-festival-eyo",
+      "nom": "Festival Eyo de Lagos",
+      "categorie": "fete",
+      "description": "Le festival Eyo, ou Adamu Orisha Play, est propre à Lagos et se déroule traditionnellement sur l'île de Lagos. Il met en scène des masques vêtus de blanc qui représentent des esprits de défunts et défilent d'Idumota au palais de Iga Idunganran. À l'origine, il accompagnait l'âme d'un roi ou d'un chef défunt et accueillait le nouveau souverain. Wikipédia rapporte un premier cortège le 20 février 1854 en mémoire de l'oba Akitoye.",
+      "communautes": [
+        "Lagos (Yoruba)"
+      ],
+      "regions": [
+        "Lagos"
+      ],
+      "langues": [
+        "yoruba"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "wikidata": "Q5422961",
+      "sensible": true,
+      "note_sensibilite": "Mascarade liée aux défunts : à relire avec les sociétés eyo de Lagos.",
+      "sources": [
+        "S67"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia) : à compléter par une source institutionnelle."
+      }
+    },
+    {
+      "id": "NG-tradition-adire",
+      "nom": "Textile adire",
+      "categorie": "textile",
+      "description": "L'adire est un textile yoruba en coton teint par réserve : les collections du Metropolitan Museum conservent des pagnes adire du XXe siècle, dont un exemplaire de la moitié du siècle décoré par cire et motifs estampés. Ces pièces portent des noms de techniques comme adire eleko ou adire alabere. Les notices du Met n'en donnent pas l'histoire, qui reste à sourcer.",
+      "communautes": [
+        "Yoruba"
+      ],
+      "regions": [
+        "sud-ouest du Nigeria"
+      ],
+      "langues": [
+        "yoruba"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "wikidata": "Q4682962",
+      "sources": [
+        "S68"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source limitée aux notices du Met : description volontairement prudente, à enrichir."
+      }
+    },
+    {
+      "id": "NG-tradition-aso-oke",
+      "nom": "Tissage aso oke",
+      "categorie": "textile",
+      "description": "L'aso oke (« tissu de l'intérieur ») est une étoffe tissée à la main, apparue chez les Yoruba, utilisée pour les robes agbada, les chapeaux fila, les pagnes et les foulards gele. Elle est le plus souvent tissée par des hommes, avec au moins 150 motifs relevés sur les marchés d'Ibadan et de Lagos en 1978. Iseyin, Oshogbo, Ilorin et Owo comptent parmi ses principaux centres de production.",
+      "communautes": [
+        "Yoruba"
+      ],
+      "regions": [
+        "Iseyin",
+        "Oshogbo",
+        "Ilorin",
+        "Owo"
+      ],
+      "langues": [
+        "yoruba"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "wikidata": "Q4807472",
+      "sources": [
+        "S69",
+        "S70"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-tradition-nsibidi",
+      "nom": "Écriture nsibidi",
+      "categorie": "savoir",
+      "description": "Le nsibidi est un système de symboles ou de proto-écriture créé par les Ejagham de la région de Cross River, au Nigeria et au sud-ouest du Cameroun. On le trouve sur des murs, des calebasses, des métaux, des feuilles, des épées et des tatouages, surtout dans les sociétés Ekpe et Mgbe. Il existait une version sacrée et une version publique, plus décorative, que les femmes pouvaient utiliser.",
+      "communautes": [
+        "Ejagham",
+        "Efik",
+        "Igbo",
+        "Ibibio (sociétés Ekpe/Mgbe)"
+      ],
+      "regions": [
+        "Cross River"
+      ],
+      "transmission": "fragile",
+      "unesco": null,
+      "wikidata": "Q1707730",
+      "sensible": true,
+      "note_sensibilite": "Savoir réservé à des sociétés initiatiques : à valider avec les détenteurs avant publication.",
+      "sources": [
+        "S71"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia, avec des mentions « à clarifier ») : à compléter."
+      }
+    },
+    {
+      "id": "NG-tradition-afrobeat",
+      "nom": "Afrobeat",
+      "categorie": "musique",
+      "description": "L'afrobeat associe musiques yoruba et highlife à des influences américaines de funk, de jazz et de soul. Selon Wikipédia, il a été pionnier à la fin des années 1960 avec Fela Kuti et le batteur Tony Allen. Baker's Biographical Dictionary rappelle que Fela l'a annoncé en 1968 et l'a fait connaître dans son club le Shrine avec son orchestre Africa 70.",
+      "communautes": [
+        "musiciens de Lagos"
+      ],
+      "regions": [
+        "Lagos"
+      ],
+      "langues": [
+        "yoruba",
+        "pidgin nigérian",
+        "anglais"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "wikidata": "Q388296",
+      "sources": [
+        "S72",
+        "S18"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-tradition-juju-fuji",
+      "nom": "Musiques jùjú et fújì",
+      "categorie": "musique",
+      "description": "Le jùjú est une musique populaire yoruba née à Lagos dans les années 1920 avec Tunde King, fondée sur le chant en appel et réponse et des percussions polyrythmiques. Le fújì est apparu dans les années 1960 à partir du wéré, chant qui réveillait les musulmans avant l'aube pendant le ramadan ; Sikiru Ayinde Barrister l'a popularisé et lui a donné son nom. Les deux genres ont nourri la musique populaire nigériane.",
+      "communautes": [
+        "musiciens yoruba"
+      ],
+      "regions": [
+        "Lagos"
+      ],
+      "langues": [
+        "yoruba"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "wikidata": "Q1715700",
+      "sources": [
+        "S73",
+        "S74"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-tradition-nollywood",
+      "nom": "Cinéma de Nollywood",
+      "categorie": "savoir",
+      "description": "Nollywood désigne à l'origine l'industrie du film nigériane, dont le nom est apparu au début des années 2000. Les films produits depuis les années 1990, souvent à petit budget et tournés vite, ont été diffusés par la vidéo et des circuits informels. Living in Bondage (1992), tourné en igbo et produit notamment par Kenneth Nnebue, est crédité d'avoir lancé le mouvement.",
+      "communautes": [
+        "cinéastes et acteurs nigérians"
+      ],
+      "regions": [
+        "tout le pays"
+      ],
+      "langues": [
+        "anglais",
+        "igbo",
+        "yoruba",
+        "haoussa"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "wikidata": "Q21065894",
+      "sources": [
+        "S15"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Catégorie « cinéma » absente de la liste du schéma : rattaché à « savoir » faute de mieux ; langues de production à confirmer (seul l'igbo est cité par la source pour Living in Bondage)."
+      }
+    },
+    {
+      "id": "NG-tradition-fete-ignames-igbo",
+      "nom": "Fêtes de l'igname igbo (Iri ji)",
+      "categorie": "fete",
+      "description": "Les fêtes de l'igname (Iri ji, Iwa ji et d'autres noms) marquent chaque année, à la fin de la saison des pluies en août, la première récolte et remercient pour la bonne année agricole. L'igname est la culture de base des Igbo et une coutume interdit de consommer les nouvelles ignames avant le rite célébré par l'autorité de la communauté. La fête remercie la terre Ala, l'esprit de l'igname, les ancêtres et l'être suprême.",
+      "communautes": [
+        "Igbo"
+      ],
+      "regions": [
+        "sud-est du Nigeria"
+      ],
+      "langues": [
+        "igbo"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "wikidata": "Q17071521",
+      "sensible": true,
+      "note_sensibilite": "Rite agraire et religieux : validation par les communautés conseillée.",
+      "sources": [
+        "S75"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Wikipédia) ; usage de chaque communauté à documenter."
+      }
+    },
+    {
+      "id": "NG-tradition-fonderie-laiton-ivoire-edo",
+      "nom": "Corporations de fonte du laiton et de sculpture de l'ivoire edo",
+      "categorie": "artisanat",
+      "description": "Dans le royaume du Bénin, des corporations d'artisans rattachées au palais, dont celles des fondeurs de laiton (Ìgùn Ẹ́rọ̀nwwọ̀n) et des sculpteurs d'ivoire et de bois (Ìgbèsànmwà), ont produit les célèbres plaques et masques. Encyclopedia.com précise que, selon les traditions orales, ces corporations remontent à l'époque des ogiso. Le Met attribue à ces deux corporations une plaque de laiton et un masque d'ivoire du XVIe siècle.",
+      "communautes": [
+        "Edo"
+      ],
+      "regions": [
+        "Benin City"
+      ],
+      "langues": [
+        "edo"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S24",
+        "S76",
+        "S77"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Orthographe des noms de corporations reprise du Met ; état de la pratique actuelle non documenté dans les sources lues."
+      }
+    },
+    {
+      "id": "NG-tradition-mascarades-ijo",
+      "nom": "Mascarades et danses ijo du delta",
+      "categorie": "danse",
+      "description": "Dans l'est du delta du Niger, des mascarades élaborées sont dansées de façon cyclique pour honorer des héros des villages. Les Ijo célèbrent aussi, dans l'ouest du delta, une fête de printemps qui dure douze jours. Selon Encyclopedia.com, les funérailles de personnes âgées comprennent veillée, mascarade, tambours et danses.",
+      "communautes": [
+        "Ijo"
+      ],
+      "regions": [
+        "delta du Niger",
+        "Bayelsa",
+        "Rivers"
+      ],
+      "langues": [
+        "izon"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sensible": true,
+      "note_sensibilite": "Mascarades liées aux esprits et aux ancêtres : à valider avec les communautés.",
+      "sources": [
+        "S35"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique (Encyclopedia.com, ouvrage ancien) : à actualiser."
+      }
+    },
+    {
+      "id": "NG-tradition-masques-epa",
+      "nom": "Masques casques epa (ekiti)",
+      "categorie": "rite",
+      "description": "Les masques casques epa, aussi appelés elefon, sont de grandes sculptures en bois peint portées sur la tête, surmontées de figures comme une femme ou un cavalier. Le Met en conserve plusieurs, dont certains attribués à la famille Fakeye, sculpteurs. Les notices du Met les situent aux XIXe-XXe siècles chez les Yoruba.",
+      "communautes": [
+        "Yoruba"
+      ],
+      "regions": [
+        "sud-ouest du Nigeria"
+      ],
+      "langues": [
+        "yoruba"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sensible": true,
+      "note_sensibilite": "Masques rituels : usages à décrire avec les communautés ; source limitée aux notices du Met.",
+      "sources": [
+        "S78"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Aucune source lue sur l'usage rituel ; description limitée aux notices."
+      }
+    }
+  ],
+  "personnalites": [
+    {
+      "id": "NG-personnalite-amina",
+      "nom": "Amina de Zazzau",
+      "wikidata": "Q2843390",
+      "description": "Amina est une figure historique du royaume haoussa de Zazzau (Zaria), connue comme guerrière et reine. Selon la tradition rapportée par Encyclopedia.com, elle accède au pouvoir vers 1576 après la mort de son frère Karama et mène des campagnes d'expansion. Sa biographie est mêlée de légendes ; les dates de sa vie varient selon les sources.",
+      "naissance": {
+        "date": "vers 1533",
+        "lieu": "Zazzau (Zaria)"
+      },
+      "deces": {
+        "date": "vers 1610 (Wikipédia) ; vers 1598 (Encyclopedia.com)",
+        "lieu": "Attagara (Wikipédia)"
+      },
+      "roles": [
+        "sarauniya (reine) de Zazzau",
+        "chef de guerre"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XVIe siècle",
+      "sources": [
+        "S79",
+        "S80"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates de naissance et de mort incertaines et divergentes (1610 / 1598) ; statut de reine ou de princesse débattu. À confirmer avec la source académique."
+      }
+    },
+    {
+      "id": "NG-personnalite-idia",
+      "nom": "Idia (Iyoba Idia)",
+      "wikidata": "Q16846394",
+      "description": "Idia fut la première iyoba (mère du roi) du Bénin : elle est la mère de l'oba Esigie, qui régna de 1504 à 1550, et la tradition la décrit comme une cheffe de guerre influente. Elle aurait joué un rôle lors de la guerre contre les Igala de 1515-1516. Un masque pendentif en ivoire du XVIe siècle, conservé au Met, porte son nom, et son visage a servi de symbole au festival FESTAC 77 d'après Wikipédia.",
+      "naissance": {
+        "date": "fin du XVe siècle (vers)",
+        "lieu": "royaume du Bénin"
+      },
+      "deces": {
+        "date": "vers le milieu du XVIe siècle",
+        "lieu": "royaume du Bénin"
+      },
+      "roles": [
+        "première iyoba du Bénin",
+        "reine mère"
+      ],
+      "domaines": [
+        "politique",
+        "guerre"
+      ],
+      "epoque": "XVe-XVIe siècle",
+      "sources": [
+        "S77",
+        "S81",
+        "S82"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates de vie très incertaines (historiens non d'accord, selon Wikipédia). Le lien entre le masque du Met et le personnage repose sur l'intitulé du Met (« Pendant mask of Ìyọ́bà Idià »)."
+      }
+    },
+    {
+      "id": "NG-personnalite-nana-asmau",
+      "nom": "Nana Asma'u",
+      "wikidata": "Q1964420",
+      "description": "Fille d'Usman dan Fodio, Nana Asma'u est une érudite, poétesse et éducatrice peule du califat de Sokoto. Elle maîtrisait le fulfulde, l'arabe et le haoussa, écrits en caractères arabes, et a laissé plus de soixante œuvres. Vers 1830, elle forme des maîtresses itinérantes, les jajis, qui enseignent aux femmes à domicile : c'est le mouvement Yan Taru, qui continue aujourd'hui.",
+      "naissance": {
+        "date": "1793",
+        "lieu": "Degel (califat de Sokoto)"
+      },
+      "deces": {
+        "date": "1864 (ou 1865)",
+        "lieu": "califat de Sokoto"
+      },
+      "roles": [
+        "poétesse",
+        "enseignante",
+        "érudite"
+      ],
+      "domaines": [
+        "savoirs",
+        "littérature",
+        "éducation"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S83",
+        "S84"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de décès donnée comme 1864 (Wikipédia) ou 1864/5 (bibliothèque de Leyde)."
+      }
+    },
+    {
+      "id": "NG-personnalite-funmilayo-ransome-kuti",
+      "nom": "Funmilayo Ransome-Kuti",
+      "wikidata": "Q226122",
+      "description": "Éducatrice et militante, Funmilayo Ransome-Kuti fonde l'Union des femmes d'Abeokuta et défend les droits des femmes, notamment contre des impôts jugés injustes pour les commerçantes. La bibliothèque de Leyde rapporte qu'elle conduit des marches de plusieurs milliers de femmes et qu'elle a obtenu une abdication temporaire de l'alake en 1949. Elle est la mère du musicien Fela Kuti.",
+      "naissance": {
+        "date": "1900-10-25",
+        "lieu": "Abeokuta"
+      },
+      "deces": {
+        "date": "1978-04-13",
+        "lieu": "Lagos"
+      },
+      "roles": [
+        "présidente de l'Union des femmes d'Abeokuta",
+        "enseignante",
+        "militante"
+      ],
+      "domaines": [
+        "politique",
+        "droits des femmes"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S85",
+        "S86"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La page de Leyde reprend le texte de Wikipédia : chercher une source indépendante (UNESCO, Byfield)."
+      }
+    },
+    {
+      "id": "NG-personnalite-margaret-ekpo",
+      "nom": "Margaret Ekpo",
+      "wikidata": "Q1894824",
+      "description": "Margaret Ekpo est une militante des droits des femmes et une femme politique du sud-est du pays, née à Creek Town. Installée à Aba, elle est considérée comme un pilier féminin du parti NCNC dans l'Est. Al Jazeera la montre en 1959 mobilisant des foules de femmes en vue des élections fédérales.",
+      "naissance": {
+        "date": "1914-06-27",
+        "lieu": "Creek Town (Calabar)"
+      },
+      "deces": {
+        "date": "2006-09-21",
+        "lieu": "Calabar"
+      },
+      "roles": [
+        "militante",
+        "responsable politique (NCNC)"
+      ],
+      "domaines": [
+        "politique",
+        "droits des femmes"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S87",
+        "S88"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-personnalite-ladi-kwali",
+      "nom": "Ladi Kwali",
+      "wikidata": "Q16010963",
+      "description": "Ladi Dosei Kwali est une potière gbari du village de Kwali, qui a appris la poterie de sa tante et excellait dans le modelage à la main. Elle a travaillé au centre de formation à la poterie d'Abuja (aujourd'hui à Suleja) et fait connaître des pièces tournées décorées de motifs gbari. Michael Cardew l'emmène en Angleterre en 1962, elle expose à Londres et à Paris, et reçoit en 1965 un prix d'excellence en argent à Washington.",
+      "naissance": {
+        "date": "vers 1925",
+        "lieu": "Kwali"
+      },
+      "deces": {
+        "date": "1984-08-12"
+      },
+      "roles": [
+        "potière",
+        "enseignante"
+      ],
+      "domaines": [
+        "artisanat",
+        "arts"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S89",
+        "S90"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de naissance approximative (1925). Lieu de décès non lu."
+      }
+    },
+    {
+      "id": "NG-personnalite-flora-nwapa",
+      "nom": "Flora Nwapa",
+      "wikidata": "Q5460344",
+      "description": "Flora Nwapa, née à Oguta, est considérée comme l'une des premières femmes africaines noires à écrire en anglais. Son premier roman, Efuru (1966), interroge la place des femmes dans une société patriarcale. Elle a aussi écrit pour la jeunesse et occupé des fonctions éducatives et gouvernementales.",
+      "naissance": {
+        "date": "1931-01-13",
+        "lieu": "Oguta"
+      },
+      "deces": {
+        "date": "1993-10-16",
+        "lieu": "Enugu"
+      },
+      "roles": [
+        "romancière",
+        "éditrice",
+        "administratrice"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S91",
+        "S92"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "EBSCO cite aussi un poste ministériel pendant la guerre ; non repris, car non confirmé ailleurs."
+      }
+    },
+    {
+      "id": "NG-personnalite-buchi-emecheta",
+      "nom": "Buchi Emecheta",
+      "wikidata": "Q461675",
+      "description": "Buchi Emecheta est une romancière d'origine igbo, née près de Lagos et installée à Londres dans les années 1960. Selon Encyclopedia.com, ses romans, souvent autobiographiques et féministes, montrent le choc entre le monde moderne et les valeurs africaines. Elle a publié notamment The Joys of Motherhood (1979).",
+      "naissance": {
+        "date": "1944-07-21",
+        "lieu": "Yaba, près de Lagos (Lagos selon Wikipédia)"
+      },
+      "deces": {
+        "date": "2017-01-25",
+        "lieu": "Londres"
+      },
+      "roles": [
+        "romancière"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S93",
+        "S94"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-personnalite-chimamanda-ngozi-adichie",
+      "nom": "Chimamanda Ngozi Adichie",
+      "wikidata": "Q230141",
+      "description": "Née à Enugu dans une famille igbo et élevée à Nsukka, Chimamanda Ngozi Adichie est romancière et essayiste. Son premier roman, Purple Hibiscus, paraît en 2003, et Half of a Yellow Sun, en 2006, a reçu le Women's Prize for Fiction. Elle est aussi connue pour ses essais, comme We Should All Be Feminists.",
+      "naissance": {
+        "date": "1977-09-15",
+        "lieu": "Enugu"
+      },
+      "roles": [
+        "romancière",
+        "essayiste"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S95",
+        "S96"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Distinctions précises (Orange/Women's Prize, 2007) non reprises faute de source ouverte nominative."
+      }
+    },
+    {
+      "id": "NG-personnalite-ngozi-okonjo-iweala",
+      "nom": "Ngozi Okonjo-Iweala",
+      "wikidata": "Q289350",
+      "description": "Économiste, Ngozi Okonjo-Iweala a été à deux reprises ministre des Finances du Nigeria (2003-2006 et 2011-2015) et brièvement ministre des Affaires étrangères, première femme à occuper ces deux postes. Elle a fait vingt-cinq ans de carrière à la Banque mondiale. Elle est depuis le 1er mars 2021 directrice générale de l'OMC, première femme et première Africaine à ce poste.",
+      "naissance": {
+        "date": "1954-06-13",
+        "lieu": "Ogwashi-Ukwu"
+      },
+      "roles": [
+        "directrice générale de l'OMC",
+        "ministre"
+      ],
+      "domaines": [
+        "économie",
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S97",
+        "S98"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-personnalite-usman-dan-fodio",
+      "nom": "Usman dan Fodio",
+      "wikidata": "Q380452",
+      "description": "Érudit et réformateur musulman né à Maratta, dans le royaume haoussa de Gobir, Usman dan Fodio a étudié le Coran et les sciences islamiques avant de prêcher à Gobir. Son conflit avec le roi aboutit en 1804 à un jihad qui renverse le pouvoir de Gobir en 1808 et fonde le califat de Sokoto, dont il est l'émir al-mu'minin. Il a écrit plus de cent ouvrages.",
+      "naissance": {
+        "date": "1754-12-15",
+        "lieu": "Maratta (Gobir)"
+      },
+      "deces": {
+        "date": "1817-04-20",
+        "lieu": "Sokoto"
+      },
+      "roles": [
+        "fondateur du califat de Sokoto",
+        "théologien"
+      ],
+      "domaines": [
+        "religion",
+        "politique",
+        "savoirs"
+      ],
+      "epoque": "XVIIIe-XIXe siècle",
+      "sources": [
+        "S43",
+        "S99"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Encyclopedia.com donne seulement « 1754-1817 » ; jour et mois de Wikipédia."
+      }
+    },
+    {
+      "id": "NG-personnalite-ovonramwen",
+      "nom": "Ovonramwen",
+      "wikidata": "Q7114198",
+      "description": "Ovonramwen Nogbaisi fut le trente-cinquième oba du Bénin, de 1888 environ à 1897. Après l'expédition britannique de février 1897, il est envoyé en exil à Calabar, où il meurt ; son fils Eweka II est ensuite autorisé à reprendre le trône. L'événement a entraîné le pillage de milliers d'objets de laiton et d'ivoire.",
+      "naissance": {
+        "date": "vers 1857"
+      },
+      "deces": {
+        "date": "vers janvier 1914",
+        "lieu": "Calabar"
+      },
+      "roles": [
+        "oba du Bénin"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S100",
+        "S24",
+        "S49"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates de vie approximatives (Wikipédia). Lieu de naissance non lu."
+      }
+    },
+    {
+      "id": "NG-personnalite-jaja-opobo",
+      "nom": "Jaja d'Opobo",
+      "wikidata": "Q3160600",
+      "description": "Jaja est un marchand d'huile de palme devenu roi d'Opobo, cité qu'il fonde en 1869 après la guerre civile de Bonny. Il contrôle les routes commerciales de la région jusqu'au milieu des années 1880. Déposé par les Britanniques en septembre 1887, il est jugé et exilé aux Antilles ; gracié, il meurt à Tenerife en juillet 1891 en rentrant.",
+      "naissance": {
+        "date": "vers 1821",
+        "lieu": "Umuduruoha, Amaigbo (Wikipédia)"
+      },
+      "deces": {
+        "date": "1891-07-08",
+        "lieu": "Santa Cruz de Tenerife"
+      },
+      "roles": [
+        "roi d'Opobo",
+        "marchand"
+      ],
+      "domaines": [
+        "politique",
+        "commerce",
+        "résistance"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S101",
+        "S102"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le lieu de naissance est un point de Wikipédia non confirmé par la source principale (qui le dit arrivé à Bonny en 1833 enfant)."
+      }
+    },
+    {
+      "id": "NG-personnalite-samuel-ajayi-crowther",
+      "nom": "Samuel Ajayi Crowther",
+      "wikidata": "Q2662556",
+      "description": "Né yoruba, Ajayi Crowther est capturé dans sa jeunesse par des marchands d'esclaves au cours des guerres des années 1820, puis libéré par la marine britannique et mené à Freetown. Il y devient le premier diplômé africain du collège de Fourah Bay et le premier évêque africain de l'Église anglicane. Il a traduit le Nouveau Testament et le Book of Common Prayer en yoruba.",
+      "naissance": {
+        "date": "vers 1809",
+        "lieu": "Osogun (empire d'Oyo)"
+      },
+      "deces": {
+        "date": "1891-12-31",
+        "lieu": "Lagos"
+      },
+      "roles": [
+        "évêque anglican",
+        "linguiste",
+        "missionnaire"
+      ],
+      "domaines": [
+        "religion",
+        "savoirs"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S103",
+        "S104"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance vers 1809 selon Wikipédia ; la page DACB lue ne donne pas de date de naissance."
+      }
+    },
+    {
+      "id": "NG-personnalite-nnamdi-azikiwe",
+      "nom": "Nnamdi Azikiwe",
+      "wikidata": "Q181782",
+      "description": "Né à Zungeru de parents igbo, Nnamdi Azikiwe étudie aux États-Unis, puis devient l'un des principaux dirigeants du NCNC. Il est le premier gouverneur général nigérian à l'indépendance (1960), puis le premier président du Nigeria quand le pays devient une république en 1963, jusqu'au coup d'État du 15 janvier 1966.",
+      "naissance": {
+        "date": "1904-11-16",
+        "lieu": "Zungeru"
+      },
+      "deces": {
+        "date": "1996-05-11",
+        "lieu": "Enugu"
+      },
+      "roles": [
+        "premier président du Nigeria",
+        "nationaliste"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S105",
+        "S106"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-personnalite-chinua-achebe",
+      "nom": "Chinua Achebe",
+      "wikidata": "Q155845",
+      "description": "Né à Ogidi, Chinua Achebe publie en 1958 Things Fall Apart, roman central de la littérature africaine. La Poetry Foundation rappelle qu'il a voulu raconter les histoires des peuples africains, en particulier de la civilisation igbo. Il a travaillé à la radio nigériane puis comme professeur, notamment à l'université Brown.",
+      "naissance": {
+        "date": "1930-11-16",
+        "lieu": "Ogidi"
+      },
+      "deces": {
+        "date": "2013-03-21",
+        "lieu": "Boston (États-Unis)"
+      },
+      "roles": [
+        "romancier",
+        "critique littéraire",
+        "professeur"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S107",
+        "S108"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-personnalite-wole-soyinka",
+      "nom": "Wole Soyinka",
+      "wikidata": "Q41488",
+      "description": "Né à Abeokuta dans une famille yoruba, Wole Soyinka est dramaturge, poète et romancier. Le comité Nobel le décrit comme écrivant en anglais avec des racines dans les légendes et traditions yoruba. Il reçoit le prix Nobel de littérature en 1986 ; ses critiques des régimes nigérians l'ont conduit à vivre longtemps à l'étranger.",
+      "naissance": {
+        "date": "1934-07-13",
+        "lieu": "Abeokuta"
+      },
+      "roles": [
+        "dramaturge",
+        "poète",
+        "romancier"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S109",
+        "S110"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-personnalite-fela-kuti",
+      "nom": "Fela Kuti",
+      "wikidata": "Q313868",
+      "description": "Musicien, chef d'orchestre et militant, Fela Kuti est le pionnier de l'afrobeat, mélange de highlife, de jazz et de funk qu'il présente à partir de 1968. Il critique dans ses chansons la corruption des politiques et la brutalité des militaires. Sa maison de Lagos, la Kalakuta Republic, est attaquée en 1977, et sa mère Funmilayo y est blessée.",
+      "naissance": {
+        "date": "1938-10-15",
+        "lieu": "Abeokuta"
+      },
+      "deces": {
+        "date": "1997-08-02",
+        "lieu": "Lagos"
+      },
+      "roles": [
+        "musicien",
+        "chef d'orchestre",
+        "militant"
+      ],
+      "domaines": [
+        "musique",
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S18",
+        "S111"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Encyclopedia.com écrit que sa mère, qu'il dit âgée de 82 ans, a été jetée par une fenêtre ; Leyde la dit morte à 77 ans après avoir été blessée : détails contradictoires, formulation prudente retenue."
+      },
+      "sensible": true,
+      "note_sensibilite": "Violences de 1977 contre sa famille : formuler avec prudence."
+    },
+    {
+      "id": "NG-personnalite-ben-enwonwu",
+      "nom": "Ben Enwonwu",
+      "wikidata": "Q4885605",
+      "description": "Peintre et sculpteur né à Onitsha, fils d'un sculpteur traditionnel de masques, Ben Enwonwu étudie aux collèges de Government (Ibadan, Umuahia) puis à la Slade School of Fine Art de Londres. Il reçoit l'MBE en 1954 et est considéré comme l'un des artistes africains les plus influents du XXe siècle.",
+      "naissance": {
+        "date": "1917-07-14",
+        "lieu": "Onitsha"
+      },
+      "deces": {
+        "date": "1994-02-05",
+        "lieu": "Lagos (Ikoyi)"
+      },
+      "roles": [
+        "peintre",
+        "sculpteur"
+      ],
+      "domaines": [
+        "arts"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S112",
+        "S113"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La page de Leyde reprend le texte de Wikipédia : chercher une source indépendante."
+      }
+    },
+    {
+      "id": "NG-personnalite-ken-saro-wiwa",
+      "nom": "Ken Saro-Wiwa",
+      "wikidata": "Q316292",
+      "description": "Écrivain et producteur de télévision né à Bori, Ken Saro-Wiwa préside le Mouvement pour la survie du peuple ogoni (MOSOP), qui défend les droits et l'environnement des Ogoni du delta du Niger face à l'exploitation pétrolière. Arrêté en 1994, il est condamné en 1995 par un tribunal militaire et exécuté le 10 novembre 1995, procès jugé frauduleux par de nombreux gouvernements et organisations selon la fondation Goldman.",
+      "naissance": {
+        "date": "1941-10-10",
+        "lieu": "Bori"
+      },
+      "deces": {
+        "date": "1995-11-10",
+        "lieu": "Port Harcourt"
+      },
+      "roles": [
+        "écrivain",
+        "militant écologiste",
+        "président du MOSOP"
+      ],
+      "domaines": [
+        "littérature",
+        "résistance",
+        "environnement"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S114",
+        "S115"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Sujet sensible (exécution, conflit pétrolier) : présentation à relire."
+      },
+      "sensible": true,
+      "note_sensibilite": "Exécution et conflit pétrolier ogoni : présentation neutre, sources à relire."
+    },
+    {
+      "id": "NG-personnalite-hakeem-olajuwon",
+      "nom": "Hakeem Olajuwon",
+      "wikidata": "Q273256",
+      "description": "Né à Lagos, Hakeem Olajuwon part aux États-Unis jouer pour l'université de Houston, puis joue l'essentiel de sa carrière aux Houston Rockets. Il est deux fois champion NBA, MVP en 1994 et fait partie du Hall of Fame du basket depuis 2008. Il a aussi fait partie de l'équipe américaine championne olympique en 1996.",
+      "naissance": {
+        "date": "1963-01-21",
+        "lieu": "Lagos"
+      },
+      "roles": [
+        "basketteur"
+      ],
+      "domaines": [
+        "sport"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S116",
+        "S117"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "evenements": [
+    {
+      "id": "NG-evenement-nok",
+      "titre": "Culture nok",
+      "date": "-000899-01-01",
+      "date_affichee": "vers 900 av. J.-C. - vers 200 apr. J.-C.",
+      "precision": "siecle",
+      "description": "La culture nok, sur le plateau de Jos, est l'une des premières sociétés complexes connues d'Afrique de l'Ouest. Archaeology la place d'au moins 900 av. J.-C. jusqu'à environ 200 de notre ère. Ses terres cuites comptent parmi les objets les plus emblématiques de l'Afrique ancienne.",
+      "fin": "0200-12-31",
+      "regions": [
+        "plateau de Jos",
+        "Nigeria central"
+      ],
+      "sources": [
+        "S60"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikipédia en français place le début de la culture vers 1500 av. J.-C. : datations débattues."
+      }
+    },
+    {
+      "id": "NG-evenement-fagg-nok",
+      "titre": "Bernard Fagg découvre les terres cuites nok",
+      "date": "1943-01-01",
+      "date_affichee": "1943",
+      "precision": "annee",
+      "description": "En 1943, l'archéologue britannique Bernard Fagg reçoit à Jos une tête en terre cuite trouvée sur un épouvantail dans un champ d'ignames. Il parcourt le centre du pays et rassemble près de deux cents terres cuites, par achats et fouilles. Ces recherches donnent à la culture nok son nom.",
+      "acteurs": [
+        "Bernard Fagg"
+      ],
+      "regions": [
+        "Jos"
+      ],
+      "sources": [
+        "S60"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-evenement-taruga-fer",
+      "titre": "Fourneaux de Taruga",
+      "date": "-000279-01-01",
+      "date_affichee": "vers 280 av. J.-C. (dates au radiocarbone)",
+      "precision": "siecle",
+      "description": "À Taruga, Fagg met au jour treize fourneaux de fonte du fer, associés à des figurines nok. Les datations du charbon des fourneaux remontent jusqu'à 280 av. J.-C., ce qui donnait alors les plus anciennes dates connues de fonte du fer en Afrique subsaharienne. Archaeology rappelle que plusieurs autres sites concurrents sont apparus depuis.",
+      "regions": [
+        "Taruga"
+      ],
+      "sources": [
+        "S60"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-evenement-ife-apogee",
+      "titre": "Apogée d'Ife",
+      "date": "1100-01-01",
+      "date_affichee": "XIIe-XIVe siècle",
+      "precision": "siecle",
+      "description": "Selon Encyclopedia.com, forge et agriculture sont attestées à Ife dès le IXe siècle, et la ville atteint son sommet artistique et politique entre les XIIe et XIVe siècles. Elle est mythologisée comme le berceau des peuples yoruba. Le Met conserve une tête en stéatite yoruba datée du XIIe au XVe siècle.",
+      "fin": "1399-12-31",
+      "regions": [
+        "Ile-Ife"
+      ],
+      "sources": [
+        "S11",
+        "S118"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de début arbitraire (siècle)."
+      }
+    },
+    {
+      "id": "NG-evenement-igbo-ukwu-1938",
+      "titre": "Premières découvertes d'Igbo-Ukwu",
+      "date": "1938-01-01",
+      "date_affichee": "1938",
+      "precision": "annee",
+      "description": "En 1938, Isaiah Anozie découvre en creusant une citerne dans son enclos à Igbo-Ukwu les premiers objets métalliques. Un officier administratif de district achète plusieurs bronzes. Ces trouvailles mèneront aux fouilles de Thurstan Shaw plus de vingt ans plus tard.",
+      "acteurs": [
+        "Isaiah Anozie",
+        "Thurstan Shaw"
+      ],
+      "regions": [
+        "Igbo-Ukwu"
+      ],
+      "sources": [
+        "S61"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-evenement-igbo-ukwu-fouilles",
+      "titre": "Fouilles de Thurstan Shaw à Igbo-Ukwu",
+      "date": "1959-11-01",
+      "date_affichee": "novembre 1959 - février 1960",
+      "precision": "mois",
+      "description": "De novembre 1959 à février 1960, Thurstan Shaw fouille les enclos de Isaiah et Richard Anozie. Il publie les résultats en 1970 et retient une date du IXe siècle, encore la plus citée bien que la chronologie ait été discutée depuis. Le colloque « Igbo-Ukwu at 50 » (2021) a fait le point sur les recherches récentes.",
+      "fin": "1960-02-28",
+      "acteurs": [
+        "Thurstan Shaw"
+      ],
+      "regions": [
+        "Igbo-Ukwu"
+      ],
+      "sources": [
+        "S61"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-evenement-royaume-benin",
+      "titre": "Naissance du royaume du Bénin (Edo)",
+      "date": "1180-01-01",
+      "date_affichee": "vers 1180",
+      "precision": "siecle",
+      "description": "Wikipédia date de 1180 le remplacement de la dynastie des ogiso par celle des oba au royaume du Bénin. Encyclopedia.com cite les datations de Connah à Benin City (1180±100 à 1310±100) et note qu'une population organisée existait avant la fin du XVe siècle. Le royaume atteint son apogée aux XVe et XVIe siècles.",
+      "regions": [
+        "Benin City"
+      ],
+      "sources": [
+        "S48",
+        "S24"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date approximative ; deux sources de natures différentes."
+      }
+    },
+    {
+      "id": "NG-evenement-sefuwa-bornou",
+      "titre": "Les Sefuwa s'établissent au Bornou",
+      "date": "1300-01-01",
+      "date_affichee": "XIVe siècle",
+      "precision": "siecle",
+      "description": "Après une guerre civile, la dynastie des Sefuwa quitte le Kanem au XIVe siècle. Après près d'un siècle de luttes internes, elle fonde un nouvel empire au sud-ouest du lac Tchad, connu sous le nom de Bornou. Les Kanouri sont les descendants de cette dynastie, selon Encyclopedia.com.",
+      "regions": [
+        "Borno",
+        "lac Tchad"
+      ],
+      "sources": [
+        "S22"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-evenement-empire-oyo",
+      "titre": "Empire d'Oyo",
+      "date": "1300-01-01",
+      "date_affichee": "vers 1300 - vers 1836",
+      "precision": "siecle",
+      "description": "L'empire d'Oyo, grand État yoruba, a existé d'environ 1300 à environ 1836 selon Wikipédia, avec pour capitale principale Oyo-Ile. Encyclopedia.com note qu'Oyo décline à la fin du XVIIIe et au début du XIXe siècle tandis que de nouveaux États comme Ibadan et Egba apparaissent. Le site d'Old Oyo figure sur la liste indicative du patrimoine mondial.",
+      "fin": "1836-12-31",
+      "regions": [
+        "Oyo"
+      ],
+      "sources": [
+        "S52",
+        "S11",
+        "S51"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Bornes de Wikipédia (approximatives) ; la date de fin diffère selon les historiens."
+      }
+    },
+    {
+      "id": "NG-evenement-jihad-sokoto",
+      "titre": "Jihad d'Usman dan Fodio et califat de Sokoto",
+      "date": "1804-01-01",
+      "date_affichee": "1804-1808",
+      "precision": "annee",
+      "description": "En 1804, le conflit entre la communauté d'Usman dan Fodio et le roi de Gobir tourne à la confrontation militaire. Le jihad vainc le roi de Gobir en 1808 et conquiert presque tous les autres États haoussa, établissant le califat de Sokoto. Usman en devient l'émir al-mu'minin.",
+      "fin": "1808-12-31",
+      "acteurs": [
+        "Usman dan Fodio"
+      ],
+      "regions": [
+        "Gobir",
+        "Sokoto"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Mémoire religieuse et politique : présenter les points de vue des communautés concernées.",
+      "sources": [
+        "S43"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-evenement-lagos-1851",
+      "titre": "Bombardement de Lagos et consulat britannique",
+      "date": "1851-01-01",
+      "date_affichee": "1851",
+      "precision": "annee",
+      "description": "En 1851, le roi Kosoko de Lagos est déposé et un consulat britannique est établi sur l'île, selon le Horniman Museum. L'épisode ouvre la voie à l'annexion de 1861.",
+      "acteurs": [
+        "Kosoko"
+      ],
+      "regions": [
+        "Lagos"
+      ],
+      "sources": [
+        "S5",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-evenement-lagos-1861",
+      "titre": "Cession de Lagos à la Grande-Bretagne",
+      "date": "1861-01-01",
+      "date_affichee": "1861",
+      "precision": "annee",
+      "description": "En 1861, Lagos devient la première colonie britannique sur le territoire du futur Nigeria, à la suite d'un traité de cession dont l'efficacité a été discutée. Les protestations s'apaisent après que le gouverneur a braqué les canons de son navire sur la ville.",
+      "regions": [
+        "Lagos"
+      ],
+      "sources": [
+        "S5",
+        "S119",
+        "S11"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-evenement-berlin-1884",
+      "titre": "Conférence de Berlin",
+      "date": "1884-01-01",
+      "date_affichee": "1884-1885",
+      "precision": "annee",
+      "description": "La conférence de Berlin de 1884-1885 a confirmé en droit international les traités de la Royal Niger Company le long du fleuve, sans la présence de représentants africains. Le Horniman précise que la Compagnie ne possédait pas pour autant l'ensemble du territoire, plus vaste, de l'arrière-pays.",
+      "fin": "1885-12-31",
+      "acteurs": [
+        "Royal Niger Company"
+      ],
+      "regions": [
+        "fleuve Niger"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-evenement-jaja-1887",
+      "titre": "Déposition et exil de Jaja d'Opobo",
+      "date": "1887-09-19",
+      "date_affichee": "19 septembre 1887",
+      "precision": "jour",
+      "description": "Le 19 septembre 1887, le roi Jaja d'Opobo est déposé pour avoir gêné l'expansion commerciale et politique britannique. Emmené à Accra, il est jugé le 29 novembre, déclaré coupable le 1er décembre et exilé aux Antilles. Il meurt à Tenerife le 8 juillet 1891 sur le chemin du retour.",
+      "fin": "1891-07-08",
+      "acteurs": [
+        "Jaja d'Opobo"
+      ],
+      "regions": [
+        "Opobo"
+      ],
+      "sources": [
+        "S101"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-evenement-benin-1897",
+      "titre": "Expédition britannique contre Benin City",
+      "date": "1897-02-09",
+      "date_affichee": "9-18 février 1897",
+      "precision": "jour",
+      "description": "En février 1897, une force britannique prend Benin City et incendie la ville, emportant des milliers de sculptures de laiton et d'ivoire. L'oba Ovonramwen est envoyé en exil et le royaume est incorporé au protectorat. La question de la restitution des objets reste aujourd'hui ouverte.",
+      "fin": "1897-02-18",
+      "acteurs": [
+        "Ovonramwen"
+      ],
+      "regions": [
+        "Benin City"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Pillage colonial et restitutions : sujet débattu, présenter les positions des institutions et des Edo.",
+      "sources": [
+        "S49",
+        "S24"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates 9-18 février d'après l'infobox de Wikipédia ; la page du British Museum n'a pu être ouverte."
+      }
+    },
+    {
+      "id": "NG-evenement-protectorats-1900",
+      "titre": "Création des protectorats du Nord et du Sud",
+      "date": "1900-01-01",
+      "date_affichee": "1900",
+      "precision": "annee",
+      "description": "En 1900, des gouvernements de protectorat sont établis dans le Nord et le Sud, ainsi que pour la colonie de Lagos, après le retrait de la Royal Niger Company contre une indemnité. Des conquêtes se poursuivent jusqu'en 1906.",
+      "regions": [
+        "Nord",
+        "Sud"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-evenement-amalgamation-1914",
+      "titre": "Amalgamation des protectorats",
+      "date": "1914-01-01",
+      "date_affichee": "1er janvier 1914",
+      "precision": "jour",
+      "description": "Le 1er janvier 1914, Lord Lugard signe le document qui réunit le protectorat du Nord et la colonie et protectorat du Sud en une colonie et protectorat du Nigeria. La cérémonie de Lagos a lieu à 9 h au palais de justice. Les divisions régionales de cette création pèsent encore sur le pays.",
+      "acteurs": [
+        "Lord Lugard"
+      ],
+      "regions": [
+        "Lagos"
+      ],
+      "sources": [
+        "S5",
+        "S119"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-evenement-guerre-femmes-1929",
+      "titre": "Guerre des femmes (Ogu Umunwaanyi)",
+      "date": "1929-01-01",
+      "date_affichee": "fin 1929",
+      "precision": "annee",
+      "description": "À la fin de 1929, des milliers de femmes igbo se soulèvent contre l'autorité britannique, déclenchée par une nouvelle taxe sur leurs activités commerciales, notamment l'huile de palme. Elles « s'assoient sur » les chefs nommés par les Britanniques et attaquent des tribunaux indigènes. L'armée tire sur les foules, dont à Opobo le 16 décembre (18 femmes tuées) ; le système des chefs mandatés est réformé et la taxe abolie.",
+      "acteurs": [
+        "femmes igbo et ibibio",
+        "chefs mandatés"
+      ],
+      "regions": [
+        "Aba",
+        "Oloko",
+        "Opobo"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Violences coloniales : bilan total de victimes non fixé dans les sources lues.",
+      "sources": [
+        "S120",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le bilan total varie selon les sources ; non repris."
+      }
+    },
+    {
+      "id": "NG-evenement-greve-1945",
+      "titre": "Grève générale et grève des commerçantes",
+      "date": "1945-01-01",
+      "date_affichee": "1945",
+      "precision": "annee",
+      "description": "En 1945, deux mouvements non autorisés secouent le pays : la grève des commerçantes contre des contrôles de prix injustes, puis la première grève générale du Congrès syndical nigérian pour une prime de vie chère. Ils précèdent l'essor des revendications d'indépendance après la guerre.",
+      "regions": [
+        "Lagos"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-evenement-enahoro-1953",
+      "titre": "Motion Enahoro pour l'autonomie",
+      "date": "1953-01-01",
+      "date_affichee": "1953",
+      "precision": "annee",
+      "description": "En 1953, le journaliste Anthony Enahoro présente au Parlement une motion pour l'autonomie. Elle est rejetée, mais elle ouvre le compte à rebours vers l'indépendance. En 1957 puis 1959, la discussion aboutit à la fixation du 1er octobre 1960.",
+      "acteurs": [
+        "Anthony Enahoro"
+      ],
+      "regions": [
+        "Lagos"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-evenement-independance-1960",
+      "titre": "Indépendance du Nigeria",
+      "date": "1960-10-01",
+      "date_affichee": "1er octobre 1960",
+      "precision": "jour",
+      "description": "Le 1er octobre 1960, le Nigeria devient indépendant. Le drapeau britannique est abaissé et le drapeau nigérian, conçu par Michael Akinkunmi, est hissé sur l'hippodrome de Lagos. Abubakar Tafawa Balewa est premier ministre et Nnamdi Azikiwe gouverneur général.",
+      "acteurs": [
+        "Abubakar Tafawa Balewa",
+        "Nnamdi Azikiwe"
+      ],
+      "regions": [
+        "Lagos"
+      ],
+      "sources": [
+        "S5",
+        "S105"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-evenement-republique-1963",
+      "titre": "Proclamation de la République",
+      "date": "1963-10-01",
+      "date_affichee": "1er octobre 1963",
+      "precision": "jour",
+      "description": "Le 1er octobre 1963, le Nigeria devient une république et Nnamdi Azikiwe en est le premier président, fonction qu'il occupe jusqu'au coup d'État du 15 janvier 1966.",
+      "acteurs": [
+        "Nnamdi Azikiwe"
+      ],
+      "sources": [
+        "S105"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-evenement-coup-1966",
+      "titre": "Coup d'État du 15 janvier 1966",
+      "date": "1966-01-15",
+      "date_affichee": "15 janvier 1966",
+      "precision": "jour",
+      "description": "Le 15 janvier 1966, des officiers, surtout igbo, renversent le premier gouvernement civil. Vingt-deux responsables politiques et militaires meurent, en majorité du Nord, dont le Premier ministre Tafawa Balewa et le premier ministre du Nord Ahmadu Bello. Le pouvoir est remis au général Ironsi, et un contre-coup a lieu en juillet.",
+      "acteurs": [
+        "Johnson Aguiyi-Ironsi"
+      ],
+      "regions": [
+        "Nigeria"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement politique très discuté : présenter les points de vue des parties.",
+      "sources": [
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Les positions de l'ONU n'ont pas été consultées."
+      }
+    },
+    {
+      "id": "NG-evenement-guerre-biafra",
+      "titre": "Guerre civile nigériane (guerre du Biafra)",
+      "date": "1967-07-01",
+      "date_affichee": "juillet 1967 - 15 janvier 1970",
+      "precision": "mois",
+      "description": "À la suite des coups d'État et des violences de 1966, la région Est, à majorité igbo, proclame son indépendance sous le nom de Biafra, avec le colonel Ojukwu à sa tête. Le gouvernement fédéral, dirigé par le général Gowon, déclare la guerre pour préserver l'unité du pays. Le conflit dure jusqu'au 15 janvier 1970 ; le blocus fédéral cause la famine de plus d'un million de civils biafrais selon l'historien cité.",
+      "fin": "1970-01-15",
+      "acteurs": [
+        "gouvernement fédéral (Gowon)",
+        "Biafra (Ojukwu)"
+      ],
+      "regions": [
+        "Est du Nigeria",
+        "Port Harcourt"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Conflit et mémoire encore disputés : présentation neutre, positions des parties à documenter ; l'ONU n'a pas été consultée.",
+      "sources": [
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Seule source de fond lue : un article universitaire ; à compléter."
+      }
+    },
+    {
+      "id": "NG-evenement-festac-1977",
+      "titre": "FESTAC 77",
+      "date": "1977-01-15",
+      "date_affichee": "15 janvier - 12 février 1977",
+      "precision": "jour",
+      "description": "Le Second Festival mondial des arts et de la culture noirs et africains se tient à Lagos du 15 janvier au 12 février 1977, après Dakar (1966) et Alger (1969). Il réunit des artistes de toute l'Afrique et de ses diasporas et marque, selon la Tate, un tournant de la conscience noire mondiale. Il laisse à Lagos le Théâtre national d'Iganmu et Festac Village.",
+      "fin": "1977-02-12",
+      "regions": [
+        "Lagos"
+      ],
+      "sources": [
+        "S82",
+        "S121"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-evenement-kalakuta-1977",
+      "titre": "Attaque contre la Kalakuta Republic",
+      "date": "1977-01-01",
+      "date_affichee": "1977",
+      "precision": "annee",
+      "description": "En 1977, les militaires attaquent le domicile et le studio de Fela Kuti à Lagos, qu'il appelait la Kalakuta Republic. Fela est battu et la maison incendiée ; sa mère, Funmilayo Ransome-Kuti, est blessée. Fela part ensuite en exil au Ghana.",
+      "acteurs": [
+        "Fela Kuti",
+        "armée nigériane"
+      ],
+      "regions": [
+        "Lagos"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Violences d'État contre une famille : formuler avec prudence.",
+      "sources": [
+        "S18",
+        "S85"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Âge de la mère contradictoire entre sources (82 ou 77 ans)."
+      }
+    },
+    {
+      "id": "NG-evenement-soyinka-nobel",
+      "titre": "Prix Nobel de littérature de Wole Soyinka",
+      "date": "1986-01-01",
+      "date_affichee": "1986",
+      "precision": "annee",
+      "description": "En 1986, Wole Soyinka reçoit le prix Nobel de littérature. Le comité salue un auteur qui « dans une large perspective culturelle et avec des accents poétiques façonne le drame de l'existence » (traduction libre de la motivation officielle).",
+      "acteurs": [
+        "Wole Soyinka"
+      ],
+      "sources": [
+        "S109"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Motivation lue sur NobelPrize.org ; date exacte de la cérémonie non lue."
+      }
+    },
+    {
+      "id": "NG-evenement-abuja-1991",
+      "titre": "Abuja devient la capitale",
+      "date": "1991-12-12",
+      "date_affichee": "12 décembre 1991",
+      "precision": "jour",
+      "description": "Le 12 décembre 1991, Abuja remplace Lagos, la ville la plus peuplée du pays, comme capitale du Nigeria.",
+      "regions": [
+        "Abuja"
+      ],
+      "sources": [
+        "S122"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-evenement-saro-wiwa-1995",
+      "titre": "Exécution de Ken Saro-Wiwa",
+      "date": "1995-11-10",
+      "date_affichee": "10 novembre 1995",
+      "precision": "jour",
+      "description": "Le 10 novembre 1995, Ken Saro-Wiwa et huit autres coaccusés sont exécutés après un procès devant un tribunal militaire que de nombreux gouvernements et organisations ont jugé frauduleux, d'après la fondation Goldman. Il présidait le MOSOP, mouvement pacifique des Ogoni pour leurs droits et l'environnement.",
+      "acteurs": [
+        "Ken Saro-Wiwa",
+        "MOSOP"
+      ],
+      "regions": [
+        "Ogoniland",
+        "delta du Niger"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Conflit pétrolier et exécution : présentation neutre et sourcée.",
+      "sources": [
+        "S114"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Nombre de condamnés repris tel que lu (« huit autres coaccusés ») sur une page tronquée : à confirmer."
+      }
+    },
+    {
+      "id": "NG-evenement-sukur-1999",
+      "titre": "Sukur inscrit au patrimoine mondial",
+      "date": "1999-01-01",
+      "date_affichee": "1999",
+      "precision": "annee",
+      "description": "Le paysage culturel de Sukur est inscrit sur la Liste du patrimoine mondial de l'UNESCO en 1999. Il est, avec Osun-Oshogbo (2005), l'un des deux sites nigérians inscrits.",
+      "regions": [
+        "Sukur"
+      ],
+      "sources": [
+        "S46",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "« Premier site » déduit de l'ordre des années (1999 puis 2005)."
+      }
+    },
+    {
+      "id": "NG-evenement-democratie-1999",
+      "titre": "Retour à un pouvoir civil",
+      "date": "1999-05-29",
+      "date_affichee": "29 mai 1999",
+      "precision": "jour",
+      "description": "Le 29 mai 1999, Olusegun Obasanjo prête serment comme président élu, mettant fin à plusieurs décennies de régimes militaires commencées en 1966 et interrompues seulement par la brève démocratie de 1979 à 1983. La date est devenue la Journée de la démocratie.",
+      "acteurs": [
+        "Olusegun Obasanjo"
+      ],
+      "sources": [
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-evenement-osun-2005",
+      "titre": "Osun-Oshogbo inscrite au patrimoine mondial",
+      "date": "2005-01-01",
+      "date_affichee": "2005",
+      "precision": "annee",
+      "description": "La forêt sacrée d'Osun-Oshogbo est inscrite au patrimoine mondial de l'UNESCO en 2005, comme témoignage de la coutume yoruba des bois sacrés établis hors des habitations.",
+      "regions": [
+        "Oshogbo"
+      ],
+      "sources": [
+        "S45",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-evenement-okonjo-omc-2021",
+      "titre": "Ngozi Okonjo-Iweala prend la tête de l'OMC",
+      "date": "2021-03-01",
+      "date_affichee": "1er mars 2021",
+      "precision": "jour",
+      "description": "Le 1er mars 2021, Ngozi Okonjo-Iweala devient directrice générale de l'Organisation mondiale du commerce, première femme et première Africaine à ce poste. Son premier mandat va jusqu'au 31 août 2025 et son deuxième commence le 1er septembre 2025.",
+      "acteurs": [
+        "Ngozi Okonjo-Iweala"
+      ],
+      "sources": [
+        "S97"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-evenement-durbar-unesco-2024",
+      "titre": "Le durbar de Kano inscrit à l'UNESCO",
+      "date": "2024-01-01",
+      "date_affichee": "2024",
+      "precision": "annee",
+      "description": "En 2024, le durbar de Kano est inscrit sur la Liste représentative du patrimoine culturel immatériel de l'humanité (19e session du Comité).",
+      "regions": [
+        "Kano"
+      ],
+      "sources": [
+        "S42"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Rang parmi les éléments nigérians non affirmé."
+      }
+    }
+  ],
+  "oeuvres": [
+    {
+      "id": "NG-oeuvre-masque-idia-met",
+      "titre": "Masque pendentif de l'iyoba Idia",
+      "type": "sculpture",
+      "description": "Ce masque pendentif en ivoire, fer, laiton et charbon est daté du XVIe siècle et attribué à des artistes de la corporation edo des sculpteurs d'ivoire et de bois (Ìgbèsànmwà). Il mesure environ 24 cm de haut. Le Met le désigne comme masque de l'iyoba Idia, la mère de l'oba.",
+      "communaute": "Edo",
+      "createur": "corporation edo Ìgbèsànmwà (selon le Met)",
+      "periode": "XVIe siècle",
+      "materiaux": [
+        "ivoire",
+        "fer",
+        "laiton"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1978.412.323",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/318622",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici.",
+      "sources": [
+        "S77"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Description tirée de la notice (API Open Access) ; page web du Met non ouverte (accès bloqué)."
+      }
+    },
+    {
+      "id": "NG-oeuvre-plaque-poisson-met",
+      "titre": "Plaque au poisson-chat (mudfish)",
+      "type": "sculpture",
+      "description": "Plaque de laiton du royaume du Bénin datée d'environ 1540-1570, attribuée par le Met à la corporation des fondeurs de laiton (Ìgùn Ẹ́rọ̀nwwọ̀n). Le poisson-chat figure sur la plaque. Ces plaques ornaient le palais de Benin City.",
+      "communaute": "Edo",
+      "createur": "corporation edo Ìgùn Ẹ́rọ̀nwwọ̀n (selon le Met)",
+      "periode": "vers 1540-1570",
+      "materiaux": [
+        "laiton"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1991.17.15",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/316488",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici.",
+      "sources": [
+        "S76"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La fonction des plaques (décor du palais) provient d'Encyclopedia.com (palais décoré de laiton) et non de la notice du Met."
+      }
+    },
+    {
+      "id": "NG-oeuvre-tete-yoruba-met",
+      "titre": "Tête de figure en stéatite",
+      "type": "sculpture",
+      "description": "Cette tête de figure yoruba en stéatite (schiste) mesure environ 28,6 cm de haut. Le Met la date du XIIe au XVe siècle, soit la période d'apogée d'Ife selon Encyclopedia.com. Elle est un exemple de sculpture ancienne yoruba.",
+      "communaute": "Yoruba",
+      "periode": "XIIe-XVe siècle",
+      "materiaux": [
+        "stéatite (schiste)"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1979.206.296",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/312519",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici.",
+      "sources": [
+        "S118",
+        "S11"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-oeuvre-masque-gelede-met",
+      "titre": "Masque casque Gelede",
+      "type": "masque",
+      "description": "Masque casque en bois peint attribué aux Yoruba et daté des XIXe-XXe siècles. Il appartient à la tradition des masques du Gelede, cérémonie inscrite en 2008 sur la liste représentative de l'UNESCO.",
+      "communaute": "Yoruba",
+      "periode": "XIXe-XXe siècle",
+      "materiaux": [
+        "bois",
+        "pigment"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1983.603.6",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/314327",
+      "droits": "Notice du Metropolitan Museum of Art ; objet non versé au domaine public : image non reproduite.",
+      "sensible": true,
+      "note_sensibilite": "Masque rituel : présenter avec l'accord des communautés.",
+      "sources": [
+        "S123",
+        "S39"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-oeuvre-masque-epa-met",
+      "titre": "Masque casque epa (figure féminine)",
+      "type": "masque",
+      "description": "Masque casque en bois peint, haut d'environ 80 cm, attribué à la famille Fakeye et daté des XIXe-XXe siècles. Les notices du Met le rangent parmi les masques epa ou elefon des Yoruba.",
+      "communaute": "Yoruba (famille Fakeye)",
+      "periode": "XIXe-XXe siècle",
+      "materiaux": [
+        "bois",
+        "pigment"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1978.412.399",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/310061",
+      "droits": "Notice du Metropolitan Museum of Art ; objet non versé au domaine public : image non reproduite.",
+      "sensible": true,
+      "note_sensibilite": "Masque rituel : usages à valider avec les communautés.",
+      "sources": [
+        "S78"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-oeuvre-ibeji-met",
+      "titre": "Figure de jumeaux ibeji",
+      "type": "sculpture",
+      "description": "Figure en bois, cauris, cordon, perles et clochettes de bronze, haute d'environ 23 cm, attribuée aux Yoruba et datée des XIXe-XXe siècles. Les ibeji sont des figures de jumeaux, d'après l'intitulé de la notice.",
+      "communaute": "Yoruba",
+      "periode": "XIXe-XXe siècle",
+      "materiaux": [
+        "bois",
+        "cauris",
+        "perles",
+        "bronze"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1978.412.673",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/311121",
+      "droits": "Notice du Metropolitan Museum of Art ; objet non versé au domaine public : image non reproduite.",
+      "sensible": true,
+      "note_sensibilite": "Objet rituel lié aux jumeaux : valider avec les communautés ; rien lu sur ses usages.",
+      "sources": [
+        "S124"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-oeuvre-cimier-nimm-met",
+      "titre": "Cimier nimm des Ejagham",
+      "type": "masque",
+      "description": "Cimier de masque en bois, peau animale, rotin, ficelle, tissu, plomb et clous, haut d'environ 42 cm, attribué aux Ejagham et daté des XIXe-milieu du XXe siècle. Les cimiers sont portés sur la tête lors de danses.",
+      "communaute": "Ejagham",
+      "periode": "XIXe - milieu du XXe siècle",
+      "materiaux": [
+        "bois",
+        "peau",
+        "rotin",
+        "tissu"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1978.412.625",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/311084",
+      "droits": "Notice du Metropolitan Museum of Art ; objet non versé au domaine public : image non reproduite.",
+      "sensible": true,
+      "note_sensibilite": "Objet lié aux sociétés ejagham : usages à valider avec la communauté ; usage « porté lors de danses » à confirmer (intitulé du Met : « dance crest » pour des pièces voisines).",
+      "sources": [
+        "S125"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-oeuvre-baban-riga-met",
+      "titre": "Baban riga (robe d'apparat haoussa)",
+      "type": "textile",
+      "description": "Grande robe d'apparat haoussa en coton et soie tsamiya, haute d'environ 2,6 m, réalisée vers 1940 à Kano par Amadou Ahejo. Le Met la classe comme baban riga, robe cérémonielle d'homme.",
+      "communaute": "Haoussa",
+      "createur": "Amadou Ahejo (Kano)",
+      "periode": "vers 1940",
+      "materiaux": [
+        "coton",
+        "soie tsamiya"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1979.206.279",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/312473",
+      "droits": "Notice du Metropolitan Museum of Art ; objet non versé au domaine public : image non reproduite.",
+      "sources": [
+        "S126"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-oeuvre-portes-nupe-met",
+      "titre": "Panneaux de porte nupe",
+      "type": "architecture",
+      "description": "Panneaux de porte en bois, hauts d'environ 1,86 m, attribués aux Nupe et datés des XIXe-XXe siècles. Le Met les classe comme éléments d'architecture.",
+      "communaute": "Nupe",
+      "periode": "XIXe-XXe siècle",
+      "materiaux": [
+        "bois"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1977.463.1",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/310442",
+      "droits": "Notice du Metropolitan Museum of Art ; objet non versé au domaine public : image non reproduite.",
+      "sources": [
+        "S127"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Notice : « Door Panels » ; nombre exact de panneaux non précisé dans les données lues."
+      }
+    },
+    {
+      "id": "NG-oeuvre-things-fall-apart",
+      "titre": "Things Fall Apart (Le Monde s'effondre)",
+      "type": "livre",
+      "description": "Premier roman de Chinua Achebe, publié en 1958, il occupe une place centrale dans la littérature africaine et reste l'un des romans africains les plus étudiés. Il s'inspire des traditions igbo et de la rencontre avec le christianisme colonial.",
+      "communaute": "Igbo",
+      "createur": "Chinua Achebe",
+      "periode": "1958",
+      "droits": "Œuvre protégée par le droit d'auteur ; pas de reproduction.",
+      "sources": [
+        "S108",
+        "S107"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Titre français usuel non vérifié sur une source ouverte."
+      }
+    },
+    {
+      "id": "NG-oeuvre-efuru",
+      "titre": "Efuru",
+      "type": "livre",
+      "description": "Premier roman de Flora Nwapa, publié en 1966, il interroge l'évolution du rôle des femmes dans une société patriarcale. EBSCO présente son autrice comme l'une des premières femmes africaines noires à écrire en anglais.",
+      "communaute": "Igbo",
+      "createur": "Flora Nwapa",
+      "periode": "1966",
+      "droits": "Œuvre protégée par le droit d'auteur ; pas de reproduction.",
+      "sources": [
+        "S91"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-oeuvre-joys-of-motherhood",
+      "titre": "The Joys of Motherhood",
+      "type": "livre",
+      "description": "Roman de Buchi Emecheta publié en 1979 (édition Braziller, d'après Encyclopedia.com), cité parmi ses œuvres majeures. Encyclopedia.com présente ses romans comme souvent autobiographiques et féministes.",
+      "communaute": "Igbo",
+      "createur": "Buchi Emecheta",
+      "periode": "1979",
+      "droits": "Œuvre protégée par le droit d'auteur ; pas de reproduction.",
+      "sources": [
+        "S93"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Résumé volontairement limité à ce qu'Encyclopedia.com dit de l'ensemble de son œuvre."
+      }
+    },
+    {
+      "id": "NG-oeuvre-half-of-a-yellow-sun",
+      "titre": "Half of a Yellow Sun (L'Autre Moitié du soleil)",
+      "type": "livre",
+      "description": "Deuxième roman de Chimamanda Ngozi Adichie, publié en 2006, il est tiré d'une nouvelle du même titre et a reçu le Women's Prize for Fiction selon EBSCO.",
+      "communaute": "Igbo",
+      "createur": "Chimamanda Ngozi Adichie",
+      "periode": "2006",
+      "droits": "Œuvre protégée par le droit d'auteur ; pas de reproduction.",
+      "sources": [
+        "S95"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Titre français non vérifié."
+      }
+    },
+    {
+      "id": "NG-oeuvre-living-in-bondage",
+      "titre": "Living in Bondage",
+      "type": "film",
+      "description": "Film de 1992 en langue igbo, réalisé par Chris Obi Rapu et produit notamment par Kenneth Nnebue, souvent présenté comme le premier film de Nollywood. Il est crédité d'avoir lancé l'industrie de la vidéo nigériane.",
+      "communaute": "Igbo",
+      "createur": "Chris Obi Rapu",
+      "periode": "1992",
+      "droits": "Œuvre protégée ; pas de reproduction.",
+      "sources": [
+        "S15"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "NG-oeuvre-teacher-dont-teach-me-nonsense",
+      "titre": "Teacher Don't Teach Me Nonsense",
+      "type": "musique",
+      "description": "Album de Fela Kuti publié en 1987, réalisé avec le producteur Wally Badarou après sa libération de prison en 1986. Il figure avec Army Arrangement (1986) parmi les disques qui ont entretenu l'intérêt international pour sa musique et ses positions politiques.",
+      "communaute": "Yoruba",
+      "createur": "Fela Kuti",
+      "periode": "1987",
+      "droits": "Œuvre protégée ; pas de reproduction.",
+      "sources": [
+        "S18"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "proverbes": [
+    {
+      "id": "NG-proverbe-haoussa-jan-baki",
+      "texte_original": "Jan baki ba maita ba.",
+      "langue": "haoussa",
+      "traduction": "Une bouche rouge n'est pas forcément signe de pouvoirs magiques.",
+      "sens": "Ne pas se fier aux apparences : selon Fletcher, tout jongleur se peint le visage, mais tout visage peint n'est pas celui d'un jongleur.",
+      "publication": "Roland S. Fletcher, Hausa sayings & folk-lore; with a vocabulary of new words, Oxford University Press (Henry Frowde), 1912, n° 97, p. 25.",
+      "sources": [
+        "S128"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lu dans la numérisation d'Internet Archive. Graphie de la numérisation (OCR) et orthographe ancienne, à contrôler et à moderniser par un locuteur du haoussa."
+      }
+    },
+    {
+      "id": "NG-proverbe-haoussa-sarikin-yawa",
+      "texte_original": "Sarikin yawa ya fi sarikin karfi.",
+      "langue": "haoussa",
+      "traduction": "Le roi du nombre vaut plus que le roi de la force.",
+      "sens": "Le nombre l'emporte sur la force ; Fletcher note que ce proverbe est d'origine arabe.",
+      "publication": "Roland S. Fletcher, Hausa sayings & folk-lore; with a vocabulary of new words, Oxford University Press (Henry Frowde), 1912, n° 101, p. 26.",
+      "sources": [
+        "S128"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lu dans la numérisation d'Internet Archive. Graphie de la numérisation (OCR) et orthographe ancienne, à contrôler et à moderniser par un locuteur du haoussa."
+      }
+    },
+    {
+      "id": "NG-proverbe-haoussa-rakumi",
+      "texte_original": "Mutum em bai sami rakumi ba ya sami akwia.",
+      "langue": "haoussa",
+      "traduction": "Si un homme n'obtient pas un chameau, il obtiendra une chèvre.",
+      "sens": "Mieux vaut la moitié d'un pain que pas de pain du tout (glose de Fletcher : « half a loaf is better than no bread »).",
+      "publication": "Roland S. Fletcher, Hausa sayings & folk-lore; with a vocabulary of new words, Oxford University Press (Henry Frowde), 1912, n° 105, p. 27.",
+      "sources": [
+        "S128"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lu dans la numérisation d'Internet Archive. Graphie de la numérisation (OCR) et orthographe ancienne, à contrôler et à moderniser par un locuteur du haoussa."
+      }
+    },
+    {
+      "id": "NG-proverbe-haoussa-vieille-dette",
+      "texte_original": "Tsia mai-tada tsofon bashi.",
+      "langue": "haoussa",
+      "traduction": "La pauvreté qui rappelle la vieille dette.",
+      "sens": "Selon Fletcher, un homme en difficulté rappellera les services, réels ou imaginaires, qu'il a rendus ; l'homme en difficulté ne s'arrête pas à des détails.",
+      "publication": "Roland S. Fletcher, Hausa sayings & folk-lore; with a vocabulary of new words, Oxford University Press (Henry Frowde), 1912, n° 99, p. 26.",
+      "sources": [
+        "S128"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lu dans la numérisation d'Internet Archive. Graphie de la numérisation (OCR) et orthographe ancienne, à contrôler et à moderniser par un locuteur du haoussa."
+      }
+    },
+    {
+      "id": "NG-proverbe-yoruba-paix",
+      "langue": "yoruba",
+      "traduction": "La paix est le père de l'amitié.",
+      "sens": "Valeur de la paix pour les relations entre personnes.",
+      "publication": "A. B. Ellis, The Yoruba-speaking Peoples of the Slave Coast of West Africa, Londres, Chapman and Hall, 1894, chap. XIII « Proverbs », n° 22, p. 219.",
+      "sources": [
+        "S129"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lu dans la numérisation d'Internet Archive. Le livre ne donne que la traduction anglaise : le texte yoruba d'origine est à retrouver auprès d'un locuteur ou d'une source en yoruba. Traduction française faite par MonBaobab à partir de l'anglais."
+      }
+    },
+    {
+      "id": "NG-proverbe-yoruba-pardon",
+      "langue": "yoruba",
+      "traduction": "Celui qui pardonne met fin à la querelle.",
+      "sens": "Le pardon éteint les conflits.",
+      "publication": "A. B. Ellis, The Yoruba-speaking Peoples of the Slave Coast of West Africa, Londres, Chapman and Hall, 1894, chap. XIII « Proverbs », n° 24, p. 219.",
+      "sources": [
+        "S129"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lu dans la numérisation d'Internet Archive. Le livre ne donne que la traduction anglaise : le texte yoruba d'origine est à retrouver auprès d'un locuteur ou d'une source en yoruba. Traduction française faite par MonBaobab à partir de l'anglais."
+      }
+    },
+    {
+      "id": "NG-proverbe-yoruba-vieillesse",
+      "langue": "yoruba",
+      "traduction": "Il n'existe pas de remède contre la vieillesse.",
+      "sens": "Constat de l'inévitabilité du vieillissement.",
+      "publication": "A. B. Ellis, The Yoruba-speaking Peoples of the Slave Coast of West Africa, Londres, Chapman and Hall, 1894, chap. XIII « Proverbs », n° 27, p. 220.",
+      "sources": [
+        "S129"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lu dans la numérisation d'Internet Archive. Le livre ne donne que la traduction anglaise : le texte yoruba d'origine est à retrouver auprès d'un locuteur ou d'une source en yoruba. Traduction française faite par MonBaobab à partir de l'anglais."
+      }
+    },
+    {
+      "id": "NG-proverbe-yoruba-sagesse",
+      "langue": "yoruba",
+      "traduction": "On peut naître avec une fortune, mais la sagesse ne vient qu'avec l'âge.",
+      "sens": "La sagesse s'acquiert avec le temps, pas par héritage.",
+      "publication": "A. B. Ellis, The Yoruba-speaking Peoples of the Slave Coast of West Africa, Londres, Chapman and Hall, 1894, chap. XIII « Proverbs », n° 45, p. 220.",
+      "sources": [
+        "S129"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lu dans la numérisation d'Internet Archive. Le livre ne donne que la traduction anglaise : le texte yoruba d'origine est à retrouver auprès d'un locuteur ou d'une source en yoruba. Traduction française faite par MonBaobab à partir de l'anglais."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "titre": "Population, total — Nigeria (SP.POP.TOTL)",
+      "institution": "Banque mondiale",
+      "url": "https://api.worldbank.org/v2/country/NGA/indicator/SP.POP.TOTL?format=json&per_page=3",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S2",
+      "titre": "Wikidata Q1033 (Nigeria)",
+      "institution": "Wikimedia Foundation",
+      "url": "https://www.wikidata.org/wiki/Q1033",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S3",
+      "titre": "Nigeria",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Nigeria",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S4",
+      "titre": "Nigeria — États parties (World Heritage Convention)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/statesparties/ng",
+      "type": "unesco",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S5",
+      "titre": "Nigeria60: Realisation of a 99-year dream",
+      "institution": "Horniman Museum and Gardens",
+      "url": "https://www.horniman.ac.uk/story/nigeria60-realisation-of-a-99-year-dream/",
+      "type": "musee",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2020,
+      "auteur": "Emeka Keazor"
+    },
+    {
+      "id": "S6",
+      "titre": "29th May: Nigeria's history",
+      "institution": "Ministère fédéral de l'Information et de l'Orientation nationale (Nigeria)",
+      "url": "https://fmino.gov.ng/29th-may-nigerias-history/",
+      "type": "institution",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S7",
+      "titre": "« No Victor and No Vanquished » – Fifty Years after the Biafran War",
+      "institution": "Origins, Ohio State University",
+      "url": "https://origins.osu.edu/milestones/nigerian-civil-war-biafra-anniversary",
+      "type": "universite",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21",
+      "annee": 2020,
+      "auteur": "Ousman Murzik Kobo"
+    },
+    {
+      "id": "S8",
+      "titre": "Hausa (Encyclopedia of World Cultures / Countries and Their Cultures)",
+      "institution": "Encyclopedia.com (Gale)",
+      "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/hausa",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (Gale / Cengage)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S9",
+      "titre": "Glottolog — Hausa",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/haus1257",
+      "type": "base_de_donnees",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S10",
+      "titre": "Glottolog — Yoruba",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/yoru1245",
+      "type": "base_de_donnees",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S11",
+      "titre": "Yoruba (Encyclopedia of World Cultures / Countries and Their Cultures)",
+      "institution": "Encyclopedia.com (Gale)",
+      "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/yoruba",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (Gale / Cengage)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S12",
+      "titre": "Ifa divination system",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+      "type": "unesco",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S13",
+      "titre": "Glottolog — Igbo",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/nucl1417",
+      "type": "base_de_donnees",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S14",
+      "titre": "Igbo (Encyclopedia of World Cultures / Countries and Their Cultures)",
+      "institution": "Encyclopedia.com (Gale)",
+      "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/igbo",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (Gale / Cengage)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S15",
+      "titre": "Nollywood",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Nollywood",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S16",
+      "titre": "Glottolog — English",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1293",
+      "type": "base_de_donnees",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S17",
+      "titre": "Glottolog — Nigerian Pidgin",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/nige1257",
+      "type": "base_de_donnees",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S18",
+      "titre": "Anikapulapo-Kuti, Fela (Baker's Biographical Dictionary of Popular Musicians Since 1990)",
+      "institution": "Encyclopedia.com (Gale)",
+      "url": "https://encyclopedia.com/education/dictionaries-thesauruses-pictures-and-press-releases/anikapulapo-kuti-fela",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (Gale / Cengage)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Howard Mandel"
+    },
+    {
+      "id": "S19",
+      "titre": "Glottolog — Hausa States Fulfulde",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/nige1253",
+      "type": "base_de_donnees",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S20",
+      "titre": "Fulani (Encyclopedia of World Cultures / Countries and Their Cultures)",
+      "institution": "Encyclopedia.com (Gale)",
+      "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/fulani",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (Gale / Cengage)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S21",
+      "titre": "Glottolog — Central Kanuri",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/cent2050",
+      "type": "base_de_donnees",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S22",
+      "titre": "Kanuri (Encyclopedia of World Cultures / Countries and Their Cultures)",
+      "institution": "Encyclopedia.com (Gale)",
+      "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/kanuri",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (Gale / Cengage)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S23",
+      "titre": "Glottolog — Bini (edo)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/bini1246",
+      "type": "base_de_donnees",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S24",
+      "titre": "Edo (Encyclopedia of World Cultures / Countries and Their Cultures)",
+      "institution": "Encyclopedia.com (Gale)",
+      "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/edo",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (Gale / Cengage)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S25",
+      "titre": "Glottolog — Efik",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/efik1245",
+      "type": "base_de_donnees",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S26",
+      "titre": "Ibibio (Encyclopedia of World Cultures / Countries and Their Cultures)",
+      "institution": "Encyclopedia.com (Gale)",
+      "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/ibibio",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (Gale / Cengage)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S27",
+      "titre": "Glottolog — Ibibio",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/ibib1240",
+      "type": "base_de_donnees",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S28",
+      "titre": "Glottolog — Tiv",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/tivv1240",
+      "type": "base_de_donnees",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S29",
+      "titre": "Tiv (Encyclopedia of World Cultures / Countries and Their Cultures)",
+      "institution": "Encyclopedia.com (Gale)",
+      "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/tiv",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (Gale / Cengage)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S30",
+      "titre": "Glottolog — Idoma",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/idom1241",
+      "type": "base_de_donnees",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S31",
+      "titre": "Glottolog — Nupe-Nupe-Tako",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/nupe1254",
+      "type": "base_de_donnees",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S32",
+      "titre": "Nupe (Encyclopedia of World Cultures / Countries and Their Cultures)",
+      "institution": "Encyclopedia.com (Gale)",
+      "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/nupe",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (Gale / Cengage)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S33",
+      "titre": "Glottolog — Igala",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/igal1242",
+      "type": "base_de_donnees",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S34",
+      "titre": "Glottolog — Izon",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/izon1238",
+      "type": "base_de_donnees",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S35",
+      "titre": "Ijo (Encyclopedia of World Cultures / Countries and Their Cultures)",
+      "institution": "Encyclopedia.com (Gale)",
+      "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/ijo",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (Gale / Cengage)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S36",
+      "titre": "Glottolog — Isekiri",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/isek1239",
+      "type": "base_de_donnees",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S37",
+      "titre": "Glottolog — Urhobo",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/urho1239",
+      "type": "base_de_donnees",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S38",
+      "titre": "Glottolog — Ebira",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/ebir1243",
+      "type": "base_de_donnees",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S39",
+      "titre": "Oral heritage of Gelede",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/oral-heritage-of-gelede-00002",
+      "type": "unesco",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S40",
+      "titre": "Sango Festival, Oyo",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/sango-festival-oyo-01974",
+      "type": "unesco",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S41",
+      "titre": "Ijele masquerade",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/ijele-masquerade-00194",
+      "type": "unesco",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S42",
+      "titre": "Durbar in Kano",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/durbar-in-kano-01895",
+      "type": "unesco",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S43",
+      "titre": "Uthman dan Fodio (1754–1817), Encyclopedia of Islam and the Muslim World",
+      "institution": "Encyclopedia.com (Gale)",
+      "url": "https://encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/uthman-dan-fodio-1754-1817",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (Gale / Cengage)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Roman Loimeier"
+    },
+    {
+      "id": "S44",
+      "titre": "Kwagh-Hir theatrical performance",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/kwagh-hir-theatrical-performance-00683",
+      "type": "unesco",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S45",
+      "titre": "Forêt sacrée d'Osun-Oshogbo",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/1118",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S46",
+      "titre": "Paysage culturel de Sukur",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/938",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S47",
+      "titre": "Ile-Ife",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Ile-Ife",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S48",
+      "titre": "Kingdom of Benin",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Kingdom_of_Benin",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S49",
+      "titre": "Benin Expedition of 1897",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Benin_Expedition_of_1897",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S50",
+      "titre": "Kano (city)",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Kano_(city)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S51",
+      "titre": "Old Oyo (Liste indicative du Nigeria, réf. 489)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/489",
+      "type": "unesco",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S52",
+      "titre": "Oyo Empire",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Oyo_Empire",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S53",
+      "titre": "Sungbo's Eredo",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Sungbo%27s_Eredo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S54",
+      "titre": "Surame",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Surame",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S55",
+      "titre": "Ikom Monoliths",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Ikom_Monoliths",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S56",
+      "titre": "Ogbunike Caves",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Ogbunike_Caves",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S57",
+      "titre": "National Museum, Lagos",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/National_Museum,_Lagos",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S58",
+      "titre": "National Commission for Museums and Monuments (NCMM)",
+      "institution": "National Commission for Museums and Monuments (Nigeria)",
+      "url": "https://ncmm.gov.ng/",
+      "type": "institution",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S59",
+      "titre": "Jos Museum",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Jos_Museum",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S60",
+      "titre": "The Nok of Nigeria",
+      "institution": "Archaeology (Archaeological Institute of America)",
+      "url": "https://archaeology.org/issues/online/features/the-nok-of-nigeria/",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S61",
+      "titre": "Igbo-Ukwu at 50: A Symposium on Recent Archaeological Research and Analysis",
+      "institution": "African Archaeological Review (via PubMed Central)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9640786",
+      "type": "article_scientifique",
+      "licence": "accès libre (PMC Open Access Subset)",
+      "consulte_le": "2026-11-21",
+      "annee": 2022,
+      "auteur": "Susan Keech McIntosh"
+    },
+    {
+      "id": "S62",
+      "titre": "Calabar",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Calabar",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S63",
+      "titre": "Midwifery: knowledge, skills and practices",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/midwifery-knowledge-skills-and-practices-01968",
+      "type": "unesco",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S64",
+      "titre": "Argungu international fishing and cultural festival",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/argungu-international-fishing-and-cultural-festival-00901",
+      "type": "unesco",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S65",
+      "titre": "Egungun",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Egungun",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S66",
+      "titre": "Headdress (Egungun) (1979.206.184)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/312392",
+      "type": "musee",
+      "licence": "CC0 (Open Access) pour les notices ; images non reproduites",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S67",
+      "titre": "Eyo festival",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Eyo_festival",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S68",
+      "titre": "Wrapper (Adire Eloko) (2017.732.20)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/711928",
+      "type": "musee",
+      "licence": "CC0 (Open Access) pour les notices ; images non reproduites",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S69",
+      "titre": "Aso oke",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Aso_oke",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S70",
+      "titre": "Aṣọ òkè (2013.985)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/321378",
+      "type": "musee",
+      "licence": "CC0 (Open Access) pour les notices ; images non reproduites",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S71",
+      "titre": "Nsibidi",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Nsibidi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S72",
+      "titre": "Afrobeat",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Afrobeat",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S73",
+      "titre": "Jùjú music",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Juju_music",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S74",
+      "titre": "Fuji music",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Fuji_music",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S75",
+      "titre": "Igbo Yam Festivals",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Iri_ji",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S76",
+      "titre": "Plaque with mudfish (1991.17.15)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/316488",
+      "type": "musee",
+      "licence": "CC0 (Open Access) pour les notices ; images non reproduites",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S77",
+      "titre": "Pendant mask of Ìyọ́bà Idià (Met, 1978.412.323)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/318622",
+      "type": "musee",
+      "licence": "CC0 (Open Access)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S78",
+      "titre": "Helmet Mask: Female Figure (Epa or Elefon) (1978.412.399)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/310061",
+      "type": "musee",
+      "licence": "CC0 (Open Access) pour les notices ; images non reproduites",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S79",
+      "titre": "Amina (c. 1533–c. 1598), Encyclopedia of World Biography / Women in World History",
+      "institution": "Encyclopedia.com (Gale)",
+      "url": "https://www.encyclopedia.com/women/dictionaries-thesauruses-pictures-and-press-releases/amina-c-1533-c-1598",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (Gale / Cengage)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S80",
+      "titre": "Amina of Zazzau",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Amina_of_Zazzau",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S81",
+      "titre": "Idia",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Idia",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S82",
+      "titre": "FESTAC 77",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/FESTAC_77",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S83",
+      "titre": "Nana Asmaʾu (Library Weekly)",
+      "institution": "African Studies Centre Leiden (bibliothèque)",
+      "url": "https://www.ascleiden.nl/content/library-weekly/nana-asmau",
+      "type": "universite",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S84",
+      "titre": "Nana Asmaʼu",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Nana_Asma%CA%BCu",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S85",
+      "titre": "Funmilayo Ransome-Kuti (Library Weekly)",
+      "institution": "African Studies Centre Leiden (bibliothèque)",
+      "url": "https://ascleiden.nl/content/library-weekly/funmilayo-ransome-kuti",
+      "type": "universite",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S86",
+      "titre": "Funmilayo Ransome-Kuti",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Funmilayo_Ransome-Kuti",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S87",
+      "titre": "Remembering Margaret Ekpo and the Enugu strike massacre",
+      "institution": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2020/12/12/remembering-margaret-ekpo-and-enugu-strike-massacre",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2020,
+      "auteur": "Tayo Agunbiade"
+    },
+    {
+      "id": "S88",
+      "titre": "Margaret Ekpo",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Margaret_Ekpo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S89",
+      "titre": "Pots, Mastery, and the Enduring Legacy of Ladi Dosei Kwali",
+      "institution": "Museum of Modern Art (post.moma.org)",
+      "url": "https://post.moma.org/?p=9659",
+      "type": "musee",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S90",
+      "titre": "Ladi Kwali",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Ladi_Kwali",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S91",
+      "titre": "Flora Nwapa (Research Starters)",
+      "institution": "EBSCO",
+      "url": "https://www.ebsco.com/research-starters/womens-studies-and-feminism/flora-nwapa",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2024,
+      "auteur": "David Barratt"
+    },
+    {
+      "id": "S92",
+      "titre": "Flora Nwapa",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Flora_Nwapa",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S93",
+      "titre": "Buchi Emecheta 1944–",
+      "institution": "Encyclopedia.com (Gale)",
+      "url": "https://www.encyclopedia.com/people/literature-and-arts/miscellaneous-english-literature-20th-cent-biographies/buchi-emecheta",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (Gale / Cengage)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S94",
+      "titre": "Buchi Emecheta",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Buchi_Emecheta",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S95",
+      "titre": "Chimamanda Ngozi Adichie (Research Starters)",
+      "institution": "EBSCO",
+      "url": "https://www.ebsco.com/research-starters/literature-and-writing/chimamanda-ngozi-adichie/",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2013,
+      "auteur": "Wayne Narey"
+    },
+    {
+      "id": "S96",
+      "titre": "Chimamanda Ngozi Adichie",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Chimamanda_Ngozi_Adichie",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S97",
+      "titre": "WTO Director-General: Ngozi Okonjo-Iweala",
+      "institution": "Organisation mondiale du commerce",
+      "url": "https://www.wto.org/english/thewto_e/dg_e/dg_e.htm",
+      "type": "institution",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S98",
+      "titre": "Ngozi Okonjo-Iweala",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Ngozi_Okonjo-Iweala",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S99",
+      "titre": "Usman dan Fodio",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Usman_dan_Fodio",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S100",
+      "titre": "Ovonramwen",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Ovonramwen",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S101",
+      "titre": "Aspects of British Gunboat Diplomacy: Jaja, King of Opobo",
+      "institution": "Black History Month (blackhistorymonth.org.uk)",
+      "url": "https://www.blackhistorymonth.org.uk/article/section/african-history/aspects-of-british-gunboat-diplomacy-jaja-king-of-opobo/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2020,
+      "auteur": "So Jaja"
+    },
+    {
+      "id": "S102",
+      "titre": "Jaja of Opobo",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Jaja_of_Opobo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S103",
+      "titre": "Crowther, Samwel Ajayi",
+      "institution": "Dictionary of African Christian Biography (dacb.org)",
+      "url": "https://dacb.org/stories/nigeria/crowther-samwel/",
+      "type": "base_de_donnees",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S104",
+      "titre": "Samuel Ajayi Crowther",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Ajayi_Crowther",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S105",
+      "titre": "Nnamdi Azikiwe (Encyclopedia of World Biography)",
+      "institution": "Encyclopedia.com (Gale)",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/nnamdi-azikiwe",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés (Gale / Cengage)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S106",
+      "titre": "Nnamdi Azikiwe",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Nnamdi_Azikiwe",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S107",
+      "titre": "Chinua Achebe",
+      "institution": "Poetry Foundation",
+      "url": "https://poetryfoundation.org/poets/chinua-achebe",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S108",
+      "titre": "Chinua Achebe",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Chinua_Achebe",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S109",
+      "titre": "Wole Soyinka – Facts",
+      "institution": "NobelPrize.org (Nobel Prize Outreach)",
+      "url": "https://www.nobelprize.org/prizes/literature/1986/soyinka/facts/",
+      "type": "institution",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S110",
+      "titre": "Wole Soyinka",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Wole_Soyinka",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S111",
+      "titre": "Fela Kuti",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Fela_Kuti",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S112",
+      "titre": "Ben Enwonwu (Library Weekly)",
+      "institution": "African Studies Centre Leiden (bibliothèque)",
+      "url": "https://www.ascleiden.nl/content/library-weekly/ben-enwonwu",
+      "type": "universite",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S113",
+      "titre": "Ben Enwonwu",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Ben_Enwonwu",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S114",
+      "titre": "Ken Saro-Wiwa, 1995 Goldman Prize",
+      "institution": "Goldman Environmental Foundation",
+      "url": "https://www.goldmanprize.org/recipient/ken-saro-wiwa/",
+      "type": "institution",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S115",
+      "titre": "Ken Saro-Wiwa",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Ken_Saro-Wiwa",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S116",
+      "titre": "Hakeem Olajuwon",
+      "institution": "Naismith Memorial Basketball Hall of Fame",
+      "url": "https://www.hoophall.com/hall-of-famers/hakeem-olajuwon/",
+      "type": "institution",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S117",
+      "titre": "Hakeem Olajuwon",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Hakeem_Olajuwon",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S118",
+      "titre": "Head from a figure (1979.206.296)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/312519",
+      "type": "musee",
+      "licence": "CC0 (Open Access) pour les notices ; images non reproduites",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S119",
+      "titre": "Lord Lugard Created Nigeria 104 Years Ago",
+      "institution": "Council on Foreign Relations",
+      "url": "https://www.cfr.org/articles/lord-lugard-created-nigeria-104-years-ago",
+      "type": "institution",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21",
+      "annee": 2018,
+      "auteur": "Jack McCaslin"
+    },
+    {
+      "id": "S120",
+      "titre": "The 'Women's War', 1929",
+      "institution": "University of Kent, blog du département d'histoire",
+      "url": "https://blogs.kent.ac.uk/history/2018/03/08/the-womens-war-1929/",
+      "type": "universite",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21",
+      "annee": 2018
+    },
+    {
+      "id": "S121",
+      "titre": "Festac (Second Festival of Black Arts and Culture)",
+      "institution": "Tate",
+      "url": "https://www.tate.org.uk/art/art-terms/f/festac-second-festival-black-arts-and-culture",
+      "type": "musee",
+      "licence": "à vérifier",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S122",
+      "titre": "Abuja",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Abuja",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S123",
+      "titre": "Helmet Mask (Gelede) (1983.603.6)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/314327",
+      "type": "musee",
+      "licence": "CC0 (Open Access) pour les notices ; images non reproduites",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S124",
+      "titre": "Twin Figure (Ibeji) (1978.412.673)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/311121",
+      "type": "musee",
+      "licence": "CC0 (Open Access) pour les notices ; images non reproduites",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S125",
+      "titre": "Nimm crest (1978.412.625)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/311084",
+      "type": "musee",
+      "licence": "CC0 (Open Access) pour les notices ; images non reproduites",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S126",
+      "titre": "Baban riga (man's ceremonial robe) (1979.206.279)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/312473",
+      "type": "musee",
+      "licence": "CC0 (Open Access) pour les notices ; images non reproduites",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S127",
+      "titre": "Architectural Element: Door Panels (1977.463.1)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/310442",
+      "type": "musee",
+      "licence": "CC0 (Open Access) pour les notices ; images non reproduites",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S128",
+      "titre": "Hausa sayings & folk-lore; with a vocabulary of new words",
+      "institution": "Oxford University Press (numérisation Internet Archive)",
+      "url": "https://archive.org/details/hausasayingsfolk00flet",
+      "type": "livre",
+      "licence": "domaine public (1912)",
+      "consulte_le": "2026-11-21",
+      "annee": 1912,
+      "auteur": "Roland S. Fletcher"
+    },
+    {
+      "id": "S129",
+      "titre": "The Yoruba-speaking Peoples of the Slave Coast of West Africa",
+      "institution": "Chapman and Hall (numérisation Internet Archive)",
+      "url": "https://archive.org/details/yorubaspeakingp00elligoog",
+      "type": "livre",
+      "licence": "domaine public (1894)",
+      "consulte_le": "2026-11-21",
+      "annee": 1894,
+      "auteur": "A. B. Ellis"
+    }
+  ]
+}

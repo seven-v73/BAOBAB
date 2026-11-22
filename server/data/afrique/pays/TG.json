@@ -1,0 +1,4239 @@
+{
+  "code": "TG",
+  "nom": "Togo",
+  "region": "ouest",
+  "wikidata": "Q945",
+  "maj": "2026-11-21",
+  "pays": {
+    "nom_officiel": "République togolaise",
+    "capitale": "Lomé",
+    "langues_officielles": [
+      "français"
+    ],
+    "langues_nationales": [
+      "éwé",
+      "kabiyè"
+    ],
+    "population": {
+      "valeur": 8591626,
+      "annee": 2025,
+      "source": "S2"
+    },
+    "superficie_km2": 56785,
+    "monnaie": "Franc CFA (UEMOA), code XOF",
+    "resume": "Le Togo est un pays étroit d'Afrique de l'Ouest, long d'environ 600 km, qui s'étire de la côte atlantique jusqu'aux savanes du nord, entre le Ghana, le Bénin et le Burkina Faso. Sa capitale, Lomé, est au bord du golfe de Guinée, le centre est un pays de collines et de montagnes et le nord-est abrite les maisons-tours en terre du Koutammakou, seul site togolais inscrit au patrimoine mondial. Le pays réunit des dizaines de langues et de communautés, des Éwé, Guin et Ouatchi du sud aux Kabyè, Tem, Bassar, Moba, Konkomba et Gourma du centre et du nord. Son histoire côtière est marquée par la traite atlantique, le protectorat allemand de 1884, le partage en deux mandats après 1914 puis l'indépendance du 27 avril 1960. Parmi ses héritages vivants figurent les rites du nouvel an des Guin, le Gelede, la sidérurgie ancienne des Bassar, le tissage de Sokodé et une riche scène littéraire et musicale.",
+    "sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S88",
+      "S8",
+      "S5",
+      "S50",
+      "S90",
+      "S89",
+      "S46"
+    ]
+  },
+  "langues": [
+    {
+      "id": "TG-langue-francais",
+      "nom": "Français",
+      "nom_local": "Français",
+      "description": "Le français est la seule langue officielle du Togo, héritée de l'administration française du mandat puis de la tutelle. Il sert à l'école, dans l'administration et entre communautés qui ne partagent pas de langue locale, et il a développé des tournures propres au pays.",
+      "famille": "Indo-européen > Roman (Glottolog : Macro-French)",
+      "glottocode": "stan1290",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "sources": [
+        "S17",
+        "S90",
+        "S89"
+      ],
+      "wikidata": "Q150",
+      "regions": [
+        "tout le pays"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-langue-ewe",
+      "nom": "Éwé",
+      "nom_local": "Eʋegbe",
+      "description": "L'éwé est une langue gbe parlée surtout dans le sud du pays et jusqu'au Ghana voisin ; il est l'une des deux langues nationales du Togo. D'après un sondage Afrobarometer cité par Wikipédia, environ 42 % des personnes interrogées disaient le parler à la maison en 2010-2012. Une littérature imprimée en éwé s'est développée dès l'époque de la mission de Brême.",
+      "famille": "Atlantic-Congo > Volta-Congo > Kwa Volta-Congo > Gbe > Western Gbe > Eweic",
+      "glottocode": "ewee1241",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "sources": [
+        "S18",
+        "S90",
+        "S89"
+      ],
+      "wikidata": "Q30005",
+      "regions": [
+        "sud du Togo",
+        "Notsé",
+        "Lomé"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-langue-gen",
+      "nom": "Gen (mina)",
+      "nom_local": "Gɛ̃gbe",
+      "description": "Le gen, appelé aussi mina, est la langue des communautés guin de la côte autour d'Aného et de Lomé. Wikipédia le décrit comme un dialecte d'éwé servant de langue véhiculaire dans le sud, alors que Glottolog le traite comme une langue distincte du groupe gbe occidental ; la chanteuse Bella Bellow chantait surtout en mina.",
+      "famille": "Atlantic-Congo > Volta-Congo > Kwa Volta-Congo > Gbe > Western Gbe",
+      "glottocode": "genn1243",
+      "statut_linguistique": [
+        "véhiculaire",
+        "régionale"
+      ],
+      "sources": [
+        "S19",
+        "S90",
+        "S101"
+      ],
+      "wikidata": "Q33450",
+      "regions": [
+        "côte sud-est",
+        "Aného",
+        "Lomé"
+      ],
+      "note": "Statut de langue distincte ou de dialecte d'éwé : points de vue divergents (Glottolog / Wikipédia).",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-langue-aja",
+      "nom": "Aja-gbe",
+      "nom_local": "Aja",
+      "description": "L'aja est une langue gbe que Glottolog désigne sous le nom « Aja (Benin) ». D'après Wikipédia, les Adja et les Éwé seraient tous originaires de la cité de Tado selon les traditions rapportées.",
+      "famille": "Atlantic-Congo > Volta-Congo > Kwa Volta-Congo > Gbe > Aja",
+      "glottocode": "ajab1235",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S20",
+        "S91"
+      ],
+      "wikidata": "Q35035",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-langue-kabiye",
+      "nom": "Kabiyè",
+      "nom_local": "Kabɩyɛ",
+      "description": "Le kabiyè est la langue des Kabyè du nord et du centre-nord et l'une des deux langues nationales du pays. Il appartient au groupe gur, au sein du sous-groupe kabiyé de l'ensemble grusi. Wikipédia rapporte environ 700 000 locuteurs au Togo en 1998.",
+      "famille": "Atlantic-Congo > Volta-Congo > North Volta-Congo > Gur > Grusi > Kabiyeic",
+      "glottocode": "kabi1261",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "sources": [
+        "S21",
+        "S90",
+        "S93"
+      ],
+      "wikidata": "Q35475",
+      "regions": [
+        "pays kabyè",
+        "Kara"
+      ],
+      "locuteurs": {
+        "valeur": 700000,
+        "annee": 1998,
+        "source": "S93"
+      },
+      "ecritures": [
+        "latin"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-langue-lama",
+      "nom": "Lama (Togo)",
+      "nom_local": "Lamba",
+      "description": "Le lama est une langue gur proche du kabiyè, classée dans le même sous-groupe par Glottolog et parlée dans le Nord-Togo. Une étude ethnologique des populations du Nord-Togo le range avec le kabyè et le naoudemba dans un même groupe de peuples.",
+      "famille": "Atlantic-Congo > Volta-Congo > North Volta-Congo > Gur > Grusi > Kabiyeic",
+      "glottocode": "lama1275",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S22",
+        "S38"
+      ],
+      "wikidata": "Q35652",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-langue-tem",
+      "nom": "Tem",
+      "nom_local": "Cala-Tem",
+      "description": "Le tem est la langue des Tem (ou Kotokoli) du centre du pays, autour de Sokodé. C'est une langue gur dont les locuteurs sont plus de 300 000 selon Wikipédia, dont environ 204 000 recensés au Togo en 1991. Elle est aussi parlée au Ghana et au Bénin.",
+      "famille": "Atlantic-Congo > Volta-Congo > North Volta-Congo > Gur > Grusi > Tem-Chala",
+      "glottocode": "temm1241",
+      "statut_linguistique": [
+        "régionale",
+        "véhiculaire"
+      ],
+      "sources": [
+        "S23",
+        "S92",
+        "S35"
+      ],
+      "wikidata": "Q36531",
+      "regions": [
+        "Sokodé",
+        "Tchaoudjo"
+      ],
+      "locuteurs": {
+        "valeur": 204000,
+        "annee": 1991,
+        "source": "S92"
+      },
+      "note": "Le chiffre de 204 000 locuteurs au Togo en 1991 est rapporté par Wikipédia ; source primaire à retrouver.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-langue-nawdm",
+      "nom": "Nawdm",
+      "nom_local": "Naudm",
+      "description": "Le nawdm est une langue gur du Nord-Togo, rattachée dans la classification de Glottolog au groupe oti-volta. Il fait partie du sous-groupe gurma-yom-naudem dans la classification de Glottolog.",
+      "famille": "Atlantic-Congo > Volta-Congo > North Volta-Congo > Gur > Central Gur > Oti-Volta > Gurma-Yom-Naudem",
+      "glottocode": "nawd1238",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S24",
+        "S38"
+      ],
+      "wikidata": "Q36085",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-langue-ntcham",
+      "nom": "Ntcham",
+      "nom_local": "Ncam",
+      "description": "Le ntcham, appelé aussi bassar d'après le nom de ses locuteurs, est une langue gur de la famille gurma. On l'associe au pays bassar, au centre-nord, où s'est développée une sidérurgie ancienne.",
+      "famille": "Atlantic-Congo > Volta-Congo > North Volta-Congo > Gur > Oti-Volta > Gurma A",
+      "glottocode": "ntch1242",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S25",
+        "S11"
+      ],
+      "wikidata": "Q36266",
+      "regions": [
+        "Bassar"
+      ],
+      "note": "L'identification ntcham = langue des Bassar est donnée par l'usage courant ; à confirmer par un spécialiste.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-langue-moba",
+      "nom": "Moba",
+      "nom_local": "Mɔba",
+      "description": "Le moba (ou mwaba) est une langue gur de la famille gurma, parlée autour de Dapaong, dans la région des Savanes. Les Moba partagent avec les Gourma des pratiques de divination décrites par l'anthropologue Albert de Surgy.",
+      "famille": "Atlantic-Congo > Volta-Congo > North Volta-Congo > Gur > Oti-Volta > Gurma B > Gourmantche-Moba",
+      "glottocode": "moba1244",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S26",
+        "S37"
+      ],
+      "wikidata": "Q19921578",
+      "regions": [
+        "Dapaong",
+        "Savanes"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-langue-gourmantche",
+      "nom": "Gourmantché",
+      "nom_local": "Gulmancema",
+      "description": "Le gourmantché est une langue gur de la famille gurma, parlée par les Gourma. Les sources togolaises lient les populations gourmantché à une migration depuis le royaume de Nung, dans l'actuel Burkina Faso, vers la région des Savanes, et à l'histoire de plusieurs chefferies du centre.",
+      "famille": "Atlantic-Congo > Volta-Congo > North Volta-Congo > Gur > Oti-Volta > Gurma B > Gourmantche-Moba",
+      "glottocode": "gour1243",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S27",
+        "S35",
+        "S10"
+      ],
+      "wikidata": "Q35474",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-langue-konkomba",
+      "nom": "Konkomba",
+      "nom_local": "Lekpakpaln",
+      "description": "Le konkomba est une langue gur de la famille gurma, parlée par les Konkomba du Nord-Togo. Glottolog la place dans un sous-ensemble voisin de celui du moba et du gourmantché.",
+      "famille": "Atlantic-Congo > Volta-Congo > North Volta-Congo > Gur > Oti-Volta > Gurma B > Konkomba-Gangam",
+      "glottocode": "konk1269",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S28",
+        "S38"
+      ],
+      "wikidata": "Q35674",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-langue-ikposso",
+      "nom": "Ikposso",
+      "nom_local": "Ikpɔsɔ",
+      "description": "L'ikposso est la langue des Akposso des plateaux du sud-ouest, une région de montagnes où se sont installés plusieurs peuples entre le XVIe et le XIXe siècle. C'est une langue du groupe Ka-Togo, distinct du gbe.",
+      "famille": "Atlantic-Congo > Volta-Congo > Kwa Volta-Congo > Ka-Togo",
+      "glottocode": "ikpo1238",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S29",
+        "S48"
+      ],
+      "wikidata": "Q35029",
+      "regions": [
+        "plateaux du sud-ouest"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-langue-akebou",
+      "nom": "Akébou",
+      "nom_local": "Akɛbu",
+      "description": "L'akébou est une langue du groupe Ka-Togo, que Glottolog range à côté de l'animere dans le sous-groupe kebu-animere ; elle n'y est pas considérée comme menacée.",
+      "famille": "Atlantic-Congo > Volta-Congo > Kwa Volta-Congo > Ka-Togo > Kebu-Animere",
+      "glottocode": "akeb1238",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S30"
+      ],
+      "wikidata": "Q35026",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-langue-anii",
+      "nom": "Anii",
+      "nom_local": "Gìsídà",
+      "description": "L'anii est une langue du groupe Na-Togo, sous-groupe basila-adele. Glottolog la classe parmi les langues menacées selon l'échelle AES de l'Atlas des langues en danger (Ethnologue).",
+      "famille": "Atlantic-Congo > Volta-Congo > Kwa Volta-Congo > Na-Togo > Basila-Adele",
+      "glottocode": "anii1245",
+      "statut_linguistique": [
+        "menacée"
+      ],
+      "sources": [
+        "S31"
+      ],
+      "wikidata": "Q34838",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-langue-anufo",
+      "nom": "Anufo",
+      "nom_local": "Chakosi",
+      "description": "L'anufo est une langue de la famille kwa, de sous-groupe bia, que Glottolog ne considère pas comme menacée. Elle est souvent associée aux Tchokossi, dont Wikipédia indique qu'ils se sont installés dans la région de Mango.",
+      "famille": "Atlantic-Congo > Volta-Congo > Kwa Volta-Congo > Nyo > Potou-Tano > Tano > Bia",
+      "glottocode": "anuf1239",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S32",
+        "S89"
+      ],
+      "wikidata": "Q34845",
+      "note": "Anufo et tchokossi : équivalence usuelle, à confirmer.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-langue-ife",
+      "nom": "Ifè",
+      "nom_local": "Ifɛ̀",
+      "description": "L'ifè est une langue yoruboïde de la branche ede, parlée dans le centre du Togo et dans le sud du Bénin voisin. Elle est proche du yoruba mais Glottolog en fait une langue distincte, classée parmi celles qui ne sont pas menacées.",
+      "famille": "Atlantic-Congo > Volta-Congo > Benue-Congo > Defoid > Yoruboid > Edekiri > Ede",
+      "glottocode": "ifee1241",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S33"
+      ],
+      "wikidata": "Q33606",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "peuples": [
+    {
+      "id": "TG-peuple-ewe",
+      "nom": "Éwé",
+      "description": "Les Éwé forment l'un des grands ensembles du sud du Togo et s'étendent jusqu'au sud-est du Ghana et au sud-ouest du Bénin. La ville de Notsé occupe une place centrale dans leurs récits d'origine, et plusieurs sous-groupes régionaux sont distingués selon le dialecte et l'implantation. Les historiens soulignent que ces récits de migration sont débattus et que les frontières entre « éwé », « mina » et « ouatchi » reposent beaucoup sur la géographie.",
+      "langues": [
+        "éwé"
+      ],
+      "regions": [
+        "Notsé",
+        "sud du Togo"
+      ],
+      "sources": [
+        "S91",
+        "S44",
+        "S94",
+        "S95",
+        "S60",
+        "S65"
+      ],
+      "activites": [
+        "tissage du kente"
+      ],
+      "pays_partages": [
+        "GH",
+        "BJ"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-peuple-guin-mina",
+      "nom": "Guin (Mina)",
+      "description": "Les Guin vivent sur la côte du sud-est, autour d'Aného et de Glidji, et leur langue est le gen, aussi appelé mina. Selon l'historien Alain Mignot, dont une recension résume les travaux, Foli Bébé rejoint les premiers migrants guin vers 1680-1681 et cherche à concentrer le pouvoir à Glidji. Les Guin pratiquent chaque année une série d'une vingtaine de rites du nouvel an, inscrits par l'UNESCO en 2025.",
+      "langues": [
+        "gen (mina)",
+        "français"
+      ],
+      "regions": [
+        "Aného",
+        "Glidji",
+        "Maritime"
+      ],
+      "sources": [
+        "S13",
+        "S40",
+        "S44",
+        "S9"
+      ],
+      "organisation": "Royaume de Glidji ; rois, chefs de district, prêtres et prêtresses conduisent les rites du nouvel an (UNESCO).",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-peuple-ouatchi",
+      "nom": "Ouatchi",
+      "description": "Les Ouatchi occupent principalement les préfectures du Yoto, du Vo et du Bas-Mono dans le sud-est. Une étude sur la parenté vodou observe que la distinction entre Ouatchi, Mina et Éwé repose largement sur la localisation géographique et, en second lieu, sur les histoires de migration.",
+      "langues": [
+        "éwé"
+      ],
+      "regions": [
+        "Yoto",
+        "Vo",
+        "Bas-Mono"
+      ],
+      "sources": [
+        "S44"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-peuple-kabye",
+      "nom": "Kabyè",
+      "description": "Les Kabyè vivent dans la région montagneuse du nord, appelée pays kabyè, où ils pratiquent une agriculture en terrasses. Leur langue, le kabiyè, est l'une des deux langues nationales du pays. Des initiations masculine et féminine structurent les classes d'âge et les liens au territoire des lignages.",
+      "langues": [
+        "kabiyè",
+        "français"
+      ],
+      "regions": [
+        "pays kabyè"
+      ],
+      "sources": [
+        "S34",
+        "S49",
+        "S93"
+      ],
+      "organisation": "Clans et lignages rattachés à un territoire ; initiations d'âge pour les garçons et les filles.",
+      "activites": [
+        "agriculture en terrasses"
+      ],
+      "pays_partages": [
+        "BJ",
+        "GH"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Les initiations évoquées relèvent de savoirs rituels : relecture par des représentants de la communauté avant publication.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-peuple-tem",
+      "nom": "Tem (Kotokoli)",
+      "description": "Les Tem, aussi appelés Kotokoli, vivent dans le centre du pays autour de Sokodé et parlent le tem, une langue gur. La population actuelle résulte de brassages entre autochtones et groupes arrivés du Gourma, du Bariba et du Dagomba ; la hiérarchie des chefferies s'organise autour du clan mola, d'origine gourma. Une partie des communautés a adopté l'islam tandis que d'autres entretiennent des cultes de génies liés à des arbres et des rochers.",
+      "langues": [
+        "tem",
+        "français"
+      ],
+      "regions": [
+        "Sokodé",
+        "Tchaoudjo",
+        "région centrale"
+      ],
+      "sources": [
+        "S35",
+        "S36",
+        "S16",
+        "S92",
+        "S99"
+      ],
+      "organisation": "Royaume de Tchaoudjo et chefferies hiérarchisées, avec un pouvoir qui tourne entre plusieurs familles.",
+      "activites": [
+        "tissage",
+        "commerce caravanier",
+        "agriculture"
+      ],
+      "pays_partages": [
+        "GH",
+        "BJ",
+        "BF"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-peuple-bassar",
+      "nom": "Bassar",
+      "description": "Les Bassar sont connus pour l'ancienneté de leur travail du fer : le pays bassar, au centre-nord, conserve des hauts fourneaux, des scories et des forges témoignant d'une production qui remonte au Ve siècle avant notre ère et s'est prolongée jusqu'au XXe siècle. Cette activité s'accompagnait de cérémonies liées à la construction des fourneaux, à la fonte et au forgeage. Ils parlent le ntcham.",
+      "langues": [
+        "ntcham",
+        "français"
+      ],
+      "regions": [
+        "Bassar",
+        "Kara"
+      ],
+      "sources": [
+        "S11",
+        "S51",
+        "S89"
+      ],
+      "activites": [
+        "sidérurgie",
+        "forge",
+        "agriculture"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Rituels et interdits liés à la métallurgie : savoirs réservés à des initiés ; validation par la communauté nécessaire.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-peuple-batammariba",
+      "nom": "Batammariba",
+      "description": "Les Batammariba, dont le nom signifie « ceux qui modèlent la terre », vivent dans le nord-est du Togo et au Bénin voisin, dans le paysage du Koutammakou. Ils construisent des maisons-tours en terre, les takienta, qui servent d'habitations mais abritent aussi des autels des ancêtres. L'UNESCO souligne l'étroite relation entre leurs rituels, leurs croyances et le paysage.",
+      "langues": [
+        "français"
+      ],
+      "regions": [
+        "Koutammakou",
+        "Kéran"
+      ],
+      "sources": [
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "organisation": "Villages groupant maisons-tours, espaces cérémoniels, sources, rochers sacrés et lieux d'initiation.",
+      "activites": [
+        "agriculture",
+        "architecture en terre"
+      ],
+      "pays_partages": [
+        "BJ"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Autels ancestraux et initiations : validation par la communauté avant publication.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-peuple-moba",
+      "nom": "Moba (Mwaba)",
+      "description": "Les Moba, ou Mwaba, vivent dans la région des Savanes autour de Dapaong. Ils pratiquent, avec les Gourma, une divination fondée sur huit substances fondamentales qui composent tout existant, d'après l'étude d'Albert de Surgy. Le Metropolitan Museum conserve des sculptures et des coiffes attribuées à des artistes moba.",
+      "langues": [
+        "moba",
+        "français"
+      ],
+      "regions": [
+        "Dapaong",
+        "Savanes"
+      ],
+      "sources": [
+        "S37",
+        "S38",
+        "S97",
+        "S61",
+        "S63"
+      ],
+      "sensible": true,
+      "note_sensibilite": "La divination est un savoir rituel : relecture par la communauté nécessaire.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-peuple-konkomba",
+      "nom": "Konkomba",
+      "description": "Les Konkomba vivent dans le nord du Togo. Les ethnologues Froelich, Alexandre et Cornevin les étudient dans un même groupe que les Moba et les Dye ; une révolte konkomba contre l'administration allemande, en 1897-1898, fut réprimée selon Wikipédia. Leur langue appartient au même grand sous-groupe gurma que le moba et le gourmantché.",
+      "langues": [
+        "konkomba",
+        "français"
+      ],
+      "regions": [
+        "nord du Togo"
+      ],
+      "sources": [
+        "S38",
+        "S89",
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-peuple-gourma",
+      "nom": "Gourma (Gourmantché)",
+      "description": "Les Gourma sont présents dans plusieurs chefferies du centre et du nord. Selon l'anthropologue Pierre Alexandre, le clan mola, d'origine gourma, est à l'origine de la hiérarchie des chefferies kotokoli, et ses membres se sont ralliés à l'islam. Dans la région des Savanes, des greniers aménagés dans des falaises rappellent les périodes d'insécurité des XVIIe-XIXe siècles et la migration de populations gourmantché.",
+      "langues": [
+        "gourmantché",
+        "français"
+      ],
+      "regions": [
+        "Savanes",
+        "Tchaoudjo"
+      ],
+      "sources": [
+        "S35",
+        "S36",
+        "S10",
+        "S27"
+      ],
+      "pays_partages": [
+        "BF"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-peuple-akposso",
+      "nom": "Akposso",
+      "description": "Les Akposso vivent sur les plateaux du sud-ouest, où ils se sont fixés entre le XVIe et le XIXe siècle après de multiples déplacements. Ils n'ont pas connu de pouvoir centralisé : des prêtres attachés à certaines divinités faisaient office de meneurs de guerre, sans réussir à instituer de chefferie durable. Les chefferies dites « yovofia » ont été créées plus tard par l'administration coloniale allemande.",
+      "langues": [
+        "ikposso",
+        "français"
+      ],
+      "regions": [
+        "Plateaux",
+        "Akposso"
+      ],
+      "sources": [
+        "S48",
+        "S29"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-peuple-yoruba-nago",
+      "nom": "Yoruba-Nago",
+      "description": "La communauté yoruba-nago est répartie entre le Bénin, le Nigeria et le Togo. L'UNESCO la présente comme porteuse du Gelede, cérémonie qui honore la mère primordiale et le rôle des femmes dans l'organisation sociale. Le Gelede se tient chaque année après les récoltes, avec des masques sculptés, des danses et des chants en yoruba.",
+      "langues": [
+        "yoruba"
+      ],
+      "regions": [],
+      "sources": [
+        "S15"
+      ],
+      "pays_partages": [
+        "BJ",
+        "NG"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Masques et rites : relecture par des représentants de la communauté recommandée.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "id": "TG-site-koutammakou",
+      "nom": "Koutammakou, le pays des Batammariba",
+      "type": "patrimoine_mondial",
+      "description": "Le Koutammakou est un paysage culturel du nord-est du Togo, prolongé au Bénin voisin, où vivent les Batammariba. Ses maisons-tours en terre, les takienta, sont groupées en villages avec des espaces cérémoniels, des sources, des rochers sacrés et des lieux d'initiation. L'UNESCO le juge exceptionnel pour cette architecture, pour ses terres agricoles et forestières et pour les liens entre les habitants et leur paysage. Le site a été inscrit en 2004 et étendu au Bénin en 2023.",
+      "regions": [
+        "Koutammakou",
+        "Kéran"
+      ],
+      "sources": [
+        "S5",
+        "S6",
+        "S7",
+        "S8"
+      ],
+      "coordonnees": {
+        "lat": 10.1,
+        "lng": 1.066666666
+      },
+      "unesco_id": "1140",
+      "inscription": 2004,
+      "periode": "paysage vivant",
+      "wikidata": "Q508040",
+      "nom_local": "Koutammakou",
+      "sensible": true,
+      "note_sensibilite": "Autels ancestraux, sources et lieux d'initiation : informations à faire relire par la communauté batammariba et l'institution partenaire avant publication.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-site-anecho-glidji",
+      "nom": "Agglomération Aného-Glidji",
+      "type": "liste_indicative",
+      "description": "Aného et Glidji forment une agglomération du sud-est, entre l'océan, le lac Togo et le Mono. La liste indicative togolaise y voit le résultat de près de trois siècles et demi d'échanges entre les populations locales xla-xweda, des migrants venus de l'ouest, des commerçants afro-brésiliens et des Européens. Elle y distingue des édifices coloniaux allemands et français, une architecture afro-brésilienne et des maisons à étage de commerçants. Les Allemands y installèrent leur capitale à la fin du XIXe siècle.",
+      "regions": [
+        "Aného",
+        "Glidji",
+        "Maritime"
+      ],
+      "sources": [
+        "S9",
+        "S47",
+        "S40"
+      ],
+      "coordonnees": {
+        "lat": 6.2330556,
+        "lng": 1.6038889
+      },
+      "periode": "XVIIe-XXIe siècles",
+      "wikidata": "Q1018574",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-site-bassar-fer",
+      "nom": "Sites de la métallurgie ancienne du fer de Bassar",
+      "type": "liste_indicative",
+      "description": "Les sites de Bassar rassemblent des hauts fourneaux encore debout, des bases de fourneaux, des amas de scories, des mines, des zones de concassage et des forges. Ils illustrent toute la chaîne de production du fer, de l'extraction du minerai au forgeage, dans une quinzaine de villages dont Tabalé, Bandjéli et Nangbani. Les traces s'étalent du Ve siècle avant notre ère jusqu'au milieu du XXe siècle. Le site a été proposé à l'UNESCO en 2021.",
+      "regions": [
+        "Bassar",
+        "Kara"
+      ],
+      "sources": [
+        "S11",
+        "S51"
+      ],
+      "coordonnees": {
+        "lat": 9.2833333,
+        "lng": 0.8
+      },
+      "periode": "Ve siècle av. J.-C. - XXe siècle",
+      "sensible": true,
+      "note_sensibilite": "Les cérémonies et interdits associés au travail du fer relèvent de savoirs d'initiés : validation par les communautés bassar.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-site-greniers-nok",
+      "nom": "Greniers des grottes de Nok, Mamproug, Kouba et Bagou",
+      "type": "liste_indicative",
+      "description": "Au nord, de hautes falaises de grès dominent la savane et abritent, dans des anfractuosités difficiles d'accès, des greniers en pierre, argile et paille. Ils ont servi de refuge et de réserve aux populations lors des périodes d'insécurité des XVIIe-XIXe siècles. Les sites contiennent aussi des sanctuaires de divinités, ce qui en fait des lieux à la fois défensifs et spirituels. Ils figurent sur la liste indicative depuis 2021.",
+      "regions": [
+        "Tandjouaré",
+        "Savanes"
+      ],
+      "sources": [
+        "S10"
+      ],
+      "coordonnees": {
+        "lat": 10.6666667,
+        "lng": 0.1333333
+      },
+      "periode": "XVIIe-XIXe siècles",
+      "sensible": true,
+      "note_sensibilite": "Sanctuaires de divinités locales : l'information rituelle doit être validée par les communautés concernées.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-site-fazao-malfakassa",
+      "nom": "Parc national Fazao-Malfakassa",
+      "type": "site_naturel",
+      "description": "Ce parc du centre du pays couvre une partie des monts Togo, avec des forêts claires, des savanes boisées et un réseau de rivières descendant des montagnes. Il abrite une grande faune de mammifères, notamment des éléphants, des buffles et des hippotragues. Un rocher de granite au centre du parc servait de polissoir aux chasseurs. Le parc est sur la liste indicative depuis 2021.",
+      "regions": [
+        "région centrale"
+      ],
+      "sources": [
+        "S12"
+      ],
+      "periode": "liste indicative 2021",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-site-notse",
+      "nom": "Notsé",
+      "type": "ville_historique",
+      "description": "Notsé, dans la région des Plateaux, est présentée comme le berceau des Éwé. Il subsiste des vestiges du royaume de Notsé, qui s'y développa vers le XVe siècle, dont des remparts en argile attribués au roi Agokoli. Le récit de l'exode des Éwé depuis Notsé reste un élément central de la mémoire du peuple éwé, même si les historiens en discutent la chronologie.",
+      "regions": [
+        "Notsé",
+        "Plateaux",
+        "Haho"
+      ],
+      "sources": [
+        "S95",
+        "S94",
+        "S44"
+      ],
+      "coordonnees": {
+        "lat": 6.95,
+        "lng": 1.1666667
+      },
+      "periode": "XVe-XVIIe siècles",
+      "wikidata": "Q3173182",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-site-togoville",
+      "nom": "Togoville",
+      "type": "lieu_de_memoire",
+      "description": "Togoville, au bord du lac Togo, a donné son nom au pays. C'est là que le roi Mlapa III a signé en 1884 le traité de protectorat avec l'explorateur allemand Gustav Nachtigal. Des autorités religieuses de Togoville participent aussi au choix du grand prêtre du dieu Nyigblê, un culte étudié par l'anthropologue Albert de Surgy.",
+      "regions": [
+        "Togoville",
+        "Vo",
+        "Maritime"
+      ],
+      "sources": [
+        "S96",
+        "S46",
+        "S43"
+      ],
+      "coordonnees": {
+        "lat": 6.2330556,
+        "lng": 1.4830556
+      },
+      "periode": "depuis le XIXe siècle",
+      "wikidata": "Q998417",
+      "sensible": true,
+      "note_sensibilite": "Le culte de Nyigblê est un savoir rituel : relecture par les autorités religieuses concernées avant publication.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-site-sokode",
+      "nom": "Sokodé",
+      "type": "ville_historique",
+      "description": "Sokodé est la deuxième ville du pays et le chef-lieu de la région centrale, au cœur du pays tem. L'UNESCO l'a retenue pour son tissage, activité qui représente plus de 35 % des activités des guildes artisanales de la ville, et pour ses fêtes comme le Gadao-Adossa. Selon Wikipédia, des immigrés gourma venus de la boucle du Niger se sont mêlés aux anciennes souches de la région et ont apporté la structuration en chefferies.",
+      "regions": [
+        "Sokodé",
+        "Tchaoudjo",
+        "région centrale"
+      ],
+      "sources": [
+        "S16",
+        "S99",
+        "S35"
+      ],
+      "coordonnees": {
+        "lat": 8.9833333,
+        "lng": 1.1333333
+      },
+      "wikidata": "Q845097",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-site-namoudjoga",
+      "nom": "Peintures rupestres de Namoudjoga",
+      "type": "site_archeologique",
+      "description": "Les peintures rupestres de Namoudjoga se trouvent sur un grand rocher en forme d'abri, à 25 ou 30 km à l'est de Dapaong. Elles montrent des figures humaines, des animaux, des cavaliers et des signes géométriques. Elles sont associées à d'autres ensembles rupestres de la région, à Sogou et à Maogdjoal.",
+      "regions": [
+        "Dapaong",
+        "Savanes"
+      ],
+      "sources": [
+        "S97"
+      ],
+      "coordonnees": {
+        "lat": 10.8441667,
+        "lng": 0.4158333
+      },
+      "periode": "datation à préciser",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-site-musee-national",
+      "nom": "Musée national du Togo",
+      "type": "musee",
+      "description": "Le musée national de Lomé est installé dans une salle du palais des congrès. Un premier musée existait en 1950, mais la collection s'est considérablement enrichie en 1974 grâce au legs de l'historien Hubert Kponton, et le nouveau musée a été inauguré le 26 avril 1975. Des musées régionaux ont suivi à Kara, à Aného et à Sokodé.",
+      "regions": [
+        "Lomé"
+      ],
+      "sources": [
+        "S98"
+      ],
+      "coordonnees": {
+        "lat": 6.1305556,
+        "lng": 1.2175
+      },
+      "periode": "depuis 1975",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-site-kpalime",
+      "nom": "Kpalimé",
+      "type": "ville_historique",
+      "description": "Kpalimé est une grande ville des Plateaux, à environ 120 km au nord-ouest de Lomé, chef-lieu de la préfecture de Kloto. Elle sert souvent de point de départ pour découvrir les paysages montagneux de la région. L'époque allemande y a favorisé une économie de plantations de cacao et de café.",
+      "regions": [
+        "Kpalimé",
+        "Kloto",
+        "Plateaux"
+      ],
+      "sources": [
+        "S100",
+        "S89"
+      ],
+      "coordonnees": {
+        "lat": 6.91,
+        "lng": 0.6280556
+      },
+      "wikidata": "Q995413",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-site-lome",
+      "nom": "Lomé",
+      "type": "ville_historique",
+      "description": "Lomé, capitale du Togo, est située à la frontière du Ghana. Une étude sur la ville la décrit comme une « capitale-frontière » créée en 1897 sous l'administration allemande, dont l'essor économique est lié au commerce de part et d'autre de cette frontière. La ville conserve des quartiers d'origine plus ancienne, comme Bè, village des autochtones de la région du lac Togo.",
+      "regions": [
+        "Lomé",
+        "Maritime"
+      ],
+      "sources": [
+        "S45",
+        "S43",
+        "S4"
+      ],
+      "coordonnees": {
+        "lat": 6.1228,
+        "lng": 1.2255
+      },
+      "periode": "depuis 1897",
+      "wikidata": "Q3792",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "traditions": [
+    {
+      "id": "TG-tradition-rites-guin",
+      "nom": "Rites du nouvel an du pays guin et port de la pierre sacrée",
+      "categorie": "rite",
+      "description": "Environ une vingtaine de rites sont célébrés chaque année par le peuple guin du sud du Togo, au fil d'un calendrier lunaire, pour honorer des divinités et des ancêtres. Le rite principal, l'Ekpéssosso, consiste à porter une pierre sacrée ; d'autres moments forts sont le repas communautaire Yêkê-Yêkê et le défilé Kpanchonchon, où l'on se peint le visage et le corps. Des chefs, des prêtres et des prêtresses conduisent les cérémonies, et un groupe de femmes initiées, les guin-yehuesi, assure une grande partie des tâches rituelles.",
+      "communautes": [
+        "Guin"
+      ],
+      "regions": [
+        "sud du Togo"
+      ],
+      "langues": [],
+      "sources": [
+        "S13"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "02241",
+        "annee": 2025,
+        "url": "https://ich.unesco.org/en/RL/the-bearing-of-the-sacred-stone-or-the-rites-of-the-new-year-in-the-guin-country-in-togo-02241"
+      },
+      "nom_local": "Ekpéssosso",
+      "transmission": "vivante",
+      "sensible": true,
+      "note_sensibilite": "Rites, lieux sacrés et initiation menée dans le secret des sanctuaires : validation par la communauté guin et le ministère de la Culture requise avant publication.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-tradition-sages-femmes",
+      "nom": "Obstétrique : savoirs, compétences et pratiques",
+      "categorie": "savoir",
+      "description": "Les sages-femmes accompagnent les femmes enceintes et leurs familles avant, pendant et après la naissance, par des visites à domicile, des conseils et des cours de préparation. Cette pratique, partagée par plusieurs pays dont le Togo, associe des savoirs fondés sur des preuves et des connaissances traditionnelles, parfois sur les plantes médicinales. Les savoirs se transmettent par l'observation, la participation et l'échange entre pairs, surtout dans des réseaux de femmes. L'élément a été inscrit en 2023 sur la Liste représentative par plusieurs États, dont le Togo.",
+      "communautes": [
+        "sages-femmes"
+      ],
+      "regions": [],
+      "langues": [],
+      "sources": [
+        "S14"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01968",
+        "annee": 2023,
+        "url": "https://ich.unesco.org/en/RL/midwifery-knowledge-skills-and-practices-01968"
+      },
+      "transmission": "vivante",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-tradition-gelede",
+      "nom": "Patrimoine oral du Gelede",
+      "categorie": "rite",
+      "description": "Le Gelede est une cérémonie de la communauté yoruba-nago, répartie entre le Bénin, le Nigeria et le Togo, qui rend hommage à la mère primordiale Iyà Nlà et au rôle des femmes. Elle a lieu chaque année après les récoltes, lors d'événements importants ou en période de sécheresse ou d'épidémie. Masques sculptés, danses et chants en yoruba racontent l'histoire et les mythes du peuple yoruba-nago, avec une bonne dose d'ironie. L'UNESCO relève que cette société de masques est aussi gouvernée par des femmes.",
+      "communautes": [
+        "Yoruba-Nago"
+      ],
+      "regions": [],
+      "langues": [
+        "yoruba"
+      ],
+      "sources": [
+        "S15"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "00002",
+        "annee": 2008,
+        "url": "https://ich.unesco.org/en/RL/oral-heritage-of-gelede-00002"
+      },
+      "nom_local": "Gèlèdè",
+      "transmission": "vivante",
+      "sensible": true,
+      "note_sensibilite": "Masques et cérémonies : relecture par la communauté yoruba-nago recommandée.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-tradition-initiations-kabye",
+      "nom": "Initiations kabyè",
+      "categorie": "rite",
+      "description": "Chez les Kabyè, des initiations masculine et féminine accompagnent le passage à l'âge adulte. Elles passent par des sacrifices, des processions et des démonstrations de force, en partie dans les mêmes lieux, et inscrivent les jeunes dans le territoire d'origine de leur lignage. L'anthropologue Marie Daugey souligne leur caractère peu ésotérique : on y montre des qualités physiques ou « mystiques » valorisées comme idéaux masculins et féminins locaux. Wikipédia cite parmi les manifestations connues les luttes de l'Evala.",
+      "communautes": [
+        "Kabyè"
+      ],
+      "regions": [
+        "pays kabyè"
+      ],
+      "langues": [
+        "kabiyè"
+      ],
+      "sources": [
+        "S49",
+        "S93"
+      ],
+      "unesco": null,
+      "nom_local": "Evala",
+      "transmission": "vivante",
+      "sensible": true,
+      "note_sensibilite": "Rites initiatiques : relecture par les représentants kabyè avant publication ; l'Evala n'est mentionné ici que d'après Wikipédia.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-tradition-gadao-adossa",
+      "nom": "Tissage et fêtes du Gadao-Adossa à Sokodé",
+      "categorie": "textile",
+      "description": "À Sokodé, le tissage est un métier très respecté des guildes d'artisans et représente plus de 35 % de leurs activités. Les bandes tissées servent à coudre le quotidien des habitants mais aussi les tuniques et grands boubous brodés que portent les cavaliers tem les jours de fête. Le nom Gadao-Adossa désigne deux fêtes : le Gadao pour les Tem et l'Adossa pour la communauté didaouré. L'UNESCO a retenu Sokodé dans son Réseau des villes créatives pour l'artisanat et les arts populaires.",
+      "communautes": [
+        "Tem",
+        "Didaouré"
+      ],
+      "regions": [
+        "Sokodé",
+        "région centrale"
+      ],
+      "langues": [
+        "tem"
+      ],
+      "sources": [
+        "S16"
+      ],
+      "unesco": null,
+      "nom_local": "Gadao-Adossa",
+      "transmission": "vivante",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-tradition-suwa-kotokoli",
+      "nom": "Fête suwa des Kotokoli",
+      "categorie": "fete",
+      "description": "La fête suwa est un rite agraire des Kotokoli, étudié à la fin des années 1960. Elle s'inscrit dans un contexte où des clans d'origine autochtone entretiennent des cultes de génies liés à des arbres, des rochers ou des grottes, tandis que d'autres clans, issus des envahisseurs, se sont ralliés à l'islam. Les chercheurs la présentent comme un exemple de culte collectif encore très vivant à l'époque de leur enquête.",
+      "communautes": [
+        "Tem (Kotokoli)"
+      ],
+      "regions": [
+        "Sokodé",
+        "région centrale"
+      ],
+      "langues": [
+        "tem"
+      ],
+      "sources": [
+        "S36",
+        "S35"
+      ],
+      "unesco": null,
+      "nom_local": "Suwa",
+      "periode": "documentée en 1967",
+      "sensible": true,
+      "note_sensibilite": "Culte de génies : informations d'époque (1967) à actualiser et à faire valider par les communautés tem.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-tradition-fer-bassar",
+      "nom": "Métallurgie du fer en pays bassar",
+      "categorie": "savoir",
+      "description": "Les Bassar ont développé une chaîne complète de travail du fer : extraction du minerai, réduction, épuration puis forgeage, sans machines. Cette activité s'accompagnait de cérémonies pour la construction des hauts fourneaux, la fonte et le forgeage, avec des rituels et des interdits pour les initiés. La liste indicative y voit une performance technique remarquable.",
+      "communautes": [
+        "Bassar"
+      ],
+      "regions": [
+        "Bassar",
+        "Kara"
+      ],
+      "langues": [
+        "ntcham"
+      ],
+      "sources": [
+        "S11",
+        "S51"
+      ],
+      "unesco": null,
+      "periode": "Ve siècle av. J.-C. - XXe siècle",
+      "sensible": true,
+      "note_sensibilite": "Rituels et interdits des forgerons et fondeurs : savoirs d'initiés, validation par les communautés bassar.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-tradition-takienta",
+      "nom": "Architecture en terre des maisons-tours takienta",
+      "categorie": "architecture",
+      "description": "Les takienta sont des maisons-tours en terre à deux étages, au toit conique en chaume ou plat, construites par les Batammariba. Elles abritent à la fois la famille, les réserves et des autels en l'honneur des ancêtres masculins. La vie d'une maison suit un cycle : construction, abandon, destruction puis reconstruction sur les ruines. En 2018, de fortes pluies ont endommagé de nombreuses maisons, et une mission d'urgence de l'UNESCO a évalué les dégâts, y compris pour le patrimoine immatériel lié aux autels.",
+      "communautes": [
+        "Batammariba"
+      ],
+      "regions": [
+        "Koutammakou",
+        "Kéran"
+      ],
+      "langues": [],
+      "sources": [
+        "S6",
+        "S7",
+        "S5"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "sensible": true,
+      "note_sensibilite": "Autels ancestraux : relecture par la communauté batammariba requise.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-tradition-nyigble",
+      "nom": "Culte de Nyigblê et prêtre-roi des Bè",
+      "categorie": "rite",
+      "description": "Le grand prêtre du dieu Nyigblê vit retiré dans une forêt sacrée avec de jeunes épouses rituelles et quelques assistants. Sa fonction essentielle n'est pas de commander mais de prier, et les décisions politiques sont prises par son entourage. Il est choisi en secret par les autorités religieuses de Togoville et de Bè avec l'aide de devins. Ce culte, étudié par Albert de Surgy en 1990, concerne les habitants de la région du lac Togo.",
+      "communautes": [
+        "Bè",
+        "Togoville"
+      ],
+      "regions": [
+        "Togoville",
+        "Lomé"
+      ],
+      "langues": [
+        "éwé"
+      ],
+      "sources": [
+        "S43"
+      ],
+      "unesco": null,
+      "periode": "étudié en 1990",
+      "sensible": true,
+      "note_sensibilite": "Culte et savoirs initiatiques : toute publication doit être validée par les autorités religieuses concernées ; description limitée à une publication de 1990.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-tradition-divination-mwaba",
+      "nom": "Divination des Mwaba-Gurma",
+      "categorie": "savoir",
+      "description": "Les Mwaba et Gurma de la région de Dapaong se réfèrent à une divination dans toutes les circonstances problématiques de la vie. Selon ses principes, tout existant est un assemblage de huit substances fondamentales diversement arrangées. Cette divination est aussi connue chez d'autres peuples comme les Mamprusi, les Kussancé et les Bissa, et les Mwaba-Gurma l'auraient adoptée il y a 250 à 300 ans au moment de l'étude de 1981.",
+      "communautes": [
+        "Moba (Mwaba)",
+        "Gourma"
+      ],
+      "regions": [
+        "Dapaong",
+        "Savanes"
+      ],
+      "langues": [
+        "moba"
+      ],
+      "sources": [
+        "S37"
+      ],
+      "unesco": null,
+      "periode": "étudiée en 1981",
+      "sensible": true,
+      "note_sensibilite": "Savoir divinatoire : validation par les praticiens et la communauté nécessaire.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-tradition-kente-ewe",
+      "nom": "Tissage du kente éwé",
+      "categorie": "textile",
+      "description": "Le Metropolitan Museum conserve plusieurs pagnes de prestige, ou kente, attribués à des artistes éwé et datés du XXe siècle. Ces étoffes sont de coton, parfois mêlé de soie. Certaines pièces sont rattachées au Togo ou au Ghana, ce qui reflète la présence des Éwé de part et d'autre de la frontière.",
+      "communautes": [
+        "Éwé"
+      ],
+      "regions": [],
+      "langues": [
+        "éwé"
+      ],
+      "sources": [
+        "S65",
+        "S91"
+      ],
+      "unesco": null,
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-tradition-nana-benz",
+      "nom": "Commerce du wax et Nana Benz",
+      "categorie": "textile",
+      "description": "Les Nana Benz sont des commerçantes originaires du sud du Togo, surtout d'Aného, actives des années 1960 aux années 1980 dans le commerce des pagnes en wax. Elles ont inventé des noms et des expressions pour les motifs qu'elles vendaient, créant un langage de symboles et de slogans que leurs descendantes continuent d'enrichir. En langue mina, « nana » est un terme de respect qui signifie mère ou grand-mère.",
+      "communautes": [
+        "Guin (Mina)"
+      ],
+      "regions": [
+        "Aného",
+        "Lomé"
+      ],
+      "langues": [
+        "gen (mina)"
+      ],
+      "sources": [
+        "S120"
+      ],
+      "unesco": null,
+      "periode": "années 1960-1980 et après",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-tradition-cuisine-sud",
+      "nom": "Cuisine du sud : sauces déssi",
+      "categorie": "cuisine",
+      "description": "La cuisine du sud du Togo, réputée en Afrique de l'Ouest, repose sur une grande famille de sauces appelées déssi : sauce de gombo (fétri déssi), de feuilles de gboma, d'égoussi (graines moulues), de tomates avec viande ou poisson, ou encore de noix de palme. On y ajoute du poisson fumé, des crevettes, du crabe, de la viande de bœuf, de chèvre ou de mouton. Wikipédia attribue en partie son rayonnement à des femmes togolaises qui ont voyagé et cuisiné selon leurs traditions.",
+      "communautes": [
+        "Éwé",
+        "Guin"
+      ],
+      "regions": [
+        "sud du Togo"
+      ],
+      "langues": [
+        "éwé",
+        "gen (mina)"
+      ],
+      "sources": [
+        "S121"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "personnalites": [
+    {
+      "id": "TG-personnalite-mlapa-iii",
+      "nom": "Mlapa III",
+      "description": "Mlapa III est le roi éwé de Togoville avec lequel Gustav Nachtigal conclut, le 5 juillet 1884, un traité de protectorat qui ouvre la période coloniale allemande. Avant 1884, son autorité s'étendait autour du lac Togo, où il percevait des taxes sur les passages en bateau. Son nom de naissance serait Plakoo, et sa dynastie existe toujours.",
+      "roles": [
+        "roi de Togoville"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S46",
+        "S109",
+        "S70"
+      ],
+      "wikidata": "Q3317434",
+      "note": "Dates de naissance et de mort non établies dans les sources consultées .",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-personnalite-acolatse",
+      "nom": "Alex Agbaglo Acolatse",
+      "description": "Photographe de studio actif à Lomé, Alex Agbaglo Acolatse a laissé des portraits de la société loméenne : portraits d'habitants, dont des femmes en kente et un autoportrait. Le Metropolitan Museum conserve de lui des négatifs sur verre des années 1910. Il est né à Kedzi en 1880 et mort à Lomé en 1975.",
+      "roles": [
+        "photographe"
+      ],
+      "domaines": [
+        "arts"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S66",
+        "S67",
+        "S72"
+      ],
+      "wikidata": "Q94618373",
+      "naissance": {
+        "date": "1880",
+        "lieu": "Kedzi (Togo)"
+      },
+      "deces": {
+        "date": "1975",
+        "lieu": "Lomé"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-personnalite-nayo-bruce",
+      "nom": "John Calvert Nayo Bruce",
+      "description": "Nayo Bruce, né vers 1859 et mort à Bakou en 1919, est un entrepreneur de spectacle togolais, fils d'un roi et établi à Aného jusqu'au milieu des années 1890. Il a organisé le « village du Togo » à l'exposition coloniale de Berlin de 1895 et dirigé une troupe présentée dans des spectacles de type zoo humain en Europe.",
+      "roles": [
+        "impresario"
+      ],
+      "domaines": [
+        "spectacle"
+      ],
+      "epoque": "XIXe-XXe siècles",
+      "sources": [
+        "S108",
+        "S85"
+      ],
+      "wikidata": "Q130485446",
+      "naissance": {
+        "date": "1859",
+        "lieu": "Togo"
+      },
+      "deces": {
+        "date": "1919-03-03",
+        "lieu": "Bakou"
+      },
+      "sensible": true,
+      "note_sensibilite": "Zoos humains : sujet douloureux pour les descendants ; relecture par des historiens et des ayants droit recommandée. Sources limitées à Wikipédia et Wikidata.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-personnalite-couchoro",
+      "nom": "Félix Couchoro",
+      "description": "Félix Couchoro est un écrivain d'origine dahoméenne installé au Togo, auteur d'une vingtaine de romans. Son premier roman, L'Esclave, paraît à Paris en 1929 ; il passe ensuite à une écriture adaptée à son public local, en feuilletons dans la presse. Son engagement anticolonialiste l'a conduit à l'exil en Gold Coast.",
+      "roles": [
+        "romancier",
+        "enseignant",
+        "journaliste"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S42",
+        "S102",
+        "S74"
+      ],
+      "wikidata": "Q3092429",
+      "naissance": {
+        "date": "1900-01-30",
+        "lieu": "Ouidah"
+      },
+      "deces": {
+        "date": "1968-04-05",
+        "lieu": "Lomé"
+      },
+      "note": "Wikidata donne deux dates de décès (5 avril 1968 et 1969), Wikipédia hésite entre 1968 et 1969 ; naissance à Ouidah (Dahomey).",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-personnalite-sylvanus-olympio",
+      "nom": "Sylvanus Olympio",
+      "description": "Sylvanus Olympio est le premier président de la République togolaise, élu en 1961 après avoir dirigé le gouvernement à partir de 1958. Né à Lomé en 1902 selon Jeune Afrique et Wikidata, formé à la London School of Economics, il parlait plusieurs langues et avait travaillé pour la compagnie Unilever. Il est assassiné devant l'ambassade des États-Unis à Lomé au matin du 13 janvier 1963, après une attaque de sa résidence commencée la veille au soir ; l'événement est présenté comme le premier coup d'État de l'Afrique des indépendances.",
+      "roles": [
+        "Premier ministre",
+        "président de la République"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S52",
+        "S50",
+        "S111",
+        "S68"
+      ],
+      "wikidata": "Q312667",
+      "naissance": {
+        "date": "1902-09-06",
+        "lieu": "Lomé"
+      },
+      "deces": {
+        "date": "1963-01-13",
+        "lieu": "Lomé"
+      },
+      "note": "Lieu de naissance : Lomé selon Jeune Afrique et Wikidata, Kpando selon Wikipédia. Les circonstances de l'assassinat restent débattues.",
+      "sensible": true,
+      "note_sensibilite": "Assassinat et responsabilités disputés : présentation neutre ; Jeune Afrique indique que les États-Unis et la France savent beaucoup de choses sur cette nuit et ne les ont pas rendues publiques.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-personnalite-eyadema",
+      "nom": "Gnassingbé Eyadéma",
+      "description": "Gnassingbé Eyadéma, né en 1935 à Pya dans le nord, s'engage dans l'armée française en 1953 et participe au renversement d'Olympio en 1963. Il prend le pouvoir le 13 janvier 1967 et fonde en novembre 1969 le Rassemblement du peuple togolais. Il dirige le pays jusqu'à sa mort le 5 février 2005 ; son long règne est jugé de manière très contrastée.",
+      "roles": [
+        "militaire",
+        "chef de l'État"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S53",
+        "S112",
+        "S69"
+      ],
+      "wikidata": "Q155385",
+      "naissance": {
+        "date": "1935-12-26",
+        "lieu": "Pya"
+      },
+      "deces": {
+        "date": "2005-02-05",
+        "lieu": "Tunis (selon Wikidata)"
+      },
+      "sensible": true,
+      "note_sensibilite": "Régime autoritaire et bilan disputé ; présentation factuelle limitée aux dates et aux fonctions, à compléter par des sources académiques.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-personnalite-bella-bellow",
+      "nom": "Bella Bellow",
+      "description": "Bella Bellow, de son vrai nom Georgette Nafiatou Adjoavi Bellow, est une chanteuse et compositrice togolaise née à Tsévié. Elle chante surtout en mina et enregistre en 1969 son seul album, Rockia, avec le saxophoniste camerounais Manu Dibango. Elle meurt dans un accident de la route en décembre 1973, à 28 ans, et a influencé de nombreux artistes, dont Angélique Kidjo.",
+      "roles": [
+        "chanteuse",
+        "compositrice",
+        "autrice"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S101",
+        "S71"
+      ],
+      "wikidata": "Q425135",
+      "naissance": {
+        "date": "1945-01-01",
+        "lieu": "Tsévié"
+      },
+      "deces": {
+        "date": "1973-12-10",
+        "lieu": "Lilikopé (entre Tsévié et Agbélouvé)"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-personnalite-ahyi",
+      "nom": "Paul Ahyi",
+      "description": "Paul Ahyi est un artiste togolais majeur : sculpteur, peintre, graveur, designer et poète. Né à Abomey en 1930 de parents togolais, il étudie à Dakar puis en France ; Wikipédia range le drapeau du Togo parmi ses œuvres principales. Il meurt à Lomé le 4 janvier 2010.",
+      "roles": [
+        "sculpteur",
+        "peintre",
+        "graveur",
+        "écrivain"
+      ],
+      "domaines": [
+        "arts"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S103",
+        "S73"
+      ],
+      "wikidata": "Q3743747",
+      "naissance": {
+        "date": "1930-01-15",
+        "lieu": "Abomey (Dahomey)"
+      },
+      "deces": {
+        "date": "2010-01-04",
+        "lieu": "Lomé"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-personnalite-kodjo",
+      "nom": "Edem Kodjo",
+      "description": "Originaire de Sokodé, Edem Kodjo est un diplomate et homme politique formé à l'ENA française. Il est secrétaire général de l'Organisation de l'unité africaine de 1978 à 1983, puis Premier ministre du Togo de 1994 à 1996 et de 2005 à 2006. Il meurt le 11 avril 2020 à Neuilly-sur-Seine.",
+      "roles": [
+        "secrétaire général de l'OUA",
+        "Premier ministre"
+      ],
+      "domaines": [
+        "politique",
+        "diplomatie"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S54",
+        "S110",
+        "S78"
+      ],
+      "wikidata": "Q961159",
+      "naissance": {
+        "date": "1938",
+        "lieu": "Sokodé"
+      },
+      "deces": {
+        "date": "2020-04-11",
+        "lieu": "Neuilly-sur-Seine"
+      },
+      "note": "Wikidata donne deux dates de naissance (23 mai et 1er mai 1938).",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-personnalite-kpomassie",
+      "nom": "Tété-Michel Kpomassie",
+      "description": "Tété-Michel Kpomassie est un voyageur et écrivain togolais, connu pour L'Africain du Groenland. Il y raconte comment, adolescent, il a décidé de rejoindre le Groenland après avoir lu un livre sur l'île, et son voyage de plusieurs années. Le livre, paru en France en 1980, lui vaut le Prix littéraire francophone international en 1981.",
+      "roles": [
+        "écrivain",
+        "voyageur"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S104",
+        "S81"
+      ],
+      "wikidata": "Q1362987",
+      "naissance": {
+        "date": "1941",
+        "lieu": "Atoéta (Togo)"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-personnalite-sami-tchak",
+      "nom": "Sami Tchak",
+      "description": "Sami Tchak, nom de plume de Sadamba Tcha-Koura, est un écrivain et sociologue togolais, né en 1960 dans une famille kotokoli. Installé à Paris depuis 1986, il a publié des essais et une douzaine de romans, et son œuvre a reçu plusieurs prix dont le Grand prix Afrique en 2004.",
+      "roles": [
+        "écrivain",
+        "sociologue"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S106",
+        "S80"
+      ],
+      "wikidata": "Q786040",
+      "naissance": {
+        "date": "1960",
+        "lieu": "Togo"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-personnalite-efoui",
+      "nom": "Kossi Efoui",
+      "description": "Kossi Efoui est un dramaturge, romancier et chroniqueur togolais né en 1962 à Anfoin. Il obtient en 1989 le Grand Prix Tchicaya U Tam'si du concours théâtral interafricain pour sa pièce Le Carrefour. Engagé contre le régime d'Eyadéma, il a dû s'exiler en France.",
+      "roles": [
+        "dramaturge",
+        "romancier"
+      ],
+      "domaines": [
+        "littérature",
+        "théâtre"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S107",
+        "S79"
+      ],
+      "wikidata": "Q982017",
+      "naissance": {
+        "date": "1962-12-30",
+        "lieu": "Anfoin"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-personnalite-afia-mala",
+      "nom": "Afia Mala",
+      "description": "Afia Mala, surnommée la Princesse des rives du Mono, est une chanteuse togolaise originaire de Vogan. Elle chante en éwé, en yoruba, en swahili, en lingala, en français et en espagnol, et a reçu le Prix découvertes RFI en 1984. Elle compte Bella Bellow parmi ses sources d'inspiration.",
+      "roles": [
+        "chanteuse"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S116",
+        "S83"
+      ],
+      "wikidata": "Q11849842",
+      "naissance": {
+        "lieu": "Vogan ou Lomé (selon les sources)"
+      },
+      "note": "Date de naissance non renseignée dans les sources consultées.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-personnalite-afi-nayo",
+      "nom": "Afi Nayo",
+      "description": "Afi Nayo est une artiste née à Lomé en 1969, sculptrice et peintre, qui vit à Paris depuis son enfance. Ses œuvres, d'abord monochromes puis plus colorées, abordent la spiritualité et l'interdépendance culturelle. Elle a exposé en Europe, en Afrique et à New York.",
+      "roles": [
+        "sculptrice",
+        "peintre"
+      ],
+      "domaines": [
+        "arts"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S117",
+        "S84"
+      ],
+      "wikidata": "Q56678205",
+      "naissance": {
+        "date": "1969",
+        "lieu": "Lomé"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-personnalite-glitho",
+      "nom": "Adolé Isabelle Glitho-Akueson",
+      "description": "Adolé Isabelle Glitho-Akueson est une entomologiste, professeure de biologie animale à l'université de Lomé. Elle préside le comité UNESCO « Femmes, sciences et gestion durable de l'eau en Afrique de l'Ouest et du Centre » et est membre de l'Académie africaine des sciences depuis 2015. Elle a reçu le Prix régional des femmes scientifiques de l'Union africaine en 2013.",
+      "roles": [
+        "entomologiste",
+        "professeure"
+      ],
+      "domaines": [
+        "sciences"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S114",
+        "S76"
+      ],
+      "wikidata": "Q50308829",
+      "naissance": {
+        "date": "1949-05-04",
+        "lieu": "Covè (Dahomey)"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-personnalite-adjamagbo-johnson",
+      "nom": "Kafui Adjamagbo-Johnson",
+      "description": "Kafui Adjamagbo-Johnson est une juriste, enseignante-chercheure et militante des droits humains, née à Bassar en 1958. Elle a siégé dans les institutions de la transition des années 1990, fondé un groupe d'action sur les femmes et la démocratie, et est la première femme candidate à une élection présidentielle au Togo, en 2010. Elle est secrétaire générale du parti CDPA depuis 2012.",
+      "roles": [
+        "juriste",
+        "femme politique",
+        "militante"
+      ],
+      "domaines": [
+        "politique",
+        "droits humains"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S115",
+        "S77"
+      ],
+      "wikidata": "Q3191841",
+      "naissance": {
+        "date": "1958-12-26",
+        "lieu": "Bassar"
+      },
+      "sensible": true,
+      "note_sensibilite": "Personnalité politique en activité : présentation limitée à des faits datés ; sources limitées à Wikipédia et Wikidata.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-personnalite-tomegah-dogbe",
+      "nom": "Victoire Tomégah-Dogbé",
+      "description": "Victoire Tomégah-Dogbé est une femme politique togolaise. Directrice de cabinet de la Présidence de 2009 à 2020, elle devient Première ministre du Togo le 28 septembre 2020 et reste à ce poste jusqu'au 2 mai 2025.",
+      "roles": [
+        "Première ministre",
+        "ministre"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S113",
+        "S75"
+      ],
+      "wikidata": "Q16682496",
+      "naissance": {
+        "date": "1959-12-23",
+        "lieu": "Lomé (Wikipédia) ; Badougbé (Wikidata)"
+      },
+      "sensible": true,
+      "note_sensibilite": "Personnalité politique récente : présentation limitée aux fonctions et dates ; sources limitées à Wikipédia et Wikidata.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-personnalite-akoussah",
+      "nom": "Julie Akofa Akoussah",
+      "description": "Julie Akofa Akoussah, dite Mamy, est une chanteuse togolaise née à Tsévié en 1950 et morte à Bondy, en France, en 2007. Elle fait partie de la génération de Bella Bellow, avec qui un duel artistique l'a opposée au Centre culturel français de Lomé en 1962. Elle a présidé l'Union nationale des artistes musiciens du Togo.",
+      "roles": [
+        "chanteuse"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S118",
+        "S87"
+      ],
+      "wikidata": "Q28054787",
+      "naissance": {
+        "date": "1950-04-12",
+        "lieu": "Tsévié"
+      },
+      "deces": {
+        "date": "2007-04-24",
+        "lieu": "Bondy (France)"
+      },
+      "note": "Wikipédia indique parfois le 25 avril pour le décès ; Wikidata retient le 24 avril.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-personnalite-boukpeti",
+      "nom": "Benjamin Boukpeti",
+      "description": "Benjamin Boukpeti est un kayakiste de slalom, né en France d'un père togolais et d'une mère française, qui défend les couleurs du Togo. Aux Jeux olympiques de Pékin en 2008, il remporte la médaille de bronze en K1 et offre au Togo sa première médaille olympique.",
+      "roles": [
+        "kayakiste"
+      ],
+      "domaines": [
+        "sport"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S58",
+        "S105",
+        "S82"
+      ],
+      "wikidata": "Q350261",
+      "naissance": {
+        "date": "1981-08-04",
+        "lieu": "Lagny-sur-Marne (France)"
+      },
+      "note": "Olympedia indique « Lagny, Oise » tandis que Wikipédia et Wikidata indiquent Lagny-sur-Marne (Seine-et-Marne) ; Wikidata le décrit comme kayakiste français.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-personnalite-adebayor",
+      "nom": "Emmanuel Adebayor",
+      "description": "Emmanuel Adebayor est un footballeur international togolais né à Lomé en 1984, attaquant passé par Metz, Monaco, Arsenal, Manchester City, le Real Madrid et Tottenham. Il compte 88 sélections avec le Togo entre 2000 et 2019 selon Wikipédia.",
+      "roles": [
+        "footballeur"
+      ],
+      "domaines": [
+        "sport"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S119",
+        "S86"
+      ],
+      "wikidata": "Q386876",
+      "naissance": {
+        "date": "1984-02-26",
+        "lieu": "Lomé"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "evenements": [
+    {
+      "id": "TG-evenement-fer-bassar",
+      "titre": "Début de la sidérurgie en pays bassar",
+      "date": "-000499-01-01",
+      "date_affichee": "Ve siècle av. J.-C.",
+      "precision": "siecle",
+      "description": "Les sites du pays bassar portent les plus anciennes traces de production du fer au Togo : la liste indicative situe les débuts de cette activité au Ve siècle avant notre ère, une autre partie du même dossier parlant de 400 ans avant J.-C. Elle se développe ensuite en plusieurs points de la région jusqu'au milieu du XXe siècle.",
+      "sources": [
+        "S11",
+        "S51",
+        "S89"
+      ],
+      "regions": [
+        "Bassar",
+        "Kara"
+      ],
+      "acteurs": [
+        "forgerons bassar"
+      ],
+      "note": "Le dossier UNESCO donne deux repères voisins (Ve siècle et 400 av. J.-C.) ; la date exacte dépend des fouilles.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-evenement-glidji-1680",
+      "titre": "Foli Bébé rejoint les premiers migrants guin",
+      "date": "1680-01-01",
+      "date_affichee": "vers 1680-1681",
+      "precision": "annee",
+      "description": "Selon les recherches d'Alain Mignot, résumées dans une recension, Foli Bébé, prince d'Accra, rejoint vers 1680-1681 les premiers migrants guin sur la côte du sud-est. Il cherche à reconstruire un royaume et à concentrer le pouvoir à Glidji. L'auteur nuance la version plus ancienne qui voyait des terres vacantes.",
+      "sources": [
+        "S40",
+        "S9"
+      ],
+      "regions": [
+        "Glidji",
+        "Aného"
+      ],
+      "acteurs": [
+        "Foli Bébé",
+        "Guin"
+      ],
+      "note": "Les dates et le déroulement varient selon les historiens ; tradition orale et recherches ne concordent pas toujours.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-evenement-little-popo-1688",
+      "titre": "Premier poste commercial européen à Little Popo",
+      "date": "1688-01-01",
+      "date_affichee": "1688",
+      "precision": "annee",
+      "description": "Little Popo, aujourd'hui Aného, s'impose comme port dans la seconde moitié du XVIIe siècle grâce aux canots et à leurs rameurs sur la zone lagunaire. Le premier poste commercial européen, celui de la Royal African Company, y date de 1688. Les Européens se succèdent ensuite à la recherche d'esclaves, mais la place n'atteint jamais l'importance d'Ouidah faute de liens solides avec l'intérieur.",
+      "sources": [
+        "S47"
+      ],
+      "regions": [
+        "Aného"
+      ],
+      "acteurs": [
+        "Royal African Company"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-evenement-exode-notse",
+      "titre": "Exode des Éwé de Notsé",
+      "date": "1600-01-01",
+      "date_affichee": "XVIe-XVIIe siècle (chronologie discutée)",
+      "precision": "siecle",
+      "description": "Selon la tradition éwé, des habitants de Notsé quittent la ville sous le règne du roi Agokoli et se dispersent vers l'ouest, dans le sud du Togo actuel et jusqu'au Ghana. L'événement est décrit comme une migration fondatrice, mais les historiens soulignent que sa place dans l'origine des Éwé est parfois surestimée et que la chronologie varie selon les auteurs. Une version standard du récit, publiée en 1948 par H. Kwakume, est citée dans les travaux d'anthropologie.",
+      "sources": [
+        "S94",
+        "S44",
+        "S89"
+      ],
+      "regions": [
+        "Notsé",
+        "Plateaux"
+      ],
+      "acteurs": [
+        "roi Agokoli",
+        "Éwé"
+      ],
+      "note": "Wikipédia date le règne d'Agokoli de 1670 à 1720 et l'événement des XVIe-XVIIe siècles ; d'autres auteurs situent le règne à une autre période.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-evenement-akposso-installation",
+      "titre": "Installation durable des Akposso, Bèdrè et Ekpèbè sur les plateaux",
+      "date": "1600-01-01",
+      "date_affichee": "XVIe-XIXe siècles",
+      "precision": "siecle",
+      "description": "Repliés vers les plateaux du sud-ouest des monts Togo, les Akposso, les Bèdrè et les Ekpèbè connaissent de multiples déplacements avant de se fixer définitivement sur leur territoire actuel entre le XVIe et le XIXe siècle. Ils vivent sans pouvoir centralisé, au contact de royaumes voisins comme ceux des Fon, des Ashanti, des Akwamu, des Éwé et des Kotokoli.",
+      "sources": [
+        "S48"
+      ],
+      "fin": "1899-12-31",
+      "regions": [
+        "Plateaux"
+      ],
+      "acteurs": [
+        "Akposso",
+        "Bèdrè",
+        "Ekpèbè"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-evenement-insecurite-nord",
+      "titre": "Périodes d'insécurité et greniers de falaise au nord",
+      "date": "1600-01-01",
+      "date_affichee": "XVIIe-XIXe siècles",
+      "precision": "siecle",
+      "description": "Dans la région des Savanes, les guerres d'hégémonie, les razzias et le commerce des esclaves entretenus par plusieurs royaumes voisins poussent des populations à se réfugier dans des grottes de falaise. Elles y construisent des greniers pour résister aux sièges, et y entretiennent des sanctuaires de divinités. Ces sites font aujourd'hui partie de la liste indicative du Togo.",
+      "sources": [
+        "S10"
+      ],
+      "fin": "1899-12-31",
+      "regions": [
+        "Savanes",
+        "Tandjouaré"
+      ],
+      "acteurs": [
+        "populations moba-gourma"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-evenement-protectorat-1884",
+      "titre": "Traité de protectorat de Nachtigal avec Mlapa III",
+      "date": "1884-07-05",
+      "date_affichee": "5 juillet 1884",
+      "precision": "jour",
+      "description": "Le 5 juillet 1884, l'explorateur allemand Gustav Nachtigal signe avec le roi Mlapa III de Togoville un traité de protectorat. À partir de ce moment, le Togo devient une colonie allemande. Le nom du pays vient de Togoville.",
+      "sources": [
+        "S46",
+        "S89",
+        "S109"
+      ],
+      "regions": [
+        "Togoville",
+        "Baguida"
+      ],
+      "acteurs": [
+        "Gustav Nachtigal",
+        "Mlapa III"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-evenement-lome-capitale-1897",
+      "titre": "Lomé, capitale-frontière du Togo allemand",
+      "date": "1897-01-01",
+      "date_affichee": "1897",
+      "precision": "annee",
+      "description": "Une étude sur Lomé rattache la création de la « capitale-frontière » du Togo allemand à l'année 1897. La position à la limite de la colonie britannique de la Gold Coast a fait de la ville un carrefour du commerce, à cause des différences économiques et monétaires entre les deux territoires. Aného avait servi de première capitale allemande dans les années 1880.",
+      "sources": [
+        "S45",
+        "S9"
+      ],
+      "regions": [
+        "Lomé"
+      ],
+      "acteurs": [
+        "administration allemande"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-evenement-evacuation-1914",
+      "titre": "Les Allemands évacuent le Togo",
+      "date": "1914-08-01",
+      "date_affichee": "août 1914",
+      "precision": "mois",
+      "description": "Une fois la guerre déclarée, le Togo allemand, entouré de colonies françaises et britanniques, est occupé rapidement par des forces alliées venues de la Gold Coast, de la Haute-Volta et du Dahomey. La force de police allemande n'était pas conçue pour un affrontement militaire. Wikipédia indique que le commandement allemand capitule en août 1914 à Atakpamé.",
+      "sources": [
+        "S41",
+        "S89"
+      ],
+      "regions": [
+        "Sokodé",
+        "Atakpamé",
+        "Nord-Togo"
+      ],
+      "acteurs": [
+        "forces françaises et britanniques",
+        "Allemagne"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-evenement-mandat-1922",
+      "titre": "Le Togo français sous mandat de la Société des Nations",
+      "date": "1922-01-01",
+      "date_affichee": "1922",
+      "precision": "annee",
+      "description": "Après la Première Guerre mondiale, le Togo est divisé entre la France et le Royaume-Uni. La partie française, à l'est, est administrée sous mandat B de la Société des Nations de 1922 à 1945, puis sous tutelle de l'ONU. Les autorités françaises imposent progressivement le français comme seule langue d'enseignement.",
+      "sources": [
+        "S50",
+        "S89"
+      ],
+      "fin": "1945-12-31",
+      "acteurs": [
+        "France",
+        "Royaume-Uni",
+        "Société des Nations"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-evenement-tutelle-onu",
+      "titre": "Tutelle de l'ONU sur le Togo français",
+      "date": "1945-01-01",
+      "date_affichee": "1945-1960 (selon l'auteure citée)",
+      "precision": "annee",
+      "description": "Le territoire est placé sous tutelle des Nations unies et administré par la France jusqu'à l'indépendance. L'ONU supervise aussi les élections et les consultations organisées avant 1960.",
+      "sources": [
+        "S50",
+        "S57"
+      ],
+      "fin": "1960-04-27",
+      "acteurs": [
+        "ONU",
+        "France"
+      ],
+      "note": "La date de départ (1945) est celle donnée par l'auteure citée ; l'accord de tutelle lui-même est postérieur.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-evenement-plebiscite-1956",
+      "titre": "Plébiscite au Togoland britannique",
+      "date": "1956-05-09",
+      "date_affichee": "9 mai 1956",
+      "precision": "jour",
+      "description": "Le 9 mai 1956, un plébiscite est organisé dans le Togoland britannique sous observation de l'ONU pour décider de l'avenir du territoire. Une majorité se prononce pour l'union avec la Gold Coast voisine, tandis que certains districts du sud votent pour la poursuite de la tutelle. Wikipédia indique que les Éwé refusent ce choix, qui consacre la partition de leur peuple.",
+      "sources": [
+        "S56",
+        "S57",
+        "S89"
+      ],
+      "regions": [
+        "Togoland britannique"
+      ],
+      "acteurs": [
+        "ONU",
+        "Royaume-Uni",
+        "Gold Coast"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Résultats chiffrés légèrement différents selon les sources : 93 365 contre 67 422 (UN Photo), 93 095 contre 67 492 (Département d'État des États-Unis).",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-evenement-independance-1960",
+      "titre": "Indépendance du Togo",
+      "date": "1960-04-27",
+      "date_affichee": "27 avril 1960",
+      "precision": "jour",
+      "description": "Le Togo, ancien territoire sous tutelle de l'ONU administré par la France, devient indépendant le 27 avril 1960. Cette date est aujourd'hui la fête nationale. Le pays garde cependant des liens étroits avec la France.",
+      "sources": [
+        "S50",
+        "S89",
+        "S88"
+      ],
+      "acteurs": [
+        "Sylvanus Olympio",
+        "France",
+        "ONU"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-evenement-coup-1963",
+      "titre": "Assassinat de Sylvanus Olympio et coup d'État",
+      "date": "1963-01-13",
+      "date_affichee": "13 janvier 1963",
+      "precision": "jour",
+      "description": "Dans la nuit du 12 au 13 janvier 1963, la résidence du président Sylvanus Olympio est attaquée à Lomé ; il est assassiné vers 7 h 15 devant le portail de l'ambassade des États-Unis. Cet événement ouvre une longue période d'instabilité politique et militaire.",
+      "sources": [
+        "S52",
+        "S89",
+        "S68"
+      ],
+      "regions": [
+        "Lomé"
+      ],
+      "acteurs": [
+        "Sylvanus Olympio",
+        "militaires dont Gnassingbé Eyadéma"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet politique récent ou contesté : présentation factuelle limitée aux dates et aux faits établis par les sources citées ; positions des parties à compléter avec des sources académiques et institutionnelles. Les responsabilités exactes restent débattues.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-evenement-coup-1967",
+      "titre": "Prise de pouvoir de Gnassingbé Eyadéma",
+      "date": "1967-01-13",
+      "date_affichee": "13 janvier 1967",
+      "precision": "jour",
+      "description": "Le 13 janvier 1967, l'armée prend le pouvoir au Togo et Gnassingbé Eyadéma se déclare président. Il suspend la Constitution et dissout l'Assemblée selon Wikipédia, et dirigera le pays jusqu'en 2005.",
+      "sources": [
+        "S53",
+        "S89",
+        "S69"
+      ],
+      "regions": [
+        "Lomé"
+      ],
+      "acteurs": [
+        "Gnassingbé Eyadéma"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet politique récent ou contesté : présentation factuelle limitée aux dates et aux faits établis par les sources citées ; positions des parties à compléter avec des sources académiques et institutionnelles.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-evenement-rpt-1969",
+      "titre": "Création du Rassemblement du peuple togolais",
+      "date": "1969-11-01",
+      "date_affichee": "novembre 1969",
+      "precision": "mois",
+      "description": "En novembre 1969, Gnassingbé Eyadéma crée le Rassemblement du peuple togolais (RPT), parti qui deviendra le seul autorisé. Il le met au service d'un régime à parti unique.",
+      "sources": [
+        "S53",
+        "S89"
+      ],
+      "acteurs": [
+        "Gnassingbé Eyadéma"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet politique récent ou contesté : présentation factuelle limitée aux dates et aux faits établis par les sources citées ; positions des parties à compléter avec des sources académiques et institutionnelles.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-evenement-conference-nationale-1991",
+      "titre": "Conférence nationale souveraine",
+      "date": "1991-07-08",
+      "date_affichee": "8 juillet 1991",
+      "precision": "jour",
+      "description": "Une conférence nationale s'ouvre en juillet 1991 après les émeutes de 1990 et la grève générale. Elle élit Joseph Kokou Koffigoh Premier ministre de transition, dissout le RPT selon Jeune Afrique et met en place un Parlement de transition, le Haut Conseil de la République. Wikipédia indique qu'elle siège jusqu'au 28 août 1991 avec 800 délégués.",
+      "sources": [
+        "S53",
+        "S89"
+      ],
+      "fin": "1991-08-28",
+      "regions": [
+        "Lomé"
+      ],
+      "acteurs": [
+        "Joseph Kokou Koffigoh",
+        "opposition",
+        "Gnassingbé Eyadéma"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet politique récent ou contesté : présentation factuelle limitée aux dates et aux faits établis par les sources citées ; positions des parties à compléter avec des sources académiques et institutionnelles. Le processus de transition a été interrompu par des violences à la fin de 1991.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-evenement-presidentielle-1998",
+      "titre": "Élection présidentielle de 1998",
+      "date": "1998-06-21",
+      "date_affichee": "21 juin 1998",
+      "precision": "jour",
+      "description": "Le 21 juin 1998, Gnassingbé Eyadéma est réélu avec 52,13 % des voix, devant Gilchrist Olympio, en exil au Ghana, qui obtient 34,12 % selon Jeune Afrique. Le résultat est contesté par l'opposition d'après Wikipédia.",
+      "sources": [
+        "S53",
+        "S89"
+      ],
+      "acteurs": [
+        "Gnassingbé Eyadéma",
+        "Gilchrist Olympio"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet politique récent ou contesté : présentation factuelle limitée aux dates et aux faits établis par les sources citées ; positions des parties à compléter avec des sources académiques et institutionnelles.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-evenement-mort-eyadema-2005",
+      "titre": "Mort de Gnassingbé Eyadéma",
+      "date": "2005-02-05",
+      "date_affichee": "5 février 2005",
+      "precision": "jour",
+      "description": "Gnassingbé Eyadéma meurt le 5 février 2005 d'une crise cardiaque après presque quarante ans à la tête de l'État. Son fils, Faure Gnassingbé, lui succède après une période de tensions dont les analyses divergent.",
+      "sources": [
+        "S53",
+        "S69",
+        "S89"
+      ],
+      "acteurs": [
+        "Gnassingbé Eyadéma",
+        "Faure Gnassingbé"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet politique récent ou contesté : présentation factuelle limitée aux dates et aux faits établis par les sources citées ; positions des parties à compléter avec des sources académiques et institutionnelles.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-evenement-koutammakou-2004",
+      "titre": "Koutammakou inscrit au patrimoine mondial",
+      "date": "2004-01-01",
+      "date_affichee": "2004",
+      "precision": "annee",
+      "description": "Le Koutammakou, pays des Batammariba, est inscrit sur la Liste du patrimoine mondial de l'UNESCO en 2004, comme paysage culturel illustrant la relation entre un peuple, ses maisons-tours en terre et son milieu. C'est l'unique bien togolais inscrit à ce jour.",
+      "sources": [
+        "S8",
+        "S6"
+      ],
+      "regions": [
+        "Koutammakou"
+      ],
+      "acteurs": [
+        "Batammariba",
+        "UNESCO"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-evenement-gelede-2008",
+      "titre": "Le Gelede inscrit au patrimoine immatériel",
+      "date": "2008-01-01",
+      "date_affichee": "2008",
+      "precision": "annee",
+      "description": "Le patrimoine oral du Gelede, proclamé chef-d'œuvre en 2001, est inscrit en 2008 sur la Liste représentative du patrimoine culturel immatériel de l'humanité, avec le Bénin, le Nigeria et le Togo.",
+      "sources": [
+        "S15"
+      ],
+      "acteurs": [
+        "communauté yoruba-nago",
+        "UNESCO"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-evenement-boukpeti-2008",
+      "titre": "Première médaille olympique du Togo",
+      "date": "2008-08-01",
+      "date_affichee": "août 2008",
+      "precision": "mois",
+      "description": "Aux Jeux olympiques de Pékin, Benjamin Boukpeti remporte le bronze en kayak slalom K1 et offre au Togo sa première médaille olympique.",
+      "sources": [
+        "S58",
+        "S105"
+      ],
+      "acteurs": [
+        "Benjamin Boukpeti"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-evenement-pluies-2018",
+      "titre": "Pluies destructrices au Koutammakou",
+      "date": "2018-08-01",
+      "date_affichee": "août 2018",
+      "precision": "mois",
+      "description": "De fortes pluies frappent le nord-est du Togo en août 2018 et endommagent des takienta, des terres agricoles et des autels ancestraux. Une mission d'urgence de l'UNESCO visite plusieurs villages et consulte la population batammariba, le préfet de Kéran et le ministre de la Culture.",
+      "sources": [
+        "S7"
+      ],
+      "regions": [
+        "Koutammakou",
+        "Kéran"
+      ],
+      "acteurs": [
+        "Batammariba",
+        "UNESCO"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-evenement-koutammakou-2023",
+      "titre": "Extension transfrontalière du Koutammakou",
+      "date": "2023-01-01",
+      "date_affichee": "2023",
+      "precision": "annee",
+      "description": "L'extension du Koutammakou vers le Bénin voisin est inscrite en 2023, ce qui fait du site un bien transfrontalier partagé entre les deux pays. Elle englobe des bosquets, des sources, des rochers sacrés, des pentes en terrasses et des espèces végétales liées à la construction des maisons.",
+      "sources": [
+        "S8",
+        "S5"
+      ],
+      "regions": [
+        "Koutammakou"
+      ],
+      "acteurs": [
+        "Togo",
+        "Bénin",
+        "UNESCO"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-evenement-sages-femmes-2023",
+      "titre": "L'obstétrique inscrite au patrimoine immatériel",
+      "date": "2023-01-01",
+      "date_affichee": "2023",
+      "precision": "annee",
+      "description": "En 2023, l'élément « Obstétrique : savoirs, compétences et pratiques » est inscrit sur la Liste représentative du patrimoine culturel immatériel de l'humanité, avec une candidature commune de plusieurs pays dont le Togo.",
+      "sources": [
+        "S14"
+      ],
+      "acteurs": [
+        "sages-femmes",
+        "UNESCO"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-evenement-constitution-2024",
+      "titre": "Constitution de la Ve République",
+      "date": "2024-04-19",
+      "date_affichee": "19 avril 2024",
+      "precision": "jour",
+      "description": "La nouvelle Constitution, adoptée définitivement le 19 avril 2024 et promulguée le 6 mai, fait passer le Togo d'un régime présidentiel à un régime parlementaire, avec un président du Conseil des ministres. Selon Jeune Afrique, le camp présidentiel affirme que cela garantit une meilleure représentativité, tandis que l'opposition dénonce un « hold-up électoral » ; le journal note que le texte permet à Faure Gnassingbé de rester aux commandes tant que son parti remporte les législatives, organisées tous les six ans.",
+      "sources": [
+        "S55",
+        "S88"
+      ],
+      "acteurs": [
+        "Assemblée nationale",
+        "Faure Gnassingbé",
+        "opposition"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet politique récent ou contesté : présentation factuelle limitée aux dates et aux faits établis par les sources citées ; positions des parties à compléter avec des sources académiques et institutionnelles.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-evenement-guin-2025",
+      "titre": "Les rites du nouvel an guin inscrits à l'UNESCO",
+      "date": "2025-01-01",
+      "date_affichee": "2025",
+      "precision": "annee",
+      "description": "En 2025, les rites du nouvel an du pays guin, avec le port de la pierre sacrée, sont inscrits sur la Liste représentative du patrimoine culturel immatériel de l'humanité, à la 20e session du Comité.",
+      "sources": [
+        "S13"
+      ],
+      "regions": [
+        "sud du Togo"
+      ],
+      "acteurs": [
+        "Guin",
+        "UNESCO"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-evenement-spieth-1906",
+      "titre": "Publication de Die Ewe-Stämme",
+      "date": "1906-01-01",
+      "date_affichee": "1906",
+      "precision": "annee",
+      "description": "Le missionnaire allemand Jakob Spieth publie à Berlin Die Ewe-Stämme, vaste ouvrage sur les peuples éwé du Togo allemand comprenant des chapitres sur le « Geistesleben » et des proverbes. Cet ouvrage colonial est aujourd'hui une source ancienne, à lire avec esprit critique.",
+      "sources": [
+        "S59"
+      ],
+      "acteurs": [
+        "Jakob Spieth",
+        "Éwé"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-evenement-couchoro-1929",
+      "titre": "Parution de L'Esclave de Félix Couchoro",
+      "date": "1929-01-01",
+      "date_affichee": "1929",
+      "precision": "annee",
+      "description": "Le premier roman de Félix Couchoro, L'Esclave, est publié à Paris en 1929 à l'attention d'un public français. L'auteur adapte ensuite son écriture à son lectorat local en publiant des romans-feuilletons.",
+      "sources": [
+        "S42",
+        "S74"
+      ],
+      "acteurs": [
+        "Félix Couchoro"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-evenement-mort-bella-bellow-1973",
+      "titre": "Mort de Bella Bellow",
+      "date": "1973-12-10",
+      "date_affichee": "10 décembre 1973",
+      "precision": "jour",
+      "description": "La chanteuse Bella Bellow meurt dans un accident de la route à Lilikopé, peu après son retour au Togo, à 28 ans. Wikipédia indique que l'anniversaire de sa mort est célébré chaque année dans le pays.",
+      "sources": [
+        "S71",
+        "S101"
+      ],
+      "regions": [
+        "Tsévié",
+        "Lilikopé"
+      ],
+      "acteurs": [
+        "Bella Bellow"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "oeuvres": [
+    {
+      "id": "TG-oeuvre-figure-ewe",
+      "titre": "Figure féminine éwé",
+      "type": "sculpture",
+      "description": "Cette sculpture en bois, haute d'environ 62 cm, est attribuée à un artiste éwé du XIXe ou de la première moitié du XXe siècle. Elle a été donnée au Metropolitan Museum en 1976.",
+      "sources": [
+        "S60"
+      ],
+      "periode": "XIXe-milieu XXe siècle",
+      "createur": "artiste éwé",
+      "communaute": "Éwé",
+      "materiaux": [
+        "bois"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1976.26.2",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/310172",
+      "droits": "Notice du Metropolitan Museum of Art (API publique) ; image non reproduite ici.",
+      "sensible": true,
+      "note_sensibilite": "La notice ne précise pas la fonction de l'objet ; un usage rituel est possible et doit être vérifié avec la communauté.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-oeuvre-figure-moba",
+      "titre": "Figure féminine moba",
+      "type": "sculpture",
+      "description": "Cette figure féminine en bois est attribuée à un artiste moba et datée du XIXe à la première moitié du XXe siècle. Elle porte le numéro d'inventaire 1981.481 au Metropolitan Museum.",
+      "sources": [
+        "S61"
+      ],
+      "periode": "XIXe-milieu XXe siècle",
+      "createur": "artiste moba",
+      "communaute": "Moba",
+      "materiaux": [
+        "bois"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1981.481",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/314496",
+      "droits": "Notice du Metropolitan Museum of Art (API publique) ; image non reproduite ici.",
+      "sensible": true,
+      "note_sensibilite": "La notice ne précise pas la fonction de l'objet ; un usage rituel est possible et doit être vérifié avec la communauté.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-oeuvre-coiffe-moba-konkomba",
+      "titre": "Coiffe moba ou konkomba",
+      "type": "bijou",
+      "description": "Cette coiffe de 39 cm de haut est faite d'une calebasse, de corne, de ficelle et de cauris. Le Metropolitan Museum l'attribue à un artiste moba ou konkomba du XIXe ou de la première moitié du XXe siècle. Elle fait partie de la collection Michael C. Rockefeller.",
+      "sources": [
+        "S62"
+      ],
+      "periode": "XIXe-milieu XXe siècle",
+      "createur": "artiste moba ou konkomba",
+      "communaute": "Moba ou Konkomba",
+      "materiaux": [
+        "calebasse",
+        "corne",
+        "ficelle",
+        "cauris"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1979.206.168",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/312383",
+      "droits": "Notice du Metropolitan Museum of Art (API publique) ; image non reproduite ici.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-oeuvre-coiffe-guerrier",
+      "titre": "Coiffe de guerrier moba ou konkomba",
+      "type": "bijou",
+      "description": "Cette coiffe, haute d'environ 61 cm, associe calebasse, cauris, corne, peau, perles, fer et fil. Le Metropolitan Museum l'attribue à un artiste moba ou konkomba et la rattache à la collection Bryce Holcombe d'art décoratif africain.",
+      "sources": [
+        "S63"
+      ],
+      "periode": "XIXe-milieu XXe siècle",
+      "createur": "artiste moba ou konkomba",
+      "communaute": "Moba ou Konkomba",
+      "materiaux": [
+        "calebasse",
+        "cauris",
+        "corne",
+        "peau",
+        "perles",
+        "fer",
+        "fil"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1983.142.7",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/314599",
+      "droits": "Notice du Metropolitan Museum of Art (API publique) ; image non reproduite ici.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-oeuvre-tete-buffle",
+      "titre": "Figure : tête de buffle",
+      "type": "sculpture",
+      "description": "Cette figure en terre cuite, haute d'environ 23 cm, représente une tête de buffle. Le Metropolitan Museum l'attribue aux Éwé et note une provenance possible de Kpandu, au Togo ou au Ghana.",
+      "sources": [
+        "S64"
+      ],
+      "periode": "XIXe-XXe siècle",
+      "communaute": "Éwé",
+      "materiaux": [
+        "terre cuite"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1979.206.1",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/312173",
+      "droits": "Notice du Metropolitan Museum of Art (API publique) ; image non reproduite ici.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-oeuvre-kente-ewe",
+      "titre": "Pagne de prestige kente pour homme",
+      "type": "textile",
+      "description": "Ce grand pagne de coton, haut d'environ 2,8 m, est attribué à un artiste éwé du XXe siècle. Le Metropolitan Museum le rattache au Togo ou au Ghana.",
+      "sources": [
+        "S65"
+      ],
+      "periode": "XXe siècle",
+      "createur": "artiste éwé",
+      "communaute": "Éwé",
+      "materiaux": [
+        "coton"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "2007.389",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/320035",
+      "droits": "Notice du Metropolitan Museum of Art (API publique) ; image non reproduite ici.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-oeuvre-autoportrait-acolatse",
+      "titre": "Autoportrait avec balustrade et tenture",
+      "type": "photographie",
+      "description": "Cet autoportrait du photographe Alex Agbaglo Acolatse est un négatif sur verre des années 1910 réalisé à Lomé. Il a été donné au Metropolitan Museum par Susan Mullin Vogel en 2015.",
+      "sources": [
+        "S66"
+      ],
+      "periode": "années 1910",
+      "createur": "Alex Agbaglo Acolatse",
+      "materiaux": [
+        "verre",
+        "émulsion"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "2015.499.32",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/687752",
+      "droits": "Notice du Metropolitan Museum of Art (API publique) ; image non reproduite ici.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-oeuvre-femme-kente-acolatse",
+      "titre": "Femme en extérieur en kente, blouse et foulard",
+      "type": "photographie",
+      "description": "Ce négatif sur verre d'Alex Agbaglo Acolatse, daté de 1910-1915, montre une femme en kente, blouse et foulard, photographiée à Lomé. Il fait partie du don Susan Mullin Vogel au Metropolitan Museum.",
+      "sources": [
+        "S67"
+      ],
+      "periode": "1910-1915",
+      "createur": "Alex Agbaglo Acolatse",
+      "materiaux": [
+        "verre",
+        "émulsion"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "2015.499.21.1",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/687738",
+      "droits": "Notice du Metropolitan Museum of Art (API publique) ; image non reproduite ici.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-oeuvre-esclave-couchoro",
+      "titre": "L'Esclave",
+      "type": "livre",
+      "description": "Premier roman de Félix Couchoro, publié à Paris en 1929. Il suit la norme littéraire française de l'époque pour un public métropolitain, avant que l'auteur adapte son écriture à ses lecteurs locaux.",
+      "sources": [
+        "S42",
+        "S102"
+      ],
+      "periode": "1929",
+      "createur": "Félix Couchoro",
+      "url_notice": "https://www.persee.fr/doc/polaf_0244-7827_1988_num_30_1_5193_t1_0124_0000_2",
+      "droits": "Œuvre sous droits ; aucune reproduction ici.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-oeuvre-africain-groenland",
+      "titre": "L'Africain du Groenland",
+      "type": "livre",
+      "description": "Récit autobiographique de Tété-Michel Kpomassie sur son voyage du Togo vers le Groenland, paru en France en 1980. Il lui a valu le Prix littéraire francophone international en 1981, et une traduction anglaise est parue en 1983.",
+      "sources": [
+        "S104"
+      ],
+      "periode": "1980",
+      "createur": "Tété-Michel Kpomassie",
+      "url_notice": "https://fr.wikipedia.org/wiki/T%C3%A9t%C3%A9-Michel_Kpomassie",
+      "droits": "Œuvre sous droits ; aucune reproduction ici.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-oeuvre-rockia",
+      "titre": "Rockia",
+      "type": "musique",
+      "description": "Premier et unique album de Bella Bellow, sorti en 1969 et construit avec le saxophoniste camerounais Manu Dibango. Elle y chante surtout en mina, dans un répertoire de musique populaire togolaise et africaine.",
+      "sources": [
+        "S101",
+        "S71"
+      ],
+      "periode": "1969",
+      "createur": "Bella Bellow",
+      "url_notice": "https://fr.wikipedia.org/wiki/Bella_Bellow",
+      "droits": "Œuvre sous droits ; aucune reproduction ici.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-oeuvre-carrefour-efoui",
+      "titre": "Le Carrefour",
+      "type": "livre",
+      "description": "Pièce de théâtre de Kossi Efoui, récompensée en 1989 par le Grand Prix Tchicaya U Tam'si du Concours théâtral interafricain.",
+      "sources": [
+        "S107",
+        "S79"
+      ],
+      "periode": "1989",
+      "createur": "Kossi Efoui",
+      "url_notice": "https://fr.wikipedia.org/wiki/Kossi_Efoui",
+      "droits": "Œuvre sous droits ; aucune reproduction ici.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "proverbes": [
+    {
+      "id": "TG-proverbe-oiseau-autruche",
+      "texte_original": "Ayroe medoa golowo dorne o.",
+      "langue": "éwé (Togo allemand)",
+      "traduction": "L'oiseau « ayroe » ne dort pas auprès de l'autruche.",
+      "sens": "Une personne pauvre ne peut pas partager la compagnie des riches : l'oiseau est trop petit pour fréquenter les autruches (explication de Spieth).",
+      "publication": "Jakob Spieth, Die Ewe-Stämme : Material zur Kunde des Ewe-Volkes in Deutsch-Togo, Berlin, Dietrich Reimer (Ernst Vohsen), 1906, chap. 5 « Das Geistesleben der Ewe », section E « Sprichwörter, lododowo », p. 599, n° 1.",
+      "note": "Proverbe recueilli par le missionnaire Jakob Spieth en 1906 (ouvrage de l'époque coloniale) et traduit en allemand par lui ; la traduction française est de MonBaobab. Le texte éwé est reproduit tel qu'il apparaît dans l'océrisation de la numérisation Internet Archive : l'orthographe de 1906 (sans les caractères spéciaux ɖ, ɛ, ɣ, ŋ, ɔ) et les erreurs d'OCR sont à corriger par un locuteur éwé avant publication.",
+      "sources": [
+        "S59"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-proverbe-antilope-elephant",
+      "texte_original": "Ahlöe medoa nyifokpa o.",
+      "langue": "éwé (Togo allemand)",
+      "traduction": "L'antilope naine ne chausse pas les sabots de l'éléphant.",
+      "sens": "Une personne de peu de moyens ne doit pas se mêler de choses qui dépassent ses forces ni se comporter comme un riche.",
+      "publication": "Jakob Spieth, Die Ewe-Stämme : Material zur Kunde des Ewe-Volkes in Deutsch-Togo, Berlin, Dietrich Reimer (Ernst Vohsen), 1906, chap. 5 « Das Geistesleben der Ewe », section E « Sprichwörter, lododowo », p. 599, n° 2.",
+      "note": "Proverbe recueilli par le missionnaire Jakob Spieth en 1906 (ouvrage de l'époque coloniale) et traduit en allemand par lui ; la traduction française est de MonBaobab. Le texte éwé est reproduit tel qu'il apparaît dans l'océrisation de la numérisation Internet Archive : l'orthographe de 1906 (sans les caractères spéciaux ɖ, ɛ, ɣ, ŋ, ɔ) et les erreurs d'OCR sont à corriger par un locuteur éwé avant publication.",
+      "sources": [
+        "S59"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-proverbe-termite-souris",
+      "texte_original": "Ajnea deke melia afi nu le kv gbo o, ne togbuia mele eine o, ekemä viaivo le erne.",
+      "langue": "éwé (Togo allemand)",
+      "traduction": "Si l'on insulte une souris près d'une termitière, et que son grand-père n'entend pas, son enfant entendra sûrement.",
+      "sens": "Celui qui médit en croyant que personne n'écoute se trompe : un membre de la famille de la personne visée finira par l'entendre. Spieth rapproche ce dicton de « les champs ont des oreilles ».",
+      "publication": "Jakob Spieth, Die Ewe-Stämme : Material zur Kunde des Ewe-Volkes in Deutsch-Togo, Berlin, Dietrich Reimer (Ernst Vohsen), 1906, chap. 5 « Das Geistesleben der Ewe », section E « Sprichwörter, lododowo », p. 600, n° 7.",
+      "note": "Proverbe recueilli par le missionnaire Jakob Spieth en 1906 (ouvrage de l'époque coloniale) et traduit en allemand par lui ; la traduction française est de MonBaobab. Le texte éwé est reproduit tel qu'il apparaît dans l'océrisation de la numérisation Internet Archive : l'orthographe de 1906 (sans les caractères spéciaux ɖ, ɛ, ɣ, ŋ, ɔ) et les erreurs d'OCR sont à corriger par un locuteur éwé avant publication.",
+      "sources": [
+        "S59"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-proverbe-branche-palmier",
+      "texte_original": "Arne novi vlo hi, agobayae, ivomegbene o, elabena tsi dzagbe IL",
+      "langue": "éwé (Togo allemand)",
+      "traduction": "Un mauvais frère ressemble à la branche du palmier éventail : on ne la rejette pas tout à fait, car la saison des pluies viendra.",
+      "sens": "Celui qui se dispute aujourd'hui avec son frère doit penser qu'il aura peut-être grand besoin de lui demain, comme on se sert des feuilles du palmier pour s'abriter de la pluie.",
+      "publication": "Jakob Spieth, Die Ewe-Stämme : Material zur Kunde des Ewe-Volkes in Deutsch-Togo, Berlin, Dietrich Reimer (Ernst Vohsen), 1906, chap. 5 « Das Geistesleben der Ewe », section E « Sprichwörter, lododowo », p. 600, n° 9.",
+      "note": "Proverbe recueilli par le missionnaire Jakob Spieth en 1906 (ouvrage de l'époque coloniale) et traduit en allemand par lui ; la traduction française est de MonBaobab. Le texte éwé est reproduit tel qu'il apparaît dans l'océrisation de la numérisation Internet Archive : l'orthographe de 1906 (sans les caractères spéciaux ɖ, ɛ, ɣ, ŋ, ɔ) et les erreurs d'OCR sont à corriger par un locuteur éwé avant publication. L'OCR de ce texte est particulièrement dégradé.",
+      "sources": [
+        "S59"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-proverbe-querelle-cause",
+      "texte_original": "Avu kpo gome nya wona.",
+      "langue": "éwé (Togo allemand)",
+      "traduction": "Seul celui qui connaît la cause d'une querelle sait se disputer.",
+      "sens": "Ne te mêle pas à une dispute dont tu ignores la raison.",
+      "publication": "Jakob Spieth, Die Ewe-Stämme : Material zur Kunde des Ewe-Volkes in Deutsch-Togo, Berlin, Dietrich Reimer (Ernst Vohsen), 1906, chap. 5 « Das Geistesleben der Ewe », section E « Sprichwörter, lododowo », p. 600, n° 11.",
+      "note": "Proverbe recueilli par le missionnaire Jakob Spieth en 1906 (ouvrage de l'époque coloniale) et traduit en allemand par lui ; la traduction française est de MonBaobab. Le texte éwé est reproduit tel qu'il apparaît dans l'océrisation de la numérisation Internet Archive : l'orthographe de 1906 (sans les caractères spéciaux ɖ, ɛ, ɣ, ŋ, ɔ) et les erreurs d'OCR sont à corriger par un locuteur éwé avant publication.",
+      "sources": [
+        "S59"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-proverbe-main-nourriture",
+      "texte_original": "Asi megbea wodii iiu o.",
+      "langue": "éwé (Togo allemand)",
+      "traduction": "Qui veut manger un mets doit y mettre la main.",
+      "sens": "Sans travail assidu, on n'obtient pas de nourriture : le fruit vient du labeur (explication de Spieth).",
+      "publication": "Jakob Spieth, Die Ewe-Stämme : Material zur Kunde des Ewe-Volkes in Deutsch-Togo, Berlin, Dietrich Reimer (Ernst Vohsen), 1906, chap. 5 « Das Geistesleben der Ewe », section E « Sprichwörter, lododowo », p. 601, n° 19.",
+      "note": "Proverbe recueilli par le missionnaire Jakob Spieth en 1906 (ouvrage de l'époque coloniale) et traduit en allemand par lui ; la traduction française est de MonBaobab. Le texte éwé est reproduit tel qu'il apparaît dans l'océrisation de la numérisation Internet Archive : l'orthographe de 1906 (sans les caractères spéciaux ɖ, ɛ, ɣ, ŋ, ɔ) et les erreurs d'OCR sont à corriger par un locuteur éwé avant publication. L'OCR de ce texte est dégradé.",
+      "sources": [
+        "S59"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-proverbe-chaque-ville",
+      "texte_original": "Dusiadu kple ewe koklo koko.",
+      "langue": "éwé (Togo allemand)",
+      "traduction": "Chaque ville a sa manière propre de découper les poulets.",
+      "sens": "Chaque ville a ses coutumes particulières.",
+      "publication": "Jakob Spieth, Die Ewe-Stämme : Material zur Kunde des Ewe-Volkes in Deutsch-Togo, Berlin, Dietrich Reimer (Ernst Vohsen), 1906, chap. 5 « Das Geistesleben der Ewe », section E « Sprichwörter, lododowo », p. 603, n° 31.",
+      "note": "Proverbe recueilli par le missionnaire Jakob Spieth en 1906 (ouvrage de l'époque coloniale) et traduit en allemand par lui ; la traduction française est de MonBaobab. Le texte éwé est reproduit tel qu'il apparaît dans l'océrisation de la numérisation Internet Archive : l'orthographe de 1906 (sans les caractères spéciaux ɖ, ɛ, ɣ, ŋ, ɔ) et les erreurs d'OCR sont à corriger par un locuteur éwé avant publication.",
+      "sources": [
+        "S59"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-proverbe-eau-sale",
+      "texte_original": "Tsi wo dl, eklanu meli o.",
+      "langue": "éwé (Togo allemand)",
+      "traduction": "L'eau sale ne se lave pas.",
+      "sens": "Quand quelque chose est gâté, on ne peut plus le réparer.",
+      "publication": "Jakob Spieth, Die Ewe-Stämme : Material zur Kunde des Ewe-Volkes in Deutsch-Togo, Berlin, Dietrich Reimer (Ernst Vohsen), 1906, chap. 5 « Das Geistesleben der Ewe », section E « Sprichwörter, lododowo », p. 603, n° 36.",
+      "note": "Proverbe recueilli par le missionnaire Jakob Spieth en 1906 (ouvrage de l'époque coloniale) et traduit en allemand par lui ; la traduction française est de MonBaobab. Le texte éwé est reproduit tel qu'il apparaît dans l'océrisation de la numérisation Internet Archive : l'orthographe de 1906 (sans les caractères spéciaux ɖ, ɛ, ɣ, ŋ, ɔ) et les erreurs d'OCR sont à corriger par un locuteur éwé avant publication.",
+      "sources": [
+        "S59"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-proverbe-enfant-terre",
+      "texte_original": "naneke me wu vi le anyigba sia ji o",
+      "langue": "éwé",
+      "traduction": "« Rien ne surpasse l'enfant sur cette terre. »",
+      "sens": "Le proverbe exprime la valeur accordée à la fécondité et aux enfants dans la société éwé, selon l'analyse de Claude Rivière.",
+      "publication": "Claude Rivière, « La naissance chez les Eve du Togo », Journal des Africanistes, 51 (1-2), 1981, p. 71-95 (Persée), proverbes cités en ouverture de l'article.",
+      "note": "Proverbe publié par Claude Rivière (1981) avec sa traduction française ; texte éwé tel que numérisé par Persée, orthographe et signes spéciaux à vérifier par un locuteur.",
+      "sources": [
+        "S39"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TG-proverbe-corde-ancienne",
+      "texte_original": "ka xoxoa nu wogbia yeyea dona",
+      "langue": "éwé",
+      "traduction": "« C'est sur la corde ancienne qu'on tresse la nouvelle. »",
+      "sens": "Rivière l'associe à l'idée que la vie réussie se perpétue à travers les générations : la nouvelle corde se tresse à partir de l'ancienne.",
+      "publication": "Claude Rivière, « La naissance chez les Eve du Togo », Journal des Africanistes, 51 (1-2), 1981, p. 71-95 (Persée), proverbes cités en ouverture de l'article.",
+      "note": "Proverbe publié par Claude Rivière (1981) avec sa traduction française ; texte éwé tel que numérisé par Persée, orthographe et signes spéciaux à vérifier par un locuteur.",
+      "sources": [
+        "S39"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "titre": "Wikidata Q945 (Togo)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q945",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S2",
+      "titre": "Banque mondiale, Population totale (SP.POP.TOTL), Togo",
+      "institution": "Banque mondiale",
+      "url": "https://api.worldbank.org/v2/country/TG/indicator/SP.POP.TOTL?format=json&per_page=4",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S3",
+      "titre": "Banque mondiale, Superficie (AG.SRF.TOTL.K2), Togo",
+      "institution": "Banque mondiale",
+      "url": "https://api.worldbank.org/v2/country/TG/indicator/AG.SRF.TOTL.K2?format=json&per_page=3",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S4",
+      "titre": "Banque mondiale, fiche pays Togo (capitale Lomé)",
+      "institution": "Banque mondiale",
+      "url": "https://api.worldbank.org/v2/country/TG?format=json",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S5",
+      "titre": "Koutammakou, le pays des Batammariba",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/1140",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (description)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S6",
+      "titre": "Koutammakou, the Land of the Batammariba (critères et synthèse)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/list/1140/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (description)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S7",
+      "titre": "UNESCO's Heritage Emergency Fund supports Koutammakou (Togo) damage assessment (8 février 2019)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/news/1932",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S8",
+      "titre": "États parties : Togo",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/statesparties/tg",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S9",
+      "titre": "Agglomération Aného Glidji (liste indicative, réf. 6601)",
+      "institution": "UNESCO, Centre du patrimoine mondial (soumission de la Délégation permanente du Togo)",
+      "url": "https://whc.unesco.org/en/tentativelists/6601",
+      "type": "unesco",
+      "licence": "voir conditions du site UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S10",
+      "titre": "Greniers en série des grottes de Nok, Mamproug, Kouba et Bagou (liste indicative, réf. 6602)",
+      "institution": "UNESCO, Centre du patrimoine mondial (soumission de la Délégation permanente du Togo)",
+      "url": "https://whc.unesco.org/en/tentativelists/6602",
+      "type": "unesco",
+      "licence": "voir conditions du site UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S11",
+      "titre": "Sites de la métallurgie ancienne du fer de Bassar (liste indicative, réf. 6603)",
+      "institution": "UNESCO, Centre du patrimoine mondial (soumission de la Délégation permanente du Togo)",
+      "url": "https://whc.unesco.org/en/tentativelists/6603",
+      "type": "unesco",
+      "licence": "voir conditions du site UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S12",
+      "titre": "Parc national Fazao-Malfakassa (liste indicative, réf. 6604)",
+      "institution": "UNESCO, Centre du patrimoine mondial (soumission de la Délégation permanente du Togo)",
+      "url": "https://whc.unesco.org/en/tentativelists/6604",
+      "type": "unesco",
+      "licence": "voir conditions du site UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S13",
+      "titre": "The bearing of the sacred stone or the rites of the New Year in the Guin country in Togo",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/the-bearing-of-the-sacred-stone-or-the-rites-of-the-new-year-in-the-guin-country-in-togo-02241",
+      "type": "unesco",
+      "licence": "voir conditions du site UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S14",
+      "titre": "Midwifery: knowledge, skills and practices",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/midwifery-knowledge-skills-and-practices-01968",
+      "type": "unesco",
+      "licence": "voir conditions du site UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S15",
+      "titre": "Oral heritage of Gelede",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/oral-heritage-of-gelede-00002",
+      "type": "unesco",
+      "licence": "voir conditions du site UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S16",
+      "titre": "Sokodé, Réseau des villes créatives (artisanat et arts populaires)",
+      "institution": "UNESCO",
+      "url": "https://www.unesco.org/en/creative-cities/sokode",
+      "type": "unesco",
+      "licence": "voir conditions du site UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S17",
+      "titre": "Glottolog 5.4 : French (stan1290)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1290",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S18",
+      "titre": "Glottolog 5.4 : Ewe (ewee1241)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/ewee1241",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S19",
+      "titre": "Glottolog 5.4 : Gen (genn1243)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/genn1243",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S20",
+      "titre": "Glottolog 5.4 : Aja (Benin) (ajab1235)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/ajab1235",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S21",
+      "titre": "Glottolog 5.4 : Kabiyé (kabi1261)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/kabi1261",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S22",
+      "titre": "Glottolog 5.4 : Lama (Togo) (lama1275)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/lama1275",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S23",
+      "titre": "Glottolog 5.4 : Tem (temm1241)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/temm1241",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S24",
+      "titre": "Glottolog 5.4 : Nawdm (nawd1238)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/nawd1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S25",
+      "titre": "Glottolog 5.4 : Ntcham (ntch1242)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/ntch1242",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S26",
+      "titre": "Glottolog 5.4 : Moba (moba1244)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/moba1244",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S27",
+      "titre": "Glottolog 5.4 : Gourmanchéma (gour1243)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/gour1243",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S28",
+      "titre": "Glottolog 5.4 : Konkomba (konk1269)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/konk1269",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S29",
+      "titre": "Glottolog 5.4 : Ikposo (ikpo1238)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/ikpo1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S30",
+      "titre": "Glottolog 5.4 : Akebu (akeb1238)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/akeb1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S31",
+      "titre": "Glottolog 5.4 : Anii (anii1245)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/anii1245",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S32",
+      "titre": "Glottolog 5.4 : Anufo (anuf1239)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/anuf1239",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S33",
+      "titre": "Glottolog 5.4 : Ifè (ifee1241)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology / MPI-EVA)",
+      "url": "https://glottolog.org/resource/languoid/id/ifee1241",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S34",
+      "titre": "Aménagement de l'espace et mouvements de populations au Togo : l'exemple du pays kabyè",
+      "institution": "Persée / Cahiers d'études africaines",
+      "url": "https://www.persee.fr/doc/cea_0008-0055_1986_num_26_103_1705",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Anne-Marie Pillet-Schwartz",
+      "annee": 1986
+    },
+    {
+      "id": "S35",
+      "titre": "Organisation politique des Kotokoli du Nord-Togo",
+      "institution": "Persée / Cahiers d'études africaines",
+      "url": "https://www.persee.fr/doc/cea_0008-0055_1963_num_4_14_3719",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Pierre Alexandre",
+      "annee": 1963
+    },
+    {
+      "id": "S36",
+      "titre": "Un rite agraire chez les Kotokoli du Nord-Togo : la fête suwa",
+      "institution": "Persée / Journal des Africanistes",
+      "url": "https://www.persee.fr/doc/jafr_0037-9166_1967_num_37_1_1418",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre)",
+      "consulte_le": "2026-11-21",
+      "auteur": "S. Lallemand, H. Aboudou Issifou",
+      "annee": 1967
+    },
+    {
+      "id": "S37",
+      "titre": "Principes de la divination Mwaba-Gurma (circonscription de Dapaong, Nord-Togo)",
+      "institution": "Persée / Revue de l'histoire des religions",
+      "url": "https://www.persee.fr/doc/rhr_0035-1423_1981_num_198_1_4898",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Albert de Surgy",
+      "annee": 1981
+    },
+    {
+      "id": "S38",
+      "titre": "Compte rendu de : J. C. Froelich, P. Alexandre, R. Cornevin, Les populations du Nord-Togo",
+      "institution": "Persée / L'Homme",
+      "url": "https://www.persee.fr/doc/hom_0439-4216_1965_num_5_1_366700",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Ariane Deluz-Chiva",
+      "annee": 1965
+    },
+    {
+      "id": "S39",
+      "titre": "La naissance chez les Eve du Togo",
+      "institution": "Persée / Journal des Africanistes",
+      "url": "https://www.persee.fr/doc/jafr_0399-0346_1981_num_51_1_2019",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Claude Rivière",
+      "annee": 1981
+    },
+    {
+      "id": "S40",
+      "titre": "Compte rendu de : Alain Mignot, La terre et le pouvoir chez les Guin du Sud-Est Togo",
+      "institution": "Persée / Revue française d'histoire d'outre-mer",
+      "url": "https://www.persee.fr/doc/outre_0300-9513_1988_num_75_279_2668_t1_0248_0000_2",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Rita Cordonnier",
+      "annee": 1988
+    },
+    {
+      "id": "S41",
+      "titre": "L'histoire vécue : Sokodé, 1914. Les Allemands évacuent le Nord-Togo",
+      "institution": "Persée / Revue française d'histoire d'outre-mer",
+      "url": "https://www.persee.fr/doc/outre_0300-9513_1988_num_75_278_2634",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Jean-Claude Barbier",
+      "annee": 1988
+    },
+    {
+      "id": "S42",
+      "titre": "Compte rendu de : Alain Ricard, Naissance du roman africain : Félix Couchoro (1900-1968)",
+      "institution": "Persée / Politique africaine",
+      "url": "https://www.persee.fr/doc/polaf_0244-7827_1988_num_30_1_5193_t1_0124_0000_2",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Comi Molevo Toulabor",
+      "annee": 1988
+    },
+    {
+      "id": "S43",
+      "titre": "Le prêtre-roi des Evhé du Sud-Togo",
+      "institution": "OpenEdition Journals / Systèmes de pensée en Afrique noire",
+      "url": "https://journals.openedition.org/span/888",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Albert de Surgy",
+      "annee": 1990
+    },
+    {
+      "id": "S44",
+      "titre": "La parenté vodou, chapitre II « En arrivant »",
+      "institution": "OpenEdition Books / Éditions de la Maison des sciences de l'homme",
+      "url": "https://books.openedition.org/editionsmsh/1204",
+      "type": "livre",
+      "licence": "tous droits réservés (accès libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S45",
+      "titre": "Lomé, ville post-frontière. Dynamiques identitaires et territoriales d'une capitale frontalière",
+      "institution": "OpenEdition Journals / Sur le Champ (Hypothèses)",
+      "url": "https://journals.openedition.org/echogeo/11974",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre)",
+      "consulte_le": "2026-11-21",
+      "auteur": "A. Spire, R. Imbach",
+      "annee": 2010
+    },
+    {
+      "id": "S46",
+      "titre": "Le dibi-madibi : un mode de faire-valoir original dans le sud-ouest du Togo",
+      "institution": "OpenEdition Journals / Belgeo",
+      "url": "https://journals.openedition.org/belgeo/6510",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S47",
+      "titre": "Compte rendu de : Adam Jones, Peter Sebald (éd.), An African Family Archive. The Lawsons of Little Popo/Aneho (Togo), 1841-1938",
+      "institution": "OpenEdition Journals / Gradhiva",
+      "url": "https://journals.openedition.org/gradhiva/1242",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Olivier Pétré-Grenouilleau",
+      "annee": 2008
+    },
+    {
+      "id": "S48",
+      "titre": "Genèse et transformation d'une institution politique coloniale. Les Yovofia chez les Akposso, Bèdrè et Ekpèbè du Togo",
+      "institution": "OpenEdition Journals / Journal des anthropologues",
+      "url": "https://journals.openedition.org/jda/453",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Komla-Obuibé Bassa",
+      "annee": 2006
+    },
+    {
+      "id": "S49",
+      "titre": "Devenir « lion » ou « biche » : construction du genre et rapports au territoire dans les initiations kabyè (Togo)",
+      "institution": "OpenEdition Journals / L'Homme",
+      "url": "https://journals.openedition.org/lhomme/41035",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Marie Daugey",
+      "annee": 2021
+    },
+    {
+      "id": "S50",
+      "titre": "Sylvanus Olympio et la création de la 2e compagnie d'infanterie. Lenteurs et perceptions françaises dans la recherche de partenariats militaires (1960-1963)",
+      "institution": "OpenEdition Books / Direction des Archives (Les diplomaties euro-africaines au tournant des indépendances)",
+      "url": "https://books.openedition.org/dameae/3561",
+      "type": "livre",
+      "licence": "tous droits réservés (accès libre)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Pauline Cherbonnier"
+    },
+    {
+      "id": "S51",
+      "titre": "Bassar, production d'une histoire du fer sans cesse réactualisée",
+      "institution": "HAL / Université Toulouse - Jean Jaurès (laboratoire TRACES)",
+      "url": "https://univ-tlse2.hal.science/hal-02012819v1",
+      "type": "article_scientifique",
+      "licence": "voir notice HAL",
+      "consulte_le": "2026-11-21",
+      "auteur": "Caroline Robion-Brunner",
+      "annee": 2016
+    },
+    {
+      "id": "S52",
+      "titre": "Togo : qui a tué Sylvanus Olympio ? (1/6)",
+      "institution": "Jeune Afrique",
+      "url": "https://www.jeuneafrique.com/138661/politique/togo-qui-a-tu-l-ancien-pr-sident-sylvanus-olympio/",
+      "type": "presse",
+      "licence": "tous droits réservés (accès libre)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Christophe Boisbouvier",
+      "annee": 2021
+    },
+    {
+      "id": "S53",
+      "titre": "Des champs de Pya au palais présidentiel de Lomé 2 (chronologie)",
+      "institution": "Jeune Afrique",
+      "url": "https://www.jeuneafrique.com/108826/archives-thematique/des-champs-de-pya-au-palais-pr-sidentiel-de-lom-2/",
+      "type": "presse",
+      "licence": "tous droits réservés (accès libre)",
+      "consulte_le": "2026-11-21",
+      "annee": 2005
+    },
+    {
+      "id": "S54",
+      "titre": "Togo : décès de l'ancien Premier ministre Edem Kodjo",
+      "institution": "Jeune Afrique",
+      "url": "https://www.jeuneafrique.com/926286/politique/togo-deces-de-lancien-premier-ministre-edem-kodjo/",
+      "type": "presse",
+      "licence": "tous droits réservés (accès libre)",
+      "consulte_le": "2026-11-21",
+      "annee": 2020
+    },
+    {
+      "id": "S55",
+      "titre": "Au Togo, les députés entérinent le passage à un régime parlementaire",
+      "institution": "Jeune Afrique",
+      "url": "https://www.jeuneafrique.com/1570233/politique/au-togo-les-deputes-enterinent-le-passage-a-un-regime-parlementaire/",
+      "type": "presse",
+      "licence": "tous droits réservés (accès libre)",
+      "consulte_le": "2026-11-21",
+      "annee": 2024
+    },
+    {
+      "id": "S56",
+      "titre": "Plebiscite in British Togoland (UN Photo, 1er mai 1956)",
+      "institution": "Organisation des Nations unies (UN Photo)",
+      "url": "https://media.un.org/photo/en/asset/oun7/oun7463706",
+      "type": "institution",
+      "licence": "UN Photo, droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S57",
+      "titre": "Foreign Relations of the United States, 1955-1957, vol. XVIII, Africa, doc. 122 (note sur le plébiscite au Togoland britannique)",
+      "institution": "Office of the Historian, Département d'État des États-Unis",
+      "url": "https://history.state.gov/historicaldocuments/frus1955-57v18/d122",
+      "type": "archive",
+      "licence": "domaine public (gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S58",
+      "titre": "Olympedia : Benjamin Boukpeti",
+      "institution": "Olympedia (OlyMADMEN)",
+      "url": "https://www.olympedia.org/athletes/105126",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés (consultation libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S59",
+      "titre": "Die Ewe-Stämme : Material zur Kunde des Ewe-Volkes in Deutsch-Togo (numérisation Internet Archive, texte intégral)",
+      "institution": "Internet Archive (exemplaire de l'Université de Toronto)",
+      "url": "https://archive.org/download/dieewestmmemat00spie/dieewestmmemat00spie_djvu.txt",
+      "type": "livre",
+      "licence": "domaine public",
+      "consulte_le": "2026-11-21",
+      "auteur": "Jakob Spieth",
+      "annee": 1906
+    },
+    {
+      "id": "S60",
+      "titre": "The Metropolitan Museum of Art, notice 310172 : Female figure (Ewe artist), 1976.26.2",
+      "institution": "The Metropolitan Museum of Art (API Collection)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/310172",
+      "type": "musee",
+      "licence": "notice du Met (API publique) ; images non reproduites",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S61",
+      "titre": "The Metropolitan Museum of Art, notice 314496 : Female figure (Moba artist), 1981.481",
+      "institution": "The Metropolitan Museum of Art (API Collection)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/314496",
+      "type": "musee",
+      "licence": "notice du Met (API publique) ; images non reproduites",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S62",
+      "titre": "The Metropolitan Museum of Art, notice 312383 : Headdress (Moba or Konkomba artist), 1979.206.168",
+      "institution": "The Metropolitan Museum of Art (API Collection)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/312383",
+      "type": "musee",
+      "licence": "notice du Met (API publique) ; images non reproduites",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S63",
+      "titre": "The Metropolitan Museum of Art, notice 314599 : Warrior's headdress (Moba or Konkomba artist), 1983.142.7",
+      "institution": "The Metropolitan Museum of Art (API Collection)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/314599",
+      "type": "musee",
+      "licence": "notice du Met (API publique) ; images non reproduites",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S64",
+      "titre": "The Metropolitan Museum of Art, notice 312173 : Figure: Buffalo Head (Ewe peoples), 1979.206.1",
+      "institution": "The Metropolitan Museum of Art (API Collection)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/312173",
+      "type": "musee",
+      "licence": "notice du Met (API publique) ; images non reproduites",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S65",
+      "titre": "The Metropolitan Museum of Art, notice 320035 : Man's kente (prestige cloth) (Ewe artist), 2007.389",
+      "institution": "The Metropolitan Museum of Art (API Collection)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/320035",
+      "type": "musee",
+      "licence": "notice du Met (API publique) ; images non reproduites",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S66",
+      "titre": "The Metropolitan Museum of Art, notice 687752 : Self-portrait with balustrade and hanging (Alex Agbaglo Acolatse), 2015.499.32",
+      "institution": "The Metropolitan Museum of Art (API Collection)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/687752",
+      "type": "musee",
+      "licence": "notice du Met (API publique) ; images non reproduites",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S67",
+      "titre": "The Metropolitan Museum of Art, notice 687738 : Woman outdoors in kente, blouse, and headtie (Alex Agbaglo Acolatse), 2015.499.21.1",
+      "institution": "The Metropolitan Museum of Art (API Collection)",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/687738",
+      "type": "musee",
+      "licence": "notice du Met (API publique) ; images non reproduites",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S68",
+      "titre": "Wikidata Q312667 (Sylvanus Olympio)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q312667",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S69",
+      "titre": "Wikidata Q155385 (Gnassingbé Eyadéma)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q155385",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S70",
+      "titre": "Wikidata Q3317434 (Mlapa III)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q3317434",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S71",
+      "titre": "Wikidata Q425135 (Bella Bellow)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q425135",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S72",
+      "titre": "Wikidata Q94618373 (Alex Agbaglo Acolatse)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q94618373",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S73",
+      "titre": "Wikidata Q3743747 (Paul Ahyi)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q3743747",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S74",
+      "titre": "Wikidata Q3092429 (Félix Couchoro)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q3092429",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S75",
+      "titre": "Wikidata Q16682496 (Victoire Tomégah Dogbé)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q16682496",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S76",
+      "titre": "Wikidata Q50308829 (Adolé Isabelle Glitho-Akueson)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q50308829",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S77",
+      "titre": "Wikidata Q3191841 (Kafui Adjamagbo-Johnson)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q3191841",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S78",
+      "titre": "Wikidata Q961159 (Edem Kodjo)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q961159",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S79",
+      "titre": "Wikidata Q982017 (Kossi Efoui)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q982017",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S80",
+      "titre": "Wikidata Q786040 (Sami Tchak)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q786040",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S81",
+      "titre": "Wikidata Q1362987 (Tété-Michel Kpomassie)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q1362987",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S82",
+      "titre": "Wikidata Q350261 (Benjamin Boukpeti)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q350261",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S83",
+      "titre": "Wikidata Q11849842 (Afia Mala)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q11849842",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S84",
+      "titre": "Wikidata Q56678205 (Afi Nayo)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q56678205",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S85",
+      "titre": "Wikidata Q130485446 (John Calvert Nayo Bruce)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q130485446",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S86",
+      "titre": "Wikidata Q386876 (Emmanuel Adebayor)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q386876",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S87",
+      "titre": "Wikidata Q28054787 (Julie Akofa Akoussah)",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q28054787",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S88",
+      "titre": "Togo (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Togo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S89",
+      "titre": "Histoire du Togo (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Histoire_du_Togo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S90",
+      "titre": "Langues au Togo (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Langues_au_Togo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S91",
+      "titre": "Éwés (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/%C3%89w%C3%A9s",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S92",
+      "titre": "Tem (peuple) (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Tem_(peuple)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S93",
+      "titre": "Kabyés (Kabiyè) (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Kabiy%C3%A8_(peuple)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S94",
+      "titre": "Exode des Éwés de Notsé (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Exode_des_%C3%89w%C3%A9s_de_Nots%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S95",
+      "titre": "Notsé (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Nots%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S96",
+      "titre": "Togoville (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Togoville",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S97",
+      "titre": "Peintures rupestres de Namoudjoga (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Peintures_rupestres_de_Namoudjoga",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S98",
+      "titre": "Musée national du Togo (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_du_Togo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S99",
+      "titre": "Sokodé (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Sokod%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S100",
+      "titre": "Kpalimé (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Kpalim%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S101",
+      "titre": "Bella Bellow (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Bella_Bellow",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S102",
+      "titre": "Félix Couchoro (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/F%C3%A9lix_Couchoro",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S103",
+      "titre": "Paul Ahyi (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Paul_Ahyi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S104",
+      "titre": "Tété-Michel Kpomassie (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/T%C3%A9t%C3%A9-Michel_Kpomassie",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S105",
+      "titre": "Benjamin Boukpeti (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Benjamin_Boukpeti",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S106",
+      "titre": "Sami Tchak (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Sami_Tchak",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S107",
+      "titre": "Kossi Efoui (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Kossi_Efoui",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S108",
+      "titre": "John Calvert Nayo Bruce (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/John_Calvert_Nayo_Bruce",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S109",
+      "titre": "Mlapa III (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Mlapa_III",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S110",
+      "titre": "Edem Kodjo (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Edem_Kodjo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S111",
+      "titre": "Sylvanus Olympio (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Sylvanus_Olympio",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S112",
+      "titre": "Gnassingbé Eyadéma (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Gnassingb%C3%A9_Eyad%C3%A9ma",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S113",
+      "titre": "Victoire Tomégah-Dogbé (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Victoire_Tomegah_Dogb%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S114",
+      "titre": "Adolé Isabelle Glitho-Akueson (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Adol%C3%A9_Isabelle_Glitho-Akueson",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S115",
+      "titre": "Kafui Adjamagbo-Johnson (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Kafui_Adjamagbo-Johnson",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S116",
+      "titre": "Afia Mala (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Afia_Mala",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S117",
+      "titre": "Afi Nayo (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Afi_Nayo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S118",
+      "titre": "Julie Akofa Akoussah (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Julie_Akofa_Akoussah",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S119",
+      "titre": "Emmanuel Adebayor (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Emmanuel_Adebayor",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S120",
+      "titre": "Nana Benz (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Nana_Benz",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S121",
+      "titre": "Cuisine togolaise (Wikipédia en français)",
+      "institution": "Wikipédia (Wikimedia Foundation)",
+      "url": "https://fr.wikipedia.org/wiki/Cuisine_togolaise",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    }
+  ]
+}

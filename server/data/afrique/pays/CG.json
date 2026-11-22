@@ -1,0 +1,4029 @@
+{
+  "code": "CG",
+  "nom": "Congo",
+  "region": "centre",
+  "wikidata": "Q971",
+  "maj": "2026-11-21",
+  "pays": {
+    "nom_officiel": "République du Congo",
+    "capitale": "Brazzaville",
+    "langues_officielles": [
+      "français"
+    ],
+    "langues_nationales": [
+      "kituba",
+      "lingala"
+    ],
+    "population": {
+      "valeur": 6484437,
+      "annee": 2025,
+      "source": "S1"
+    },
+    "superficie_km2": 342000,
+    "monnaie": "Franc CFA (CEMAC) (XAF)",
+    "resume": "La République du Congo, souvent appelée Congo-Brazzaville pour la distinguer de son voisin de la rive sud du fleuve, est un pays d'Afrique centrale dont la capitale politique est Brazzaville. Le français y est langue officielle et la Constitution de 2015 désigne le kituba et le lingala comme langues véhiculaires nationales, à côté de dizaines de langues régionales. Son territoire a abrité des royaumes comme celui des Téké autour de Mbé et celui de Loango sur la côte, avant la colonisation française (traité de 1880, chantier forcé du chemin de fer Congo-Océan de 1921 à 1934), puis l'indépendance en 1960. Le pays a connu des révolutions, un parti unique, une conférence nationale en 1991 et des guerres civiles dans les années 1990. Sa culture s'entend dans la rumba congolaise et le mvet, inscrits au patrimoine immatériel de l'UNESCO, dans la littérature, la sape et dans des forêts classées au patrimoine mondial à Odzala-Kokoua et sur la Sangha.",
+    "sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7",
+      "S8",
+      "S9",
+      "S10",
+      "S11",
+      "S12"
+    ]
+  },
+  "langues": [
+    {
+      "id": "CG-langue-francais",
+      "nom": "Français",
+      "description": "Le français est la langue officielle du pays selon la Constitution de 2015, héritée de la période coloniale. Wikipédia, citant un rapport de l'Observatoire de la langue française de 2018, évalue à 59 % la part de francophones dans la population. Il sert aussi de langue de refuge entre locuteurs de langues différentes, d'après une étude de l'Université Laval citée par la même page.",
+      "famille": "Indo-européen, italique, roman (Glottolog : « French »)",
+      "glottocode": "stan1290",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S2",
+        "S13",
+        "S14"
+      ],
+      "regions": [
+        "tout le pays"
+      ],
+      "wikidata": "Q150",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode stan1290 lu sur Glottolog. Chiffre de 59 % de francophones : rapport cité par Wikipédia, non ouvert directement."
+      }
+    },
+    {
+      "id": "CG-langue-lingala",
+      "nom": "Lingala",
+      "description": "Le lingala est, avec le kituba, l'une des deux langues véhiculaires nationales inscrites dans la Constitution. Wikipédia le situe surtout dans le nord et l'est du pays et note qu'il progresse. C'est aussi la langue de la rumba congolaise sur les deux rives du fleuve.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Bantoid, Southern Bantoid, Narrow Bantu, Central-Western Bantu, North Zaire River, Rivers Bantu, Bobangic",
+      "glottocode": "ling1263",
+      "statut_linguistique": [
+        "nationale",
+        "véhiculaire"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S2",
+        "S13",
+        "S15",
+        "S16"
+      ],
+      "regions": [
+        "nord",
+        "est",
+        "Brazzaville"
+      ],
+      "wikidata": "Q36217",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le glottocode ling1263 est étiqueté « Kinshasa Lingala » sur Glottolog ; la variété parlée au Congo-Brazzaville n'a pas de code distinct lu."
+      }
+    },
+    {
+      "id": "CG-langue-kituba",
+      "nom": "Kituba (munukutuba)",
+      "description": "Le kituba, aussi appelé munukutuba, est un créole issu du kikongo, compréhensible par les locuteurs des différentes variétés de kikongo. Selon Wikipédia, qui cite les travaux du linguiste Jean-Alexis Mfoutou, environ la moitié de la population le parle, surtout dans le sud, le long de l'axe Brazzaville-Pointe-Noire. La Constitution le range parmi les deux langues véhiculaires nationales.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Bantoid, Southern Bantoid, Narrow Bantu, Central-Western Bantu, West-Coastal Bantu, Nzadic, Lweric, Dingic, Loange-Atlantic, KLC Extended, Kikongo Language Cluster, Nuclear KLC, Kikongoic, Koongo-Kituba",
+      "glottocode": "kitu1245",
+      "statut_linguistique": [
+        "nationale",
+        "véhiculaire"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S2",
+        "S13",
+        "S17"
+      ],
+      "regions": [
+        "sud",
+        "axe Brazzaville-Pointe-Noire",
+        "Bouenza",
+        "Lékoumou",
+        "Niari",
+        "Kouilou"
+      ],
+      "wikidata": "Q12953639",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Part de 50,35 % de la population : Wikipédia (citant Mfoutou), non vérifiée dans la source primaire."
+      }
+    },
+    {
+      "id": "CG-langue-vili",
+      "nom": "Vili",
+      "description": "Le vili est la langue des Vili, installés sur la côte, dans le Kouilou et à Pointe-Noire. C'est l'une des langues régionales que Wikipédia cite pour le pays. L'article de l'Université Marien Ngouabi sur les proverbes kongo en rapporte plusieurs en vili et en yombe.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Bantoid, Southern Bantoid, Narrow Bantu, Central-Western Bantu, West-Coastal Bantu, Nzadic, Lweric, Dingic, Loange-Atlantic, KLC Extended, Kikongo Language Cluster, Nuclear KLC, Kikongoic, Kambakunyic Kikongo, Kilaadic Kikongo, Central-Southern Kikongo, West Kikongo, Vilic",
+      "glottocode": "vili1238",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S13",
+        "S18",
+        "S19",
+        "S20"
+      ],
+      "regions": [
+        "Kouilou",
+        "Pointe-Noire"
+      ],
+      "wikidata": "Q3558409",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-langue-yombe",
+      "nom": "Yombe",
+      "description": "Le yombe est parlé dans les environs du Mayombe. Wikipédia indique qu'il est influencé par le vili et par les langues du Niari. Plusieurs proverbes recueillis par des chercheurs de l'Université Marien Ngouabi sont attribués conjointement au vili et au yombe.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Bantoid, Southern Bantoid, Narrow Bantu, Central-Western Bantu, West-Coastal Bantu, Nzadic, Lweric, Dingic, Loange-Atlantic, KLC Extended, Kikongo Language Cluster, Nuclear KLC, Kikongoic, Kambakunyic Kikongo, Kilaadic Kikongo, Central-Southern Kikongo, West Kikongo",
+      "glottocode": "yomb1244",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S13",
+        "S21",
+        "S20"
+      ],
+      "regions": [
+        "Mayombe"
+      ],
+      "wikidata": "Q10961975",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-langue-lari",
+      "nom": "Lari (ladi)",
+      "description": "Le lari, appelé aussi ladi, est une variété de kikongo parlée par les Lari, surtout à Brazzaville et dans la région du Pool. Glottolog le classe dans le groupe kikongo du nord. Le lari et le sundi partagent des proverbes publiés dans l'article de l'Université Marien Ngouabi.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Bantoid, Southern Bantoid, Narrow Bantu, Central-Western Bantu, West-Coastal Bantu, Nzadic, Lweric, Dingic, Loange-Atlantic, KLC Extended, Kikongo Language Cluster, Nuclear KLC, Kikongoic, Kambakunyic Kikongo, Kilaadic Kikongo, Nuclear Northern Kikongo",
+      "glottocode": "laar1238",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S13",
+        "S22",
+        "S23",
+        "S20"
+      ],
+      "regions": [
+        "Brazzaville",
+        "Pool"
+      ],
+      "nom_local": "Laari",
+      "wikidata": "Q3217917",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-langue-sundi",
+      "nom": "Sundi",
+      "description": "Le sundi est une langue kongo parlée dans le Niari (Kimongo), le Pool et la Bouenza, d'après la fiche Wikipédia du peuple sundi. Glottolog l'écrit « Suundi ». Des proverbes sundi, regroupés avec des proverbes lari, figurent dans l'article de l'Université Marien Ngouabi.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Bantoid, Southern Bantoid, Narrow Bantu, Central-Western Bantu, West-Coastal Bantu, Nzadic, Lweric, Dingic, Loange-Atlantic, KLC Extended, Kikongo Language Cluster, Nuclear KLC, Kikongoic, Kambakunyic Kikongo, Kilaadic Kikongo, Nuclear Northern Kikongo",
+      "glottocode": "suun1239",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S13",
+        "S24",
+        "S25",
+        "S20"
+      ],
+      "regions": [
+        "Niari",
+        "Pool",
+        "Bouenza"
+      ],
+      "nom_local": "Suundi",
+      "wikidata": "Q7650407",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-langue-beembe",
+      "nom": "Beembe",
+      "description": "Le beembe est la langue des Beembe, installés dans la Bouenza, autour de Mouyondzi. Wikipédia le range parmi les langues régionales de ce département. L'article de l'Université Marien Ngouabi en cite plusieurs proverbes, notés avec les tons.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Bantoid, Southern Bantoid, Narrow Bantu, Central-Western Bantu, West-Coastal Bantu, Nzadic, Lweric, Dingic, Loange-Atlantic, KLC Extended, Kikongo Language Cluster, Nuclear KLC, Kikongoic",
+      "glottocode": "beem1239",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S13",
+        "S26",
+        "S27",
+        "S20"
+      ],
+      "regions": [
+        "Bouenza",
+        "Mouyondzi"
+      ],
+      "wikidata": "Q3196320",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-langue-kaamba",
+      "nom": "Kaamba",
+      "description": "Le kaamba est une langue kongo de la Bouenza, apparentée au dondo et au beembe d'après Wikipédia. Selon cette page, un locuteur d'une variété de kikongo peut le comprendre.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Bantoid, Southern Bantoid, Narrow Bantu, Central-Western Bantu, West-Coastal Bantu, Nzadic, Lweric, Dingic, Loange-Atlantic, KLC Extended, Kikongo Language Cluster, Nuclear KLC, Kikongoic, Kambakunyic Kikongo, Kamba-Kunyi",
+      "glottocode": "kaam1238",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S13",
+        "S28"
+      ],
+      "regions": [
+        "Bouenza"
+      ],
+      "wikidata": "Q11042324",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Peu de documentation lue ; fiche à compléter par un linguiste."
+      }
+    },
+    {
+      "id": "CG-langue-punu",
+      "nom": "Punu",
+      "description": "Le punu est parlé dans le Niari, au Congo, et surtout dans le sud du Gabon voisin. Wikipédia le cite parmi les langues régionales du Niari. Glottolog le range dans le groupe vili-lumbu.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Bantoid, Southern Bantoid, Narrow Bantu, Central-Western Bantu, West-Coastal Bantu, Nzadic, Lweric, Dingic, Loange-Atlantic, KLC Extended, Kikongo Language Cluster, Nuclear KLC, Kikongoic, Kambakunyic Kikongo, Kilaadic Kikongo, Central-Southern Kikongo, West Kikongo, Vilic, Lumbuic",
+      "glottocode": "punu1239",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S13",
+        "S29",
+        "S30"
+      ],
+      "regions": [
+        "Niari"
+      ],
+      "wikidata": "Q36401",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Locuteurs majoritairement au Gabon ; fiche centrée sur le Congo."
+      }
+    },
+    {
+      "id": "CG-langue-mbochi",
+      "nom": "Mbochi (mbosi)",
+      "description": "Le mbochi est la langue des Mbochi de la Cuvette, dans le nord du pays. Wikipédia indique que beaucoup de ses locuteurs utilisent aussi le lingala. Glottolog le classe comme langue menacée (statut d'après l'Ethnologue).",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Bantoid, Southern Bantoid, Narrow Bantu, Central-Western Bantu, North Zaire River, Rivers Bantu, Mboshi (C.20), Koyo-Mboshi",
+      "glottocode": "mbos1242",
+      "statut_linguistique": [
+        "régionale",
+        "menacée"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S13",
+        "S31",
+        "S32"
+      ],
+      "regions": [
+        "Cuvette",
+        "Plateaux"
+      ],
+      "nom_local": "Embɔ́si",
+      "wikidata": "Q36035",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Statut « threatened » lu sur Glottolog (source : Ethnologue 2026)."
+      }
+    },
+    {
+      "id": "CG-langue-teke-tsaayi",
+      "nom": "Téké-tsaayi",
+      "description": "Le téké-tsaayi (tsaayi) fait partie de la famille des langues téké, parlées de part et d'autre du fleuve Congo, au centre et au sud du Congo. Wikipédia associe les Tsaayi au groupe téké du pays. Glottolog le signale comme menacé.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Bantoid, Southern Bantoid, Narrow Bantu, Central-Western Bantu, West-Coastal Bantu, Nzadic, Lweric, Dingic, Loange-Atlantic, Kwilu-Ngounie, Kasai-Ngounie",
+      "glottocode": "teke1281",
+      "statut_linguistique": [
+        "régionale",
+        "menacée"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S3",
+        "S13",
+        "S33"
+      ],
+      "nom_local": "Tsaayi",
+      "wikidata": "Q33123613",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-langue-teke-kukuya",
+      "nom": "Téké-kukuya",
+      "description": "Le kukuya, ou téké-koukouya, est une langue téké du plateau des Plateaux, dans le département du même nom. Wikipédia la cite parmi les langues régionales de cette zone. Glottolog la classe comme non menacée.",
+      "famille": "Atlantic-Congo, Volta-Congo, Benue-Congo, Bantoid, Southern Bantoid, Narrow Bantu, Central-Western Bantu, West-Coastal Bantu, Nzadic, Lweric, Dingic, Loange-Atlantic, Kwilu-Ngounie, Kasai-Ngounie",
+      "glottocode": "teke1280",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "sources": [
+        "S13",
+        "S34"
+      ],
+      "regions": [
+        "Plateaux"
+      ],
+      "wikidata": "Q36560",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "peuples": [
+    {
+      "id": "CG-peuple-teke",
+      "nom": "Téké (Bateke)",
+      "description": "Les Téké, ou Bateke, vivent de part et d'autre du fleuve Congo, au centre, au nord et au sud du Congo, ainsi qu'en République démocratique du Congo et au Gabon. Leur royaume, connu des Européens dès le XVe siècle sous le nom d'Anzico, avait pour capitale la cité de Mbé, résidence du Makoko. Le 10 septembre 1880, le Makoko Iloo signe avec Brazza un traité de protectorat. Les Téké sont aussi connus pour leurs figures sculptées conservées dans de nombreux musées.",
+      "langues": [
+        "téké-tsaayi",
+        "téké-kukuya"
+      ],
+      "regions": [
+        "Plateaux",
+        "Pool",
+        "Cuvette-Ouest",
+        "Niari",
+        "Bouenza"
+      ],
+      "sources": [
+        "S8",
+        "S35",
+        "S36",
+        "S7",
+        "S37",
+        "S38",
+        "S3"
+      ],
+      "pays_partages": [
+        "CD",
+        "GA"
+      ],
+      "organisation": "Royauté du Makoko, à Mbé ; la capitale était déplacée à la mort de chaque roi selon la tradition décrite dans la liste indicative UNESCO.",
+      "activites": [
+        "agriculture (manioc, banane)",
+        "commerce"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Régions des Téké d'après Wikipédia (fr) pour le pays ; non confirmé par une source non-Wikipédia."
+      }
+    },
+    {
+      "id": "CG-peuple-vili",
+      "nom": "Vili",
+      "description": "Les Vili vivent surtout dans le Kouilou et à Pointe-Noire, sur la côte atlantique, et sont rattachés à l'ensemble kongo. Selon le Maitron, la famille paternelle de l'écrivaine Aimée Mambou Gnali compte parmi les fondateurs du royaume du Loango. La société vili est matrilinéaire d'après Wikipédia, et la tradition orale compte de nombreux proverbes.",
+      "langues": [
+        "vili"
+      ],
+      "regions": [
+        "Kouilou",
+        "Pointe-Noire"
+      ],
+      "sources": [
+        "S18",
+        "S39",
+        "S9",
+        "S20"
+      ],
+      "pays_partages": [
+        "GA",
+        "CD",
+        "AO"
+      ],
+      "organisation": "Royaume du Loango (Mâ Loango), avec Diosso pour ancienne capitale selon la liste indicative UNESCO.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Activités non détaillées par une source lue."
+      }
+    },
+    {
+      "id": "CG-peuple-lari",
+      "nom": "Lari (Laari)",
+      "description": "Les Lari forment un groupe kongo de Brazzaville et du Pool. Wikipédia date leur identité commune de la fin du XIXe siècle, quand des sous-groupes kongo se sont regroupés autour de la nouvelle capitale. André Matsoua, fondateur de l'Amicale, est décrit comme lari par l'Encyclopaedia Africana. Leur langue, le lari, est aussi une variété de kikongo.",
+      "langues": [
+        "lari"
+      ],
+      "regions": [
+        "Brazzaville",
+        "Pool"
+      ],
+      "sources": [
+        "S22",
+        "S40",
+        "S20",
+        "S23"
+      ],
+      "pays_partages": [
+        "CD"
+      ],
+      "organisation": "Descendance matrilinéaire regroupée en lignages (mvila), selon Wikipédia.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-peuple-beembe",
+      "nom": "Beembe",
+      "description": "Les Beembe sont un groupe kongo du sud du pays, établi dans la Bouenza, autour de Mouyondzi. Le Metropolitan Museum conserve des statuettes attribuées aux Beembe. Des proverbes beembe, notés avec les tons, ont été publiés par des chercheurs de l'Université Marien Ngouabi.",
+      "langues": [
+        "beembe"
+      ],
+      "regions": [
+        "Bouenza",
+        "Mouyondzi"
+      ],
+      "sources": [
+        "S26",
+        "S41",
+        "S20"
+      ],
+      "pays_partages": [
+        "CD",
+        "AO"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Les statuettes d'ancêtres citées relèvent d'une pratique rituelle ; les descriptions doivent être relues par les communautés.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Estimation de plus de 80 000 personnes dans la région : Wikipédia seulement, non reprise."
+      }
+    },
+    {
+      "id": "CG-peuple-mbochi",
+      "nom": "Mbochi",
+      "description": "Les Mbochi vivent dans le nord, notamment dans la Cuvette, ainsi que dans le quartier de Talangaï à Brazzaville. Selon la notice de l'encyclopédie Gale, les Mboshi sont environ 12 % de la population, surtout au nord-ouest, et pratiquent le commerce, l'agriculture et la pêche. Leur langue est le mbochi.",
+      "langues": [
+        "mbochi",
+        "lingala"
+      ],
+      "regions": [
+        "Cuvette",
+        "Plateaux",
+        "Brazzaville"
+      ],
+      "sources": [
+        "S7",
+        "S31",
+        "S32"
+      ],
+      "pays_partages": [
+        "CD",
+        "GA"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikipédia fr insiste sur le fait que « Ngala » ne se confond pas avec « Mbochi » : distinction à faire valider."
+      }
+    },
+    {
+      "id": "CG-peuple-punu",
+      "nom": "Punu",
+      "description": "Les Punu vivent surtout dans le sud du Gabon et en République du Congo, dans la région du Niari. Wikipédia les rattache au groupe shira-punu. Leur langue, le punu, est classée par Glottolog avec le vili et le lumbu.",
+      "langues": [
+        "punu"
+      ],
+      "regions": [
+        "Niari"
+      ],
+      "sources": [
+        "S29",
+        "S30",
+        "S3"
+      ],
+      "pays_partages": [
+        "GA"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Fiche limitée : peu de sources congolaises lues sur cette communauté."
+      }
+    },
+    {
+      "id": "CG-peuple-baaka",
+      "nom": "BaAka",
+      "description": "Les BaAka, ou Aka, sont un peuple autochtone de la forêt, vivant surtout dans le sud de la République centrafricaine et dans le nord de la République du Congo. La fiche UNESCO du Trinational de la Sangha reconnaît l'importance de leurs droits et de leurs moyens d'existence traditionnels dans la gestion du site. Wikipédia précise que leur vie traditionnelle est mobile et fondée sur la chasse et la cueillette.",
+      "langues": [
+        "aka"
+      ],
+      "regions": [
+        "nord du Congo"
+      ],
+      "sources": [
+        "S42",
+        "S43"
+      ],
+      "pays_partages": [
+        "CF",
+        "CM"
+      ],
+      "activites": [
+        "chasse",
+        "cueillette"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Peuple autochtone confronté à des enjeux fonciers et de reconnaissance ; la fiche doit être relue avec des organisations autochtones.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Régions précises au Congo non confirmées par une source non-Wikipédia ; la fiche UNESCO situe les BaAka dans le paysage de la Sangha."
+      }
+    },
+    {
+      "id": "CG-peuple-kota",
+      "nom": "Kota (Bakota)",
+      "description": "Les Kota vivent pour moitié dans l'est du Gabon et pour moitié du côté congolais de la frontière. Le Metropolitan Museum conserve des figures de reliquaire kota, avec une provenance « Gabon ou République du Congo ». Wikipédia rappelle que le nom « Kota » a été donné par des voisins et qu'il couvre plusieurs groupes.",
+      "langues": [
+        "kota"
+      ],
+      "regions": [
+        "nord-est du Congo (frontière gabonaise)"
+      ],
+      "sources": [
+        "S44",
+        "S45"
+      ],
+      "pays_partages": [
+        "GA"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Les figures de reliquaire ont une fonction funéraire ; leur présentation requiert l'avis des communautés.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Localisation côté congolais peu précise dans les sources lues."
+      }
+    },
+    {
+      "id": "CG-peuple-kuyu",
+      "nom": "Kuyu (Kouyou)",
+      "description": "Les Kuyu sont rattachés par Wikipédia au grand ensemble « Ngala » du nord de la Cuvette. Le Metropolitan Museum conserve des objets kuyu, dont une grande figure à trois têtes, avec la mention « région de la rivière Kuyu ». Les sources lues donnent peu de détails sur leur vie sociale actuelle.",
+      "langues": [
+        "mbochi"
+      ],
+      "regions": [
+        "Cuvette"
+      ],
+      "sources": [
+        "S46",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Fiche minimale : à enrichir avec des sources ethnographiques."
+      }
+    }
+  ],
+  "sites": [
+    {
+      "id": "CG-site-odzala-kokoua",
+      "nom": "Massif forestier d'Odzala-Kokoua",
+      "type": "patrimoine_mondial",
+      "description": "Ce massif de 1 179 376 hectares, au nord du pays, est la plus vaste aire protégée de la zone de transition entre les forêts basse-guinéennes et congolaises. Les deux tiers de ses habitats sont à divers stades de la reconquête de la savane par la forêt, avec plus de 130 clairières marécageuses fréquentées par les éléphants. L'UNESCO souligne la richesse en primates et la présence d'éléphants de forêt. Il est inscrit en 2023.",
+      "sources": [
+        "S47"
+      ],
+      "wikidata": "Q263883",
+      "unesco_id": "692",
+      "inscription": 2023,
+      "coordonnees": {
+        "lat": 0.8,
+        "lng": 14.9
+      },
+      "regions": [
+        "nord du Congo"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées reprises de la graine (Wikidata) ; la page UNESCO ouverte ne les donne pas dans le texte lu."
+      }
+    },
+    {
+      "id": "CG-site-sangha-trinational",
+      "nom": "Trinational de la Sangha",
+      "type": "patrimoine_mondial",
+      "description": "Ce site transfrontalier regroupe trois parcs nationaux contigus : Lobéké (Cameroun), Nouabalé-Ndoki (Congo) et Dzanga-Ndoki (Centrafrique), soit 746 309 hectares définis par la loi, avec une zone tampon de plus de 1,7 million d'hectares. Il protège des forêts humides très peu perturbées, avec éléphants de forêt, gorilles des plaines de l'ouest et chimpanzés. La fiche UNESCO insiste sur les droits d'usage des peuples autochtones et locaux, dont les BaAka. Il est inscrit en 2012.",
+      "sources": [
+        "S42",
+        "S5"
+      ],
+      "wikidata": "Q2580451",
+      "unesco_id": "1380",
+      "inscription": 2012,
+      "coordonnees": {
+        "lat": 2.666666666,
+        "lng": 16.333333333
+      },
+      "regions": [
+        "Sangha",
+        "nord du Congo"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Identifiant UNESCO 1380 (la graine donne « 1380rev ») ; site partagé avec le Cameroun et la Centrafrique."
+      }
+    },
+    {
+      "id": "CG-site-domaine-royal-mbe",
+      "nom": "Domaine royal de Mbé",
+      "type": "liste_indicative",
+      "description": "Situé à environ 200 km de Brazzaville, dans le département du Pool, ce domaine regroupe des sites liés à l'histoire du peuple téké. La cité de Mbé était la capitale du royaume et la résidence du Makoko, et la tradition voulait qu'on la déplace à la mort de chaque roi. Le Congo l'a proposé en 2008 pour la Liste indicative de l'UNESCO, au titre des critères culturels (v) et (vi).",
+      "sources": [
+        "S8",
+        "S35"
+      ],
+      "regions": [
+        "Pool",
+        "Ngabé"
+      ],
+      "periode": "XVe siècle - XIXe siècle",
+      "sensible": true,
+      "note_sensibilite": "Lieu de royauté et de traditions téké : à présenter avec l'accord des autorités coutumières.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Distance et département d'après la liste indicative UNESCO ; Herodote.net ne localise pas précisément la signature du traité de 1880."
+      }
+    },
+    {
+      "id": "CG-site-port-loango",
+      "nom": "Ancien port d'embarquement des esclaves de Loango",
+      "type": "liste_indicative",
+      "description": "Ce site de la sous-préfecture de Hinda (Kouilou), près de la lagune Tchibete, a servi de point d'embarquement lors de la traite atlantique. La liste indicative, rédigée par le ministère congolais de la culture, avance que plus de deux millions de personnes y auraient été embarquées, chiffre qui reste celui de l'État et non une estimation d'historiens. Diosso, ancienne capitale (Bwali) du royaume de Loango, se trouve à proximité. Le site est sur la Liste indicative depuis 2008.",
+      "sources": [
+        "S9",
+        "S5"
+      ],
+      "regions": [
+        "Kouilou",
+        "Hinda"
+      ],
+      "periode": "traite atlantique",
+      "sensible": true,
+      "note_sensibilite": "Lieu de mémoire de la traite des esclaves : les chiffres et récits doivent distinguer faits établis et traditions mémorielles.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "« Plus de 2 millions » : affirmation de l'État dans sa liste indicative, non recoupée."
+      }
+    },
+    {
+      "id": "CG-site-conkouati-douli",
+      "nom": "Parc national de Conkouati-Douli",
+      "type": "site_naturel",
+      "description": "Créé par décret présidentiel en 1999, ce parc de 504 950 hectares s'étend sur le littoral du Kouilou, avec une partie continentale et une partie marine. Le Congo l'a inscrit sur sa Liste indicative en 2008 au titre des critères naturels (ix) et (x).",
+      "sources": [
+        "S48",
+        "S5"
+      ],
+      "regions": [
+        "Kouilou"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-site-memorial-brazza",
+      "nom": "Mémorial Pierre Savorgnan de Brazza",
+      "type": "monument",
+      "description": "Ce mausolée de Brazzaville, inauguré en 2006, abrite la sépulture de l'explorateur Pierre Savorgnan de Brazza et de sa famille, avec une statue d'environ six mètres. L'anthropologue Joseph Tonda a consacré un article aux enjeux symboliques de ce monument pour l'État congolais, qui reste un sujet de débat.",
+      "sources": [
+        "S49",
+        "S50"
+      ],
+      "coordonnees": {
+        "lat": -4.278056,
+        "lng": 15.279444
+      },
+      "regions": [
+        "Brazzaville"
+      ],
+      "periode": "depuis 2006",
+      "sensible": true,
+      "note_sensibilite": "Monument lié à la colonisation et objet de débats mémoriels.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées converties depuis 4°16′41″ S, 15°16′46″ E (Wikipédia). Date du 3 octobre 2006 reprise de Wikipédia."
+      }
+    },
+    {
+      "id": "CG-site-congo-ocean",
+      "nom": "Chemin de fer Congo-Océan",
+      "type": "lieu_de_memoire",
+      "description": "Cette ligne d'environ 500 km relie Brazzaville à l'Atlantique, vers Pointe-Noire. Sa construction, de 1921 à 1934, a reposé sur une main-d'œuvre recrutée de force dans toute l'Afrique-Équatoriale française. Les Archives nationales du monde du travail et la revue International Review of Social History décrivent les conditions de travail et le bilan humain très lourd de ce chantier.",
+      "sources": [
+        "S11",
+        "S10"
+      ],
+      "regions": [
+        "Brazzaville",
+        "Pointe-Noire",
+        "Mayombe"
+      ],
+      "periode": "1921-1934",
+      "sensible": true,
+      "note_sensibilite": "Lieu de mémoire du travail forcé colonial : les bilans humains varient selon les sources.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Aucun chiffre de victimes repris, les sources lues ne le donnent pas de manière convergente."
+      }
+    },
+    {
+      "id": "CG-site-bacongo-poto-poto",
+      "nom": "Quartiers de Bacongo et de Poto-Poto (Brazzaville)",
+      "type": "lieu_de_memoire",
+      "description": "Ces deux quartiers de Brazzaville, appelés par le Maitron les « Brazzaville noires », ont été des foyers de rassemblement pendant la révolution des Trois Glorieuses d'août 1963. Des groupes de jeunes y convergeaient vers la bourse du travail puis vers le palais présidentiel.",
+      "sources": [
+        "S51"
+      ],
+      "regions": [
+        "Brazzaville"
+      ],
+      "periode": "13-15 août 1963",
+      "sensible": true,
+      "note_sensibilite": "Lieu associé à des violences politiques : présentation neutre requise.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-site-mayama",
+      "nom": "Prison de Mayama",
+      "type": "lieu_de_memoire",
+      "description": "C'est dans la prison de Mayama que serait mort André Matsoua en janvier 1942. Les circonstances de cette mort sont disputées : les archives coloniales évoquent une maladie, tandis que ses partisans soupçonnent des mauvais traitements.",
+      "sources": [
+        "S40"
+      ],
+      "periode": "1942",
+      "sensible": true,
+      "note_sensibilite": "Lieu de mémoire d'un mouvement politico-religieux ; circonstances de la mort disputées.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Localisation de Mayama (département du Pool selon Wikipédia) non confirmée par la source lue."
+      }
+    },
+    {
+      "id": "CG-site-diosso",
+      "nom": "Diosso (ancienne capitale du Loango)",
+      "type": "ville_historique",
+      "description": "Diosso, ou Bwali, est décrite par la liste indicative de l'UNESCO comme l'ancienne capitale du royaume de Loango et lieu de résidence du Mâ Loango, le roi. Une partie des accords commerciaux liés à la traite s'y négociaient. Le site est voisin de l'ancien port d'embarquement de Loango.",
+      "sources": [
+        "S9"
+      ],
+      "regions": [
+        "Kouilou"
+      ],
+      "periode": "royaume de Loango",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "traditions": [
+    {
+      "id": "CG-tradition-rumba-congolaise",
+      "nom": "Rumba congolaise",
+      "categorie": "musique",
+      "description": "La rumba congolaise est un genre musical et une danse des villes de la République du Congo et de la République démocratique du Congo, souvent dansée en couple. Selon l'UNESCO, elle vient d'une danse ancienne appelée nkumba (« taille » en kikongo) et sert aussi bien pour les fêtes que pour le deuil. Les femmes ont joué un rôle important dans ses styles religieux et sentimentaux, et elle se transmet par des clubs de quartier et des écoles. Elle est inscrite en 2021 sur la Liste représentative.",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "01711",
+        "annee": 2021,
+        "url": "https://ich.unesco.org/en/RL/congolese-rumba-01711"
+      },
+      "sources": [
+        "S52",
+        "S6",
+        "S16"
+      ],
+      "communautes": [
+        "musiciens, danseurs et orchestres des villes du Congo et de la RDC"
+      ],
+      "regions": [
+        "milieu urbain"
+      ],
+      "transmission": "vivante",
+      "langues": [
+        "lingala",
+        "kikongo"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Inscription partagée avec la RDC."
+      }
+    },
+    {
+      "id": "CG-tradition-mvet-oyeng",
+      "nom": "Mvet Oyeng",
+      "categorie": "oralite",
+      "description": "Le mvet oyeng est une tradition épique de la communauté ekang : des récits chantés sont accompagnés de danse et d'un instrument à cordes, le mvet. Le public participe en frappant des baguettes, en battant des mains ou en chantant. L'UNESCO distingue une forme sacrée, transmise par initiation, et une forme populaire plus souple. Les femmes peuvent y être conteuses, surtout dans la forme populaire, mais ne fabriquent ni ne jouent l'instrument en général. Il est inscrit en 2025.",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "02253",
+        "annee": 2025,
+        "url": "https://ich.unesco.org/en/RL/mvet-oyeng-musical-art-practices-and-skills-associated-with-the-ekang-community-02253"
+      },
+      "sources": [
+        "S53",
+        "S6"
+      ],
+      "communautes": [
+        "communauté ekang"
+      ],
+      "transmission": "vivante",
+      "sensible": true,
+      "note_sensibilite": "La forme sacrée suit un processus d'initiation : la fiche doit être validée par la communauté ekang.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Inscription partagée avec le Cameroun et le Gabon. Les régions congolaises ne sont pas précisées par la page UNESCO lue."
+      }
+    },
+    {
+      "id": "CG-tradition-kiebe-kiebe",
+      "nom": "Kiebe-Kiebe",
+      "categorie": "danse",
+      "description": "Le Kiebe-Kiebe est une danse initiatique du Congo-Brazzaville. La page UNESCO du Congo la mentionne parmi les dossiers de candidature en cours pour 2026 sur la Liste représentative. Aucune autre source ouverte n'a permis d'en décrire la pratique ni la communauté.",
+      "unesco": null,
+      "sources": [
+        "S6"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Danse initiatique : description à produire avec les détenteurs de la tradition.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Fiche minimale : on ne dispose que de l'intitulé du dossier de candidature. Communautés, régions et état de la transmission non sourcés."
+      }
+    },
+    {
+      "id": "CG-tradition-sape",
+      "nom": "La Sape (Société des ambianceurs et des personnes élégantes)",
+      "categorie": "textile",
+      "description": "La Sape est un art de l'élégance vestimentaire né à Brazzaville et à Kinshasa. Selon Jeune Afrique, ses premières traces remontent aux années 1920, quand des Congolais de retour des armées coloniales s'habillaient en costume, puis elle prend sa forme actuelle dans les années 1970, avec les musiciens du Congo. Les sapeurs défilent à Brazzaville comme à Paris. Un article de la revue Hommes & Migrations étudie le détournement des codes de la mode par les sapeurs.",
+      "unesco": null,
+      "sources": [
+        "S54",
+        "S55"
+      ],
+      "communautes": [
+        "sapeurs de Brazzaville et de la diaspora"
+      ],
+      "regions": [
+        "Brazzaville"
+      ],
+      "transmission": "vivante",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Paternité du mouvement disputée entre les deux rives du fleuve selon Jeune Afrique."
+      }
+    },
+    {
+      "id": "CG-tradition-chikwangue",
+      "nom": "Chikwangue (pain de manioc)",
+      "categorie": "cuisine",
+      "description": "La chikwangue est une pâte de manioc dense et élastique, préparée par rouissage des racines, épluchage, défibrage, laminage de la pâte et cuisson. À Brazzaville, une étude de la FAO distingue plusieurs types : le ngudi-yaka venu du sud, le moungouélé du centre et du nord, et le moussombo du nord. En 1991, environ 2 900 ateliers, souvent tenus par des femmes, en fabriquaient dans la ville.",
+      "unesco": null,
+      "sources": [
+        "S56"
+      ],
+      "communautes": [
+        "productrices et ateliers de Brazzaville"
+      ],
+      "regions": [
+        "Brazzaville",
+        "sud",
+        "centre",
+        "nord"
+      ],
+      "transmission": "vivante",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le nombre d'ateliers date de 1991 ; données anciennes."
+      }
+    },
+    {
+      "id": "CG-tradition-fespam",
+      "nom": "Festival panafricain de musique (Fespam)",
+      "categorie": "fete",
+      "description": "Le Fespam est un festival de musique qui se tient à Brazzaville. Après une interruption de huit ans liée à la crise économique et au Covid-19, sa onzième édition s'est ouverte en juillet 2023 dans le stade Alphonse Massamba-Débat, avec la rumba pour thème. Au moins dix-sept pays y étaient représentés.",
+      "unesco": null,
+      "sources": [
+        "S57"
+      ],
+      "communautes": [
+        "artistes et public de Brazzaville"
+      ],
+      "regions": [
+        "Brazzaville"
+      ],
+      "transmission": "vivante",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de création non relevée dans une source ouverte lue."
+      }
+    },
+    {
+      "id": "CG-tradition-mantsina-sur-scene",
+      "nom": "Festival Mantsina-sur-scène",
+      "categorie": "fete",
+      "description": "Le festival Mantsina-sur-scène, à Brazzaville, est un rendez-vous de théâtre et de spectacle. RFI annonce en 2015 que sa douzième édition, prévue en décembre, serait transformée en « Sony sur scène » et menée par le metteur en scène Dieudonné Niangouna. Une quinzaine de créations d'artistes du Congo, du Burkina Faso et de France étaient annoncées.",
+      "unesco": null,
+      "sources": [
+        "S58"
+      ],
+      "communautes": [
+        "artistes de la scène congolaise"
+      ],
+      "regions": [
+        "Brazzaville"
+      ],
+      "transmission": "vivante",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-tradition-liturgie-africanisee",
+      "nom": "Liturgie catholique africanisée",
+      "categorie": "rite",
+      "description": "Dans l'Église catholique du Congo, des tambours et instruments africains accompagnent la messe, des hymnes originaux sont chantés et des danses ont lieu autour de l'autel. D'après la notice Gale, l'archevêque Théophile Mbemba, premier archevêque congolais de Brazzaville, a ouvert la liturgie aux formes musicales et dansées congolaises. Le cardinal Émile Biayenda a poursuivi cette africanisation.",
+      "unesco": null,
+      "sources": [
+        "S7"
+      ],
+      "communautes": [
+        "fidèles catholiques"
+      ],
+      "regions": [
+        "Brazzaville",
+        "tout le pays"
+      ],
+      "transmission": "vivante",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-tradition-funerailles-kongo",
+      "nom": "Funérailles et tombes des populations kongo",
+      "categorie": "rite",
+      "description": "La notice Gale souligne l'importance des funérailles chez les Kongo : des tombes en forme de maison reçoivent des objets personnels du défunt, et les citadins les font construire dans leur village d'origine. Wikipédia cite aussi les tombeaux monumentaux du pays lari parmi les expressions artistiques du pays.",
+      "unesco": null,
+      "sources": [
+        "S7",
+        "S59"
+      ],
+      "communautes": [
+        "populations kongo"
+      ],
+      "regions": [
+        "sud-ouest du pays"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Pratiques funéraires : la description doit être relue par des représentants des communautés.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Pratique décrite de manière générale par Gale pour « les Bakongo » ; détails régionaux non précisés."
+      }
+    },
+    {
+      "id": "CG-tradition-royaute-teke",
+      "nom": "Royauté téké et cité de Mbé",
+      "categorie": "rite",
+      "description": "Le royaume téké était dirigé par le Makoko, qui résidait à Mbé. La tradition précoloniale exigeait de déplacer la capitale à la mort de chaque roi, d'après la liste indicative de l'UNESCO. La reine Ngalifourou (1864-1956) a été, selon l'Histoire par les femmes, première conseillère puis souveraine après la mort du roi Iloo.",
+      "unesco": null,
+      "sources": [
+        "S8",
+        "S36",
+        "S35"
+      ],
+      "communautes": [
+        "Téké"
+      ],
+      "regions": [
+        "Pool"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Institution rituelle et politique : relecture requise par les autorités coutumières téké.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "État de la transmission contemporaine non documenté dans les sources lues. Département du Pool d'après la liste indicative."
+      }
+    },
+    {
+      "id": "CG-tradition-nkisi-nkondi",
+      "nom": "Figures de pouvoir nkisi nkondi",
+      "categorie": "rite",
+      "description": "Les nkisi nkondi sont de grandes figures de bois, hérissées de clous ou de lames, que Wikipédia rattache aux Vili. Le Metropolitan Museum conserve une figure mangaaka de ce type, attribuée aux peuples kongo de la région du fleuve Chiloango, haute d'environ 118 cm. Les notices lues ne détaillent pas les usages rituels, qu'il faut documenter avec les détenteurs.",
+      "unesco": null,
+      "sources": [
+        "S60",
+        "S18"
+      ],
+      "communautes": [
+        "Kongo (Vili et groupes voisins)"
+      ],
+      "regions": [
+        "Kouilou"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Objets rituels : leur description et leur exposition doivent être validées avec les communautés ; ne pas employer le mot « fétiche ».",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Usages décrits ici de manière générale ; la source lue (notice du Met) donne surtout les données de collection."
+      }
+    },
+    {
+      "id": "CG-tradition-sculpture-teke",
+      "nom": "Sculpture téké",
+      "categorie": "artisanat",
+      "description": "Les Téké sont connus pour leurs figures de bois. Le Metropolitan Museum conserve notamment une figure janus et une figure masculine attribuées aux peuples téké, avec perles, dents, tissu ou encroûtements selon les notices. Leur fonction exacte n'est pas détaillée dans les notices lues.",
+      "unesco": null,
+      "sources": [
+        "S37",
+        "S61",
+        "S38"
+      ],
+      "communautes": [
+        "Téké"
+      ],
+      "regions": [
+        "Plateaux",
+        "Pool"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Objets de culte : fiche à valider par les communautés téké.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Fonctions décrites de manière générale ; à confirmer par une source ethnographique."
+      }
+    }
+  ],
+  "personnalites": [
+    {
+      "id": "CG-personnalite-iloo-ier",
+      "nom": "Iloo Ier (Makoko)",
+      "description": "Iloo, appelé Makoko-Iloô dans les sources françaises, est le roi des Téké de Mbé au moment de l'arrivée de Brazza. Le 10 septembre 1880, il conclut avec lui un traité qui place son territoire sous protection française, traité ratifié à Paris le 18 septembre 1882. Herodote.net rappelle que le roi ne comprenait pas la portée du texte.",
+      "roles": [
+        "roi des Téké"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S35",
+        "S8",
+        "S62"
+      ],
+      "deces": {
+        "date": "1892 (selon Wikidata)"
+      },
+      "wikidata": "Q3148734",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates de règne (1872 ou 1874 à 1892 selon les sources) non reprises. Naissance non documentée. Année 1892 pour le décès : Wikidata."
+      }
+    },
+    {
+      "id": "CG-personnalite-ngalifourou",
+      "nom": "Ngalifourou",
+      "description": "Ngalifourou est une reine du royaume téké. Née à Ngabé, elle épouse à quinze ans le roi Iloo, devient en 1879 son épouse principale et sa première conseillère, puis règne après la mort du roi. Elle coopère largement avec la France et appelle son peuple à aider les soldats français pendant la Seconde Guerre mondiale, ce qui lui vaut notamment la Légion d'honneur. Elle meurt le 8 juin 1956 et est inhumée un an plus tard, selon la coutume.",
+      "roles": [
+        "reine des Téké"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XIXe-XXe siècle",
+      "sources": [
+        "S36",
+        "S63"
+      ],
+      "naissance": {
+        "date": "1864",
+        "lieu": "Ngabé"
+      },
+      "deces": {
+        "date": "1956-06-08"
+      },
+      "wikidata": "Q25323622",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-personnalite-andre-matsoua",
+      "nom": "André Grenard Matsoua",
+      "description": "André Matsoua, fils d'un père de langue lari, fonde à Paris en 1926 l'Amicale des originaires de l'Afrique-Équatoriale française, pour défendre les droits des Africains et dénoncer le travail forcé et le code de l'indigénat. Arrêté en 1929, déporté à Brazzaville en 1930 puis envoyé en exil au Tchad, il s'évade en 1935, est de nouveau arrêté en 1940 et meurt en prison à Mayama en 1942. Les circonstances de sa mort sont disputées, et ses partisans, les matsouanistes, l'ont ensuite vénéré comme un messie.",
+      "roles": [
+        "fondateur de l'Amicale"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S40",
+        "S64",
+        "S7"
+      ],
+      "naissance": {
+        "date": "1899-01-17",
+        "lieu": "Manzakala (Kinkala), Pool"
+      },
+      "deces": {
+        "date": "1942-01-13",
+        "lieu": "prison de Mayama"
+      },
+      "wikidata": "Q2848280",
+      "sensible": true,
+      "note_sensibilite": "Figure d'un mouvement politico-religieux (matsouanisme) ; circonstances de sa mort disputées.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Orthographes Matsoua / Matswa. Naissance à Manzakala d'après l'Encyclopaedia Africana (Wikipédia écrit Mandzaka)."
+      }
+    },
+    {
+      "id": "CG-personnalite-fulbert-youlou",
+      "nom": "Fulbert Youlou",
+      "description": "L'abbé Fulbert Youlou, prêtre ordonné en 1946, devient le premier président de la République du Congo à l'indépendance. Il se réclamait de l'héritage de Matsoua auprès des Lari. Son projet d'imposer le parti unique conduit à sa chute pendant les Trois Glorieuses des 13 au 15 août 1963, où il remet sa démission aux militaires.",
+      "roles": [
+        "premier président de la République du Congo",
+        "prêtre"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S7",
+        "S51",
+        "S65"
+      ],
+      "naissance": {
+        "date": "1917"
+      },
+      "deces": {
+        "date": "1972"
+      },
+      "wikidata": "Q559442",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Jour de naissance divergent (9 juin selon Wikipédia fr, 19 juillet selon Wikidata) : seule l'année est retenue. Date et lieu de décès à compléter."
+      }
+    },
+    {
+      "id": "CG-personnalite-alphonse-massamba-debat",
+      "nom": "Alphonse Massamba-Débat",
+      "description": "Alphonse Massamba-Débat dirige le gouvernement provisoire formé après la chute de Youlou en août 1963, puis préside le pays jusqu'en 1968. Après l'assassinat de Marien Ngouabi en mars 1977, il est arrêté, jugé sommairement par une cour martiale et fusillé, selon RFI, qui rapporte que des diplomates français jugeaient ses aveux peu crédibles.",
+      "roles": [
+        "président de la République (1963-1968)"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S51",
+        "S66",
+        "S7",
+        "S67"
+      ],
+      "naissance": {
+        "date": "1921-02-11",
+        "lieu": "Boko"
+      },
+      "deces": {
+        "date": "1977-03-25",
+        "lieu": "Brazzaville"
+      },
+      "wikidata": "Q740438",
+      "sensible": true,
+      "note_sensibilite": "Exécution politique en 1977 : les responsabilités sont disputées.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de naissance et de décès confirmées par Wikipédia et Wikidata ; RFI ne donne que « mars 1977 »."
+      }
+    },
+    {
+      "id": "CG-personnalite-marien-ngouabi",
+      "nom": "Marien Ngouabi",
+      "description": "Officier, Marien Ngouabi prend le pouvoir en 1968, fonde en 1969 le Parti congolais du travail et dirige le pays jusqu'à son assassinat à Brazzaville le 18 mars 1977. RFI rappelle qu'il était populaire et que les circonstances de sa mort restent inexpliquées quarante ans plus tard. L'université de Brazzaville porte son nom.",
+      "roles": [
+        "président de la République (1968-1977)"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S66",
+        "S51",
+        "S68"
+      ],
+      "naissance": {
+        "date": "1938-12-31",
+        "lieu": "Ombélé"
+      },
+      "deces": {
+        "date": "1977-03-18",
+        "lieu": "Brazzaville"
+      },
+      "wikidata": "Q454025",
+      "sensible": true,
+      "note_sensibilite": "Assassinat de 1977 dont les circonstances ne sont pas élucidées.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lieu de naissance (Ombélé) tiré de Wikipédia seulement."
+      }
+    },
+    {
+      "id": "CG-personnalite-emile-biayenda",
+      "nom": "Émile Biayenda",
+      "description": "Né dans le Pool, Émile Biayenda est ordonné prêtre en 1950 selon Fides, devient coadjuteur puis archevêque de Brazzaville et est créé cardinal en 1973, premier Congolais à recevoir cette dignité d'après Gale. Quelques jours après l'assassinat de Marien Ngouabi, il est enlevé et tué le 22 mars 1977, peu après avoir lancé un appel à l'unité nationale. Une procédure de béatification a été ouverte au niveau diocésain en 1996.",
+      "roles": [
+        "archevêque de Brazzaville",
+        "cardinal"
+      ],
+      "domaines": [
+        "religion",
+        "savoirs"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S69",
+        "S7",
+        "S66",
+        "S70"
+      ],
+      "naissance": {
+        "date": "1927",
+        "lieu": "Maléla Bombé (Mpangala), district de Kindamba, Pool"
+      },
+      "deces": {
+        "date": "1977-03-22",
+        "lieu": "Brazzaville"
+      },
+      "wikidata": "Q601502",
+      "sensible": true,
+      "note_sensibilite": "Meurtre de 1977 dont les raisons restent peu claires ; figure religieuse en cours de béatification.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date d'ordination divergente (1950 selon Fides, 1958 selon Wikipédia) ; Wikidata donne le 23 mars pour le décès, Fides le 22."
+      }
+    },
+    {
+      "id": "CG-personnalite-alice-badiangana",
+      "nom": "Alice Badiangana",
+      "description": "Employée de la caisse de prévoyance sociale de Brazzaville, Alice Badiangana devient syndicaliste à la CGAT et participe à la création de l'Union de la jeunesse congolaise. Selon le Maitron, elle est la première Congolaise emprisonnée pour ses opinions politiques avant l'indépendance, après sa campagne contre la Communauté française. Active pendant les Trois Glorieuses de 1963, elle siège ensuite au comité central du Mouvement national de la révolution et participe à la création de l'Union révolutionnaire des femmes congolaises.",
+      "roles": [
+        "syndicaliste",
+        "militante"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S71",
+        "S51"
+      ],
+      "naissance": {
+        "date": "1939",
+        "lieu": "Brazzaville"
+      },
+      "wikidata": "Q99654405",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Notice du Maitron fondée sur un entretien de 2014 ; nom parfois écrit « Bandiagana »."
+      }
+    },
+    {
+      "id": "CG-personnalite-mambou-aimee-gnali",
+      "nom": "Mambou Aimée Gnali",
+      "description": "Née à Brazzaville dans une famille vili, Aimée Mambou Gnali est la première bachelière d'Afrique-Équatoriale française selon le Maitron, puis étudie à Paris. Députée en 1963, directrice générale de l'enseignement, fonctionnaire de l'UNESCO, elle devient ministre de la Culture en 1997 et publie le récit autobiographique « Beto na Beto, le poids de la tribu » (2001).",
+      "roles": [
+        "ministre de la Culture",
+        "députée",
+        "écrivaine"
+      ],
+      "domaines": [
+        "politique",
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S39",
+        "S72",
+        "S73"
+      ],
+      "naissance": {
+        "date": "1935-10-18",
+        "lieu": "Brazzaville"
+      },
+      "wikidata": "Q3284948",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikidata donne le 15 octobre ; le Maitron et Wikipédia donnent le 18 octobre (retenu)."
+      }
+    },
+    {
+      "id": "CG-personnalite-sony-labou-tansi",
+      "nom": "Sony Labou Tansi",
+      "description": "Marcel Ntsoni, dit Sony Labou Tansi, est un romancier, poète et dramaturge, devenu célèbre avec son premier roman « La Vie et demie » (1979). Il a laissé six romans et une vingtaine de pièces, a fondé le Rocado Zulu Théâtre et reçu plusieurs prix, dont des prix de RFI. Né à Kimwenza, près de Léopoldville, il est mort à Brazzaville le 14 juin 1995.",
+      "roles": [
+        "romancier",
+        "dramaturge",
+        "poète",
+        "metteur en scène"
+      ],
+      "domaines": [
+        "littérature",
+        "arts"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S58",
+        "S74",
+        "S75"
+      ],
+      "naissance": {
+        "date": "1947-07-05",
+        "lieu": "Kimwenza (Léopoldville)"
+      },
+      "deces": {
+        "date": "1995-06-14",
+        "lieu": "Brazzaville"
+      },
+      "wikidata": "Q983273",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de naissance : 5 juillet (RFI et Wikidata) ou 5 juin (une mention sur Wikipédia fr). Créateur du Rocado Zulu Théâtre selon Wikipédia."
+      }
+    },
+    {
+      "id": "CG-personnalite-tchicaya-u-tamsi",
+      "nom": "Tchicaya U Tam'si",
+      "description": "Gérald-Félix Tchicaya, qui écrit sous le nom de Tchicaya U Tam'si, est un poète, dramaturge et romancier. Après des études en France, il revient à l'indépendance, puis travaille à l'UNESCO. Influencé par Rimbaud et les surréalistes, il publie « Le Mauvais Sang » (1955) puis des pièces comme « Le Zulu » (1977).",
+      "roles": [
+        "poète",
+        "dramaturge"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S76",
+        "S77"
+      ],
+      "naissance": {
+        "date": "1931-08-25",
+        "lieu": "Mpili (Pointe-Noire)"
+      },
+      "deces": {
+        "date": "1988",
+        "lieu": "Bazancourt (Marne), France"
+      },
+      "wikidata": "Q321066",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikipédia fr écrit Bazancourt (Oise) ; Treccani indique la Marne (retenu). Jour exact de la naissance : Wikipédia seulement."
+      }
+    },
+    {
+      "id": "CG-personnalite-henri-lopes",
+      "nom": "Henri Lopes",
+      "description": "Écrivain, homme politique et diplomate, Henri Lopes est notamment l'auteur du « Pleurer-rire » (1982), de « Le Chercheur d'Afriques » (1990) et de « Une enfant de Poto-Poto » (2012). Il a été Premier ministre de 1973 à 1975 puis ambassadeur du Congo en France. Il est mort à Suresnes le 2 novembre 2023.",
+      "roles": [
+        "écrivain",
+        "Premier ministre",
+        "ambassadeur"
+      ],
+      "domaines": [
+        "littérature",
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S78",
+        "S79"
+      ],
+      "naissance": {
+        "date": "1937-09-12",
+        "lieu": "Léopoldville"
+      },
+      "deces": {
+        "date": "2023-11-02",
+        "lieu": "Suresnes"
+      },
+      "wikidata": "Q324321",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-personnalite-alain-mabanckou",
+      "nom": "Alain Mabanckou",
+      "description": "Né à Pointe-Noire, Alain Mabanckou écrit en français romans, poèmes et essais. Professeur de littérature francophone à l'université de Californie à Los Angeles, il a occupé en 2015-2016 la chaire de création artistique du Collège de France. Son roman « Mémoires de porc-épic » a reçu le prix Renaudot en 2006, selon Wikipédia.",
+      "roles": [
+        "écrivain",
+        "professeur"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S80",
+        "S81",
+        "S82"
+      ],
+      "naissance": {
+        "date": "1966-02-24",
+        "lieu": "Pointe-Noire"
+      },
+      "wikidata": "Q268522",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-personnalite-jean-baptiste-tati-loutard",
+      "nom": "Jean-Baptiste Tati-Loutard",
+      "description": "Poète, nouvelliste et homme politique, Jean-Baptiste Tati-Loutard débute avec « Poèmes de la mer » (1968). Doyen de la faculté des lettres de Brazzaville, il a été ministre de l'Enseignement supérieur puis de la Culture, puis ministre du Pétrole à partir de 1997. Le Store norske leksikon le range parmi les poètes francophones d'Afrique les plus importants.",
+      "roles": [
+        "poète",
+        "ministre"
+      ],
+      "domaines": [
+        "littérature",
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S83",
+        "S84"
+      ],
+      "naissance": {
+        "date": "1938-12-15",
+        "lieu": "Ngoyo (Pointe-Noire)"
+      },
+      "deces": {
+        "date": "2009-07-04",
+        "lieu": "Neuilly-sur-Seine"
+      },
+      "wikidata": "Q1541759",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-personnalite-marie-leontine-tsibinda",
+      "nom": "Marie-Léontine Tsibinda",
+      "description": "Fille de paysans née à Girard, dans le Kouilou, Marie-Léontine Tsibinda est poétesse, nouvelliste et dramaturge. Elle publie ses premiers recueils en 1980, joue au Rocado Zulu Théâtre de 1979 à 1987 et reçoit le prix national de poésie en 1981. Exilée en 1999 en raison de la guerre civile, elle s'installe au Canada.",
+      "roles": [
+        "poétesse",
+        "nouvelliste",
+        "comédienne"
+      ],
+      "domaines": [
+        "littérature",
+        "arts"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S74",
+        "S85"
+      ],
+      "naissance": {
+        "date": "1958 (1953 selon une autre mention)",
+        "lieu": "Girard (Kouilou)"
+      },
+      "wikidata": "Q15489258",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année de naissance incertaine (1953 ou 1958 selon Wikipédia) ; AFLIT ne la donne pas."
+      }
+    },
+    {
+      "id": "CG-personnalite-amelia-nene",
+      "nom": "Amélia Néné",
+      "description": "Poétesse et chercheuse, Amélia Néné publie en 1980 « Fleurs de vie », l'un des tout premiers ouvrages littéraires publiés par une Congolaise selon AFLIT. Elle était l'épouse du poète Jean-Baptiste Tati-Loutard et est morte en 1996. Un second recueil est paru à titre posthume.",
+      "roles": [
+        "poétesse"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S86",
+        "S87"
+      ],
+      "naissance": {
+        "date": "1954"
+      },
+      "deces": {
+        "date": "1996"
+      },
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Aucun identifiant Wikidata univoque lu (deux QID sans description) : champ omis."
+      }
+    },
+    {
+      "id": "CG-personnalite-franklin-boukaka",
+      "nom": "Franklin Boukaka",
+      "description": "Chanteur, guitariste et compositeur de rumba, Franklin Boukaka est connu pour son album « Le Bûcheron » (1970), qui mêle poésie et engagement politique panafricain. Dans « Les Immortels », il rend hommage à des figures de la liberté, dont André Matsoua. Il est assassiné à Brazzaville en 1972.",
+      "roles": [
+        "chanteur",
+        "guitariste",
+        "compositeur"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S88",
+        "S89",
+        "S90"
+      ],
+      "naissance": {
+        "date": "1940-10-10",
+        "lieu": "Brazzaville"
+      },
+      "deces": {
+        "date": "1972-02-22",
+        "lieu": "Brazzaville"
+      },
+      "wikidata": "Q3082931",
+      "sensible": true,
+      "note_sensibilite": "Mort violente liée au contexte politique de 1972.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le site Univers Rumba Congolaise le classe par erreur « Congo RDC » ; lieu de naissance : Wikipédia."
+      }
+    },
+    {
+      "id": "CG-personnalite-francois-mpele",
+      "nom": "François M'Pelé",
+      "description": "Attaquant né à Brazzaville, François M'Pelé a marqué le troisième but du Congo en finale de la Coupe d'Afrique des nations 1972, remportée 3-2 contre le Mali à Yaoundé. Cette victoire reste l'un des grands moments du sport congolais.",
+      "roles": [
+        "footballeur"
+      ],
+      "domaines": [
+        "sport"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S91",
+        "S92"
+      ],
+      "naissance": {
+        "date": "1947-07-13",
+        "lieu": "Brazzaville"
+      },
+      "wikidata": "Q963790",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Carrière en club non reprise (source non ouverte)."
+      }
+    },
+    {
+      "id": "CG-personnalite-emmanuel-dongala",
+      "nom": "Emmanuel Dongala",
+      "description": "Chimiste et romancier, Emmanuel Dongala a été professeur de chimie et doyen à l'université de Brazzaville. Il a quitté le pays pendant la guerre de 1997 et enseigné ensuite aux États-Unis. Son roman « Le Feu des origines » (1987) a reçu le Grand prix littéraire d'Afrique noire.",
+      "roles": [
+        "chimiste",
+        "romancier",
+        "professeur"
+      ],
+      "domaines": [
+        "sciences",
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S93",
+        "S94"
+      ],
+      "naissance": {
+        "date": "1941-07-14"
+      },
+      "wikidata": "Q2707390",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lieu de naissance contradictoire dans Wikipédia fr (Brazzaville ou Alindao, Centrafrique) : non retenu."
+      }
+    },
+    {
+      "id": "CG-personnalite-jeannette-balou-tchichelle",
+      "nom": "Jeannette Balou-Tchichelle",
+      "description": "Romancière née au Congo-Brazzaville en 1947, Jeannette Balou-Tchichelle y a vécu jusqu'en 1969 avant de s'installer en France. Son roman « Cœur en exil » (1989) met en scène deux femmes aux vies opposées qui n'en forment qu'une.",
+      "roles": [
+        "romancière"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S95",
+        "S96"
+      ],
+      "naissance": {
+        "date": "1947"
+      },
+      "deces": {
+        "date": "2005"
+      },
+      "wikidata": "Q3176257",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année de décès (2005) : Wikidata et Wikipédia ; AFLIT ne la donne pas."
+      }
+    },
+    {
+      "id": "CG-personnalite-cecile-ivelyse-diamoneka",
+      "nom": "Cécile-Ivelyse Diamoneka",
+      "description": "Née à Kinkala en 1940, Cécile-Ivelyse Diamoneka est poétesse et enseignante formée à l'École normale supérieure de Saint-Cloud. Directrice de plusieurs établissements, elle a dirigé les affaires spirituelles et religieuses au ministère de la Culture. Elle a publié le recueil « Voix des cascades » (1982).",
+      "roles": [
+        "poétesse",
+        "enseignante"
+      ],
+      "domaines": [
+        "littérature",
+        "savoirs"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S97",
+        "S98"
+      ],
+      "naissance": {
+        "date": "1940",
+        "lieu": "Kinkala"
+      },
+      "wikidata": "Q115598240",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-personnalite-adele-caby-livannah",
+      "nom": "Adèle Caby-Livannah",
+      "description": "Née en 1957 au Congo-Brazzaville et élevée à Mpoumako près de Brazzaville, Adèle Caby-Livannah s'installe en France en 1983, où elle travaille dans des bibliothèques scolaires. Wikipédia la présente comme conteuse ; elle publie notamment « Contes et histoires du Congo » chez L'Harmattan.",
+      "roles": [
+        "conteuse",
+        "écrivaine"
+      ],
+      "domaines": [
+        "littérature",
+        "oralité"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S99",
+        "S100"
+      ],
+      "naissance": {
+        "date": "1957"
+      },
+      "wikidata": "Q4686972",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "evenements": [
+    {
+      "id": "CG-evenement-royaume-teke-anzico",
+      "titre": "Le royaume téké (Anzico) connu des Européens",
+      "date": "1400-01-01",
+      "date_affichee": "XVe siècle",
+      "precision": "siecle",
+      "description": "Selon la liste indicative de l'UNESCO, le royaume téké, centré sur Mbé, est connu des explorateurs européens dès le XVe siècle sous le nom d'Anzico. Wikipédia précise que ce nom apparaît en 1535 dans les titres revendiqués par Alphonse Ier du Kongo.",
+      "sources": [
+        "S8",
+        "S38"
+      ],
+      "acteurs": [
+        "Téké"
+      ],
+      "regions": [
+        "Pool",
+        "Plateaux"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date indicative (siècle) ; la source ne donne pas d'année précise."
+      }
+    },
+    {
+      "id": "CG-evenement-diogo-cao",
+      "titre": "Diogo Cão atteint l'embouchure du fleuve Congo",
+      "date": "1482-01-01",
+      "date_affichee": "1482 ou 1484 selon les sources",
+      "precision": "annee",
+      "description": "Le navigateur portugais Diogo Cão atteint l'embouchure du Congo et entre en contact avec le royaume du Kongo. Gale date l'arrivée de 1484, Wikipédia de 1482. Ces contacts ouvrent une période de relations avec les Portugais, puis de traite.",
+      "sources": [
+        "S7",
+        "S3"
+      ],
+      "acteurs": [
+        "Diogo Cão",
+        "royaume du Kongo"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date divergente : 1482 (Wikipédia) ou 1484 (Gale)."
+      }
+    },
+    {
+      "id": "CG-evenement-afonso-ier-kongo",
+      "titre": "Règne d'Afonso Ier du Kongo et conversion de l'élite",
+      "date": "1506-01-01",
+      "date_affichee": "1506-1543",
+      "precision": "annee",
+      "description": "Le Mani Kongo Affonso Ier règne de 1506 à 1543 sur un royaume qui s'étend sur le sud de l'actuel Congo, le nord de l'Angola et l'ouest de la RDC. Converti, il noue des relations avec le Portugal et le Vatican, et la capitale Mbanza Kongo devient São Salvador. Gale indique que cette conversion entraîne celle de l'élite du royaume.",
+      "sources": [
+        "S7"
+      ],
+      "fin": "1543-12-31",
+      "acteurs": [
+        "Affonso Ier",
+        "Portugal"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le centre du royaume est aujourd'hui en Angola ; seul le sud-est de l'actuel Congo en faisait partie."
+      }
+    },
+    {
+      "id": "CG-evenement-mission-loango-1663",
+      "titre": "Première mission catholique à Loango",
+      "date": "1663-01-01",
+      "date_affichee": "1663",
+      "precision": "annee",
+      "description": "Selon Gale, des missionnaires portugais fondent en 1663 la première mission catholique à Loango, sur la côte.",
+      "sources": [
+        "S7"
+      ],
+      "acteurs": [
+        "missionnaires portugais"
+      ],
+      "regions": [
+        "Kouilou"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-evenement-traite-makoko",
+      "titre": "Traité entre Brazza et le Makoko",
+      "date": "1880-09-10",
+      "date_affichee": "10 septembre 1880",
+      "precision": "jour",
+      "description": "Pierre Savorgnan de Brazza conclut avec le chef des Téké, le Makoko Iloo, un traité qui place leur territoire sous protection française. Hérodote.net souligne que le roi africain n'en comprend pas toute la portée.",
+      "sources": [
+        "S35",
+        "S8"
+      ],
+      "acteurs": [
+        "Pierre Savorgnan de Brazza",
+        "Makoko Iloo"
+      ],
+      "regions": [
+        "Pool"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Épisode de la conquête coloniale, présenté de façon critique par Hérodote.net.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-evenement-ratification-makoko",
+      "titre": "Ratification du traité Makoko par la Chambre des députés",
+      "date": "1882-09-18",
+      "date_affichee": "18 septembre 1882",
+      "precision": "jour",
+      "description": "À Paris, la Chambre des députés ratifie le traité entre Brazza et le Makoko Iloo, dans un contexte favorable à la colonisation selon Hérodote.net.",
+      "sources": [
+        "S35"
+      ],
+      "acteurs": [
+        "Chambre des députés",
+        "Pierre Savorgnan de Brazza"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-evenement-congo-ocean",
+      "titre": "Construction du chemin de fer Congo-Océan",
+      "date": "1921-02-06",
+      "date_affichee": "1921-1934",
+      "precision": "jour",
+      "description": "Les travaux du chemin de fer entre Brazzaville et l'Atlantique commencent le 6 février 1921 et s'achèvent en 1934. L'administration coloniale fournit une main-d'œuvre recrutée de force dans toute l'Afrique-Équatoriale française, avec des conditions de travail très dures. Les travaux d'historiens cités par la revue International Review of Social History évoquent des milliers de morts.",
+      "sources": [
+        "S11",
+        "S10"
+      ],
+      "fin": "1934-12-31",
+      "acteurs": [
+        "Société de construction des Batignolles",
+        "administration coloniale"
+      ],
+      "regions": [
+        "Brazzaville",
+        "Pointe-Noire",
+        "Mayombe"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Travail forcé colonial ; les bilans humains varient selon les sources.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Aucun chiffre de victimes repris."
+      }
+    },
+    {
+      "id": "CG-evenement-amicale-1926",
+      "titre": "Fondation de l'Amicale des originaires de l'A.E.F.",
+      "date": "1926-01-01",
+      "date_affichee": "1926",
+      "precision": "annee",
+      "description": "André Matsoua fonde à Paris l'Amicale des originaires de l'Afrique-Équatoriale française pour demander des droits pour les Africains, contre le code de l'indigénat et le travail forcé. Le mouvement rencontre un grand succès, notamment à Brazzaville, Libreville et Bangui.",
+      "sources": [
+        "S40"
+      ],
+      "acteurs": [
+        "André Matsoua"
+      ],
+      "regions": [
+        "Brazzaville"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikipédia fr précise juillet 1926 (non repris)."
+      }
+    },
+    {
+      "id": "CG-evenement-arrestation-matsoua",
+      "titre": "Arrestation et déportation de Matsoua",
+      "date": "1929-01-01",
+      "date_affichee": "1929-1930",
+      "precision": "annee",
+      "description": "Matsoua est arrêté à Paris en 1929, déporté à Brazzaville en 1930 puis condamné à l'exil au Tchad. Il s'évade en 1935 et rentre en France.",
+      "sources": [
+        "S40"
+      ],
+      "fin": "1930-12-31",
+      "acteurs": [
+        "André Matsoua",
+        "administration coloniale"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Épisode lié à la répression coloniale et à un mouvement politico-religieux.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-evenement-mort-matsoua",
+      "titre": "Mort de Matsoua à la prison de Mayama",
+      "date": "1942-01-13",
+      "date_affichee": "13 janvier 1942",
+      "precision": "jour",
+      "description": "André Matsoua meurt à la prison de Mayama. Les archives coloniales parlent de maladie, alors que ses partisans soupçonnent des mauvais traitements ou la dissimulation des faits.",
+      "sources": [
+        "S40"
+      ],
+      "acteurs": [
+        "André Matsoua"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Circonstances de la mort disputées.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-evenement-abolition-travail-force",
+      "titre": "Abolition officielle du travail forcé dans l'Empire français",
+      "date": "1946-01-01",
+      "date_affichee": "1946",
+      "precision": "annee",
+      "description": "La revue International Review of Social History rappelle que le travail forcé, pilier de l'exploitation du Moyen-Congo depuis les années 1890, s'est maintenu bien au-delà de son abolition officielle dans l'Empire français en 1946.",
+      "sources": [
+        "S10"
+      ],
+      "regions": [
+        "Moyen-Congo"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-evenement-independance",
+      "titre": "Indépendance de la République du Congo",
+      "date": "1960-08-15",
+      "date_affichee": "15 août 1960",
+      "precision": "jour",
+      "description": "Le Congo, ancien Moyen-Congo, accède à l'indépendance en 1960 sous le nom de République du Congo, avec l'abbé Fulbert Youlou comme premier président. La fête nationale est fixée au 15 août.",
+      "sources": [
+        "S7",
+        "S3",
+        "S4"
+      ],
+      "acteurs": [
+        "Fulbert Youlou",
+        "France"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Jour (15 août) : Wikipédia fr ; Gale et le Maitron datent l'indépendance de 1960."
+      }
+    },
+    {
+      "id": "CG-evenement-trois-glorieuses",
+      "titre": "Les Trois Glorieuses",
+      "date": "1963-08-13",
+      "date_affichee": "13-15 août 1963",
+      "precision": "jour",
+      "description": "À l'appel des syndicats, la population de Brazzaville se soulève pour s'opposer au projet de parti unique de Fulbert Youlou. Le 15 août, il remet sa démission aux militaires congolais. Un gouvernement provisoire est formé sous Alphonse Massamba-Débat.",
+      "sources": [
+        "S51",
+        "S71"
+      ],
+      "fin": "1963-08-15",
+      "acteurs": [
+        "syndicats",
+        "Fulbert Youlou",
+        "Alphonse Massamba-Débat"
+      ],
+      "regions": [
+        "Brazzaville"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Épisode politique avec victimes ; présentation neutre.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-evenement-ngouabi-pouvoir",
+      "titre": "Prise de pouvoir de Marien Ngouabi",
+      "date": "1968-01-01",
+      "date_affichee": "1968-1969",
+      "precision": "annee",
+      "description": "En 1968, le capitaine Marien Ngouabi prend le pouvoir et instaure un nouveau régime de parti unique, le Parti congolais du travail, fondé en 1969.",
+      "sources": [
+        "S51",
+        "S66"
+      ],
+      "acteurs": [
+        "Marien Ngouabi"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Prise de pouvoir par l'armée.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Mois non précisés dans les sources non-Wikipédia lues."
+      }
+    },
+    {
+      "id": "CG-evenement-cae-1972",
+      "titre": "Le Congo remporte la Coupe d'Afrique des nations",
+      "date": "1972-03-05",
+      "date_affichee": "5 mars 1972",
+      "precision": "jour",
+      "description": "À Yaoundé, le Congo bat le Mali 3-2 en finale de la CAN 1972, avec deux buts de M'Bono et un de François M'Pelé.",
+      "sources": [
+        "S92",
+        "S91"
+      ],
+      "acteurs": [
+        "équipe du Congo",
+        "François M'Pelé"
+      ],
+      "regions": [
+        "Brazzaville"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-evenement-assassinat-ngouabi",
+      "titre": "Assassinat du président Marien Ngouabi",
+      "date": "1977-03-18",
+      "date_affichee": "18 mars 1977",
+      "precision": "jour",
+      "description": "Le président Marien Ngouabi est tué à Brazzaville. Un comité militaire prend le pouvoir et, selon RFI, les circonstances de sa mort ne sont toujours pas élucidées.",
+      "sources": [
+        "S66"
+      ],
+      "acteurs": [
+        "Marien Ngouabi",
+        "comité militaire du PCT"
+      ],
+      "regions": [
+        "Brazzaville"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement politique dont les responsabilités restent disputées.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-evenement-mort-biayenda",
+      "titre": "Enlèvement et mort du cardinal Émile Biayenda",
+      "date": "1977-03-22",
+      "date_affichee": "22 mars 1977",
+      "precision": "jour",
+      "description": "Le cardinal Émile Biayenda, archevêque de Brazzaville, est enlevé à sa résidence et tué par un groupe de soldats. Les raisons du crime restent peu claires. Il avait lancé un appel à l'unité nationale peu avant.",
+      "sources": [
+        "S69",
+        "S66"
+      ],
+      "acteurs": [
+        "Émile Biayenda"
+      ],
+      "regions": [
+        "Brazzaville"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Meurtre politique ou apparenté, raisons non élucidées.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-evenement-execution-massamba-debat",
+      "titre": "Exécution d'Alphonse Massamba-Débat",
+      "date": "1977-03-25",
+      "date_affichee": "fin mars 1977",
+      "precision": "mois",
+      "description": "Après l'assassinat de Ngouabi, l'ancien président Massamba-Débat est arrêté, jugé sommairement et fusillé. Son ancien Premier ministre Pascal Lissouba, condamné à mort, voit sa peine commuée en détention.",
+      "sources": [
+        "S66",
+        "S67"
+      ],
+      "acteurs": [
+        "Alphonse Massamba-Débat",
+        "Pascal Lissouba"
+      ],
+      "regions": [
+        "Brazzaville"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Exécution politique contestée.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le jour (25 mars) vient de Wikipédia ; RFI donne seulement « sommairement jugé »."
+      }
+    },
+    {
+      "id": "CG-evenement-vie-et-demie-1979",
+      "titre": "Publication de « La Vie et demie » de Sony Labou Tansi",
+      "date": "1979-01-01",
+      "date_affichee": "1979",
+      "precision": "annee",
+      "description": "Le premier roman de Sony Labou Tansi, « La Vie et demie », le rend célèbre. Il dira plus tard être avant tout poète.",
+      "sources": [
+        "S58"
+      ],
+      "acteurs": [
+        "Sony Labou Tansi"
+      ],
+      "regions": [
+        "Brazzaville"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-evenement-premieres-poetesses-1980",
+      "titre": "Premiers recueils poétiques de femmes congolaises",
+      "date": "1980-01-01",
+      "date_affichee": "1980",
+      "precision": "annee",
+      "description": "En 1980 paraissent « Fleurs de vie » d'Amélia Néné, l'un des premiers ouvrages littéraires publiés par une Congolaise, et les premiers recueils de Marie-Léontine Tsibinda. AFLIT date l'arrivée des femmes sur la scène littéraire congolaise des années 1970.",
+      "sources": [
+        "S86",
+        "S98",
+        "S74"
+      ],
+      "acteurs": [
+        "Amélia Néné",
+        "Marie-Léontine Tsibinda"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-evenement-visite-jean-paul-ii",
+      "titre": "Visite du pape Jean-Paul II à Brazzaville",
+      "date": "1980-05-01",
+      "date_affichee": "mai 1980",
+      "precision": "mois",
+      "description": "Le pape Jean-Paul II célèbre une messe à Brazzaville devant environ 400 000 fidèles selon Gale. Il encourage ensuite une africanisation de l'Église catholique congolaise.",
+      "sources": [
+        "S7"
+      ],
+      "acteurs": [
+        "Jean-Paul II"
+      ],
+      "regions": [
+        "Brazzaville"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-evenement-fin-parti-unique",
+      "titre": "Abolition du parti unique",
+      "date": "1990-09-30",
+      "date_affichee": "30 septembre 1990",
+      "precision": "jour",
+      "description": "Le régime de parti unique est aboli le 30 septembre 1990, après le discours de La Baule du président Mitterrand. L'adhésion au Parti congolais du travail n'est plus nécessaire pour être candidat.",
+      "sources": [
+        "S12"
+      ],
+      "acteurs": [
+        "Denis Sassou-Nguesso",
+        "Parti congolais du travail"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-evenement-conference-nationale-1991",
+      "titre": "Conférence nationale souveraine",
+      "date": "1991-02-25",
+      "date_affichee": "février-juin 1991",
+      "precision": "jour",
+      "description": "Pendant quatre mois, la Conférence nationale souveraine réunit à Brazzaville représentants de l'État, partis et société civile. Elle abolit la Constitution de 1979 et adopte un Acte fondamental pour la transition. Elle est présidée par Mgr Ernest Kombo, évêque d'Owando selon Wikipédia.",
+      "sources": [
+        "S12",
+        "S4"
+      ],
+      "fin": "1991-06-30",
+      "acteurs": [
+        "Mgr Ernest Kombo"
+      ],
+      "regions": [
+        "Brazzaville"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Jour d'ouverture (25 février) : Wikipédia fr ; Jeune Afrique : février-juin 1991."
+      }
+    },
+    {
+      "id": "CG-evenement-constitution-1992",
+      "titre": "Référendum constitutionnel du 15 mars 1992",
+      "date": "1992-03-15",
+      "date_affichee": "15 mars 1992",
+      "precision": "jour",
+      "description": "Les Congolais adoptent par référendum une nouvelle Constitution, la sixième du pays, qui permet de tourner la page du parti unique de la période marxiste. Le vote suit une transition présidée par Mgr Ernest Kombo.",
+      "sources": [
+        "S12"
+      ],
+      "acteurs": [
+        "Congolais",
+        "Mgr Ernest Kombo"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-evenement-guerre-civile-1997",
+      "titre": "Guerres civiles de 1997-1999",
+      "date": "1997-06-05",
+      "date_affichee": "juin 1997 - 1999",
+      "precision": "jour",
+      "description": "Des affrontements armés opposent à Brazzaville les partisans du président Lissouba et ceux de Denis Sassou-Nguesso, qui reprend le pouvoir en octobre 1997. Les combats reprennent à la fin de l'été 1998, notamment dans le Pool. L'écrivain Emmanuel Dongala décrit des bombardements de quartiers résidentiels et estime que le bilan officiel de 10 000 morts est bien inférieur à la réalité.",
+      "sources": [
+        "S93",
+        "S4",
+        "S39",
+        "S7"
+      ],
+      "fin": "1999-12-31",
+      "acteurs": [
+        "Pascal Lissouba",
+        "Denis Sassou-Nguesso"
+      ],
+      "regions": [
+        "Brazzaville",
+        "Pool"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Conflit récent et disputé ; bilans et responsabilités divergent selon les sources.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Début (5 juin 1997) d'après Wikipédia fr ; le chiffre de 10 000 morts est celui d'estimations officielles rapportées par l'Institut d'écrivains d'Albany."
+      }
+    },
+    {
+      "id": "CG-evenement-constitution-2002",
+      "titre": "Constitution de 2002",
+      "date": "2002-01-01",
+      "date_affichee": "janvier 2002",
+      "precision": "mois",
+      "description": "Gale indique que la Constitution a été approuvée en janvier 2002. Elle précède la Constitution de 2015 actuellement en vigueur.",
+      "sources": [
+        "S7",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le jour exact (20 janvier) n'a pas été retenu ; contenu du texte non détaillé."
+      }
+    },
+    {
+      "id": "CG-evenement-unesco-sangha-2012",
+      "titre": "Inscription du Trinational de la Sangha au patrimoine mondial",
+      "date": "2012-01-01",
+      "date_affichee": "2012",
+      "precision": "annee",
+      "description": "Le Trinational de la Sangha, qui réunit les parcs de Lobéké (Cameroun), Nouabalé-Ndoki (Congo) et Dzanga-Ndoki (Centrafrique), est inscrit sur la Liste du patrimoine mondial.",
+      "sources": [
+        "S42",
+        "S5"
+      ],
+      "regions": [
+        "Sangha"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-evenement-constitution-2015",
+      "titre": "Constitution du 25 octobre 2015",
+      "date": "2015-10-25",
+      "date_affichee": "25 octobre 2015",
+      "precision": "jour",
+      "description": "Une nouvelle Constitution est adoptée par référendum le 25 octobre 2015, puis promulguée le 6 novembre selon Wikipédia. Le texte définit le Congo comme un État de droit souverain, unitaire, décentralisé, laïc et démocratique, et désigne le français comme langue officielle.",
+      "sources": [
+        "S2",
+        "S4"
+      ],
+      "acteurs": [
+        "Denis Sassou-Nguesso"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Révision politiquement débattue ; présentation neutre.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates du référendum et de la promulgation : Wikipédia fr seulement."
+      }
+    },
+    {
+      "id": "CG-evenement-presidentielle-2021",
+      "titre": "Présidentielle de mars 2021",
+      "date": "2021-03-21",
+      "date_affichee": "mars 2021",
+      "precision": "mois",
+      "description": "Denis Sassou-Nguesso est réélu président avec 88,57 % des voix d'après les résultats provisoires officiels. RFI rapporte que ses opposants dénoncent un scrutin « calamiteux » et annoncent des recours.",
+      "sources": [
+        "S101"
+      ],
+      "acteurs": [
+        "Denis Sassou-Nguesso",
+        "opposition"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Élection contestée par l'opposition ; positions des parties à présenter neutres.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Précision retenue : mois ; le jour du scrutin (21 mars) vient de Wikipédia fr."
+      }
+    },
+    {
+      "id": "CG-evenement-rumba-unesco-2021",
+      "titre": "Inscription de la rumba congolaise au patrimoine immatériel",
+      "date": "2021-12-01",
+      "date_affichee": "décembre 2021",
+      "precision": "mois",
+      "description": "La rumba congolaise, commune à la République du Congo et à la RDC, est inscrite sur la Liste représentative du patrimoine culturel immatériel de l'humanité lors de la 16e session du Comité.",
+      "sources": [
+        "S52",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Mois (décembre) tiré de Wikipédia ; la page UNESCO donne « 2021 (16.COM) »."
+      }
+    },
+    {
+      "id": "CG-evenement-odzala-2023",
+      "titre": "Inscription d'Odzala-Kokoua et retour du Fespam",
+      "date": "2023-07-15",
+      "date_affichee": "2023",
+      "precision": "annee",
+      "description": "Le massif d'Odzala-Kokoua est inscrit en 2023 au patrimoine mondial. La même année, le Festival panafricain de musique rouvre à Brazzaville, le 15 juillet, après huit ans d'absence.",
+      "sources": [
+        "S47",
+        "S57"
+      ],
+      "regions": [
+        "Brazzaville",
+        "nord du Congo"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Deux faits de 2023 regroupés ; date retenue : ouverture du Fespam."
+      }
+    },
+    {
+      "id": "CG-evenement-mvet-unesco-2025",
+      "titre": "Inscription du Mvet Oyeng au patrimoine immatériel",
+      "date": "2025-01-01",
+      "date_affichee": "2025",
+      "precision": "annee",
+      "description": "L'art du mvet oyeng, pratiqué par la communauté ekang au Cameroun, au Congo et au Gabon, est inscrit sur la Liste représentative du patrimoine immatériel de l'humanité en 2025.",
+      "sources": [
+        "S53",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "oeuvres": [
+    {
+      "id": "CG-oeuvre-mangaaka-met",
+      "titre": "Figure de pouvoir Mangaaka (nkisi n'kondi)",
+      "type": "sculpture",
+      "description": "Cette grande figure en bois, couverte de lames, de résine et de fibres, est attribuée aux peuples kongo et provient de la région du fleuve Chiloango. Elle mesure environ 118 cm de haut, date de 1880-1900 et provient du Congo ou de l'enclave de Cabinda. Le Met la classe parmi ses figures de pouvoir.",
+      "sources": [
+        "S60"
+      ],
+      "communaute": "Kongo",
+      "periode": "vers 1880-1900",
+      "materiaux": [
+        "bois",
+        "fer",
+        "résine",
+        "céramique",
+        "fibre"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "2008.30",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/320053",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici. Domaine public selon le Met.",
+      "sensible": true,
+      "note_sensibilite": "Objet rituel : usage et présentation à valider avec les communautés.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Origine « République du Congo ou Cabinda (Angola) » selon le Met."
+      }
+    },
+    {
+      "id": "CG-oeuvre-figure-teke-met",
+      "titre": "Figure masculine téké",
+      "type": "sculpture",
+      "description": "Cette figure masculine en bois, avec incrustation et pigments, est attribuée aux peuples téké et date du XIXe-XXe siècle. Elle mesure environ 28 cm de haut. Elle fait partie de la collection Michael C. Rockefeller du Metropolitan Museum.",
+      "sources": [
+        "S37"
+      ],
+      "communaute": "Téké",
+      "periode": "XIXe-XXe siècle",
+      "materiaux": [
+        "bois",
+        "pigment"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1978.412.500",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/310961",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici.",
+      "sensible": true,
+      "note_sensibilite": "Objet de culte probable : validation par les communautés requise.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-oeuvre-figure-janus-teke-met",
+      "titre": "Figure janus téké",
+      "type": "sculpture",
+      "description": "Cette petite figure à deux faces, haute d'environ 18 cm, associe bois, perles, dents, tissu et pigments. Elle est attribuée aux peuples téké (XIXe-XXe siècle) et conservée dans la collection Michael C. Rockefeller.",
+      "sources": [
+        "S61"
+      ],
+      "communaute": "Téké",
+      "periode": "XIXe-XXe siècle",
+      "materiaux": [
+        "bois",
+        "perles",
+        "dents",
+        "tissu",
+        "pigment"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1978.412.651",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/311110",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici.",
+      "sensible": true,
+      "note_sensibilite": "Objet de culte probable : validation par les communautés requise.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-oeuvre-ancetre-beembe-met",
+      "titre": "Figure d'ancêtre assise beembe",
+      "type": "sculpture",
+      "description": "Cette petite statuette de bois et d'ivoire, haute d'environ 16 cm, est attribuée au groupe beembe des peuples kongo (XIXe-première moitié du XXe siècle). Elle est décrite comme figure d'ancêtre dans la collection Michael C. Rockefeller du Met.",
+      "sources": [
+        "S41"
+      ],
+      "communaute": "Beembe",
+      "periode": "XIXe-première moitié du XXe siècle",
+      "materiaux": [
+        "bois",
+        "ivoire"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "1978.412.543",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/311004",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici.",
+      "sensible": true,
+      "note_sensibilite": "Figure d'ancêtre : objet à valeur rituelle, validation communautaire requise.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-oeuvre-figure-kuyu-met",
+      "titre": "Figure masculine à trois têtes kuyu",
+      "type": "sculpture",
+      "description": "Cette haute figure de bois, d'environ 137 cm, porte trois têtes. Elle est attribuée aux Kuyu et provient de la région de la rivière Kuyu, dans le nord du pays. Elle date du XIXe ou du début du XXe siècle et a été acquise par le Met en 2006.",
+      "sources": [
+        "S46"
+      ],
+      "communaute": "Kuyu",
+      "periode": "XIXe-début du XXe siècle",
+      "materiaux": [
+        "bois",
+        "pigment"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "2006.447",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/319799",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici.",
+      "sensible": true,
+      "note_sensibilite": "Objet probablement rituel : validation communautaire requise.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-oeuvre-reliquaire-kota-met",
+      "titre": "Figure de reliquaire kota (groupe mbete)",
+      "type": "sculpture",
+      "description": "Cette figure de reliquaire, en bois, métal, cauris et pigment, mesure environ 82 cm. Elle est attribuée aux Kota du groupe mbete (XIXe siècle). Le Met indique une origine « Gabon ou République du Congo ».",
+      "sources": [
+        "S45"
+      ],
+      "communaute": "Kota (Mbete)",
+      "periode": "XIXe siècle",
+      "materiaux": [
+        "bois",
+        "pigment",
+        "métal",
+        "cauris"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "2002.456.17",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/319234",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici. Domaine public selon le Met.",
+      "sensible": true,
+      "note_sensibilite": "Figure de reliquaire liée à des pratiques funéraires ; restes ou reliques possibles.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Origine géographique incertaine (Gabon ou Congo)."
+      }
+    },
+    {
+      "id": "CG-oeuvre-kisanji-met",
+      "titre": "Kisanji (Cisaji)",
+      "type": "instrument",
+      "description": "Cet instrument en bois, long d'environ 43 cm, est attribué aux Bateke et date de la fin du XIXe siècle. Il fait partie de la collection d'instruments de musique Crosby Brown du Met, acquise en 1889.",
+      "sources": [
+        "S102"
+      ],
+      "communaute": "Téké (Bateke)",
+      "periode": "fin du XIXe siècle",
+      "materiaux": [
+        "bois"
+      ],
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "numero_inventaire": "89.4.485",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/501103",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici. Domaine public selon le Met.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Type d'instrument non précisé dans les données lues."
+      }
+    },
+    {
+      "id": "CG-oeuvre-vie-et-demie",
+      "titre": "La Vie et demie",
+      "type": "livre",
+      "description": "Premier roman de Sony Labou Tansi, publié en 1979, qui lui apporte une renommée internationale. RFI y voit un texte au style flamboyant, mais l'auteur se disait avant tout poète.",
+      "sources": [
+        "S58",
+        "S75"
+      ],
+      "createur": "Sony Labou Tansi",
+      "periode": "1979",
+      "droits": "Œuvre sous droits ; lien vers une notice institutionnelle non retenu.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Éditeur et notice de bibliothèque non vérifiés par une source ouverte lue."
+      }
+    },
+    {
+      "id": "CG-oeuvre-pleurer-rire",
+      "titre": "Le Pleurer-rire",
+      "type": "livre",
+      "description": "Roman de Henri Lopes publié en 1982, cité par Jeune Afrique parmi les titres majeurs de l'auteur, avec « Le Chercheur d'Afriques » (1990).",
+      "sources": [
+        "S78",
+        "S79"
+      ],
+      "createur": "Henri Lopes",
+      "periode": "1982",
+      "droits": "Œuvre sous droits.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Éditeur non vérifié par une source ouverte lue."
+      }
+    },
+    {
+      "id": "CG-oeuvre-memoires-porc-epic",
+      "titre": "Mémoires de porc-épic",
+      "type": "livre",
+      "description": "Roman d'Alain Mabanckou, récompensé par le prix Renaudot en 2006 d'après Wikipédia.",
+      "sources": [
+        "S82",
+        "S80"
+      ],
+      "createur": "Alain Mabanckou",
+      "periode": "2006",
+      "droits": "Œuvre sous droits.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Éditeur et année de parution à vérifier ; la page de l'Académie française ne détaille pas cette œuvre."
+      }
+    },
+    {
+      "id": "CG-oeuvre-le-bucheron",
+      "titre": "Le Bûcheron",
+      "type": "musique",
+      "description": "Album de Franklin Boukaka paru en 1970, arrangé avec Manu Dibango, qui mêle poésie et engagement politique panafricain. La chanson « Les Immortels » y cite plusieurs figures de la liberté dont André Matsoua.",
+      "sources": [
+        "S88",
+        "S89"
+      ],
+      "createur": "Franklin Boukaka",
+      "periode": "1970",
+      "droits": "Œuvre sous droits.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Pas de notice institutionnelle ouverte."
+      }
+    },
+    {
+      "id": "CG-oeuvre-fleurs-de-vie",
+      "titre": "Fleurs de vie",
+      "type": "livre",
+      "description": "Recueil de poèmes d'Amélia Néné paru en 1980 chez Présence africaine, l'un des premiers ouvrages littéraires publiés par une Congolaise selon AFLIT.",
+      "sources": [
+        "S86"
+      ],
+      "createur": "Amélia Néné",
+      "periode": "1980",
+      "droits": "Œuvre sous droits.",
+      "institution": "Présence africaine",
+      "url_notice": "https://aflit.arts.uwa.edu.au/NeneAmelia.html",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-oeuvre-feu-des-origines",
+      "titre": "Le Feu des origines",
+      "type": "livre",
+      "description": "Roman d'Emmanuel Dongala (1987) racontant l'histoire d'un personnage mythique nommé Mankuku. Il a reçu le Grand prix littéraire d'Afrique noire, selon l'Institut des écrivains de l'Université d'Albany.",
+      "sources": [
+        "S93"
+      ],
+      "createur": "Emmanuel Dongala",
+      "periode": "1987",
+      "droits": "Œuvre sous droits.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-oeuvre-coeur-en-exil",
+      "titre": "Cœur en exil",
+      "type": "livre",
+      "description": "Roman de Jeannette Balou-Tchichelle (1989) mettant en scène deux femmes aux vies opposées qui n'en forment qu'une. AFLIT en reproduit un extrait.",
+      "sources": [
+        "S95"
+      ],
+      "createur": "Jeannette Balou-Tchichelle",
+      "periode": "1989",
+      "droits": "Œuvre sous droits.",
+      "institution": "La Pensée universelle (éditeur)",
+      "url_notice": "https://aflit.arts.uwa.edu.au/BalouTchichelleJeannette.html",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "proverbes": [
+    {
+      "id": "CG-proverbe-oreilles-tete",
+      "texte_original": "Matu makulila ngolo, kuvioka mpe ntu",
+      "langue": "vili et yombe",
+      "traduction": "Les oreilles peuvent grandir, mais elles ne dépassent pas la tête.",
+      "sens": "L'article indique que ce proverbe, attesté en vili, en sundi et en kongo boko, est dit à un enfant obstiné ou désobéissant.",
+      "publication": "Aimée Noëlle Gomas et Bakouma Malanda, « Portée éducationnelle et rhétorique des proverbes dans la société ancestrale kongo », Cahiers Africains de Rhétorique, vol. 1, n° 1, 30 juillet 2022, Université Marien Ngouabi, pp. 225-239, p. 237 (version vili-yombe) ; explication p. 230 (numérisation Internet Archive).",
+      "sources": [
+        "S20"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Version boko : « Matu kani makudidi, ka malendi vioka ntu ko » (même page)."
+      }
+    },
+    {
+      "id": "CG-proverbe-colatier-amer",
+      "texte_original": "Nkaasu nti nduli",
+      "langue": "vili et yombe",
+      "traduction": "Le colatier donne des fruits amers.",
+      "sens": "Glose de l'article : il ne faut pas se laisser tromper par les apparences.",
+      "publication": "Aimée Noëlle Gomas et Bakouma Malanda, « Portée éducationnelle et rhétorique des proverbes dans la société ancestrale kongo », Cahiers Africains de Rhétorique, vol. 1, n° 1, 30 juillet 2022, Université Marien Ngouabi, pp. 225-239, p. 237 (numérisation Internet Archive).",
+      "sources": [
+        "S20"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-proverbe-champignon-etranger",
+      "texte_original": "buku butufi buntumuna bwaawu mweeni",
+      "langue": "vili et yombe",
+      "traduction": "Seul l'étranger peut ramasser les champignons qui poussent sur des excréments.",
+      "sens": "Glose de l'article : l'étranger ignore tout de la vérité.",
+      "publication": "Aimée Noëlle Gomas et Bakouma Malanda, « Portée éducationnelle et rhétorique des proverbes dans la société ancestrale kongo », Cahiers Africains de Rhétorique, vol. 1, n° 1, 30 juillet 2022, Université Marien Ngouabi, pp. 225-239, p. 237 ; analyse p. 235 (numérisation Internet Archive).",
+      "sources": [
+        "S20"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-proverbe-avant-voyage",
+      "texte_original": "kweenda ku maloongo kufula",
+      "langue": "vili et yombe",
+      "traduction": "Avant d'entreprendre un long voyage, il faut d'abord se renseigner.",
+      "sens": "Conseil de prudence : s'informer avant de partir.",
+      "publication": "Aimée Noëlle Gomas et Bakouma Malanda, « Portée éducationnelle et rhétorique des proverbes dans la société ancestrale kongo », Cahiers Africains de Rhétorique, vol. 1, n° 1, 30 juillet 2022, Université Marien Ngouabi, pp. 225-239, p. 237 (numérisation Internet Archive).",
+      "sources": [
+        "S20"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-proverbe-personnalite-homme",
+      "texte_original": "Kimuntu kiyidika muntu",
+      "langue": "sundi et lari",
+      "traduction": "C'est la personnalité (kimuntu) qui fait l'homme.",
+      "sens": "L'article la classe parmi les proverbes kongo sundi et lari ; elle porte sur le caractère comme fondement de la personne.",
+      "publication": "Aimée Noëlle Gomas et Bakouma Malanda, « Portée éducationnelle et rhétorique des proverbes dans la société ancestrale kongo », Cahiers Africains de Rhétorique, vol. 1, n° 1, 30 juillet 2022, Université Marien Ngouabi, pp. 225-239, p. 237 (numérisation Internet Archive).",
+      "sources": [
+        "S20"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-proverbe-palmier-vin",
+      "texte_original": "Bâ malavu ba luona dio, ka buleluako",
+      "langue": "sundi et lari",
+      "traduction": "Du palmier, on se vante du vin qu'il donne, et non de son tronc glissant.",
+      "sens": "Proverbe sundi et lari cité sans glose développée par l'article.",
+      "publication": "Aimée Noëlle Gomas et Bakouma Malanda, « Portée éducationnelle et rhétorique des proverbes dans la société ancestrale kongo », Cahiers Africains de Rhétorique, vol. 1, n° 1, 30 juillet 2022, Université Marien Ngouabi, pp. 225-239, p. 237 (numérisation Internet Archive).",
+      "sources": [
+        "S20"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Graphie reprise telle quelle de la publication."
+      }
+    },
+    {
+      "id": "CG-proverbe-feu-habit-herbe",
+      "texte_original": "vo vweti mbadi, tiya ukilungidi",
+      "langue": "kikongo (boko et manianga)",
+      "traduction": "Si tu es habillé de vêtements d'herbe, fais attention au feu.",
+      "sens": "L'article cite ce proverbe boko et manianga sans en développer le sens.",
+      "publication": "Aimée Noëlle Gomas et Bakouma Malanda, « Portée éducationnelle et rhétorique des proverbes dans la société ancestrale kongo », Cahiers Africains de Rhétorique, vol. 1, n° 1, 30 juillet 2022, Université Marien Ngouabi, pp. 225-239, p. 237 (numérisation Internet Archive).",
+      "sources": [
+        "S20"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "CG-proverbe-chien-quatre-pattes",
+      "texte_original": "mbua mi : lù mina ngo kùnàmà nzila mosi",
+      "langue": "beembe",
+      "traduction": "Le chien a quatre pattes mais il suit un seul chemin.",
+      "sens": "Proverbe beembe cité sans glose développée par l'article.",
+      "publication": "Aimée Noëlle Gomas et Bakouma Malanda, « Portée éducationnelle et rhétorique des proverbes dans la société ancestrale kongo », Cahiers Africains de Rhétorique, vol. 1, n° 1, 30 juillet 2022, Université Marien Ngouabi, pp. 225-239, p. 238 (numérisation Internet Archive).",
+      "sources": [
+        "S20"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Notation tonale de l'article reprise ; à contrôler avec un locuteur beembe."
+      }
+    },
+    {
+      "id": "CG-proverbe-un-doigt",
+      "texte_original": "mùlè : mbù mosi kadi mbululà lùngùba ko",
+      "langue": "beembe",
+      "traduction": "Un seul doigt ne suffit pas à casser une arachide.",
+      "sens": "L'article cite une formule voisine (« Un seul doigt ne lave jamais le visage ») dans l'initiation du Lemba, pour enseigner le sens de l'union.",
+      "publication": "Aimée Noëlle Gomas et Bakouma Malanda, « Portée éducationnelle et rhétorique des proverbes dans la société ancestrale kongo », Cahiers Africains de Rhétorique, vol. 1, n° 1, 30 juillet 2022, Université Marien Ngouabi, pp. 225-239, p. 238 ; formule voisine p. 232 (numérisation Internet Archive).",
+      "sources": [
+        "S20"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Cette version beembe est donnée par l'article ; la version sur le visage est donnée en français seulement."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "titre": "Population totale — Congo, Rép. (SP.POP.TOTL)",
+      "institution": "Banque mondiale",
+      "annee": 2026,
+      "url": "https://api.worldbank.org/v2/country/COG/indicator/SP.POP.TOTL?format=json&per_page=5",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S2",
+      "titre": "Congo (Republic of the) 2015 Constitution (traduction anglaise)",
+      "institution": "Constitute Project",
+      "annee": 2016,
+      "url": "https://www.constituteproject.org/constitution/Congo_2015",
+      "type": "base_de_donnees",
+      "licence": "CC BY-NC-SA 3.0 (selon le site)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S3",
+      "titre": "République du Congo",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/R%C3%A9publique_du_Congo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S4",
+      "titre": "Histoire de la république du Congo",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Histoire_de_la_R%C3%A9publique_du_Congo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S5",
+      "titre": "Congo — État partie à la Convention du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "annee": 2026,
+      "url": "https://whc.unesco.org/fr/etatsparties/cg",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S6",
+      "titre": "Congo — Patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "annee": 2026,
+      "url": "https://ich.unesco.org/en/state/congo-CG",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S7",
+      "titre": "Republic of the Congo (Encyclopedia of Religion / Worldmark)",
+      "institution": "Encyclopedia.com (Gale)",
+      "annee": 2009,
+      "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/republic-congo",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S8",
+      "titre": "Domaine royal de Mbé — Liste indicative",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "auteur": "Ministère de la culture et des arts du Congo",
+      "annee": 2008,
+      "url": "https://whc.unesco.org/fr/listesindicatives/5374/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S9",
+      "titre": "Ancien port d'embarquement des esclaves de Loango — Liste indicative",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "auteur": "Ministère de la culture et des arts du Congo",
+      "annee": 2008,
+      "url": "https://whc.unesco.org/fr/listesindicatives/5373/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S10",
+      "titre": "Forced Labour and the System of Overburdening in the Interwar Middle Congo, 1918–1948",
+      "institution": "International Review of Social History, Cambridge University Press",
+      "annee": 2025,
+      "url": "https://www.cambridge.org/core/product/3846A94E4BB563165A2679D1B294EA61/core-reader",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S11",
+      "titre": "Le chemin de fer Congo-Océan : « effroyable consommateur de vies humaines »",
+      "institution": "Archives nationales du monde du travail (ministère de la Culture)",
+      "annee": 2024,
+      "url": "https://archives-nationales-travail.culture.gouv.fr/Decouvrir/Dossiers-du-mois/Le-chemin-de-fer-Congo-Ocean-effroyable-consommateur-de-vies-humaines",
+      "type": "archive",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S12",
+      "titre": "Ce jour-là : le 15 mars 1992, le Congo adopte par référendum sa première Constitution post-ère socialiste",
+      "institution": "Jeune Afrique",
+      "auteur": "Rose-Marie Bouboutou",
+      "annee": 2018,
+      "url": "https://www.jeuneafrique.com/541926/politique/ce-jour-la-le-15-mars-1992-le-congo-adopte-par-referendum-sa-premiere-constitution-post-ere-socialiste/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S13",
+      "titre": "Langues en république du Congo",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Langues_en_R%C3%A9publique_du_Congo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S14",
+      "titre": "Glottolog — fiche de la langue « français » [stan1290]",
+      "institution": "Glottolog",
+      "auteur": "Hammarström, Forkel, Haspelmath, Bank",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/stan1290",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S15",
+      "titre": "Glottolog — fiche de la langue « lingala » [ling1263]",
+      "institution": "Glottolog",
+      "auteur": "Hammarström, Forkel, Haspelmath, Bank",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/ling1263",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S16",
+      "titre": "Rumba congolaise",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Rumba_congolaise",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S17",
+      "titre": "Glottolog — fiche de la langue « kituba » [kitu1245]",
+      "institution": "Glottolog",
+      "auteur": "Hammarström, Forkel, Haspelmath, Bank",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/kitu1245",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S18",
+      "titre": "Vili (peuple)",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Vili_(peuple)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S19",
+      "titre": "Glottolog — fiche de la langue « vili » [vili1238]",
+      "institution": "Glottolog",
+      "auteur": "Hammarström, Forkel, Haspelmath, Bank",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/vili1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S20",
+      "titre": "Portée éducationnelle et rhétorique des proverbes dans la société ancestrale kongo",
+      "institution": "Cahiers Africains de Rhétorique, vol. 1, n° 1 (Université Marien Ngouabi) — Internet Archive",
+      "auteur": "Aimée Noëlle Gomas, Bakouma Malanda",
+      "annee": 2022,
+      "url": "https://archive.org/details/car-article-19",
+      "type": "article_scientifique",
+      "licence": "CC BY-NC-ND 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S21",
+      "titre": "Glottolog — fiche de la langue « yombe » [yomb1244]",
+      "institution": "Glottolog",
+      "auteur": "Hammarström, Forkel, Haspelmath, Bank",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/yomb1244",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S22",
+      "titre": "Lari (peuple)",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Lari_(peuple)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S23",
+      "titre": "Glottolog — fiche de la langue « lari » [laar1238]",
+      "institution": "Glottolog",
+      "auteur": "Hammarström, Forkel, Haspelmath, Bank",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/laar1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S24",
+      "titre": "Sundi (peuple)",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Sundi_(peuple)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S25",
+      "titre": "Glottolog — fiche de la langue « sundi » [suun1239]",
+      "institution": "Glottolog",
+      "auteur": "Hammarström, Forkel, Haspelmath, Bank",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/suun1239",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S26",
+      "titre": "Beembe (peuple)",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Beembe_(peuple)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S27",
+      "titre": "Glottolog — fiche de la langue « beembe » [beem1239]",
+      "institution": "Glottolog",
+      "auteur": "Hammarström, Forkel, Haspelmath, Bank",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/beem1239",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S28",
+      "titre": "Glottolog — fiche de la langue « kaamba » [kaam1238]",
+      "institution": "Glottolog",
+      "auteur": "Hammarström, Forkel, Haspelmath, Bank",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/kaam1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S29",
+      "titre": "Punu (peuple)",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Punu_(peuple)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S30",
+      "titre": "Glottolog — fiche de la langue « punu » [punu1239]",
+      "institution": "Glottolog",
+      "auteur": "Hammarström, Forkel, Haspelmath, Bank",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/punu1239",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S31",
+      "titre": "Mbochi (peuple)",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Mbochi_(peuple)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S32",
+      "titre": "Glottolog — fiche de la langue « mbochi » [mbos1242]",
+      "institution": "Glottolog",
+      "auteur": "Hammarström, Forkel, Haspelmath, Bank",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/mbos1242",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S33",
+      "titre": "Glottolog — fiche de la langue « téké-tsaayi » [teke1281]",
+      "institution": "Glottolog",
+      "auteur": "Hammarström, Forkel, Haspelmath, Bank",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/teke1281",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S34",
+      "titre": "Glottolog — fiche de la langue « téké-kukuya » [teke1280]",
+      "institution": "Glottolog",
+      "auteur": "Hammarström, Forkel, Haspelmath, Bank",
+      "annee": 2026,
+      "url": "https://glottolog.org/resource/languoid/id/teke1280",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S35",
+      "titre": "Traité entre Brazza et le roi des Bateké Tio (10 septembre 1880)",
+      "institution": "Hérodote.net",
+      "auteur": "Alban Dignat",
+      "annee": 2023,
+      "url": "https://www.herodote.net/10_septembre_1880-evenement-18800910.php",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S36",
+      "titre": "Ngalifourou, dernière souveraine d'Afrique noire",
+      "institution": "L'Histoire par les femmes",
+      "annee": 2016,
+      "url": "https://histoireparlesfemmes.com/2016/02/29/ngalifourou-derniere-souveraine-dafrique-noire/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S37",
+      "titre": "Figure: Male (Teke peoples) — notice de collection, n° 1978.412.500",
+      "institution": "The Metropolitan Museum of Art",
+      "annee": 2026,
+      "url": "https://www.metmuseum.org/art/collection/search/310961",
+      "type": "musee",
+      "licence": "CC0 (données Open Access)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S38",
+      "titre": "Téké (peuple)",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/T%C3%A9k%C3%A9_(peuple)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S39",
+      "titre": "GNALI Aimée Mambou",
+      "institution": "Maitron",
+      "auteur": "Héloïse Kiriakou",
+      "annee": 2016,
+      "url": "https://maitron.fr/spip.php?article179327",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S40",
+      "titre": "Matsoua, André",
+      "institution": "Encyclopaedia Africana",
+      "auteur": "EA Editors",
+      "annee": 2025,
+      "url": "https://encyclopaediaafricana.com/?p=19385",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S41",
+      "titre": "Seated ancestor figure (Kongo peoples, Bembe group) — notice de collection, n° 1978.412.543",
+      "institution": "The Metropolitan Museum of Art",
+      "annee": 2026,
+      "url": "https://www.metmuseum.org/art/collection/search/311004",
+      "type": "musee",
+      "licence": "CC0 (données Open Access)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S42",
+      "titre": "Trinational de la Sangha — Liste du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "annee": 2012,
+      "url": "https://whc.unesco.org/fr/list/1380/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S43",
+      "titre": "Aka (peuple)",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Aka_(peuple)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S44",
+      "titre": "Kota (peuple)",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Kota_(peuple)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S45",
+      "titre": "Reliquary figure (Kota peoples, Mbete group) — notice de collection, n° 2002.456.17",
+      "institution": "The Metropolitan Museum of Art",
+      "annee": 2026,
+      "url": "https://www.metmuseum.org/art/collection/search/319234",
+      "type": "musee",
+      "licence": "CC0 (données Open Access)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S46",
+      "titre": "Three-headed male figure (Kuyu) — notice de collection, n° 2006.447",
+      "institution": "The Metropolitan Museum of Art",
+      "annee": 2026,
+      "url": "https://www.metmuseum.org/art/collection/search/319799",
+      "type": "musee",
+      "licence": "CC0 (données Open Access)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S47",
+      "titre": "Massif forestier d'Odzala-Kokoua — Liste du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "annee": 2023,
+      "url": "https://whc.unesco.org/fr/list/692/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S48",
+      "titre": "Le Parc national de Conkouati-Douli — Liste indicative",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "auteur": "Ministère de la culture et des arts du Congo",
+      "annee": 2008,
+      "url": "https://whc.unesco.org/fr/listesindicatives/5375/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S49",
+      "titre": "Mémorial Pierre-Savorgnan-de-Brazza",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/M%C3%A9morial_Pierre-Savorgnan-de-Brazza",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S50",
+      "titre": "Le Mausolée Brazza, corps mystique de l'État congolais ou corps du « négatif »",
+      "institution": "Cahiers d'études africaines 198-199-200 (OpenEdition Journals)",
+      "auteur": "Joseph Tonda",
+      "annee": 2010,
+      "url": "http://journals.openedition.org/etudesafricaines/16375",
+      "type": "article_scientifique",
+      "licence": "OpenEdition Freemium",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S51",
+      "titre": "Trois Glorieuses (Les)",
+      "institution": "Maitron",
+      "auteur": "Héloïse Kiriakou",
+      "annee": 2015,
+      "url": "https://maitron.fr/trois-glorieuses-les/",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S52",
+      "titre": "Congolese rumba (01711)",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "annee": 2021,
+      "url": "https://ich.unesco.org/en/RL/congolese-rumba-01711",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S53",
+      "titre": "Mvet Oyeng, musical art, practices and skills associated with the Ekang community (02253)",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "annee": 2025,
+      "url": "https://ich.unesco.org/en/RL/mvet-oyeng-musical-art-practices-and-skills-associated-with-the-ekang-community-02253",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S54",
+      "titre": "La Sape, une histoire haute en couleur",
+      "institution": "Jeune Afrique",
+      "annee": 2010,
+      "url": "https://www.jeuneafrique.com/183599/societe/la-sape-une-histoire-haute-en-couleur/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S55",
+      "titre": "Les aventuriers de la mode : les sapeurs congolais à Paris et l'usage de la mode en migration (1890-2014)",
+      "institution": "Hommes & Migrations (OpenEdition Journals)",
+      "annee": 2014,
+      "url": "https://journals.openedition.org/hommesmigrations/3146",
+      "type": "article_scientifique",
+      "licence": "OpenEdition Freemium",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S56",
+      "titre": "Perception et acceptation d'une innovation technologique dans la préparation de la chikwangue à Brazzaville, Congo",
+      "institution": "FAO (Alimentation, nutrition et agriculture n° 29)",
+      "auteur": "Joachim Massamba, Guy-Mesmin Adoua-Oyila",
+      "annee": 2001,
+      "url": "http://www.fao.org/docrep/004/Y1931M/y1931m04.htm",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S57",
+      "titre": "Au Congo, le Fespam est de retour à Brazzaville après huit ans d'absence",
+      "institution": "RFI",
+      "annee": 2023,
+      "url": "https://www.rfi.fr/fr/afrique/20230716-au-congo-le-fespam-est-de-retour-%C3%A0-brazzaville-apr%C3%A8s-huit-ans-d-absence",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S58",
+      "titre": "L'écrivain Sony Labou Tansi, une deuxième vie, 20 ans après sa mort",
+      "institution": "RFI",
+      "auteur": "Siegfried Forster",
+      "annee": 2015,
+      "url": "https://www.rfi.fr/afrique/20150614-congolais-sony-labou-tansi-deuxieme-vie-20-ans-apres-mort",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S59",
+      "titre": "Culture de la république du Congo",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Culture_de_la_R%C3%A9publique_du_Congo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S60",
+      "titre": "Mangaaka Power Figure (Nkisi N'Kondi) — notice de collection, n° 2008.30",
+      "institution": "The Metropolitan Museum of Art",
+      "annee": 2026,
+      "url": "https://www.metmuseum.org/art/collection/search/320053",
+      "type": "musee",
+      "licence": "CC0 (données Open Access)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S61",
+      "titre": "Figure: Janus (Teke peoples) — notice de collection, n° 1978.412.651",
+      "institution": "The Metropolitan Museum of Art",
+      "annee": 2026,
+      "url": "https://www.metmuseum.org/art/collection/search/311110",
+      "type": "musee",
+      "licence": "CC0 (données Open Access)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S62",
+      "titre": "Eugénie Mouayini Opou",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Eug%C3%A9nie_Mouayini_Opou",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S63",
+      "titre": "Ngalifourou",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Ngalifourou",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S64",
+      "titre": "André Matsoua",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Andr%C3%A9_Matsoua",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S65",
+      "titre": "Fulbert Youlou",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Fulbert_Youlou",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S66",
+      "titre": "Il y a 40 ans, la mort d'un président au marxisme « bien tempéré » à Brazzaville",
+      "institution": "RFI",
+      "auteur": "Michel Arseneault",
+      "annee": 2017,
+      "url": "http://www.rfi.fr/fr/afrique/20170317-congo-il-y-40-ans-assassinat-brazzaville-president-marien-ngouabi-marxisme-bien-tem",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S67",
+      "titre": "Alphonse Massamba-Débat",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Alphonse_Massamba-D%C3%A9bat",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S68",
+      "titre": "Marien Ngouabi",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Marien_Ngouabi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S69",
+      "titre": "Archdiocese of Brazzaville commemorates Cardinal Emile Biayenda abducted and murdered 27 years ago",
+      "institution": "Agenzia Fides",
+      "annee": 2004,
+      "url": "http://www.fides.org/en/news/2011-AFRICA_CONGO_Archdiocese_of_Brazzaville_commemorates_Cardinal_Emile_Biayenda_abducted_and_murdered_27_years_ago",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S70",
+      "titre": "Émile Biayenda",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/%C3%89mile_Biayenda",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S71",
+      "titre": "BADIANGANA Alice",
+      "institution": "Maitron",
+      "auteur": "Héloïse Kiriakou",
+      "annee": 2015,
+      "url": "https://maitron.fr/spip.php?article171469",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S72",
+      "titre": "Mambou Aimée Gnali",
+      "institution": "University of Western Australia (AFLIT)",
+      "annee": 2005,
+      "url": "https://aflit.arts.uwa.edu.au/GnaliMambou.html",
+      "type": "universite",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S73",
+      "titre": "Mambou Aimée Gnali",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Mambou_Aim%C3%A9e_Gnali",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S74",
+      "titre": "Marie-Léontine Tsibinda",
+      "institution": "University of Western Australia (AFLIT)",
+      "annee": 2005,
+      "url": "https://aflit.arts.uwa.edu.au/TsibindaMarieLeontine.html",
+      "type": "universite",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S75",
+      "titre": "Sony Labou Tansi",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Sony_Labou_Tansi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S76",
+      "titre": "Tchicaya U Tam'si",
+      "institution": "Enciclopedia Treccani",
+      "annee": 2026,
+      "url": "http://www.treccani.it/enciclopedia/tchicaya-u-tamsi",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S77",
+      "titre": "Tchicaya U Tam'si",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Tchicaya_U_Tam'si",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S78",
+      "titre": "Décès d'Henri Lopes, écrivain et ancien Premier ministre du Congo",
+      "institution": "Jeune Afrique",
+      "auteur": "Nicolas Michel",
+      "annee": 2023,
+      "url": "https://www.jeuneafrique.com/1500385/politique/deces-dhenri-lopes-ecrivain-et-ancien-premier-ministre-du-congo/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S79",
+      "titre": "Henri Lopes",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Henri_Lopes",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S80",
+      "titre": "Alain Mabanckou",
+      "institution": "Académie française",
+      "annee": 2026,
+      "url": "http://www.academie-francaise.fr/alain-mabanckou",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S81",
+      "titre": "Alain Mabanckou — Création artistique (chaire annuelle 2015-2016)",
+      "institution": "Collège de France",
+      "annee": 2016,
+      "url": "https://www.college-de-france.fr/site/alain-mabanckou/index.htm",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S82",
+      "titre": "Alain Mabanckou",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Alain_Mabanckou",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S83",
+      "titre": "Jean-Baptiste Tati-Loutard",
+      "institution": "Store norske leksikon",
+      "auteur": "Helge Rønning, Truls Olav Winther",
+      "annee": 2026,
+      "url": "https://snl.no/Jean-Baptiste_Tati-Loutard",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S84",
+      "titre": "Jean-Baptiste Tati Loutard",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Jean-Baptiste_Tati_Loutard",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S85",
+      "titre": "Marie-Léontine Tsibinda",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Marie-L%C3%A9ontine_Tsibinda",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S86",
+      "titre": "Amélia Néné",
+      "institution": "University of Western Australia (AFLIT)",
+      "annee": 2005,
+      "url": "https://aflit.arts.uwa.edu.au/NeneAmelia.html",
+      "type": "universite",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S87",
+      "titre": "Amélia Néné",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Am%C3%A9lia_N%C3%A9n%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S88",
+      "titre": "Boukaka Franklin alias Franklin Boukaka 1940-1972",
+      "institution": "Univers Rumba Congolaise",
+      "annee": 2012,
+      "url": "http://www.universrumbacongolaise.com/artistes/franklin-boukaka/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S89",
+      "titre": "Franklin, l'Insoumis — Danse des mots",
+      "institution": "RFI",
+      "auteur": "Yvan Amar",
+      "annee": 2016,
+      "url": "http://www.rfi.fr/emission/20160419-franklin-insoumis",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S90",
+      "titre": "Franklin Boukaka",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Franklin_Boukaka",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S91",
+      "titre": "François Mpelé (joueur)",
+      "institution": "National Football Teams",
+      "annee": 2026,
+      "url": "http://www.national-football-teams.com/player/20964.html",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S92",
+      "titre": "African Nations Cup 1972",
+      "institution": "RSSSF (Rec.Sport.Soccer Statistics Foundation)",
+      "annee": 2026,
+      "url": "http://www.rsssf.com/tables/72a.html",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S93",
+      "titre": "Emmanuel Dongala at the New York State Writers Institute",
+      "institution": "New York State Writers Institute (University at Albany)",
+      "annee": 2001,
+      "url": "http://www.albany.edu/writers-inst/webpages4/archives/dongalaemmanuel.html",
+      "type": "universite",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S94",
+      "titre": "Emmanuel Dongala",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Emmanuel_Dongala",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S95",
+      "titre": "Jeannette Balou-Tchichelle",
+      "institution": "University of Western Australia (AFLIT)",
+      "annee": 2005,
+      "url": "https://aflit.arts.uwa.edu.au/BalouTchichelleJeannette.html",
+      "type": "universite",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S96",
+      "titre": "Jeannette Balou Tchichelle",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Jeannette_Balou_Tchichelle",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S97",
+      "titre": "Cécile-Ivelyse Diamoneka",
+      "institution": "University of Western Australia (AFLIT)",
+      "annee": 2006,
+      "url": "https://aflit.arts.uwa.edu.au/DiamonekaCecile.html",
+      "type": "universite",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S98",
+      "titre": "République du Congo (Brazzaville) : la littérature congolaise en un clin d'oeil",
+      "institution": "University of Western Australia (AFLIT)",
+      "annee": 2006,
+      "url": "https://aflit.arts.uwa.edu.au/countrycongofr.html",
+      "type": "universite",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S99",
+      "titre": "Adèle Caby-Livannah",
+      "institution": "University of Western Australia (AFLIT)",
+      "annee": 2005,
+      "url": "https://aflit.arts.uwa.edu.au/CabyLivannah.html",
+      "type": "universite",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S100",
+      "titre": "Liste d'écrivains congolais (RC)",
+      "institution": "Wikipédia en français",
+      "annee": 2026,
+      "url": "https://fr.wikipedia.org/wiki/Liste_d'%C3%A9crivains_de_la_R%C3%A9publique_du_Congo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S101",
+      "titre": "Congo-B : après la réélection de Sassou-Nguesso, l'opposition s'insurge contre un scrutin « calamiteux »",
+      "institution": "RFI",
+      "annee": 2021,
+      "url": "https://www.rfi.fr/fr/afrique/20210324-congo-b-apr%C3%A8s-la-r%C3%A9%C3%A9lection-de-sassou-nguesso-l-opposition-s-insurge-contre-un-scrutin-calamiteux",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S102",
+      "titre": "Kisanji (Cisaji) (Bateke) — notice de collection, n° 89.4.485",
+      "institution": "The Metropolitan Museum of Art",
+      "annee": 2026,
+      "url": "https://www.metmuseum.org/art/collection/search/501103",
+      "type": "musee",
+      "licence": "CC0 (données Open Access)",
+      "consulte_le": "2026-11-21"
+    }
+  ]
+}

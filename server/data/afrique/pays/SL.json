@@ -1,0 +1,4417 @@
+{
+  "code": "SL",
+  "nom": "Sierra Leone",
+  "region": "ouest",
+  "wikidata": "Q1044",
+  "maj": "2026-11-21",
+  "pays": {
+    "nom_officiel": "République de Sierra Leone (Republic of Sierra Leone)",
+    "capitale": "Freetown",
+    "langues_officielles": [
+      "anglais"
+    ],
+    "langues_nationales": [],
+    "population": {
+      "valeur": 8819794,
+      "annee": 2025,
+      "source": "S133"
+    },
+    "superficie_km2": 72300,
+    "monnaie": "Leone (SLE)",
+    "resume": "La Sierra Leone est un pays de la côte ouest-africaine, bordé par la Guinée au nord et le Liberia au sud-est ; sa capitale est Freetown. Son nom vient de la « Serra Lyoa » (montagne du Lion), donnée à la péninsule par un navigateur portugais en 1462. Freetown a été fondée en 1792 pour des Noirs libérés, avant le Protectorat de 1896 et l'indépendance du 27 avril 1961, puis la République en 1971. La guerre civile de 1991 à 2002 a profondément marqué le pays, qui garde des lieux de mémoire comme le musée de la Paix. La population, d'environ 8,8 millions d'habitants en 2025 selon la Banque mondiale, compte une vingtaine de communautés, dont les Temne et les Mendé, qui regroupent chacune environ un tiers des habitants, et le krio sert de langue véhiculaire. Le complexe forestier Gola-Tiwai, inscrit au patrimoine mondial en 2025, et Bunce Island, sur la liste indicative, illustrent un patrimoine à la fois naturel et lié à l'histoire de la traite.",
+    "sources": [
+      "S133",
+      "S134",
+      "S2",
+      "S51",
+      "S128",
+      "S54",
+      "S1",
+      "S8",
+      "S11"
+    ]
+  },
+  "langues": [
+    {
+      "id": "SL-langue-anglais",
+      "nom": "Anglais",
+      "description": "L'anglais est la langue officielle de la Sierra Leone, héritée de la période coloniale britannique. Il sert dans l'administration, l'enseignement et la justice, et coexiste au quotidien avec le krio et les langues des communautés. Glottolog le range parmi les langues à statut national de fait.",
+      "famille": "Indo-européen, germanique occidental",
+      "glottocode": "stan1293",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "English",
+      "wikidata": "Q1860",
+      "regions": [
+        "tout le pays"
+      ],
+      "ecritures": [
+        "latin"
+      ]
+    },
+    {
+      "id": "SL-langue-krio",
+      "nom": "Krio",
+      "description": "Le krio est un créole à base lexicale anglaise né des contacts de la traite atlantique, puis des communautés installées à Freetown. Il joue le rôle de langue véhiculaire entre toutes les communautés du pays, sans statut officiel. Selon les chiffres de 2021 repris par Wikipédia d'après Ethnologue, il compte environ 860 000 locuteurs de langue première et 6,9 millions de locuteurs de langue seconde.",
+      "famille": "Créole à base anglaise (créole anglais ouest-africain)",
+      "glottocode": "krio1253",
+      "statut_linguistique": [
+        "véhiculaire"
+      ],
+      "sources": [
+        "S4",
+        "S3",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "Krio",
+      "wikidata": "Q35744",
+      "regions": [
+        "Freetown",
+        "tout le pays"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "locuteurs": {
+        "valeur": 860000,
+        "annee": 2021,
+        "source": "S3"
+      }
+    },
+    {
+      "id": "SL-langue-mende",
+      "nom": "Mendé",
+      "description": "Le mendé est une langue mandé du Sud-Ouest, parlée surtout dans le sud et l'est de la Sierra Leone, avec des locuteurs au Liberia et en Guinée. Glottolog relève son statut de langue de travail provinciale (loi de 2004 sur les collectivités locales). Elle a aussi été notée dans une écriture propre, le kikakui, en plus de l'alphabet latin.",
+      "famille": "Mandé, mandé du Sud-Ouest (Mende-Loma)",
+      "glottocode": "mend1266",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S7",
+        "S6",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "Mɛnde",
+      "wikidata": "Q1478672",
+      "regions": [
+        "Province du Sud",
+        "Province de l'Est"
+      ],
+      "ecritures": [
+        "latin",
+        "kikakui"
+      ],
+      "locuteurs": {
+        "valeur": 2500000,
+        "annee": 2021,
+        "source": "S6"
+      }
+    },
+    {
+      "id": "SL-langue-temne",
+      "nom": "Temne",
+      "description": "Le temne appartient à la branche mel des langues nigéro-congolaises. Il est parlé surtout dans la Province du Nord et la zone de l'Ouest, avec quelques locuteurs en Guinée. Selon Glottolog, il est langue de travail provinciale dans plusieurs districts (loi de 2004). Wikipédia, d'après Ethnologue, compte environ 2 millions de locuteurs de langue première en 2021.",
+      "famille": "Atlantique-Congo, Mel (Mel du Nord)",
+      "glottocode": "timn1235",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S10",
+        "S9",
+        "S11"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "Themne",
+      "wikidata": "Q36613",
+      "regions": [
+        "Province du Nord",
+        "Zone de l'Ouest"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "locuteurs": {
+        "valeur": 2000000,
+        "annee": 2021,
+        "source": "S9"
+      }
+    },
+    {
+      "id": "SL-langue-limba",
+      "nom": "Limba",
+      "description": "Le limba est une langue du nord de la Sierra Leone, isolée au sein de l'ensemble atlantique-congo. Glottolog distingue le limba du centre-ouest, langue de travail provinciale du Nord, du limba oriental, jugé menacé. La langue est portée par les Limba, dans le nord du pays. Wikipédia cite quelque 520 000 locuteurs pour l'ensemble limba (données de 1993 à 2019).",
+      "famille": "Atlantique-Congo, Limba",
+      "glottocode": "west2450",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S12",
+        "S13"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "Limba",
+      "wikidata": "Q32867815",
+      "regions": [
+        "Province du Nord"
+      ],
+      "ecritures": [
+        "latin"
+      ]
+    },
+    {
+      "id": "SL-langue-kono",
+      "nom": "Kono",
+      "description": "Le kono est une langue mandé parlée dans le district de Kono, à l'est du pays, dans une région marquée par l'exploitation du diamant. Glottolog le classe parmi les langues en développement et le rattache au groupe vaï-kono. Wikipédia indique environ 320 000 locuteurs en 2019. De nombreux jeunes Kono emploient aussi le krio pour parler avec les autres communautés.",
+      "famille": "Mandé, vaï-kono",
+      "glottocode": "kono1268",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S15",
+        "S14",
+        "S16"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "Kɔnɔ",
+      "wikidata": "Q35675",
+      "regions": [
+        "District de Kono",
+        "Province de l'Est"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "locuteurs": {
+        "valeur": 320000,
+        "annee": 2019,
+        "source": "S14"
+      }
+    },
+    {
+      "id": "SL-langue-sherbro",
+      "nom": "Sherbro",
+      "description": "Le sherbro, aussi appelé bullom du Sud, est une langue mel parlée sur la côte sud du pays, notamment dans le district de Bonthe. Wikipédia, d'après Ethnologue, lui attribue 210 000 locuteurs en 2019 et signale un recul face au krio, à l'anglais et au mendé.",
+      "famille": "Atlantique-Congo, Mel (Mel du Sud, bullom)",
+      "glottocode": "sher1258",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S18",
+        "S17"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "Sherbro",
+      "wikidata": "Q36339",
+      "regions": [
+        "Bonthe",
+        "côte sud"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "locuteurs": {
+        "valeur": 210000,
+        "annee": 2019,
+        "source": "S17"
+      }
+    },
+    {
+      "id": "SL-langue-loko",
+      "nom": "Loko",
+      "description": "Le loko est une langue mandé du Sud-Ouest, proche du mendé, parlée surtout dans le nord de la Sierra Leone. Wikipédia, d'après Ethnologue, compte 210 000 locuteurs en 2019 et note que le temne et le krio gagnent du terrain, en particulier en ville.",
+      "famille": "Mandé, mandé du Sud-Ouest (Mende-Loko)",
+      "glottocode": "loko1255",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S20",
+        "S19"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "Loko",
+      "wikidata": "Q3914912",
+      "regions": [
+        "Province du Nord"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "locuteurs": {
+        "valeur": 210000,
+        "annee": 2019,
+        "source": "S19"
+      }
+    },
+    {
+      "id": "SL-langue-kuranko",
+      "nom": "Kuranko",
+      "description": "Le kuranko est une langue mandé du groupe manding, parlée dans les hautes terres du nord-est de la Sierra Leone et du sud de la Guinée. Il reste proche du maninkakan oriental côté guinéen. Glottolog le classe parmi les langues en développement.",
+      "famille": "Mandé, manding (mokole)",
+      "glottocode": "kura1250",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S21",
+        "S22"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "Kuranko",
+      "wikidata": "Q3198896",
+      "regions": [
+        "nord-est"
+      ],
+      "ecritures": [
+        "latin"
+      ]
+    },
+    {
+      "id": "SL-langue-soussou",
+      "nom": "Soussou",
+      "description": "Le soussou est une langue mandé liée au yalunka, parlée surtout en Guinée et dans le nord-ouest de la Sierra Leone, en particulier le district de Kambia. Il a longtemps servi de langue de commerce autour de Conakry. Il s'écrit en caractères latins et, selon Wikipédia, aussi en caractères arabes.",
+      "famille": "Mandé, susu-yalunka",
+      "glottocode": "susu1250",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S23",
+        "S24"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "Sosoxui",
+      "wikidata": "Q33990",
+      "regions": [
+        "Kambia"
+      ],
+      "ecritures": [
+        "latin",
+        "arabe"
+      ]
+    },
+    {
+      "id": "SL-langue-yalunka",
+      "nom": "Yalunka (Djallonké)",
+      "description": "Le yalunka est une langue mandé très proche du soussou. Elle est surtout parlée en Guinée ; en Sierra Leone, ses locuteurs se trouvent dans le nord-est. Glottolog la classe parmi les langues en développement.",
+      "famille": "Mandé, susu-yalunka",
+      "glottocode": "yalu1240",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S25",
+        "S26"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "Yalunka",
+      "wikidata": "Q35524",
+      "regions": [
+        "nord-est"
+      ],
+      "ecritures": [
+        "latin"
+      ]
+    },
+    {
+      "id": "SL-langue-pular",
+      "nom": "Pular (peul du Fouta-Djalon)",
+      "description": "Le pular est la variété de peul du Fouta-Djalon, en Guinée, parlée aussi par des communautés peules de Sierra Leone. Glottolog le rattache au groupe peul-sérère. Il s'écrit en latin, en ajami et en adlam selon Wikipédia.",
+      "famille": "Atlantique-Congo, Atlantique Nord-Centre (peul)",
+      "glottocode": "pula1262",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S27",
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "Pular",
+      "regions": [
+        "diverses localités"
+      ],
+      "ecritures": [
+        "latin",
+        "ajami",
+        "adlam"
+      ]
+    },
+    {
+      "id": "SL-langue-kissi",
+      "nom": "Kissi (kisi du Sud)",
+      "description": "Le kissi est une langue mel parlée à la jonction de la Guinée, du Liberia et de la Sierra Leone. Elle compte des locuteurs en Sierra Leone. Glottolog distingue plusieurs variétés ; celle-ci est le kisi du Sud, classé en développement.",
+      "famille": "Atlantique-Congo, Mel (Mel du Sud)",
+      "glottocode": "sout2778",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S29",
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "Kisi",
+      "wikidata": "Q11028974",
+      "ecritures": [
+        "latin"
+      ]
+    },
+    {
+      "id": "SL-langue-gola",
+      "nom": "Gola",
+      "description": "Le gola est une langue de l'ensemble atlantique-congo parlée dans l'ouest du Liberia et le long de la frontière sierra-léonaise. Glottolog le classe parmi les langues en développement, et Wikipédia lui attribue environ 200 000 locuteurs (2019-2020). Elle a été notée en alphabet latin, en écriture vaï et dans une écriture gola.",
+      "famille": "Atlantique-Congo (isolat dans le groupe, selon Glottolog)",
+      "glottocode": "gola1255",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S31",
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "Gola",
+      "wikidata": "Q35482",
+      "regions": [
+        "frontière libérienne",
+        "Province de l'Est"
+      ],
+      "ecritures": [
+        "latin",
+        "vaï"
+      ]
+    },
+    {
+      "id": "SL-langue-vai",
+      "nom": "Vaï",
+      "description": "Le vaï est une langue mandé surtout parlée au Liberia, avec de petites communautés dans le district de Pujehun, en Sierra Leone. Il possède une écriture syllabique autochtone, créée dans les années 1820, qui connaît un regain grâce à l'informatique.",
+      "famille": "Mandé, vaï-kono",
+      "glottocode": "vaii1241",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S33",
+        "S34",
+        "S35"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "Vai",
+      "wikidata": "Q36939",
+      "regions": [
+        "Pujehun"
+      ],
+      "ecritures": [
+        "latin",
+        "syllabaire vaï"
+      ]
+    },
+    {
+      "id": "SL-langue-mandinka",
+      "nom": "Mandinka",
+      "description": "Le mandinka est une langue du groupe manding, parlée en Gambie, au Sénégal et en Guinée-Bissau, avec des communautés mandingues en Sierra Leone. Wikipédia compte les Mandingues pour environ 2,4 % de la population sierra-léonaise (2015). Il s'écrit en latin, en arabe, en n'ko et en garay selon Wikipédia.",
+      "famille": "Mandé, manding (manding occidental)",
+      "glottocode": "mand1436",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S36",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "Mandinka",
+      "wikidata": "Q33678",
+      "ecritures": [
+        "latin",
+        "arabe",
+        "n'ko"
+      ]
+    },
+    {
+      "id": "SL-langue-bullom-so",
+      "nom": "Bullom so (mani)",
+      "description": "Le bullom so est une langue mel parlée dans quelques villages du district de Kambia, près de la frontière guinéenne, par quelques milliers de personnes. Glottolog la juge moribonde : les locuteurs restants sont âgés. Wikipédia donne 7 700 locuteurs en Sierra Leone en 2019.",
+      "famille": "Atlantique-Congo, Mel (bullom du Nord)",
+      "glottocode": "bull1247",
+      "statut_linguistique": [
+        "minoritaire",
+        "menacée"
+      ],
+      "sources": [
+        "S38",
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "Mmani",
+      "wikidata": "Q35061",
+      "regions": [
+        "Kambia"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "locuteurs": {
+        "valeur": 7700,
+        "annee": 2019,
+        "source": "S37"
+      }
+    },
+    {
+      "id": "SL-langue-krim",
+      "nom": "Krim",
+      "description": "Le krim, lié au bom, est une variété du bullom du Nord. Glottolog le décrit comme quasi éteint : il n'y a plus que quelques centaines de locuteurs âgés. Les locuteurs se disent souvent d'une identité distincte et sont fréquemment bilingues en mendé.",
+      "famille": "Atlantique-Congo, Mel (bullom du Nord, bom-kim)",
+      "glottocode": "krim1238",
+      "statut_linguistique": [
+        "minoritaire",
+        "menacée"
+      ],
+      "sources": [
+        "S39",
+        "S40"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "Krim",
+      "wikidata": "Q35713",
+      "ecritures": [
+        "latin"
+      ]
+    },
+    {
+      "id": "SL-langue-lssl",
+      "nom": "Langue des signes sierra-léonaise",
+      "description": "La langue des signes sierra-léonaise est la langue des communautés sourdes du pays. Glottolog la classe parmi les langues des signes de la famille de la langue des signes américaine et la juge vigoureuse.",
+      "famille": "Langue des signes (famille de l'ASL)",
+      "glottocode": "sier1246",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S41"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "Sierra Leone Sign Language",
+      "wikidata": "Q7511448",
+      "regions": [
+        "tout le pays"
+      ]
+    }
+  ],
+  "peuples": [
+    {
+      "id": "SL-peuple-temne",
+      "nom": "Temne",
+      "description": "Les Temne forment l'un des deux plus grands groupes du pays, avec environ un tiers de la population selon l'Encyclopedia of World Cultures. Ils occupent la Province du Nord, dans les districts de Bombali, Karene, Kambia, Port Loko et Tonkolili. Les traditions orales évoquent une migration depuis le plateau du Fouta-Djalon, en Guinée. Un chef temne, Bai Bureh, a mené en 1898 le soulèvement contre la taxe sur les huttes.",
+      "langues": [
+        "temne"
+      ],
+      "regions": [
+        "Province du Nord",
+        "Zone de l'Ouest"
+      ],
+      "sources": [
+        "S11",
+        "S42",
+        "S43",
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q748316",
+      "activites": [
+        "vannerie (shuku blai)",
+        "musique bubu"
+      ],
+      "pays_partages": [
+        "GN"
+      ]
+    },
+    {
+      "id": "SL-peuple-mende",
+      "nom": "Mendé",
+      "description": "Les Mendé occupent le sud et l'est de la Sierra Leone, avec un petit groupe au Liberia, et forment environ un tiers de la population. Les linguistes distinguent trois grands groupes de dialectes : kpa-mendé à l'ouest, sewa-mendé au centre et ko-mendé à l'est. Les Mendé sont surtout agriculteurs, chasseurs et pêcheurs ; des villes comme Bo, Kenema, Kailahun et Moyamba comptent beaucoup de Mendé. La société Sande, réservée aux femmes, et ses masques ndoli jowei sont étroitement liés à leur culture.",
+      "langues": [
+        "mendé"
+      ],
+      "regions": [
+        "Province du Sud",
+        "Province de l'Est"
+      ],
+      "sources": [
+        "S8",
+        "S44",
+        "S45",
+        "S43",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q1262400",
+      "activites": [
+        "agriculture",
+        "chasse",
+        "pêche"
+      ],
+      "pays_partages": [
+        "LR"
+      ]
+    },
+    {
+      "id": "SL-peuple-limba",
+      "nom": "Limba",
+      "description": "Les Limba vivent dans le nord du pays, principalement dans la Province du Nord ; beaucoup se sont aussi installés à Freetown pendant la période coloniale. Selon Wikipédia, ils sont réputés parmi les premiers habitants du pays et parlent une langue sans parenté proche avec les autres langues sierra-léonaises. Au XIXe siècle, le roi Almamy Suluku a fait du royaume limba de Biriwa, autour de Bumban, un État prospère, qui commerçait l'or, l'ivoire et les peaux et sut négocier avec les Britanniques comme avec Samori Touré.",
+      "langues": [
+        "limba"
+      ],
+      "regions": [
+        "Bombali",
+        "Koinadugu",
+        "Kambia",
+        "Karene",
+        "Tonkolili",
+        "Freetown"
+      ],
+      "sources": [
+        "S46",
+        "S43",
+        "S12"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q2533513",
+      "pays_partages": [
+        "GN"
+      ]
+    },
+    {
+      "id": "SL-peuple-kono",
+      "nom": "Kono",
+      "description": "Les Kono sont un peuple mandé de l'est de la Sierra Leone, dont la région, le district de Kono, est riche en diamants. Wikipédia les décrit comme mineurs et agriculteurs. Au XIXe siècle, plusieurs villages kono étaient fortifiés pour résister aux voisins ; une notice du Monuments and Relics Commission décrit celui de Masakpaidu, saccagé vers 1893. Le roi kono Foamansa Matturi est resté célèbre : vassal du chef mendé Nyagua, il a dirigé ses guerriers, puis dû faire face en 1893 à l'invasion des guerriers sofa de Samori Touré.",
+      "langues": [
+        "kono"
+      ],
+      "regions": [
+        "District de Kono",
+        "Province de l'Est"
+      ],
+      "sources": [
+        "S16",
+        "S47",
+        "S48",
+        "S15"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q3198706",
+      "activites": [
+        "exploitation du diamant",
+        "agriculture"
+      ]
+    },
+    {
+      "id": "SL-peuple-kuranko",
+      "nom": "Kuranko",
+      "description": "Les Kuranko, ou Koranko, sont un peuple mandé du nord-est de la Sierra Leone et du sud de la Guinée. Selon Wikipédia, chaque village est dirigé par un chef et un conseil d'anciens ; la plupart se disent musulmans tout en gardant des pratiques religieuses plus anciennes. Leur langue, le kuranko, reste proche des langues manding voisines.",
+      "langues": [
+        "kuranko"
+      ],
+      "regions": [
+        "nord-est"
+      ],
+      "sources": [
+        "S22",
+        "S21",
+        "S47"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q924230",
+      "pays_partages": [
+        "GN"
+      ]
+    },
+    {
+      "id": "SL-peuple-krio",
+      "nom": "Krio (Créoles de Sierra Leone)",
+      "description": "Les Krio sont les descendants d'Afro-Américains libérés, d'Afro-Antillais et d'Africains libérés des navires négriers, installés dans la zone de l'Ouest entre 1787 et environ 1885. L'Encyclopedia of World Cultures date l'origine de la langue krio des arrivées de 1787 et 1792, avec les Noirs de Londres puis de Nouvelle-Écosse. Les Maroons venus de la Jamaïque en 1800 ont laissé des traces à Freetown, comme la St John's Maroon Church. Ils ne représentent qu'environ 1,2 % de la population, mais leur langue sert de véhiculaire à tout le pays.",
+      "langues": [
+        "krio"
+      ],
+      "regions": [
+        "Freetown",
+        "Zone de l'Ouest"
+      ],
+      "sources": [
+        "S49",
+        "S5",
+        "S50",
+        "S51"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q2983498",
+      "activites": [
+        "enseignement",
+        "emplois de bureau (clercs)"
+      ]
+    },
+    {
+      "id": "SL-peuple-loko",
+      "nom": "Loko",
+      "description": "Les Loko vivent surtout dans le nord de la Sierra Leone, notamment à Bombali, Port Loko et dans la zone de l'Ouest. Leur langue est un mandé du Sud-Ouest proche du mendé. Le père de Bai Bureh, figure de la résistance de 1898, était un chef de guerre loko selon l'ouvrage Sierra Leonean Heroes.",
+      "langues": [
+        "loko"
+      ],
+      "regions": [
+        "Bombali",
+        "Port Loko",
+        "Zone de l'Ouest"
+      ],
+      "sources": [
+        "S52",
+        "S43",
+        "S20"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q829604"
+    },
+    {
+      "id": "SL-peuple-sherbro",
+      "nom": "Sherbro",
+      "description": "Les Sherbro habitent surtout le district de Bonthe, sur la côte sud, et des zones côtières de Moyamba et de la région de Freetown. Wikipédia les dit parmi les groupes les plus influents avant la colonisation, aujourd'hui minoritaires. Un masque sowei du Sierra Leone National Museum est rapproché par les conservateurs des types sherbro-bullom.",
+      "langues": [
+        "sherbro"
+      ],
+      "regions": [
+        "Bonthe",
+        "Moyamba (côte)",
+        "Freetown"
+      ],
+      "sources": [
+        "S53",
+        "S45",
+        "S43",
+        "S18"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q1004543"
+    },
+    {
+      "id": "SL-peuple-soussou",
+      "nom": "Soussou (Sosoe)",
+      "description": "Les Soussou sont un peuple mandé, nombreux en Guinée et présent dans le nord-ouest de la Sierra Leone, en particulier le district de Kambia. Wikipédia les décrit comme patrilinéaires et majoritairement musulmans, pratiquant riziculture, pêche, production de sel et commerce. Un lettré soussou, Foday Tarawaly, a fondé une école islamique près de Kambia dans les années 1820 selon Sierra Leonean Heroes.",
+      "langues": [
+        "soussou"
+      ],
+      "regions": [
+        "Kambia"
+      ],
+      "sources": [
+        "S24",
+        "S48",
+        "S23"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q1479265",
+      "pays_partages": [
+        "GN",
+        "GW"
+      ]
+    },
+    {
+      "id": "SL-peuple-yalunka",
+      "nom": "Yalunka (Djallonké)",
+      "description": "Les Yalunka sont un peuple mandé, apparenté aux Soussou, dont une partie vit dans le nord-est de la Sierra Leone. Au XVIIIe siècle, nombre d'entre eux ont quitté le Fouta-Djalon, et certains ont fondé de nouvelles villes comme Falaba. Sierra Leonean Heroes raconte la résistance du roi yalunka Manga Sewa, qui a défendu sa capitale Falaba pendant cinq mois lors du siège de 1884 par l'armée de Samori Touré.",
+      "langues": [
+        "yalunka"
+      ],
+      "regions": [
+        "nord-est"
+      ],
+      "sources": [
+        "S26",
+        "S48",
+        "S25"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q3160743",
+      "pays_partages": [
+        "GN"
+      ]
+    },
+    {
+      "id": "SL-peuple-kissi",
+      "nom": "Kissi",
+      "description": "Les Kissi, présents en Guinée, au Liberia et en Sierra Leone, parlent une langue mel. Selon Wikipédia, ils sont connus pour leur vannerie, leur tissage sur métier vertical et, autrefois, leur forge, qui produisait la « pièce kissi ». Leurs traditions parlent d'une migration vers l'ouest après 1600.",
+      "langues": [
+        "kissi"
+      ],
+      "regions": [
+        "Sierra Leone (est)"
+      ],
+      "sources": [
+        "S30",
+        "S29",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q1743773",
+      "pays_partages": [
+        "GN",
+        "LR"
+      ]
+    },
+    {
+      "id": "SL-peuple-gola",
+      "nom": "Gola",
+      "description": "Les Gola vivent surtout dans l'ouest du Liberia et dans l'est de la Sierra Leone, avec un patrimoine, une langue et une histoire communs. Leur nom a été rapproché de celui des Gullah de Géorgie et de Caroline du Sud, hypothèse que mentionne Wikipédia.",
+      "langues": [
+        "gola"
+      ],
+      "regions": [
+        "Province de l'Est"
+      ],
+      "sources": [
+        "S32",
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q1534501",
+      "pays_partages": [
+        "LR"
+      ]
+    },
+    {
+      "id": "SL-peuple-vai",
+      "nom": "Vaï",
+      "description": "Les Vaï vivent surtout au Liberia, avec une petite minorité dans le district de Pujehun, au sud-est de la Sierra Leone. Ils sont connus pour leur écriture syllabique créée dans les années 1820 par Momolu Duwalu Bukele et d'autres anciens. L'usage de cette écriture a reculé au XXe siècle avant de connaître un renouveau avec l'informatique.",
+      "langues": [
+        "vaï"
+      ],
+      "regions": [
+        "Pujehun"
+      ],
+      "sources": [
+        "S35",
+        "S33"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q2002234",
+      "pays_partages": [
+        "LR"
+      ]
+    }
+  ],
+  "sites": [
+    {
+      "id": "SL-site-gola-tiwai",
+      "nom": "Complexe Gola-Tiwai",
+      "type": "patrimoine_mondial",
+      "description": "Seul bien sierra-léonais inscrit au patrimoine mondial, ce site naturel en série réunit le parc national de la forêt pluviale de Gola (trois éléments) et le sanctuaire de faune de l'île de Tiwai, soit 71 203 hectares dans les Provinces du Sud et de l'Est. Il fait partie du paysage du Grand Gola, qui se prolonge au Liberia et forme le troisième plus grand bloc restant de la forêt haute-guinéenne. L'UNESCO y relève le chimpanzé d'Afrique de l'Ouest, l'hippopotame nain et le picatharte de Guinée, dont la survie tient peut-être à son importance culturelle pour les Mendé. La gestion repose sur des accords avec les populations riveraines, appliqués sous l'autorité des chefs.",
+      "sources": [
+        "S54",
+        "S55",
+        "S56"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Province du Sud",
+        "Province de l'Est",
+        "Pujehun"
+      ],
+      "periode": "depuis 2025",
+      "wikidata": "Q127463879",
+      "unesco_id": "1746",
+      "inscription": 2025,
+      "coordonnees": {
+        "lat": 7.366666666,
+        "lng": -11.2
+      }
+    },
+    {
+      "id": "SL-site-bunce-island",
+      "nom": "Bunce Island",
+      "type": "liste_indicative",
+      "description": "Îlot de l'estuaire de la Sierra Leone, à une trentaine de kilomètres en amont de Freetown, Bunce Island a abrité à partir de 1670 un fort de traite britannique, présenté par l'université Yale comme le plus grand château de traite britannique de la côte du Riz. Les ruines conservent les murs, les cours où les captifs étaient retenus, le magasin à poudre et des tombes. L'île est liée aux Gullah de Caroline du Sud et de Géorgie, dont les ancêtres ont pu venir de cette côte. Proclamée monument national en 1948, elle figure depuis 2012 sur la liste indicative du pays.",
+      "sources": [
+        "S57",
+        "S58",
+        "S59",
+        "S60",
+        "S61"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Port Loko",
+        "estuaire de la Sierra Leone"
+      ],
+      "periode": "XVIIe-XIXe siècle",
+      "wikidata": "Q1004939",
+      "sensible": true,
+      "note_sensibilite": "Lieu de mémoire de la traite atlantique : les récits doivent s'appuyer sur les travaux des institutions sierra-léonaises (Monuments and Relics Commission, Sierra Leone National Museum) et associer les descendants, notamment gullah.",
+      "coordonnees": {
+        "lat": 8.56978,
+        "lng": -13.04053
+      }
+    },
+    {
+      "id": "SL-site-gateway-kings-yard",
+      "nom": "Porte de l'ancien King's Yard",
+      "type": "liste_indicative",
+      "description": "Cette porte de Freetown, à l'entrée de l'actuel hôpital Connaught, donnait accès au King's Yard, où des personnes libérées de navires négriers étaient hébergées et enregistrées avant d'être installées dans les villages de la colonie. Une dalle au-dessus de l'arche rappelle l'asile royal pour les Africains sauvés de l'esclavage. Le King's Yard est devenu l'hôpital colonial en 1880. La porte est monument national depuis 1949 et sur la liste indicative depuis 2012.",
+      "sources": [
+        "S62",
+        "S61"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Freetown"
+      ],
+      "periode": "XIXe siècle",
+      "sensible": true,
+      "note_sensibilite": "Lieu de mémoire de la traite et de l'abolition : présenter les faits établis et les mémoires locales avec précaution.",
+      "coordonnees": {
+        "lat": 8.48862,
+        "lng": -13.23803
+      }
+    },
+    {
+      "id": "SL-site-old-fourah-bay-college",
+      "nom": "Ancien bâtiment de Fourah Bay College",
+      "type": "liste_indicative",
+      "description": "L'ancien bâtiment de Fourah Bay College, quatre étages en blocs de latérite, fut construit entre 1845 et 1848 dans l'est de Freetown, pour l'institution fondée en 1827. L'institution accueillit des linguistes comme Sigismund Koelle et forma les premiers médecins sierra-léonais, tels qu'Africanus Horton, ainsi que des pasteurs ; Freetown fut surnommée l'« Athènes de l'Afrique de l'Ouest ». Le bâtiment a servi de siège au chemin de fer puis de tribunal ; il a servi d'abri à des déplacés pendant la guerre, puis a brûlé dans des circonstances obscures après 1999. Monument national depuis 1955, il est sur la liste indicative.",
+      "sources": [
+        "S63",
+        "S64",
+        "S65"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Freetown"
+      ],
+      "periode": "1845-1848",
+      "coordonnees": {
+        "lat": 8.4929,
+        "lng": -13.21083
+      }
+    },
+    {
+      "id": "SL-site-peninsule-ouest",
+      "nom": "Parc national de la péninsule de la zone Ouest",
+      "type": "liste_indicative",
+      "description": "Ce parc couvre environ 17 000 hectares de forêt fermée au centre de la péninsule de Freetown, avec un sommet de 971 mètres. Selon le dossier national transmis à l'UNESCO, il abrite l'essentiel de la biodiversité terrestre du pays, dont des céphalophes de Jenkins et des chimpanzés, et domine des plages sur l'Atlantique. Il est inscrit sur la liste indicative depuis 2012.",
+      "sources": [
+        "S66"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Zone de l'Ouest",
+        "Freetown"
+      ]
+    },
+    {
+      "id": "SL-site-plantain-island",
+      "nom": "Plantain Island : ruines de la maison de John Newton",
+      "type": "lieu_de_memoire",
+      "description": "Sur l'île Plantain, aujourd'hui un grand village de pêcheurs, subsistent des pans de mur, une fondation et un canon des anciens comptoirs de traite, associés au marchand puis pasteur John Newton (1725-1807). Newton, auteur du cantique « Amazing Grace », y avait une base selon le dossier de la liste indicative. Le site est monument national depuis 1949.",
+      "sources": [
+        "S67",
+        "S57",
+        "S61"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Moyamba",
+        "Province du Sud"
+      ],
+      "periode": "XVIIIe siècle",
+      "sensible": true,
+      "note_sensibilite": "Lieu lié à la traite atlantique : récit à nuancer et à valider avec les institutions sierra-léonaises."
+    },
+    {
+      "id": "SL-site-masakpaidu",
+      "nom": "Fortifications de Masakpaidu",
+      "type": "site_archeologique",
+      "description": "Village abandonné du chiefdom de Nimiyama, dans le district de Kono, Masakpaidu est protégé par un fossé d'environ 300 yards et par les souches de pieux de kapokiers qui formaient sa palissade. Il fut fortifié vers 1800 pour résister aux attaques de voisins koranko, mendé et temne, puis saccagé par les guerriers de Samori Touré vers 1893, et jamais réoccupé. C'est l'un des monuments nationaux proclamés en 1949.",
+      "sources": [
+        "S47",
+        "S61"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "District de Kono",
+        "Province de l'Est"
+      ],
+      "periode": "vers 1800-1893"
+    },
+    {
+      "id": "SL-site-st-johns-maroon-church",
+      "nom": "Église maroon de St John",
+      "type": "monument",
+      "description": "Petite église blanche de Freetown, construite en 1822 par des Maroons arrivés de la Jamaïque en 1800 sous la direction de Charles Shaw Harding. Elle est la seule église de la ville portant le nom d'un des groupes fondateurs de la colonie. La communauté, à l'origine séparée des Nova-Scotians, a fini par se rattacher au méthodisme wesleyen en 1900. Monument national depuis 1956, elle est toujours un lieu de culte.",
+      "sources": [
+        "S50",
+        "S61"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Freetown"
+      ],
+      "periode": "depuis 1822"
+    },
+    {
+      "id": "SL-site-fort-thornton",
+      "nom": "Bastions de Fort Thornton (State House)",
+      "type": "monument",
+      "description": "Les bastions de Fort Thornton, élevés à partir de 1793 sur une colline de Freetown, furent construits pour défendre la jeune colonie, après les installations des Noirs de Londres puis de Nouvelle-Écosse. Ils abritèrent la maison du gouverneur et des services administratifs. Les bastions ont été intégrés au bâtiment actuel de la State House et proclamés monument national en 1949.",
+      "sources": [
+        "S68",
+        "S61"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Freetown"
+      ],
+      "periode": "depuis 1793"
+    },
+    {
+      "id": "SL-site-musee-national",
+      "nom": "Musée national de Sierra Leone",
+      "type": "musee",
+      "description": "Ouvert en 1957 par la Sierra Leone Society, le musée est installé au centre de Freetown, sous le Cotton Tree, dans des locaux prévus comme provisoires. Il passe sous l'autorité de la Monuments and Relics Commission au milieu des années 1960 et reçoit une extension en 1987 pour le bicentenaire de Freetown. Il conserve des objets des communautés du pays, dont plusieurs ont été numérisés avec l'University College London.",
+      "sources": [
+        "S69",
+        "S70"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Freetown"
+      ],
+      "periode": "depuis 1957",
+      "wikidata": "Q3330698",
+      "coordonnees": {
+        "lat": 8.4867,
+        "lng": -13.2358
+      }
+    },
+    {
+      "id": "SL-site-cotton-tree",
+      "nom": "Le Cotton Tree de Freetown",
+      "type": "lieu_de_memoire",
+      "description": "Ce kapokier, symbole de Freetown, se dressait près du musée national et du palais de justice. D'un âge estimé à quatre siècles, il est cité dès 1787, et des esclaves libérés auraient prié sous ses branches en 1792. Il a figuré sur les premiers billets de 1964. Il s'est effondré en grande partie lors d'une tempête dans la nuit du 24 mai 2023, une partie du tronc restant vivante.",
+      "sources": [
+        "S71",
+        "S69"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Freetown"
+      ],
+      "periode": "XVIe-XXIe siècle",
+      "wikidata": "Q602200",
+      "coordonnees": {
+        "lat": 8.4872,
+        "lng": -13.2356
+      }
+    },
+    {
+      "id": "SL-site-outamba-kilimi",
+      "nom": "Parc national Outamba-Kilimi",
+      "type": "site_naturel",
+      "description": "Situé dans le district de Karene, près de la frontière guinéenne, ce parc se divise en deux zones, Outamba (741 km2) et Kilimi (368 km2), mosaïque de forêts-galeries, de savane arborée et de forêts de raphias. Il couvre le nord-ouest du pays.",
+      "sources": [
+        "S72"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Karene",
+        "Province du Nord"
+      ],
+      "wikidata": "Q724189",
+      "coordonnees": {
+        "lat": 9.76944,
+        "lng": -12.02611
+      }
+    },
+    {
+      "id": "SL-site-musee-de-la-paix",
+      "nom": "Musée de la Paix de Sierra Leone",
+      "type": "lieu_de_memoire",
+      "description": "Le musée de la Paix, projet hérité du Tribunal spécial pour la Sierra Leone, est un lieu de mémoire et de recherche sur la guerre de 1991-2002. Il abrite les archives publiques du Tribunal spécial et les dossiers de la Commission Vérité et Réconciliation, et vise à instruire les générations futures sur la lutte contre l'impunité. Une exposition-test a ouvert en avril 2011 et une ouverture partielle a eu lieu le 2 décembre 2013, sur l'ancien site du Tribunal à Freetown.",
+      "sources": [
+        "S73",
+        "S74"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Freetown"
+      ],
+      "periode": "depuis 2011",
+      "sensible": true,
+      "note_sensibilite": "Lieu de mémoire d'un conflit récent : présenter les faits avec neutralité et en lien avec les victimes et les institutions nationales."
+    }
+  ],
+  "traditions": [
+    {
+      "id": "SL-tradition-sande",
+      "nom": "Société Sande (Bondo, Bundu) et masques sowei",
+      "categorie": "rite",
+      "description": "La Sande est une société d'initiation des femmes, présente en Sierra Leone, au Liberia, en Guinée et en Côte d'Ivoire, qui prépare les jeunes filles à l'âge adulte. Chez les Mendé, sa danseuse masquée de haut rang, la ndoli jowei, porte un masque-casque en bois noirci, avec anneaux de cou et coiffure élaborée, qui évoque une image idéale de la femme ; chez les Temne, société et danseuse s'appellent Bondo et a-Nowo. Selon Wikipédia, les rites d'initiation incluent une excision, pratique aujourd'hui débattue.",
+      "communautes": [
+        "Mendé",
+        "Temne",
+        "Sherbro",
+        "Kono"
+      ],
+      "unesco": null,
+      "sources": [
+        "S75",
+        "S45",
+        "S76"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "transmission": "vivante",
+      "nom_local": "Sande, Bondo, Bundu",
+      "regions": [
+        "Province du Sud",
+        "Province du Nord",
+        "District de Kono"
+      ],
+      "wikidata": "Q3963459",
+      "sensible": true,
+      "note_sensibilite": "Société initiatique féminine : les rites, les masques et les savoirs sont réservés aux initiées. Présentation à valider avec des détentrices du savoir et une institution partenaire avant publication.",
+      "langues": [
+        "mendé",
+        "temne"
+      ]
+    },
+    {
+      "id": "SL-tradition-poro",
+      "nom": "Société Poro",
+      "categorie": "rite",
+      "description": "Le Poro est une société masculine secrète, présente en Sierra Leone, au Liberia, en Guinée et en Côte d'Ivoire, associée selon Wikipédia aux Mané, élites mandé venues du Mali. Il est parfois présenté comme une société de chasse, et la Sande en est le pendant féminin. Wikipédia le décrit comme l'institution la plus importante des trois sociétés (Poro, Yassi, Bundu) citées pour la Sierra Leone.",
+      "communautes": [
+        "communautés de Sierra Leone, du Liberia, de Guinée et de Côte d'Ivoire"
+      ],
+      "unesco": null,
+      "sources": [
+        "S77"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "wikidata": "Q2647007",
+      "sensible": true,
+      "note_sensibilite": "Société initiatique masculine : rites et savoirs réservés aux initiés. Ne publier que des informations générales, après validation par des détenteurs du savoir."
+    },
+    {
+      "id": "SL-tradition-ojeh",
+      "nom": "Société Ojeh (Egungun) des Aku",
+      "categorie": "rite",
+      "description": "L'Ojeh, ou Egungun, est une institution fraternelle née au XIXe siècle dans les villages de la péninsule de Freetown (Hastings, Waterloo, Aberdeen, Murray Town), parmi des Africains libérés d'origine yoruba, appelés Aku. Elle prolonge la tradition égúngún du Yorubaland sous forme de mascarades. D'abord fermée aux non-membres, elle s'est développée malgré l'hostilité des autorités coloniales.",
+      "communautes": [
+        "Aku (Yoruba)",
+        "Krio"
+      ],
+      "unesco": null,
+      "sources": [
+        "S78"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "transmission": "vivante",
+      "regions": [
+        "Freetown",
+        "Zone de l'Ouest"
+      ],
+      "wikidata": "Q135517191",
+      "sensible": true,
+      "note_sensibilite": "Société à mascarade avec des aspects réservés aux membres : à faire valider par des membres et des chercheurs sierra-léonais."
+    },
+    {
+      "id": "SL-tradition-gumbe",
+      "nom": "Gumbé krio",
+      "categorie": "musique",
+      "description": "Le gumbé sierra-léonais est un genre de musique propre au peuple krio, dérivé de la musique des ancêtres maroons jamaïcains. Des artistes krio comme Ebenezer Calendar et Dr Oloh l'ont popularisé en Sierra Leone et ailleurs en Afrique de l'Ouest.",
+      "communautes": [
+        "Krio"
+      ],
+      "unesco": null,
+      "sources": [
+        "S79",
+        "S80"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "transmission": "vivante",
+      "nom_local": "Gumbé / Goombay",
+      "regions": [
+        "Freetown"
+      ],
+      "wikidata": "Q5618068"
+    },
+    {
+      "id": "SL-tradition-maringa",
+      "nom": "Maringa, la musique de vin de palme",
+      "categorie": "musique",
+      "description": "Le maringa est la musique de vin de palme de Sierra Leone, mêlée de styles caribéens, notamment le calypso trinidadien. Ebenezer Calendar et son groupe l'ont popularisée dans les années 1950 et 1960, avec guitare, trompette, mandoline et cornet ; son titre « Double-Decker Bus » reste célèbre. Calendar en faisait un moyen de divertir, mais aussi d'enseigner et de commenter la société.",
+      "communautes": [
+        "Krio"
+      ],
+      "unesco": null,
+      "sources": [
+        "S81",
+        "S80"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "Maringa",
+      "regions": [
+        "Freetown"
+      ]
+    },
+    {
+      "id": "SL-tradition-bubu",
+      "nom": "Musique bubu des Temne",
+      "categorie": "musique",
+      "description": "Le bubu est une musique des Temne, jouée à l'origine lors de cérémonies et devenue un cortège de musique religieuse pendant le ramadan. Dans sa forme populaire, on y souffle dans des flûtes de bambou et des tuyaux métalliques, souvent faits de pièces récupérées. Pendant la guerre civile, Ahmed Janka Nabay en a enregistré une version électrique, devenue très populaire dans les années 1990.",
+      "communautes": [
+        "Temne"
+      ],
+      "unesco": null,
+      "sources": [
+        "S82",
+        "S42"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "transmission": "vivante",
+      "regions": [
+        "Province du Nord"
+      ],
+      "wikidata": "Q4982327"
+    },
+    {
+      "id": "SL-tradition-shuku-blai",
+      "nom": "Vannerie à boudins : le shuku blai",
+      "categorie": "artisanat",
+      "description": "Shuku blai est le nom temne d'un panier à boudins, finement tressé et orné, souvent fabriqué par des femmes et utilisé pour garder des objets précieux. Un exemplaire du Sierra Leone National Museum est tressé de fibres teintes en orange et vert, selon un motif géométrique. Le nom a été repris pour la rubrique de ressources du site Sierra Leone Heritage.",
+      "communautes": [
+        "Temne"
+      ],
+      "unesco": null,
+      "sources": [
+        "S83",
+        "S84"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "transmission": "vivante",
+      "nom_local": "Shuku blai",
+      "regions": [
+        "Province du Nord"
+      ]
+    },
+    {
+      "id": "SL-tradition-tissages-mende-vai",
+      "nom": "Tentures et tissages mendé, vaï et temne",
+      "categorie": "textile",
+      "description": "Le Metropolitan Museum of Art conserve des tentures de prestige en coton, dites kpoikpoi, attribuées aux Mendé ou aux Vaï (début du XXe siècle), ainsi qu'une tenture d'intérieur en coton et laine teints de matières naturelles, attribuée aux Mendé, Vaï ou Temne (première moitié du XIXe siècle). Ces objets, dont l'attribution reste partagée entre plusieurs communautés, témoignent de l'art textile de la région.",
+      "communautes": [
+        "Mendé",
+        "Vaï",
+        "Temne"
+      ],
+      "unesco": null,
+      "sources": [
+        "S85",
+        "S86"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "nom_local": "Kpoikpoi",
+      "regions": [
+        "Sierra Leone"
+      ]
+    },
+    {
+      "id": "SL-tradition-musique-mende-kelei",
+      "nom": "Musique mende : kelei et shegbureh",
+      "categorie": "musique",
+      "description": "Un enregistrement ethnomusicologique de 1966 à Sahn (chiefdom de Malen, district de Pujehun) présente un chant mendé accompagné du kelei, tronc creux fendu frappé avec deux baguettes, et du shegbureh, hochet en calebasse entouré de perles et joué par des femmes. Le chant dit : « le temps est mauvais, la pluie arrive ». Il est conservé sur le site Sierra Leone Heritage.",
+      "communautes": [
+        "Mendé"
+      ],
+      "unesco": null,
+      "sources": [
+        "S87",
+        "S76"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "transmission": "vivante",
+      "nom_local": "Kelei, shegbureh",
+      "regions": [
+        "District de Pujehun",
+        "Province du Sud"
+      ],
+      "langues": [
+        "mendé"
+      ]
+    },
+    {
+      "id": "SL-tradition-hordu-guitare-peule",
+      "nom": "Hordu, la guitare peule",
+      "categorie": "musique",
+      "description": "Le hordu, appelé aussi guitare peule, est un instrument à cordes pincées dont la caisse en forme de bateau est couverte de peau. L'instrumentiste pince les cordes et frappe aussi la caisse avec les doigts. Un exemplaire est conservé au Sierra Leone National Museum.",
+      "communautes": [
+        "Peuls"
+      ],
+      "unesco": null,
+      "sources": [
+        "S88"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "transmission": "vivante",
+      "nom_local": "Hordu",
+      "regions": [
+        "Sierra Leone"
+      ]
+    },
+    {
+      "id": "SL-tradition-cuisine-riz-manioc",
+      "nom": "Cuisine du riz, des feuilles de manioc et du poyo",
+      "categorie": "cuisine",
+      "description": "Le riz est l'aliment de base de la Sierra Leone et accompagne presque chaque repas, avec des sauces variées. Le manioc, pilé en fufu, est un autre aliment courant, et ses feuilles sont cuisinées en ragoût vert. Le poyo est un vin de palme doux, légèrement fermenté, très apprécié. Les marchands de rue proposent aussi fruits, bananes plantains frites, manioc frit au piment et brochettes.",
+      "communautes": [
+        "toutes les communautés"
+      ],
+      "unesco": null,
+      "sources": [
+        "S89",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "transmission": "vivante",
+      "nom_local": "Poyo",
+      "regions": [
+        "tout le pays"
+      ]
+    },
+    {
+      "id": "SL-tradition-proverbes-kono",
+      "nom": "Proverbes kono (Kɔnɔ tai nu)",
+      "categorie": "oralite",
+      "description": "Les proverbes kono, compilés par Komba Ngekia sous le titre Kɔnɔ tai nu, mettent en scène animaux et gestes quotidiens pour parler de patience, de partage ou de bon sens. Ils sont publiés en kono avec une glose en krio et en anglais, ce qui en fait un témoin de la parole des Kono et des passages entre langues du pays.",
+      "communautes": [
+        "Kono"
+      ],
+      "unesco": null,
+      "sources": [
+        "S90"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "transmission": "vivante",
+      "regions": [
+        "District de Kono"
+      ],
+      "langues": [
+        "kono",
+        "krio"
+      ]
+    }
+  ],
+  "personnalites": [
+    {
+      "id": "SL-personne-bai-bureh",
+      "nom": "Bai Bureh",
+      "description": "Chef de guerre et souverain de Kasseh, près de Port Loko, Bai Bureh a mené en 1898 le soulèvement des Temne et de leurs alliés contre la taxe sur les huttes décrétée par les Britanniques. Selon Sierra Leonean Heroes, il a organisé pendant dix mois une guérilla efficace, avec des guerriers temne, loko, soussou et limba, avant d'être capturé le 11 novembre 1898. Exilé en Gold Coast, il fut rétabli comme chef de Kasseh en 1905 et mourut en 1908.",
+      "roles": [
+        "chef de guerre",
+        "souverain de Kasseh"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S43",
+        "S99",
+        "S70"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de naissance (15 février 1840 selon Wikipédia) non confirmée par une source institutionnelle ; seule l'année est retenue."
+      },
+      "naissance": {
+        "date": "1840",
+        "lieu": "Kasseh (près de Port Loko)"
+      },
+      "deces": {
+        "date": "1908-08-24"
+      },
+      "wikidata": "Q4843124",
+      "regions": [
+        "Port Loko",
+        "Province du Nord"
+      ]
+    },
+    {
+      "id": "SL-personne-madam-yoko",
+      "nom": "Madam Yoko",
+      "description": "Initiée à la société Sande, où elle reçut le nom de Yoko, elle devint par mariages et alliances, avec l'appui de troupes britanniques, la « reine de Senehun » après 1884 et étendit son autorité sur la région kpaa-mendé. Elle y fonda un célèbre bois sacré Sande où se formaient des jeunes filles. Chef suprême dans le protectorat britannique jusqu'en 1906, elle mourut à cinquante-cinq ans selon Sierra Leonean Heroes, apparemment par suicide, pour des raisons restées obscures.",
+      "roles": [
+        "cheffe suprême (Paramount Chief)",
+        "dirigeante de la confédération kpaa-mendé"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S43",
+        "S100"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates approximatives (vers 1849-1906) ; l'âge au décès donné par Sierra Leonean Heroes (55 ans) ne correspond pas exactement."
+      },
+      "naissance": {
+        "date": "1849",
+        "lieu": "chefferie de Gbo"
+      },
+      "deces": {
+        "date": "1906"
+      },
+      "wikidata": "Q6726243"
+    },
+    {
+      "id": "SL-personne-sengbe-pieh",
+      "nom": "Sengbe Pieh (Joseph Cinqué)",
+      "description": "Homme mendé capturé et vendu comme esclave, Sengbe Pieh a mené en juillet 1839 la révolte à bord du navire espagnol La Amistad. Arrêtés au large de Long Island, lui et ses compagnons furent défendus par des abolitionnistes américains et libérés après un procès devant la Cour suprême des États-Unis. Il revint en Sierra Leone en janvier 1842.",
+      "roles": [
+        "chef de la révolte de La Amistad"
+      ],
+      "domaines": [
+        "résistance",
+        "politique"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S48",
+        "S101"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "vers 1813-1814"
+      },
+      "deces": {
+        "date": "vers 1879"
+      },
+      "wikidata": "Q1397714"
+    },
+    {
+      "id": "SL-personne-africanus-horton",
+      "nom": "Africanus Horton",
+      "description": "Né à Gloucester, village de Freetown, de parents igbo libérés de la traite, James Beale Horton fit ses études à Fourah Bay College, puis à Londres et à Édimbourg, où il obtint un doctorat de médecine en 1859. Chirurgien de l'armée britannique, il écrivit sur la médecine tropicale et le climat, et défendit l'idée d'une autonomie politique ouest-africaine dans West African Countries and Peoples. Il prit le nom d'Africanus comme emblème de fierté pour sa terre d'origine.",
+      "roles": [
+        "médecin militaire",
+        "écrivain"
+      ],
+      "domaines": [
+        "sciences",
+        "littérature",
+        "politique"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S102",
+        "S98",
+        "S103"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "vers 1835",
+        "lieu": "Gloucester (Sierra Leone)"
+      },
+      "deces": {
+        "date": "vers 1883",
+        "lieu": "Freetown"
+      },
+      "wikidata": "Q4690079",
+      "regions": [
+        "Freetown"
+      ]
+    },
+    {
+      "id": "SL-personne-constance-cummings-john",
+      "nom": "Constance Cummings-John",
+      "description": "Née dans une famille krio de Freetown, institutrice formée à Londres, elle s'engagea dans les organisations panafricaines et dans le combat pour l'émancipation. Wikipédia la présente comme la première femme d'Afrique à siéger dans un conseil municipal, puis comme la première femme maire de Freetown en 1966. Elle vécut ensuite surtout à Londres.",
+      "roles": [
+        "maire de Freetown",
+        "enseignante",
+        "militante"
+      ],
+      "domaines": [
+        "politique",
+        "éducation"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S104",
+        "S105"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1918-12-28",
+        "lieu": "Freetown"
+      },
+      "deces": {
+        "date": "2000-02-21",
+        "lieu": "Freetown"
+      },
+      "wikidata": "Q1127627",
+      "regions": [
+        "Freetown"
+      ]
+    },
+    {
+      "id": "SL-personne-adelaide-casely-hayford",
+      "nom": "Adelaide Casely-Hayford",
+      "description": "Éducatrice et militante krio, née Smith à Freetown, elle défendit la fierté culturelle africaine et l'éducation des filles. Elle fonda en octobre 1923 la Girls' Vocational School de Freetown, selon Sierra Leonean Heroes. Elle est aussi l'autrice de textes de fiction et la mère de la poétesse Gladys Casely-Hayford.",
+      "roles": [
+        "éducatrice",
+        "militante"
+      ],
+      "domaines": [
+        "éducation",
+        "littérature",
+        "politique"
+      ],
+      "epoque": "XIXe-XXe siècle",
+      "sources": [
+        "S106",
+        "S107"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de naissance : 2 juin 1868 selon Wikipédia, 27 juin 1868 selon Sierra Leonean Heroes ; seule l'année est retenue."
+      },
+      "naissance": {
+        "date": "1868",
+        "lieu": "Freetown"
+      },
+      "deces": {
+        "date": "1960-01-24",
+        "lieu": "Freetown"
+      },
+      "wikidata": "Q4681689",
+      "regions": [
+        "Freetown"
+      ]
+    },
+    {
+      "id": "SL-personne-gladys-casely-hayford",
+      "nom": "Gladys Casely-Hayford (Aquah Laluah)",
+      "description": "Née à Axim, en Gold Coast, de la mère sierra-léonaise Adelaide Casely-Hayford, elle écrivit des poèmes publiés dans la presse américaine et est tenue pour l'une des premières poétesses à écrire en krio. Après sa mort en 1950, sa famille a découvert près de quatre cents poèmes et œuvres visuelles.",
+      "roles": [
+        "poétesse",
+        "enseignante"
+      ],
+      "domaines": [
+        "littérature",
+        "éducation"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S108",
+        "S109"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lieu de décès non établi par les sources consultées."
+      },
+      "naissance": {
+        "date": "1904-05-11",
+        "lieu": "Axim (Gold Coast, aujourd'hui Ghana)"
+      },
+      "deces": {
+        "date": "1950-10"
+      },
+      "wikidata": "Q3108449"
+    },
+    {
+      "id": "SL-personne-milton-margai",
+      "nom": "Milton Margai",
+      "description": "Homme politique, chef du Sierra Leone People's Party de 1951 à 1964, il fut chef du gouvernement avant l'indépendance puis premier Premier ministre, du 27 avril 1961 à sa mort en 1964. Sierra Leonean Heroes le range parmi les artisans de l'indépendance.",
+      "roles": [
+        "Premier ministre"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S110",
+        "S111"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1895-12-07",
+        "lieu": "Gbangbatoke (district de Moyamba)"
+      },
+      "deces": {
+        "date": "1964-04-28",
+        "lieu": "Freetown"
+      },
+      "wikidata": "Q879302",
+      "regions": [
+        "Province du Sud"
+      ]
+    },
+    {
+      "id": "SL-personne-siaka-stevens",
+      "nom": "Siaka Stevens",
+      "description": "Né à Moyamba, d'un père limba et d'une mère mendé, Siaka Stevens dirigea l'All People's Congress à partir de 1962. Premier ministre en 1968, il devint le premier président du pays en 1971 et le resta jusqu'en 1985 ; le pays devint un État à parti unique en 1978. Wikipédia décrit son pouvoir comme de plus en plus autoritaire.",
+      "roles": [
+        "président",
+        "Premier ministre"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S112",
+        "S113"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1905-08-24",
+        "lieu": "Moyamba"
+      },
+      "deces": {
+        "date": "1988-05-29"
+      },
+      "wikidata": "Q515657",
+      "regions": [
+        "Moyamba"
+      ]
+    },
+    {
+      "id": "SL-personne-wallace-johnson",
+      "nom": "I. T. A. Wallace-Johnson",
+      "description": "Syndicaliste, journaliste et militant, Isaac Theophilus Akunna Wallace-Johnson est né dans une famille krio modeste. Il fonda la West African Youth League et défendit les marins et les travailleurs. Sierra Leonean Heroes le présente comme un opposant résolu à l'ordre colonial. Il est mort au Ghana en 1965.",
+      "roles": [
+        "syndicaliste",
+        "journaliste"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S104",
+        "S114"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1894",
+        "lieu": "Wilberforce (Freetown)"
+      },
+      "deces": {
+        "date": "1965-05-10",
+        "lieu": "Ghana"
+      },
+      "wikidata": "Q5968088",
+      "regions": [
+        "Freetown"
+      ]
+    },
+    {
+      "id": "SL-personne-ebenezer-calendar",
+      "nom": "Ebenezer Calendar",
+      "description": "Musicien krio né à Freetown le 19 novembre 1912, d'un père jamaïcain et d'une mère sierra-léonaise, charpentier de formation, il fit du maringa un outil pour divertir et instruire. Son groupe a popularisé cette musique de vin de palme de Sierra Leone, avec des succès comme « Double-Decker Bus ».",
+      "roles": [
+        "musicien",
+        "chanteur"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S80",
+        "S115",
+        "S81"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1912-11-19",
+        "lieu": "Freetown"
+      },
+      "deces": {
+        "date": "1985"
+      },
+      "wikidata": "Q99743241",
+      "regions": [
+        "Freetown"
+      ]
+    },
+    {
+      "id": "SL-personne-ella-koblo-gulama",
+      "nom": "Ella Koblo Gulama",
+      "description": "Cheffe suprême de Kaiyamba (district de Moyamba) dès 1953, elle fut élue en 1957 à la Chambre des représentants, première femme de cette assemblée selon Sierra Leonean Heroes, puis nommée première femme ministre en 1962. Elle resta une figure du pouvoir sous Albert Margai, puis de l'APC.",
+      "roles": [
+        "cheffe suprême",
+        "ministre"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S110",
+        "S116"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1921-01-26",
+        "lieu": "Moyamba"
+      },
+      "deces": {
+        "date": "2006-09-09",
+        "lieu": "Moyamba"
+      },
+      "wikidata": "Q5364522",
+      "regions": [
+        "Moyamba"
+      ]
+    },
+    {
+      "id": "SL-personne-syl-cheney-coker",
+      "nom": "Syl Cheney-Coker",
+      "description": "Poète, romancier et journaliste krio, né à Freetown le 28 juin 1945, il a publié en 1973 Concerto for an Exile, premier recueil de poèmes d'un auteur sierra-léonais selon Encyclopedia.com. Son roman The Last Harmattan of Alusine Dunbar a reçu en 1991 le Commonwealth Writers Prize pour l'Afrique. Il a vécu longtemps en exil.",
+      "roles": [
+        "poète",
+        "romancier",
+        "journaliste"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S97",
+        "S117"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1945-06-28",
+        "lieu": "Freetown"
+      },
+      "wikidata": "Q1760968",
+      "regions": [
+        "Freetown"
+      ]
+    },
+    {
+      "id": "SL-personne-davidson-nicol",
+      "nom": "Davidson Nicol (Abioseh Nicol)",
+      "description": "Médecin, universitaire, diplomate, historien et écrivain krio, Davidson Nicol fut l'un des premiers directeurs de la Banque de Sierra Leone et a dirigé l'UNITAR. Il écrivait aussi nouvelles et poèmes sous le nom d'Abioseh Nicol. Le lieu exact de sa naissance varie selon les notices ; Wikipédia indique Bathurst.",
+      "roles": [
+        "médecin",
+        "diplomate",
+        "écrivain"
+      ],
+      "domaines": [
+        "sciences",
+        "littérature",
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S118",
+        "S119"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lieu de naissance variable selon les notices (Bathurst selon Wikipédia) ; à confirmer par une source biographique de référence."
+      },
+      "naissance": {
+        "date": "1924-09-14",
+        "lieu": "Bathurst (colonie de Sierra Leone)"
+      },
+      "deces": {
+        "date": "1994-09-20",
+        "lieu": "Cambridge (Angleterre)"
+      },
+      "wikidata": "Q3275290",
+      "regions": [
+        "Freetown"
+      ]
+    },
+    {
+      "id": "SL-personne-ahmad-tejan-kabbah",
+      "nom": "Ahmad Tejan Kabbah",
+      "description": "Élu président en 1996, Ahmad Tejan Kabbah fut brièvement renversé par un coup d'État militaire puis rétabli, et quitta le pouvoir en 2007 après deux mandats. Il est largement crédité de la fin de la guerre civile de 2002, avec l'appui de l'ONU et du Royaume-Uni. Il a transmis le pouvoir à l'opposition après sa défaite électorale.",
+      "roles": [
+        "président"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S120",
+        "S121"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1932-02-16",
+        "lieu": "Pendembu (district de Kailahun)"
+      },
+      "deces": {
+        "date": "2014-03-13"
+      },
+      "wikidata": "Q336297",
+      "regions": [
+        "Province de l'Est"
+      ]
+    },
+    {
+      "id": "SL-personne-zainab-bangura",
+      "nom": "Zainab Hawa Bangura",
+      "description": "Militante de la gouvernance et des droits humains, ministre sierra-léonaise des Affaires étrangères puis de la Santé, elle a été représentante spéciale de l'ONU sur la violence sexuelle en situation de conflit (2012-2017). Depuis la fin 2019, elle dirige l'Office des Nations Unies à Nairobi. Née Zainab Hawa Sesay à Yonibana, elle est issue des Temne.",
+      "roles": [
+        "diplomate",
+        "ministre",
+        "militante"
+      ],
+      "domaines": [
+        "politique",
+        "droits humains"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S122",
+        "S123"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1959-12-18",
+        "lieu": "Yonibana (district de Tonkolili)"
+      },
+      "wikidata": "Q58244",
+      "regions": [
+        "Province du Nord"
+      ]
+    },
+    {
+      "id": "SL-personne-yvonne-aki-sawyerr",
+      "nom": "Yvonne Aki-Sawyerr",
+      "description": "Née à Freetown, comptable de formation, elle est maire de Freetown depuis mai 2018 et a été réélue en juin 2023. Selon le conseil municipal, elle a plus de vingt-cinq ans d'expérience dans le secteur privé (planification stratégique, gestion des risques). Elle a figuré dans la liste BBC 100 Women en 2020 et dans les « 100 Next » du magazine Time en 2021, selon Wikipédia.",
+      "roles": [
+        "maire de Freetown"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S124",
+        "S125"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1968-01-07",
+        "lieu": "Freetown"
+      },
+      "wikidata": "Q55238200",
+      "regions": [
+        "Freetown"
+      ]
+    },
+    {
+      "id": "SL-personne-sheik-umar-khan",
+      "nom": "Sheik Humarr Khan",
+      "description": "Virologue et médecin-chef sierra-léonais, médecin-chef du pays face à l'épidémie d'Ebola de 2014, il a soigné à Kenema plus d'une centaine de patients. Contaminé, il est mort le 29 juillet 2014 à Kailahun, à 39 ans. Le gouvernement l'avait salué comme un héros national.",
+      "roles": [
+        "médecin",
+        "virologue"
+      ],
+      "domaines": [
+        "sciences",
+        "médecine"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S126",
+        "S127"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "naissance": {
+        "date": "1975-03-06"
+      },
+      "deces": {
+        "date": "2014-07-29",
+        "lieu": "Kailahun"
+      },
+      "wikidata": "Q17444103",
+      "regions": [
+        "Kenema",
+        "Kailahun"
+      ]
+    }
+  ],
+  "evenements": [
+    {
+      "id": "SL-evenement-agriculture-poterie",
+      "titre": "Débuts de l'agriculture, de la vie sédentaire et de la poterie",
+      "date": "-002499-01-01",
+      "date_affichee": "vers 2500 av. J.-C.",
+      "precision": "siecle",
+      "description": "La chronologie de Sierra Leonean Heroes place vers 2500 av. J.-C. les débuts de l'agriculture, de la vie sédentaire et de la fabrication de poteries sur le territoire actuel. C'est une datation approximative d'ordre général.",
+      "sources": [
+        "S51"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "regions": [
+        "Sierra Leone"
+      ]
+    },
+    {
+      "id": "SL-evenement-fer",
+      "titre": "Introduction de la métallurgie du fer",
+      "date": "0600-01-01",
+      "date_affichee": "vers 600",
+      "precision": "siecle",
+      "description": "La même chronologie situe vers 600 de notre ère l'introduction de la fabrication du fer. Wikipédia indique pour sa part que le fer était adopté au plus tard au IXe siècle, ce qui montre l'incertitude des datations.",
+      "sources": [
+        "S51",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SL-evenement-migrations-mande",
+      "titre": "Migrations mandé vers la Sierra Leone",
+      "date": "1450-01-01",
+      "date_affichee": "vers 1450-1700",
+      "precision": "siecle",
+      "description": "Entre le milieu du XVe siècle et 1700 environ, des groupes mandé migrent vers le territoire actuel, selon la chronologie de Sierra Leonean Heroes. L'Encyclopedia of World Cultures rattache les Mendé à cette histoire mandé.",
+      "sources": [
+        "S51",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "fin": "1700-01-01"
+    },
+    {
+      "id": "SL-evenement-serra-lyoa",
+      "titre": "Les Portugais nomment la péninsule « Serra Lyoa »",
+      "date": "1462-01-01",
+      "date_affichee": "1462",
+      "precision": "annee",
+      "description": "Un navigateur portugais visite la côte et donne à la péninsule le nom de « Serra Lyoa » (montagne du Lion), d'où vient le nom du pays. Wikipédia attribue cette cartographie à Pedro de Sintra.",
+      "sources": [
+        "S51",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Pedro de Sintra"
+      ]
+    },
+    {
+      "id": "SL-evenement-bunce-1670",
+      "titre": "Fondation du fort de traite de Bunce Island",
+      "date": "1670-01-01",
+      "date_affichee": "vers 1670",
+      "precision": "annee",
+      "description": "Des marchands anglais établissent vers 1670 un comptoir fortifié de traite sur Bunce Island, dans l'estuaire de la Sierra Leone. Le fort sera exploité successivement par plusieurs compagnies londoniennes jusqu'à l'abolition de la traite britannique en 1808.",
+      "sources": [
+        "S57",
+        "S59",
+        "S58"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Histoire de la traite atlantique : à présenter avec les institutions sierra-léonaises et les descendants."
+    },
+    {
+      "id": "SL-evenement-futa-jallon-jihad",
+      "titre": "Jihad du Fouta-Djalon",
+      "date": "1727-01-01",
+      "date_affichee": "1727",
+      "precision": "annee",
+      "description": "La chronologie de Sierra Leonean Heroes situe en 1727 le jihad du Fouta-Djalon, qui contribue à l'expansion de l'islam dans la région. Des communautés comme les Yalunka et les Temne gardent dans leurs traditions les migrations liées à ces bouleversements.",
+      "sources": [
+        "S51",
+        "S26",
+        "S11"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SL-evenement-province-of-freedom",
+      "titre": "Établissement de la « Province of Freedom »",
+      "date": "1787-01-01",
+      "date_affichee": "1787",
+      "precision": "annee",
+      "description": "En 1787, la « Province of Freedom » est fondée sur la péninsule, avec des Noirs de Londres. Elle est détruite en 1789 par les Temne de Koya, selon la chronologie de Sierra Leonean Heroes.",
+      "sources": [
+        "S51",
+        "S68"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "fin": "1789-01-01"
+    },
+    {
+      "id": "SL-evenement-freetown-1792",
+      "titre": "Fondation de Freetown et arrivée des Nova-Scotians",
+      "date": "1792-01-01",
+      "date_affichee": "1792",
+      "precision": "annee",
+      "description": "En 1792, Freetown est fondée et accueille les Noirs de Nouvelle-Écosse. Selon Wikipédia, des anciens esclaves se seraient réunis sous le Cotton Tree en mars 1792 pour prier.",
+      "sources": [
+        "S51",
+        "S71",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SL-evenement-maroons-1800",
+      "titre": "Arrivée des Maroons de la Jamaïque",
+      "date": "1800-01-01",
+      "date_affichee": "1800",
+      "precision": "annee",
+      "description": "Les Maroons venus de la Jamaïque arrivent à Freetown en 1800 et y fondent plus tard la St John's Maroon Church.",
+      "sources": [
+        "S51",
+        "S50"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SL-evenement-colonie-1808",
+      "titre": "La Sierra Leone devient colonie de la Couronne",
+      "date": "1808-01-01",
+      "date_affichee": "1808",
+      "precision": "annee",
+      "description": "En 1808, la Couronne britannique prend en charge la colonie, et des captifs libérés de navires négriers (recaptifs) commencent à arriver. La même année, l'abolition de la traite britannique met fin au commerce de captifs à Bunce Island.",
+      "sources": [
+        "S51",
+        "S57"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Histoire de la traite et de l'abolition : présenter avec précaution."
+    },
+    {
+      "id": "SL-evenement-fourah-bay-1827",
+      "titre": "Fondation de Fourah Bay College",
+      "date": "1827-01-01",
+      "date_affichee": "1827",
+      "precision": "annee",
+      "description": "La Fourah Bay Institution est établie en 1827. Elle deviendra Fourah Bay College, considérée comme la première université de style occidental d'Afrique subsaharienne.",
+      "sources": [
+        "S51",
+        "S65"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SL-evenement-amistad-1839",
+      "titre": "Révolte de La Amistad",
+      "date": "1839-07-01",
+      "date_affichee": "juillet 1839",
+      "precision": "mois",
+      "description": "Sengbe Pieh, un Mendé, mène la révolte à bord de La Amistad. L'affaire aboutit à la libération des captifs par la Cour suprême des États-Unis, et Sengbe et ses compagnons rentrent en Sierra Leone en 1842.",
+      "sources": [
+        "S48",
+        "S101"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Sengbe Pieh"
+      ]
+    },
+    {
+      "id": "SL-evenement-ofbc-1845",
+      "titre": "Construction de l'ancien bâtiment de Fourah Bay College",
+      "date": "1845-02-05",
+      "date_affichee": "5 février 1845",
+      "precision": "jour",
+      "description": "La première pierre du bâtiment en latérite est posée le 5 février 1845 par William Fergusson ; le bâtiment est achevé en 1848. La même année, en 1845, une école secondaire de la CMS, la première d'Afrique de l'Ouest, est établie.",
+      "sources": [
+        "S64",
+        "S51"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SL-evenement-ezzidio-1863",
+      "titre": "Premier Africain élu au Conseil législatif",
+      "date": "1863-01-01",
+      "date_affichee": "1863",
+      "precision": "annee",
+      "description": "Une nouvelle constitution est adoptée en 1863 et John Ezzidio devient le premier Africain élu au Conseil législatif de la colonie.",
+      "sources": [
+        "S51"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "John Ezzidio"
+      ]
+    },
+    {
+      "id": "SL-evenement-durham-1876",
+      "titre": "Fourah Bay College affilié à l'université de Durham",
+      "date": "1876-01-01",
+      "date_affichee": "1876",
+      "precision": "annee",
+      "description": "En 1876, Fourah Bay College s'affilie à l'université de Durham, une étape vers un rôle d'université pour l'Afrique de l'Ouest.",
+      "sources": [
+        "S51",
+        "S65"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SL-evenement-samori-1884",
+      "titre": "Début des invasions de Samori Touré",
+      "date": "1884-02-01",
+      "date_affichee": "février 1884",
+      "precision": "mois",
+      "description": "En février 1884, l'armée de Samori Touré descend vers le nord-est du pays. Falaba, capitale yalunka du roi Manga Sewa, résiste cinq mois ; le village kono de Masakpaidu est saccagé vers 1893.",
+      "sources": [
+        "S48",
+        "S51",
+        "S47"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Samori Touré",
+        "Manga Sewa"
+      ]
+    },
+    {
+      "id": "SL-evenement-protectorat-1896",
+      "titre": "Proclamation du Protectorat",
+      "date": "1896-01-01",
+      "date_affichee": "1896",
+      "precision": "annee",
+      "description": "En 1896, les Britanniques proclament le Protectorat de Sierra Leone sur l'intérieur, à côté de la colonie côtière.",
+      "sources": [
+        "S51"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SL-evenement-hut-tax-1898",
+      "titre": "Guerre de la taxe sur les huttes",
+      "date": "1898-04-27",
+      "date_affichee": "27 avril 1898 - novembre 1898",
+      "precision": "jour",
+      "description": "Le soulèvement contre la taxe sur les huttes éclate en 1898, avec Bai Bureh au nord (guerriers temne et alliés) et des révoltes dans le sud. Bai Bureh est capturé le 11 novembre 1898 ; le chef mendé Nyagua est arrêté et exilé, et la guerre fait aussi de Madam Yoko une cheffe menacée par ses propres sous-chefs.",
+      "sources": [
+        "S43",
+        "S51",
+        "S93"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "fin": "1898-11-11",
+      "acteurs": [
+        "Bai Bureh",
+        "Nyagua",
+        "Madam Yoko"
+      ]
+    },
+    {
+      "id": "SL-evenement-bo-school-1906",
+      "titre": "Ouverture de la Bo School",
+      "date": "1906-01-01",
+      "date_affichee": "1906",
+      "precision": "annee",
+      "description": "La Bo School ouvre pour les fils et les protégés des chefs, selon la chronologie de Sierra Leonean Heroes.",
+      "sources": [
+        "S51"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SL-evenement-chemin-de-fer-1908",
+      "titre": "Le chemin de fer atteint Pendembu",
+      "date": "1908-01-01",
+      "date_affichee": "1908",
+      "precision": "annee",
+      "description": "En 1908, la ligne de chemin de fer atteint Pendembu, dans l'est du pays.",
+      "sources": [
+        "S51"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SL-evenement-chefs-conseil-1924",
+      "titre": "Les chefs siègent au Conseil législatif",
+      "date": "1924-01-01",
+      "date_affichee": "1924",
+      "precision": "annee",
+      "description": "Une nouvelle constitution de 1924 permet pour la première fois aux chefs de siéger au Conseil législatif.",
+      "sources": [
+        "S51"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SL-evenement-musee-1957",
+      "titre": "Ouverture du musée de la Sierra Leone Society",
+      "date": "1957-01-01",
+      "date_affichee": "1957",
+      "precision": "annee",
+      "description": "Le musée de la Sierra Leone Society ouvre à Freetown. Il deviendra le musée national dans les années 1960.",
+      "sources": [
+        "S69",
+        "S70"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SL-evenement-independance-1961",
+      "titre": "Indépendance de la Sierra Leone",
+      "date": "1961-04-27",
+      "date_affichee": "27 avril 1961",
+      "precision": "jour",
+      "description": "La Sierra Leone devient indépendante le 27 avril 1961, avec Milton Margai comme premier Premier ministre.",
+      "sources": [
+        "S51",
+        "S110",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Milton Margai"
+      ]
+    },
+    {
+      "id": "SL-evenement-republique-1971",
+      "titre": "Proclamation de la République",
+      "date": "1971-04-19",
+      "date_affichee": "19 avril 1971",
+      "precision": "jour",
+      "description": "En 1971, le pays devient une république, avec Siaka Stevens comme premier président exécutif. Wikipédia donne la date du 19 avril 1971.",
+      "sources": [
+        "S51",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Siaka Stevens"
+      ]
+    },
+    {
+      "id": "SL-evenement-parti-unique-1978",
+      "titre": "Régime de parti unique",
+      "date": "1978-01-01",
+      "date_affichee": "1978",
+      "precision": "annee",
+      "description": "En 1978, la Sierra Leone devient un État à parti unique sous la bannière de l'All People's Congress.",
+      "sources": [
+        "S51",
+        "S113"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SL-evenement-debut-guerre-1991",
+      "titre": "Début de la guerre civile",
+      "date": "1991-03-23",
+      "date_affichee": "23 mars 1991",
+      "precision": "jour",
+      "description": "Le 23 mars 1991, des combattants du Revolutionary United Front attaquent Bomaru, dans le district de Kailahun : c'est le début du conflit de 1991-2002.",
+      "sources": [
+        "S128",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Conflit récent et douloureux : présenter avec neutralité, en s'appuyant sur les travaux de la Commission Vérité et Réconciliation."
+    },
+    {
+      "id": "SL-evenement-freetown-1999",
+      "titre": "Invasion rebelle de Freetown",
+      "date": "1999-01-06",
+      "date_affichee": "6 janvier 1999",
+      "precision": "jour",
+      "description": "Le 6 janvier 1999, des rebelles envahissent Freetown ; l'ancien bâtiment de Fourah Bay College, alors abri de déplacés, est brûlé ensuite dans des circonstances obscures.",
+      "sources": [
+        "S64"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Événement de la guerre civile : présenter avec neutralité et prudence."
+    },
+    {
+      "id": "SL-evenement-fin-guerre-2002",
+      "titre": "Fin officielle de la guerre",
+      "date": "2002-01-18",
+      "date_affichee": "18 janvier 2002",
+      "precision": "jour",
+      "description": "Le 18 janvier 2002, la guerre est déclarée officiellement terminée lors d'une cérémonie à Lungi.",
+      "sources": [
+        "S128"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Conflit récent : sources et présentation à valider."
+    },
+    {
+      "id": "SL-evenement-wh-ratification-2005",
+      "titre": "Ratification de la Convention du patrimoine mondial",
+      "date": "2005-01-07",
+      "date_affichee": "7 janvier 2005",
+      "precision": "jour",
+      "description": "La Sierra Leone ratifie la Convention du patrimoine mondial le 7 janvier 2005.",
+      "sources": [
+        "S55"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SL-evenement-tribunal-residuel-2013",
+      "titre": "Passage au Tribunal spécial résiduel",
+      "date": "2013-12-31",
+      "date_affichee": "31 décembre 2013",
+      "precision": "jour",
+      "description": "Le Tribunal spécial pour la Sierra Leone ferme le 31 décembre 2013 et laisse place au Tribunal spécial résiduel. Le musée de la Paix, projet hérité du Tribunal spécial, occupe une partie de l'ancien site.",
+      "sources": [
+        "S73",
+        "S129"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Justice transitionnelle liée à la guerre : présentation neutre."
+    },
+    {
+      "id": "SL-evenement-ebola-2014",
+      "titre": "Épidémie d'Ebola : mort du Dr Sheik Humarr Khan",
+      "date": "2014-07-29",
+      "date_affichee": "29 juillet 2014",
+      "precision": "jour",
+      "description": "Pendant l'épidémie d'Ebola de 2014, le médecin-chef Sheik Humarr Khan, qui avait soigné plus de cent patients, meurt de la maladie à 39 ans.",
+      "sources": [
+        "S126",
+        "S127"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "acteurs": [
+        "Sheik Humarr Khan"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement sanitaire récent et sensible."
+    },
+    {
+      "id": "SL-evenement-cotton-tree-2023",
+      "titre": "Chute du Cotton Tree de Freetown",
+      "date": "2023-05-24",
+      "date_affichee": "24 mai 2023",
+      "precision": "jour",
+      "description": "Dans la nuit du 24 mai 2023, sous de fortes pluies, le Cotton Tree de Freetown s'effondre en grande partie, et le président Julius Maada Bio exprime son deuil face à la perte de ce symbole.",
+      "sources": [
+        "S71"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SL-evenement-ich-2025",
+      "titre": "Ratification de la Convention pour la sauvegarde du patrimoine immatériel",
+      "date": "2025-06-19",
+      "date_affichee": "19 juin 2025",
+      "precision": "jour",
+      "description": "La Sierra Leone ratifie le 19 juin 2025 la Convention de l'UNESCO pour la sauvegarde du patrimoine culturel immatériel. La page UNESCO consultée ne mentionne aucune inscription du pays sur les listes de la Convention.",
+      "sources": [
+        "S130"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SL-evenement-gola-tiwai-2025",
+      "titre": "Inscription du complexe Gola-Tiwai au patrimoine mondial",
+      "date": "2025-01-01",
+      "date_affichee": "2025",
+      "precision": "annee",
+      "description": "Le complexe Gola-Tiwai devient en 2025 le premier bien sierra-léonais inscrit à la Liste du patrimoine mondial, au titre des critères (ix) et (x).",
+      "sources": [
+        "S54",
+        "S55"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "oeuvres": [
+    {
+      "id": "SL-oeuvre-masque-sowei",
+      "titre": "Masque sowei (société Sande/Bondo)",
+      "type": "masque",
+      "description": "Masque-casque en bois sculpté, porté par la danseuse de haut rang des sociétés féminines Sande (mendé) ou Bondo (temne). Il présente une finition noire polie, des anneaux de cou et une coiffure élaborée. Selon le musée, cet exemple ressemble aux types sherbro-bullom du début du XXe siècle.",
+      "institution": "Sierra Leone National Museum (Freetown)",
+      "sources": [
+        "S45",
+        "S75"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "numero_inventaire": "SLNM.1946.01.02",
+      "url_notice": "https://www.sierraleoneheritage.org/item/SLNM.1946.01.02/sowei-mask",
+      "droits": "Notice en ligne de Sierra Leone Heritage ; droits non précisés, pas d'image reproduite",
+      "materiaux": [
+        "bois"
+      ],
+      "communaute": "Mendé, Temne, Sherbro-Bullom",
+      "periode": "avant 1946",
+      "regions": [
+        "Sierra Leone"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Objet lié à une société initiatique féminine : validation par des détentrices du savoir et par le musée avant publication."
+    },
+    {
+      "id": "SL-oeuvre-nomoli",
+      "titre": "Nomoli, figure en stéatite",
+      "type": "sculpture",
+      "description": "Figure en stéatite, appelée nomoli en mendé, représentant une femme portant un enfant dans le dos ; elle a été trouvée dans un marais près de Blama. Le musée note que l'âge de ces figures est mal connu, que certaines pourraient précéder l'arrivée des Portugais, et qu'elles ont été réutilisées plus tard comme « dieux du riz » pour favoriser les récoltes.",
+      "institution": "Sierra Leone National Museum (Freetown)",
+      "sources": [
+        "S91"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "numero_inventaire": "SLNM.1949.01.09",
+      "url_notice": "https://www.sierraleoneheritage.org/item/SLNM.1949.01.09/nomoli",
+      "droits": "Notice en ligne de Sierra Leone Heritage ; droits non précisés, pas d'image reproduite",
+      "materiaux": [
+        "stéatite"
+      ],
+      "communaute": "Mendé",
+      "periode": "avant 1949",
+      "regions": [
+        "Blama"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Objet à usage rituel : à valider avec le musée et des spécialistes locaux ; ne pas présenter comme objet de culte actuel sans vérification."
+    },
+    {
+      "id": "SL-oeuvre-figure-jumeau",
+      "titre": "Figure de jumeau décédé (Pendembu)",
+      "type": "sculpture",
+      "description": "Figure féminine en bois et métal, enregistrée comme figure de jumeau, qui représentait un jumeau décédé et recevait les mêmes soins que le survivant pour éviter que l'esprit du défunt ne nuise. Les scarifications et la coiffure sont jugées typiques des Mendé de Kpa et des Kono. L'objet a été donné au musée par une enseignante de Fourah Bay College.",
+      "institution": "Sierra Leone National Museum (Freetown)",
+      "sources": [
+        "S92"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "numero_inventaire": "SLNM.1956.08.05",
+      "url_notice": "https://www.sierraleoneheritage.org/item/SLNM.1956.08.05/carved-twin-figure",
+      "droits": "Notice en ligne de Sierra Leone Heritage ; droits non précisés, pas d'image reproduite",
+      "materiaux": [
+        "bois",
+        "métal"
+      ],
+      "communaute": "Mendé, Kono",
+      "periode": "avant 1956",
+      "regions": [
+        "Pendembu"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Objet à usage rituel et funéraire : présentation à valider avec le musée et les communautés."
+    },
+    {
+      "id": "SL-oeuvre-cloche-bumpe",
+      "titre": "Cloche de guerre de Bumpe",
+      "type": "instrument",
+      "description": "Cloche en fonte qui servait à convoquer villageois et guerriers de Bumpe (district de Moyamba) pendant la guerre de la taxe sur les huttes de 1898. Selon l'histoire rapportée par le musée, un missionnaire méthodiste capturé fut épargné grâce à une vieille femme, et la cloche fut offerte ensuite à l'église de Tikonko par le Paramount Chief de Bumpe.",
+      "institution": "Sierra Leone National Museum (Freetown)",
+      "sources": [
+        "S93",
+        "S51"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "numero_inventaire": "SLNM.1961.05.01",
+      "url_notice": "https://www.sierraleoneheritage.org/item/SLNM.1961.05.01/bumpe-war-bell",
+      "droits": "Notice en ligne de Sierra Leone Heritage ; droits non précisés, pas d'image reproduite",
+      "materiaux": [
+        "fonte"
+      ],
+      "communaute": "Mendé",
+      "periode": "avant 1898",
+      "regions": [
+        "Bumpe",
+        "Tikonko"
+      ]
+    },
+    {
+      "id": "SL-oeuvre-hordu",
+      "titre": "Hordu, guitare peule",
+      "type": "instrument",
+      "description": "Instrument à cordes à caisse en forme de bateau couverte de peau et à manche en bois, dont les cordes sont fixées par des lanières de cuir déplaçables pour l'accord. Le musée l'attribue aux Peuls. Il a été donné par un enseignant de Fourah Bay College.",
+      "institution": "Sierra Leone National Museum (Freetown)",
+      "sources": [
+        "S88"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "numero_inventaire": "SLNM.1964.51.06",
+      "url_notice": "https://www.sierraleoneheritage.org/item/SLNM.1964.51.06/hordu-or-fula-guitar",
+      "droits": "Notice en ligne de Sierra Leone Heritage ; droits non précisés, pas d'image reproduite",
+      "materiaux": [
+        "bois",
+        "peau",
+        "cuir"
+      ],
+      "communaute": "Peuls",
+      "periode": "avant 1964"
+    },
+    {
+      "id": "SL-oeuvre-shuku-blai-musee",
+      "titre": "Panier à boudins (shuku blai)",
+      "type": "textile",
+      "description": "Panier à boudins tressé de fibres teintes en orange et vert, qui forme un motif géométrique. Le shuku blai est un panier temne souvent fabriqué par des femmes pour garder les objets précieux.",
+      "institution": "Sierra Leone National Museum (Freetown)",
+      "sources": [
+        "S83",
+        "S84"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "numero_inventaire": "SLNM.1957.09.38A",
+      "url_notice": "https://www.sierraleoneheritage.org/item/SLNM.1957.09.38A/shuku-blai",
+      "droits": "Notice en ligne de Sierra Leone Heritage ; droits non précisés, pas d'image reproduite",
+      "materiaux": [
+        "fibres végétales"
+      ],
+      "communaute": "Temne",
+      "periode": "avant 1957"
+    },
+    {
+      "id": "SL-oeuvre-chant-mende-1966",
+      "titre": "Chant mendé avec kelei et shegbureh (enregistrement de 1966)",
+      "type": "musique",
+      "description": "Enregistrement sonore du 20 décembre 1966 à Sahn (Pujehun) par Cootje van Oven et Herb Clark : la chanteuse Kadi, accompagnée au kelei par Sema et au shegbureh, chante que le temps est mauvais et que la pluie vient.",
+      "institution": "Sierra Leone Heritage (UCL, Sussex, Sierra Leone National Museum)",
+      "sources": [
+        "S87"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "numero_inventaire": "CVO:240",
+      "url_notice": "https://www.sierraleoneheritage.org/item/CVO%3A240/mende-song",
+      "droits": "Notice en ligne de Sierra Leone Heritage ; droits non précisés, pas d'image reproduite",
+      "communaute": "Mendé",
+      "periode": "1966",
+      "regions": [
+        "Pujehun"
+      ]
+    },
+    {
+      "id": "SL-oeuvre-saliere-ivoire",
+      "titre": "Salière couverte en ivoire",
+      "type": "sculpture",
+      "description": "Salière à couvercle en ivoire, attribuée aux Temne ou aux Bullom et datée d'environ 1490-1530. Elle fait partie de ces objets d'ivoire de Sierra Leone sculptés à l'intention de clients portugais.",
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "sources": [
+        "S94",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "numero_inventaire": "1991.435a, b",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/316442",
+      "droits": "Domaine public (Open Access, CC0) selon le Met ; image non reproduite",
+      "materiaux": [
+        "ivoire"
+      ],
+      "communaute": "Temne ou Bullom",
+      "periode": "vers 1490-1530",
+      "regions": [
+        "Sierra Leone"
+      ],
+      "wikidata": "Q29384364"
+    },
+    {
+      "id": "SL-oeuvre-cuillere-ivoire",
+      "titre": "Cuillère à figure",
+      "type": "sculpture",
+      "description": "Cuillère en ivoire ornée d'une figure, attribuée aux Temne ou aux Bullom et datée d'environ 1490-1530.",
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "sources": [
+        "S95",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "numero_inventaire": "1979.206.116",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/312331",
+      "droits": "Domaine public (Open Access, CC0) selon le Met ; image non reproduite",
+      "materiaux": [
+        "ivoire"
+      ],
+      "communaute": "Temne ou Bullom",
+      "periode": "vers 1490-1530",
+      "regions": [
+        "Sierra Leone"
+      ]
+    },
+    {
+      "id": "SL-oeuvre-tete-steatite",
+      "titre": "Tête en stéatite",
+      "type": "sculpture",
+      "description": "Tête sculptée en stéatite, attribuée aux Temne ou aux Bullom et datée du XIIe au XVIe siècle. Elle mesure environ 26 cm de haut et fait partie de la Michael C. Rockefeller Memorial Collection du Met.",
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "sources": [
+        "S96"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "numero_inventaire": "1978.412.375",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/310813",
+      "droits": "Domaine public (Open Access, CC0) selon le Met ; image non reproduite",
+      "materiaux": [
+        "stéatite"
+      ],
+      "communaute": "Temne ou Bullom",
+      "periode": "XIIe-XVIe siècle",
+      "regions": [
+        "Sierra Leone"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Statuaire de pierre ancienne dont la fonction n'est pas établie ; à présenter avec réserve, avec le point de vue des institutions sierra-léonaises."
+    },
+    {
+      "id": "SL-oeuvre-tenture-interieur",
+      "titre": "Tenture d'intérieur en coton et laine",
+      "type": "textile",
+      "description": "Tenture en coton et laine teints de matières naturelles, attribuée aux Mendé, Vaï ou Temne et datée du début ou du milieu du XIXe siècle. Elle est en accès libre (CC0) au Metropolitan Museum.",
+      "institution": "The Metropolitan Museum of Art (New York)",
+      "sources": [
+        "S86"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "numero_inventaire": "1971.30",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/309769",
+      "droits": "Domaine public (Open Access, CC0) selon le Met ; image non reproduite",
+      "materiaux": [
+        "coton",
+        "laine",
+        "teintures naturelles"
+      ],
+      "communaute": "Mendé, Vaï ou Temne",
+      "periode": "première moitié du XIXe siècle",
+      "regions": [
+        "Sierra Leone"
+      ]
+    },
+    {
+      "id": "SL-oeuvre-concerto-exile",
+      "titre": "Concerto for an Exile (poèmes)",
+      "type": "livre",
+      "description": "Premier recueil de poèmes de Syl Cheney-Coker, publié en 1973. L'Encyclopedia.com souligne que ce fut le premier volume de poésie publié par un auteur de Sierra Leone. Ses vers expriment de la colère et une critique de sa propre origine, celle de la minorité descendant des esclaves libérés.",
+      "institution": "Œuvre publiée (pas de musée) ; voir la notice Encyclopedia.com",
+      "sources": [
+        "S97"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "url_notice": "https://www.encyclopedia.com/education/news-wires-white-papers-and-books/cheney-coker-syl-1945",
+      "droits": "Œuvre protégée par le droit d'auteur",
+      "communaute": "Krio (auteur)",
+      "createur": "Syl Cheney-Coker",
+      "periode": "1973",
+      "regions": [
+        "Freetown"
+      ]
+    },
+    {
+      "id": "SL-oeuvre-last-harmattan",
+      "titre": "The Last Harmattan of Alusine Dunbar",
+      "type": "livre",
+      "description": "Premier roman de Syl Cheney-Coker, écrit en 1990, qui a remporté en 1991 le Commonwealth Writers Prize pour la région Afrique. Selon l'Encyclopedia.com, il raconte l'histoire fictive d'une cité-État atlantique imaginaire, Malagueta, sur deux siècles de traumatismes, jusqu'à un coup d'État ; le titre renvoie à l'harmattan, vent saharien.",
+      "institution": "Œuvre publiée (pas de musée) ; voir la notice Encyclopedia.com",
+      "sources": [
+        "S97"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "url_notice": "https://www.encyclopedia.com/education/news-wires-white-papers-and-books/cheney-coker-syl-1945",
+      "droits": "Œuvre protégée par le droit d'auteur",
+      "createur": "Syl Cheney-Coker",
+      "periode": "1990",
+      "regions": [
+        "Freetown"
+      ]
+    },
+    {
+      "id": "SL-oeuvre-west-african-countries",
+      "titre": "West African Countries and Peoples: A Vindication of the African Race",
+      "type": "livre",
+      "description": "Ouvrage d'Africanus Horton, rédigé entre 1866 et 1869, qui étudie les conditions de l'autonomie politique en Afrique de l'Ouest et rejette l'idée d'une infériorité des Africains. Le Dictionary of African Christian Biography le présente comme une étude importante pour l'histoire du panafricanisme.",
+      "institution": "Œuvre publiée (pas de musée) ; voir la notice DACB",
+      "sources": [
+        "S98"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "url_notice": "https://dacb.org/stories/gambia/horton-jamesa/",
+      "droits": "Domaine public probable (texte du XIXe siècle) ; à vérifier",
+      "createur": "Africanus Horton",
+      "periode": "1866-1869",
+      "wikidata": "Q118649888"
+    },
+    {
+      "id": "SL-oeuvre-polyglotta-africana",
+      "titre": "Polyglotta Africana (1854)",
+      "type": "livre",
+      "description": "Ouvrage de Sigismund Koelle, publié en 1854, issu du travail de linguistes réunis à Fourah Bay College, que Sierra Leone Heritage présente comme l'atelier littéraire et linguistique de l'Afrique de l'Ouest dans les années 1840-1850.",
+      "institution": "Œuvre publiée (pas de musée) ; voir la notice Sierra Leone Heritage",
+      "sources": [
+        "S64"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "url_notice": "https://www.sierraleoneheritage.org/sites/monuments/oldfourahbay",
+      "droits": "Domaine public probable (texte de 1854) ; à vérifier",
+      "createur": "Sigismund Koelle",
+      "periode": "1854",
+      "regions": [
+        "Freetown"
+      ]
+    }
+  ],
+  "proverbes": [
+    {
+      "id": "SL-proverbe-kono-barbe",
+      "texte_original": "An dɔ moɛ to-a ta ɔ, i ɔ a bua minda-a wan?",
+      "langue": "kono",
+      "traduction": "Quand on dit d'un homme qu'il est mort brûlé, on ne demande pas si sa barbe a brûlé aussi.",
+      "sens": "Il est inutile de demander ce qui va de soi (glose anglaise : « Something that is obvious »).",
+      "publication": "Komba Ngekia (compil.), Kɔnɔ tai nu : Kono Proverbs, Sierra Leone Web, en ligne, https://www.sierra-leone.org/Proverbs-Kono.html (consulté le 2026-11-21) ; transcription normalisée (ɔ, ɛ) d'une page utilisant des caractères de substitution.",
+      "sources": [
+        "S90"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SL-proverbe-kono-poule",
+      "texte_original": "Kɔnkɔn tɛ dɛn duu, i ɔ tɛ chɛ ma po ni.",
+      "langue": "kono",
+      "traduction": "Tu trouves une poule avec cinq poussins : ne te plains pas qu'elle n'en ait pas davantage.",
+      "sens": "Il ne faut pas bouder un don (équivalent anglais donné par la page : « Don't look a gift horse in the mouth »).",
+      "publication": "Komba Ngekia (compil.), Kɔnɔ tai nu : Kono Proverbs, Sierra Leone Web, en ligne, https://www.sierra-leone.org/Proverbs-Kono.html (consulté le 2026-11-21) ; transcription normalisée (ɔ, ɛ) d'une page utilisant des caractères de substitution.",
+      "sources": [
+        "S90"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SL-proverbe-kono-faucon",
+      "texte_original": "Sɛgbɛndɛ bui, a mu faagbɛ-a an na.",
+      "langue": "kono",
+      "traduction": "Le remède du faucon, c'est la patience.",
+      "sens": "Valorise la patience.",
+      "publication": "Komba Ngekia (compil.), Kɔnɔ tai nu : Kono Proverbs, Sierra Leone Web, en ligne, https://www.sierra-leone.org/Proverbs-Kono.html (consulté le 2026-11-21) ; transcription normalisée (ɔ, ɛ) d'une page utilisant des caractères de substitution.",
+      "sources": [
+        "S90"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SL-proverbe-kono-oiseau",
+      "texte_original": "Ko sɔn konde, an fea koe a ɔ gbɛ konde a, konde dɔndɔ ma an na.",
+      "langue": "kono",
+      "traduction": "L'oiseau qui sait n'est pas le même que l'oiseau qui comprend.",
+      "sens": "Savoir et comprendre sont deux choses différentes.",
+      "publication": "Komba Ngekia (compil.), Kɔnɔ tai nu : Kono Proverbs, Sierra Leone Web, en ligne, https://www.sierra-leone.org/Proverbs-Kono.html (consulté le 2026-11-21) ; transcription normalisée (ɔ, ɛ) d'une page utilisant des caractères de substitution.",
+      "sources": [
+        "S90"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SL-proverbe-kono-chien",
+      "texte_original": "Wu ta ee bɛndɛ a sɛ ma.",
+      "langue": "kono",
+      "traduction": "Le chien n'a pas à grimper sur le toit de la maison.",
+      "sens": "Il faut rester à sa place et ne pas se mêler de ce qui ne le regarde pas (glose anglaise : « A dog has no business climbing on the roof »).",
+      "publication": "Komba Ngekia (compil.), Kɔnɔ tai nu : Kono Proverbs, Sierra Leone Web, en ligne, https://www.sierra-leone.org/Proverbs-Kono.html (consulté le 2026-11-21) ; transcription normalisée (ɔ, ɛ) d'une page utilisant des caractères de substitution.",
+      "sources": [
+        "S90"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SL-proverbe-krio-escargot",
+      "texte_original": "Snel nɔ mix pan blɔd biznɛs.",
+      "langue": "krio",
+      "traduction": "Les escargots n'ont rien à voir avec une affaire de sang.",
+      "sens": "Se dit d'une affaire qui ne concerne pas la personne : les escargots n'ont pas de sang.",
+      "publication": "Peter C. Andersen (compil.), Proverbs in Krio, Sierra Leone Web, en ligne, https://www.sierra-leone.org/Krio-Proverbs.html (consulté le 2026-11-21) ; transcription normalisée (ɔ, ɛ) d'une page utilisant des caractères de substitution.",
+      "sources": [
+        "S131"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SL-proverbe-krio-pierre",
+      "texte_original": "Watasai ston nɔ fred ren.",
+      "langue": "krio",
+      "traduction": "Une pierre au bord de l'eau n'a pas peur de la pluie.",
+      "sens": "La glose de la page précise que cette pierre est presque toujours mouillée.",
+      "publication": "Compilation anonyme de proverbes krio diffusée à Freetown au début des années 1980, Sierra Leone Web, en ligne, https://www.sierra-leone.org/Proverbs-Anonymous.html (consulté le 2026-11-21) ; transcription normalisée (ɔ, ɛ).",
+      "sources": [
+        "S132"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "SL-proverbe-krio-bouche",
+      "texte_original": "Gladi mɔt nɔba blo faya.",
+      "langue": "krio",
+      "traduction": "Une bouche joyeuse ne peut pas souffler sur le feu.",
+      "sens": "La page ne propose pas de glose.",
+      "publication": "Compilation anonyme de proverbes krio diffusée à Freetown au début des années 1980, Sierra Leone Web, en ligne, https://www.sierra-leone.org/Proverbs-Anonymous.html (consulté le 2026-11-21) ; transcription normalisée (ɔ, ɛ).",
+      "sources": [
+        "S132"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "titre": "Glottolog : English",
+      "institution": "Glottolog 5.4",
+      "url": "https://glottolog.org/resource/languoid/id/stan1293",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S2",
+      "titre": "Wikipedia : Sierra Leone",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Sierra_Leone",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S3",
+      "titre": "Wikipedia : Krio language",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Krio_language",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S4",
+      "titre": "Glottolog : Krio",
+      "institution": "Glottolog 5.4",
+      "url": "https://glottolog.org/resource/languoid/id/krio1253",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S5",
+      "titre": "Krio",
+      "institution": "Encyclopedia.com (Gale, Encyclopedia of World Cultures)",
+      "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/krio",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S6",
+      "titre": "Wikipedia : Mende language",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Mende_language",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S7",
+      "titre": "Glottolog : Mende (Sierra Leone)",
+      "institution": "Glottolog 5.4",
+      "url": "https://glottolog.org/resource/languoid/id/mend1266",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S8",
+      "titre": "Mende",
+      "institution": "Encyclopedia.com (Gale, Encyclopedia of World Cultures)",
+      "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/mende",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S9",
+      "titre": "Wikipedia : Temne language",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Temne_language",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S10",
+      "titre": "Glottolog : Timne",
+      "institution": "Glottolog 5.4",
+      "url": "https://glottolog.org/resource/languoid/id/timn1235",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S11",
+      "titre": "Temne",
+      "institution": "Encyclopedia.com (Gale, Encyclopedia of World Cultures)",
+      "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/temne",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S12",
+      "titre": "Glottolog : West-Central Limba",
+      "institution": "Glottolog 5.4",
+      "url": "https://glottolog.org/resource/languoid/id/west2450",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S13",
+      "titre": "Wikipedia : Limba language",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Limba_language",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S14",
+      "titre": "Wikipedia : Kono language (Sierra Leone)",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Kono_language_(Sierra_Leone)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S15",
+      "titre": "Glottolog : Kono (Sierra Leone)",
+      "institution": "Glottolog 5.4",
+      "url": "https://glottolog.org/resource/languoid/id/kono1268",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S16",
+      "titre": "Wikipedia : Kono people",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Kono_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S17",
+      "titre": "Wikipedia : Sherbro language",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Sherbro_language",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S18",
+      "titre": "Glottolog : Sherbro",
+      "institution": "Glottolog 5.4",
+      "url": "https://glottolog.org/resource/languoid/id/sher1258",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S19",
+      "titre": "Wikipedia : Loko language",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Loko_language",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S20",
+      "titre": "Glottolog : Loko",
+      "institution": "Glottolog 5.4",
+      "url": "https://glottolog.org/resource/languoid/id/loko1255",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S21",
+      "titre": "Glottolog : Kuranko",
+      "institution": "Glottolog 5.4",
+      "url": "https://glottolog.org/resource/languoid/id/kura1250",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S22",
+      "titre": "Wikipedia : Kuranko people",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Kuranko_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S23",
+      "titre": "Glottolog : Susu",
+      "institution": "Glottolog 5.4",
+      "url": "https://glottolog.org/resource/languoid/id/susu1250",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S24",
+      "titre": "Wikipedia : Susu people",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Susu_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S25",
+      "titre": "Glottolog : Yalunka",
+      "institution": "Glottolog 5.4",
+      "url": "https://glottolog.org/resource/languoid/id/yalu1240",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S26",
+      "titre": "Wikipedia : Yalunka people",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Yalunka_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S27",
+      "titre": "Glottolog : Pular",
+      "institution": "Glottolog 5.4",
+      "url": "https://glottolog.org/resource/languoid/id/pula1262",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S28",
+      "titre": "Wikipedia : Pular language",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Pular_language",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S29",
+      "titre": "Glottolog : Southern Kisi",
+      "institution": "Glottolog 5.4",
+      "url": "https://glottolog.org/resource/languoid/id/sout2778",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S30",
+      "titre": "Wikipedia : Kissi people",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Kissi_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S31",
+      "titre": "Glottolog : Gola",
+      "institution": "Glottolog 5.4",
+      "url": "https://glottolog.org/resource/languoid/id/gola1255",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S32",
+      "titre": "Wikipedia : Gola people",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Gola_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S33",
+      "titre": "Glottolog : Vai",
+      "institution": "Glottolog 5.4",
+      "url": "https://glottolog.org/resource/languoid/id/vaii1241",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S34",
+      "titre": "Wikipedia : Vai language",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Vai_language",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S35",
+      "titre": "Wikipedia : Vai people",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Vai_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S36",
+      "titre": "Glottolog : Mandinka",
+      "institution": "Glottolog 5.4",
+      "url": "https://glottolog.org/resource/languoid/id/mand1436",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S37",
+      "titre": "Wikipedia : Bullom So language",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Bullom_So_language",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S38",
+      "titre": "Glottolog : Bullom So",
+      "institution": "Glottolog 5.4",
+      "url": "https://glottolog.org/resource/languoid/id/bull1247",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S39",
+      "titre": "Glottolog : Krim",
+      "institution": "Glottolog 5.4",
+      "url": "https://glottolog.org/resource/languoid/id/krim1238",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S40",
+      "titre": "Wikipedia : Krim language",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Krim_language",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S41",
+      "titre": "Glottolog : Sierra Leone Sign Language",
+      "institution": "Glottolog 5.4",
+      "url": "https://glottolog.org/resource/languoid/id/sier1246",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S42",
+      "titre": "Wikipedia : Temne people",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Temne_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S43",
+      "titre": "Sierra Leonean Heroes : 1898 Rebellion Era (Bai Bureh, Almamy Suluku, Nyagua, Madam Yoko)",
+      "institution": "Sierra Leone Web (www.sierra-leone.org)",
+      "url": "https://www.sierra-leone.org/Heroes/heroes5.html",
+      "type": "livre",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Sierra Leone Web, d'après l'ouvrage Sierra Leonean Heroes (C. M. Fyle, éd. consultant)"
+    },
+    {
+      "id": "S44",
+      "titre": "Wikipedia : Mende people",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Mende_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S45",
+      "titre": "Sierra Leone Heritage : Sowei Mask (SLNM.1946.01.02)",
+      "institution": "Sierra Leone Heritage (UCL, Sussex, Sierra Leone National Museum)",
+      "url": "https://www.sierraleoneheritage.org/item/SLNM.1946.01.02/sowei-mask",
+      "type": "musee",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S46",
+      "titre": "Wikipedia : Limba people (Sierra Leone)",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Limba_people_(Sierra_Leone)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S47",
+      "titre": "Sierra Leone Heritage, Sites & Monuments : Masakpaidu",
+      "institution": "Sierra Leone Heritage (UCL, Sussex, Sierra Leone National Museum)",
+      "url": "https://www.sierraleoneheritage.org/sites/monuments/masakpaidu",
+      "type": "musee",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S48",
+      "titre": "Sierra Leonean Heroes : 19th Century Upcountry (Sengbe Pieh, Foday Tarawaly, Manga Sewa, Foamansa Matturi)",
+      "institution": "Sierra Leone Web (www.sierra-leone.org)",
+      "url": "https://www.sierra-leone.org/Heroes/heroes4.html",
+      "type": "livre",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Sierra Leone Web, d'après l'ouvrage Sierra Leonean Heroes (C. M. Fyle, éd. consultant)"
+    },
+    {
+      "id": "S49",
+      "titre": "Wikipedia : Sierra Leone Creole people",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Sierra_Leone_Creole_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S50",
+      "titre": "Sierra Leone Heritage, Sites & Monuments : St John's Maroon Church",
+      "institution": "Sierra Leone Heritage (UCL, Sussex, Sierra Leone National Museum)",
+      "url": "https://www.sierraleoneheritage.org/sites/monuments/stjohn",
+      "type": "musee",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S51",
+      "titre": "Sierra Leonean Heroes : History of Sierra Leone : Significant Dates",
+      "institution": "Sierra Leone Web (www.sierra-leone.org)",
+      "url": "https://www.sierra-leone.org/Heroes/heroes11.html",
+      "type": "livre",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Sierra Leone Web, d'après l'ouvrage Sierra Leonean Heroes (C. M. Fyle, éd. consultant)"
+    },
+    {
+      "id": "S52",
+      "titre": "Wikipedia : Loko people",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Loko_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S53",
+      "titre": "Wikipedia : Sherbro people",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Sherbro_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S54",
+      "titre": "Complexe Gola-Tiwai",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/1746",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21",
+      "annee": 2025
+    },
+    {
+      "id": "S55",
+      "titre": "Sierra Leone : États parties à la Convention du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/statesparties/sl",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S56",
+      "titre": "Wikipedia : Tiwai Island",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Tiwai_Island",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S57",
+      "titre": "Liste indicative : Bunce Island",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/5745",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21",
+      "auteur": "Soumis par le ministère du Tourisme et des Affaires culturelles de Sierra Leone",
+      "annee": 2012
+    },
+    {
+      "id": "S58",
+      "titre": "Sierra Leone Heritage, Sites & Monuments : Bunce Island",
+      "institution": "Sierra Leone Heritage (UCL, Sussex, Sierra Leone National Museum)",
+      "url": "https://www.sierraleoneheritage.org/sites/monuments/bunce",
+      "type": "musee",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S59",
+      "titre": "Bunce Island History",
+      "institution": "Gilder Lehrman Center for the Study of Slavery, Resistance, and Abolition, Yale University",
+      "url": "https://macmillan.yale.edu/glc/bunce-island-history",
+      "type": "universite",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S60",
+      "titre": "Beyond the Ruins: A Journey of Discovery at Bunce Island",
+      "institution": "Sierra Leone National Museum, Google Arts & Culture",
+      "url": "https://artsandculture.google.com/story/beyond-the-ruins-a-journey-of-discovery-at-bunce-island-sierra-leone-national-museum/0wXhzysCXSlHYA?hl=en",
+      "type": "musee",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S61",
+      "titre": "Sites & Monuments",
+      "institution": "Sierra Leone Heritage (UCL, Sussex, Sierra Leone National Museum)",
+      "url": "https://www.sierraleoneheritage.org/sites",
+      "type": "musee",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S62",
+      "titre": "Liste indicative : The Gateway to the Old King's Yards",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/5746",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21",
+      "auteur": "Soumis par le ministère du Tourisme et des Affaires culturelles de Sierra Leone",
+      "annee": 2012
+    },
+    {
+      "id": "S63",
+      "titre": "Liste indicative : Old Fourah Bay College Building",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/5744",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21",
+      "auteur": "Soumis par le ministère du Tourisme et des Affaires culturelles de Sierra Leone",
+      "annee": 2012
+    },
+    {
+      "id": "S64",
+      "titre": "Sierra Leone Heritage, Sites & Monuments : Old Fourah Bay College",
+      "institution": "Sierra Leone Heritage (UCL, Sussex, Sierra Leone National Museum)",
+      "url": "https://www.sierraleoneheritage.org/sites/monuments/oldfourahbay",
+      "type": "musee",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S65",
+      "titre": "Wikipedia : Fourah Bay College",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Fourah_Bay_College",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S66",
+      "titre": "Liste indicative : Western Area Peninsula National Park",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/5741",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21",
+      "auteur": "Soumis par le ministère du Tourisme et des Affaires culturelles de Sierra Leone",
+      "annee": 2012
+    },
+    {
+      "id": "S67",
+      "titre": "Sierra Leone Heritage, Sites & Monuments : Plantain Island",
+      "institution": "Sierra Leone Heritage (UCL, Sussex, Sierra Leone National Museum)",
+      "url": "https://www.sierraleoneheritage.org/sites/monuments/ruinsjohnnewton",
+      "type": "musee",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S68",
+      "titre": "Sierra Leone Heritage, Sites & Monuments : Fort Thornton",
+      "institution": "Sierra Leone Heritage (UCL, Sussex, Sierra Leone National Museum)",
+      "url": "https://www.sierraleoneheritage.org/sites/monuments/fortthornton",
+      "type": "musee",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S69",
+      "titre": "Sierra Leone National Museum",
+      "institution": "Sierra Leone Heritage (UCL, Sussex, Sierra Leone National Museum)",
+      "url": "https://www.sierraleoneheritage.org/museum",
+      "type": "musee",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S70",
+      "titre": "Wikipedia : Sierra Leone National Museum",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Sierra_Leone_National_Museum",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S71",
+      "titre": "Wikipedia : Cotton Tree (Sierra Leone)",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Cotton_Tree_(Freetown)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S72",
+      "titre": "Wikipedia : Outamba-Kilimi National Park",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Outamba-Kilimi_National_Park",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S73",
+      "titre": "About the Peace Museum",
+      "institution": "Residual Special Court for Sierra Leone",
+      "url": "https://rscsl.org/peace-museum/about/",
+      "type": "institution",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S74",
+      "titre": "Witness to Truth: Final Report of the Truth and Reconciliation Commission for Sierra Leone",
+      "institution": "Truth and Reconciliation Commission, Sierra Leone",
+      "url": "https://www.sierraleonetrc.org/",
+      "type": "institution",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S75",
+      "titre": "Wikipedia : Sande society",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Sande_society",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S76",
+      "titre": "Sierra Leone Heritage : page d'accueil",
+      "institution": "Sierra Leone Heritage (UCL, Sussex, Sierra Leone National Museum)",
+      "url": "https://www.sierraleoneheritage.org/",
+      "type": "musee",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S77",
+      "titre": "Wikipedia : Poro",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Poro",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S78",
+      "titre": "Wikipedia : Ojeh Society",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Ojeh_Society",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S79",
+      "titre": "Wikipedia : Gumbe",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Gumbe",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S80",
+      "titre": "Sierra Leonean Heroes : Our Cultural Heritage (Ebenezer Calender)",
+      "institution": "Sierra Leone Web (www.sierra-leone.org)",
+      "url": "https://www.sierra-leone.org/Heroes/heroes10.html",
+      "type": "livre",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Sierra Leone Web, d'après l'ouvrage Sierra Leonean Heroes (C. M. Fyle, éd. consultant)"
+    },
+    {
+      "id": "S81",
+      "titre": "Wikipedia : Music of Sierra Leone",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Sierra_Leone",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S82",
+      "titre": "Wikipedia : Bubu music",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Bubu_music",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S83",
+      "titre": "Sierra Leone Heritage : Shuku Blai (SLNM.1957.09.38A)",
+      "institution": "Sierra Leone Heritage (UCL, Sussex, Sierra Leone National Museum)",
+      "url": "https://www.sierraleoneheritage.org/item/SLNM.1957.09.38A/shuku-blai",
+      "type": "musee",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S84",
+      "titre": "Shuku Blai (ressources sur la culture et le patrimoine)",
+      "institution": "Sierra Leone Heritage (UCL, Sussex, Sierra Leone National Museum)",
+      "url": "https://www.sierraleoneheritage.org/shukublai",
+      "type": "musee",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S85",
+      "titre": "Metropolitan Museum of Art, collection en ligne : Kpoikpoi, prestige hanging (2013.986)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/631436",
+      "type": "musee",
+      "licence": "CC0 (Open Access, si objet du domaine public)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S86",
+      "titre": "Metropolitan Museum of Art, collection en ligne : Interior Hanging (1971.30)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/309769",
+      "type": "musee",
+      "licence": "CC0 (Open Access, si objet du domaine public)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S87",
+      "titre": "Sierra Leone Heritage : Mende song (CVO:240)",
+      "institution": "Sierra Leone Heritage (UCL, Sussex, Sierra Leone National Museum)",
+      "url": "https://www.sierraleoneheritage.org/item/CVO%3A240/mende-song",
+      "type": "musee",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S88",
+      "titre": "Sierra Leone Heritage : Hordu or Fula Guitar (SLNM.1964.51.06)",
+      "institution": "Sierra Leone Heritage (UCL, Sussex, Sierra Leone National Museum)",
+      "url": "https://www.sierraleoneheritage.org/item/SLNM.1964.51.06/hordu-or-fula-guitar",
+      "type": "musee",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S89",
+      "titre": "Wikipedia : Cuisine of Sierra Leone",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Cuisine_of_Sierra_Leone",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S90",
+      "titre": "Kɔnɔ Tai Nu : Kono Proverbs",
+      "institution": "Sierra Leone Web",
+      "url": "https://www.sierra-leone.org/Proverbs-Kono.html",
+      "type": "livre",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Komba Ngekia (compilateur)"
+    },
+    {
+      "id": "S91",
+      "titre": "Sierra Leone Heritage : Nomoli (SLNM.1949.01.09)",
+      "institution": "Sierra Leone Heritage (UCL, Sussex, Sierra Leone National Museum)",
+      "url": "https://www.sierraleoneheritage.org/item/SLNM.1949.01.09/nomoli",
+      "type": "musee",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S92",
+      "titre": "Sierra Leone Heritage : Carved Twin Figure (SLNM.1956.08.05)",
+      "institution": "Sierra Leone Heritage (UCL, Sussex, Sierra Leone National Museum)",
+      "url": "https://www.sierraleoneheritage.org/item/SLNM.1956.08.05/carved-twin-figure",
+      "type": "musee",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S93",
+      "titre": "Sierra Leone Heritage : Bumpe War Bell (SLNM.1961.05.01)",
+      "institution": "Sierra Leone Heritage (UCL, Sussex, Sierra Leone National Museum)",
+      "url": "https://www.sierraleoneheritage.org/item/SLNM.1961.05.01/bumpe-war-bell",
+      "type": "musee",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S94",
+      "titre": "Metropolitan Museum of Art, collection en ligne : Lidded saltcellar (1991.435a, b)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/316442",
+      "type": "musee",
+      "licence": "CC0 (Open Access, si objet du domaine public)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S95",
+      "titre": "Metropolitan Museum of Art, collection en ligne : Spoon with figure (1979.206.116)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/312331",
+      "type": "musee",
+      "licence": "CC0 (Open Access, si objet du domaine public)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S96",
+      "titre": "Metropolitan Museum of Art, collection en ligne : Head (1978.412.375)",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/310813",
+      "type": "musee",
+      "licence": "CC0 (Open Access, si objet du domaine public)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S97",
+      "titre": "Cheney-Coker, Syl 1945–",
+      "institution": "Encyclopedia.com",
+      "url": "https://www.encyclopedia.com/education/news-wires-white-papers-and-books/cheney-coker-syl-1945",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S98",
+      "titre": "Horton, James Africanus B.",
+      "institution": "Dictionary of African Christian Biography",
+      "url": "https://dacb.org/stories/gambia/horton-jamesa/",
+      "type": "article_scientifique",
+      "licence": "CC BY-NC-ND (non vérifié)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S99",
+      "titre": "Wikipedia : Bai Bureh",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Bai_Bureh",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S100",
+      "titre": "Wikipedia : Madam Yoko",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Madam_Yoko",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S101",
+      "titre": "Wikipedia : Sengbe Pieh (Joseph Cinqué)",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Sengbe_Pieh",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S102",
+      "titre": "Sierra Leonean Heroes : 19th Century Freetown (Africanus Horton)",
+      "institution": "Sierra Leone Web (www.sierra-leone.org)",
+      "url": "https://www.sierra-leone.org/Heroes/heroes3.html",
+      "type": "livre",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Sierra Leone Web, d'après l'ouvrage Sierra Leonean Heroes (C. M. Fyle, éd. consultant)"
+    },
+    {
+      "id": "S103",
+      "titre": "Wikipedia : Africanus Horton",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Africanus_Horton",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S104",
+      "titre": "Sierra Leonean Heroes : Responses to Colonial Rule (Wallace-Johnson, Constance Cummings-John)",
+      "institution": "Sierra Leone Web (www.sierra-leone.org)",
+      "url": "https://www.sierra-leone.org/Heroes/heroes7.html",
+      "type": "livre",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Sierra Leone Web, d'après l'ouvrage Sierra Leonean Heroes (C. M. Fyle, éd. consultant)"
+    },
+    {
+      "id": "S105",
+      "titre": "Wikipedia : Constance Cummings-John",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Constance_Cummings-John",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S106",
+      "titre": "Sierra Leonean Heroes : Freetown in the Twenties (Adelaide Casely Hayford)",
+      "institution": "Sierra Leone Web (www.sierra-leone.org)",
+      "url": "https://www.sierra-leone.org/Heroes/heroes6.html",
+      "type": "livre",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Sierra Leone Web, d'après l'ouvrage Sierra Leonean Heroes (C. M. Fyle, éd. consultant)"
+    },
+    {
+      "id": "S107",
+      "titre": "Wikipedia : Adelaide Casely-Hayford",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Adelaide_Casely-Hayford",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S108",
+      "titre": "About Gladys May Casely Hayford",
+      "institution": "Academy of American Poets",
+      "url": "https://poets.org/poet/gladys-may-casely-hayford",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S109",
+      "titre": "Wikipedia : Gladys Casely-Hayford",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Gladys_Casely-Hayford",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S110",
+      "titre": "Sierra Leonean Heroes : Achievement of Independence (Milton Margai, Ella Koblo Gulama)",
+      "institution": "Sierra Leone Web (www.sierra-leone.org)",
+      "url": "https://www.sierra-leone.org/Heroes/heroes8.html",
+      "type": "livre",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Sierra Leone Web, d'après l'ouvrage Sierra Leonean Heroes (C. M. Fyle, éd. consultant)"
+    },
+    {
+      "id": "S111",
+      "titre": "Wikipedia : Milton Margai",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Milton_Margai",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S112",
+      "titre": "Sierra Leonean Heroes : The APC Era (Siaka Stevens)",
+      "institution": "Sierra Leone Web (www.sierra-leone.org)",
+      "url": "https://www.sierra-leone.org/Heroes/heroes9.html",
+      "type": "livre",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Sierra Leone Web, d'après l'ouvrage Sierra Leonean Heroes (C. M. Fyle, éd. consultant)"
+    },
+    {
+      "id": "S113",
+      "titre": "Wikipedia : Siaka Stevens",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Siaka_Stevens",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S114",
+      "titre": "Wikipedia : I. T. A. Wallace-Johnson",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/I._T._A._Wallace-Johnson",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S115",
+      "titre": "Wikipedia : Ebenezer Calendar",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Ebenezer_Calendar",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S116",
+      "titre": "Wikipedia : Ella Koblo Gulama",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Ella_Koblo_Gulama",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S117",
+      "titre": "Wikipedia : Syl Cheney-Coker",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Syl_Cheney-Coker",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S118",
+      "titre": "Davidson Nicol (Sierra Leone)",
+      "institution": "UNITAR",
+      "url": "https://unitar.org/about/unitar/executive-director/former/davidson-nicol",
+      "type": "institution",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S119",
+      "titre": "Wikipedia : Davidson Nicol",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Davidson_Nicol",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S120",
+      "titre": "Former Sierra Leone President Kabbah Dies",
+      "institution": "Voice of America",
+      "url": "https://www.voanews.com/a/former-sierra-leone-president-kabbah-dies/1870783.html",
+      "type": "presse",
+      "licence": "domaine public (œuvre du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21",
+      "annee": 2014
+    },
+    {
+      "id": "S121",
+      "titre": "Wikipedia : Ahmad Tejan Kabbah",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Ahmad_Tejan_Kabbah",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S122",
+      "titre": "Office of the Director-General",
+      "institution": "Office des Nations Unies à Nairobi",
+      "url": "https://unon.org/en/content/office-director-general",
+      "type": "institution",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S123",
+      "titre": "Wikipedia : Zainab Hawa Bangura",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Zainab_Hawa_Bangura",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S124",
+      "titre": "The Mayor",
+      "institution": "Freetown City Council",
+      "url": "https://fcc.gov.sl/mayor__/",
+      "type": "institution",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S125",
+      "titre": "Wikipedia : Yvonne Aki-Sawyerr",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Yvonne_Aki-Sawyerr",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S126",
+      "titre": "Sierra Leone Doctor Who Led The Fight Against Ebola Dies",
+      "institution": "NPR / Alabama Public Radio",
+      "url": "https://www.apr.org/2014-07-30/sierra-leone-doctor-who-led-the-fight-against-ebola-dies",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2014
+    },
+    {
+      "id": "S127",
+      "titre": "Wikipedia : Sheik Umar Khan",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Sheik_Umar_Khan",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S128",
+      "titre": "The Sierra Leone Conflict (documents)",
+      "institution": "Sierra Leone Web (www.sierra-leone.org)",
+      "url": "https://www.sierra-leone.org/history-conflict.html",
+      "type": "archive",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S129",
+      "titre": "About the RSCSL",
+      "institution": "Residual Special Court for Sierra Leone",
+      "url": "https://rscsl.org/the-rscsl/about/",
+      "type": "institution",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S130",
+      "titre": "Sierra Leone : patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/state/sierra-leone-SL",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S131",
+      "titre": "Proverbs in Krio",
+      "institution": "Sierra Leone Web",
+      "url": "https://www.sierra-leone.org/Krio-Proverbs.html",
+      "type": "livre",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Peter C. Andersen (compilateur)"
+    },
+    {
+      "id": "S132",
+      "titre": "Krio Proverbs, Anonymous Compilation",
+      "institution": "Sierra Leone Web",
+      "url": "https://www.sierra-leone.org/Proverbs-Anonymous.html",
+      "type": "livre",
+      "licence": "tous droits réservés (non précisé)",
+      "consulte_le": "2026-11-21",
+      "auteur": "compilation anonyme, Freetown, début des années 1980"
+    },
+    {
+      "id": "S133",
+      "titre": "Banque mondiale : Population, total (SP.POP.TOTL), Sierra Leone",
+      "institution": "Banque mondiale",
+      "url": "https://api.worldbank.org/v2/country/SL/indicator/SP.POP.TOTL?format=json&mrv=2",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S134",
+      "titre": "Banque mondiale : Superficie (AG.SRF.TOTL.K2), Sierra Leone",
+      "institution": "Banque mondiale",
+      "url": "https://api.worldbank.org/v2/country/SL/indicator/AG.SRF.TOTL.K2?format=json&mrv=2",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    }
+  ]
+}

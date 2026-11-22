@@ -1,0 +1,3483 @@
+{
+  "code": "ST",
+  "nom": "Sao Tomé-et-Principe",
+  "region": "centre",
+  "wikidata": "Q1039",
+  "maj": "2026-11-21",
+  "pays": {
+    "nom_officiel": "République démocratique de Sao Tomé-et-Principe (en portugais : República Democrática de São Tomé e Príncipe)",
+    "capitale": "São Tomé",
+    "langues_officielles": [
+      "portugais"
+    ],
+    "langues_nationales": [],
+    "population": {
+      "valeur": 235536,
+      "annee": 2024,
+      "source": "S1"
+    },
+    "superficie_km2": 1001,
+    "monnaie": "Dobra santoméen (STN)",
+    "resume": "Sao Tomé-et-Principe est un petit archipel volcanique du golfe de Guinée, formé de deux îles principales, São Tomé et Príncipe, et d'îlots, à l'équateur. Les îles étaient désertes quand les Portugais les atteignent dans les années 1470 : toute la société actuelle est née du peuplement colonial, de captifs venus de la côte africaine, de colons et de condamnés, puis de travailleurs engagés sous contrat. Cette histoire a produit une société créole et plusieurs langues créoles à base portugaise (forro, angolar, principense), à côté du portugais, langue officielle. Après le cycle du sucre, les roças de cacao et de café ont façonné les paysages et les rapports sociaux jusqu'à l'indépendance, proclamée le 12 juillet 1975 ; six d'entre elles sont inscrites au patrimoine mondial depuis 2026. Le tchiloli, théâtre populaire inspiré du cycle de Charlemagne, a été inscrit au patrimoine culturel immatériel de l'humanité en 2025.",
+    "sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7",
+      "S8"
+    ],
+    "note": "Statut des langues : le portugais est la seule langue officielle retenue ici. Wikipédia (fr) attribue le même statut officiel au forro et au principense (en citant Ethnologue), mais je n'ai pas pu consulter le texte constitutionnel ; Wikidata ne les liste que comme langues utilisées. La liste des langues nationales est donc laissée vide, à trancher par l'expert. Population : 235 536 en 2024 selon la Banque mondiale ; le recensement de 2012 comptait environ 187 000 habitants (Seibert 2015). Les sources divergent sur la date de la découverte des îles (années 1470-1474)."
+  },
+  "langues": [
+    {
+      "id": "ST-langue-portugais",
+      "nom": "Portugais",
+      "wikidata": "Q5146",
+      "description": "Le portugais est la langue officielle, celle de l'administration, de l'école et de la presse. Il arrive aux îles avec la colonisation, au XVe siècle, et sert aussi de base lexicale aux trois créoles locaux. Selon le recensement de 2012 relayé par Wikipédia, il est parlé par la quasi-totalité des habitants.",
+      "famille": "indo-européenne (romane)",
+      "glottocode": "port1283",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "tout le pays"
+      ],
+      "nom_local": "Português",
+      "locuteurs": {
+        "valeur": "98,4 % de la population (recensement 2012)",
+        "annee": 2012,
+        "source": "S9"
+      },
+      "sources": [
+        "S10",
+        "S9",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Pourcentage repris de Wikipédia (fr) qui cite l'INE ; je n'ai pas ouvert la source primaire."
+      }
+    },
+    {
+      "id": "ST-langue-forro",
+      "nom": "Forro (sãotomense)",
+      "wikidata": "Q36536",
+      "description": "Le forro, ou créole santoméen, est le créole à base portugaise le plus répandu de l'archipel, associé historiquement à la communauté des forros, descendants d'esclaves affranchis. Il s'est formé au contact du portugais et de langues africaines, notamment du Bénin, du Kongo et du Ndongo. Il est plus éloigné du portugais que le kabuverdianu et recule dans les familles instruites, où l'on a longtemps préféré parler portugais. Glottolog classe son état de vitalité comme « en transition » (shifting).",
+      "famille": "créole à base lexicale portugaise",
+      "glottocode": "saot1239",
+      "statut_linguistique": [
+        "véhiculaire",
+        "langue identitaire des forros"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "île de São Tomé"
+      ],
+      "nom_local": "Lung'Ie Sãotomé / Forro",
+      "locuteurs": {
+        "valeur": "36,2 % de la population (recensement 2012)",
+        "annee": 2012,
+        "source": "S9"
+      },
+      "sources": [
+        "S11",
+        "S4",
+        "S9"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Pourcentage repris de Wikipédia (fr) citant l'INE ; graphie et statut officiel à confirmer."
+      }
+    },
+    {
+      "id": "ST-langue-angolar",
+      "nom": "Angolar",
+      "wikidata": "Q34994",
+      "description": "L'angolar, ou « lunga ngola », est le créole des angolares, communauté du sud de São Tomé issue d'esclaves en fuite et longtemps isolée. Les documents du XVIIIe siècle les appellent « angolis » ou « angolas ». Glottolog le classe comme menacé.",
+      "famille": "créole à base lexicale portugaise",
+      "glottocode": "ango1258",
+      "statut_linguistique": [
+        "régionale",
+        "menacée"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "sud de l'île de São Tomé"
+      ],
+      "nom_local": "Lunga Ngola",
+      "locuteurs": {
+        "valeur": "6,6 % de la population (recensement 2012)",
+        "annee": 2012,
+        "source": "S9"
+      },
+      "sources": [
+        "S12",
+        "S4",
+        "S9"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Pourcentage de Wikipédia (fr) ; Seibert (2015) donne 6,6 % pour la population angolare, valeur identique."
+      }
+    },
+    {
+      "id": "ST-langue-principense",
+      "nom": "Principense (lung'ie)",
+      "wikidata": "Q36520",
+      "description": "Le principense, ou lung'ie (« langue de l'île »), est le créole de l'île de Príncipe. Très minoritaire, il est considéré par Glottolog comme presque éteint ; l'île compte surtout, aujourd'hui, des habitants d'origine cap-verdienne.",
+      "famille": "créole à base lexicale portugaise",
+      "glottocode": "prin1242",
+      "statut_linguistique": [
+        "régionale",
+        "menacée"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "île de Príncipe"
+      ],
+      "nom_local": "Lung'Ie",
+      "locuteurs": {
+        "valeur": "environ 1 % de la population (recensement 2012)",
+        "annee": 2012,
+        "source": "S9"
+      },
+      "sources": [
+        "S13",
+        "S4",
+        "S9"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Pourcentage de Wikipédia (fr) citant l'INE, source primaire non ouverte."
+      }
+    },
+    {
+      "id": "ST-langue-kabuverdianu",
+      "nom": "Créole cap-verdien (kabuverdianu)",
+      "wikidata": "Q35963",
+      "description": "Le kabuverdianu est arrivé avec les travailleurs engagés du Cap-Vert, recrutés à partir de 1903 pour les roças. Il est aujourd'hui surtout parlé par leurs descendants, dans les zones urbaines et sur Príncipe, où ils sont majoritaires.",
+      "famille": "créole à base lexicale portugaise",
+      "glottocode": "kabu1256",
+      "statut_linguistique": [
+        "minoritaire",
+        "langue de migration"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "Príncipe",
+        "villes de São Tomé"
+      ],
+      "locuteurs": {
+        "valeur": "8,5 % de la population (recensement 2012)",
+        "annee": 2012,
+        "source": "S9"
+      },
+      "sources": [
+        "S14",
+        "S4",
+        "S9"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le chiffre de 8,5 % est donné par Wikipédia (fr) pour la langue ; Seibert (2015) donne 8,5 % pour les descendants de contratados, majoritairement cap-verdiens."
+      }
+    },
+    {
+      "id": "ST-langue-fang",
+      "nom": "Fang",
+      "wikidata": "Q33484",
+      "description": "Le fang est une langue bantoue d'Afrique centrale, parlée à São Tomé par une communauté venue de la région continentale voisine. Elle n'a pas de statut officiel dans l'archipel.",
+      "famille": "bantoue",
+      "glottocode": "fang1246",
+      "statut_linguistique": [
+        "minoritaire",
+        "langue de migration"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "São Tomé"
+      ],
+      "sources": [
+        "S15",
+        "S9"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottolog n'a pas été utilisé pour le nombre de locuteurs ; l'ordre de grandeur (environ 13 000 immigrants) vient de Wikipédia (fr) et n'est pas daté."
+      }
+    },
+    {
+      "id": "ST-langue-francais",
+      "nom": "Français",
+      "wikidata": "Q150",
+      "description": "Le français est une langue étrangère présente surtout chez des immigrés d'Afrique centrale et dans l'enseignement ou la coopération. Il serait parlé par une minorité de la population d'après le recensement de 2012.",
+      "famille": "indo-européenne (romane)",
+      "glottocode": "stan1290",
+      "statut_linguistique": [
+        "langue étrangère"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "São Tomé"
+      ],
+      "locuteurs": {
+        "valeur": "6,8 % de la population (recensement 2012)",
+        "annee": 2012,
+        "source": "S9"
+      },
+      "sources": [
+        "S16",
+        "S9"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Pourcentage de Wikipédia (fr) citant l'INE ; source primaire non ouverte."
+      }
+    },
+    {
+      "id": "ST-langue-anglais",
+      "nom": "Anglais",
+      "wikidata": "Q1860",
+      "description": "L'anglais est pratiqué comme langue seconde par un petit nombre de personnes, surtout dans le tourisme et chez une partie des élites.",
+      "famille": "indo-européenne (germanique)",
+      "glottocode": "stan1293",
+      "statut_linguistique": [
+        "langue étrangère"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "regions": [
+        "São Tomé"
+      ],
+      "sources": [
+        "S17",
+        "S9"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikipédia (fr) avance environ 3 000 locuteurs, sans date ; non retenu comme chiffre."
+      }
+    },
+    {
+      "id": "ST-langue-lsstp",
+      "nom": "Langue des signes de São Tomé-et-Principe",
+      "wikidata": "Q105274701",
+      "description": "La langue des signes de São Tomé-et-Principe est répertoriée par Glottolog comme langue des signes de l'archipel. Les références citées par Glottolog sont des travaux de 2017 de chercheurs portugais.",
+      "famille": "langue des signes",
+      "glottocode": "saot1241",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "ecritures": [
+        "langue des signes"
+      ],
+      "regions": [
+        "pays entier"
+      ],
+      "sources": [
+        "S18"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Très peu d'informations ouvertes : statut et usage à documenter."
+      }
+    }
+  ],
+  "peuples": [
+    {
+      "id": "ST-peuple-forros",
+      "nom": "Forros (filhos da terra)",
+      "description": "Les forros sont les descendants d'esclaves affranchis, devenus peu à peu le groupe créole majoritaire de São Tomé. Au XIXe siècle, beaucoup ont perdu leurs terres au profit des planteurs portugais, et ils ont refusé le travail dans les roças, qu'ils associaient à l'esclavage. Leur identité s'exprime dans la langue forro, les fêtes de saints, les confréries catholiques et les petites parcelles familiales appelées glebas.",
+      "langues": [
+        "forro",
+        "portugais"
+      ],
+      "regions": [
+        "île de São Tomé"
+      ],
+      "pays_partages": [],
+      "organisation": "Société stratifiée, organisée autour de familles élargies, de confréries catholiques et d'associations ; la maison en bois sur pilotis et la gleba sont des marqueurs d'appartenance.",
+      "activites": [
+        "petites exploitations (glebas)",
+        "administration",
+        "enseignement",
+        "politique"
+      ],
+      "wikidata": "Q3077693",
+      "sources": [
+        "S4",
+        "S19",
+        "S20"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-peuple-angolares",
+      "nom": "Angolares",
+      "description": "Les angolares forment une communauté du sud de São Tomé, vivant surtout de la pêche et parlant l'angolar. Leur origine est discutée : naufragés, descendants d'esclaves en fuite ou peuplement antérieur selon les hypothèses, la thèse des marrons étant retenue par Seibert. Leur territoire a été occupé par l'administration coloniale en 1878.",
+      "langues": [
+        "angolar",
+        "portugais"
+      ],
+      "regions": [
+        "sud de l'île de São Tomé",
+        "São João dos Angolares"
+      ],
+      "pays_partages": [],
+      "organisation": "Communauté côtière organisée autour de villages de pêcheurs ; les femmes assurent la transformation et la vente du poisson d'après Wikipédia.",
+      "activites": [
+        "pêche en pirogue (dongo)",
+        "vente de poisson"
+      ],
+      "wikidata": "Q2849715",
+      "sources": [
+        "S4",
+        "S21",
+        "S22",
+        "S23"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Trois hypothèses concurrentes sur l'origine (naufrage, marronnage, peuplement antérieur) : présenter comme débat, sans trancher."
+      }
+    },
+    {
+      "id": "ST-peuple-metis",
+      "nom": "Métis (mestiços)",
+      "description": "La catégorie des mestiços naît dès le XVIe siècle des unions entre colons et femmes africaines, que la Couronne encourageait. Elle disparaît presque pendant l'interrègne du XVIIe siècle, absorbée par les forros, puis réapparaît avec les nouvelles arrivées de Portugais au XIXe et au XXe siècle. Après l'indépendance, plusieurs d'entre eux accèdent aux plus hautes fonctions de l'État.",
+      "langues": [
+        "portugais",
+        "forro"
+      ],
+      "regions": [
+        "São Tomé",
+        "Príncipe"
+      ],
+      "pays_partages": [],
+      "organisation": "Catégorie sociale issue de l'histoire coloniale, plutôt que groupe organisé ; les limites avec les forros sont mouvantes.",
+      "activites": [
+        "administration",
+        "plantation",
+        "commerce"
+      ],
+      "sources": [
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Terme de catégorie coloniale ; à formuler avec des représentants de la société santoméenne."
+      }
+    },
+    {
+      "id": "ST-peuple-principenses",
+      "nom": "Principenses (créoles de Príncipe)",
+      "description": "Les principenses sont les habitants créolophones de l'île de Príncipe, dont la langue, le lung'ie, est aujourd'hui presque éteinte. L'île a été peuplée dès les années 1500 et a même été capitale de l'archipel de 1753 à 1852. Les travailleurs d'origine cap-verdienne y forment aujourd'hui la majorité des quelque 7 500 habitants (2012).",
+      "langues": [
+        "principense",
+        "kabuverdianu",
+        "portugais"
+      ],
+      "regions": [
+        "île de Príncipe"
+      ],
+      "pays_partages": [],
+      "organisation": "L'île bénéficie d'un gouvernement et d'une assemblée régionale autonomes d'après la Constitution (Jeune Afrique, 2016).",
+      "activites": [
+        "agriculture",
+        "pêche",
+        "écotourisme"
+      ],
+      "sources": [
+        "S4",
+        "S24",
+        "S13"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-peuple-servicais",
+      "nom": "Descendants des contratados d'Angola et du Mozambique (serviçais, tongas)",
+      "description": "Après l'abolition de l'esclavage, des dizaines de milliers de travailleurs engagés, les serviçais, sont venus d'Angola, du Mozambique et du Cap-Vert travailler dans les roças. Leurs enfants nés dans l'archipel étaient appelés tongas. Ils vivaient séparés des forros, et leur culture a apporté des pratiques comme la danse puíta ; après l'indépendance, leurs descendants se sont installés en ville et ont accédé à la propriété foncière dans les années 1990.",
+      "langues": [
+        "portugais",
+        "forro",
+        "kimbundu (origine)"
+      ],
+      "regions": [
+        "roças",
+        "périphérie de São Tomé"
+      ],
+      "pays_partages": [],
+      "organisation": "Vie communautaire structurée autour de la roça (senzalas, hôpital, école) jusqu'aux réformes foncières des années 1990.",
+      "activites": [
+        "travail agricole",
+        "culture du cacao et du café"
+      ],
+      "sources": [
+        "S4",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Sujet sensible : histoire du travail forcé et contraint ; formulation à valider avec des historiens et acteurs santoméens."
+      }
+    },
+    {
+      "id": "ST-peuple-capverdiens",
+      "nom": "Descendants de travailleurs cap-verdiens",
+      "description": "Les travailleurs cap-verdiens ont été recrutés pour les roças à partir de 1903, souvent en couple et parfois avec leurs enfants, fuyant les sécheresses et les famines de leur archipel. Catholiques et en général plus scolarisés que les autres engagés, ils ont conservé le kabuverdianu. En 2012, les descendants de contratados, en majorité cap-verdiens, représentaient 8,5 % de la population.",
+      "langues": [
+        "kabuverdianu",
+        "portugais"
+      ],
+      "regions": [
+        "Príncipe",
+        "villes de São Tomé"
+      ],
+      "pays_partages": [
+        "CV"
+      ],
+      "organisation": "Communauté issue d'une migration de travail, présente dans les deux îles.",
+      "activites": [
+        "agriculture",
+        "emplois urbains"
+      ],
+      "sources": [
+        "S4",
+        "S14"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "id": "ST-site-rocas",
+      "nom": "Les roças de Sao Tomé-et-Principe : système colonial agricole et migration forcée",
+      "type": "patrimoine_mondial",
+      "description": "Ce bien en série réunit six roças, anciennes plantations coloniales portugaises de café et de cacao : Monte Café, Água Izé, Diogo Vaz, São João, Sundy et Belo Monte. Chacune associait terres cultivées, installations industrielles, logements et équipements sociaux dans un plan très ordonné. Le dossier de l'UNESCO les présente comme l'illustration d'un système agro-industriel fondé sur la migration et le travail forcés, de la fin du XIXe siècle au milieu du XXe.",
+      "regions": [
+        "São Tomé",
+        "Príncipe"
+      ],
+      "wikidata": "Q140698922",
+      "periode": "fin XIXe - milieu XXe siècle",
+      "coordonnees": {
+        "lat": 0.140222222,
+        "lng": 6.646222222
+      },
+      "unesco_id": "1750",
+      "inscription": 2026,
+      "sources": [
+        "S5",
+        "S25",
+        "S4",
+        "S24"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Lieu de mémoire du travail forcé et de la traite ; les formulations doivent être validées avec des institutions patrimoniales et des historiens santoméens.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Inscription en 2026 (session de Busan, fin juillet d'après Africanews). Coordonnées de la graine Wikidata."
+      }
+    },
+    {
+      "id": "ST-site-iles-volcaniques",
+      "nom": "Îles volcaniques de Sao Tomé et Principe (liste indicative)",
+      "type": "liste_indicative",
+      "description": "Le dossier déposé par le pays en 2023 propose d'inscrire les deux îles pour leur nature : forêts tropicales, falaises, tortues marines et une concentration exceptionnelle d'oiseaux endémiques. Les îles sont issues de l'activité de la ligne volcanique du Cameroun, commencée il y a environ 30 millions d'années ; le dossier estime l'âge de Príncipe à 31 millions d'années et celui de São Tomé à 15 millions. Il cite aussi le pic de São Tomé, qui culmine à 2 024 m.",
+      "regions": [
+        "São Tomé",
+        "Príncipe"
+      ],
+      "coordonnees": {
+        "lat": 0.3353,
+        "lng": 6.7308
+      },
+      "sources": [
+        "S3",
+        "S26"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées lues sur la page (N0 20 7, E6 43 51) et converties en degrés décimaux ; l'année « 2023 » est la date de soumission, pas une inscription."
+      }
+    },
+    {
+      "id": "ST-site-obo",
+      "nom": "Parcs naturels Obô de São Tomé et de Príncipe",
+      "type": "site_naturel",
+      "description": "L'obô désigne les forêts anciennes de l'archipel. En 2006, deux parcs naturels y ont été créés, couvrant 19 500 hectares à São Tomé et 8 500 à Príncipe, soit environ un tiers du territoire. Les forêts d'altitude abritent de nombreuses plantes endémiques ; l'obô a longtemps été associé aux angolares et reste en marge de la vie économique.",
+      "regions": [
+        "sud-ouest de São Tomé",
+        "Príncipe"
+      ],
+      "wikidata": "Q2943640",
+      "periode": "créés en 2006",
+      "coordonnees": {
+        "lat": 0.15,
+        "lng": 6.566667
+      },
+      "sources": [
+        "S3",
+        "S22"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-site-fort-musee",
+      "nom": "Fort São Sebastião et Musée national",
+      "type": "musee",
+      "description": "Le musée national occupe le fort São Sebastião, construit en 1575 puis transformé en musée le 22 mai 1975, quelques semaines avant l'indépendance. Ses salles évoquent les origines africaines et portugaises du pays, la vie des colons et des esclaves, l'art sacré catholique et le massacre de 1953. Une exposition permanente est consacrée aux tortues marines.",
+      "regions": [
+        "São Tomé"
+      ],
+      "wikidata": "Q2110836",
+      "periode": "fort de 1575, musée depuis 1975",
+      "coordonnees": {
+        "lat": 0.34583,
+        "lng": 6.73944
+      },
+      "sources": [
+        "S27",
+        "S28",
+        "S29"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées Wikidata ; description issue de Wikipédia (fr), à compléter par une source du musée."
+      }
+    },
+    {
+      "id": "ST-site-sao-tome-ville",
+      "nom": "Ville de São Tomé",
+      "type": "ville_historique",
+      "description": "Capitale du pays, São Tomé est devenue ville en 1535 et siège d'un évêché dès 1534. Elle a connu des périodes de déclin : la capitale a été transférée à Príncipe en 1753, puis est revenue à São Tomé en 1852. La cathédrale Notre-Dame-de-Grâce y rappelle l'ancienneté du catholicisme dans l'archipel.",
+      "regions": [
+        "São Tomé"
+      ],
+      "wikidata": "Q3932",
+      "periode": "XVIe siècle à nos jours",
+      "coordonnees": {
+        "lat": 0.3375,
+        "lng": 6.728333
+      },
+      "sources": [
+        "S4",
+        "S30",
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-site-baie-ana-chaves",
+      "nom": "Baie d'Ana Chaves",
+      "type": "site_archeologique",
+      "description": "C'est dans cette baie du nord-est de São Tomé que le donataire Álvaro de Caminha a fondé en 1493 le premier peuplement durable de l'île. Le groupe de colons comprenait des volontaires, des condamnés à l'exil et des enfants juifs arrachés à leurs familles. Le lieu marque le début de la colonisation effective de l'archipel.",
+      "regions": [
+        "São Tomé"
+      ],
+      "wikidata": "Q4750333",
+      "periode": "1493",
+      "coordonnees": {
+        "lat": 0.35,
+        "lng": 6.733333
+      },
+      "sources": [
+        "S4",
+        "S32"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Histoire de la traite, du bannissement et de l'enfance séparée des familles : à présenter avec prudence.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le texte de Seibert situe le premier peuplement « no nordeste da ilha, na atual Baía Ana Chaves ». Les coordonnées viennent de Wikidata."
+      }
+    },
+    {
+      "id": "ST-site-santo-antonio",
+      "nom": "Santo António (Príncipe)",
+      "type": "ville_historique",
+      "description": "Santo António est la principale ville de l'île de Príncipe. Élevée au rang de cité en 1753, elle devient alors capitale de l'archipel, parce que la petite île était jugée moins insalubre et mieux placée pour la traite régionale. La capitale est revenue à São Tomé en 1852.",
+      "regions": [
+        "Príncipe"
+      ],
+      "wikidata": "Q973656",
+      "periode": "1753-1852 (capitale)",
+      "coordonnees": {
+        "lat": 1.636667,
+        "lng": 7.417778
+      },
+      "sources": [
+        "S4",
+        "S33"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-site-batepa",
+      "nom": "Batepá et mémoire du massacre de 1953",
+      "type": "lieu_de_memoire",
+      "description": "Batepá est un village proche de Trindade, nom devenu celui du massacre de février 1953, quand des centaines de santoméens, surtout des forros, ont été tués sur ordre du gouverneur. Le pays commémore ces événements chaque 3 février, sous le nom de « Martires da Liberdade » ; un monument a été érigé en 2015 à Fernão Dias. Le musée national conserve photos et documents.",
+      "regions": [
+        "Trindade"
+      ],
+      "wikidata": "Q1851212",
+      "periode": "février 1953",
+      "coordonnees": {
+        "lat": 0.300556,
+        "lng": 6.660278
+      },
+      "sources": [
+        "S34",
+        "S4",
+        "S28",
+        "S35"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Violence coloniale et mémoire nationale : à valider avec des historiens santoméens.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le nombre de victimes n'est pas fixé dans les sources ouvertes (« centaines ») ; je n'ai pas pu ouvrir le texte intégral de Seibert (1997)."
+      }
+    },
+    {
+      "id": "ST-site-sao-joao-angolares",
+      "nom": "Roça São João dos Angolares",
+      "type": "monument",
+      "description": "Cette ancienne roça du sud de São Tomé a été transformée par son propriétaire, le chef cuisinier João Carlos Silva, en hôtel-restaurant et en lieu culturel. Il affirme vouloir en faire une « plantation culturelle » ; en 2016, il annonçait l'ouverture d'une école de gastronomie pour une quinzaine de jeunes angolares.",
+      "regions": [
+        "sud de São Tomé",
+        "São João dos Angolares"
+      ],
+      "wikidata": "Q2209215",
+      "coordonnees": {
+        "lat": 0.133819,
+        "lng": 6.648333
+      },
+      "sources": [
+        "S36",
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Ne pas confondre avec la roça São João inscrite au patrimoine mondial, qui est une autre composante du bien en série. Selon Wikidata, São João dos Angolares est un village ; la page de Jeune Afrique parle de la « Roça São João dos Angolares »."
+      }
+    },
+    {
+      "id": "ST-site-pico-cao-grande",
+      "nom": "Pico Cão Grande",
+      "type": "site_naturel",
+      "description": "Le Pico Cão Grande est une cheminée phonolitique de 663 m qui se dresse dans le sud de São Tomé, vestige de l'érosion qui a enlevé une épaisse couche de basalte autour d'elle. Il est l'un des repères paysagers de la région de l'obô.",
+      "regions": [
+        "Caué",
+        "sud de São Tomé"
+      ],
+      "wikidata": "Q2082148",
+      "coordonnees": {
+        "lat": 0.118056,
+        "lng": 6.566389
+      },
+      "sources": [
+        "S38",
+        "S39"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Hauteur de 663 m d'après Gourou (1963) ; écrit « Câo Grande »."
+      }
+    },
+    {
+      "id": "ST-site-pico-sao-tome",
+      "nom": "Pico de São Tomé",
+      "type": "site_naturel",
+      "description": "Point culminant de l'île, le pico de São Tomé s'élève à 2 024 m dans le sud-ouest, la partie la plus haute et la plus accidentée de l'île. Cette zone très arrosée est couverte de forêt de nuages, riche en espèces de plantes endémiques.",
+      "regions": [
+        "sud-ouest de São Tomé"
+      ],
+      "wikidata": "Q1471391",
+      "coordonnees": {
+        "lat": 0.266667,
+        "lng": 6.533333
+      },
+      "sources": [
+        "S3",
+        "S38",
+        "S40"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-site-rolas",
+      "nom": "Îlot das Rolas",
+      "type": "site_naturel",
+      "description": "Au sud de São Tomé, l'îlot das Rolas est traversé par l'équateur, ce qui vaut à l'archipel son surnom d'« îles du milieu du monde ». Il fait partie des îlots associés à São Tomé dans le dossier de liste indicative.",
+      "regions": [
+        "sud de São Tomé"
+      ],
+      "wikidata": "Q1535148",
+      "coordonnees": {
+        "lat": -0.003778,
+        "lng": 6.522389
+      },
+      "sources": [
+        "S3",
+        "S41"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-site-reserve-principe",
+      "nom": "Réserve de biosphère de Príncipe",
+      "type": "site_naturel",
+      "description": "L'île de Príncipe et ses îlots ont été inscrits en juillet 2012 sur la liste des réserves de biosphère de l'UNESCO. Cette désignation reconnaît la diversité de ses écosystèmes terrestres et marins et son rôle de modèle d'écotourisme.",
+      "regions": [
+        "Príncipe"
+      ],
+      "wikidata": "Q22678696",
+      "periode": "depuis 2012",
+      "coordonnees": {
+        "lat": 1.583333,
+        "lng": 7.383333
+      },
+      "sources": [
+        "S24",
+        "S42"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date et statut de Jeune Afrique (2016), non vérifiés auprès du programme MAB de l'UNESCO."
+      }
+    }
+  ],
+  "traditions": [
+    {
+      "id": "ST-tradition-tchiloli",
+      "nom": "Tchiloli, théâtre vivant de Sao Tomé-et-Principe dans la quête de justice",
+      "categorie": "oralite",
+      "description": "Le tchiloli est un théâtre de plein air joué lors de fêtes ou d'événements publics, avec une trentaine d'acteurs, des musiciens et un public qui réagit. Il commence par un rituel conduit par des femmes. L'intrigue met en scène le procès d'un fils d'empereur accusé d'un meurtre, jugé et condamné malgré son rang, ce qui exprime l'égalité devant la loi. Les troupes transmettent costumes, rôles et chants dans les familles et à l'école.",
+      "communautes": [
+        "troupes locales (tragédies) de São Tomé",
+        "costumiers, musiciens, mécènes et bénévoles"
+      ],
+      "regions": [
+        "île de São Tomé"
+      ],
+      "langues": [
+        "portugais"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "02309",
+        "annee": 2025,
+        "url": "https://ich.unesco.org/en/RL/tchiloli-living-theatre-of-sao-tome-and-principe-in-the-quest-of-justice-02309"
+      },
+      "transmission": "vivante",
+      "nom_local": "Tchiloli (txiloli)",
+      "wikidata": "Q67206698",
+      "periode": "depuis le XVIe siècle d'après Wikipédia",
+      "sources": [
+        "S6",
+        "S43",
+        "S44",
+        "S45"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikipédia (fr) écrit que les troupes ne comptent que des hommes ; la fiche UNESCO mentionne un rituel d'ouverture conduit par des femmes et des intervenants variés. Point à clarifier avec les praticiens. Origine textuelle attribuée à Baltasar Dias selon Wikipédia, à confirmer."
+      }
+    },
+    {
+      "id": "ST-tradition-auto-floripes",
+      "nom": "Auto de Floripes",
+      "categorie": "oralite",
+      "description": "L'Auto de Floripes est un théâtre populaire propre à l'île de Príncipe, comme le tchiloli l'est à São Tomé. Les deux formes s'inspirent du cycle de Charlemagne, relu à travers l'histoire coloniale locale. L'événement a lieu à la mi-août d'après Wikidata.",
+      "communautes": [
+        "habitants de Príncipe"
+      ],
+      "regions": [
+        "Príncipe"
+      ],
+      "langues": [
+        "portugais"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "nom_local": "Auto da Floripes",
+      "wikidata": "Q60242395",
+      "sources": [
+        "S45",
+        "S44",
+        "S46"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de la fête (mi-août) tirée de la description Wikidata ; peu de sources ouvertes consultées."
+      }
+    },
+    {
+      "id": "ST-tradition-danco-congo",
+      "nom": "Danço Congo (danse du Capitaine Congo)",
+      "categorie": "danse",
+      "description": "Le danço congo est l'une des danses et formes musicales les plus populaires de l'archipel. Son rythme et sa chorégraphie sont rattachés à un héritage bantou, que Wikipédia relie aux angolares. La musique, la danse et le théâtre s'y mêlent.",
+      "communautes": [
+        "angolares",
+        "troupes locales"
+      ],
+      "regions": [
+        "île de São Tomé"
+      ],
+      "langues": [
+        "forro",
+        "portugais"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "nom_local": "Danço Congo",
+      "wikidata": "Q16546187",
+      "sources": [
+        "S47",
+        "S48",
+        "S49"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Rattachement aux angolares et origine bantoue : seul Wikipédia (fr), qui renvoie à une étude de 1992 non ouverte, est cité."
+      }
+    },
+    {
+      "id": "ST-tradition-puita-bulaue",
+      "nom": "Puíta et bulauê",
+      "categorie": "danse",
+      "description": "La puíta est une danse introduite à São Tomé par les travailleurs angolais des roças. De sa rencontre avec les styles musicaux des forros est née, selon Seibert, la danse bulauê, devenue la plus populaire des îles. Ce passage de la roça à la scène urbaine illustre le rapprochement progressif des groupes après l'indépendance.",
+      "communautes": [
+        "descendants des contratados",
+        "forros"
+      ],
+      "regions": [
+        "roças",
+        "São Tomé"
+      ],
+      "langues": [
+        "portugais",
+        "forro"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "nom_local": "Puíta / Bulauê",
+      "sources": [
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-tradition-djambi",
+      "nom": "Djambi, culte de possession",
+      "categorie": "rite",
+      "description": "Le djambi est un culte de possession introduit à São Tomé par des travailleurs angolais engagés dans les roças. Seibert le cite parmi les pratiques africaines qui ont retrouvé vie dans l'archipel avec l'immigration des serviçais.",
+      "communautes": [
+        "descendants des contratados angolais"
+      ],
+      "regions": [
+        "roças de São Tomé"
+      ],
+      "langues": [],
+      "unesco": null,
+      "transmission": "fragile",
+      "nom_local": "Djambí",
+      "sources": [
+        "S4"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Pratique rituelle : n'écrire que ce que les communautés concernées acceptent de rendre public ; validation communautaire nécessaire.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "L'état actuel de la pratique n'est pas documenté dans les sources ouvertes consultées."
+      }
+    },
+    {
+      "id": "ST-tradition-rites-forros",
+      "nom": "Rites de vie des forros : pagá-dêvê, flêcê, nozado, bócadu",
+      "categorie": "rite",
+      "description": "Seibert cite quatre éléments de la culture des forros : le rituel de guérison pagá-dêvê, la présentation à l'église du nouveau-né par sa mère (flêcê), la veillée de sept jours en mémoire d'un défunt (nozado) et la réunion de famille du mercredi des Cendres (bócadu). Les confréries catholiques et les fêtes des saints jouent aussi un rôle central dans la vie des forros.",
+      "communautes": [
+        "forros"
+      ],
+      "regions": [
+        "île de São Tomé"
+      ],
+      "langues": [
+        "forro",
+        "portugais"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "nom_local": "Pagá-dêvê, flêcê, nozado, bócadu",
+      "sources": [
+        "S4"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Rites familiaux, funéraires et de guérison : validation par des détenteurs de ces pratiques avant publication.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Seibert décrit ces pratiques dans le contexte colonial ; leur forme actuelle n'est pas documentée ici."
+      }
+    },
+    {
+      "id": "ST-tradition-musique-populaire",
+      "nom": "Musiques populaires : ússua, socopé, dêxa et puxa",
+      "categorie": "musique",
+      "description": "À São Tomé, l'ússua et le socopé sont des rythmes connus ; sur Príncipe, le dêxa. Les danses de salon portugaises ont pu contribuer à leur formation, d'après Wikipedia (en). Plus récemment, le groupe Mindelo a marié des rythmes santoméens à la rebita angolaise pour créer le puxa, tandis que des artistes s'exportent depuis Lisbonne.",
+      "communautes": [
+        "musiciens de São Tomé et de Príncipe"
+      ],
+      "regions": [
+        "São Tomé",
+        "Príncipe"
+      ],
+      "langues": [
+        "portugais",
+        "forro"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "nom_local": "Ússua, socopé, dêxa, puxa",
+      "sources": [
+        "S48",
+        "S50"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Sources secondaires uniquement (Wikipédia) ; chronologie des groupes (Leoninos, Os Úntués…) non détaillée ici."
+      }
+    },
+    {
+      "id": "ST-tradition-peche-dongo",
+      "nom": "Pêche en pirogue monoxyle (dongo)",
+      "categorie": "savoir",
+      "description": "Les angolares pêchent depuis des dongos, pirogues creusées dans un tronc, traditionnellement à rames avec de petites voiles carrées. Les hommes sortent en mer, tandis que les femmes transforment et vendent le poisson et élèvent des chèvres, d'après Wikipédia. La pêche reste au centre de leur vie économique, selon Seibert.",
+      "communautes": [
+        "angolares"
+      ],
+      "regions": [
+        "littoral sud de São Tomé"
+      ],
+      "langues": [
+        "angolar"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "nom_local": "Dongo",
+      "sources": [
+        "S21",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Détails techniques (essences, voiles) seulement dans Wikipédia ; à compléter par une source ethnographique."
+      }
+    },
+    {
+      "id": "ST-tradition-cuisine",
+      "nom": "Cuisine santoméenne",
+      "categorie": "cuisine",
+      "description": "La cuisine mêle héritage portugais, produits africains et ingrédients venus des Amériques : banane, fruit à pain, maïs, haricots, poisson et fruits de mer, huile de palme, piment. Le calulu, mijoté de poisson ou de volaille avec légumes, huile de palme et épices, est l'un des plats les plus cités, avec le poisson volant. Le chef João Carlos Silva fait connaître cette cuisine avec des émissions télévisées et sa roça-restaurant.",
+      "communautes": [
+        "familles de tout le pays"
+      ],
+      "regions": [
+        "tout le pays"
+      ],
+      "langues": [
+        "portugais",
+        "forro"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "nom_local": "Cozinha são-tomense",
+      "sources": [
+        "S51",
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Liste de plats issue de Wikipédia (sources en anglais) ; recettes à documenter avec des cuisiniers locaux."
+      }
+    },
+    {
+      "id": "ST-tradition-gleba-maison",
+      "nom": "Gleba et maison en bois sur pilotis des forros",
+      "categorie": "architecture",
+      "description": "La gleba est la petite parcelle familiale des forros, avec une haie vive, des arbres plantés semi-spontanés et, au cœur, la maison de bois sur pilotis. Elle est un marqueur d'appartenance à la communauté, même si son poids économique est faible : au XXe siècle, les glebas n'occupaient que 5 % du territoire, contre le reste aux roças.",
+      "communautes": [
+        "forros"
+      ],
+      "regions": [
+        "île de São Tomé"
+      ],
+      "langues": [
+        "forro"
+      ],
+      "unesco": null,
+      "transmission": "fragile",
+      "nom_local": "Gleba",
+      "sources": [
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-tradition-costume-femmes",
+      "nom": "Costume des femmes forros : jupe, quimono et châle",
+      "categorie": "textile",
+      "description": "Chez les forros, le vêtement féminin fait de jupe, de quimono et de châle faisait partie des signes qui marquaient l'appartenance au groupe, avec le nom de famille, le catholicisme, la langue et les associations culturelles. Seibert le mentionne parmi les repères d'identité à l'époque coloniale.",
+      "communautes": [
+        "femmes forros"
+      ],
+      "regions": [
+        "île de São Tomé"
+      ],
+      "langues": [
+        "forro"
+      ],
+      "unesco": null,
+      "transmission": "fragile",
+      "nom_local": "Saia, quimono e xaile",
+      "sources": [
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Pratique actuelle non documentée ; décrit au passé colonial par Seibert (2015)."
+      }
+    },
+    {
+      "id": "ST-tradition-fetes-confreries",
+      "nom": "Fêtes de saints et confréries catholiques",
+      "categorie": "fete",
+      "description": "Les forros ont dominé les confréries et les fêtes catholiques des localités, qui sont des temps forts de la vie communautaire. La première, la Irmandade de Nossa Senhora dos Homens Pretos, a été fondée dès 1526 et a obtenu plus tard le droit d'affranchir ses membres esclaves.",
+      "communautes": [
+        "forros",
+        "confréries catholiques"
+      ],
+      "regions": [
+        "São Tomé"
+      ],
+      "langues": [
+        "portugais",
+        "forro"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "nom_local": "Irmandades e festas",
+      "sources": [
+        "S4",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-tradition-martires-liberte",
+      "nom": "Journée des martyrs de la liberté (3 février)",
+      "categorie": "fete",
+      "description": "Chaque 3 février, le pays commémore les victimes du massacre de 1953. La première commémoration date du 3 février 1975, quelques mois avant l'indépendance. Une avenue de Santo António, à Príncipe, porte aussi le nom de « Mártires da Liberdade ».",
+      "communautes": [
+        "ensemble du pays"
+      ],
+      "regions": [
+        "tout le pays"
+      ],
+      "langues": [
+        "portugais"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "nom_local": "Mártires da Liberdade",
+      "periode": "depuis 1975",
+      "sources": [
+        "S28",
+        "S34"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Mémoire d'un massacre colonial : présentation prudente, validation locale.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La date et l'appellation viennent de Wikipédia (fr), qui cite la Revue française d'études politiques africaines ; à confirmer par une source officielle."
+      }
+    },
+    {
+      "id": "ST-tradition-oraliture-creole",
+      "nom": "Contes, chants, proverbes et devinettes en créole",
+      "categorie": "oralite",
+      "description": "Les langues créoles (forro, angolar, principense) portent des contes, des chansons, des proverbes, des dictons et des devinettes, d'après la synthèse de Wikipédia. L'angolar compte aussi des fables, dont l'une, intitulée « Egoísmo castigado », a été publiée par A. de Almeida et M. C. de Castro dans la revue Garcia de Orta selon les notes de Wikipédia.",
+      "communautes": [
+        "forros",
+        "angolares",
+        "principenses"
+      ],
+      "regions": [
+        "São Tomé",
+        "Príncipe"
+      ],
+      "langues": [
+        "forro",
+        "angolar",
+        "principense"
+      ],
+      "unesco": null,
+      "transmission": "fragile",
+      "nom_local": "Contos, cantigas, provérbios",
+      "sources": [
+        "S45",
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Aucun texte de proverbe n'a pu être lu dans une publication ouverte : voir la collection proverbes (vide)."
+      }
+    },
+    {
+      "id": "ST-tradition-cacao-cafe",
+      "nom": "Savoir-faire du cacao et du café des roças",
+      "categorie": "savoir",
+      "description": "Café et cacao, introduits du Brésil à la fin du XVIIIe et au début du XIXe siècle, restent au cœur de l'économie : le cacao représente environ 90 % des exportations agricoles. Aujourd'hui, certaines roças fonctionnent comme coopératives de producteurs et ont obtenu des certifications biologiques, selon Jeune Afrique (2016). Le savoir-faire est porté par les descendants des travailleurs des plantations.",
+      "communautes": [
+        "producteurs des roças",
+        "coopératives"
+      ],
+      "regions": [
+        "São Tomé",
+        "Príncipe"
+      ],
+      "langues": [
+        "portugais",
+        "forro"
+      ],
+      "unesco": null,
+      "transmission": "revitalisée",
+      "nom_local": "Cacau e café",
+      "sources": [
+        "S4",
+        "S24"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le « 90 % » renvoie à Seibert (2015, sans date récente) ; vérifier avec des données actuelles."
+      }
+    }
+  ],
+  "personnalites": [
+    {
+      "id": "ST-personnalite-ana-de-chaves",
+      "nom": "Ana de Chaves",
+      "description": "Ana de Chaves figure, avec Catarina Alves et Simoa Godinho, parmi les propriétaires métisses, dont des femmes, qui possédaient des plantations de canne à sucre à São Tomé dès le début du XVIe siècle. Sa présence montre que des femmes de la société créole naissante détenaient terres et esclaves, dans un système fondé sur la contrainte.",
+      "roles": [
+        "propriétaire de plantation sucrière"
+      ],
+      "domaines": [
+        "économie"
+      ],
+      "epoque": "XVIe siècle",
+      "sources": [
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Peu d'informations : seule la mention de Seibert (2015) a été lue, sans dates. Le lien éventuel avec la baie d'Ana Chaves n'est pas établi ici."
+      }
+    },
+    {
+      "id": "ST-personnalite-amador",
+      "nom": "Amador",
+      "description": "Amador est le chef de la grande révolte d'esclaves de 1595 à São Tomé, qui mobilise environ 5 000 personnes et détruit plus de la moitié des quelque 120 moulins à sucre de l'île. La révolte est ensuite vaincue. Il est devenu une figure de la mémoire de la résistance santoméenne ; une statue le représente à São Tomé d'après Wikipedia (en).",
+      "wikidata": "Q6104546",
+      "roles": [
+        "chef de révolte"
+      ],
+      "domaines": [
+        "résistance"
+      ],
+      "epoque": "XVIe siècle",
+      "sources": [
+        "S4",
+        "S52",
+        "S53"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikidata donne des dates approximatives (1550-1596) non vérifiées ; je ne les reprends pas. Seibert parle de trois semaines de révolte, Wikipedia (en) de 9 juillet au 14 août 1595."
+      }
+    },
+    {
+      "id": "ST-personnalite-manuel-rosario-pinto",
+      "nom": "Manuel do Rosário Pinto",
+      "description": "Né en 1669 et mort vers 1738, il est chanoine et appartient à la catégorie des forros. Il est l'auteur du manuscrit « Relação do descobrimento da Ilha de São Tomé » (1734), longtemps connu des historiens. Au XVIIIe siècle, il s'oppose aux prêtres métis qui discriminaient les prêtres noirs.",
+      "wikidata": "Q139099103",
+      "naissance": {
+        "date": "1669",
+        "lieu": null
+      },
+      "deces": {
+        "date": "1738",
+        "lieu": null
+      },
+      "roles": [
+        "chanoine",
+        "chroniqueur"
+      ],
+      "domaines": [
+        "savoirs",
+        "littérature"
+      ],
+      "epoque": "XVIIIe siècle",
+      "sources": [
+        "S4",
+        "S54"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates lues dans Seibert (2015) : « 1669–c.1738 ». Lieux non précisés."
+      }
+    },
+    {
+      "id": "ST-personnalite-joao-maria-sousa-almeida",
+      "nom": "João Maria de Sousa e Almeida, baron d'Água-Izé",
+      "description": "Fils de parents bahianais, né à Príncipe en 1816 et mort en 1869, il est l'un des pionniers du cacao dans les îles. Ancien négrier, il a réinvesti le capital de ce commerce dans l'agriculture commerciale. En 1868, le roi lui a donné le titre de baron d'Água-Izé, du nom de sa propriété à São Tomé.",
+      "naissance": {
+        "date": "1816",
+        "lieu": "Príncipe"
+      },
+      "deces": {
+        "date": "1869",
+        "lieu": null
+      },
+      "roles": [
+        "planteur",
+        "ancien négrier"
+      ],
+      "domaines": [
+        "économie"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S4"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Acteur de la traite et du système de plantation ; contextualiser, sans glorification.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Informations issues de Seibert (2015) uniquement. Figure liée à la traite : à contextualiser avec soin."
+      }
+    },
+    {
+      "id": "ST-personnalite-caetano-costa-alegre",
+      "nom": "Caetano da Costa Alegre",
+      "description": "Poète né à São Tomé en 1864 et mort à Alcobaça en 1890, il est l'un des premiers noms de la poésie santoméenne. Parti au Portugal, il y meurt jeune, à 25 ans. Le quotidien Público le cite, avec Manuela Margarido, Alda do Espírito Santo et Francisco José Tenreiro, parmi les principales voix de la poésie de São Tomé.",
+      "wikidata": "Q120241",
+      "naissance": {
+        "date": "1864-04-26",
+        "lieu": "São Tomé"
+      },
+      "deces": {
+        "date": "1890-04-18",
+        "lieu": "Alcobaça (Portugal)"
+      },
+      "roles": [
+        "poète"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S55",
+        "S56",
+        "S45",
+        "S57"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates et lieux de Wikidata et de Wikipédia (fr) ; Wikidata le dit « poète portugais », la littérature santoméenne le revendique."
+      }
+    },
+    {
+      "id": "ST-personnalite-francisco-tenreiro",
+      "nom": "Francisco José Tenreiro",
+      "description": "Poète et géographe né à São Tomé en 1921, mort en 1963, il est l'auteur de la thèse « A Ilha de São Tomé » (1961), ouvrage de référence salué à l'époque par les géographes. Le prix littéraire national porte son nom. Sa thèse décrit la société santoméenne issue de deux périodes de plantations.",
+      "wikidata": "Q1442055",
+      "naissance": {
+        "date": "1921-01-20",
+        "lieu": "São Tomé"
+      },
+      "deces": {
+        "date": "1963",
+        "lieu": null
+      },
+      "roles": [
+        "géographe",
+        "poète"
+      ],
+      "domaines": [
+        "sciences",
+        "littérature"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S58",
+        "S38",
+        "S59",
+        "S45",
+        "S60"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date et lieu de naissance de Wikidata ; Wikipédia (fr) donne 1921-1963. Lieu de décès non vérifié."
+      }
+    },
+    {
+      "id": "ST-personnalite-alda-espirito-santo",
+      "nom": "Alda do Espírito Santo",
+      "description": "Poétesse et femme politique, née à São Tomé le 30 avril 1926, elle étudie à Lisbonne, où elle fréquente d'autres futurs dirigeants des indépendances africaines. Enseignante, elle est emprisonnée en 1965 pour son engagement nationaliste. Après 1975, elle est ministre puis présidente de l'Assemblée nationale (1980-1991) et signe les paroles de l'hymne national. Elle meurt à Luanda en 2010.",
+      "wikidata": "Q457401",
+      "naissance": {
+        "date": "1926-04-30",
+        "lieu": "São Tomé"
+      },
+      "deces": {
+        "date": "2010-03-09",
+        "lieu": "Luanda (Angola)"
+      },
+      "roles": [
+        "poétesse",
+        "ministre",
+        "présidente de l'Assemblée nationale"
+      ],
+      "domaines": [
+        "politique",
+        "littérature",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S61",
+        "S62"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lieu de décès lu dans la source (Luanda) ; date de décès de Wikidata."
+      }
+    },
+    {
+      "id": "ST-personnalite-manuela-margarido",
+      "nom": "Manuela Margarido",
+      "description": "Poétesse et diplomate née en 1925 sur la roça Olímpia, à Príncipe, elle dénonce dans ses poèmes la répression coloniale et la misère des roças. Elle étudie à la Sorbonne, où elle est exilée, et devient ambassadrice de son pays à Bruxelles et auprès d'organisations internationales. Elle meurt en 2007 à Lisbonne, à 82 ans.",
+      "wikidata": "Q2365590",
+      "naissance": {
+        "date": "1925-09-11",
+        "lieu": "roça Olímpia (Príncipe)"
+      },
+      "deces": {
+        "date": "2007-03-10",
+        "lieu": "Lisbonne"
+      },
+      "roles": [
+        "poétesse",
+        "diplomate"
+      ],
+      "domaines": [
+        "littérature",
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S55",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le journal lu dit « 1925, roça Olímpia, Príncipe » ; la date précise (11 septembre) et la date de décès viennent de Wikidata. Lieu de décès à vérifier (l'article cite un hôpital de Lisbonne)."
+      }
+    },
+    {
+      "id": "ST-personnalite-conceicao-lima",
+      "nom": "Conceição Lima",
+      "description": "Poétesse et journaliste née le 8 décembre 1961, elle est l'auteure la plus traduite de la littérature santoméenne, avec des textes en une dizaine de langues. Elle a cofondé l'Union nationale des écrivains et artistes santoméens (UNEAS). Elle est morte le 15 mai 2026 à São Tomé.",
+      "wikidata": "Q1123692",
+      "naissance": {
+        "date": "1961-12-08",
+        "lieu": "Santana"
+      },
+      "deces": {
+        "date": "2026-05-15",
+        "lieu": "São Tomé"
+      },
+      "roles": [
+        "poétesse",
+        "journaliste"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S64",
+        "S65",
+        "S45",
+        "S66"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de naissance et décès confirmées par CNN Portugal / Lusa ; lieu de naissance (Santana) de Wikidata seulement."
+      }
+    },
+    {
+      "id": "ST-personnalite-olinda-beja",
+      "nom": "Olinda Beja",
+      "description": "Femme de lettres et enseignante, née en 1946 à Guadalupe, elle a émigré au Portugal puis en Suisse. Son livre « A Sombra do Ocá » a reçu en 2013 le prix littéraire Francisco José Tenreiro, la plus haute distinction nationale pour l'écrit. Elle publie sous le pseudonyme Ubá Flôr d'après la presse santoméenne.",
+      "wikidata": "Q21290381",
+      "naissance": {
+        "date": "1946-12-08",
+        "lieu": "Guadalupe"
+      },
+      "roles": [
+        "écrivaine",
+        "enseignante"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S59",
+        "S45",
+        "S67"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de naissance de Wikidata ; Wikipédia (fr) la présente comme installée en Suisse."
+      }
+    },
+    {
+      "id": "ST-personnalite-maria-das-neves",
+      "nom": "Maria das Neves",
+      "description": "Économiste née en 1958, elle est ministre de l'Économie puis des Finances avant de devenir Première ministre en octobre 2002. Elle est brièvement écartée par le coup d'État de juillet 2003, puis quitte son poste en septembre 2004. Wikipédia la présente comme la première femme à occuper cette fonction dans le pays.",
+      "wikidata": "Q454046",
+      "naissance": {
+        "date": "1958-07-11",
+        "lieu": "Sao Tomé-et-Principe"
+      },
+      "roles": [
+        "Première ministre",
+        "économiste"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S68",
+        "S69"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source principale : Wikipédia (fr) ; je n'ai pas trouvé de source institutionnelle ouverte. Date de naissance de Wikidata."
+      }
+    },
+    {
+      "id": "ST-personnalite-maria-carmo-silveira",
+      "nom": "Maria do Carmo Silveira",
+      "description": "Économiste et banquière, née le 14 février 1961, elle dirige la Banque centrale de 1999 à 2005 puis de 2011 à 2016. Première ministre et ministre des Finances de juin 2005 à avril 2006, elle devient fin 2016 secrétaire exécutive de la Communauté des pays de langue portugaise.",
+      "wikidata": "Q441483",
+      "naissance": {
+        "date": "1961-02-14",
+        "lieu": "Sao Tomé-et-Principe"
+      },
+      "roles": [
+        "Première ministre",
+        "gouverneure de la Banque centrale",
+        "secrétaire exécutive de la CPLP"
+      ],
+      "domaines": [
+        "politique",
+        "économie"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S70",
+        "S71"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source principale : Wikipédia (fr) ; pas de source institutionnelle ouverte consultée."
+      }
+    },
+    {
+      "id": "ST-personnalite-naide-gomes",
+      "nom": "Naide Gomes",
+      "description": "Athlète née le 20 novembre 1979 à São Tomé, spécialiste du saut en longueur et de l'heptathlon, elle a concouru pour le Portugal. World Athletics la décrit comme double championne du monde en salle. Elle fait partie des sportives nées à São Tomé qui se sont illustrées sous d'autres couleurs.",
+      "wikidata": "Q236416",
+      "naissance": {
+        "date": "1979-11-20",
+        "lieu": "São Tomé"
+      },
+      "roles": [
+        "athlète"
+      ],
+      "domaines": [
+        "sport"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S72",
+        "S73",
+        "S74"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de naissance confirmée par World Athletics ; lieu de naissance de Wikidata."
+      }
+    },
+    {
+      "id": "ST-personnalite-manuel-pinto-da-costa",
+      "nom": "Manuel Pinto da Costa",
+      "description": "Économiste né en 1937 à Água Grande, il est secrétaire général du MLSTP à partir de 1972 et premier président de la République indépendante (1975-1991). Il revient à la présidence de 2011 à 2016, après avoir été battu à plusieurs reprises. Sa longue rivalité avec la famille Trovoada structure la politique du pays pendant quatre décennies.",
+      "wikidata": "Q295049",
+      "naissance": {
+        "date": "1937-08-05",
+        "lieu": "district d'Água Grande"
+      },
+      "roles": [
+        "président de la République",
+        "chef de parti"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S75",
+        "S76",
+        "S77"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance de Wikipédia (fr) et Wikidata ; Jeune Afrique (2016) le donne âgé de 79 ans, cohérent."
+      }
+    },
+    {
+      "id": "ST-personnalite-miguel-trovoada",
+      "nom": "Miguel Trovoada",
+      "description": "Né à São Tomé en 1936, il est envoyé à l'ONU en 1960 par les nationalistes de l'archipel et participe à la création du mouvement de libération. Premier ministre de 1975 à 1979, il est emprisonné deux ans sans qu'aucune charge ne soit retenue. Élu président en 1991, puis réélu en 1996, il ouvre l'ère du multipartisme.",
+      "wikidata": "Q504522",
+      "naissance": {
+        "date": "1936-12",
+        "lieu": "São Tomé"
+      },
+      "roles": [
+        "Premier ministre",
+        "président de la République"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S76",
+        "S78",
+        "S79",
+        "S80"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Wikipédia (fr) donne le 7 décembre 1936, Wikidata le 27 décembre 1936 : seul le mois est retenu."
+      }
+    },
+    {
+      "id": "ST-personnalite-leonel-mario-dalva",
+      "nom": "Leonel Mário d'Alva",
+      "description": "Jeune économiste de 39 ans en 1974, il dirige comme Premier ministre le gouvernement de transition investi le 21 décembre 1974, jusqu'à l'indépendance. Il a ensuite été ministre des Affaires étrangères et président de l'Assemblée nationale. Il raconte avoir représenté le mouvement à Paris à partir de 1963 et s'être exilé en 1982 par désaccord avec les mesures du parti unique.",
+      "wikidata": "Q1287504",
+      "naissance": {
+        "date": "1935-07-22",
+        "lieu": "São Tomé"
+      },
+      "roles": [
+        "Premier ministre du gouvernement de transition",
+        "président de l'Assemblée nationale"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S78",
+        "S81",
+        "S82"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de naissance de Wikidata, cohérente avec l'âge de 39 ans annoncé en 1974."
+      }
+    },
+    {
+      "id": "ST-personnalite-evaristo-carvalho",
+      "nom": "Evaristo Carvalho",
+      "description": "Homme politique né en 1941, membre de l'ADI, il est Premier ministre en 1994 puis en 2001-2002, avant de remporter la présidentielle de 2016 dans un scrutin contesté. Il se retire en 2021 et meurt à Lisbonne en 2022.",
+      "wikidata": "Q709734",
+      "naissance": {
+        "date": "1941-10-22",
+        "lieu": "Santana"
+      },
+      "deces": {
+        "date": "2022-05-28",
+        "lieu": "Lisbonne"
+      },
+      "roles": [
+        "Premier ministre",
+        "président de la République"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S76",
+        "S83",
+        "S84"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance à Santana d'après Wikipédia (fr) ; Wikidata parle de « Sao Tomé-et-Principe portugais »."
+      }
+    }
+  ],
+  "evenements": [
+    {
+      "id": "ST-evenement-decouverte",
+      "titre": "Arrivée des Portugais dans un archipel désert",
+      "date": "1471-01-01",
+      "date_affichee": "vers 1470-1474",
+      "precision": "annee",
+      "description": "Les îles sont atteintes par des navigateurs portugais dans les années 1470, et plusieurs sources soulignent qu'elles étaient alors inhabitées et couvertes de forêt. Les auteurs ne s'accordent pas sur l'année exacte : 1470, vers 1471 ou 1474 selon les textes.",
+      "acteurs": [
+        "navigateurs portugais"
+      ],
+      "fin": "1474-12-31",
+      "sources": [
+        "S4",
+        "S22",
+        "S58",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates discordantes : 1470 (Lebigre, Wikipédia fr Batepá), 1471 (Seibert, Daveau, Gourou), 21 décembre 1474 (Wikipédia, histoire). À trancher par l'expert."
+      }
+    },
+    {
+      "id": "ST-evenement-peuplement-1493",
+      "titre": "Peuplement durable de São Tomé par Álvaro de Caminha",
+      "date": "1493-01-01",
+      "date_affichee": "1493",
+      "precision": "annee",
+      "description": "Le donataire Álvaro de Caminha installe un peuplement durable dans le nord-est de l'île. Les colons sont des volontaires, mais surtout des condamnés et des enfants juifs séparés de leurs parents, venus d'Espagne via le Portugal. Chaque colon reçoit aussi des esclaves africains.",
+      "acteurs": [
+        "Álvaro de Caminha",
+        "colons",
+        "enfants juifs",
+        "esclaves africains"
+      ],
+      "sources": [
+        "S4"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Histoire d'enfants séparés de force de leur famille et d'esclavage.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Les chiffres de déportés varient selon les sources (franceinfo, Wikipédia) et ne sont pas retenus."
+      }
+    },
+    {
+      "id": "ST-evenement-couronne-1514-1517",
+      "titre": "Mesures de la Couronne : baptême des esclaves, affranchissements",
+      "date": "1514-01-01",
+      "date_affichee": "1514-1517",
+      "precision": "annee",
+      "description": "En 1514, la Couronne oblige les maîtres à baptiser leurs esclaves dans les six mois ; en 1515, elle affranchit les enfants métis et leurs mères, puis en 1517 les hommes arrivés avec les premiers colons. Ces mesures nourrissent la formation de la catégorie des forros.",
+      "acteurs": [
+        "Couronne portugaise",
+        "colons",
+        "esclaves"
+      ],
+      "fin": "1517-12-31",
+      "sources": [
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-evenement-sucre-1517",
+      "titre": "Premiers moulins à sucre",
+      "date": "1517-01-01",
+      "date_affichee": "vers 1517",
+      "precision": "annee",
+      "description": "Vers 1517 apparaissent les premiers moulins à sucre documentés à São Tomé, début d'une agriculture de plantation à grande échelle fondée sur le travail esclave. Au milieu du XVIe siècle, l'île devient le premier producteur mondial de sucre.",
+      "acteurs": [
+        "planteurs",
+        "esclaves africains"
+      ],
+      "sources": [
+        "S4"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Origine du système de plantation esclavagiste.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-evenement-monopole-1519",
+      "titre": "Monopole de la traite entre le Bénin et São Jorge da Mina",
+      "date": "1519-01-01",
+      "date_affichee": "1519",
+      "precision": "annee",
+      "description": "En 1519, São Tomé obtient le monopole de la traite d'esclaves entre le royaume du Bénin et la Côte de l'Or, où les Portugais échangent ces captifs contre de l'or. L'archipel devient un entrepôt de la traite régionale puis atlantique.",
+      "acteurs": [
+        "Portugais de São Tomé",
+        "royaume du Bénin"
+      ],
+      "sources": [
+        "S4"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Histoire de la traite : à relire avec des historiens africains.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-evenement-irmandade-1526",
+      "titre": "Fondation de la confrérie Nossa Senhora dos Homens Pretos",
+      "date": "1526-01-01",
+      "date_affichee": "1526",
+      "precision": "annee",
+      "description": "Les forros fondent dès 1526 la confrérie de Notre-Dame des Hommes Noirs, qui obtiendra plus tard le droit d'affranchir ses membres esclaves.",
+      "acteurs": [
+        "forros"
+      ],
+      "sources": [
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-evenement-diocese-1534",
+      "titre": "Création de l'évêché de São Tomé",
+      "date": "1534-01-01",
+      "date_affichee": "1534",
+      "precision": "annee",
+      "description": "L'évêché de São Tomé est créé en 1534, rattaché à Funchal (Madère), et la cité reçoit son titre de ville en 1535. Pendant des décennies, sa juridiction s'étend sur une très vaste partie du golfe de Guinée.",
+      "acteurs": [
+        "Église catholique",
+        "Couronne portugaise"
+      ],
+      "fin": "1535-12-31",
+      "sources": [
+        "S4",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-evenement-revolte-amador",
+      "titre": "Grande révolte d'esclaves dirigée par Amador",
+      "date": "1595-07-09",
+      "date_affichee": "1595",
+      "precision": "annee",
+      "description": "En 1595, environ 5 000 esclaves se soulèvent à São Tomé sous la conduite d'Amador. La révolte détruit plus de la moitié des quelque 120 moulins à sucre de l'île avant d'être écrasée. Elle est l'un des grands soulèvements d'esclaves de l'histoire atlantique, selon Seibert.",
+      "acteurs": [
+        "Amador",
+        "esclaves",
+        "autorités coloniales"
+      ],
+      "fin": "1595-08-14",
+      "wikidata": "Q10360242",
+      "sources": [
+        "S4",
+        "S52"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Résistance à l'esclavage : formulation à valider.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Durée : trois semaines selon Seibert, du 9 juillet au 14 août selon Wikipedia (en) ; année seule retenue."
+      }
+    },
+    {
+      "id": "ST-evenement-hollandais",
+      "titre": "Occupation hollandaise de la forteresse et du port",
+      "date": "1641-01-01",
+      "date_affichee": "1641-1648",
+      "precision": "annee",
+      "description": "De 1641 à 1648, la Compagnie néerlandaise des Indes occidentales occupe la forteresse et le port de São Tomé. Cet épisode s'ajoute aux attaques françaises et hollandaises qui contribuent au déclin du sucre.",
+      "acteurs": [
+        "Compagnie néerlandaise des Indes occidentales"
+      ],
+      "fin": "1648-12-31",
+      "sources": [
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-evenement-declin-xvii",
+      "titre": "Fin de la production sucrière et interrègne créole",
+      "date": "1650-01-01",
+      "date_affichee": "XVIIe siècle",
+      "precision": "siecle",
+      "description": "Face au sucre brésilien, moins cher à produire et de meilleure qualité, la production disparaît au XVIIe siècle. Les forros dominent pendant près de deux cents ans la vie économique et politique, jusque dans les années 1840, tandis que les Portugais sont presque absents.",
+      "acteurs": [
+        "forros",
+        "planteurs"
+      ],
+      "fin": "1699-12-31",
+      "sources": [
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-evenement-capitale-principe-1753",
+      "titre": "Santo António devient capitale",
+      "date": "1753-01-01",
+      "date_affichee": "1753",
+      "precision": "annee",
+      "description": "En 1753, la ville de Santo António, sur l'île de Príncipe, est élevée au rang de cité et devient capitale de l'archipel, jugée plus saine et plus adaptée à la traite régionale. La capitale reviendra à São Tomé en 1852.",
+      "acteurs": [
+        "Couronne portugaise"
+      ],
+      "fin": "1852-12-31",
+      "sources": [
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-evenement-cafe-cacao",
+      "titre": "Introduction du café et du cacao",
+      "date": "1787-01-01",
+      "date_affichee": "1787 (café), vers 1820 (cacao)",
+      "precision": "annee",
+      "description": "Le café arrive du Brésil en 1787 et le cacao vers 1820. Ces cultures permettent le retour des plantations à grande échelle dans la seconde moitié du XIXe siècle ; São Tomé est le premier territoire africain à produire du cacao.",
+      "acteurs": [
+        "planteurs"
+      ],
+      "sources": [
+        "S4",
+        "S24"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-evenement-capitale-1852",
+      "titre": "Retour de la capitale à São Tomé",
+      "date": "1852-01-01",
+      "date_affichee": "1852",
+      "precision": "annee",
+      "description": "Le retour de la capitale à São Tomé en 1852 marque le début de la seconde colonisation de l'archipel, fondée sur les plantations de café et de cacao.",
+      "acteurs": [
+        "autorités coloniales"
+      ],
+      "sources": [
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-evenement-abolition-1875",
+      "titre": "Abolition de l'esclavage",
+      "date": "1875-01-01",
+      "date_affichee": "1875",
+      "precision": "annee",
+      "description": "En 1875, les esclaves quittent les plantations et manifestent en ville pour exiger la fin immédiate de l'esclavage ; le gouverneur Gregório Ribeiro l'abolit sur-le-champ, alors que la loi prévoyait l'abolition pour 1876. Les anciens esclaves, appelés forros gregorianos, refusent de revenir travailler dans les roças.",
+      "acteurs": [
+        "esclaves",
+        "gouverneur Gregório Ribeiro"
+      ],
+      "sources": [
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Seibert écrit 1875 pour l'abolition effective ; Wikipédia (fr) écrit 1876. Le texte de loi n'a pas été consulté."
+      }
+    },
+    {
+      "id": "ST-evenement-serviçais-1875",
+      "titre": "Création du système des travailleurs sous contrat (serviçais)",
+      "date": "1875-01-01",
+      "date_affichee": "1875 et suivantes",
+      "precision": "annee",
+      "description": "Dès 1875, l'administration crée la Curadoria Geral dos Indígenas pour recruter des travailleurs africains sous contrat. Après 1879, ils viennent presque exclusivement d'Angola, puis du Cap-Vert à partir de 1903 et du Mozambique à partir de 1908. Les conditions des engagés, souvent comparées à l'esclavage, durent plus de cent ans.",
+      "acteurs": [
+        "serviçais",
+        "planteurs",
+        "administration coloniale"
+      ],
+      "sources": [
+        "S4"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Travail forcé colonial : formulation à valider avec des institutions santoméennes.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-evenement-angolares-1878",
+      "titre": "Occupation du territoire des angolares",
+      "date": "1878-01-01",
+      "date_affichee": "1878",
+      "precision": "annee",
+      "description": "En 1878, les autorités coloniales occupent le territoire des angolares, dans le sud de São Tomé. Selon Seibert, cette occupation n'a pas bouleversé leur économie de pêche artisanale, mais a favorisé les échanges avec les forros.",
+      "acteurs": [
+        "autorités coloniales",
+        "angolares"
+      ],
+      "sources": [
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-evenement-boycott-1909",
+      "titre": "Boycott du cacao de São Tomé par les chocolatiers britanniques",
+      "date": "1909-01-01",
+      "date_affichee": "1909",
+      "precision": "annee",
+      "description": "Au début du XXe siècle, des campagnes britanniques dénoncent le « cacao esclave » de São Tomé. En 1909, elles débouchent sur un boycott des grands chocolatiers anglais, qui pousse le Portugal à adopter des règles pour améliorer le sort des serviçais.",
+      "acteurs": [
+        "militants britanniques",
+        "chocolatiers",
+        "gouvernement portugais"
+      ],
+      "sources": [
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-evenement-cacao-1913",
+      "titre": "Record historique de production de cacao",
+      "date": "1913-01-01",
+      "date_affichee": "1913",
+      "precision": "annee",
+      "description": "En 1913, la production de cacao atteint 35 500 tonnes, son plus haut niveau historique, et l'archipel est alors le premier producteur mondial. Les plantations occupent trois quarts du territoire ; elles déclinent ensuite à partir de 1918 avec les maladies, l'érosion et la concurrence.",
+      "acteurs": [
+        "compagnies de Lisbonne",
+        "serviçais"
+      ],
+      "sources": [
+        "S4",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-evenement-indigenat-1926",
+      "titre": "Statut de l'indigénat appliqué aux engagés d'Angola et du Mozambique",
+      "date": "1926-01-01",
+      "date_affichee": "1926-1961",
+      "precision": "annee",
+      "description": "De 1926 à 1961, les travailleurs d'Angola et du Mozambique sont classés juridiquement comme « indigènes », alors que les natifs de l'archipel et les Cap-Verdiens ne l'étaient pas. Cette hiérarchie légale renforce la séparation entre groupes.",
+      "acteurs": [
+        "administration coloniale"
+      ],
+      "fin": "1961-12-31",
+      "sources": [
+        "S4"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Régime colonial discriminatoire ; terme « indigène » entre guillemets car juridique.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-evenement-batepa",
+      "titre": "Massacre de Batepá",
+      "date": "1953-02-03",
+      "date_affichee": "février 1953",
+      "precision": "mois",
+      "description": "En février 1953, après une manifestation de forros, le gouverneur Carlos Gorgulho fait répondre par une vague de violences qui, pendant un mois, tue des centaines de Santoméens. Les travailleurs des roças ont été incités à y participer. Le massacre pèse durablement sur les relations entre colons et forros et nourrit le nationalisme santoméen.",
+      "acteurs": [
+        "gouverneur Carlos Gorgulho",
+        "forros",
+        "police indigène",
+        "serviçais"
+      ],
+      "fin": "1953-03-31",
+      "wikidata": "Q1851212",
+      "sources": [
+        "S4",
+        "S34",
+        "S28"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Massacre colonial et mémoire nationale : présentation prudente, validation locale.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le début exact (3 février) vient de Wikipédia (fr) ; le nombre de victimes n'est pas établi dans les sources ouvertes lues."
+      }
+    },
+    {
+      "id": "ST-evenement-clstp-1960",
+      "titre": "Première organisation indépendantiste en exil",
+      "date": "1960-01-01",
+      "date_affichee": "1960",
+      "precision": "annee",
+      "description": "En 1960, un petit groupe de nationalistes forros crée la première organisation politique qui défend l'indépendance depuis l'exil, le Comité de libération de Sao Tomé-et-Principe. Miguel Trovoada est envoyé aux Nations unies pour faire entendre cette demande.",
+      "acteurs": [
+        "nationalistes forros",
+        "Miguel Trovoada"
+      ],
+      "sources": [
+        "S4",
+        "S78"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-evenement-mlstp-1972",
+      "titre": "Création du MLSTP",
+      "date": "1972-01-01",
+      "date_affichee": "1972",
+      "precision": "annee",
+      "description": "En 1972, une conférence de nationalistes en exil fonde à Malabo le Mouvement de libération de Sao Tomé-et-Principe (MLSTP), qui remplace le comité créé en 1960. En 1974, le Portugal le reconnaît comme représentant légitime du peuple santoméen.",
+      "acteurs": [
+        "MLSTP",
+        "Manuel Pinto da Costa"
+      ],
+      "sources": [
+        "S4",
+        "S78",
+        "S75"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-evenement-transition-1974",
+      "titre": "Gouvernement de transition",
+      "date": "1974-12-21",
+      "date_affichee": "21 décembre 1974",
+      "precision": "jour",
+      "description": "Le gouvernement de transition conduit par Leonel Mário d'Alva est investi le 21 décembre 1974, après la révolution portugaise d'avril 1974. Il prépare l'indépendance avec le MLSTP.",
+      "acteurs": [
+        "Leonel Mário d'Alva",
+        "MLSTP",
+        "Portugal"
+      ],
+      "fin": "1975-07-12",
+      "sources": [
+        "S78",
+        "S81",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-evenement-independance",
+      "titre": "Indépendance de Sao Tomé-et-Principe",
+      "date": "1975-07-12",
+      "date_affichee": "12 juillet 1975",
+      "precision": "jour",
+      "description": "Le 12 juillet 1975, l'archipel proclame son indépendance du Portugal. Manuel Pinto da Costa devient président ; l'indépendance accorde la pleine citoyenneté à tous les habitants. La fête nationale est célébrée à cette date.",
+      "acteurs": [
+        "Manuel Pinto da Costa",
+        "MLSTP"
+      ],
+      "sources": [
+        "S4",
+        "S7",
+        "S8",
+        "S75"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-evenement-musee-1975",
+      "titre": "Ouverture du musée national dans le fort",
+      "date": "1975-05-22",
+      "date_affichee": "22 mai 1975",
+      "precision": "jour",
+      "description": "Le fort São Sebastião devient musée national le 22 mai 1975, juste avant l'indépendance.",
+      "acteurs": [
+        "gouvernement de transition"
+      ],
+      "sources": [
+        "S27"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de Wikipédia (fr) seulement."
+      }
+    },
+    {
+      "id": "ST-evenement-multipartisme-1991",
+      "titre": "Multipartisme et élection de Miguel Trovoada",
+      "date": "1991-03-03",
+      "date_affichee": "1990-1991",
+      "precision": "annee",
+      "description": "Le multipartisme est instauré en 1990, sous la pression de l'opposition. Miguel Trovoada est élu président en mars 1991, seul candidat après le retrait de ses adversaires, avec 81 % des suffrages exprimés.",
+      "acteurs": [
+        "Miguel Trovoada",
+        "Coalition démocratique",
+        "Manuel Pinto da Costa"
+      ],
+      "sources": [
+        "S8",
+        "S79",
+        "S76"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le premier tour a eu lieu le 3 mars 1991 selon Wikipédia (fr)."
+      }
+    },
+    {
+      "id": "ST-evenement-coup-1995",
+      "titre": "Coup d'État de 1995",
+      "date": "1995-08-15",
+      "date_affichee": "15 août 1995",
+      "precision": "jour",
+      "description": "Le président Miguel Trovoada est brièvement arrêté lors d'un coup d'État militaire mené par le lieutenant Manuel Quintas de Almeida, puis rétabli quelques jours plus tard.",
+      "acteurs": [
+        "Miguel Trovoada",
+        "Manuel Quintas de Almeida"
+      ],
+      "fin": "1995-08-22",
+      "sources": [
+        "S8",
+        "S79"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-evenement-coup-2003",
+      "titre": "Coup d'État de 2003",
+      "date": "2003-07-16",
+      "date_affichee": "16 juillet 2003",
+      "precision": "jour",
+      "description": "Le 16 juillet 2003, le président Fradique de Menezes est écarté par un coup d'État mené par Fernando Pereira, puis rétabli au bout d'une semaine après un accord avec l'armée.",
+      "acteurs": [
+        "Fradique de Menezes",
+        "Fernando Pereira"
+      ],
+      "fin": "2003-07-23",
+      "sources": [
+        "S8",
+        "S68"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-evenement-obo-2006",
+      "titre": "Création des parcs naturels Obô",
+      "date": "2006-01-01",
+      "date_affichee": "2006",
+      "precision": "annee",
+      "description": "En 2006, deux parcs naturels, à São Tomé et Príncipe, sont créés pour protéger les forêts de l'obô et couvrent environ un tiers du pays.",
+      "acteurs": [
+        "État santoméen"
+      ],
+      "sources": [
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-evenement-ratification-2006",
+      "titre": "Ratification des conventions UNESCO",
+      "date": "2006-07-25",
+      "date_affichee": "25 juillet 2006",
+      "precision": "jour",
+      "description": "Le pays ratifie le 25 juillet 2006 la Convention de 2003 pour la sauvegarde du patrimoine culturel immatériel et, à la même date, la Convention du patrimoine mondial.",
+      "acteurs": [
+        "État santoméen",
+        "UNESCO"
+      ],
+      "sources": [
+        "S43",
+        "S26"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-evenement-biosphere-2012",
+      "titre": "Príncipe, réserve de biosphère",
+      "date": "2012-07-01",
+      "date_affichee": "juillet 2012",
+      "precision": "mois",
+      "description": "En juillet 2012, Príncipe et ses îlots sont inscrits sur la liste des réserves de biosphère de l'UNESCO.",
+      "acteurs": [
+        "UNESCO",
+        "habitants de Príncipe"
+      ],
+      "sources": [
+        "S24"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Mois donné par Jeune Afrique (2016) ; non vérifié au programme MAB."
+      }
+    },
+    {
+      "id": "ST-evenement-presidentielle-2016",
+      "titre": "Présidentielle contestée de 2016",
+      "date": "2016-08-07",
+      "date_affichee": "août 2016",
+      "precision": "mois",
+      "description": "Après l'annulation des résultats du premier tour, un second tour se tient le 7 août 2016. Le président sortant Manuel Pinto da Costa le boycotte et Evaristo Carvalho est élu avec une forte abstention.",
+      "acteurs": [
+        "Evaristo Carvalho",
+        "Manuel Pinto da Costa"
+      ],
+      "sources": [
+        "S76",
+        "S83"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-evenement-tchiloli-2025",
+      "titre": "Inscription du tchiloli au patrimoine culturel immatériel",
+      "date": "2025-01-01",
+      "date_affichee": "2025",
+      "precision": "annee",
+      "description": "Le Comité intergouvernemental de l'UNESCO inscrit en 2025 le tchiloli sur la Liste représentative du patrimoine culturel immatériel de l'humanité.",
+      "acteurs": [
+        "UNESCO",
+        "troupes de tchiloli"
+      ],
+      "sources": [
+        "S6",
+        "S43"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-evenement-rocas-2026",
+      "titre": "Inscription des roças au patrimoine mondial",
+      "date": "2026-07-25",
+      "date_affichee": "juillet 2026",
+      "precision": "mois",
+      "description": "Réunie à Busan (Corée du Sud) en juillet 2026, l'UNESCO inscrit les roças de Sao Tomé-et-Principe sur la Liste du patrimoine mondial, premier bien du pays.",
+      "acteurs": [
+        "UNESCO",
+        "gouvernement santoméen"
+      ],
+      "sources": [
+        "S5",
+        "S25",
+        "S26"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Africanews situe l'annonce pour les 25 et 26 juillet ; date exacte à confirmer dans la décision du Comité."
+      }
+    }
+  ],
+  "oeuvres": [
+    {
+      "id": "ST-oeuvre-hymne",
+      "titre": "Independência total (hymne national)",
+      "type": "musique",
+      "description": "L'hymne national, adopté avec l'indépendance de 1975, célèbre le combat pour la liberté et l'unité des enfants des îles. Ses paroles sont d'Alda do Espírito Santo ; Wikipédia (fr) en attribue la musique à Manuel dos Santos Barreto de Sousa e Almeida. Le texte évoque une « indépendance totale » et un serment au pays souverain.",
+      "institution": "République démocratique de Sao Tomé-et-Principe (symbole national)",
+      "url_notice": "https://histoireparlesfemmes.com/2019/10/30/alda-do-espirito-santo-militante-independance/",
+      "droits": "Symbole national ; droits d'auteur à vérifier",
+      "createur": "Alda do Espírito Santo (paroles) ; Manuel dos Santos Barreto de Sousa e Almeida (musique, d'après Wikipédia)",
+      "periode": "depuis 1975",
+      "sources": [
+        "S61",
+        "S50"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Compositeur cité seulement par Wikipédia (fr) ; à confirmer."
+      }
+    },
+    {
+      "id": "ST-oeuvre-ilha-sao-tome",
+      "titre": "A Ilha de São Tomé (1961)",
+      "type": "livre",
+      "description": "Thèse et monographie de Francisco José Tenreiro sur la géographie physique, l'histoire du peuplement et la société de São Tomé, parue dans les Memórias de la Junta de Investigações do Ultramar (n° 24, 289 pages). Pierre Gourou et Suzanne Daveau l'ont commentée dans deux comptes rendus, qui en soulignent la richesse d'information et le portrait d'une société complexe.",
+      "institution": "Junta de Investigações do Ultramar (Lisbonne)",
+      "url_notice": "https://www.persee.fr/doc/caoum_0373-5834_1962_num_15_57_2239",
+      "droits": "Notice bibliographique via Persée ; texte non consulté",
+      "createur": "Francisco José Tenreiro",
+      "periode": "1961",
+      "sources": [
+        "S58",
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "ST-oeuvre-relacao-descobrimento",
+      "titre": "Relação do descobrimento da Ilha de São Tomé (1734)",
+      "type": "manuscrit",
+      "description": "Manuscrit de 1734 rédigé par le chanoine forro Manuel do Rosário Pinto, qui relate la découverte de l'île de São Tomé. Il a été édité en 2006 par Arlindo Manuel Caldeira au Centre d'histoire d'outre-mer de l'Université Nova de Lisbonne. Wikipédia (fr) le dit publié d'après le manuscrit 51-IX-24 de la bibliothèque d'Ajuda.",
+      "institution": "Biblioteca da Ajuda (Lisbonne), d'après Wikipédia (fr) ; édition CHAM (2006)",
+      "url_notice": "https://journals.openedition.org/aa/1411",
+      "droits": "Manuscrit de 1734 ; consultation selon l'institution détentrice",
+      "createur": "Manuel do Rosário Pinto",
+      "periode": "1734",
+      "numero_inventaire": "51-IX-24 (d'après Wikipédia)",
+      "sources": [
+        "S4",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La cote du manuscrit et l'institution viennent de Wikipédia (fr) seulement ; page de notice de la bibliothèque non ouverte."
+      }
+    },
+    {
+      "id": "ST-oeuvre-micondo",
+      "titre": "A Dolorosa Raiz do Micondó (Conceição Lima)",
+      "type": "livre",
+      "description": "Recueil de poèmes de Conceição Lima, qui l'a fait connaître au public dans les années 2000. Le titre renvoie à une plante des îles, et l'œuvre s'inscrit dans la poésie de l'archipel et de ses mémoires. Cette poétesse est l'autrice santoméenne la plus traduite.",
+      "institution": "Éditeur non vérifié",
+      "url_notice": "https://fr.wikipedia.org/wiki/Litt%C3%A9rature_de_Sao_Tom%C3%A9-et-Principe",
+      "droits": "Droits d'auteur : tous droits réservés",
+      "createur": "Conceição Lima",
+      "periode": "années 2000",
+      "sources": [
+        "S45",
+        "S64"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année et éditeur non vérifiés dans une page ouverte ; sens du titre à confirmer."
+      }
+    },
+    {
+      "id": "ST-oeuvre-the-house",
+      "titre": "« The House » (poème de Conceição Lima, trad. Amanda Hopkinson)",
+      "type": "livre",
+      "description": "Poème de Conceição Lima traduit en anglais et paru en 2007 dans le numéro « Our Sonnets from the Portuguese » de Words Without Borders. Il parle d'une maison de basalte noir de Mesquita, aux tuiles faites de la boue de Riboque, bâtie sur les ruines d'une cité morte : des lieux de São Tomé servent d'images de reconstruction.",
+      "institution": "Words Without Borders (traduction)",
+      "url_notice": "https://www.wordswithoutborders.org/article/the-house",
+      "droits": "Traduction : tous droits réservés",
+      "createur": "Conceição Lima",
+      "periode": "poème traduit en 2007",
+      "sources": [
+        "S65"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Titre original du poème non lu dans la source ; seule la traduction anglaise est référencée."
+      }
+    },
+    {
+      "id": "ST-oeuvre-sombra-oca",
+      "titre": "A Sombra do Ocá (Olinda Beja)",
+      "type": "livre",
+      "description": "Livre d'Olinda Beja, publié sous le pseudonyme Ubá Flôr d'après la presse. Il a reçu en 2013 le prix littéraire Francisco José Tenreiro, créé en 1993, car il permet d'établir un parallèle avec les préoccupations du poète-géographe.",
+      "institution": "Prix littéraire Francisco José Tenreiro (Direction de la culture)",
+      "url_notice": "http://www.telanon.info/cultura/2013/02/22/12552/olinda-beja-vence-premio-literario-francisco-jose-tenreiro/",
+      "droits": "Droits d'auteur : tous droits réservés",
+      "createur": "Olinda Beja",
+      "periode": "prix 2013",
+      "sources": [
+        "S59",
+        "S85"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année de parution non lue ; éditeur inconnu."
+      }
+    },
+    {
+      "id": "ST-oeuvre-massacre-poeme",
+      "titre": "Massacre de São Tomé (poème d'Agostinho Neto, 1953)",
+      "type": "livre",
+      "description": "Poème de l'Angolais Agostinho Neto, daté de 1953 et dédié à Alda do Espírito Santo, sur le massacre de Batepá. Il illustre la solidarité des nationalistes des colonies portugaises face à la répression de février 1953.",
+      "institution": "Non précisée",
+      "url_notice": "https://fr.wikipedia.org/wiki/Massacre_de_Batep%C3%A1",
+      "droits": "Droits d'auteur : tous droits réservés",
+      "createur": "Agostinho Neto",
+      "periode": "1953",
+      "sources": [
+        "S28",
+        "S34"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Œuvre liée à un massacre colonial.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Mention bibliographique de Wikipédia (fr) uniquement ; le poème n'a pas été lu."
+      }
+    },
+    {
+      "id": "ST-oeuvre-film-batepa",
+      "titre": "Batepá (film d'Orlando Fortunato, 2010)",
+      "type": "film",
+      "description": "Long métrage angolais d'Orlando Fortunato consacré au massacre de Batepá de 1953.",
+      "institution": "Non précisée",
+      "url_notice": "https://fr.wikipedia.org/wiki/Massacre_de_Batep%C3%A1",
+      "droits": "Droits d'auteur : tous droits réservés",
+      "createur": "Orlando Fortunato",
+      "periode": "2010",
+      "sources": [
+        "S28"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Fiction historique sur un massacre colonial.",
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique : Wikipédia (fr) ; notice de film non ouverte."
+      }
+    },
+    {
+      "id": "ST-oeuvre-uma-historia-imortal",
+      "titre": "Uma história imortal (film de Solveig Nordlund)",
+      "type": "film",
+      "description": "Documentaire de la réalisatrice Solveig Nordlund sur le tchiloli, tourné avec la compagnie Formiguinha da Boa Morte. Wikipédia (fr) donne un tournage en 1988 et une diffusion en 1999 chez Torromfilm ; une autre page du même site évoque une version de 2004.",
+      "institution": "Torromfilm (d'après Wikipédia)",
+      "url_notice": "https://fr.wikipedia.org/wiki/Tchiloli",
+      "droits": "Droits d'auteur : tous droits réservés",
+      "createur": "Solveig Nordlund",
+      "periode": "1988-2004 selon les pages",
+      "sources": [
+        "S44",
+        "S50"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates contradictoires entre les articles Wikipédia (1988/1999 ou 2004) ; aucune notice officielle ouverte."
+      }
+    },
+    {
+      "id": "ST-oeuvre-musiques-ile-milieu",
+      "titre": "São Tomé & Principe : musiques de l'île du milieu (2005)",
+      "type": "musique",
+      "description": "Album-compilation édité par Buda Musique (Paris) en 2005, indiqué dans la discographie de l'article Wikipédia sur la culture du pays. Il rassemble des musiques de l'archipel.",
+      "institution": "Buda Musique (Paris), d'après Wikipédia",
+      "url_notice": "https://fr.wikipedia.org/wiki/Culture_de_Sao_Tom%C3%A9-et-Principe",
+      "droits": "Droits : tous droits réservés",
+      "communaute": "musiciens de São Tomé et de Príncipe",
+      "periode": "2005",
+      "sources": [
+        "S50"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Contenu et pistes non vérifiés ; mention discographique seulement."
+      }
+    },
+    {
+      "id": "ST-oeuvre-tchiloli-viagem-sons",
+      "titre": "Tchiloli – S. Tomé – A Viagem dos Sons (1998)",
+      "type": "musique",
+      "description": "Disque documentant les musiques du tchiloli, édité par Tradisom (Vila Verde) en 1998 d'après la discographie de l'article Wikipédia sur le tchiloli. Il garde la mémoire sonore de cette forme théâtrale.",
+      "institution": "Tradisom (Vila Verde), d'après Wikipédia",
+      "url_notice": "https://fr.wikipedia.org/wiki/Tchiloli",
+      "droits": "Droits : tous droits réservés",
+      "createur": "Rosa Clara Neves",
+      "periode": "1998",
+      "sources": [
+        "S44"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Mention discographique seulement ; disque non écouté."
+      }
+    }
+  ],
+  "proverbes": [],
+  "sources": [
+    {
+      "id": "S1",
+      "titre": "Population, total — Sao Tomé-et-Principe (indicateur SP.POP.TOTL)",
+      "institution": "Banque mondiale",
+      "url": "https://api.worldbank.org/v2/country/STP/indicator/SP.POP.TOTL?format=json&date=2022:2025",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S2",
+      "titre": "Wikidata — Sao Tomé-et-Principe (Q1039)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q1039",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S3",
+      "titre": "Îles volcaniques de Sao Tomé et Principe — Liste indicative (réf. 6645)",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/listesindicatives/6645/",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S4",
+      "titre": "Colonialismo em São Tomé e Príncipe : hierarquização, classificação e segregação da vida social",
+      "institution": "Anuário Antropológico (OpenEdition Journals)",
+      "url": "https://journals.openedition.org/aa/1411",
+      "type": "article_scientifique",
+      "licence": "accès libre OpenEdition Journals, droits réservés",
+      "consulte_le": "2026-11-21",
+      "auteur": "Gerhard Seibert",
+      "annee": 2015
+    },
+    {
+      "id": "S5",
+      "titre": "Les roças de Sao Tomé-et-Principe : Système colonial agricole et migration forcée — Centre du patrimoine mondial",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/1750",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S6",
+      "titre": "Tchiloli, living theatre of Sao Tome and Principe in the quest of justice",
+      "institution": "UNESCO — Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/tchiloli-living-theatre-of-sao-tome-and-principe-in-the-quest-of-justice-02309",
+      "type": "unesco",
+      "licence": "© UNESCO, tous droits réservés (textes) ; voir mentions sur la page",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S7",
+      "titre": "Sao Tomé-et-Principe — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Sao_Tom%C3%A9-et-Principe",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S8",
+      "titre": "Histoire de Sao Tomé-et-Principe — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Histoire_de_Sao_Tom%C3%A9-et-Principe",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S9",
+      "titre": "Langues à Sao Tomé-et-Principe — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Langues_%C3%A0_Sao_Tom%C3%A9-et-Principe",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S10",
+      "titre": "Glottolog 5.4 — Portuguese (port1283)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/port1283",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S11",
+      "titre": "Glottolog 5.4 — Sãotomense (saot1239)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/saot1239",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S12",
+      "titre": "Glottolog 5.4 — Angolar (ango1258)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/ango1258",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S13",
+      "titre": "Glottolog 5.4 — Principense (prin1242)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/prin1242",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S14",
+      "titre": "Glottolog 5.4 — Kabuverdianu (kabu1256)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/kabu1256",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S15",
+      "titre": "Glottolog 5.4 — Fang (Equatorial Guinea) (fang1246)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/fang1246",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S16",
+      "titre": "Glottolog 5.4 — French (stan1290)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1290",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S17",
+      "titre": "Glottolog 5.4 — English (stan1293)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1293",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S18",
+      "titre": "Glottolog 5.4 — Sao Tome and Principe Sign Language (saot1241)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/saot1241",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S19",
+      "titre": "Forros — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Forros",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S20",
+      "titre": "Wikidata — Forros (Q3077693)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q3077693",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S21",
+      "titre": "Angolares — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Angolares",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S22",
+      "titre": "L'obó de São Tomé (République de São Tomé e Príncipe) : un exemple d'hinterland forestier insulaire",
+      "institution": "Les Cahiers d'Outre-Mer (OpenEdition Journals)",
+      "url": "https://journals.openedition.org/com/729",
+      "type": "article_scientifique",
+      "licence": "accès libre OpenEdition Journals, droits réservés",
+      "consulte_le": "2026-11-21",
+      "auteur": "Jean-Michel Lebigre",
+      "annee": 2003
+    },
+    {
+      "id": "S23",
+      "titre": "Wikidata — Angolares (Q2849715)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q2849715",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S24",
+      "titre": "São Tomé-et-Príncipe, un jardin extraordinaire",
+      "institution": "Jeune Afrique",
+      "url": "https://www.jeuneafrique.com/mag/325383/societe/sao-tome-principe-jardin-extraordinaire/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "auteur": "Vincent Fournier",
+      "annee": 2016
+    },
+    {
+      "id": "S25",
+      "titre": "Les Roças de São Tomé-et-Principe rejoignent le patrimoine mondial de l'UNESCO",
+      "institution": "Africanews",
+      "url": "https://fr.africanews.com/amp/2026/07/28/les-rocas-de-sao-tome-et-principe-rejoignent-le-patrimoine-mondial-de-lunesco/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "auteur": "Ali Bamba",
+      "annee": 2026
+    },
+    {
+      "id": "S26",
+      "titre": "Sao Tomé-et-Principe — État partie à la Convention du patrimoine mondial",
+      "institution": "UNESCO — Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/etatsparties/st",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S27",
+      "titre": "Musée national de Sao Tomé-et-Principe — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_de_Sao_Tom%C3%A9-et-Principe",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S28",
+      "titre": "Massacre de Batepá — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Massacre_de_Batep%C3%A1",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S29",
+      "titre": "Wikidata — musée national de Sao Tomé-et-Principe (Q2110836)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q2110836",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S30",
+      "titre": "Wikidata — São Tomé (Q3932)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q3932",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S31",
+      "titre": "Wikidata — cathédrale Notre-Dame-de-Grâce de Sao Tomé (Q2607864)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q2607864",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S32",
+      "titre": "Wikidata — baie d'Ana Chaves (Q4750333)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q4750333",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S33",
+      "titre": "Wikidata — Santo António (Q973656)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q973656",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S34",
+      "titre": "Le massacre de février 1953 à São Tomé : raison d'être du nationalisme santoméen",
+      "institution": "Lusotopie (Persée)",
+      "url": "https://www.persee.fr/doc/luso_1257-0273_1997_num_4_1_1089",
+      "type": "article_scientifique",
+      "licence": "accès libre Persée, droits réservés",
+      "consulte_le": "2026-11-21",
+      "auteur": "Gerhard Seibert (trad. Jacky Picard)",
+      "annee": 1997
+    },
+    {
+      "id": "S35",
+      "titre": "Wikidata — massacre de Batepá (Q1851212)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q1851212",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S36",
+      "titre": "Gastronomie : João Carlos Silva, c'est lui le chef !",
+      "institution": "Jeune Afrique",
+      "url": "https://www.jeuneafrique.com/mag/325390/economie/gastronomie-joao-carlos-silva-cest-lui-chef/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "auteur": "Claire Rainfroy",
+      "annee": 2016
+    },
+    {
+      "id": "S37",
+      "titre": "Wikidata — São João dos Angolares (Q2209215)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q2209215",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S38",
+      "titre": "Une île équatoriale : Sâo Tomé de F. Tenreiro (note critique)",
+      "institution": "Annales de géographie (Persée)",
+      "url": "https://www.persee.fr/doc/geo_0003-4010_1963_num_72_391_16430",
+      "type": "article_scientifique",
+      "licence": "accès libre Persée, droits réservés",
+      "consulte_le": "2026-11-21",
+      "auteur": "Pierre Gourou",
+      "annee": 1963
+    },
+    {
+      "id": "S39",
+      "titre": "Wikidata — Pico Cão Grande (Q2082148)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q2082148",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S40",
+      "titre": "Wikidata — Pico de São Tomé (Q1471391)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q1471391",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S41",
+      "titre": "Wikidata — Rolas (Q1535148)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q1535148",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S42",
+      "titre": "Wikidata — Réserve de biosphère de l'île de Principe (Q22678696)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q22678696",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S43",
+      "titre": "Sao Tome and Principe — État partie à la Convention de 2003",
+      "institution": "UNESCO — Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/state/sao-tome-and-principe-ST",
+      "type": "unesco",
+      "licence": "© UNESCO, tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S44",
+      "titre": "Tchiloli — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Tchiloli",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S45",
+      "titre": "Littérature santoméenne — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Litt%C3%A9rature_de_Sao_Tom%C3%A9-et-Principe",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S46",
+      "titre": "Wikidata — Auto de Floripes (Q60242395)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q60242395",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S47",
+      "titre": "Danço Congo — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Dan%C3%A7o_Congo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S48",
+      "titre": "Music of São Tomé and Príncipe — Wikipedia (en)",
+      "institution": "Wikipédia",
+      "url": "https://en.wikipedia.org/wiki/Music_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S49",
+      "titre": "Wikidata — Danço Congo (Q16546187)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q16546187",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S50",
+      "titre": "Culture de Sao Tomé-et-Principe — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Culture_de_Sao_Tom%C3%A9-et-Principe",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S51",
+      "titre": "Cuisine de Sao Tomé-et-Principe — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Cuisine_de_Sao_Tom%C3%A9-et-Principe",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S52",
+      "titre": "Amador's revolt — Wikipedia (en)",
+      "institution": "Wikipédia",
+      "url": "https://en.wikipedia.org/wiki/Amador%27s_revolt",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S53",
+      "titre": "Wikidata — Amador (Q6104546)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q6104546",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S54",
+      "titre": "Wikidata — Manuel do Rosário Pinto (Q139099103)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q139099103",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S55",
+      "titre": "Morreu a poetisa são-tomense Manuela Margarido",
+      "institution": "Público",
+      "url": "http://publico.pt/cultura/noticia/morreu-a-poetisa-saotomense-manuela-margarido-1287955",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2007
+    },
+    {
+      "id": "S56",
+      "titre": "Caetano da Costa Alegre — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Caetano_da_Costa_Alegre",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S57",
+      "titre": "Wikidata — Caetano da Costa Alegre (Q120241)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q120241",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S58",
+      "titre": "L'île de Sâo Tomé (note critique de l'ouvrage de F. Tenreiro)",
+      "institution": "Les Cahiers d'Outre-Mer (Persée)",
+      "url": "https://www.persee.fr/doc/caoum_0373-5834_1962_num_15_57_2239",
+      "type": "article_scientifique",
+      "licence": "accès libre Persée, droits réservés",
+      "consulte_le": "2026-11-21",
+      "auteur": "Suzanne Daveau",
+      "annee": 1962
+    },
+    {
+      "id": "S59",
+      "titre": "Olinda Beja vence prémio literário Francisco José Tenreiro",
+      "institution": "Téla Nón",
+      "url": "http://www.telanon.info/cultura/2013/02/22/12552/olinda-beja-vence-premio-literario-francisco-jose-tenreiro/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "auteur": "Sónia Lopes",
+      "annee": 2013
+    },
+    {
+      "id": "S60",
+      "titre": "Wikidata — Francisco José Tenreiro (Q1442055)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q1442055",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S61",
+      "titre": "Alda do Espírito Santo, militante de l'indépendance",
+      "institution": "L'Histoire par les femmes",
+      "url": "https://histoireparlesfemmes.com/2019/10/30/alda-do-espirito-santo-militante-independance/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2019
+    },
+    {
+      "id": "S62",
+      "titre": "Wikidata — Alda do Espírito Santo (Q457401)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q457401",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S63",
+      "titre": "Wikidata — Manuela Margarido (Q2365590)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q2365590",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S64",
+      "titre": "Morreu Conceição Lima, a poetisa são-tomense traduzida em todo o mundo",
+      "institution": "CNN Portugal (Agência Lusa)",
+      "url": "https://cnnportugal.iol.pt/obito/conceicao-deus-lima/morreu-conceicao-lima-a-poetisa-sao-tomense-traduzida-em-todo-o-mundo/20260515/6a06f674d34e28842c841055",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2026
+    },
+    {
+      "id": "S65",
+      "titre": "\"The House\" by Conceição Lima (trad. Amanda Hopkinson)",
+      "institution": "Words Without Borders",
+      "url": "https://www.wordswithoutborders.org/article/the-house",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2007
+    },
+    {
+      "id": "S66",
+      "titre": "Wikidata — Conceição Lima (Q1123692)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q1123692",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S67",
+      "titre": "Wikidata — Olinda Beja (Q21290381)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q21290381",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S68",
+      "titre": "Maria das Neves — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Maria_das_Neves",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S69",
+      "titre": "Wikidata — Maria das Neves (Q454046)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q454046",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S70",
+      "titre": "Maria do Carmo Silveira — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Maria_do_Carmo_Silveira",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S71",
+      "titre": "Wikidata — Maria do Carmo Silveira (Q441483)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q441483",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S72",
+      "titre": "Naide Gomes — profil",
+      "institution": "World Athletics",
+      "url": "https://www.worldathletics.org/athletes/-/14294914",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S73",
+      "titre": "Naide Gomes — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Naide_Gomes",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S74",
+      "titre": "Wikidata — Naide Gomes (Q236416)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q236416",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S75",
+      "titre": "Manuel Pinto da Costa — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Manuel_Pinto_da_Costa",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S76",
+      "titre": "Présidentielle à São Tomé-et-Príncipe : la fin d'une histoire sans fin",
+      "institution": "Jeune Afrique",
+      "url": "https://www.jeuneafrique.com/mag/349136/politique/presidentielle-a-sao-tome-principe-fin-dune-histoire-fin/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "auteur": "Claire Rainfroy",
+      "annee": 2016
+    },
+    {
+      "id": "S77",
+      "titre": "Wikidata — Manuel Pinto da Costa (Q295049)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q295049",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S78",
+      "titre": "Governo de transição : recebeu batata quente em 1974 (entretien avec Leonel Mário d'Alva)",
+      "institution": "Téla Nón",
+      "url": "https://www.telanon.info/suplemento/entrevista/2010/07/12/4745/governo-de-transicao-recebeu-batata-quente-en-1974/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2010
+    },
+    {
+      "id": "S79",
+      "titre": "Miguel Trovoada — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Miguel_Trovoada",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S80",
+      "titre": "Wikidata — Miguel Trovoada (Q504522)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q504522",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S81",
+      "titre": "Leonel Mário d'Alva — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Leonel_M%C3%A1rio_d%27Alva",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S82",
+      "titre": "Wikidata — Leonel Mário d'Alva (Q1287504)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q1287504",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S83",
+      "titre": "Evaristo Carvalho — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Evaristo_Carvalho",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S84",
+      "titre": "Wikidata — Evaristo Carvalho (Q709734)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q709734",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S85",
+      "titre": "Olinda Beja — Wikipédia (fr)",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Olinda_Beja",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    }
+  ]
+}

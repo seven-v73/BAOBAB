@@ -1,0 +1,3335 @@
+{
+  "code": "DJ",
+  "nom": "Djibouti",
+  "region": "est",
+  "wikidata": "Q977",
+  "maj": "2026-11-21",
+  "pays": {
+    "nom_officiel": "République de Djibouti",
+    "capitale": "Djibouti",
+    "langues_officielles": [
+      "arabe",
+      "français"
+    ],
+    "langues_nationales": [
+      "afar",
+      "somali"
+    ],
+    "population": {
+      "valeur": 1184076,
+      "annee": 2025,
+      "source": "S1"
+    },
+    "superficie_km2": 23200,
+    "monnaie": "Franc Djibouti (DJF)",
+    "resume": "Djibouti occupe un petit territoire de la Corne de l'Afrique, entre la mer Rouge et le golfe d'Aden, à la frontière de l'Érythrée, de l'Éthiopie et de la Somalie (Somaliland). Ses terres arides abritent le point le plus bas du continent, le lac Assal, ainsi que le lac Abbé, où les chasseurs-pêcheurs puis les premiers éleveurs de la région ont laissé de nombreux sites. Le pays actuel résulte de la colonisation française à partir de 1884 : territoire d'Obock, Côte française des Somalis, puis Territoire français des Afars et des Issas, avant l'indépendance du 27 juin 1977. Les langues nationales sont l'afar et le somali, les langues officielles l'arabe et le français, et la vie sociale s'organise autour de plusieurs communautés, dont les Afars, les Issas, les Gadabuursi, les Issaqs et des familles arabes installées de longue date. Le patrimoine immatériel reconnu par l'UNESCO comprend le xeedho, plat offert dans le cadre du mariage, le droit coutumier oral xeer ciise et la procession nuptiale zaffa, tandis que le pays n'a pas encore de bien inscrit au patrimoine mondial mais une liste indicative de dix sites déposée en 2015.",
+    "sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S19",
+      "S20"
+    ]
+  },
+  "langues": [
+    {
+      "id": "DJ-langue-afar",
+      "nom": "Afar",
+      "nom_local": "Qafar af",
+      "description": "L'afar est l'une des deux langues nationales de Djibouti et la langue des Afars, établis surtout au nord et à l'ouest du pays ainsi qu'en Éthiopie et en Érythrée. Elle appartient à la branche couchitique de la famille afro-asiatique. Selon la fiche de l'Université Laval, elle recule dans la capitale au profit du somali et du français ; elle a été adaptée à l'alphabet latin en 1975 par deux membres de l'Union pour le développement culturel.",
+      "famille": "Afro-asiatique, couchitique, couchitique oriental, groupe saho-afar",
+      "glottocode": "afar1241",
+      "statut_linguistique": [
+        "nationale"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "locuteurs": {
+        "valeur": 82700,
+        "annee": 2009,
+        "source": "S7"
+      },
+      "regions": [
+        "Nord et Ouest (Obock, Tadjourah, Dikhil)"
+      ],
+      "wikidata": "Q27811",
+      "sources": [
+        "S8",
+        "S6",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode afar1241 lu sur Glottolog ; classification lue via Glottolog. Effectif 2009 : locuteurs d'afar dans la capitale seulement, tel que cité par Wikipédia (Arab Social Report)."
+      }
+    },
+    {
+      "id": "DJ-langue-somali",
+      "nom": "Somali",
+      "nom_local": "Af-Soomaali",
+      "description": "Le somali est la seconde langue nationale du pays et, selon la fiche de l'Université Laval, la vraie langue véhiculaire sur l'ensemble du territoire. Il est parlé par les Issas, les Gadabuursi et les Issaqs, trois ensembles somalis. L'État a décidé en 1972 de l'écrire en alphabet latin et de lui donner le statut de langue nationale.",
+      "famille": "Afro-asiatique, couchitique, couchitique oriental, omo-tana oriental",
+      "glottocode": "soma1255",
+      "statut_linguistique": [
+        "nationale",
+        "véhiculaire"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "locuteurs": {
+        "valeur": 598000,
+        "annee": 2009,
+        "source": "S7"
+      },
+      "regions": [
+        "Capitale et Sud"
+      ],
+      "wikidata": "Q13275",
+      "sources": [
+        "S9",
+        "S6",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode soma1255 lu sur Glottolog. Effectif 2009 : locuteurs dans la capitale seulement, tel que cité par Wikipédia."
+      }
+    },
+    {
+      "id": "DJ-langue-arabe",
+      "nom": "Arabe",
+      "nom_local": "العربية (al-ʿarabiyya)",
+      "description": "L'arabe est langue officielle de la République avec le français, selon la Constitution. Dans la vie courante, les familles d'origine arabe parlent des variétés régionales (yéménite, omanaise), tandis que l'arabe standard sert à l'écrit et à une filière scolaire arabophone créée par un baccalauréat en langue arabe en 2004. La fiche de l'Université Laval le décrit comme seconde langue de communication, derrière le somali.",
+      "famille": "Afro-asiatique, sémitique, sémitique occidental, sémitique central",
+      "glottocode": "arab1395",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "ecritures": [
+        "arabe"
+      ],
+      "wikidata": "Q13955",
+      "regions": [
+        "Tout le pays, en particulier la capitale"
+      ],
+      "sources": [
+        "S3",
+        "S6",
+        "S11"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode arab1395 (Arabic) lu sur Glottolog. Constitution : articles sur les langues officielles lus sur Constitute."
+      }
+    },
+    {
+      "id": "DJ-langue-arabe-standard",
+      "nom": "Arabe standard moderne",
+      "nom_local": "العربية الفصحى",
+      "description": "L'arabe standard moderne est la forme écrite et formelle de l'arabe, utilisée dans l'enseignement arabophone, les textes religieux et certaines communications officielles. À Djibouti, la loi sur le système éducatif et le baccalauréat en langue arabe de 2004 lui donnent une place dans le secondaire. Il coexiste avec les variétés parlées au quotidien.",
+      "famille": "Afro-asiatique, sémitique, sémitique occidental, sémitique central",
+      "glottocode": "stan1318",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "ecritures": [
+        "arabe"
+      ],
+      "wikidata": "Q56467",
+      "regions": [
+        "Tout le pays"
+      ],
+      "sources": [
+        "S3",
+        "S6",
+        "S12"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode stan1318 (Standard Arabic) lu sur Glottolog ; le seed n'en donnait pas."
+      }
+    },
+    {
+      "id": "DJ-langue-arabe-taizzi-adeni",
+      "nom": "Arabe ta'izzi-adeni (arabe yéménite)",
+      "description": "Cette variété d'arabe, dite aussi yéménite, est parlée par la communauté d'origine yéménite établie dans la capitale depuis le développement du port. La fiche de l'Université Laval estime cette communauté à environ 84 000 personnes en 2023. Glottolog la rattache aux arabes de la péninsule arabique.",
+      "famille": "Afro-asiatique, sémitique, sémitique occidental, sémitique central, arabe de la péninsule arabique",
+      "glottocode": "taiz1242",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "ecritures": [
+        "arabe"
+      ],
+      "wikidata": "Q56579",
+      "regions": [
+        "Ville de Djibouti"
+      ],
+      "sources": [
+        "S10",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode taiz1242 lu sur Glottolog (qui liste Djibouti Arabic parmi les noms alternatifs, mais pas Djibouti parmi les pays). Lien avec la communauté yéménite : fiche Laval."
+      }
+    },
+    {
+      "id": "DJ-langue-francais",
+      "nom": "Français",
+      "nom_local": "français",
+      "description": "Le français est langue officielle, héritée de la période coloniale, et principale langue de scolarisation du primaire à l'université. La fiche de l'Université Laval note qu'il est surtout réservé à la capitale et aux échanges formels. Le rapport 2018 de l'OIF, tel que cité par Wikipédia, chiffre à 50 % la part des francophones.",
+      "famille": "Indo-européen, italique, roman",
+      "glottocode": "stan1290",
+      "statut_linguistique": [
+        "officielle"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "wikidata": "Q150",
+      "regions": [
+        "Ville de Djibouti et administration"
+      ],
+      "sources": [
+        "S3",
+        "S6",
+        "S7",
+        "S13"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode stan1290 lu sur Glottolog."
+      }
+    },
+    {
+      "id": "DJ-langue-amharique",
+      "nom": "Amharique",
+      "nom_local": "አማርኛ (amarəñña)",
+      "description": "L'amharique est parlé à Djibouti par la communauté d'origine éthiopienne, notamment dans la capitale, où il est l'une des langues de la vie quotidienne selon Wikipédia. La fiche de l'Université Laval compte environ 3 900 personnes amharas en 2023. Glottolog classe l'amharique parmi les langues sémitiques d'Éthiopie et indique sa présence à Djibouti.",
+      "famille": "Afro-asiatique, sémitique, éthiosémitique méridional",
+      "glottocode": "amha1245",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "wikidata": "Q28244",
+      "regions": [
+        "Ville de Djibouti"
+      ],
+      "sources": [
+        "S14",
+        "S6",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode amha1245 lu sur Glottolog (Djibouti listé dans les pays). QID Wikidata Q28244 vérifié sur Wikidata."
+      }
+    },
+    {
+      "id": "DJ-langue-anglais",
+      "nom": "Anglais",
+      "nom_local": "English",
+      "description": "L'anglais n'a pas de statut officiel à Djibouti, mais sa présence a augmenté avec l'installation de bases militaires étrangères, dont une base américaine depuis 2002. Wikipédia relève qu'il arrive en deuxième position, après le français, dans les messages Facebook publiés depuis le pays en 2014.",
+      "famille": "Indo-européen, germanique",
+      "glottocode": "stan1293",
+      "statut_linguistique": [
+        "langue étrangère de communication"
+      ],
+      "ecritures": [
+        "latin"
+      ],
+      "wikidata": "Q1860",
+      "regions": [
+        "Ville de Djibouti"
+      ],
+      "sources": [
+        "S15",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Glottocode stan1293 lu sur Glottolog. Usage à Djibouti seulement attesté par Wikipédia. QID Wikidata Q1860 vérifié sur Wikidata."
+      }
+    }
+  ],
+  "peuples": [
+    {
+      "id": "DJ-peuple-afars",
+      "nom": "Afars",
+      "description": "Les Afars vivent surtout au nord et à l'ouest de Djibouti, ainsi qu'en Éthiopie et en Érythrée, et parlent l'afar. Leur territoire était organisé en unités politiques traditionnelles souvent appelées sultanats, notamment ceux de Tadjourah et de Rehayto, dont la formation est située entre les XVe et XVIe siècles. Beaucoup vivent d'élevage, de pêche sur la côte ou de caravanes de sel. La fiche de l'Université Laval les estime à environ 334 000 personnes à Djibouti en 2023, soit 29,5 %, tandis que Wikipédia cite un chiffre plus élevé : aucun recensement détaillé par groupe n'a été publié.",
+      "langues": [
+        "afar"
+      ],
+      "regions": [
+        "Obock",
+        "Tadjourah",
+        "Dikhil",
+        "Nord",
+        "Ouest"
+      ],
+      "wikidata": "Q211720",
+      "pays_partages": [
+        "ET",
+        "ER"
+      ],
+      "organisation": "Territoire structuré en entités politiques (bàcó), clans patrilinéaires ; droit coutumier complémentaire du droit musulman (Wikipédia).",
+      "activites": [
+        "élevage",
+        "pêche",
+        "commerce du sel"
+      ],
+      "sources": [
+        "S31",
+        "S6",
+        "S5",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Effectifs contradictoires entre sources (334 000 selon Laval, 498 300 selon Wikipédia) ; aucune donnée de recensement par groupe publiée."
+      }
+    },
+    {
+      "id": "DJ-peuple-issas",
+      "nom": "Issas",
+      "description": "Les Issas forment un ensemble somali implanté dans le sud de Djibouti et le long du chemin de fer, ainsi qu'en Éthiopie et en Somalie. Leurs relations internes et avec leurs voisins reposent sur un droit coutumier oral, le xeer, inscrit en 2024 au patrimoine immatériel de l'UNESCO avec l'Éthiopie et la Somalie. L'Université Laval estime les Issas à environ 552 000 personnes à Djibouti en 2023, soit 48,7 %.",
+      "langues": [
+        "somali"
+      ],
+      "regions": [
+        "Ville de Djibouti",
+        "Dikhil",
+        "Arta",
+        "Ali Sabieh",
+        "Sud"
+      ],
+      "wikidata": "Q1170113",
+      "pays_partages": [
+        "ET",
+        "SO"
+      ],
+      "organisation": "Xeer, droit coutumier oral.",
+      "activites": [
+        "pastoralisme",
+        "travail portuaire"
+      ],
+      "sources": [
+        "S32",
+        "S6",
+        "S17"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Effectifs : Laval 2023 ; Wikipédia donne une estimation différente. Relations Afar/Issa : l'article de Simon Imbert-Vier souligne que cette lecture binaire est une construction coloniale qui néglige d'autres habitants."
+      }
+    },
+    {
+      "id": "DJ-peuple-gadabuursi",
+      "nom": "Gadabuursi",
+      "description": "Les Gadabuursi sont un ensemble somali établi surtout en Éthiopie et au Somaliland (région d'Awdal), avec une présence minoritaire à Djibouti. Ils parlent le somali et forment, avec les Issas et les Issaqs, l'un des trois ensembles somalis du pays selon la fiche de l'Université Laval.",
+      "langues": [
+        "somali"
+      ],
+      "regions": [
+        "Sud"
+      ],
+      "wikidata": "Q957703",
+      "pays_partages": [
+        "ET",
+        "SO"
+      ],
+      "sources": [
+        "S33",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La fiche Wikipédia est peu sourcée ; l'ancrage djiboutien est surtout attesté par Laval et Wikipédia (Démographie)."
+      }
+    },
+    {
+      "id": "DJ-peuple-issaqs",
+      "nom": "Issaqs",
+      "description": "Les Issaqs sont le troisième ensemble somali présent à Djibouti, après les Issas et les Gadabuursi. Selon l'Université Laval, ils font partie des Somalis qui habitent le sud du pays. Les estimations publiées de leur part dans la population varient fortement d'une source à l'autre.",
+      "langues": [
+        "somali"
+      ],
+      "regions": [
+        "Sud"
+      ],
+      "wikidata": "Q1854254",
+      "pays_partages": [
+        "SO",
+        "ET"
+      ],
+      "sources": [
+        "S6",
+        "S40"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Peu documenté ; une étude de 2003 citée par Wikipédia (Démographie) donne 13,3 % de la population, sans recensement officiel."
+      }
+    },
+    {
+      "id": "DJ-peuple-arabes",
+      "nom": "Communautés arabes (yéménite et omanaise)",
+      "description": "Des familles d'origine yéménite et omanaise sont installées de longue date à Djibouti, souvent liées au commerce du port et de la ville fondée à la fin du XIXe siècle. La liste indicative de l'UNESCO rappelle l'installation de nombreux commerçants yéménites à partir de 1890. La fiche de l'Université Laval estime ces communautés à environ 91 000 (omanaise) et 84 000 (yéménite) personnes en 2023.",
+      "langues": [
+        "arabe ta'izzi-adeni",
+        "arabe omanais"
+      ],
+      "regions": [
+        "Ville de Djibouti"
+      ],
+      "pays_partages": [
+        "YE",
+        "OM"
+      ],
+      "activites": [
+        "commerce"
+      ],
+      "sources": [
+        "S6",
+        "S23",
+        "S35"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Estimations Laval 2023, sans recensement détaillé."
+      }
+    },
+    {
+      "id": "DJ-peuple-amharas",
+      "nom": "Amharas (communauté éthiopienne)",
+      "description": "Une communauté d'origine éthiopienne, en grande partie amhara, vit dans la capitale. Selon la fiche de l'Université Laval, elle compte environ 3 900 personnes en 2023. Les liens avec l'Éthiopie sont anciens, car le port de Djibouti est la principale ouverture maritime de l'hinterland éthiopien depuis la construction du chemin de fer.",
+      "langues": [
+        "amharique"
+      ],
+      "regions": [
+        "Ville de Djibouti"
+      ],
+      "pays_partages": [
+        "ET"
+      ],
+      "sources": [
+        "S6",
+        "S5",
+        "S14"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-peuple-europeens",
+      "nom": "Communautés d'origine européenne (françaises, grecques)",
+      "description": "La fiche de l'Université Laval compte environ 24 000 personnes d'origine française à Djibouti en 2023 et mentionne un certain nombre de Grecs. Cette présence est liée à l'histoire coloniale, à la base militaire et au commerce du port. Ces communautés utilisent le français et, pour les Grecs, le grec.",
+      "langues": [
+        "français",
+        "grec"
+      ],
+      "regions": [
+        "Ville de Djibouti"
+      ],
+      "pays_partages": [
+        "FR",
+        "GR"
+      ],
+      "sources": [
+        "S6",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-peuple-asie",
+      "nom": "Communautés d'origine asiatique (indo-pakistanaise, chinoise)",
+      "description": "La capitale accueille de petites communautés indo-pakistanaise et chinoise, comptées à environ 2 200 et 2 000 personnes en 2023 par l'Université Laval. Le mandarin et l'hindi y sont parlés. Wikipédia cite aussi la présence de l'hindi parmi les langues entendues dans le pays.",
+      "langues": [
+        "hindi",
+        "mandarin"
+      ],
+      "regions": [
+        "Ville de Djibouti"
+      ],
+      "pays_partages": [
+        "PK",
+        "IN",
+        "CN"
+      ],
+      "sources": [
+        "S6",
+        "S35"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "id": "DJ-site-abourma",
+      "nom": "Gravures rupestres d'Abourma",
+      "type": "liste_indicative",
+      "description": "Inscrit sur la liste indicative de Djibouti déposée en 2015 (aucun bien djiboutien n'est inscrit sur la Liste du patrimoine mondial à ce jour). Sur le massif de Makarrassou, dans la région de Tadjourah, des gravures couvrent environ trois kilomètres de roches basaltiques. On y reconnaît des scènes de chasse, de combat et de vie pastorale, avec des animaux sauvages (éléphants, girafes, antilopes) et domestiques. Selon le dossier de l'État, l'art pariétal y remonte à un passé très ancien et l'occupation du site se poursuit jusqu'à nos jours ; ces datations restent à confirmer par des études indépendantes.",
+      "regions": [
+        "Tadjourah",
+        "massif de Makarrassou"
+      ],
+      "coordonnees": {
+        "lat": 11.90505,
+        "lng": 42.481649
+      },
+      "sources": [
+        "S22",
+        "S20"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées et critères (i)(iii) lus sur la liste indicative ; datation d'ordre déclaratif."
+      }
+    },
+    {
+      "id": "DJ-site-tumulus-awellos",
+      "nom": "Tumulus (awellos)",
+      "type": "liste_indicative",
+      "description": "Inscrit sur la liste indicative de Djibouti déposée en 2015 (aucun bien djiboutien n'est inscrit sur la Liste du patrimoine mondial à ce jour). Les awellos, nom local donné à des amas de pierres rassemblées par les ancêtres, sont des ensembles funéraires de pierres volcaniques noires, de plan plat ou pyramidal. Ils sont concentrés près de Randa (région de Tadjourah) et vers Dasbyo (région d'Ali Sabieh), avec des stèles aux extrémités ; le dossier de l'État les rattache à une civilisation dite asgoumhatienne du début du IIIe millénaire av. J.-C. et signale la menace du pillage.",
+      "regions": [
+        "Randa (Tadjourah)",
+        "Dasbyo (Ali Sabieh)"
+      ],
+      "periode": "vers le IIIe millénaire av. J.-C. (selon le dossier de l'État)",
+      "sources": [
+        "S21",
+        "S20"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Datation et attribution culturelle d'ordre déclaratif (dossier de l'État). La liste indicative donne des coordonnées incohérentes (E42 82) : non reprises."
+      },
+      "sensible": true,
+      "note_sensibilite": "Complexes funéraires anciens : sépultures et risque de pillage ; ne pas diffuser de localisation précise ; fiche à valider par une institution djiboutienne."
+    },
+    {
+      "id": "DJ-site-ville-djibouti",
+      "nom": "Paysage urbain historique de la ville de Djibouti",
+      "type": "liste_indicative",
+      "description": "Inscrit sur la liste indicative de Djibouti déposée en 2015 (aucun bien djiboutien n'est inscrit sur la Liste du patrimoine mondial à ce jour). La ville de Djibouti est née à la fin du XIXe siècle sur le cap Djibouti, presqu'île marécageuse, à l'initiative du gouverneur Léonce Lagarde, avec un plan en damier, des commerçants européens et yéménites, un port et la gare du chemin de fer vers l'Éthiopie inaugurée en 1900. Le dossier de l'État mentionne la place Ménélik, devenue place du 27 Juin, et la résidence du gouverneur, aujourd'hui palais présidentiel.",
+      "regions": [
+        "Ville de Djibouti"
+      ],
+      "periode": "depuis 1888-1896",
+      "wikidata": "Q3604",
+      "coordonnees": {
+        "lat": 11.6,
+        "lng": 43.16667
+      },
+      "sources": [
+        "S23",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées N11 36 E43 10 lues sur la liste indicative."
+      }
+    },
+    {
+      "id": "DJ-site-lac-assal",
+      "nom": "Lac Assal",
+      "type": "liste_indicative",
+      "description": "Inscrit sur la liste indicative de Djibouti déposée en 2015 (aucun bien djiboutien n'est inscrit sur la Liste du patrimoine mondial à ce jour). Ce lac salé sans exutoire, dans le rift afar, est situé à 153 mètres sous le niveau de la mer, soit le point le plus bas d'Afrique, et son eau est plus salée que celle de la mer Morte. Il est séparé du golfe par le volcan Ardoukôba, dont la dernière éruption date de 1978. Le sel y fait l'objet d'une récolte artisanale et d'un commerce traditionnel par caravanes de dromadaires.",
+      "regions": [
+        "Tadjourah"
+      ],
+      "wikidata": "Q81239",
+      "coordonnees": {
+        "lat": 11.68333,
+        "lng": 42.41667
+      },
+      "sources": [
+        "S24"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées N11°41' E42°25' converties en degrés décimaux."
+      }
+    },
+    {
+      "id": "DJ-site-lac-abbe",
+      "nom": "Lac Abbé (Abhe Bad) et bassin du Gobaad",
+      "type": "liste_indicative",
+      "description": "Inscrit sur la liste indicative de Djibouti déposée en 2015 (aucun bien djiboutien n'est inscrit sur la Liste du patrimoine mondial à ce jour). Le lac Abbé est un lac salé à cheval sur la frontière éthiopienne, alimenté par l'Awash et connu pour ses cheminées de vapeur. Autour de lui, plus de cent sites archéologiques documentent des chasseurs-cueilleurs et pêcheurs, puis les premiers éleveurs de la Corne de l'Afrique. Le lac a perdu plus des deux tiers de sa surface entre 1939 et 1989.",
+      "regions": [
+        "Dikhil"
+      ],
+      "wikidata": "Q306194",
+      "coordonnees": {
+        "lat": 11.17917,
+        "lng": 41.79333
+      },
+      "sources": [
+        "S28",
+        "S29",
+        "S39"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées lues dans la liste indicative (N 11 10 45, E 41 47 36). Le lac est partagé avec l'Éthiopie."
+      }
+    },
+    {
+      "id": "DJ-site-asa-koma",
+      "nom": "Asa Koma",
+      "type": "site_archeologique",
+      "description": "Dans la plaine du Gobaad, ce site abrite des poteries décorées de motifs ponctués et incisés, datées du début du IIe millénaire av. J.-C., ainsi que des os de bœufs et de caprins domestiqués. Il fait partie des plus anciens sites néolithiques connus de la région et montre des liens avec des céramiques de la péninsule arabique. La pêche y complétait l'élevage.",
+      "regions": [
+        "Dikhil",
+        "plaine du Gobaad"
+      ],
+      "periode": "début du IIe millénaire av. J.-C.",
+      "wikidata": "Q18697293",
+      "sources": [
+        "S37",
+        "S28",
+        "S29"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Les liens avec l'Arabie du Sud sont rapportés par Wikipédia à partir de publications scientifiques."
+      }
+    },
+    {
+      "id": "DJ-site-region-obock",
+      "nom": "Paysages naturels de la région d'Obock",
+      "type": "liste_indicative",
+      "description": "Inscrit sur la liste indicative de Djibouti déposée en 2015 (aucun bien djiboutien n'est inscrit sur la Liste du patrimoine mondial à ce jour). Au nord-est du pays, le long du détroit de Bab-el-Mandeb, la région réunit des mangroves (Godoria, Khor Angar, Ras Siyan), le massif des monts Mabla et l'archipel volcanique des Sept Frères. Ces milieux abritent une forêt d'altitude et une avifaune variée. Le dossier présente cet ensemble comme un paysage naturel d'intérêt exceptionnel.",
+      "regions": [
+        "Obock"
+      ],
+      "wikidata": "Q844929",
+      "sources": [
+        "S26"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-site-obock",
+      "nom": "Obock",
+      "type": "ville_historique",
+      "description": "Cette ville côtière afar fut le premier point d'ancrage français : un traité de 1862 y cède aux Français le mouillage, puis Léonce Lagarde y arrive en 1884. Elle perd son rôle administratif et portuaire quand Djibouti est fondée en 1888 et devient chef-lieu en 1896. Elle reste aujourd'hui chef-lieu de la région du même nom.",
+      "regions": [
+        "Obock"
+      ],
+      "periode": "depuis 1862",
+      "wikidata": "Q860179",
+      "sources": [
+        "S38",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-site-iles-moucha-maskali",
+      "nom": "Îles Moucha et Maskali",
+      "type": "liste_indicative",
+      "description": "Inscrit sur la liste indicative de Djibouti déposée en 2015 (aucun bien djiboutien n'est inscrit sur la Liste du patrimoine mondial à ce jour). À l'entrée du golfe de Tadjourah, ces deux îles sont des récifs coralliens émergés au Pléistocène supérieur, avec mangroves, plages et fonds coralliens. La faune marine y est riche (requin-baleine, tortues) et le goéland à iris blanc y niche. Le dossier précise que le site est une aire marine protégée.",
+      "regions": [
+        "golfe de Tadjourah"
+      ],
+      "wikidata": "Q258363",
+      "coordonnees": {
+        "lat": 11.21667,
+        "lng": 43.18333
+      },
+      "sources": [
+        "S25"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées N11°13' E43°11' converties en degrés décimaux."
+      }
+    },
+    {
+      "id": "DJ-site-foret-day",
+      "nom": "Forêt du Day (parc national)",
+      "type": "liste_indicative",
+      "description": "Inscrit sur la liste indicative de Djibouti déposée en 2015 (aucun bien djiboutien n'est inscrit sur la Liste du patrimoine mondial à ce jour). Située à une trentaine de kilomètres à l'ouest du golfe de Tadjourah, sur le massif du Goda, la forêt du Day est un reste de forêt de genévriers (Juniperus procera) qui culmine vers 1 780 mètres. Elle est passée d'environ 7 500 hectares il y a deux siècles à moins de 900 aujourd'hui, selon le dossier. Elle est protégée depuis un arrêté de 1939.",
+      "regions": [
+        "Tadjourah",
+        "massif du Goda"
+      ],
+      "wikidata": "Q141549",
+      "coordonnees": {
+        "lat": 11.8,
+        "lng": 42.68333
+      },
+      "sources": [
+        "S27"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coordonnées N11°48' E42°41' converties en degrés décimaux."
+      }
+    },
+    {
+      "id": "DJ-site-tadjourah",
+      "nom": "Tadjourah",
+      "type": "ville_historique",
+      "description": "Tadjourah, sur la rive nord du golfe du même nom, est l'une des deux plus anciennes villes permanentes de la région, en contact avec l'islam dès le VIIe siècle et liée aux sultanats d'Ifat puis d'Adal selon Wikipédia. Siège d'un sultanat afar, elle est le chef-lieu de la région de Tadjourah. Une mosquée ancienne, Korijib, y est citée parmi les plus vieilles de la Corne de l'Afrique.",
+      "regions": [
+        "Tadjourah"
+      ],
+      "wikidata": "Q820972",
+      "sources": [
+        "S5",
+        "S80",
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Ancienneté de la mosquée Korijib rapportée seulement par Wikipédia ; à vérifier auprès du ministère de la Culture."
+      }
+    },
+    {
+      "id": "DJ-site-loyada",
+      "nom": "Loyada",
+      "type": "lieu_de_memoire",
+      "description": "Loyada fut fixée comme limite côtière entre les colonies française et britannique par un échange de notes de 1888. Une plage et une palmeraie y abritent, selon Wikipédia, des tombes de dirigeants historiques de la région. C'est aussi vers Loyada que roulait en 1976 le car scolaire pris en otage, épisode douloureux de la fin de la période coloniale.",
+      "regions": [
+        "Loyada (Ali Sabieh)"
+      ],
+      "wikidata": "Q983900",
+      "sources": [
+        "S5",
+        "S80"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Fiche à valider par un partenaire djiboutien ; événement de 1976 décrit de manière factuelle (voir fiche événement)."
+      },
+      "sensible": true,
+      "note_sensibilite": "Lieu associé à un épisode de violence (1976) et à des tombes ; formulation neutre, à valider."
+    }
+  ],
+  "traditions": [
+    {
+      "id": "DJ-tradition-zaffa",
+      "nom": "La zaffa, procession nuptiale traditionnelle",
+      "categorie": "rite",
+      "description": "La zaffa est la procession qui accompagne le passage des mariés de la vie de célibataire à celle de couple : préparatifs, purification de la mariée, henné, vêtements et bijoux, puis cortège avec musique, chants et danses. Des gestes symboliques de protection, comme boire du lait ou casser un œuf, varient selon les communautés. L'élément, porté par sept pays dont Djibouti, a été inscrit en 2025 sur la Liste représentative.",
+      "communautes": [
+        "communautés afars (déclaration djiboutienne en afar et en français)"
+      ],
+      "regions": [
+        "Djibouti"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "02283",
+        "annee": 2025,
+        "url": "https://ich.unesco.org/en/RL/the-zaffa-in-the-traditional-wedding-02283"
+      },
+      "nom_local": "zaffa",
+      "sources": [
+        "S16",
+        "S19"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Inscription multinationale (Comores, Djibouti, Émirats arabes unis, Irak, Jordanie, Mauritanie, Somalie) ; la déclaration des communautés djiboutiennes existe en afar et en français."
+      }
+    },
+    {
+      "id": "DJ-tradition-xeer-ciise",
+      "nom": "Xeer Ciise, droit coutumier oral des communautés somali-issa",
+      "categorie": "oralite",
+      "description": "Le xeer ciise est un système de lois orales, transmis par récits, proverbes, jeux, poésie et rites d'initiation, qui comprend une constitution politique, un code pénal fondé sur la réconciliation et l'indemnisation, et un code de conduite sociale. Il organise la vie des communautés somali-issa d'Éthiopie, de Djibouti et de Somalie et promeut la résolution pacifique des conflits. Il a été inscrit en 2024 sur la Liste représentative.",
+      "communautes": [
+        "Issas"
+      ],
+      "regions": [
+        "Sud",
+        "Éthiopie",
+        "Somalie"
+      ],
+      "transmission": "vivante",
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "02087",
+        "annee": 2024,
+        "url": "https://ich.unesco.org/en/RL/xeer-ciise-oral-customary-laws-of-somali-issa-communities-in-ethiopia-djibouti-and-somalia-02087"
+      },
+      "nom_local": "xeer ciise",
+      "sources": [
+        "S17",
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Inscription multinationale (Éthiopie, Djibouti, Somalie). Wikipédia mentionne une lecture critique de l'anthropologue Günther Schlee sur le xeer : non reprise ici."
+      }
+    },
+    {
+      "id": "DJ-tradition-xeedho",
+      "nom": "Xeedho, plat offert par la belle-mère à son gendre",
+      "categorie": "cuisine",
+      "description": "Le xeedho est un plat offert par la mère de la mariée à son gendre pour célébrer la première semaine de mariage : un récipient taillé dans un tronc, rempli de morceaux de viande de dromadaire séchée, frite au beurre et conservée dans du ghee, puis emballé dans un panier, du cuir, des coquillages et des étoffes. Les femmes de la famille le préparent ensemble et les filles apprennent en observant. L'élément est inscrit depuis 2023 sur la Liste de sauvegarde urgente et le pays doit remettre un rapport en 2027.",
+      "communautes": [
+        "Familles djiboutiennes"
+      ],
+      "regions": [
+        "Djibouti"
+      ],
+      "transmission": "menacée",
+      "unesco": {
+        "liste": "Sauvegarde urgente",
+        "id": "02001",
+        "annee": 2023,
+        "url": "https://ich.unesco.org/en/USL/xeedho-02001"
+      },
+      "nom_local": "xeedho",
+      "sources": [
+        "S18",
+        "S19"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Facteurs de menace cités par l'UNESCO : intérêt déclinant des jeunes, peu de praticiennes, ressources insuffisantes, perte de la langue ancestrale."
+      }
+    },
+    {
+      "id": "DJ-tradition-malabo",
+      "nom": "Malabo, danse des femmes au mariage",
+      "categorie": "danse",
+      "description": "Le malabo est une danse exécutée uniquement par des femmes lors des cérémonies de mariage. Il s'accompagne de chants de louange. La journaliste Sylvie Clerfeuille le cite parmi les expressions où les Djiboutiennes sont très présentes, avec le nacna et le siliko.",
+      "communautes": [
+        "Communautés somali et afar"
+      ],
+      "regions": [
+        "Djibouti"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "nom_local": "malabo",
+      "sources": [
+        "S41"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-tradition-nacna-siliko",
+      "nom": "Danses nacna et siliko",
+      "categorie": "danse",
+      "description": "Le nacna est dansé aussi bien par des hommes que par des femmes, tandis que le siliko, accompagné de chants romantiques, est exécuté par de jeunes filles et de jeunes garçons. Ces danses participent aux fêtes et sont reprises par des troupes folkloriques comme le Groupe culturel national « 4 Mars » ou la troupe Qoran.",
+      "communautes": [
+        "Communautés somali et afar"
+      ],
+      "regions": [
+        "Djibouti"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "nom_local": "nacna ; siliko",
+      "sources": [
+        "S41"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-tradition-gabay",
+      "nom": "Gabay, poèmes épiques chantés",
+      "categorie": "oralite",
+      "description": "Le gabay est une forme de poésie épique chantée qui évoque l'histoire du pays et ses résistances aux envahisseurs. Selon Music In Africa, la chanteuse Fatouma Ahmed est considérée comme une interprète majeure du genre. Ce répertoire patriotique est repris par des artistes plus jeunes, y compris dans la diaspora.",
+      "communautes": [
+        "Somali (Djibouti)"
+      ],
+      "regions": [
+        "Djibouti"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "nom_local": "gabay",
+      "sources": [
+        "S41",
+        "S34"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-tradition-balwo-qarami",
+      "nom": "Balwo et qarami, chansons d'amour somali",
+      "categorie": "musique",
+      "description": "Le balwo est une forme de chanson sentimentale née d'un dialogue entre la voix grave de l'homme et la voix aiguë de la femme ; Music In Africa en attribue la création au compositeur Abdi Sinimo. Le qarami, style fusionnant des influences indiennes, yéménites et somali, a été lancé dans les années 1940 par le musicien Cabdillahi Qarshe. Ces deux genres sont depuis une quarantaine d'années les grands registres de la chanson populaire djiboutienne.",
+      "communautes": [
+        "Communautés somali"
+      ],
+      "regions": [
+        "Djibouti"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "nom_local": "balwo ; qarami",
+      "sources": [
+        "S41",
+        "S34"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-tradition-chants-louange",
+      "nom": "Chants de louange et chants prophétiques",
+      "categorie": "musique",
+      "description": "Les femmes djiboutiennes participent aux chants de louange comme le faras saare, le gaali saare, le malabo et le gobley, ainsi qu'aux chants prophétiques du devin, ou adal. Ces répertoires sont entretenus par des groupes folkloriques nationaux. Les termes et pratiques restent à documenter avec des spécialistes locaux.",
+      "communautes": [
+        "Communautés somali et afar"
+      ],
+      "regions": [
+        "Djibouti"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "nom_local": "faras saare ; gaali saare ; gobley ; adal",
+      "sources": [
+        "S41"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-tradition-caravanes-sel",
+      "nom": "Récolte et commerce du sel du lac Assal",
+      "categorie": "savoir",
+      "description": "Les nomades récoltent à la main le sel du lac Assal et le transportent en caravanes de dromadaires pour l'échanger contre d'autres denrées. Le dossier de l'État précise que cet échange peut atteindre des régions très éloignées, jusqu'au Tibesti ou au lac Tchad. La récolte artisanale reste autorisée et réglementée dans l'aire protégée.",
+      "communautes": [
+        "Afars"
+      ],
+      "regions": [
+        "Tadjourah",
+        "lac Assal"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S24"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Précisions sur les destinations lointaines issues du dossier de l'État, à confirmer par des études ethnographiques."
+      }
+    },
+    {
+      "id": "DJ-tradition-habitat-afar",
+      "nom": "Daboyta, tente afar en fibres de palmier",
+      "categorie": "architecture",
+      "description": "La tente traditionnelle afar, le daboyta, est faite de fibres de palmier doum et appartient à la femme. Elle accompagne un mode de vie fondé sur l'élevage, la pêche sur la côte et, dans certaines zones, l'agriculture irriguée. Wikipédia la présente comme l'habitat typique des pasteurs afars.",
+      "communautes": [
+        "Afars"
+      ],
+      "regions": [
+        "Nord",
+        "Ouest"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source principale : Wikipédia ; compléter par une source anthropologique."
+      }
+    },
+    {
+      "id": "DJ-tradition-vetements",
+      "nom": "Vêtements traditionnels (macawiis, dirac, garbasaar)",
+      "categorie": "textile",
+      "description": "Les hommes portent souvent le macawiis, pagne noué à la taille, et de nombreux nomades la robe de coton blanc appelée tobe. Les femmes portent le dirac, longue robe légère en coton ou polyester, avec un foulard (shash) et un châle (garbasaar) pour les femmes mariées. Lors des fêtes, elles se parent de bijoux et de coiffes particulières.",
+      "communautes": [
+        "Communautés somali et afar"
+      ],
+      "regions": [
+        "Djibouti"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique : Wikipédia ; à compléter."
+      }
+    },
+    {
+      "id": "DJ-tradition-cuisine",
+      "nom": "Cuisine du quotidien : lahoh, maraq, sambuusa",
+      "categorie": "cuisine",
+      "description": "La cuisine djiboutienne mêle des influences somali, afar, yéménites et éthiopiennes. Le lahoh, galette fine comparable à l'injera mais plus petite, ouvre souvent la journée avec du thé ; le maraq, soupe aux nombreuses variantes, compose les repas, et les sambuusas, petits triangles frits, sont servis à l'iftar pendant le ramadan. Les confiseries comme le xalawo accompagnent les fêtes et les mariages.",
+      "communautes": [
+        "Communautés somali, afar, yéménites"
+      ],
+      "regions": [
+        "Djibouti"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique : Wikipédia (d'après un guide touristique) ; à compléter."
+      }
+    },
+    {
+      "id": "DJ-tradition-fete-nationale",
+      "nom": "Fête nationale du 27 juin et Journée nationale des langues maternelles",
+      "categorie": "fete",
+      "description": "La fête nationale du 27 juin commémore l'indépendance de 1977. Un arrêté de 2006 organise aussi une Journée nationale des langues maternelles et une Journée nationale des artistes, qui s'appuient sur les langues et les répertoires des communautés du pays.",
+      "communautes": [
+        "Ensemble des Djiboutiens"
+      ],
+      "regions": [
+        "Djibouti"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S4",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "La date de la Journée nationale des langues maternelles n'est pas relevée dans la source : seul l'arrêté de 2006 est cité."
+      }
+    }
+  ],
+  "personnalites": [
+    {
+      "id": "DJ-personnalite-hassan-gouled-aptidon",
+      "nom": "Hassan Gouled Aptidon",
+      "wikidata": "Q297667",
+      "description": "Issu d'une famille d'agriculteurs, Hassan Gouled devient sénateur de la Côte française des Somalis de 1952 à 1958, puis député à Paris. Il préside la Ligue populaire africaine pour l'indépendance et devient en 1977 le premier président de la République de Djibouti. Il instaure en 1981 un régime de parti unique, que ses opposants accusent de favoriser son propre groupe.",
+      "roles": [
+        "premier président de la République de Djibouti",
+        "sénateur"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "naissance": {
+        "date": "1916-10-15",
+        "lieu": "Djibouti (état civil officiel) ; Lughaya selon Wikidata"
+      },
+      "deces": {
+        "date": "2006-11-21",
+        "lieu": "Djibouti"
+      },
+      "sources": [
+        "S42",
+        "S43",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date et lieu de naissance contestés : le Sénat français donne le 15 octobre 1916 à Djibouti, Wikipédia estime plutôt 1908-1910 près de Lughaya (Somaliland)."
+      }
+    },
+    {
+      "id": "DJ-personnalite-mahmoud-harbi",
+      "nom": "Mahmoud Harbi",
+      "wikidata": "Q1884762",
+      "description": "Engagé volontaire dans les Forces françaises libres pendant la Seconde Guerre mondiale, Mahmoud Harbi cofonde en 1946 le Club de la jeunesse somalie et dankalie. Député à Paris dès 1956 et vice-président du conseil du territoire en 1957, il appelle à voter non au référendum de 1958, qui maintient le territoire sous souveraineté française. Il quitte alors le pays et meurt en 1960 dans un accident d'avion, dont les circonstances restent discutées.",
+      "roles": [
+        "député",
+        "vice-président du Conseil du territoire",
+        "leader indépendantiste"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "naissance": {
+        "date": "1921",
+        "lieu": "environs d'Ali Sabieh"
+      },
+      "deces": {
+        "date": "1960-09",
+        "lieu": "accident d'avion au-dessus de l'Italie"
+      },
+      "sources": [
+        "S44",
+        "S78"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance vers 1921 ; jour du décès divergent (21 septembre selon Wikipédia, 29 septembre selon Wikidata) : seul le mois est retenu. Cause supposée de l'accident non établie."
+      }
+    },
+    {
+      "id": "DJ-personnalite-ahmed-dini",
+      "nom": "Ahmed Dini Ahmed",
+      "wikidata": "Q401214",
+      "description": "Afar né dans la région des monts Mabla, Ahmed Dini devient vice-président du Conseil de gouvernement en 1959 et, en 1977, deuxième Premier ministre de la République de Djibouti. Il quitte le pouvoir après quelques mois, rejoint l'opposition, puis prend en 1992 la tête du Front pour la restauration de l'unité et la démocratie. Il meurt à Djibouti en 2004.",
+      "roles": [
+        "Premier ministre (1977)",
+        "chef du FRUD"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "naissance": {
+        "date": "1932",
+        "lieu": "région du mont Mabla"
+      },
+      "deces": {
+        "date": "2004-09-12",
+        "lieu": "Djibouti"
+      },
+      "sources": [
+        "S46",
+        "S45"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année de naissance lue dans la nécrologie de Jeune Afrique."
+      }
+    },
+    {
+      "id": "DJ-personnalite-ali-aref-bourhan",
+      "nom": "Ali Aref Bourhan",
+      "wikidata": "Q2836105",
+      "description": "Issu d'une famille de notables afars de Tadjourah, Ali Aref Bourhan joue un rôle politique de premier plan dans le territoire entre 1957 et 1976 et reste proche des réseaux français gaullistes, comme l'étudie un article des Cahiers du Centre de recherches historiques. Il a soutenu la politique de coercition imposée à la population entre 1966 et 1977 et a lui-même fait l'objet de plusieurs tentatives d'assassinat. Il est emprisonné en 1991, gracié en 1993, et meurt le 15 décembre 2025.",
+      "roles": [
+        "chef du gouvernement du territoire"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "naissance": {
+        "date": "1934",
+        "lieu": "Tadjourah"
+      },
+      "deces": {
+        "date": "2025-12-15"
+      },
+      "sources": [
+        "S47",
+        "S48",
+        "S49"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Figure controversée : actions de l'administration coloniale qu'il soutenait, voir S47. Lieu du décès non précisé dans les sources lues."
+      }
+    },
+    {
+      "id": "DJ-personnalite-barkat-gourad-hamadou",
+      "nom": "Barkat Gourad Hamadou",
+      "wikidata": "Q727071",
+      "description": "Né à Tew'o, dans la région de Dikhil, mécanicien devenu élu territorial dès 1957, Barkat Gourad Hamadou est sénateur du territoire de 1965 à 1980. Il devient en 1978 Premier ministre de la République de Djibouti, poste qu'il occupe jusqu'en 2001. Il meurt à Clamart, près de Paris, en 2018.",
+      "roles": [
+        "Premier ministre",
+        "sénateur"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "naissance": {
+        "date": "1930-01-01",
+        "lieu": "Tew'o (Dikhil)"
+      },
+      "deces": {
+        "date": "2018-03-18",
+        "lieu": "Clamart (France)"
+      },
+      "sources": [
+        "S51",
+        "S50"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de naissance 1er janvier 1930 donnée par le Sénat."
+      }
+    },
+    {
+      "id": "DJ-personnalite-ismail-omar-guelleh",
+      "nom": "Ismaïl Omar Guelleh",
+      "wikidata": "Q57390",
+      "description": "Né à Dire Dawa, Ismaïl Omar Guelleh travaille dès 1965 aux renseignements du territoire, rejoint la Ligue populaire africaine pour l'indépendance, puis dirige le cabinet de Hassan Gouled à partir de 1977. Élu président de la République en 1999, il est depuis réélu à plusieurs reprises, après une révision constitutionnelle de 2010 qui a retiré la limite du nombre de mandats. Le pays n'a pas connu d'alternance depuis l'indépendance.",
+      "roles": [
+        "président de la République depuis 1999"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "naissance": {
+        "date": "1947-11-27",
+        "lieu": "Dire Dawa (Éthiopie)"
+      },
+      "sources": [
+        "S76",
+        "S5",
+        "S77"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Sujet politique actuel : formulation volontairement neutre ; ne pas ajouter de jugement sans source."
+      }
+    },
+    {
+      "id": "DJ-personnalite-mahamoud-ali-youssouf",
+      "nom": "Mahamoud Ali Youssouf",
+      "wikidata": "Q58256",
+      "description": "Diplomate formé à Lyon, Liverpool, Québec et Bruxelles, Mahamoud Ali Youssouf entre au ministère des Affaires étrangères en 1992 et en prend la tête en 2005. Il est élu le 15 février 2025 président de la Commission de l'Union africaine, pour un mandat de quatre ans, à la suite du Tchadien Moussa Faki Mahamat.",
+      "roles": [
+        "ministre des Affaires étrangères (2005-2025)",
+        "président de la Commission de l'Union africaine"
+      ],
+      "domaines": [
+        "politique",
+        "diplomatie"
+      ],
+      "epoque": "XXIe siècle",
+      "naissance": {
+        "date": "1965-09-02",
+        "lieu": "Djibouti"
+      },
+      "sources": [
+        "S59",
+        "S60"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lieu de naissance donné par Wikidata ; élection lue dans Jeune Afrique."
+      }
+    },
+    {
+      "id": "DJ-personnalite-abdourahman-waberi",
+      "nom": "Abdourahman A. Waberi",
+      "wikidata": "Q308454",
+      "description": "Écrivain de langue française né à Djibouti, Abdourahman Waberi publie en 1994 Le Pays sans ombre, premier volet d'une trilogie sur Djibouti avec Cahier nomade (1996) et Balbala (1998), puis des romans comme Aux États-Unis d'Afrique (2006) et Passage des larmes (2009). Il enseigne aux États-Unis et a reçu en 2021 le Grand Prix de la Francophonie de l'Académie française.",
+      "roles": [
+        "romancier",
+        "nouvelliste",
+        "poète",
+        "enseignant"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "naissance": {
+        "date": "1965",
+        "lieu": "Djibouti"
+      },
+      "sources": [
+        "S52",
+        "S53",
+        "S54"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-personnalite-hussein-ahmed-salah",
+      "nom": "Hussein Ahmed Salah",
+      "wikidata": "Q401481",
+      "description": "Marathonien né à Ali Sabieh, Ahmed Salah remporte la médaille de bronze du marathon aux Jeux olympiques de Séoul en 1988, première et unique médaille olympique de Djibouti selon Wikipédia. Il gagne la première coupe du monde de marathon en 1985 et fonde en 2002 un centre de formation à l'athlétisme.",
+      "roles": [
+        "marathonien",
+        "formateur"
+      ],
+      "domaines": [
+        "sport"
+      ],
+      "epoque": "XXe siècle",
+      "naissance": {
+        "date": "1956-12-31",
+        "lieu": "Ali Sabieh"
+      },
+      "sources": [
+        "S56",
+        "S55"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-personnalite-ayanleh-souleiman",
+      "nom": "Ayanleh Souleiman",
+      "wikidata": "Q792772",
+      "description": "Coureur de demi-fond né à Djibouti, Ayanleh Souleiman est médaillé de bronze du 800 mètres aux Championnats du monde de Moscou en 2013, champion du monde en salle du 1 500 mètres en 2014 et auteur d'un record du monde en salle du 1 000 mètres en 2016. Il est affilié au club de la police djiboutienne.",
+      "roles": [
+        "athlète"
+      ],
+      "domaines": [
+        "sport"
+      ],
+      "epoque": "XXIe siècle",
+      "naissance": {
+        "date": "1992-12-03",
+        "lieu": "Djibouti"
+      },
+      "sources": [
+        "S58",
+        "S57"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-personnalite-lula-ali-ismail",
+      "nom": "Lula Ali Ismaïl",
+      "wikidata": "Q58822965",
+      "description": "Née à Djibouti dans une famille issa et installée à Montréal dans les années 1990, Lula Ali Ismaïl se fait connaître comme réalisatrice avec Laan, premier court métrage d'une cinéaste djiboutienne, puis avec le long métrage Dhalinyaro, tourné à Djibouti avec le soutien de l'OIF. Elle vit et travaille au Canada.",
+      "roles": [
+        "réalisatrice",
+        "scénariste",
+        "actrice"
+      ],
+      "domaines": [
+        "cinéma"
+      ],
+      "epoque": "XXIe siècle",
+      "naissance": {
+        "date": "1978",
+        "lieu": "Djibouti"
+      },
+      "sources": [
+        "S62",
+        "S61"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-personnalite-mouna-hodan-ahmed",
+      "nom": "Mouna-Hodan Ahmed",
+      "wikidata": "Q27865882",
+      "description": "Professeure de français à Djibouti, Mouna-Hodan Ahmed a fait ses études supérieures en France. Son roman Les Enfants du khat (2002) suit une jeune fille aînée d'une famille dont le père est dépendant du khat et où la mère travaille pour faire vivre tous les siens. Elle est l'une des rares femmes écrivaines du pays.",
+      "roles": [
+        "romancière",
+        "enseignante"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXIe siècle",
+      "naissance": {
+        "date": "1972",
+        "lieu": "Djibouti"
+      },
+      "sources": [
+        "S64",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-personnalite-aicha-mohamed-robleh",
+      "nom": "Aïcha Mohamed Robleh",
+      "wikidata": "Q27907150",
+      "description": "Juriste de formation, élue députée en 2003 puis ministre déléguée chargée de la promotion de la femme en 2005, Aïcha Mohamed Robleh est aussi dramaturge. Elle a fondé la troupe de théâtre La Voix de l'Est et écrit notamment La Dévoilée (2005), comédie sur la place de la femme dans la société djiboutienne. Elle a reçu en 2025 le grade de chevalier de l'ordre des Arts et des Lettres.",
+      "roles": [
+        "dramaturge",
+        "députée",
+        "ministre"
+      ],
+      "domaines": [
+        "théâtre",
+        "politique"
+      ],
+      "epoque": "XXIe siècle",
+      "naissance": {
+        "date": "1965",
+        "lieu": "Djibouti"
+      },
+      "sources": [
+        "S66",
+        "S65"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-personnalite-hawa-ahmed-youssouf",
+      "nom": "Hawa Ahmed Youssouf",
+      "wikidata": "Q4990846",
+      "description": "Titulaire d'une maîtrise de droit des relations internationales, Hawa Ahmed Youssouf devient en 1999 la première femme ministre de Djibouti, à la tête du ministère délégué à la promotion de la femme, du bien-être familial et des affaires sociales. Elle s'engage contre les mutilations génitales féminines et les mariages forcés, puis poursuit sa carrière à l'Union africaine, notamment comme représentante spéciale à Madagascar de 2014 à 2023.",
+      "roles": [
+        "première ministre djiboutienne",
+        "diplomate"
+      ],
+      "domaines": [
+        "politique",
+        "droits des femmes"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "sources": [
+        "S67",
+        "S68",
+        "S81"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de naissance non reprise (source Wikidata uniquement)."
+      }
+    },
+    {
+      "id": "DJ-personnalite-nima-djama",
+      "nom": "Nima Djama",
+      "wikidata": "Q28051504",
+      "description": "Chanteuse et compositrice née à Ali Sabieh, Nima Djama devient populaire avec des chants patriotiques, dont Gabdhayahow, qui protestent contre la manière dont la France a organisé la consultation sur l'avenir du territoire. Opposante à l'actuel pouvoir, elle a vécu à Ottawa de 2010 à 2015, selon Wikipédia, et a signé de nombreux albums de 1976 à 1999 d'après Music In Africa.",
+      "roles": [
+        "chanteuse",
+        "compositrice"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXe-XXIe siècles",
+      "naissance": {
+        "date": "1948",
+        "lieu": "Ali Sabieh"
+      },
+      "sources": [
+        "S41",
+        "S71"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année de naissance : 1948 (Wikidata, Wikipédia) ou 1949 (Music In Africa). Sujet politique : formulation neutre."
+      }
+    },
+    {
+      "id": "DJ-personnalite-aicha-garad-ali",
+      "nom": "Aïcha Garad Ali",
+      "wikidata": "Q33510409",
+      "description": "Professeure d'éducation physique, joueuse puis capitaine de l'équipe nationale de handball de Djibouti, Aïcha Garad Ali préside le Comité national olympique djiboutien depuis 2005. Elle est membre du Comité international olympique depuis 2012 et siège dans plusieurs de ses commissions.",
+      "roles": [
+        "dirigeante sportive",
+        "handballeuse",
+        "entraîneure"
+      ],
+      "domaines": [
+        "sport"
+      ],
+      "epoque": "XXIe siècle",
+      "naissance": {
+        "date": "1966-12-28"
+      },
+      "sources": [
+        "S73",
+        "S72"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lieu de naissance non indiqué par le CIO."
+      }
+    },
+    {
+      "id": "DJ-personnalite-moumina-houssein-darar",
+      "nom": "Moumina Houssein Darar",
+      "wikidata": "Q62024119",
+      "description": "Fonctionnaire de police née à Ali Sabieh, enquêtrice dans la sous-division de l'antiterrorisme, Moumina Houssein Darar reçoit le 7 mars 2019 le Prix international de la femme de courage, décerné par les États-Unis. Elle a rejoint la police nationale en 2013 et s'est spécialisée dans les enquêtes antiterroristes.",
+      "roles": [
+        "policière"
+      ],
+      "domaines": [
+        "sécurité",
+        "droits des femmes"
+      ],
+      "epoque": "XXIe siècle",
+      "naissance": {
+        "date": "1990-06-01",
+        "lieu": "Ali Sabieh"
+      },
+      "sources": [
+        "S69",
+        "S70"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Prix attesté par Wikipédia, qui cite le département d'État américain ; page officielle non ouverte."
+      }
+    },
+    {
+      "id": "DJ-personnalite-hasna-barkat-daoud",
+      "nom": "Hasna Barkat Daoud",
+      "wikidata": "Q43177838",
+      "description": "Avocate, élue au Parlement en 2008, Hasna Barkat Daoud est ministre de la Jeunesse et des Sports, puis ministre de la Promotion de la femme de 2011 à 2016. Elle organise une conférence sur l'éradication des mutilations génitales féminines en 2014 et lance le Forum des femmes et de la paix de l'IGAD en 2015.",
+      "roles": [
+        "avocate",
+        "ministre"
+      ],
+      "domaines": [
+        "politique",
+        "droit"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S74",
+        "S75"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de naissance non renseignée."
+      }
+    }
+  ],
+  "evenements": [
+    {
+      "id": "DJ-evenement-hara-ide",
+      "titre": "Chasseurs-cueilleurs sur les rives du lac Abbé",
+      "date": "-013999-01-01",
+      "date_affichee": "il y a environ 16 000 ans",
+      "precision": "siecle",
+      "description": "Les rives du lac Abbé et du bassin du Gobaad, alors beaucoup plus humides, accueillent des chasseurs-cueilleurs et pêcheurs. Le site d'Hara Idé 3, daté d'environ 16 000 ans, figure parmi les plus anciens de la série, qui court jusqu'au IIIe millénaire av. J.-C. Plus de cent sites sont aujourd'hui connus autour du lac.",
+      "acteurs": [
+        "chasseurs-cueilleurs de la préhistoire"
+      ],
+      "regions": [
+        "Dikhil",
+        "bassin du Gobaad"
+      ],
+      "sources": [
+        "S29",
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date approximative : conversion de « 16 000 ans » avant le présent."
+      }
+    },
+    {
+      "id": "DJ-evenement-premiers-eleveurs",
+      "titre": "Premiers animaux domestiques dans la Corne de l'Afrique",
+      "date": "-002499-01-01",
+      "date_affichee": "milieu du IIIe millénaire av. J.-C.",
+      "precision": "siecle",
+      "description": "Dans le bassin du Gobaad, alors que le climat commence à s'assécher, des populations passent de la chasse et de la pêche à l'élevage, avec les premiers animaux domestiques connus dans la Corne de l'Afrique. Cette transition accompagne le début de l'aridification du climat.",
+      "acteurs": [
+        "premiers éleveurs du Gobaad"
+      ],
+      "regions": [
+        "Dikhil"
+      ],
+      "sources": [
+        "S29"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-evenement-asa-koma",
+      "titre": "Occupation du site néolithique d'Asa Koma",
+      "date": "-001999-01-01",
+      "date_affichee": "début du IIe millénaire av. J.-C.",
+      "precision": "siecle",
+      "description": "Des poteries au décor incisé et ponctué, des os de bœufs à longues cornes et de caprins montrent qu'on élevait du bétail et qu'on pêchait à Asa Koma il y a environ 4 000 ans. Les motifs des céramiques rappellent ceux de sites d'Arabie du Sud et de la côte arabe de la mer Rouge.",
+      "acteurs": [
+        "éleveurs et pêcheurs du Gobaad"
+      ],
+      "regions": [
+        "Dikhil"
+      ],
+      "sources": [
+        "S37",
+        "S28"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-evenement-tumulus",
+      "titre": "Époque des tumulus funéraires (awellos)",
+      "date": "-002999-01-01",
+      "date_affichee": "vers le IIIe millénaire av. J.-C. (datation du dossier de l'État)",
+      "precision": "siecle",
+      "description": "Le dossier déposé par Djibouti à l'UNESCO rattache les tumulus de pierre noire d'Asgoumhati, de Randa et de Dasbyo à une civilisation du début du IIIe millénaire av. J.-C. Cette datation et cette attribution restent déclaratives et attendent confirmation par des fouilles publiées.",
+      "regions": [
+        "Tadjourah",
+        "Ali Sabieh"
+      ],
+      "sources": [
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Datation d'ordre déclaratif ; hors de portée d'un contrôle indépendant dans ce travail."
+      },
+      "sensible": true,
+      "note_sensibilite": "Sépultures : ne pas indiquer de localisation fine."
+    },
+    {
+      "id": "DJ-evenement-islam-cotier",
+      "titre": "Contacts des ports de Tadjourah et de Zeilah avec l'islam",
+      "date": "0600-01-01",
+      "date_affichee": "VIIe siècle",
+      "precision": "siecle",
+      "description": "Sur le golfe de Tadjourah, deux lieux d'habitat permanent, Tadjourah au nord et Zeilah au sud, sont en relation commerciale avec l'Éthiopie, l'Ogaden et le Yémen. Wikipédia indique que ces villes côtières sont en contact avec l'islam dès le VIIe siècle.",
+      "acteurs": [
+        "habitants de Tadjourah et de Zeilah"
+      ],
+      "regions": [
+        "Tadjourah"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source principale : Wikipédia ; à vérifier auprès d'une publication scientifique."
+      }
+    },
+    {
+      "id": "DJ-evenement-sultanats-afars",
+      "titre": "Sultanats afars de Tadjourah et de Rehayto",
+      "date": "1500-01-01",
+      "date_affichee": "XVe-XVIe siècle",
+      "precision": "siecle",
+      "description": "Les unités politiques afares appelées sultanats, notamment ceux de Tadjourah et de Rehayto (Obock), sont fondées entre le XVe et surtout le XVIe siècle selon Wikipédia. C'est avec le sultanat de Tadjourah que la France signe plus tard le traité de 1862.",
+      "acteurs": [
+        "sultanat de Tadjourah",
+        "sultanat de Rehayto"
+      ],
+      "regions": [
+        "Tadjourah",
+        "Obock"
+      ],
+      "sources": [
+        "S31",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-evenement-lambert-1859",
+      "titre": "Assassinat de l'agent consulaire Henri Lambert",
+      "date": "1859-06-04",
+      "date_affichee": "4 juin 1859",
+      "precision": "jour",
+      "description": "Henri Lambert, ancien agent consulaire de France à Aden, est assassiné dans le golfe de Tadjourah. Une mission navale arrête des suspects et envoie en France des représentants du sultanat afar de Tadjourah, ce qui conduit au traité de 1862.",
+      "acteurs": [
+        "Henri Lambert",
+        "marine française",
+        "sultanat de Tadjourah"
+      ],
+      "regions": [
+        "Tadjourah"
+      ],
+      "sources": [
+        "S5",
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-evenement-traite-obock-1862",
+      "titre": "Traité cédant Obock à la France",
+      "date": "1862-03-11",
+      "date_affichee": "11 mars 1862",
+      "precision": "jour",
+      "description": "Un traité de paix et d'amitié signé à Paris entre le ministre Édouard Thouvenel et un représentant du sultanat de Tadjourah cède à la France les ports, rade et mouillage d'Obock avec la plaine voisine. Le prix convenu est de 10 000 thalers de Marie-Thérèse selon Wikipédia. Le lieu restera presque inoccupé pendant une vingtaine d'années.",
+      "acteurs": [
+        "France",
+        "sultanat de Tadjourah"
+      ],
+      "regions": [
+        "Obock"
+      ],
+      "sources": [
+        "S5",
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Détail du prix rapporté par Wikipédia (page Djibouti) ; non relu dans la source primaire."
+      }
+    },
+    {
+      "id": "DJ-evenement-lagarde-1884",
+      "titre": "Léonce Lagarde prend ses fonctions à Obock",
+      "date": "1884-08-01",
+      "date_affichee": "1er août 1884",
+      "precision": "jour",
+      "description": "Nommé commandant à Obock, Léonce Lagarde prend ses fonctions le 1er août 1884 et étend rapidement la souveraineté française sur la côte nord du golfe de Tadjourah, en signant un protectorat avec le sultan de Tadjourah. Obock cessera d'être le centre de la colonie au profit de Djibouti d'ici 1896.",
+      "acteurs": [
+        "Léonce Lagarde",
+        "France"
+      ],
+      "regions": [
+        "Obock",
+        "Tadjourah"
+      ],
+      "sources": [
+        "S5",
+        "S38"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-evenement-traite-issas-1885",
+      "titre": "Accord avec les chefs issas",
+      "date": "1885-03-26",
+      "date_affichee": "26 mars 1885",
+      "precision": "jour",
+      "description": "Un traité avec des chefs somalis issas place la côte sud sous souveraineté française et forme le protectorat d'Obock et dépendances. Un échange de notes franco-britanniques de 1888 fixe ensuite la limite côtière à Loyada.",
+      "acteurs": [
+        "France",
+        "chefs issas"
+      ],
+      "regions": [
+        "Sud",
+        "Loyada"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-evenement-fondation-djibouti-1888",
+      "titre": "Fondation de la ville et du port de Djibouti",
+      "date": "1888-01-01",
+      "date_affichee": "1888",
+      "precision": "annee",
+      "description": "Le port de Djibouti est créé en 1888 et le centre de gravité du territoire passe peu à peu d'Obock à cette nouvelle ville, qui devient chef-lieu en 1896. Elle est organisée en plan en damier, avec des commerçants européens et yéménites.",
+      "acteurs": [
+        "administration française"
+      ],
+      "regions": [
+        "Djibouti"
+      ],
+      "sources": [
+        "S5",
+        "S23"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-evenement-cfs-1896",
+      "titre": "Création de la Côte française des Somalis",
+      "date": "1896-05-20",
+      "date_affichee": "20 mai 1896",
+      "precision": "jour",
+      "description": "Le territoire d'Obock et dépendances est intégré à la Côte française des Somalis, créée le 20 mai 1896, dont Djibouti devient le chef-lieu. Le nom reste en usage jusqu'en 1967.",
+      "acteurs": [
+        "France"
+      ],
+      "sources": [
+        "S38",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date lue sur la page Obock (Wikipédia)."
+      }
+    },
+    {
+      "id": "DJ-evenement-chemin-de-fer",
+      "titre": "Construction du chemin de fer vers l'Éthiopie",
+      "date": "1897-10-01",
+      "date_affichee": "octobre 1897 - 1917",
+      "precision": "annee",
+      "description": "La construction d'une ligne reliant Djibouti à l'Éthiopie démarre en octobre 1897 et atteint Addis-Abeba en 1917. Elle fait de Djibouti la principale porte d'accès maritime de l'Éthiopie. Le chantier s'accompagne, dans le sud-est, d'exactions d'une milice privée contre les pasteurs, que dénonce le gouverneur Martineau en 1900.",
+      "fin": "1917-12-31",
+      "acteurs": [
+        "Compagnie du chemin de fer",
+        "pasteurs"
+      ],
+      "regions": [
+        "Djibouti",
+        "Ali Sabieh"
+      ],
+      "sources": [
+        "S30",
+        "S5",
+        "S23"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Violences rapportées par l'article de Simon Imbert-Vier (Cahiers d'études africaines)."
+      }
+    },
+    {
+      "id": "DJ-evenement-conquete-interieur",
+      "titre": "Conquête de l'intérieur de la colonie",
+      "date": "1927-01-01",
+      "date_affichee": "1927-1943",
+      "precision": "annee",
+      "description": "À partir de 1927, l'administration coloniale met en œuvre une politique d'exploration et d'occupation de tout le territoire, surtout vers le nord et l'ouest. Simon Imbert-Vier la relit comme une conquête marquée par la coercition exercée sur les populations civiles, contrairement à l'image d'une occupation pacifique.",
+      "fin": "1943-12-31",
+      "acteurs": [
+        "administration coloniale",
+        "pasteurs afars"
+      ],
+      "regions": [
+        "Nord",
+        "Ouest"
+      ],
+      "sources": [
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lecture critique de S30 ; à compléter avec d'autres travaux."
+      }
+    },
+    {
+      "id": "DJ-evenement-kabbobas-1943",
+      "titre": "Épisode violent des Kabbobás",
+      "date": "1943-01-23",
+      "date_affichee": "23 janvier 1943",
+      "precision": "jour",
+      "description": "À Birsaha, au nord-ouest de Tadjourah, une opération visant à expulser trois familles afares et à saisir leur bétail tourne à l'affrontement, et un sergent meurt. En juin 1943, trois prisonniers sont abattus lors d'une reconstitution, quatre hommes sont condamnés à mort par contumace le 1er décembre 1943 et leur chef est interné à Madagascar. L'épisode est resté vif dans les mémoires locales.",
+      "fin": "1943-12-01",
+      "acteurs": [
+        "Kabbobás (groupe afar)",
+        "armée coloniale"
+      ],
+      "regions": [
+        "Tadjourah"
+      ],
+      "sources": [
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Violences coloniales contre des civils ; récit fondé sur les archives étudiées par Simon Imbert-Vier ; valider avec un historien ou une communauté concernée."
+    },
+    {
+      "id": "DJ-evenement-blocus-1940",
+      "titre": "Blocus de la colonie et ralliement aux Alliés",
+      "date": "1942-12-28",
+      "date_affichee": "juin 1940 - 28 décembre 1942",
+      "precision": "jour",
+      "description": "Après l'armistice de juin 1940, la colonie reste fidèle à Vichy et subit un blocus britannique, avec l'expulsion de la ville d'une partie de la population autochtone et de graves difficultés alimentaires. Un accord du 28 décembre 1942 transfère les pouvoirs au Comité national français.",
+      "acteurs": [
+        "Vichy",
+        "Alliés",
+        "habitants de Djibouti"
+      ],
+      "regions": [
+        "Djibouti"
+      ],
+      "sources": [
+        "S5",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-evenement-franc-djibouti-1949",
+      "titre": "Port franc et création du franc Djibouti",
+      "date": "1949-01-01",
+      "date_affichee": "1949",
+      "precision": "annee",
+      "description": "En 1949, Djibouti devient port franc et se dote d'une monnaie, le franc Djibouti, rattachée au dollar américain. Le pays dispose depuis d'une caisse d'émission (currency board), dispositif unique sur le continent selon Wikipédia.",
+      "sources": [
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique : Wikipédia ; à compléter par la Banque centrale de Djibouti."
+      }
+    },
+    {
+      "id": "DJ-evenement-referendum-1958",
+      "titre": "Référendum de 1958 et statut de territoire d'outre-mer",
+      "date": "1958-09-28",
+      "date_affichee": "28 septembre 1958",
+      "precision": "jour",
+      "description": "Lors du référendum de 1958, le « oui » au maintien sous souveraineté française l'emporte, malgré l'appel de Mahmoud Harbi à voter non. Le territoire devient un territoire d'outre-mer.",
+      "acteurs": [
+        "Mahmoud Harbi",
+        "Hassan Gouled Aptidon"
+      ],
+      "sources": [
+        "S5",
+        "S44"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-evenement-de-gaulle-1966",
+      "titre": "Visite du général de Gaulle et manifestations de 1966",
+      "date": "1966-08-25",
+      "date_affichee": "25-28 août 1966",
+      "precision": "jour",
+      "description": "Pendant l'escale du président français en route vers l'Éthiopie, des manifestants réclament l'indépendance. Les affrontements font plusieurs morts et des centaines de blessés selon les bilans cités par Wikipédia. Les autorités mettent ensuite en place une enceinte militarisée autour de la ville, supprimée seulement au début des années 1980.",
+      "fin": "1966-08-28",
+      "acteurs": [
+        "Charles de Gaulle",
+        "manifestants"
+      ],
+      "regions": [
+        "Djibouti"
+      ],
+      "sources": [
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Bilan humain discuté ; Wikipédia donne des chiffres officiels et des estimations de presse."
+      },
+      "sensible": true,
+      "note_sensibilite": "Répression coloniale ; chiffres contestés."
+    },
+    {
+      "id": "DJ-evenement-tfai-1967",
+      "titre": "Référendum de 1967 et naissance du TFAI",
+      "date": "1967-03-19",
+      "date_affichee": "19 mars 1967",
+      "precision": "jour",
+      "description": "Le référendum du 19 mars 1967 approuve officiellement un changement de statut : la Côte française des Somalis devient le Territoire français des Afars et des Issas. Le scrutin est entaché de soupçons de fraude, et des manifestations sont réprimées.",
+      "acteurs": [
+        "France"
+      ],
+      "sources": [
+        "S5",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Pourcentage officiel (60,6 %) lu dans Wikipédia ; contestation des résultats rapportée par la même source."
+      }
+    },
+    {
+      "id": "DJ-evenement-alphabets-1972-1975",
+      "titre": "Alphabets latins pour le somali (1972) et l'afar (1975)",
+      "date": "1972-01-01",
+      "date_affichee": "1972-1975",
+      "precision": "annee",
+      "description": "En 1972, le régime décide d'écrire le somali en alphabet latin et d'en faire une langue nationale. En 1975, deux membres de l'Union pour le développement culturel adaptent l'afar à l'alphabet latin.",
+      "fin": "1975-12-31",
+      "acteurs": [
+        "Union pour le développement culturel"
+      ],
+      "sources": [
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates lues sur la fiche de l'Université Laval."
+      }
+    },
+    {
+      "id": "DJ-evenement-loyada-1976",
+      "titre": "Prise d'otages du car scolaire de Loyada",
+      "date": "1976-02-01",
+      "date_affichee": "février 1976",
+      "precision": "mois",
+      "description": "En février 1976, des membres du Front de libération de la Côte des Somalis prennent en otage les enfants d'un car scolaire en route vers Loyada. L'intervention du GIGN se solde par la mort de tous les preneurs d'otages et de deux enfants. Wikipédia estime que cet épisode a pesé sur la suite du processus d'indépendance.",
+      "acteurs": [
+        "Front de libération de la Côte des Somalis",
+        "GIGN"
+      ],
+      "regions": [
+        "Loyada"
+      ],
+      "sources": [
+        "S5",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Événement violent impliquant des enfants ; ton factuel et neutre ; valider avec un partenaire local."
+    },
+    {
+      "id": "DJ-evenement-independance-1977",
+      "titre": "Indépendance de la République de Djibouti",
+      "date": "1977-06-27",
+      "date_affichee": "27 juin 1977",
+      "precision": "jour",
+      "description": "Le référendum du 8 mai 1977 approuve l'indépendance avec officiellement 98,8 % de oui. La République de Djibouti est proclamée le 27 juin 1977, avec Hassan Gouled Aptidon pour premier président. Cette date est aujourd'hui la fête nationale.",
+      "acteurs": [
+        "Hassan Gouled Aptidon",
+        "Ahmed Dini Ahmed"
+      ],
+      "sources": [
+        "S5",
+        "S4",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-evenement-ardoukoba-1978",
+      "titre": "Éruption du volcan Ardoukôba",
+      "date": "1978-01-01",
+      "date_affichee": "1978",
+      "precision": "annee",
+      "description": "Le volcan Ardoukôba, qui sépare le lac Assal du golfe de Ghoubbet-el-Kharab, connaît en 1978 sa dernière éruption, selon la liste indicative du lac Assal. Cette date est tirée du dossier déposé par l'État auprès de l'UNESCO.",
+      "regions": [
+        "Tadjourah"
+      ],
+      "sources": [
+        "S24"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-evenement-parti-unique-1981",
+      "titre": "Instauration du parti unique",
+      "date": "1981-01-01",
+      "date_affichee": "1981",
+      "precision": "annee",
+      "description": "En 1981, Hassan Gouled Aptidon impose son parti, le Rassemblement populaire pour le progrès, comme seul parti légal. Ses opposants l'accusent de favoriser les Issas.",
+      "acteurs": [
+        "Hassan Gouled Aptidon"
+      ],
+      "sources": [
+        "S5",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-evenement-frud-1991",
+      "titre": "Insurrection du FRUD",
+      "date": "1991-10-01",
+      "date_affichee": "octobre 1991 - 2001",
+      "precision": "annee",
+      "description": "À partir d'octobre 1991, le Front pour la restauration de l'unité et la démocratie, groupe qui se réclame de l'identité afar, prend le contrôle d'une partie du pays pour réclamer une réelle intégration dans la nation. Après des combats et un premier accord en 1994, une branche armée n'intègre le processus de paix qu'avec l'accord du 12 mai 2001.",
+      "fin": "2001-05-12",
+      "acteurs": [
+        "FRUD",
+        "Ahmed Dini Ahmed",
+        "gouvernement djiboutien"
+      ],
+      "regions": [
+        "Nord",
+        "Ouest"
+      ],
+      "sources": [
+        "S5",
+        "S46"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "sensible": true,
+      "note_sensibilite": "Conflit interne récent : l'opposition dénonce des exactions contre des civils ; présentation neutre, positions des parties à documenter."
+    },
+    {
+      "id": "DJ-evenement-constitution-1992",
+      "titre": "Constitution de 1992",
+      "date": "1992-09-04",
+      "date_affichee": "4 septembre 1992",
+      "precision": "jour",
+      "description": "La Constitution du 4 septembre 1992 prévoit un multipartisme partiel. Elle fait de l'arabe et du français les langues officielles. Elle a été révisée en 2010, notamment pour retirer la limite du nombre de mandats présidentiels.",
+      "sources": [
+        "S3",
+        "S5",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de la Constitution lue sur la fiche de l'Université Laval ; contestation de sa modification en 1992 relevée par Wikipédia."
+      }
+    },
+    {
+      "id": "DJ-evenement-guelleh-1999",
+      "titre": "Élection d'Ismaïl Omar Guelleh",
+      "date": "1999-05-08",
+      "date_affichee": "8 mai 1999",
+      "precision": "jour",
+      "description": "Ismaïl Omar Guelleh succède à Hassan Gouled Aptidon comme président de la République, après l'élection du 8 mai 1999. Il est depuis réélu à plusieurs reprises.",
+      "acteurs": [
+        "Ismaïl Omar Guelleh"
+      ],
+      "sources": [
+        "S76",
+        "S82",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date du scrutin lue sur la page de Kadra Mahamoud Haid (Wikipédia) ; à confirmer dans une source officielle."
+      }
+    },
+    {
+      "id": "DJ-evenement-doumera-2008",
+      "titre": "Affrontement avec l'Érythrée au cap Douméra",
+      "date": "2008-06-10",
+      "date_affichee": "10 juin 2008",
+      "precision": "jour",
+      "description": "Le 10 juin 2008, des affrontements éclatent entre les forces djiboutiennes et érythréennes autour du cap Douméra. Djibouti accuse l'Érythrée d'avoir soutenu le FRUD dans les années 1990 et l'Érythrée revendique la zone. Le Conseil de sécurité de l'ONU a adopté en janvier 2009 la résolution 1862, qui concerne l'Érythrée, selon Wikipédia.",
+      "acteurs": [
+        "Djibouti",
+        "Érythrée"
+      ],
+      "regions": [
+        "Obock"
+      ],
+      "sources": [
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique : Wikipédia ; documents de l'ONU non ouverts."
+      },
+      "sensible": true,
+      "note_sensibilite": "Différend frontalier : présentation neutre ; la résolution de l'ONU n'a pas pu être ouverte directement, positions à documenter à partir de sources onusiennes."
+    },
+    {
+      "id": "DJ-evenement-base-chinoise-2017",
+      "titre": "Implantation d'une base militaire chinoise",
+      "date": "2017-01-01",
+      "date_affichee": "2017",
+      "precision": "annee",
+      "description": "Après les États-Unis, la France et le Japon, la Chine obtient en 2017 de pouvoir installer une base militaire à Djibouti, ce qui s'ajoute à de petits contingents espagnol et allemand. Le pays tire des loyers de ces implantations.",
+      "sources": [
+        "S4",
+        "S5"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source principale : Wikipédia ; à compléter avec la presse de référence."
+      }
+    },
+    {
+      "id": "DJ-evenement-liste-indicative-2015",
+      "titre": "Dépôt de la liste indicative du patrimoine mondial",
+      "date": "2015-01-05",
+      "date_affichee": "5 janvier 2015",
+      "precision": "jour",
+      "description": "Djibouti soumet à l'UNESCO une liste indicative de dix sites, culturels, naturels et mixtes. Aucun bien djiboutien n'est inscrit à ce jour sur la Liste du patrimoine mondial ; le pays a ratifié la Convention en 2007.",
+      "sources": [
+        "S20",
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-evenement-xeedho-2023",
+      "titre": "Xeedho inscrit sur la Liste de sauvegarde urgente",
+      "date": "2023-12-01",
+      "date_affichee": "2023",
+      "precision": "annee",
+      "description": "En 2023, le xeedho, plat offert par la mère de la mariée à son gendre, est inscrit sur la Liste du patrimoine culturel immatériel nécessitant une sauvegarde urgente. Un rapport est dû en 2027.",
+      "sources": [
+        "S18",
+        "S19"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Mois et jour non relevés ; décembre approximatif pour la date ISO."
+      }
+    },
+    {
+      "id": "DJ-evenement-xeer-ciise-2024",
+      "titre": "Inscription du Xeer Ciise",
+      "date": "2024-12-01",
+      "date_affichee": "2024",
+      "precision": "annee",
+      "description": "Le droit coutumier oral des communautés somali-issa d'Éthiopie, de Djibouti et de Somalie est inscrit en 2024 sur la Liste représentative du patrimoine culturel immatériel. L'inscription est multinationale et associe l'Éthiopie, Djibouti et la Somalie.",
+      "sources": [
+        "S17"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Mois et jour non relevés."
+      }
+    },
+    {
+      "id": "DJ-evenement-zaffa-2025",
+      "titre": "Inscription de la zaffa",
+      "date": "2025-12-01",
+      "date_affichee": "2025",
+      "precision": "annee",
+      "description": "En 2025, la zaffa, procession nuptiale partagée par sept pays dont Djibouti, est inscrite sur la Liste représentative du patrimoine culturel immatériel. Elle est portée avec les Comores, les Émirats arabes unis, l'Irak, la Jordanie, la Mauritanie et la Somalie.",
+      "sources": [
+        "S16"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Mois et jour non relevés."
+      }
+    },
+    {
+      "id": "DJ-evenement-union-africaine-2025",
+      "titre": "Un Djiboutien à la tête de la Commission de l'Union africaine",
+      "date": "2025-02-15",
+      "date_affichee": "15 février 2025",
+      "precision": "jour",
+      "description": "Mahamoud Ali Youssouf, ministre djiboutien des Affaires étrangères depuis 2005, est élu président de la Commission de l'Union africaine, face à deux autres candidats d'Afrique de l'Est. Il succède au Tchadien Moussa Faki Mahamat.",
+      "acteurs": [
+        "Mahamoud Ali Youssouf"
+      ],
+      "sources": [
+        "S60",
+        "S59"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "oeuvres": [
+    {
+      "id": "DJ-oeuvre-dhalinyaro",
+      "titre": "Dhalinyaro (Jeunesse)",
+      "type": "film",
+      "description": "Premier long métrage de fiction tourné à Djibouti, ce film de Lula Ali Ismaïl suit trois lycéennes de dix-huit ans issues de milieux sociaux différents, à la croisée de l'adolescence et de l'âge adulte. Il est cofinancé par le Canada, la France, Djibouti et le Sénégal, avec l'Organisation internationale de la Francophonie. Sa première djiboutienne a lieu en 2017.",
+      "institution": "Production canado-franco-djiboutienne (OIF)",
+      "url_notice": "https://www.jeuneafrique.com/134820/culture/lula-ali-ismael-la-first-lady-du-cin-ma-djiboutien/",
+      "droits": "Notice de presse (Jeune Afrique) ; film non reproduit ici.",
+      "createur": "Lula Ali Ismaïl",
+      "periode": "tourné en 2014 ; première en 2017",
+      "sources": [
+        "S62",
+        "S61"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Coproduction de 800 000 euros annoncée en 2014 (Jeune Afrique) ; première djiboutienne en 2017 selon Wikipédia."
+      }
+    },
+    {
+      "id": "DJ-oeuvre-laan",
+      "titre": "Laan (Amis)",
+      "type": "film",
+      "description": "Court métrage de vingt-six minutes tourné à Djibouti, Laan décrit le quotidien de trois amies dans une société où le khat occupe une grande place. Lula Ali Ismaïl y tient aussi un rôle. Jeune Afrique le présente comme le premier court métrage réalisé par un cinéaste djiboutien.",
+      "institution": "Production indépendante (Lula Ali Ismaïl)",
+      "url_notice": "https://www.jeuneafrique.com/134820/culture/lula-ali-ismael-la-first-lady-du-cin-ma-djiboutien/",
+      "droits": "Notice de presse (Jeune Afrique) ; film non reproduit ici.",
+      "createur": "Lula Ali Ismaïl",
+      "periode": "2011-2012",
+      "sources": [
+        "S62",
+        "S61"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année : 2011 selon Jeune Afrique, 2012 selon Wikipédia."
+      }
+    },
+    {
+      "id": "DJ-oeuvre-enfants-du-khat",
+      "titre": "Les Enfants du khat",
+      "type": "livre",
+      "description": "Premier roman de Mouna-Hodan Ahmed, publié en 2002 aux éditions Sépia, il suit la vie d'une jeune fille aînée dont le père dépend du khat, tandis que sa mère travaille sans relâche pour nourrir la famille. L'ouvrage est présenté comme un cri d'alarme sur la dépendance et ses effets sur les familles.",
+      "institution": "Éditions Sépia (Saint-Maur-des-Fossés) ; notice AFLIT, University of Western Australia",
+      "url_notice": "http://aflit.arts.uwa.edu.au/AhmedMouna.html",
+      "droits": "Notice bibliographique ; extraits sous droits de l'éditeur.",
+      "createur": "Mouna-Hodan Ahmed",
+      "periode": "2002",
+      "sources": [
+        "S64",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-oeuvre-la-devoilee",
+      "titre": "La Dévoilée",
+      "type": "livre",
+      "description": "Pièce de théâtre d'Aïcha Mohamed Robleh publiée en 2005 chez L'Harmattan, c'est une comédie légère où les personnages condensent la société djiboutienne. Elle met en scène la place de la femme et le poids de la famille et de la belle-famille à travers le retour d'une épouse qui découvre que son mari a pris une seconde femme.",
+      "institution": "Éditions L'Harmattan ; notice AFLIT, University of Western Australia",
+      "url_notice": "http://aflit.arts.uwa.edu.au/RoblehAicha.html",
+      "droits": "Notice bibliographique ; extraits sous droits de l'éditeur.",
+      "createur": "Aïcha Mohamed Robleh",
+      "periode": "2005",
+      "sources": [
+        "S66",
+        "S65"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-oeuvre-pays-sans-ombre",
+      "titre": "Le Pays sans ombre",
+      "type": "livre",
+      "description": "Premier ouvrage d'Abdourahman Waberi, publié en 1994, ce recueil de nouvelles ouvre la trilogie Tentative de définition de Djibouti, avec Cahier nomade et Balbala. Il superpose contes, légendes, récits documentaires et extraits de presse pour dresser le portrait d'un pays marqué par les fièvres, les famines, la corruption et les guerres. Il reçoit le Grand Prix de la nouvelle francophone de l'Académie royale de Belgique.",
+      "institution": "Éditions Le Serpent à plumes (Paris)",
+      "url_notice": "https://www.etonnants-voyageurs.com/WABERI-Abdourahman.html",
+      "droits": "Notice de présentation (Étonnants Voyageurs) ; texte sous droits de l'éditeur.",
+      "createur": "Abdourahman A. Waberi",
+      "periode": "1994",
+      "sources": [
+        "S54",
+        "S52"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-oeuvre-passage-des-larmes",
+      "titre": "Passage des larmes",
+      "type": "livre",
+      "description": "Ce roman d'Abdourahman Waberi, publié en 2009, suit Djibril, intellectuel établi à Montréal qui retourne à Djibouti après dix-huit ans d'exil pour une mission d'espionnage. Entre autoportrait et réflexion sur le temps et la mémoire, il rend hommage au philosophe Walter Benjamin et dépeint un pays au cœur des tensions de la Corne de l'Afrique.",
+      "institution": "Éditions Jean-Claude Lattès (Paris)",
+      "url_notice": "https://www.etonnants-voyageurs.com/WABERI-Abdourahman.html",
+      "droits": "Notice de présentation (Étonnants Voyageurs) ; texte sous droits de l'éditeur.",
+      "createur": "Abdourahman A. Waberi",
+      "periode": "2009",
+      "sources": [
+        "S54",
+        "S52"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-oeuvre-gabdhayahow",
+      "titre": "Gabdhayahow (Nima Djama)",
+      "type": "musique",
+      "description": "Chant patriotique de Nima Djama, Gabdhayahow lui vaut une grande popularité. Les sources divergent sur sa date et son sens : Wikipédia le situe en 1969, en protestation contre le refus d'une consultation équitable sur l'indépendance, Music In Africa le place en 1976, à la gloire de la nation.",
+      "institution": "Œuvre musicale, non conservée dans une collection muséale (référence : Music In Africa)",
+      "url_notice": "https://www.musicinafrica.net/fr/magazine/femmes-et-musique-djibouti",
+      "droits": "Notice de presse ; enregistrement non reproduit ici.",
+      "createur": "Nima Djama",
+      "periode": "fin des années 1960-1976 (sources divergentes)",
+      "sources": [
+        "S41",
+        "S71"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Deux datations différentes selon les sources lues (1969 et 1976)."
+      }
+    },
+    {
+      "id": "DJ-oeuvre-hymne-national",
+      "titre": "Hymne national « Djibouti »",
+      "type": "musique",
+      "description": "L'hymne national, adopté en 1977, a pour paroles d'Aden Elmi et pour musique d'Abdi Robleh selon Wikipédia. Il symbolise l'indépendance proclamée le 27 juin 1977.",
+      "institution": "République de Djibouti (symbole national)",
+      "url_notice": "https://fr.wikipedia.org/wiki/Musique_djiboutienne",
+      "droits": "Notice Wikipédia (CC BY-SA 4.0).",
+      "createur": "Aden Elmi (paroles), Abdi Robleh (musique)",
+      "periode": "1977",
+      "sources": [
+        "S34",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source unique : Wikipédia ; à compléter avec un texte officiel."
+      }
+    },
+    {
+      "id": "DJ-oeuvre-gravures-abourma",
+      "titre": "Gravures rupestres d'Abourma",
+      "type": "sculpture",
+      "description": "Ces gravures sur roches basaltiques s'étendent sur environ trois kilomètres sur le massif de Makarrassou. Elles montrent des centaines de scènes d'animaux sauvages (girafes, éléphants, antilopes) et domestiques, de chasse à la corde et de combat. Le dossier de l'État y voit un témoin d'une vie agropastorale ancienne dans un climat plus humide.",
+      "institution": "In situ, massif de Makarrassou (région de Tadjourah)",
+      "url_notice": "https://whc.unesco.org/fr/listesindicatives/5957",
+      "droits": "Liste indicative de l'UNESCO ; pas d'image reproduite ici.",
+      "communaute": "populations préhistoriques du nord de Djibouti",
+      "regions": [
+        "Tadjourah"
+      ],
+      "sources": [
+        "S22"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Datation d'ordre déclaratif (dossier de l'État)."
+      },
+      "materiaux": [
+        "roche basaltique"
+      ]
+    },
+    {
+      "id": "DJ-oeuvre-tumulus",
+      "titre": "Tumulus (awellos) de Randa et de Dasbyo",
+      "type": "architecture",
+      "description": "Ces tumulus de pierres noires mesurent de deux à trois mètres de haut pour une trentaine de mètres de large et possèdent deux ou trois stèles selon le sexe de la personne inhumée, d'après le dossier de l'État. Ils illustrent des rites funéraires aujourd'hui disparus et sont menacés par le pillage.",
+      "institution": "In situ (régions de Tadjourah et d'Ali Sabieh)",
+      "url_notice": "https://whc.unesco.org/fr/listesindicatives/5956",
+      "droits": "Liste indicative de l'UNESCO ; pas d'image reproduite ici.",
+      "communaute": "populations anciennes du nord et du sud-ouest de Djibouti",
+      "regions": [
+        "Tadjourah",
+        "Ali Sabieh"
+      ],
+      "sources": [
+        "S21"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Interprétations du dossier de l'État à confirmer par des fouilles publiées."
+      },
+      "materiaux": [
+        "pierre volcanique noire"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Structures funéraires ; ne pas publier de localisation précise."
+    }
+  ],
+  "proverbes": [
+    {
+      "id": "DJ-proverbe-nin-wax-cunay",
+      "texte_original": "Nin wax cunay xishood.",
+      "langue": "somali",
+      "traduction": "Celui qui a mangé quelque chose devient timide.",
+      "sens": "Quiconque a profité d'un bienfait ou d'un avantage hésite ensuite à parler ou à agir contre celui qui le lui a procuré.",
+      "publication": "Matthew Kelly Gordon B., OMIMEE's English-Somali Dictionary, 1993, p. 11 (ISBN 978-3-921008-06-5), tel que cité sur Wikiquote « Somali proverbs ».",
+      "note": "Proverbe somali, langue nationale de Djibouti ; relevé par Wikiquote sans localisation djiboutienne. Traduction française d'après la traduction anglaise de Wikiquote ; sens proposé par MonBaobab, à confirmer par un locuteur.",
+      "sources": [
+        "S79"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "DJ-proverbe-talo-walaal-diide",
+      "texte_original": "Talo walaal diide taagoogta ayuu kajabaa.",
+      "langue": "somali",
+      "traduction": "Celui qui refuse le conseil d'un frère ou d'une sœur se casse le bras.",
+      "sens": "Refuser l'avis de ses proches expose à en payer le prix.",
+      "publication": "Heather Knowles, « Language & Expressions », in Welcome to Somalia: Passport to Africa, 2011, p. 84 (ISBN 978-0-7877-2747-5), tel que cité sur Wikiquote « Somali proverbs ».",
+      "note": "Proverbe somali, langue nationale de Djibouti ; relevé par Wikiquote sans localisation djiboutienne. Seules deux références ont pu être consultées via Wikiquote ; l'ouvrage lui-même n'a pas été ouvert.",
+      "sources": [
+        "S79"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "titre": "Banque mondiale, Population totale (SP.POP.TOTL), Djibouti",
+      "institution": "Banque mondiale",
+      "url": "https://api.worldbank.org/v2/country/DJ/indicator/SP.POP.TOTL?format=json&mrv=3",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2025
+    },
+    {
+      "id": "S2",
+      "titre": "Wikidata, Djibouti (Q977) : superficie, capitale, langues officielles",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q977",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S3",
+      "titre": "Constitution de Djibouti de 1992 (révisée en 2010), traduction anglaise",
+      "institution": "Constitute Project",
+      "url": "https://www.constituteproject.org/constitution/Djibouti_2010",
+      "type": "base_de_donnees",
+      "licence": "tous droits réservés (traduction William S. Hein & Co.)",
+      "consulte_le": "2026-11-21",
+      "annee": 2010
+    },
+    {
+      "id": "S4",
+      "titre": "Djibouti",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Djibouti",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S5",
+      "titre": "Histoire de Djibouti",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Histoire_de_Djibouti",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S6",
+      "titre": "Djibouti, fiche de l'Aménagement linguistique dans le monde",
+      "institution": "Université Laval (CEFAN), Jacques Leclerc",
+      "url": "https://www.axl.cefan.ulaval.ca/afrique/djibouti.htm",
+      "type": "universite",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "auteur": "Jacques Leclerc",
+      "annee": 2023
+    },
+    {
+      "id": "S7",
+      "titre": "Langues à Djibouti",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Langues_%C3%A0_Djibouti",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S8",
+      "titre": "Glottolog 5.4, Afar (afar1241)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/afar1241",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S9",
+      "titre": "Glottolog 5.4, Somali (soma1255)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/soma1255",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S10",
+      "titre": "Glottolog 5.4, Ta'izzi-Adeni Arabic (taiz1242)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/taiz1242",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S11",
+      "titre": "Glottolog 5.4, Arabic (arab1395)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/arab1395",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S12",
+      "titre": "Glottolog 5.4, Standard Arabic (stan1318)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1318",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S13",
+      "titre": "Glottolog 5.4, French (stan1290)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1290",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S14",
+      "titre": "Glottolog 5.4, Amharic (amha1245)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/amha1245",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S15",
+      "titre": "Glottolog 5.4, English (stan1293)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1293",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S16",
+      "titre": "The zaffa in the traditional wedding (n° 02283)",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/the-zaffa-in-the-traditional-wedding-02283",
+      "type": "unesco",
+      "licence": "© UNESCO, usage éditorial",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S17",
+      "titre": "Xeer Ciise: Oral customary laws of Somali-Issa communities in Ethiopia, Djibouti and Somalia (n° 02087)",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/xeer-ciise-oral-customary-laws-of-somali-issa-communities-in-ethiopia-djibouti-and-somalia-02087",
+      "type": "unesco",
+      "licence": "© UNESCO, usage éditorial",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S18",
+      "titre": "Xeedho (n° 02001)",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/USL/xeedho-02001",
+      "type": "unesco",
+      "licence": "© UNESCO, usage éditorial",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S19",
+      "titre": "Djibouti, page État partie à la Convention de 2003",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/state/djibouti-DJ",
+      "type": "unesco",
+      "licence": "© UNESCO, usage éditorial",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S20",
+      "titre": "Djibouti, État partie à la Convention du patrimoine mondial",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/statesparties/dj",
+      "type": "unesco",
+      "licence": "© UNESCO, usage éditorial",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S21",
+      "titre": "Les Tumulus (Awellos), Liste indicative de Djibouti (réf. 5956)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/listesindicatives/5956",
+      "type": "unesco",
+      "licence": "© UNESCO, usage éditorial",
+      "consulte_le": "2026-11-21",
+      "annee": 2015
+    },
+    {
+      "id": "S22",
+      "titre": "Les Gravures rupestres d'Abourma, Liste indicative de Djibouti (réf. 5957)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/listesindicatives/5957",
+      "type": "unesco",
+      "licence": "© UNESCO, usage éditorial",
+      "consulte_le": "2026-11-21",
+      "annee": 2015
+    },
+    {
+      "id": "S23",
+      "titre": "Le paysage urbain historique de la ville de Djibouti, Liste indicative (réf. 5958)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/listesindicatives/5958",
+      "type": "unesco",
+      "licence": "© UNESCO, usage éditorial",
+      "consulte_le": "2026-11-21",
+      "annee": 2015
+    },
+    {
+      "id": "S24",
+      "titre": "Le Lac Assal, Liste indicative de Djibouti (réf. 5959)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/listesindicatives/5959",
+      "type": "unesco",
+      "licence": "© UNESCO, usage éditorial",
+      "consulte_le": "2026-11-21",
+      "annee": 2015
+    },
+    {
+      "id": "S25",
+      "titre": "Les îles Moucha et Maskali, Liste indicative de Djibouti (réf. 5960)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/listesindicatives/5960",
+      "type": "unesco",
+      "licence": "© UNESCO, usage éditorial",
+      "consulte_le": "2026-11-21",
+      "annee": 2015
+    },
+    {
+      "id": "S26",
+      "titre": "Les paysages naturels de la région d'Obock, Liste indicative (réf. 5961)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/listesindicatives/5961",
+      "type": "unesco",
+      "licence": "© UNESCO, usage éditorial",
+      "consulte_le": "2026-11-21",
+      "annee": 2015
+    },
+    {
+      "id": "S27",
+      "titre": "Le Parc national de la forêt du Day, Liste indicative (réf. 5962)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/listesindicatives/5962",
+      "type": "unesco",
+      "licence": "© UNESCO, usage éditorial",
+      "consulte_le": "2026-11-21",
+      "annee": 2015
+    },
+    {
+      "id": "S28",
+      "titre": "Lac Abbeh : son paysage culturel, ses monuments naturels et son écosystème, Liste indicative (réf. 5965)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/listesindicatives/5965",
+      "type": "unesco",
+      "licence": "© UNESCO, usage éditorial",
+      "consulte_le": "2026-11-21",
+      "annee": 2015
+    },
+    {
+      "id": "S29",
+      "titre": "Les rives du Lac Abhé, un lieu d'implantation propice",
+      "institution": "Ministère de la Culture (France), Archéologie française dans le monde",
+      "url": "https://archeologie.culture.gouv.fr/monde/fr/les-rives-du-lac-abhe-un-lieu-dimplantation-propice",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S30",
+      "titre": "La conquête de la Côte française des Somalis et le « massacre des Kabbobás » (1943)",
+      "institution": "Cahiers d'études africaines, n° 238, OpenEdition Journals",
+      "url": "https://journals.openedition.org/etudesafricaines/30307",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Simon Imbert-Vier",
+      "annee": 2020
+    },
+    {
+      "id": "S31",
+      "titre": "Afars",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Afars",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S32",
+      "titre": "Issas",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Issas",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S33",
+      "titre": "Gadabuursi",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Gadabuursi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S34",
+      "titre": "Musique djiboutienne",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Musique_djiboutienne",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S35",
+      "titre": "Culture de Djibouti",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Culture_de_Djibouti",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S36",
+      "titre": "Cuisine djiboutienne",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Cuisine_djiboutienne",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S37",
+      "titre": "Asa Koma",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Asa_Koma",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S38",
+      "titre": "Obock",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Obock",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S39",
+      "titre": "Lac Abbe",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Lac_Abb%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S40",
+      "titre": "Démographie de Djibouti",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/D%C3%A9mographie_de_Djibouti",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S41",
+      "titre": "Femmes et musique à Djibouti",
+      "institution": "Music In Africa Foundation",
+      "url": "https://www.musicinafrica.net/fr/magazine/femmes-et-musique-djibouti",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "auteur": "Sylvie Clerfeuille",
+      "annee": 2020
+    },
+    {
+      "id": "S42",
+      "titre": "GOULED Hassan, ancien sénateur de la IVe République",
+      "institution": "Sénat (France)",
+      "url": "https://www.senat.fr/senateur-4eme-republique/gouled_hassan0137r4.html",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S43",
+      "titre": "Hassan Gouled Aptidon",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Hassan_Gouled_Aptidon",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S44",
+      "titre": "Mahmoud Harbi",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Mahmoud_Harbi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S45",
+      "titre": "Ahmed Dini",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Ahmed_Dini",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S46",
+      "titre": "Ahmed Dini Ahmed (nécrologie, 2004)",
+      "institution": "Jeune Afrique",
+      "url": "https://www.jeuneafrique.com/88668/archives-thematique/ahmed-dini-ahmed/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2004
+    },
+    {
+      "id": "S47",
+      "titre": "Ali Aref Bourhan",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Ali_Aref_Bourhan",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S48",
+      "titre": "Jacques Foccart et Ali Aref",
+      "institution": "Les Cahiers du Centre de Recherches Historiques (OpenEdition Journals)",
+      "url": "https://journals.openedition.org/ccrh/472",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (accès libre)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S49",
+      "titre": "Ali Aref Bourhan, who led Djibouti under French rule, dies at 91",
+      "institution": "Hiiraan Online",
+      "url": "https://www.hiiraan.com/news4/2025/Dec/203954/ali_aref_bourhan_who_led_djibouti_under_french_rule_dies_at_91.aspx",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2025
+    },
+    {
+      "id": "S50",
+      "titre": "Barkat Gourad Hamadou",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Barkat_Gourad_Hamadou",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S51",
+      "titre": "HAMADOU Barkat-Gourad, sénateur de la Ve République",
+      "institution": "Sénat (France)",
+      "url": "https://www.senat.fr/senateur/barkat_gourat_hamadou58515k.html",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S52",
+      "titre": "Abdourahman Waberi",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Abdourahman_Waberi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S53",
+      "titre": "Abdourahman Waberi, Grand Prix de la Francophonie 2021",
+      "institution": "Académie française",
+      "url": "https://www.academie-francaise.fr/abdourahman-waberi",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2021
+    },
+    {
+      "id": "S54",
+      "titre": "WABERI Abdourahman, invité du festival Étonnants Voyageurs",
+      "institution": "Étonnants Voyageurs",
+      "url": "https://www.etonnants-voyageurs.com/WABERI-Abdourahman.html",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S55",
+      "titre": "Hussein Ahmed Salah",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Hussein_Ahmed_Salah",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S56",
+      "titre": "Ahmed Salah, fiche athlète",
+      "institution": "Olympedia",
+      "url": "https://www.olympedia.org/athletes/67022",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0 (texte Olympedia)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S57",
+      "titre": "Ayanleh Souleiman",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Ayanleh_Souleiman",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S58",
+      "titre": "Ayanleh Souleiman, fiche athlète",
+      "institution": "Olympedia",
+      "url": "https://www.olympedia.org/athletes/133517",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0 (texte Olympedia)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S59",
+      "titre": "Mahamoud Ali Youssouf",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Mahamoud_Ali_Youssouf",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S60",
+      "titre": "Union africaine : le Djiboutien Mahamoud Ali Youssouf élu président de la Commission",
+      "institution": "Jeune Afrique",
+      "url": "https://www.jeuneafrique.com/1658880/politique/union-africaine-le-djiboutien-ali-mahamoud-youssouf-elu-president-de-la-commission/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2025
+    },
+    {
+      "id": "S61",
+      "titre": "Lula Ali Ismail",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Lula_Ali_Ismail",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S62",
+      "titre": "Lula Ali Ismaïl, la First Lady du cinéma djiboutien",
+      "institution": "Jeune Afrique",
+      "url": "https://www.jeuneafrique.com/134820/culture/lula-ali-ismael-la-first-lady-du-cin-ma-djiboutien/",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "auteur": "Clarisse Juompan-Yakam",
+      "annee": 2014
+    },
+    {
+      "id": "S63",
+      "titre": "Mouna-Hodan Ahmed",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Mouna-Hodan_Ahmed",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S64",
+      "titre": "Mouna-Hodan Ahmed, fiche auteur (AFLIT)",
+      "institution": "University of Western Australia, African Literature Database (AFLIT)",
+      "url": "http://aflit.arts.uwa.edu.au/AhmedMouna.html",
+      "type": "universite",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S65",
+      "titre": "Aïcha Mohamed Robleh",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/A%C3%AFcha_Mohamed_Robleh",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S66",
+      "titre": "Aïcha Mohamed Robleh, fiche auteur (AFLIT)",
+      "institution": "University of Western Australia, African Literature Database (AFLIT)",
+      "url": "http://aflit.arts.uwa.edu.au/RoblehAicha.html",
+      "type": "universite",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S67",
+      "titre": "Hawa Ahmed Youssouf",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Hawa_Ahmed_Youssouf",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S68",
+      "titre": "À la recherche de l'égalité entre hommes et femmes en République de Djibouti",
+      "institution": "CEAF&RI (Centre d'études africaines en genre)",
+      "url": "https://www.ceafri.net/site/spip.php?article333",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S69",
+      "titre": "Moumina Houssein Darar",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Moumina_Houssein_Darar",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S70",
+      "titre": "Wikidata, Moumina Houssein Darar (Q62024119)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q62024119",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S71",
+      "titre": "Nima Djama",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Nima_Djama",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S72",
+      "titre": "Aïcha Garad Ali",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/A%C3%AFcha_Garad_Ali",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S73",
+      "titre": "Madame Aïcha Garad Ali, membre du CIO",
+      "institution": "Comité international olympique",
+      "url": "https://olympics.com/cio/madame-aicha-garad-ali",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S74",
+      "titre": "Hasna Barkat Daoud",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Hasna_Barkat_Daoud",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S75",
+      "titre": "Wikidata, Hasna Barkat Daoud (Q43177838)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q43177838",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S76",
+      "titre": "Ismaïl Omar Guelleh",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Isma%C3%AFl_Omar_Guelleh",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S77",
+      "titre": "Wikidata, Ismail Omar Guelleh (Q57390)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q57390",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S78",
+      "titre": "Wikidata, Mahmoud Harbi (Q1884762)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q1884762",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S79",
+      "titre": "Somali proverbs",
+      "institution": "Wikiquote (anglais)",
+      "url": "https://en.wikiquote.org/wiki/Somali_proverbs",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S80",
+      "titre": "Tourisme à Djibouti",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Tourisme_%C3%A0_Djibouti",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S81",
+      "titre": "Wikidata, Hawa Ahmed Youssouf (Q4990846)",
+      "institution": "Wikimedia Foundation (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q4990846",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S82",
+      "titre": "Kadra Mahamoud Haid",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Kadra_Mahamoud_Haid",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    }
+  ]
+}

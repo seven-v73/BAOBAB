@@ -1,0 +1,4283 @@
+{
+ "code": "ML",
+ "nom": "Mali",
+ "region": "ouest",
+ "wikidata": "Q912",
+ "maj": "2026-11-21",
+ "pays": {
+  "nom_officiel": "République du Mali",
+  "capitale": "Bamako",
+  "langues_officielles": [
+   "bambara",
+   "bomu",
+   "bozo",
+   "dogon",
+   "peul",
+   "soninké",
+   "songhaï",
+   "minyanka (sénoufo-mamara)",
+   "syenara (sénoufo)",
+   "tamasheq (touareg)",
+   "hassanya",
+   "khassonké",
+   "malinké"
+  ],
+  "langues_nationales": [
+   "bambara",
+   "bomu",
+   "bozo",
+   "dogon",
+   "peul",
+   "soninké",
+   "songhaï",
+   "minyanka (sénoufo-mamara)",
+   "syenara (sénoufo)",
+   "tamasheq (touareg)",
+   "hassanya",
+   "khassonké",
+   "malinké"
+  ],
+  "langue_de_travail": "français",
+  "population": {
+   "valeur": 22395489,
+   "annee": 2022,
+   "source": "S1"
+  },
+  "superficie_km2": 1241231,
+  "monnaie": "Franc CFA (UEMOA)",
+  "resume": "Le Mali est un pays d'Afrique de l'Ouest dont la capitale est Bamako ; Wikidata lui attribue environ 22,4 millions d'habitants en 2022 pour 1,24 million de km². Son territoire a abrité des États puissants dont la richesse reposait sur le commerce transsaharien de l'or et du sel, notamment l'empire du Mali du XIIIe siècle et l'empire songhaï des XVe et XVIe siècles, et des cités savantes comme Tombouctou et Djenné. Ancien Soudan français, le pays proclame son indépendance le 22 septembre 1960 sous la présidence de Modibo Keïta. Quatre biens figurent sur la Liste du patrimoine mondial (Djenné, Tombouctou, tombeau des Askia, falaises de Bandiagara) et neuf éléments sur les listes du patrimoine culturel immatériel, du balafon aux masques de Markala. Treize langues nationales, dont le bambara très largement utilisé comme langue de communication, coexistent avec le français, langue de travail. Depuis 2012, le pays traverse une succession de crises politiques et sécuritaires dont le patrimoine du nord a lui aussi souffert.",
+  "sources": [
+   "S1",
+   "S2",
+   "S3",
+   "S4",
+   "S5",
+   "S6",
+   "S7",
+   "S8",
+   "S9",
+   "S10"
+  ]
+ },
+ "langues": [
+  {
+   "id": "ML-langue-bambara",
+   "nom": "bambara",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "nom_local": "bamanankan",
+   "description": "Langue mandingue (bamanankan) parlée surtout dans le sud et le centre du pays et utilisée comme langue de communication entre communautés, sur les marchés et dans les échanges quotidiens. Glottolog précise qu'elle sert de lingua franca partout sauf dans le nord-est. Glottolog la dit reconnue par le décret de 1982.",
+   "famille": "Nigéro-congolaise > Mandé > Mandingue",
+   "glottocode": "bamb1269",
+   "statut_linguistique": "nationale",
+   "wikidata": "Q33243",
+   "locuteurs": {
+    "valeur": "46,5 % de la population déclare le bambara comme langue maternelle (51,8 % comme langue parlée)",
+    "annee": 2009,
+    "source": "S3"
+   },
+   "sources": [
+    "S11",
+    "S3"
+   ]
+  },
+  {
+   "id": "ML-langue-peul",
+   "nom": "peul (fulfulde du Maasina)",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "nom_local": "fulfulde",
+   "description": "Langue des Peuls, très présente dans le delta intérieur du Niger et la région de Mopti. Glottolog signale la variété du Maasina comme reconnue par le décret de 1982 et utilisée dans l'enseignement. Elle porte une riche tradition orale, dont l'épopée de Silamaka.",
+   "famille": "Nigéro-congolaise > Atlantique > Peul",
+   "glottocode": "maas1239",
+   "statut_linguistique": "nationale",
+   "wikidata": "Q3915322",
+   "locuteurs": {
+    "valeur": "9,4 % de la population déclare le peul comme langue maternelle",
+    "annee": 2009,
+    "source": "S3"
+   },
+   "sources": [
+    "S12",
+    "S3",
+    "S13"
+   ]
+  },
+  {
+   "id": "ML-langue-soninke",
+   "nom": "soninké",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Langue des Soninkés (Sarakolés, Maraka), parlée surtout dans la région de Kayes et dans la région de Nioro. Glottolog la classe parmi les langues en développement et la dit reconnue par le décret de 1982. Wikipédia la place dans la famille nigéro-congolaise.",
+   "famille": "Nigéro-congolaise > Mandé > Soninké",
+   "glottocode": "soni1259",
+   "statut_linguistique": "nationale",
+   "wikidata": "Q36660",
+   "locuteurs": {
+    "valeur": "6,3 % de la population déclare le soninké (maraka) comme langue maternelle",
+    "annee": 2009,
+    "source": "S3"
+   },
+   "sources": [
+    "S14",
+    "S3"
+   ]
+  },
+  {
+   "id": "ML-langue-songhay",
+   "nom": "songhaï (koyraboro senni)",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "nom_local": "koyraboro senni",
+   "description": "Langue des Songhaïs de la vallée du Niger, associée à l'ancien empire dont Gao était la capitale. Le koyraboro senni est l'une de ses variétés répertoriées par Glottolog, qui la dit reconnue par le décret de 1982.",
+   "famille": "Nilo-saharienne > Songhay",
+   "glottocode": "koyr1242",
+   "statut_linguistique": "nationale",
+   "wikidata": "Q35655",
+   "locuteurs": {
+    "valeur": "5,6 % de la population déclare le songhay (sonraï/djerma) comme langue maternelle",
+    "annee": 2009,
+    "source": "S3"
+   },
+   "sources": [
+    "S15",
+    "S3"
+   ]
+  },
+  {
+   "id": "ML-langue-tamasheq",
+   "nom": "tamasheq",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Langue des communautés touarègues du nord du Mali, où les fêtes traditionnelles de Kidal et de Tombouctou ont inspiré le Festival au désert. Wikipédia indique qu'elle utilise l'alphabet tifinagh. Glottolog la dit reconnue par le décret de 1982.",
+   "famille": "Afro-asiatique > Berbère",
+   "glottocode": "tama1365",
+   "statut_linguistique": "nationale",
+   "ecritures": [
+    "tifinagh"
+   ],
+   "wikidata": "Q4670066",
+   "locuteurs": {
+    "valeur": "3,4 % de la population déclare le tamasheq (tamacheq) comme langue maternelle",
+    "annee": 2009,
+    "source": "S3"
+   },
+   "sources": [
+    "S16",
+    "S3",
+    "S17",
+    "S18"
+   ]
+  },
+  {
+   "id": "ML-langue-hassanya",
+   "nom": "hassanya",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Dialecte arabe parlé dans le nord-ouest du pays. Il fait partie des langues nationales du Mali d'après Wikipédia, et Glottolog le classe parmi les langues de communication élargie.",
+   "famille": "Afro-asiatique > Sémitique (arabe)",
+   "glottocode": "hass1238",
+   "statut_linguistique": "nationale",
+   "wikidata": "Q56231",
+   "sources": [
+    "S19",
+    "S3"
+   ]
+  },
+  {
+   "id": "ML-langue-khassonke",
+   "nom": "khassonké",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "nom_local": "xaasongaxango",
+   "description": "Langue mandingue de la région de Kayes, l'ancien territoire du royaume du Khasso. Glottolog la signale comme reconnue par la loi de 1996 et classée parmi les langues en développement.",
+   "famille": "Nigéro-congolaise > Mandé > Mandingue",
+   "glottocode": "xaas1235",
+   "statut_linguistique": "nationale",
+   "wikidata": "Q36905",
+   "locuteurs": {
+    "valeur": "1,2 % de la population déclare le khassonké comme langue maternelle",
+    "annee": 2009,
+    "source": "S3"
+   },
+   "sources": [
+    "S20",
+    "S3",
+    "S21"
+   ]
+  },
+  {
+   "id": "ML-langue-maninka-est",
+   "nom": "maninkakan de l'Est (malinké)",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "nom_local": "maninkakan",
+   "description": "Variété de manding associée aux Malinkés du Manden, région du sud-ouest du Mali dont Kangaba est un centre historique. Le malinké figure parmi les langues nationales du pays.",
+   "famille": "Nigéro-congolaise > Mandé > Mandingue",
+   "glottocode": "east2426",
+   "statut_linguistique": "nationale",
+   "wikidata": "Q11002130",
+   "locuteurs": {
+    "valeur": "5,6 % de la population déclare le malinké comme langue maternelle",
+    "annee": 2009,
+    "source": "S3"
+   },
+   "sources": [
+    "S22",
+    "S3",
+    "S23"
+   ]
+  },
+  {
+   "id": "ML-langue-minyanka",
+   "nom": "minyanka (sénoufo-mamara)",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "nom_local": "mamara",
+   "description": "Langue sénoufo des Minyanka, dans le sud du pays. Glottolog la dit reconnue par le décret de 1982 sous le nom de sénoufo mamara, et la classe parmi les langues éducatives.",
+   "famille": "Nigéro-congolaise > Sénoufo",
+   "glottocode": "mama1271",
+   "statut_linguistique": "nationale",
+   "wikidata": "Q36187",
+   "locuteurs": {
+    "valeur": "4,3 % de la population déclare le minianka comme langue maternelle",
+    "annee": 2009,
+    "source": "S3"
+   },
+   "sources": [
+    "S24",
+    "S3",
+    "S25"
+   ]
+  },
+  {
+   "id": "ML-langue-syenara",
+   "nom": "syenara (sénoufo)",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Langue sénoufo du sud du Mali, distincte du minyanka. Elle figure parmi les langues nationales du pays.",
+   "famille": "Nigéro-congolaise > Sénoufo",
+   "glottocode": "syen1235",
+   "statut_linguistique": "nationale",
+   "wikidata": "Q36316",
+   "sources": [
+    "S26",
+    "S3"
+   ]
+  },
+  {
+   "id": "ML-langue-dogon",
+   "nom": "dogon (toro so)",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "nom_local": "toro so",
+   "description": "Le toro so est l'une des nombreuses langues dogon, parlées du plateau et de la falaise de Bandiagara jusqu'au sud-ouest de la boucle du Niger. Glottolog en fait une famille à part entière et souligne que son rattachement au nigéro-congolais n'est pas démontré. Le dogon figure parmi les langues nationales du Mali.",
+   "famille": "Nigéro-congolaise (rattachement discuté) > Dogon",
+   "glottocode": "toro1252",
+   "statut_linguistique": "nationale",
+   "wikidata": "Q11003311",
+   "locuteurs": {
+    "valeur": "7,1 % de la population déclare le dogon comme langue maternelle (toutes variétés confondues)",
+    "annee": 2009,
+    "source": "S3"
+   },
+   "sources": [
+    "S27",
+    "S28",
+    "S3",
+    "S29"
+   ]
+  },
+  {
+   "id": "ML-langue-bozo",
+   "nom": "bozo",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Famille de parlers des Bozo, pêcheurs du Niger et du Bani, que Glottolog traite comme une famille distincte. Le bozo figure parmi les langues nationales du Mali d'après Wikipédia.",
+   "famille": "Nigéro-congolaise > Mandé > Bozo",
+   "glottocode": "bozo1252",
+   "statut_linguistique": "nationale",
+   "wikidata": "Q35021",
+   "locuteurs": {
+    "valeur": "1,9 % de la population déclare le bozo comme langue maternelle",
+    "annee": 2009,
+    "source": "S3"
+   },
+   "sources": [
+    "S30",
+    "S3",
+    "S31"
+   ]
+  },
+  {
+   "id": "ML-langue-bomu",
+   "nom": "bomu",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Langue gur du sud-est du pays d'après le tableau d'Ethnologue repris par Wikipédia. Le bomu figure parmi les langues nationales du Mali.",
+   "famille": "Nigéro-congolaise > Gur",
+   "glottocode": "bomu1247",
+   "statut_linguistique": "nationale",
+   "wikidata": "Q35065",
+   "sources": [
+    "S32",
+    "S3"
+   ]
+  },
+  {
+   "id": "ML-langue-francais",
+   "nom": "français",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Langue héritée de la période du Soudan français, le français est la langue de travail, de l'administration et de l'enseignement. En 2022, environ 3,7 millions de Maliens sur 21,5 millions sont francophones d'après les données citées par Wikipédia, ce qui en fait la deuxième langue la plus connue après le bambara.",
+   "famille": "Indo-européenne > Romane",
+   "glottocode": "stan1290",
+   "statut_linguistique": "officielle (langue de travail)",
+   "ecritures": [
+    "latin"
+   ],
+   "wikidata": "Q150",
+   "locuteurs": {
+    "valeur": "3 702 000 francophones sur 21 473 000 habitants",
+    "annee": 2022,
+    "source": "S3"
+   },
+   "sources": [
+    "S33",
+    "S3"
+   ]
+  }
+ ],
+ "peuples": [
+  {
+   "id": "ML-peuple-bambara",
+   "nom": "Bambara (Bamanan)",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "nom_local": "Bamanan",
+   "description": "Groupe mandingue établi surtout dans le sud et le centre du pays, autour de Ségou et de Koulikoro. Les Bambara ont créé au XVIIe siècle un royaume autour de Ségou et participent à des rites comme la sortie des masques et marionnettes de Markala. Leur langue, le bambara, est devenue la principale langue de communication du pays.",
+   "langues": [
+    "bambara"
+   ],
+   "regions": [
+    "Ségou",
+    "Koulikoro",
+    "Markala"
+   ],
+   "activites": [
+    "chasse",
+    "initiation (Kôrêdugaw, masques)"
+   ],
+   "wikidata": "Q504685",
+   "sources": [
+    "S34",
+    "S35",
+    "S31",
+    "S36"
+   ]
+  },
+  {
+   "id": "ML-peuple-malinke",
+   "nom": "Malinké (Maninka)",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "nom_local": "Maninka",
+   "description": "Peuple mandingue du Manden, région du sud-ouest du Mali autour de Kangaba, associée à la fondation de l'empire du Mali. Les clans Keita, gardiens de la case sacrée de Kangaba, et les griots Diabaté y jouent un rôle central dans la transmission de l'histoire. Le Manden est aussi le lieu de proclamation de la Charte de Kurukan Fuga.",
+   "langues": [
+    "maninkakan de l'Est"
+   ],
+   "regions": [
+    "Kangaba",
+    "Koulikoro"
+   ],
+   "pays_partages": [
+    "GN",
+    "SN",
+    "CI",
+    "GM",
+    "GW"
+   ],
+   "organisation": "clans (Keita), griots (Diabaté)",
+   "wikidata": "Q1887443",
+   "sources": [
+    "S23",
+    "S37",
+    "S38",
+    "S39"
+   ]
+  },
+  {
+   "id": "ML-peuple-soninke",
+   "nom": "Soninké (Sarakolé, Maraka)",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Peuple du Sahel occidental établi dans la région de Kayes et à Nioro, ainsi qu'au Sénégal et en Mauritanie. Une étude sur le pays de Ségou signale l'importance d'éléments se disant marka (sarakollé) dans de nombreux villages de l'est de cette région. Wikipédia attribue aux Sarakolés la fondation de l'empire du Ghana (Ouagadou), qui précède l'empire du Mali.",
+   "langues": [
+    "soninké"
+   ],
+   "regions": [
+    "Kayes",
+    "Nioro du Sahel",
+    "Ségou"
+   ],
+   "pays_partages": [
+    "SN",
+    "MR",
+    "GM",
+    "GN",
+    "GW",
+    "CI",
+    "BF"
+   ],
+   "wikidata": "Q1146970",
+   "sources": [
+    "S31",
+    "S14",
+    "S40",
+    "S41"
+   ]
+  },
+  {
+   "id": "ML-peuple-peul",
+   "nom": "Peul (Fulɓe)",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "nom_local": "Fulɓe",
+   "description": "Communauté traditionnellement pastorale présente dans toute la bande sahélienne ; au Mali, le delta intérieur du Niger et le Maasina en sont l'un des foyers. Les fêtes du Yaaral et du Degal rythment la traversée du fleuve par les troupeaux. Au XIXe siècle, les Peuls du Maasina ont fondé l'empire du Macina et sa capitale Hamdallahi.",
+   "langues": [
+    "peul (fulfulde du Maasina)"
+   ],
+   "regions": [
+    "Mopti",
+    "delta intérieur du Niger",
+    "Maasina"
+   ],
+   "pays_partages": [
+    "SN",
+    "MR",
+    "GN",
+    "NE",
+    "NG",
+    "BF"
+   ],
+   "activites": [
+    "élevage transhumant",
+    "poésie pastorale"
+   ],
+   "wikidata": "Q202575",
+   "sources": [
+    "S42",
+    "S43",
+    "S44",
+    "S45",
+    "S46"
+   ]
+  },
+  {
+   "id": "ML-peuple-songhai",
+   "nom": "Songhaï",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Peuple de la vallée du Niger, de Gao à Tombouctou, héritier de l'empire songhaï dont Gao était la capitale aux XVe et XVIe siècles. Les Songhaï pratiquent la riziculture sur les rives du fleuve, la culture du mil sur les plateaux et l'élevage. Leur langue est utilisée dans le nord et l'est du pays.",
+   "langues": [
+    "songhaï (koyraboro senni)"
+   ],
+   "regions": [
+    "Gao",
+    "Tombouctou"
+   ],
+   "pays_partages": [
+    "NE",
+    "BJ",
+    "NG",
+    "BF"
+   ],
+   "activites": [
+    "riziculture",
+    "agriculture",
+    "élevage"
+   ],
+   "wikidata": "Q487902",
+   "sources": [
+    "S7",
+    "S15",
+    "S47"
+   ]
+  },
+  {
+   "id": "ML-peuple-touareg",
+   "nom": "Touareg (Kel Tamasheq)",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "nom_local": "Kel Tamasheq",
+   "description": "Communautés berbérophones du Sahara central et du Sahel, présentes dans le nord du pays, autour de Tombouctou et de Kidal. Les femmes jouent l'imzad, violon monocorde dont la pratique est inscrite au patrimoine immatériel. Des groupes comme Tinariwen portent la musique tamasheq sur les scènes internationales.",
+   "langues": [
+    "tamasheq"
+   ],
+   "regions": [
+    "Tombouctou",
+    "Kidal"
+   ],
+   "pays_partages": [
+    "DZ",
+    "LY",
+    "NE",
+    "BF"
+   ],
+   "activites": [
+    "nomadisme pastoral (traditionnel)",
+    "musique"
+   ],
+   "wikidata": "Q58843",
+   "sources": [
+    "S48",
+    "S16",
+    "S49",
+    "S17"
+   ]
+  },
+  {
+   "id": "ML-peuple-dogon",
+   "nom": "Dogon",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Peuple de la falaise de Bandiagara et de ses environs, jusqu'au sud-ouest de la boucle du Niger. Leur architecture (greniers, sanctuaires, toguna), leurs masques et leurs cérémonies liées aux ancêtres sont reconnus par l'UNESCO. Ils ont conservé leurs institutions face aux conquêtes songhaï et peules, d'après l'ethnographie de la fin des années 1930.",
+   "langues": [
+    "dogon (toro so)"
+   ],
+   "regions": [
+    "Bandiagara",
+    "Douentza"
+   ],
+   "pays_partages": [
+    "BF"
+   ],
+   "activites": [
+    "architecture (greniers, sanctuaires, toguna)",
+    "masques et danses"
+   ],
+   "wikidata": "Q215583",
+   "sources": [
+    "S8",
+    "S50",
+    "S29"
+   ]
+  },
+  {
+   "id": "ML-peuple-bozo",
+   "nom": "Bozo",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Pêcheurs du Niger et du Bani, parmi les plus anciens peuplements de l'est du pays de Ségou selon une étude de 1961. Ils font partie des communautés qui se retrouvent lors du Yaaral et du Degal et des masques de Markala. Leur savoir de la pêche et des eaux est au cœur de nombreuses pratiques rituelles.",
+   "langues": [
+    "bozo"
+   ],
+   "regions": [
+    "delta intérieur du Niger",
+    "Ségou"
+   ],
+   "activites": [
+    "pêche"
+   ],
+   "sources": [
+    "S31",
+    "S42",
+    "S35",
+    "S30"
+   ]
+  },
+  {
+   "id": "ML-peuple-senoufo",
+   "nom": "Sénoufo (dont Minyanka)",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Ensemble de communautés du sud du Mali, dont les Minyanka, qui parlent des langues sénoufo (mamara, syenara). Les Sénoufo participent à la société des Kôrêdugaw, rite de sagesse inscrit à l'UNESCO. Les Minyanka ont fait l'objet d'un important corpus de proverbes recueilli à Karangasso.",
+   "langues": [
+    "minyanka (sénoufo-mamara)",
+    "syenara (sénoufo)"
+   ],
+   "regions": [
+    "sud du Mali"
+   ],
+   "activites": [
+    "agriculture",
+    "initiation"
+   ],
+   "wikidata": "Q1266038",
+   "sources": [
+    "S51",
+    "S36",
+    "S24",
+    "S25"
+   ]
+  },
+  {
+   "id": "ML-peuple-khassonke",
+   "nom": "Khassonké",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Peuple mandingue de la région de Kayes, sur le territoire de l'ancien royaume du Khasso. L'historienne Adame Ba Konaré lui a consacré une étude à travers le parcours de Ferdinand Duranton, prince du Khasso au XIXe siècle. Sa langue est reconnue comme langue nationale.",
+   "langues": [
+    "khassonké"
+   ],
+   "regions": [
+    "Kayes",
+    "Bafoulabé"
+   ],
+   "pays_partages": [
+    "MR",
+    "SN",
+    "GM"
+   ],
+   "wikidata": "Q1740605",
+   "sources": [
+    "S21",
+    "S20",
+    "S52"
+   ]
+  },
+  {
+   "id": "ML-peuple-bwa",
+   "nom": "Bwa (Boo)",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "nom_local": "Boo",
+   "description": "Communauté d'agriculteurs sédentaires installée dans le sud-est du pays. Ses proverbes ont été étudiés en profondeur par l'anthropolinguiste Cécile Leguy, qui y a consacré sa thèse et plusieurs publications. La parole proverbiale y est un art de la conversation courante.",
+   "langues": [
+    "boo (bwa)"
+   ],
+   "regions": [
+    "sud-est du Mali"
+   ],
+   "sources": [
+    "S53"
+   ]
+  }
+ ],
+ "sites": [
+  {
+   "id": "ML-site-askia",
+   "nom": "Tombeau des Askia (Gao)",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Pyramide de terre de 17 mètres édifiée en 1495 par Askia Mohamed dans sa capitale Gao. L'ensemble comprend aussi deux mosquées à toit plat, le cimetière de la mosquée et l'espace des assemblées en plein air. Il témoigne de la puissance de l'empire songhaï, qui contrôlait le commerce du sel et de l'or, et de la tradition sahélienne de construction en terre.",
+   "type": "patrimoine_mondial",
+   "unesco_id": "1139",
+   "inscription": "2004",
+   "coordonnees": {
+    "lat": 16.289722,
+    "lng": -0.044444
+   },
+   "regions": [
+    "Gao"
+   ],
+   "periode": "XVe siècle (1495)",
+   "wikidata": "Q503823",
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "ML-site-bandiagara",
+   "nom": "Falaises de Bandiagara (pays dogon)",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Paysage de falaises et de plateaux gréseux où se concentrent habitations, greniers, autels, sanctuaires et toguna (lieux de réunion). Des traditions sociales vivantes y perdurent : masques, fêtes rituelles et cérémonies liées aux ancêtres. L'UNESCO souligne son intérêt géologique, archéologique et ethnologique.",
+   "type": "patrimoine_mondial",
+   "unesco_id": "516",
+   "inscription": "1989",
+   "coordonnees": {
+    "lat": 14.416667,
+    "lng": -3.316667
+   },
+   "regions": [
+    "Bandiagara"
+   ],
+   "wikidata": "Q650546",
+   "sensible": true,
+   "note_sensibilite": "Le site comprend des sanctuaires, autels et lieux de culte encore en usage ; certaines pratiques (masques, cérémonies aux ancêtres) relèvent de sociétés initiatiques. Toute présentation doit être validée avec les communautés dogon et les institutions partenaires.",
+   "sources": [
+    "S8",
+    "S50",
+    "S54"
+   ]
+  },
+  {
+   "id": "ML-site-djenne",
+   "nom": "Villes anciennes de Djenné",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Site habité depuis 250 av. J.-C. qui est devenu un marché et un maillon du commerce transsaharien de l'or. Aux XVe et XVIe siècles, la ville est l'un des foyers de diffusion de l'islam. Près de 2 000 maisons traditionnelles subsistent, bâties sur des buttes (toguere) qui les protègent des crues saisonnières.",
+   "type": "patrimoine_mondial",
+   "unesco_id": "116",
+   "inscription": "1988",
+   "coordonnees": {
+    "lat": 13.90639,
+    "lng": -4.555
+   },
+   "regions": [
+    "Djenné",
+    "delta intérieur du Niger"
+   ],
+   "periode": "depuis 250 av. J.-C.",
+   "wikidata": "Q15278644",
+   "sources": [
+    "S5",
+    "S55"
+   ]
+  },
+  {
+   "id": "ML-site-tombouctou",
+   "nom": "Tombouctou",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Capitale intellectuelle et spirituelle et centre de diffusion de l'islam en Afrique aux XVe et XVIe siècles, dotée de l'université coranique de Sankoré et d'autres medersa. Ses trois grandes mosquées (Djingareyber, Sankoré, Sidi Yahia) rappellent cet âge d'or. En 2012, 14 des 16 mausolées du site ont été détruits, puis reconstruits avec l'appui de l'UNESCO.",
+   "type": "patrimoine_mondial",
+   "unesco_id": "119",
+   "inscription": "1988",
+   "coordonnees": {
+    "lat": 16.77348,
+    "lng": -3.00742
+   },
+   "regions": [
+    "Tombouctou"
+   ],
+   "periode": "XVe-XVIe siècles",
+   "wikidata": "Q9427",
+   "sources": [
+    "S6",
+    "S56",
+    "S9"
+   ]
+  },
+  {
+   "id": "ML-site-grande-mosquee-djenne",
+   "nom": "Grande Mosquée de Djenné",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Édifice en terre crue considéré comme l'une des réalisations majeures du style soudano-sahélien, élevé dans la plaine alluviale du Bani. Un premier édifice daterait du XIIIe siècle, mais la construction actuelle date de 1907. Elle fait partie du site des villes anciennes de Djenné.",
+   "type": "monument",
+   "coordonnees": {
+    "lat": 13.905278,
+    "lng": -4.555556
+   },
+   "regions": [
+    "Djenné"
+   ],
+   "periode": "1907 (édifice actuel)",
+   "wikidata": "Q683632",
+   "sources": [
+    "S57",
+    "S55",
+    "S5"
+   ]
+  },
+  {
+   "id": "ML-site-djenne-djeno",
+   "nom": "Djenné-Djeno",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Site archéologique près de l'actuelle Djenné, où les premières formes de vie urbaine du delta intérieur du Niger apparaissent vers 250 av. J.-C. Il précède la ville de Djenné, dont l'UNESCO dit qu'elle est habitée depuis cette date.",
+   "type": "site_archeologique",
+   "coordonnees": {
+    "lat": 13.89,
+    "lng": -4.540278
+   },
+   "regions": [
+    "Djenné",
+    "delta intérieur du Niger"
+   ],
+   "periode": "depuis environ 250 av. J.-C.",
+   "sources": [
+    "S41",
+    "S5",
+    "S58"
+   ]
+  },
+  {
+   "id": "ML-site-kangaba-kamablon",
+   "nom": "Kangaba et la case sacrée Kamablon",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Ville royale du Manden, à environ 95 km au sud-ouest de Bamako, où se trouve le Kamablon, case circulaire bâtie en 1653 et rhabillée d'un nouveau toit de chaume tous les sept ans. Les commémorations annuelles de la Charte du Manden s'y tiennent, près de la clairière de Kurukan Fuga.",
+   "type": "lieu_de_memoire",
+   "coordonnees": {
+    "lat": 11.933333,
+    "lng": -8.416667
+   },
+   "regions": [
+    "Kangaba",
+    "Koulikoro"
+   ],
+   "periode": "case construite en 1653",
+   "wikidata": "Q1031919",
+   "sensible": true,
+   "note_sensibilite": "La case contient des objets à forte valeur symbolique et sert de lieu de décision de la communauté ; les rites qui l'entourent relèvent des clans Keita et des griots Diabaté.",
+   "sources": [
+    "S23",
+    "S37",
+    "S39",
+    "S59"
+   ]
+  },
+  {
+   "id": "ML-site-hamdallahi",
+   "nom": "Hamdallahi (ruines)",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Capitale de l'empire peul du Macina, fondée de toutes pièces en 1818 et détruite en 1862 après la conquête d'El Hadj Omar. Il n'en reste que des remparts de terre. Une fouille archéologique menée en 1989 par l'Université de Genève et l'Institut des sciences humaines de Bamako a étudié une grande maison de la cité.",
+   "type": "site_archeologique",
+   "regions": [
+    "Mopti"
+   ],
+   "periode": "1818-1862",
+   "sources": [
+    "S46",
+    "S44"
+   ]
+  },
+  {
+   "id": "ML-site-sikasso-tata",
+   "nom": "Sikasso et son tata (rempart)",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Capitale du royaume du Kénédougou, Sikasso est célèbre pour son rempart de terre qui résista au siège de Samory Touré avant de tomber devant l'armée française le 1er mai 1898. Une monographie d'Alpha Oumar Konaré, éditée en 1983, rassemble les données sur la construction des remparts et les luttes de la ville.",
+   "type": "lieu_de_memoire",
+   "coordonnees": {
+    "lat": 11.316667,
+    "lng": -5.666667
+   },
+   "regions": [
+    "Sikasso"
+   ],
+   "periode": "XIXe siècle",
+   "wikidata": "Q722827",
+   "sources": [
+    "S60",
+    "S61",
+    "S62"
+   ]
+  },
+  {
+   "id": "ML-site-boucle-baoule",
+   "nom": "Parc national de la Boucle du Baoulé",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Parc national du sud-ouest du pays, dans les régions de Kayes et de Koulikoro, où le Baoulé forme une boucle. De nombreux points d'eau permanents attirent la faune en saison sèche. Le parc et ses réserves voisines sont réserve de biosphère de l'UNESCO depuis 1982.",
+   "type": "site_naturel",
+   "coordonnees": {
+    "lat": 14.0833,
+    "lng": -8.8833
+   },
+   "regions": [
+    "Kayes",
+    "Koulikoro"
+   ],
+   "wikidata": "Q894983",
+   "sources": [
+    "S63",
+    "S64"
+   ]
+  },
+  {
+   "id": "ML-site-taoudeni",
+   "nom": "Taoudeni",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Localité saharienne du nord, à environ 750 km au nord de Tombouctou, qui a prospéré grâce à l'extraction du sel gemme à partir du XVIe siècle. Les mines ont remplacé celles de Teghazza. Les ruines d'un ancien bagne y subsistent : des opposants y ont été déportés sous le régime de Moussa Traoré, ce qui en fait aussi un lieu de mémoire politique.",
+   "type": "lieu_de_memoire",
+   "coordonnees": {
+    "lat": 22.631597,
+    "lng": -3.953567
+   },
+   "regions": [
+    "Taoudénit"
+   ],
+   "periode": "depuis le XVIe siècle",
+   "wikidata": "Q1888993",
+   "sensible": true,
+   "note_sensibilite": "Lieu de détention et de mort d'opposants sous le régime de 1968-1991 : mémoire douloureuse encore discutée, à présenter avec prudence.",
+   "sources": [
+    "S65",
+    "S66",
+    "S67",
+    "S68"
+   ]
+  }
+ ],
+ "traditions": [
+  {
+   "id": "ML-tradition-balafon",
+   "nom": "Pratiques et expressions culturelles liées au balafon (Mali, Burkina Faso, Côte d'Ivoire) et au kolintang (Indonésie)",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Le balafon désigne un ensemble de xylophones en bois de longueurs différentes, joué au Mali, au Burkina Faso et en Côte d'Ivoire ; son équivalent indonésien est le kolintang. Selon l'UNESCO, les instruments des deux régions partagent matériaux, formes, fonctions et modes de transmission, et sont associés aux valeurs de respect mutuel, de tolérance et d'unité. L'inscription de 2024 est un dossier multinational.",
+   "categorie": "musique",
+   "communautes": [
+    "communautés de joueurs et de facteurs de balafon du Mali"
+   ],
+   "regions": [
+    "Mali"
+   ],
+   "unesco": {
+    "liste": "Liste représentative",
+    "id": "02131",
+    "annee": 2024,
+    "url": "https://ich.unesco.org/en/RL/cultural-practices-and-expressions-linked-to-balafon-and-kolintang-in-mali-burkina-faso-cote-d-ivoire-and-indonesia-02131"
+   },
+   "transmission": "vivante",
+   "sources": [
+    "S69"
+   ]
+  },
+  {
+   "id": "ML-tradition-mbolon",
+   "nom": "Pratiques et expressions culturelles liées au M'Bolon",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Le M'Bolon est un instrument à cordes pincées dont la caisse de résonance est une grande calebasse recouverte de peau de bœuf et dont le manche en bois est arqué. Selon le nombre de cordes, il accompagne les fêtes populaires, les rites, les louanges aux chefs, les travaux des champs ou encore l'ardeur des guerriers. Il se joue dans le sud du Mali, quelle que soit l'origine, le genre ou la religion des musiciens, et se transmet par apprentissage et par des associations locales.",
+   "categorie": "musique",
+   "communautes": [
+    "khassonké",
+    "malinké",
+    "bambara",
+    "minyanka"
+   ],
+   "regions": [
+    "sud du Mali"
+   ],
+   "unesco": {
+    "liste": "Liste de sauvegarde urgente",
+    "id": "01689",
+    "annee": 2021,
+    "url": "https://ich.unesco.org/en/USL/cultural-practices-and-expressions-linked-to-the-m-bolon-a-traditional-musical-percussion-instrument-01689"
+   },
+   "transmission": "fragile",
+   "sources": [
+    "S70"
+   ]
+  },
+  {
+   "id": "ML-tradition-masques-markala",
+   "nom": "Sortie des masques et marionnettes de Markala",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Fête rituelle pratiquée par les communautés bambara, bozo, marka et somono de Markala, avec danses masquées, tambours et chants. Pendant la saison sèche, de jeunes initiés reçoivent leur instruction dans un bois sacré au bord du Niger, puis les célébrations de l'après-récolte annoncent la saison de pêche. Chaque masque et chaque marionnette incarne un lien entre les humains et la nature.",
+   "categorie": "rite",
+   "communautes": [
+    "bambara",
+    "bozo",
+    "marka",
+    "somono"
+   ],
+   "regions": [
+    "Markala",
+    "Ségou"
+   ],
+   "unesco": {
+    "liste": "Liste représentative",
+    "id": "01004",
+    "annee": 2014,
+    "url": "https://ich.unesco.org/en/RL/coming-forth-of-the-masks-and-puppets-in-markala-01004"
+   },
+   "transmission": "vivante",
+   "sensible": true,
+   "note_sensibilite": "Rite d'initiation comprenant libations, offrandes et un bois sacré : les savoirs transmis aux initiés ne doivent pas être divulgués sans accord des communautés détentrices.",
+   "sources": [
+    "S35"
+   ]
+  },
+  {
+   "id": "ML-tradition-imzad",
+   "nom": "Pratiques et savoirs liés à l'imzad des communautés touarègues",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "L'imzad est un violon monocorde que jouent les femmes touarègues, assises, avec un archet de bois arqué. Sa musique accompagne des chants poétiques qui célèbrent les exploits des héros d'autrefois, et lui est aussi attribué un effet thérapeutique. Les femmes fabriquent l'instrument avec une demi-calebasse séchée recouverte d'une peau percée de trous en forme de rosettes. Le dossier d'inscription est partagé entre l'Algérie, le Mali et le Niger.",
+   "categorie": "musique",
+   "communautes": [
+    "touarègues"
+   ],
+   "regions": [
+    "nord du Mali"
+   ],
+   "langues": [
+    "tamasheq"
+   ],
+   "unesco": {
+    "liste": "Liste représentative",
+    "id": "00891",
+    "annee": 2013,
+    "url": "https://ich.unesco.org/en/RL/practices-and-knowledge-linked-to-the-imzad-of-the-tuareg-communities-of-algeria-mali-and-niger-00891"
+   },
+   "transmission": "vivante",
+   "sources": [
+    "S48"
+   ]
+  },
+  {
+   "id": "ML-tradition-koredugaw",
+   "nom": "Société secrète des Kôrêdugaw, rite de la sagesse",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Société d'initiation centrale pour l'identité culturelle des Bambara, Malinké, Sénoufo et Samogo du Mali. Ses membres, vêtus de manteaux déchirés ornés de colliers de graines rouges, font rire par leur gloutonnerie et leur esprit mordant tout en incarnant sagesse, générosité et tolérance. Ils éduquent les enfants, servent de médiateurs sociaux et sont aussi herboristes et thérapeutes. On y entre par statut hérité, instruction des esprits ou transmission, quelle que soit l'ethnie, le genre ou la religion.",
+   "categorie": "rite",
+   "communautes": [
+    "bambara",
+    "malinké",
+    "sénoufo",
+    "samogo"
+   ],
+   "regions": [
+    "Mali"
+   ],
+   "unesco": {
+    "liste": "Liste de sauvegarde urgente",
+    "id": "00520",
+    "annee": 2011,
+    "url": "https://ich.unesco.org/en/USL/secret-society-of-the-koredugaw-the-rite-of-wisdom-in-mali-00520"
+   },
+   "transmission": "fragile",
+   "sensible": true,
+   "note_sensibilite": "Société initiatique : le contenu des savoirs, des rites et des plantes médicinales relève des détenteurs ; validation communautaire indispensable avant publication.",
+   "sources": [
+    "S36"
+   ]
+  },
+  {
+   "id": "ML-tradition-sanke-mon",
+   "nom": "Sanké mon, rite de pêche collective des Sanké",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Rite qui se tient à San, dans la région de Ségou, le deuxième jeudi du septième mois lunaire pour commémorer la fondation de la ville. Il s'ouvre par le sacrifice de coqs et de chèvres aux esprits de l'eau du bassin de Sanké, suivi de quinze heures de pêche collective aux filets. Une danse masquée des Buwa sur la place publique le prolonge. Traditionnellement, il marque le début de la saison des pluies ; sa popularité a baissé ces dernières années.",
+   "categorie": "rite",
+   "communautes": [
+    "Sanké"
+   ],
+   "regions": [
+    "San",
+    "Ségou"
+   ],
+   "unesco": {
+    "liste": "Liste de sauvegarde urgente",
+    "id": "00289",
+    "annee": 2009,
+    "url": "https://ich.unesco.org/en/USL/sanke-mon-collective-fishing-rite-of-the-sanke-00289"
+   },
+   "transmission": "menacée",
+   "sensible": true,
+   "note_sensibilite": "Rite comportant des sacrifices et des offrandes aux esprits de l'eau : présenter avec l'accord de la communauté sanké.",
+   "sources": [
+    "S71"
+   ]
+  },
+  {
+   "id": "ML-tradition-kamablon",
+   "nom": "Cérémonie septennale de recouvrement de la case sacrée de Kangaba (Kamablon)",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Tous les sept ans, les Malinké et d'autres peuples du Manden se réunissent à Kangaba pour remplacer le chaume de la case circulaire du Kamablon, construite en 1653. Pendant cinq jours, des jeunes de 20 ou 21 ans démontent l'ancien toit et en posent un nouveau sous la conduite des anciens, qui leur transmettent l'histoire et le symbolisme de la case. Les clans Keita et les griots Diabaté en sont les gardiens et organisent la cérémonie, aussi occasion de régler des conflits.",
+   "categorie": "rite",
+   "communautes": [
+    "malinké",
+    "Keita",
+    "griots Diabaté"
+   ],
+   "regions": [
+    "Kangaba",
+    "Koulikoro"
+   ],
+   "langues": [
+    "maninkakan de l'Est"
+   ],
+   "unesco": {
+    "liste": "Liste représentative",
+    "id": "00190",
+    "annee": 2009,
+    "url": "https://ich.unesco.org/en/RL/septennial-re-roofing-ceremony-of-the-kamablon-sacred-house-of-kangaba-00190"
+   },
+   "transmission": "vivante",
+   "sensible": true,
+   "note_sensibilite": "Case abritant des objets à forte valeur symbolique, lieu de décision de la communauté : toute diffusion se fait avec les gardiens (clans Keita, griots Diabaté).",
+   "sources": [
+    "S23",
+    "S39"
+   ]
+  },
+  {
+   "id": "ML-tradition-charte-manden",
+   "nom": "Charte du Manden proclamée à Kurukan Fuga",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Au début du XIIIe siècle, après une grande victoire militaire, le fondateur de l'empire mandingue et son assemblée de sages auraient proclamé la Charte du Manden à Kurukan Fuga. Principalement orale, elle compte un préambule et sept chapitres : paix sociale dans la diversité, inviolabilité de la personne, éducation, intégrité du territoire, sécurité alimentaire, abolition de l'esclavage par razzia, liberté d'expression et de commerce. Elle se transmet de père en fils dans les clans malinké, et des cérémonies annuelles ont lieu à Kangaba.",
+   "categorie": "oralite",
+   "communautes": [
+    "malinké"
+   ],
+   "regions": [
+    "Kangaba",
+    "Koulikoro"
+   ],
+   "langues": [
+    "maninkakan de l'Est"
+   ],
+   "periode": "début du XIIIe siècle",
+   "unesco": {
+    "liste": "Liste représentative",
+    "id": "00290",
+    "annee": 2009,
+    "url": "https://ich.unesco.org/en/RL/manden-charter-proclaimed-in-kurukan-fuga-00290"
+   },
+   "transmission": "vivante",
+   "sources": [
+    "S37",
+    "S41"
+   ]
+  },
+  {
+   "id": "ML-tradition-yaaral-degal",
+   "nom": "Espace culturel du Yaaral et du Degal",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Fêtes qui marquent la traversée du fleuve par les troupeaux dans le delta intérieur du Niger, deux fois par an, un samedi fixé selon l'état des pâturages et le niveau de l'eau. Elles donnent lieu à des concours de troupeaux les mieux ornés, à des poèmes pastoraux récités par les bergers et à des chants de jeunes femmes parées. Peuls éleveurs, riziculteurs marka ou nono, cultivateurs de mil bambara et pêcheurs bozo s'y retrouvent, ce qui renouvelle les pactes entre communautés.",
+   "categorie": "fete",
+   "communautes": [
+    "peul",
+    "marka",
+    "nono",
+    "bambara",
+    "bozo"
+   ],
+   "regions": [
+    "delta intérieur du Niger"
+   ],
+   "langues": [
+    "peul (fulfulde du Maasina)"
+   ],
+   "unesco": {
+    "liste": "Liste représentative",
+    "id": "00132",
+    "annee": 2008,
+    "url": "https://ich.unesco.org/en/RL/cultural-space-of-the-yaaral-and-degal-00132"
+   },
+   "transmission": "vivante",
+   "sources": [
+    "S42",
+    "S43"
+   ]
+  },
+  {
+   "id": "ML-tradition-wassoulou",
+   "nom": "Musique wassoulou",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Le Wassoulou est une aire culturelle au sud du Niger, à cheval sur le Mali, la Guinée et la Côte d'Ivoire, autour de Yanfolila et de Bougouni côté malien. Sa musique, souvent accompagnée de calebasse et de n'goni, est devenue connue grâce à des artistes comme Oumou Sangaré, qui y a introduit la calebasse comme percussion et qui chante en critiquant la place faite aux femmes.",
+   "categorie": "musique",
+   "communautes": [
+    "communautés du Wassoulou"
+   ],
+   "regions": [
+    "Bougouni",
+    "Yanfolila"
+   ],
+   "unesco": null,
+   "transmission": "vivante",
+   "sources": [
+    "S72",
+    "S73",
+    "S49",
+    "S74"
+   ]
+  },
+  {
+   "id": "ML-tradition-griots-kora",
+   "nom": "Art des griots (jali) et kora",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Les griots, appelés jali en mandingue, sont des spécialistes de la louange, de la généalogie et de la récitation des récits historiques, et dépositaires de la tradition orale en Afrique de l'Ouest. Au Mali, des familles de griots transmettent aussi la musique : Toumani Diabaté, surnommé « roi de la kora », descendait d'une famille de griots et jouait de cet instrument à cordes. Les griotes (jalimusoo) occupent aussi une place importante sur la scène musicale.",
+   "categorie": "oralite",
+   "communautes": [
+    "griots mandingues (jaliw)"
+   ],
+   "regions": [
+    "Mali"
+   ],
+   "periode": "tradition ancienne, vivante aujourd'hui",
+   "unesco": null,
+   "transmission": "vivante",
+   "sources": [
+    "S75",
+    "S76",
+    "S73"
+   ]
+  },
+  {
+   "id": "ML-tradition-musique-tamasheq",
+   "nom": "Musique et fêtes touarègues du nord",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Les grandes fêtes touarègues de Kidal (Takoubelt) et de Tombouctou (Temakannit) ont inspiré la création du Festival au désert, avec chants, danses, courses de chameaux et de chevaux et jeux. La scène musicale s'est aussi ouverte à des groupes comme Tinariwen, groupe tamasheq que Jeune Afrique qualifie d'emblématique de la résistance touarègue.",
+   "categorie": "fete",
+   "communautes": [
+    "touarègues"
+   ],
+   "regions": [
+    "Kidal",
+    "Tombouctou"
+   ],
+   "langues": [
+    "tamasheq"
+   ],
+   "unesco": null,
+   "transmission": "vivante",
+   "sources": [
+    "S18",
+    "S49"
+   ]
+  },
+  {
+   "id": "ML-tradition-bogolan",
+   "nom": "Bogolan (bògòlanfini)",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Tissu de coton teint avec des décoctions de feuilles et décoré à main levée avec de la boue fermentée : bogolan signifie « fait avec de la terre » en bambara. Associé aux communautés bambara, sénoufo et minyanka et à la région de Ségou, il avait traditionnellement valeur de protection pour les chasseurs, les femmes enceintes, les nourrissons ou les personnes âgées. La commercialisation à grande échelle depuis les années 1980 a rendu difficile de distinguer le tissu authentique des copies synthétiques.",
+   "categorie": "textile",
+   "communautes": [
+    "bambara",
+    "sénoufo",
+    "minyanka"
+   ],
+   "regions": [
+    "Ségou"
+   ],
+   "langues": [
+    "bambara"
+   ],
+   "unesco": null,
+   "transmission": "fragile",
+   "sources": [
+    "S77",
+    "S78",
+    "S79"
+   ]
+  },
+  {
+   "id": "ML-tradition-masques-dogon",
+   "nom": "Masques et sociétés initiatiques dogon",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Les masques dogon sont des objets à vocation religieuse utilisés lors de cérémonies où danse et musique sont confiées à la société initiatique Awa. L'UNESCO relève, dans le paysage culturel de Bandiagara, des traditions sociales encore vivantes (masques, fêtes rituelles, cultes aux ancêtres).",
+   "categorie": "rite",
+   "communautes": [
+    "dogon"
+   ],
+   "regions": [
+    "Bandiagara"
+   ],
+   "unesco": null,
+   "transmission": "vivante",
+   "sensible": true,
+   "note_sensibilite": "Masques, sociétés initiatiques et cérémonies funéraires relevant de savoirs réservés : à valider avec les représentants dogon avant toute publication détaillée.",
+   "sources": [
+    "S54",
+    "S8"
+   ]
+  },
+  {
+   "id": "ML-tradition-festival-niger",
+   "nom": "Festival sur le Niger (Ségou)",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Rendez-vous musical de la ville de Ségou, sur le fleuve. Jeune Afrique cite sa cinquième édition, en 2009, parrainée par le claviériste Cheick Tidiane Seck et clôturée par Oumou Sangaré.",
+   "categorie": "fete",
+   "communautes": [
+    "habitants de Ségou et artistes du Mali"
+   ],
+   "regions": [
+    "Ségou"
+   ],
+   "unesco": null,
+   "transmission": "vivante",
+   "sources": [
+    "S49"
+   ]
+  },
+  {
+   "id": "ML-tradition-rencontres-bamako",
+   "nom": "Rencontres africaines de la photographie (Bamako)",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Manifestation bisannuelle fondée en 1994 à Bamako, à l'initiative de deux photographes français, pour promouvoir la photographie africaine contemporaine. Jeune Afrique rappelle qu'elle a mis en lumière Malick Sidibé dès 1994, avant la reconnaissance internationale de ce dernier.",
+   "categorie": "fete",
+   "communautes": [
+    "photographes maliens et africains"
+   ],
+   "regions": [
+    "Bamako"
+   ],
+   "periode": "depuis 1994",
+   "unesco": null,
+   "transmission": "vivante",
+   "sources": [
+    "S80",
+    "S81"
+   ]
+  },
+  {
+   "id": "ML-tradition-silamaka",
+   "nom": "Épopée peule de Silamaka",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Épopée orale des Peuls du Macina recueillie par Amadou Hampâté Bâ et traduite avec Lilyan Kesteloot (L'Homme, 1968). Elle appartient au répertoire de poésie héroïque transmis en peul.",
+   "categorie": "oralite",
+   "communautes": [
+    "peul"
+   ],
+   "regions": [
+    "Macina"
+   ],
+   "langues": [
+    "peul (fulfulde du Maasina)"
+   ],
+   "unesco": null,
+   "transmission": "vivante",
+   "sources": [
+    "S13",
+    "S82"
+   ]
+  },
+  {
+   "id": "ML-tradition-epopee-soundiata",
+   "nom": "Épopée de Soundiata",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Récit raconté de génération en génération par les griots au sujet du fondateur de l'empire du Mali, mêlant faits et éléments légendaires. L'historien Hadrien Collet précise que Soundiata a très probablement existé, mais que sa vie a été mythifiée par ces récits. Une version écrite brève a été publiée en 1960 par Djibril Tamsir Niane d'après le griot Mamadou Kouyaté.",
+   "categorie": "oralite",
+   "communautes": [
+    "griots mandingues",
+    "malinké"
+   ],
+   "regions": [
+    "Manden",
+    "Kangaba"
+   ],
+   "langues": [
+    "maninkakan de l'Est"
+   ],
+   "periode": "XIIIe siècle (récit), tradition orale vivante",
+   "unesco": null,
+   "transmission": "vivante",
+   "sources": [
+    "S83",
+    "S84"
+   ]
+  }
+ ],
+ "personnalites": [
+  {
+   "id": "ML-personne-soundiata-keita",
+   "nom": "Soundiata Keïta",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Souverain mandingue présenté par la tradition comme le fondateur de l'empire du Mali au XIIIe siècle. Son histoire nous parvient surtout par l'épopée que racontent les griots. L'historien Hadrien Collet le décrit comme un personnage semi-légendaire qui a très probablement existé, tandis que l'UNESCO associe au fondateur de l'empire la proclamation de la Charte du Manden.",
+   "deces": {
+    "date": "vers 1255",
+    "lieu": null
+   },
+   "roles": [
+    "souverain",
+    "fondateur d'empire"
+   ],
+   "domaines": [
+    "politique"
+   ],
+   "epoque": "XIIIe siècle",
+   "sources": [
+    "S84",
+    "S37",
+    "S83"
+   ],
+   "wikidata": "Q175772",
+   "note": "Les dates de naissance et de mort sont incertaines et varient selon les sources ; seule la date de décès approximative donnée par Wikipédia est retenue."
+  },
+  {
+   "id": "ML-personne-mansa-moussa",
+   "nom": "Mansa Moussa",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Souverain de l'empire du Mali de 1312 à 1337, dont le règne marque l'apogée de l'empire. Son pèlerinage à La Mecque de 1324, passant par Le Caire, a fait connaître le Mali au monde musulman et à l'Europe. La légende en fait l'homme le plus riche de l'histoire, ce que les travaux universitaires ne confirment pas.",
+   "deces": {
+    "date": "1337",
+    "lieu": null
+   },
+   "roles": [
+    "mansa (empereur)"
+   ],
+   "domaines": [
+    "politique",
+    "diplomatie"
+   ],
+   "epoque": "XIVe siècle",
+   "sources": [
+    "S84",
+    "S85"
+   ],
+   "wikidata": "Q309333"
+  },
+  {
+   "id": "ML-personne-askia-mohammed",
+   "nom": "Askia Mohammed (Askia le Grand)",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Premier empereur songhaï de la dynastie des Askia, il monte sur le trône en 1493 après avoir contesté la succession de Sonni Baro. L'UNESCO lui attribue la construction du tombeau pyramidal de Gao, en 1495, à son retour de La Mecque, après avoir fait de l'islam la religion officielle de l'empire. Son règne est associé à l'essor de l'empire et à l'ancrage de l'islam.",
+   "naissance": {
+    "date": "1443",
+    "lieu": null
+   },
+   "deces": {
+    "date": "1538",
+    "lieu": "Gao"
+   },
+   "roles": [
+    "empereur"
+   ],
+   "domaines": [
+    "politique"
+   ],
+   "epoque": "XVe-XVIe siècles",
+   "sources": [
+    "S7",
+    "S86"
+   ],
+   "wikidata": "Q1771994",
+   "note": "Dates (1443-1538) selon Wikipédia."
+  },
+  {
+   "id": "ML-personne-ahmed-baba",
+   "nom": "Ahmed Baba (Ahmad Baba al-Timbukti)",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Savant et juriste de Tombouctou, né à Araouane, auteur prolifique. Déporté au Maroc après l'invasion marocaine du Songhaï, il continue d'y écrire. L'Institut des hautes études et de recherches islamiques de Tombouctou, qui conserve les manuscrits de la ville, porte son nom.",
+   "naissance": {
+    "date": "1556-10-26",
+    "lieu": "Araouane"
+   },
+   "deces": {
+    "date": "1627-04-22",
+    "lieu": "Tombouctou"
+   },
+   "roles": [
+    "savant",
+    "juriste",
+    "auteur"
+   ],
+   "domaines": [
+    "savoirs",
+    "droit"
+   ],
+   "epoque": "XVIe-XVIIe siècles",
+   "sources": [
+    "S87",
+    "S88",
+    "S89"
+   ],
+   "wikidata": "Q2827500",
+   "note": "L'année de sa déportation au Maroc varie selon les sources (1591, 1593 ou 1594)."
+  },
+  {
+   "id": "ML-personne-babemba-traore",
+   "nom": "Babemba Traoré",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Souverain du royaume du Kénédougou, dont la capitale est Sikasso, à la fin du XIXe siècle. Il mène une résistance acharnée aux troupes coloniales françaises, qui s'achève avec la chute de Sikasso le 1er mai 1898 ; il choisit alors de se donner la mort. Cette résistance en fait une figure emblématique de l'histoire du Mali.",
+   "deces": {
+    "date": "1898-05-01",
+    "lieu": "Sikasso"
+   },
+   "roles": [
+    "souverain",
+    "chef de résistance"
+   ],
+   "domaines": [
+    "résistance",
+    "politique"
+   ],
+   "epoque": "XIXe siècle",
+   "sources": [
+    "S60",
+    "S61"
+   ],
+   "wikidata": "Q642167",
+   "note": "La date exacte de sa mort est celle de la chute de Sikasso (1er mai 1898) d'après Wikipédia."
+  },
+  {
+   "id": "ML-personne-modibo-keita",
+   "nom": "Modibo Keïta",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Premier président de la République du Mali de 1960 à 1968, il proclame l'indépendance le 22 septembre 1960. Panafricaniste, il est l'un des fondateurs de l'OUA en 1963 et mène une politique socialiste. Renversé par le coup d'État du 19 novembre 1968, il meurt en détention le 16 mai 1977, dans des circonstances jamais élucidées.",
+   "naissance": {
+    "date": "1915",
+    "lieu": null
+   },
+   "deces": {
+    "date": "1977-05-16",
+    "lieu": null
+   },
+   "roles": [
+    "président",
+    "indépendantiste"
+   ],
+   "domaines": [
+    "politique"
+   ],
+   "epoque": "XXe siècle",
+   "sources": [
+    "S67",
+    "S68",
+    "S4"
+   ],
+   "wikidata": "Q313240",
+   "note": "Naissance : 1915 d'après son âge de 62 ans en 1977 (Jeune Afrique) ; le lieu du décès (Kidal ou camp de Djicoroni) diffère selon les sources."
+  },
+  {
+   "id": "ML-personne-amadou-hampate-ba",
+   "nom": "Amadou Hampâté Bâ",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Écrivain et ethnologue peul, grand défenseur de la tradition orale, il a été membre du conseil exécutif de l'UNESCO de 1962 à 1970. Il a recueilli des épopées comme Silamaka et l'histoire de l'empire peul du Macina. Ses archives, plus de 1 000 manuscrits non publiés, sont préservées avec l'appui du programme Mémoire du monde.",
+   "naissance": {
+    "date": "1900 ou 1901",
+    "lieu": "Bandiagara"
+   },
+   "deces": {
+    "date": "1991-05-15",
+    "lieu": "Abidjan"
+   },
+   "roles": [
+    "écrivain",
+    "ethnologue",
+    "diplomate"
+   ],
+   "domaines": [
+    "littérature",
+    "savoirs",
+    "oralité"
+   ],
+   "epoque": "XXe siècle",
+   "sources": [
+    "S90",
+    "S82",
+    "S13",
+    "S46",
+    "S91"
+   ],
+   "wikidata": "Q452299",
+   "note": "Année de naissance divergente : 1900 (Persée) ou 1901 (UNESCO, Wikipédia)."
+  },
+  {
+   "id": "ML-personne-aoua-keita",
+   "nom": "Aoua Keïta",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Sage-femme, militante politique et autrice. Elle est l'une des premières femmes diplômées sages-femmes d'Afrique noire et prend la responsabilité du premier poste de sage-femme de Gao au début des années 1930. Ancienne députée du Mali et membre du bureau politique de l'US-RDA, elle raconte sa vie dans Femme d'Afrique (Présence Africaine, 1975).",
+   "naissance": {
+    "date": "1912-07-12",
+    "lieu": "Bamako"
+   },
+   "deces": {
+    "date": "1980-05-07",
+    "lieu": "Bamako"
+   },
+   "roles": [
+    "sage-femme",
+    "députée",
+    "autrice"
+   ],
+   "domaines": [
+    "politique",
+    "santé",
+    "littérature"
+   ],
+   "epoque": "XXe siècle",
+   "sources": [
+    "S92",
+    "S93",
+    "S94"
+   ],
+   "wikidata": "Q537613"
+  },
+  {
+   "id": "ML-personne-adame-ba-konare",
+   "nom": "Adame Ba Konaré",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Historienne malienne, ancienne première dame du pays, elle a publié une dizaine d'ouvrages sur l'histoire du Mali et dirige notamment des projets de mise à niveau de la connaissance de l'histoire africaine. Elle a participé aux manifestations de 1991 en faveur de la démocratie et du multipartisme.",
+   "naissance": {
+    "date": "1947-05-01",
+    "lieu": "Ségou"
+   },
+   "roles": [
+    "historienne",
+    "autrice",
+    "militante"
+   ],
+   "domaines": [
+    "savoirs",
+    "littérature",
+    "politique"
+   ],
+   "epoque": "XXe-XXIe siècles",
+   "sources": [
+    "S95",
+    "S96",
+    "S52",
+    "S97"
+   ],
+   "wikidata": "Q2824061"
+  },
+  {
+   "id": "ML-personne-aminata-dramane-traore",
+   "nom": "Aminata Dramane Traoré",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Essayiste et femme politique, ancienne ministre de la Culture sous la présidence d'Alpha Oumar Konaré. Figure de l'altermondialisme africain, elle critique les effets de la mondialisation libérale. À Bamako, elle mène aussi des actions de proximité et a ouvert l'hôtel Djenné, construit en matériaux traditionnels.",
+   "naissance": {
+    "date": "1947",
+    "lieu": "Bamako"
+   },
+   "roles": [
+    "ministre",
+    "essayiste",
+    "militante"
+   ],
+   "domaines": [
+    "politique",
+    "culture",
+    "littérature"
+   ],
+   "epoque": "XXe-XXIe siècles",
+   "sources": [
+    "S98",
+    "S99"
+   ],
+   "wikidata": "Q1169518",
+   "note": "Année de naissance divergente : 1942 (Jeune Afrique, 2005) ou 1947 (Wikipédia)."
+  },
+  {
+   "id": "ML-personne-oumou-sangare",
+   "nom": "Oumou Sangaré",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Chanteuse, autrice et compositrice du Wassoulou. Fille de la chanteuse Aminata Diakité, elle enregistre son premier album à 21 ans et devient une artiste internationale. Ses chansons, qui s'appuient sur le n'goni et la calebasse, portent une critique sociale sur la place des femmes.",
+   "naissance": {
+    "date": "1968",
+    "lieu": "Bamako"
+   },
+   "roles": [
+    "chanteuse",
+    "compositrice"
+   ],
+   "domaines": [
+    "musique"
+   ],
+   "epoque": "depuis les années 1980",
+   "sources": [
+    "S74",
+    "S73",
+    "S49",
+    "S100"
+   ],
+   "wikidata": "Q467094",
+   "note": "Date exacte de naissance divergente selon les sources (février 1968 d'après Wikipédia)."
+  },
+  {
+   "id": "ML-personne-rokia-traore",
+   "nom": "Rokia Traoré",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Chanteuse, autrice et compositrice, découverte en 1997 au festival Musiques métisses d'Angoulême. Fille de diplomate, elle a grandi entre plusieurs pays et mêle instruments traditionnels (n'goni, calebasse) et sonorités blues ou rock. Son album Bowmboï a été désigné meilleur album aux World Music Awards de la BBC en 2004.",
+   "naissance": {
+    "date": "1974",
+    "lieu": "Mali (Bamako ou Kati selon les sources)"
+   },
+   "roles": [
+    "chanteuse",
+    "compositrice"
+   ],
+   "domaines": [
+    "musique"
+   ],
+   "epoque": "depuis les années 1990",
+   "sources": [
+    "S73",
+    "S101"
+   ],
+   "wikidata": "Q256065",
+   "note": "Lieu de naissance divergent selon Jeune Afrique : Bamako (2004) ou Kati (autre entretien)."
+  },
+  {
+   "id": "ML-personne-nahawa-doumbia",
+   "nom": "Nahawa Doumbia",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Chanteuse malienne, devenue une star au Mali dès le milieu des années 1970, puis connue en France après un concert au festival Africolor en 1989. Elle fait partie des grandes voix féminines de la scène malienne avec Oumou Sangaré.",
+   "naissance": {
+    "date": "1960",
+    "lieu": null
+   },
+   "roles": [
+    "chanteuse"
+   ],
+   "domaines": [
+    "musique"
+   ],
+   "epoque": "depuis les années 1970",
+   "sources": [
+    "S73",
+    "S102"
+   ],
+   "wikidata": "Q99527593",
+   "note": "Année et lieu de naissance divergents selon les sources (1959 ou 1960 ; Bougouni ou Mafélé)."
+  },
+  {
+   "id": "ML-personne-mariam-doumbia",
+   "nom": "Mariam Doumbia (Amadou et Mariam)",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Chanteuse aveugle, moitié du duo Amadou et Mariam, qui s'est rencontré à l'Institut des jeunes aveugles de Bamako en 1976. Le duo est découvert par le public français au festival des Transmusicales et remporte des Victoires de la musique en 2005 (Dimanche à Bamako) et 2013 (Folila).",
+   "naissance": {
+    "date": "1958-04-15",
+    "lieu": "Bamako"
+   },
+   "roles": [
+    "chanteuse",
+    "musicienne"
+   ],
+   "domaines": [
+    "musique"
+   ],
+   "epoque": "depuis les années 1980",
+   "sources": [
+    "S73",
+    "S103"
+   ],
+   "wikidata": "Q28830329"
+  },
+  {
+   "id": "ML-personne-seydou-keita",
+   "nom": "Seydou Keïta",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Photographe portraitiste de Bamako, d'abord apprenti menuisier, il reçoit un petit appareil Kodak en 1935 et ouvre en 1948 un studio dans la cour familiale de Bamako-Coura. Le Tout-Bamako vient s'y faire photographier. Une exposition au Grand Palais, à Paris, en 2016, a été la première exposition monographique consacrée à un artiste africain dans ce lieu.",
+   "naissance": {
+    "date": "1921 ou 1923",
+    "lieu": "Bamako"
+   },
+   "deces": {
+    "date": "2001-11-22",
+    "lieu": "La Boissière-École (France)"
+   },
+   "roles": [
+    "photographe"
+   ],
+   "domaines": [
+    "arts",
+    "photographie"
+   ],
+   "epoque": "XXe siècle",
+   "sources": [
+    "S104",
+    "S105"
+   ],
+   "wikidata": "Q962958",
+   "note": "Année de naissance : 1921 (Jeune Afrique) ou 1923 (Wikipédia)."
+  },
+  {
+   "id": "ML-personne-malick-sidibe",
+   "nom": "Malick Sidibé",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Photographe né à Soloba dans une famille peule, formé comme artisan bijoutier à l'école des artisans soudanais de Bamako. Il ouvre le Studio Malick en 1962 et photographie les soirées, les bals et la jeunesse des années 1960. Il reçoit le prix Hasselblad en 2003 et le Lion d'or de la Biennale de Venise en 2007.",
+   "naissance": {
+    "date": "1936",
+    "lieu": "Soloba"
+   },
+   "deces": {
+    "date": "2016-04-14",
+    "lieu": "Bamako"
+   },
+   "roles": [
+    "photographe"
+   ],
+   "domaines": [
+    "arts",
+    "photographie"
+   ],
+   "epoque": "XXe-XXIe siècles",
+   "sources": [
+    "S106",
+    "S81"
+   ],
+   "wikidata": "Q781717"
+  },
+  {
+   "id": "ML-personne-souleymane-cisse",
+   "nom": "Souleymane Cissé",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Réalisateur né à Bamako, formé au VGIK de Moscou. Il tourne Den Muso (1975), premier long métrage de fiction malien en bambara, aussitôt interdit, puis Baara, Finyè et Yeelen, Prix du jury à Cannes en 1987. Il est mort à Bamako le 19 février 2025.",
+   "naissance": {
+    "date": "1940-04-21",
+    "lieu": "Bamako"
+   },
+   "deces": {
+    "date": "2025-02-19",
+    "lieu": "Bamako"
+   },
+   "roles": [
+    "réalisateur"
+   ],
+   "domaines": [
+    "cinéma",
+    "arts"
+   ],
+   "epoque": "XXe-XXIe siècles",
+   "sources": [
+    "S107",
+    "S108",
+    "S109"
+   ],
+   "wikidata": "Q1248110"
+  },
+  {
+   "id": "ML-personne-ali-farka-toure",
+   "nom": "Ali Farka Touré",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Chanteur et guitariste né à Kanau, sur les bords du Niger, dans une famille noble arma proche des Songhaïs. Il chante en plusieurs langues africaines, dont le songhaï, le peul, le tamasheq et le bambara. Il devient l'un des musiciens les plus emblématiques du blues malien, tout en se disant d'abord cultivateur à Niafunké.",
+   "naissance": {
+    "date": "1939-10-31",
+    "lieu": "Kanau"
+   },
+   "deces": {
+    "date": "2006-03-07",
+    "lieu": "Bamako"
+   },
+   "roles": [
+    "musicien",
+    "chanteur",
+    "agriculteur"
+   ],
+   "domaines": [
+    "musique"
+   ],
+   "epoque": "XXe siècle",
+   "sources": [
+    "S110",
+    "S111",
+    "S112"
+   ],
+   "wikidata": "Q334947"
+  },
+  {
+   "id": "ML-personne-toumani-diabate",
+   "nom": "Toumani Diabaté",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Joueur de kora né à Bamako dans une famille de griots, qui l'initient dès l'âge de cinq ans. Il rejoint l'Ensemble instrumental du Mali et joue avec de grandes figures de la musique malienne, dont Ali Farka Touré. Surnommé le « roi de la kora », il est mort à Bamako le 19 juillet 2024.",
+   "naissance": {
+    "date": "1965-08-10",
+    "lieu": "Bamako"
+   },
+   "deces": {
+    "date": "2024-07-19",
+    "lieu": "Bamako"
+   },
+   "roles": [
+    "musicien",
+    "joueur de kora"
+   ],
+   "domaines": [
+    "musique"
+   ],
+   "epoque": "XXe-XXIe siècles",
+   "sources": [
+    "S76",
+    "S113"
+   ],
+   "wikidata": "Q380711"
+  },
+  {
+   "id": "ML-personne-yambo-ouologuem",
+   "nom": "Yambo Ouologuem",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Écrivain né à Bandiagara. Son roman Le Devoir de violence, publié au Seuil en septembre 1968, a reçu le prix Renaudot, le premier attribué à un écrivain africain. Accusé de plagiat à partir de 1972, le livre est retiré de la vente ; l'auteur s'est retiré de la vie littéraire et est mort à Sévaré en 2017.",
+   "naissance": {
+    "date": "1940-08-22",
+    "lieu": "Bandiagara"
+   },
+   "deces": {
+    "date": "2017-10-14",
+    "lieu": "Sévaré"
+   },
+   "roles": [
+    "écrivain"
+   ],
+   "domaines": [
+    "littérature"
+   ],
+   "epoque": "XXe siècle",
+   "sources": [
+    "S114",
+    "S115",
+    "S116"
+   ],
+   "wikidata": "Q3142046"
+  }
+ ],
+ "evenements": [
+  {
+   "id": "ML-evenement-djenne-djeno",
+   "titre": "Peuplement de Djenné-Djeno",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "-000249-01-01",
+   "date_affichee": "vers 250 av. J.-C.",
+   "precision": "siecle",
+   "description": "L'UNESCO indique que le site de Djenné est habité depuis 250 av. J.-C. Il devient ensuite un marché et un maillon du commerce transsaharien de l'or. Les toutes premières formes de vie urbaine du delta intérieur du Niger sont attestées à Djenné-Djeno.",
+   "regions": [
+    "Djenné"
+   ],
+   "sources": [
+    "S5",
+    "S41"
+   ]
+  },
+  {
+   "id": "ML-evenement-charte-manden",
+   "titre": "Charte du Manden proclamée à Kurukan Fuga",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "1201-01-01",
+   "date_affichee": "début du XIIIe siècle",
+   "precision": "siecle",
+   "description": "Après une grande victoire militaire, le fondateur de l'empire mandingue et son assemblée de sages proclament la Charte du Manden à Kurukan Fuga. Ce texte principalement oral prône la paix sociale dans la diversité, l'abolition de l'esclavage par razzia et la liberté d'expression et de commerce. Les dates précises varient (1222 ou 1236 selon Wikipédia).",
+   "acteurs": [
+    "Soundiata Keïta",
+    "assemblée des sages du Manden"
+   ],
+   "regions": [
+    "Kangaba"
+   ],
+   "sources": [
+    "S37",
+    "S41"
+   ]
+  },
+  {
+   "id": "ML-evenement-kirina",
+   "titre": "Bataille de Kirina et fondation de l'empire du Mali",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "1235-01-01",
+   "date_affichee": "vers 1235",
+   "precision": "annee",
+   "description": "La victoire de Soundiata Keïta sur le roi de Sosso, Soumaoro Kanté, à Kirina est présentée par la tradition comme l'acte de naissance de l'empire du Mali. La date de 1235 est celle que retient Wikipédia, mais les récits sur ces événements sont mêlés de légende, comme le rappelle l'historien Hadrien Collet.",
+   "acteurs": [
+    "Soundiata Keïta",
+    "Soumaoro Kanté"
+   ],
+   "sources": [
+    "S117",
+    "S84",
+    "S37"
+   ]
+  },
+  {
+   "id": "ML-evenement-hajj-mansa-moussa",
+   "titre": "Pèlerinage de Mansa Moussa à La Mecque",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "1324-01-01",
+   "date_affichee": "1324",
+   "precision": "annee",
+   "description": "Le souverain du Mali, Mansa Moussa, se rend à La Mecque avec une imposante suite, en passant par Le Caire, où l'accueille le sultan mamelouk al-Nasir Muhammad. L'épisode, rapporté par des chroniqueurs arabes, fait connaître l'empire du Mali dans le monde musulman et en Europe. Les chiffres de la caravane et de l'or varient beaucoup selon les sources.",
+   "acteurs": [
+    "Mansa Moussa",
+    "al-Nasir Muhammad"
+   ],
+   "sources": [
+    "S84",
+    "S85"
+   ]
+  },
+  {
+   "id": "ML-evenement-tombeau-askia",
+   "titre": "Édification du tombeau des Askia à Gao",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "1495-01-01",
+   "date_affichee": "1495",
+   "precision": "annee",
+   "description": "Askia Mohamed fait construire dans sa capitale Gao la pyramide de terre de 17 mètres qui porte son nom. Il l'élève après son retour de La Mecque, alors qu'il a fait de l'islam la religion officielle de l'empire songhaï. L'ensemble comprend aussi deux mosquées et un cimetière.",
+   "acteurs": [
+    "Askia Mohamed"
+   ],
+   "regions": [
+    "Gao"
+   ],
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "ML-evenement-tondibi",
+   "titre": "Bataille de Tondibi",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "1591-01-01",
+   "date_affichee": "1591",
+   "precision": "annee",
+   "description": "Près de Gao, l'armée du sultan saadien du Maroc, commandée par Djouder Pacha et dotée d'armes à feu et de canons, bat les forces de l'empire songhaï. Cette défaite précipite l'effondrement de l'empire. Les sources divergent sur le jour exact (12 mars ou 12 avril selon Wikipédia).",
+   "acteurs": [
+    "Djouder Pacha",
+    "Ahmed el-Mansour",
+    "empire songhaï"
+   ],
+   "regions": [
+    "Gao"
+   ],
+   "sources": [
+    "S89",
+    "S118",
+    "S41"
+   ]
+  },
+  {
+   "id": "ML-evenement-kamablon-1653",
+   "titre": "Construction du Kamablon de Kangaba",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "1653-01-01",
+   "date_affichee": "1653",
+   "precision": "annee",
+   "description": "La case circulaire du Kamablon, abri d'objets symboliques et lieu de décision de la communauté, est bâtie en 1653 à Kangaba. Elle donne lieu depuis à une cérémonie de recouvrement tous les sept ans.",
+   "regions": [
+    "Kangaba"
+   ],
+   "sources": [
+    "S23"
+   ]
+  },
+  {
+   "id": "ML-evenement-noukouma-1818",
+   "titre": "Victoire d'Aḥmad Lobbo à Noukouma et naissance du califat de Hamdallahi",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "1818-03-21",
+   "date_affichee": "21 mars 1818",
+   "precision": "jour",
+   "description": "Aḥmad Lobbo remporte la bataille de Noukouma, dont le bicentenaire a été commémoré en 2018 par un colloque. Elle conduit à l'établissement du califat de Hamdallahi, au Macina, dont la capitale est créée de toutes pièces en 1818. La chronologie précise de ce califat reste discutée par les spécialistes.",
+   "acteurs": [
+    "Aḥmad Lobbo"
+   ],
+   "regions": [
+    "Mopti",
+    "Macina"
+   ],
+   "sources": [
+    "S44",
+    "S46"
+   ]
+  },
+  {
+   "id": "ML-evenement-hamdallahi-1862",
+   "titre": "Destruction de Hamdallahi",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "1862-01-01",
+   "date_affichee": "1862",
+   "precision": "annee",
+   "description": "La capitale de l'empire peul du Macina est détruite après la conquête d'El Hadj Omar. Il n'en reste que des remparts de terre, fouillés en 1989 par une équipe de l'Université de Genève et de l'Institut des sciences humaines de Bamako.",
+   "regions": [
+    "Mopti"
+   ],
+   "sources": [
+    "S46"
+   ]
+  },
+  {
+   "id": "ML-evenement-sikasso-1898",
+   "titre": "Chute de Sikasso",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "1898-05-01",
+   "date_affichee": "1er mai 1898",
+   "precision": "jour",
+   "description": "Après avoir résisté au siège de Samory, la forteresse de Sikasso, capitale du Kénédougou, tombe devant l'armée française le 1er mai 1898. Le roi Babemba Traoré se serait donné la mort. L'épisode est considéré comme une page de la résistance à la conquête coloniale.",
+   "acteurs": [
+    "Babemba Traoré",
+    "armée française",
+    "Samory Touré"
+   ],
+   "regions": [
+    "Sikasso"
+   ],
+   "sensible": true,
+   "note_sensibilite": "Événement de la conquête coloniale, mémoire vive ; formulations à valider avec des historiens maliens.",
+   "sources": [
+    "S60",
+    "S61"
+   ]
+  },
+  {
+   "id": "ML-evenement-denmuso-1975",
+   "titre": "Den Muso, premier long métrage malien en bambara",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "1975-01-01",
+   "date_affichee": "1975",
+   "precision": "annee",
+   "description": "Souleymane Cissé tourne Den Muso (La Jeune fille), premier long métrage de fiction malien en langue bambara. Le film est aussitôt interdit par les autorités.",
+   "acteurs": [
+    "Souleymane Cissé"
+   ],
+   "sources": [
+    "S107"
+   ]
+  },
+  {
+   "id": "ML-evenement-federation-1960-06",
+   "titre": "Indépendance de la Fédération du Mali",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "1960-06-20",
+   "date_affichee": "20 juin 1960",
+   "precision": "jour",
+   "description": "La Fédération du Mali, qui regroupe le Sénégal et le Soudan français, accède à l'indépendance. La fédération éclatera deux mois plus tard.",
+   "regions": [
+    "Bamako"
+   ],
+   "sources": [
+    "S4",
+    "S119"
+   ]
+  },
+  {
+   "id": "ML-evenement-federation-1960-08",
+   "titre": "Éclatement de la Fédération du Mali",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "1960-08-20",
+   "date_affichee": "20 août 1960",
+   "precision": "jour",
+   "description": "Le Sénégal déclare son indépendance et la Fédération du Mali se rompt.",
+   "sources": [
+    "S4"
+   ]
+  },
+  {
+   "id": "ML-evenement-independance-1960",
+   "titre": "Proclamation de la République du Mali",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "1960-09-22",
+   "date_affichee": "22 septembre 1960",
+   "precision": "jour",
+   "description": "Le Soudan français devient la République du Mali, reprenant le nom de l'ancien empire. Modibo Keïta en devient le président. La fête nationale commémore cette date.",
+   "acteurs": [
+    "Modibo Keïta"
+   ],
+   "sources": [
+    "S4",
+    "S67",
+    "S2"
+   ]
+  },
+  {
+   "id": "ML-evenement-franc-malien-1962",
+   "titre": "Création du franc malien",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "1962-06-30",
+   "date_affichee": "30 juin 1962",
+   "precision": "jour",
+   "description": "Le Mali crée sa propre monnaie, le franc malien, et quitte la zone franc. Il reviendra au franc CFA en 1984 en intégrant l'Union monétaire ouest-africaine.",
+   "sources": [
+    "S4"
+   ]
+  },
+  {
+   "id": "ML-evenement-coup-1968",
+   "titre": "Coup d'État contre Modibo Keïta",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "1968-11-19",
+   "date_affichee": "19 novembre 1968",
+   "precision": "jour",
+   "description": "Dans la nuit du 18 au 19 novembre 1968, de jeunes officiers menés par le lieutenant Moussa Traoré renversent Modibo Keïta sans effusion de sang. Le Comité militaire de libération nationale abolit la Constitution. Modibo Keïta est transféré à Kidal.",
+   "acteurs": [
+    "Moussa Traoré",
+    "Modibo Keïta"
+   ],
+   "sensible": true,
+   "note_sensibilite": "Période politique disputée : s'en tenir aux faits documentés par la presse de référence.",
+   "sources": [
+    "S67",
+    "S68"
+   ]
+  },
+  {
+   "id": "ML-evenement-renaudot-1968",
+   "titre": "Prix Renaudot pour Le Devoir de violence",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "1968-11-18",
+   "date_affichee": "18 novembre 1968",
+   "precision": "jour",
+   "description": "Le roman de Yambo Ouologuem reçoit le prix Renaudot, le premier attribué à un écrivain africain. Il sera ensuite accusé de plagiat à partir de 1972.",
+   "acteurs": [
+    "Yambo Ouologuem"
+   ],
+   "sources": [
+    "S114",
+    "S120"
+   ]
+  },
+  {
+   "id": "ML-evenement-mort-modibo-1977",
+   "titre": "Mort de Modibo Keïta en détention",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "1977-05-16",
+   "date_affichee": "16 mai 1977",
+   "precision": "jour",
+   "description": "L'ancien président meurt le 16 mai 1977, à 62 ans, dans des circonstances encore non élucidées : aucune autopsie n'a été autorisée. Des manifestations en marge de l'enterrement ont été réprimées.",
+   "acteurs": [
+    "Modibo Keïta"
+   ],
+   "sensible": true,
+   "note_sensibilite": "Circonstances de décès non élucidées ; présentation prudente.",
+   "sources": [
+    "S67",
+    "S68"
+   ]
+  },
+  {
+   "id": "ML-evenement-cfa-1984",
+   "titre": "Retour du Mali au franc CFA",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "1984-06-01",
+   "date_affichee": "1er juin 1984",
+   "precision": "jour",
+   "description": "Le Mali intègre l'Union monétaire ouest-africaine et revient au franc CFA.",
+   "sources": [
+    "S4"
+   ]
+  },
+  {
+   "id": "ML-evenement-agacher-1985",
+   "titre": "Conflit de la bande d'Agacher avec le Burkina Faso",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "1985-12-25",
+   "date_affichee": "25 décembre 1985",
+   "precision": "jour",
+   "description": "À la suite d'un incident dans la bande d'Agacher, zone frontalière disputée, l'armée malienne lance une offensive en territoire burkinabè. Les combats durent cinq jours avant un cessez-le-feu ; la bande est partagée en 1986 après un arrêt de la Cour internationale de justice.",
+   "regions": [
+    "frontière avec le Burkina Faso"
+   ],
+   "sensible": true,
+   "note_sensibilite": "Différend frontalier entre deux États : présentation neutre.",
+   "sources": [
+    "S68"
+   ]
+  },
+  {
+   "id": "ML-evenement-yeelen-1987",
+   "titre": "Yeelen, Prix du jury à Cannes",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "1987-01-01",
+   "date_affichee": "1987",
+   "precision": "annee",
+   "description": "Le film Yeelen (La Lumière) de Souleymane Cissé est présenté en compétition à Cannes et reçoit le Prix du jury (ex aequo). Il suit un jeune homme issu d'une famille bambara dans un parcours initiatique.",
+   "acteurs": [
+    "Souleymane Cissé"
+   ],
+   "sources": [
+    "S121",
+    "S108"
+   ]
+  },
+  {
+   "id": "ML-evenement-rebellion-1990",
+   "titre": "Début de la rébellion touarègue de 1990",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "1990-06-27",
+   "date_affichee": "27 juin 1990",
+   "precision": "jour",
+   "description": "Un poste de gendarmerie de Ménaka est attaqué par des Touaregs armés : c'est le début d'une rébellion menée par le Mouvement populaire de l'Azawad d'Iyad Ag Ghaly, dans le contexte d'une contestation croissante du régime de Moussa Traoré.",
+   "regions": [
+    "Ménaka"
+   ],
+   "sensible": true,
+   "note_sensibilite": "Conflit au nord du pays : formulations neutres, positions de toutes les parties à documenter.",
+   "sources": [
+    "S68"
+   ]
+  },
+  {
+   "id": "ML-evenement-chute-traore-1991",
+   "titre": "Chute de Moussa Traoré",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "1991-03-26",
+   "date_affichee": "26 mars 1991",
+   "precision": "jour",
+   "description": "Après des semaines de manifestations violemment réprimées, le régime de Moussa Traoré tombe le 26 mars 1991, à la suite d'un coup d'État mené par le lieutenant-colonel Amadou Toumani Touré. Les femmes ont joué un rôle essentiel et méconnu dans le mouvement.",
+   "acteurs": [
+    "Moussa Traoré",
+    "Amadou Toumani Touré"
+   ],
+   "regions": [
+    "Bamako"
+   ],
+   "sources": [
+    "S4",
+    "S96",
+    "S68"
+   ]
+  },
+  {
+   "id": "ML-evenement-konare-1992",
+   "titre": "Élection d'Alpha Oumar Konaré",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "1992-04-26",
+   "date_affichee": "26 avril 1992",
+   "precision": "jour",
+   "description": "Alpha Oumar Konaré remporte l'élection présidentielle ; il sera réélu en 1997.",
+   "acteurs": [
+    "Alpha Oumar Konaré"
+   ],
+   "sources": [
+    "S4"
+   ]
+  },
+  {
+   "id": "ML-evenement-rencontres-1994",
+   "titre": "Premières Rencontres africaines de la photographie",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "1994-12-01",
+   "date_affichee": "décembre 1994",
+   "precision": "mois",
+   "description": "Les premières Rencontres africaines de la photographie se tiennent à Bamako, mettant en lumière Malick Sidibé.",
+   "regions": [
+    "Bamako"
+   ],
+   "sources": [
+    "S81",
+    "S80"
+   ]
+  },
+  {
+   "id": "ML-evenement-inscription-1988",
+   "titre": "Djenné et Tombouctou inscrites au patrimoine mondial",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "1988-01-01",
+   "date_affichee": "1988",
+   "precision": "annee",
+   "description": "Les villes anciennes de Djenné et Tombouctou sont inscrites sur la Liste du patrimoine mondial de l'UNESCO. Les falaises de Bandiagara le sont en 1989 et le tombeau des Askia en 2004.",
+   "sources": [
+    "S5",
+    "S6",
+    "S8",
+    "S7"
+   ]
+  },
+  {
+   "id": "ML-evenement-sidibe-lion-2007",
+   "titre": "Lion d'or de la Biennale de Venise pour Malick Sidibé",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "2007-06-10",
+   "date_affichee": "10 juin 2007",
+   "precision": "jour",
+   "description": "Le photographe Malick Sidibé reçoit le Lion d'or de la Biennale de Venise pour l'ensemble de sa carrière.",
+   "acteurs": [
+    "Malick Sidibé"
+   ],
+   "sources": [
+    "S106",
+    "S81"
+   ]
+  },
+  {
+   "id": "ML-evenement-coup-2012",
+   "titre": "Coup d'État du 22 mars 2012",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "2012-03-22",
+   "date_affichee": "22 mars 2012",
+   "precision": "jour",
+   "description": "Des mutins menés par le capitaine Amadou Haya Sanogo prennent le pouvoir à Bamako. La Cedeao menace d'un embargo ; la Constitution est rétablie le 1er avril. Le coup d'État intervient alors que des groupes armés progressent dans le nord du pays.",
+   "acteurs": [
+    "Amadou Haya Sanogo"
+   ],
+   "sensible": true,
+   "note_sensibilite": "Crise récente et disputée : s'en tenir aux faits documentés et citer les positions de toutes les parties.",
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "ML-evenement-mausolees-2012",
+   "titre": "Destruction de mausolées de Tombouctou",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "2012-01-01",
+   "date_affichee": "2012",
+   "precision": "annee",
+   "description": "En 2012, dans un contexte de conflit armé, 14 des 16 mausolées du site du patrimoine mondial de Tombouctou sont détruits, et le monument Al-Farouk est démoli. L'UNESCO et la France ont ensuite élaboré un plan d'action, qui a permis la reconstruction.",
+   "regions": [
+    "Tombouctou"
+   ],
+   "sensible": true,
+   "note_sensibilite": "Destructions commises par des groupes armés ; présentation neutre et factuelle.",
+   "sources": [
+    "S56"
+   ]
+  },
+  {
+   "id": "ML-evenement-manuscrits-2013",
+   "titre": "Incendie de manuscrits au centre Ahmed Baba",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "2013-01-23",
+   "date_affichee": "23 janvier 2013",
+   "precision": "jour",
+   "description": "Des hommes d'Abou Zeid, présents à Tombouctou, mettent le feu à des manuscrits du nouveau centre Ahmed Baba. Les premières estimations étaient très pessimistes ; l'UNESCO évoque ensuite 4 203 manuscrits de l'Institut brûlés ou volés, et près de 90 % sauvés grâce à la mobilisation de la population.",
+   "regions": [
+    "Tombouctou"
+   ],
+   "sensible": true,
+   "note_sensibilite": "Atteinte au patrimoine commise lors d'un conflit : chiffres variables selon les sources.",
+   "sources": [
+    "S9",
+    "S88"
+   ]
+  },
+  {
+   "id": "ML-evenement-serval-2013",
+   "titre": "Intervention française (opération Serval)",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "2013-01-01",
+   "date_affichee": "janvier 2013",
+   "precision": "mois",
+   "description": "En janvier 2013, la France lance l'opération Serval au Mali pour soutenir les troupes maliennes contre l'offensive de groupes armés islamistes dans le nord du pays. Elle s'achève en juillet 2014.",
+   "regions": [
+    "nord du Mali"
+   ],
+   "sensible": true,
+   "note_sensibilite": "Intervention étrangère au Mali : présenter les positions des parties, avec leurs sources.",
+   "sources": [
+    "S122",
+    "S10"
+   ]
+  },
+  {
+   "id": "ML-evenement-ibk-2013",
+   "titre": "Élection d'Ibrahim Boubacar Keïta",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "2013-08-11",
+   "date_affichee": "11 août 2013",
+   "precision": "jour",
+   "description": "Ibrahim Boubacar Keïta est élu à la présidence, refermant la page ouverte par le coup d'État de mars 2012 selon Jeune Afrique.",
+   "acteurs": [
+    "Ibrahim Boubacar Keïta"
+   ],
+   "sources": [
+    "S10"
+   ]
+  },
+  {
+   "id": "ML-evenement-coup-2020",
+   "titre": "Coup d'État du 18 août 2020",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "2020-08-18",
+   "date_affichee": "18 août 2020",
+   "precision": "jour",
+   "description": "Une mutinerie au camp militaire de Kati se transforme en arrestation du président Ibrahim Boubacar Keïta, qui démissionne dans la nuit. Un comité national pour le salut du peuple est annoncé et les institutions sont suspendues.",
+   "sensible": true,
+   "note_sensibilite": "Histoire très récente et disputée : s'en tenir aux faits.",
+   "sources": [
+    "S123",
+    "S124"
+   ]
+  },
+  {
+   "id": "ML-evenement-balafon-2024",
+   "titre": "Le balafon inscrit au patrimoine immatériel de l'humanité",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "date": "2024-01-01",
+   "date_affichee": "2024",
+   "precision": "annee",
+   "description": "Les pratiques et expressions culturelles liées au balafon (Mali, Burkina Faso, Côte d'Ivoire) et au kolintang (Indonésie) sont inscrites sur la Liste représentative (19.COM). Une décision antérieure (7.COM 11.21, en 2012) figure en référence sur la fiche UNESCO.",
+   "regions": [
+    "Mali"
+   ],
+   "sources": [
+    "S69"
+   ]
+  }
+ ],
+ "oeuvres": [
+  {
+   "id": "ML-oeuvre-grande-mosquee-djenne",
+   "titre": "Grande Mosquée de Djenné",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Édifice en terre crue de style soudano-sahélien, construit dans la plaine alluviale du Bani. Un premier édifice daterait du XIIIe siècle, mais la construction actuelle date de 1907. Elle est considérée comme le plus grand édifice en terre crue du monde.",
+   "type": "architecture",
+   "communaute": "Djenné",
+   "materiaux": [
+    "terre crue (banco)"
+   ],
+   "institution": "Site des villes anciennes de Djenné (UNESCO)",
+   "url_notice": "https://whc.unesco.org/fr/list/116",
+   "periode": "1907 (édifice actuel)",
+   "wikidata": "Q683632",
+   "sources": [
+    "S57",
+    "S5",
+    "S55"
+   ]
+  },
+  {
+   "id": "ML-oeuvre-manuscrits-tombouctou",
+   "titre": "Manuscrits de Tombouctou",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Les manuscrits de Tombouctou, souvent rédigés en arabe et en ajami mais aussi en peul, traitent d'astronomie, de musique, de botanique, de pharmacie, de droit, d'histoire ou de politique. Environ 200 000 pièces sont répertoriées dans la boucle du Niger, dont environ 30 000 conservées dans les centres Ahmed Baba de Tombouctou. Beaucoup ont été évacuées vers Bamako en 2012.",
+   "type": "manuscrit",
+   "communaute": "savants et familles de Tombouctou",
+   "institution": "Institut des hautes études et de recherches islamiques Ahmed Baba (Tombouctou) et bibliothèques privées",
+   "url_notice": "https://www.unesco.org/fr/articles/la-conference-de-bamako-sinquiete-du-sort-des-manuscrits-anciens-du-mali-et-propose-ses-mesures",
+   "droits": "tous droits réservés (détenteurs)",
+   "periode": "du XIIe siècle à nos jours",
+   "wikidata": "Q2209578",
+   "sources": [
+    "S9",
+    "S88",
+    "S56"
+   ]
+  },
+  {
+   "id": "ML-oeuvre-tombeau-askia",
+   "titre": "Tombeau pyramidal d'Askia Mohamed",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Structure pyramidale en terre de 17 mètres, érigée en 1495 à Gao, qui domine un ensemble de mosquées et de cimetière. Elle témoigne du pouvoir de l'empire songhaï et des traditions sahéliennes de construction en terre.",
+   "type": "architecture",
+   "createur": "Askia Mohamed (commanditaire)",
+   "materiaux": [
+    "terre"
+   ],
+   "institution": "Site UNESCO du tombeau des Askia (Gao)",
+   "url_notice": "https://whc.unesco.org/fr/list/1139",
+   "periode": "1495",
+   "wikidata": "Q503823",
+   "sources": [
+    "S7"
+   ]
+  },
+  {
+   "id": "ML-oeuvre-yeelen",
+   "titre": "Yeelen (La Lumière)",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Film de Souleymane Cissé sorti en 1987, tourné en langue bambara, sur un jeune homme qui reçoit un savoir initiatique tandis que son père veut l'empêcher d'en faire usage. Il reçoit le Prix du jury (ex aequo) au Festival de Cannes de 1987.",
+   "type": "film",
+   "createur": "Souleymane Cissé",
+   "institution": "Festival de Cannes (sélection officielle 1987)",
+   "url_notice": "https://www.festival-cannes.com/fr/films/yeelen",
+   "droits": "tous droits réservés",
+   "periode": "1987",
+   "wikidata": "Q2335016",
+   "sources": [
+    "S121",
+    "S108",
+    "S125"
+   ]
+  },
+  {
+   "id": "ML-oeuvre-talking-timbuktu",
+   "titre": "Talking Timbuktu",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Album d'Ali Farka Touré avec le guitariste américain Ry Cooder, sorti en 1994 chez World Circuit. Il compte parmi les plus grands succès internationaux du musicien et a été distingué par un Grammy Award. Jeune Afrique y relève l'usage du njarka, petit violon monocorde, et des chants comme « Soukora » ou « Diaraby ».",
+   "type": "musique",
+   "createur": "Ali Farka Touré et Ry Cooder",
+   "institution": "World Circuit Records (éditeur)",
+   "url_notice": "https://www.jeuneafrique.com/mag/461881/culture/musique-et-si-on-reecoutait-talking-timbuktu-dali-farka-toure/",
+   "droits": "tous droits réservés",
+   "periode": "1994",
+   "wikidata": "Q821522",
+   "sources": [
+    "S111",
+    "S126"
+   ]
+  },
+  {
+   "id": "ML-oeuvre-moussolou",
+   "titre": "Moussolou",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Premier album d'Oumou Sangaré, enregistré en 1989 et sorti en 1990, qui connaît un succès fulgurant au Mali (plus de 100 000 cassettes vendues en une semaine d'après Wikipédia). Il lance sa carrière internationale grâce à sa signature chez World Circuit Records.",
+   "type": "musique",
+   "createur": "Oumou Sangaré",
+   "url_notice": "https://fr.wikipedia.org/wiki/Oumou_Sangar%C3%A9",
+   "droits": "tous droits réservés",
+   "periode": "1990",
+   "sources": [
+    "S74",
+    "S73"
+   ]
+  },
+  {
+   "id": "ML-oeuvre-dimanche-a-bamako",
+   "titre": "Dimanche à Bamako",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Album d'Amadou et Mariam réalisé avec le concours de Manu Chao, enregistré notamment à Paris, à Bamako et à Mopti. Il vaut au duo une Victoire de la musique en 2005.",
+   "type": "musique",
+   "createur": "Amadou et Mariam",
+   "url_notice": "https://fr.wikipedia.org/wiki/Dimanche_%C3%A0_Bamako",
+   "droits": "tous droits réservés",
+   "periode": "2004",
+   "wikidata": "Q3028049",
+   "sources": [
+    "S103",
+    "S127"
+   ]
+  },
+  {
+   "id": "ML-oeuvre-devoir-de-violence",
+   "titre": "Le Devoir de violence",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Roman de Yambo Ouologuem publié au Seuil en septembre 1968, premier ouvrage d'un auteur africain à recevoir le prix Renaudot. Traduit en dix langues, il est ensuite retiré de la vente en France après des accusations de plagiat en 1972.",
+   "type": "livre",
+   "createur": "Yambo Ouologuem",
+   "institution": "Éditions du Seuil",
+   "url_notice": "https://journals.openedition.org/coma/1189",
+   "droits": "tous droits réservés",
+   "periode": "1968",
+   "wikidata": "Q3222258",
+   "sources": [
+    "S114",
+    "S115",
+    "S120"
+   ]
+  },
+  {
+   "id": "ML-oeuvre-femme-d-afrique",
+   "titre": "Femme d'Afrique : la vie d'Aoua Keïta racontée par elle-même",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Autobiographie d'Aoua Keïta publiée par Présence Africaine en 1975. Elle y raconte la vie quotidienne dans le Soudan de son enfance et l'arrivée d'une jeune sage-femme dans une société où les pratiques de santé étaient autres. La revue Tiers Monde y voit un document unique.",
+   "type": "livre",
+   "createur": "Aoua Keïta",
+   "institution": "Présence Africaine (éditeur)",
+   "url_notice": "https://www.persee.fr/doc/tiers_0040-7356_1976_num_17_67_2666_t1_0782_0000_1",
+   "droits": "tous droits réservés",
+   "periode": "1975",
+   "sources": [
+    "S93",
+    "S92"
+   ]
+  },
+  {
+   "id": "ML-oeuvre-etrange-destin-wangrin",
+   "titre": "L'Étrange Destin de Wangrin",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Récit d'Amadou Hampâté Bâ publié en 1973 par l'Union générale d'éditions. Il romance les aventures, entre 1900 et 1935, d'un interprète africain de l'Afrique-Occidentale française, en mêlant la rigueur de la tradition orale et les méthodes de l'ethnographie.",
+   "type": "livre",
+   "createur": "Amadou Hampâté Bâ",
+   "institution": "Union générale d'éditions (éditeur)",
+   "url_notice": "https://fr.wikipedia.org/wiki/L%27%C3%89trange_Destin_de_Wangrin",
+   "droits": "tous droits réservés",
+   "periode": "1973",
+   "wikidata": "Q3205509",
+   "sources": [
+    "S128",
+    "S90"
+   ]
+  },
+  {
+   "id": "ML-oeuvre-silamaka",
+   "titre": "Silamaka (épopée peule, traduction)",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "description": "Épopée orale des Peuls du Macina, recueillie par Amadou Hampâté Bâ et traduite avec Lilyan Kesteloot dans la revue L'Homme en 1968.",
+   "type": "livre",
+   "createur": "Amadou Hampâté Bâ et Lilyan Kesteloot (recueil et traduction)",
+   "communaute": "Peuls du Macina",
+   "url_notice": "https://www.persee.fr/doc/hom_0439-4216_1968_num_8_1_366937",
+   "droits": "tous droits réservés (accès libre sur Persée)",
+   "periode": "1968 (traduction)",
+   "sources": [
+    "S13"
+   ]
+  }
+ ],
+ "proverbes": [
+  {
+   "id": "ML-proverbe-boo-chef-des-morts",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "langue": "boo (bwa)",
+   "traduction": "On ne peut pas se tenir dehors et connaître le chef des morts.",
+   "sens": "Dit à ceux qui ne sont pas initiés aux réalités qu'ils veulent comprendre : tant qu'on n'a pas fait l'expérience de la mort, on ne peut rien dire de ce monde, pas même de son chef. Cécile Leguy rapporte que ce proverbe lui fut adressé au début de son enquête de terrain : c'était une invitation à apprendre en vivant au village.",
+   "publication": "Cécile Leguy, « En quête de proverbes », Cahiers de littérature orale, n° 63-64, 2008, p. 59-81, § 21. DOI : 10.4000/clo.97",
+   "sources": [
+    "S53"
+   ]
+  },
+  {
+   "id": "ML-proverbe-bama-caiman",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "texte_original": "Ni bama bé bonyé fé, a ka da dyi horo, n'a tara dyiba la, dyègè b'a kounou",
+   "langue": "bambara (orthographe de 1906)",
+   "traduction": "Si un caïman veut grossir, qu'il reste dans l'eau (où il se trouve) ; s'il allait dans la mer, un poisson l'avalerait.",
+   "sens": "Ne pas sortir de sa condition (glose de Bazin).",
+   "publication": "Hippolyte Bazin, Dictionnaire bambara-français précédé d'un abrégé de grammaire bambara, Paris, Imprimerie nationale, 1906, article « Bama » (caïman). Texte transcrit de la version numérisée (reconnaissance de caractères), à contrôler sur l'original.",
+   "sources": [
+    "S129"
+   ]
+  },
+  {
+   "id": "ML-proverbe-bourou-trompette",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "texte_original": "Ni bourou fyèra, kouma bè ké foroko la",
+   "langue": "bambara (orthographe de 1906)",
+   "traduction": "Quand la trompette a sonné, il n'y a plus qu'à se taire (mettre les paroles dans le sac).",
+   "sens": "Une fois la décision annoncée, il n'est plus temps de discuter.",
+   "publication": "Hippolyte Bazin, Dictionnaire bambara-français précédé d'un abrégé de grammaire bambara, Paris, Imprimerie nationale, 1906, article « Bourou » (trompette). Texte transcrit de la version numérisée (reconnaissance de caractères), à contrôler sur l'original.",
+   "sources": [
+    "S129"
+   ]
+  },
+  {
+   "id": "ML-proverbe-da-baobab",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "texte_original": "Da ko dama é ta yé rizira wo yé wa",
+   "langue": "bambara (orthographe de 1906)",
+   "traduction": "La bouche dit à la bouche : ton ouverture est-elle donc un trou de baobab ?",
+   "sens": "« Ne peux-tu pas faire toi-même ce que tu me commandes ? » (glose de Bazin).",
+   "publication": "Hippolyte Bazin, Dictionnaire bambara-français précédé d'un abrégé de grammaire bambara, Paris, Imprimerie nationale, 1906, article « Da » (bouche). Texte transcrit de la version numérisée (reconnaissance de caractères), à contrôler sur l'original.",
+   "sources": [
+    "S129"
+   ]
+  },
+  {
+   "id": "ML-proverbe-dyiri-pirogue",
+   "statut": "en_revue",
+   "verification": {
+    "etat": "a_verifier"
+   },
+   "texte_original": "Dyiri min bi ké kourou yé, o té boso kofê ; na faléna so kréfé, ba bo don",
+   "langue": "bambara (orthographe de 1906)",
+   "traduction": "L'arbre dont on fait les pirogues ne pousse pas près des cases ; s'il y poussait, les chèvres le mangeraient.",
+   "sens": "Bazin y voit des paroles de menace adressées à un ennemi secret.",
+   "publication": "Hippolyte Bazin, Dictionnaire bambara-français précédé d'un abrégé de grammaire bambara, Paris, Imprimerie nationale, 1906, article « Dyiri » (bois). Texte transcrit de la version numérisée (reconnaissance de caractères), à contrôler sur l'original.",
+   "sources": [
+    "S129"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "S1",
+   "titre": "Wikidata – Mali (Q912)",
+   "institution": "Wikimedia Foundation",
+   "url": "https://www.wikidata.org/wiki/Q912",
+   "type": "base_de_donnees",
+   "licence": "CC0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S2",
+   "titre": "Mali – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Mali",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S3",
+   "titre": "Langues au Mali – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Langues_au_Mali",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S4",
+   "titre": "Chronologie du Mali",
+   "institution": "Jeune Afrique",
+   "auteur": "Cécile Manciaux, Justine Spiegel, Tshitenge Lubabu M.K.",
+   "annee": 2010,
+   "url": "https://www.jeuneafrique.com/196374/politique/chronologie-du-mali/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S5",
+   "titre": "Villes anciennes de Djenné – Centre du patrimoine mondial",
+   "institution": "UNESCO",
+   "url": "https://whc.unesco.org/fr/list/116",
+   "type": "unesco",
+   "licence": "CC BY-SA IGO 3.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S6",
+   "titre": "Tombouctou – Centre du patrimoine mondial",
+   "institution": "UNESCO",
+   "url": "https://whc.unesco.org/fr/list/119",
+   "type": "unesco",
+   "licence": "CC BY-SA IGO 3.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S7",
+   "titre": "Tombeau des Askia – Centre du patrimoine mondial",
+   "institution": "UNESCO",
+   "url": "https://whc.unesco.org/fr/list/1139",
+   "type": "unesco",
+   "licence": "CC BY-SA IGO 3.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S8",
+   "titre": "Falaises de Bandiagara (pays dogon) – Centre du patrimoine mondial",
+   "institution": "UNESCO",
+   "url": "https://whc.unesco.org/fr/list/516",
+   "type": "unesco",
+   "licence": "CC BY-SA IGO 3.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S9",
+   "titre": "Mali : la véritable histoire de l'incendie des manuscrits de Tombouctou",
+   "institution": "Jeune Afrique",
+   "auteur": "Benjamin Roger",
+   "annee": 2013,
+   "url": "https://www.jeuneafrique.com/172426/politique/mali-la-v-ritable-histoire-de-l-incendie-des-manuscrits-de-tombouctou/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S10",
+   "titre": "Mali : complots et trahisons, retour sur 17 mois de chaos",
+   "institution": "Jeune Afrique",
+   "auteur": "Pierre-François Naudé",
+   "annee": 2013,
+   "url": "https://www.jeuneafrique.com/136183/politique/mali-complots-et-trahisons-retour-sur-17-mois-de-chaos/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S11",
+   "titre": "Glottolog – Bambara (bamb1269)",
+   "institution": "Max Planck Institute for Evolutionary Anthropology",
+   "url": "https://glottolog.org/resource/languoid/id/bamb1269",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S12",
+   "titre": "Glottolog – Maasina Fulfulde (maas1239)",
+   "institution": "Max Planck Institute for Evolutionary Anthropology",
+   "url": "https://glottolog.org/resource/languoid/id/maas1239",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S13",
+   "titre": "Une épopée peule : « Silamaka » (traduction), L'Homme 8-1",
+   "institution": "Persée",
+   "auteur": "Amadou Hampaté Ba et Lilyan Kesteloot",
+   "annee": 1968,
+   "url": "https://www.persee.fr/doc/hom_0439-4216_1968_num_8_1_366937",
+   "type": "article_scientifique",
+   "licence": "tous droits réservés (accès libre)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S14",
+   "titre": "Glottolog – Soninke (soni1259)",
+   "institution": "Max Planck Institute for Evolutionary Anthropology",
+   "url": "https://glottolog.org/resource/languoid/id/soni1259",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S15",
+   "titre": "Glottolog – Koyraboro Senni Songhai (koyr1242)",
+   "institution": "Max Planck Institute for Evolutionary Anthropology",
+   "url": "https://glottolog.org/resource/languoid/id/koyr1242",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S16",
+   "titre": "Glottolog – Tamasheq (tama1365)",
+   "institution": "Max Planck Institute for Evolutionary Anthropology",
+   "url": "https://glottolog.org/resource/languoid/id/tama1365",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S17",
+   "titre": "Touaregs – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Touaregs",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S18",
+   "titre": "Festival au désert – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Festival_au_d%C3%A9sert",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S19",
+   "titre": "Glottolog – Hassaniyya (hass1238)",
+   "institution": "Max Planck Institute for Evolutionary Anthropology",
+   "url": "https://glottolog.org/resource/languoid/id/hass1238",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S20",
+   "titre": "Glottolog – Xaasongaxango (xaas1235)",
+   "institution": "Max Planck Institute for Evolutionary Anthropology",
+   "url": "https://glottolog.org/resource/languoid/id/xaas1235",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S21",
+   "titre": "Khassonkés – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Khassonk%C3%A9s",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S22",
+   "titre": "Glottolog – Eastern Maninkakan (east2426)",
+   "institution": "Max Planck Institute for Evolutionary Anthropology",
+   "url": "https://glottolog.org/resource/languoid/id/east2426",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S23",
+   "titre": "Cérémonie septennale de recouvrement de la case sacrée de Kangaba (Kamablon) – 00190",
+   "institution": "UNESCO – Patrimoine culturel immatériel",
+   "url": "https://ich.unesco.org/en/RL/septennial-re-roofing-ceremony-of-the-kamablon-sacred-house-of-kangaba-00190",
+   "type": "unesco",
+   "licence": "tous droits réservés (UNESCO)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S24",
+   "titre": "Glottolog – Mamara Senoufo (mama1271)",
+   "institution": "Max Planck Institute for Evolutionary Anthropology",
+   "url": "https://glottolog.org/resource/languoid/id/mama1271",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S25",
+   "titre": "Compte rendu de Jean Cauvin, Proverbes minyanka recueillis à Karangasso (Mali), Journal des Africanistes 48-2",
+   "institution": "Persée",
+   "auteur": "Maurice Houis",
+   "annee": 1978,
+   "url": "https://www.persee.fr/doc/jafr_0399-0346_1978_num_48_2_1818_t1_0167_0000_2",
+   "type": "article_scientifique",
+   "licence": "tous droits réservés (accès libre)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S26",
+   "titre": "Glottolog – Syenara Senoufo (syen1235)",
+   "institution": "Max Planck Institute for Evolutionary Anthropology",
+   "url": "https://glottolog.org/resource/languoid/id/syen1235",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S27",
+   "titre": "Glottolog – Toro So Dogon (toro1252)",
+   "institution": "Max Planck Institute for Evolutionary Anthropology",
+   "url": "https://glottolog.org/resource/languoid/id/toro1252",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S28",
+   "titre": "Glottolog – Dogon (dogo1299)",
+   "institution": "Max Planck Institute for Evolutionary Anthropology",
+   "url": "https://glottolog.org/resource/languoid/id/dogo1299",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S29",
+   "titre": "Dogons – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Dogons",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S30",
+   "titre": "Glottolog – Bozo (bozo1252)",
+   "institution": "Max Planck Institute for Evolutionary Anthropology",
+   "url": "https://glottolog.org/resource/languoid/id/bozo1252",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S31",
+   "titre": "Note sur le peuplement de l'est du pays de Ségou, Journal des Africanistes 31-1",
+   "institution": "Persée",
+   "auteur": "Robert Pageard",
+   "annee": 1961,
+   "url": "https://www.persee.fr/doc/jafr_0037-9166_1961_num_31_1_1931",
+   "type": "article_scientifique",
+   "licence": "tous droits réservés (accès libre)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S32",
+   "titre": "Glottolog – Bomu (bomu1247)",
+   "institution": "Max Planck Institute for Evolutionary Anthropology",
+   "url": "https://glottolog.org/resource/languoid/id/bomu1247",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S33",
+   "titre": "Glottolog – French (stan1290)",
+   "institution": "Max Planck Institute for Evolutionary Anthropology",
+   "url": "https://glottolog.org/resource/languoid/id/stan1290",
+   "type": "base_de_donnees",
+   "licence": "CC BY 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S34",
+   "titre": "Bambaras – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Bambaras",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S35",
+   "titre": "Sortie des masques et marionnettes de Markala – 01004",
+   "institution": "UNESCO – Patrimoine culturel immatériel",
+   "url": "https://ich.unesco.org/en/RL/coming-forth-of-the-masks-and-puppets-in-markala-01004",
+   "type": "unesco",
+   "licence": "tous droits réservés (UNESCO)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S36",
+   "titre": "Société secrète des Kôrêdugaw, le rite de la sagesse au Mali – 00520",
+   "institution": "UNESCO – Patrimoine culturel immatériel",
+   "url": "https://ich.unesco.org/en/USL/secret-society-of-the-koredugaw-the-rite-of-wisdom-in-mali-00520",
+   "type": "unesco",
+   "licence": "tous droits réservés (UNESCO)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S37",
+   "titre": "Charte du Manden proclamée à Kurukan Fuga – 00290",
+   "institution": "UNESCO – Patrimoine culturel immatériel",
+   "url": "https://ich.unesco.org/en/RL/manden-charter-proclaimed-in-kurukan-fuga-00290",
+   "type": "unesco",
+   "licence": "tous droits réservés (UNESCO)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S38",
+   "titre": "Malinkés – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Malink%C3%A9s",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S39",
+   "titre": "Kangaba – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Kangaba",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S40",
+   "titre": "Soninkés – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Sonink%C3%A9s",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S41",
+   "titre": "Histoire du Mali – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Histoire_du_Mali",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S42",
+   "titre": "Espace culturel du Yaaral et du Degal – 00132",
+   "institution": "UNESCO – Patrimoine culturel immatériel",
+   "url": "https://ich.unesco.org/en/RL/cultural-space-of-the-yaaral-and-degal-00132",
+   "type": "unesco",
+   "licence": "tous droits réservés (UNESCO)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S43",
+   "titre": "Le riz et le bœuf, agro-pastoralisme et partage de l'espace dans le Delta intérieur du Niger (Mali), Les Cahiers d'Outre-Mer 264",
+   "institution": "OpenEdition Journals",
+   "auteur": "Kadidia Nianti Bouaré-Trianneau",
+   "annee": 2013,
+   "url": "https://journals.openedition.org/com/6993",
+   "type": "article_scientifique",
+   "licence": "CC BY-NC-ND 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S44",
+   "titre": "Introduction. The Caliphate of Ḥamdallāhi: A history from within, Afriques",
+   "institution": "OpenEdition Journals",
+   "url": "https://journals.openedition.org/afriques/3203",
+   "type": "article_scientifique",
+   "licence": "CC BY-NC-ND 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S45",
+   "titre": "Peuls – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Peuls",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S46",
+   "titre": "Compte rendu de Gallay et al., Hamdallahi, capitale de l'empire peul du Massina, Revue française d'histoire d'outre-mer 81-302",
+   "institution": "Persée",
+   "auteur": "Gérard Brasseur",
+   "annee": 1994,
+   "url": "https://www.persee.fr/doc/outre_0300-9513_1994_num_81_302_3184_t1_0114_0000_1",
+   "type": "article_scientifique",
+   "licence": "tous droits réservés (accès libre)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S47",
+   "titre": "Songhaïs – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Songha%C3%AFs",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S48",
+   "titre": "Pratiques et savoirs liés à l'imzad des communautés touarègues d'Algérie, du Mali et du Niger – 00891",
+   "institution": "UNESCO – Patrimoine culturel immatériel",
+   "url": "https://ich.unesco.org/en/RL/practices-and-knowledge-linked-to-the-imzad-of-the-tuareg-communities-of-algeria-mali-and-niger-00891",
+   "type": "unesco",
+   "licence": "tous droits réservés (UNESCO)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S49",
+   "titre": "Au rythme du Mali",
+   "institution": "Jeune Afrique",
+   "auteur": "Patrick Labesse",
+   "annee": 2010,
+   "url": "https://www.jeuneafrique.com/193752/culture/au-rythme-du-mali/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S50",
+   "titre": "Notes sur les Dogons du Soudan français, Journal de la Société des Africanistes 11",
+   "institution": "Persée",
+   "auteur": "Ibrahim Mamadou Ouane (annoté par Marcel Griaule)",
+   "annee": 1941,
+   "url": "https://www.persee.fr/doc/jafr_0037-9166_1941_num_11_1_2503",
+   "type": "article_scientifique",
+   "licence": "tous droits réservés (accès libre)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S51",
+   "titre": "Sénoufos – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/S%C3%A9noufos",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S52",
+   "titre": "Adame Ba Konaré, Le griot m'a raconté… Ferdinand Duranton, le Prince français du Khasso (1797-1838) (compte rendu), Viatica",
+   "institution": "OpenEdition Journals",
+   "url": "https://journals.openedition.org/viatica/?id=1389",
+   "type": "article_scientifique",
+   "licence": "CC BY-NC-ND 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S53",
+   "titre": "En quête de proverbes, Cahiers de littérature orale 63-64",
+   "institution": "OpenEdition Journals",
+   "auteur": "Cécile Leguy",
+   "annee": 2008,
+   "url": "https://journals.openedition.org/clo/97",
+   "type": "article_scientifique",
+   "licence": "CC BY-NC-ND 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S54",
+   "titre": "Masque dogon – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Masque_dogon",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S55",
+   "titre": "Wikidata – Grande Mosquée de Djenné (Q683632), coordonnées",
+   "institution": "Wikimedia Foundation",
+   "url": "https://www.wikidata.org/wiki/Q683632",
+   "type": "base_de_donnees",
+   "licence": "CC0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S56",
+   "titre": "Reconstruction des mausolées détruits de Tombouctou (Mali)",
+   "institution": "UNESCO – Centre du patrimoine mondial",
+   "url": "https://whc.unesco.org/fr/canopee/tombouctou/",
+   "type": "unesco",
+   "licence": "tous droits réservés (UNESCO)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S57",
+   "titre": "Grande Mosquée de Djenné – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Grande_Mosqu%C3%A9e_de_Djenn%C3%A9",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S58",
+   "titre": "Wikidata – Djenné-Djeno (Q607668), coordonnées",
+   "institution": "Wikimedia Foundation",
+   "url": "https://www.wikidata.org/wiki/Q607668",
+   "type": "base_de_donnees",
+   "licence": "CC0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S59",
+   "titre": "Wikidata – Kangaba (Q1031919), coordonnées",
+   "institution": "Wikimedia Foundation",
+   "url": "https://www.wikidata.org/wiki/Q1031919",
+   "type": "base_de_donnees",
+   "licence": "CC0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S60",
+   "titre": "Compte rendu de Alpha Oumar Konaré, Sikasso Tata, Revue française d'histoire d'outre-mer 72-266",
+   "institution": "Persée",
+   "auteur": "Gérard Brasseur",
+   "annee": 1985,
+   "url": "https://www.persee.fr/doc/outre_0300-9513_1985_num_72_266_2456_t1_0106_0000_2",
+   "type": "article_scientifique",
+   "licence": "tous droits réservés (accès libre)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S61",
+   "titre": "Babemba Traoré – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Babemba_Traor%C3%A9",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S62",
+   "titre": "Wikidata – Sikasso (Q722827), coordonnées",
+   "institution": "Wikimedia Foundation",
+   "url": "https://www.wikidata.org/wiki/Q722827",
+   "type": "base_de_donnees",
+   "licence": "CC0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S63",
+   "titre": "Parc national de la Boucle du Baoulé – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Parc_national_de_la_Boucle_du_Baoul%C3%A9",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S64",
+   "titre": "Wikidata – Parc national de la Boucle du Baoulé (Q894983), coordonnées",
+   "institution": "Wikimedia Foundation",
+   "url": "https://www.wikidata.org/wiki/Q894983",
+   "type": "base_de_donnees",
+   "licence": "CC0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S65",
+   "titre": "Taoudeni – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Taoudeni",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S66",
+   "titre": "Wikidata – Taoudeni (Q1888993), coordonnées",
+   "institution": "Wikimedia Foundation",
+   "url": "https://www.wikidata.org/wiki/Q1888993",
+   "type": "base_de_donnees",
+   "licence": "CC0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S67",
+   "titre": "Le 19 novembre 1968, un coup d'État renversait le président malien Modibo Keïta",
+   "institution": "Jeune Afrique",
+   "annee": 2016,
+   "url": "https://www.jeuneafrique.com/375154/politique/jour-19-novembre-1968-coup-detat-renverse-president-malien-modibo-keita/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S68",
+   "titre": "Mali : retour sur le régime de Moussa Traoré en dix dates",
+   "institution": "Jeune Afrique",
+   "auteur": "Benjamin Roger",
+   "annee": 2016,
+   "url": "https://www.jeuneafrique.com/312846/politique/mali-retour-regime-de-moussa-traore-dix-dates/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S69",
+   "titre": "Pratiques et expressions culturelles liées au balafon et au kolintang (Mali, Burkina Faso, Côte d'Ivoire, Indonésie) – 02131",
+   "institution": "UNESCO – Patrimoine culturel immatériel",
+   "url": "https://ich.unesco.org/en/RL/cultural-practices-and-expressions-linked-to-balafon-and-kolintang-in-mali-burkina-faso-cote-d-ivoire-and-indonesia-02131",
+   "type": "unesco",
+   "licence": "tous droits réservés (UNESCO)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S70",
+   "titre": "Pratiques et expressions culturelles liées au M'Bolon – 01689",
+   "institution": "UNESCO – Patrimoine culturel immatériel",
+   "url": "https://ich.unesco.org/en/USL/cultural-practices-and-expressions-linked-to-the-m-bolon-a-traditional-musical-percussion-instrument-01689",
+   "type": "unesco",
+   "licence": "tous droits réservés (UNESCO)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S71",
+   "titre": "Sanké mon, rite de pêche collective des Sanké – 00289",
+   "institution": "UNESCO – Patrimoine culturel immatériel",
+   "url": "https://ich.unesco.org/en/USL/sanke-mon-collective-fishing-rite-of-the-sanke-00289",
+   "type": "unesco",
+   "licence": "tous droits réservés (UNESCO)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S72",
+   "titre": "Wassoulou – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Wassoulou",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S73",
+   "titre": "Les griotes à la mode",
+   "institution": "Jeune Afrique",
+   "annee": 2004,
+   "url": "https://www.jeuneafrique.com/56349/archives-thematique/les-griotes-la-mode/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S74",
+   "titre": "Oumou Sangaré – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Oumou_Sangar%C3%A9",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S75",
+   "titre": "Griot – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Griot",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S76",
+   "titre": "Toumani Diabaté, le « roi de la kora » s'en est allé",
+   "institution": "Jeune Afrique",
+   "annee": 2024,
+   "url": "https://www.jeuneafrique.com/1590907/culture/toumani-diabate-le-roi-de-la-kora-sen-est-alle/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S77",
+   "titre": "Design : place au bogolan",
+   "institution": "Jeune Afrique",
+   "auteur": "Katia Dansoko Touré",
+   "annee": 2018,
+   "url": "https://www.jeuneafrique.com/mag/502360/culture/design-place-au-bogolan/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S78",
+   "titre": "[Série] Le bogolan, la teinture de la terre (3/4)",
+   "institution": "Jeune Afrique",
+   "auteur": "Eva Sauphie",
+   "annee": 2021,
+   "url": "https://www.jeuneafrique.com/1167340/culture/serie-le-bogolan-la-teinture-de-la-terre-3-4/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S79",
+   "titre": "Bogolan – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Bogolan",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S80",
+   "titre": "Rencontres africaines de la photographie – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Rencontres_de_Bamako",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S81",
+   "titre": "Le photographe malien Malick Sidibé est décédé hier à Bamako",
+   "institution": "Jeune Afrique",
+   "annee": 2016,
+   "url": "https://www.jeuneafrique.com/318182/culture/photographe-malien-malick-sidibe-mort/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S82",
+   "titre": "Hampaté Ba, Amadou – notice d'autorité",
+   "institution": "Persée",
+   "url": "https://www.persee.fr/authority/74166",
+   "type": "base_de_donnees",
+   "licence": "tous droits réservés (accès libre)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S83",
+   "titre": "Soundiata Keïta – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Soundiata_Ke%C3%AFta",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S84",
+   "titre": "Le pèlerinage total de Mansa Moussa (14e siècle). Entre voyage d'affaires et diplomatie, dans Les pèlerinages en Islam",
+   "institution": "Diacritiques Éditions (OpenEdition Books)",
+   "auteur": "Hadrien Collet",
+   "annee": 2019,
+   "url": "https://books.openedition.org/diacritiques/7622",
+   "type": "article_scientifique",
+   "licence": "CC BY-NC-ND 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S85",
+   "titre": "Mansa Moussa – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Mansa_Moussa",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S86",
+   "titre": "Askia Mohammed – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Askia_Mohamed",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S87",
+   "titre": "Ahmad Baba al-Timbukti – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Ahmed_Baba",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S88",
+   "titre": "La Conférence de Bamako s'inquiète du sort des manuscrits anciens du Mali (30 janvier 2015)",
+   "institution": "UNESCO",
+   "url": "https://www.unesco.org/fr/articles/la-conference-de-bamako-sinquiete-du-sort-des-manuscrits-anciens-du-mali-et-propose-ses-mesures",
+   "type": "unesco",
+   "licence": "tous droits réservés (UNESCO)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S89",
+   "titre": "Quand le Maroc se lançait à la conquête du Sahel",
+   "institution": "Jeune Afrique",
+   "auteur": "Farid Bahri",
+   "annee": 2023,
+   "url": "https://www.jeuneafrique.com/1509488/culture/quand-le-maroc-se-lancait-a-la-conquete-du-sahel/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S90",
+   "titre": "Amadou Hampâté Bâ : gardien du patrimoine africain",
+   "institution": "UNESCO – Mémoire du monde",
+   "url": "https://www.unesco.org/en/memory-world/amadou-hampate-ba/guardian-african-heritage",
+   "type": "unesco",
+   "licence": "tous droits réservés (UNESCO)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S91",
+   "titre": "Amadou Hampâté Bâ – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Amadou_Hamp%C3%A2t%C3%A9_B%C3%A2",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S92",
+   "titre": "Aoua Keita, Femme d'Afrique, Tiers-Monde 21-84",
+   "institution": "Persée",
+   "auteur": "Marie Eliou",
+   "annee": 1980,
+   "url": "https://www.persee.fr/doc/tiers_0040-7356_1980_num_21_84_3992",
+   "type": "article_scientifique",
+   "licence": "tous droits réservés (accès libre)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S93",
+   "titre": "Compte rendu de Aoua Keita, Femme d'Afrique, Tiers-Monde 17-67",
+   "institution": "Persée",
+   "auteur": "Marie Eliou",
+   "annee": 1976,
+   "url": "https://www.persee.fr/doc/tiers_0040-7356_1976_num_17_67_2666_t1_0782_0000_1",
+   "type": "article_scientifique",
+   "licence": "tous droits réservés (accès libre)",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S94",
+   "titre": "Aoua Keïta – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Aoua_Ke%C3%AFta",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S95",
+   "titre": "Adame Ba Konaré (entretien)",
+   "institution": "Jeune Afrique",
+   "annee": 2007,
+   "url": "https://www.jeuneafrique.com/55527/archives-thematique/adame-ba-konar/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S96",
+   "titre": "Mali : quand les femmes aidaient à renverser Moussa Traoré",
+   "institution": "Jeune Afrique",
+   "auteur": "Aïssatou Diallo",
+   "annee": 2021,
+   "url": "https://www.jeuneafrique.com/1143987/politique/mali-quand-les-femmes-aidaient-a-renverser-moussa-traore/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S97",
+   "titre": "Adame Ba Konaré – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Adame_Ba_Konar%C3%A9",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S98",
+   "titre": "Le coup de gueule d'Aminata Traoré",
+   "institution": "Jeune Afrique",
+   "annee": 2005,
+   "url": "https://www.jeuneafrique.com/110254/archives-thematique/le-coup-de-gueule-d-aminata-traor/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S99",
+   "titre": "Aminata Dramane Traoré – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Aminata_Dramane_Traor%C3%A9",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S100",
+   "titre": "Mali : le retour de la reine, Oumou Sangaré",
+   "institution": "Jeune Afrique",
+   "url": "https://www.jeuneafrique.com/mag/453056/culture/mali-retour-de-reine-oumou-sangare/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S101",
+   "titre": "Mali : Rokia Traoré, l'afro-optimiste",
+   "institution": "Jeune Afrique",
+   "auteur": "Léo Pajon",
+   "annee": 2015,
+   "url": "https://www.jeuneafrique.com/231632/culture/mali-rokia-traor-l-afro-optimiste/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S102",
+   "titre": "Nahawa Doumbia – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Nahawa_Doumbia",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S103",
+   "titre": "Amadou et Mariam – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Amadou_et_Mariam",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S104",
+   "titre": "Photographie : « Seydou Keïta », du studio de Bamako au Grand Palais de Paris",
+   "institution": "Jeune Afrique",
+   "auteur": "Nicolas Michel",
+   "annee": 2016,
+   "url": "https://www.jeuneafrique.com/mag/316881/culture/exposition-seydou-keita-studio-de-bamako-grand-palais-de-paris/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S105",
+   "titre": "Seydou Keïta (photographe) – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Seydou_Ke%C3%AFta_(photographe)",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S106",
+   "titre": "Photographie : Malick Sidibé, une vie à observer les autres",
+   "institution": "Jeune Afrique",
+   "annee": 2007,
+   "url": "https://www.jeuneafrique.com/116513/culture/photographie-malick-sidibe-vie-a-observer-autres/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S107",
+   "titre": "Souleymane Cissé – Festival de Cannes",
+   "institution": "Festival de Cannes",
+   "url": "https://www.festival-cannes.com/fr/artiste/souleymane-cisse",
+   "type": "institution",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S108",
+   "titre": "Le réalisateur malien Souleymane Cissé est mort à l'âge de 84 ans",
+   "institution": "Jeune Afrique",
+   "annee": 2025,
+   "url": "https://www.jeuneafrique.com/1660397/culture/le-realisateur-malien-souleymane-cisse-est-mort-a-lage-de-84-ans/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S109",
+   "titre": "Souleymane Cissé – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Souleymane_Ciss%C3%A9",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S110",
+   "titre": "Ali Farka Touré (nécrologie)",
+   "institution": "Jeune Afrique",
+   "annee": 2006,
+   "url": "https://www.jeuneafrique.com/218392/archives-thematique/ali-farka-tour/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S111",
+   "titre": "Musique : et si on réécoutait… « Talking Timbuktu » d'Ali Farka Touré ?",
+   "institution": "Jeune Afrique",
+   "auteur": "Katia Dansoko Touré",
+   "annee": 2017,
+   "url": "https://www.jeuneafrique.com/mag/461881/culture/musique-et-si-on-reecoutait-talking-timbuktu-dali-farka-toure/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S112",
+   "titre": "Ali Farka Touré – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Ali_Farka_Tour%C3%A9",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S113",
+   "titre": "Toumani Diabaté – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Toumani_Diabat%C3%A9",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S114",
+   "titre": "Histoire du Devoir de violence de Yambo Ouologuem, Continents manuscrits, hors-série",
+   "institution": "OpenEdition Journals",
+   "auteur": "Jean-Pierre Orban",
+   "annee": 2018,
+   "url": "https://journals.openedition.org/coma/1189",
+   "type": "article_scientifique",
+   "licence": "CC BY-NC-ND 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S115",
+   "titre": "Littérature : et si on relisait… « Le Devoir de violence » de Yambo Ouologuem ?",
+   "institution": "Jeune Afrique",
+   "url": "https://www.jeuneafrique.com/mag/463854/culture/litterature-et-si-on-relisait-le-devoir-de-violence-de-yambo-ouologuem/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S116",
+   "titre": "Yambo Ouologuem – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Yambo_Ouologuem",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S117",
+   "titre": "Bataille de Kirina – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Bataille_de_Kirina",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S118",
+   "titre": "Bataille de Tondibi – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Bataille_de_Tondibi",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S119",
+   "titre": "Fédération du Mali – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_du_Mali",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S120",
+   "titre": "Le Devoir de violence – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Le_Devoir_de_violence",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S121",
+   "titre": "Yeelen (La Lumière) – Festival de Cannes",
+   "institution": "Festival de Cannes",
+   "url": "https://www.festival-cannes.com/fr/films/yeelen",
+   "type": "institution",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S122",
+   "titre": "Opération Serval – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Op%C3%A9ration_Serval",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S123",
+   "titre": "Coup d'État au Mali : retour sur les événements qui ont conduit à la démission d'IBK",
+   "institution": "Jeune Afrique",
+   "auteur": "Baba Ahmed et Aïssatou Diallo",
+   "annee": 2020,
+   "url": "https://www.jeuneafrique.com/1030652/politique/mali-des-tirs-entendus-au-camp-militaire-de-kati-pres-de-bamako/",
+   "type": "presse",
+   "licence": "tous droits réservés",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S124",
+   "titre": "Coup d'État de 2020 au Mali – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Coup_d%27%C3%89tat_de_2020_au_Mali",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S125",
+   "titre": "Yeelen – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Yeelen",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S126",
+   "titre": "Talking Timbuktu – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Talking_Timbuktu",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S127",
+   "titre": "Dimanche à Bamako – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/Dimanche_%C3%A0_Bamako",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S128",
+   "titre": "L'Étrange Destin de Wangrin – Wikipédia",
+   "institution": "Wikipédia",
+   "url": "https://fr.wikipedia.org/wiki/L%27%C3%89trange_Destin_de_Wangrin",
+   "type": "encyclopedie",
+   "licence": "CC BY-SA 4.0",
+   "consulte_le": "2026-11-21"
+  },
+  {
+   "id": "S129",
+   "titre": "Dictionnaire bambara-français précédé d'un abrégé de grammaire bambara (texte numérisé)",
+   "institution": "Internet Archive",
+   "auteur": "Hippolyte Bazin",
+   "annee": 1906,
+   "url": "https://archive.org/details/DictionnaireBambaraBazin",
+   "type": "livre",
+   "licence": "domaine public",
+   "consulte_le": "2026-11-21"
+  }
+ ]
+}

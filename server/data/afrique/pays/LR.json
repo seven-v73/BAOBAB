@@ -1,0 +1,4384 @@
+{
+  "code": "LR",
+  "nom": "Libéria",
+  "region": "ouest",
+  "wikidata": "Q1014",
+  "maj": "2026-11-21",
+  "pays": {
+    "nom_officiel": "République du Libéria (Republic of Liberia)",
+    "capitale": "Monrovia",
+    "langues_officielles": [
+      "anglais"
+    ],
+    "langues_nationales": [],
+    "population": {
+      "valeur": 5248621,
+      "annee": 2022,
+      "source": "S1"
+    },
+    "superficie_km2": 111369,
+    "monnaie": "Dollar libérien (LRD)",
+    "resume": "Le Libéria est un pays de la côte atlantique de l'Afrique de l'Ouest, voisin de la Sierra Leone, de la Guinée et de la Côte d'Ivoire ; sa capitale est Monrovia et sa langue officielle l'anglais. Le recensement de novembre 2022 y a compté environ 5,2 millions d'habitants. Sa fondation moderne remonte à l'installation, dès 1822, de personnes noires libres ou libérées venues des États-Unis sous l'égide de l'American Colonization Society, installées sur des terres déjà habitées par des peuples comme les Bassa, les Gola et les Vaï ; la République a proclamé son indépendance le 26 juillet 1847. La population est aujourd'hui composée en grande majorité de groupes autochtones (Kpellé, Bassa, Grebo, Dan, Mano, Kru, Loma, Gola, Kissi, Vaï, Mandingues et d'autres), auxquels s'ajoutent les descendants des colons, environ 5 % selon la BBC. Deux guerres civiles (1989-1997, 1999-2003) ont causé la mort d'environ 250 000 personnes ; l'accord d'Accra de 2003, la mission des Nations unies (UNMIL, jusqu'en 2018) et trois alternances électorales (Sirleaf en 2005, Weah en 2017, Boakai en 2023) marquent le retour à la paix. Le pays ne compte aucun bien inscrit au patrimoine mondial ni élément du patrimoine immatériel de l'UNESCO, mais trois sites figurent sur sa liste indicative.",
+    "sources": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7",
+      "S8",
+      "S9"
+    ]
+  },
+  "langues": [
+    {
+      "id": "LR-langue-anglais",
+      "nom": "Anglais",
+      "description": "L'anglais est la langue officielle du Libéria et sert de langue de communication entre les communautés du pays, que l'on parle un idiome autochtone ou non. Il est issu de l'usage des colons venus des États-Unis au XIXe siècle et reste la langue de l'administration et de l'école. On l'entend dans de multiples variétés locales, réunies sous le nom d'anglais libérien.",
+      "famille": "Indo-européen, germanique (anglique)",
+      "glottocode": "stan1293",
+      "statut_linguistique": [
+        "officielle",
+        "véhiculaire"
+      ],
+      "sources": [
+        "S2",
+        "S10",
+        "S11",
+        "S9"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "wikidata": "Q1860",
+      "regions": [
+        "tout le pays"
+      ],
+      "ecritures": [
+        "latin"
+      ]
+    },
+    {
+      "id": "LR-langue-anglais-liberien",
+      "nom": "Anglais libérien et pidgin à base anglaise",
+      "description": "Au-delà de l'anglais standard, les Libériens parlent des variétés d'anglais créolisées que l'on regroupe sous le nom d'anglais libérien, très utilisées à l'oral et dans la musique populaire comme le hipco. Glottolog rattache le code libe1240 au Kru Pidgin English, un pidgin à base anglaise ; la frontière entre ces variétés (anglais des colons, parlers urbains, pidgins côtiers) n'est pas tracée de la même façon selon les spécialistes, d'où le statut provisoire de cette fiche.",
+      "famille": "Pidgin à base anglaise (Glottolog : Kru Pidgin English)",
+      "glottocode": "libe1240",
+      "statut_linguistique": [
+        "véhiculaire"
+      ],
+      "sources": [
+        "S10",
+        "S12",
+        "S13"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Rattachement du glottocode libe1240 aux variétés d'anglais libérien à confirmer avec un linguiste ; la graine Wikidata nommait « créole libérien » (Q6541128)."
+      },
+      "statut": "en_revue",
+      "nom_local": "Anglais libérien (Liberian English)",
+      "wikidata": "Q1616241",
+      "regions": [
+        "Monrovia",
+        "villes de la côte"
+      ]
+    },
+    {
+      "id": "LR-langue-kpelle",
+      "nom": "Kpellé",
+      "description": "Le kpellé est une langue mandé du Sud-Ouest parlée par le groupe le plus nombreux du pays, au centre du Libéria et jusqu'en Guinée. L'étude pays américaine de 1984 note cinq dialectes dont les locuteurs des extrémités nord-est et sud-ouest se comprennent difficilement. Un syllabaire propre, attribué au chef Gbili de Sanoyie vers 1935, a été créé pour l'écrire.",
+      "famille": "Mandé, mandé occidental, manding-kpellé, mandé du Sud-Ouest",
+      "glottocode": "libe1247",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S14",
+        "S9",
+        "S15",
+        "S16"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "wikidata": "Q20527226",
+      "regions": [
+        "Libéria central",
+        "Bong"
+      ],
+      "ecritures": [
+        "syllabaire kpellé (vers 1935)"
+      ]
+    },
+    {
+      "id": "LR-langue-bassa",
+      "nom": "Bassa",
+      "description": "Le bassa est une langue kru parlée surtout dans les comtés de Grand Bassa, Rivercess, Margibi et Montserrado, ainsi qu'à Monrovia où les Bassa forment l'un des groupes les plus nombreux. Il dispose d'une écriture alphabétique ancienne, le Bassa Vah, remise en usage au XXe siècle par Thomas Flo Lewis et aujourd'hui peu pratiquée ; le latin sert au quotidien.",
+      "famille": "Kru, kru occidental, Wee-Bassa-Klao, bassa-klao",
+      "glottocode": "nucl1418",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S17",
+        "S18",
+        "S19"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "wikidata": "Q34949",
+      "regions": [
+        "Grand Bassa",
+        "Rivercess",
+        "Margibi",
+        "Montserrado"
+      ],
+      "ecritures": [
+        "latin",
+        "Bassa Vah"
+      ]
+    },
+    {
+      "id": "LR-langue-grebo",
+      "nom": "Grebo",
+      "description": "Le grebo n'est pas une langue unique mais un ensemble de parlers kru du sud-est du Libéria (Maryland, Grand Kru, River Gee, Sinoe) ; la graine Wikidata distingue notamment le grebo du Nord, du Centre, du Sud et le Gbolo. Glottolog classe « Liberian Grebo » au niveau d'une famille, ce qui traduit cette diversité. Les linguistes parlent aussi de grebo pour des communautés de Côte d'Ivoire.",
+      "famille": "Kru, kru occidental, Grebo-Aizi, Grebo",
+      "glottocode": "greb1256",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S20",
+        "S21"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Niveau « famille » dans Glottolog : choisir avec un linguiste la ou les variétés à fiche séparée."
+      },
+      "statut": "en_revue",
+      "wikidata": "Q35257",
+      "regions": [
+        "Maryland",
+        "Grand Kru",
+        "River Gee",
+        "Sinoe"
+      ]
+    },
+    {
+      "id": "LR-langue-dan",
+      "nom": "Dan (gio)",
+      "description": "Le dan est une langue mandé du Sud-Est parlée dans le nord-est du Libéria et dans l'ouest de la Côte d'Ivoire, où se trouve Man, sa principale ville. Au Libéria, ses locuteurs sont souvent appelés « Gio », un nom d'origine bassa que Wikipédia signale comme péjoratif ; l'ethnonyme Dan est préférable. La langue est proche du mano et porte une riche tradition orale de contes et de masques.",
+      "famille": "Mandé, mandé oriental, mano-dan, Dan-Toura",
+      "glottocode": "dann1241",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S22",
+        "S23",
+        "S10"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "wikidata": "Q1158971",
+      "regions": [
+        "Nimba"
+      ]
+    },
+    {
+      "id": "LR-langue-mano",
+      "nom": "Mano",
+      "description": "Le mano est une langue mandé, étroitement apparentée au dan, parlée par les Mano du comté de Nimba (nord-est du Libéria) et de la forêt guinéenne voisine. Le nom même du comté de Nimba viendrait d'un terme mano désignant le mont Nimba.",
+      "famille": "Mandé, mandé oriental, mano-dan",
+      "glottocode": "mann1248",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S24",
+        "S25"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "wikidata": "Q3913286",
+      "regions": [
+        "Nimba"
+      ]
+    },
+    {
+      "id": "LR-langue-loma",
+      "nom": "Loma (lorma)",
+      "description": "Le loma est une langue mandé du Sud-Ouest, proche du kpellé, du mendé et du vaï, parlée dans le Libéria du nord-ouest et le sud-est de la Guinée. Un syllabaire de plus de 185 signes a été conçu dans les années 1930 par Wido Zobo avec le tisserand Moriba pour l'écrire. Les Belle (Kuwaa), groupe très réduit, l'emploient comme langue d'échange.",
+      "famille": "Mandé, mandé occidental, manding-kpellé, mandé du Sud-Ouest, mendé-loma",
+      "glottocode": "loma1260",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S26",
+        "S27",
+        "S9",
+        "S28"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "wikidata": "Q35885",
+      "regions": [
+        "Lofa"
+      ],
+      "ecritures": [
+        "syllabaire loma (années 1930)"
+      ]
+    },
+    {
+      "id": "LR-langue-vai",
+      "nom": "Vaï",
+      "description": "Le vaï est une langue mandé parlée sur la côte nord-ouest du Libéria (Grand Cape Mount) et en Sierra Leone. C'est l'une des rares langues d'Afrique de l'Ouest dotées d'une écriture autochtone répandue : le syllabaire vaï, consigné dans les années 1830 et attribué à Momolu Duwalu Bukele. Ses locuteurs comptent beaucoup de musulmans.",
+      "famille": "Mandé, mandé occidental, manding-kpellé, mandé central, manding-vai",
+      "glottocode": "vaii1241",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S29",
+        "S30",
+        "S31",
+        "S9",
+        "S32"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "wikidata": "Q36939",
+      "regions": [
+        "Grand Cape Mount"
+      ],
+      "ecritures": [
+        "syllabaire vaï",
+        "latin",
+        "arabe"
+      ]
+    },
+    {
+      "id": "LR-langue-gola",
+      "nom": "Gola",
+      "description": "Le gola est une langue de la famille atlantique du Niger-Congo, sans parenté proche établie, parlée à l'ouest et au nord-ouest du Libéria et dans l'est de la Sierra Leone. Wikipédia l'estime à environ 278 000 locuteurs en 2015. Le nom Gola pourrait être à l'origine de celui des Gullah, descendants d'Africains du sud-est des États-Unis.",
+      "famille": "Atlantique-Congo (Niger-Congo)",
+      "glottocode": "gola1255",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S33",
+        "S34"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Régions précisées à confirmer ; Wikipédia situe les Gola à l'ouest et au nord-ouest du pays."
+      },
+      "statut": "en_revue",
+      "wikidata": "Q35482",
+      "regions": [
+        "Grand Cape Mount",
+        "Gbarpolu"
+      ],
+      "locuteurs": {
+        "valeur": 278000,
+        "annee": 2015,
+        "source": "S34"
+      }
+    },
+    {
+      "id": "LR-langue-mandingue",
+      "nom": "Mandingue (langues manding)",
+      "description": "Les Mandingues du Libéria, commerçants de tradition musulmane installés dans les villes et dans des quartiers dédiés, parlent des variétés du groupe manding, que Glottolog réunit sous le code mand1435. L'étude pays de 1984 décrit leur arrivée depuis le XVIIe siècle, comme marchands et comme chefs sur d'autres groupes, et la confédération du Kondo centrée sur Bopolu au début du XIXe siècle.",
+      "famille": "Mandé, mandé occidental, manding-kpellé, mandé central, manding",
+      "glottocode": "mand1435",
+      "statut_linguistique": [
+        "véhiculaire",
+        "minoritaire"
+      ],
+      "sources": [
+        "S35",
+        "S9",
+        "S10"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Variété précise des Mandingues du Libéria (maninka, mandinka…) à identifier avec un spécialiste."
+      },
+      "statut": "en_revue",
+      "wikidata": "Q35772",
+      "regions": [
+        "Bopolu",
+        "Kakata",
+        "Gbarnga",
+        "villes du pays"
+      ]
+    },
+    {
+      "id": "LR-langue-mende",
+      "nom": "Mendé",
+      "description": "Le mendé est une langue mandé du Sud-Ouest proche du loma, bien plus parlée en Sierra Leone qu'au Libéria, où il compte parmi la quinzaine de groupes reconnus. Glottolog l'identifie sous le nom « Mende (Sierra Leone) ».",
+      "famille": "Mandé, mandé occidental, manding-kpellé, mandé du Sud-Ouest, mendé-loma",
+      "glottocode": "mend1266",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S36",
+        "S10"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Zone d'implantation au Libéria à préciser."
+      },
+      "statut": "en_revue",
+      "wikidata": "Q1478672",
+      "regions": [
+        "nord-ouest du Libéria"
+      ]
+    },
+    {
+      "id": "LR-langue-kissi",
+      "nom": "Kissi (kissi du Sud)",
+      "description": "Le kissi appartient à la branche mel du Niger-Congo ; la variété du Sud est parlée par les Kissi du Libéria, de Guinée et de Sierra Leone. Les Kissi sont connus pour la vannerie et le tissage sur métier vertical.",
+      "famille": "Atlantique-Congo, mel, mel du Sud, kissi",
+      "glottocode": "sout2778",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S37",
+        "S38",
+        "S9"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "wikidata": "Q11028974",
+      "regions": [
+        "nord du Libéria"
+      ]
+    },
+    {
+      "id": "LR-langue-krahn",
+      "nom": "Krahn (krahn de l'Ouest)",
+      "description": "Le krahn de l'Ouest est une langue kru de la branche wee, proche du sapo, parlée dans le sud-est du Libéria et en Côte d'Ivoire. Le terme Krahn est aussi employé comme nom du groupe, parfois confondu avec les noms Guéré et Wobé de l'autre côté de la frontière.",
+      "famille": "Kru, kru occidental, Wee-Bassa-Klao, wee",
+      "glottocode": "west2488",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S39",
+        "S40"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "wikidata": "Q10975611",
+      "regions": [
+        "sud-est du Libéria"
+      ]
+    },
+    {
+      "id": "LR-langue-gbandi",
+      "nom": "Gbandi (bandi)",
+      "description": "Le gbandi est une langue mandé du Sud-Ouest, voisine du loma et du mendé, parlée dans le nord du Libéria (comté de Lofa). Wikipédia estime le groupe à environ 107 000 personnes, dont beaucoup se sont réfugiées en Guinée et en Sierra Leone pendant la guerre civile.",
+      "famille": "Mandé, mandé occidental, manding-kpellé, mandé du Sud-Ouest, mendé-loma, Bandi-Zialo",
+      "glottocode": "band1352",
+      "statut_linguistique": [
+        "régionale"
+      ],
+      "sources": [
+        "S41",
+        "S42"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "wikidata": "Q34912",
+      "regions": [
+        "Lofa"
+      ]
+    },
+    {
+      "id": "LR-langue-kuwaa",
+      "nom": "Kuwaa (belle)",
+      "description": "Le kuwaa, ou belle, est une langue kru parlée par un groupe très réduit du nord-ouest du Libéria, enclavé parmi des voisins mandé. L'étude de 1984 indique que ses locuteurs emploient souvent le loma comme langue d'échange et que les Belle ont adopté une version des sociétés Poro et Sande.",
+      "famille": "Kru, kru occidental élargi",
+      "glottocode": "kuwa1247",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S43",
+        "S9"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "wikidata": "Q35579",
+      "regions": [
+        "nord-ouest du Libéria"
+      ]
+    },
+    {
+      "id": "LR-langue-klao",
+      "nom": "Klao",
+      "description": "Le klao est une langue kru de la branche bassa-klao ; Glottolog la regroupe avec le tajuasohn. Les Klao sont comptés parmi les groupes kru du Libéria.",
+      "famille": "Kru, kru occidental, Wee-Bassa-Klao, bassa-klao, klao-tajuasohn",
+      "glottocode": "klao1243",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S44",
+        "S45"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Région précise à confirmer."
+      },
+      "statut": "en_revue",
+      "wikidata": "Q3914866",
+      "regions": [
+        "sud-est du Libéria"
+      ]
+    },
+    {
+      "id": "LR-langue-sapo",
+      "nom": "Sapo",
+      "description": "Le sapo est une langue kru de la branche wee, voisine du krahn. Le parc national de Sapo, dans le comté de Sinoe, porte le nom de ce groupe selon Wikipédia.",
+      "famille": "Kru, kru occidental, Wee-Bassa-Klao, wee",
+      "glottocode": "sapo1251",
+      "statut_linguistique": [
+        "minoritaire"
+      ],
+      "sources": [
+        "S46",
+        "S47"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "wikidata": "Q3915386",
+      "regions": [
+        "Sinoe"
+      ]
+    }
+  ],
+  "peuples": [
+    {
+      "id": "LR-peuple-kpelle",
+      "nom": "Kpellé",
+      "description": "Les Kpellé forment le premier groupe du pays, avec 20,3 % de la population au recensement de 2008 d'après Wikipédia. Ils vivent au centre du Libéria et en Guinée et parlent une langue mandé. L'étude pays de 1984 relève que leur territoire est organisé en chefferies et que les institutions Poro et Sande y ont longtemps joué un grand rôle ; les Kpellé ont aussi inventé un syllabaire vers 1935.",
+      "langues": [
+        "kpellé"
+      ],
+      "regions": [
+        "Libéria central",
+        "Bong"
+      ],
+      "sources": [
+        "S9",
+        "S16",
+        "S10",
+        "S15",
+        "S48"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "pays_partages": [
+        "GN"
+      ],
+      "organisation": "Chefferies dirigées par des chefs suprêmes (paramount chiefs) selon Wikipédia ; sociétés Poro et Sande.",
+      "activites": [
+        "riziculture",
+        "musique et danse"
+      ]
+    },
+    {
+      "id": "LR-peuple-bassa",
+      "nom": "Bassa",
+      "description": "Les Bassa sont le deuxième groupe du pays (13,4 % au recensement de 2008 selon Wikipédia), implanté dans les comtés de Grand Bassa, Rivercess, Margibi et Montserrado. Ce sont eux que l'étude de 1984 désigne comme les « rois bassa » avec lesquels l'American Colonization Society a conclu en décembre 1821 l'achat d'une bande côtière. Leur langue kru possède sa propre écriture, le Bassa Vah.",
+      "langues": [
+        "bassa"
+      ],
+      "regions": [
+        "Grand Bassa",
+        "Rivercess",
+        "Margibi",
+        "Montserrado",
+        "Monrovia"
+      ],
+      "sources": [
+        "S9",
+        "S18",
+        "S10",
+        "S19"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "organisation": "Plusieurs chefferies côtières ; certains Bassa ont adopté des versions du Poro et du Sande selon l'étude de 1984.",
+      "activites": [
+        "commerce côtier",
+        "chasse et cueillette",
+        "agriculture"
+      ]
+    },
+    {
+      "id": "LR-peuple-grebo",
+      "nom": "Grebo",
+      "description": "Les Grebo, groupe kru du sud-est du pays, représentent environ 10 % de la population au recensement de 2008 d'après Wikipédia. Ils vivent surtout dans les comtés de Maryland et de Grand Kru, mais aussi de River Gee et de Sinoe. Selon l'étude de 1984, les anciens ensembles politiques kru, grebo et krahn étaient des communautés distinctes et autonomes, regroupées en catégories ethniques plus tard.",
+      "langues": [
+        "grebo"
+      ],
+      "regions": [
+        "Maryland",
+        "Grand Kru",
+        "River Gee",
+        "Sinoe"
+      ],
+      "sources": [
+        "S9",
+        "S21",
+        "S10"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "pays_partages": [
+        "CI"
+      ],
+      "activites": [
+        "agriculture",
+        "chasse et cueillette"
+      ]
+    },
+    {
+      "id": "LR-peuple-kru",
+      "nom": "Kru",
+      "description": "Le nom Kru désigne un ensemble de communautés côtières du sud-est du pays et du littoral ivoirien. Les marins et dockers kru ont longtemps travaillé sur les navires et dans les ports de la côte ouest-africaine ; l'étude de 1984 explique que le terme « Kru » s'est répandu par les recruteurs qui préféraient embaucher des « Kru », et que beaucoup de membres du groupe se sont ainsi désignés eux-mêmes. Les Kru représentent environ 6 % de la population en 2008 selon Wikipédia.",
+      "langues": [
+        "langues kru (grebo, klao, krahn, bassa…)"
+      ],
+      "regions": [
+        "littoral du sud-est du Libéria"
+      ],
+      "sources": [
+        "S9",
+        "S45",
+        "S10"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "pays_partages": [
+        "CI",
+        "SL"
+      ],
+      "organisation": "Unités politiques anciennes appelées dako, regroupant des villages ; appartenance transmise par le père (étude de 1984).",
+      "activites": [
+        "navigation",
+        "pêche",
+        "travail portuaire"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Le terme « Kru » est en partie une catégorie extérieure ; ne pas homogénéiser les communautés."
+    },
+    {
+      "id": "LR-peuple-dan",
+      "nom": "Dan (Gio)",
+      "description": "Les Dan vivent dans le nord-est du Libéria et dans l'ouest de la Côte d'Ivoire autour de Man. Ils sont connus pour leurs masques (Ge ou Gle) et pour la société Gor, vouée à la médiation et à la paix selon Wikipédia. Le nom « Gio », utilisé au Libéria, est un exonyme jugé péjoratif ; ils représentaient 8 % des habitants en 2008.",
+      "langues": [
+        "dan"
+      ],
+      "regions": [
+        "Nimba"
+      ],
+      "sources": [
+        "S23",
+        "S10",
+        "S49",
+        "S50"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "pays_partages": [
+        "CI"
+      ],
+      "activites": [
+        "masques",
+        "contes"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Les masques et sociétés Gor/Ge relèvent de savoirs initiatiques ; ne pas détailler les rites."
+    },
+    {
+      "id": "LR-peuple-mano",
+      "nom": "Mano",
+      "description": "Les Mano occupent le nord-est du Libéria, dans le comté de Nimba, et une partie de la forêt guinéenne. Leur langue mandé est proche de celle des Dan. D'après Wikipédia, le nom Nimba viendrait du mano ; les Mano représentent environ 7,9 % des Libériens au recensement de 2008.",
+      "langues": [
+        "mano"
+      ],
+      "regions": [
+        "Nimba"
+      ],
+      "sources": [
+        "S25",
+        "S10",
+        "S24"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "pays_partages": [
+        "GN"
+      ]
+    },
+    {
+      "id": "LR-peuple-loma",
+      "nom": "Loma (Lorma)",
+      "description": "Les Loma vivent dans les zones montagneuses de part et d'autre de la frontière entre Libéria et Guinée, où on les appelle aussi Toma. Leur langue est apparentée au kpellé, au mendé et au vaï. Ils ont conservé leurs pratiques religieuses face à l'islam et ont créé, dans les années 1930, un syllabaire de plus de 185 signes sous l'impulsion de Wido Zobo. Ils forment environ 5,1 % de la population selon le recensement de 2008.",
+      "langues": [
+        "loma"
+      ],
+      "regions": [
+        "Lofa"
+      ],
+      "sources": [
+        "S27",
+        "S10",
+        "S9",
+        "S28"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "pays_partages": [
+        "GN"
+      ]
+    },
+    {
+      "id": "LR-peuple-vai",
+      "nom": "Vaï",
+      "description": "Les Vaï vivent à Grand Cape Mount et dans la région de Monrovia, que Wikipédia dit avoir été leur terre traditionnelle, ainsi qu'en Sierra Leone. Ils sont connus pour leur syllabaire, mis par écrit dans les années 1830 et attribué à Momolu Duwalu Bukele. Beaucoup sont musulmans ; ils participent aussi, comme le signale l'étude de 1984, aux sociétés Poro et Sande.",
+      "langues": [
+        "vaï"
+      ],
+      "regions": [
+        "Grand Cape Mount",
+        "Monrovia"
+      ],
+      "sources": [
+        "S51",
+        "S31",
+        "S32",
+        "S9",
+        "S52"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "pays_partages": [
+        "SL"
+      ],
+      "organisation": "Poro attesté chez les Vaï avec une hiérarchie élaborée (jusqu'à 99 degrés selon l'étude de 1984).",
+      "activites": [
+        "écriture (syllabaire)"
+      ]
+    },
+    {
+      "id": "LR-peuple-gola",
+      "nom": "Gola",
+      "description": "Les Gola vivent à l'ouest et au nord-ouest du Libéria et dans l'est de la Sierra Leone ; leur langue, du grand ensemble Niger-Congo, n'a pas de proche parent établi. Ils représentent environ 5,1 % de la population en 2008. Le nom Gola a été rapproché de celui des Gullah du sud-est des États-Unis, et la forêt de Gola est l'objet d'une candidature au patrimoine mondial.",
+      "langues": [
+        "gola"
+      ],
+      "regions": [
+        "Grand Cape Mount",
+        "Gbarpolu"
+      ],
+      "sources": [
+        "S34",
+        "S10",
+        "S53",
+        "S9"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "pays_partages": [
+        "SL"
+      ],
+      "organisation": "Poro et Sande importants selon l'étude de 1984 ; la direction de ces sociétés était parfois réservée à certaines familles.",
+      "activites": [
+        "agriculture"
+      ]
+    },
+    {
+      "id": "LR-peuple-mandingue",
+      "nom": "Mandingues",
+      "description": "Les Mandingues du Libéria sont surtout des commerçants musulmans établis dans les villes, notamment à Kakata et à Gbarnga. D'après l'étude de 1984, certains sont arrivés dès le XVIIe siècle pour dominer ou commercer ; ils ont formé le noyau de la confédération du Kondo à Bopolu au début du XIXe siècle. Au début du XXe siècle, une chefferie, Mecca, leur a été attribuée pour cultiver la terre.",
+      "langues": [
+        "mandingue"
+      ],
+      "regions": [
+        "Bopolu",
+        "Kakata",
+        "Gbarnga"
+      ],
+      "sources": [
+        "S9",
+        "S10",
+        "S54"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "activites": [
+        "commerce",
+        "agriculture"
+      ]
+    },
+    {
+      "id": "LR-peuple-kissi",
+      "nom": "Kissi",
+      "description": "Les Kissi, groupe ethnolinguistique de la branche mel, vivent surtout en Guinée mais aussi en Sierra Leone et au Libéria. Ils sont réputés pour la vannerie et le tissage sur métier vertical, et pour leurs forgerons d'autrefois. Ils comptent pour 4,8 % de la population libérienne selon le recensement de 2008.",
+      "langues": [
+        "kissi"
+      ],
+      "regions": [
+        "nord du Libéria"
+      ],
+      "sources": [
+        "S38",
+        "S10",
+        "S37"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "pays_partages": [
+        "GN",
+        "SL"
+      ],
+      "activites": [
+        "vannerie",
+        "tissage",
+        "agriculture"
+      ]
+    },
+    {
+      "id": "LR-peuple-krahn",
+      "nom": "Krahn",
+      "description": "Les Krahn vivent dans le sud-est du Libéria et en Côte d'Ivoire, où des variantes de leur nom (Guéré, Wobé) coexistent. Leur arrivée dans la « Côte des grains » est reliée aux migrations du XVIe siècle selon Wikipédia. Leur histoire récente est marquée par la violence politique des années 1980-1990, à traiter avec prudence.",
+      "langues": [
+        "krahn",
+        "sapo"
+      ],
+      "regions": [
+        "sud-est du Libéria"
+      ],
+      "sources": [
+        "S40",
+        "S10",
+        "S39",
+        "S55"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "pays_partages": [
+        "CI"
+      ],
+      "activites": [
+        "agriculture"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Groupe associé à des conflits politiques récents (coup d'État de 1980, guerres civiles) : présentation neutre, sans généralisation."
+    },
+    {
+      "id": "LR-peuple-gbandi",
+      "nom": "Gbandi",
+      "description": "Le groupe gbandi est l'un des peuples reconnus du Libéria ; il est installé dans le comté de Lofa, entre les Kissi, Mendé, Gola, Kuwaa et Loma. Wikipédia l'estime à quelque 107 000 personnes. Beaucoup ont fui en Guinée et en Sierra Leone pendant la guerre civile.",
+      "langues": [
+        "gbandi"
+      ],
+      "regions": [
+        "Lofa"
+      ],
+      "sources": [
+        "S42",
+        "S41",
+        "S10"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "pays_partages": [
+        "GN",
+        "SL"
+      ],
+      "activites": [
+        "agriculture"
+      ]
+    },
+    {
+      "id": "LR-peuple-americo-liberiens",
+      "nom": "Américano-Libériens (Congos)",
+      "description": "Les Américano-Libériens descendent des personnes noires libres ou affranchies venues des États-Unis et des Caraïbes à partir de 1822, ainsi que d'Africains libérés de navires négriers. Ils ont dirigé le pays de 1847 à 1980, sans partager le pouvoir avec les peuples autochtones, majoritaires. La BBC estime qu'ils forment aujourd'hui environ 5 % de la population ; le nom « Congo », d'abord une insulte, est devenu pour beaucoup un nom d'usage.",
+      "langues": [
+        "anglais",
+        "anglais libérien"
+      ],
+      "regions": [
+        "Monrovia",
+        "côte"
+      ],
+      "sources": [
+        "S56",
+        "S2",
+        "S9",
+        "S3"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "activites": [
+        "commerce",
+        "fonction publique"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Histoire des relations entre colons et autochtones débattue ; présentation neutre."
+    }
+  ],
+  "sites": [
+    {
+      "id": "LR-site-ile-providence",
+      "nom": "Île Providence (Dozoa)",
+      "type": "liste_indicative",
+      "description": "Petite île de 11 acres environ (4,5 hectares), au confluent de la rivière Mesurado et du Stockton Creek à Monrovia, que les Gola appelaient Dozoa. Elle fut un comptoir fréquenté par des marchands portugais et par les peuples de la côte, puis le lieu de débarquement, en janvier 1822, d'un des premiers groupes de colons venus des États-Unis. Le Libéria l'a proposée en 2017 pour la liste indicative de l'UNESCO (critères iv et vi) ; elle conserve notamment un puits ancien, un quai de débarquement et un arbre (cotton tree) présenté comme vieux de 250 ans, ainsi qu'une sculpture en forme d'arbre faite d'armes à feu en mémoire de la paix.",
+      "sources": [
+        "S6",
+        "S9",
+        "S4"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Statut : liste indicative (soumise le 30/03/2017), non inscrit."
+      },
+      "statut": "en_revue",
+      "coordonnees": {
+        "lat": 6.319349,
+        "lng": -10.800984
+      },
+      "regions": [
+        "Montserrado",
+        "Monrovia"
+      ],
+      "periode": "comptoir avant 1822 ; lieu de mémoire",
+      "sensible": true,
+      "note_sensibilite": "Lieu de mémoire lié à la traite atlantique et à la colonisation : les récits doivent distinguer faits établis et traditions mémorielles. Le dossier indicatif cite 1882 pour le débarquement, alors que d'autres passages du même dossier et l'étude de 1984 donnent 1822 : l'année 1822 est retenue.",
+      "liste_indicative": {
+        "reference": "6247",
+        "soumission": "2017-03-30"
+      }
+    },
+    {
+      "id": "LR-site-foret-gola",
+      "nom": "Parc national de la forêt de Gola",
+      "type": "liste_indicative",
+      "description": "Créé par une loi de septembre 2016 sur environ 88 000 hectares du nord-ouest du Libéria (comtés de Grand Cape Mount et Gbarpolu), ce parc prolonge côté libérien une forêt tropicale qui s'étend en Sierra Leone. Le dossier déposé en 2023 sur la liste indicative (critères ix et x) rappelle qu'elle fait partie des grands blocs restants de la forêt de Haute-Guinée et abrite notamment des chimpanzés de l'Ouest et plus de 60 espèces menacées. Son nom renvoie aux Gola, peuple du nord-ouest du pays.",
+      "sources": [
+        "S53",
+        "S34"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Statut : liste indicative (soumise le 31/01/2023). Coordonnées du dossier UNESCO (communautaires, non officielles)."
+      },
+      "statut": "en_revue",
+      "coordonnees": {
+        "lat": 6.92633,
+        "lng": -10.75733
+      },
+      "regions": [
+        "Grand Cape Mount",
+        "Gbarpolu"
+      ],
+      "periode": "créé en 2016",
+      "liste_indicative": {
+        "reference": "6650",
+        "soumission": "2023-01-31"
+      }
+    },
+    {
+      "id": "LR-site-nimba-est",
+      "nom": "Réserve naturelle de l'Est du Nimba (extension du site du mont Nimba)",
+      "type": "liste_indicative",
+      "description": "La réserve naturelle de l'Est du Nimba couvre environ 13 500 hectares dans le comté de Nimba, au nord-est du pays. Le Libéria a proposé en 2017 de l'ajouter, comme extension, au site du mont Nimba déjà inscrit côté guinéen et ivoirien (critères ix et x). Le dossier y recense plus de 600 espèces de papillons, la loutre-musaraigne du Nimba et le crapaud du Nimba.",
+      "sources": [
+        "S57",
+        "S25"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Statut : liste indicative (soumise le 30/03/2017). Pas de coordonnées dans la page UNESCO."
+      },
+      "statut": "en_revue",
+      "regions": [
+        "Nimba"
+      ],
+      "periode": "liste indicative depuis 2017",
+      "liste_indicative": {
+        "reference": "6246",
+        "soumission": "2017-03-30"
+      }
+    },
+    {
+      "id": "LR-site-monrovia",
+      "nom": "Monrovia",
+      "type": "ville_historique",
+      "description": "Capitale et plus grande ville du pays, bâtie sur le cap Mesurado. Elle est née de l'installation de colons américains en 1822 et porte le nom du président américain James Monroe ; elle était auparavant une terre des Vaï selon Wikipédia. Le recensement de 2022 y compte plus de 1,7 million d'habitants. On y trouve le musée national, l'île Providence et les principaux lieux de la mémoire de la fondation du pays.",
+      "sources": [
+        "S52",
+        "S9",
+        "S6"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "coordonnees": {
+        "lat": 6.31333,
+        "lng": -10.80139
+      },
+      "regions": [
+        "Montserrado"
+      ],
+      "periode": "fondée en 1822"
+    },
+    {
+      "id": "LR-site-harper",
+      "nom": "Harper (cap Palmas)",
+      "type": "ville_historique",
+      "description": "Port du sud-est du pays, chef-lieu du comté de Maryland, établi sur le cap Palmas. La Maryland Colonization Society y fonda en 1827 une colonie indépendante, sur des terres obtenues de populations locales selon l'étude de 1984 ; ce territoire fut ensuite une république distincte avant de rejoindre le Libéria en 1857 d'après Wikipédia. Harper est aussi la ville natale du président William Tubman, et se trouve dans la région des Grebo.",
+      "sources": [
+        "S9",
+        "S58",
+        "S59",
+        "S21"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "coordonnees": {
+        "lat": 4.367,
+        "lng": -7.717
+      },
+      "regions": [
+        "Maryland"
+      ],
+      "periode": "XIXe siècle"
+    },
+    {
+      "id": "LR-site-robertsport",
+      "nom": "Robertsport et Grand Cape Mount",
+      "type": "ville_historique",
+      "description": "Ville portuaire du nord-ouest, à une quinzaine de kilomètres de la Sierra Leone, sur la presqu'île du cap Mount qui sépare le lac Piso de l'océan. Elle porte le nom du premier président, Joseph Jenkins Roberts. La région est le pays des Vaï : un officier britannique y remarqua des signes tracés au charbon en 1849, ce qui révéla au monde extérieur le syllabaire vaï.",
+      "sources": [
+        "S60",
+        "S31",
+        "S32"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "coordonnees": {
+        "lat": 6.75,
+        "lng": -11.367
+      },
+      "regions": [
+        "Grand Cape Mount"
+      ],
+      "periode": "XIXe siècle"
+    },
+    {
+      "id": "LR-site-bopolu",
+      "nom": "Bopolu",
+      "type": "ville_historique",
+      "description": "Chef-lieu du comté de Gbarpolu, à une centaine de kilomètres au nord de Monrovia. Elle fut le centre de la confédération du Kondo, d'abord dominée par des Mandingues, qui rassembla au début du XIXe siècle des Dei, Gola, Loma et Vaï ; l'étude de 1984 décrit la région comme un exemple de pluralisme culturel durable.",
+      "sources": [
+        "S9",
+        "S54"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "coordonnees": {
+        "lat": 7.06667,
+        "lng": -10.4875
+      },
+      "regions": [
+        "Gbarpolu"
+      ],
+      "periode": "début du XIXe siècle"
+    },
+    {
+      "id": "LR-site-cuttington",
+      "nom": "Université de Cuttington (Suacoco)",
+      "type": "monument",
+      "description": "Fondée en 1889 par l'Église épiscopale américaine d'abord au cap Palmas puis déplacée à Suacoco (Bong), elle se présente comme la plus ancienne université privée mixte de l'Afrique subsaharienne. L'étude de 1984 la décrit comme réouverte en 1949 après une fermeture et note qu'elle recrutait surtout parmi les jeunes autochtones. Wilton Sankawulo y a fait ses études et enseigné.",
+      "sources": [
+        "S61",
+        "S9",
+        "S62"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "coordonnees": {
+        "lat": 7.04,
+        "lng": -9.554167
+      },
+      "regions": [
+        "Bong"
+      ],
+      "periode": "depuis 1889"
+    },
+    {
+      "id": "LR-site-musee-national",
+      "nom": "Musée national du Libéria",
+      "type": "musee",
+      "description": "Institué par une loi de 1958 sous la présidence de William Tubman, avec un appui de l'UNESCO, le musée est installé depuis 1987 dans l'ancien palais de justice de Monrovia. Il a perdu plus des trois quarts de ses quelque 6 000 pièces pendant les guerres civiles ; il a rouvert ses portes et conserve notamment le premier drapeau national, daté d'août 1847. Ses collections et ses expositions retracent l'histoire et les cultures du pays.",
+      "sources": [
+        "S63",
+        "S64"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Détails (drapeau de 1847, bâtiment) issus de Wikipédia seulement ; à confirmer avec le musée."
+      },
+      "statut": "en_revue",
+      "coordonnees": {
+        "lat": 6.3158,
+        "lng": -10.804
+      },
+      "regions": [
+        "Monrovia"
+      ],
+      "periode": "depuis 1958"
+    },
+    {
+      "id": "LR-site-sapo",
+      "nom": "Parc national de Sapo",
+      "type": "site_naturel",
+      "description": "Parc national du comté de Sinoe, nommé d'après les Sapo. Sur sept aires protégées proposées au début des années 1980, c'est la seule à avoir été formellement désignée, en 1983. Il couvre environ 1 800 kilomètres carrés après l'extension de 2003 et constitue la plus grande aire protégée de forêt tropicale du pays.",
+      "sources": [
+        "S47"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source Wikipédia seule : à confirmer par l'Autorité de développement forestier (FDA)."
+      },
+      "statut": "en_revue",
+      "coordonnees": {
+        "lat": 5.4111139,
+        "lng": -8.414625
+      },
+      "regions": [
+        "Sinoe"
+      ],
+      "periode": "depuis 1983"
+    }
+  ],
+  "traditions": [
+    {
+      "id": "LR-tradition-poro",
+      "nom": "Poro, société initiatique masculine",
+      "categorie": "rite",
+      "description": "Le Poro est une institution à la fois religieuse, éducative et politique, qui rassemble les hommes de nombreux peuples mandé et atlantiques du pays et que certains groupes kru voisins ont adoptée sous une forme proche. Selon l'étude de 1984, son pouvoir de décision revenait à un conseil d'anciens de haut rang et il arbitrait des différends entre chefferies. Son importance a reculé avec le christianisme, l'islam, l'école et les nouveaux modes de vie.",
+      "communautes": [
+        "Kpellé",
+        "Gola",
+        "Mano",
+        "Vaï",
+        "Loma",
+        "Mandé et peuples voisins"
+      ],
+      "transmission": "fragile",
+      "unesco": null,
+      "sources": [
+        "S9"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source principale : étude pays de 1984 (Library of Congress/US Army), à compléter par des travaux plus récents."
+      },
+      "statut": "en_revue",
+      "regions": [
+        "Libéria du nord-ouest et du centre"
+      ],
+      "periode": "attesté avant le XXe siècle ; en recul au XXe siècle",
+      "sensible": true,
+      "note_sensibilite": "Société initiatique : les savoirs et pratiques secrets ne doivent pas être divulgués. La fiche attend la validation de représentants des communautés concernées."
+    },
+    {
+      "id": "LR-tradition-sande",
+      "nom": "Sande (bundu), société initiatique féminine",
+      "categorie": "rite",
+      "description": "Le Sande, appelé aussi bundu ou bondo, est la société d'initiation des femmes dans plusieurs pays d'Afrique de l'Ouest, dont le Libéria ; il complète le Poro. Il transmet des normes de morale et de comportement et défend les intérêts sociaux et politiques des femmes. Au Libéria, il a parfois été mis au service de projets modernes, par exemple pour diffuser des pratiques de soin maternel selon l'étude de 1984 ; la future présidente par intérim Ruth Perry y a appris les traditions de sa famille vaï dans son enfance.",
+      "communautes": [
+        "Gola",
+        "Kpellé",
+        "Vaï",
+        "Loma"
+      ],
+      "transmission": "fragile",
+      "unesco": null,
+      "sources": [
+        "S9",
+        "S65",
+        "S32"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "regions": [
+        "Grand Cape Mount",
+        "Libéria du nord-ouest et du centre"
+      ],
+      "periode": "attesté avant le XXe siècle ; en transformation",
+      "sensible": true,
+      "note_sensibilite": "Initiation incluant des pratiques corporelles controversées (Wikipédia) ; secrets initiatiques à ne pas divulguer. Attendre la validation de femmes issues des communautés concernées et d'une institution partenaire."
+    },
+    {
+      "id": "LR-tradition-syllabaire-vai",
+      "nom": "Syllabaire vaï",
+      "categorie": "savoir",
+      "description": "Écriture syllabique créée pour la langue vaï, que Momolu Duwalu Bukele et plusieurs proches ont mise au point à partir d'une inspiration qu'il disait avoir reçue en rêve. Elle compte plus de 200 signes, s'écrit de gauche à droite et est restée en usage jusqu'à nos jours. L'observation de signes tracés au charbon par un officier britannique, en janvier 1849, l'a fait connaître au monde extérieur ; l'Université du Libéria en a précisé les signes dans les années 1960 et l'informatique a relancé son usage.",
+      "communautes": [
+        "Vaï"
+      ],
+      "transmission": "revitalisée",
+      "unesco": null,
+      "sources": [
+        "S31",
+        "S9",
+        "S30",
+        "S66"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de création débattue : vers 1833 d'après Wikipédia, « premier tiers du XIXe siècle » selon l'étude de 1984 ; certains auteurs avancent des dates plus anciennes."
+      },
+      "statut": "en_revue",
+      "regions": [
+        "Grand Cape Mount"
+      ],
+      "langues": [
+        "vaï"
+      ],
+      "periode": "années 1830 ; usage jusqu'à aujourd'hui",
+      "nom_local": "Syllabaire vaï"
+    },
+    {
+      "id": "LR-tradition-ecritures-loma-kpelle-bassa",
+      "nom": "Écritures autochtones loma, kpellé et bassa (Vah)",
+      "categorie": "savoir",
+      "description": "Plusieurs peuples du Libéria ont inventé leur propre écriture au XXe siècle. Les Loma, autour de Wido Zobo et du tisserand Moriba, ont créé dans les années 1930 un syllabaire d'environ 185 signes. Le chef Gbili de Sanoyie a conçu vers 1935 un syllabaire kpellé de 88 signes. Les Bassa ont remis en usage le Vah, un alphabet plus ancien redécouvert chez des Bassa du Brésil et des Antilles puis diffusé par Thomas Flo Lewis ; il n'est plus guère employé aujourd'hui.",
+      "communautes": [
+        "Loma",
+        "Kpellé",
+        "Bassa"
+      ],
+      "transmission": "fragile",
+      "unesco": null,
+      "sources": [
+        "S27",
+        "S15",
+        "S19",
+        "S9"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Informations issues de Wikipédia ; l'étude de 1984 mentionne seulement un script kpellé. À confirmer par des travaux de linguistique."
+      },
+      "statut": "en_revue",
+      "regions": [
+        "Lofa",
+        "Bong",
+        "Grand Bassa"
+      ],
+      "langues": [
+        "loma",
+        "kpellé",
+        "bassa"
+      ],
+      "periode": "XXe siècle"
+    },
+    {
+      "id": "LR-tradition-masques-dan",
+      "nom": "Masques dan (Ge ou Gle)",
+      "categorie": "rite",
+      "description": "Chez les Dan du nord-est du pays et de l'ouest de la Côte d'Ivoire, les masques (ge ou gle selon Wikipédia) occupent une place centrale dans la vie sociale et dans la société Gor, vouée à la paix. Le Metropolitan Museum de New York conserve de nombreux masques dan, dont certains sont rattachés à des types nommés (kagle, gunyege, bagle). Les types de masques sont nommés, mais le sens de chacun relève de savoirs gardés par les communautés.",
+      "communautes": [
+        "Dan"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S23",
+        "S49"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Types de masques cités d'après les catalogues du Met (titres d'objets), non commentés ici."
+      },
+      "statut": "en_revue",
+      "regions": [
+        "Nimba"
+      ],
+      "langues": [
+        "dan"
+      ],
+      "periode": "XIXe siècle à aujourd'hui",
+      "sensible": true,
+      "note_sensibilite": "Les masques sont liés à des savoirs et sociétés initiatiques ; ne pas publier d'explications sur les rites. À valider avec des représentants dan."
+    },
+    {
+      "id": "LR-tradition-musique-kpelle",
+      "nom": "Musique et chants kpellé",
+      "categorie": "musique",
+      "description": "Chez les Kpellé, la musique accompagne la vie sociale et rituelle. L'ethnomusicologue Ruth Stone a consacré en 1982 à ce thème un livre, Let the inside be sweet, qui étudie la façon dont les Kpellé interprètent les événements musicaux. Cet ouvrage, consigné dans une fiche de bibliothèque, est la source de cette entrée ; les enregistrements et collectes de terrain restent à documenter.",
+      "communautes": [
+        "Kpellé"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S48"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Notice rédigée d'après la seule fiche bibliographique de l'ouvrage de Stone (titre et résumé) ; contenu musical à documenter."
+      },
+      "statut": "en_revue",
+      "regions": [
+        "Bong",
+        "Libéria central"
+      ],
+      "langues": [
+        "kpellé"
+      ],
+      "periode": "tradition ancienne ; travail de terrain publié en 1982"
+    },
+    {
+      "id": "LR-tradition-repertoire-troupe-culturelle",
+      "nom": "Chants et danses de la troupe culturelle nationale",
+      "categorie": "danse",
+      "description": "Au Libéria, la Liberian National Cultural Troupe a rassemblé des chants et des danses de seize groupes du pays selon Wikipédia. La chanteuse Fatu Gayflor, surnommée « Princesse Fatu » par le président Tolbert, y a appris dès l'âge de 12 à 14 ans son répertoire, notamment les chants du Sande, accompagnés du sekere, avant de poursuivre sa carrière aux États-Unis.",
+      "communautes": [
+        "Loma",
+        "plusieurs groupes du Libéria"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S67",
+        "S68"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Chiffres (16 groupes) donnés par Wikipédia seulement."
+      },
+      "statut": "en_revue",
+      "regions": [
+        "Margibi"
+      ],
+      "periode": "depuis 1978 (troupe nationale)"
+    },
+    {
+      "id": "LR-tradition-hipco",
+      "nom": "Hipco, rap libérien",
+      "categorie": "musique",
+      "description": "Le hipco est un rap libérien, chanté en anglais libérien ou en langues du pays, né dans les années 1980 avec un fort contenu social et politique. Il s'est développé pendant les conflits des années 1990 et il est devenu, selon Wikipédia, une marque distinctive de la culture libérienne contemporaine. Son essor commercial date du début des années 2000.",
+      "communautes": [
+        "jeunesse urbaine",
+        "artistes de Monrovia"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S13"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source Wikipédia seule (cite The Guardian) ; à enrichir avec des sources musicologiques."
+      },
+      "statut": "en_revue",
+      "regions": [
+        "Monrovia"
+      ],
+      "langues": [
+        "anglais libérien"
+      ],
+      "periode": "depuis les années 1980"
+    },
+    {
+      "id": "LR-tradition-cuisine",
+      "nom": "Cuisine libérienne (riz, fufu, soupes)",
+      "categorie": "cuisine",
+      "description": "La cuisine libérienne s'organise autour du riz, du manioc, de la banane plantain et de ragoûts relevés au piment, appelés « soupes » (beurre de palme, feuilles de manioc, soupe d'arachide, toborghee). Le manioc pilé donne le fufu et le dumboy ; le riz peut aussi être préparé en jollof. Plusieurs plats sont associés à des régions : le toborghee, à base d'aubergines africaines, est lié aux Loma du Lofa. L'influence afro-américaine et caribéenne s'y mêle à celle des cuisines autochtones.",
+      "communautes": [
+        "Loma",
+        "Américano-Libériens",
+        "tous les groupes"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S28"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source Wikipédia seule ; à compléter par des sources culinaires ou ethnographiques."
+      },
+      "statut": "en_revue",
+      "regions": [
+        "tout le pays",
+        "Lofa"
+      ]
+    },
+    {
+      "id": "LR-tradition-contes",
+      "nom": "Contes et récits oraux libériens",
+      "categorie": "oralite",
+      "description": "Les contes libériens, souvent à portée morale, ont été recueillis dans plusieurs recueils imprimés. J. Luke Creel et Bai Gai Kiahon ont publié Folk Tales of Liberia (1960) ; Edythe Rance Haskett a compilé en 1967 vingt-cinq contes, avec une section de proverbes ; Won-Ldy Paye a publié en 1999 des contes dan dans Why Leopard has spots. Ces ouvrages témoignent d'une oralité vivante dans plusieurs communautés.",
+      "communautes": [
+        "Dan",
+        "Kpellé",
+        "autres groupes"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S69",
+        "S70",
+        "S50"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Notices bibliographiques seulement (textes non consultés) ; à compléter par une lecture des recueils."
+      },
+      "statut": "en_revue",
+      "regions": [
+        "Nimba",
+        "Libéria central"
+      ],
+      "periode": "recueils de 1960 à 1999"
+    },
+    {
+      "id": "LR-tradition-marins-kru",
+      "nom": "Savoir-faire maritime des Kru",
+      "categorie": "savoir",
+      "description": "Pendant des générations, les Kru du littoral ont travaillé comme marins, pêcheurs et dockers sur les navires de la côte ouest-africaine. Des Kru se sont installés dans des ports de la région, comme Freetown. L'étude de 1984 indique que beaucoup de ces travailleurs portuaires et marins vivaient en ville.",
+      "communautes": [
+        "Kru"
+      ],
+      "transmission": "fragile",
+      "unesco": null,
+      "sources": [
+        "S9",
+        "S45"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Pratique documentée surtout dans des textes anciens ; vérifier la continuité aujourd'hui."
+      },
+      "statut": "en_revue",
+      "regions": [
+        "littoral du sud-est du Libéria"
+      ],
+      "periode": "XIXe-XXe siècle"
+    },
+    {
+      "id": "LR-tradition-fetes-nationales",
+      "nom": "Fêtes nationales : Independence Day, Flag Day, Decoration Day",
+      "categorie": "fete",
+      "description": "Le Libéria célèbre l'Independence Day le 26 juillet, la National Flag Day le 24 août, héritière d'une décision de 1847 sur le drapeau, et la National Decoration Day, au deuxième mercredi de mars, journée où l'on décore les tombes des ancêtres. La National Unification Day (14 mai, instaurée en 1960) vise à rapprocher descendants de colons et populations autochtones. Ces fêtes reflètent la pluralité de l'histoire nationale.",
+      "communautes": [
+        "toute la population"
+      ],
+      "transmission": "vivante",
+      "unesco": null,
+      "sources": [
+        "S71"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source Wikipédia seule ; à confirmer avec des textes du gouvernement."
+      },
+      "statut": "en_revue",
+      "regions": [
+        "tout le pays"
+      ],
+      "langues": [
+        "anglais"
+      ],
+      "periode": "XIXe siècle à aujourd'hui"
+    },
+    {
+      "id": "LR-tradition-vannerie-kissi",
+      "nom": "Vannerie et tissage sur métier vertical des Kissi",
+      "categorie": "artisanat",
+      "description": "Les Kissi sont réputés pour la vannerie et le tissage sur métier vertical ; leurs forgerons étaient autrefois célèbres, notamment pour une monnaie de fer appelée « penny kissi ». La communauté est répartie entre la Guinée, la Sierra Leone et le Libéria, et les informations disponibles portent surtout sur la Guinée.",
+      "communautes": [
+        "Kissi"
+      ],
+      "transmission": "fragile",
+      "unesco": null,
+      "sources": [
+        "S38"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source Wikipédia seule ; pratiques au Libéria à documenter."
+      },
+      "statut": "en_revue",
+      "regions": [
+        "nord du Libéria"
+      ],
+      "langues": [
+        "kissi"
+      ]
+    }
+  ],
+  "personnalites": [
+    {
+      "id": "LR-personnalite-sirleaf",
+      "nom": "Ellen Johnson Sirleaf",
+      "description": "Économiste formée aux États-Unis, Ellen Johnson Sirleaf a été ministre des Finances avant le coup d'État de 1980, puis a travaillé pour l'ONU et pour des institutions financières. Candidate malheureuse à la présidentielle de 1997, elle a gagné celle de 2005 et est devenue la première femme élue chef d'État en Afrique ; elle a exercé le pouvoir de 2006 à 2018. Elle a reçu le prix Nobel de la paix 2011, avec Leymah Gbowee et Tawakkol Karman.",
+      "naissance": {
+        "date": "1938-10-29",
+        "lieu": "Monrovia"
+      },
+      "roles": [
+        "présidente de la République",
+        "ministre des Finances",
+        "prix Nobel de la paix 2011"
+      ],
+      "domaines": [
+        "politique",
+        "économie"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S72",
+        "S2",
+        "S73"
+      ],
+      "wikidata": "Q43179",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue"
+    },
+    {
+      "id": "LR-personnalite-gbowee",
+      "nom": "Leymah Gbowee",
+      "description": "Travailleuse sociale formée à la thérapie du traumatisme, Leymah Gbowee a organisé en 2002 le mouvement Women of Liberia Mass Action for Peace, qui a réuni femmes chrétiennes et musulmanes pour des manifestations non violentes. Ces actions ont pesé sur le président Charles Taylor et sur les négociations de paix de 2003, puis ont soutenu l'élection de Sirleaf en 2005. Elle a partagé le prix Nobel de la paix 2011 et figure dans le film documentaire Pray the Devil Back to Hell.",
+      "naissance": {
+        "date": "1972-02-01",
+        "lieu": "Monrovia"
+      },
+      "roles": [
+        "militante pour la paix",
+        "travailleuse sociale",
+        "prix Nobel de la paix 2011"
+      ],
+      "domaines": [
+        "résistance",
+        "société"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S74",
+        "S75",
+        "S76"
+      ],
+      "wikidata": "Q107037",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue"
+    },
+    {
+      "id": "LR-personnalite-brooks",
+      "nom": "Angie Brooks",
+      "description": "Juriste et diplomate, Angie Brooks fut la première Africaine à présider l'Assemblée générale des Nations unies (24e session, 1969), après avoir été la première femme et la première Africaine à présider le Conseil de tutelle. Née dans une famille de pasteur, elle a étudié aux États-Unis et à Londres avant de devenir avocate et enseignante au Libéria, puis secrétaire d'État adjointe sous Tubman. Elle est morte à Houston en 2007 selon Wikidata.",
+      "naissance": {
+        "date": "1928-08-24",
+        "lieu": "Virginia (comté de Montserrado)"
+      },
+      "roles": [
+        "présidente de l'Assemblée générale de l'ONU",
+        "juriste",
+        "diplomate"
+      ],
+      "domaines": [
+        "politique",
+        "droit",
+        "diplomatie"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S77",
+        "S78"
+      ],
+      "wikidata": "Q290692",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Lieu de naissance donné par Encyclopedia.com ; Wikidata indique « Pennsylvanie », probablement un toponyme libérien homonyme à confirmer. Décès : Wikidata seulement."
+      },
+      "statut": "en_revue",
+      "deces": {
+        "date": "2007-09-09",
+        "lieu": "Houston"
+      }
+    },
+    {
+      "id": "LR-personnalite-perry",
+      "nom": "Ruth Perry",
+      "description": "Née à Grand Cape Mount dans une famille vaï musulmane, Ruth Perry a été enseignante puis sénatrice, avant d'être choisie en août 1996 pour présider le Conseil d'État de la période de transition, en pleine guerre civile. Investie en septembre 1996, elle est devenue la première femme chef d'État en Afrique moderne, mais son pouvoir réel était limité ; son mandat s'est achevé après l'élection de 1997. Elle a succédé à l'écrivain Wilton Sankawulo à la tête du Conseil.",
+      "naissance": {
+        "date": "1939-07-16",
+        "lieu": "Grand Cape Mount"
+      },
+      "roles": [
+        "présidente du Conseil d'État 1996-1997",
+        "sénatrice",
+        "enseignante"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S32",
+        "S79"
+      ],
+      "wikidata": "Q461668",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "deces": {
+        "date": "2017-01-08",
+        "lieu": "Columbus (Ohio)"
+      }
+    },
+    {
+      "id": "LR-personnalite-cooper",
+      "nom": "Helene Cooper",
+      "description": "Journaliste née à Monrovia dans une famille d'élite américano-libérienne, Helene Cooper est correspondante au New York Times. Son mémoire The House at Sugar Beach (2008) raconte l'enfance au Libéria jusqu'au coup d'État de 1980 et l'exil. Elle a fait partie de l'équipe du Times récompensée en 2015 par un prix Pulitzer pour la couverture de l'épidémie d'Ebola, selon Wikipédia.",
+      "naissance": {
+        "date": "1966-04-22",
+        "lieu": "Monrovia"
+      },
+      "roles": [
+        "journaliste",
+        "autrice"
+      ],
+      "domaines": [
+        "littérature",
+        "journalisme"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S80",
+        "S81"
+      ],
+      "wikidata": "Q1601954",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Aucune source institutionnelle non wiki ouverte (le site du prix Pulitzer n'a pas répondu) ; à confirmer."
+      },
+      "statut": "en_revue"
+    },
+    {
+      "id": "LR-personnalite-wesley",
+      "nom": "Patricia Jabbeh Wesley",
+      "description": "Poète née à Monrovia et élevée aussi dans le village de son père, où elle a appris le grebo, Patricia Jabbeh Wesley a quitté le Libéria en 1991 pour fuir la guerre civile. Professeure d'anglais et de création littéraire aux États-Unis, elle publie des recueils comme Before the Palm Could Bloom (1998) ou When the Wanderers Come Home (2016), où la guerre, la famille et la communauté tiennent une grande place.",
+      "naissance": {
+        "date": "1955-08-07",
+        "lieu": "Monrovia"
+      },
+      "roles": [
+        "poète",
+        "professeure"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S82",
+        "S83"
+      ],
+      "wikidata": "Q35353722",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de naissance : Wikidata seulement ; le lieu est confirmé par la Poetry Foundation."
+      },
+      "statut": "en_revue"
+    },
+    {
+      "id": "LR-personnalite-pailey",
+      "nom": "Robtel Neajai Pailey",
+      "description": "Universitaire, autrice et militante libérienne, Robtel Neajai Pailey est née à Monrovia et a étudié à Howard, Oxford et à la SOAS de Londres. Elle a enseigné à la London School of Economics et publié des travaux sur le développement et la citoyenneté, avec une critique du « regard blanc sur le développement ».",
+      "naissance": {
+        "lieu": "Monrovia"
+      },
+      "roles": [
+        "universitaire",
+        "autrice",
+        "militante"
+      ],
+      "domaines": [
+        "sciences sociales",
+        "littérature"
+      ],
+      "epoque": "XXIe siècle",
+      "sources": [
+        "S84"
+      ],
+      "wikidata": "Q110227665",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date de naissance non trouvée dans une source ouverte ; une seule source (Wikipédia)."
+      },
+      "statut": "en_revue"
+    },
+    {
+      "id": "LR-personnalite-gayflor",
+      "nom": "Fatu Gayflor",
+      "description": "Chanteuse et danseuse libérienne appelée « Princesse Fatu » par le président William Tolbert, Fatu Gayflor a appris très jeune les chants et danses de son peuple, dont le sekere au sein du Sande, et a chanté dans la troupe culturelle nationale. Installée à Philadelphie après les guerres civiles, elle a reçu en 2014 une bourse Pew Fellowship pour son travail de transmission musicale auprès de la communauté libérienne.",
+      "naissance": {
+        "date": "1964"
+      },
+      "roles": [
+        "chanteuse",
+        "danseuse",
+        "compositrice"
+      ],
+      "domaines": [
+        "musique",
+        "arts"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S67",
+        "S68"
+      ],
+      "wikidata": "Q5438025",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Année de naissance : 1964 selon la Pew, 1966 selon Wikipédia/Wikidata ; lieu (Kakata) selon Wikipédia seule."
+      },
+      "statut": "en_revue"
+    },
+    {
+      "id": "LR-personnalite-sayeh",
+      "nom": "Antoinette Sayeh",
+      "description": "Économiste née à Monrovia, Antoinette Sayeh a été ministre libérienne des Finances de 2006 à 2008, dans le gouvernement de Sirleaf, puis directrice du département Afrique du FMI de 2008 à 2016. Elle a ensuite été directrice générale adjointe du FMI de mars 2020 à septembre 2024. Elle a mené la réduction de la dette et des réformes budgétaires du Libéria après la guerre.",
+      "naissance": {
+        "date": "1958-07-12",
+        "lieu": "Monrovia"
+      },
+      "roles": [
+        "économiste",
+        "ministre des Finances",
+        "directrice générale adjointe du FMI"
+      ],
+      "domaines": [
+        "économie",
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S85",
+        "S86",
+        "S87"
+      ],
+      "wikidata": "Q518483",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Naissance : Wikipédia et Wikidata (la page FMI ne la mentionne pas)."
+      },
+      "statut": "en_revue"
+    },
+    {
+      "id": "LR-personnalite-roberts",
+      "nom": "Joseph Jenkins Roberts",
+      "description": "Né en Virginie, Joseph Jenkins Roberts émigra au Libéria et en devint, en 1841, le premier gouverneur noir ; en 1846 il demanda au législateur de proclamer l'indépendance. Il fut le premier président de la République, élu en octobre 1847, et fut de nouveau élu dans les années 1870. Son nom a été donné à Robertsport et à l'aéroport international de Monrovia.",
+      "naissance": {
+        "date": "1809-03-15",
+        "lieu": "Norfolk (Virginie, États-Unis)"
+      },
+      "roles": [
+        "premier président du Libéria",
+        "gouverneur"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S9",
+        "S55",
+        "S88",
+        "S60"
+      ],
+      "wikidata": "Q360164",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "deces": {
+        "date": "1876-02-24",
+        "lieu": "Monrovia"
+      },
+      "sensible": true,
+      "note_sensibilite": "Figure de la fondation du pays, associée à l'histoire de la colonisation et des relations avec les peuples autochtones : présentation neutre."
+    },
+    {
+      "id": "LR-personnalite-bukele",
+      "nom": "Momolu Duwalu Bukele",
+      "description": "Originaire de la région de Grand Cape Mount, Momolu Duwalu Bukele est reconnu par la communauté vaï et par la plupart des spécialistes comme l'inventeur du syllabaire vaï. Selon le récit rapporté par le missionnaire Koelle et repris par George Ellis, il en eut l'idée à la suite d'un rêve et la mit au point avec cinq proches. Il fonda des écoles pour l'enseigner, dont celle de Jondu.",
+      "naissance": {
+        "lieu": "région de Grand Cape Mount (Libéria)"
+      },
+      "roles": [
+        "inventeur du syllabaire vaï"
+      ],
+      "domaines": [
+        "savoirs"
+      ],
+      "epoque": "XIXe siècle",
+      "sources": [
+        "S31",
+        "S9",
+        "S66",
+        "S30"
+      ],
+      "wikidata": "Q1374600",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates de vie incertaines (Wikidata : 1788 ?-1900 ?) : non retenues."
+      },
+      "statut": "en_revue"
+    },
+    {
+      "id": "LR-personnalite-tubman",
+      "nom": "William Tubman",
+      "description": "Natif de Harper, William Tubman a dirigé le Libéria de 1944 à sa mort en 1971, avec une politique d'« unification » destinée à ouvrir la vie politique aux populations autochtones. L'étude de 1984 décrit cette politique comme une réforme du droit de vote et de la participation politique, mais le True Whig Party a conservé un pouvoir étroit. Son mandat a aussi vu une croissance liée aux concessions minières et au caoutchouc.",
+      "naissance": {
+        "date": "1895-11-29",
+        "lieu": "Harper"
+      },
+      "roles": [
+        "président du Libéria 1944-1971"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S2",
+        "S9",
+        "S59",
+        "S55",
+        "S7"
+      ],
+      "wikidata": "Q301707",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "deces": {
+        "date": "1971-07-23",
+        "lieu": "Londres"
+      },
+      "sensible": true,
+      "note_sensibilite": "Présidence aux bilans débattus (ouverture partielle, contrôle politique) : présentation neutre."
+    },
+    {
+      "id": "LR-personnalite-tolbert",
+      "nom": "William Tolbert",
+      "description": "Vice-président depuis 1951, William Tolbert accéda à la présidence à la mort de Tubman, en 1971. Son gouvernement fut marqué par les émeutes du riz d'avril 1979, puis il fut renversé et tué lors du coup d'État du 12 avril 1980, qui mit fin à plus d'un siècle de pouvoir américano-libérien.",
+      "naissance": {
+        "date": "1913-05-13",
+        "lieu": "Bensonville"
+      },
+      "roles": [
+        "président du Libéria 1971-1980"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S9",
+        "S2",
+        "S89",
+        "S55",
+        "S7"
+      ],
+      "wikidata": "Q336212",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "deces": {
+        "date": "1980-04-12",
+        "lieu": "Monrovia"
+      },
+      "sensible": true,
+      "note_sensibilite": "Fin de règne violente : présentation neutre des faits établis."
+    },
+    {
+      "id": "LR-personnalite-doe",
+      "nom": "Samuel Doe",
+      "description": "Sous-officier issu de l'ethnie krahn, Samuel Doe prit le pouvoir par le coup d'État du 12 avril 1980 et devint le premier chef de l'État libérien issu des populations autochtones. Son régime devint de plus en plus répressif et corrompu, et il fut tué le 9 septembre 1990 pendant la première guerre civile.",
+      "naissance": {
+        "date": "1951-05-06",
+        "lieu": "Tuzon"
+      },
+      "roles": [
+        "chef de l'État 1980-1990"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S2",
+        "S9",
+        "S90",
+        "S55",
+        "S7",
+        "S64"
+      ],
+      "wikidata": "Q294618",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "deces": {
+        "date": "1990-09-09",
+        "lieu": "Monrovia"
+      },
+      "sensible": true,
+      "note_sensibilite": "Figure de conflits récents, dont les violences touchent des communautés précises : présentation neutre."
+    },
+    {
+      "id": "LR-personnalite-taylor",
+      "nom": "Charles Taylor",
+      "description": "Chef de la rébellion qui déclencha la première guerre civile en 1989, Charles Taylor fut élu président en 1997 et quitta le pouvoir en août 2003 sous la pression de la deuxième guerre civile et des négociations d'Accra. Il a été condamné en 2012 par le Tribunal spécial pour la Sierra Leone pour crimes de guerre et crimes contre l'humanité ; sa peine de 50 ans de prison a été confirmée en appel en septembre 2013.",
+      "naissance": {
+        "date": "1948-01-28",
+        "lieu": "Arthington"
+      },
+      "roles": [
+        "président du Libéria 1997-2003",
+        "chef rebelle"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S2",
+        "S91",
+        "S92",
+        "S93",
+        "S94"
+      ],
+      "wikidata": "Q49090",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "sensible": true,
+      "note_sensibilite": "Personnalité condamnée pour crimes de guerre ; sujet de conflits récents, à présenter sans parti pris et avec les sources judiciaires."
+    },
+    {
+      "id": "LR-personnalite-weah",
+      "nom": "George Weah",
+      "description": "Footballeur né à Monrovia, George Weah a reçu en 1995 le Ballon d'or et le titre de joueur mondial FIFA, un exploit resté unique pour un Africain. Il s'est ensuite lancé en politique et fut élu président en 2017 ; son investiture a marqué le premier transfert pacifique du pouvoir depuis des décennies. Il a été battu au second tour de 2023 par Joseph Boakai.",
+      "naissance": {
+        "date": "1966-10-01",
+        "lieu": "Monrovia"
+      },
+      "roles": [
+        "footballeur",
+        "président du Libéria 2018-2024"
+      ],
+      "domaines": [
+        "sport",
+        "politique"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "sources": [
+        "S95",
+        "S2"
+      ],
+      "wikidata": "Q173139",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue"
+    },
+    {
+      "id": "LR-personnalite-moore",
+      "nom": "Bai T. Moore",
+      "description": "Poète, romancier et folkloriste, Bai T. Moore est l'auteur de la novella Murder in the Cassava Patch (1968), devenue un classique étudié dans les lycées du pays. Né à Dimeh, village gola, il a étudié l'agriculture aux États-Unis, travaillé pour l'UNESCO puis fondé le Centre culturel national. Il co-édita aussi, en 1947, le recueil Echoes from the Valley.",
+      "naissance": {
+        "date": "1916-10-12",
+        "lieu": "Dimeh"
+      },
+      "roles": [
+        "écrivain",
+        "folkloriste",
+        "responsable culturel"
+      ],
+      "domaines": [
+        "littérature",
+        "arts"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S96",
+        "S97",
+        "S98"
+      ],
+      "wikidata": "Q4843149",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Sources principalement Wikipédia ; à compléter."
+      },
+      "statut": "en_revue",
+      "deces": {
+        "date": "1988-01-10",
+        "lieu": "Monrovia"
+      }
+    },
+    {
+      "id": "LR-personnalite-sankawulo",
+      "nom": "Wilton Sankawulo",
+      "description": "Écrivain et enseignant formé à Cuttington, Wilton Sankawulo a publié des nouvelles et des romans, dont The Marriage of Wisdom and Other Tales (1974) et The Rain and the Night (1979). Il présida en 1995-1996 le Conseil d'État chargé de la transition pendant la guerre civile, avant de céder la place à Ruth Perry.",
+      "naissance": {
+        "date": "1937-07-26",
+        "lieu": "Haindi (Bong)"
+      },
+      "roles": [
+        "écrivain",
+        "président du Conseil d'État 1995-1996"
+      ],
+      "domaines": [
+        "littérature",
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S62",
+        "S32",
+        "S99"
+      ],
+      "wikidata": "Q888828",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "deces": {
+        "date": "2009-02-21",
+        "lieu": "Monrovia"
+      }
+    },
+    {
+      "id": "LR-personnalite-twe",
+      "nom": "Didwho Welleh Twe",
+      "description": "Né à Monrovia de parents kru, Didwho Twe fut représentant, puis candidat à la présidentielle de 1951 pour le Parti de la Réforme. Sa candidature, déposée trois semaines avant le scrutin au lieu des soixante jours exigés, fut refusée ; il fut ensuite inculpé de sédition et entra en clandestinité, selon un document du département d'État américain. Il est présenté comme un défenseur des droits des populations autochtones.",
+      "naissance": {
+        "date": "1879-04-14",
+        "lieu": "Monrovia"
+      },
+      "roles": [
+        "homme politique",
+        "candidat à la présidentielle 1951"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "XXe siècle",
+      "sources": [
+        "S100",
+        "S101"
+      ],
+      "wikidata": "Q3026871",
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "deces": {
+        "date": "1961-03-19"
+      },
+      "sensible": true,
+      "note_sensibilite": "Épisode politique contesté (légalité de l'exclusion, accusations de sédition) : présentation neutre, positions des parties à citer."
+    },
+    {
+      "id": "LR-personnalite-zolu-duma",
+      "nom": "Zolu Duma (roi Peter)",
+      "description": "Souverain bassa-dei de l'île de Bushrod, près de Monrovia, Zolu Duma, connu des colons comme le roi Peter, est lié à la cession des terres du cap Mesurado en 1821-1822. Selon Wikipédia, il aurait cédé sous la menace d'un officier américain, Robert Stockton ; l'étude de 1984 présente la transaction comme un contrat négocié avec six « rois bassa ». Les récits divergent.",
+      "naissance": {
+        "lieu": "région de Monrovia"
+      },
+      "roles": [
+        "souverain côtier"
+      ],
+      "domaines": [
+        "politique",
+        "résistance"
+      ],
+      "epoque": "début du XIXe siècle",
+      "sources": [
+        "S102",
+        "S9"
+      ],
+      "wikidata": "Q23541293",
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates de vie inconnues ; assimilation roi Peter / Zolu Duma issue de Wikipédia seule."
+      },
+      "statut": "en_revue",
+      "sensible": true,
+      "note_sensibilite": "Cession de terres dans un contexte de rapports de force : version des événements contestée, à présenter avec les points de vue des parties et d'historiens libériens."
+    }
+  ],
+  "evenements": [
+    {
+      "id": "LR-evenement-migrations-xive-xvie",
+      "titre": "Déclin des empires du Mali et du Songhaï et installation de nouveaux groupes sur la côte",
+      "date": "1300-01-01",
+      "date_affichee": "XIVe-XVIe siècle",
+      "precision": "siecle",
+      "description": "À partir du XIVe siècle, le déclin du Mali puis du Songhaï, ajouté à l'assèchement du Sahel, aurait poussé des populations vers le sud et la côte. Wikipédia indique que beaucoup de peuples actuels du Libéria seraient arrivés entre le XIIe et le XVIe siècle.",
+      "sources": [
+        "S2",
+        "S55"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "fin": "1599-12-31",
+      "acteurs": [
+        "peuples mandé et kru"
+      ]
+    },
+    {
+      "id": "LR-evenement-portugais-1462",
+      "titre": "Premiers contacts portugais sur la « Côte du poivre »",
+      "date": "1462-01-01",
+      "date_affichee": "1462",
+      "precision": "annee",
+      "description": "Selon Wikipédia, des navigateurs portugais entrent en contact avec la côte dès 1462 et la nomment Côte du poivre ou Côte des grains, d'après la malaguette, poivre alors recherché en Europe. Des Néerlandais et des Anglais y établiront ensuite des comptoirs.",
+      "sources": [
+        "S55",
+        "S2"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "acteurs": [
+        "côte du Libéria"
+      ]
+    },
+    {
+      "id": "LR-evenement-dukor-1821",
+      "titre": "Contrat de cession du cap Mesurado",
+      "date": "1821-12-01",
+      "date_affichee": "décembre 1821",
+      "precision": "mois",
+      "description": "En décembre 1821, un représentant de l'American Colonization Society, le capitaine Robert Stockton, obtient des chefs de la côte une bande de terre de 60 milles entre les rivières Mesurado et Junk, en échange de marchandises. L'étude de 1984 le décrit comme un accord avec six « rois bassa » ; selon Wikipédia, le roi Peter est l'un des signataires, sous pression.",
+      "sources": [
+        "S9",
+        "S55",
+        "S102"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "acteurs": [
+        "American Colonization Society",
+        "chefs bassa"
+      ],
+      "regions": [
+        "Cap Mesurado"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Transaction foncière faite dans un rapport de force : versions divergentes à présenter avec leurs sources."
+    },
+    {
+      "id": "LR-evenement-providence-1822",
+      "titre": "Prise de possession de l'île Providence",
+      "date": "1822-01-01",
+      "date_affichee": "janvier 1822",
+      "precision": "mois",
+      "description": "En janvier 1822, un petit groupe venu avec l'Alligator s'installe sur l'île Providence, à l'embouchure du Mesurado. Le dossier indicatif UNESCO la présente comme un lieu où des Afro-Américains libres ont posé le pied dès le 1er janvier 1822, avant l'établissement permanent sur le continent en avril.",
+      "sources": [
+        "S9",
+        "S6"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "acteurs": [
+        "colons américains"
+      ],
+      "regions": [
+        "Monrovia"
+      ]
+    },
+    {
+      "id": "LR-evenement-monrovia-1822",
+      "titre": "Fondation de l'établissement de Monrovia",
+      "date": "1822-04-01",
+      "date_affichee": "avril 1822",
+      "precision": "mois",
+      "description": "En avril 1822, le premier établissement permanent de l'American Colonization Society est installé sur le continent, près du site de l'actuelle Monrovia, qui prendra le nom du président américain James Monroe. La colonie a été durement éprouvée par la maladie et les attaques de voisins.",
+      "sources": [
+        "S9",
+        "S52",
+        "S55"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "acteurs": [
+        "American Colonization Society"
+      ],
+      "regions": [
+        "Monrovia"
+      ]
+    },
+    {
+      "id": "LR-evenement-commonwealth-1838",
+      "titre": "Naissance du Commonwealth du Libéria",
+      "date": "1838-01-01",
+      "date_affichee": "1838-1839",
+      "precision": "annee",
+      "description": "Entre 1838 et 1839, les colonies d'émigrants regroupées autour de Monrovia sont réunies en un « Commonwealth du Libéria ». En 1841, Joseph Jenkins Roberts en devient le premier gouverneur noir.",
+      "sources": [
+        "S55",
+        "S9"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Les sources divergent entre 1838 et 1839 pour la réorganisation ; les deux années sont indiquées."
+      },
+      "statut": "en_revue",
+      "fin": "1839-12-31",
+      "acteurs": [
+        "colons",
+        "American Colonization Society"
+      ]
+    },
+    {
+      "id": "LR-evenement-independance-1847",
+      "titre": "Déclaration d'indépendance",
+      "date": "1847-07-26",
+      "date_affichee": "26 juillet 1847",
+      "precision": "jour",
+      "description": "Après un référendum en octobre 1846, une convention réunie à Monrovia proclame le 26 juillet 1847 la République du Libéria, par une déclaration inspirée de celle des États-Unis. La Constitution est adoptée le 27 septembre 1847 et Joseph Jenkins Roberts est élu premier président en octobre ; la République reste dominée pendant plus d'un siècle par les descendants des colons.",
+      "sources": [
+        "S9",
+        "S55",
+        "S2"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "acteurs": [
+        "Joseph Jenkins Roberts",
+        "délégués des trois comtés"
+      ],
+      "regions": [
+        "Monrovia"
+      ],
+      "sensible": true,
+      "note_sensibilite": "L'indépendance a été proclamée par les colons ; les populations autochtones n'ont pas participé : présentation à situer."
+    },
+    {
+      "id": "LR-evenement-syllabaire-vai-1830",
+      "titre": "Mise au point du syllabaire vaï",
+      "date": "1830-01-01",
+      "date_affichee": "vers 1830 (premier tiers du XIXe siècle)",
+      "precision": "siecle",
+      "description": "Momolu Duwalu Bukele et ses proches créent une écriture syllabique pour le vaï. Les observateurs étrangers ne la découvrent qu'en 1849, quand un officier britannique remarque des signes tracés au charbon sur un mur du cap Mount. Les dates exactes de la création restent débattues.",
+      "sources": [
+        "S31",
+        "S9",
+        "S30"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date débattue : vers 1833 selon Wikipédia, dates plus anciennes avancées par certains auteurs."
+      },
+      "statut": "en_revue",
+      "acteurs": [
+        "Momolu Duwalu Bukele",
+        "Vaï"
+      ],
+      "regions": [
+        "Grand Cape Mount"
+      ]
+    },
+    {
+      "id": "LR-evenement-maryland-1857",
+      "titre": "Intégration de la République du Maryland",
+      "date": "1857-01-01",
+      "date_affichee": "1857",
+      "precision": "annee",
+      "description": "La colonie puis république du Maryland, fondée en 1827 au cap Palmas, rejoint le Libéria en 1857. Selon Wikipédia (anglais), des pressions et des soulèvements grebo et kru ont pesé sur cette décision.",
+      "sources": [
+        "S7",
+        "S55",
+        "S9"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "acteurs": [
+        "République du Maryland",
+        "Grebo",
+        "Kru"
+      ],
+      "regions": [
+        "Maryland"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Rôle des Grebo et des Kru dans les rapports de force : à présenter avec des sources spécialisées."
+    },
+    {
+      "id": "LR-evenement-reconnaissance-us-1862",
+      "titre": "Reconnaissance du Libéria par les États-Unis",
+      "date": "1862-09-23",
+      "date_affichee": "23 septembre 1862",
+      "precision": "jour",
+      "description": "Le 23 septembre 1862, les États-Unis reconnaissent la République du Libéria ; un traité de commerce et de navigation est signé le 25 octobre 1862, et des relations diplomatiques sont établies en 1864. Le Royaume-Uni l'avait reconnue dès 1848 selon Wikipédia.",
+      "sources": [
+        "S3",
+        "S55"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "acteurs": [
+        "États-Unis",
+        "Libéria"
+      ]
+    },
+    {
+      "id": "LR-evenement-firestone-1926",
+      "titre": "Concession caoutchoutière Firestone",
+      "date": "1926-01-01",
+      "date_affichee": "1926",
+      "precision": "annee",
+      "description": "En 1926, la société américaine Firestone ouvre une plantation d'hévéas sur des terres concédées par le gouvernement ; le caoutchouc devient la base de l'économie libérienne. L'étude de 1984 décrit l'accord comme issu de la recherche d'une alternative au caoutchouc asiatique.",
+      "sources": [
+        "S2",
+        "S9"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "acteurs": [
+        "Firestone",
+        "gouvernement libérien"
+      ]
+    },
+    {
+      "id": "LR-evenement-travail-force-1930",
+      "titre": "Scandale du travail forcé et chute du président King",
+      "date": "1930-01-01",
+      "date_affichee": "1930-1931",
+      "precision": "annee",
+      "description": "Des enquêtes internationales (commission Christy) mettent en cause des dignitaires libériens dans un système de recrutement forcé de travailleurs. Sous la pression américaine, le président Charles D. B. King et le vice-président Yancey démissionnent ; Edwin Barclay devient président. Wikipédia (français) précise que la Société des Nations a condamné ces pratiques en 1931.",
+      "sources": [
+        "S9",
+        "S7",
+        "S2"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "fin": "1931-12-31",
+      "acteurs": [
+        "Charles D. B. King",
+        "Edwin Barclay",
+        "Société des Nations"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Violences et abus à l'égard de populations autochtones : à traiter avec les sources historiques complètes."
+    },
+    {
+      "id": "LR-evenement-fin-travail-force-1936",
+      "titre": "Interdiction du travail forcé",
+      "date": "1936-01-01",
+      "date_affichee": "1936",
+      "precision": "annee",
+      "description": "En 1936, le gouvernement libérien abolit les pratiques de travail forcé après le scandale des années précédentes.",
+      "sources": [
+        "S2",
+        "S7"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue"
+    },
+    {
+      "id": "LR-evenement-election-1951",
+      "titre": "Élection présidentielle de 1951 : droit de vote autochtone et exclusion de Didwho Twe",
+      "date": "1951-05-01",
+      "date_affichee": "1er mai 1951",
+      "precision": "jour",
+      "description": "L'élection du 1er mai 1951 est la première où des Libériens autochtones et des femmes propriétaires peuvent voter selon la BBC. Le candidat de l'opposition Didwho Twe est exclu du scrutin pour dépôt tardif, puis poursuivi pour sédition d'après un document du département d'État américain. Tubman est réélu.",
+      "sources": [
+        "S2",
+        "S100",
+        "S101"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Dates de l'extension du suffrage divergentes entre sources (1947, 1948, 1951)."
+      },
+      "statut": "en_revue",
+      "acteurs": [
+        "William Tubman",
+        "Didwho Twe"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Les sources américaines parlent de suffrage autochtone accordé en 1947, d'autres de 1948 (amendement) ou de 1951 : dates à clarifier."
+    },
+    {
+      "id": "LR-evenement-musee-national-1958",
+      "titre": "Création du Musée national du Libéria",
+      "date": "1958-01-01",
+      "date_affichee": "1958",
+      "precision": "annee",
+      "description": "Une loi de 1958, sous la présidence de William Tubman, crée le Musée national, d'abord installé dans l'ancien palais exécutif de Monrovia ; l'établissement reçoit un appui de l'UNESCO.",
+      "sources": [
+        "S63",
+        "S64"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue"
+    },
+    {
+      "id": "LR-evenement-emeutes-riz-1979",
+      "titre": "Émeutes du riz à Monrovia",
+      "date": "1979-04-14",
+      "date_affichee": "14 avril 1979",
+      "precision": "jour",
+      "description": "Une manifestation pacifique contre la hausse du prix du riz subventionné, le 14 avril 1979, dégénère en pillages dans Monrovia. L'étude de 1984 compte au moins 40 morts et plus de 500 blessés parmi les manifestants et émeutiers.",
+      "sources": [
+        "S9",
+        "S55"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "acteurs": [
+        "gouvernement Tolbert",
+        "Progressive Alliance of Liberia"
+      ],
+      "regions": [
+        "Monrovia"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement violent aux bilans divergents (40 morts selon l'étude de 1984, 70 selon Wikipédia) : présentation prudente."
+    },
+    {
+      "id": "LR-evenement-coup-1980",
+      "titre": "Coup d'État de Samuel Doe",
+      "date": "1980-04-12",
+      "date_affichee": "12 avril 1980",
+      "precision": "jour",
+      "description": "Le 12 avril 1980, des militaires menés par Samuel Doe renverse le président Tolbert, qui est tué. Ce coup met fin à plus de 130 ans de domination politique des Américano-Libériens et amène au pouvoir le premier chef de l'État issu des populations autochtones.",
+      "sources": [
+        "S55",
+        "S9",
+        "S2"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "acteurs": [
+        "Samuel Doe",
+        "William Tolbert"
+      ],
+      "regions": [
+        "Monrovia"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Violence politique : présentation neutre."
+    },
+    {
+      "id": "LR-evenement-guerre-1989",
+      "titre": "Début de la première guerre civile",
+      "date": "1989-01-01",
+      "date_affichee": "1989",
+      "precision": "annee",
+      "description": "En 1989, le Front patriotique national du Libéria, dirigé par Charles Taylor, lance une insurrection contre le régime de Doe. La guerre dure jusqu'en 1997 ; la BBC estime à 200 000 le nombre de morts de cette première guerre.",
+      "sources": [
+        "S2",
+        "S55"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "fin": "1997-12-31",
+      "acteurs": [
+        "NPFL",
+        "Charles Taylor",
+        "Samuel Doe",
+        "ECOMOG"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Conflit récent aux bilans mal établis : présentation neutre et prudente."
+    },
+    {
+      "id": "LR-evenement-mort-doe-1990",
+      "titre": "Mort de Samuel Doe",
+      "date": "1990-09-09",
+      "date_affichee": "9 septembre 1990",
+      "precision": "jour",
+      "description": "Le 9 septembre 1990, le président Samuel Doe est tué pendant la première guerre civile, lors d'une visite aux troupes de l'ECOMOG, par Prince Johnson, chef d'une faction issue d'une scission du NPFL.",
+      "sources": [
+        "S7",
+        "S2"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "acteurs": [
+        "Samuel Doe",
+        "Prince Johnson",
+        "ECOMOG"
+      ],
+      "regions": [
+        "Monrovia"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement de guerre récent : présentation neutre."
+    },
+    {
+      "id": "LR-evenement-perry-1996",
+      "titre": "Ruth Perry préside le Conseil d'État",
+      "date": "1996-09-01",
+      "date_affichee": "septembre 1996",
+      "precision": "mois",
+      "description": "En août 1996, la CEDEAO annonce la désignation de Ruth Perry pour présider le Conseil d'État de transition ; elle prête serment en septembre et devient la première femme cheffe d'État de l'Afrique moderne. Elle conduit le pays jusqu'à l'élection de 1997.",
+      "sources": [
+        "S32",
+        "S7"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "fin": "1997-07-31",
+      "acteurs": [
+        "Ruth Perry",
+        "CEDEAO"
+      ]
+    },
+    {
+      "id": "LR-evenement-election-taylor-1997",
+      "titre": "Charles Taylor élu président",
+      "date": "1997-07-19",
+      "date_affichee": "19 juillet 1997",
+      "precision": "jour",
+      "description": "Charles Taylor remporte la présidentielle du 19 juillet 1997 avec environ 75 % des voix. Sa présidence est marquée par son soutien à des rébellions voisines, auquel répond l'appui de la Guinée et de la Sierra Leone à des opposants armés.",
+      "sources": [
+        "S7",
+        "S2"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "acteurs": [
+        "Charles Taylor"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Sujet de conflits récents : présentation neutre."
+    },
+    {
+      "id": "LR-evenement-guerre-1999",
+      "titre": "Deuxième guerre civile",
+      "date": "1999-01-01",
+      "date_affichee": "1999-2003",
+      "precision": "annee",
+      "description": "À partir de 1999, un mouvement rebelle venu de Guinée attaque le nord du Libéria ; en 2003, un second groupe attaque le sud et Monrovia est assiégée pendant deux mois. La BBC estime à 50 000 le nombre de morts de cette deuxième guerre.",
+      "sources": [
+        "S2",
+        "S55"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "fin": "2003-08-18",
+      "acteurs": [
+        "LURD",
+        "MODEL",
+        "gouvernement de Charles Taylor"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Conflit récent aux bilans mal établis : présentation neutre."
+    },
+    {
+      "id": "LR-evenement-femmes-paix-2002",
+      "titre": "Mouvement Women of Liberia Mass Action for Peace",
+      "date": "2002-01-01",
+      "date_affichee": "2002-2003",
+      "precision": "annee",
+      "description": "À partir de 2002, des femmes chrétiennes et musulmanes de Monrovia, mobilisées par Leymah Gbowee, organisent des rassemblements non violents pour réclamer la paix. Leur action a pesé sur les négociations de 2003 et a ensuite soutenu l'élection de Sirleaf en 2005.",
+      "sources": [
+        "S74",
+        "S76"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "fin": "2003-12-31",
+      "acteurs": [
+        "Leymah Gbowee",
+        "femmes chrétiennes et musulmanes"
+      ],
+      "regions": [
+        "Monrovia"
+      ]
+    },
+    {
+      "id": "LR-evenement-accra-2003",
+      "titre": "Accord de paix global d'Accra",
+      "date": "2003-08-18",
+      "date_affichee": "18 août 2003",
+      "precision": "jour",
+      "description": "Le 18 août 2003, le gouvernement, les groupes rebelles LURD et MODEL et des représentants politiques signent à Accra, au Ghana, l'accord de paix global qui met fin à la deuxième guerre civile. Il prévoit un gouvernement national de transition, installé le 14 octobre 2003.",
+      "sources": [
+        "S92",
+        "S2",
+        "S103"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "acteurs": [
+        "gouvernement libérien",
+        "LURD",
+        "MODEL",
+        "CEDEAO"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Conflit récent : présentation neutre."
+    },
+    {
+      "id": "LR-evenement-unmil-2003",
+      "titre": "Lancement de la Mission des Nations unies au Libéria (UNMIL)",
+      "date": "2003-10-01",
+      "date_affichee": "octobre 2003",
+      "precision": "mois",
+      "description": "La Mission des Nations unies au Libéria est lancée en octobre 2003 pour soutenir l'application du cessez-le-feu et du processus de paix. Elle a terminé son mandat le 30 mars 2018.",
+      "sources": [
+        "S104",
+        "S92"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "fin": "2018-03-30",
+      "acteurs": [
+        "ONU",
+        "CEDEAO"
+      ]
+    },
+    {
+      "id": "LR-evenement-trc-2005",
+      "titre": "Création de la Commission vérité et réconciliation (TRC)",
+      "date": "2005-05-12",
+      "date_affichee": "12 mai 2005",
+      "precision": "jour",
+      "description": "La loi du 12 mai 2005 de l'Assemblée législative de transition établit la Commission vérité et réconciliation, chargée d'enquêter sur les violations des droits humains commises de janvier 1979 au 14 octobre 2003.",
+      "sources": [
+        "S103"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "acteurs": [
+        "Assemblée nationale législative de transition"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Mémoire des violences récentes : à traiter avec précaution."
+    },
+    {
+      "id": "LR-evenement-elections-2005",
+      "titre": "Élection d'Ellen Johnson Sirleaf",
+      "date": "2005-10-11",
+      "date_affichee": "11 octobre 2005",
+      "precision": "jour",
+      "description": "Le premier tour des élections générales se tient le 11 octobre 2005, sous la protection de l'UNMIL ; Ellen Johnson Sirleaf remporte l'élection et devient la première femme élue cheffe d'État en Afrique. Le gouvernement qu'elle dirige est installé en janvier 2006.",
+      "sources": [
+        "S92",
+        "S2",
+        "S72"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "acteurs": [
+        "Ellen Johnson Sirleaf",
+        "George Weah"
+      ]
+    },
+    {
+      "id": "LR-evenement-trc-2009",
+      "titre": "Rapport final de la TRC",
+      "date": "2009-01-01",
+      "date_affichee": "2009",
+      "precision": "annee",
+      "description": "La Commission vérité et réconciliation publie son rapport final en 2009 (version mise à jour en décembre 2009) : causes profondes du conflit, impact sur les femmes et les enfants, responsabilités et recommandations.",
+      "sources": [
+        "S105"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Date exacte (30 juin 2009 selon d'autres sources) non confirmée par une page ouverte : seule l'année 2009 est retenue."
+      },
+      "statut": "en_revue",
+      "acteurs": [
+        "TRC"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Rapport traitant de responsabilités individuelles et collectives : présentation neutre, avec renvoi au texte."
+    },
+    {
+      "id": "LR-evenement-nobel-2011",
+      "titre": "Prix Nobel de la paix pour Sirleaf et Gbowee",
+      "date": "2011-01-01",
+      "date_affichee": "2011",
+      "precision": "annee",
+      "description": "Ellen Johnson Sirleaf et Leymah Gbowee, avec Tawakkol Karman, reçoivent le prix Nobel de la paix 2011 pour leur lutte non violente en faveur de la sécurité des femmes et de leur pleine participation à la construction de la paix.",
+      "sources": [
+        "S72",
+        "S74"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "acteurs": [
+        "Ellen Johnson Sirleaf",
+        "Leymah Gbowee"
+      ]
+    },
+    {
+      "id": "LR-evenement-taylor-2012",
+      "titre": "Condamnation de Charles Taylor par le Tribunal spécial pour la Sierra Leone",
+      "date": "2012-04-26",
+      "date_affichee": "2012-2013",
+      "precision": "annee",
+      "description": "Le 26 avril 2012, Charles Taylor est reconnu coupable de crimes de guerre et crimes contre l'humanité commis pendant la guerre de Sierra Leone, puis condamné à 50 ans de prison. La chambre d'appel confirme la condamnation et la peine le 26 septembre 2013.",
+      "sources": [
+        "S91",
+        "S2"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "fin": "2013-09-26",
+      "acteurs": [
+        "Charles Taylor",
+        "Tribunal spécial pour la Sierra Leone"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Procès international concernant un ancien chef d'État : à présenter avec les sources judiciaires."
+    },
+    {
+      "id": "LR-evenement-ebola-2014",
+      "titre": "Épidémie d'Ebola au Libéria",
+      "date": "2014-01-01",
+      "date_affichee": "2014-2015",
+      "precision": "annee",
+      "description": "Le pic de l'épidémie d'Ebola se situe en août-septembre 2014, avec 300 à 400 nouveaux cas par semaine. Les 15 comtés du pays sont touchés ; le 9 mai 2015, l'OMS déclare la fin de la transmission au Libéria.",
+      "sources": [
+        "S106",
+        "S2"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "fin": "2015-05-09",
+      "acteurs": [
+        "OMS",
+        "soignants libériens"
+      ]
+    },
+    {
+      "id": "LR-evenement-weah-2018",
+      "titre": "Alternance : George Weah élu président",
+      "date": "2017-01-01",
+      "date_affichee": "2017-2018",
+      "precision": "annee",
+      "description": "George Weah remporte la présidentielle de 2017 et prend ses fonctions en janvier 2018 ; la BBC y voit le premier transfert pacifique du pouvoir depuis des décennies. Il est battu en 2023 par Joseph Boakai, investi le 22 janvier 2024.",
+      "sources": [
+        "S2",
+        "S55"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "fin": "2024-01-22",
+      "acteurs": [
+        "George Weah",
+        "Joseph Boakai"
+      ]
+    },
+    {
+      "id": "LR-evenement-unmil-fin-2018",
+      "titre": "Fin du mandat de l'UNMIL",
+      "date": "2018-03-30",
+      "date_affichee": "30 mars 2018",
+      "precision": "jour",
+      "description": "La Mission des Nations unies au Libéria achève son mandat le 30 mars 2018, après quinze ans présentés comme un des succès des opérations de paix de l'ONU.",
+      "sources": [
+        "S104"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue"
+    },
+    {
+      "id": "LR-evenement-recensement-2022",
+      "titre": "Cinquième recensement national de la population",
+      "date": "2022-11-10",
+      "date_affichee": "10-11 novembre 2022",
+      "precision": "jour",
+      "description": "Le recensement du 10-11 novembre 2022 compte 5 248 621 habitants (résultats provisoires), soit environ 50 % de plus qu'en 2008.",
+      "sources": [
+        "S1"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "fin": "2022-11-11"
+    }
+  ],
+  "oeuvres": [
+    {
+      "id": "LR-oeuvre-masque-gola-met",
+      "titre": "Masque-heaume à quatre visages (Gola)",
+      "type": "masque",
+      "description": "Masque-heaume gola de la fin du XIXe ou du début du XXe siècle, taillé dans le bois et peint, dont la tête porte quatre visages. Il a été donné au Met en 2019 pour le 150e anniversaire du musée. Le musée l'attribue aux Gola de l'ouest du Libéria sans en préciser l'usage.",
+      "sources": [
+        "S107"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "2019.477.5",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/824209",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici.",
+      "communaute": "Gola",
+      "materiaux": [
+        "bois",
+        "pigment"
+      ],
+      "periode": "fin XIXe-début XXe siècle",
+      "regions": [
+        "ouest du Libéria"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Masque pouvant relever de sociétés initiatiques : ne pas détailler les usages sans validation des communautés."
+    },
+    {
+      "id": "LR-oeuvre-masque-ndoli-jowei-met",
+      "titre": "Masque ndoli jowei (Bassa)",
+      "type": "masque",
+      "description": "Masque-heaume en bois de bombax recouvert d'un enduit résineux, daté de la fin du XIXe ou du début du XXe siècle. Le titre du musée, ndoli jowei, désigne selon Wikipédia le type de masque porté dans la société Sande. Il est attribué aux Bassa de l'ouest du Libéria et mesure environ 42 centimètres de haut.",
+      "sources": [
+        "S108",
+        "S65"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "2019.477.6",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/824210",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici.",
+      "communaute": "Bassa",
+      "materiaux": [
+        "bois de bombax",
+        "enduit résineux"
+      ],
+      "periode": "fin XIXe-début XXe siècle",
+      "regions": [
+        "ouest du Libéria"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Masque lié à la société féminine Sande : usages et symbolique relèvent de savoirs initiatiques ; validation par des représentantes de la communauté requise."
+    },
+    {
+      "id": "LR-oeuvre-masque-kru-met",
+      "titre": "Masque facial kru",
+      "type": "masque",
+      "description": "Masque allongé en bois, enduit de kaolin et de pigment, haut de plus de 70 centimètres, attribué par le Met aux Kru du sud-est du Libéria. La pièce, datée du XIXe siècle ou de la première moitié du XXe, appartient à la collection Michael C. Rockefeller du musée.",
+      "sources": [
+        "S109",
+        "S9"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "1979.206.7",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/312179",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici.",
+      "communaute": "Kru",
+      "materiaux": [
+        "bois",
+        "kaolin",
+        "pigment"
+      ],
+      "periode": "XIXe-première moitié du XXe siècle",
+      "regions": [
+        "sud-est du Libéria"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Usage rituel possible : ne pas interpréter la fonction sans validation de la communauté."
+    },
+    {
+      "id": "LR-oeuvre-figure-dan-zlan-met",
+      "titre": "Portrait féminin lü me (Dan)",
+      "type": "sculpture",
+      "description": "Statue féminine en bois, avec fibres, métal et tissu, d'environ 90 centimètres, sculptée vers 1930 par un artiste nommé Zlan de Belewale dans le nord-est du Libéria. Le Met l'intitule lü me. Le nom du sculpteur, rare dans les collections d'art africain, permet de rattacher la pièce à un créateur précis.",
+      "sources": [
+        "S49"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "1997.342",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/317836",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici.",
+      "communaute": "Dan",
+      "createur": "Zlan de Belewale",
+      "materiaux": [
+        "bois",
+        "fibres",
+        "métal",
+        "tissu"
+      ],
+      "periode": "vers 1930",
+      "regions": [
+        "Nimba (nord-est du Libéria)"
+      ]
+    },
+    {
+      "id": "LR-oeuvre-masque-loma-landai-met",
+      "titre": "Masque-heaume landaï ou dandaï (Loma)",
+      "type": "masque",
+      "description": "Masque-heaume loma de grande taille, large de près d'un mètre, fait de bois, de plumes, de coton, de raphia et de peau. Le Met le date du XIXe ou du début du XXe siècle et le désigne par deux noms, landaï ou dandaï. Il a été donné au musée en 1983.",
+      "sources": [
+        "S110"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "1983.602.3",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/314321",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici.",
+      "communaute": "Loma",
+      "materiaux": [
+        "bois",
+        "plumes",
+        "coton",
+        "raphia",
+        "peau",
+        "métal"
+      ],
+      "periode": "XIXe-début XXe siècle",
+      "regions": [
+        "Lofa"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Masque de société initiatique : ne pas décrire d'usages sans validation de représentants loma."
+    },
+    {
+      "id": "LR-oeuvre-harpe-loma-met",
+      "titre": "Instrument « Loma » (harpe)",
+      "type": "instrument",
+      "description": "Instrument à cordes du XIXe siècle classé par le Met comme harpe, en calebasse, bois et raphia, d'environ 53 centimètres de haut. Il fait partie de la collection d'instruments de Crosby Brown, acquise en 1889. La notice ne précise pas la communauté qui l'a fabriqué.",
+      "sources": [
+        "S111"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Le titre « Loma » est celui du musée ; lien précis avec le peuple loma non établi par la notice."
+      },
+      "statut": "en_revue",
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "89.4.2133",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/503981",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici.",
+      "materiaux": [
+        "calebasse",
+        "bois",
+        "raphia"
+      ],
+      "periode": "XIXe siècle",
+      "regions": [
+        "Libéria"
+      ]
+    },
+    {
+      "id": "LR-oeuvre-ngonge-met",
+      "titre": "Ngonge (cloche à battant)",
+      "type": "instrument",
+      "description": "Idiophone en bois et corde, de 35 centimètres de haut environ, classé par le Met comme cloche à battant et désigné sous le nom de ngonge. Il date du XIXe siècle et fait partie de la collection d'instruments de Crosby Brown.",
+      "sources": [
+        "S112"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "89.4.2135",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/503983",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici.",
+      "materiaux": [
+        "bois",
+        "corde"
+      ],
+      "periode": "XIXe siècle",
+      "regions": [
+        "Libéria"
+      ]
+    },
+    {
+      "id": "LR-oeuvre-sceptre-bassa-met",
+      "titre": "Bâton à figure féminine (Bassa)",
+      "type": "sculpture",
+      "description": "Bâton de métal, en bronze et en fer, surmonté d'une figure féminine, haut d'environ 49 centimètres. Le Met l'attribue aux Bassa et le date entre le XIXe siècle et le milieu du XXe. Il est entré au musée en 1976 par un don.",
+      "sources": [
+        "S113"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "institution": "The Metropolitan Museum of Art, New York",
+      "numero_inventaire": "1976.409.4",
+      "url_notice": "https://www.metmuseum.org/art/collection/search/309873",
+      "droits": "Notice du Metropolitan Museum of Art (données Open Access, CC0) ; image non reproduite ici.",
+      "communaute": "Bassa",
+      "materiaux": [
+        "bronze",
+        "fer"
+      ],
+      "periode": "XIXe-milieu du XXe siècle",
+      "regions": [
+        "Libéria"
+      ]
+    },
+    {
+      "id": "LR-oeuvre-murder-cassava-patch",
+      "titre": "Murder in the Cassava Patch",
+      "type": "livre",
+      "description": "Novella de Bai T. Moore publiée en 1968, devenue un classique lu dans les lycées libériens. Elle raconte, dans un cadre villageois et en anglais libérien, un crime passionnel inspiré d'un fait réel, dont est accusé le jeune Gortokai. Un film en a été tiré en 2012 selon Wikipédia.",
+      "sources": [
+        "S97",
+        "S96"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source Wikipédia seule."
+      },
+      "statut": "en_revue",
+      "droits": "Œuvre sous droits : notice seulement.",
+      "createur": "Bai T. Moore",
+      "periode": "1968",
+      "regions": [
+        "Gbarpolu"
+      ]
+    },
+    {
+      "id": "LR-oeuvre-pray-the-devil",
+      "titre": "Pray the Devil Back to Hell",
+      "type": "film",
+      "description": "Documentaire de 2008 réalisé par Gini Reticker et produit par Abigail Disney, sur le mouvement de femmes chrétiennes et musulmanes qui, autour de Leymah Gbowee, a réclamé la paix pendant la deuxième guerre civile. Il a reçu le prix du meilleur documentaire au festival de Tribeca en 2008. Leymah Gbowee y a joué un rôle important selon la Fondation Nobel.",
+      "sources": [
+        "S76",
+        "S74"
+      ],
+      "verification": {
+        "etat": "a_verifier"
+      },
+      "statut": "en_revue",
+      "droits": "Œuvre sous droits : notice seulement.",
+      "createur": "Gini Reticker (réalisation), Abigail Disney (production)",
+      "periode": "2008",
+      "regions": [
+        "Monrovia"
+      ]
+    },
+    {
+      "id": "LR-oeuvre-house-sugar-beach",
+      "titre": "The House at Sugar Beach",
+      "type": "livre",
+      "description": "Mémoire d'Helene Cooper, publié en 2008, sur son enfance dans une famille d'élite américano-libérienne, le coup d'État de 1980 et l'exil. Wikipédia indique qu'il a été finaliste du prix du National Book Critics Circle en 2008.",
+      "sources": [
+        "S80"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Source Wikipédia seule."
+      },
+      "statut": "en_revue",
+      "droits": "Œuvre sous droits : notice seulement.",
+      "createur": "Helene Cooper",
+      "periode": "2008",
+      "regions": [
+        "Monrovia"
+      ]
+    },
+    {
+      "id": "LR-oeuvre-negro-culture-vai",
+      "titre": "Negro Culture in West Africa",
+      "type": "livre",
+      "description": "Étude de George Washington Ellis, publiée en 1914, consacrée aux Vaï : milieu, langue, écriture, contes et proverbes, avec des planches du syllabaire. Elle fournit la source de plusieurs informations de cette fiche, notamment sur l'invention du syllabaire par Bukele et sur un corpus de proverbes. L'ouvrage date de l'époque coloniale et son vocabulaire est celui du début du XXe siècle.",
+      "sources": [
+        "S31"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Vocabulaire daté ; à lire avec des études récentes."
+      },
+      "statut": "en_revue",
+      "institution": "Internet Archive (numérisation)",
+      "url_notice": "https://archive.org/details/negrocultureinw00elligoog",
+      "droits": "Domaine public (édition de 1914).",
+      "communaute": "Vaï",
+      "createur": "George Washington Ellis",
+      "periode": "1914",
+      "regions": [
+        "Grand Cape Mount"
+      ]
+    },
+    {
+      "id": "LR-oeuvre-why-leopard-has-spots",
+      "titre": "Why Leopard has spots: Dan stories from Liberia",
+      "type": "livre",
+      "description": "Recueil de contes dan publié en 1999 par Won-Ldy Paye, d'environ 50 pages, avec une bibliographie. Il met en écrit une tradition orale du nord-est du Libéria.",
+      "sources": [
+        "S50"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Notice bibliographique seulement ; contenu non consulté."
+      },
+      "statut": "en_revue",
+      "institution": "Fulcrum Kids, Golden (Colorado)",
+      "url_notice": "https://archive.org/details/whyleopardhasspo0000paye",
+      "droits": "Œuvre sous droits : notice seulement.",
+      "communaute": "Dan",
+      "createur": "Won-Ldy Paye",
+      "periode": "1999",
+      "regions": [
+        "Nimba"
+      ]
+    },
+    {
+      "id": "LR-oeuvre-folk-tales-liberia",
+      "titre": "Folk Tales of Liberia",
+      "type": "livre",
+      "description": "Recueil de contes libériens publié en 1960 par J. Luke Creel avec la collaboration de Bai Gai Kiahon, en 144 pages.",
+      "sources": [
+        "S69"
+      ],
+      "verification": {
+        "etat": "a_verifier",
+        "note": "Notice bibliographique seulement ; contenu non consulté."
+      },
+      "statut": "en_revue",
+      "institution": "T. S. Denison, Minneapolis",
+      "url_notice": "https://archive.org/details/folktalesofliber00cree",
+      "droits": "Œuvre sous droits : notice seulement.",
+      "createur": "J. Luke Creel et Bai Gai Kiahon",
+      "periode": "1960"
+    }
+  ],
+  "proverbes": [
+    {
+      "id": "LR-proverbe-vai-01",
+      "langue": "vaï",
+      "traduction": "Quelque pauvre que soit un éléphant, il ne peut pas traverser le pont.",
+      "sens": "Selon Ellis, on le dit d'un roi qui se déclare pauvre mais donne tout de même quelque chose à celui qui vient lui demander de l'aide : il ne peut pas laisser le solliciteur repartir les mains vides.",
+      "publication": "George Washington Ellis, Negro Culture in West Africa: A Social Study of the Negro Group of Vai-speaking People, New York, The Neale Publishing Company, 1914, chap. VIII « Vai Proverbs », n° 1, p. 147 (numérisation Internet Archive : https://archive.org/details/negrocultureinw00elligoog).",
+      "note": "Ellis ne donne pas le texte vaï : la source est la traduction anglaise de l'auteur, traduite en français par MonBaobab. Recueilli au début du XXe siècle, à valider avec des locuteurs vaï. Formulation d'Ellis : « No matter how poor an elephant is he cannot cross the bridge. »",
+      "sources": [
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "LR-proverbe-vai-02",
+      "langue": "vaï",
+      "traduction": "Le singe veut du miel, mais il n'a pas de hache pour couper l'arbre.",
+      "sens": "Le dicton rappelle à un roi pauvre qui rêve de développer sa ville que l'ambition ne suffit pas sans les moyens de la réaliser.",
+      "publication": "George Washington Ellis, Negro Culture in West Africa: A Social Study of the Negro Group of Vai-speaking People, New York, The Neale Publishing Company, 1914, chap. VIII « Vai Proverbs », n° 2, p. 147 (numérisation Internet Archive : https://archive.org/details/negrocultureinw00elligoog).",
+      "note": "Ellis ne donne pas le texte vaï : la source est la traduction anglaise de l'auteur, traduite en français par MonBaobab. Recueilli au début du XXe siècle, à valider avec des locuteurs vaï. Formulation d'Ellis : « The monkey wants to get honey, but he has no ax to cut the tree. »",
+      "sources": [
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "LR-proverbe-vai-06",
+      "langue": "vaï",
+      "traduction": "On attrape le poisson-chat parce qu'il n'aime pas la paille.",
+      "sens": "Selon Ellis, il s'applique à un homme qui monte des histoires contre son ennemi : les accusations finissent par retomber sur lui, comme le poisson-chat qui se bat contre la paille et se fait prendre.",
+      "publication": "George Washington Ellis, Negro Culture in West Africa: A Social Study of the Negro Group of Vai-speaking People, New York, The Neale Publishing Company, 1914, chap. VIII « Vai Proverbs », n° 6, p. 148 (numérisation Internet Archive : https://archive.org/details/negrocultureinw00elligoog).",
+      "note": "Ellis ne donne pas le texte vaï : la source est la traduction anglaise de l'auteur, traduite en français par MonBaobab. Recueilli au début du XXe siècle, à valider avec des locuteurs vaï. Formulation d'Ellis : « We catch a catfish because he does not like straw. »",
+      "sources": [
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "LR-proverbe-vai-07",
+      "langue": "vaï",
+      "traduction": "Un homme apeuré dira « Comment allez-vous ? » à un léopard.",
+      "sens": "On l'emploie, d'après Ellis, pour taquiner deux anciens ennemis que les circonstances obligent à agir ensemble.",
+      "publication": "George Washington Ellis, Negro Culture in West Africa: A Social Study of the Negro Group of Vai-speaking People, New York, The Neale Publishing Company, 1914, chap. VIII « Vai Proverbs », n° 7, p. 148-149 (numérisation Internet Archive : https://archive.org/details/negrocultureinw00elligoog).",
+      "note": "Ellis ne donne pas le texte vaï : la source est la traduction anglaise de l'auteur, traduite en français par MonBaobab. Recueilli au début du XXe siècle, à valider avec des locuteurs vaï. Formulation d'Ellis : « A frightened man will say « How d'ye do » to a leopard. »",
+      "sources": [
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "LR-proverbe-vai-08",
+      "langue": "vaï",
+      "traduction": "Qui élève un serpent doit l'attacher.",
+      "sens": "On le cite à un père dont un enfant dissipé crée sans cesse des ennuis et des dettes : celui qui l'a élevé doit en répondre.",
+      "publication": "George Washington Ellis, Negro Culture in West Africa: A Social Study of the Negro Group of Vai-speaking People, New York, The Neale Publishing Company, 1914, chap. VIII « Vai Proverbs », n° 8, p. 149 (numérisation Internet Archive : https://archive.org/details/negrocultureinw00elligoog).",
+      "note": "Ellis ne donne pas le texte vaï : la source est la traduction anglaise de l'auteur, traduite en français par MonBaobab. Recueilli au début du XXe siècle, à valider avec des locuteurs vaï. Formulation d'Ellis : « If a man raises a snake he must tie it. »",
+      "sources": [
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "LR-proverbe-vai-09",
+      "langue": "vaï",
+      "traduction": "La vache suit l'homme qui a du sel.",
+      "sens": "Selon Ellis, la phrase répond à ceux qui demandent pourquoi un homme est toujours chez un riche : on recherche la faveur de celui qui détient des ressources.",
+      "publication": "George Washington Ellis, Negro Culture in West Africa: A Social Study of the Negro Group of Vai-speaking People, New York, The Neale Publishing Company, 1914, chap. VIII « Vai Proverbs », n° 9, p. 149 (numérisation Internet Archive : https://archive.org/details/negrocultureinw00elligoog).",
+      "note": "Ellis ne donne pas le texte vaï : la source est la traduction anglaise de l'auteur, traduite en français par MonBaobab. Recueilli au début du XXe siècle, à valider avec des locuteurs vaï. Formulation d'Ellis : « The cow follows the man that has salt. »",
+      "sources": [
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "LR-proverbe-vai-12",
+      "langue": "vaï",
+      "traduction": "La grenouille dit : « Je n'ai rien, mais j'ai mon saut. »",
+      "sens": "Un homme pauvre mais détenteur d'un savoir que nul autre ne possède, comme un remède, l'exprime avec fierté.",
+      "publication": "George Washington Ellis, Negro Culture in West Africa: A Social Study of the Negro Group of Vai-speaking People, New York, The Neale Publishing Company, 1914, chap. VIII « Vai Proverbs », n° 12, p. 150 (numérisation Internet Archive : https://archive.org/details/negrocultureinw00elligoog).",
+      "note": "Ellis ne donne pas le texte vaï : la source est la traduction anglaise de l'auteur, traduite en français par MonBaobab. Recueilli au début du XXe siècle, à valider avec des locuteurs vaï. Formulation d'Ellis : « The frog says, « I have nothing, but I have my hop. » »",
+      "sources": [
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "LR-proverbe-vai-13",
+      "langue": "vaï",
+      "traduction": "Celui qui attend un singe dans un arbre l'a déjà abattu.",
+      "sens": "Selon Ellis, on le dit à un visiteur qui attend le retour d'un absent sans savoir quand il reviendra.",
+      "publication": "George Washington Ellis, Negro Culture in West Africa: A Social Study of the Negro Group of Vai-speaking People, New York, The Neale Publishing Company, 1914, chap. VIII « Vai Proverbs », n° 13, p. 150 (numérisation Internet Archive : https://archive.org/details/negrocultureinw00elligoog).",
+      "note": "Ellis ne donne pas le texte vaï : la source est la traduction anglaise de l'auteur, traduite en français par MonBaobab. Recueilli au début du XXe siècle, à valider avec des locuteurs vaï. Formulation d'Ellis : « A man who waits on a monkey in a tree has shot it. »",
+      "sources": [
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "titre": "Liberia announces provisional results of its 5th National Population and Housing Census",
+      "institution": "Nations unies au Libéria",
+      "url": "https://liberia.un.org/en/node/220493",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2023
+    },
+    {
+      "id": "S2",
+      "titre": "Liberia country profile",
+      "institution": "BBC News",
+      "url": "https://www.bbc.com/news/world-africa-13729504",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2024
+    },
+    {
+      "id": "S3",
+      "titre": "Liberia - Countries (Guide to the United States' History of Recognition, Diplomatic, and Consular Relations)",
+      "institution": "U.S. Department of State, Office of the Historian",
+      "url": "https://history.state.gov/countries/liberia",
+      "type": "institution",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S4",
+      "titre": "Liberia - UNESCO World Heritage Convention (État partie)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/statesparties/lr",
+      "type": "unesco",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S5",
+      "titre": "Liberia - UNESCO Intangible Cultural Heritage (page État)",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/state/liberia-LR",
+      "type": "unesco",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S6",
+      "titre": "Providence Island - Tentative Lists (réf. 6247)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/6247/",
+      "type": "unesco",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2017
+    },
+    {
+      "id": "S7",
+      "titre": "Liberia - Wikipédia",
+      "institution": "Wikipédia",
+      "url": "https://fr.wikipedia.org/wiki/Liberia",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S8",
+      "titre": "Wikidata Q1014 - Libéria",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q1014",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S9",
+      "titre": "Liberia: A Country Study (Area Handbook Series, DA Pam 550-38)",
+      "institution": "Foreign Area Studies, American University, pour le Department of the Army (numérisation Internet Archive/DTIC)",
+      "url": "https://archive.org/details/DTIC_ADA159331",
+      "type": "livre",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21",
+      "annee": 1985,
+      "auteur": "Harold D. Nelson (dir.)"
+    },
+    {
+      "id": "S10",
+      "titre": "Demographics of Liberia - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ethnic_groups_in_Liberia",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S11",
+      "titre": "English (Glottolog, stan1293)",
+      "institution": "Glottolog 5.4 (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1293",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S12",
+      "titre": "Kru Pidgin English (Glottolog, libe1240)",
+      "institution": "Glottolog 5.4 (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/libe1240",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S13",
+      "titre": "Hipco - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hipco",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S14",
+      "titre": "Liberia Kpelle (Glottolog, libe1247)",
+      "institution": "Glottolog 5.4 (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/libe1247",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S15",
+      "titre": "Kpelle syllabary - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kpelle_syllabary",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S16",
+      "titre": "Kpelle people - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kpelle_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S17",
+      "titre": "Bassa (Glottolog, nucl1418)",
+      "institution": "Glottolog 5.4 (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/nucl1418",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S18",
+      "titre": "Bassa people (Liberia) - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bassa_people_(Liberia)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S19",
+      "titre": "Bassa Vah - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bassa_alphabet",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S20",
+      "titre": "Liberian Grebo (Glottolog, greb1256)",
+      "institution": "Glottolog 5.4 (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/greb1256",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S21",
+      "titre": "Grebo people - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Grebo_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S22",
+      "titre": "Dan (Glottolog, dann1241)",
+      "institution": "Glottolog 5.4 (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/dann1241",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S23",
+      "titre": "Dan people - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dan_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S24",
+      "titre": "Mann (Glottolog, mann1248)",
+      "institution": "Glottolog 5.4 (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/mann1248",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S25",
+      "titre": "Mano people - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mano_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S26",
+      "titre": "Loma (Liberia) (Glottolog, loma1260)",
+      "institution": "Glottolog 5.4 (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/loma1260",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S27",
+      "titre": "Loma people - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Loma_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S28",
+      "titre": "Liberian cuisine - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Liberian_cuisine",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S29",
+      "titre": "Vai (Glottolog, vaii1241)",
+      "institution": "Glottolog 5.4 (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/vaii1241",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S30",
+      "titre": "Vai syllabary - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Vai_syllabary",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S31",
+      "titre": "Negro Culture in West Africa (…) Vai-speaking people",
+      "institution": "The Neale Publishing Company, New York (numérisation Internet Archive)",
+      "url": "https://archive.org/details/negrocultureinw00elligoog",
+      "type": "livre",
+      "licence": "domaine public",
+      "consulte_le": "2026-11-21",
+      "annee": 1914,
+      "auteur": "George Washington Ellis"
+    },
+    {
+      "id": "S32",
+      "titre": "Perry, Ruth (1939-)",
+      "institution": "Encyclopedia.com (Gale, Women in World History)",
+      "url": "https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/perry-ruth-1939",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S33",
+      "titre": "Gola (Glottolog, gola1255)",
+      "institution": "Glottolog 5.4 (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/gola1255",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S34",
+      "titre": "Gola people - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gola_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S35",
+      "titre": "Manding (Glottolog, mand1435)",
+      "institution": "Glottolog 5.4 (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/mand1435",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S36",
+      "titre": "Mende (Sierra Leone) (Glottolog, mend1266)",
+      "institution": "Glottolog 5.4 (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/mend1266",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S37",
+      "titre": "Southern Kisi (Glottolog, sout2778)",
+      "institution": "Glottolog 5.4 (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/sout2778",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S38",
+      "titre": "Kissi people - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kissi_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S39",
+      "titre": "Western Krahn (Glottolog, west2488)",
+      "institution": "Glottolog 5.4 (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/west2488",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S40",
+      "titre": "Krahn people - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Krahn_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S41",
+      "titre": "Bandi (Glottolog, band1352)",
+      "institution": "Glottolog 5.4 (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/band1352",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S42",
+      "titre": "Gbandi people - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gbandi_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S43",
+      "titre": "Kuwaa (Glottolog, kuwa1247)",
+      "institution": "Glottolog 5.4 (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/kuwa1247",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S44",
+      "titre": "Klao (Glottolog, klao1243)",
+      "institution": "Glottolog 5.4 (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/klao1243",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S45",
+      "titre": "Kru people - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kru_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S46",
+      "titre": "Sapo (Glottolog, sapo1251)",
+      "institution": "Glottolog 5.4 (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/sapo1251",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S47",
+      "titre": "Sapo National Park - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sapo_National_Park",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S48",
+      "titre": "Let the inside be sweet: the interpretation of music event among the Kpelle of Liberia",
+      "institution": "Indiana University Press (notice Internet Archive)",
+      "url": "https://archive.org/details/letinsidebesweet0000ston",
+      "type": "livre",
+      "licence": "tous droits réservés (notice bibliographique)",
+      "consulte_le": "2026-11-21",
+      "annee": 1982,
+      "auteur": "Ruth M. Stone"
+    },
+    {
+      "id": "S49",
+      "titre": "Female portrait lü me (figure in wood), Zlan of Belewale (Dan peoples), 1997.342",
+      "institution": "The Metropolitan Museum of Art, New York (Open Access)",
+      "url": "https://www.metmuseum.org/art/collection/search/317836",
+      "type": "musee",
+      "licence": "CC0 (données de notice)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S50",
+      "titre": "Why Leopard has spots: Dan stories from Liberia",
+      "institution": "Fulcrum Kids, Golden (Colorado) (notice Internet Archive)",
+      "url": "https://archive.org/details/whyleopardhasspo0000paye",
+      "type": "livre",
+      "licence": "tous droits réservés (notice bibliographique)",
+      "consulte_le": "2026-11-21",
+      "annee": 1999,
+      "auteur": "Won-Ldy Paye"
+    },
+    {
+      "id": "S51",
+      "titre": "Vai people - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Vai_people",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S52",
+      "titre": "Monrovia - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Monrovia",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S53",
+      "titre": "Gola Rainforest National Park - Tentative Lists (réf. 6650)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/6650/",
+      "type": "unesco",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2023
+    },
+    {
+      "id": "S54",
+      "titre": "Bopolu - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bopolu",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S55",
+      "titre": "History of Liberia - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_Liberia",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S56",
+      "titre": "Americo-Liberians - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Americo-Liberians",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S57",
+      "titre": "Mount Nimba Strict Reserve (extension) - Tentative Lists (réf. 6246)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/tentativelists/6246/",
+      "type": "unesco",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2017
+    },
+    {
+      "id": "S58",
+      "titre": "Harper, Liberia - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Harper,_Liberia",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S59",
+      "titre": "Wikidata Q301707 - William Tubman",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q301707",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S60",
+      "titre": "Robertsport - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Robertsport",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S61",
+      "titre": "Cuttington University - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cuttington_University",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S62",
+      "titre": "Wilton G. S. Sankawulo - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wilton_G._S._Sankawulo",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S63",
+      "titre": "Liberian National Museum - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Liberian_National_Museum",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S64",
+      "titre": "Museum tells Liberia's story",
+      "institution": "The World (PRX / GlobalPost)",
+      "url": "https://theworld.org/stories/2017/03/10/museum-tells-liberias-story",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2017
+    },
+    {
+      "id": "S65",
+      "titre": "Sande society - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sande_society",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S66",
+      "titre": "Momolu Duwalu Bukele - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Momolu_Duwalu_Bukele",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S67",
+      "titre": "Fatu Gayflor, 2014 Pew Fellow",
+      "institution": "Pew Center for Arts & Heritage",
+      "url": "https://www.pewcenterarts.org/fellow/fatu-gayflor",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2014
+    },
+    {
+      "id": "S68",
+      "titre": "Fatu Gayflor - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fatu_Gayflor",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S69",
+      "titre": "Folk tales of Liberia (en collaboration avec Bai Gai Kiahon)",
+      "institution": "T. S. Denison, Minneapolis (notice Internet Archive)",
+      "url": "https://archive.org/details/folktalesofliber00cree",
+      "type": "livre",
+      "licence": "tous droits réservés (notice bibliographique)",
+      "consulte_le": "2026-11-21",
+      "annee": 1960,
+      "auteur": "J. Luke Creel"
+    },
+    {
+      "id": "S70",
+      "titre": "Grains of pepper; folktales from Liberia",
+      "institution": "John Day Co., New York (notice Internet Archive)",
+      "url": "https://archive.org/details/grainsofpepperfo00hask",
+      "type": "livre",
+      "licence": "tous droits réservés (notice bibliographique)",
+      "consulte_le": "2026-11-21",
+      "annee": 1967,
+      "auteur": "Edythe Rance Haskett (comp.)"
+    },
+    {
+      "id": "S71",
+      "titre": "Public holidays in Liberia - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Public_holidays_in_Liberia",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S72",
+      "titre": "Ellen Johnson Sirleaf - Facts (Nobel Peace Prize 2011)",
+      "institution": "Fondation Nobel",
+      "url": "https://www.nobelprize.org/prizes/peace/2011/johnson_sirleaf/facts/",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2011
+    },
+    {
+      "id": "S73",
+      "titre": "Ellen Johnson Sirleaf - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ellen_Johnson_Sirleaf",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S74",
+      "titre": "Leymah Gbowee - Facts (Nobel Peace Prize 2011)",
+      "institution": "Fondation Nobel",
+      "url": "https://www.nobelprize.org/prizes/peace/2011/gbowee/facts/",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2011
+    },
+    {
+      "id": "S75",
+      "titre": "Leymah Gbowee - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Leymah_Gbowee",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S76",
+      "titre": "Pray the Devil Back to Hell - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pray_the_Devil_Back_to_Hell",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S77",
+      "titre": "Brooks, Angie (1928-)",
+      "institution": "Encyclopedia.com (Gale, Encyclopedia of World Biography / Women in World History)",
+      "url": "https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/brooks-angie-1928",
+      "type": "encyclopedie",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S78",
+      "titre": "Wikidata Q290692 - Angie Brooks",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q290692",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S79",
+      "titre": "Wikidata Q461668 - Ruth Perry",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q461668",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S80",
+      "titre": "Helene Cooper - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Helene_Cooper",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S81",
+      "titre": "Wikidata Q1601954 - Helene Cooper",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q1601954",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S82",
+      "titre": "Patricia Jabbeh Wesley",
+      "institution": "Poetry Foundation",
+      "url": "https://www.poetryfoundation.org/poets/patricia-jabbeh-wesley",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S83",
+      "titre": "Wikidata Q35353722 - Patricia Jabbeh Wesley",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q35353722",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S84",
+      "titre": "Robtel Neajai Pailey - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Robtel_Neajai_Pailey",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S85",
+      "titre": "Antoinette Monsio Sayeh (biographie officielle)",
+      "institution": "Fonds monétaire international",
+      "url": "https://www.imf.org/en/about/senior-officials/bios/antoinette-monsio-sayeh",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S86",
+      "titre": "Antoinette Sayeh - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Antoinette_Sayeh",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S87",
+      "titre": "Wikidata Q518483 - Antoinette Sayeh",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q518483",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S88",
+      "titre": "Wikidata Q360164 - Joseph Jenkins Roberts",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q360164",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S89",
+      "titre": "Wikidata Q336212 - William Tolbert",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q336212",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S90",
+      "titre": "Wikidata Q294618 - Samuel Doe",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q294618",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S91",
+      "titre": "Prosecutor welcomes UN-backed court's decision to uphold Charles Taylor conviction",
+      "institution": "ONU Info (UN News)",
+      "url": "https://news.un.org/en/story/2013/09/450782",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2013
+    },
+    {
+      "id": "S92",
+      "titre": "Accra Peace Agreement (Comprehensive Peace Agreement, 18 août 2003)",
+      "institution": "Peace Accords Matrix, Kroc Institute, University of Notre Dame",
+      "url": "https://peaceaccords.nd.edu/accord/accra-peace-agreement",
+      "type": "universite",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2003
+    },
+    {
+      "id": "S93",
+      "titre": "Wikidata Q49090 - Charles Taylor",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q49090",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S94",
+      "titre": "Charles Taylor (Liberian politician) - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Charles_Taylor_(Liberian_politician)",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S95",
+      "titre": "President (biographie de George Manneh Weah)",
+      "institution": "Executive Mansion of Liberia (archive du site, « historical material »)",
+      "url": "https://weah.emansion.gov.lr/node/3151",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S96",
+      "titre": "Bai T. Moore - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bai_T._Moore",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S97",
+      "titre": "Murder in the Cassava Patch - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Murder_in_the_Cassava_Patch",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S98",
+      "titre": "Wikidata Q4843149 - Bai T. Moore",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q4843149",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S99",
+      "titre": "Wikidata Q888828 - Wilton G. S. Sankawulo",
+      "institution": "Wikidata (Wikimedia Foundation)",
+      "url": "https://www.wikidata.org/wiki/Q888828",
+      "type": "base_de_donnees",
+      "licence": "CC0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S100",
+      "titre": "Foreign Relations of the United States, 1951, vol. V, doc. 726 (lettre Hickerson à E. Roosevelt, 9 août 1951)",
+      "institution": "U.S. Department of State, Office of the Historian",
+      "url": "https://history.state.gov/historicaldocuments/frus1951v05/d726",
+      "type": "archive",
+      "licence": "domaine public (publication du gouvernement des États-Unis)",
+      "consulte_le": "2026-11-21",
+      "annee": 1951
+    },
+    {
+      "id": "S101",
+      "titre": "Didwho Welleh Twe - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Didwho_Welleh_Twe",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S102",
+      "titre": "Zolu Duma - Wikipedia",
+      "institution": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zolu_Duma",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S103",
+      "titre": "TRC Mandate (Act that established the Truth and Reconciliation Commission of Liberia, 12 mai 2005)",
+      "institution": "Truth and Reconciliation Commission of Liberia",
+      "url": "https://www.trcofliberia.org/about/trc-mandate.html",
+      "type": "institution",
+      "licence": "CC BY-NC-ND 3.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2005
+    },
+    {
+      "id": "S104",
+      "titre": "United Nations Mission in Liberia (UNMIL) - page d'accueil",
+      "institution": "Organisation des Nations unies",
+      "url": "https://unmil.unmissions.org/en",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S105",
+      "titre": "TRC Final Report (page des volumes du rapport final)",
+      "institution": "Truth and Reconciliation Commission of Liberia",
+      "url": "https://www.trcofliberia.org/reports/final-report.html",
+      "type": "institution",
+      "licence": "CC BY-NC-ND 3.0",
+      "consulte_le": "2026-11-21",
+      "annee": 2009
+    },
+    {
+      "id": "S106",
+      "titre": "The Ebola outbreak in Liberia is over",
+      "institution": "OMS, Bureau régional de l'Afrique",
+      "url": "https://afro.who.int/countries/liberia/news/ebola-outbreak-liberia-over",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2015
+    },
+    {
+      "id": "S107",
+      "titre": "Helmet mask with four faces (Gola peoples), 2019.477.5",
+      "institution": "The Metropolitan Museum of Art, New York (Open Access)",
+      "url": "https://www.metmuseum.org/art/collection/search/824209",
+      "type": "musee",
+      "licence": "CC0 (données de notice)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S108",
+      "titre": "Ndoli jowei mask (Bassa peoples), 2019.477.6",
+      "institution": "The Metropolitan Museum of Art, New York (Open Access)",
+      "url": "https://www.metmuseum.org/art/collection/search/824210",
+      "type": "musee",
+      "licence": "CC0 (données de notice)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S109",
+      "titre": "Face mask (Kru peoples), 1979.206.7",
+      "institution": "The Metropolitan Museum of Art, New York (Open Access)",
+      "url": "https://www.metmuseum.org/art/collection/search/312179",
+      "type": "musee",
+      "licence": "CC0 (données de notice)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S110",
+      "titre": "Landaï or dandaï helmet mask (Loma peoples), 1983.602.3",
+      "institution": "The Metropolitan Museum of Art, New York (Open Access)",
+      "url": "https://www.metmuseum.org/art/collection/search/314321",
+      "type": "musee",
+      "licence": "CC0 (données de notice)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S111",
+      "titre": "Loma (chordophone), Crosby Brown Collection, 89.4.2133",
+      "institution": "The Metropolitan Museum of Art, New York (Open Access)",
+      "url": "https://www.metmuseum.org/art/collection/search/503981",
+      "type": "musee",
+      "licence": "CC0 (données de notice)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S112",
+      "titre": "Ngonge (idiophone), Crosby Brown Collection, 89.4.2135",
+      "institution": "The Metropolitan Museum of Art, New York (Open Access)",
+      "url": "https://www.metmuseum.org/art/collection/search/503983",
+      "type": "musee",
+      "licence": "CC0 (données de notice)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S113",
+      "titre": "Staff with Female Figure (Bassa peoples), 1976.409.4",
+      "institution": "The Metropolitan Museum of Art, New York (Open Access)",
+      "url": "https://www.metmuseum.org/art/collection/search/309873",
+      "type": "musee",
+      "licence": "CC0 (données de notice)",
+      "consulte_le": "2026-11-21"
+    }
+  ]
+}

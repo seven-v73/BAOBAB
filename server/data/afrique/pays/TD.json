@@ -1,0 +1,3310 @@
+{
+  "code": "TD",
+  "nom": "Tchad",
+  "region": "centre",
+  "wikidata": "Q657",
+  "maj": "2026-11-21",
+  "pays": {
+    "nom_officiel": "République du Tchad",
+    "capitale": "N'Djaména",
+    "langues_officielles": [
+      "français",
+      "arabe"
+    ],
+    "langues_nationales": [],
+    "population": {
+      "valeur": 21003705,
+      "annee": 2025,
+      "source": "S5"
+    },
+    "superficie_km2": 1284000,
+    "monnaie": "Franc CFA d'Afrique centrale (CEMAC, XAF)",
+    "resume": "Le Tchad est un pays enclavé d'Afrique centrale qui s'étire du désert du Sahara au nord jusqu'à la savane soudanienne au sud, autour du lac Tchad dont il tire son nom. Sa capitale, N'Djaména, s'élève au confluent du Chari et du Logone, et le pays compte plus d'une centaine de langues locales à côté du français et de l'arabe, langues officielles. Son histoire a été marquée par de grands royaumes du Sahel (Kanem-Bornou, Baguirmi, Ouaddaï) et par une très ancienne présence humaine, dont témoigne le fossile de Toumaï, vieux de six à sept millions d'années. Les deux biens inscrits au patrimoine mondial, les lacs d'Ounianga et le massif de l'Ennedi, se trouvent dans le Nord-Est saharien, tandis que le Guruna des Massa a rejoint en 2025 la Liste représentative du patrimoine immatériel. Colonie française puis État indépendant depuis le 11 août 1960, le pays a connu plusieurs décennies de conflits armés, dont la mémoire reste très présente dans la littérature, le cinéma et la vie politique.",
+    "sources": [
+      "S7",
+      "S5",
+      "S6",
+      "S1",
+      "S2",
+      "S3",
+      "S8",
+      "S9",
+      "S38"
+    ]
+  },
+  "langues": [
+    {
+      "id": "TD-langue-arabe-tchadien",
+      "nom": "arabe tchadien",
+      "description": "Variante locale de l'arabe, utilisée comme langue de communication surtout dans le nord et le centre du pays. Elle serait comprise par environ 60 % de la population, dont une minorité comme langue maternelle. On l'entend beaucoup sur les marchés, aux côtés du ngambay.",
+      "famille": "Afro-asiatique > Sémitique",
+      "glottocode": "chad1249",
+      "statut_linguistique": "véhiculaire",
+      "locuteurs": {
+        "valeur": 1320000,
+        "annee": 2013,
+        "source": "S9"
+      },
+      "wikidata": "Q56497",
+      "note": "Chiffre : locuteurs de langue maternelle (environ 10 % de la population), d'après l'article Wikipédia cité ; la même page évoque 60 % de locuteurs en comptant les usages comme langue seconde.",
+      "sources": [
+        "S9",
+        "S57"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-langue-francais",
+      "nom": "français",
+      "description": "Langue officielle depuis l'indépendance, introduite à l'école à partir de 1911. Elle domine l'administration, l'enseignement et les médias, et sert de langue de communication dans le sud, plus urbanisé. Elle est langue maternelle d'une très petite minorité et seconde pour une part plus large de la population.",
+      "famille": "Indo-européen > Roman",
+      "glottocode": "stan1290",
+      "statut_linguistique": "officielle",
+      "ecritures": [
+        "latin"
+      ],
+      "locuteurs": {
+        "valeur": 1620000,
+        "annee": 2013,
+        "source": "S9"
+      },
+      "wikidata": "Q150",
+      "note": "Chiffre : locuteurs de français comme langue seconde en 2013 selon l'article cité (environ 15 000 locuteurs de langue maternelle en 2015).",
+      "sources": [
+        "S9",
+        "S58"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-langue-arabe-standard",
+      "nom": "arabe standard",
+      "description": "Seconde langue officielle du pays, reconnue depuis 1978 selon l'article cité. Utilisé dans l'administration et l'enseignement, il est rarement parlé à l'oral, où l'arabe dialectal tient ce rôle.",
+      "famille": "Afro-asiatique > Sémitique",
+      "glottocode": null,
+      "statut_linguistique": "officielle",
+      "ecritures": [
+        "arabe"
+      ],
+      "wikidata": "Q56467",
+      "sources": [
+        "S9"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-langue-ngambay",
+      "nom": "ngambay",
+      "description": "Langue sara du sud du pays, très répandue et utilisée comme langue de communication, notamment sur les marchés. Environ un dixième de la population la déclare comme langue maternelle selon un recensement cité par Wikipédia.",
+      "famille": "Nilo-saharien > groupe sara-baguirmien",
+      "glottocode": "ngam1268",
+      "statut_linguistique": "véhiculaire",
+      "locuteurs": {
+        "valeur": "environ 10 % de la population (langue maternelle)",
+        "annee": 2013,
+        "source": "S9"
+      },
+      "wikidata": "Q2372207",
+      "sources": [
+        "S9",
+        "S59"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-langue-sar",
+      "nom": "sar",
+      "description": "Langue du groupe sara-baguirmien, parlée dans le sud du Tchad, notamment autour de Sarh. Elle fait partie des langues apparentées que l'on regroupe sous le nom de Sara.",
+      "famille": "Nilo-saharien > groupe sara-baguirmien",
+      "glottocode": "sarr1246",
+      "statut_linguistique": "régionale",
+      "locuteurs": {
+        "valeur": 183471,
+        "annee": 1993,
+        "source": "S9"
+      },
+      "wikidata": "Q56850",
+      "sources": [
+        "S9",
+        "S60",
+        "S18"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-langue-mbay",
+      "nom": "mbay",
+      "description": "Langue du groupe sara-baguirmien du sud du Tchad, citée parmi les langues sara. Elle figure dans la liste des langues nilo-sahariennes de l'article de référence.",
+      "famille": "Nilo-saharien > groupe sara-baguirmien",
+      "glottocode": "mbay1241",
+      "statut_linguistique": "régionale",
+      "wikidata": "Q3033565",
+      "sources": [
+        "S9",
+        "S61",
+        "S18"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-langue-goulay",
+      "nom": "goulay",
+      "description": "Langue du groupe sara-baguirmien, comptée parmi les langues du sud du pays. Le recensement de 2009 en dénombrait un peu plus de 250 000 locuteurs.",
+      "famille": "Nilo-saharien > groupe sara-baguirmien",
+      "glottocode": "gula1268",
+      "statut_linguistique": "régionale",
+      "locuteurs": {
+        "valeur": 250478,
+        "annee": 2009,
+        "source": "S9"
+      },
+      "wikidata": "Q641737",
+      "sources": [
+        "S9",
+        "S62"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-langue-kanembou",
+      "nom": "kanembou",
+      "description": "Langue nilo-saharienne de la région du Kanem, au nord-est du lac Tchad, liée à l'histoire de l'ancien royaume du Kanem-Bornou. Elle est proche du kanouri, parlé de l'autre côté du lac.",
+      "famille": "Nilo-saharien > groupe saharien (kanouri-kanembou)",
+      "glottocode": "kane1243",
+      "statut_linguistique": "régionale",
+      "wikidata": "Q35521",
+      "sources": [
+        "S9",
+        "S63",
+        "S11"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-langue-massa",
+      "nom": "massa",
+      "description": "Langue tchadique parlée de part et d'autre du Logone, au Tchad et au Cameroun. Sa place exacte au sein de la famille tchadique ne fait pas l'unanimité. C'est la langue des communautés qui pratiquent le Guruna.",
+      "famille": "Afro-asiatique > Tchadique",
+      "glottocode": "masa1322",
+      "statut_linguistique": "régionale",
+      "locuteurs": {
+        "valeur": 109093,
+        "annee": 1993,
+        "source": "S9"
+      },
+      "wikidata": "Q56668",
+      "sources": [
+        "S9",
+        "S64",
+        "S20",
+        "S3"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-langue-moundang",
+      "nom": "moundang",
+      "description": "Langue du groupe Adamawa de la famille nigéro-congolaise, parlée dans le sud-ouest du pays, autour de l'ancien royaume de Léré.",
+      "famille": "Nigéro-congolais > Adamawa",
+      "glottocode": "mund1325",
+      "statut_linguistique": "régionale",
+      "locuteurs": {
+        "valeur": 160000,
+        "annee": 1993,
+        "source": "S9"
+      },
+      "wikidata": "Q36032",
+      "sources": [
+        "S9",
+        "S65",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-langue-toupouri",
+      "nom": "toupouri",
+      "description": "Langue du groupe Adamawa parlée à la frontière entre le Tchad et le Cameroun, dans la zone de l'ancien royaume de Doré.",
+      "famille": "Nigéro-congolais > Adamawa",
+      "glottocode": "tupu1244",
+      "statut_linguistique": "régionale",
+      "locuteurs": {
+        "valeur": 90785,
+        "annee": 1993,
+        "source": "S9"
+      },
+      "wikidata": "Q36646",
+      "sources": [
+        "S9",
+        "S66",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-langue-maba",
+      "nom": "maba",
+      "description": "Langue nilo-saharienne du Ouaddaï, dans l'est du pays. Selon l'article de référence sur le royaume du Ouaddaï, c'est la langue des habitants de ce royaume, où le souverain porte le titre maba de « Kam Kallak ».",
+      "famille": "Nilo-saharien > groupe maba",
+      "glottocode": "maba1277",
+      "statut_linguistique": "régionale",
+      "locuteurs": {
+        "valeur": 120000,
+        "annee": 1991,
+        "source": "S9"
+      },
+      "wikidata": "Q35860",
+      "note": "Effectif ancien (SIL 1991 d'après l'article Wikipédia cité).",
+      "sources": [
+        "S9",
+        "S67",
+        "S12"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-langue-tedaga",
+      "nom": "tedaga",
+      "description": "Dialecte toubou parlé par les Teda, notamment dans le massif du Tibesti. Il est très proche du dazaga, parlé par les Daza, et les deux sont des langues nilo-sahariennes.",
+      "famille": "Nilo-saharien > groupe saharien (toubou)",
+      "glottocode": "teda1241",
+      "statut_linguistique": "régionale",
+      "wikidata": "Q36639",
+      "sources": [
+        "S17",
+        "S68"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-langue-dazaga",
+      "nom": "dazaga",
+      "description": "Dialecte toubou parlé par de nombreux groupes du Nord et du Centre (Kanem, Borkou, Ennedi, Bahr el-Ghazal), proche du tedaga du Tibesti.",
+      "famille": "Nilo-saharien > groupe saharien (toubou)",
+      "glottocode": "daza1242",
+      "statut_linguistique": "régionale",
+      "wikidata": "Q35244",
+      "sources": [
+        "S17",
+        "S69"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-langue-buduma",
+      "nom": "buduma",
+      "description": "Langue tchadique associée aux populations des îles et rives du lac Tchad. Le recensement de 1993 en comptait un peu plus de 50 000 locuteurs.",
+      "famille": "Afro-asiatique > Tchadique",
+      "glottocode": "budu1265",
+      "statut_linguistique": "régionale",
+      "locuteurs": {
+        "valeur": 51600,
+        "annee": 1993,
+        "source": "S9"
+      },
+      "wikidata": "Q56287",
+      "sources": [
+        "S9",
+        "S70"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-langue-beria",
+      "nom": "béria (zaghawa)",
+      "description": "Langue nilo-saharienne des Zaghawa, population installée au Tchad et au Soudan. Un alphabet, le Beria Giray Erfe, a été proposé pour l'écrire.",
+      "famille": "Nilo-saharien > groupe saharien",
+      "glottocode": "zagh1240",
+      "statut_linguistique": "régionale",
+      "ecritures": [
+        "Beria Giray Erfe (alphabet proposé)"
+      ],
+      "wikidata": "Q37007",
+      "note": "Famille indiquée avec prudence : les sources ouvertes ne donnent que « langue nilo-saharienne ».",
+      "sources": [
+        "S21",
+        "S71"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "peuples": [
+    {
+      "id": "TD-peuple-sara",
+      "nom": "Sara",
+      "description": "Ensemble de populations du sud du Tchad qui parlent des langues apparentées (sar, gor, mbay, laka, ngambay, kaba, goulay…). Le nom « Sara » a été étendu à l'époque coloniale à l'ensemble des habitants du « Tchad utile », ce qui rappelle que ce regroupement est en partie une construction. Ils vivent surtout dans les régions du Logone et du Moyen-Chari ; leurs sociétés étaient, à la fin du XIXe siècle, des sociétés d'agriculteurs.",
+      "langues": [
+        "sar",
+        "ngambay",
+        "mbay",
+        "laka",
+        "goulay"
+      ],
+      "regions": [
+        "Logone occidental",
+        "Logone oriental",
+        "Moyen-Chari",
+        "Tandjilé"
+      ],
+      "pays_partages": [],
+      "organisation": "sociétés d'agriculteurs ; initiation du Yondo (Ndo)",
+      "activites": [
+        "agriculture"
+      ],
+      "sources": [
+        "S18",
+        "S9",
+        "S59",
+        "S60"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-peuple-toubou",
+      "nom": "Toubou (Teda et Daza)",
+      "description": "Peuple du Sahara central dont le centre de gravité est le nord du Tchad, avec des communautés en Libye, au Niger et au Soudan. Ils se divisent en deux grands ensembles : les Teda, du Tibesti, et les Daza, plus nombreux dans d'autres régions du Nord et du Centre. Leur société est organisée en clans et leur chef est appelé derdeï. Le nom « Toubou » vient d'un mot kanembou et s'est imposé à l'époque coloniale ; ils sont aussi appelés Gouran.",
+      "langues": [
+        "tedaga",
+        "dazaga"
+      ],
+      "regions": [
+        "Tibesti",
+        "Borkou",
+        "Ennedi",
+        "Kanem",
+        "Bahr el-Ghazal"
+      ],
+      "pays_partages": [
+        "LY",
+        "NE",
+        "SD"
+      ],
+      "organisation": "clans ; chef appelé derdeï",
+      "activites": [
+        "élevage nomade et semi-nomade",
+        "agriculture d'oasis"
+      ],
+      "sources": [
+        "S17",
+        "S68",
+        "S69"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-peuple-kotoko",
+      "nom": "Kotoko",
+      "description": "Population des rives du Logone et du Chari, partagée entre le Cameroun, le Tchad et le Nigeria. Un compte rendu publié dans les Annales décrit le pays kotoko comme l'un des terrains archéologiques les plus étudiés d'Afrique, les Kotoko étant considérés comme les descendants directs des Sao. Leur société repose sur des principautés dont le prince, choisi par des dignitaires, est intronisé au terme d'un long rituel.",
+      "langues": [
+        "kotoko (langues tchadiques)"
+      ],
+      "regions": [
+        "Hadjer-Lamis (Gaoui)",
+        "région de N'Djaména"
+      ],
+      "pays_partages": [
+        "CM",
+        "NG"
+      ],
+      "organisation": "principautés (Gaoui, Logone-Birni, Mani, Douguia…)",
+      "activites": [
+        "pêche",
+        "agriculture"
+      ],
+      "sources": [
+        "S41",
+        "S19",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-peuple-massa",
+      "nom": "Massa",
+      "description": "Éleveurs de bovins qui vivent dans les plaines inondables du Logone, au Tchad (Mayo-Kebbi Est, autour de Bongor) et au Cameroun. Le bétail y joue un rôle social majeur, notamment pour les alliances matrimoniales. Leur retraite pastorale annuelle, le Guruna, a été inscrite en 2025 sur la Liste représentative du patrimoine immatériel de l'UNESCO.",
+      "langues": [
+        "massa"
+      ],
+      "regions": [
+        "Mayo-Kebbi Est",
+        "Bongor"
+      ],
+      "pays_partages": [
+        "CM"
+      ],
+      "organisation": "groupes de lignages (farana) sur des terres placées sous la tutelle d'un maître de la terre",
+      "activites": [
+        "élevage bovin",
+        "agriculture (mil)",
+        "pêche"
+      ],
+      "sources": [
+        "S3",
+        "S20",
+        "S64"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-peuple-mbororo",
+      "nom": "Mbororo (Peuls pasteurs)",
+      "description": "Communauté de pasteurs nomades installée surtout dans l'ouest du Sahel tchadien, près du lac Tchad. Selon l'UNESCO, quelque 250 000 Mbororo vivent d'élevage et d'agriculture de subsistance dans la région cartographiée en 3D avec elle. Leurs savoirs de prévision des saisons et de déplacement entre points d'eau et pâturages sont aujourd'hui mis en avant dans les discussions sur le climat.",
+      "langues": [
+        "fulfulde (peul)"
+      ],
+      "regions": [
+        "Sahel tchadien",
+        "lac Tchad"
+      ],
+      "pays_partages": [],
+      "organisation": "pastoralisme transhumant",
+      "activites": [
+        "élevage",
+        "agriculture de subsistance"
+      ],
+      "sources": [
+        "S50",
+        "S51",
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-peuple-kanembou",
+      "nom": "Kanembou",
+      "description": "Peuple du Kanem, au nord-est du lac Tchad, issu selon les sources du mélange de groupes zaghawa, sao et toubou. Leur nom signifie « gens du Sud » en kanembou, par opposition aux Daza. Leur histoire est inséparable de celle du Kanem-Bornou, dont les premiers souverains comptent parmi les premiers dirigeants d'Afrique subsaharienne à avoir adopté l'islam.",
+      "langues": [
+        "kanembou"
+      ],
+      "regions": [
+        "Kanem",
+        "lac Tchad"
+      ],
+      "pays_partages": [
+        "NE",
+        "NG"
+      ],
+      "organisation": "ancien royaume du Kanem-Bornou",
+      "activites": [
+        "élevage",
+        "agriculture"
+      ],
+      "sources": [
+        "S11",
+        "S63"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-peuple-zaghawa",
+      "nom": "Zaghawa",
+      "description": "Population de pasteurs de la région de l'Ennedi et du Darfour, établie au Tchad et au Soudan. Elle est citée par les travaux de synthèse comme probable fondatrice de la dynastie du Kanem. Le nom désigne aussi la langue béria.",
+      "langues": [
+        "béria (zaghawa)"
+      ],
+      "regions": [
+        "Ennedi"
+      ],
+      "pays_partages": [
+        "SD"
+      ],
+      "organisation": "—",
+      "activites": [
+        "élevage"
+      ],
+      "sources": [
+        "S11",
+        "S21",
+        "S71"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-peuple-moundang",
+      "nom": "Moundang",
+      "description": "Population du sud-ouest du Tchad et du nord du Cameroun, autour de l'ancien royaume de Léré. Ce royaume n'existe plus comme État mais se prolonge par une chefferie traditionnelle reconnue à côté de l'administration moderne.",
+      "langues": [
+        "moundang"
+      ],
+      "regions": [
+        "Sud-Ouest",
+        "Léré"
+      ],
+      "pays_partages": [
+        "CM"
+      ],
+      "organisation": "royaume de Léré, aujourd'hui chefferie traditionnelle",
+      "activites": [
+        "agriculture"
+      ],
+      "sources": [
+        "S8",
+        "S9",
+        "S65"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-peuple-toupouri",
+      "nom": "Toupouri",
+      "description": "Population du sud-ouest du Tchad et du nord du Cameroun, liée à l'ancien royaume de Doré. Comme celui de Léré, ce royaume subsiste aujourd'hui uniquement sous la forme d'une chefferie traditionnelle.",
+      "langues": [
+        "toupouri"
+      ],
+      "regions": [
+        "Sud-Ouest",
+        "Doré"
+      ],
+      "pays_partages": [
+        "CM"
+      ],
+      "organisation": "royaume de Doré, aujourd'hui chefferie traditionnelle",
+      "activites": [
+        "agriculture",
+        "élevage"
+      ],
+      "sources": [
+        "S8",
+        "S9",
+        "S66"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-peuple-maba",
+      "nom": "Maba (Ouaddaï)",
+      "description": "Population de l'est du Tchad à laquelle est lié le royaume du Ouaddaï. Selon l'article de référence, un prince maba, Abdel-Karim, renversa les Toundjour et fonda le royaume au XVIIe siècle. La langue maba y est la langue des habitants du royaume.",
+      "langues": [
+        "maba"
+      ],
+      "regions": [
+        "Ouaddaï",
+        "Abéché"
+      ],
+      "pays_partages": [
+        "SD"
+      ],
+      "organisation": "sultanat du Ouaddaï, aujourd'hui chefferie traditionnelle",
+      "activites": [
+        "agriculture",
+        "commerce caravanier"
+      ],
+      "sources": [
+        "S12",
+        "S9",
+        "S67"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "sites": [
+    {
+      "id": "TD-site-lacs-ounianga",
+      "nom": "Lacs d'Ounianga",
+      "description": "Ensemble de dix-huit lacs interconnectés en plein désert, sur 62 808 hectares, dans une zone hyperaride où il tombe moins de 2 mm de pluie par an. Ils sont alimentés par des eaux souterraines et se répartissent en deux groupes distants d'une quarantaine de kilomètres : Ounianga Kebir (quatre lacs, dont le Yoan, très salé) et Ounianga Serir (quatorze lacs, dont le Teli, d'eau douce). Des roseaux flottants couvrent près de la moitié de la surface des lacs d'Ounianga Serir et limitent l'évaporation.",
+      "type": "patrimoine_mondial",
+      "wikidata": "Q547375",
+      "unesco_id": "1400",
+      "inscription": "2012",
+      "coordonnees": {
+        "lat": 18.98333333,
+        "lng": 20.66666667
+      },
+      "regions": [
+        "Ennedi"
+      ],
+      "sources": [
+        "S1"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-site-ennedi",
+      "nom": "Massif de l'Ennedi : paysage naturel et culturel",
+      "description": "Plateau de grès du nord-est du pays, sculpté par l'eau et le vent en canyons, vallées, arches naturelles et pitons. Dans les grands canyons, l'eau permanente soutient la flore, la faune et les populations humaines. Des milliers de peintures et de gravures couvrent les parois de grottes et d'abris : c'est l'un des plus grands ensembles d'art rupestre du Sahara.",
+      "type": "patrimoine_mondial",
+      "wikidata": "Q1343339",
+      "unesco_id": "1475",
+      "inscription": "2016",
+      "coordonnees": {
+        "lat": 17,
+        "lng": 23
+      },
+      "regions": [
+        "Ennedi"
+      ],
+      "sources": [
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-site-ndjamena",
+      "nom": "N'Djaména",
+      "description": "Capitale et plus grande ville du pays, au confluent du Chari et du Logone, face à la ville camerounaise de Kousséri. Elle a été fondée le 29 mai 1900 par Émile Gentil sous le nom de Fort-Lamy, à l'emplacement d'un petit village kotoko, puis rebaptisée N'Djaména le 6 novembre 1973. Le nom vient d'un village arabe voisin, Am Djamena, que l'on traduit par « le lieu où l'on se repose ». Elle a subi de lourdes destructions durant les combats de 1979 et 1980.",
+      "type": "ville_historique",
+      "wikidata": "Q3659",
+      "coordonnees": {
+        "lat": 12.1048,
+        "lng": 15.0445
+      },
+      "regions": [
+        "N'Djaména"
+      ],
+      "sources": [
+        "S14",
+        "S6"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-site-musee-national",
+      "nom": "Musée national du Tchad",
+      "description": "Principal musée du pays, installé à N'Djaména et fondé en 1962. Ses collections portent notamment sur la préhistoire, la protohistoire, les arts populaires, l'artisanat et les traditions du pays.",
+      "type": "musee",
+      "wikidata": "Q2684769",
+      "regions": [
+        "N'Djaména"
+      ],
+      "sources": [
+        "S15"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-site-musee-gaoui",
+      "nom": "Musée Sao-Kotoko de Gaoui",
+      "description": "Musée ethnographique et historique installé dans l'ancien palais du sultan de Gaoui, près de N'Djaména. Il conserve des objets liés aux cultures sao et kotoko : poteries, objets de pêche et éléments liés au sultanat de Gaoui.",
+      "type": "musee",
+      "wikidata": "Q5521718",
+      "regions": [
+        "Hadjer-Lamis (Gaoui)"
+      ],
+      "sources": [
+        "S15",
+        "S19"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-site-massenya",
+      "nom": "Massenya",
+      "description": "Ancienne capitale du royaume du Baguirmi. Elle fut prise par le Ouaddaï en 1805, puis détruite par Rabah en 1894, événement qui marque un tournant pour le royaume. Le sultanat du Baguirmi demeure aujourd'hui une chefferie traditionnelle.",
+      "type": "ville_historique",
+      "wikidata": "Q764968",
+      "regions": [
+        "Baguirmi"
+      ],
+      "sources": [
+        "S13"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-site-abeche",
+      "nom": "Abéché",
+      "description": "Ville de l'est du pays, devenue capitale du royaume du Ouaddaï sous le sultan Muhammad al-Sharif, qui la fonda comme nouvelle capitale au XIXe siècle. Elle est tombée aux mains des forces françaises le 2 juin 1909. La ville abrite une mosquée et un musée cités parmi les institutions patrimoniales du pays, ainsi qu'une tradition de tapis et de vannerie.",
+      "type": "ville_historique",
+      "wikidata": "Q242587",
+      "regions": [
+        "Ouaddaï"
+      ],
+      "sources": [
+        "S12",
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-site-njimi",
+      "nom": "Njimi",
+      "description": "Ancienne capitale du royaume du Kanem, à l'est du lac Tchad, ville de la dynastie des Sefuwa. Le conflit avec les Boulala fit perdre la ville vers 1380, et la dynastie se déplaça vers l'ouest, dans le Bornou.",
+      "type": "ville_historique",
+      "wikidata": "Q3342340",
+      "regions": [
+        "Kanem"
+      ],
+      "periode": "VIIIe – XIVe siècle",
+      "sources": [
+        "S11",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-site-djourab-toumai",
+      "nom": "Désert du Djourab (site de Toumaï)",
+      "description": "Zone désertique du Djourab où l'équipe franco-tchadienne dirigée par Michel Brunet a découvert en 2001 un crâne fossile presque complet, surnommé Toumaï. Les auteurs de la publication scientifique estiment le fossile âgé de six à sept millions d'années et créent pour lui le genre Sahelanthropus. Les coordonnées, tirées de la fiche encyclopédique, sont approximatives.",
+      "type": "site_archeologique",
+      "wikidata": "Q1315748",
+      "coordonnees": {
+        "lat": 17,
+        "lng": 18
+      },
+      "regions": [
+        "Djourab"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Il s'agit de restes humains fossiles (hominidés) : leur présentation doit rester respectueuse et accompagnée des institutions scientifiques tchadiennes.",
+      "sources": [
+        "S38",
+        "S16"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-site-koro-toro",
+      "nom": "Koro Toro (Abel)",
+      "description": "Région de Koro Toro où a été découvert en 1995 le premier spécimen d'Australopithecus bahrelghazali, surnommé Abel, par une équipe conduite par Michel Brunet. Ce fossile aurait vécu entre 3,5 et 3 millions d'années.",
+      "type": "site_archeologique",
+      "regions": [
+        "Koro Toro"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Restes fossiles d'hominidés : même précaution que pour le site de Toumaï.",
+      "sources": [
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-site-tibesti-emi-koussi",
+      "nom": "Massif du Tibesti et Emi Koussi",
+      "description": "Massif montagneux du nord du pays. L'Emi Koussi, volcan éteint qui en fait partie, culmine à 3 415 m et constitue le point le plus haut du Tchad. Le Tibesti est le pays des Teda, l'un des deux grands groupes toubou.",
+      "type": "site_naturel",
+      "wikidata": "Q257441",
+      "regions": [
+        "Tibesti"
+      ],
+      "sources": [
+        "S7",
+        "S17"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-site-lac-tchad",
+      "nom": "Lac Tchad",
+      "description": "Principal plan d'eau du pays, qui lui a donné son nom, avec les fleuves Logone et Chari qui s'y jettent. Sa surface a fortement diminué : le président Idriss Déby affirmait en 2015 qu'elle avait été divisée par huit depuis 1973, et Conservation International indique que le lac aurait perdu 90 % de sa surface en quarante ans. Cette baisse alimente des tensions entre communautés pour l'accès à l'eau.",
+      "type": "site_naturel",
+      "wikidata": "Q125309",
+      "sensible": true,
+      "note_sensibilite": "Les chiffres de recul divergent selon les sources et la gestion du bassin, partagé avec trois pays voisins, est un sujet politique.",
+      "sources": [
+        "S7",
+        "S8",
+        "S51"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "traditions": [
+    {
+      "id": "TD-tradition-guruna",
+      "nom": "Guruna, retraites pastorales, socioculturelles et artistiques des Massa",
+      "description": "Le Guruna est une retraite annuelle qui sert d'école de vie aux Massa, de part et d'autre du Logone, au Tchad et au Cameroun. Garçons et jeunes hommes partent avec leur bétail dans un campement éloigné, où ils apprennent la lutte, la musique, la danse, l'artisanat et l'histoire de la communauté, ainsi que des techniques d'élevage et de soins vétérinaires. Les filles ne dorment pas au camp mais aident pour la nourriture et les décorations. Le savoir se transmet par l'oral, l'observation et l'imitation, sous la conduite des pères, des anciens et des maîtres du Guruna. Il a été inscrit en 2025 sur la Liste représentative.",
+      "categorie": "rite",
+      "nom_local": "Guruna",
+      "communautes": [
+        "Massa"
+      ],
+      "regions": [
+        "Mayo-Kebbi Est"
+      ],
+      "langues": [
+        "massa"
+      ],
+      "unesco": {
+        "liste": "Liste représentative",
+        "id": "02260",
+        "annee": 2025,
+        "url": "https://ich.unesco.org/en/RL/guruna-a-practice-of-pastoral-socio-cultural-and-artistic-retreats-centered-on-livestock-among-the-massa-02260"
+      },
+      "transmission": "vivante",
+      "periode": "inscrit en 2025",
+      "sensible": true,
+      "note_sensibilite": "Pratique comprenant des cérémonies rituelles dirigées par des responsables communautaires ; élément inscrit avec le consentement filmé des communautés. La présentation doit rester fidèle au dossier UNESCO et être relue par des représentants massa.",
+      "sources": [
+        "S3",
+        "S4",
+        "S20"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-tradition-yondo-sara",
+      "nom": "Yondo, initiation des Sara",
+      "description": "Rituel d'initiation des sociétés sara du sud du pays, appelé Ndo ou Yondo, dont un ouvrage récent a pour titre « Construire un homme ». Les sources décrivent une pratique restée très secrète parmi les membres de ces sociétés, qui a pourtant été étudiée par plusieurs chercheurs. Elle est associée, dans l'histoire sara, au pouvoir des premiers chefs.",
+      "categorie": "rite",
+      "communautes": [
+        "Sara"
+      ],
+      "regions": [
+        "Logone occidental",
+        "Logone oriental",
+        "Moyen-Chari"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "periode": "ancienne, pratiquée encore à des degrés variables",
+      "sensible": true,
+      "note_sensibilite": "Savoir initiatique tenu secret : aucune description détaillée ne doit être publiée sans validation de représentants sara. La source disponible est une encyclopédie en ligne ; une source scientifique reste à ouvrir.",
+      "sources": [
+        "S18"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-tradition-intronisation-kotoko",
+      "nom": "Intronisation du prince kotoko",
+      "description": "Dans les principautés kotoko, le prince choisi par les dignitaires doit passer par un long rituel avant d'être reconnu comme héritier direct des souverains sao. Il est intronisé en présence d'animaux tutélaires et des représentants des plus anciennes familles de la ville. Les femmes de l'entourage du prince, première épouse, sœur aînée, mère, y tiennent un rôle important dans l'organisation sociale.",
+      "categorie": "rite",
+      "communautes": [
+        "Kotoko"
+      ],
+      "regions": [
+        "Hadjer-Lamis (Gaoui)"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "sensible": true,
+      "note_sensibilite": "Rite d'investiture lié à des « animaux tutélaires » : à valider avec les autorités kotoko avant publication.",
+      "sources": [
+        "S19",
+        "S41"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-tradition-savoirs-mbororo",
+      "nom": "Savoirs pastoraux et prévisions saisonnières des Mbororo",
+      "description": "Les pasteurs mbororo de l'ouest du Sahel tchadien ont construit, au fil des générations, un ensemble de pratiques d'élevage et de connaissances pour anticiper les saisons et les aléas climatiques. En cas de sécheresse, ils parcourent de grandes distances à la recherche d'eau et de pâturages, parfois par-delà les frontières. Ces savoirs sont documentés par l'UNESCO, notamment dans un projet de cartographie participative en 3D de la région.",
+      "categorie": "savoir",
+      "communautes": [
+        "Mbororo"
+      ],
+      "regions": [
+        "Sahel tchadien",
+        "lac Tchad"
+      ],
+      "langues": [
+        "fulfulde"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "periode": "pratique vivante",
+      "sources": [
+        "S50",
+        "S51"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-tradition-elevage-massa",
+      "nom": "Élevage bovin et alliances matrimoniales chez les Massa",
+      "description": "Chez les Massa, le bétail sert de monnaie sociale : il permet d'acquérir une épouse et mesure le prestige d'un homme. La vie communautaire s'organise autour du farana, groupe de lignages d'éleveurs, installé sur une terre placée sous la tutelle d'un maître de la terre qui conduit les rites agraires. Ces structures ont continué d'exister malgré la chefferie introduite par l'administration coloniale.",
+      "categorie": "savoir",
+      "communautes": [
+        "Massa"
+      ],
+      "regions": [
+        "Mayo-Kebbi Est"
+      ],
+      "langues": [
+        "massa"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "sources": [
+        "S20"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-tradition-tapis-vannerie-abeche",
+      "nom": "Tapis et vannerie d'Abéché et de Goz Beïda",
+      "description": "Parmi les artisanats textiles et de fibres cités pour le pays figurent les tapis d'Abéché et la vannerie d'Abéché et de Goz Beïda, dans l'est. Ces savoir-faire sont mentionnés comme productions locales, mais les sources ouvertes ne détaillent ni les techniques ni les communautés qui les portent.",
+      "categorie": "artisanat",
+      "communautes": [
+        "artisans d'Abéché et de Goz Beïda"
+      ],
+      "regions": [
+        "Abéché",
+        "Goz Beïda"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "sources": [
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-tradition-cuisine-mil-sauces",
+      "nom": "Cuisine tchadienne : mil, kissar et sauces",
+      "description": "La cuisine du pays met en avant des céréales comme le mil et le riz, ainsi que le kissar. On y rencontre de nombreuses sauces, comme la mloukhiya, le karkandji (sauce aux feuilles d'oseille) ou le kawal. Des boissons fermentées, comme la bière de mil appelée bili-bili ou le djalaa (bière de sorgho), sont aussi citées, ainsi que la spiruline.",
+      "categorie": "cuisine",
+      "communautes": [
+        "tout le pays"
+      ],
+      "regions": [
+        "tout le pays"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "sources": [
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-tradition-luth-vieille-teda",
+      "nom": "Luth et vièle teda du Tibesti",
+      "description": "Musiciens teda du Tibesti jouent d'un luth et d'une vièle, instruments que le CNRS a documentés dans un film de Monique Brandily, sorti en 1978. L'existence de cette pratique musicale chez les Toubou du Nord est ainsi attestée, même si les sources ouvertes pour cette fiche n'en donnent pas le répertoire.",
+      "categorie": "musique",
+      "communautes": [
+        "Teda (Toubou)"
+      ],
+      "regions": [
+        "Tibesti"
+      ],
+      "langues": [
+        "tedaga"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "sources": [
+        "S10",
+        "S17"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-tradition-festival-dary-danses",
+      "nom": "Danses traditionnelles et festival Dary",
+      "description": "Des danses traditionnelles tchadiennes sont présentées à N'Djaména lors du festival Dary, comme en témoigne une illustration de l'article de référence sur la culture du pays. Elles font aussi l'objet de recherches et d'un ballet national. Les communautés et répertoires précis restent à documenter à partir de sources spécialisées.",
+      "categorie": "danse",
+      "communautes": [
+        "communautés de plusieurs régions"
+      ],
+      "regions": [
+        "N'Djaména"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "sources": [
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-tradition-chari-jazz",
+      "nom": "Chari Jazz et la musique moderne",
+      "description": "Le Chari Jazz, fondé en 1964, est cité comme le premier groupe de musique moderne du Tchad. La musique urbaine contemporaine citée dans le même article compte aujourd'hui des artistes comme Mounira Mitchala. Les détails de son répertoire ne figurent pas dans les sources ouvertes.",
+      "categorie": "musique",
+      "communautes": [
+        "N'Djaména"
+      ],
+      "regions": [
+        "N'Djaména"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "periode": "depuis 1964",
+      "sources": [
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-tradition-case-obus-mousgoum",
+      "nom": "Case obus des Mousgoum (tolek)",
+      "description": "Les Mousgoum construisent une habitation en forme d'obus, appelée tolek, citée parmi les formes architecturales du pays. Ce savoir-faire de construction est signalé par l'article de référence sur la culture, sans plus de détails dans les sources ouvertes.",
+      "categorie": "architecture",
+      "nom_local": "tolek",
+      "communautes": [
+        "Mousgoum"
+      ],
+      "regions": [],
+      "unesco": null,
+      "transmission": "vivante",
+      "sources": [
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-tradition-mancala",
+      "nom": "Mancala",
+      "description": "Le mancala figure parmi les jeux populaires cités pour le pays, avec un jeu appelé « La Guerre ». Les règles locales et les communautés qui y jouent ne sont pas détaillées dans les sources ouvertes.",
+      "categorie": "jeu_sport",
+      "communautes": [
+        "pratique répandue"
+      ],
+      "regions": [
+        "tout le pays"
+      ],
+      "unesco": null,
+      "transmission": "vivante",
+      "sources": [
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "personnalites": [
+    {
+      "id": "TD-personnalite-idris-alooma",
+      "nom": "Idriss Alaoma (Idris Alooma)",
+      "description": "Souverain (mai) du Kanem-Bornou à la fin du XVIe siècle et au début du XVIIe, associé à l'apogée de l'empire. Son règne est surtout connu par la chronique de son imam Ahmad bin Fartuwa. Il étendit l'influence du Bornou sur une grande partie du Haoussaland, l'Aïr, Bilma, le Tibesti et le Kanem, et chercha des appuis diplomatiques face à l'expansion ottomane au Fezzan.",
+      "wikidata": "Q2030595",
+      "roles": [
+        "souverain du Kanem-Bornou"
+      ],
+      "domaines": [
+        "politique",
+        "histoire"
+      ],
+      "epoque": "XVIe-XVIIe siècle",
+      "note": "Dates de règne variables selon les sources : environ 1570-1603 (Wikipédia en anglais) ou 1580-1603 (Wikipédia en français). Dates de naissance et de décès non précisées dans les sources ouvertes.",
+      "sources": [
+        "S35",
+        "S8",
+        "S11"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-personnalite-aissa-koli",
+      "nom": "Aïssa Koli (Aissa Kili)",
+      "description": "Souveraine du Kanem-Bornou au milieu du XVIe siècle, avec le titre de magira (« reine mère »). Elle est présentée comme l'une des rares femmes à avoir dirigé l'empire et la seule connue à l'avoir fait en son nom propre. Les sources divergent beaucoup sur le détail de son règne, mais sa mémoire est restée vive dans la tradition orale du Bornou.",
+      "wikidata": "Q27916898",
+      "roles": [
+        "magira (souveraine) du Kanem-Bornou"
+      ],
+      "domaines": [
+        "politique",
+        "histoire"
+      ],
+      "epoque": "XVIe siècle",
+      "note": "Règne daté d'environ 1563 à 1570 ; naissance et décès inconnus ; les dates et les liens familiaux sont discutés par les sources.",
+      "sources": [
+        "S34",
+        "S35"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-personnalite-gaourang-ii",
+      "nom": "Abd ar-Rahman Gaourang II",
+      "description": "Mbang (souverain) du Baguirmi de 1885 à 1918, à une époque où son royaume déclinait sous la pression du Ouaddaï et du Kanem-Bornou. Il tenta de résister à Rabah, qui détruisit Massenya, puis signa en 1897 un traité faisant du Baguirmi un protectorat français. Après la défaite de Rabah en 1900, il régna comme vassal des Français jusqu'à sa mort.",
+      "wikidata": "Q27908497",
+      "roles": [
+        "mbang du Baguirmi"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XIXe-XXe siècle",
+      "naissance": {
+        "date": "vers 1858"
+      },
+      "deces": {
+        "date": "1918"
+      },
+      "sources": [
+        "S26",
+        "S13",
+        "S43"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-personnalite-rabah",
+      "nom": "Rabah (Rabih Fadlallah)",
+      "description": "Chef de guerre venu du Soudan, né vers 1842, qui se tailla au XIXe siècle un domaine entre les bassins de l'Oubangui et du Nil avant de devenir sultan du Bornou. Il s'est imposé par les méthodes des traitants de Khartoum, fondées sur la razzia et la traite d'esclaves, notamment au Baguirmi. Il résista à la conquête française et mourut à Kousséri le 22 avril 1900, comme le commandant Lamy.",
+      "wikidata": "Q932368",
+      "roles": [
+        "chef de guerre",
+        "sultan du Bornou"
+      ],
+      "domaines": [
+        "politique",
+        "résistance à la conquête coloniale"
+      ],
+      "epoque": "XIXe siècle",
+      "naissance": {
+        "date": "vers 1842",
+        "lieu": "Halfaya al-Moulouk (près de Khartoum)"
+      },
+      "deces": {
+        "date": "1900-04-22",
+        "lieu": "Kousséri"
+      },
+      "sensible": true,
+      "note_sensibilite": "Figure dont la mémoire est disputée : résistant à la conquête française pour certains, organisateur de razzias et de traite d'esclaves pour d'autres. À présenter avec ces deux lectures.",
+      "sources": [
+        "S25",
+        "S42",
+        "S13"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-personnalite-eboue",
+      "nom": "Félix Éboué",
+      "description": "Administrateur colonial né à Cayenne, gouverneur du Tchad en 1940. Il choisit en août 1940 de rallier le Tchad à la France libre, ce qui entraîna d'autres territoires d'Afrique équatoriale. Nommé gouverneur général de l'AEF, il défendit une réforme de la politique coloniale fondée sur le respect du droit coutumier et la formation de cadres africains, et fut Compagnon de la Libération.",
+      "wikidata": "Q989568",
+      "roles": [
+        "gouverneur du Tchad",
+        "gouverneur général de l'AEF"
+      ],
+      "domaines": [
+        "administration coloniale",
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "naissance": {
+        "date": "1884-12-26",
+        "lieu": "Cayenne (Guyane)"
+      },
+      "deces": {
+        "date": "1944-05-17",
+        "lieu": "Égypte"
+      },
+      "sources": [
+        "S49",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-personnalite-tombalbaye",
+      "nom": "François Tombalbaye",
+      "description": "Premier président de la République du Tchad, de l'indépendance en 1960 jusqu'à sa mort en 1975. Il fait face à partir de 1965 à une rébellion dans le Nord, ce qui l'amène à appeler l'armée française en 1968. Il est tué lors du coup d'État du 13 avril 1975. On lui attribue le concept de « tchaditude » et le changement de nom de Fort-Lamy en N'Djaména en 1973.",
+      "wikidata": "Q297812",
+      "roles": [
+        "président de la République (1960-1975)"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "naissance": {
+        "date": "1918-06-15",
+        "lieu": "Béssada (près de Koumra)"
+      },
+      "deces": {
+        "date": "1975-04-13",
+        "lieu": "N'Djaména"
+      },
+      "sensible": true,
+      "note_sensibilite": "Sujet politique et historique disputé (guerre civile, répression, coup d'État de 1975) : formulation neutre, sources plurielles à ajouter.",
+      "sources": [
+        "S24",
+        "S8",
+        "S14"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-personnalite-habre",
+      "nom": "Hissène Habré",
+      "description": "Président du Tchad de 1982 à 1990, né à Largeau. Il est chassé du pouvoir en décembre 1990 et se réfugie au Sénégal. Les Chambres africaines extraordinaires, un tribunal créé au sein de la justice sénégalaise avec l'Union africaine, l'ont condamné à la réclusion à perpétuité le 30 mai 2016 pour crimes contre l'humanité, crimes de guerre et torture, et la peine a été confirmée en appel le 27 avril 2017.",
+      "wikidata": "Q310886",
+      "roles": [
+        "président de la République (1982-1990)"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "naissance": {
+        "date": "1942-08-13",
+        "lieu": "Largeau (Faya-Largeau)"
+      },
+      "deces": {
+        "date": "2021-08-24",
+        "lieu": "Dakar"
+      },
+      "sensible": true,
+      "note_sensibilite": "Régime marqué par des crimes de masse établis par une juridiction ; les victimes et leurs associations doivent être citées avec respect, sans banalisation.",
+      "sources": [
+        "S22",
+        "S46",
+        "S48",
+        "S47"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-personnalite-idriss-deby",
+      "nom": "Idriss Déby Itno",
+      "description": "Officier et homme d'État, président du Tchad de 1990 jusqu'à sa mort en avril 2021. Il prend le pouvoir en chassant Hissène Habré et dirige ensuite le pays pendant trente ans. Il meurt le 20 avril 2021 à la suite d'une attaque d'un groupe rebelle dans le nord du pays, d'après l'article de référence.",
+      "wikidata": "Q57350",
+      "roles": [
+        "président de la République (1990-2021)",
+        "officier"
+      ],
+      "domaines": [
+        "politique",
+        "armée"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "naissance": {
+        "date": "1952-06-18",
+        "lieu": "Berdoba"
+      },
+      "deces": {
+        "date": "2021-04-20",
+        "lieu": "N'Djaména"
+      },
+      "sensible": true,
+      "note_sensibilite": "Figure politique récente et contestée ; les circonstances de sa mort et la succession de 2021 doivent être présentées avec des sources de presse de référence (non ouvertes pour cette fiche).",
+      "sources": [
+        "S23",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-personnalite-goukouni-oueddei",
+      "nom": "Goukouni Oueddei",
+      "description": "Homme d'État tchadien né en 1944, fils d'un chef traditionnel des Teda. Président du Gouvernement d'union nationale de transition de 1979 à 1982, il est renversé par Hissène Habré. Il est le beau-père du président actuel, Mahamat Idriss Déby.",
+      "wikidata": "Q548636",
+      "roles": [
+        "chef de l'État (1979-1982)"
+      ],
+      "domaines": [
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "naissance": {
+        "date": "1944"
+      },
+      "sensible": true,
+      "note_sensibilite": "Période de guerre civile et de conflit tchado-libyen : sujet politique sensible.",
+      "sources": [
+        "S27",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-personnalite-jacqueline-moudeina",
+      "nom": "Jacqueline Moudeina",
+      "description": "Avocate tchadienne née en 1957, présidente de l'ATPDH (Association tchadienne pour la promotion et la défense des droits de l'homme) depuis 2004. À partir de 2000, elle porte les plaintes des victimes du régime d'Hissène Habré au Sénégal puis en Belgique, malgré une grenade lancée contre elle en 2001 lors d'une manifestation. Elle reçoit le Right Livelihood Award en 2011 ; la condamnation de Habré en 2016 est l'aboutissement de cette longue procédure.",
+      "wikidata": "Q1677830",
+      "roles": [
+        "avocate",
+        "défenseure des droits humains"
+      ],
+      "domaines": [
+        "droit",
+        "droits humains"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "naissance": {
+        "date": "1957-04-17",
+        "lieu": "Tchad"
+      },
+      "sources": [
+        "S45",
+        "S31"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-personnalite-hindou-oumarou-ibrahim",
+      "nom": "Hindou Oumarou Ibrahim",
+      "description": "Géographe et militante, issue de la communauté mbororo, née à N'Djaména selon l'article de référence. Elle préside l'Association pour les femmes et les peuples autochtones du Tchad (AFPAT) et siège à l'Instance permanente de l'ONU sur les questions autochtones. Elle a travaillé avec l'UNESCO à une cartographie participative en 3D de la région sahélienne du Tchad.",
+      "wikidata": "Q57087586",
+      "roles": [
+        "géographe",
+        "militante pour le climat et les peuples autochtones"
+      ],
+      "domaines": [
+        "environnement",
+        "droits des peuples autochtones"
+      ],
+      "epoque": "XXIe siècle",
+      "naissance": {
+        "date": "1984",
+        "lieu": "N'Djaména"
+      },
+      "note": "Année et lieu de naissance : article Wikipédia en français uniquement, à confirmer par une source institutionnelle.",
+      "sources": [
+        "S50",
+        "S51",
+        "S30"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-personnalite-mounira-mitchala",
+      "nom": "Mounira Mitchala",
+      "description": "Chanteuse tchadienne née en 1979, greffière au tribunal de N'Djaména à l'époque de son premier succès. Elle chante pour la paix et l'unité du pays. Elle a reçu le Prix RFI Découvertes (remis à Conakry en décembre 2007) et est connue pour la chanson et l'album Talou Lena.",
+      "wikidata": "Q3325995",
+      "roles": [
+        "chanteuse",
+        "auteure-compositrice",
+        "actrice"
+      ],
+      "domaines": [
+        "musique"
+      ],
+      "epoque": "XXIe siècle",
+      "naissance": {
+        "date": "1979",
+        "lieu": "Tchad"
+      },
+      "sources": [
+        "S54",
+        "S36",
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-personnalite-marie-christine-koundja",
+      "nom": "Marie-Christine Koundja",
+      "description": "Écrivaine et diplomate née à Iriba (Biltine) en 1957, présentée par plusieurs sources comme la première femme tchadienne à avoir publié. Elle est l'auteure du roman Al Istifakh ou l'idylle de mes amis (Yaoundé, 2001), qui met en scène un jeune homme et une jeune fille d'ethnies et de religions différentes, et de Kam-Ndjaha, la dévoreuse (2009).",
+      "wikidata": "Q3058245",
+      "roles": [
+        "écrivaine",
+        "diplomate"
+      ],
+      "domaines": [
+        "littérature"
+      ],
+      "epoque": "XXIe siècle",
+      "naissance": {
+        "date": "1957-03-30",
+        "lieu": "Iriba"
+      },
+      "note": "Date précise (30 mars 1957) : Wikipédia en anglais ; la fiche AFLIT donne seulement l'année 1957.",
+      "sources": [
+        "S53",
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-personnalite-joseph-brahim-seid",
+      "nom": "Joseph Brahim Seid",
+      "description": "Écrivain et homme politique né à N'Djaména en 1927, ministre de la Justice de 1966 à 1975. Il est l'auteur du recueil Au Tchad sous les étoiles (1962), publié à l'époque de l'indépendance. Une étude universitaire de Karen Haire y lit la vision d'une nouvelle identité tchadienne multiculturelle.",
+      "wikidata": "Q3044555",
+      "roles": [
+        "écrivain",
+        "ministre de la Justice"
+      ],
+      "domaines": [
+        "littérature",
+        "politique"
+      ],
+      "epoque": "XXe siècle",
+      "naissance": {
+        "date": "1927",
+        "lieu": "N'Djaména"
+      },
+      "deces": {
+        "date": "1980"
+      },
+      "sources": [
+        "S55",
+        "S33"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-personnalite-koulsy-lamko",
+      "nom": "Koulsy Lamko",
+      "description": "Dramaturge, romancier, poète et universitaire né à Dadouar le 25 octobre 1959. La guerre civile l'a poussé à quitter le pays en 1983 ; il a vécu au Burkina Faso, au Rwanda, puis au Mexique, où il a fondé une maison de refuge pour écrivains et artistes africains.",
+      "wikidata": "Q1154316",
+      "roles": [
+        "dramaturge",
+        "romancier",
+        "poète",
+        "universitaire"
+      ],
+      "domaines": [
+        "littérature",
+        "théâtre"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "naissance": {
+        "date": "1959-10-25",
+        "lieu": "Dadouar"
+      },
+      "sources": [
+        "S29",
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-personnalite-mahamat-saleh-haroun",
+      "nom": "Mahamat-Saleh Haroun",
+      "description": "Cinéaste né à Abéché, formé au cinéma à Paris puis au journalisme à Bordeaux. Son film Un homme qui crie, en compétition officielle, a reçu le Prix du jury au Festival de Cannes en 2010. Il a aussi réalisé Daratt, Abouna, Grigris et Lingui.",
+      "wikidata": "Q725722",
+      "roles": [
+        "réalisateur",
+        "scénariste"
+      ],
+      "domaines": [
+        "cinéma"
+      ],
+      "epoque": "XXe-XXIe siècle",
+      "naissance": {
+        "date": "1960",
+        "lieu": "Abéché"
+      },
+      "note": "Année de naissance : 1960 selon le Festival de Cannes, 1961 selon Wikipédia en français.",
+      "sources": [
+        "S52",
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-personnalite-francoise-claustre",
+      "nom": "Françoise Claustre",
+      "description": "Ethnologue et archéologue française (1937-2006), directrice de recherche au CNRS, qui a étudié l'origine de la culture sao au Tchad entre 1964 et 1974. Enlevée en 1974 dans le Tibesti par des rebelles, elle est restée otage plus de 1 000 jours, jusqu'à sa libération en 1977.",
+      "wikidata": "Q3086452",
+      "roles": [
+        "ethnologue",
+        "archéologue"
+      ],
+      "domaines": [
+        "sciences",
+        "archéologie"
+      ],
+      "epoque": "XXe siècle",
+      "naissance": {
+        "date": "1937-02-08",
+        "lieu": "Paris"
+      },
+      "deces": {
+        "date": "2006-09-03",
+        "lieu": "Montauriol"
+      },
+      "sensible": true,
+      "note_sensibilite": "Prise d'otage durant la première guerre civile ; personnalité française liée au Tchad par ses recherches, non tchadienne.",
+      "sources": [
+        "S28",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "evenements": [
+    {
+      "id": "TD-evenement-millenaire-vii",
+      "titre": "Peuplement massif du bassin tchadien",
+      "description": "Les populations humaines s'installent massivement dans le bassin du lac Tchad à partir du VIIe millénaire avant notre ère, alors que le Sahara s'assèche progressivement. Ces mouvements favorisent des adaptations et des concentrations humaines autour du lac et des cours d'eau.",
+      "date": "-005999-01-01",
+      "date_affichee": "VIIe millénaire av. J.-C.",
+      "precision": "siecle",
+      "regions": [
+        "bassin du lac Tchad"
+      ],
+      "sources": [
+        "S7",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-toumai",
+      "titre": "Découverte de Toumaï (Sahelanthropus tchadensis)",
+      "description": "L'équipe franco-tchadienne de Michel Brunet découvre en 2001 dans le désert du Djourab un crâne fossile presque complet, surnommé Toumaï. Publié dans la revue Nature en 2002, il est attribué à un nouveau genre d'hominidé daté de six à sept millions d'années, ce qui suggère que les premiers membres de la lignée humaine étaient plus largement répartis qu'on ne le pensait.",
+      "date": "2001-01-01",
+      "date_affichee": "2001",
+      "precision": "annee",
+      "regions": [
+        "Djourab"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Restes humains fossiles : présentation respectueuse, avec les institutions scientifiques tchadiennes.",
+      "sources": [
+        "S38",
+        "S16"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-chameau-routes",
+      "titre": "Chameau et routes caravanières transsahariennes",
+      "description": "L'introduction du chameau, au Ve siècle, favorise l'ouverture de voies caravanières entre le Fezzan, le Kaouar et la région du lac Tchad. À partir du VIIe siècle, la route centrale du Sahara devient progressivement une voie majeure d'échanges avec l'Afrique du Nord islamisée.",
+      "date": "0450-01-01",
+      "date_affichee": "Ve siècle",
+      "precision": "siecle",
+      "regions": [
+        "Kanem",
+        "Fezzan (Libye)"
+      ],
+      "sources": [
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-kanem-formation",
+      "titre": "Formation du royaume du Kanem",
+      "description": "Le royaume du Kanem se forme autour de 700, entre le lac Tchad et le Bahr el-Ghazal. Il est dirigé par la dynastie Duguwa, puis par les Sefuwa. Les débats sur ses origines persistent, car l'histoire politique repose surtout sur la chronique royale, le girgam, jugé peu fiable par les historiens.",
+      "date": "0700-01-01",
+      "date_affichee": "vers 700",
+      "precision": "siecle",
+      "regions": [
+        "Kanem"
+      ],
+      "sources": [
+        "S11",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-al-yaqubi-kanem",
+      "titre": "Première mention écrite du Kanem",
+      "description": "Le géographe Al-Yaqubi nomme le Kanem vers 872 et y mentionne un roi qui organise l'exportation d'esclaves dans le réseau commercial transsaharien. C'est la plus ancienne mention écrite connue du royaume.",
+      "date": "0872-01-01",
+      "date_affichee": "vers 872",
+      "precision": "annee",
+      "regions": [
+        "Kanem"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Évoque la traite d'esclaves transsaharienne.",
+      "sources": [
+        "S11"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-islam-kanem",
+      "titre": "Premier roi musulman du Kanem",
+      "description": "Selon le Diwan, la chronique des rois, le premier roi musulman du Kanem appartient encore à la dynastie des Zaghawa et règne probablement entre 1067 et 1075. L'islam s'installe de façon pacifique et les dirigeants du Kanem comptent parmi les premiers d'Afrique subsaharienne à l'adopter.",
+      "date": "1067-01-01",
+      "date_affichee": "vers 1067-1075",
+      "precision": "annee",
+      "fin": "1075-01-01",
+      "regions": [
+        "Kanem"
+      ],
+      "sources": [
+        "S11"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-dounama-dibalami",
+      "titre": "Règne de Dounama Dibalami",
+      "description": "Sous Dounama Dibalami (1220-1259), le Kanem atteint un premier apogée. Il étend son influence vers le Fezzan et le Nil et noue des relations avec des royaumes d'Afrique du Nord, dont les Almohades.",
+      "date": "1220-01-01",
+      "date_affichee": "1220-1259",
+      "precision": "annee",
+      "fin": "1259-01-01",
+      "regions": [
+        "Kanem"
+      ],
+      "sources": [
+        "S8",
+        "S11"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-njimi-perdue",
+      "titre": "Perte de Njimi et repli vers le Bornou",
+      "description": "Vers 1380, le conflit avec les Boulala fait perdre la capitale Njimi aux Sefuwa. La dynastie se déplace vers l'ouest du lac, dans le Bornou, d'abord État tributaire, puis fonde une nouvelle capitale, Ngazargamu.",
+      "date": "1380-01-01",
+      "date_affichee": "vers 1380",
+      "precision": "annee",
+      "regions": [
+        "Kanem",
+        "Bornou"
+      ],
+      "sources": [
+        "S11",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-baguirmi-fondation",
+      "titre": "Fondation du royaume du Baguirmi",
+      "description": "Le royaume du Baguirmi, dont la capitale est Massenya, est fondé selon les sources en 1522 (une autre tradition parle de 1480). Dirigé par un mbang, il adopte l'islam au XVIIe siècle et reste souvent soumis ou disputé entre le Kanem-Bornou et le Ouaddaï.",
+      "date": "1522-01-01",
+      "date_affichee": "1522 (ou 1480 selon les versions)",
+      "precision": "annee",
+      "regions": [
+        "Baguirmi"
+      ],
+      "sources": [
+        "S13"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-alaoma-apogee",
+      "titre": "Règne d'Idriss Alaoma",
+      "description": "Le règne d'Idriss Alaoma, à la fin du XVIe siècle, correspond à une nouvelle période d'influence très étendue du Kanem-Bornou, qui réunit le Kanem et le Bornou sous une même autorité. Les dates de règne varient selon les sources : vers 1580-1603 ou vers 1570-1603.",
+      "date": "1580-01-01",
+      "date_affichee": "vers 1580-1603",
+      "precision": "siecle",
+      "fin": "1603-01-01",
+      "regions": [
+        "Kanem",
+        "Bornou"
+      ],
+      "sources": [
+        "S8",
+        "S11",
+        "S35"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-ouaddai-fondation",
+      "titre": "Naissance du royaume du Ouaddaï",
+      "description": "À l'est du pays, un prince maba, Abdel-Karim, renverse les Toundjour et fonde le royaume du Ouaddaï, avec Ouara pour capitale. Les sources divergent : 1611 selon Heinrich Barth, 1635 selon Gustav Nachtigal.",
+      "date": "1611-01-01",
+      "date_affichee": "1611 ou 1635 selon les auteurs",
+      "precision": "annee",
+      "fin": "1635-01-01",
+      "regions": [
+        "Ouaddaï"
+      ],
+      "sources": [
+        "S12"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-al-sharif-bornou",
+      "titre": "Muhammad al-Sharif saccage Kukawa et fonde Abéché",
+      "description": "Sous le sultan Muhammad al-Sharif, le Ouaddaï s'appuie sur une nouvelle route commerciale passant par les bastions de la confrérie sanusiyya et fonde Abéché comme capitale. En 1846, il bat le Bornou, saccage la capitale Kukawa et soumet le Baguirmi comme tributaire.",
+      "date": "1846-01-01",
+      "date_affichee": "1846",
+      "precision": "annee",
+      "regions": [
+        "Ouaddaï",
+        "Bornou",
+        "Baguirmi"
+      ],
+      "sources": [
+        "S12"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-gentil-1897",
+      "titre": "Émile Gentil sur le Chari et traité avec le Baguirmi",
+      "description": "En août 1897, Émile Gentil, premier Français à naviguer sur le Chari et le lac Tchad, plante le pavillon français dans la région. Il signe avec le mbang Gaourang un traité qui fait du Baguirmi un protectorat français.",
+      "date": "1897-08-01",
+      "date_affichee": "août 1897",
+      "precision": "mois",
+      "regions": [
+        "Baguirmi",
+        "Chari"
+      ],
+      "acteurs": [
+        "Émile Gentil",
+        "Gaourang II"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Début de la conquête coloniale ; à replacer avec les points de vue des États tchadiens de l'époque.",
+      "sources": [
+        "S42",
+        "S26"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-togbao-1898",
+      "titre": "Combat de Togbao",
+      "description": "Le 17 juillet 1898, le lieutenant Bretonnet et une quarantaine de tirailleurs sénégalais qui l'accompagnent sont surpris et tués par les troupes de Rabah à Togbao, à une centaine de kilomètres au nord de Fort-Archambault.",
+      "date": "1898-07-17",
+      "date_affichee": "17 juillet 1898",
+      "precision": "jour",
+      "acteurs": [
+        "Rabah",
+        "Bretonnet"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Violences de la conquête coloniale ; plusieurs lectures historiques.",
+      "sources": [
+        "S42"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-kousseri-1900",
+      "titre": "Bataille de Kousséri",
+      "description": "Le 22 avril 1900, à Kousséri, face à l'actuelle N'Djaména, les troupes françaises affrontent celles de Rabah. Rabah et le commandant Lamy y trouvent la mort. La victoire met fin à l'aventure de Rabah au Tchad et ouvre la voie à l'organisation coloniale du territoire.",
+      "date": "1900-04-22",
+      "date_affichee": "22 avril 1900",
+      "precision": "jour",
+      "regions": [
+        "Kousséri",
+        "N'Djaména"
+      ],
+      "acteurs": [
+        "Rabah",
+        "François-Joseph Lamy"
+      ],
+      "wikidata": "Q1164601",
+      "sensible": true,
+      "note_sensibilite": "Événement lu différemment selon que l'on met l'accent sur la conquête coloniale ou sur la fin du pouvoir de Rabah.",
+      "sources": [
+        "S42",
+        "S8",
+        "S25"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-fort-lamy-fondation",
+      "titre": "Fondation de Fort-Lamy",
+      "description": "Le 29 mai 1900, Émile Gentil fonde Fort-Lamy sur le Chari, sur l'emplacement d'un petit village kotoko, en souvenir du commandant Lamy mort à Kousséri. La ville deviendra N'Djaména en 1973.",
+      "date": "1900-05-29",
+      "date_affichee": "29 mai 1900",
+      "precision": "jour",
+      "regions": [
+        "N'Djaména"
+      ],
+      "sources": [
+        "S14"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-territoire-militaire",
+      "titre": "Création des Territoires militaires du Tchad",
+      "description": "Le 5 septembre 1900, la France crée les Territoires militaires et protectorats du Tchad. Il faudra plus de dix ans pour vaincre les Ouaddaïens à l'est et les Sénoussistes au nord.",
+      "date": "1900-09-05",
+      "date_affichee": "5 septembre 1900",
+      "precision": "jour",
+      "sensible": true,
+      "note_sensibilite": "Cadre colonial de la création du territoire.",
+      "sources": [
+        "S42",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-abeche-1909",
+      "titre": "Chute d'Abéché et fin du Ouaddaï indépendant",
+      "description": "Le 2 juin 1909, Abéché tombe aux mains des forces françaises. Le sultanat du Ouaddaï est défait en 1911 et subsiste ensuite comme chefferie traditionnelle.",
+      "date": "1909-06-02",
+      "date_affichee": "2 juin 1909",
+      "precision": "jour",
+      "fin": "1911-01-01",
+      "regions": [
+        "Ouaddaï",
+        "Abéché"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Violences de la conquête coloniale.",
+      "sources": [
+        "S12",
+        "S42"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-massacre-abeche-1917",
+      "titre": "Massacre des « coupe-coupe » à Abéché",
+      "description": "En 1917, l'armée française massacre à Abéché des notables et religieux : plus de soixante-dix morts selon l'article de référence.",
+      "date": "1917-01-01",
+      "date_affichee": "1917",
+      "precision": "annee",
+      "regions": [
+        "Abéché"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Massacre colonial ; à relire avec une source scientifique (non ouverte ici).",
+      "sources": [
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-tibesti-1929",
+      "titre": "Rattachement du Tibesti",
+      "description": "Les limites actuelles du Tchad ne sont parachevées qu'après le rattachement du Tibesti, en 1929.",
+      "date": "1929-01-01",
+      "date_affichee": "1929",
+      "precision": "annee",
+      "regions": [
+        "Tibesti"
+      ],
+      "sources": [
+        "S42"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-ralliement-1940",
+      "titre": "Le Tchad se rallie à la France libre",
+      "description": "Le 26 août 1940, le gouverneur Félix Éboué proclame le ralliement du Tchad au général de Gaulle, bientôt suivi par le Cameroun et le Congo. Le Tchad devient la base arrière d'où Leclerc lance en mars 1942 son raid sur Koufra.",
+      "date": "1940-08-26",
+      "date_affichee": "26 août 1940",
+      "precision": "jour",
+      "regions": [
+        "Fort-Lamy"
+      ],
+      "acteurs": [
+        "Félix Éboué"
+      ],
+      "sources": [
+        "S49",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-brazzaville-1944",
+      "titre": "Conférence de Brazzaville",
+      "description": "Le 30 janvier 1944, le chef de la France libre ouvre à Brazzaville une conférence sur l'avenir des territoires français d'Afrique. Ses recommandations rejettent toute autonomie à terme, ce qui laisse insatisfait Félix Éboué, qui souhaitait des réformes plus profondes.",
+      "date": "1944-01-30",
+      "date_affichee": "30 janvier 1944",
+      "precision": "jour",
+      "acteurs": [
+        "Félix Éboué",
+        "Charles de Gaulle"
+      ],
+      "sources": [
+        "S49",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-republique-autonome-1958",
+      "titre": "Le Tchad devient république autonome",
+      "description": "Le 28 novembre 1958, les élites tchadiennes proclament le Tchad république autonome au sein de la Communauté française, rejetant à la fois l'indépendance immédiate et le statu quo.",
+      "date": "1958-11-28",
+      "date_affichee": "28 novembre 1958",
+      "precision": "jour",
+      "sources": [
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-independance-1960",
+      "titre": "Indépendance du Tchad",
+      "description": "Le 11 août 1960, le Tchad accède à l'indépendance sous la présidence de François Tombalbaye. La devise nationale, « Unité – Travail – Progrès », et les couleurs du drapeau étaient déjà fixées depuis 1959.",
+      "date": "1960-08-11",
+      "date_affichee": "11 août 1960",
+      "precision": "jour",
+      "acteurs": [
+        "François Tombalbaye"
+      ],
+      "sources": [
+        "S8",
+        "S7"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-sous-les-etoiles-1962",
+      "titre": "Parution d'Au Tchad sous les étoiles",
+      "description": "Joseph Brahim Seid publie en 1962 le recueil Au Tchad sous les étoiles, traduit en anglais en 2007 sous le titre Told by Starlight in Chad. Une étude universitaire en fait une lecture comme vision de la nation au moment de l'indépendance.",
+      "date": "1962-01-01",
+      "date_affichee": "1962",
+      "precision": "annee",
+      "acteurs": [
+        "Joseph Brahim Seid"
+      ],
+      "sources": [
+        "S55",
+        "S33"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-guerre-civile-1965",
+      "titre": "Début de la première guerre civile et création du FROLINAT",
+      "description": "En octobre 1965 débute la guerre civile tchadienne, qui oppose le pouvoir à une rébellion venue surtout du Nord. Le FROLINAT, Front de libération nationale du Tchad, est créé en 1966, et le président Tombalbaye fait appel à l'armée française en 1968.",
+      "date": "1965-10-01",
+      "date_affichee": "octobre 1965",
+      "precision": "mois",
+      "fin": "1979-01-01",
+      "sensible": true,
+      "note_sensibilite": "Conflit récent et disputé : présentation neutre.",
+      "sources": [
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-n-djamena-1973",
+      "titre": "Fort-Lamy devient N'Djaména",
+      "description": "Le 6 novembre 1973, au cours de sa campagne d'Authenticité, le président Tombalbaye rebaptise Fort-Lamy N'Djaména, d'après le village arabe voisin d'Am Djamena.",
+      "date": "1973-11-06",
+      "date_affichee": "6 novembre 1973",
+      "precision": "jour",
+      "regions": [
+        "N'Djaména"
+      ],
+      "acteurs": [
+        "François Tombalbaye"
+      ],
+      "sources": [
+        "S14"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-coup-1975",
+      "titre": "Coup d'État du 13 avril 1975",
+      "description": "Le 13 avril 1975, le président Tombalbaye est tué lors d'un coup d'État militaire. Le général Félix Malloum prend le pouvoir.",
+      "date": "1975-04-13",
+      "date_affichee": "13 avril 1975",
+      "precision": "jour",
+      "sensible": true,
+      "note_sensibilite": "Événement politique violent ; sources complémentaires à ajouter.",
+      "sources": [
+        "S8",
+        "S24"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-habre-1990",
+      "titre": "Idriss Déby renverse Hissène Habré",
+      "description": "Le 1er décembre 1990, le général Idriss Déby renverse Hissène Habré, qui se réfugie au Sénégal. Déby est ensuite président du pays jusqu'en 2021.",
+      "date": "1990-12-01",
+      "date_affichee": "1er décembre 1990",
+      "precision": "jour",
+      "acteurs": [
+        "Idriss Déby",
+        "Hissène Habré"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Événement politique récent.",
+      "sources": [
+        "S22",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-cij-1994",
+      "titre": "Arrêt de la CIJ dans le différend territorial entre la Libye et le Tchad",
+      "description": "Le 3 février 1994, la Cour internationale de Justice rend son arrêt dans le différend territorial entre la Libye et le Tchad. La Libye estimait qu'il n'existait pas de frontière et demandait à la Cour d'en fixer une, tandis que le Tchad soutenait qu'une frontière existait déjà. La Cour a jugé que le traité franco-libyen de 1955 avait déterminé une frontière permanente ; selon Wikipédia, la bande d'Aozou a ensuite été restituée au Tchad en 1994.",
+      "date": "1994-02-03",
+      "date_affichee": "3 février 1994",
+      "precision": "jour",
+      "acteurs": [
+        "Tchad",
+        "Libye",
+        "Cour internationale de Justice"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Différend frontalier : on présente la position de chaque partie telle que résumée par la CIJ, et la décision de la Cour.",
+      "sources": [
+        "S44",
+        "S8"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-cij-belgique-senegal-2012",
+      "titre": "Arrêt de la CIJ Belgique c. Sénégal",
+      "description": "Le 20 juillet 2012, la Cour internationale de Justice juge que le Sénégal a manqué à ses obligations au titre de la Convention contre la torture et doit juger Hissène Habré sans délai ou l'extrader. Le Sénégal et l'Union africaine créent ensuite les Chambres africaines extraordinaires.",
+      "date": "2012-07-20",
+      "date_affichee": "20 juillet 2012",
+      "precision": "jour",
+      "acteurs": [
+        "Cour internationale de Justice",
+        "Sénégal",
+        "Union africaine"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Procédure judiciaire sur des crimes de masse.",
+      "sources": [
+        "S45"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-ounianga-2012",
+      "titre": "Les lacs d'Ounianga inscrits au patrimoine mondial",
+      "description": "En 2012, les lacs d'Ounianga sont inscrits sur la Liste du patrimoine mondial de l'UNESCO, premier bien inscrit pour le Tchad d'après la chronologie des deux inscriptions (2012, puis 2016 pour l'Ennedi).",
+      "date": "2012-01-01",
+      "date_affichee": "2012",
+      "precision": "annee",
+      "regions": [
+        "Ennedi"
+      ],
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-cannes-2010",
+      "titre": "Prix du jury à Cannes pour Un homme qui crie",
+      "description": "En 2010, le film Un homme qui crie de Mahamat-Saleh Haroun, en compétition officielle, reçoit le Prix du jury du Festival de Cannes.",
+      "date": "2010-01-01",
+      "date_affichee": "2010",
+      "precision": "annee",
+      "acteurs": [
+        "Mahamat-Saleh Haroun"
+      ],
+      "sources": [
+        "S52"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-verdict-habre-2016",
+      "titre": "Condamnation de Hissène Habré",
+      "description": "Le 30 mai 2016, les Chambres africaines extraordinaires, à Dakar, déclarent Hissène Habré coupable de crimes contre l'humanité, de crimes de guerre et de torture, y compris le viol et l'esclavage sexuel, et le condamnent à la perpétuité. La peine est confirmée en appel le 27 avril 2017, avec une réparation de 82 milliards de francs CFA pour les victimes.",
+      "date": "2016-05-30",
+      "date_affichee": "30 mai 2016",
+      "precision": "jour",
+      "fin": "2017-04-27",
+      "regions": [
+        "Dakar (Sénégal)"
+      ],
+      "acteurs": [
+        "Chambres africaines extraordinaires",
+        "Hissène Habré",
+        "victimes et associations"
+      ],
+      "sensible": true,
+      "note_sensibilite": "Crimes de masse jugés : respect des victimes.",
+      "sources": [
+        "S46",
+        "S48",
+        "S47",
+        "S45"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-evenement-guruna-2025",
+      "titre": "Le Guruna inscrit sur la Liste représentative de l'UNESCO",
+      "description": "En 2025, le Guruna, retraite pastorale, socioculturelle et artistique des Massa, est inscrit sur la Liste représentative du patrimoine culturel immatériel de l'humanité, en candidature conjointe du Tchad et du Cameroun. C'est le premier élément du Tchad inscrit sur cette liste.",
+      "date": "2025-01-01",
+      "date_affichee": "2025",
+      "precision": "annee",
+      "regions": [
+        "Mayo-Kebbi Est"
+      ],
+      "sources": [
+        "S3",
+        "S4"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "oeuvres": [
+    {
+      "id": "TD-oeuvre-statuette-sao-tago",
+      "titre": "Statuette anthropomorphe sao (site de Tago)",
+      "description": "Buste en terre cuite aux bras courts et aux paumes tournées vers le ciel, qui porte un collier et un baudrier croisé, signes d'un statut social élevé. Sa tête est inclinée vers l'arrière. Elle appartient à la civilisation sao, au sud du lac Tchad, dont les artisans sont connus pour leur travail de l'argile, des remparts en terre crue aux sculptures liées au culte des ancêtres.",
+      "type": "sculpture",
+      "communaute": "civilisation sao",
+      "materiaux": [
+        "terre cuite"
+      ],
+      "institution": "Musée du quai Branly – Jacques Chirac (Paris), exposée au Louvre-Lens",
+      "numero_inventaire": "71.1949.3.843",
+      "url_notice": "https://www.louvrelens.fr/work/statuette-anthropomorphe/",
+      "droits": "Notice du Louvre-Lens ; objet conservé au musée du quai Branly (ancienne collection du musée de l'Homme)",
+      "periode": "700-1000",
+      "sensible": true,
+      "note_sensibilite": "Objet issu de fouilles coloniales et lié à des cultes ancestraux ; la question de sa restitution ou de sa valorisation avec les communautés kotoko et massa n'est pas traitée ici.",
+      "sources": [
+        "S56",
+        "S39",
+        "S40"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-oeuvre-un-homme-qui-crie",
+      "titre": "Un homme qui crie (2010)",
+      "description": "Long métrage de Mahamat-Saleh Haroun, tourné à N'Djaména et à Abéché, sur un père et son fils que la guerre civile sépare. Présenté en compétition officielle à Cannes, il y a reçu le Prix du jury en 2010 et le prix Robert Bresson à la Mostra de Venise.",
+      "type": "film",
+      "createur": "Mahamat-Saleh Haroun",
+      "institution": "Festival de Cannes (fiche artiste)",
+      "url_notice": "https://www.festival-cannes.com/en/p/mahamat-saleh-haroun/",
+      "droits": "Notice documentaire ; droits du film réservés",
+      "periode": "2010",
+      "sources": [
+        "S52",
+        "S32"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-oeuvre-daratt",
+      "titre": "Daratt, saison sèche (2006)",
+      "description": "Film de Mahamat-Saleh Haroun, récompensé par un Prix spécial du jury à la Mostra de Venise en 2006 selon la fiche du Festival de Cannes.",
+      "type": "film",
+      "createur": "Mahamat-Saleh Haroun",
+      "institution": "Festival de Cannes (fiche artiste)",
+      "url_notice": "https://www.festival-cannes.com/en/p/mahamat-saleh-haroun/",
+      "droits": "Notice documentaire ; droits du film réservés",
+      "periode": "2006",
+      "sources": [
+        "S52",
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-oeuvre-bye-bye-africa",
+      "titre": "Bye Bye Africa (1999)",
+      "description": "Premier long métrage de Mahamat-Saleh Haroun, sélectionné à la Mostra de Venise où il a obtenu le prix du meilleur premier film.",
+      "type": "film",
+      "createur": "Mahamat-Saleh Haroun",
+      "institution": "Festival de Cannes (fiche artiste)",
+      "url_notice": "https://www.festival-cannes.com/en/p/mahamat-saleh-haroun/",
+      "droits": "Notice documentaire ; droits du film réservés",
+      "periode": "1999",
+      "sources": [
+        "S52"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-oeuvre-abouna",
+      "titre": "Abouna (2002)",
+      "description": "Film de Mahamat-Saleh Haroun présenté à la Quinzaine des réalisateurs du Festival de Cannes en 2002. La chanteuse Mounira Mitchala y tient un rôle.",
+      "type": "film",
+      "createur": "Mahamat-Saleh Haroun",
+      "institution": "Festival de Cannes (fiche artiste)",
+      "url_notice": "https://www.festival-cannes.com/en/p/mahamat-saleh-haroun/",
+      "droits": "Notice documentaire ; droits du film réservés",
+      "periode": "2002",
+      "sources": [
+        "S52",
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-oeuvre-grigris",
+      "titre": "Grigris (2013)",
+      "description": "Film de Mahamat-Saleh Haroun, cinquième long métrage du réalisateur, présenté en compétition officielle au Festival de Cannes en 2013.",
+      "type": "film",
+      "createur": "Mahamat-Saleh Haroun",
+      "institution": "Festival de Cannes (fiche artiste)",
+      "url_notice": "https://www.festival-cannes.com/en/p/mahamat-saleh-haroun/",
+      "droits": "Notice documentaire ; droits du film réservés",
+      "periode": "2013",
+      "sources": [
+        "S52"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-oeuvre-hissein-habre-tragedie",
+      "titre": "Hissein Habré, une tragédie tchadienne (2016)",
+      "description": "Film de Mahamat-Saleh Haroun présenté en séance spéciale au Festival de Cannes en 2016, sur le régime d'Hissène Habré et ses victimes.",
+      "type": "film",
+      "createur": "Mahamat-Saleh Haroun",
+      "institution": "Festival de Cannes (fiche artiste)",
+      "url_notice": "https://www.festival-cannes.com/en/p/mahamat-saleh-haroun/",
+      "droits": "Notice documentaire ; droits du film réservés",
+      "periode": "2016",
+      "sensible": true,
+      "note_sensibilite": "Film sur des crimes de masse : citer avec précaution les témoignages de victimes.",
+      "sources": [
+        "S52"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-oeuvre-lingui",
+      "titre": "Lingui, les liens sacrés (2021)",
+      "description": "Film de Mahamat-Saleh Haroun, présenté en compétition officielle au Festival de Cannes en 2021 selon la fiche du réalisateur.",
+      "type": "film",
+      "createur": "Mahamat-Saleh Haroun",
+      "institution": "Festival de Cannes (fiche artiste)",
+      "url_notice": "https://www.festival-cannes.com/en/p/mahamat-saleh-haroun/",
+      "droits": "Notice documentaire ; droits du film réservés",
+      "periode": "2021",
+      "sources": [
+        "S52"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-oeuvre-au-tchad-sous-les-etoiles",
+      "titre": "Au Tchad sous les étoiles (1962)",
+      "description": "Recueil de contes de Joseph Brahim Seid, publié en 1962 et traduit en anglais en 2007 sous le titre Told by Starlight in Chad. Une étude universitaire lit deux de ses récits comme une manière d'imaginer la nation et une identité tchadienne multiculturelle au moment de l'indépendance.",
+      "type": "livre",
+      "createur": "Joseph Brahim Seid",
+      "institution": "Tydskrif vir Letterkunde (étude de Karen Haire)",
+      "url_notice": "https://letterkunde.africa/article/view/4441",
+      "droits": "Étude en accès libre ; œuvre sous droits",
+      "periode": "1962",
+      "sources": [
+        "S55",
+        "S33"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-oeuvre-al-istifakh",
+      "titre": "Al Istifakh ou l'idylle de mes amis (2001)",
+      "description": "Roman de Marie-Christine Koundja, publié à Yaoundé aux Éditions Clé en 2001, qui suit un jeune homme et une jeune fille d'ethnies et de religions différentes. Il est souvent présenté comme le premier livre publié par une femme tchadienne.",
+      "type": "livre",
+      "createur": "Marie-Christine Koundja",
+      "institution": "AFLIT, University of Western Australia (fiche auteure)",
+      "url_notice": "https://aflit.arts.uwa.edu.au/KoundjaMarieC.html",
+      "droits": "Notice documentaire ; œuvre sous droits",
+      "periode": "2001",
+      "sources": [
+        "S53",
+        "S37"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-oeuvre-kam-ndjaha",
+      "titre": "Kam-Ndjaha, la dévoreuse (2009)",
+      "description": "Second roman de Marie-Christine Koundja, publié à Paris en 2009 (Éditions Menaibuc), qui aborde la pauvreté, l'infidélité et l'amitié.",
+      "type": "livre",
+      "createur": "Marie-Christine Koundja",
+      "institution": "Wikipédia en anglais (notice)",
+      "url_notice": "https://en.wikipedia.org/wiki/Marie-Christine_Koundja",
+      "droits": "Notice CC BY-SA ; œuvre sous droits",
+      "periode": "2009",
+      "sources": [
+        "S37",
+        "S10"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    },
+    {
+      "id": "TD-oeuvre-talou-lena",
+      "titre": "Talou Lena (Mounira Mitchala)",
+      "description": "Chanson et album de Mounira Mitchala, qui mêle des rythmes traditionnels du Nord et du Centre de l'Afrique. Elle a reçu pour son travail le Prix RFI Découvertes.",
+      "type": "musique",
+      "createur": "Mounira Mitchala",
+      "institution": "Alwihda Info (entretien)",
+      "url_notice": "https://www.alwihdainfo.com/Tchad-Mounira-la-panthere-douce-du-Tchad-laureate-du-Prix-RFI-Decouvertes_a562.html.md",
+      "droits": "Notice documentaire ; œuvre sous droits",
+      "periode": "vers 2007-2008",
+      "sources": [
+        "S54",
+        "S36"
+      ],
+      "statut": "en_revue",
+      "verification": {
+        "etat": "a_verifier"
+      }
+    }
+  ],
+  "proverbes": [],
+  "sources": [
+    {
+      "id": "S1",
+      "titre": "Lacs d'Ounianga (bien n° 1400)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/1400",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (description)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S2",
+      "titre": "Massif de l'Ennedi : paysage naturel et culturel (bien n° 1475)",
+      "institution": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/1475",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (description)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S3",
+      "titre": "Guruna, pratique de retraites pastorales, socioculturelles et artistiques centrées sur le bétail chez les Massa (élément 02260)",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/RL/guruna-a-practice-of-pastoral-socio-cultural-and-artistic-retreats-centered-on-livestock-among-the-massa-02260",
+      "type": "unesco",
+      "licence": "CC BY-SA 3.0 IGO (texte)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S4",
+      "titre": "Tchad : fiche pays, Patrimoine culturel immatériel",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/state/chad-TD",
+      "type": "unesco",
+      "licence": "© UNESCO",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S5",
+      "titre": "Population, total — Tchad (SP.POP.TOTL)",
+      "institution": "Banque mondiale",
+      "url": "https://api.worldbank.org/v2/country/TD/indicator/SP.POP.TOTL?format=json&per_page=5",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S6",
+      "titre": "Fiche pays Tchad (API de la Banque mondiale)",
+      "institution": "Banque mondiale",
+      "url": "https://api.worldbank.org/v2/country/TD?format=json",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S7",
+      "titre": "Tchad",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Tchad",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S8",
+      "titre": "Histoire du Tchad",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Histoire_du_Tchad",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S9",
+      "titre": "Langues au Tchad",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Langues_au_Tchad",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S10",
+      "titre": "Culture du Tchad",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Culture_du_Tchad",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S11",
+      "titre": "Royaume du Kanem-Bornou",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Royaume_du_Kanem-Bornou",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S12",
+      "titre": "Royaume du Ouaddaï",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Royaume_du_Ouadda%C3%AF",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S13",
+      "titre": "Royaume du Baguirmi",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Royaume_du_Baguirmi",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S14",
+      "titre": "N'Djaména",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/N%27Djam%C3%A9na",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S15",
+      "titre": "Liste de musées au Tchad",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Liste_de_mus%C3%A9es_au_Tchad",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S16",
+      "titre": "Toumaï",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Touma%C3%AF",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S17",
+      "titre": "Toubous",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Toubous",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S18",
+      "titre": "Sara (peuple)",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Sara_%28peuple%29",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S19",
+      "titre": "Kotoko (peuple)",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Kotoko_%28peuple%29",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S20",
+      "titre": "Massa (peuple)",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Massa_%28peuple%29",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S21",
+      "titre": "Zaghawa (page d'homonymie)",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Zaghawas",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S22",
+      "titre": "Hissène Habré",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Hiss%C3%A8ne_Habr%C3%A9",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S23",
+      "titre": "Idriss Déby",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Idriss_D%C3%A9by",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S24",
+      "titre": "François Tombalbaye",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Tombalbaye",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S25",
+      "titre": "Rabah",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Rabah",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S26",
+      "titre": "Abd ar-Rahman Gaourang II",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Abd_ar-Rahman_Gaourang_II",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S27",
+      "titre": "Goukouni Oueddei",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Goukouni_Oueddei",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S28",
+      "titre": "Françoise Claustre",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Fran%C3%A7oise_Claustre",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S29",
+      "titre": "Koulsy Lamko",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Koulsy_Lamko",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S30",
+      "titre": "Hindou Oumarou Ibrahim",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Hindou_Oumarou_Ibrahim",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S31",
+      "titre": "Jacqueline Moudeina",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Jacqueline_Moudeina",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S32",
+      "titre": "Mahamat-Saleh Haroun",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Mahamat-Saleh_Haroun",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S33",
+      "titre": "Joseph Brahim Seid",
+      "institution": "Wikipédia en français",
+      "url": "https://fr.wikipedia.org/wiki/Joseph_Brahim_Seid",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S34",
+      "titre": "Aissa Koli",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Aissa_Koli",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S35",
+      "titre": "Idris Alooma",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Idris_Alooma",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S36",
+      "titre": "Mounira Mitchala",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Mounira_Mitchala",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S37",
+      "titre": "Marie-Christine Koundja",
+      "institution": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Marie-Christine_Koundja",
+      "type": "encyclopedie",
+      "licence": "CC BY-SA 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S38",
+      "titre": "A new hominid from the Upper Miocene of Chad, Central Africa",
+      "institution": "Nature (Springer Nature)",
+      "url": "https://www.nature.com/articles/nature00879",
+      "type": "article_scientifique",
+      "licence": "tous droits réservés (résumé consulté)",
+      "consulte_le": "2026-11-21",
+      "auteur": "M. Brunet et al.",
+      "annee": 2002
+    },
+    {
+      "id": "S39",
+      "titre": "Signification de la céramique Sao (Tchad)",
+      "institution": "Persée — Comptes rendus de l'Académie des Inscriptions et Belles-Lettres",
+      "url": "https://www.persee.fr/doc/crai_0065-0536_1960_num_104_1_11233",
+      "type": "article_scientifique",
+      "licence": "accès libre (Persée)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Jean-Paul Lebeuf",
+      "annee": 1960
+    },
+    {
+      "id": "S40",
+      "titre": "Travaux archéologiques dans les basses vallées du Chari et du Logone (1936-1980)",
+      "institution": "Persée — Comptes rendus de l'Académie des Inscriptions et Belles-Lettres",
+      "url": "https://www.persee.fr/doc/crai_0065-0536_1980_num_124_4_13776",
+      "type": "article_scientifique",
+      "licence": "accès libre (Persée)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Jean-Paul Lebeuf",
+      "annee": 1980
+    },
+    {
+      "id": "S41",
+      "titre": "Compte rendu de J.-P. Lebeuf, Archéologie tchadienne",
+      "institution": "Persée — Annales. Économies, sociétés, civilisations",
+      "url": "https://www.persee.fr/doc/ahess_0395-2649_1964_num_19_2_421159_t1_0389_0000_2",
+      "type": "article_scientifique",
+      "licence": "accès libre (Persée)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Henri Moniot",
+      "annee": 1964
+    },
+    {
+      "id": "S42",
+      "titre": "Compte rendu de V.-E. Largeau, À la naissance du Tchad, 1903-1913",
+      "institution": "OpenEdition Journals — Journal des africanistes",
+      "url": "https://journals.openedition.org/africanistes/369",
+      "type": "article_scientifique",
+      "licence": "OpenEdition Freemium (accès libre)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Antoine Bangui",
+      "annee": 2004
+    },
+    {
+      "id": "S43",
+      "titre": "Compte rendu de I. Dion, Vers le lac Tchad. Expéditions françaises et résistances africaines, 1890-1900",
+      "institution": "Persée — Outre-mers. Revue d'histoire",
+      "url": "https://www.persee.fr/doc/outre_1631-0438_2014_num_101_384_5136_t20_0367_0000_1",
+      "type": "article_scientifique",
+      "licence": "accès libre (Persée)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Josette Rivallain",
+      "annee": 2014
+    },
+    {
+      "id": "S44",
+      "titre": "Différend territorial (Jamahiriya arabe libyenne/Tchad), affaire 83",
+      "institution": "Cour internationale de Justice",
+      "url": "https://www.icj-cij.org/case/83",
+      "type": "institution",
+      "licence": "© CIJ (résumé non officiel)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S45",
+      "titre": "Jacqueline Moudeina, lauréate 2011",
+      "institution": "Right Livelihood Foundation",
+      "url": "https://rightlivelihood.org/the-change-makers/find-a-laureate/jacqueline-moudeina/",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S46",
+      "titre": "Procès de Hissène Habré : le verdict historique rend justice aux dizaines de milliers de victimes",
+      "institution": "Amnesty International",
+      "url": "https://www.amnesty.org/fr/latest/press-release/2016/05/hissene-habre-verdict-landmark-decision-brings-justice-for-tens-of-thousands-of-victims/",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2016
+    },
+    {
+      "id": "S47",
+      "titre": "Tchad : la condamnation de Hissène Habré confirmée",
+      "institution": "Commission internationale de juristes",
+      "url": "https://www.icj.org/fr/tchad-la-condamnation-de-hissene-habre-confirmee/",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2017
+    },
+    {
+      "id": "S48",
+      "titre": "Hissène Habré condamné pour crimes internationaux : un verdict historique pour les victimes",
+      "institution": "FIDH",
+      "url": "https://www.fidh.org/fr/regions/afrique/tchad/hissene-habre-condamne-pour-crimes-internationaux-un-verdict",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2016
+    },
+    {
+      "id": "S49",
+      "titre": "Félix Eboué (1884-1944), Compagnon de la Libération",
+      "institution": "Ministère des Armées (Chemins de mémoire) / Musée de l'Ordre de la Libération",
+      "url": "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/personnalites/personnalites-lettre-e-lettre-m/felix-eboue",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S50",
+      "titre": "Faces of living heritage : Hindou Oumarou Ibrahim",
+      "institution": "UNESCO, Patrimoine culturel immatériel",
+      "url": "https://ich.unesco.org/en/news/faces-of-living-heritage-hindou-oumarou-ibrahim-13268",
+      "type": "unesco",
+      "licence": "© UNESCO",
+      "consulte_le": "2026-11-21",
+      "annee": 2020
+    },
+    {
+      "id": "S51",
+      "titre": "Hindou Oumarou Ibrahim, profil",
+      "institution": "Conservation International",
+      "url": "https://www.conservation.org/profiles/hindou-oumarou-ibrahim",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S52",
+      "titre": "Mahamat-Saleh Haroun, fiche artiste",
+      "institution": "Festival de Cannes",
+      "url": "https://www.festival-cannes.com/en/p/mahamat-saleh-haroun/",
+      "type": "institution",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S53",
+      "titre": "Marie-Christine Koundja, fiche auteure",
+      "institution": "AFLIT, University of Western Australia",
+      "url": "https://aflit.arts.uwa.edu.au/KoundjaMarieC.html",
+      "type": "universite",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S54",
+      "titre": "Mounira, la « panthère douce » du Tchad, lauréate du Prix RFI Découvertes",
+      "institution": "Alwihda Info",
+      "url": "https://www.alwihdainfo.com/Tchad-Mounira-la-panthere-douce-du-Tchad-laureate-du-Prix-RFI-Decouvertes_a562.html.md",
+      "type": "presse",
+      "licence": "tous droits réservés",
+      "consulte_le": "2026-11-21",
+      "annee": 2008
+    },
+    {
+      "id": "S55",
+      "titre": "Literary strains of négritude and consciencism in Joseph Brahim Seid: Envisioning nation and a new multicultural Chadian identity",
+      "institution": "Tydskrif vir Letterkunde",
+      "url": "https://letterkunde.africa/article/view/4441",
+      "type": "article_scientifique",
+      "licence": "accès libre (revue)",
+      "consulte_le": "2026-11-21",
+      "auteur": "Karen Haire"
+    },
+    {
+      "id": "S56",
+      "titre": "Statuette anthropomorphe (civilisation Sao, site de Tago)",
+      "institution": "Musée du Louvre-Lens",
+      "url": "https://www.louvrelens.fr/work/statuette-anthropomorphe/",
+      "type": "musee",
+      "licence": "tous droits réservés (notice)",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S57",
+      "titre": "Chadian Arabic — Glottolog 5.4 (chad1249)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/chad1249",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S58",
+      "titre": "French — Glottolog 5.4 (stan1290)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/stan1290",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S59",
+      "titre": "Ngambay — Glottolog 5.4 (ngam1268)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/ngam1268",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S60",
+      "titre": "Sar — Glottolog 5.4 (sarr1246)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/sarr1246",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S61",
+      "titre": "Mbay — Glottolog 5.4 (mbay1241)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/mbay1241",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S62",
+      "titre": "Gulay — Glottolog 5.4 (gula1268)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/gula1268",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S63",
+      "titre": "Kanembu — Glottolog 5.4 (kane1243)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/kane1243",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S64",
+      "titre": "Masana (Massa) — Glottolog 5.4 (masa1322)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/masa1322",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S65",
+      "titre": "Mundang — Glottolog 5.4 (mund1325)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/mund1325",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S66",
+      "titre": "Tupuri — Glottolog 5.4 (tupu1244)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/tupu1244",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S67",
+      "titre": "Maba (Chad) — Glottolog 5.4 (maba1277)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/maba1277",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S68",
+      "titre": "Tedaga — Glottolog 5.4 (teda1241)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/teda1241",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S69",
+      "titre": "Dazaga — Glottolog 5.4 (daza1242)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/daza1242",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S70",
+      "titre": "Buduma — Glottolog 5.4 (budu1265)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/budu1265",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    },
+    {
+      "id": "S71",
+      "titre": "Beria — Glottolog 5.4 (zagh1240)",
+      "institution": "Glottolog (Max Planck Institute for Evolutionary Anthropology)",
+      "url": "https://glottolog.org/resource/languoid/id/zagh1240",
+      "type": "base_de_donnees",
+      "licence": "CC BY 4.0",
+      "consulte_le": "2026-11-21"
+    }
+  ]
+}
