@@ -1,3 +1,4 @@
+import { lienContenu } from '../utils/liens'
 import { useEffect, useState } from 'react'
 import { blogService, collectionService, ficheService, figureService, proverbService, storyService, timelineService } from '../services/api'
 import { DOSSIERS, RECITS } from '../data/recitsContent'
@@ -62,7 +63,7 @@ const fromBlog = (post: any): RecitItem => ({
   image: post.image || '',
   meta: joinMeta(post.category, `${readingMinutes(post.content)} min`),
   theme: post.category || '',
-  to: `/blog/${post._id}`,
+  to: lienContenu('blog', post),
 })
 
 const fromStory = (story: any): RecitItem => ({
@@ -74,7 +75,7 @@ const fromStory = (story: any): RecitItem => ({
   image: story.coverImage || '',
   meta: joinMeta(story.category, story.readingTime && `${story.readingTime} min`),
   theme: story.category || '',
-  to: `/stories/${story._id}`,
+  to: lienContenu('stories', story),
 })
 
 const fromCollection = (collection: any): RecitItem => ({
@@ -86,7 +87,7 @@ const fromCollection = (collection: any): RecitItem => ({
   image: collection.coverImage || '',
   meta: joinMeta('Dossier', collection.items?.length && `${collection.items.length} étapes`),
   theme: collection.theme?.[0] || '',
-  to: `/collections/${collection._id}`,
+  to: lienContenu('collections', collection),
 })
 
 type LoadState = 'chargement' | 'pret' | 'hors-ligne'
@@ -172,7 +173,7 @@ const fromEvent = (event: any): DateItem => {
     annee: formatYear(event.date),
     titre: event.title,
     epoque: event.period && event.period !== 'Autre' ? event.period : '',
-    to: `/timeline/${event._id}`,
+    to: lienContenu('timeline', event),
   }
 }
 
@@ -183,7 +184,7 @@ const fromFigure = (figure: any): FigureItem => ({
   dates: formatLifespan(figure.birthDate, figure.deathDate),
   role: clip(figure.shortBiography || (figure.role || []).join(' · ')),
   portrait: figure.image || PORTRAITS.get(normalizeName(figure.name)) || '',
-  to: `/figures/${figure._id}`,
+  to: lienContenu('figures', figure),
 })
 
 const fromProverb = (proverb: any): ProverbItem => ({

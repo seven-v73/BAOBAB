@@ -77,7 +77,7 @@ export const getFeaturedContent = catchAsync(async (req, res) => {
     Blog.find({ published: true })
       .sort({ views: -1, createdAt: -1 })
       .limit(Number(limit))
-      .select('title excerpt image createdAt views category')
+      .select('title excerpt image createdAt views category slug')
       .lean(),
     Product.find({ isActive: true, isFeatured: true })
       .sort({ createdAt: -1 })
@@ -88,23 +88,23 @@ export const getFeaturedContent = catchAsync(async (req, res) => {
       .sort({ importance: -1, views: -1 })
       .limit(Number(limit))
       .populate('location.country', 'nameFr id color')
-      .select('title shortDescription date period location category views images')
+      .select('title shortDescription date period location category views images slug')
       .lean(),
     HistoricalFigure.find({ verified: true })
       .sort({ views: -1 })
       .limit(Number(limit))
       .populate('birthPlace.country', 'nameFr id')
-      .select('name nameNative shortBiography image role birthDate deathDate birthPlace views')
+      .select('name nameNative shortBiography image role birthDate deathDate birthPlace views slug')
       .lean(),
     Story.find({ isFeatured: true })
       .sort({ views: -1 })
       .limit(Number(limit))
-      .select('title subtitle description coverImage category readingTime views difficulty')
+      .select('title subtitle description coverImage category readingTime views difficulty slug')
       .lean(),
     Collection.find({ isFeatured: true })
       .sort({ views: -1 })
       .limit(Number(limit))
-      .select('title shortDescription coverImage theme difficulty views rating estimatedTime')
+      .select('title shortDescription coverImage theme difficulty views rating estimatedTime slug')
       .lean(),
   ])
 
@@ -146,7 +146,7 @@ export const getTrendingContent = catchAsync(async (req, res) => {
     })
       .sort({ views: -1, createdAt: -1 })
       .limit(Number(limit))
-      .select('title excerpt image createdAt views category')
+      .select('title excerpt image createdAt views category slug')
       .lean(),
     Product.find({
       isActive: true,
@@ -162,7 +162,7 @@ export const getTrendingContent = catchAsync(async (req, res) => {
       .sort({ views: -1, importance: -1 })
       .limit(Number(limit))
       .populate('location.country', 'nameFr id color')
-      .select('title shortDescription date period location category views images')
+      .select('title shortDescription date period location category views images slug')
       .lean(),
     HistoricalFigure.find({
       createdAt: { $gte: startDate },
@@ -170,7 +170,7 @@ export const getTrendingContent = catchAsync(async (req, res) => {
       .sort({ views: -1 })
       .limit(Number(limit))
       .populate('birthPlace.country', 'nameFr id')
-      .select('name nameNative shortBiography image role views')
+      .select('name nameNative shortBiography image role views slug')
       .lean(),
   ])
 
@@ -191,24 +191,24 @@ export const getRecentContent = catchAsync(async (req, res) => {
     Blog.find({ published: true })
       .sort({ createdAt: -1 })
       .limit(Number(limit))
-      .select('title excerpt image createdAt views category')
+      .select('title excerpt image createdAt views category slug')
       .lean(),
     TimelineEvent.find()
       .sort({ createdAt: -1 })
       .limit(Number(limit))
       .populate('location.country', 'nameFr id color')
-      .select('title shortDescription date period location category views images')
+      .select('title shortDescription date period location category views images slug')
       .lean(),
     HistoricalFigure.find()
       .sort({ createdAt: -1 })
       .limit(Number(limit))
       .populate('birthPlace.country', 'nameFr id')
-      .select('name nameNative shortBiography image role views')
+      .select('name nameNative shortBiography image role views slug')
       .lean(),
     Story.find()
       .sort({ createdAt: -1 })
       .limit(Number(limit))
-      .select('title subtitle description coverImage category readingTime views')
+      .select('title subtitle description coverImage category readingTime views slug')
       .lean(),
   ])
 

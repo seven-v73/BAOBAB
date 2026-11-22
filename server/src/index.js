@@ -202,6 +202,21 @@ app.use(errorHandler)
 try {
   await connectDB()
 
+  // Adresses lisibles pour les contenus qui n'en ont pas encore (avant la génération SEO)
+  try {
+    const { ensureSlugs } = await import('./utils/slug.js')
+    const load = async (name) => (await import(`./models/${name}.js`)).default
+    await ensureSlugs([
+      [await load('HistoricalFigure'), 'name'],
+      [await load('Blog'), 'title'],
+      [await load('Story'), 'title'],
+      [await load('Collection'), 'title'],
+      [await load('TimelineEvent'), 'title'],
+    ])
+  } catch (error) {
+    logger.warn(`Slugs : attribution impossible — ${error.message}`)
+  }
+
   // Pages SEO pré-générées (meta, aperçus de partage, contenu lisible sans JS) :
   // régénérées au démarrage puis toutes les 30 min pour inclure les nouveaux contenus.
   // Activé seulement si SEO_DIST_DIR pointe vers le dossier dist servi par nginx.

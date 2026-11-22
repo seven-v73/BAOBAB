@@ -1,6 +1,8 @@
 import Blog from '../models/Blog.js'
 import logger from '../utils/logger.js'
 import { catchAsync } from '../utils/errorHandler.js'
+import { findByIdOrSlug } from '../utils/slug.js'
+import { demanderRegenerationSeo } from '../utils/seoRefresh.js'
 
 /*
  * Règles d'accès du carnet de savoirs
@@ -75,7 +77,7 @@ export const getAllBlogs = catchAsync(async (req, res) => {
 
 // GET /api/blog/:id
 export const getBlogById = catchAsync(async (req, res) => {
-  const blog = await Blog.findById(req.params.id).select('-__v')
+  const blog = await findByIdOrSlug(Blog, req.params.id).select('-__v')
 
   if (!blog || (!blog.published && !isAdmin(req) && !isOwner(req, blog))) {
     return res.status(404).json({ error: 'Article non trouvé' })
@@ -174,6 +176,7 @@ export const updateBlog = catchAsync(async (req, res) => {
   }
 
   const updatedBlog = await blog.save()
+  if (blog.published) demanderRegenerationSeo()
   logger.info('Article de blog mis à jour', { blogId: updatedBlog._id, status: updatedBlog.status })
   res.json(updatedBlog)
 })
@@ -191,6 +194,7 @@ export const reviewBlog = catchAsync(async (req, res) => {
   blog.reviewNote = String(note || '').slice(0, 1000)
   if (decision === 'approve') blog.verifiedBy.addToSet(req.user._id)
   const saved = await blog.save()
+  if (blog.published) demanderRegenerationSeo()
   logger.info('Article de blog modéré', { blogId: saved._id, decision })
   res.json(saved)
 })

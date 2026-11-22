@@ -1,6 +1,7 @@
 import Collection from '../models/Collection.js'
 import { catchAsync } from '../utils/errorHandler.js'
 import logger from '../utils/logger.js'
+import { findByIdOrSlug } from '../utils/slug.js'
 
 // GET /api/collections - Récupérer toutes les collections avec filtres
 export const getCollections = catchAsync(async (req, res) => {
@@ -36,7 +37,7 @@ export const getCollections = catchAsync(async (req, res) => {
   const sortOptions = sort === 'order' ? { order: 1, views: -1 } : { views: -1 }
 
   const collections = await Collection.find(query)
-    .populate('curator', 'name email')
+    .populate('curator', 'name')
     .sort(sortOptions)
     .limit(parseInt(limit))
     .skip(skip)
@@ -57,19 +58,19 @@ export const getCollections = catchAsync(async (req, res) => {
                 break
               case 'blog':
                 const Blog = (await import('../models/Blog.js')).default
-                populatedItem = await Blog.findById(item.itemId).select('title image').lean()
+                populatedItem = await Blog.findById(item.itemId).select('title image slug').lean()
                 break
               case 'event':
                 const TimelineEvent = (await import('../models/TimelineEvent.js')).default
-                populatedItem = await TimelineEvent.findById(item.itemId).select('title date shortDescription').lean()
+                populatedItem = await TimelineEvent.findById(item.itemId).select('title date shortDescription slug').lean()
                 break
               case 'figure':
                 const HistoricalFigure = (await import('../models/HistoricalFigure.js')).default
-                populatedItem = await HistoricalFigure.findById(item.itemId).select('name nameNative image').lean()
+                populatedItem = await HistoricalFigure.findById(item.itemId).select('name nameNative image slug').lean()
                 break
               case 'story':
                 const Story = (await import('../models/Story.js')).default
-                populatedItem = await Story.findById(item.itemId).select('title coverImage').lean()
+                populatedItem = await Story.findById(item.itemId).select('title coverImage slug').lean()
                 break
             }
           } catch (error) {
@@ -107,8 +108,8 @@ export const getCollections = catchAsync(async (req, res) => {
 
 // GET /api/collections/:id - Récupérer une collection spécifique
 export const getCollectionById = catchAsync(async (req, res) => {
-  const collection = await Collection.findById(req.params.id)
-    .populate('curator', 'name email')
+  const collection = await findByIdOrSlug(Collection, req.params.id)
+    .populate('curator', 'name')
     .lean()
 
   if (!collection || !collection.isActive) {
@@ -128,19 +129,19 @@ export const getCollectionById = catchAsync(async (req, res) => {
             break
           case 'blog':
             const Blog = (await import('../models/Blog.js')).default
-            populatedItem = await Blog.findById(item.itemId).select('title image').lean()
+            populatedItem = await Blog.findById(item.itemId).select('title image slug').lean()
             break
           case 'event':
             const TimelineEvent = (await import('../models/TimelineEvent.js')).default
-            populatedItem = await TimelineEvent.findById(item.itemId).select('title date shortDescription').lean()
+            populatedItem = await TimelineEvent.findById(item.itemId).select('title date shortDescription slug').lean()
             break
           case 'figure':
             const HistoricalFigure = (await import('../models/HistoricalFigure.js')).default
-            populatedItem = await HistoricalFigure.findById(item.itemId).select('name nameNative image').lean()
+            populatedItem = await HistoricalFigure.findById(item.itemId).select('name nameNative image slug').lean()
             break
           case 'story':
             const Story = (await import('../models/Story.js')).default
-            populatedItem = await Story.findById(item.itemId).select('title coverImage').lean()
+            populatedItem = await Story.findById(item.itemId).select('title coverImage slug').lean()
             break
         }
       } catch (error) {
@@ -161,7 +162,7 @@ export const getCollectionById = catchAsync(async (req, res) => {
   }
 
   // Incrémenter les vues (utiliser updateOne pour éviter de modifier le document déjà chargé)
-  await Collection.findByIdAndUpdate(req.params.id, { $inc: { views: 1 } })
+  await Collection.updateOne({ _id: collection._id }, { $inc: { views: 1 } })
 
   logger.info('Collection récupérée', { collectionId: collection._id, title: collection.title })
 

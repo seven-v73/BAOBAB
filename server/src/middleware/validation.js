@@ -266,6 +266,15 @@ export const validateMongoId = [
   validate
 ]
 
+// Identifiant ou adresse lisible (/api/blog/la-parole-des-griots)
+export const validateIdOrSlug = [
+  param('id')
+    .matches(/^(?:[a-f0-9]{24}|[a-z0-9]+(?:-[a-z0-9]+)*)$/i)
+    .isLength({ max: 100 })
+    .withMessage('Adresse invalide'),
+  validate
+]
+
 // Validation pour les commandes
 export const validateOrder = [
   body('items')

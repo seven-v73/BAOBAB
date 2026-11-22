@@ -8,13 +8,13 @@ import {
   deleteBlog,
 } from '../controllers/blogController.js'
 import { authenticate, authorize, optionalAuthenticate } from '../middleware/auth.js'
-import { validateBlog, validateMongoId } from '../middleware/validation.js'
+import { validateBlog, validateMongoId, validateIdOrSlug } from '../middleware/validation.js'
 
 const router = express.Router()
 
 // Lecture publique (articles publiés) ; l'auteur et l'admin voient aussi les textes non publiés
 router.get('/', optionalAuthenticate, getAllBlogs)
-router.get('/:id', optionalAuthenticate, validateMongoId, getBlogById)
+router.get('/:id', optionalAuthenticate, validateIdOrSlug, getBlogById)
 
 // Écriture : tout membre connecté peut proposer un texte (modéré avant publication)
 router.post('/', authenticate, validateBlog, createBlog)

@@ -2,6 +2,7 @@ import HistoricalFigure from '../models/HistoricalFigure.js'
 import { catchAsync } from '../utils/errorHandler.js'
 import logger from '../utils/logger.js'
 import { getCountryObjectId } from '../utils/countryHelper.js'
+import { findByIdOrSlug } from '../utils/slug.js'
 
 // GET /api/figures - Récupérer toutes les figures historiques avec filtres
 export const getHistoricalFigures = catchAsync(async (req, res) => {
@@ -63,7 +64,7 @@ export const getHistoricalFigures = catchAsync(async (req, res) => {
   const figures = await HistoricalFigure.find(query)
     .populate('birthPlace.country', 'nameFr id color')
     .populate('relatedCountries', 'nameFr id')
-    .populate('relatedEvents', 'title date')
+    .populate('relatedEvents', 'title date slug')
     .sort(sortOptions)
     .limit(parseInt(limit))
     .skip(skip)
@@ -86,12 +87,12 @@ export const getHistoricalFigures = catchAsync(async (req, res) => {
 
 // GET /api/figures/:id - Récupérer une figure spécifique
 export const getHistoricalFigureById = catchAsync(async (req, res) => {
-  const figure = await HistoricalFigure.findById(req.params.id)
+  const figure = await findByIdOrSlug(HistoricalFigure, req.params.id)
     .populate('birthPlace.country', 'nameFr id color')
     .populate('relatedCountries', 'nameFr id')
-    .populate('relatedEvents', 'title date shortDescription')
+    .populate('relatedEvents', 'title date shortDescription slug')
     .populate('sources')
-    .populate('verifiedBy', 'name email')
+    .populate('verifiedBy', 'name')
 
   if (!figure || !figure.isActive) {
     return res.status(404).json({ error: 'Figure historique non trouvée' })

@@ -1,3 +1,4 @@
+import { useAdresseLisible } from '../hooks/useAdresseLisible'
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { FileText, Flag, PenLine, PlayCircle } from 'lucide-react'
@@ -11,6 +12,7 @@ import { useSettingsStore } from '../stores/settingsStore'
 import { useSeo } from '../seo/useSeo'
 import { joinMeta } from '../utils'
 import { findCountryCodes, placeOf } from '../utils/afrique'
+import { lienContenu } from '../utils/liens'
 
 // Article ou témoignage du carnet, dans le gabarit de lecture de la refonte (maquette « Récit »).
 
@@ -34,6 +36,7 @@ interface BlogVideo {
 }
 
 export interface BlogPost {
+  slug?: string
   _id: string
   title: string
   content: string
@@ -77,9 +80,10 @@ export const BlogPostPage = () => {
   const [pdf, setPdf] = useState<BlogPDF | null>(null)
   const [video, setVideo] = useState<BlogVideo | null>(null)
 
+  useAdresseLisible('blog', post)
   useSeo(
     post
-      ? {
+      ? { path: lienContenu('blog', post),
           title: post.title,
           description: post.excerpt || post.content,
           image: post.image,
@@ -182,7 +186,7 @@ export const BlogPostPage = () => {
         lead={post.excerpt}
         byline={{ name: post.author, detail: joinMeta(`Publié le ${formatDate(post.createdAt)}`, references.length > 0 && !isTestimony && `${references.length} source${references.length > 1 ? 's' : ''}`) }}
         bookmark={{ itemType: 'blog', itemId: post._id }}
-        shareUrl={`/blog/${post._id}`}
+        shareUrl={lienContenu('blog', post)}
         image={post.image ? { src: post.image } : undefined}
         place={place.codes.length ? place : undefined}
         toc={toc}

@@ -1,3 +1,4 @@
+import { lienContenu } from '../../utils/liens'
 import { useEffect, useState } from 'react'
 import { Check, ExternalLink, Feather, ShieldCheck, Undo2 } from 'lucide-react'
 import { blogService } from '../../services/api'
@@ -90,7 +91,7 @@ export const ModerationQueue = ({ onChange }: { onChange?: () => void }) => {
                   <strong className="mq__title">{post.title}</strong>
                   <span className="mq__author">par {post.author}</span>
                   {post.excerpt && <p className="mq__excerpt">{post.excerpt}</p>}
-                  <a href={`/blog/${post._id}`} target="_blank" rel="noopener noreferrer" className="mq__open">
+                  <a href={lienContenu('blog', post)} target="_blank" rel="noopener noreferrer" className="mq__open">
                     Lire le texte complet <ExternalLink size={14} aria-hidden={true} />
                   </a>
                 </div>

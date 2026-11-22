@@ -2,6 +2,7 @@ import TimelineEvent from '../models/TimelineEvent.js'
 import { catchAsync } from '../utils/errorHandler.js'
 import logger from '../utils/logger.js'
 import { getCountryObjectId } from '../utils/countryHelper.js'
+import { findByIdOrSlug } from '../utils/slug.js'
 
 // GET /api/timeline - Récupérer tous les événements avec filtres
 export const getTimelineEvents = catchAsync(async (req, res) => {
@@ -65,9 +66,9 @@ export const getTimelineEvents = catchAsync(async (req, res) => {
 
   const events = await TimelineEvent.find(query)
     .populate('location.country', 'nameFr id color')
-    .populate('relatedEvents', 'title date')
+    .populate('relatedEvents', 'title date slug')
     .populate('relatedCountries', 'nameFr id')
-    .populate('relatedFigures', 'name nameNative')
+    .populate('relatedFigures', 'name nameNative slug')
     .sort(sortOptions)
     .limit(parseInt(limit))
     .skip(skip)
@@ -90,14 +91,14 @@ export const getTimelineEvents = catchAsync(async (req, res) => {
 
 // GET /api/timeline/:id - Récupérer un événement spécifique
 export const getTimelineEventById = catchAsync(async (req, res) => {
-  const event = await TimelineEvent.findById(req.params.id)
+  const event = await findByIdOrSlug(TimelineEvent, req.params.id)
     .populate('location.country', 'nameFr id color')
-    .populate('relatedEvents', 'title date shortDescription')
+    .populate('relatedEvents', 'title date shortDescription slug')
     .populate('relatedCountries', 'nameFr id')
-    .populate('relatedFigures', 'name nameNative image')
+    .populate('relatedFigures', 'name nameNative image slug')
     .populate('sources.sourceId')
-    .populate('contributors.user', 'name email')
-    .populate('verifiedBy', 'name email')
+    .populate('contributors.user', 'name')
+    .populate('verifiedBy', 'name')
 
   if (!event || !event.isActive) {
     return res.status(404).json({ error: 'Événement non trouvé' })

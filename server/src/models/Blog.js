@@ -1,4 +1,5 @@
 import mongoose from 'mongoose'
+import { slugPlugin } from '../utils/slug.js'
 
 const blogSchema = new mongoose.Schema({
   title: {
@@ -137,6 +138,8 @@ blogSchema.pre('save', function syncPublished(next) {
 })
 
 // Index pour la recherche full-text
+// Adresse lisible (/…/titre-du-contenu), attribuée à la création
+blogSchema.plugin(slugPlugin, { source: 'title' })
 blogSchema.index({ title: 'text', content: 'text', excerpt: 'text' })
 
 // Index composés pour les requêtes fréquentes

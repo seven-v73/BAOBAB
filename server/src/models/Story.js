@@ -1,4 +1,5 @@
 import mongoose from 'mongoose'
+import { slugPlugin } from '../utils/slug.js'
 
 const storySchema = new mongoose.Schema({
   title: {
@@ -124,6 +125,8 @@ const storySchema = new mongoose.Schema({
 })
 
 // Index pour recherche
+// Adresse lisible (/…/titre-du-contenu), attribuée à la création
+storySchema.plugin(slugPlugin, { source: 'title' })
 storySchema.index({ title: 'text', subtitle: 'text', description: 'text' })
 storySchema.index({ published: 1, isFeatured: 1, createdAt: -1 })
 storySchema.index({ difficulty: 1, category: 1 })

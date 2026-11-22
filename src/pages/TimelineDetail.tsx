@@ -1,3 +1,5 @@
+import { useAdresseLisible } from '../hooks/useAdresseLisible'
+import { lienContenu } from '../utils/liens'
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { ArrowRight } from 'lucide-react'
@@ -11,6 +13,7 @@ import { findCountryCodes, formatHistoricalDate, placeOf } from '../utils/afriqu
 // Fiche d'une date de la chronologie (Repères) dans le gabarit de lecture de la refonte.
 
 interface TimelineEvent {
+  slug?: string
   _id: string
   title: string
   description?: string
@@ -37,7 +40,8 @@ export const TimelineDetail = () => {
   const [event, setEvent] = useState<TimelineEvent | null>(null)
   const [loading, setLoading] = useState(true)
 
-  useSeo(event ? { title: `${event.title} (${formatHistoricalDate(event.date)})`, description: event.shortDescription || event.description, image: event.images?.[0] } : null)
+  useAdresseLisible('timeline', event)
+  useSeo(event ? { path: lienContenu('timeline', event), title: `${event.title} (${formatHistoricalDate(event.date)})`, description: event.shortDescription || event.description, image: event.images?.[0] } : null)
 
   useEffect(() => {
     if (!id) return
@@ -76,7 +80,7 @@ export const TimelineDetail = () => {
   )
   const when = event.endDate ? `${formatHistoricalDate(event.date)} – ${formatHistoricalDate(event.endDate)}` : formatHistoricalDate(event.date)
   const sources = (event.sources || []).filter((source) => source.title)
-  const related = [...(event.relatedEvents || []).map((e) => ({ to: `/timeline/${e._id}`, kicker: formatHistoricalDate(e.date), title: e.title, text: e.shortDescription })), ...(event.relatedFigures || []).map((f) => ({ to: `/figures/${f._id}`, kicker: 'Personnalité', title: f.name, text: f.shortBiography }))]
+  const related = [...(event.relatedEvents || []).map((e) => ({ to: lienContenu('timeline', e), kicker: formatHistoricalDate(e.date), title: e.title, text: e.shortDescription })), ...(event.relatedFigures || []).map((f) => ({ to: lienContenu('figures', f), kicker: 'Personnalité', title: f.name, text: f.shortBiography }))]
 
   return (
     <Lecture
@@ -86,7 +90,7 @@ export const TimelineDetail = () => {
       lead={event.shortDescription && event.shortDescription !== event.description ? event.shortDescription : undefined}
       byline={{ detail: event.verified ? 'Fiche relue par l’équipe' : undefined }}
       bookmark={{ itemType: 'event', itemId: event._id }}
-      shareUrl={`/timeline/${event._id}`}
+      shareUrl={lienContenu('timeline', event)}
       image={event.images?.[0] ? { src: event.images[0] } : undefined}
       place={place.codes.length ? place : undefined}
       toc={[

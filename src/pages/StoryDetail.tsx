@@ -1,3 +1,4 @@
+import { useAdresseLisible } from '../hooks/useAdresseLisible'
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { Check } from 'lucide-react'
@@ -8,6 +9,7 @@ import { useNotifications } from '../hooks/useNotifications'
 import { useSeo } from '../seo/useSeo'
 import { joinMeta } from '../utils'
 import { findCountryCodes, placeOf } from '../utils/afrique'
+import { lienContenu } from '../utils/liens'
 
 // Histoire (épopée, biographie, documentaire) dans le gabarit de lecture de la refonte :
 // tous les chapitres à la suite, sommaire des chapitres dans la colonne.
@@ -21,6 +23,7 @@ interface Chapter {
 }
 
 interface Story {
+  slug?: string
   _id: string
   title: string
   subtitle?: string
@@ -44,9 +47,10 @@ export const StoryDetail = () => {
   const [loading, setLoading] = useState(true)
   const [done, setDone] = useState(false)
 
+  useAdresseLisible('stories', story)
   useSeo(
     story
-      ? { title: story.subtitle ? `${story.title} : ${story.subtitle}` : story.title, description: story.description, image: story.coverImage, type: 'article' }
+      ? { path: lienContenu('stories', story), title: story.subtitle ? `${story.title} : ${story.subtitle}` : story.title, description: story.description, image: story.coverImage, type: 'article' }
       : null,
   )
 
@@ -99,7 +103,7 @@ export const StoryDetail = () => {
       lead={story.subtitle || story.description}
       byline={{ name: story.author && story.author !== 'MonBaobab Team' ? story.author : undefined, detail: `${chapters.length} chapitre${chapters.length > 1 ? 's' : ''}` }}
       bookmark={{ itemType: 'story', itemId: story._id }}
-      shareUrl={`/stories/${story._id}`}
+      shareUrl={lienContenu('stories', story)}
       image={story.coverImage ? { src: story.coverImage } : undefined}
       place={place}
       toc={chapters.map((chapter, index) => ({ id: `chapitre-${index + 1}`, label: chapter.title || `Chapitre ${index + 1}` }))}

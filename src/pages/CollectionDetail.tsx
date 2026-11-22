@@ -1,3 +1,5 @@
+import { useAdresseLisible } from '../hooks/useAdresseLisible'
+import { lienContenu } from '../utils/liens'
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { ArrowRight, Check } from 'lucide-react'
@@ -20,6 +22,7 @@ interface CollectionItem {
 }
 
 interface Collection {
+  slug?: string
   _id: string
   title: string
   description?: string
@@ -47,13 +50,13 @@ const linkOf = (item: CollectionItem) => {
     case 'country':
       return `/country/${String(target.id || target._id).toLowerCase()}`
     case 'blog':
-      return `/blog/${target._id}`
+      return lienContenu('blog', target)
     case 'event':
-      return `/timeline/${target._id}`
+      return lienContenu('timeline', target)
     case 'figure':
-      return `/figures/${target._id}`
+      return lienContenu('figures', target)
     case 'story':
-      return `/stories/${target._id}`
+      return lienContenu('stories', target)
     default:
       return null
   }
@@ -75,7 +78,8 @@ export const CollectionDetail = () => {
   const [loading, setLoading] = useState(true)
   const [done, setDone] = useState(false)
 
-  useSeo(collection ? { title: collection.title, description: collection.shortDescription || collection.description, image: collection.coverImage } : null)
+  useAdresseLisible('collections', collection)
+  useSeo(collection ? { path: lienContenu('collections', collection), title: collection.title, description: collection.shortDescription || collection.description, image: collection.coverImage } : null)
 
   useEffect(() => {
     if (!id) return
@@ -126,7 +130,7 @@ export const CollectionDetail = () => {
       lead={collection.shortDescription || undefined}
       byline={{ name: collection.curator?.name, detail: `${items.length} étape${items.length > 1 ? 's' : ''}` }}
       bookmark={{ itemType: 'collection', itemId: collection._id }}
-      shareUrl={`/collections/${collection._id}`}
+      shareUrl={lienContenu('collections', collection)}
       image={collection.coverImage ? { src: collection.coverImage } : undefined}
       place={place.codes.length ? place : undefined}
       toc={[

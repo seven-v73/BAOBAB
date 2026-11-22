@@ -14,9 +14,16 @@ import logger from '../utils/logger.js'
 import { catchAsync } from '../utils/errorHandler.js'
 import { safeRegExp } from '../utils/regex.js'
 
+// Rubriques en pause (voir clean.md) : plus dans la navigation, donc plus dans la recherche.
+// Les clés restent dans la réponse (listes vides) pour ne rien casser côté client.
+const EN_PAUSE = new Set(['products', 'communities', 'quizzes'])
+
 // GET /api/search - Recherche unifiée
 export const searchAll = catchAsync(async (req, res) => {
-  const { q, type, limit = 10 } = req.query
+  const { type } = req.query
+  // ?q=a&q=b donne un tableau : on ne garde qu'un texte
+  const q = typeof req.query.q === 'string' ? req.query.q : ''
+  const limit = Math.min(Math.max(Number(req.query.limit) || 10, 1), 30)
 
   if (!q || q.trim().length === 0) {
     return res.json({
@@ -36,7 +43,7 @@ export const searchAll = catchAsync(async (req, res) => {
   }
 
   const searchQuery = q.trim()
-  const searchRegex = safeRegExp(searchQuery)
+  const searchRegex = safeRegExp(searchQuery, { fold: true })
 
   const results = {
     products: [],
@@ -54,8 +61,9 @@ export const searchAll = catchAsync(async (req, res) => {
   }
 
   // Recherche dans les pays
-  if (!type || type === 'countries') {
+  if (!EN_PAUSE.has('countries') && (!type || type === 'countries')) {
     results.countries = await Country.find({
+      isActive: { $ne: false },
       $or: [
         { nameFr: searchRegex },
         { name: searchRegex },
@@ -73,7 +81,7 @@ export const searchAll = catchAsync(async (req, res) => {
   }
 
   // Recherche dans les produits
-  if (!type || type === 'products') {
+  if (!EN_PAUSE.has('products') && (!type || type === 'products')) {
     results.products = await Product.find({
       isActive: true,
       $or: [
@@ -89,7 +97,7 @@ export const searchAll = catchAsync(async (req, res) => {
   }
 
   // Recherche dans les blogs
-  if (!type || type === 'blogs') {
+  if (!EN_PAUSE.has('blogs') && (!type || type === 'blogs')) {
     results.blogs = await Blog.find({
       published: true,
       $or: [
@@ -100,13 +108,14 @@ export const searchAll = catchAsync(async (req, res) => {
       ],
     })
       .limit(Number(limit))
-      .select('title excerpt image category views createdAt')
+      .select('title excerpt image category views createdAt slug')
       .lean()
   }
 
   // Recherche dans les événements
-  if (!type || type === 'events') {
+  if (!EN_PAUSE.has('events') && (!type || type === 'events')) {
     results.events = await TimelineEvent.find({
+      isActive: { $ne: false },
       $or: [
         { title: searchRegex },
         { description: searchRegex },
@@ -116,13 +125,14 @@ export const searchAll = catchAsync(async (req, res) => {
     })
       .populate('location.country', 'nameFr id color')
       .limit(Number(limit))
-      .select('title shortDescription date period location category views images')
+      .select('title shortDescription date period location category views images slug')
       .lean()
   }
 
   // Recherche dans les figures historiques
-  if (!type || type === 'figures') {
+  if (!EN_PAUSE.has('figures') && (!type || type === 'figures')) {
     results.figures = await HistoricalFigure.find({
+      isActive: { $ne: false },
       $or: [
         { name: searchRegex },
         { nameNative: searchRegex },
@@ -132,13 +142,14 @@ export const searchAll = catchAsync(async (req, res) => {
     })
       .populate('birthPlace.country', 'nameFr id')
       .limit(Number(limit))
-      .select('name nameNative shortBiography image role views')
+      .select('name nameNative shortBiography image role views slug')
       .lean()
   }
 
   // Recherche dans les récits
-  if (!type || type === 'stories') {
+  if (!EN_PAUSE.has('stories') && (!type || type === 'stories')) {
     results.stories = await Story.find({
+      published: true,
       $or: [
         { title: searchRegex },
         { subtitle: searchRegex },
@@ -147,13 +158,14 @@ export const searchAll = catchAsync(async (req, res) => {
       ],
     })
       .limit(Number(limit))
-      .select('title subtitle description coverImage category views')
+      .select('title subtitle description coverImage category views slug')
       .lean()
   }
 
   // Recherche dans les collections
-  if (!type || type === 'collections') {
+  if (!EN_PAUSE.has('collections') && (!type || type === 'collections')) {
     results.collections = await Collection.find({
+      isActive: { $ne: false },
       $or: [
         { title: searchRegex },
         { description: searchRegex },
@@ -162,12 +174,12 @@ export const searchAll = catchAsync(async (req, res) => {
       ],
     })
       .limit(Number(limit))
-      .select('title shortDescription coverImage theme views rating')
+      .select('title shortDescription coverImage theme views rating slug')
       .lean()
   }
 
   // Recherche dans les proverbes
-  if (!type || type === 'proverbs') {
+  if (!EN_PAUSE.has('proverbs') && (!type || type === 'proverbs')) {
     results.proverbs = await Proverb.find({
       $or: [
         { text: searchRegex },
@@ -185,7 +197,7 @@ export const searchAll = catchAsync(async (req, res) => {
   }
 
   // Recherche dans les communautés
-  if (!type || type === 'communities') {
+  if (!EN_PAUSE.has('communities') && (!type || type === 'communities')) {
     results.communities = await Community.find({
       isActive: true,
       $or: [
@@ -201,7 +213,7 @@ export const searchAll = catchAsync(async (req, res) => {
   }
 
   // Recherche dans les quiz
-  if (!type || type === 'quizzes') {
+  if (!EN_PAUSE.has('quizzes') && (!type || type === 'quizzes')) {
     results.quizzes = await Quiz.find({
       isActive: true,
       $or: [
@@ -211,11 +223,11 @@ export const searchAll = catchAsync(async (req, res) => {
       ],
     })
       .limit(Number(limit))
-      .select('title description difficulty totalPoints attempts averageScore tags')
+      .select('title description difficulty totalPoints attempts averageScore tags slug')
       .lean()
   }
 
-  if (!type || type === 'sources') {
+  if (!EN_PAUSE.has('sources') && (!type || type === 'sources')) {
     results.sources = await Source.find({
       isActive: true,
       $or: [
@@ -234,7 +246,7 @@ export const searchAll = catchAsync(async (req, res) => {
       .lean()
   }
 
-  if (!type || type === 'contributions') {
+  if (!EN_PAUSE.has('contributions') && (!type || type === 'contributions')) {
     results.contributions = await Contribution.find({
       status: 'approved',
       visibility: 'public',
@@ -256,35 +268,30 @@ export const searchAll = catchAsync(async (req, res) => {
 
 // GET /api/search/suggestions - Suggestions de recherche
 export const getSearchSuggestions = catchAsync(async (req, res) => {
-  const { q, limit = 5 } = req.query
+  const q = typeof req.query.q === 'string' ? req.query.q : ''
+  const limit = Math.min(Math.max(Number(req.query.limit) || 5, 1), 15)
 
   if (!q || q.trim().length < 2) {
     return res.json([])
   }
 
   const searchQuery = q.trim()
-  const searchRegex = safeRegExp(searchQuery)
+  const searchRegex = safeRegExp(searchQuery, { fold: true })
 
   const [products, blogs, events, figures, countries, proverbs, communities, quizzes, sources, contributions] = await Promise.all([
-    Product.find({
-      isActive: true,
-      name: searchRegex,
-    })
-      .limit(Number(limit))
-      .select('name')
-      .lean(),
+    [], // produits : en pause
     Blog.find({
       published: true,
       title: searchRegex,
     })
       .limit(Number(limit))
-      .select('title')
+      .select('title slug')
       .lean(),
     TimelineEvent.find({
       title: searchRegex,
     })
       .limit(Number(limit))
-      .select('title')
+      .select('title slug')
       .lean(),
     HistoricalFigure.find({
       $or: [
@@ -293,7 +300,7 @@ export const getSearchSuggestions = catchAsync(async (req, res) => {
       ],
     })
       .limit(Number(limit))
-      .select('name nameNative')
+      .select('name nameNative slug')
       .lean(),
     Country.find({
       $or: [
@@ -314,29 +321,14 @@ export const getSearchSuggestions = catchAsync(async (req, res) => {
       .limit(Number(limit))
       .select('text countryName')
       .lean(),
-    Community.find({
-      isActive: true,
-      $or: [
-        { name: searchRegex },
-        { culture: searchRegex },
-      ],
-    })
-      .limit(Number(limit))
-      .select('name culture')
-      .lean(),
-    Quiz.find({
-      isActive: true,
-      title: searchRegex,
-    })
-      .limit(Number(limit))
-      .select('title')
-      .lean(),
+    [], // cercles : en pause
+    [], // quiz : en pause
     Source.find({
       isActive: true,
       title: searchRegex,
     })
       .limit(Number(limit))
-      .select('title')
+      .select('title slug')
       .lean(),
     Contribution.find({
       status: 'approved',
@@ -344,7 +336,7 @@ export const getSearchSuggestions = catchAsync(async (req, res) => {
       title: searchRegex,
     })
       .limit(Number(limit))
-      .select('title')
+      .select('title slug')
       .lean(),
   ])
 
@@ -367,7 +359,7 @@ export const getSearchSuggestions = catchAsync(async (req, res) => {
   })
   countries.forEach((country) => {
     suggestions.push({ type: 'country', text: country.nameFr, id: country.id })
-    if (country.capital) {
+    if (country.capital && searchRegex.test(country.capital)) {
       suggestions.push({ type: 'country', text: country.capital, id: country.id })
     }
   })
@@ -387,8 +379,16 @@ export const getSearchSuggestions = catchAsync(async (req, res) => {
     suggestions.push({ type: 'contribution', text: contribution.title, id: contribution._id })
   })
 
-  // Limiter et mélanger
-  const shuffled = suggestions.sort(() => 0.5 - Math.random()).slice(0, Number(limit))
+  // Les plus pertinentes d'abord : texte qui commence par la saisie, puis pays et personnalités
+  const debut = safeRegExp(searchQuery, { fold: true, exact: false })
+  const commencePar = new RegExp(`^${debut.source}`, 'i')
+  const ordreType = ['country', 'figure', 'blog', 'event', 'proverb', 'source', 'contribution']
+  const rang = (s) => (commencePar.test(s.text) ? 0 : 10) + Math.max(ordreType.indexOf(s.type), 0)
+  const vues = new Set()
+  const ordonnees = suggestions
+    .sort((a, b) => rang(a) - rang(b))
+    .filter((s) => (vues.has(s.text) ? false : vues.add(s.text)))
+    .slice(0, Number(limit))
 
-  res.json(shuffled)
+  res.json(ordonnees)
 })

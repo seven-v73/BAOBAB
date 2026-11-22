@@ -2,6 +2,7 @@ import Story from '../models/Story.js'
 import { catchAsync } from '../utils/errorHandler.js'
 import logger from '../utils/logger.js'
 import { getCountryObjectId } from '../utils/countryHelper.js'
+import { findByIdOrSlug } from '../utils/slug.js'
 
 // GET /api/stories - Récupérer toutes les histoires avec filtres
 export const getStories = catchAsync(async (req, res) => {
@@ -57,8 +58,8 @@ export const getStories = catchAsync(async (req, res) => {
 
   const stories = await Story.find(query)
     .populate('relatedCountries', 'nameFr id')
-    .populate('relatedEvents', 'title date')
-    .populate('relatedFigures', 'name nameNative')
+    .populate('relatedEvents', 'title date slug')
+    .populate('relatedFigures', 'name nameNative slug')
     .sort(sortOptions)
     .limit(parseInt(limit))
     .skip(skip)
@@ -81,10 +82,10 @@ export const getStories = catchAsync(async (req, res) => {
 
 // GET /api/stories/:id - Récupérer une histoire spécifique
 export const getStoryById = catchAsync(async (req, res) => {
-  const story = await Story.findById(req.params.id)
+  const story = await findByIdOrSlug(Story, req.params.id)
     .populate('relatedCountries', 'nameFr id color')
-    .populate('relatedEvents', 'title date shortDescription')
-    .populate('relatedFigures', 'name nameNative image')
+    .populate('relatedEvents', 'title date shortDescription slug')
+    .populate('relatedFigures', 'name nameNative image slug')
 
   if (!story || !story.published) {
     return res.status(404).json({ error: 'Histoire non trouvée' })

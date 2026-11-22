@@ -82,7 +82,7 @@ export const getRecommendations = catchAsync(async (req, res) => {
     recommendations.blogs = await Blog.find(blogQuery)
       .sort({ views: -1, createdAt: -1 })
       .limit(Number(limit))
-      .select('title excerpt image category views createdAt')
+      .select('title excerpt image category views createdAt slug')
       .lean()
   }
 
@@ -98,7 +98,7 @@ export const getRecommendations = catchAsync(async (req, res) => {
       .sort({ importance: -1, views: -1 })
       .limit(Number(limit))
       .populate('location.country', 'nameFr id color')
-      .select('title shortDescription date period location category views')
+      .select('title shortDescription date period location category views slug')
       .lean()
   }
 
@@ -108,7 +108,7 @@ export const getRecommendations = catchAsync(async (req, res) => {
       .sort({ views: -1 })
       .limit(Number(limit))
       .populate('birthPlace.country', 'nameFr id')
-      .select('name nameNative shortBiography image role views')
+      .select('name nameNative shortBiography image role views slug')
       .lean()
   }
 

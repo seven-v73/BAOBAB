@@ -1,3 +1,5 @@
+import { useAdresseLisible } from '../hooks/useAdresseLisible'
+import { lienContenu } from '../utils/liens'
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { ArrowRight } from 'lucide-react'
@@ -11,6 +13,7 @@ import { PERSONNALITES } from '../data/reperesContent'
 // Fiche d'une personnalité (Repères) dans le gabarit de lecture de la refonte.
 
 interface Figure {
+  slug?: string
   _id: string
   name: string
   nameNative?: string
@@ -52,9 +55,10 @@ export const HistoricalFigureDetail = () => {
   const [figure, setFigure] = useState<Figure | null>(null)
   const [loading, setLoading] = useState(true)
 
+  useAdresseLisible('figures', figure)
   useSeo(
     figure
-      ? {
+      ? { path: lienContenu('figures', figure),
           title: figure.name,
           description: figure.shortBiography || figure.biography,
           image: figure.image,
@@ -119,7 +123,7 @@ export const HistoricalFigureDetail = () => {
       lead={figure.shortBiography}
       byline={{ name: figure.nameNative && figure.nameNative !== figure.name ? figure.nameNative : undefined, detail: figure.verified ? 'Fiche relue par l’équipe' : undefined }}
       bookmark={{ itemType: 'figure', itemId: figure._id }}
-      shareUrl={`/figures/${figure._id}`}
+      shareUrl={lienContenu('figures', figure)}
       image={portrait ? { src: portrait, caption: figure.name } : undefined}
       place={place.codes.length ? place : undefined}
       toc={toc}
@@ -193,7 +197,7 @@ export const HistoricalFigureDetail = () => {
           <ul className="mrl-steps">
             {figure.relatedEvents.map((event) => (
               <li key={event._id}>
-                <Link to={`/timeline/${event._id}`} className="mrl-step">
+                <Link to={lienContenu('timeline', event)} className="mrl-step">
                   <span className="mrl-step-text">
                     <span className="mrd-kicker">{formatHistoricalDate(event.date)}</span>
                     <strong>{event.title}</strong>

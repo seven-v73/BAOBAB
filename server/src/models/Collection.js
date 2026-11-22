@@ -1,4 +1,5 @@
 import mongoose from 'mongoose'
+import { slugPlugin } from '../utils/slug.js'
 
 const collectionSchema = new mongoose.Schema({
   title: {
@@ -102,6 +103,8 @@ const collectionSchema = new mongoose.Schema({
 })
 
 // Index pour recherche
+// Adresse lisible (/…/titre-du-contenu), attribuée à la création
+collectionSchema.plugin(slugPlugin, { source: 'title' })
 collectionSchema.index({ title: 'text', description: 'text', shortDescription: 'text' })
 collectionSchema.index({ theme: 1, difficulty: 1 })
 collectionSchema.index({ isFeatured: 1, views: -1 })

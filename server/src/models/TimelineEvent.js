@@ -1,4 +1,5 @@
 import mongoose from 'mongoose'
+import { slugPlugin } from '../utils/slug.js'
 
 const timelineEventSchema = new mongoose.Schema({
   title: {
@@ -158,6 +159,8 @@ const timelineEventSchema = new mongoose.Schema({
 })
 
 // Index pour recherche
+// Adresse lisible (/…/titre-du-contenu), attribuée à la création
+timelineEventSchema.plugin(slugPlugin, { source: 'title' })
 timelineEventSchema.index({ title: 'text', description: 'text', shortDescription: 'text' })
 timelineEventSchema.index({ date: 1, period: 1 })
 timelineEventSchema.index({ 'location.country': 1 })

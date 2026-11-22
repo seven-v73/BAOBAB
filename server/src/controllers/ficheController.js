@@ -1,6 +1,7 @@
 import Fiche, { FICHE_STATUTS, FICHE_TYPES } from '../models/Fiche.js'
 import { AppError, catchAsync } from '../utils/errorHandler.js'
 import { escapeRegExp } from '../utils/regex.js'
+import { demanderRegenerationSeo } from '../utils/seoRefresh.js'
 
 // Base de connaissances : le public ne voit que les fiches publiées ; l'équipe relit, valide,
 // publie ou retire (avec historique de chaque décision).
@@ -85,10 +86,12 @@ export const changerStatut = catchAsync(async (req, res) => {
   if (statut === 'publie' && fiche.sensible && !String(note || '').trim()) {
     throw new AppError('Contenu sensible : indiquez qui a validé la fiche avant de la publier.', 400)
   }
+  const etaitPubliee = fiche.statut === 'publie'
   fiche.statut = statut
   if (statut !== 'retire') fiche.miseAJourDisponible = false
   fiche.historique.push({ statut, par: req.user._id, note: String(note || '').slice(0, 1000) })
   await fiche.save()
+  if (etaitPubliee || statut === 'publie') demanderRegenerationSeo()
   res.json({ ficheId: fiche.ficheId, statut: fiche.statut, historique: fiche.historique })
 })
 
@@ -103,6 +106,7 @@ export const publierValidees = catchAsync(async (req, res) => {
     $set: { statut: 'publie', miseAJourDisponible: false },
     $push: { historique: { statut: 'publie', par: req.user._id, le: new Date(), note } },
   })
+  if (resultat.modifiedCount) demanderRegenerationSeo()
   const sensiblesEnAttente = await Fiche.countDocuments({ ...filtre, sensible: true })
   res.json({ publiees: resultat.modifiedCount, sensiblesEnAttente })
 })

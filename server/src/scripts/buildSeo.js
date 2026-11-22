@@ -144,6 +144,18 @@ const seeAlso = (items, current, render, count = 6) => {
   return others.length ? `<h2>À découvrir aussi</h2>${list(others, render)}` : ''
 }
 
+const FICHE_TYPES_FR = {
+  langue: 'Langue', peuple: 'Peuple', site: 'Lieu', tradition: 'Tradition', personnalite: 'Personnalité',
+  evenement: 'Événement', oeuvre: 'Œuvre', proverbe: 'Proverbe',
+}
+const joinPlain = (parts) => parts.filter(Boolean).join(' · ')
+
+// Adresse lisible si le contenu en a une (/figures/nelson-mandela), sinon l'identifiant
+const slugOf = (doc) => doc.slug || doc._id
+
+/** Ancienne adresse par identifiant, quand le contenu a désormais une adresse lisible */
+const aliasOf = (section, doc) => (doc.slug ? [`/${section}/${doc._id}`] : [])
+
 const breadcrumbLd = (crumbs) => ({
   '@type': 'BreadcrumbList',
   itemListElement: crumbs.map((crumb, index) => ({
@@ -215,9 +227,9 @@ const renderPage = (shell, page) =>
 /* ------------------------------------------------------------- collecte des pages */
 
 const collectPages = async (models) => {
-  const { Blog, Country, HistoricalFigure, Story, Collection, TimelineEvent, Proverb } = models
+  const { Blog, Country, HistoricalFigure, Story, Collection, TimelineEvent, Proverb, Fiche } = models
 
-  const [blogs, countries, figures, stories, collections, events, proverbs] = await Promise.all([
+  const [blogs, countries, figures, stories, collections, events, proverbs, fiches] = await Promise.all([
     Blog.find({ published: true }).sort({ createdAt: -1 }).lean(),
     Country.find({ isActive: { $ne: false } }).sort({ nameFr: 1 }).lean(),
     HistoricalFigure.find({ isActive: { $ne: false } }).sort({ name: 1 }).lean(),
@@ -225,6 +237,8 @@ const collectPages = async (models) => {
     Collection.find({ isActive: { $ne: false } }).sort({ order: 1 }).lean(),
     TimelineEvent.find({ isActive: { $ne: false } }).sort({ date: 1 }).lean(),
     Proverb.find({}).sort({ countryName: 1 }).lean(),
+    // Base de connaissances : seulement ce que l'équipe a relu et publié (jamais les fiches en revue)
+    Fiche ? Fiche.find({ statut: 'publie', type: { $ne: 'pays' } }).sort({ titre: 1 }).lean() : [],
   ])
 
   const pages = []
@@ -250,7 +264,7 @@ const collectPages = async (models) => {
       ],
       ([href, label]) => link(href, label),
     )}
-<h2>À lire</h2>${list(blogs.slice(0, 6), (b) => link(`/blog/${b._id}`, b.title))}`,
+<h2>À lire</h2>${list(blogs.slice(0, 6), (b) => link(`/blog/${slugOf(b)}`, b.title))}`,
     jsonLd: [
       {
         '@type': 'WebSite',
@@ -301,12 +315,13 @@ const collectPages = async (models) => {
     const countryProverbs = proverbs.filter((p) => String(p.country) === String(c._id) || norm(p.countryName) === norm(name))
     const countryBlogs = blogs.filter((b) => b.country === code)
     const countryFigures = figures.filter((f) => countryOfFigure.get(String(f._id)) === c || (f.relatedCountries || []).some((id) => String(id) === String(c._id)))
+    const countryFiches = fiches.filter((f) => String(f.pays).toUpperCase() === code)
     const countryEvents = events.filter((e) => (e.relatedCountries || []).some((id) => String(id) === String(c._id)))
     // Personnalités liées au pays mais absentes de sa liste « personnalités »
     const otherFigures = countryFigures.filter((f) => !(c.notableFigures || []).some((entry) => figureIn(entry) === f))
     const notable = (entry) => {
       const f = figureIn(entry)
-      return f ? link(`/figures/${f._id}`, entry) : esc(entry)
+      return f ? link(`/figures/${slugOf(f)}`, entry) : esc(entry)
     }
     const description = c.oneSentenceSummary || c.description || `${name} : histoire, langues et cultures.`
     pages.push({
@@ -328,13 +343,14 @@ ${c.peoples?.length ? `<h2>Peuples</h2>${list(c.peoples)}` : ''}
 ${c.musicAndArts?.length ? `<h2>Musiques et arts</h2>${list(c.musicAndArts)}` : ''}
 ${c.foodCulture?.length ? `<h2>Cuisine</h2>${list(c.foodCulture)}` : ''}
 ${c.notableFigures?.length ? `<h2>Personnalités</h2>${list(c.notableFigures, notable)}` : ''}
-${list(otherFigures, (f) => link(`/figures/${f._id}`, f.name))}
+${list(otherFigures, (f) => link(`/figures/${slugOf(f)}`, f.name))}
 ${c.oralTraditions?.length ? `<h2>Traditions orales</h2>${list(c.oralTraditions)}` : ''}
 ${c.customs?.length ? `<h2>Coutumes</h2>${list(c.customs)}` : ''}
 ${c.festivals?.length ? `<h2>Fêtes et festivals</h2>${list(c.festivals)}` : ''}
 ${c.discoveryIntro ? `<h2>Par où commencer</h2><p>${esc(plain(c.discoveryIntro))}</p>` : ''}
-${countryEvents.length ? `<h2>Dates clés</h2>${list(countryEvents, (e) => `${year(e.date) ?? ''} — ${link(`/timeline/${e._id}`, e.title)}`)}` : ''}
-${countryBlogs.length ? `<h2>À lire</h2>${list(countryBlogs, (b) => link(`/blog/${b._id}`, b.title))}` : ''}
+${countryEvents.length ? `<h2>Dates clés</h2>${list(countryEvents, (e) => `${year(e.date) ?? ''} — ${link(`/timeline/${slugOf(e)}`, e.title)}`)}` : ''}
+${countryFiches.length ? `<h2>Fiches de la base de connaissances</h2>${list(countryFiches, (f) => `${link(`/fiche/${f.ficheId}`, f.titre)} — ${esc(FICHE_TYPES_FR[f.type] || 'Fiche')}`)}` : ''}
+${countryBlogs.length ? `<h2>À lire</h2>${list(countryBlogs, (b) => link(`/blog/${slugOf(b)}`, b.title))}` : ''}
 ${countryProverbs.length ? `<h2>Proverbes</h2>${list(countryProverbs.slice(0, 8), (p) => `<blockquote>${esc(p.text)}</blockquote>${p.explanation ? ` ${esc(p.explanation)}` : ''}`)}` : ''}
 ${seeAlso(countries, c, (o) => link(`/country/${o.id.toLowerCase()}`, countryName(o)))}`,
       jsonLd: {
@@ -357,14 +373,16 @@ ${seeAlso(countries, c, (o) => link(`/country/${o.id.toLowerCase()}`, countryNam
     changefreq: 'daily',
     lastmod: maxDate([...blogs, ...stories, ...collections]),
     priority: '0.9',
-    body: `<h2>Articles</h2>${list(blogs, (b) => `${link(`/blog/${b._id}`, b.title)} — ${esc(clip(b.excerpt, 140))}`)}
-<h2>Histoires</h2>${list(stories, (s) => `${link(`/stories/${s._id}`, s.title)} — ${esc(s.subtitle || clip(s.description, 120))}`)}
-<h2>Dossiers</h2>${list(collections, (c) => `${link(`/collections/${c._id}`, c.title)} — ${esc(c.shortDescription || '')}`)}`,
+    body: `<h2>Articles</h2>${list(blogs, (b) => `${link(`/blog/${slugOf(b)}`, b.title)} — ${esc(clip(b.excerpt, 140))}`)}
+<h2>Histoires</h2>${list(stories, (s) => `${link(`/stories/${slugOf(s)}`, s.title)} — ${esc(s.subtitle || clip(s.description, 120))}`)}
+<h2>Dossiers</h2>${list(collections, (c) => `${link(`/collections/${slugOf(c)}`, c.title)} — ${esc(c.shortDescription || '')}`)}`,
   })
   for (const b of blogs) {
-    const path_ = `/blog/${b._id}`
+    const path_ = `/blog/${slugOf(b)}`
+    const aliases_ = aliasOf('blog', b)
     pages.push({
       path: path_,
+      aliases: aliases_,
       title: b.title,
       description: b.excerpt || b.content,
       image: b.image,
@@ -375,7 +393,7 @@ ${seeAlso(countries, c, (o) => link(`/country/${o.id.toLowerCase()}`, countryNam
       body: `<p><em>${esc(b.category || '')} · ${b.kind === 'temoignage' ? 'Témoignage' : 'Article documenté'} · ${esc(b.author || SITE_NAME)}</em></p>\n${b.excerpt ? `<p><strong>${esc(plain(b.excerpt))}</strong></p>` : ''}\n${articleHtml(b.content)}\n${referencesHtml(b.references)}\n${(() => {
         const country = b.country && countries.find((c) => String(c.id).toUpperCase() === b.country)
         return country ? `<p>Pays : ${link(`/country/${country.id.toLowerCase()}`, countryName(country))}</p>` : ''
-      })()}\n${seeAlso(blogs, b, (o) => link(`/blog/${o._id}`, o.title), 5)}`,
+      })()}\n${seeAlso(blogs, b, (o) => link(`/blog/${slugOf(o)}`, o.title), 5)}`,
       jsonLd: {
         '@type': 'Article',
         headline: clip(b.title, 110),
@@ -402,20 +420,22 @@ ${seeAlso(countries, c, (o) => link(`/country/${o.id.toLowerCase()}`, countryNam
     breadcrumbs: [home, { name: 'Repères', path: '/reperes' }],
     priority: '0.9',
     lastmod: maxDate([...events, ...figures]),
-    body: `<h2>Dates</h2>${list(events, (e) => `${year(e.date) ?? ''} — ${link(`/timeline/${e._id}`, e.title)}`)}
-<h2>Personnalités</h2>${list(figures, (f) => `${link(`/figures/${f._id}`, f.name)} — ${esc(f.shortBiography || '')}`)}
+    body: `<h2>Dates</h2>${list(events, (e) => `${year(e.date) ?? ''} — ${link(`/timeline/${slugOf(e)}`, e.title)}`)}
+<h2>Personnalités</h2>${list(figures, (f) => `${link(`/figures/${slugOf(f)}`, f.name)} — ${esc(f.shortBiography || '')}`)}
 <h2>Proverbes</h2>${list(
       proverbs,
       (p) => `<blockquote>${esc(p.text)}</blockquote> <small>${esc([p.countryName, p.language].filter(Boolean).join(' · '))}</small>${p.explanation ? `<p>${esc(p.explanation)}</p>` : ''}`,
     )}`,
   })
   for (const f of figures) {
-    const path_ = `/figures/${f._id}`
+    const path_ = `/figures/${slugOf(f)}`
+    const aliases_ = aliasOf('figures', f)
     const born = year(f.birthDate)
     const died = year(f.deathDate)
     const span = born ? ` (${born}${died ? `–${died}` : ''})` : ''
     pages.push({
       path: path_,
+      aliases: aliases_,
       title: `${f.name}${span}`,
       heading: f.name,
       description: f.shortBiography || f.biography,
@@ -428,7 +448,7 @@ ${seeAlso(countries, c, (o) => link(`/country/${o.id.toLowerCase()}`, countryNam
 ${paragraphs(f.biography, 20)}
 ${f.achievements?.length ? `<h2>Réalisations</h2>${list(f.achievements.map((a) => (typeof a === 'string' ? a : a?.title || a?.description || '')).filter(Boolean))}` : ''}
 ${countryOfFigure.get(String(f._id)) ? `<p>Pays : ${link(`/country/${countryOfFigure.get(String(f._id)).id.toLowerCase()}`, countryName(countryOfFigure.get(String(f._id))))}</p>` : ''}
-${seeAlso(figures, f, (o) => link(`/figures/${o._id}`, o.name))}`,
+${seeAlso(figures, f, (o) => link(`/figures/${slugOf(o)}`, o.name))}`,
       jsonLd: {
         '@type': 'Person',
         name: f.name,
@@ -445,9 +465,11 @@ ${seeAlso(figures, f, (o) => link(`/figures/${o._id}`, o.name))}`,
   }
 
   for (const s of stories) {
-    const path_ = `/stories/${s._id}`
+    const path_ = `/stories/${slugOf(s)}`
+    const aliases_ = aliasOf('stories', s)
     pages.push({
       path: path_,
+      aliases: aliases_,
       title: s.subtitle ? `${s.title} : ${s.subtitle}` : s.title,
       heading: s.title,
       description: s.description,
@@ -458,7 +480,7 @@ ${seeAlso(figures, f, (o) => link(`/figures/${o._id}`, o.name))}`,
       priority: '0.7',
       body: `<p>${esc(plain(s.description))}</p>
 ${(s.chapters || []).map((ch) => `<h2>${esc(ch.title || '')}</h2>\n${paragraphs(ch.content, 20)}`).join('\n')}
-${seeAlso(stories, s, (o) => link(`/stories/${o._id}`, o.title), 5)}`,
+${seeAlso(stories, s, (o) => link(`/stories/${slugOf(o)}`, o.title), 5)}`,
       jsonLd: {
         '@type': 'Article',
         headline: clip(s.title, 110),
@@ -476,25 +498,29 @@ ${seeAlso(stories, s, (o) => link(`/stories/${o._id}`, o.title), 5)}`,
   }
 
   for (const c of collections) {
-    const path_ = `/collections/${c._id}`
+    const path_ = `/collections/${slugOf(c)}`
+    const aliases_ = aliasOf('collections', c)
     pages.push({
       path: path_,
+      aliases: aliases_,
       title: c.title,
       description: c.shortDescription || c.description,
       image: c.coverImage,
       lastmod: c.updatedAt,
       breadcrumbs: [home, { name: 'Récits', path: '/recits' }, { name: c.title, path: path_ }],
       priority: '0.6',
-      body: `${paragraphs(c.description, 10)}\n${seeAlso(collections, c, (o) => link(`/collections/${o._id}`, o.title), 5)}`,
+      body: `${paragraphs(c.description, 10)}\n${seeAlso(collections, c, (o) => link(`/collections/${slugOf(o)}`, o.title), 5)}`,
       jsonLd: { '@type': 'CollectionPage', name: c.title, description: clip(c.shortDescription || c.description, 300), url: absolute(path_) },
     })
   }
 
   for (const e of events) {
-    const path_ = `/timeline/${e._id}`
+    const path_ = `/timeline/${slugOf(e)}`
+    const aliases_ = aliasOf('timeline', e)
     const y = year(e.date)
     pages.push({
       path: path_,
+      aliases: aliases_,
       title: y ? `${e.title} (${y})` : e.title,
       heading: e.title,
       description: e.shortDescription || e.description,
@@ -502,7 +528,46 @@ ${seeAlso(stories, s, (o) => link(`/stories/${o._id}`, o.title), 5)}`,
       lastmod: e.updatedAt,
       breadcrumbs: [home, { name: 'Repères', path: '/reperes' }, { name: e.title, path: path_ }],
       priority: '0.6',
-      body: `<p><em>${esc(e.period || '')}${e.location?.region ? ` · ${esc(e.location.region)}` : ''}${y ? ` · ${y}` : ''}</em></p>\n${paragraphs(e.description, 10)}\n${seeAlso(events, e, (o) => `${year(o.date) ?? ''} — ${link(`/timeline/${o._id}`, o.title)}`)}`,
+      body: `<p><em>${esc(e.period || '')}${e.location?.region ? ` · ${esc(e.location.region)}` : ''}${y ? ` · ${y}` : ''}</em></p>\n${paragraphs(e.description, 10)}\n${seeAlso(events, e, (o) => `${year(o.date) ?? ''} — ${link(`/timeline/${slugOf(o)}`, o.title)}`)}`,
+    })
+  }
+
+  /* Fiches publiées de la base de connaissances */
+  for (const f of fiches) {
+    const path_ = `/fiche/${f.ficheId}`
+    const country = countries.find((c) => String(c.id).toUpperCase() === String(f.pays).toUpperCase())
+    const kind = FICHE_TYPES_FR[f.type] || 'Fiche'
+    const crumbs = country
+      ? [home, { name: 'Explorer', path: '/map' }, { name: countryName(country), path: `/country/${country.id.toLowerCase()}` }, { name: f.titre, path: path_ }]
+      : [home, { name: f.titre, path: path_ }]
+    pages.push({
+      path: path_,
+      title: country ? `${f.titre} (${countryName(country)})` : f.titre,
+      heading: f.titre,
+      description: f.description,
+      type: f.type === 'personnalite' ? 'profile' : 'article',
+      lastmod: f.updatedAt,
+      breadcrumbs: crumbs,
+      priority: '0.6',
+      body: `<p><em>${esc(joinPlain([kind, f.periode, country && countryName(country)]))}</em></p>
+${paragraphs(f.description, 10)}
+${f.verification?.etat === 'verifie' ? '<p>Fiche vérifiée par l’équipe MonBaobab.</p>' : ''}
+${(f.sources || []).length ? `<h2>Sources</h2><ol>${f.sources.map((src) => `<li>${esc(src.titre)}${src.institution ? ` — ${esc(src.institution)}` : ''}${src.url ? ` <a href="${esc(src.url)}" rel="nofollow">${esc(src.url)}</a>` : ''}</li>`).join('')}</ol>` : ''}
+${country ? `<p>Pays : ${link(`/country/${country.id.toLowerCase()}`, countryName(country))}</p>` : ''}`,
+      jsonLd:
+        f.type === 'personnalite'
+          ? { '@type': 'Person', name: f.titre, description: clip(f.description, 300), url: absolute(path_), sameAs: f.wikidata ? [`https://www.wikidata.org/wiki/${f.wikidata}`] : undefined }
+          : {
+              '@type': 'Article',
+              headline: clip(f.titre, 110),
+              description: clip(f.description, 300),
+              about: f.wikidata ? { '@id': `https://www.wikidata.org/wiki/${f.wikidata}` } : undefined,
+              citation: (f.sources || []).map((src) => src.url || src.titre).filter(Boolean),
+              dateModified: isoDate(f.updatedAt),
+              publisher: { '@id': `${SITE}/#organization` },
+              inLanguage: 'fr',
+              mainEntityOfPage: absolute(path_),
+            },
     })
   }
 
@@ -596,6 +661,14 @@ const writePages = (shell, pages) => {
     const tmp = `${target}.tmp-${process.pid}`
     fs.writeFileSync(tmp, renderPage(shell, page))
     fs.renameSync(tmp, target)
+    // Anciennes adresses (/figures/<identifiant>) : page de redirection immédiate vers l'adresse lisible.
+    // Les liens déjà partagés continuent de marcher, et Google transfère le référencement.
+    for (const alias of page.aliases || []) {
+      fs.writeFileSync(
+        path.join(DIST, `${alias}.html`),
+        `<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>${esc(page.title || SITE_NAME)}</title><link rel="canonical" href="${esc(absolute(page.path))}"><meta name="robots" content="noindex, follow"><meta http-equiv="refresh" content="0; url=${esc(page.path)}"></head><body><p><a href="${esc(page.path)}">${esc(page.title || SITE_NAME)}</a></p></body></html>\n`,
+      )
+    }
   }
 }
 
@@ -632,6 +705,7 @@ export const buildSeo = async ({ models } = {}) => {
       Collection: await load('Collection'),
       TimelineEvent: await load('TimelineEvent'),
       Proverb: await load('Proverb'),
+      Fiche: await load('Fiche'),
     }
   }
 

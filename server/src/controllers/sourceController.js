@@ -85,7 +85,7 @@ export const getSources = catchAsync(async (req, res) => {
 export const getSourceById = catchAsync(async (req, res) => {
   const source = await Source.findById(req.params.id)
     .populate('relatedCountries', 'nameFr id')
-    .populate('verifiedBy', 'name email')
+    .populate('verifiedBy', 'name')
 
   if (!source || !source.isActive) {
     return res.status(404).json({ error: 'Source non trouvée' })

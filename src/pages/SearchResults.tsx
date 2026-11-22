@@ -1,3 +1,4 @@
+import { lienContenu } from '../utils/liens'
 import { useEffect, useState } from 'react'
 import type { CSSProperties, FormEvent } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
@@ -60,7 +61,7 @@ const toHits = (data: any, fiches: any[] = []): Record<Exclude<GroupKey, 'tout'>
         kind: b.kind === 'temoignage' ? 'Témoignage' : 'Article',
         title: b.title,
         text: b.excerpt,
-        to: `/blog/${b._id}`,
+        to: lienContenu('blog', b),
         place: placeOf([...new Set([b.country && String(b.country).toUpperCase(), ...findCountryCodes(b.title, b.tags)].filter(Boolean) as string[])]),
       })),
       ...list('stories').map((s: any) => ({
@@ -68,7 +69,7 @@ const toHits = (data: any, fiches: any[] = []): Record<Exclude<GroupKey, 'tout'>
         kind: 'Histoire',
         title: s.title,
         text: s.subtitle || s.description,
-        to: `/stories/${s._id}`,
+        to: lienContenu('stories', s),
         place: placeOf(findCountryCodes(s.tags, s.title)),
       })),
       ...list('collections').map((c: any) => ({
@@ -76,7 +77,7 @@ const toHits = (data: any, fiches: any[] = []): Record<Exclude<GroupKey, 'tout'>
         kind: 'Dossier',
         title: c.title,
         text: c.shortDescription,
-        to: `/collections/${c._id}`,
+        to: lienContenu('collections', c),
         place: placeOf(findCountryCodes(c.tags, c.title)),
       })),
     ],
@@ -86,7 +87,7 @@ const toHits = (data: any, fiches: any[] = []): Record<Exclude<GroupKey, 'tout'>
         kind: joinMeta('Date', formatHistoricalDate(e.date)),
         title: e.title,
         text: e.shortDescription,
-        to: `/timeline/${e._id}`,
+        to: lienContenu('timeline', e),
         place: placeOf(findCountryCodes(e.location?.region, e.title)),
       })),
       ...list('figures').map((f: any) => ({
@@ -94,7 +95,7 @@ const toHits = (data: any, fiches: any[] = []): Record<Exclude<GroupKey, 'tout'>
         kind: 'Personnalité',
         title: f.name,
         text: f.shortBiography,
-        to: `/figures/${f._id}`,
+        to: lienContenu('figures', f),
         place: placeOf(findCountryCodes(f.birthPlace?.location, f.shortBiography)),
       })),
       ...fiches.filter((f) => ['personnalite', 'evenement', 'proverbe'].includes(f.type)).map(ficheHit),

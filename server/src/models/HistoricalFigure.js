@@ -1,4 +1,5 @@
 import mongoose from 'mongoose'
+import { slugPlugin } from '../utils/slug.js'
 
 const historicalFigureSchema = new mongoose.Schema({
   name: {
@@ -150,6 +151,8 @@ const historicalFigureSchema = new mongoose.Schema({
 })
 
 // Index pour recherche
+// Adresse lisible (/…/nelson-mandela), attribuée à la création
+historicalFigureSchema.plugin(slugPlugin, { source: 'name' })
 historicalFigureSchema.index({ name: 'text', nameNative: 'text', biography: 'text', shortBiography: 'text' })
 historicalFigureSchema.index({ 'birthPlace.country': 1 })
 historicalFigureSchema.index({ role: 1, verified: 1 })
