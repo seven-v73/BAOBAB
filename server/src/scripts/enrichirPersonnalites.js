@@ -75,6 +75,16 @@ const main = async () => {
         sourcesCreees += 1
         actions.push(`+ source « ${donnees.title} »`)
         if (APPLIQUER) source = await Source.create(donnees)
+      } else if ((source.keywords || []).includes(figure.name)) {
+        // Source créée par ce script : on reporte les corrections du fichier (titre, année de consultation retirée)
+        const titre = String(s.title).slice(0, 300)
+        const annee = Number.isInteger(s.year) ? s.year : undefined
+        if (source.title !== titre || (source.year ?? undefined) !== annee) {
+          actions.push(`~ source corrigée « ${source.title} » → « ${titre} »${annee === undefined && source.year ? ' (année de consultation retirée)' : ''}`)
+          source.title = titre
+          source.year = annee
+          if (APPLIQUER) await source.save()
+        }
       }
       if (source && !figure.sources.some((id) => String(id) === String(source._id))) {
         figure.sources.push(source._id)
