@@ -103,7 +103,7 @@ const toHits = (data: any, fiches: any[] = []): Record<Exclude<GroupKey, 'tout'>
         key: `proverb-${p._id}`,
         kind: joinMeta('Proverbe', p.language && p.language.toLowerCase()),
         title: `« ${p.text} »`,
-        to: '/reperes?type=proverbes',
+        to: lienContenu('proverbs', p),
         place: placeOf(findCountryCodes(p.countryName)),
       })),
     ],

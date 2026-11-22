@@ -33,6 +33,7 @@ const ForgotPassword = lazy(() => import('./pages/ForgotPassword').then(module =
 const Register = lazy(() => import('./pages/Register').then(module => ({ default: module.Register })))
 const Sources = lazy(() => import('./pages/Sources').then(module => ({ default: module.Sources })))
 const Contribute = lazy(() => import('./pages/Contribute').then(module => ({ default: module.Contribute })))
+const ProverbDetail = lazy(() => import('./pages/ProverbDetail').then(module => ({ default: module.ProverbDetail })))
 const NotFound = lazy(() => import('./pages/NotFound').then(module => ({ default: module.NotFound })))
 const SearchResults = lazy(() => import('./pages/SearchResults').then(module => ({ default: module.SearchResults })))
 
@@ -194,6 +195,7 @@ function App() {
         <Route path="/timeline" element={<Navigate to="/reperes?type=dates" replace />} />
         <Route path="/figures" element={<Navigate to="/reperes?type=personnalites" replace />} />
         <Route path="/proverbs" element={<Navigate to="/reperes?type=proverbes" replace />} />
+        <Route path="/proverbs/:id" element={<Suspense fallback={<LoadingFallback />}><ProverbDetail /></Suspense>} />
         <Route
           path="/blog/ecrire"
           element={

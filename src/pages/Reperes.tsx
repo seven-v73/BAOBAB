@@ -228,14 +228,16 @@ export const Reperes = () => {
             </header>
             <ul className="mrp-proverbes">
               {proverbsShown.map((proverbe, index) => (
-                <li key={proverbe.id} className={index === 0 ? 'mrp-proverbe--sombre' : undefined} style={regionStyle(proverbe.region)}>
-                  <blockquote>
-                    <span className="mrp-guillemet" aria-hidden="true">
-                      «
-                    </span>
-                    {proverbe.citation}»
-                  </blockquote>
-                  <p className="mrp-kicker">{duJour && proverbe.id === duJour.id ? `Proverbe du jour · ${proverbe.origine}` : proverbe.origine}</p>
+                <li key={proverbe.id}>
+                  <MaybeLink to={proverbe.to} className={index === 0 ? 'mrp-proverbe mrp-proverbe--sombre' : 'mrp-proverbe'} style={regionStyle(proverbe.region)}>
+                    <blockquote>
+                      <span className="mrp-guillemet" aria-hidden="true">
+                        «
+                      </span>
+                      {proverbe.citation}»
+                    </blockquote>
+                    <p className="mrp-kicker">{duJour && proverbe.id === duJour.id ? `Proverbe du jour · ${proverbe.origine}` : proverbe.origine}</p>
+                  </MaybeLink>
                 </li>
               ))}
             </ul>

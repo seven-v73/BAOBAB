@@ -1,3 +1,4 @@
+import { lienContenu } from '../utils/liens'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import type { ReactNode } from 'react'
 import { Link, useParams } from 'react-router-dom'
@@ -29,7 +30,7 @@ import { Breadcrumbs } from '../components/UX/Breadcrumbs'
 import { TypeChips } from '../components/UX/TypeChips'
 import { FichesPubliees } from '../components/Fiches/FichesPubliees'
 import { useParamState } from '../hooks/useParamState'
-import { countryService, searchService, sourceService } from '../services/api'
+import { countryService, proverbService, sourceService } from '../services/api'
 import { useSeo } from '../seo/useSeo'
 import { getCountryById as getStaticCountry } from '../data/allAfricanCountries'
 import {
@@ -139,6 +140,9 @@ const TagList = ({ items }: { items: string[] }) => (
   </ul>
 )
 
+const sansAccents = (value = '') => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim()
+const memePays = (a?: string, b?: string) => sansAccents(a) === sansAccents(b)
+
 export const CountryDetail = () => {
   const { id = '' } = useParams<{ id: string }>()
   const [country, setCountry] = useState<Country | null>(null)
@@ -207,7 +211,11 @@ export const CountryDetail = () => {
     let cancelled = false
     Promise.all([
       sourceService.getAll({ country: country.id, limit: 6, minReliability: 3 }).then((r) => listFrom(r.data, 'sources')).catch(() => []),
-      searchService.search({ q: country.nameFr, limit: 6 }).then((r) => listFrom(r.data?.proverbs, 'proverbs')).catch(() => []),
+      // Proverbes de ce pays exactement (une recherche sur « Mali » ramenait aussi la Somalie)
+      proverbService
+        .getAll({ countryName: country.nameFr, limit: 50 })
+        .then((r) => listFrom(r.data, 'data').filter((p: any) => memePays(p.countryName, country.nameFr)).slice(0, 6))
+        .catch(() => []),
     ]).then(([sourceList, proverbList]) => {
       if (cancelled) return
       setSources(sourceList)
@@ -522,8 +530,10 @@ export const CountryDetail = () => {
                     <ul className="mbp-quotes">
                       {proverbs.map((proverb) => (
                         <li key={proverb._id}>
-                          <blockquote>« {String(proverb.text).replace(/^«\s*|\s*»$/g, '')} »</blockquote>
-                          {(proverb.translation || proverb.meaning) && <p>{proverb.translation || proverb.meaning}</p>}
+                          <Link to={lienContenu('proverbs', proverb)} className="mbp-quote-lien">
+                            <blockquote>« {String(proverb.text).replace(/^«\s*|\s*»$/g, '')} »</blockquote>
+                            {(proverb.explanation || proverb.meaning) && <p>{proverb.explanation || proverb.meaning}</p>}
+                          </Link>
                         </li>
                       ))}
                     </ul>
@@ -625,8 +635,8 @@ export const CountryDetail = () => {
               <div className="mbp-proverb">
                 <p className="mbp-kicker">Proverbe</p>
                 <blockquote>« {String(proverbs[0].text).replace(/^«\s*|\s*»$/g, '')} »</blockquote>
-                <Link to="/reperes?type=proverbes" className="mbp-more">
-                  Lire les proverbes <ArrowRight size={16} aria-hidden="true" />
+                <Link to={lienContenu('proverbs', proverbs[0])} className="mbp-more">
+                  Lire ce proverbe <ArrowRight size={16} aria-hidden="true" />
                 </Link>
               </div>
             )}

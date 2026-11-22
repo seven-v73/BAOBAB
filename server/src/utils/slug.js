@@ -25,7 +25,7 @@ export const findByIdOrSlug = (Model, param) =>
   Model.findOne(isObjectId(param) ? { _id: param } : { slug: String(param).toLowerCase().slice(0, 100) })
 
 // Mots déjà pris par des routes du site ou de l'API (/blog/ecrire, /blog/admin, /api/blog/mine…)
-const RESERVES = new Set(['ecrire', 'admin', 'mine', 'new', 'nouveau', 'search', 'featured', 'stats', 'categories', 'tags', 'mes-textes', 'moderation', 'random', 'periods'])
+const RESERVES = new Set(['ecrire', 'admin', 'mine', 'new', 'nouveau', 'search', 'featured', 'stats', 'categories', 'tags', 'mes-textes', 'moderation', 'random', 'periods', 'du-jour'])
 
 const uniqueSlug = async (Model, base, excludeId) => {
   const root = !base ? 'page' : RESERVES.has(base) ? `${base}-1` : base

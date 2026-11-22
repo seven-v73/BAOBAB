@@ -192,7 +192,7 @@ export const searchAll = catchAsync(async (req, res) => {
       ],
     })
       .limit(Number(limit))
-      .select('text translation explanation countryName language category likes views')
+      .select('text slug translation explanation countryName language category likes views')
       .lean()
   }
 
@@ -319,7 +319,7 @@ export const getSearchSuggestions = catchAsync(async (req, res) => {
       ],
     })
       .limit(Number(limit))
-      .select('text countryName')
+      .select('text slug countryName')
       .lean(),
     [], // cercles : en pause
     [], // quiz : en pause

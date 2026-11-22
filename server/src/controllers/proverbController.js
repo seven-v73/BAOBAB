@@ -3,6 +3,8 @@ import Country from '../models/Country.js'
 import { catchAsync, AppError } from '../utils/errorHandler.js'
 import logger from '../utils/logger.js'
 import { getCountryObjectId } from '../utils/countryHelper.js'
+import { findByIdOrSlug } from '../utils/slug.js'
+import { safeRegExp } from '../utils/regex.js'
 
 // Récupérer tous les proverbes avec filtres
 export const getAllProverbs = catchAsync(async (req, res) => {
@@ -41,7 +43,7 @@ export const getAllProverbs = catchAsync(async (req, res) => {
   }
 
   if (countryName) {
-    query.countryName = { $regex: countryName, $options: 'i' }
+    query.countryName = safeRegExp(String(countryName), { fold: true })
   }
 
   if (category) {
@@ -49,7 +51,7 @@ export const getAllProverbs = catchAsync(async (req, res) => {
   }
 
   if (language) {
-    query.language = { $regex: language, $options: 'i' }
+    query.language = safeRegExp(String(language), { fold: true })
   }
 
   if (isFeatured !== undefined) {
@@ -92,19 +94,26 @@ export const getAllProverbs = catchAsync(async (req, res) => {
 export const getProverbById = catchAsync(async (req, res) => {
   const { id } = req.params
 
-  const proverb = await Proverb.findById(id).populate('country', 'name nameFr id')
+  const proverb = await findByIdOrSlug(Proverb, id).populate('country', 'name nameFr id').lean()
 
   if (!proverb) {
     throw new AppError('Proverbe non trouvé', 404)
   }
 
-  // Incrémenter les vues
-  proverb.views += 1
-  await proverb.save()
+  // Vues : incrément atomique, sans réécrire le document
+  await Proverb.updateOne({ _id: proverb._id }, { $inc: { views: 1 } })
+
+  // Autres proverbes du même pays, pour continuer la lecture
+  const related = await Proverb.find({ _id: { $ne: proverb._id }, countryName: proverb.countryName })
+    .sort({ _id: 1 })
+    .limit(4)
+    .select('text slug language countryName explanation')
+    .lean()
 
   res.json({
     success: true,
-    data: proverb,
+    data: { ...proverb, likedBy: undefined },
+    related,
   })
 })
 

@@ -10,7 +10,7 @@ import {
   likeProverb,
 } from '../controllers/proverbController.js'
 import { authenticate, authorize } from '../middleware/auth.js'
-import { validateMongoId } from '../middleware/validation.js'
+import { validateMongoId, validateIdOrSlug } from '../middleware/validation.js'
 import { writeLimiter } from '../middleware/rateLimiter.js'
 
 const router = express.Router()
@@ -19,7 +19,7 @@ const router = express.Router()
 router.get('/', getAllProverbs)
 router.get('/random', getRandomProverb)
 router.get('/du-jour', getProverbeDuJour)
-router.get('/:id', validateMongoId, getProverbById)
+router.get('/:id', validateIdOrSlug, getProverbById)
 router.post('/:id/like', writeLimiter, authenticate, validateMongoId, likeProverb)
 
 // Routes authentifiées (utilisateurs peuvent créer, admin peut modifier/supprimer)

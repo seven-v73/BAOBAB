@@ -683,6 +683,27 @@
   border-left: 3px solid var(--brand-sauge);
 }
 
+.mbp-quote-lien {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.mbp-quote-lien:focus-visible {
+  outline: 2px solid var(--brand-foret);
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .mbp-quote-lien:hover blockquote {
+    text-decoration: underline;
+    text-decoration-color: var(--brand-sauge);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.18em;
+  }
+}
+
 .mbp-quotes blockquote {
   margin: 0;
   font: 700 1.5rem / 1.22 var(--font-titre);

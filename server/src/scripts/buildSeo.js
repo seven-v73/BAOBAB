@@ -359,7 +359,7 @@ ${c.discoveryIntro ? `<h2>Par où commencer</h2><p>${esc(plain(c.discoveryIntro)
 ${countryEvents.length ? `<h2>Dates clés</h2>${list(countryEvents, (e) => `${year(e.date) ?? ''} : ${link(`/timeline/${slugOf(e)}`, e.title)}`)}` : ''}
 ${countryFiches.length ? `<h2>Fiches de la base de connaissances</h2>${list(countryFiches, (f) => `${link(`/fiche/${f.ficheId}`, f.titre)} : ${esc(FICHE_TYPES_FR[f.type] || 'Fiche')}`)}` : ''}
 ${countryBlogs.length ? `<h2>À lire</h2>${list(countryBlogs, (b) => link(`/blog/${slugOf(b)}`, b.title))}` : ''}
-${countryProverbs.length ? `<h2>Proverbes</h2>${list(countryProverbs.slice(0, 8), (p) => `<blockquote>${esc(p.text)}</blockquote>${p.explanation ? ` ${esc(p.explanation)}` : ''}`)}` : ''}
+${countryProverbs.length ? `<h2>Proverbes</h2>${list(countryProverbs.slice(0, 8), (p) => `<blockquote>${link(`/proverbs/${slugOf(p)}`, p.text)}</blockquote>${p.explanation ? ` ${esc(p.explanation)}` : ''}`)}` : ''}
 ${seeAlso(countries, c, (o) => link(`/country/${o.id.toLowerCase()}`, countryName(o)))}`,
       jsonLd: {
         '@type': 'Country',
@@ -432,7 +432,7 @@ ${seeAlso(countries, c, (o) => link(`/country/${o.id.toLowerCase()}`, countryNam
 <h2>Personnalités</h2>${list(figures, (f) => `${link(`/figures/${slugOf(f)}`, f.name)} : ${esc(f.shortBiography || '')}`)}
 <h2>Proverbes</h2>${list(
       proverbs,
-      (p) => `<blockquote>${esc(p.text)}</blockquote> <small>${esc([p.countryName, p.language].filter(Boolean).join(' · '))}</small>${p.explanation ? `<p>${esc(p.explanation)}</p>` : ''}`,
+      (p) => `<blockquote>${link(`/proverbs/${slugOf(p)}`, p.text)}</blockquote> <small>${esc([p.countryName, p.language].filter(Boolean).join(' · '))}</small>${p.explanation ? `<p>${esc(p.explanation)}</p>` : ''}`,
     )}`,
   })
   const illustres = portraitsIllustres()
@@ -539,6 +539,38 @@ ${seeAlso(stories, s, (o) => link(`/stories/${slugOf(o)}`, o.title), 5)}`,
       breadcrumbs: [home, { name: 'Repères', path: '/reperes' }, { name: e.title, path: path_ }],
       priority: '0.6',
       body: `<p><em>${esc(e.period || '')}${e.location?.region ? ` · ${esc(e.location.region)}` : ''}${y ? ` · ${y}` : ''}</em></p>\n${paragraphs(e.description, 10)}\n${seeAlso(events, e, (o) => `${year(o.date) ?? ''} : ${link(`/timeline/${slugOf(o)}`, o.title)}`)}`,
+    })
+  }
+
+  /* Proverbes : une page chacun */
+  for (const p of proverbs) {
+    const path_ = `/proverbs/${slugOf(p)}`
+    const texte = String(p.text || '').replace(/^[«"\s]+|[»"\s]+$/g, '')
+    const pays = countries.find((c) => norm(countryName(c)) === norm(p.countryName))
+    const memePays = proverbs.filter((o) => o !== p && norm(o.countryName) === norm(p.countryName)).slice(0, 5)
+    const crumbs = [home, { name: 'Repères', path: '/reperes' }, { name: `« ${texte} »`, path: path_ }]
+    pages.push({
+      path: path_,
+      aliases: aliasOf('proverbs', p),
+      title: `« ${texte} »`,
+      heading: `« ${texte} »`,
+      description: `${p.language ? `Proverbe ${String(p.language).toLowerCase()}` : 'Proverbe'}${p.countryName ? `, ${p.countryName}` : ''}${p.explanation ? ` : ${p.explanation}` : ''}`,
+      type: 'article',
+      lastmod: p.updatedAt,
+      breadcrumbs: crumbs,
+      priority: '0.5',
+      body: `<p><em>${esc([p.language, p.countryName].filter(Boolean).join(' · '))}</em></p>
+${p.explanation ? `<h2>Ce qu’il veut dire</h2><p>${esc(p.explanation)}</p>` : ''}
+${pays ? `<p>Pays : ${link(`/country/${pays.id.toLowerCase()}`, countryName(pays))}</p>` : ''}
+${memePays.length ? `<h2>Autres proverbes${p.countryName ? `, ${esc(p.countryName)}` : ''}</h2>${list(memePays, (o) => link(`/proverbs/${slugOf(o)}`, o.text))}` : ''}`,
+      jsonLd: {
+        '@type': 'Quotation',
+        text: texte,
+        inLanguage: 'fr',
+        about: p.explanation || undefined,
+        spatialCoverage: p.countryName ? { '@type': 'Country', name: p.countryName } : undefined,
+        url: absolute(path_),
+      },
     })
   }
 

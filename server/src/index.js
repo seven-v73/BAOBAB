@@ -212,6 +212,7 @@ try {
       [await load('Story'), 'title'],
       [await load('Collection'), 'title'],
       [await load('TimelineEvent'), 'title'],
+      [await load('Proverb'), 'text'],
     ])
   } catch (error) {
     logger.warn(`Slugs : attribution impossible — ${error.message}`)

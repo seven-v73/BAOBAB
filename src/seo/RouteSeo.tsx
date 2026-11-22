@@ -34,6 +34,7 @@ const detailSections: Array<[RegExp, SeoInput]> = [
   [/^\/stories\/[^/]+$/, { title: 'Récits' }],
   [/^\/collections\/[^/]+$/, { title: 'Récits' }],
   [/^\/timeline\/[^/]+$/, { title: 'Repères' }],
+  [/^\/proverbs\/[^/]+$/, { title: 'Proverbe' }],
 ]
 
 export const RouteSeo = () => {

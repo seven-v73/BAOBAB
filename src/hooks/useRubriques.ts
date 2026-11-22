@@ -193,6 +193,7 @@ const fromProverb = (proverb: any): ProverbItem => ({
   citation: proverb.text,
   langue: proverb.language || '',
   origine: joinMeta(proverb.language ? `Proverbe ${proverb.language.toLowerCase()}` : 'Proverbe', proverb.countryName),
+  to: lienContenu('proverbs', proverb),
 })
 
 // Fiches publiées de la base de connaissances (server/data/afrique), ouvertes sur /fiche/:id

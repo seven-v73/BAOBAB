@@ -312,7 +312,13 @@
 }
 
 .mrp-proverbes li {
+  display: flex;
+}
+
+.mrp-proverbes .mrp-proverbe {
   --readable-text: var(--brand-foret);
+  flex: 1;
+  color: var(--readable-text);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -551,7 +557,7 @@
     gap: 12px;
   }
 
-  .mrp-proverbes li {
+  .mrp-proverbes .mrp-proverbe {
     min-height: 0;
     gap: 10px;
     padding: 22px;
@@ -609,23 +615,26 @@
   margin-top: 8px;
 }
 
-/* Cartes cliquables : dates et personnalités ouvrent leur fiche */
+/* Cartes cliquables : dates, personnalités et proverbes ouvrent leur fiche */
 .mrp .mrp-date-card,
-.mrp .mrp-figure {
+.mrp .mrp-figure,
+.mrp .mrp-proverbe {
   text-decoration: none;
   transition: transform 150ms var(--ease-out, cubic-bezier(0.23, 1, 0.32, 1)), box-shadow 150ms var(--ease-out, cubic-bezier(0.23, 1, 0.32, 1));
 }
 
 @media (hover: hover) and (pointer: fine) {
   .mrp a.mrp-date-card:hover,
-  .mrp a.mrp-figure:hover {
+  .mrp a.mrp-figure:hover,
+  .mrp a.mrp-proverbe:hover {
     transform: translateY(-2px);
     box-shadow: 0 0 0 1px rgb(23 65 35 / 0.3);
   }
 }
 
 .mrp a.mrp-date-card:focus-visible,
-.mrp a.mrp-figure:focus-visible {
+.mrp a.mrp-figure:focus-visible,
+.mrp a.mrp-proverbe:focus-visible {
   outline: 2px solid var(--brand-foret);
   outline-offset: 2px;
 }
@@ -661,8 +670,19 @@
   letter-spacing: 0.02em;
 }
 
-.mrp-proverbes li {
+.mrp-proverbes .mrp-proverbe {
   box-shadow: inset 0 4px 0 var(--mrp-region);
+}
+
+/* Survol : le filet de région reste, la bordure s'ajoute */
+@media (hover: hover) and (pointer: fine) {
+  .mrp .mrp-proverbes a.mrp-proverbe:hover {
+    box-shadow: inset 0 4px 0 var(--mrp-region), 0 0 0 1px rgb(23 65 35 / 0.3);
+  }
+
+  .mrp .mrp-proverbes a.mrp-proverbe--sombre:hover {
+    box-shadow: inset 0 4px 0 var(--mrp-region), 0 0 0 1px rgb(255 255 255 / 0.35);
+  }
 }
 
 .mrp-plus {

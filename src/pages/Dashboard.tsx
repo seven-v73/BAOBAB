@@ -55,7 +55,7 @@ const ITEM_VIEW: Record<string, { label: string; group: Group; to: (item: any, i
   country: { label: 'Pays', group: 'pays', to: (item) => `/country/${String(item.id).toLowerCase()}` },
   figure: { label: 'Personnalité', group: 'reperes', to: (_, id) => `/figures/${id}` },
   event: { label: 'Date', group: 'reperes', to: (_, id) => `/timeline/${id}` },
-  proverb: { label: 'Proverbe', group: 'reperes', to: () => '/reperes?type=proverbes' },
+  proverb: { label: 'Proverbe', group: 'reperes', to: (_, id) => `/proverbs/${id}` },
 }
 
 const toSaved = (bookmark: any) => {

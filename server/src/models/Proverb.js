@@ -1,4 +1,5 @@
 import mongoose from 'mongoose'
+import { slugPlugin } from '../utils/slug.js'
 
 const proverbSchema = new mongoose.Schema({
   text: {
@@ -98,6 +99,9 @@ proverbSchema.index(
 // Index composés pour les requêtes fréquentes
 proverbSchema.index({ country: 1, category: 1, isFeatured: 1 })
 proverbSchema.index({ countryName: 1, isVerified: 1 })
+
+// Adresse lisible (/proverbs/la-riviere-ne-se-moque-pas-de-la-source), attribuée à la création
+proverbSchema.plugin(slugPlugin, { source: 'text' })
 
 const Proverb = mongoose.model('Proverb', proverbSchema)
 
