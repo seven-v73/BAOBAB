@@ -29,6 +29,8 @@ interface Figure {
   legacy?: string
   culturalImpact?: string
   image?: string
+  // Légende du portrait, avec le crédit exigé par la licence (Wikimedia Commons)
+  images?: Array<{ url: string; caption?: string }>
   tags?: string[]
   relatedEvents?: Array<{ _id: string; title: string; date: string }>
   relatedCountries?: Array<{ nameFr?: string } | string>
@@ -124,7 +126,7 @@ export const HistoricalFigureDetail = () => {
       byline={{ name: figure.nameNative && figure.nameNative !== figure.name ? figure.nameNative : undefined, detail: figure.verified ? 'Fiche relue par l’équipe' : undefined }}
       bookmark={{ itemType: 'figure', itemId: figure._id }}
       shareUrl={lienContenu('figures', figure)}
-      image={portrait ? { src: portrait, caption: figure.name } : undefined}
+      image={portrait ? { src: portrait, caption: (portrait === figure.image && figure.images?.find((i) => i.url === portrait)?.caption) || figure.name } : undefined}
       place={place.codes.length ? place : undefined}
       toc={toc}
       tocLabel="Dans cette fiche"

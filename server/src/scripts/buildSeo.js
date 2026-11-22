@@ -224,6 +224,14 @@ const renderPage = (shell, page) =>
     .replace(/<!--seo:start-->[\s\S]*?<!--seo:end-->/, () => `<!--seo:start-->\n    ${headTags(page)}\n    <!--seo:end-->`)
     .replace('<div id="root"></div>', () => `<div id="root">${snapshot(page)}</div>`)
 
+// Portraits illustrés du site (src/data/reperesContent.ts), pour les aperçus de partage
+const portraitsIllustres = () => {
+  const fichier = path.join(rootDir, 'src/data/reperesContent.ts')
+  if (!fs.existsSync(fichier)) return new Map()
+  const texte = fs.readFileSync(fichier, 'utf8')
+  return new Map([...texte.matchAll(/nom:\s*'([^']+)'[\s\S]*?portrait:\s*'(\/content\/[^']+)'/g)].map((m) => [norm(m[1]), m[2]]))
+}
+
 /* ------------------------------------------------------------- collecte des pages */
 
 const collectPages = async (models) => {
@@ -427,6 +435,7 @@ ${seeAlso(countries, c, (o) => link(`/country/${o.id.toLowerCase()}`, countryNam
       (p) => `<blockquote>${esc(p.text)}</blockquote> <small>${esc([p.countryName, p.language].filter(Boolean).join(' · '))}</small>${p.explanation ? `<p>${esc(p.explanation)}</p>` : ''}`,
     )}`,
   })
+  const illustres = portraitsIllustres()
   for (const f of figures) {
     const path_ = `/figures/${slugOf(f)}`
     const aliases_ = aliasOf('figures', f)
@@ -439,7 +448,8 @@ ${seeAlso(countries, c, (o) => link(`/country/${o.id.toLowerCase()}`, countryNam
       title: `${f.name}${span}`,
       heading: f.name,
       description: f.shortBiography || f.biography,
-      image: f.image,
+      image: illustres.get(norm(f.name)) || f.image,
+      imageAlt: f.images?.find((i) => i.url === f.image)?.caption || f.name,
       type: 'profile',
       lastmod: f.updatedAt,
       breadcrumbs: [home, { name: 'Repères', path: '/reperes' }, { name: f.name, path: path_ }],
